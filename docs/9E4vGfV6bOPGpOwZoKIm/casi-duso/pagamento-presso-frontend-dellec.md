@@ -4,7 +4,7 @@ Questo processo viene attivato nel momento in cui l'operazione di pagamento è a
 
 <div align="center">
 
-<img src="../.gitbook/assets/nuovo_modello1_carrello_V3_SANP (15).png" alt="">
+<img src="../.gitbook/assets/nuovo_modello1_carrello_V3_SANP (17).png" alt="">
 
 </div>
 

@@ -4,7 +4,7 @@ Nel caso di [pagamento-presso-frontend-dellec.md](../../casi-duso/pagamento-pres
 
 La navigazione del Checkout può avvenire solo in modalità Guest, viene richiesta una mail a cui inviare l’esito dell’operazione.
 
-![](<../../.gitbook/assets/nuovo\_modello1\_carrello\_V3\_SANP\_EC (2).png>)
+![](<../../.gitbook/assets/nuovo\_modello1\_carrello\_V3\_SANP\_EC (1).png>)
 
 ## Parametri della redirect <a href="#_om57nyt5rga1" id="_om57nyt5rga1"></a>
 
