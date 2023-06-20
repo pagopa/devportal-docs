@@ -1,0 +1,16 @@
+# Table of contents
+
+* [Knowledge-base di Piattaforma Notifiche](README.md)
+  * [Generazione client e definizioni delle API](knowledge-base-di-piattaforma-notifiche/generazione-client-e-definizioni-delle-api.md)
+  * [FAQ inserimento notifiche](knowledge-base-di-piattaforma-notifiche/faq-inserimento-notifiche.md)
+  * [FAQ sulle streams](knowledge-base-di-piattaforma-notifiche/faq-sulle-streams.md)
+  * [Focus sull'inserimento della notifica](knowledge-base-di-piattaforma-notifiche/focus-sullinserimento-della-notifica/README.md)
+    * [Inserimento Notifica con il comando curl](knowledge-base-di-piattaforma-notifiche/focus-sullinserimento-della-notifica/inserimento-notifica-con-il-comando-curl.md)
+    * [Inserimento Notifica con Postman](knowledge-base-di-piattaforma-notifiche/focus-sullinserimento-della-notifica/inserimento-notifica-con-postman.md)
+  * [Focus sulla creazione e gestione delle stream](knowledge-base-di-piattaforma-notifiche/focus-sulla-creazione-e-gestione-delle-stream/README.md)
+    * [Inserimento e creazione stream con il comando curl](knowledge-base-di-piattaforma-notifiche/focus-sulla-creazione-e-gestione-delle-stream/inserimento-e-creazione-stream-con-il-comando-curl.md)
+    * [Inserimento e creazione stream con Postman](knowledge-base-di-piattaforma-notifiche/focus-sulla-creazione-e-gestione-delle-stream/inserimento-e-creazione-stream-con-postman.md)
+  * [Focus sulla validazione della Richiesta di invio Notifica](knowledge-base-di-piattaforma-notifiche/focus-sulla-validazione-della-richiesta-di-invio-notifica.md)
+  * [Focus sul Perfezionamento della notifica](knowledge-base-di-piattaforma-notifiche/focus-sul-perfezionamento-della-notifica.md)
+  * [Focus sull'attualizzazione della posizione debitoria](knowledge-base-di-piattaforma-notifiche/focus-sullattualizzazione-della-posizione-debitoria.md)
+  * [PN-Test di validazione avvenuta integrazione con Piattaforma Notifiche](knowledge-base-di-piattaforma-notifiche/pn-test-di-validazione-avvenuta-integrazione-con-piattaforma-notifiche.md)
