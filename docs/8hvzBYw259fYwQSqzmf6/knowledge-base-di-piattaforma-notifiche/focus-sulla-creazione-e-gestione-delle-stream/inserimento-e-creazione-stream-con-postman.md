@@ -50,7 +50,7 @@ Aprire la scheda **Leggi progressi notifiche** e riprodurre questa configurazion
 
 Nella response di questo servizio, si otterrà il seguente payload che rappresenta tutti gli eventi:
 
-<figure><img src="../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
 
 Gli eventi ottenuti dovranno essere memorizzati dal client poichè nelle successive chiamate i risultati ottenuti verranno consumati e cancellati dallo stream per lasciare il posto agli eventi successivi. \
 E' poi necessario selezionare il tab Headers della response per visualizzare i valori ottenuti:
