@@ -41,7 +41,7 @@ Aprire la scheda **richiesta di pre-caricamento allegati** ed inserire nel body 
 
 Nella response di questo servizio, si otterrà il seguente payload:
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 **NOTA:** i valori ottenuti nella response dovranno essere memorizzati per i futuri utilizzi; nello specifico:
 
@@ -63,7 +63,7 @@ Spostarsi poi nella sezione "Body" e selezionare il radio button "binary", selez
 
 **NOTA:** avendo 2 documenti, le chiamate da effettuare per effettuare l'upload sono 2, pertanto sarà necessario utilizzare i riferimenti **\<url1>, \<httpMethod1>** e **\<secret1>** nella chiamata di caricamento del primo file e **\<url2>, \<httpMethod2>** e **\<secret2>** nella chiamata di caricamento del secondo file. Per effettuare questa chiamata sarà necessario selezionare il "Desktop Agent" di Postman, dalla sezione dedicata in basso.
 
-<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
 Dopo aver lanciato la richiesta per entrambi ed aver ottenuto esito positivo, bisogna memorizzare i valore di x-amz-version-id: **\<versionIdNotifica>** e **\<versionIdPagamento>** che si ottengono nella sezione "Header" della response, rispettivamente il primo nella response del primo upload ed il secondo nella response del secondo upload, che verranno utilizzati nella prossima chiamata:
 
@@ -73,7 +73,7 @@ Dopo aver lanciato la richiesta per entrambi ed aver ottenuto esito positivo, bi
 
 A questo punto è possibile effettuare l'inserimento della Notifica nella scheda **Richiesta invio notifica**, inserendo correttamente il body della request:
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 **NOTA:**
 
