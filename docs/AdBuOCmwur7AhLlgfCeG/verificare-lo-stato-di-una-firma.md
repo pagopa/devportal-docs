@@ -7,7 +7,6 @@ La risorsa restituita conterrà la proprietà `status` che può contenere i segu
 * `DRAFT` - la richiesta di firma è stata creata, ma **non è ancora stata finalizzata**. In questo caso, è necessario caricare i documenti o marcarla esplicitamente come `READY`;
 * `READY` - La richiesta di firma è stata finalizzata e sarà analizzata e preparata per l'invio al cittadino;
 * `WAIT_FOR_SIGNATURE` - la richiesta di firma è stata analizzata, può pertanto essere inviata al cittadino. Questo stato persiste fintanto che il cittadino non completa il processo di firma;
-* `WAIT_FOR_QTSP` - il cittadino ha completato il processo di firma e i documenti sono in attesa di firma da parte del Qualified Trust Service Provider;
 * `SIGNED` - tutti i documenti contenuti nella richiesta di firma sono stati firmati;
 * `REJECTED` - non è stato possibile procedere con la firma dei documenti.&#x20;
 

@@ -42,6 +42,35 @@ Una volta preparati i documenti in uno dei formati supportati e inseriti i campi
 
 </details>
 
-Ecco uno scheda che delinea il processo:
+Ecco un diagramma di sequenza che delinea il processo di creazione di una "Richiesta di Firma", una volta ottenuti "Signer ID" e "Dossier ID"
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+```mermaid
+sequenceDiagram
+    autonumber
+    participant E as Ente
+    participant API as Firma con IO (API)
+    participant ST as Firma con IO (Storage)
+    actor CIT as Cittadino
+
+    E ->> API: Richiede la creazione di una SIGNATURE REQUEST
+    API -->> E: Restituisce la SIGNATURE REQUEST, in stato DRAFT
+
+    loop Per ogni file PDF da caricare
+        E ->> API: Richiede UPLOAD_URL per il documento
+        API -->> E: Restituisce UPLOAD_URL
+        E ->> ST: Carica file PDF tramite UPLOAD URL
+        ST -->> E: Restituisce esito upload
+    end
+
+    E ->> API: Imposta SIGNATURE REQUEST come READY
+    API -->> E: Restituisce SIGNATURE REQUEST con QRCODE
+
+    alt Inoltro QRCODE 
+        E ->> CIT: Manda il QRCODE usando i propri canali
+    else Invio Messaggio su App IO 
+        E ->> API: Richiede NOTIFICATION per SIGNATURE_REQUEST
+        API -->> E: Se CITTADINO ha i Messaggi su IO abilitati, prende in carico la richiesta
+        API ->> CIT: Inoltra Messaggio su IO con SIGNATURE REQUEST
+    end
+```
+
