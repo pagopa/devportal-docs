@@ -29,7 +29,7 @@ Aprire la scheda **Crea nuovo stream di eventi** ed inserire nel body il seguent
 
 Nella response di questo servizio, si otterrà il seguente payload:
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 * **\<streamId>:** id dello stream che viene autogenerato dal servizio
 * **\<activationDate>:** data di attivazione dello stream autogenerata dal servizio
@@ -41,7 +41,7 @@ Nella response di questo servizio, si otterrà il seguente payload:
 La prima interrogazione dello stream permetterà di ricevere i primi 50 eventi registrati dallo stream. \
 Aprire la scheda **Leggi progressi notifiche** e riprodurre questa configurazione:
 
-<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure>
 
 **NOTA:** sostituire i seguenti:
 
@@ -50,12 +50,12 @@ Aprire la scheda **Leggi progressi notifiche** e riprodurre questa configurazion
 
 Nella response di questo servizio, si otterrà il seguente payload che rappresenta tutti gli eventi:
 
-<figure><img src="../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (15) (1).png" alt=""><figcaption></figcaption></figure>
 
 Gli eventi ottenuti dovranno essere memorizzati dal client poichè nelle successive chiamate i risultati ottenuti verranno consumati e cancellati dallo stream per lasciare il posto agli eventi successivi. \
 E' poi necessario selezionare il tab Headers della response per visualizzare i valori ottenuti:
 
-<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
 
 **NOTA:** nell'header della response ottenuta fare attenzione al campo `retry-after` che deve essere memorizzato per le successive chiamate:
 
@@ -69,7 +69,7 @@ E' quindi fondamentale rispettare la logica che viene rappresentata dal campo "_
 Dalle interrogazioni successive alla prima dello stream, si otterranno i 50 eventi successivi a quello del lastEventId (l'eventId dell'ultimo evento ottenuto nelle precedenti chiamate).\
 Aprire la scheda **Leggi progressi notifiche** e riprodurre questa configurazione:
 
-<figure><img src="../../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (18) (1).png" alt=""><figcaption></figcaption></figure>
 
 **NOTA:** sostituire i seguenti:
 

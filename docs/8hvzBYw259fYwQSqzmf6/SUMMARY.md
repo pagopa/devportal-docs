@@ -4,6 +4,7 @@
   * [Generazione client e definizioni delle API](knowledge-base-di-piattaforma-notifiche/generazione-client-e-definizioni-delle-api.md)
   * [FAQ inserimento notifiche](knowledge-base-di-piattaforma-notifiche/faq-inserimento-notifiche.md)
   * [FAQ sulle streams](knowledge-base-di-piattaforma-notifiche/faq-sulle-streams.md)
+  * [Focus su Interoperabilità e generazione Voucher per SEND - UAT (Piattaforma Notifiche)](knowledge-base-di-piattaforma-notifiche/focus-su-interoperabilita-e-generazione-voucher-per-send-uat-piattaforma-notifiche.md)
   * [Focus sull'inserimento della notifica](knowledge-base-di-piattaforma-notifiche/focus-sullinserimento-della-notifica/README.md)
     * [Inserimento Notifica con il comando curl](knowledge-base-di-piattaforma-notifiche/focus-sullinserimento-della-notifica/inserimento-notifica-con-il-comando-curl.md)
     * [Inserimento Notifica con Postman](knowledge-base-di-piattaforma-notifiche/focus-sullinserimento-della-notifica/inserimento-notifica-con-postman.md)

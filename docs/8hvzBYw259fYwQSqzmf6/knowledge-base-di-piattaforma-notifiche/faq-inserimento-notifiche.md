@@ -216,7 +216,7 @@ A questo punto bisogna entrare nel portale lato cittadino, accedere al dettaglio
 
 Se invece la PA Mittente ha inserito il bollettino di pagamento separatamente dall'atto, all'interno del campo NewNotificationRequest.recipients.payment.**pagoPaForm,** entrando nel portale lato cittadino ed accedendo al dettaglio della notifica appena inviata, apparirà la voce _Paga XXX_ per pagare online e _Scarica l'avviso PagoPA_ per scaricare il bollettino di pagamento come in foto.
 
-<img src="../.gitbook/assets/image (13).png" alt="" data-size="original">
+<img src="../.gitbook/assets/image (13) (1).png" alt="" data-size="original">
 
 ### Come si può testare la correttezza del Codici Fiscale?
 
