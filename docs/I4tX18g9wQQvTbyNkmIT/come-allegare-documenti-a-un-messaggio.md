@@ -1,6 +1,6 @@
 # Come allegare documenti a un Messaggio
 
-Gli enti che hanno sottoscritto il [programma Premium](https://pagopa.atlassian.net/io-guida-tecnica/v/io-guida-tecnica-2.2/abilitazioni/funzionalita-premium) possono **includere allegati in formato PDF** nei messaggi che inviano. In questo tutorial ti spiegheremo come fare.
+![](.gitbook/assets/56605a6e-888f-43da-8f1c-c1c346cf9ce1.jpg)Gli enti che hanno sottoscritto il [programma Premium](https://pagopa.atlassian.net/io-guida-tecnica/v/io-guida-tecnica-2.2/abilitazioni/funzionalita-premium) possono **includere allegati in formato PDF** nei messaggi che inviano. In questo tutorial ti spiegheremo come fare.
 
 ### Panoramica <a href="#panoramica" id="panoramica"></a>
 
@@ -12,7 +12,7 @@ I file degli Allegati non sono trasmessi al momento dell'invio del Messaggio, n�
 
 Per consentire questo scambio di dati dovrai fornire alcune informazioni in sede di _onboarding_ ed esporre un'API REST che sarà richiamata da IO (_callback_). Il diagramma che segue riporta la sequenza delle operazioni coinvolte nell'integrazione tra la tua Organizzazione e IO per il supporto agli Allegati.
 
-![](blob:https://pagopa.atlassian.net/85670c15-6988-41de-90c3-f1bfa4fc194a#media-blob-url=true\&id=c104392c-2c19-48e8-b49c-183b4acc3834\&collection=contentId-721158641\&contextId=721158641\&height=1242\&width=1173\&alt=)
+<figure><img src=".gitbook/assets/56605a6e-888f-43da-8f1c-c1c346cf9ce1 (1).jpg" alt=""><figcaption></figcaption></figure>
 
 **Integrazione: sequenza degli eventi**
 
@@ -22,11 +22,12 @@ Nel diagramma, le frecce in colore blu rappresentano le chiamate che IO fa al _b
 
 Dopo aver definito il Servizio che userai per spedire i tuoi Messaggi, per abilitarlo all'invio di Allegati dovrai [comunicare a IO](https://docs.pagopa.it/area-riservata-enti-app-io/area-riservata-enti-app-io/processo-di-adesione-a-app-io/processo-di-adesione-a-app-io-premium) alcuni dati chiave:
 
-*   `serviceId`: è l'identificativo del Servizio IO, puoi recuperarlo accedendo alla sezione Servizi dell'Area Riservata
+* `serviceId`: è l'identificativo del Servizio IO, puoi recuperarlo accedendo alla sezione Servizi dell'Area Riservata
 
-    ![](blob:https://pagopa.atlassian.net/28241e87-0bc3-4a62-9374-61dda955ab92#media-blob-url=true\&id=fdbf9e76-605f-4caa-8f30-da501b69a58f\&collection=contentId-721158641\&contextId=721158641\&height=618\&width=938\&alt=)
+<figure><img src=".gitbook/assets/c400de9b-63ba-415e-9009-17d33b111cf4.jpg" alt=""><figcaption></figcaption></figure>
 
-    Dove puoi trovare il `serviceId`
+Dove puoi trovare il `serviceId`
+
 * `baseUrl`: IO necessita di richiamare il tuo backend per ottenere le informazioni sugli allegati al tuo Messaggio. La URL che IO utilizzerà per questo scopo è costituita da una parte fissa, `baseUrl`, e una variabile a seconda dello scenario e del messaggio. Esempio di `baseUrl`: `https://integrazione.mioente.it/io`
 * `API Key`: è la chiave di autenticazione che IO utilizzerà per richiamare i tuoi endpoint di callback
   * ​⚠ Fai attenzione, _non_ si tratta di una delle chiavi, primaria o secondaria, del tuo Servizio!
@@ -61,7 +62,7 @@ Trovi tutte le informazioni di dettaglio circa gli _endpoint_ di _callback_ nell
 
 Il risultato che vogliamo ottenere in questo esempio è che il Cittadino riceva un Messaggio IO simile a quello mostrato di seguito:
 
-![](blob:https://pagopa.atlassian.net/78e9a79f-e28f-4708-8674-0f44723893eb#media-blob-url=true\&id=3e819eaf-b3b0-4971-97e7-1ace8f1ba158\&collection=contentId-721158641\&contextId=721158641\&height=977\&width=465\&alt=)
+<figure><img src=".gitbook/assets/e4b2ef2c-8743-429e-a6f8-403a7465ebc2.jpg" alt=""><figcaption></figcaption></figure>
 
 Esempio di Messaggio con Allegati
 
@@ -86,9 +87,10 @@ In questo tutorial, gli esempi prevedono che a fronte di un `third_party_data.id
 
 `curl --location --request POST 'https://api.io.pagopa.it/api/v1/messages' \ --header 'Ocp-Apim-Subscription-Key: 217d66f7a83642578111d733e1741813' \ --header 'Content-Type: application/json' \ --data-raw ' { "feature_level_type": "ADVANCED", "time_to_live": 3600, "content": { "subject": "Partecipazione Evento", "markdown": "Gentile Mario Rossi,\n\r\n\rabbiamo accettato la tua richiesta di partecipazione all'\''evento e ti inviamo in allegato la ricevuta del pagamento della tua quota e la brochure con tutte le informazioni utili.\n\rA Ti aspettiamo!\n\rL'\''Amministrazione Comunale di Ipazia.", "third_party_data": { "id": "000003", "has_attachments": true } }, "fiscal_code": "RSRNOU70S54S000L" }'`
 
-*   Il valore del header `Ocp-Apim-Subscription-Key` è la chiave (primaria o secondaria) del tuo Servizio IO: puoi recuperarla accedendo all'Area Riservata e cercando la scheda del tuo Servizio nella pagina "Servizi"
+* Il valore del header `Ocp-Apim-Subscription-Key` è la chiave (primaria o secondaria) del tuo Servizio IO: puoi recuperarla accedendo all'Area Riservata e cercando la scheda del tuo Servizio nella pagina "Servizi"
 
-    ![](blob:https://pagopa.atlassian.net/018bd3e1-aab6-4594-8949-d380f4050de1#media-blob-url=true\&id=ab346920-2e8f-4aa7-a72a-f91647e378c2\&collection=contentId-721158641\&contextId=721158641\&height=162\&width=720\&alt=)
+<figure><img src=".gitbook/assets/db914d95-8711-4d8a-8ce1-3be4d402e031.png" alt=""><figcaption></figcaption></figure>
+
 * Il valore `"ADVANCED"` per `feature_level_type` identifica un Messaggio Premium: impostalo così per poter aggiungere Allegati al tuo Messaggio
 * Componi il tuo messaggio (`subject`, `markdown`) seguendo i consigli riportati nel [Manuale dei Servizi di IO](https://docs.pagopa.it/manuale-servizi/)​
 * La presenza della struttura `third_party_data` indica a IO che il tuo Messaggio veicola uno o più Allegati:
@@ -112,7 +114,7 @@ In seguito alla richiesta di invio del Messaggio, come visto in [**Step 2 - Invi
 
 Toccando la notifica, oppure aprendo manualmente App IO e toccando il nuovo messaggio nell'elenco dei messaggi ricevuti, l'utente accederà al dettaglio: se tutto sarà andato come previsto, IO avrà contattato i tuoi sistemi per recuperare i metadati degli allegati (numero, nomi e URL relative), potendo così costruire la pagina da mostrarti: nota la sezione Allegati con l'elenco dei tuoi file.
 
-![](blob:https://pagopa.atlassian.net/484c4acc-b780-40d5-b3ca-6f140ed4bfe7#media-blob-url=true\&id=482ff6e5-e747-469e-bef4-ad6b9b93f270\&collection=contentId-721158641\&contextId=721158641\&height=977\&width=465\&alt=)
+<figure><img src=".gitbook/assets/d066986c-666c-44e0-bbb5-9cb5b8e0a99d (1).jpg" alt=""><figcaption></figcaption></figure>
 
 **A livello di integrazione** il backend di IO avrà effettuato una richiesta GET all'indirizzo `https://integrazione.mioente.it/io/messages/000003`, che avrà costruito come segue (come previsto dalle relative [specifiche OpenAPI](https://editor.swagger.io/?url=https://raw.githubusercontent.com/pagopa/io-backend/master/openapi/consumed/api-third-party.yaml)):
 
@@ -125,9 +127,11 @@ L'endpoint avrà risposto con questi dati:
 `{ "attachments": [ { "id": "1", "url": "attachments/ricevuta.pdf", "content_type": "application/pdf", "name": "ricevuta.pdf" }, { "id": "2", "url": "attachments/evento.pdf", "content_type": "application/pdf", "name": "evento.pdf" } ] }`
 
 * il campo `id` sarà usato da IO in evoluzioni future. Per il momento è richiesto solo che sia valorizzato in modo univoco, ad esempio puoi usare una nuova [GUID](https://it.wikipedia.org/wiki/GUID)​
-*   ![](blob:https://pagopa.atlassian.net/42ca41ff-bbdc-4023-9a5f-65b6d9d69296#media-blob-url=true\&id=21d0ae46-b1db-49f9-8306-07f86ed9c999\&collection=contentId-721158641\&contextId=721158641\&height=200\&width=200\&alt=)
 
-    Il campo `url` deve contenere il percorso relativo per il download dell’allegato, come vedremo meglio in dettaglio tra poco in [**Step 4 - Visualizzazione di un Allegato**](https://docs.pagopa.it/kb-enti-messaggi/tutorial-e-casi-duso/indice-dei-tutorial-e-dei-casi-duso/come-allegare-documenti-a-un-messaggio-funzionalita-premium#step-4-visualizzazione-di-un-allegato)​
+![](.gitbook/assets/191316f6-3e9f-426e-b7e4-6e0880a3d7da.png)
+
+Il campo `url` deve contenere il percorso relativo per il download dell’allegato, come vedremo meglio in dettaglio tra poco in [**Step 4 - Visualizzazione di un Allegato**](https://docs.pagopa.it/kb-enti-messaggi/tutorial-e-casi-duso/indice-dei-tutorial-e-dei-casi-duso/come-allegare-documenti-a-un-messaggio-funzionalita-premium#step-4-visualizzazione-di-un-allegato)​
+
 * Il campo `content_type` deve necessariamente contenere il valore “application/pdf”, in quanto IO supporta unicamente allegati in formato PDF/A (consigliamo ai Mittenti di adottare il formato PDF/A-1a, che garantisce la massima sicurezza e accessibilità per i propri documenti)
 * Il campo `name` sarà mostrato come nome dell’allegato nell’elenco in App: sceglilo con cura per comunicare correttamente col tuo utente finale! Deve essere, come nell’esempio, il nome del file che l’utente si ritroverà sul proprio dispositivo se sceglierà di scaricarlo dopo averlo visualizzato: puoi dunque usare un nome del tipo "Ricevuta Evento.pdf" o semplicemente "ricevuta.pdf", _la cosa importante è includere l'estensione ".pdf"_ per consentire all'app e al sistema operativo del dispositivo di trattare correttamente il file eventualmente scaricato dal destinatario
 
@@ -137,7 +141,7 @@ Toccando uno dei file allegati al tuo Messaggio, il destinatario avvierà il pro
 
 Dopo alcuni secondi, necessari affinché il file sia trasferito dai tuoi sistemi a IO e quindi all'App di destinazione, all'utente sarà mostrato il visualizzatore di PDF integrato in App IO:
 
-![](blob:https://pagopa.atlassian.net/cca3cbc7-ddc2-4004-ab7e-09ccd2bd4c5b#media-blob-url=true\&id=5247777c-8e77-4de6-b6f9-f8a1b3bd0790\&collection=contentId-721158641\&contextId=721158641\&height=977\&width=465\&alt=)
+<figure><img src=".gitbook/assets/9e957cef-79f4-4ed6-b6c7-480b3c82789a.png" alt=""><figcaption></figcaption></figure>
 
 Potrà quindi utilizzare i gesti di zoom e spostamento per esaminare l'allegato più in dettaglio, così come potrà scegliere di:
 
