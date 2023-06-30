@@ -1,6 +1,6 @@
 # Come allegare documenti a un Messaggio
 
-![](.gitbook/assets/56605a6e-888f-43da-8f1c-c1c346cf9ce1.jpg)Gli enti che hanno sottoscritto il [programma Premium](https://pagopa.atlassian.net/io-guida-tecnica/v/io-guida-tecnica-2.2/abilitazioni/funzionalita-premium) possono **includere allegati in formato PDF** nei messaggi che inviano. In questo tutorial ti spiegheremo come fare.
+Gli enti che hanno sottoscritto il [programma Premium](https://pagopa.atlassian.net/io-guida-tecnica/v/io-guida-tecnica-2.2/abilitazioni/funzionalita-premium) possono **includere allegati in formato PDF** nei messaggi che inviano. In questo tutorial ti spiegheremo come fare.
 
 ### Panoramica <a href="#panoramica" id="panoramica"></a>
 
@@ -114,7 +114,7 @@ In seguito alla richiesta di invio del Messaggio, come visto in [**Step 2 - Invi
 
 Toccando la notifica, oppure aprendo manualmente App IO e toccando il nuovo messaggio nell'elenco dei messaggi ricevuti, l'utente accederà al dettaglio: se tutto sarà andato come previsto, IO avrà contattato i tuoi sistemi per recuperare i metadati degli allegati (numero, nomi e URL relative), potendo così costruire la pagina da mostrarti: nota la sezione Allegati con l'elenco dei tuoi file.
 
-<figure><img src=".gitbook/assets/d066986c-666c-44e0-bbb5-9cb5b8e0a99d (1).jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/d066986c-666c-44e0-bbb5-9cb5b8e0a99d.jpg" alt=""><figcaption></figcaption></figure>
 
 **A livello di integrazione** il backend di IO avrà effettuato una richiesta GET all'indirizzo `https://integrazione.mioente.it/io/messages/000003`, che avrà costruito come segue (come previsto dalle relative [specifiche OpenAPI](https://editor.swagger.io/?url=https://raw.githubusercontent.com/pagopa/io-backend/master/openapi/consumed/api-third-party.yaml)):
 
