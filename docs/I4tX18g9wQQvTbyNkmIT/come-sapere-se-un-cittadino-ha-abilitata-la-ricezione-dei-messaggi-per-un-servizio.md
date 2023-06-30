@@ -33,6 +33,6 @@ Ecco tutti i passaggi:
 
 Di seguito ti proponiamo un video tutorial che mostra sull’applicazione Postman tutti i passaggi appena descritti:
 
-[_https://www.youtube.com/watch?v=m8t9npjya4c_](https://www.youtube.com/watch?v=m8t9npjya4c)&#x20;
+
 
 All'interno della [Guida Tecnica](https://docs.pagopa.it/io-guida-tecnica/api/api-messaggi/get-a-user-profile-using-post) trovi tutta la documentazione necessaria per l'utilizzo di dell' API di integrazione.
