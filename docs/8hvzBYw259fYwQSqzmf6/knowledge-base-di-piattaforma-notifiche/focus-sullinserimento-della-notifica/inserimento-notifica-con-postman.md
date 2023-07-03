@@ -55,7 +55,7 @@ Nella response di questo servizio, si otterrà il seguente payload:
 
 Ora bisogna effettuare l'operazione di upload verso il _safeStorage_ per entrambi i documenti. Cliccando sulle url ottenute, si aprirà una scheda Postman già parzialmente configurata con l'url di interesse. Sarà ora necessario compilare gli headers nella sezione "Headers" inserendo i parametri ottenuti nella precedente chiamata:
 
-<figure><img src="../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (14) (1).png" alt=""><figcaption></figcaption></figure>
 
 Spostarsi poi nella sezione "Body" e selezionare il radio button "binary", selezionando il file che si vuole caricare:
 
@@ -67,7 +67,7 @@ Spostarsi poi nella sezione "Body" e selezionare il radio button "binary", selez
 
 Dopo aver lanciato la richiesta per entrambi ed aver ottenuto esito positivo, bisogna memorizzare i valore di x-amz-version-id: **\<versionIdNotifica>** e **\<versionIdPagamento>** che si ottengono nella sezione "Header" della response, rispettivamente il primo nella response del primo upload ed il secondo nella response del secondo upload, che verranno utilizzati nella prossima chiamata:
 
-<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 4) Effettuare l'inserimento della notifica
 

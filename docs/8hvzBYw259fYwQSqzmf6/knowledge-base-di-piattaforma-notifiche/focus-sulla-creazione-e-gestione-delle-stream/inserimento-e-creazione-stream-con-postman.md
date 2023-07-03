@@ -19,7 +19,7 @@ Creare lo stream andando a configurare l'**eventType** con uno dei seguenti:
 All'interno del **filterValues** è possibile inserire un array di eventi di tipo **STATUS/TIMELINE** che verranno utilizzati per filtrare e registrare nello stream solo questi eventi; se invece si inserisce un array vuoto: `[]` lo stream registrerà tutti gli eventi.\
 Aprire la scheda **Crea nuovo stream di eventi** ed inserire nel body il seguente payload:
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **NOTA:** sostituire i seguenti:
 
