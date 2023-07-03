@@ -212,7 +212,7 @@ In ambiente di collaudo COLL, è possibile testare questo caso inserendo una not
 
 A questo punto bisogna entrare nel portale lato cittadino, accedere al dettaglio della notifica appena inviata ed apparirà la voce _Paga XXX_ per pagare online come in foto.
 
-![](<../.gitbook/assets/image (12).png>)
+![](<../.gitbook/assets/image (12) (1).png>)
 
 Se invece la PA Mittente ha inserito il bollettino di pagamento separatamente dall'atto, all'interno del campo NewNotificationRequest.recipients.payment.**pagoPaForm,** entrando nel portale lato cittadino ed accedendo al dettaglio della notifica appena inviata, apparirà la voce _Paga XXX_ per pagare online e _Scarica l'avviso PagoPA_ per scaricare il bollettino di pagamento come in foto.
 
