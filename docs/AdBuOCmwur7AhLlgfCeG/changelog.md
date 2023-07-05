@@ -5,7 +5,7 @@
 * Integrata sezione [Creazione di una Signature Request](richiedere-una-firma/creazione-di-una-signature-request.md) con la possibilità di inserire campi firma specifici per la signature request.
 * Aggiunta sezione [Cancellazione della richiesta](richiedere-una-firma/cancellazione-della-richiesta-di-firma.md) di firma con la possibilità di cancellare una richiesta di firma dopo averla inviata all'utente.
 
-#### Versione 2.0 (maggio 2023)
+### Versione 2.0 (maggio 2023)
 
 * Integrata sezione [Pulsante Firma con IO](broken-reference).
 * Integrata sezione [Validare i documenti](il-processo/preparare-i-documenti/validare-i-documenti.md) per verificare che il documento sia stato preparato correttamente con campi firma validi.&#x20;
