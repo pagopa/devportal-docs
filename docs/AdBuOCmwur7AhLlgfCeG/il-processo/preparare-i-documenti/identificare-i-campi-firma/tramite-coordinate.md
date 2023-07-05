@@ -12,7 +12,7 @@ Per poter indicare una sezione all’interno del PDF dove collocare il rettangol
 * la dimensione del box;&#x20;
 * la pagina in cui inserirlo (ricorda che le pagine partono da 0).
 
-<figure><img src="../../../.gitbook/assets/Senza titolo-1.png" alt=""><figcaption><p>Coordinate da un punto di partenza</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Senza titolo-1 (1).png" alt=""><figcaption><p>Coordinate da un punto di partenza</p></figcaption></figure>
 
 ### Come calcolare le coordinate e la dimensione del rettangolo
 
