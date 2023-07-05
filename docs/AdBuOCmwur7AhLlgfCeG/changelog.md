@@ -1,6 +1,6 @@
 # 🕗 Changelog
 
-### Versione 2.0 (maggio 2023)
+#### Versione 2.0 (maggio 2023)
 
 * Integrata sezione [Pulsante Firma con IO](broken-reference).
 * Integrata sezione [Validare i documenti](il-processo/preparare-i-documenti/validare-i-documenti.md) per verificare che il documento sia stato preparato correttamente con campi firma validi.&#x20;

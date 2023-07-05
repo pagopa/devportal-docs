@@ -28,6 +28,7 @@
   * [Invio della richiesta di firma](richiedere-una-firma/invio-della-richiesta-di-firma/README.md)
     * [🏁 Tramite pulsante Firma con IO o QR Code](richiedere-una-firma/invio-della-richiesta-di-firma/tramite-pulsante-firma-con-io-o-qr-code.md)
     * [📳 Tramite messaggio su IO](richiedere-una-firma/invio-della-richiesta-di-firma/tramite-messaggio-su-io.md)
+  * [Cancellazione della richiesta di firma](richiedere-una-firma/cancellazione-della-richiesta-di-firma.md)
 * [✅ Verificare lo stato di una firma](verificare-lo-stato-di-una-firma.md)
 * [📃 Ottenere i documenti firmati](ottenere-i-documenti-firmati.md)
 
