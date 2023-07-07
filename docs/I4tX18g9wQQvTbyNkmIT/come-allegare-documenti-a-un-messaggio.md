@@ -14,7 +14,7 @@ Per consentire questo scambio di dati dovrai fornire alcune informazioni in sede
 
 <figure><img src=".gitbook/assets/56605a6e-888f-43da-8f1c-c1c346cf9ce1 (1).jpg" alt=""><figcaption></figcaption></figure>
 
-**Integrazione: sequenza degli eventi**
+#### **Integrazione: sequenza degli eventi**
 
 Nel diagramma, le frecce in colore blu rappresentano le chiamate che IO fa al _backend_ della tua Organizzazione e corrispondono alle API di _callback_ che dovrai esporre; le frecce in colore verde rappresentano il momento in cui i byte dei tuoi allegati sono trasmessi al Cittadino.
 
@@ -85,7 +85,18 @@ In questo tutorial, gli esempi prevedono che a fronte di un `third_party_data.id
 
 **Request**
 
-`curl --location --request POST 'https://api.io.pagopa.it/api/v1/messages' \ --header 'Ocp-Apim-Subscription-Key: 217d66f7a83642578111d733e1741813' \ --header 'Content-Type: application/json' \ --data-raw ' { "feature_level_type": "ADVANCED", "time_to_live": 3600, "content": { "subject": "Partecipazione Evento", "markdown": "Gentile Mario Rossi,\n\r\n\rabbiamo accettato la tua richiesta di partecipazione all'\''evento e ti inviamo in allegato la ricevuta del pagamento della tua quota e la brochure con tutte le informazioni utili.\n\rA Ti aspettiamo!\n\rL'\''Amministrazione Comunale di Ipazia.", "third_party_data": { "id": "000003", "has_attachments": true } }, "fiscal_code": "RSRNOU70S54S000L" }'`
+```sh
+curl --location --request 
+POST 'https://api.io.pagopa.it/api/v1/messages' \ 
+--header 'Ocp-Apim-Subscription-Key: 217d66f7a83642578111d733e1741813' \ 
+--header 'Content-Type: application/json' \ 
+--data-raw ' { "feature_level_type": "ADVANCED", "time_to_live": 3600, "content": 
+{ "subject": "Partecipazione Evento", "markdown": "Gentile Mario Rossi,\n\r\n\r
+abbiamo accettato la tua richiesta di partecipazione all'\''evento e ti inviamo 
+in allegato la ricevuta del pagamento della tua quota e la brochure con tutte 
+le informazioni utili.\n\rA Ti aspettiamo!\n\rL'\''Amministrazione Comunale di Ipazia.", "third_party_data": { "id": "000003", "has_attachments": true } }, 
+"fiscal_code": "RSRNOU70S54S000L" }'
+```
 
 * Il valore del header `Ocp-Apim-Subscription-Key` è la chiave (primaria o secondaria) del tuo Servizio IO: puoi recuperarla accedendo all'Area Riservata e cercando la scheda del tuo Servizio nella pagina "Servizi"
 
