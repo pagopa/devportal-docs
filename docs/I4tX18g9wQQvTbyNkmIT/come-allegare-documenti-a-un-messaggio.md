@@ -30,8 +30,8 @@ Dove puoi trovare il `serviceId`
 
 * `baseUrl`: IO necessita di richiamare il tuo backend per ottenere le informazioni sugli allegati al tuo Messaggio. La URL che IO utilizzerà per questo scopo è costituita da una parte fissa, `baseUrl`, e una variabile a seconda dello scenario e del messaggio. Esempio di `baseUrl`: `https://integrazione.mioente.it/io`
 * `API Key`: è la chiave di autenticazione che IO utilizzerà per richiamare i tuoi endpoint di callback
-  * ​⚠ Fai attenzione, _non_ si tratta di una delle chiavi, primaria o secondaria, del tuo Servizio!
-  * ​ℹ Puoi concordare con IO il nome del header che veicolerà la API Key
+  * ​Fai attenzione, _non_ si tratta di una delle chiavi, primaria o secondaria, del tuo Servizio!
+  * Puoi concordare con IO il nome del header che veicolerà la API Key
 
 IO memorizzerà queste informazioni e le utilizzerà successivamente nel colloquio con la tua Organizzazione.
 
@@ -49,8 +49,8 @@ Come accennato nella [**Panoramica**](https://docs.pagopa.it/kb-enti-messaggi/tu
 
 In particolare, gli _endpoint_ previsti dal protocollo sono due:
 
-1. 1.quello per il **recupero dei metadati** che descrivono gli allegati a un Messaggio IO: è invocato quando il Cittadino richiede l'apertura di un Messaggio in app e IO si aspetta di ricevere un elenco di entità ciascuna delle quali descrive un Allegato (id univoco, nome e URL relativa)
-2. 2.quello per il **recupero dei dati binari** di un determinato allegato a un Messaggio IO: è invocato quando il Cittadino richiede l'apertura di un Allegato dal dettaglio del Messaggio e IO si aspetta di ricevere i byte del file fisico ospitato sui sistemi della tua Organizzazione
+1. Quello per il **recupero dei metadati** che descrivono gli allegati a un Messaggio IO: è invocato quando il Cittadino richiede l'apertura di un Messaggio in app e IO si aspetta di ricevere un elenco di entità ciascuna delle quali descrive un Allegato (id univoco, nome e URL relativa)
+2. Quello per il **recupero dei dati binari** di un determinato allegato a un Messaggio IO: è invocato quando il Cittadino richiede l'apertura di un Allegato dal dettaglio del Messaggio e IO si aspetta di ricevere i byte del file fisico ospitato sui sistemi della tua Organizzazione
 
 Entrambi saranno protetti da autenticazione con API Key, come illustrato in [**I dati di configurazione**](https://docs.pagopa.it/kb-enti-messaggi/tutorial-e-casi-duso/indice-dei-tutorial-e-dei-casi-duso/come-allegare-documenti-a-un-messaggio-funzionalita-premium#i-dati-di-configurazione).
 
@@ -74,8 +74,8 @@ Come prima cosa, una volta implementata l'integrazione tra i sistemi della tua O
 
 In questo tutorial, gli esempi prevedono che a fronte di un `third_party_data.id` con valore `000003` i tuoi sistemi "sappiano" che gli allegati per questo Messaggio sono due:
 
-1. 1.un documento con nome "ricevuta.pdf"
-2. 2.un documento con nome "evento.pdf"
+1. Un documento con nome "ricevuta.pdf"
+2. Un documento con nome "evento.pdf"
 
 È responsabilità della tua Organizzazione persistere i file degli allegati ai suoi Messaggi IO; il processo di integrazione con IO si limita al consentire il recupero fisico dei file in app.
 
