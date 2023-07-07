@@ -1,6 +1,6 @@
 # Come allegare documenti a un Messaggio
 
-Gli enti che hanno sottoscritto il [programma Premium](https://pagopa.atlassian.net/io-guida-tecnica/v/io-guida-tecnica-2.2/abilitazioni/funzionalita-premium) possono **includere allegati in formato PDF** nei messaggi che inviano. In questo tutorial ti spiegheremo come fare.
+Gli enti che hanno sottoscritto il [programma Premium](https://dev.developer.pagopa.it/app-io/guides/io-guida-tecnica/v2.4/abilitazioni/funzionalita-premium) possono **includere allegati in formato PDF** nei messaggi che inviano. In questo tutorial ti spiegheremo come fare.
 
 ### Panoramica <a href="#panoramica" id="panoramica"></a>
 
