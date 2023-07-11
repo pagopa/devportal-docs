@@ -19,7 +19,7 @@ inserendo le credenziali SPID/CIE dell'Amministratore. Una volta entrati, appari
 
 e selezionare "Collaudo"
 
-![](<../../.gitbook/assets/image (18).png>)
+![](<../../.gitbook/assets/image (18) (2).png>)
 
 ### Creare una richiesta di fruizione per l'e-service di SEND - UAT
 
@@ -33,15 +33,19 @@ poi avviare la ricerca dell'e-service di SEND - UAT e cliccare su _Richiedi frui
 * **Attributi Verificati:** vengono verificati dall’erogatore del servizio a seguito dell'invio della documentazione da parte del fruitore.
 * **Attributi Dichiarati:** vengono dichiarati da chi effettua la richiesta di fruizione sotto la propria responsabilità
 
-Maggiori dettagli sugli attributi sono qui: [https://docs.pagopa.it/interoperabilita-1/manuale-operativo/attributi](https://docs.pagopa.it/interoperabilita-1/manuale-operativo/attributi).
+Maggiori dettagli sugli attributi sono qui: [https://docs.pagopa.it/interoperabilita-1/manuale-operativo/attributi](https://docs.pagopa.it/interoperabilita-1/manuale-operativo/attributi) \
+il video-tutorial è qui:\
+&#x20;[https://www.youtube.com/watch?v=zmyQIQHAo\_0\&list=PLZcD-ZoVxFzi1f2-taSdg7a3d2UQse3\_Q\&index=8](https://www.youtube.com/watch?v=zmyQIQHAo\_0\&list=PLZcD-ZoVxFzi1f2-taSdg7a3d2UQse3\_Q\&index=8)
 
 Quando la richiesta di fruizione è stata compilata con successo, cliccare su "Inoltra richiesta di fruizione"
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (2).png" alt="" width="375"><figcaption></figcaption></figure>
 
 Una volta che la richiesta di fruizione è stata inviata, questa verrà esaminata dall'Erogatore che dovrà approvarla. È sempre possibile verificare lo stato delle richieste di fruizione presentate andando su _Fruizione > Le tue richieste_.
 
-Maggiori dettagli sulla richiesta di fruizione sono qui: [https://docs.pagopa.it/interoperabilita-1/manuale-operativo/richieste-di-fruizione](https://docs.pagopa.it/interoperabilita-1/manuale-operativo/richieste-di-fruizione)
+Maggiori dettagli sulla richiesta di fruizione sono qui: [https://docs.pagopa.it/interoperabilita-1/manuale-operativo/richieste-di-fruizione](https://docs.pagopa.it/interoperabilita-1/manuale-operativo/richieste-di-fruizione)\
+il video-tutorial è qui:\
+[https://www.youtube.com/watch?v=2O81jdLHpgQ\&list=PLZcD-ZoVxFzi1f2-taSdg7a3d2UQse3\_Q\&index=8](https://www.youtube.com/watch?v=2O81jdLHpgQ\&list=PLZcD-ZoVxFzi1f2-taSdg7a3d2UQse3\_Q\&index=8)
 
 ### Creare una finalità per l'e-service di SEND - UAT
 
@@ -56,16 +60,18 @@ Compilare tutti i dati che appaiono sul Form, in particolare:
 
 nella pagina successive bisogna compilare la sezione di analisi del rischio ed infine cliccare su "Crea bozza finalità" per pubblicare la finalità.
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (2).png" alt="" width="563"><figcaption></figcaption></figure>
 
-Maggiori dettagli sulla creazione di finalità sono qui: [https://docs.pagopa.it/interoperabilita-1/manuale-operativo/finalita](https://docs.pagopa.it/interoperabilita-1/manuale-operativo/finalita)
+Maggiori dettagli sulla creazione di finalità sono qui: [https://docs.pagopa.it/interoperabilita-1/manuale-operativo/finalita](https://docs.pagopa.it/interoperabilita-1/manuale-operativo/finalita)\
+il video-tutorial è qui: \
+[https://www.youtube.com/watch?v=bCHRgeBJucI\&list=PLZcD-ZoVxFzi1f2-taSdg7a3d2UQse3\_Q\&index=9](https://www.youtube.com/watch?v=bCHRgeBJucI\&list=PLZcD-ZoVxFzi1f2-taSdg7a3d2UQse3\_Q\&index=9)
 
 ### Associare un client ad una finalità
 
 Il client è un contenitore di materiale crittografico nel quale vengono inseriti un numero discrezionale di operatori di sicurezza, che sono autorizzati a caricare la chiave pubblica del materiale crittografico in loro possesso. \
 Per creare un nuovo client bisogna andare nella sezione _Fruizione > I tuoi client e-service_ e cliccando su "Aggiungi"
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (2).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Compilare tutti i dati che appaiono sul Form, selezionando tra gli operatori quelli abilitati ad operare nel back-office. \
 Una volta creato un client, sarà possibile associarlo ad una finalità, entrando in _Fruizione > Le tue finalità,_ poi nel tab "Client associati" cliccare su "Aggiungi"
@@ -79,13 +85,16 @@ Infine apparirà un menù a tendina che permette di selezionare i client da asso
 
 I client possono anche essere riutilizzabili su più finalità e modificati successivamente.
 
-Maggiori dettagli sul client sono qui: [https://docs.pagopa.it/interoperabilita-1/manuale-operativo/client-e-materiale-crittografico](https://docs.pagopa.it/interoperabilita-1/manuale-operativo/client-e-materiale-crittografico)
+Maggiori dettagli sul client sono qui: [https://docs.pagopa.it/interoperabilita-1/manuale-operativo/client-e-materiale-crittografico](https://docs.pagopa.it/interoperabilita-1/manuale-operativo/client-e-materiale-crittografico)\
+I video-tutorial sono qui:\
+[https://www.youtube.com/watch?v=w3ynRRMyrxg\&list=PLZcD-ZoVxFzi1f2-taSdg7a3d2UQse3\_Q\&index=10](https://www.youtube.com/watch?v=w3ynRRMyrxg\&list=PLZcD-ZoVxFzi1f2-taSdg7a3d2UQse3\_Q\&index=10)\
+[https://www.youtube.com/watch?v=w3ynRRMyrxg\&list=PLZcD-ZoVxFzi1f2-taSdg7a3d2UQse3\_Q\&index=10](https://www.youtube.com/watch?v=w3ynRRMyrxg\&list=PLZcD-ZoVxFzi1f2-taSdg7a3d2UQse3\_Q\&index=10)
 
 ### Caricare una chiave pubblica
 
 prima di caricare una chiave pubblica, entrare nella sezione _Fruizione > I tuoi client_ selezionare "Ispeziona" sul client di riferimento ed assicurarsi che sia presente "_IL TOKEN PUò ESSERE STACCATO: SI_" come segue:
 
-<figure><img src="../../.gitbook/assets/image.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Poi accedere al tab "Chiavi pubbliche" e cliccare su "Aggiungi"
 
@@ -106,7 +115,9 @@ openssl pkcs8 -topk8 -inform PEM -outform PEM -nocrypt -in <nomeChiave>.rsa.pem 
 
 Sostituendo \<nomeChiave> con il nome che si vuole dare al file contenente la chiave.
 
-Il comando genererà una coppia di chiave pubblica e privata, ed un certificato che in questo caso non è necessario utilizzare. La chiave pubblica appena ottenuta, deve essere copiata nel riquadro "Chiave pubblica" del pop up del client; quella privata rimarrà in mano all'aderente, che la manterrà al sicuro e la userà per firmare la richiesta per ottenere un voucher dal server autorizzativo di PDND Interoperabilità.
+Il comando genererà una coppia di chiave pubblica e privata, ed un certificato che in questo caso non è necessario utilizzare. La chiave pubblica appena ottenuta, deve essere copiata nel riquadro "Chiave pubblica" del pop up del client; quella privata rimarrà in mano all'aderente, che la manterrà al sicuro e la userà per firmare la richiesta per ottenere un voucher dal server autorizzativo di PDND Interoperabilità.\
+il video-tutorial è qui:\
+[https://www.youtube.com/watch?v=q6zuJ2wn8vM\&list=PLZcD-ZoVxFzi1f2-taSdg7a3d2UQse3\_Q\&index=11](https://www.youtube.com/watch?v=q6zuJ2wn8vM\&list=PLZcD-ZoVxFzi1f2-taSdg7a3d2UQse3\_Q\&index=11)
 
 ### Generare un Voucher (o Access Token)
 
@@ -136,7 +147,9 @@ Per riprodurre il comando si può anche prendere come esempio questo codice: [ht
 
 **3)** Come risposta al comando otterremo una response che contiene **access\_token, expires\_in** e **token\_type.** &#x20;
 
-L'**access\_token** appena ottenuto corrisponde al Voucher che potrà essere utilizzato nelle chiamate verso i servizi B2B di SEND - UAT inserendolo come Header: `"Authorization: Bearer <accessToken>"`
+L'**access\_token** appena ottenuto corrisponde al Voucher che potrà essere utilizzato nelle chiamate verso i servizi B2B di SEND - UAT inserendolo come Header: `"Authorization: Bearer <accessToken>"`\
+il video-tutorial è qui:\
+[https://www.youtube.com/watch?v=fb-CDltaeqw\&list=PLZcD-ZoVxFzi1f2-taSdg7a3d2UQse3\_Q\&index=12](https://www.youtube.com/watch?v=fb-CDltaeqw\&list=PLZcD-ZoVxFzi1f2-taSdg7a3d2UQse3\_Q\&index=12)
 
 ### Chiamare i servizi SEND - UAT
 

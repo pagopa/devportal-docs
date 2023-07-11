@@ -22,7 +22,7 @@ Per la registrazione dell'utente incaricato sono necessari i dati nome, cognome,
 
 e selezionare "Collaudo"
 
-![](<../../.gitbook/assets/image (18).png>)
+![](<../../.gitbook/assets/image (18) (2).png>)
 
 Una volta effettuato l'accesso sarà possibile creare una richiesta di fruizione per **SEND - UAT (Piattaforma Notifiche)** e completare la generazione del Voucher (Access Token). Vedi pagina
 
