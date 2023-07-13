@@ -2,6 +2,7 @@
 
 * [Knowledge-base di Piattaforma Notifiche](README.md)
   * [Generazione client e definizioni delle API](knowledge-base-di-piattaforma-notifiche/generazione-client-e-definizioni-delle-api.md)
+  * [Workflow di Notifica](knowledge-base-di-piattaforma-notifiche/workflow-di-notifica.md)
   * [FAQ inserimento notifiche](knowledge-base-di-piattaforma-notifiche/faq-inserimento-notifiche.md)
   * [FAQ sulle streams](knowledge-base-di-piattaforma-notifiche/faq-sulle-streams.md)
   * [Focus su Interoperabilità e generazione Voucher per SEND - UAT (Piattaforma Notifiche)](knowledge-base-di-piattaforma-notifiche/focus-su-interoperabilita-e-generazione-voucher-per-send-uat-piattaforma-notifiche/README.md)
