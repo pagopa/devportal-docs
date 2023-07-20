@@ -12,7 +12,9 @@ Le pagine Swagger sono esclusivamente ad uso di documentazione e non sono config
 
 ### Cosa devo fare se ricevo **{"message": "Unauthorized"}**?
 
-Il messaggio indica che non sono disponibili le credenziali per utilizzare i servizi di PN. Per intraprendere il processo di accreditamento, occorre contattare il personale preposto su [account@pagopa.it](mailto:account@pagopa.it)
+Il messaggio indica che non sono disponibili le credenziali per utilizzare i servizi di PN o che non è stata completata l'integrazione con **PDND Interoperabilità**. \
+Se non è stato già fatto, è necessario intraprendere il processo di accreditamento, contattando l'indirizzo preposto: [account@pagopa.it](mailto:account@pagopa.it)\
+Se è stato già completato il processo di accreditamento, assicurarsi che si stia utilizzando correttamente l'API Key ed il Voucher.
 
 ### Se creo uno stream senza filtri ad esempio
 

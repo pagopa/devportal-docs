@@ -4,8 +4,11 @@ description: Descrizione step-by-step per l'inserimento della notifica utilizzan
 
 # Inserimento Notifica con Postman
 
-**NOTA:** prima di procedere con l'inserimento Notifica con Postman, assicurarsi di aver correttamente importato le definizioni delle API su Postman ed aver configurato l'ambiente di test seguendo i passaggi descritti al seguente link:\
-[https://docs.pagopa.it/f.a.q.-per-integratori/knowledge-base-di-piattaforma-notifiche/generazione-client-e-definizioni-delle-api#importare-le-definizioni-delle-api-su-postman](https://docs.pagopa.it/f.a.q.-per-integratori/knowledge-base-di-piattaforma-notifiche/generazione-client-e-definizioni-delle-api#importare-le-definizioni-delle-api-su-postman)
+**NOTA:** prima di procedere con l'inserimento Notifica con Postman, assicurarsi di aver correttamente importato le definizioni delle API su Postman ed aver configurato l'ambiente di test seguendo i passaggi descritti al seguente link:
+
+{% content-ref url="../generazione-client-e-definizioni-delle-api.md" %}
+[generazione-client-e-definizioni-delle-api.md](../generazione-client-e-definizioni-delle-api.md)
+{% endcontent-ref %}
 
 ### 1) Generare il checksum sha256, codificato in base 64, del contenuto binario dei pdf di Notifica.pdf e di Pagamento.pdf che verranno caricati su PND
 

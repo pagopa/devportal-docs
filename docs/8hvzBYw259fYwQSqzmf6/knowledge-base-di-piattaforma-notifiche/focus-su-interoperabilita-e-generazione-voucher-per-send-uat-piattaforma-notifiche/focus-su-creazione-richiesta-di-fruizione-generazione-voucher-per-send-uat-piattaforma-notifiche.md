@@ -119,7 +119,7 @@ Il comando genererà una coppia di chiave pubblica e privata, ed un certificato 
 il video-tutorial è qui:\
 [https://www.youtube.com/watch?v=q6zuJ2wn8vM\&list=PLZcD-ZoVxFzi1f2-taSdg7a3d2UQse3\_Q\&index=11](https://www.youtube.com/watch?v=q6zuJ2wn8vM\&list=PLZcD-ZoVxFzi1f2-taSdg7a3d2UQse3\_Q\&index=11)
 
-### Generare un Voucher (o Access Token)
+### Generare un Voucher
 
 A questo punto è necessario generare il Voucher da inserire come Authorization header nelle chiamate verso i servizi B2B di SEND - UAT.
 
@@ -147,7 +147,7 @@ Per riprodurre il comando si può anche prendere come esempio questo codice: [ht
 
 **3)** Come risposta al comando otterremo una response che contiene **access\_token, expires\_in** e **token\_type.** &#x20;
 
-L'**access\_token** appena ottenuto corrisponde al Voucher che potrà essere utilizzato nelle chiamate verso i servizi B2B di SEND - UAT inserendolo come Header: `"Authorization: Bearer <accessToken>"`\
+L'**access\_token(PDNDVoucher)** appena ottenuto corrisponde al Voucher che potrà essere utilizzato nelle chiamate verso i servizi B2B di SEND - UAT inserendolo come Header: `"Authorization: Bearer <PDNDVoucher>"`\
 il video-tutorial è qui:\
 [https://www.youtube.com/watch?v=fb-CDltaeqw\&list=PLZcD-ZoVxFzi1f2-taSdg7a3d2UQse3\_Q\&index=12](https://www.youtube.com/watch?v=fb-CDltaeqw\&list=PLZcD-ZoVxFzi1f2-taSdg7a3d2UQse3\_Q\&index=12)
 

@@ -12,11 +12,17 @@ Le pagine Swagger sono esclusivamente ad uso di documentazione e non sono config
 
 ### Cosa devo fare se ricevo `{"message": "Unauthorized"}` quando chiamo le API?
 
-Il messaggio indica che non sono disponibili le credenziali per utilizzare i servizi di PN. Per intraprendere il processo di accreditamento, occorre contattare il personale preposto su [account@pagopa.it](mailto:account@pagopa.it)
+Il messaggio indica che non sono disponibili le credenziali per utilizzare i servizi di PN o che non è stata completata l'integrazione con **PDND Interoperabilità**. \
+Se non è stato già fatto, è necessario intraprendere il processo di accreditamento, contattando l'indirizzo preposto: [account@pagopa.it](mailto:account@pagopa.it)\
+Se è stato già completato il processo di accreditamento, assicurarsi che si stia utilizzando correttamente l'API Key ed il Voucher.
 
 ### Le chiamate ai servizi esposti da PN sono sicuri?
 
-Si. Le chiamate ai servizi esposti da PN avvengono in modalità https utilizzando API Key. Non sono attualmente previsti meccanismi di crittazione/decrittazione dei documenti e/o accessi basati su mutua autenticazione tramite certificato.
+Le chiamate ai servizi esposti da PN avvengono in modalità https utilizzando API Key. E' possibile attivare un layer aggiuntivo di sicurezza effettuando l'integrazione con **PDND Interoperabilità** che prevede l'inserimento di un Voucher da aggiungere all'API Key. Maggiori dettagli alla pagina che segue:
+
+{% content-ref url="focus-su-interoperabilita-e-generazione-voucher-per-send-uat-piattaforma-notifiche/" %}
+[focus-su-interoperabilita-e-generazione-voucher-per-send-uat-piattaforma-notifiche](focus-su-interoperabilita-e-generazione-voucher-per-send-uat-piattaforma-notifiche/)
+{% endcontent-ref %}
 
 ### Dopo aver fatto l'upload dei documenti della notifica nella fase 1, quanto tempo ho per inviare la notifica?
 
@@ -127,12 +133,12 @@ Il comando restituisce la codifica base64 della rappresentazione binaria di sha2
 
 Aprire la shell di Git Bash o un terminal SSH ed eseguire il comando_:_
 
-`curl -X<httpMethod> \` \
-`-H"Content-type: application/pdf" \` \
-`-H"x-amz-meta-secret: <secret>" \` \
-`-H"trailer: x-amz-checksum-sha256" \` \
-`-H"x-amz-checksum-sha256: <checkSum>" \` \
-`--data-binary "@<filePath>"  \` \
+`curl -X<httpMethod> \`\
+`-H"Content-type: application/pdf" \`\
+`-H"x-amz-meta-secret: <secret>" \`\
+`-H"trailer: x-amz-checksum-sha256" \`\
+`-H"x-amz-checksum-sha256: <checkSum>" \`\
+`--data-binary "@<filePath>"  \`\
 `"<url>"`
 
 **\<httpMethod>**: è il metodo http (PUT o POST) indicato nella response della preload, da utilizzare per questa chiamata\
@@ -140,7 +146,7 @@ Aprire la shell di Git Bash o un terminal SSH ed eseguire il comando_:_
 **\<checksum>**: è il checksum sha256, codificato in base 64, del contenuto binario del file da caricare\
 **\<file>**: è il path del file da caricare\
 **\<url>**: è l'url del bucket S3 ottenuto nella response della preload, sul quale effettuare l'upload del documento\
-**NOTA:** l'header `-H"trailer: x-amz-checksum-sha256"` è non obbligatorio ai fini del buon esito della chiamata, per tanto può essere omesso qualora si riscontrassero problemi durante questa fase.
+**NOTA:** l'header `-H"trailer: x-amz-checksum-sha256"` è non obbligatorio ai fini del buon esito della chiamata, per tanto può essere omesso qualora si riscontrassero problemi durante questa fase; inoltre si evidenzia che in questa chiamata **NON** deve essere inserito l'Autorization Header `"Authorization: Bearer <PDNDVoucher>`con il Vocuher.
 
 ### Quanto tempo ho per scaricare le Attestazioni Opponibili a Terzi?
 
@@ -184,7 +190,7 @@ Se si utilizza un client Java, può capitare che pur non effettuando il set di u
 
 ### Come si possono testare più Enti?
 
-In ambiente di collaudo COLL si prevede di creare una User per ogni Ente che permette di accedere alla piattaforma di Back-Office ed una key ad esso associata. Se si sta testando l'integrazione per più Enti bisognerà richiedere, per ogni Ente, una user ed una key ad essa associata, contattando il [supporto enti](mailto:pn-supporto-enti@pagopa.it)
+In ambiente di collaudo UAT si prevede di creare una User per ogni Ente che permette di accedere alla piattaforma di Back-Office ed una key ad esso associata. Se si sta testando l'integrazione per più Enti bisognerà richiedere, per ogni Ente, una user ed una key ad essa associata, contattando il [supporto enti](mailto:pn-supporto-enti@pagopa.it)
 
 ### Come posso testare il caso d'uso della Multa per violazione del Codice della Strada?
 
@@ -202,7 +208,7 @@ Per permettere la visualizzazione della funzione di pagamento online, la PA Mitt
 * NewNotificationRequest.recipients.payment.**creditorTaxId:** con la partita iva della PA Mittente
 * NewNotificationRequest.recipients.payment.**noticeCode:** con il numero avviso.
 
-In ambiente di collaudo COLL, è possibile testare questo caso inserendo una notifica con i seguenti campi:
+In ambiente di collaudo UAT, è possibile testare questo caso inserendo una notifica con i seguenti campi:
 
 * NewNotificationRequest.recipients.payment.**creditorTaxId:** col valore 77777777777
 * NewNotificationRequest.recipients.payment.**noticeCode:** con un valore che abbia il seguente formato: 302010DDMMYYYYhhmm dove **DDMMYYYY** corrispondono al giorno, mese ed anno di inserimento e **hhmm** all'ora ed al minuto di inserimento.\
@@ -227,14 +233,12 @@ E' possibile testare la correttezza di un codice fiscale con il regex:\
 
 Per testare la visualizzazione della notifica occorre inviare una notifica ad uno dei seguenti utenti:
 
-* Lucia Mondella con codice fiscale: MNDLCU98T68C933T
 * Michelangelo Buonarroti con codice fiscale: BNRMHL75C06G702B
 
 Successivamente sarà possibile visualizzare le notifiche entrando nel portale lato cittadino da:\
-[https://portale-login.coll.pn.pagopa.it/login](https://portale-login.coll.pn.pagopa.it/login) \
+[https://login.uat.notifichedigitali.it/login](https://login.uat.notifichedigitali.it/login)\
 inserendo le credenziali dell’utente a cui sono state inviate le notifiche:
 
-* per Lucia Mondella username: lucia.mondella e password: password123
 * per Michelangelo Buonarroti username: michelangelo e password: password123
 
 ed entrando nel dettaglio della notifica appena inviata, che dopo alcuni secondi risulterà **Visualizzata**.\

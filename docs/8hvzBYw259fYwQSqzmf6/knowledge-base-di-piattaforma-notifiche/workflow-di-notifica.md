@@ -55,6 +55,7 @@ La piattaforma genera documenti in formato PDF, firmati digitalmente da PagoPA c
 * **Notifica digitale** - generato dall’evento **DIGITAL\_SUCCESS\_WORKFLOW** ed avente come _legalFactType: **DIGITAL\_DELIVERY**_
 * **Mancato recapito digitale** - generato dall’evento **DIGITAL\_FAILURE\_WORKFLOW** ed avente come _legalFactType: **DIGITAL\_DELIVERY**_
 * **Avvenuto accesso** - generato dall’evento **NOTIFICATION\_VIEWED** ed avente come _legalFactType: **RECIPIENT\_ACCESS**_
+* **Deposito di avvenuta ricezione** - generato dall’evento **COMPLETELY\_UNREACHABLE** ed avente come _legalFactType_: **ANALOG\_FAILURE\_DELIVERY**
 * **Malfunzionamento e ripristino** - generata nei casi di downtime del servizio PND, scaricabile direttamente dalla pagina di Piattaforma Notifiche nella sezione “**Stato della Piattaforma**”
 
 Sono esposte nel portale anche le attestazioni prodotte da sistemi esterni quali:

@@ -24,6 +24,6 @@ e selezionare "Collaudo"
 
 ![](<../../.gitbook/assets/image (18) (2).png>)
 
-Una volta effettuato l'accesso sarà possibile creare una richiesta di fruizione per **SEND - UAT (Piattaforma Notifiche)** e completare la generazione del Voucher (Access Token). Vedi pagina
+Una volta effettuato l'accesso sarà possibile creare una richiesta di fruizione per **SEND - UAT (Piattaforma Notifiche)** e completare la generazione del Voucher. Vedi pagina
 
 [focus-su-creazione-richiesta-di-fruizione-generazione-voucher-per-send-uat-piattaforma-notifiche.md](focus-su-creazione-richiesta-di-fruizione-generazione-voucher-per-send-uat-piattaforma-notifiche.md "mention")

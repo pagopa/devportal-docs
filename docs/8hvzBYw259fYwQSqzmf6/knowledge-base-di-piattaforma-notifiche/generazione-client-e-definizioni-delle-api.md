@@ -20,9 +20,9 @@ sostituendo:
 
 * **\<urlFileSwagger>:** con la url del file Swagger del quale si vuole generare il client. E' possibile utilizzare:
   * per la pagina API B2B per le Pubbliche Amministrazioni:&#x20;
-    * [https://raw.githubusercontent.com/pagopa/pn-delivery/develop/docs/openapi/api-external-b2b-pa-bundle.yaml](https://raw.githubusercontent.com/pagopa/pn-delivery/develop/docs/openapi/api-external-b2b-pa-bundle.yaml)
-  * per la pagina API B2B Avanzamento Notifiche::
-    * [https://raw.githubusercontent.com/pagopa/pn-delivery-push/develop/docs/openapi/api-external-b2b-webhook-bundle.yaml](https://raw.githubusercontent.com/pagopa/pn-delivery-push/develop/docs/openapi/api-external-b2b-webhook-bundle.yaml)
+    * [https://raw.githubusercontent.com/pagopa/pn-delivery/main/docs/openapi/api-external-b2b-pa-bundle.yaml](https://raw.githubusercontent.com/pagopa/pn-delivery/main/docs/openapi/api-external-b2b-pa-bundle.yaml)
+  * per la pagina API B2B Avanzamento Notifiche:
+    * [https://raw.githubusercontent.com/pagopa/pn-delivery-push/main/docs/openapi/api-external-b2b-webhook-bundle.yaml](https://raw.githubusercontent.com/pagopa/pn-delivery-push/main/docs/openapi/api-external-b2b-webhook-bundle.yaml)
 * **\<lang>:** con il linguaggio per il quale si vuole generare il client
 * **\<dest>:** con il path nel quale si vuole generare il client
 
@@ -34,14 +34,15 @@ E' anche possibile utilizzare il [pn-b2b-client](https://github.com/pagopa/pn-b2
 
 Per importare le definizioni su Postman bisogna cliccare su "import", poi selezionare "Link" ed inserire i seguenti url:
 
-* per la pagina **API B2B per le Pubbliche Amministrazioni**: [https://raw.githubusercontent.com/pagopa/pn-delivery/develop/docs/openapi/api-external-b2b-pa-bundle.yaml](https://raw.githubusercontent.com/pagopa/pn-delivery/develop/docs/openapi/api-external-b2b-pa-bundle.yaml)
+* per la pagina **API B2B per le Pubbliche Amministrazioni**: [https://raw.githubusercontent.com/pagopa/pn-delivery/main/docs/openapi/api-external-b2b-pa-bundle.yaml](https://raw.githubusercontent.com/pagopa/pn-delivery/main/docs/openapi/api-external-b2b-pa-bundle.yaml)
 * per la pagina **API B2B avanzamento notifiche**: \
-  [https://raw.githubusercontent.com/pagopa/pn-delivery-push/develop/docs/openapi/api-external-b2b-webhook-bundle.yaml](https://raw.githubusercontent.com/pagopa/pn-delivery-push/develop/docs/openapi/api-external-b2b-webhook-bundle.yaml)
+  [https://raw.githubusercontent.com/pagopa/pn-delivery-push/main/docs/openapi/api-external-b2b-webhook-bundle.yaml](https://raw.githubusercontent.com/pagopa/pn-delivery-push/main/docs/openapi/api-external-b2b-webhook-bundle.yaml)
 
 Poi modificare i seguenti parametri delle collections ottenute:
 
-* nel tab "Variables" modificare la variables **baseUrl** con: https://api.coll.pn.pagopa.it (ambiente di collaudo COLL)
+* nel tab "Variables" modificare la variables **baseUrl** con: [https://api.uat.notifichedigitali.it](https://api.uat.notifichedigitali.it) (ambiente di collaudo UAT)
 * nel tab "Authorization" selezionare nella tendina "Type" il valore "API Key", poi inserire nella casella "Key" il valore **x-api-key** e nella casella "Value" il valore della key generata dalla propria area riservata (di seguito le istruzioni)
+* aggiungere il `"Authorization: Bearer <PDNDVoucher>"`in ogni chiamata verso i servizi B2B (ad esclusione di quelli verso AWS) con il Voucher ottenuto da **PDND Interoperabilità** ed assicurarsi che sia sempre valido e non scaduto.
 
 ### Come creare la propria apikey?
 
@@ -54,3 +55,11 @@ con le credenziali che sono state fornite durante il processo di Onboarding, and
 ### Qual è il ciclo di vita delle apikey?
 
 Le operazioni di creazione, rotazione ed eliminazione sulle apiKey sono dettate dal volere dell'utente che può gestirle a propria discrezione.
+
+### Come generare il Voucher?
+
+vedi:
+
+{% content-ref url="focus-su-interoperabilita-e-generazione-voucher-per-send-uat-piattaforma-notifiche/focus-su-creazione-richiesta-di-fruizione-generazione-voucher-per-send-uat-piattaforma-notifiche.md" %}
+[focus-su-creazione-richiesta-di-fruizione-generazione-voucher-per-send-uat-piattaforma-notifiche.md](focus-su-interoperabilita-e-generazione-voucher-per-send-uat-piattaforma-notifiche/focus-su-creazione-richiesta-di-fruizione-generazione-voucher-per-send-uat-piattaforma-notifiche.md)
+{% endcontent-ref %}

@@ -22,6 +22,7 @@ curl --location 'https://<baseurlAmbiente>/delivery-progresses/streams' \
 --header 'Content-Type: application/json' \
 --header 'Accept: application/json' \
 --header 'x-api-key: <apiKey>' \
+--header 'Authorization: Bearer <PDNDVoucher>' \
 --data '{
 "title": "<title>",
 "eventType": "<eventType>",
@@ -32,7 +33,8 @@ curl --location 'https://<baseurlAmbiente>/delivery-progresses/streams' \
 **NOTA:** sostituire i seguenti:
 
 * **\<baseurlAmbiente>:** inserire la url dell'ambiente di riferimento, nel caso di COLL è il seguente: **api.coll.pn.pagopa.it**
-* **\<apiKey>:** inserire la apiKey dell'Ente di riferimento, precedentemente generata su PND&#x20;
+* **\<apiKey>:** inserire la apiKey dell'Ente di riferimento, precedentemente generata su PND
+* **\<PDNDVoucher>:** inserire inserire il Voucher generato su **PDND Interoperabilità,** assicurandosi che non sia scaduto
 * **\<title>:** inserire un titolo da attribuire a questo stream
 * **\<eventType>:** inserire la tipologia di stream a scelta tra **STATUS** e **TIMELINE**&#x20;
 * **\<filterValues>:** inserire un array di eventi che verranno utilizzati come filtro. Se valorizzato con array vuoto: `[]` lo stream registrerà tutti gli eventi.
@@ -63,6 +65,7 @@ Lanciare il seguente comando:
 curl --location 'https://<baseurlAmbiente>/delivery-progresses/streams/<streamId>/events' \
 --header 'Accept: application/json' \
 --header 'x-api-key: <api-key>' \
+--header 'Authorization: Bearer <PDNDVoucher>' \
 --verbose
 ```
 
@@ -70,6 +73,7 @@ curl --location 'https://<baseurlAmbiente>/delivery-progresses/streams/<streamId
 
 * **\<baseurlAmbiente>:** inserire la url dell'ambiente di riferimento, nel caso di COLL è il seguente: **api.coll.pn.pagopa.it**
 * **\<apiKey>:** inserire la apiKey dell'Ente di riferimento, precedentemente generata su PND
+* **\<PDNDVoucher>:** inserire inserire il Voucher generato su **PDND Interoperabilità,** assicurandosi che non sia scaduto
 * **\<streamId>:** inserire l'id dello stream che si vuole interrogare
 
 Nella response di questo servizio, si otterrà il seguente payload che rappresenta tutti gli eventi:
@@ -123,6 +127,7 @@ Lanciare il seguente comando:
 curl --location 'https://<baseurlAmbiente>/delivery-progresses/streams/<streamId>/events?lastEventId=<lastEventId>' \
 --header 'Accept: application/json' \
 --header 'x-api-key: <api-key>' \
+--header 'Authorization: Bearer <PDNDVoucher>' \
 --verbose
 ```
 
@@ -130,6 +135,7 @@ curl --location 'https://<baseurlAmbiente>/delivery-progresses/streams/<streamId
 
 * **\<baseurlAmbiente>:** inserire la url dell'ambiente di riferimento, nel caso di COLL è il seguente: **api.coll.pn.pagopa.it**
 * **\<apiKey>:** inserire la apiKey dell'Ente di riferimento, precedentemente generata su PND
+* **\<PDNDVoucher>:** inserire inserire il Voucher generato su **PDND Interoperabilità,** assicurandosi che non sia scaduto
 * **\<streamId>:** inserire l'id dello stream che si vuole interrogare
 * **\<lastEventId>:** inserire l'eventId dell'ultimo evento ottenuto nella precedente chiamata
 

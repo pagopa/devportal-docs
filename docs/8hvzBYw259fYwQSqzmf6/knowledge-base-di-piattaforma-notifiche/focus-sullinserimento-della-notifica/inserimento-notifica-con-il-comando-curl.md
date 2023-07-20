@@ -36,6 +36,7 @@ curl --location 'https://<baseurlAmbiente>/delivery/attachments/preload' \
 --header 'Content-Type: application/json' \
 --header 'Accept: application/json' \
 --header 'x-api-key: <apiKey>' \
+--header 'Authorization: Bearer <PDNDVoucher>' \
 --data '[
 {
   "preloadIdx": "<preloadIdx1>",
@@ -53,6 +54,7 @@ curl --location 'https://<baseurlAmbiente>/delivery/attachments/preload' \
 
 * **\<baseurlAmbiente>:** inserire la url dell'ambiente di riferimento, nel caso di COLL è il seguente: **api.coll.pn.pagopa.it**
 * **\<apiKey>:** inserire la apiKey dell'Ente di riferimento, precedentemente generata su PND&#x20;
+* **\<PDNDVoucher>:** inserire inserire il Voucher generato su **PDND Interoperabilità,** assicurandosi che non sia scaduto
 * **\<shaDellaNotifica>:** è lo sha256 della Notifica che si ottiene come output al punto 1.1
 * **\<shaDelPagamento>:** è lo sha256 del Pagamento che si ottiene come output al punto 1.2
 * il valori **\<preloadIdx1>** e **\<preloadIdx2>** sono a discrezione del chiamante e servono per associare un indice alle richieste presenti nell'array di questa request
@@ -102,7 +104,8 @@ curl -X <httpMethod1> \
 ```
 
 **NOTA:** nella chiamata fare attenzione a sostituire i campi parametrici con le informazioni ottenute agli altri punti. Da notare che il comando **--data-binary** è necessario per fare l'upload del documento e bisognerà inserire la **@** prima del path del file che si sta caricando.\
-E' importante lanciare la curl con il --verbose che permetterà di visualizzare nell'header della response di esito positivo il valore di x-amz-version-id: **\<versionIdNotifica>** utile per la prossima chiamata
+E' importante lanciare la curl con il --verbose che permetterà di visualizzare nell'header della response di esito positivo il valore di x-amz-version-id: **\<versionIdNotifica>** utile per la prossima chiamata.\
+Assicurarsi di **NON** inserire in questa chiamata l'Autorization Header `"Authorization: Bearer <`PDNDVoucher`>`con il Vocuher.
 
 * Upload del documento Pagamento.pdf
 
@@ -116,7 +119,8 @@ curl -X <httpMethod2> \
 ```
 
 **NOTA:** nella chiamata fare attenzione a sostituire i campi parametrici con le informazioni ottenute agli altri punti. Da notare che il comando **--data-binary** è necessario per fare l'upload del documento e bisognerà inserire la **@** prima del path del file che si sta caricando.\
-E' importante lanciare la curl con il --verbose che permetterà di visualizzare nell'header della response di esito positivo il valore di x-amz-version-id: **\<versionIdPagamento>** utile per la prossima chiamata
+E' importante lanciare la curl con il --verbose che permetterà di visualizzare nell'header della response di esito positivo il valore di x-amz-version-id: **\<versionIdPagamento>** utile per la prossima chiamata.\
+Assicurarsi di **NON** inserire in questa chiamata l'Autorization Header `"Authorization: Bearer <`PDNDVoucher`>`con il Vocuher.
 
 ### 4) Effettuare l'inserimento della notifica
 
@@ -127,13 +131,15 @@ curl --location 'https://<baseurlAmbiente>/delivery/requests' \
 --header 'Content-Type: application/json' \
 --header 'Accept: application/json' \
 --header 'x-api-key: <apiKey>' \
+--header 'Authorization: Bearer <PDNDVoucher>' \
 --data-raw '<payloadDellaNotifica>'
 ```
 
 **NOTA:**
 
 * **\<baseurlAmbiente>:** inserire la url dell'ambiente di riferimento, nel caso di COLL è il seguente: **api.coll.pn.pagopa.it**
-* **\<apiKey>:** inserire la apiKey dell'Ente di riferimento, precedentemente generata su PND&#x20;
+* **\<apiKey>:** inserire la apiKey dell'Ente di riferimento, precedentemente generata su PND
+* **\<PDNDVoucher>**: inserire inserire il Voucher generato su **PDND Interoperabilità**, assicurandosi che non sia scaduto
 * **\<payloadDellaNotifica>:** corrisponde al json contenente tutti i dati della notifica; per inserire correttamente i riferimenti ai pdf caricati in precedenza, seguire le seguenti istruzioni:
   * Valorizzare i seguenti riferimenti al file Notifica.pdf\
     documents.digests.sha256:  **\<shaDellaNotifica>**\

@@ -2,6 +2,46 @@
 
 Scopo di questo documento è di raccogliere i test che una PA mittente, o il suo partner tecnologico, devono effettuare e documentare per validare l’avvenuta integrazione con Piattaforma Notifiche (PN)
 
+### Istruzioni su processo di validazione dei test
+
+Per convalidare i test descritti nel documento: Test di certificazione avvenuta integrazione con Piattaforma Notifiche è possibile utilizzare il tool di validazione PN-Validator, la cui documentazione ed istruzioni di utilizzo sono esposti alla seguente pagina: [https://docs.pagopa.it/pnvalidator/](https://docs.pagopa.it/pnvalidator/)
+
+Il PN-Validator genera un report in formato JSON visualizzabile contattando la url: _{basUrlValidator}/checklistresult_ dove sono elencate una serie di domande inizialmente in false, che descrivono le azioni da compiere per considerare validati i test-case. Il report verrà aggiornato di volta in volta che le chiamate effettuate dal partner soddisferanno i requisiti richiesti dal test-case di riferimento, portando le domande in true.
+
+Quando tutte le domande appartenenti al gruppo del test-case passeranno in true, tale test-case è da considerarsi validato; una volta eseguiti positivamente tutti i test e quando tutte le domande presenti nel report saranno passate in true, potranno essere considerati convalidati tutti i test.
+
+Come ulteriore supporto a questa fase dell'integrazione, trovate a questo link il documento Modello di integrazione di Piattaforma Notifiche Digitali:\
+[https://docs.pagopa.it/modello-di-integrazione-di-piattaforma-notifiche/](https://docs.pagopa.it/modello-di-integrazione-di-piattaforma-notifiche/)  \
+dove vengono descritti di diversi scenari di integrazione e le due diverse possibili modalità di aggiornamento della posizione debitoria.
+
+#### Validazione dei test lato Partner
+
+In questa fase il report dovrà essere prodotto dal Partner Tecnologico utilizzando la propria soluzione di integrazione verso le API esposte dal tool PN-Validator allo scopo di produrre un report convalidato, che dovrà essere copiato all’interno di un file JSON e condiviso con il Team Supporto Enti ([pn-supporto-enti@pagopa.it](mailto:pn-supporto-enti@pagopa.it)) che provvederà a verificarne lo stato.
+
+#### Validazione dei test lato Enti
+
+In questa fase il report dovrà essere prodotto all’interno dell’ambiente degli Enti che si intendono convalidare, utilizzando sempre la soluzione sviluppata dal Partner verso le API esposte dal tool di validazione PN-Validator. Questa operazione può sia essere eseguita dagli Enti col supporto del Partner che direttamente dal Partner stesso, sempre rimanendo all’interno dell’ambiente dell’Ente di riferimento.\
+Dopo aver completato con successo questi passaggi, per ogni Ente sarà possibile allegare i report contenenti il buon esito sul Modulo Google accessibile da qui: [https://docs.google.com/forms/d/e/1FAIpQLSfrGqbMreVuonmIa1VRTBK0stnTJfsmzNLaV2H9R-wIucuZcQ/viewform](https://docs.google.com/forms/d/e/1FAIpQLSfrGqbMreVuonmIa1VRTBK0stnTJfsmzNLaV2H9R-wIucuZcQ/viewform)\
+Si evidenzia che nella testata del Modulo Google sono presenti le istruzioni su come salvare e nominare il report che viene restituito dal tool, mentre nella restante parte del Modulo si richiede la compilazione delle informazioni principali dell’Ente che lo compila. Nell’ultima parte c’è la sezione dedicata al report che deve essere allegato in formato json.
+
+Dopo aver completato i Moduli Google rispettivamente su tutti gli Enti, chiediamo ai Partner di inviare una comunicazione al Team Supporto Enti ([pn-supporto-enti@pagopa.it](mailto:pn-supporto-enti@pagopa.it)) per segnalare il completamento dell’operazione e permettere la verifica dei Form prodotti.
+
+#### Validazione dei test lato Enti nei casi di utilizzo soluzione SaaS
+
+Nel caso specifico dei Partner che hanno sviluppato una soluzione SaaS, rimane comunque fondamentale completare il processo di convalida del report che è collegato all’asseveramento; pertanto è possibile procedere nel seguente modo:
+
+_Inviare una PEC all'indirizzo_ [_pagopa@pec.governo.it_](mailto:pagopa@pec.governo.it) _che abbia nell’oggetto un riferimento al Partner Coinvolto ed al fatto che si stia utilizzando la soluzione SaaS e che contenenga i seguenti allegati:_
+
+1. _Descrizione della Soluzione di intermediazione in SaaS di cui gli Enti associati al Partner si avvalgono._
+2. _Elenco degli Enti contrattualizzati._
+3. _Dichiarazione attestante che le modalità d'integrazione a PND attraverso la Soluzione SaaS di cui al punto 1, garantiscono per gli Enti in elenco di cui al punto 2 l'aderenza ai requisiti previsti dalle LLGG/Modello d'integrazione definite da PagoPA spa, in particolare per quanto riguarda:_
+   * _a) Chiamata alla API per l'attualizzazione del costo della notifica_
+   * _b) Avvenuta integrazione a PND tramite PDND/Interoperabilità_
+
+_4.      Una copia del report ottenuta dal Validator tool utilizzando la Soluzione SaaS_
+
+### Descrizione dei test case di integrazione con Piattaforma Notifiche
+
 **TC-INVIO-01: Creazione di una notifica che richiede un pagamento per un singolo destinatario**
 
 * La PA mittente produce almeno due documenti PDF (atto/i notificato/i e avviso pagoPA)
