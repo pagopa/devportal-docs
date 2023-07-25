@@ -2,7 +2,7 @@
 
 Tramite la piattaforma pagoPA è possibile richiedere pagamenti di posizioni debitorie che contengano una marca da bollo digitale (@e.bollo).
 
-Tale funzionalità è disponibile solo per il caso d'uso [**Pagamento presso frontend dell'EC**](https://docs.pagopa.it/sanp/casi-duso/pagamento-presso-frontend-dellec).
+Tale funzionalità è disponibile solo per il caso d'uso [**Pagamento presso frontend dell'EC**](http://127.0.0.1:5000/s/PJuzswk8l2kp9Wm5PwAW/casi-duso/pagamento-presso-frontend-dellec).
 
 <figure><img src=".gitbook/assets/0f2bb4a0-cec5-4020-9a16-0ccc1f562b87.jpg" alt=""><figcaption></figcaption></figure>
 
