@@ -39,7 +39,7 @@ il video-tutorial è qui:\
 
 Quando la richiesta di fruizione è stata compilata con successo, cliccare su "Inoltra richiesta di fruizione"
 
-<figure><img src="../../.gitbook/assets/image (2) (2).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (2) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 Una volta che la richiesta di fruizione è stata inviata, questa verrà esaminata dall'Erogatore che dovrà approvarla. È sempre possibile verificare lo stato delle richieste di fruizione presentate andando su _Fruizione > Le tue richieste_.
 
@@ -94,7 +94,7 @@ I video-tutorial sono qui:\
 
 prima di caricare una chiave pubblica, entrare nella sezione _Fruizione > I tuoi client_ selezionare "Ispeziona" sul client di riferimento ed assicurarsi che sia presente "_IL TOKEN PUò ESSERE STACCATO: SI_" come segue:
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (2).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Poi accedere al tab "Chiavi pubbliche" e cliccare su "Aggiungi"
 

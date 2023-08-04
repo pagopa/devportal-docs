@@ -6,7 +6,7 @@ description: Informazioni utili sul Workflow della Notifica
 
 ## Diagramma degli stati <a href="#diagramma-degli-stati" id="diagramma-degli-stati"></a>
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>Diagramma degli stati</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p>Diagramma degli stati</p></figcaption></figure>
 
 ### **Descrizione di stato sintetica della notifica nei casi di invio Multi-destinatario**: <a href="#descrizione-di-stato-sintetica-della-notifica-nei-casi-di-invio-multi-destinatario" id="descrizione-di-stato-sintetica-della-notifica-nei-casi-di-invio-multi-destinatario"></a>
 
