@@ -1,29 +1,29 @@
 # 💼 Creare il Dossier
 
-Ora dovrai creare il **Dossier**, un contenitore che identifica l'**insieme dei metadati dei documenti** da firmare all'interno di una richiesta di firma.&#x20;
+Ora dovrai creare il **Dossier**, un contenitore che identifica l'**insieme dei metadati dei documenti** da firmare all'interno di una richiesta di firma. Ti consente di raggruppare le richieste di firma per tipologia di contratto.&#x20;
 
 Ciascun dossier rappresenta un **caso d’uso specifico**. Ad esempio, potresti creare un dossier per i documenti delle borse di studio, denominato “_**Richiesta Borsa di studio”**_, e un altro _**“Contratto di assunzione”**_ per i contratti di collaborazione sulla didattica. In questo modo, è possibile creare le richieste di firma verso gli utenti riutilizzando lo stesso dossier. Infatti, tutti gli studenti e le studentesse che dovranno firmare dei contratti per richiedere una borsa di studio potranno ricevere una `signature request` creata a partire dallo stesso dossier (in questo esempio, “_Richiesta Borsa di studio”_).\
-Il titolo del dossier sarà anche riportato nel messaggio di richiesta di firma al cittadino:&#x20;
+Le `signature request` dello stesso dossier possono avere in comune titolo, email di riferimento per l'assistenza e spesso anche le firme da inserire. Per questa ragione creare un dossier può agevolare anche nella revisione delle firme.
+
+\
+Il **titolo del dossier** sarà anche riportato nel messaggio di richiesta di firma al cittadino:&#x20;
 
 &#x20;                                             <img src=".gitbook/assets/Screenshot 2023-02-14 alle 17.08.30.png" alt="" data-size="original">
 
-{% hint style="info" %}
+{% hint style="warning" %}
 **Come scrivere il titolo del dossier**
 
-Il titolo del dossier deve essere **breve** e sintetizzare l'oggetto per cui si chiede la firma (es. Carta d'Identità, Contratto di RIcerca...)
+Il titolo del dossier è composto da tre elementi: il nome dell'ente, il titolo del dossier che è anche l'oggetto della richiesta, il testo "Richiesta di firma".
+
+Il titolo del dossier deve essere **breve,** sintetizzando l'oggetto per cui si chiede la firma (es. Carta d'Identità, Contratto di Ricerca...)
 
 * deve essere lungo al massimo **75 caratteri**, spazi inclusi
 * deve essere scritto in **lettere minuscole** e non maiuscole, a meno che non si tratti di sigle o acronimi (es. Carta d'Identità e non CARTA D'IDENTITÀ)
 * non deve contenere **sigle o acronimi poco noti**
 * non deve contenere le parole "**online**" o "**digitale**", ma nemmeno parole come "**notifica**" o "**servizio**".
+
+Il titolo del dossier **NON deve essere generico** o contenere un'informazione già presente (come ad esempio il nome dell'ente o il testo "richiesta di firma").
 {% endhint %}
-
-&#x20;👉 Lo **scopo** del dossier:
-
-* Può essere **riutilizzato**, infatti non è legato a specifici utenti
-* Consente di "raggruppare" le richieste di firma per visualizzare rapidamente determinati dati (e.g., quanti contratti di assunzione sono stati mandati in firma)
-* Consente di **ridurre il numero di chiamate** necessarie alla creazione della richiesta di firma
-* Diminuisce la possibilità di duplicare informazioni durante una richiesta di firma
 
 ### Un esempio&#x20;
 
