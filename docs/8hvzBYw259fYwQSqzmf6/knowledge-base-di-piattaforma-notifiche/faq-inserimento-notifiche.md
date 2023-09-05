@@ -43,6 +43,13 @@ I passi da seguire sono i seguenti:
 
 L’inoltro della notifica può avvenire in modalità _piattaforma web_ o _B2B_. La modalità _piattaforma web_ prevede l’utilizzo della webapp di Piattaforma Notifiche e consente l’inoltro puntuale di una notifica. La modalità _B2B_ prevede l’utilizzo dei servizi di Piattaforma Notifiche attraverso l'integrazione con le API e consente l’inoltro massivo di notifiche.
 
+### Cosa NON inserire tra i metadati della notifica?
+
+Tra i metadati della notifica **NON** bisogna mai inserire alcun tipo di dato personale o sensibile all'interno dei seguenti campi della notifica che non sono anonimizzati:
+
+* **subject**
+* **abstract**
+
 ### Quali controlli vengono effettuati contestualmente all'inserimento della notifica (controlli sincroni)?
 
 I controlli sincroni vengono effettuati nel momento stesso in cui si invia la request al servizio di invio notifica.\
@@ -60,6 +67,9 @@ I controlli effettuati da PN sono i seguenti:
 * verifica che lo sha256 inserito nella notifica corrisponda a quello del documento associato ad essa
 * verifica che ciascun CF fornito esista veramente
 * verifica che l'indirizzo fisico associato a ciascun destinatario sia esistente e che il CAP inserito sia specifico della località e non generico. Queste verifiche vengono effettuate con Postel.&#x20;
+
+**NOTA:** nel caso in cui una Notifica venga rifiutata in fase di validazione, PND fatturerà comunque alla PA mittente € 1 per ogni destinatario della notifica (a copertura dei servizi di PND).\
+Vedi l'art. 4 comma 3 lettera d) dei T\&C della piattaforma: [https://docs.pagopa.it/documento-1-termini-condizioni-di-adesione-e-uso/](https://docs.pagopa.it/documento-1-termini-condizioni-di-adesione-e-uso/)
 
 ### Come si sviluppa il workflow dell'invio della notifica?
 
@@ -280,3 +290,8 @@ PND fatturerà alla PA mittente, nei termini previsti dal contratto di adesione,
 
 * € 1 per servizio PN per ogni destinatario della notifica (a copertura dei servizi di PND)
 * il costo di tutti gli invii cartacei (a copertura dei servizi di postalizzazione)
+
+### Cosa rappresenta lo status "Unreachable"?
+
+Lo status **"Unreachable"** rappresenta il caso nel quale la piattaforma non è riuscita a raggiungere il destinatario; questo vale anche nei casi in cui la postalizzazione ha avuto luogo ma il destinatario è risultato irreperibile all'indirizzo noto. \
+In questi casi si applicano le spese di notifica sostenute e l'atto depositato è considerato notificato.
