@@ -52,7 +52,7 @@ curl --location 'https://<baseurlAmbiente>/delivery/attachments/preload' \
 
 **NOTA:** sostituire i seguenti:
 
-* **\<baseurlAmbiente>:** inserire la url dell'ambiente di riferimento, nel caso di COLL è il seguente: **api.coll.pn.pagopa.it**
+* **\<baseurlAmbiente>:** inserire la url dell'ambiente di riferimento, nel caso di UAT è il seguente: **https://api.uat.notifichedigitali.it**
 * **\<apiKey>:** inserire la apiKey dell'Ente di riferimento, precedentemente generata su PND&#x20;
 * **\<PDNDVoucher>:** inserire inserire il Voucher generato su **PDND Interoperabilità,** assicurandosi che non sia scaduto
 * **\<shaDellaNotifica>:** è lo sha256 della Notifica che si ottiene come output al punto 1.1
@@ -137,7 +137,7 @@ curl --location 'https://<baseurlAmbiente>/delivery/requests' \
 
 **NOTA:**
 
-* **\<baseurlAmbiente>:** inserire la url dell'ambiente di riferimento, nel caso di COLL è il seguente: **api.coll.pn.pagopa.it**
+* **\<baseurlAmbiente>:** inserire la url dell'ambiente di riferimento, nel caso di UAT è il seguente: **https://api.uat.notifichedigitali.it**
 * **\<apiKey>:** inserire la apiKey dell'Ente di riferimento, precedentemente generata su PND
 * **\<PDNDVoucher>**: inserire inserire il Voucher generato su **PDND Interoperabilità**, assicurandosi che non sia scaduto
 * **\<payloadDellaNotifica>:** corrisponde al json contenente tutti i dati della notifica; per inserire correttamente i riferimenti ai pdf caricati in precedenza, seguire le seguenti istruzioni:

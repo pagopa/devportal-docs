@@ -48,7 +48,7 @@ Aprire la scheda **Leggi progressi notifiche** e riprodurre questa configurazion
 
 **NOTA:** sostituire i seguenti:
 
-* **\<baseurl>:** inserire la url dell'ambiente di riferimento, nel caso di COLL è il seguente: **api.coll.pn.pagopa.it**
+* **\<baseurl>:** inserire la url dell'ambiente di riferimento, nel caso di UAT è il seguente: **https://api.uat.notifichedigitali.it**
 * **\<streamId>:** inserire l'id dello stream che si vuole interrogare
 
 Nella response di questo servizio, si otterrà il seguente payload che rappresenta tutti gli eventi:
@@ -76,7 +76,7 @@ Aprire la scheda **Leggi progressi notifiche** e riprodurre questa configurazion
 
 **NOTA:** sostituire i seguenti:
 
-* **\<baseurlAmbiente>:** inserire la url dell'ambiente di riferimento, nel caso di COLL è il seguente: **api.coll.pn.pagopa.it**
+* **\<baseurlAmbiente>:** inserire la url dell'ambiente di riferimento, nel caso di UAT è il seguente: **https://api.uat.notifichedigitali.it**
 * **\<streamId>:** inserire l'id dello stream che si vuole interrogare
 * **\<lastEventId>:** inserire l'eventId dell'ultimo evento ottenuto nella precedente chiamata
 

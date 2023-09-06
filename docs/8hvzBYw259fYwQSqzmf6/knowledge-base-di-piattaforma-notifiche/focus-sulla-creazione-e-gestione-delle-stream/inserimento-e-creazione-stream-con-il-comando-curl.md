@@ -32,7 +32,7 @@ curl --location 'https://<baseurlAmbiente>/delivery-progresses/streams' \
 
 **NOTA:** sostituire i seguenti:
 
-* **\<baseurlAmbiente>:** inserire la url dell'ambiente di riferimento, nel caso di COLL è il seguente: **api.coll.pn.pagopa.it**
+* **\<baseurlAmbiente>:** inserire la url dell'ambiente di riferimento, nel caso di UAT è il seguente: **https://api.uat.notifichedigitali.it**
 * **\<apiKey>:** inserire la apiKey dell'Ente di riferimento, precedentemente generata su PND
 * **\<PDNDVoucher>:** inserire inserire il Voucher generato su **PDND Interoperabilità,** assicurandosi che non sia scaduto
 * **\<title>:** inserire un titolo da attribuire a questo stream
@@ -71,7 +71,7 @@ curl --location 'https://<baseurlAmbiente>/delivery-progresses/streams/<streamId
 
 **NOTA:** sostituire i seguenti:
 
-* **\<baseurlAmbiente>:** inserire la url dell'ambiente di riferimento, nel caso di COLL è il seguente: **api.coll.pn.pagopa.it**
+* **\<baseurlAmbiente>:** inserire la url dell'ambiente di riferimento, nel caso di UAT è il seguente: **https://api.uat.notifichedigitali.it**
 * **\<apiKey>:** inserire la apiKey dell'Ente di riferimento, precedentemente generata su PND
 * **\<PDNDVoucher>:** inserire inserire il Voucher generato su **PDND Interoperabilità,** assicurandosi che non sia scaduto
 * **\<streamId>:** inserire l'id dello stream che si vuole interrogare
@@ -133,7 +133,7 @@ curl --location 'https://<baseurlAmbiente>/delivery-progresses/streams/<streamId
 
 **NOTA:** sostituire i seguenti:
 
-* **\<baseurlAmbiente>:** inserire la url dell'ambiente di riferimento, nel caso di COLL è il seguente: **api.coll.pn.pagopa.it**
+* **\<baseurlAmbiente>:** inserire la url dell'ambiente di riferimento, nel caso di UAT è il seguente: **https://api.uat.notifichedigitali.it**
 * **\<apiKey>:** inserire la apiKey dell'Ente di riferimento, precedentemente generata su PND
 * **\<PDNDVoucher>:** inserire inserire il Voucher generato su **PDND Interoperabilità,** assicurandosi che non sia scaduto
 * **\<streamId>:** inserire l'id dello stream che si vuole interrogare
