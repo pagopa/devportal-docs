@@ -12,7 +12,7 @@ I file degli Allegati non sono trasmessi al momento dell'invio del Messaggio, n�
 
 Per consentire questo scambio di dati dovrai fornire alcune informazioni in sede di _onboarding_ ed esporre un'API REST che sarà richiamata da IO (_callback_). Il diagramma che segue riporta la sequenza delle operazioni coinvolte nell'integrazione tra la tua Organizzazione e IO per il supporto agli Allegati.
 
-<figure><img src=".gitbook/assets/56605a6e-888f-43da-8f1c-c1c346cf9ce1 (1).jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/56605a6e-888f-43da-8f1c-c1c346cf9ce1 (1).jpg" alt="" width="563"><figcaption></figcaption></figure>
 
 #### **Integrazione: sequenza degli eventi**
 
@@ -24,7 +24,7 @@ Dopo aver definito il Servizio che userai per spedire i tuoi Messaggi, per abili
 
 * `serviceId`: è l'identificativo del Servizio IO, puoi recuperarlo accedendo alla sezione Servizi dell'Area Riservata
 
-<figure><img src=".gitbook/assets/c400de9b-63ba-415e-9009-17d33b111cf4.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/c400de9b-63ba-415e-9009-17d33b111cf4.jpg" alt="" width="563"><figcaption></figcaption></figure>
 
 Dove puoi trovare il `serviceId`
 
@@ -62,7 +62,7 @@ Trovi tutte le informazioni di dettaglio circa gli _endpoint_ di _callback_ nell
 
 Il risultato che vogliamo ottenere in questo esempio è che il Cittadino riceva un Messaggio IO simile a quello mostrato di seguito:
 
-<figure><img src=".gitbook/assets/e4b2ef2c-8743-429e-a6f8-403a7465ebc2.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/e4b2ef2c-8743-429e-a6f8-403a7465ebc2.jpg" alt="" width="349"><figcaption></figcaption></figure>
 
 Esempio di Messaggio con Allegati
 
@@ -125,7 +125,7 @@ In seguito alla richiesta di invio del Messaggio, come visto in [**Step 2 - Invi
 
 Toccando la notifica, oppure aprendo manualmente App IO e toccando il nuovo messaggio nell'elenco dei messaggi ricevuti, l'utente accederà al dettaglio: se tutto sarà andato come previsto, IO avrà contattato i tuoi sistemi per recuperare i metadati degli allegati (numero, nomi e URL relative), potendo così costruire la pagina da mostrarti: nota la sezione Allegati con l'elenco dei tuoi file.
 
-<figure><img src=".gitbook/assets/d066986c-666c-44e0-bbb5-9cb5b8e0a99d.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/d066986c-666c-44e0-bbb5-9cb5b8e0a99d.jpg" alt="" width="349"><figcaption></figcaption></figure>
 
 **A livello di integrazione** il backend di IO avrà effettuato una richiesta GET all'indirizzo `https://integrazione.mioente.it/io/messages/000003`, che avrà costruito come segue (come previsto dalle relative [specifiche OpenAPI](https://editor.swagger.io/?url=https://raw.githubusercontent.com/pagopa/io-backend/master/openapi/consumed/api-third-party.yaml)):
 
@@ -139,7 +139,7 @@ L'endpoint avrà risposto con questi dati:
 
 * il campo `id` sarà usato da IO in evoluzioni future. Per il momento è richiesto solo che sia valorizzato in modo univoco, ad esempio puoi usare una nuova [GUID](https://it.wikipedia.org/wiki/GUID)​
 
-![](.gitbook/assets/191316f6-3e9f-426e-b7e4-6e0880a3d7da.png)
+
 
 Il campo `url` deve contenere il percorso relativo per il download dell’allegato, come vedremo meglio in dettaglio tra poco in [**Step 4 - Visualizzazione di un Allegato**](https://docs.pagopa.it/kb-enti-messaggi/tutorial-e-casi-duso/indice-dei-tutorial-e-dei-casi-duso/come-allegare-documenti-a-un-messaggio-funzionalita-premium#step-4-visualizzazione-di-un-allegato)​
 
@@ -152,7 +152,7 @@ Toccando uno dei file allegati al tuo Messaggio, il destinatario avvierà il pro
 
 Dopo alcuni secondi, necessari affinché il file sia trasferito dai tuoi sistemi a IO e quindi all'App di destinazione, all'utente sarà mostrato il visualizzatore di PDF integrato in App IO:
 
-<figure><img src=".gitbook/assets/9e957cef-79f4-4ed6-b6c7-480b3c82789a.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/9e957cef-79f4-4ed6-b6c7-480b3c82789a.png" alt="" width="349"><figcaption></figcaption></figure>
 
 Potrà quindi utilizzare i gesti di zoom e spostamento per esaminare l'allegato più in dettaglio, così come potrà scegliere di:
 
