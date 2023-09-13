@@ -8,7 +8,7 @@ Ma che cos'è un client? È un contenitore nel quale si inseriscono un numero di
 
 Per creare un nuovo client andiamo in modalità fruizione > i tuoi client e clicchiamo su più, aggiungi. A questo punto inseriamo nome e descrizione, e selezioniamo tra gli operatori che abbiamo già invitato ad operare sul backoffice, quelli che ci interessano.
 
-<figure><img src=".gitbook/assets/bc6370ba-fe70-4d86-910a-4f903b6d6457.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/bc6370ba-fe70-4d86-910a-4f903b6d6457.png" alt="" width="563"><figcaption></figcaption></figure>
 
 &#x20;Una volta creato il client, sarà necessario associarlo alla finalità che abbiamo creato [in un altro tutorial tutorial](https://pagopa.atlassian.net/wiki/spaces/DPGC/pages/721846552/Cos+e+come+si+crea+una+finalit+in+PDND). Per farlo, seguiamo questi passi:
 
