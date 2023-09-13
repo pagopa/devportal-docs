@@ -8,13 +8,13 @@ Cos'è una finalità? Come indicato nel glossario, il ruolo della finalità è _
 
 Un fruitore può creare una nuova finalità andando su _Fruizione > Le tue finalità_ e cliccando _Aggiungi_.
 
-<figure><img src=".gitbook/assets/Screenshot 2023-05-26 alle 11.46.44 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2023-05-26 alle 11.46.44 (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Una finalità è composta essenzialmente da alcune informazioni generali, dalla stima di carico legata all'impiego delle risorse dell'erogatore, dall'analisi del rischio rispetto all'utilizzo dei dati e dai client associati. Una volta pubblicata la finalità, le informazioni generali e l'analisi del rischio non sono modificabili, mentre sarà possibile aggiornare i client utilizzati e la stima di carico.
 
 Nel momento in cui si crea la finalità, sarà necessario indicare l'e-service per il quale la finalità sarà attiva. Dall'elenco, si potranno scegliere solo gli e-service per i quali l'ente ha una richiesta di fruizione attiva.
 
-<figure><img src=".gitbook/assets/Screenshot 2023-05-26 alle 11.47.13.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2023-05-26 alle 11.47.13.png" alt="" width="563"><figcaption></figcaption></figure>
 
 Sarà sempre possibile mantenere la finalità in bozza o pubblicarla. Una volta pubblicata, diventerà immediatamente attiva se l'utilizzo delle risorse stimato dal fruitore è inferiore a tutte le soglie stabilite dell'erogatore. In caso contrario, dovrà invece essere approvata manualmente dall'erogatore. Per maggiori informazioni sul meccanismo di stima del carico, c'è una [sezione dedicata](https://docs.pagopa.it/interoperabilita-1/manuale-operativo/finalita#aggiornare-la-stima-di-carico-di-una-finalita).
 
@@ -24,11 +24,11 @@ Per facilitare il compito dei fruitori rispetto alla compilazione dell'analisi d
 
 È sempre possibile associare e rimuovere i client legati ad una finalità, anche dopo la sua pubblicazione. Se si intende modificare in un secondo momento uno o più client associati, il fruitore può andare su _Fruizione > Le mie finalità_, trovare la finalità desiderata e cliccare su _Ispeziona_. Nella tab _Client associati_ sarà possibile operare sui client.
 
-<figure><img src=".gitbook/assets/83932d88-2e79-47c0-abdd-8f54130faedb.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/83932d88-2e79-47c0-abdd-8f54130faedb.jpg" alt="" width="563"><figcaption></figcaption></figure>
 
 Le mie finalità --> Ispeziona
 
-<figure><img src=".gitbook/assets/afec5108-bd95-4036-b403-c4fa26c42e07.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/afec5108-bd95-4036-b403-c4fa26c42e07.jpg" alt="" width="563"><figcaption></figcaption></figure>
 
 Tab "Client associati"
 
