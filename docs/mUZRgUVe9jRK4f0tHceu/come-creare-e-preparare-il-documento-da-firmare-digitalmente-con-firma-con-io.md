@@ -32,7 +32,7 @@ A questo punto dovrai identificare i campi firma del documento, individuandone l
 
 Le informazioni da indicare verranno riportate all’interno dei campi **Posizione** e **Dimensione.** Assicurati che l’unità di misura sia impostata in Punti (pt) sia per la posizione che la dimensione.
 
-<figure><img src=".gitbook/assets/gimp (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/gimp (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 #### Usare le coordinate nella creazione del dossier di richiesta di firma
 
