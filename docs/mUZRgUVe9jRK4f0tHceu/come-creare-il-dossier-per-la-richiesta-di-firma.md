@@ -8,7 +8,7 @@ Infatti, tutti gli studenti e le studentesse che dovranno firmare dei contratti 
 
 Il titolo del dossier sarà anche riportato nel messaggio di richiesta di firma al cittadino:
 
-<figure><img src=".gitbook/assets/dc465d08-e291-4ca2-879d-e9ee8dfed2b7.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/dc465d08-e291-4ca2-879d-e9ee8dfed2b7.png" alt="" width="224"><figcaption></figcaption></figure>
 
 Queste le caratteristiche principali di un dossier​:
 
