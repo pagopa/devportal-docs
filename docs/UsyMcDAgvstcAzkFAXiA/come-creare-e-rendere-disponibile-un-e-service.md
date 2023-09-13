@@ -10,11 +10,11 @@ Per creare un e-service occorre quindi, per prima cosa, rendere disponibile una 
 
 La prima cosa da fare sarà selezionare la voce erogazione dal menu e quindi “I tuoi e-service”, per poi procedere facendo click sul pulsante + Aggiungi:
 
-<figure><img src=".gitbook/assets/c275fdf8-c011-4661-9363-8ba288eea577.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/c275fdf8-c011-4661-9363-8ba288eea577.png" alt="" width="563"><figcaption></figcaption></figure>
 
 In questo modo si atterrerà sulla pagina di creazione dell’E-service.
 
-<figure><img src=".gitbook/assets/c865f3a2-24c6-40e9-83fb-0d629ac567f8.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/c865f3a2-24c6-40e9-83fb-0d629ac567f8.png" alt="" width="563"><figcaption></figcaption></figure>
 
 &#x20;
 
