@@ -4,7 +4,7 @@ Tramite la piattaforma pagoPA è possibile richiedere pagamenti di posizioni deb
 
 Tale funzionalità è disponibile solo per il caso d'uso [**Pagamento presso frontend dell'EC**](https://developer.pagopa.it/pago-pa/guides/sanp/3.4.1/casi-duso/pagamento-presso-frontend-dellec).
 
-<figure><img src=".gitbook/assets/0f2bb4a0-cec5-4020-9a16-0ccc1f562b87.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/0f2bb4a0-cec5-4020-9a16-0ccc1f562b87.jpg" alt="" width="563"><figcaption></figcaption></figure>
 
 Per poter richiedere l'attivazione di un _pagamento atteso_ di una marca da bollo è necessario che l'EC compili il tag _richiestaMarcaDaBollo_ all’interno della response alla [paGetPaymentV2](https://docs.pagopa.it/sanp/appendici/primitive#pagetpayment-versione-2) avendo cura di inserire:
 

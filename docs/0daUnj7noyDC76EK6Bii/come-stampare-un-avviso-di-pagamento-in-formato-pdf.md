@@ -6,14 +6,14 @@ L'utilizzo della funzionalità consente all'Ente di semplificare notevolmente il
 
 ### **Stampa singolo avviso**
 
-<figure><img src=".gitbook/assets/afe2021a-ded2-419d-bc18-56e0c55111b4.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/afe2021a-ded2-419d-bc18-56e0c55111b4.jpg" alt="" width="248"><figcaption></figcaption></figure>
 
 * L’EC invia tutte le informazioni necessarie alla stampaSingoloAvviso, come indicate nella sezione [**Informazioni richieste per la stampa dell'avviso di pagamento**](https://docs.pagopa.it/sanp/ente-creditore/stampa-avvisi-pagopa#informazioni-richieste-per-la-stampa-dellavviso-di-pagamento);
 * la stampaSingoloAvviso risponde con il PDF dell’_avviso di pagamento_ richiesto, conforme alle specifiche descritte in [Avvisi di pagamento](https://docs.pagopa.it/avviso-pagamento).
 
 ### **Stampa multipla avvisi**
 
-<figure><img src=".gitbook/assets/3df8635b-02bf-495f-a8f6-0f28ba720a7d.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/3df8635b-02bf-495f-a8f6-0f28ba720a7d.jpg" alt="" width="234"><figcaption></figcaption></figure>
 
 * L’EC invia tutte le informazioni necessarie alla stampaMultiAvviso, come indicate nella sezione [**Informazioni richieste per la stampa dell'avviso di pagamento**](https://docs.pagopa.it/sanp/ente-creditore/stampa-avvisi-pagopa#informazioni-richieste-per-la-stampa-dellavviso-di-pagamento);
 * la stampaMultiAvviso fornirà l’url dove poter effettuare il download di tutti i PDF degli _avvisi di pagamento_ richiesti, conformi alle specifiche descritte in [Avvisi di pagamento](https://docs.pagopa.it/avviso-pagamento).
