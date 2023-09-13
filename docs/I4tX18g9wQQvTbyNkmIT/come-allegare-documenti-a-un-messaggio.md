@@ -100,7 +100,7 @@ le informazioni utili.\n\rA Ti aspettiamo!\n\rL'\''Amministrazione Comunale di I
 
 * Il valore del header `Ocp-Apim-Subscription-Key` è la chiave (primaria o secondaria) del tuo Servizio IO: puoi recuperarla accedendo all'Area Riservata e cercando la scheda del tuo Servizio nella pagina "Servizi"
 
-<figure><img src=".gitbook/assets/db914d95-8711-4d8a-8ce1-3be4d402e031.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/db914d95-8711-4d8a-8ce1-3be4d402e031.png" alt="" width="540"><figcaption></figcaption></figure>
 
 * Il valore `"ADVANCED"` per `feature_level_type` identifica un Messaggio Premium: impostalo così per poter aggiungere Allegati al tuo Messaggio
 * Componi il tuo messaggio (`subject`, `markdown`) seguendo i consigli riportati nel [Manuale dei Servizi di IO](https://docs.pagopa.it/manuale-servizi/)​
