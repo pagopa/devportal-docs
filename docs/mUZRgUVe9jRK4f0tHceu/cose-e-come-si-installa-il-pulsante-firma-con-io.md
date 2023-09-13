@@ -4,7 +4,7 @@
 
 Il pulsante Firma con IO è il componente utilizzato per indirizzare l’utente verso la funzionalità di firma dell'app IO a partire da un canale messo a disposizione dall'Ente (sitoweb, app mobile ecc.).
 
-<figure><img src=".gitbook/assets/Screenshot 2023-04-28 alle 15.59.29.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2023-04-28 alle 15.59.29.png" alt="" width="563"><figcaption></figcaption></figure>
 
 Attraverso il pulsante Firma con IO sarà propagato un _universal link_ che consentirà:
 
