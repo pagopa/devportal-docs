@@ -53,4 +53,4 @@
 
 * [❓ Domande frequenti](risorse-utili/domande-frequenti.md)
 * [📘 Glossario](risorse-utili/glossario.md)
-* [Link utili](http://localhost:5000/s/zcLztiq5qDSVw9rRjW7p/risorse-utili/link-utili)
+* [Link utili](http://127.0.0.1:5000/s/zcLztiq5qDSVw9rRjW7p/risorse-utili/link-utili)
