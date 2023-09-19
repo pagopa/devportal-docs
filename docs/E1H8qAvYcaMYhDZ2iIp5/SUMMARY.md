@@ -30,7 +30,7 @@
       * [Configurazione gruppi](piattaforma-notifiche-manuale-operativo/mittente/referente-amministrativo/configurazione-gruppi.md)
       * [Accesso a Piattaforme Notifiche](piattaforma-notifiche-manuale-operativo/mittente/referente-amministrativo/accesso-a-piattaforme-notifiche.md)
       * [Invio manuale di una notifica](piattaforma-notifiche-manuale-operativo/mittente/referente-amministrativo/invio-manuale-di-una-notifica.md)
-      * [Visualizzazione notifiche inviate](piattaforma-notifiche-manuale-operativo/mittente/referente-amministrativo/visualizzazione-notifiche-inviate/README.md)
+      * [Visualizzazione Notifiche inviate](piattaforma-notifiche-manuale-operativo/mittente/referente-amministrativo/visualizzazione-notifiche-inviate/README.md)
         * [Visualizzazione notifiche per il mittente](piattaforma-notifiche-manuale-operativo/mittente/referente-amministrativo/visualizzazione-notifiche-inviate/visualizzazione-notifiche-per-il-mittente.md)
         * [Dettagli di una notifica per il mittente](piattaforma-notifiche-manuale-operativo/mittente/referente-amministrativo/visualizzazione-notifiche-inviate/dettagli-di-una-notifica-per-il-mittente.md)
         * [Accesso ai documenti relativi ad una notifica](piattaforma-notifiche-manuale-operativo/mittente/referente-amministrativo/visualizzazione-notifiche-inviate/accesso-ai-documenti-relativi-ad-una-notifica.md)
