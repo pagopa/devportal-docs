@@ -8,7 +8,7 @@
 
 ## Servizi
 
-* [📋 Indice dei tutorial e dei casi d'uso](servizi/indice-dei-tutorial-e-dei-casi-duso/README.md)
+* [📋 Indice dei Tutorial e dei Casi d'Uso](servizi/indice-dei-tutorial-e-dei-casi-duso/README.md)
   * [📜 Come creare un Servizio](servizi/indice-dei-tutorial-e-dei-casi-duso/come-creare-un-servizio.md)
   * [📜 Come importare un Servizio creato in Developer Portal](servizi/indice-dei-tutorial-e-dei-casi-duso/come-importare-un-servizio-creato-in-developer-portal.md)
   * [🎥 Come sapere se un Cittadino ha abilitata la ricezione dei messaggi per un Servizio](servizi/indice-dei-tutorial-e-dei-casi-duso/come-sapere-se-un-cittadino-ha-abilitata-la-ricezione-dei-messaggi-per-un-servizio.md)
@@ -26,7 +26,7 @@
 
 ## Pagamenti
 
-* [📋 Indice dei tutorial e dei casi d'uso](pagamenti/indice-dei-tutorial-e-dei-casi-duso/README.md)
+* [📋 Indice dei Tutorial e dei Casi d'Uso](pagamenti/indice-dei-tutorial-e-dei-casi-duso/README.md)
   * [📜 Come spedire un avviso di pagamento in un Messaggio](pagamenti/indice-dei-tutorial-e-dei-casi-duso/come-spedire-un-avviso-di-pagamento-in-un-messaggio.md)
   * [📜 Come sapere se l'avviso di un Messaggio è stato pagato (Funzionalità Premium)](pagamenti/indice-dei-tutorial-e-dei-casi-duso/come-sapere-se-lavviso-di-un-messaggio-e-stato-pagato-funzionalita-premium.md)
 * [❓ Domande e risposte sui Pagamenti in IO](pagamenti/domande-e-risposte-sui-pagamenti-in-io.md)

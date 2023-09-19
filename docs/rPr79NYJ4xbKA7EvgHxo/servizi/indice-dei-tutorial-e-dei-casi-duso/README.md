@@ -1,6 +1,6 @@
-# 📋 Indice dei tutorial e dei casi d'uso
+# 📋 Indice dei Tutorial e dei Casi d'Uso
 
-Qui trovi l'elenco dei tutorial e dei casi d'uso
+Qui trovi l'elenco dei Tutorial e dei Casi d'Uso sui Servizi
 
 {% content-ref url="come-creare-un-servizio.md" %}
 [come-creare-un-servizio.md](come-creare-un-servizio.md)
