@@ -25,7 +25,7 @@ Attraverso il pulsante Firma con IO sarà propagato un _universal link_ che cons
 {% hint style="info" %}
 #### Ricorda di validare i documenti <a href="#endpoint-per-la-validazione-dei-documenti" id="endpoint-per-la-validazione-dei-documenti"></a>
 
-Per evitare che al click sul pulsante il flusso si interrompa a causa di problemi sui documenti caricati (es. sono stati inseriti in modo non corretto i campi firma), si consiglia di [validare sempre i documenti](../il-processo/preparare-i-documenti/validare-i-documenti.md) da caricare tramite l'endpoint messo a disposizione.
+Per evitare che al click sul pulsante il flusso si interrompa a causa di problemi sui documenti caricati (es. sono stati inseriti in modo non corretto i campi firma), si consiglia di [validare sempre i documenti](../il-processo-di-firma/preparare-i-documenti/validare-i-documenti.md) da caricare tramite l'endpoint messo a disposizione.
 {% endhint %}
 
 {% content-ref url="installazione-e-uso.md" %}

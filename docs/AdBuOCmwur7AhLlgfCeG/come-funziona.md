@@ -8,7 +8,7 @@ Ecco quali sono gli step che gli enti devono seguire per richiedere la firma di 
 
 <summary><mark style="color:blue;">Step 1</mark>: Prepara il documento</summary>
 
-[Vai qui per scoprire come](il-processo/preparare-i-documenti/)
+[Vai qui per scoprire come](il-processo-di-firma/preparare-i-documenti/)
 
 </details>
 

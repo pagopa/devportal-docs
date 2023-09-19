@@ -18,7 +18,7 @@ Pertanto si consiglia di preferire la consultazione del manuale nella versione o
 {% endhint %}
 
 {% hint style="warning" %}
-Solo dopo la firma dell’**accordo di sperimentazione** si potrà testare l’ambiente perché verranno inviate le **API Key** corrette. \
+Solo dopo la firma dell’**accordo di sperimentazione** si potrà testare il servizio generando le **API Key** di test direttamente dall'[Area Riservata](https://selfcare.pagopa.it/auth/login).\
 Se l’Ente è già integrato ad App IO, non potrà utilizzare le API key che già possiede, ma dovrà generare delle API Key specifiche per il prodotto.
 {% endhint %}
 

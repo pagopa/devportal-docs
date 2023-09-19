@@ -1,5 +1,10 @@
 # 🕗 Changelog
 
+### Versione 4.0 (settembre 2023)
+
+* Integrata sezione Ambienti: Test & Produzione che introduce la possibilità di poter utilizzare contemporaneamente l'ambiente di test e l'ambiente di produzione
+* Integrata sezione Back Office che spiega come generare e gestire le API Key
+
 ### Versione 3.0 (luglio 2023)
 
 * Integrata sezione [Creazione di una Signature Request](richiedere-una-firma/creazione-di-una-signature-request.md) con la possibilità di inserire campi firma specifici per la signature request.
@@ -8,7 +13,7 @@
 ### Versione 2.0 (maggio 2023)
 
 * Integrata sezione [Pulsante Firma con IO](broken-reference).
-* Integrata sezione [Validare i documenti](il-processo/preparare-i-documenti/validare-i-documenti.md) per verificare che il documento sia stato preparato correttamente con campi firma validi.&#x20;
+* Integrata sezione [Validare i documenti](il-processo-di-firma/preparare-i-documenti/validare-i-documenti.md) per verificare che il documento sia stato preparato correttamente con campi firma validi.&#x20;
 * Integrata sezione [Creare il Dossier](creare-il-dossier.md) con la possibilità di inserire il contatto di assistenza legato allo specifico Dossier.&#x20;
 
 ### Versione 1.0 (febbraio 2023)

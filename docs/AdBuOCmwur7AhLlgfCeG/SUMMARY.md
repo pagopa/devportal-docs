@@ -10,12 +10,16 @@
 * [Cos'è?](cose.md)
 * [Come funziona?](come-funziona.md)
 
-## ⚙ IL PROCESSO
+## 🖱 BACK OFFICE
 
-* [📄 Preparare i documenti](il-processo/preparare-i-documenti/README.md)
-  * [Identificare i campi firma](il-processo/preparare-i-documenti/identificare-i-campi-firma/README.md)
-    * [↗ Tramite coordinate](il-processo/preparare-i-documenti/identificare-i-campi-firma/tramite-coordinate.md)
-  * [Validare i documenti](il-processo/preparare-i-documenti/validare-i-documenti.md)
+* [👩💻 Primi passi](back-office/primi-passi.md)
+
+## ⚙ IL PROCESSO DI FIRMA
+
+* [📄 Preparare i documenti](il-processo-di-firma/preparare-i-documenti/README.md)
+  * [Identificare i campi firma](il-processo-di-firma/preparare-i-documenti/identificare-i-campi-firma/README.md)
+    * [↗ Tramite coordinate](il-processo-di-firma/preparare-i-documenti/identificare-i-campi-firma/tramite-coordinate.md)
+  * [Validare i documenti](il-processo-di-firma/preparare-i-documenti/validare-i-documenti.md)
 
 ***
 
@@ -34,6 +38,7 @@
 
 ## 👨💻 API
 
+* [⚒ Ambienti: Test & Produzione](api/ambienti-test-and-produzione.md)
 * [API Rest](api/api-rest.md)
 * [Swagger UI](https://editor.swagger.io/?url=https://raw.githubusercontent.com/pagopa/io-sign/main/apps/io-func-sign-issuer/openapi.yaml)
 * [Specifica OpenAPI](https://raw.githubusercontent.com/pagopa/io-sign/main/apps/io-func-sign-issuer/openapi.yaml)

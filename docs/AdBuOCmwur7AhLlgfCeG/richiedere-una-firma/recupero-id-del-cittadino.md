@@ -23,5 +23,5 @@ Se l'utente non si è mai registrato in IO - ovvero se non ha mai effettuato il 
 {% endhint %}
 
 {% hint style="warning" %}
-In fase di sperimentazione, solo alcuni Codici Fiscali selezionati verranno abilitati al servizio, e pertanto sarà possibile recuperare l'id solo di questi.
+In fase di test, solo i Codici Fiscali inseriti nel Back Office sull'Area Riservata verranno abilitati al servizio, e pertanto sarà possibile recuperare l'id solo di questi.
 {% endhint %}

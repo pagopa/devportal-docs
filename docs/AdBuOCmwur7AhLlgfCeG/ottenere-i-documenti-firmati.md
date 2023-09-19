@@ -16,7 +16,7 @@ La conservazione del documento a norma - e l'eventuale restituzione all'utente s
 
 I documenti ottenuti saranno **firmati digitalmente** e potranno essere accertati con tutti gli strumenti di verifica della firma qualificata (ad esempio [postecert](https://vol.postecert.poste.it/verificatore/it?type=0), [acrobat reader DC](https://www.adobe.com/it/))
 
-Qualora siano stati inseriti dei [campi firma](il-processo/preparare-i-documenti/identificare-i-campi-firma/) sui documenti, sarà reso visibile anche un corrispettivo **grafico** in corrispondenza degli stessi.&#x20;
+Qualora siano stati inseriti dei [campi firma](il-processo-di-firma/preparare-i-documenti/identificare-i-campi-firma/) sui documenti, sarà reso visibile anche un corrispettivo **grafico** in corrispondenza degli stessi.&#x20;
 
 <figure><img src=".gitbook/assets/Screenshot 2023-05-02 alle 12.44.43.png" alt="" width="188"><figcaption></figcaption></figure>
 
