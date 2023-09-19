@@ -2,8 +2,8 @@
 
 ### Versione 4.0 (settembre 2023)
 
-* Integrata sezione Ambienti: Test & Produzione che introduce la possibilità di poter utilizzare contemporaneamente l'ambiente di test e l'ambiente di produzione
-* Integrata sezione Back Office che spiega come generare e gestire le API Key
+* Integrata sezione [Ambienti: Test & Produzione](https://docs.pagopa.it/manuale-operativo-di-firma-con-io/api/ambienti-test-and-produzione) che introduce la possibilità di poter utilizzare contemporaneamente l'ambiente di test e l'ambiente di produzione
+* Integrata sezione [Back Office](https://docs.pagopa.it/manuale-operativo-di-firma-con-io/back-office/primi-passi) che spiega come generare e gestire le API Key
 
 ### Versione 3.0 (luglio 2023)
 
