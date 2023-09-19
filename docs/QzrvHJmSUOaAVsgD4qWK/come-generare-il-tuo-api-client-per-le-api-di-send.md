@@ -44,4 +44,4 @@ Per creare le API key bisognerà effettuare il log in nel portale lato PA da qui
 
 #### Qual è il ciclo di vita delle API key?
 
-Le operazioni di creazione, rotazione ed eliminazione sulle API key sono a discrezione dell'utente, che può gestirle a propria discrezione.
+Le operazioni di creazione, rotazione ed eliminazione sulle API key sono a discrezione dell'utente, che può gestirle autonomamente.
