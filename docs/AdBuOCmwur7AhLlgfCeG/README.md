@@ -13,8 +13,6 @@ Il documento vuole:
 **Fase di sperimentazione**
 
 Questo manuale riguarda le API di Firma con IO per la fase di sperimentazione: le informazioni contenute al suo interno potrebbero subire delle modifiche.
-
-Pertanto si consiglia di preferire la consultazione del manuale nella versione on-line all'indirizzo: [https://docs.pagopa.it/manuale-operativo-di-firma-con-io/](https://docs.pagopa.it/manuale-operativo-di-firma-con-io/)
 {% endhint %}
 
 {% hint style="warning" %}
