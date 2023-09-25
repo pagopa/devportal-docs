@@ -54,5 +54,3 @@ Per ogni **nuova API Key di test** dovrai:
 Dopo aver generato e popolato le API Key non ti resta altro che iniziare ad utilizzarle!
 
 </details>
-
-[^1]: 
