@@ -52,6 +52,8 @@ Consigliamo di leggere il documento nella sua interezza, ma ecco **qualche scorc
 [ambienti-test-and-produzione.md](api/ambienti-test-and-produzione.md)
 {% endcontent-ref %}
 
+**Pulsante Firma con IO**
+
 {% content-ref url="pulsante-firma-con-io/il-pulsante-firma-con-io.md" %}
 [il-pulsante-firma-con-io.md](pulsante-firma-con-io/il-pulsante-firma-con-io.md)
 {% endcontent-ref %}
