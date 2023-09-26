@@ -53,7 +53,6 @@
         * [Invio notifiche tramite API B2B](piattaforma-notifiche-digitali-manuale-operativo/mittente/referente-tecnico-operatore/utilizzo-di-pn-attraverso-api-b2b/invio-notifiche-tramite-api-b2b.md)
         * [Recupero documenti tramite API B2B](piattaforma-notifiche-digitali-manuale-operativo/mittente/referente-tecnico-operatore/utilizzo-di-pn-attraverso-api-b2b/recupero-documenti-tramite-api-b2b.md)
       * [Visualizzazione notifiche inviate](piattaforma-notifiche-digitali-manuale-operativo/mittente/referente-tecnico-operatore/visualizzazione-notifiche-inviate.md)
-    * [Fatturazione](piattaforma-notifiche-digitali-manuale-operativo/mittente/fatturazione.md)
   * [Destinatari](piattaforma-notifiche-digitali-manuale-operativo/destinatari/README.md)
     * [Persone fisiche](piattaforma-notifiche-digitali-manuale-operativo/destinatari/persone-fisiche/README.md)
       * [Accesso a Piattaforma Notifiche](piattaforma-notifiche-digitali-manuale-operativo/destinatari/persone-fisiche/accesso-a-piattaforma-notifiche.md)
