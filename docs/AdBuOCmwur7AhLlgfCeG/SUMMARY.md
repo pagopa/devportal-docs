@@ -7,7 +7,7 @@
 
 ***
 
-* [Cos'è?](cose.md)
+* [🖊 Cos'è Firma con IO?](cose-firma-con-io.md)
 * [Come funziona?](come-funziona.md)
 
 ## 🖱 BACK OFFICE

@@ -24,14 +24,14 @@ Consigliamo di leggere il documento nella sua interezza, ma ecco **qualche scorc
 
 ### Firma con IO
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
+{% content-ref url="cose-firma-con-io.md" %}
+[cose-firma-con-io.md](cose-firma-con-io.md)
 {% endcontent-ref %}
 
 ### Funzionalità
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
+{% content-ref url="il-processo-di-firma/preparare-i-documenti/" %}
+[preparare-i-documenti](il-processo-di-firma/preparare-i-documenti/)
 {% endcontent-ref %}
 
 {% content-ref url="richiedere-una-firma/" %}
@@ -48,12 +48,12 @@ Consigliamo di leggere il documento nella sua interezza, ma ecco **qualche scorc
 
 ### API
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
+{% content-ref url="api/ambienti-test-and-produzione.md" %}
+[ambienti-test-and-produzione.md](api/ambienti-test-and-produzione.md)
 {% endcontent-ref %}
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
+{% content-ref url="pulsante-firma-con-io/il-pulsante-firma-con-io.md" %}
+[il-pulsante-firma-con-io.md](pulsante-firma-con-io/il-pulsante-firma-con-io.md)
 {% endcontent-ref %}
 
 ###
