@@ -10,7 +10,7 @@ In fase di inserimento di una Richiesta di invio Notifica, Piattaforma Notifiche
 
 ### Validazione Sincrona
 
-Nel momento stesso in cui si chiama il servizio di Richiesta di invio Notifica vengono effettuate delle verifiche formali sui campi inseriti: il dettaglio dei controlli applicati per ogni campo è documentato nel seguente file Swagger: [https://petstore.swagger.io/?url=https%3A%2F%2Fraw.githubusercontent.com%2Fpagopa%2Fpn-delivery%2Fdevelop%2Fdocs%2Fopenapi%2Fapi-external-b2b-pa.yaml#/NewNotification/sendNewNotification](https://petstore.swagger.io/?url=https%3A%2F%2Fraw.githubusercontent.com%2Fpagopa%2Fpn-delivery%2Fdevelop%2Fdocs%2Fopenapi%2Fapi-external-b2b-pa.yaml#/NewNotification/sendNewNotification)\
+Nel momento stesso in cui si chiama il servizio di Richiesta di invio Notifica vengono effettuate delle verifiche formali sui campi inseriti: il dettaglio dei controlli applicati per ogni campo è documentato nel seguente file Swagger: [https://petstore.swagger.io/?url=https%3A%2F%2Fraw.githubusercontent.com%2Fpagopa%2Fpn-delivery%2Fmain%2Fdocs%2Fopenapi%2Fapi-external-b2b-pa-bundle.yaml#/NewNotification/sendNewNotification](https://petstore.swagger.io/?url=https%3A%2F%2Fraw.githubusercontent.com%2Fpagopa%2Fpn-delivery%2Fmain%2Fdocs%2Fopenapi%2Fapi-external-b2b-pa-bundle.yaml#/NewNotification/sendNewNotification)\
 Se la `request` inviata supera tutti i controlli, il servizio restituisce una `response` con Status: **202 Accepted** e con body contenente: **notificationRequestId, paProtocolNumber** e **idempotenceToken** che sono i riferimenti per poter verificare l'esito dei controlli asincroni che verranno effettuati da questo momento in poi.
 
 ### Validazione Asicrona
