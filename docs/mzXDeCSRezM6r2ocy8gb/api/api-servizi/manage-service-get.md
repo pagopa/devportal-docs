@@ -1,0 +1,72 @@
+# Manage Service: Get
+
+### Descrizione
+
+Questa API permette di recuperare tutte le informazioni relative a un servizio. Per funzionare correttamente richiede l'inserimento del **`service_id`** come path parameter.
+
+{% hint style="warning" %}
+Puoi usare la nuova chiave [`manage`](../../funzionalita/pubblicare-un-servizio/chiave-manage.md) per la gestione dei servizi oppure l’**api-key del servizio stesso**.
+{% endhint %}
+
+{% swagger src="https://raw.githubusercontent.com/pagopa/io-functions-services/master/openapi/index.yaml" path="/services/{service_id}" method="get" %}
+[https://raw.githubusercontent.com/pagopa/io-functions-services/master/openapi/index.yaml](https://raw.githubusercontent.com/pagopa/io-functions-services/master/openapi/index.yaml)
+{% endswagger %}
+
+### Esempi
+
+{% code overflow="wrap" %}
+```shell
+### REQUEST
+curl --location --request GET 'https://api.io.pagopa.it/api/v1/manage/services/SERVICE_ID' \
+--header 'Ocp-Apim-Subscription-Key: __YOUR_API_KEY__'
+```
+{% endcode %}
+
+{% code overflow="wrap" %}
+```shell
+### RESPONSE
+{
+  "id": "SERVICE_ID",
+  "status": {
+    "value": "draft",
+    "reason": "string"
+  },
+  "version": 0,
+  "last_update": "2018-10-13T00:00:00.000Z",
+  "name": "string",
+  "description": "string",
+  "organization": {
+    "name": "string",
+    "fiscal_code": "12345678901",
+    "department_name": "string"
+  },
+  "require_secure_channel": false,
+  "authorized_recipients": [
+    "SPNDNL80R13C555X"
+  ],
+  "authorized_cidrs": [
+    "253.710.225.667/5"
+  ],
+  "max_allowed_payment_amount": 0,
+  "metadata": {
+    "web_url": "string",
+    "app_ios": "string",
+    "app_android": "string",
+    "tos_url": "string",
+    "privacy_url": "string",
+    "address": "string",
+    "phone": "string",
+    "email": "string",
+    "pec": "string",
+    "cta": "string",
+    "token_name": "string",
+    "support_url": "string",
+    "scope": "NATIONAL"
+  }
+}
+```
+{% endcode %}
+
+### Risorse utili <a href="#_oglg98gr3m66" id="_oglg98gr3m66"></a>
+
+[https://developer.io.italia.it/openapi.html#operation/cmsGetService](https://developer.io.italia.it/openapi.html#operation/cmsGetService)
