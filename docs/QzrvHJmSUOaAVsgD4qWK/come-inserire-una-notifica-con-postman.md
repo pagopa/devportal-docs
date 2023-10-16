@@ -1,6 +1,6 @@
 # Come inserire  una notifica con Postman
 
-In questo tutorial vedremo tutti i passaggi per inserire una nuova notifica su SEND utilizzando Postman. Prima di procedere con l'inserimento Notifica con Postman, assicurati di aver correttamente importato le definizioni delle API su Postman ed aver configurato l'ambiente di test seguendo i [passaggi descritti qui](https://developer.pagopa.it/send/guides/knowledge-base/v1.0/knowledge-base-di-piattaforma-notifiche/generazione-client-e-definizioni-delle-api).
+In questo tutorial vedremo tutti i passaggi per inserire una nuova notifica su SEND utilizzando Postman. Prima di procedere con l'inserimento Notifica con Postman, assicurati di aver correttamente importato le definizioni delle API su Postman ed aver configurato l'ambiente di test seguendo i [passaggi descritti qui](https://developer.pagopa.it/send/guides/knowledge-base/v2.0/knowledge-base-di-piattaforma-notifiche/generazione-client-e-definizioni-delle-api).
 
 #### Step 1 - Generare il checksum sha256, codificato in base 64, del contenuto binario dei pdf di Notifica.pdf e di Pagamento.pdf che verranno caricati su PND
 
