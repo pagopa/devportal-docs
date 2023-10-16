@@ -18,11 +18,9 @@ openapi-generator-cli generate -i <urlFileSwagger> -g <lang> -o <dest>
 
 sostituendo:
 
-* **\<urlFileSwagger>:** con la url del file Swagger del quale si vuole generare il client. E' possibile utilizzare:
-  * per la pagina API B2B per le Pubbliche Amministrazioni:&#x20;
-    * [https://raw.githubusercontent.com/pagopa/pn-delivery/main/docs/openapi/api-external-b2b-pa-bundle.yaml](https://raw.githubusercontent.com/pagopa/pn-delivery/main/docs/openapi/api-external-b2b-pa-bundle.yaml)
-  * per la pagina API B2B Avanzamento Notifiche:
-    * [https://raw.githubusercontent.com/pagopa/pn-delivery-push/main/docs/openapi/api-external-b2b-webhook-bundle.yaml](https://raw.githubusercontent.com/pagopa/pn-delivery-push/main/docs/openapi/api-external-b2b-webhook-bundle.yaml)
+*   **\<urlFileSwagger>:** con la url del file Swagger del quale si vuole generare il client. E' possibile utilizzare: [https://raw.githubusercontent.com/pagopa/pn-delivery/v2.1.0/docs/openapi/api-external-b2b-pa-bundle.yaml](https://raw.githubusercontent.com/pagopa/pn-delivery/v2.1.0/docs/openapi/api-external-b2b-pa-bundle.yaml)
+
+
 * **\<lang>:** con il linguaggio per il quale si vuole generare il client
 * **\<dest>:** con il path nel quale si vuole generare il client
 
@@ -32,11 +30,7 @@ E' anche possibile utilizzare il [pn-b2b-client](https://github.com/pagopa/pn-b2
 
 ### Importare le definizioni delle API su Postman
 
-Per importare le definizioni su Postman bisogna cliccare su "import", poi selezionare "Link" ed inserire i seguenti url:
-
-* per la pagina **API B2B per le Pubbliche Amministrazioni**: [https://raw.githubusercontent.com/pagopa/pn-delivery/main/docs/openapi/api-external-b2b-pa-bundle.yaml](https://raw.githubusercontent.com/pagopa/pn-delivery/main/docs/openapi/api-external-b2b-pa-bundle.yaml)
-* per la pagina **API B2B avanzamento notifiche**: \
-  [https://raw.githubusercontent.com/pagopa/pn-delivery-push/main/docs/openapi/api-external-b2b-webhook-bundle.yaml](https://raw.githubusercontent.com/pagopa/pn-delivery-push/main/docs/openapi/api-external-b2b-webhook-bundle.yaml)
+Per importare le definizioni su Postman bisogna cliccare su "import", poi selezionare "Link" ed inserire il seguente url: [https://raw.githubusercontent.com/pagopa/pn-delivery/v2.1.0/docs/openapi/api-external-b2b-pa-bundle.yaml](https://raw.githubusercontent.com/pagopa/pn-delivery/v2.1.0/docs/openapi/api-external-b2b-pa-bundle.yaml)
 
 Poi modificare i seguenti parametri delle collections ottenute:
 
