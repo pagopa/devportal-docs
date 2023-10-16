@@ -19,8 +19,8 @@ Dopo aver inserito con successo una Richiesta di invio Notifica ed aver ottenuto
 
 * Verifica che gli SHA-256 forniti dal Mittente coincidano con quelli calcolati da PN a partire dai documenti allegati
 * Verifica che il versionToken e la key di ogni allegato inserito all'interno della notifica corrispondano a quelli collegati agli allegati caricati precedentemente in fase di upload \
-  (vedi 1.a e 1.b: [https://petstore.swagger.io/?url=https%3A%2F%2Fraw.githubusercontent.com%2Fpagopa%2Fpn-delivery%2Fdevelop%2Fdocs%2Fopenapi%2Fapi-external-b2b-pa.yaml#/NewNotification/sendNewNotification](https://petstore.swagger.io/?url=https%3A%2F%2Fraw.githubusercontent.com%2Fpagopa%2Fpn-delivery%2Fdevelop%2Fdocs%2Fopenapi%2Fapi-external-b2b-pa.yaml#/NewNotification/sendNewNotification))
-* Verifica che ciascun CF fornito esista veramente
+  (vedi 1.a e 1.b: [https://petstore.swagger.io/?url=https%3A%2F%2Fraw.githubusercontent.com%2Fpagopa%2Fpn-delivery%2Fmain%2Fdocs%2Fopenapi%2Fapi-external-b2b-pa-bundle.yaml#/NewNotification/sendNewNotification](https://petstore.swagger.io/?url=https%3A%2F%2Fraw.githubusercontent.com%2Fpagopa%2Fpn-delivery%2Fmain%2Fdocs%2Fopenapi%2Fapi-external-b2b-pa-bundle.yaml#/NewNotification/sendNewNotification))
+* ~~Verifica che ciascun CF fornito esista veramente~~ (attualmente sospeso)
 * Verifica che l'indirizzo fisico associato a ciascun destinatario sia esistente e che il CAP inserito sia specifico della località e non generico. Queste verifiche vengono effettuate con Postel. \
   **NOTA:** in fase di **validazione sincrona**, il CAP della notifica non è obbligatorio; questo comportamento è stato previsto per permettere l’inserimento di indirizzi esteri, per i quali il CAP potrebbe seguire regole diverse da quelle italiane. Per gli indirizzi italiani invece tale campo è obbligatorio e se non presente la notifica passerà in _REFUSED._
 
