@@ -21,7 +21,7 @@ Per testare la sintassi in markdown, puoi utilizzare un [servizio online come St
 {% endhint %}
 
 {% hint style="success" %}
-**Non sai che nome dare al servizio?** Leggi le indicazioni del [**manuale dei servizi**](http://localhost:5000/s/zcLztiq5qDSVw9rRjW7p/come-si-crea-un-servizio/la-scheda-servizio/nome-del-servizio).&#x20;
+**Non sai che nome dare al servizio?** Leggi le indicazioni del [**manuale dei servizi**](http://127.0.0.1:5000/s/zcLztiq5qDSVw9rRjW7p/come-si-crea-un-servizio/la-scheda-servizio/nome-del-servizio).&#x20;
 {% endhint %}
 
 ### **privacy\_url**

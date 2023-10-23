@@ -62,7 +62,7 @@ Interroga l’API [get-message.md](../../api/api-messaggi/get-message.md "mentio
 </details>
 
 {% hint style="info" %}
-Vai al [**manuale dei servizi** ](http://localhost:5000/s/zcLztiq5qDSVw9rRjW7p/che-cosa-puo-fare-un-servizio-su-io/inviare-messaggi)per approfondire quali tipologie di messaggi si possono inviare tramite IO.
+Vai al [**manuale dei servizi** ](http://127.0.0.1:5000/s/zcLztiq5qDSVw9rRjW7p/che-cosa-puo-fare-un-servizio-su-io/inviare-messaggi)per approfondire quali tipologie di messaggi si possono inviare tramite IO.
 {% endhint %}
 
 ## Gestione degli errori
