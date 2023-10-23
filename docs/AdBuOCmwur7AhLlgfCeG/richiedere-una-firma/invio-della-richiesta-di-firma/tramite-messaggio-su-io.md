@@ -17,7 +17,7 @@ Se l'utente ha **attivato la ricezione dei messaggi** da parte del servizio **Fi
 
 Nel caso in cui provassi ad inviare un messaggio di firma ad un utente che ha scelto di **non ricevere comunicazioni** da parte di Firma con IO (ovvero se nella scheda del servizio Firma con IO non ha il **flag “Contattarti in app” attivo**):
 
-&#x20;                                              <img src="https://lh6.googleusercontent.com/15IqSmJ08PRqpXU_T7-I-R1T_pR3gRyGQA-JIz7g5sunM7oeXlYvesIKmcrIBAnF4R3Ni0H1f2W-FUm889qGvQEMj5is6DFXGprO41bbZy8MJUFfHi4vXY25uk-0yjANJAagx29rzMkoYVZZH445NNY" alt="" data-size="original">
+&#x20;                                              <img src="../../.gitbook/assets/richiesta_firma.png" alt="" data-size="original">
 
 Riceverai un **messaggio di errore** che non ti consentirà di proseguire con l'invio del messaggio (ovvero, il parametro "i**o\_message\_id**" non verrà restituito).
 
@@ -28,11 +28,11 @@ In questo caso, ti consigliamo di:
 
 Nel caso in cui, invece, l'utente **disattiva solo le notifiche push** nella scheda del servizio Firma con IO:
 
-&#x20;                                               ![](https://lh4.googleusercontent.com/vbPQB-0JISrIXKqMWO4v8AAI-uYDmAWGLZBh2KbRQL8ur-sQn2oWnHSzFrUjS2RbUr6dn9enKTQKl4UC-QGOT-7w3YroKxpU\_VzyvBsg\_dRLrmB1aTBvqUHbmWnMz-QO8TzoafshoayjSjRbftYm3aY)
+&#x20;                                               ![](<../../.gitbook/assets/no\_push (1).png>)
 
 Il destinatario riceve e può visualizzare il messaggio in app, senza, però, ricevere la notifica push; per questo motivo riceverai l’io\_message\_id e non un errore.
 
-&#x20;                                                ![](https://lh5.googleusercontent.com/6VSbL1d7AMppE1YhXvh3WYWcunbR7VKsxFuiQIut3Klpj8zECBOX36l2q3H4yxipHxJaG3QN1jBBmHw2L391\_9LI8hEHkBojkERt0BxQ7fQ7ln5rHt2fFFdpNZytvz5tF9QELYUfdV1xFkrvlAApC1M)&#x20;
+&#x20;                                                ![](../../.gitbook/assets/messaggio.png)&#x20;
 
 \
 [\
