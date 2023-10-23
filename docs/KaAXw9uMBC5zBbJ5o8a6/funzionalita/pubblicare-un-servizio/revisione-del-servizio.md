@@ -1,6 +1,6 @@
 # Revisione del servizio
 
-Quando la scheda del servizio è completa e aderente al [Manuale dei servizi](http://localhost:5000/o/KXYtsf32WSKm6ga638R3/s/zcLztiq5qDSVw9rRjW7p/), puoi inviare una richiesta di revisione.&#x20;
+Quando la scheda del servizio è completa e aderente al [Manuale dei servizi](http://127.0.0.1:5000/o/KXYtsf32WSKm6ga638R3/s/zcLztiq5qDSVw9rRjW7p/), puoi inviare una richiesta di revisione.&#x20;
 
 Se il servizio viene **approvato**, viene pubblicato automaticamente. Nel caso in cui venga **respinto**, ti viene comunicata una motivazione, che ti consente di apportare le modifiche necessarie per poterlo sottoporre nuovamente alla valutazione.
 
@@ -20,7 +20,7 @@ Se il servizio viene **approvato**, viene pubblicato automaticamente. Nel caso i
 
 <summary><mark style="color:blue;">Step 2</mark> - Invia richiesta di valutazione del servizio</summary>
 
-Prima di inviare la richiesta assicurati che il servizio sia completo e aderente al [Manuale dei servizi](http://localhost:5000/o/KXYtsf32WSKm6ga638R3/s/zcLztiq5qDSVw9rRjW7p/).
+Prima di inviare la richiesta assicurati che il servizio sia completo e aderente al [Manuale dei servizi](http://127.0.0.1:5000/o/KXYtsf32WSKm6ga638R3/s/zcLztiq5qDSVw9rRjW7p/).
 
 1. Scorri la scheda servizio fino in fondo;
 2. Nel box "Go Live!" clicca sul bottone "Pubblica Servizio".
@@ -61,7 +61,7 @@ Se il bottone non è abilitato significa che la scheda del servizio non è compl
 
 <summary><mark style="color:blue;">Step 2</mark> - Invia richiesta di valutazione del servizio</summary>
 
-Prima di inviare la richiesta assicurati che il servizio sia completo e aderente al [Manuale dei servizi](http://localhost:5000/o/KXYtsf32WSKm6ga638R3/s/zcLztiq5qDSVw9rRjW7p/).
+Prima di inviare la richiesta assicurati che il servizio sia completo e aderente al [Manuale dei servizi](http://127.0.0.1:5000/o/KXYtsf32WSKm6ga638R3/s/zcLztiq5qDSVw9rRjW7p/).
 
 1. Scorri la scheda servizio fino in fondo;
 2. Nel box "Go Live!" clicca sul bottone "Pubblica Servizio".
