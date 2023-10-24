@@ -198,6 +198,10 @@ Se si utilizza un client Java, può capitare che pur non effettuando il set di u
 * se si utilizza la libreria Jackson per la serializzazione delle request, è possibile aggiungere questa annotation a livello di Classe:\
   _@com.fasterxml.jackson.annotation.JsonInclude(com.fasterxml.jackson.annotation.JsonInclude.Include.NON\_NULL)_
 
+### Posso riutilizzare lo stesso IUV di una notifica rifiutata?
+
+SI, nel caso una notifica vada in stato di REFUSED tramite validazione asincrona è possibile utilizzare lo stesso IUV per fare una nuova richiesta di notifica.
+
 ### Come si possono testare più Enti?
 
 In ambiente di collaudo UAT si prevede di creare una User per ogni Ente che permette di accedere alla piattaforma di Back-Office ed una key ad esso associata. Se si sta testando l'integrazione per più Enti bisognerà richiedere, per ogni Ente, una user ed una key ad essa associata, contattando il [supporto enti](mailto:pn-supporto-enti@pagopa.it)
