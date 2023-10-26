@@ -4,8 +4,8 @@
 
 Questa API permette di recuperare tutte le informazioni relative a un servizio. Per funzionare correttamente richiede l'inserimento del **`service_id`** come path parameter.
 
-{% hint style="warning" %}
-Puoi usare la nuova chiave [`manage`](../../funzionalita/pubblicare-un-servizio/chiave-manage.md) per la gestione dei servizi oppure l’**api-key del servizio stesso**.
+{% hint style="info" %}
+Devi usare la nuova chiave [`manage`](../../funzionalita/pubblicare-un-servizio/chiave-manage.md) per la gestione dei servizi
 {% endhint %}
 
 {% swagger src="https://raw.githubusercontent.com/pagopa/io-functions-services/master/openapi/index.yaml" path="/services/{service_id}" method="get" %}
@@ -31,7 +31,6 @@ curl --location --request GET 'https://api.io.pagopa.it/api/v1/manage/services/S
     "value": "draft",
     "reason": "string"
   },
-  "version": 0,
   "last_update": "2018-10-13T00:00:00.000Z",
   "name": "string",
   "description": "string",
@@ -47,7 +46,6 @@ curl --location --request GET 'https://api.io.pagopa.it/api/v1/manage/services/S
   "authorized_cidrs": [
     "253.710.225.667/5"
   ],
-  "max_allowed_payment_amount": 0,
   "metadata": {
     "web_url": "string",
     "app_ios": "string",
