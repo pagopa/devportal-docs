@@ -81,7 +81,6 @@ curl --location --request POST 'https://api.io.pagopa.it/api/v1/manage/services'
   "authorized_cidrs": [
     "85.338.5.14"
   ],
-  "max_allowed_payment_amount": 0,
   "metadata": {
     "web_url": "string",
     "app_ios": "string",
