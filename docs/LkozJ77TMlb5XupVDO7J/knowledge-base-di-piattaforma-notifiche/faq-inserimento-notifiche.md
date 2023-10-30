@@ -298,4 +298,9 @@ PND fatturerà alla PA mittente, nei termini previsti dal contratto di adesione,
 ### Cosa rappresenta lo status "Unreachable"?
 
 Lo status **"Unreachable"** rappresenta il caso nel quale la piattaforma non è riuscita a raggiungere il destinatario; questo vale anche nei casi in cui la postalizzazione ha avuto luogo ma il destinatario è risultato irreperibile all'indirizzo noto. \
-In questi casi si applicano le spese di notifica sostenute e l'atto depositato è considerato notificato.
+In questi casi si applicano le spese di notifica sostenute e l'atto depositato è considerato notificato.\
+
+
+### Quando invio la notifica ricevo un'errore sulla lunghezza dei campi dell'address, come procedo?
+
+Può verificare questa pagina di faq creata appositamente, nel quale vengono indicate le regole sulla lunghezza e la composizione dell'indirizzo: [https://docs.pagopa.it/f.a.q.-per-integratori/composizione-degli-indirizzi](https://docs.pagopa.it/f.a.q.-per-integratori/composizione-degli-indirizzi)
