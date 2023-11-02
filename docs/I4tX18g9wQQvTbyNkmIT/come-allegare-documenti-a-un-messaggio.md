@@ -12,11 +12,11 @@ I file degli Allegati non sono trasmessi al momento dell'invio del Messaggio, n√
 
 Per consentire questo scambio di dati dovrai fornire alcune informazioni in sede di _onboarding_ ed esporre un'API REST che sar√† richiamata da IO (_callback_). Il diagramma che segue riporta la sequenza delle operazioni coinvolte nell'integrazione tra la tua Organizzazione e IO per il supporto agli Allegati.
 
-<figure><img src=".gitbook/assets/56605a6e-888f-43da-8f1c-c1c346cf9ce1 (1).jpg" alt="" width="563"><figcaption></figcaption></figure>
-
 #### **Integrazione: sequenza degli eventi**
 
 Nel diagramma, le frecce in colore blu rappresentano le chiamate che IO fa al _backend_ della tua Organizzazione e corrispondono alle API di _callback_ che dovrai esporre; le frecce in colore verde rappresentano il momento in cui i byte dei tuoi allegati sono trasmessi al Cittadino.
+
+<figure><img src=".gitbook/assets/56605a6e-888f-43da-8f1c-c1c346cf9ce1 (1).jpg" alt="" width="563"><figcaption></figcaption></figure>
 
 #### I dati di configurazione <a href="#i-dati-di-configurazione" id="i-dati-di-configurazione"></a>
 
