@@ -6,6 +6,10 @@ description: Annullamento della notifica, Visualizzazione cause irreperibilità 
 
 La versione GA 2.0 di SEND aggiunge la funzionalità di annullamento della notifica da parte del mittente e la visualizzazione delle cause che conducono all'irreperibilità totale.
 
+Definizione OpenAPI: [https://raw.githubusercontent.com/pagopa/pn-delivery/GA2.0/docs/openapi/api-external-b2b-pa-bundle.yaml](https://raw.githubusercontent.com/pagopa/pn-delivery/GA2.0/docs/openapi/api-external-b2b-pa-bundle.yaml)
+
+Swagger: [https://petstore.swagger.io/?url=https%3A%2F%2Fraw.githubusercontent.com%2Fpagopa%2Fpn-delivery%2FGA2.0%2Fdocs%2Fopenapi%2Fapi-external-b2b-pa-bundle.yaml#/](https://petstore.swagger.io/?url=https%3A%2F%2Fraw.githubusercontent.com%2Fpagopa%2Fpn-delivery%2FGA2.0%2Fdocs%2Fopenapi%2Fapi-external-b2b-pa-bundle.yaml#/)
+
 ## Annullamento della notifica
 
 L'annullamento della notifica può essere effettuata da via B2B o via portale mittente.
@@ -13,7 +17,9 @@ L'annullamento della notifica può essere effettuata da via B2B o via portale mi
 Per supportare questa funzionalità sono state effettuati i seguenti interventi sulla API:
 
 * Aggiunta l'operation _`notificationCancellation`_ \
-  _<mark style="color:red;">PUT/delivery-push/v2.0/notifications/cancel/{iun}</mark>_: Permette l'annullamento di una notifica immettendo lo IUN nel path, restituendo una presa in carico, il processo di annullamento si completa poi in maniera asincrona.
+  _<mark style="color:red;">PUT /delivery-push/v2.0/notifications/cancel/{iun}</mark>_: Permette l'annullamento di una notifica immettendo lo IUN nel path, restituendo una presa in carico, il processo di annullamento si completa poi in maniera asincrona.
+* Nuova versione dell'operation _`retrieveSentNotificationV20`_\
+  _<mark style="color:red;">GET /delivery/v2.0/notifications/sent/{iun}:</mark>_ permette di visualizzare le specifiche della notifica inserendo lo IUN anche delle notifiche annullate con i dettagli di stato e di eventi relativi l'annullamento.
 * Aggiunti eventi di timeline collegati all'annullamento della notifica:
   * \`<mark style="color:red;">NOTIFICATION\_CANCELLATION\_REQUEST</mark>\` - Richiesta di annullamento di una notifica
   * \`<mark style="color:red;">NOTIFICATION\_CANCELLED</mark>\` - Notifica annullata
