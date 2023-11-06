@@ -17,7 +17,7 @@ Il codice statico deve essere accettato dall’Operatore sui propri sistemi per 
 
 #### Esperienza utente
 
-![](https://lh5.googleusercontent.com/kLVZb6byPObmz2giFTmL8Wc\_ySmMjPZXcvKKjVAhIpb25okX57YeR2-X-cR9H59SZAI6ecrt3SIJp4LE4QKEamLUT9jump6E5swqVHtcR3gVFF1V8\_Q6kXqNkA6HcQ)![](https://lh6.googleusercontent.com/EgY-Ob6dbk2lx-hLwVfaVcMRJ4xxcKJcLAM8512ibqtUNw9duMMYvFnI95Dl7DT7odSsgpKRusGdJMLE0FhGIbkpa52Bx1Qdkq64Ue7PTuBNWC4BSj3pezn\_etbM\_w)![](https://lh3.googleusercontent.com/eo2VYsKM8h0frCep5A-lBvuxVuweuMhTcc0khfLNMXgf-QRbou-5-Afizl2mq0c0cT21lKfcUFKpMHmNf4tGI86zV1zZcOPro0r2EA8oysFFSprwGDjv\_Riyyy-dRw)![](https://lh4.googleusercontent.com/9sRJyT7f-d4EVZTPw0kAqbQtD\_YT1doBxeMLFVw0fySyVBRpTZuV8YdVXUpNv0AZUvSmAveky--gqZiIJl7Tej\_woTO--SMw5CwjR\_mtOVMb7uuNb2Jh8LDjD\_lSCw)![](https://lh5.googleusercontent.com/QQxjl5YOBJNggh7svKZ6qmUg\_tSsLDVL4w5wJ\_rMX5bruBK-HLtVP7NUT3dA9xTcFEYsEzDiII-WdhI2elax9ydxRNGvAyOUmRPTDlzWlpjQjU8owQXKve9ZV1t-bg)
+![](<../.gitbook/assets/Wallet - Dettaglio carta.png>)![](<../.gitbook/assets/Esercenti online.png>)![](<../.gitbook/assets/Dettaglio esercente fisico - online - singola.png>)![](https://lh4.googleusercontent.com/9sRJyT7f-d4EVZTPw0kAqbQtD\_YT1doBxeMLFVw0fySyVBRpTZuV8YdVXUpNv0AZUvSmAveky--gqZiIJl7Tej\_woTO--SMw5CwjR\_mtOVMb7uuNb2Jh8LDjD\_lSCw)![](<../.gitbook/assets/BS offerta - bucket mostra.png>)
 
 <mark style="color:purple;">**Fig. 5**</mark> <mark style="color:purple;"></mark><mark style="color:purple;">Esperienza d’uso per ricercare il codice sconto di un Operatore che aderisce all’iniziativa tramite Modello codice statico in App IO</mark>
 

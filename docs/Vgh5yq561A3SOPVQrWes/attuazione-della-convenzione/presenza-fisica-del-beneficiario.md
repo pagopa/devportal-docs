@@ -8,7 +8,7 @@ Nel caso di acquisti effettuati presso luoghi fisici, il protocollo di riconosci
 * Stato e data di attivazione della CGN;&#x20;
 * Data di scadenza della CGN.
 
-![](https://lh6.googleusercontent.com/gpqp9\_j9CeHwOdGW1sBZrMWKQmY-rt9iYskzHbJKsuez1pBOs-KvsX6jip3MBjMZcVwe8EdhrVVSL1l2Su9nKprB8\_EIKMk1OoD7qJkewX0r5mUp5LrGE\_EsAOOzvw)![](https://lh6.googleusercontent.com/xuC0FUTt5Pv3gAdWm4gjbmaqTU-ezWmnPUPNRDpNGSmiNXr0zIWn0z32xBQ0WcSqovhrC7YNzBS1S-ZBESn8G4czAeQUO31autHhaMqFD-X7EFWWu648Cx6EzzRrgg)
+![](<../.gitbook/assets/Home - Pagamenti + Bonus-1.png>)![](<../.gitbook/assets/Wallet - Dettaglio carta.png>)
 
 <mark style="color:purple;">**Fig.1**</mark> <mark style="color:purple;"></mark><mark style="color:purple;">La sezione Portafoglio e il dettaglio della Carta Giovani Nazionale in App IO</mark>
 

@@ -37,11 +37,11 @@ Una volta approvata la richiesta di Convenzione da parte del Dipartimento, gli O
 
 
 
-![](https://lh5.googleusercontent.com/kLVZb6byPObmz2giFTmL8Wc\_ySmMjPZXcvKKjVAhIpb25okX57YeR2-X-cR9H59SZAI6ecrt3SIJp4LE4QKEamLUT9jump6E5swqVHtcR3gVFF1V8\_Q6kXqNkA6HcQ)![](https://lh6.googleusercontent.com/EgY-Ob6dbk2lx-hLwVfaVcMRJ4xxcKJcLAM8512ibqtUNw9duMMYvFnI95Dl7DT7odSsgpKRusGdJMLE0FhGIbkpa52Bx1Qdkq64Ue7PTuBNWC4BSj3pezn\_etbM\_w)![](https://lh3.googleusercontent.com/eo2VYsKM8h0frCep5A-lBvuxVuweuMhTcc0khfLNMXgf-QRbou-5-Afizl2mq0c0cT21lKfcUFKpMHmNf4tGI86zV1zZcOPro0r2EA8oysFFSprwGDjv\_Riyyy-dRw)![](https://lh4.googleusercontent.com/9sRJyT7f-d4EVZTPw0kAqbQtD\_YT1doBxeMLFVw0fySyVBRpTZuV8YdVXUpNv0AZUvSmAveky--gqZiIJl7Tej\_woTO--SMw5CwjR\_mtOVMb7uuNb2Jh8LDjD\_lSCw)![](https://lh5.googleusercontent.com/dnnI6j1qoHvRp7d9Xsy9JX83zsEnLOKjc03ID5knAJQZ7Mn75CtEBo0zm83XFSPFNE-yeVLEtLHKuHgnmQBUOF8kmE3qMqjE2qtETtuxBR98G9ufouCbEBjm73f4bA)
+![](<../.gitbook/assets/Wallet - Dettaglio carta.png>)![](<../.gitbook/assets/Esercenti online.png>)![](https://lh3.googleusercontent.com/eo2VYsKM8h0frCep5A-lBvuxVuweuMhTcc0khfLNMXgf-QRbou-5-Afizl2mq0c0cT21lKfcUFKpMHmNf4tGI86zV1zZcOPro0r2EA8oysFFSprwGDjv\_Riyyy-dRw)![](<../.gitbook/assets/BS offerta - bucket mostra.png>)![](https://lh5.googleusercontent.com/dnnI6j1qoHvRp7d9Xsy9JX83zsEnLOKjc03ID5knAJQZ7Mn75CtEBo0zm83XFSPFNE-yeVLEtLHKuHgnmQBUOF8kmE3qMqjE2qtETtuxBR98G9ufouCbEBjm73f4bA)
 
 <mark style="color:purple;">**Fig.3**</mark> <mark style="color:purple;"></mark><mark style="color:purple;">Dal dettaglio dell'agevolazione, l'utente genera un codice OTP</mark>
 
-![](https://lh5.googleusercontent.com/e\_xfva-bgqRr2T-F0LSJ6g8eb64Q-sW3-0ZqHrJjGJaeMhwbvNyW7NV2sbQ3iajQ1ftDK10ixFbd12caLJXp1b\_u9KAPJJj8Nwh9xN\_ypVZP\_ztpGvuuFs0QeUEPixpQBmCoh7A)![](https://lh6.googleusercontent.com/n0JIawu1haZgm2e6p3EMqADbuAkCKUFYX6vDc4UfzhQJ6oz9QTLWP8tPVZsEG0UD35i4kn8-vx9kP13dDfjBc6tJTbL\_KKwK4xcXG7vNhOvKrEm231LwHz3HwWX5RljaGS1Vlug)![](https://lh5.googleusercontent.com/-xSjvE21-\_uVx0euyNACX69sy1E9eEix\_C\_IUeZI05qrriWphFXC1e2RWHw7ExSaeyQ37agmTpKu8jbZeItC\_m2X1q7kIkVwVGiWDG0c-BVJtIZxQHoYQf-rI5KcX1Fg7MWhMzc)
+![](../.gitbook/assets/OTP\_01.png)![](../.gitbook/assets/OTP\_02.png)![](../.gitbook/assets/OTP\_03.png)
 
 <mark style="color:purple;">**Fig. 4**</mark> <mark style="color:purple;"></mark><mark style="color:purple;">Il codice OTP può essere direttamente incollato nel campo dell’e-commerce. Se risulta valido, lo sconto verrà applicato al carrello</mark>
 
