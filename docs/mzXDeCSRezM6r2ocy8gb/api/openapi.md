@@ -1,4 +1,4 @@
-# OpenAPI
+# 📐 OpenAPI
 
 ### **Specifiche**
 

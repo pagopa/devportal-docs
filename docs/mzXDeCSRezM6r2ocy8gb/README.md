@@ -28,8 +28,8 @@ description: >-
 
 ### API
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
+{% content-ref url="api/openapi.md" %}
+[openapi.md](api/openapi.md)
 {% endcontent-ref %}
 
 ### Abilitazioni

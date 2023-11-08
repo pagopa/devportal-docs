@@ -27,7 +27,7 @@
 
 ## 📐 API
 
-* [OpenAPI](api/openapi.md)
+* [📐 OpenAPI](api/openapi.md)
 * [API Servizi](api/api-servizi/README.md)
   * [Manage Service: Get](api/api-servizi/manage-service-get.md)
   * [Manage Service: Get keys](api/api-servizi/manage-service-get-keys.md)
