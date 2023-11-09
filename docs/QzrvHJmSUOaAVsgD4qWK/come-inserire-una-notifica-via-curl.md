@@ -49,6 +49,7 @@ curl --location 'https://api.uat.notifichedigitali.it/delivery/attachments/prelo
 * **\<shaDellaNotifica>:** è lo sha256 della Notifica che si ottiene come output al punto 1.1
 * **\<shaDelPagamento>:** è lo sha256 del Pagamento che si ottiene come output al punto 1.2
 * il valori **\<preloadIdx1>** e **\<preloadIdx2>** sono a discrezione del chiamante e servono per associare un indice alle richieste presenti nell'array di questa request
+* **\<voucher generato>** tramite client assertion di Interoperabilità per eseguire chiamate UAT
 
 Nella response di questo servizio, si otterrà il seguente payload:
 
