@@ -1,0 +1,15 @@
+# Table of contents
+
+* [⬅ Torna alle SANP](https://docs.pagopa.it/sanp)
+* [Premessa](README.md)
+* [Riconciliazione contabile](riconciliazione-contabile/README.md)
+  * [CORRISPETTIVO\_DL118](riconciliazione-contabile/corrispettivo\_dl118.md)
+  * [INCASSO\_TIPICO](riconciliazione-contabile/incasso\_tipico.md)
+  * [CIVILISTICO](riconciliazione-contabile/civilistico.md)
+* [Dati canale pagamento](dati-canale-pagamento/README.md)
+  * [Credit Card](dati-canale-pagamento/credit-card.md)
+  * [PayPal](dati-canale-pagamento/paypal.md)
+  * [BancomatPay](dati-canale-pagamento/bancomatpay.md)
+  * [PostePay](dati-canale-pagamento/postepay.md)
+* [Conto corrente alternativo](conto-corrente-alternativo.md)
+* [TARI-TEFA ordinaria 2023](tari-tefa-ordinaria-2023.md)
