@@ -28,7 +28,7 @@ Per importare le definizioni su Postman bisogna cliccare su "import", poi selezi
 
 Poi modificare i seguenti parametri delle collections ottenute:
 
-* nel tab "Variables" modificare la variables **baseUrl** con: [https://api.uat.pn.pagopa.it](https://api.coll.pn.pagopa.it) (ambiente di test UAT)
+* nel tab "Variables" modificare la variables **baseUrl** con: [https://api.uat.notifichedigitali.it](https://api.uat.notifichedigitali.it) (ambiente di test UAT)
 * nel tab "Authorization" selezionare nella tendina "Type" il valore "API Key", poi inserire nella casella "Key" il valore **x-api-key** e nella casella "Value" il valore della key generata dalla propria area riservata (di seguito le istruzioni)
 * aggiungere il `"Authorization: Bearer <PDNDVoucher>"`in ogni chiamata verso i servizi B2B (ad esclusione di quelli verso AWS) con il Voucher ottenuto da **PDND Interoperabilità** ed assicurarsi che sia sempre valido e non scaduto.
 
