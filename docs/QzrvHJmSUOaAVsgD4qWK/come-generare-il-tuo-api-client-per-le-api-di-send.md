@@ -12,10 +12,11 @@ openapi-generator-cli generate -i <urlFileSwagger> -g <lang> -o <dest>
 
 sostituendo:
 
-* **\<urlFileSwagger>:** con la url del file Swagger del quale si vuole generare il client. E' possibile utilizzare: \
-  [https://raw.githubusercontent.com/pagopa/pn-delivery/v2.1.0/docs/openapi/api-external-b2b-pa-bundle.yaml](https://raw.githubusercontent.com/pagopa/pn-delivery/v2.1.0/docs/openapi/api-external-b2b-pa-bundle.yaml)
-* **\<lang>:** con il linguaggio per il quale si vuole generare il client
-* **\<dest>:** con il path nel quale si vuole generare il client
+* \<urlFileSwagger>: con la url del file Swagger del quale si vuole generare il client. E' possibile utilizzare:\
+  [https://raw.githubusercontent.com/pagopa/pn-delivery/main/docs/openapi/api-external-b2b-pa-bundle.yaml](https://raw.githubusercontent.com/pagopa/pn-delivery/main/docs/openapi/api-external-b2b-pa-bundle.yaml)
+* \<lang>: con il linguaggio per il quale si vuole generare il client
+* \<dest>: con il path nel quale si vuole generare il client\
+
 
 #### Client b2b Java
 
