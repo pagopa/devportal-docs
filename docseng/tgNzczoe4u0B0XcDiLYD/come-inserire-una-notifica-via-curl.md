@@ -27,29 +27,29 @@ L'output ottenuto per ogni file dovrà essere memorizzato per i futuri utilizzi 
 Lanciare il seguente comando:
 
 ```
-curl --location 'https://<baseurlAmbiente>/delivery/attachments/preload' \
+curl --location 'https://api.uat.notifichedigitali.it/delivery/attachments/preload' \
 --header 'Content-Type: application/json' \
 --header 'Accept: application/json' \
---header 'x-api-key: <apiKey>' \--data '[
-{
-  "preloadIdx": "<preloadIdx1>",
-  "contentType": "application/pdf",
-  "sha256": "<shaDellaNotifica>"
-  },
-  {
-  "preloadIdx": "<preloadIdx2>",
-  "contentType": "application/pdf",
-  "sha256": "<shaDelPagamento>"
-  }]'
+--header 'x-api-key: <api-key>' \
+--header 'Authorization: Bearer <voucher-generato>' \
+--data '[
+ {
+   "preloadIdx": "documento",
+   "contentType": "application/pdf",
+   "sha256": "yXPLrItuBEeUILdF3WEDL2jTq+VYmRDLFRCATtaFyHc="
+ }
+]'
 ```
 
 **NOTA:** sostituire i seguenti:
 
-* **\<baseurlAmbiente>:** inserire la url dell'ambiente di riferimento, nel caso di COLL è il seguente: [**api.coll.pn.pagopa.it**](http://api.coll.pn.pagopa.it)
+* **\<baseurlAmbiente>:** inserire la url dell'ambiente di riferimento, nel caso di UAT è il seguente: [**api.uat.notifichedigitali.it**](https://api.uat.notifichedigitali.it)
 * **\<apiKey>:** inserire la apiKey dell'Ente di riferimento, precedentemente generata su PND
+* **\<PDNDVoucher>:** inserire inserire il Voucher generato su **PDND Interoperabilità,** assicurandosi che non sia scaduto
 * **\<shaDellaNotifica>:** è lo sha256 della Notifica che si ottiene come output al punto 1.1
 * **\<shaDelPagamento>:** è lo sha256 del Pagamento che si ottiene come output al punto 1.2
 * il valori **\<preloadIdx1>** e **\<preloadIdx2>** sono a discrezione del chiamante e servono per associare un indice alle richieste presenti nell'array di questa request
+* **\<voucher generato>** tramite client assertion di Interoperabilità per eseguire chiamate UAT
 
 Nella response di questo servizio, si otterrà il seguente payload:
 
@@ -119,6 +119,7 @@ curl --location 'https://<baseurlAmbiente>/delivery/requests' \
 --header 'Content-Type: application/json' \
 --header 'Accept: application/json' \
 --header 'x-api-key: <apiKey>' \
+--header 'Authorization: Bearer <PDNDVoucher>' \
 --data-raw '<payloadDellaNotifica>'
 ```
 
