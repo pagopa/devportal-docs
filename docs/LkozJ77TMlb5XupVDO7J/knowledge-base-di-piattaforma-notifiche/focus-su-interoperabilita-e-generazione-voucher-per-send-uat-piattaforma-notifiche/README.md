@@ -14,12 +14,18 @@ In questa sezione:
 [faq-su-interoperabilita.md](faq-su-interoperabilita.md)
 {% endcontent-ref %}
 
-[configurare-laccesso-ad-interoperabilita.md](configurare-laccesso-ad-interoperabilita.md "mention")
+{% content-ref url="configurare-laccesso-ad-interoperabilita.md" %}
+[configurare-laccesso-ad-interoperabilita.md](configurare-laccesso-ad-interoperabilita.md)
+{% endcontent-ref %}
 
 {% content-ref url="configurare-laccesso-ad-interoperabilita.md" %}
 [configurare-laccesso-ad-interoperabilita.md](configurare-laccesso-ad-interoperabilita.md)
 {% endcontent-ref %}
 
-[faq-su-interoperabilita.md](faq-su-interoperabilita.md "mention")
+{% content-ref url="faq-su-interoperabilita.md" %}
+[faq-su-interoperabilita.md](faq-su-interoperabilita.md)
+{% endcontent-ref %}
 
-[focus-su-creazione-richiesta-di-fruizione-generazione-voucher-per-send-uat-piattaforma-notifiche.md](focus-su-creazione-richiesta-di-fruizione-generazione-voucher-per-send-uat-piattaforma-notifiche.md "mention")
+{% content-ref url="focus-su-creazione-richiesta-di-fruizione-generazione-voucher-per-send-uat-piattaforma-notifiche.md" %}
+[focus-su-creazione-richiesta-di-fruizione-generazione-voucher-per-send-uat-piattaforma-notifiche.md](focus-su-creazione-richiesta-di-fruizione-generazione-voucher-per-send-uat-piattaforma-notifiche.md)
+{% endcontent-ref %}
