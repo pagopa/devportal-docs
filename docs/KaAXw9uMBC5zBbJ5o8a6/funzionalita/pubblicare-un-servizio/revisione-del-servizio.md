@@ -1,6 +1,6 @@
 # Revisione del servizio
 
-Quando la scheda del servizio è completa e aderente al [Manuale dei servizi](http://127.0.0.1:5000/o/KXYtsf32WSKm6ga638R3/s/zcLztiq5qDSVw9rRjW7p/), puoi inviare una richiesta di revisione.&#x20;
+Quando la scheda del servizio è completa e aderente al  [Manuale dei servizi](http://127.0.0.1:5000/s/zcLztiq5qDSVw9rRjW7p/cose-io-e-qual-e-il-suo-obiettivo), puoi inviare una richiesta di revisione.&#x20;
 
 Se il servizio viene **approvato**, viene pubblicato automaticamente. Nel caso in cui venga **respinto**, ti viene comunicata una motivazione, che ti consente di apportare le modifiche necessarie per poterlo sottoporre nuovamente alla valutazione.
 
