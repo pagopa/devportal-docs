@@ -46,10 +46,6 @@ Le operazioni di creazione, rotazione ed eliminazione sulle API key sono a discr
 
 vedi:&#x20;
 
-[Focus su creazione richiesta di fruizione generazione Voucher per SEND - UAT (Piattaforma Notifiche)](http://127.0.0.1:5000/s/LkozJ77TMlb5XupVDO7J/knowledge-base-di-piattaforma-notifiche/focus-su-interoperabilita-e-generazione-voucher-per-send-uat-piattaforma-notifiche/focus-su-creazione-richiesta-di-fruizione-generazione-voucher-per-send-uat-piattaforma-notifiche)
-
-
-
-\
+[Focus su creazione richiesta di fruizione generazione Voucher per SEND - UAT (Piattaforma Notifiche)](http://127.0.0.1:5000/s/LkozJ77TMlb5XupVDO7J/knowledge-base-di-piattaforma-notifiche/focus-su-interoperabilita-e-generazione-voucher-per-send-uat-piattaforma-notifiche/focus-su-creazione-richiesta-di-fruizione-generazione-voucher-per-send-uat-piattaforma-notifiche)\
 
 
