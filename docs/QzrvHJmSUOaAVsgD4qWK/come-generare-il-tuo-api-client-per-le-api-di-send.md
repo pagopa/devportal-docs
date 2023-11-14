@@ -12,8 +12,7 @@ openapi-generator-cli generate -i <urlFileSwagger> -g <lang> -o <dest>
 
 sostituendo:
 
-* \<urlFileSwagger>: con la url del file Swagger del quale si vuole generare il client. E' possibile utilizzare:\
-  [https://raw.githubusercontent.com/pagopa/pn-delivery/main/docs/openapi/api-external-b2b-pa-bundle.yaml](https://raw.githubusercontent.com/pagopa/pn-delivery/main/docs/openapi/api-external-b2b-pa-bundle.yaml)
+* \<urlFileSwagger>: con la url del file Swagger del quale si vuole generare il client. E' possibile utilizzare:[ ](https://raw.githubusercontent.com/pagopa/pn-delivery/pn-openapi-devportal/docs/openapi/api-external-b2b-pa-bundle.yaml) [https://raw.githubusercontent.com/pagopa/pn-delivery/pn-openapi-devportal/docs/openapi/api-external-b2b-pa-bundle.yaml](https://raw.githubusercontent.com/pagopa/pn-delivery/pn-openapi-devportal/docs/openapi/api-external-b2b-pa-bundle.yaml)
 * \<lang>: con il linguaggio per il quale si vuole generare il client
 * \<dest>: con il path nel quale si vuole generare il client\
 
@@ -42,3 +41,12 @@ Per creare le API key bisognerà effettuare il log in nel portale lato PA da qui
 #### Qual è il ciclo di vita delle API key?
 
 Le operazioni di creazione, rotazione ed eliminazione sulle API key sono a discrezione dell'utente, che può gestirle autonomamente.
+
+### Come generare il Voucher?
+
+vedi:
+
+{% embed url="https://app.gitbook.com/o/KXYtsf32WSKm6ga638R3/s/LkozJ77TMlb5XupVDO7J/knowledge-base-di-piattaforma-notifiche/focus-su-interoperabilita-e-generazione-voucher-per-send-uat-piattaforma-notifiche/focus-su-creazione-richiesta-di-fruizione-generazione-voucher-per-send-uat-piattaforma-notifiche" %}
+
+&#x20;
+
