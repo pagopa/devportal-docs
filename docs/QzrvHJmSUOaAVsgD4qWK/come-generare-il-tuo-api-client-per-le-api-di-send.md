@@ -44,9 +44,7 @@ Le operazioni di creazione, rotazione ed eliminazione sulle API key sono a discr
 
 ### Come generare il Voucher?
 
-vedi:
+vedi:&#x20;
 
-{% embed url="https://app.gitbook.com/o/KXYtsf32WSKm6ga638R3/s/LkozJ77TMlb5XupVDO7J/knowledge-base-di-piattaforma-notifiche/focus-su-interoperabilita-e-generazione-voucher-per-send-uat-piattaforma-notifiche/focus-su-creazione-richiesta-di-fruizione-generazione-voucher-per-send-uat-piattaforma-notifiche" %}
-
-&#x20;
+[https://app.gitbook.com/o/KXYtsf32WSKm6ga638R3/s/LkozJ77TMlb5XupVDO7J/knowledge-base-di-piattaforma-notifiche/focus-su-interoperabilita-e-generazione-voucher-per-send-uat-piattaforma-notifiche/focus-su-creazione-richiesta-di-fruizione-generazione-voucher-per-send-uat-piattaforma-notifiche](http://127.0.0.1:5000/s/LkozJ77TMlb5XupVDO7J/knowledge-base-di-piattaforma-notifiche/focus-su-interoperabilita-e-generazione-voucher-per-send-uat-piattaforma-notifiche/focus-su-creazione-richiesta-di-fruizione-generazione-voucher-per-send-uat-piattaforma-notifiche)
 
