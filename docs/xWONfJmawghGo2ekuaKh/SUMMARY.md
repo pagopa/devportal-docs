@@ -39,10 +39,7 @@
   * [Descrizione](come-si-crea-un-servizio/la-scheda-servizio/descrizione.md)
   * [Logo](come-si-crea-un-servizio/la-scheda-servizio/logo.md)
   * [Contatti e informazioni](come-si-crea-un-servizio/la-scheda-servizio/contatti-e-informazioni.md)
-* [Validazione, pubblicazione e modifica di un servizio](come-si-crea-un-servizio/validazione-pubblicazione-e-modifica-di-un-servizio/README.md)
-  * [Revisione](come-si-crea-un-servizio/validazione-pubblicazione-e-modifica-di-un-servizio/revisione.md)
-  * [Pubblicazione](come-si-crea-un-servizio/validazione-pubblicazione-e-modifica-di-un-servizio/pubblicazione.md)
-  * [Modifica](come-si-crea-un-servizio/validazione-pubblicazione-e-modifica-di-un-servizio/modifica.md)
+* [Validazione, pubblicazione e modifica di un servizio](come-si-crea-un-servizio/validazione-pubblicazione-e-modifica-di-un-servizio.md)
 
 ## 🎨 Che cosa può fare un servizio su IO
 

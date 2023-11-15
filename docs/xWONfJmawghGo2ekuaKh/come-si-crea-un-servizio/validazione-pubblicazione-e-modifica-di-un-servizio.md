@@ -1,4 +1,16 @@
-# Revisione
+# Validazione, pubblicazione e modifica di un servizio
+
+Per creare un servizio bisogna accedere al back office di IO (da developer portal o da Area riservata) e utilizzare l'interfaccia o l'integrazione tramite API. In ogni caso, è necessario **compilare la scheda servizio** e **procedere con l'invio in revisione** del servizio.&#x20;
+
+Per scoprire come farlo, [<mark style="color:blue;">**vai alla guida tecnica -->**</mark> ](https://docs.pagopa.it/io-guida-tecnica/?)
+
+{% hint style="warning" %}
+**Il Developer Portal verrà dismesso**
+
+Il [Developer Portal](https://developer.io.italia.it/) è ancora in funzione, ma verrà dismesso nei prossimi mesi in favore del back office a cui si accede tramite l**'**[Area Riservata](https://www.pagopa.it/it/self-care/). Il processo di migrazione sarà graduale e gli enti avranno tutto il tempo per passare al nuovo portale.
+{% endhint %}
+
+### Revisione e validazione
 
 I servizi creati passano per un processo di revisione che consente di garantirne la qualità. Questi, quindi, possono essere pubblicati solo se considerati validi, ovvero se **rispettano i requisiti tecnici e di contenuto** indicati in questo manuale operativo.&#x20;
 
@@ -45,3 +57,9 @@ Alcuni servizi vengono esposti su IO meramente per dare accesso, tramite link, a
 In questo caso, il link presente su "Visita il sito" rimanda alla pagina "Pagamenti e riscossioni" dell'ente erogatore. Per essere approvato, il servizio dovrebbe rimandare direttamente alla pagina di acquisto dei biglietti.
 
 </details>
+
+### Modifica
+
+L'ente può **modificare una scheda servizio** in ogni momento, sia essa in stato di bozza o attiva e pubblicata sull'app.&#x20;
+
+Il servizio passa di nuovo per una validazione dopo essere modificato, così da garantirne la qualità.
