@@ -6,4 +6,6 @@ Piattaforma Notifiche inoltre semplifica il processo di notificazione per i dest
 
 Piattaforma Notifiche non dimentica però i destinatari analogici che possono comunque ricevere notifiche, seppur ad un costo più elevato, ed usufruire del servizio attraverso persone a loro vicine e/o da essi delegate.
 
-Piattaforma Notifiche come servizio in produzione acquisirà il nome SEND - Servizio Notifiche Digitali <img src=".gitbook/assets/logo_send.png" alt="" data-size="line">
+Piattaforma Notifiche come servizio in produzione acquisirà il nome SEND - Servizio Notifiche Digitali&#x20;
+
+<figure><img src=".gitbook/assets/logo_send.png" alt="" width="107"><figcaption></figcaption></figure>
