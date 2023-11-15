@@ -22,11 +22,7 @@ Un servizio è definito da:&#x20;
 Creare un servizio distinto per ciascun messaggio o categoria di comunicazione che si intende inviare è sbagliato. Un servizio è una prestazione complessa che può mandare messaggi diversi – informativi, di pagamento, di promemoria – o generare situazioni diverse – effettuare un pagamento, procedere con un'iscrizione – a seconda della propria natura.
 
 **❌ IO non è un canale attraverso cui inviare messaggi poco utili o comprensibili ai cittadini**\
-I servizi devono avere un obiettivo preciso da cui scaturisca una percezione di utilità. Per approfondire questo tema, leggi i termini aggiuntivi per la funzionalità "messaggi base e fast" contenuti nell'[accordo di adesione](http://127.0.0.1:5000/o/KXYtsf32WSKm6ga638R3/s/O7clRJB6pY0VI5sEBF8J/).
-
-{% hint style="info" %}
-L'accordo di adesione è il contratto che ogni ente deve sottoscrivere per poter erogare i propri servizi tramite IO.
-{% endhint %}
+I servizi devono avere un obiettivo preciso da cui scaturisca una percezione di utilità.&#x20;
 
 **❌ Le comunicazioni non devono essere generiche. Devono, al contrario, essere il più dettagliate e mirate possibile**\
 Per esempio, un messaggio che informa una persona che è successo qualcosa su un altro canale, deve almeno indicare cosa è successo e fornire un link per approfondire.
