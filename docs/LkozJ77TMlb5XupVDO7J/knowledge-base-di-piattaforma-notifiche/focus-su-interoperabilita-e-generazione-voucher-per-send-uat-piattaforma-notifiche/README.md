@@ -8,24 +8,14 @@ description: >-
 
 In questa sezione:
 
-
-
-{% content-ref url="faq-su-interoperabilita.md" %}
-[faq-su-interoperabilita.md](faq-su-interoperabilita.md)
-{% endcontent-ref %}
-
 {% content-ref url="configurare-laccesso-ad-interoperabilita.md" %}
 [configurare-laccesso-ad-interoperabilita.md](configurare-laccesso-ad-interoperabilita.md)
-{% endcontent-ref %}
-
-{% content-ref url="configurare-laccesso-ad-interoperabilita.md" %}
-[configurare-laccesso-ad-interoperabilita.md](configurare-laccesso-ad-interoperabilita.md)
-{% endcontent-ref %}
-
-{% content-ref url="faq-su-interoperabilita.md" %}
-[faq-su-interoperabilita.md](faq-su-interoperabilita.md)
 {% endcontent-ref %}
 
 {% content-ref url="focus-su-creazione-richiesta-di-fruizione-generazione-voucher-per-send-uat-piattaforma-notifiche.md" %}
 [focus-su-creazione-richiesta-di-fruizione-generazione-voucher-per-send-uat-piattaforma-notifiche.md](focus-su-creazione-richiesta-di-fruizione-generazione-voucher-per-send-uat-piattaforma-notifiche.md)
+{% endcontent-ref %}
+
+{% content-ref url="faq-su-interoperabilita.md" %}
+[faq-su-interoperabilita.md](faq-su-interoperabilita.md)
 {% endcontent-ref %}
