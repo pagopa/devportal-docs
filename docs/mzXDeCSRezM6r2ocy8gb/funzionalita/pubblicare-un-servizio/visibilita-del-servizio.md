@@ -3,14 +3,14 @@
 Quando un servizio viene approvato puoi gestire la sua visibilità in app IO.
 
 {% hint style="info" %}
-Un servizio **approvato** può essere **attivato** (e quindi reso _pubblico)_ o **disattivato** (e quindi reso _privato_) tutte le volte che si vuole.&#x20;
+Un servizio **approvato** può essere **pubblicato** (e quindi reso _pubblico in app IO)_ o **nascosto** (e quindi reso _privato in app IO_) tutte le volte che si vuole.&#x20;
 {% endhint %}
 
 {% hint style="warning" %}
-È necessario ripassare dal processo di revisione ogni volta che si vuole apportare una modifica alla scheda servizio.
+Ricorda, è necessario ripassare dal processo di revisione ogni volta che si vuole apportare una modifica alla scheda servizio.
 {% endhint %}
 
-### **Attivazione**
+### **Pubblicare un servizio in app IO**
 
 #### Tramite Developer Portal
 
@@ -18,7 +18,7 @@ Ogni servizio per cui è stata [richiesta la revisione](revisione-del-servizio.m
 
 #### Tramite Area Riservata
 
-Ogni servizio per cui è stata [richiesta la revisione](revisione-del-servizio.md) tramite l'Area Riservata viene automaticamente attivato.
+Ogni servizio per cui è stata [richiesta la revisione](revisione-del-servizio.md) tramite l'Area Riservata non viene automaticamente attivato. Dopo he il servizio è stato approvato, si deve provvedere a renderlo pubblico cliccando nel pulsante **"Pubblica in app IO".**
 
 #### Tramite API
 
@@ -29,9 +29,9 @@ Hai due metodi a disposizione:
 
 
 
-### Disattivazione
+### Nascondere un servizio dall'app IO
 
-Puoi disattivare un servizio che precedentemente è stato attivato in IO.
+Puoi nascondere un servizio che precedentemente è stato pubblicato in IO.
 
 #### Tramite Developer Portal
 
@@ -47,10 +47,10 @@ Puoi disattivare un servizio che precedentemente è stato attivato in IO.
 
 <details>
 
-<summary><mark style="color:blue;">Step 2</mark> - Disattiva il servizio</summary>
+<summary><mark style="color:blue;">Step 2</mark> - Nascondi il servizio</summary>
 
 1. Scorri la scheda servizio fino in fondo;
-2. Nel box "Go Live!" clicca sul bottone "Disattiva Servizio".
+2. Nel box "Go Live!" clicca sul pulsante "Disattiva Servizio".
 
 </details>
 
@@ -71,10 +71,9 @@ Puoi disattivare un servizio che precedentemente è stato attivato in IO.
 
 <details>
 
-<summary><mark style="color:blue;">Step 2</mark> - Disattiva il servizio</summary>
+<summary><mark style="color:blue;">Step 2</mark> - Nascondi il servizio</summary>
 
-1. Scorri la scheda servizio fino in fondo;
-2. Nel box "Go Live!" clicca sul bottone "Disattiva Servizio".
+1. In alto a destra del dettaglio servizio clicca sul pulsante **"Nascondi dall'app IO"**.
 
 </details>
 
@@ -98,6 +97,6 @@ Assicurati di recuperare il `service id` del servizio che vuoi rendere non visib
 
 <summary><mark style="color:blue;">Step 2</mark> - Effettua la chiamata</summary>
 
-1. Effettua la chiamata all'api per [disattivare il servizio](../../api/api-servizi/manage-service-unpublish.md)
+1. Effettua la chiamata all'api per [nascondere il servizio](../../api/api-servizi/manage-service-unpublish.md)
 
 </details>

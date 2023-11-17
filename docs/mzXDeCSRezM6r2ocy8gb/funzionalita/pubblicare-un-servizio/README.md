@@ -47,7 +47,7 @@ Se vuoi, puoi anche inviare un messaggio di test. Per saperne di più sui messag
 
 <summary><mark style="color:blue;">Step 5</mark> - Richiedi la revisione del servizio</summary>
 
-Se è tutto pronto [sottometti il servizio alla valutazione](revisione-del-servizio.md) di PagoPA. Se il servizio verrà valutato positivamente sarà **approvato**, altrimenti verrà **respinto** con una motivazione, che ti verrà comunicata affinché tu possa modificarlo e sottoporlo nuovamente.
+Se è tutto pronto [sottometti il servizio alla valutazione](revisione-del-servizio.md) di PagoPA. Se il servizio verrà valutato positivamente sarà **approvato**, altrimenti verrà **rifiutato** con una motivazione, che ti verrà comunicata affinché tu possa modificarlo e sottoporlo nuovamente.
 
 </details>
 

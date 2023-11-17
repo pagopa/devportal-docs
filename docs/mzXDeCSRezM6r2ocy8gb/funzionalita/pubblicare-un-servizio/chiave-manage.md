@@ -24,7 +24,6 @@ Per utilizzare questa api-key è necessario avere l'[abilitazione alla gestione 
 1. [**Accedi**](https://selfcare.pagopa.it/) all'Area Riservata;
 2. Seleziona l'ente per il quale vuoi operare dalla lista che ti viene mostrata;
 3. Tra i prodotti attivi cerca App IO e clicca sul box relativo;
-4. Nella colonna sinistra, seleziona "**Servizi**";
-5. Se sei abilitato, in alto troverai un box con la chiave `manage`, subito sotto le informazioni relative all'account;
-6. Visualizza e copia la chiave per poterla usare nella tua integrazione.
+4. Nella **Panoramica** troverai subito le API Key manage che puoi copiare;
+5. Se vuoi gestire le API Key manage, puoi selezionare la voce di menù **"API Key"** per poterle copiare o ruotare.
 

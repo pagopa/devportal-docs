@@ -42,18 +42,21 @@ Al momento non disponibile per gli enti aggregatori o aggregati.
 2. Seleziona l'ente per il quale vuoi operare dalla lista che ti viene mostrata;
 3. Tra i prodotti attivi cerca App IO e clicca sul box relativo;
 4. Nella colonna sinistra, seleziona "**Servizi**";
-5. Clicca su "**Crea un nuovo servizio**";
-6. Scrivi nel campo "**Nome servizio**" il nome che il cittadino vedrà in app: [sceglilo con cura](https://docs.pagopa.it/manuale-operativo-dei-servizi/come-si-crea-un-servizio/la-scheda-servizio/nome-del-servizio)! Compila anche il campo "Dipartimento";
-7. Clicca "**Aggiungi sottoscrizione**" per creare il servizio in bozza;
+5. Clicca su "**Crea un servizio**";
+6. Scrivi il "**Nome servizio**" (il nome che il cittadino vedrà in app: [sceglilo con cura](https://docs.pagopa.it/manuale-operativo-dei-servizi/come-si-crea-un-servizio/la-scheda-servizio/nome-del-servizio)!) e compila tutti gli altri campi richiesti;
+7. Procedi cliccando **"Crea servizio"** per creare il servizio in bozza;
 8. Visualizza e salva le **API key** associate al servizio.
 
 </details>
 
 <details>
 
-<summary><mark style="color:blue;">Step 2</mark> - Inserisci i dati richiesti</summary>
+<summary><mark style="color:blue;">Step 2</mark> - Invia il servizio in revisione</summary>
 
-Per pubblicare il servizio in produzione, devi inserire i dati che trovi alla sezione[dati-obbligatori](dati-obbligatori/ "mention").&#x20;
+1. Torna alla sezione **"Servizi"** nel menù di sinistra;
+2. Clicca sul servizio appena creato per vederne il dettaglio;
+3. Clicca in alto sul pulsante **"Invia in revisione"**;&#x20;
+4. Attendi che il servizio venga validato o meno da PagoPA S.p.A.
 
 </details>
 

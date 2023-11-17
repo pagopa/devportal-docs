@@ -48,12 +48,11 @@ Se il bottone non è abilitato significa che la scheda del servizio non è compl
 
 <summary><mark style="color:blue;">Step 1</mark> - Accedi e identifica il servizio</summary>
 
-1. &#x20;[Accedi](https://selfcare.pagopa.it/) all'Area Riservata con SPID o CIE;
-2. Seleziona l'ente per il quale vuoi operare;
-3. Nella zona centrale della pagina, individua i prodotti abilitati;
-4. Clicca sul box **IO;**
-5. Nella colonna di sinistra, seleziona "Servizi";
-6. Nella lista dei tuoi servizi identifica il servizio che vuoi controllare e clicca sul box.
+1. [**Accedi**](https://selfcare.pagopa.it/) all'Area Riservata;
+2. Seleziona l'ente per il quale vuoi operare dalla lista che ti viene mostrata;
+3. Tra i prodotti attivi cerca App IO e clicca sul box relativo;
+4. Nella colonna sinistra, seleziona "**Servizi**";
+5. Nella lista dei tuoi servizi identifica il servizio che vuoi controllare e clicca sul box per vederne il dettaglio.
 
 </details>
 
@@ -63,10 +62,8 @@ Se il bottone non è abilitato significa che la scheda del servizio non è compl
 
 Prima di inviare la richiesta assicurati che il servizio sia completo e aderente al [Manuale dei servizi](http://127.0.0.1:5000/o/KXYtsf32WSKm6ga638R3/s/zcLztiq5qDSVw9rRjW7p/).
 
-1. Scorri la scheda servizio fino in fondo;
-2. Nel box "Go Live!" clicca sul bottone "Pubblica Servizio".
-
-Se il bottone non è abilitato significa che la scheda del servizio non è completamente compilata: controlla di aver inserito almeno tutti i dati obbligatori.
+1. Clicca in alto sul pulsante **"Invia in revisione"**;&#x20;
+2. Attendi che il servizio venga validato o meno da PagoPA S.p.A.
 
 </details>
 
@@ -74,12 +71,12 @@ Se il bottone non è abilitato significa che la scheda del servizio non è compl
 
 <summary><mark style="color:blue;">Step 3</mark> - Consulta esito</summary>
 
-1. Entra di nuovo nel Developer Portal e cerca la scheda del servizio;
-2. In alto troverai un box informativo con l'indicazione dello [stato del servizio](stato-del-servizio.md);
+1. Entra di nuovo in Area Riservata e cerca la scheda del servizio;
+2. Accanto al nome del servizio troverai un tag con l'indicazione dello [stato del servizio](stato-del-servizio.md);
 
-🟢 Se il servizio è stato **approvato**, è stato anche pubblicato. Sarà visibile in App IO entro qualche ora.
+🟢 Se il servizio è stato **approvato**, procedi a pubblicarlo cliccando sul pulsante **"Pubblica in app IO"**. Sarà visibile in App IO entro qualche ora.
 
-🔴 Se il servizio è stato **respinto**, scorri fino alla fine della pagina, dove puoi trovare la motivazione. Correggi il servizio nelle modalità indicate, per poi sottoporlo nuovamente alla valutazione.
+🔴 Se il servizio è stato **respinto**, puoi trovare il motivo del rifiuto. Correggi il servizio nelle modalità indicate, per poi sottoporlo nuovamente alla valutazione.
 
 </details>
 
