@@ -1,0 +1,3 @@
+# Adesione al progetto
+
+### Il [contratto di adesione](https://io.italia.it/assets/download/it/accordo-di-adesione-IO-2.3.zip) è l’accordo tra una pubblica amministrazione e PagoPA S.p.A. (“PagoPA”), che definisce la volontà dell’ente di aderire alla piattaforma IO (il punto di accesso telematico di cui all’[art. 64-bis del CAD](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2005-03-07;82\~art64bis)) al fine di offrire i propri servizi in rete in qualità di soggetti erogatori. L’accordo contiene i termini e le condizioni per l’utilizzo e l’esposizione dei servizi sulla piattaforma IO da parte delle PA aderenti. <a href="#_advookq75tin" id="_advookq75tin"></a>
