@@ -25,7 +25,7 @@ I servizi inoltre saranno spostati definitivamente sul nuovo back-office, una vo
 1. **Accedi** all'Area Riservata;
 2. Seleziona l'ente per il quale vuoi operare dalla lista che ti viene mostrata;
 3. Tra i prodotti attivi cerca App IO e clicca su "**Gestisci**";
-4. Individua il box "Importa i servizi dal Developer Portal" al centro della pagina;
+4. Individua il box "Importa i servizi dal Developer Portal" nella parte destra della pagina;
 5. Clicca il pulsante "**Importa i servizi**";
 6. Si apre una finestra con la lista dei delegati che in questo momento hanno almeno un servizio afferente all'Ente per cui stai lavorando;
 7. Seleziona i delegati di cui vuoi importare i servizi;

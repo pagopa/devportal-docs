@@ -18,7 +18,7 @@ Ogni servizio per cui è stata [richiesta la revisione](revisione-del-servizio.m
 
 #### Tramite Area Riservata
 
-Ogni servizio per cui è stata [richiesta la revisione](revisione-del-servizio.md) tramite l'Area Riservata non viene automaticamente attivato. Dopo he il servizio è stato approvato, si deve provvedere a renderlo pubblico cliccando nel pulsante **"Pubblica in app IO".**
+Ogni servizio per cui è stata [richiesta la revisione](revisione-del-servizio.md) tramite l'Area Riservata viene automaticamente attivato.&#x20;
 
 #### Tramite API
 
