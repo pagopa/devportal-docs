@@ -134,7 +134,7 @@ Nuovo elemento _`pagoPaIntMode`_ per indicare la modalità di integrazione con p
 * **ASYNC: modalità asincrona**
 * **SYNC (default): modalità sincrona**
 
-Aggiunto campo _`paFee`_di tipo integer, obbligatorio in caso di modalità di integrazione asincrona con pagoPA (_pagoPaIntMode =_ASYNC), per indicare l'ammontare espresso in eurocent a copertura dei costi sostenuti dalla PA mittente in base a quanto previsto dal Decreto 30 maggio 2022 «Individuazione dei costi e dei criteri e modalità di ripartizione e ripetizione delle spese di notifica degli atti tramite la piattaforma di cui all'art. 26, comma 14 del decreto-legge 16 luglio 2022, n. 76».
+Aggiunto campo _`paFee`_di tipo integer per indicare l'ammontare (espresso in eurocent) a copertura dei costi sostenuti dalla PA mittente in base a quanto previsto dal Decreto 30 maggio 2022 «Individuazione dei costi e dei criteri e modalità di ripartizione e ripetizione delle spese di notifica degli atti tramite la piattaforma di cui all'art. 26, comma 14 del decreto-legge 16 luglio 2022, n. 76». Il campo _`paFee`_ è necessario per imputare il valore corretto nel calcolo del costo della notifica per il modello di pagamento F24 e per la modalità d'integrazione asincrona con pagoPA.
 
 ### Altre modifiche
 
