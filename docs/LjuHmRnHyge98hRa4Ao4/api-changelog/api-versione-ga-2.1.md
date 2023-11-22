@@ -122,8 +122,8 @@ _`f24Elid`_:  F24 Elementi Identificativi
 
 Lo schema di validazione per il file json dei metadata è pubblicato al seguente url:
 
-* In formato Json Schema: [https://raw.githubusercontent.com/pagopa/pn-f24/63b62e51ba21bfde119a6108e0f93d7a52b77288/docs/openapi/schema-f24.json](https://raw.githubusercontent.com/pagopa/pn-f24/63b62e51ba21bfde119a6108e0f93d7a52b77288/docs/openapi/schema-f24.json)
-* In formato OpenAPI: [https://raw.githubusercontent.com/pagopa/pn-f24/480f99ca2faae7b33c05359fc1594fdd8edf4103/docs/openapi/schemas-f24.yaml](https://raw.githubusercontent.com/pagopa/pn-f24/480f99ca2faae7b33c05359fc1594fdd8edf4103/docs/openapi/schemas-f24.yaml)
+* In formato Json Schema: [https://github.com/pagopa/pn-f24/blob/main/docs/openapi/schema-f24.json](https://github.com/pagopa/pn-f24/blob/main/docs/openapi/schema-f24.json)
+* In formato OpenAPI: [https://raw.githubusercontent.com/pagopa/pn-f24/main/docs/openapi/schemas-f24.yaml](https://raw.githubusercontent.com/pagopa/pn-f24/480f99ca2faae7b33c05359fc1594fdd8edf4103/docs/openapi/schemas-f24.yaml)
 
 ## Indicazione della modalità di integrazione con pagoPA&#x20;
 
