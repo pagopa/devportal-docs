@@ -34,3 +34,7 @@ Di seguito delle linee guida per eseguire questa ottimizzazione:
 
 E' possibile quindi ottimizzare il processo descritto al punto "**4 Richiesta costo notifica**", eseguendo l’attualizzazione delle spese di notifica chiamando il servizio **noificationPrice** al verificarsi di uno degli eventi descritto sopra (**REFINEMENT,NOTIFICATION\_VIEWED**) ed anticipare quindi questa operazione a prima che il destinatario effettui il tentativo di pagamento.\
 **NOTA:** Il Partner pagoPA in questo caso però deve essere avvisato del fatto che è stata completata in anticipo l'operazione di attualizzazione delle spese di notifica, per allineare i propri terminali.
+
+### Come funziona l'attualizzazione della posizione debitoria per i pagamenti F24?
+
+Per i documenti F24 saranno addebitati i _`paFee`_(specificato sulla notifica) + _`pnFee`_(1 euro per SEND) + eventuale costo analogico relativa al destinatario.
