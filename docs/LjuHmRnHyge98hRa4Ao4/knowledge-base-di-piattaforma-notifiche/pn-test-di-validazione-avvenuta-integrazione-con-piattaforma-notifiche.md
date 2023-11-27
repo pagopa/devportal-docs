@@ -21,10 +21,8 @@ In questa fase il report dovrà essere prodotto dal Partner Tecnologico utilizza
 #### Validazione dei test lato Enti
 
 In questa fase il report dovrà essere prodotto all’interno dell’ambiente degli Enti che si intendono convalidare, utilizzando sempre la soluzione sviluppata dal Partner verso le API esposte dal tool di validazione PN-Validator. Questa operazione può sia essere eseguita dagli Enti col supporto del Partner che direttamente dal Partner stesso, sempre rimanendo all’interno dell’ambiente dell’Ente di riferimento.\
-Dopo aver completato con successo questi passaggi, per ogni Ente sarà possibile allegare i report contenenti il buon esito sul Modulo Google accessibile da qui: [https://docs.google.com/forms/d/e/1FAIpQLSfrGqbMreVuonmIa1VRTBK0stnTJfsmzNLaV2H9R-wIucuZcQ/viewform](https://docs.google.com/forms/d/e/1FAIpQLSfrGqbMreVuonmIa1VRTBK0stnTJfsmzNLaV2H9R-wIucuZcQ/viewform)\
-Si evidenzia che nella testata del Modulo Google sono presenti le istruzioni su come salvare e nominare il report che viene restituito dal tool, mentre nella restante parte del Modulo si richiede la compilazione delle informazioni principali dell’Ente che lo compila. Nell’ultima parte c’è la sezione dedicata al report che deve essere allegato in formato json.
-
-Dopo aver completato i Moduli Google rispettivamente su tutti gli Enti, chiediamo ai Partner di inviare una comunicazione al Team Supporto Enti ([pn-supporto-enti@pagopa.it](mailto:pn-supporto-enti@pagopa.it)) per segnalare il completamento dell’operazione e permettere la verifica dei Form prodotti.
+Dopo aver completato con successo questi passaggi, per ogni Ente sarà possibile allegare i report contenenti il buon esito sul Modulo accessibile da qui: [https://pagopa.atlassian.net/servicedesk/customer/portal/5/group/28/create/150](https://pagopa.atlassian.net/servicedesk/customer/portal/5/group/28/create/150)\
+Si evidenzia che sono presenti le istruzioni su come salvare e nominare il report che viene restituito dal tool, mentre nella restante parte del Modulo si richiede la compilazione delle informazioni principali dell’Ente che lo compila. Nell’ultima parte c’è la sezione dedicata al report che deve essere allegato in formato json.
 
 #### Validazione dei test lato Enti nei casi di utilizzo soluzione SaaS
 
