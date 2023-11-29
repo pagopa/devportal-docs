@@ -21,7 +21,10 @@ Nuova operation "Richiesta invio notifiche" _`sendNewNotificationV21`_\
 
 ### Pagamenti multipli
 
-Ad ogni destinatario _`recipients`_ è possibile associare N pagamenti nell'array _`payments`_.\
+Ad ogni destinatario _`recipients`_ è possibile associare N pagamenti nell'array _`payments`_.
+
+**ATTENZIONE**: il payload dei _`recipients`_ è cambiato e prevede un array _`payments`_ di pagamenti al posto del precedente  _`payment`_, quindi non utilizzate lo stesso payload della versione precedente altrimenti le notifiche saranno create senza pagamenti.
+
 Gli elementi dell'array_`NotificationPaymentItem`_ possono essere di tipo _`pagoPa`_o _`f24`_.
 
 #### **Pagamento pagoPA**
