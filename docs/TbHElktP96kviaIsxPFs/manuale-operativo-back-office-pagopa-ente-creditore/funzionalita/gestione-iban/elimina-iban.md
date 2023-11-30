@@ -6,6 +6,10 @@ description: Questa funzionalità consente l'eliminazione di un IBAN associato a
 
 La funzionalità **Elimina IBAN** è riservata esclusivamente al **Referente dei Pagamenti.**
 
+**Nota:**&#x20;
+
+Non è possibile eliminare un IBAN se questo è l'unico presente a sistema.&#x20;
+
 ## Sezione Dettaglio IBAN: Elimina- Ambiente di Collaudo
 
 All'interno della _**Pagina "Vista Iban"**,_ l'utente ha la possibilità di **cliccare** sulla **freccetta** blu accanto lo Stato per **accedere** alla pagina di **Dettaglio IBAN**.&#x20;
