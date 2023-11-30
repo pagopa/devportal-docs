@@ -57,7 +57,7 @@ Tale **selezione** sarà **modificabile** grazie alla funzionalità **"Gestisci"
 
 ### **Sezione IBAN: Aggiungi- Ambiente di Produzione**
 
-Una volta creato l'IBAN in ambiente di Collaudo, l'utente potrà procedere alla **creazione in ambiente di Produzione**, seguendo la stessa procedura illustrata nella **Sezione IBAN: Aggiungi- Ambiente di Collaudo.**
+L'utente può procedere all'inserimento di un IBAN **in ambiente di Produzione**, seguendo la stessa procedura illustrata nella **Sezione IBAN: Aggiungi- Ambiente di Collaudo.**
 
 
 

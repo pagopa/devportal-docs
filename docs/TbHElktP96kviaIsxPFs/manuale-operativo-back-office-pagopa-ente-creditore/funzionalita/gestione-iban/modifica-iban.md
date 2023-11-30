@@ -24,4 +24,4 @@ Una volta **completata** la **modifica** basterà **cliccare** sul tasto **"Conf
 
 ## Sezione Dettaglio IBAN: Modifica - Ambiente di Produzione
 
-Una volta modificato l'IBAN in ambiente di Collaudo, l'utente potrà procedere alla **modifica in ambiente di Produzione**, seguendo la stessa procedura illustrata nella **Sezione Dettaglio IBAN: Modifica - Ambiente di Collaudo**.
+L' utente può procedere alla **modifica in ambiente di Produzione**, seguendo la stessa procedura illustrata nella **Sezione Dettaglio IBAN: Modifica - Ambiente di Collaudo**.

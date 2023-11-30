@@ -20,4 +20,4 @@ Da qui **cliccando** sull'apposito bottone in blu **"Elimina"** l'utente ha la p
 
 ## Sezione Dettaglio IBAN: Elimina- Ambiente di Produzione
 
-Una volta eliminato l'IBAN in ambiente di Collaudo, l'utente potrà procedere all'**eliminazione** **in ambiente di Produzione**, seguendo la stessa procedura illustrata nella **Sezione Dettaglio IBAN: Elimina- Ambiente di Collaudo.**
+L' utente può procedere all'**eliminazione** **in ambiente di Produzione**, seguendo la stessa procedura illustrata nella **Sezione Dettaglio IBAN: Elimina- Ambiente di Collaudo.**

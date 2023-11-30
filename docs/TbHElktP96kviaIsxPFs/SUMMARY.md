@@ -18,3 +18,4 @@
       * [Aggiungi IBAN](manuale-operativo-back-office-pagopa-ente-creditore/funzionalita/gestione-iban/aggiungi-iban.md)
       * [Modifica IBAN](manuale-operativo-back-office-pagopa-ente-creditore/funzionalita/gestione-iban/modifica-iban.md)
       * [Elimina IBAN](manuale-operativo-back-office-pagopa-ente-creditore/funzionalita/gestione-iban/elimina-iban.md)
+      * [Caricamento Massivo IBAN](manuale-operativo-back-office-pagopa-ente-creditore/funzionalita/gestione-iban/caricamento-massivo-iban.md)
