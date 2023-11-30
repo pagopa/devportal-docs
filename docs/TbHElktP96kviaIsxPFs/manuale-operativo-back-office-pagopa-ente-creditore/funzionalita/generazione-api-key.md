@@ -11,7 +11,7 @@ All’interno della **Panoramica - Area riservata**, per il prodotto **pagoPA** 
 
 E' possibile accedere al portale del prodotto pagoPA anche dall’apposito **menù a tendina** situato al lato sinistro dell’intestazione. Anche da qui sarà possibile selezionare l’**ambiente target**.
 
-<figure><img src="../../.gitbook/assets/image (115).png" alt=""><figcaption><p><em>Pop up di selezione dell'ambiente target all'ingresso del back-office di prodotto</em></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption><p><em>Pop up di selezione ambiente target</em></p></figcaption></figure>
 
 Per avviare la generazione delle chiavi è necessario scegliere l'ambiente target, ad esempio "Collaudo", cliccando sull'omonimo tasto. Solo dopo aver completato la generazione nel primo ambiente selezionato, sarà possibile effettuarla anche nel secondo (ovvero "Produzione").
 
@@ -27,7 +27,7 @@ Effettuando il click, si accede alla _Pagina di Selezione tipo di prodotto_
 
 #### **Selezione del tipo di prodotto**
 
-Nella _Pagina di Selezione tipo di prodotto,_ tramite Il menu a tendina “Tipo di prodotto”, è possibile visualizzare l’elenco delle tre tipologie di prodotto per cui è necessario generare le chiavi_:_
+Nella _Pagina di Selezione tipo di prodotto,_ tramite Il menu a tendina “Tipo di prodotto”, è possibile visualizzare l’elenco delle tipologie di prodotto per cui è necessario generare le chiavi_:_
 
 * **Connessione con nodo**
 * **Integrazione Asincrona**
@@ -40,7 +40,7 @@ Nella _Pagina di Selezione tipo di prodotto,_ tramite Il menu a tendina “Tipo 
 
 _Questa API Key permette di connettersi al Nodo Pagamenti di PagoPA: azione propedeutica per tutte le ulteriori operazioni._
 
-Per procedere, dal menù è necessario selezionare il prodotto “**Connessione con nodo**”, l’unico abilitato dato che è obbligatorio generare prima la coppia di chiavi di questo e poi quella degli altri 2.
+Per procedere, dal menù è necessario selezionare il prodotto “**Connessione con nodo**”, l’unico abilitato dato che è obbligatorio generare prima la coppia di chiavi di questa tipologia per poi procedere con le altre chiavi.
 
 Solo una volta selezionata la voce, sarà possibile proseguire cliccando sul pulsante “Genera API Key”; altrimenti sul tasto “Annulla” per tornare alla _Pagina Vista API Key._
 
@@ -66,7 +66,7 @@ Per ogni campo contenente il codice API Key è possibile effettuare le seguenti 
 
 #### **Integrazione asincrona**
 
-Dopo aver generato la coppia di chiavi “Connessione con nodo”, al fine di svolgere tale operazione anche per gli altri 3 prodotti, è necessario cliccare sul tasto “+ Genera API Key” e tornare alla _Pagina di Selezione tipo di prodotto_.
+Dopo aver generato la coppia di chiavi “Connessione con nodo”, al fine di svolgere tale operazione anche per gli altri prodotti, è necessario cliccare sul tasto “+ Genera API Key” e tornare alla _Pagina di Selezione tipo di prodotto_.
 
 Dal menu è possibile scegliere e selezionare una delle altre tre voci a disposizione, ad es. “**Integrazione asincrona**” e cliccare sul pulsante “Genera API Key”.
 
@@ -96,11 +96,9 @@ Da qui è possibile selezionare la voce di menu **“Gestione Flussi di Rendicon
 
 <figure><img src="../../.gitbook/assets/image (94).png" alt=""><figcaption><p><em>Pagina di Selezione tipo di prodotto: Gestione Flussi di Rendicontazione</em></p></figcaption></figure>
 
-Completata la fase di generazione delle chiavi, nella _Pagina Vista API Key_ è possibile visualizzare i 4 prodotti con la coppia di chiavi primaria e secondaria ad essi associate e i relativi comandi di gestione del codice.
+Completata la fase di generazione delle chiavi, nella _Pagina Vista API Key_ è possibile visualizzare i prodotti con la coppia di chiavi primaria e secondaria ad essi associate e i relativi comandi di gestione del codice.
 
 <figure><img src="../../.gitbook/assets/image (60).png" alt=""><figcaption><p><em>Pagina vista ApiKey generate</em></p></figcaption></figure>
-
-Completata la generazione della coppia di chiavi in ambiente di Collaudo, è possibile effettuare questa operazione in ambiente di Produzione.&#x20;
 
 Per procedere è necessario ritornare nella Panoramica - Area Riservata, selezionandola dal **menu a tendina** situato al lato sinistro dell'intestazione.
 

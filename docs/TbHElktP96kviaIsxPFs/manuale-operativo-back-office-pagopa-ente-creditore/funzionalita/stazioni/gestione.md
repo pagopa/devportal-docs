@@ -13,13 +13,13 @@ Nella Pagina "Vista Stazioni", dopo aver effettuato la creazione della stazione 
 
 **Cliccando** sui **3 puntini** accanto lo Stato "**Attivo**", l'utente visualizzerà la voce "**Gestisci Stazione**".
 
-<figure><img src="../../../.gitbook/assets/image (130).png" alt=""><figcaption><p><em>Pagina Vista elenco Stazioni - opzione Gestisci stazione</em></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (17).png" alt=""><figcaption><p><em>Pagina Lista Stazioni - opzione Gestisci Stazione</em></p></figcaption></figure>
 
 Selezionando la voce "**Gestisci Stazione**", l'utente può accedere alla Pagina di dettaglio Stazione in cui sono riportati tutti i dati di configurazione inseriti in fase di Creazione.
 
 Da questa pagina, oltre alla mera consultazione ha la possibilità di avviare le **azioni** di  **duplicazione** e **modifica** della stazione **cliccando** sui rispettivi **tasti** "**Duplica**" (vedi sezione [Duplicazione](duplicazione.md)) e "**Modifica**" (vedi sezione [Modifica](modifica.md)).
 
-<figure><img src="../../../.gitbook/assets/image (62).png" alt=""><figcaption><p><em>Pagina di dettaglio- configurazione della stazione</em></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption><p><em>Pagina di dettaglio di congigurazione della stazione</em></p></figcaption></figure>
 
 #### **Intermediario tecnologico**
 
@@ -36,7 +36,7 @@ Nella _Pagina "Vista Stazioni",_ dopo aver effettuato la creazione delle stazion
 
 **Cliccando** sui **3 puntini** accanto lo Stato "**In revisione"**, l'utente può visualizzare le voci **"Gestisci stazione"** e **"Modifica"** [(](https://app.gitbook.com/o/KXYtsf32WSKm6ga638R3/s/rJUTsG994kMeEJKlJ2MJ/\~/changes/14/manuale-operativo-back-office-pagopa-prestatore-di-servizi-di-pagamento/funzionalita/canale/modifica)vedi [Modifica - Ambiente di Produzione](modifica.md)).
 
-<figure><img src="../../../.gitbook/assets/image (100).png" alt=""><figcaption><p><em>Pagina Vista Stazioni - tabella elenco stazioni - menu stato In revisione</em></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (18).png" alt=""><figcaption><p>Pagina Lista Stazioni Prod - Gestisci Stazione</p></figcaption></figure>
 
 Selezionando la voce **"Gestisci stazione"**, l'utente può accedere alla _Pagina di dettaglio Stazione_ in cui sono riportati tutti i dati di configurazione inseriti in fase di Creazione.
 

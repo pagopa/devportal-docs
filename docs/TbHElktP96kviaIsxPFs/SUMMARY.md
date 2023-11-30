@@ -7,6 +7,7 @@
   * [Panoramica](manuale-operativo-back-office-pagopa-ente-creditore/panoramica.md)
   * [Funzionalità](manuale-operativo-back-office-pagopa-ente-creditore/funzionalita/README.md)
     * [Registrazione al nodo dei Pagamenti PagoPa](manuale-operativo-back-office-pagopa-ente-creditore/funzionalita/registrazione-al-nodo-dei-pagamenti-pagopa.md)
+    * [Tavolo Operativo](manuale-operativo-back-office-pagopa-ente-creditore/funzionalita/tavolo-operativo.md)
     * [Generazione API Key](manuale-operativo-back-office-pagopa-ente-creditore/funzionalita/generazione-api-key.md)
     * [Stazioni](manuale-operativo-back-office-pagopa-ente-creditore/funzionalita/stazioni/README.md)
       * [Creazione](manuale-operativo-back-office-pagopa-ente-creditore/funzionalita/stazioni/creazione.md)

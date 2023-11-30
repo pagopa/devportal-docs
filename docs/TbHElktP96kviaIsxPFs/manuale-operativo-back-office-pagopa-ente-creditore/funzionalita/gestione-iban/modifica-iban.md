@@ -10,11 +10,11 @@ La funzionalità **Modifica IBAN** è riservata esclusivamente al **Referente de
 
 All'interno della _**Pagina "Vista Iban"**,_ l'utente ha la possibilità di **cliccare** sulla **freccetta** blu accanto lo Stato per **accedere** alla pagina di **Dettaglio IBAN**.&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (50).png" alt=""><figcaption><p>Pagina vista IBAN - tabella elenco IBAN</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (30).png" alt=""><figcaption><p><em>Pagina Vista elenco Iban</em></p></figcaption></figure>
 
 All'interno di tale pagina è possibile **visualizzare** tutti i **dati** relativi all'**IBAN** inseriti in fase di creazione.
 
-<figure><img src="../../../.gitbook/assets/image (51).png" alt=""><figcaption><p><em>Pagina di dettaglio dell'IBAN</em></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (31).png" alt=""><figcaption><p><em>Pagina di dettaglio Iban</em></p></figcaption></figure>
 
 Da qui **cliccando** sull'apposito bottone in blu **"Modifica"** l'utente ha la possibilità di **modificare** i **dati** di **configurazione** precedentemente inseriti.
 

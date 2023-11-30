@@ -26,7 +26,7 @@ L'utente nella Sezione IBAN, visualizzerà in primo luogo la _Pagina "Vista IBAN
 
 Se **non** è ancora stato **creato** alcun **iban**, l'utente visualizzerà tale Pagina vuota.&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (148).png" alt=""><figcaption><p><em>Pagina Vista Iban- tabella elenco iban vuota</em></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (24).png" alt=""><figcaption><p><em>Pagina Lista Iban vuota</em></p></figcaption></figure>
 
 
 
@@ -48,7 +48,7 @@ L'utente nella Sezione IBAN, visualizzerà in primo luogo la _Pagina "Vista IBAN
 
 Se **non** è ancora stato **creato** alcun **iban**, l'utente visualizzerà tale Pagina vuota.
 
-<figure><img src="../../../.gitbook/assets/image (149).png" alt=""><figcaption><p><em>Pagina Vista Iban- tabella elenco iban vuota</em></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (25).png" alt=""><figcaption><p><em>Pagina Lista Iban vuota Prod</em></p></figcaption></figure>
 
 Nel caso in cui siano già **stati creati iban**, l'utente nella suddetta _Pagina_ ne visualizzerà l'**elenco** sotto forma di **tabella**:
 
