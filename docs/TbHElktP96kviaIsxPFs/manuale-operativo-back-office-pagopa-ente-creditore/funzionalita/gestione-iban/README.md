@@ -8,6 +8,16 @@ description: >-
 
 Il ruolo che ne possiede il **pieno potere** a livello di **operatività** è esclusivamente il **Referente dei Pagamenti.**
 
+**Nota1:**&#x20;
+
+Non è possibile completare la registrazione al nodo senza aver necessariamente associato almeno un IBAN.&#x20;
+
+**Nota2:**
+
+Non è possibile eliminare un IBAN se questo risulta essere l'unico associato all'Ente.&#x20;
+
+
+
 ## Sezione IBAN: Ambiente di Collaudo
 
 All'interno del **Back office pagoPA** in **ambiente di collaudo**,  è possibile accedere alla **sezione IBAN** cliccando sulla **voce di menu "IBAN"**.
