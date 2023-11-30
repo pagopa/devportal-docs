@@ -112,4 +112,4 @@ Dalla Panoramica - Area riservata, cliccando sulla freccia all'interno della car
 
 ### Sezione API Key: Ambiente di Produzione
 
-Una volta aver generato la coppia di chiavi in ambiente di collaudo, l'utente potrà procedere alla **generazione** di queste anche in **ambiente di produzione**, svolgendo le stesse azioni illustrate nella sezione API Key: Ambiente di Collaudo.
+L'utente potrà procedere alla **generazione** delle API Key di produzione seguendo le stesse azioni illustrate nella sezione API Key: Ambiente di Collaudo.
