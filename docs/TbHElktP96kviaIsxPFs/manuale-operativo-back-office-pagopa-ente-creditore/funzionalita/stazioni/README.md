@@ -8,7 +8,7 @@ L'utente nella Sezione Stazioni, visualizzerà in primo luogo la _Pagina "Vista 
 
 Se **non** è ancora stata **creata** alcuna **stazione**, l'utente visualizzerà tale Pagina vuota.&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (9).png" alt=""><figcaption><p><em>Pagina Lista Stazioni vuota - caso in cui non sono state ancora create stazioni</em></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (170).png" alt=""><figcaption><p><em>Pagina Lista Stazioni vuota - caso in cui non sono state ancora create stazioni</em></p></figcaption></figure>
 
 Nel caso in cui siano già **state create stazioni**, l'utente nella suddetta _Pagina_ ne visualizzerà l'**elenco** sotto forma di **tabella**:
 
@@ -18,7 +18,7 @@ Nel caso in cui siano già **state create stazioni**, l'utente nella suddetta _P
 * Data attivazione
 * Stato: **"Attivo"**&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (8).png" alt=""><figcaption><p><em>Pagina Lista Stazioni - caso in cui sono state già create stazioni</em></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (169).png" alt=""><figcaption><p><em>Pagina Lista Stazioni - caso in cui sono state già create stazioni</em></p></figcaption></figure>
 
 ## Sezione Stazioni: Ambiente di Produzione
 
@@ -28,7 +28,7 @@ Anche in questo ambiente, l'utente in primo luogo visualizzerà la _Pagina "Vist
 
 Se **non** è ancora stata **creata** alcuna **stazione**, l'utente visualizzerà tale Pagina vuota.&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (10).png" alt=""><figcaption><p><em>Pagina Lista Stazioni Prod vuota - caso in cui non sono state ancora create stazioni</em></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (171).png" alt=""><figcaption><p><em>Pagina Lista Stazioni Prod vuota - caso in cui non sono state ancora create stazioni</em></p></figcaption></figure>
 
 Nel caso in cui sono già **stati create stazioni**, l'utente nella suddetta _Pagina ne_ visualizzerà l'**elenco** sotto forma di **tabella**:
 
@@ -38,4 +38,4 @@ Nel caso in cui sono già **stati create stazioni**, l'utente nella suddetta _Pa
 * Data attivazione
 * Stato: che mostra il dettaglio sullo **stato di avanzamento** del processo di creazione della stazione e può assumere il valore: "**In revisione": la stazione** è stata creata, ma in attesa di revisione da parte di PagoPA); "**Da correggere": la stazione** è stata revisionata e richiede delle correzioni; **"Attivo"** (la stazione è correttamente in esercizio).
 
-<figure><img src="../../../.gitbook/assets/image (11).png" alt=""><figcaption><p><em>Pagina Lista Stazioni Prod- caso in cui sono state già create stazioni</em></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (172).png" alt=""><figcaption><p><em>Pagina Lista Stazioni Prod- caso in cui sono state già create stazioni</em></p></figcaption></figure>

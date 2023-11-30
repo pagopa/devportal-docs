@@ -16,7 +16,7 @@ Se **non** sono ancora stati **creati IBAN**, l'utente visualizzerà la _Pagina 
 
 E' possibile procedere alla **creazione** di un nuovo IBAN, cliccando sia su tasto **"Aggiungi IBAN"** che su hyperlink in blu **"Aggiungi IBAN".**
 
-<figure><img src="../../../.gitbook/assets/image (26).png" alt=""><figcaption><p><em>Pagina Vista Iban - tabella elenco Iban vuota</em></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (187).png" alt=""><figcaption><p><em>Pagina Vista Iban - tabella elenco Iban vuota</em></p></figcaption></figure>
 
 Nel caso in cui siano già **stati creati iban**, l'utente nella suddetta _Pagina_ ne visualizzerà l'**elenco** sotto forma di **tabella**:
 
@@ -32,15 +32,15 @@ Per **creare** un **nuovo IBAN** è necessario cliccare sul tasto  **"Aggiungi I
 
 Al click su **"Aggiungi IBAN"** l'utente può accedere alla _**pagina Aggiungi IBAN**_ in cui selezionando **"Caricamento singolo"**, è possibile inserire tutti i dati necessari alla **configurazione di un singolo IBAN**.
 
-<figure><img src="../../../.gitbook/assets/image (27).png" alt=""><figcaption><p><em>Form Aggiungi Iban - Caricamento singolo</em></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (188).png" alt=""><figcaption><p><em>Form Aggiungi Iban - Caricamento singolo</em></p></figcaption></figure>
 
 &#x20;Nel momento in cui la compilazione è **completata,** è possibile cliccare sul tasto **"Conferma".**
 
-<figure><img src="../../../.gitbook/assets/image (28).png" alt=""><figcaption><p><em>Form Aggiungi Iban - Caricamento singolo - Conferma</em></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (189).png" alt=""><figcaption><p><em>Form Aggiungi Iban - Caricamento singolo - Conferma</em></p></figcaption></figure>
 
 Una volta aver cliccato sul tasto **"Conferma"**, l'**utente** verrà **reindirizzato** alla **Pagina Vista IBAN** in cui potrà visualizzare l'IBAN appena creato.&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (29).png" alt=""><figcaption><p><em>Pagina Vista elenco Iban</em></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (190).png" alt=""><figcaption><p><em>Pagina Vista elenco Iban</em></p></figcaption></figure>
 
 ### **Gestione IBAN Stand In e Cup**
 
@@ -49,11 +49,11 @@ All'interno della sezione IBAN è possibile **selezionare** gli **IBAN** designa
 * **STAND IN:** IBAN da utilizzare per il processo che garantisce l’intervento di pagoPA qualora l’ente riscontrasse problemi.
 * **CUP:** IBAN da utilizzare in caso di pagamento Canone Unico Patrimoniale, servizio gestito da PagoPA S.p.A.
 
-<figure><img src="../../../.gitbook/assets/image (6) (1).png" alt=""><figcaption><p><em>Gestione IBAN Stand In e Cup</em></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption><p><em>Gestione IBAN Stand In e Cup</em></p></figcaption></figure>
 
 Tale **selezione** sarà **modificabile** grazie alla funzionalità **"Gestisci"**.
 
-<figure><img src="../../../.gitbook/assets/image (7) (1).png" alt=""><figcaption><p><em>Gestione IBAN Stand In e Cup - Gestisci</em></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (7).png" alt=""><figcaption><p><em>Gestione IBAN Stand In e Cup - Gestisci</em></p></figcaption></figure>
 
 ### **Sezione IBAN: Aggiungi- Ambiente di Produzione**
 

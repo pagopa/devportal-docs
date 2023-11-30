@@ -25,13 +25,13 @@ Indirizzo, Provincia, Domicilio Fiscale, Città e CAP, **all'interno** della **s
 
 Inoltre, l'utente oltre a dover procedere alla compilazione dei suddetti campi, è **tenuto** ad **esprimere** la scelta relativa alla **modalità** di **connessione** al **Nodo**. Tale scelta avviene **tramite** **selezione** **dell'opzione "Diretta"/"Indiretta"** all'interno della **sezione** **"Modalità di connessione al Nodo"**.
 
-<figure><img src="../../.gitbook/assets/image (34).png" alt=""><figcaption><p><em>Registrazione al Nodo - da completare</em></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p><em>Registrazione al Nodo - da completare</em></p></figcaption></figure>
 
 #### Caso 1: Modalità di connessione al Nodo indiretta
 
 L'utente procede alla **compilazione dei dati obbligatori** e sceglie la **modalità indiretta** di connessione al Nodo**.**
 
-<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p><em>Registrazione al Nodo - connessione indiretta</em></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p><em>Registrazione al Nodo - connessione indiretta</em></p></figcaption></figure>
 
 Una volta aver cliccato sul tasto "Conferma", l'utente avrà completato la Registrazione al Nodo dei Pagamenti PagoPA.
 
@@ -50,13 +50,13 @@ Questo verrà reindirizzato alla Panoramica in cui potrà visualizzare il riepil
 * Stato "**Abilitato**"
 * Intermediario di altri **"Non disponibile"**
 
-<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption><p><em>Panoramica - Registrazione al Nodo completata - Connessione indiretta</em></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption><p><em>Panoramica - Registrazione al Nodo completata - Connessione indiretta</em></p></figcaption></figure>
 
 #### Caso 2 :  Modalità di connessione al Nodo diretta
 
 L'utente procede alla **compilazione dei dati obbligatori e** sceglie la **modalità diretta** di connessione al Nodo**.**
 
-<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 L'utente, una volta **cliccato** su **"Conferma"**, visualizzerà il **pop up** informativo **per confermare la scelta** di volersi connettere direttamente al Nodo.&#x20;
 
@@ -81,7 +81,7 @@ Questo verrà reindirizzato alla Panoramica in cui potrà visualizzare il riepil
 * Stato "**Abilitato**"
 * Modalità di connessione **"Diretta"**
 
-<figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption><p><em>Panoramica - Registrazione al Nodo completata - Connessione diretta</em></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption><p><em>Panoramica - Registrazione al Nodo completata - Connessione diretta</em></p></figcaption></figure>
 
 L'utente **solo** dopo aver **completato la Registrazione**, può procedere all'esecuzione degli step successivi a questa, come la Generazione delle API Key, che può avviare direttamente dalla Panoramica - box "E ora?" cliccando su tasto "**Genera API Key**", o accedendo alla **Sezione** **dedicata** ["**API Key"**](generazione-api-key.md)**.**
 

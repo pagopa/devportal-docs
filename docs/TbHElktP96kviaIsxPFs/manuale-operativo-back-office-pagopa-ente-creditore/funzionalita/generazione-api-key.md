@@ -11,7 +11,7 @@ All’interno della **Panoramica - Area riservata**, per il prodotto **pagoPA** 
 
 E' possibile accedere al portale del prodotto pagoPA anche dall’apposito **menù a tendina** situato al lato sinistro dell’intestazione. Anche da qui sarà possibile selezionare l’**ambiente target**.
 
-<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption><p><em>Pop up di selezione ambiente target</em></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (168).png" alt=""><figcaption><p><em>Pop up di selezione ambiente target</em></p></figcaption></figure>
 
 Per avviare la generazione delle chiavi è necessario scegliere l'ambiente target, ad esempio "Collaudo", cliccando sull'omonimo tasto. Solo dopo aver completato la generazione nel primo ambiente selezionato, sarà possibile effettuarla anche nel secondo (ovvero "Produzione").
 

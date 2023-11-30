@@ -14,7 +14,7 @@ Se **non** sono ancora state **create stazioni**, l'utente visualizzerà la _Pag
 
 E' possibile procedere alla **creazione** di una **nuova stazione**, cliccando sia su tasto **"Crea Stazione"** che su hyperlink in blu **"Crea stazione".**
 
-<figure><img src="../../../.gitbook/assets/image (12).png" alt=""><figcaption><p><em>Pagina Lista Stazioni vuota - caso in cui non sono state ancora create stazioni</em></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (173).png" alt=""><figcaption><p><em>Pagina Lista Stazioni vuota - caso in cui non sono state ancora create stazioni</em></p></figcaption></figure>
 
 Nel caso in cui sono già **state create stazioni**, l'utente nella suddetta _Pagina_ visualizzerà l'elenco di questi sotto forma di tabella:
 
@@ -38,17 +38,17 @@ Per quanto riguarda la sezione **Target**, la **compilazione** del relativo camp
 * **Stazione asincrona**: in questo caso l'utente non deve inserire alcun valore per il campo endpoint.
 * **Stazione sincrona**: in questo caso l'utente è tenuto a specificare l'endpoint.
 
-<figure><img src="../../../.gitbook/assets/image (13).png" alt=""><figcaption><p><em>Pagina di Configurazione della Stazione</em></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (174).png" alt=""><figcaption><p><em>Pagina di Configurazione della Stazione</em></p></figcaption></figure>
 
 Nel momento in cui la compilazione è **completata,** è possibile cliccare sul tasto **"Conferma".**
 
-<figure><img src="../../../.gitbook/assets/image (14).png" alt=""><figcaption><p><em>Pagina di Configurazione della Stazione - Conferma</em></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (175).png" alt=""><figcaption><p><em>Pagina di Configurazione della Stazione - Conferma</em></p></figcaption></figure>
 
 
 
 Una volta aver cliccato sul tasto "Conferma", l'**utente** attiverà la stazione e verrà **reindirizzato** alla **Pagina Vista Stazioni** in cui potrà visualizzarla in stato **Attivo**.
 
-<figure><img src="../../../.gitbook/assets/image (15).png" alt=""><figcaption><p><em>Pagina Lista Stazioni - Stazione creata</em></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (176).png" alt=""><figcaption><p><em>Pagina Lista Stazioni - Stazione creata</em></p></figcaption></figure>
 
 ### Sezione Stazioni: Creazione - Ambiente di Produzione&#x20;
 
@@ -72,4 +72,4 @@ Altrimenti è necessario cliccare su "Torna indietro" per tornare alla _Pagina d
 
 Una volta aver cliccato su tasto "Invia", l'utente verrà reindirizzato alla _Pagina Vista Stazioni_ in cui potrà visualizzare nella tabella la stazione appena configurata, che risulterà nello stato **In revisione** (la stazione è stata creata, ma in attesa di revisione da parte di PagoPA).&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (16).png" alt=""><figcaption><p><em>Pagina Lista Stazioni Prod - Stazione In revisione</em></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (177).png" alt=""><figcaption><p><em>Pagina Lista Stazioni Prod - Stazione In revisione</em></p></figcaption></figure>

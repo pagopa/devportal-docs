@@ -4,7 +4,7 @@ Per **attivare** e **gestire** il **prodotto pagoPA** è necessario prima accede
 
 Questa sezione ospita la lista dei prodotti a cui l’EC o il PSP ha aderito e da cui è possibile effettuare l'**accesso al portale dedicato al singolo prodotto**.
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption><p><em>Area Riservata - Panoramica</em></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (164).png" alt=""><figcaption><p><em>Area Riservata - Panoramica</em></p></figcaption></figure>
 
 Nei 3 paragrafi seguenti andremo ad illustrare le azioni e le informazioni che consentono all'utente di accedere e operare nella sezione **Panoramica - Area riservata**, in dettaglio:&#x20;
 
@@ -80,7 +80,7 @@ L’Area Riservata di PagoPA è accessibile agli utenti che possiedono un **ruol
 
 La **visualizzazione** e l’**operatività** all’interno delle diverse sezioni dell’Area Riservata dipenderà dal **ruolo posseduto sul prodotto**.
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption><p><em>Area Riservata - Vista Amministratore</em></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (165).png" alt=""><figcaption><p><em>Area Riservata - Vista Amministratore</em></p></figcaption></figure>
 
 Tuttavia, **indipendentemente dal ruolo**, all’interno della piattaforma sono disponibili le seguenti funzioni:
 
@@ -103,8 +103,8 @@ In tale sezione, per ogni prodotto saranno visualizzati:&#x20;
 
 Per il **prodotto pagoPA**, al click su “Gestisci” viene esposto il messaggio che permette di selezionare l’ambiente target del prodotto a cui si intende accedere (Ambiente di Collaudo e Ambiente di Produzione).
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption><p><em>Pop up di selezione Ambiente</em></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (166).png" alt=""><figcaption><p><em>Pop up di selezione Ambiente</em></p></figcaption></figure>
 
 Inoltre è possibile **accedere** al **portale** del **prodotto pagoPA** anche dall’apposito menù a tendina situato al lato sinistro dell’intestazione. Anche da qui sarà possibile selezionare l’ambiente target.
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p><em>Menu a tendina per ingresso al prodotto</em></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (161).png" alt=""><figcaption><p><em>Menu a tendina per ingresso al prodotto</em></p></figcaption></figure>

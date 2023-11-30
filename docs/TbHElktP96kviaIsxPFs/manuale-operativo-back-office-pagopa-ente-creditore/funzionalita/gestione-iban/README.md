@@ -8,6 +8,8 @@ description: >-
 
 Il ruolo che ne possiede il **pieno potere** a livello di **operatività** è esclusivamente il **Referente dei Pagamenti.**
 
+
+
 **Nota1:**&#x20;
 
 Non è possibile completare la registrazione al nodo senza aver necessariamente associato almeno un IBAN.&#x20;
@@ -26,7 +28,7 @@ L'utente nella Sezione IBAN, visualizzerà in primo luogo la _Pagina "Vista IBAN
 
 Se **non** è ancora stato **creato** alcun **iban**, l'utente visualizzerà tale Pagina vuota.&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (24).png" alt=""><figcaption><p><em>Pagina Lista Iban vuota</em></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (185).png" alt=""><figcaption><p><em>Pagina Lista Iban vuota</em></p></figcaption></figure>
 
 
 
@@ -48,7 +50,7 @@ L'utente nella Sezione IBAN, visualizzerà in primo luogo la _Pagina "Vista IBAN
 
 Se **non** è ancora stato **creato** alcun **iban**, l'utente visualizzerà tale Pagina vuota.
 
-<figure><img src="../../../.gitbook/assets/image (25).png" alt=""><figcaption><p><em>Pagina Lista Iban vuota Prod</em></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (186).png" alt=""><figcaption><p><em>Pagina Lista Iban vuota Prod</em></p></figcaption></figure>
 
 Nel caso in cui siano già **stati creati iban**, l'utente nella suddetta _Pagina_ ne visualizzerà l'**elenco** sotto forma di **tabella**:
 
