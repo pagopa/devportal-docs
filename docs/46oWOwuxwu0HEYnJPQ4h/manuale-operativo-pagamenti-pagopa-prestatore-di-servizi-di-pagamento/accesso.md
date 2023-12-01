@@ -25,8 +25,6 @@ Da qui, l’accesso all’Area Riservata di PagoPA può essere effettuato tramit
 * Autenticazione mediante **SPID** (Sistema Pubblico di Identità Digitale);
 * Autenticazione mediante **CIE** (Carta d’Identità Elettronica).&#x20;
 
-Per quanto riguarda la prima modalità di autenticazione è bene specificare che non è **richiesto** lo **spid** personale bensì quello **aziendale**.
-
 All’interno della pagina di accesso sono disponibili i link per visualizzare i _**Termini e condizioni d’uso**_ della piattaforma e l’_**Informativa Privacy**_, come da immagine seguente. &#x20;
 
 <figure><img src="https://lh5.googleusercontent.com/_BvIPMdtwDq0OxDj3lcKU__JUBM25w7m54gmpsyNHH8WKN6FP_LJ_pHsjUe72B7Bwel0nEfjfImAsOesA-HNChvZdgcRrNPqr4Ug7UT__OzNfiA9m4IV1LqQujpZe7rTGKBdZ6vwIduFVMXCMj4MrQpUEil77N5Qvy8H8nivlYXZ9nJA-DmZ19LA4sqgXCPsgRPoK0Wu" alt=""><figcaption><p><em>Pagina di accesso all'Area Riservata di PagoPA</em></p></figcaption></figure>
