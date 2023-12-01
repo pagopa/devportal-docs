@@ -80,7 +80,7 @@ L'utente **solo** dopo aver **completato la Registrazione**, può procedere all'
 
 ### Registrazione al Nodo: Ambiente di Produzione
 
-Una volta aver effettuato la registrazione al nodo in ambiente di collaudo, l'utente potrà procedere alla **registrazione** in **ambiente di produzione**, svolgendo le stesse azioni illustrate nella sezione Registrazione al Nodo: Ambiente di Collaudo.
+L'utente potrà procedere alla **registrazione** in **ambiente di produzione**, svolgendo le stesse azioni illustrate nella sezione Registrazione al Nodo: Ambiente di Collaudo.
 
 Anche in questo ambiente, l'utente **solo** dopo aver **completato la Registrazione**, può procedere all'esecuzione degli step successivi, come la Generazione delle API Key, che può avviare direttamente dalla Panoramica - box "E ora?" cliccando su tasto "**Genera API Key**", o accedendo alla **Sezione** **dedicata** "**API Key".**&#x20;
 
