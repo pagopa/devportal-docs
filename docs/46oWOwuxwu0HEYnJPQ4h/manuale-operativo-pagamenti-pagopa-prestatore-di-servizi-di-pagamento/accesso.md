@@ -4,6 +4,8 @@ Per **attivare** e **gestire** il **prodotto pagoPA** è necessario prima accede
 
 Questa sezione ospita la lista dei prodotti a cui il PSP ha aderito e da cui è possibile effettuare l'**accesso al portale dedicato al singolo prodotto**.
 
+<figure><img src="../.gitbook/assets/portale_singolo_prodotto.png" alt=""><figcaption></figcaption></figure>
+
 <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p><em>Area Riservata - Panoramica</em></p></figcaption></figure>
 
 Nei 3 paragrafi seguenti andremo ad illustrare le azioni e le informazioni che consentono all'utente di accedere e operare nella sezione **Panoramica - Area riservata**, in dettaglio:&#x20;
