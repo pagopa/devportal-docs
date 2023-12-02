@@ -24,13 +24,13 @@ Per procedere, è necessario che l'utente completi la **compilazione** dei **cam
 
 Inoltre, l'utente oltre a dover procedere alla compilazione dei suddetti campi, è **tenuto** ad **esprimere** la scelta relativa alla **modalità** di **connessione** al **Nodo**. Tale scelta avviene **tramite** **selezione** **dell'opzione "Diretta"/"Indiretta"** all'interno della **sezione** **"Modalità di connessione al Nodo"**.
 
-<figure><img src="../../.gitbook/assets/image (144).png" alt=""><figcaption><p><em>Registrazione al Nodo</em></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption><p><em>Form Registrazione sul Nodo</em></p></figcaption></figure>
 
 #### Caso 1: Modalità di connessione al Nodo indiretta
 
 L'utente procede alla **compilazione dei dati obbligatori e** sceglie la **modalità indiretta** di connessione al Nodo**.**
 
-<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption><p><em>Registrazione al Nodo - Connessione indiretta - Conferma</em></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1).png" alt=""><figcaption><p><em>Registrazione al Nodo - Connessione indiretta - Conferma</em></p></figcaption></figure>
 
 Una volta completati tutti i campi obbligatori e aver cliccato sul tasto "Conferma", l'utente avrà completato la Registrazione al Nodo dei Pagamenti PagoPA.
 
@@ -44,15 +44,17 @@ Questo verrà reindirizzato alla Panoramica in cui potrà visualizzare il riepil
 * **Codice BIC**
 * **Marca da bollo digitale**
 * Stato **"Abilitato".**
-* Modalità di connessione **"Indiretta"**
+* Intermediario di altri  **"Non disponibile"**
 
-<figure><img src="../../.gitbook/assets/image (146).png" alt=""><figcaption><p><em>Panoramica - Registrazione al Nodo completata - Connessione indiretta</em></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption><p><em>Panoramica - PSP indiretto - Registrazione completata</em></p></figcaption></figure>
+
+
 
 #### Caso 2 : Modalità di connessione al Nodo diretta
 
 L'utente procede alla **compilazione dei dati obbligatori e** sceglie la **modalità diretta** di connessione al Nodo**.**
 
-<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption><p><em>Registrazione al Nodo - Connessione diretta - Conferma</em></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (1).png" alt=""><figcaption><p><em>Registrazione al Nodo - Connessione diretta - Conferma</em></p></figcaption></figure>
 
 L'utente, una volta **cliccato** su **"Conferma"**, visualizzerà il **pop up** informativo **per confermare la scelta** di volersi connettere direttamente al Nodo.&#x20;
 
@@ -70,13 +72,21 @@ Questo verrà reindirizzato alla Panoramica in cui potrà visualizzare il riepil
 * **Codice BIC**
 * **Marca da bollo digitale**
 * Stato **"Abilitato".**
-* Modalità di connessione **"Diretta"**
+* Intermediario di altri  **"Disponibile"**
 
-<figure><img src="../../.gitbook/assets/image (148).png" alt=""><figcaption><p><em>Panoramica - Registrazione al Nodo completata - Connessione diretta</em></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption><p><em>Panoramica - PSP diretto - Registrazione completata</em></p></figcaption></figure>
 
 
 
 L'utente **solo** dopo aver **completato la Registrazione**, può procedere all'esecuzione degli step successivi a questa, come la Generazione delle API Key, che può avviare direttamente dalla Panoramica - box "E ora?" cliccando su tasto "**Genera API Key**", o accedendo alla **Sezione** **dedicata**[ "**API Key"**](generazione-api-key.md)**.**
+
+#### Modifica dati di registrazione
+
+L'utente, una volta completata la registrazione al Nodo **potrà** intervenire a **modificare** le seguenti informazioni:
+
+* **Codice BIC:**  può **modificare** e aggiornare il codice **BIC.**
+* **Marca da bollo digitale:** può passare da marca **da** bollo digitale "**Attiva**" a "**Non Attiva**" e **viceversa**.
+* **Modalità di Connessione al Nodo:** questa scelta è **modificabile** **solo** se si intende passare **da** connessione **Indiretta** a **Diretta** e non viceversa, questo perchè potrebbero esserci dei rapporti di associazione in corso sui canali configurati.
 
 ### Registrazione al Nodo: Ambiente di Produzione
 

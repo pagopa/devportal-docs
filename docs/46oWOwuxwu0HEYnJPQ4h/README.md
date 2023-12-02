@@ -16,7 +16,7 @@ Lo scopo di questo documento è quello di **descrivere le funzionalità** che il
 
 #### **Ruoli e poteri: Pagamenti pagoPA**
 
-All'interno del **poratale Pagamenti pagoPA**, nel caso dei **PSP**, il livello di Amministratore corrisponde a quello di **Responsabile Amministrativo**, mentre quello di Operatore al **Responsabile Tecnico**.
+All'interno del **portale Pagamenti pagoPA**, nel caso dei **PSP**, il livello di Amministratore corrisponde a quello di **Responsabile Amministrativo**, mentre quello di Operatore al **Responsabile Tecnico**.
 
 Ognuno dei due ruoli garantisce un diverso **livello di visibilità** **e operatività** all’interno del portale, in particolare:
 
