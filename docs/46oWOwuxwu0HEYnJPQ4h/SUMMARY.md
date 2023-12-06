@@ -14,3 +14,5 @@
       * [Duplicazione](manuale-operativo-pagamenti-pagopa-prestatore-di-servizi-di-pagamento/funzionalita/canale/duplicazione.md)
       * [Modifica](manuale-operativo-pagamenti-pagopa-prestatore-di-servizi-di-pagamento/funzionalita/canale/modifica.md)
       * [Associazione di un PSP al Canale](manuale-operativo-pagamenti-pagopa-prestatore-di-servizi-di-pagamento/funzionalita/canale/associazione-di-un-psp-al-canale.md)
+    * [Export configurazione stazioni EC](manuale-operativo-pagamenti-pagopa-prestatore-di-servizi-di-pagamento/funzionalita/export-configurazione-stazioni-ec/README.md)
+      * [API stazioni EC](manuale-operativo-pagamenti-pagopa-prestatore-di-servizi-di-pagamento/funzionalita/export-configurazione-stazioni-ec/api-stazioni-ec.md)
