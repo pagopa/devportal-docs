@@ -7,7 +7,7 @@ In questo tutorial vedremo in pochi passaggi come puoi configurare l’accesso a
 
 La prima cosa che dovrai fare è accedere all’area riservata in [produzione](https://selfcare.pagopa.it/)[ ](https://urldefense.com/v3/\_\_https:/selfcare.pagopa.it/\_\_;!!EJ3n55FBLexp1rhr!\_FsIroOd0kHtR7U6OVuZgB3Bpwp8zUWFauQWCl1uaUusbiib07erhRMlrsSoc9JhSCLdG1mVZSyXtYVckqbDFP5KMpqT4ObLPiw$)(e non di test),[ ](https://uat.selfcare.pagopa.it/)e creare l'utente del tecnico incaricato tramite la funzione "Crea Utente", associando ad esso il prodotto "Interoperabilità Collaudo" ed il ruolo "Amministratore":&#x20;
 
-<figure><img src="https://lh7-eu.googleusercontent.com/BGEK9eyXlrZbXHSmED6BPqMPqPjfMr7WSV-KT4l37AjFE-eXrvEjkVyL5eSkPCVMK0Ow6OXuTJxXciqGcLwSIgmepyMNLqotCxUzYdFpisf0ZVKeOB5Gt1V2a_N_bWEXyEGMNb4G3E6FWnqZ8-niuNI" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/send_pdnd_1.png" alt=""><figcaption></figcaption></figure>
 
 \
 Questa abilitazione come "Amministratore" viene fornita in ambiente Interoperabilità Collaudo pertanto non impatterà l'ambiente di Produzione.
@@ -24,7 +24,7 @@ L'utente del tecnico incaricato dovrà:
 
 A questo punto dovrai cercare l'e-service andando su Fruizione > Catalogo e-service:
 
-<figure><img src="https://lh7-eu.googleusercontent.com/-pysXwoxgwBZ8Q20goI7jmsF2n5H2Il_xPnYSYTH6q4KK8YPGx55nLcDHMEic41zab1X5YJPwfl4YXGVmxEJ-qdXHOQJYRIcdYmKmLcS6safoJbPMnMGbaepAoDfXCPqcOOwJQsrK0xlVByDFV2CK2Y" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/send_pdnd_2.png" alt="" width="366"><figcaption></figcaption></figure>
 
 Avvia la ricerca dell'e-service di SEND - UAT e clicca su Richiedi fruizione creando una bozza di richiesta dove inserire tutte le informazioni richieste, tra cui gli attributi, che si dividono in:
 
@@ -36,7 +36,7 @@ Puoi trovare [maggiori dettagli](https://docs.pagopa.it/interoperabilita-1/manua
 
 Quando la richiesta di fruizione è stata compilata con successo, clicca su "Inoltra richiesta di fruizione"
 
-<figure><img src="https://lh7-eu.googleusercontent.com/RKnc6N2EdO4rvHu6Era3BBx6K0ice5mZgYZ5WtkgX8ZrfNdcOMU7-B47TrJmSxurQaF9l-4vs5ajhXUKgP3z_OnfheUhFRMgQblCicVftpgnw36OAg_cL9_BQWLHBfk0C5Ku8pjzOaepa5iQMMs_YAY" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/send_pdnd_3.png" alt="" width="563"><figcaption></figcaption></figure>
 
 Una volta che la richiesta di fruizione è stata inviata, questa verrà esaminata dall'Erogatore che dovrà approvarla. È sempre possibile verificare lo stato delle richieste di fruizione presentate andando su Fruizione > Le tue richieste.
 
@@ -48,7 +48,7 @@ Puoi trovare [maggiori dettagli](https://docs.pagopa.it/interoperabilita-1/manua
 
 A seguito dell'approvazione della richiesta di fruizione per l'e-service di SEND - UAT è necessario creare una finalità andando su Fruizione > Le tue finalità e cliccando "Aggiungi".
 
-<figure><img src="https://lh7-eu.googleusercontent.com/_wpuR3ZT5m8sEockqwz65jCv3MTageKCuZxZVKaEAJn9t_BtqkAm4f1Eghiq6PXx6twmuE01g5331RDtowWwDue4CyILdD-VKfaqm62754Wrh-7P7EeyltrWPATzW-MNQvPKe0Z-nwwytsrFvc1khnk" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/send_pdnd_4.png" alt="" width="563"><figcaption></figcaption></figure>
 
 \
 Compilare tutti i dati che appaiono sul Form, in particolare:
@@ -72,12 +72,14 @@ Compilare tutti i dati che appaiono sul Form, selezionando tra gli operatori que
 Una volta creato un client, sarà possibile associarlo ad una finalità, entrando in Fruizione > Le tue finalità, poi nel tab "Client associati" cliccare su "Aggiungi"\
 
 
-<figure><img src="https://lh7-eu.googleusercontent.com/_wpuR3ZT5m8sEockqwz65jCv3MTageKCuZxZVKaEAJn9t_BtqkAm4f1Eghiq6PXx6twmuE01g5331RDtowWwDue4CyILdD-VKfaqm62754Wrh-7P7EeyltrWPATzW-MNQvPKe0Z-nwwytsrFvc1khnk" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/send_pdnd_5.png" alt="" width="563"><figcaption></figcaption></figure>
 
-Infine apparirà un menù a tendina che permette di selezionare i client da associare:\
+Infine apparirà un menù a tendina che permette di selezionare i client da associare:
+
+\
 
 
-<figure><img src="https://lh7-eu.googleusercontent.com/af3Vr3PGysd3v9DY1X74HuP4Fxial_ofVZwy2IIPkIAPPysEelUM7RhL1jv9zOZEBF_-H4um7-8l6-D4o7hYWnChW9BHBTSvr6O5jg0MMg9bCIwwHoyjM3sfblGTinK80eQdw-p91vXMK6PtJcKVnKI" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/send_pdnd_6.png" alt="" width="563"><figcaption></figcaption></figure>
 
 I client possono anche essere riutilizzabili su più finalità e modificati successivamente.
 
@@ -89,15 +91,15 @@ Puoi trovare [maggiori dettagli](https://docs.pagopa.it/interoperabilita-1/manua
 
 Prima di caricare una chiave pubblica, entra nella sezione **Fruizione > I tuoi client** seleziona "Ispeziona" sul client di riferimento ed assicurati che sia presente "**IL TOKEN PUÒ ESSERE STACCATO: SI**" come segue:
 
-<figure><img src="https://lh7-eu.googleusercontent.com/pWO2-4W5UsDXiOUxb_t5xAsJAOLCyoA20QuUcV5o5PoWtz8U-WBZ_MG0Oo_Ub9MA2hoYHuTBVJeb_gGLDfbw63V06wqzq1TK_LZfBcrW9uY9-orbhlZmIagl_9DO0ENRBUbXG7ytdSV2Z48afhDx6_E" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/send_pdnd_7.png" alt="" width="563"><figcaption></figcaption></figure>
 
 Poi accedi al tab "Chiavi pubbliche" e clicca su "Aggiungi"
 
-<figure><img src="https://lh7-eu.googleusercontent.com/fIeRVcwSgSqsQ8RrGYSYQ4LUUZl9TkmgNxtZT_l_aZl5_9b3bUyRGd4n5TD0y48wM4TrNYEixb9S9LnY-M5dlWti5Ukm6pxZi18FkCGWNHNEqdT5Pn6xeoacyudl0ygCEWXYHIMg9stdxIy8vIdb5Hk" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/send_pdnd_8.png" alt="" width="563"><figcaption></figcaption></figure>
 
 Apparirà un pop up che permette di inserire il nome e la chiave pubblica associata al client.
 
-<figure><img src="https://lh7-eu.googleusercontent.com/8jfXW5kUyRbdHTC4Ssm9IB2C6lHKgGM76AUlO5UWUGr0p4-1nR1eFN8c8NsLAOIfUkWxeGmsxP-g5MlThnLciKDYqikafI1wDiGnCS9T49Ze19QiFP5KdXoGRGSCERTBnZipPyUACHRhJ-G2DtSFsKA" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/send_pdnd_9.png" alt=""><figcaption></figcaption></figure>
 
 Per generare il materiale crittografico, bisogna aprire il terminale e incollare i comandi che seguono, uno alla volta:
 
@@ -121,7 +123,7 @@ A questo punto è necessario generare il Voucher da inserire come Authorization 
 
 Per prima cosa dovrai costruire una client assertion valida e firmarla con la tua chiave privata (che deve essere l'omologa della chiave pubblica depositata sul client su PDND Interoperabilità del punto sopra) come segue:
 
-<figure><img src="https://lh7-eu.googleusercontent.com/kA3Ew9en6IFLjamtAJw_J44W4G6hpxv48ohrX_ZlJQE2VOm6pzVEd6L3M459QQwf724nsoJ0bCkDxYgwLB5I3x7FEm1rj4tZtWgLP4Jgc679WYtxNQvIdibQkFX-ufvfWQqe-wMKA0VaIX-hgCkKDmo" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/send_pdnd_10.png" alt="" width="375"><figcaption></figcaption></figure>
 
 Nella prima pagina "Client assertion", potrai selezionare la chiave pubblica di riferimento e generare la client assertion con i comandi script che seguono:
 
