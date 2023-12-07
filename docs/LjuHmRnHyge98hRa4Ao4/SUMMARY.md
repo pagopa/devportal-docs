@@ -20,6 +20,7 @@
   * [Focus sull'attualizzazione della posizione debitoria](knowledge-base-di-piattaforma-notifiche/focus-sullattualizzazione-della-posizione-debitoria.md)
   * [PN-Test di validazione avvenuta integrazione con Piattaforma Notifiche](knowledge-base-di-piattaforma-notifiche/pn-test-di-validazione-avvenuta-integrazione-con-piattaforma-notifiche.md)
   * [Focus sulla validazione dei test con il tool PnValidator](knowledge-base-di-piattaforma-notifiche/focus-sulla-validazione-dei-test-con-il-tool-pnvalidator.md)
+* [🏷 Tassonomia SEND](tassonomia-send.md)
 * [Normalizzatore](normalizzatore.md)
 * [Modalità per simulare i casi di test in ambiente UAT](modalita-per-simulare-i-casi-di-test-in-ambiente-uat.md)
 * [Composizione degli indirizzi](composizione-degli-indirizzi.md)
