@@ -6,6 +6,8 @@ description: Codice tassonomia delle notifiche su SEND
 
 I codici tassonomici delle notifiche servono per classificare gli atti notificati contenuti nelle richieste inviate a SEND dalla PA mittenti.
 
+Se non trovi il codice tassonomico relativo all'atto da notificare contatta [account@pagopa.it](mailto:account@pagopa.it) per creare un codice per il caso d'uso non ancora censito.
+
 Il codice tassonomico è formato dalla concatenazione di tre parti: \
 _`<tipologia ente> <ambito> <tipologia atto>`_\
 seguita dalla lettera **P** se la notifica prevede un pagamento o dalla lettera **N** se la notifica non prevede un pagamento.
@@ -154,6 +156,18 @@ Ambiti e tipologia notifica - Regioni ed Enti Regionali:
 * `040101N` - **Notifica di concessione/diniego di cittadinanza**\
   Notifiche di atti relativi a procedimenti inerenti a richieste di cittadinanza \
   Codice: `040101N`
+
+## 05 - Previdenza
+
+### 0501 - Contributi
+
+* `050101P` - **Notifiche relative a Contributi verso l'ente previdenziale**\
+  Notifiche relative a Contributi verso l'ente previdenziale (es. Riscatti, Riccongiunzione e Rendite, Versamenti Volontari, Lavoratori Domestici)\
+  Codice: `050101P`
+
+
+
+
 
 [^1]: 
 
