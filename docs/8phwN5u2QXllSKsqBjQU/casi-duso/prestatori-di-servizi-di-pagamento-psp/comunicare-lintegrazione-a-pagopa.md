@@ -8,7 +8,7 @@ description: >-
 
 ## Usa correttamente il logo pagoPA
 
-* [x] Leggi le [Broken link](broken-reference "mention")
+* [x] Leggi le  [Specifiche Tecniche](../../specifiche-tecniche/il-logo-pagopa.md)
 * [x] Se devi progettare materiali di comunicazione, leggi le regole su [pubblicita-e-marketing.md](../materiali-di-comunicazione/pubblicita-e-marketing.md "mention")
 * [x] Se invece devi inserire il logo pagoPA nel tuo prodotto, utilizza il [badge-integrato-con-pagopa.md](../enti-partner-e-intermediari-tecnologici/badge-integrato-con-pagopa.md "mention")
 
