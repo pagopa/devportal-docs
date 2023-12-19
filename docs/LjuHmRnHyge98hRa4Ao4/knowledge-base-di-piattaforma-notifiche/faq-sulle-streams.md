@@ -28,7 +28,9 @@ SI. Questo concetto è valido anche per gli eventi di TIMELINE.
 
 ### E' meglio avere più stream filtrati, per inquadrare specifici eventi di interesse?
 
-SI, è consigliato generare uno o più stream applicando i filtri sugli eventi di status / timeline di maggior interesse, restando nel limite massimo di 5 stream per PA. Se invece si vogliono ottenere tutti gli eventi bisognerà inserire un filtro vuoto:**`"filterValues": []`**
+SI, è consigliato generare uno o più stream applicando i filtri sugli eventi di status / timeline di maggior interesse, restando nel limite massimo di 5 stream per PA. **\***Se invece si vogliono ottenere tutti gli eventi bisognerà inserire un filtro vuoto:**`"filterValues": []`**
+
+**\*Per retro compatibilità, inserendo questo campo vuoto lo stream di tipo TIMELINE restituirà gli eventi della versione GA 1.0, se si vogliono ottenere gli eventi di timeline introdotti dalle versioni successive sarà necessario indicare tutti gli eventi d'interesse nel campo `filterValues.`**
 
 ### Dopo aver creato uno stream ed inserite alcune notifiche, come posso vedere gli eventi da esse generati?
 
