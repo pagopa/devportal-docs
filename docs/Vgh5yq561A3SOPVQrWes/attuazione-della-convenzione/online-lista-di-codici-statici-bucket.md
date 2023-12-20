@@ -12,7 +12,13 @@ Sono previsti dei tempi tecnici successivi al caricamento del file contenente la
 
 L’esperienza per i beneficiari in App IO è  identica a quella del codice statico, ma per questa modalità è previsto un sistema di monitoraggio relativo al consumo dei codici sconto dalla lista, in modo tale da dare all’Operatore la possibilità di caricarne altri qualora la lista di codici sia vicino all’ esaurimento.
 
-Al raggiungimento delle soglie del 50%, 25%, 10% di codici residui, l’Operatore viene avvisato tramite e-mail e con dei messaggi all’interno del Portale, e invitato a caricare una nuova lista di codici per consentire la fruizione delle agevolazioni collegate. Qualora vengano esauriti tutti i codici relativi a una certa agevolazione, l'Operatore riceverà un nuovo messaggio via e-mail. L'agevolazione rimarrà visibile per un'ulteriore settimana, con lo stato "I codici sconto per questa agevolazione saranno presto disponibili". Se al termine dei 7 giorni l'Operatore non provvede a caricare i nuovi codici, l'agevolazione passerà in stato “bozza”, quindi non più visibile in App, e se questo accade per tutte le agevolazioni, l’Operatore stesso non sarà più mostrato tra i soggetti aderenti in App fino a nuovo caricamento della lista di codici.
+Al raggiungimento delle soglie del 50%, 25%, 10% di codici residui, l’Operatore viene avvisato tramite e-mail e con dei messaggi all’interno del Portale, e invitato a caricare una nuova lista di codici per consentire la fruizione delle agevolazioni collegate.&#x20;
+
+{% hint style="info" %}
+Si specifica che la "nuova" lista di codici verrà visualizzata solo dopo che saranno stati utilizzati tutti i codici precedentemente caricati.
+{% endhint %}
+
+Qualora vengano esauriti tutti i codici relativi a una certa agevolazione, l'Operatore riceverà un nuovo messaggio via e-mail. L'agevolazione rimarrà visibile per un'ulteriore settimana, con lo stato "I codici sconto per questa agevolazione saranno presto disponibili". Se al termine dei 7 giorni l'Operatore non provvede a caricare i nuovi codici, l'agevolazione passerà in stato “bozza”, quindi non più visibile in App, e se questo accade per tutte le agevolazioni, l’Operatore stesso non sarà più mostrato tra i soggetti aderenti in App fino a nuovo caricamento della lista di codici.
 
 L’identificazione del Beneficiario da parte dell’Operatore avviene secondo questi passaggi:&#x20;
 

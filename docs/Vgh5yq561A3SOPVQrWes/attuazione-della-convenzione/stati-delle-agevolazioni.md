@@ -16,6 +16,12 @@ L'esito del test può essere positivo o negativo. Quando l'esito viene registrat
 
 Lo stato **pubblicata** identifica le agevolazioni che sono visibili nell’App IO. La prima volta che un Operatore (che opera online) pubblica un’agevolazione, viene visualizzato un alert di conferma che chiede conferma dell’effettivo completamento delle procedure tecniche necessarie. L’Operatore può volontariamente riportare l’agevolazione in stato bozza o cancellarla nel caso di errori. La pubblicazione termina o per il raggiungimento della naturale scadenza dell’agevolazione o per sospensione operata dal Dipartimento.
 
+{% hint style="info" %}
+Le agevolazioni pubblicate sul portale **non saranno immediatamente visibili in app** in quanto esiste un ritardo temporale relativo all'aggiornamento delle viste.&#x20;
+
+L'entità di tale ritardo è variabile e può andare dalle **2 ore fino al massimo il giorno successivo** alla pubblicazione sul portale.&#x20;
+{% endhint %}
+
 Lo stato **sospesa**: il Dipartimento potrà, in ogni caso, durante il corso della Convenzione, sospendere una o più agevolazioni pubblicate e visibili nell’App IO che risultino non conformi a quanto dichiarato o perché applicate dall’Operatore in modo tale da renderle irrisorie o fittizie o comunque in contrasto con il contenuto o lo spirito del Programma, ovvero laddove vengano individuate come tali, in conseguenza delle segnalazioni pervenute dai Beneficiari o dei controlli svolti. La sospensione ha come conseguenza che le agevolazioni contrassegnate non saranno temporaneamente visibili nell’App IO. L’Operatore riceverà un’e-mail relativa alla sospensione in cui visualizza il motivo della sospensione. Per poter rendere di nuovo visibile l’agevolazione, l’Operatore dovrà modificarne i dettagli come richiesto e poi ri-pubblicarla.
 
 Lo stato **scaduta** viene assegnato automaticamente dal sistema alle agevolazioni che raggiungono la loro scadenza naturale. L’Operatore viene avvisato, tramite un’e-mail all’indirizzo del referente, della scadenza dell'agevolazione. Le agevolazioni scadute non sono più visibili sull’App IO. Per rendere nuovamente visibile un’agevolazione scaduta, l’Operatore può modificarne la data di scadenza e ri-pubblicarla.
