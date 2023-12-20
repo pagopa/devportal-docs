@@ -12,12 +12,11 @@ Il codice tassonomico è formato dalla concatenazione di tre parti: \
 _`<tipologia ente> <ambito> <tipologia atto>`_\
 seguita dalla lettera **P** se la notifica prevede un pagamento o dalla lettera **N** se la notifica non prevede un pagamento.
 
-La tipologia ente è suffivisa in:
+La tipologia ente è suddivisa in:
 
-* **Comuni**: codice 01
-* **Regioni ed enti regionali**: codice 02
-* **Enti riscossori**: codice 03
-* **Ministeri**: codice 04
+
+
+<table><thead><tr><th>Tipologia Ente</th><th width="100">Codice</th></tr></thead><tbody><tr><td><strong>Comuni</strong></td><td>01</td></tr><tr><td><strong>Regioni ed enti regionali</strong></td><td>02</td></tr><tr><td><strong>Enti riscossori</strong></td><td>03</td></tr><tr><td><strong>Ministeri</strong></td><td>04</td></tr><tr><td><strong>Previdenza</strong></td><td>05</td></tr><tr><td><strong>Servizio Sanitario Nazionale</strong></td><td>06</td></tr></tbody></table>
 
 Per ogni tipologia di ente sono individuati gli **ambiti** e all'interno dell'ambito la **tipologia  di notific**a.
 
@@ -164,6 +163,16 @@ Ambiti e tipologia notifica - Regioni ed Enti Regionali:
 * `050101P` - **Notifiche relative a Contributi verso l'ente previdenziale**\
   Notifiche relative a Contributi verso l'ente previdenziale (es. Riscatti, Riccongiunzione e Rendite, Versamenti Volontari, Lavoratori Domestici)\
   Codice: `050101P`
+
+## **06 - Servizio Sanitario Nazionale**
+
+### 0601 - Ticket
+
+* `060101P` - **Notifiche relative al Pagamento nei confronti della Sanità**\
+  Tutte le tipologie di notifiche che riagurdano il pagamento di una tassa per usufruire del servizio sanitario pubblico\
+  Codice: `060101P`\
+  \
+
 
 
 
