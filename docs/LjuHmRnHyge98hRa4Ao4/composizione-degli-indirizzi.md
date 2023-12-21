@@ -4,16 +4,10 @@ description: In questa pagina viene indicata la corretta formattazione degli ind
 
 # Composizione degli indirizzi
 
-## Corrispondenza CAP,PROVINCIA,_CITTA_
-
-Tutti gli indirizzi per essere accettati devono avere _CAP, PROV, CITTA'_ corrispondenti alla lista esposta a questa pagina:\
-[https://raw.githubusercontent.com/pagopa/pn-address-manager/develop/src/main/resources/PagoPA-ListaCLP.csv](https://urldefense.com/v3/\_\_https:/raw.githubusercontent.com/pagopa/pn-address-manager/develop/src/main/resources/PagoPA-ListaCLP.csv\_\_;!!EJ3n55FBLexp1rhr!\_ek4vvlMI1jIMryvmb4qH3a3H112MvLC0UZGOqD9vEiB-8dXgM0onhPQOo1REepEpJlqaeoXP5nxC1urMjDouwEyF6nt1bGgEIjHS375bw$)
-
 ## Regole sulla lunghezza
 
 * Riga1: **denomination** (massimo 44)
 * Riga2: **at** + " " + **municipalityDetails** (il totale non può superare 44)
-*
 * Riga3: **addressDetails** (massimo 44)
 * Riga4: **address** (massimo 44)
 * Riga5:
