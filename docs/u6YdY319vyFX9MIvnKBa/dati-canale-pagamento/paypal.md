@@ -107,3 +107,21 @@ N/A
 Sì
 {% endtab %}
 {% endtabs %}
+
+{% tabs %}
+{% tab title="Key" %}
+`email`
+{% endtab %}
+
+{% tab title="Tipo" %}
+Stringa
+{% endtab %}
+
+{% tab title="Dimensioni" %}
+N/A
+{% endtab %}
+
+{% tab title="Obbligatorio" %}
+No
+{% endtab %}
+{% endtabs %}
