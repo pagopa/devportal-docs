@@ -14,7 +14,7 @@ Ne consegue che **è escluso sia l’invio di comunicazioni massive** alla tota
 Non inserire informazioni personali o dati sensibili all'interno del titolo di un messaggio e assicurati che al suo interno ci siano solo i dati strettamente necessari.
 {% endhint %}
 
-### Messaggi Base e Premium
+### Tipologie di messaggi
 
 Esistono due tipologie di messaggi che si possono inviare su IO - Base e Premium - la cui disponibilità dipende dal contratto sottoscritto in fase di adesione.
 

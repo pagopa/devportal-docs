@@ -8,5 +8,5 @@ Gli enti che hanno sottoscritto un **contratto Premium**, possono inviare messag
 * devono avere un nome **chiaro e conciso**, per esempio "Modulo richiesta CIE", o "Menù mensa scolastica".
 
 {% hint style="info" %}
-Per maggiori informazioni sull'invio di messaggi con allegati, consulta la [sezione dedicata](http://127.0.0.1:5000/s/coSKRte21UjDBRWKLtEs/funzionalita/inviare-un-messaggio/aggiungere-allegati-premium/specifiche-degli-endpoint-di-recupero-degli-allegati) nella Guida tecnica di IO. Per maggiori informazioni su come creare allegati accessibili, [leggi questo documento](https://www.agid.gov.it/sites/default/files/repository\_files/linee\_guida\_accessibilita\_versione\_rettifica\_del\_23\_luglio\_2020\_002.pdf).&#x20;
+Per maggiori informazioni sull'invio di messaggi con allegati, consulta la [sezione dedicata ](https://app.gitbook.com/s/sUBZStlCQZzLI6ZesbND/funzionalita/inviare-un-messaggio/aggiungere-allegati-premium)nella Guida tecnica di IO. Per maggiori informazioni su come creare allegati accessibili, [leggi questo documento](https://www.agid.gov.it/sites/default/files/repository\_files/linee\_guida\_accessibilita\_versione\_rettifica\_del\_23\_luglio\_2020\_002.pdf).&#x20;
 {% endhint %}
