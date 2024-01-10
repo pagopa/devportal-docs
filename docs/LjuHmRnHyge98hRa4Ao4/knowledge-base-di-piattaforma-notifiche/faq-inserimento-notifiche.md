@@ -83,7 +83,7 @@ Il processo di invio della notifica si sviluppa attraverso 2 diversi workflow:
 
 ### Cos'è il codice di tassonomia (taxonomyCode)?
 
-Il codice di tassonomia `taxonomyCode` è utilizzato per definire la tipologia di atto notificato.
+Il codice di tassonomia `taxonomyCode` è un campo obbligatorio utilizzato per definire la tipologia di atto notificato.
 
 Per le notifiche relative all'asseverazione del Bando è definito nell'_allegato 2 capitolo C_ del bando: [AVVISO PUBBLICO MISURA 1.4.5 PIATTAFORMA NOTIFICHE DIGITALI](https://pnrrcomuni.fondazioneifel.it/bandi\_public/Bando/325)
 
