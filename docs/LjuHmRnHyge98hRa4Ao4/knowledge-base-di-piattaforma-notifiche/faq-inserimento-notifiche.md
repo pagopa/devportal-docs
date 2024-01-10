@@ -81,9 +81,13 @@ Il processo di invio della notifica si sviluppa attraverso 2 diversi workflow:
 * **Workflow Analogico**\
   Questo processo parte solo dopo aver verificato che il destinatario **NON** abbia nessun domicilio digitale e prevede l'invio all'indirizzo del destinatario inserito nel campo _recipients.physicalAddress_ con invio di raccomandata del tipo valorizzato in _physicalCommunicationType_
 
-### Cos'è il codice di tassonomia(taxonomyCode)?
+### Cos'è il codice di tassonomia (taxonomyCode)?
 
-Il codice di tassonomia(taxonomyCode) viene utilizzato per definire la tipologia di atto ed è definito nell'_allegato 2 capitolo C_ del bando: [AVVISO PUBBLICO MISURA 1.4.5 PIATTAFORMA NOTIFICHE DIGITALI](https://pnrrcomuni.fondazioneifel.it/bandi\_public/Bando/325)
+Il codice di tassonomia `taxonomyCode` è utilizzato per definire la tipologia di atto notificato.
+
+Per le notifiche relative all'asseverazione del Bando è definito nell'_allegato 2 capitolo C_ del bando: [AVVISO PUBBLICO MISURA 1.4.5 PIATTAFORMA NOTIFICHE DIGITALI](https://pnrrcomuni.fondazioneifel.it/bandi\_public/Bando/325)
+
+In generale l'elenco esaustivo dei codici tassonomici è pubblicato in [questa pagina.](../tassonomia-send.md)
 
 ### Come si individua il domicilio del destinatario di una notifica in base alla tipologia del destinatario (PF e PG)?
 
