@@ -20,3 +20,5 @@
       * [Modifica IBAN](manuale-operativo-back-office-pagopa-ente-creditore/funzionalita/gestione-iban/modifica-iban.md)
       * [Elimina IBAN](manuale-operativo-back-office-pagopa-ente-creditore/funzionalita/gestione-iban/elimina-iban.md)
       * [Caricamento Massivo IBAN](manuale-operativo-back-office-pagopa-ente-creditore/funzionalita/gestione-iban/caricamento-massivo-iban.md)
+      * [Esportazione Massiva IBAN](manuale-operativo-back-office-pagopa-ente-creditore/funzionalita/gestione-iban/esportazione-massiva-iban.md)
+    * [Matrice Ruoli / Funzionalità](manuale-operativo-back-office-pagopa-ente-creditore/funzionalita/matrice-ruoli-funzionalita.md)

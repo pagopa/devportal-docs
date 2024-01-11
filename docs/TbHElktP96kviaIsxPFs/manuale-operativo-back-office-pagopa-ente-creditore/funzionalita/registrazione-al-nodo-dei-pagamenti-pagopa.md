@@ -11,6 +11,16 @@ Il ruolo che ne possiede il **pieno potere** a livello di **operatività** è il
 
 Il **Referente Tecnico** possiede invece **pieno potere** a livello di **visualizzazione.**
 
+{% hint style="danger" %}
+Si precisa che la modalità di connessione al nodo "diretta" sta ad indicare che l'EC sceglie di connettersi direttamente al Nodo, utilizzando quindi le proprie infrastrutture ed i propri collegamenti. Avrà inoltre la possibilità di essere intermediario di altri EC indiretti e di associarli alle proprie stazioni attraverso la funzionalità [Associa EC](stazioni/associazione-di-un-ec-alla-stazione.md).
+
+Inoltre, una volta selezionata la modalità "diretta" non è possible da sistema cambiarla in "indiretta". Per fare ciò è necessario contattare l'assistenza tecnica.
+
+La modalità "indiretta" prevede invece che l'EC sarà connesso al nodo per il tramite di un EC "diretto" oppure di un Partner Tecnologico.
+
+![](../../.gitbook/assets/spaces\_TbHElktP96kviaIsxPFs\_uploads\_hL0lb3IbEe9mUYvUYQ9m\_image.webp)
+{% endhint %}
+
 ## Registrazione al Nodo: Ambiente di Collaudo
 
 Per procedere alla Registrazione al nodo, all'interno del box "E ora?" l'utente può **cliccare** sul tasto "**Completa registrazione** -->".
@@ -26,6 +36,8 @@ Indirizzo, Provincia, Domicilio Fiscale, Città e CAP, **all'interno** della **s
 Inoltre, l'utente oltre a dover procedere alla compilazione dei suddetti campi, è **tenuto** ad **esprimere** la scelta relativa alla **modalità** di **connessione** al **Nodo**. Tale scelta avviene **tramite** **selezione** **dell'opzione "Diretta"/"Indiretta"** all'interno della **sezione** **"Modalità di connessione al Nodo"**.
 
 <figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p><em>Registrazione al Nodo - da completare</em></p></figcaption></figure>
+
+
 
 #### Caso 1: Modalità di connessione al Nodo indiretta
 
