@@ -7,6 +7,10 @@ description: >-
 
 # API stazioni EC
 
+{% hint style="warning" %}
+L' API descritta in questa sezione, non essendo stata ancora rilasciata, è soggetta ad alcuni cambiamenti che verranno descritti e terminati nelle prossime settimane.
+{% endhint %}
+
 ## Descrizione
 
 L'api descritta in questa sezione si occupa di collezionare tutte le informazioni descritte all’interno della tabella che segue e le restituirà in output all’interno di un file in formato `csv`.
