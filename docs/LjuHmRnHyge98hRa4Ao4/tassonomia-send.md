@@ -84,6 +84,9 @@ Ambiti e tipologia notifica:
 
 ### 0108 - Riscossione Coattiva
 
+* `010801P` - **Comunicazioni relative a riscossioni coattive e ingiunzioni fiscali con pagamento**\
+  Notifica atti relativi a procedimenti di riscossione coattiva / ingiunzioni fiscali (es. preavviso fermo amministrativo, preavviso iscrizione ipoteca, avviso di intimazione)\
+  Codice: `010801P`
 * `010801N` - **Comunicazioni relative a riscossioni coattive e ingiunzioni fiscali senza pagamento**\
   Notifica atti relativi a procedimenti di riscossione coattiva / ingiunzioni fiscali (es. preavviso fermo amministrativo, preavviso iscrizione ipoteca, avviso di intimazione)\
   Codice: `010801N`
