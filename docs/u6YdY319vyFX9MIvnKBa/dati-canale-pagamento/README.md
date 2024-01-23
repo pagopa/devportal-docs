@@ -2,7 +2,7 @@
 
 Tramite la _pspNotifyPaymentV2_ viene inviata al PSP nel tag _additionalPaymentInformations_ una struttura che contiene i dati specifici del canale di pagamento utilizzato.
 
-Al momento sono censite 4 tipologie
+Al momento sono censite 5 tipologie
 
 {% content-ref url="credit-card.md" %}
 [credit-card.md](credit-card.md)
@@ -16,6 +16,10 @@ Al momento sono censite 4 tipologie
 [bancomatpay.md](bancomatpay.md)
 {% endcontent-ref %}
 
-{% content-ref url="postepay.md" %}
-[postepay.md](postepay.md)
+{% content-ref url="applepay.md" %}
+[applepay.md](applepay.md)
+{% endcontent-ref %}
+
+{% content-ref url="redirect.md" %}
+[redirect.md](redirect.md)
 {% endcontent-ref %}

@@ -1,4 +1,4 @@
-# Credit Card
+# Redirect
 
 {% tabs %}
 {% tab title="Key" %}
@@ -6,7 +6,17 @@
 {% endtab %}
 
 {% tab title="Tipo" %}
-Stringa con valore fisso _CP_
+Stringa di 4 byte con possibili valori
+
+`RBPR` : Conto BancoPosta Retail
+
+`RBPB` : Conto BancoPosta Impresa
+
+`RBPP` : Paga con Postepay
+
+`RPIC` : Pago in Conto Intesa
+
+`RBPS` : SCRIGNO Internet Banking
 {% endtab %}
 
 {% tab title="Dimensioni" %}
@@ -20,7 +30,7 @@ Sì
 
 {% tabs %}
 {% tab title="Key" %}
-`rrn`
+`idTransaction`
 {% endtab %}
 
 {% tab title="Tipo" %}
@@ -38,7 +48,7 @@ Sì
 
 {% tabs %}
 {% tab title="Key" %}
-`outcomePaymentGateway`
+`idPSPTransaction`
 {% endtab %}
 
 {% tab title="Tipo" %}
@@ -78,11 +88,11 @@ Sì
 {% endtab %}
 
 {% tab title="Tipo" %}
-Decimal
+Max 999999999.99
 {% endtab %}
 
 {% tab title="Dimensioni" %}
-Max 999999999.99
+Decimal
 {% endtab %}
 
 {% tab title="Obbligatorio" %}
@@ -118,48 +128,10 @@ Stringa
 {% endtab %}
 
 {% tab title="Dimensioni" %}
-Massimo 6 caratteri, spazi compresi.
-{% endtab %}
-
-{% tab title="Obbligatorio" %}
-Sì
-{% endtab %}
-{% endtabs %}
-
-{% tabs %}
-{% tab title="Key" %}
-`paymentGateway`
-{% endtab %}
-
-{% tab title="Tipo" %}
-Stringa
-{% endtab %}
-
-{% tab title="Dimensioni" %}
-Massimo 35 caratteri, spazi compresi.
-{% endtab %}
-
-{% tab title="Obbligatorio" %}
-No
-{% endtab %}
-{% endtabs %}
-
-
-
-{% tabs %}
-{% tab title="Key" %}
-`email`
-{% endtab %}
-
-{% tab title="Tipo" %}
-Stringa
-{% endtab %}
-
-{% tab title="Dimensioni" %}
 N/A
 {% endtab %}
 
 {% tab title="Obbligatorio" %}
-No
+Sì
 {% endtab %}
 {% endtabs %}

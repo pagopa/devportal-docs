@@ -10,6 +10,7 @@
   * [Credit Card](dati-canale-pagamento/credit-card.md)
   * [PayPal](dati-canale-pagamento/paypal.md)
   * [BancomatPay](dati-canale-pagamento/bancomatpay.md)
-  * [PostePay](dati-canale-pagamento/postepay.md)
+  * [ApplePay](dati-canale-pagamento/applepay.md)
+  * [Redirect](dati-canale-pagamento/redirect.md)
 * [Conto corrente alternativo](conto-corrente-alternativo.md)
 * [TARI-TEFA ordinaria 2023](tari-tefa-ordinaria-2023.md)
