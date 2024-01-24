@@ -12,6 +12,12 @@ description: >-
 
 <summary>Gennaio 2024</summary>
 
+### 1.0.74
+
+**24 gennaio**
+
+* Bug fixing
+
 ### 1.0.73
 
 **16 gennaio**
