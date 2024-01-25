@@ -12,12 +12,20 @@ Al momento sono censite 5 tipologie
 [paypal.md](paypal.md)
 {% endcontent-ref %}
 
+{% content-ref url="mybank.md" %}
+[mybank.md](mybank.md)
+{% endcontent-ref %}
+
 {% content-ref url="bancomatpay.md" %}
 [bancomatpay.md](bancomatpay.md)
 {% endcontent-ref %}
 
 {% content-ref url="applepay.md" %}
 [applepay.md](applepay.md)
+{% endcontent-ref %}
+
+{% content-ref url="google-pay.md" %}
+[google-pay.md](google-pay.md)
 {% endcontent-ref %}
 
 {% content-ref url="redirect.md" %}
