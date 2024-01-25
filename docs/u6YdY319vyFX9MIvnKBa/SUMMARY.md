@@ -9,6 +9,7 @@
 * [Dati canale pagamento](dati-canale-pagamento/README.md)
   * [Credit Card](dati-canale-pagamento/credit-card.md)
   * [PayPal](dati-canale-pagamento/paypal.md)
+  * [MyBank](dati-canale-pagamento/mybank.md)
   * [BancomatPay](dati-canale-pagamento/bancomatpay.md)
   * [ApplePay](dati-canale-pagamento/applepay.md)
   * [Redirect](dati-canale-pagamento/redirect.md)
