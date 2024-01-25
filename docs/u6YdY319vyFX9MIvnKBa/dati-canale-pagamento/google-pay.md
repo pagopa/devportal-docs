@@ -1,4 +1,4 @@
-# ApplePay
+# Google Pay
 
 {% tabs %}
 {% tab title="Key" %}
@@ -6,7 +6,7 @@
 {% endtab %}
 
 {% tab title="Tipo" %}
-Stringa con valore fisso _APPL_
+Stringa con valore fisso GOOG
 {% endtab %}
 
 {% tab title="Dimensioni" %}

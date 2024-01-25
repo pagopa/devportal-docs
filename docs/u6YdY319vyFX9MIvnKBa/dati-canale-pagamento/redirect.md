@@ -88,11 +88,11 @@ Sì
 {% endtab %}
 
 {% tab title="Tipo" %}
-Max 999999999.99
+Decimal
 {% endtab %}
 
 {% tab title="Dimensioni" %}
-Decimal
+Max 999999999.99
 {% endtab %}
 
 {% tab title="Obbligatorio" %}
