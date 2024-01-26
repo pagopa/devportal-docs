@@ -113,7 +113,33 @@ Per maggiori informazioni o per richiedere assistenza, contattaci tramite i cana
 
 </details>
 
+<details>
 
+<summary>Avviso di scadenza della Carta d'Identità</summary>
+
+**🖋 Titolo del messaggio:** Scadenza Carta d'Identità
+
+🗒 **Testo del messaggio**:&#x20;
+
+Oggi \<gg/mm/aaaa> è scaduta la tua Carta d'Identità \<numero>.
+
+Se non l'hai ancora fatto, puoi prenotare un appuntamento per il rinnovo, direttamente online online, al sito \[nome sito]\(URL), oppure presentarti all'Ufficio Anagrafe più vicino a te, verificando giorni e orari di apertura sul sito del tuo Comune.
+
+**🪄  Pulsante**: n/a
+
+**---**
+
+**Destinatari**: Cittadini in possesso di una Carta d'Identità
+
+**Quando inviarlo**: Il giorno della scadenza
+
+**User story**: <mark style="color:purple;">Come cittadino voglio essere avvisato quando scadrà il mio documento</mark>
+
+<mark style="color:purple;">**---**</mark>
+
+<mark style="color:purple;">ℹ️</mark> <mark style="background-color:yellow;">Il messaggio di preavviso della scadenza (a 180, 90 e 30 giorni) viene mandato dal servizio nazionale di ANPR. Si sconsiglia di duplicare l'invio con le stesse informazioni.</mark>
+
+</details>
 
 {% hint style="success" %}
 **Lo sapevi?**\
