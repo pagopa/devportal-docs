@@ -5,3 +5,4 @@
 * [Come avviare un esercizio come Ente Creditore su pagoPA](come-avviare-un-esercizio-come-ente-creditore-su-pagopa.md)
 * [Come richiedere pagamenti che contengono marca da bollo digitale](come-richiedere-pagamenti-che-contengono-marca-da-bollo-digitale.md)
 * [Come diventare Partner Tecnologico di PagoPA](come-diventare-partner-tecnologico-di-pagopa.md)
+* [Migrazione alla Nuova Connettività](migrazione-alla-nuova-connettivita.md)
