@@ -25,9 +25,9 @@
 
 
 Link inline alla pagina [delle Best Practices](https://app.gitbook.com/s/PJuzswk8l2kp9Wm5PwAW/prestatore-di-servizi-di-pagamento/modalita-di-integrazione/best-practice)\
-(qui nelle parentesi quadre troviamo il testo selezionato  ✅)&#x20;
+(questo è il componente **link** che punta a una _**pagina**_, creato selezionando il testo, e nelle parentesi quadre troviamo il testo selezionato  ✅)&#x20;
 
 
 
 link inline all'anchor [dedicato ai Payment Token](https://app.gitbook.com/s/PJuzswk8l2kp9Wm5PwAW/prestatore-di-servizi-di-pagamento/modalita-di-integrazione/best-practice#title-text) \
-(qui nelle parentesi quadre troviamo il testo selezionato ✅)
+(questo è il componente **link** che punta a un'_**anchor**_, creato selezionando il testo, e nelle parentesi quadre troviamo il testo selezionato  ✅)&#x20;
