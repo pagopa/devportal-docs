@@ -5,12 +5,12 @@
 
 
 [Best practice](https://app.gitbook.com/s/PJuzswk8l2kp9Wm5PwAW/prestatore-di-servizi-di-pagamento/modalita-di-integrazione/best-practice "mention") \
-(qui, nelle parentesi quadre troviamo il **nomefile.md** di destinazione 🔴)
+(questo è il componente **link** che punta a una _**pagina**_ e nelle parentesi quadre troviamo il **nomefile.md** di destinazione 🔴)
 
 
 
 [Payment Token](https://app.gitbook.com/s/PJuzswk8l2kp9Wm5PwAW/prestatore-di-servizi-di-pagamento/modalita-di-integrazione/best-practice#title-text "mention") \
-(qui, nelle parentesi quadre troviamo il titolo dell'heading di destinazione ✅)
+(questo è il componente **link** che punta a un _**anchor**_, e nelle parentesi quadre troviamo il titolo dell'heading di destinazione ✅)
 
 
 
@@ -18,7 +18,9 @@
 [Best practice](https://app.gitbook.com/s/PJuzswk8l2kp9Wm5PwAW/prestatore-di-servizi-di-pagamento/modalita-di-integrazione/best-practice)
 {% endcontent-ref %}
 
-(qui, nelle parentesi quadre troviamo il **nomefile.md** di destinazione 🔴)
+(questo è il componente **Page Link** che punta a una _**pagina**_ e nelle parentesi quadre mostra **nomefile.md** di destinazione 🔴)
+
+
 
 
 
