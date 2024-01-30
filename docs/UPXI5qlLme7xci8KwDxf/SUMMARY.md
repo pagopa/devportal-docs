@@ -1,15 +1,13 @@
 # Table of contents
 
-* 🏠 The service manual for the IO app
+* [🏠 The service manual for the IO app](README.md)
 * [🕐 Change history](history-of-the-changes.md)
 
 ## 🔵 The IO APP
 
-***
-
-* What is IO and what is its objective
+* [What is IO and what is its objective](the-io-app/what-is-io-and-what-is-its-objective.md)
 * [IO functions available to institutions](io-functions-available-to-institutions/README.md)
-  * Providing and publicizing services with IO
+  * [Providing and publicizing services with IO](the-io-app/io-functions-available-to-institutions/providing-and-publicizing-services-with-io.md)
   * [Informing citizens](io-functions-available-to-institutions/informing-citizens.md)
   * [Obtaining a payment](io-functions-available-to-institutions/obtaining-a-payment.md)
   * [Authenticating citizens with certainty](io-functions-available-to-institutions/authenticate-citizens-with-certainty.md)
