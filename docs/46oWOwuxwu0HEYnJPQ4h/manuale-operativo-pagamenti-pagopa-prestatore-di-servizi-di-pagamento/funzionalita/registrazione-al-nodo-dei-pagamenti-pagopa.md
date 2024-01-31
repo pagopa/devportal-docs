@@ -9,7 +9,15 @@ description: >-
 
 Il ruolo che ne possiede il **pieno potere** a livello di **operatività** è il **Responsabile Amministrativo.**
 
-### Registrazione al Nodo: Ambiente di Collaudo
+{% hint style="danger" %}
+Si precisa che la modalità di connessione al nodo "diretta" sta ad indicare che il PSP sceglie di connettersi direttamente al Nodo, utilizzando quindi le proprie infrastrutture ed i propri collegamenti. Avrà inoltre la possibilità di essere intermediario di altri PSP indiretti e di associarli ai propri canali attraverso la funzionalità [Associa PSP](canale/associazione-di-un-psp-al-canale.md)
+
+Inoltre, una volta selezionata la modalità "diretta" non è possibile da sistema cambiarla in "indiretta". Per fare ciò è necessario contattare l'assistenza tecnica.
+
+La modalità "indiretta" prevede invece che il PSP sarà connesso al nodo per il tramite di un PSP "diretto" oppure di un Partner Tecnologico. Affinché il Partner Tecnologico possa poi associare il PSP ad un canale è necessario che il PSP abbia concluso la procedura di registrazione al nodo indicata in questa sezione.
+{% endhint %}
+
+### Registrazione al Nodo
 
 Per procedere alla Registrazione al nodo, all'interno del box "E ora?" l'utente può **cliccare** sul tasto **"Completa registrazione -->"**.
 
@@ -87,11 +95,5 @@ L'utente, una volta completata la registrazione al Nodo **potrà** intervenire a
 * **Codice BIC:**  può **modificare** e aggiornare il codice **BIC.**
 * **Marca da bollo digitale:** può passare da marca **da** bollo digitale "**Attiva**" a "**Non Attiva**" e **viceversa**.
 * **Modalità di Connessione al Nodo:** questa scelta è **modificabile** **solo** se si intende passare **da** connessione **Indiretta** a **Diretta** e non viceversa, questo perchè potrebbero esserci dei rapporti di associazione in corso sui canali configurati.
-
-### Registrazione al Nodo: Ambiente di Produzione
-
-L'utente potrà procedere alla **registrazione** in **ambiente di produzione**, svolgendo le stesse azioni illustrate nella sezione Registrazione al Nodo: Ambiente di Collaudo.
-
-Anche in questo ambiente, l'utente **solo** dopo aver **completato la Registrazione**, può procedere all'esecuzione degli step successivi, come la Generazione delle API Key, che può avviare direttamente dalla Panoramica - box "E ora?" cliccando su tasto "**Genera API Key**", o accedendo alla **Sezione** **dedicata** "**API Key".**&#x20;
 
 ####

@@ -8,7 +8,7 @@ description: >-
 # Export configurazione stazioni EC
 
 {% hint style="info" %}
-La funzionalità verrà resa fruibile mediante l'esposizione di una API pubblica  a partire da Gennaio 2024.
+La funzionalità verrà resa fruibile mediante l'esposizione di una API pubblica  a partire da Febbraio 2024.
 
 Successivamente verrà aggiunta la possibilità di scaricare un file in formato `csv` da portale `Backoffice-pagoPA`.
 {% endhint %}
