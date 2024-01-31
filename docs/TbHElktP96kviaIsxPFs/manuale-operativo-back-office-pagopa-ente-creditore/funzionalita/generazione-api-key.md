@@ -29,14 +29,32 @@ Effettuando il click, si accede alla _Pagina di Selezione tipo di prodotto_
 
 Nella _Pagina di Selezione tipo di prodotto,_ tramite Il menu a tendina “Tipo di prodotto”, è possibile visualizzare l’elenco delle tipologie di prodotto per cui è necessario generare le chiavi_:_
 
+{% hint style="info" %}
+L'elenco di seguito è indicativo in quanto le tipologie di prodotto sono in continua evoluzione e potranno cambiare nel corso del tempo.
+{% endhint %}
+
 * **Connessione con nodo**
-* **Integrazione Asincrona**
-* **Recupero Ricevuta**
-* **Gestione Flussi di Rendicontazione**
+* **GPD - Posizioni Debitorie**
+* **GPD - Recupero Ricevute**
+* **GPD - Gestione Flussi di Rendicontazione**
+* **BIZ - Recupero Ricevute Ente Creditore**
+* **FdR  - Flussi di Rendicontazione (EC)**
 
-<figure><img src="../../.gitbook/assets/image (131).png" alt=""><figcaption><p><em>Generazione API Key: Selezione Tipo di Prodotto</em></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2024-01-23 alle 17.50.40.png" alt=""><figcaption><p><em>Generazione API Key: Selezione Tipo di Prodotto</em></p></figcaption></figure>
 
-#### **Connessione con nodo**
+{% hint style="info" %}
+La prossima sezione descrive il processo di generazione di una coppia di API Key per una tipologia di prodotto, la principale, ovvero la _**connessione con nodo**_.&#x20;
+
+Le altre tipologie di prodotto, per semplicità non descritte hanno rispettivamente i seguenti compiti:
+
+* _**GPD - Posizioni Debitorie**_ -> prodotto da utilizzare nell'ambito dell'_`integrazione asincrona`_per la gestione delle posizioni debitorie
+* _**GPD - Recupero ricevute**_ -> prodotto da utilizzare nell'ambito dell'_`integrazione asincrona`_per il recupero delle ricevute di pagamento
+* _**GPD - Gestione flussi di rendicontazione**_ -> prodotto da utilizzare nell'ambito dell'_`integrazione asincrona`_per la gestione dei flussi di rendicontazione da parte dei PSP
+* _**BIZ - Recupero ricevute Ente Creditore**_ -> prodotto da utilizzare nell'ambito dell'_`integrazione asincrona`_per il recupero delle ricevute di pagamento
+* _**FdR - Flussi di Rendicontazione**_ (EC) -> prodotto da utilizzare per recuperare i flussi di rendicontazione da parte dei PSP
+{% endhint %}
+
+**Connessione con nodo**
 
 _Questa API Key permette di connettersi al Nodo Pagamenti di PagoPA: azione propedeutica per tutte le ulteriori operazioni._
 
@@ -64,37 +82,7 @@ Per ogni campo contenente il codice API Key è possibile effettuare le seguenti 
 
 <figure><img src="../../.gitbook/assets/image (74).png" alt=""><figcaption><p><em>Pagina Vista API Key: tasto “Rigenera”</em></p></figcaption></figure>
 
-#### **Integrazione asincrona**
 
-Dopo aver generato la coppia di chiavi “Connessione con nodo”, al fine di svolgere tale operazione anche per gli altri prodotti, è necessario cliccare sul tasto “+ Genera API Key” e tornare alla _Pagina di Selezione tipo di prodotto_.
-
-Dal menu è possibile scegliere e selezionare una delle altre tre voci a disposizione, ad es. “**Integrazione asincrona**” e cliccare sul pulsante “Genera API Key”.
-
-<figure><img src="../../.gitbook/assets/image (88).png" alt=""><figcaption><p><em>Pagina di Selezione tipo di prodotto: Integrazione Asincrona</em></p></figcaption></figure>
-
-Se la chiave è stata generata correttamente, sarà possibile visualizzare nella _Pagina Vista API Key,_ il nuovo prodotto e la coppia di chiavi primaria e secondaria.
-
-Come già illustrato nella sezione Connessione con nodo, per ogni campo è possibile effettuare le azioni di gestione del codice tramite i comandi:
-
-* icona a forma di occhio;
-* il tasto "Usa questa chiave";
-* il tasto “Rigenera”.
-
-Per effettuare la generazione della coppia di chiavi relative prodotto "Recupero Ricevuta", è necessario cliccare sul tasto “Genera API Key” e tornare alla _Pagina Selezione tipo Prodotto_.
-
-#### **Recupero Ricevuta**
-
-Da qui è possibile selezionare la voce di menu **“Recupero Ricevuta”** e cliccare sul tasto “Genera API Key”.
-
-<figure><img src="../../.gitbook/assets/image (75).png" alt=""><figcaption><p><em>Pagina di Selezione tipo di prodotto: Recupero Ricevuta</em></p></figcaption></figure>
-
-Per effettuare la generazione della coppia di chiavi relative all'ultimo prodotto "Gestione Flussi di Rendicontazione", è necessario cliccare sul tasto “Genera API Key” e tornare alla _Pagina Selezione tipo Prodotto_.
-
-#### Gestione Flussi di Rendicontazione
-
-Da qui è possibile selezionare la voce di menu **“Gestione Flussi di Rendicontazione”** e cliccare sul tasto “Genera API Key”.
-
-<figure><img src="../../.gitbook/assets/image (94).png" alt=""><figcaption><p><em>Pagina di Selezione tipo di prodotto: Gestione Flussi di Rendicontazione</em></p></figcaption></figure>
 
 Completata la fase di generazione delle chiavi, nella _Pagina Vista API Key_ è possibile visualizzare i prodotti con la coppia di chiavi primaria e secondaria ad essi associate e i relativi comandi di gestione del codice.
 

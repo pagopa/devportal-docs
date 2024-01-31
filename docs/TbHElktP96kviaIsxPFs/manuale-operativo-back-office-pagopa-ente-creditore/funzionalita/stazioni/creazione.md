@@ -6,7 +6,7 @@ description: >-
 
 # Creazione
 
-### **Sezione Canale: Creazione - Ambiente di Collaudo**
+### **Sezione Canale: Creazione**
 
 All’interno del **Back office pagoPA** è possibile accedere alla **sezione Stazioni** cliccando sulla **voce di menu "Stazioni"**.
 
@@ -33,28 +33,27 @@ Al click su **"Crea Stazione"** l'utente può accedere alla _Pagina di dettaglio
 
 I soli campi valorizzati sono quelli della sezione **Anagrafica.**&#x20;
 
-Per quanto riguarda la sezione **Target**, la **compilazione** del relativo campo è **subordinata** alla **tipologia** di **stazione** che si intende creare. In particolare, è possibile configurare **due tipologie** di stazioni:
+A seconda della configurazione della stazione, vecchio modello 1, oppure nuovo modello unico sarà necessario valorizzare i campi nel modo seguente:
 
-* **Stazione asincrona**: in questo caso l'utente non deve inserire alcun valore per il campo endpoint.
-* **Stazione sincrona**: in questo caso l'utente è tenuto a specificare l'endpoint.
+_**Modello 1**_&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (174).png" alt=""><figcaption><p><em>Pagina di Configurazione della Stazione</em></p></figcaption></figure>
+* _`Endpoint RT`_: inserire la url dell'endpoint del servizio RT : Rappresenta la URL del servizio esposto dall'EC utilizzato per la ricezione delle RT inviate dal Nodo dei Pagamenti
+* _`Endpoint Redirect`_: inserire la url dell'endpoint del servizio Redirect
+
+_**Modello Unico**_
+
+* _`Endpoint:`_ inserire la url dell'endpoint unico
+* _`Versione primitive:`_selezionare dal menu a tendina la versione delle primitive da utilizzare (1 o 2)
+
+{% hint style="info" %}
+Se si sta configurando una stazione asincrona non è necessario specificare alcun endpoint
+{% endhint %}
+
+<figure><img src="../../../.gitbook/assets/image (200).png" alt=""><figcaption><p><em>Pagina di Configurazione della Stazione</em></p></figcaption></figure>
 
 Nel momento in cui la compilazione è **completata,** è possibile cliccare sul tasto **"Conferma".**
 
-<figure><img src="../../../.gitbook/assets/image (175).png" alt=""><figcaption><p><em>Pagina di Configurazione della Stazione - Conferma</em></p></figcaption></figure>
-
-
-
-Una volta aver cliccato sul tasto "Conferma", l'**utente** attiverà la stazione e verrà **reindirizzato** alla **Pagina Vista Stazioni** in cui potrà visualizzarla in stato **Attivo**.
-
-<figure><img src="../../../.gitbook/assets/image (176).png" alt=""><figcaption><p><em>Pagina Lista Stazioni - Stazione creata</em></p></figcaption></figure>
-
-### Sezione Stazioni: Creazione - Ambiente di Produzione&#x20;
-
-L'utente può eseguire la **creazione** della **stazione** in **ambiente** di **produzione** svolgendo le stesse azioni illustrate nella sopra indicata Sezione Stazioni: Creazione - Ambiente di Collaudo.&#x20;
-
-A differenza dell'ambiente di collaudo però, una volta aver completato la compilazione dei campi della Pagina di dettaglio, **è necessario ottenere la validazione di tali dati**.&#x20;
+Una volta aver completato la compilazione dei campi della Pagina di dettaglio, **è necessario ottenere la validazione di tali dati**.&#x20;
 
 Ciò significa che l'utente, cliccando sul tasto "Conferma" **non** otterrà l'**immediata attivazione** della stazione, ma **invierà** una **richiesta** di attivazione **all'operatore PagoPA**, come illustrato di seguito nel dettaglio.
 
@@ -64,7 +63,7 @@ _Consente di inviare i dati di configurazione della stazione, contenuti nella Pa
 
 Una volta aver confermato i dati, viene mostrato un messaggio informativo in cui si comunica all'utente che cliccando sul tasto "Invia"  i dati salvati verranno inviati ad un operatore PagoPA per la revisione. Ad **approvazione avvenuta** l'utente riceverà una **notifica**.
 
-Cliccando sul tasto "**Invia**", inoltre, verrà inviata una notifica all'operatore che procederà alla revisione. (TBD)
+Cliccando sul tasto "**Invia**", inoltre, verrà inviata una notifica all'operatore che procederà alla revisione.&#x20;
 
 Altrimenti è necessario cliccare su "Torna indietro" per tornare alla _Pagina di dettaglio della stazione._
 
@@ -73,3 +72,8 @@ Altrimenti è necessario cliccare su "Torna indietro" per tornare alla _Pagina d
 Una volta aver cliccato su tasto "Invia", l'utente verrà reindirizzato alla _Pagina Vista Stazioni_ in cui potrà visualizzare nella tabella la stazione appena configurata, che risulterà nello stato **In revisione** (la stazione è stata creata, ma in attesa di revisione da parte di PagoPA).&#x20;
 
 <figure><img src="../../../.gitbook/assets/image (177).png" alt=""><figcaption><p><em>Pagina Lista Stazioni Prod - Stazione In revisione</em></p></figcaption></figure>
+
+Una volta completata la revisione da parte degli Operatori PagoPA la stazione diverrà "Attiva" e potrà essere utilizzata.
+
+<figure><img src="../../../.gitbook/assets/image (176).png" alt=""><figcaption><p><em>Pagina Lista Stazioni - Stazione creata</em></p></figcaption></figure>
+

@@ -20,15 +20,15 @@ I dati esportati fanno riferimento a tutte le modifiche intercorse il giorno pre
 
 I dati che vengono esportati sono i seguenti:
 
-| Nome Campo          | Descrizione                                                      |
-| ------------------- | ---------------------------------------------------------------- |
-| denominazioneEnte   | denominazione dell'Ente Creditore                                |
-| codiceFiscale       | codice fiscale dell'Ente Creditore                               |
-| iban                | IBAN                                                             |
-| stato               | stato di attivazione dell'IBAN                                   |
-| dataAttivazioneIban | data di attivazione dell'IBAN                                    |
-| descrizione         | eventuale descrizione dell'IBAN                                  |
-| etichetta           | etichetta che identifica se l'IBAN è di tipo "Stand IN" o "CUP". |
+| Nome Campo          | Descrizione                                                                                                                                                     |
+| ------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| denominazioneEnte   | denominazione dell'Ente Creditore                                                                                                                               |
+| codiceFiscale       | codice fiscale dell'Ente Creditore                                                                                                                              |
+| iban                | IBAN                                                                                                                                                            |
+| stato               | stato di attivazione dell'IBAN                                                                                                                                  |
+| dataAttivazioneIban | data di attivazione dell'IBAN (coincide con il campo "data inizio" che si valorizza in fase di inserimento come descritto in [Aggiungi Iban](aggiungi-iban.md)) |
+| descrizione         | eventuale descrizione dell'IBAN                                                                                                                                 |
+| etichetta           | etichetta che identifica se l'IBAN è di tipo "Stand IN" o "CUP".                                                                                                |
 
 Un esempio di file csv prodotto è il seguente:
 

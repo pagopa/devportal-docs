@@ -7,7 +7,13 @@ description: >-
 
 # Associazione di un EC alla Stazione
 
-## Sezione Stazione: Associazione - Ambiente di Collaudo
+{% hint style="warning" %}
+Nota: qualora un _**Intermediario**_ o _**Partner Tecnologico**_ volesse associare un EC ad una Stazione è necessario che l'EC abbia completato la fase di [registrazione al nodo dei pagamenti](../registrazione-al-nodo-dei-pagamenti-pagopa.md). In caso contrario otterrà un errore e non potrà procedere con l'associazione.
+
+![](<../../../.gitbook/assets/Screenshot 2024-01-29 alle 14.51.20 (2).png>)
+{% endhint %}
+
+## Sezione Stazione: Associazione
 
 Se l'EC ha scelto di mettersi a disposizione come intermediario, l'utente **cliccando** sui **3 puntini** accanto lo Stato **"Attivo**", visualizzerà oltre alle voci "Gestisci Stazioni" e "Duplica", anche la voce **"Gestisci EC"** che gli consente di accedere alla _Pagina Gestione EC_ da cui potrà avviare tutte le azioni di gestione degli EC associati a quella stazione.
 
@@ -20,12 +26,13 @@ Selezionando la voce **"Gestisci EC"**, l'utente può accedere alla _Pagina "Ges
 Nel caso in cui l'intermediario abbia già **associato EC alla stazione**, l'utente nella suddetta _Pagina_ visualizzerà l'elenco di questi sotto forma di tabella:&#x20;
 
 * Nome EC: Ragione sociale
+* Codice Fiscale
 * Auxdigit
 * Segregation code
 * Application code
 * Broadcast: Attivo/Non attivo
 
-<figure><img src="../../../.gitbook/assets/image (29).png" alt=""><figcaption><p><em>Pagina Gestione EC - tabella lista EC</em></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2024-01-23 alle 17.35.07.png" alt=""><figcaption><p><em>Pagina Gestione EC - tabella lista EC</em></p></figcaption></figure>
 
 Dalla pagina Gestione EC è possibile associare alla stazione un EC **cliccando** sul tasto  **"+ Associa EC".**
 
@@ -35,8 +42,18 @@ A questo punto l'utente potrà **accedere** alla pagina **"Associa EC"** nella q
 
 In particolare l'utente è tenuto a **specificare** i seguenti dati:
 
-* **Ente da associare**: barra di ricerca all'interno della quale l'utente potrà selezionare, tra tutti gli enti che lo hanno scelto come intermediario, quello che intende associare alla stazione.
+* **Ente da associare**: barra di ricerca all'interno della quale l'utente potrà selezionare, tra tutti gli enti che lo hanno scelto come intermediario, quello che intende associare alla stazione.&#x20;
+
+{% hint style="info" %}
+E' possibile cercare l'EC da associare sia mediante ragione sociale che per codice fiscale.
+{% endhint %}
+
 * **Parametri di associazione**: aux digit già precompilato e non editabile; codice segregazione da scegliere tra quelli disponibili dall'apposito menu a tendina
+
+{% hint style="info" %}
+Per maggiori info fare riferimento a [https://docs.pagopa.it/saci/specifiche-attuative-dei-codici-identificativi-di-versamento-riversamento-e-rendicontazione/generazione-dellidentificativo-univoco-di-versamento](https://docs.pagopa.it/saci/specifiche-attuative-dei-codici-identificativi-di-versamento-riversamento-e-rendicontazione/generazione-dellidentificativo-univoco-di-versamento)
+{% endhint %}
+
 * **Broadcast**: flag attraverso cui è possibile impostarlo come attivo o disattivo.
 
 <figure><img src="../../../.gitbook/assets/image (32).png" alt=""><figcaption><p><em>Associa intermediario - Conferma</em></p></figcaption></figure>
@@ -59,9 +76,7 @@ Una volta aver cliccato su "Conferma" l'utente verrà reindirizzato alla pagina 
 
 <figure><img src="../../../.gitbook/assets/image (36).png" alt=""><figcaption><p><em>Pagina Gestione EC - tabella elenco EC - Ec dissociato con successo</em></p></figcaption></figure>
 
-## Sezione Stazione: Associazione - Ambiente di Produzione
 
-L'utente può eseguire l'associazione/dissociazione di un EC alla **stazione** in **ambiente di produzione** svolgendo le stesse azioni illustrate nella sopra indicata _Sezione Stazione: Associazione - Ambiente di Collaudo._
 
 
 

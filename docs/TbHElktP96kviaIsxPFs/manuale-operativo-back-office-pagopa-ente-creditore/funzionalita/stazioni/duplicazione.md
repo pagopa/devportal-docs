@@ -7,7 +7,7 @@ description: >-
 
 # Duplicazione
 
-## Sezione Stazione: Duplicazione - Ambiente di Collaudo
+## Sezione Stazione: Duplicazione
 
 All'interno della _Pagina "Vista Stazioni",_ l'utente cliccando sui **3 puntini** accanto lo Stato **"Attivo"**, ha la possibilità di selezionare la voce **"Duplica"** accedendo così alla _Pagina di Configurazione della Stazione._&#x20;
 
@@ -15,19 +15,13 @@ All'interno della _Pagina "Vista Stazioni",_ l'utente cliccando sui **3 puntini*
 
 Da qui l'utente, ha la possibilità di sostituire i dati all'interno dei campi per effettuare la creazione della nuova stazione.&#x20;
 
-All'interno del form, l'utente può visualizzare **tutti i campi già valorizzati** dei dati **inseriti** in fase di creazione della stazione. I **campi** relativi alla sezione **"Anagrafica"** **non** saranno **editabili**, mentre sarà modificabile il **"Target"**.&#x20;
+All'interno del form, l'utente può visualizzare **tutti i campi già valorizzati** dei dati **inseriti** in fase di creazione della stazione. I **campi** relativi alla sezione **"Anagrafica"** **non** saranno **editabili**, mentre saranno modificabili gli "**Endpoint**" (sia quelli della configurazione "`Modello 1`" che "`Modello Unico`")&#x20;
 
 Se si intende creare una nuova stazione, al termine della compilazione, è possibile cliccare sul tasto **"Conferma"**.
 
 <figure><img src="../../../.gitbook/assets/image (183).png" alt=""><figcaption><p><em>Pagina di configurazione della stazione</em></p></figcaption></figure>
 
-Una volta aver cliccato sul tasto "Conferma", l'utente attiverà la nuova stazione e verrà reindirizzato alla _Pagina Vista Stazioni_ in cui potrà visualizzarla in stato **Attivo**.
-
-## Sezione Canale: Duplicazione - Ambiente di Produzione
-
-L'utente può eseguire la **duplicazione della stazione** in **ambiente di produzione** svolgendo le stesse azioni illustrate nella sopra indicata _Sezione Stazioni: Duplicazione - Ambiente di Collaudo._&#x20;
-
-A differenza dell'ambiente di collaudo però, una volta aver completato la compilazione dei campi della P_agina di dettaglio,_ **è necessario ottenere la validazione di tali dati.**
+Una volta aver completato la compilazione dei campi della P_agina di dettaglio,_ **è necessario ottenere la validazione di tali dati.**
 
 Quindi, una volta che l'utente avrà cliccato sul tasto "Conferma" non otterrà l'immediata attivazione della stazione, ma invia una richiesta di attivazione all'operatore PagoPA, come illustrato di seguito nel dettaglio.
 
