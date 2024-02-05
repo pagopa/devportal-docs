@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Documentazione Tecnica](README.md)
+* [Carta Giovani Nazionale -  Documentazione Tecnica](README.md)
 * [Storico delle modifiche](storico-delle-modifiche.md)
 * [Premessa](premessa.md)
 * [Adesione al programma](adesione-al-programma.md)
