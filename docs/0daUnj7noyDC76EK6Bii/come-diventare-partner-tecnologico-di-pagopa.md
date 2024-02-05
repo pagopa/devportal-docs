@@ -99,6 +99,6 @@ Una volta forniti delle anagrafiche e nel momento in cui PagoPA inserisce i dati
 
 ### Riferimenti utili
 
-* [Template ICA](https://github.com/pagopa/pagopa-api/blob/develop/general/InformativaContoAccredito\_1\_2\_1.xsd)
+* [Template ICA](https://github.com/pagopa/pagopa-api/blob/master/xsd-common/InformativaContoAccredito\_1\_2\_1.xsd)
 * [Piano di Test](https://github.com/pagopa/lg-pagopa-docs/raw/master/documentazione\_tecnica\_collegata/adesione/Piano\_test\_EC.docx)
 * [Checklist (PDF 51Kb)](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F0daUnj7noyDC76EK6Bii%2Fuploads%2FvK72slLVISGfTAVIRvQh%2FChecklist%20-%20Partner%20Tecnologico%20PagoPA.pdf?alt=media\&token=507ce3b9-e755-434b-9617-233ebfd29442)
