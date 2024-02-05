@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Documentazione Tecnica](README.md)
+* [Carta Giovani Nazionale -  Documentazione Tecnica](README.md)
 * [Premessa](premessa.md)
 * [Adesione al programma](adesione-al-programma.md)
 * [Condizioni e requisiti minimi richiesti all'Operatore](condizioni-e-requisiti-minimi-richiesti-alloperatore.md)
