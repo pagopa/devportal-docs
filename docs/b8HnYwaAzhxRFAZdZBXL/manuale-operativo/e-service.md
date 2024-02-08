@@ -108,7 +108,7 @@ L'e-service creato da questo clone non sarà pubblicato immediatamente, sarà me
 La funzionalità di filtraggio ed evasione granulare delle finalità sopra soglia è attualmente in sviluppo e sarà disponibile a breve
 {% endhint %}
 
-Quanto un erogatore crea una nuova versione di e-service, deve indicare due soglie di tolleranza per la propria infrastruttura. La prima indica il numero di chiamate API al giorno permesse al singolo fruitore; la seconda la soglia totale data dalla somma delle chiamate di tutti i fruitori.
+Quando un erogatore crea una nuova versione di e-service, deve indicare due soglie di tolleranza per la propria infrastruttura. La prima indica il numero di chiamate API al giorno permesse al singolo fruitore; la seconda la soglia totale data dalla somma delle chiamate di tutti i fruitori.
 
 Il fruitore che ha una richiesta di fruizione attiva per una versione di e-service potrà continuare a dichiarare finalità fino al raggiungimento della prima o della seconda soglia. Una volta superata una delle due soglie, le nuove finalità non saranno più approvate automaticamente da PDND Interoperabilità. L'erogatore troverà in _Erogazione > Finalità_ l'elenco delle finalità presentate dai fruitori e potrà filtrarle per quelle che sono sopra soglia e dunque in attesa di approvazione.
 

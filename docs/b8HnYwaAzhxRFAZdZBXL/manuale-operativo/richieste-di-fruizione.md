@@ -31,7 +31,7 @@ L'erogatore trova tutte le richieste di fruizione pervenute dai fruitori per i s
 
 ### Erogatore: rifiutare una richiesta di fruizione
 
-Oltre ad attivarla, l'erogatore ha la possibilità di rifiutare una richiesta di fruizione se, a suo giudizio, il fruitore ha dimostrato di possedere tutti i requisiti necessari all'accesso. Per farlo, potrà cliccare su _Rifiuta_ e inserire la motivazione del rifiuto. Sarà facoltà del fruitore eventualmente presentare una nuova richiesta aggiornando la documentazione e/o le motivazioni.
+Oltre ad attivarla, l'erogatore ha la possibilità di rifiutare una richiesta di fruizione se, a suo giudizio, il fruitore ha dimostrato di non possedere tutti i requisiti necessari all'accesso. Per farlo, potrà cliccare su _Rifiuta_ e inserire la motivazione del rifiuto. Sarà facoltà del fruitore eventualmente presentare una nuova richiesta aggiornando la documentazione e/o le motivazioni.
 
 ### Fruitore: aggiornare una richiesta di fruizione
 
@@ -39,7 +39,7 @@ Ogni richiesta di fruizione è fortemente legata alla versione di e-service per 
 
 Nel momento in cui il fruitore, unilateralmente, decide di aggiornare la richiesta di fruizione alla versione più recente dell'e-service tutte le sue finalità saranno migrate, e da quel momento utilizzeranno la nuova versione. L'operazione è irreversibile.
 
-Bisogna prestare particolare attenzione: l'aggiornamento della versione dell'e-service da parte dell'erogatore in genere prevede estensioni ma anche modifiche all'API esposta. Questo significa che, se si effettua in aggiornamento "alla leggera", è possibile che alcuni servizi del fruitore interrompano il servizio verso i propri utenti finali. Si ricorda che è sempre a disposizione l'ambiente di test per fare delle prove prima di portare eventuali aggiornamenti in produzione.
+Bisogna prestare particolare attenzione: l'aggiornamento della versione dell'e-service da parte dell'erogatore in genere prevede estensioni ma anche modifiche all'API esposta. Questo significa che, se si effettua un aggiornamento "alla leggera", è possibile che alcuni servizi del fruitore interrompano il servizio verso i propri utenti finali. Si ricorda che è sempre a disposizione l'ambiente di test per fare delle prove prima di portare eventuali aggiornamenti in produzione.
 
 ### Sospendere o riattivare una richiesta di fruizione
 

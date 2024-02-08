@@ -4,7 +4,7 @@
 
 PDND Interoperabilità mette a disposizione dei suoi aderenti due ambienti, collaudo e produzione. Non c'è bisogno da parte dell'aderente di fare alcuna operazione aggiuntiva a valle dell'adesione, i due ambienti saranno attivati automaticamente.
 
-La differenza principale è che nell'ambiente di collaudo **si devono usare solo usare dati fittizi**, e serve per testare l'integrazione tra aderenti, oppure ad un singolo aderente per verificare la propria integrazione con PDND Interoperabilità. A questo proposito, si ricorda che è possibile per un aderente iscriversi anche agli e-service dei quali si è erogatori.&#x20;
+La differenza principale è che nell'ambiente di collaudo **si devono usare solo dati fittizi**, e serve per testare l'integrazione tra aderenti, oppure ad un singolo aderente per verificare la propria integrazione con PDND Interoperabilità. A questo proposito, si ricorda che è possibile per un aderente iscriversi anche agli e-service dei quali si è erogatori.&#x20;
 
 Nell'ambiente di produzione gli e-service ai quali ci si iscrive erogheranno dati reali.
 
