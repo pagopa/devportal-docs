@@ -10,6 +10,19 @@ description: >-
 
 <details>
 
+<summary>Febbraio 2024</summary>
+
+### 1.0.77
+
+**8 febbraio**
+
+* Automazione per l'estrazione delle metriche relative ai token per la dashboard pubblica
+* Bug fixing
+
+</details>
+
+<details>
+
 <summary>Gennaio 2024</summary>
 
 ### 1.0.75 e 1.0.76
