@@ -47,7 +47,7 @@ Una volta forniti delle anagrafiche e nel momento in cui PagoPA inserisce i dati
     * fornire l’Informativa Conto Accredito per indicare gli IBAN di accredito che l’Ente intende utilizzare in fase di Collaudo (vedi Template ICA).
 
 
-5.  **Esecuzione procedure di test in ambiente di Test Esterno**: il Partner Tecnologico deve eseguire le procedure di test indicate nel Piano (vedi Piano di Test) e dopo averlo compilato nelle modalità richieste, deve procedere con l’invio alle seguenti caselle di posta elettronica: helpdesk@pagopa.it e operations@pagopa.it .\
+5.  **Esecuzione procedure di test in ambiente di Test Esterno**: il Partner Tecnologico deve eseguire le procedure di test indicate nel Piano (vedi Piano di Test) e dopo averlo compilato nelle modalità richieste, deve procedere con l’invio alle seguenti caselle di posta elettronica: [helpdesk@pagopa.it ](<mailto:helpdesk@pagopa.it >)e [operations@pagopa.it ](<mailto:operations@pagopa.it >).\
 
 
 
@@ -77,7 +77,7 @@ Una volta forniti delle anagrafiche e nel momento in cui PagoPA inserisce i dati
     * Configurare sulla stazione di Esercizio l’Ente “pilota”, indicando aux digit = 3 (obbligatorio) e codice di segregazione (a scelta tra 00 e 48);
     * Fornire l’Informativa Conto Accredito per indicare gli IBAN di accredito che l’Ente intende utilizzare in fase di Pre-Esercizio (vedi Template ICA).\
 
-7.  **Esecuzione procedure di test in ambiente di Pre-Esercizio:** il Partner Tecnologico deve eseguire le procedure di test indicate nel Piano (vedi Piano di Test) e dopo averlo compilato nelle modalità richieste, deve procedere con l’invio alle seguenti caselle di posta elettronica: helpdesk@pagopa.it e operations@pagopa.it . \
+7.  **Esecuzione procedure di test in ambiente di Pre-Esercizio:** il Partner Tecnologico deve eseguire le procedure di test indicate nel Piano (vedi Piano di Test) e dopo averlo compilato nelle modalità richieste, deve procedere con l’invio alle seguenti caselle di posta elettronica: [helpdesk@pagopa.it ](<mailto:helpdesk@pagopa.it >)e [operations@pagopa.it ](<mailto:operations@pagopa.it >).\
     \
 
 
@@ -95,7 +95,7 @@ Una volta forniti delle anagrafiche e nel momento in cui PagoPA inserisce i dati
 
 
 8. **Manleva (garanzia) per abilitazione all'Esercizio**: completate tutte le attività, sia in ambiente di Test Esterno che di Pre-Esercizio, il Referente Tecnico dovrà compilare debitamente e firmare digitalmente il documento di Manleva che gli verrà fornito da PagoPA. \
-   Il Referente Tecnico provvederà ad inviare, alla casella di posta elettronica operations@pagopa.it il documento di Manleva completato come richiesto.
+   Il Referente Tecnico provvederà ad inviare, alla casella di posta elettronica [operations@pagopa.it](mailto:operations@pagopa.it) il documento di Manleva completato come richiesto.
 
 ### Riferimenti utili
 
