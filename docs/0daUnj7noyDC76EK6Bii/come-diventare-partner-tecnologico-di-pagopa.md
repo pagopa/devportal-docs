@@ -67,7 +67,7 @@ Una volta forniti delle anagrafiche e nel momento in cui PagoPA inserisce i dati
 
 
 
-6.  **Configurazione ambiente di Pre-Esercizio**: accedendo con le proprie credenziali al PdA, il Referente Tecnico del Partner Tecnologico dovrà richiedere a PagoPA:In caso di attivazione del modello di pagamento presso il PSP (Pagamento con Avviso) il Piano di Test prevede che venga fornito un esempio di Avviso di Pagamento, così che se ne possa verificare la rispondenza con gli standard previsti.
+6.  **Configurazione ambiente di Pre-Esercizio**: accedendo con le proprie credenziali al PdA, il Referente Tecnico del Partner Tecnologico dovrà richiedere a PagoPA:
 
     * la configurazione di un collegamento fisico di Esercizio;
     * la configurazione di una stazione di Esercizio.
