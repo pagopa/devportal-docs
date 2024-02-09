@@ -56,7 +56,7 @@ Chiave primaria e secondaria sono equivalenti e sono duplicate per poter effettu
 
 <summary>Posso sapere se un Cittadino sia su IO?</summary>
 
-Sì, tramite l'API [Get a User Profile using POST](https://docs.pagopa.it/io-guida-tecnica/api/api-messaggi/get-a-user-profile-using-post).
+Sì, tramite l'API [Get a User Profile using POST](https://docs.pagopa.it/io-guida-tecnica/api-e-specifiche/api-messaggi/get-a-user-profile-using-post).
 
 </details>
 
