@@ -23,5 +23,5 @@ Dopo aver selezionato le firme da apporre e accettato termini e condizioni del s
 L’utente riceve tramite messaggio su IO i documenti firmati, che possono essere condivisi o scaricati sul proprio dispositivo.
 
 {% hint style="info" %}
-**Per maggiori informazioni** su come funziona Firma con IO e su come aderire, [visita il sito dedicato](https://firma.io.italia.it/). Se il tuo ente ha già aderito e hai bisogno di conoscere **come inviare richieste di firma**,[ leggi il manuale operativo](https://docs.pagopa.it/manuale-operativo-di-firma-con-io/).
+**Per maggiori informazioni** su come funziona Firma con IO e su come aderire, [visita il sito dedicato](https://firma.io.italia.it/). Se il tuo ente ha già aderito e hai bisogno di conoscere **come inviare richieste di firma**, [leggi il manuale operativo](https://docs.pagopa.it/manuale-operativo-di-firma-con-io).
 {% endhint %}
