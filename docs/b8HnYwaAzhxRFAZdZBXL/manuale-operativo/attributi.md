@@ -125,3 +125,31 @@ Per questa tipologia di attributi, la responsabilità ricade interamente sul dic
 Un erogatore può decidere di richiedere al fruitore diversi attributi dichiarati. Per ognuno di questi, il fruitore dichiarerà sotto la propria responsabilità di possedere il requisito prima di inoltrare la richiesta di fruizione all'erogatore. La dichiarazione viene registrata da PDND Interoperabilità sotto forma di "click". Non è dunque una dichiarazione implicita, ma richiede un'azione esplicita del fruitore.
 
 È possibile indicare nuovamente il possesso di un attributo dichiarato precedentemente revocato, o revocare il possesso di un attributo dichiarato, dalla vista _Anagrafica ente_. Verranno chiaramente indicate in una modale le conseguenze dell'azione. La revoca di un attributo dichiarato prevede la sospensione immediata e automatica da parte di PDND Interoperabilità di tutte le richieste di fruizione nelle quali l'attributo revocato è richiesto dall'erogatore.&#x20;
+
+## Enti certificatori
+
+### Creare un nuovo attributo certificato
+
+Una volta che un ente è accreditato come "certificatore", i suoi utenti con permessi di _amministratore_ vedranno nel menù di sinistra la voce _Il tuo ente > Ente certificatore_. Cliccando su quella voce di menù, si viene portati alla schermata seguente.
+
+<figure><img src="../.gitbook/assets/interop_ente_certificatore_creazione_attributo.png" alt=""><figcaption><p>La schermata che mostra la tab <em>Gestione attributi</em> all'interno della pagina <em>Il mio ente > Ente certificatore</em></p></figcaption></figure>
+
+All'interno, è possibile cliccare su _Crea nuovo_, inserire il nome e la descrizione del nuovo attributo, e crearlo.&#x20;
+
+Dal momento nel quale l'attributo viene creato, questo diventa disponibile per tutti gli enti nell'elenco degli attributi certificati che possono essere richiesti per l'iscrizione ad un e-service presente nel catalogo di PDND Interoperabilità. I potenziali enti fruitori che rispettano tutti i requisiti, potranno iscriversi all'e-service.
+
+### Assegnare o revocare un attributo certificato da un altro ente
+
+L'ente certificatore ha a disposizione una tab _Assegnazione attributi_ all'interno della pagina _Il tuo ente > Ente certificatore_, accessibile attraverso il menù a sinistra, e visibile nella schermata sotto.
+
+<figure><img src="../.gitbook/assets/interop_ente_certificatore_assegnazione_revoca_attributo.png" alt=""><figcaption><p>La schermata che mostra la tab Assegnazione <em>attributi</em> all'interno della pagina <em>Il mio ente > Ente certificatore</em></p></figcaption></figure>
+
+Al suo interno avrà la possibilità di:&#x20;
+
+* vedere la lista degli enti e degli attributi che ha assegnato;
+* assegnare un attributo ad un ente: attraverso il pulsante _Assegna attributo_, e inserendo il nome dell'attributo certificato ed il nome dell'ente assegnatario;
+* revocare un attributo ad un ente: attraverso il pulsante _Revoca._
+
+Un ente certificatore può assegnare o revocare agli enti solo gli attributi certificati che ha creato lui stesso, non quelli creati da altri certificatori.
+
+Attenzione: la revoca di un attributo certificato potrebbe causare un interruzione di servizio all'ente interessato dalla revoca stessa. Tutte le richieste di fruizione attive che prevedono quell'attributo certificato tra i requisiti verranno immediatamente sospese da PDND Interoperabilità. Nessun nuovo voucher potrà essere ottenuto dall'ente per quelle richieste di fruizione fino all'eventuale ri-assegnazione dell'attributo certificato.
