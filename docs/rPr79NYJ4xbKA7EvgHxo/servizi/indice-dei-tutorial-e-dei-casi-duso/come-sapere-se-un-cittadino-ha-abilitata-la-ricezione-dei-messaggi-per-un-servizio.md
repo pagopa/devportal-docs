@@ -23,5 +23,5 @@ Non usare REST client basati su web per testare l'API di IO: non potresti contro
 7. **Osserva la risposta**: nota il valore del campo `sender_allowed`, se `true` significa che quel Cittadino ha abilitato la ricezione dei messaggi per il tuo servizio
 
 {% hint style="info" %}
-All'interno della [Guida Tecnica](https://docs.pagopa.it/io-guida-tecnica/api/api-messaggi/get-a-user-profile-using-post) trovi tutta la documentazione necessaria per l'utilizzo di dell' API di integrazione.
+All'interno della [Guida Tecnica](https://docs.pagopa.it/io-guida-tecnica/api-e-specifiche/api-messaggi/get-a-user-profile-using-post) trovi tutta la documentazione necessaria per l'utilizzo di dell' API di integrazione.
 {% endhint %}
