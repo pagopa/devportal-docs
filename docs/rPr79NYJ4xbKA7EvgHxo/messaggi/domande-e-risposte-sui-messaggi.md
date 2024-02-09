@@ -69,7 +69,7 @@ La periodicità di invio per i **promemoria di lettura** segue la logica di segu
 
 <summary>Come funziona il Reminder per i messaggi con avvisi non pagati?</summary>
 
-La periodicità di invio per i promemoria di pagamento seguirà **logiche differenti a seconda della presenza di una** [**data di scadenza**](https://docs.pagopa.it/manuale-servizi/comunicare-un-servizio/scadenze-importanti):
+La periodicità di invio per i promemoria di pagamento seguirà **logiche differenti a seconda della presenza di una** [**data di scadenza**](https://docs.pagopa.it/manuale-servizi/comunicare-un-servizio/i-casi-duso/scadenze-importanti):
 
 * Per i **messaggi con avviso di pagamento senza scadenza**, si manderanno fino a quattro promemoria di pagamento del tipo «_“Hai un avviso da pagare” + oggetto_» con frequenza pari a 3 giorni. L’invio dei promemoria non dipenderà dall’apertura del messaggio, per cui non saranno inviati promemoria di lettura.
   *   Esempio: il Cittadino riceve un messaggio Premium con avviso di pagamento senza scadenza, ma non lo paga. Riceverà fino a quattro promemoria al 3°, 6°, 9° e 12° giorno (l'avvenuto pagamento dell'avviso interromperà la sequenza)\
