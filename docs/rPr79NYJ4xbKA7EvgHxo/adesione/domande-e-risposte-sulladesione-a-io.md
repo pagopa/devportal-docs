@@ -16,7 +16,7 @@ Per avviare l’adesione dovrai inserire i dati di un **rappresentante legale** 
 
 Il processo di adesione si conclude con l’apposizione della firma digitale del contratto e il suo caricamento nell’[**Area Riservata**](https://selfcare.pagopa.it/).
 
-Al termine del processo tutte le persone indicate (rappresentante e referenti) troveranno nella dashboard dell’Area Riservata il prodotto “App IO” abilitato. Cliccando sul bottone “Gestisci” sarà possibile [creare il primo servizio](https://docs.pagopa.it/manuale-servizi/come-si-crea-un-servizio/le-tipologie-di-servizio).
+Al termine del processo tutte le persone indicate (rappresentante e referenti) troveranno nella dashboard dell’Area Riservata il prodotto “App IO” abilitato. Cliccando sul bottone “Gestisci” sarà possibile [creare il primo servizio](https://docs.pagopa.it/manuale-servizi/i-servizi-in-io/le-tipologie-di-servizio).
 
 Sottoscrivendo un contratto Premium, ogni volta che si intende inviare un messaggio relativo a un servizio sarà possibile scegliere se inviarlo come messaggio Standard o Premium.
 

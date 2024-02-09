@@ -140,7 +140,7 @@ Se il Servizio IO che stai utilizzando non è pubblicato, dovrai [chiederci di a
 {% endhint %}
 
 {% hint style="danger" %}
-Se il Servizio è [pubblicato](https://docs.pagopa.it/manuale-servizi/come-si-crea-un-servizio/pubblicazione-validazione-e-modifica-di-un-servizio/pubblicazione), non sarà necessaria alcuna procedura autorizzativa e potrai inviare messaggi a qualsiasi codice fiscale destinatario. Poni la massima attenzione a questo scenario!
+Se il Servizio è [pubblicato](https://docs.pagopa.it/manuale-servizi/come-si-crea-un-servizio/validazione-pubblicazione-e-modifica-di-un-servizio), non sarà necessaria alcuna procedura autorizzativa e potrai inviare messaggi a qualsiasi codice fiscale destinatario. Poni la massima attenzione a questo scenario!
 {% endhint %}
 
 #### Response
