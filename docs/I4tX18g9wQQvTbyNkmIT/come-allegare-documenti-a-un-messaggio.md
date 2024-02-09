@@ -111,7 +111,7 @@ le informazioni utili.\n\rA Ti aspettiamo!\n\rL'\''Amministrazione Comunale di I
 
 Se il Servizio IO che stai utilizzando non è pubblicato, dovrai [chiederci di abilitarlo all'invio di messaggi verso uno o più codici fiscali specifici](https://docs.pagopa.it/io-guida-tecnica/abilitazioni/test-con-codici-fiscali-reali). Queste persone, che non dovranno essere cittadini/utenti finali ma membri della tua Organizzazione o comunque incaricati dei test, riceveranno i messaggi che invierai direttamente sulla loro App IO.
 
-Se il Servizio è [pubblicato](https://docs.pagopa.it/manuale-servizi/come-si-crea-un-servizio/pubblicazione-validazione-e-modifica-di-un-servizio/pubblicazione), non sarà necessaria alcuna procedura autorizzativa e potrai inviare messaggi a qualsiasi codice fiscale destinatario. Poni la massima attenzione a questo scenario!
+Se il Servizio è [pubblicato](https://docs.pagopa.it/manuale-servizi/come-si-crea-un-servizio/validazione-pubblicazione-e-modifica-di-un-servizio), non sarà necessaria alcuna procedura autorizzativa e potrai inviare messaggi a qualsiasi codice fiscale destinatario. Poni la massima attenzione a questo scenario!
 
 **Response**
 
