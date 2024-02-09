@@ -39,7 +39,7 @@ Questa informazione è accessibile tramite [la stessa API](https://docs.pagopa.i
 ```
 {% endcode %}
 
-* il campo `read_status` riporta lo stato di lettura del messaggio secondo quanto dettagliato nella [specifica tecnica](https://docs.pagopa.it/io-guida-tecnica/api/api-messaggi/get-message#read\_status)
+* il campo `read_status` riporta lo stato di lettura del messaggio secondo quanto dettagliato nella [specifica tecnica](https://docs.pagopa.it/io-guida-tecnica/api-e-specifiche/api-messaggi/get-message#read\_status)
 
 {% hint style="info" %}
 Per il significato degli altri campi, fai riferimento al [tutorial sul recupero dello stato di un messaggio](https://docs.pagopa.it/kb-enti-messaggi/tutorial-e-casi-duso/indice-dei-tutorial-e-dei-casi-duso/come-sapere-se-un-messaggio-e-stato-recapitato)
