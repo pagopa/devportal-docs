@@ -41,7 +41,7 @@ Una volta che ti sarai assicurato che il tuo utente [possa ricevere le tue comun
 
 
     <figure><img src="../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
-* il campo status assume il valore `PROCESSED` nel momento in cui il messaggio è a disposizione dell'utente nella sua App IO; consulta la Guida Tecnica per [gli altri possibili stati previsti](https://docs.pagopa.it/io-guida-tecnica/api/api-messaggi/get-message#status)
+* il campo status assume il valore `PROCESSED` nel momento in cui il messaggio è a disposizione dell'utente nella sua App IO; consulta la Guida Tecnica per [gli altri possibili stati previsti](https://docs.pagopa.it/io-guida-tecnica/api-e-specifiche/api-messaggi/get-message#status)
 
 {% hint style="info" %}
 Un messaggio in stato `PROCESSED` è pronto per essere visualizzato nel momento in cui il destinatario utilizzi la propria App IO; non è garanzia del fatto che abbia già ricevuto la relativa notifica _push_, che dipende anche dalle impostazioni particolari del dispositivo che sta utilizzando.
