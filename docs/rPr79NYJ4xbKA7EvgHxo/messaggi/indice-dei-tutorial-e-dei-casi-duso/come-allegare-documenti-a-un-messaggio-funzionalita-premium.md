@@ -51,7 +51,7 @@ IO memorizzerà queste informazioni e le utilizzerà successivamente nel colloqu
 
 ### L'identificativo `{third_party_data.id}`
 
-Quando invierai un Messaggio che contiene allegati, seguendo [quanto riportato nella Guida Tecnica](https://docs.pagopa.it/io-guida-tecnica/funzionalita/inviare-un-messaggio/aggiungere-allegati-premium), dovrai indicare a IO la presenza dei file associati stabilendo un identificativo (`third_party_data.id`) che consentirà il successivo colloquio tra il _backend_ di IO e quello della tua Organizzazione.
+Quando invierai un Messaggio che contiene allegati, seguendo quanto riportato nella [Guida Tecnica](https://docs.pagopa.it/io-guida-tecnica/funzionalita/inviare-un-messaggio/aggiungere-allegati), dovrai indicare a IO la presenza dei file associati stabilendo un identificativo (`third_party_data.id`) che consentirà il successivo colloquio tra il _backend_ di IO e quello della tua Organizzazione.
 
 {% hint style="warning" %}
 Sei tu a decidere il valore di `third_party_data.id`, ma tieni presente che **deve essere univoco all'interno dell'insieme dei tuoi Servizi IO che condividono il medesimo`baseUrl`** comunicato in fase di onboarding.
