@@ -12,7 +12,7 @@ Consulta il [Manuale dei Servizi IO](https://docs.pagopa.it/manuale-servizi/) e 
 
 <summary>Posso creare un servizio utilizzando le API di integrazione?</summary>
 
-Sì, utilizzando le [API Servizi](https://docs.pagopa.it/io-guida-tecnica/api/api-servizi).
+Sì, utilizzando le [API Servizi](https://docs.pagopa.it/io-guida-tecnica/api-e-specifiche/api-servizi).
 
 </details>
 
