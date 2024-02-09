@@ -35,4 +35,4 @@ Di seguito ti proponiamo un video tutorial che mostra sull’applicazione Postma
 
 
 
-All'interno della [Guida Tecnica](https://docs.pagopa.it/io-guida-tecnica/api/api-messaggi/get-a-user-profile-using-post) trovi tutta la documentazione necessaria per l'utilizzo di dell' API di integrazione.
+All'interno della [Guida Tecnica ](https://docs.pagopa.it/io-guida-tecnica/api-e-specifiche/api-messaggi/get-a-user-profile-using-post)trovi tutta la documentazione necessaria per l'utilizzo di dell' API di integrazione.
