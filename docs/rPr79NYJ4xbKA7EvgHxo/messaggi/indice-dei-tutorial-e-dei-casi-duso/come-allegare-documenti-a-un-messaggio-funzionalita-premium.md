@@ -73,7 +73,7 @@ Entrambi saranno protetti da autenticazione con API Key, come illustrato in [#i-
 Nelle chiamate a entrambi gli endpoint IO aggiungerà l'header `fiscal_code` riportante il codice fiscale del Cittadino destinatario del Messaggio per cui sta richiedendo gli Allegati. Questo ti dà l'opportunità di verificare che il cittadino sia il reale destinatario degli allegati.
 
 {% hint style="info" %}
-Trovi tutte le informazioni di dettaglio circa gli _endpoint_ di _callback_ nella [Guida Tecnica](https://docs.pagopa.it/io-guida-tecnica/funzionalita/inviare-un-messaggio/aggiungere-allegati-premium/specifiche-degli-endpoint-di-recupero-degli-allegati).
+Trovi tutte le informazioni di dettaglio circa gli _endpoint_ di _callback_ nella [Guida Tecnica](https://docs.pagopa.it/io-guida-tecnica/funzionalita/inviare-un-messaggio/aggiungere-allegati#step-0-esponi-gli-endpoint-di-recupero-degli-allegati).
 {% endhint %}
 
 ## Caso d'uso (esempio)
