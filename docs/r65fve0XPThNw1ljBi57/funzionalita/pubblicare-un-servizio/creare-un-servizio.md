@@ -73,7 +73,7 @@ Per pubblicare il servizio in produzione, devi inserire i dati che trovi alla se
 
 <summary><mark style="color:blue;">Step 2</mark> - Prepara la scheda servizio</summary>
 
-1. Recupera le [specifiche API ](https://docs.pagopa.it/io-guida-tecnica/api/api-servizi/create-service)relative e leggi con attenzione i consigli
+1. Recupera le [specifiche API](https://docs.pagopa.it/io-guida-tecnica/api-e-specifiche/api-servizi/manage-service-create) relative e leggi con attenzione i consigli
 2. Prepara il payload relativo alla scheda servizio che vuoi creare
 3. Assicurati di aver impostato `is_visible` a `false`
 4. Aggiungi la tua chiave `manage`
