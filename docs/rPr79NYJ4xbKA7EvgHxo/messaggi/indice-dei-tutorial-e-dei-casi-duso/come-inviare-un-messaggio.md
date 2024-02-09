@@ -7,7 +7,7 @@ Facendo riferimento al procedimento indicato nella [Guida Tecnica per l'integraz
 
 
     <figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
-3. Componi la request per l'[API di invio](https://docs.pagopa.it/io-guida-tecnica/api/api-messaggi/submit-a-message-passing-the-user-fiscal\_code-in-the-request-body), della quale ti forniamo qui un esempio:
+3. Componi la request per l'[API di invio](https://docs.pagopa.it/io-guida-tecnica/api-e-specifiche/api-messaggi/submit-a-message-passing-the-user-fiscal\_code-in-the-request-body), della quale ti forniamo qui un esempio:
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```json
