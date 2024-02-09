@@ -17,5 +17,5 @@ Se la data di scadenza non prevede un orario specifico, solitamente si fa riferi
 {% endhint %}
 
 {% hint style="info" %}
-Per maggiori informazioni sul formato della data, consulta la sezione dedicata nella [Guida tecnica](https://docs.pagopa.it/io-guida-tecnica/api/api-messaggi/submit-a-message-passing-the-user-fiscal\_code-in-the-request-body#due\_date) di IO.&#x20;
+Per maggiori informazioni sul formato della data, consulta la sezione dedicata nella [Guida tecnica di IO](https://docs.pagopa.it/io-guida-tecnica/api-e-specifiche/api-messaggi/submit-a-message-passing-the-user-fiscal\_code-in-the-request-body#due\_date).&#x20;
 {% endhint %}
