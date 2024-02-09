@@ -14,7 +14,7 @@ L'**Accordo Base** include le caratteristiche di integrazione standard, nel dett
 1. l'accesso alle procedure di adesione a IO, tramite l'apposita [Area Riservata](https://selfcare.pagopa.it/) dell'omonimo portale
 2. [la creazione e la manutenzione di Servizi su IO](https://docs.pagopa.it/manuale-servizi/)
 3. [l'invio di Messaggi](https://docs.pagopa.it/io-guida-tecnica/funzionalita/inviare-un-messaggio), nel rispetto delle linee guida in vigore
-4. il recupero delle informazioni sullo [stato di processamento dei Messaggi](https://docs.pagopa.it/io-guida-tecnica/api/api-messaggi/get-message) inviati (preso in carico, consegnato al Cittadino etc.)
+4. il recupero delle informazioni sullo [stato di processamento dei Messaggi inviati ](https://docs.pagopa.it/io-guida-tecnica/api-e-specifiche/api-messaggi/get-message)(preso in carico, consegnato al Cittadino etc.)
 5. il recupero delle informazioni sullo [stato di un Cittadino rispetto al suo profilo in app](https://docs.pagopa.it/io-guida-tecnica/api-e-specifiche/api-messaggi/get-a-user-profile-using-post) (effettiva presenza su IO, abilitazione di un Servizio a contattare quel Cittadino etc.)
 
 La connettività API è fornita da PagoPA verificando che il rateo di chiamate (per account) non superi una soglia predeterminata, al fine di preservare l'integrità della piattaforma.
