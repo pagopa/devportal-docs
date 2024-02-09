@@ -28,7 +28,7 @@ No, al momento non è possibile cancellare un servizio. Rinomina il servizio agg
 
 <summary>Posso visualizzare la scheda di un servizio non ancora visibile in app?</summary>
 
-Sì, attraverso la procedura descritta in [Visualizzare un servizio in test](https://docs.pagopa.it/io-guida-tecnica/funzionalita/creare-un-servizio/visualizzare-un-servizio-in-test).
+Sì, attraverso la procedura descritta in [Visualizzare un servizio in test](https://docs.pagopa.it/io-guida-tecnica/funzionalita/pubblicare-un-servizio/provare-un-servizio-in-test).
 
 </details>
 
