@@ -117,7 +117,7 @@ Se il Servizio è [pubblicato](https://docs.pagopa.it/manuale-servizi/come-si-cr
 
 `{ "id": "01GS8744E24EZDG3XD5ECXB9RG" }`
 
-Prendi sempre nota dell'identificativo del messaggio ritornato in fase di invio: ti servirà successivamente per [recuperarne lo stato e le informazioni di lettura e pagamento](https://docs.pagopa.it/io-guida-tecnica/api/api-messaggi/get-message).
+Prendi sempre nota dell'identificativo del messaggio ritornato in fase di invio: ti servirà successivamente per [recuperarne lo stato e le informazioni di lettura e pagamento](https://docs.pagopa.it/io-guida-tecnica/api-e-specifiche/api-messaggi/get-message).
 
 #### Step 3 - Visualizzazione del Messaggio in App <a href="#step-3-visualizzazione-del-messaggio-in-app" id="step-3-visualizzazione-del-messaggio-in-app"></a>
 
