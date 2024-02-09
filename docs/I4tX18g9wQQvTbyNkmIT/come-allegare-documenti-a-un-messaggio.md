@@ -37,7 +37,7 @@ IO memorizzerà queste informazioni e le utilizzerà successivamente nel colloqu
 
 #### L'identificativo `{third_party_data.id}` <a href="#lidentificativo-third_party_data.id" id="lidentificativo-third_party_data.id"></a>
 
-Quando invierai un Messaggio che contiene allegati, seguendo [quanto riportato nella Guida Tecnica](https://docs.pagopa.it/io-guida-tecnica/funzionalita/inviare-un-messaggio/aggiungere-allegati-premium), dovrai indicare a IO la presenza dei file associati stabilendo un identificativo (`third_party_data.id`) che consentirà il successivo colloquio tra il _backend_ di IO e quello della tua Organizzazione.
+Quando invierai un Messaggio che contiene allegati, seguendo [quanto riportato nella Guida Tecnica](https://docs.pagopa.it/io-guida-tecnica/funzionalita/inviare-un-messaggio/aggiungere-allegati), dovrai indicare a IO la presenza dei file associati stabilendo un identificativo (`third_party_data.id`) che consentirà il successivo colloquio tra il _backend_ di IO e quello della tua Organizzazione.
 
 Sei tu a decidere il valore di `third_party_data.id`, ma tieni presente che **deve essere univoco all'interno dell'insieme dei tuoi Servizi IO che condividono il medesimo**`baseUrl` comunicato in fase di onboarding.
 
@@ -56,7 +56,7 @@ Entrambi saranno protetti da autenticazione con API Key, come illustrato in [**I
 
 Nelle chiamate a entrambi gli endpoint IO aggiungerà l'header `fiscal_code` riportante il codice fiscale del Cittadino destinatario del Messaggio per cui sta richiedendo gli Allegati. Questo ti dà l'opportunità di verificare che il cittadino sia il reale destinatario degli allegati.
 
-Trovi tutte le informazioni di dettaglio circa gli _endpoint_ di _callback_ nella [Guida Tecnica](https://docs.pagopa.it/io-guida-tecnica/funzionalita/inviare-un-messaggio/aggiungere-allegati-premium/specifiche-degli-endpoint-di-recupero-degli-allegati).
+Trovi tutte le informazioni di dettaglio circa gli _endpoint_ di _callback_ nella [Guida Tecnica](https://docs.pagopa.it/io-guida-tecnica/funzionalita/inviare-un-messaggio/aggiungere-allegati#step-0-esponi-gli-endpoint-di-recupero-degli-allegati).
 
 ### Caso d'uso (esempio) <a href="#caso-duso-esempio" id="caso-duso-esempio"></a>
 
