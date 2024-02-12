@@ -16,8 +16,6 @@ Non inserire informazioni personali o dati sensibili all'interno del titolo di u
 
 ### Tipologie di messaggi
 
-Esistono due tipologie di messaggi che si possono inviare su IO - Base e Premium - la cui disponibilità dipende dal contratto sottoscritto in fase di adesione.
-
 In generale, i messaggi possono essere:
 
 * **messaggi informativi**: messaggi di testo che possono riguardare un aggiornamento relativo, ad esempio, a un nuovo documento disponibile o a un’istanza presentata all’ente;
@@ -31,25 +29,19 @@ Per facilitare l'elaborazione dei messaggi e configurare i servizi su IO è pos
 I modelli sono standard di esempio che non hanno carattere vincolante per l’ente e sui quali la Società declina qualsiasi responsabilità, avendo valore meramente esemplificativo.
 {% endhint %}
 
-### Messaggi Premium
+### Funzionalità Premium
 
-Rispetto ai messaggi Base, quelli Premium offrono queste **funzionalità** in più:
+Se in fase di adesione è stato sottoscritto l'accordo Premium, è possibile usufruire di funzionalità aggiuntive legate alla gestione e invio dei messaggi.&#x20;
 
-* possono contenere degli **allegati**;
-* l’ente può verificare in ogni momento se sono stati inviati, ricevuti o **letti**;
-* in caso di presenza di un avviso di pagamento, l’ente può verificare in ogni momento se sono stati **pagati**;
-* se il cittadino dà il suo consenso, possono generare notifiche push che **ricordano al cittadino che il messaggio non è stato letto**;
-* se il cittadino dà il suo consenso, possono generare notifiche push che **ricordano al cittadino che il messaggio è stato letto ma non ancora pagato**.
+Rispetto al piano base, l'offerta Premium permette di:
 
-Ecco un riassunto delle funzionalità e la tipologia di messaggi a cui si applicano.
+* inviare messaggi con **allegati in formato PDF**;
+* verificare in ogni momento l'invio, la ricezione e la **lettura** di un messaggio;
+* in caso di presenza di un avviso di pagamento, verificare in ogni momento lo **stato di pagamento**;
+* ricordare al cittadino di **aprire un messaggio non ancora letto** (se il cittadino ha dato il consenso a questa funzionalità messa a disposizione dall'app IO);
+* ricordare al cittadino di **pagare un avviso in prossimità della scadenza** (se il cittadino ha dato il consenso a questa funzionalità messa a disposizione dall'app IO).
 
-| Funzionalità                                                                             | Messaggi base | Messaggi premium |
-| ---------------------------------------------------------------------------------------- | ------------- | ---------------- |
-| Testo che contiene una serie di informazioni                                             | ✅             | ✅                |
-| Avviso di pagamento all'interno del messaggio                                            | ✅             | ✅                |
-| Messaggi che contengono una data di scadenza o da ricordare                              | ✅             | ✅                |
-| Allegati al messaggio                                                                    | ❌             | ✅                |
-| Verifica che il messaggio sia stato inviato, ricevuto o letto                            | ❌             | ✅                |
-| Verifica che l'avviso di pagamento del messaggio sia stato pagato                        | ❌             | ✅                |
-| Possibilità di invio di notifiche push che ricordano che un messaggio non è stato letto  | ❌             | ✅                |
-| Possibilità di invio di notifiche push che ricordano che un messaggio non è stato pagato | ❌             | ✅                |
+Ecco un riassunto dei vantaggi dell'offerta Premium rispetto al piano base:
+
+<table><thead><tr><th width="353">Funzionalità</th><th>Base</th><th>Premium</th></tr></thead><tbody><tr><td>Inviare un messaggio di testo in formato markdown</td><td>✅</td><td>✅</td></tr><tr><td>Allegare un avviso di pagamento</td><td>✅</td><td>✅</td></tr><tr><td>Definire una data di scadenza legata al messaggio</td><td>✅</td><td>✅</td></tr><tr><td>Allegare un file in formato PDFo</td><td>❌</td><td>✅</td></tr><tr><td>Verificare che il messaggio sia stato inviato, ricevuto o letto </td><td>❌</td><td>✅</td></tr><tr><td>Verificare che l'avviso di pagamento allegato al messaggio sia stato pagato</td><td>❌</td><td>✅</td></tr><tr><td>Inviare una notifica push per ricordare di aprire un messaggio non letto</td><td>❌</td><td>✅</td></tr><tr><td>Inviare una notifica push per ricordare di pagare un avviso in prossimità della scadenza</td><td>❌</td><td>✅</td></tr></tbody></table>
+
