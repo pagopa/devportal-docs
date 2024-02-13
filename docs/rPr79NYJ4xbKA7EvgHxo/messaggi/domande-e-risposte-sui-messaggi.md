@@ -90,7 +90,7 @@ La periodicità di invio per i promemoria di pagamento seguirà **logiche differ
 
 <summary>Come si aggiungono allegati a un messaggio?</summary>
 
-Segui il [tutorial](https://docs.pagopa.it/kb-enti-messaggi/tutorial-e-casi-duso/indice-dei-tutorial-e-dei-casi-duso/come-allegare-documenti-a-un-messaggio-premium) che abbiamo preparato su questo tema.
+Segui il [tutorial](indice-dei-tutorial-e-dei-casi-duso/come-allegare-documenti-a-un-messaggio-funzionalita-premium.md) che abbiamo preparato su questo tema.
 
 </details>
 
@@ -100,7 +100,7 @@ Segui il [tutorial](https://docs.pagopa.it/kb-enti-messaggi/tutorial-e-casi-duso
 
 * Puoi sapere se un determinato messaggio sia stato **letto** dal Cittadino cui è destinato
 * Puoi sapere se l'eventuale avviso di pagamento che hai associato al messaggio sia stato **saldato** (in app o in qualsiasi altro modo supportato da pagoPA)
-* Puoi aggiungere [**allegati**](https://docs.pagopa.it/kb-enti-messaggi/tutorial-e-casi-duso/indice-dei-tutorial-e-dei-casi-duso/come-allegare-documenti-a-un-messaggio-premium) al tuo messaggio
+* Puoi aggiungere [**allegati**](indice-dei-tutorial-e-dei-casi-duso/come-allegare-documenti-a-un-messaggio-funzionalita-premium.md) al tuo messaggio
 * Per ciascun messaggio Premium il Cittadino riceverà discreti **promemoria** nel caso tardi a leggerlo oppure se deve pagare un avviso
 * Puoi mandare più messaggi nello stesso tempo, ti garantiamo un **accesso più rapido** alle funzionalità di integrazione via API
 
