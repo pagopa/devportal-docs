@@ -103,7 +103,7 @@ le informazioni utili.\n\rA Ti aspettiamo!\n\rL'\''Amministrazione Comunale di I
 <figure><img src=".gitbook/assets/db914d95-8711-4d8a-8ce1-3be4d402e031.png" alt="" width="540"><figcaption></figcaption></figure>
 
 * Il valore `"ADVANCED"` per `feature_level_type` identifica un Messaggio Premium: impostalo così per poter aggiungere Allegati al tuo Messaggio
-* Componi il tuo messaggio (`subject`, `markdown`) seguendo i consigli riportati nel [Manuale dei Servizi di IO](https://docs.pagopa.it/manuale-servizi/)​
+* Componi il tuo messaggio (`subject`, `markdown`) seguendo i consigli riportati nel [Manuale dei Servizi di IO](https://docs.pagopa.it/manuale-servizi)​
 * La presenza della struttura `third_party_data` indica a IO che il tuo Messaggio veicola uno o più Allegati:
   1. 1.`id` è il [**L'identificativo {third\_party\_data.id}**](https://docs.pagopa.it/kb-enti-messaggi/tutorial-e-casi-duso/indice-dei-tutorial-e-dei-casi-duso/come-allegare-documenti-a-un-messaggio-funzionalita-premium#lidentificativo-third\_party\_data.id)​
   2. 2.`has_attachments` va obbligatoriamente impostato a `true`
