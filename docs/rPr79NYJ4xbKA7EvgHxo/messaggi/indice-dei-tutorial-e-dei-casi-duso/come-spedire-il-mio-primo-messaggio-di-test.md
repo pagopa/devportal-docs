@@ -9,15 +9,21 @@ Una volta [configurato un Servizio su IO](https://docs.pagopa.it/kb-enti-servizi
 Per sperimentare con il [markdown](https://it.wikipedia.org/wiki/Markdown) di un Messaggio, il modo più rapido è utilizzare la funzionalità di invio di test inclusa nella tua Area Riservata.
 
 1. Una volta nell'[Area Riservata](https://selfcare.pagopa.it/), seleziona il menu "Servizi" e individua quindi il servizio che vuoi testare
-2. Nella scheda del servizio, scegli una delle due chiavi ([è indifferente](https://docs.pagopa.it/kb-enti-servizi/domande-frequenti/domande-e-risposte-sui-servizi-io#perche-ci-sono-due-api-key-per-servizio)) e seleziona il pulsante "Usa questa chiave"\
-   ![](<../../.gitbook/assets/kb\_enti\_2 (2).png>)
-3. Il sistema ti mostrerà l'interfaccia di invio di test\
-   ![](<../../.gitbook/assets/kb\_enti\_3 (2).png>)
+2.  Nella scheda del servizio, scegli una delle due chiavi ([è indifferente](https://docs.pagopa.it/kb-enti-servizi/domande-frequenti/domande-e-risposte-sui-servizi-io#perche-ci-sono-due-api-key-per-servizio)) e seleziona il pulsante "Usa questa chiave"\
+
+
+    <figure><img src="../../.gitbook/assets/kb_enti_2 (2).png" alt=""><figcaption></figcaption></figure>
+3.  Il sistema ti mostrerà l'interfaccia di invio di test\
+
+
+    <figure><img src="../../.gitbook/assets/kb_enti_3 (2).png" alt=""><figcaption></figcaption></figure>
 4. Inizialmente, nel campo Codice Fiscale puoi inserire solo il CF speciale `AAAAAA00A00A000A`, che ti permetterà di ricevere il messaggio sulla casella di email che hai dichiarato quando ti sei iscritto all'Area Riservata come delegato; se desideri fare test con codici fiscali reali, fai riferimento a [#voglio-inviare-un-messaggio-di-prova-alla-mia-app-io](come-spedire-il-mio-primo-messaggio-di-test.md#voglio-inviare-un-messaggio-di-prova-alla-mia-app-io "mention")
 5. Compila il form scrivendo il soggetto del messaggio e il suo corpo in formato [markdown](https://it.wikipedia.org/wiki/Markdown); poni attenzione alle lunghezze minime dei campi, almeno 10 caratteri per il soggetto e almeno 80 per il corpo
 6. Seleziona il pulsante "Invia"
-7. Verifica il recapito del messaggio dalla casella di posta elettronica del delegato che ha creato il Servizio:\
-   ![](../../.gitbook/assets/kb\_enti\_7.png)
+7.  Verifica il recapito del messaggio dalla casella di posta elettronica del delegato che ha creato il Servizio:\
+
+
+    <figure><img src="../../.gitbook/assets/kb_enti_7.png" alt=""><figcaption></figcaption></figure>
 
 </details>
 
