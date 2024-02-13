@@ -1,6 +1,6 @@
 # 📜 Come sapere se un Messaggio è stato recapitato
 
-Una volta che ti sarai assicurato che il tuo utente [possa ricevere le tue comunicazioni](https://docs.pagopa.it/kb-enti-servizi/tutorial-e-casi-duso/indice-dei-tutorial-e-dei-casi-duso/come-sapere-se-un-cittadino-ha-abilitata-la-ricezione-dei-messaggi-per-un-servizio) e avrai [spedito un messaggio su IO](https://docs.pagopa.it/kb-enti-messaggi/tutorial-e-casi-duso/indice-dei-tutorial-e-dei-casi-duso/come-spedire-un-messaggio-io) (anche [con un avviso di pagamento](https://docs.pagopa.it/kb-enti-pagamenti/tutorial-e-casi-duso/indice-dei-tutorial-e-dei-casi-duso/come-spedire-un-avviso-di-pagamento-in-un-messaggio)), per conoscere il suo stato di processamento IO ti mette a disposizione [un'apposita API](https://docs.pagopa.it/io-guida-tecnica/api/api-messaggi/get-message) che potrai richiamare in "polling" utilizzando l'identificativo univoco tornato dall'[API di invio](https://docs.pagopa.it/io-guida-tecnica/api-e-specifiche/api-messaggi/submit-a-message-passing-the-user-fiscal\_code-in-the-request-body).
+Una volta che ti sarai assicurato che il tuo utente [possa ricevere le tue comunicazioni](https://docs.pagopa.it/kb-enti-servizi/tutorial-e-casi-duso/indice-dei-tutorial-e-dei-casi-duso/come-sapere-se-un-cittadino-ha-abilitata-la-ricezione-dei-messaggi-per-un-servizio) e avrai [spedito un messaggio su IO](come-inviare-un-messaggio.md) (anche [con un avviso di pagamento](come-sapere-se-un-messaggio-e-stato-recapitato.md)), per conoscere il suo stato di processamento IO ti mette a disposizione [un'apposita API](https://docs.pagopa.it/io-guida-tecnica/api-e-specifiche/api-messaggi/get-message) che potrai richiamare in "polling" utilizzando l'identificativo univoco tornato dall'[API di invio](https://docs.pagopa.it/io-guida-tecnica/api-e-specifiche/api-messaggi/submit-a-message-passing-the-user-fiscal\_code-in-the-request-body).
 
 1.  Aggiungi l'header `Ocp-Apim-Subscription-Key` e valorizzalo con la chiave ([primaria o secondaria](https://docs.pagopa.it/kb-enti-servizi/domande-frequenti/domande-e-risposte-sui-servizi-io#perche-ci-sono-due-api-key-per-servizio)) del tuo Servizio IO: puoi recuperarla accedendo all'[Area Riservata](https://selfcare.pagopa.it/) e cercando la scheda del tuo Servizio nella pagina "Servizi"\
 
@@ -11,7 +11,7 @@ Una volta che ti sarai assicurato che il tuo utente [possa ricevere le tue comun
    https://api.io.pagopa.it/api/v1/messages/<mark style="color:blue;">**RSRNOU70S54S000L**</mark>/<mark style="color:green;">**01GS8744E24EZDG3XD5ECXB9RG**</mark>\
 
    1. il parametro in <mark style="color:blue;">**blu**</mark> è il Codice Fiscale del destinatario del messaggio
-   2. il parametro in <mark style="color:green;">**verde**</mark> è l'identificativo univoco del messaggio ritornato [in fase di invio](https://docs.pagopa.it/kb-enti-messaggi/tutorial-e-casi-duso/indice-dei-tutorial-e-dei-casi-duso/come-spedire-un-messaggio-io)
+   2. il parametro in <mark style="color:green;">**verde**</mark> è l'identificativo univoco del messaggio ritornato [in fase di invio](come-inviare-un-messaggio.md)
 3. IO risponderà con lo stato aggiornato del messaggio:
 
 {% code overflow="wrap" lineNumbers="true" %}
