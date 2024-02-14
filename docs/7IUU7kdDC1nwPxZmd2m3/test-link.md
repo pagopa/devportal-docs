@@ -31,3 +31,9 @@ Link inline alla pagina [delle Best Practices](https://app.gitbook.com/s/PJuzswk
 
 link inline all'anchor [dedicato ai Payment Token](https://app.gitbook.com/s/PJuzswk8l2kp9Wm5PwAW/prestatore-di-servizi-di-pagamento/modalita-di-integrazione/best-practice#title-text) \
 (questo è il componente **link** che punta a un'_**anchor**_, creato selezionando il testo, e nelle parentesi quadre troviamo il testo selezionato  ✅)&#x20;
+
+
+
+[link a titolo in H1](test-space-1/prova-articolo-2.md#titolo-in-h1)
+
+[link a titolo in H2](test-space-1/prova-articolo-1.md#titolo-in-h2)
