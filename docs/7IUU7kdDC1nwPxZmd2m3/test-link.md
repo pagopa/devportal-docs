@@ -34,6 +34,6 @@ link inline all'anchor [dedicato ai Payment Token](https://app.gitbook.com/s/PJu
 
 
 
-[link a titolo in H1](test-space-1/prova-articolo-2.md#titolo-in-h1)
+[link a titolo in H1](./#titolo-h1)
 
 [link a titolo in H2](test-space-1/prova-articolo-1.md#titolo-in-h2)
