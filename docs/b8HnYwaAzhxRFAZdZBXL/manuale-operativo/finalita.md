@@ -28,15 +28,19 @@ A quel punto il fruitore può decidere se pubblicare la bozza di finalità e pro
 
 ### Associare e rimuovere i client da una finalità
 
-È sempre possibile associare e rimuovere i client legati ad una finalità, anche dopo la sua pubblicazione. Se si intende modificare in un secondo momento uno o più client associati, il fruitore può andare su _Fruizione > Le mie finalità_, trovare la finalità desiderata e cliccare su _Ispeziona_. Nella tab _Client associati_ sarà possibile operare sui client.
+È possibile associare e rimuovere i client legati ad una finalità una volta che questa è stata approvata dall'erogatore. Se la finalità è in stato di bozza o in attesa di approvazione non sarà possibile associare un client.
+
+<figure><img src="../.gitbook/assets/recap finalità in bozza.png" alt=""><figcaption></figcaption></figure>
+
+Se si intende modificare in un secondo momento uno o più client associati, il fruitore può andare su _Fruizione > Le tue finalità_, trovare la finalità desiderata e cliccare su _Visualizza_. Nella tab _Client associati_ sarà possibile operare sui client.
 
 <div>
 
-<figure><img src="../.gitbook/assets/e-service client 1.png" alt=""><figcaption><p>Le mie finalità --> Ispeziona</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Nuova UI Le tue finalità.png" alt=""><figcaption><p>Le tue finalità --> Visualizza</p></figcaption></figure>
 
  
 
-<figure><img src="../.gitbook/assets/e-serice client 2.png" alt=""><figcaption><p>Tab "Client associati"</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/tab client associati.png" alt=""><figcaption><p>Tab "Client associati"</p></figcaption></figure>
 
 </div>
 
