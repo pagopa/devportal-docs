@@ -12,6 +12,14 @@ description: >-
 
 <summary>Febbraio 2024</summary>
 
+### 1.0.78
+
+19 febbraio
+
+* Aggiunta degli attributi self-service (un utente di un ente autorizzato alla creazione di attributi certificati può crearli e assegnarli direttamente dalla UI)
+* Aggiornamento metriche per la dashboard pubblica
+* Bug fixing
+
 ### 1.0.77
 
 **8 febbraio**
