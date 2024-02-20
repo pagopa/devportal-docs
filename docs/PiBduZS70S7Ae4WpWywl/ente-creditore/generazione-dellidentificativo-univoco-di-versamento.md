@@ -14,4 +14,4 @@ Lo stesso [paragrafo 7.1 delle Linee guida](https://www.gazzettaufficiale.it/eli
 
 > _« .... demandare ad un soggetto terzo, in tutto o in parte, la generazione dell’Identificativo Univoco di Versamento, curando che ne sia mantenuta l’univocità nel tempo»._
 
-Ne deriva che la generazione del codice IUV che risulti **univoco** nel corso del tempo è una responsabilità dell’EC, che, in fase di creazione, deve tener conto che tale codifica deve essere conforme alle specifiche internazionali esistenti e alle linee guida specificate nelle [SACI](https://app.gitbook.com/o/KXYtsf32WSKm6ga638R3/s/E6d6iTzjBzUfzNoZjadZ/).
+Ne deriva che la generazione del codice IUV che risulti **univoco** nel corso del tempo è una responsabilità dell’EC, che, in fase di creazione, deve tener conto che tale codifica deve essere conforme alle specifiche internazionali esistenti e alle linee guida specificate nelle [SACI](https://docs.pagopa.it/saci).
