@@ -18,7 +18,8 @@ Firma con IO è una **Firma Elettronica Qualificata** “one shot” con il mass
 
 L’utilizzo di una firma elettronica è una pratica sempre più diffusa nel contesto digitale che consente la validazione di documenti senza la necessità di firme cartacee.
 
-💡La sottoscrizione elettronica non è limitato all’apposizione della firma ma si tratta piuttosto di un processo informatico che permette di associare i dati utili a identificare il sottoscrittore al documento informatico. Le diverse tipologie di firma elettronica consentono di raggiungere tale obiettivo in modo più o meno certo, fornendo contestualmente effetti giuridici più o meno rilevanti.
+💡La sottoscrizione elettronica non è limitato all’apposizione della firma ma si tratta piuttosto di un processo informatico che permette di associare i dati utili a identificare il sottoscrittore al documento informatico. \
+Le diverse tipologie di firma elettronica consentono di raggiungere tale obiettivo in modo più o meno certo, fornendo contestualmente effetti giuridici più o meno rilevanti.
 
 Esistono diverse forme di firma elettronica, tra cui la **Firma Elettronica Semplice (FES)**, la **Firma Elettronica Avanzata (FEA)** e la **Firma Elettronica Qualificata (FEQ)**. Ognuna di queste presenta caratteristiche specifiche che le rendono adatte a diverse situazioni e livelli di sicurezza.
 
