@@ -37,6 +37,14 @@ In termini di sicurezza, la FEQ è la soluzione di firma **più affidabile** in 
 
 Sono inoltre presenti online [alcuni strumenti](https://www.agid.gov.it/it/piattaforme/firma-elettronica-qualificata/software-verifica) che permettono di verificare **la firma elettronica**.
 
+
+
+| UNO              | DUE                          | TRE |
+| ---------------- | ---------------------------- | --- |
+| valore giuridico | <p>Valore test <br>prova</p> |     |
+|                  |                              |     |
+|                  |                              |     |
+
 #### **3. PERCHÉ SCEGLIERE FIRMA CON IO**
 
 In considerazione di quanto sopra descritto, i vantaggi in termini di sicurezza per Enti e cittadini nello scegliere Firma con IO sono molteplici.
