@@ -42,7 +42,7 @@ Le richieste di fruizione sono più semplici degli accordi di interoperabilità 
 
 #### Che cos'è l'"analisi del rischio"?
 
-È la parte amministrativa della procedura di accesso alla fruizione di un e-service. Realizzato sulla base delle misure minime indicate nelle [_Linee guida AgID_](https://trasparenza.agid.gov.it/moduli/downloadFile.php?file=oggetto\_allegati/213481831510O\_\_O20211210\_LG+Infrastruttura+Interoperabilit%26%23224%3B+PDND\_v1.pdf), su invito del Garante, è un questionario per lo più contenente domande relative alla privacy e ai dati cui intende accedere un fruitore. Una nuova analisi del rischio andrà compilata per ogni finalità di accesso ai dati detenuti dall'erogatore. È possibile sfruttare dei template precompilati, disponibili direttamente nell'interfaccia del back office, per facilitare la compilazione dell'analisi.
+È la parte amministrativa della procedura di accesso alla fruizione di un e-service. Realizzato sulla base delle misure minime indicate nelle [_Linee guida AgID_](https://trasparenza.agid.gov.it/moduli/downloadFile.php?file=oggetto\_allegati/213481831510O\_\_O20211210\_LG+Infrastruttura+Interoperabilit%26%23224%3B+PDND\_v1.pdf), su invito del Garante, è un questionario per lo più contenente domande relative alla privacy e ai dati cui intende accedere un fruitore. Una nuova analisi del rischio andrà compilata per ogni finalità di accesso ai dati detenuti dall'erogatore.&#x20;
 
 #### È possibile sospendere un e-service per manutenzione?
 
