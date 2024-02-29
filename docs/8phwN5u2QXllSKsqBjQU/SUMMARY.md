@@ -4,7 +4,7 @@
 
 ## Casi d'uso
 
-* [🏛 Enti, Partner e Intermediari Tecnologici](casi-duso/enti-partner-e-intermediari-tecnologici/README.md)
+* [🏛️ Enti, Partner e Intermediari Tecnologici](casi-duso/enti-partner-e-intermediari-tecnologici/README.md)
   * [Testi descrittivi e termini](casi-duso/enti-partner-e-intermediari-tecnologici/testi-descrittivi-e-termini.md)
   * [Banner testuali](casi-duso/enti-partner-e-intermediari-tecnologici/banner-testuali.md)
   * [Banner con logo pagoPA](casi-duso/enti-partner-e-intermediari-tecnologici/banner-con-logo-pagopa.md)
@@ -32,6 +32,6 @@
 
 * [Scarica gli asset grafici](risorse-utili/scarica-gli-asset-grafici.md)
 
-## ℹ Documentazione
+## ℹ️ Documentazione
 
 * [Regolamento d'uso del marchio](https://www.pagopa.gov.it/assets/download/pagoPA-regolamento-marchio.pdf)

@@ -4,7 +4,7 @@ description: In questa pagina si danno indicazioni su come si legge e scrive "pa
 
 # Il logo pagoPA
 
-<figure><img src="../.gitbook/assets/Logo + Costruzione.png" alt="Costruzione del logo pagoPA"><figcaption><p>Costruzione del logo pagoPA</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/logo+costruzione.png" alt="Costruzione del logo pagoPA"><figcaption><p>Costruzione del logo pagoPA</p></figcaption></figure>
 
 Il logo pagoPA rappresenta **la piattaforma digitale che permette di effettuare pagamenti verso la Pubblica Amministrazione e dei gestori di pubblici servizi,** il cui sito ufficiale è [**pagopa.gov.it**](https://www.pagopa.gov.it).&#x20;
 
