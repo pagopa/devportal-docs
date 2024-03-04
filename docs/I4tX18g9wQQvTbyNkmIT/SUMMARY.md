@@ -6,3 +6,4 @@
 * [Come allegare documenti a un Messaggio](come-allegare-documenti-a-un-messaggio.md)
 * [Come sapere se un Cittadino ha abilitata la ricezione dei messaggi per un Servizio](come-sapere-se-un-cittadino-ha-abilitata-la-ricezione-dei-messaggi-per-un-servizio.md)
 * [Dev Talks /Creazione e Pubblicazione di un servizio in app IO](dev-talks-creazione-e-pubblicazione-di-un-servizio-in-app-io.md)
+* [Come utilizzare correttamente servizi e messaggi in app IO](come-utilizzare-correttamente-servizi-e-messaggi-in-app-io.md)
