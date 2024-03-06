@@ -28,7 +28,7 @@ Una volta pubblicati, tutti i servizi sono visibili nella sezione "Servizi" di I
 
 <figure><img src="../.gitbook/assets/servizi.png" alt=""><figcaption><p>La sezione Servizi dell'app</p></figcaption></figure>
 
-[<mark style="color:blue;">**Per scoprire come creare un servizio, leggi la guida tecnica -->**</mark>](http://127.0.0.1:5000/s/coSKRte21UjDBRWKLtEs/funzionalita/creare-un-servizio)&#x20;
+[<mark style="color:blue;">**Per scoprire come creare un servizio, leggi la guida tecnica -->**</mark>](https://app.gitbook.com/s/coSKRte21UjDBRWKLtEs/funzionalita/creare-un-servizio)&#x20;
 
 ## Le preferenze dei cittadini
 
@@ -44,7 +44,7 @@ Un servizio può contattare un utente solo se questo ha dichiarato di voler rice
 Se l'utente ha selezionato la configurazione manuale o non ha attivato l'opzione "Contattarti in app" di un servizio, questo non potrà inviargli messaggi.&#x20;
 
 {% hint style="info" %}
-L'ente può **conoscere lo stato di attivazione** del servizio invocando l'apposita [API](http://127.0.0.1:5000/s/coSKRte21UjDBRWKLtEs/api/api-messaggi/get-a-user-profile-using-post).
+L'ente può **conoscere lo stato di attivazione** del servizio invocando l'apposita [API](https://app.gitbook.com/s/coSKRte21UjDBRWKLtEs/api/api-messaggi/get-a-user-profile-using-post).
 {% endhint %}
 
 ### Le notifiche push&#x20;

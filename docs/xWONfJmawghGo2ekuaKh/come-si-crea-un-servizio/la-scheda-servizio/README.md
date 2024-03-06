@@ -15,7 +15,7 @@ Ogni ente ha quindi esposti sotto al proprio nome i servizi che offre su IO. Pre
 * il [**logo**](logo.md) del servizio, un elemento facoltativo;
 * una serie di **attributi** del servizio, come i [**contatti**](../../appendice/contatti.md) per richiedere assistenza e l’**informativa privacy** relativa al trattamento dei dati personali da parte dell'ente erogatore.&#x20;
 
-Per approfondire i dati da inserire nel caricamento di un nuovo servizio, [<mark style="color:blue;">**vai alla guida tecnica -->**</mark>](http://127.0.0.1:5000/s/coSKRte21UjDBRWKLtEs/funzionalita/creare-un-servizio/dati-obbligatori)&#x20;
+Per approfondire i dati da inserire nel caricamento di un nuovo servizio, [<mark style="color:blue;">**vai alla guida tecnica -->**</mark>](https://app.gitbook.com/s/coSKRte21UjDBRWKLtEs/funzionalita/creare-un-servizio/dati-obbligatori)&#x20;
 
 {% hint style="info" %}
 **L'importanza della scheda servizio**

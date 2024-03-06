@@ -19,5 +19,5 @@ Ecco i passaggi da seguire per definire un servizio.
 {% endcontent-ref %}
 
 {% hint style="info" %}
-[In questa sezione](../../appendice/lista-di-controllo.md) trovi un elenco da usare per assicurarti che il servizio sia definito e pronto per essere caricato e pubblicato su IO. Per scoprire come pubblicare un servizio su IO, [leggi la guida tecnica](http://127.0.0.1:5000/s/coSKRte21UjDBRWKLtEs/funzionalita/creare-un-servizio).&#x20;
+[In questa sezione](../../appendice/lista-di-controllo.md) trovi un elenco da usare per assicurarti che il servizio sia definito e pronto per essere caricato e pubblicato su IO. Per scoprire come pubblicare un servizio su IO, [leggi la guida tecnica](https://app.gitbook.com/s/coSKRte21UjDBRWKLtEs/funzionalita/creare-un-servizio).&#x20;
 {% endhint %}

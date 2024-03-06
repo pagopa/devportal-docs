@@ -37,5 +37,5 @@ Se decidi di creare un logo ad hoc per il servizio, suggeriamo di:
 <figure><img src="../../.gitbook/assets/logo su fondo bianco (1).png" alt=""><figcaption><p>Esempio logo con sfondo</p></figcaption></figure>
 
 {% hint style="info" %}
-Per approfondire, leggi le indicazioni contenute nella [guida tecnica.](http://127.0.0.1:5000/s/coSKRte21UjDBRWKLtEs/funzionalita/creare-un-servizio/dati-obbligatori)
+Per approfondire, leggi le indicazioni contenute nella [guida tecnica.](https://app.gitbook.com/s/coSKRte21UjDBRWKLtEs/funzionalita/creare-un-servizio/dati-obbligatori)
 {% endhint %}

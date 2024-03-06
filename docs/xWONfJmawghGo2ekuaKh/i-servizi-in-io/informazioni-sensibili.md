@@ -23,5 +23,5 @@ Dunque ti ricordiamo di:
 
 Se intendi includere dati sensibili nei tuoi servizi e nei messaggi che questi invieranno:
 
-* Tramite API, **contrassegna il servizio come "privacy-critical"** [(“require\_secure\_channel”: true)](http://127.0.0.1:5000/s/mzwjFv2XaE1mjbz7I8gt/api/api-servizi/create-service);
+* Tramite API, **contrassegna il servizio come "privacy-critical"** [(“require\_secure\_channel”: true)](https://app.gitbook.com/s/mzwjFv2XaE1mjbz7I8gt/api/api-servizi/create-service);
 * Tramite Developer Portal o Area Riservata, contrassegna il servizio come "**Servizio sensibile" quando crei la scheda del servizio.** Troverai questa spunta tra i dati di dettaglio del servizio.

@@ -17,11 +17,11 @@ Se usi uno dei [modelli](broken-reference) in questo manuale, puoi saltare i pas
 
 * [ ] Completa l'adesione a IO tramite l'Area Riservata
 * [ ] Accedi al back office di IO e compila la scheda servizio secondo le indicazioni di questo manuale
-* [ ] [Esegui le attività di test](http://127.0.0.1:5000/s/coSKRte21UjDBRWKLtEs/funzionalita/creare-un-servizio/visualizzare-un-servizio-in-test) e, in particolare, l'invio di un messaggio al Codice Fiscale indicato
+* [ ] [Esegui le attività di test](https://app.gitbook.com/s/coSKRte21UjDBRWKLtEs/funzionalita/creare-un-servizio/visualizzare-un-servizio-in-test) e, in particolare, l'invio di un messaggio al Codice Fiscale indicato
 * [ ] Procedi con la pubblicazione del servizio.
 
 {% hint style="info" %}
-Per maggiori dettagli, segui la guida tecnica all'integrazione dei servizi nella specifica sezione [Creare un servizio](http://127.0.0.1:5000/s/coSKRte21UjDBRWKLtEs/funzionalita/creare-un-servizio).
+Per maggiori dettagli, segui la guida tecnica all'integrazione dei servizi nella specifica sezione [Creare un servizio](https://app.gitbook.com/s/coSKRte21UjDBRWKLtEs/funzionalita/creare-un-servizio).
 {% endhint %}
 
 ## :thinking:Valutare il servizio

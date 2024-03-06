@@ -18,7 +18,7 @@ Erogare il servizio "Multe per violazioni al Codice della Strada" tramite IO per
 
 ## **Ciclo di vita del servizio**
 
-<figure><img src="../../.gitbook/assets/Multe.5.png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio multe per violazione del Codice della Strada</strong></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Multe-x.png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio multe per violazione del Codice della Strada</strong></p></figcaption></figure>
 
 ## Messaggio del servizio
 
@@ -28,9 +28,15 @@ Erogare il servizio "Multe per violazioni al Codice della Strada" tramite IO per
 L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende erogare questo servizio, può valutare quali e quanti messaggi inviare, in base alle proprie possibilità di integrazione. L'obiettivo finale rimane quello di inviarli tutti, rilasciando versioni del servizio sempre più complete.
 {% endhint %}
 
+### Emissione preavviso di accertamento
+
 <details>
 
 <summary>Emissione preavviso di accertamento</summary>
+
+:sparkles: <mark style="color:blue;">**Messaggio Premium**</mark> — Se hai un contratto Premium, ti consigliamo di configurare questo messaggio con promemoria Premium: i destinatari verranno avvisati dell‘avvicinarsi della scadenza tramite notifica push.
+
+***
 
 **🖋 Titolo del messaggio:** Preavviso di accertamento
 
@@ -42,69 +48,55 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 \[Vedi accertamento]\(URL)
 
-**Da pagare**: \<xx,yy> €, già scontato del 30% se paghi entro il \<gg/mm/aaaa>
+**Da pagare**: <00,00> €, già scontato del 30% se paghi entro il \<gg/mm/aaaa>
 
-**Cosa succede se non pago entro il \<gg/mm/aa>?** Se previsto, riceverai il verbale di contravvenzione al tuo indirizzo di residenza e ti verranno addebitate le spese di notifica.&#x20;
+**Cosa succede se non pago entro il \<gg/mm/aa>?** Riceverai il verbale di contravvenzione in base a quanto previsto dal Codice della Strada e potranno essere addebitate le spese di notifica.&#x20;
+
+In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio potrebbe subire variazioni.
 
 **🪄  Pulsante**: Vedi avviso
 
-**---**
+***
 
-**Destinatari**: Tutti i cittadini residenti nell'area geografica di azione del servizio che hanno effettuato una violazione del Codice della Strada
+**Destinatari**: Tutti i cittadini residenti nell'area geografica di azione del servizio che hanno commesso una violazione del Codice della Strada
 
-**Quando inviarlo**: Quando è commessa la violazione e dopo che è stata aperta la relativa posizione debitoria
+**Quando inviarlo**: Quando è stata commessa la violazione
 
-**User story**: <mark style="color:purple;">Come cittadino voglio ricevere notifica immediata della violazione commessa</mark>
-
-</details>
-
-<details>
-
-<summary>Pagamento in scadenza</summary>
-
-**🖋 Titolo del messaggio:** Pagamento in scadenza
-
-🗒 **Testo del messaggio**: Hai tempo fino al \<gg/mm/aa> per pagare il verbale di contravvenzione numero \<numero verbale>. Pagalo subito per evitare costi aggiuntivi.
-
-**🪄  Pulsante**: n/a
-
-**---**
-
-**Destinatari**: Tutti i cittadini residenti nell'area geografica di azione del servizio che hanno effettuato una violazione del Codice della Strada
-
-**Quando inviarlo**: Quando la scadenza del verbale è imminente
-
-**User story**: <mark style="color:purple;">Come cittadino voglio ricevere un promemoria per i pagamenti in scadenza</mark>
+**User story**: Come cittadino voglio ricevere comunicazione della violazione commessa
 
 </details>
+
+### Emissione verbale di contestazione
 
 <details>
 
 <summary>Avvenuta spedizione del verbale </summary>
 
-**🖋 Titolo del messaggio:** Spedizione del verbale
+**🖋 Titolo del messaggio:** Invio del verbale
 
-🗒 **Testo del messaggio**: Abbiamo inviato al tuo indirizzo di residenza il verbale di contravvenzione \<numero verbale>. Lo riceverai tramite raccomandata nei prossimi giorni.&#x20;
+🗒 **Testo del messaggio**: In base al Codice della Strada, ti abbiamo inviato il verbale di contestazione \<numero verbale>. Lo riceverai nei prossimi giorni.&#x20;
 
-L’importo del verbale comprenderà le spese di notifica. Per maggiori informazioni, visita \[questo sito]\(URL).
+L’importo del verbale potrà comprendere spese di notifica. Per maggiori informazioni, visita \[questo sito]\(URL).
 
 **🪄  Pulsante**: n/a
 
-**---**
+***
 
-**Destinatari**: Tutti i cittadini che hanno ricevuto un avviso di accertamento e non lo hanno pagato
+**Destinatari**: Tutti i cittadini che hanno ricevuto una contravvenzione e non l'hanno pagata
 
-**Quando inviarlo**: Quando è scaduto
+**Quando inviarlo**: Quando sono trascorsi i giorni previsti per pagare la contravvenzione in misura ridotta
 
-**User story**: <mark style="color:purple;">Come cittadino voglio ricevere notifica immediata della violazione commessa</mark>
+**User story**: Come cittadino voglio ricevere comunicazione della violazione commessa
 
 </details>
+
+***
 
 {% hint style="success" %}
 **Lo sapevi?**\
 IO è integrata con SEND - Servizio Notifiche Digitale, per l'invio di comunicazioni a valore legale.
 
-[**Scopri di più su SEND**](https://www.pagopa.it/it/prodotti-e-servizi/piattaforma-notifiche-digitali) [**-->**](https://www.pagopa.it/it/prodotti-e-servizi/piattaforma-notifiche-digitali)
+[**Scopri di più su SEND**](https://www.pagopa.it/it/prodotti-e-servizi/piattaforma-notifiche-digitali) [**->**](https://www.pagopa.it/it/prodotti-e-servizi/piattaforma-notifiche-digitali)
 {% endhint %}
 
 {% hint style="info" %}
