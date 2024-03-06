@@ -16,4 +16,5 @@
 * [Parere del Garante per la Protezione dei Dati Personali](https://www.garanteprivacy.it/web/guest/home/docweb/-/docweb-display/docweb/9732758)
 * [PDND - Piattaforma Digitale Nazionale Dati](https://developers.italia.it/it/pdnd/)
 * [Ecosistema Interoperabilità](https://next.developers.italia.it/it/interoperabilita/)
-* [Obblighi e termini di accreditamento a PDND Interoperabilità](https://www.gazzettaufficiale.it/eli/id/2022/11/22/22A06623/sg)
+* [Obblighi e termini di accreditamento a PDND Interoperabilità](https://www.gazzettaufficiale.it/eli/id/2022/11/22/22A06623/sg)&#x20;
+* [Decreto 05.12.2023 - Direttiva PDND Interoperabilità](https://www.governo.it/sites/governo.it/files/Decreto20231205\_Direttiva\_PDND.pdf)
