@@ -72,13 +72,11 @@ La periodicità di invio per i **promemoria di lettura** segue la logica di segu
 La periodicità di invio per i promemoria di pagamento seguirà **logiche differenti a seconda della presenza di una** [**data di scadenza**](https://docs.pagopa.it/manuale-servizi/comunicare-un-servizio/i-casi-duso/scadenze-importanti):
 
 * Per i **messaggi con avviso di pagamento senza scadenza**, si manderanno fino a quattro promemoria di pagamento del tipo «_“Hai un avviso da pagare” + oggetto_» con frequenza pari a 3 giorni. L’invio dei promemoria non dipenderà dall’apertura del messaggio, per cui non saranno inviati promemoria di lettura.
-  *   Esempio: il Cittadino riceve un messaggio Premium con avviso di pagamento senza scadenza, ma non lo paga. Riceverà fino a quattro promemoria al 3°, 6°, 9° e 12° giorno (l'avvenuto pagamento dell'avviso interromperà la sequenza)\
-
+  *   Esempio: il Cittadino riceve un messaggio Premium con avviso di pagamento senza scadenza, ma non lo paga. Riceverà fino a quattro promemoria al 3°, 6°, 9° e 12° giorno (l'avvenuto pagamento dell'avviso interromperà la sequenza)
 
       <figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 * Per i **messaggi con avviso di pagamento e data di scadenza** dichiarata dall’ente, si conteranno i giorni a ritroso dalla data per consentire l’invio di fino a quattro promemoria con una frequenza pari a 3 giorni. Anche in questo caso non saranno inviati promemoria di lettura.
-  *   Esempio: il Cittadino riceve un messaggio Premium con avviso di pagamento dotato di scadenza, ma non lo paga. Riceverà fino a quattro promemoria 13, 10, 7 e 4 giorni prima della scadenza del tipo «_“Hai un avviso da pagare” + oggetto_» (l'avvenuto pagamento dell'avviso interromperà la sequenza)\
-
+  *   Esempio: il Cittadino riceve un messaggio Premium con avviso di pagamento dotato di scadenza, ma non lo paga. Riceverà fino a quattro promemoria 13, 10, 7 e 4 giorni prima della scadenza del tipo «_“Hai un avviso da pagare” + oggetto_» (l'avvenuto pagamento dell'avviso interromperà la sequenza)
 
       <figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
