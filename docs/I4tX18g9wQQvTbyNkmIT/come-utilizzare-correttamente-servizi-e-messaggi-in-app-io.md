@@ -28,7 +28,7 @@ Come vedi, **un servizio non coincide con il messaggio o con la tipologia di mes
 Nella tabella che segue trovi un esempio sbagliato, con un numero inutilmente elevato di servizi relativi alla TARI:
 {% endhint %}
 
-<table data-header-hidden><thead><tr><th width="65"></th><th></th><th></th></tr></thead><tbody><tr><td></td><td><strong>SERVIZIO</strong></td><td><strong>MESSAGGIO</strong></td></tr><tr><td>❌</td><td>TRIBUTI - TARI - Notifica sollecito</td><td>Notifica sollecito TARI</td></tr><tr><td>❌</td><td>TRIBUTI - TARI - Notifica provvedimento ordinario</td><td>Notifica provvedimento ordinario TARI</td></tr><tr><td>❌</td><td>TRIBUTI - TARI - Notifica provvedimento sanzionatorio</td><td>Notifica provvedimento sanzionatorio TARI</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="392"></th><th></th></tr></thead><tbody><tr><td><strong>SERVIZIO</strong></td><td><strong>MESSAGGIO</strong></td></tr><tr><td>❌  TRIBUTI - TARI - Notifica sollecito</td><td>Notifica sollecito TARI</td></tr><tr><td>❌  TRIBUTI - TARI - Notifica provvedimento ordinario</td><td>Notifica provvedimento ordinario TARI</td></tr><tr><td>❌  TRIBUTI - TARI - Notifica provvedimento sanzionatorio</td><td>Notifica provvedimento sanzionatorio TARI</td></tr></tbody></table>
 
 In realtà, **l’unico servizio è la TARI**, ed è da questo unico servizio che dovrai inviare tutti i messaggi relativi al suo ciclo di vita del servizio, come ad esempio:
 
