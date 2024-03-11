@@ -1,6 +1,8 @@
 # Come utilizzare correttamente servizi e messaggi in app IO
 
-Servizi e messaggi in app IO hanno funzioni diverse, e soltanto utilizzandoli nel modo corretto potrai migliorare le tue comunicazioni con i cittadini, ed evitare la proliferazione di servizi non necessari che potrebbero complicare inutilmente il tuo lavoro.  Ne parliamo in questo tutorial, cominciando dalle basi: cos’è un servizio e cos’è un messaggio?
+Servizi e messaggi in app IO hanno funzioni diverse, e soltanto utilizzandoli nel modo corretto potrai migliorare le tue comunicazioni con i cittadini, ed evitare la proliferazione di servizi non necessari che potrebbero complicare inutilmente il tuo lavoro.  Ne parliamo in questo tutorial, cominciando dalle basi: **cos’è un servizio e cos’è un messaggio?**
+
+### Cos’è un servizio?
 
 Un servizio veicolato tramite IO è **la versione digitale o l'estensione di un servizio già digitalizzato** erogato da un ente – pubblico, privato, centrale o locale – e destinato a uno o più gruppi di cittadini.
 
