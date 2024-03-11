@@ -55,11 +55,11 @@ Il "Reminder" è un componente dell'infrastruttura di IO in grado di reagire all
 
 La periodicità di invio per i **promemoria di lettura** segue la logica di seguito illustrata:
 
-* la configurazione prevede una frequenza pari a 3 giorni per i promemoria di mancata lettura. È previsto l’invio fino a 3 promemoria del tipo «_“Leggi il messaggio di \[nome Ente]“ + oggetto_».
-  *   Esempio: il Cittadino riceve un messaggio Premium, ma non lo legge. Riceverà fino a tre promemoria al 3°, al 6° e al 9° giorno (la lettura del messaggio interromperà la sequenza)\
+*   la configurazione prevede una frequenza pari a 3 giorni per i promemoria di mancata lettura. È previsto l’invio fino a 3 promemoria del tipo «_“Leggi il messaggio di \[nome Ente]“ + oggetto_».
 
+    * Esempio: il Cittadino riceve un messaggio Premium, ma non lo legge. Riceverà fino a tre promemoria al 3°, al 6° e al 9° giorno (la lettura del messaggio interromperà la sequenza)
 
-      <figure><img src="https://lh4.googleusercontent.com/IQJUVa6BPQmFvp_2VG5ZQZ8CIM8oOeFaxYxHbZshcFw7xgVgSJ4pAnbl1Ijkr0jwgDAWfKfYM70hDihjE5vc9dNzmkFwHXqDbEa8W-Kx38ti-QE4NJH-69bgJ339PDa63ANxxz5FoHOxqKJSToH-wjA" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/domande-risposte_kb_enti (1).png" alt=""><figcaption></figcaption></figure>
 
 :information\_source: I promemoria verranno inviati nella fascia oraria che va **dalle 8:00 alle 20:00**.
 
