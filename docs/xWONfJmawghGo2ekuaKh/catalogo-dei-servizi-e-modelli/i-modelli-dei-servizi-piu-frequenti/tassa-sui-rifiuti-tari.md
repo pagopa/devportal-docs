@@ -1,6 +1,6 @@
 # Tassa sui rifiuti (TARI)
 
-Erogare il servizio "TARI" tramite IO permette agli enti di:
+Erogare il servizio "Tassa sui rifiuti (TARI)" tramite IO permette agli enti di:
 
 * fornire ai cittadini comunicazioni puntuali sullo stato della TARI, coprendo **l’intero ciclo di vita del servizio**.
 * rappresentare per i cittadini un unico punto di riferimento per la ricezione delle comunicazioni riguardanti la TARI su **uno o più immobili, anche di diversi Comuni** e con differenti regolamentazioni, se presenti su IO.

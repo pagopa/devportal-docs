@@ -4,15 +4,17 @@ Scopo di questo documento è di raccogliere i test che una PA mittente, o il su
 
 ### Istruzioni su processo di validazione dei test
 
-Per convalidare i test descritti nel documento: Test di certificazione avvenuta integrazione con Piattaforma Notifiche è possibile utilizzare il tool di validazione PN-Validator, la cui documentazione ed istruzioni di utilizzo sono esposti alla seguente pagina: [https://docs.pagopa.it/pnvalidator/](https://docs.pagopa.it/pnvalidator/)
+Per convalidare i test descritti nel documento: "T_est di certificazione avvenuta integrazione con Piattaforma Notifiche"_ è possibile utilizzare il tool di validazione PN-Validator, la cui documentazione ed istruzioni di utilizzo sono esposti alla seguente pagina: [https://docs.pagopa.it/pnvalidator/](https://docs.pagopa.it/pnvalidator/)
 
-Il PN-Validator genera un report in formato JSON visualizzabile contattando la url: _{basUrlValidator}/checklistresult_ dove sono elencate una serie di domande inizialmente in false, che descrivono le azioni da compiere per considerare validati i test-case. Il report verrà aggiornato di volta in volta che le chiamate effettuate dal partner soddisferanno i requisiti richiesti dal test-case di riferimento, portando le domande in true.
+Il PN-Validator genera un report in formato JSON visualizzabile contattando la url: _{basUrlValidator}/checklistresult_ dove sono elencate una serie di domande inizialmente in stato _false_, che descrivono le azioni da compiere per considerare validati i test-case. Il report verrà aggiornato di volta in volta che le chiamate effettuate dal partner soddisferanno i requisiti richiesti dal test-case di riferimento, portando le domande in true.
 
-Quando tutte le domande appartenenti al gruppo del test-case passeranno in true, tale test-case è da considerarsi validato; una volta eseguiti positivamente tutti i test e quando tutte le domande presenti nel report saranno passate in true, potranno essere considerati convalidati tutti i test.
+Quando tutte le domande appartenenti al gruppo del test-case passeranno in stato _true_, tale test-case è da considerarsi validato; una volta eseguiti positivamente tutti i test e quando tutte le domande presenti nel report saranno passate in stato _true_, potranno essere considerati convalidati tutti i test.
 
 Come ulteriore supporto a questa fase dell'integrazione, trovate a questo link il documento Modello di integrazione di Piattaforma Notifiche Digitali:\
 [https://docs.pagopa.it/modello-di-integrazione-di-piattaforma-notifiche/](https://docs.pagopa.it/modello-di-integrazione-di-piattaforma-notifiche/)  \
 dove vengono descritti di diversi scenari di integrazione e le due diverse possibili modalità di aggiornamento della posizione debitoria.
+
+NOTA: in caso l'ente mittente utilizzi esclusivamente la modalità asincrona di integrazione con il sistema pagoPA il test del PN-Validator è considerato valido anche se non sono soddisfatte le domande relative alla chiamata dell'API per l'attualizzazione del importo con i costi di notifica.
 
 #### Validazione dei test lato Partner
 
@@ -40,7 +42,28 @@ _4.      Una copia del report ottenuta dal Validator tool utilizzando la Soluzio
 
 ### Descrizione dei test case di integrazione con Piattaforma Notifiche
 
-**TC-INVIO-01: Creazione di una notifica che richiede un pagamento per un singolo destinatario**
+I passi dei test sono i seguenti:
+
+* **`TC-INVIO-01:`** Notifiche senza pagamento collegato&#x20;
+* **`TC-INVIO-02:`** Notifiche con pagamento collegato: l'esecuzione dei test differisce tra la modalità di integrazione con il sistema pagoPA
+* **`TC-COSTO-01`**`:` Ricezione del costo di notifica (ignorare solo in caso in modalità asincrona di integrazione con il sistema pagoPA)
+* **`TC-INVIO-03:`** Ricezione dello IUN e degli stati di una notifica
+* **`TC-INVIO-04:`** Scaricamento attestazioni opponibili ai terzi e ricevute&#x20;
+
+#### **TC-INVIO-01: Creazione di una notifica che NON richiede un pagamento per un singolo destinatario**
+
+* La PA mittente produce almeno un documento PDF (atto/i notificato/i)
+* La PA definisce la denominazione del destinatario (es. Nome e Cognome) ed il suo Codice Fiscale&#x20;
+* La PA definisce il domicilio digitale speciale del destinatario
+* La PA definisce l’indirizzo fisico del destinatario
+* La PA definisce la modalità dell’invio cartaceo
+* La PA pre-carica i documenti PDF utilizzando le API fornite da PN
+* La PA invoca l’API di creazione di una notifica, indicando `pagoPaIntMode=NONE`
+* La PA riceve l’esito della creazione, in caso di successo memorizza la requestID
+
+Evidenze da produrre: Report del Validator tool; in alternativa, i documenti e metadati utilizzati per generare la notifica e requestID ottenuto
+
+#### **TC-INVIO-02: Creazione di una notifica che richiede un pagamento per un singolo destinatario**
 
 * La PA mittente produce almeno due documenti PDF (atto/i notificato/i e avviso pagoPA)
 * La PA definisce la denominazione del destinatario (es. Nome e Cognome) ed il suo Codice Fiscale&#x20;
@@ -48,43 +71,17 @@ _4.      Una copia del report ottenuta dal Validator tool utilizzando la Soluzio
 * La PA definisce l’indirizzo fisico del destinatario
 * La PA definisce la modalità dell’invio cartaceo
 * La PA definisce i dati relativi all’avviso pagoPA (Codice Fiscale ente creditore e codice avviso)
-* La PA precarica i documenti PDF utilizzando le API fornite da PN
-* La PA invoca l’API di creazione di una notifica
+* La PA pre-carica i documenti PDF utilizzando le API fornite da PN
+* Per modalità di integrazione **sincrona** con pagoPA:
+  * La PA invoca l’API di creazione di una notifica indicando `pagoPaIntMode=SYNC`
+* Per modalità di integrazione **asincrona** con pagoPA:
+  * La PA mittente deve utilizzare avvisi già creati sull'ambiente UAT pagoPA di Integrazione Asincrona (https://docs.pagopa.it/sanp/ente-creditore/modalita-dintegrazione/integrazione-tramite-api-asincrone)
+  * La PA invoca l’API di creazione di una notifica, indicando `pagoPaIntMode=ASYNC`
 * La PA riceve l’esito della creazione, in caso di successo memorizza la requestID
 
 Evidenze da produrre: Report del Validator tool; in alternativa, i documenti e metadati utilizzati per generare la notifica e requestID ottenuto
 
-**TC-INVIO-01bis: Creazione di una notifica che non richiede un pagamento per un singolo destinatario**
-
-* La PA mittente produce almeno un documento PDF (atto/i notificato/i)
-* La PA definisce la denominazione del destinatario (es. Nome e Cognome) ed il suo Codice Fiscale&#x20;
-* La PA definisce il domicilio digitale speciale del destinatario
-* La PA definisce l’indirizzo fisico del destinatario
-* La PA definisce la modalità dell’invio cartaceo
-* La PA precarica i documenti PDF utilizzando le API fornite da PN
-* La PA invoca l’API di creazione di una notifica
-* La PA riceve l’esito della creazione, in caso di successo memorizza la requestID
-
-Evidenze da produrre: Report del Validator tool; in alternativa, i documenti e metadati utilizzati per generare la notifica e requestID ottenuto
-
-**TC-INVIO-02: Ricezione dello IUN e degli stati di una notifica**\
-Prerequisito: La PA mittente definisce uno stream attraverso il quale ricevere i dati relativi agli elementi di timeline di una notifica
-
-* La PA configura uno stream che permetta la ricezione di tutti gli eventi di timeline
-* La PA interroga lo stream utilizzando l’API fornita da PN
-* La PA riceve tra gli eventi quello di conferma della creazione della notifica ed il relativo IUN&#x20;
-* La PA riceve gli eventi successivi relativi alla notifica
-
-Evidenza da produrre: Report del Validator tool; in alternativa, il requestID della notifica che ha avuto successo e lo IUN corrispondente; inoltre fornisce, per quello IUN, la data e tipologia di tutti gli eventi ricevuti ed il relativo timestamp (quello restituito dall’API). Viene verificato che le chiamate all’API rispettano le indicazioni fornite attraverso il parametro retry-after
-
-**TC-INVIO-03: Scaricamento attestazioni opponibili ai terzi e ricevute** \
-Prerequisito: La PA mittente ha ricevuto gli eventi di timeline di una notifica
-
-* La PA utilizza le API per effettuare il download di file utilizzando le informazioni presenti negli elementi di timeline
-
-Evidenza da produrre: Report del Validator tool; in alternativa, per ogni elemento di timeline contenente un riferimento ad un documento vengono forniti IUN, tipologia dell’elemento di timeline, timestamp e documento scaricato
-
-**TC-COSTO-01: Attualizzazione della componente costo della notifica associata alla posizione debitoria**
+#### **TC-COSTO-01: Attualizzazione della componente costo della notifica associata alla posizione debitoria (ignorare solo per modalità integrazione asincrona con pagoPA)**
 
 _**Scenario 1**_: La PA mittente ha creato una notifica di test nella quale l’ente creditore per il pagamento coincide con la PA mittente. Si procede all’accesso alla notifica attraverso il portale Destinatario oppure si effettua il pagamento di uno degli IUV associati alla notifica
 
@@ -97,3 +94,19 @@ _**Scenario 2**_: La PA mittente ha creato una notifica di test nella quale l’
 * L’ente creditore riceve la richiesta di validazione della posizione debitoria e si coordina con la PA mittente per effettuare l’attualizzazione attraverso l’invocazione dell' API NotificationPrice, che restituisce la data di perfezionamento ed il costo della notifica
 
 Evidenza da produrre: Report del Validator tool; in alternativa, IUN, timestamp della richiesta di validazione, timestamp del perfezionamento, costo della notifica restituito dall’API
+
+#### **TC-INVIO-03: Ricezione dello IUN e degli stati di una notifica** Prerequisito: La PA mittente definisce uno stream attraverso il quale ricevere i dati relativi agli elementi di timeline di una notifica
+
+* La PA configura uno stream che permetta la ricezione di tutti gli eventi di timeline
+* La PA interroga lo stream utilizzando l’API fornita da PN
+* La PA riceve tra gli eventi quello di conferma della creazione della notifica ed il relativo IUN&#x20;
+* La PA riceve gli eventi successivi relativi alla notifica
+
+Evidenza da produrre: Report del Validator tool; in alternativa, il requestID della notifica che ha avuto successo e lo IUN corrispondente; inoltre fornisce, per quello IUN, la data e tipologia di tutti gli eventi ricevuti ed il relativo timestamp (quello restituito dall’API). Viene verificato che le chiamate all’API rispettano le indicazioni fornite attraverso il parametro retry-after
+
+#### **TC-INVIO-04: Scaricamento attestazioni opponibili ai terzi e ricevute** Prerequisito: La PA mittente ha ricevuto gli eventi di timeline di una notifica
+
+* La PA utilizza le API per effettuare il download di file utilizzando le informazioni presenti negli elementi di timeline
+
+Evidenza da produrre: Report del Validator tool; in alternativa, per ogni elemento di timeline contenente un riferimento ad un documento vengono forniti IUN, tipologia dell’elemento di timeline, timestamp e documento scaricato
+

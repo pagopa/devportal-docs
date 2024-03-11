@@ -27,4 +27,4 @@
 
 ***
 
-* [Link utili](https://docs.pagopa.it/manuale-servizi/risorse-utili/link-utili)
+* [Link utili](https://docs.pagopa.it/manuale-servizi/appendice/risorse-utili)

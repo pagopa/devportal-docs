@@ -2,7 +2,7 @@
 
 In questo tutorial vedremo come effettuare l'upload tramite _REST API_ dei documenti PDF da far firmare con Firma con IO, una volta creata con successo una **Signature Request**.
 
-L'upload dei file che dovranno essere firmati con Firma con IO, non viene effettuato direttamente sul Resource Server che espone le API di Firma con IO, ma su un Document Storage dedicato, basato su [Azure BLOB Storage](https://azure.microsoft.com/it-it/products/storage/blobs/). Pertanto, per ciascun documento da far firmare, questi sono gli step necessari:
+L'upload dei file che dovranno essere firmati con Firma con IO, non viene effettuato direttamente sul Resource Server che espone le API di Firma con IO, ma su un Document Storage dedicato, basato su [Azure BLOB Storage](https://azure.microsoft.com/it-it/products/storage/blobs). Pertanto, per ciascun documento da far firmare, questi sono gli step necessari:
 
 1. Ottenere il document\_id dalla Signature request. Nell'esempio riportato in [Creazione di una Signature request](https://docs.pagopa.it/manuale-operativo-di-firma-con-io/richiedere-una-firma/creazione-di-una-signature-request) il document\_id era: "01ARZ3NDEKTSV4RRFFQ69G5FAV";
 

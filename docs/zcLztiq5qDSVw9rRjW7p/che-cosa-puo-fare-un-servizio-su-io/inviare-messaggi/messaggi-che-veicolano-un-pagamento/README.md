@@ -72,7 +72,7 @@ Questi messaggi devono:
 
 ❌ c'è un errore di contenuto fuorviante per l'utente (il pulsante non è "Paga", ma "Vedi Avviso");
 
-❌ ci sono alcuni errori di stile (per esempio, "PagoPA" dovrebbe essere "pagoPA", come da [linee guida del brand](http://localhost:5000/s/8phwN5u2QXllSKsqBjQU/specifiche-tecniche/il-logo-pagopa)).
+❌ ci sono alcuni errori di stile (per esempio, "PagoPA" dovrebbe essere "pagoPA", come da [linee guida del brand](https://app.gitbook.com/s/8phwN5u2QXllSKsqBjQU/specifiche-tecniche/il-logo-pagopa)).
 {% endtab %}
 {% endtabs %}
 

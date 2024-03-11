@@ -27,7 +27,7 @@ Le diverse rate vanno inserite dopo la porzione [rate-multiple.md](rate-multiple
 ## Specifiche e testi segnaposto
 
 {% hint style="info" %}
-Per le specifiche consulta il _Manuale della stampa in proprio_ di Poste Italiane, consultabile sul sito [poste.it](bollettino-postale-pa.md#rata-unica)
+Per le specifiche consulta il [_Manuale della stampa in proprio_](https://business.poste.it/business/files/1476473314849/manuale-stampa-in-proprio.pdf) di Poste Italiane, consultabile sul sito [poste.it](https://www.poste.it)
 {% endhint %}
 
 ### `<numero_cc_postale>`

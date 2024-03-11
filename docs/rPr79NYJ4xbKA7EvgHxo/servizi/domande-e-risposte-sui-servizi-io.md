@@ -12,7 +12,7 @@ Consulta il [Manuale dei Servizi IO](https://docs.pagopa.it/manuale-servizi/) e 
 
 <summary>Posso creare un servizio utilizzando le API di integrazione?</summary>
 
-Sì, utilizzando le [API Servizi](https://docs.pagopa.it/io-guida-tecnica/api/api-servizi).
+Sì, utilizzando le [API Servizi](https://docs.pagopa.it/io-guida-tecnica/api-e-specifiche/api-servizi).
 
 </details>
 
@@ -28,7 +28,7 @@ No, al momento non è possibile cancellare un servizio. Rinomina il servizio agg
 
 <summary>Posso visualizzare la scheda di un servizio non ancora visibile in app?</summary>
 
-Sì, attraverso la procedura descritta in [Visualizzare un servizio in test](https://docs.pagopa.it/io-guida-tecnica/funzionalita/creare-un-servizio/visualizzare-un-servizio-in-test).
+Sì, attraverso la procedura descritta in [Visualizzare un servizio in test](https://docs.pagopa.it/io-guida-tecnica/funzionalita/pubblicare-un-servizio/provare-un-servizio-in-test).
 
 </details>
 
@@ -56,7 +56,7 @@ Chiave primaria e secondaria sono equivalenti e sono duplicate per poter effettu
 
 <summary>Posso sapere se un Cittadino sia su IO?</summary>
 
-Sì, tramite l'API [Get a User Profile using POST](https://docs.pagopa.it/io-guida-tecnica/api/api-messaggi/get-a-user-profile-using-post).
+Sì, tramite l'API [Get a User Profile using POST](https://docs.pagopa.it/io-guida-tecnica/api-e-specifiche/api-messaggi/get-a-user-profile-using-post).
 
 </details>
 

@@ -12,18 +12,18 @@ Per sperimentare con il [markdown](https://it.wikipedia.org/wiki/Markdown) di un
 2.  Nella scheda del servizio, scegli una delle due chiavi ([è indifferente](https://docs.pagopa.it/kb-enti-servizi/domande-frequenti/domande-e-risposte-sui-servizi-io#perche-ci-sono-due-api-key-per-servizio)) e seleziona il pulsante "Usa questa chiave"\
 
 
-    <figure><img src="broken-reference" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/kb_enti_2 (2).png" alt=""><figcaption></figcaption></figure>
 3.  Il sistema ti mostrerà l'interfaccia di invio di test\
 
 
-    <figure><img src="broken-reference" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/kb_enti_3 (2).png" alt=""><figcaption></figcaption></figure>
 4. Inizialmente, nel campo Codice Fiscale puoi inserire solo il CF speciale `AAAAAA00A00A000A`, che ti permetterà di ricevere il messaggio sulla casella di email che hai dichiarato quando ti sei iscritto all'Area Riservata come delegato; se desideri fare test con codici fiscali reali, fai riferimento a [#voglio-inviare-un-messaggio-di-prova-alla-mia-app-io](come-spedire-il-mio-primo-messaggio-di-test.md#voglio-inviare-un-messaggio-di-prova-alla-mia-app-io "mention")
 5. Compila il form scrivendo il soggetto del messaggio e il suo corpo in formato [markdown](https://it.wikipedia.org/wiki/Markdown); poni attenzione alle lunghezze minime dei campi, almeno 10 caratteri per il soggetto e almeno 80 per il corpo
 6. Seleziona il pulsante "Invia"
 7.  Verifica il recapito del messaggio dalla casella di posta elettronica del delegato che ha creato il Servizio:\
 
 
-    <figure><img src="broken-reference" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/kb_enti_7.png" alt=""><figcaption></figcaption></figure>
 
 </details>
 
@@ -37,6 +37,10 @@ Per sperimentare con il [markdown](https://it.wikipedia.org/wiki/Markdown) di un
 
 2. Una volta ottenuta l'abilitazione, puoi procedere all'invio del messaggio ai codici fiscali autorizzati, che lo riceveranno sulla propria App IO.
 
-Per maggiori informazioni sulla spedizione dei messaggi vedi [Broken link](broken-reference "mention").
+Per maggiori informazioni sulla spedizione dei messaggi vedi
+
+[come inviare un messaggio](come-inviare-un-messaggio.md)
+
+
 
 </details>

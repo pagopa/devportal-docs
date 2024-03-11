@@ -1,6 +1,6 @@
 # Messaggio di test inviato ai cittadini
 
-Quando si invia un messaggio di test, bisogna assicurarsi di seguire le [indicazioni della guida tecnica](http://127.0.0.1:5000/s/coSKRte21UjDBRWKLtEs/funzionalita/inviare-un-messaggio/messaggi-di-test), così da evitare errori nell'invio.
+Quando si invia un messaggio di test, bisogna assicurarsi di seguire le [indicazioni della guida tecnica](https://app.gitbook.com/s/coSKRte21UjDBRWKLtEs/funzionalita/inviare-un-messaggio/messaggi-di-test), così da evitare errori nell'invio.
 
 Nel caso in cui venga comunque inviato un messaggio di test ai cittadini, suggeriamo di inviare un messaggio di errata corrige a partire da questo template:
 

@@ -16,12 +16,12 @@ Si precisa che la modalità di connessione al nodo "diretta" sta ad indicare che
 
 Inoltre, una volta selezionata la modalità "diretta" non è possible da sistema cambiarla in "indiretta". Per fare ciò è necessario contattare l'assistenza tecnica.
 
-La modalità "indiretta" prevede invece che l'EC sarà connesso al nodo per il tramite di un EC "diretto" oppure di un Partner Tecnologico.
+La modalità "indiretta" prevede invece che l'EC sarà connesso al nodo per il tramite di un EC "diretto" oppure di un Partner Tecnologico. Affinchè il Partner Tecnologico possa poi associare l'EC ad una stazione è necessario che l'EC abbia concluso la procedura di registrazione al nodo indicata in questa sezione.
 
 ![](../../.gitbook/assets/spaces\_TbHElktP96kviaIsxPFs\_uploads\_hL0lb3IbEe9mUYvUYQ9m\_image.webp)
 {% endhint %}
 
-## Registrazione al Nodo: Ambiente di Collaudo
+## Registrazione al Nodo
 
 Per procedere alla Registrazione al nodo, all'interno del box "E ora?" l'utente può **cliccare** sul tasto "**Completa registrazione** -->".
 
@@ -35,7 +35,7 @@ Indirizzo, Provincia, Domicilio Fiscale, Città e CAP, **all'interno** della **s
 
 Inoltre, l'utente oltre a dover procedere alla compilazione dei suddetti campi, è **tenuto** ad **esprimere** la scelta relativa alla **modalità** di **connessione** al **Nodo**. Tale scelta avviene **tramite** **selezione** **dell'opzione "Diretta"/"Indiretta"** all'interno della **sezione** **"Modalità di connessione al Nodo"**.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p><em>Registrazione al Nodo - da completare</em></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p><em>Registrazione al Nodo - da completare</em></p></figcaption></figure>
 
 
 
@@ -106,14 +106,6 @@ L'utente, una volta completata la registrazione al Nodo **potrà** intervenire a
 * **Provincia**
 * **CAP**
 * **Modalità di Connessione al Nodo:** questa scelta è **modificabile** **solo** se si intende passare **da** connessione **Indiretta** a **Diretta** e non viceversa, questo perchè potrebbero esserci dei rapporti di associazione in corso sui canali configurati.
-
-## Registrazione al Nodo: Ambiente di Produzione
-
-Anche in questo ambiente, l'utente **solo dopo** aver **completato** la **Registrazione**, può procedere all'esecuzione degli step successivi, come la Generazione delle API Key, che può avviare direttamente dalla Panoramica - box "E ora?" cliccando su tasto "**Genera API Key**", o accedendo alla **Sezione dedicata "API Key"**.
-
-##
-
-<figure><img src="../../.gitbook/assets/image (79).png" alt=""><figcaption><p><em>box "E ora?" con button Genera Api Key e Sezione API Key</em></p></figcaption></figure>
 
 
 

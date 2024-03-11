@@ -37,7 +37,7 @@ IO memorizzerà queste informazioni e le utilizzerà successivamente nel colloqu
 
 #### L'identificativo `{third_party_data.id}` <a href="#lidentificativo-third_party_data.id" id="lidentificativo-third_party_data.id"></a>
 
-Quando invierai un Messaggio che contiene allegati, seguendo [quanto riportato nella Guida Tecnica](https://docs.pagopa.it/io-guida-tecnica/funzionalita/inviare-un-messaggio/aggiungere-allegati-premium), dovrai indicare a IO la presenza dei file associati stabilendo un identificativo (`third_party_data.id`) che consentirà il successivo colloquio tra il _backend_ di IO e quello della tua Organizzazione.
+Quando invierai un Messaggio che contiene allegati, seguendo [quanto riportato nella Guida Tecnica](https://docs.pagopa.it/io-guida-tecnica/funzionalita/inviare-un-messaggio/aggiungere-allegati), dovrai indicare a IO la presenza dei file associati stabilendo un identificativo (`third_party_data.id`) che consentirà il successivo colloquio tra il _backend_ di IO e quello della tua Organizzazione.
 
 Sei tu a decidere il valore di `third_party_data.id`, ma tieni presente che **deve essere univoco all'interno dell'insieme dei tuoi Servizi IO che condividono il medesimo**`baseUrl` comunicato in fase di onboarding.
 
@@ -56,7 +56,7 @@ Entrambi saranno protetti da autenticazione con API Key, come illustrato in [**I
 
 Nelle chiamate a entrambi gli endpoint IO aggiungerà l'header `fiscal_code` riportante il codice fiscale del Cittadino destinatario del Messaggio per cui sta richiedendo gli Allegati. Questo ti dà l'opportunità di verificare che il cittadino sia il reale destinatario degli allegati.
 
-Trovi tutte le informazioni di dettaglio circa gli _endpoint_ di _callback_ nella [Guida Tecnica](https://docs.pagopa.it/io-guida-tecnica/funzionalita/inviare-un-messaggio/aggiungere-allegati-premium/specifiche-degli-endpoint-di-recupero-degli-allegati).
+Trovi tutte le informazioni di dettaglio circa gli _endpoint_ di _callback_ nella [Guida Tecnica](https://docs.pagopa.it/io-guida-tecnica/funzionalita/inviare-un-messaggio/aggiungere-allegati#step-0-esponi-gli-endpoint-di-recupero-degli-allegati).
 
 ### Caso d'uso (esempio) <a href="#caso-duso-esempio" id="caso-duso-esempio"></a>
 
@@ -103,7 +103,7 @@ le informazioni utili.\n\rA Ti aspettiamo!\n\rL'\''Amministrazione Comunale di I
 <figure><img src=".gitbook/assets/db914d95-8711-4d8a-8ce1-3be4d402e031.png" alt="" width="540"><figcaption></figcaption></figure>
 
 * Il valore `"ADVANCED"` per `feature_level_type` identifica un Messaggio Premium: impostalo così per poter aggiungere Allegati al tuo Messaggio
-* Componi il tuo messaggio (`subject`, `markdown`) seguendo i consigli riportati nel [Manuale dei Servizi di IO](https://docs.pagopa.it/manuale-servizi/)​
+* Componi il tuo messaggio (`subject`, `markdown`) seguendo i consigli riportati nel [Manuale dei Servizi di IO](https://docs.pagopa.it/manuale-servizi)​
 * La presenza della struttura `third_party_data` indica a IO che il tuo Messaggio veicola uno o più Allegati:
   1. 1.`id` è il [**L'identificativo {third\_party\_data.id}**](https://docs.pagopa.it/kb-enti-messaggi/tutorial-e-casi-duso/indice-dei-tutorial-e-dei-casi-duso/come-allegare-documenti-a-un-messaggio-funzionalita-premium#lidentificativo-third\_party\_data.id)​
   2. 2.`has_attachments` va obbligatoriamente impostato a `true`
@@ -111,13 +111,13 @@ le informazioni utili.\n\rA Ti aspettiamo!\n\rL'\''Amministrazione Comunale di I
 
 Se il Servizio IO che stai utilizzando non è pubblicato, dovrai [chiederci di abilitarlo all'invio di messaggi verso uno o più codici fiscali specifici](https://docs.pagopa.it/io-guida-tecnica/abilitazioni/test-con-codici-fiscali-reali). Queste persone, che non dovranno essere cittadini/utenti finali ma membri della tua Organizzazione o comunque incaricati dei test, riceveranno i messaggi che invierai direttamente sulla loro App IO.
 
-Se il Servizio è [pubblicato](https://docs.pagopa.it/manuale-servizi/come-si-crea-un-servizio/pubblicazione-validazione-e-modifica-di-un-servizio/pubblicazione), non sarà necessaria alcuna procedura autorizzativa e potrai inviare messaggi a qualsiasi codice fiscale destinatario. Poni la massima attenzione a questo scenario!
+Se il Servizio è [pubblicato](https://docs.pagopa.it/manuale-servizi/come-si-crea-un-servizio/validazione-pubblicazione-e-modifica-di-un-servizio), non sarà necessaria alcuna procedura autorizzativa e potrai inviare messaggi a qualsiasi codice fiscale destinatario. Poni la massima attenzione a questo scenario!
 
 **Response**
 
 `{ "id": "01GS8744E24EZDG3XD5ECXB9RG" }`
 
-Prendi sempre nota dell'identificativo del messaggio ritornato in fase di invio: ti servirà successivamente per [recuperarne lo stato e le informazioni di lettura e pagamento](https://docs.pagopa.it/io-guida-tecnica/api/api-messaggi/get-message).
+Prendi sempre nota dell'identificativo del messaggio ritornato in fase di invio: ti servirà successivamente per [recuperarne lo stato e le informazioni di lettura e pagamento](https://docs.pagopa.it/io-guida-tecnica/api-e-specifiche/api-messaggi/get-message).
 
 #### Step 3 - Visualizzazione del Messaggio in App <a href="#step-3-visualizzazione-del-messaggio-in-app" id="step-3-visualizzazione-del-messaggio-in-app"></a>
 

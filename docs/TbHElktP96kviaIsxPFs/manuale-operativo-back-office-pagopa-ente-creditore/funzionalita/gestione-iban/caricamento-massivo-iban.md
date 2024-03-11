@@ -9,7 +9,7 @@ La funzionalità illustrata in questa sezione, descrive le azioni da compiere pe
 
 L'operatività rimane la stessa odierna, ovvero tramite invio di un file `csv` al gruppo di Assistenza PagoPA.
 
-In alternativa al file `csv` è garantitala possibilità di innescare il caricamento massivo mediante un tracciato `json`, questa opzione prevede l'invio di una cartella in formato .zip con all'interno uno o più file `json`, di seguito nel documento sono descritte le specifiche relative a tale tipologia di caricamento
+In alternativa al file `csv` è garantita la possibilità di innescare il caricamento massivo mediante un tracciato `json`, questa opzione prevede l'invio di una cartella in formato .zip con all'interno uno o più file `json.`
 
 Nelle prossime settimane, al fine di snellire l'attuale processo, verrà rilasciata sul portale BackOffice pagoPA una feature che consentirà agli EC di caricare in autonomia il file`csv`o lo `zip` con la cartella contenente i file `json` senza dover più passare dall'Assistenza PagoPA.
 
@@ -18,7 +18,7 @@ La funzionalità **Caricamento Massivo IBAN** è riservata esclusivamente al **R
 
 La funzionalità in oggetto si rende necessaria per gli EC o loro intermediari nel caso in cui si debba procedere ad un inserimento di molteplici codici IBAN.&#x20;
 
-## Gestione mediante file CSV \[gestione attualee]
+## Gestione mediante file CSV \[gestione attuale]
 
 Come indicato nel box informativo in alto è possibile continuare a caricare massivamente gli IBAN seguendo la procedura in essere.&#x20;
 

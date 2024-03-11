@@ -2,7 +2,7 @@
 
 Tutti i **soggetti attivi** sul sistema **PagoPA** **con** un **collegamento diretto** al **Nodo** dei Pagamenti sono **obbligati** a **dotarsi** di un **Tavolo Operativo** che sia in grado di fornire il supporto necessario a rilevare e **gestire eventuali anomalie** di funzionamento in **Esercizio**.
 
-Il ruolo che ne possiede il **pieno potere** a livello di **operatività** è il **Referente dei Tecnico**;
+Il ruolo che ne possiede il **pieno potere** a livello di **operatività** è il **Referente dei Tecnico (RT)**;
 
 Il **Referente dei Pagamenti** possiede invece **pieno potere** a livello di **visualizzazione.**
 
@@ -13,7 +13,7 @@ In particolare, devono essere **soddisfatte** le seguenti **condizioni**:
 * L’**utente** ricopre il **ruolo** di **RT**;
 * **L’Ente Creditore** abbia la **connessione** logica “**diretta**” in Esercizio **e/o** il **Partner Tecnologico** abbia **almeno un Ente Creditore “intermediato”** in Esercizio.
 
-### Aggiungi Tavolo Operativo: Ambiente di Collaudo
+### Aggiungi Tavolo Operativo
 
 Il **RT** che non ha ancora provveduto ad aggiungere il Tavolo Operativo, una volta **fatto accesso** al **Back Office**, visualizzerà all'interno del **box** dedicato al **TO** l'alert **"Completa i dati del Tavolo Operativo dell’ente per cui operi."**
 
@@ -37,7 +37,3 @@ Una volta **inserite** le **informazioni necessarie**, il tasto "**Conferma**" r
 <figure><img src="../../.gitbook/assets/image (198).png" alt=""><figcaption><p><em>Panoramica - Tavolo Operativo completato</em></p></figcaption></figure>
 
 Una volta **confermata** l'operazione, l'utente **verrà reindirizzato** alla **Panoramica**, dove visualizzerà il **box "Tavolo operativo" popolato** con i dati appena inseriti.
-
-### &#x20;Aggiungi Tavolo Operativo: Ambiente di Produzione
-
-Una volta aver aggiunto il Tavolo Operativo in ambiente di collaudo, l'utente potrà procedere ad effettuare tale operazione in **ambiente di produzione**, svolgendo le stesse azioni illustrate nella sezione **Aggiungi Tavolo Operativo: Ambiente di Collaudo**.

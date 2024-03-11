@@ -30,9 +30,9 @@ Non dimenticare di consultare il [**Regolamento d'uso del marchio**](https://www
 
 ### Risorse
 
-[**Specifiche tecniche del logo -->**](broken-reference)
+[**Specifiche tecniche del logo -->**](specifiche-tecniche/il-logo-pagopa.md)
 
-[**Scarica gli asset grafici ->**](broken-reference)
+[**Scarica gli asset grafici ->**](risorse-utili/scarica-gli-asset-grafici.md)
 
 [**Regolamento d'uso del marchio ->**](https://www.pagopa.gov.it/assets/download/pagoPA-regolamento-marchio.pdf)
 

@@ -1,0 +1,16 @@
+# Condizioni e requisiti minimi richiesti all'Operatore
+
+L’Operatore che aderisce all'iniziativa a seguito di convenzionamento deve creare e riconoscere ai Beneficiari una o più agevolazioni a loro proposte e dedicate. Le agevolazioni definite dall’Operatore, saranno pubblicate all’interno dell’apposita sezione dell’App IO.&#x20;
+
+Il riconoscimento delle agevolazioni presuppone prova della titolarità della CGN e dunque l’utilizzo dell’App IO da parte dei Beneficiari, e può avvenire in modi diversi a seconda che l’Operatore operi tramite punti vendita fisici e/o online.&#x20;
+
+Tutti gli Operatori aderenti al Programma che intendono operare presso **punti vendita fisici**, dovranno formare il proprio personale addetto alle casse, in modo che questo sappia riconoscere una CGN nel momento in cui il titolare ne dimostra il possesso, esibendo sul proprio dispositivo mobile l’apposita schermata animata della CGN (per il riferimento grafico si rimanda alla pagina [Presenza fisica del Beneficiario](attuazione-della-convenzione/presenza-fisica-del-beneficiario.md)) generata dall’App IO, e applicare all’importo della spesa lo sconto o l’agevolazione relativa. L’Operatore può richiedere in ogni caso un documento di riconoscimento in corso di validità che attesti l’identità del Beneficiario.&#x20;
+
+Per l'adesione al Programma tramite **canale online (e-commerce e/o pagina web)** esistono i seguenti possibili modelli alternativi (meglio descritti nel prosieguo) utilizzabili a scelta dell’Operatore per il riconoscimento delle agevolazioni a favore dei Beneficiari:&#x20;
+
+* il _Modello API_, che prevede per i Beneficiari la generazione di un codice temporaneo (OTP) tramite l’App IO, che deve essere validato tramite integrazione dei sistemi di e-commerce dell’Operatore con il sistema di API esposte dalla piattaforma IO. L’Operatore deve pertanto possedere e/o acquisire le conoscenze tecniche per poter adoperare tali modifiche ai propri sistemi;&#x20;
+* il _Modello codice sconto statico_, per il quale l'Operatore deve previamente comunicare, in fase di creazione dell’agevolazione, un codice sconto statico che sia accettato dai propri sistemi per tutta la durata dell’agevolazione stessa;&#x20;
+* il Modello _lista di codici statici (bucket)_, simile al precedente, ma che al posto di un solo codice statico prevede una lista (bucket) di almeno un milione di codici statici che, una volta visualizzati dal Beneficiario in App, vengono “consumati” dai sistemi;&#x20;
+* il Modello _landing page_, per il quale l’Operatore fornirà un URL e un valore di sicurezza (token o referrer), che puntano a una pagina web appositamente predisposta dall’Operatore per la fruizione delle agevolazioni proposte.&#x20;
+
+Il metodo di riconoscimento è univoco per Operatore. Ogni Operatore aderente è responsabile delle implementazioni necessarie sui propri sistemi e delle verifiche e del corretto funzionamento dei processi analogici e/o tecnologici (es. verifica della disponibilità dell’agevolazione nelle date indicate, correttezza dei link forniti, ecc.) necessari all’attuazione della Convenzione, sulla base del metodo di riconoscimento delle agevolazioni prescelto in fase di convenzionamento.

@@ -55,11 +55,11 @@ Il "Reminder" è un componente dell'infrastruttura di IO in grado di reagire all
 
 La periodicità di invio per i **promemoria di lettura** segue la logica di seguito illustrata:
 
-* la configurazione prevede una frequenza pari a 3 giorni per i promemoria di mancata lettura. È previsto l’invio fino a 3 promemoria del tipo «_“Leggi il messaggio di \[nome Ente]“ + oggetto_».
-  *   Esempio: il Cittadino riceve un messaggio Premium, ma non lo legge. Riceverà fino a tre promemoria al 3°, al 6° e al 9° giorno (la lettura del messaggio interromperà la sequenza)\
+*   la configurazione prevede una frequenza pari a 3 giorni per i promemoria di mancata lettura. È previsto l’invio fino a 3 promemoria del tipo «_“Leggi il messaggio di \[nome Ente]“ + oggetto_».
 
+    * Esempio: il Cittadino riceve un messaggio Premium, ma non lo legge. Riceverà fino a tre promemoria al 3°, al 6° e al 9° giorno (la lettura del messaggio interromperà la sequenza)
 
-      <figure><img src="https://lh4.googleusercontent.com/IQJUVa6BPQmFvp_2VG5ZQZ8CIM8oOeFaxYxHbZshcFw7xgVgSJ4pAnbl1Ijkr0jwgDAWfKfYM70hDihjE5vc9dNzmkFwHXqDbEa8W-Kx38ti-QE4NJH-69bgJ339PDa63ANxxz5FoHOxqKJSToH-wjA" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/domande-risposte_kb_enti (1).png" alt=""><figcaption></figcaption></figure>
 
 :information\_source: I promemoria verranno inviati nella fascia oraria che va **dalle 8:00 alle 20:00**.
 
@@ -69,16 +69,14 @@ La periodicità di invio per i **promemoria di lettura** segue la logica di segu
 
 <summary>Come funziona il Reminder per i messaggi con avvisi non pagati?</summary>
 
-La periodicità di invio per i promemoria di pagamento seguirà **logiche differenti a seconda della presenza di una** [**data di scadenza**](https://docs.pagopa.it/manuale-servizi/comunicare-un-servizio/scadenze-importanti):
+La periodicità di invio per i promemoria di pagamento seguirà **logiche differenti a seconda della presenza di una** [**data di scadenza**](https://docs.pagopa.it/manuale-servizi/comunicare-un-servizio/i-casi-duso/scadenze-importanti):
 
 * Per i **messaggi con avviso di pagamento senza scadenza**, si manderanno fino a quattro promemoria di pagamento del tipo «_“Hai un avviso da pagare” + oggetto_» con frequenza pari a 3 giorni. L’invio dei promemoria non dipenderà dall’apertura del messaggio, per cui non saranno inviati promemoria di lettura.
-  *   Esempio: il Cittadino riceve un messaggio Premium con avviso di pagamento senza scadenza, ma non lo paga. Riceverà fino a quattro promemoria al 3°, 6°, 9° e 12° giorno (l'avvenuto pagamento dell'avviso interromperà la sequenza)\
-
+  *   Esempio: il Cittadino riceve un messaggio Premium con avviso di pagamento senza scadenza, ma non lo paga. Riceverà fino a quattro promemoria al 3°, 6°, 9° e 12° giorno (l'avvenuto pagamento dell'avviso interromperà la sequenza)
 
       <figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 * Per i **messaggi con avviso di pagamento e data di scadenza** dichiarata dall’ente, si conteranno i giorni a ritroso dalla data per consentire l’invio di fino a quattro promemoria con una frequenza pari a 3 giorni. Anche in questo caso non saranno inviati promemoria di lettura.
-  *   Esempio: il Cittadino riceve un messaggio Premium con avviso di pagamento dotato di scadenza, ma non lo paga. Riceverà fino a quattro promemoria 13, 10, 7 e 4 giorni prima della scadenza del tipo «_“Hai un avviso da pagare” + oggetto_» (l'avvenuto pagamento dell'avviso interromperà la sequenza)\
-
+  *   Esempio: il Cittadino riceve un messaggio Premium con avviso di pagamento dotato di scadenza, ma non lo paga. Riceverà fino a quattro promemoria 13, 10, 7 e 4 giorni prima della scadenza del tipo «_“Hai un avviso da pagare” + oggetto_» (l'avvenuto pagamento dell'avviso interromperà la sequenza)
 
       <figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
@@ -90,7 +88,7 @@ La periodicità di invio per i promemoria di pagamento seguirà **logiche differ
 
 <summary>Come si aggiungono allegati a un messaggio?</summary>
 
-Segui il [tutorial](https://docs.pagopa.it/kb-enti-messaggi/tutorial-e-casi-duso/indice-dei-tutorial-e-dei-casi-duso/come-allegare-documenti-a-un-messaggio-premium) che abbiamo preparato su questo tema.
+Segui il [tutorial](indice-dei-tutorial-e-dei-casi-duso/come-allegare-documenti-a-un-messaggio-funzionalita-premium.md) che abbiamo preparato su questo tema.
 
 </details>
 
@@ -100,7 +98,7 @@ Segui il [tutorial](https://docs.pagopa.it/kb-enti-messaggi/tutorial-e-casi-duso
 
 * Puoi sapere se un determinato messaggio sia stato **letto** dal Cittadino cui è destinato
 * Puoi sapere se l'eventuale avviso di pagamento che hai associato al messaggio sia stato **saldato** (in app o in qualsiasi altro modo supportato da pagoPA)
-* Puoi aggiungere [**allegati**](https://docs.pagopa.it/kb-enti-messaggi/tutorial-e-casi-duso/indice-dei-tutorial-e-dei-casi-duso/come-allegare-documenti-a-un-messaggio-premium) al tuo messaggio
+* Puoi aggiungere [**allegati**](indice-dei-tutorial-e-dei-casi-duso/come-allegare-documenti-a-un-messaggio-funzionalita-premium.md) al tuo messaggio
 * Per ciascun messaggio Premium il Cittadino riceverà discreti **promemoria** nel caso tardi a leggerlo oppure se deve pagare un avviso
 * Puoi mandare più messaggi nello stesso tempo, ti garantiamo un **accesso più rapido** alle funzionalità di integrazione via API
 

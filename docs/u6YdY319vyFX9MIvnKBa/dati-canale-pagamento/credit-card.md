@@ -143,3 +143,23 @@ Massimo 35 caratteri, spazi compresi.
 No
 {% endtab %}
 {% endtabs %}
+
+
+
+{% tabs %}
+{% tab title="Key" %}
+`email`
+{% endtab %}
+
+{% tab title="Tipo" %}
+Stringa
+{% endtab %}
+
+{% tab title="Dimensioni" %}
+N/A
+{% endtab %}
+
+{% tab title="Obbligatorio" %}
+No
+{% endtab %}
+{% endtabs %}

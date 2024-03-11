@@ -15,6 +15,7 @@
       * [Modifica](manuale-operativo-back-office-pagopa-ente-creditore/funzionalita/stazioni/modifica.md)
       * [Duplicazione](manuale-operativo-back-office-pagopa-ente-creditore/funzionalita/stazioni/duplicazione.md)
       * [Associazione di un EC alla Stazione](manuale-operativo-back-office-pagopa-ente-creditore/funzionalita/stazioni/associazione-di-un-ec-alla-stazione.md)
+      * [Esportazione Massiva EC](manuale-operativo-back-office-pagopa-ente-creditore/funzionalita/stazioni/esportazione-massiva-ec.md)
     * [Gestione IBAN](manuale-operativo-back-office-pagopa-ente-creditore/funzionalita/gestione-iban/README.md)
       * [Aggiungi IBAN](manuale-operativo-back-office-pagopa-ente-creditore/funzionalita/gestione-iban/aggiungi-iban.md)
       * [Modifica IBAN](manuale-operativo-back-office-pagopa-ente-creditore/funzionalita/gestione-iban/modifica-iban.md)
@@ -22,3 +23,4 @@
       * [Caricamento Massivo IBAN](manuale-operativo-back-office-pagopa-ente-creditore/funzionalita/gestione-iban/caricamento-massivo-iban.md)
       * [Esportazione Massiva IBAN](manuale-operativo-back-office-pagopa-ente-creditore/funzionalita/gestione-iban/esportazione-massiva-iban.md)
     * [Matrice Ruoli / Funzionalità](manuale-operativo-back-office-pagopa-ente-creditore/funzionalita/matrice-ruoli-funzionalita.md)
+  * [Delega verso un Partner Tecnologico](manuale-operativo-back-office-pagopa-ente-creditore/delega-verso-un-partner-tecnologico.md)

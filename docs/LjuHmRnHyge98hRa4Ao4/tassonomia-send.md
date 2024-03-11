@@ -16,7 +16,7 @@ La tipologia ente è suddivisa in:
 
 
 
-<table><thead><tr><th>Tipologia Ente</th><th width="100">Codice</th></tr></thead><tbody><tr><td><strong>Comuni</strong></td><td>01</td></tr><tr><td><strong>Regioni ed enti regionali</strong></td><td>02</td></tr><tr><td><strong>Enti riscossori</strong></td><td>03</td></tr><tr><td><strong>Ministeri</strong></td><td>04</td></tr><tr><td><strong>Previdenza</strong></td><td>05</td></tr><tr><td><strong>Servizio Sanitario Nazionale</strong></td><td>06</td></tr></tbody></table>
+<table><thead><tr><th>Tipologia Ente</th><th width="100">Codice</th></tr></thead><tbody><tr><td><strong>Comuni</strong></td><td>01</td></tr><tr><td><strong>Regioni ed enti regionali</strong></td><td>02</td></tr><tr><td><strong>Enti riscossori</strong></td><td>03</td></tr><tr><td><strong>Ministeri</strong></td><td>04</td></tr><tr><td><strong>Previdenza</strong></td><td>05</td></tr><tr><td><strong>Servizio Sanitario Nazionale</strong></td><td>06</td></tr><tr><td><strong>Provincia</strong></td><td>07</td></tr></tbody></table>
 
 Per ogni tipologia di ente sono individuati gli **ambiti** e all'interno dell'ambito la **tipologia  di notific**a.
 
@@ -173,8 +173,17 @@ Ambiti e tipologia notifica - Regioni ed Enti Regionali:
 
 * `060101P` - **Notifiche relative al Pagamento nei confronti della Sanità**\
   Tutte le tipologie di notifiche che riagurdano il pagamento di una tassa per usufruire del servizio sanitario pubblico\
-  Codice: `060101P`\
-  \
+  Codice: `060101P`
+
+## **07 - Provincia**
+
+### 0701 - Polizia Provinciale
+
+\
+`070101P` - **Notifiche Violazioni al Codice della Strada**\
+Tutte le tipologie di comunicazioni/verbali/solleciti relative a violazione al CdS in ambito provinciale (ex. autovelox, etc...)\
+Codice: `070101P`\
+\
 
 
 

@@ -54,7 +54,7 @@ Su IO, i cittadini possono apporre in app una firma digitale su un documento gen
 
 Su IO, i cittadini possono ricevere tramite SEND (SErvizio Notifiche Digitali) un avviso di cortesia, leggere i documenti notificati e, ove richiesto, procedere al pagamento direttamente in app.&#x20;
 
-[**Vai al sito -->**](https://notifichedigitali.pagopa.it/)
+[**Vai al sito ->**](https://notifichedigitali.pagopa.it/)
 
 </details>
 

@@ -10,7 +10,7 @@ description: È la sezione che contiene i dati di chi riceve l'avviso di pagamen
 
 {% tabs %}
 {% tab title="Definizione" %}
-Codice Fiscale o Partita IVA del soggetto pagatore.
+Codice Fiscale o Partita IVA del debitore a cui è intestata la posizione debitoria.
 {% endtab %}
 
 {% tab title="Tipo" %}
@@ -34,7 +34,7 @@ TUTTO MAIUSCOLO
 
 {% tabs %}
 {% tab title="Definizione" %}
-Nome e cognome del soggetto pagatore
+Nome e cognome del debitore a cui è intestata la posizione debitoria
 {% endtab %}
 
 {% tab title="Tipo" %}
@@ -58,7 +58,7 @@ Nel caso di una sola riga, l’allineamento deve essere al bordo superiore.
 
 {% tabs %}
 {% tab title="Definizione" %}
-Indirizzo del soggetto pagatore
+Indirizzo del del debitore a cui è intestata la posizione debitoria
 {% endtab %}
 
 {% tab title="Tipo" %}

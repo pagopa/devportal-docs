@@ -270,7 +270,8 @@ Nello specifico, quando l’Ente effettua una richiesta di notifica tramite il s
 ### In quale modo l’Ente comunica a Piattaforma Notifiche il costo forfettario?
 
 L’Ente può gestire autonomamente il costo forfettario, definendolo in fase di creazione della posizione debitoria, poiché PN non gestisce il costo forfettario di notifica.\
-Il costo forfettario si applica nei casi in cui l'Ente voglia assumersi completamente i costi di notifica, oppure nel caso in cui esista una legge che impone all’Ente l'utilizzo di costi di notifica diversi da quelli previsti dal DPCM Costi di Piattaforma Notifiche.
+Il costo forfettario si applica nei casi in cui l'Ente voglia assumersi completamente i costi di notifica, oppure nel caso in cui esista una legge che impone all’Ente l'utilizzo di costi di notifica diversi da quelli previsti dal DPCM Costi di Piattaforma Notifiche.\
+
 
 ### Con quale logica l'API notificationPrice risponde?
 
@@ -306,4 +307,12 @@ In questi casi si applicano le spese di notifica sostenute e l'atto depositato �
 
 ### Quando invio la notifica ricevo un'errore sulla lunghezza dei campi dell'address, come procedo?
 
-Può verificare questa pagina di faq creata appositamente, nel quale vengono indicate le regole sulla lunghezza e la composizione dell'indirizzo: [https://docs.pagopa.it/f.a.q.-per-integratori/composizione-degli-indirizzi](https://docs.pagopa.it/f.a.q.-per-integratori/composizione-degli-indirizzi)
+Può verificare questa pagina di faq creata appositamente, nel quale vengono indicate le regole sulla lunghezza e la composizione dell'indirizzo: [https://docs.pagopa.it/f.a.q.-per-integratori/composizione-degli-indirizzi](https://docs.pagopa.it/f.a.q.-per-integratori/composizione-degli-indirizzi)\
+
+
+### Come inserisco le spese di notifica in caso di notifica forfettaria (FLAT\_RATE)?
+
+Nel caso in cui l’Ente mittente decida per una policy di tipo “forfettario” (_`notificationFeePolicy=`_`FLAT_RATE`) il mittente comunica che i costi di notifica per il destinatario sono assorbiti dal mittente stesso o sono già inclusi nell'atto.
+
+In questo caso la piattaforma non gestirà  alcun costo di notifica verso il destinatario (non saranno aggiunti ai pagamenti in caso di modalità asincrona, non saranno aggiunti nei dati del modello F24 e non saranno esposti sulla API di recupero dei costi di notifica).&#x20;
+

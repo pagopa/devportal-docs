@@ -6,6 +6,10 @@ description: >-
 
 # 🕘 Changelog
 
+### 3.2.1 (febbraio 2024)
+
+* Specificato meglio che le [informazioni-sul-destinatario.md](../allegato-2/specifiche-tecniche/informazioni-sul-destinatario.md "mention") riguardano l'intestatario della posizione debitoria
+
 ### 3.2 (settembre 2023)
 
 * Le [#stringhe-dei-testi-fissi](../allegato-1/varianti/traduzioni/#stringhe-dei-testi-fissi "mention") ora sono in formato JSON
