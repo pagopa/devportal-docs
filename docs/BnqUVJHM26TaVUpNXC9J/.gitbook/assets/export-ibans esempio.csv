@@ -1,0 +1,3 @@
+denominazioneEnte;codiceFiscale;iban;stato;dataAttivazioneIban;descrizione;etichetta
+Comune di Pippo;00351040999;IT12A1234512345123456789012;ATTIVO;2016-01-19T00:00Z;;
+Comune di Pluto;03623810777;IT12A1234512345123456789013;ATTIVO;2021-10-22T00:00Z;;
