@@ -14,14 +14,22 @@ Lo swagger delle API è disponibile qui [https://github.com/pagopa/pagopa-api/bl
 
 Questa sezione descrive le API che gli Intermediari / Partner Tecnologici possono utilizzare per accedere alle seguenti informazioni:
 
-* Elenco di tutti gli IBAN degli Enti Creditori aderenti alla piattaforma
+* Elenco di tutti gli IBAN degli Enti Creditori intermediati dallo specifico Partner Tecnologico / Intermediario&#x20;
 * Elenco di tutti gli EC e delle loro Stazioni intermediati dallo specifico Partner Tecnologico / Intermediario
 
 **All IBAN API**
 
+{% hint style="warning" %}
+Questa API verrà rilasciata successivamente al 18/3.
+{% endhint %}
+
+{% hint style="info" %}
+Questa API prevede in input (`brokerCode`) il codice fiscale dell'Intermediario / Partner Tecnologico. Viene eseguito un controllo di autorizzazione tra il codice fornito e quanto presente all'interno dell'API Key.&#x20;
+{% endhint %}
+
 I dati che vengono restituiti dall'API sono i seguenti:
 
-<table><thead><tr><th width="229">Nome Campo Logico</th><th width="181">Nome Campo API</th><th>Descrizione</th></tr></thead><tbody><tr><td>denominazioneEnte</td><td>ciName</td><td>denominazione dell'Ente Creditore</td></tr><tr><td>codiceFiscale</td><td>ciFiscalCode</td><td>codice fiscale dell'Ente Creditore</td></tr><tr><td>iban</td><td>iban</td><td>IBAN </td></tr><tr><td>stato</td><td>status</td><td>stato di attivazione dell'IBAN</td></tr><tr><td>dataAttivazioneIban</td><td>validityDate</td><td>data di attivazione dell'IBAN (coincide con il campo "data inizio" che si valorizza in fase di inserimento come descritto in <a href="broken-reference">Aggiungi Iban</a>)</td></tr><tr><td>descrizione</td><td>description</td><td>eventuale descrizione dell'IBAN</td></tr><tr><td>etichetta</td><td>label</td><td>etichetta che identifica se l'IBAN è di tipo "Stand IN" o "CUP".</td></tr></tbody></table>
+<table><thead><tr><th width="414">Nome Campo Logico</th><th width="181">Nome Campo API</th><th>Descrizione</th></tr></thead><tbody><tr><td>denominazioneEnte</td><td>ciName</td><td>denominazione dell'Ente Creditore</td></tr><tr><td>codiceFiscale</td><td>ciFiscalCode</td><td>codice fiscale dell'Ente Creditore</td></tr><tr><td>iban</td><td>iban</td><td>IBAN </td></tr><tr><td>stato</td><td>status</td><td>stato di attivazione dell'IBAN</td></tr><tr><td>dataAttivazioneIban</td><td>validityDate</td><td>data di attivazione dell'IBAN (coincide con il campo "data inizio" che si valorizza in fase di inserimento come descritto in <a href="broken-reference">Aggiungi Iban</a>)</td></tr><tr><td>descrizione</td><td>description</td><td>eventuale descrizione dell'IBAN</td></tr><tr><td>etichetta</td><td>label</td><td>etichetta che identifica se l'IBAN è di tipo "Stand IN" o "CUP".</td></tr></tbody></table>
 
 **EC by Broker API**
 

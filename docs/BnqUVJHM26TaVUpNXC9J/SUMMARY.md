@@ -26,5 +26,4 @@
     * [Matrice Ruoli / Funzionalità](manuale-operativo-back-office-pagopa-partner-tecnologico/funzionalita/matrice-ruoli-funzionalita.md)
     * [External API](manuale-operativo-back-office-pagopa-partner-tecnologico/funzionalita/external-api/README.md)
       * [Sottoscrizione, Autenticazione & Autorizzazione](manuale-operativo-back-office-pagopa-partner-tecnologico/funzionalita/external-api/sottoscrizione-autenticazione-and-autorizzazione.md)
-      * [All IBAN](manuale-operativo-back-office-pagopa-partner-tecnologico/funzionalita/external-api/all-iban.md)
       * [EC by Broker](manuale-operativo-back-office-pagopa-partner-tecnologico/funzionalita/external-api/ec-by-broker.md)
