@@ -6,7 +6,17 @@ description: >-
 
 # Changelog
 
+<details>
 
+<summary>Marzo 2024</summary>
+
+### 1.0.79
+
+**15 marzo**
+
+* Aggiornamento metriche per pubblicazione su dashboard pubblica e open data
+
+</details>
 
 <details>
 
