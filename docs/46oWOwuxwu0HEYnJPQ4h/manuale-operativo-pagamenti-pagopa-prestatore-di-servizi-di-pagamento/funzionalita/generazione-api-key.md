@@ -30,7 +30,18 @@ Effettuando il click, si accede alla _Pagina di Selezione tipo di prodotto_
 
 Nella _Pagina di Selezione tipo di prodotto,_ tramite Il menu a tendina “Tipo di prodotto”, è possibile visualizzare e selezionare la tipologia di prodotto per cui è necessario generare le chiavi.
 
-<figure><img src="../../.gitbook/assets/MicrosoftTeams-image (20).png" alt=""><figcaption><p><em>Pagina Selezione Tipo di prodotto</em></p></figcaption></figure>
+{% hint style="info" %}
+La prossima sezione descrive il processo di generazione di una coppia di API Key per una tipologia di prodotto, la principale, ovvero la _**connessione con nodo**_.&#x20;
+
+
+
+Le altre tipologie di prodotto, per semplicità non descritte hanno rispettivamente i seguenti compiti:
+
+* _**FdR - Flussi di Rendicontazione**_ (PSP) -> prodotto da utilizzare per recuperare i flussi di rendicontazione da parte dei PSP
+* _**Backoffice External (PSP)** ->  prodotto da utilizzare per le API esterne descritte nella sezione_ [_"External API"_](broken-reference)
+{% endhint %}
+
+<figure><img src="../../.gitbook/assets/Screenshot 2024-03-18 alle 16.15.54.png" alt=""><figcaption></figcaption></figure>
 
 #### **Connessione con nodo**
 
