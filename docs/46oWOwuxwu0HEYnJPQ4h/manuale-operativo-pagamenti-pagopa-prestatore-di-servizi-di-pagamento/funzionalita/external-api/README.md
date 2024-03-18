@@ -9,7 +9,7 @@ Le API descritte in questa sezione hanno lo scopo di sostituire la vecchia primi
 {% endhint %}
 
 {% hint style="success" %}
-Lo swagger delle API è disponibile qui [https://github.com/pagopa/pagopa-api/blob/SANP3.7.0/openapi/openapi\_backoffice\_external.json](https://github.com/pagopa/pagopa-api/blob/SANP3.7.0/openapi/openapi\_backoffice\_external.json)
+Lo swagger delle API è disponibile qui [https://github.com/pagopa/pagopa-api/blob/SANP3.7.0/openapi/openapi\_backoffice\_external\_psp.json](https://github.com/pagopa/pagopa-api/blob/SANP3.7.0/openapi/openapi\_backoffice\_external\_psp.json)
 {% endhint %}
 
 Questa sezione descrive le API che i PSP possono utilizzare per accedere alle seguenti informazioni:
