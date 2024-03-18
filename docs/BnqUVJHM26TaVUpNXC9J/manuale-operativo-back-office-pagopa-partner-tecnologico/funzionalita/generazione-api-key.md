@@ -39,9 +39,9 @@ L'elenco di seguito è indicativo in quanto le tipologie di prodotto sono in con
 * **GPD - Gestione Flussi di Rendicontazione**
 * **BIZ - Recupero Ricevute Ente Creditore**
 * **FdR  - Flussi di Rendicontazione (EC)**
-* **BOEXT - BO External APIs**
+* **Backoffice External (EC)**
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-01-23 alle 17.50.40.png" alt=""><figcaption><p><em>Generazione API Key: Selezione Tipo di Prodotto</em></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2024-03-18 alle 16.17.22.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 La prossima sezione descrive il processo di generazione di una coppia di API Key per una tipologia di prodotto, la principale, ovvero la _**connessione con nodo**_.&#x20;
@@ -53,7 +53,7 @@ Le altre tipologie di prodotto, per semplicità non descritte hanno rispettivame
 * _**GPD - Gestione flussi di rendicontazione**_ -> prodotto da utilizzare nell'ambito dell'_`integrazione asincrona`_per la gestione dei flussi di rendicontazione da parte dei PSP
 * _**BIZ - Recupero ricevute Ente Creditore**_ -> prodotto da utilizzare nell'ambito dell'_`integrazione asincrona`_per il recupero delle ricevute di pagamento
 * _**FdR - Flussi di Rendicontazione**_ (EC) -> prodotto da utilizzare per recuperare i flussi di rendicontazione da parte dei PSP
-* _**BOEXT - BO External APIs** ->  prodotto da utilizzare per le API esterne descritte nella sezione_ [_"External API"_](external-api/)
+* _**Backoffice External (EC)** ->  prodotto da utilizzare per le API esterne descritte nella sezione_ [_"External API"_](external-api/)
 {% endhint %}
 
 **Connessione con nodo**
