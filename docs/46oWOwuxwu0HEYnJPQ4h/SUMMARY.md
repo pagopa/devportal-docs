@@ -16,5 +16,5 @@
       * [Associazione di un PSP al Canale](manuale-operativo-pagamenti-pagopa-prestatore-di-servizi-di-pagamento/funzionalita/canale/associazione-di-un-psp-al-canale.md)
     * [External API](manuale-operativo-pagamenti-pagopa-prestatore-di-servizi-di-pagamento/funzionalita/external-api/README.md)
       * [Sottoscrizione, Autenticazione & Autorizzazione](manuale-operativo-pagamenti-pagopa-prestatore-di-servizi-di-pagamento/funzionalita/external-api/sottoscrizione-autenticazione-and-autorizzazione.md)
-      * [getCIsIBANs](manuale-operativo-pagamenti-pagopa-prestatore-di-servizi-di-pagamento/funzionalita/external-api/getcisibans.md)
+      * [get IBANs](manuale-operativo-pagamenti-pagopa-prestatore-di-servizi-di-pagamento/funzionalita/external-api/get-ibans.md)
     * [Matrice Ruoli / Funzionalità](manuale-operativo-pagamenti-pagopa-prestatore-di-servizi-di-pagamento/funzionalita/matrice-ruoli-funzionalita.md)
