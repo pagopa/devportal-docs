@@ -27,3 +27,4 @@
     * [External API](manuale-operativo-back-office-pagopa-partner-tecnologico/funzionalita/external-api/README.md)
       * [Sottoscrizione, Autenticazione & Autorizzazione](manuale-operativo-back-office-pagopa-partner-tecnologico/funzionalita/external-api/sottoscrizione-autenticazione-and-autorizzazione.md)
       * [EC by Broker](manuale-operativo-back-office-pagopa-partner-tecnologico/funzionalita/external-api/ec-by-broker.md)
+      * [IBANs by Broker](manuale-operativo-back-office-pagopa-partner-tecnologico/funzionalita/external-api/ibans-by-broker.md)

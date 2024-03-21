@@ -9,7 +9,7 @@ Le API descritte in questa sezione hanno lo scopo di sostituire la vecchia primi
 {% endhint %}
 
 {% hint style="success" %}
-Lo swagger delle API è disponibile qui [https://github.com/pagopa/pagopa-api/blob/SANP3.7.0/openapi/openapi\_backoffice\_external.json](https://github.com/pagopa/pagopa-api/blob/SANP3.7.0/openapi/openapi\_backoffice\_external.json)
+Lo swagger delle API è disponibile qui [https://github.com/pagopa/pagopa-api/blob/SANP3.7.0/openapi/openapi\_backoffice\_external\_ec.json](https://github.com/pagopa/pagopa-api/blob/SANP3.7.0/openapi/openapi\_backoffice\_external\_ec.json)
 {% endhint %}
 
 Questa sezione descrive le API che gli Intermediari / Partner Tecnologici possono utilizzare per accedere alle seguenti informazioni:
@@ -17,7 +17,7 @@ Questa sezione descrive le API che gli Intermediari / Partner Tecnologici posson
 * Elenco di tutti gli IBAN degli Enti Creditori intermediati dallo specifico Partner Tecnologico / Intermediario&#x20;
 * Elenco di tutti gli EC e delle loro Stazioni intermediati dallo specifico Partner Tecnologico / Intermediario
 
-**All IBAN API**
+**Get IBANs by Broker API**
 
 {% hint style="warning" %}
 Questa API verrà rilasciata successivamente al 18/3.
