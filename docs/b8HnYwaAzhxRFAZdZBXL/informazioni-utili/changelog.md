@@ -10,6 +10,12 @@ description: >-
 
 <summary>Marzo 2024</summary>
 
+### 1.0.83
+
+**27 marzo**
+
+* Bug fixing
+
 ### 1.0.82
 
 **26 marzo**
