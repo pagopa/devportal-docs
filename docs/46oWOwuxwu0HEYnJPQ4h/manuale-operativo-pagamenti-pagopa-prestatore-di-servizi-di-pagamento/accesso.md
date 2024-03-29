@@ -16,7 +16,7 @@ Nei 3 paragrafi seguenti andremo ad illustrare le azioni e le informazioni che c
 
 ### Accesso Area Riservata <a href="#h.4i7ojhp" id="h.4i7ojhp"></a>
 
-Per poter accedere all’Area Riservata, è necessario aver **completato l’adesione ad un prodotto** (vedi [Manuale onboarding: sezione Processo di adesione](http://127.0.0.1:5000/s/axttcUGV65V2IVRggmvR/area-riservata-enti/processo-di-adesione)) e che l’**utente** sia stato censito come **Amministratore o Operatore sul prodotto** stesso.
+Per poter accedere all’Area Riservata, è necessario aver **completato l’adesione ad un prodotto** (vedi [Manuale onboarding: sezione Processo di adesione](https://app.gitbook.com/s/axttcUGV65V2IVRggmvR/area-riservata/come-aderire)) e che l’**utente** sia stato censito come **Amministratore o Operatore sul prodotto** stesso.
 
 E' possibile accedere all'Are Riservata recandosi sul sito [https://www.pagopa.it](https://www.pagopa.it/) e cliccare in alto a destra su "AREA RISERVATA ENTI".
 

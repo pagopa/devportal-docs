@@ -1,4 +1,4 @@
-# Migrazione alla Nuova Connettività
+# Come migrare alla Nuova Connettività
 
 ### Introduzione
 
@@ -53,21 +53,23 @@ Per connettività in ingresso si intende il traffico generato dall’EC/PSP vers
     {% endhint %}
 
 
-2. **Accesso alla pagoPA Platform:** accedere alla pagoPA Platform dell’ambiente che si intende configurare con le credenziali registrate.\
+2. **Accesso alla pagoPA Platform:** accedere alla pagoPA Platform dell’ambiente che si intende configurare con le credenziali registrate.
 
-3. **Sottoscrizione alla Nuova Connettività**: nel menù che si presenta in alto a destra bisogna accedere alla voce Products e scegliere tra i prodotti proposti **Nodo dei Pagamenti (Nuova Connettività).** Una volta fatta questa scelta sarà possibile sottoscrivere la connettività attraverso i seguenti passaggi:
+
+
+1. **Sottoscrizione alla Nuova Connettività**: nel menù che si presenta in alto a destra bisogna accedere alla voce Products e scegliere tra i prodotti proposti **Nodo dei Pagamenti (Nuova Connettività).** Una volta fatta questa scelta sarà possibile sottoscrivere la connettività attraverso i seguenti passaggi:
    1. Inserire nella textbox riportante il messaggio Your new product description name il nome che si intende dare alla connettività stessa (si consiglia di seguire una nomenclatura del tipo NC\<nomePSP/EC>\<UAT/Prod> come, per esempio, NCBestPSPEverUAT)
    2. Confermare con il bottone Subscribe .
    3. Attendere il messaggio di conferma della corretta attivazione della sottoscrizione.
    4. La sottoscrizione appena confermata sarà elencata sotto la voce Profile del menu.\
       \
 
-4. **Accesso e Gestione delle Chiave Primaria e Secondaria:**\
+2. **Accesso e Gestione delle Chiave Primaria e Secondaria:**\
    Le funzioni disponibili per ogni sottoscrizione sono:
    1. show: per visualizzare le singole chiavi
    2. regenerate: nel caso si voglia generare nuovamente le chiavi.\
 
-5.  **Utilizzo Chiavi di Sottoscrizione:** una volta ottenute le chiavi è necessario modificare il proprio software applicativo affinché  nell’header delle richieste SOAP/REST, sia settato **Ocp-Apim-Subscription-Key** con il valore della primary o secondary key generate attraverso il Developer Portal. \
+3.  **Utilizzo Chiavi di Sottoscrizione:** una volta ottenute le chiavi è necessario modificare il proprio software applicativo affinché  nell’header delle richieste SOAP/REST, sia settato **Ocp-Apim-Subscription-Key** con il valore della primary o secondary key generate attraverso il Developer Portal. \
     Il parametro **Ocp-Apim-Subscription-Key** deve essere inserito nell’header di tutte le chiamate SOAP o Rest che il client fa verso la piattaforma PagoPA. In caso di mancata valorizzazione dell'header HTTP o in caso di chiave errata o non più valida l'APIM risponderà con un errore HTTP 401 (Unauthorized).
 
 

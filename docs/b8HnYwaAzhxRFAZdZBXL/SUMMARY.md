@@ -10,7 +10,7 @@
 ## Manuale operativo
 
 * [Guida all'adesione](manuale-operativo/guida-alladesione.md)
-* [Ambiente di collaudo](manuale-operativo/ambiente-di-collaudo.md)
+* [Ambienti disponibili](manuale-operativo/ambienti-disponibili.md)
 * [E-service](manuale-operativo/e-service.md)
 * [Attributi](manuale-operativo/attributi.md)
 * [Richieste di fruizione](manuale-operativo/richieste-di-fruizione.md)
