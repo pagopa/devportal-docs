@@ -10,6 +10,12 @@ description: >-
 
 <summary>Marzo 2024</summary>
 
+### 1.0.84
+
+**28 marzo**
+
+* Bug fixing
+
 ### 1.0.83
 
 **27 marzo**
@@ -48,7 +54,7 @@ description: >-
 
 ### 1.0.78
 
-19 febbraio
+**19 febbraio**
 
 * Aggiunta degli attributi self-service (un utente di un ente autorizzato alla creazione di attributi certificati può crearli e assegnarli direttamente dalla UI)
 * Aggiornamento metriche per la dashboard pubblica
