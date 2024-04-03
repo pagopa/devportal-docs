@@ -30,30 +30,27 @@ In questo tutorial vedremo passo dopo passo tutto ciò che occorre fare per impl
 Per connettività in ingresso si intende il traffico generato dall’EC/PSP verso PagoPA.
 {% endhint %}
 
-1.  **Registrazione su pagoPA Platform (opzionale):** se non si dispone ancora di una utenza  **pagoPA** Platform. La registrazione può essere seguita online via browser accedendo alla URL del portale stesso, in base all’ambiente di interesse (Collaudo e/o Produzione), e selezionando la voce **Sign Up**.  In fase di registrazione verranno chieste le seguenti informazioni (tutte mandatorie):\
-    email; Password; Nome; Cognome. La registrazione si perfeziona inserendo correttamente una CAPTCHA di verifica e con l’Accettazione dei termini d’uso.\
+1. **Registrazione su pagoPA Platform (opzionale):** se non si dispone ancora di una utenza  **pagoPA** Platform. La registrazione può essere seguita online via browser accedendo alla URL del portale stesso, in base all’ambiente di interesse (Collaudo e/o Produzione), e selezionando la voce **Sign Up**.  In fase di registrazione verranno chieste le seguenti informazioni (tutte mandatorie):\
+   email; Password; Nome; Cognome. La registrazione si perfeziona inserendo correttamente una CAPTCHA di verifica e con l’Accettazione dei termini d’uso.\
+   \
+   ℹ️ **La password dovrà essere inserita due volte per evitare eventuali typo in fase di inserimento.**\
+   \
+   Conclusa con successo la fase di inserimento dati, il sistema invierà automaticamente un messaggio, per la validazione della casella di posta elettronica dichiarata contenente le istruzioni per perfezionare  la registrazione.\
 
 
-    {% hint style="info" %}
-    La password dovrà essere inserita due volte per evitare eventuali typo in fase di inserimento.
-    {% endhint %}
-
-    \
-    Conclusa con successo la fase di inserimento dati, il sistema invierà automaticamente un messaggio, per la validazione della casella di posta elettronica dichiarata contenente le istruzioni per perfezionare  la registrazione.\
-
-
-    {% hint style="info" %}
-    Per la registrazione su pagoPA Platform di Produzione è necessario autenticarsi tramite SPID.
-    {% endhint %}
+{% hint style="info" %}
+Per la registrazione su pagoPA Platform di Produzione è necessario autenticarsi tramite SPID.
+{% endhint %}
 
 
 
-    {% hint style="info" %}
-    L’accesso alla pagoPA Platform di Produzione di regola viene concesso solo alla conclusione positiva dei test nell’ambiente di Collaudo.
-    {% endhint %}
+{% hint style="info" %}
+L’accesso alla pagoPA Platform di Produzione di regola viene concesso solo alla conclusione positiva dei test nell’ambiente di Collaudo.
+{% endhint %}
 
 
-2. **Accesso alla pagoPA Platform:** accedere alla pagoPA Platform dell’ambiente che si intende configurare con le credenziali registrate.
+
+1. **Accesso alla pagoPA Platform:** accedere alla pagoPA Platform dell’ambiente che si intende configurare con le credenziali registrate.
 
 
 
