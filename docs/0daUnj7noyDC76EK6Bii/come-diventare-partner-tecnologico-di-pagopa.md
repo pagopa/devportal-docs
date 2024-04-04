@@ -12,11 +12,9 @@ Il rapporto fra PagoPA e Partner Tecnologico non è diretto, ma mediato esclusiv
 * si mantiene il ruolo di PT solo se sussiste almeno un rapporto contrattuale con un EC
 * si decade dal ruolo di PT allorché sono estinti tutti i rapporti con gli enti creditori instaurati in precedenza
 
-Si diventa Partner Tecnologici Qualificati  superando una procedura di qualificazione e firmando un accordo con PagoPA che attesta l’impegno a mantenere nel tempo lo status.
-
-{% hint style="info" %}
-L'abilitazione di un Partner Tecnologico richiede la collaborazione di almeno un Ente "pilota" aderente a pagoPA, con il quale vengono eseguite le attività di test. Se l'Ente "pilota" scelto non è ancora aderente, deve completare l'adesione e indicare il Partner Tecnologico coinvolto.
-{% endhint %}
+Si diventa Partner Tecnologici Qualificati  superando una procedura di qualificazione e firmando un accordo con PagoPA che attesta l’impegno a mantenere nel tempo lo status.\
+\
+ℹ️ _L'abilitazione di un Partner Tecnologico richiede la collaborazione di almeno un Ente "pilota" aderente a pagoPA, con il quale vengono eseguite le attività di test. Se l'Ente "pilota" scelto non è ancora aderente, deve completare l'adesione e indicare il Partner Tecnologico coinvolto_
 
 ### Tutorial&#x20;
 
@@ -35,25 +33,11 @@ In questo tutorial dettaglieremo tutti i passaggi per l’accreditamento di un s
     * configurare sulla stazione di Collaudo l’Ente “pilota”, indicando aux digit = 3 (obbligatorio) e codice di segregazione (a scelta tra 00 e 48);
     * fornire l’Informativa Conto Accredito per indicare gli IBAN di accredito che l’Ente intende utilizzare in fase di Collaudo (vedi Template ICA).
 5.  **Esecuzione procedure di test in ambiente di Test Esterno**: il Partner Tecnologico deve eseguire le procedure di test indicate nel Piano (vedi Piano di Test) e dopo averlo compilato nelle modalità richieste, deve procedere con l’invio alla seguente casella di posta elettronica [operations@pagopa.it](mailto:operations@pagopa.it) o aprire un ticket sul portale [Jira SM](https://pagopa.atlassian.net/servicedesk/customer/portal/3) .\
+    \
+    ℹ️ _Qualora il Referente Tecnico del Partner Tecnologico disponga già dell'utenza di “segnalatore”, con essa deve accedere a ServiceNow e aprire un CASE al quale allegare il documento compilato con le evidenze dei test eseguiti_.\
 
 
-
-
-    {% hint style="info" %}
-    Qualora il Referente Tecnico del Partner Tecnologico disponga già dell'utenza di “segnalatore”, con essa deve accedere a ServiceNow e aprire un CASE al quale allegare il documento compilato con le evidenze dei test eseguiti.
-    {% endhint %}
-
-
-
-
-
-    {% hint style="info" %}
-    In caso di attivazione del modello di pagamento presso il PSP (Pagamento con Avviso) il Piano di Test prevede che venga fornito un esempio di Avviso di Pagamento, così che se ne possa verificare la rispondenza con gli standard previsti.
-    {% endhint %}
-
-
-
-
+    ℹ️ In caso di attivazione del modello di pagamento presso il PSP (Pagamento con Avviso) il Piano di Test prevede che venga fornito un esempio di Avviso di Pagamento, così che se ne possa verificare la rispondenza con gli standard previsti
 6.  **Configurazione ambiente di Pre-Esercizio:** accedendo con le proprie credenziali sul SelfCare nell’ Area Riservata, il Referente Tecnico del Partner Tecnologico dovrà richiedere:
 
     * lo stacco delle Api Key;
@@ -64,23 +48,11 @@ In questo tutorial dettaglieremo tutti i passaggi per l’accreditamento di un s
     * configurare sulla stazione di Esercizio l’Ente “pilota”, indicando aux digit = 3 (obbligatorio) e codice di segregazione (a scelta tra 00 e 48);
     * fornire l’Informativa Conto Accredito per indicare gli IBAN di accredito che l’Ente intende utilizzare in fase di Pre-Esercizio (vedi Template ICA).\
 
-7.  **Esecuzione procedure di test in ambiente di Pre-Esercizio**: il Partner Tecnologico deve eseguire le procedure di test indicate nel Piano (vedi Piano di Test) e dopo averlo compilato nelle modalità richieste, deve procedere con l’invio alla seguente casella di posta elettronica [operations@pagopa.it](mailto:operations@pagopa.it) o aprire un ticket sul portale[ Jira SM](https://pagopa.atlassian.net/servicedesk/customer/portal/3).\
-    \
-
-
-    {% hint style="info" %}
-    Qualora il Referente Tecnico del Partner Tecnologico disponga già dell'utenza di “segnalatore”, con essa deve accedere a _ServiceNow_ e aprire un CASE al quale allegare il documento compilato con le evidenze dei test eseguiti.
-    {% endhint %}
-
-
-
-
-
-    {% hint style="info" %}
-    In caso di attivazione del modello di pagamento presso il PSP (Pagamento con Avviso) il Piano di Test prevede che venga fornito un esempio di Avviso di Pagamento, così che se ne possa verificare la rispondenza con gli standard previsti.
-    {% endhint %}
-
-
+7. **Esecuzione procedure di test in ambiente di Pre-Esercizio**: il Partner Tecnologico deve eseguire le procedure di test indicate nel Piano (vedi Piano di Test) e dopo averlo compilato nelle modalità richieste, deve procedere con l’invio alla seguente casella di posta elettronica [operations@pagopa.it](mailto:operations@pagopa.it) o aprire un ticket sul portale[ Jira SM](https://pagopa.atlassian.net/servicedesk/customer/portal/3).\
+   \
+   ℹ️ _Qualora il Referente Tecnico del Partner Tecnologico disponga già dell'utenza di “segnalatore”, con essa deve accedere a ServiceNow e aprire un CASE al quale allegare il documento compilato con le evidenze dei test eseguiti._\
+   \
+   ℹ️ _In caso di attivazione del modello di pagamento presso il PSP (Pagamento con Avviso) il Piano di Test prevede che venga fornito un esempio di Avviso di Pagamento, così che se ne possa verificare la rispondenza con gli standard previsti_
 8. **Manleva (garanzia) per abilitazione all'Esercizio:** completate tutte le attività, sia in ambiente di Test Esterno che di Pre-Esercizio, il Referente Tecnico dovrà compilare debitamente e firmare digitalmente il documento di Manleva che gli verrà fornito da pagoPA. Il Referente Tecnico provvederà ad inviare, alla casella di posta elettronica [operations@pagopa.it ](<mailto:operations@pagopa.it >)il documento di Manleva completato come richiesto
 
 ### Riferimenti utili
