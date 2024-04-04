@@ -49,8 +49,7 @@ Per connettività in ingresso si intende il traffico generato dall’EC/PSP vers
 4. **Accesso e Gestione delle Chiave Primaria e Secondaria:**\
    Le funzioni disponibili per ogni sottoscrizione sono:
    1. show: per visualizzare le singole chiavi
-   2. regenerate: nel caso si voglia generare nuovamente le chiavi.\
-
+   2. regenerate: nel caso si voglia generare nuovamente le chiavi.
 5.  **Utilizzo Chiavi di Sottoscrizione:** una volta ottenute le chiavi è necessario modificare il proprio software applicativo affinché  nell’header delle richieste SOAP/REST, sia settato **Ocp-Apim-Subscription-Key** con il valore della primary o secondary key generate attraverso il Developer Portal. \
     Il parametro **Ocp-Apim-Subscription-Key** deve essere inserito nell’header di tutte le chiamate SOAP o Rest che il client fa verso la piattaforma PagoPA. In caso di mancata valorizzazione dell'header HTTP o in caso di chiave errata o non più valida l'APIM risponderà con un errore HTTP 401 (Unauthorized).\
     \
@@ -60,9 +59,6 @@ Per connettività in ingresso si intende il traffico generato dall’EC/PSP vers
     | -------------- | --------------------------------------------- |
     | Collaudo (UAT) | https://api.uat.platform.pagopa.it/nodo-auth/ |
     | Produzione     | https://api.platform.pagopa.it/nodo-auth/     |
-
-    \
-
 6.  **Configurazione certificato lato Client:** il **soggetto** che intende connettersi direttamente alla piattaforma pagoPA, deve dotarsi di un **certificato digitale x.509** emesso da una **Certification Authority** che compaia fra i membri del **CA/Browser Forum**. È facoltà della PagoPA S.p.A. autorizzare la connessione utilizzando un certificato emesso da differente CA e autorizzare la connessione all’ambiente di test esterno utilizzando altro tipo di certificato.
 
 
@@ -70,16 +66,16 @@ Per connettività in ingresso si intende il traffico generato dall’EC/PSP vers
 
 #### Connettività in Uscita
 
-:information\_source: Per connettività in uscita si intende il traffico generato da pagoPA verso il soggetto partner (EC/PSP).
+ℹ️ Per connettività in uscita si intende il traffico generato da pagoPA verso il soggetto partner (EC/PSP).
 
 1. **Download certificato PagoPA e configurazione**: scaricare il certificato pubblico messo a disposizione da PagoPA tramite le SANP e abilitare la mutua autenticazione.\
    I certificati sono pubblicati sul repository GitHub di PagoPA.\
    \
-   :information\_source: _L’utilizzo di whitelist per gli indirizzi IP è fortemente sconsigliato per la necessità di allineare tale lista ad ogni aggiornamento_.
+   ℹ️ _L’utilizzo di whitelist per gli indirizzi IP è fortemente sconsigliato per la necessità di allineare tale lista ad ogni aggiornamento_.
 2. **Richiesta configurazione Partner:** al fine di perfezionare la connettività è cura del richiedente richiedere via email l’attivazione della connettività stessa. In seguito alla richiesta formale PagoPA contatterà il Partner per richiedere una serie di informazioni necessarie alla corretta configurazione. Le informazioni da fornire sono (tutti mandatori):\
    URL servizio (url della RT), URL Modello 3 (URL  dove sono esposti i metodi paVerifyPaymentNotice, paGetPayment, paSendRT), URL  di redirect.\
    \
-   :information\_source: _Si noti che è responsabilità del richiedente garantire che il servizio esposto per PagoPA sia correttamente dimensionato rispetto al numero delle richieste stimate e adeguatamente  ridondato per la gestione dei possibili picchi_.
+   ℹ️ _Si noti che è responsabilità del richiedente garantire che il servizio esposto per PagoPA sia correttamente dimensionato rispetto al numero delle richieste stimate e adeguatamente  ridondato per la gestione dei possibili picchi_.
 
 #### Frequently Asked Questions (FAQ)
 
