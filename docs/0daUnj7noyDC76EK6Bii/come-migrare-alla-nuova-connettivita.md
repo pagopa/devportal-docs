@@ -37,10 +37,9 @@ Per connettività in ingresso si intende il traffico generato dall’EC/PSP vers
    \
    Conclusa con successo la fase di inserimento dati, il sistema invierà automaticamente un messaggio, per la validazione della casella di posta elettronica dichiarata contenente le istruzioni per perfezionare  la registrazione.\
    \
-   :information\_source: _Per la registrazione su pagoPA Platform di Produzione è necessario autenticarsi tramite SPID._\
+   ℹ️ _Per la registrazione su pagoPA Platform di Produzione è necessario autenticarsi tramite SPID._\
    \
-   :information\_source: _L’accesso alla pagoPA Platform di Produzione di regola viene concesso solo alla conclusione positiva dei test nell’ambiente di Collaudo._\
-
+   ℹ️ _L’accesso alla pagoPA Platform di Produzione di regola viene concesso solo alla conclusione positiva dei test nell’ambiente di Collaudo._
 2. **Accesso alla pagoPA Platform:** accedere alla pagoPA Platform dell’ambiente che si intende configurare con le credenziali registrate.
 3. **Sottoscrizione alla Nuova Connettività**: nel menù che si presenta in alto a destra bisogna accedere alla voce Products e scegliere tra i prodotti proposti **Nodo dei Pagamenti (Nuova Connettività).** Una volta fatta questa scelta sarà possibile sottoscrivere la connettività attraverso i seguenti passaggi:
    1. Inserire nella textbox riportante il messaggio Your new product description name il nome che si intende dare alla connettività stessa (si consiglia di seguire una nomenclatura del tipo NC\<nomePSP/EC>\<UAT/Prod> come, per esempio, NCBestPSPEverUAT)
@@ -55,8 +54,7 @@ Per connettività in ingresso si intende il traffico generato dall’EC/PSP vers
 5.  **Utilizzo Chiavi di Sottoscrizione:** una volta ottenute le chiavi è necessario modificare il proprio software applicativo affinché  nell’header delle richieste SOAP/REST, sia settato **Ocp-Apim-Subscription-Key** con il valore della primary o secondary key generate attraverso il Developer Portal. \
     Il parametro **Ocp-Apim-Subscription-Key** deve essere inserito nell’header di tutte le chiamate SOAP o Rest che il client fa verso la piattaforma PagoPA. In caso di mancata valorizzazione dell'header HTTP o in caso di chiave errata o non più valida l'APIM risponderà con un errore HTTP 401 (Unauthorized).\
     \
-    :information\_source: _L’endpoint da utilizzare, dipende dall’ambiente utilizzato;_\
-
+    ℹ️ _L’endpoint da utilizzare, dipende dall’ambiente utilizzato;_
 
     | Ambiente       | Endpoint                                      |
     | -------------- | --------------------------------------------- |
@@ -74,12 +72,10 @@ Per connettività in ingresso si intende il traffico generato dall’EC/PSP vers
 
 :information\_source: Per connettività in uscita si intende il traffico generato da pagoPA verso il soggetto partner (EC/PSP).
 
-1.  **Download certificato PagoPA e configurazione**: scaricare il certificato pubblico messo a disposizione da PagoPA tramite le SANP e abilitare la mutua autenticazione.\
-    I certificati sono pubblicati sul repository GitHub di PagoPA.\
-    \
-    :information\_source: _L’utilizzo di whitelist per gli indirizzi IP è fortemente sconsigliato per la necessità di allineare tale lista ad ogni aggiornamento_.
-
-
+1. **Download certificato PagoPA e configurazione**: scaricare il certificato pubblico messo a disposizione da PagoPA tramite le SANP e abilitare la mutua autenticazione.\
+   I certificati sono pubblicati sul repository GitHub di PagoPA.\
+   \
+   :information\_source: _L’utilizzo di whitelist per gli indirizzi IP è fortemente sconsigliato per la necessità di allineare tale lista ad ogni aggiornamento_.
 2. **Richiesta configurazione Partner:** al fine di perfezionare la connettività è cura del richiedente richiedere via email l’attivazione della connettività stessa. In seguito alla richiesta formale PagoPA contatterà il Partner per richiedere una serie di informazioni necessarie alla corretta configurazione. Le informazioni da fornire sono (tutti mandatori):\
    URL servizio (url della RT), URL Modello 3 (URL  dove sono esposti i metodi paVerifyPaymentNotice, paGetPayment, paSendRT), URL  di redirect.\
    \
@@ -88,11 +84,9 @@ Per connettività in ingresso si intende il traffico generato dall’EC/PSP vers
 #### Frequently Asked Questions (FAQ)
 
 1. **Una chiave di sottoscrizione ha una durata temporale predefinita?**\
-   Attualmente le chiavi non hanno scadenza, ma per motivi di sicurezza si consiglia una loro rigenerazione e aggiornamento periodico.\
-
+   Attualmente le chiavi non hanno scadenza, ma per motivi di sicurezza si consiglia una loro rigenerazione e aggiornamento periodico.
 2. **Errore 401 durante l’esecuzione delle chiamate (Connettività in Ingresso)**\
-   Se si presenta questo errore bisogna verificare che la chiave di autorizzazione che si sta utilizzando sia corretta e ancora attiva. In caso contrario potrebbe essere necessario procedere ad una rigenerazione della stessa.\
-
+   Se si presenta questo errore bisogna verificare che la chiave di autorizzazione che si sta utilizzando sia corretta e ancora attiva. In caso contrario potrebbe essere necessario procedere ad una rigenerazione della stessa.
 3. **Noi come PSS/EC abbiamo la necessità di aggiungere i server di PagoPA nella nostra whitelist. Quali sono gli IP?**\
    In generale PagoPA sconsiglia di utilizzare whitelist per gli indirizzi IP, questo perché essendo in cloud non è possibile garantire che gli stessi non varino. Pertanto, se è fondamentale usare una whitelist, è necessario verificare che l’indirizzo sia ancora valido e predisporre dei controlli periodici.
 
