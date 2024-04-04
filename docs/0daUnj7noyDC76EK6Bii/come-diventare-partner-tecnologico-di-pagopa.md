@@ -37,7 +37,7 @@ In questo tutorial dettaglieremo tutti i passaggi per l’accreditamento di un s
     ℹ️ _Qualora il Referente Tecnico del Partner Tecnologico disponga già dell'utenza di “segnalatore”, con essa deve accedere a ServiceNow e aprire un CASE al quale allegare il documento compilato con le evidenze dei test eseguiti_.\
 
 
-    ℹ️ In caso di attivazione del modello di pagamento presso il PSP (Pagamento con Avviso) il Piano di Test prevede che venga fornito un esempio di Avviso di Pagamento, così che se ne possa verificare la rispondenza con gli standard previsti
+    ℹ️ _In caso di attivazione del modello di pagamento presso il PSP (Pagamento con Avviso) il Piano di Test prevede che venga fornito un esempio di Avviso di Pagamento, così che se ne possa verificare la rispondenza con gli standard previsti_
 6.  **Configurazione ambiente di Pre-Esercizio:** accedendo con le proprie credenziali sul SelfCare nell’ Area Riservata, il Referente Tecnico del Partner Tecnologico dovrà richiedere:
 
     * lo stacco delle Api Key;
