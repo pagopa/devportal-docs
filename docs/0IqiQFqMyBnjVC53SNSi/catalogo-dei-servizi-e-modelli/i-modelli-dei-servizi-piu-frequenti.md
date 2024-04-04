@@ -11,4 +11,4 @@ Ogni modello contiene il nome del servizio, la descrizione, un argomento tematic
 
 
 
-[**Visita la risorsa per scoprire tutti i modelli ->**](https://app.gitbook.com/o/KXYtsf32WSKm6ga638R3/s/0OMsoqOg9GiJ2xusVHMv/)
+[**Visita la risorsa per scoprire tutti i modelli ->**](https://app.gitbook.com/s/0OMsoqOg9GiJ2xusVHMv/)
