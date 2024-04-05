@@ -14,7 +14,7 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 
 ## **Ciclo di vita del servizio**
 
-<figure><img src="../.gitbook/assets/TARI.png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio TARI</strong></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/TARI_X.png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio TARI</strong></p></figcaption></figure>
 
 ## **Messaggi del servizio**
 
@@ -28,11 +28,11 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 <details>
 
-<summary>Dichiarazione di nuova occupazione immobile</summary>
+<summary>Dichiarazione di occupazione immobile</summary>
 
-**🖋 Titolo del messaggio:** Dichiarazione di nuova occupazione immobile
+**🖋 Titolo del messaggio:** Dichiarazione di \<inizio/variazione> occupazione immobile
 
-🗒 **Testo del messaggio**: Abbiamo ricevuto la tua dichiarazione di occupazione di un nuovo immobile. Ecco i dettagli:
+🗒 **Testo del messaggio**: Abbiamo ricevuto la tua dichiarazione di \<inizio/variazione> occupazione di un immobile. Ecco i dettagli:
 
 **Indirizzo**: \<indirizzo> - \<piano ed interno immobile> \
 **Occupato da**: \<nome cognome>\
@@ -44,9 +44,9 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 ***
 
-**Destinatari**: I cittadini che hanno completato la dichiarazione di occupazione di un immobile.&#x20;
+**Destinatari**: I cittadini che hanno completato la dichiarazione di inizio o variazione occupazione di un immobile.&#x20;
 
-**Quando inviarlo**: Alla conclusione della registrazione dell'immobile a nome del cittadino.
+**Quando inviarlo**: Alla conclusione della registrazione della dichiarazione.
 
 **User story**: Come cittadino voglio ricevere conferma che la dichiarazione di occupazione è stata processata correttamente.
 
