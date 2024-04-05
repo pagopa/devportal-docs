@@ -4,7 +4,7 @@
 
 La migrazione verso la cosiddetta **Nuova Connettività** nasce dall’esigenza di superare l'attuale sistema di interconnessione basato sull’uso delle Porte di Dominio (PdD, PddE) e GAD in favore di una connettività Internet (HTTP over TLS 1.2). Questo vale sia per le comunicazioni in ingresso che in uscita.
 
-Infatti, le attuali API di comunicazione con il Nodo dei Pagamenti sono veicolate tramite vari oggetti che presentano dei limiti e **non sono adeguati alle Linee Guida (LLGG) di AgID** in termini di interoperabilità (nello specifico: PdD, PddE, GAD). Inoltre, le informazioni di autenticazione sono trasmesse nel body di ogni chiamata SOAP aumentando i rischi rispetto alla sicurezza.
+Infatti, le attuali API di comunicazione con il Nodo dei Pagamenti sono veicolate tramite vari oggetti che presentano dei limiti e **non sono adeguati alle Linee Guida (LLGG) di AgID** in termini di interoperabilità (nello specifico: PdD, PddE, GAD).
 
 Infine, lasciare le PdD/PddE oltre a non risultare conforme alle nuove LLGG AgID, in termini di interoperabilità, implica maggiori costi di manutenzione sia per PagoPA che per gli EC/PSP dovuti alla complessità di questi sistemi.
 
