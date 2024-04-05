@@ -13,6 +13,7 @@ Ogni ente ha quindi esposti sotto al proprio nome i servizi che offre su IO. Pre
 * [**il nome del servizio**](nome-del-servizio.md);
 * [**la descrizione**](descrizione.md), che spiega in modo chiaro l’oggetto del servizio;
 * il [**logo**](logo.md) del servizio, un elemento facoltativo;
+* l'argomento di cui il servizio fa parte;
 * una serie di **attributi** del servizio, come i [**contatti**](../../appendice/contatti.md) per richiedere assistenza e l’**informativa privacy** relativa al trattamento dei dati personali da parte dell'ente erogatore.&#x20;
 
 Per approfondire i dati da inserire nel caricamento di un nuovo servizio, [<mark style="color:blue;">**vai alla guida tecnica -->**</mark>](https://app.gitbook.com/s/coSKRte21UjDBRWKLtEs/funzionalita/creare-un-servizio/dati-obbligatori)&#x20;
