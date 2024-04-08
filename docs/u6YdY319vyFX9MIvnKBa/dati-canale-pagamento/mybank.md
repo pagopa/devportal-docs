@@ -56,6 +56,24 @@ Sì
 
 {% tabs %}
 {% tab title="Key" %}
+`validationServiceId`
+{% endtab %}
+
+{% tab title="Tipo" %}
+Stringa
+{% endtab %}
+
+{% tab title="Dimensioni" %}
+N/A
+{% endtab %}
+
+{% tab title="Obbligatorio" %}
+Sì
+{% endtab %}
+{% endtabs %}
+
+{% tabs %}
+{% tab title="Key" %}
 `totalAmount`
 {% endtab %}
 
