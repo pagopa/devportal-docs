@@ -1,6 +1,6 @@
 # Table of contents
 
-* [⬅ Torna alle SANP](https://docs.pagopa.it/sanp)
+* [⬅️ Torna alle SANP](https://docs.pagopa.it/sanp)
 * [Premessa](README.md)
 * [Riconciliazione contabile](riconciliazione-contabile/README.md)
   * [CORRISPETTIVO\_DL118](riconciliazione-contabile/corrispettivo\_dl118.md)
