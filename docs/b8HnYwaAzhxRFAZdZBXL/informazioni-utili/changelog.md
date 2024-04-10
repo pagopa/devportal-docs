@@ -12,9 +12,11 @@ description: >-
 
 ### 1.0.85
 
-**3 aprile**
+**9 aprile**
 
-* Aggiornamenti back office
+* Aggiornamento metriche pubbliche
+
+
 
 </details>
 
