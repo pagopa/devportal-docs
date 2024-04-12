@@ -8,10 +8,10 @@ description: >-
 # Associazione di un EC alla Stazione
 
 {% hint style="warning" %}
-Nota: qualora il _**Partner Tecnologico**_ volesse associare un EC ad una Stazione è necessario che l'EC abbia completato la fase di [registrazione al nodo dei pagamenti](../registrazione-al-nodo-dei-pagamenti-pagopa.md). In caso contrario otterrà un errore e non potrà procedere con l'associazione.
-
-![](<../../../.gitbook/assets/Screenshot 2024-01-29 alle 14.51.20 (2).png>)
+Nota: qualora il _**Partner Tecnologico**_ volesse associare un EC ad una Stazione è necessario che l'EC abbia completato la fase di [registrazione al nodo dei pagamenti](../registrazione-al-nodo-dei-pagamenti-pagopa.md). In caso contrario otterrà un errore e non potrà procedere con l'associazione. Di seguito l'esempio di errore.
 {% endhint %}
+
+<figure><img src="../../../.gitbook/assets/Screenshot 2024-01-29 alle 14.51.20 (2).png" alt=""><figcaption><p>Errore Ente non registrato al nodo</p></figcaption></figure>
 
 ## Sezione Stazione: Associazione
 
