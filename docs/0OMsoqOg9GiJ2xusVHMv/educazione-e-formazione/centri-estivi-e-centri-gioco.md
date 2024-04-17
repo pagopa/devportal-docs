@@ -149,7 +149,7 @@ C'è un avviso da pagare intestato a \<nome e cognome> e relativo a \<causale>.
 
 **Entro il:** \<gg/mm/aaaa>
 
-Puoi pagare direttamente in app premendo “Vedi Avviso”, oppure tramite tutti i canali di pagamento della piattaforma pagoPA e le altre modalità di pagamento offerte dell'ente creditore.
+Puoi pagare direttamente in app premendo “Vedi Avviso”, oppure tramite tutti i canali di pagamento della piattaforma pagoPA e le altre modalità di pagamento offerte dall'ente creditore.
 
 Se hai già provveduto a pagare l'avviso ignora questo messaggio.
 
