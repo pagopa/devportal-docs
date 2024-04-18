@@ -94,6 +94,4 @@ L'utente, una volta completata la registrazione al Nodo **potrà** intervenire a
 
 * **Codice BIC:**  può **modificare** e aggiornare il codice **BIC.**
 * **Marca da bollo digitale:** può passare da marca **da** bollo digitale "**Attiva**" a "**Non Attiva**" e **viceversa**.
-* **Modalità di Connessione al Nodo:** questa scelta è **modificabile** **solo** se si intende passare **da** connessione **Indiretta** a **Diretta** e non viceversa, questo perchè potrebbero esserci dei rapporti di associazione in corso sui canali configurati.
-
-####
+* **Modalità di Connessione al Nodo:** questa scelta è **modificabile senza vincoli** **solo** se si intende passare **da** connessione **Indiretta** a **Diretta.** Se invece si vuole passare **da Diretta a Indiretta** la possibilità è garantita soltanto se non esistono dei rapporti di associazione in corso sui canali  configurati. In tal caso è necessario contattare l'assistenza PagoPa.
