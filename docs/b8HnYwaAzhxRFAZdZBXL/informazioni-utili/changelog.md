@@ -10,6 +10,12 @@ description: >-
 
 <summary>Aprile 2024</summary>
 
+### 1.0.86
+
+**17 aprile**
+
+* Aggiornamenti del back office
+
 ### 1.0.85
 
 **9 aprile**

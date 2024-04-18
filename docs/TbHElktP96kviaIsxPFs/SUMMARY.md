@@ -27,4 +27,5 @@
         * [Visualizzazione pacchetti globali](manuale-operativo-back-office-pagopa-ente-creditore/funzionalita/gestione-evoluta-commissioni/pacchetti-globali/visualizzazione-pacchetti-globali.md)
         * [Visualizza dettaglio](manuale-operativo-back-office-pagopa-ente-creditore/funzionalita/gestione-evoluta-commissioni/pacchetti-globali/visualizza-dettaglio.md)
     * [Matrice Ruoli / Funzionalità](manuale-operativo-back-office-pagopa-ente-creditore/funzionalita/matrice-ruoli-funzionalita.md)
+    * [Recupero ricevute pagamenti CUP](manuale-operativo-back-office-pagopa-ente-creditore/funzionalita/recupero-ricevute-pagamenti-cup.md)
   * [Delega verso un Partner Tecnologico](manuale-operativo-back-office-pagopa-ente-creditore/delega-verso-un-partner-tecnologico.md)

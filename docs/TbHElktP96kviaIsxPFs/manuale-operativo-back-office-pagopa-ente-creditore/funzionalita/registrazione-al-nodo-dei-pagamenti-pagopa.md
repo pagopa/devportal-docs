@@ -35,7 +35,7 @@ Indirizzo, Provincia, Domicilio Fiscale, Città e CAP, **all'interno** della **s
 
 Inoltre, l'utente oltre a dover procedere alla compilazione dei suddetti campi, è **tenuto** ad **esprimere** la scelta relativa alla **modalità** di **connessione** al **Nodo**. Tale scelta avviene **tramite** **selezione** **dell'opzione "Diretta"/"Indiretta"** all'interno della **sezione** **"Modalità di connessione al Nodo"**.
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p><em>Registrazione al Nodo - da completare</em></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p><em>Registrazione al Nodo - da completare</em></p></figcaption></figure>
 
 
 
@@ -43,7 +43,7 @@ Inoltre, l'utente oltre a dover procedere alla compilazione dei suddetti campi, 
 
 L'utente procede alla **compilazione dei dati obbligatori** e sceglie la **modalità indiretta** di connessione al Nodo**.**
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p><em>Registrazione al Nodo - connessione indiretta</em></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p><em>Registrazione al Nodo - connessione indiretta</em></p></figcaption></figure>
 
 Una volta aver cliccato sul tasto "Conferma", l'utente avrà completato la Registrazione al Nodo dei Pagamenti PagoPA.
 
