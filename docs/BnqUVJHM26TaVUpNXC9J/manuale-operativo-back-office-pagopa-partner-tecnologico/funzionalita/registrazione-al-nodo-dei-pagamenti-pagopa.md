@@ -26,7 +26,7 @@ L'utente procede quindi alla scelta della tipologia di ente che vuole intermedia
 Una volta aver cliccato sul tasto "Conferma", l'utente avrà completato la Registrazione al Nodo dei Pagamenti PagoPA.
 
 {% hint style="warning" %}
-Una volta confermato l'utente non potrà cambiare la sua scelta. Potrà soltanto aggiungere tra le tipologie di enti da intermediare quelle non scelte in fase precedente. In caso di errori pertanto è necessario aprire un ticket all'assistenza.
+Una volta confermato l'utente potrà cambiare la scelta sugli enti da intermediare (PSP, EC, o entrambi) soltanto se quell'ente non abbia già associato delle stazioni / canali. In caso negativo sarà possibile per il PT / Intermediario modificare la tipologia di intermediazione. In caso positivo, ovvero nel caso in cui ci sono già delle stazioni o canali è necessario aprire un ticket all'assistenza.
 {% endhint %}
 
 Questo verrà reindirizzato alla Panoramica in cui potrà visualizzare il riepilogo dei dati:

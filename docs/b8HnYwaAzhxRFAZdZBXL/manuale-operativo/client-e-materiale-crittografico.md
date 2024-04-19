@@ -69,7 +69,7 @@ Per caricare una chiave:&#x20;
 1. dopo aver generato la coppia di chiavi e averle riposte al sicuro, si copia il contenuto del file della chiave pubblica (finisce in `.pub`, e il cui file inizia con `-----BEGIN PUBLIC KEY-----`);&#x20;
 2. si torna su PDND Interoperabilità;&#x20;
 3. all’interno della propria utenza, si trova un bottone _Carica nuova chiave_;&#x20;
-4. a quel punto, dopo aver incollato la chiave nel campo di testo, si clicca su _Carica chiave_. Si riceve immediatamente riscontro se il caricamento è andato a buon fine. Se dovessero verificarsi errori, si possono seguire le istruzioni indicate nel messaggio di errore o guardare nelle [FAQ](broken-reference) di questa guida.
+4. a quel punto, dopo aver incollato la chiave nel campo di testo, si clicca su _Carica chiave_. Si riceve immediatamente riscontro se il caricamento è andato a buon fine. Se dovessero verificarsi errori, si possono seguire le istruzioni indicate nel messaggio di errore o guardare nelle [FAQ](../faq/per-i-dpo.md) di questa guida.
 
 ### Rimuovere una chiave pubblica da un client
 
