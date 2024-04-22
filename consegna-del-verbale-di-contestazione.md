@@ -7,7 +7,7 @@ description: >-
 
 # 5️⃣ Consegna del verbale di contestazione
 
-<figure><img src="../.gitbook/assets/image (22).png" alt="Sezione 5 di 6: Consegna del verbale di contestazione"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (22).png" alt="Sezione 5 di 6: Consegna del verbale di contestazione"><figcaption></figcaption></figure>
 
 ## 1. L'ente carica la notifica su SEND
 
@@ -87,4 +87,4 @@ Apre la notifica entro 120 ore (5 giorni) dalla consegna, pertanto la notifica s
 
 [In questa pagina](https://notifichedigitali.pagopa.it/perfezionamento) scopri come si perfeziona una notifica.
 
-<figure><img src="../.gitbook/assets/Diagramma SEND (1).jpg" alt="Un diagramma che spiega il processo di invio di una comunicazione tramite SEND"><figcaption><p>Invio delle comunicazioni tramite SEND</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Diagramma SEND (1).jpg" alt="Un diagramma che spiega il processo di invio di una comunicazione tramite SEND"><figcaption><p>Invio delle comunicazioni tramite SEND</p></figcaption></figure>

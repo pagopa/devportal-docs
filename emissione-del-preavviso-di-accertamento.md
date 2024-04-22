@@ -7,7 +7,7 @@ description: >-
 
 # 2️⃣ Emissione del preavviso di accertamento
 
-<figure><img src="../.gitbook/assets/image (19).png" alt="Sezione 2 di 6: Emissione del preavviso di accertamento"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (19).png" alt="Sezione 2 di 6: Emissione del preavviso di accertamento"><figcaption></figcaption></figure>
 
 ## 1. L'ente crea la posizione debitoria
 

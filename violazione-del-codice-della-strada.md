@@ -7,7 +7,7 @@ description: >-
 
 # 1️⃣ Violazione del Codice della Strada
 
-<figure><img src="../.gitbook/assets/image (18).png" alt="Sezione 1 di 6: Violazione al Codice della strada, accertamento e contestazione"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (18).png" alt="Sezione 1 di 6: Violazione al Codice della strada, accertamento e contestazione"><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Il processo descritto non copre altre violazioni, per esempio accertate tramite ZTL o autovelox, che saranno integrate in futuro.

@@ -7,7 +7,7 @@ description: >-
 
 # 6️⃣ Pagamento del verbale di contestazione
 
-<figure><img src="../.gitbook/assets/image (23).png" alt="Sezione 6 di 6: Pagamento del verbale di contestazione"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (23).png" alt="Sezione 6 di 6: Pagamento del verbale di contestazione"><figcaption></figcaption></figure>
 
 5 giorni dopo la visualizzazione della notifica, si possono prospettare due scenari:&#x20;
 
