@@ -10,6 +10,12 @@ description: >-
 
 <summary>Aprile 2024</summary>
 
+### 1.0.87
+
+**22 aprile**
+
+* Bug fixing
+
 ### 1.0.86
 
 **17 aprile**
