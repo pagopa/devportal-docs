@@ -31,7 +31,21 @@ _Contiene tutti i parametri di configurazione della stazione per il collegamento
 
 Al click su **"Crea Stazione"** l'utente può accedere alla _Pagina di dettaglio Stazione_ in cui sono riportate le informazioni necessarie alla creazione della stazione.
 
+{% hint style="warning" %}
+L'immagine mostrata di seguito è leggermente diversa rispetto allo stato attuale del sistema. E' una preview della funzionalità che verrà rilasciata nelle prossime settimane e che prevede una maggiore chiarezza per gli utilizzatori del sistema
+{% endhint %}
+
+<figure><img src="../../../.gitbook/assets/image (217).png" alt=""><figcaption></figcaption></figure>
+
 I soli campi valorizzati sono quelli della sezione **Anagrafica.**&#x20;
+
+A seconda della modalità di integrazione scelta (per maggiori info si veda [https://docs.pagopa.it/sanp/ente-creditore/modalita-dintegrazione](https://docs.pagopa.it/sanp/ente-creditore/modalita-dintegrazione)) è necessario selezionare "`Asincrona`" o "`Sincrona`".
+
+Se si seleziona la modalità "Asincrona" è possibile procedere con la conferma in quanto non sono necessarie ulteriori informazioni.&#x20;
+
+Se invece la modalità scelta è "Sincrona" allora è necessario inserire i dati degli endpoint.
+
+<figure><img src="../../../.gitbook/assets/image (218).png" alt=""><figcaption></figcaption></figure>
 
 A seconda della configurazione della stazione, vecchio modello 1, oppure nuovo modello unico sarà necessario valorizzare i campi nel modo seguente:
 
@@ -46,10 +60,14 @@ _**Modello Unico**_
 * _`Versione primitive:`_selezionare dal menu a tendina la versione delle primitive da utilizzare (1 o 2)
 
 {% hint style="info" %}
-Se si sta configurando una stazione asincrona non è necessario specificare alcun endpoint
-{% endhint %}
+E' inoltre possibile eseguire un test di connettività degli endpoint schiacciando sui pulsanti "Verifica URL" a fianco di ogni endpoint. Qualora il test dovesse essere negativo è comunque possibile procedere all'invio della stazione agli operatori pagoPA.
 
-<figure><img src="../../../.gitbook/assets/image (204).png" alt=""><figcaption><p><em>Pagina di Configurazione della Stazione</em></p></figcaption></figure>
+Nello specifico la verifica URL è così strutturata:
+
+* per l'endpoint indicato nella sezione Modello 1 - Endpoint RT prevede l'invocazione della primitiva "paaInvioRT" (con body di test) messa a disposizione dalla stazione. &#x20;
+* per l'endpoint indicato nella sezione Modello 1 - Endpoint Redirect prevede l'invocazione della url indicata
+* per l'endpoint indicato nella sezione Modello Unico - Endpoint  prevede l'invocazione della primitiva "paVerifyPaymentNotice" (con body di test) messa a disposizione dalla stazione.   &#x20;
+{% endhint %}
 
 Nel momento in cui la compilazione è **completata,** è possibile cliccare sul tasto **"Conferma".**
 
