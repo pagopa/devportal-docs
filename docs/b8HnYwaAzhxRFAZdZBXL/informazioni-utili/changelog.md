@@ -6,9 +6,29 @@ description: >-
 
 # Changelog
 
+
+
+<details>
+
+<summary>Maggio 2024</summary>
+
+### 1.0.89
+
+**6 maggio**
+
+* Bug fixing
+
+</details>
+
 <details>
 
 <summary>Aprile 2024</summary>
+
+### 1.0.88
+
+**29 aprile**
+
+* Adeguamento infrastrutturale
 
 ### 1.0.87
 
