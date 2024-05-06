@@ -29,6 +29,7 @@ description: >-
 **29 aprile**
 
 * Adeguamento infrastrutturale
+* Abilitazione per le assicurazioni estere all'entrata in piattaforma
 
 ### 1.0.87
 
