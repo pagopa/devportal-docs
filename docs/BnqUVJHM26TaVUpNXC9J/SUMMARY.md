@@ -23,6 +23,7 @@
       * [Gestione](manuale-operativo-back-office-pagopa-partner-tecnologico/funzionalita/canale/gestione.md)
       * [Duplicazione](manuale-operativo-back-office-pagopa-partner-tecnologico/funzionalita/canale/duplicazione.md)
       * [Associazione di un PSP al Canale](manuale-operativo-back-office-pagopa-partner-tecnologico/funzionalita/canale/associazione-di-un-psp-al-canale.md)
+    * [I "tuoi enti"](manuale-operativo-back-office-pagopa-partner-tecnologico/funzionalita/i-tuoi-enti.md)
     * [Matrice Ruoli / Funzionalità](manuale-operativo-back-office-pagopa-partner-tecnologico/funzionalita/matrice-ruoli-funzionalita.md)
     * [External API](manuale-operativo-back-office-pagopa-partner-tecnologico/funzionalita/external-api/README.md)
       * [Sottoscrizione, Autenticazione & Autorizzazione](manuale-operativo-back-office-pagopa-partner-tecnologico/funzionalita/external-api/sottoscrizione-autenticazione-and-autorizzazione.md)

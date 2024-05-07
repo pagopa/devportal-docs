@@ -92,41 +92,41 @@
 
 ## Validazione semantica / Altri controlli
 
-| nodoInviaRT                      | <p>PPT_DOMINIO_SCONOSCIUTO<br>PPT_SEMANTICA<br>PPT_RT_IN_GESTIONE<br>PPT_RT_SEGNO_DISCORDE</p>                                                                     |
-| -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| nodoVerificaRPT                  | <p>PPT_CODIFICA_PSP_SCONOSCIUTA<br>PPT_SEMANTICA<br>PPT_MULTI_BENEFICIARIO</p>                                                                                     |
-| nodoAttivaRPT                    | <p>PPT_CODIFICA_PSP_SCONOSCIUTA<br>PPT_SEMANTICA</p>                                                                                                               |
-| nodoChiediNumeroAvviso           | PPT\_SEMANTICA                                                                                                                                                     |
-| nodoInviaFlussoRendicontazione   | <p>PPT_DOMINIO_SCONOSCIUTO<br>PPT_DOMINIO_DISABILITATO<br>PPT_SEMANTICA</p>                                                                                        |
-| nodoChiediInformativaPA          | <p>PPT_DOMINIO_SCONOSCIUTO<br>PPT_DOMINIO_DISABILITATO<br>PPT_SEMANTICA</p>                                                                                        |
-| nodoChiediTemplateInformativaPSP | PPT\_SEMANTICA                                                                                                                                                     |
-| nodoChiediCatalogoServizi        | <p>PPT_DOMINIO_SCONOSCIUTO<br>PPT_DOMINIO_DISABILITATO<br>PPT_SEMANTICA</p>                                                                                        |
-| nodoChiediElencoQuadraturePSP    | <p>PPT_DOMINIO_SCONOSCIUTO<br>PPT_DOMINIO_DISABILITATO<br>PPT_SEMANTICA</p>                                                                                        |
-| nodoChiediQuadraturaPSP          | <p>PPT_ID_FLUSSO_SCONOSCIUTO<br>PPT_SEMANTICA</p>                                                                                                                  |
-| verifyPaymentNotice              | <p>PPT_CODIFICA_PSP_SCONOSCIUTA<br>PPT_SEMANTICA<br>PPT_PAGAMENTO_IN_CORSO<br>PPT_PAGAMENTO_DUPLICATO</p>                                                          |
-| verificaBollettino               | <p>PPT_SEMANTICA<br>PPT_PAGAMENTO_IN_CORSO<br>PPT_PAGAMENTO_DUPLICATO</p>                                                                                          |
-| activatePaymentNotice            | <p>PPT_CODIFICA_PSP_SCONOSCIUTA<br>PPT_SEMANTICA</p><p>PPT_ATTIVAZIONE_IN_CORSO<br>PPT_PAGAMENTO_IN_CORSO<br>PPT_PAGAMENTO_DUPLICATO<br>PPT_ERRORE_IDEMPOTENZA</p> |
-| sendPaymentOutcome               | <p>PPT_SEMANTICA<br>PPT_TOKEN_SCADUTO</p><p>PPT_TOKEN_SCADUTO_KO<br>PPT_PAGAMENTO_DUPLICATO<br>PPT_ERRORE_IDEMPOTENZA </p><p>PPT_TOKEN_SCONOSCIUTO</p>             |
-| activatePaymentNoticeV2          | <p>PPT_CODIFICA_PSP_SCONOSCIUTA<br>PPT_SEMANTICA<br>PPT_ATTIVAZIONE_IN_CORSO<br>PPT_PAGAMENTO_IN_CORSO<br>PPT_PAGAMENTO_DUPLICATO<br>PPT_ERRORE_IDEMPOTENZA</p>    |
-| sendPaymentOutcomeV2             | <p>PPT_SEMANTICA<br>PPT_TOKEN_SCADUTO</p><p>PPT_TOKEN_SCADUTO_KO<br>PPT_PAGAMENTO_DUPLICATO<br>PPT_ERRORE_IDEMPOTENZA<br>PPT_TOKEN_SCONOSCIUTO</p>                 |
+| nodoInviaRT                      | <p>PPT_DOMINIO_SCONOSCIUTO<br>PPT_SEMANTICA<br>PPT_RT_IN_GESTIONE<br>PPT_RT_SEGNO_DISCORDE</p>                                                                                     |
+| -------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| nodoVerificaRPT                  | <p>PPT_CODIFICA_PSP_SCONOSCIUTA<br>PPT_SEMANTICA<br>PPT_MULTI_BENEFICIARIO</p>                                                                                                     |
+| nodoAttivaRPT                    | <p>PPT_CODIFICA_PSP_SCONOSCIUTA<br>PPT_SEMANTICA</p>                                                                                                                               |
+| nodoChiediNumeroAvviso           | PPT\_SEMANTICA                                                                                                                                                                     |
+| nodoInviaFlussoRendicontazione   | <p>PPT_DOMINIO_SCONOSCIUTO<br>PPT_DOMINIO_DISABILITATO<br>PPT_SEMANTICA</p>                                                                                                        |
+| nodoChiediInformativaPA          | <p>PPT_DOMINIO_SCONOSCIUTO<br>PPT_DOMINIO_DISABILITATO<br>PPT_SEMANTICA</p>                                                                                                        |
+| nodoChiediTemplateInformativaPSP | PPT\_SEMANTICA                                                                                                                                                                     |
+| nodoChiediCatalogoServizi        | <p>PPT_DOMINIO_SCONOSCIUTO<br>PPT_DOMINIO_DISABILITATO<br>PPT_SEMANTICA</p>                                                                                                        |
+| nodoChiediElencoQuadraturePSP    | <p>PPT_DOMINIO_SCONOSCIUTO<br>PPT_DOMINIO_DISABILITATO<br>PPT_SEMANTICA</p>                                                                                                        |
+| nodoChiediQuadraturaPSP          | <p>PPT_ID_FLUSSO_SCONOSCIUTO<br>PPT_SEMANTICA</p>                                                                                                                                  |
+| verifyPaymentNotice              | <p>PPT_CODIFICA_PSP_SCONOSCIUTA<br>PPT_SEMANTICA<br>PPT_PAGAMENTO_IN_CORSO<br>PPT_PAGAMENTO_DUPLICATO</p>                                                                          |
+| verificaBollettino               | <p>PPT_SEMANTICA<br>PPT_PAGAMENTO_IN_CORSO<br>PPT_PAGAMENTO_DUPLICATO</p>                                                                                                          |
+| activatePaymentNotice            | <p>PPT_CODIFICA_PSP_SCONOSCIUTA<br>PPT_SEMANTICA</p><p>PPT_ATTIVAZIONE_IN_CORSO<br>PPT_PAGAMENTO_IN_CORSO<br>PPT_PAGAMENTO_DUPLICATO<br>PPT_ERRORE_IDEMPOTENZA</p>                 |
+| sendPaymentOutcome               | <p>PPT_SEMANTICA<br>PPT_TOKEN_SCADUTO</p><p>PPT_TOKEN_SCADUTO_KO<br>PPT_PAGAMENTO_DUPLICATO<br>PPT_ERRORE_IDEMPOTENZA </p><p>PPT_TOKEN_SCONOSCIUTO</p>                             |
+| activatePaymentNoticeV2          | <p>PPT_CODIFICA_PSP_SCONOSCIUTA<br>PPT_SEMANTICA<br>PPT_ATTIVAZIONE_IN_CORSO<br>PPT_PAGAMENTO_IN_CORSO<br>PPT_PAGAMENTO_DUPLICATO<br>PPT_ERRORE_IDEMPOTENZA</p>                    |
+| sendPaymentOutcomeV2             | <p>PPT_SEMANTICA<br>PPT_TOKEN_SCADUTO</p><p>PPT_TOKEN_SCADUTO_KO<br>PPT_PAGAMENTO_DUPLICATO</p><p>PPT_PAGAMENTO_SCONOSCIUTO<br>PPT_ERRORE_IDEMPOTENZA<br>PPT_TOKEN_SCONOSCIUTO</p> |
 
-| nodoInviaRT                      | <p>PPT_DOMINIO_SCONOSCIUTO<br>PPT_SEMANTICA<br>PPT_RT_IN_GESTIONE<br>PPT_RT_SEGNO_DISCORDE</p>                                                                     |
-| -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| nodoVerificaRPT                  | <p>PPT_CODIFICA_PSP_SCONOSCIUTA<br>PPT_SEMANTICA<br>PPT_MULTI_BENEFICIARIO</p>                                                                                     |
-| nodoAttivaRPT                    | <p>PPT_CODIFICA_PSP_SCONOSCIUTA<br>PPT_SEMANTICA</p>                                                                                                               |
-| nodoChiediNumeroAvviso           | PPT\_SEMANTICA                                                                                                                                                     |
-| nodoInviaFlussoRendicontazione   | <p>PPT_DOMINIO_SCONOSCIUTO<br>PPT_DOMINIO_DISABILITATO<br>PPT_SEMANTICA</p>                                                                                        |
-| nodoChiediInformativaPA          | <p>PPT_DOMINIO_SCONOSCIUTO<br>PPT_DOMINIO_DISABILITATO<br>PPT_SEMANTICA</p>                                                                                        |
-| nodoChiediTemplateInformativaPSP | PPT\_SEMANTICA                                                                                                                                                     |
-| nodoChiediCatalogoServizi        | <p>PPT_DOMINIO_SCONOSCIUTO<br>PPT_DOMINIO_DISABILITATO<br>PPT_SEMANTICA</p>                                                                                        |
-| nodoChiediElencoQuadraturePSP    | <p>PPT_DOMINIO_SCONOSCIUTO<br>PPT_DOMINIO_DISABILITATO<br>PPT_SEMANTICA</p>                                                                                        |
-| nodoChiediQuadraturaPSP          | <p>PPT_ID_FLUSSO_SCONOSCIUTO<br>PPT_SEMANTICA</p>                                                                                                                  |
-| verifyPaymentNotice              | <p>PPT_CODIFICA_PSP_SCONOSCIUTA<br>PPT_SEMANTICA<br>PPT_PAGAMENTO_IN_CORSO<br>PPT_PAGAMENTO_DUPLICATO</p>                                                          |
-| verificaBollettino               | <p>PPT_SEMANTICA<br>PPT_PAGAMENTO_IN_CORSO<br>PPT_PAGAMENTO_DUPLICATO</p>                                                                                          |
-| activatePaymentNotice            | <p>PPT_CODIFICA_PSP_SCONOSCIUTA<br>PPT_SEMANTICA</p><p>PPT_ATTIVAZIONE_IN_CORSO<br>PPT_PAGAMENTO_IN_CORSO<br>PPT_PAGAMENTO_DUPLICATO<br>PPT_ERRORE_IDEMPOTENZA</p> |
-| sendPaymentOutcome               | <p>PPT_SEMANTICA<br>PPT_TOKEN_SCADUTO</p><p>PPT_TOKEN_SCADUTO_KO<br>PPT_PAGAMENTO_DUPLICATO<br>PPT_ERRORE_IDEMPOTENZA </p><p>PPT_TOKEN_SCONOSCIUTO</p>             |
-| activatePaymentNoticeV2          | <p>PPT_CODIFICA_PSP_SCONOSCIUTA<br>PPT_SEMANTICA<br>PPT_ATTIVAZIONE_IN_CORSO<br>PPT_PAGAMENTO_IN_CORSO<br>PPT_PAGAMENTO_DUPLICATO<br>PPT_ERRORE_IDEMPOTENZA</p>    |
-| sendPaymentOutcomeV2             | <p>PPT_SEMANTICA<br>PPT_TOKEN_SCADUTO</p><p>PPT_TOKEN_SCADUTO_KO<br>PPT_PAGAMENTO_DUPLICATO<br>PPT_ERRORE_IDEMPOTENZA <br>PPT_TOKEN_SCONOSCIUTO</p>                |
+| nodoInviaRT                      | <p>PPT_DOMINIO_SCONOSCIUTO<br>PPT_SEMANTICA<br>PPT_RT_IN_GESTIONE<br>PPT_RT_SEGNO_DISCORDE</p>                                                                                      |
+| -------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| nodoVerificaRPT                  | <p>PPT_CODIFICA_PSP_SCONOSCIUTA<br>PPT_SEMANTICA<br>PPT_MULTI_BENEFICIARIO</p>                                                                                                      |
+| nodoAttivaRPT                    | <p>PPT_CODIFICA_PSP_SCONOSCIUTA<br>PPT_SEMANTICA</p>                                                                                                                                |
+| nodoChiediNumeroAvviso           | PPT\_SEMANTICA                                                                                                                                                                      |
+| nodoInviaFlussoRendicontazione   | <p>PPT_DOMINIO_SCONOSCIUTO<br>PPT_DOMINIO_DISABILITATO<br>PPT_SEMANTICA</p>                                                                                                         |
+| nodoChiediInformativaPA          | <p>PPT_DOMINIO_SCONOSCIUTO<br>PPT_DOMINIO_DISABILITATO<br>PPT_SEMANTICA</p>                                                                                                         |
+| nodoChiediTemplateInformativaPSP | PPT\_SEMANTICA                                                                                                                                                                      |
+| nodoChiediCatalogoServizi        | <p>PPT_DOMINIO_SCONOSCIUTO<br>PPT_DOMINIO_DISABILITATO<br>PPT_SEMANTICA</p>                                                                                                         |
+| nodoChiediElencoQuadraturePSP    | <p>PPT_DOMINIO_SCONOSCIUTO<br>PPT_DOMINIO_DISABILITATO<br>PPT_SEMANTICA</p>                                                                                                         |
+| nodoChiediQuadraturaPSP          | <p>PPT_ID_FLUSSO_SCONOSCIUTO<br>PPT_SEMANTICA</p>                                                                                                                                   |
+| verifyPaymentNotice              | <p>PPT_CODIFICA_PSP_SCONOSCIUTA<br>PPT_SEMANTICA<br>PPT_PAGAMENTO_IN_CORSO<br>PPT_PAGAMENTO_DUPLICATO</p>                                                                           |
+| verificaBollettino               | <p>PPT_SEMANTICA<br>PPT_PAGAMENTO_IN_CORSO<br>PPT_PAGAMENTO_DUPLICATO</p>                                                                                                           |
+| activatePaymentNotice            | <p>PPT_CODIFICA_PSP_SCONOSCIUTA<br>PPT_SEMANTICA</p><p>PPT_ATTIVAZIONE_IN_CORSO<br>PPT_PAGAMENTO_IN_CORSO<br>PPT_PAGAMENTO_DUPLICATO<br>PPT_ERRORE_IDEMPOTENZA</p>                  |
+| sendPaymentOutcome               | <p>PPT_SEMANTICA<br>PPT_TOKEN_SCADUTO</p><p>PPT_TOKEN_SCADUTO_KO<br>PPT_PAGAMENTO_DUPLICATO<br>PPT_ERRORE_IDEMPOTENZA </p><p>PPT_TOKEN_SCONOSCIUTO</p>                              |
+| activatePaymentNoticeV2          | <p>PPT_CODIFICA_PSP_SCONOSCIUTA<br>PPT_SEMANTICA<br>PPT_ATTIVAZIONE_IN_CORSO<br>PPT_PAGAMENTO_IN_CORSO<br>PPT_PAGAMENTO_DUPLICATO<br>PPT_ERRORE_IDEMPOTENZA</p>                     |
+| sendPaymentOutcomeV2             | <p>PPT_SEMANTICA<br>PPT_TOKEN_SCADUTO</p><p>PPT_TOKEN_SCADUTO_KO<br>PPT_PAGAMENTO_DUPLICATO</p><p>PPT_PAGAMENTO_SCONOSCIUTO<br>PPT_ERRORE_IDEMPOTENZA <br>PPT_TOKEN_SCONOSCIUTO</p> |
 
 ## Connessione a controparte / Servizio non attivo
 

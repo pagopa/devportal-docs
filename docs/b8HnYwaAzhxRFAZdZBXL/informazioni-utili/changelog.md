@@ -6,15 +6,50 @@ description: >-
 
 # Changelog
 
+
+
+<details>
+
+<summary>Maggio 2024</summary>
+
+### 1.0.89
+
+**6 maggio**
+
+* Bug fixing
+
+</details>
+
 <details>
 
 <summary>Aprile 2024</summary>
 
+### 1.0.88
+
+**29 aprile**
+
+* Adeguamento infrastrutturale
+* Abilitazione per le assicurazioni estere all'entrata in piattaforma
+
+### 1.0.87
+
+**22 aprile**
+
+* Bug fixing
+
+### 1.0.86
+
+**17 aprile**
+
+* Aggiornamenti del back office
+
 ### 1.0.85
 
-**3 aprile**
+**9 aprile**
 
-* Aggiornamenti back office
+* Aggiornamento metriche pubbliche
+
+
 
 </details>
 

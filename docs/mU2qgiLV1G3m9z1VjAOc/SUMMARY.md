@@ -1,6 +1,6 @@
 # Table of contents
 
-* [⬅ Torna alle SANP](https://docs.pagopa.it/sanp)
+* [⬅️ Torna alle SANP](https://docs.pagopa.it/sanp)
 
 ## Struttura degli errori
 
