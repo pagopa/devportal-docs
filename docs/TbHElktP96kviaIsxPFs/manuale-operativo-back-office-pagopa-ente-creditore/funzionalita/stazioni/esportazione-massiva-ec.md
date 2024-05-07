@@ -6,6 +6,10 @@ description: >-
 
 # Esportazione Massiva EC
 
+{% hint style="warning" %}
+I dati esportati riguardano esclusivamente gli Enti che sono associati alle stazioni. Pertanto un EC registrato al Nodo ma non associato ad alcuna stazione non verrà preso in considerazione nell'export csv.
+{% endhint %}
+
 {% hint style="success" %}
 La funzionalità è garantita sia agli EC che intermediano altri EC sia ai PT di EC.
 {% endhint %}
