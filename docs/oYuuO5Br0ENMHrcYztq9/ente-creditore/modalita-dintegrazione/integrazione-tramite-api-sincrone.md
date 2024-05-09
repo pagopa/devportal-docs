@@ -35,6 +35,7 @@ La richiesta di creazione di una nuova posizione giunge all’ACA per mezzo dell
 * _entityType_: tipologia del debitore (F=persona fisica, G=persona giuridica);
 * _entityFiscalCode_: codice fiscale del debitore;
 * _entityFullName_: nome e cognome del debitore;
+* _nav_: numero avviso;
 * _iuv_: identificativo univoco versamento;
 * _amount_: importo (non è possibile censire una posizione con un importo uguale a zero);
 * _description_: causale;
