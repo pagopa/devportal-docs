@@ -17,22 +17,32 @@ description: >-
 Creare lo stream andando a configurare l'**eventType** con uno dei seguenti:
 
 * **STATUS:** per registrare gli eventi di cambiamento di stato delle notifiche
-* **TIMELINE:** per registrare gli eventi  di timeline.
+* **TIMELINE:** per registrare gli eventi di timeline.
 
-All'interno del **filterValues** è possibile inserire un array di eventi di tipo **STATUS/TIMELINE** che verranno utilizzati per filtrare e registrare nello stream solo questi eventi; se invece si inserisce un array vuoto: `[]` lo stream registrerà tutti gli eventi.\
+Nel campo **groups** dovranno essere inseriti uno o più gruppi tramite il l'id del gruppo, in modo da realizzare una segregazione tra gli eventi delle notifiche che appartengono solo ai gruppi specificati.
+
+All'interno del **filterValues** è possibile inserire un array di eventi di tipo **STATUS/TIMELINE** che verranno utilizzati per filtrare e registrare nello stream solo questi eventi; se invece si inserisce un array con il valore `DEFAULT`, vanno riportati gli eventi che hanno ripercussione sul cambiamento di stato del workflow o che riportano dati di interesse per il mittente. Qui è possibile vedere quali eventi verranno restituiti: [Stream di timeline 2.4](../../api-changelog/api-versione-ga-2.4/stream-di-timeline-2.4.md).
+
+\
 Aprire la scheda **Crea nuovo stream di eventi** ed inserire nel body il seguente payload:
 
-<figure><img src="../../.gitbook/assets/image (31).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (50).png" alt=""><figcaption></figcaption></figure>
 
-**NOTA:** sostituire i seguenti:
+**-NOTA:** sostituire i seguenti:
 
+* **\<baseurlAmbiente>:** inserire la url dell'ambiente di riferimento, nel caso di UAT è il seguente: **https://api.uat.notifichedigitali.it**
+* **\<apiKey>:** inserire la apiKey dell'Ente di riferimento, precedentemente generata su PND
+* **\<PDNDVoucher>:** inserire inserire il Voucher generato su **PDND Interoperabilità,** assicurandosi che non sia scaduto
 * **\<title>:** inserire un titolo da attribuire a questo stream
+* **\<groupId>:** Id del gruppo per ottenere la segregazione tra gli eventi delle notifiche che appartengono solo ai gruppi specificati
 * **\<eventType>:** inserire la tipologia di stream a scelta tra **STATUS** e **TIMELINE**&#x20;
-* **\<filterValues>:** inserire un array di eventi che verranno utilizzati come filtro. Se valorizzato con array vuoto: `[]` lo stream registrerà tutti gli eventi.
+* **\<filterValues>:** inserire un array di eventi che verranno utilizzati come filtro. Se valorizzato con array vuoto: `DEFAULT` lo stream registrerà tutti gli eventi eventi che hanno ripercussione sul cambiamento di stato del workflow o che riportano dati di interesse per il mittente
+* **\<replacedStreamId>:** campo opzionale, serve per sostituire lo stream indicato tramite streamId da quello che verrà creato.
 
-Nella response di questo servizio, si otterrà il seguente payload:
+Nella response di questo servizio, si otterrà il seguente payload:\
 
-<figure><img src="../../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image (52).png" alt=""><figcaption></figcaption></figure>
 
 * **\<streamId>:** id dello stream che viene autogenerato dal servizio
 * **\<activationDate>:** data di attivazione dello stream autogenerata dal servizio
@@ -44,7 +54,7 @@ Nella response di questo servizio, si otterrà il seguente payload:
 La prima interrogazione dello stream permetterà di ricevere i primi 50 eventi registrati dallo stream. \
 Aprire la scheda **Leggi progressi notifiche** e riprodurre questa configurazione:
 
-<figure><img src="../../.gitbook/assets/image (45).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (53).png" alt=""><figcaption></figcaption></figure>
 
 **NOTA:** sostituire i seguenti:
 
@@ -72,7 +82,7 @@ E' quindi fondamentale rispettare la logica che viene rappresentata dal campo "_
 Dalle interrogazioni successive alla prima dello stream, si otterranno i 50 eventi successivi a quello del lastEventId (l'eventId dell'ultimo evento ottenuto nelle precedenti chiamate).\
 Aprire la scheda **Leggi progressi notifiche** e riprodurre questa configurazione:
 
-<figure><img src="../../.gitbook/assets/image (28).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (54).png" alt=""><figcaption></figcaption></figure>
 
 **NOTA:** sostituire i seguenti:
 

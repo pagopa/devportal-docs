@@ -15,18 +15,28 @@ Creare lo stream andando a configurare l'**eventType** con uno dei seguenti:
 * **STATUS:** per registrare gli eventi di cambiamento di stato delle notifiche
 * **TIMELINE:** per registrare gli eventi di timeline.
 
-All'interno del **filterValues** è possibile inserire un array di eventi di tipo **STATUS/TIMELINE** che verranno utilizzati per filtrare e registrare nello stream solo questi eventi; se invece si inserisce un array vuoto: `[]` lo stream registrerà tutti gli eventi. Lanciare il seguente comando:
+Nel campo **groups** dovranno essere inseriti uno o più gruppi tramite il l'id del gruppo, in modo da realizzare una segregazione tra gli eventi delle notifiche che appartengono solo ai gruppi specificati.
+
+All'interno del **filterValues** è possibile inserire un array di eventi di tipo **STATUS/TIMELINE** che verranno utilizzati per filtrare e registrare nello stream solo questi eventi; se invece si inserisce un array con il valore `DEFAULT`, andranno riportati gli eventi che hanno ripercussione sul cambiamento di stato del workflow o che riportano dati di interesse per il mittente. Qui è possibile vedere quali eventi verranno restituiti: [Stream di timeline 2.4](../../api-changelog/api-versione-ga-2.4/stream-di-timeline-2.4.md).
+
+Lanciare il seguente comando:
 
 ```bash
-curl --location 'https://<baseurlAmbiente>/delivery-progresses/streams' \
+curl --location 'https://<baseurlAmbiente>/delivery-progresses/v2.3/streams' \
 --header 'Content-Type: application/json' \
 --header 'Accept: application/json' \
 --header 'x-api-key: <apiKey>' \
 --header 'Authorization: Bearer <PDNDVoucher>' \
 --data '{
-"title": "<title>",
-"eventType": "<eventType>",
-"filterValues": <filterValues>
+    "title": "<title>",
+    "eventType": "<eventType>",
+    "groups": [
+        "<groupId>"
+    ],
+    "filterValues": [
+        "<filterValues>"
+    ],
+    "replacedStreamId" :"<replacedStreamId>"
 }'
 ```
 
@@ -36,8 +46,10 @@ curl --location 'https://<baseurlAmbiente>/delivery-progresses/streams' \
 * **\<apiKey>:** inserire la apiKey dell'Ente di riferimento, precedentemente generata su PND
 * **\<PDNDVoucher>:** inserire inserire il Voucher generato su **PDND Interoperabilità,** assicurandosi che non sia scaduto
 * **\<title>:** inserire un titolo da attribuire a questo stream
+* **\<groupId>:** Id del gruppo per ottenere la segregazione tra gli eventi delle notifiche che appartengono solo ai gruppi specificati
 * **\<eventType>:** inserire la tipologia di stream a scelta tra **STATUS** e **TIMELINE**&#x20;
-* **\<filterValues>:** inserire un array di eventi che verranno utilizzati come filtro. Se valorizzato con array vuoto: `[]` lo stream registrerà tutti gli eventi.
+* **\<filterValues>:** inserire un array di eventi che verranno utilizzati come filtro. Se valorizzato con array vuoto: `DEFAULT` lo stream registrerà tutti gli eventi eventi che hanno ripercussione sul cambiamento di stato del workflow o che riportano dati di interesse per il mittente
+* **\<replacedStreamId>:** campo opzionale, serve per sostituire lo stream indicato tramite streamId da quello che verrà creato.
 
 Nella response di questo servizio, si otterrà il seguente payload:
 
@@ -45,14 +57,22 @@ Nella response di questo servizio, si otterrà il seguente payload:
 {
     "title": "<title>",
     "eventType": "<eventType>",
-    "filterValues": <filterValues>,
+    "groups": [
+        "<groupId>"
+    ],
+    "filterValues": [
+        "<filterValues>"
+    ],
     "streamId": "<streamId>",
-    "activationDate": "<activationDate>"
+    "activationDate": "<activationDate>",
+    "disabledDate": null,
+    "version": "<version>"
 }
 ```
 
 * **\<streamId>:** id dello stream che viene autogenerato dal servizio
 * **\<activationDate>:** data di attivazione dello stream autogenerata dal servizio
+* **\<version>:** versione dello stream creato
 
 **NOTA:** Una volta creata la stream verranno registrati tutti gli eventi emessi dalle notifiche a seguito della loro creazione, di conseguenza si consiglia di creare le stream prima di inserire le notifiche.
 
@@ -62,9 +82,9 @@ La prima interrogazione dello stream permetterà di ricevere i primi 50 eventi r
 Lanciare il seguente comando:
 
 ```bash
-curl --location 'https://<baseurlAmbiente>/delivery-progresses/streams/<streamId>/events' \
+curl --location 'https://<baseurlAmbiente>/delivery-progresses/v2.3/streams/<streamId>/events' \
 --header 'Accept: application/json' \
---header 'x-api-key: <api-key>' \
+--header 'x-api-key: <apiKey>' \
 --header 'Authorization: Bearer <PDNDVoucher>' \
 --verbose
 ```
@@ -124,7 +144,7 @@ Anche in questo caso è importante lanciare la curl con il **--verbose** che per
 Lanciare il seguente comando:
 
 ```bash
-curl --location 'https://<baseurlAmbiente>/delivery-progresses/streams/<streamId>/events?lastEventId=<lastEventId>' \
+curl --location 'https://<baseurlAmbiente>/delivery-progresses/v2.3/streams/<streamId>/events?lastEventId=<lastEventId>' \
 --header 'Accept: application/json' \
 --header 'x-api-key: <api-key>' \
 --header 'Authorization: Bearer <PDNDVoucher>' \

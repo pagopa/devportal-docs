@@ -7,7 +7,7 @@ I comandi che sono descritti durante la generazione del Voucher dovranno essere 
 ### Dove devo utilizzare il Voucher che genero in ambiente di Collaudo di Interoperabilità?
 
 Il Voucher generato in ambiente di Collaudo di Interoperabilità deve essere utilizzato in tutte le chiamate effettuate verso le API B2B di Piattaforma Notifiche in ambiente UAT con baseUrl:  [https://api.uat.notifichedigitali.it](https://api.uat.notifichedigitali.it) ed andrà inserito nell' Header come Authorization: `"Authorization: Bearer <PDNDVoucher>"`assieme all'ApiKey generata in ambiente UAT (accessibile con le stesse credenziali ottenute in fase di Onboarding) <mark style="color:red;">**ad esclusione**</mark> della chiamata di upload del documento verso S3 \
-(vedi: [https://petstore.swagger.io/?url=https%3A%2F%2Fraw.githubusercontent.com%2Fpagopa%2Fpn-delivery%2Fdevelop%2Fdocs%2Fopenapi%2Fapi-external-b2b-pa.yaml](https://petstore.swagger.io/?url=https%3A%2F%2Fraw.githubusercontent.com%2Fpagopa%2Fpn-delivery%2Fdevelop%2Fdocs%2Fopenapi%2Fapi-external-b2b-pa.yaml) - **1.b Upload documenti della notifica**)
+(vedi: [https://petstore.swagger.io/?url=https%3A%2F%2Fraw.githubusercontent.com%2Fpagopa%2Fpn-delivery%2Fmain%2Fdocs%2Fopenapi%2Fapi-external-b2b-pa-bundle.yaml#/](https://petstore.swagger.io/?url=https%3A%2F%2Fraw.githubusercontent.com%2Fpagopa%2Fpn-delivery%2Fmain%2Fdocs%2Fopenapi%2Fapi-external-b2b-pa-bundle.yaml#/) - **1.b Upload documenti della notifica**)
 
 ### Posso usare lo stesso Voucher sia sui servizi di inserimento notifica che su quelli delle streams?
 

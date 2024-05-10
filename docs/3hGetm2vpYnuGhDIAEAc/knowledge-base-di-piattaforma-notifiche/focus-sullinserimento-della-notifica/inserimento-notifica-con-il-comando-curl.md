@@ -127,7 +127,7 @@ Assicurarsi di **NON** inserire in questa chiamata l'Autorization Header `"Autho
 A questo punto è possibile effettuare l'inserimento della Notifica con la seguente chiamata:
 
 ```bash
-curl --location 'https://<baseurlAmbiente>/delivery/requests' \
+curl --location 'https://<baseurlAmbiente>/delivery/v2.3/requests' \
 --header 'Content-Type: application/json' \
 --header 'Accept: application/json' \
 --header 'x-api-key: <apiKey>' \

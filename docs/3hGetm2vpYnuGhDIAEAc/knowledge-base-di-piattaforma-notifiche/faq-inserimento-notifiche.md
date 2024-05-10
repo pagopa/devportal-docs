@@ -33,11 +33,11 @@ I documenti memorizzati su bucket S3 durante la fase di caricamento (1.a e 1.b d
 I passi da seguire sono i seguenti:
 
 1. **Pre inoltro della documentazione (atto di notifica e modello di pagamento).**\
-   Occorre chiamare il servizio [presignedUploadRequest](https://petstore.swagger.io/?url=https%3A%2F%2Fraw.githubusercontent.com%2Fpagopa%2Fpn-delivery%2Fdevelop%2Fdocs%2Fopenapi%2Fapi-external-b2b-pa.yaml#/NewNotification/presignedUploadRequest) per ottenere il/gli url da utilizzare per effettuare l'upload dei documenti**.** Non è obbligatorio caricare il modello di pagamento.
+   Occorre chiamare il servizio [presignedUploadRequest ](https://petstore.swagger.io/?url=https%3A%2F%2Fraw.githubusercontent.com%2Fpagopa%2Fpn-delivery%2Fmain%2Fdocs%2Fopenapi%2Fapi-external-b2b-pa-bundle.yaml#/NewNotification/sendNewNotificationV23)per ottenere il/gli url da utilizzare per effettuare l'upload dei documenti**.** Non è obbligatorio caricare il modello di pagamento.
 2. **Upload della documentazione.**\
    Occorre effettuare, per ogni documento, una richiesta HTTP con metodo ed url restituiti dal servizio _presignedUploadRequest_ nella chiamata al punto precedente**.**
 3. **Invio della notifica.**\
-   A seguito dell'upload dei documenti , bisogna chiamare il servizio [sendNewNotification](https://petstore.swagger.io/?url=https%3A%2F%2Fraw.githubusercontent.com%2Fpagopa%2Fpn-delivery%2Fdevelop%2Fdocs%2Fopenapi%2Fapi-external-b2b-pa.yaml#/NewNotification/sendNewNotification) per completare l'invio della notifica, avendo cura di valorizzare correttamente i riferimenti ai documenti caricati al punto precedente.
+   A seguito dell'upload dei documenti , bisogna chiamare il servizio [sendNewNotification ](https://petstore.swagger.io/?url=https%3A%2F%2Fraw.githubusercontent.com%2Fpagopa%2Fpn-delivery%2Fmain%2Fdocs%2Fopenapi%2Fapi-external-b2b-pa-bundle.yaml#/NewNotification/sendNewNotificationV23)per completare l'invio della notifica, avendo cura di valorizzare correttamente i riferimenti ai documenti caricati al punto precedente.
 
 ### Come avviene l’inoltro della notifica?
 
@@ -214,31 +214,23 @@ In ambiente di collaudo UAT si prevede di creare una User per ogni Ente che perm
 
 E' possibile inserire una Multa per violazione del Codice della Strada su Piattaforma Notifiche avendo cura di valorizzare i campi:
 
-1. NewNotificationRequest.recipients.payment.**noticeCode:** col numero avviso corrispondente al prezzo ridotto; questo verrà visualizzato in Piattaforma nella sezione di pagamento online con l'importo corrispondente entro 5 giorni dalla data di perfezionamento della notifica.
-2. NewNotificationRequest.recipients.payment.**noticeCodeAlternative:** col numero avviso corrispondente al prezzo intero; questo verrà visualizzato in Piattaforma nella sezione di pagamento online con l'importo corrispondente tra i 5 ed i 60 giorni dalla data di perfezionamento della notifica.
-3. il bollettino di pagamento può essere caricato nel campo NewNotificationRequest.recipients.payment.**pagoPaForm** se è contenuto in un file diverso da quello dell'atto e sarà scaricabile dal destinatario nella sezione "_Scarica l'avviso PagoPA"_. \
+1. NewNotificationRequest.recipients.payments.**noticeCode:** col numero avviso corrispondente al prezzo ridotto; questo verrà visualizzato in Piattaforma nella sezione di pagamento online con l'importo corrispondente entro 5 giorni dalla data di perfezionamento della notifica.
+2. NewNotificationRequest.recipients.payments.**noticeCode:** col numero avviso corrispondente al prezzo intero; questo verrà visualizzato in Piattaforma nella sezione di pagamento online con l'importo corrispondente tra i 5 ed i 60 giorni dalla data di perfezionamento della notifica.
+3. il bollettino di pagamento può essere caricato nel campo NewNotificationRequest.recipients.payment.**pagoPa** se è contenuto in un file diverso da quello dell'atto e sarà scaricabile dal destinatario nella sezione "_Scarica l'avviso PagoPA"_. \
    Se invece questo è già presente nello stesso pdf contenente l'atto, potrà essere caricato come unico pdf all'interno del campo NewNotificationRequest.**documents** e sarà scaricabile dal destinatario unitamente all'atto nella sezione "_DOCUMENTI ALLEGATI"_
 
 ### Quali sono i passaggi per visualizzare la funzione di pagamento online?
 
 Per permettere la visualizzazione della funzione di pagamento online, la PA Mittente dovrà inserire una notifica valorizzando i campi come segue:
 
-* NewNotificationRequest.recipients.payment.**creditorTaxId:** con la partita iva della PA Mittente
-* NewNotificationRequest.recipients.payment.**noticeCode:** con il numero avviso.
-
-In ambiente di collaudo UAT, è possibile testare questo caso inserendo una notifica con i seguenti campi:
-
-* NewNotificationRequest.recipients.payment.**creditorTaxId:** col valore 77777777777
-* NewNotificationRequest.recipients.payment.**noticeCode:** con un valore che abbia il seguente formato: 302010DDMMYYYYhhmm dove **DDMMYYYY** corrispondono al giorno, mese ed anno di inserimento e **hhmm** all'ora ed al minuto di inserimento.\
-  Es.\
-  data di inserimento: 01/01/2023 ora e minuto di inserimento: 11:30\
-  noticeCode = 302010**010120231130**
+* NewNotificationRequest.recipients.payments.**creditorTaxId:** con la partita iva della PA Mittente
+* NewNotificationRequest.recipients.payments.**noticeCode:** con il numero avviso.
 
 A questo punto bisogna entrare nel portale lato cittadino, accedere al dettaglio della notifica appena inviata ed apparirà la voce _Paga XXX_ per pagare online come in foto.
 
 ![](<../.gitbook/assets/image (8).png>)
 
-Se invece la PA Mittente ha inserito il bollettino di pagamento separatamente dall'atto, all'interno del campo NewNotificationRequest.recipients.payment.**pagoPaForm,** entrando nel portale lato cittadino ed accedendo al dettaglio della notifica appena inviata, apparirà la voce _Paga XXX_ per pagare online e _Scarica l'avviso PagoPA_ per scaricare il bollettino di pagamento come in foto.
+Se invece la PA Mittente ha inserito il bollettino di pagamento separatamente dall'atto, all'interno del campo NewNotificationRequest.recipients.payments.**pagoPa,** entrando nel portale lato cittadino ed accedendo al dettaglio della notifica appena inviata, apparirà la voce _Paga XXX_ per pagare online e _Scarica l'avviso PagoPA_ per scaricare il bollettino di pagamento come in foto.
 
 <img src="../.gitbook/assets/image (46).png" alt="" data-size="original">
 
@@ -274,7 +266,7 @@ Il costo forfettario si applica nei casi in cui l'Ente voglia assumersi completa
 
 ### Con quale logica l'API notificationPrice risponde?
 
-l'API [NotificazionPrice](https://petstore.swagger.io/?url=https%3A%2F%2Fraw.githubusercontent.com%2Fpagopa%2Fpn-delivery%2Fdevelop%2Fdocs%2Fopenapi%2Fapi-external-b2b-pa.yaml#/NotificationPrice/retrieveNotificationPrice), quando riceve come parametri il codice ente creditore (**paTaxId**) e il numero avviso (**noticeCode**) di pagoPA risponde come segue:
+l'API[ NotificationPriceV23](../api-changelog/api-versione-ga-2.3.md#nuova-api-retrievenotificationpricev23), quando riceve come parametri il codice ente creditore (**paTaxId**) e il numero avviso (**noticeCode**) di pagoPA risponde come segue:
 
 * 0 se il _notificationFeePolicy=FLAT\_RATE_. Questo permette alla PA mittente di applicare al destinatario un costo forfettario stabilito dalla PA mittente stessa.
 * € 1 (per PND) se il _notificationFeePolicy=DELIVERY\_MODE_ e la notifica NON ha comportato invio cartaceo
@@ -284,13 +276,13 @@ l'API [NotificazionPrice](https://petstore.swagger.io/?url=https%3A%2F%2Fraw.git
 
 A questo punto la PA mittente può decidere a sua discrezione se addebitare al destinatario anche €1 previsti dalla legge a copertura dei costi sostenuti dalla PA stessa.
 
-l'API [NotificazionPrice](https://petstore.swagger.io/?url=https%3A%2F%2Fraw.githubusercontent.com%2Fpagopa%2Fpn-delivery%2Fdevelop%2Fdocs%2Fopenapi%2Fapi-external-b2b-pa.yaml#/NotificationPrice/retrieveNotificationPrice) fornisce inoltre, se presente, anche la **notificationViewDate** (data di visualizzazione della notifica) e la **refinementDate** (data di perfezionamento per decorrenza): se una delle due è presente nella response del servizio, significa che il costo restituito non subirà ulteriori variazioni in futuro.\
+l'API[ NotificationPriceV23](../api-changelog/api-versione-ga-2.3.md#nuova-api-retrievenotificationpricev23) fornisce inoltre, se presente, anche la **notificationViewDate** (data di visualizzazione della notifica) e la **refinementDate** (data di perfezionamento per decorrenza): se una delle due è presente nella response del servizio, significa che il costo restituito non subirà ulteriori variazioni in futuro.\
 E' possibile sfruttare questa informazione per anticipare la chiamata al servizio e completare l'attualizzazione del costo di notifica anche prima del tentativo di pagamento da parte del destinatario. In tutti gli altri casi è sempre necessario completare l'attualizzazione del costo di notifica durante la fase di pagamento da parte del destinatario.\
 **NOTE:** la presenza della **notificationViewDate** valorizzata **NON** comporta necessariamente il Perfezionamento per presa visione. Per i dettagli sul perfezionamento vedi: [https://docs.pagopa.it/f.a.q.-per-integratori/knowledge-base-di-piattaforma-notifiche/focus-sul-perfezionamento-della-notifica](https://docs.pagopa.it/f.a.q.-per-integratori/knowledge-base-di-piattaforma-notifiche/focus-sul-perfezionamento-della-notifica)
 
 ### Il servizio notificationPrice può restituire valori diversi nel tempo per la stessa combinazione paTaxId/noticeCode?
 
-Si, Il servizio [NotificazionPrice](https://petstore.swagger.io/?url=https%3A%2F%2Fraw.githubusercontent.com%2Fpagopa%2Fpn-delivery%2Fdevelop%2Fdocs%2Fopenapi%2Fapi-external-b2b-pa.yaml#/NotificationPrice/retrieveNotificationPrice) restituisce valori diversi in base al ciclo di vita della notifica ed agli eventi di spedizione collegati. <mark style="color:red;">**E' quindi di fondamentale importanza che nella fase di pagamento da parte del destinatario, la PA mittente contatti il servizio**</mark> [**NotificazionPrice**](https://petstore.swagger.io/?url=https%3A%2F%2Fraw.githubusercontent.com%2Fpagopa%2Fpn-delivery%2Fdevelop%2Fdocs%2Fopenapi%2Fapi-external-b2b-pa.yaml#/NotificationPrice/retrieveNotificationPrice) <mark style="color:red;">**completando l'attualizzazione delle spese di notifica**</mark>**.** infatti anche se negli stream viene restituito l'analogCost in relazione all’evento che introduce tale costo, il destinatario potrebbe sempre entrare nella piattaforma un attimo prima che venga letto lo stream e, se non venisse chiamato il [NotificazionPrice](https://petstore.swagger.io/?url=https%3A%2F%2Fraw.githubusercontent.com%2Fpagopa%2Fpn-delivery%2Fdevelop%2Fdocs%2Fopenapi%2Fapi-external-b2b-pa.yaml#/NotificationPrice/retrieveNotificationPrice)[ ](https://petstore.swagger.io/?url=https%3A%2F%2Fraw.githubusercontent.com%2Fpagopa%2Fpn-delivery%2Fdevelop%2Fdocs%2Fopenapi%2Fapi-external-b2b-pa.yaml#/NotificationPrice/retrieveNotificationPrice)durante la fase di pagamento, si rischia che non vengano addebitate al destinatario le corrette spese di spedizione e che quindi questo paghi un importo inferiore al dovuto.
+Si, Il servizio[ NotificationPriceV23](../api-changelog/api-versione-ga-2.3.md#nuova-api-retrievenotificationpricev23) restituisce valori diversi in base al ciclo di vita della notifica ed agli eventi di spedizione collegati. <mark style="color:red;">**E' quindi di fondamentale importanza che nella fase di pagamento da parte del destinatario, la PA mittente contatti il servizio**</mark> [ NotificationPriceV23](../api-changelog/api-versione-ga-2.3.md#nuova-api-retrievenotificationpricev23) <mark style="color:red;">**completando l'attualizzazione delle spese di notifica**</mark>**.** infatti anche se negli stream viene restituito l'analogCost in relazione all’evento che introduce tale costo, il destinatario potrebbe sempre entrare nella piattaforma un attimo prima che venga letto lo stream e, se non venisse chiamato il[ NotificationPriceV23](../api-changelog/api-versione-ga-2.3.md#nuova-api-retrievenotificationpricev23) durante la fase di pagamento, si rischia che non vengano addebitate al destinatario le corrette spese di spedizione e che quindi questo paghi un importo inferiore al dovuto.
 
 ### Come avviene la fatturazione di PN nei confronti della PA mittente?
 
