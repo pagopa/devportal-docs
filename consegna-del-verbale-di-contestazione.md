@@ -11,7 +11,7 @@ description: >-
 
 ## 1. L'ente carica la notifica su SEND
 
-I sistemi in capo all’ente caricano sul back-office SEND la notifica per il cittadino che contiene il verbale di contestazione e la posizione debitoria.
+I sistemi in capo all’ente caricano sul back-office SEND la notifica per il cittadino che contiene il verbale di contestazione e l'avviso di pagamento.
 
 ### Da ricordare 💡&#x20;
 
@@ -86,5 +86,7 @@ Apre la notifica entro 120 ore (5 giorni) dalla consegna, pertanto la notifica s
 [In questa pagina](https://developer.pagopa.it/send/api#/send/api/operations/retrieveNotificationPriceV23) trovi le specifiche tecniche per conoscere la data di perfezionamento della notifica, utilizza l’API **`notificationPriceV23.`**&#x20;
 
 [In questa pagina](https://notifichedigitali.pagopa.it/perfezionamento) scopri come si perfeziona una notifica.
+
+***
 
 <figure><img src=".gitbook/assets/Diagramma SEND (1).jpg" alt="Un diagramma che spiega il processo di invio di una comunicazione tramite SEND"><figcaption><p>Invio delle comunicazioni tramite SEND</p></figcaption></figure>

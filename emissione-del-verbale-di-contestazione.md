@@ -38,3 +38,5 @@ L’importo del verbale potrà comprendere spese di notifica.
 ### Da ricordare 💡&#x20;
 
 * I sistemi in capo all’ente devono inserire nell’oggetto del pagamento un riferimento chiaro (es.: “Violazione Codice della Strada - Importo ridotto”).
+
+***
