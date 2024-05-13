@@ -8,7 +8,7 @@ Questo manuale si rivolge agli **enti** **pubblici e privati** che erogano i pro
 * fornire **modelli di servizi** da poter utilizzare.
 
 {% hint style="info" %}
-Queste indicazioni tengono conto delle [Linee guida di design per i siti internet e i servizi digitali della PA](https://trasparenza.agid.gov.it/moduli/downloadFile.php?file=oggetto\_allegati/222071220030O\_\_OLinee+guida+design+siti+internet+e+servizi+digitali+pa.pdf) emanate da AgID.&#x20;
+Queste indicazioni tengono conto delle [Linee guida di design per i siti internet e i servizi digitali della PA](https://www.agid.gov.it/sites/default/files/repository\_files/lg\_punto\_accesso\_telematico\_servizi\_pa\_3112021.pdf) emanate da AgID.&#x20;
 {% endhint %}
 
 Consigliamo di leggere il documento nella sua interezza, ma ecco **qualche scorciatoia** agli argomenti principali:
