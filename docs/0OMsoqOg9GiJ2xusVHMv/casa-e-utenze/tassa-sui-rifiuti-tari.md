@@ -3,7 +3,7 @@
 Erogare il servizio tramite l'app IO permette agli enti di:
 
 * fornire ai cittadini comunicazioni puntuali sullo stato della TARI, coprendo l’intero ciclo di vita del servizio;
-* rappresentare per i cittadini un unico punto di riferimento per la ricezione delle comunicazioni riguardanti la TARI su uno o più immobili, situati in diversi Comuni.
+* rappresentare per i cittadini un riferimento per la ricezione delle comunicazioni riguardanti la TARI su uno o più immobili, situati in diversi Comuni.
 
 [**Scopri tutti i benefici di integrarsi con IO →** ](https://docs.pagopa.it/manuale-servizi/lapp-io/cose-io-e-qual-e-il-suo-obiettivo)
 
@@ -14,7 +14,7 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 
 ## **Ciclo di vita del servizio**
 
-<figure><img src="../.gitbook/assets/TARI_X.png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio TARI</strong></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/TARI_xy.png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio TARI</strong></p></figcaption></figure>
 
 ## **Messaggi del servizio**
 
@@ -24,13 +24,41 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende erogare questo servizio, può valutare quali e quanti messaggi inviare, in base alle proprie possibilità di integrazione. L'obiettivo finale rimane quello di inviarli tutti, rilasciando versioni del servizio sempre più complete.
 {% endhint %}
 
+### Comunicazioni
+
+<details>
+
+<summary>Dichiarazione di occupazione </summary>
+
+**🖋 Titolo del messaggio:** Dichiarazione di \<inizio/variazione> occupazione immobile
+
+🗒 **Testo del messaggio**: Ti diamo il benvenuto nel Comune di \<Comune>.&#x20;
+
+Ricevi questo messaggio perché potresti avere recentemente cambiato residenza, acquistato un immobile o sottoscritto un contratto di affitto.&#x20;
+
+Se non lo hai già fatto, effettua o aggiorna la tua dichiarazione di occupazione ai fini TARI (Tassa sui Rifiuti). Per farlo, \[visita questo sito]\(URL).
+
+Inoltre, se vuoi conoscere meglio il servizio offerto \[visita questo sito]\(URL).&#x20;
+
+**🪄  Pulsante**: n/a
+
+***
+
+**Destinatari**: I cittadini che hanno recentemente cambiato residenza, acquistato un immobile o completato un contratto di affitto superiore a sei mesi.&#x20;
+
+**Quando inviarlo**: Quando l'ente riscontra aggiornamenti su cambi residenza, acquisto immobili o contratti d'affitto.&#x20;
+
+**User story**: Come cittadino voglio ricevere informazioni su come funziona la TARI nel Comune.
+
+</details>
+
 ### Dichiarazione nuova abitazione
 
 <details>
 
-<summary>Dichiarazione di occupazione immobile</summary>
+<summary>Dichiarazione di occupazione: accolta</summary>
 
-**🖋 Titolo del messaggio:** Dichiarazione di \<inizio/variazione> occupazione immobile
+**🖋 Titolo del messaggio:** La tua dichiarazione è stata accolta
 
 🗒 **Testo del messaggio**: Abbiamo ricevuto la tua dichiarazione di \<inizio/variazione> occupazione di un immobile. Ecco i dettagli:
 
@@ -52,15 +80,17 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 </details>
 
-### Pagamento
+### Pagamento a rate con avviso di pagamento
+
+Quando il pagamento è suddiviso per rate e l'ente vuole permettere al cittadino di pagare la rata direttamente su IO, potrà inviare un messaggio con l'avviso di pagamento per ogni rata prevista [come consigliato sul manuale dei servizi. ](https://docs.pagopa.it/manuale-servizi/che-cosa-puo-fare-un-servizio-su-io/inviare-messaggi/messaggi-che-veicolano-un-pagamento/soluzioni-per-pagamenti-a-rate)
 
 <details>
 
-<summary>Avviso di pagamento TARI</summary>
+<summary>Avviso di pagamento TARI </summary>
 
 **🖋 Titolo del messaggio:** Nuovo avviso di pagamento
 
-🗒 **Testo del messaggio**: C'è un avviso da pagare intestato a \<nome cognome> e relativo a \<causale>.
+🗒 **Testo del messaggio**: C'è un avviso da pagare intestato a \<nome cognome> e relativo alla \<rata unica/prima rata/seconda rata> della Tassa sui rifiuti (TARI) per l'immobile situato in \<indirizzo> - \<piano ed interno immobile>.
 
 **Devi pagare**: <00,00> €
 
@@ -81,10 +111,6 @@ In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio p
 **Quando inviarlo**: Al momento in cui l'avviso è pagabile da parte del cittadino.
 
 **User story**: Come cittadino voglio essere avvisato quando devo pagare la TARI.
-
-***
-
-<mark style="color:purple;">ℹ️</mark> In caso di pagamenti su più rate, [consultare questa sezione del manuale dei servizi dedicata.](https://docs.pagopa.it/manuale-servizi/che-cosa-puo-fare-un-servizio-su-io/inviare-messaggi/messaggi-che-veicolano-un-pagamento/soluzioni-per-pagamenti-a-rate)
 
 </details>
 
@@ -117,6 +143,48 @@ Se hai già provveduto a pagare l’avviso, ignora questo messaggio.
 **Quando inviarlo**: Quando il pagamento è prossimo alla scadenza.
 
 **User story**: Come cittadino voglio ricevere un promemoria per i pagamenti in scadenza.
+
+</details>
+
+### Pagamento a rate con allegato
+
+Quando il pagamento è suddiviso per rate e l'ente vuole comunicare al cittadino tutti i pagamenti in un unico messaggio su IO, potrà inviare un messaggio con un documento allegato che riassume tutte le rate e i relativi avvisi da pagare.&#x20;
+
+<details>
+
+<summary>Istruzioni sul pagamento della rata </summary>
+
+:sparkles: <mark style="color:blue;">**Allegati Premium**</mark> — Tramite questa funzionalità Premium, disponibile a seconda della tipologia di contratto sottoscritto dall’ente, puoi allegare documenti all'interno del messaggio.
+
+Questo messaggio è da utilizzare sia per messaggi Premium, sia per messaggi standard. In caso di messaggio standard, **ricorda di eliminare ogni riferimento agli allegati dal corpo del messaggio.**
+
+***
+
+**🖋 Titolo del messaggio:** Nuovo pagamento
+
+🗒 **Testo del messaggio**:&#x20;
+
+Dal \<gg/mm/aaaa> sarà possibile pagare la Tassa sui rifiuti (TARI)  intestato a \<nome cognome> per l'immobile situato in \<indirizzo> - \<piano ed interno immobile>.
+
+\[Solo per messaggi Premium con allegato] Trovi i pagamenti previsti in allegato a questo messaggio.
+
+Per avere maggiori informazioni sul pagamento, \[visita il sito]\(URL).
+
+**🪄  Pulsante**: n/a
+
+**📎 **<mark style="color:blue;">**Allegato Premium:**</mark> \<documento con gli avvisi di pagamento delle rate previste>
+
+***
+
+**Destinatari**: Tutti i cittadini residenti nell’area geografica di azione del servizio che devono pagare la TARI.
+
+**Quando inviarlo**: Al momento in cui l'avviso è pagabile da parte del cittadino.
+
+**User story**: Come cittadino voglio essere avvisato quando devo pagare la TARI.
+
+***
+
+<mark style="color:purple;">ℹ️</mark> In caso di pagamenti su più rate, [consultare questa sezione del manuale dei servizi dedicata.](https://docs.pagopa.it/manuale-servizi/che-cosa-puo-fare-un-servizio-su-io/inviare-messaggi/messaggi-che-veicolano-un-pagamento/soluzioni-per-pagamenti-a-rate)
 
 </details>
 
@@ -198,6 +266,8 @@ IO è integrata con SEND - Servizio Notifiche Digitale, per l'invio di comunicaz
 Le procedure di questo servizio variano molto da ente a ente. Consigliamo di utilizzare i testi dei messaggi come un punto di partenza e di aggiungere o modificare il contenuto a seconda delle esigenze.&#x20;
 
 Il modello è uno esempio che non ha carattere vincolante per l’ente e sul quale la Società declina qualsiasi responsabilità, avendo valore esemplificativo.
+
+Gli enti che desiderino utilizzarli devono, quindi, modificarli a seconda delle loro esigenze. Gli enti mittenti sono i soli responsabili del contenuto dei messaggi che inviano. La scelta di una soluzione di pagamento a rate e la conseguente gestione degli avvisi di pagamento rimane di esclusiva competenza e responsabilità dell’ente.
 
 Puoi copiare i testi dei messaggi da personalizzare da questo documento:
 
