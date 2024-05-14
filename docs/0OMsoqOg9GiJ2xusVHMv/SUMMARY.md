@@ -4,7 +4,14 @@
 
 ## 🦤 ambiente e animali
 
-* [In arrivo](ambiente-e-animali/in-arrivo.md)
+* [Animali e ambiente](ambiente-e-animali/animali-e-ambiente.md)
+* [Discariche e isole ecologiche](ambiente-e-animali/discariche-e-isole-ecologiche.md)
+* [Disinfestazioni](ambiente-e-animali/disinfestazioni.md)
+* [Energia e impianti](ambiente-e-animali/energia-e-impianti.md)
+* [Funghi, caccia e pesca](ambiente-e-animali/funghi-caccia-e-pesca.md)
+* [Orti urbani](ambiente-e-animali/orti-urbani.md)
+* [Ritiro rifiuti ingombranti](ambiente-e-animali/ritiro-rifiuti-ingombranti.md)
+* [Verde pubblico](ambiente-e-animali/verde-pubblico.md)
 
 ## 🏪 attività produttive e commercio
 
