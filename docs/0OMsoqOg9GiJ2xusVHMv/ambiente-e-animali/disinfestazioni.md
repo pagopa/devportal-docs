@@ -13,7 +13,7 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 
 ## Ciclo di vita del servizio
 
-<figure><img src="broken-reference" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Disinfestazioni</strong></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Disinfestazioni</strong></p></figcaption></figure>
 
 ## Messaggi del servizio
 
@@ -174,4 +174,6 @@ Le procedure di questo servizio variano molto da ente a ente. Consigliamo di uti
 Il modello è un esempio che non ha carattere vincolante per l’ente e sul quale la Società declina qualsiasi responsabilità, avendo valore esemplificativo.
 
 Puoi copiare i testi dei messaggi da personalizzare da questo documento:
+
+{% file src="../.gitbook/assets/IO - Template servizi - Disinfestazioni.xlsx" %}
 {% endhint %}

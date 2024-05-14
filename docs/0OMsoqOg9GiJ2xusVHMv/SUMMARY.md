@@ -4,7 +4,7 @@
 
 ## 🦤 ambiente e animali
 
-* [Animali e ambiente](ambiente-e-animali/animali-e-ambiente.md)
+* [Animali domestici](ambiente-e-animali/animali-domestici.md)
 * [Discariche e isole ecologiche](ambiente-e-animali/discariche-e-isole-ecologiche.md)
 * [Disinfestazioni](ambiente-e-animali/disinfestazioni.md)
 * [Energia e impianti](ambiente-e-animali/energia-e-impianti.md)
