@@ -24,13 +24,13 @@
 
 * [Cos'è un servizio per IO](i-servizi-in-io/cose-un-servizio-per-io.md)
 * [Definire un servizio](i-servizi-in-io/definire-un-servizio/README.md)
-  * [1⃣ Qual è l'obiettivo del servizio?](i-servizi-in-io/definire-un-servizio/qual-e-lobiettivo-del-servizio.md)
-  * [2⃣ Chi sono i destinatari del servizio?](i-servizi-in-io/definire-un-servizio/chi-sono-i-destinatari-del-servizio.md)
-  * [3⃣ Come viene raggiunto l'obiettivo?](i-servizi-in-io/definire-un-servizio/come-viene-raggiunto-lobiettivo.md)
-  * [4⃣ Cosa avviene su IO?](i-servizi-in-io/definire-un-servizio/cosa-avviene-su-io.md)
+  * [1️⃣ Qual è l'obiettivo del servizio?](i-servizi-in-io/definire-un-servizio/qual-e-lobiettivo-del-servizio.md)
+  * [2️⃣ Chi sono i destinatari del servizio?](i-servizi-in-io/definire-un-servizio/chi-sono-i-destinatari-del-servizio.md)
+  * [3️⃣ Come viene raggiunto l'obiettivo?](i-servizi-in-io/definire-un-servizio/come-viene-raggiunto-lobiettivo.md)
+  * [4️⃣ Cosa avviene su IO?](i-servizi-in-io/definire-un-servizio/cosa-avviene-su-io.md)
 * [Le tipologie di servizio](i-servizi-in-io/le-tipologie-di-servizio.md)
 
-## 🖍 COME SI CREA UN SERVIZIO
+## 🖍️ COME SI CREA UN SERVIZIO
 
 * [La scheda servizio](come-si-crea-un-servizio/la-scheda-servizio/README.md)
   * [Nome del servizio](come-si-crea-un-servizio/la-scheda-servizio/nome-del-servizio.md)
@@ -80,7 +80,7 @@
   * [Multe per violazione codice della strada](modelli/i-modelli-dei-servizi-piu-comuni/multe-per-violazione-codice-della-strada.md)
   * [Rimozione veicoli](modelli/i-modelli-dei-servizi-piu-comuni/rimozione-veicoli.md)
 
-## ⬇ APPENDICE
+## ⬇️ APPENDICE
 
 * [Glossario](appendice/glossario.md)
 * [Lista di controllo](appendice/lista-di-controllo.md)
