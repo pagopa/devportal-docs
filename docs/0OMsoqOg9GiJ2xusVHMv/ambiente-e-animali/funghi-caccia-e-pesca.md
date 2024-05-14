@@ -5,7 +5,7 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 * fornire alle cittadine e ai cittadini un riferimento per la ricezione delle comunicazioni riguardanti le attività relative alla raccolta funghi, alla caccia e alla pesca;
 * monitorare e gestire tempestivamente le richieste e comunicazioni per l’erogazione del servizio.
 
-[**Scopri tutti i benefici di integrarsi con IO →** ](https://app.gitbook.com/s/xWONfJmawghGo2ekuaKh/cose-io-e-qual-e-il-suo-obiettivo#perche-integrarsi-con-io)
+[**Scopri tutti i benefici di integrarsi con IO →** ](https://docs.pagopa.it/manuale-servizi/lapp-io/cose-io-e-qual-e-il-suo-obiettivo#perche-un-ente-dovrebbe-integrarsi-con-io)
 
 ## Scheda servizio <a href="#scheda-servizio" id="scheda-servizio"></a>
 
