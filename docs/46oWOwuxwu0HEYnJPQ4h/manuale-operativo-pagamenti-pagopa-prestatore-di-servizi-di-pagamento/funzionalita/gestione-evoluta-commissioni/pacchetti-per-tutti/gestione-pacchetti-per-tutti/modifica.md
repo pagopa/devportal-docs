@@ -6,7 +6,7 @@ Accedendo al dettaglio di un pacchetto (vedi [Visualizza dettaglio](visualizza-d
 
 Schiacciando sul pulsante `"Modifica"` si accede alla maschera di modifica seguente in cui è possibile editare le informazioni da correggere
 
-<figure><img src="../../../../../.gitbook/assets/gec.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (219).png" alt=""><figcaption></figcaption></figure>
 
 Dopo aver eseguito le modifiche e necessario schiacciare il pulsante `"Continua"` a valle del quale il sistema mostra un popup di conferma modifica.
 
