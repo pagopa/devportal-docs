@@ -1,6 +1,6 @@
 # Visualizza dettaglio
 
-Accedendo ad uno specifico pacchetto (vedi sezione[ Visualizzazione pacchetti globali](visualizzazione-pacchetti-globali.md)), è possibile visualizzarne il dettaglio.
+Accedendo ad uno specifico pacchetto (vedi sezione[ Visualizzazione pacchetti "Per tutti"](visualizzazione-pacchetti-per-tutti.md)), è possibile visualizzarne il dettaglio.
 
 Se si sta accedendo ad un pacchetto per il quale non sono previsti servizi di incasso, si visualizza la seguente schermata:
 

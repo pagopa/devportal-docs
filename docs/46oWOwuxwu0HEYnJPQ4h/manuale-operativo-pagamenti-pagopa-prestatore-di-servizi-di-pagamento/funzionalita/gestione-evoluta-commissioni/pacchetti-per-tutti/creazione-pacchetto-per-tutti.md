@@ -1,18 +1,18 @@
-# Creazione pacchetto globale
+# Creazione pacchetto "Per tutti"
 
-Questa sezione descrive nel dettaglio le modalità per creare un pacchetto globale.
+Questa sezione descrive nel dettaglio le modalità per creare un pacchetto "Per tutti".
 
 {% hint style="info" %}
-Si ricorda che un pacchetto globale ha validità per tutti gli EC aderenti alla piattaforma
+Si ricorda che un pacchetto "Per tutti" ha validità per tutti gli EC aderenti alla piattaforma
 {% endhint %}
 
-Accedendo alla funzionalità `"Pacchetti commissioni"` dal menu laterale di sinistra e spostandosi nel tab `"Globali"` è possibile accedere alla funzione di creazione del pacchetto.
+Accedendo alla funzionalità `"Pacchetti commissioni"` dal menu laterale di sinistra e spostandosi nel tab `"Per tutti"` è possibile accedere alla funzione di creazione del pacchetto.
 
-<figure><img src="../../../../.gitbook/assets/image (158).png" alt=""><figcaption><p>Vista pacchetti commisioni</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Screenshot 2024-05-14 alle 17.05.56.png" alt=""><figcaption></figcaption></figure>
 
 Una volta schiacciato il pulsante `Crea pacchetto` il sistema mostrerà la seguente interfaccia per poter inserire tutte le informazioni necessarie alla creazione del pacchetto
 
-<figure><img src="../../../../.gitbook/assets/psp globali.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (218).png" alt=""><figcaption></figcaption></figure>
 
 Le informazioni da inserire sono le seguenti:
 
@@ -101,10 +101,10 @@ Terminata la fase di selezione dei servizi di incasso è necessario proseguire s
 
 <figure><img src="../../../../.gitbook/assets/image (163).png" alt=""><figcaption><p>Popup conferma creazione pacchetto globale</p></figcaption></figure>
 
-Schiacciando il pulsante "`Conferma`" si procederà alla creazione del pacchetto globale. Esso sarà poi visibile nella sezione "`Pacchetti commissioni`" nel tab "`Globali`"
+Schiacciando il pulsante "`Conferma`" si procederà alla creazione del pacchetto globale. Esso sarà poi visibile nella sezione "`Pacchetti commissioni`" nel tab "`Per tutti`"
 
 {% hint style="info" %}
-Il pacchetto appena creato sarà visibile anche a tutti gli EC nell'apposita maschera riepilogativa di tutti i pacchetti globali
+Il pacchetto appena creato sarà visibile anche a tutti gli EC nell'apposita maschera riepilogativa di tutti i pacchetti "Per tutti"
 {% endhint %}
 
-<figure><img src="../../../../.gitbook/assets/image (166).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Screenshot 2024-05-14 alle 17.10.04.png" alt=""><figcaption></figcaption></figure>

@@ -1,6 +1,6 @@
 # 🏠 The service manual for the IO app
 
-This manual targets **public and private** **bodies** that provide their services on IO pursuant to the relative [guidelines](https://trasparenza.agid.gov.it/moduli/downloadFile.php?file=oggetto\_allegati/213121604430O\_\_OLG+Punto+accesso+telematico+servizi+PA\_3.11.2021.pdf). The purpose of this document is to:
+This manual targets **public and private** **bodies** that provide their services on IO pursuant to the relative [guidelines](https://www.agid.gov.it/sites/default/files/repository\_files/lg\_punto\_accesso\_telematico\_servizi\_pa\_3112021.pdf). The purpose of this document is to:
 
 * clarify **what is meant by a service** in the context of IO;
 * explain what are the **types of services** that can be provided on IO and **which functions** can be used;

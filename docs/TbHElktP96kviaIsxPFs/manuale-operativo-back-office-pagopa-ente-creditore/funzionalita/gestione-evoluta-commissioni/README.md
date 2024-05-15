@@ -5,14 +5,14 @@ Questa sezione descrive tutte le funzionalità previste per la Gestione Evoluta 
 {% endhint %}
 
 {% hint style="warning" %}
-Le funzionalità rilasciate in Produzione sono quelle relative ai Pacchetti Globali.&#x20;
+Le funzionalità rilasciate in Produzione sono quelle relative ai Pacchetti "Per tutti".&#x20;
 
-Le altre (Pacchetti Pubblici e Privati) verranno rilasciate nelle prossime settimane.
+Le altre (Pacchetti "Su richiesta" e "Su invito") verranno rilasciate nelle prossime settimane.
 {% endhint %}
 
 
 
 ## Marketplace
 
-E' lo strumento che permette agli EC di convenzionarsi a determinati pacchetti (pubblici o privati) esposti dai PSP o di completare con ulteriori attributi (commissioni a proprio carico) i pacchetti globali.
+E' lo strumento che permette agli EC di convenzionarsi a determinati pacchetti ("su richiesta" o "su invito") esposti dai PSP o di completare con ulteriori attributi (commissioni a proprio carico) i pacchetti "Per tutti".
 
