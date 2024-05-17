@@ -2,7 +2,7 @@
 
 ### **Documentazione**
 
-* [Linee Guida sul punto di accesso telematico ai servizi della Pubblica Amministrazione](https://trasparenza.agid.gov.it/moduli/downloadFile.php?file=oggetto\_allegati/213121604430O\_\_OLG+Punto+accesso+telematico+servizi+PA\_3.11.2021.pdf)
+* [Linee Guida sul punto di accesso telematico ai servizi della Pubblica Amministrazione](https://www.agid.gov.it/sites/default/files/repository\_files/lg\_punto\_accesso\_telematico\_servizi\_pa\_3112021.pdf)
 * [Guida tecnica all'implementazione dei servizi su IO](https://docs.pagopa.it/io-guida-tecnica/)
 * [Documentazione API](https://developer.io.italia.it/openapi.html)
 * [Linee guida brand pagoPA](https://docs.pagopa.it/linee-guida-brand-pagopa/)
