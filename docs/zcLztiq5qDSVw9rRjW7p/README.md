@@ -1,6 +1,6 @@
 # 🏠 Il manuale dei servizi dell'app IO
 
-Questo manuale si rivolge agli **enti** **pubblici e privati** che erogano i propri servizi su IO ai sensi delle relative [linee guida](https://trasparenza.agid.gov.it/moduli/downloadFile.php?file=oggetto\_allegati/213121604430O\_\_OLG+Punto+accesso+telematico+servizi+PA\_3.11.2021.pdf). Il documento vuole:
+Questo manuale si rivolge agli **enti** **pubblici e privati** che erogano i propri servizi su IO ai sensi delle relative [linee guida](https://www.agid.gov.it/sites/default/files/repository\_files/lg\_punto\_accesso\_telematico\_servizi\_pa\_3112021.pdf). Il documento vuole:
 
 * chiarire **cosa si intende per servizio** nel contesto di IO;
 * spiegare quali sono le **tipologie di servizio** si possono erogare in IO e **quali funzionalità** si possono sfruttare;
