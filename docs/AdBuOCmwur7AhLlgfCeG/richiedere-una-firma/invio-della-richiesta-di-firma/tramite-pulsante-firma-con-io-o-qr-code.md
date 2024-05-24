@@ -9,7 +9,7 @@ Se vuoi condividere autonomamente la richiesta di firma ai tuoi utenti, senza in
 
 <summary>Integrare il pulsante Firma con IO</summary>
 
-Vai nella [sezione dedicata](../../pulsante-firma-con-io/il-pulsante-firma-con-io.md) aper scoprire come fare
+Vai nella [sezione dedicata](../../pulsante-firma-con-io/il-pulsante-firma-con-io.md) per scoprire come fare
 
 </details>
 

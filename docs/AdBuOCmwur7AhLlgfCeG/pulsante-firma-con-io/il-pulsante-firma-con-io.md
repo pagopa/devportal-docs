@@ -19,7 +19,7 @@ Di seguito le informazioni per integrare il pulsante Firma con IO:
 Attraverso il pulsante Firma con IO sarà propagato un _universal link_ che consentirà:
 
 * agli utenti che navigano da mobile e hanno installata l’app IO di risvegliare l’app e procedere con la firma.
-* agli utenti che navigano da desktop di accedere ad una modale con un QR code da inquadrare con il proprio dispositivo per aprire l’app IO.
+* agli utenti che navigano da desktop di accedere ad una modale con un QR code da inquadrare con la fotocamera del proprio dispositivo per aprire l’app IO e procedere con la firma.
 * agli utenti che sono registrati su IO ma non hanno l’app installata sul device di accedere alla pagina dello store dove poterla ottenere.
 
 {% hint style="info" %}
