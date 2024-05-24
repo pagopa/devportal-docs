@@ -81,7 +81,7 @@ Per procedere è necessario ritornare nella Panoramica - Area Riservata, selezio
 
 Dalla Panoramica - Area riservata, dopo aver cliccato sul pulsante "Gestisci" del prodotto è possibile selezionare il secondo ambiente per cui si intende effettuare la generazione es. **"Produzione".**
 
-<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption><p><em>Pop up di selezione ambiente target</em></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (11) (2).png" alt=""><figcaption><p><em>Pop up di selezione ambiente target</em></p></figcaption></figure>
 
 ### Sezione API Key: Ambiente di Produzione
 

@@ -32,7 +32,7 @@ Per procedere, è necessario che l'utente completi la **compilazione** dei **cam
 
 Inoltre, l'utente oltre a dover procedere alla compilazione dei suddetti campi, è **tenuto** ad **esprimere** la scelta relativa alla **modalità** di **connessione** al **Nodo**. Tale scelta avviene **tramite** **selezione** **dell'opzione "Diretta"/"Indiretta"** all'interno della **sezione** **"Modalità di connessione al Nodo"**.
 
-<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption><p><em>Form Registrazione sul Nodo</em></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (2).png" alt=""><figcaption><p><em>Form Registrazione sul Nodo</em></p></figcaption></figure>
 
 #### Caso 1: Modalità di connessione al Nodo indiretta
 
@@ -54,7 +54,7 @@ Questo verrà reindirizzato alla Panoramica in cui potrà visualizzare il riepil
 * Stato **"Abilitato".**
 * Intermediario di altri  **"Non disponibile"**
 
-<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption><p><em>Panoramica - PSP indiretto - Registrazione completata</em></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9) (2).png" alt=""><figcaption><p><em>Panoramica - PSP indiretto - Registrazione completata</em></p></figcaption></figure>
 
 
 
@@ -82,7 +82,7 @@ Questo verrà reindirizzato alla Panoramica in cui potrà visualizzare il riepil
 * Stato **"Abilitato".**
 * Intermediario di altri  **"Disponibile"**
 
-<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption><p><em>Panoramica - PSP diretto - Registrazione completata</em></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10) (2).png" alt=""><figcaption><p><em>Panoramica - PSP diretto - Registrazione completata</em></p></figcaption></figure>
 
 
 
