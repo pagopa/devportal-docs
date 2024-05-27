@@ -57,11 +57,11 @@ All'interno della sezione IBAN è possibile **selezionare** gli **IBAN** designa
 * **STAND IN:** IBAN da utilizzare per il processo che garantisce l’intervento di pagoPA qualora l’ente riscontrasse problemi. Per maggiori informazioni si faccia riferimento a [https://docs.pagopa.it/sanp/specifiche-attuative-del-nodo-dei-pagamenti-spc/funzionamento-generale/stand-in](https://docs.pagopa.it/sanp/specifiche-attuative-del-nodo-dei-pagamenti-spc/funzionamento-generale/stand-in)
 * **CUP:** IBAN da utilizzare in caso di pagamento Canone Unico Patrimoniale, servizio gestito da PagoPA S.p.A.
 
-<figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption><p><em>Gestione IBAN Stand In e Cup</em></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (6) (1).png" alt=""><figcaption><p><em>Gestione IBAN Stand In e Cup</em></p></figcaption></figure>
 
 Tale **selezione** sarà **modificabile** grazie alla funzionalità **"Gestisci"**.
 
-<figure><img src="../../../.gitbook/assets/image (7).png" alt=""><figcaption><p><em>Gestione IBAN Stand In e Cup - Gestisci</em></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (7) (1).png" alt=""><figcaption><p><em>Gestione IBAN Stand In e Cup - Gestisci</em></p></figcaption></figure>
 
 
 

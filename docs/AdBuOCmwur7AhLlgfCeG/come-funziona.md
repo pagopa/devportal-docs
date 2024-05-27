@@ -68,7 +68,9 @@ Un cittadino o una cittadina a cui è stata richiesta la firma:
 
 <summary><mark style="color:blue;">Step 1</mark>: Riceve un messaggio su IO o preme un pulsante dal sito dell'ente</summary>
 
-Il cittadino ha due modalità per avviare il processo di firma: riceve un **messaggio su IO** con la richiesta firma o preme il pulsante "Firma con IO" sul sito dell'ente.
+Il cittadino può avviare il processo di firma in due modi: ricevendo un **messaggio su IO** con la richiesta di firma oppure premendo il **pulsante "Firma con IO"** sul sito dell'ente.
+
+Se sceglie la seconda modalità e la utilizza da desktop, dovrà inquadrare il QR code generato con la fotocamera del proprio smartphone.
 
 </details>
 

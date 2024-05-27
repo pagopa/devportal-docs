@@ -3,28 +3,28 @@
 * [🎬 Per iniziare](README.md)
 * [🕗 Changelog](changelog.md)
 
-## 🖊 FIRMA CON IO
+## 🖊️ FIRMA CON IO
 
 ***
 
-* [🖊 Cos'è Firma con IO?](cose-firma-con-io.md)
+* [🖊️ Cos'è Firma con IO?](cose-firma-con-io.md)
 * [Come funziona?](come-funziona.md)
 
-## 🖱 BACK OFFICE
+## 🖱️ BACK OFFICE
 
-* [👩💻 Primi passi](back-office/primi-passi.md)
+* [👩‍💻 Primi passi](back-office/primi-passi.md)
 
-## ⚙ IL PROCESSO DI FIRMA
+## ⚙️ IL PROCESSO DI FIRMA
 
 * [📄 Preparare i documenti](il-processo-di-firma/preparare-i-documenti/README.md)
   * [Identificare i campi firma](il-processo-di-firma/preparare-i-documenti/identificare-i-campi-firma/README.md)
-    * [↗ Tramite coordinate](il-processo-di-firma/preparare-i-documenti/identificare-i-campi-firma/tramite-coordinate.md)
+    * [↗️ Tramite coordinate](il-processo-di-firma/preparare-i-documenti/identificare-i-campi-firma/tramite-coordinate.md)
   * [Validare i documenti](il-processo-di-firma/preparare-i-documenti/validare-i-documenti.md)
 
 ***
 
 * [💼 Creare il Dossier](creare-il-dossier.md)
-* [✍ Richiedere una firma](richiedere-una-firma/README.md)
+* [✍️ Richiedere una firma](richiedere-una-firma/README.md)
   * [Recupero ID del cittadino](richiedere-una-firma/recupero-id-del-cittadino.md)
   * [Creazione di una Signature request](richiedere-una-firma/creazione-di-una-signature-request.md)
   * [Upload dei documenti](richiedere-una-firma/upload-dei-documenti.md)
@@ -36,21 +36,21 @@
 * [✅ Verificare lo stato di una firma](verificare-lo-stato-di-una-firma.md)
 * [📃 Ottenere i documenti firmati](ottenere-i-documenti-firmati.md)
 
-## 👨💻 API
+## 👨‍💻 API
 
-* [⚒ Ambienti: Test & Produzione](api/ambienti-test-and-produzione.md)
+* [⚒️ Ambienti: Test & Produzione](api/ambienti-test-and-produzione.md)
 * [API Rest](api/api-rest.md)
 * [Swagger UI](https://editor.swagger.io/?url=https://raw.githubusercontent.com/pagopa/io-sign/main/apps/io-func-sign-issuer/openapi.yaml)
 * [Specifica OpenAPI](https://raw.githubusercontent.com/pagopa/io-sign/main/apps/io-func-sign-issuer/openapi.yaml)
 
-## 🧑💻 Pulsante Firma con IO
+## 🧑‍💻 Pulsante Firma con IO
 
 * [💡 Il Pulsante Firma con IO](pulsante-firma-con-io/il-pulsante-firma-con-io.md)
 * [🔌 Installazione e uso](pulsante-firma-con-io/installazione-e-uso.md)
-* [🗂 Linee guida di utilizzo](pulsante-firma-con-io/linee-guida-di-utilizzo.md)
-* [🎗 Standard grafici](pulsante-firma-con-io/standard-grafici.md)
+* [🗂️ Linee guida di utilizzo](pulsante-firma-con-io/linee-guida-di-utilizzo.md)
+* [🎗️ Standard grafici](pulsante-firma-con-io/standard-grafici.md)
 
-## ⬇ RISORSE UTILI
+## ⬇️ RISORSE UTILI
 
 * [Glossario](risorse-utili/glossario.md)
 * [Contatti](risorse-utili/contatti.md)
