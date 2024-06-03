@@ -26,6 +26,6 @@ e selezionare "**Collaudo**"
 
 Una volta effettuato l'accesso sarà possibile creare una richiesta di fruizione per **SEND - UAT (Piattaforma Notifiche)** e completare la generazione del Voucher. Vedi pagina
 
-{% content-ref url="focus-su-creazione-richiesta-di-fruizione-generazione-voucher-per-send-uat-piattaforma-notifiche.md" %}
-[focus-su-creazione-richiesta-di-fruizione-generazione-voucher-per-send-uat-piattaforma-notifiche.md](focus-su-creazione-richiesta-di-fruizione-generazione-voucher-per-send-uat-piattaforma-notifiche.md)
+{% content-ref url="creazione-richiesta-di-fruizione-generazione-voucher-per-send-uat-piattaforma-notifiche.md" %}
+[creazione-richiesta-di-fruizione-generazione-voucher-per-send-uat-piattaforma-notifiche.md](creazione-richiesta-di-fruizione-generazione-voucher-per-send-uat-piattaforma-notifiche.md)
 {% endcontent-ref %}

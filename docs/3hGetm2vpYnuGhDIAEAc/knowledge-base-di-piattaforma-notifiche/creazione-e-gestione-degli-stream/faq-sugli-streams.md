@@ -4,7 +4,7 @@ description: >-
   streams di Piattaforma Notifiche
 ---
 
-# FAQ sulle streams
+# FAQ sugli streams
 
 ### Quando chiamo le API sulla pagina swagger ottengo errore
 
@@ -18,9 +18,11 @@ Se è stato già completato il processo di accreditamento, assicurarsi che si st
 
 ### Se creo uno stream senza filtri ad esempio
 
-**`{ "title": "NoFilteredStream",`** \
-&#x20;  **`"eventType": "STATUS",`** \
-&#x20;  **`"filterValues": [] }`**                                                                                               &#x20;
+`{` \
+&#x20;  `"title": "NoFilteredStream",` \
+&#x20;  `"eventType": "STATUS",` \
+&#x20;  `"filterValues": []` \
+`}`                                                                                           &#x20;
 
 ### questo raccoglierà tutti i cambi di stato avvenuti nel tempo?
 

@@ -1,8 +1,8 @@
 ---
-description: Approfondimento sul perfezionamento della notifica su PND
+description: Approfondimento sul perfezionamento della notifica su SEND
 ---
 
-# Focus sul Perfezionamento della notifica
+# Perfezionamento della notifica
 
 ### Perfezionamento per Mittente della notifica&#x20;
 

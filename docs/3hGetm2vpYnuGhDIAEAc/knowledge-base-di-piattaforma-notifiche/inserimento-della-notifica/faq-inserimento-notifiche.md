@@ -20,8 +20,8 @@ Se è stato già completato il processo di accreditamento, assicurarsi che si st
 
 Le chiamate ai servizi esposti da PN avvengono in modalità https utilizzando API Key. E' possibile attivare un layer aggiuntivo di sicurezza effettuando l'integrazione con **PDND Interoperabilità** che prevede l'inserimento di un Voucher da aggiungere all'API Key. Maggiori dettagli alla pagina che segue:
 
-{% content-ref url="focus-su-interoperabilita-e-generazione-voucher-per-send-uat-piattaforma-notifiche/" %}
-[focus-su-interoperabilita-e-generazione-voucher-per-send-uat-piattaforma-notifiche](focus-su-interoperabilita-e-generazione-voucher-per-send-uat-piattaforma-notifiche/)
+{% content-ref url="../integrazione-send-pdnd-interoperabilita/" %}
+[integrazione-send-pdnd-interoperabilita](../integrazione-send-pdnd-interoperabilita/)
 {% endcontent-ref %}
 
 ### Dopo aver fatto l'upload dei documenti della notifica nella fase 1, quanto tempo ho per inviare la notifica?
@@ -87,7 +87,7 @@ Il codice di tassonomia `taxonomyCode` è un campo obbligatorio utilizzato per d
 
 Per le notifiche relative all'asseverazione del Bando è definito nell'_allegato 2 capitolo C_ del bando: [AVVISO PUBBLICO MISURA 1.4.5 PIATTAFORMA NOTIFICHE DIGITALI](https://pnrrcomuni.fondazioneifel.it/bandi\_public/Bando/325)
 
-In generale l'elenco esaustivo dei codici tassonomici è pubblicato in [questa pagina.](../tassonomia-send.md)
+In generale l'elenco esaustivo dei codici tassonomici è pubblicato in [questa pagina.](../../tassonomia-send.md)
 
 ### Come si individua il domicilio del destinatario di una notifica in base alla tipologia del destinatario (PF e PG)?
 
@@ -228,11 +228,11 @@ Per permettere la visualizzazione della funzione di pagamento online, la PA Mitt
 
 A questo punto bisogna entrare nel portale lato cittadino, accedere al dettaglio della notifica appena inviata ed apparirà la voce _Paga XXX_ per pagare online come in foto.
 
-![](<../.gitbook/assets/image (8).png>)
+![](<../../.gitbook/assets/image (8).png>)
 
 Se invece la PA Mittente ha inserito il bollettino di pagamento separatamente dall'atto, all'interno del campo NewNotificationRequest.recipients.payments.**pagoPa,** entrando nel portale lato cittadino ed accedendo al dettaglio della notifica appena inviata, apparirà la voce _Paga XXX_ per pagare online e _Scarica l'avviso PagoPA_ per scaricare il bollettino di pagamento come in foto.
 
-<img src="../.gitbook/assets/image (46).png" alt="" data-size="original">
+<img src="../../.gitbook/assets/image (46).png" alt="" data-size="original">
 
 ### Come si può testare la correttezza del Codici Fiscale?
 
@@ -266,7 +266,7 @@ Il costo forfettario si applica nei casi in cui l'Ente voglia assumersi completa
 
 ### Con quale logica l'API notificationPrice risponde?
 
-l'API[ NotificationPriceV23](../api-changelog/api-versione-ga-2.3.md#nuova-api-retrievenotificationpricev23), quando riceve come parametri il codice ente creditore (**paTaxId**) e il numero avviso (**noticeCode**) di pagoPA risponde come segue:
+l'API[ NotificationPriceV23](../../api-changelog/api-versione-ga-2.3.md#nuova-api-retrievenotificationpricev23), quando riceve come parametri il codice ente creditore (**paTaxId**) e il numero avviso (**noticeCode**) di pagoPA risponde come segue:
 
 * 0 se il _notificationFeePolicy=FLAT\_RATE_. Questo permette alla PA mittente di applicare al destinatario un costo forfettario stabilito dalla PA mittente stessa.
 * € 1 (per PND) se il _notificationFeePolicy=DELIVERY\_MODE_ e la notifica NON ha comportato invio cartaceo
@@ -276,13 +276,13 @@ l'API[ NotificationPriceV23](../api-changelog/api-versione-ga-2.3.md#nuova-api-r
 
 A questo punto la PA mittente può decidere a sua discrezione se addebitare al destinatario anche €1 previsti dalla legge a copertura dei costi sostenuti dalla PA stessa.
 
-l'API[ NotificationPriceV23](../api-changelog/api-versione-ga-2.3.md#nuova-api-retrievenotificationpricev23) fornisce inoltre, se presente, anche la **notificationViewDate** (data di visualizzazione della notifica) e la **refinementDate** (data di perfezionamento per decorrenza): se una delle due è presente nella response del servizio, significa che il costo restituito non subirà ulteriori variazioni in futuro.\
+l'API[ NotificationPriceV23](../../api-changelog/api-versione-ga-2.3.md#nuova-api-retrievenotificationpricev23) fornisce inoltre, se presente, anche la **notificationViewDate** (data di visualizzazione della notifica) e la **refinementDate** (data di perfezionamento per decorrenza): se una delle due è presente nella response del servizio, significa che il costo restituito non subirà ulteriori variazioni in futuro.\
 E' possibile sfruttare questa informazione per anticipare la chiamata al servizio e completare l'attualizzazione del costo di notifica anche prima del tentativo di pagamento da parte del destinatario. In tutti gli altri casi è sempre necessario completare l'attualizzazione del costo di notifica durante la fase di pagamento da parte del destinatario.\
 **NOTE:** la presenza della **notificationViewDate** valorizzata **NON** comporta necessariamente il Perfezionamento per presa visione. Per i dettagli sul perfezionamento vedi: [https://docs.pagopa.it/f.a.q.-per-integratori/knowledge-base-di-piattaforma-notifiche/focus-sul-perfezionamento-della-notifica](https://docs.pagopa.it/f.a.q.-per-integratori/knowledge-base-di-piattaforma-notifiche/focus-sul-perfezionamento-della-notifica)
 
 ### Il servizio notificationPrice può restituire valori diversi nel tempo per la stessa combinazione paTaxId/noticeCode?
 
-Si, Il servizio[ NotificationPriceV23](../api-changelog/api-versione-ga-2.3.md#nuova-api-retrievenotificationpricev23) restituisce valori diversi in base al ciclo di vita della notifica ed agli eventi di spedizione collegati. <mark style="color:red;">**E' quindi di fondamentale importanza che nella fase di pagamento da parte del destinatario, la PA mittente contatti il servizio**</mark> [ NotificationPriceV23](../api-changelog/api-versione-ga-2.3.md#nuova-api-retrievenotificationpricev23) <mark style="color:red;">**completando l'attualizzazione delle spese di notifica**</mark>**.** infatti anche se negli stream viene restituito l'analogCost in relazione all’evento che introduce tale costo, il destinatario potrebbe sempre entrare nella piattaforma un attimo prima che venga letto lo stream e, se non venisse chiamato il[ NotificationPriceV23](../api-changelog/api-versione-ga-2.3.md#nuova-api-retrievenotificationpricev23) durante la fase di pagamento, si rischia che non vengano addebitate al destinatario le corrette spese di spedizione e che quindi questo paghi un importo inferiore al dovuto.
+Si, Il servizio[ NotificationPriceV23](../../api-changelog/api-versione-ga-2.3.md#nuova-api-retrievenotificationpricev23) restituisce valori diversi in base al ciclo di vita della notifica ed agli eventi di spedizione collegati. <mark style="color:red;">**E' quindi di fondamentale importanza che nella fase di pagamento da parte del destinatario, la PA mittente contatti il servizio**</mark> [ NotificationPriceV23](../../api-changelog/api-versione-ga-2.3.md#nuova-api-retrievenotificationpricev23) <mark style="color:red;">**completando l'attualizzazione delle spese di notifica**</mark>**.** infatti anche se negli stream viene restituito l'analogCost in relazione all’evento che introduce tale costo, il destinatario potrebbe sempre entrare nella piattaforma un attimo prima che venga letto lo stream e, se non venisse chiamato il[ NotificationPriceV23](../../api-changelog/api-versione-ga-2.3.md#nuova-api-retrievenotificationpricev23) durante la fase di pagamento, si rischia che non vengano addebitate al destinatario le corrette spese di spedizione e che quindi questo paghi un importo inferiore al dovuto.
 
 ### Come avviene la fatturazione di PN nei confronti della PA mittente?
 
