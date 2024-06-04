@@ -10,6 +10,18 @@ description: >-
 
 <details>
 
+<summary>Giugno 2024</summary>
+
+### 1.0.93
+
+**4 giugno**
+
+* Bug fixing
+
+</details>
+
+<details>
+
 <summary>Maggio 2024</summary>
 
 ### 1.0.92
