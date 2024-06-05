@@ -96,7 +96,7 @@ Payload:
 
 ```
 {
-  "iss": "interop.selfcare.pagopa.it", 
+  "iss": "interop.pagopa.it", 
   "nbf": 1616170668,
   "iat": 1616170068,
   "exp": 1616170668,
