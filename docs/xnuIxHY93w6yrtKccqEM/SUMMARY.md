@@ -23,7 +23,3 @@
 
 * [💬 Raccontaci la tua esperienza](appendice/raccontaci-la-tua-esperienza.md)
 * [🧰 Risorse utili](appendice/risorse-utili.md)
-
-***
-
-* [Link utili](https://docs.pagopa.it/manuale-servizi/risorse-utili/link-utili)
