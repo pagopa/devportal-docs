@@ -32,6 +32,12 @@ Nella tabella che segue trovi un esempio sbagliato, con un numero inutilmente el
 
 <table data-header-hidden><thead><tr><th width="392"></th><th></th></tr></thead><tbody><tr><td><strong>SERVIZIO</strong></td><td><strong>MESSAGGIO</strong></td></tr><tr><td>❌  TRIBUTI - TARI - Notifica sollecito</td><td>Notifica sollecito TARI</td></tr><tr><td>❌  TRIBUTI - TARI - Notifica provvedimento ordinario</td><td>Notifica provvedimento ordinario TARI</td></tr><tr><td>❌  TRIBUTI - TARI - Notifica provvedimento sanzionatorio</td><td>Notifica provvedimento sanzionatorio TARI</td></tr></tbody></table>
 
+| SERVIZIO                                                 | MESSAGGIO                                 |
+| -------------------------------------------------------- | ----------------------------------------- |
+| ❌  TRIBUTI - TARI - Notifica sollecito                   | Notifica sollecito TARI                   |
+| ❌  TRIBUTI - TARI - Notifica provvedimento ordinario     | Notifica provvedimento ordinario TARI     |
+| ❌  TRIBUTI - TARI - Notifica provvedimento sanzionatorio | Notifica provvedimento sanzionatorio TARI |
+
 In realtà, **l’unico servizio è la TARI**, e **da questo unico servizio dovrai inviare tutti i messaggi relativi al suo ciclo di vita**, come ad esempio:
 
 * inviare un messaggio informativo che ricorda ai destinatari che è il momento di fare la dichiarazione di occupazione, nel caso in cui debbano farla;
@@ -40,7 +46,6 @@ In realtà, **l’unico servizio è la TARI**, e **da questo unico servizio dovr
 * inviare promemoria in prossimità della scadenza di un pagamento.&#x20;
 
 {% hint style="info" %}
-**Un servizio veicolato tramite IO è la versione digitale o l'estensione di un servizio già digitalizzato**, risulterà quindi poco utile, e anche controproducente, creare più servizi in app IO che fanno riferimento ad un unico servizio pubblico.&#x20;
-{% endhint %}
+**Un servizio veicolato tramite IO è la versione digitale o l'estensione di un servizio già digitalizzato**, risulterà quindi poco utile, e anche controproducente, creare più servizi in app IO che fanno riferimento ad un unico servizio pubblico. \
 
-\
+{% endhint %}
