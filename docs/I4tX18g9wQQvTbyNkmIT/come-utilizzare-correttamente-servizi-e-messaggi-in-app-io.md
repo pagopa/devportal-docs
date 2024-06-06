@@ -44,6 +44,5 @@ In realtà, **l’unico servizio è la TARI**, e **da questo unico servizio dovr
 * inviare promemoria in prossimità della scadenza di un pagamento.&#x20;
 
 {% hint style="info" %}
-**Un servizio veicolato tramite IO è la versione digitale o l'estensione di un servizio già digitalizzato**, risulterà quindi poco utile, e anche controproducente, creare più servizi in app IO che fanno riferimento ad un unico servizio pubblico. \
-
+**Un servizio veicolato tramite IO è la versione digitale o l'estensione di un servizio già digitalizzato**, risulterà quindi poco utile, e anche controproducente, creare più servizi in app IO che fanno riferimento ad un unico servizio pubblico.&#x20;
 {% endhint %}
