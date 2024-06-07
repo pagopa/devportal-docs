@@ -7,7 +7,7 @@ description: >-
 
 # 1️⃣ Violazione del Codice della Strada
 
-<figure><img src=".gitbook/assets/image (18).png" alt="Sezione 1 di 6: Violazione al Codice della strada, accertamento e contestazione"><figcaption></figcaption></figure>
+<figure><img src="docs/lAIZmjrusC6qV8ki9zsZ/.gitbook/assets/image (18).png" alt="Sezione 1 di 6: Violazione al Codice della strada, accertamento e contestazione"><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Il processo descritto non copre altre violazioni, per esempio accertate tramite ZTL o autovelox, che saranno integrate in futuro.
@@ -23,4 +23,3 @@ L'agente di Polizia Locale compila un [preavviso di accertamento](emissione-del-
 
 * [Modello di avviso di pagamento per violazioni del Codice della Strada](https://developer.pagopa.it/pago-pa/guides/avviso-pagamento/allegato-1/varianti/violazioni-codice-della-strada)
 * [Modello di avviso di pagamento per stampanti termiche](https://developer.pagopa.it/pago-pa/guides/avviso-pagamento/allegato-1/varianti/violazioni-codice-della-strada#formato-per-stampanti-termiche)&#x20;
-
