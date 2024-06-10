@@ -4,9 +4,21 @@ description: >-
   Digitale in ambiente UAT
 ---
 
-# Modalità per simulare i casi di test in ambiente UAT
+# Simulare i casi di test in ambiente UAT
 
 ### Introduzione
+
+Per simulare i casi di test in ambiente UAT sono stati creati 3 utenti che sono così configurati:
+
+| username       | CF                 | Note                                                              |
+| -------------- | ------------------ | ----------------------------------------------------------------- |
+| michelangelo   | `BNRMHL75C06G702B` | delega a lucia.mondella                                           |
+| lucia.mondella | `MNDLCU98T68C933T` | delegata da michelangelo                                          |
+| cleopatra      | `FLPCPT69A65Z336P` | presente domicilio digitale di piattaforma pectest@pec.pagopa.it  |
+
+**NOTA**: si prega di non modificare queste configurazioni degli utenti di test (non aggiungere/cancellare deleghe e/o domicili digitali di piattaforma)
+
+## Simulazione Workflow
 
 In ambiente UAT è possibile simulare gli esiti degli invii digitali ed analogici inserendo nei campi relativi ai domicili dei codici che riproducono il relativo scenario collegato.
 
