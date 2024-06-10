@@ -10,11 +10,7 @@ description: >-
 
 Per simulare i casi di test in ambiente UAT sono stati creati 3 utenti che sono così configurati:
 
-| username       | CF                 | Note                                                              |
-| -------------- | ------------------ | ----------------------------------------------------------------- |
-| michelangelo   | `BNRMHL75C06G702B` | delega a lucia.mondella                                           |
-| lucia.mondella | `MNDLCU98T68C933T` | delegata da michelangelo                                          |
-| cleopatra      | `FLPCPT69A65Z336P` | presente domicilio digitale di piattaforma pectest@pec.pagopa.it  |
+<table><thead><tr><th width="172">username</th><th>CF</th><th>Note</th></tr></thead><tbody><tr><td>michelangelo</td><td><code>BNRMHL75C06G702B</code></td><td>delega a lucia.mondella</td></tr><tr><td>lucia.mondella</td><td><code>MNDLCU98T68C933T</code></td><td>delegata da michelangelo</td></tr><tr><td>cleopatra</td><td><code>FLPCPT69A65Z336P</code></td><td>presente domicilio digitale di piattaforma pectest@pec.pagopa.it </td></tr></tbody></table>
 
 **NOTA**: si prega di non modificare queste configurazioni degli utenti di test (non aggiungere/cancellare deleghe e/o domicili digitali di piattaforma)
 
