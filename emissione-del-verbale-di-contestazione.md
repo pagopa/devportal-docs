@@ -6,7 +6,7 @@ description: >-
 
 # 4️⃣ Emissione del verbale di contestazione
 
-<figure><img src="docs/lAIZmjrusC6qV8ki9zsZ/.gitbook/assets/image (21).png" alt="Sezione 4 di 6: Emissione del verbale di contestazione"><figcaption></figcaption></figure>
+<figure><img src="docs/lAIZmjrusC6qV8ki9zsZ/.gitbook/assets/image (7).png" alt="Sezione 4 di 6: Emissione del verbale di contestazione"><figcaption></figcaption></figure>
 
 ## 1. Il preavviso di accertamento è scaduto
 
