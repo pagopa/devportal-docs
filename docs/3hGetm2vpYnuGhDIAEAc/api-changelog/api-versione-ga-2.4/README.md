@@ -14,9 +14,7 @@ La versione GA 2.4 aggiunge una nuova API per gli stream degli eventi del workfl
 * Disabilitazione di uno stream
 * Migrazione degli stream alla nuova versione
 
-File di definizione OpenAPI [https://raw.githubusercontent.com/pagopa/pn-delivery/v2.5.0-RC.1/docs/openapi/api-external-b2b-pa-bundle.yaml](https://raw.githubusercontent.com/pagopa/pn-delivery/v2.5.0-RC.1/docs/openapi/api-external-b2b-pa-bundle.yaml)
-
-
+File di definizione OpenAPI [https://raw.githubusercontent.com/pagopa/pn-delivery/v2.5.0/docs/openapi/api-external-b2b-pa-bundle.yaml](https://raw.githubusercontent.com/pagopa/pn-delivery/v2.5.0/docs/openapi/api-external-b2b-pa-bundle.yaml)
 
 ### Segregazione degli stream per gruppi&#x20;
 

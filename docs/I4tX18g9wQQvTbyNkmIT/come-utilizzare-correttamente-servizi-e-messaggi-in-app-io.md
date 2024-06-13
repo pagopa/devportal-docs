@@ -30,7 +30,11 @@ Come vedi, **un servizio non coincide con il messaggio o con la tipologia di mes
 Nella tabella che segue trovi un esempio sbagliato, con un numero inutilmente elevato di servizi relativi alla TARI:
 {% endhint %}
 
-<table data-header-hidden><thead><tr><th width="392"></th><th></th></tr></thead><tbody><tr><td><strong>SERVIZIO</strong></td><td><strong>MESSAGGIO</strong></td></tr><tr><td>❌  TRIBUTI - TARI - Notifica sollecito</td><td>Notifica sollecito TARI</td></tr><tr><td>❌  TRIBUTI - TARI - Notifica provvedimento ordinario</td><td>Notifica provvedimento ordinario TARI</td></tr><tr><td>❌  TRIBUTI - TARI - Notifica provvedimento sanzionatorio</td><td>Notifica provvedimento sanzionatorio TARI</td></tr></tbody></table>
+| SERVIZIO                                                 | MESSAGGIO                                 |
+| -------------------------------------------------------- | ----------------------------------------- |
+| ❌  TRIBUTI - TARI - Notifica sollecito                   | Notifica sollecito TARI                   |
+| ❌  TRIBUTI - TARI - Notifica provvedimento ordinario     | Notifica provvedimento ordinario TARI     |
+| ❌  TRIBUTI - TARI - Notifica provvedimento sanzionatorio | Notifica provvedimento sanzionatorio TARI |
 
 In realtà, **l’unico servizio è la TARI**, e **da questo unico servizio dovrai inviare tutti i messaggi relativi al suo ciclo di vita**, come ad esempio:
 
@@ -42,5 +46,3 @@ In realtà, **l’unico servizio è la TARI**, e **da questo unico servizio dovr
 {% hint style="info" %}
 **Un servizio veicolato tramite IO è la versione digitale o l'estensione di un servizio già digitalizzato**, risulterà quindi poco utile, e anche controproducente, creare più servizi in app IO che fanno riferimento ad un unico servizio pubblico.&#x20;
 {% endhint %}
-
-\

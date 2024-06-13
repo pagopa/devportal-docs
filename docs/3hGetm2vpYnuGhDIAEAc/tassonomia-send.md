@@ -6,7 +6,7 @@ description: Codice tassonomia delle notifiche su SEND
 
 I codici tassonomici delle notifiche servono per classificare gli atti notificati contenuti nelle richieste inviate a SEND dalla PA mittenti.
 
-Se non trovi il codice tassonomico relativo all'atto da notificare contatta [account@pagopa.it](mailto:account@pagopa.it) per creare un codice per il caso d'uso non ancora censito.
+Se non trovi il codice tassonomico relativo all’atto da notificare compila il questionario tramite il seguente [link](https://tassonomia-send.limesurvey.net/638616?newtest=Y\&lang=it).
 
 Il codice tassonomico è formato dalla concatenazione di tre parti: \
 _`<tipologia ente> <ambito> <tipologia atto>`_\

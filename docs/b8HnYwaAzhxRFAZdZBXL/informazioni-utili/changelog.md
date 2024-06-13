@@ -10,7 +10,34 @@ description: >-
 
 <details>
 
+<summary>Giugno 2024</summary>
+
+### 1.0.94
+
+**5 giugno**
+
+* Bug fixing
+
+### 1.0.93
+
+**4 giugno**
+
+* Bug fixing
+
+</details>
+
+<details>
+
 <summary>Maggio 2024</summary>
+
+### 1.0.92
+
+**30 maggio**
+
+* Bug fixing
+* Aggiunta possibilità di modificare la durata del voucher e le soglie di carico dell'e-service senza creare una nuova versione
+* Integrazione di MixPanel e OneTrust sul sito PDND Interoperabilità
+* Aggiunta la possibilità di clonare una finalità associandola ad un e-service differente da quello di partenza
 
 ### 1.0.91
 
