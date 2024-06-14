@@ -7,7 +7,7 @@ description: >-
 
 # Registrazione al Nodo dei pagamenti PagoPA
 
-Il ruolo che ne possiede il **pieno potere** a livello di **operatività** è il **Responsabile Amministrativo.**
+Il ruolo che ne possiede il **pieno potere** a livello di **operatività** è l' **Amministratore.**
 
 {% hint style="danger" %}
 Si precisa che la modalità di connessione al nodo "diretta" sta ad indicare che il PSP sceglie di connettersi direttamente al Nodo, utilizzando quindi le proprie infrastrutture ed i propri collegamenti. Avrà inoltre la possibilità di essere intermediario di altri PSP indiretti e di associarli ai propri canali attraverso la funzionalità [Associa PSP](canale/associazione-di-un-psp-al-canale.md)
