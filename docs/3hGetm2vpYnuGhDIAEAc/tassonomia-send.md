@@ -8,8 +8,6 @@ I codici tassonomici delle notifiche servono per classificare gli atti notificat
 
 Se non trovi il codice tassonomico relativo all’atto da notificare compila il questionario tramite il seguente [link](https://tassonomia-send.limesurvey.net/638616?newtest=Y\&lang=it).
 
-Per contribuire al miglioramento della Tassonomia puoi compilare il questionario tramite il seguente [link](https://tassonomia-send.limesurvey.net/638616?newtest=Y\&lang=it)
-
 Il codice tassonomico è formato dalla concatenazione di tre parti: \
 _`<tipologia ente> <ambito> <tipologia atto>`_\
 seguita dalla lettera **P** se la notifica prevede un pagamento o dalla lettera **N** se la notifica non prevede un pagamento.
