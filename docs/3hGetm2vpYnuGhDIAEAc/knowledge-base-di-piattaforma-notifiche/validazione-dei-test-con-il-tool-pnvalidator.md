@@ -4,7 +4,7 @@ description: >-
   validazione
 ---
 
-# Focus sulla validazione dei test con il tool PnValidator
+# Validazione dei test con il tool PnValidator
 
 ### Come avviare il tool in modalità "debug" per ottenere in console il dettaglio delle chiamate eseguite sul terminale
 
@@ -61,13 +61,12 @@ Questo passaggio è composto da 2 fasi:
 
 **1) Effettuare la richiesta per ottenere la url per scaricare un legalFact:**
 
-Chiamata con metodo `GET` su endpoint `http://<urlValidator>/delivery-push/<iunDellaNotifica>/legal-facts/<legalFactType>/<legalFactId>.`
+Chiamata con metodo `GET` su endpoint `http://<urlValidator>/delivery-push/<iunDellaNotifica>/legal-facts/<legalFactId>.`
 
 Sostituendo i seguenti:
 
 * **\<urlValidator>:** inserire la url del validator (se avviato con le istruzioni standard è localhost:3000)
 * **\<iunDellaNotifica>:** è lo IUN della notifica inserita verso il validator
-* **\<legalFactType>:** è il legalFactType del documento che si vuole scaricare
 * **\<legalFactId>:** è il legalFactId del documento che si vuole scaricare
 
 Si ottiene la seguente risposta:
