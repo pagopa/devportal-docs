@@ -16,20 +16,20 @@ Lo scopo di questo documento è quello di **descrivere le funzionalità** che il
 
 #### **Ruoli e poteri: Pagamenti pagoPA**
 
-All'interno del **portale Pagamenti pagoPA**, nel caso dei **PSP**, il livello di Amministratore corrisponde a quello di **Responsabile Amministrativo**, mentre quello di Operatore al **Responsabile Tecnico**.
+All'interno del **portale Pagamenti pagoPA**, nel caso dei **PSP**, il livello di Amministratore corrisponde a quello di **Amministratore**, mentre quello di Operatore al **Responsabile Tecnico**.
 
 Ognuno dei due ruoli garantisce un diverso **livello di visibilità** **e operatività** all’interno del portale, in particolare:
 
-#### Responsabile Amministrativo
+#### Amministratore
 
-Il Responsabile Amministrativo è una figura incaricata dal PSP, mediante delega del Legale Rappresentante, che si occupa specificamente di:
+L' Amministratore è una figura incaricata dal PSP, mediante delega del Legale Rappresentante, che si occupa specificamente di:
 
 * effettuare il **censimento del PSP sul Nodo** dei pagamenti PagoPA;
 * **creare il pacchetto commissioni.**
 
 **Responsabile Tecnico**
 
-Il Responsabile Tecnico è la figura tecnica di riferimento di un soggetto direttamente connesso al Nodo dei Pagamenti PagoPA. Viene indicato dal Responsabile Amministrativo del PSP (in caso di connessione diretta al Nodo) o dall’Intermediario/Partner Tecnologico e si occupa di:
+Il Responsabile Tecnico è la figura tecnica di riferimento di un soggetto direttamente connesso al Nodo dei Pagamenti PagoPA. Viene indicato dall'Amministratore del PSP (in caso di connessione diretta al Nodo) o dall’Intermediario/Partner Tecnologico e si occupa di:
 
 * **generare le API Key** e **creare i canali** per conseguire la connessione al Nodo Pagamenti di PagoPA;
 * **gestire il flusso di rendicontazione dei pagamenti.** &#x20;

@@ -12,7 +12,7 @@ Il ruolo che ne possiede il **pieno potere** a livello di **operatività** è il
 * interno al **PSP**, nel caso di soggetto **direttamente connesso** al Nodo dei Pagamenti PagoPA;
 * dell’**Intermediario Tecnologico** o del **Partner tecnologico** del **PSP**, nel caso di soggetto **non direttamente connesso** al Nodo dei Pagamenti PagoPA.
 
-Il **Responsabile Amministrativo** possiede invece **pieno** **potere** a livello di **visualizzazione.**
+L' **Amministratore** possiede invece **pieno** **potere** a livello di **visualizzazione.**
 
 
 
