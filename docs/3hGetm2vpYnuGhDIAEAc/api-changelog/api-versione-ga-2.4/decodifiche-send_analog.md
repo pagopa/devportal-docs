@@ -50,7 +50,42 @@ I codici possono differire a seconda del tipo di prodotto (RIR, AR, 890).
 
 <table data-header-hidden><thead><tr><th width="197"></th><th></th></tr></thead><tbody><tr><td><strong>deliveryDetailCode</strong></td><td><strong>Significato</strong></td></tr><tr><td>RECRI001</td><td>Avviato all’estero</td></tr><tr><td>RECRI002</td><td>Ingresso nel paese estero</td></tr><tr><td>RECRI003B</td><td><p>Consegnato</p><p>In Dematerializzazione - AR</p></td></tr><tr><td>RECRI004B</td><td><p>Non Consegnato</p><p>In Dematerializzazione - Plico</p></td></tr><tr><td>RECRI005</td><td><p>Furto/Smarrimanto/deterioramento</p><p><strong>deliveryFailureCause</strong>: F01 F02 F03</p></td></tr></tbody></table>
 
+### Codici SEND\_ANALOG\_PROGRESS per raccomandata semplice RS
 
+| **deliveryDetailCode** | **Significato**                                                                                                                     |
+| ---------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
+| RECRS010               | In esito                                                                                                                            |
+| RECRS011               | In giacenza                                                                                                                         |
+| RECRS001C              | Consegnato - Fascicolo Chiuso                                                                                                       |
+| RECRS002A              | Mancata consegna - pre-esito                                                                                                        |
+| RECRS002B              | Mancata consegna - In Dematerializzazione                                                                                           |
+| RECRS002C              | Mancata consegna - Fascicolo Chiuso                                                                                                 |
+| RECRS002D              | Irreperibilità Assoluta - pre-esito                                                                                                 |
+| RECRS002E              | Irreperibilità Assoluta - In Dematerializzazione                                                                                    |
+| RECRS002F              | Irreperibilità Assoluta - Fascicolo Chiuso                                                                                          |
+| RECRS003C              | Consegnato presso Punti di Giacenza - Fascicolo Chiuso                                                                              |
+| RECRS004A              | Mancata consegna presso Punti di Giacenza - pre-esito                                                                               |
+| RECRS004B              | Mancata consegna presso Punti di Giacenza - In Dematerializzazione                                                                  |
+| RECRS004C              | Mancata consegna presso Punti di Giacenza - Fascicolo Chiuso                                                                        |
+| RECRS005A              | Compiuta giacenza pre-esito                                                                                                         |
+| RECRS005B              | Compiuta giacenza - In Dematerializzazione                                                                                          |
+| RECRS005C              | Compiuta giacenza - Fascicolo Chiuso                                                                                                |
+| RECRS006               | Furto/Smarrimento/deterioramento                                                                                                    |
+| RECRS010               | Esito negativo di consegna: il tentativo di consegna della raccomandata semplice non è andato a buon fine per destinatario assente. |
+| RECRS013               | Non Rendicontabile                                                                                                                  |
+| RECRS015               | Causa Forza Maggiore                                                                                                                |
+
+### Codici SEND\_ANALOG\_PROGRESS per raccomandata semplice internazionale RSI
+
+| **deliveryDetailCode** | **Significato**                         |
+| ---------------------- | --------------------------------------- |
+| RECRSI001              | Avviato all'estero                      |
+| RECRSI002              | Ingresso nel paese estero               |
+| RECRSI003C             | Consegnato - Fascicolo Chiuso           |
+| RECRSI004A             | Non Consegnato - pre-esito              |
+| RECRSI004B             | Non Consegnato - In Dematerializzazione |
+| RECRSI004C             | Non Consegnato - fascicolo Chiuso       |
+| RECRSI005              | Furto/Smarrimento/deterioramento        |
 
 ## Decodifica SEND\_ANALOG\_FEEDBACK
 
@@ -91,7 +126,7 @@ Esempio:
 
 ### Codici SEND\_ANALOG\_FEEDBACK per raccomandate AR
 
-<table data-header-hidden><thead><tr><th width="215"></th><th></th></tr></thead><tbody><tr><td><strong>deliveryDetailCode</strong></td><td><strong>Significato</strong></td></tr><tr><td>RECRN001C</td><td>Consegnato. È un evento finale.</td></tr><tr><td>RECRN002C</td><td><p>Mancata consegna. È un evento finale.</p><p><strong>deliveryFailureCause</strong>: M02 M05 M06 M07 M08 M09</p></td></tr><tr><td>RECRN002F</td><td><p>Irreperibilità Assoluta</p><p><strong>deliveryFailureCause</strong>: M01 M03 M04</p></td></tr><tr><td>PNRN012</td><td>Perfezionamento in giacenza della notifica</td></tr><tr><td>RECRN003C</td><td>Consegnato presso Punti di Giacenza</td></tr><tr><td>RECRN004C</td><td>Mancata consegna presso Punti di Giacenza</td></tr><tr><td>RECRN005C</td><td>Compiuta giacenza</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="215"></th><th></th></tr></thead><tbody><tr><td><strong>deliveryDetailCode</strong></td><td><strong>Significato</strong></td></tr><tr><td>RECRN001C</td><td>Consegnato. È un evento finale.</td></tr><tr><td>RECRN002C</td><td><p>Mancata consegna. È un evento finale.</p><p><strong>deliveryFailureCause</strong>: M02 M05 M06 M07 M08 M09</p></td></tr><tr><td>RECRN002F</td><td><p>Irreperibilità Assoluta</p><p><strong>deliveryFailureCause</strong>: M01 M03 M04</p></td></tr><tr><td>PNRN012</td><td>Perfezionamento in giacenza della notifica</td></tr><tr><td>RECRN003C</td><td>Consegnato presso Punti di Giacenza</td></tr><tr><td>RECRN004C</td><td>Mancata consegna presso Punti di Giacenza</td></tr></tbody></table>
 
 ### Codici SEND\_ANALOG\_FEEDBACK per raccomandate 890
 
@@ -101,42 +136,7 @@ Esempio:
 
 <table data-header-hidden><thead><tr><th width="213"></th><th></th></tr></thead><tbody><tr><td><strong>deliveryDetailCode</strong></td><td><strong>Significato</strong></td></tr><tr><td>RECRI003C</td><td>Consegnato</td></tr><tr><td>RECRI004C</td><td>Non Consegnato</td></tr></tbody></table>
 
-## Codice per raccomandate semplici RS <a href="#tabella-approfondimento-deliveryfailurecause" id="tabella-approfondimento-deliveryfailurecause"></a>
 
-| **deliveryDetailCode** | **Significato**                                                                                                                     |
-| ---------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
-| RECRS010               | In esito                                                                                                                            |
-| RECRS011               | In giacenza                                                                                                                         |
-| RECRS001C              | Consegnato - Fascicolo Chiuso                                                                                                       |
-| RECRS002A              | Mancata consegna - pre-esito                                                                                                        |
-| RECRS002B              | Mancata consegna - In Dematerializzazione                                                                                           |
-| RECRS002C              | Mancata consegna - Fascicolo Chiuso                                                                                                 |
-| RECRS002D              | Irreperibilità Assoluta - pre-esito                                                                                                 |
-| RECRS002E              | Irreperibilità Assoluta - In Dematerializzazione                                                                                    |
-| RECRS002F              | Irreperibilità Assoluta - Fascicolo Chiuso                                                                                          |
-| RECRS003C              | Consegnato presso Punti di Giacenza - Fascicolo Chiuso                                                                              |
-| RECRS004A              | Mancata consegna presso Punti di Giacenza - pre-esito                                                                               |
-| RECRS004B              | Mancata consegna presso Punti di Giacenza - In Dematerializzazione                                                                  |
-| RECRS004C              | Mancata consegna presso Punti di Giacenza - Fascicolo Chiuso                                                                        |
-| RECRS005A              | Compiuta giacenza pre-esito                                                                                                         |
-| RECRS005B              | Compiuta giacenza - In Dematerializzazione                                                                                          |
-| RECRS005C              | Compiuta giacenza - Fascicolo Chiuso                                                                                                |
-| RECRS006               | Furto/Smarrimento/deterioramento                                                                                                    |
-| RECRS010               | Esito negativo di consegna: il tentativo di consegna della raccomandata semplice non è andato a buon fine per destinatario assente. |
-| RECRS013               | Non Rendicontabile                                                                                                                  |
-| RECRS015               | Causa Forza Maggiore                                                                                                                |
-
-## Codice per raccomandate RIS (Raccomandate internazionali semplici) <a href="#tabella-approfondimento-deliveryfailurecause" id="tabella-approfondimento-deliveryfailurecause"></a>
-
-| **deliveryDetailCode** | **Significato**                         |
-| ---------------------- | --------------------------------------- |
-| RECRSI001              | Avviato all'estero                      |
-| RECRSI002              | Ingresso nel paese estero               |
-| RECRSI003C             | Consegnato - Fascicolo Chiuso           |
-| RECRSI004A             | Non Consegnato - pre-esito              |
-| RECRSI004B             | Non Consegnato - In Dematerializzazione |
-| RECRSI004C             | Non Consegnato - fascicolo Chiuso       |
-| RECRSI005              | Furto/Smarrimento/deterioramento        |
 
 ## Decodifica deliveryFailureCause <a href="#tabella-approfondimento-deliveryfailurecause" id="tabella-approfondimento-deliveryfailurecause"></a>
 
