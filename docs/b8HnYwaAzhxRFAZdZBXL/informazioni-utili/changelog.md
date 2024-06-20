@@ -12,6 +12,12 @@ description: >-
 
 <summary>Giugno 2024</summary>
 
+### 1.0.96
+
+**19 giugno**
+
+* Bug fixing
+
 ### 1.0.95
 
 **17 giugno**
