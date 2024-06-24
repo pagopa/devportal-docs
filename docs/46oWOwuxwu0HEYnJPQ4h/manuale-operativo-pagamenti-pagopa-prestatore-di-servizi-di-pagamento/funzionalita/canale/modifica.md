@@ -17,7 +17,7 @@ Il ruolo che ne possiede il **pieno potere** a livello di **operatività** è il
 
 All'interno della _Pagina "Vista Canali",_ l'utente cliccando sui **3 puntini** accanto lo Stato **"Attivo"**, ha la possibilità di selezionare la voce **"Gestisci Canale".**
 
-<figure><img src="../../../.gitbook/assets/image (27).png" alt=""><figcaption><p><em>Pagina Vista Canali - tabella elenco canali - Gestisci canale</em></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (27) (1).png" alt=""><figcaption><p><em>Pagina Vista Canali - tabella elenco canali - Gestisci canale</em></p></figcaption></figure>
 
 
 

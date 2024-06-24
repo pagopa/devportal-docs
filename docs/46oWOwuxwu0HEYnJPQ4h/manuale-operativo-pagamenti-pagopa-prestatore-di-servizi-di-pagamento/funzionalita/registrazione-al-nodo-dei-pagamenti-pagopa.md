@@ -38,7 +38,7 @@ Inoltre, l'utente oltre a dover procedere alla compilazione dei suddetti campi, 
 
 L'utente procede alla **compilazione dei dati obbligatori e** sceglie la **modalità indiretta** di connessione al Nodo**.**
 
-<figure><img src="../../.gitbook/assets/image (7) (1).png" alt=""><figcaption><p><em>Registrazione al Nodo - Connessione indiretta - Conferma</em></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1) (1).png" alt=""><figcaption><p><em>Registrazione al Nodo - Connessione indiretta - Conferma</em></p></figcaption></figure>
 
 Una volta completati tutti i campi obbligatori e aver cliccato sul tasto "Conferma", l'utente avrà completato la Registrazione al Nodo dei Pagamenti PagoPA.
 
@@ -62,7 +62,7 @@ Questo verrà reindirizzato alla Panoramica in cui potrà visualizzare il riepil
 
 L'utente procede alla **compilazione dei dati obbligatori e** sceglie la **modalità diretta** di connessione al Nodo**.**
 
-<figure><img src="../../.gitbook/assets/image (8) (1).png" alt=""><figcaption><p><em>Registrazione al Nodo - Connessione diretta - Conferma</em></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (1) (1).png" alt=""><figcaption><p><em>Registrazione al Nodo - Connessione diretta - Conferma</em></p></figcaption></figure>
 
 L'utente, una volta **cliccato** su **"Conferma"**, visualizzerà il **pop up** informativo **per confermare la scelta** di volersi connettere direttamente al Nodo.&#x20;
 
