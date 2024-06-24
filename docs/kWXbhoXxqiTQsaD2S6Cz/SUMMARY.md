@@ -1,7 +1,7 @@
 # Table of contents
 
 * [Premessa](README.md)
-* [Integrazione Asincrona](integrazione-asincrona.md)
+* [Cos'è l'integrazione Asincrona](cose-lintegrazione-asincrona.md)
 * [Approfondimento](approfondimento/README.md)
   * [Trattamento di dati personali](approfondimento/trattamento-di-dati-personali.md)
   * [Passaggio alla Modalità Asincrona di un Ente Creditore](approfondimento/passaggio-alla-modalita-asincrona-di-un-ente-creditore.md)
