@@ -32,7 +32,7 @@ Da questa pagina, oltre alla mera consultazione  ha la possibilità di avviare l
 
 Se il **PSP** ha scelto di rendersi **disponibile** ad **intermediare** altri PSP indiretti, **cliccando** sui **3 puntini** accanto lo Stato Attivo, potrà essere visualizzata oltre alle voci **"Gestisci Canali"** e **"Duplica",** anche la voce **"Gestisci PSP"** che consente di accedere alla _Pagina Gestione PSP_ da cui sarà possibile avviare tutte le azioni di gestione dei PSP associati a quel canale.
 
-<figure><img src="../../../.gitbook/assets/image (5) (1).png" alt=""><figcaption><p><em>Pagina Vista Canali - PSP intermediario</em></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption><p><em>Pagina Vista Canali - PSP intermediario</em></p></figcaption></figure>
 
 ## Sezione Canale: Gestione - Ambiente di Produzione
 
@@ -43,7 +43,7 @@ Nella _Pagina "Vista Canali",_ dopo aver effettuato la creazione del canale in a
 
 **Cliccando** sui **3 puntini** accanto lo Stato "**In revisione"**, l'utente può visualizzare le voci **"Gestisci Canali"** e **"Duplica".** (vedi [Duplica - Ambiente di Produzione](duplicazione.md)).
 
-<figure><img src="../../../.gitbook/assets/image (6) (1).png" alt=""><figcaption><p><em>Pagina Vista Canali - Tabella elenco Canali</em></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (6) (1) (1).png" alt=""><figcaption><p><em>Pagina Vista Canali - Tabella elenco Canali</em></p></figcaption></figure>
 
 **Cliccando** sui **3 puntini** accanto lo Stato **Attivo**, l'utente avrà la possibilità di selezionare la voce **"Gestisci Canali"**, accedendo alla _Pagina di dettaglio Canale_ in cui sono riportati tutti i dati di configurazione inseriti in fase di Creazione.
 
