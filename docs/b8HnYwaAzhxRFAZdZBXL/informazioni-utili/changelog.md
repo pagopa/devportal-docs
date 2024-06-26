@@ -12,6 +12,20 @@ description: >-
 
 <summary>Giugno 2024</summary>
 
+### 1.0.98
+
+**25 giugno**
+
+* Bug fixing
+* Aggiunta la possibilità di modificare la documentazione all'interno di e-service già pubblicati senza dover creare una nuova versione
+
+### 1.0.97
+
+**23 giugno**
+
+* Bug fixing
+* Adeguamento infrastrutturale
+
 ### 1.0.96
 
 **19 giugno**
