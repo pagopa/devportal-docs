@@ -61,9 +61,12 @@ Ambiti e tipologia notifica:
 
 ### 0104 - Scuola
 
-* `010401P` - **Notifiche per sollecito pagamento servizi scolastici**\
+* `010401P` - **Notifiche per sollecito pagamento servizi scolastici con pagamento**\
   Tutte le tipologie di comunicazione relative al sollecito di pagamento servizi scolastici (es. mense, trasporto, rette, pre post scuola etc...) \
   Codice: `010401P`&#x20;
+* `010401N` - **Notifiche per sollecito pagamento servizi scolastici senza pagamento**\
+  Tutte le tipologie di comunicazione relative al sollecito di pagamento servizi scolastici (es. mense, trasporto, rette, pre post scuola etc...) \
+  Codice: `010401N`
 
 ### 0105 - Anagrafe
 
@@ -83,8 +86,8 @@ Ambiti e tipologia notifica:
   Notifica Ordinanza ingiunzione (es. sanzioni amministrative varie) \
   Codice: `010701P`&#x20;
 * `010702N` - **Ordinanze Comunali senza pagamento** \
-  Comunicazione ordinanza contingibile e urgente del sindaco per motivi di salute pubblica \
-  Codice: `010702N`&#x20;
+  Notifiche Ordinanze (es. ordinarie, per casi eccezionali di particolare gravità, contingibili e urgenti, etc...)\
+  Codice: `010702N`
 
 ### 0108 - Riscossione Coattiva
 
