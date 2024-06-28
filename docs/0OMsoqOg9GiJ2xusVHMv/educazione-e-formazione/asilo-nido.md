@@ -57,13 +57,15 @@ La compilazione della domanda può prevedere diversi stati di elaborazione rappr
 
 <summary>Domanda di iscrizione al servizio: inviata</summary>
 
-**🖋 Titolo del messaggio:** Abbiamo ricevuto la tua domanda
+**🖋 Titolo del messaggio:** La tua domanda è stata inviata&#x20;
 
 🗒 **Testo del messaggio**:&#x20;
 
-Il \<gg/mm/aaaa> abbiamo ricevuto la tua domanda di iscrizione per \<nome> \<cognome> al servizio \<tipologia del servizio>  per l’anno educativo \<aaaa/aaaa>.&#x20;
+Il \<gg/mm/aaaa> hai inviato la tua domanda di iscrizione per \<nome> \<cognome> al servizio \<tipologia del servizio>  per l’anno educativo \<aaaa/aaaa>.&#x20;
 
 Il numero di protocollo della tua domanda è: \<nnnn>
+
+\[Se previsto] Ti comunicheremo gli avanzamenti di stato della tua domanda.&#x20;
 
 Per consultare il riepilogo della domanda, \[visita questo sito]\(URL).
 
@@ -346,6 +348,8 @@ C'è un avviso da pagare intestato a \<nome e cognome> e relativo a \<causale>.
 
 Puoi pagare direttamente in app premendo “Vedi Avviso”, oppure tramite tutti i canali di pagamento della piattaforma pagoPA e le altre modalità di pagamento offerte dell'ente creditore.
 
+\[Se previsto] Se vuoi pagare più avvisi in un'unica soluzione, \[visita questo sito]\(URL).
+
 Se hai già provveduto a pagare l'avviso ignora questo messaggio.
 
 Per maggiori informazioni o per richiedere assistenza, contattaci tramite i canali che trovi nella scheda servizio.
@@ -404,7 +408,7 @@ Il seguente messaggio serve a sensibilizzare il cittadino per il mancato pagamen
 
 <details>
 
-<summary>Avviso di pagamento domanda di iscrizione: mancato pagamento</summary>
+<summary>Avviso di pagamento: mancato pagamento</summary>
 
 **🖋 Titolo del messaggio:** Pagamento non effettuato
 
