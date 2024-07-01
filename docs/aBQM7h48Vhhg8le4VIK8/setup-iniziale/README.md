@@ -36,7 +36,7 @@ L’ente aggregatore può operare **solo** per i servizi per cui ha ricevuto l�
 
 </details>
 
-#### Accordo di Adesione 2024
+#### Accordo di Adesione
 
 
 
