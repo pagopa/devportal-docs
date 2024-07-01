@@ -257,7 +257,7 @@ Al fine di arricchire le comunicazioni con informazioni che abbiano valore per i
 **Lo sapevi?**\
 IO è integrata con SEND - Servizio Notifiche Digitale, per l'invio di comunicazioni a valore legale.
 
-[**Scopri di più su SEND**](https://notifichedigitali.pagopa.it/) [**-->**](https://www.pagopa.it/it/prodotti-e-servizi/piattaforma-notifiche-digitali)
+[**Scopri di più su SEND**](https://notifichedigitali.pagopa.it/) [**->**](https://www.pagopa.it/it/prodotti-e-servizi/piattaforma-notifiche-digitali)
 {% endhint %}
 
 {% hint style="info" %}
@@ -271,5 +271,5 @@ Gli enti che desiderino utilizzarli devono, quindi, modificarli a seconda delle 
 
 Puoi copiare i testi dei messaggi da personalizzare da questo documento:
 
-{% file src="../.gitbook/assets/IO - Template servizi - Tassa sui rifiuti (TARI).xlsx" %}
+{% file src="../.gitbook/assets/IO - Template servizi - Tassa sui rifiuti (TARI).xlsx (1).zip" %}
 {% endhint %}

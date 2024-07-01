@@ -13,7 +13,7 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 
 ## Ciclo di vita del servizio
 
-<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption><p><strong>Ciclo di vita ed event del servizio Ritiro rifiuti ingombranti</strong></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (1).png" alt=""><figcaption><p><strong>Ciclo di vita ed event del servizio Ritiro rifiuti ingombranti</strong></p></figcaption></figure>
 
 ## Messaggi del servizio
 

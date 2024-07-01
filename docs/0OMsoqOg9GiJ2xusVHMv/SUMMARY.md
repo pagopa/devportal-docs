@@ -26,11 +26,20 @@
 
 ## 🏠 casa e utenze
 
+* [Condomini e inquilini](casa-e-utenze/condomini-e-inquilini.md)
+* [Diritti di rogito](casa-e-utenze/diritti-di-rogito.md)
+* [Imposta municipale unica (IMU)](casa-e-utenze/imposta-municipale-unica-imu.md)
+* [Raccolta differenziata dei rifiuti](casa-e-utenze/raccolta-differenziata-dei-rifiuti.md)
+* [Servizi idrici](casa-e-utenze/servizi-idrici.md)
 * [Tassa sui rifiuti (TARI)](casa-e-utenze/tassa-sui-rifiuti-tari.md)
 
 ## 🎭 cultura, tempo libero e sport
 
-* [In arrivo](cultura-tempo-libero-e-sport/in-arrivo.md)
+* [Attività sportive](cultura-tempo-libero-e-sport/attivita-sportive.md)
+* [Biblioteche](cultura-tempo-libero-e-sport/biblioteche.md)
+* [Cinema e teatri](cultura-tempo-libero-e-sport/cinema-e-teatri.md)
+* [Eventi e manifestazioni](cultura-tempo-libero-e-sport/eventi-e-manifestazioni.md)
+* [Musei civici](cultura-tempo-libero-e-sport/musei-civici.md)
 
 ## 📚 educazione e formazione
 
@@ -45,7 +54,9 @@
 
 ## ⚖️ giustizia e legge
 
-* [In arrivo](giustizia-e-legge/in-arrivo.md)
+* [Avvocatura civica](giustizia-e-legge/avvocatura-civica.md)
+* [Giudici popolari](giustizia-e-legge/giudici-popolari.md)
+* [Sanzioni amministrative](giustizia-e-legge/sanzioni-amministrative.md)
 
 ## 👷 lavori edilizi, catasto e urbanistica
 
