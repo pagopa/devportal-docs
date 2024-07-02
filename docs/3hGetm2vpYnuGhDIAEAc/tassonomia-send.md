@@ -64,7 +64,7 @@ Ambiti e tipologia notifica:
 * `010401P` - **Notifiche per sollecito pagamento servizi scolastici con pagamento**\
   Tutte le tipologie di comunicazione relative al sollecito di pagamento servizi scolastici (es. mense, trasporto, rette, pre post scuola etc...) \
   Codice: `010401P`&#x20;
-* `010401N` - **Notifiche per sollecito pagamento servizi scolastici senza pagamento**\
+* `010401N` - **Notifiche atti servizi scolastici** **senza pagamento**\
   Tutte le tipologie di comunicazione relative al sollecito di pagamento servizi scolastici (es. mense, trasporto, rette, pre post scuola etc...) \
   Codice: `010401N`
 
