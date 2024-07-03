@@ -10,6 +10,20 @@ description: >-
 
 <details>
 
+<summary>Luglio 2024</summary>
+
+### 1.0.99
+
+**2 luglio**
+
+* Bug fixing
+* Rilasciata la nuova feature di import / export degli e-service da un ambiente all'altro
+* Rilasciata la nuova feature di invio di mail all'erogatore di un e-service come notifica quando c'è una richiesta di fruizione da approvare
+
+</details>
+
+<details>
+
 <summary>Giugno 2024</summary>
 
 ### 1.0.98
