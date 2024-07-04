@@ -22,7 +22,7 @@ Di seguito un esempio della `POST/notices/generate` da effettuare con il popolam
       "discounted": {
           "amount": <Avviso.ImportoScontato>,
           "code": <Avviso.CodiceScontato>
-      },
+      }
     },
     "creditorInstitution": {
       "taxCode": <Ente.CF>
