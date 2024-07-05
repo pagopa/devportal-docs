@@ -5,41 +5,41 @@ Qualora l'Ente Creditore abbia un conto corrente di accredito postale, le divers
 Di seguito un esempio della `POST/notices/generate` da effettuare con il popolamento dei campi per la generazione del template con un numero di rate da 2 a 9 con _Bollettino Postale_:
 
 ```json
-{
-  "data": {
-    "creditorInstitution": {
-      "taxCode": "string",
-    },
-    "debtor": {
-      "address": "string",
-      "buildingNumber": "string",
-      "city": "string",
-      "fullName": "string",
-      "postalCode": "string",
-      "province": "string",
-      "taxCode": "string"
-    },
-    "notice": {
-      "code": "stringstringstring",
-      "dueDate": "string",
-      "installments": [
-        {
-          "amount": 0,
-          "code": "stringstringstring",
-          "dueDate": "string"
-        },
-        {
-          "amount": 0,
-          "code": "stringstringstring",
-          "dueDate": "string"
+ {
+        "templateId": <template_id>,
+        "data": {
+          "notice": {
+            "subject": <Avviso.Oggetto>,
+            "paymentAmount": <Avviso.Importo>,
+            "dueDate": <Avviso.Data>,
+            "code": <Avviso.Codice>,
+            "installments": [
+              {
+                "code": <Avviso.Rata1.Codice>,
+                "amount": <Avviso.Rata1.Importo>,
+                "dueDate": <Avviso.Rata1.Data>
+              },
+              {
+                "code": <Avviso.Rata2.Codice>,
+                "amount": <Avviso.Rata2.Importo>,
+                "dueDate": <Avviso.Rata2.Data>
+              }
+            ]
+          },
+          "creditorInstitution": {
+            "taxCode": <Ente.CF>
+          },
+          "debtor": {
+            "taxCode": <Destinatario.CF>,
+            "fullName": <Destinatario.NomeCompleto>,
+            "address": <Destinatario.Indirizzo>,
+            "postalCode": <Destinatario.CodicePostale>,
+            "city": <Destinatario.Citta>,
+            "buildingNumber": <Destinatario.Building>,
+            "province": <Destinatario.Provincia>
+          }
         }
-      ],
-      "paymentAmount": 99999999999,
-      "subject": "string"
-    }
-  },
-  "templateId": "string"
-}
+      }
 ```
 
 
