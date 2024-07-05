@@ -2,6 +2,8 @@
 
 Se il numero di rate è superiore a 9, sull'avviso di pagamento non sarà valorizzata la sezione che consente il pagamento dell'importo in un'unica soluzione.
 
+Per questo motivo, nella sezione `notice`, i campi "`code`", "`dueDate`" e "`paymentAmout`" non verranno presi in considerazione.
+
 Di seguito un esempio della `POST/notices/generate` da effettuare con il popolamento dei campi per la generazione del template con un numero di rate superiore a 9:
 
 ```json
@@ -10,9 +12,6 @@ Di seguito un esempio della `POST/notices/generate` da effettuare con il popolam
         "data": {
           "notice": {
             "subject": <Avviso.Oggetto>,
-            "paymentAmount": <Avviso.Importo>,
-            "dueDate": <Avviso.Data>,
-            "code": <Avviso.Codice>,
             "installments": [
               {
                 "code": <Avviso.Rata1.Codice>,
@@ -23,6 +22,12 @@ Di seguito un esempio della `POST/notices/generate` da effettuare con il popolam
                 "code": <Avviso.Rata2.Codice>,
                 "amount": <Avviso.Rata2.Importo>,
                 "dueDate": <Avviso.Rata2.Data>
+              }
+              ...
+              {
+                "code": <Avviso.Rata10.Codice>,
+                "amount": <Avviso.Rata10.Importo>,
+                "dueDate": <Avviso.Rata10.Data>
               }
             ]
           },
@@ -43,11 +48,9 @@ Di seguito un esempio della `POST/notices/generate` da effettuare con il popolam
 ```
 
 {% hint style="info" %}
-Per poter utilizzare il template _rata multiple (>9)_, bisogna inserire nel campo _template\_id_ la seguente stringa: **"TemplateManyInstalments"**.
+Per poter utilizzare il template _rata multiple (>9)_, bisogna inserire nel campo _template\_id_ la seguente stringa: **"TemplateManyInstalments"**.&#x20;
 {% endhint %}
 
-Nella sezione `notice`, i campi "`code`", "`dueDate`" e "`paymentAmout`" non saranno valorizzati.
-
-Per le altre sezioni di cui si compone il template con rate multiple (>9) si seguono le stesse logiche descritte in [Templare con rate (2..9)](rate-2..9/).
+Per le altre sezioni di cui si compone il template con rate multiple (>9) si seguono le stesse logiche descritte in [Templare con rate (2..9)](../rate-2..9/).
 
 Tutte le specifiche tecniche per la progettazione del template con rate multiple in nnumero superiore a 9 sono disponibili al link: [https://docs.pagopa.it/avviso-pagamento/allegato-1/varianti/avviso-con-molte-rate](https://docs.pagopa.it/avviso-pagamento/allegato-1/varianti/avviso-con-molte-rate).

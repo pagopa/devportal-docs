@@ -51,6 +51,6 @@ Attualmente esistono le seguenti varianti di template per la stampa del singolo 
 
 * [Template rata unica](templates/rata-unica/)
 * [Template rate multiple (da 2 a 9 rate)](templates/rate-2..9/)
-* [Template rate multiple (>9)](templates/rate-greater-than-9.md)
+* [Template rate multiple (>9)](templates/rate-greater-than-9/)
 * [Template violazione codice della strada](templates/violazione-codice-della-strada/)
 

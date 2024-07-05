@@ -11,7 +11,7 @@
       * [Senza Scadenza](stampa-avvisi-pagamento/templates/rata-unica/senza-scadenza.md)
     * [Rate (2..9)](stampa-avvisi-pagamento/templates/rate-2..9/README.md)
       * [Con Bollettino Postale](stampa-avvisi-pagamento/templates/rate-2..9/con-bollettino-postale.md)
-    * [Rate (>9)](stampa-avvisi-pagamento/templates/rate-greater-than-9.md)
+    * [Rate (>9)](stampa-avvisi-pagamento/templates/rate-greater-than-9/README.md)
     * [Violazione Codice della Strada](stampa-avvisi-pagamento/templates/violazione-codice-della-strada/README.md)
       * [Con Bollettino Postale](stampa-avvisi-pagamento/templates/violazione-codice-della-strada/con-bollettino-postale.md)
   * [API](stampa-avvisi-pagamento/api/README.md)
