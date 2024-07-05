@@ -48,7 +48,7 @@ Le sezioni di cui si compone il template rata unica sono le seguenti:
 
 Questa sezione contiene l’oggetto dell’avviso, ossia un testo chiaro e significativo per chi riceve l’avviso:
 
-* **Avviso.Oggetto ->** stringa di max 90 caratteri, corrispondente al campo `subject` della `POST/notices/generate)`;
+* **Avviso.Oggetto ->** stringa di max 90 caratteri, corrispondente al campo `subject` della `POST/notices/generate)`.
 
 **Informazioni sull’Ente Creditore**:
 
@@ -57,7 +57,7 @@ Questa sezione contiene le informazioni relative all’Ente Creditore:
 * **Ente.CF ->** stringa di max 16 caratteri corrispondente al campo codice fiscale recuperato dal Backoffice pagoPA (vedi [Compilazione dati configurazione su Backoffice pagoPA](../../compilazione-dati-configurazione-su-backoffice-pagopa.md));
 * **Ente.Nome** **->** stringa di max 50 caratteri corrispondente al campo nome recuperato dal Backoffice pagoPA (vedi [Compilazione dati configurazione su Backoffice pagoPA](../../compilazione-dati-configurazione-su-backoffice-pagopa.md));
 * **Ente.Settore** **->** stringa di max 50 caratteri corrispondente al campo settore opzionalmente valorizzato nello step preliminare sul portale Backoffice pagoPA  (vedi [Compilazione dati configurazione su Backoffice pagoPA](../../compilazione-dati-configurazione-su-backoffice-pagopa.md));
-* **Ente.Info** **->** riferimenti dei canali di contatto dell'Ente Creditore destinati ai cittadini, come ad esempio sito web, call center o email dedicata, informazioni inserite nello step preliminare sotto la voce _"Contatti per l'assistenza"_ sul portale Backoffice pagoPA (vedi [Compilazione dati configurazione su Backoffice pagoPA](../../compilazione-dati-configurazione-su-backoffice-pagopa.md));
+* **Ente.Info** **->** riferimenti dei canali di contatto dell'Ente Creditore destinati ai cittadini, come ad esempio sito web, call center o email dedicata, informazioni inserite nello step preliminare sotto la voce _"Contatti per l'assistenza"_ sul portale Backoffice pagoPA (vedi [Compilazione dati configurazione su Backoffice pagoPA](../../compilazione-dati-configurazione-su-backoffice-pagopa.md)).
 
 **Informazione sul destinatario**:
 
@@ -73,14 +73,14 @@ Questa sezione contiene le informazioni relative al soggetto debitore:
 È la sezione che contiene le informazioni sul quanto pagare, in che modalità e con le relative scadenze:
 
 * **Avviso.Data ->** nel formato dd/mm/yyyy corrispondente al campo `dueDate` della `POST/notices/generate`. Nel caso in cui questo campo non venga passato in input, l'avviso pdf risultante sarà l['avviso rata unica senza scadenza](senza-scadenza.md);
-* **Avviso.Importo** **->** con valore massimo 999.999.999,99 corrisponde al campo `Amount` della `POST/notices/generate.`
+* **Avviso.Importo** **->** con valore massimo 999.999.999,99 corrisponde al campo `Amount` della `POST/notices/generate`.
 
 **Dati del pagamento**:
 
 È la sezione che contiene tutte le informazioni necessarie per effettuare il pagamento:
 
 * **Avviso.QRCode** **->** segue le logiche descritte in [https://docs.pagopa.it/avviso-pagamento/allegato-2/specifiche-tecniche/dati-per-il-pagamento/rata-unica](https://docs.pagopa.it/avviso-pagamento/allegato-2/specifiche-tecniche/dati-per-il-pagamento/rata-unica).
-* **Avviso.Codice** **->** corrispondente al campo code della `POST/notices/generate;`
+* **Avviso.Codice** **->** corrispondente al campo code della `POST/notices/generate`;
 * **Ente.Cbill** **->** codice interbancario dell'Ente Creditore, conosciuto anche come Codice SIA recuperato dal Backoffice pagoPA (vedi [Compilazione dati configurazione su Backoffice pagoPA](../../compilazione-dati-configurazione-su-backoffice-pagopa.md)).
 
 Le varianti del bollettino rata unica sono il [template con bollettino postale](con-bollettino-postale.md) ed il [template senza scadenza](senza-scadenza.md).
