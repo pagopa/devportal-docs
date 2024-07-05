@@ -6,41 +6,36 @@ Di seguito un esempio della `POST/notices/generate` da effettuare con il popolam
 
 ```json
 {
+  "templateId": "<template_id>",
   "data": {
+    "notice": {
+      "subject": <Avviso.Oggetto>,
+      "reduced": {
+        "amount": <Avviso.ImportoRidotto>,
+        "code": <Avviso.CodiceRidotto>
+      },
+      "discounted": {
+          "amount": <Avviso.ImportoScontato>,
+          "code": <Avviso.CodiceScontato>
+      }
+    },
     "creditorInstitution": {
-      "taxCode": "string",
-      
+      "taxCode": <Ente.CF>
     },
     "debtor": {
-      "address": "string",
-      "buildingNumber": "string",
-      "city": "string",
-      "fullName": "string",
-      "postalCode": "string",
-      "province": "string",
-      "taxCode": "string"
-    },
-    "notice": {
-      "code": "string",
-      "discountedAmount": 0,
-      "dueDate": "string",
-      "installments": [
-        {
-          "amount": 0,
-          "code": "string",
-          "dueDate": "string"
-        }
-      ],
-      "paymentAmount": 0,
-      "reducedAmount": 0,
-      "subject": "string"
+      "taxCode": <Destinatario.CF>,
+      "fullName": <Destinatario.NomeCompleto>,
+      "address": <Destinatario.Indirizzo>,
+      "postalCode": <Destinatario.CodicePostale>,
+      "city": <Destinatario.Citta>,
+      "buildingNumber": <Destinatario.Building>,
+      "province": <Destinatario.Provincia>
     }
-  },
-  "templateId": "string"
+  }
 }
 ```
 
 {% hint style="info" %}
-Per poter utilizzare il template _rata violazione codice della strada_, bisogna inserire nel campo _template\_id_ la seguente stringa: **"TemplateCdsInfractionExtended"**.
+Per poter utilizzare il template _violazione codice della strada_, bisogna inserire nel campo _template\_id_ la seguente stringa: **"TemplateCdsInfractionPoste"**.
 {% endhint %}
 

@@ -5,35 +5,37 @@ Questo template permette di stampare un bollettino senza data di scadenza second
 Di seguito un esempio della `POST/notices/generate` da effettuare con il popolamento dei campi per la generazione del template rata unica senza scadenza.
 
 ```json
-
-  "data": {
-    "creditorInstitution": {
-      "taxCode": "string"
-    },
-    "debtor": {
-      "address": "string",
-      "buildingNumber": "string",
-      "city": "string",
-      "fullName": "string",
-      "postalCode": "string",
-      "province": "string",
-      "taxCode": "string"
-    },
-    "notice": {
-      "code": "stringstringstring",
-      "paymentAmount": 99999999999,
-      "subject": "string"
-    }
-  },
-  "templateId": "string"
-}
+{
+        "templateId": <template_id>,
+        "data": {
+          "notice": {
+            "subject": <Avviso.Oggetto>,
+            "paymentAmount": <Avviso.Importo>,
+            "code": <Avviso.Codice>,
+            "installments": [
+              {
+                "code": <Avviso.Rata1.Codice>,
+                "amount": <Avviso.Rata1.Importo>,
+              },
+            ]
+          },
+          "creditorInstitution": {
+            "taxCode": <Ente.CF>
+          },
+          "debtor": {
+            "taxCode": <Destinatario.CF>,
+            "fullName": <Destinatario.NomeCompleto>,
+            "address": <Destinatario.Indirizzo>,
+            "postalCode": <Destinatario.CodicePostale>,
+            "city": <Destinatario.Citta>,
+            "buildingNumber": <Destinatario.Building>,
+            "province": <Destinatario.Provincia>
+          }
+        }
+      }
 ```
 
 
-
-{% hint style="info" %}
-Per poter utilizzare il template _rata unica senza scadenza_, bisogna inserire nel campo _template\_id_ la seguente stringa **"TemplateSingleInstalment"**, mentre per il template rata unica con bollettino postale senza scadenza la stringa **"TemplateSingleInstalmentPoste"**.
-{% endhint %}
 
 Per poter utilizzare il template senza scadenza oltre ad utilizzare il corretto _template\_id_, bisogna non valorizzare il campo `dueDate`.
 
