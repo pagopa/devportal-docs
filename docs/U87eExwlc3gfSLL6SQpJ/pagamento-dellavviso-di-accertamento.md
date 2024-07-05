@@ -7,7 +7,7 @@ description: >-
 
 # 8️⃣ Pagamento dell'avviso di accertamento
 
-<figure><img src=".gitbook/assets/image (7).png" alt="Sezione 8 di 8: Pagamento dell&#x27;avviso di accertamento"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/tari-step8.png" alt=""><figcaption></figcaption></figure>
 
 ## **1.1 Il cittadino paga il verbale scontato entro i termini previsti ✅**
 

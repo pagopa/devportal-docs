@@ -6,7 +6,7 @@ description: >-
 
 # 6️⃣ Emissione avviso di accertamento
 
-<figure><img src=".gitbook/assets/image (5).png" alt="Sezione 6 di 8: emissione dell&#x27;avviso di accertamento"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/tari-step6.png" alt=""><figcaption></figcaption></figure>
 
 ## 1. L'ultima rata prevista è scaduta
 

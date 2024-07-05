@@ -6,7 +6,7 @@ description: >-
 
 # 4️⃣ Emissione prima rata
 
-<figure><img src=".gitbook/assets/image (3).png" alt="Sezione 4 di 8: emissione della prima rata"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/tari-step4.png" alt=""><figcaption></figcaption></figure>
 
 ## 1. L'ente crea la posizione debitoria&#x20;
 
