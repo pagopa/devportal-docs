@@ -6,27 +6,35 @@ Di seguito un esempio della `POST/notices/generate` da effettuare con il popolam
 
 ```json
 {
-  "data": {
-    "creditorInstitution": {
-      "taxCode": "string",
-    },
-    "debtor": {
-      "address": "string",
-      "buildingNumber": "string",
-      "city": "string",
-      "fullName": "string",
-      "postalCode": "string",
-      "province": "string",
-      "taxCode": "string"
-    },
-    "notice": {
-      "code": "string",
-      "dueDate": "string",
-      "subject": "string"
-    }
-  },
-  "templateId": "string"
-}
+        "templateId": <template_id>,
+        "data": {
+          "notice": {
+            "subject": <Avviso.Oggetto>,
+            "paymentAmount": <Avviso.Importo>,
+            "dueDate": <Avviso.Data>,
+            "code": <Avviso.Codice>,
+            "installments": [
+              {
+                "code": <Avviso.Rata1.Codice>,
+                "amount": <Avviso.Rata1.Importo>,
+                "dueDate": <Avviso.Rata1.Data>
+              },
+            ]
+          },
+          "creditorInstitution": {
+            "taxCode": <Ente.CF>
+          },
+          "debtor": {
+            "taxCode": <Destinatario.CF>,
+            "fullName": <Destinatario.NomeCompleto>,
+            "address": <Destinatario.Indirizzo>,
+            "postalCode": <Destinatario.CodicePostale>,
+            "city": <Destinatario.Citta>,
+            "buildingNumber": <Destinatario.Building>,
+            "province": <Destinatario.Provincia>
+          }
+        }
+      }
 ```
 
 {% hint style="info" %}
