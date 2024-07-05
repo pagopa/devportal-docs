@@ -2,7 +2,7 @@
 description: >-
   Il cittadino commette una violazione del Codice della Strada e gli viene
   consegnato il preavviso di accertamento tramite stampante termica. Questo
-  passaggio è a discrezione dell'ente
+  passaggio è a totale discrezione dell'ente.
 ---
 
 # 1️⃣ Violazione del Codice della Strada
