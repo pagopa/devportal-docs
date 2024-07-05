@@ -41,7 +41,7 @@ Di seguito un esempio della `POST/notices/generate` da effettuare con il popolam
 ```
 
 {% hint style="info" %}
-Per poter utilizzare il template _rata violazione codice della strada_, bisogna inserire nel campo _template\_id_ la seguente stringa: **"TemplateCdsInfraction"**.
+Per poter utilizzare il template _violazione codice della strada_, bisogna inserire nel campo _template\_id_ la seguente stringa: **"TemplateCdsInfraction"**.
 {% endhint %}
 
 Maggiori informazioni circa il template violazioni codici della strada sono disponibili al link: [https://docs.pagopa.it/avviso-pagamento/allegato-1/varianti/violazioni-codice-della-strada](https://docs.pagopa.it/avviso-pagamento/allegato-1/varianti/violazioni-codice-della-strada).
