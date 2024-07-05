@@ -37,7 +37,7 @@ Di seguito un esempio della `POST/notices/generate` da effettuare con il popolam
 
 
 
-Per poter utilizzare il template senza scadenza oltre ad utilizzare il corretto _template\_id_, bisogna non valorizzare il campo `dueDate`.
+Per poter utilizzare il t_emplate senza scadenza_, bisogna non valorizzare il campo `dueDate`.
 
 Le sezioni di cui si compone il template rata unica senza scadenza sono le seguenti:
 
