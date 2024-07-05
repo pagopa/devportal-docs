@@ -36,6 +36,6 @@ Di seguito un esempio della `POST/notices/generate` da effettuare con il popolam
 ```
 
 {% hint style="info" %}
-Per poter utilizzare il template _violazione codice della strada_, bisogna inserire nel campo _template\_id_ la seguente stringa: **"TemplateCdsInfractionPoste"**.
+Per poter utilizzare il template _violazione codice della strada con bollettino postale_, bisogna inserire nel campo _template\_id_ la seguente stringa: **"TemplateCdsInfractionPoste"**.
 {% endhint %}
 
