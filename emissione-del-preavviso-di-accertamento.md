@@ -7,7 +7,7 @@ description: >-
 
 # 2️⃣ Emissione del preavviso di accertamento
 
-<figure><img src="docs/lAIZmjrusC6qV8ki9zsZ/.gitbook/assets/image (4).png" alt="Sezione 2 di 6: Emissione del preavviso di accertamento"><figcaption></figcaption></figure>
+<figure><img src="docs/lAIZmjrusC6qV8ki9zsZ/.gitbook/assets/violazioni-codice-strada-step2.png" alt=""><figcaption></figcaption></figure>
 
 ## 1. L'ente crea la posizione debitoria
 
