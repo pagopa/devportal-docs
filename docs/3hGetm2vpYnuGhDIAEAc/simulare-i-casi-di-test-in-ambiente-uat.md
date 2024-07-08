@@ -14,6 +14,13 @@ Per simulare i casi di test in ambiente UAT sono stati creati 3 utenti che sono 
 
 **NOTA**: si prega di non modificare queste configurazioni degli utenti di test (non aggiungere/cancellare deleghe e/o domicili digitali di piattaforma)
 
+#### Relazione tempo UAT vs PRODUZIONE
+
+Le simulazioni nell'ambiente test **UAT** hanno una relazione di tempo diversa rispetto a quelle di **PRODUZIONE** permettendo di simulare gli eventi senza dover aspettare il normale scorrimento temporale.
+
+Ogni giorno in ambiente di PRODUZIONE vale 1 minuto in ambiente di UAT:\
+`1g PROD -> 1m UAT`
+
 ## Simulazione Workflow
 
 In ambiente UAT è possibile simulare gli esiti degli invii digitali ed analogici inserendo nei campi relativi ai domicili dei codici che riproducono il relativo scenario collegato.
@@ -81,8 +88,6 @@ Atto Giudiziario 890: Casi giacenza
 
 <table data-header-hidden><thead><tr><th width="207"></th><th></th></tr></thead><tbody><tr><td><strong>Chiave Sequenza</strong></td><td><strong>Scenario</strong></td></tr><tr><td>OK_RIR</td><td><p><strong>NON</strong> valorizzare il campo <code>recipients.digitalDomicile</code>, valorizzare </p><p><code>physicalCommunicationType="AR_REGISTERED_LETTER"</code></p><p><code>recipients.physicalAddress.address="VIA @OK_RIR"</code></p><p><code>recipients.physicalAddress.foreignState="FRANCIA"</code></p><p><br>Si avvierà il workflow analogico, con consegna Raccomandata Estera in esito OK.</p></td></tr><tr><td>FAIL_RIR</td><td><p><strong>NON</strong> valorizzare il campo <code>recipients.digitalDomicile</code>, valorizzare <code>physicalCommunicationType="AR_REGISTERED_LETTER"</code></p><p><code>recipients.physicalAddress.address="VIA @FAIL_RIR"</code></p><p><code>recipients.physicalAddress.foreignState="FRANCIA"</code></p><p><br>Si avvierà il workflow analogico, con consegna Raccomandata Estera in esito KO.</p></td></tr></tbody></table>
 
-###
-
 ### Come visualizzare la notifica accedendo come Destinatario della Notifica su Piattaforma
 
 <mark style="color:red;">**AVVERTENZA**</mark>: **non apportare alcuna modifica alla configurazione dei recapiti e alle deleghe dell'utente per non inficiare i test degli altri utilizzatori dell'ambiente UAT**.
@@ -96,12 +101,4 @@ Una volta effettuato l'accesso, sarà possibile ricercare la notifica inserita t
 <figure><img src=".gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
 
 Entrando nel dettaglio della notifica ed attendendo alcuni secondi, sarà possibile effettuare la visualizzazione della notifica con generazione del relativo evento.
-
-
-
-### Relazione tempo UAT - PRODUZIONE
-
-Le simulazioni nell'ambiente test **UAT** hanno una relazione di tempo diversa rispetto a quelle di **PRODUZIONE** permettendo di simulare gli eventi senza dover aspettare il normale scorrimento temporale.
-
-Ogni giorno in ambiente di PRODUZIONE vale 1 minuto in ambiente di UAT
 
