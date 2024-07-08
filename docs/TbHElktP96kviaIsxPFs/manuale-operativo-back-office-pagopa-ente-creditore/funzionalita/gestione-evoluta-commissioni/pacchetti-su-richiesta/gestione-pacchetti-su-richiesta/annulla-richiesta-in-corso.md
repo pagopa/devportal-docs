@@ -6,6 +6,6 @@ Dopo aver inviato una richiesta di attivazione pacchetto al PSP (vedi sezione [A
 
 Cliccando sul tasto `"Annulla richiesta"` presente nella schermata, viene mostrato all'utente un messaggio dove può confermare o meno la propria decisione di annullare la richiesta di attivazione per quel pacchetto.
 
-<figure><img src="../../../../../.gitbook/assets/image (213).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (213) (1).png" alt=""><figcaption></figcaption></figure>
 
 Cliccando sul tasto `"Conferma"`, viene annullata la richiesta di attivazione.
