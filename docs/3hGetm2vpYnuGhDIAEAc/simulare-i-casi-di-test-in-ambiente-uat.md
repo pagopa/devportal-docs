@@ -44,7 +44,11 @@ Di seguito le sequenze con cui eseguire gli scenari di test con destinatario l'u
 
 <table data-header-hidden><thead><tr><th width="205"></th><th></th></tr></thead><tbody><tr><td><strong>Chiave Sequenza</strong></td><td><strong>Scenario</strong></td></tr><tr><td>OK_RIS</td><td><p>valorizzare</p><p><code>recipients.digitalDomicile.address="prova@fail.it"</code></p><p><code>recipients.physicalAddress.address="VIA @OK_RIS"</code></p><p><code>recipients.physicalAddress.foreignState="FRANCIA"</code></p><p></p><p>Dopo il fallimento dei tentativi di consegna digitale, si avvierà la consegna della Raccomandata Semplice Internazionale con esito OK.</p></td></tr><tr><td>FAIL_RIS</td><td><p>valorizzare </p><p><code>recipients.digitalDomicile.address="prova@fail.it"</code></p><p><code>recipients.physicalAddress.address="VIA @FAIL_RIS"</code></p><p><code>recipients.physicalAddress.foreignState="FRANCIA"</code></p><p></p><p>Dopo il fallimento dei tentativi di consegna digitale, si avvierà la consegna della Raccomandata Semplice Internazionale con esito KO.</p></td></tr></tbody></table>
 
-###
+### **Accesso tramite messaggio di cortesia entro 120h dalla preparazione del worklow analogico**
+
+Per testare questo caso bisognerà omettere il campo `recipients.digitalDomicile` e inviare la notifica al destinatario **Michelangelo Buonarroti** (cf: BNRMHL75C06G702B)**,** che ha associata una mail per il messaggio di cortesia. Una volta che la notifica verrà inviata e sarà passata in accepted bisognerà accedere al portale [selfcare lato cittadino](simulare-i-casi-di-test-in-ambiente-uat.md#come-visualizzare-la-notifica-accedendo-come-destinatario-della-notifica-su-piattaforma) entro 5 minuti e tramite lo iun accedere alla notifica.
+
+Questo farà scattare nella notifica che stava preparando il workflow analogico l'accesso alla notifica  (NOTIFICATION\_VIEWED) dopo che in timeline sarà apparso l'evento SEND\_COURTESY\_MESSAGE.
 
 ### Come simulare gli eventi di Workflow Analogico
 
@@ -92,4 +96,12 @@ Una volta effettuato l'accesso, sarà possibile ricercare la notifica inserita t
 <figure><img src=".gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
 
 Entrando nel dettaglio della notifica ed attendendo alcuni secondi, sarà possibile effettuare la visualizzazione della notifica con generazione del relativo evento.
+
+
+
+### Relazione tempo UAT - PRODUZIONE
+
+Le simulazioni nell'ambiente test **UAT** hanno una relazione di tempo diversa rispetto a quelle di **PRODUZIONE** permettendo di simulare gli eventi senza dover aspettare il normale scorrimento temporale.
+
+Ogni giorno in ambiente di PRODUZIONE vale 1 minuto in ambiente di UAT
 
