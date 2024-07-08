@@ -7,7 +7,7 @@ description: >-
 
 # 1️⃣ Attivazione servizio e dichiarazione di occupazione
 
-<figure><img src=".gitbook/assets/image.png" alt="Sezione 1 di 8: attivazione servizio e dichiarazione di occupazione"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/tari-step1.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Il processo descritto non copre i casi relativi ad immobili non ad uso domestico che producono rifiuti, che saranno integrate in futuro.

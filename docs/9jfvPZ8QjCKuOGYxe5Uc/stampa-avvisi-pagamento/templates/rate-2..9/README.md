@@ -55,7 +55,7 @@ Le sezioni di cui si compone il template con rate multiple sono le seguenti:
 
 Questa sezione contiene l’oggetto dell’avviso, ossia un testo chiaro e significativo per chi riceve l’avviso:
 
-* **Avviso.Oggetto** **->** stringa di max 90 caratteri, corrispondente al campo `subject` della `POST/notices/generate)`;
+* **Avviso.Oggetto** **->** stringa di max 90 caratteri, corrispondente al campo `subject` della `POST/notices/generate)`.
 
 **Informazioni sull’Ente Creditore**:
 
