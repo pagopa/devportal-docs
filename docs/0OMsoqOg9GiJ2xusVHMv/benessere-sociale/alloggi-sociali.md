@@ -450,7 +450,7 @@ In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio p
 </details>
 
 {% hint style="info" %}
-**Promemoria automatici — **<mark style="color:blue;">**Messaggi Premium**</mark>
+**Promemoria automatici — Messaggi Premium**
 
 Impostando il messaggio di _Avviso di pagamento_ come Messaggio Premium, disponibile a seconda della tipologia di contratto sottoscritto dall’ente, non è necessario inviare il seguente messaggio di promemoria.
 
