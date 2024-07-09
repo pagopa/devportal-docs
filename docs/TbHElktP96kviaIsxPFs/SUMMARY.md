@@ -46,4 +46,5 @@
         * [Eliminazione pacchetto da parte del PSP](manuale-operativo-back-office-pagopa-ente-creditore/funzionalita/gestione-evoluta-commissioni/pacchetti-su-invito/eliminazione-pacchetto-da-parte-del-psp.md)
     * [Matrice Ruoli / Funzionalità](manuale-operativo-back-office-pagopa-ente-creditore/funzionalita/matrice-ruoli-funzionalita.md)
     * [Recupero ricevute pagamenti CUP](manuale-operativo-back-office-pagopa-ente-creditore/funzionalita/recupero-ricevute-pagamenti-cup.md)
+    * [Avvisi di pagamento](manuale-operativo-back-office-pagopa-ente-creditore/funzionalita/avvisi-di-pagamento.md)
   * [Delega verso un Partner Tecnologico](manuale-operativo-back-office-pagopa-ente-creditore/delega-verso-un-partner-tecnologico.md)

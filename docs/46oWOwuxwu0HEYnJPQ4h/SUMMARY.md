@@ -42,4 +42,5 @@
           * [Gestione enti](manuale-operativo-pagamenti-pagopa-prestatore-di-servizi-di-pagamento/funzionalita/gestione-evoluta-commissioni/pacchetti-su-invito/gestione-pacchetti-su-invito/gestione-enti.md)
           * [Modifica](manuale-operativo-pagamenti-pagopa-prestatore-di-servizi-di-pagamento/funzionalita/gestione-evoluta-commissioni/pacchetti-su-invito/gestione-pacchetti-su-invito/modifica.md)
           * [Elimina](manuale-operativo-pagamenti-pagopa-prestatore-di-servizi-di-pagamento/funzionalita/gestione-evoluta-commissioni/pacchetti-su-invito/gestione-pacchetti-su-invito/elimina.md)
+          * [Pacchetto in scadenza](manuale-operativo-pagamenti-pagopa-prestatore-di-servizi-di-pagamento/funzionalita/gestione-evoluta-commissioni/pacchetti-su-invito/gestione-pacchetti-su-invito/pacchetto-in-scadenza.md)
     * [Matrice Ruoli / Funzionalità](manuale-operativo-pagamenti-pagopa-prestatore-di-servizi-di-pagamento/funzionalita/matrice-ruoli-funzionalita.md)
