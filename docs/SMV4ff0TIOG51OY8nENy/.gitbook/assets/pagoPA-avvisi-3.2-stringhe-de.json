@@ -1,0 +1,89 @@
+{
+  "avviso": {
+    "datiPagamento": {
+      "avviso": {
+        "breve": "Zahlungsmitteilungskodex"
+      },
+      "cbill": {
+        "breve": "CBILL-Kodex"
+      },
+      "codiceFiscaleEnte": {
+        "breve": "St.Nr. der Körperschaft"
+      },
+      "destinatario": "Empfänger",
+      "enteCreditore": "Körperschaft",
+      "istruzioni": {
+        "qrCode": {
+          "rataUnica": "Den QR-Code mit der Zahlungs-App scannen oder folgende Daten verwenden.",
+          "rate": "Den QR-Code mit der Zahlungs-App scannen oder oben Daten verwenden."
+        }
+      },
+      "oggettoDelPagamento": "Zahlungsgrund",
+      "rataUnica": "Einzige Rate",
+      "scadenza": "Fällig am",
+      "titolo": "Zahlungsinformationen",
+      "numRata": "Rate {{Numero}}"
+    },
+    "dovePagare": {
+      "cta": "Liste der Zahlungsdienstleister: pagopa.gov.it",
+      "gps": {
+        "online": {
+          "descrizione": {
+            "noEnte": "mit der App IO, mittels Home Banking, einer Zahlungsapp oder anderer zugelassener Zahlungsdienstleister.",
+            "sitoEnte": "mit der App IO, auf {{EnteNome}}, mittels Home Banking, einer Zahlungsapp oder anderer zugelassener Zahlungsdienstleister."
+          },
+          "titolo": "Online"
+        }
+      },
+      "italia": {
+        "territorio": {
+          "descrizione": "bei Banken und ATM-Schaltern, in Postämtern und Poststellen, Tabaktrafiken und anderen angebundenen Dienstleistern.",
+          "titolo": "In ihrer umgebung"
+        }
+      },
+      "titolo": "Wo bezahlen?"
+    },
+    "importoScadenza": {
+      "disclaimer": {
+        "giacenza": {
+          "descrizione": "Die Zustellung entspricht dem Tag der Abholung, wenn diese innerhalb von 10 Tagen nach dem Lagerdatum erfolgt. Wird der Bericht nicht innerhalb von 10 Tagen abgeholt, sind die Fristen ab dem elften Tag zu berechnen.",
+          "titolo": "Was passiert bei Lagerung?"
+        },
+        "legal": "Der angeführte Betrag könnte sich auf Grund von allfälligen auch teilweisen Annullierungen oder Gutschriften,Verzugsgebühren, Strafen, Zinsen oder anderen Kosten ändern.",
+        "rate": {
+          "molteRate": "Die Beträge und Fälligkeiten sind in den Details der einzelnen Rate angegeben.",
+          "rate": "Es ist möglich, den Betrag vollständig oder in {{Numero}} Raten zu zahlen",
+          "soloRate": "Es ist möglich, den Betrag in {{Numero}} Raten zu zahlen"
+        },
+        "scadenze": {
+          "descrizione": "Der Tag der Zustellung wird nicht mitgerechnet. Fällt die Frist auf einen Sonntag (oder Feiertag), kann am ersten folgenden Werktag bezahlt werden.",
+          "titolo": "Wie werden die Fristen berechnet?"
+        },
+        "scelta": "Den zur eigenen Frist passenden Bereich auswählen."
+      },
+      "euro": "Euro",
+      "importo": {
+        "importo": "Betrag",
+        "ridotto": "Reduzierte Zahlung",
+        "scontato": "um 30% reduzierter Betrag"
+      },
+      "scadenza": {
+        "cinqueGiorni": "innerhalb 5 Tagen ab Zustellungsdatum",
+        "scadenza": "Fälligkeitsdatum",
+        "sessantaGiorni": "vom 6ten bis 60ten Tag ab Zustellungsdatum"
+      },
+      "titolo": "Wieviel und wann bezahlen?"
+    },
+    "infoDestinatario": {
+      "titolo": "Empfänger"
+    },
+    "infoEnteCreditore": {
+      "titolo": "Körperschaft"
+    },
+    "intestazione": {
+      "titolo": "Zahlungsmitteilung"
+    }
+  },
+  "__variant-name": "Tedesco",
+  "__variant-description": ""
+}

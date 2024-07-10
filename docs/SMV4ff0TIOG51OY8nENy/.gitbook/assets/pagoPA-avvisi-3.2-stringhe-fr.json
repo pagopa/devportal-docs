@@ -1,0 +1,112 @@
+{
+  "avviso": {
+    "datiPagamento": {
+      "avviso": {
+        "breve": "Code Avis",
+        "esteso": "Code de l’avis"
+      },
+      "cbill": {
+        "breve": "Code CBILL",
+        "esteso": "Code CBILL"
+      },
+      "codiceFiscaleEnte": {
+        "breve": "Code Organisme fiscal",
+        "esteso": "Code fiscal de l’organisme"
+      },
+      "destinatario": "Destinataire",
+      "enteCreditore": "Organisme créancier",
+      "istruzioni": {
+        "qrCode": {
+          "rataUnica": "Encadrez le code QR avec votre application de paiement ou utilisez les données ci-contre.",
+          "rate": "Encadrez le code QR avec votre application de paiement ou utilisez les données ci-dessus."
+        }
+      },
+      "oggettoDelPagamento": "Objet du paiement",
+      "rataUnica": "Versement unique",
+      "scadenza": "avant le",
+      "titolo": "Données pour le paiement",
+      "numRata": "Versement {{Numero}}"
+    },
+    "dovePagare": {
+      "cta": "accédez au site pagopa.gov.it",
+      "estero": {
+        "online": {
+          "descrizione": {
+            "noEnte": "Accédez au site pagopa.gov.it et choisissez le canal que vous préférez.",
+            "sitoEnte": "Accédez au site pagopa.gov.it et choisissez le canal que vous préférez ou visitez le site de {{EnteNome}}."
+          },
+          "titolo": "Payez en ligne"
+        },
+        "territorio": {
+          "descrizione": "dans les banques, les guichets automatiques, les bureaux de poste, les points postaux, les bars, les kiosques à journaux, les détaillants, les supermarchés, les bureaux de tabac et les autres opérateurs agréés en Italie.",
+          "titolo": "Payez sur le territoire"
+        }
+      },
+      "gps": {
+        "online": {
+          "descrizione": {
+            "noEnte": "avec l’application IO, depuis votre «Banque à domicile», avec votre application de paiement ou avec les autres canaux activés.",
+            "sitoEnte": "avec l’application IO, sur le site de {{EnteNome}}, depuis votre « Banque à domicile », avec votre application de paiement ou avec les autres canaux activés."
+          },
+          "titolo": "Payez en ligne"
+        }
+      },
+      "italia": {
+        "territorio": {
+          "descrizione": "dans les banques, les guichets automatiques, les bureaux de poste, les points postaux, les bars, les kiosques à journaux, les détaillants, les supermarchés, les bureaux de tabac et les autres opérateurs agréés.",
+          "titolo": "Payez sur le territoire"
+        },
+        "online": {
+          "descrizione": {
+            "noEnte": "ou depuis votre « Banque à domicile », avec votre application de paiement ou avec les autres canaux activés.",
+            "sitoEnte": "sur le site de {{EnteNome}}, depuis votre «Banque à domicile», avec votre application de paiement ou avec les autres canaux activés."
+          },
+          "titolo": "Paiement avec l’application IO"
+        }
+      },
+      "titolo": "Où payer?"
+    },
+    "importoScadenza": {
+      "disclaimer": {
+        "giacenza": {
+          "descrizione": "La notification correspond au jour du retrait, si celui-ci a lieu dans les 10 jours à compter de la date de dépôt (la date la plus ancienne figurant sur l’avis de passage). Si vous ne retirez pas le procès-verbal dans les 10 jours, calculez les échéances en commençant à compter à partir du onzième jour.",
+          "titolo": "Que se passe-t-il en cas de conservation au bureau de poste ?"
+        },
+        "legal": "En phase de paiement, si l’organisme le prévoit, le montant pourrait être mis à jour automatiquement et subir des variations en diminution (pour les réductions, les notes de crédit) ou en augmentation (pour les sanctions, les intérêts, etc.).",
+        "rate": {
+          "molteRate": "Les montants et les échéances sont indiqués en détail pour chaque versement.",
+          "rate": "Vous pouvez payer le montant total ou en {{Numero}} échéances",
+          "soloRate": "Vous pouvez payer en {{Numero}} échéances"
+        },
+        "scadenze": {
+          "descrizione": "Le jour de la notification n’est pas compté. Si l’échéance tombe un dimanche (ou à un jour férié), vous pouvez également payer le premier jour ouvrable suivant.",
+          "titolo": "Comment sont calculées les échéances?"
+        },
+        "scelta": "Choisissez le montant correct pour les délais prévus, sinon vous recevrez d’autres demandes de paiement pour les sommes restantes et les frais supplémentaires éventuels."
+      },
+      "euro": "Euros",
+      "importo": {
+        "importo": "Montant",
+        "ridotto": "Montant réduit",
+        "scontato": "Montant réduit de 30%"
+      },
+      "scadenza": {
+        "cinqueGiorni": "dans les 5 jours suivant la notification du procès-verbal",
+        "scadenza": "avant le",
+        "sessantaGiorni": "entre le 6e et le 60e jour à compter de la notification du procès-verbal"
+      },
+      "titolo": "Combien et quand payer?"
+    },
+    "infoDestinatario": {
+      "titolo": "Destinataire"
+    },
+    "infoEnteCreditore": {
+      "titolo": "Organisme créancier"
+    },
+    "intestazione": {
+      "titolo": "Avis de paiement"
+    }
+  },
+  "__variant-name": "Francese",
+  "__variant-description": ""
+}
