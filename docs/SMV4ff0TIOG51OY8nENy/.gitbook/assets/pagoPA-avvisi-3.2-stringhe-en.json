@@ -1,0 +1,112 @@
+{
+  "avviso": {
+    "datiPagamento": {
+      "avviso": {
+        "breve": "Notice code",
+        "esteso": "Notice code"
+      },
+      "cbill": {
+        "breve": "CBILL code",
+        "esteso": "CBILL code"
+      },
+      "codiceFiscaleEnte": {
+        "breve": "Payee tax code",
+        "esteso": "Payee tax code"
+      },
+      "destinatario": "Recipient",
+      "enteCreditore": "Payee",
+      "istruzioni": {
+        "qrCode": {
+          "rataUnica": "Scan the QR Code with your payment app or use the data printed here.",
+          "rate": "Scan the QR Code with your payment app or use the data printed above."
+        }
+      },
+      "oggettoDelPagamento": "Payment description",
+      "rataUnica": "Full amount",
+      "scadenza": "by",
+      "titolo": "Payment details",
+      "numRata": "Instalment #[n]"
+    },
+    "dovePagare": {
+      "cta": "Go to pagopa.gov.it",
+      "estero": {
+        "online": {
+          "descrizione": {
+            "noEnte": "Go to pagopa.gov.it and choose your preferred channel.",
+            "sitoEnte": "Go to pagopa.gov.it and choose your preferred channel, or visit [Ente.Nome] website."
+          },
+          "titolo": "Pay online"
+        },
+        "territorio": {
+          "descrizione": "at banks and ATMs, in post offices, cafés, news stands, betting and tobacco Shops, supermarkets and other affiliated merchants in Italy.",
+          "titolo": "Pay locally"
+        }
+      },
+      "gps": {
+        "online": {
+          "descrizione": {
+            "noEnte": "with the IO app, from your Home Banking, with your payment app or with other enabled channels.",
+            "sitoEnte": "with the IO app, on the {{EnteNome}} website, from your Home Banking, with your payment app or with other enabled channels."
+          },
+          "titolo": "Pay online"
+        }
+      },
+      "italia": {
+        "territorio": {
+          "descrizione": "at banks and ATMs, in post offices, cafés, news stands, betting and tobacco Shops, supermarkets and other affiliated merchants.",
+          "titolo": "Pay locally"
+        },
+        "online": {
+          "descrizione": {
+            "noEnte": "or with your Home Banking, payment app or the other affiliated channels.",
+            "sitoEnte": "or with [Ente.Nome] website, your Home Banking, payment app or the other affiliated channels."
+          },
+          "titolo": "Pay with the IO app"
+        }
+      },
+      "titolo": "Where to pay?"
+    },
+    "importoScadenza": {
+      "disclaimer": {
+        "giacenza": {
+          "descrizione": "The notification is the day of the collection, if this occurs within 10 days from the date printed on the non-delivery notice. If you don’t collect the notice within 10 days, count the deadlines starting from the 11th day.",
+          "titolo": "What happens in case of a failed delivery attempt?"
+        },
+        "legal": "During the payment, if allowed by the payee, the amount may be updated automatically and be subject to decereases (in case of discounts or credit notes) or increases (in case of penalties, interest, etc.).",
+        "rate": {
+          "molteRate": "Amounts and due dates are shown in each instalment detail.",
+          "rate": "You can pay in full or in [avviso.rate.totali] instalments.",
+          "soloRate": "You can pay in [avviso.rate.totali] instalments."
+        },
+        "scadenze": {
+          "descrizione": "The day of notification is not counted. If the due date is a Sunday (or a public holiday), you can also pay on the next working day.",
+          "titolo": "How are deadlines calculated?"
+        },
+        "scelta": "Choose the correct amount depending on deadlines, otherwise you will receive other payment requests for the remaining and/or additional amounts."
+      },
+      "euro": "Euro",
+      "importo": {
+        "importo": "Amount",
+        "ridotto": "Reduced amount",
+        "scontato": "30% off"
+      },
+      "scadenza": {
+        "cinqueGiorni": "Within 5 days from the notification",
+        "scadenza": "by",
+        "sessantaGiorni": "From the 6th to the 60th day from the notification"
+      },
+      "titolo": "How much and when to pay?"
+    },
+    "infoDestinatario": {
+      "titolo": "Recipient"
+    },
+    "infoEnteCreditore": {
+      "titolo": "Payee"
+    },
+    "intestazione": {
+      "titolo": "Payment notice"
+    }
+  },
+  "__variant-name": "Inglese",
+  "__variant-description": ""
+}

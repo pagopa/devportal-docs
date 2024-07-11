@@ -1,0 +1,112 @@
+{
+  "avviso": {
+    "datiPagamento": {
+      "avviso": {
+        "breve": "Št. obvestila",
+        "esteso": "Št. obvestila"
+      },
+      "cbill": {
+        "breve": "Št. CBILL",
+        "esteso": "Koda CBILL"
+      },
+      "codiceFiscaleEnte": {
+        "breve": "Davčna številka plačnika",
+        "esteso": "Davčna številka plačnika"
+      },
+      "destinatario": "Prejemnik",
+      "enteCreditore": "Plačnik",
+      "istruzioni": {
+        "qrCode": {
+          "rataUnica": "Skenirajte QR-kodo z aplikacijo za plačila ali uporabite podatke, navedene ob kodi.",
+          "rate": "Skenirajte QR-kodo z aplikacijo za plačila ali uporabite podatke, navedene nad njo."
+        }
+      },
+      "oggettoDelPagamento": "Predmet plačila",
+      "rataUnica": "Enkratni obrok",
+      "scadenza": "do",
+      "titolo": "Podatki za plačilo",
+      "numRata": "Obrok št. {{Numero}}"
+    },
+    "dovePagare": {
+      "cta": "pojdite na pagopa.gov.it",
+      "estero": {
+        "online": {
+          "descrizione": {
+            "noEnte": "Pojdite na pagopa.gov.it in izberite želeni kanal.",
+            "sitoEnte": "Pojdite na pagopa.gov.it in izberite želeni kanal ali obiščite spletno mesto {{EnteNome}}."
+          },
+          "titolo": "Plačajte prek spleta"
+        },
+        "territorio": {
+          "descrizione": "na bankah in okencih bankomatov, poštnih uradih in poštnih točkah, v barih, kioskih, sprejemnih pisarnah, supermarketih, trafikah in pri drugih pooblaščenih operaterjih v Italiji.",
+          "titolo": "Plačajte lokalno"
+        }
+      },
+      "gps": {
+        "online": {
+          "descrizione": {
+            "noEnte": "z aplikacijo IO, prek svoje spletne banke, z aplikacijo za plačevanje ali prek drugih razpoložljivih kanalov.",
+            "sitoEnte": "z aplikacijo IO, na spletnem mestu {{EnteNome}}, prek svoje spletne banke, z aplikacijo za plačevanje ali prek drugih razpoložljivih kanalov."
+          },
+          "titolo": "Plačajte prek spleta"
+        }
+      },
+      "italia": {
+        "territorio": {
+          "descrizione": "na bankah in okencih bankomatov, poštnih uradih in poštnih točkah, v barih, kioskih, sprejemnih pisarnah, supermarketih, trafikah in pri drugih pooblaščenih operaterjih.",
+          "titolo": "Plačajte lokalno"
+        },
+        "online": {
+          "descrizione": {
+            "noEnte": "ali prek svoje spletne banke, z aplikacijo za plačevanje ali prek drugih razpoložljivih kanalov.",
+            "sitoEnte": "ali na spletnem mestu {{EnteNome}}, prek svoje spletne banke, z aplikacijo za plačevanje ali prek drugih razpoložljivih kanalov."
+          },
+          "titolo": "Plačajte z aplikacijo IO"
+        }
+      },
+      "titolo": "Kje plačati?"
+    },
+    "importoScadenza": {
+      "disclaimer": {
+        "giacenza": {
+          "descrizione": "Obvestilo ustreza dnevu prevzema, če se to zgodi v 10 dneh od datuma prispetja (najstarejši datum na obvestilu o prispelem pismu). Če zapisnika ne prevzamete v 10 dneh, izračunajte roke zapadlosti, ki začnejo teči z enajstim dnem.",
+          "titolo": "Kaj se zgodi, če pismo ni izročeno?"
+        },
+        "legal": "Če upravičenec to predvidi, se lahko med fazo plačila znesek samodejno posodobi in tudi zmanjša (zaradi popustov, dobropisov) ali poveča (zaradi kazni, obresti itd.).",
+        "rate": {
+          "molteRate": "Zneski in roki zapadlosti so podrobno prikazani za vsak posamezen obrok.",
+          "rate": "Plačate lahko v celoti ali v {{Numero}} obrokih",
+          "soloRate": "Plačate lahko v {{Numero}} obrokih"
+        },
+        "scadenze": {
+          "descrizione": "Dan izdaje obvestila se ne všteva. Če je rok zapadlosti nedelja (ali praznik), lahko plačilo izvedete tudi naslednji prvi delovni dan.",
+          "titolo": "Kako se izračunajo roki zapadlosti?"
+        },
+        "scelta": "Izberite pravilen znesek za predvidene roke, sicer boste prejeli druge zahteve za plačilo za preostale zneske in morebitne dodatne zneske."
+      },
+      "euro": "EUR",
+      "importo": {
+        "importo": "Znesek",
+        "ridotto": "Zmanjšan znesek",
+        "scontato": "Znesek s 30-% popustom"
+      },
+      "scadenza": {
+        "cinqueGiorni": "v 5 dneh od vročitve zapisnika",
+        "scadenza": "do",
+        "sessantaGiorni": "od 6. do 60. dne od vročitve zapisnika"
+      },
+      "titolo": "Koliko in kdaj plačati?"
+    },
+    "infoDestinatario": {
+      "titolo": "Prejemnik"
+    },
+    "infoEnteCreditore": {
+      "titolo": "Plačnik"
+    },
+    "intestazione": {
+      "titolo": "Obvestilo o plačilu"
+    }
+  },
+  "__variant-name": "Sloveno",
+  "__variant-description": ""
+}
