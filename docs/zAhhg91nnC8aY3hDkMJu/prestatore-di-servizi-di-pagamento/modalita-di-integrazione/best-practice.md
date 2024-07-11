@@ -1,6 +1,6 @@
 # Best practice
 
-## Payment Token <a href="#title-text" id="title-text"></a>
+## Payment Token <a href="#payment-token" id="payment-token"></a>
 
 L'utilizzo del _payment token_ si prefigge i seguenti due obiettivi:
 
@@ -17,9 +17,11 @@ Il _payment token_ è fornito in _response_ dalla piattaforma pagoPA ad una [act
 
 Per una corretta gestione di ogni sessione di pagamento ad ogni [activatePaymentNotice](../../appendici/primitive.md#activatepaymentnotice) deve sempre seguire una [sendPaymentOutcome](../../appendici/primitive.md#sendpaymentoutcome) sia nel caso di OK che KO, in modalità real time rispetto alle azioni dell'utente presso il touch point del PSP, questo è fondamentale per gestire una buona qualità del servizio lungo tutta la filiera.
 
-Successivamente alla ricezione di una risposta da parte del Nodo la [sendPaymentOutcome](../../appendici/primitive.md#sendpaymentoutcome) non deve essere invocata nuovamente, per sopperire ai casi in cui non si riceva una response è necessario usare la [#title-text-2](best-practice.md#title-text-2 "mention").
+Successivamente alla ricezione di una risposta da parte del Nodo la [sendPaymentOutcome](../../appendici/primitive.md#sendpaymentoutcome) non deve essere invocata nuovamente, per sopperire ai casi in cui non si riceva una response è necessario usare la [#chiave-di-idempotenza](best-practice.md#chiave-di-idempotenza "mention")
 
-## sendPaymentOutcome oltre la scadenza del Payment Token <a href="#title-text" id="title-text"></a>
+
+
+## sendPaymentOutcome oltre la scadenza del Payment Token <a href="#sendpaymentoutcome-oltre-la-scadenza-del-payment-token" id="sendpaymentoutcome-oltre-la-scadenza-del-payment-token"></a>
 
 Solo a fronte di eccezioni tecniche la [sendPaymentOutcome](../../appendici/primitive.md#sendpaymentoutcome) non viene ricevuta dalla piattaforma simultaneamente al pagamento e quindi nel caso di invio oltre la scadenza del _payment token_ è possibile ricadere nei casi identificati dalle seguenti risposte fornite dalla piattaforma pagoPA
 
@@ -36,7 +38,7 @@ Per quanto riguarda il caso **PPT\_PAGAMENTO\_DUPLICATO** l’azione corretta da
 
 Nel caso di **PPT\_TOKEN\_SCADUTO** e **PPT\_TOKEN\_SCADUTO\_KO** l'azione correttiva da intraprendere da parte del PSP è quella di gestire il flusso in maniera temporalmente compatibile con la durata del _payment token_.
 
-## Chiave di idempotenza <a href="#title-text" id="title-text"></a>
+## Chiave di idempotenza <a href="#chiave-di-idempotenza" id="chiave-di-idempotenza"></a>
 
 La _chiave di idempotenza_ può essere generata dal PSP per le chiamate:
 
