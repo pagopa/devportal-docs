@@ -12,7 +12,7 @@ Accedendo alla funzionalità `"Pacchetti commissioni"` dal menu laterale di sini
 
 Una volta cliccato il tasto "`Crea pacchetto"` il sistema mostrerà la seguente interfaccia per poter inserire tutte le informazioni necessarie alla creazione del pacchetto
 
-<figure><img src="../../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/screencapture-selfcare-dev-platform-pagopa-it-ui-comm-bundles-add-bundle-2024-07-11-11_28_46.png" alt=""><figcaption></figcaption></figure>
 
 Le informazioni da inserire sono le seguenti:
 
@@ -41,9 +41,15 @@ Le informazioni da inserire sono le seguenti:
   * Massimo
 * Commissioni
   * Importo applicato dal PSP
-* Dati di connessione
-  * Codice Broker -> codice fiscale del PSP&#x20;
-  * Codice Canale -> codice del canale del PSP su cui far valere il pacchetto
+*   Dati di connessione
+
+    * Codice Broker -> codice fiscale del PSP&#x20;
+    * Codice Canale -> codice del canale del PSP su cui far valere il pacchetto
+    * Gestione carrello di pagamenti -> Flag "Si" o "No" a seconda che il pacchetto possa essere utilizzato anche nel caso di carrello con più pagamenti.
+
+    {% hint style="danger" %}
+    La gestione del carrello può essere fatta esclusivamente per pacchetti su canali che sono configurati con primitive in versione 2.
+    {% endhint %}
 * Marca da bollo digitale (le due opzioni sono esclusive)
   * Pagamento con marca da bollo
   * Pagamento solo con marca da bollo
