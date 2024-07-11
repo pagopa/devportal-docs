@@ -19,7 +19,7 @@ Patch version rilasciata per risolvere alcuni elementi di ambiguità indicati di
 * Rimozione **Adesione ai servizi con subscription key**
 * Correzione [#nuove-api-gestione-flussi-di-rendicontazione](../appendici/primitive.md#nuove-api-gestione-flussi-di-rendicontazione "mention")
 * Correzione [#pacreateposition](../appendici/primitive.md#pacreateposition "mention")
-* Correzione [Broken link](broken-reference "mention")in [Broken link](broken-reference "mention")
+* Correzione [specifiche-tracciato-di-input.md](../appendici/posizioni-debitorie/gestione-massiva/specifiche-tracciato-di-input.md "mention") in [gestione-massiva](../appendici/posizioni-debitorie/gestione-massiva/ "mention")
 * Correzione [#creazione-di-una-posizione-debitoria](../appendici/posizioni-debitorie/operazioni-disponibili.md#creazione-di-una-posizione-debitoria "mention")
 * Correzione [#lettura-di-una-lista-di-posizioni-debitorie-e-di-una-singola-posizione-debitoria](../appendici/posizioni-debitorie/operazioni-disponibili.md#lettura-di-una-lista-di-posizioni-debitorie-e-di-una-singola-posizione-debitoria "mention")
 * Correzione [#aggiornamento-di-una-posizione-debitoria](../appendici/posizioni-debitorie/operazioni-disponibili.md#aggiornamento-di-una-posizione-debitoria "mention")
