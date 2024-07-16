@@ -1,8 +1,8 @@
 ---
 description: >-
   I sistemi in capo all'ente identificano le persone interessate dalle
-  comunicazione ai fini TARI e invitano le persone a compilare la dichiarazione
-  di occupazione.
+  comunicazione ai fini TARI e le invitano a compilare la dichiarazione di
+  occupazione.
 ---
 
 # 1️⃣ Attivazione servizio e dichiarazione di occupazione
@@ -19,20 +19,20 @@ I sistemi in capo all’ente identificano i nuovi residenti, i possessori di un 
 
 ### Da ricordare 💡&#x20;
 
-* I sistemi in capo all’ente devono reperire i dati dei cittadini interessati dalla TARI con una certa frequenza. Questo gli permetterà di comunicare e ricordare in tempo ai destinatari l’esigenza di compilare la dichiarazione di occupazione.
+* È importante che l'ente preveda, tramite i propri sistemi, un aggiornamento frequente dei dati dei cittadini interessati dalla TARI. Questo consentirà di comunicare ai cittadini in maniera efficace e tempestiva l’esigenza di compilare la dichiarazione di occupazione.
 
 ***
 
 ## 2. L'ente invita le persone identificate a compilare la dichiarazione di occupazione
 
-I sistemi in capo all’ente comunicano tramite IO ai cittadini identificati un messaggio che li invita a:
+L'ente, tramite i propri sistemi, invia su IO ai cittadini identificati un messaggio per invitarli a:
 
 * effettuare o aggiornare la dichiarazione di occupazione ai fini TARI;&#x20;
 * leggere il regolamento TARI del Comune.&#x20;
 
 ## 3. Il cittadino riceve l'invito a compilare la dichiarazione&#x20;
 
-Il cittadino riceve un messaggio su IO invita a compilare una dichiarazione ai fini TARI e leggere il regolamento comunale.
+Il cittadino riceve un messaggio su IO che lo invita a compilare una dichiarazione ai fini TARI e leggere il regolamento comunale.
 
 ## 4. Il cittadino compila la dichiarazione di occupazione&#x20;
 

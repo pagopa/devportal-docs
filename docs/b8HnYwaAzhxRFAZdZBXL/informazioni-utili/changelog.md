@@ -12,6 +12,13 @@ description: >-
 
 <summary>Luglio 2024</summary>
 
+### 1.0.100
+
+**12 luglio**
+
+* Bug fixing
+* Adeguamento infrastrutturale
+
 ### 1.0.99
 
 **2 luglio**

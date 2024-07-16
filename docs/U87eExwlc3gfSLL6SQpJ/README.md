@@ -18,7 +18,7 @@ Il processo illustrato nelle prossime sezioni è un esempio indicativo: gli enti
 
 ## L'analisi del servizio&#x20;
 
-1. I nuovi cittadini residenti nel Comune, i possessori di immobili e i nuovi affittuari con contratto superiori ai 6 mesi devono effettuare **la dichiarazione di occupazione** ai fini TARI. I sistemi in capo all'ente possono identificare queste persone e comunicargli questa necessità.&#x20;
+1. I nuovi cittadini residenti nel Comune, i possessori di immobili e i nuovi affittuari con contratti di durata superiori a 6 mesi devono effettuare **la dichiarazione di occupazione** ai fini TARI. I sistemi in capo all'ente possono identificare queste persone e comunicargli questa necessità.&#x20;
 2. I dati inseriti dal cittadino permetteranno ai sistemi in capo all'ente il calcolo degli importi dovuti e la creazione della posizione debitoria che ha **due beneficiari**: il Comune e la Provincia. Attraverso la valorizzazione dei relativi campi dell'avviso pagoPA entrambi i beneficiari potranno ricevere la quota destinata in automatico.&#x20;
 3. Le **rate** previste possono essere emesse dai sistemi in capo all'ente nel numero e con la cadenza desiderata. Nei seguenti capitoli è stata riportata una buona pratica che prevede **prima l'emissione della rata unica**, da cui si può dedurre o meno l'interesse del cittadino al pagamento rateale: chi non la paga riceverà in un secondo momento la **prima rata** e successivamente anche le **altre rate**, se previste.&#x20;
 4. Se il cittadino non paga le rate previste, riceverà un **avviso di accertamento** per il mancato pagamento tramite canali ufficiali come SEND, PEC o raccomandata abilitati a mandare comunicazioni a valore legale.&#x20;
