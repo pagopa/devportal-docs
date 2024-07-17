@@ -21,7 +21,7 @@ Le date di scadenza possono variare a seconda dell’ente.
 ### Da ricordare 💡&#x20;
 
 * I sistemi in capo all’ente devono inserire nelle posizioni debitorie le rispettive date di scadenza previste dal regolamento TARI. Considera eventuali giorni di festività, che estendono la data di scadenza;
-* All’interno del messaggio, i sistemi in capo all’ente devono fornire un codice avviso per permettere al cittadino di pagare direttamente in app;
+* All’interno del messaggio, i sistemi in capo all’ente devono fornire un codice avviso per permettere al cittadino di pagare direttamente in app o presso qualsiasi canale abilitato a pagoPA;
 * I sistemi in capo all’ente devono inserire nell’oggetto del pagamento un riferimento chiaro (es. “Tassa sui rifiuti (TARI) 2024 - Rata unica”).
 
 ### Documentazione tecnica
@@ -29,8 +29,6 @@ Le date di scadenza possono variare a seconda dell’ente.
 [In questa pagina](https://docs.pagopa.it/sanp/appendici/primitive#pagetpayment-1) trovi le specifiche su come compilare il metadato **`dueDate.`**
 
 [In questa pagina](https://docs.pagopa.it/io-guida-tecnica/api-e-specifiche/api-messaggi/submit-a-message-passing-the-user-fiscal\_code-in-the-request-body#payment\_data) trovi le specifiche su come valorizzare il campo **`payment_data`** per permettere al cittadino di pagare in app.&#x20;
-
-***
 
 ## 3. L'ente indica i beneficiari della posizione debitoria&#x20;
 
@@ -41,7 +39,7 @@ I sistemi in capo all’ente indicano per la stessa posizione debitoria chi sono
 
 ### Da ricordare 💡&#x20;
 
-* Per stabilire i beneficiari delle diverse quote, i sistemi in capo all’ente devono valorizzare i campi relativi all’avviso pagoPA tramite la primitiva **`paGetPayment versione 2`.**
+* Per stabilire i beneficiari delle diverse quote, [in questa pagina](https://developer.pagopa.it/pago-pa/guides) trovi le specifiche su come i sistemi in capo all’ente devono valorizzare i campi relativi all’avviso pagoPA tramite la primitiva **`paGetPayment versione 2`.**
 
 ### Documentazione tecnica
 
@@ -51,7 +49,9 @@ I sistemi in capo all’ente indicano per la stessa posizione debitoria chi sono
 
 I sistemi in capo all’ente comunicano l’avviso di pagamento per la rata unica all’utente tramite messaggio su IO.
 
-***
+### Da ricordare 💡&#x20;
+
+È importante usare una comunicazione semplice ed efficace, come ad esempio quella presente nel nostro modello[ Tassa sui rifiuti (TARI)](https://docs.pagopa.it/i-modelli-dei-servizi/casa-e-utenze/tassa-sui-rifiuti-tari).
 
 ### Scrivere i messaggi su IO
 

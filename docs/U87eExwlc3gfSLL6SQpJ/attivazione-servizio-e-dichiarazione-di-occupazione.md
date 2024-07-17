@@ -21,14 +21,12 @@ I sistemi in capo all’ente identificano i nuovi residenti, i possessori di un 
 
 * È importante che l'ente preveda, tramite i propri sistemi, un aggiornamento frequente dei dati dei cittadini interessati dalla TARI. Questo consentirà di comunicare ai cittadini in maniera efficace e tempestiva l’esigenza di compilare la dichiarazione di occupazione.
 
-***
-
 ## 2. L'ente invita le persone identificate a compilare la dichiarazione di occupazione
 
 L'ente, tramite i propri sistemi, invia su IO ai cittadini identificati un messaggio per invitarli a:
 
 * effettuare o aggiornare la dichiarazione di occupazione ai fini TARI;&#x20;
-* leggere il regolamento TARI del Comune.&#x20;
+* spiegare in breve chi deve pagare la TARI, quando è possibile farlo e attraverso quali canali.
 
 ## 3. Il cittadino riceve l'invito a compilare la dichiarazione&#x20;
 
@@ -40,17 +38,13 @@ Il cittadino compila la dichiarazione di occupazione nelle modalità previste da
 
 ### Da ricordare 💡&#x20;
 
-* I sistemi in capo all’ente possono fornire al cittadino un’esperienza digitale più semplice, veloce e immediata implementando processi di compilazione digitale.
-
-***
+* I sistemi in capo all’ente possono fornire al cittadino un’esperienza digitale più semplice per esempio precompilando i dati anagrafici.
 
 ## 5. L'ente comunica al cittadino che la dichiarazione di occupazione è stata registrata
 
 I sistemi in capo all’ente registrano i dati del cittadino sulla base della dichiarazione e gli comunicano tramite IO un messaggio che la dichiarazione è stata registata.
 
 Inoltre, il messaggio comunica al cittadino i prossimi passi previsti dal servizio TARI, calcolo importo ed esenzioni previste.
-
-***
 
 ### Scrivere i messaggi su IO
 

@@ -21,8 +21,6 @@ I sistemi in capo all’ente aggiornano lo stato della posizione debitoria su pa
 
 [In questa pagina](https://docs.pagopa.it/gestionedeglierrori/faultcode-e-faultstring/domino-ec) trovi le specifiche per gestire gli errori.&#x20;
 
-***
-
 ## **1.2 Il cittadino non paga verbale scontato entro i termini previsti ❌**
 
 I sistemi in capo all’ente aggiornano lo stato della posizione debitoria e la contrassegnano come “scaduta” su pagoPA e non più disponibile.

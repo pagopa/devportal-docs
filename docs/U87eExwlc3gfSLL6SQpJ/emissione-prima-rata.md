@@ -24,9 +24,7 @@ Le date di scadenza possono variare a seconda dell’ente.
 
 [In questa pagina](https://docs.pagopa.it/sanp/appendici/primitive#pagetpayment-1) trovi le specifiche su come compilare il metadato **`dueDate.`**
 
-[In questa pagina](https://docs.pagopa.it/io-guida-tecnica/api-e-specifiche/api-messaggi/submit-a-message-passing-the-user-fiscal\_code-in-the-request-body#payment\_data) trovi le specifiche su come valorizzare il campo **`payment_data`** per permettere al cittadino di pagare in app.&#x20;
-
-***
+[In questa pagina](https://docs.pagopa.it/io-guida-tecnica/api-e-specifiche/api-messaggi/submit-a-message-passing-the-user-fiscal\_code-in-the-request-body#payment\_data) trovi le specifiche su come valorizzare il campo **`payment_data`**  per permettere al cittadino di pagare in app.&#x20;
 
 ## 2. L'ente indica i beneficiari della posizione debitoria&#x20;
 
@@ -47,7 +45,9 @@ I sistemi in capo all’ente indicano per la stessa posizione debitoria chi sono
 
 I sistemi in capo all’ente comunicano l’avviso di pagamento per la prima rata all’utente tramite messaggio su IO.
 
-***
+### Da ricordare 💡&#x20;
+
+È importante usare una comunicazione semplice ed efficace, come ad esempio quella presente nel nostro modello[ Tassa sui rifiuti (TARI)](https://docs.pagopa.it/i-modelli-dei-servizi/casa-e-utenze/tassa-sui-rifiuti-tari).
 
 ### Scrivere i messaggi su IO
 

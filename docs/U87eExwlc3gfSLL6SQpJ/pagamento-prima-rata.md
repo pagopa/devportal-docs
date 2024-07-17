@@ -24,8 +24,6 @@ Aderendo all’**offerta Premium**, è possibile inviare in automatico una notif
 [**Scopri di più sull’offerta Premium →** ](https://docs.pagopa.it/manuale-servizi/che-cosa-puo-fare-un-servizio-su-io/inviare-messaggi#funzionalita-premium)
 {% endhint %}
 
-***
-
 ## **3.1 Il cittadino paga l'avviso entro i termini previsti ✅**
 
 Il cittadino paga l’avviso di pagamento per per la rata unica TARI entro i termini previsti.
@@ -43,8 +41,6 @@ Se sono previste altre rate, i sistemi in capo all’ente creano altre **posizio
 ### Documentazione tecnica&#x20;
 
 [In questa pagina](https://docs.pagopa.it/gestionedeglierrori/faultcode-e-faultstring/domino-ec) trovi le specifiche per gestire gli errori.&#x20;
-
-***
 
 ## **3.2 Il cittadino non paga l'avviso entro i termini previsti ❌**
 
