@@ -74,7 +74,7 @@ Apre la notifica entro 120 ore (5 giorni) dalla consegna, pertanto la notifica s
 
 [In questa pagina](https://docs.pagopa.it/sanp/appendici/primitive#pagetpayment-1) trovi le specifiche tecniche per compilare il campo **`dueDate`** della posizione debitoria con la data di perfezionamento della notifica.
 
-[In questa pagina](https://developer.pagopa.it/send/api#/send/api/operations/retrieveNotificationPriceV23) trovi le specifiche tecniche per conoscere la data di perfezionamento della notifica, utilizza l’API **`notificationPriceV23.`**&#x20;
+[In questa pagina](https://developer.pagopa.it/send/api#/send/api/operations/retrieveNotificationPriceV23) trovi le specifiche tecniche per conoscere la data di perfezionamento della notifica, utilizza l’API **`notificationPriceV23`.**&#x20;
 
 [In questa pagina](https://notifichedigitali.pagopa.it/perfezionamento) puoi approfondire come si perfeziona una notifica rispetto al canale usato dal cittadino.
 
