@@ -7,7 +7,7 @@ description: >-
 
 # 1️⃣ Attivazione servizio e dichiarazione di occupazione
 
-<figure><img src=".gitbook/assets/tari-step1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Stepper_01.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Il processo descritto non copre i casi relativi ad immobili non ad uso domestico che producono rifiuti, che saranno integrate in futuro.

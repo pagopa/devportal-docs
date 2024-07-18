@@ -6,7 +6,7 @@ description: >-
 
 # 2️⃣ Emissione rata unica
 
-<figure><img src=".gitbook/assets/tari-step2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Stepper_02.png" alt=""><figcaption></figcaption></figure>
 
 ## 1. L'ente calcola gli importi della TARI a carico del cittadino
 

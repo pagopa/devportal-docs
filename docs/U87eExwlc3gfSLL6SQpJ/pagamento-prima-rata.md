@@ -6,7 +6,7 @@ description: >-
 
 # 5️⃣ Pagamento prima rata
 
-<figure><img src=".gitbook/assets/tari-step5.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Stepper_05.png" alt=""><figcaption></figcaption></figure>
 
 ## 1. Il cittadino riceve l'avviso di pagamento
 

@@ -7,7 +7,7 @@ description: >-
 
 # 7️⃣ Consegna dell'avviso di accertamento
 
-<figure><img src=".gitbook/assets/tari-step7.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Stepper_07.png" alt=""><figcaption></figcaption></figure>
 
 ## 1. L'ente carica la notifica su SEND
 
