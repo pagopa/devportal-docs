@@ -9,9 +9,9 @@ description: >-
 
 <figure><img src=".gitbook/assets/tari-step8.png" alt=""><figcaption></figcaption></figure>
 
-## **1.1 Il cittadino paga il verbale scontato entro i termini previsti ✅**
+## **1.1 Il cittadino paga l'avviso di accertamento scontato entro i termini previsti ✅**
 
-I sistemi in capo all’ente aggiornano lo stato della posizione debitoria su pagoPA e la contrassegnano come “pagata”.
+L'ente, tramite i propri sistemi, aggiorna lo stato della posizione debitoria su pagoPA e la contrassegna come “pagata”.
 
 ### Da ricordare 💡&#x20;
 
@@ -21,11 +21,11 @@ I sistemi in capo all’ente aggiornano lo stato della posizione debitoria su pa
 
 [In questa pagina](https://docs.pagopa.it/gestionedeglierrori/faultcode-e-faultstring/domino-ec) trovi le specifiche per gestire gli errori.&#x20;
 
-## **1.2 Il cittadino non paga verbale scontato entro i termini previsti ❌**
+## **1.2 Il cittadino non paga l'avviso di accertamento scontato entro i termini previsti ❌**
 
-I sistemi in capo all’ente aggiornano lo stato della posizione debitoria e la contrassegnano come “scaduta” su pagoPA e non più disponibile.
+L'ente, tramite i propri sistemi, aggiorna lo stato della posizione debitoria e la contrassegna come “scaduta” su pagoPA e non più disponibile.
 
-I sistemi in capo all’ente possono prevedere una nuova notifica con le stesse modalità.
+L'ente, tramite i propri sistemi, può prevedere una nuova notifica con le stesse modalità.
 
 ### Da ricordare 💡&#x20;
 

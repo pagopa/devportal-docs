@@ -15,7 +15,7 @@ Il processo descritto non copre i casi relativi ad immobili non ad uso domestico
 
 ## 1. L'ente identifica le persone interessate alle comunicazioni ai fini TARI&#x20;
 
-I sistemi in capo all’ente identificano i nuovi residenti, i possessori di un immobile e i nuovi affittuari con contratto sopra i sei mesi.
+L'ente, tramite i propri sistemi, identifica i nuovi residenti, i possessori di un immobile e i nuovi affittuari con contratto sopra i sei mesi.
 
 ### Da ricordare 💡&#x20;
 
@@ -42,7 +42,7 @@ Il cittadino compila la dichiarazione di occupazione nelle modalità previste da
 
 ## 5. L'ente comunica al cittadino che la dichiarazione di occupazione è stata registrata
 
-I sistemi in capo all’ente registrano i dati del cittadino sulla base della dichiarazione e gli comunicano tramite IO un messaggio che la dichiarazione è stata registata.
+L'ente, tramite i propri sistemi, registra i dati del cittadino sulla base della dichiarazione e gli comunicano tramite IO un messaggio che la dichiarazione è stata registata.
 
 Inoltre, il messaggio comunica al cittadino i prossimi passi previsti dal servizio TARI, calcolo importo ed esenzioni previste.
 

@@ -16,7 +16,7 @@ Nel caso in cui avesse saldato già la rata unica, il cittadino può ignorare il
 
 ## 2. Il cittadino riceve un promemoria&#x20;
 
-Il cittadino riceve un messaggio su IO che lo informa dell’avviso di pagamento per la rata unica TARI in scadenza.
+Il cittadino riceve un messaggio su IO che lo informa dell’avviso di pagamento per la prima rata TARI in scadenza.
 
 {% hint style="info" %}
 Aderendo all’**offerta Premium**, è possibile inviare in automatico una notifica push per ricordare al cittadino di pagare un avviso in prossimità della scadenza, senza alcuna azione da parte dei sistemi dell’ente.
@@ -26,9 +26,7 @@ Aderendo all’**offerta Premium**, è possibile inviare in automatico una notif
 
 ## **3.1 Il cittadino paga l'avviso entro i termini previsti ✅**
 
-Il cittadino paga l’avviso di pagamento per per la rata unica TARI entro i termini previsti.
-
-I sistemi in capo all’ente aggiornano lo stato della posizione debitoria e la contrassegnano come “pagata”.
+Se il cittadino paga l’avviso di pagamento per per la prima rata TARI entro i termini previsti, l'ente, tramite i propri sistemi, aggiorna lo stato della posizione debitoria e la contrassegna come “pagata”.
 
 {% hint style="info" %}
 Se sono previste altre rate, i sistemi in capo all’ente creano altre **posizioni debitorie** relative alle successive rate come precedentemente spiegato.
@@ -44,9 +42,9 @@ Se sono previste altre rate, i sistemi in capo all’ente creano altre **posizio
 
 ## **3.2 Il cittadino non paga l'avviso entro i termini previsti ❌**
 
-Il cittadino non paga l’avviso di pagamento per per la rata unica TARI entro i termini previsti.
+Il cittadino non paga l’avviso di pagamento per per la prima rata TARI entro i termini previsti.
 
-I sistemi in capo all’ente aggiornano lo stato della posizione debitoria e la contrassegnano come “scaduta” e non più disponibile.
+L'ente, tramite i propri sistemi, aggiorna lo stato della posizione debitoria e la contrassegnano come “scaduta” e non più disponibile.
 
 ### Da ricordare 💡&#x20;
 

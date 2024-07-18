@@ -16,12 +16,12 @@ Nel caso volesse pagare a rate, il cittadino può ignorare questo avviso di paga
 
 ### Da ricordare 💡&#x20;
 
-* Il cittadino vedrà come data di scadenza, quella impostata nel campo dueDate della relativa posizione debitoria. Evita pertanto di inserire date fittizie (es. 31\12\2099).
-* Se i sistemi in capo all’ente vogliono inibire il pagamento dell’avviso dopo una determinata data è necessario usare correttamente i messaggi di errore da restituire in fase di verifica avviso: in questo modo l’utente capirà che l’avviso è scaduto.
+* Il cittadino vedrà come data di scadenza quella impostata nel campo dueDate della relativa posizione debitoria. Evita pertanto di inserire date fittizie (es. 31\12\2099).
+* Se 'ente, tramite i propri sistemi, vuole inibire il pagamento dell’avviso dopo una determinata data è necessario usare correttamente i messaggi di errore da restituire in fase di verifica avviso: in questo modo l’utente capirà che l’avviso è scaduto.
 
 ## 2. Il cittadino riceve un promemoria&#x20;
 
-Il cittadino riceve un messaggio su IO che lo informa dell’avviso di pagamento per la rata unica TARI in scadenza.
+Il cittadino riceve un messaggio su IO che lo informa che l'avviso di pagamento per la rata unica TARI è in scadenza.
 
 {% hint style="info" %}
 Aderendo all’**offerta Premium**, è possibile inviare in automatico una notifica push per ricordare al cittadino di pagare un avviso in prossimità della scadenza, senza alcuna azione da parte dei sistemi dell’ente.
@@ -31,9 +31,7 @@ Aderendo all’**offerta Premium**, è possibile inviare in automatico una notif
 
 ## **3.1 Il cittadino paga l'avviso entro i termini previsti ✅**
 
-Il cittadino paga l’avviso di pagamento per per la rata unica TARI entro i termini previsti.
-
-I sistemi in capo all’ente aggiornano lo stato della posizione debitoria e la contrassegnano come “pagata”.
+Se il cittadino paga l’avviso di pagamento per la rata unica TARI entro i termini previsti, l'ente, tramite i propri sistemi, aggiorna lo stato della posizione debitoria e la contrassegnano come “pagata”.
 
 ### Da ricordare 💡&#x20;
 

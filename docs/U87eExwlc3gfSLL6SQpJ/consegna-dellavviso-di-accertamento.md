@@ -11,7 +11,7 @@ description: >-
 
 ## 1. L'ente carica la notifica su SEND
 
-I sistemi in capo all’ente caricano sul back-office SEND la notifica per il cittadino che contiene l'accertamento e l'avviso di pagamento.&#x20;
+L'ente, tramite i propri sistemi, carica tramite i sistemi di back-office la notifica per il cittadino che contiene l'accertamento e l'avviso di pagamento.&#x20;
 
 ### Da ricordare 💡&#x20;
 
@@ -34,7 +34,7 @@ I sistemi in capo all’ente caricano sul back-office SEND la notifica per il ci
 
 ## 2. L'ente monitora la notifica
 
-I sistemi in capo all'ente possono monitorare l'accettazione o rifiuto da parte di SEND del deposito della notifica.
+L'ente, tramite i propri sistemi, può monitorare l'accettazione o rifiuto da parte di SEND del deposito della notifica.
 
 ### Da ricordare 💡&#x20;
 
@@ -50,13 +50,13 @@ SEND invia un messaggio di cortesia ai recapiti (e-mail, SMS o l’app IO) se gi
 
 Contestualmente, verifica se esiste una PEC (inserita dal cittadino o presente sui registri pubblici) e, se presente, invia lì l’avviso di avvenuta ricezione, perfezionando la notifica.
 
-I sistemi in capo all’ente possono monitorare in ogni momento lo stato di consegna della notifica tramite SEND.
+L'ente, tramite i propri sistemi, può monitorare in ogni momento lo stato di consegna della notifica tramite SEND.
 
 ## 4. SEND invia una comunicazione di cortesia su IO&#x20;
 
 Il cittadino riceve un messaggio di cortesia su IO, che lo informa dell’esistenza di una notifica: per leggerla deve attivare il servizio “SEND - Notifiche Digitali.”
 
-Quest'operazione va fatta soltanto una volta: attivando il servizio, d’ora in poi riceverà le notifiche a valore legale sull’app IO.
+Quest'operazione va fatta soltanto una volta: attivando il servizio, da quel momento riceverà le notifiche a valore legale sull’app IO.
 
 ## 5. Il cittadino apre la notifica su IO
 
