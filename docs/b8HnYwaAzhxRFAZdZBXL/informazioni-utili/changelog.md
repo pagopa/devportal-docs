@@ -12,6 +12,12 @@ description: >-
 
 <summary>Luglio 2024</summary>
 
+### 1.0.101
+
+**17 luglio**
+
+* Bug fixing
+
 ### 1.0.100
 
 **12 luglio**

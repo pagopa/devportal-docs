@@ -15,15 +15,15 @@ I sistemi in capo all’ente caricano sul back-office SEND la notifica per il ci
 
 ### Da ricordare 💡&#x20;
 
-* I costi di notifica devono essere applicati su entrambi gli avvisi di pagamento.
-* Inoltre, per collegare uno o più pagamenti alla notifica, i sistemi in capo all’ente devono valorizzare i campi relativi all’avviso pagoPA.
+* I costi di notifica devono essere applicati agli avvisi di pagamento.
+* Inoltre, per allegare correttamente le posizioni debitorie alla notifica, i sistemi in capo all'ente devono valorizzare i campi previsti dalle specifiche di SEND descritte nel paragrafo successivo.
 * Il verbale allegato alla notifica è un atto in formato PDF/A con firma digitale PAdES.&#x20;
 
 ### Documentazione tecnica&#x20;
 
 [In questa pagina](https://developer.pagopa.it/send/api#/send/api/operations/retrieveNotificationPriceV23) trovi le specifiche sull'API **`notificationPriceV23`**da utilizzare per conoscere l'importo dei costi di notifica da applicare agli avvisi di pagamento.&#x20;
 
-[In questa pagina](https://developer.pagopa.it/send/api#/send/api/operations/sendNewNotificationV23) trovi le specifiche per collegare uno o più pagamenti alla notifica: i sistemi in capo dall'ente devono utilizzare il campo **`pagoPa`** all’interno dell’oggetto **`payments`** (dentro recipients), fornendo i seguenti dati:&#x20;
+[In questa pagina](https://developer.pagopa.it/send/api#/send/api/operations/sendNewNotificationV23) trovi le specifiche per collegare uno o più avvisi alla notifica: i sistemi in capo dall'ente devono utilizzare il campo **`pagoPa`** all’interno dell’oggetto **`payments`** (dentro recipients), fornendo i seguenti dati:&#x20;
 
 * **`noticeCode;`**&#x20;
 * **`creditorTaxId;`**&#x20;
@@ -31,8 +31,6 @@ I sistemi in capo all’ente caricano sul back-office SEND la notifica per il ci
 * **`pagoPaForm`**.
 
 [In questa pagina](https://docs.pagopa.it/manuale-operativo/piattaforma-notifiche-digitali-manuale-operativo/il-processo-di-notificazione/specifiche-tecniche-dei-pdf-allegati-alla-notifica) trovi le specifiche tecniche dei PDF allegati alla notifica.
-
-***
 
 ## 2. L'ente monitora la notifica
 
@@ -46,29 +44,23 @@ I sistemi in capo all'ente possono monitorare l'accettazione o rifiuto da parte 
 
 [In questa pagina](https://developer.pagopa.it/send/api#/send/api/operations/consumeEventStream) trovi le specifiche tecniche per leggere i progressi delle notifiche tramite stream.
 
-***
-
 ## 3. SEND inizia il processo di comunicazione notifica al cittadino
 
 SEND invia un messaggio di cortesia ai recapiti (e-mail, SMS o l’app IO) se già forniti dal cittadino, invitandolo a collegarsi alla piattaforma per visualizzare la notifica.
 
-Poi, verifica se esiste una PEC (inserita dal cittadino o presente sui registri pubblici) e, se presente, invia lì l’avviso di avvenuta ricezione, perfezionando la notifica.
-
-***
-
-## 4. SEND prova ad inviare il verbale su IO&#x20;
+Contestualmente, verifica se esiste una PEC (inserita dal cittadino o presente sui registri pubblici) e, se presente, invia lì l’avviso di avvenuta ricezione, perfezionando la notifica.
 
 I sistemi in capo all’ente possono monitorare in ogni momento lo stato di consegna della notifica tramite SEND.
 
+## 4. SEND invia una comunicazione di cortesia su IO&#x20;
+
 Il cittadino riceve un messaggio di cortesia su IO, che lo informa dell’esistenza di una notifica: per leggerla deve attivare il servizio “SEND - Notifiche Digitali.”
 
-Attivando il servizio, d’ora in poi riceverà le notifiche a valore legale sull’app IO.
-
-***
+Quest'operazione va fatta soltanto una volta: attivando il servizio, d’ora in poi riceverà le notifiche a valore legale sull’app IO.
 
 ## 5. Il cittadino apre la notifica su IO
 
-Il cittadino riceve su IO, tramite il servizio SEND notifiche digitali, un messaggio che lo informa dell’emissione della notifica per l'avviso di accertamento, contenente il relativo avviso di pagamento.
+Non appena attiva il servizio, il cittadino riceve in app la notifica per l'avviso di accertamento, con incluso il relativo avviso di pagamento.
 
 Apre la notifica entro 120 ore (5 giorni) dalla consegna, pertanto la notifica si perfeziona.
 
@@ -82,8 +74,8 @@ Apre la notifica entro 120 ore (5 giorni) dalla consegna, pertanto la notifica s
 
 [In questa pagina](https://docs.pagopa.it/sanp/appendici/primitive#pagetpayment-1) trovi le specifiche tecniche per compilare il campo **`dueDate`** della posizione debitoria con la data di perfezionamento della notifica.
 
-[In questa pagina](https://developer.pagopa.it/send/api#/send/api/operations/retrieveNotificationPriceV23) trovi le specifiche tecniche per conoscere la data di perfezionamento della notifica, utilizza l’API **`notificationPriceV23.`**&#x20;
+[In questa pagina](https://developer.pagopa.it/send/api#/send/api/operations/retrieveNotificationPriceV23) trovi le specifiche tecniche per conoscere la data di perfezionamento della notifica, utilizza l’API **`notificationPriceV23`.**&#x20;
 
-[In questa pagina](https://notifichedigitali.pagopa.it/perfezionamento) scopri come si perfeziona una notifica.
+[In questa pagina](https://notifichedigitali.pagopa.it/perfezionamento) puoi approfondire come si perfeziona una notifica rispetto al canale usato dal cittadino.
 
-<figure><img src=".gitbook/assets/image (8).png" alt="Un diagramma che rappresenta il flusso di consegna notifica tramite SEND"><figcaption><p>Invio delle comunicazioni tramite SEND</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (9).png" alt="Un diagramma che rappresenta il flusso di consegna notifica tramite SEND"><figcaption><p>Invio delle comunicazioni tramite SEND</p></figcaption></figure>
