@@ -46,9 +46,9 @@ L'ente, tramite i propri sistemi, può monitorare l'accettazione o rifiuto da pa
 
 ## 3. SEND inizia il processo di comunicazione notifica al cittadino
 
-SEND invia un messaggio di cortesia ai recapiti (e-mail, SMS o l’app IO) se già forniti dal cittadino, invitandolo a collegarsi alla piattaforma per visualizzare la notifica.
+SEND verifica se esiste una PEC (inserita dal cittadino o presente sui registri pubblici) e, se presente, invia lì l’avviso di avvenuta ricezione.
 
-Contestualmente, verifica se esiste una PEC (inserita dal cittadino o presente sui registri pubblici) e, se presente, invia lì l’avviso di avvenuta ricezione, perfezionando la notifica.
+Contestualmente, SEND invia un messaggio di cortesia ai recapiti (e-mail, SMS e/o l’app IO) se già forniti dal cittadino, invitandolo a collegarsi alla piattaforma per visualizzare la notifica.
 
 L'ente, tramite i propri sistemi, può monitorare in ogni momento lo stato di consegna della notifica tramite SEND.
 
