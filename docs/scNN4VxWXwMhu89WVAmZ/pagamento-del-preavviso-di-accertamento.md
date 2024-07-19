@@ -17,8 +17,6 @@ Il cittadino riceve su IO un messaggio che lo informa della violazione avvenuta,
 * Il cittadino vedrà come data di scadenza, quella impostata nel campo **`dueDate`** della relativa posizione debitoria. \
   Evita pertanto di inserire date fittizie (es. 31\12\2099).
 
-***
-
 ## 2. Il cittadino riceve un promemoria
 
 Quando la scadenza è imminente, il cittadino riceve un messaggio su IO che lo informa dell’avviso di pagamento per il preavviso di accertamento in scadenza.
@@ -28,8 +26,6 @@ Aderendo all’**offerta Premium**, è possibile inviare in automatico una notif
 
 [**Scopri di più sull’offerta Premium →** ](https://docs.pagopa.it/manuale-servizi/che-cosa-puo-fare-un-servizio-su-io/inviare-messaggi#funzionalita-premium)
 {% endhint %}
-
-***
 
 ## **3.1 Il cittadino paga il preavviso entro i termini previsti ✅**
 
@@ -42,8 +38,6 @@ I sistemi in capo all’ente aggiornano su pagoPA lo stato della posizione debit
 ### Documentazione tecnica&#x20;
 
 [In questa pagina](https://docs.pagopa.it/gestionedeglierrori/faultcode-e-faultstring/domino-ec) trovi le specifiche per gestire gli errori.&#x20;
-
-***
 
 ## **3.2 Il cittadino non paga il preavviso entro i termini previsti ❌**
 

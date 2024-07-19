@@ -21,10 +21,7 @@ I sistemi in capo all’ente aggiornano lo stato della posizione debitoria del p
 
 [In questa pagina](https://docs.pagopa.it/gestionedeglierrori/faultcode-e-faultstring/domino-ec) trovi le specifiche per gestire gli errori.&#x20;
 
-[In questa pagina ](https://docs.pagopa.it/sanp/appendici/primitive#pagetpayment-1)trovi le specifiche su come compilare la data di scadenza della posizione debitoria. \
-
-
-***
+[In questa pagina ](https://docs.pagopa.it/sanp/appendici/primitive#pagetpayment-1)trovi le specifiche su come compilare la data di scadenza della posizione debitoria.&#x20;
 
 ## 2. L'ente crea la posizione debitoria
 
@@ -38,8 +35,6 @@ L’importo del verbale potrà comprendere spese di notifica.
 ### Da ricordare 💡&#x20;
 
 * I sistemi in capo all’ente devono inserire nell’oggetto del pagamento un riferimento chiaro (es.: “Violazione Codice della Strada - Importo ridotto”).
-
-***
 
 ### Scrivere i messaggi su IO
 

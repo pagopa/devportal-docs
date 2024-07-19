@@ -6,7 +6,7 @@ description: >-
 
 # 6️⃣ Emissione avviso di accertamento
 
-<figure><img src=".gitbook/assets/tari-step6.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Stepper_06.png" alt=""><figcaption></figcaption></figure>
 
 ## 1. L'ultima rata prevista è scaduta
 
@@ -14,12 +14,12 @@ Quando l'ultima rata prevista è scaduta, i sistemi in capo all’ente possono p
 
 ## 2. L'ente crea la posizione debitoria
 
-I sistemi in capo all’ente creano una posizione debitoria relativa all’accertamento TARI per l’immobile e la inviano al cittadino interessato dall’accertamento.
+L'ente, tramite i propri sistemi, crea una posizione debitoria relativa all’accertamento TARI per l’immobile e la inviano al cittadino interessato dall’accertamento.
 
 Le date di scadenza possono variare a seconda dell’ente.
 
 ### Da ricordare 💡&#x20;
 
-* I sistemi in capo all’ente devono inserire nell’oggetto del pagamento un riferimento chiaro (es.: “Tassa sui rifiuti (TARI) - accertamento”).
+* L'ente, tramite i propri sistemi, deve inserire nell’oggetto del pagamento un riferimento chiaro (es.: “Tassa sui rifiuti (TARI) - accertamento”).
 
 ***

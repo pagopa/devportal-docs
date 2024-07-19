@@ -6,19 +6,19 @@ description: >-
 
 # 4️⃣ Emissione prima rata
 
-<figure><img src=".gitbook/assets/tari-step4.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Stepper_04.png" alt=""><figcaption></figcaption></figure>
 
 ## 1. L'ente crea la posizione debitoria&#x20;
 
-I sistemi in capo all’ente creano una posizione debitoria relativa alla prima rata della TARI per l’immobile e la inviano al cittadino che ha presentato la dichiarazione.
+L'ente, tramite i propri sistemi, crea una posizione debitoria relativa alla prima rata della TARI per l’immobile e la invia al cittadino che ha presentato la dichiarazione.
 
 Le date di scadenza possono variare a seconda dell’ente.
 
 ### Da ricordare 💡&#x20;
 
-* I sistemi in capo all’ente devono inserire nelle posizioni debitorie le rispettive date di scadenza previste dal regolamento TARI. Considera eventuali giorni di festività, che estendono la data di scadenza;
-* All’interno del messaggio, i sistemi in capo all’ente devono fornire un codice avviso per permettere al cittadino di pagare direttamente in app;
-* I sistemi in capo all’ente devono inserire nell’oggetto del pagamento un riferimento chiaro (es. “Tassa sui rifiuti (TARI) 2024 - Rata unica”).
+* L'ente, tramite i propri sistemi, deve inserire nelle posizioni debitorie le rispettive date di scadenza previste dal regolamento TARI. Considera eventuali giorni di festività, che estendono la data di scadenza;
+* All’interno del messaggio, l'ente, tramite i propri sistemi, deve fornire un codice avviso per permettere al cittadino di pagare direttamente in app o presso qualsiasi canale abilitato a pagoPA;;
+* L'ente, tramite i propri sistemi, deve inserire nell’oggetto del pagamento un riferimento chiaro (es. “Tassa sui rifiuti (TARI) 2024 - Rata unica”).
 
 ### Documentazione tecnica
 
@@ -28,14 +28,14 @@ Le date di scadenza possono variare a seconda dell’ente.
 
 ## 2. L'ente indica i beneficiari della posizione debitoria&#x20;
 
-I sistemi in capo all’ente indicano per la stessa posizione debitoria chi sono i beneficiari e quale percentuale è destinata agli stessi:&#x20;
+L'ente, tramite i propri sistemi, indica per la stessa posizione debitoria chi sono i beneficiari e quale percentuale è destinata agli stessi:&#x20;
 
 * al Comune che emette la posizione debitoria è indirizzata la quota TARI;&#x20;
 * alla Provincia o alla Città metropolitana è indirizzata la quota TEFA.
 
 ### Da ricordare 💡&#x20;
 
-* Per stabilire i beneficiari delle diverse quote, i sistemi in capo all’ente devono valorizzare i campi relativi all’avviso pagoPA tramite la primitiva **`paGetPayment versione 2`.**
+* Per stabilire i beneficiari delle diverse quote, l'ente, tramite i propri sistemi, deve valorizzare i campi relativi all’avviso pagoPA tramite la primitiva **`paGetPayment versione 2`.**
 
 ### Documentazione tecnica
 
@@ -43,7 +43,7 @@ I sistemi in capo all’ente indicano per la stessa posizione debitoria chi sono
 
 ## 4. L'ente comunica l'avviso di pagamento
 
-I sistemi in capo all’ente comunicano l’avviso di pagamento per la prima rata all’utente tramite messaggio su IO.
+L'ente, tramite i propri sistemi, comunica l’avviso di pagamento per la prima rata all’utente tramite messaggio su IO.
 
 ### Da ricordare 💡&#x20;
 

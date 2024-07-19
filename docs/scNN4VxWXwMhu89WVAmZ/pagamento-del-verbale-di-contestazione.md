@@ -23,13 +23,9 @@ I sistemi in capo all’ente aggiornano lo stato della posizione debitoria su pa
 
 [In questa pagina](https://docs.pagopa.it/gestionedeglierrori/faultcode-e-faultstring/domino-ec) trovi le specifiche per gestire gli errori.&#x20;
 
-***
-
 ## **1.2 Il cittadino non paga verbale scontato entro i termini previsti ❌**
 
 Il cittadino potrà comunque pagare il verbale di contestazione con importo intero entro 60 giorni dopo la visualizzazione della notifica.&#x20;
-
-***
 
 ## 2. L'ente aggiorna gli avvisi di pagamento&#x20;
 
@@ -43,7 +39,7 @@ Se la data di notifica è nota, i sistemi in capo all’ente disabilitano il pri
 
 [In questa pagina](https://docs.pagopa.it/gestionedeglierrori/faultcode-e-faultstring/domino-ec) trovi le specifiche per gestire gli errori.&#x20;
 
-***
+
 
 60 giorni dopo la visualizzazione della notifica, si possono prospettare due scenari:&#x20;
 
@@ -59,8 +55,6 @@ I sistemi in capo all’ente aggiornano lo stato della posizione debitoria e la 
 
 [In questa pagina](https://docs.pagopa.it/gestionedeglierrori/faultcode-e-faultstring/domino-ec) trovi le specifiche per gestire gli errori.&#x20;
 
-***
-
 ## **3.2 Il cittadino non paga verbale entro i termini previsti ❌**
 
 I sistemi in capo all’ente aggiornano lo stato della posizione debitoria e la contrassegnano come “scaduta” su pagoPA e non più disponibile.
@@ -72,8 +66,6 @@ I sistemi in capo all’ente aggiornano lo stato della posizione debitoria e la 
 ### Documentazione tecnica&#x20;
 
 [In questa pagina](https://docs.pagopa.it/gestionedeglierrori/faultcode-e-faultstring/domino-ec) trovi le specifiche per gestire gli errori.&#x20;
-
-***
 
 ## 4. L'ente procede con il recupero del pagamento
 
