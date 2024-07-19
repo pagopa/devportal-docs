@@ -17,6 +17,8 @@ Stringa di 4 byte con possibili valori
 `RPIC` : Pago in Conto Intesa
 
 `RBPS` : SCRIGNO Internet Banking
+
+`RICO` : Conto ICONTO
 {% endtab %}
 
 {% tab title="Dimensioni" %}
