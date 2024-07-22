@@ -1,4 +1,4 @@
-# Redirect
+# Satispay
 
 {% tabs %}
 {% tab title="Key" %}
@@ -6,19 +6,7 @@
 {% endtab %}
 
 {% tab title="Tipo" %}
-Stringa di 4 byte con possibili valori
-
-`RBPR` : Conto BancoPosta Retail
-
-`RBPB` : Conto BancoPosta Impresa
-
-`RBPP` : Paga con Postepay
-
-`RPIC` : Pago in Conto Intesa
-
-`RBPS` : SCRIGNO Internet Banking
-
-`RICO` : Conto ICONTO
+Stringa con valore fisso SATY
 {% endtab %}
 
 {% tab title="Dimensioni" %}
@@ -32,25 +20,7 @@ Sì
 
 {% tabs %}
 {% tab title="Key" %}
-`idTransaction`
-{% endtab %}
-
-{% tab title="Tipo" %}
-Stringa
-{% endtab %}
-
-{% tab title="Dimensioni" %}
-N/A
-{% endtab %}
-
-{% tab title="Obbligatorio" %}
-Sì
-{% endtab %}
-{% endtabs %}
-
-{% tabs %}
-{% tab title="Key" %}
-`idPSPTransaction`
+`satispayTransactionId`
 {% endtab %}
 
 {% tab title="Tipo" %}
@@ -120,9 +90,11 @@ Sì
 {% endtab %}
 {% endtabs %}
 
+
+
 {% tabs %}
 {% tab title="Key" %}
-`authorizationCode`
+`email`
 {% endtab %}
 
 {% tab title="Tipo" %}
@@ -134,6 +106,6 @@ N/A
 {% endtab %}
 
 {% tab title="Obbligatorio" %}
-Sì
+No
 {% endtab %}
 {% endtabs %}
