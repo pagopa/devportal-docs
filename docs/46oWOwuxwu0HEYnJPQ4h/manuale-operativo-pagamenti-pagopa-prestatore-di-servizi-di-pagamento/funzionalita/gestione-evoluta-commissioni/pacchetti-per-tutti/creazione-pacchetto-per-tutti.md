@@ -54,7 +54,7 @@ La gestione del carrello può essere fatta esclusivamente per pacchetti su canal
   * Pagamento con marca da bollo
   * Pagamento solo con marca da bollo
 * Periodo di validità del pacchetto&#x20;
-  * Data inizio validità&#x20;
+  * Data inizio validità -> deve essere impostata almeno due giorni in avanti rispetto alla data in cui si sta creando il pacchetto per permettere agli operatori pagoPA di fare alcune verifiche di congruità
   * Data fine validità
 
 {% hint style="warning" %}
@@ -107,10 +107,10 @@ Terminata la fase di selezione dei servizi di incasso è necessario proseguire s
 
 <figure><img src="../../../../.gitbook/assets/image (163).png" alt=""><figcaption><p>Popup conferma creazione pacchetto globale</p></figcaption></figure>
 
-Schiacciando il pulsante "`Conferma`" si procederà alla creazione del pacchetto globale. Esso sarà poi visibile nella sezione "`Pacchetti commissioni`" nel tab "`Per tutti`"
+Cliccando il tasto "`Conferma`" si procederà alla creazione del pacchetto "Per tutti". Esso sarà poi visibile nello stato `"In attivazione"` nella sezione "`Pacchetti commissioni`" nel tab "`Per tutti`". Il giorno di inizio validità passerà nello stato `"Attivo".`
 
 {% hint style="info" %}
-Il pacchetto appena creato sarà visibile anche a tutti gli EC nell'apposita maschera riepilogativa di tutti i pacchetti "Per tutti"
+Il pacchetto appena creato sarà visibile anche a tutti gli EC nell'apposita maschera riepilogativa di tutti i pacchetti "Per tutti" dopo che esso verrà reso attivo nella data di inizio validità impostata sul pacchetto.
 {% endhint %}
 
 <figure><img src="../../../../.gitbook/assets/Screenshot 2024-05-14 alle 17.10.04.png" alt=""><figcaption></figcaption></figure>

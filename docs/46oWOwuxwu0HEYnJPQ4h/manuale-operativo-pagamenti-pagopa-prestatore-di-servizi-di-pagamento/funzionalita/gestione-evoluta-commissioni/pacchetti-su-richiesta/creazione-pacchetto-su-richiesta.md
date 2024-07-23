@@ -54,7 +54,7 @@ Le informazioni da inserire sono le seguenti:
   * Pagamento con marca da bollo
   * Pagamento solo con marca da bollo
 * Periodo di validità del pacchetto&#x20;
-  * Data inizio validità&#x20;
+  * Data inizio validità -> deve essere impostata almeno due giorni in avanti rispetto alla data in cui si sta creando il pacchetto per permettere agli operatori pagoPA di fare alcune verifiche di congruità
   * Data fine validità
 
 Compilate le informazioni di cui sopra è necessario proseguire cliccando il tasto "`Continua`" il quale attiverà il passaggio alla seconda fase di configurazione del pacchetto, ovvero la possibilità di inserire delle tassonomie specifiche per quel determinato pacchetto. (Per maggiori informazioni sulle tassonomie consultare [https://docs.pagopa.it/sanp/ente-creditore/tassonomia-dei-servizi-di-incasso](https://docs.pagopa.it/sanp/ente-creditore/tassonomia-dei-servizi-di-incasso)).
@@ -97,8 +97,8 @@ Terminata la fase di selezione dei servizi di incasso è necessario proseguire c
 
 <figure><img src="../../../../.gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure>
 
-Cliccando il tatso "`Conferma`" si procederà alla creazione del pacchetto "Su richiesta". Esso sarà poi visibile nella sezione "`Pacchetti commissioni`" nel tab "Su richiesta"
+Cliccando il tasto "`Conferma`" si procederà alla creazione del pacchetto "Su richiesta". Esso sarà poi visibile nello stato `"In attivazione"` nella sezione "`Pacchetti commissioni`" nel tab "`Su richiesta`". Il giorno di inizio validità passerà nello stato `"Attivo".`
 
 {% hint style="info" %}
-Il pacchetto appena creato sarà visibile a partire dal giorno successivo alla creazione anche a tutti gli EC nell'apposita maschera riepilogativa di tutti i pacchetti su richiesta dalla quale l'EC ne potrà richiedere l'adesione.
+Il pacchetto appena creato sarà visibile a partire dal giorno di inizio validità anche a tutti gli EC nell'apposita maschera riepilogativa di tutti i pacchetti su richiesta dalla quale l'EC ne potrà richiedere l'adesione.
 {% endhint %}

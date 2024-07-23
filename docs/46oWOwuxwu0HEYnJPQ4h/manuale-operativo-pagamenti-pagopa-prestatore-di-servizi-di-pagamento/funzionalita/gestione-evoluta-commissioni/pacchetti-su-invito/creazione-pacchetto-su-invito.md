@@ -54,7 +54,7 @@ Le informazioni da inserire sono le seguenti:
   * Pagamento con marca da bollo
   * Pagamento solo con marca da bollo
 * Periodo di validità del pacchetto&#x20;
-  * Data inizio validità&#x20;
+  * Data inizio validità -> deve essere impostata almeno due giorni in avanti rispetto alla data in cui si sta creando il pacchetto per permettere agli operatori pagoPA di fare alcune verifiche di congruità&#x20;
   * Data fine validità
 
 Compilate le informazioni di cui sopra è necessario proseguire cliccando il tasto "`Continua`" , il quale attiverà il passaggio alla seconda fase di configurazione del pacchetto, ovvero la possibilità di inserire delle tassonomie specifiche per quel determinato pacchetto. (Per maggiori informazioni sulle tassonomie consultare [https://docs.pagopa.it/sanp/ente-creditore/tassonomia-dei-servizi-di-incasso](https://docs.pagopa.it/sanp/ente-creditore/tassonomia-dei-servizi-di-incasso)).
@@ -93,6 +93,6 @@ Terminata la fase di selezione dei servizi di incasso è necessario proseguire c
 
 <figure><img src="../../../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 
-Cliccando il tasto "`Conferma`" si procederà alla creazione del pacchetto "Su invito". Esso sarà poi visibile nello stato `"In attivazione"` nella sezione "`Pacchetti commissioni`" nel tab "`Su invito`". Il giorno successivo alla creazione passerà nello stato `"Attivo".`
+Cliccando il tasto "`Conferma`" si procederà alla creazione del pacchetto "Su invito". Esso sarà poi visibile nello stato `"In attivazione"` nella sezione "`Pacchetti commissioni`" nel tab "`Su invito`". Il giorno di inizio validità passerà nello stato `"Attivo".`
 
 <figure><img src="../../../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
