@@ -1,15 +1,11 @@
 # External API
 
-{% hint style="warning" %}
-Le API descritte in questa sezione saranno disponibili negli ambienti di Collaudo e Produzione a partire dal 18/03/2024.
-{% endhint %}
-
 {% hint style="info" %}
 Le API descritte in questa sezione hanno lo scopo di sostituire la vecchia primitiva deprecata [nodoChiediInformativaPA](https://docs.pagopa.it/sanp/appendici/primitive#nodochiediinformativapa). ([Funzionalità deprecate](https://docs.pagopa.it/sanp/appendici/funzionalita-deprecate))
 {% endhint %}
 
 {% hint style="success" %}
-Lo swagger delle API è disponibile qui [https://github.com/pagopa/pagopa-api/blob/SANP3.7.0/openapi/openapi\_backoffice\_external\_ec.json](https://github.com/pagopa/pagopa-api/blob/SANP3.7.0/openapi/openapi\_backoffice\_external\_ec.json)
+Lo swagger delle API è disponibile qui [https://developer.pagopa.it/pago-pa/api/elenco-IBAN-stazioni#/](https://developer.pagopa.it/pago-pa/api/elenco-IBAN-stazioni#/)
 {% endhint %}
 
 Questa sezione descrive le API che gli Intermediari / Partner Tecnologici possono utilizzare per accedere alle seguenti informazioni:
@@ -18,10 +14,6 @@ Questa sezione descrive le API che gli Intermediari / Partner Tecnologici posson
 * Elenco di tutti gli EC e delle loro Stazioni intermediati dallo specifico Partner Tecnologico / Intermediario
 
 **Get IBANs by Broker API**
-
-{% hint style="warning" %}
-Questa API verrà rilasciata successivamente al 18/3.
-{% endhint %}
 
 {% hint style="info" %}
 Questa API prevede in input (`brokerCode`) il codice fiscale dell'Intermediario / Partner Tecnologico. Viene eseguito un controllo di autorizzazione tra il codice fornito e quanto presente all'interno dell'API Key.&#x20;
