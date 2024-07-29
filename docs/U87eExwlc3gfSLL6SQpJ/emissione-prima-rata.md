@@ -17,7 +17,7 @@ Le date di scadenza possono variare a seconda dell’ente.
 ### Da ricordare 💡&#x20;
 
 * L'ente, tramite i propri sistemi, deve inserire nelle posizioni debitorie le rispettive date di scadenza previste dal regolamento TARI. Considera eventuali giorni di festività, che estendono la data di scadenza;
-* All’interno del messaggio, l'ente, tramite i propri sistemi, deve fornire un codice avviso per permettere al cittadino di pagare direttamente in app o presso qualsiasi canale abilitato a pagoPA;;
+* All’interno del messaggio, l'ente, tramite i propri sistemi, deve fornire un codice avviso per permettere al cittadino di pagare direttamente in app o presso qualsiasi canale abilitato a pagoPA;
 * L'ente, tramite i propri sistemi, deve inserire nell’oggetto del pagamento un riferimento chiaro (es. “Tassa sui rifiuti (TARI) 2024 - Rata unica”).
 
 ### Documentazione tecnica
