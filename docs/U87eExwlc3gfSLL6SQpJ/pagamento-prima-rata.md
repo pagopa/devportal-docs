@@ -42,7 +42,7 @@ Se sono previste altre rate, i sistemi in capo all’ente creano altre **posizio
 
 ## **3.2 Il cittadino non paga l'avviso entro i termini previsti ❌**
 
-Il cittadino non paga l’avviso di pagamento per per la prima rata TARI entro i termini previsti.
+Il cittadino non paga l’avviso di pagamento per la prima rata TARI entro i termini previsti.
 
 L'ente, tramite i propri sistemi, aggiorna lo stato della posizione debitoria e la contrassegnano come “scaduta” e non più disponibile.
 
