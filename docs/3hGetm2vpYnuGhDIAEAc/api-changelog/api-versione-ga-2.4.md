@@ -30,13 +30,13 @@ Questa modifica permette ad un ente mittente che ha partner tecnologici su ambit
 
 &#x20;La nuova API arricchisce gli eventi di timeline con i dettagli. Dalla lettura dello stream si ottengono tutte le informazioni contenuti nell'elemento di timeline della notifica, in questo modo è possibile eliminare la chiamata ai dettagli della notifica per ottenere queste informazioni.&#x20;
 
-Per i dettagli si rimanda alla pagina [stream-di-timeline-2.4.md](stream-di-timeline-2.4.md "mention")
+Per i dettagli si rimanda alla pagina [stream-di-timeline.md](../stream-di-timeline.md "mention")
 
 ### Configurazione default del filtro degli eventi di timeline&#x20;
 
 Per aiutare gli enti nella configurazione del filtro sui numerosi eventi di timeline è stato definito un filtro DEFAULT che contiene tutti gli elementi di principale interesse per il mittente.
 
-Per i dettagli si rimanda alla pagina [stream-di-timeline-2.4.md](stream-di-timeline-2.4.md "mention")
+Per i dettagli si rimanda alla pagina [stream-di-timeline.md](../stream-di-timeline.md "mention")
 
 ### Disabilitazione di uno stream
 
