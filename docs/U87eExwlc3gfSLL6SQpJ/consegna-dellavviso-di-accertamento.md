@@ -17,7 +17,7 @@ L'ente, tramite i propri sistemi, carica tramite i sistemi di back-office la not
 
 * I costi di notifica devono essere applicati agli avvisi di pagamento.
 * Inoltre, per allegare correttamente le posizioni debitorie alla notifica, i sistemi in capo all'ente devono valorizzare i campi previsti dalle specifiche di SEND descritte nel paragrafo successivo.
-* Il verbale allegato alla notifica è un atto in formato PDF/A con firma digitale PAdES.&#x20;
+* L'avviso di accertamento allegato alla notifica è un atto in formato PDF/A con firma digitale PAdES.&#x20;
 
 ### Documentazione tecnica&#x20;
 
