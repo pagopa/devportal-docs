@@ -1,8 +1,8 @@
 ---
 description: >-
   Il cittadino deve pagare l'avviso di pagamento relativo all'avviso di
-  accertamento ricevuto, o in forma scontata o intera. Se non avviene il
-  pagamento, l'ente procederà con il recupero del pagamento.
+  accertamento ricevuto. Se non avviene il pagamento, l'ente procederà con il
+  recupero del pagamento.
 ---
 
 # 8️⃣ Pagamento dell'avviso di accertamento
