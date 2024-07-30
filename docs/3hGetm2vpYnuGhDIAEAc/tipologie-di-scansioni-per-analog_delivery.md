@@ -11,8 +11,8 @@
 
 ### REGISTERED\_LETTER\_890
 
-| **LegalFact**         | **deliveryDetailCode per REGISTERED\_LETTER\_890**                                          | **documentType** |
-| --------------------- | ------------------------------------------------------------------------------------------- | ---------------- |
-| Ricevuta di consegna  | RECAG001B                                                                                   | 890              |
-| Scansione Plico       | <p></p><p>RECAG003B</p><p>RECAG010</p><p>RECAG003E </p><p>RECAG007B </p><p>RECAG008B</p>    | Plico            |
-| Avviso di ricevimento | <p></p><p>RECAG001B</p><p>RECAG002B</p><p>RECAG011B </p><p>RECAG005B </p><p>RECAG006B  </p> | 890              |
+| **LegalFact**                        | **deliveryDetailCode per REGISTERED\_LETTER\_890**                                          | **documentType** |
+| ------------------------------------ | ------------------------------------------------------------------------------------------- | ---------------- |
+| Scansione plico (AG)                 | <p></p><p>RECAG003B</p><p>RECAG010</p><p>RECAG003E </p><p>RECAG007B </p><p>RECAG008B</p>    | Plico            |
+| Scansione Plico (semplice)           | RECRS002B                                                                                   | Plico            |
+| Scansione avviso di ricevimento (AG) | <p></p><p>RECAG001B</p><p>RECAG002B</p><p>RECAG011B </p><p>RECAG005B </p><p>RECAG006B  </p> | 23L              |
