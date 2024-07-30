@@ -55,7 +55,7 @@ Alla fine del processo si arriva al riepilogo di tutti i dati inseriti durante l
 
 <figure><img src="../.gitbook/assets/modifica documentazione e-service.png" alt=""><figcaption><p>Schermata di modifica documentazione e-service</p></figcaption></figure>
 
-###
+
 
 ### **Per l'e-service che riceve dati**
 
