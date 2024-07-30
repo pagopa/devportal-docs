@@ -4,6 +4,12 @@
 
 Il ciclo di vita di un e-service inizia con la creazione in bozza di una sua prima versione. Successivamente è possibile pubblicarlo, aggiornarlo (con un versionamento progressivo), sospenderlo, riattivarlo, o archiviarlo. Per facilitare la creazione di servizi multipli, è prevista anche la possibilità di clonare un e-service e modificarne alcune parti prima di pubblicarlo come nuovo servizio a sé stante.
 
+## Guida alla nomenclatura degli e-service
+
+È stata creata una guida ad hoc per la nomenclatura degli e-service, che consiste in una serie di buone pratiche per la loro nomina e descrizione su PDND Interoperabilità.
+
+Questa guida intende agevolare la ricerca e la comprensione degli e-service per tutti gli enti, sia fruitori che erogatori e si può trovare al seguente link: [https://italia.github.io/pdnd-guida-nomenclatura-eservice/](https://italia.github.io/pdnd-guida-nomenclatura-eservice/)
+
 ## Informazioni necessarie per la creazione di un e-service
 
 Ogni e-service contiene al suo interno una specifica - definito file di interfaccia - e dettaglia il contenuto dell'API dell'erogatore. Si intende che un e-service eroga dati quando tutti gli endpoint di quell'API sono predisposti per erogare dati; mentre un e-service riceve dati quando tutti gli endpoint di quell'API sono predisposti per ricevere dati.
@@ -12,8 +18,15 @@ Ogni e-service contiene al suo interno una specifica - definito file di interfac
 
 Un nuovo e-service viene creato attraverso un processo in quattro fasi dove vengono richiesti:
 
-* un nome e una descrizione che saranno quelli esposti all'interno del catalogo degli e-service sulla piattaforma PDND Interoperabilità;
+* un nome e una descrizione che saranno quelli esposti all'interno del catalogo degli e-service sulla piattaforma PDND Interoperabilità (è consigliato leggere prima la [guida alle buone pratiche](https://italia.github.io/pdnd-guida-nomenclatura-eservice/));
 * con quale tecnologia è scritta l'API attraverso la quale si intende erogare il servizio, se REST o SOAP;
+
+{% hint style="info" %}
+Al fine di assicurare la conformità delle API pubblicate agli standard del Modello di Interoperabilità Tecnica per la Pubblica Amministrazione Italiana, è stato creato uno strumento di verifica del file OpenAPI (quindi per gli e-service che utilizzano tecnologia REST).
+
+È possibile trovare l'API checker a questo link: [https://italia.github.io/api-oas-checker/](https://italia.github.io/api-oas-checker/) e prima di usare lo strumento è consigliato leggere le [Guide per l’utilizzo](https://github.com/italia/api-oas-checker-rules).
+{% endhint %}
+
 * se l'e-service eroga o riceve dati (in questo caso eroga);
 
 <figure><img src="../.gitbook/assets/creazione e-service erogatore standard.jpg" alt=""><figcaption><p>Fase 1</p></figcaption></figure>
@@ -64,7 +77,7 @@ Per creare una nuova versione, nella vista _Erogazione > I tuoi e-service_ si pu
 
 <figure><img src="../.gitbook/assets/crea bozza nuova versione.png" alt=""><figcaption><p>Schermata di creazione di una bozza di nuova versione di e-service</p></figcaption></figure>
 
-Una volta selezionata la voce Crea bozza, si aprirà la schermata di creazione della nuova versione di e-service. Alcuni campi saranno pre compilati come la versione precedente e si potranno modificare a proprio piacimento, come ad esempio le informazioni su voucher, soglia di carico, attributi e documentazione.
+Una volta selezionata la voce _Crea bozza_, si aprirà la schermata di creazione della nuova versione di e-service. Alcuni campi saranno pre compilati come la versione precedente e si potranno modificare a proprio piacimento, come ad esempio le informazioni su voucher, soglia di carico, attributi e documentazione.
 
 <figure><img src="../.gitbook/assets/bozza precompilata nuova versione.png" alt=""><figcaption><p>Schermata di modifica delle informazioni in una nuova versione di e-service</p></figcaption></figure>
 
