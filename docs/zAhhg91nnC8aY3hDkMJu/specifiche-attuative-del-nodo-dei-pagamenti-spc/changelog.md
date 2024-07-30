@@ -1,6 +1,6 @@
 # Changelog
 
-### 3.8.0 (Giugno 2024)
+### 3.8.0 (Luglio 2024)
 
 * [#condizioni-di-esclusione-dalla-funzionalita-stand-in](funzionamento-generale/stand-in.md#condizioni-di-esclusione-dalla-funzionalita-stand-in "mention")
 * Inserimento dettagli relativi alla comunicazione per la [modalita-dintegrazione](../ente-creditore/modalita-dintegrazione/ "mention")

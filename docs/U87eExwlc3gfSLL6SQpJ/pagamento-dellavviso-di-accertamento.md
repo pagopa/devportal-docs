@@ -1,15 +1,15 @@
 ---
 description: >-
   Il cittadino deve pagare l'avviso di pagamento relativo all'avviso di
-  accertamento ricevuto, o in forma scontata o intera. Se non avviene il
-  pagamento, l'ente procederà con il recupero del pagamento.
+  accertamento ricevuto. Se non avviene il pagamento, l'ente procederà con il
+  recupero del pagamento.
 ---
 
 # 8️⃣ Pagamento dell'avviso di accertamento
 
 <figure><img src=".gitbook/assets/Stepper_08.png" alt=""><figcaption></figcaption></figure>
 
-## **1.1 Il cittadino paga l'avviso di accertamento scontato entro i termini previsti ✅**
+## **1.1 Il cittadino paga l'avviso di accertamento entro i termini previsti ✅**
 
 L'ente, tramite i propri sistemi, aggiorna lo stato della posizione debitoria su pagoPA e la contrassegna come “pagata”.
 
@@ -21,7 +21,7 @@ L'ente, tramite i propri sistemi, aggiorna lo stato della posizione debitoria su
 
 [In questa pagina](https://docs.pagopa.it/gestionedeglierrori/faultcode-e-faultstring/domino-ec) trovi le specifiche per gestire gli errori.&#x20;
 
-## **1.2 Il cittadino non paga l'avviso di accertamento scontato entro i termini previsti ❌**
+## **1.2 Il cittadino non paga l'avviso di accertamento entro i termini previsti ❌**
 
 L'ente, tramite i propri sistemi, aggiorna lo stato della posizione debitoria e la contrassegna come “scaduta” su pagoPA e non più disponibile.
 
