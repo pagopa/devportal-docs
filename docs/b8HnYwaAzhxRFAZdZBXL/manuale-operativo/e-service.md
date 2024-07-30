@@ -60,9 +60,13 @@ Se hai permessi di amministrazione o da operatore API, troverai la voce di menù
 
 Se un e-service esiste già in una versione pubblicata, è sempre possibile aggiornarlo creandone una nuova. La numerazione è assegnata automaticamente da PDND Interoperabilità in ordine crescente.&#x20;
 
-Per creare una nuova versione, nella vista _Erogazione > I tuoi e-service_ si può cliccare sui tre pallini alla voce dell'e-service di interesse, e selezionare _Crea bozza nuova versione_. Per questioni di consistenza, non è possibile avere più bozze dello stesso e-service contemporaneamente.
+Per creare una nuova versione, nella vista _Erogazione > I tuoi e-service_ si può cliccare sui tre pallini alla voce dell'e-service di interesse, e selezionare _Crea bozza_. Per questioni di consistenza, non è possibile avere più bozze dello stesso e-service contemporaneamente.
 
-<figure><img src="../.gitbook/assets/crea nuova bozza e-service.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/crea bozza nuova versione.png" alt=""><figcaption><p>Schermata di creazione di una bozza di nuova versione di e-service</p></figcaption></figure>
+
+Una volta selezionata la voce Crea bozza, si aprirà la schermata di creazione della nuova versione di e-service. Alcuni campi saranno pre compilati come la versione precedente e si potranno modificare a proprio piacimento, come ad esempio le informazioni su voucher, soglia di carico, attributi e documentazione.
+
+<figure><img src="../.gitbook/assets/bozza precompilata nuova versione.png" alt=""><figcaption><p>Schermata di modifica delle informazioni in una nuova versione di e-service</p></figcaption></figure>
 
 ## Pubblicare una versione di e-service
 
