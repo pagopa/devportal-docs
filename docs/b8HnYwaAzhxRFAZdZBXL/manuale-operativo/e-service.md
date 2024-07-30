@@ -14,7 +14,7 @@ Questa guida intende agevolare la ricerca e la comprensione degli e-service per 
 
 Ogni e-service contiene al suo interno una specifica - definito file di interfaccia - e dettaglia il contenuto dell'API dell'erogatore. Si intende che un e-service eroga dati quando tutti gli endpoint di quell'API sono predisposti per erogare dati; mentre un e-service riceve dati quando tutti gli endpoint di quell'API sono predisposti per ricevere dati.
 
-**Per l'e-service che eroga dati**
+### **Per l'e-service che eroga dati**
 
 Un nuovo e-service viene creato attraverso un processo in quattro fasi dove vengono richiesti:
 
@@ -51,7 +51,13 @@ Al fine di assicurare la conformità delle API pubblicate agli standard del Mode
 
 Alla fine del processo si arriva al riepilogo di tutti i dati inseriti durante la creazione dell'e-service e si può decidere se modificare la bozza, pubblicarla o eliminarla.
 
-**Per l'e-service che riceve dati**
+È possibile modificare e aggiornare la documentazione dell'e-service anche dopo la sua pubblicazione. È sufficiente entrare nell'e-service, scorrere in basso fino alla voce _Specifiche tecniche e-service_ e cliccare sulla matita alla voce _Documentazione_.
+
+<figure><img src="../.gitbook/assets/modifica documentazione e-service.png" alt=""><figcaption><p>Schermata di modifica documentazione e-service</p></figcaption></figure>
+
+###
+
+### **Per l'e-service che riceve dati**
 
 La differenza del processo tra l'e-service che eroga dati e quello che ne riceve è la creazione di una o più finalità con relativa analisi del rischio che il fruitore si troverà precompilata quando andrà a fruire dell'e-service.
 
