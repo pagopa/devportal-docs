@@ -12,6 +12,17 @@ description: >-
 
 <summary>Luglio 2024</summary>
 
+### 1.0.103
+
+29 luglio
+
+* Bug fixing
+* Possibilità di modificare la descrizione di un e-service già pubblicato
+* Aggiunta di campi precompilati quando si va a creare una nuova versione di e-service
+* Aggiunta link alle best practice per la nomenclatura degli e-service
+* Aggiunta link all'OpenAPI checker
+* Presenza del correlationID che viene esposto in caso di errore durante la pubblicazione di un e-service
+
 ### 1.0.102
 
 23 luglio
