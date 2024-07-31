@@ -1,6 +1,6 @@
 # Il catalogo dei servizi dei Comuni
 
-Il [catalogo dei servizi dei Comuni](https://docs.pagopa.it/v1.0-catalogo-dei-servizi/) di IO è una lista creata considerando i servizi più importanti, significativi e frequenti in app IO e **si rivolge ai Comuni e ai loro partner tecnologici**.&#x20;
+Il [**catalogo dei servizi dei Comuni**](https://docs.pagopa.it/v1.0-catalogo-dei-servizi/) di IO è una lista creata considerando i servizi più importanti, significativi e frequenti in app IO e **si rivolge ai Comuni e ai loro partner tecnologici**.&#x20;
 
 Ogni servizio del catalogo dei servizi dei Comuni è composto da:
 
