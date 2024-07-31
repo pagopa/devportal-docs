@@ -18,3 +18,5 @@ Se il tuo ente sceglie i servizi da pubblicare tra quelli del catalogo:&#x20;
 {% hint style="info" %}
 Se l'ente preferisce pubblicare un servizio che non fa parte del catalogo, può farlo. Il servizio tuttavia verrà sottoposto a **controllo manuale** e verrà valutato secondo quanto scritto in questo Manuale. Dunque, non è assicurata l'approvazione — come invece avviene se si sceglie un servizio a catalogo.
 {% endhint %}
+
+[**Visita la risorsa per scoprire il Catalogo dei Comuni ->**](https://docs.pagopa.it/v1.0-catalogo-dei-servizi)
