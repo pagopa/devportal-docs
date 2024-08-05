@@ -30,7 +30,7 @@ Il tasto "Duplica" è attivo soltanto se la stazione è nello stato "Attiva".
 
 **Intermediario tecnologico**
 
-Se l'EC è anche un **Intermediario Tecnologico**, **cliccando** sui **3 puntini** accanto lo Stato Attivo, visualizzerà oltre alla voce **"Gestisci Stazione",** anche la voce **"Gestisci EC"** che gli consente di accedere alla _Pagina Gestione EC_ da cui potrà avviare tutte le azioni di gestione degli EC associati a quella stazione (vedi sezione [Associazione di un EC alla Stazione](associazione-eliminazione-modifica-di-un-ec-alla-stazione.md)).
+Se l'EC è anche un **Intermediario Tecnologico**, **cliccando** sui **3 puntini** accanto lo Stato Attivo, visualizzerà oltre alla voce **"Gestisci Stazione",** anche la voce **"Gestisci EC"** che gli consente di accedere alla _Pagina Gestione EC_ da cui potrà avviare tutte le azioni di gestione degli EC associati a quella stazione (vedi sezione [Associazione di un EC alla Stazione](associazione-di-un-ec-alla-stazione.md)).
 
 <figure><img src="../../../.gitbook/assets/image (63).png" alt=""><figcaption><p><em>Pagina vista stazioni - opzione Gestisci EC</em></p></figcaption></figure>
 
