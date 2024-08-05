@@ -11,8 +11,17 @@
 
 ## Per approfondire
 
+<details>
+
+<summary>Linee guida e relativi aggiornamenti</summary>
+
+1. [Prima pubblicazione LL. GG. al 15 dicembre 2021](https://trasparenza.agid.gov.it/page/9/details/2426/determinazione-n-6272021-del-15-dicembre-2021-adozione-delle-linee-guida-sullinfrastruttura-tecnologica-della-piattaforma-digitale-nazionale-dati-per-linteroperabilita-dei-sistemi-informativi-e-delle-basi-di-dati-ai-sensi-dellarticolo-50-ter-comma-2-del-d-lgs-7-marzo-2005-n-82-e-smi.html)
+2. [Aggiornamento LL. GG. a maggio 2023](https://www.agid.gov.it/it/infrastrutture/sistema-pubblico-connettivita/il-nuovo-modello-interoperabilita)
+3. [Aggiornamento LL. GG. ad agosto 2024](https://www.agid.gov.it/it/notizie/al-la-consultazione-pubblica-laggiornamento-delle-linee-guida-pdnd)
+
+</details>
+
 * [Testo articolo 50 ter del CAD](https://www.normattiva.it/atto/caricaDettaglioAtto?atto.dataPubblicazioneGazzetta=2005-05-16\&atto.codiceRedazionale=005G0104\&atto.articolo.numero=0\&atto.articolo.sottoArticolo=1\&atto.articolo.sottoArticolo1=10\&qId=5614860b-4769-478e-bf22-a8a76a04159a\&tabID=0.5538263478162919\&title=lbl.dettaglioAtto)
-* [Linee guida PDND Interoperabilità redatte da AgID](https://trasparenza.agid.gov.it/archivio28\_provvedimenti-amministrativi\_0\_123064\_725\_1.html) + [aggiornamento a maggio 2023](https://www.agid.gov.it/it/infrastrutture/sistema-pubblico-connettivita/il-nuovo-modello-interoperabilita)
 * [Parere del Garante per la Protezione dei Dati Personali](https://www.garanteprivacy.it/web/guest/home/docweb/-/docweb-display/docweb/9732758)
 * [PDND - Piattaforma Digitale Nazionale Dati](https://developers.italia.it/it/pdnd/)
 * [Ecosistema Interoperabilità](https://next.developers.italia.it/it/interoperabilita/)
