@@ -24,24 +24,29 @@ I dati esportati fanno riferimento a tutte le modifiche intercorse il giorno pre
 
 I dati che vengono esportati sono i seguenti:
 
-| Nome Campo        | Descrizione                                         |
-| ----------------- | --------------------------------------------------- |
-| companyName       | Ragione sociale EC                                  |
-| taxCode           | Codice fiscale/p.iva EC                             |
-| intermediated     | EC diretto/indiretto true\|false                    |
-| brokerCompanyName | Ragione sociale intermediario/partner               |
-| brokerTaxCode     | Codice fiscale intermediario/partner                |
-| model             | Impostato fisso a 3                                 |
-| auxDigit          | Aux Digit associato alla stazione                   |
-| segregationCode   | Codice segregazione associato alla stazione         |
-| applicationCode   | Application code associato alla stazione            |
-| cbillCode         | Codice CBILL Ente                                   |
-| stationId         | Id stazione associata all’ente                      |
-| stationState      | Stato associazione attivo/disattivo                 |
-| activationDate    | Data stato attivazione della stazione               |
-| version           | Versione della stazione                             |
-| broadcast         | Stazione di broadcast true\|false                   |
-| PSPpayment        | Flag che indica se EC permette pagamento presso PSP |
+| Nome Campo         | Descrizione                                                             |
+| ------------------ | ----------------------------------------------------------------------- |
+| companyName        | Ragione sociale EC                                                      |
+| taxCode            | Codice fiscale/p.iva EC                                                 |
+| intermediated      | EC diretto/indiretto true\|false                                        |
+| brokerCompanyName  | Ragione sociale intermediario/partner                                   |
+| brokerTaxCode      | Codice fiscale intermediario/partner                                    |
+| model              | Impostato fisso a 3                                                     |
+| auxDigit           | Aux Digit associato alla stazione                                       |
+| segregationCode    | Codice segregazione associato alla stazione                             |
+| applicationCode    | Application code associato alla stazione                                |
+| cbillCode          | Codice CBILL Ente                                                       |
+| stationId          | Id stazione associata all’ente                                          |
+| stationState       | Stato associazione attivo/disattivo                                     |
+| activationDate     | Data stato attivazione della stazione                                   |
+| version            | Versione della stazione                                                 |
+| broadcast          | Stazione di broadcast true\|false                                       |
+| PSPpayment         | Flag che indica se EC permette pagamento presso PSP                     |
+| endpoint RT        | URL dell'endpoint RT in caso di integrazione sincrona                   |
+| endpoint Redirect  | URL dell'endpoint Redirect in caso di integrazione sincrona             |
+| endpoint MU        | URL dell'endpoint MU in caso di integrazione sincrona con Modello Unico |
+| versione primitive | versione delle primitive                                                |
+| ecStatus           | stato dell'abilitazione dell'ente sulla piattaforma                     |
 
 Un esempio di file csv prodotto è il seguente:
 
