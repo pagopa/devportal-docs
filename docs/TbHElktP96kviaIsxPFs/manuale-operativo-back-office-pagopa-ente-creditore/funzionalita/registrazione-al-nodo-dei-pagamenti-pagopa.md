@@ -12,7 +12,7 @@ Il ruolo che ne possiede il **pieno potere** a livello di **operatività** è il
 Il **Referente Tecnico** possiede invece **pieno potere** a livello di **visualizzazione.**
 
 {% hint style="danger" %}
-Si precisa che la modalità di connessione al nodo "diretta" sta ad indicare che l'EC sceglie di connettersi direttamente al Nodo, utilizzando quindi le proprie infrastrutture ed i propri collegamenti. Avrà inoltre la possibilità di essere intermediario di altri EC indiretti e di associarli alle proprie stazioni attraverso la funzionalità [Associa EC](stazioni/associazione-di-un-ec-alla-stazione.md).
+Si precisa che la modalità di connessione al nodo "diretta" sta ad indicare che l'EC sceglie di connettersi direttamente al Nodo, utilizzando quindi le proprie infrastrutture ed i propri collegamenti. Avrà inoltre la possibilità di essere intermediario di altri EC indiretti e di associarli alle proprie stazioni attraverso la funzionalità [Associa EC](stazioni/associazione-eliminazione-modifica-di-un-ec-alla-stazione.md).
 
 Inoltre, una volta selezionata la modalità "diretta" non è possible da sistema cambiarla in "indiretta". Per fare ciò è necessario contattare l'assistenza tecnica.
 
@@ -72,7 +72,7 @@ L'utente procede alla **compilazione dei dati obbligatori e** sceglie la **modal
 
 L'utente, una volta **cliccato** su **"Conferma"**, visualizzerà il **pop up** informativo **per confermare la scelta** di volersi connettere direttamente al Nodo.&#x20;
 
-&#x20;Un EC che sceglie di connettersi direttamente al Nodo, utilizzando quindi le proprie infrastrutture ed i propri collegamenti, avrà la possibilità di essere intermediario di altri EC indiretti e di associarli alle proprie stazioni attraverso la funzionalità [Associa EC](stazioni/associazione-di-un-ec-alla-stazione.md).
+&#x20;Un EC che sceglie di connettersi direttamente al Nodo, utilizzando quindi le proprie infrastrutture ed i propri collegamenti, avrà la possibilità di essere intermediario di altri EC indiretti e di associarli alle proprie stazioni attraverso la funzionalità [Associa EC](stazioni/associazione-eliminazione-modifica-di-un-ec-alla-stazione.md).
 
 Una volta completati i campi obbligatori e aver cliccato sul tasto "Conferma", l'utente avrà completato la Registrazione al Nodo dei Pagamenti PagoPA.
 
