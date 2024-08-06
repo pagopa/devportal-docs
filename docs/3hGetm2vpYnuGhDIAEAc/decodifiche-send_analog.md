@@ -54,7 +54,7 @@ I codici possono differire a seconda del tipo di prodotto (RIR, AR, 890).
 
 | **deliveryDetailCode** | **Significato**                                                                                                                     |
 | ---------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
-| RECRS010               | In esito                                                                                                                            |
+| RECRS010               | Inesito parziale (destinatario assente)                                                                                             |
 | RECRS011               | In giacenza                                                                                                                         |
 | RECRS001C              | Consegnato - Fascicolo Chiuso                                                                                                       |
 | RECRS002A              | Mancata consegna - pre-esito                                                                                                        |
