@@ -54,7 +54,7 @@ I codici possono differire a seconda del tipo di prodotto (RIR, AR, 890).
 
 | **deliveryDetailCode** | **Significato**                                                                                                                     |
 | ---------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
-| RECRS010               | Inesito parziale (destinatario assente)                                                                                             |
+| RECRS010               | Esito negativo di consegna: il tentativo di consegna della raccomandata semplice non è andato a buon fine per destinatario assente. |
 | RECRS011               | In giacenza                                                                                                                         |
 | RECRS001C              | Consegnato - Fascicolo Chiuso                                                                                                       |
 | RECRS002A              | Mancata consegna - pre-esito                                                                                                        |
@@ -71,7 +71,6 @@ I codici possono differire a seconda del tipo di prodotto (RIR, AR, 890).
 | RECRS005B              | Compiuta giacenza - In Dematerializzazione                                                                                          |
 | RECRS005C              | Compiuta giacenza - Fascicolo Chiuso                                                                                                |
 | RECRS006               | Furto/Smarrimento/deterioramento                                                                                                    |
-| RECRS010               | Esito negativo di consegna: il tentativo di consegna della raccomandata semplice non è andato a buon fine per destinatario assente. |
 | RECRS013               | Non Rendicontabile                                                                                                                  |
 | RECRS015               | Causa Forza Maggiore                                                                                                                |
 
