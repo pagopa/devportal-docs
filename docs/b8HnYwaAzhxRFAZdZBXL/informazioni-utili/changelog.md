@@ -6,7 +6,17 @@ description: >-
 
 # Changelog
 
+<details>
 
+<summary>Agosto 2024</summary>
+
+### 1.0.105
+
+**7 agosto**
+
+* Bug fixing
+
+</details>
 
 <details>
 
