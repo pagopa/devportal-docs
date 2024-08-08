@@ -38,8 +38,8 @@ Lo stato può essere `"INSERTED", "IN PROCESS", "PROCESSED", "FAILED".`
 * Se si vuole infatti recuperare il singolo file di un avviso è possibile utilizzare l'API `/notices/folder/{folderId}/file/{fileId}/url` passando come path parameter sia la FolderID che il fileID ottenuto sopra.
 * Se invece si vuole recuperare l'intero archivio è necessario usare `/notices/folder/{folderId}/url` passando come path parameter la FolderID. L'api restituisce una signedUrl della durata di 5 minuti con la quale effettuare il download del file zip contenente i file generati.
 
-I file rimangono in archivio per un totale di **XX giorni** trascorsi i quali vengono eliminati.
+I file rimangono in archivio per un totale di **200 giorni** trascorsi i quali vengono eliminati.
 
 {% hint style="danger" %}
-L'API per la generazione massiva prevede un limite massimo pari a 1000 richieste di stampe.
+L'API per la generazione massiva prevede un limite massimo pari a 1000 richieste di stampe  e il tempo medio di produzione si aggira a circa 10 minuti.
 {% endhint %}
