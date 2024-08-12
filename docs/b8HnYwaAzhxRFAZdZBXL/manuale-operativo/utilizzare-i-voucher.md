@@ -96,7 +96,7 @@ Payload:
 
 ```
 {
-  "iss": "interop.selfcare.pagopa.it", 
+  "iss": "interop.pagopa.it", 
   "nbf": 1616170668,
   "iat": 1616170068,
   "exp": 1616170668,
@@ -137,6 +137,17 @@ In ultimo, il parametro `purposeId` dà il riferimento della finalità per la qu
 Per l'erogatore può essere necessario ottenere informazioni aggiuntive che non fanno parte dei campi standard previsti da PDND Interoperabilità all'interno della client assertion. Un esempio può essere l'indirizzo IP del chiamante, oppure informazioni relative all'operatore che sta effettuando la richiesta.
 
 Il meccanismo messo a punto permette all'erogatore di verificare che il fruitore abbia depositato una traccia su PDND Interoperabilità, che agisce da notaio in questo processo. Allo stesso tempo, le informazioni sono scambiate direttamente tra il fruitore e l'erogatore, senza che PDND Interoperabilità ne sia a conoscenza.
+
+Per maggiori informazioni rimandiamo alla [documentazione di AgID sui pattern di sicurezza](https://www.agid.gov.it/it/agenzia/stampa-e-comunicazione/notizie/2023/05/23/aggiornati-i-pattern-sicurezza-linee-guida-sullinteroperabilita-tecnica-pa).&#x20;
+
+{% hint style="info" %}
+Per poter vedere il "Documento operativo - Pattern di sicurezza" e relativi esempi contenuti nell'allegato "Linee guida sull’interoperabilità tecnica delle Pubbliche Amministrazioni" è necessario che lo stesso venga scaricato sul proprio pc e aperto con l'applicazione Adobe Acrobat. \
+In questo modo si avrà un indice di tutti gli allegati contenuti nel document come da screen.
+
+<img src="../.gitbook/assets/Screenshot 2024-05-20 alle 10.17.36.png" alt="" data-size="original">
+{% endhint %}
+
+
 
 ### Il flusso in breve
 

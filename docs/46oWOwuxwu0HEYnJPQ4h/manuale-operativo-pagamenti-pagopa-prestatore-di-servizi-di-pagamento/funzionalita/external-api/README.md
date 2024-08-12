@@ -1,15 +1,13 @@
 # External API
 
-{% hint style="warning" %}
-Le API descritte in questa sezione saranno disponibili negli ambienti di Collaudo e Produzione a partire dal 18/03/2024.
-{% endhint %}
-
 {% hint style="info" %}
 Le API descritte in questa sezione hanno lo scopo di sostituire la vecchia primitiva deprecata [nodoChiediInformativaPA](https://docs.pagopa.it/sanp/appendici/primitive#nodochiediinformativapa). ([Funzionalità deprecate](https://docs.pagopa.it/sanp/appendici/funzionalita-deprecate))
 {% endhint %}
 
 {% hint style="success" %}
-Lo swagger delle API è disponibile qui [https://github.com/pagopa/pagopa-api/blob/SANP3.7.0/openapi/openapi\_backoffice\_external\_psp.json](https://github.com/pagopa/pagopa-api/blob/SANP3.7.0/openapi/openapi\_backoffice\_external\_psp.json)
+Lo swagger delle API è disponibile qui&#x20;
+
+[https://developer.pagopa.it/pago-pa/api/elenco-IBAN-stazioni#/](https://developer.pagopa.it/pago-pa/api/elenco-IBAN-stazioni#/)
 {% endhint %}
 
 Questa sezione descrive le API che i PSP possono utilizzare per accedere alle seguenti informazioni:

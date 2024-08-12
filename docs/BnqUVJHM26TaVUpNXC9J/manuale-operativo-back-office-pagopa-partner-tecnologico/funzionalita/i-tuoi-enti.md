@@ -29,7 +29,7 @@ C'è anche la possibilità che un EC non si sia ancora registrato al nodo e pert
 
 Schiacciando su un elemento della lista il pulsante ">" è possibile accedere al dettaglio dell'EC in cui visualizzare le informazioni sul Referente dei Pagamenti e sul Tavolo Operativo oltre che visualizzare le stazioni in cui quell'EC è associato.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-04-12 alle 17.22.09.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2024-05-10 alle 12.28.05.png" alt=""><figcaption></figcaption></figure>
 
 Entrando nel dettaglio della singola stazione (tasto ">") si accede alla sezione di dettaglio dalla quale è possibile anche eliminare l'ente dalla stazione con il pulsante "Dissocia stazione"
 

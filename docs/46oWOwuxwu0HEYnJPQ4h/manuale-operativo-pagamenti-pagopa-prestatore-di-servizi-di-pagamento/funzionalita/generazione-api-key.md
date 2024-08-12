@@ -12,7 +12,7 @@ Il ruolo che ne possiede il **pieno potere** a livello di **operatività** è il
 * interno al **PSP**, nel caso di soggetto **direttamente connesso** al Nodo dei Pagamenti PagoPA;
 * dell’**Intermediario Tecnologico** o del **Partner tecnologico** del **PSP**, nel caso di soggetto **non direttamente connesso** al Nodo dei Pagamenti PagoPA.
 
-Il **Responsabile Amministrativo** possiede invece **pieno** **potere** a livello di **visualizzazione.**
+L' **Amministratore** possiede invece **pieno** **potere** a livello di **visualizzazione.**
 
 
 
@@ -81,7 +81,7 @@ Per procedere è necessario ritornare nella Panoramica - Area Riservata, selezio
 
 Dalla Panoramica - Area riservata, dopo aver cliccato sul pulsante "Gestisci" del prodotto è possibile selezionare il secondo ambiente per cui si intende effettuare la generazione es. **"Produzione".**
 
-<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption><p><em>Pop up di selezione ambiente target</em></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (11) (2).png" alt=""><figcaption><p><em>Pop up di selezione ambiente target</em></p></figcaption></figure>
 
 ### Sezione API Key: Ambiente di Produzione
 

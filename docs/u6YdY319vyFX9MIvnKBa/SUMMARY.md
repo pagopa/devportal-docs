@@ -13,6 +13,7 @@
   * [BancomatPay](dati-canale-pagamento/bancomatpay.md)
   * [ApplePay](dati-canale-pagamento/applepay.md)
   * [Google Pay](dati-canale-pagamento/google-pay.md)
+  * [Satispay](dati-canale-pagamento/satispay.md)
   * [Redirect](dati-canale-pagamento/redirect.md)
 * [Conto corrente alternativo](conto-corrente-alternativo.md)
 * [TARI-TEFA ordinaria 2023](tari-tefa-ordinaria-2023.md)

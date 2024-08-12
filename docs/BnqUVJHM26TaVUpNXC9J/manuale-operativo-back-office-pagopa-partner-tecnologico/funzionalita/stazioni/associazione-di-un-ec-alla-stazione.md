@@ -5,7 +5,7 @@ description: >-
   al Nodo dei Pagamenti PagoPA.
 ---
 
-# Associazione di un EC alla Stazione
+# Associazione\Eliminazione\Modifica di un EC alla Stazione
 
 {% hint style="warning" %}
 Nota: qualora il _**Partner Tecnologico**_ volesse associare un EC ad una Stazione è necessario che l'EC abbia completato la fase di [registrazione al nodo dei pagamenti](../registrazione-al-nodo-dei-pagamenti-pagopa.md). In caso contrario otterrà un errore e non potrà procedere con l'associazione. Di seguito l'esempio di errore.
@@ -31,6 +31,8 @@ Nel caso in cui il PT abbia già **associato EC alla stazione**, l'utente nella 
 * Segregation code
 * Application code
 * Broadcast: Attivo/Non attivo
+* Archivio Centralizzato Avvisi (maggiori info in [https://docs.pagopa.it/sanp/ente-creditore/modalita-dintegrazione/integrazione-tramite-api-sincrone#archivio-centralizzato-avvisi](https://docs.pagopa.it/sanp/ente-creditore/modalita-dintegrazione/integrazione-tramite-api-sincrone#archivio-centralizzato-avvisi))
+* StandIN (maggiori info in [https://docs.pagopa.it/sanp/specifiche-attuative-del-nodo-dei-pagamenti-spc/funzionamento-generale/stand-in#gestione-degli-avvisi-di-pagamento-pagati-in-stand-in-nel-caso-di-conferimento-allaca-tramite-la-pac](https://docs.pagopa.it/sanp/specifiche-attuative-del-nodo-dei-pagamenti-spc/funzionamento-generale/stand-in#gestione-degli-avvisi-di-pagamento-pagati-in-stand-in-nel-caso-di-conferimento-allaca-tramite-la-pac))
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2024-01-23 alle 17.35.07.png" alt=""><figcaption><p><em>Pagina Gestione EC - tabella lista EC</em></p></figcaption></figure>
 
@@ -38,7 +40,7 @@ Dalla pagina Gestione EC è possibile associare alla stazione un EC **cliccando*
 
 A questo punto l'utente potrà **accedere** alla pagina **"Associa EC"** nella quale dovrà andare ad inserire i dati necessari per l'associazione.
 
-<figure><img src="../../../.gitbook/assets/image (35).png" alt=""><figcaption><p><em>Associa intermediario - da completare</em></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (219).png" alt=""><figcaption></figcaption></figure>
 
 In particolare l'utente è tenuto a **specificare** i seguenti dati:
 
@@ -55,8 +57,10 @@ Per maggiori info fare riferimento a [https://docs.pagopa.it/saci/specifiche-att
 {% endhint %}
 
 * **Broadcast**: flag attraverso cui è possibile impostarlo come attivo o disattivo.
+*   Flag **Archivio Centralizzato Avvisi:** campo SI / NO (default SI) che serve a specificare se l'ente può inviare le posizioni debitorie nell'ACA per permettere la continuità operativa (StandIN) in caso di malfunzionamenti della stazione.  Si ricorda infatti che nel caso in cui i dati NON siano dall’EC comunicati ad ACA lo Stand In non potrà essere attivato. Pertanto, all'EC viene addebitato un importo fisso di 5 centesimi per ciascun pagamento, funzionale alla gestione del processo fuori da Stand In.
 
-<figure><img src="../../../.gitbook/assets/image (36).png" alt=""><figcaption><p><em>Associa intermediario - Conferma</em></p></figcaption></figure>
+    Ai fini della fatturazione dello Stand In vale l’anagrafica delle EC fornita in sede di adesione alla piattaforma pagoPA ovvero quella risultante alla data del 1 gennaio 2025 in caso di aggiornamento della stessa anagrafica da parte dell’Ente antecedentemente a tale data.maggiori info in [https://docs.pagopa.it/sanp/ente-creditore/modalita-dintegrazione/integrazione-tramite-api-sincrone#archivio-centralizzato-avvisi](https://docs.pagopa.it/sanp/ente-creditore/modalita-dintegrazione/integrazione-tramite-api-sincrone#archivio-centralizzato-avvisi) e [https://docs.pagopa.it/sanp/specifiche-attuative-del-nodo-dei-pagamenti-spc/funzionamento-generale/stand-in](https://docs.pagopa.it/sanp/specifiche-attuative-del-nodo-dei-pagamenti-spc/funzionamento-generale/stand-in)
+* Flag **StandIN:**  campo SI / NO che serve a determinare se possono essere gestiti per quell'EC / Stazione i pagamenti in StandIN. Maggiori info in [https://docs.pagopa.it/sanp/specifiche-attuative-del-nodo-dei-pagamenti-spc/funzionamento-generale/stand-in](https://docs.pagopa.it/sanp/specifiche-attuative-del-nodo-dei-pagamenti-spc/funzionamento-generale/stand-in)
 
 Una volta **completati** tutti i **campi** l'utente potrà **finalizzare** l'operazione **cliccando** sul tasto "**Conferma**" abilitato e verrà reindirizzato alla pagina "Gestisci EC" in cui visualizzerà nell'apposita tabella l'EC appena associato.
 
@@ -64,19 +68,32 @@ Una volta **completati** tutti i **campi** l'utente potrà **finalizzare** l'ope
 
 ### Dissocia EC
 
-Nel caso in cui l'utente intenda procedere alla **dissociazione** dell'EC dalla stazione, potrà **cliccare** sull'apposito **tastino rosso** presente all'interno della tabella per ciascun EC associato.
+Nel caso in cui l'utente intenda procedere alla **dissociazione** dell'EC dalla stazione, potrà **cliccare** sull'apposito **menu a destra e selezionare "Dissocia EC".**
 
-<figure><img src="../../../.gitbook/assets/image (38).png" alt=""><figcaption><p><em>Pagina Gestione EC - tabella elenco EC - tasto dissocia</em></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (220).png" alt=""><figcaption></figcaption></figure>
 
 Una volta **cliccato**, l'utente visualizzerà il **pop up** in cui gli viene chiesto di **confermare** la **scelta** di volere **dissociare** l'EC dalla stazione.
 
 <figure><img src="../../../.gitbook/assets/image (39).png" alt=""><figcaption><p> <em>Pop up Conferma dissociazione</em></p></figcaption></figure>
 
-Una volta aver cliccato su "Conferma" l'utente verrà reindirizzato alla pagina "Gestisci EC" e visualizzerà la notifica di conferma "EC dissociato con successo".
+Una volta aver cliccato su "Conferma" l'utente verrà reindirizzato alla pagina "Gestisci EC" e visualizzerà la notifica di conferma "Operazione completata con successo".
 
-<figure><img src="../../../.gitbook/assets/image (40).png" alt=""><figcaption><p><em>Pagina Gestione EC - tabella elenco EC - Ec dissociato con successo</em></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (221).png" alt=""><figcaption></figcaption></figure>
 
+### Modifica EC
 
+Nel caso in cui l'utente intenda procedere alla **modifica di alcuni campi** dell'EC dalla stazione, potrà **cliccare** sull'apposito **menu Modifica** presente all'interno della tabella per ciascun EC associato.
 
+<figure><img src="../../../.gitbook/assets/image (222).png" alt=""><figcaption></figcaption></figure>
 
+I campi che possono essere modificati sono i seguenti:
 
+* **Broadcast**
+* **Archivio Centralizzato Avvisi** (maggiori info nella sezione di sopra)
+* **StandIN** (maggiori info nella sezione di sopra)
+
+<figure><img src="../../../.gitbook/assets/image (223).png" alt=""><figcaption></figcaption></figure>
+
+Una volta aver cliccato su "Conferma" l'utente verrà reindirizzato alla pagina "Gestisci EC" e visualizzerà la notifica di conferma "Operazione completata con successo".
+
+<figure><img src="../../../.gitbook/assets/image (224).png" alt=""><figcaption></figcaption></figure>

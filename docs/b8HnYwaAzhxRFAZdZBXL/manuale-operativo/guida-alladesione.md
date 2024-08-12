@@ -117,7 +117,7 @@ A seconda del percorso che si vuole intraprendere è necessario:
 
 1. scaricare uno o entrambi dei seguenti template;
 2. compilarli con i dati della persona per cui si sta inoltrando la richiesta;
-3. far firmare digitalmente il documento tramite formato CAdES alla persona indicata come Legale Rappresentante durante la procedura di adesione;
+3. far firmare digitalmente il documento tramite formato CAdES alla persona indicata come Legale Rappresentante;
 4. inviare il documento dal domicilio digitale dell'ente, indicato all'interno del catalogo IPA, alla PEC: selfcare@pec.pagopa.it
 
 {% hint style="info" %}

@@ -7,7 +7,7 @@ description: >-
 
 # Registrazione al Nodo dei pagamenti PagoPA
 
-Il ruolo che ne possiede il **pieno potere** a livello di **operatività** è il **Responsabile Amministrativo.**
+Il ruolo che ne possiede il **pieno potere** a livello di **operatività** è l' **Amministratore.**
 
 {% hint style="danger" %}
 Si precisa che la modalità di connessione al nodo "diretta" sta ad indicare che il PSP sceglie di connettersi direttamente al Nodo, utilizzando quindi le proprie infrastrutture ed i propri collegamenti. Avrà inoltre la possibilità di essere intermediario di altri PSP indiretti e di associarli ai propri canali attraverso la funzionalità [Associa PSP](canale/associazione-di-un-psp-al-canale.md)
@@ -32,13 +32,13 @@ Per procedere, è necessario che l'utente completi la **compilazione** dei **cam
 
 Inoltre, l'utente oltre a dover procedere alla compilazione dei suddetti campi, è **tenuto** ad **esprimere** la scelta relativa alla **modalità** di **connessione** al **Nodo**. Tale scelta avviene **tramite** **selezione** **dell'opzione "Diretta"/"Indiretta"** all'interno della **sezione** **"Modalità di connessione al Nodo"**.
 
-<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption><p><em>Form Registrazione sul Nodo</em></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (2).png" alt=""><figcaption><p><em>Form Registrazione sul Nodo</em></p></figcaption></figure>
 
 #### Caso 1: Modalità di connessione al Nodo indiretta
 
 L'utente procede alla **compilazione dei dati obbligatori e** sceglie la **modalità indiretta** di connessione al Nodo**.**
 
-<figure><img src="../../.gitbook/assets/image (7) (1).png" alt=""><figcaption><p><em>Registrazione al Nodo - Connessione indiretta - Conferma</em></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1) (1).png" alt=""><figcaption><p><em>Registrazione al Nodo - Connessione indiretta - Conferma</em></p></figcaption></figure>
 
 Una volta completati tutti i campi obbligatori e aver cliccato sul tasto "Conferma", l'utente avrà completato la Registrazione al Nodo dei Pagamenti PagoPA.
 
@@ -54,7 +54,7 @@ Questo verrà reindirizzato alla Panoramica in cui potrà visualizzare il riepil
 * Stato **"Abilitato".**
 * Intermediario di altri  **"Non disponibile"**
 
-<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption><p><em>Panoramica - PSP indiretto - Registrazione completata</em></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9) (2).png" alt=""><figcaption><p><em>Panoramica - PSP indiretto - Registrazione completata</em></p></figcaption></figure>
 
 
 
@@ -62,7 +62,7 @@ Questo verrà reindirizzato alla Panoramica in cui potrà visualizzare il riepil
 
 L'utente procede alla **compilazione dei dati obbligatori e** sceglie la **modalità diretta** di connessione al Nodo**.**
 
-<figure><img src="../../.gitbook/assets/image (8) (1).png" alt=""><figcaption><p><em>Registrazione al Nodo - Connessione diretta - Conferma</em></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (1) (1).png" alt=""><figcaption><p><em>Registrazione al Nodo - Connessione diretta - Conferma</em></p></figcaption></figure>
 
 L'utente, una volta **cliccato** su **"Conferma"**, visualizzerà il **pop up** informativo **per confermare la scelta** di volersi connettere direttamente al Nodo.&#x20;
 
@@ -82,7 +82,7 @@ Questo verrà reindirizzato alla Panoramica in cui potrà visualizzare il riepil
 * Stato **"Abilitato".**
 * Intermediario di altri  **"Disponibile"**
 
-<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption><p><em>Panoramica - PSP diretto - Registrazione completata</em></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10) (2).png" alt=""><figcaption><p><em>Panoramica - PSP diretto - Registrazione completata</em></p></figcaption></figure>
 
 
 

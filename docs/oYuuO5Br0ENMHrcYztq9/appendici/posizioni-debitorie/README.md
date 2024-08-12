@@ -6,4 +6,4 @@ Il servizio, oltre ad aggiornare lo stato delle posizioni debitorie a seguito de
 
 Per quanto riguarda i **pagamenti spontanei** sono messe a disposizione delle funzionalità per l'adesione ai singoli servizi da parte dei Partner Tecnologici, Intermediari Tecnologici ed eventualmente direttamente agli Enti Creditori che sono interessati.
 
-L'adesione al servizio è su base volontaria, per la procedura fare riferimento a [Broken link](broken-reference "mention").
+L'adesione al servizio è su base volontaria, per la procedura fare riferimento al manuale _BackOffice-pagopa_ sezione [Generazione API Key](https://docs.pagopa.it/manuale-back-office-pagopa/manuale-operativo-back-office-pagopa-ente-creditore/funzionalita/generazione-api-key)

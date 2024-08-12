@@ -40,4 +40,4 @@ Nel caso in cui sono già **stati creati canali**, l'utente nella suddetta _Pagi
 * Data modifica (corrispondente all'ultima modifica dei parametri di configurazione del canale nella _Pagina di dettaglio_ [Creazione - Pagina di dettaglio (configurazione canale)](creazione.md#pagina-di-dettaglio-configurazione-canale) )
 * Stato: che mostra il dettaglio sullo **stato di avanzamento** del processo di creazione del canale e può assumere il valore: "**In revisione":** il canale è stato creato, ma in attesa di revisione da parte di PagoPA); **"Attivo"** (il canale è correttamente in esercizio).
 
-<figure><img src="../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption><p><em>Pagina Vista Canali - tabella elenco Canali</em></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption><p><em>Pagina Vista Canali - tabella elenco Canali</em></p></figcaption></figure>

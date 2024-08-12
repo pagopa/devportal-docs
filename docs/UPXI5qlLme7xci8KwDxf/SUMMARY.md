@@ -30,7 +30,7 @@
 * [The types of services](the-services-on-io/service-types.md)
 * [Sensitive information](the-services-on-io/sensitive-information.md)
 
-## 🖍 HOW TO CREATE A SERVICE
+## 🖍️ HOW TO CREATE A SERVICE
 
 * [The service tab](how-to-create-a-service/the-service-card/README.md)
   * [Name of the service](how-to-create-a-service/the-service-card/name-of-the-service.md)
@@ -81,7 +81,7 @@
   * [Fines for traffic code violations](catalog-of-services-and-models/the-models-of-the-most-frequent-services/highway-code-violation-tickets.md)
   * [Vehicle towing](catalog-of-services-and-models/the-models-of-the-most-frequent-services/vehicle-towing.md)
 
-## ⬇ APPENDIX
+## ⬇️ APPENDIX
 
 * [Glossary](appendix/glossary.md)
 * [Checklist](appendix/control-list.md)

@@ -6,11 +6,136 @@ description: >-
 
 # Changelog
 
+<details>
 
+<summary>Agosto 2024</summary>
+
+### 1.0.105
+
+**7 agosto**
+
+* Bug fixing
+
+</details>
+
+<details>
+
+<summary>Luglio 2024</summary>
+
+### 1.0.104
+
+**30 luglio**
+
+* Bug fixing
+
+### 1.0.103
+
+**29 luglio**
+
+* Bug fixing
+* Possibilità di modificare la descrizione di un e-service già pubblicato
+* Aggiunta di campi precompilati quando si va a creare una nuova versione di e-service
+* Aggiunta link alle best practice per la nomenclatura degli e-service
+* Aggiunta link all'OpenAPI checker
+* Presenza del correlationID che viene esposto in caso di errore durante la pubblicazione di un e-service
+
+### 1.0.102
+
+**23 luglio**
+
+* Bug fixing
+
+### 1.0.101
+
+**17 luglio**
+
+* Bug fixing
+
+### 1.0.100
+
+**12 luglio**
+
+* Bug fixing
+* Adeguamento infrastrutturale
+
+### 1.0.99
+
+**2 luglio**
+
+* Bug fixing
+* Rilasciata la nuova feature di import / export degli e-service da un ambiente all'altro
+* Rilasciata la nuova feature di invio di mail all'erogatore di un e-service come notifica quando c'è una richiesta di fruizione da approvare
+
+</details>
+
+<details>
+
+<summary>Giugno 2024</summary>
+
+### 1.0.98
+
+**25 giugno**
+
+* Bug fixing
+* Aggiunta la possibilità di modificare la documentazione all'interno di e-service già pubblicati senza dover creare una nuova versione
+
+### 1.0.97
+
+**23 giugno**
+
+* Bug fixing
+* Adeguamento infrastrutturale
+
+### 1.0.96
+
+**19 giugno**
+
+* Bug fixing
+
+### 1.0.95
+
+**17 giugno**
+
+* Bug fixing
+
+### 1.0.94
+
+**5 giugno**
+
+* Bug fixing
+
+### 1.0.93
+
+**4 giugno**
+
+* Bug fixing
+
+</details>
 
 <details>
 
 <summary>Maggio 2024</summary>
+
+### 1.0.92
+
+**30 maggio**
+
+* Bug fixing
+* Aggiunta possibilità di modificare la durata del voucher e le soglie di carico dell'e-service senza creare una nuova versione
+* Integrazione di MixPanel e OneTrust sul sito PDND Interoperabilità
+* Aggiunta la possibilità di clonare una finalità associandola ad un e-service differente da quello di partenza
+
+### 1.0.91
+
+**23 maggio**
+
+* Bug fixing
+
+### 1.0.90
+
+**9 maggio**
+
+* Bug fixing
 
 ### 1.0.89
 
