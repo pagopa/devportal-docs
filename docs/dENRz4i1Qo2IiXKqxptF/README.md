@@ -1,27 +1,25 @@
-# Premessa
+# Preamble
 
-**Allegato A alle "Linee guida per l'effettuazione dei pagamenti elettronici a favore delle pubbliche amministrazioni e dei gestori di pubblici servizi" edite da PagoPA SpA - versione 3.2.1 - aprile 2024**
+**Annex A to the "Guidelines for making electronic payments to public administrations and public service providers" published by PagoPA SpA - version 3.2.1 - April 2024**
 
-A decorrere dall'emanazione del decreto-legge 18 ottobre 2012, n. 179 convertito, con modificazioni, dalla legge 17 dicembre 2012, n. 221, sono state introdotte importanti modifiche all’articolo 5 del CAD (Effettuazione di pagamenti con modalità informatiche).&#x20;
+Since the enactment of Decree-Law No. 179 of October 18, 2012, converted, with amendments, by Law No. 221 of December 17, 2012, important changes have been introduced to Article 5 of the CAD (Making payments by electronic means). 
 
-Tutte le modifiche intercorse nel tempo sono state volte a favorire l’azzeramento del “_digital divide_” e lo sviluppo dell’utilizzo della moneta elettronica anche nei pagamenti verso le pubbliche amministrazioni e altri soggetti di interesse pubblico tramite la previsione di una piattaforma centralizzata per l'esecuzione di pagamenti pubblici.&#x20;
+All the changes made over time have been aimed at encouraging the closing of the "digital divide" and the development of the use of e-cash also in payments to public administrations and other public interest entities through the provision of a centralized platform for the execution of public payments. 
 
-Al fine di dare pratica attuazione all’articolo 5 del CAD, l'Agenzia per l'Italia digitale, sentita la Banca d'Italia, come puntualmente previsto al comma 4 dello stesso articolo 5 del CAD, ha emanato e pubblicato il documento (di seguito, Linee guida) che, nell’illustrare le modalità da adottare per l’effettuazione di detti pagamenti, rimanda a specifici documenti tecnici.
+In order to give practical implementation to Article 5 of the CAD, the Agency for Digital Italy, having consulted the Bank of Italy, as punctually provided for in paragraph 4 of the same Article 5 of the CAD, issued and published the document (hereinafter, Guidelines) which, in illustrating the methods to be adopted for the execution of said payments, refers to specific technical documents.
 
-Le presenti specifiche attuative rappresentano l’**Allegato A** alle citate Linee Guida e devono essere utilizzate in combinazione con quest’ultime, nonché con l'**Allegato B (SANP)**, documenti ai quali si rimanda per tutte le voci e gli argomenti qui non specificatamente indicati.
+These Implementation Specifications constitute **Annex A** to the aforementioned Guidelines and should be used in conjunction with the latter, as well as with **Annex B (SANP)**, documents to which reference is made for all items and topics not specifically indicated herein.
 
-Nel seguito, indicheremo con la dicitura **“EC”** le pubbliche amministrazioni, le società a controllo pubblico o i gestori di pubblici servizi che, a vario titolo, sono creditori di somme nei confronti degli utilizzatori finali.
+In what follows, we will use the term **“Creditors”** to refer to public administrations, publicly controlled companies or public service providers that, in various capacities, are creditors of amounts to end users.
 
-Come riportato nelle citate Linee guida, le presenti specifiche fanno riferimento agli standard internazionali SEPA che utilizzano il formato [UNIFI ISO 20022](http://www.iso20022.org/).
+As stated in the aforementioned Guidelines, these specifications refer to the international SEPA standards using the [UNIFI ISO 20022](http://www.iso20022.org/) format.
 
 ## Roadmap
 
-La piattaforma pagoPA è in un percorso di continua evoluzione allo scopo di migliorare i servizi a favore dei Cittadini.&#x20;
+The pagoPA platform is on a path of continuous evolution in order to improve the services offered to Citizens. 
 
-Gli aggiornamenti della piattaforma sono comunicati a tutti gli Aderenti tramite un dedicato processo di comunicazione periodica a cadenza trimestrale.&#x20;
+Platform updates are communicated to all participating PSPs through a dedicated periodic communication process on a quarterly basis. 
 
-In questa versione delle SACI sono descritte le funzionalità attuali o che rientrano nel suddetto percorso di evoluzione.
+This version of the SACI (Implementation specifications of payment, remittance and reporting identification codes) describes the features that are current or that are part of the aforementioned evolution path.
 
-{% hint style="info" %}
-Per tutte le specifiche relative a funzionalità in essere o precedenti e non contemplate nel presente documento [è possibile far riferimento alla versione 2.0.0](https://app.gitbook.com/o/KXYtsf32WSKm6ga638R3/s/E6d6iTzjBzUfzNoZjadZ/)
-{% endhint %}
+{% hint style="info" %} For all specifications related to existing or previous features and not covered in this document [refer to version 2.0.0](https://app.gitbook.com/o/KXYtsf32WSKm6ga638R3/s/E6d6iTzjBzUfzNoZjadZ/) {% endhint %}

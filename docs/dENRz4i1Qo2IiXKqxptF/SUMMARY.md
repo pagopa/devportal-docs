@@ -1,13 +1,13 @@
 # Table of contents
 
-* [⬅️ Torna a pagoPA.gov.it](https://www.pagopa.gov.it/)
+* [⬅️ Back to pagoPA.gov.it](https://www.pagopa.gov.it/)
 
-## SPECIFICHE ATTUATIVE DEI CODICI IDENTIFICATIVI DI VERSAMENTO, RIVERSAMENTO E RENDICONTAZIONE
+## IMPLEMENTATION SPECIFICATIONS OF PAYMENT, REMITTANCE AND REPORTING IDENTIFICATION CODES
 
-* [Premessa](README.md)
-* [Changelog](specifiche-attuative-dei-codici-identificativi-di-versamento-riversamento-e-rendicontazione/changelog.md)
-* [Glossario](specifiche-attuative-dei-codici-identificativi-di-versamento-riversamento-e-rendicontazione/glossario.md)
-* [Generazione dell’Identificativo Univoco di Versamento](specifiche-attuative-dei-codici-identificativi-di-versamento-riversamento-e-rendicontazione/generazione-dellidentificativo-univoco-di-versamento.md)
-* [Operazione di trasferimento fondi](specifiche-attuative-dei-codici-identificativi-di-versamento-riversamento-e-rendicontazione/operazione-di-trasferimento-fondi.md)
-* [Flusso di Rendicontazione](specifiche-attuative-dei-codici-identificativi-di-versamento-riversamento-e-rendicontazione/flusso-di-rendicontazione.md)
-* [Riconciliazione del flusso di riversamento](specifiche-attuative-dei-codici-identificativi-di-versamento-riversamento-e-rendicontazione/riconciliazione-del-flusso-di-riversamento.md)
+* [Preamble](README.md)
+* [Changelog](implementation-specifications-of-payment-remittance-and-reporting-identification-codes/changelog.md)
+* [Glossary](implementation-specifications-of-payment-remittance-and-reporting-identification-codes/glossary.md)
+* [Generation of Univocal Payment Identifier](implementation-specifications-of-payment-remittance-and-reporting-identification-codes/generation-of-univocal-payment-identifier.md)
+* [Fund transfer operation](implementation-specifications-of-payment-remittance-and-reporting-identification-codes/fund-transfer-operation.md)
+* [Reporting Flow](implementation-specifications-of-payment-remittance-and-reporting-identification-codes/reporting-flow.md)
+* [Reconciliation of remittance flow](implementation-specifications-of-payment-remittance-and-reporting-identification-codes/reconciliation-of-remittance-flow.md)
