@@ -60,5 +60,5 @@ La sezione _Bollettino Postale_ avrà i seguenti campi:
 * **Cf\_ente ->** codice fiscale o partita IVA dell'Ente Creditore;
 * **Importo ->** importo del pagamento.
 
-Maggiori informazioni circa il template con Bollettino Postale sono disponibili al link: [https://docs.pagopa.it/avviso-pagamento/allegato-2/specifiche-tecniche/dati-per-il-pagamento/bollettino-postale-pa](https://docs.pagopa.it/avviso-pagamento/allegato-2/specifiche-tecniche/dati-per-il-pagamento/bollettino-postale-pa).
+Maggiori informazioni circa il template con Bollettino Postale sono disponibili  nelle [Specifiche Tecniche - sezione Dati per il Pagamento con bollettino Postale della "Guida tecnica agli avvisi di pagamento"](https://docs.pagopa.it/avviso-pagamento/allegato-2/specifiche-tecniche/dati-per-il-pagamento/bollettino-postale-pa).
 

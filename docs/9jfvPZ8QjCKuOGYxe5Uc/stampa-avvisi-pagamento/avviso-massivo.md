@@ -2,11 +2,11 @@
 
 La stampa dell'avviso secondo la modalità massiva, prevede che l'API che va a generare i PDF, fornisca in output una url con la quale andare ad eseguire il download di tutti i pdf prodotti.
 
-I template da utilizzare seguono le linee guida e le specifiche tecniche fornite da PagoPA indicate al seguente link: [https://docs.pagopa.it/avviso-pagamento/allegato-2/specifiche-tecniche](https://docs.pagopa.it/avviso-pagamento/allegato-2/specifiche-tecniche).
+I template da utilizzare seguono le linee guida e le specifiche tecniche fornite da PagoPA e sono riportati nella sezione ["Specifiche Tecniche" della "Guida tecnica agli avvisi di pagamento"](https://docs.pagopa.it/avviso-pagamento/allegato-2/specifiche-tecniche).
 
 A differenza del processo di stampa singola (si veda [Avviso Singolo ](avviso-singolo.md)per maggiori info) il processo massivo prevede alcuni step differenti che sono descritti nel diagramma e nelle sezioni di seguito.
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/avviso_massivo.png" alt=""><figcaption><p>Diagramma avviso massivo</p></figcaption></figure>
 
 * dopo aver avviato il processo con `POST /notices/generate-massive` (che prevede in input l'array di avvisi e i relativi template id) l'API restituisce in output una `folderID`
 
