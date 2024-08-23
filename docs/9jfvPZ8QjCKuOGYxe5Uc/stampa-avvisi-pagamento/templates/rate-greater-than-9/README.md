@@ -53,4 +53,4 @@ Per poter utilizzare il template _rata multiple (>9)_, bisogna inserire nel camp
 
 Per le altre sezioni di cui si compone il template con rate multiple (>9) si seguono le stesse logiche descritte in [Templare con rate (2..9)](../rate-2..9/).
 
-Tutte le specifiche tecniche per la progettazione del template con rate multiple in nnumero superiore a 9 sono disponibili al link: [https://docs.pagopa.it/avviso-pagamento/allegato-1/varianti/avviso-con-molte-rate](https://docs.pagopa.it/avviso-pagamento/allegato-1/varianti/avviso-con-molte-rate).
+Tutte le specifiche tecniche per la progettazione del template con rate multiple in nnumero superiore a 9 sono disponibili  nella sezione [Avviso con molte rate della "Guida tecnica sugli avvisi di pagamento pagoPA"](https://docs.pagopa.it/avviso-pagamento/allegato-1/varianti/avviso-con-molte-rate).

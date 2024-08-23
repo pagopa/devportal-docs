@@ -1,6 +1,6 @@
 # Rate (2..9)
 
-Questo modello può essere utilizzato quando l'avviso di pagamento si compone di un numero di rate da 2 a 9 (maggiori dettagli in [https://docs.pagopa.it/avviso-pagamento/allegato-2/specifiche-tecniche/dati-per-il-pagamento/rate-multiple](https://docs.pagopa.it/avviso-pagamento/allegato-2/specifiche-tecniche/dati-per-il-pagamento/rate-multiple)).
+Questo modello può essere utilizzato quando l'avviso di pagamento si compone di un numero di rate da 2 a 9 (maggiori dettagli nella sezione[ Rate Multiple della "Guida Tecnica agli avvisi di pagamento"](https://docs.pagopa.it/avviso-pagamento/allegato-2/specifiche-tecniche/dati-per-il-pagamento/rate-multiple)).
 
 Di seguito un esempio della `POST/notices/generate` da effettuare con il popolamento dei campi per la generazione del template con un numero di rate da 2 a 9:
 
@@ -88,9 +88,9 @@ Questa sezione contiene le informazioni relative al soggetto debitore:
 È la sezione che contiene tutte le informazioni necessarie per effettuare il pagamento.
 
 * **Avviso.Rata.n.Codice** **->** rappresenta il numero avviso per la rata **n**, dove **n** indica il numero della rata;
-* **Avviso.Rata.n.Qrcode** **->** rappresenta il codice a barre bidimensionale per la rata **n**, dove **n** indica il numero della rata. Segue le logiche descritte in [https://docs.pagopa.it/avviso-pagamento/allegato-2/specifiche-tecniche/dati-per-il-pagamento/codice-qr](https://docs.pagopa.it/avviso-pagamento/allegato-2/specifiche-tecniche/dati-per-il-pagamento/codice-qr);
+* **Avviso.Rata.n.Qrcode** **->** rappresenta il codice a barre bidimensionale per la rata **n**, dove **n** indica il numero della rata. Segue le logiche descritte nella sezione SpecificheTecniche - Codice QR della **"**[Guida tecnica sugli avvisi di pagamento pagoPA](https://docs.pagopa.it/avviso-pagamento/allegato-2/specifiche-tecniche/dati-per-il-pagamento/codice-qr)";
 * **Avviso.Codice** **->** corrispondente al campo `code` della `POST /notices/generate`;
 * **Ente.Cbill ->** codice interbancario dell'Ente Creditore, conosciuto anche come Codice SIA recuperato dal Backoffice pagoPA (vedi [Compilazione dati configurazione su Backoffice pagoPA](../../compilazione-dati-configurazione-su-backoffice-pagopa.md)).
 
-Tutte le specifiche tecniche per la progettazione del template con rate multiple (da 2 a 9), sono disponibili al link: [https://docs.pagopa.it/avviso-pagamento/allegato-2/specifiche-tecniche/dati-per-il-pagamento/rate-multiple](https://docs.pagopa.it/avviso-pagamento/allegato-2/specifiche-tecniche/dati-per-il-pagamento/rate-multiple).
+Tutte le specifiche tecniche per la progettazione del template con rate multiple (da 2 a 9), sono disponibili nella sezione[ Rate Multiple](https://docs.pagopa.it/avviso-pagamento/allegato-2/specifiche-tecniche/dati-per-il-pagamento/rate-multiple).
 

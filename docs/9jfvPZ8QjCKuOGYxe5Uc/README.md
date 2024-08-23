@@ -8,11 +8,11 @@ Per raggiungere quest’obiettivo la piattaforma mette a disposizione un servizi
 
 In questo modo è possibile ottenere per l’utilizzatore del servizio, la stampa PDF di un avviso di pagamento, fornendo i dati ed il template da utilizzare, in modo tale che si possa utilizzare con facilità un modello per l’avviso al cittadino.
 
-I template da utilizzare seguono le linee guida e le specifiche tecniche fornite da PagoPA indicate al seguente link: [https://docs.pagopa.it/avviso-pagamento/allegato-2/specifiche-tecniche](https://docs.pagopa.it/avviso-pagamento/allegato-2/specifiche-tecniche).
+I template da utilizzare seguono le linee guida e le specifiche tecniche fornite da PagoPA indicate nella "[Guida tecnica sugli avvisi di pagamento pagoPA - Allegato 2 - Specifiche Tecniche](https://docs.pagopa.it/avviso-pagamento/allegato-2/specifiche-tecniche)" .
 
-Le prossime sezioni del documento descrivono le modalità per poter utilizzare le API native della piattaforma pagoPA al fine di stampare in autonomia gli avvisi di pagamento secondo le specifiche tecniche descritte in [https://docs.pagopa.it/avviso-pagamento](https://docs.pagopa.it/avviso-pagamento).
+Le prossime sezioni del documento descrivono le modalità per poter utilizzare le API native della piattaforma pagoPA al fine di stampare in autonomia gli avvisi di pagamento secondo le specifiche tecniche descritte nella "[Guida tecnica sugli avvisi di pagamento pagoPA](https://docs.pagopa.it/avviso-pagamento)".
 
-La sezione pertanto va a dettagliare e implementare quanto già descritto nelle SANP [https://docs.pagopa.it/sanp/ente-creditore/stampa-avvisi-pagopa](https://docs.pagopa.it/sanp/ente-creditore/stampa-avvisi-pagopa).
+La sezione pertanto va a dettagliare e implementare quanto già descritto nelle [SANP](https://docs.pagopa.it/sanp/ente-creditore/stampa-avvisi-pagopa).&#x20;
 
 La stampa degli avvisi può avvenire secondo due modalità:
 

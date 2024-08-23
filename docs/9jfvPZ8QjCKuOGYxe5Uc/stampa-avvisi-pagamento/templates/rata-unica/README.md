@@ -79,7 +79,7 @@ Questa sezione contiene le informazioni relative al soggetto debitore:
 
 È la sezione che contiene tutte le informazioni necessarie per effettuare il pagamento:
 
-* **Avviso.QRCode** **->** segue le logiche descritte in [https://docs.pagopa.it/avviso-pagamento/allegato-2/specifiche-tecniche/dati-per-il-pagamento/rata-unica](https://docs.pagopa.it/avviso-pagamento/allegato-2/specifiche-tecniche/dati-per-il-pagamento/rata-unica).
+* **Avviso.QRCode** **->** segue le logiche descritte nelle [Specifiche Tecniche - sezione Dati per il Pagamento della "Guida tecnica agli avvisi di pagamento"](https://docs.pagopa.it/avviso-pagamento/allegato-2/specifiche-tecniche/dati-per-il-pagamento/rata-unica).
 * **Avviso.Codice** **->** corrispondente al campo code della `POST/notices/generate`;
 * **Ente.Cbill** **->** codice interbancario dell'Ente Creditore, conosciuto anche come Codice SIA recuperato dal Backoffice pagoPA (vedi [Compilazione dati configurazione su Backoffice pagoPA](../../compilazione-dati-configurazione-su-backoffice-pagopa.md)).
 
