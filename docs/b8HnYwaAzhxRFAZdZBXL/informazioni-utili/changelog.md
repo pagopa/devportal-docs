@@ -10,6 +10,18 @@ description: >-
 
 <summary>Agosto 2024</summary>
 
+### 1.0.107
+
+**23 agosto**
+
+* Adeguamento infrastrutturale
+
+### 1.0.106
+
+**9 agosto**
+
+* Bug fixing
+
 ### 1.0.105
 
 **7 agosto**
