@@ -1,5 +1,6 @@
 ---
-description: >-
+
+description: \>-  
 This document is a technical guide for the use of the IO APIs and the integration of public services.
 ---
 
