@@ -13,7 +13,7 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 
 ## Ciclo di vita del servizio
 
-<figure><img src="../.gitbook/assets/Educazione e formazione_Mensa scolastica.png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Mensa Scolastica</strong></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (24).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Mensa Scolastica</strong></p></figcaption></figure>
 
 ## Messaggi del servizio&#x20;
 
@@ -59,7 +59,9 @@ Per ulteriori informazioni sul servizio, diete speciali e costi, \[visita questa
 
 🗒 **Testo del messaggio**:&#x20;
 
-La tua richiesta per il servizio mensa per \<nome> \<cognome> è stata accolta.
+La tua richiesta per il servizio mensa per \<nome> \<cognome> è stata accolta.&#x20;
+
+\[Se previsto] L'iscrizione sarà valida per il periodo di erogazione del servizio mensa dal \<gg/mm/aaaa> al \<gg/mm/aaaa>.
 
 Per ulteriori informazioni, \[visita questa pagina]\(URL).
 
@@ -229,6 +231,8 @@ Se hai già provveduto a pagare l'avviso ignora questo messaggio.
 
 Per maggiori informazioni o per richiedere assistenza, contattaci tramite i canali che trovi nella scheda servizio.
 
+\[Se previsto] Per ulteriori informazioni sul calcolo della retta, \[visita questo sito]\(URL).
+
 **🪄 Pulsante**: Vedi Avviso
 
 ***
@@ -333,19 +337,53 @@ Qui sono riportati i messaggi di pagamento nel caso in cui l'ente si avvale di u
 
 <details>
 
+<summary>Conferma pagamento sul borsellino</summary>
+
+**🖋 Titolo del messaggio:** Conferma di pagamento
+
+🗒 **Testo del messaggio**:&#x20;
+
+Il \<gg/mm/aaaa> è stato effettuato un pagamento sul tuo borsellino elettronico relativo al servizio mensa per \<nome> \<cognome>.
+
+Per ulteriori informazioni, \[visita questo sito]\(URL).
+
+**🪄 Pulsante**: n/a
+
+***
+
+**Destinatari**: Tutti i genitori/tutori che hanno responsabilità genitoriale di un minore regolarmente iscritto&#x20;
+
+**Quando inviarlo**: Quando il pagamento per la retta è stato effettuato.
+
+**User story**: Come cittadino voglio ricevere una conferma del pagamento effettuato.
+
+</details>
+
+<details>
+
 <summary>Pagamento in scadenza sul borsellino</summary>
 
 **🖋 Titolo del messaggio:** Hai un pagamento in scadenza
 
 🗒 **Testo del messaggio**:&#x20;
 
-Il termine per il pagamento relativo al servizio mensa per \<nome> \<cognome> scadrà il \<gg/mm/aaaa>.
+Il pagamento per \<causale> relativo al servizio mensa per \<nome> \<cognome> è in scadenza.&#x20;
 
 Ricarica il tuo borsellino elettronico con l'importo dovuto entro la data di scadenza.&#x20;
 
+**Devi pagare:** <00,00> €
+
+**Entro il:** \<gg/mm/aaaa>
+
+Puoi pagare direttamente in app premendo “Vedi Avviso”, oppure tramite tutti i canali di pagamento della piattaforma pagoPA e le altre modalità di pagamento offerte dell'ente creditore.
+
+Se hai già provveduto a pagare l'avviso ignora questo messaggio.
+
+Per maggiori informazioni o per richiedere assistenza, contattaci tramite i canali che trovi nella scheda servizio.
+
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
-**🪄 Pulsante**: n/a
+**🪄 Pulsante**: Vedi avviso
 
 ***
 
@@ -354,32 +392,6 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 **Quando inviarlo**: Quando il pagamento per la retta è prossimo alla scadenza.
 
 **User story**: Come cittadino voglio ricevere un promemoria per i pagamenti in scadenza.
-
-</details>
-
-<details>
-
-<summary>Pagamento non effettuato</summary>
-
-**🖋 Titolo del messaggio:** Pagamento non effettuato: ricarica il borsellino
-
-🗒 **Testo del messaggio**:&#x20;
-
-Il pagamento automatico per \<causale> non è stato effettuato tramite il borsellino elettronico gestito da \<ente>.
-
-Ricarica ora per saldare l'importo dovuto. Per farlo, \[visita questo sito]\(URL).&#x20;
-
-Per ulteriori informazioni, \[visita questo sito]\(URL).
-
-**🪄 Pulsante**: n/a
-
-***
-
-**Destinatari**:Tutti i genitori/tutori che hanno responsabilità genitoriale di un minore regolarmente iscritto.
-
-**Quando inviarlo**: Quando il pagamento di una retta non è stato effettuato.
-
-**User story**:  Come cittadino voglio ricevere notifica immediata del mancato addebito sul mio borsellino elettronico.
 
 </details>
 
@@ -406,6 +418,36 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 **Quando inviarlo**: Quando l'ente accoglie la richiesta.
 
 **User story**: Come cittadino voglio ricevere aggiornamenti sull'esito della mia richiesta.
+
+</details>
+
+### Emissione attestazione spese sostenute&#x20;
+
+<details>
+
+<summary>Emissione attestazione: spese sostenute</summary>
+
+**🖋 Titolo del messaggio:** È disponibile l'attestazione delle spese sostenute
+
+🗒 **Testo del messaggio**:&#x20;
+
+Dal \<gg/mm/aaaa> è disponibile l'attestazione delle spese sostenute relative al servizio mensa per \<nome> \<cognome> utile ai fini delle detrazioni in sede di dichiarazione dei redditi.&#x20;
+
+\[Solo per messaggi Premium con allegato] Trovi l'attestazione emessa in allegato a questo messaggio.
+
+Per accedere al portale, \[visita questo sito]\(URL).
+
+**🪄 Pulsante**: n/a
+
+<mark style="color:blue;">**📎 Allegato Premium:**</mark> \<documento di attestazione>
+
+***
+
+**Destinatari**: Tutti i genitori/tutori che hanno sostenuto delle spese per il servizio.
+
+**Quando inviarlo**: Quando l'ente emette l'attestazione.
+
+**User story**: Come cittadino voglio ricevere aggiornamenti quando l'ente emette l'attestazione.
 
 </details>
 

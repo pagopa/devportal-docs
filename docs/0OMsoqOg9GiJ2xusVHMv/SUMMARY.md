@@ -56,20 +56,30 @@
 
 * [Avvocatura civica](giustizia-e-legge/avvocatura-civica.md)
 * [Giudici popolari](giustizia-e-legge/giudici-popolari.md)
+* [Provvedimenti giudiziari](giustizia-e-legge/provvedimenti-giudiziari.md)
 * [Sanzioni amministrative](giustizia-e-legge/sanzioni-amministrative.md)
 
 ## 👷 lavori edilizi, catasto e urbanistica
 
-* [In arrivo](lavori-edilizi-catasto-e-urbanistica/in-arrivo.md)
+* [Appalti pubblici](lavori-edilizi-catasto-e-urbanistica/in-arrivo.md)
+* [Catasto](lavori-edilizi-catasto-e-urbanistica/catasto.md)
+* [Edilizia privata](lavori-edilizi-catasto-e-urbanistica/edilizia-privata.md)
+* [Lavori pubblici](lavori-edilizi-catasto-e-urbanistica/lavori-pubblici.md)
+* [Passo carrabile](lavori-edilizi-catasto-e-urbanistica/passo-carrabile.md)
 
 ## 🚌 mobilità e trasporti
 
+* [Incidenti stradali](mobilita-e-trasporti/incidenti-stradali.md)
+* [Mobilità sostenibile](mobilita-e-trasporti/mobilita-sostenibile.md)
 * [Multe per violazioni al Codice della Strada](mobilita-e-trasporti/multe-per-violazioni-al-codice-della-strada.md)
 * [Rimozioni veicoli](mobilita-e-trasporti/rimozioni-veicoli.md)
+* [Traffico](mobilita-e-trasporti/traffico.md)
 
 ## 💰 redditi, patrimonio e fisco
 
-* [In arrivo](redditi-patrimonio-e-fisco/in-arrivo.md)
+* [Agevolazioni tributarie](redditi-patrimonio-e-fisco/in-arrivo.md)
+* [Donazioni](redditi-patrimonio-e-fisco/donazioni.md)
+* [Riscossione coattiva e recupero crediti](redditi-patrimonio-e-fisco/riscossione-coattiva-e-recupero-crediti.md)
 
 ## 🏥 salute
 
@@ -97,11 +107,13 @@
 
 ## 🗳️ servizi elettorali
 
-* [In arrivo](servizi-elettorali/in-arrivo.md)
+* [Elezioni](servizi-elettorali/in-arrivo.md)
+* [Presidenti e scrutatori di seggio](servizi-elettorali/presidenti-e-scrutatori-di-seggio.md)
+* [Tessera elettorale](servizi-elettorali/tessera-elettorale.md)
 
 ## ⛑️ sicurezza e protezione civile
 
-* [In arrivo](sicurezza-e-protezione-civile/in-arrivo.md)
+* [Protezione civile](sicurezza-e-protezione-civile/in-arrivo.md)
 
 ## 🏞️ suolo, spazi e beni pubblici
 
