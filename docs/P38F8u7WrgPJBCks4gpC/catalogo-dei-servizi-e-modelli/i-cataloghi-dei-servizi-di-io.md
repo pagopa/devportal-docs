@@ -2,7 +2,7 @@
 
 [I Cataloghi dei servizi di IO](https://docs.pagopa.it/v1.0-catalogo-dei-servizi) sono delle liste create considerando i servizi più importanti, significativi e frequenti in app IO e **si rivolge agli enti e ai loro partner tecnologici**.&#x20;
 
-I Cataloghi sono dedicati a tipologie specifiche di enti, e nello specifico:
+I Cataloghi sono dedicati a tipologie specifiche di enti:
 
 <table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td><strong>Comuni</strong></td><td></td><td><a href="https://docs.pagopa.it/v1.0-catalogo-dei-servizi/catalogo-dei-servizi-dei-comuni"><strong>Vai al Catalogo -></strong></a></td></tr><tr><td><strong>Regioni e Province Autonome</strong></td><td></td><td><a href="https://docs.pagopa.it/v1.0-catalogo-dei-servizi/catalogo-dei-servizi-regioni-e-province-autonome"><strong>Vai al Catalogo -></strong></a></td></tr><tr><td><strong>Sanità</strong> </td><td>(ASL e AO)</td><td><a href="https://docs.pagopa.it/v1.0-catalogo-dei-servizi/catalogo-dei-servizi-sanita"><strong>Vai al Catalogo -></strong></a></td></tr><tr><td><strong>Università</strong> </td><td>(Università, AFAM e enti di ricerca)</td><td><a href="https://docs.pagopa.it/v1.0-catalogo-dei-servizi/catalogo-dei-servizi-universita"><strong>Vai al Catalogo -></strong></a></td></tr></tbody></table>
 
