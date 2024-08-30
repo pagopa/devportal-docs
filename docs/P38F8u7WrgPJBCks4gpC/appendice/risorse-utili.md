@@ -4,7 +4,7 @@
 
 * [Linee Guida sul punto di accesso telematico ai servizi della Pubblica Amministrazione](https://www.agid.gov.it/sites/default/files/repository\_files/lg\_punto\_accesso\_telematico\_servizi\_pa\_3112021.pdf)
 * [Guida tecnica all'implementazione dei servizi su IO](https://docs.pagopa.it/io-guida-tecnica/)
-* [Documentazione API](https://developer.io.italia.it/openapi.html)
+* [Documentazione API](https://developer.pagopa.it/app-io/api/app-io-main#/)
 * [Linee guida brand pagoPA](https://docs.pagopa.it/linee-guida-brand-pagopa/)
 * [Kit di comunicazione per gli enti](https://docs.pagopa.it/kit-di-comunicazione-per-gli-enti/)
 * [Istruzioni: come aderire e portare i servizi di un Ente su IO ](https://io.italia.it/assets/download/it/onboarding/220725\_io\_app\_onboarding\_istruzioni-v\_1.1.pdf)
