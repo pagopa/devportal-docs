@@ -9,7 +9,7 @@ Gli enti che possono erogare i propri servizi su IO sono individuati dall'[artic
 > c) \[...] **società a controllo pubblico**, come definite nel decreto legislativo 19 agosto 2016, n. 175, escluse le società quotate di cui all’articolo 2, comma 1, lettera p), del medesimo decreto che non rientrino nella categoria di cui alla lettera b).
 
 {% hint style="info" %}
-Possono rendere fruibili i propri servizi tramite IO anche enti diversi da quelli individuati dall’articolo 2, comma 2 del CAD, previa stipula di apposita convenzione con PagoPA S.p.A. e nel rispetto delle [linee guida di IO](https://trasparenza.agid.gov.it/moduli/downloadFile.php?file=oggetto\_allegati/213121604430O\_\_OLG+Punto+accesso+telematico+servizi+PA\_3.11.2021.pdf).
+Possono rendere fruibili i propri servizi tramite IO anche enti diversi da quelli individuati dall’articolo 2, comma 2 del CAD, previa stipula di apposita convenzione con PagoPA S.p.A. e nel rispetto delle[ linee guida di IO](https://www.agid.gov.it/sites/default/files/repository\_files/lg\_punto\_accesso\_telematico\_servizi\_pa\_3112021.pdf).
 {% endhint %}
 
 Gli enti possono operare in autonomia o essere supportati da:
