@@ -18,7 +18,7 @@ I servizi che vengono proposti per essere erogati nell'app dovrebbero basarsi su
 
 Il documento che regola come creare servizi che mettono **la cittadinanza al centro** sono le [Linee guida di design per i siti internet e i servizi digitali della PA](https://docs.italia.it/italia/design/lg-design-servizi-web/it/versione-corrente/index.html), che hanno lo scopo di definire e orientare la progettazione e la realizzazione dei siti internet e dei servizi digitali erogati dalle Pubbliche Amministrazioni.&#x20;
 
-![I cittadini possono accedere tramite SPID o CIE](<../.gitbook/assets/login (1).png>)
+<figure><img src="../.gitbook/assets/login_1.png" alt=""><figcaption></figcaption></figure>
 
 ### Cosa possono fare i cittadini con i servizi in IO?
 
