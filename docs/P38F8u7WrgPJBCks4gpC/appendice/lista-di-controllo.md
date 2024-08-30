@@ -2,7 +2,7 @@
 
 Ecco una **lista dei passaggi chiave**, utile per assicurarsi che il servizio dell'ente sia pronto per essere caricato su IO.
 
-## :bulb:Ideare un servizio
+## Ideare un servizio
 
 * [ ] Definisci i destinatari del servizio e quali sono i loro bisogni
 * [ ] Descrivi le funzionalità principali del servizio nella scheda servizio
@@ -13,7 +13,7 @@ Ecco una **lista dei passaggi chiave**, utile per assicurarsi che il servizio de
 Se usi uno dei [modelli](../catalogo-dei-servizi-e-modelli/i-modelli-dei-servizi-piu-frequenti.md) in questo manuale, puoi saltare i passaggi appena descritti.&#x20;
 {% endhint %}
 
-## :technologist:Integrare il servizio
+## Integrare il servizio
 
 * [ ] Completa l'adesione a IO tramite l'Area Riservata
 * [ ] Accedi al back office di IO e compila la scheda servizio secondo le indicazioni di questo manuale
@@ -24,6 +24,6 @@ Se usi uno dei [modelli](../catalogo-dei-servizi-e-modelli/i-modelli-dei-servizi
 Per maggiori dettagli, segui la guida tecnica all'integrazione dei servizi nella specifica sezione [Creare un servizio](https://docs.pagopa.it/io-guida-tecnica/funzionalita/pubblicare-un-servizio/creare-un-servizio).
 {% endhint %}
 
-## :thinking:Valutare il servizio
+## Valutare il servizio
 
 * [ ] Esegui dei test sulla comprensione e la correttezza dei contenuti di scheda servizio e messaggi, prima di condividerli con i cittadini.&#x20;
