@@ -35,7 +35,7 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 In seguito alla domanda di iscrizione nr. \<nnnn> per l'anno educativo \<aaaa/aaaa>, è possibile richiedere il servizio mensa.
 
-\[Se previsto] Se hai espresso la preferenza per il tempo pieno, l'iscrizione alla mensa è obbligatorio.&#x20;
+\[Se previsto] Se hai espresso la preferenza per il tempo pieno, l'iscrizione alla mensa è obbligatoria.&#x20;
 
 Per ulteriori informazioni sul servizio, diete speciali e costi, \[visita questa pagina]\(URL).&#x20;
 
@@ -469,5 +469,5 @@ Il modello è un esempio che non ha carattere vincolante per l’ente e sul qual
 
 Puoi copiare i testi dei messaggi da personalizzare da questo documento:
 
-{% file src="../.gitbook/assets/IO - Template servizi - Mensa scolastica.xlsx" %}
+{% file src="../.gitbook/assets/IO - Template servizi - Mensa scolastica (1).xlsx" %}
 {% endhint %}
