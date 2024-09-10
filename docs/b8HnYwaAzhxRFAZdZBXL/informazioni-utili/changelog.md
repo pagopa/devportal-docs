@@ -12,6 +12,12 @@ description: >-
 
 <summary>Settembre 2024</summary>
 
+### 1.0.109
+
+**10 settembre**
+
+* Bug fixing
+
 ### 1.0.108
 
 **4 settembre**
