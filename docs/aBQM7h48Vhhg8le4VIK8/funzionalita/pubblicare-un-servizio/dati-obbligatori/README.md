@@ -17,7 +17,3 @@ Per poter pubblicare un **servizio in produzione** è **obbligatorio** inserire 
 * avere una dimensione di **300x300**;
 * essere in **formato png**;
 * avere **sfondo bianco o trasparente**.
-
-{% hint style="warning" %}
-Qualora il servizio non abbia tutti i dati obbligatori, sarà presente nella lista di IO con la dicitura “in arrivo”. I servizi in questo stato non possono inviare messaggi ai cittadini.
-{% endhint %}
