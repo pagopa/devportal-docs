@@ -30,7 +30,7 @@ La gestione dei messaggi remotizzati implica che la tua organizzazione è respon
 Come specificato, i messaggi remotizzati sono pensati per garantire un invio _privacy compliant_ di informazioni personali/sensibili riferite al destinatario, **ove necessarie per l’erogazione del servizio.**&#x20;
 
 {% hint style="warning" %}
-Ti ricordiamo che tale modalità d'invio **lascia invariati i tuoi obblighi ai sensi della normativa vigente**, in particolare ai sensi dell'art. 7.3 delle [Linee Guida IO](https://trasparenza.agid.gov.it/moduli/downloadFile.php?file=oggetto\_allegati/213121604430O\_\_OLG+Punto+accesso+telematico+servizi+PA\_3.11.2021.pdf).
+Ti ricordiamo che tale modalità d'invio **lascia invariati i tuoi obblighi ai sensi della normativa vigente**, in particolare ai sensi dell'art. 7.3 delle [Linee Guida IO](https://www.agid.gov.it/it/linee-guida#index-8).
 {% endhint %}
 
 Come ulteriore misura a protezione della privacy, il flag [#require\_secure\_channels](../../api-e-specifiche/api-messaggi/submit-a-message-passing-the-user-fiscal\_code-in-the-request-body.md#require\_secure\_channels "mention") ti consente di **marcare un messaggio come contenente informazioni sensibili**, con i seguenti effetti:
@@ -210,5 +210,3 @@ Se in fase di [#creazione-del-messaggio-remotizzato](inviare-un-messaggio-a-cont
 {% hint style="info" %}
 Come nel modello tradizionale, anche a un messaggio con contenuto remoto puoi aggiungere una data di scadenza ([#due\_date](../../api-e-specifiche/api-messaggi/submit-a-message-passing-the-user-fiscal\_code-in-the-request-body.md#due\_date "mention")) e i dati riferiti a una posizione debitoria ([#payment\_data](../../api-e-specifiche/api-messaggi/submit-a-message-passing-the-user-fiscal\_code-in-the-request-body.md#payment\_data "mention")); tali informazioni sono già remotizzate grazie all'integrazione con il nodo pagoPA.
 {% endhint %}
-
-###

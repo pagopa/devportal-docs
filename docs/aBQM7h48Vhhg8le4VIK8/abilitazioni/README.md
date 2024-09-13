@@ -1,11 +1,5 @@
 # 🔑 Abilitazioni
 
-In qualità di utente iscritto al Developer Portal o all'Area Riservata, hai la possibilità di interagire esclusivamente con il cittadino di test con Codice Fiscale **`AAAAAA00A00A000A`**.&#x20;
-
-Per poter inviare messaggi a cittadini reali e per sbloccare altre API dovrai richiedere un’abilitazione esplicita.
-
-#### Scopri di più
-
 {% content-ref url="test-con-codici-fiscali-reali.md" %}
 [test-con-codici-fiscali-reali.md](test-con-codici-fiscali-reali.md)
 {% endcontent-ref %}
