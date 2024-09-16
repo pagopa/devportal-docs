@@ -11,7 +11,7 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 Il processo illustrato nelle prossime sezioni è un esempio indicativo: gli enti e i partner tecnologici che desiderino seguire questo processo devono quindi modificarlo a seconda delle loro esigenze. Gli enti sono i soli responsabili dell'erogazione del servizio.
 {% endhint %}
 
-{% @figma/embed fileId="EcfvFWSjrxh6NUtfTcp7Ac" nodeId="150:15839" url="https://www.figma.com/file/EcfvFWSjrxh6NUtfTcp7Ac/Journey?type=design&node-id=150-15839&mode=design&t=za758XrN3hhZoIJJ-4" %}
+{% embed url="https://www.figma.com/design/YpFzZto6gZmFsW4TNzv7bs/Tassa-sui-rifiuti-(TARI)?node-id=125-1220" %}
 
 ## Chi sono gli attori coinvolti?
 
