@@ -7,7 +7,7 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 
 
 
-{% embed url="https://www.figma.com/design/NWFc98el4ORIlTLfpxSHp0/Asilo-nido?node-id=1-323&node-type=canvas&t=93Jrm1apm5sTVWra-0" %}
+{% embed url="https://www.figma.com/design/NWFc98el4ORIlTLfpxSHp0/Asilo-nido?m=dev&node-id=1-323&t=93Jrm1apm5sTVWra-1" %}
 
 {% hint style="info" %}
 **Prima di iniziare**\
