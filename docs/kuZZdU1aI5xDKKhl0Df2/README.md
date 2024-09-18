@@ -5,9 +5,7 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 * fornire un riferimento alle cittadine e ai cittadini per ricevere comunicazioni sul sistema scolastico frequentato dai figli a carico;
 * aggiornare e monitorare promemoria, pagamenti e scadenze per i servizi offerti.
 
-
-
-{% embed url="https://www.figma.com/design/NWFc98el4ORIlTLfpxSHp0/Asilo-nido?m=dev&node-id=1-323&t=93Jrm1apm5sTVWra-1" %}
+{% @figma/embed fileId="NWFc98el4ORIlTLfpxSHp0" nodeId="2:364" url="https://www.figma.com/file/NWFc98el4ORIlTLfpxSHp0/Asilo-nido?node-id=2-364&node-type=frame&t=xgkJgKxZulEF9AEK-0" %}
 
 {% hint style="info" %}
 **Prima di iniziare**\
