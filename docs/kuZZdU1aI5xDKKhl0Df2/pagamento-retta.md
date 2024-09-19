@@ -57,4 +57,4 @@ Se il cittadino non paga l’avviso di pagamento per la retta dell'asilo nido en
 
 Nel [Manuale dei servizi dell'app IO](https://docs.pagopa.it/manuale-servizi) puoi trovare il modello [Asilo nido](https://docs.pagopa.it/i-modelli-dei-servizi/educazione-e-formazione/asilo-nido), cioè un template da cui l'ente può partire per **configurare il servizio e i relativi messaggi al cittadino** su IO, come ad esempio:&#x20;
 
-* messaggio di [**mancato pagamento**](https://docs.pagopa.it/i-modelli-dei-servizi/educazione-e-formazione/asilo-nido#avviso-di-pagamento-mancato-pagamento).
+* messaggio di [**mancato pagamento**](https://docs.pagopa.it/i-modelli-dei-servizi/educazione-e-formazione/asilo-nido#pagamento-retta).

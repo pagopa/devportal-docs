@@ -36,4 +36,4 @@ L'ente, tramite i propri sistemi, comunica al cittadino l’avviso di pagamento 
 
 Nel [Manuale dei servizi dell'app IO](https://docs.pagopa.it/manuale-servizi) puoi trovare il modello [Asilo nido](https://docs.pagopa.it/i-modelli-dei-servizi/educazione-e-formazione/asilo-nido), cioè un template da cui l'ente può partire per **configurare il servizio e i relativi messaggi al cittadino** su IO, come ad esempio:&#x20;
 
-* messaggio di [**avviso di pagamento**](https://docs.pagopa.it/i-modelli-dei-servizi/educazione-e-formazione/asilo-nido#avviso-di-pagamento-rette).
+* messaggio di [**avviso di pagamento**](https://docs.pagopa.it/i-modelli-dei-servizi/educazione-e-formazione/asilo-nido#pagamento-retta).
