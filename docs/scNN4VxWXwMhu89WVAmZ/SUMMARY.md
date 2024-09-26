@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Multe per violazioni al Codice della Strada](README.md)
+* [Introduzione](README.md)
 * [1️⃣ Violazione del Codice della Strada](violazione-del-codice-della-strada.md)
 * [2️⃣ Emissione del preavviso di accertamento](emissione-del-preavviso-di-accertamento.md)
 * [3️⃣ Pagamento del preavviso di accertamento](pagamento-del-preavviso-di-accertamento.md)
