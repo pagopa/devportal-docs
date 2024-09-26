@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Asilo nido](README.md)
+* [Introduzione](README.md)
 * [1️⃣ Apertura iscrizioni e invio domande](apertura-iscrizioni-e-invio-domande.md)
 * [2️⃣ Pubblicazione della graduatoria](pubblicazione-della-graduatoria.md)
 * [3️⃣ Emissione retta](emissione-retta.md)
