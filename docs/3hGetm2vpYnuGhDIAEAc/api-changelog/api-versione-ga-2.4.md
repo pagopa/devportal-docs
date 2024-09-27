@@ -22,7 +22,7 @@ Gli stream della versione GA2.4 possono essere associati ad uno o più gruppi, i
 
 I gruppi specificati in fase di creazione/aggiornamento, devono essere tra quelli che l'api-key può gestire. In caso non si voglia inserire nessun gruppo in fase di creazione dello stream, tutte le informazioni saranno disponibile solo alle api-key che non sono associate ad alcun gruppo.
 
-Ugualmente la lettura di uno stream collegato ad uno o più gruppi è possibile solo ad api-key associate a tutti i gruppi a cui è associato lo stream. Mentre l'api-key non associata a
+Ugualmente la lettura di uno stream collegato ad uno o più gruppi è possibile solo ad api-key associate a tutti i gruppi a cui è associato lo stream. Mentre l'api-key non associata ad alcun gruppo può gestire stream e leggere da stream associati a qualsiasi gruppo.
 
 Questa modifica permette ad un ente mittente che ha partner tecnologici su ambiti differenti (es: contravvenzione per violazioni del codice della strada e sollecito tributi) di creare api-key, stream e notifiche associate ai rispettivi gruppi in modo che non sia possibile ad in partner tecnologico di creare, leggere, cancellare, disabilitare gli stream dell'altro. Oltre ad ottenere il vantaggio di ricevere gli eventi delle sole notifiche di suo interesse (associate allo stesso gruppo dello stream).
 
