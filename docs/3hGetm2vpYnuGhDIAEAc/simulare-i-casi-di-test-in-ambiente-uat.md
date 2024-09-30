@@ -21,6 +21,13 @@ Le simulazioni nell'ambiente test **UAT** hanno una relazione di tempo diversa r
 Ogni giorno in ambiente di PRODUZIONE vale 1 minuto in ambiente di UAT:\
 `1g PROD -> 1m UAT`
 
+### Simulare pagamento Async&#x20;
+
+Per creare una notifica con il pagamento asincrono è necessario inserire nel campo pagoPaIntMode: `ASYNC` e i dati di pagamento PagoPA con :
+
+* Codice fiscale dell'ente di test: `77777777777`
+* Uno iuv formalmente valido, con questa sequenza:`302011xxxxxxxxxxxx`
+
 ## Simulazione Workflow
 
 In ambiente UAT è possibile simulare gli esiti degli invii digitali ed analogici inserendo nei campi relativi ai domicili dei codici che riproducono il relativo scenario collegato.
@@ -87,6 +94,10 @@ Atto Giudiziario 890: Casi giacenza
 #### Raccomandata AR Internazionale (RIR) <a href="#raccomandata-ar-internazionale-rir" id="raccomandata-ar-internazionale-rir"></a>
 
 <table data-header-hidden><thead><tr><th width="207"></th><th></th></tr></thead><tbody><tr><td><strong>Chiave Sequenza</strong></td><td><strong>Scenario</strong></td></tr><tr><td>OK_RIR</td><td><p><strong>NON</strong> valorizzare il campo <code>recipients.digitalDomicile</code>, valorizzare </p><p><code>physicalCommunicationType="AR_REGISTERED_LETTER"</code></p><p><code>recipients.physicalAddress.address="VIA @OK_RIR"</code></p><p><code>recipients.physicalAddress.foreignState="FRANCIA"</code></p><p><br>Si avvierà il workflow analogico, con consegna Raccomandata Estera in esito OK.</p></td></tr><tr><td>FAIL_RIR</td><td><p><strong>NON</strong> valorizzare il campo <code>recipients.digitalDomicile</code>, valorizzare <code>physicalCommunicationType="AR_REGISTERED_LETTER"</code></p><p><code>recipients.physicalAddress.address="VIA @FAIL_RIR"</code></p><p><code>recipients.physicalAddress.foreignState="FRANCIA"</code></p><p><br>Si avvierà il workflow analogico, con consegna Raccomandata Estera in esito KO.</p></td></tr></tbody></table>
+
+
+
+
 
 ### Come visualizzare la notifica accedendo come Destinatario della Notifica su Piattaforma
 
