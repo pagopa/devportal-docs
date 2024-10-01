@@ -10,7 +10,27 @@ description: >-
 
 <details>
 
+<summary>Ottobre 2024</summary>
+
+### 1.0.112
+
+**1 ottobre**
+
+* Aggiornamento del link alla dichiarazione di accessibilità secondo il requisito AgID
+* Aggiunto il banner di manutenzione all'ambiente di attestazione
+* Bug fixing e aggiornamento versioni librerie
+
+</details>
+
+<details>
+
 <summary>Settembre 2024</summary>
+
+### 1.0.111
+
+**30 settembre**
+
+* Abilitazione per le Società a Controllo Pubblico all'ingresso in piattaforma
 
 ### 1.0.110
 
