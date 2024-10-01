@@ -1,6 +1,7 @@
 ---
 
-description: \>-  
+description:
+  
 The service levels that the creditors, PSPs and technological partners are required to respect while providing the service depend on the methods with which they are certified on the pagoPA platform.
 ---
 
