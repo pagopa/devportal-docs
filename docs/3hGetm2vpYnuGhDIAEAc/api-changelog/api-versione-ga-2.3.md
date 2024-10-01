@@ -69,7 +69,7 @@ La nuova operation `retrieveNotificationPriceV23` (path`/delivery/v2.3/price/{pa
   Perfezionamento per decorrenza termini: è valorizzata solo il campo **refinementDate** oppure sono valorizzati entrambi ma **refinementDate** è precedente a **notificationViewDate**.\
   Perfezionamento per presa visione: è valorizzato solo **notificationViewDate**.\
   Casi anomali: a causa di un ritardo nella rendicontazione dell'invio cartaceo da parte del recapitista potrebbe accadere che una notifica in un determinato momento risulti visualizzata (valorizzato solo **notificationViewDate**), successivamente potrebbe restituire una **refinementDate** è precedente a **notificationViewDate**.\
-  Per ulteriori dettagli: [https://app.gitbook.com/o/KXYtsf32WSKm6ga638R3/s/8hvzBYw259fYwQSqzmf6/\~/changes/15/knowledge-base-di-piattaforma-notifiche/focus-sul-perfezionamento-della-notifica](../knowledge-base-di-piattaforma-notifiche/perfezionamento-della-notifica.md)
+  Per ulteriori dettagli: [https://app.gitbook.com/o/KXYtsf32WSKm6ga638R3/s/8hvzBYw259fYwQSqzmf6/\~/changes/15/knowledge-base-di-piattaforma-notifiche/focus-sul-perfezionamento-della-notifica](../knowledge-base-di-piattaforma-notifiche/focus-sul-perfezionamento-della-notifica.md)
 
 ### Altre modifiche
 

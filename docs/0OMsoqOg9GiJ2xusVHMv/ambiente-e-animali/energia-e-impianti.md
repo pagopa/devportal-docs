@@ -13,7 +13,7 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 
 ## Ciclo di vita del servizio
 
-<figure><img src="../.gitbook/assets/image (19).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Energia e impianti</strong></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Energia e impianti</strong></p></figcaption></figure>
 
 ## Messaggi del servizio
 

@@ -7,7 +7,7 @@ description: >-
 
 # 2️⃣ Emissione del preavviso di accertamento
 
-<figure><img src=".gitbook/assets/image (4).png" alt="Sezione 2 di 6: Emissione del preavviso di accertamento"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (19).png" alt="Sezione 2 di 6: Emissione del preavviso di accertamento"><figcaption></figcaption></figure>
 
 ## 1. L'ente crea la posizione debitoria
 
@@ -46,6 +46,6 @@ I sistemi in capo all’ente, integrati con i dati delle targhe dei mezzi dei ci
 
 ***
 
-### Scrivere i messaggi su IO &#x20;
+### Risorse utili
 
-Nel [Manuale dei servizi dell'app IO](https://docs.pagopa.it/manuale-servizi), puoi trovare il [modello Multe per Violazioni al Codice della Strada](https://docs.pagopa.it/i-modelli-dei-servizi/mobilita-e-trasporti/multe-per-violazioni-al-codice-della-strada), cioè un template da cui l'ente può partire per **configurare il servizio e i relativi** [**messaggi** ](emissione-del-preavviso-di-accertamento.md#scrivere-i-messaggi-su-io)**al cittadino** su IO.&#x20;
+* Nel [Manuale dei servizi dell'app IO](https://docs.pagopa.it/manuale-servizi) puoi trovare[ esempi di messaggi](https://docs.pagopa.it/i-modelli-dei-servizi/mobilita-e-trasporti/multe-per-violazioni-al-codice-della-strada#emissione-preavviso-di-accertamento-1) da mandare in questa fase, oltre ad altri suggerimenti su come erogare al meglio il servizio.

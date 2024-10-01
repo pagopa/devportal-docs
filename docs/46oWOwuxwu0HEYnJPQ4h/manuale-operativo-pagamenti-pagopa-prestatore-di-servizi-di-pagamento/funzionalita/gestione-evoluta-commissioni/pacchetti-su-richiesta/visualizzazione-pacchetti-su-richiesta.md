@@ -16,7 +16,7 @@ Gli stati disponibili per un pacchetto sono i seguenti:
 `In eliminazione`pacchetto in fase di eliminazione.
 {% endhint %}
 
-<figure><img src="../../../../.gitbook/assets/image (13) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
 
 E' possibile ricercare un determinato pacchetto filtrando nel campo di ricerca e impostando il nome del pacchetto da ricercare.&#x20;
 

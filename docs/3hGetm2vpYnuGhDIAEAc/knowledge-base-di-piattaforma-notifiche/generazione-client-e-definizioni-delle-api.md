@@ -28,6 +28,6 @@ E' anche possibile utilizzare il [pn-b2b-client](https://github.com/pagopa/pn-b2
 
 Per importare le definizioni su Postman bisogna cliccare su "import", poi selezionare "Link" ed inserire il seguente url: [https://raw.githubusercontent.com/pagopa/pn-delivery/v2.1.0/docs/openapi/api-external-b2b-pa-bundle.yaml](https://raw.githubusercontent.com/pagopa/pn-delivery/v2.1.0/docs/openapi/api-external-b2b-pa-bundle.yaml)​Poi modificare i seguenti parametri delle collections ottenute:
 
-{% content-ref url="integrazione-send-pdnd-interoperabilita/creazione-richiesta-di-fruizione-generazione-voucher-per-send-uat-piattaforma-notifiche.md" %}
-[creazione-richiesta-di-fruizione-generazione-voucher-per-send-uat-piattaforma-notifiche.md](integrazione-send-pdnd-interoperabilita/creazione-richiesta-di-fruizione-generazione-voucher-per-send-uat-piattaforma-notifiche.md)
+{% content-ref url="focus-su-interoperabilita-e-generazione-voucher-per-send-uat-piattaforma-notifiche/focus-su-creazione-richiesta-di-fruizione-generazione-voucher-per-send-uat-piattaforma-notifiche.md" %}
+[focus-su-creazione-richiesta-di-fruizione-generazione-voucher-per-send-uat-piattaforma-notifiche.md](focus-su-interoperabilita-e-generazione-voucher-per-send-uat-piattaforma-notifiche/focus-su-creazione-richiesta-di-fruizione-generazione-voucher-per-send-uat-piattaforma-notifiche.md)
 {% endcontent-ref %}

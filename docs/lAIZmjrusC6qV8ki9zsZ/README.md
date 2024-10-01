@@ -8,9 +8,8 @@ Erogare il servizio "Multe per violazioni al Codice della Strada" tramite i prod
 * **informare sugli avvisi in scadenza**, riducendo la possibilità per i cittadini di incorrere in sanzioni aggiuntive.
 
 {% hint style="info" %}
-**Prima di iniziare**
-
-Il processo illustrato nelle prossime sezioni è un esempio indicativo: gli enti e i partner tecnologici che desiderino seguire questo processo devono quindi modificarlo a seconda delle loro esigenze. Gli enti sono i soli responsabili dell'erogazione del servizio.
+**Prima di iniziare**\
+Il processo illustrato nelle prossime sezioni è un processo ideale che dovrà poi essere personalizzato ed adattato alle necessità e sistemi dei singoli enti e partner tecnologici.
 {% endhint %}
 
 {% @figma/embed fileId="xGRzjHgxT2j3clmklYbQMf" nodeId="567:1145" url="https://www.figma.com/file/xGRzjHgxT2j3clmklYbQMf/Journey?type=design&node-id=567-1145&mode=design&t=lVNXatqh3P2sIjmP-4" %}

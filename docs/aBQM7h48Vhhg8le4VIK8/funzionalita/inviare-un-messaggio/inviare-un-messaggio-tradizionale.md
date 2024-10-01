@@ -40,7 +40,7 @@ L'email contiene l'incipit del corpo del messaggio (i primi 134 caratteri), nonc
 
 Ecco un esempio di email di inoltro:
 
-​![](../../.gitbook/assets/io-nuovo-messaggio.png)\
+​![](https://665034208-files.gitbook.io/\~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FsUBZStlCQZzLI6ZesbND%2Fuploads%2FQezZGa89PwMyc0gLhryW%2Fimage.png?alt=media\&token=14c33ef0-a96d-4b9d-b8c9-394164135b66)\
 
 
 </details>
