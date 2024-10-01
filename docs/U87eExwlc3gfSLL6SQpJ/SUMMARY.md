@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Tassa sui rifiuti (TARI)](README.md)
+* [Introduzione](README.md)
 * [1️⃣ Attivazione servizio e dichiarazione di occupazione](attivazione-servizio-e-dichiarazione-di-occupazione.md)
 * [2️⃣ Emissione rata unica](emissione-rata-unica.md)
 * [3️⃣ Pagamento rata unica](pagamento-rata-unica.md)

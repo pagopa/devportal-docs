@@ -38,6 +38,10 @@ Per utilizzare questa API devi aggiungere alla chiamata l'header `Ocp-Apim-Subsc
 Se stai inviando un **messaggio con contenuti remoti**, fai riferimento a [#informazioni-importanti-circa-il-titolo-subject-del-messaggio](../../funzionalita/inviare-un-messaggio/inviare-un-messaggio-a-contenuto-remoto.md#informazioni-importanti-circa-il-titolo-subject-del-messaggio "mention")
 {% endhint %}
 
+{% hint style="warning" %}
+Ricorda che, ai sensi dell'art. 7.3 delle [Linee Guida AgID](https://www.agid.gov.it/it/linee-guida#index-8), il titolo del messaggio non può contenere **dati personali** e ne va assicurata la minimizzazione all'interno del [#markdown](submit-a-message-passing-the-user-fiscal\_code-in-the-request-body.md#markdown "mention")
+{% endhint %}
+
 ### **`markdown`` `**<mark style="color:red;">**`*`**</mark>
 
 <table data-header-hidden><thead><tr><th width="187"></th><th></th></tr></thead><tbody><tr><td><strong>Descrizione</strong></td><td>Testo del messaggio in formato markdown la cui lunghezza deve essere compresa tra 80 e 10000 caratteri</td></tr><tr><td><strong>Obbligatorio</strong></td><td>Sì</td></tr><tr><td><strong>Tipo</strong></td><td>Stringa</td></tr><tr><td><strong>Esempio</strong></td><td><code>Gentile Mario,\n\nsiamo lieti di comunicarti che la tua **Carta di Identità** è disponibile per il ritiro presso i nostri sportelli.  \nPuoi consultare gli orari sul [Portale del servizio](https://www.miosito.it/).\n\n*Lo Staff*</code></td></tr></tbody></table>

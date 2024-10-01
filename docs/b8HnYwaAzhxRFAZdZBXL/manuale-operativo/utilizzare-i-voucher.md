@@ -255,7 +255,7 @@ Quindi verificherà l'autenticità e la validità della chiave privata con la qu
 1. si autentica sulle API di Interoperabilità come descritto nel [flusso dedicato](utilizzare-i-voucher.md#richiesta-di-un-voucher-spendibile-presso-le-api-di-interoperabilita);
 2. effettua una chiamata `keys/{kid}` dove kid è valorizzato con il kid inserito nell'header del `JWS`;
 3. ottiene da PDND Interoperabilità una chiave pubblica in risposta all'interno del campo `n`;
-4. verifica la firma del `JWS`, effettuata dal fruitore con la chiava privata, con la chiave pubblica appena ottenuta.
+4. verifica la firma del `JWS`, effettuata dal fruitore con la chiave privata, con la chiave pubblica appena ottenuta.
 
 Se l'erogatore ottiene un errore con status code `404 - Not found`, significa che la chiave non è presente su PDND Interoperabilità e dunque la richiesta è da ritenersi inattendibile.
 

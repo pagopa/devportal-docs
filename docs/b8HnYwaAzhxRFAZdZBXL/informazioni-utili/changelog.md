@@ -6,6 +6,34 @@ description: >-
 
 # Changelog
 
+
+
+<details>
+
+<summary>Settembre 2024</summary>
+
+### 1.0.110
+
+**24 settembre**
+
+* Bug fixing
+* Adeguamento infrastrutturale
+
+### 1.0.109
+
+**10 settembre**
+
+* Bug fixing
+
+### 1.0.108
+
+**4 settembre**
+
+* Fix al report per SEND
+* Rilascio di attività propedeutiche per la migrazione verso la region di Milano di AWS
+
+</details>
+
 <details>
 
 <summary>Agosto 2024</summary>

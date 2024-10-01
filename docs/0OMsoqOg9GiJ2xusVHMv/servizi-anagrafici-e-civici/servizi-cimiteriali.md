@@ -29,12 +29,12 @@ I messaggi che questo servizio invia al cittadino spesso includono dati sensibil
 
 L'utilizzo di questo attributo permette di anonimizzare le notifiche push e mail, se previste dalle impostazioni del cittadino.\
 \
-Secondo quanto disposto dal paragrafo [7.3 delle Linee Guida di IO](https://trasparenza.agid.gov.it/moduli/downloadFile.php?file=oggetto\_allegati/213121604430O\_\_OLG+Punto+accesso+telematico+servizi+PA\_3.11.2021.pdf), **non è ammesso** includere nel titolo dati sensibili, mentre deve essere **limitato** al minimo l'utilizzo all'interno del corpo del messaggio,&#x20;
+Secondo quanto disposto dal paragrafo [7.3 delle Linee Guida di IO](https://www.agid.gov.it/sites/default/files/repository\_files/lg\_punto\_accesso\_telematico\_servizi\_pa\_3112021.pdf), **non è ammesso** includere nel titolo dati sensibili, mentre deve essere **limitato** al minimo l'utilizzo all'interno del corpo del messaggio,&#x20;
 
 Tra i dati sensibili rientrano, ad esempio:
 
-* Nome della persona defunta&#x20;
-* Pratiche di cremazione, procedure di sepoltura&#x20;
+* Nome della persona defunta;&#x20;
+* Pratiche di cremazione, procedure di sepoltura.&#x20;
 {% endhint %}
 
 ## **Cremazione e sepoltura**&#x20;
