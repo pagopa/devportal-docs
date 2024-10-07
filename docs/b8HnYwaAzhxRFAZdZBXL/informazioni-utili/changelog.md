@@ -12,6 +12,18 @@ description: >-
 
 <summary>Ottobre 2024</summary>
 
+### 1.0.114
+
+**7 ottobre**
+
+* Bug fixing
+
+### 1.0.113
+
+**5 ottobre**
+
+* Adeguamento infrastrutturale
+
 ### 1.0.112
 
 **1 ottobre**
