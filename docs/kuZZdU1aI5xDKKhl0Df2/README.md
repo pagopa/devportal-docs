@@ -20,7 +20,7 @@ Il processo illustrato nelle prossime sezioni è un esempio indicativo: gli enti
 
 1. I cittadini con responsabilità genitoriale su un minore potrebbero essere interessanti ad **iscrivere il minore all'asilo nido**. L'ente, tramite i propri sistemi, può identificare queste persone e comunicare loro per tempo la necessità di compilare l'**iscrizione**.&#x20;
 2. L'ente **pubblica la graduatoria** di assegnazione posti degli iscritti e lo comunica agli interessati . Il cittadino a cui è stato assegnato il posto in un asilo è considerato iscritto, mentre chi non ha ottenuto il posto potrà prendere parte ad altre graduatorie per l'assegnazione dei posti rifiutati.&#x20;
-3. L'ente effettua il calcolo delle giornate di presenza del minore all'asilo nido e **emette la rata** dovuta, comunicandola agli interessati. Nei seguenti capitoli è stata riportata una buona pratica per la gestione delle rate e le relative posizioni debitorie mensili.
+3. L'ente effettua il calcolo delle giornate di presenza del minore all'asilo nido e **emette la retta** dovuta, comunicandola agli interessati. Nei seguenti capitoli è stata riportata una buona pratica per la gestione delle rette e le relative posizioni debitorie mensili.
 4. Se il cittadino non paga le rette, riceverà un **sollecito** per il mancato pagamento tramite canali ufficiali come SEND, PEC o raccomandata abilitati a mandare comunicazioni a valore legale.&#x20;
 
 ## Piattaforme gestite da PagoPA
