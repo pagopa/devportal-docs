@@ -2,18 +2,22 @@
 
 ## Prima dell'adesione
 
-**Se sei una PA o un Gestore di servizi pubblici:**
+* **Se sei una PA o un Gestore di servizi pubblici:**
 
 1. Verifica che i dati dell'ente contenuti in [IPA](https://www.indicepa.gov.it/ipa-portale/consultazione/indirizzo-sede/ricerca-ente) siano corretti prima di iniziare la procedura di adesione;
 2. assicurati di avere accesso alla PEC indicata come domicilio digitale all'interno del Catalogo IPA.
 
-**Se sei un Gestore privato di piattaforma e-procurement:**
+* **Se sei una Società a Controllo Pubblico:**
+
+Controlla di avere sottomano tutti i dati relativi alla società che potranno esserti richiesti al momento dell'onboarding e di avere accesso alla PEC che dovrai indicare nel form di adesione.
+
+* **Se sei un Gestore privato di piattaforma e-procurement:**
 
 Controlla di aver completato il [processo](https://www.agid.gov.it/it/piattaforme/procurement/certificazione-componenti-piattaforme) di certificazione dei componenti delle piattaforme pubblicato da AgID.
 
 Per maggiori informazioni sull'e-procurement si fa riferimento a [questa news ](https://www.agid.gov.it/it/agenzia/stampa-e-comunicazione/notizie/2023/09/25/procurement-pubblicato-schema-operativo-supporto-del-processo-certificazione)sul sito di AgID.
 
-**Se sei un impresa e/o gruppo assicurativo:**
+* **Se sei un impresa e/o gruppo assicurativo:**
 
 Controlla di essere presente all'interno [dell'Albo](https://infostat-ivass.bancaditalia.it/RIGAInquiry-public/ng/#/home).&#x20;
 
@@ -37,15 +41,26 @@ Effettua il login con lo SPID personale o CIE. Per semplificare l'operazione, no
 
 ### 3. Seleziona la tipologia di ente
 
-<figure><img src="../.gitbook/assets/screen enti onboarding" alt=""><figcaption><p>La schermata di selezione della tipologia dell'ente</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Selezione ente onboarding.png" alt=""><figcaption><p>La schermata di selezione della tipologia dell'ente</p></figcaption></figure>
 
 Indica qual è la tipologia dell’Ente per il quale si sta operando ai sensi degli artt. 2 (comma 2) e 64bis (par. 6) del Codice dell'Amministrazione Digitale (CAD). Qualora l’informazione sia già disponibile attraverso IPA, si troverà una preselezione pronta. Si potrà comunque modificare la tipologia dell’ente, selezionando una differente opzione.
 
 ### 4. Seleziona l'ente per il quale effettuare l'adesione
 
-![La schermata di selezione dell'ente](<../.gitbook/assets/selfcare.pagopa.it\_onboarding\_prod-interop(Macbook Pro – Screenshot).png>)
+<div>
 
-Seleziona l'ente dal campo di auto-completamento "Cerca ente". L'elenco degli enti disponibili fa riferimento al Catalogo IPA. Qualora il proprio ente non fosse presente nell'elenco, clicca sul link disponibile sotto il campo di input per scoprire come accreditarlo.
+<img src="../.gitbook/assets/selfcare.pagopa.it_onboarding_prod-interop(Macbook Pro – Screenshot).png" alt="La schermata di selezione dell&#x27;ente per PA e GSP">
+
+ 
+
+<figure><img src="../.gitbook/assets/Screenshot 2024-10-09 alle 09.36.09.png" alt=""><figcaption><p>La schermata di selezione dell'ente per SCP</p></figcaption></figure>
+
+</div>
+
+Per PA e GSP: seleziona l'ente dal campo di auto-completamento "Cerca ente". L'elenco degli enti disponibili fa riferimento al Catalogo IPA. Qualora il proprio ente non fosse presente nell'elenco, clicca sul link disponibile sotto il campo di input per scoprire come accreditarlo.
+
+Per SCP: inserisci il codice fiscale dell'ente, il nome apparirà una volta cliccato sul pulsante Continua.\
+
 
 ### 5. Inserisci i dati dell'ente
 
@@ -75,7 +90,9 @@ Tutte le figure operative (Operatore API e Operatore di Sicurezza) potranno esse
 Ulteriori Amministratori, oltre a quelli segnalati in fase di adesione, possono essere aggiunti direttamente dalla Dashboard dell’ente per l'ambiente di Collaudo, mentre per l'ambiente di Produzione bisognerà compilare i documenti allegati a fine pagina e inviarli alla PEC indicata.
 {% endhint %}
 
-Una volta completato l'inserimento, clicca su _Continua._ Se non ci sono errori, viene generato e inviato alla PEC del tuo ente l'Accordo di Adesione da firmare. L'indirizzo a cui viene inviato il documento è quello indicato come domicilio digitale all'interno del Catalogo IPA.
+Per PA e GSP: una volta completato l'inserimento, clicca su _Continua._ Se non ci sono errori, viene generato e inviato alla PEC del tuo ente l'Accordo di Adesione da firmare. L'indirizzo a cui viene inviato il documento è quello indicato come domicilio digitale all'interno del Catalogo IPA.
+
+Per SCP: una volta completato l'inserimento, clicca su _Continua._ Se non ci sono errori, viene generata e inviata alla PEC indicata in fase di adesione una mail contenente le istruzioni per completare l'adesione. Ora si tratta di attendere di essere contattati dal Team Account dedicato all'onboarding che chiederà l'inoltro dei documenti richiesti in precedenza. Controllati i documenti, il Team Account invierà sempre alla PEC indicata l'Accordo di Adesione da firmare in formato CAdES (.p7m) come indicato al punto 8.
 
 ### 8. Fai firmare digitalmente l'Accordo al Legale Rappresentante
 
