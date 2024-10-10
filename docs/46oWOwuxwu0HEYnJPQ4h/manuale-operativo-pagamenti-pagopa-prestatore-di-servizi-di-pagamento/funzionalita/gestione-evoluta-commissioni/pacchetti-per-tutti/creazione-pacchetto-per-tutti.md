@@ -12,7 +12,7 @@ Accedendo alla funzionalità `"Pacchetti commissioni"` dal menu laterale di sini
 
 Una volta schiacciato il pulsante `Crea pacchetto` il sistema mostrerà la seguente interfaccia per poter inserire tutte le informazioni necessarie alla creazione del pacchetto
 
-<figure><img src="../../../../.gitbook/assets/image (218).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/screencapture-selfcare-dev-platform-pagopa-it-ui-comm-bundles-add-bundle-2024-07-11-11_23_59.png" alt=""><figcaption></figcaption></figure>
 
 Le informazioni da inserire sono le seguenti:
 
@@ -44,11 +44,17 @@ Le informazioni da inserire sono le seguenti:
 * Dati di connessione
   * Codice Broker -> codice fiscale del PSP&#x20;
   * Codice Canale -> codice del canale del PSP su cui far valere il pacchetto
+  * Gestione carrello di pagamenti -> Flag "Si" o "No" a seconda che il pacchetto possa essere utilizzato anche nel caso di carrello con più pagamenti.
+
+{% hint style="danger" %}
+La gestione del carrello può essere fatta esclusivamente per pacchetti su canali che sono configurati con primitive in versione 2.
+{% endhint %}
+
 * Marca da bollo digitale (le due opzioni sono esclusive)
   * Pagamento con marca da bollo
   * Pagamento solo con marca da bollo
 * Periodo di validità del pacchetto&#x20;
-  * Data inizio validità&#x20;
+  * Data inizio validità -> deve essere impostata almeno due giorni in avanti rispetto alla data in cui si sta creando il pacchetto per permettere agli operatori pagoPA di fare alcune verifiche di congruità
   * Data fine validità
 
 {% hint style="warning" %}
@@ -101,10 +107,10 @@ Terminata la fase di selezione dei servizi di incasso è necessario proseguire s
 
 <figure><img src="../../../../.gitbook/assets/image (163).png" alt=""><figcaption><p>Popup conferma creazione pacchetto globale</p></figcaption></figure>
 
-Schiacciando il pulsante "`Conferma`" si procederà alla creazione del pacchetto globale. Esso sarà poi visibile nella sezione "`Pacchetti commissioni`" nel tab "`Per tutti`"
+Cliccando il tasto "`Conferma`" si procederà alla creazione del pacchetto "Per tutti". Esso sarà poi visibile nello stato `"In attivazione"` nella sezione "`Pacchetti commissioni`" nel tab "`Per tutti`". Il giorno di inizio validità passerà nello stato `"Attivo".`
 
 {% hint style="info" %}
-Il pacchetto appena creato sarà visibile anche a tutti gli EC nell'apposita maschera riepilogativa di tutti i pacchetti "Per tutti"
+Il pacchetto appena creato sarà visibile anche a tutti gli EC nell'apposita maschera riepilogativa di tutti i pacchetti "Per tutti" dopo che esso verrà reso attivo nella data di inizio validità impostata sul pacchetto.
 {% endhint %}
 
 <figure><img src="../../../../.gitbook/assets/Screenshot 2024-05-14 alle 17.10.04.png" alt=""><figcaption></figcaption></figure>

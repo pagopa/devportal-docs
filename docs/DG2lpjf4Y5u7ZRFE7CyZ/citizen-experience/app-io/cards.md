@@ -16,3 +16,4 @@ The flow describes the user experience of adding a card to the Wallet.
 The flow describes the user experience of paying with a card.
 
 {% embed url="https://www.figma.com/file/iL3mcWWhuR41jD5xf2BdD9/Paga-con-carta-su-IO?node-id=1%3A1940" %} Payment of a pagoPA notice with a card or via the IO app. {% endembed %}
+

@@ -28,3 +28,4 @@ The list of methods that can be used to make payments in-app is continuously upd
 {% content-ref url="cards.md" %} [cards.md](cards.md) {% endcontent-ref %}
 
 {% content-ref url="paypal.md" %} [paypal.md](paypal.md) {% endcontent-ref %}
+

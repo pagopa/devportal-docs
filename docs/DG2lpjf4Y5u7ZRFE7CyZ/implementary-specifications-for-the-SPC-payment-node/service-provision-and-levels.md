@@ -55,3 +55,4 @@ All the PSPs directly or indirectly connected to the pagoPA platform must also:
 Every entity registered with the pagoPA system is required to respect the service levels indicated in the appendix [quality-indicators-for-registered-entities](../appendices/quality-indicators-for-registered-entities/ "mention").
 
 PagoPA S.p.A. will periodically verify that the service levels are respected by the directly connected entity, reserving the right to take disciplinary measures if the levels are not reached over time.
+

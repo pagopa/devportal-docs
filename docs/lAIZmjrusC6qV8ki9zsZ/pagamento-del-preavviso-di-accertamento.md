@@ -6,7 +6,7 @@ description: >-
 
 # 3️⃣ Pagamento del preavviso di accertamento
 
-<figure><img src=".gitbook/assets/image (20).png" alt="Sezione 3 di 6: Pagamento del preavviso di accertamento"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (6).png" alt="Sezione 3 di 6: Pagamento del preavviso di accertamento"><figcaption></figcaption></figure>
 
 ## 1. Il cittadino riceve il preavviso di accertamento
 

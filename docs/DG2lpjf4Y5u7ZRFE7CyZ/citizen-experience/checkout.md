@@ -28,3 +28,4 @@ The list of methods that can be used to make payments via pagoPA Checkout is con
 ## User experience
 
 {% embed url="https://www.figma.com/proto/lonWITS9EJKoj09yslxWdY/pagoPA-Checkout---Demo?node-id=732%3A11681&page-id=732%3A11680&scaling=scale-down&starting-point-node-id=732%3A11681&viewport=274%2C48%2C0.22" %}
+

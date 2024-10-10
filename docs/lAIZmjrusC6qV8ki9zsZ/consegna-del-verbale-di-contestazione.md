@@ -7,7 +7,7 @@ description: >-
 
 # 5️⃣ Consegna del verbale di contestazione
 
-<figure><img src=".gitbook/assets/image (22).png" alt="Sezione 5 di 6: Consegna del verbale di contestazione"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (8).png" alt="Sezione 5 di 6: Consegna del verbale di contestazione"><figcaption></figcaption></figure>
 
 ## 1. L'ente carica la notifica su SEND
 

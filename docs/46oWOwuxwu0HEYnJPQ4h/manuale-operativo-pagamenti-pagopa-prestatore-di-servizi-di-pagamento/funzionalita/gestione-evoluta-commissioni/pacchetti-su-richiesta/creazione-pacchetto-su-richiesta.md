@@ -8,11 +8,11 @@ Si ricorda che un pacchetto "Su richiesta" è un pacchetto definito dal PSP che 
 
 Accedendo alla funzionalità `"Pacchetti commissioni"` dal menu laterale di sinistra e spostandosi nel tab `"Su richiesta"` è possibile accedere alla funzione di creazione del pacchetto.
 
-<figure><img src="../../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
 
 Una volta cliccato il tasto "`Crea pacchetto"` il sistema mostrerà la seguente interfaccia per poter inserire tutte le informazioni necessarie alla creazione del pacchetto
 
-<figure><img src="../../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/screencapture-selfcare-dev-platform-pagopa-it-ui-comm-bundles-add-bundle-2024-07-11-11_28_46.png" alt=""><figcaption></figcaption></figure>
 
 Le informazioni da inserire sono le seguenti:
 
@@ -41,58 +41,64 @@ Le informazioni da inserire sono le seguenti:
   * Massimo
 * Commissioni
   * Importo applicato dal PSP
-* Dati di connessione
-  * Codice Broker -> codice fiscale del PSP&#x20;
-  * Codice Canale -> codice del canale del PSP su cui far valere il pacchetto
+*   Dati di connessione
+
+    * Codice Broker -> codice fiscale del PSP&#x20;
+    * Codice Canale -> codice del canale del PSP su cui far valere il pacchetto
+    * Gestione carrello di pagamenti -> Flag "Si" o "No" a seconda che il pacchetto possa essere utilizzato anche nel caso di carrello con più pagamenti.
+
+    {% hint style="danger" %}
+    La gestione del carrello può essere fatta esclusivamente per pacchetti su canali che sono configurati con primitive in versione 2.
+    {% endhint %}
 * Marca da bollo digitale (le due opzioni sono esclusive)
   * Pagamento con marca da bollo
   * Pagamento solo con marca da bollo
 * Periodo di validità del pacchetto&#x20;
-  * Data inizio validità&#x20;
+  * Data inizio validità -> deve essere impostata almeno due giorni in avanti rispetto alla data in cui si sta creando il pacchetto per permettere agli operatori pagoPA di fare alcune verifiche di congruità
   * Data fine validità
 
 Compilate le informazioni di cui sopra è necessario proseguire cliccando il tasto "`Continua`" il quale attiverà il passaggio alla seconda fase di configurazione del pacchetto, ovvero la possibilità di inserire delle tassonomie specifiche per quel determinato pacchetto. (Per maggiori informazioni sulle tassonomie consultare [https://docs.pagopa.it/sanp/ente-creditore/tassonomia-dei-servizi-di-incasso](https://docs.pagopa.it/sanp/ente-creditore/tassonomia-dei-servizi-di-incasso)).
 
-<figure><img src="../../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 Cliccando sul tasto `"Sfoglia catalogo"` è possibile accedere all'elenco delle tassonomie disponibili raggruppate per tipologia di Ente Creditore, di Area e di specifico servizio.&#x20;
 
 <div align="center">
 
-<figure><img src="../../../../.gitbook/assets/image (3).png" alt="" width="188"><figcaption><p>Vista tassonomia per ente creditore</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (3) (1).png" alt="" width="188"><figcaption><p>Vista tassonomia per ente creditore</p></figcaption></figure>
 
 </div>
 
-<figure><img src="../../../../.gitbook/assets/image (4).png" alt="" width="188"><figcaption><p>Vista tassonomia per Area</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (4) (1).png" alt="" width="188"><figcaption><p>Vista tassonomia per Area</p></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/image (5).png" alt="" width="188"><figcaption><p>Vista tassonomia per servizio di incasso</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (5) (1).png" alt="" width="188"><figcaption><p>Vista tassonomia per servizio di incasso</p></figcaption></figure>
 
 E' possibile indicare una singolo servizio oppure più di uno.
 
-<figure><img src="../../../../.gitbook/assets/image (6).png" alt="" width="188"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (6) (1).png" alt="" width="188"><figcaption></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/image (7).png" alt="" width="188"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (7) (1).png" alt="" width="188"><figcaption></figcaption></figure>
 
 Una volta selezionato il servizio (o i servizi) è necessario cliccare il tasto `"Aggiungi"` che porta ad una pagina di riepilogo dalla quale è possibile vedere i servizi associati al pacchetto. Dalla stessa pagina è possibile eseguire modifiche ai servizi scelti.
 
-<figure><img src="../../../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
 
 Cliccando il tasto`"Sfoglia catalogo"` si torna alla possibilità di scelta di ulteriori servizi come specificato nelle sezioni precedenti.&#x20;
 
 Cliccando invece il tasto `"Rimuovi"` è possibile rimuovere l'intera categoria di servizi.
 
-<figure><img src="../../../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
 
 Cliccando invece il tasto `"-"` sulla sinistra di ogni singolo servizio è possibile invece rimuovere soltanto il servizio specifico.
 
-<figure><img src="../../../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure>
 
 Terminata la fase di selezione dei servizi di incasso è necessario proseguire cliccando il tasto "`Continua`" il quale attiverà un popup preventivo alla conferma dei dati
 
-<figure><img src="../../../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure>
 
-Cliccando il tatso "`Conferma`" si procederà alla creazione del pacchetto "Su richiesta". Esso sarà poi visibile nella sezione "`Pacchetti commissioni`" nel tab "Su richiesta"
+Cliccando il tasto "`Conferma`" si procederà alla creazione del pacchetto "Su richiesta". Esso sarà poi visibile nello stato `"In attivazione"` nella sezione "`Pacchetti commissioni`" nel tab "`Su richiesta`". Il giorno di inizio validità passerà nello stato `"Attivo".`
 
 {% hint style="info" %}
-Il pacchetto appena creato sarà visibile a partire dal giorno successivo alla creazione anche a tutti gli EC nell'apposita maschera riepilogativa di tutti i pacchetti su richiesta dalla quale l'EC ne potrà richiedere l'adesione.
+Il pacchetto appena creato sarà visibile a partire dal giorno di inizio validità anche a tutti gli EC nell'apposita maschera riepilogativa di tutti i pacchetti su richiesta dalla quale l'EC ne potrà richiedere l'adesione.
 {% endhint %}

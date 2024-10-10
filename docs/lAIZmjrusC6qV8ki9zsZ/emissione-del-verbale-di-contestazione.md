@@ -6,7 +6,7 @@ description: >-
 
 # 4️⃣ Emissione del verbale di contestazione
 
-<figure><img src=".gitbook/assets/image (21).png" alt="Sezione 4 di 6: Emissione del verbale di contestazione"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (7).png" alt="Sezione 4 di 6: Emissione del verbale di contestazione"><figcaption></figcaption></figure>
 
 ## 1. Il preavviso di accertamento è scaduto
 
@@ -40,3 +40,7 @@ L’importo del verbale potrà comprendere spese di notifica.
 * I sistemi in capo all’ente devono inserire nell’oggetto del pagamento un riferimento chiaro (es.: “Violazione Codice della Strada - Importo ridotto”).
 
 ***
+
+### Scrivere i messaggi su IO
+
+Nel [Manuale dei servizi dell'app IO](https://docs.pagopa.it/manuale-servizi), puoi trovare il [modello Multe per Violazioni al Codice della Strada](https://docs.pagopa.it/i-modelli-dei-servizi/mobilita-e-trasporti/multe-per-violazioni-al-codice-della-strada), cioè un template da cui l'ente può partire per **configurare il servizio e i relativi** [**messaggi**](https://docs.pagopa.it/i-modelli-dei-servizi/mobilita-e-trasporti/multe-per-violazioni-al-codice-della-strada#avvenuto-invio-del-verbale-di-contestazione) **al cittadino** su IO.&#x20;
