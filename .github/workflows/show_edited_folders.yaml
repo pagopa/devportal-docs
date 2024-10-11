@@ -17,7 +17,7 @@ jobs:
         id: modified_files
         run: |
           # Extract subfolders from the list of modified files
-          MODIFIED_SUBFOLDERS=$(git diff --name-only origin/${{ github.base_ref }} ${{ github.sha }} docs | xargs -r dirname | sed 's|^docs/||' | uniq | sort -u)
+          MODIFIED_SUBFOLDERS=$(git diff --name-only origin/${{ github.base_ref }} ${{ github.sha }} -- docs | xargs -r dirname | sed 's|^docs/||' | uniq | sort -u)
           echo "Modified subfolders: $MODIFIED_SUBFOLDERS"
           # Set output variable
           echo "subfolders=$MODIFIED_SUBFOLDERS" >> $GITHUB_OUTPUT
