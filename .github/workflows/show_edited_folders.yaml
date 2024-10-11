@@ -16,11 +16,8 @@ jobs:
       - name: Get list of modified files in docs
         id: modified_files
         run: |
-          # Get list of modified or added files within the docs folder
-          MODIFIED_FILES=$(git diff --name-only origin/traduzioni HEAD | grep '^docs/' || echo "")
-          echo "Modified files: $MODIFIED_FILES"
           # Extract subfolders from the list of modified files
-          MODIFIED_SUBFOLDERS=$(echo "$MODIFIED_FILES" | awk -F'/' '{print $1"/"$2}' | sort -u)
+          MODIFIED_SUBFOLDERS=$(git diff --name-only ${{ github.event.before }} ${{ github.event.after }} | xargs -r dirname | grep '^docs/' | sed 's|^docs/||' | uniq | sort -u)
           echo "Modified subfolders: $MODIFIED_SUBFOLDERS"
           # Set output variable
           echo "subfolders=$MODIFIED_SUBFOLDERS" >> $GITHUB_OUTPUT
