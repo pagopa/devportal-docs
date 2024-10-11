@@ -1,0 +1,36 @@
+name: Identify Modified Docs Subfolders
+
+on:
+  pull_request:
+    branches:
+      - traduzioni
+
+jobs:
+  check-modified-subfolders:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@eef61447b9ff4aafe5dcd4e0bbf5d482be7e7871 # v4.2.1
+
+      - name: Get list of modified files in 'docs'
+        id: modified_files
+        run: |
+          # Get list of modified or added files within the docs folder
+          MODIFIED_FILES=$(git diff --name-only origin/traduzioni HEAD | grep '^docs/' || echo "")
+          echo "Modified files: $MODIFIED_FILES"
+          # Extract subfolders from the list of modified files
+          MODIFIED_SUBFOLDERS=$(echo "$MODIFIED_FILES" | awk -F'/' '{print $1"/"$2}' | sort -u)
+          echo "Modified subfolders: $MODIFIED_SUBFOLDERS"
+
+          echo "The following subfolders in docs were modified: $MODIFIED_SUBFOLDERS"
+          # Set output variable
+          echo "::set-output name=subfolders::$MODIFIED_SUBFOLDERS"
+
+      - name: Post comment on PR with modified subfolders
+        if: steps.modified_files.outputs.subfolders != ''
+        uses: marocchino/sticky-pull-request-comment@331f8f5b4215f0445d3c07b4967662a32a2d3e31 # v2.9.0
+        with:
+          message: |
+            ### Modified subfolders in 'docs':
+            ${{ steps.modified_files.outputs.subfolders }}
