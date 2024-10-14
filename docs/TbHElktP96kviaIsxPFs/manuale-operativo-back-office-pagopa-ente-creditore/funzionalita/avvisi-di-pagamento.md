@@ -31,7 +31,7 @@ Le informazioni da specificare sono le seguenti:
 Si ricorda infatti che PagoPA non ha alcuna autorizzazione per la stampa del bollettino postale ma che agisce in qualità di intermediario delegato dall'ente, il quale deve prevedere al rilascio delle autorizzazioni per la stampa
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (213).png" alt=""><figcaption><p>Sezione del bollettino postale</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (212).png" alt=""><figcaption><p>Sezione del bollettino postale</p></figcaption></figure>
 
 * _**Contatto per l'assistenza ->**_ campo obbligatorio che specifica il canale di contatto dell'ente utile al cittadino (specifica tecnica [https://docs.pagopa.it/avviso-pagamento/allegato-2/specifiche-tecniche/informazioni-sullente-creditore#ente-info](https://docs.pagopa.it/avviso-pagamento/allegato-2/specifiche-tecniche/informazioni-sullente-creditore#ente-info))
 
@@ -41,11 +41,11 @@ Si ricorda infatti che PagoPA non ha alcuna autorizzazione per la stampa del bol
 
 Le informazioni di cui sopra vanno specificate all'interno della sezione "Avvisi di pagamento"
 
-<figure><img src="../../.gitbook/assets/image (214).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (213).png" alt=""><figcaption></figcaption></figure>
 
 Attraverso il pulsante "Configura modello" è possibile accedere alla form in cui specificare tutti i dettagli:
 
-<figure><img src="../../.gitbook/assets/image (215).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (214).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (218).png" alt=""><figcaption></figcaption></figure>
 

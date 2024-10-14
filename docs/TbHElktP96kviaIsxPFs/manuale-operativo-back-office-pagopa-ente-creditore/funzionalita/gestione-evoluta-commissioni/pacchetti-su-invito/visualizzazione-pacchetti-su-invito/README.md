@@ -8,11 +8,11 @@ Per visualizzare i pacchetti "Su invito" è necessario spostarsi nel tab `"Su in
 
 Se non ci sono pacchetti "Su invito" definiti dal PSP per un dato EC, la lista dei pacchetti sarà vuota.
 
-<figure><img src="../../../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 Altrimenti si visualizza la lista dei pacchetti "Su invito" definiti dal PSP per quell'EC.
 
-<figure><img src="../../../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (1) (6).png" alt=""><figcaption></figcaption></figure>
 
 La quarta colonna della griglia assume i valori "`Disponibili`" e "`Attivi`" e pertanto in griglia possono essere mostrati i pacchetti nello stato "`Da attivare`" che sono quei pacchetti per cui il PSP ha inviato offerta all'ente oppure "`Attivo`" , ovvero pacchetti per i quali l'ente ha già aderito al pacchetto.
 
