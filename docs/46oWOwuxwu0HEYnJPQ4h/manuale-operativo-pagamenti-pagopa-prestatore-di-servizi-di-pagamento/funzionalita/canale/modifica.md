@@ -57,6 +57,6 @@ Altrimenti è necessario cliccare su "Torna indietro" per tornare alla _Pagina d
 
 Una volta aver cliccato su tasto "Invia", l'utente verrà reindirizzato alla _Pagina Vista Canale_ in cui potrà visualizzare nella tabella il canale, che risulterà nello stato **In revisione** (il canale è stato creato, ma in attesa di revisione da parte di PagoPA).
 
-<figure><img src="../../../.gitbook/assets/image (28).png" alt=""><figcaption><p><em>Pagina Vista Canali - tabella elenco Canali - menu stato In revisione</em></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (28) (1).png" alt=""><figcaption><p><em>Pagina Vista Canali - tabella elenco Canali - menu stato In revisione</em></p></figcaption></figure>
 
 [^1]: 

@@ -12,7 +12,7 @@ Accedendo alla funzionalità `"Pacchetti commissioni"` dal menu laterale di sini
 
 Una volta schiacciato il pulsante `Crea pacchetto` il sistema mostrerà la seguente interfaccia per poter inserire tutte le informazioni necessarie alla creazione del pacchetto
 
-<figure><img src="../../../../.gitbook/assets/screencapture-selfcare-dev-platform-pagopa-it-ui-comm-bundles-add-bundle-2024-07-11-11_23_59.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (218).png" alt=""><figcaption></figcaption></figure>
 
 Le informazioni da inserire sono le seguenti:
 
@@ -23,38 +23,32 @@ Le informazioni da inserire sono le seguenti:
   * Apple Pay
   * Bancomat Pay
   * Conto Banca Popolare di Sondrio
-  * Conto Banco Posta&#x20;
+  * Conto Banco Posta
   * Conto Banco PostaImpresa
   * Conto Intesa Sanpaolo
   * MyBank
   * Paga con PostePay
   * Paypal
 * Touchpoint (menu a tendina)
-  * &#x20;IO
+  * IO
   * pagoPA Checkout
   * ATM
   * POS
   * Canale PSP
   * WISP
-* Fascia Importo&#x20;
-  * Minimo&#x20;
+* Fascia Importo
+  * Minimo
   * Massimo
 * Commissioni
   * Importo applicato dal PSP
 * Dati di connessione
-  * Codice Broker -> codice fiscale del PSP&#x20;
+  * Codice Broker -> codice fiscale del PSP
   * Codice Canale -> codice del canale del PSP su cui far valere il pacchetto
-  * Gestione carrello di pagamenti -> Flag "Si" o "No" a seconda che il pacchetto possa essere utilizzato anche nel caso di carrello con più pagamenti.
-
-{% hint style="danger" %}
-La gestione del carrello può essere fatta esclusivamente per pacchetti su canali che sono configurati con primitive in versione 2.
-{% endhint %}
-
 * Marca da bollo digitale (le due opzioni sono esclusive)
   * Pagamento con marca da bollo
   * Pagamento solo con marca da bollo
-* Periodo di validità del pacchetto&#x20;
-  * Data inizio validità -> deve essere impostata almeno due giorni in avanti rispetto alla data in cui si sta creando il pacchetto per permettere agli operatori pagoPA di fare alcune verifiche di congruità
+* Periodo di validità del pacchetto
+  * Data inizio validità
   * Data fine validità
 
 {% hint style="warning" %}
@@ -65,7 +59,7 @@ Compilate le informazioni di cui sopra è necessario proseguire schiacciando il 
 
 <figure><img src="../../../../.gitbook/assets/image (176).png" alt=""><figcaption></figcaption></figure>
 
-Schiacciando il pulsante `"Sfoglia catalogo"` è possibile accedere all'elenco delle tassonomie disponibili raggruppate per tipologia di Ente Creditore, di Area e di specifico servizio.&#x20;
+Schiacciando il pulsante `"Sfoglia catalogo"` è possibile accedere all'elenco delle tassonomie disponibili raggruppate per tipologia di Ente Creditore, di Area e di specifico servizio.
 
 <div align="center" data-full-width="false">
 
@@ -87,13 +81,11 @@ Una volta selezionato il servizio (o i servizi) è necessario schiacciare il pul
 
 <figure><img src="../../../../.gitbook/assets/image (183).png" alt=""><figcaption><p>Vista riepilogo servizi incasso</p></figcaption></figure>
 
-Schiacciando il pulsante `"Sfoglia catalogo"` si torna alla possibilità di scelta di ulteriori servizi come specificato nelle sezioni precedenti.&#x20;
+Schiacciando il pulsante `"Sfoglia catalogo"` si torna alla possibilità di scelta di ulteriori servizi come specificato nelle sezioni precedenti.
 
-Schiacciando invece il pulsante `"carica il file"` è possibile fare l'upload di un csv contenente i codici delle tassonomie da caricare.&#x20;
+Schiacciando invece il pulsante `"carica il file"` è possibile fare l'upload di un csv contenente i codici delle tassonomie da caricare.
 
 Di seguito un esempio di file csv
-
-
 
 Schiacciando invece il pulsante `"Rimuovi"` è possibile rimuovere l'intera categoria di servizi.
 
@@ -107,10 +99,10 @@ Terminata la fase di selezione dei servizi di incasso è necessario proseguire s
 
 <figure><img src="../../../../.gitbook/assets/image (163).png" alt=""><figcaption><p>Popup conferma creazione pacchetto globale</p></figcaption></figure>
 
-Cliccando il tasto "`Conferma`" si procederà alla creazione del pacchetto "Per tutti". Esso sarà poi visibile nello stato `"In attivazione"` nella sezione "`Pacchetti commissioni`" nel tab "`Per tutti`". Il giorno di inizio validità passerà nello stato `"Attivo".`
+Schiacciando il pulsante "`Conferma`" si procederà alla creazione del pacchetto globale. Esso sarà poi visibile nella sezione "`Pacchetti commissioni`" nel tab "`Per tutti`"
 
 {% hint style="info" %}
-Il pacchetto appena creato sarà visibile anche a tutti gli EC nell'apposita maschera riepilogativa di tutti i pacchetti "Per tutti" dopo che esso verrà reso attivo nella data di inizio validità impostata sul pacchetto.
+Il pacchetto appena creato sarà visibile anche a tutti gli EC nell'apposita maschera riepilogativa di tutti i pacchetti "Per tutti"
 {% endhint %}
 
 <figure><img src="../../../../.gitbook/assets/Screenshot 2024-05-14 alle 17.10.04.png" alt=""><figcaption></figcaption></figure>

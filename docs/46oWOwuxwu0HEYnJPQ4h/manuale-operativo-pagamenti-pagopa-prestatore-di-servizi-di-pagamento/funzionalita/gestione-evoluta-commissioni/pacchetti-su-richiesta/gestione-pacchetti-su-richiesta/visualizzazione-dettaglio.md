@@ -1,6 +1,6 @@
 # Visualizzazione dettaglio
 
-Accedendo ad uno specifico pacchetto (vedi sezione [Visualizzazione pacchetti "Su richiesta"](../visualizzazione-pacchetti-su-richiesta.md)) è possibile accedere al suo dettaglio.
+Accedendo ad uno specifico pacchetto (vedi sezione [Visualizzazione pacchetti "Su richiesta"](broken-reference)) è possibile accedere al suo dettaglio.
 
 <figure><img src="../../../../../.gitbook/assets/image (220).png" alt=""><figcaption></figcaption></figure>
 
