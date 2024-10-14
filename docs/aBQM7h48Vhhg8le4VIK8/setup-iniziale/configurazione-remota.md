@@ -5,9 +5,9 @@ Questa configurazione è necessaria se hai intenzione di utilizzare una delle se
 1. [inviare-un-messaggio-a-contenuto-remoto.md](../funzionalita/inviare-un-messaggio/inviare-un-messaggio-a-contenuto-remoto.md "mention")
 2. [aggiungere-allegati.md](../funzionalita/inviare-un-messaggio/aggiungere-allegati.md "mention")
 
-Per entrambe le funzionalità è infatti necessario **mettere a disposizione un **_**REST web service**_ conforme alla [relativa OpenAPI](https://editor.swagger.io/?url=https://raw.githubusercontent.com/pagopa/io-functions-service-messages/master/openapi/index\_external.yaml).
+Per entrambe le funzionalità è infatti necessario **mettere a disposizione un **_**REST web service**_ conforme alla [relativa OpenAPI](../api-e-specifiche/openapi-endpoint-di-recupero-dei-contenuti-remotizzati.md).
 
-Un web service esposto è caratterizzato da un **identificativo di configurazione**, un codice alfanumerico univoco, generato da IO, che corrisponderà principalmente a un set di endpoint e alle relative API key.
+Un web service esposto è caratterizzato da un **identificativo di configurazione**, cioè un codice alfanumerico univoco, generato da IO, che corrisponderà a un set di endpoint e alle relative API key.
 
 {% hint style="info" %}
 Devi usare la specifica chiave [`manage`](../funzionalita/pubblicare-un-servizio/chiave-manage.md) per la gestione delle configurazioni: scopri [come recuperarla](../funzionalita/pubblicare-un-servizio/chiave-manage.md#recupera-la-chiave-manage)
@@ -26,7 +26,7 @@ Per gestire le configurazioni devi utilizzare l'API descritta in [cru-configuraz
 {% endhint %}
 
 {% hint style="success" %}
-Per specificare la **configurazione di riferimento per ciascun messaggio** a contenuto remoto devi utilizzare, in fase di creazione, il parametro obbligatorio [#configuration\_id](../api-e-specifiche/api-messaggi/submit-a-message-passing-the-user-fiscal\_code-in-the-request-body.md#configuration\_id "mention").
+**Ogni messaggio a contenuto remoto che invierai farà riferimento a una specifica configurazione**: per indicarla devi utilizzare, in fase di creazione, il parametro obbligatorio [#configuration\_id](../api-e-specifiche/api-messaggi/submit-a-message-passing-the-user-fiscal\_code-in-the-request-body.md#configuration\_id "mention").
 {% endhint %}
 
 Il servizio esposto deve essere costituito da un numero variabile di _endpoint_, a seconda di cosa si intenda remotizzare per i propri messaggi e del [tipo di accordo](https://docs.pagopa.it/kb-enti-accordi/domande-frequenti/domande-e-risposte-sugli-accordi#quali-sono-le-formule-contrattuali-possibili-per-aderire-allapp-io) che hai sottoscritto con PagoPA:
