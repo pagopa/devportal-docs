@@ -4,7 +4,7 @@
 [test snippet](https://app.gitbook.com/o/KXYtsf32WSKm6ga638R3/snippet/6005)
 {% endcontent-ref %}
 
-
+{% swagger %}
 
 ## Create a new user
 
@@ -48,5 +48,5 @@
 {% endtab %}
 {% endtabs %}
 
-***
+{% end swagger %}
 
