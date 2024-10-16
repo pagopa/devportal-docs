@@ -1,10 +1,14 @@
 # Test space 1
 
-## paPayment
 
-<mark style="color:green;">`POST`</mark> `/paPayment`
 
-Questa è la descrizione dell'endpoint
+***
+
+## Create a new user
+
+<mark style="color:green;">`POST`</mark> `/users`
+
+\<Description of the endpoint>
 
 **Headers**
 
@@ -41,4 +45,6 @@ Questa è la descrizione dell'endpoint
 ```
 {% endtab %}
 {% endtabs %}
+
+***
 
