@@ -4,13 +4,21 @@
 [test snippet](https://app.gitbook.com/o/KXYtsf32WSKm6ga638R3/snippet/6005)
 {% endcontent-ref %}
 
+## #### prova
+
+####
+
+\#### prova
+
+prova
+
+\#### fine prova
+
+
+
 ## Create a new user
 
-\#### hidden world
 
-SOAP
-
-\####hidden world
 
 <mark style="color:green;">`POST`</mark> `/users`
 
