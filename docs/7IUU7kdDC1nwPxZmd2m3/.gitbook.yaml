@@ -1,4 +1,4 @@
 root: ./
 
 redirects:
-  help: https://developer.pagopa.it
+  spaziotest: https://developer.pagopa.it
