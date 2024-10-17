@@ -1,0 +1,4 @@
+root: ./
+
+redirects:
+  help: https://developer.pagopa.it
