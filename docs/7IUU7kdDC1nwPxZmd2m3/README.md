@@ -6,6 +6,12 @@
 
 ## Create a new user
 
+\#### hidden world
+
+SOAP
+
+\####hidden world
+
 <mark style="color:green;">`POST`</mark> `/users`
 
 \<Description of the endpoint>
@@ -45,6 +51,3 @@
 ```
 {% endtab %}
 {% endtabs %}
-
-
-
