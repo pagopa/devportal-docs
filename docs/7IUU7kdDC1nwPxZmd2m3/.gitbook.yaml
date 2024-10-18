@@ -1,4 +1,4 @@
 root: ./
 
 redirects:
-  spaziotest: spaziotest/test-pagina-2
+  spaziotest: spaziotest/test-pagina-2.md
