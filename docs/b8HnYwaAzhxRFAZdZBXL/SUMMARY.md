@@ -1,7 +1,8 @@
 # Table of contents
 
 * [Premessa](README.md)
-* [Normativa e approfondimenti](normativa-e-approfondimenti.md)
+* [Normativa e approfondimenti](normativa-e-approfondimenti/README.md)
+  * [SLA - Service Level Agreement](normativa-e-approfondimenti/sla-service-level-agreement.md)
 * [Videotutorial](videotutorial.md)
 * [Glossario](glossario.md)
 * [Funzionamento generale](funzionamento-generale.md)
