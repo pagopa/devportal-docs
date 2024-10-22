@@ -14,7 +14,7 @@ L'ente, tramite i propri sistemi integrati con i dati dell'anagrafe, comunica ai
 
 ### Da ricordare 💡
 
-* E' importante che i sistemi in capo all'ente reperiscano con una certa frequenza i dati dei cittadini interessati dal servizio Asilo nido con una certa frequenza. Questo gli permetterà di comunicare ai destinatari l’apertura delle iscrizioni e altre informazioni utili.
+* E' importante che i sistemi in capo all'ente reperiscano con una certa frequenza i dati dei cittadini interessati dal servizio Asilo nido. Questo gli permetterà di comunicare ai destinatari l’apertura delle iscrizioni e altre informazioni utili.
 
 ## 2. Il cittadino riceve il messaggio e compila l'iscrizione
 
