@@ -24,6 +24,27 @@ In generale, i messaggi possono essere:
 * **messaggi che veicolano un pagamento**: messaggi che contengono informazioni relative a una posizione debitoria, con il promemoria della data di scadenza entro cui effettuare il pagamento e il pulsante “Vedi avviso” per procedere al pagamento. Per questo tipo di messaggi è necessario inserire i campi relativi al `payment_data` (Codice Avviso, importo da pagare, data di scadenza);
 * **messaggi che veicolano una scadenza**: messaggi che contengono una data di scadenza o da ricordare (come il promemoria della scadenza di un documento da rinnovare o la data entro cui iscriversi a un servizio). Per questo tipo di messaggi è necessario utilizzare il campo `due_date` nel payload del messaggio.
 
+***
+
+### Messaggi a contenuto remoto
+
+Oltre alle categorizzazioni precedentemente descritte, i messaggi sono identificabili in due tipologie, **secondo la modalità di gestione del contenuto** previsto dalla tua Organizzazione:
+
+* **Tradizionali**, ovvero i messaggi il cui contenuto è invariabile nel tempo e definito al momento del loro invio;
+* **A contenuto remoto**, ovvero i messaggi il cui contenuto non è persistito su IO ma fornito direttamente dai tuoi sistemi al momento della loro fruizione da parte del destinatario. In particolare, i messaggi a contenuto remoto sono pensati per le comunicazioni che veicolano informazioni sensibili.&#x20;
+
+Puoi trovare informazioni di dettaglio sui messaggi a contenuto remoto nella [sezione dedicata della Guida tecnica di IO](https://app.gitbook.com/s/sUBZStlCQZzLI6ZesbND/funzionalita/inviare-un-messaggio/inviare-un-messaggio-a-contenuto-remoto).
+
+{% hint style="danger" %}
+**Attenzione alle informazioni sensibili**
+
+**In caso di informazioni sensibili da veicolare nei messaggi di IO, puoi usare i messaggi a contenuto remoto.** Non inserire informazioni personali o dati sensibili all'interno del titolo di un messaggio tradizionale e assicurati che al suo interno ci siano solo i dati strettamente necessari. Scopri di più nella sezione dedicata alle [Informazioni sensibili](../../i-servizi-in-io/informazioni-sensibili.md).
+{% endhint %}
+
+
+
+***
+
 ### Messaggi Standard e Premium
 
 Gli enti possono avvalersi di messaggi standard oppure firmare un **nuovo contratto di app IO che consente di usufruire di funzionalità Premium**.
@@ -51,17 +72,4 @@ Ecco un riassunto delle funzionalità e la tipologia di messaggi a cui si applic
 | Possibilità di invio di notifiche push che ricordano che un messaggio non è stato letto  | ❌             | ✅                |
 | Possibilità di invio di notifiche push che ricordano che un messaggio non è stato pagato | ❌             | ✅                |
 
-### Messaggi a contenuto remoto
-
-Oltre alle categorizzazioni precedentemente descritte, i messaggi sono identificabili in due tipologie, **secondo la modalità di gestione del contenuto** previsto dalla tua Organizzazione:
-
-* **Tradizionali**, ovvero i messaggi il cui contenuto è invariabile nel tempo e definito al momento del loro invio;
-* **A contenuto remoto**, ovvero i messaggi il cui contenuto non è persistito su IO ma fornito direttamente dai tuoi sistemi al momento della loro fruizione da parte del destinatario. In particolare, i messaggi a contenuto remoto sono pensati per le comunicazioni che veicolano informazioni sensibili.&#x20;
-
-Puoi trovare informazioni di dettaglio sui messaggi a contenuto remoto nella [sezione dedicata della Guida tecnica di IO](https://app.gitbook.com/s/sUBZStlCQZzLI6ZesbND/funzionalita/inviare-un-messaggio/inviare-un-messaggio-a-contenuto-remoto).
-
-{% hint style="danger" %}
-**Attenzione alle informazioni sensibili**
-
-**In caso di informazioni sensibili da veicolare nei messaggi di IO, puoi usare i messaggi a contenuto remoto.** Non inserire informazioni personali o dati sensibili all'interno del titolo di un messaggio tradizionale e assicurati che al suo interno ci siano solo i dati strettamente necessari. Scopri di più nella sezione dedicata alle [Informazioni sensibili](../../i-servizi-in-io/informazioni-sensibili.md).
-{% endhint %}
+###
