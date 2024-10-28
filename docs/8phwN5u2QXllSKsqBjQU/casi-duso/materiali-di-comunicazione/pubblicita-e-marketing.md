@@ -9,7 +9,7 @@ description: >-
 In caso di utilizzo del logo pagoPA su flyer, brochure, totem e locandine, si deve:
 
 * Usare i [**termini corretti**](../enti-partner-e-intermediari-tecnologici/testi-descrittivi-e-termini.md) per comunicare il brand;&#x20;
-* Seguire [**le** ](broken-reference)[**specifiche tecniche**](broken-reference) per l'utilizzo del logo.
+* Seguire [**le specifiche tecniche**](../../specifiche-tecniche/il-logo-pagopa.md) per l'utilizzo del logo.
 
 {% hint style="warning" %}
 Di seguito, trovi degli esempi di usi non ammessi.&#x20;
