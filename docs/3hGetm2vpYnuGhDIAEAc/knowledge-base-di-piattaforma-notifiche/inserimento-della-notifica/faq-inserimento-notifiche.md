@@ -252,7 +252,7 @@ inserendo le credenziali dell’utente a cui sono state inviate le notifiche:
 * per Michelangelo Buonarroti username: michelangelo e password: password123
 
 ed entrando nel dettaglio della notifica appena inviata, che dopo alcuni secondi risulterà **Visualizzata**.\
-**NOTE:** lo stato della notifica **Visualizzata NON** corrisponde necessariamente al Perfezionamento per presa visione. Per i dettagli sul perfezionamento vedi: [https://docs.pagopa.it/f.a.q.-per-integratori/knowledge-base-di-piattaforma-notifiche/focus-sul-perfezionamento-della-notifica](https://docs.pagopa.it/f.a.q.-per-integratori/knowledge-base-di-piattaforma-notifiche/focus-sul-perfezionamento-della-notifica)
+**NOTE:** lo stato della notifica **Visualizzata NON** corrisponde necessariamente al Perfezionamento per presa visione. Per i dettagli sul perfezionamento vedi [Perfezionamento della notifica. ](../perfezionamento-della-notifica.md)
 
 ### Come gestisce un Ente le spese di notifica verso il destinatario?
 
