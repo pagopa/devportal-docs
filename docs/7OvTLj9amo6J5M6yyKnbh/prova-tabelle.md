@@ -1,6 +1,6 @@
 # Prova tabelle
 
-Configurando uno stream senza specificare alcun elemento in filterValues verranno riportati quelli di `DEFAULT`, ovvero quelli che hanno ripercussione sul cambiamento di stato del workflow o che riportano dati di interesse per il mittente, sia di carattere legale (es: legal facts) sia di business (es: numero della raccomandata).
+
 
 Se oltre a questi eventi si vogliono aggiungere altri di interesse (es: SEND\_COURTESY\_MESSAGE per sapere se sono stati inviati messaggi di cortesia ai destinatari) è sufficiente indicare nel filtro DEFAULT e le categorie di eventi ulteriori.
 
