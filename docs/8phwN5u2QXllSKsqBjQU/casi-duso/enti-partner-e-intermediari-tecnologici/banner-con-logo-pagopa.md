@@ -33,7 +33,7 @@ A sinistra non emerge il concetto di "pagamento online" e il servizio "pagoPA" Ã
 
 ### Segui le linee guida del logo
 
-Le puoi consultare [**a questa pagina**](broken-reference). In caso di sfondi colorati contrastati utilizzare il logo pagoPA nella versione bianca o nera senza background.
+Le puoi consultare [**a questa pagina**](../../specifiche-tecniche/il-logo-pagopa.md). In caso di sfondi colorati contrastati utilizzare il logo pagoPA nella versione bianca o nera senza background.
 
 <figure><img src="../../.gitbook/assets/Banner con immagine Esempio 6.png" alt="Esempio di banner che non segue le linee guida del logo"><figcaption></figcaption></figure>
 
