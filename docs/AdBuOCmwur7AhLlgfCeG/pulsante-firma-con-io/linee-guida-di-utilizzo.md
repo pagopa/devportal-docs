@@ -1,4 +1,4 @@
-# 🗂 Linee guida di utilizzo
+# 🗂️ Linee guida di utilizzo
 
 I comportamenti del Pulsante Firma con IO possono essere scelti dall’Ente nella fase di integrazione. Di seguito elenchiamo alcuni possibili scenari da gestire e conseguenti consigli sulla gestione.
 
@@ -20,7 +20,7 @@ I comportamenti del Pulsante Firma con IO possono essere scelti dall’Ente nell
 L’utente accede al flusso per la firma, poi lo interrompe prima di concluderlo. A questo punto torna a cliccare la CTA Firma con IO per completare la firma.
 
 {% hint style="info" %}
-Si consiglia in questo caso all’Ente di[ verificare lo stato della firma](https://app.gitbook.com/o/KXYtsf32WSKm6ga638R3/s/AdBuOCmwur7AhLlgfCeG/\~/changes/87/verificare-lo-stato-di-una-firma) e, in caso di **richiesta di firma in corso (WAIT\_FOR\_SIGNATURE)**, di consentire tramite la CTA all’utente di riaprire la stessa richiesta di firma e completare il processo.
+Si consiglia in questo caso all’Ente di [verificare lo stato della firma](../verificare-lo-stato-di-una-firma.md) e, in caso di **richiesta di firma in corso (WAIT\_FOR\_SIGNATURE)**, di consentire tramite la CTA all’utente di riaprire la stessa richiesta di firma e completare il processo.
 {% endhint %}
 
 ### **Firma già effettuata**
@@ -28,13 +28,13 @@ Si consiglia in questo caso all’Ente di[ verificare lo stato della firma](http
 L’utente dopo aver completato il processo di firma, torna a cliccare la CTA firma con IO.
 
 {% hint style="info" %}
-Si consiglia in questo caso all’Ente di [verificare lo stato della firma](https://app.gitbook.com/o/KXYtsf32WSKm6ga638R3/s/AdBuOCmwur7AhLlgfCeG/\~/changes/87/verificare-lo-stato-di-una-firma) e, in caso di **firma già effettuata dall’utente (SIGNED)**, evitare che al nuovo click sulla CTA parta un nuovo processo di firma. La soluzione migliore potrebbe essere quella di eliminare/inibire la CTA e il pulsante Firma con IO e offrire all’utente una thank you page sul canale che ringrazia della firma effettuata.
+Si consiglia in questo caso all’Ente di [verificare lo stato della firma](../verificare-lo-stato-di-una-firma.md) e, in caso di **firma già effettuata dall’utente (SIGNED)**, evitare che al nuovo click sulla CTA parta un nuovo processo di firma. La soluzione migliore potrebbe essere quella di eliminare/inibire la CTA e il pulsante Firma con IO e offrire all’utente una thank you page sul canale che ringrazia della firma effettuata.
 {% endhint %}
 
 ### **Firma in corso (completate lato utente ma in corso di firma lato QTSP)**
 
 {% hint style="info" %}
-Si consiglia in questo caso all’Ente di [verificare lo stato della firma](https://app.gitbook.com/o/KXYtsf32WSKm6ga638R3/s/AdBuOCmwur7AhLlgfCeG/\~/changes/87/verificare-lo-stato-di-una-firma) e, **in caso di firma in corso di completamento (WAIT\_FOR\_QTSP)** di offrire all’utente un’information page che lo rimanda all’app IO per verificare lo stato della Firma.
+Si consiglia in questo caso all’Ente di [verificare lo stato della firma](../verificare-lo-stato-di-una-firma.md) e, **in caso di firma in corso di completamento (WAIT\_FOR\_QTSP)** di offrire all’utente un’information page che lo rimanda all’app IO per verificare lo stato della Firma.
 {% endhint %}
 
 <figure><img src="../.gitbook/assets/Screenshot 2023-03-28 alle 17.42.12.png" alt=""><figcaption></figcaption></figure>
@@ -46,7 +46,7 @@ L’utente procede correttamente con la firma in app, ma al termine del flusso f
 Se non è stato possibile completare la firma, la ragione è legata a problemi tecnici nel/i documento/i inviato/i dall’Ente.&#x20;
 
 {% hint style="info" %}
-Si consiglia in questo caso all’Ente di [verificare lo stato della firma](https://app.gitbook.com/o/KXYtsf32WSKm6ga638R3/s/AdBuOCmwur7AhLlgfCeG/\~/changes/87/verificare-lo-stato-di-una-firma) e, in caso di firma rigettata **(REJECTED)**, non consentire all’utente di avviare una nuova richiesta di firma con quella stessa CTA. Si consiglia di inibire/eliminare la CTA oppure di sostituirla con una legata a documenti corretti. Prima della presa in carico, si consiglia di prevedere una error page informativa.
+Si consiglia in questo caso all’Ente di [verificare lo stato della firma](../verificare-lo-stato-di-una-firma.md) e, in caso di firma rigettata **(REJECTED)**, non consentire all’utente di avviare una nuova richiesta di firma con quella stessa CTA. Si consiglia di inibire/eliminare la CTA oppure di sostituirla con una legata a documenti corretti. Prima della presa in carico, si consiglia di prevedere una error page informativa.
 {% endhint %}
 
 <figure><img src="../.gitbook/assets/Screenshot 2023-03-28 alle 17.40.30.png" alt=""><figcaption></figcaption></figure>
@@ -65,4 +65,3 @@ Si consiglia in questo caso all’Ente di inserire un error page temporanea che 
 
 
 
-![](blob:https://pagopa.atlassian.net/6835ec2b-5567-453d-97c7-ccff5ae1b911#media-blob-url=true\&id=3e8028d1-e253-459c-82bb-b30301319d69\&collection=contentId-633110911\&contextId=633110911\&height=82\&width=333\&alt=)
