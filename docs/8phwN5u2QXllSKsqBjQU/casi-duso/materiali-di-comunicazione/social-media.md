@@ -9,7 +9,7 @@ description: >-
 Quando si crea un post social che menziona pagoPA, bisogna:
 
 * Usare i [**termini corretti**](../enti-partner-e-intermediari-tecnologici/testi-descrittivi-e-termini.md) per comunicare il brand;&#x20;
-* Seguire [**le specifiche**](broken-reference) per l'utilizzo del logo.
+* Seguire [**le specifiche**](../../specifiche-tecniche/il-logo-pagopa.md) per l'utilizzo del logo.
 
 Di seguito, trovi degli esempi di usi non ammessi.&#x20;
 
