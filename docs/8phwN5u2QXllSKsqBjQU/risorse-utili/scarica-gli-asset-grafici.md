@@ -34,6 +34,6 @@ Questa cartella contiene i badge "Integrato con pagoPA", in formato svg e png. P
 
 Questa cartella contiene il logo pagoPA nelle sue varianti di colore, in formato svg e png.
 
-Per le regole d'utilizzo, visita la sezione [Broken link](broken-reference "mention").
+Per le regole d'utilizzo, visita la sezione [specifiche tecniche](../specifiche-tecniche/il-logo-pagopa.md).
 
 {% file src="../.gitbook/assets/pagoPA - Brand Assets.zip" %}
