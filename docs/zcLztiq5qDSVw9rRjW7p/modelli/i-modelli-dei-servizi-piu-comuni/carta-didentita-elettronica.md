@@ -36,7 +36,7 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 🗒 **Testo del messaggio**:&#x20;
 
-Ti ricordiamo l'appuntamento presso l'\<ufficio> situato in \<indirizzo> fissato per il giorno \<gg/mm/aaaa> alle ore [hh:mm](hh:mm).
+Ti ricordiamo l'appuntamento presso l'\<ufficio> situato in \<indirizzo> fissato per il giorno \<gg/mm/aaaa> alle ore hh:mm.
 
 Ti invitiamo a presentarti con almeno 15 minuti di anticipo e di portare con te tutti i documenti necessari. Per maggiori informazioni su quali documenti ti serviranno, visita il sito di [CIE](https://www.cartaidentita.interno.gov.it/cittadini/rilascio-e-rinnovo-in-italia/).
 
@@ -62,7 +62,7 @@ Puoi disdire l'appuntamento online, sul sito \[nome sito]\(URL).
 
 🗒 **Testo del messaggio**:&#x20;
 
-Il tuo appuntamento presso l'\<ufficio> situato in \<indirizzo> fissato per il giorno \<gg/mm/aaaa> alle ore [hh:mm](hh:mm) è stato cancellato per \<descrizione motivazione>.
+Il tuo appuntamento presso l'\<ufficio> situato in \<indirizzo> fissato per il giorno \<gg/mm/aaaa> alle ore hh:mm è stato cancellato per \<descrizione motivazione>.
 
 Se desideri prenotare un nuovo appuntamento online, puoi utilizzare il \[servizio di prenotazione]\(URL) del tuo Comune o recarti all'ufficio Anagrafe più comodo per le tue esigenze.
 
