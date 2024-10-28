@@ -18,10 +18,10 @@ Fai sempre uso degli stili di testo, così da garantire leggibilità e coerenza:
 
 ## Font utilizzati
 
-### [Titillium Web](tipografia.md#font-utilizzati)
+### Titillium Web
 
 La famiglia di font Titillium Web è stata realizzata come progetto didattico dagli studenti del corso in Type Design dell’[Accademia di Belle Arti di Urbino](http://nta.accademiadiurbino.it/titillium/). Il carattere è rilasciato con licenza SIL Open Font License ed è scaricabile da [Google Fonts](https://fonts.google.com/specimen/Titillium+Web), una piattaforma di distribuzione gratuita di web font.
 
-### [Roboto Mono](https://fonts.google.com/specimen/Roboto+Mono)
+### Roboto Mono
 
 Il Roboto Mono è la variante monospaziata della famiglia Roboto ed anche in questo caso si tratta di un web font scaricabile da [Google Fonts](https://fonts.google.com/specimen/Roboto+Mono) e utilizzabile gratuitamente. È stato scelto per la chiarezza e leggibilità dei numeri: è adatto ad essere utilizzato per la rappresentazione di numeri, calcoli matematici, numeri in tabelle, codice di programmazione.
