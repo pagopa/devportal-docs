@@ -60,9 +60,11 @@ Indica un tentativo di invio digitale della notifica
 
 Indica la ricezione di un esito ad un invio digitale
 
-| Legal Fact                                                                                    | Dettagli                                                                                                                                                                                                                                                                                                                                                                                          |
-| --------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <p><strong>PEC_RECEIPT</strong><br>File in formato EML che attesta la consegna della PEC-</p> | <ul><li><code>recIndex</code>:  posizione del destinatario nell'array recipients</li><li><code>responseStatus</code>: esito dell'invio digitale (<em>es: OK</em>)</li><li><code>notificationDate</code>: data di consegna o mancata consegna della PEC.</li><li><code>deliveryFailureCause</code>: Eventuali errori (*)</li><li><code>deliveryDetailCode</code>: Codice di consegna (*)</li></ul> |
+
+
+<table><thead><tr><th>Legal Fact</th><th>Dettagli</th><th data-hidden></th></tr></thead><tbody><tr><td><strong>PEC_RECEIPT</strong><br>File in formato EML che attesta la consegna della PEC-</td><td><p></p><ul><li><code>recIndex</code>:  posizione del destinatario nell'array recipients</li></ul><ul><li><code>responseStatus</code>: esito dell'invio digitale (<em>es: OK</em>)</li></ul><ul><li><code>notificationDate</code>: data di consegna o mancata consegna della PEC.</li></ul><ul><li><code>deliveryFailureCause</code>: Eventuali errori (*)</li></ul><ul><li><code>deliveryDetailCode</code>: Codice di consegna (*)</li></ul></td><td></td></tr></tbody></table>
+
+
 
 #### DIGITAL\_SUCCESS\_WORKFLOW
 
