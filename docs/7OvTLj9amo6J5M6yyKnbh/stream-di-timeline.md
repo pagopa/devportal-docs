@@ -4,7 +4,7 @@ description: Configurazione DEFAULT filterValues per stream di eventi di timelin
 
 # Stream di Timeline
 
-## New stream di timeline
+
 
 Configurando uno stream senza specificare alcun elemento in filterValues verranno riportati quelli di `DEFAULT`, ovvero quelli che hanno ripercussione sul cambiamento di stato del workflow o che riportano dati di interesse per il mittente, sia di carattere legale (es: legal facts) sia di business (es: numero della raccomandata).
 
@@ -16,11 +16,11 @@ Nelle tabelle sottostanti sono riportati per ogni categoria di eventi la drescri
 
 **NOTA**: le date sono espresse nel formato standard [ISO 8601](https://en.wikipedia.org/wiki/ISO\_8601), anche detta "Zulu time", che esprime la data UTC (es: 2024-02-29T11:44:17.511990926Z corrisponde alle 12:44:17s del 29/02/2024).
 
-### Eventi di timeline nella configurazione DEFAULT
+## Eventi di timeline nella configurazione DEFAULT
 
 In questa sezione sono indicati gli eventi di timeline inclusi nella configurazione "DEFAULT" e sono stati suddivisi per fase e tipologia del workflow.
 
-#### Eventi di accettazione/rifiuto notifica <a href="#eventi-di-timeline-di-validazione-della-richiesta" id="eventi-di-timeline-di-validazione-della-richiesta"></a>
+### Eventi di accettazione/rifiuto notifica <a href="#eventi-di-timeline-di-validazione-della-richiesta" id="eventi-di-timeline-di-validazione-della-richiesta"></a>
 
 Gli eventi descritti nella tabella sottostante sono relativi al processo di accettazione della notifica.
 
@@ -40,7 +40,7 @@ Indica che la richiesta di notifica è stata accettata a seguito dei controlli d
 | ------------------------------------------------------------------------------------ | -------- |
 | <p><strong>SENDER_ACK</strong><br>Attestazione di presa in carico della notifica</p> | -        |
 
-#### Eventi del workflow digitale <a href="#eventi-di-timeline-di-scelta-del-workflow-digitale" id="eventi-di-timeline-di-scelta-del-workflow-digitale"></a>
+### Eventi del workflow digitale <a href="#eventi-di-timeline-di-scelta-del-workflow-digitale" id="eventi-di-timeline-di-scelta-del-workflow-digitale"></a>
 
 Gli eventi descritti nella tabella sottostante sono relativi al processo del workflow digitale, compreso l'eventuale invio dell'AAR tramite raccomandata semplice.
 
@@ -92,7 +92,7 @@ Indica la ricezione di informazioni relative all'invio della raccomandata sempli
 
 (\*) Per la decodifica dei codici di `deliveryDetailCode` all'interno dei details degli eventi si rimanda alla pagina Broken link
 
-#### Eventi del workflow Analogico <a href="#eventi-di-timeline-di-scelta-del-workflow-analogico" id="eventi-di-timeline-di-scelta-del-workflow-analogico"></a>
+### Eventi del workflow Analogico <a href="#eventi-di-timeline-di-scelta-del-workflow-analogico" id="eventi-di-timeline-di-scelta-del-workflow-analogico"></a>
 
 **SEND\_ANALOG\_DOMICILE**
 
@@ -136,7 +136,7 @@ Il destinatario è risultato irraggiungibile.
 
 (\*) Per la decodifica dei codici di e `deliveryFailureCause` e `deliveryDetailCode` all'interno dei details degli eventi di SEND\_ANALOG\_FEEDBACK si rimanda alla pagina Broken link
 
-#### Eventi di chiusura del workflow <a href="#eventi-di-timeline-di-chiusura-del-workflow" id="eventi-di-timeline-di-chiusura-del-workflow"></a>
+### Eventi di chiusura del workflow <a href="#eventi-di-timeline-di-chiusura-del-workflow" id="eventi-di-timeline-di-chiusura-del-workflow"></a>
 
 **REFINEMENT**
 
@@ -162,7 +162,7 @@ Evento di fine della cancellazione della notifica dal parte del mittente.
 | ---------- | ----------------------------------------------------------------------------------------------- |
 |            | <ul><li><code>notificationCost:</code> costo della notifica annullata per il mittente</li></ul> |
 
-#### Altre eventi di timeline <a href="#altre-eventi-di-timeline" id="altre-eventi-di-timeline"></a>
+### Altri eventi di timeline <a href="#altre-eventi-di-timeline" id="altre-eventi-di-timeline"></a>
 
 **NOTIFICATION\_RADD\_RETRIEVED**
 
@@ -172,11 +172,11 @@ Evento di accesso alla notifica tramite RADD
 | ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 |            | <ul><li><code>recIndex</code>: posizione del destinatario nell'array recipients</li><li><code>eventTimestamp</code>: data di consegna della notifica</li><li><code>raddType</code>: tipologia soggetto RADD</li><li><code>raddTransactionId</code>: identificativo della transazione RADD</li></ul> |
 
-### **Eventi aggiuntivi al DEFAULT**
+## **Eventi aggiuntivi al DEFAULT**
 
 In questo paragrafo sono indicati altri eventi della timeline che non hanno effetto sullo stato della notifica e non hanno una importanza prioritaria per il mittente, ma possono essere interessanti per recuperare delle informazioni di dettaglio. Ricordiamo che questi dati sono mantenuti dalla piattaforma in modo sicuro per 10 anni e sono sempre disponibili per essere recuperati tramite le API.
 
-#### Eventi di preparazione workflow <a href="#eventi-di-timeline-di-preparazione-workflow" id="eventi-di-timeline-di-preparazione-workflow"></a>
+### Eventi di preparazione workflow <a href="#eventi-di-timeline-di-preparazione-workflow" id="eventi-di-timeline-di-preparazione-workflow"></a>
 
 **AAR\_GENERATION**
 
@@ -202,7 +202,7 @@ Indica che il workflow può essere sospeso per 120h a fronte di un invio di un m
 | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 |            | <ul><li><code>recIndex:</code> posizione del destinatario nell'array recipients</li><li><code>schedulingAnalogDate</code>: data di inizio del workflow analogico, ritardato a causa di invio di messaggi di cortesia.</li></ul> |
 
-#### Eventi di scelta del workflow
+### Eventi di scelta del workflow
 
 **PUBLIC\_REGISTRY\_RESPONSE**
 
@@ -212,7 +212,7 @@ Indica la ricezione di un domicilio digitale dai registri nazionali
 | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 |            | <ul><li><code>recIndex:</code> posizione del destinatario nell'array recipients</li><li><code>digitalAddress</code>: indirizzo digitale del destinatario</li><li><code>type</code>: <em>PEC</em></li><li><code>address</code>: indirizzo PEC</li></ul> |
 
-#### Eventi con evidenze dell'invio
+### Eventi con evidenze dell'invio
 
 Gli eventi di PROGRESS sono eventi restituiti dai servizi esterni di invio digitale (SEND\_DIGITAL\_PROGRESS) e cartaceo (SEND\_ANALOG\_PROGRESS).
 
