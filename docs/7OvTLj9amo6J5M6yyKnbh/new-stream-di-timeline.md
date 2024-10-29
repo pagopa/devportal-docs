@@ -24,9 +24,9 @@ Gli eventi descritti nella tabella sottostante sono relativi al processo di acce
 
 **Indica che la richiesta di notifica è stata rifiutata per un fallimento in fase di validazione**
 
-| Legal Fact | Dettagli                                                                                                                                                                                                                                                                                  |
-| ---------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|            | notificationCost: costo della notifica rifiutata per il mittenterefusalReasons:detail: motivo del rifiuta della notifica (es: Validation failed, address is not valid. Error=Invalid Address, Cap, City and Province)errorCode: codice identificati dell'errore (es: NOT\_VALID\_ADDRESS) |
+| Legal Fact | Dettagli                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|            | <p></p><ul><li><code>notificationCost</code>: costo della notifica rifiutata per il mittente</li><li><p><code>refusalReasons</code>:</p><ul><li><code>detail</code>: motivo del rifiuta della notifica (<em>es: Validation failed, address is not valid. Error=Invalid Address, Cap, City and Province</em>)</li><li><code>errorCode</code>: codice identificati dell'errore (<em>es: NOT_VALID_ADDRESS</em>)</li></ul></li></ul> |
 
 #### REQUEST\_ACCEPTED
 
