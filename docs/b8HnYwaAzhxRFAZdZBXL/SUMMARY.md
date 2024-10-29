@@ -16,7 +16,7 @@
 * [Attributi](manuale-operativo/attributi.md)
 * [Richieste di fruizione](manuale-operativo/richieste-di-fruizione.md)
 * [Finalità](manuale-operativo/finalita.md)
-* [Client e materiale crittografico](manuale-operativo/client-e-materiale-crittografico.md)
+* [Client, portachiavi e materiale crittografico](manuale-operativo/client-e-materiale-crittografico.md)
 * [Generare e caricare chiavi di sicurezza](manuale-operativo/generare-e-caricare-chiavi-di-sicurezza.md)
 * [Utilizzare i voucher](manuale-operativo/utilizzare-i-voucher.md)
 * [Utenze](manuale-operativo/utenze.md)
