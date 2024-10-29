@@ -1,6 +1,8 @@
-# New stream di timeline
+---
+description: Configurazione DEFAULT filterValues per stream di eventi di timeline
+---
 
-
+# Stream di Timeline
 
 Configurando uno stream senza specificare alcun elemento in filterValues verranno riportati quelli di `DEFAULT`, ovvero quelli che hanno ripercussione sul cambiamento di stato del workflow o che riportano dati di interesse per il mittente, sia di carattere legale (es: legal facts) sia di business (es: numero della raccomandata).
 
@@ -13,6 +15,8 @@ Nelle tabelle sottostanti sono riportati per ogni categoria di eventi la drescri
 **NOTA**: le date sono espresse nel formato standard [ISO 8601](https://en.wikipedia.org/wiki/ISO\_8601), anche detta "Zulu time", che esprime la data UTC (es: 2024-02-29T11:44:17.511990926Z corrisponde alle 12:44:17s del 29/02/2024).
 
 ## Eventi di timeline nella configurazione DEFAULT
+
+
 
 In questa sezione sono indicati gli eventi di timeline inclusi nella configurazione "DEFAULT"  e sono stati suddivisi per fase e tipologia del workflow.
 
@@ -67,6 +71,12 @@ Indica il completamento con successo il workflow di invio digitale.
 | Legal Fact                                                                                                                                                                                           | Dettagli                                                                                                                                                                                                                                                |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | <p><strong>DIGITAL_DELIVERY</strong> <br>Attestazione generata alla conclusione dei tentativi di invio sui domicili digitali disponibili, nel caso si siano completati con un evento di consegna</p> | <ul><li><code>recIndex</code>:  posizione del destinatario nell'array recipients</li><li><code>digitalAddress</code>: indirizzo digitale del destinatario</li><li><code>type</code>: <em>PEC</em></li><li><code>address</code>: indirizzo PEC</li></ul> |
+
+####
+
+####
+
+####
 
 #### DIGITAL\_FAILURE\_WORKFLOW
 
