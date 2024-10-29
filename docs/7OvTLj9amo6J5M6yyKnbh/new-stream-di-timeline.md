@@ -22,19 +22,19 @@ Gli eventi descritti nella tabella sottostante sono relativi al processo di acce
 
 #### REQUEST\_REFUSED
 
-**Indica che la richiesta di notifica è stata rifiutata per un fallimento in fase di validazione**
+Indica che la richiesta di notifica è stata rifiutata per un fallimento in fase di validazione
 
-| Legal Fact | Dettagli                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|            | <p></p><ul><li><code>notificationCost</code>: costo della notifica rifiutata per il mittente</li><li><p><code>refusalReasons</code>:</p><ul><li><code>detail</code>: motivo del rifiuta della notifica (<em>es: Validation failed, address is not valid. Error=Invalid Address, Cap, City and Province</em>)</li><li><code>errorCode</code>: codice identificati dell'errore (<em>es: NOT_VALID_ADDRESS</em>)</li></ul></li></ul> |
+| Legal Fact | Dettagli                                                                                                                                                                                                                                                                                                                                                                                                   |
+| ---------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|            | <ul><li><code>notificationCost</code>: costo della notifica rifiutata per il mittente</li><li><code>refusalReasons</code>:</li><li><code>detail</code>: motivo del rifiuta della notifica (<em>es: Validation failed, address is not valid. Error=Invalid Address, Cap, City and Province</em>)</li><li><code>errorCode</code>: codice identificati dell'errore (<em>es: NOT_VALID_ADDRESS</em>)</li></ul> |
 
 #### REQUEST\_ACCEPTED
 
-**Indica che la richiesta di notifica è stata accettata a seguito dei controlli di validazione**
+Indica che la richiesta di notifica è stata accettata a seguito dei controlli di validazione
 
-| Legal Fact                                                | Dettagli |
-| --------------------------------------------------------- | -------- |
-| SENDER\_ACKAttestazione di presa in carico della notifica | -        |
+| Legal Fact                                                                           | Dettagli |
+| ------------------------------------------------------------------------------------ | -------- |
+| <p><strong>SENDER_ACK</strong><br>Attestazione di presa in carico della notifica</p> | -        |
 
 
 
@@ -42,53 +42,55 @@ Gli eventi descritti nella tabella sottostante sono relativi al processo di acce
 
 Gli eventi descritti nella tabella sottostante sono relativi al processo del workflow digitale, compreso l'eventuale invio dell'AAR tramite raccomandata semplice.&#x20;
 
-#### SEND\_DIGITAL\_DOMICILE
 
-**Indica un tentativo di invio digitale della notifica**
 
-| Legal Fact | Dettagli                                                                                                                                                                                                                                                                                                                                                                                                           |
-| ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-|            | <p></p><ul><li><code>recIndex</code>:  posizione del destinatario nell'array recipients</li></ul><ul><li><p><code>digitalAddress</code>: indirizzo digitale del destinatario</p><ul><li><code>type</code>: <em>PEC</em></li><li><code>address</code>: indirizzo PEC</li></ul></li></ul><ul><li><code>digitalAddressSource</code>: tipologia del domicilio digitale (<em>PLATFORM, SPECIAL, GENERAL</em>)</li></ul> |
+**SEND\_DIGITAL\_DOMICILE**
+
+Indica un tentativo di invio digitale della notifica
+
+| Legal Fact | Dettagli                                                                                                                                                                                                                                                                                                                                                                  |
+| ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|            | <ul><li><code>recIndex</code>:  posizione del destinatario nell'array recipients</li><li><code>digitalAddress</code>: indirizzo digitale del destinatario</li><li><code>type</code>: <em>PEC</em></li><li><code>address</code>: indirizzo PEC</li><li><code>digitalAddressSource</code>: tipologia del domicilio digitale (<em>PLATFORM, SPECIAL, GENERAL</em>)</li></ul> |
 
 #### SEND\_DIGITAL\_FEEDBACK
 
-**Indica la ricezione di un esito ad un invio digitale**
+Indica la ricezione di un esito ad un invio digitale
 
-| Legal Fact                                                        | Dettagli                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| ----------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| PEC\_RECEIPTFile in formato EML che attesta la consegna della PEC | <p></p><ul><li><code>recIndex</code>:  posizione del destinatario nell'array recipients</li></ul><ul><li><code>responseStatus</code>: esito dell'invio digitale (<em>es: OK</em>)</li></ul><ul><li><code>notificationDate</code>: data di consegna o mancata consegna della PEC.</li></ul><ul><li><code>deliveryFailureCause</code>: Eventuali errori (*)</li></ul><ul><li><code>deliveryDetailCode</code>: Codice di consegna (*)</li></ul> |
+| Legal Fact                                                                                    | Dettagli                                                                                                                                                                                                                                                                                                                                                                                          |
+| --------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <p><strong>PEC_RECEIPT</strong><br>File in formato EML che attesta la consegna della PEC-</p> | <ul><li><code>recIndex</code>:  posizione del destinatario nell'array recipients</li><li><code>responseStatus</code>: esito dell'invio digitale (<em>es: OK</em>)</li><li><code>notificationDate</code>: data di consegna o mancata consegna della PEC.</li><li><code>deliveryFailureCause</code>: Eventuali errori (*)</li><li><code>deliveryDetailCode</code>: Codice di consegna (*)</li></ul> |
 
 #### DIGITAL\_SUCCESS\_WORKFLOW
 
-**Indica il completamento con successo il workflow di invio digitale.**
+Indica il completamento con successo il workflow di invio digitale.
 
-| Legal Fact                                                                                                                                                                                           | Dettagli                                                                                                                                                                                                                                                                                |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <p><strong>DIGITAL_DELIVERY</strong> <br>Attestazione generata alla conclusione dei tentativi di invio sui domicili digitali disponibili, nel caso si siano completati con un evento di consegna</p> | <p></p><ul><li><code>recIndex</code>:  posizione del destinatario nell'array recipients</li></ul><ul><li><p><code>digitalAddress</code>: indirizzo digitale del destinatario</p><ul><li><code>type</code>: <em>PEC</em></li><li><code>address</code>: indirizzo PEC</li></ul></li></ul> |
+| Legal Fact                                                                                                                                                                                           | Dettagli                                                                                                                                                                                                                                                |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <p><strong>DIGITAL_DELIVERY</strong> <br>Attestazione generata alla conclusione dei tentativi di invio sui domicili digitali disponibili, nel caso si siano completati con un evento di consegna</p> | <ul><li><code>recIndex</code>:  posizione del destinatario nell'array recipients</li><li><code>digitalAddress</code>: indirizzo digitale del destinatario</li><li><code>type</code>: <em>PEC</em></li><li><code>address</code>: indirizzo PEC</li></ul> |
 
 #### DIGITAL\_FAILURE\_WORKFLOW
 
-**Indica il completamento con fallimento il workflow di invio digitale:tutti i tentativi di invio ai domicili digitali sono falliti**
+Indica il completamento con fallimento il workflow di invio digitale:tutti i tentativi di invio ai domicili digitali sono falliti
 
-| Legal Fact                                                                                                                                                                             | Dettagli                                                                                                              |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
-| <p><strong>DIGITAL_DELIVERY</strong> <br>Generata alla conclusione dei tentativi di invio sui domicili digitali disponibili, nel caso si siano completati con una mancata consegna</p> | <p><code>recIndex:</code> indica l'indice dell'array del destinatario per il quale è fallito l'invio digitale<br></p> |
+| Legal Fact                                                                                                                                                                             | Dettagli                                                                                                                         |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
+| <p><strong>DIGITAL_DELIVERY</strong> <br>Generata alla conclusione dei tentativi di invio sui domicili digitali disponibili, nel caso si siano completati con una mancata consegna</p> | <ul><li><code>recIndex:</code> indica l'indice dell'array del destinatario per il quale è fallito l'invio digitale<br></li></ul> |
 
 #### SEND\_SIMPLE\_REGISTERED\_LETTER
 
-**Indica l'invio di raccomandata semplice**
+Indica l'invio di raccomandata semplice
 
-| Legal Fact | Dettagli                                                                                                                                                                                                                                               |
-| ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-|            | <p></p><ul><li><code>recIndex</code>:  posizione del destinatario nell'array recipients</li></ul><ul><li><code>analogCost</code>: costo dell’invio cartaceo</li></ul><ul><li><code>physicalAddress</code>: indirizzo fisico del destinatario</li></ul> |
+| Legal Fact | Dettagli                                                                                                                                                                                                                      |
+| ---------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|            | <ul><li><code>recIndex</code>:  posizione del destinatario nell'array recipients</li><li><code>analogCost</code>: costo dell’invio cartaceo</li><li><code>physicalAddress</code>: indirizzo fisico del destinatario</li></ul> |
 
 #### SEND\_SIMPLE\_REGISTERED\_LETTER\_PROGRESS
 
-**Indica la ricezione di informazioni relative all'invio della raccomandata semplice**
+Indica la ricezione di informazioni relative all'invio della raccomandata semplice
 
-| Legal Fact | Dettagli                                                                                                                                                                                                                                                                                      |
-| ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|            | <p></p><ul><li><code>recIndex</code>:  posizione del destinatario nell'array recipients</li></ul><ul><li><code>registeredLetterCode</code> : codice della lettera per il destinatario</li></ul><ul><li><code>deliveryDetailCode</code>: codice del dettaglio dell'eveto di progress</li></ul> |
+| Legal Fact | Dettagli                                                                                                                                                                                                                                                             |
+| ---------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|            | <ul><li><code>recIndex</code>:  posizione del destinatario nell'array recipients</li><li><code>registeredLetterCode</code> : codice della lettera per il destinatario</li><li><code>deliveryDetailCode</code>: codice del dettaglio dell'eveto di progress</li></ul> |
 
 (\*) Per la decodifica dei codici di `deliveryDetailCode` all'interno dei details degli eventi si rimanda alla pagina [Broken link](broken-reference "mention")
 
@@ -96,43 +98,43 @@ Gli eventi descritti nella tabella sottostante sono relativi al processo del wor
 
 #### SEND\_ANALOG\_DOMICILE
 
-**Invio cartaceo dell’avviso di notifica**
+Invio cartaceo dell’avviso di notifica
 
-| Legal Fact | Dettagli                                                                                                                                                                                                                                                                                                                                                               |
-| ---------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|            | <p></p><ul><li><code>recIndex</code>:  posizione del destinatario nell'array recipients</li></ul><ul><li><code>analogCost:</code> costo dell’invio cartaceo</li></ul><ul><li><code>productType / serviceLevel</code> : tipologia del prodotto inviato (<em>es: 890/AR)</em></li></ul><ul><li><code>physicalAddress:</code> indirizzo fisico del destinatario</li></ul> |
+| Legal Fact | Dettagli                                                                                                                                                                                                                                                                                                                             |
+| ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+|            | <ul><li><code>recIndex</code>:  posizione del destinatario nell'array recipients</li><li><code>analogCost:</code> costo dell’invio cartaceo</li><li><code>productType / serviceLevel</code> : tipologia del prodotto inviato (<em>es: 890/AR)</em></li><li><code>physicalAddress:</code> indirizzo fisico del destinatario</li></ul> |
 
 #### SEND\_ANALOG\_FEEDBACK
 
-**Ricezione esito dell'invio cartaceo**
+Ricezione esito dell'invio cartaceo
 
-| Legal Fact | Dettagli                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-|            | <p></p><ul><li><code>physicalAddress:</code> indirizzo fisico del destinatario</li></ul><ul><li><code>responseStatus:</code> contiene l’esito dell'invio cartaceo. (<em>es: OK, KO</em>)</li></ul><ul><li><code>notificationDate</code>: data di consegna o mancata consegna.</li></ul><ul><li><code>registeredLetterCode:</code>codice della lettera per il mittente</li></ul><ul><li><code>deliveryDetailCode:</code>codice del dettaglio esito invio cartaceo</li></ul><ul><li><code>deliveryFailureCause</code>: causa del fallimento della consegna</li></ul><ul><li><code>serviceLevel</code>: tipologia del prodotto inviato (<em>es: 890/AR)</em></li></ul><ul><li><code>newAddress</code>: Eventuale indirizzo fisico a seguito di indagine svolta in  loco da parte dell'addetto al recapito postale</li></ul> |
+| Legal Fact | Dettagli                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| ---------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|            | <ul><li><code>physicalAddress:</code> indirizzo fisico del destinatario</li><li><code>responseStatus:</code> contiene l’esito dell'invio cartaceo. (<em>es: OK, KO</em>)</li><li><code>notificationDate</code>: data di consegna o mancata consegna.</li><li><code>registeredLetterCode:</code>codice della lettera per il mittente</li><li><code>deliveryDetailCode:</code>codice del dettaglio esito invio cartaceo</li><li><code>deliveryFailureCause</code>: causa del fallimento della consegna</li><li><code>serviceLevel</code>: tipologia del prodotto inviato (<em>es: 890/AR)</em></li><li><code>newAddress</code>: Eventuale indirizzo fisico a seguito di indagine svolta in  loco da parte dell'addetto al recapito postale</li></ul> |
 
 #### ANALOG\_SUCCESS\_WORKFLOW
 
-**Completato con successo il workflow di invio cartaceo.**
+Completato con successo il workflow di invio cartaceo.
 
-| Legal Fact | Dettagli                                                                                                                                                                           |
-| ---------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|            | <p></p><ul><li><code>recIndex</code>:  posizione del destinatario nell'array recipients</li></ul><ul><li><code>physicalAddress:</code> indirizzo fisico del destinatario</li></ul> |
+| Legal Fact | Dettagli                                                                                                                                                           |
+| ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+|            | <ul><li><code>recIndex</code>:  posizione del destinatario nell'array recipients</li><li><code>physicalAddress:</code> indirizzo fisico del destinatario</li></ul> |
 
 #### ANALOG\_FAILURE\_WORKFLOW
 
-**Completato con fallimento il workflow di invio cartaceo.**
+Completato con fallimento il workflow di invio cartaceo.
 
-| Legal Fact | Dettagli                                                                                                                                                            |
-| ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|            | <p></p><ul><li><code>recIndex</code>:  posizione del destinatario nell'array recipients</li></ul><ul><li><code>generatedAarUrl</code>: deposito della AAR</li></ul> |
+| Legal Fact | Dettagli                                                                                                                                            |
+| ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
+|            | <ul><li><code>recIndex</code>:  posizione del destinatario nell'array recipients</li><li><code>generatedAarUrl</code>: deposito della AAR</li></ul> |
 
 #### COMPLETELY\_UNREACHABLE
 
-**Il destinatario è risultato irraggiungibile.**
+Il destinatario è risultato irraggiungibile.
 
-| Legal Fact                                                                        | Dettagli                                                      |
-| --------------------------------------------------------------------------------- | ------------------------------------------------------------- |
-| ANALOG\_FAILURE\_DELIVERYAttestazione di Deposito di Avviso di Avvenuta Ricezione | `recIndex`:  posizione del destinatario nell'array recipients |
+| Legal Fact                                                                        | Dettagli                                                                                   |
+| --------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
+| ANALOG\_FAILURE\_DELIVERYAttestazione di Deposito di Avviso di Avvenuta Ricezione | <ul><li><code>recIndex</code>:  posizione del destinatario nell'array recipients</li></ul> |
 
 (\*) Per la decodifica dei codici di e `deliveryFailureCause` e `deliveryDetailCode` all'interno dei details degli eventi di SEND\_ANALOG\_FEEDBACK si rimanda alla pagina [Broken link](broken-reference "mention")
 
@@ -140,37 +142,37 @@ Gli eventi descritti nella tabella sottostante sono relativi al processo del wor
 
 #### REFINEMENT
 
-**Perfezionamento per decorrenza termini**
+Perfezionamento per decorrenza termini
 
-| Legal Fact | Dettagli                                                                                                                                                                                                                                                                                                               |
-| ---------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|            | <p></p><ul><li><code>recIndex</code>:  posizione del destinatario nell'array recipients</li></ul><ul><li><code>notificationCost:</code> costo della notifica rifiutata per il mittente</li></ul><ul><li><code>eventTimestamp:</code> indica la data di perfezionamento della notifica per decorrenza termini</li></ul> |
+| Legal Fact | Dettagli                                                                                                                                                                                                                                                                                      |
+| ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|            | <ul><li><code>recIndex</code>:  posizione del destinatario nell'array recipients</li><li><code>notificationCost:</code> costo della notifica rifiutata per il mittente</li><li><code>eventTimestamp:</code> indica la data di perfezionamento della notifica per decorrenza termini</li></ul> |
 
 #### NOTIFICATION\_VIEWED
 
-**Visualizzazione della notifica (perfeziona la notifica se non già perfezionata per decorrenza termini o da altro destinatario)**
+Visualizzazione della notifica (perfeziona la notifica se non già perfezionata per decorrenza termini o da altro destinatario)
 
-| Legal Fact                                                 | Dettagli                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| ---------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <p>RECIPIENT_ACCES<br>Attestazione di avvenuto accesso</p> | <p></p><ul><li><code>recIndex</code>:  posizione del destinatario nell'array recipients</li></ul><ul><li><code>notificationCost:</code> costo della notifica per il mittente</li></ul><ul><li><code>eventTimestamp:</code> data di business in cui è stata visualizzata la notifica</li></ul><ul><li><p><code>delegateInfo</code> struttura che contiene le informazione dell'evenutale delegato che ha fatto accesso alla notifica.</p><ul><li><code>taxId</code>: codice fiscale del delegato</li><li><code>denomination</code>: denominazione delegato</li><li><code>delegateType</code>: tipologia delegato PF/PG</li></ul></li></ul> |
+| Legal Fact                                                                   | Dettagli                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| ---------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <p><strong>RECIPIENT_ACCESS</strong><br>Attestazione di avvenuto accesso</p> | <ul><li><code>recIndex</code>:  posizione del destinatario nell'array recipients</li><li><code>notificationCost:</code> costo della notifica per il mittente</li><li><code>eventTimestamp:</code> data di business in cui è stata visualizzata la notifica</li><li><code>delegateInfo</code> struttura che contiene le informazione dell'evenutale delegato che ha fatto accesso alla notifica.</li><li><code>taxId</code>: codice fiscale del delegato</li><li><code>denomination</code>: denominazione delegato</li><li><code>delegateType</code>: tipologia delegato PF/PG</li></ul> |
 
 #### NOTIFICATION\_CANCELLED
 
-**Evento di fine della cancellazione della notifica dal parte del mittente.**
+Evento di fine della cancellazione della notifica dal parte del mittente.
 
-| Legal Fact | Dettagli                                                           |
-| ---------- | ------------------------------------------------------------------ |
-|            | `notificationCost:` costo della notifica annullata per il mittente |
+| Legal Fact | Dettagli                                                                                        |
+| ---------- | ----------------------------------------------------------------------------------------------- |
+|            | <ul><li><code>notificationCost:</code> costo della notifica annullata per il mittente</li></ul> |
 
 ### Altre eventi di timeline <a href="#altre-eventi-di-timeline" id="altre-eventi-di-timeline"></a>
 
 #### NOTIFICATION\_RADD\_RETRIEVED
 
-**Evento di accesso alla notifica tramite RADD**
+Evento di accesso alla notifica tramite RADD
 
-| Legal Fact | Dettagli                                                                                                                                                                                                                                                                                                                               |
-| ---------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|            | <p></p><ul><li><code>recIndex</code>:  posizione del destinatario nell'array recipients</li></ul><ul><li><code>eventTimestamp</code>: data di consegna della notifica</li></ul><ul><li><code>raddType</code>: tipologia soggetto RADD</li></ul><ul><li><code>raddTransactionId</code>: identificativo della transazione RADD</li></ul> |
+| Legal Fact | Dettagli                                                                                                                                                                                                                                                                                             |
+| ---------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|            | <ul><li><code>recIndex</code>:  posizione del destinatario nell'array recipients</li><li><code>eventTimestamp</code>: data di consegna della notifica</li><li><code>raddType</code>: tipologia soggetto RADD</li><li><code>raddTransactionId</code>: identificativo della transazione RADD</li></ul> |
 
 ## **Eventi aggiuntivi al DEFAULT**
 
@@ -180,37 +182,37 @@ In questo paragrafo sono indicati altri eventi della timeline che non hanno effe
 
 #### AAR\_GENERATION
 
-**Generazione dell’AAR (Avviso di Avvenuta Ricezione)**
+Generazione dell’AAR (Avviso di Avvenuta Ricezione)
 
-| Legal Fact | Dettagli                                                                                                                                                                                          |
-| ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|            | <p></p><ul><li><code>recIndex:</code> posizione del destinatario nell'array recipients</li></ul><ul><li><code>generatedAarUrl</code>: url per accedere all'avviso di avvenuta ricezione</li></ul> |
+| Legal Fact | Dettagli                                                                                                                                                                          |
+| ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|            | <ul><li><code>recIndex:</code> posizione del destinatario nell'array recipients</li><li><code>generatedAarUrl</code>: url per accedere all'avviso di avvenuta ricezione</li></ul> |
 
 #### SEND\_COURTESY\_MESSAGE
 
-**Invio di un messaggio di cortesia.**
+Invio di un messaggio di cortesia.
 
-| Legal Fact | Dettagli                                                                                                                                                                                                                                                                                                                                                    |
-| ---------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|            | <ul><li><p><code>digitalAddress</code></p><ul><li><code>type</code>: tipologia messaggio di OPT_IN o un messaggio su APPIO, EMAIL o SMS</li><li><code>address</code>: indirizzo email o numero di telefono utilizzato per il messaggio.</li></ul></li></ul><ul><li><code>recIndex:</code> posizione del destinatario nell'array recipients</li></ul><p></p> |
+| Legal Fact | Dettagli                                                                                                                                                                                                                                                                                                                                           |
+| ---------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|            | <ul><li><code>recIndex:</code> posizione del destinatario nell'array recipients</li><li><p><code>digitalAddress</code></p><ul><li><code>type</code>: tipologia messaggio di OPT_IN o un messaggio su APPIO, EMAIL o SMS</li><li><code>address</code>: indirizzo email o numero di telefono utilizzato per il messaggio.</li></ul></li></ul><p></p> |
 
 #### PROBABLE\_SCHEDULING\_ANALOG\_DATE
 
-**Indica che il workflow può essere sospeso per 120h a fronte di un invio di un messaggio di cortesia.**
+Indica che il workflow può essere sospeso per 120h a fronte di un invio di un messaggio di cortesia.
 
-| Legal Fact | Dettagli                                                                                                                                                                                                                                        |
-| ---------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|            | <p></p><ul><li><code>recIndex:</code> posizione del destinatario nell'array recipients</li></ul><ul><li><code>schedulingAnalogDate</code>: data di inizio del workflow analogico, ritardato a causa di invio di messaggi di cortesia.</li></ul> |
+| Legal Fact | Dettagli                                                                                                                                                                                                                        |
+| ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|            | <ul><li><code>recIndex:</code> posizione del destinatario nell'array recipients</li><li><code>schedulingAnalogDate</code>: data di inizio del workflow analogico, ritardato a causa di invio di messaggi di cortesia.</li></ul> |
 
 ### Eventi di scelta del workflow
 
 #### PUBLIC\_REGISTRY\_RESPONSE
 
-**Indica la ricezione di un domicilio digitale dai registri nazionali**
+Indica la ricezione di un domicilio digitale dai registri nazionali
 
-| Legal Fact | Dettagli                                                                                                                                                                                                                                                                               |
-| ---------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|            | <p></p><ul><li><code>recIndex:</code> posizione del destinatario nell'array recipients</li></ul><ul><li><p><code>digitalAddress</code>: indirizzo digitale del destinatario</p><ul><li><code>type</code>: <em>PEC</em></li><li><code>address</code>: indirizzo PEC</li></ul></li></ul> |
+| Legal Fact | Dettagli                                                                                                                                                                                                                                               |
+| ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+|            | <ul><li><code>recIndex:</code> posizione del destinatario nell'array recipients</li><li><code>digitalAddress</code>: indirizzo digitale del destinatario</li><li><code>type</code>: <em>PEC</em></li><li><code>address</code>: indirizzo PEC</li></ul> |
 
 ### Eventi con evidenze dell'invio
 
@@ -220,26 +222,26 @@ Questi eventi possono contenere anche dei legalFact esterni come il messaggio di
 
 #### SEND\_DIGITAL\_PROGRESS
 
-**Indica un evento successivo relativo all'invio della PEC.**
+Indica un evento successivo relativo all'invio della PEC.
 
-| Legal Fact                                                              | Dettagli                                                                                                                                                                                                                                                      |
-| ----------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| PEC\_RECEIPT\*File in formato EML che attesta la accettazione della PEC | <p></p><ul><li><code>recIndex:</code> posizione del destinatario nell'array recipients</li></ul><ul><li><code>eventTimestamp</code>: data di business dell'evento</li></ul><ul><li><code>digitalAddress:</code> indirizzo digitale del destinatario</li></ul> |
+| Legal Fact                                                                                        | Dettagli                                                                                                                                                                                                                             |
+| ------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| <p><strong>PEC_RECEIPT*</strong><br>File in formato EML che attesta la accettazione della PEC</p> | <ul><li><code>recIndex:</code> posizione del destinatario nell'array recipients</li><li><code>eventTimestamp</code>: data di business dell'evento</li><li><code>digitalAddress:</code> indirizzo digitale del destinatario</li></ul> |
 
 #### SEND\_ANALOG\_PROGRESS
 
-**Indica un evento successivo relativo all'invio cartaceo**
+Indica un evento successivo relativo all'invio cartaceo
 
-| Legal Fact                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  | Dettagli                                                                                                                                                                                                                                                                                                                                                                             |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| <p></p><p><strong>ANALOG_DELIVERY</strong>*<br>A seconda dei casi sono riportate le scansioni di: </p><ul><li>Ricevuta di consegna con <strong>deliveryDetailCode</strong> <code>RECRN001B</code> e <strong>documentType</strong> AR</li><li>Scansione Plico  con deliveryDetailCode <code>RECRN002B</code>, <code>RECRN004B</code>, <code>RECRN002E</code>, <code>RECRN005B</code> e <strong>documentType</strong> Plico</li><li>Avviso di ricevimento con deliveryDetailCode <code>RECRN003B e</code> <strong>documentType</strong> AR</li><li>Indagine  con deliveryDetailCode <code>RECRN002E</code> e <strong>documentType</strong> Indagine</li></ul> | <p></p><ul><li><code>recIndex:</code> posizione del destinatario nell'array recipients</li></ul><ul><li><code>notificationDate</code>: data evento</li></ul><ul><li><code>deliveryDetailCode</code>: codice consegna (*)</li></ul><ul><li><code>serviceLevel</code>: tipologia di servizio</li></ul><ul><li><code>registeredLetterCode</code>: identificativo raccomandata</li></ul> |
+| Legal Fact                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  | Dettagli                                                                                                                                                                                                                                                                                                                                  |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <p></p><p><strong>ANALOG_DELIVERY</strong>*<br>A seconda dei casi sono riportate le scansioni di: </p><ul><li>Ricevuta di consegna con <strong>deliveryDetailCode</strong> <code>RECRN001B</code> e <strong>documentType</strong> AR</li><li>Scansione Plico  con deliveryDetailCode <code>RECRN002B</code>, <code>RECRN004B</code>, <code>RECRN002E</code>, <code>RECRN005B</code> e <strong>documentType</strong> Plico</li><li>Avviso di ricevimento con deliveryDetailCode <code>RECRN003B e</code> <strong>documentType</strong> AR</li><li>Indagine  con deliveryDetailCode <code>RECRN002E</code> e <strong>documentType</strong> Indagine</li></ul> | <ul><li><code>recIndex:</code> posizione del destinatario nell'array recipients</li><li><code>notificationDate</code>: data evento</li><li><code>deliveryDetailCode</code>: codice consegna (*)</li><li><code>serviceLevel</code>: tipologia di servizio</li><li><code>registeredLetterCode</code>: identificativo raccomandata</li></ul> |
 
 #### PREPARE\_ANALOG\_DOMICILE\_FAILURE
 
-**Invio cartaceo non possibile: non è stato trovato nessun indirizzo valido per predisporre il tentativo.**
+Invio cartaceo non possibile: non è stato trovato nessun indirizzo valido per predisporre il tentativo.
 
 | Legal Fact | Dettagli                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 |            | <p></p><p><code>failureCause :</code> indica il motivo del fallimento del secondo invio tramite i codici</p><ul><li><code>D00</code>: Non è stato trovato nessun nuovo indirizzo per predisporre un altro tentativo di invio.</li><li><code>D01</code>: L’indirizzo non ha superato il processo di validazione. </li><li><code>D02</code>: L’indirizzo è già stato usato per effettuare un tentativo di invio.</li></ul> |
 
-(\*) Per la decodifica dei codici di `deliveryDetailCode` all'interno dei details degli eventi di SEND\_ANALOG\_PROGRESS si rimanda alla pagina [Broken link](broken-reference "mention")
+(\*) Per la decodifica dei codici di `deliveryDetailCode` all'interno dei details degli eventi di SEND\_ANALOG\_PROGRESS si rimanda alla pagina&#x20;
