@@ -36,13 +36,7 @@ Gli eventi descritti nella tabella sottostante sono relativi al processo di acce
 | --------------------------------------------------------- | -------- |
 | SENDER\_ACKAttestazione di presa in carico della notifica | -        |
 
-#### Category
 
-**Descrizione evento**
-
-| Legal Fact               | Dettagli                                |
-| ------------------------ | --------------------------------------- |
-| LegalFactAtti opponibili | DettagliElementi di interesse contenuti |
 
 ### Eventi del workflow digitale <a href="#eventi-di-timeline-di-scelta-del-workflow-digitale" id="eventi-di-timeline-di-scelta-del-workflow-digitale"></a>
 
