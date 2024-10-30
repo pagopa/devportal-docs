@@ -8,7 +8,7 @@ Cliccando sul tasto `"Attiva"` si accede alla maschera di attivazione.
 
 Nella maschera di attivazione è possibile visualizzare i dettagli delle commissioni applicate dai PSP.
 
-Nella sezione `"Commissioni a tuo carico"` l'EC può decidere di farsi carico di una quota commissionale inserendo l'importo di cui vuole farsi carico per ogni servizio di incasso associato al pacchetto.
+Nella sezione `"Commissioni a tuo carico"` l'EC può decidere di farsi carico di una quota commissionale inserendo l'importo di cui vuole farsi carico per ogni servizio di incasso associato al pacchetto oppure per l'intero pacchetto indipendentemente dai servizi di incasso.&#x20;
 
 L'importo inserito dall'EC non può superare l'importo applicato dal PSP. In questo caso nella maschera viene visualizzato un messaggio di errore.
 
