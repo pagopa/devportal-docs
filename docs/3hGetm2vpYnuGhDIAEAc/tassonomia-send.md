@@ -228,7 +228,7 @@ Ambiti e tipologia notifica - Regioni ed Enti Regionali:
 * Codice `100101P` - **Tassa Iscrizione Annua con pagamento**\
   Tutte le tipologie di comunicazioni associate al pagamento della Tassa di Iscrizione Annua che prevedono la notifica di atti relativi ai procedimenti di riscossione
 * Codice `100102N` - **Tassa Iscrizione Annua senza pagamento**\
-  Tutte le tipologie di comunicazioni associate alla Tassa di Iscrizione Annua”
+  Tutte le tipologie di comunicazioni associate alla Tassa di Iscrizione Annua
 * Codice `100103P` - **Notifiche relative al Pagamento nei confronti dell’Ordine con pagamento**\
   Tutte le tipologie di comunicazioni associate ad un pagamento che prevedono la notifica di atti relativi a procedimenti di riscossione (Decreti ingiuntivi, etc)
 * Codice `100104N` - **Notifiche relative al Pagamento nei confronti dell’Ordine senza pagamento**\
