@@ -6,31 +6,19 @@ Se decidi di creare un logo ad hoc per il servizio, suggeriamo di:
 
 * usare un **formato quadrato** per evitare distorsioni o troncature;
 
-<figure><img src="../../.gitbook/assets/logo stretchato.png" alt=""><figcaption><p>Un esempio di logo distorto</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption><p>Un esempio di logo distorto</p></figcaption></figure>
 
-
-
-<figure><img src="../../.gitbook/assets/logo quadrato.png" alt=""><figcaption><p>Un esempio di logo troncato</p></figcaption></figure>
-
-
+<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption><p>Un esempio di logo troncato</p></figcaption></figure>
 
 * inserire **pochi dettagli** ed evitare che sia troppo "denso" di informazioni e di conseguenza risultare illeggibile;
 
-<figure><img src="../../.gitbook/assets/poco testo, troppe informazioni.png" alt=""><figcaption><p>Un esempio di logo con troppe informazioni</p></figcaption></figure>
-
-
+<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption><p>Un esempio di logo con troppe informazioni</p></figcaption></figure>
 
 * usare un logo che riempia bene l'**intero spazio dell'immagine**, evitando così che risulti troppo piccolo e quindi illeggibile;
 
-{% @figma/embed fileId="SZ0nkOZdhlKvNmlFH4hVXn" nodeId="1:124" url="https://www.figma.com/file/SZ0nkOZdhlKvNmlFH4hVXn/Linee-guida-logo-servizi?node-id=1%3A124&t=k4IGyFANlOAm7Po9-4" %}
-
-{% @figma/embed fileId="SZ0nkOZdhlKvNmlFH4hVXn" nodeId="1:104" url="https://www.figma.com/file/SZ0nkOZdhlKvNmlFH4hVXn/Linee-guida-logo-servizi?node-id=1%3A104&t=k4IGyFANlOAm7Po9-4" %}
-
-<figure><img src="../../.gitbook/assets/logo troppo piccolo.png" alt=""><figcaption><p>Esempio di logo troppo piccolo</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption><p>Esempio di logo troppo piccolo</p></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/Spazio attorno al logo corretto.png" alt=""><figcaption><p>Esempio di logo troppo piccolo</p></figcaption></figure>
-
-
 
 * Nel caso si utilizzi uno sfondo colorato, assicurarsi che il logo sia leggibile, come nell'esempio seguente:
 

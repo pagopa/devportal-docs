@@ -1,6 +1,12 @@
 # Messaggi con allegati (Premium)
 
-Gli enti che hanno sottoscritto un **contratto Premium**, possono inviare messaggi con dei documenti allegati. Questi allegati:
+Gli enti che hanno sottoscritto un **contratto Premium**, possono inviare messaggi con dei documenti allegati.
+
+&#x20;
+
+<figure><img src="../../.gitbook/assets/image (14).png" alt=""><figcaption><p>Esempio di messaggio con allegato premium</p></figcaption></figure>
+
+Questi allegati:
 
 * devono essere in **formato pdf/A**;
 * devono essere **accessibili**;

@@ -2,6 +2,8 @@
 
 Questi messaggi contengono una **data di scadenza o da ricordare**, come il promemoria della scadenza di un documento da rinnovare o la data entro cui si può richiedere un bonus. Per questo tipo di messaggi bisogna utilizzare il campo `due_date` nel payload del messaggio. Il formato data supportato dal sistema è UTC (ISO 8601).
 
+<figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption><p>Esempio di messaggio che veicola una scadenza</p></figcaption></figure>
+
 Oltre alla possibilità di conversione manuale, esistono alcuni siti che permettono di **convertire automaticamente** le date nel formato desiderato, come ad esempio [DenCode Converter](https://dencode.com/date/iso8601) o [Timestamp Converter](https://www.timestamp-converter.com/).&#x20;
 
 {% hint style="warning" %}

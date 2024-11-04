@@ -2,6 +2,8 @@
 
 I messaggi informativi sono **messaggi di solo testo** che danno all'utente un'informazione rispetto al servizio, come un aggiornamento, una novità o l'esito di una richiesta presentata all'ente. &#x20;
 
+<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption><p>Esempio di messaggio informativo</p></figcaption></figure>
+
 Questi messaggi devono:
 
 * essere **rilevanti** per i destinatari;
