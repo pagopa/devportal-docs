@@ -16,7 +16,7 @@ La tipologia ente è suddivisa in:
 
 
 
-<table><thead><tr><th>Tipologia Ente</th><th width="100">Codice</th></tr></thead><tbody><tr><td><strong>Comuni</strong></td><td>01</td></tr><tr><td><strong>Regioni ed enti regionali</strong></td><td>02</td></tr><tr><td><strong>Enti riscossori</strong></td><td>03</td></tr><tr><td><strong>Ministeri</strong></td><td>04</td></tr><tr><td><strong>Previdenza</strong></td><td>05</td></tr><tr><td><strong>Servizio Sanitario Nazionale</strong></td><td>06</td></tr><tr><td><strong>Provincia</strong></td><td>07</td></tr><tr><td><strong>Università / Scuola statale / Altri enti</strong></td><td>08</td></tr><tr><td><strong>Camera di Commercio</strong></td><td>09</td></tr></tbody></table>
+<table><thead><tr><th>Tipologia Ente</th><th width="100">Codice</th></tr></thead><tbody><tr><td><strong>Comuni</strong></td><td>01</td></tr><tr><td><strong>Regioni ed enti regionali</strong></td><td>02</td></tr><tr><td><strong>Enti riscossori</strong></td><td>03</td></tr><tr><td><strong>Ministeri</strong></td><td>04</td></tr><tr><td><strong>Previdenza</strong></td><td>05</td></tr><tr><td><strong>Servizio Sanitario Nazionale</strong></td><td>06</td></tr><tr><td><strong>Provincia</strong></td><td>07</td></tr><tr><td><strong>Università / Scuola statale / Altri enti</strong></td><td>08</td></tr><tr><td><strong>Camera di Commercio</strong></td><td>09</td></tr><tr><td><strong>Ordine Professionale</strong></td><td>10</td></tr><tr><td><strong>Gestore di Pubblico Servizio</strong></td><td>11</td></tr></tbody></table>
 
 Per ogni tipologia di ente sono individuati gli **ambiti** e all'interno dell'ambito la **tipologia  di notific**a.
 
@@ -83,6 +83,16 @@ Ambiti e tipologia notifica:
   Notifica atti relativi a procedimenti di riscossione coattiva / ingiunzioni fiscali (es. preavviso fermo amministrativo, preavviso iscrizione ipoteca, avviso di intimazione)
 * Codice `010801N` - **Comunicazioni relative a riscossioni coattive e ingiunzioni fiscali senza pagamento**\
   Notifica atti relativi a procedimenti di riscossione coattiva / ingiunzioni fiscali (es. preavviso fermo amministrativo, preavviso iscrizione ipoteca, avviso di intimazione)
+
+### 0109 - Delegazioni
+
+* Codice `010901N` - **Notifica delegazioni di pagamento a tesoriere**\
+  A notificare al tesoriere i documenti richiesti da Cassa Depositi e Prestiti
+
+### 0110 - Convocazioni
+
+* Codice `011001N` - **Notifica atti di convocazione consiglio comunale**\
+  Per notificare ai vari consiglieri comunali la convocazione del consiglio
 
 ## 02 - Regioni ed Enti Regionali
 
@@ -210,6 +220,34 @@ Ambiti e tipologia notifica - Regioni ed Enti Regionali:
 
 * Codice `090101P` - **Servizio di notifiche digitali per Verbali e Ordinanze con pagamento**\
   Ingiungere gli importi dovuti a seguito di sanzioni amministrative (registro imprese e di altri organi accertatori)
+
+## 10 - Ordine Professionale
+
+### 1001 - Professionisti
+
+* Codice `100101P` - **Tassa Iscrizione Annua con pagamento**\
+  Tutte le tipologie di comunicazioni associate al pagamento della Tassa di Iscrizione Annua che prevedono la notifica di atti relativi ai procedimenti di riscossione
+* Codice `100102N` - **Tassa Iscrizione Annua senza pagamento**\
+  Tutte le tipologie di comunicazioni associate alla Tassa di Iscrizione Annua”
+* Codice `100103P` - **Notifiche relative al Pagamento nei confronti dell’Ordine con pagamento**\
+  Tutte le tipologie di comunicazioni associate ad un pagamento che prevedono la notifica di atti relativi a procedimenti di riscossione (Decreti ingiuntivi, etc)
+* Codice `100104N` - **Notifiche relative al Pagamento nei confronti dell’Ordine senza pagamento**\
+  Tutte le tipologie di comunicazioni associate ad un pagamento che prevedono la notifica di atti relativi a procedimenti di riscossione (Decreti ingiuntivi, etc)
+* Codice `100105P` - **Notifiche atti amministrativi/contabili**\
+  Tutte le tipologie di comunicazioni associate ad un pagamento rispetto alla erogazione del servizio di accesso agli atti dell'Ente
+* Codice `100106N` - **Notifiche atti amministrativi**\
+  Notifiche di atti relativi a procedimenti amministrativi dell’Ente (Rigetti, Cancellazioni, Sospensioni, Diffide, etc…)
+* Codice `100107N` - **Avviso Morosità**\
+  Comunicazione relativa al sollecito di pagamento della Tassa di Iscrizione annua (primo, secondo e terzo avviso)
+
+## 11 - Gestore di Pubblico Servizio
+
+### 1101 - Gestione Morosità
+
+* Codice `110101P` - **Solleciti di Pagamento**\
+  Tutte le tipologie di sollecito clienti morosi
+
+
 
 
 

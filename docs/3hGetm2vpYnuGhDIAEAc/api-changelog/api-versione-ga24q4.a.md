@@ -20,27 +20,28 @@ In ogni elemento di timeline sono stati aggiunti i seguenti campi:
 
 Le modifiche agli elementi di timeline si applicano sulle seguenti API:
 
-**Dettagli della notifica**\
-&#x20;[\
-**/delivery/v2.4/notifications/sent/{iun}**](https://petstore.swagger.io/?url=https%3A%2F%2Fraw.githubusercontent.com%2Fpagopa%2Fpn-delivery%2Fmain%2Fdocs%2Fopenapi%2Fapi-external-b2b-pa-bundle.yaml#/SenderReadB2B/retrieveSentNotificationV24)&#x20;
+#### **Dettagli della notifica**  [ **/delivery/v2.4/notifications/sent/{iun}**](https://petstore.swagger.io/?url=https%3A%2F%2Fraw.githubusercontent.com%2Fpagopa%2Fpn-delivery%2Fmain%2Fdocs%2Fopenapi%2Fapi-external-b2b-pa-bundle.yaml#/SenderReadB2B/retrieveSentNotificationV24)&#x20;
 
-_**Gestione degli stream** di eventi che PN mette a disposizione_
+#### **Gestione degli stream** _di eventi che PN mette a disposizione_
 
-[**delivery-progresses/v2.4/streams**](https://petstore.swagger.io/?url=https%3A%2F%2Fraw.githubusercontent.com%2Fpagopa%2Fpn-delivery%2Fmain%2Fdocs%2Fopenapi%2Fapi-external-b2b-pa-bundle.yaml#/Streams/createEventStreamV24) **Crea nuovo stream di eventi**
+Gli stream creati con la versione versione 2.4 (POST **`delivery-progresses/v2.4/streams/{streamId}`** )possono essere letti o modificati con le relative versioni 2.4:
 
-[**delivery-progresses/v2.4/streams**](https://petstore.swagger.io/?url=https%3A%2F%2Fraw.githubusercontent.com%2Fpagopa%2Fpn-delivery%2Fmain%2Fdocs%2Fopenapi%2Fapi-external-b2b-pa-bundle.yaml#/Streams/listEventStreamsV24) **Elenca stream di eventi**
+* **`delivery-progresses/v2.4/streams`** Elenca stream di eventi
+* GET **`delivery-progresses/v2.4/streams/{streamId}`** Leggi metadata dello stream
+* PUT **`delivery-progresses/v2.4/streams/{streamId}`** Modifica di uno Stream
+* DELETE **`delivery-progresses/v2.4/streams/{streamId}`** Elimina uno Stream
+* **`delivery-progresses/v2.4/streams/{streamId}/action/disable`** Disabilita uno stream
+* **`/delivery-progresses/v2.4/streams/{streamId}/events`** Leggi progressi notifiche
 
-**GET** [**delivery-progresses/v2.4/streams/{streamId}**](https://petstore.swagger.io/?url=https%3A%2F%2Fraw.githubusercontent.com%2Fpagopa%2Fpn-delivery%2Fmain%2Fdocs%2Fopenapi%2Fapi-external-b2b-pa-bundle.yaml#/Streams/retrieveEventStreamV24) **Leggi metadata dello stream**
 
-**PUT** [**delivery-progresses/v2.4/streams/{streamId}**](https://petstore.swagger.io/?url=https%3A%2F%2Fraw.githubusercontent.com%2Fpagopa%2Fpn-delivery%2Fmain%2Fdocs%2Fopenapi%2Fapi-external-b2b-pa-bundle.yaml#/Streams/updateEventStreamV24) **Modifica di uno Stream**
 
-**DELETE** [**delivery-progresses/v2.4/streams/{streamId}**](https://petstore.swagger.io/?url=https%3A%2F%2Fraw.githubusercontent.com%2Fpagopa%2Fpn-delivery%2Fmain%2Fdocs%2Fopenapi%2Fapi-external-b2b-pa-bundle.yaml#/Streams/removeEventStreamV24) **Elimina uno Stream**
 
-[**delivery-progresses/v2.4/streams/{streamId}/action/disable**](https://petstore.swagger.io/?url=https%3A%2F%2Fraw.githubusercontent.com%2Fpagopa%2Fpn-delivery%2Fmain%2Fdocs%2Fopenapi%2Fapi-external-b2b-pa-bundle.yaml#/Streams/disableEventStreamV24) **Disabilita uno stream**
 
-_**Lettura degli eventi dagli stream**_
 
-[**/delivery-progresses/v2.4/streams/{streamId}/events**](https://petstore.swagger.io/?url=https%3A%2F%2Fraw.githubusercontent.com%2Fpagopa%2Fpn-delivery%2Fmain%2Fdocs%2Fopenapi%2Fapi-external-b2b-pa-bundle.yaml#/Events/consumeEventStreamV24) **Leggi progressi notifiche**
+
+
+
+
 
 
 
