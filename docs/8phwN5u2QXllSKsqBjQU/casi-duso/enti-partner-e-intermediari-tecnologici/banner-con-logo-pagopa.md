@@ -10,7 +10,7 @@ Un'alternativa al [**banner testuale**](banner-testuali.md) per indirizzare gli 
 
 * è preferibile parlare di "pagamenti online", ovvero il bisogno che deve soddisfare l'utente, ed eventualmente specificare che questi sono effettuati "tramite pagoPA";
 * si sconsiglia di utilizzare esclusivamente il nome "pagoPA" perché potrebbe esser fuorviante e l'utente potrebbe erroneamente pensare che l'intera esperienza sia gestita da PagoPA S.p.A.;&#x20;
-* si ricorda che è fondamentale utilizzare una **terminologia corretta**, [**consultabile** **qui**](testi-descrittivi-e-termini.md)**,** e **associare il logo pagoPA** in modo corretto, secondo le indicazioni [**consultabili qui**](broken-reference)**.**
+* si ricorda che è fondamentale utilizzare una **terminologia corretta**, [**consultabile** **qui**](testi-descrittivi-e-termini.md)**,** e **associare il logo pagoPA** in modo corretto, secondo le indicazioni [**consultabili qui**](../../specifiche-tecniche/il-logo-pagopa.md)**.**
 
 Seguono diversi esempi di:
 
