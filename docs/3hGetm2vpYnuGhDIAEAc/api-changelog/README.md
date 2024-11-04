@@ -12,4 +12,5 @@ description: >-
 * [Versione GA 2.1](api-versione-ga-2.1.md)
 * [Versione GA 2.3](api-versione-ga-2.3.md)
 * [Versione GA 2.4](api-versione-ga-2.4.md)
+* [Versione GA24Q4.A](api-versione-ga24q4.a.md)
 
