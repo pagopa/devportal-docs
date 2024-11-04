@@ -69,7 +69,7 @@ I controlli effettuati da PN sono i seguenti:
 * verifica che l'indirizzo fisico associato a ciascun destinatario sia esistente e che il CAP inserito sia specifico della località e non generico. Queste verifiche vengono effettuate con Postel.&#x20;
 
 **NOTA:** nel caso in cui una Notifica venga rifiutata in fase di validazione, PND fatturerà comunque alla PA mittente € 1 per ogni destinatario della notifica (a copertura dei servizi di PND).\
-Vedi l'art. 4 comma 3 lettera d) dei T\&C della piattaforma: [https://docs.pagopa.it/documento-1-termini-condizioni-di-adesione-e-uso/](https://docs.pagopa.it/documento-1-termini-condizioni-di-adesione-e-uso/)
+Vedi l'art. 4 comma 3 lettera d) dei [T\&C della piattaforma](https://docs.pagopa.it/documento-1-termini-condizioni-di-adesione-e-uso/).
 
 ### Come si sviluppa il workflow dell'invio della notifica?
 
@@ -298,4 +298,4 @@ In questi casi si applicano le spese di notifica sostenute e l'atto depositato �
 
 ### Quando invio la notifica ricevo un'errore sulla lunghezza dei campi dell'address, come procedo?
 
-Può verificare questa pagina di faq creata appositamente, nel quale vengono indicate le regole sulla lunghezza e la composizione dell'indirizzo: [https://docs.pagopa.it/f.a.q.-per-integratori/composizione-degli-indirizzi](https://docs.pagopa.it/f.a.q.-per-integratori/composizione-degli-indirizzi)
+Può verificare questa pagina di faq creata appositamente, nel quale vengono indicate le regole sulla lunghezza e la [composizione dell'indirizzo](../validazione-della-richiesta-di-notifica/composizione-degli-indirizzi.md).
