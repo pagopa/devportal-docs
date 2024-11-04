@@ -54,6 +54,8 @@ Di seguito le sequenze con cui eseguire gli scenari di test con destinatario l'u
 
 <table data-header-hidden><thead><tr><th width="201"></th><th></th></tr></thead><tbody><tr><td><strong>Chiave Sequenza</strong></td><td><strong>Scenario</strong></td></tr><tr><td>OK_RS</td><td><p>valorizzare <code>recipients.digitalDomicile.address="prova@fail.it"</code> </p><p><code>recipients.physicalAddress.address="VIA @OK_RS"</code></p><p><br>Dopo il fallimento dei tentativi di consegna digitale, si avvierà la consegna della Raccomandata Semplice con esito OK.</p></td></tr><tr><td>FAIL_RS</td><td><p>valorizzare </p><p><code>recipients.digitalDomicile.address="prova@fail.it"</code> </p><p><code>recipients.physicalAddress.address="VIA @FAIL_RS"</code><br></p><p>Dopo il fallimento dei tentativi di consegna digitale, si avvierà la consegna della Raccomandata Semplice con esito KO.</p></td></tr></tbody></table>
 
+
+
 #### Raccomandata Semplice Internazionale (RIS)  <a href="#raccomandata-semplice-internazionale-ris" id="raccomandata-semplice-internazionale-ris"></a>
 
 <table data-header-hidden><thead><tr><th width="205"></th><th></th></tr></thead><tbody><tr><td><strong>Chiave Sequenza</strong></td><td><strong>Scenario</strong></td></tr><tr><td>OK_RIS</td><td><p>valorizzare</p><p><code>recipients.digitalDomicile.address="prova@fail.it"</code></p><p><code>recipients.physicalAddress.address="VIA @OK_RIS"</code></p><p><code>recipients.physicalAddress.foreignState="FRANCIA"</code></p><p></p><p>Dopo il fallimento dei tentativi di consegna digitale, si avvierà la consegna della Raccomandata Semplice Internazionale con esito OK.</p></td></tr><tr><td>FAIL_RIS</td><td><p>valorizzare </p><p><code>recipients.digitalDomicile.address="prova@fail.it"</code></p><p><code>recipients.physicalAddress.address="VIA @FAIL_RIS"</code></p><p><code>recipients.physicalAddress.foreignState="FRANCIA"</code></p><p></p><p>Dopo il fallimento dei tentativi di consegna digitale, si avvierà la consegna della Raccomandata Semplice Internazionale con esito KO.</p></td></tr></tbody></table>
@@ -95,9 +97,11 @@ Atto Giudiziario 890: Casi giacenza
 
 <table data-header-hidden><thead><tr><th width="207"></th><th></th></tr></thead><tbody><tr><td><strong>Chiave Sequenza</strong></td><td><strong>Scenario</strong></td></tr><tr><td>OK_RIR</td><td><p><strong>NON</strong> valorizzare il campo <code>recipients.digitalDomicile</code>, valorizzare </p><p><code>physicalCommunicationType="AR_REGISTERED_LETTER"</code></p><p><code>recipients.physicalAddress.address="VIA @OK_RIR"</code></p><p><code>recipients.physicalAddress.foreignState="FRANCIA"</code></p><p><br>Si avvierà il workflow analogico, con consegna Raccomandata Estera in esito OK.</p></td></tr><tr><td>FAIL_RIR</td><td><p><strong>NON</strong> valorizzare il campo <code>recipients.digitalDomicile</code>, valorizzare <code>physicalCommunicationType="AR_REGISTERED_LETTER"</code></p><p><code>recipients.physicalAddress.address="VIA @FAIL_RIR"</code></p><p><code>recipients.physicalAddress.foreignState="FRANCIA"</code></p><p><br>Si avvierà il workflow analogico, con consegna Raccomandata Estera in esito KO.</p></td></tr></tbody></table>
 
+**FULL-DIGITAL**
 
+Per testare l'invio analogico con restituzione del recapitista della ricevuta full-digital in formato ZIP utilizzare le seguenti chiavi sequenza.
 
-
+<table data-header-hidden><thead><tr><th width="201"></th><th></th></tr></thead><tbody><tr><td><strong>Chiave Sequenza</strong></td><td><strong>Scenario</strong></td></tr><tr><td>OK_AR_ZIP</td><td><p>valorizzare </p><p><code>recipients.physicalAddress.address="VIA OK_AR_ZIP"</code></p><p>Per simulare la ricezione della rendicontazione FULL-DIGITAL di una raccomandata AR</p></td></tr><tr><td>OK_890_ZIP</td><td><p>valorizzare </p><p><code>recipients.physicalAddress.address="VIA OK_890_ZIP"</code><br>Per simulare la ricezione della rendicontazione FULL-DIGITAL di una raccomandata 890</p></td></tr></tbody></table>
 
 ### Come visualizzare la notifica accedendo come Destinatario della Notifica su Piattaforma
 
