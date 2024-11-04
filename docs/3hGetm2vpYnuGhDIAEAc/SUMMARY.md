@@ -35,3 +35,4 @@
   * [API VERSIONE GA 2.1](api-changelog/api-versione-ga-2.1.md)
   * [API VERSIONE GA 2.3](api-changelog/api-versione-ga-2.3.md)
   * [API VERSIONE GA 2.4](api-changelog/api-versione-ga-2.4.md)
+  * [API VERSIONE GA24Q4.A](api-changelog/api-versione-ga24q4.a.md)
