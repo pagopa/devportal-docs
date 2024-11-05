@@ -99,9 +99,11 @@ Atto Giudiziario 890: Casi giacenza
 
 **FULL-DIGITAL**
 
+Alcuni recapitisti utilizzano un formato XML per la rendicontazione full-digital. Per facilitare la visualizzazione viene affiancato da un file PDF che riporta i dati nel file XML. Questi file sono restituiti all'interno di un archivio in formato ZIP
+
 Per testare l'invio analogico con restituzione del recapitista della ricevuta full-digital in formato ZIP utilizzare le seguenti chiavi sequenza.
 
-<table data-header-hidden><thead><tr><th width="201"></th><th></th></tr></thead><tbody><tr><td><strong>Chiave Sequenza</strong></td><td><strong>Scenario</strong></td></tr><tr><td>OK_AR_ZIP</td><td><p>valorizzare </p><p><code>recipients.physicalAddress.address="VIA OK_AR_ZIP"</code></p><p>Per simulare la ricezione della rendicontazione FULL-DIGITAL di una raccomandata AR</p></td></tr><tr><td>OK_890_ZIP</td><td><p>valorizzare </p><p><code>recipients.physicalAddress.address="VIA OK_890_ZIP"</code><br>Per simulare la ricezione della rendicontazione FULL-DIGITAL di una raccomandata 890</p></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="201"></th><th></th></tr></thead><tbody><tr><td><strong>Chiave Sequenza</strong></td><td><strong>Scenario</strong></td></tr><tr><td>OK_AR_ZIP</td><td><p>valorizzare </p><p><code>recipients.physicalAddress.address="VIA @OK_AR_ZIP"</code></p><p>Per simulare la ricezione della rendicontazione FULL-DIGITAL di una raccomandata AR</p></td></tr><tr><td>OK_890_ZIP</td><td><p>valorizzare </p><p><code>recipients.physicalAddress.address="VIA @OK_890_ZIP"</code><br>Per simulare la ricezione della rendicontazione FULL-DIGITAL di una raccomandata 890</p></td></tr></tbody></table>
 
 ### Come visualizzare la notifica accedendo come Destinatario della Notifica su Piattaforma
 
