@@ -2242,3 +2242,9 @@ Recupero della ricevuta mediante i codici `IUV`
 {% swagger src="https://raw.githubusercontent.com/pagopa/pagopa-api/refs/heads/SANP3.8.0/openapi/paCreatePosition.yaml" path="/paCreatePosition" method="post" %}
 [https://raw.githubusercontent.com/pagopa/pagopa-api/refs/heads/SANP3.8.0/openapi/paCreatePosition.yaml](https://raw.githubusercontent.com/pagopa/pagopa-api/refs/heads/SANP3.8.0/openapi/paCreatePosition.yaml)
 {% endswagger %}
+
+
+
+{% swagger src="https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.7.1/openapi/paCreatePosition.yaml" path="/paCreatePosition" method="post" %}
+[https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.7.1/openapi/paCreatePosition.yaml](https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.7.1/openapi/paCreatePosition.yaml)
+{% endswagger %}
