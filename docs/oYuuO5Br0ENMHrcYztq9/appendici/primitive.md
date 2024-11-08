@@ -10,8 +10,6 @@ Per i dettagli [https://github.com/pagopa/pagopa-api/tree/SANP3.7.1](https://git
 
 ## paVerifyPaymentNotice <a href="#pagetpayment" id="pagetpayment"></a>
 
-## paVerifyPaymentNotice
-
 <mark style="color:green;">`POST`</mark>&#x20;
 
 #### Request Body
@@ -96,7 +94,7 @@ Per i dettagli [https://github.com/pagopa/pagopa-api/tree/SANP3.7.1](https://git
 
 ## paGetPayment <a href="#pagetpayment" id="pagetpayment"></a>
 
-## paGetPayment versione 1
+### paGetPayment versione 1
 
 <mark style="color:green;">`POST`</mark>&#x20;
 
@@ -243,7 +241,7 @@ Per i dettagli [https://github.com/pagopa/pagopa-api/tree/SANP3.7.1](https://git
 {% endtab %}
 {% endtabs %}
 
-## paGetPayment versione 2
+### paGetPayment versione 2
 
 <mark style="color:green;">`POST`</mark>&#x20;
 
@@ -412,7 +410,7 @@ Per i dettagli [https://github.com/pagopa/pagopa-api/tree/SANP3.7.1](https://git
 
 ## paSendRT <a href="#pasendrt" id="pasendrt"></a>
 
-## paSendRT versione 1
+### paSendRT versione 1
 
 <mark style="color:green;">`POST`</mark>&#x20;
 
@@ -596,7 +594,7 @@ Per i dettagli [https://github.com/pagopa/pagopa-api/tree/SANP3.7.1](https://git
 {% endtab %}
 {% endtabs %}
 
-## paSendRT versione 2
+### paSendRT versione 2
 
 <mark style="color:green;">`POST`</mark>&#x20;
 
@@ -808,8 +806,6 @@ Per i dettagli [https://github.com/pagopa/pagopa-api/tree/SANP3.7.1](https://git
 
 ## verifyPaymentNotice
 
-## verifyPaymentNotice
-
 <mark style="color:green;">`POST`</mark>&#x20;
 
 #### Request Body
@@ -890,8 +886,6 @@ Per i dettagli [https://github.com/pagopa/pagopa-api/tree/SANP3.7.1](https://git
 {% endtabs %}
 {% endtab %}
 {% endtabs %}
-
-## verificaBollettino
 
 ## verificaBollettino
 
@@ -980,7 +974,7 @@ Per i dettagli [https://github.com/pagopa/pagopa-api/tree/SANP3.7.1](https://git
 
 ## activatePaymentNotice <a href="#activatepaymentnotice" id="activatepaymentnotice"></a>
 
-## activatePaymentNotice versione 1
+### activatePaymentNotice versione 1
 
 <mark style="color:green;">`POST`</mark>&#x20;
 
@@ -1087,7 +1081,7 @@ Per i dettagli [https://github.com/pagopa/pagopa-api/tree/SANP3.7.1](https://git
 {% endtab %}
 {% endtabs %}
 
-## activatePaymentNotice versione 2
+### activatePaymentNotice versione 2
 
 <mark style="color:green;">`POST`</mark>&#x20;
 
@@ -1232,7 +1226,7 @@ Per i dettagli [https://github.com/pagopa/pagopa-api/tree/SANP3.7.1](https://git
 
 ## sendPaymentOutcome <a href="#sendpaymentoutcome" id="sendpaymentoutcome"></a>
 
-## sendPaymentOutcome versione 1
+### sendPaymentOutcome versione 1
 
 <mark style="color:green;">`POST`</mark>&#x20;
 
@@ -1330,7 +1324,7 @@ Per i dettagli [https://github.com/pagopa/pagopa-api/tree/SANP3.7.1](https://git
 {% endtab %}
 {% endtabs %}
 
-## sendPaymentOutcome versione 2
+### sendPaymentOutcome versione 2
 
 <mark style="color:green;">`POST`</mark>&#x20;
 
@@ -1447,7 +1441,7 @@ Per i dettagli [https://github.com/pagopa/pagopa-api/tree/SANP3.7.1](https://git
 
 ## pspNotifyPayment <a href="#pspnotifypayment" id="pspnotifypayment"></a>
 
-## pspNotifyPayment versione 1
+### pspNotifyPayment versione 1
 
 <mark style="color:green;">`POST`</mark>&#x20;
 
@@ -1595,7 +1589,7 @@ Altri canali di pagamento
 {% endtab %}
 {% endtabs %}
 
-## pspNotifyPayment versione 2
+### pspNotifyPayment versione 2
 
 <mark style="color:green;">`POST`</mark>&#x20;
 
@@ -1735,8 +1729,6 @@ Altri canali di pagamento
 
 ## demandPaymentNotice
 
-## demandPaymentNotice
-
 <mark style="color:green;">`POST`</mark>&#x20;
 
 #### Request Body
@@ -1819,8 +1811,6 @@ Altri canali di pagamento
 {% endtabs %}
 {% endtab %}
 {% endtabs %}
-
-## paDemandPaymentNotice
 
 ## paDemandPaymentNotice
 
@@ -1908,8 +1898,6 @@ Altri canali di pagamento
 
 ## nodoInviaFlussoRendicontazione
 
-## nodoInviaFlussoRendicontazione
-
 <mark style="color:green;">`POST`</mark>&#x20;
 
 #### Request Body
@@ -1968,8 +1956,6 @@ Altri canali di pagamento
 {% endtabs %}
 {% endtab %}
 {% endtabs %}
-
-## nodoChiediElencoFlussiRendicontazione
 
 ## nodoChiediElencoFlussiRendicontazione
 
@@ -2040,8 +2026,6 @@ Altri canali di pagamento
 
 ## nodoChiediFlussoRendicontazione
 
-## nodoChiediFlussoRendicontazione
-
 <mark style="color:green;">`POST`</mark>&#x20;
 
 #### Request Body
@@ -2101,7 +2085,7 @@ Altri canali di pagamento
 
 ## nodoChiediCatalogoServizi
 
-## nodoChiediCatalogoServizi versione 2
+### nodoChiediCatalogoServizi versione 2
 
 <mark style="color:green;">`POST`</mark>&#x20;
 
@@ -2161,8 +2145,6 @@ Altri canali di pagamento
 {% endtabs %}
 {% endtab %}
 {% endtabs %}
-
-## nodoChiediTemplateInformativaPSP
 
 ## nodoChiediTemplateInformativaPSP
 
