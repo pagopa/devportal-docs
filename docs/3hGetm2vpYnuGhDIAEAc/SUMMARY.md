@@ -29,6 +29,7 @@
 * [Decodifiche SEND\_DIGITAL](decodifiche-send\_digital.md)
 * [Tipologie di scansioni per ANALOG\_DELIVERY](tipologie-di-scansioni-per-analog\_delivery.md)
 * [Simulare i casi di test in ambiente UAT](simulare-i-casi-di-test-in-ambiente-uat.md)
+* [Full Digital - Poste Italiane](full-digital-poste-italiane.md)
 * [🏷️ Tassonomia SEND](tassonomia-send.md)
 * [API CHANGELOG](api-changelog/README.md)
   * [API VERSIONE GA 2.0](api-changelog/api-versione-ga-2.0.md)
