@@ -1,10 +1,4 @@
 # Test space 1
 
-{% hint style="success" %}
-test
-{% endhint %}
-
-{% hint style="warning" %}
-test
-{% endhint %}
-
+> [!NOTE]  
+> Highlights information that users should take into account, even when skimming.
