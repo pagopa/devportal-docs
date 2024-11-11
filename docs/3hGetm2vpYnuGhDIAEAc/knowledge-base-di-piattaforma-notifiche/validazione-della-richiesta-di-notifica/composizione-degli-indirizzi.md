@@ -27,4 +27,9 @@ Le presenza di doppia località, in bilingue, va terminata con il **punto ('.')*
 
 Ad esempio:
 
-`"municipality": "SAN LORENZO DI SEBATO ST. LORENZEN"`
+`"municipality": "SAN LORENZO DI SEBATO. ST. LORENZEN."`
+
+`"municipality": "ALDINO. ALDEIN."`
+
+
+

@@ -23,30 +23,42 @@ Il documenti prodotti sono archiviati all'interno di un file ZIP contenente:
 
 ### Esempi
 
-#### Raccomandata 890
+### Raccomandata 890
 
-* 23L digitale consegna c/o domicilio
+* **23L digitale consegna c/o domicilio**
+
+II file ZIP contiene un PDF e un XML relativi a una spedizione 890 per Raccomandata Mod. 23L consegnata a domicilio, con dettagli su codice di spedizione, data e luogo di accettazione e recapito.
 
 {% file src=".gitbook/assets/23L_domicilio.zip" %}
 
-* 23L digitale consegna c/o ufficio postale
+* **23L digitale consegna c/o ufficio postale**
+
+Il file ZIP contiene un PDF e un XML relativi a una spedizione 890 per Raccomandata Mod. 23L consegnata ad un ufficio postale, con dettagli su codice di spedizione, data e luogo di accettazione e recapito.
 
 {% file src=".gitbook/assets/SP04_23LFD_281526382192_381526382193.zip" %}
 
-* ARCAD digitale
+* **ARCAD digitale**
+
+Il file ZIP contiene un PDF e un XML relativi a una spedizione 890 per ARCAD digiale , con dettagli su codice di spedizione, data e luogo di accettazione e recapito.
 
 {% file src=".gitbook/assets/ARCAD_domicilio.zip" %}
 
-#### Raccomandata A/R
+### Raccomandata A/R
 
-* 23i digitale consegna c/o domicilio
+* **23i digitale consegna c/o domicilio**
+
+II file ZIP contiene un PDF e un XML relativi a una spedizione A/R per Raccomandata Mod. 23i consegnata a domicilio, con dettagli su codice di spedizione, data e luogo di accettazione e recapito.
 
 {% file src=".gitbook/assets/23i_domicilio.zip" %}
 
-* 23i digitale consegna c/o ufficio postale
+* **23i digitale consegna c/o ufficio postale**
+
+Il file ZIP contiene un PDF e un XML relativi a una spedizione A/R per Raccomandata Mod. 23i consegnata ad un ufficio postale, con dettagli su codice di spedizione, data e luogo di accettazione e recapito.
 
 {% file src=".gitbook/assets/23IFD_ACFD697319802149_697319802149.zip" %}
 
 ### Dettaglio dei campi del file XML
+
+l file XML della Raccomandata 23L include campi per tracciare l’intera spedizione, come il codice identificativo dell’oggetto, la descrizione del documento inviato (es. atto giudiziario), la data e il luogo di accettazione e recapito, e i dettagli sul mittente. Questi campi certificano ogni fase del processo di notifica e rendono la spedizione conforme alle normative legali.
 
 {% file src=".gitbook/assets/Dettaglio campi per file FD PagoPA_V3.xlsx" %}
