@@ -1,8 +1,6 @@
 # Test space 1
 
-> 🔴&#x20;
->
-> <mark style="color:red;">Questo è un warning</mark>
+> 🔴  Questo è un warning&#x20;
 
 > \[!NOTE]\
 > Highlights information that users should take into account, even when skimming.
