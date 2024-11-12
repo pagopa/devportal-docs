@@ -10,11 +10,23 @@ description: >-
 
 <details>
 
+<summary>Novembre 2024</summary>
+
+### 1.0.119
+
+**11 novembre**
+
+* Adeguamento infrastrutturale
+
+</details>
+
+<details>
+
 <summary>Ottobre 2024</summary>
 
 ### 1.0.118
 
-29 ottobre
+**29 ottobre**
 
 * Aggiunta della nuova feature [Portachiavi Erogatore](https://docs.pagopa.it/interoperabilita-1/manuale-operativo/client-e-materiale-crittografico#portachiavi-erogatore)
 * Bug fixing
