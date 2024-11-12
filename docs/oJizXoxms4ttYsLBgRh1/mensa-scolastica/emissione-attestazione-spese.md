@@ -22,4 +22,4 @@ Aderendo all’**offerta Premium**, è possibile inviare un allegato tramite mes
 
 Nel [Manuale dei servizi dell'app IO](https://docs.pagopa.it/manuale-servizi) puoi trovare il modello [Mensa scolastica](https://docs.pagopa.it/i-modelli-dei-servizi/educazione-e-formazione/mensa-scolastica), cioè un template da cui l'ente può partire per **configurare il servizio e i relativi messaggi al cittadino** su IO, come ad esempio:&#x20;
 
-* messaggio di [**emissione attestazione spese sostenute**](https://docs.pagopa.it/i-modelli-dei-servizi/educazione-e-formazione/mensa-scolastica#emissione-attestazione-spese-sostenute-1)**.**
+* messaggio di [**emissione attestazione spese sostenute**](https://docs.pagopa.it/i-modelli-dei-servizi/educazione-e-formazione/mensa-scolastica#emissione-attestazione-spese-sostenute)**.**

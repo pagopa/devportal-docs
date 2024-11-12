@@ -20,4 +20,4 @@ Alla fine dell’anno scolastico l’ente, tramite i propri sistemi, comunica al
 
 Nel [Manuale dei servizi dell'app IO](https://docs.pagopa.it/manuale-servizi) puoi trovare il modello [Trasporto scolastico](https://docs.pagopa.it/i-modelli-dei-servizi/educazione-e-formazione/trasporto-scolastico), cioè un template da cui l'ente può partire per **configurare il servizio e i relativi messaggi al cittadino** su IO, come ad esempio:&#x20;
 
-* messaggio di [**variazione servizio**](https://docs.pagopa.it/i-modelli-dei-servizi/educazione-e-formazione/trasporto-scolastico#variazioni-erogazione-del-servizio).
+* messaggio di [**variazione servizio**](https://docs.pagopa.it/i-modelli-dei-servizi/educazione-e-formazione/trasporto-scolastico#variazioni-erogazione-servizio).

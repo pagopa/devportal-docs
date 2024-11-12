@@ -36,5 +36,5 @@ Se previsto, il cittadino potrà ricevere aggiornamenti anche sulla richiesta pe
 
 Nel [Manuale dei servizi dell'app IO](https://docs.pagopa.it/manuale-servizi) puoi trovare il modello [Mensa scolastica](https://docs.pagopa.it/i-modelli-dei-servizi/educazione-e-formazione/mensa-scolastica), cioè un template da cui l'ente può partire per **configurare il servizio e i relativi messaggi al cittadino** su IO, come ad esempio:&#x20;
 
-* messaggio di [**apertura iscrizioni**](https://docs.pagopa.it/i-modelli-dei-servizi/educazione-e-formazione/mensa-scolastica#apertura-richieste-per-il-servizio-mensa);&#x20;
-* messaggio di [**domanda accolta**](https://docs.pagopa.it/i-modelli-dei-servizi/educazione-e-formazione/mensa-scolastica#apertura-richieste-per-il-servizio-mensa);
+* messaggio di [**apertura iscrizioni**](https://docs.pagopa.it/i-modelli-dei-servizi/educazione-e-formazione/mensa-scolastica#presentazione-richiesta);&#x20;
+* messaggio di [**richiesta accolta**](https://docs.pagopa.it/i-modelli-dei-servizi/educazione-e-formazione/mensa-scolastica#presentazione-richiesta)**.**

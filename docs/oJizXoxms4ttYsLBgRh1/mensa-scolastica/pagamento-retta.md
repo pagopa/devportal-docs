@@ -60,4 +60,4 @@ Se il cittadino non provvede al pagamento, l'ente, tramite i propri sistemi, agg
 
 Nel [Manuale dei servizi dell'app IO](https://docs.pagopa.it/manuale-servizi) puoi trovare il modello [Mensa scolastica](https://docs.pagopa.it/i-modelli-dei-servizi/educazione-e-formazione/mensa-scolastica), cioè un template da cui l'ente può partire per **configurare il servizio e i relativi messaggi al cittadino** su IO, come ad esempio:&#x20;
 
-* messaggio di [**mancato pagamento**](https://docs.pagopa.it/i-modelli-dei-servizi/educazione-e-formazione/mensa-scolastica#avviso-di-pagamento-domanda-di-iscrizione-mancato-pagamento)**.**
+* messaggio di [**mancato pagamento**](https://docs.pagopa.it/i-modelli-dei-servizi/educazione-e-formazione/mensa-scolastica#pagamento)**.**

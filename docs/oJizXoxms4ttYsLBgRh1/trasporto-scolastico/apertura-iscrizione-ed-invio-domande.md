@@ -34,5 +34,5 @@ L'ente, tramite i propri sistemi, comunica al cittadino tramite messaggio su IO 
 
 Nel [Manuale dei servizi dell'app IO](https://docs.pagopa.it/manuale-servizi) puoi trovare il modello [Trasporto scolastico](https://docs.pagopa.it/i-modelli-dei-servizi/educazione-e-formazione/trasporto-scolastico), cioè un template da cui l'ente può partire per **configurare il servizio e i relativi messaggi al cittadino** su IO, come ad esempio:&#x20;
 
-* messaggio di [**apertura iscrizioni**](https://docs.pagopa.it/i-modelli-dei-servizi/educazione-e-formazione/trasporto-scolastico#apertura-iscrizioni-per-il-trasporto-scolastico);&#x20;
-* messaggio di [**domanda accolta**](https://docs.pagopa.it/i-modelli-dei-servizi/educazione-e-formazione/trasporto-scolastico#domanda-accolta);
+* messaggio di [**apertura iscrizioni**](https://docs.pagopa.it/i-modelli-dei-servizi/educazione-e-formazione/trasporto-scolastico#apertura-iscrizioni);&#x20;
+* messaggio di [**domanda accolt**](https://docs.pagopa.it/i-modelli-dei-servizi/educazione-e-formazione/trasporto-scolastico#domanda-accolta)[**a**](https://docs.pagopa.it/i-modelli-dei-servizi/educazione-e-formazione/trasporto-scolastico#presentazione-domanda)**.**
