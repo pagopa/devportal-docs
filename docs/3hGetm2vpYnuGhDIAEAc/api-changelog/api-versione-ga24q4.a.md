@@ -1,5 +1,5 @@
 ---
-description: Timeline 2.4
+description: Aggiornamento in produzione 28/10/2024
 ---
 
 # API VERSIONE GA24Q4.A
