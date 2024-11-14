@@ -34,7 +34,7 @@ Possono essere coinvolte singolarmente o contemporaneamente nelle fasi del servi
 
 Su IO, i cittadini possono ricevere e pagare gli avvisi di pagamento pagoPA grazie all'integrazione con l'omonima piattaforma, così come salvare uno o più metodi di pagamento.
 
-[**Vai al sito** ](https://www.pagopa.gov.it/)[**→** ](https://www.pagopa.gov.it/)[ ](https://www.pagopa.gov.it/)
+[**Vai al sito →**](https://www.pagopa.gov.it/)
 
 </details>
 
