@@ -4,6 +4,8 @@
 
 La piattaforma SEND offre una serie di API che permettono agli utenti autorizzati di monitorare lo stato dei servizi e consultare lo storico dei disservizi. Queste API permettono anche di scaricare atti opponibili a terzi per i disservizi risolti, garantendo la trasparenza e la tracciabilità delle interruzioni dei servizi.
 
+Il file di definizione openAPI è esposto all'indirizzo [https://raw.githubusercontent.com/pagopa/pn-downtime-logs/refs/tags/pn-openapi-devportal/docs/openapi/api-external-v1.yaml](https://raw.githubusercontent.com/pagopa/pn-downtime-logs/refs/tags/pn-openapi-devportal/docs/openapi/api-external-v1.yaml)
+
 ### Funzionalità principali
 
 Le API della piattaforma SEND sono progettate per:
