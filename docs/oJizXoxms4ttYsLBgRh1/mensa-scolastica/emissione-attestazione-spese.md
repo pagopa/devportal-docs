@@ -8,7 +8,7 @@ description: >-
 
 <figure><img src="../.gitbook/assets/Stepper_4.png" alt=""><figcaption></figcaption></figure>
 
-## 1**. L'ente emette l'attestazione delle spese sostenute dal cittadino**
+## 1. L'Ente emette l'attestazione delle spese sostenute dal cittadino&#x20;
 
 L’ente, tramite i propri sistemi, informa il cittadino attraverso un messaggio su IO che è disponibile sul portale dell’ente **l’attestazione ai fini fiscali delle spese effettuate per la mensa scolastica**.
 

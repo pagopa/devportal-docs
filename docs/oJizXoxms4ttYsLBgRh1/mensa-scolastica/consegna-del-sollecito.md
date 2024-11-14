@@ -21,7 +21,7 @@ L'ente, tramite i propri sistemi, carica da back-office la notifica per il citta
 
 ### Documentazione tecnica&#x20;
 
-[In questa pagina](https://developer.pagopa.it/send/api/send-main#/send/api/send-main/operations/retrieveNotificationPriceV23) trovi le specifiche sull'API **`notificationPriceV23`**da utilizzare per conoscere l'importo dei costi di notifica da applicare agli avvisi di pagamento.&#x20;
+[In questa pagina](https://developer.pagopa.it/send/api/send-main#/send/api/send-main/operations/retrieveNotificationPriceV23) trovi le specifiche sull'API **`notificationPriceV23`** da utilizzare per conoscere l'importo dei costi di notifica da applicare agli avvisi di pagamento.&#x20;
 
 [In questa pagina](https://developer.pagopa.it/send/api/send-main#/send/api/send-main/operations/sendNewNotificationV23) trovi le specifiche per collegare uno o più avvisi alla notifica: i sistemi in capo dall'ente devono utilizzare il campo **`pagoPa`** all’interno dell’oggetto **`payments`** (dentro recipients), fornendo i seguenti dati:&#x20;
 
