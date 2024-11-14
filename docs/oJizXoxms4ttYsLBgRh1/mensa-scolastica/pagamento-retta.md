@@ -29,7 +29,7 @@ Aderendo all’**offerta Premium**, è possibile inviare in automatico una notif
 [**Scopri di più sull’offerta Premium →** ](https://docs.pagopa.it/manuale-servizi/che-cosa-puo-fare-un-servizio-su-io/inviare-messaggi#funzionalita-premium)
 {% endhint %}
 
-## **3.1 Il cittadino paga l'avviso entro i termini previsti ✅**
+## 3.1 Il cittadino paga l'avviso entro i termini previsti **✅**
 
 Se il cittadino paga l’avviso di pagamento per la retta della mensa scolastica entro i termini previsti, l'ente, tramite i propri sistemi, aggiorna lo stato della posizione debitoria e la contrassegna come “pagata”.
 
@@ -41,7 +41,7 @@ Se il cittadino paga l’avviso di pagamento per la retta della mensa scolastica
 
 [In questa pagina](https://docs.pagopa.it/gestionedeglierrori/faultcode-e-faultstring/domino-ec) trovi le specifiche per gestire gli errori.&#x20;
 
-## **3.2 Il cittadino non paga l'avviso entro i termini previsti ❌**
+## 3.2 Il cittadino non paga l'avviso entro i termini previsti **❌**
 
 Se il cittadino non paga l’avviso di pagamento per la retta della mensa scolastica entro i termini previsti, l'ente, tramite i propri sistemi, informa il cittadino del mancato pagamento tramite messaggio su IO.
 
