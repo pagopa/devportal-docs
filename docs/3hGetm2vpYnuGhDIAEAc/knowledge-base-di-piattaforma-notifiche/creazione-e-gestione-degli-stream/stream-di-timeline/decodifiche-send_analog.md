@@ -8,11 +8,12 @@ description: >-
 
 ## Decodifica in SEND\_ANALOG\_PROGRESS
 
-Nella tabelle sono riportate le decodifiche dell'elemento `deliveryDetailCode` all'interno dell'oggeto `details` degli eventi SEND\_ANALOG\_PROGRESS.
+Nella tabelle sono riportate le decodifiche dell'elemento `deliveryDetailCode` all'interno dell'oggetto `details` degli eventi SEND\_ANALOG\_PROGRESS.
 
 Esempio:
 
-<pre class="language-json"><code class="lang-json">{
+```json
+{
 	"elementId": "SEND_ANALOG_PROGRESS.IUN_GPTG-NEPG-ZTET-202402-E-1.RECINDEX_0.ATTEMPT_0.IDX_1",
 	"timestamp": "2024-02-29T16:10:08Z",
 	"legalFactsIds": [],
@@ -20,13 +21,13 @@ Esempio:
 	"details": {
 		"recIndex": 0,
 		"notificationDate": "2024-02-29T16:10:08Z",
-		"<a data-footnote-ref href="#user-content-fn-1">deliveryDetailCode</a>": "CON080",
+		"deliveryDetailCode": "C0N080", 
 		"serviceLevel": "AR_REGISTERED_LETTER",
 		"sendRequestId": "SEND_ANALOG_DOMICILE.IUN_GPTG-NEPG-ZTET-202402-E-1.RECINDEX_0.ATTEMPT_0",
 		"registeredLetterCode": "e0784bcfcf2b44aa8207ea801395969e"
 	}
-},
-</code></pre>
+}
+```
 
 I codici possono differire a seconda del tipo di prodotto (RIR, AR, 890).
 
@@ -136,5 +137,3 @@ Esempio:
 ## Decodifica deliveryFailureCause <a href="#tabella-approfondimento-deliveryfailurecause" id="tabella-approfondimento-deliveryfailurecause"></a>
 
 <table data-header-hidden><thead><tr><th width="224"></th><th></th><th></th></tr></thead><tbody><tr><td><strong>deliveryFailureCause</strong></td><td><strong>motivo del fallimento</strong></td><td><strong>genera il 2° tentativo</strong></td></tr><tr><td>M01</td><td>perché il destinatario è irreperibile</td><td>sì</td></tr><tr><td>M02</td><td>perché il destinatario è deceduto</td><td>NO</td></tr><tr><td>M03</td><td>perché il destinatario è sconosciuto</td><td>sì</td></tr><tr><td>M04</td><td>perché il destinatario si è trasferito</td><td>sì</td></tr><tr><td>M05</td><td>perché l'invio è stato rifiutato</td><td>NO</td></tr><tr><td>M06</td><td>perché l’indirizzo è inesatto</td><td>sì</td></tr><tr><td>M07</td><td>perché l’indirizzo è inesistente</td><td>sì</td></tr><tr><td>M08</td><td>perché l’indirizzo è insufficiente</td><td>sì</td></tr><tr><td>M09</td><td>per altre motivazioni</td><td>sì</td></tr><tr><td>F01</td><td>furto</td><td></td></tr><tr><td>F02</td><td>smarrimento</td><td></td></tr><tr><td>F03</td><td>deterioramento</td><td></td></tr><tr><td>F04</td><td>rapina</td><td></td></tr><tr><td>C01</td><td>a causa di un incendio</td><td></td></tr><tr><td>C02</td><td>a causa di una strada chiusa per lavori in corso o frana</td><td></td></tr><tr><td>C03</td><td>a causa di una strada chiusa dalle autorità per eventi eccezionali</td><td></td></tr><tr><td>C04</td><td>a causa del maltempo: alluvione, neve o allagamento</td><td></td></tr><tr><td>C05</td><td>a causa di un terremoto</td><td></td></tr><tr><td>C06</td><td>a causa di un'eruzione vulcanica</td><td></td></tr></tbody></table>
-
-[^1]: 
