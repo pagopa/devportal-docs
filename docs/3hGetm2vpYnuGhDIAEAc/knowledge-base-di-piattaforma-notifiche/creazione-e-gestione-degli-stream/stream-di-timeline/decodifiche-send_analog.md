@@ -12,8 +12,7 @@ Nella tabelle sono riportate le decodifiche dell'elemento `deliveryDetailCode` a
 
 Esempio:
 
-<pre><code>```json
-{
+<pre class="language-json"><code class="lang-json">{
 	"elementId": "SEND_ANALOG_PROGRESS.IUN_GPTG-NEPG-ZTET-202402-E-1.RECINDEX_0.ATTEMPT_0.IDX_1",
 	"timestamp": "2024-02-29T16:10:08Z",
 	"legalFactsIds": [],
@@ -27,7 +26,6 @@ Esempio:
 		"registeredLetterCode": "e0784bcfcf2b44aa8207ea801395969e"
 	}
 },
-```
 </code></pre>
 
 I codici possono differire a seconda del tipo di prodotto (RIR, AR, 890).
@@ -92,7 +90,6 @@ Nella tabelle sono riportate le decodifiche dell'elemento `deliveryDetailCode` a
 
 Esempio:
 
-````
 ```json
 {
 	"elementId": "SEND_ANALOG_FEEDBACK.IUN_GPTG-NEPG-ZTET-202402-E-1.RECINDEX_0.ATTEMPT_0",
@@ -121,7 +118,6 @@ Esempio:
 	}
 },
 ```
-````
 
 ### Codici SEND\_ANALOG\_FEEDBACK per raccomandate AR
 
