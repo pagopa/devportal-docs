@@ -34,7 +34,7 @@ Possono essere coinvolte singolarmente o contemporaneamente nelle fasi del servi
 
 Su IO, i cittadini possono ricevere e pagare gli avvisi di pagamento pagoPA grazie all'integrazione con l'omonima piattaforma, così come salvare uno o più metodi di pagamento.
 
-[**Vai al sito ->** ](https://www.pagopa.gov.it/)
+[**Vai al sito** ](https://www.pagopa.gov.it/)[**→** ](https://www.pagopa.gov.it/)[ ](https://www.pagopa.gov.it/)
 
 </details>
 
@@ -44,7 +44,7 @@ Su IO, i cittadini possono ricevere e pagare gli avvisi di pagamento pagoPA graz
 
 Un unico punto di accesso per interagire in modo semplice e sicuro con i servizi pubblici locali e nazionali, direttamente dal tuo smartphone.
 
-[**Vai al sito ->**](https://io.italia.it/)
+[**Vai al sito →**](https://io.italia.it/)
 
 </details>
 
@@ -54,6 +54,6 @@ Un unico punto di accesso per interagire in modo semplice e sicuro con i servizi
 
 Su IO, i cittadini possono ricevere tramite SEND (SErvizio Notifiche Digitali) un avviso di cortesia, leggere i documenti notificati e, ove richiesto, procedere al pagamento direttamente in app.&#x20;
 
-[**Vai al sito ->**](https://notifichedigitali.pagopa.it/)
+[**Vai al sito →**](https://notifichedigitali.pagopa.it/it/)
 
 </details>
