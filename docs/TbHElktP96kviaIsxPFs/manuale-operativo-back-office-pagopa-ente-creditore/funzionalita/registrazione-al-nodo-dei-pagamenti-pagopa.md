@@ -18,7 +18,7 @@ Inoltre, una volta selezionata la modalità "diretta" non è possible da sistema
 
 La modalità "indiretta" prevede invece che l'EC sarà connesso al nodo per il tramite di un EC "diretto" oppure di un Partner Tecnologico. Affinchè il Partner Tecnologico possa poi associare l'EC ad una stazione è necessario che l'EC abbia concluso la procedura di registrazione al nodo indicata in questa sezione.
 
-![](../../.gitbook/assets/spaces\_TbHElktP96kviaIsxPFs\_uploads\_hL0lb3IbEe9mUYvUYQ9m\_image.webp)
+![](../../.gitbook/assets/spaces_TbHElktP96kviaIsxPFs_uploads_hL0lb3IbEe9mUYvUYQ9m_image.webp)
 {% endhint %}
 
 ## Registrazione al Nodo
@@ -41,7 +41,7 @@ Inoltre, l'utente oltre a dover procedere alla compilazione dei suddetti campi, 
 
 #### Caso 1: Modalità di connessione al Nodo indiretta
 
-L'utente procede alla **compilazione dei dati obbligatori** e sceglie la **modalità indiretta** di connessione al Nodo**.**
+L'utente procede alla **compilazione dei dati obbligatori** e sceglie la **modalità indiretta** di connessione al Nod&#x6F;**.**
 
 <figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption><p><em>Registrazione al Nodo - connessione indiretta</em></p></figcaption></figure>
 
@@ -66,7 +66,7 @@ Questo verrà reindirizzato alla Panoramica in cui potrà visualizzare il riepil
 
 #### Caso 2 :  Modalità di connessione al Nodo diretta
 
-L'utente procede alla **compilazione dei dati obbligatori e** sceglie la **modalità diretta** di connessione al Nodo**.**
+L'utente procede alla **compilazione dei dati obbligatori e** sceglie la **modalità diretta** di connessione al Nod&#x6F;**.**
 
 <figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 

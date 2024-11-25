@@ -21,7 +21,7 @@ Se si intende creare una nuova stazione, al termine della compilazione, è possi
 
 <figure><img src="../../../.gitbook/assets/image (183).png" alt=""><figcaption><p><em>Pagina di configurazione della stazione</em></p></figcaption></figure>
 
-Una volta aver completato la compilazione dei campi della P_agina di dettaglio,_ **è necessario ottenere la validazione di tali dati.**
+Una volta aver completato la compilazione dei campi della &#x50;_&#x61;gina di dettaglio,_ **è necessario ottenere la validazione di tali dati.**
 
 Quindi, una volta che l'utente avrà cliccato sul tasto "Conferma" non otterrà l'immediata attivazione della stazione, ma invia una richiesta di attivazione all'operatore PagoPA, come illustrato di seguito nel dettaglio.
 

@@ -17,6 +17,7 @@
       * [Associazione\Eliminazione\Modifica di un EC alla Stazione](manuale-operativo-back-office-pagopa-ente-creditore/funzionalita/stazioni/associazione-di-un-ec-alla-stazione.md)
       * [Esportazione Massiva EC](manuale-operativo-back-office-pagopa-ente-creditore/funzionalita/stazioni/esportazione-massiva-ec.md)
       * [Manutenzione Programmata](manuale-operativo-back-office-pagopa-ente-creditore/funzionalita/stazioni/manutenzione-programmata.md)
+      * [Configurazione Opzioni di Pagamento](readme/funzionalita/stazioni/configurazione-opzioni-di-pagamento.md)
     * [Gestione IBAN](manuale-operativo-back-office-pagopa-ente-creditore/funzionalita/gestione-iban/README.md)
       * [Aggiungi IBAN](manuale-operativo-back-office-pagopa-ente-creditore/funzionalita/gestione-iban/aggiungi-iban.md)
       * [Modifica IBAN](manuale-operativo-back-office-pagopa-ente-creditore/funzionalita/gestione-iban/modifica-iban.md)

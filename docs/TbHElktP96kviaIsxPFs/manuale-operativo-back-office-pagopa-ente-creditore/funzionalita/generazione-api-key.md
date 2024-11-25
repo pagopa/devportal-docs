@@ -17,7 +17,7 @@ Per avviare la generazione delle chiavi è necessario scegliere l'ambiente targe
 
 ### Sezione API Key: Ambiente di Collaudo
 
-Dalla **Panoramica - Area riservata**, dopo aver cliccato sul pulsante "Gestisci**"** del prodotto e aver selezionato l'ambiente target, ad esempio **"Collaudo"**, l'utente accede alla _Pagina Vista API Key._
+Dalla **Panoramica - Area riservata**, dopo aver cliccato sul pulsante "Gestisc&#x69;**"** del prodotto e aver selezionato l'ambiente target, ad esempio **"Collaudo"**, l'utente accede alla _Pagina Vista API Key._
 
 Nella suddetta _Pagina_ è possibile procedere alla generazione delle chiavi cliccando sul tasto “+ Genera API Key” o su link in blu “Genera API Key”.
 
@@ -27,7 +27,7 @@ Effettuando il click, si accede alla _Pagina di Selezione tipo di prodotto_
 
 #### **Selezione del tipo di prodotto**
 
-Nella _Pagina di Selezione tipo di prodotto,_ tramite Il menu a tendina “Tipo di prodotto”, è possibile visualizzare l’elenco delle tipologie di prodotto per cui è necessario generare le chiavi_:_
+Nella _Pagina di Selezione tipo di prodotto,_ tramite Il menu a tendina “Tipo di prodotto”, è possibile visualizzare l’elenco delle tipologie di prodotto per cui è necessario generare le chiav&#x69;_:_
 
 {% hint style="info" %}
 L'elenco di seguito è indicativo in quanto le tipologie di prodotto sono in continua evoluzione e potranno cambiare nel corso del tempo.
@@ -47,10 +47,10 @@ La prossima sezione descrive il processo di generazione di una coppia di API Key
 
 Le altre tipologie di prodotto, per semplicità non descritte hanno rispettivamente i seguenti compiti:
 
-* _**GPD - Posizioni Debitorie**_ -> prodotto da utilizzare nell'ambito dell'_`integrazione asincrona`_per la gestione delle posizioni debitorie
-* _**GPD - Recupero ricevute**_ -> prodotto da utilizzare nell'ambito dell'_`integrazione asincrona`_per il recupero delle ricevute di pagamento
-* _**GPD - Gestione flussi di rendicontazione**_ -> prodotto da utilizzare nell'ambito dell'_`integrazione asincrona`_per la gestione dei flussi di rendicontazione da parte dei PSP
-* _**BIZ - Recupero ricevute Ente Creditore**_ -> prodotto da utilizzare nell'ambito dell'_`integrazione asincrona`_per il recupero delle ricevute di pagamento
+* _**GPD - Posizioni Debitorie**_ -> prodotto da utilizzare nell'ambito dell'_`integrazione asincrona`_&#x70;er la gestione delle posizioni debitorie
+* _**GPD - Recupero ricevute**_ -> prodotto da utilizzare nell'ambito dell'_`integrazione asincrona`_&#x70;er il recupero delle ricevute di pagamento
+* _**GPD - Gestione flussi di rendicontazione**_ -> prodotto da utilizzare nell'ambito dell'_`integrazione asincrona`_&#x70;er la gestione dei flussi di rendicontazione da parte dei PSP
+* _**BIZ - Recupero ricevute Ente Creditore**_ -> prodotto da utilizzare nell'ambito dell'_`integrazione asincrona`_&#x70;er il recupero delle ricevute di pagamento
 * _**FdR - Flussi di Rendicontazione**_ (EC) -> prodotto da utilizzare per recuperare i flussi di rendicontazione da parte dei PSP
 {% endhint %}
 

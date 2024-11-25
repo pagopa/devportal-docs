@@ -57,7 +57,7 @@ _**Modello 1**_&#x20;
 _**Modello Unico**_
 
 * _`Endpoint:`_ inserire la url dell'endpoint unico
-* _`Versione primitive:`_selezionare dal menu a tendina la versione delle primitive da utilizzare (1 o 2)
+* _`Versione primitive:`_&#x73;elezionare dal menu a tendina la versione delle primitive da utilizzare (1 o 2)
 
 {% hint style="info" %}
 E' inoltre possibile eseguire un test di connettività degli endpoint schiacciando sui pulsanti "Verifica URL" a fianco di ogni endpoint. Qualora il test dovesse essere negativo è comunque possibile procedere all'invio della stazione agli operatori pagoPA.

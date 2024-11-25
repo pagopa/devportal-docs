@@ -27,7 +27,7 @@ La funzionalità di `Duplica` permette di creare agevolmente una nuova stazione 
 
 <figure><img src="../../../.gitbook/assets/image (206).png" alt=""><figcaption></figcaption></figure>
 
-Una volta effettuata l'operazione **cliccando** su "**Conferma**", si verrà **reindirizzati** alla **pagina **_**Vista Stazioni**_ in cui è presente l'elenco delle stazioni create.
+Una volta effettuata l'operazione **cliccando** su "**Conferma**", si verrà **reindirizzati** alla **pagina&#x20;**_**Vista Stazioni**_ in cui è presente l'elenco delle stazioni create.
 
 {% hint style="warning" %}
 ### Modifica di una stazione in stato "Attiva"
