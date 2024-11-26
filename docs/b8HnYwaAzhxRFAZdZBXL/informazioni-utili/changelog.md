@@ -12,6 +12,12 @@ description: >-
 
 <summary>Novembre 2024</summary>
 
+### 1.0.124
+
+**26 novembre**
+
+* Bug fixing
+
 ### 1.0.123
 
 **25 novembre**
