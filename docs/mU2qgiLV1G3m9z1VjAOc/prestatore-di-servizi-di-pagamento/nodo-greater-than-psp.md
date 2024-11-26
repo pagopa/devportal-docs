@@ -49,14 +49,15 @@
 
 ## Altro
 
-| pspInviaRPT                 | CANALE\_SYSTEM\_ERROR |
-| --------------------------- | --------------------- |
-| pspInviaCarrelloRPT         | CANALE\_SYSTEM\_ERROR |
-| pspInviaCarrelloRPTCarte    | CANALE\_SYSTEM\_ERROR |
-| pspNotifyPayment            | CANALE\_SYSTEM\_ERROR |
-| pspChiediAvanzamentoRPT     | CANALE\_SYSTEM\_ERROR |
-| pspChiediRT                 | CANALE\_SYSTEM\_ERROR |
-| pspInviaAckRT               | CANALE\_SYSTEM\_ERROR |
-| pspChiediListaRT            | CANALE\_SYSTEM\_ERROR |
-| pspNotificaCancellazioneRPT | CANALE\_SYSTEM\_ERROR |
-| pspNotifyPaymentV2          | CANALE\_SYSTEM\_ERROR |
+| pspInviaRPT                 | CANALE\_SYSTEM\_ERROR                            |
+| --------------------------- | ------------------------------------------------ |
+| pspInviaCarrelloRPT         | CANALE\_SYSTEM\_ERROR                            |
+| pspInviaCarrelloRPTCarte    | CANALE\_SYSTEM\_ERROR                            |
+| pspNotifyPayment            | CANALE\_SYSTEM\_ERROR                            |
+| pspChiediAvanzamentoRPT     | CANALE\_SYSTEM\_ERROR                            |
+| pspChiediRT                 | CANALE\_SYSTEM\_ERROR                            |
+| pspInviaAckRT               | CANALE\_SYSTEM\_ERROR                            |
+| pspChiediListaRT            | CANALE\_SYSTEM\_ERROR                            |
+| pspNotificaCancellazioneRPT | CANALE\_SYSTEM\_ERROR                            |
+| pspNotifyPaymentV2          | CANALE\_SYSTEM\_ERROR                            |
+| verifyPaymentOptions        | ODP\_STAZIONE\_INT\_VERIFICA\_ODP\_DISABILITATA  |
