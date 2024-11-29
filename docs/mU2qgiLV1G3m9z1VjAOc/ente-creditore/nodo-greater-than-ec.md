@@ -49,7 +49,7 @@
 | paSendRT               | <p><br>PAA_SEMANTICA</p>                                                                                                                                                                        |
 | paGetPaymentV2         | <p>PAA_PAGAMENTO_SCONOSCIUTO<br>PAA_PAGAMENTO_DUPLICATO<br>PAA_PAGAMENTO_IN_CORSO<br>PAA_PAGAMENTO_SCADUTO<br>PAA_PAGAMENTO_ANNULLATO<br>PAA_SEMANTICA</p>                                      |
 | paDemandPaymentNotice  | <p>PAA_PAGAMENTO_SCONOSCIUTO<br>PAA_PAGAMENTO_DUPLICATO<br>PAA_PAGAMENTO_IN_CORSO<br>PAA_PAGAMENTO_ANNULLATO<br>PAA_PAGAMENTO_SCADUTO<br>PAA_SEMANTICA</p>                                      |
-| paVerifyPaymentOptions | PAA\_PAGAMENTO\_SCONOSCIUTO                                                                                                                                                                     |
+| paVerifyPaymentOptions | <p>PAA_PAGAMENTO_SCONOSCIUTO</p><p>PAA_PAGAMENTO_DUPLICATO<br>PAA_PAGAMENTO_IN_CORSO<br>PAA_PAGAMENTO_ANNULLATO<br>PAA_PAGAMENTO_SCADUTO</p>                                                    |
 
 ## Altro
 
