@@ -35,19 +35,24 @@ if ('this_is' == /an_example/) {
 
 Il servizio permette la ricerca dei dati della residenza legati ad un determinato soggetto. E' possibile procedere nella ricerca mediante l’invio di alcuni campi obbligatori e altri facoltativi. All’interno del body è necessario popolare i campi obbligatori, secondo una delle tre opzioni:
 
-parametriRicerca.codiceFiscale\
-oppure,
+* `parametriRicerca.codiceFiscale`
 
-parametriRicerca.nome\
-parametriRicerca.cognome\
-parametriRicerca.sesso\
-parametriRicerca.datiNascita.dataEvento\
-Uno tra:\
-\- parametriRicerca.datiNascita.luogoNascita.comune.nomeComune\
-\- parametriRicerca.datiNascita.luogoNascita.localita.codiceStato\
-oppure,
+oppure:
 
-parametriRicerca.idANPR
+* `parametriRicerca.nome`
+* `parametriRicerca.cognome`
+* `parametriRicerca.sesso`
+* `parametriRicerca.datiNascita.dataEvento`\
+
+
+Uno tra:
+
+* `parametriRicerca.datiNascita.luogoNascita.comune.nomeComune`
+* `parametriRicerca.datiNascita.luogoNascita.localita.codiceStato`\
+  \
+  oppure:\
+
+* `parametriRicerca.idANPR`
 
 ```
 curl--location 'http://eservices.att.interop.pagopa.it/residence-verification'\
