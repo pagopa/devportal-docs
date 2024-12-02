@@ -37,4 +37,8 @@
 
 ## tutorial
 
-* [Page 4](tutorial/page-4.md)
+* [Accertamento Residenza](tutorial/accertamento-residenza.md)
+* [Partita IVA Verification](tutorial/partita-iva-verification.md)
+* [Fiscal Code Verification](tutorial/fiscal-code-verification.md)
+* [Digital Address Verification](tutorial/digital-address-verification.md)
+* [Verifica Accertamento Residenza](tutorial/verifica-accertamento-residenza.md)
