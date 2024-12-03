@@ -36,28 +36,6 @@ Esempio di response che gli EC devono fornire per questa casistica:
             "statusReason": "desc"
           }
         ]
-      },
-      {
-        "description": "Test PayOpt - Opzione 2 - CO-Obbligato 2",
-        "numberOfInstallments": 1,
-        "amount": 120,
-        "dueDate": "2024-10-30T23:59:59",
-        "validFrom": "2024-09-30T23:59:59",
-        "status": non pagato,
-        "statusReason": "desc",
-        "allCCP": "false",
-        "installments": [
-          {
-            "nav": "346000000880099993",
-            "iuv": "46000000880099993",
-            "amount": 120,
-            "description": "Test Opt Inst - unica opzione",
-            "dueDate": "2024-10-30T23:59:59",
-            "validFrom": "2024-09-30T23:59:59",
-            "status": non pagato,
-            "statusReason": "desc"
-          }
-        ]
       }
     ]
   }
