@@ -12,7 +12,7 @@ Questa nuova API espone l'elemento `timestamp` che rappresenta l'istante in cui 
 
 Nelle tabelle sottostanti sono riportati per ogni categoria di eventi la drescrione, se hanno collegato degli atti a volore legale (LegalFact) e i dettagli di maggior interesse contenuti nell'oggetto `details`.
 
-**NOTA**: le date sono espresse nel formato standard [ISO 8601](https://en.wikipedia.org/wiki/ISO\_8601), anche detta "Zulu time", che esprime la data UTC (es: 2024-02-29T11:44:17.511990926Z corrisponde alle 12:44:17s del 29/02/2024).
+**NOTA**: le date sono espresse nel formato standard [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601), anche detta "Zulu time", che esprime la data UTC (es: 2024-02-29T11:44:17.511990926Z corrisponde alle 12:44:17s del 29/02/2024).
 
 ## Eventi di timeline nella configurazione DEFAULT
 
@@ -62,7 +62,7 @@ Indica la ricezione di un esito ad un invio a domicilio digitale
 
 
 
-Per i dettagli delle codifiche di `deliveryFailureCause` e `deliveryDetailCode` si rimanda alla pagina [decodifiche-send\_digital.md](decodifiche-send\_digital.md "mention").
+Per i dettagli delle codifiche di `deliveryFailureCause` e `deliveryDetailCode` si rimanda alla pagina [decodifiche-send\_digital.md](decodifiche-send_digital.md "mention").
 
 **DIGITAL\_SUCCESS\_WORKFLOW**
 
@@ -104,7 +104,7 @@ Indica la ricezione di informazioni relative all'invio della raccomandata sempli
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | <ul><li><code>recIndex</code>: posizione del destinatario nell'array recipients</li><li><code>registeredLetterCode</code> : codice della lettera raccomandata</li><li><code>deliveryDetailCode</code>: codice del dettaglio dell'evento di progress</li></ul> |
 
-(\*) Per la decodifica dei codici di `deliveryDetailCode` all'interno dei details degli eventi si rimanda alla pagina [#decodifica-in-send\_analog\_progress](decodifiche-send\_analog.md#decodifica-in-send\_analog\_progress "mention")
+(\*) Per la decodifica dei codici di `deliveryDetailCode` all'interno dei details degli eventi si rimanda alla pagina [#decodifica-in-send\_analog\_progress](decodifiche-send_analog.md#decodifica-in-send_analog_progress "mention")
 
 ### Eventi del workflow Analogico <a href="#eventi-di-timeline-di-scelta-del-workflow-analogico" id="eventi-di-timeline-di-scelta-del-workflow-analogico"></a>
 
@@ -124,7 +124,7 @@ Ricezione esito dell'invio cartaceo
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | <ul><li><code>physicalAddress:</code> indirizzo fisico della spedizione</li><li><code>responseStatus:</code> contiene l’esito dell'invio cartaceo <em>(</em><code>OK / KO</code>)</li><li><code>notificationDate</code>: data di consegna o mancata consegna.</li><li><code>registeredLetterCode:</code>codice della lettera raccomandata</li><li><code>deliveryDetailCode:</code>codice del dettaglio esito invio cartaceo</li><li><code>deliveryFailureCause</code>: causa del fallimento della consegna</li><li><code>serviceLevel</code>: tipologia del prodotto inviato (<em>es: 890/AR)</em></li><li><code>newAddress</code>: Eventuale indirizzo fisico a seguito di indagine svolta in loco da parte dell'addetto al recapito postale</li><li><code>sentAttemptMade</code>: numero di tentativo (0 per il primo)</li></ul> |
 
-(\*) Per la decodifica dei codici di e `deliveryFailureCause` e `deliveryDetailCode` all'interno dei details degli eventi di SEND\_ANALOG\_FEEDBACK si rimanda alla pagina [decodifiche-send\_analog.md](decodifiche-send\_analog.md "mention")
+(\*) Per la decodifica dei codici di e `deliveryFailureCause` e `deliveryDetailCode` all'interno dei details degli eventi di SEND\_ANALOG\_FEEDBACK si rimanda alla pagina [decodifiche-send\_analog.md](decodifiche-send_analog.md "mention")
 
 **ANALOG\_SUCCESS\_WORKFLOW**
 
@@ -256,14 +256,15 @@ Indica un evento successivo relativo all'invio della PEC.
 
 Indica un evento successivo relativo all'invio cartaceo
 
-| attachments                                        |                    |                                                                                         |
-| -------------------------------------------------- | ------------------ | --------------------------------------------------------------------------------------- |
-| **deliveryDetailCode**                             | **documentType**   | Descrizione                                                                             |
-| `CON020`                                           | Copia Conforme AAR | Copia conforme all'originale dell'avviso di avvenuta ricezione (AAR)                    |
-| `RECRN001B`                                        | AR                 | Ricevuta di consegna                                                                    |
-| `RECRN002B`, `RECRN004B`, `RECRN002E`, `RECRN005B` | Plico              | Scansione Plico                                                                         |
-| `RECRN003B`                                        | AR                 | Avviso di ricevimento                                                                   |
-| `RECRN002E`                                        | Indagine           | Indagine in loco dell'addetto al recapito (questa spesso è inclusa nella Scansione del  |
+| attachments                                        |                    |                                                                                                                           |
+| -------------------------------------------------- | ------------------ | ------------------------------------------------------------------------------------------------------------------------- |
+| **deliveryDetailCode**                             | **documentType**   | Descrizione                                                                                                               |
+| `CON018`                                           | AAR                | Accettazione Recapitista - L’evento rappresenta l’accettazione della Distinta di presa in carico da parte del Recapitista |
+| `CON020`                                           | Copia Conforme AAR | Copia conforme all'originale dell'avviso di avvenuta ricezione (AAR)                                                      |
+| `RECRN001B`                                        | AR                 | Ricevuta di consegna                                                                                                      |
+| `RECRN002B`, `RECRN004B`, `RECRN002E`, `RECRN005B` | Plico              | Scansione Plico                                                                                                           |
+| `RECRN003B`                                        | AR                 | Avviso di ricevimento                                                                                                     |
+| `RECRN002E`                                        | Indagine           | Indagine in loco dell'addetto al recapito (questa spesso è inclusa nella Scansione del                                    |
 
 | details                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
