@@ -30,22 +30,19 @@ oppure
 
 Dopo aver concluso il processo di adesione a PDND Interoperabilità, è possibile aggiungere o rimuovere gli utenti con poteri di amministrazione, sempre fino ad un massimo di tre.
 
-{% hint style="info" %}
-Ulteriori Amministratori, oltre a quelli segnalati in fase di adesione, possono essere aggiunti direttamente dalla Dashboard dell’ente per l'ambiente di Collaudo, mentre per l'ambiente di Produzione bisognerà compilare i documenti allegati a fine pagina e inviarli alla PEC indicata.
-{% endhint %}
+Per farlo è necessario:
 
-A seconda del percorso che si vuole intraprendere è necessario:
+1. tornare all'interno dell'Area Riservata;
+2. cliccare sulla voce Utenti e in seguito sul bottone Crea nuovo;
+3. inserire i dati della persona che si vuole nominare e selezionare il ruolo.
 
-1. scaricare uno o entrambi dei seguenti template;
-2. compilarli con i dati della persona per cui si sta inoltrando la richiesta;
-3. far firmare digitalmente il documento tramite formato CAdES alla persona indicata come Legale Rappresentante;
-4. inviare il documento dal domicilio digitale dell'ente, indicato all'interno del catalogo IPA, alla PEC: selfcare@pec.pagopa.it
+In questo caso quando si passa il cursore sopra l'icona posizionata a destra e in corrispondenza del ruolo di "Amministratore", l'utente viene informato che per la sua nomina è necessaria la firma del Legale Rappresentante. \
+\
+I dati anagrafici dell'attuale Legale Rappresentante verranno presentati all'utente alla fine del processo di nomina del nuovo Amministratore.&#x20;
 
-{% hint style="info" %}
-Bisogna compilare un documento per ogni singola utenza che si vuole aggiungere o rimuovere. Tutti i documenti possono essere inviati allegandoli alla stessa PEC.
-{% endhint %}
+L'utente ha la possibilità di confermare i dati presentati oppure di modificarli, inserendo quindi un Legale Rappresentante differente. Se il Legale Rappresentante è diverso da quello in memoria si aprirà una schermata per confermare la scelta.\
+\
+Dopo aver cliccato su "Invia richiesta" o aver confermato la scelta di inserire un Legale Rappresentante differente, viene inviata una PEC all'indirizzo email dell'ente con le istruzioni per completare la richiesta. \
+Cliccando sul pulsante "Completa la richiesta" presente nella PEC, l'utente ha la possibilità di scaricare il modulo di nomina e ricaricarlo, dopo avervi fatto apporre la firma digitale del Legale Rappresentante in formato p7m.&#x20;
 
-{% file src="../.gitbook/assets/Nomina Operatore Amministrativo_PDND.pdf" %}
-
-{% file src="../.gitbook/assets/Revoca Operatore Amministativo_PDND.pdf" %}
-
+Se il caricamento va a buon fine, il nuovo Amministratore viene aggiunto correttamente.

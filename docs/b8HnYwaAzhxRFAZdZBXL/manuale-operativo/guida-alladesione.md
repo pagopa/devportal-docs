@@ -47,15 +47,7 @@ Indica qual è la tipologia dell’Ente per il quale si sta operando ai sensi de
 
 ### 4. Seleziona l'ente per il quale effettuare l'adesione
 
-<div>
-
-<img src="../.gitbook/assets/selfcare.pagopa.it_onboarding_prod-interop(Macbook Pro – Screenshot).png" alt="La schermata di selezione dell&#x27;ente per PA e GSP">
-
- 
-
-<figure><img src="../.gitbook/assets/Screenshot 2024-10-09 alle 09.36.09.png" alt=""><figcaption><p>La schermata di selezione dell'ente per SCP</p></figcaption></figure>
-
-</div>
+<div><img src="../.gitbook/assets/selfcare.pagopa.it_onboarding_prod-interop(Macbook Pro – Screenshot).png" alt="La schermata di selezione dell&#x27;ente per PA e GSP"> <figure><img src="../.gitbook/assets/Screenshot 2024-10-09 alle 09.36.09.png" alt=""><figcaption><p>La schermata di selezione dell'ente per SCP</p></figcaption></figure></div>
 
 Per PA e GSP: seleziona l'ente dal campo di auto-completamento "Cerca ente". L'elenco degli enti disponibili fa riferimento al Catalogo IPA. Qualora il proprio ente non fosse presente nell'elenco, clicca sul link disponibile sotto il campo di input per scoprire come accreditarlo.
 
@@ -64,7 +56,7 @@ Per SCP: inserisci il codice fiscale dell'ente, il nome apparirà una volta clic
 
 ### 5. Inserisci i dati dell'ente
 
-![La schermata nella quale indicare i dati dell'ente, abitualmente precompilata con le informazioni che vengono dal catalogo IPA](<../.gitbook/assets/uat.selfcare.pagopa.it\_onboarding\_prod-interop(Macbook Pro – Screenshot) (2).png>)
+![La schermata nella quale indicare i dati dell'ente, abitualmente precompilata con le informazioni che vengono dal catalogo IPA](<../.gitbook/assets/uat.selfcare.pagopa.it_onboarding_prod-interop(Macbook Pro – Screenshot) (2).png>)
 
 Tutti i campi sopra indicati appariranno precompilati quando disponibili. I campi _Ragione sociale_, _Sede legale_, _Indirizzo PEC_, _Codice fiscale_ e _Partita IVA_ non saranno modificabili se la fonte di provenienza dell'informazione è IPA. È invece possibile inserire una nuova partita IVA in caso non coincida con il codice fiscale, cliccando sulla spunta apposita.
 
@@ -72,13 +64,13 @@ Il campo relativo al _Codice destinatario_ è invece sempre modificabile.
 
 ### 6. Indica il Legale Rappresentante
 
-![La schermata nella quale si inseriscono le informazioni del legale rappresentante dell'ente](<../.gitbook/assets/uat.selfcare.pagopa.it\_onboarding\_prod-interop(Macbook Pro – Screenshot) (3).png>)
+![La schermata nella quale si inseriscono le informazioni del legale rappresentante dell'ente](<../.gitbook/assets/uat.selfcare.pagopa.it_onboarding_prod-interop(Macbook Pro – Screenshot) (3).png>)
 
 Inserisci i dati richiesti per la sezione di Legale Rappresentante. Con questa figura si identifica non necessariamente il vertice dell'ente; può essere il rappresentante pro tempore o un procuratore munito dei necessari poteri di firma. La cosa importante è che i dati della persona qui indicata corrispondano con quelli della persona che apporrà la firma digitale al documento di adesione indicato al [punto 8](guida-alladesione.md#8.-fai-firmare-digitalmente-laccordo-al-legale-rappresentante).
 
 ### 7. Indica gli amministratori per Interoperabilità
 
-![La schermata nella quale si inseriscono i dati degli utenti con privilegi di amministrazione](<../.gitbook/assets/uat.selfcare.pagopa.it\_onboarding\_prod-interop(Macbook Pro – Screenshot) (4).png>)
+![La schermata nella quale si inseriscono i dati degli utenti con privilegi di amministrazione](<../.gitbook/assets/uat.selfcare.pagopa.it_onboarding_prod-interop(Macbook Pro – Screenshot) (4).png>)
 
 Le persone che inserisci in questa schermata avranno la qualifica di _Delegato_ all'interno di PDND Interoperabilità e avranno pieni poteri di amministrazione. È la stessa figura che sulle linee guida AgID è indicata come _Operatore Amministrativo_. Puoi inserirne fino a 3 amministratori per l'ambiente di produzione cliccando su _Aggiungi un altro Amministratore_.
 
@@ -130,21 +122,19 @@ Il secondo link presente nella mail ti permette di annullare la richiesta di ade
 
 Dopo aver concluso il processo di adesione a PDND Interoperabilità, è possibile aggiungere o rimuovere gli utenti con poteri di amministrazione, sempre fino ad un massimo di tre.
 
-A seconda del percorso che si vuole intraprendere è necessario:
+Per farlo è necessario:
 
-1. scaricare uno o entrambi dei seguenti template;
-2. compilarli con i dati della persona per cui si sta inoltrando la richiesta;
-3. far firmare digitalmente il documento tramite formato CAdES alla persona indicata come Legale Rappresentante;
-4. inviare il documento dal domicilio digitale dell'ente, indicato all'interno del catalogo IPA, alla PEC: selfcare@pec.pagopa.it
+1. tornare all'interno dell'Area Riservata;
+2. cliccare sulla voce Utenti e in seguito sul bottone Crea nuovo;
+3. inserire i dati della persona che si vuole nominare e selezionare il ruolo.
 
-{% hint style="info" %}
-Bisogna compilare un documento per ogni singola utenza che si vuole aggiungere o rimuovere. Tutti i documenti possono essere inviati allegandoli alla stessa PEC.
-{% endhint %}
+In questo caso quando si passa il cursore sopra l'icona posizionata a destra e in corrispondenza del ruolo di "Amministratore", l'utente viene informato che per la sua nomina è necessaria la firma del Legale Rappresentante. \
+\
+I dati anagrafici dell'attuale Legale Rappresentante verranno presentati all'utente alla fine del processo di nomina del nuovo Amministratore.&#x20;
 
-{% file src="../.gitbook/assets/Nomina Operatore Amministrativo_PDND.pdf" %}
-Template per la nomina di una figura con poteri di amministrazione
-{% endfile %}
+L'utente ha la possibilità di confermare i dati presentati oppure di modificarli, inserendo quindi un Legale Rappresentante differente. Se il Legale Rappresentante è diverso da quello in memoria si aprirà una schermata per confermare la scelta.\
+\
+Dopo aver cliccato su "Invia richiesta" o aver confermato la scelta di inserire un Legale Rappresentante differente, viene inviata una PEC all'indirizzo email dell'ente con le istruzioni per completare la richiesta. \
+Cliccando sul pulsante "Completa la richiesta" presente nella PEC, l'utente ha la possibilità di scaricare il modulo di nomina e ricaricarlo, dopo avervi fatto apporre la firma digitale del Legale Rappresentante in formato p7m.&#x20;
 
-{% file src="../.gitbook/assets/Revoca Operatore Amministativo_PDND.pdf" %}
-Template per la revoca di una figura con poteri di amministrazione
-{% endfile %}
+Se il caricamento va a buon fine, il nuovo Amministratore viene aggiunto correttamente.
