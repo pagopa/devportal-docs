@@ -1,14 +1,12 @@
 # OpenAPI test
 
-{% swagger src="../.gitbook/assets/pets.yaml" path="/pets" method="get" %}
-[pets.yaml](../.gitbook/assets/pets.yaml)
+{% swagger src="../.gitbook/assets/residence_example.yaml" path="/residence-verification/data-preparation" method="post" %}
+[residence_example.yaml](../.gitbook/assets/residence_example.yaml)
 {% endswagger %}
 
-{% swagger src="../.gitbook/assets/pets.yaml" path="/pets" method="post" %}
-[pets.yaml](../.gitbook/assets/pets.yaml)
-{% endswagger %}
 
-{% swagger src="../.gitbook/assets/pets.yaml" path="/pets/{petId}" method="get" %}
+
+{% swagger src="../.gitbook/assets/pets.yaml" path="/pet" method="post" %}
 [pets.yaml](../.gitbook/assets/pets.yaml)
 {% endswagger %}
 
