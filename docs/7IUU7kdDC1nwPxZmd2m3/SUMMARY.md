@@ -7,4 +7,4 @@
 
 ## Group 1
 
-* [Pagina 4 nel gruppo](group-1/pagina-4-nel-gruppo.md)
+* [OpenAPI test](group-1/pagina-4-nel-gruppo.md)
