@@ -1,6 +1,9 @@
 ---
-description: descrizione
-tags: ["easy", "API", "documentation"]
+tags:
+  - easy
+  - API
+  - documentation
+description: description
 ---
 
 # OpenAPI test
@@ -9,9 +12,6 @@ tags: ["easy", "API", "documentation"]
 [residence_example.yaml](../.gitbook/assets/residence_example.yaml)
 {% endswagger %}
 
-
-
 {% swagger src="../.gitbook/assets/pets.yaml" path="/pet" method="post" %}
 [pets.yaml](../.gitbook/assets/pets.yaml)
 {% endswagger %}
-
