@@ -1,3 +1,7 @@
+---
+description: descrizione
+---
+
 # OpenAPI test
 
 {% swagger src="../.gitbook/assets/residence_example.yaml" path="/residence-verification/data-preparation" method="post" %}
