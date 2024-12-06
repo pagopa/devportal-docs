@@ -1,5 +1,6 @@
 ---
 description: descrizione
+tags: ["easy", "API", "documentation"]
 ---
 
 # OpenAPI test
