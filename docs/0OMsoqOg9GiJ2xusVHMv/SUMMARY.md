@@ -72,18 +72,22 @@
 * [Incidenti stradali](mobilita-e-trasporti/incidenti-stradali.md)
 * [Mobilità sostenibile](mobilita-e-trasporti/mobilita-sostenibile.md)
 * [Multe per violazioni al Codice della Strada](mobilita-e-trasporti/multe-per-violazioni-al-codice-della-strada.md)
+* [Permessi per sosta e circolazione](mobilita-e-trasporti/permessi-per-sosta-e-circolazione.md)
 * [Rimozioni veicoli](mobilita-e-trasporti/rimozioni-veicoli.md)
 * [Traffico](mobilita-e-trasporti/traffico.md)
 
 ## 💰 redditi, patrimonio e fisco
 
 * [Agevolazioni tributarie](redditi-patrimonio-e-fisco/in-arrivo.md)
+* [Depositi cauzionali](redditi-patrimonio-e-fisco/depositi-cauzionali.md)
 * [Donazioni](redditi-patrimonio-e-fisco/donazioni.md)
 * [Riscossione coattiva e recupero crediti](redditi-patrimonio-e-fisco/riscossione-coattiva-e-recupero-crediti.md)
 
 ## 🏥 salute
 
-* [In arrivo](salute/in-arrivo.md)
+* [Prevenzione](salute/in-arrivo.md)
+* [Vaccinazioni](salute/vaccinazioni.md)
+* [Prestazioni sanitarie](salute/prestazioni-sanitarie.md)
 
 ## 🗂️ servizi anagrafici e civici
 
@@ -117,12 +121,20 @@
 
 ## 🏞️ suolo, spazi e beni pubblici
 
-* [In arrivo](suolo-spazi-e-beni-pubblici/in-arrivo.md)
+* [Alienazione beni mobili e immobili](suolo-spazi-e-beni-pubblici/in-arrivo.md)
+* [Canone unico patrimoniale](suolo-spazi-e-beni-pubblici/canone-unico-patrimoniale.md)
+* [Legname](suolo-spazi-e-beni-pubblici/legname.md)
+* [Locazione locali e impianti comunali](suolo-spazi-e-beni-pubblici/locazione-locali-e-impianti-comunali.md)
+* [Patrimonio comunale](suolo-spazi-e-beni-pubblici/patrimonio-comunale.md)
+* [Segnalazioni, suggerimenti e reclami](suolo-spazi-e-beni-pubblici/segnalazioni-suggerimenti-e-reclami.md)
 
 ## 🌏 viaggi e turismo
 
-* [In arrivo](viaggi-e-turismo/in-arrivo.md)
+* [Campeggi](viaggi-e-turismo/in-arrivo.md)
+* [Imposta di soggiorno](viaggi-e-turismo/imposta-di-soggiorno.md)
 
 ## 🧰 vita lavorativa
 
-* [In arrivo](vita-lavorativa/in-arrivo.md)
+* [Bandi di concorso](vita-lavorativa/in-arrivo.md)
+* [Cedolino per dipendenti](vita-lavorativa/cedolino-per-dipendenti.md)
+* [Mensa e buoni pasto per dipendenti](vita-lavorativa/mensa-e-buoni-pasto-per-dipendenti.md)

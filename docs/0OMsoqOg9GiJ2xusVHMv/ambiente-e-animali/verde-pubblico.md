@@ -5,15 +5,15 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 * fornire alle cittadine e ai cittadini un riferimento per la ricezione delle comunicazioni riguardanti gli interventi nelle aree di verde pubblico;
 * monitorare e gestire tempestivamente le richieste e le comunicazioni per l’erogazione del servizio.
 
-[**Scopri tutti i benefici di integrarsi con IO →** ](https://docs.pagopa.it/manuale-servizi/lapp-io/cose-io-e-qual-e-il-suo-obiettivo#perche-un-ente-dovrebbe-integrarsi-con-io)
+[**Scopri tutti i benefici di integrarsi con IO →**](https://docs.pagopa.it/manuale-servizi/lapp-io/cose-io-e-qual-e-il-suo-obiettivo#perche-un-ente-dovrebbe-integrarsi-con-io)
 
 ## Scheda servizio <a href="#scheda-servizio" id="scheda-servizio"></a>
 
-<table data-header-hidden><thead><tr><th width="373"></th><th></th></tr></thead><tbody><tr><td><strong>Nome servizio</strong></td><td>Verde pubblico</td></tr><tr><td><strong>Argomento</strong></td><td>Ambiente e animali</td></tr><tr><td><strong>Descrizione del servizio</strong></td><td><p>Il servizio riguarda gli interventi nelle aree di verde pubblico.</p><p></p><p>Tramite IO potrai:</p><ul><li>ricevere comunicazioni e aggiornamenti sulle prenotazioni o sulle richieste di intervento;</li><li>ricevere informazioni sull’abbattimento di piante, siepi o arbusti;</li><li>ricevere eventuali avvisi di pagamento e pagarli in app;</li><li>ricevere altre comunicazioni.</li></ul></td></tr><tr><td><strong>Pulsante</strong></td><td>Richiedi autorizzazione</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="373"></th><th></th></tr></thead><tbody><tr><td><strong>Nome servizio</strong></td><td>Verde pubblico</td></tr><tr><td><strong>Argomento</strong></td><td>Ambiente e animali</td></tr><tr><td><strong>Descrizione del servizio</strong></td><td><p>Il servizio riguarda gli interventi nelle aree di verde pubblico.</p><p>Tramite IO potrai:</p><ul><li>ricevere comunicazioni e aggiornamenti sulle prenotazioni o sulle richieste di intervento;</li><li>ricevere informazioni sull’abbattimento di piante, siepi o arbusti;</li><li>ricevere eventuali avvisi di pagamento e pagarli in app;</li><li>ricevere altre comunicazioni.</li></ul></td></tr><tr><td><strong>Pulsante</strong></td><td>Richiedi autorizzazione</td></tr></tbody></table>
 
 ## Ciclo di vita del servizio
 
-<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Verde pubblico</strong></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (38).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Verde pubblico</strong></p></figcaption></figure>
 
 ## Messaggi del servizio
 
@@ -33,7 +33,7 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 **🖋 Titolo del messaggio:** Richiesta di integrazione
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Per elaborare la tua richiesta di autorizzazione per \<oggetto dell’autorizzazione> abbiamo bisogno di ricevere entro il \<gg/mm/aaaa> altri documenti.
 
@@ -61,7 +61,7 @@ Consulta il riepilogo della richiesta, \[visita questo sito]\(URL).
 
 La tua richiesta di autorizzazione per \<oggetto dell’autorizzazione> è stata accolta.
 
-Per ulteriori informazioni, \[visita questo sito]\(URL).&#x20;
+Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 **🪄 Pulsante:** n/a
 
@@ -175,13 +175,13 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 <summary>Richiesta di autorizzazione manomissione: integrazione documentazione</summary>
 
-**🖋  Titolo del messaggio:** Richiesta di integrazione
+**🖋 Titolo del messaggio:** Richiesta di integrazione
 
 🗒 **Testo del messaggio:**
 
 Per elaborare la tua richiesta di autorizzazione per \<oggetto della richiesta>, abbiamo bisogno di ricevere entro il \<gg/mm/aaaa> altri documenti.
 
-Consulta il riepilogo della richiesta, \[visita questo sito]\(URL).&#x20;
+Consulta il riepilogo della richiesta, \[visita questo sito]\(URL).
 
 **🪄 Pulsante:** Aggiungi documenti
 
@@ -203,7 +203,7 @@ Consulta il riepilogo della richiesta, \[visita questo sito]\(URL).&#x20;
 
 ***
 
-**🖋  Titolo del messaggio:** Hai un nuovo avviso di pagamento
+**🖋 Titolo del messaggio:** Hai un nuovo avviso di pagamento
 
 🗒 **Testo del messaggio:**
 
@@ -213,7 +213,7 @@ C'è un avviso da pagare intestato a \<nome> \<cognome> e relativo a \<causale>:
 
 **Entro il:** \<gg/mm/aaaa>
 
-Puoi pagare direttamente in app premendo “Vedi Avviso”, oppure tramite tutti i canali di pagamento della piattaforma pagoPA e le altre modalità di pagamento offerte dell'ente creditore.
+Puoi pagare direttamente in app premendo “Paga”, oppure tramite tutti i canali di pagamento della piattaforma pagoPA e le altre modalità di pagamento offerte dell'ente creditore.
 
 Se hai già provveduto a pagare l'avviso, ignora questo messaggio.
 
@@ -221,7 +221,7 @@ Per maggiori informazioni o per richiedere assistenza, contattaci tramite i cana
 
 In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio potrebbe subire variazioni.
 
-**🪄  Pulsante:** Vedi Avviso
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
 
 ***
 
@@ -234,7 +234,7 @@ In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio p
 </details>
 
 {% hint style="info" %}
-**Promemoria automatici — **<mark style="color:blue;">**Messaggi Premium**</mark>
+**Promemoria automatici —** <mark style="color:blue;">**Messaggi Premium**</mark>
 
 Impostando il messaggio di _Avviso di pagamento_ come Messaggio Premium, disponibile a seconda della tipologia di contratto sottoscritto dall’ente, non è necessario inviare il seguente messaggio di promemoria.
 
@@ -253,7 +253,7 @@ Il tuo pagamento per \<causale> sta per scadere.
 
 Se hai già provveduto a pagare l'avviso, ignora questo messaggio.
 
-**🪄  Pulsante:** Vedi Avviso
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
 
 ***
 
@@ -347,7 +347,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio:**
 
-La tua richiesta di \<proroga/sospensione> dei lavori di \<oggetto dei lavori>  in \<indirizzo> non è stata accolta.
+La tua richiesta di \<proroga/sospensione> dei lavori di \<oggetto dei lavori> in \<indirizzo> non è stata accolta.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -383,7 +383,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 ***
 
-**Destinatari:**  I cittadini residenti nell’area di azione del servizio che hanno svolto lavori di manomissione di aree verdi pubbliche autorizzati dall’ente.
+**Destinatari:** I cittadini residenti nell’area di azione del servizio che hanno svolto lavori di manomissione di aree verdi pubbliche autorizzati dall’ente.
 
 **Quando inviarlo:** Quando, terminati i lavori, l’ente fissa una data per il sopralluogo.
 
@@ -403,7 +403,7 @@ IO è integrata con SEND - Servizio Notifiche Digitale, per l'invio di comunicaz
 {% hint style="info" %}
 **Un modello da personalizzare**
 
-Le procedure di questo servizio variano molto da ente a ente. Consigliamo di utilizzare i testi dei messaggi come un punto di partenza e di aggiungere ulteriori informazioni.&#x20;
+Le procedure di questo servizio variano molto da ente a ente. Consigliamo di utilizzare i testi dei messaggi come un punto di partenza e di aggiungere ulteriori informazioni.
 
 Il modello è un esempio che non ha carattere vincolante per l’ente e sul quale la Società declina qualsiasi responsabilità, avendo valore esemplificativo.
 

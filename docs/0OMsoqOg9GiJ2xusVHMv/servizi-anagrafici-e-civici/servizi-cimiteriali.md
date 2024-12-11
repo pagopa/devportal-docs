@@ -25,11 +25,11 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 {% hint style="warning" %}
 **Trattamento dati sensibili**
 
-I messaggi che questo servizio invia al cittadino spesso includono dati sensibili come lo stato delle pratiche relative a richieste per servizi cimiteriali. Per questo, il servizio è considerato come sensibile e richiede l'utilizzo dell'attributo `require_secure_channels` la cui integrazione è spiegata all'interno della [Guida Tecnica all'Integrazione dei Servizi. ](https://app.gitbook.com/s/mzwjFv2XaE1mjbz7I8gt/funzionalita/pubblicare-un-servizio/dati-obbligatori/attributi#require\_secure\_channels)
+I messaggi che questo servizio invia al cittadino spesso includono dati sensibili come lo stato delle pratiche relative a richieste per servizi cimiteriali. Per questo, il servizio è considerato come sensibile e richiede l'utilizzo dell'attributo `require_secure_channels` la cui integrazione è spiegata all'interno della [Guida Tecnica all'Integrazione dei Servizi. ](https://app.gitbook.com/s/mzwjFv2XaE1mjbz7I8gt/funzionalita/pubblicare-un-servizio/dati-obbligatori/attributi#require_secure_channels)
 
 L'utilizzo di questo attributo permette di anonimizzare le notifiche push e mail, se previste dalle impostazioni del cittadino.\
 \
-Secondo quanto disposto dal paragrafo [7.3 delle Linee Guida di IO](https://www.agid.gov.it/sites/default/files/repository\_files/lg\_punto\_accesso\_telematico\_servizi\_pa\_3112021.pdf), **non è ammesso** includere nel titolo dati sensibili, mentre deve essere **limitato** al minimo l'utilizzo all'interno del corpo del messaggio,&#x20;
+Secondo quanto disposto dal paragrafo [7.3 delle Linee Guida di IO](https://www.agid.gov.it/sites/default/files/repository_files/lg_punto_accesso_telematico_servizi_pa_3112021.pdf), **non è ammesso** includere nel titolo dati sensibili, mentre deve essere **limitato** al minimo l'utilizzo all'interno del corpo del messaggio,&#x20;
 
 Tra i dati sensibili rientrano, ad esempio:
 
@@ -129,15 +129,15 @@ C'è un avviso da pagare intestato a \<nome e cognome> e relativo a \<causale>.
 
 **Entro il:** \<gg/mm/aaaa>
 
-Puoi pagare direttamente in app premendo “Vedi Avviso”, oppure tramite tutti i canali di pagamento della piattaforma pagoPA e le altre modalità di pagamento offerte dell'ente creditore.
+Puoi pagare direttamente in app premendo “Paga”, oppure tramite tutti i canali di pagamento della piattaforma pagoPA e le altre modalità di pagamento offerte dell'ente creditore.
 
-Se hai già pagato ignora pure questo messaggio.&#x20;
+Se hai già provveduto a pagare l'avviso, ignora questo messaggio.
 
 Per maggiori informazioni o per richiedere assistenza, contattaci tramite i canali che trovi nella scheda servizio.
 
 In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio potrebbe subire variazioni.
 
-**🪄 Pulsante**: Vedi Avviso
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
 
 ***
 
@@ -150,7 +150,7 @@ In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio p
 </details>
 
 {% hint style="info" %}
-**Promemoria automatici — **<mark style="color:blue;">**Messaggi Premium**</mark>
+**Promemoria automatici —&#x20;**<mark style="color:blue;">**Messaggi Premium**</mark>
 
 Impostando il messaggio di _Avviso di pagamento_ come Messaggio Premium, disponibile a seconda della tipologia di contratto sottoscritto dall’ente, non è necessario inviare il seguente messaggio di promemoria.
 
@@ -169,7 +169,7 @@ Il tuo pagamento per \<servizio> sta per scadere.
 
 Se hai già provveduto a pagare l’avviso ignora questo messaggio.
 
-**🪄 Pulsante**: Vedi Avviso
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
 
 ***
 
@@ -199,7 +199,7 @@ Il tuo pagamento per \<servizio> è scaduto il \<gg/mm/aaaa>.
 
 Se hai già provveduto a pagare l’avviso ignora questo messaggio.
 
-**🪄 Pulsante**: Vedi Avviso
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
 
 ***
 
@@ -301,15 +301,15 @@ C'è un avviso da pagare intestato a \<nome e cognome> e relativo a \<causale>.
 
 **Entro il:** \<gg/mm/aaaa>
 
-Puoi pagare direttamente in app premendo “Vedi Avviso”, oppure tramite tutti i canali di pagamento della piattaforma pagoPA e le altre modalità di pagamento offerte dell'ente creditore.
+Puoi pagare direttamente in app premendo “Paga”, oppure tramite tutti i canali di pagamento della piattaforma pagoPA e le altre modalità di pagamento offerte dell'ente creditore.
 
-Se hai già provveduto a pagare l'avviso ignora questo messaggio.
+Se hai già provveduto a pagare l'avviso, ignora questo messaggio.
 
 Per maggiori informazioni o per richiedere assistenza, contattaci tramite i canali che trovi nella scheda servizio.
 
 In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio potrebbe subire variazioni.
 
-**🪄 Pulsante**: Vedi Avviso
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
 
 ***
 
@@ -322,7 +322,7 @@ In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio p
 </details>
 
 {% hint style="info" %}
-**Promemoria automatici — **<mark style="color:blue;">**Messaggi Premium**</mark>
+**Promemoria automatici —&#x20;**<mark style="color:blue;">**Messaggi Premium**</mark>
 
 Impostando il messaggio di _Avviso di pagamento_ come Messaggio Premium, disponibile a seconda della tipologia di contratto sottoscritto dall’ente, non è necessario inviare il seguente messaggio di promemoria.
 
@@ -341,7 +341,7 @@ Il tuo pagamento per \<nome servizio> sta per scadere.
 
 Se hai già provveduto a pagare l’avviso ignora questo messaggio.
 
-**🪄 Pulsante**: Vedi Avviso
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
 
 ***
 
@@ -371,7 +371,7 @@ Il tuo pagamento per \<nome servizio> è scaduto il \<gg/mm/aaaa>.
 
 Se hai già provveduto a pagare l’avviso ignora questo messaggio.
 
-**🪄 Pulsante**: Vedi Avviso
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
 
 ***
 
@@ -431,17 +431,17 @@ C'è un avviso da pagare intestato a \<nome e cognome> e relativo a \<causale>.
 
 **Entro il:** \<gg/mm/aaaa>
 
-Puoi pagare direttamente in app premendo “Vedi Avviso”, oppure tramite tutti i canali di pagamento della piattaforma pagoPA e le altre modalità di pagamento offerte dell'ente creditore.
+Puoi pagare direttamente in app premendo “Paga”, oppure tramite tutti i canali di pagamento della piattaforma pagoPA e le altre modalità di pagamento offerte dell'ente creditore.
 
 \[Se previsto] È possibile richiedere la domiciliazione delle rette direttamente sul tuo conto corrente. Per maggiori informazioni, \[visita questo sito]\(URL).&#x20;
 
-Se hai già pagato o se hai richiesto la domiciliazione sul conto corrente, ignora pure questo messaggio.&#x20;
+Se hai già provveduto a pagare l'avviso, ignora questo messaggio.
 
 Per maggiori informazioni o per richiedere assistenza, contattaci tramite i canali che trovi nella scheda servizio.
 
 In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio potrebbe subire variazioni.
 
-**🪄 Pulsante**: Vedi Avviso
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
 
 ***
 
@@ -454,7 +454,7 @@ In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio p
 </details>
 
 {% hint style="info" %}
-**Promemoria automatici — **<mark style="color:blue;">**Messaggi Premium**</mark>
+**Promemoria automatici —&#x20;**<mark style="color:blue;">**Messaggi Premium**</mark>
 
 Impostando il messaggio di _Avviso di pagamento_ come Messaggio Premium, disponibile a seconda della tipologia di contratto sottoscritto dall’ente, non è necessario inviare il seguente messaggio di promemoria.
 
@@ -473,7 +473,7 @@ Il tuo pagamento per \<servizio> sta per scadere.
 
 Se hai già provveduto a pagare l’avviso o se hai richiesto la domiciliazione delle rette sul conto corrente, ignora questo messaggio.
 
-**🪄 Pulsante**: Vedi Avviso
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
 
 ***
 
@@ -503,7 +503,7 @@ Il tuo pagamento per \<nome servizio> è scaduto il \<gg/mm/aaaa>.
 
 Se hai già provveduto a pagare l’avviso, ignora questo messaggio.
 
-**🪄 Pulsante**: Vedi Avviso
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
 
 ***
 
@@ -607,7 +607,7 @@ C'è un avviso da pagare intestato a \<nome e cognome> e relativo a \<causale>.
 
 **Entro il:** \<gg/mm/aaaa>
 
-Puoi pagare direttamente in app premendo “Vedi Avviso”, oppure tramite tutti i canali di pagamento della piattaforma pagoPA e le altre modalità di pagamento offerte dell'ente creditore.
+Puoi pagare direttamente in app premendo “Paga”, oppure tramite tutti i canali di pagamento della piattaforma pagoPA e le altre modalità di pagamento offerte dell'ente creditore.
 
 \[Se previsto] È possibile richiedere la domiciliazione delle rette direttamente sul tuo conto corrente. Per maggiori informazioni, \[visita questo sito]\(URL).
 
@@ -617,7 +617,7 @@ Per maggiori informazioni o per richiedere assistenza, contattaci tramite i cana
 
 In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio potrebbe subire variazioni.
 
-**🪄 Pulsante**: Vedi Avviso
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
 
 ***
 
@@ -630,7 +630,7 @@ In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio p
 </details>
 
 {% hint style="info" %}
-**Promemoria automatici — **<mark style="color:blue;">**Messaggi Premium**</mark>
+**Promemoria automatici —&#x20;**<mark style="color:blue;">**Messaggi Premium**</mark>
 
 Impostando il messaggio di _Avviso di pagamento_ come Messaggio Premium, disponibile a seconda della tipologia di contratto sottoscritto dall’ente, non è necessario inviare il seguente messaggio di promemoria.
 
@@ -649,7 +649,7 @@ Il tuo pagamento per \<nome servizio> sta per scadere.
 
 Se hai già provveduto a pagare l’avviso o se hai richiesto la domiciliazione delle rette sul conto corrente, ignora questo messaggio.
 
-**🪄 Pulsante**: Vedi Avviso
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
 
 ***
 
@@ -679,7 +679,7 @@ Il tuo pagamento per \<nome servizio> è scaduto il \<gg/mm/aaaa>.
 
 Se hai già provveduto a pagare l’avviso, ignora questo messaggio.
 
-**🪄 Pulsante**: Vedi Avviso
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
 
 ***
 
@@ -789,7 +789,7 @@ C'è un avviso da pagare intestato a \<nome e cognome> e relativo a \<causale>.
 
 **Entro il:** \<gg/mm/aaaa>
 
-Puoi pagare direttamente in app premendo “Vedi Avviso”, oppure tramite tutti i canali di pagamento della piattaforma pagoPA e le altre modalità di pagamento offerte dell'ente creditore.
+Puoi pagare direttamente in app premendo “Paga”, oppure tramite tutti i canali di pagamento della piattaforma pagoPA e le altre modalità di pagamento offerte dell'ente creditore.
 
 \[Se previsto] È possibile richiedere la domiciliazione delle rette direttamente sul tuo conto corrente. Per maggiori informazioni, \[visita questo sito]\(URL).&#x20;
 
@@ -799,7 +799,7 @@ Per maggiori informazioni o per richiedere assistenza, contattaci tramite i cana
 
 In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio potrebbe subire variazioni.
 
-**🪄 Pulsante**: Vedi Avviso
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
 
 ***
 
@@ -812,7 +812,7 @@ In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio p
 </details>
 
 {% hint style="info" %}
-**Promemoria automatici — **<mark style="color:blue;">**Messaggi Premium**</mark>
+**Promemoria automatici —&#x20;**<mark style="color:blue;">**Messaggi Premium**</mark>
 
 Impostando il messaggio di _Avviso di pagamento_ come Messaggio Premium, disponibile a seconda della tipologia di contratto sottoscritto dall’ente, non è necessario inviare il seguente messaggio di promemoria.
 
@@ -831,7 +831,7 @@ Il tuo pagamento per \<nome servizio> sta per scadere.
 
 Se hai già provveduto a pagare l’avviso o se hai richiesto la domiciliazione delle rette sul conto corrente, ignora questo messaggio.
 
-**🪄 Pulsante**: Vedi Avviso
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
 
 ***
 
@@ -861,7 +861,7 @@ Il tuo pagamento per \<nome servizio> è scaduto il \<gg/mm/aaaa>.
 
 Se hai già provveduto a pagare l’avviso ignora questo messaggio.
 
-**🪄 Pulsante**: Vedi Avviso
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
 
 ***
 

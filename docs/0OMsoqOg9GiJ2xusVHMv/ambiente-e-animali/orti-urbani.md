@@ -5,15 +5,15 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 * fornire alle cittadine e ai cittadini un riferimento per la ricezione delle comunicazioni riguardanti gli orti urbani;
 * monitorare e gestire tempestivamente le richieste e le comunicazioni per l’erogazione del servizio.
 
-[**Scopri tutti i benefici di integrarsi con IO →** ](https://docs.pagopa.it/manuale-servizi/lapp-io/cose-io-e-qual-e-il-suo-obiettivo#perche-un-ente-dovrebbe-integrarsi-con-io)
+[**Scopri tutti i benefici di integrarsi con IO →**](https://docs.pagopa.it/manuale-servizi/lapp-io/cose-io-e-qual-e-il-suo-obiettivo#perche-un-ente-dovrebbe-integrarsi-con-io)
 
 ## Scheda servizio <a href="#scheda-servizio" id="scheda-servizio"></a>
 
-<table data-header-hidden><thead><tr><th width="373"></th><th></th></tr></thead><tbody><tr><td><strong>Nome servizio</strong></td><td>Orti urbani</td></tr><tr><td><strong>Argomento</strong></td><td>Ambiente e animali</td></tr><tr><td><strong>Descrizione del servizio</strong></td><td><p>Il servizio riguarda gli orti urbani.</p><p></p><p>Tramite IO potrai:</p><ul><li>ricevere informazioni sulle modalità di assegnazione degli orti urbani;</li><li>ricevere comunicazioni e aggiornamenti sulle richieste presentate;</li><li>ricevere eventuali avvisi di pagamento e pagarli in app;</li><li>ricevere altre comunicazioni.</li></ul></td></tr><tr><td><strong>Pulsante</strong></td><td>Vedi bandi in corso</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="373"></th><th></th></tr></thead><tbody><tr><td><strong>Nome servizio</strong></td><td>Orti urbani</td></tr><tr><td><strong>Argomento</strong></td><td>Ambiente e animali</td></tr><tr><td><strong>Descrizione del servizio</strong></td><td><p>Il servizio riguarda gli orti urbani.</p><p>Tramite IO potrai:</p><ul><li>ricevere informazioni sulle modalità di assegnazione degli orti urbani;</li><li>ricevere comunicazioni e aggiornamenti sulle richieste presentate;</li><li>ricevere eventuali avvisi di pagamento e pagarli in app;</li><li>ricevere altre comunicazioni.</li></ul></td></tr><tr><td><strong>Pulsante</strong></td><td>Vedi bandi in corso</td></tr></tbody></table>
 
 ## Ciclo di vita del servizio
 
-<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Orti urbani</strong></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (36).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Orti urbani</strong></p></figcaption></figure>
 
 ## Messaggi del servizio
 
@@ -37,7 +37,7 @@ Questo messaggio è da utilizzare sia per messaggi Premium, sia per messaggi sta
 
 **🖋 Titolo del messaggio:** Pubblicato un nuovo bando
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Dal \<gg/mm/aaaa> è possibile fare domanda di assegnazione di orti urbani nel territorio comunale.
 
@@ -47,7 +47,7 @@ Per consultare i criteri di assegnazione e fare domanda, \[visita questo sito]\(
 
 **🪄 Pulsante**: n/a
 
-**📎 **<mark style="color:blue;">**Allegato Premium:**</mark> \<testo integrale del bando>
+\*\*📎 \*\*<mark style="color:blue;">**Allegato Premium:**</mark> \<testo integrale del bando>
 
 ***
 
@@ -97,7 +97,7 @@ Questo messaggio è da utilizzare sia per messaggi Premium, sia per messaggi sta
 
 ***
 
-**🖋 Titolo del messaggio:** Ti è stato assegnato un orto urbano&#x20;
+**🖋 Titolo del messaggio:** Ti è stato assegnato un orto urbano
 
 🗒 **Testo del messaggio:**
 
@@ -113,13 +113,13 @@ Per visualizzare il regolamento e scoprire dettagli sull'assegnazione e modalit�
 
 **🪄 Pulsante:** n/a
 
-**📎 **<mark style="color:blue;">**Allegato Premium:**</mark> \<regolamento>
+\*\*📎 \*\*<mark style="color:blue;">**Allegato Premium:**</mark> \<regolamento>
 
 ***
 
 **Destinatari:** I cittadini che hanno ottenuto l’assegnazione di orti urbani.
 
-**Quando inviarlo:** Quando, a seguito dell’assegnazione,  l’ente deve comunicare agli assegnatari i dettagli sulla assegnazione del lotto.
+**Quando inviarlo:** Quando, a seguito dell’assegnazione, l’ente deve comunicare agli assegnatari i dettagli sulla assegnazione del lotto.
 
 **User story:** Come cittadino voglio ricevere informazioni dettagliate sull’assegnazione dell’orto urbano.
 
@@ -145,7 +145,7 @@ C'è un avviso da pagare intestato a \<nome> \<cognome> e relativo a \<causale>.
 
 **Entro il:** \<gg/mm/aaaa>
 
-Puoi pagare direttamente in app premendo “Vedi Avviso”, oppure tramite tutti i canali di pagamento della piattaforma pagoPA e le altre modalità di pagamento offerte dell'ente creditore.
+Puoi pagare direttamente in app premendo “Paga”, oppure tramite tutti i canali di pagamento della piattaforma pagoPA e le altre modalità di pagamento offerte dell'ente creditore.
 
 Se hai già provveduto a pagare l'avviso, ignora questo messaggio.
 
@@ -153,7 +153,7 @@ Per maggiori informazioni o per richiedere assistenza, contattaci tramite i cana
 
 In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio potrebbe subire variazioni.
 
-**🪄 Pulsante:** Avviso di pagamento
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
 
 ***
 
@@ -166,7 +166,7 @@ In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio p
 </details>
 
 {% hint style="info" %}
-**Promemoria automatici — **<mark style="color:blue;">**Messaggi Premium**</mark>
+**Promemoria automatici —** <mark style="color:blue;">**Messaggi Premium**</mark>
 
 Impostando il messaggio di _Avviso di pagamento_ come Messaggio Premium, disponibile a seconda della tipologia di contratto sottoscritto dall’ente, non è necessario inviare il seguente messaggio di promemoria.
 
@@ -185,7 +185,7 @@ Il tuo pagamento per \<causale> sta per scadere.
 
 Se hai già provveduto a pagare l'avviso ignora questo messaggio.
 
-**🪄 Pulsante:** Vedi Avviso
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
 
 ***
 
@@ -215,7 +215,7 @@ Il tuo pagamento per \<causale> è scaduto il \<gg/mm/aaaa>.
 
 Se hai già provveduto a pagare l'avviso ignora questo messaggio.
 
-**🪄 Pulsante:** Vedi Avviso
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
 
 ***
 
@@ -233,7 +233,7 @@ Se hai già provveduto a pagare l'avviso ignora questo messaggio.
 
 <summary>Decadenza concessione</summary>
 
-**🖋  Titolo del messaggio:** La tua concessione sta per scadere
+**🖋 Titolo del messaggio:** La tua concessione sta per scadere
 
 🗒 **Testo del messaggio:**
 
@@ -255,13 +255,13 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 ### Rinnovo concessione
 
-Se i cittadini possono richiedere il rinnovo della concessione, si consiglia di utilizzare questo messaggio:&#x20;
+Se i cittadini possono richiedere il rinnovo della concessione, si consiglia di utilizzare questo messaggio:
 
 <details>
 
 <summary>Concessione in scadenza: rinnovo disponibile</summary>
 
-**🖋  Titolo del messaggio:** La tua concessione sta per scadere
+**🖋 Titolo del messaggio:** La tua concessione sta per scadere
 
 🗒 **Testo del messaggio:**
 
@@ -283,7 +283,7 @@ Per richiedere il rinnovo, \[visita questo sito]\(URL).
 
 </details>
 
-Se i cittadini non possono richiedere il rinnovo della concessione, si consiglia di utilizzare questo messaggio:&#x20;
+Se i cittadini non possono richiedere il rinnovo della concessione, si consiglia di utilizzare questo messaggio:
 
 <details>
 
@@ -373,7 +373,7 @@ IO è integrata con SEND - Servizio Notifiche Digitale, per l'invio di comunicaz
 {% hint style="info" %}
 **Un modello da personalizzare**
 
-Le procedure di questo servizio variano molto da ente a ente. Consigliamo di utilizzare i testi dei messaggi come un punto di partenza e di aggiungere ulteriori informazioni.&#x20;
+Le procedure di questo servizio variano molto da ente a ente. Consigliamo di utilizzare i testi dei messaggi come un punto di partenza e di aggiungere ulteriori informazioni.
 
 Il modello è un esempio che non ha carattere vincolante per l’ente e sul quale la Società declina qualsiasi responsabilità, avendo valore esemplificativo.
 

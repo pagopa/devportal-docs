@@ -5,15 +5,15 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 * fornire alle cittadine e ai cittadini un riferimento per la ricezione delle comunicazioni riguardanti gli impianti elettrici e l’efficienza energetica;
 * monitorare e gestire tempestivamente le richieste e comunicazioni per l’erogazione del servizio.
 
-[**Scopri tutti i benefici di integrarsi con IO →** ](https://docs.pagopa.it/manuale-servizi/lapp-io/cose-io-e-qual-e-il-suo-obiettivo#perche-un-ente-dovrebbe-integrarsi-con-io)
+[**Scopri tutti i benefici di integrarsi con IO →**](https://docs.pagopa.it/manuale-servizi/lapp-io/cose-io-e-qual-e-il-suo-obiettivo#perche-un-ente-dovrebbe-integrarsi-con-io)
 
 ## Scheda servizio <a href="#scheda-servizio" id="scheda-servizio"></a>
 
-<table data-header-hidden><thead><tr><th width="373"></th><th></th></tr></thead><tbody><tr><td><strong>Nome servizio</strong></td><td>Energia e impianti</td></tr><tr><td><strong>Argomento</strong></td><td>Ambiente e animali</td></tr><tr><td><strong>Descrizione del servizio</strong></td><td><p>Il servizio riguarda gli impianti termici e l’efficienza energetica.</p><p></p><p>Tramite IO potrai:</p><ul><li>ricevere comunicazioni e aggiornamenti;</li><li>ricevere avvisi di pagamento e pagarli in app;</li><li>ricevere altre comunicazioni.</li></ul></td></tr><tr><td><strong>Pulsante</strong></td><td>Vai alla modulistica</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="373"></th><th></th></tr></thead><tbody><tr><td><strong>Nome servizio</strong></td><td>Energia e impianti</td></tr><tr><td><strong>Argomento</strong></td><td>Ambiente e animali</td></tr><tr><td><strong>Descrizione del servizio</strong></td><td><p>Il servizio riguarda gli impianti termici e l’efficienza energetica.</p><p>Tramite IO potrai:</p><ul><li>ricevere comunicazioni e aggiornamenti;</li><li>ricevere avvisi di pagamento e pagarli in app;</li><li>ricevere altre comunicazioni.</li></ul></td></tr><tr><td><strong>Pulsante</strong></td><td>Vai alla modulistica</td></tr></tbody></table>
 
 ## Ciclo di vita del servizio
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Energia e impianti</strong></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (35).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Energia e impianti</strong></p></figcaption></figure>
 
 ## Messaggi del servizio
 
@@ -31,7 +31,7 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 **🖋 Titolo del messaggio:** C'è una nuova iniziativa
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 \[Inserire qui la descrizione dell'iniziativa, da compilare a cura e responsabilità dell'ente]
 
@@ -73,7 +73,7 @@ Il numero di prenotazione è \<nnnn>.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
-**🪄 Pulsante:** Disdici appuntamento&#x20;
+**🪄 Pulsante:** Disdici appuntamento
 
 ***
 
@@ -99,13 +99,13 @@ Per elaborare la tua richiesta di \<oggetto della richiesta> abbiamo bisogno di 
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
-**🪄 Pulsante:** Aggiungi documenti&#x20;
+**🪄 Pulsante:** Aggiungi documenti
 
 ***
 
 **Destinatari:** I cittadini residenti nell’area di azione del servizio che hanno inviato una richiesta all’ente.
 
-**Quando inviarlo:** Quando l’ente ha bisogno di ulteriori documenti per l’elaborazione della richiesta.&#x20;
+**Quando inviarlo:** Quando l’ente ha bisogno di ulteriori documenti per l’elaborazione della richiesta.
 
 **User story:** Come cittadino voglio ricevere aggiornamenti sullo stato di avanzamento della mia richiesta.
 
@@ -164,7 +164,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 {% hint style="info" %}
 **Un modello da personalizzare**
 
-Le procedure di questo servizio variano molto da ente a ente. Consigliamo di utilizzare i testi dei messaggi come un punto di partenza e di aggiungere ulteriori informazioni.&#x20;
+Le procedure di questo servizio variano molto da ente a ente. Consigliamo di utilizzare i testi dei messaggi come un punto di partenza e di aggiungere ulteriori informazioni.
 
 Il modello è un esempio che non ha carattere vincolante per l’ente e sul quale la Società declina qualsiasi responsabilità, avendo valore esemplificativo.
 

@@ -7,11 +7,17 @@ In questo documento sono raccolti alcuni **modelli utili per aiutare l'ente a co
 * **definire la serie di messaggi** che ogni servizio invia agli utenti e quando;
 * **creare un'esperienza coerente**.
 
-Ogni modello contiene il nome del servizio, la descrizione, un argomento tematico, i testi dei messaggi e i relativi momenti in cui devono essere inviati.
+Ogni modello contiene il nome del servizio, la descrizione, un argomento tematico, i testi dei messaggi e i relativi momenti in cui devono essere inviati.&#x20;
+
+Quando il servizio sarà pubblicato, questi elementi saranno visibili al cittadino sotto forma di scheda servizio e messaggio, di seguito un esempio.&#x20;
+
+<figure><img src=".gitbook/assets/image (40).png" alt=""><figcaption><p>Dettaglio di una scheda servizio e di un messaggio</p></figcaption></figure>
 
 {% hint style="warning" %}
 I modelli dei messaggi sono degli esempi indicativi: gli enti che desiderino utilizzarli devono quindi modificarli a seconda delle loro esigenze. Gli enti mittenti sono i soli responsabili del contenuto dei messaggi che inviano.
 {% endhint %}
+
+***
 
 {% hint style="info" %}
 **Il tuo servizio non è uno di questi modelli?** &#x20;

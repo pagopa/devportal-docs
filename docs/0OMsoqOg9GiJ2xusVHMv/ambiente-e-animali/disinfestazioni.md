@@ -5,15 +5,15 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 * fornire alle cittadine e ai cittadini un riferimento per la ricezione delle comunicazioni riguardanti gli interventi di disinfestazione nelle aree e negli edifici pubblici;
 * monitorare e gestire tempestivamente le richieste e comunicazioni per l’erogazione del servizio.
 
-[**Scopri tutti i benefici di integrarsi con IO →** ](https://docs.pagopa.it/manuale-servizi/lapp-io/cose-io-e-qual-e-il-suo-obiettivo#perche-un-ente-dovrebbe-integrarsi-con-io)
+[**Scopri tutti i benefici di integrarsi con IO →**](https://docs.pagopa.it/manuale-servizi/lapp-io/cose-io-e-qual-e-il-suo-obiettivo#perche-un-ente-dovrebbe-integrarsi-con-io)
 
 ## Scheda servizio <a href="#scheda-servizio" id="scheda-servizio"></a>
 
-<table data-header-hidden><thead><tr><th width="373"></th><th></th></tr></thead><tbody><tr><td><strong>Nome servizio</strong></td><td>Disinfestazioni</td></tr><tr><td><strong>Argomento</strong></td><td>Ambiente e animali</td></tr><tr><td><strong>Descrizione del servizio</strong></td><td><p>Il servizio riguarda gli interventi di disinfestazione nelle aree e negli edifici pubblici.</p><p></p><p>Tramite IO potrai:</p><ul><li>ricevere comunicazioni e aggiornamenti sugli interventi previsti;</li><li>ricevere indicazioni su come comportarsi durante il loro svolgimento;</li><li>ricevere eventuali avvisi di pagamento e pagarli in app;</li><li>ricevere altre comunicazioni.</li></ul></td></tr><tr><td><strong>Pulsante</strong></td><td>Fai una segnalazione</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="373"></th><th></th></tr></thead><tbody><tr><td><strong>Nome servizio</strong></td><td>Disinfestazioni</td></tr><tr><td><strong>Argomento</strong></td><td>Ambiente e animali</td></tr><tr><td><strong>Descrizione del servizio</strong></td><td><p>Il servizio riguarda gli interventi di disinfestazione nelle aree e negli edifici pubblici.</p><p>Tramite IO potrai:</p><ul><li>ricevere comunicazioni e aggiornamenti sugli interventi previsti;</li><li>ricevere indicazioni su come comportarsi durante il loro svolgimento;</li><li>ricevere eventuali avvisi di pagamento e pagarli in app;</li><li>ricevere altre comunicazioni.</li></ul></td></tr><tr><td><strong>Pulsante</strong></td><td>Fai una segnalazione</td></tr></tbody></table>
 
 ## Ciclo di vita del servizio
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Disinfestazioni</strong></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (34).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Disinfestazioni</strong></p></figcaption></figure>
 
 ## Messaggi del servizio
 
@@ -31,13 +31,13 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 **🖋 Titolo del messaggio:** Prossimi interventi di disinfestazione
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Il \<gg/mm/aaaa> dalle \<hh:mm> alle \<hh:mm> si svolgeranno interventi di disinfestazione in \<indirizzo>.
 
 \[Inserire qui indicazioni sui comportamenti da adottare durante l’esecuzione dei lavori, da compilare a cura e responsabilità dell'ente]
 
-Per consultare il calendario completo degli interventi, \[visita questo sito]\(URL).&#x20;
+Per consultare il calendario completo degli interventi, \[visita questo sito]\(URL).
 
 **🪄 Pulsante**: n/a
 
@@ -85,7 +85,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 <summary>Richiesta di intervento: accolta</summary>
 
-**🖋  Titolo del messaggio:** La tua richiesta è stata accolta
+**🖋 Titolo del messaggio:** La tua richiesta è stata accolta
 
 🗒 **Testo del messaggio:**
 
@@ -111,7 +111,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 <summary>Richiesta di intervento: non accolta</summary>
 
-**🖋  Titolo del messaggio:** La tua richiesta non è stata accolta
+**🖋 Titolo del messaggio:** La tua richiesta non è stata accolta
 
 🗒 **Testo del messaggio:**
 
@@ -137,7 +137,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 <summary>Eseguito intervento</summary>
 
-**🖋  Titolo del messaggio:** Aggiornamenti sulla tua segnalazione
+**🖋 Titolo del messaggio:** Aggiornamenti sulla tua segnalazione
 
 🗒 **Testo del messaggio:**
 
@@ -169,7 +169,7 @@ IO è integrata con SEND - Servizio Notifiche Digitale, per l'invio di comunicaz
 {% hint style="info" %}
 **Un modello da personalizzare**
 
-Le procedure di questo servizio variano molto da ente a ente. Consigliamo di utilizzare i testi dei messaggi come un punto di partenza e di aggiungere ulteriori informazioni.&#x20;
+Le procedure di questo servizio variano molto da ente a ente. Consigliamo di utilizzare i testi dei messaggi come un punto di partenza e di aggiungere ulteriori informazioni.
 
 Il modello è un esempio che non ha carattere vincolante per l’ente e sul quale la Società declina qualsiasi responsabilità, avendo valore esemplificativo.
 

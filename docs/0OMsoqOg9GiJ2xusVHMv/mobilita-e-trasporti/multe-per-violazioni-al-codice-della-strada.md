@@ -42,19 +42,21 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 **• \<tipologia di violazione> - art. \<numero>**
 
-**Accertamento numero**: \<numero accertamento>
-
-\[Vedi accertamento]\(URL)
+**Accertamento numero**: \<numero accertamento> - \[Vedi accertamento]\(URL)
 
 **Da pagare**: <00,00> €, già scontato del 30% se paghi entro il \<gg/mm/aaaa>
 
-**Cosa succede se non pago entro il \<gg/mm/aa>?** Riceverai il verbale di contravvenzione in base a quanto previsto dal Codice della Strada e potranno essere addebitate le spese di notifica.&#x20;
+**Cosa succede se non pago entro il \<gg/mm/aaaa>?** Riceverai il verbale di contravvenzione in base a quanto previsto dal Codice della Strada e potranno essere addebitate le spese di notifica.&#x20;
 
-Puoi pagare direttamente in app premendo “Vedi Avviso”, oppure tramite tutti i canali di pagamento della piattaforma pagoPA e le altre modalità di pagamento offerte dell'ente creditore.
+<mark style="color:orange;">\[Se previsto dal tipo di multa] Inoltre, ricordati di \[</mark><mark style="color:orange;">**comunicare i dati di chi era alla guida del veicolo**</mark><mark style="color:orange;">]\(URL) al momento dell'infrazione, anche se si tratta del proprietario del mezzo, entro il gg/mm/aaaa.</mark>
+
+Puoi pagare direttamente in app premendo “Paga”, oppure tramite tutti i canali di pagamento della piattaforma pagoPA e le altre modalità di pagamento offerte dell'ente creditore.
 
 In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio potrebbe subire variazioni.
 
-**🪄  Pulsante**: Vedi avviso
+**🪄  Pulsante 1**: Vedi accertamento
+
+**🪄  Pulsante 2**: Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)
 
 ***
 
@@ -65,8 +67,6 @@ In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio p
 **User story**: Come cittadino voglio ricevere comunicazione della violazione commessa.
 
 </details>
-
-### Emissione verbale di contestazione
 
 <details>
 

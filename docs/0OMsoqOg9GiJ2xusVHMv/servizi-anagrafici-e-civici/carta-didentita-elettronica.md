@@ -81,15 +81,15 @@ C'è un avviso da pagare intestato a \<nome cognome> e relativo a \<causale>.
 
 **Entro il:** \<gg/mm/aaaa>
 
-Puoi pagare direttamente in app premendo “Vedi Avviso”, oppure tramite tutti i canali di pagamento della piattaforma pagoPA e le altre modalità di pagamento offerte dell'ente creditore.
+Puoi pagare direttamente in app premendo “Paga”, oppure tramite tutti i canali di pagamento della piattaforma pagoPA e le altre modalità di pagamento offerte dell'ente creditore.
 
-Se hai già provveduto a pagare l'avviso ignora questo messaggio.
+Se hai già provveduto a pagare l'avviso, ignora questo messaggio.
 
 Per maggiori informazioni o per richiedere assistenza, contattaci tramite i canali che trovi nella scheda servizio.
 
 In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio potrebbe subire variazioni.
 
-**🪄 Pulsante**: Vedi Avviso
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
 
 ***
 
@@ -102,7 +102,7 @@ In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio p
 </details>
 
 {% hint style="info" %}
-**Promemoria automatici — **<mark style="color:blue;">**Messaggi Premium**</mark>
+**Promemoria automatici —&#x20;**<mark style="color:blue;">**Messaggi Premium**</mark>
 
 Impostando il messaggio di _Avviso di pagamento_ come Messaggio Premium, disponibile a seconda della tipologia di contratto sottoscritto dall’ente, non è necessario inviare il seguente messaggio di promemoria.
 
@@ -121,7 +121,7 @@ Il tuo pagamento per \<causale> sta per scadere.
 
 Se hai già provveduto a pagare l'avviso, ignora questo messaggio.
 
-**🪄  Pulsante:** Vedi Avviso
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
 
 ***
 

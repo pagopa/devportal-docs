@@ -13,7 +13,7 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 
 ## Ciclo di vita del servizio
 
-<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Diritti di rogito</strong></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Diritti di rogito</strong></p></figcaption></figure>
 
 ## Messaggi del servizio&#x20;
 
@@ -71,15 +71,15 @@ C’è un avviso da pagare intestato a \<nome> \<cognome> e relativo a \<causale
 
 **Entro il:** \<gg/mm/aaaa>
 
-Puoi pagare direttamente in app premendo “Vedi Avviso”, oppure tramite tutti i canali di pagamento della piattaforma pagoPA e le altre modalità di pagamento offerte dell'ente creditore.
+Puoi pagare direttamente in app premendo “Paga”, oppure tramite tutti i canali di pagamento della piattaforma pagoPA e le altre modalità di pagamento offerte dell'ente creditore.
 
-Se hai già provveduto a pagare l'avviso ignora questo messaggio.
+Se hai già provveduto a pagare l'avviso, ignora questo messaggio.
 
 Per maggiori informazioni o per richiedere assistenza, contattaci tramite i canali che trovi nella scheda servizio.
 
 In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio potrebbe subire variazioni.
 
-**🪄 Pulsante**: Vedi Avviso
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
 
 ***
 
@@ -92,7 +92,7 @@ In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio p
 </details>
 
 {% hint style="info" %}
-**Promemoria automatici — **<mark style="color:blue;">**Messaggi Premium**</mark>
+**Promemoria automatici —&#x20;**<mark style="color:blue;">**Messaggi Premium**</mark>
 
 Impostando il messaggio di _Avviso di pagamento_ come Messaggio Premium, disponibile a seconda della tipologia di contratto sottoscritto dall’ente, non è necessario inviare il seguente messaggio di promemoria.
 
@@ -111,7 +111,7 @@ Il tuo pagamento relativo ai diritti di rogito per l’acquisto di del \<bene> \
 
 Se hai già provveduto a pagare l’avviso o se hai richiesto la domiciliazione del pagamento sul conto corrente, ignora questo messaggio.
 
-**🪄 Pulsante**: Vedi Avviso
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
 
 ***
 
@@ -141,7 +141,7 @@ Il tuo pagamento relativo ai diritti di rogito per l’acquisto del \<bene> \<ri
 
 Se hai già provveduto a pagare l’avviso o se hai richiesto la domiciliazione del pagamento sul conto corrente, ignora questo messaggio.
 
-**🪄 Pulsante**: Vedi Avviso
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
 
 ***
 
