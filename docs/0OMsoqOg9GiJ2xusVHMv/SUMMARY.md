@@ -85,9 +85,9 @@
 
 ## 🏥 salute
 
+* [Prestazioni sanitarie](salute/prestazioni-sanitarie.md)
 * [Prevenzione](salute/in-arrivo.md)
 * [Vaccinazioni](salute/vaccinazioni.md)
-* [Prestazioni sanitarie](salute/prestazioni-sanitarie.md)
 
 ## 🗂️ servizi anagrafici e civici
 

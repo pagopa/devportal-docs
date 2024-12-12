@@ -48,7 +48,7 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 **Cosa succede se non pago entro il \<gg/mm/aaaa>?** Riceverai il verbale di contravvenzione in base a quanto previsto dal Codice della Strada e potranno essere addebitate le spese di notifica.&#x20;
 
-<mark style="color:orange;">\[Se previsto dal tipo di multa] Inoltre, ricordati di \[</mark><mark style="color:orange;">**comunicare i dati di chi era alla guida del veicolo**</mark><mark style="color:orange;">]\(URL) al momento dell'infrazione, anche se si tratta del proprietario del mezzo, entro il gg/mm/aaaa.</mark>
+\[Se previsto dal tipo di multa] Inoltre, ricordati di \[**comunicare i dati di chi era alla guida del veicolo**]\(URL) al momento dell'infrazione, anche se si tratta del proprietario del mezzo, entro il gg/mm/aaaa.
 
 Puoi pagare direttamente in app premendo “Paga”, oppure tramite tutti i canali di pagamento della piattaforma pagoPA e le altre modalità di pagamento offerte dell'ente creditore.
 
@@ -108,5 +108,5 @@ Il modello è un esempio che non ha carattere vincolante per l’ente e sul qual
 
 Puoi copiare i testi dei messaggi da personalizzare da questo documento:
 
-{% file src="../.gitbook/assets/IO - Template servizi - Multe per violazioni al Codice della Strada.xlsx" %}
+{% file src="../.gitbook/assets/IO - Template servizi - Multe per violazioni al Codice della Strada (1).xlsx" %}
 {% endhint %}
