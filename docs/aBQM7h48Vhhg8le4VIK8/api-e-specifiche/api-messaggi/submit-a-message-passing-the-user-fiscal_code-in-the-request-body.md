@@ -5,7 +5,7 @@
 Questa API consente l’invio di messaggi verso un cittadino identificato tramite Codice Fiscale. Prima di inviare un messaggio, dovrai [verificare](get-a-user-profile-using-post.md) che il cittadino sia iscritto a IO e che il servizio possa inviare comunicazioni al cittadino stesso.
 
 {% hint style="info" %}
-Per utilizzare questa API devi aggiungere alla chiamata l'header `Ocp-Apim-Subscription-Key` contenente la chiave "use" [primaria](../../funzionalita/pubblicare-un-servizio/dati-obbligatori/attributi.md#primary\_key) o [secondaria](../../funzionalita/pubblicare-un-servizio/dati-obbligatori/attributi.md#secondary\_key) del servizio scelto per l'invio del messaggio
+Per utilizzare questa API devi aggiungere alla chiamata l'header `Ocp-Apim-Subscription-Key` contenente la chiave "use" [primaria](../../funzionalita/pubblicare-un-servizio/dati-obbligatori/attributi.md#primary_key) o [secondaria](../../funzionalita/pubblicare-un-servizio/dati-obbligatori/attributi.md#secondary_key) del servizio scelto per l'invio del messaggio
 {% endhint %}
 
 {% swagger src="https://raw.githubusercontent.com/teamdigitale/io-functions-services/master/openapi/index.yaml" path="/messages" method="post" %}
@@ -39,7 +39,7 @@ Se stai inviando un **messaggio con contenuti remoti**, fai riferimento a [#info
 {% endhint %}
 
 {% hint style="warning" %}
-Ricorda che, ai sensi dell'art. 7.3 delle [Linee Guida AgID](https://www.agid.gov.it/it/linee-guida#index-8), il titolo del messaggio non può contenere **dati personali** e ne va assicurata la minimizzazione all'interno del [#markdown](submit-a-message-passing-the-user-fiscal\_code-in-the-request-body.md#markdown "mention")
+Ricorda che, ai sensi dell'art. 7.3 delle [Linee Guida AgID](https://www.agid.gov.it/it/linee-guida#index-8), il titolo del messaggio non può contenere **dati personali** e ne va assicurata la minimizzazione all'interno del [#markdown](submit-a-message-passing-the-user-fiscal_code-in-the-request-body.md#markdown "mention")
 {% endhint %}
 
 ### **`markdown`` `**<mark style="color:red;">**`*`**</mark>
@@ -90,11 +90,11 @@ In Italia si usa il fuso UTC+1 quando è in vigore l'ora solare, mentre si usa i
 {% endhint %}
 
 {% hint style="success" %}
-La data di scadenza del messaggio è separata rispetto a quella dell'eventuale posizione debitoria associata e può essere specificata anche a in assenza di di quest'ultima
+La data di scadenza del messaggio è separata rispetto a quella dell'eventuale posizione debitoria associata e può essere specificata anche in assenza di quest'ultima
 {% endhint %}
 
 {% hint style="info" %}
-Se hai sottoscritto l'accordo Premium, IO genererà per te **promemoria** [di lettura](https://docs.pagopa.it/kb-enti-messaggi/domande-frequenti/domande-e-risposte-sui-messaggi#come-funziona-il-reminder-per-i-messaggi-non-letti) o [di pagamento](https://docs.pagopa.it/kb-enti-messaggi/domande-frequenti/domande-e-risposte-sui-messaggi#come-funziona-il-reminder-per-i-messaggi-con-avvisi-non-pagati) in prossimità della data di scadenza indicata: i promemoria saranno inviati al dispositivo del destinatario sotto forma di notifiche push
+Se hai sottoscritto l'accordo Premium, IO genererà per te **promemoria** in prossimità della data di scadenza indicata: i promemoria saranno inviati al dispositivo del destinatario sotto forma di notifiche push
 {% endhint %}
 
 ### **`payment_data`**
@@ -119,7 +119,7 @@ Per l’invio degli avvisi di pagamento è necessario richiedere [specifica l’
 
 <table data-header-hidden><thead><tr><th width="210"></th><th></th></tr></thead><tbody><tr><td><strong>Descrizione</strong></td><td>In app visualizza il pagamento come scaduto se la data attuale è successiva a <code>due_date</code></td></tr><tr><td><strong>Obbligatorio</strong></td><td>No</td></tr><tr><td><strong>Default</strong></td><td><code>false</code></td></tr><tr><td><strong>Tipo</strong></td><td>Booleano</td></tr><tr><td><strong>Esempio</strong></td><td><code>false</code></td></tr></tbody></table>
 
-#### [`payee`](submit-a-message-passing-the-user-fiscal\_code-in-the-request-body.md#descrizione)
+#### [`payee`](submit-a-message-passing-the-user-fiscal_code-in-the-request-body.md#descrizione)
 
 {% hint style="info" %}
 Questa funzionalità è riservata agli enti che hanno concordato con PagoPA l'abilitazione alla separazione tra i codici fiscali del mittente e del beneficiario della posizione debitoria.
@@ -270,7 +270,7 @@ curl --location --request POST 'https://api.io.pagopa.it/api/v1/messages' \
 {% endcode %}
 
 {% hint style="info" %}
-Nel blocco [#third\_party\_data](submit-a-message-passing-the-user-fiscal\_code-in-the-request-body.md#third\_party\_data "mention") è possibile specificare più combinazioni dei flag [#has\_precondition](submit-a-message-passing-the-user-fiscal\_code-in-the-request-body.md#has\_precondition "mention"), [#has\_remote\_content](submit-a-message-passing-the-user-fiscal\_code-in-the-request-body.md#has\_remote\_content "mention") e [#has\_attachments](submit-a-message-passing-the-user-fiscal\_code-in-the-request-body.md#has\_attachments "mention") (quest'ultimo solo se hai sottoscritto l'Accordo relativo alle [funzionalita-premium.md](../../abilitazioni/funzionalita-premium.md "mention")), come nell'esempio:
+Nel blocco [#third\_party\_data](submit-a-message-passing-the-user-fiscal_code-in-the-request-body.md#third_party_data "mention") è possibile specificare più combinazioni dei flag [#has\_precondition](submit-a-message-passing-the-user-fiscal_code-in-the-request-body.md#has_precondition "mention"), [#has\_remote\_content](submit-a-message-passing-the-user-fiscal_code-in-the-request-body.md#has_remote_content "mention") e [#has\_attachments](submit-a-message-passing-the-user-fiscal_code-in-the-request-body.md#has_attachments "mention") (quest'ultimo solo se hai sottoscritto l'Accordo relativo alle [funzionalita-premium.md](../../abilitazioni/funzionalita-premium.md "mention")), come nell'esempio:
 {% endhint %}
 
 {% code title="Contenuto della richiesta" overflow="wrap" %}
