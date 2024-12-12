@@ -48,7 +48,7 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 **Cosa succede se non pago entro il \<gg/mm/aaaa>?** Riceverai il verbale di contravvenzione in base a quanto previsto dal Codice della Strada e potranno essere addebitate le spese di notifica.&#x20;
 
-\[Se previsto dal tipo di multa] Inoltre, ricordati di \[**comunicare i dati di chi era alla guida del veicolo**]\(URL) al momento dell'infrazione, anche se si tratta del proprietario del mezzo, entro il gg/mm/aaaa.
+\[Se previsto] Inoltre, ricordati di \[**comunicare i dati di chi era alla guida del veicolo**]\(URL) al momento dell'infrazione, anche se si tratta del proprietario del mezzo, entro il gg/mm/aaaa.
 
 Puoi pagare direttamente in app premendo “Paga”, oppure tramite tutti i canali di pagamento della piattaforma pagoPA e le altre modalità di pagamento offerte dell'ente creditore.
 
