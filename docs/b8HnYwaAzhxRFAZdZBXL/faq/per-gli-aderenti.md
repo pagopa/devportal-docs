@@ -1,6 +1,6 @@
 # Per gli aderenti
 
-## Chi può aderire a PDND Interoperabilità?
+Chi può aderire a PDND Interoperabilità?
 
 Attualmente è sufficiente essere catalogati su IPA. Lo possono fare tutte le pubbliche amministrazioni, i gestori di servizio pubblico e le società controllate. In futuro l'accesso sarà esteso alle imprese private in qualità di fruitori.
 
@@ -27,6 +27,23 @@ oppure
 * l'accordo di adesione è stato firmato con diverse tipologie di firma qualifica rispetto a quella richiesta. La firma deve essere apposta tramite standard CAdES.
 
 ## Come posso aggiungere o rimuovere un operatore amministrativo?
+
+{% hint style="warning" %}
+Dopo aver concluso il processo di adesione a PDND Interoperabilità, è possibile aggiungere o rimuovere gli utenti con poteri di amministrazione, sempre fino ad un massimo di tre.
+
+A seconda del percorso che si vuole intraprendere è necessario:
+
+1. scaricare uno o entrambi dei seguenti template;
+2. compilarli con i dati della persona per cui si sta inoltrando la richiesta;
+3. far firmare digitalmente il documento tramite formato CAdES alla persona indicata come Legale Rappresentante;
+4. inviare il documento dal domicilio digitale dell'ente, indicato all'interno del catalogo IPA, alla PEC: selfcare@pec.pagopa.it
+{% endhint %}
+
+{% file src="../.gitbook/assets/Nomina Operatore Amministrativo_PDND (1) (1).pdf" %}
+
+{% file src="../.gitbook/assets/Revoca Operatore Amministativo_PDND (1).pdf" %}
+
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 Dopo aver concluso il processo di adesione a PDND Interoperabilità, è possibile aggiungere o rimuovere gli utenti con poteri di amministrazione, sempre fino ad un massimo di tre.
 

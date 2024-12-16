@@ -38,9 +38,9 @@ Il pre-requisito per poter ottenere un voucher valido è aver caricato almeno un
 
 Il primo passo è costruire una _client assertion_ valida e firmarla con la propria chiave privata (che deve essere l'omologa della chiave pubblica depositata sul client su PDND Interoperabilità). La client assertion è composta da un header e un payload.&#x20;
 
-Nell'header andranno inseriti tre campi_:_
+Nell'header andranno inseriti tre camp&#x69;_:_
 
-* `kid`: l'id della chiave che si usa per firmare l'asserzione_,_ reperibile su PDND Interoperabilità;
+* `kid`: l'id della chiave che si usa per firmare l'asserzion&#x65;_,_ reperibile su PDND Interoperabilità;
 * `alg`: l'algoritmo usato per firmare il JWT (per ora, sempre `RS256`);
 * `typ`: il tipo di oggetto che si sta inviando (sempre `JWT`).
 

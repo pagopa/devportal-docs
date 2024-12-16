@@ -120,6 +120,25 @@ Il secondo link presente nella mail ti permette di annullare la richiesta di ade
 
 ## Aggiungere o rimuovere un operatore amministrativo a PDND Interoperabilità
 
+{% hint style="warning" %}
+**Attualmente il processo è tornato al modello precedente:**
+
+Dopo aver concluso il processo di adesione a PDND Interoperabilità, è possibile aggiungere o rimuovere gli utenti con poteri di amministrazione, sempre fino ad un massimo di tre.
+
+A seconda del percorso che si vuole intraprendere è necessario:
+
+1. scaricare uno o entrambi dei seguenti template;
+2. compilarli con i dati della persona per cui si sta inoltrando la richiesta;
+3. far firmare digitalmente il documento tramite formato CAdES alla persona indicata come Legale Rappresentante;
+4. inviare il documento dal domicilio digitale dell'ente, indicato all'interno del catalogo IPA, alla PEC: selfcare@pec.pagopa.it
+{% endhint %}
+
+{% file src="../.gitbook/assets/Revoca Operatore Amministativo_PDND (1).pdf" %}
+
+{% file src="../.gitbook/assets/Nomina Operatore Amministrativo_PDND (1) (1).pdf" %}
+
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
 Dopo aver concluso il processo di adesione a PDND Interoperabilità, è possibile aggiungere o rimuovere gli utenti con poteri di amministrazione, sempre fino ad un massimo di tre.
 
 Per farlo è necessario:
