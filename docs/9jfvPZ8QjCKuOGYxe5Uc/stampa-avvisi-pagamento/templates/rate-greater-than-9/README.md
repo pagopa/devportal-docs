@@ -1,6 +1,10 @@
 # Rate (>9)
 
-Se il numero di rate è superiore a 9, sull'avviso di pagamento non sarà valorizzata la sezione che consente il pagamento dell'importo in un'unica soluzione.
+{% hint style="warning" %}
+Con questo template è possibile generare pdf di avvisi che contengono più di 9 rate e non più di 12
+{% endhint %}
+
+Se il numero di rate è superiore a 9 (e inferiore a 13), sull'avviso di pagamento non sarà valorizzata la sezione che consente il pagamento dell'importo in un'unica soluzione.
 
 Per questo motivo, nella sezione `notice`, i campi "`code`", "`dueDate`" e "`paymentAmout`" non verranno presi in considerazione.
 
