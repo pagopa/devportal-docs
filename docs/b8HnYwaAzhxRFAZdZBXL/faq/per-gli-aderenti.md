@@ -28,26 +28,9 @@ oppure
 
 ## Come posso aggiungere o rimuovere un operatore amministrativo?
 
-{% hint style="warning" %}
 Dopo aver concluso il processo di adesione a PDND Interoperabilità, è possibile aggiungere o rimuovere gli utenti con poteri di amministrazione, sempre fino ad un massimo di tre.
 
-A seconda del percorso che si vuole intraprendere è necessario:
-
-1. scaricare uno o entrambi dei seguenti template;
-2. compilarli con i dati della persona per cui si sta inoltrando la richiesta;
-3. far firmare digitalmente il documento tramite formato CAdES alla persona indicata come Legale Rappresentante;
-4. inviare il documento dal domicilio digitale dell'ente, indicato all'interno del catalogo IPA, alla PEC: selfcare@pec.pagopa.it
-{% endhint %}
-
-{% file src="../.gitbook/assets/Nomina Operatore Amministrativo_PDND (1) (1).pdf" %}
-
-{% file src="../.gitbook/assets/Revoca Operatore Amministativo_PDND (1).pdf" %}
-
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
-
-Dopo aver concluso il processo di adesione a PDND Interoperabilità, è possibile aggiungere o rimuovere gli utenti con poteri di amministrazione, sempre fino ad un massimo di tre.
-
-Per farlo è necessario:
+Per aggiungerli è necessario:
 
 1. tornare all'interno dell'Area Riservata;
 2. cliccare sulla voce Utenti e in seguito sul bottone Crea nuovo;
@@ -63,3 +46,14 @@ Dopo aver cliccato su "Invia richiesta" o aver confermato la scelta di inserire 
 Cliccando sul pulsante "Completa la richiesta" presente nella PEC, l'utente ha la possibilità di scaricare il modulo di nomina e ricaricarlo, dopo avervi fatto apporre la firma digitale del Legale Rappresentante in formato p7m.&#x20;
 
 Se il caricamento va a buon fine, il nuovo Amministratore viene aggiunto correttamente.
+
+
+
+Per rimuoverli è necessario:
+
+* scaricare il template che segue;
+* compilarlo con i dati della persona per cui si sta inoltrando la richiesta;
+* far firmare digitalmente il documento tramite formato CAdES alla persona indicata come Legale Rappresentante;
+* inviare il documento dal domicilio digitale dell'ente, indicato all'interno del catalogo IPA, alla PEC: selfcare@pec.pagopa.it
+
+{% file src="../.gitbook/assets/Revoca Operatore Amministativo_PDND (1).pdf" %}
