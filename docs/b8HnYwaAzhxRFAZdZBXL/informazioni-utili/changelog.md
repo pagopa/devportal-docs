@@ -12,6 +12,14 @@ description: >-
 
 <summary>Dicembre 2024</summary>
 
+### 1.0.129
+
+**16 dicembre**
+
+* Possibilità di aggiungere nuovi attributi all'e-service senza creare una nuova versione
+* Aggiunte le notifiche di cortesia di attivazione e rifiuto di una richiesta di fruizione
+* Bug fixing
+
 ### 1.0.128
 
 **10 dicembre**
