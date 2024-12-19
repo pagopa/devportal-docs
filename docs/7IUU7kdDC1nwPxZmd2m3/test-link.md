@@ -21,7 +21,11 @@
 (questo è il componente **Page Link** che punta a una _**pagina**_ e nelle parentesi quadre mostra **nomefile.md** di destinazione 🔴)
 
 
-
+| Month    | Savings |
+| -------- | ------- |
+| January  | $250    |
+| February | $80     |
+| March    | $420    |
 
 
 Link inline alla pagina [delle Best Practices](https://app.gitbook.com/s/PJuzswk8l2kp9Wm5PwAW/prestatore-di-servizi-di-pagamento/modalita-di-integrazione/best-practice)\
