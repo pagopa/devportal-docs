@@ -47,7 +47,7 @@ Per creare una nuova manutenzione è necessario cliccare sul pulsante "`Nuova ma
 E' necessario selezionare dal menu a tendina la stazione per la quale attivare la manutenzione, la data / ora di inizio di fermo e la data / ora di fine fermo. Inoltre è possibile indicare se durante il fermo della stazione sarà comunque possibile gestire i pagamenti mediante lo StandIN (maggiori info in [https://docs.pagopa.it/sanp/specifiche-attuative-del-nodo-dei-pagamenti-spc/funzionamento-generale/stand-in](https://docs.pagopa.it/sanp/specifiche-attuative-del-nodo-dei-pagamenti-spc/funzionamento-generale/stand-in))
 
 {% hint style="danger" %}
-Come già si ribadiva sopra, nel caso in cui il numero di ore di manutenzione previsto per l'anno (36) sia stato superato in caso di nuova manutenzione non è possibile impostare il flag StandIN a true.&#x20;
+Come già si ribadiva sopra, nel caso in cui il numero di ore di manutenzione previsto per l'anno (36) sia stato superato in caso di nuova manutenzione non è possibile impostare il flag StandIN a false (NO).&#x20;
 
 ![](<../../../.gitbook/assets/image (229).png>)
 {% endhint %}
