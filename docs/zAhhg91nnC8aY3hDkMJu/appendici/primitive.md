@@ -416,7 +416,69 @@ Per i dettagli [https://github.com/pagopa/pagopa-api/tree/SANP3.8.0](https://git
 
 #### Request Body
 
-<table><thead><tr><th>Name</th><th width="223">Type</th><th>Description</th></tr></thead><tbody><tr><td>idPA<mark style="color:red;">*</mark></td><td>String</td><td>codice fiscale della struttura che invia la richiesta di pagamento</td></tr><tr><td>idBrokerPA<mark style="color:red;">*</mark></td><td>String</td><td>identificativo del soggetto che opera come intermediario per l'EC</td></tr><tr><td>idStation<mark style="color:red;">*</mark></td><td>String</td><td>identificativo della stazione dell'EC nel sistema pagoPa</td></tr><tr><td>receipt<mark style="color:red;">*</mark></td><td>String</td><td>la ricevuta di pagamento</td></tr><tr><td>receiptId<mark style="color:red;">*</mark></td><td>String</td><td>identificatore univoco della <em>receipt</em> contiene il <em>paymentToken</em> assegnato da pagoPa</td></tr><tr><td>noticeNumber<mark style="color:red;">*</mark></td><td>String</td><td>[auxDigit][segregationCode][IUVBase][IUVCheckDigit]</td></tr><tr><td>fiscalCode<mark style="color:red;">*</mark></td><td>String</td><td>codice fiscale dell'EC</td></tr><tr><td>outcome<mark style="color:red;">*</mark></td><td>String</td><td>il risultato dell'operazione che può contenere i codici OK o KO</td></tr><tr><td>creditorReferenceId<mark style="color:red;">*</mark></td><td>String</td><td><strong>IUV</strong> <em>Identificativo Univoco Versamento</em></td></tr><tr><td>paymentAmount<mark style="color:red;">*</mark></td><td>String</td><td>importo espresso in euro</td></tr><tr><td>description<mark style="color:red;">*</mark></td><td>String</td><td></td></tr><tr><td>companyName</td><td>String</td><td>nome completo dell'EC</td></tr><tr><td>officeName</td><td>String</td><td></td></tr><tr><td>debtor<mark style="color:red;">*</mark></td><td>String</td><td>individua il debitore a cui si riferisce la posizione debitoria</td></tr><tr><td>uniqueIdentifier<mark style="color:red;">*</mark></td><td>String</td><td></td></tr><tr><td>entityUniqueIdentifierType<mark style="color:red;">*</mark></td><td>String</td><td><p><strong>F</strong> : Persona fisica</p><p><strong>G</strong> : Persona giuridica</p></td></tr><tr><td>entityUniqueIdentifierValue<mark style="color:red;">*</mark></td><td>String</td><td>codice fiscale o partita IVA</td></tr><tr><td>e-mail</td><td>String</td><td></td></tr><tr><td>country</td><td>String</td><td></td></tr><tr><td>stateProvinceRegion</td><td>String</td><td></td></tr><tr><td>city</td><td>String</td><td></td></tr><tr><td>postalCode</td><td>String</td><td></td></tr><tr><td>civicNumber</td><td>String</td><td></td></tr><tr><td>streetName</td><td>String</td><td></td></tr><tr><td>fullName<mark style="color:red;">*</mark></td><td>String</td><td>nome completo del debitore</td></tr><tr><td>transferList<mark style="color:red;">*</mark></td><td>String</td><td>struttura che contiene i dettagli dei <em>transfer</em></td></tr><tr><td>transfer<mark style="color:red;">*</mark></td><td>String</td><td></td></tr><tr><td>idTransfer<mark style="color:red;">*</mark></td><td>String</td><td>indice della lista (da 1 a 5)</td></tr><tr><td>fiscalCodePA<mark style="color:red;">*</mark></td><td>String</td><td>codice fiscale dell'EC</td></tr><tr><td>transferAmount<mark style="color:red;">*</mark></td><td>String</td><td>importo</td></tr><tr><td>IBAN<mark style="color:red;">*</mark></td><td>String</td><td>IBAN sul quale sarà effettuato il riversamento</td></tr><tr><td>remittanceInformation<mark style="color:red;">*</mark></td><td>String</td><td>motivo del pagamento</td></tr><tr><td>transferCategory<mark style="color:red;">*</mark></td><td>String</td><td>codice tassonomico, composto da <em>Codice tipo Ente Creditore + Progressivo macro area + Codice tipologia servizio + Motivo Giuridico</em> ( ex. <strong>0101002IM</strong> )</td></tr><tr><td>idPSP<mark style="color:red;">*</mark></td><td>String</td><td>identificativo del PSP</td></tr><tr><td>pspFiscalCode</td><td>String</td><td></td></tr><tr><td>pspPartitaIVA</td><td>String</td><td></td></tr><tr><td>PSPCompanyName<mark style="color:red;">*</mark></td><td>String</td><td></td></tr><tr><td>idChannel<mark style="color:red;">*</mark></td><td>String</td><td></td></tr><tr><td>channelDescription<mark style="color:red;">*</mark></td><td>String</td><td></td></tr><tr><td>payer</td><td>String</td><td>individua il pagatore</td></tr><tr><td>uniqueIdentifier<mark style="color:red;">*</mark></td><td></td><td></td></tr><tr><td>entityUniqueIdentifierType<mark style="color:red;">*</mark></td><td>String</td><td><p><strong>F</strong> : Persona fisica</p><p><strong>G</strong> : Persona giuridica</p></td></tr><tr><td>entityUniqueIdentifierValue<mark style="color:red;">*</mark></td><td>String</td><td>codice fiscale o partita IVA</td></tr><tr><td>fullName<mark style="color:red;">*</mark></td><td>String</td><td>nome completo del debitore</td></tr><tr><td>streetName</td><td>String</td><td></td></tr><tr><td>civicNumber</td><td>String</td><td></td></tr><tr><td>postalCode</td><td>String</td><td></td></tr><tr><td>city</td><td>String</td><td></td></tr><tr><td>stateProvinceRegion</td><td>String</td><td></td></tr><tr><td>country</td><td>String</td><td></td></tr><tr><td>e-mail</td><td>String</td><td></td></tr><tr><td>paymentMethod</td><td>String</td><td></td></tr><tr><td>fee</td><td>String</td><td>importo della commissione espresso in euro</td></tr><tr><td>paymentDateTime</td><td>String</td><td>data e ora del pagamento</td></tr><tr><td>applicationDate</td><td>String</td><td>data applicativa</td></tr><tr><td>transferDate</td><td>String</td><td>data del riversamento</td></tr><tr><td>metadata</td><td>String</td><td></td></tr><tr><td>mapEntry<mark style="color:red;">*</mark></td><td></td><td></td></tr><tr><td>key<mark style="color:red;">*</mark></td><td>String</td><td></td></tr><tr><td>value<mark style="color:red;">*</mark></td><td>String</td><td>identificativo del PSP</td></tr><tr><td>standin</td><td>Boolean</td><td>true: pagamento avvenuto in Stand in</td></tr></tbody></table>
+| Name | Type | Description |
+| --- | --- | --- |
+| idPA* | String | codice fiscale della struttura che invia la richiesta di pagamento |
+| idBrokerPA* | String | identificativo del soggetto che opera come intermediario per l'EC |
+| idStation* | String | identificativo della stazione dell'EC nel sistema pagoPa |
+| receipt* | String | la ricevuta di pagamento |
+| receiptId* | String | identificatore univoco della _receipt_ contiene il _paymentToken_ assegnato da pagoPa |
+| noticeNumber* | String | \[auxDigit\]\[segregationCode\]\[IUVBase\]\[IUVCheckDigit\] |
+| fiscalCode* | String | codice fiscale dell'EC |
+| outcome* | String | il risultato dell'operazione che può contenere i codici OK o KO |
+| creditorReferenceId* | String | **IUV** _Identificativo Univoco Versamento_ |
+| paymentAmount* | String | importo espresso in euro |
+| description* | String |     |
+| companyName | String | nome completo dell'EC |
+| officeName | String |     |
+| debtor* | String | individua il debitore a cui si riferisce la posizione debitoria |
+| uniqueIdentifier* | String |     |
+| entityUniqueIdentifierType* | String | **F** : Persona fisica<br><br>**G** : Persona giuridica |
+| entityUniqueIdentifierValue* | String | codice fiscale o partita IVA |
+| e-mail | String |     |
+| country | String |     |
+| stateProvinceRegion | String |     |
+| city | String |     |
+| postalCode | String |     |
+| civicNumber | String |     |
+| streetName | String |     |
+| fullName* | String | nome completo del debitore |
+| transferList* | String | struttura che contiene i dettagli dei _transfer_ |
+| transfer* | String |     |
+| idTransfer* | String | indice della lista (da 1 a 5) |
+| fiscalCodePA* | String | codice fiscale dell'EC |
+| transferAmount* | String | importo |
+| IBAN* | String | IBAN sul quale sarà effettuato il riversamento |
+| remittanceInformation* | String | motivo del pagamento |
+| transferCategory* | String | codice tassonomico, composto da _Codice tipo Ente Creditore + Progressivo macro area + Codice tipologia servizio + Motivo Giuridico_ ( ex. **0101002IM** ) |
+| idPSP* | String | identificativo del PSP |
+| pspFiscalCode | String |     |
+| pspPartitaIVA | String |     |
+| PSPCompanyName* | String |     |
+| idChannel* | String |     |
+| channelDescription* | String |     |
+| payer | String | individua il pagatore |
+| uniqueIdentifier* |     |     |
+| entityUniqueIdentifierType* | String | **F** : Persona fisica<br><br>**G** : Persona giuridica |
+| entityUniqueIdentifierValue* | String | codice fiscale o partita IVA |
+| fullName* | String | nome completo del debitore |
+| streetName | String |     |
+| civicNumber | String |     |
+| postalCode | String |     |
+| city | String |     |
+| stateProvinceRegion | String |     |
+| country | String |     |
+| e-mail | String |     |
+| paymentMethod | String |     |
+| fee | String | importo della commissione espresso in euro |
+| paymentDateTime | String | data e ora del pagamento |
+| applicationDate | String | data applicativa |
+| transferDate | String | data del riversamento |
+| metadata | String |     |
+| mapEntry* |     |     |
+| key* | String |     |
+| value* | String | identificativo del PSP |
+| standin | Boolean | true: pagamento avvenuto in Stand in |
 
 {% tabs %}
 {% tab title="200: OK " %}
