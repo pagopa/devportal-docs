@@ -581,7 +581,7 @@ Per i dettagli [https://github.com/pagopa/pagopa-api/tree/SANP3.9.0](https://git
 
 <mark style="color:green;">`POST`</mark>
 
-**In questa versione possono essere inseriti i metadata in ogni &#x20;**_**transfer**_**&#x20;della&#x20;**_**receipt,**_**&#x20;inoltre sono gestite le informazioni ricavate da** [gestione-evoluta-commissioni.md](gestione-evoluta-commissioni.md "mention")**e il servizio @e.bollo.**
+**In questa versione possono essere inseriti i metadata in ogni singolo&#x20;**_**transfer**_**&#x20;della&#x20;**_**receipt,**_**&#x20;inoltre sono gestite le informazioni ricavate da** [gestione-evoluta-commissioni.md](gestione-evoluta-commissioni.md "mention")**e il servizio @e.bollo.**
 
 #### Request Body
 
