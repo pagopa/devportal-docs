@@ -15,8 +15,7 @@
 * Aggiornamento del processo di pagamento descritto in [offrire-sistemi-di-pagamento-su-touchpoints-di-pagopa-s.p.a..md](../prestatore-di-servizi-di-pagamento/modalita-di-integrazione/offrire-sistemi-di-pagamento-su-touchpoints-di-pagopa-s.p.a..md "mention")
 * Nuova funzionalità di gestione delle opzioni di pagamento per PSP descritto in [opzioni-di-pagamento](../prestatore-di-servizi-di-pagamento/opzioni-di-pagamento/ "mention")
 * Aggiornamento gestione pacchetti in [gestione-evoluta-commissioni.md](../appendici/gestione-evoluta-commissioni.md "mention")
-* Aggiunta delle nuove primitive [#pagetpayment](../appendici/primitive.md#pagetpayment "mention")e [#pagetpayment-1](../appendici/primitive.md#pagetpayment-1 "mention")
-* Aggiunta delle nuove primitive [verifyPaymentOptions](../appendici/primitive.md#pagetpayment) e [paVerifyPaymentOptions](../appendici/primitive.md#pagetpayment-1) per la gestione delle opzioni di pagamento
+* Aggiunta delle nuove primitive [#pagetpayment](../appendici/primitive.md#pagetpayment "mention")e [#pagetpayment-1](../appendici/primitive.md#pagetpayment-1 "mention") per la gestione delle opzioni di pagamento
 * Correzione flag standIn in [#pspnotifypayment-versione-2](../appendici/primitive.md#pspnotifypayment-versione-2 "mention")
 
 ### 3.8.0 (Luglio 2024)

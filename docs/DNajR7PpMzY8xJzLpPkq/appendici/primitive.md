@@ -94,12 +94,6 @@ Per i dettagli [https://github.com/pagopa/pagopa-api/tree/SANP3.9.0](https://git
 
 ## verifyPaymentOptions <a href="#pagetpayment" id="pagetpayment"></a>
 
-
-
-{% swagger src="../.gitbook/assets/openapi (1).json" path="/payment-options/organizations/{fiscal-code}/notices/{notice-number}" method="get" %}
-[openapi (1).json](<../.gitbook/assets/openapi (1).json>)
-{% endswagger %}
-
 {% swagger src="../.gitbook/assets/openapi (1).json" path="/payment-options/organizations/{fiscal-code}/notices/{notice-number}" method="get" %}
 [openapi (1).json](<../.gitbook/assets/openapi (1).json>)
 {% endswagger %}
