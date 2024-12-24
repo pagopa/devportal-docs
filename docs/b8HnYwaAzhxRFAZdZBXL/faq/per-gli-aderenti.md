@@ -1,12 +1,12 @@
 # Per gli aderenti
 
-Chi può aderire a PDND Interoperabilità?
+## Chi può aderire a PDND Interoperabilità?
 
-Attualmente è sufficiente essere catalogati su IPA. Lo possono fare tutte le pubbliche amministrazioni, i gestori di servizio pubblico e le società controllate. In futuro l'accesso sarà esteso alle imprese private in qualità di fruitori.
+Attualmente lo possono fare tutte le pubbliche amministrazioni, i gestori di servizio pubblico, le società controllate, le piattaforme di e-procurement certificate da AgID e le assicurazioni. In futuro l'accesso sarà esteso alle imprese private in qualità di fruitori, che ora possono accedere solo all'ambiente di Attestazione.
 
 ## Come faccio ad aderire a PDND Interoperabilità?
 
-Una PA deve per prima cosa essere accreditata sul Catalogo IPA. A quel punto può seguire il percorso di adesione, firmando l'accordo di adesione alla piattaforma. Per saperne di più, segui la guida all'adesione.
+Una PA deve per prima cosa essere accreditata sul Catalogo IPA. A quel punto può seguire il percorso di adesione, firmando l'accordo di adesione alla piattaforma. Per saperne di più, segui la [guida all'adesione](https://docs.pagopa.it/interoperabilita-1/manuale-operativo/guida-alladesione#prima-delladesione).
 
 ## La conformazione del nostro ente non ci permette di rientrare nei termini dell'accordo di adesione. Come facciamo?
 
@@ -57,3 +57,7 @@ Per rimuoverli è necessario:
 * inviare il documento dal domicilio digitale dell'ente, indicato all'interno del catalogo IPA, alla PEC: selfcare@pec.pagopa.it
 
 {% file src="../.gitbook/assets/Revoca Operatore Amministativo_PDND (1).pdf" %}
+
+## Posso modificare il nome della finalità e del client?
+
+No, al momento non è possibile modificare il nome di questi componenti.
