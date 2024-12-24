@@ -12,7 +12,7 @@ Qualora l’Ente Creditore si avvalga di un Intermediario Tecnologico e/o Partne
 
 Nel caso in cui l’Ente Creditore comunichi di non voler far proprio l’Accordo sul Trattamento dei Dati e/o sue successive eventuali modifiche e aggiornamenti, l’adesione al servizio resterà sospesa fintanto che il trattamento dei dati personali non sia disciplinato da altro accordo ai sensi dell’art. 28 del Regolamento (UE) 2016/679. Tutte le specifiche relative all’utilizzo della nuova funzionalità per la stampa avvisi pagoPA sono disponibili al link:&#x20;
 
-[https://app.gitbook.com/o/KXYtsf32WSKm6ga638R3/s/9jfvPZ8QjCKuOGYxe5Uc/](https://app.gitbook.com/o/KXYtsf32WSKm6ga638R3/s/9jfvPZ8QjCKuOGYxe5Uc/).
+[Stampa avvisi di pagamento.](https://app.gitbook.com/o/KXYtsf32WSKm6ga638R3/s/9jfvPZ8QjCKuOGYxe5Uc/)
 
 ## **Stampa singolo avviso**
 
