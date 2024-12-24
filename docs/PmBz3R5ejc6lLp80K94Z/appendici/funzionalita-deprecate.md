@@ -16,11 +16,7 @@ Le informazioni relative ai conti da accreditare saranno gestite mediante le nuo
 {% hint style="info" %}
 La _tabella delle controparti_ e l'_informativa conto accredito_ sono state sostituite da nuove API all'interno del BackOffice pagoPA.
 
-Per maggiori informazioni si faccia riferimento a[ ](https://app.gitbook.com/o/KXYtsf32WSKm6ga638R3/s/BnqUVJHM26TaVUpNXC9J/~/changes/3/manuale-operativo-back-office-pagopa-partner-tecnologico/funzionalita/external-api)[https://docs.pagopa.it/manuale-back-office-pagopa/v/manuale-bo-pagopa-pt/manuale-operativo-back-office-pagopa-partner-tecnologico/funzionalita/external-api](https://docs.pagopa.it/manuale-back-office-pagopa/v/manuale-bo-pagopa-pt/manuale-operativo-back-office-pagopa-partner-tecnologico/funzionalita/external-api)
-
-e
-
-[https://docs.pagopa.it/manuale-back-office-pagopa/v/manuale-bo-pagopa-psp/manuale-operativo-pagamenti-pagopa-prestatore-di-servizi-di-pagamento/funzionalita/external-api](https://docs.pagopa.it/manuale-back-office-pagopa/v/manuale-bo-pagopa-psp/manuale-operativo-pagamenti-pagopa-prestatore-di-servizi-di-pagamento/funzionalita/external-api)
+Per maggiori informazioni si faccia riferimento a quanto descritto nel [Manuale di Back Office PT](https://docs.pagopa.it/manuale-back-office-pagopa/v/manuale-bo-pagopa-pt/manuale-operativo-back-office-pagopa-partner-tecnologico/funzionalita/external-api) e nel [Manuale di Back Office PSP](https://docs.pagopa.it/manuale-back-office-pagopa/v/manuale-bo-pagopa-psp/manuale-operativo-pagamenti-pagopa-prestatore-di-servizi-di-pagamento/funzionalita/external-api)[ ](https://app.gitbook.com/o/KXYtsf32WSKm6ga638R3/s/BnqUVJHM26TaVUpNXC9J/~/changes/3/manuale-operativo-back-office-pagopa-partner-tecnologico/funzionalita/external-api).
 {% endhint %}
 
 ## Connessione a pagoPA mediante rete SPC Infranet&#x20;
