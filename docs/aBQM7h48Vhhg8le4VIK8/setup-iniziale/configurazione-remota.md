@@ -5,7 +5,7 @@ Questa configurazione è necessaria se hai intenzione di utilizzare una delle se
 1. [inviare-un-messaggio-a-contenuto-remoto.md](../funzionalita/inviare-un-messaggio/inviare-un-messaggio-a-contenuto-remoto.md "mention")
 2. [aggiungere-allegati.md](../funzionalita/inviare-un-messaggio/aggiungere-allegati.md "mention")
 
-Per entrambe le funzionalità è infatti necessario **mettere a disposizione un **_**REST web service**_ conforme alla [relativa OpenAPI](../api-e-specifiche/openapi-endpoint-di-recupero-dei-contenuti-remotizzati.md).
+Per entrambe le funzionalità è infatti necessario **mettere a disposizione un&#x20;**_**REST web service**_ conforme alla [relativa OpenAPI](../api-e-specifiche/openapi-endpoint-di-recupero-dei-contenuti-remotizzati.md).
 
 Un web service esposto è caratterizzato da un **identificativo di configurazione**, cioè un codice alfanumerico univoco, generato da IO, che corrisponderà a un set di endpoint e alle relative API key.
 
@@ -18,7 +18,7 @@ Puoi definire una configurazione, richiamarla successivamente, elencare le confi
 {% hint style="info" %}
 Puoi anche definire **più di una configurazione**, nell'ambito della [chiave manage ](../funzionalita/pubblicare-un-servizio/chiave-manage.md)in uso.
 
-Ad esempio, se la tua Organizzazione si serve di più Partner Tecnologici che espongano ciascuno un REST web service per servire le funzionalità remote, per ciascuno di essi potrà essere definito un identificativo di configurazione differente per essere utilizzato successivamente per [inviare i messaggi](../api-e-specifiche/api-messaggi/submit-a-message-passing-the-user-fiscal\_code-in-the-request-body.md) di propria competenza.
+Ad esempio, se la tua Organizzazione si serve di più Partner Tecnologici che espongano ciascuno un REST web service per servire le funzionalità remote, per ciascuno di essi potrà essere definito un identificativo di configurazione differente per essere utilizzato successivamente per [inviare i messaggi](../api-e-specifiche/api-messaggi/submit-a-message-passing-the-user-fiscal_code-in-the-request-body.md) di propria competenza.
 {% endhint %}
 
 {% hint style="success" %}
@@ -26,7 +26,7 @@ Per gestire le configurazioni devi utilizzare l'API descritta in [cru-configuraz
 {% endhint %}
 
 {% hint style="success" %}
-**Ogni messaggio a contenuto remoto che invierai farà riferimento a una specifica configurazione**: per indicarla devi utilizzare, in fase di creazione, il parametro obbligatorio [#configuration\_id](../api-e-specifiche/api-messaggi/submit-a-message-passing-the-user-fiscal\_code-in-the-request-body.md#configuration\_id "mention").
+**Ogni messaggio a contenuto remoto che invierai farà riferimento a una specifica configurazione**: per indicarla devi utilizzare, in fase di creazione, il parametro obbligatorio [#configuration\_id](../api-e-specifiche/api-messaggi/submit-a-message-passing-the-user-fiscal_code-in-the-request-body.md#configuration_id "mention").
 {% endhint %}
 
 Il servizio esposto deve essere costituito da un numero variabile di _endpoint_, a seconda di cosa si intenda remotizzare per i propri messaggi e del [tipo di accordo](https://docs.pagopa.it/kb-enti-accordi/domande-frequenti/domande-e-risposte-sugli-accordi#quali-sono-le-formule-contrattuali-possibili-per-aderire-allapp-io) che hai sottoscritto con PagoPA:
@@ -40,7 +40,7 @@ Per maggiori informazioni su come progettare gli _endpoint_ e la relativa API es
 Una volta pronto, utilizza l'API descritta in [cru-configurazioni-remote.md](../api-e-specifiche/api-messaggi/cru-configurazioni-remote.md "mention") per registrare presso i sistemi di IO i dati necessari, tra cui:
 
 * la **URL di base** che servirà a IO per comporre gli indirizzi degli _endpoint_ esposti dalla tua Organizzazione (per maggiori informazioni fai riferimento agli esempi riportati in [openapi-endpoint-di-recupero-dei-contenuti-remotizzati.md](../api-e-specifiche/openapi-endpoint-di-recupero-dei-contenuti-remotizzati.md "mention"))
-* l**'API key** che IO userà per autenticarsi presso i tuoi sistemi e il relativo header atteso
+* &#x6C;**'API key** che IO userà per autenticarsi presso i tuoi sistemi e il relativo header atteso
 * l'eventuale preferenza di default relativa alle precondizioni all'apertura dei messaggi (per maggiori informazioni sulle precondizioni fai riferimento a [inviare-un-messaggio-a-contenuto-remoto.md](../funzionalita/inviare-un-messaggio/inviare-un-messaggio-a-contenuto-remoto.md "mention"))
 
 {% hint style="warning" %}

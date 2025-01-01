@@ -72,7 +72,7 @@ Con questa API, utilizzando come chiave il `configuration_id`, puoi recuperare i
 Nell'esempio riportato, si richiede la creazione di una nuova configurazione relativa al solo ambiente di produzione, per il quale sono indicati:
 
 * la URL di base nel campo **`base_url`** ("https://theremotecontentdomain.tld/basepath")
-* la relativa API key con cui si autenticherà su IO (`"ac66427c-584b-4c81-9443-e761a226d33d"`, nel campo**`key`**, valore che i tuoi sistemi si attenderanno nell'header con nome `"X-API-KEY"` indicato nel campo **`header_key_name`**)
+* la relativa API key con cui si autenticherà su IO (`"ac66427c-584b-4c81-9443-e761a226d33d"`, nel camp&#x6F;**`key`**, valore che i tuoi sistemi si attenderanno nell'header con nome `"X-API-KEY"` indicato nel campo **`header_key_name`**)
 
 {% code title="CURL" overflow="wrap" %}
 ```
@@ -98,7 +98,7 @@ curl --location 'https://api.io.pagopa.it/api/v1/messages-sending/remote-content
 ```
 {% endcode %}
 
-Il campo **`has_precondition`** regola l'interpretazione, da parte di IO, del corrispondente campo [#has\_precondition](submit-a-message-passing-the-user-fiscal\_code-in-the-request-body.md#has\_precondition "mention") che indicherai in fase di creazione di un messaggio a contenuto remoto, secondo il seguente schema:
+Il campo **`has_precondition`** regola l'interpretazione, da parte di IO, del corrispondente campo [#has\_precondition](submit-a-message-passing-the-user-fiscal_code-in-the-request-body.md#has_precondition "mention") che indicherai in fase di creazione di un messaggio a contenuto remoto, secondo il seguente schema:
 
 <table data-header-hidden><thead><tr><th width="296"></th><th></th></tr></thead><tbody><tr><td>[non specificato]</td><td>Le precondizioni all'apertura del messaggio saranno mostrate coerentemente con l'impostazione di <code>has_precondition</code> <a href="submit-a-message-passing-the-user-fiscal_code-in-the-request-body.md#has_precondition">a livello di singolo messaggio</a></td></tr><tr><td><code>has_precondition: NONE</code></td><td>Se il campo <code>has_precondition</code> non è specifciato <a href="submit-a-message-passing-the-user-fiscal_code-in-the-request-body.md#has_precondition">a livello di singolo messaggio</a>,  questo non avrà precondizioni all'apertura; altrimenti, queste saranno mostrate coerentemente con quel valore</td></tr><tr><td><code>has_precondition: ONCE</code></td><td>Se il campo <code>has_precondition</code> non è specifciato <a href="submit-a-message-passing-the-user-fiscal_code-in-the-request-body.md#has_precondition">a livello di singolo messaggio</a>,  questo avrà precondizioni all'apertura mostrate solo finché il messaggio stesso non sarà stato letto dal destinatario; altrimenti, le precondizioni saranno mostrate coerentemente con il valore indicato per quello specifico messaggio</td></tr><tr><td><code>has_precondition: ALWAYS</code></td><td>Se il campo <code>has_precondition</code> non è specifciato <a href="submit-a-message-passing-the-user-fiscal_code-in-the-request-body.md#has_precondition">a livello di singolo messaggio</a>,  le precondizioni all'apertura saranno mostrate sempre, ad ogni apertura; altrimenti, saranno mostrate coerentemente con il valore indicato per quello specifico messaggio</td></tr></tbody></table>
 

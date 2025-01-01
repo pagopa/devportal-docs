@@ -28,7 +28,7 @@ Per permettere a IO di conoscere i tuoi sistemi dedicati agli allegati, **devi d
 
 <summary><mark style="color:blue;">Step 2</mark> - Esponi gli endpoint di recupero degli allegati</summary>
 
-Per permettere a IO di recuperare il contenuto di un messaggio e dei suoi allegati, **devi mettere a disposizione un **_**REST web service**_ conforme alla [relativa OpenAPI](https://editor.swagger.io/?url=https://raw.githubusercontent.com/pagopa/io-backend/master/openapi/consumed/api\_remote\_content.yaml).
+Per permettere a IO di recuperare il contenuto di un messaggio e dei suoi allegati, **devi mettere a disposizione un&#x20;**_**REST web service**_ conforme alla [relativa OpenAPI](https://editor.swagger.io/?url=https://raw.githubusercontent.com/pagopa/io-backend/master/openapi/consumed/api_remote_content.yaml).
 
 Per maggiori informazioni, leggi le [openapi-endpoint-di-recupero-dei-contenuti-remotizzati.md](../../api-e-specifiche/openapi-endpoint-di-recupero-dei-contenuti-remotizzati.md "mention").
 
@@ -40,7 +40,7 @@ Per includere gli allegati in un messaggio, oltre agli step indicati in [.](./ "
 
 <summary><mark style="color:blue;">Step 3</mark> - Includi il blocco <a data-mention href="../../api-e-specifiche/api-messaggi/submit-a-message-passing-the-user-fiscal_code-in-the-request-body.md#third_party_data">#third_party_data</a></summary>
 
-Includi il blocco [#third\_party\_data](../../api-e-specifiche/api-messaggi/submit-a-message-passing-the-user-fiscal\_code-in-the-request-body.md#third\_party\_data "mention") specificando la [configurazione-remota.md](../../setup-iniziale/configurazione-remota.md "mention") di riferimento e l'`id` di correlazione remota, che IO ti restituirà quando ti chiederà i metadati e, successivamente, i byte degli allegati al particolare messaggio che stai inviando.
+Includi il blocco [#third\_party\_data](../../api-e-specifiche/api-messaggi/submit-a-message-passing-the-user-fiscal_code-in-the-request-body.md#third_party_data "mention") specificando la [configurazione-remota.md](../../setup-iniziale/configurazione-remota.md "mention") di riferimento e l'`id` di correlazione remota, che IO ti restituirà quando ti chiederà i metadati e, successivamente, i byte degli allegati al particolare messaggio che stai inviando.
 
 </details>
 
@@ -48,7 +48,7 @@ Includi il blocco [#third\_party\_data](../../api-e-specifiche/api-messaggi/subm
 
 <summary><mark style="color:blue;">Step 4</mark> - Specifica il valore <code>TRUE</code> nel campo <a data-mention href="../../api-e-specifiche/api-messaggi/submit-a-message-passing-the-user-fiscal_code-in-the-request-body.md#has_attachments">#has_attachments</a> </summary>
 
-Specifica il valore `true` nel campo [#has\_attachments](../../api-e-specifiche/api-messaggi/submit-a-message-passing-the-user-fiscal\_code-in-the-request-body.md#has\_attachments "mention") presente nel blocco [#third\_party\_data](../../api-e-specifiche/api-messaggi/submit-a-message-passing-the-user-fiscal\_code-in-the-request-body.md#third\_party\_data "mention").
+Specifica il valore `true` nel campo [#has\_attachments](../../api-e-specifiche/api-messaggi/submit-a-message-passing-the-user-fiscal_code-in-the-request-body.md#has_attachments "mention") presente nel blocco [#third\_party\_data](../../api-e-specifiche/api-messaggi/submit-a-message-passing-the-user-fiscal_code-in-the-request-body.md#third_party_data "mention").
 
 </details>
 
@@ -56,7 +56,7 @@ Specifica il valore `true` nel campo [#has\_attachments](../../api-e-specifiche/
 
 <summary><mark style="color:blue;">Step 5</mark> - Specifica il valore <code>ADVANCED</code> nel campo <a data-mention href="../../api-e-specifiche/api-messaggi/submit-a-message-passing-the-user-fiscal_code-in-the-request-body.md#feature_level_type">#feature_level_type</a> </summary>
 
-Specifica il valore `ADVANCED` nel campo [#feature\_level\_type](../../api-e-specifiche/api-messaggi/submit-a-message-passing-the-user-fiscal\_code-in-the-request-body.md#feature\_level\_type "mention") presente nella request.
+Specifica il valore `ADVANCED` nel campo [#feature\_level\_type](../../api-e-specifiche/api-messaggi/submit-a-message-passing-the-user-fiscal_code-in-the-request-body.md#feature_level_type "mention") presente nella request.
 
 </details>
 

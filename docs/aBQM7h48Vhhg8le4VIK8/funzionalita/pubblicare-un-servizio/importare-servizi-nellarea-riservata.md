@@ -6,7 +6,7 @@ L’[Area Riservata](https://www.pagopa.it/it/area-riservata/) è il portale web
 
 La nuova Area Riservata è anche il back-office dove creare i propri servizi di IO e gestire le relative api-key, in sostituzione del precedente [Developer Portal di IO](https://developer.io.italia.it/).
 
-Il Developer Portal è ancora in funzione, ma verrà dismesso nei prossimi mesi in favore del back office a cui si accede tramite l**'**[Area Riservata](https://www.pagopa.it/it/self-care/). Il processo di migrazione sarà graduale e gli enti avranno tutto il tempo per passare al nuovo portale.
+Il Developer Portal è ancora in funzione, ma verrà dismesso nei prossimi mesi in favore del back office a cui si accede tramite &#x6C;**'**[Area Riservata](https://www.pagopa.it/it/self-care/). Il processo di migrazione sarà graduale e gli enti avranno tutto il tempo per passare al nuovo portale.
 
 Tutti gli enti saranno invitati tramite comunicazione diretta, in tempi differenti, a transitare sull'[Area Riservata](https://www.pagopa.it/it/area-riservata/). Una volta entrati in Area Riservata, gli enti potranno iniziare l'importazione dei servizi dal vecchio Developer Portal.
 
