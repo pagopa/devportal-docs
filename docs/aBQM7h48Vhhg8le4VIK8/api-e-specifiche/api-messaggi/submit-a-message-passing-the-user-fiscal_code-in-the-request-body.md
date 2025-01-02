@@ -76,7 +76,7 @@ In Italia si usa il fuso UTC+1 quando è in vigore l'ora solare, mentre si usa i
 
 `2022-09-30T22:00:00Z` --> In Italia è la mezzanotte del 1° ottobre 2022
 
-`2022-11-30T23:00:00Z` --> In Italia è la mezzanotte del 1° novembre 2022
+`2022-11-30T23:00:00Z` --> In Italia è la mezzanotte del 1° dicembre 2022
 {% endhint %}
 
 {% hint style="warning" %}
