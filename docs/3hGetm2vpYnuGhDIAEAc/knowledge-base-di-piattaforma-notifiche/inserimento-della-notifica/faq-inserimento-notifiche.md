@@ -33,9 +33,9 @@ I documenti memorizzati su bucket S3 durante la fase di caricamento (1.a e 1.b d
 I passi da seguire sono i seguenti:
 
 1. **Pre inoltro della documentazione (atto di notifica e modello di pagamento).**\
-   Occorre chiamare il servizio [presignedUploadRequest ](https://petstore.swagger.io/?url=https%3A%2F%2Fraw.githubusercontent.com%2Fpagopa%2Fpn-delivery%2Fmain%2Fdocs%2Fopenapi%2Fapi-external-b2b-pa-bundle.yaml#/NewNotification/sendNewNotificationV23)per ottenere il/gli url da utilizzare per effettuare l'upload dei documenti**.** Non è obbligatorio caricare il modello di pagamento.
+   Occorre chiamare il servizio [presignedUploadRequest ](https://petstore.swagger.io/?url=https%3A%2F%2Fraw.githubusercontent.com%2Fpagopa%2Fpn-delivery%2Fmain%2Fdocs%2Fopenapi%2Fapi-external-b2b-pa-bundle.yaml#/NewNotification/sendNewNotificationV23)per ottenere il/gli url da utilizzare per effettuare l'upload dei document&#x69;**.** Non è obbligatorio caricare il modello di pagamento.
 2. **Upload della documentazione.**\
-   Occorre effettuare, per ogni documento, una richiesta HTTP con metodo ed url restituiti dal servizio _presignedUploadRequest_ nella chiamata al punto precedente**.**
+   Occorre effettuare, per ogni documento, una richiesta HTTP con metodo ed url restituiti dal servizio _presignedUploadRequest_ nella chiamata al punto precedent&#x65;**.**
 3. **Invio della notifica.**\
    A seguito dell'upload dei documenti , bisogna chiamare il servizio [sendNewNotification ](https://petstore.swagger.io/?url=https%3A%2F%2Fraw.githubusercontent.com%2Fpagopa%2Fpn-delivery%2Fmain%2Fdocs%2Fopenapi%2Fapi-external-b2b-pa-bundle.yaml#/NewNotification/sendNewNotificationV23)per completare l'invio della notifica, avendo cura di valorizzare correttamente i riferimenti ai documenti caricati al punto precedente.
 
@@ -85,7 +85,7 @@ Il processo di invio della notifica si sviluppa attraverso 2 diversi workflow:
 
 Il codice di tassonomia `taxonomyCode` è un campo obbligatorio utilizzato per definire la tipologia di atto notificato.
 
-Per le notifiche relative all'asseverazione del Bando è definito nell'_allegato 2 capitolo C_ del bando: [AVVISO PUBBLICO MISURA 1.4.5 PIATTAFORMA NOTIFICHE DIGITALI](https://pnrrcomuni.fondazioneifel.it/bandi\_public/Bando/325)
+Per le notifiche relative all'asseverazione del Bando è definito nell'_allegato 2 capitolo C_ del bando: [AVVISO PUBBLICO MISURA 1.4.5 PIATTAFORMA NOTIFICHE DIGITALI](https://pnrrcomuni.fondazioneifel.it/bandi_public/Bando/325)
 
 In generale l'elenco esaustivo dei codici tassonomici è pubblicato in [questa pagina.](../../tassonomia-send.md)
 
@@ -145,7 +145,7 @@ Il comando restituisce la codifica base64 della rappresentazione binaria di sha2
 
 ### Come posso simulare l'upload di un documento su S3?
 
-Aprire la shell di Git Bash o un terminal SSH ed eseguire il comando_:_
+Aprire la shell di Git Bash o un terminal SSH ed eseguire il comand&#x6F;_:_
 
 `curl -X<httpMethod> \`\
 `-H"Content-type: application/pdf" \`\
@@ -156,10 +156,10 @@ Aprire la shell di Git Bash o un terminal SSH ed eseguire il comando_:_
 `"<url>"`
 
 **\<httpMethod>**: è il metodo http (PUT o POST) indicato nella response della preload, da utilizzare per questa chiamata\
-**\<secret>**: è il secret ottenuto nella response della preload\
-**\<checksum>**: è il checksum sha256, codificato in base 64, del contenuto binario del file da caricare\
-**\<file>**: è il path del file da caricare\
-**\<url>**: è l'url del bucket S3 ottenuto nella response della preload, sul quale effettuare l'upload del documento\
+&#xNAN;**\<secret>**: è il secret ottenuto nella response della preload\
+&#xNAN;**\<checksum>**: è il checksum sha256, codificato in base 64, del contenuto binario del file da caricare\
+&#xNAN;**\<file>**: è il path del file da caricare\
+&#xNAN;**\<url>**: è l'url del bucket S3 ottenuto nella response della preload, sul quale effettuare l'upload del documento\
 **NOTA:** l'header `-H"trailer: x-amz-checksum-sha256"` è non obbligatorio ai fini del buon esito della chiamata, per tanto può essere omesso qualora si riscontrassero problemi durante questa fase; inoltre si evidenzia che in questa chiamata **NON** deve essere inserito l'Autorization Header `"Authorization: Bearer <PDNDVoucher>`con il Vocuher.
 
 ### Quanto tempo ho per scaricare le Attestazioni Opponibili a Terzi?
@@ -200,7 +200,7 @@ Se si utilizza un client Java, può capitare che pur non effettuando il set di u
 
 * configurare l’ObjectMapper per far sì che includa solamente i campi NON\_NULL con la seguente configurazione: _mapper.setSerializationInclusion(Include.NON\_NULL);_
 * se si utilizza la libreria Jackson per la serializzazione delle request, è possibile aggiungere questa annotation a livello di Classe:\
-  _@com.fasterxml.jackson.annotation.JsonInclude(com.fasterxml.jackson.annotation.JsonInclude.Include.NON\_NULL)_
+  &#xNAN;_@com.fasterxml.jackson.annotation.JsonInclude(com.fasterxml.jackson.annotation.JsonInclude.Include.NON\_NULL)_
 
 ### Posso riutilizzare lo stesso IUV di una notifica rifiutata?
 
@@ -272,13 +272,13 @@ l'API[ NotificationPriceV23](../../api-changelog/api-versione-ga-2.3.md#nuova-ap
 * € 1 (per PND) se il _notificationFeePolicy=DELIVERY\_MODE_ e la notifica NON ha comportato invio cartaceo
 * € 1 (per PND) se il _notificationFeePolicy=DELIVERY\_MODE_ + X € costo dell'invio cartacea\
   **NOTA:** il costo X dell'invio cartaceo dipende dai tabellari dei prezzi di aggiudicazione delle gare pubbliche di recapito, visibili qui:\
-  [https://pagopa.portaleamministrazionetrasparente.it/moduli/downloadFile.php?file=oggetto\_allegati/23501547570O\_\_OPREZZI+DI+AGGIUDICAZIONE+GARA+SERVIZI+POSTALI+E+SERVIZI+%26%238220%3BA+VALLE%26%238221%3B+DEL+RECAPITO.docx.pdf](https://pagopa.portaleamministrazionetrasparente.it/moduli/downloadFile.php?file=oggetto\_allegati/23501547570O\_\_OPREZZI+DI+AGGIUDICAZIONE+GARA+SERVIZI+POSTALI+E+SERVIZI+%26%238220%3BA+VALLE%26%238221%3B+DEL+RECAPITO.docx.pdf)
+  [https://pagopa.portaleamministrazionetrasparente.it/moduli/downloadFile.php?file=oggetto\_allegati/23501547570O\_\_OPREZZI+DI+AGGIUDICAZIONE+GARA+SERVIZI+POSTALI+E+SERVIZI+%26%238220%3BA+VALLE%26%238221%3B+DEL+RECAPITO.docx.pdf](https://pagopa.portaleamministrazionetrasparente.it/moduli/downloadFile.php?file=oggetto_allegati/23501547570O__OPREZZI+DI+AGGIUDICAZIONE+GARA+SERVIZI+POSTALI+E+SERVIZI+%26%238220%3BA+VALLE%26%238221%3B+DEL+RECAPITO.docx.pdf)
 
 A questo punto la PA mittente può decidere a sua discrezione se addebitare al destinatario anche €1 previsti dalla legge a copertura dei costi sostenuti dalla PA stessa.
 
 l'API[ NotificationPriceV23](../../api-changelog/api-versione-ga-2.3.md#nuova-api-retrievenotificationpricev23) fornisce inoltre, se presente, anche la **notificationViewDate** (data di visualizzazione della notifica) e la **refinementDate** (data di perfezionamento per decorrenza): se una delle due è presente nella response del servizio, significa che il costo restituito non subirà ulteriori variazioni in futuro.\
 E' possibile sfruttare questa informazione per anticipare la chiamata al servizio e completare l'attualizzazione del costo di notifica anche prima del tentativo di pagamento da parte del destinatario. In tutti gli altri casi è sempre necessario completare l'attualizzazione del costo di notifica durante la fase di pagamento da parte del destinatario.\
-**NOTE:** la presenza della **notificationViewDate** valorizzata **NON** comporta necessariamente il Perfezionamento per presa visione. Per i dettagli sul perfezionamento vedi: [https://docs.pagopa.it/f.a.q.-per-integratori/knowledge-base-di-piattaforma-notifiche/focus-sul-perfezionamento-della-notifica](https://docs.pagopa.it/f.a.q.-per-integratori/knowledge-base-di-piattaforma-notifiche/focus-sul-perfezionamento-della-notifica)
+**NOTE:** la presenza della **notificationViewDate** valorizzata **NON** comporta necessariamente il Perfezionamento per presa visione. Per i dettagli sul perfezionamento vedi: [Perfezionamento delle notifica](../perfezionamento-della-notifica.md).
 
 ### Il servizio notificationPrice può restituire valori diversi nel tempo per la stessa combinazione paTaxId/noticeCode?
 
