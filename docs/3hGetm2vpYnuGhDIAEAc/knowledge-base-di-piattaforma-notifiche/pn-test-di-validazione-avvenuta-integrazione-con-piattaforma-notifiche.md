@@ -4,7 +4,7 @@ Scopo di questo documento è di raccogliere i test che una PA mittente, o il su
 
 ### Istruzioni su processo di validazione dei test
 
-Per convalidare i test descritti nel documento: Test di certificazione avvenuta integrazione con Piattaforma Notifiche è possibile utilizzare il tool di validazione PN-Validator, la cui documentazione ed istruzioni di utilizzo sono esposti alla seguente pagina: [https://docs.pagopa.it/pnvalidator/](https://docs.pagopa.it/pnvalidator/)
+Per convalidare i test descritti nel documento: Test di certificazione avvenuta integrazione con Piattaforma Notifiche è possibile utilizzare il tool di validazione PN-Validator, la cui documentazione ed istruzioni di utilizzo sono esposti alla seguente pagina: [ PN Validator](https://app.gitbook.com/o/KXYtsf32WSKm6ga638R3/s/niZ9BM7pjxsgBMMWBim1/).
 
 Il PN-Validator genera un report in formato JSON visualizzabile contattando la url: _{basUrlValidator}/checklistresult_ dove sono elencate una serie di domande inizialmente in false, che descrivono le azioni da compiere per considerare validati i test-case. Il report verrà aggiornato di volta in volta che le chiamate effettuate dal partner soddisferanno i requisiti richiesti dal test-case di riferimento, portando le domande in true.
 
