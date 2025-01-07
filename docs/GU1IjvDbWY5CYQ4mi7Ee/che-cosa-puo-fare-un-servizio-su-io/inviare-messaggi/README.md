@@ -10,9 +10,9 @@ Ne consegue che **è escluso sia l’invio di comunicazioni massive** alla tota
 
 ## Tipologie di messaggi
 
-I messaggi che vengono inviati su IO possono essere di diversa tipologie e arricchiti a seconda di:
+I messaggi che vengono inviati su IO possono essere di diverse tipologie e arricchiti a seconda di:
 
-* Quale tipologia contenuto viene veicolato: _informativo, di pagamento o di scadenza;_
+* Quale tipologia di contenuto viene veicolato: _informativo, di pagamento o di scadenza;_
 * Come viene gestito il contenuto del messaggio: _statico o da remoto;_
 * Quale tipologia di contratto è stato firmato dall'ente: _standard o Premium._
 
@@ -28,10 +28,10 @@ In generale, i messaggi possono essere:
 
 ### Gestione del contenuto&#x20;
 
-Oltre alle categorizzazioni precedentemente descritte, i messaggi sono identificabili in due tipologie, **secondo la modalità di gestione del contenuto** previsto dalla tua Organizzazione:
+Oltre alle categorizzazioni precedentemente descritte, i messaggi sono identificabili in due tipologie, **secondo la modalità di gestione del contenuto** prevista dal tuo Ente:
 
 * **Messaggi tradizionali**, ovvero i messaggi il cui contenuto è invariabile nel tempo e definito al momento del loro invio;
-* **Messaggi a contenuto remoto**, ovvero i messaggi il cui contenuto non è persistito su IO ma fornito direttamente dai tuoi sistemi al momento della loro fruizione da parte del destinatario. In particolare, i messaggi a contenuto remoto sono pensati per le comunicazioni che veicolano informazioni sensibili.&#x20;
+* **Messaggi a contenuto remoto**, ovvero i messaggi il cui contenuto non è gestito direttamente da IO ma fornito dai tuoi sistemi al momento della loro fruizione da parte del destinatario. In particolare, i messaggi a contenuto remoto sono pensati per le comunicazioni che veicolano informazioni sensibili.&#x20;
 
 Puoi trovare informazioni di dettaglio sui messaggi a contenuto remoto nella [sezione dedicata della Guida tecnica di IO](https://app.gitbook.com/s/sUBZStlCQZzLI6ZesbND/funzionalita/inviare-un-messaggio/inviare-un-messaggio-a-contenuto-remoto).
 
@@ -45,15 +45,14 @@ Puoi trovare informazioni di dettaglio sui messaggi a contenuto remoto nella [se
 
 ## Tipologia di contratto
 
-Gli enti possono avvalersi di messaggi standard oppure firmare un **nuovo contratto di app IO che consente di usufruire di funzionalità Premium**.
+Gli enti possono avvalersi di messaggi standard oppure firmare il contratto avente ad oggetto la funzionalità Premium di app IO.
 
 Rispetto ai messaggi Standard, quelli Premium offrono **funzionalità** in più:
 
 * possono contenere degli [**allegati**](messaggi-con-allegati-premium.md);
 * l’ente può verificare in ogni momento se sono stati inviati, ricevuti o **letti**;
 * in caso di presenza di un avviso di pagamento, l’ente può verificare in ogni momento se sono stati **pagati**;
-* se il cittadino dà il suo consenso, possono generare notifiche push che **ricordano al cittadino che il messaggio non è stato letto**;
-* se il cittadino dà il suo consenso, possono generare notifiche push che **ricordano al cittadino che il messaggio è stato letto ma non ancora pagato**.
+* se il cittadino dà il suo consenso, e la posizione debitoria associata presenta una data di scadenza, possono generare notifiche push che **ricordano al cittadino che il messaggio è stato letto ma non ancora pagato**.
 
 Al momento dell'invio, gli enti che hanno aderito al programma Premium possono indicare, per ciascun messaggio da inviare, se questo sia Premium - e dunque a pagamento, secondo le condizioni sottoscritte - oppure standard.
 
@@ -67,5 +66,5 @@ Ecco un riassunto delle funzionalità e la tipologia di messaggi a cui si applic
 | Allegati al messaggio                                                                    | ❌             | ✅                |
 | Verifica che il messaggio sia stato inviato, ricevuto o letto                            | ❌             | ✅                |
 | Verifica che l'avviso di pagamento del messaggio sia stato pagato                        | ❌             | ✅                |
-| Possibilità di invio di notifiche push che ricordano che un messaggio non è stato letto  | ❌             | ✅                |
 | Possibilità di invio di notifiche push che ricordano che un messaggio non è stato pagato | ❌             | ✅                |
+
