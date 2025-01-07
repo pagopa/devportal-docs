@@ -7,7 +7,7 @@ Per scoprire come farlo, [<mark style="color:blue;">**vai alla guida tecnica -->
 {% hint style="warning" %}
 **Il Developer Portal verrà dismesso**
 
-Il [Developer Portal](https://developer.io.italia.it/) è ancora in funzione, ma verrà dismesso nei prossimi mesi in favore del back office a cui si accede tramite &#x6C;**'**[Area Riservata](https://www.pagopa.it/it/self-care/). Il processo di migrazione sarà graduale e gli enti avranno tutto il tempo per passare al nuovo portale.
+Il [Developer Portal](https://developer.io.italia.it/) è ancora in funzione, ma verrà dismesso nei prossimi mesi in favore del back office a cui si accede tramite &#x6C;**'**[Area Riservata](https://www.pagopa.it/it/area-riservata/). Il processo di migrazione sarà graduale e gli enti avranno tutto il tempo per passare al nuovo portale.
 {% endhint %}
 
 ### Revisione e validazione
