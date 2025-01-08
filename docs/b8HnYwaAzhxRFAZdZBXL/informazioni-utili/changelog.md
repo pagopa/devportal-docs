@@ -10,6 +10,18 @@ description: >-
 
 <details>
 
+<summary>Gennaio 2025</summary>
+
+### 1.0.132
+
+**8 gennaio**
+
+* Bug fixing
+
+</details>
+
+<details>
+
 <summary>Dicembre 2024</summary>
 
 ### 1.0.131
