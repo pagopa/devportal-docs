@@ -287,7 +287,7 @@ Per i dettagli [https://github.com/pagopa/pagopa-api/tree/SANP3.9.1](https://git
 ```xml
 <soapenv:Envelope>
     <soapenv:Body>
-      <pafn:paGetPaymentReq>
+      <pafn:paGetPaymentV2Request>
         <idPA>77777777777</idPA>
         <idBrokerPA>77777777777</idBrokerPA>
         <idStation>77777777777_01</idStation>
@@ -296,7 +296,7 @@ Per i dettagli [https://github.com/pagopa/pagopa-api/tree/SANP3.9.1](https://git
           <noticeNumber>311111111112222222</noticeNumber>
         </qrCode>
         <amount>30.00</amount>
-      </pafn:paGetPaymentReq>
+      </pafn:paGetPaymentV2Request>
     </soapenv:Body>
   </soapenv:Envelope>         
 ```
@@ -307,7 +307,7 @@ Per i dettagli [https://github.com/pagopa/pagopa-api/tree/SANP3.9.1](https://git
 <soapenv:Envelope>
   <soapenv:Header />
   <soapenv:Body>
-    <paf:paGetPaymentRes>
+    <paf:paGetPaymentV2Response>
       <outcome>OK</outcome>
       <data>
         <creditorReferenceId>11111111112222222</creditorReferenceId>
@@ -365,7 +365,7 @@ Per i dettagli [https://github.com/pagopa/pagopa-api/tree/SANP3.9.1](https://git
           </mapEntry>
         </metadata>
       </data>
-    </paf:paGetPaymentRes>
+    </paf:paGetPaymentV2Response>
   </soapenv:Body>
 </soapenv:Envelope>
 ```
@@ -642,7 +642,7 @@ Per i dettagli [https://github.com/pagopa/pagopa-api/tree/SANP3.9.1](https://git
 ```xml
   <soapenv:Envelope>
     <soapenv:Body>
-      <pafn:paSendRTReq>
+      <pafn:paSendRTV2Request>
         <idPA>77777777777</idPA>
         <idBrokerPA>77777777777</idBrokerPA>
         <idStation>77777777777_01</idStation>
@@ -732,7 +732,7 @@ Per i dettagli [https://github.com/pagopa/pagopa-api/tree/SANP3.9.1](https://git
           </metadata>
           <standin>false</standin>
         </receipt>
-      </pafn:paSendRTReq>
+      </pafn:paSendRTV2Request>
     </soapenv:Body>
   </soapenv:Envelope>
 ```
@@ -742,9 +742,9 @@ Per i dettagli [https://github.com/pagopa/pagopa-api/tree/SANP3.9.1](https://git
 ```xml
 <soapenv:Envelope>
   <soapenv:Body>
-    <paf:paSendRTRes>
+    <paf:paSendRTV2Response>
       <outcome>OK</outcome>
-    </paf:paSendRTRes>
+    </paf:paSendRTV2Response>
   </soapenv:Body>
 </soapenv:Envelope>
 ```
@@ -1073,7 +1073,7 @@ Per i dettagli [https://github.com/pagopa/pagopa-api/tree/SANP3.9.1](https://git
 ```xml
   <soapenv:Envelope>
     <soapenv:Body>
-      <nod:activatePaymentNoticeReq>
+      <nod:activatePaymentNoticeV2Request>
         <idPSP>88888888888</idPSP>
         <idBrokerPSP>88888888888</idBrokerPSP>
         <idChannel>88888888888_01</idChannel>
@@ -1085,7 +1085,7 @@ Per i dettagli [https://github.com/pagopa/pagopa-api/tree/SANP3.9.1](https://git
         </qrCode>
         <expirationTime>6000</expirationTime>
         <amount>30.00</amount>
-      </nod:activatePaymentNoticeReq>
+      </nod:activatePaymentNoticeV2Request>
     </soapenv:Body>
   </soapenv:Envelope>
 ```
@@ -1095,7 +1095,7 @@ Per i dettagli [https://github.com/pagopa/pagopa-api/tree/SANP3.9.1](https://git
 ```xml
 <soapenv:Envelope>
   <soapenv:Body>
-    <nfpsp:activatePaymentNoticeRes>
+    <nfpsp:activatePaymentNoticeV2Response>
       <outcome>OK</outcome>
       <totalAmount>30.00</totalAmount>
       <paymentDescription>test</paymentDescription>
@@ -1139,7 +1139,7 @@ Per i dettagli [https://github.com/pagopa/pagopa-api/tree/SANP3.9.1](https://git
       <suggestedIdBundle>1</suggestedIdBundle>
       <suggestedIdCiBundle>2</suggestedIdCiBundle>
       <standin>false</standin>
-    </nfpsp:activatePaymentNoticeRes>
+    </nfpsp:activatePaymentNoticeV2Response>
   </soapenv:Body>
 </soapenv:Envelope>
 ```
@@ -1332,7 +1332,7 @@ Per i dettagli [https://github.com/pagopa/pagopa-api/tree/SANP3.9.1](https://git
 ```xml
   <soapenv:Envelope>
     <soapenv:Body>
-        <nod:sendPaymentOutcomeReq>
+        <nod:sendPaymentOutcomeV2Request>
           <idPSP>88888888888</idPSP>
           <idBrokerPSP>88888888888</idBrokerPSP>
           <idChannel>88888888888_01</idChannel>
@@ -1367,7 +1367,7 @@ Per i dettagli [https://github.com/pagopa/pagopa-api/tree/SANP3.9.1](https://git
               <applicationDate>2021-10-01</applicationDate>
               <transferDate>2021-10-02</transferDate>
           </details>
-        </nod:sendPaymentOutcomeReq>
+        </nod:sendPaymentOutcomeV2Request>
     </soapenv:Body>
   </soapenv:Envelope>
 ```
@@ -1377,9 +1377,9 @@ Per i dettagli [https://github.com/pagopa/pagopa-api/tree/SANP3.9.1](https://git
 ```xml
 <soapenv:Envelope>
   <soapenv:Body>
-    <nfpsp:sendPaymentOutcomeRes>
+    <nfpsp:sendPaymentOutcomeV2Response>
       <outcome>OK</outcome>
-    </nfpsp:sendPaymentOutcomeRes>
+    </nfpsp:sendPaymentOutcomeV2Response>
   </soapenv:Body>
 </soapenv:Envelope>
 ```
@@ -2080,7 +2080,7 @@ Altri canali di pagamento
 ```xml
 <soap:Envelope>
     <soap:Body>
-        <ns5:nodoChiediCatalogoServizi>
+        <ns5:nodoChiediCatalogoServiziV2Request>
             <identificativoPSP>88888888888</identificativoPSP>
             <identificativoIntermediarioPSP>88888888888</identificativoIntermediarioPSP>
             <identificativoCanale>88888888888_01</identificativoCanale>
@@ -2088,7 +2088,7 @@ Altri canali di pagamento
             <identificativoDominio>77777777777</identificativoDominio>
             <categoria>Donazioni</categoria>
             <commissione>N</commissione>
-        </ns5:nodoChiediCatalogoServizi>
+        </ns5:nodoChiediCatalogoServiziV2Request>
     </soap:Body>
 </soap:Envelope>
 ```
@@ -2098,10 +2098,10 @@ Altri canali di pagamento
 ```xml
 <soapenv:Envelope>
     <soapenv:Body>
-        <nodoChiediCatalogoServizi>
+        <nodoChiediCatalogoServiziV2Response>
             <esito>OK</esito>
             <xmlCatalogoServizi>Catalogo dei servizi base64 encoded</xmlCatalogoServizi>
-        </nodoChiediCatalogoServizi>
+        </nodoChiediCatalogoServiziV2Response>
     </soapenv:Body>
 </soapenv:Envelope>
 ```
