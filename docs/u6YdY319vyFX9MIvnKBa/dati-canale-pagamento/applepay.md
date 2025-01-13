@@ -108,7 +108,23 @@ Sì
 {% endtab %}
 {% endtabs %}
 
+{% tabs %}
+{% tab title="Key" %}
+`authorizationRequestId`
+{% endtab %}
 
+{% tab title="Tipo" %}
+Stringa
+{% endtab %}
+
+{% tab title="Dimensioni" %}
+N/A
+{% endtab %}
+
+{% tab title="Obbligatorio" %}
+SI
+{% endtab %}
+{% endtabs %}
 
 {% tabs %}
 {% tab title="Key" %}
