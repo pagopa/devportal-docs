@@ -34,7 +34,7 @@ Quando il pagamento è legato ad una **domiciliazione** — anche d. bancaria, d
 
 **Entro il:** \<gg/mm/aaaa>
 
-Puoi pagare direttamente in app premendo “Vedi Avviso”, oppure tramite tutti i canali di pagamento della piattaforma pagoPA e le altre modalità di pagamento offerte dell'ente creditore.
+Puoi pagare direttamente in app premendo “Paga", oppure tramite tutti i canali di pagamento della piattaforma pagoPA e le altre modalità di pagamento offerte dell'ente creditore.
 
 Se hai già provveduto a pagare l'avviso ignora questo messaggio.
 
@@ -42,7 +42,7 @@ Per maggiori informazioni o per richiedere assistenza, contattaci tramite i cana
 
 In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio potrebbe subire variazioni.
 
-**🪄 Pulsante**: Vedi Avviso
+**🪄 Pulsante**: Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
 
 ***
 
@@ -76,13 +76,13 @@ In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio p
 
 **Entro il**: \<gg/mm/aaaa>
 
-Puoi pagare direttamente in app premendo "Vedi Avviso", oppure tramite tutti i canali di pagamento della piattaforma pagoPA.
+Puoi pagare direttamente in app premendo "Paga", oppure tramite tutti i canali di pagamento della piattaforma pagoPA.
 
 Per maggiori informazioni o per richiedere assistenza, contattaci tramite i canali che trovi nella scheda servizio.
 
 In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio potrebbe subire variazioni.
 
-**🪄  Pulsante**: Vedi Avviso
+**🪄  Pulsante**: Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
 
 ***
 
@@ -116,7 +116,7 @@ Il tuo pagamento \<causale> è scaduto il \<gg/mm/aaaa>.
 
 Se hai già provveduto a pagare l’avviso <mark style="color:orange;">\{{{o se hai richiesto la domiciliazione</mark> <mark style="color:purple;">{delle rette}</mark> <mark style="color:orange;">sul conto corrente, \}}}</mark> ignora questo messaggio.
 
-**🪄 Pulsante**: Vedi Avviso
+**🪄 Pulsante**: Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
 
 ***
 
