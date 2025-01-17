@@ -1,5 +1,7 @@
 ---
-description: SEND GA 2.3
+description: >-
+  SEND GA 2.3: Annullamento della notifica e visualizzazione cause
+  irreperibilità totale
 ---
 
 # 22 Ottobre 2024
