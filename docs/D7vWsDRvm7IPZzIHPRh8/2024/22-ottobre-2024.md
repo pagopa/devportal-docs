@@ -1,18 +1,34 @@
+---
+description: SEND GA 2.3
+---
+
 # 22 Ottobre 2024
 
-## 22 Ottobre 2024
+La versione GA 2.3 di SEND aggiunge la funzionalità di annullamento della notifica da parte del mittente e la visualizzazione delle cause che conducono all'irreperibilità totale. Definizione OpenAPI Swagger
 
-### SEND GA 2.3&#x20;
+### Annullamento della notifica&#x20;
 
-#### Annullamento della notifica e visualizzazione cause irreperibilità totale&#x20;
+#### A quale esigenza rispondiamo?&#x20;
 
-La versione GA 2.0 di SEND aggiunge la funzionalità di annullamento della notifica da parte del mittente e la visualizzazione delle cause che conducono all'irreperibilità totale. Definizione OpenAPI Swagger
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.&#x20;
 
+#### Quale soluzione adottiamo?&#x20;
 
+L'annullamento della notifica può essere effettuata da via B2B o via portale mittente. Per supportare questa funzionalità sono state effettuati i seguenti interventi sulla API:&#x20;
 
-Nuove funzionalità&#x20;
+* Aggiunta l'operation notificationCancellation PUT /delivery-push/v2.0/notifications/cancel/{iun}: Permette l'annullamento di una notifica immettendo lo IUN nel path, restituendo una presa in carico, il processo di annullamento si completa poi in maniera asincrona.&#x20;
+* Nuova versione dell'operation retrieveSentNotificationV20 GET /delivery/v2.0/notifications/sent/{iun}: permette di visualizzare le specifiche della notifica inserendo lo IUN anche delle notifiche annullate con i dettagli di stato e di eventi relativi l'annullamento.&#x20;
+* Aggiunti eventi di timeline collegati all'annullamento della notifica:
+  * `NOTIFICATION_CANCELLATION_REQUEST` - Richiesta di annullamento di una notifica&#x20;
+  * `NOTIFICATION_CANCELLED` - Notifica annullata&#x20;
 
-Annullamento della notifica A quale esigenza rispondiamo? Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Quale soluzione adottiamo? L'annullamento della notifica può essere effettuata da via B2B o via portale mittente. Per supportare questa funzionalità sono state effettuati i seguenti interventi sulla API: Aggiunta l'operation notificationCancellation PUT /delivery-push/v2.0/notifications/cancel/{iun}: Permette l'annullamento di una notifica immettendo lo IUN nel path, restituendo una presa in carico, il processo di annullamento si completa poi in maniera asincrona. Nuova versione dell'operation retrieveSentNotificationV20 GET /delivery/v2.0/notifications/sent/{iun}: permette di visualizzare le specifiche della notifica inserendo lo IUN anche delle notifiche annullate con i dettagli di stato e di eventi relativi l'annullamento. Aggiunti eventi di timeline collegati all'annullamento della notifica: `NOTIFICATION_CANCELLATION_REQUEST` - Richiesta di annullamento di una notifica `NOTIFICATION_CANCELLED` - Notifica annullata Quali sono gli impatti? Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Cosa devo fare ora? Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+#### Quali sono gli impatti?&#x20;
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.&#x20;
+
+#### Cosa devo fare ora?&#x20;
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 
 
