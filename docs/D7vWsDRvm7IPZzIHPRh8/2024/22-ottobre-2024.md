@@ -8,6 +8,10 @@ description: >-
 
 La versione GA 2.3 di SEND aggiunge la funzionalità di annullamento della notifica da parte del mittente e la visualizzazione delle cause che conducono all'irreperibilità totale. Definizione OpenAPI Swagger
 
+
+
+`Nuove Funzionalità`
+
 ### Annullamento della notifica&#x20;
 
 #### A quale esigenza rispondiamo?&#x20;
@@ -32,6 +36,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
+`Nuove Funzionalità`
+
 ### Visualizzazione cause irreperibilità totale&#x20;
 
 Aggiunto elemento nuovo di timeline PREPARE\_ANALOG\_DOMICILE\_FAILURE che riporta nei dettagli nell'elemento failureCause la motivazione del fallimento:&#x20;
@@ -39,6 +45,8 @@ Aggiunto elemento nuovo di timeline PREPARE\_ANALOG\_DOMICILE\_FAILURE che ripor
 * D00: Indirizzo non trovato&#x20;
 * D01: Indirizzo non valido&#x20;
 * D02: Indirizzo coincidente con quello del primo tentativo
+
+`Bug Fixing`
 
 ### Fix agli stream di stato e degli eventi di timeline&#x20;
 
