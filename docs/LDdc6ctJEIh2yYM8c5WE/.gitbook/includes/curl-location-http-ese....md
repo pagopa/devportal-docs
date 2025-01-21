@@ -1,0 +1,13 @@
+---
+title: curl --location 'http://ese...
+---
+
+```bash
+curl --location 'http://eservices.att.interop.pagopa.it/residence-verification/data-preparation' \
+--header 'x-correlation-id: 123' \
+--header 'Content-Type: application/json' \
+--header 'Content-Encoding: identity' \
+--header 'digest: SHA-256=50b79db5561e64c8165374f2ae3ef6b8160ecbe81b85393d4c8efd7482ced6a3' \
+--header 'Authorization: Bearer eyJ0eXAiOiJhdCtqd3QiLCJhbGciOiJSUzI1NiIsInVzZSI6InNpZyIsImtpZCI6IjBlNWUxMDZlLTA4MDYtNDQwMi05ZTkzLTFlMGRlN2MwZTQ1OCJ9.eyJhdWQiOiJpbnRlcm9wLWF0dC1lc2VydmljZXMtcmVzLXZlciIsInN1YiI6Ijg1MzJkZTJiLTM4NmYtNGFhYy1hZGZjLWU0NmQzMzRkM2FkMCIsIm5iZiI6MTcxODc4MTU5NCwicHVycG9zZUlkIjoiZWJhYzEzNGMtNzI0Zi00MzgxLTgxODAtN2YyZTFlYmZlNDY4IiwiaXNzIjoiYXR0LmludGVyb3AucGFnb3BhLml0IiwiZXhwIjoxNzE4Nzg4Nzk0LCJpYXQiOjE3MTg3ODE1OTQsImNsaWVudF9pZCI6Ijg1MzJkZTJiLTM4NmYtNGFhYy1hZGZjLWU0NmQzMzRkM2FkMCIsImp0aSI6IjIwYTY0Njc3LTA2ZjYtNGYwMi1iZWQzLWQ4MmNmODM0ODVkZCJ9.TsUUKIKgbQHYR7Qw6F9G9bSaR3IKSpa7sUPWi5GCJnRMnu_7TYY_DTTqbtfZlRmSPMf68-G3vDXSNmjc9CqOD716mxPIoZB5F2a12W5R7ezTFomGVv-2qMvPa88eq2yqW3Ajv4KMEB3GPmFdYkHGQkgi_HJLmENVE_uQ4P1bKJfG2i543u5laWq8hzae_mWoexi6sNFHpkX4ZpEhOVID5YBQrb088bB0w5buSopDd-hi0wXE__4sfqZGN4a_SBxEcPl4SQh6nE7vkYAI-zgjJe5xydTQCfuHKGO50T_iZoJz1lZPx7slVaDTH4G1KM6VzZTpBQfIVfcDKqg5w-kXxQ' \
+--data '{ "soggetto": { "codiceFiscale": "ABCDEF01G02H3456", "id": "123", "nome": "Pluto", "cognome": "Rossi", "sesso": "M", "datiNascita": { "dataEvento": "2021-11-15", "luogoNascita": { "comune": { "nomeComune": "Roma" }, "localita": { "codiceStato": "ITA" } } } }, "residenza": { "tipoIndirizzo": "Via", "noteIndirizzo": "N/D", "indirizzo": { "cap": "00100", "comune": { "nomeComune": "Roma", "codiceIstat": "123456", "siglaProvinciaIstat": "RM", "descrizioneLocalita": "N/D" }, "frazione": "N/D", "toponimo": { "codSpecie": "1", "specie": "Via", "specieFonte": "N/D", "codToponimo": "1", "denominazioneToponimo": "Via Roma", "toponimoFonte": "N/D" }, "numeroCivico": { "codiceCivico": "N/D", "civicoFonte": "N/D", "numero": "10", "metrico": "N/D", "progSNC": "N/D", "lettera": "A", "esponente1": "N/D", "colore": "N/D", "civicoInterno": { "corte": "N/D", "scala": "N/D", "interno1": "N/D", "espInterno1": "N/D", "interno2": "N/D", "espInterno2": "N/D", "scalaEsterna": "N/D", "secondario": "N/D", "piano": "N/D", "nui": "N/D", "isolato": "N/D" } } }, "localitaEstera": { "indirizzoEstero": { "cap": "12345", "localita": { "descrizioneLocalita": "N/D", "descrizioneStato": "N/D", "codiceStato": "N/D", "provinciaContea": "N/D" }, "toponimo": { "denominazione": "N/D", "numeroCivico": "N/D" } }, "consolato": { "codiceConsolato": "N/D", "descrizioneConsolato": "N/D" } }, "presso": "N/D", "dataDecorrenzaResidenza": "2021-11-15" } }'
+```
