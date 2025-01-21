@@ -79,7 +79,7 @@ Tutte le figure operative (Operatore API e Operatore di Sicurezza) potranno esse
 {% endhint %}
 
 {% hint style="warning" %}
-Ulteriori Amministratori, oltre a quelli segnalati in fase di adesione, possono essere aggiunti direttamente dalla Dashboard dell’ente per l'ambiente di Collaudo, mentre per l'ambiente di Produzione bisognerà compilare i documenti allegati a fine pagina e inviarli alla PEC indicata.
+Ulteriori Amministratori, oltre a quelli segnalati in fase di adesione, possono essere aggiunti direttamente dalla Dashboard dell’ente per i vari ambienti, mentre per rimuoverli dall'ambiente di Produzione bisognerà compilare il documento allegato a fine pagina e inviarlo alla PEC indicata.
 {% endhint %}
 
 Per PA e GSP: una volta completato l'inserimento, clicca su _Continua._ Se non ci sono errori, viene generato e inviato alla PEC del tuo ente l'Accordo di Adesione da firmare. L'indirizzo a cui viene inviato il documento è quello indicato come domicilio digitale all'interno del Catalogo IPA.
