@@ -12,6 +12,19 @@ description: >-
 
 <summary>Gennaio 2025</summary>
 
+### 1.0.134
+
+**22 gennaio**
+
+* Aggiunta la possibilità di modificare il nome di un e-service
+* Bug fixing
+
+### 1.0.133
+
+**20** **gennaio**
+
+* Aggiornamento infrastrutturale
+
 ### 1.0.132
 
 **8 gennaio**
