@@ -21,7 +21,7 @@ I sistemi in capo all’ente aggiornano lo stato della posizione debitoria del p
 
 [In questa pagina](https://docs.pagopa.it/gestionedeglierrori/faultcode-e-faultstring/domino-ec) trovi le specifiche per gestire gli errori.&#x20;
 
-[In questa pagina](https://app.gitbook.com/s/PmBz3R5ejc6lLp80K94Z/appendici/primitive#pagetpayment) trovi le specifiche su come compilare la data di scadenza della posizione debitoria.&#x20;
+[In questa pagina](https://developer.pagopa.it/pago-pa/guides/sanp/appendici/primitive) trovi le specifiche su come compilare la data di scadenza della posizione debitoria.&#x20;
 
 ## 2. L'ente crea la posizione debitoria
 
