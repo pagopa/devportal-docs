@@ -39,7 +39,7 @@ L'ente, tramite i propri sistemi, indica per la stessa posizione debitoria chi s
 
 ### Documentazione tecnica
 
-* [In questa pagina ](https://app.gitbook.com/s/PmBz3R5ejc6lLp80K94Z/appendici/primitive)trovi le specifiche su come compilare il metadato per ogni singolo **`transfer`**, indicando per ogni ente beneficiario: **`transferAmount, fiscalCodePA, companyName, IBAN`**.
+* [In questa pagina](https://developer.pagopa.it/pago-pa/guides/sanp/appendici/primitive) trovi le specifiche su come compilare il metadato per ogni singolo **`transfer`**, indicando per ogni ente beneficiario: **`transferAmount, fiscalCodePA, companyName, IBAN`**.
 
 ## 4. L'ente comunica l'avviso di pagamento
 
