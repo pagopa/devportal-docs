@@ -22,7 +22,7 @@ I sistemi in capo all’ente caricano sul back-office SEND la notifica per il ci
 
 ### Documentazione tecnica&#x20;
 
-[In questa pagina](https://developer.pagopa.it/send/api#/send/api/operations/retrieveNotificationPriceV23) trovi le specifiche sull'API **`notificationPriceV23`**da utilizzare per conoscere l'importo dei costi di notifica da applicare agli avvisi di pagamento.&#x20;
+[In questa pagina](https://developer.pagopa.it/send/api#/send/api/operations/retrieveNotificationPriceV23) trovi le specifiche sull'API **`notificationPriceV23`**&#x64;a utilizzare per conoscere l'importo dei costi di notifica da applicare agli avvisi di pagamento.&#x20;
 
 [In questa pagina](https://developer.pagopa.it/send/api#/send/api/operations/sendNewNotificationV23) trovi le specifiche per collegare uno o più avvisi alla notifica: i sistemi in capo dall'ente devono utilizzare il campo **`pagoPa`** all’interno dell’oggetto **`payments`** (dentro recipients), fornendo i seguenti dati:&#x20;
 
@@ -75,7 +75,7 @@ Apre la notifica entro 120 ore (5 giorni) dalla consegna, pertanto la notifica s
 
 ### Documentazione tecnica&#x20;
 
-[In questa pagina](https://docs.pagopa.it/sanp/appendici/primitive#pagetpayment-1) trovi le specifiche tecniche per compilare il campo **`dueDate`** della posizione debitoria con la data di perfezionamento della notifica.
+[In questa pagina ](https://app.gitbook.com/s/PmBz3R5ejc6lLp80K94Z/appendici/primitive)trovi le specifiche tecniche per compilare il campo **`dueDate`** della posizione debitoria con la data di perfezionamento della notifica.
 
 [In questa pagina](https://developer.pagopa.it/send/api#/send/api/operations/retrieveNotificationPriceV23) trovi le specifiche tecniche per conoscere la data di perfezionamento della notifica, utilizza l’API **`notificationPriceV23`.**&#x20;
 
