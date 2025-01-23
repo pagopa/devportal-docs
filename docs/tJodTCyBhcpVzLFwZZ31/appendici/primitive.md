@@ -8,7 +8,9 @@ I campi contrassegnati con﹡sono obbligatori
 
 Per i dettagli [https://github.com/pagopa/pagopa-api/tree/SANP3.7.0](https://github.com/pagopa/pagopa-api/tree/SANP3.7.0)
 
-## paVerifyPaymentNotice <a href="#pagetpayment" id="pagetpayment"></a>
+
+
+## paVerifyPaymentNotice
 
 <mark style="color:green;">`POST`</mark>&#x20;
 
@@ -245,7 +247,7 @@ Per i dettagli [https://github.com/pagopa/pagopa-api/tree/SANP3.7.0](https://git
 
 <mark style="color:green;">`POST`</mark>&#x20;
 
-**In questa versione è possibile inserire i metadata in ogni singolo **_**transfer**_**, inoltre è possibile gestire il servizio @e.bollo.**
+**In questa versione è possibile inserire i metadata in ogni singolo&#x20;**_**transfer**_**, inoltre è possibile gestire il servizio @e.bollo.**
 
 #### Request Body
 
@@ -598,7 +600,7 @@ Per i dettagli [https://github.com/pagopa/pagopa-api/tree/SANP3.7.0](https://git
 
 <mark style="color:green;">`POST`</mark>&#x20;
 
-**In questa versione possono essere inseriti i metadata in ogni singolo **_**transfer**_** della **_**receipt,**_** inoltre sono gestite le informazioni ricavate da** [gestione-evoluta-commissioni.md](gestione-evoluta-commissioni.md "mention")**e il servizio @e.bollo.**
+**In questa versione possono essere inseriti i metadata in ogni singolo&#x20;**_**transfer**_**&#x20;della&#x20;**_**receipt,**_**&#x20;inoltre sono gestite le informazioni ricavate da** [gestione-evoluta-commissioni.md](gestione-evoluta-commissioni.md "mention")**e il servizio @e.bollo.**
 
 #### Request Body
 
@@ -1085,7 +1087,7 @@ Per i dettagli [https://github.com/pagopa/pagopa-api/tree/SANP3.7.0](https://git
 
 <mark style="color:green;">`POST`</mark>&#x20;
 
-**In questa versione è possibile far transitare i metadata per ogni **_**payment**_** e in ogni singolo **_**transfer**_** della response, inoltre sono gestite le informazioni ricavate da** [gestione-evoluta-commissioni.md](gestione-evoluta-commissioni.md "mention").
+**In questa versione è possibile far transitare i metadata per ogni&#x20;**_**payment**_**&#x20;e in ogni singolo&#x20;**_**transfer**_**&#x20;della response, inoltre sono gestite le informazioni ricavate da** [gestione-evoluta-commissioni.md](gestione-evoluta-commissioni.md "mention").
 
 #### Request Body
 
@@ -1593,7 +1595,7 @@ Altri canali di pagamento
 
 <mark style="color:green;">`POST`</mark>&#x20;
 
-**Utilizzata per il pagamento attivato presso il frontend dell'EC, rispetto alla precedente versione della pspNotifyPayment permette di inviare al PSP una lista di **_**payment**_**, inoltre, le informazioni specifiche del pagamento utilizzato sono inserite nella sezione **_**additionalPaymentInformations**_** che contiene una lista di metadata. E' possibile, inoltre, inserire i metadata per ogni **_**payment**_** e in ogni singolo **_**transfer**_** e gestire il servizio @e.bollo.**
+**Utilizzata per il pagamento attivato presso il frontend dell'EC, rispetto alla precedente versione della pspNotifyPayment permette di inviare al PSP una lista di&#x20;**_**payment**_**, inoltre, le informazioni specifiche del pagamento utilizzato sono inserite nella sezione&#x20;**_**additionalPaymentInformations**_**&#x20;che contiene una lista di metadata. E' possibile, inoltre, inserire i metadata per ogni&#x20;**_**payment**_**&#x20;e in ogni singolo&#x20;**_**transfer**_**&#x20;e gestire il servizio @e.bollo.**
 
 #### Request Body
 

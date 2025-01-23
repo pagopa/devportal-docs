@@ -8,7 +8,7 @@ Lo Stand In è una funzionalità che consente di sopperire alla situazione in cu
 
 ### Funzionalità di Stand In per i pagamenti attivati presso PSP
 
-La funzionalità di Stand In può essere attivata per il caso [pagamento-spontaneo-presso-psp](../../casi-duso/pagamento-spontaneo-presso-psp/ "mention"), in particolare richiamando le primitive [paVerifyPaymentNotice](../../appendici/primitive.md#pagetpayment) e [paGetPaymentV1/V2](../../appendici/primitive.md#pagetpayment-1).
+La funzionalità di Stand In può essere attivata per il caso [pagamento-spontaneo-presso-psp](../../casi-duso/pagamento-spontaneo-presso-psp/ "mention"), in particolare richiamando le primitive[ paVerifyPaymentNotice](../../appendici/primitive.md#paverifypaymentnotice) e [paGetPaymentV1/V2](../../appendici/primitive.md#pagetpayment).
 
 In caso l'EC non risponda all’invocazione delle citate primitive entro il tempo massimo previsto, così come indicato in [livelli-di-servizio-psp.md](../../appendici/indicatori-di-qualita-per-i-soggetti-aderenti/livelli-di-servizio-psp.md "mention"), la piattaforma attiva automaticamente la funzionalità di Stand In, successivamente il NodoSPC verifica la presenza dell'avviso di pagamento in ACA.
 
@@ -96,7 +96,7 @@ Per accedere alla guida dettagliata sull'inserimento dell'IBAN da utilizzare dur
 
 ## **Attivazione dello Stand In**
 
-Le logiche per attivare la funzionalità si fondano sulle primitive [paVerifyPaymentNotice](../../appendici/primitive.md#pagetpayment) e [paGetPaymentV1/V2](../../appendici/primitive.md#pagetpayment-1), di queste primitive si monitorano i seguenti faultCode:
+Le logiche per attivare la funzionalità si fondano sulle primitive [paVerifyPaymentNotice](../../appendici/primitive.md#paverifypaymentnotice) e [paGetPaymentV1/V2](../../appendici/primitive.md#pagetpayment), di queste primitive si monitorano i seguenti faultCode:
 
 * _PPT\_STAZIONE\_INT\_PA\_IRRAGGIUNGIBILE_
 * _PPT\_STAZIONE\_INT\_PA\_TIMEOUT_
@@ -116,9 +116,9 @@ Le stazioni dell’EC sono costantemente monitorate al fine di valutare la loro 
 
 ## **Disattivazione dello Stand In**
 
-Le logiche per disattivare la funzionalità si fondano sulla primitiva [paVerifyPaymentNotice](../../appendici/primitive.md#pagetpayment), in particolare, nel periodo in cui la stazione si trova in Stand In, vengono effettuate chiamate tecniche per verificare il ripristino delle operatività della stazione.
+Le logiche per disattivare la funzionalità si fondano sulla primitiva  [paVerifyPaymentNotice](../../appendici/primitive.md#paverifypaymentnotice), in particolare, nel periodo in cui la stazione si trova in Stand In, vengono effettuate chiamate tecniche per verificare il ripristino delle operatività della stazione.
 
-Per le chiamate tecniche alla primitiva [paVerifyPaymentNotice](../../appendici/primitive.md#pagetpayment) si utilizzerà uno IUV fittizio (_000000000000000000_) in modo da ottenere _PAA\_PAGAMENTO\_SCONOSCIUTO,_ in caso di una percentuale minima del 50% di risposte positive la condizione di Stand In della stazione viene disabilitata, ripristinando la normale configurazione operativa della stazione dell'EC.
+Per le chiamate tecniche alla primitiva  [paVerifyPaymentNotice](../../appendici/primitive.md#paverifypaymentnotice) si utilizzerà uno IUV fittizio (_000000000000000000_) in modo da ottenere _PAA\_PAGAMENTO\_SCONOSCIUTO,_ in caso di una percentuale minima del 50% di risposte positive la condizione di Stand In della stazione viene disabilitata, ripristinando la normale configurazione operativa della stazione dell'EC.
 
 ## **Pricing per posizione debitoria gestita**
 
