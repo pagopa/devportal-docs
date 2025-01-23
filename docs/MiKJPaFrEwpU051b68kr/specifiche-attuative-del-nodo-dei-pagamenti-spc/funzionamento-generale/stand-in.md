@@ -12,7 +12,7 @@ Lo Stand In è una funzionalità che consente ai cittadini di effettuare i pagam
 
 ### Funzionalità di Stand In per i pagamenti attivati presso PSP
 
-La funzionalità di Stand In può essere attivata per il caso [pagamento-di-un-avviso-presso-psp.md](../../casi-duso/pagamento-di-un-avviso-presso-psp.md "mention"), in particolare valutando le primitive [paVerifyPaymentNotice](../../appendici/primitive.md#pagetpayment) e [paGetPaymentV1/V2](../../appendici/primitive.md#pagetpayment-1).&#x20;
+La funzionalità di Stand In può essere attivata per il caso [pagamento-di-un-avviso-presso-psp.md](../../casi-duso/pagamento-di-un-avviso-presso-psp.md "mention"), in particolare valutando le primitive[ paVerifyPaymentNotice](../../appendici/primitive.md#paverifypaymentnotice) e [paGetPaymentV1/V2](../../appendici/primitive.md#pagetpayment).&#x20;
 
 In caso l'EC non risponda alle richieste relative a queste due primitive entro il tempo massimo previsto, la piattaforma attiva automaticamente la funzionalità di Stand In, il nodo dei pagamenti procede a verificare la presenza dell'avviso di pagamento in [#archivio-centralizzato-avvisi](../../ente-creditore/modalita-dintegrazione/integrazione-tramite-api-sincrone.md#archivio-centralizzato-avvisi "mention").&#x20;
 
@@ -81,12 +81,12 @@ Qualora il pagamento di una posizione debitoria di tipo multi-beneficiario avven
 Gli EC devono definire un IBAN di default tramite backoffice pagoPA per la gestione di pagamenti in modalità Stand In, garantendo un corretto instradamento dei riversamenti, se l’EC non dichiara un IBAN di default, viene utilizzato l’IBAN con la data di modifica più recente.
 
 {% hint style="info" %}
-Per accedere alla guida dettagliata sull'inserimento dell'IBAN da utilizzare durante le operazioni Stand In, ti invitiamo a fare clic sul seguente [link](http://127.0.0.1:5000/o/KXYtsf32WSKm6ga638R3/c/fnIGqK6nKjgyWE7E3k13).
+Per accedere alla guida dettagliata sull'inserimento dell'IBAN da utilizzare durante le operazioni Stand In, ti invitiamo a fare clic sul seguente [link](https://app.gitbook.com/o/KXYtsf32WSKm6ga638R3/c/fnIGqK6nKjgyWE7E3k13).
 {% endhint %}
 
 ## **Attivazione dello Stand In**
 
-Le logiche per attivare la funzionalità si fondano sulle primitive [paVerifyPaymentNotice](../../appendici/primitive.md#pagetpayment) e [paGetPaymentV1/V2](../../appendici/primitive.md#pagetpayment-1). Di queste primitive si monitorano i seguenti faultCode:
+Le logiche per attivare la funzionalità si fondano sulle primitive [paVerifyPaymentNotice ](../../appendici/primitive.md#paverifypaymentnotice)e [paGetPaymentV1/V2](../../appendici/primitive.md#pagetpayment). Di queste primitive si monitorano i seguenti faultCode:
 
 * _PPT\_STAZIONE\_INT\_PA\_IRRAGGIUNGIBILE_
 * _PPT\_STAZIONE\_INT\_PA\_TIMEOUT_
