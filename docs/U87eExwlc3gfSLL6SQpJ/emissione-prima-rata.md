@@ -22,7 +22,7 @@ Le date di scadenza possono variare a seconda dell’ente.
 
 ### Documentazione tecnica
 
-[In questa pagina](https://app.gitbook.com/s/PmBz3R5ejc6lLp80K94Z/appendici/primitive) trovi le specifiche su come compilare il metadato **`dueDate.`**
+[In questa pagina](https://developer.pagopa.it/pago-pa/guides/sanp/appendici/primitive) trovi le specifiche su come compilare il metadato **`dueDate.`**
 
 [In questa pagina](https://docs.pagopa.it/io-guida-tecnica/api-e-specifiche/api-messaggi/submit-a-message-passing-the-user-fiscal_code-in-the-request-body#payment_data) trovi le specifiche su come valorizzare il campo **`payment_data`**  per permettere al cittadino di pagare in app.&#x20;
 
