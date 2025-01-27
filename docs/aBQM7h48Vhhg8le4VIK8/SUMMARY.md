@@ -48,12 +48,12 @@
   * [Service Topics: Get all service topics](api-e-specifiche/api-servizi/service-topics-get-all-service-topics.md)
 * [API Messaggi](api-e-specifiche/api-messaggi/README.md)
   * [Get a User Profile using POST](api-e-specifiche/api-messaggi/get-a-user-profile-using-post.md)
-  * [Submit a Message passing the user fiscal\_code in the request body](api-e-specifiche/api-messaggi/submit-a-message-passing-the-user-fiscal\_code-in-the-request-body.md)
+  * [Submit a Message passing the user fiscal\_code in the request body](api-e-specifiche/api-messaggi/submit-a-message-passing-the-user-fiscal_code-in-the-request-body.md)
   * [Get Message](api-e-specifiche/api-messaggi/get-message.md)
   * [CRU Configurazioni remote](api-e-specifiche/api-messaggi/cru-configurazioni-remote.md)
   * [Get Subscriptions Feed](api-e-specifiche/api-messaggi/get-subscriptions-feed.md)
   * [⚠️ Get a User Profile](api-e-specifiche/api-messaggi/get-a-user-profile.md)
-  * [⚠️ Submit a Message passing the user fiscal\_code as path parameter](api-e-specifiche/api-messaggi/submit-a-message-passing-the-user-fiscal\_code-as-path-parameter.md)
+  * [⚠️ Submit a Message passing the user fiscal\_code as path parameter](api-e-specifiche/api-messaggi/submit-a-message-passing-the-user-fiscal_code-as-path-parameter.md)
 * [Errori comuni](api-e-specifiche/errori-comuni.md)
 * [Specifiche API](https://developer.io.italia.it/openapi.html)
 * [OpenAPI endpoint di recupero dei contenuti remotizzati](api-e-specifiche/openapi-endpoint-di-recupero-dei-contenuti-remotizzati.md)
@@ -69,6 +69,6 @@
 
 ## Risorse Utili
 
-* [#️⃣ #️⃣ Guida al Markdown](risorse-utili/guida-al-markdown.md)
+* [#️⃣ #️⃣ #️⃣ Guida al Markdown](risorse-utili/guida-al-markdown.md)
 * [❓ Supporto agli Enti (tutorial, FAQ)](https://docs.pagopa.it/kb-enti)
 * [📘 Glossario](risorse-utili/glossario.md)

@@ -30,16 +30,16 @@ Nei capitoli successivi troverai le sequenze di dettaglio di ciascuna fase.
 
 ## Endpoint di recupero delle precondizioni all'apertura del messaggio
 
-Se in fase di [#creazione-del-messaggio-con-contenuto-remoto](../funzionalita/inviare-un-messaggio/inviare-un-messaggio-a-contenuto-remoto.md#creazione-del-messaggio-con-contenuto-remoto "mention") hai valorizzato il campo [#has\_precondition](api-messaggi/submit-a-message-passing-the-user-fiscal\_code-in-the-request-body.md#has\_precondition "mention") (o se l'avevi indicato in fase di [configurazione-remota.md](../setup-iniziale/configurazione-remota.md "mention")), al momento dell'apertura del messaggio da parte del destinatario, IO recupererà le precondizioni attraverso una chiamata `GET` ai tuoi sistemi, contenente in input i seguenti parametri:&#x20;
+Se in fase di [#creazione-del-messaggio-con-contenuto-remoto](../funzionalita/inviare-un-messaggio/inviare-un-messaggio-a-contenuto-remoto.md#creazione-del-messaggio-con-contenuto-remoto "mention") hai valorizzato il campo [#has\_precondition](api-messaggi/submit-a-message-passing-the-user-fiscal_code-in-the-request-body.md#has_precondition "mention") (o se l'avevi indicato in fase di [configurazione-remota.md](../setup-iniziale/configurazione-remota.md "mention")), al momento dell'apertura del messaggio da parte del destinatario, IO recupererà le precondizioni attraverso una chiamata `GET` ai tuoi sistemi, contenente in input i seguenti parametri:&#x20;
 
-* l'`id` di correlazione remota che avevi indicato nel blocco [#third\_party\_data](api-messaggi/submit-a-message-passing-the-user-fiscal\_code-in-the-request-body.md#third\_party\_data "mention") in fase di invio del messaggio;
+* l'`id` di correlazione remota che avevi indicato nel blocco [#third\_party\_data](api-messaggi/submit-a-message-passing-the-user-fiscal_code-in-the-request-body.md#third_party_data "mention") in fase di invio del messaggio;
 * il codice fiscale del destinatario (come header).
 
 I tuoi sistemi dovranno verificare che il codice fiscale inviato in input corrisponda esattamente al destinatario inteso e in caso di esito positivo, verrà trasmesso ad IO il contenuto delle precondizioni.
 
 <figure><img src="../.gitbook/assets/Sequenza recupero precondizioni remote.png" alt=""><figcaption></figcaption></figure>
 
-IO utilizzerà la `base_url`, che avevi comunicato in fase di impostazione delle informazioni di configurazione remota, e l'identificativo di correlazione, che avevi specificato nel blocco [#third\_party\_data](api-messaggi/submit-a-message-passing-the-user-fiscal\_code-in-the-request-body.md#third\_party\_data "mention") in fase di invio del messaggio, per comporre una chiamata GET nella forma `{base_url}/messages/{id}/precondition:`
+IO utilizzerà la `base_url`, che avevi comunicato in fase di impostazione delle informazioni di configurazione remota, e l'identificativo di correlazione, che avevi specificato nel blocco [#third\_party\_data](api-messaggi/submit-a-message-passing-the-user-fiscal_code-in-the-request-body.md#third_party_data "mention") in fase di invio del messaggio, per comporre una chiamata GET nella forma `{base_url}/messages/{id}/precondition:`
 
 {% swagger src="https://raw.githubusercontent.com/pagopa/io-backend/master/openapi/consumed/api_remote_content.yaml" path="/messages/{id}/precondition" method="get" %}
 [https://raw.githubusercontent.com/pagopa/io-backend/master/openapi/consumed/api_remote_content.yaml](https://raw.githubusercontent.com/pagopa/io-backend/master/openapi/consumed/api_remote_content.yaml)
@@ -51,16 +51,16 @@ Per maggiori informazioni sul significato dei singoli campi , fai riferimento a 
 
 ## Endpoint di **recupero dei dettagli del messaggio**
 
-Se in fase di [#creazione-del-messaggio-con-contenuto-remoto](../funzionalita/inviare-un-messaggio/inviare-un-messaggio-a-contenuto-remoto.md#creazione-del-messaggio-con-contenuto-remoto "mention") avevi incluso il flag [#has\_remote\_content](api-messaggi/submit-a-message-passing-the-user-fiscal\_code-in-the-request-body.md#has\_remote\_content "mention") o, essendo un Ente Premium, il flag [#has\_attachments](api-messaggi/submit-a-message-passing-the-user-fiscal\_code-in-the-request-body.md#has\_attachments "mention"), IO dovrà recuperare il contenuto del messaggio dai tuoi sistemi al momento della sua visualizzazione in app, e userà l'API qui descritta; lo farà con una chiamata `GET` con cui ti restituirà:&#x20;
+Se in fase di [#creazione-del-messaggio-con-contenuto-remoto](../funzionalita/inviare-un-messaggio/inviare-un-messaggio-a-contenuto-remoto.md#creazione-del-messaggio-con-contenuto-remoto "mention") avevi incluso il flag [#has\_remote\_content](api-messaggi/submit-a-message-passing-the-user-fiscal_code-in-the-request-body.md#has_remote_content "mention") o, essendo un Ente Premium, il flag [#has\_attachments](api-messaggi/submit-a-message-passing-the-user-fiscal_code-in-the-request-body.md#has_attachments "mention"), IO dovrà recuperare il contenuto del messaggio dai tuoi sistemi al momento della sua visualizzazione in app, e userà l'API qui descritta; lo farà con una chiamata `GET` con cui ti restituirà:&#x20;
 
-* l'`id` di correlazione remota che avevi indicato nel blocco [#third\_party\_data](api-messaggi/submit-a-message-passing-the-user-fiscal\_code-in-the-request-body.md#third\_party\_data "mention") in fase di invio del messaggio;
+* l'`id` di correlazione remota che avevi indicato nel blocco [#third\_party\_data](api-messaggi/submit-a-message-passing-the-user-fiscal_code-in-the-request-body.md#third_party_data "mention") in fase di invio del messaggio;
 * il codice fiscale del destinatario (come header).
 
 Il tuo sistema potrà quindi recuperare il contenuto del messaggio verificando al contempo che la richiesta pervenuta sia relativa proprio a quel destinatario.
 
 <figure><img src="../.gitbook/assets/Remoted Content - Details - Sequence Diagram.png" alt=""><figcaption></figcaption></figure>
 
-IO utilizzerà la `base_url`, che avevi comunicato al team di IO in fase di impostazione delle informazioni di configurazione remota, e l'identificativo di correlazione, che avevi specificato nel blocco [#third\_party\_data](api-messaggi/submit-a-message-passing-the-user-fiscal\_code-in-the-request-body.md#third\_party\_data "mention") in fase di invio del messaggio, per comporre una chiamata GET nella forma `{base_url}/messages/{id}:`
+IO utilizzerà la `base_url`, che avevi comunicato al team di IO in fase di impostazione delle informazioni di configurazione remota, e l'identificativo di correlazione, che avevi specificato nel blocco [#third\_party\_data](api-messaggi/submit-a-message-passing-the-user-fiscal_code-in-the-request-body.md#third_party_data "mention") in fase di invio del messaggio, per comporre una chiamata GET nella forma `{base_url}/messages/{id}:`
 
 {% swagger src="https://raw.githubusercontent.com/pagopa/io-backend/master/openapi/consumed/api_remote_content.yaml" path="/messages/{id}" method="get" %}
 [https://raw.githubusercontent.com/pagopa/io-backend/master/openapi/consumed/api_remote_content.yaml](https://raw.githubusercontent.com/pagopa/io-backend/master/openapi/consumed/api_remote_content.yaml)
@@ -72,7 +72,7 @@ Per maggiori informazioni sul significato dei singoli campi, fai riferimento a [
 
 ### Esempio di risposta attesa da IO
 
-A seconda dei flag che avevi specificato in [#third\_party\_data](api-messaggi/submit-a-message-passing-the-user-fiscal\_code-in-the-request-body.md#third\_party\_data "mention") al momento della [#creazione-del-messaggio-con-contenuto-remoto](../funzionalita/inviare-un-messaggio/inviare-un-messaggio-a-contenuto-remoto.md#creazione-del-messaggio-con-contenuto-remoto "mention"), in risposta all'API dovrai includere:
+A seconda dei flag che avevi specificato in [#third\_party\_data](api-messaggi/submit-a-message-passing-the-user-fiscal_code-in-the-request-body.md#third_party_data "mention") al momento della [#creazione-del-messaggio-con-contenuto-remoto](../funzionalita/inviare-un-messaggio/inviare-un-messaggio-a-contenuto-remoto.md#creazione-del-messaggio-con-contenuto-remoto "mention"), in risposta all'API dovrai includere:
 
 <table><thead><tr><th width="233">Se [flag]=true</th><th width="185">Struttura da inserire</th><th>Descrizione</th></tr></thead><tbody><tr><td><code>has_remote_content</code></td><td><code>details</code></td><td>Completa titolo e corpo del messaggio. Per maggiori informazioni fai riferimento a <a data-mention href="openapi-endpoint-di-recupero-dei-contenuti-remotizzati.md#struttura-details-titolo-e-corpo-del-messaggio">#struttura-details-titolo-e-corpo-del-messaggio</a></td></tr><tr><td><code>has_attachments</code></td><td><code>attachments</code></td><td>Solo per Enti Premium: compila i metadati degli allegati al messaggio. Per maggiori informazioni fai riferimento a <a data-mention href="openapi-endpoint-di-recupero-dei-contenuti-remotizzati.md#struttura-attachments-allegati-pdf">#struttura-attachments-allegati-pdf</a></td></tr></tbody></table>
 
@@ -101,9 +101,9 @@ Ecco come apparirà in app il messaggio così impostato:
 <figure><img src="../.gitbook/assets/image (24).png" alt="" width="375"><figcaption><p>Come l'esempio apparirà in app</p></figcaption></figure>
 
 {% hint style="info" %}
-Il titolo mostrato nel messaggio con contenuto remoto può essere differente da quello che avevi indicato al momento della sua creazione (il campo `subject` in  [submit-a-message-passing-the-user-fiscal\_code-in-the-request-body.md](api-messaggi/submit-a-message-passing-the-user-fiscal\_code-in-the-request-body.md "mention")): quest'ultimo, infatti, è utilizzato come titolo nell'elenco dei messaggi in app ed è statico.
+Il titolo mostrato nel messaggio con contenuto remoto può essere differente da quello che avevi indicato al momento della sua creazione (il campo `subject` in  [submit-a-message-passing-the-user-fiscal\_code-in-the-request-body.md](api-messaggi/submit-a-message-passing-the-user-fiscal_code-in-the-request-body.md "mention")): quest'ultimo, infatti, è utilizzato come titolo nell'elenco dei messaggi in app ed è statico.
 
-:warning:Ti ricordiamo che ai sensi delle [Linee Guida IO](https://trasparenza.agid.gov.it/moduli/downloadFile.php?file=oggetto\_allegati/213121604430O\_\_OLG+Punto+accesso+telematico+servizi+PA\_3.11.2021.pdf) non deve includere informazioni sensibili nel titolo del messaggio, e ove necessarie nel corpo dovranno rispettare il principio di minimizzazione.
+:warning:Ti ricordiamo che ai sensi delle[ Linee Guida IO](https://www.agid.gov.it/sites/default/files/repository_files/lg_punto_accesso_telematico_servizi_pa_3112021.pdf) non deve includere informazioni sensibili nel titolo del messaggio, e ove necessarie nel corpo dovranno rispettare il principio di minimizzazione.
 {% endhint %}
 
 {% hint style="info" %}
@@ -159,11 +159,11 @@ Nella tabella puoi trovare il significato di ciascun campo:
 Se hai sottoscritto l'Accordo Premium e nella risposta all'API di dettaglio illustrata nel capitolo precedente hai incluso i metadati di uno o più allegati, quando il destinatario del messaggio vorrà visualizzarli, IO recuperà il contenuto presso i tuoi sistemi componendo la URL di una chiamata `GET` nel formato `{baseUrl}/{id}/{url}`, dove:
 
 * `baseUrl` è la parte comune (iniziale) degli endpoint che hai comunicato al team di IO in fase di impostazione delle informazioni di configurazione remota;
-* `{id}` è l'identificativo che avevi specificato nel blocco [#third\_party\_data](api-messaggi/submit-a-message-passing-the-user-fiscal\_code-in-the-request-body.md#third\_party\_data "mention") in fase di invio del messaggio;
+* `{id}` è l'identificativo che avevi specificato nel blocco [#third\_party\_data](api-messaggi/submit-a-message-passing-the-user-fiscal_code-in-the-request-body.md#third_party_data "mention") in fase di invio del messaggio;
 * `{url}` è il completamento della `baseUrl` specifico per l'allegato in questione, come restituito nei metadati con l'API di dettaglio.
 
 {% hint style="warning" %}
-Fai attenzione: in questo caso l'identificativo univoco è l'`id` di **correlazione remota** che avevi indicato in [#third\_party\_data](api-messaggi/submit-a-message-passing-the-user-fiscal\_code-in-the-request-body.md#third\_party\_data "mention") in occasione dell'invio del messaggio.
+Fai attenzione: in questo caso l'identificativo univoco è l'`id` di **correlazione remota** che avevi indicato in [#third\_party\_data](api-messaggi/submit-a-message-passing-the-user-fiscal_code-in-the-request-body.md#third_party_data "mention") in occasione dell'invio del messaggio.
 {% endhint %}
 
 <figure><img src="../.gitbook/assets/Remoted Content - Download allegato - Sequence Diagram.png" alt=""><figcaption></figcaption></figure>
