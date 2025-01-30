@@ -202,13 +202,13 @@ Per avere maggiori informazioni sul pagamento, \[visita il sito]\(URL).
 
 **Entro il**: \<gg/mm/aaaa>
 
-Puoi pagare direttamente in app premendo “Vedi Avviso”, oppure tramite tutti i canali di pagamento della piattaforma pagoPA e le altre modalità di pagamento offerte dell'ente creditore.
+Puoi pagare direttamente in app premendo “Paga”, oppure tramite tutti i canali di pagamento della piattaforma pagoPA e le altre modalità di pagamento offerte dell'ente creditore.
 
 Per maggiori informazioni o per richiedere assistenza, contattaci tramite i canali che trovi nella scheda servizio.
 
 In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio potrebbe subire variazioni.
 
-**🪄  Pulsante**: Vedi Avviso
+**🪄  Pulsante**: Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
 
 ***
 
@@ -271,5 +271,5 @@ Gli enti che desiderino utilizzarli devono, quindi, modificarli a seconda delle 
 
 Puoi copiare i testi dei messaggi da personalizzare da questo documento:
 
-{% file src="../.gitbook/assets/IO - Template servizi - Tassa sui rifiuti (TARI).xlsx (1).zip" %}
+{% file src="../.gitbook/assets/IO - Template servizi - Tassa sui rifiuti (TARI).xlsx" %}
 {% endhint %}
