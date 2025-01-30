@@ -1,8 +1,8 @@
 # Table of contents
 
 * [Test space 1](README.md)
-  * [Prova articolo 1](test-space-1/prova-articolo-1.md)
-  * [Prova articolo 2](test-space-1/prova-articolo-2.md)
+  * [Prova articolo 1](readme/prova-articolo-1.md)
+  * [Prova articolo 2](readme/prova-articolo-2.md)
 * [Test link](test-link.md)
 
 ## Group 1
