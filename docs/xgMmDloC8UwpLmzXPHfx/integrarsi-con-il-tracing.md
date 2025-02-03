@@ -10,24 +10,24 @@ In un tracciato possono rientrare un numero discrezionale di record, nel rispett
 
 Il file CSV contiene l'elenco delle operazioni eseguite dagli aderenti. Per ogni riga, è necessario indicare, in quest'ordine, i seguenti campi:
 
-<table><thead><tr><th width="200">Campo</th><th>Descrizione</th></tr></thead><tbody><tr><td><code>date</code></td><td>la data nella quale sono state eseguite le operazioni, con formato YYYY-MM-DD</td></tr><tr><td><code>purpose_id</code></td><td>l'id della finalità contenuta nella richiesta del fruitore</td></tr><tr><td><code>status</code></td><td>lo status code HTTP con il quale il servizio ha risposto al chiamante</td></tr><tr><td><code>requests_count</code></td><td>il numero di richieste che hanno generato questo status code HTTP</td></tr></tbody></table>
+<table><thead><tr><th width="200">Campo</th><th>Descrizione</th></tr></thead><tbody><tr><td><code>date</code></td><td>la data nella quale sono state eseguite le operazioni, con formato YYYY-MM-DD</td></tr><tr><td><code>purpose_id</code></td><td>l'id della finalità contenuta nella richiesta del fruitore</td></tr><tr><td><code>status</code></td><td>lo status code HTTP con il quale il servizio ha risposto al chiamante</td></tr><tr><td><code>token_id</code></td><td>l'id del token utilizzato per eseguire la richiesta HTTP verso il servizio</td></tr><tr><td><code>requests_count</code></td><td>il numero di richieste che hanno generato questo status code HTTP</td></tr></tbody></table>
 
 #### Un esempio
 
 Analizziamo il seguente file CSV
 
 ```
-date,purpose_id,status,requests_count
-2024-07-25,0e1e4c98-6f2e-4f55-90e3-45f7d3f1dbf8,500,48
-2024-07-25,1cafea11-08a0-4eaf-a3ee-3e9839c8c2a9,200,22
-2024-07-25,1cafea11-08a0-4eaf-a3ee-3e9839c8c2a9,404,34
-2024-07-25,1cafea11-08a0-4eaf-a3ee-3e9839c8c2a9,500,5
+date,purpose_id,status,token,requests_count
+2024-07-25,0e1e4c98-6f2e-4f55-90e3-45f7d3f1dbf8,500,99382e29-b0cf-412b-a060-72e421b6d167,48
+2024-07-25,1cafea11-08a0-4eaf-a3ee-3e9839c8c2a9,200,8f3e3665-5d89-4600-be2f-79aeb18f702d,22
+2024-07-25,1cafea11-08a0-4eaf-a3ee-3e9839c8c2a9,404,8f3e3665-5d89-4600-be2f-79aeb18f702d,34
+2024-07-25,1cafea11-08a0-4eaf-a3ee-3e9839c8c2a9,500,b1968f90-db88-4929-a032-ef04379b500d,5
 ```
 
 Il tracciato inviato è relativo al 25 luglio 2024, e fa riferimento a:
 
-* la finalità `0e1e4c98-6f2e-4f55-90e3-45f7d3f1dbf8`, che ha ricevuto 48 richieste che hanno dato esito negativo, con uno status code 500;
-* la finalità `1cafea11-08a0-4eaf-a3ee-3e9839c8c2a9`, che ha ricevuto 22 richieste che hanno avuto esito positivo (200), 34 con esito negativo per 404 e altre 5 con esito sempre negativo per 500.
+* la finalità `0e1e4c98-6f2e-4f55-90e3-45f7d3f1dbf8`, che ha ricevuto 48 richieste che hanno dato esito negativo, con uno status code 500; Per essere autorizzati ad eseguire tali richieste è stato utilizzato il token jwt con id `99382e29-b0cf-412b-a060-72e421b6d167`.
+* la finalità `1cafea11-08a0-4eaf-a3ee-3e9839c8c2a9`, che ha ricevuto 22 richieste autorizzate dal token jwt `8f3e3665-5d89-4600-be2f-79aeb18f702d` che hanno avuto esito positivo (200) autorizzate , 34 con esito negativo per 404 (autorizzate, in questo caso, dallo stesso token jwt `8f3e3665-5d89-4600-be2f-79aeb18f702d`) e altre 5 con esito sempre negativo per 500 autorizzate dal token `b1968f90-db88-4929-a032-ef04379b500d`.
 
 ### Qual è la meccanica di funzionamento?
 
