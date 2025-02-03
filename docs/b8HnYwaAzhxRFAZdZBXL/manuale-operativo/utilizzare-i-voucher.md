@@ -128,9 +128,7 @@ Quelli che interessano ai fini della verifica sono:
 * `exp`: la scadenza del voucher
 * `aud`: l'audience, ossia l'indicazione di quale servizio dell'erogatore il fruitore intenda consumare con il voucher
 
-La strategia di definizione dell'audience all'atto della creazione di una versione di un e-service dipende dai processi interni e dalla strategia di implementazione dei servizi dell'ente. Virtualmente, è possibile che ogni versione di ogni e-service abbia un'audience diversa, che solo alcune versioni dello stesso e-service abbiano la stessa audience, che diversi e-service abbiano la stessa audience.
-
-In ultimo, il parametro `purposeId` dà il riferimento della finalità per la quale il fruitore fa richiesta all'erogatore. Attraverso successive chiamate all'API gateway di PDND Interoperabilità è possibile richiedere tutte le informazioni di contesto, in caso siano necessarie (ossia i client associati, la richiesta di fruizione e l'e-service di riferimento, ecc).
+Il parametro `purposeId` dà il riferimento della finalità per la quale il fruitore fa richiesta all'erogatore. Attraverso successive chiamate all'API gateway di PDND Interoperabilità è possibile richiedere tutte le informazioni di contesto, in caso siano necessarie (ossia i client associati, la richiesta di fruizione e l'e-service di riferimento, ecc).
 
 ## Trasmettere e tracciare dati complementari alla richiesta
 
