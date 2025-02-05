@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xades141="http://uri.etsi.org/01903/v1.4.1#" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="xmldsig-schema.xsd" namespace="http://www.w3.org/2000/09/xmldsig#"/>
+  <xs:element name="DIDRK">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="DatiOggetto">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CodiceOggetto" type="xs:unsignedLong" />
+              <xs:element name="CodiceDID" type="xs:string" />
+              <xs:element name="DescrizioneCausaleProdotto" type="xs:string" />
+              <xs:element name="CentroAccettazione" type="xs:string" />
+              <xs:element name="DataAccettazione" type="xs:date" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DatiMittente">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NominativoMittente" type="xs:string" />
+              <xs:element name="IndirizzoMittente" type="xs:string" />
+              <xs:element name="CittaMittente" type="xs:string" />
+              <xs:element name="CAPMittente" type="xs:unsignedByte" />
+              <xs:element name="ProvinciaMittente" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DatiDestinatario">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Destinatario" type="xs:string" />
+              <xs:element name="Indirizzo" type="xs:string" />
+              <xs:element name="Comune" type="xs:string" />
+              <xs:element name="CAP" type="xs:unsignedShort" />
+              <xs:element name="Provincia" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DatiInesitoDigitale">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DescrizioneFrazionario" type="xs:string" />
+			  <xs:element name="CausaleInesito" type="xs:string" />
+              <xs:element name="DataOraInesito" type="xs:date" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element ref="ds:Signature" />
+      </xs:sequence>
+      <xs:attribute name="Id" type="xs:string" use="required" />
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
