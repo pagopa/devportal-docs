@@ -2,6 +2,8 @@
 description: >-
   SEND GA 2.3: Annullamento della notifica e visualizzazione cause
   irreperibilità totale
+livello: amatoriale
+tipologia: guida tecnica 
 ---
 
 # 22 Ottobre 2024
