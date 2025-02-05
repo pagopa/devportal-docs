@@ -1,6 +1,7 @@
 # Table of contents
 
-* [2024](README.md)
+* [pagina](README.md)
+* [2024](<README (1).md>)
   * [22 Ottobre 2024](2024/22-ottobre-2024.md)
   * [21 Luglio 2024](2024/21-luglio-2024.md)
   * [19 Marzo 2024](2024/19-marzo-2024.md)
