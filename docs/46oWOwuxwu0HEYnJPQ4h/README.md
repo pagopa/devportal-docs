@@ -16,7 +16,7 @@ Lo scopo di questo documento è quello di **descrivere le funzionalità** che il
 
 #### **Ruoli e poteri: Pagamenti pagoPA**
 
-All'interno del **portale Pagamenti pagoPA**, nel caso dei **PSP**, il livello di Amministratore corrisponde a quello di **Amministratore**, mentre quello di Operatore al **Responsabile Tecnico**.
+I ruoli disponibili in Area Riservata per i vari prodotti sono sempre 'Amministratore' e 'Operatore'. Tuttavia, nel portale Pagamenti pagoPA, integrato all’interno della piattaforma Area Riservata, per i PSP, il ruolo di 'Amministratore' mantiene la stessa denominazione, mentre il ruolo di 'Operatore' viene indicato come 'Responsabile Tecnico', pur mantenendo le stesse funzionalità operative.
 
 Ognuno dei due ruoli garantisce un diverso **livello di visibilità** **e operatività** all’interno del portale, in particolare:
 
