@@ -8,6 +8,7 @@ Gli stati attraverso i quali inizia e si conclude il processo di notificazione, 
 * **Invio in corso**: quando è in corso il processo di spedizione del’AAR per almeno un destinatario; tale stato raccoglie quindi i diversi elementi di timeline relativi ai singoli tentativi d'invio
 * **Consegnata**: quando il processo di spedizione è terminato per tutti i destinatari ed almeno uno di essi è stato raggiunto e genera l'attestazione opponibile ai terzi di notifica digitale
 * **Irreperibile:** quando non è stato possibile raggiungere nessuno dei destinatari, ovvero quando tutti i destinatari che dovevano essere raggiunti con raccomandata AR/890 non erano conosciuti all'indirizzo utilizzato per la spedizione (irreperibilità totale) ed i destinatari che dovevano essere raggiunti con PEC/SERCQ avevano i recapiti legali saturi, inattivi o invalidi.
+* **Resa al mittente**: quando il recapitista dichiara il destinatario della notifica deceduto. Solo se non ci sono altri destinatari della notifica per i quali il workflow ha un altro esito.
 * **Perfezionata per decorrenza termini**: quando la notifica si è perfezionata per decorrenza termini (a norma di legge) per almeno un destinatario e se nessuno dei destinatari ha preso visione della notifica stessa.
 * **Avvenuto accesso**: quando almeno un destinatario, entro od oltre i termini di decorrenza, ha acceduto agli atti della notifica.
 * **Annullata:** nel caso la notifica sia stata annullata della PA mittente.

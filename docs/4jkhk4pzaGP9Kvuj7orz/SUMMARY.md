@@ -7,6 +7,7 @@
     * [Notificazione digitale](piattaforma-notifiche-digitali-manuale-operativo/il-processo-di-notificazione/notificazione-digitale.md)
     * [Notificazione analogica](piattaforma-notifiche-digitali-manuale-operativo/il-processo-di-notificazione/notificazione-analogica/README.md)
       * [Secondo tentativo di invio analogico](piattaforma-notifiche-digitali-manuale-operativo/il-processo-di-notificazione/notificazione-analogica/secondo-tentativo-di-invio-analogico.md)
+      * [Notifica resa al mittente](piattaforma-notifiche-digitali-manuale-operativo/il-processo-di-notificazione/notificazione-analogica/notifica-resa-al-mittente.md)
     * [Esempi di perfezionamento](piattaforma-notifiche-digitali-manuale-operativo/il-processo-di-notificazione/esempi-di-perfezionamento.md)
     * [Annullamento di una notifica](piattaforma-notifiche-digitali-manuale-operativo/il-processo-di-notificazione/annullamento-di-una-notifica.md)
     * [Specifiche tecniche dei PDF allegati alla notifica](piattaforma-notifiche-digitali-manuale-operativo/il-processo-di-notificazione/specifiche-tecniche-dei-pdf-allegati-alla-notifica.md)
