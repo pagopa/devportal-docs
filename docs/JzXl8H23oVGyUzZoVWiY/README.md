@@ -1,5 +1,8 @@
 ---
-description: test
+title: Ultime Release Notes di SEND
+description: Elenco delle ultime 2 release notes di SEND con descrizione breve e link alla versione completa
+tags: ["release note", "SEND GA 2.3", "nuove funzionalità"]
+livello: intermedio
 ---
 
 # Ultime release notes
