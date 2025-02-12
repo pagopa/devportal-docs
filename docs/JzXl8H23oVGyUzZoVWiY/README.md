@@ -1,40 +1,45 @@
 ---
 title: Ultime Release Notes di SEND
-description: Elenco delle ultime 2 release notes di SEND con descrizione breve e link alla versione completa
-tags: ["release note", "SEND GA 2.3", "nuove funzionalità"]
+tags:
+  - release note
+  - SEND GA 2.3
+  - nuove funzionalità
 livello: intermedio
+description: >-
+  Elenco delle ultime due release notes di SEND con descrizione breve e link
+  alla versione completa
 ---
 
 # Ultime release notes
 
-## 22 ottobre 2024&#x20;
+## 22 ottobre 2024
 
-### SEND GA 2.3&#x20;
+### SEND GA 2.3
 
-`Nuove funzionalità` `Miglioramenti` `Bug fixing`&#x20;
+`Nuove funzionalità` `Miglioramenti` `Bug fixing`
 
-#### Annullamento della notifica e visualizzazione cause irreperibilità totale&#x20;
+#### Annullamento della notifica e visualizzazione cause irreperibilità totale
 
-La versione GA 2.3 di SEND:&#x20;
+La versione GA 2.3 di SEND:
 
-* Aggiunge la funzionalità di annullamento della notifica da parte del mittente e la visualizzazione delle cause che conducono all'irreperibilità totale;&#x20;
-* Corregge i bug presenti sulla visualizzazione della timeline della notifica in corrispondenza degli allegati.&#x20;
+* Aggiunge la funzionalità di annullamento della notifica da parte del mittente e la visualizzazione delle cause che conducono all'irreperibilità totale;
+* Corregge i bug presenti sulla visualizzazione della timeline della notifica in corrispondenza degli allegati.
 
-[Approfondisci → ](2024/22-ottobre-2024.md)
+[Approfondisci →](2024/22-ottobre-2024.md)
 
-## 21 luglio 2024&#x20;
+## 21 luglio 2024
 
-### SEND GA 2.2&#x20;
+### SEND GA 2.2
 
-`Nuove funzionalità` `Miglioramenti` `Bug fixing`&#x20;
+`Nuove funzionalità` `Miglioramenti` `Bug fixing`
 
-#### Annullamento della notifica e visualizzazione cause irreperibilità totale&#x20;
+#### Annullamento della notifica e visualizzazione cause irreperibilità totale
 
-La versione GA 2.2 di SEND:&#x20;
+La versione GA 2.2 di SEND:
 
-* Aggiunge la funzionalità di annullamento della notifica da parte del mittente e la visualizzazione delle cause che conducono all'irreperibilità totale;&#x20;
-* Corregge i bug presenti sulla visualizzazione della timeline della notifica in corrispondenza degli allegati.&#x20;
+* Aggiunge la funzionalità di annullamento della notifica da parte del mittente e la visualizzazione delle cause che conducono all'irreperibilità totale;
+* Corregge i bug presenti sulla visualizzazione della timeline della notifica in corrispondenza degli allegati.
 
-[Approfondisci → ](2024/21-luglio-2024.md)
+[Approfondisci →](2024/21-luglio-2024.md)
 
 ##
