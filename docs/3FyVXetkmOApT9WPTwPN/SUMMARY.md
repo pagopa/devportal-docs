@@ -30,6 +30,7 @@
   * [Validazione dei test con il tool PnValidator](readme/validazione-dei-test-con-il-tool-pnvalidator.md)
   * [API di stato della Piattaforma](readme/api-di-stato-della-piattaforma.md)
   * [Full Digital - Poste Italiane](readme/full-digital-poste-italiane.md)
+  * [Supporto al bilinguismo amministrativo](readme/supporto-al-bilinguismo-amministrativo.md)
 * [Simulare i casi di test in ambiente UAT](simulare-i-casi-di-test-in-ambiente-uat.md)
 * [🏷️ Tassonomia SEND](tassonomia-send.md)
 * [API CHANGELOG](api-changelog/README.md)
