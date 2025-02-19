@@ -217,27 +217,7 @@ Ambiti e tipologia notifica:
 * Codice`050101P` - **Notifiche relative a Contributi verso l'ente previdenziale** 
 Notifiche relative a Contributi verso l'ente previdenziale (es. Riscatti, Ricongiunzione e Rendite, Versamenti Volontari, Lavoratori Domestici)
 
-### 0502 - **Comunicazioni** 
-
-* Codice`050201N` - **Assegno di Inclusione (ADI) e Supporto per la Formazione e il lavoro (SFL)** 
-Tutte le tipologie di comunicazioni che vengono effettuate a favore dei contribuenti
-
-* Codice`050202N` - **Bonus Pensionamenti** 
-Tutte le tipologie di comunicazioni che vengono effettuate a favore dei contribuenti
-
-* Codice`050201N` - **Notifiche dei Provvedimenti  dei prodotti/servizi** 
-Notifiche dei provvedimenti dei prodotti/servizi (es. Riscatti, Ricongiunzione e Rendite, Assegno di Inclusione, Supporto Formazione e Lavoro)
-
-* Codice`050201P` - **Notifiche dei Provvedimenti  dei prodotti/servizi** 
-Notifiche dei provvedimenti dei prodotti/servizi (es. Riscatti, Ricongiunzione e Rendite, Assegno di Inclusione, Supporto Formazione e Lavoro)
-
 ### 0502 - **Provvedimenti** 
-
-* Codice`050201N` - **Assegno di Inclusione (ADI) e Supporto per la Formazione e il lavoro (SFL)** 
-Tutte le tipologie di comunicazioni che vengono effettuate a favore dei contribuenti
-
-* Codice`050202N` - **Bonus Pensionamenti** 
-Tutte le tipologie di comunicazioni che vengono effettuate a favore dei contribuenti
 
 * Codice`050201N` - **Notifiche dei Provvedimenti  dei prodotti/servizi** 
 Notifiche dei provvedimenti dei prodotti/servizi (es. Riscatti, Ricongiunzione e Rendite, Assegno di Inclusione, Supporto Formazione e Lavoro)
@@ -718,25 +698,7 @@ Atto di ingiunzione alla restituzione del finanziamento e/o contributo concesso 
 <tr>
     <td rowspan="2"><strong>050201N</strong></td>
     <td>05 - Previdenza</td>
-    <td>02 - Comunicazioni</td>
-    <td>Assegno di Inclusione (ADI) e Supporto per la Formazione e il lavoro (SFL)</td>
-</tr>
-<tr>
-    <td colspan="4">Tutte le tipologie di comunicazioni che vengono effettuate a favore dei contribuenti</td>
-</tr>
-<tr>
-    <td rowspan="2"><strong>050202N</strong></td>
-    <td>05 - Previdenza</td>
-    <td>02 - Comunicazioni</td>
-    <td>Bonus Pensionamenti</td>
-</tr>
-<tr>
-    <td colspan="4">Tutte le tipologie di comunicazioni che vengono effettuate a favore dei contribuenti</td>
-</tr>
-<tr>
-    <td rowspan="2"><strong>050201N</strong></td>
-    <td>05 - Previdenza</td>
-    <td>02 - Provvedimenti </td>
+    <td>02 - Provvedimenti</td>
     <td>Notifiche dei Provvedimenti  dei prodotti/servizi</td>
 </tr>
 <tr>
@@ -745,7 +707,7 @@ Atto di ingiunzione alla restituzione del finanziamento e/o contributo concesso 
 <tr>
     <td rowspan="2"><strong>050201P</strong></td>
     <td>05 - Previdenza</td>
-    <td>02 - Provvedimenti </td>
+    <td>02 - Provvedimenti</td>
     <td>Notifiche dei Provvedimenti  dei prodotti/servizi</td>
 </tr>
 <tr>
