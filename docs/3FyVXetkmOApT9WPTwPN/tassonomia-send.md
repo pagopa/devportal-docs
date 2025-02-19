@@ -102,6 +102,9 @@ Notifiche Ordinanze (es. ordinarie, per casi eccezionali di particolare gravità
 * Codice`010801N` - **Comunicazioni relative a riscossioni coattive e ingiunzioni fiscali** 
 Notifica atti relativi a procedimenti di riscossione coattiva / ingiunzioni fiscali (es. preavviso fermo amministrativo, preavviso iscrizione ipoteca, avviso di intimazione)
 
+* Codice`010801P` - **Comunicazioni relative a riscossioni coattive e ingiunzioni fiscali** 
+Notifica atti relativi a procedimenti di riscossione coattiva / ingiunzioni fiscali (es. preavviso fermo amministrativo, preavviso iscrizione ipoteca, avviso di intimazione)
+
 ### 0109 - **Delegazioni** 
 
 * Codice`010901N` - **notifica delegazioni di pagamento a tesoriere** 
@@ -517,6 +520,15 @@ Atto di ingiunzione alla restituzione del finanziamento e/o contributo concesso 
 </tr>
 <tr>
     <td rowspan="2"><strong>010801N</strong></td>
+    <td>01 - Comune</td>
+    <td>08 - Riscossione Coattiva</td>
+    <td>Comunicazioni relative a riscossioni coattive e ingiunzioni fiscali</td>
+</tr>
+<tr>
+    <td colspan="4">Notifica atti relativi a procedimenti di riscossione coattiva / ingiunzioni fiscali (es. preavviso fermo amministrativo, preavviso iscrizione ipoteca, avviso di intimazione)</td>
+</tr>
+<tr>
+    <td rowspan="2"><strong>010801P</strong></td>
     <td>01 - Comune</td>
     <td>08 - Riscossione Coattiva</td>
     <td>Comunicazioni relative a riscossioni coattive e ingiunzioni fiscali</td>
