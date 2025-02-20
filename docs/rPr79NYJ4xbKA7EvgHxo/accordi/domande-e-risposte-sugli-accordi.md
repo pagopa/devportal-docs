@@ -58,8 +58,6 @@ L'**Accordo Premium**, in aggiunta a quanto previsto dall'Accordo Base e dai Ter
 3. **reminder**: l'invio da parte del sistema di promemoria push automatici al Cittadino se [non legge un Messaggio](https://docs.pagopa.it/kb-enti-messaggi/domande-frequenti/domande-e-risposte-sui-messaggi-io#come-funziona-il-reminder-per-i-messaggi-non-letti) e se [non paga un eventuale avviso](https://docs.pagopa.it/kb-enti-messaggi/domande-frequenti/domande-e-risposte-sui-messaggi-io#come-funziona-il-reminder-per-i-messaggi-non-pagati) ad esso allegato, ovvero all'approssimarsi della relativa [scadenza](https://docs.pagopa.it/manuale-servizi/che-cosa-puo-fare-un-servizio-su-io/inviare-messaggi/messaggi-che-veicolano-una-scadenza), se dichiarata dall'Ente
 4. **allegati**: la possibilità di [allegare documenti PDF/A ai Messaggi](https://docs.pagopa.it/kb-enti-messaggi/domande-frequenti/domande-e-risposte-sui-messaggi-io#come-si-aggiungono-allegati-a-un-messaggio)
 
-L'utilizzo di IO in regime di Accordo Premium prevede una **tariffazione** specifica con possibilità di acquisto di **carnet di Messaggi prepagati** oltre alla normale **tariffazione a consumo**, secondo quanto dettagliato nel testo del relativo Accordo.
-
 </details>
 
 <details>
@@ -83,15 +81,7 @@ Tutti gli Enti possono accedere agli Accordi Base e Premium.&#x20;
 
 <summary>Dove posso trovare i testi degli Accordi con IO?</summary>
 
-Gli Accordi attualmente disponibili sono visionabili sulla [pagina dedicata](https://docs.pagopa.it/io-accordi-di-adesione/).
-
-</details>
-
-<details>
-
-<summary>Ho acquistato un carnet prepagato: posso acquistarne un altro?</summary>
-
-Puoi acquistare un carnet solo contestualmente alla sottoscrizione dell'Accordo Premium. Esaurito il carnet, passerai automaticamente alla tariffazione a consumo.
+È possibile visionare gli Accordi attualmente disponibili sulla [pagina dedicata](https://docs.pagopa.it/io-accordi-di-adesione/).
 
 </details>
 
@@ -111,14 +101,8 @@ Trovi tutti i dettagli all'interno degli [Accordi di adesione a IO](https://docs
 
 <summary>Cosa accade se cambio tipologia di Accordo prima di esaurire uno scaglione di invii?</summary>
 
-Il conteggio dei Messaggi inviati viene azzerato: all'attivazione del nuovo Accordo, la fatturazione avverrà secondo le relative regole.
+Il conteggio dei Messaggi inviati viene azzerato: all'attivazione del nuovo Accordo, la fatturazione avverrà secondo le regole relative.
 
-</details>
 
-<details>
-
-<summary>Cosa accade quando esaurisco i Messaggi acquistati col carnet prepagato?</summary>
-
-Passi automaticamente alla tariffazione a consumo, secondo l'Accordo che hai sottoscritto.
 
 </details>
