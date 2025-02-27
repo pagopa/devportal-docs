@@ -69,6 +69,6 @@
 
 ## Risorse Utili
 
-* [#️⃣ #️⃣ #️⃣ Guida al Markdown](risorse-utili/guida-al-markdown.md)
+* [#️⃣ Guida al Markdown](risorse-utili/guida-al-markdown.md)
 * [❓ Supporto agli Enti (tutorial, FAQ)](https://docs.pagopa.it/kb-enti)
 * [📘 Glossario](risorse-utili/glossario.md)
