@@ -10,7 +10,26 @@ description: >-
 
 <details>
 
+<summary>Marzo 2025</summary>
+
+### 1.0.137
+
+**3 marzo**
+
+* Aggiunte ulteriori notifiche di cortesia
+* Bug fixing
+
+</details>
+
+<details>
+
 <summary>Febbraio 2025</summary>
+
+### 1.0.136
+
+**18 febbraio**
+
+* Bug fixing
 
 ### 1.0.135
 
