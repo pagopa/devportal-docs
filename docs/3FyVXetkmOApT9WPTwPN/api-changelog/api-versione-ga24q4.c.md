@@ -35,79 +35,42 @@ Esempio:
 
 ```json
 "notificationStatusHistory": [
-
   {
-
    "status": "ACCEPTED",
-
    "activeFrom": "2025-01-08T14:07:18.78682696Z",
-
    "relatedTimelineElements": [
-
      …   
-
    ]
-
   },
-
   {
-
    "status": "DELIVERING",
-
    "activeFrom": "2025-01-08T14:13:04.153778659Z",
-
    "relatedTimelineElements": [
-
       …
-
     ]
-
   }
-
 ],
-
 …
-
 {
-
   "elementId": "SEND_ANALOG_FEEDBACK.IUN_DPDA-LVZM-JREL-202501-N-1.RECINDEX_0.ATTEMPT_0",
-
   "timestamp": "2025-01-08T14:15:25Z",
-
   "ingestionTimestamp": "2025-01-08T14:15:28.044726415Z",
-
   "eventTimestamp": "2025-01-08T14:15:25Z",
-
   "notificationSentAt": "2025-01-08T14:07:18.78682696Z",
-
   "category": "SEND_ANALOG_FEEDBACK",
-
   "details": {
-
      "recIndex": 0,
-
      "physicalAddress": {
-
           …
-
       },
-
       "sentAttemptMade": 0,
-
       "responseStatus": "OK",
-
       "notificationDate": "2025-01-08T14:15:25Z",
-
       "deliveryFailureCause": "M02",
-
       "deliveryDetailCode": "RECAG003C",
-
       "serviceLevel": "REGISTERED_LETTER_890",
-
       "registeredLetterCode": "08837543a362465da814595b8e8fa5a0"
-
   }
-
 }
 ```
 
@@ -117,194 +80,99 @@ Esempio:
 
 ```json
 {
-
         "eventId": "00000000000000000000000000000000000033",
-
         "notificationRequestId": "RFBEQS1MVlpNLUpSRUwtMjAyNTAxLU4tMQ==",
-
         "iun": "DPDA-LVZM-JREL-202501-N-1",
-
         "newStatus": "DELIVERING",
-
         "element": {
-
             "elementId": "SEND_ANALOG_FEEDBACK.IUN_DPDA-LVZM-JREL-202501-N-1.RECINDEX_0.ATTEMPT_0",
-
             "timestamp": "2025-01-08T14:15:25Z",
-
             "ingestionTimestamp": "2025-01-08T14:15:28.044726415Z",
-
             "eventTimestamp": "2025-01-08T14:15:25Z",
-
             "notificationSentAt": "2025-01-08T14:07:18.786826960Z",
-
             "category": "SEND_ANALOG_FEEDBACK",
-
             "details": {
-
                 "recIndex": 0,
-
                 "physicalAddress": {
-
       …
-
                 },
-
                 "sentAttemptMade": 0,
-
                 "responseStatus": "OK",
-
                 "notificationDate": "2025-01-08T14:15:25Z",
-
                 "deliveryFailureCause": "M02",
-
                 "deliveryDetailCode": "RECAG003C",
-
                 "serviceLevel": "REGISTERED_LETTER_890",
-
                 "sendRequestId": "SEND_ANALOG_DOMICILE.IUN_DPDA-LVZM-JREL-202501-N-1.RECINDEX_0.ATTEMPT_0",
-
                 "registeredLetterCode": "08837543a362465da814595b8e8fa5a0"
-
             }
-
         }
-
     },
-
-
 ```
 
 #### Utilizzo della API nuove
 
 Utilizzando la nuova versione delle API /delivery/v2.6/requests per ottenere il dettaglio della notifica si otterrà nello stato della notifica il nuovo **RETURNED\_TO\_SENDER**  e l’evento **ANALOG\_WORKFLOW\_RECIPIENT\_DECEASED** nella timeline.
 
-```json
-"notificationStatusHistory": [
-
+<pre class="language-json" data-full-width="false"><code class="lang-json">"notificationStatusHistory": [
   {
-
    "status": "ACCEPTED",
-
    "activeFrom": "2025-01-08T14:07:18.78682696Z",
-
    "relatedTimelineElements": [
-
      …   
-
    ]
-
   },
-
   {
-
    "status": "DELIVERING",
-
    "activeFrom": "2025-01-08T14:13:04.153778659Z",
-
    "relatedTimelineElements": [
-
       …
-
     ]
-
   }
-
   {
-
    "status": "RETURNED_TO_SENDER",
-
    "activeFrom": "2025-01-08T14:15:25Z",
-
    "relatedTimelineElements": [
-
      …
-
    ]
-
-}
-
-…
-
-
-{
-
+<strong>  }
+</strong>    …
+  {
   "elementId": "SEND_ANALOG_FEEDBACK.IUN_DPDA-LVZM-JREL-202501-N-1.RECINDEX_0.ATTEMPT_0",
-
   "timestamp": "2025-01-08T14:15:25Z",
-
   "ingestionTimestamp": "2025-01-08T14:15:28.044726415Z",
-
   "eventTimestamp": "2025-01-08T14:15:25Z",
-
   "notificationSentAt": "2025-01-08T14:07:18.78682696Z",
-
   "legalFactsIds": [],
-
   "category": "SEND_ANALOG_FEEDBACK",
-
   "details": {
-
      "recIndex": 0,
-
      "physicalAddress": {
-
         …
-
       },
-
       "sentAttemptMade": 0,
-
       "responseStatus": "OK",
-
       "notificationDate": "2025-01-08T14:15:25Z",
-
       "deliveryFailureCause": "M02",
-
       "deliveryDetailCode": "RECAG003C",
-
       "serviceLevel": "REGISTERED_LETTER_890",
-
       "sendRequestId": "SEND_ANALOG_DOMICILE.IUN_DPDA-LVZM-JREL-202501-N-1.RECINDEX_0.ATTEMPT_0",
-
       "registeredLetterCode": "08837543a362465da814595b8e8fa5a0"
-
   }
-
 },
-
-
 {
-
   "elementId": "ANALOG_WORKFLOW_RECIPIENT_DECEASED.IUN_DPDA-LVZM-JREL-202501-N-1.RECINDEX_0",
-
   "timestamp": "2025-01-08T14:15:25Z",
-
   "ingestionTimestamp": "2025-01-08T14:15:30.846053255Z",
-
   "eventTimestamp": "2025-01-08T14:15:25Z",
-
   "notificationSentAt": "2025-01-08T14:07:18.78682696Z",
-
   "legalFactsIds": [],
-
   "category": "ANALOG_WORKFLOW_RECIPIENT_DECEASED",
-
   "details": {
-
      "recIndex": 0,
-
      "physicalAddress": {
-
 …
-
      },
-
    "notificationCost": 100,
-
    "notificationDate": "2025-01-08T14:15:25Z"
-
 }
-
-
-```
+</code></pre>
