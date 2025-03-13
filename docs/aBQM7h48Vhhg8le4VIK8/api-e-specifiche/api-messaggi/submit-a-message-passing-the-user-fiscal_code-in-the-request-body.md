@@ -8,9 +8,9 @@ Questa API consente l’invio di messaggi verso un cittadino identificato tramit
 Per utilizzare questa API devi aggiungere alla chiamata l'header `Ocp-Apim-Subscription-Key` contenente la chiave "use" [primaria](../../funzionalita/pubblicare-un-servizio/dati-obbligatori/attributi.md#primary_key) o [secondaria](../../funzionalita/pubblicare-un-servizio/dati-obbligatori/attributi.md#secondary_key) del servizio scelto per l'invio del messaggio
 {% endhint %}
 
-{% swagger src="https://raw.githubusercontent.com/teamdigitale/io-functions-services/master/openapi/index.yaml" path="/messages" method="post" %}
+{% openapi src="https://raw.githubusercontent.com/teamdigitale/io-functions-services/master/openapi/index.yaml" path="/messages" method="post" %}
 [https://raw.githubusercontent.com/teamdigitale/io-functions-services/master/openapi/index.yaml](https://raw.githubusercontent.com/teamdigitale/io-functions-services/master/openapi/index.yaml)
-{% endswagger %}
+{% endopenapi %}
 
 ## **`fiscal_code`**<mark style="color:red;">**`*`**</mark>
 
@@ -122,7 +122,7 @@ Per l’invio degli avvisi di pagamento è necessario richiedere [specifica l’
 #### [`payee`](submit-a-message-passing-the-user-fiscal_code-in-the-request-body.md#descrizione)
 
 {% hint style="info" %}
-Questa funzionalità è riservata agli enti che hanno concordato con PagoPA l'abilitazione alla separazione tra i codici fiscali del mittente e del beneficiario della posizione debitoria.
+Questa funzionalità è riservata agli enti che hanno concordato con PagoPA l'abilitazione alla separazione tra i codici fiscali del mittente _del messaggio_ e del beneficiario della posizione debitoria.
 {% endhint %}
 
 ### `third_party_data`
