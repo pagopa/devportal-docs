@@ -4,7 +4,7 @@ Il Servizio è accessibile dal Back Office pagoPA, ossia il portale verticale, i
 
 &#x20;
 
-All'interno del menu del portale Back Office pagoPA è presente la sezione denominata "Insights", attraverso la quale, subordinatamente alla disponibilità di una Lettera di Adesione a pagoPA Insights valida per il Prestatore Aderente di riferimento e al riconoscimento dell'utente autenticato con ruolo di Amministratore, è consentito l'accesso e la navigazione del Servizio.
+All'interno del menu del portale Back Office pagoPA è presente la sezione denominata "**Insights**", attraverso la quale, subordinatamente alla disponibilità di una Lettera di Adesione a pagoPA Insights valida per il Prestatore Aderente di riferimento e al riconoscimento dell'utente autenticato con ruolo di Amministratore, è consentito l'accesso e la navigazione del Servizio.
 
 &#x20;
 

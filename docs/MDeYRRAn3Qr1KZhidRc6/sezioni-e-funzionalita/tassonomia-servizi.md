@@ -1,2 +1,3 @@
 # Tassonomia Servizi
 
+La sezione “Tassonomia Servizi di incasso” fornisce l’accesso alla tassonomia aggiornata dei codici tassonomici relativi ai servizi di incasso, con la possibilità di applicare filtri basati sulle principali informazioni disponibili. La tassonomia è integrata direttamente nel Servizio per garantire una consultazione immediata e funzionale, facilitando l’analisi dei dati e consentendo eventuali approfondimenti correlati. È inoltre disponibile per la consultazione via web al seguente link \[[https://developer.pagopa.it/pago-pa/guides/sanp/ente-creditore/tassonomia-dei-servizi-di-incasso](https://developer.pagopa.it/pago-pa/guides/sanp/ente-creditore/tassonomia-dei-servizi-di-incasso)].

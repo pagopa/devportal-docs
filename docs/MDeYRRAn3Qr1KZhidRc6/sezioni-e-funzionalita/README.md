@@ -14,15 +14,15 @@ Il Servizio è stato progettato per offrire una panoramica completa delle transa
 
 Le principali funzionalità disponibili nelle diverse sezioni sono:
 
-●        Selezione di filtri: consente di ottenere viste personalizzate dei dati disponibili;
+●      **Selezione di filtr**i: consente di ottenere viste personalizzate dei dati disponibili;
 
-●        Esportazione dei dati: permette di scaricare i dati presenti in tabella in formato CSV o excel;
+●       **Esportazione dei dati:** permette di scaricare i dati presenti in tabella in formato CSV o excel;
 
-●        Stampa e generazione di PDF: offre la possibilità di stampare o salvare in PDF l’immagine dell’intera scheda di interesse;
+●        **Stampa e generazione di PDF:** offre la possibilità di stampare o salvare in PDF l’immagine dell’intera scheda di interesse;
 
-●        Salvataggio delle ricerche: abilita il salvataggio delle ricerche effettuate per un aggiornamento automatico futuro;
+●      **Salvataggio delle ricerche:** abilita il salvataggio delle ricerche effettuate per un aggiornamento automatico futuro;
 
-●        Accesso a reportistica predefinita: fornisce report standardizzati per l'analisi dei dati.
+●       **Accesso a reportistica predefinita:** fornisce report standardizzati per l'analisi dei dati.
 
 
 
