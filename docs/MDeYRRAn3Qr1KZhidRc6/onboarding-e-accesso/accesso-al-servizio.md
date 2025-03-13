@@ -16,4 +16,4 @@ Qualora il PSP di riferimento non abbia sottoscritto la Lettera di Adesione a pa
 
 ***
 
-\[1] Per accedere al portale Back Office pagoPA, è necessario autenticarsi nell'Area Riservata. Una volta effettuato l'accesso, nella sezione "Panoramica" è disponibile l'area dedicata ai prodotti disponibili. Si rimanda al [Manuale operativo Pagamenti pagoPA - Prestatore di Servizi di Pagamento](https://docs.pagopa.it/manuale-back-office-pagopa/manuale-bo-pagopa-psp).
+\[1] Per accedere al portale Back Office pagoPA, è necessario autenticarsi nell'Area Riservata. Una volta effettuato l'accesso, nella sezione "Panoramica" è disponibile l'area dedicata ai prodotti disponibili. Si rimanda al [Manuale operativo Pagamenti pagoPA - Prestatore di Servizi di Pagamento](https://developer.pagopa.it/pago-pa/guides/manuale-bo-psp).
