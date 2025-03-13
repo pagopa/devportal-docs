@@ -2,9 +2,8 @@
 
 La scheda "Analisi Stagionalità" è articolata in due aree di analisi:
 
-**●        Indice di Stagionalità Servizio;**
-
-**●        Indice di Stagionalità Coppia Servizio-Ente.**
+* **Indice di Stagionalità Servizio;**
+* **Indice di Stagionalità Coppia Servizio-Ente.**
 
 Entrambe permettono di valutare l’andamento dei volumi transazionali nel tempo e di consultare l’indice di stagionalità, offrendo una visione completa delle variazioni nei flussi di pagamento in funzione delle selezioni effettuate dall’utente e fornendo un set di KPI strutturati come segue:
 

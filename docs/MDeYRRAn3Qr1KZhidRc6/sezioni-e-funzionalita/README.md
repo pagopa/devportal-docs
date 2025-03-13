@@ -1,28 +1,22 @@
 # Sezioni e funzionalità
 
-Il Servizio è stato progettato per offrire una panoramica completa delle transazioni con esito positivo\[1] della piattaforma pagoPA e consentire l’accesso ad una serie di analisi predefinite per monitorare l’andamento delle transazioni nel tempo e studiare la sua evoluzione rispetto a diverse dimensioni di analisi. Il Servizio si compone di cinque (5) sezioni, ciascuna rappresentata da una scheda navigabile:
+Il Servizio è stato progettato per offrire una panoramica completa delle transazioni con esito positivo\[1] della piattaforma pagoPA e consentire l’accesso ad una serie di analisi predefinite per monitorare l’andamento delle transazioni nel tempo e studiare la sua evoluzione rispetto a diverse dimensioni di analisi.&#x20;
 
-●        Overview Transazioni;
+Il Servizio si compone di cinque (5) sezioni, ciascuna rappresentata da una scheda navigabile:
 
-●        Transazioni Prestatore Aderente;
-
-●        Analisi Stagionalità;
-
-●        Analisi Libera;
-
-●        Tassonomia Servizi di Incasso.
+* Overview Transazioni;
+* Transazioni Prestatore Aderente;
+* Analisi Stagionalità;
+* Analisi Libera;
+* &#x20;Tassonomia Servizi di Incasso.
 
 Le principali funzionalità disponibili nelle diverse sezioni sono:
 
-●      **Selezione di filtr**i: consente di ottenere viste personalizzate dei dati disponibili;
-
-●       **Esportazione dei dati:** permette di scaricare i dati presenti in tabella in formato CSV o excel;
-
-●        **Stampa e generazione di PDF:** offre la possibilità di stampare o salvare in PDF l’immagine dell’intera scheda di interesse;
-
-●      **Salvataggio delle ricerche:** abilita il salvataggio delle ricerche effettuate per un aggiornamento automatico futuro;
-
-●       **Accesso a reportistica predefinita:** fornisce report standardizzati per l'analisi dei dati.
+* **Selezione di filtr**i: consente di ottenere viste personalizzate dei dati disponibili;
+* **Esportazione dei dati:** permette di scaricare i dati presenti in tabella in formato CSV o excel;
+* **Stampa e generazione di PDF:** offre la possibilità di stampare o salvare in PDF l’immagine dell’intera scheda di interesse:
+* &#x20;**Salvataggio delle ricerche:** abilita il salvataggio delle ricerche effettuate per un aggiornamento automatico futuro;
+* **Accesso a reportistica predefinita:** fornisce report standardizzati per l'analisi dei dati.
 
 
 
