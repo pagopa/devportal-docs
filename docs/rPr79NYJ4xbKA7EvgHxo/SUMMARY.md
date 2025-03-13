@@ -21,7 +21,7 @@
   * [📜 Come inviare un Messaggio](messaggi/indice-dei-tutorial-e-dei-casi-duso/come-inviare-un-messaggio.md)
   * [📜 Come sapere se un Messaggio è stato recapitato](messaggi/indice-dei-tutorial-e-dei-casi-duso/come-sapere-se-un-messaggio-e-stato-recapitato.md)
   * [📜 Come sapere se un Messaggio è stato letto (Funzionalità Premium)](messaggi/indice-dei-tutorial-e-dei-casi-duso/come-sapere-se-un-messaggio-e-stato-letto-funzionalita-premium.md)
-  * [🎥 Come allegare documenti a un Messaggio (Funzionalità Premium)](messaggi/indice-dei-tutorial-e-dei-casi-duso/come-allegare-documenti-a-un-messaggio-funzionalita-premium.md)
+  * [📜 Come allegare documenti a un Messaggio (Funzionalità Premium)](messaggi/indice-dei-tutorial-e-dei-casi-duso/come-allegare-documenti-a-un-messaggio-funzionalita-premium.md)
 * [❓ Domande e risposte sui Messaggi](messaggi/domande-e-risposte-sui-messaggi.md)
 
 ## Pagamenti

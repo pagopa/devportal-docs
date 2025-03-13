@@ -1,20 +1,10 @@
-# 🎥 Come allegare documenti a un Messaggio (Funzionalità Premium)
+# 📜 Come allegare documenti a un Messaggio (Funzionalità Premium)
 
 ## Indice dei contenuti
 
 * [#video-tutorial](come-allegare-documenti-a-un-messaggio-funzionalita-premium.md#video-tutorial "mention")
 * [#panoramica](come-allegare-documenti-a-un-messaggio-funzionalita-premium.md#panoramica "mention")
 * [#caso-duso-esempio](come-allegare-documenti-a-un-messaggio-funzionalita-premium.md#caso-duso-esempio "mention")
-
-## Video tutorial
-
-{% embed url="https://www.youtube.com/watch?v=TwG83D53SjI" %}
-Video tutorial - Parte 1
-{% endembed %}
-
-{% embed url="https://www.youtube.com/watch?v=ZtZ_KZDzC7I" %}
-Video tutorial - Parte 2
-{% endembed %}
 
 ## Panoramica
 
@@ -36,18 +26,7 @@ Nel diagramma, le frecce in colore blu rappresentano le chiamate che IO fa al _b
 
 ### I dati di configurazione
 
-Dopo aver definito il Servizio che userai per spedire i tuoi Messaggi, per abilitarlo all'invio di Allegati dovrai [comunicare a IO](https://docs.pagopa.it/area-riservata-enti-app-io/area-riservata-enti-app-io/processo-di-adesione-a-app-io/processo-di-adesione-a-app-io-premium) alcuni dati chiave:
-
-*   `serviceId`: è l'identificativo del Servizio IO, puoi recuperarlo accedendo alla sezione Servizi dell'Area Riservata\
-
-
-    <figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption><p>Dove puoi trovare il serviceId</p></figcaption></figure>
-* `baseUrl`: IO necessita di richiamare il tuo backend per ottenere le informazioni sugli allegati al tuo Messaggio. La URL che IO utilizzerà per questo scopo è costituita da una parte fissa, `baseUrl`, e una variabile a seconda dello scenario e del messaggio. Esempio di `baseUrl`: `https://integrazione.mioente.it/io`
-* `API Key`: è la chiave di autenticazione che IO utilizzerà per richiamare i tuoi endpoint di callback
-  * :warning: Fai attenzione, _non_ si tratta di una delle chiavi, primaria o secondaria, del tuo Servizio!
-  * :information\_source: Puoi concordare con IO il nome del header che veicolerà la API Key
-
-IO memorizzerà queste informazioni e le utilizzerà successivamente nel colloquio con la tua Organizzazione.
+Dopo aver definito il Servizio che userai per spedire i tuoi Messaggi, per abilitarlo all'invio di Allegati dovrai [creare o selezionare una configurazione remota](https://docs.pagopa.it/io-guida-tecnica/setup-iniziale/configurazione-remota) allo scopo di ottenere o recuperare il `configuration_id` necessario a IO per sapere come recuperare i dati dei tuoi file.
 
 ### L'identificativo `{third_party_data.id}`
 
@@ -58,6 +37,10 @@ Sei tu a decidere il valore di `third_party_data.id`, ma tieni presente che **de
 {% endhint %}
 
 Trasmetterai l'identificativo nella richiesta di invio del messaggio e sarà poi utilizzato nell'intero colloquio tra la tua Organizzazione e IO, come riportato nella sequenza illustrata in [#panoramica](come-allegare-documenti-a-un-messaggio-funzionalita-premium.md#panoramica "mention").
+
+### Il flag `{third_party_data.has_attachments}`
+
+Per indicare a IO che il tuo messaggio conterrà degli allegati, devi impostare il flag `third_party_data.has_attachments` a `true`: questo predisporrà l'app IO a mostrare un'apposita sezione nel dettaglio del messaggio e a recuperare i dati dei file dai tuoi sistemi, quando l'utente li richiederà.
 
 ### Esposizione callback
 
@@ -86,7 +69,7 @@ Nota la presenza della sezione "Allegati" con l'elenco dei documenti che accompa
 
 ### Step 1 - Preparazione degli Allegati
 
-Come prima cosa, una volta implementata l'integrazione tra i sistemi della tua Organizzazione e quelli di IO come riportato in [#panoramica](come-allegare-documenti-a-un-messaggio-funzionalita-premium.md#panoramica "mention"), dovrai assicurarti che i file dei tuoi allegati siano a disposizione degli _endpoint_ che avrai esposto verso IO: quando IO ti invocherà utilizzando [#lidentificativo-third\_party\_data.id](come-allegare-documenti-a-un-messaggio-funzionalita-premium.md#lidentificativo-third\_party\_data.id "mention") che avrai comunicato in sede di invio del Messaggio, i tuoi sistemi dovranno individuare il set di allegati corrispondente e tornare le relative informazioni secondo il protocollo stabilito.
+Come prima cosa, una volta implementata l'integrazione tra i sistemi della tua Organizzazione e quelli di IO come riportato in [#panoramica](come-allegare-documenti-a-un-messaggio-funzionalita-premium.md#panoramica "mention"), dovrai assicurarti che i file dei tuoi allegati siano a disposizione degli _endpoint_ che avrai esposto verso IO: quando IO ti invocherà utilizzando [#lidentificativo-third\_party\_data.id](come-allegare-documenti-a-un-messaggio-funzionalita-premium.md#lidentificativo-third_party_data.id "mention") che avrai comunicato in sede di invio del Messaggio, i tuoi sistemi dovranno individuare il set di allegati corrispondente e tornare le relative informazioni secondo il protocollo stabilito.
 
 In questo tutorial, gli esempi prevedono che a fronte di un `third_party_data.id` con valore `000003` i tuoi sistemi "sappiano" che gli allegati per questo Messaggio sono due:
 
@@ -117,6 +100,7 @@ In questo tutorial, gli esempi prevedono che a fronte di un `third_party_data.id
         "markdown": "Gentile Mario Rossi,\n\r\n\rabbiamo accettato la tua richiesta di partecipazione all'\''evento e ti inviamo in allegato la ricevuta del pagamento della tua quota e la brochure con tutte le informazioni utili.\n\rA Ti aspettiamo!\n\rL'\''Amministrazione Comunale di Ipazia.",
         "third_party_data": {
             "id": "000003",
+            "configuration_id": "0e9852ccb8a04128bd637c807b9d80d3",
             "has_attachments": true
         }
     },
@@ -129,19 +113,12 @@ In questo tutorial, gli esempi prevedono che a fronte di un `third_party_data.id
 
     <figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
 * Il valore `"ADVANCED"` per `feature_level_type` identifica un Messaggio Premium: impostalo così per poter aggiungere Allegati al tuo Messaggio
-* Componi il tuo messaggio (`subject`, `markdown`) seguendo i consigli riportati nel [Manuale dei Servizi di IO](https://docs.pagopa.it/manuale-servizi/)
+* Componi il tuo messaggio (`subject`, `markdown`) seguendo i consigli riportati nel [Manuale dei Servizi di IO](https://docs.pagopa.it/manuale-servizi/) e le specifiche del [formato Markdown supportato da IO](https://docs.pagopa.it/io-guida-tecnica/risorse-utili/guida-al-markdown)
 * La presenza della struttura `third_party_data` indica a IO che il tuo Messaggio veicola uno o più Allegati:
-  1. `id` è il [#lidentificativo-third\_party\_data.id](come-allegare-documenti-a-un-messaggio-funzionalita-premium.md#lidentificativo-third\_party\_data.id "mention")
-  2. `has_attachments` va obbligatoriamente impostato a `true`
+  1. `id` è il [#lidentificativo-third\_party\_data.id](come-allegare-documenti-a-un-messaggio-funzionalita-premium.md#lidentificativo-third_party_data.id "mention")
+  2. `configuration_id` è l'identificativo della configurazione remota scelta per la gestione degli allegati di questo messaggio: lo ottieni seguendo il processo indicato nella [Guida Tecnica](https://docs.pagopa.it/io-guida-tecnica/setup-iniziale/configurazione-remota)
+  3. `has_attachments` va obbligatoriamente impostato a `true`
 * `fiscal_code` è il Codice Fiscale del destinatario del Messaggio
-
-{% hint style="info" %}
-Se il Servizio IO che stai utilizzando non è pubblicato, dovrai [chiederci di abilitarlo all'invio di messaggi verso uno o più codici fiscali specifici](https://docs.pagopa.it/io-guida-tecnica/abilitazioni/test-con-codici-fiscali-reali). Queste persone, che non dovranno essere cittadini/utenti finali ma membri della tua Organizzazione o comunque incaricati dei test, riceveranno i messaggi che invierai direttamente sulla loro App IO.
-{% endhint %}
-
-{% hint style="danger" %}
-Se il Servizio è [pubblicato](https://docs.pagopa.it/manuale-servizi/come-si-crea-un-servizio/validazione-pubblicazione-e-modifica-di-un-servizio), non sarà necessaria alcuna procedura autorizzativa e potrai inviare messaggi a qualsiasi codice fiscale destinatario. Poni la massima attenzione a questo scenario!
-{% endhint %}
 
 #### Response
 
@@ -159,7 +136,7 @@ Prendi sempre nota dell'identificativo del messaggio ritornato in fase di invio:
 
 In seguito alla richiesta di invio del Messaggio, come visto in [#step-2-invio-del-messaggio](come-allegare-documenti-a-un-messaggio-funzionalita-premium.md#step-2-invio-del-messaggio "mention"), l'App IO del destinatario lo riceverà segnalandone la presenza con una notifica "push" (se abilitata sul dispositivo specifico).
 
-Toccando la notifica, oppure aprendo manualmente App IO e toccando il nuovo messaggio nell'elenco dei messaggi ricevuti, l'utente accederà al dettaglio: se tutto sarà andato come previsto, IO avrà contattato i tuoi sistemi per recuperare i metadati degli allegati (numero, nomi e URL relative), potendo così costruire la pagina da mostrarti: nota la sezione Allegati con l'elenco dei tuoi file.
+Toccando la notifica, oppure aprendo manualmente App IO e toccando il nuovo messaggio nell'elenco dei messaggi ricevuti, l'utente accederà al dettaglio: se tutto sarà andato come previsto, **IO avrà contattato i tuoi sistemi per recuperare i metadati degli allegati** (numero, nomi e URL relative), potendo così costruire la pagina da mostrarti: nota la sezione Allegati con l'elenco dei tuoi file.
 
 <figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
 
@@ -167,7 +144,7 @@ Toccando la notifica, oppure aprendo manualmente App IO e toccando il nuovo mess
 
 * `https://integrazione.mioente.it/io` --> URL di base comunicata all'onboarding (vedi [#i-dati-di-configurazione](come-allegare-documenti-a-un-messaggio-funzionalita-premium.md#i-dati-di-configurazione "mention"))
 * `/messages/` --> percorso costante
-* `000003` --> [#lidentificativo-third\_party\_data.id](come-allegare-documenti-a-un-messaggio-funzionalita-premium.md#lidentificativo-third\_party\_data.id "mention")
+* `000003` --> [#lidentificativo-third\_party\_data.id](come-allegare-documenti-a-un-messaggio-funzionalita-premium.md#lidentificativo-third_party_data.id "mention")
 
 L'endpoint avrà risposto con questi dati:
 
@@ -203,7 +180,7 @@ Toccando uno dei file allegati al tuo Messaggio, il destinatario avvierà il pro
 
 Dopo alcuni secondi, necessari affinché il file sia trasferito dai tuoi sistemi a IO e quindi all'App di destinazione, all'utente sarà mostrato il visualizzatore di PDF integrato in App IO:
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Potrà quindi utilizzare i gesti di zoom e spostamento per esaminare l'allegato più in dettaglio, così come potrà scegliere di:
 
@@ -215,7 +192,7 @@ Potrà quindi utilizzare i gesti di zoom e spostamento per esaminare l'allegato 
 
 * `https://integrazione.mioente.it/io` --> URL di base comunicata all'onboarding (vedi [#i-dati-di-configurazione](come-allegare-documenti-a-un-messaggio-funzionalita-premium.md#i-dati-di-configurazione "mention"))
 * `/messages/` --> percorso costante
-* `000003` --> [#lidentificativo-third\_party\_data.id](come-allegare-documenti-a-un-messaggio-funzionalita-premium.md#lidentificativo-third\_party\_data.id "mention")
+* `000003` --> [#lidentificativo-third\_party\_data.id](come-allegare-documenti-a-un-messaggio-funzionalita-premium.md#lidentificativo-third_party_data.id "mention")
 * `/` --> costante
 * `/attachments/evento.pdf` --> valore del campo `url` prelevato dalla response del primo endpoint
 

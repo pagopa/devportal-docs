@@ -5,7 +5,6 @@
 <summary>Quali sono gli indirizzi email cui scrivere per ricevere assistenza?</summary>
 
 * [onboarding@io.italia.it](mailto:onboarding@io.italia.it)
-* [adesioni-io@pec.pagopa.it](mailto:adesioni-io@pec.pagopa.it) (PEC)
 
 </details>
 

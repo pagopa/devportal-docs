@@ -17,3 +17,8 @@ Qui trovi l'indice dei Tutorial e dei Casi d'Uso sui Messaggi
 {% content-ref url="come-sapere-se-un-messaggio-e-stato-letto-funzionalita-premium.md" %}
 [come-sapere-se-un-messaggio-e-stato-letto-funzionalita-premium.md](come-sapere-se-un-messaggio-e-stato-letto-funzionalita-premium.md)
 {% endcontent-ref %}
+
+{% content-ref url="come-allegare-documenti-a-un-messaggio-funzionalita-premium.md" %}
+[come-allegare-documenti-a-un-messaggio-funzionalita-premium.md](come-allegare-documenti-a-un-messaggio-funzionalita-premium.md)
+{% endcontent-ref %}
+

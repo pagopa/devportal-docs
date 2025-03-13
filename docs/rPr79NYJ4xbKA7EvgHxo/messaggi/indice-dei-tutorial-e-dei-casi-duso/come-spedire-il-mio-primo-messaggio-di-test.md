@@ -1,46 +1,17 @@
 # 📜 Come spedire il mio primo Messaggio di test
 
-Una volta [configurato un Servizio su IO](https://docs.pagopa.it/kb-enti-servizi/tutorial-e-casi-duso/indice-dei-tutorial-e-dei-casi-duso/come-creare-un-servizio), puoi iniziare subito a sperimentare l'invio di Messaggi secondo due possibili modalità di test.
+Una volta [configurato un Servizio su IO](https://docs.pagopa.it/kb-enti-servizi/tutorial-e-casi-duso/indice-dei-tutorial-e-dei-casi-duso/come-creare-un-servizio), puoi iniziare subito a sperimentare l'invio di Messaggi.
 
-<details>
+{% hint style="warning" %}
+Poni attenzione al fatto che un Servizio su IO abilitato è in grado di mandare messaggi a qualsiasi codice fiscale valido: è tua responsabilità individuare e aggiornare nel tempo la base d'utenza corretta per il tuo Servizio.
+{% endhint %}
 
-<summary>Voglio inviare un messaggio di prova alla mia email per testare il markdown</summary>
+{% hint style="success" %}
+Puoi sapere se [un tuo utente è già su IO](https://docs.pagopa.it/io-guida-tecnica/api-e-specifiche/api-messaggi/get-a-user-profile-using-post) e [ha abilitato le comunicazioni provenienti dal tuo Servizio](https://docs.pagopa.it/kb-enti-servizi/tutorial-e-casi-duso/indice-dei-tutorial-e-dei-casi-duso/come-sapere-se-un-cittadino-ha-abilitata-la-ricezione-dei-messaggi-per-un-servizio) richiamando l'apposita API: in caso di risposta affermativa, potrai procedere con l'invio del messaggio.
+{% endhint %}
 
-Per sperimentare con il [markdown](https://it.wikipedia.org/wiki/Markdown) di un Messaggio, il modo più rapido è utilizzare la funzionalità di invio di test inclusa nella tua Area Riservata.
+**Step 1.** Come prima cosa, **componi il tuo messaggio** seguendo le linee guida del Manuale dei Servizi di IO e le [specifiche del formato Markdown supportato](https://docs.pagopa.it/io-guida-tecnica/risorse-utili/guida-al-markdown).
 
-1. Una volta nell'[Area Riservata](https://selfcare.pagopa.it/), seleziona il menu "Servizi" e individua quindi il servizio che vuoi testare
-2.  Nella scheda del servizio, scegli una delle due chiavi ([è indifferente](https://docs.pagopa.it/kb-enti-servizi/domande-frequenti/domande-e-risposte-sui-servizi-io#perche-ci-sono-due-api-key-per-servizio)) e seleziona il pulsante "Usa questa chiave"\
+**Step 2.** Individua la tua **base d'utenza di test**: generalmente, dovrai individuare i codici fiscali di persone coinvolte nei processi di definizione, implementazione e test dei tuoi Servizi su IO.
 
-
-    <figure><img src="../../.gitbook/assets/kb_enti_2 (2).png" alt=""><figcaption></figcaption></figure>
-3.  Il sistema ti mostrerà l'interfaccia di invio di test\
-
-
-    <figure><img src="../../.gitbook/assets/kb_enti_3 (2).png" alt=""><figcaption></figcaption></figure>
-4. Inizialmente, nel campo Codice Fiscale puoi inserire solo il CF speciale `AAAAAA00A00A000A`, che ti permetterà di ricevere il messaggio sulla casella di email che hai dichiarato quando ti sei iscritto all'Area Riservata come delegato; se desideri fare test con codici fiscali reali, fai riferimento a [#voglio-inviare-un-messaggio-di-prova-alla-mia-app-io](come-spedire-il-mio-primo-messaggio-di-test.md#voglio-inviare-un-messaggio-di-prova-alla-mia-app-io "mention")
-5. Compila il form scrivendo il soggetto del messaggio e il suo corpo in formato [markdown](https://it.wikipedia.org/wiki/Markdown); poni attenzione alle lunghezze minime dei campi, almeno 10 caratteri per il soggetto e almeno 80 per il corpo
-6. Seleziona il pulsante "Invia"
-7.  Verifica il recapito del messaggio dalla casella di posta elettronica del delegato che ha creato il Servizio:\
-
-
-    <figure><img src="../../.gitbook/assets/kb_enti_7.png" alt=""><figcaption></figcaption></figure>
-
-</details>
-
-<details>
-
-<summary>Voglio inviare un messaggio di prova alla mia App IO</summary>
-
-1. Per spedire messaggi a un codice fiscale reale, devi prima far [abilitare dei codici fiscali reali al tuo Servizio](https://docs.pagopa.it/io-guida-tecnica/abilitazioni/test-con-codici-fiscali-reali).
-
-<!---->
-
-2. Una volta ottenuta l'abilitazione, puoi procedere all'invio del messaggio ai codici fiscali autorizzati, che lo riceveranno sulla propria App IO.
-
-Per maggiori informazioni sulla spedizione dei messaggi vedi
-
-[come inviare un messaggio](come-inviare-un-messaggio.md)
-
-
-
-</details>
+**Step 3.** **Invia un messaggio di test**: usa [l'API di invio](https://docs.pagopa.it/io-guida-tecnica/funzionalita/inviare-un-messaggio) per mandare un messaggio sull'app dei tuoi utenti di test e verifica con loro il buon esito di ogni parte del messaggio ([titolo](https://docs.pagopa.it/io-guida-tecnica/api-e-specifiche/api-messaggi/submit-a-message-passing-the-user-fiscal_code-in-the-request-body#subject), [formattazione](https://docs.pagopa.it/io-guida-tecnica/risorse-utili/guida-al-markdown) e contenuto del [corpo](https://docs.pagopa.it/io-guida-tecnica/api-e-specifiche/api-messaggi/submit-a-message-passing-the-user-fiscal_code-in-the-request-body#markdown), eventuali [posizioni debitorie](https://docs.pagopa.it/kb-enti-pagamenti/tutorial-e-casi-duso/indice-dei-tutorial-e-dei-casi-duso/come-spedire-un-avviso-di-pagamento-in-un-messaggio), [allegati PDF](https://docs.pagopa.it/kb-enti-messaggi/tutorial-e-casi-duso/indice-dei-tutorial-e-dei-casi-duso/come-allegare-documenti-a-un-messaggio-funzionalita-premium) o [CTA](https://docs.pagopa.it/io-guida-tecnica/risorse-utili/guida-al-markdown#pulsanti-azione-cta)).
