@@ -70,5 +70,5 @@
 ## Risorse Utili
 
 * [#️⃣ Guida al Markdown](risorse-utili/guida-al-markdown.md)
-* [❓ Supporto agli Enti (tutorial, FAQ)](https://docs.pagopa.it/kb-enti)
+* [❓ Supporto agli Enti (tutorial, FAQ)](https://developer.pagopa.it/app-io/guides/supporto-agli-enti)
 * [📘 Glossario](risorse-utili/glossario.md)
