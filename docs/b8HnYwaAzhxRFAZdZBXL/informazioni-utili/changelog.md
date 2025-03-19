@@ -12,6 +12,14 @@ description: >-
 
 <summary>Marzo 2025</summary>
 
+### 1.0.138
+
+**18 marzo**
+
+* Aggiunta nella scheda dell'e-service di: id dell'e-service, id della versione di e-service, data di pubblicazione della versione, checksum del file di interfaccia, eventuale data di sospensione e deprecazione della versione di e-service
+* Aggiunta nella scheda dell'ente codice IPA / partita IVA
+* Bug fixing
+
 ### 1.0.137
 
 **3 marzo**
