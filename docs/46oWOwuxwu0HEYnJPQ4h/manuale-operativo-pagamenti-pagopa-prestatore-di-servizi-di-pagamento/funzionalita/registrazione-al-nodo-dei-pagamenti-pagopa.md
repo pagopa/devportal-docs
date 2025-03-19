@@ -36,7 +36,7 @@ Inoltre, l'utente oltre a dover procedere alla compilazione dei suddetti campi, 
 
 #### Caso 1: Modalità di connessione al Nodo indiretta
 
-L'utente procede alla **compilazione dei dati obbligatori e** sceglie la **modalità indiretta** di connessione al Nodo**.**
+L'utente procede alla **compilazione dei dati obbligatori e** sceglie la **modalità indiretta** di connessione al Nod&#x6F;**.**
 
 <figure><img src="../../.gitbook/assets/image (7) (1) (1).png" alt=""><figcaption><p><em>Registrazione al Nodo - Connessione indiretta - Conferma</em></p></figcaption></figure>
 
@@ -60,7 +60,7 @@ Questo verrà reindirizzato alla Panoramica in cui potrà visualizzare il riepil
 
 #### Caso 2 : Modalità di connessione al Nodo diretta
 
-L'utente procede alla **compilazione dei dati obbligatori e** sceglie la **modalità diretta** di connessione al Nodo**.**
+L'utente procede alla **compilazione dei dati obbligatori e** sceglie la **modalità diretta** di connessione al Nod&#x6F;**.**
 
 <figure><img src="../../.gitbook/assets/image (8) (1) (1).png" alt=""><figcaption><p><em>Registrazione al Nodo - Connessione diretta - Conferma</em></p></figcaption></figure>
 

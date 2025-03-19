@@ -18,7 +18,7 @@ L' **Amministratore** possiede invece **pieno** **potere** a livello di **visual
 
 ### Sezione API Key: Ambiente di Collaudo
 
-Dalla **Panoramica - Area riservata**, dopo aver cliccato sul pulsante "Gestisci**"** del prodotto e aver selezionato l'ambiente target, ad esempio **"Collaudo"**, l'utente accede alla _Pagina Vista API Key._
+Dalla **Panoramica - Area riservata**, dopo aver cliccato sul pulsante "Gestisc&#x69;**"** del prodotto e aver selezionato l'ambiente target, ad esempio **"Collaudo"**, l'utente accede alla _Pagina Vista API Key._
 
 Nella suddetta _Pagina_ è possibile procedere alla generazione delle chiavi cliccando sul tasto “+ Genera API Key” o su link in blu “Genera API Key”.
 

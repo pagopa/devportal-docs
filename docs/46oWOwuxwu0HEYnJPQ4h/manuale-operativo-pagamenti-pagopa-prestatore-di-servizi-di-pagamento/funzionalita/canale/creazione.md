@@ -45,7 +45,7 @@ Una volta aver cliccato sul tasto "Conferma", l'utente attiverà il canale e ver
 
 L'utente può eseguire la **creazione del canale** in **ambiente di produzione** svolgendo le stesse azioni illustrate nella sopra indicata _Sezione Canali: Creazione - Ambiente di Collaudo._
 
-A differenza dell'ambiente di collaudo però, una volta aver completato la compilazione dei campi della P_agina di dettaglio,_ **è necessario ottenere la validazione di tali dati.**
+A differenza dell'ambiente di collaudo però, una volta aver completato la compilazione dei campi della &#x50;_&#x61;gina di dettaglio,_ **è necessario ottenere la validazione di tali dati.**
 
 Ciò significa che l'utente, cliccando sul tasto "Conferma" non otterrà l'immediata attivazione del canale, ma invia una richiesta di attivazione all'operatore PagoPA, come illustrato di seguito nel dettaglio.
 

@@ -34,7 +34,7 @@ Una volta aver cliccato sul tasto "Continua", l'utente attiverà il nuovo canale
 
 L'utente può eseguire la **duplicazione del canale** in **ambiente di produzione** svolgendo le stesse azioni illustrate nella sopra indicata _Sezione Canali: Duplicazione - Ambiente di Collaudo._&#x20;
 
-A differenza dell'ambiente di collaudo però, una volta aver completato la compilazione dei campi della P_agina di dettaglio,_ **è necessario ottenere la validazione di tali dati.**
+A differenza dell'ambiente di collaudo però, una volta aver completato la compilazione dei campi della &#x50;_&#x61;gina di dettaglio,_ **è necessario ottenere la validazione di tali dati.**
 
 Quindi, una volta che l'utente avrà cliccato sul tasto "Continua" non otterrà l'immediata attivazione del canale, ma invia una richiesta di attivazione all'operatore PagoPA, come illustrato di seguito nel dettaglio.
 

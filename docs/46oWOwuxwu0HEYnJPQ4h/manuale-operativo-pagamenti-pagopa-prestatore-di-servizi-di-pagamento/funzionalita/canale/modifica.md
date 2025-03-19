@@ -21,7 +21,7 @@ All'interno della _Pagina "Vista Canali",_ l'utente cliccando sui **3 puntini** 
 
 
 
-Selezionando tale opzione**"**, l'utente può accedere alla _Pagina di dettaglio Canale._&#x20;
+Selezionando tale opzion&#x65;**"**, l'utente può accedere alla _Pagina di dettaglio Canale._&#x20;
 
 All'interno di questa, l'utente può visualizzare tutti i dati di configurazione inseriti in fase di Creazione.
 
@@ -39,7 +39,7 @@ Una volta aver cliccato sul tasto "Conferma", le modifiche verranno salvate e l'
 
 L'utente può eseguire la **modifica del canale** in **ambiente di produzione** svolgendo le stesse azioni illustrate nella sopra indicata _Sezione Canali: Modifica- Ambiente di Collaudo._&#x20;
 
-A differenza dell'ambiente di collaudo però, una volta aver modificato i campi della P_agina di dettaglio,_ **è necessario ottenere la validazione di tali dati.**
+A differenza dell'ambiente di collaudo però, una volta aver modificato i campi della &#x50;_&#x61;gina di dettaglio,_ **è necessario ottenere la validazione di tali dati.**
 
 Quindi, una volta che l'utente avrà cliccato sul tasto "Conferma" non otterrà l'immediata attivazione del canale, ma invia una richiesta di attivazione all'operatore PagoPA, come illustrato di seguito nel dettaglio.
 
