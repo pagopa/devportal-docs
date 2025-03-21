@@ -1,7 +1,7 @@
 # Template social
 
 {% hint style="info" %}
-Scarica [qui](https://drive.google.com/drive/folders/195rtx3QzJX7nvHFqU2K4StUwuGOcKHSi?usp=drive\_link) gli adattamenti per i post social e le stories
+Scarica [qui](https://drive.google.com/drive/folders/195rtx3QzJX7nvHFqU2K4StUwuGOcKHSi?usp=drive_link) gli adattamenti per i post social e le stories
 {% endhint %}
 
 ### Suggerimenti copy
@@ -18,23 +18,23 @@ Qualora avessi necessità di comunicare altri use case di notifiche non ancora r
 
 * 🔔Il Comune di xx aderisce a #SEND - Servizio Notifiche Digitali che ti permette di ricevere le nostre comunicazioni a valore legale online.\
   Potrai visualizzarle, gestirle e pagare eventuali costi accedendo a SEND con SPID o CIE o direttamente dall'app @IO. \
-  Scopri di più: [https://notifichedigitali.pagopa.it/cittadini](https://notifichedigitali.pagopa.it/cittadini)\
+  Scopri di più su [notifichedigitali.it](https://notifichedigitali.it/)\
 
 * 📬Da oggi puoi ricevere le comunicazioni a valore legale del Comune di xx su #SEND - Servizio Notifiche Digitali.\
   Esiti di pratiche amministrative, rimborsi o multe: puoi gestire le notifiche online, dal sito di SEND o direttamente dall’app @IO. È facile, veloce e conveniente, si accede tramite SPID o CIE.\
-  Scopri di più: [https://notifichedigitali.pagopa.it/cittadini](https://notifichedigitali.pagopa.it/cittadini)\
+  Scopri di più su [notifichedigitali.it](https://notifichedigitali.it/)\
 
 * Non perderti più nessuna notifica 🔔\
   Con l’adesione del nostro Comune (o Comune di xx) a #SEND - Servizio Notifiche Digitali diventa più semplice ricevere e gestire le comunicazioni a valore legale direttamente online sulla piattaforma dedicata o su app @IO. \
-  Scopri come funziona: [https://notifichedigitali.pagopa.it/cittadini](https://notifichedigitali.pagopa.it/cittadini)\
+  Scopri come funziona: [notifichedigitali.it](https://notifichedigitali.it/)\
 
 * Da oggi è più facile ricevere e gestire le comunicazioni a valore legale del Comune di XX, grazie all’adesione a #SEND - Servizio Notifiche Digitali.\
-  Accedendo a SEND puoi anche visualizzare lo storico delle notifiche ricevute e pagare eventuali costi grazie all'integrazione con pagoPA. In più, ti basta ricevere una delega per leggere anche le notifiche dei tuoi familiari. Scopri come funziona: [https://notifichedigitali.pagopa.it/cittadini](https://notifichedigitali.pagopa.it/cittadini)\
+  Accedendo a SEND puoi anche visualizzare lo storico delle notifiche ricevute e pagare eventuali costi grazie all'integrazione con pagoPA. In più, ti basta ricevere una delega per leggere anche le notifiche dei tuoi familiari. Scopri come funziona: [notifichedigitali.it](https://notifichedigitali.it/)\
 
 *   Il Comune di xx ti ricorda che con #SEND - Servizio Notifiche Digitali puoi ricevere e gestire le comunicazioni a valore legale online.\
     ⏱️Risparmia il tuo tempo, accedi facilmente alla piattaforma con SPID o CIE per leggere la notifica e, se c’è un importo da pagare, puoi procedere online.  Se attivi il servizio “Notifiche digitali”, puoi visualizzare il contenuto della comunicazione anche sull’app @IO. &#x20;
 
-    Scopri di più su: [https://notifichedigitali.pagopa.it/cittadini](https://notifichedigitali.pagopa.it/cittadini)
+    Scopri di più su [notifichedigitali.it](https://notifichedigitali.it/)
 
 **Use case - Violazioni del codice della strada**
 
@@ -44,12 +44,12 @@ Qualora avessi necessità di comunicare altri use case di notifiche non ancora r
 
     Le notifiche di violazione del codice della strada sono disponibili sulla piattaforma #SEND - Servizio Notifiche Digitali.&#x20;
 
-    Accedi a [https://notifichedigitali.pagopa.it/cittadini](https://notifichedigitali.pagopa.it/cittadini) e completa il pagamento in pochi e semplici passaggi. Il servizio è disponibile anche dall’app @ IO\
+    Vai su  [notifichedigitali.it](https://notifichedigitali.it/), accedi alla piattaforma con SPID o CIE e completa il pagamento in pochi e semplici passaggi. Il servizio è disponibile anche dall’app @ IO\
 
 *   Con l’adesione del Comune di XXXX a #SEND - Servizio Notifiche Digitali da oggi è più facile gestire le notifiche di violazione del codice della strada.\
     Risparmia tempo e paga direttamente online in modo semplice e sicuro, attraverso la piattaforma dedicata o dall’app IO.&#x20;
 
-    Scopri di più: [https://notifichedigitali.pagopa.it/cittadini](https://notifichedigitali.pagopa.it/cittadini)
+    Scopri di più su [notifichedigitali.it](https://notifichedigitali.it/)
 
 **Use case - Bollo auto (per le Regioni)**&#x20;
 
@@ -59,12 +59,12 @@ Qualora avessi necessità di comunicare altri use case di notifiche non ancora r
 
     Puoi visualizzarle, gestirle e pagare direttamente online,  accedendo alla piattaforma tramite SPID o CIE o attivando il servizio da @IO, l’app dei servizi pubblici.
 
-    Scopri di più: [https://notifichedigitali.pagopa.it/cittadini](https://notifichedigitali.pagopa.it/cittadini)  \
+    Scopri di più su [notifichedigitali.it](https://notifichedigitali.it/)\
 
 *   Sai che da ora con #SEND puoi ricevere in digitale dalla tua Regione le notifiche sui mancati pagamenti del bollo auto? Puoi anche scegliere di gestire il pagamento direttamente online in pochi passaggi.\
     Accedi alla piattaforma con SPID o CIE o scarica @IO, l’app dei servizi pubblici per attivare il servizio sul tuo smartphone.
 
-    Scopri di più su [https://notifichedigitali.pagopa.it/cittadini](https://notifichedigitali.pagopa.it/cittadini)&#x20;
+    Scopri di più su [notifichedigitali.it](https://notifichedigitali.it/)
 
 {% hint style="warning" %}
 Quando comunichi sui social media del tuo ente ricorda sempre di:&#x20;
