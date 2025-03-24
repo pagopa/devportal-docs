@@ -8,6 +8,10 @@ description: >-
 
 La funzionalità **Aggiungi IBAN** è riservata esclusivamente al **Referente dei Pagamenti.**
 
+{% hint style="warning" %}
+Per consentire un agevole e completo supporto ai PSP sulle attività propedeutiche al SCT, si consiglia di inserire nella _descrizione_ dell'IBAN, sia il servizio di pagamento (o servizi di pagamento) a cui è dedicato, sia l'eventuale IBAN chiuso che va a sostituire.
+{% endhint %}
+
 ### **Sezione IBAN: Aggiungi**
 
 All’interno del **Back office pagoPA** è possibile accedere alla **sezione IBAN** cliccando sulla **voce di menu "IBAN"**.
