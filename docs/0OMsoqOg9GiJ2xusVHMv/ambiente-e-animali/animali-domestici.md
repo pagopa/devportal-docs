@@ -13,7 +13,7 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 
 ## Ciclo di vita del servizio
 
-<figure><img src="../.gitbook/assets/image (15) (1).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Animali domestici</strong></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (43).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Animali domestici</strong></p></figcaption></figure>
 
 ## Messaggi del servizio
 
@@ -29,7 +29,7 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 <summary>Conferma prenotazione appuntamento</summary>
 
-:sparkles:<mark style="color:blue;">**Messaggio Premium**</mark> — Se hai un contratto Premium, ti consigliamo di configurare questo messaggio con promemoria Premium: i destinatari verranno avvisati dell‘avvicinarsi dell'appuntamento tramite notifica push.
+{% include "../.gitbook/includes/single-sign-on.md" %}
 
 ***
 
@@ -63,6 +63,10 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 <summary>Integrazione documentazione</summary>
 
+{% include "../.gitbook/includes/single-sign-on.md" %}
+
+***
+
 **🖋  Titolo del messaggio:** Richiesta di integrazione
 
 🗒 **Testo del messaggio:**
@@ -89,7 +93,7 @@ Consulta il riepilogo della richiesta, \[visita questo sito]\(URL).
 
 <summary>Avviso di pagamento microchip</summary>
 
-:sparkles:<mark style="color:blue;">**Messaggio Premium**</mark> — Se hai un contratto Premium, ti consigliamo di configurare questo messaggio con promemoria Premium: i destinatari verranno avvisati dell‘avvicinarsi della scadenza tramite notifica push.
+{% include "../.gitbook/includes/promemoria-di-pagamento.md" %}
 
 ***
 
@@ -123,13 +127,7 @@ In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio p
 
 </details>
 
-{% hint style="info" %}
-**Promemoria automatici —&#x20;**<mark style="color:blue;">**Messaggi Premium**</mark>
-
-Impostando il messaggio di _Avviso di pagamento_ come Messaggio Premium, disponibile a seconda della tipologia di contratto sottoscritto dall’ente, non è necessario inviare il seguente messaggio di promemoria.
-
-Gli utenti che hanno dato il loro consenso, infatti, riceveranno automaticamente una notifica push sui loro dispositivi all’avvicinarsi della scadenza.
-{% endhint %}
+{% include "../.gitbook/includes/banner-promemoria-automatici.md" %}
 
 <details>
 
@@ -187,13 +185,11 @@ Se hai già provveduto a pagare l'avviso, ignora questo messaggio.
 
 ### Chiusura della pratica
 
+L'invio di questo messaggio serve a comunicare al cittadino i passi successivi alla chiusura della pratica. **Se la chiusura della pratica non implica alcuna azione successiva, consigliamo di non inviare questo messaggio**.
+
 <details>
 
 <summary>Chiusura della pratica e passi successivi</summary>
-
-L'invio di questo messaggio serve a comunicare al cittadino i passi successivi alla chiusura della pratica. **Se la chiusura della pratica non implica alcuna azione successiva, consigliamo di non inviare questo messaggio**.
-
-***
 
 **🖋 Titolo del messaggio:** La tua pratica si è conclusa
 

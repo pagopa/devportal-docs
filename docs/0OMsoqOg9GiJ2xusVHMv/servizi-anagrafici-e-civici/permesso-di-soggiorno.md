@@ -11,9 +11,11 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 
 <table data-header-hidden><thead><tr><th width="376"></th><th></th></tr></thead><tbody><tr><td><strong>Nome servizio</strong></td><td>Permesso di soggiorno</td></tr><tr><td><strong>Argomento</strong></td><td>Servizi anagrafici e civici</td></tr><tr><td><strong>Descrizione del servizio</strong></td><td><p>Il servizio ti invia informazioni sulle pratiche di richiesta di permesso di soggiorno e sui relativi aggiornamenti anagrafici.<br></p><p>Tramite IO potrai:</p><ul><li>ricevere comunicazioni e aggiornamenti sulle richieste presentate;</li><li>ricevere comunicazioni e aggiornamenti sugli appuntamenti;</li><li>ricevere un messaggio che ti informa della scadenza del permesso;</li><li>ricevere altre comunicazioni.</li></ul></td></tr><tr><td><strong>Pulsante</strong></td><td>Prenota appuntamento</td></tr></tbody></table>
 
+{% include "../.gitbook/includes/banner-single-sign-on.md" %}
+
 ## Ciclo di vita del servizio
 
-<figure><img src="../.gitbook/assets/Servizi anagrafici_Permesso di soggiorno.png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Permesso di soggiorno</strong></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (73).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Permesso di soggiorno</strong></p></figcaption></figure>
 
 ## Messaggi del servizio
 
@@ -62,10 +64,6 @@ Per prenotare il tuo appuntamento, \[visita questo sito]\(URL).
 <details>
 
 <summary>Conferma prenotazione appuntamento</summary>
-
-:sparkles:<mark style="color:blue;">**Messaggio Premium**</mark> — Se hai un contratto Premium, ti consigliamo di configurare questo messaggio con promemoria Premium: i destinatari verranno avvisati dell‘avvicinarsi dell'appuntamento tramite notifica push.
-
-***
 
 **🖋 Titolo del messaggio:** Il tuo appuntamento
 
@@ -150,10 +148,6 @@ Per prenotare il tuo appuntamento, \[visita questo sito]\(URL).
 <details>
 
 <summary>Conferma prenotazione appuntamento per dichiarazione dimora</summary>
-
-:sparkles:<mark style="color:blue;">**Messaggio Premium**</mark> — Se hai un contratto Premium, ti consigliamo di configurare questo messaggio con promemoria Premium: i destinatari verranno avvisati dell‘avvicinarsi dell'appuntamento tramite notifica push.
-
-***
 
 **🖋 Titolo del messaggio:** Il tuo appuntamento
 

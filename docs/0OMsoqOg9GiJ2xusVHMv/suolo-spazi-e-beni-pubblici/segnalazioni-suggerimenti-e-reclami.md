@@ -29,6 +29,10 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 <summary>Apertura pratica</summary>
 
+{% include "../.gitbook/includes/single-sign-on.md" %}
+
+***
+
 **🖋 Titolo del messaggio:** La tua segnalazione è stata presa in carico
 
 🗒 **Testo del messaggio**:&#x20;

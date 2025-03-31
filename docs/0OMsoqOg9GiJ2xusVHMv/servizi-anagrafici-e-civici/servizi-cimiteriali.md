@@ -12,7 +12,7 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 
 ## Ciclo di vita del servizio
 
-<figure><img src="../.gitbook/assets/Servizi anagrafici e civici_Servizi cimiteriali.png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del Servizi cimiteriali</strong></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (74).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del Servizi cimiteriali</strong></p></figcaption></figure>
 
 ## Messaggi del servizio
 
@@ -115,7 +115,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).&#x20;
 
 <summary>Avviso di pagamento cremazione</summary>
 
-:sparkles: <mark style="color:blue;">**Messaggio Premium**</mark> — Se hai un contratto Premium, ti consigliamo di configurare questo messaggio con promemoria Premium: i destinatari verranno avvisati dell‘avvicinarsi della scadenza tramite notifica push.
+{% include "../.gitbook/includes/promemoria-di-pagamento.md" %}
 
 ***
 
@@ -149,13 +149,7 @@ In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio p
 
 </details>
 
-{% hint style="info" %}
-**Promemoria automatici —&#x20;**<mark style="color:blue;">**Messaggi Premium**</mark>
-
-Impostando il messaggio di _Avviso di pagamento_ come Messaggio Premium, disponibile a seconda della tipologia di contratto sottoscritto dall’ente, non è necessario inviare il seguente messaggio di promemoria.
-
-Gli utenti che hanno dato il loro consenso, infatti, riceveranno automaticamente una notifica push sui loro dispositivi all’avvicinarsi della scadenza.
-{% endhint %}
+{% include "../.gitbook/includes/banner-promemoria-automatici.md" %}
 
 <details>
 
@@ -287,7 +281,7 @@ In seguito alla tua richiesta per \<nome servizio> accolta in data \<gg/mm/aaaa>
 
 <summary>Avviso di pagamento dispersione delle ceneri</summary>
 
-:sparkles: <mark style="color:blue;">**Messaggio Premium**</mark> — Se hai un contratto Premium, ti consigliamo di configurare questo messaggio con promemoria Premium: i destinatari verranno avvisati dell‘avvicinarsi della scadenza tramite notifica push.
+{% include "../.gitbook/includes/promemoria-di-pagamento.md" %}
 
 ***
 
@@ -321,13 +315,7 @@ In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio p
 
 </details>
 
-{% hint style="info" %}
-**Promemoria automatici —&#x20;**<mark style="color:blue;">**Messaggi Premium**</mark>
-
-Impostando il messaggio di _Avviso di pagamento_ come Messaggio Premium, disponibile a seconda della tipologia di contratto sottoscritto dall’ente, non è necessario inviare il seguente messaggio di promemoria.
-
-Gli utenti che hanno dato il loro consenso, infatti, riceveranno automaticamente una notifica push sui loro dispositivi all’avvicinarsi della scadenza.
-{% endhint %}
+{% include "../.gitbook/includes/banner-promemoria-automatici.md" %}
 
 <details>
 
@@ -397,7 +385,7 @@ La tua richiesta per la concessione a tempo determinato di \<specifica concessio
 
 Il rilascio della concessione è subordinato al pagamento del canone per cui ti arriverà un messaggio in app con l'avviso di pagamento.&#x20;
 
-Puoi pagare direttamente in app premendo “Vedi Avviso”, oppure tramite tutti i canali di pagamento della piattaforma pagoPA e le altre modalità di pagamento offerte dell'ente creditore.
+Puoi pagare direttamente in app premendo “Paga”, oppure tramite tutti i canali di pagamento della piattaforma pagoPA e le altre modalità di pagamento offerte dell'ente creditore.
 
 Per ulteriori informazioni sulla durata della concessione, \[visita questo sito]\(URL).&#x20;
 
@@ -417,7 +405,7 @@ Per ulteriori informazioni sulla durata della concessione, \[visita questo sito]
 
 <summary>Avviso di pagamento concessione cimiteriale</summary>
 
-:sparkles: <mark style="color:blue;">**Messaggio Premium**</mark> — Se hai un contratto Premium, ti consigliamo di configurare questo messaggio con promemoria Premium: i destinatari verranno avvisati dell‘avvicinarsi della scadenza tramite notifica push.
+{% include "../.gitbook/includes/promemoria-di-pagamento.md" %}
 
 ***
 
@@ -453,13 +441,7 @@ In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio p
 
 </details>
 
-{% hint style="info" %}
-**Promemoria automatici —&#x20;**<mark style="color:blue;">**Messaggi Premium**</mark>
-
-Impostando il messaggio di _Avviso di pagamento_ come Messaggio Premium, disponibile a seconda della tipologia di contratto sottoscritto dall’ente, non è necessario inviare il seguente messaggio di promemoria.
-
-Gli utenti che hanno dato il loro consenso, infatti, riceveranno automaticamente una notifica push sui loro dispositivi all’avvicinarsi della scadenza.
-{% endhint %}
+{% include "../.gitbook/includes/banner-promemoria-automatici.md" %}
 
 <details>
 
@@ -593,7 +575,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).&#x20;
 
 <summary>Avviso di pagamento proroga concessione cimiteriale</summary>
 
-:sparkles: <mark style="color:blue;">**Messaggio Premium**</mark> — Se hai un contratto Premium, ti consigliamo di configurare questo messaggio con promemoria Premium: i destinatari verranno avvisati dell‘avvicinarsi della scadenza tramite notifica push.
+{% include "../.gitbook/includes/promemoria-di-pagamento.md" %}
 
 ***
 
@@ -629,13 +611,7 @@ In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio p
 
 </details>
 
-{% hint style="info" %}
-**Promemoria automatici —&#x20;**<mark style="color:blue;">**Messaggi Premium**</mark>
-
-Impostando il messaggio di _Avviso di pagamento_ come Messaggio Premium, disponibile a seconda della tipologia di contratto sottoscritto dall’ente, non è necessario inviare il seguente messaggio di promemoria.
-
-Gli utenti che hanno dato il loro consenso, infatti, riceveranno automaticamente una notifica push sui loro dispositivi all’avvicinarsi della scadenza.
-{% endhint %}
+{% include "../.gitbook/includes/banner-promemoria-automatici.md" %}
 
 <details>
 
@@ -723,6 +699,10 @@ Per ulteriori informazioni sulla durata della concessione, \[visita questo sito]
 
 <summary>Richiesta allaccio/subentro illuminazione votiva: accolta</summary>
 
+{% include "../.gitbook/includes/single-sign-on.md" %}
+
+***
+
 **🖋 Titolo del messaggio:** Aggiornamenti sulle tue richieste
 
 🗒 **Testo del messaggio**:&#x20;
@@ -731,7 +711,7 @@ La tua richiesta per \<nome servizio> è stata accolta.
 
 La richiesta è subordinata a un pagamento per la pratica per cui ti arriverà un messaggio in app con l'avviso di pagamento.&#x20;
 
-Puoi pagare direttamente in app premendo “Vedi Avviso”, oppure tramite tutti i canali di pagamento della piattaforma pagoPA e le altre modalità di pagamento offerte dell'ente creditore.
+Puoi pagare direttamente in app premendo “Paga”, oppure tramite tutti i canali di pagamento della piattaforma pagoPA e le altre modalità di pagamento offerte dell'ente creditore.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).&#x20;
 
@@ -775,7 +755,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).&#x20;
 
 <summary>Avviso di pagamento illuminazione votiva</summary>
 
-:sparkles: <mark style="color:blue;">**Messaggio Premium**</mark> — Se hai un contratto Premium, ti consigliamo di configurare questo messaggio con promemoria Premium: i destinatari verranno avvisati dell‘avvicinarsi della scadenza tramite notifica push.
+{% include "../.gitbook/includes/promemoria-di-pagamento.md" %}
 
 ***
 
@@ -811,13 +791,7 @@ In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio p
 
 </details>
 
-{% hint style="info" %}
-**Promemoria automatici —&#x20;**<mark style="color:blue;">**Messaggi Premium**</mark>
-
-Impostando il messaggio di _Avviso di pagamento_ come Messaggio Premium, disponibile a seconda della tipologia di contratto sottoscritto dall’ente, non è necessario inviare il seguente messaggio di promemoria.
-
-Gli utenti che hanno dato il loro consenso, infatti, riceveranno automaticamente una notifica push sui loro dispositivi all’avvicinarsi della scadenza.
-{% endhint %}
+{% include "../.gitbook/includes/banner-promemoria-automatici.md" %}
 
 <details>
 
@@ -903,9 +877,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL). &#x20;
 
 <summary>Pubblicazione calendario esumazione</summary>
 
-:sparkles: <mark style="color:blue;">**Allegati Premium**</mark> — Tramite questa funzionalità Premium, disponibile a seconda della tipologia di contratto sottoscritto dall’ente, puoi allegare documenti all'interno del messaggio.
-
-Questo messaggio è da utilizzare sia per messaggi Premium, sia per messaggi standard. In caso di messaggio standard, **ricorda di eliminare ogni riferimento agli allegati dal corpo del messaggio.**
+{% include "../.gitbook/includes/allegati.md" %}
 
 ***
 
@@ -925,7 +897,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).&#x20;
 
 **🪄 Pulsante**: n/a
 
-<mark style="color:blue;">**📎 Allegato Premium:**</mark> \<modulo d'iscrizione>
+<mark style="color:blue;">**📎 Allegato:**</mark> \<modulo d'iscrizione>
 
 ***
 
@@ -955,5 +927,5 @@ Il modello è un esempio che non ha carattere vincolante per l’ente e sul qual
 
 Puoi copiare i testi dei messaggi da personalizzare da questo documento:
 
-{% file src="../.gitbook/assets/IO - Template servizi - Servizi cimiteriali.xlsx" %}
+{% file src="../.gitbook/assets/IO - Template servizi - Servizi cimiteriali (1).xlsx" %}
 {% endhint %}

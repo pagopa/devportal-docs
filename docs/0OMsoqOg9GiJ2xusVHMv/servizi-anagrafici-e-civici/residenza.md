@@ -11,6 +11,8 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 
 <table data-header-hidden><thead><tr><th width="373"></th><th></th></tr></thead><tbody><tr><td><strong>Nome servizio</strong></td><td>Residenza</td></tr><tr><td><strong>Argomento</strong></td><td>Servizi anagrafici e civici</td></tr><tr><td><strong>Descrizione del servizio</strong></td><td><p>Il servizio riguarda le richieste di residenza e di cambio di residenza.<br><br>Tramite IO potrai:</p><ul><li>ricevere comunicazioni e aggiornamenti sulle richieste presentate;</li><li>ricevere altre comunicazioni.</li></ul></td></tr><tr><td><strong>Pulsante</strong></td><td>Vai alla modulistica</td></tr></tbody></table>
 
+{% include "../.gitbook/includes/banner-single-sign-on.md" %}
+
 ## Ciclo di vita del servizio
 
 <figure><img src="../.gitbook/assets/Servizi anagrafici_Residenza_xy.png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Residenza</strong></p></figcaption></figure>
@@ -93,5 +95,5 @@ Il modello è un esempio che non ha carattere vincolante per l’ente e sul qual
 
 Puoi copiare i testi dei messaggi da personalizzare da questo documento:
 
-{% file src="../.gitbook/assets/IO - Template servizi - Residenza.xlsx" %}
+{% file src="../.gitbook/assets/IO - Template servizi - Residenza.xlsx.zip" %}
 {% endhint %}

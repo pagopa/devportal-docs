@@ -13,7 +13,7 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 
 ## Ciclo di vita del servizio
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Canone Unico Patrimoniale</strong> </p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (108).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Canone Unico Patrimoniale</strong> </p></figcaption></figure>
 
 ## Messaggi del servizio&#x20;
 
@@ -59,7 +59,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).&#x20;
 
 <summary>Avviso di pagamento canone</summary>
 
-:sparkles: <mark style="color:blue;">**Messaggio Premium**</mark> — Se hai un contratto Premium, ti consigliamo di configurare questo messaggio con promemoria Premium: i destinatari verranno avvisati dell‘avvicinarsi della scadenza tramite notifica push.
+{% include "../.gitbook/includes/promemoria-di-pagamento.md" %}
 
 ***
 
@@ -99,13 +99,7 @@ In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio p
 
 </details>
 
-{% hint style="info" %}
-**Promemoria automatici —&#x20;**<mark style="color:blue;">**Messaggi Premium**</mark>
-
-Impostando il messaggio di _Avviso di pagamento_ come Messaggio Premium, disponibile a seconda della tipologia di contratto sottoscritto dall’ente, non è necessario inviare il seguente messaggio di promemoria.
-
-Gli utenti che hanno dato il loro consenso, infatti, riceveranno automaticamente una notifica push sui loro dispositivi all’avvicinarsi della scadenza.
-{% endhint %}
+{% include "../.gitbook/includes/banner-promemoria-automatici.md" %}
 
 <details>
 
@@ -259,5 +253,5 @@ Il modello è un esempio che non ha carattere vincolante per l’ente e sul qual
 
 Puoi copiare i testi dei messaggi da personalizzare da questo documento:
 
-{% file src="../.gitbook/assets/IO - Template servizi - Canone unico patrimoniale.xlsx" %}
+{% file src="../.gitbook/assets/IO - Template servizi - Canone unico patrimoniale (2).xlsx" %}
 {% endhint %}

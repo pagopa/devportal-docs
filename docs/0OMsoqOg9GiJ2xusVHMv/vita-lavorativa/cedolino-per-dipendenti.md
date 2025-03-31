@@ -11,9 +11,11 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 
 <table data-header-hidden><thead><tr><th width="373"></th><th></th></tr></thead><tbody><tr><td><strong>Nome servizio</strong></td><td>Cedolino per dipendenti</td></tr><tr><td><strong>Argomento</strong></td><td>Vita lavorativa</td></tr><tr><td><strong>Descrizione del servizio</strong></td><td><p>Il servizio riguarda il cedolino, la Certificazione Unica e altri documenti e informazioni per i dipendenti del Comune.</p><p><br>Tramite IO, i dipendenti del Comune potranno:</p><ul><li>ricevere comunicazioni e aggiornamenti sul cedolino e sulla Certificazione Unica;</li><li>ricevere altre comunicazioni.</li></ul></td></tr><tr><td><strong>Pulsante</strong></td><td>Accedi al portale</td></tr></tbody></table>
 
+{% include "../.gitbook/includes/banner-single-sign-on.md" %}
+
 ## Ciclo di vita del servizio
 
-<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del sevizio Cedolino per i dipendenti</strong></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (52).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del sevizio Cedolino per i dipendenti</strong></p></figcaption></figure>
 
 ## Messaggi del servizio
 
@@ -57,9 +59,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 <summary>Pubblicazione cedolino</summary>
 
-:sparkles: <mark style="color:blue;">**Allegati Premium**</mark> — Tramite questa funzionalità Premium, disponibile a seconda della tipologia di contratto sottoscritto dall’ente, puoi allegare documenti all'interno del messaggio.
-
-Questo messaggio è da utilizzare sia per messaggi Premium, sia per messaggi standard. In caso di messaggio standard, **ricorda di eliminare ogni riferimento agli allegati dal corpo del messaggio.**
+{% include "../.gitbook/includes/allegati.md" %}
 
 ***
 
@@ -71,11 +71,11 @@ Questo messaggio è da utilizzare sia per messaggi Premium, sia per messaggi sta
 
 Per visualizzarlo, \[visita questa pagina]\(URL).
 
-\[Solo per messaggi premium con allegato] Puoi trovare il documento in allegato a questo messaggio.
+\[Solo per messaggi con allegato] Puoi trovare il documento in allegato a questo messaggio.
 
 **🪄  Pulsante:** n/a
 
-<mark style="color:blue;">**📎 Allegato Premium:**</mark> \<cedolino>
+<mark style="color:blue;">**📎 Allegato:**</mark> \<cedolino>
 
 ***
 
@@ -93,9 +93,7 @@ Per visualizzarlo, \[visita questa pagina]\(URL).
 
 <summary>Pubblicazione Certificazione Unica</summary>
 
-:sparkles: <mark style="color:blue;">**Allegati Premium**</mark> — Tramite questa funzionalità Premium, disponibile a seconda della tipologia di contratto sottoscritto dall’ente, puoi allegare documenti all'interno del messaggio.
-
-Questo messaggio è da utilizzare sia per messaggi Premium, sia per messaggi standard. In caso di messaggio standard, **ricorda di eliminare ogni riferimento agli allegati dal corpo del messaggio.**
+{% include "../.gitbook/includes/allegati.md" %}
 
 ***
 
@@ -107,11 +105,11 @@ Questo messaggio è da utilizzare sia per messaggi Premium, sia per messaggi sta
 
 Per visualizzarla, \[visita questa pagina]\(URL).
 
-\[Solo per messaggi premium con allegato] Puoi trovare il documento in allegato a questo messaggio.
+\[Solo per messaggi con allegato] Puoi trovare il documento in allegato a questo messaggio.
 
 **🪄  Pulsante:** n/a
 
-<mark style="color:blue;">**📎 Allegato Premium:**</mark> \<certificazione unica>
+<mark style="color:blue;">**📎 Allegato:**</mark> \<certificazione unica>
 
 ***
 

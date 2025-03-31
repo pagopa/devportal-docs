@@ -13,7 +13,7 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 
 ## Ciclo di vita del servizio
 
-<figure><img src="../.gitbook/assets/image (35).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Energia e impianti</strong></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (47).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Energia e impianti</strong></p></figcaption></figure>
 
 ## Messaggi del servizio
 
@@ -55,7 +55,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 <summary>Conferma prenotazione appuntamento</summary>
 
-:sparkles:<mark style="color:blue;">**Messaggio Premium**</mark> — Se hai un contratto Premium, ti consigliamo di configurare questo messaggio con promemoria Premium: i destinatari verranno avvisati dell‘avvicinarsi dell'appuntamento tramite notifica push.
+{% include "../.gitbook/includes/single-sign-on.md" %}
 
 ***
 
@@ -90,6 +90,10 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 <details>
 
 <summary>Integrazione documentazione</summary>
+
+{% include "../.gitbook/includes/single-sign-on.md" %}
+
+***
 
 **🖋 Titolo del messaggio:** Richiesta di integrazione
 

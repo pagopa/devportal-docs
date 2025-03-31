@@ -13,7 +13,7 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 
 ## Ciclo di vita del servizio
 
-<figure><img src="../.gitbook/assets/image (7) (1) (1).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Servizi idrici</strong></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (83).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Servizi idrici</strong></p></figcaption></figure>
 
 ## Messaggi del servizio
 
@@ -34,6 +34,10 @@ Gli stessi possono indirizzare ai cittadini le comunicazioni inerenti al servizi
 <details>
 
 <summary>Preventivo inviato</summary>
+
+{% include "../.gitbook/includes/single-sign-on.md" %}
+
+***
 
 **🖋 Titolo del messaggio:** Il tuo preventivo
 
@@ -111,7 +115,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 <summary>Avviso di pagamento costi di attivazione</summary>
 
-:sparkles: <mark style="color:blue;">**Messaggio Premium**</mark> — Se hai un contratto Premium, ti consigliamo di configurare questo messaggio con promemoria Premium: i destinatari verranno avvisati dell‘avvicinarsi della scadenza tramite notifica push.
+{% include "../.gitbook/includes/promemoria-di-pagamento.md" %}
 
 ***
 
@@ -145,13 +149,7 @@ In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio p
 
 </details>
 
-{% hint style="info" %}
-**Promemoria automatici —&#x20;**<mark style="color:blue;">**Messaggi Premium**</mark>
-
-Impostando il messaggio di _Avviso di pagamento_ come Messaggio Premium, disponibile a seconda della tipologia di contratto sottoscritto dall’ente, non è necessario inviare il seguente messaggio di promemoria.
-
-Gli utenti che hanno dato il loro consenso, infatti, riceveranno automaticamente una notifica push sui loro dispositivi all’avvicinarsi della scadenza.
-{% endhint %}
+{% include "../.gitbook/includes/banner-promemoria-automatici.md" %}
 
 <details>
 
@@ -235,7 +233,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 <summary>Avviso di pagamento bolletta</summary>
 
-:sparkles: <mark style="color:blue;">**Messaggio Premium**</mark> — Se hai un contratto Premium, ti consigliamo di configurare questo messaggio con promemoria Premium: i destinatari verranno avvisati dell‘avvicinarsi della scadenza tramite notifica push.
+{% include "../.gitbook/includes/promemoria-di-pagamento.md" %}
 
 ***
 
@@ -273,13 +271,7 @@ In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio p
 
 </details>
 
-{% hint style="info" %}
-**Promemoria automatici —&#x20;**<mark style="color:blue;">**Messaggi Premium**</mark>
-
-Impostando il messaggio di _Avviso di pagamento_ come Messaggio Premium, disponibile a seconda della tipologia di contratto sottoscritto dall’ente, non è necessario inviare il seguente messaggio di promemoria.
-
-Gli utenti che hanno dato il loro consenso, infatti, riceveranno automaticamente una notifica push sui loro dispositivi all’avvicinarsi della scadenza.
-{% endhint %}
+{% include "../.gitbook/includes/banner-promemoria-automatici.md" %}
 
 <details>
 
@@ -365,7 +357,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 <summary>Avviso di pagamento disattivazione del servizio</summary>
 
-:sparkles: <mark style="color:blue;">**Messaggio Premium**</mark> — Se hai un contratto Premium, ti consigliamo di configurare questo messaggio con promemoria Premium: i destinatari verranno avvisati dell‘avvicinarsi della scadenza tramite notifica push.
+{% include "../.gitbook/includes/promemoria-di-pagamento.md" %}
 
 ***
 
@@ -423,13 +415,7 @@ Per maggiori informazioni o per richiedere assistenza, contattaci tramite i cana
 
 </details>
 
-{% hint style="info" %}
-**Promemoria automatici —&#x20;**<mark style="color:blue;">**Messaggi Premium**</mark>
-
-Impostando il messaggio di _Avviso di pagamento_ come Messaggio Premium, disponibile a seconda della tipologia di contratto sottoscritto dall’ente, non è necessario inviare il seguente messaggio di promemoria.
-
-Gli utenti che hanno dato il loro consenso, infatti, riceveranno automaticamente una notifica push sui loro dispositivi all’avvicinarsi della scadenza.
-{% endhint %}
+{% include "../.gitbook/includes/banner-promemoria-automatici.md" %}
 
 <details>
 

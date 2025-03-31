@@ -11,9 +11,11 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 
 <table data-header-hidden><thead><tr><th width="373"></th><th></th></tr></thead><tbody><tr><td><strong>Nome servizio</strong></td><td>Giudici popolari</td></tr><tr><td><strong>Argomento</strong></td><td>Giustizia e legge</td></tr><tr><td><strong>Descrizione del servizio</strong></td><td><p>Il servizio riguarda i giudici popolari, ovvero i cittadini che concorrono a comporre la Corte d’assise e la Corte d’assise d’appello.</p><p><br>Tramite IO potrai:</p><ul><li>ricevere comunicazioni e aggiornamenti sulle richieste di iscrizione o cancellazione dall’albo;</li><li>ricevere informazioni sulle convocazioni;</li><li>ricevere altre comunicazioni.</li></ul></td></tr><tr><td><strong>Pulsante</strong></td><td>Fai richiesta di iscrizione</td></tr></tbody></table>
 
+{% include "../.gitbook/includes/banner-single-sign-on.md" %}
+
 ## Ciclo di vita del servizio
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Giudici popolari</strong></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (88).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Giudici popolari</strong></p></figcaption></figure>
 
 ## Messaggi del servizio
 
@@ -29,9 +31,7 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 <summary>Apertura iscrizioni</summary>
 
-:sparkles: <mark style="color:blue;">**Allegati Premium**</mark> — Tramite questa funzionalità Premium, disponibile a seconda della tipologia di contratto sottoscritto dall’ente, puoi allegare documenti all'interno del messaggio.
-
-Questo messaggio è da utilizzare sia per messaggi Premium, sia per messaggi standard. In caso di messaggio standard, **ricorda di eliminare ogni riferimento agli allegati dal corpo del messaggio.**
+{% include "../.gitbook/includes/allegati.md" %}
 
 ***
 
@@ -47,13 +47,13 @@ Hai tempo fino al \<gg/mm/aaaa>.
 
 \[Inserire qui ulteriori informazioni utili per l’iscrizione, da compilare a cura e responsabilità dell'ente]
 
-\[Solo per messaggi premium con allegato] I moduli sono disponibili in allegato a questo messaggio.
+\[Solo per messaggi con allegato] I moduli sono disponibili in allegato a questo messaggio.
 
 Per consultare i requisiti di iscrizione e scaricare i moduli, \[visita questo sito]\(URL).
 
 **🪄 Pulsante**: n/a
 
-<mark style="color:blue;">**📎 Allegato Premium:**</mark> \<modulo d'iscrizione>
+<mark style="color:blue;">**📎 Allegato:**</mark> \<modulo d'iscrizione>
 
 ***
 

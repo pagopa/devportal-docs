@@ -14,7 +14,7 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 <summary>Conferma prenotazione appuntamento</summary>
 
-:sparkles:<mark style="color:blue;">**Messaggio Premium**</mark> — Se hai un contratto Premium, ti consigliamo di configurare questo messaggio con promemoria Premium: i destinatari verranno avvisati dell‘avvicinarsi dell'appuntamento tramite notifica push.
+{% include "../../.gitbook/includes/single-sign-on.md" %}
 
 ***
 
@@ -122,10 +122,6 @@ Consulta il riepilogo della tua richiesta, \[visita il sito]\(URL).
 
 <summary>Conferma appuntamento per celebrazione</summary>
 
-:sparkles:<mark style="color:blue;">**Messaggio Premium**</mark> — Se hai un contratto Premium, ti consigliamo di configurare questo messaggio con promemoria Premium: i destinatari verranno avvisati dell‘avvicinarsi dell'appuntamento tramite notifica push.
-
-***
-
 **🖋 Titolo del messaggio:** La vostra celebrazione
 
 **🗒 Testo del messaggio:**
@@ -184,7 +180,7 @@ Per visualizzare le pubblicazioni, \[visita questo sito]\(URL).
 
 <summary>Avviso di pagamento sala extra</summary>
 
-:sparkles: <mark style="color:blue;">**Messaggio Premium**</mark> — Se hai un contratto Premium, ti consigliamo di configurare questo messaggio con promemoria Premium: i destinatari verranno avvisati dell‘avvicinarsi della scadenza tramite notifica push.
+{% include "../../.gitbook/includes/promemoria-di-pagamento.md" %}
 
 ***
 
@@ -218,13 +214,7 @@ In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio p
 
 </details>
 
-{% hint style="info" %}
-**Promemoria automatici —&#x20;**<mark style="color:blue;">**Messaggi Premium**</mark>
-
-Impostando il messaggio di _Avviso di pagamento_ come Messaggio Premium, disponibile a seconda della tipologia di contratto sottoscritto dall’ente, non è necessario inviare il seguente messaggio di promemoria.
-
-Gli utenti che hanno dato il loro consenso, infatti, riceveranno automaticamente una notifica push sui loro dispositivi all’avvicinarsi della scadenza.
-{% endhint %}
+{% include "../../.gitbook/includes/banner-promemoria-automatici.md" %}
 
 <details>
 
@@ -358,10 +348,6 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 <summary>Comunicazione al nuovo celebrante per appuntamento</summary>
 
-:sparkles:<mark style="color:blue;">**Messaggio Premium**</mark> — Se hai un contratto Premium, ti consigliamo di configurare questo messaggio con promemoria Premium: i destinatari verranno avvisati dell‘avvicinarsi dell'appuntamento tramite notifica push.
-
-***
-
 **🖋 Titolo del messaggio:** Conferma celebrazione matrimonio
 
 🗒 **Testo del messaggio:**
@@ -391,6 +377,10 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).&#x20;
 <details>
 
 <summary>Richiesta di conferma celebrazione</summary>
+
+{% include "../../.gitbook/includes/single-sign-on.md" %}
+
+***
 
 **🖋 Titolo del messaggio:** Richiesta conferma data celebrazione
 

@@ -11,9 +11,11 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 
 <table data-header-hidden><thead><tr><th width="373"></th><th></th></tr></thead><tbody><tr><td><strong>Nome servizio</strong></td><td>Attività sportive</td></tr><tr><td><strong>Argomento</strong></td><td>Cultura, tempo libero e sport</td></tr><tr><td><strong>Descrizione del servizio</strong></td><td><p>Il servizio riguarda le iniziative sportive, gli impianti sportivi e le aree comunali.<br></p><p>Tramite IO potrai:</p><ul><li>ricevere comunicazioni e aggiornamenti sulle iniziative sportive; </li><li>ricevere avvisi di pagamento per l’uso di impianti sportivi e pagarli in app;</li><li>ricevere altre comunicazioni.</li></ul></td></tr><tr><td><strong>Pulsante</strong></td><td>Presenta una richiesta</td></tr></tbody></table>
 
+{% include "../.gitbook/includes/banner-single-sign-on.md" %}
+
 ## Ciclo di vita del servizio
 
-<figure><img src="../.gitbook/assets/image (8) (1) (1).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Attività sportive</strong></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (80).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Attività sportive</strong></p></figcaption></figure>
 
 ## Messaggi del servizio
 
@@ -30,6 +32,10 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 <details>
 
 <summary>Integrazione documentazione</summary>
+
+{% include "../.gitbook/includes/single-sign-on.md" %}
+
+***
 
 **🖋 Titolo del messaggio:** Richiesta di integrazione
 
@@ -105,7 +111,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 <summary>Avviso di pagamento spese di servizio</summary>
 
-:sparkles: <mark style="color:blue;">**Messaggio Premium**</mark> — Se hai un contratto Premium, ti consigliamo di configurare questo messaggio con promemoria Premium: i destinatari verranno avvisati dell‘avvicinarsi della scadenza tramite notifica push.
+{% include "../.gitbook/includes/promemoria-di-pagamento.md" %}
 
 ***
 
@@ -139,13 +145,7 @@ In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio p
 
 </details>
 
-{% hint style="info" %}
-**Promemoria automatici —&#x20;**<mark style="color:blue;">**Messaggi Premium**</mark>
-
-Impostando il messaggio di _Avviso di pagamento_ come Messaggio Premium, disponibile a seconda della tipologia di contratto sottoscritto dall’ente, non è necessario inviare il seguente messaggio di promemoria.
-
-Gli utenti che hanno dato il loro consenso, infatti, riceveranno automaticamente una notifica push sui loro dispositivi all’avvicinarsi della scadenza.
-{% endhint %}
+{% include "../.gitbook/includes/banner-promemoria-automatici.md" %}
 
 <details>
 
@@ -205,9 +205,7 @@ Per ulteriori informazioni, (visita questo sito)\[URL].&#x20;
 
 <summary>Pubblicazione bando</summary>
 
-:sparkles: <mark style="color:blue;">**Allegati Premium**</mark> — Tramite questa funzionalità Premium, disponibile a seconda della tipologia di contratto sottoscritto dall’ente, puoi allegare documenti all'interno del messaggio.
-
-Questo messaggio è da utilizzare sia per messaggi Premium, sia per messaggi standard. In caso di messaggio standard, **ricorda di eliminare ogni riferimento agli allegati dal corpo del messaggio.**
+{% include "../.gitbook/includes/allegati.md" %}
 
 ***
 
@@ -221,11 +219,11 @@ Hai tempo fino al \<gg/mm/aaaa>.
 
 Per consultare i criteri di assegnazione e presentare richiesta, \[visita questo sito]\(URL).
 
-\[Solo per messaggi Premium con allegato] Trovi il testo completo del bando in allegato a questo messaggio.
+\[Solo per messaggi con allegato] Trovi il testo completo del bando in allegato a questo messaggio.
 
 **🪄 Pulsante**: n/a\
 \
-<mark style="color:blue;">**📎 Allegato Premium:**</mark> \<testo integrale del bando>
+<mark style="color:blue;">**📎 Allegato:**</mark> \<testo integrale del bando>
 
 ***
 
@@ -242,6 +240,10 @@ Per consultare i criteri di assegnazione e presentare richiesta, \[visita questo
 <details>
 
 <summary>Pubblicazione graduatoria</summary>
+
+{% include "../.gitbook/includes/single-sign-on.md" %}
+
+***
 
 **🖋 Titolo del messaggio:** Pubblicata la graduatoria
 

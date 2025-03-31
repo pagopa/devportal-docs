@@ -13,7 +13,7 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 
 ## Ciclo di vita del servizio
 
-<figure><img src="../.gitbook/assets/image (9) (1) (1).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Biblioteche</strong></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (76).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Biblioteche</strong></p></figcaption></figure>
 
 ## Messaggi del servizio
 
@@ -91,10 +91,6 @@ Per ulteriori informazioni su come rinnovare l’iscrizione, \[visita questo sit
 
 <summary>Documento disponibile al ritiro</summary>
 
-:sparkles: <mark style="color:blue;">**Messaggio Premium**</mark> — Se hai un contratto Premium, ti consigliamo di configurare questo messaggio con promemoria Premium: i destinatari verranno avvisati dell‘avvicinarsi della scadenza tramite notifica push.
-
-***
-
 **🖋 Titolo del messaggio:** \<Libro/Rivista/Dvd/ecc> disponibile al ritiro
 
 🗒 **Testo del messaggio**:&#x20;
@@ -151,7 +147,7 @@ Se è previsto un pagamento per il prestito bibliotecario, è possibile preveder
 
 <summary>Avviso di pagamento prestito bibliotecario</summary>
 
-:sparkles: <mark style="color:blue;">**Messaggio Premium**</mark> — Se hai un contratto Premium, ti consigliamo di configurare questo messaggio con promemoria Premium: i destinatari verranno avvisati dell‘avvicinarsi della scadenza tramite notifica push.
+{% include "../.gitbook/includes/promemoria-di-pagamento.md" %}
 
 ***
 
@@ -185,13 +181,7 @@ In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio p
 
 </details>
 
-{% hint style="info" %}
-**Promemoria automatici —&#x20;**<mark style="color:blue;">**Messaggi Premium**</mark>
-
-Impostando il messaggio di _Avviso di pagamento_ come Messaggio Premium, disponibile a seconda della tipologia di contratto sottoscritto dall’ente, non è necessario inviare il seguente messaggio di promemoria.
-
-Gli utenti che hanno dato il loro consenso, infatti, riceveranno automaticamente una notifica push sui loro dispositivi all’avvicinarsi della scadenza.
-{% endhint %}
+{% include "../.gitbook/includes/banner-promemoria-automatici.md" %}
 
 <details>
 
@@ -251,10 +241,6 @@ Se hai già provveduto a pagare l’avviso o se hai richiesto la domiciliazione 
 
 <summary>Documento disponibile al ritiro</summary>
 
-:sparkles: <mark style="color:blue;">**Messaggio Premium**</mark> — Se hai un contratto Premium, ti consigliamo di configurare questo messaggio con promemoria Premium: i destinatari verranno avvisati dell‘avvicinarsi della scadenza tramite notifica push.
-
-***
-
 **🖋 Titolo del messaggio:** \<Libro/Rivista/Dvd/ecc> disponibile al ritiro
 
 🗒 **Testo del messaggio**:&#x20;
@@ -309,10 +295,6 @@ Riceverai un messaggio in app non appena il \<Libro/Rivista/Dvd/ecc> verrà pren
 
 <summary>Documento disponibile al ritiro</summary>
 
-:sparkles: <mark style="color:blue;">**Messaggio Premium**</mark> — Se hai un contratto Premium, ti consigliamo di configurare questo messaggio con promemoria Premium: i destinatari verranno avvisati dell‘avvicinarsi della scadenza tramite notifica push.
-
-***
-
 **🖋 Titolo del messaggio:** \<Libro/Rivista/Dvd/ecc> disponibile al ritiro
 
 🗒 **Testo del messaggio**:&#x20;
@@ -341,9 +323,7 @@ Dal \<gg/mm/aaaa> potrai ritirare il \<Libro/Rivista/Dvd/ecc> richiesto.
 
 <summary>Consegna ricevuta prestito</summary>
 
-:sparkles: <mark style="color:blue;">**Allegati Premium**</mark> — Tramite questa funzionalità Premium, disponibile a seconda della tipologia di contratto sottoscritto dall’ente, puoi allegare documenti all'interno del messaggio.
-
-Questo messaggio è da utilizzare sia per messaggi Premium, sia per messaggi standard. In caso di messaggio standard, **ricorda di eliminare ogni riferimento agli allegati dal corpo del messaggio.**
+{% include "../.gitbook/includes/allegati.md" %}
 
 ***
 
@@ -355,13 +335,13 @@ A seguire, la ricevuta del tuo prestito.
 
 \[Inserire qui altre informazioni sul contenuto del prestito e informazioni sull’utilizzo della ricevuta, da compilare a cura e responsabilità dell'ente]
 
-\[Solo per messaggi premium con allegato] Trovi la ricevuta del tuo prestito in allegato.
+\[Solo per messaggi con allegato] Trovi la ricevuta del tuo prestito in allegato.
 
 Per visualizzare la tua ricevuta, \[visita questo sito]\(URL).
 
 **🪄 Pulsante**: n/a
 
-📎 <mark style="color:blue;">**Allegato Premium**</mark>: \<ricevuta prestito>
+📎 <mark style="color:blue;">**Allegato**</mark>: \<ricevuta prestito>
 
 ***
 
@@ -378,10 +358,6 @@ Per visualizzare la tua ricevuta, \[visita questo sito]\(URL).
 <details>
 
 <summary>Prestito in scadenza</summary>
-
-:sparkles: <mark style="color:blue;">**Messaggio Premium**</mark> — Se hai un contratto Premium, ti consigliamo di configurare questo messaggio con promemoria Premium: i destinatari verranno avvisati dell‘avvicinarsi della scadenza tramite notifica push.
-
-***
 
 **🖋 Titolo del messaggio:** Il tuo prestito sta per terminare
 
@@ -521,7 +497,7 @@ Per ulteriori informazioni e consultare il regolamento, (visita questo sito)\[UR
 
 <summary>Avviso di pagamento per sostituzione copia</summary>
 
-:sparkles: <mark style="color:blue;">**Messaggio Premium**</mark> — Se hai un contratto Premium, ti consigliamo di configurare questo messaggio con promemoria Premium: i destinatari verranno avvisati dell‘avvicinarsi della scadenza tramite notifica push.
+{% include "../.gitbook/includes/promemoria-di-pagamento.md" %}
 
 ***
 
@@ -555,13 +531,7 @@ In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio p
 
 </details>
 
-{% hint style="info" %}
-**Promemoria automatici —&#x20;**<mark style="color:blue;">**Messaggi Premium**</mark>
-
-Impostando il messaggio di _Avviso di promemoria_ come Messaggio Premium, disponibile a seconda della tipologia di contratto sottoscritto dall’ente, non è necessario inviare il seguente messaggio di promemoria.
-
-Gli utenti che hanno dato il loro consenso, infatti, riceveranno automaticamente una notifica push sui loro dispositivi all’avvicinarsi della scadenza.
-{% endhint %}
+{% include "../.gitbook/includes/banner-promemoria-automatici.md" %}
 
 <details>
 
@@ -653,7 +623,7 @@ La consegna avverrà secondo le modalità richieste in fase di prenotazione.
 
 <summary>Avviso di pagamento per consegna documenti</summary>
 
-:sparkles: <mark style="color:blue;">**Messaggio Premium**</mark> — Se hai un contratto Premium, ti consigliamo di configurare questo messaggio con promemoria Premium: i destinatari verranno avvisati dell‘avvicinarsi della scadenza tramite notifica push.
+{% include "../.gitbook/includes/promemoria-di-pagamento.md" %}
 
 ***
 
@@ -687,13 +657,7 @@ In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio p
 
 </details>
 
-{% hint style="info" %}
-**Promemoria automatici —&#x20;**<mark style="color:blue;">**Messaggi Premium**</mark>
-
-Impostando il messaggio di _Avviso di promemoria_ come Messaggio Premium, disponibile a seconda della tipologia di contratto sottoscritto dall’ente, non è necessario inviare il seguente messaggio di promemoria.
-
-Gli utenti che hanno dato il loro consenso, infatti, riceveranno automaticamente una notifica push sui loro dispositivi all’avvicinarsi della scadenza.
-{% endhint %}
+{% include "../.gitbook/includes/banner-promemoria-automatici.md" %}
 
 <details>
 
@@ -834,10 +798,6 @@ Per ulteriori informazioni, (visita questo sito)\[URL].
 <details>
 
 <summary>Documento disponibile al ritiro</summary>
-
-:sparkles: <mark style="color:blue;">**Messaggio Premium**</mark> — Se hai un contratto Premium, ti consigliamo di configurare questo messaggio con promemoria Premium: i destinatari verranno avvisati dell‘avvicinarsi della scadenza tramite notifica push.
-
-***
 
 **🖋 Titolo del messaggio:** \<Libro/Rivista/Dvd/ecc> disponibile al ritiro
 

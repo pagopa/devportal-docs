@@ -13,7 +13,7 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 
 ## Ciclo di vita del servizio
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Diritti di rogito</strong></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (82).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Diritti di rogito</strong></p></figcaption></figure>
 
 ## Messaggi del servizio&#x20;
 
@@ -57,7 +57,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 <summary>Avviso di pagamento diritti di rogito</summary>
 
-:sparkles: <mark style="color:blue;">**Messaggio Premium**</mark> — Se hai un contratto Premium, ti consigliamo di configurare questo messaggio con promemoria Premium: i destinatari verranno avvisati dell‘avvicinarsi della scadenza tramite notifica push.
+{% include "../.gitbook/includes/promemoria-di-pagamento.md" %}
 
 ***
 
@@ -91,13 +91,7 @@ In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio p
 
 </details>
 
-{% hint style="info" %}
-**Promemoria automatici —&#x20;**<mark style="color:blue;">**Messaggi Premium**</mark>
-
-Impostando il messaggio di _Avviso di pagamento_ come Messaggio Premium, disponibile a seconda della tipologia di contratto sottoscritto dall’ente, non è necessario inviare il seguente messaggio di promemoria.
-
-Gli utenti che hanno dato il loro consenso, infatti, riceveranno automaticamente una notifica push sui loro dispositivi all’avvicinarsi della scadenza.
-{% endhint %}
+{% include "../.gitbook/includes/banner-promemoria-automatici.md" %}
 
 <details>
 
@@ -183,21 +177,13 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 ### Firma dell'atto
 
-{% hint style="info" %}
-<mark style="color:blue;">**Firma con IO**</mark>
-
-Tramite la funzionalità Firma con IO puoi inviare al destinatario il documento da firmare e permettere la firma direttamente in app. [**Scopri di più**](https://firma.io.italia.it/)
-
-Il seguente messaggio è da utilizzare nei casi di altre modalità di firma e non è necessario quando si utilizza Firma con IO.
-{% endhint %}
+{% include "../.gitbook/includes/banner-firma-con-io.md" %}
 
 <details>
 
 <summary>Atto di rogito: disponibile per la firma</summary>
 
-:sparkles: <mark style="color:blue;">**Allegati Premium**</mark> — Tramite questa funzionalità Premium, disponibile a seconda della tipologia di contratto sottoscritto dall’ente, puoi allegare documenti all'interno del messaggio.
-
-Questo messaggio è da utilizzare sia per messaggi Premium, sia per messaggi standard. In caso di messaggio standard, **ricorda di eliminare ogni riferimento agli allegati dal corpo del messaggio.**
+{% include "../.gitbook/includes/allegati.md" %}
 
 ***
 
@@ -213,11 +199,11 @@ Per prenotare il tuo appuntamento per la firma, \[visita questo sito]\(URL),
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
-\[Solo per messaggi Premium con allegato] Puoi trovare in allegato a questo messaggio l'atto di rogito in formato \<formato>.
+\[Solo per messaggi con allegato] Puoi trovare in allegato a questo messaggio l'atto di rogito in formato \<formato>.
 
 **🪄 Pulsante**: n/a
 
-<mark style="color:blue;">**📎 Allegato Premium:**</mark> \<atto di rogito>
+<mark style="color:blue;">**📎 Allegato:**</mark> \<atto di rogito>
 
 ***
 
@@ -233,7 +219,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 <summary>Conferma prenotazione appuntamento</summary>
 
-:sparkles:<mark style="color:blue;">**Messaggio Premium**</mark> — Se hai un contratto Premium, ti consigliamo di configurare questo messaggio con promemoria Premium: i destinatari verranno avvisati dell‘avvicinarsi dell'appuntamento tramite notifica push.
+{% include "../.gitbook/includes/single-sign-on.md" %}
 
 ***
 

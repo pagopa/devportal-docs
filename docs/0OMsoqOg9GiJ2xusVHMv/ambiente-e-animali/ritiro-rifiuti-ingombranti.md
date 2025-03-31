@@ -11,9 +11,11 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 
 <table data-header-hidden><thead><tr><th width="373"></th><th></th></tr></thead><tbody><tr><td><strong>Nome servizio</strong></td><td>Ritiro rifiuti ingombranti</td></tr><tr><td><strong>Argomento</strong></td><td>Ambiente e animali</td></tr><tr><td><strong>Descrizione del servizio</strong></td><td><p>Il servizio riguarda il ritiro di rifiuti ingombranti.</p><p>Tramite IO potrai:</p><ul><li>ricevere comunicazioni e aggiornamenti sulle richieste di ritiro;</li><li>ricevere eventuali avvisi di pagamento e pagarli in app;</li><li>ricevere altre comunicazioni.</li></ul></td></tr><tr><td><strong>Pulsante</strong></td><td>Prenota ritiro</td></tr></tbody></table>
 
+{% include "../.gitbook/includes/banner-single-sign-on.md" %}
+
 ## Ciclo di vita del servizio
 
-<figure><img src="../.gitbook/assets/image (37).png" alt=""><figcaption><p><strong>Ciclo di vita ed event del servizio Ritiro rifiuti ingombranti</strong></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (46).png" alt=""><figcaption><p><strong>Ciclo di vita ed event del servizio Ritiro rifiuti ingombranti</strong></p></figcaption></figure>
 
 ## Messaggi del servizio
 
@@ -28,6 +30,10 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 <details>
 
 <summary>Conferma prenotazione ritiro bordo strada</summary>
+
+{% include "../.gitbook/includes/single-sign-on.md" %}
+
+***
 
 **🖋 Titolo del messaggio:** Conferma di prenotazione per ritiro bordo strada
 
@@ -59,6 +65,10 @@ Ti confermiamo la tua prenotazione per il ritiro di rifiuti ingombranti bordo st
 
 <summary>Conferma prenotazione ritiro al piano</summary>
 
+{% include "../.gitbook/includes/single-sign-on.md" %}
+
+***
+
 **🖋 Titolo del messaggio:** Conferma di prenotazione per ritiro al piano
 
 🗒 **Testo del messaggio:**
@@ -86,6 +96,10 @@ Ti confermiamo la tua prenotazione per il ritiro di rifiuti ingombranti al piano
 <details>
 
 <summary>Promemoria appuntamento</summary>
+
+{% include "../.gitbook/includes/single-sign-on.md" %}
+
+***
 
 **🖋 Titolo del messaggio:** Ricordati del ritiro che hai prenotato
 
@@ -121,7 +135,7 @@ Se è previsto un costo per il ritiro dei rifiuti ingombranti, si possono predis
 
 <summary>Avviso di pagamento ritiro rifiuti ingombranti</summary>
 
-:sparkles:<mark style="color:blue;">**Messaggio Premium**</mark> — Se hai un contratto Premium, ti consigliamo di configurare questo messaggio con promemoria Premium: i destinatari verranno avvisati dell‘avvicinarsi della scadenza tramite notifica push.
+{% include "../.gitbook/includes/promemoria-di-pagamento.md" %}
 
 ***
 
@@ -155,13 +169,7 @@ In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio p
 
 </details>
 
-{% hint style="info" %}
-\*\*Promemoria automatici — \*\*<mark style="color:blue;">**Messaggi Premium**</mark>
-
-Impostando il messaggio di _Avviso di pagamento_ come Messaggio Premium, disponibile a seconda della tipologia di contratto sottoscritto dall’ente, non è necessario inviare il seguente messaggio di promemoria.
-
-Gli utenti che hanno dato il loro consenso, infatti, riceveranno automaticamente una notifica push sui loro dispositivi all’avvicinarsi della scadenza.
-{% endhint %}
+{% include "../.gitbook/includes/banner-promemoria-automatici.md" %}
 
 <details>
 

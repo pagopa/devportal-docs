@@ -11,9 +11,11 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 
 <table data-header-hidden><thead><tr><th width="373"></th><th></th></tr></thead><tbody><tr><td><strong>Nome servizio</strong></td><td>Scuola primaria e secondaria</td></tr><tr><td><strong>Argomento</strong></td><td>Educazione e formazione</td></tr><tr><td><strong>Descrizione del servizio</strong></td><td><p>Il servizio riguarda le attività scolastiche ed extrascolastiche per la scuola primaria e secondaria.</p><p></p><p>Tramite IO potrai:</p><ul><li>ricevere comunicazioni e aggiornamenti sulle richieste presentate, sulle attività e sugli orari;</li><li>ricevere avvisi di pagamento e pagarli in app;</li><li>richiedere l’iscrizione al servizio di pre-post scuola;</li><li>ricevere altre comunicazioni.</li></ul></td></tr><tr><td><strong>Pulsante</strong></td><td>Vedi iscrizioni aperte</td></tr></tbody></table>
 
+{% include "../.gitbook/includes/banner-single-sign-on.md" %}
+
 ## Ciclo di vita del servizio
 
-<figure><img src="../.gitbook/assets/Educazione e formazione_Scuola primaria e secondaria.png" alt=""><figcaption><p><strong>Ciclo di vita e eventi del servizio Scuola primaria e secondaria</strong></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (59).png" alt=""><figcaption><p><strong>Ciclo di vita e eventi del servizio Scuola primaria e secondaria</strong></p></figcaption></figure>
 
 ## Messaggi del servizio
 
@@ -28,6 +30,10 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 <details>
 
 <summary>Apertura nuove iscrizioni</summary>
+
+{% include "../.gitbook/includes/single-sign-on.md" %}
+
+***
 
 **🖋 Titolo del messaggio:** Sono aperte le iscrizioni per l’anno educativo \<aaaa/aaaa>
 
@@ -56,6 +62,10 @@ La compilazione della domanda può prevedere diversi stati di elaborazione rappr
 <details>
 
 <summary>Domanda di iscrizione al servizio: inviata</summary>
+
+{% include "../.gitbook/includes/single-sign-on.md" %}
+
+***
 
 **🖋 Titolo del messaggio:** Abbiamo ricevuto la tua domanda
 
@@ -158,6 +168,10 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).&#x20;
 
 <summary>Pubblicazione della graduatoria</summary>
 
+{% include "../.gitbook/includes/single-sign-on.md" %}
+
+***
+
 **🖋 Titolo del messaggio:** Pubblicata la graduatoria \<provvisoria/definitiva> per l’anno \<aaaa/aaaa>
 
 🗒 **Testo del messaggio**:&#x20;
@@ -188,7 +202,7 @@ Per visualizzare la tua posizione in graduatoria \[visita questo sito]\(URL).
 
 <summary>Avviso di pagamento</summary>
 
-:sparkles: <mark style="color:blue;">**Messaggio Premium**</mark> — Se hai un contratto Premium, ti consigliamo di configurare questo messaggio con promemoria Premium: i destinatari verranno avvisati dell‘avvicinarsi della scadenza tramite notifica push.
+{% include "../.gitbook/includes/promemoria-di-pagamento.md" %}
 
 ***
 
@@ -224,13 +238,7 @@ In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio p
 
 </details>
 
-{% hint style="info" %}
-**Promemoria automatici —&#x20;**<mark style="color:blue;">**Messaggi Premium**</mark>
-
-Impostando il messaggio di _Avviso di pagamento_ come Messaggio Premium, disponibile a seconda della tipologia di contratto sottoscritto dall’ente, non è necessario inviare il seguente messaggio di promemoria.
-
-Gli utenti che hanno dato il loro consenso, infatti, riceveranno automaticamente una notifica push sui loro dispositivi all’avvicinarsi della scadenza.
-{% endhint %}
+{% include "../.gitbook/includes/banner-promemoria-automatici.md" %}
 
 <details>
 
@@ -458,7 +466,7 @@ La tua posizione in graduatoria per il servizio \<tipologia di servizio> per \<n
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
-**🪄 Pulsante**: Vedi Avviso
+**🪄 Pulsante**: Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
 
 ***
 
@@ -524,7 +532,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 **Lo sapevi?**\
 IO è integrata con SEND - Servizio Notifiche Digitale, per l'invio di comunicazioni a valore legale.
 
-[**Scopri di più su SEND**](https://notifichedigitali.pagopa.it/) [**-->**](https://www.pagopa.it/it/prodotti-e-servizi/piattaforma-notifiche-digitali)
+[**Scopri di più su SEND**](https://notifichedigitali.pagopa.it/) [**->**](https://www.pagopa.it/it/prodotti-e-servizi/piattaforma-notifiche-digitali)
 {% endhint %}
 
 {% hint style="info" %}

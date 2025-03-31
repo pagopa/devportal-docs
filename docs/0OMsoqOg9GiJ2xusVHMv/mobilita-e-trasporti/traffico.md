@@ -11,9 +11,11 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 
 <table data-header-hidden><thead><tr><th width="373"></th><th></th></tr></thead><tbody><tr><td><strong>Nome servizio</strong></td><td>Traffico</td></tr><tr><td><strong>Argomento</strong></td><td>Mobilità e trasporti</td></tr><tr><td><strong>Descrizione del servizio</strong></td><td><p>Il servizio ti invia informazioni sul traffico e su eventuali modifiche della viabilità nel territorio del Comune.</p><p></p><p>Tramite IO potrai:</p><ul><li>ricevere comunicazioni e aggiornamenti;</li><li>ricevere altre comunicazioni.</li></ul></td></tr><tr><td><strong>Pulsante</strong></td><td>Richiedi modifica viabilità</td></tr></tbody></table>
 
+{% include "../.gitbook/includes/banner-single-sign-on.md" %}
+
 ## Ciclo di vita del servizio
 
-<figure><img src="../.gitbook/assets/image (9) (1).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Traffico</strong></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (92).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Traffico</strong></p></figcaption></figure>
 
 ## Messaggi del servizio
 
@@ -165,7 +167,7 @@ Per maggiori informazioni, contatta \<denominazione ufficio> tramite \<canale>.
 
 <summary>Avviso di pagamento spese di servizio</summary>
 
-:sparkles: <mark style="color:blue;">**Messaggio Premium**</mark> — Se hai un contratto Premium, ti consigliamo di configurare questo messaggio con promemoria Premium: i destinatari verranno avvisati dell‘avvicinarsi della scadenza tramite notifica push.
+{% include "../.gitbook/includes/promemoria-di-pagamento.md" %}
 
 ***
 
@@ -223,13 +225,7 @@ Per maggiori informazioni o per richiedere assistenza, contattaci tramite i cana
 
 </details>
 
-{% hint style="info" %}
-**Promemoria automatici —&#x20;**<mark style="color:blue;">**Messaggi Premium**</mark>
-
-Impostando il messaggio di _Avviso di pagamento_ come Messaggio Premium, disponibile a seconda della tipologia di contratto sottoscritto dall’ente, non è necessario inviare il seguente messaggio di promemoria.
-
-Gli utenti che hanno dato il loro consenso, infatti, riceveranno automaticamente una notifica push sui loro dispositivi all’avvicinarsi della scadenza.
-{% endhint %}
+{% include "../.gitbook/includes/banner-promemoria-automatici.md" %}
 
 <details>
 
@@ -331,5 +327,5 @@ Il modello è un esempio che non ha carattere vincolante per l’ente e sul qual
 
 Puoi copiare i testi dei messaggi da personalizzare da questo documento:&#x20;
 
-{% file src="../.gitbook/assets/IO - Template servizi - Traffico.xlsx" %}
+{% file src="../.gitbook/assets/IO - Template servizi - Traffico (1).xlsx" %}
 {% endhint %}

@@ -29,6 +29,10 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 <summary>Nuova agevolazione disponibile</summary>
 
+{% include "../.gitbook/includes/single-sign-on.md" %}
+
+***
+
 **🖋 Titolo del messaggio:** È disponibile una nuova agevolazione
 
 🗒 **Testo del messaggio**:&#x20;

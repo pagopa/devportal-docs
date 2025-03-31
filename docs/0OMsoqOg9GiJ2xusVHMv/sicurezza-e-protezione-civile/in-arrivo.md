@@ -13,7 +13,7 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 
 ## Ciclo di vita del servizio
 
-<figure><img src="../.gitbook/assets/image (27).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Protezione civile</strong></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (49).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Protezione civile</strong></p></figcaption></figure>
 
 ## Messaggi del servizio
 
@@ -121,9 +121,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 <summary>Pubblicazione bando</summary>
 
-:sparkles: <mark style="color:blue;">**Allegati Premium**</mark> — Tramite questa funzionalità Premium, disponibile a seconda della tipologia di contratto sottoscritto dall’ente, puoi allegare documenti all'interno del messaggio.
-
-Questo messaggio è da utilizzare sia per messaggi Premium, sia per messaggi standard. In caso di messaggio standard, **ricorda di eliminare ogni riferimento agli allegati dal corpo del messaggio.**
+{% include "../.gitbook/includes/allegati.md" %}
 
 ***
 
@@ -135,11 +133,11 @@ Dal \<gg/mm/aaaa> è possibile fare domanda per \<oggetto del bando>.
 
 Per consultare i criteri di assegnazione e fare domanda, \[visita questo sito]\(URL).
 
-\[Solo per messaggi Premium con allegato] Trovi il testo completo del bando in allegato a questo messaggio.
+\[Solo per messaggi con allegato] Trovi il testo completo del bando in allegato a questo messaggio.
 
 **🪄 Pulsante**: n/a
 
-<mark style="color:blue;">**📎 Allegato Premium:**</mark> \<testo integrale del bando>
+<mark style="color:blue;">**📎 Allegato:**</mark> \<testo integrale del bando>
 
 ***
 

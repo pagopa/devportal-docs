@@ -11,9 +11,13 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 
 <table data-header-hidden><thead><tr><th width="373"></th><th></th></tr></thead><tbody><tr><td><strong>Nome servizio</strong></td><td>Sportello Unico per le Attività Produttive (SUAP)</td></tr><tr><td><strong>Argomento</strong></td><td>Attività produttive e commercio</td></tr><tr><td><strong>Descrizione del servizio</strong></td><td><p>Il servizio riguarda lo sportello unico per le attività produttive (SUAP), ovvero il punto di contatto tra imprese e istituzioni pubbliche per sbrigare le pratiche relative all’apertura e alla gestione aziendale.</p><p></p><p>Tramite IO potrai:</p><ul><li>ricevere comunicazioni e aggiornamenti sulle pratiche;</li><li>ricevere avvisi di pagamento e pagarli in app;</li><li>ricevere altre comunicazioni.</li></ul></td></tr><tr><td><strong>Pulsante</strong></td><td>Accedi al portale</td></tr></tbody></table>
 
+{% include "../.gitbook/includes/banner-single-sign-on.md" %}
+
+
+
 ## Ciclo di vita del servizio
 
-<figure><img src="../.gitbook/assets/Attività produttive e commercio_Sportello Unico per le Attività Produttive (SUAP).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Sportello Unico per le Attività Produttive</strong></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (54).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Sportello Unico per le Attività Produttive</strong></p></figcaption></figure>
 
 ## Messaggi del servizio
 
@@ -28,6 +32,10 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 <details>
 
 <summary>Aggiornamento sullo stato della pratica</summary>
+
+{% include "../.gitbook/includes/single-sign-on.md" %}
+
+***
 
 **🖋 Titolo del messaggio:** C'è un aggiornamento sulla tua pratica
 
@@ -52,6 +60,10 @@ Per seguire lo stato della pratica, \[visita questo sito]\(URL).
 <details>
 
 <summary>Integrazione documentazione</summary>
+
+{% include "../.gitbook/includes/single-sign-on.md" %}
+
+***
 
 **🖋 Titolo del messaggio:** Richiesta di integrazione&#x20;
 
@@ -103,7 +115,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 <summary>Avviso di pagamento spese istruttorie</summary>
 
-:sparkles: <mark style="color:blue;">**Messaggio Premium**</mark> — Se hai un contratto Premium, ti consigliamo di configurare questo messaggio con promemoria Premium: i destinatari verranno avvisati dell‘avvicinarsi della scadenza tramite notifica push.
+{% include "../.gitbook/includes/promemoria-di-pagamento.md" %}
 
 ***
 
@@ -137,13 +149,7 @@ In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio p
 
 </details>
 
-{% hint style="info" %}
-**Promemoria automatici —&#x20;**<mark style="color:blue;">**Messaggi Premium**</mark>
-
-Impostando il messaggio di _Avviso di pagamento_ come Messaggio Premium, disponibile a seconda della tipologia di contratto sottoscritto dall’ente, non è necessario inviare il seguente messaggio di promemoria.
-
-Gli utenti che hanno dato il loro consenso, infatti, riceveranno automaticamente una notifica push sui loro dispositivi all’avvicinarsi della scadenza.
-{% endhint %}
+{% include "../.gitbook/includes/banner-promemoria-automatici.md" %}
 
 <details>
 

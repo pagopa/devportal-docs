@@ -11,6 +11,8 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 
 <table data-header-hidden><thead><tr><th width="373"></th><th></th></tr></thead><tbody><tr><td><strong>Nome servizio</strong></td><td>Donazioni</td></tr><tr><td><strong>Argomento</strong></td><td>Redditi, patrimonio e fisco</td></tr><tr><td><strong>Descrizione del servizio</strong></td><td><p>Il servizio riguarda le donazioni di beni mobili e immobili da parte dei cittadini al Comune.</p><p></p><p>Tramite IO potrai:</p><ul><li>ricevere comunicazioni e aggiornamenti sulle istanze di donazione presentate;</li><li>ricevere altre comunicazioni.</li></ul></td></tr><tr><td><strong>Pulsante</strong></td><td>Compila modulo</td></tr></tbody></table>
 
+{% include "../.gitbook/includes/banner-single-sign-on.md" %}
+
 ## Ciclo di vita del servizio
 
 <figure><img src="../.gitbook/assets/image (12) (1).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Donazioni</strong></p></figcaption></figure>

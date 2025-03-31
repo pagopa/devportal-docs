@@ -16,7 +16,7 @@ Erogare il servizio "Multe per violazioni al Codice della Strada" tramite IO per
 
 ## **Ciclo di vita del servizio**
 
-<figure><img src="../.gitbook/assets/Multe-x (1).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio multe per violazione del Codice della Strada</strong></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (96).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio multe per violazione del Codice della Strada</strong></p></figcaption></figure>
 
 ## Messaggio del servizio
 
@@ -32,7 +32,7 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 <summary>Emissione preavviso di accertamento</summary>
 
-:sparkles: <mark style="color:blue;">**Messaggio Premium**</mark> — Se hai un contratto Premium, ti consigliamo di configurare questo messaggio con promemoria Premium: i destinatari verranno avvisati dell‘avvicinarsi della scadenza tramite notifica push.
+{% include "../.gitbook/includes/promemoria-di-pagamento.md" %}
 
 ***
 
@@ -54,9 +54,9 @@ Puoi pagare direttamente in app premendo “Paga”, oppure tramite tutti i cana
 
 In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio potrebbe subire variazioni.
 
-**🪄  Pulsante 1**: Vedi accertamento
+**🪄  Pulsante 1**: Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)
 
-**🪄  Pulsante 2**: Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)
+**🪄  Pulsante 2**: Vedi accertamento
 
 ***
 
@@ -108,5 +108,5 @@ Il modello è un esempio che non ha carattere vincolante per l’ente e sul qual
 
 Puoi copiare i testi dei messaggi da personalizzare da questo documento:
 
-{% file src="../.gitbook/assets/IO - Template servizi - Multe per violazioni al Codice della Strada (1).xlsx" %}
+{% file src="../.gitbook/assets/IO - Template servizi - Multe per violazioni al Codice della Strada.xlsx" %}
 {% endhint %}

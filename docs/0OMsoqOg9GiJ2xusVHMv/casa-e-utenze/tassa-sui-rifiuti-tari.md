@@ -14,7 +14,7 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 
 ## **Ciclo di vita del servizio**
 
-<figure><img src="../.gitbook/assets/TARI_xy.png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio TARI</strong></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (86).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio TARI</strong></p></figcaption></figure>
 
 ## **Messaggi del servizio**
 
@@ -88,6 +88,10 @@ Quando il pagamento è suddiviso per rate e l'ente vuole permettere al cittadino
 
 <summary>Avviso di pagamento TARI </summary>
 
+{% include "../.gitbook/includes/promemoria-di-pagamento.md" %}
+
+***
+
 **🖋 Titolo del messaggio:** Nuovo avviso di pagamento
 
 🗒 **Testo del messaggio**: C'è un avviso da pagare intestato a \<nome cognome> e relativo alla \<rata unica/prima rata/seconda rata> della Tassa sui rifiuti (TARI) per l'immobile situato in \<indirizzo> - \<piano ed interno immobile>.
@@ -114,13 +118,7 @@ In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio p
 
 </details>
 
-{% hint style="info" %}
-**Promemoria automatici —&#x20;**<mark style="color:blue;">**Messaggi Premium**</mark>
-
-Impostando il messaggio di _Avviso di pagamento_ come Messaggio Premium, disponibile a seconda della tipologia di contratto sottoscritto dall’ente, non è necessario inviare il seguente messaggio di promemoria.
-
-Gli utenti che hanno dato il loro consenso, infatti, riceveranno automaticamente una notifica push sui loro dispositivi all’avvicinarsi della scadenza.
-{% endhint %}
+{% include "../.gitbook/includes/banner-promemoria-automatici.md" %}
 
 <details>
 
@@ -154,9 +152,7 @@ Quando il pagamento è suddiviso per rate e l'ente vuole comunicare al cittadino
 
 <summary>Istruzioni sul pagamento della rata </summary>
 
-:sparkles: <mark style="color:blue;">**Allegati Premium**</mark> — Tramite questa funzionalità Premium, disponibile a seconda della tipologia di contratto sottoscritto dall’ente, puoi allegare documenti all'interno del messaggio.
-
-Questo messaggio è da utilizzare sia per messaggi Premium, sia per messaggi standard. In caso di messaggio standard, **ricorda di eliminare ogni riferimento agli allegati dal corpo del messaggio.**
+{% include "../.gitbook/includes/allegati.md" %}
 
 ***
 
@@ -166,13 +162,13 @@ Questo messaggio è da utilizzare sia per messaggi Premium, sia per messaggi sta
 
 Dal \<gg/mm/aaaa> sarà possibile pagare la Tassa sui rifiuti (TARI)  intestato a \<nome cognome> per l'immobile situato in \<indirizzo> - \<piano ed interno immobile>.
 
-\[Solo per messaggi Premium con allegato] Trovi i pagamenti previsti in allegato a questo messaggio.
+\[Solo per messaggi con allegato] Trovi i pagamenti previsti in allegato a questo messaggio.
 
 Per avere maggiori informazioni sul pagamento, \[visita il sito]\(URL).
 
 **🪄  Pulsante**: n/a
 
-**📎&#x20;**<mark style="color:blue;">**Allegato Premium:**</mark> \<documento con gli avvisi di pagamento delle rate previste>
+**📎&#x20;**<mark style="color:blue;">**Allegato:**</mark> \<documento con gli avvisi di pagamento delle rate previste>
 
 ***
 

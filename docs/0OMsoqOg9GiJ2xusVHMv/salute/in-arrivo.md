@@ -47,6 +47,10 @@ I programmi di screening possono avere diverse modalità di esecuzione che dipen
 
 <summary>Disponibilità programma screening</summary>
 
+{% include "../.gitbook/includes/single-sign-on.md" %}
+
+***
+
 **🖋 Titolo del messaggio:** Partecipa al programma di screening
 
 🗒 **Testo del messaggio**:&#x20;
@@ -81,7 +85,11 @@ Per ulteriori informazioni sul programma, \[visita questo sito]\(URL).&#x20;
 
 <summary>Conferma prenotazione appuntamento per lo screening</summary>
 
-**🖋 Titolo del messaggio:** Il tuo appuntamento
+{% include "../.gitbook/includes/single-sign-on.md" %}
+
+***
+
+**� Titolo del messaggio:** Il tuo appuntamento
 
 🗒 **Testo del messaggio:**
 
@@ -112,6 +120,10 @@ Per ulteriori informazioni sul programma, \[visita questo sito]\(URL).&#x20;
 <details>
 
 <summary>Promemoria appuntamento</summary>
+
+{% include "../.gitbook/includes/single-sign-on.md" %}
+
+***
 
 **🖋 Titolo del messaggio:** Ricordati del tuo appuntamento
 

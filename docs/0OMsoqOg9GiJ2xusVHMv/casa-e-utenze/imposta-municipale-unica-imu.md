@@ -14,7 +14,7 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 
 ## Ciclo di vita del servizio
 
-<figure><img src="../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio IMU</strong> </p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (85).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Imposta Municipale Unica</strong> </p></figcaption></figure>
 
 ## Messaggi del servizio&#x20;
 
@@ -28,9 +28,7 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 <summary>Aggiornamenti e novità IMU </summary>
 
-:sparkles: <mark style="color:blue;">**Allegati Premium**</mark> — Tramite questa funzionalità Premium, disponibile a seconda della tipologia di contratto sottoscritto dall’ente, puoi allegare documenti all'interno del messaggio.
-
-Questo messaggio è da utilizzare sia per messaggi Premium, sia per messaggi standard. In caso di messaggio standard, **ricorda di eliminare ogni riferimento agli allegati dal corpo del messaggio.**
+{% include "../.gitbook/includes/allegati.md" %}
 
 ***
 
@@ -46,7 +44,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).&#x20;
 
 **🪄 Pulsante**: n/a
 
-📎 <mark style="color:blue;">**Allegato Premium**</mark>: \<documento>
+📎 <mark style="color:blue;">**Allegato**</mark>: \<documento>
 
 ***
 

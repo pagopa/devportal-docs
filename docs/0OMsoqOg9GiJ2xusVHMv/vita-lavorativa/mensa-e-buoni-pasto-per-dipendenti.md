@@ -13,7 +13,7 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 
 ## Ciclo di vita del servizio
 
-<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Mensa e buoni pasto per i dipendenti</strong></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (53).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Mensa e buoni pasto per i dipendenti</strong></p></figcaption></figure>
 
 ## Messaggi del servizio
 
@@ -85,9 +85,7 @@ Per registrarti, \[visita questo sito]\(URL).
 
 <summary>Attivazione convenzione</summary>
 
-:sparkles: <mark style="color:blue;">**Allegati Premium**</mark> — Tramite questa funzionalità Premium, disponibile a seconda della tipologia di contratto sottoscritto dall’ente, puoi allegare documenti all'interno del messaggio.
-
-Questo messaggio è da utilizzare sia per messaggi Premium, sia per messaggi standard. In caso di messaggio standard, **ricorda di eliminare ogni riferimento agli allegati dal corpo del messaggio.**
+{% include "../.gitbook/includes/allegati.md" %}
 
 ***
 
@@ -101,11 +99,11 @@ Per ulteriori informazioni sulla convenzione, \[visita questa pagina]\(URL).
 
 Per visualizzare l’elenco aggiornato delle convenzioni, \[visita questo sito]\(URL).
 
-\[Solo per messaggi premium con allegato] Trovi l'elenco aggiornato in allegato a questo messaggio.
+\[Solo per messaggi con allegato] Trovi l'elenco aggiornato in allegato a questo messaggio.
 
 **🪄 Pulsante:** n/a
 
-<mark style="color:blue;">**📎 Allegato Premium:**</mark> \<elenco convenzioni>
+<mark style="color:blue;">**📎 Allegato:**</mark> \<elenco convenzioni>
 
 ***
 
@@ -121,9 +119,7 @@ Per visualizzare l’elenco aggiornato delle convenzioni, \[visita questo sito]\
 
 <summary>Disattivazione convenzione</summary>
 
-:sparkles: <mark style="color:blue;">**Allegati Premium**</mark> — Tramite questa funzionalità Premium, disponibile a seconda della tipologia di contratto sottoscritto dall’ente, puoi allegare documenti all'interno del messaggio.
-
-Questo messaggio è da utilizzare sia per messaggi Premium, sia per messaggi standard. In caso di messaggio standard, **ricorda di eliminare ogni riferimento agli allegati dal corpo del messaggio.**
+{% include "../.gitbook/includes/allegati.md" %}
 
 ***
 
@@ -135,11 +131,11 @@ Dal \<gg/mm/aaaa> alcune convenzioni non saranno più attive.
 
 Per visualizzare l’elenco aggiornato, \[visita questo sito]\(URL).
 
-\[Solo per messaggi premium con allegato] Trovi l'elenco aggiornato in allegato a questo messaggio.
+\[Solo per messaggi con allegato] Trovi l'elenco aggiornato in allegato a questo messaggio.
 
 **🪄 Pulsante:** n/a
 
-<mark style="color:blue;">**📎 Allegato Premium:**</mark> \<elenco convenzioni>
+<mark style="color:blue;">**📎 Allegato:**</mark> \<elenco convenzioni>
 
 ***
 

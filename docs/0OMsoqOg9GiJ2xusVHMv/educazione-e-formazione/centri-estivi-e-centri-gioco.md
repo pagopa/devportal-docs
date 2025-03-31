@@ -11,9 +11,11 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 
 <table data-header-hidden><thead><tr><th width="370"></th><th></th></tr></thead><tbody><tr><td><strong>Nome servizio</strong></td><td>Centri estivi e centri gioco</td></tr><tr><td><strong>Argomento</strong></td><td>Educazione e formazione</td></tr><tr><td><strong>Descrizione del servizio</strong></td><td><p>Il servizio riguarda i centri estivi.</p><p></p><p>Tramite IO potrai:</p><ul><li>ricevere comunicazioni e aggiornamenti sull’iscrizione;</li><li>ricevere avvisi di pagamento e pagarli in app;</li><li>ricevere altre comunicazioni.</li></ul></td></tr><tr><td><strong>Pulsante</strong></td><td>Vedi iscrizioni aperte</td></tr></tbody></table>
 
+{% include "../.gitbook/includes/banner-single-sign-on.md" %}
+
 ## Ciclo di vita del servizio
 
-<figure><img src="../.gitbook/assets/Educazione e formazione_Centri estivi e centri gioco (1).png" alt=""><figcaption><p><strong>Ciclo di vita e eventi del servizio Centri estivi e centri gioco</strong></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (60).png" alt=""><figcaption><p><strong>Ciclo di vita e eventi del servizio Centri estivi e centri gioco</strong></p></figcaption></figure>
 
 ## Messaggi del servizio
 
@@ -53,6 +55,10 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 <summary>Apertura nuove iscrizioni</summary>
 
+{% include "../.gitbook/includes/single-sign-on.md" %}
+
+***
+
 **🖋 Titolo del messaggio:** Sono aperte le iscrizioni per l’anno \<aaaa>
 
 🗒 **Testo del messaggio**:&#x20;
@@ -79,6 +85,10 @@ Per ulteriori informazioni e fare domanda di iscrizione, \[visita questo sito]\(
 
 <summary>Domanda di iscrizione: integrazione documentazione</summary>
 
+{% include "../.gitbook/includes/single-sign-on.md" %}
+
+***
+
 **🖋 Titolo del messaggio:** Richiesta di integrazione alla tua domanda
 
 🗒 **Testo del messaggio**:&#x20;
@@ -104,6 +114,10 @@ Consulta il riepilogo della domanda, \[visita questo sito]\(URL).
 <details>
 
 <summary>Pubblicazione della graduatoria</summary>
+
+{% include "../.gitbook/includes/single-sign-on.md" %}
+
+***
 
 **🖋 Titolo del messaggio:** Pubblicata la graduatoria per l’anno \<aaaa>
 
@@ -135,7 +149,7 @@ Per visualizzare la tua posizione in graduatoria \[visita questo sito]\(URL).
 
 <summary>Avviso di pagamento rette</summary>
 
-:sparkles: <mark style="color:blue;">**Messaggio Premium**</mark> — Se hai un contratto Premium, ti consigliamo di configurare questo messaggio con promemoria Premium: i destinatari verranno avvisati dell‘avvicinarsi della scadenza tramite notifica push.
+{% include "../.gitbook/includes/promemoria-di-pagamento.md" %}
 
 ***
 
@@ -169,13 +183,7 @@ In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio p
 
 </details>
 
-{% hint style="info" %}
-**Promemoria automatici —&#x20;**<mark style="color:blue;">**Messaggi Premium**</mark>
-
-Impostando il messaggio di _Avviso di pagamento_ come Messaggio Premium, disponibile a seconda della tipologia di contratto sottoscritto dall’ente, non è necessario inviare il seguente messaggio di promemoria.
-
-Gli utenti che hanno dato il loro consenso, infatti, riceveranno automaticamente una notifica push sui loro dispositivi all’avvicinarsi della scadenza.
-{% endhint %}
+{% include "../.gitbook/includes/banner-promemoria-automatici.md" %}
 
 <details>
 
@@ -297,13 +305,13 @@ La tua richiesta di rinuncia al servizio di \<nome> \<cognome> per il servizio \
 
 **Entro il:** \<gg/mm/aaaa>
 
-Puoi pagare direttamente in app premendo “Vedi Avviso”, oppure tramite tutti i canali di pagamento della piattaforma pagoPA e le altre modalità di pagamento offerte dell'ente creditore.
+Puoi pagare direttamente in app premendo “Paga”, oppure tramite tutti i canali di pagamento della piattaforma pagoPA e le altre modalità di pagamento offerte dell'ente creditore.
 
 Se hai già provveduto a pagare l'avviso ignora questo messaggio.
 
 Per maggiori informazioni o per richiedere assistenza, contattaci tramite i canali che trovi nella scheda servizio.
 
-**🪄 Pulsante**: Vedi Avviso
+**🪄 Pulsante**: Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
 
 ***
 
@@ -423,7 +431,7 @@ Per maggiori informazioni o per richiedere assistenza, contattaci tramite i cana
 **Lo sapevi?**\
 IO è integrata con SEND - Servizio Notifiche Digitale, per l'invio di comunicazioni a valore legale.
 
-[**Scopri di più su SEND**](https://notifichedigitali.pagopa.it/) [**-->**](https://www.pagopa.it/it/prodotti-e-servizi/piattaforma-notifiche-digitali)
+[**Scopri di più su SEND**](https://notifichedigitali.pagopa.it/) [**->**](https://www.pagopa.it/it/prodotti-e-servizi/piattaforma-notifiche-digitali)
 {% endhint %}
 
 {% hint style="info" %}

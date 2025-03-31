@@ -11,9 +11,11 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 
 <table data-header-hidden><thead><tr><th width="373"></th><th></th></tr></thead><tbody><tr><td><strong>Nome servizio</strong></td><td>Sviluppo economico</td></tr><tr><td><strong>Argomento</strong></td><td>Attività produttive e commercio</td></tr><tr><td><strong>Descrizione del servizio</strong></td><td><p>Il servizio riguarda le attività legate allo sviluppo e alla riqualificazione economica del territorio.</p><p></p><p>Tramite IO potrai:</p><ul><li>ricevere comunicazioni e aggiornamenti sulle attività;</li><li>ricevere eventuali avvisi di pagamento e pagarli in app;</li><li>ricevere altre comunicazioni.</li></ul></td></tr><tr><td><strong>Pulsante</strong></td><td>Vai alla modulistica</td></tr></tbody></table>
 
+{% include "../.gitbook/includes/banner-single-sign-on.md" %}
+
 ## Ciclo di vita del servizio
 
-<figure><img src="../.gitbook/assets/Attività produttive e commercio_Sviluppo economico (1).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Sviluppo economico</strong></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (55).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Sviluppo economico</strong></p></figcaption></figure>
 
 ## Messaggi del servizio
 
@@ -55,6 +57,10 @@ Per visualizzare \<nome dell'iniziativa>, \[visita questo sito]\(URL).
 
 <summary>Richiesta appuntamento</summary>
 
+{% include "../.gitbook/includes/single-sign-on.md" %}
+
+***
+
 **🖋 Titolo del messaggio:** Richiesta appuntamento&#x20;
 
 🗒 **Testo del messaggio:**
@@ -81,7 +87,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL)&#x20;
 
 <summary>Conferma prenotazione appuntamento</summary>
 
-:sparkles:<mark style="color:blue;">**Messaggio Premium**</mark> — Se hai un contratto Premium, ti consigliamo di configurare questo messaggio con promemoria Premium: i destinatari verranno avvisati dell‘avvicinarsi dell'appuntamento tramite notifica push.
+{% include "../.gitbook/includes/single-sign-on.md" %}
 
 ***
 
@@ -114,6 +120,10 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 <details>
 
 <summary>Integrazione documentazione</summary>
+
+{% include "../.gitbook/includes/single-sign-on.md" %}
+
+***
 
 **🖋 Titolo del messaggio:** Richiesta integrazione
 
@@ -190,6 +200,10 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 <details>
 
 <summary>Avvenuta liquidazione del contributo</summary>
+
+{% include "../.gitbook/includes/single-sign-on.md" %}
+
+***
 
 **🖋 Titolo del messaggio:** Il tuo contributo è in arrivo
 

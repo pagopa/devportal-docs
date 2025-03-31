@@ -11,6 +11,8 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 
 <table data-header-hidden><thead><tr><th width="373"></th><th></th></tr></thead><tbody><tr><td><strong>Nome servizio</strong></td><td>Orientamento e formazione</td></tr><tr><td><strong>Argomento</strong></td><td>Educazione e formazione</td></tr><tr><td><strong>Descrizione del servizio</strong></td><td><p>Il servizio ti invia informazioni sull’orientamento e sulla formazione.</p><p><br>Tramite IO potrai:</p><ul><li>ricevere comunicazioni e aggiornamenti sulle nuove iniziative dedicate all’orientamento;</li><li>ricevere informazioni sugli eventi dedicati alle scuole aperte;</li><li>ricevere comunicazioni e aggiornamenti su bandi, concorsi, corsi e nuovi percorsi formativi;</li><li>ricevere altre comunicazioni.</li></ul></td></tr><tr><td><strong>Pulsante</strong></td><td>Vedi le iniziative</td></tr></tbody></table>
 
+{% include "../.gitbook/includes/banner-single-sign-on.md" %}
+
 ## Ciclo di vita del servizio
 
 <figure><img src="../.gitbook/assets/Educazione e formazione_Orientamento e formazione.png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Orientamento e formazione</strong></p></figcaption></figure>
@@ -83,9 +85,10 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).&#x20;
 
 <summary>Emesso nuovo bando, corso o concorso</summary>
 
-:sparkles: <mark style="color:blue;">**Allegati Premium**</mark> — Tramite questa funzionalità Premium, disponibile a seconda della tipologia di contratto sottoscritto dall’ente, puoi allegare documenti all'interno del messaggio.
+:sparkles:<mark style="color:blue;">**Cosa puoi aggiungere:**</mark>
 
-Questo messaggio è da utilizzare sia per messaggi Premium, sia per messaggi standard. In caso di messaggio standard, **ricorda di eliminare ogni riferimento agli allegati dal corpo del messaggio.**
+* <mark style="color:blue;">**Allegati**</mark>: questa funzionalità permette di allegare documenti all'interno del messaggio.
+* <mark style="color:blue;">**Single Sign-on:**</mark> l'utente può accedere al portale o all'area riservata dedicata premendo sul pulsante, senza doversi autenticare con SPID o CIE.
 
 ***
 
@@ -99,11 +102,11 @@ Hai tempo fino al \<gg/mm/aaaa>.
 
 Per consultare i criteri di assegnazione e presentare richiesta, \[visita questo sito]\(URL).
 
-\[Solo per messaggi Premium con allegato] Trovi il testo completo del bando in allegato a questo messaggio.
+\[Solo per messaggi con allegato] Trovi il testo completo del bando in allegato a questo messaggio.
 
 **🪄 Pulsante**: Presenta richiesta
 
-<mark style="color:blue;">**📎 Allegato Premium:**</mark> \<testo integrale del bando/ concorso/ corso>
+<mark style="color:blue;">**📎 Allegato:**</mark> \<testo integrale del bando/ concorso/ corso>
 
 ***
 

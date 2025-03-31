@@ -11,9 +11,11 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 
 <table data-header-hidden><thead><tr><th width="373"></th><th></th></tr></thead><tbody><tr><td><strong>Nome servizio</strong></td><td>Edilizia privata</td></tr><tr><td><strong>Argomento</strong></td><td>Lavori edilizi, catasto e urbanistica</td></tr><tr><td><strong>Descrizione del servizio</strong></td><td><p>Il servizio riguarda le pratiche e gli interventi edilizi per gli immobili di proprietà.  </p><p></p><p>Tramite IO potrai: </p><ul><li>ricevere comunicazioni e aggiornamenti sulle pratiche edilizie; </li><li>ricevere avvisi di pagamento per e pagarli in app; </li><li>ricevere altre comunicazioni.</li></ul></td></tr><tr><td><strong>Pulsante</strong></td><td>Fai domanda</td></tr></tbody></table>
 
+{% include "../.gitbook/includes/banner-single-sign-on.md" %}
+
 ## Ciclo di vita del servizio
 
-<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Edilizia privata</strong></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (103).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Edilizia privata</strong></p></figcaption></figure>
 
 ## Messaggi del servizio
 
@@ -28,10 +30,6 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 <details>
 
 <summary>Conferma appuntamento</summary>
-
-:sparkles:<mark style="color:blue;">**Messaggio Premium**</mark> — Se hai un contratto Premium, ti consigliamo di configurare questo messaggio con promemoria Premium: i destinatari verranno avvisati dell‘avvicinarsi dell'appuntamento tramite notifica push.
-
-***
 
 **🖋 Titolo del messaggio:** Il tuo appuntamento
 
@@ -63,7 +61,7 @@ Per ulteriori informazioni, (visita questo sito)\[URL].
 
 <summary>Avviso di pagamento pratica</summary>
 
-:sparkles: <mark style="color:blue;">**Messaggio Premium**</mark> — Se hai un contratto Premium, ti consigliamo di configurare questo messaggio con promemoria Premium: i destinatari verranno avvisati dell‘avvicinarsi della scadenza tramite notifica push.
+{% include "../.gitbook/includes/promemoria-di-pagamento.md" %}
 
 ***
 
@@ -97,13 +95,7 @@ In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio p
 
 </details>
 
-{% hint style="info" %}
-**Promemoria automatici —&#x20;**<mark style="color:blue;">**Messaggi Premium**</mark>
-
-Impostando il messaggio di _Avviso di pagamento_ come Messaggio Premium, disponibile a seconda della tipologia di contratto sottoscritto dall’ente, non è necessario inviare il seguente messaggio di promemoria.
-
-Gli utenti che hanno dato il loro consenso, infatti, riceveranno automaticamente una notifica push sui loro dispositivi all’avvicinarsi della scadenza.
-{% endhint %}
+{% include "../.gitbook/includes/banner-promemoria-automatici.md" %}
 
 <details>
 
@@ -134,6 +126,10 @@ Se hai già provveduto a pagare l’avviso, ignora questo messaggio.
 <details>
 
 <summary>Integrazione documentazione</summary>
+
+{% include "../.gitbook/includes/single-sign-on.md" %}
+
+
 
 **🖋 Titolo del messaggio:** Richiesta di integrazione
 
@@ -213,9 +209,7 @@ Per ulteriori informazioni, \[visita questa pagina]\(URL).
 
 <summary>Documenti disponibili per la visione e il ritiro</summary>
 
-:sparkles:<mark style="color:blue;">**Allegati Premium**</mark> — Tramite questa funzionalità Premium, disponibile a seconda della tipologia di contratto sottoscritto dall’ente, puoi allegare documenti all'interno del messaggio.
-
-Questo messaggio è da utilizzare sia per messaggi Premium, sia per messaggi standard. In caso di messaggio standard, **ricorda di eliminare ogni riferimento agli allegati dal corpo del messaggio.**
+{% include "../.gitbook/includes/allegati.md" %}
 
 ***
 
@@ -227,7 +221,7 @@ La tua certificazione di agibilità per l’immobile di \<indirizzo> è disponib
 
 Per scaricare la copia digitale in formato \<formato documento> \[visita questa pagina]\(URL).
 
-\[Solo per messaggi Premium con allegato] Trovi la copia digitale in formato \<formato documento> in allegato.
+\[Solo per messaggi con allegato] Trovi la copia digitale in formato \<formato documento> in allegato.
 
 \[Inserire qui istruzioni utili al ritiro ed eventuali possibilità di delega, da compilare a cura e responsabilità dell'ente]
 
@@ -239,7 +233,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 **🪄 Pulsante:** n/a
 
-<mark style="color:blue;">**📎 Allegato Premium:**</mark> \<certificazione di agibilità>
+<mark style="color:blue;">**📎 Allegato:**</mark> \<certificazione di agibilità>
 
 ***
 

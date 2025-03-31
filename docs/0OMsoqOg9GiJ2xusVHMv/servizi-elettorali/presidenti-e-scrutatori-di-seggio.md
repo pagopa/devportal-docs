@@ -11,9 +11,11 @@ Erogare il servizio tramite app IO permette agli enti di:
 
 <table data-header-hidden><thead><tr><th width="373"></th><th></th></tr></thead><tbody><tr><td><strong>Nome servizio</strong></td><td>Presidenti e scrutatori di seggio</td></tr><tr><td><strong>Argomento</strong></td><td>Servizi elettorali</td></tr><tr><td><strong>Descrizione del servizio</strong></td><td><p>Il servizio ti invia comunicazioni relative ai presidenti e agli scrutatori di seggio.</p><p><br>Tramite IO potrai:</p><ul><li>ricevere informazioni sugli albi degli scrutatori o dei presidenti;</li><li>ricevere informazioni sulle convocazioni ai seggi;</li><li>ricevere altre comunicazioni.</li></ul></td></tr><tr><td><strong>Pulsante</strong></td><td>Iscriviti all'albo</td></tr></tbody></table>
 
+{% include "../.gitbook/includes/banner-single-sign-on.md" %}
+
 ## Ciclo di vita del servizio
 
-<figure><img src="../.gitbook/assets/image (25).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Presidenti e scrutatori di seggio</strong></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (100).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Presidenti e scrutatori di seggio</strong></p></figcaption></figure>
 
 ## Messaggi del servizio&#x20;
 

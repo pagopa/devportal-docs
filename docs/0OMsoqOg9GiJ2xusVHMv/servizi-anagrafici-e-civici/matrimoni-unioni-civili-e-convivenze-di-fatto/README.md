@@ -11,9 +11,11 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 
 <table data-header-hidden><thead><tr><th width="362"></th><th></th></tr></thead><tbody><tr><td><strong>Nome servizio</strong></td><td>Matrimoni, unioni civili e convivenze di fatto</td></tr><tr><td><strong>Argomento</strong></td><td>Servizi anagrafici e civici</td></tr><tr><td><strong>Descrizione del servizio</strong></td><td><p>Il servizio riguarda matrimoni, unioni civili e convivenze di fatto.</p><p></p><p>Tramite IO potrai:</p><ul><li>ricevere aggiornamenti sulle richieste e dichiarazioni presentate;</li><li>ricevere comunicazioni e aggiornamenti sugli appuntamenti;</li><li>se previsti, ricevere avvisi di pagamento relativi alla celebrazione e pagarli in app;</li><li>ricevere altre comunicazioni.</li></ul></td></tr><tr><td><strong>Pulsante</strong></td><td>Vai alla modulistica</td></tr></tbody></table>
 
+{% include "../../.gitbook/includes/banner-single-sign-on.md" %}
+
 ## Ciclo di vita del servizio
 
-<figure><img src="../../.gitbook/assets/Servizi anagrafici_Matrimonio, unioni civili e convivenze di fatto.png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Matrimoni, unioni civili e convivenze di fatto</strong></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (66).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Matrimoni, unioni civili e convivenze di fatto</strong></p></figcaption></figure>
 
 ***
 
@@ -26,5 +28,5 @@ Il modello è un esempio che non ha carattere vincolante per l’ente e sul qual
 
 Puoi copiare i testi dei messaggi da personalizzare da questo documento:
 
-{% file src="../../.gitbook/assets/IO - Template servizi - Matrimoni, unioni civili e convivenze di fatto.xlsx" %}
+{% file src="../../.gitbook/assets/IO - Template servizi - Matrimoni, unioni civili e convivenze di fatto (1).xlsx" %}
 {% endhint %}

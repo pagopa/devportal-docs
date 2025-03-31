@@ -29,7 +29,11 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 <summary>Nuove iniziative di supporto agli studenti</summary>
 
-**🖋 Titolo del messaggio:** È disponibile una nuova iniziativa per gli studenti
+{% include "../.gitbook/includes/single-sign-on.md" %}
+
+***
+
+&#x20;**🖋 Titolo del messaggio:** È disponibile una nuova iniziativa per gli studenti
 
 🗒 **Testo del messaggio**:&#x20;
 
@@ -54,6 +58,10 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).&#x20;
 <details>
 
 <summary>Domanda di iscrizione al servizio: integrazione documentazione</summary>
+
+{% include "../.gitbook/includes/single-sign-on.md" %}
+
+***
 
 **🖋 Titolo del messaggio:** Richiesta di integrazione
 
@@ -80,6 +88,10 @@ Consulta il riepilogo della domanda, \[visita questo sito]\(URL).
 <details>
 
 <summary>Pubblicazioni graduatorie </summary>
+
+{% include "../.gitbook/includes/single-sign-on.md" %}
+
+***
 
 **🖋 Titolo del messaggio:** Pubblicata la graduatoria \<provvisoria/definitiva> per \<iniziativa>
 

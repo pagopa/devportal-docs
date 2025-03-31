@@ -11,9 +11,11 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 
 <table data-header-hidden><thead><tr><th width="373"></th><th></th></tr></thead><tbody><tr><td><strong>Nome servizio</strong></td><td>Anagrafe</td></tr><tr><td><strong>Argomento</strong></td><td>Servizi anagrafici e civici</td></tr><tr><td><strong>Descrizione del servizio</strong></td><td><p>Il servizio ti invia informazioni sulle pratiche anagrafiche, sul registro della popolazione, sulle autenticazioni e sulle certificazioni.</p><p></p><p>Tramite IO potrai:</p><ul><li>ricevere comunicazioni e aggiornamenti sulle pratiche presentate;</li><li>ricevere comunicazioni su autentiche, atti notori e richieste di certificati;</li><li>ricevere comunicazioni e aggiornamenti sugli appuntamenti;</li><li>ricevere altre comunicazioni.</li></ul></td></tr><tr><td><strong>Pulsante</strong></td><td>Vai alla modulistica</td></tr></tbody></table>
 
+{% include "../.gitbook/includes/banner-single-sign-on.md" %}
+
 ## Ciclo di vita del servizio
 
-<figure><img src="../.gitbook/assets/Servizi anagrafici_Anagrafe.png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Anagrafe</strong></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (65).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Anagrafe</strong></p></figcaption></figure>
 
 ## Messaggi del servizio
 
@@ -57,7 +59,7 @@ Per prenotare il tuo appuntamento, \[visita questo sito]\(URL).
 
 <summary>Conferma appuntamento</summary>
 
-:sparkles:<mark style="color:blue;">**Messaggio Premium**</mark> — Se hai un contratto Premium, ti consigliamo di configurare questo messaggio con promemoria Premium: i destinatari verranno avvisati dell‘avvicinarsi dell'appuntamento tramite notifica push.
+{% include "../.gitbook/includes/single-sign-on.md" %}
 
 ***
 
@@ -91,7 +93,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 <summary>Avviso di pagamento spese di servizio</summary>
 
-:sparkles: <mark style="color:blue;">**Messaggio Premium**</mark> — Se hai un contratto Premium, ti consigliamo di configurare questo messaggio con promemoria Premium: i destinatari verranno avvisati dell‘avvicinarsi della scadenza tramite notifica push.
+{% include "../.gitbook/includes/promemoria-di-pagamento.md" %}
 
 ***
 
@@ -125,13 +127,7 @@ In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio p
 
 </details>
 
-{% hint style="info" %}
-**Promemoria automatici —&#x20;**<mark style="color:blue;">**Messaggi Premium**</mark>
-
-Impostando il messaggio di _Avviso di pagamento_ come Messaggio Premium, disponibile a seconda della tipologia di contratto sottoscritto dall’ente, non è necessario inviare il seguente messaggio di promemoria.
-
-Gli utenti che hanno dato il loro consenso, infatti, riceveranno automaticamente una notifica push sui loro dispositivi all’avvicinarsi della scadenza.
-{% endhint %}
+{% include "../.gitbook/includes/banner-promemoria-automatici.md" %}
 
 <details>
 
@@ -162,6 +158,10 @@ Se hai già provveduto a pagare l’avviso, ignora questo messaggio.
 <details>
 
 <summary>Integrazione documentazione</summary>
+
+{% include "../.gitbook/includes/single-sign-on.md" %}
+
+***
 
 **🖋 Titolo del messaggio:** Richiesta di integrazione
 
@@ -323,7 +323,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 **Lo sapevi?**\
 IO è integrata con SEND - Servizio Notifiche Digitale, per l'invio di comunicazioni a valore legale.
 
-[**Scopri di più su SEND**](https://notifichedigitali.pagopa.it/) [**-->**](https://www.pagopa.it/it/prodotti-e-servizi/piattaforma-notifiche-digitali)
+[**Scopri di più su SEND**](https://notifichedigitali.pagopa.it/) [**->**](https://www.pagopa.it/it/prodotti-e-servizi/piattaforma-notifiche-digitali)
 {% endhint %}
 
 {% hint style="info" %}

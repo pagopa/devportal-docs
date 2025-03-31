@@ -11,9 +11,11 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 
 <table data-header-hidden><thead><tr><th width="373"></th><th></th></tr></thead><tbody><tr><td><strong>Nome servizio</strong></td><td>Scuola dell'infanzia</td></tr><tr><td><strong>Argomento</strong></td><td>Educazione e formazione</td></tr><tr><td><strong>Descrizione del servizio</strong></td><td><p>Il servizio riguarda le comunicazioni relative alla scuola dell’infanzia.</p><p><br>Tramite IO potrai:</p><ul><li>ricevere comunicazioni e aggiornamenti sull'apertura delle iscrizioni;</li><li>ricevere informazioni sulla pubblicazione dei punteggi assegnati e delle graduatorie;</li><li>ricevere comunicazioni e aggiornamenti sullo stato della domanda presentata;</li><li>ricevere comunicazioni su eventuali riduzioni e agevolazioni;</li><li>ricevere avvisi di pagamento e pagarli in app;</li><li>ricevere un messaggio che ti informa che il pagamento è in scadenza;</li><li>ricevere conferma del pagamento;</li><li>ricevere altre comunicazioni.</li></ul></td></tr><tr><td><strong>Pulsante</strong></td><td>Vedi iscrizioni aperte</td></tr></tbody></table>
 
+{% include "../.gitbook/includes/banner-single-sign-on.md" %}
+
 ## Ciclo di vita del servizio
 
-<figure><img src="../.gitbook/assets/Educazione e formazione_Scuola dell&#x27;infanzia.png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Scuola dell'infanzia</strong></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (62).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Scuola dell'infanzia</strong></p></figcaption></figure>
 
 ## Messaggi del servizio&#x20;
 
@@ -28,6 +30,10 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 <details>
 
 <summary>Apertura nuove iscrizioni</summary>
+
+{% include "../.gitbook/includes/single-sign-on.md" %}
+
+***
 
 **🖋 Titolo del messaggio:** Sono aperte le iscrizioni per l'anno educativo \<aaaa/aaaa>
 
@@ -56,6 +62,10 @@ La compilazione della domanda può prevedere diversi stati di elaborazione rappr
 <details>
 
 <summary>Domanda di iscrizione al servizio: inviata</summary>
+
+{% include "../.gitbook/includes/single-sign-on.md" %}
+
+***
 
 **🖋 Titolo del messaggio:** Abbiamo ricevuto la tua domanda
 
@@ -159,6 +169,10 @@ La graduatoria viene pubblicata secondo le modalità scelte dall'ente: se le gra
 <details>
 
 <summary>Pubblicazioni graduatorie </summary>
+
+{% include "../.gitbook/includes/single-sign-on.md" %}
+
+***
 
 **🖋 Titolo del messaggio:** Pubblicata la graduatoria \<provvisoria/definitiva> per l’anno \<aaaa/aaaa>
 
@@ -274,13 +288,13 @@ C'è un avviso da pagare intestato a \<nome e cognome> e relativo a \<causale>.�
 
 **Entro il**: \<gg/mm/aaaa> &#x20;
 
-Puoi pagare direttamente in app premendo “Vedi Avviso”, oppure tramite tutti i canali di pagamento della piattaforma pagoPA e le altre modalità di pagamento offerte dell'ente creditore.
+Puoi pagare direttamente in app premendo “Paga”, oppure tramite tutti i canali di pagamento della piattaforma pagoPA e le altre modalità di pagamento offerte dell'ente creditore.
 
 Se hai già provveduto a pagare l'avviso ignora questo messaggio.
 
 Per maggiori informazioni o per richiedere assistenza, contattaci tramite i canali che trovi nella scheda servizio.
 
-🪄 **Pulsante**: Vedi Avviso
+🪄 **Pulsante**: Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
 
 ***
 
@@ -330,7 +344,7 @@ Qui sono riportati i messaggi di pagamento gestiti dall'ente:&#x20;
 
 <summary>Avviso di pagamento rette</summary>
 
-:sparkles: <mark style="color:blue;">**Messaggio Premium**</mark> — Se hai un contratto Premium, ti consigliamo di configurare questo messaggio con promemoria Premium: i destinatari verranno avvisati dell‘avvicinarsi della scadenza tramite notifica push.
+{% include "../.gitbook/includes/promemoria-di-pagamento.md" %}
 
 ***
 
@@ -364,13 +378,7 @@ In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio p
 
 </details>
 
-{% hint style="info" %}
-**Promemoria automatici —&#x20;**<mark style="color:blue;">**Messaggi Premium**</mark>
-
-Impostando il messaggio di _Avviso di pagamento_ come Messaggio Premium, disponibile a seconda della tipologia di contratto sottoscritto dall’ente, non è necessario inviare il seguente messaggio di promemoria.
-
-Gli utenti che hanno dato il loro consenso, infatti, riceveranno automaticamente una notifica push sui loro dispositivi all’avvicinarsi della scadenza.
-{% endhint %}
+{% include "../.gitbook/includes/banner-promemoria-automatici.md" %}
 
 <details>
 

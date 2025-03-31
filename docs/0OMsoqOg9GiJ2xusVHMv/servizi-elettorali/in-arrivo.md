@@ -14,7 +14,7 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 
 ## Ciclo di vita del servizio
 
-<figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Elezioni</strong></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (97).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Elezioni</strong></p></figcaption></figure>
 
 ## Messaggi del servizio&#x20;
 
@@ -27,11 +27,11 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 {% hint style="warning" %}
 **Trattamento dati sensibili**
 
-I messaggi che questo servizio invia al cittadino possono includere dati sensibili come la richiesta di voto domiciliare o assistito e le comunicazioni per appuntamenti. Per questo, il servizio è considerato come sensibile e richiede l'utilizzo dell'attributo `require_secure_channels` la cui integrazione è spiegata all'interno della [Guida Tecnica all'Integrazione dei Servizi. ](https://app.gitbook.com/s/mzwjFv2XaE1mjbz7I8gt/funzionalita/pubblicare-un-servizio/dati-obbligatori/attributi#require\_secure\_channels)
+I messaggi che questo servizio invia al cittadino possono includere dati sensibili come la richiesta di voto domiciliare o assistito e le comunicazioni per appuntamenti. Per questo, il servizio è considerato come sensibile e richiede l'utilizzo dell'attributo `require_secure_channels` la cui integrazione è spiegata all'interno della [Guida Tecnica all'Integrazione dei Servizi. ](https://app.gitbook.com/s/mzwjFv2XaE1mjbz7I8gt/funzionalita/pubblicare-un-servizio/dati-obbligatori/attributi#require_secure_channels)
 
 L'utilizzo di questo attributo permette di anonimizzare le notifiche push e mail, se previste dalle impostazioni del cittadino.\
 \
-Secondo quanto disposto dal paragrafo [7.3 delle Linee Guida di IO](https://www.agid.gov.it/sites/default/files/repository\_files/lg\_punto\_accesso\_telematico\_servizi\_pa\_3112021.pdf), **non è ammesso** includere nel titolo dati sensibili, mentre deve essere **limitato** al minimo l'utilizzo all'interno del corpo del messaggio,&#x20;
+Secondo quanto disposto dal paragrafo [7.3 delle Linee Guida di IO](https://www.agid.gov.it/sites/default/files/repository_files/lg_punto_accesso_telematico_servizi_pa_3112021.pdf), **non è ammesso** includere nel titolo dati sensibili, mentre deve essere **limitato** al minimo l'utilizzo all'interno del corpo del messaggio,&#x20;
 
 Tra i dati sensibili rientrano, ad esempio:
 
@@ -155,7 +155,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).&#x20;
 
 <summary>Conferma appuntamento</summary>
 
-:sparkles:<mark style="color:blue;">**Messaggio Premium**</mark> — Se hai un contratto Premium, ti consigliamo di configurare questo messaggio con promemoria Premium: i destinatari verranno avvisati dell‘avvicinarsi dell'appuntamento tramite notifica push.
+{% include "../.gitbook/includes/single-sign-on.md" %}
 
 ***
 
