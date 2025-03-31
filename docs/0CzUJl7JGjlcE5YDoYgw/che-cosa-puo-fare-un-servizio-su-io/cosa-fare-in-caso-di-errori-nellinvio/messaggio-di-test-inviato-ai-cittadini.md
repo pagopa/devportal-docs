@@ -20,4 +20,8 @@ Nel caso in cui venga comunque inviato un messaggio di test ai cittadini, sugger
 A prescindere dalla tipologia di errore, se questo è stato causato dal Partner Tecnologico  o dall'ente aggregatore, **il messaggio deve essere comunque "a firma" dell'ente mittente del messaggio originario**: i cittadini non conoscono i Partner Tecnologici e questo potrebbe generare in loro ulteriore confusione. &#x20;
 {% endhint %}
 
-{% include "../../.gitbook/includes/banner-di-contatto-assistenza.md" %}
+{% hint style="info" %}
+**Hai dubbi?** Prima di inviare un eventuale messaggio di errata corrige **contatta l'assistenza di IO**, accedendo alla tua [**Area Riservata Enti**](https://selfcare.pagopa.it/auth/login) e premendo su **Assistenza**.
+
+Ti ricordiamo che l'ente mittente è l'unico responsabile del contenuto dei messaggi.
+{% endhint %}

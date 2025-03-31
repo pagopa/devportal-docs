@@ -32,4 +32,8 @@ Una data di scadenza o un importo sbagliato sono invece errori gravi.
 
 Infine, se l'errore riguarda l'**avviso di pagamento** (destinatario, importo...), bisogna **annullare le relative posizioni debitorie**, per evitare che i cittadini paghino un importo non dovuto. Per approfondire, [consulta le SANP di pagoPA.](https://docs.pagopa.it/sanp/casi-duso/pagamento-di-un-avviso-presso-psp)
 
-{% include "../../.gitbook/includes/banner-di-contatto-assistenza.md" %}
+{% hint style="info" %}
+**Hai dubbi?** Prima di inviare un eventuale messaggio di errata corrige **contatta l'assistenza di IO**, accedendo alla tua [**Area Riservata Enti**](https://selfcare.pagopa.it/auth/login) e premendo su **Assistenza**.
+
+Ti ricordiamo che l'ente mittente è l'unico responsabile del contenuto dei messaggi.
+{% endhint %}
