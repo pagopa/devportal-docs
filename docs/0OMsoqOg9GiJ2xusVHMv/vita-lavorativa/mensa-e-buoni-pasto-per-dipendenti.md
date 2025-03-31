@@ -13,7 +13,7 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 
 ## Ciclo di vita del servizio
 
-<figure><img src="../.gitbook/assets/image (53).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Mensa e buoni pasto per i dipendenti</strong></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (84).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Mensa e buoni pasto per i dipendenti</strong></p></figcaption></figure>
 
 ## Messaggi del servizio
 

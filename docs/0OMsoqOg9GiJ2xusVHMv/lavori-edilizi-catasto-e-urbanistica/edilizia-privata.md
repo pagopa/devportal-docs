@@ -15,7 +15,7 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 
 ## Ciclo di vita del servizio
 
-<figure><img src="../.gitbook/assets/image (103).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Edilizia privata</strong></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (134).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Edilizia privata</strong></p></figcaption></figure>
 
 ## Messaggi del servizio
 

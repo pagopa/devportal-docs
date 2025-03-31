@@ -15,7 +15,7 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 
 ## Ciclo di vita del servizio
 
-<figure><img src="../../.gitbook/assets/image (66).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Matrimoni, unioni civili e convivenze di fatto</strong></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (97).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Matrimoni, unioni civili e convivenze di fatto</strong></p></figcaption></figure>
 
 ***
 

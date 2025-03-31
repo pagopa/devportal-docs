@@ -15,7 +15,7 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 
 ## Ciclo di vita del servizio
 
-<figure><img src="../.gitbook/assets/image (93).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Incidenti stradali</strong></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (124).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Incidenti stradali</strong></p></figcaption></figure>
 
 ## Messaggi del servizio
 

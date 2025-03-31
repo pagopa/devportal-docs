@@ -13,7 +13,7 @@ Erogare il servizio tramite app IO permette agli enti di:
 
 ## Ciclo di vita del servizio
 
-<figure><img src="../.gitbook/assets/image (64).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Trasporto scolastico</strong></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (95).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Trasporto scolastico</strong></p></figcaption></figure>
 
 ## Messaggi del servizio
 

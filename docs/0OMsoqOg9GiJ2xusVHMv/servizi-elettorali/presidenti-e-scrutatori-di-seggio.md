@@ -15,7 +15,7 @@ Erogare il servizio tramite app IO permette agli enti di:
 
 ## Ciclo di vita del servizio
 
-<figure><img src="../.gitbook/assets/image (100).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Presidenti e scrutatori di seggio</strong></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (131).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Presidenti e scrutatori di seggio</strong></p></figcaption></figure>
 
 ## Messaggi del servizio&#x20;
 

@@ -15,7 +15,7 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 
 ## Ciclo di vita del servizio
 
-<figure><img src="../.gitbook/assets/image (56).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Alloggi sociali</strong></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (87).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Alloggi sociali</strong></p></figcaption></figure>
 
 ## Messaggi del servizio
 

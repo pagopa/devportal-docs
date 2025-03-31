@@ -15,7 +15,7 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 
 ## Ciclo di vita del servizio
 
-<figure><img src="../.gitbook/assets/image (58).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Assistenza domiciliare</strong></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (89).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Assistenza domiciliare</strong></p></figcaption></figure>
 
 ## Messaggi del servizio
 

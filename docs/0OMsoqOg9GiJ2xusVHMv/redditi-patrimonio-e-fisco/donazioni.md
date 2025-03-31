@@ -15,7 +15,7 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 
 ## Ciclo di vita del servizio
 
-<figure><img src="../.gitbook/assets/image (12) (1).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Donazioni</strong></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (24).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Donazioni</strong></p></figcaption></figure>
 
 ## Messaggi del servizio
 

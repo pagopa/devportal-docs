@@ -15,7 +15,7 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 
 ## Ciclo di vita del servizio
 
-<figure><img src="../.gitbook/assets/image (69).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Consigli e Giunte comunali</strong></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (100).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Consigli e Giunte comunali</strong></p></figcaption></figure>
 
 ## Messaggi del servizio
 

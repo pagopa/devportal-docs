@@ -15,7 +15,7 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 
 ## Ciclo di vita del servizio
 
-<figure><img src="../.gitbook/assets/image (70).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Numeri civici</strong></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (101).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Numeri civici</strong></p></figcaption></figure>
 
 ## Messaggi del servizio
 

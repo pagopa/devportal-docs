@@ -13,7 +13,7 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 
 ## Ciclo di vita del servizio
 
-<figure><img src="../.gitbook/assets/image (29).png" alt=""><figcaption><p>Ciclo di vita ed eventi del servizio Vaccinazioni</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (60).png" alt=""><figcaption><p>Ciclo di vita ed eventi del servizio Vaccinazioni</p></figcaption></figure>
 
 ## Messaggi del servizio&#x20;
 

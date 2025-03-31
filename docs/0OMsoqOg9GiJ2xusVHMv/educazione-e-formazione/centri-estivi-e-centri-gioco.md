@@ -15,7 +15,7 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 
 ## Ciclo di vita del servizio
 
-<figure><img src="../.gitbook/assets/image (60).png" alt=""><figcaption><p><strong>Ciclo di vita e eventi del servizio Centri estivi e centri gioco</strong></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (91).png" alt=""><figcaption><p><strong>Ciclo di vita e eventi del servizio Centri estivi e centri gioco</strong></p></figcaption></figure>
 
 ## Messaggi del servizio
 

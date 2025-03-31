@@ -15,7 +15,7 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 
 ## Ciclo di vita del servizio
 
-<figure><img src="../.gitbook/assets/image (55).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Sviluppo economico</strong></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (86).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Sviluppo economico</strong></p></figcaption></figure>
 
 ## Messaggi del servizio
 

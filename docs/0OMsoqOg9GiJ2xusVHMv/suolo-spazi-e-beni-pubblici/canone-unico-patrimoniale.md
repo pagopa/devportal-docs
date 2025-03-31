@@ -13,7 +13,7 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 
 ## Ciclo di vita del servizio
 
-<figure><img src="../.gitbook/assets/image (108).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Canone Unico Patrimoniale</strong> </p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (139).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Canone Unico Patrimoniale</strong> </p></figcaption></figure>
 
 ## Messaggi del servizio&#x20;
 

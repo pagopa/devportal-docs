@@ -11,7 +11,7 @@ Ogni modello contiene il nome del servizio, la descrizione, un argomento tematic
 
 Quando il servizio sarà pubblicato, questi elementi saranno visibili al cittadino sotto forma di scheda servizio e messaggio, di seguito un esempio.&#x20;
 
-<figure><img src=".gitbook/assets/image (41).png" alt=""><figcaption><p>Dettaglio di una scheda servizio e di un messaggio</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (72).png" alt=""><figcaption><p>Dettaglio di una scheda servizio e di un messaggio</p></figcaption></figure>
 
 {% hint style="warning" %}
 I modelli dei messaggi sono degli esempi indicativi: gli enti che desiderino utilizzarli devono quindi modificarli a seconda delle loro esigenze. Gli enti mittenti sono i soli responsabili del contenuto dei messaggi che inviano.

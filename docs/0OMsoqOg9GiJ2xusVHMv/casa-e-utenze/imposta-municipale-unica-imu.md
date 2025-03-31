@@ -14,7 +14,7 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 
 ## Ciclo di vita del servizio
 
-<figure><img src="../.gitbook/assets/image (85).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Imposta Municipale Unica</strong> </p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (116).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Imposta Municipale Unica</strong> </p></figcaption></figure>
 
 ## Messaggi del servizio&#x20;
 

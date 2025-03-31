@@ -13,7 +13,7 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 
 ## Ciclo di vita del servizio
 
-<figure><img src="../.gitbook/assets/image (78).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Cinema e teatri</strong></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (109).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Cinema e teatri</strong></p></figcaption></figure>
 
 ## Messaggi del servizio
 
