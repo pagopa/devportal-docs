@@ -13,7 +13,7 @@ Erogare il servizio tramite app IO permette agli enti di:
 
 ## Ciclo di vita del servizio
 
-<figure><img src="../.gitbook/assets/image (95).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Trasporto scolastico</strong></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Educazione e formazione_Trasporto scolastico.png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Trasporto scolastico</strong></p></figcaption></figure>
 
 ## Messaggi del servizio
 
@@ -165,7 +165,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 <summary>Avviso di pagamento</summary>
 
-{% include "../.gitbook/includes/promemoria-di-pagamento.md" %}
+:sparkles: <mark style="color:blue;">**Messaggio Premium**</mark> — Se hai un contratto Premium, ti consigliamo di configurare questo messaggio con promemoria Premium: i destinatari verranno avvisati dell‘avvicinarsi della scadenza tramite notifica push.
 
 ***
 
@@ -199,7 +199,13 @@ In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio p
 
 </details>
 
-{% include "../.gitbook/includes/banner-promemoria-automatici.md" %}
+{% hint style="info" %}
+**Promemoria automatici —&#x20;**<mark style="color:blue;">**Messaggi Premium**</mark>
+
+Impostando il messaggio di _Avviso di pagamento_ come Messaggio Premium, disponibile a seconda della tipologia di contratto sottoscritto dall’ente, non è necessario inviare il seguente messaggio di promemoria.
+
+Gli utenti che hanno dato il loro consenso, infatti, riceveranno automaticamente una notifica push sui loro dispositivi all’avvicinarsi della scadenza.
+{% endhint %}
 
 <details>
 

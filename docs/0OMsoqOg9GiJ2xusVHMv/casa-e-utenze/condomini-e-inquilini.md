@@ -11,11 +11,9 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 
 <table data-header-hidden><thead><tr><th width="373"></th><th></th></tr></thead><tbody><tr><td><strong>Nome servizio</strong></td><td>Condomini e inquilini</td></tr><tr><td><strong>Argomento</strong></td><td>Casa e utenze</td></tr><tr><td><strong>Descrizione del servizio</strong></td><td><p>Il servizio riguarda gli immobili di competenza del Comune e gli sportelli di consulenza condominiale.<br></p><p>Tramite IO potrai:</p><ul><li>ricevere comunicazioni e aggiornamenti;</li><li>ricevere eventuali avvisi di pagamento e pagarli in app;</li><li>ricevere altre comunicazioni.</li></ul></td></tr><tr><td><strong>Pulsante</strong></td><td>Prenota consulenza condominiale </td></tr></tbody></table>
 
-{% include "../.gitbook/includes/banner-single-sign-on.md" %}
-
 ## Ciclo di vita del servizio
 
-<figure><img src="../.gitbook/assets/image (112).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Condomini e inquilini</strong></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Condomini e inquilini</strong></p></figcaption></figure>
 
 ## Messaggi del servizio
 
@@ -31,7 +29,7 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 <summary>Conferma prenotazione appuntamento</summary>
 
-{% include "../.gitbook/includes/single-sign-on.md" %}
+:sparkles:<mark style="color:blue;">**Messaggio Premium**</mark> — Se hai un contratto Premium, ti consigliamo di configurare questo messaggio con promemoria Premium: i destinatari verranno avvisati dell‘avvicinarsi dell'appuntamento tramite notifica push.
 
 ***
 

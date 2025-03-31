@@ -13,7 +13,7 @@ Erogare il servizio tramite l’app IO permette agli enti di:
 
 ## Ciclo di vita del servizio
 
-<figure><img src="../.gitbook/assets/image (138).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Locazione locali e impianti comunali</strong></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Locazione locali e impianti comunali</strong></p></figcaption></figure>
 
 ## Messaggi del servizio
 
@@ -30,10 +30,6 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 <details>
 
 <summary>Richiesta di noleggio: integrazione documentazione</summary>
-
-{% include "../.gitbook/includes/single-sign-on.md" %}
-
-***
 
 **🖋 Titolo del messaggio:** Richiesta di integrazione
 
@@ -115,7 +111,7 @@ Per maggiori informazioni, contatta \<denominazione ufficio> tramite \<canale> o
 
 <summary>Avviso di pagamento spese di servizio</summary>
 
-{% include "../.gitbook/includes/promemoria-di-pagamento.md" %}
+:sparkles: <mark style="color:blue;">**Messaggio Premium**</mark> — Se hai un contratto Premium, ti consigliamo di configurare questo messaggio con promemoria Premium: i destinatari verranno avvisati dell‘avvicinarsi della scadenza tramite notifica push.
 
 ***
 
@@ -151,7 +147,13 @@ In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio p
 
 </details>
 
-{% include "../.gitbook/includes/banner-promemoria-automatici.md" %}
+{% hint style="info" %}
+**Promemoria automatici —&#x20;**<mark style="color:blue;">**Messaggi Premium**</mark>
+
+Impostando il messaggio di _Avviso di pagamento_ come Messaggio Premium, disponibile a seconda della tipologia di contratto sottoscritto dall’ente, non è necessario inviare il seguente messaggio di promemoria.
+
+Gli utenti che hanno dato il loro consenso, infatti, riceveranno automaticamente una notifica push sui loro dispositivi all’avvicinarsi della scadenza.
+{% endhint %}
 
 <details>
 
@@ -291,10 +293,6 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 <summary>Rinuncia effettuata fuori termine</summary>
 
-{% include "../.gitbook/includes/promemoria-di-pagamento.md" %}
-
-***
-
 **🖋 Titolo del messaggio:** Hai un nuovo avviso di pagamento
 
 🗒 **Testo del messaggio**:
@@ -305,7 +303,7 @@ C'è un avviso da pagare intestato a \<nome e cognome> e relativo a \<causale>.�
 
 **Entro il:** \<gg/mm/aaaa>
 
-Puoi pagare direttamente in app premendo “Paga”, oppure tramite tutti i canali di pagamento della piattaforma pagoPA e le altre modalità di pagamento offerte dell’ente creditore.
+Puoi pagare direttamente in app premendo “Vedi Avviso”, oppure tramite tutti i canali di pagamento della piattaforma pagoPA e le altre modalità di pagamento offerte dell’ente creditore.
 
 Se hai già provveduto a pagare l'avviso ignora questo messaggio.
 
@@ -313,7 +311,7 @@ Per maggiori informazioni o per richiedere assistenza, contattaci tramite i cana
 
 In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio potrebbe subire variazioni.
 
-**🪄 Pulsante**: Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
+**🪄 Pulsante**: Vedi Avviso
 
 ***
 

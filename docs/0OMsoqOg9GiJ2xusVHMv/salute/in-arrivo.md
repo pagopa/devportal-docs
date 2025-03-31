@@ -13,7 +13,7 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 
 ## Ciclo di vita del servizio
 
-<figure><img src="../.gitbook/assets/image (59).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Prevenzione</strong></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (28).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Prevenzione</strong></p></figcaption></figure>
 
 ## Messaggi del servizio&#x20;
 
@@ -46,10 +46,6 @@ I programmi di screening possono avere diverse modalità di esecuzione che dipen
 <details>
 
 <summary>Disponibilità programma screening</summary>
-
-{% include "../.gitbook/includes/single-sign-on.md" %}
-
-***
 
 **🖋 Titolo del messaggio:** Partecipa al programma di screening
 
@@ -85,11 +81,7 @@ Per ulteriori informazioni sul programma, \[visita questo sito]\(URL).&#x20;
 
 <summary>Conferma prenotazione appuntamento per lo screening</summary>
 
-{% include "../.gitbook/includes/single-sign-on.md" %}
-
-***
-
-**� Titolo del messaggio:** Il tuo appuntamento
+**🖋 Titolo del messaggio:** Il tuo appuntamento
 
 🗒 **Testo del messaggio:**
 
@@ -120,10 +112,6 @@ Per ulteriori informazioni sul programma, \[visita questo sito]\(URL).&#x20;
 <details>
 
 <summary>Promemoria appuntamento</summary>
-
-{% include "../.gitbook/includes/single-sign-on.md" %}
-
-***
 
 **🖋 Titolo del messaggio:** Ricordati del tuo appuntamento
 

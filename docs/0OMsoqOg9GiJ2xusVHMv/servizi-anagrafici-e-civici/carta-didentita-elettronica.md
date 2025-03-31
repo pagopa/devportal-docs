@@ -13,11 +13,9 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 | **Descrizione del servizio** | <p>Il servizio riguarda la richiesta, l'emissione e la scadenza della tua Carta d'Identità Elettronica.</p><p></p><p>Tramite IO, potrai:</p><ul><li>richiedere un appuntamento per l'erogazione o la sostituzione della tua Carta d'Identità;</li><li>ricevere un promemoria che ti ricorda dell'appuntamento;</li><li>ricevere avvisi di pagamento per l'emissione della Carta e pagarli in app;</li><li>ricevere un messaggio che ti informa della scadenza della Carta;</li><li>ricevere altre comunicazioni.</li></ul><p>Per maggiori informazioni sulla Carta d'Identità Elettronica, visita <a href="https://www.cartaidentita.interno.gov.it/">questo sito</a>.</p> |
 |  **Pulsante**                | Richiedi appuntamento                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 
-{% include "../.gitbook/includes/banner-single-sign-on.md" %}
-
 ## **Ciclo di vita del servizio**
 
-<figure><img src="../.gitbook/assets/image (106).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Carta d'Identità Elettronica</strong></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/CIE.png" alt="Ciclo di vita ed eventi del servizio Carta d&#x27;Identità Elettronica"><figcaption><p><strong>Ciclo di vita ed eventi del servizio Carta d'Identità Elettronica</strong></p></figcaption></figure>
 
 ## **Messaggi del servizio**
 
@@ -32,6 +30,10 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 <details>
 
 <summary>Conferma prenotazione appuntamento</summary>
+
+:sparkles:<mark style="color:blue;">**Messaggio Premium**</mark> — Se hai un contratto Premium, ti consigliamo di configurare questo messaggio con promemoria Premium: i destinatari verranno avvisati dell‘avvicinarsi dell'appuntamento tramite notifica push.
+
+***
 
 **🖋 Titolo del messaggio:** Il tuo appuntamento
 
@@ -65,7 +67,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 <summary>Avviso di pagamento Carta d'Identità </summary>
 
-{% include "../.gitbook/includes/promemoria-di-pagamento.md" %}
+:sparkles: <mark style="color:blue;">**Messaggio Premium**</mark> — Se hai un contratto Premium, ti consigliamo di configurare questo messaggio con promemoria Premium: i destinatari verranno avvisati dell‘avvicinarsi della scadenza tramite notifica push.
 
 ***
 
@@ -99,7 +101,13 @@ In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio p
 
 </details>
 
-{% include "../.gitbook/includes/banner-promemoria-automatici.md" %}
+{% hint style="info" %}
+**Promemoria automatici —&#x20;**<mark style="color:blue;">**Messaggi Premium**</mark>
+
+Impostando il messaggio di _Avviso di pagamento_ come Messaggio Premium, disponibile a seconda della tipologia di contratto sottoscritto dall’ente, non è necessario inviare il seguente messaggio di promemoria.
+
+Gli utenti che hanno dato il loro consenso, infatti, riceveranno automaticamente una notifica push sui loro dispositivi all’avvicinarsi della scadenza.
+{% endhint %}
 
 <details>
 

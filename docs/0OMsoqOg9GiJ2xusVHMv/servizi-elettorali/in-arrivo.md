@@ -14,7 +14,7 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 
 ## Ciclo di vita del servizio
 
-<figure><img src="../.gitbook/assets/image (128).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Elezioni</strong></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Elezioni</strong></p></figcaption></figure>
 
 ## Messaggi del servizio&#x20;
 
@@ -155,7 +155,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).&#x20;
 
 <summary>Conferma appuntamento</summary>
 
-{% include "../.gitbook/includes/single-sign-on.md" %}
+:sparkles:<mark style="color:blue;">**Messaggio Premium**</mark> — Se hai un contratto Premium, ti consigliamo di configurare questo messaggio con promemoria Premium: i destinatari verranno avvisati dell‘avvicinarsi dell'appuntamento tramite notifica push.
 
 ***
 

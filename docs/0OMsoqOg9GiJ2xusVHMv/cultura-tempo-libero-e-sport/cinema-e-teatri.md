@@ -13,7 +13,7 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 
 ## Ciclo di vita del servizio
 
-<figure><img src="../.gitbook/assets/image (109).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Cinema e teatri</strong></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (11) (1) (1).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Cinema e teatri</strong></p></figcaption></figure>
 
 ## Messaggi del servizio
 
@@ -59,7 +59,7 @@ Per fare domanda di iscrizione, \[visita questo sito]\(URL).
 
 <summary>Avviso di pagamento iscrizione laboratori</summary>
 
-{% include "../.gitbook/includes/promemoria-di-pagamento.md" %}
+:sparkles: <mark style="color:blue;">**Messaggio Premium**</mark> — Se hai un contratto Premium, ti consigliamo di configurare questo messaggio con promemoria Premium: i destinatari verranno avvisati dell‘avvicinarsi della scadenza tramite notifica push.
 
 ***
 
@@ -93,7 +93,13 @@ In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio p
 
 </details>
 
-{% include "../.gitbook/includes/banner-promemoria-automatici.md" %}
+{% hint style="info" %}
+**Promemoria automatici —&#x20;**<mark style="color:blue;">**Messaggi Premium**</mark>
+
+Impostando il messaggio di _Avviso di pagamento_ come Messaggio Premium, disponibile a seconda della tipologia di contratto sottoscritto dall’ente, non è necessario inviare il seguente messaggio di promemoria.
+
+Gli utenti che hanno dato il loro consenso, infatti, riceveranno automaticamente una notifica push sui loro dispositivi all’avvicinarsi della scadenza.
+{% endhint %}
 
 <details>
 
@@ -209,7 +215,9 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 <summary>Pubblicazione bando</summary>
 
-{% include "../.gitbook/includes/allegati.md" %}
+:sparkles: <mark style="color:blue;">**Allegati Premium**</mark> — Tramite questa funzionalità Premium, disponibile a seconda della tipologia di contratto sottoscritto dall’ente, puoi allegare documenti all'interno del messaggio.
+
+Questo messaggio è da utilizzare sia per messaggi Premium, sia per messaggi standard. In caso di messaggio standard, **ricorda di eliminare ogni riferimento agli allegati dal corpo del messaggio.**
 
 ***
 
@@ -227,11 +235,11 @@ Per presentare domanda di partecipazione, puoi prenotare un appuntamento presso 
 
 Per consultare i criteri di assegnazione e scaricare la modulistica, \[visita questo sito]\(URL).
 
-\[Solo per messaggi con allegato] Trovi il testo completo del bando in allegato a questo messaggio.
+\[Solo per messaggi premium con allegato] Trovi il testo completo del bando in allegato a questo messaggio.
 
 **🪄 Pulsante**: n/a
 
-**📎&#x20;**<mark style="color:blue;">**Allegato**</mark>: \<testo integrale del bando>
+**📎&#x20;**<mark style="color:blue;">**Allegato Premium**</mark>: \<testo integrale del bando>
 
 ***
 
@@ -247,7 +255,9 @@ Per consultare i criteri di assegnazione e scaricare la modulistica, \[visita qu
 
 <summary>Aggiornamento bando</summary>
 
-{% include "../.gitbook/includes/allegati.md" %}
+:sparkles: <mark style="color:blue;">**Allegati Premium**</mark> — Tramite questa funzionalità Premium, disponibile a seconda della tipologia di contratto sottoscritto dall’ente, puoi allegare documenti all'interno del messaggio.
+
+Questo messaggio è da utilizzare sia per messaggi Premium, sia per messaggi standard. In caso di messaggio standard, **ricorda di eliminare ogni riferimento agli allegati dal corpo del messaggio.**
 
 ***
 
@@ -263,7 +273,7 @@ Per visualizzare il bando aggiornato, \[visita questo sito]\(URL).
 
 **🪄 Pulsante**: n/a
 
-<mark style="color:blue;">**📎 Allegato:**</mark> \<testo integrale del bando aggiornato>
+<mark style="color:blue;">**📎 Allegato Premium:**</mark> \<testo integrale del bando aggiornato>
 
 ***
 
@@ -331,10 +341,6 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 <summary>Pubblicazione graduatoria</summary>
 
-{% include "../.gitbook/includes/single-sign-on.md" %}
-
-***
-
 **🖋 Titolo del messaggio:** Pubblicata la graduatoria per \<bando>
 
 🗒 **Testo del messaggio:**
@@ -362,6 +368,10 @@ Per visualizzare la tua posizione in graduatoria \[visita questo sito]\(URL).
 <details>
 
 <summary>Promemoria inizio corsi</summary>
+
+:sparkles:<mark style="color:blue;">**Messaggio Premium**</mark> — Se hai un contratto Premium, ti consigliamo di configurare questo messaggio con promemoria Premium: i destinatari verranno avvisati dell‘avvicinarsi della data di inizio tramite notifica push.
+
+***
 
 **🖋 Titolo del messaggio:** Il corso \<nome corso> sta per iniziare
 

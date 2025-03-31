@@ -13,7 +13,7 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 
 ## Ciclo di vita del servizio
 
-<figure><img src="../.gitbook/assets/image (121).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Provvedimenti giudiziari</strong></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Provvedimenti giudiziari</strong></p></figcaption></figure>
 
 ## Messaggi del servizio
 
@@ -30,6 +30,10 @@ I messaggi del presente servizio non sono riconducibili ai messaggi di cortesia 
 <details>
 
 <summary>Conferma prenotazione appuntamento</summary>
+
+:sparkles:<mark style="color:blue;">**Messaggio Premium**</mark> — Se hai un contratto Premium, ti consigliamo di configurare questo messaggio con promemoria Premium: i destinatari verranno avvisati dell‘avvicinarsi dell'appuntamento tramite notifica push.
+
+***
 
 **🖋 Titolo del messaggio:** Il tuo appuntamento
 

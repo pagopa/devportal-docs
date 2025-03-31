@@ -11,11 +11,9 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 
 <table data-header-hidden><thead><tr><th width="371"></th><th></th></tr></thead><tbody><tr><td><strong>Nome servizio</strong></td><td>Nascite, adozioni e riconoscimento</td></tr><tr><td><strong>Argomento</strong></td><td>Servizi anagrafici e civici</td></tr><tr><td><strong>Descrizione del servizio</strong></td><td><p>Il servizio riguarda atti e pratiche per la nascita, l’adozione e il riconoscimento dei figli.</p><p></p><p>Tramite IO potrai:</p><ul><li>ricevere comunicazioni e aggiornamenti sulle richieste presentate;</li><li>ricevere aggiornamenti sulla trascrizione dell’atto di nascita;</li><li>ricevere altre comunicazioni.</li></ul></td></tr><tr><td><strong>Pulsante</strong></td><td>Prenota appuntamento</td></tr></tbody></table>
 
-{% include "../.gitbook/includes/banner-single-sign-on.md" %}
-
 ## Ciclo di vita del servizio
 
-<figure><img src="../.gitbook/assets/image (98).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Nascite, adozioni e riconoscimento</strong></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Servizi anagrafici_Nascite, adozioni e riconoscimento.png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Nascite, adozioni e riconoscimento</strong></p></figcaption></figure>
 
 ## Messaggi del servizio
 
@@ -32,6 +30,10 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 <details>
 
 <summary>Conferma prenotazione appuntamento</summary>
+
+:sparkles:<mark style="color:blue;">**Messaggio Premium**</mark> — Se hai un contratto Premium, ti consigliamo di configurare questo messaggio con promemoria Premium: i destinatari verranno avvisati dell‘avvicinarsi dell'appuntamento tramite notifica push.&#x20;
+
+***
 
 **🖋 Titolo del messaggio:** Il tuo appuntamento
 
@@ -66,6 +68,10 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 <details>
 
 <summary>Conferma prenotazione appuntamento</summary>
+
+:sparkles:<mark style="color:blue;">**Messaggio Premium**</mark> — Se hai un contratto Premium, ti consigliamo di configurare questo messaggio con promemoria Premium: i destinatari verranno avvisati dell‘avvicinarsi dell'appuntamento tramite notifica push.&#x20;
+
+***
 
 **🖋 Titolo del messaggio:** Il tuo appuntamento
 
@@ -127,6 +133,10 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 <summary>Conferma prenotazione appuntamento</summary>
 
+:sparkles:<mark style="color:blue;">**Messaggio Premium**</mark> — Se hai un contratto Premium, ti consigliamo di configurare questo messaggio con promemoria Premium: i destinatari verranno avvisati dell‘avvicinarsi dell'appuntamento tramite notifica push.
+
+***
+
 &#x20;**🖋 Titolo del messaggio:** Il tuo appuntamento
 
 🗒 **Testo del messaggio**:&#x20;
@@ -171,7 +181,7 @@ Consulta il riepilogo della tua richiesta, \[visita questo sito]\(URL).
 
 **Destinatari:** I cittadini residenti nell’area geografica di azione del servizio che hanno fatto richiesta di rilascio o variazioni dell’atto di nascita.
 
-**Quando inviarlo:** Quando l’ente ha bisogno di ulteriori documenti per l’elaborazione della richiesta presentata.
+**Quando inviarlo:** QQuando l’ente ha bisogno di ulteriori documenti per l’elaborazione della richiesta presentata.
 
 **User story:** Come cittadino voglio ricevere aggiornamenti sullo stato di avanzamento della mia richiesta.
 

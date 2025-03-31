@@ -11,8 +11,6 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 
 <table data-header-hidden><thead><tr><th width="373"></th><th></th></tr></thead><tbody><tr><td><strong>Nome servizio</strong></td><td>Campeggi</td></tr><tr><td><strong>Argomento</strong></td><td>Viaggi e turismo</td></tr><tr><td><strong>Descrizione del servizio</strong></td><td><p>Il servizio riguarda il campeggio e la sosta camper nel territorio del Comune.</p><p><br>Tramite IO potrai:</p><ul><li>ricevere aggiornamenti sulle richieste di campeggio libero presentate;</li><li>ricevere informazioni sui campeggi e sulle aree di sosta camper comunali;</li><li>ricevere avvisi di pagamento per il campeggio e la sosta camper e pagarli in app;</li><li>ricevere altre comunicazioni.</li></ul></td></tr><tr><td><strong>Pulsante</strong></td><td>Fai richiesta</td></tr></tbody></table>
 
-{% include "../.gitbook/includes/banner-single-sign-on.md" %}
-
 ## Ciclo di vita del servizio
 
 <figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Campeggi</strong></p></figcaption></figure>
@@ -30,10 +28,6 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 <details>
 
 <summary>Integrazione documentazione</summary>
-
-{% include "../.gitbook/includes/single-sign-on.md" %}
-
-***
 
 **🖋 Titolo del messaggio:** Richiesta di integrazione
 

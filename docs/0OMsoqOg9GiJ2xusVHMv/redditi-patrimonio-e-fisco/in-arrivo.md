@@ -13,7 +13,7 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 
 ## Ciclo di vita del servizio
 
-<figure><img src="../.gitbook/assets/image (22).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Agevolazioni tributarie</strong></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10) (1).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Agevolazioni tributarie</strong></p></figcaption></figure>
 
 ## Messaggi del servizio
 
@@ -28,10 +28,6 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 <details>
 
 <summary>Nuova agevolazione disponibile</summary>
-
-{% include "../.gitbook/includes/single-sign-on.md" %}
-
-***
 
 **🖋 Titolo del messaggio:** È disponibile una nuova agevolazione
 

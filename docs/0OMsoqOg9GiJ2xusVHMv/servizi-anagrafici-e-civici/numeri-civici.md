@@ -11,11 +11,9 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 
 <table data-header-hidden><thead><tr><th width="375"></th><th></th></tr></thead><tbody><tr><td><strong>Nome servizio</strong></td><td>Numeri civici</td></tr><tr><td><strong>Argomento</strong></td><td>Servizi anagrafici e civici</td></tr><tr><td><strong>Descrizione del servizio</strong></td><td><p>Il servizio riguarda l’assegnazione e la verifica dei numeri civici a edifici di nuova costruzione o che ne sono sprovvisti.</p><p></p><p>Tramite IO potrai:</p><ul><li>ricevere aggiornamenti sulle richieste presentate;</li><li>ricevere avvisi di pagamento e pagarli in app;</li><li>ricevere altre comunicazioni.</li></ul></td></tr><tr><td><strong>Pulsante</strong></td><td>Fai richiesta</td></tr></tbody></table>
 
-{% include "../.gitbook/includes/banner-single-sign-on.md" %}
-
 ## Ciclo di vita del servizio
 
-<figure><img src="../.gitbook/assets/image (101).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Numeri civici</strong></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Servizi anagrafici_Numeri civici.png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Numeri civici</strong></p></figcaption></figure>
 
 ## Messaggi del servizio
 
@@ -109,7 +107,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 <summary>Avviso di pagamento spese di servizio</summary>
 
-{% include "../.gitbook/includes/promemoria-di-pagamento.md" %}
+:sparkles: <mark style="color:blue;">**Messaggio Premium**</mark> — Se hai un contratto Premium, ti consigliamo di configurare questo messaggio con promemoria Premium: i destinatari verranno avvisati dell‘avvicinarsi della scadenza tramite notifica push.
 
 ***
 
@@ -143,7 +141,13 @@ In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio p
 
 </details>
 
-{% include "../.gitbook/includes/banner-promemoria-automatici.md" %}
+{% hint style="info" %}
+**Promemoria automatici —&#x20;**<mark style="color:blue;">**Messaggi Premium**</mark>
+
+Impostando il messaggio di _Avviso di pagamento_ come Messaggio Premium, disponibile a seconda della tipologia di contratto sottoscritto dall’ente, non è necessario inviare il seguente messaggio di promemoria.
+
+Gli utenti che hanno dato il loro consenso, infatti, riceveranno automaticamente una notifica push sui loro dispositivi all’avvicinarsi della scadenza.
+{% endhint %}
 
 <details>
 
@@ -174,6 +178,10 @@ Se hai già provveduto a pagare l’avviso, ignora questo messaggio.
 <details>
 
 <summary>Conferma appuntamento</summary>
+
+:sparkles:<mark style="color:blue;">**Messaggio Premium**</mark> — Se hai un contratto Premium, ti consigliamo di configurare questo messaggio con promemoria Premium: i destinatari verranno avvisati dell‘avvicinarsi dell'appuntamento tramite notifica push.
+
+***
 
 **🖋 Titolo del messaggio:** Il tuo appuntamento
 

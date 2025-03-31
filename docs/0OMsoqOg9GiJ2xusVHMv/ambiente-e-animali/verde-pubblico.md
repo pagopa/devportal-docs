@@ -11,13 +11,9 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 
 <table data-header-hidden><thead><tr><th width="373"></th><th></th></tr></thead><tbody><tr><td><strong>Nome servizio</strong></td><td>Verde pubblico</td></tr><tr><td><strong>Argomento</strong></td><td>Ambiente e animali</td></tr><tr><td><strong>Descrizione del servizio</strong></td><td><p>Il servizio riguarda gli interventi nelle aree di verde pubblico.</p><p>Tramite IO potrai:</p><ul><li>ricevere comunicazioni e aggiornamenti sulle prenotazioni o sulle richieste di intervento;</li><li>ricevere informazioni sull’abbattimento di piante, siepi o arbusti;</li><li>ricevere eventuali avvisi di pagamento e pagarli in app;</li><li>ricevere altre comunicazioni.</li></ul></td></tr><tr><td><strong>Pulsante</strong></td><td>Richiedi autorizzazione</td></tr></tbody></table>
 
-{% include "../.gitbook/includes/banner-single-sign-on.md" %}
-
-
-
 ## Ciclo di vita del servizio
 
-<figure><img src="../.gitbook/assets/image (76).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Verde pubblico</strong></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (38).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Verde pubblico</strong></p></figcaption></figure>
 
 ## Messaggi del servizio
 
@@ -34,10 +30,6 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 <details>
 
 <summary>Richiesta di autorizzazione: integrazione documentazione</summary>
-
-{% include "../.gitbook/includes/single-sign-on.md" %}
-
-***
 
 **🖋 Titolo del messaggio:** Richiesta di integrazione
 
@@ -113,7 +105,9 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 <summary>Emissione autorizzazione in formato digitale</summary>
 
-{% include "../.gitbook/includes/allegati.md" %}
+:sparkles: <mark style="color:blue;">**Allegati Premium**</mark> — Tramite questa funzionalità Premium, disponibile a seconda della tipologia di contratto sottoscritto dall’ente, puoi allegare documenti all'interno del messaggio.
+
+Questo messaggio è da utilizzare sia per messaggi Premium, sia per messaggi standard. In caso di messaggio standard, **ricorda di eliminare ogni riferimento agli allegati dal corpo del messaggio.**
 
 ***
 
@@ -125,13 +119,13 @@ La tua autorizzazione per \<oggetto dell’autorizzazione> è pronta.
 
 Per visualizzarla, \[visita questo sito]\(URL).
 
-\[Solo per messaggi con allegati] La trovi in allegato a questo messaggio.
+\[Solo per messaggi premium con allegati] La trovi in allegato a questo messaggio.
 
 \[Inserire qui indicazioni su eventuali ulteriori passi per il cittadino]
 
 **🪄 Pulsante:** n/a
 
-<mark style="color:blue;">**📎 Allegato:**</mark> \<autorizzazione>
+<mark style="color:blue;">**📎 Allegato Premium:**</mark> \<autorizzazione>
 
 ***
 
@@ -181,10 +175,6 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 <summary>Richiesta di autorizzazione manomissione: integrazione documentazione</summary>
 
-{% include "../.gitbook/includes/single-sign-on.md" %}
-
-***
-
 **🖋 Titolo del messaggio:** Richiesta di integrazione
 
 🗒 **Testo del messaggio:**
@@ -209,7 +199,7 @@ Consulta il riepilogo della richiesta, \[visita questo sito]\(URL).
 
 <summary>Avviso di pagamento tassa o tariffa</summary>
 
-{% include "../.gitbook/includes/promemoria-di-pagamento.md" %}
+:sparkles: <mark style="color:blue;">**Messaggio Premium**</mark> — Se hai un contratto Premium, ti consigliamo di configurare questo messaggio con promemoria Premium: i destinatari verranno avvisati dell‘avvicinarsi della scadenza tramite notifica push.
 
 ***
 
@@ -243,7 +233,13 @@ In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio p
 
 </details>
 
-{% include "../.gitbook/includes/banner-promemoria-automatici.md" %}
+{% hint style="info" %}
+**Promemoria automatici —** <mark style="color:blue;">**Messaggi Premium**</mark>
+
+Impostando il messaggio di _Avviso di pagamento_ come Messaggio Premium, disponibile a seconda della tipologia di contratto sottoscritto dall’ente, non è necessario inviare il seguente messaggio di promemoria.
+
+Gli utenti che hanno dato il loro consenso, infatti, riceveranno automaticamente una notifica push sui loro dispositivi all’avvicinarsi della scadenza.
+{% endhint %}
 
 <details>
 

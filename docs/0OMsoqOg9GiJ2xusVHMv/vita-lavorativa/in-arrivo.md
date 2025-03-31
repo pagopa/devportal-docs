@@ -11,11 +11,9 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 
 <table data-header-hidden><thead><tr><th width="373"></th><th></th></tr></thead><tbody><tr><td><strong>Nome servizio</strong></td><td>Bandi di concorso</td></tr><tr><td><strong>Argomento</strong></td><td>Vita lavorativa</td></tr><tr><td><strong>Descrizione del servizio</strong></td><td><p>Il servizio riguarda i bandi di concorso.</p><p></p><p>Tramite IO potrai:</p><ul><li>ricevere comunicazioni e aggiornamenti sui bandi di concorso;</li><li>ricevere altre comunicazioni.</li></ul></td></tr><tr><td><strong>Pulsante</strong></td><td>Accedi al portale</td></tr></tbody></table>
 
-{% include "../.gitbook/includes/banner-single-sign-on.md" %}
-
 ## Ciclo di vita del servizio
 
-<figure><img src="../.gitbook/assets/image (82).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Bandi di concorso</strong></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (18).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Bandi di concorso</strong></p></figcaption></figure>
 
 ## Messaggi del servizio
 
@@ -31,7 +29,9 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 <summary>Pubblicazione bando</summary>
 
-{% include "../.gitbook/includes/allegati.md" %}
+:sparkles: <mark style="color:blue;">**Allegati Premium**</mark> — Tramite questa funzionalità Premium, disponibile a seconda della tipologia di contratto sottoscritto dall’ente, puoi allegare documenti all'interno del messaggio.
+
+Questo messaggio è da utilizzare sia per messaggi Premium, sia per messaggi standard. In caso di messaggio standard, **ricorda di eliminare ogni riferimento agli allegati dal corpo del messaggio.**
 
 ***
 
@@ -43,11 +43,11 @@ Dal \<gg/mm/aaaa> è possibile fare domanda di partecipazione al bando per \<ogg
 
 Per consultare i criteri di assegnazione e fare domanda, \[visita questo sito]\(URL).
 
-\[Solo per messaggi con allegato] Trovi il testo completo del bando in allegato a questo messaggio.
+\[Solo per messaggi Premium con allegato] Trovi il testo completo del bando in allegato a questo messaggio.
 
 **🪄 Pulsante**: n/a
 
-<mark style="color:blue;">**📎 Allegato:**</mark> \<testo integrale del bando>
+<mark style="color:blue;">**📎 Allegato Premium:**</mark> \<testo integrale del bando>
 
 ***
 
@@ -63,7 +63,9 @@ Per consultare i criteri di assegnazione e fare domanda, \[visita questo sito]\(
 
 <summary>Aggiornamento bando</summary>
 
-{% include "../.gitbook/includes/allegati.md" %}
+:sparkles: <mark style="color:blue;">**Allegati Premium**</mark> — Tramite questa funzionalità Premium, disponibile a seconda della tipologia di contratto sottoscritto dall’ente, puoi allegare documenti all'interno del messaggio.
+
+Questo messaggio è da utilizzare sia per messaggi Premium, sia per messaggi standard. In caso di messaggio standard, **ricorda di eliminare ogni riferimento agli allegati dal corpo del messaggio.**
 
 ***
 
@@ -75,11 +77,11 @@ Il \<gg/mm/aaaa> è stato aggiornato il bando per \<oggetto del bando>.
 
 Per visualizzare il bando aggiornato, \[visita questo sito]\(URL).
 
-\[Solo per messaggi con allegato] Trovi il testo completo del bando aggiornato in allegato a questo messaggio.
+\[Solo per messaggi Premium con allegato] Trovi il testo completo del bando aggiornato in allegato a questo messaggio.
 
 **🪄 Pulsante:** n/a
 
-<mark style="color:blue;">**📎 Allegato:**</mark> \<testo integrale del bando>
+<mark style="color:blue;">**📎 Allegato Premium:**</mark> \<testo integrale del bando>
 
 ***
 
@@ -127,6 +129,10 @@ Se è prevista una prova pre-selettiva o una convocazione per una prova, si poss
 
 <summary>Convocazione prova pre-selettiva</summary>
 
+:sparkles:<mark style="color:blue;">**Messaggio Premium**</mark> — Se hai un contratto Premium, ti consigliamo di configurare questo messaggio con promemoria Premium: i destinatari verranno avvisati dell‘avvicinarsi dell'appuntamento tramite notifica push.
+
+***
+
 **🖋 Titolo del messaggio:** Convocazione prova pre-selettiva
 
 🗒 **Testo del messaggio:**
@@ -161,7 +167,9 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio:**
 
-In data \<gg/mm/aaaa> è stato pubblicato l'esito della tua prova pre-selettiva per il bando \<oggetto del bando>.
+~~La tua prova pre-selettiva per il bando \<oggetto del bando> ha avuto esito \<esito>.~~
+
+In data ...  stato pubblicato l'esito della tua prova pre-selettiva per il bando \<oggetto del bando>.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -180,6 +188,10 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 <details>
 
 <summary>Convocazione per prova scritta e/o orale</summary>
+
+:sparkles:<mark style="color:blue;">**Messaggio Premium**</mark> — Se hai un contratto Premium, ti consigliamo di configurare questo messaggio con promemoria Premium: i destinatari verranno avvisati dell‘avvicinarsi dell'appuntamento tramite notifica push.
+
+***
 
 **🖋 Titolo del messaggio:** Convocazione prova \<scritta e/o orale>
 
@@ -212,10 +224,6 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 <details>
 
 <summary>Pubblicazione graduatoria</summary>
-
-{% include "../.gitbook/includes/single-sign-on.md" %}
-
-***
 
 **🖋 Titolo del messaggio:** Pubblicata la graduatoria
 
@@ -270,10 +278,6 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 <details>
 
 <summary>Avviso di pagamento more per rinuncia fuori dai tempi stabiliti</summary>
-
-{% include "../.gitbook/includes/promemoria-di-pagamento.md" %}
-
-***
 
 **🖋 Titolo del messaggio:** Hai un nuovo avviso di pagamento
 

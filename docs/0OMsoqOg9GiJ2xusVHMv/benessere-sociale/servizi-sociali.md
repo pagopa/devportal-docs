@@ -13,7 +13,7 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 
 ## Ciclo di vita del servizio
 
-<figure><img src="../.gitbook/assets/image (88).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Servizi sociali</strong></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Benessere sociale_Servizi sociali.png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Servizi sociali</strong></p></figcaption></figure>
 
 ## Messaggi del servizio
 
@@ -31,7 +31,9 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 <summary>Pubblicazione bando</summary>
 
-{% include "../.gitbook/includes/allegati.md" %}
+:sparkles: <mark style="color:blue;">**Allegati Premium**</mark> — Tramite questa funzionalità Premium, disponibile a seconda della tipologia di contratto sottoscritto dall’ente, puoi allegare documenti all'interno del messaggio.
+
+Questo messaggio è da utilizzare sia per messaggi Premium, sia per messaggi standard. In caso di messaggio standard, **ricorda di eliminare ogni riferimento agli allegati dal corpo del messaggio.**
 
 ***
 
@@ -43,11 +45,11 @@ Il \<gg/mm/aaaa> è stato pubblicato il bando per \<oggetto del bando>.
 
 Se vuoi fare domanda e consultare i criteri di assegnazione, \[visita questo sito]\(URL).
 
-\[Solo per messaggi con allegato] Trovi il testo completo del bando in allegato a questo messaggio.
+\[Solo per messaggi Premium con allegato] Trovi il testo completo del bando in allegato a questo messaggio.
 
 **🪄 Pulsante**: n/a
 
-**📎&#x20;**<mark style="color:blue;">**Allegato:**</mark> \<testo integrale del bando>
+**📎&#x20;**<mark style="color:blue;">**Allegato Premium:**</mark> \<testo integrale del bando>
 
 ***
 
@@ -63,7 +65,9 @@ Se vuoi fare domanda e consultare i criteri di assegnazione, \[visita questo sit
 
 <summary>Aggiornamento bando</summary>
 
-{% include "../.gitbook/includes/allegati.md" %}
+:sparkles: <mark style="color:blue;">**Allegati Premium**</mark> — Tramite questa funzionalità Premium, disponibile a seconda della tipologia di contratto sottoscritto dall’ente, puoi allegare documenti all'interno del messaggio.
+
+Questo messaggio è da utilizzare sia per messaggi Premium, sia per messaggi standard. In caso di messaggio standard, **ricorda di eliminare ogni riferimento agli allegati dal corpo del messaggio.**
 
 ***
 
@@ -75,11 +79,11 @@ Il \<gg/mm/aaaa> è stato aggiornato il bando per \<oggetto del bando>.
 
 Per visualizzare il bando aggiornato, \[visita questo sito]\(URL).
 
-\[Solo per messaggi con allegato] Trovi il testo completo del bando in allegato a questo messaggio.
+\[Solo per messaggi Premium con allegato] Trovi il testo completo del bando in allegato a questo messaggio.
 
 **🪄 Pulsante**: n/a
 
-**📎&#x20;**<mark style="color:blue;">**Allegato:**</mark> \<testo integrale del bando aggiornato>
+**📎&#x20;**<mark style="color:blue;">**Allegato Premium:**</mark> \<testo integrale del bando aggiornato>
 
 ***
 
@@ -127,10 +131,6 @@ Per visualizzare la tua posizione in graduatoria \[visita questo sito]\(URL).
 
 <summary>Integrazione documentazione</summary>
 
-{% include "../.gitbook/includes/single-sign-on.md" %}
-
-***
-
 **🖋 Titolo del messaggio:** Richiesta di integrazione
 
 🗒 **Testo del messaggio**:&#x20;
@@ -157,7 +157,7 @@ Per aggiungere i documenti alla tua richiesta, \[visita questo sito]\(URL).
 
 <summary>Avviso di pagamento pratica</summary>
 
-{% include "../.gitbook/includes/promemoria-di-pagamento.md" %}
+:sparkles: <mark style="color:blue;">**Messaggio Premium**</mark> — Se hai un contratto Premium, ti consigliamo di configurare questo messaggio con promemoria Premium: i destinatari verranno avvisati dell‘avvicinarsi della scadenza tramite notifica push.
 
 ***
 
@@ -191,7 +191,13 @@ In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio p
 
 </details>
 
-{% include "../.gitbook/includes/banner-promemoria-automatici.md" %}
+{% hint style="info" %}
+**Promemoria automatici —&#x20;**<mark style="color:blue;">**Messaggi Premium**</mark>
+
+Impostando il messaggio di _Avviso di pagamento_ come Messaggio Premium, disponibile a seconda della tipologia di contratto sottoscritto dall’ente, non è necessario inviare il seguente messaggio di promemoria.
+
+Gli utenti che hanno dato il loro consenso, infatti, riceveranno automaticamente una notifica push sui loro dispositivi all’avvicinarsi della scadenza.
+{% endhint %}
 
 <details>
 

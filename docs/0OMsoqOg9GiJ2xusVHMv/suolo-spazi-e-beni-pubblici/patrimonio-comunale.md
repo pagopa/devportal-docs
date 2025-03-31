@@ -11,11 +11,9 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 
 <table data-header-hidden><thead><tr><th width="373"></th><th></th></tr></thead><tbody><tr><td><strong>Nome servizio</strong></td><td>Patrimonio comunale</td></tr><tr><td><strong>Argomento</strong></td><td>Suolo, spazi e beni pubblici</td></tr><tr><td><strong>Descrizione del servizio</strong></td><td><p>Il servizio riguarda il risarcimento da parte dei cittadini al Comune per danni causati a beni comunali.</p><p></p><p>Tramite IO potrai:</p><ul><li>ricevere comunicazioni e aggiornamenti;</li><li>ricevere avvisi di pagamento e pagarli in app;</li><li>ricevere altre comunicazioni.</li></ul></td></tr><tr><td>Pulsante</td><td>Richiedi risarcimento</td></tr></tbody></table>
 
-{% include "../.gitbook/includes/banner-single-sign-on.md" %}
-
 ## Ciclo di vita del servizio
 
-<figure><img src="../.gitbook/assets/image (42).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Patrimonio comunale</strong></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (17).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Patrimonio comunale</strong></p></figcaption></figure>
 
 ## Messaggi del servizio
 

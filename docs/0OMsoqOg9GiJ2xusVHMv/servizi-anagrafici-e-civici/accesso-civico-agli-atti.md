@@ -11,8 +11,6 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 
 <table data-header-hidden><thead><tr><th width="373"></th><th></th></tr></thead><tbody><tr><td><strong>Nome servizio</strong></td><td>Accesso civico agli atti</td></tr><tr><td><strong>Argomento</strong></td><td>Servizi anagrafici e civici</td></tr><tr><td><strong>Descrizione del servizio</strong></td><td><p>Il servizio riguarda l’accesso agli atti amministrativi da parte dei cittadini che ne fanno richiesta.<br></p><p>Tramite IO potrai:</p><ul><li>ricevere comunicazioni e aggiornamenti sulle richieste presentate;</li><li>ricevere avvisi di pagamento relativi alle spese di riproduzione dei documenti e pagarli in app;</li><li>ricevere altre comunicazioni.</li></ul></td></tr><tr><td><strong>Pulsante</strong></td><td>Presenta richiesta</td></tr></tbody></table>
 
-{% include "../.gitbook/includes/banner-single-sign-on.md" %}
-
 ## Ciclo di vita del servizio
 
 <figure><img src="../.gitbook/assets/Servizi anagrafici_Accesso civico agli atti.png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi per il servizio Accesso civico agli atti</strong></p></figcaption></figure>

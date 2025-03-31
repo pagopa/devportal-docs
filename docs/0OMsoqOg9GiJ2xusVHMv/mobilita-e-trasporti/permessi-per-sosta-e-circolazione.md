@@ -15,11 +15,9 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 | **Descrizione del servizio** | <p>Il servizio riguarda i permessi per la sosta e la circolazione in zone a traffico limitato.</p><p>Tramite IO potrai:</p><ul><li>ricevere comunicazioni e aggiornamenti sulle richieste presentate;</li><li>ricevere eventuali avvisi di pagamento e pagarli in app;</li><li>ricevere altre comunicazioni.</li></ul> |
 | **Pulsante**                 | Richiedi permesso                                                                                                                                                                                                                                                                                                      |
 
-{% include "../.gitbook/includes/banner-single-sign-on.md" %}
-
 ## Ciclo di vita del servizio
 
-<figure><img src="../.gitbook/assets/image (125).png" alt=""><figcaption><p>Ciclo di vita ed eventi del servizio Permessi per sosta e circolazione</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption><p>Ciclo di vita ed eventi del servizio Permessi per sosta e circolazione</p></figcaption></figure>
 
 ## Messaggi del servizio
 
@@ -63,6 +61,10 @@ Per leggere l’ordinanza completa, \[visita questo sito]\(URL).
 
 <summary>Conferma prenotazione appuntamento</summary>
 
+:sparkles:<mark style="color:blue;">**Messaggio Premium**</mark> — Se hai un contratto Premium, ti consigliamo di configurare questo messaggio con promemoria Premium: i destinatari verranno avvisati dell‘avvicinarsi dell'appuntamento tramite notifica push.
+
+***
+
 **🖋 Titolo del messaggio:** Il tuo appuntamento
 
 🗒 **Testo del messaggio:**
@@ -92,10 +94,6 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 <details>
 
 <summary>Richiesta di rilascio contrassegno: integrazione documentazione</summary>
-
-{% include "../.gitbook/includes/single-sign-on.md" %}
-
-***
 
 #### **🖋 Titolo del messaggio: Richiesta di integrazione**
 
@@ -173,7 +171,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 <summary>Avviso di pagamento</summary>
 
-{% include "../.gitbook/includes/promemoria-di-pagamento.md" %}
+:sparkles:<mark style="color:blue;">**Messaggio Premium**</mark> — Se hai un contratto Premium, ti consigliamo di configurare questo messaggio con promemoria Premium: i destinatari verranno avvisati dell‘avvicinarsi della scadenza tramite notifica push.
 
 ***
 
@@ -205,7 +203,13 @@ In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio p
 
 </details>
 
-{% include "../.gitbook/includes/banner-promemoria-automatici.md" %}
+{% hint style="info" %}
+**Promemoria automatici —&#x20;**<mark style="color:blue;">**Messaggi Premium**</mark>
+
+Impostando il messaggio di _Avviso di pagamento_ come Messaggio Premium, disponibile a seconda della tipologia di contratto sottoscritto dall’ente, non è necessario inviare il seguente messaggio di promemoria.
+
+Gli utenti che hanno dato il loro consenso, infatti, riceveranno automaticamente una notifica push sui loro dispositivi all’avvicinarsi della scadenza.
+{% endhint %}
 
 <details>
 
@@ -235,13 +239,21 @@ Se hai già provveduto a pagare l’avviso, ignora questo messaggio.
 
 Se il contrassegno richiede una firma, è possibile utilizzare questo messaggio.
 
-{% include "../.gitbook/includes/banner-firma-con-io.md" %}
+{% hint style="info" %}
+<mark style="color:blue;">**Firma con IO**</mark>
+
+Tramite la funzionalità Firma con IO puoi inviare al destinatario il documento da firmare e permettere la firma direttamente in app. [**Scopri di più**](https://firma.io.italia.it/)
+
+Il seguente messaggio è da utilizzare nei casi di altre modalità di firma e non è necessario quando si utilizza Firma con IO.
+{% endhint %}
 
 <details>
 
 <summary>Contrassegno disponibile per la firma</summary>
 
-{% include "../.gitbook/includes/allegati.md" %}
+:sparkles: <mark style="color:blue;">**Allegati Premium**</mark> — Tramite questa funzionalità Premium, disponibile a seconda della tipologia di contratto sottoscritto dall’ente, puoi allegare documenti all'interno del messaggio.
+
+Questo messaggio è da utilizzare sia per messaggi Premium, sia per messaggi standard. In caso di messaggio standard, **ricorda di eliminare ogni riferimento agli allegati dal corpo del messaggio.**
 
 ***
 
@@ -257,11 +269,11 @@ Per prenotare il tuo appuntamento per la firma, \[visita questo sito]\(URL),
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
-\[Solo per messaggi con allegato] Puoi trovare in allegato a questo messaggio il contrassegno in formato \<formato>.
+\[Solo per messaggi Premium con allegato] Puoi trovare in allegato a questo messaggio il contrassegno in formato \<formato>.
 
 **🪄 Pulsante**: n/a
 
-<mark style="color:blue;">**📎 Allegato:**</mark> \<contrassegno>
+<mark style="color:blue;">**📎 Allegato Premium:**</mark> \<contrassegno>
 
 ***
 
@@ -279,7 +291,9 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 <summary>Contrassegno disponibile per la stampa</summary>
 
-{% include "../.gitbook/includes/allegati.md" %}
+:sparkles: <mark style="color:blue;">**Allegati Premium**</mark> — Tramite questa funzionalità Premium, disponibile a seconda della tipologia di contratto sottoscritto dall’ente, puoi allegare documenti all'interno del messaggio.
+
+Questo messaggio è da utilizzare sia per messaggi Premium, sia per messaggi standard. In caso di messaggio standard, **ricorda di eliminare ogni riferimento agli allegati dal corpo del messaggio.**
 
 ***
 
@@ -291,11 +305,11 @@ Il contrassegno per \<sosta e/o circolazione> richiesto in data \<gg/mm/aaaa> è
 
 Per visualizzare il documento, \[visita questa pagina]\(URL).
 
-\[Solo per messaggi con allegato] Puoi trovare in allegato a questo messaggio il contrassegno in formato \<formato>.
+\[Solo per messaggi Premium con allegato] Puoi trovare in allegato a questo messaggio il contrassegno in formato \<formato>.
 
 **🪄 Pulsante:** n/a
 
-**📎&#x20;**<mark style="color:blue;">**Allegato**</mark>**:** \<contrassegno>
+**📎&#x20;**<mark style="color:blue;">**Allegato Premium**</mark>**:** \<contrassegno>
 
 ***
 
@@ -393,7 +407,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 <summary>Avviso di pagamento</summary>
 
-{% include "../.gitbook/includes/promemoria-di-pagamento.md" %}
+:sparkles:<mark style="color:blue;">**Messaggio Premium**</mark> — Se hai un contratto Premium, ti consigliamo di configurare questo messaggio con promemoria Premium: i destinatari verranno avvisati dell‘avvicinarsi della scadenza tramite notifica push.
 
 ***
 
@@ -425,7 +439,13 @@ In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio p
 
 </details>
 
-{% include "../.gitbook/includes/banner-promemoria-automatici.md" %}
+{% hint style="info" %}
+**Promemoria automatici —&#x20;**<mark style="color:blue;">**Messaggi Premium**</mark>
+
+Impostando il messaggio di _Avviso di pagamento_ come Messaggio Premium, disponibile a seconda della tipologia di contratto sottoscritto dall’ente, non è necessario inviare il seguente messaggio di promemoria.
+
+Gli utenti che hanno dato il loro consenso, infatti, riceveranno automaticamente una notifica push sui loro dispositivi all’avvicinarsi della scadenza.
+{% endhint %}
 
 <details>
 

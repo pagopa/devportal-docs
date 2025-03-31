@@ -13,7 +13,7 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 
 ## Ciclo di vita del servizio
 
-<figure><img src="../.gitbook/assets/image (110).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Eventi e manifestazioni</strong></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (12) (1) (1).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Eventi e manifestazioni</strong></p></figcaption></figure>
 
 ## Messaggi del servizio
 
@@ -61,7 +61,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 <summary>Conferma prenotazione evento</summary>
 
-{% include "../.gitbook/includes/single-sign-on.md" %}
+:sparkles:<mark style="color:blue;">**Messaggio Premium**</mark> — Se hai un contratto Premium, ti consigliamo di configurare questo messaggio con promemoria Premium: i destinatari verranno avvisati dell‘avvicinarsi dell'evento tramite notifica push.
 
 ***
 
@@ -129,7 +129,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 <summary>Conferma appuntamento</summary>
 
-{% include "../.gitbook/includes/single-sign-on.md" %}
+:sparkles:<mark style="color:blue;">**Messaggio Premium**</mark> — Se hai un contratto Premium, ti consigliamo di configurare questo messaggio con promemoria Premium: i destinatari verranno avvisati dell‘avvicinarsi dell'appuntamento tramite notifica push.
 
 ***
 
@@ -213,10 +213,6 @@ Per ulteriori informazioni, \[visita questo sito]\(URL)
 
 <summary>Integrazione documentazione</summary>
 
-{% include "../.gitbook/includes/single-sign-on.md" %}
-
-***
-
 **🖋 Titolo del messaggio:** Richiesta di integrazione
 
 🗒 **Testo del messaggio:**
@@ -290,10 +286,6 @@ Per ulteriori informazioni, \[visita questo sito]\(URL)
 <details>
 
 <summary>Integrazione documentazione</summary>
-
-{% include "../.gitbook/includes/single-sign-on.md" %}
-
-***
 
 **🖋 Titolo del messaggio:** Richiesta documentazione aggiuntiva
 

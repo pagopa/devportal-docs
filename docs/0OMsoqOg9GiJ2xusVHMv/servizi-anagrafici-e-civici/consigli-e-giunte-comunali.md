@@ -11,11 +11,9 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 
 <table data-header-hidden><thead><tr><th width="373"></th><th></th></tr></thead><tbody><tr><td><strong>Nome servizio</strong></td><td>Consigli e Giunte comunali</td></tr><tr><td><strong>Argomento</strong></td><td>Servizi anagrafici e civici</td></tr><tr><td><strong>Descrizione del servizio</strong></td><td><p>Il servizio ti invia informazioni sui Consigli e sulle Giunte comunali.</p><p></p><p>Tramite IO potrai:</p><ul><li>ricevere un messaggio che ti informa della convocazione del Consiglio o della Giunta;</li><li>ricevere altre comunicazioni.</li></ul></td></tr><tr><td><strong>Pulsante</strong></td><td>Vedi delibere</td></tr></tbody></table>
 
-{% include "../.gitbook/includes/banner-single-sign-on.md" %}
-
 ## Ciclo di vita del servizio
 
-<figure><img src="../.gitbook/assets/image (100).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Consigli e Giunte comunali</strong></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Servizi anagrafici_Consigli e Giunte comunali (2).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Consigli e Giunte comunali</strong></p></figcaption></figure>
 
 ## Messaggi del servizio
 
@@ -30,6 +28,10 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 <details>
 
 <summary>Convocazione consiglieri comunali</summary>
+
+:sparkles:<mark style="color:blue;">**Messaggio Premium**</mark> — Se hai un contratto Premium, ti consigliamo di configurare questo messaggio con promemoria Premium: i destinatari verranno avvisati dell‘avvicinarsi dell'appuntamento tramite notifica push.
+
+***
 
 **🖋 Titolo del messaggio:** Convocazione seduta Consiglio comunale
 
@@ -184,6 +186,10 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 <summary>Convocazione Assessori</summary>
 
+:sparkles:<mark style="color:blue;">**Messaggio Premium**</mark> — Se hai un contratto Premium, ti consigliamo di configurare questo messaggio con promemoria Premium: i destinatari verranno avvisati dell‘avvicinarsi dell'appuntamento tramite notifica push.
+
+***
+
 **🖋 Titolo del messaggio:** Convocazione Giunta comunale
 
 🗒 **Testo del messaggio:**
@@ -214,7 +220,7 @@ Se non puoi partecipare, comunicalo all'ente tramite \[questo sito]\(URL).&#x20;
 
 <summary>Collegamento allo streaming della seduta</summary>
 
-**🖋 Titolo del messaggio:** Diretta streaming della seduta del Consiglio comunale
+**🖋 Titolo del messaggio:** Streaming della seduta del Consiglio comunale
 
 🗒 **Testo del messaggio:**
 

@@ -11,11 +11,9 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 
 <table data-header-hidden><thead><tr><th width="373"></th><th></th></tr></thead><tbody><tr><td><strong>Nome servizio</strong></td><td>Avvocatura civica</td></tr><tr><td><strong>Argomento</strong></td><td>Giustizia e legge</td></tr><tr><td><strong>Descrizione del servizio</strong></td><td><p>Il servizio riguarda l’avvocatura civica.</p><p></p><p>Tramite IO potrai:</p><ul><li>ricevere comunicazioni e aggiornamenti;</li><li>ricevere eventuali avvisi di pagamento e pagarli in app;</li><li>ricevere altre comunicazioni.</li></ul></td></tr><tr><td><strong>Pulsante</strong></td><td>Iscriviti all'Elenco Speciale</td></tr></tbody></table>
 
-{% include "../.gitbook/includes/banner-single-sign-on.md" %}
-
 ## Ciclo di vita del servizio
 
-<figure><img src="../.gitbook/assets/image (120).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Avvocatura civica</strong></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (15).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Avvocatura civica</strong></p></figcaption></figure>
 
 ## Messaggi del servizio
 
@@ -154,6 +152,10 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 <details>
 
 <summary>Convocazione per risoluzione</summary>
+
+:sparkles:<mark style="color:blue;">**Messaggio Premium**</mark> — Se hai un contratto Premium, ti consigliamo di configurare questo messaggio con promemoria Premium: i destinatari verranno avvisati dell‘avvicinarsi dell'appuntamento tramite notifica push.&#x20;
+
+***
 
 **🖋 Titolo del messaggio:** Sei \<stato convocato> / \<stata convocata>
 

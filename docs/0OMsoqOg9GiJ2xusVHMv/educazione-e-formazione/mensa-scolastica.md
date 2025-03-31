@@ -11,11 +11,9 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 
 <table data-header-hidden><thead><tr><th width="373"></th><th></th></tr></thead><tbody><tr><td><strong>Nome servizio</strong></td><td>Mensa scolastica</td></tr><tr><td><strong>Argomento</strong></td><td>Educazione e formazione</td></tr><tr><td><strong>Descrizione del servizio</strong></td><td><p>Il servizio riguarda le comunicazioni relative alla mensa scolastica.</p><p><br>Tramite IO potrai:</p><ul><li>ricevere informazioni sull'apertura delle iscrizioni al servizio mensa;</li><li>ricevere comunicazioni e aggiornamenti sullo stato della domanda presentata e sulla richiesta di eventuali diete speciali;</li><li>ricevere informazioni su eventuali riduzioni e agevolazioni;</li><li>ricevere un messaggio che ti informa che il pagamento è in scadenza;</li><li>ricevere conferma del pagamento;</li><li>ricevere altre comunicazioni.</li></ul></td></tr><tr><td><strong>Pulsante</strong></td><td>Scopri di più</td></tr></tbody></table>
 
-{% include "../.gitbook/includes/banner-single-sign-on.md" %}
-
 ## Ciclo di vita del servizio
 
-<figure><img src="../.gitbook/assets/image (94).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Mensa Scolastica</strong></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (24).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Mensa Scolastica</strong></p></figcaption></figure>
 
 ## Messaggi del servizio&#x20;
 
@@ -30,10 +28,6 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 <details>
 
 <summary>Apertura richieste per il servizio mensa</summary>
-
-{% include "../.gitbook/includes/single-sign-on.md" %}
-
-***
 
 **🖋 Titolo del messaggio:** Sono aperte le richieste per il servizio mensa per l'anno educativo \<aaaa/aaaa>
 
@@ -217,7 +211,7 @@ Qui sono riportati i messaggi di pagamento gestiti dall'ente:&#x20;
 
 <summary>Avviso di pagamento rette</summary>
 
-{% include "../.gitbook/includes/promemoria-di-pagamento.md" %}
+:sparkles: <mark style="color:blue;">**Messaggio Premium**</mark> — Se hai un contratto Premium, ti consigliamo di configurare questo messaggio con promemoria Premium: i destinatari verranno avvisati dell‘avvicinarsi della scadenza tramite notifica push.
 
 ***
 
@@ -253,7 +247,13 @@ In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio p
 
 </details>
 
-{% include "../.gitbook/includes/banner-promemoria-automatici.md" %}
+{% hint style="info" %}
+**Promemoria automatici —&#x20;**<mark style="color:blue;">**Messaggi Premium**</mark>
+
+Impostando il messaggio di _Avviso di pagamento_ come Messaggio Premium, disponibile a seconda della tipologia di contratto sottoscritto dall’ente, non è necessario inviare il seguente messaggio di promemoria.
+
+Gli utenti che hanno dato il loro consenso, infatti, riceveranno automaticamente una notifica push sui loro dispositivi all’avvicinarsi della scadenza.
+{% endhint %}
 
 <details>
 
@@ -429,23 +429,19 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 <summary>Emissione attestazione: spese sostenute</summary>
 
-{% include "../.gitbook/includes/allegati.md" %}
-
-***
-
 **🖋 Titolo del messaggio:** È disponibile l'attestazione delle spese sostenute
 
 🗒 **Testo del messaggio**:&#x20;
 
 Dal \<gg/mm/aaaa> è disponibile l'attestazione delle spese sostenute relative al servizio mensa per \<nome> \<cognome> utile ai fini delle detrazioni in sede di dichiarazione dei redditi.&#x20;
 
-\[Solo per messaggi con allegato] Trovi l'attestazione emessa in allegato a questo messaggio.
+\[Solo per messaggi Premium con allegato] Trovi l'attestazione emessa in allegato a questo messaggio.
 
 Per accedere al portale, \[visita questo sito]\(URL).
 
 **🪄 Pulsante**: n/a
 
-<mark style="color:blue;">**📎 Allegato:**</mark> \<documento di attestazione>
+<mark style="color:blue;">**📎 Allegato Premium:**</mark> \<documento di attestazione>
 
 ***
 

@@ -14,7 +14,7 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 <summary>Conferma prenotazione appuntamento</summary>
 
-{% include "../../.gitbook/includes/single-sign-on.md" %}
+:sparkles:<mark style="color:blue;">**Messaggio Premium**</mark> — Se hai un contratto Premium, ti consigliamo di configurare questo messaggio con promemoria Premium: i destinatari verranno avvisati dell‘avvicinarsi dell'appuntamento tramite notifica push.
 
 ***
 
@@ -47,6 +47,10 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 <details>
 
 <summary>Conferma prenotazione celebrazione</summary>
+
+:sparkles:<mark style="color:blue;">**Messaggio Premium**</mark> — Se hai un contratto Premium, ti consigliamo di configurare questo messaggio con promemoria Premium: i destinatari verranno avvisati dell‘avvicinarsi dell'appuntamento tramite notifica push.
+
+***
 
 **🖋 Titolo del messaggio:** La vostra celebrazione
 

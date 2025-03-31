@@ -15,11 +15,9 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 | **Descrizione del servizio** | <p>Il servizio riguarda l’assegnazione e la raccolta di legname nel territorio del Comune.</p><p></p><p>Tramite IO potrai:</p><ul><li>ricevere informazioni sulle modalità di richiesta, assegnazione e raccolta legname;</li><li>ricevere avvisi di pagamento e pagarli in app;</li><li>ricevere altre comunicazioni.</li></ul> |
 | **Pulsante**                 | Vedi bandi in corso                                                                                                                                                                                                                                                                                                              |
 
-{% include "../.gitbook/includes/banner-single-sign-on.md" %}
-
 ## Ciclo di vita del servizio
 
-<figure><img src="../.gitbook/assets/image (137).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Legname</strong></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Legname</strong></p></figcaption></figure>
 
 ## Messaggi del servizio&#x20;
 
@@ -35,7 +33,9 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 <summary>Pubblicazione bando</summary>
 
-{% include "../.gitbook/includes/allegati.md" %}
+:sparkles: <mark style="color:blue;">**Allegati Premium**</mark> — Tramite questa funzionalità Premium, disponibile a seconda della tipologia di contratto sottoscritto dall’ente, puoi allegare documenti all'interno del messaggio.
+
+Questo messaggio è da utilizzare sia per messaggi Premium, sia per messaggi standard. In caso di messaggio standard, **ricorda di eliminare ogni riferimento agli allegati dal corpo del messaggio.**
 
 ***
 
@@ -51,11 +51,11 @@ Potrai compilare una sola domanda per il tuo nucleo familiare. Hai tempo fino al
 
 Per consultare i criteri di assegnazione e compilare la domanda, \[visita questo sito]\(URL).
 
-\[Solo per messaggi con allegato] Trovi il testo completo del bando in allegato a questo messaggio.
+\[Solo per messaggi Premium con allegato] Trovi il testo completo del bando in allegato a questo messaggio.
 
 **🪄 Pulsante**: Compila la domanda
 
-<mark style="color:red;">📎</mark> <mark style="color:blue;">**Allegato:**</mark> \<testo integrale del bando>
+<mark style="color:red;">📎</mark> <mark style="color:blue;">**Allegato Premium:**</mark> \<testo integrale del bando>
 
 ***
 
@@ -181,10 +181,6 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 <summary>Rinuncia effettuata fuori termine</summary>
 
-{% include "../.gitbook/includes/promemoria-di-pagamento.md" %}
-
-***
-
 **🖋 Titolo del messaggio:** Hai un nuovo avviso di pagamento
 
 🗒 **Testo del messaggio**:
@@ -195,7 +191,7 @@ C'è un avviso da pagare intestato a \<nome e cognome> e relativo a \<causale> .
 
 **Entro il:** \<gg/mm/aaaa>
 
-Puoi pagare direttamente in app premendo “Paga”, oppure tramite tutti i canali di pagamento della piattaforma pagoPA e le altre modalità di pagamento offerte dell'ente creditore.
+Puoi pagare direttamente in app premendo “Vedi Avviso”, oppure tramite tutti i canali di pagamento della piattaforma pagoPA e le altre modalità di pagamento offerte dell'ente creditore.
 
 Se hai già provveduto a pagare l'avviso ignora questo messaggio.
 
@@ -203,7 +199,7 @@ Per maggiori informazioni o per richiedere assistenza, contattaci tramite i cana
 
 In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio potrebbe subire variazioni.
 
-**🪄 Pulsante**: Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
+**🪄 Pulsante**: Vedi Avviso
 
 ***
 
@@ -223,7 +219,7 @@ I seguenti modelli di messaggio sono validi nei casi di domanda di acquisto — 
 
 <summary>Avviso di pagamento spese amministrative</summary>
 
-{% include "../.gitbook/includes/promemoria-di-pagamento.md" %}
+:sparkles: <mark style="color:blue;">**Messaggio Premium**</mark> — Se hai un contratto Premium, ti consigliamo di configurare questo messaggio con promemoria Premium: i destinatari verranno avvisati dell‘avvicinarsi della scadenza tramite notifica push
 
 ***
 
@@ -257,7 +253,13 @@ In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio p
 
 </details>
 
-{% include "../.gitbook/includes/banner-promemoria-automatici.md" %}
+{% hint style="info" %}
+**Promemoria automatici —&#x20;**<mark style="color:blue;">**Messaggi Premium**</mark>
+
+Impostando il messaggio di _Avviso di pagamento_ come Messaggio Premium, disponibile a seconda della tipologia di contratto sottoscritto dall’ente, non è necessario inviare il seguente messaggio di promemoria.
+
+Gli utenti che hanno dato il loro consenso, infatti, riceveranno automaticamente una notifica push sui loro dispositivi all’avvicinarsi della scadenza.
+{% endhint %}
 
 <details>
 
@@ -319,7 +321,7 @@ Se hai già provveduto a pagare l’avviso ignora questo messaggio.
 **Lo sapevi?**\
 IO è integrata con SEND - Servizio Notifiche Digitale, per l'invio di comunicazioni a valore legale.
 
-[**Scopri di più su SEND**](https://notifichedigitali.pagopa.it/) [**->**](https://www.pagopa.it/it/prodotti-e-servizi/piattaforma-notifiche-digitali)
+[**Scopri di più su SEND**](https://notifichedigitali.pagopa.it/) [**-->**](https://www.pagopa.it/it/prodotti-e-servizi/piattaforma-notifiche-digitali)
 {% endhint %}
 
 {% hint style="info" %}

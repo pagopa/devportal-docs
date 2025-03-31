@@ -11,11 +11,9 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 
 <table data-header-hidden><thead><tr><th width="373"></th><th></th></tr></thead><tbody><tr><td><strong>Nome servizio</strong></td><td>Alloggi sociali</td></tr><tr><td><strong>Argomento</strong></td><td>Benessere sociale</td></tr><tr><td><strong>Descrizione del servizio</strong></td><td><p>Il servizio riguarda la richiesta e l’assegnazione di alloggi sociali.</p><p></p><p>Tramite IO potrai:</p><ul><li>ricevere informazioni sull’apertura dei bandi e sulle modalità di presentazione della domanda e sulle graduatorie;</li><li>ricevere eventuali avvisi di pagamento e pagarli in app;</li><li>ricevere altre comunicazioni.</li></ul></td></tr><tr><td><strong>Pulsante</strong></td><td>Prenota appuntamento</td></tr></tbody></table>
 
-{% include "../.gitbook/includes/banner-single-sign-on.md" %}
-
 ## Ciclo di vita del servizio
 
-<figure><img src="../.gitbook/assets/image (87).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Alloggi sociali</strong></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Benessere sociale_Alloggi sociali.png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Alloggi sociali</strong></p></figcaption></figure>
 
 ## Messaggi del servizio
 
@@ -31,7 +29,9 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 <summary>Pubblicazione bando</summary>
 
-{% include "../.gitbook/includes/allegati.md" %}
+:sparkles: <mark style="color:blue;">**Allegati Premium**</mark> — Tramite questa funzionalità Premium, disponibile a seconda della tipologia di contratto sottoscritto dall’ente, puoi allegare documenti all'interno del messaggio.
+
+Questo messaggio è da utilizzare sia per messaggi Premium, sia per messaggi standard. In caso di messaggio standard, **ricorda di eliminare ogni riferimento agli allegati dal corpo del messaggio.**
 
 ***
 
@@ -45,11 +45,11 @@ Se vuoi presentare domanda di partecipazione, puoi prenotare un appuntamento pre
 
 Per consultare i criteri di assegnazione e scaricare la modulistica, \[visita questo sito]\(URL).
 
-\[Solo per messaggi con allegato] Trovi il testo completo del bando in allegato a questo messaggio.
+\[Solo per messaggi Premium con allegato] Trovi il testo completo del bando in allegato a questo messaggio.
 
 **🪄 Pulsante**: n/a
 
-<mark style="color:blue;">**📎 Allegato:**</mark> \<testo integrale del bando>
+<mark style="color:blue;">**📎 Allegato Premium:**</mark> \<testo integrale del bando>
 
 ***
 
@@ -67,7 +67,7 @@ Per consultare i criteri di assegnazione e scaricare la modulistica, \[visita qu
 
 <summary>Conferma prenotazione appuntamento</summary>
 
-{% include "../.gitbook/includes/single-sign-on.md" %}
+:sparkles:<mark style="color:blue;">**Messaggio Premium**</mark> — Se hai un contratto Premium, ti consigliamo di configurare questo messaggio con promemoria Premium: i destinatari verranno avvisati dell‘avvicinarsi dell'appuntamento tramite notifica push.
 
 ***
 
@@ -103,7 +103,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 <summary>Avviso di pagamento spese di segreteria</summary>
 
-{% include "../.gitbook/includes/promemoria-di-pagamento.md" %}
+:sparkles: <mark style="color:blue;">**Messaggio Premium**</mark> — Se hai un contratto Premium, ti consigliamo di configurare questo messaggio con promemoria Premium: i destinatari verranno avvisati dell‘avvicinarsi della scadenza tramite notifica push.
 
 ***
 
@@ -137,7 +137,13 @@ In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio p
 
 </details>
 
-{% include "../.gitbook/includes/banner-promemoria-automatici.md" %}
+{% hint style="info" %}
+**Promemoria automatici** **— Messaggi Premium**
+
+Impostando il messaggio di _Avviso di pagamento_ come Messaggio Premium, disponibile a seconda della tipologia di contratto sottoscritto dall’ente, non è necessario inviare il seguente messaggio di promemoria.
+
+Gli utenti che hanno dato il loro consenso, infatti, riceveranno automaticamente una notifica push sui loro dispositivi all’avvicinarsi della scadenza.
+{% endhint %}
 
 <details>
 
@@ -199,10 +205,6 @@ Per vedere la tua domanda, \[visita questo sito]\(URL).
 
 <summary>Integrazione documentazione</summary>
 
-{% include "../.gitbook/includes/single-sign-on.md" %}
-
-***
-
 **🖋 Titolo del messaggio:** Richiesta di integrazione&#x20;
 
 🗒 **Testo del messaggio:**
@@ -228,10 +230,6 @@ Consulta il riepilogo della tua domanda, \[visita questo sito]\(URL).
 <details>
 
 <summary>Apertura assegnazione alloggi</summary>
-
-{% include "../.gitbook/includes/single-sign-on.md" %}
-
-***
 
 **🖋 Titolo del messaggio:** Apertura assegnazione alloggi
 
@@ -261,10 +259,6 @@ Per consultare i criteri di assegnazione e presentare domanda, \[visita questo s
 
 <summary>Pubblicazione graduatoria provvisoria</summary>
 
-{% include "../.gitbook/includes/single-sign-on.md" %}
-
-***
-
 **🖋 Titolo del messaggio:** Pubblicata la graduatoria provvisoria
 
 🗒 **Testo del messaggio:**
@@ -291,10 +285,6 @@ Per visualizzare la tua posizione in graduatoria \[visita questo sito]\(URL).
 
 <summary>Pubblicazione graduatoria definitiva</summary>
 
-{% include "../.gitbook/includes/single-sign-on.md" %}
-
-***
-
 **🖋 Titolo del messaggio:** Pubblicata la graduatoria definitiva
 
 🗒 **Testo del messaggio:**
@@ -303,7 +293,7 @@ Per visualizzare la tua posizione in graduatoria \[visita questo sito]\(URL).
 
 Per visualizzare la tua posizione in graduatoria \[visita questo sito]\(URL).
 
-**🪄 Pulsante:** Vai alla graduatoria&#x20;
+**🪄 Pulsante:** Vai ala graduatoria&#x20;
 
 ***
 
@@ -341,13 +331,21 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 </details>
 
-{% include "../.gitbook/includes/banner-firma-con-io.md" %}
+{% hint style="info" %}
+<mark style="color:blue;">**Firma con IO**</mark>
+
+Tramite la funzionalità Firma con IO puoi inviare al destinatario il documento da firmare e permettere la firma direttamente in app. [**Scopri di più**](https://firma.io.italia.it/)
+
+Il seguente messaggio è da utilizzare nei casi di altre modalità di firma e non è necessario quando si utilizza Firma con IO.
+{% endhint %}
 
 <details>
 
 <summary>Contratto di alloggio: disponibile per la firma</summary>
 
-{% include "../.gitbook/includes/allegati.md" %}
+:sparkles: <mark style="color:blue;">**Allegati Premium**</mark> — Tramite questa funzionalità Premium, disponibile a seconda della tipologia di contratto sottoscritto dall’ente, puoi allegare documenti all'interno del messaggio.
+
+Questo messaggio è da utilizzare sia per messaggi Premium, sia per messaggi standard. In caso di messaggio standard, **ricorda di eliminare ogni riferimento agli allegati dal corpo del messaggio.**
 
 ***
 
@@ -359,13 +357,13 @@ Il contratto di locazione per l’alloggio \<riferimento alloggio> assegnato in 
 
 Per prenotare l'appuntamento per la firma, \[visita questo sito]\(URL).
 
-\[Solo per messaggi con allegato] Puoi trovare in allegato il testo integrale del contratto in formato \<formato>.
+\[Solo per messaggi Premium con allegato] Puoi trovare in allegato il testo integrale del contratto in formato \<formato>.
 
 Per scaricare il contratto, \[visita questo sito]\(URL).
 
 **🪄 Pulsante:** n/a
 
-<mark style="color:blue;">**📎 Allegato:**</mark> \<contratto>
+<mark style="color:blue;">**📎 Allegato Premium:**</mark> \<contratto>
 
 ***
 
@@ -381,7 +379,7 @@ Per scaricare il contratto, \[visita questo sito]\(URL).
 
 <summary>Conferma prenotazione appuntamento</summary>
 
-{% include "../.gitbook/includes/single-sign-on.md" %}
+:sparkles:<mark style="color:blue;">**Messaggio Premium**</mark> — Se hai un contratto Premium, ti consigliamo di configurare questo messaggio con promemoria Premium: i destinatari verranno avvisati dell‘avvicinarsi dell'appuntamento tramite notifica push.
 
 ***
 
@@ -417,7 +415,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 <summary>Avviso di pagamento canone</summary>
 
-{% include "../.gitbook/includes/promemoria-di-pagamento.md" %}
+:sparkles: <mark style="color:blue;">**Messaggio Premium**</mark> — Se hai un contratto Premium, ti consigliamo di configurare questo messaggio con promemoria Premium: i destinatari verranno avvisati dell‘avvicinarsi della scadenza tramite notifica push.
 
 ***
 
@@ -431,7 +429,7 @@ C'è un avviso da pagare intestato a \<nome> \<cognome> e relativo a \<causale>.
 
 **Entro il:** \<gg/mm/aaaa>
 
-Puoi pagare direttamente in app premendo “Paga”, oppure tramite tutti i canali di pagamento della piattaforma pagoPA e le altre modalità di pagamento offerte dell'ente creditore.
+Puoi pagare direttamente in app premendo “Vedi Avviso”, oppure tramite tutti i canali di Puoi pagare direttamente in app premendo “Paga”, oppure tramite tutti i canali di pagamento della piattaforma pagoPA e le altre modalità di pagamento offerte dell'ente creditore.
 
 Se hai già provveduto a pagare l'avviso, ignora questo messaggio.
 
@@ -451,7 +449,13 @@ In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio p
 
 </details>
 
-{% include "../.gitbook/includes/banner-promemoria-automatici.md" %}
+{% hint style="info" %}
+**Promemoria automatici — Messaggi Premium**
+
+Impostando il messaggio di _Avviso di pagamento_ come Messaggio Premium, disponibile a seconda della tipologia di contratto sottoscritto dall’ente, non è necessario inviare il seguente messaggio di promemoria.
+
+Gli utenti che hanno dato il loro consenso, infatti, riceveranno automaticamente una notifica push sui loro dispositivi all’avvicinarsi della scadenza.
+{% endhint %}
 
 <details>
 
