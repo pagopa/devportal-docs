@@ -64,4 +64,4 @@ In caso di notifica multi destinatario, questa Attestazione è unica e visibile 
 
 &#x20;                            &#x20;
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
