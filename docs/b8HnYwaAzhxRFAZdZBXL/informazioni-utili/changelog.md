@@ -10,18 +10,6 @@ description: >-
 
 <details>
 
-<summary>Aprile 2025</summary>
-
-### 1.0.141
-
-**2 aprile**
-
-* Bug fixing
-
-</details>
-
-<details>
-
 <summary>Marzo 2025</summary>
 
 ### 1.0.140
