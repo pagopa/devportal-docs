@@ -17,7 +17,7 @@ Il file CSV contiene l'elenco delle operazioni eseguite dagli aderenti. Per ogni
 Analizziamo il seguente file CSV
 
 ```
-date,purpose_id,status,token,requests_count
+date,purpose_id,status,token_id,requests_count
 2024-07-25,0e1e4c98-6f2e-4f55-90e3-45f7d3f1dbf8,500,99382e29-b0cf-412b-a060-72e421b6d167,48
 2024-07-25,1cafea11-08a0-4eaf-a3ee-3e9839c8c2a9,200,8f3e3665-5d89-4600-be2f-79aeb18f702d,22
 2024-07-25,1cafea11-08a0-4eaf-a3ee-3e9839c8c2a9,404,8f3e3665-5d89-4600-be2f-79aeb18f702d,34
