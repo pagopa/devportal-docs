@@ -2,7 +2,7 @@
 
 In questo tutorial vedremo tutti i passaggi per inserire una nuova notifica su SEND utilizzando Postman. Prima di procedere con l'inserimento Notifica con Postman, assicurati di aver correttamente importato le definizioni delle API su Postman ed aver configurato l'ambiente di test seguendo i [passaggi descritti qui](https://developer.pagopa.it/send/guides/knowledge-base/v2.0/knowledge-base-di-piattaforma-notifiche/generazione-client-e-definizioni-delle-api).
 
-#### Step 1 - Generare il checksum sha256, codificato in base 64, del contenuto binario dei pdf di Notifica.pdf e di Pagamento.pdf che verranno caricati su PND
+### Step 1 - Generare il checksum sha256, codificato in base 64, del contenuto binario dei pdf di Notifica.pdf e di Pagamento.pdf che verranno caricati su PND
 
 Entra nella cartella che che contiene i file **Notifica.pdf** e **Pagamento.pdf** e lancia i seguenti comandi utilizzando un terminal ssh (ad es. git bash):
 
@@ -20,7 +20,7 @@ cat Pagamento.pdf | openssl dgst -binary -sha256 | openssl base64
 
 L'output ottenuto per ogni file dovrà essere memorizzato per i futuri utilizzi **NOTA:** i file Notifica.pdf e Pagamento.pdf dovranno essere sostituiti con i file corrispondenti ai pdf che si vuole caricare su SEND
 
-#### Step 2 - Eseguire l'operazione di pre-caricamento dei file
+### Step 2 - Eseguire l'operazione di pre-caricamento dei file
 
 Aprire la scheda **richiesta di pre-caricamento allegati** ed inserire nel body il seguente payload:
 
@@ -44,7 +44,7 @@ Nella response di questo servizio, si otterrà il seguente payload:
 * **\<url1>** e **\<url2>:** sono le url da utilizzare nella chiamata di upload dei documenti
 * **\<key2>** e **\<key2>:** sono le keys da utilizzare in fase di inserimento notifica, rispettivamente per i 2 file
 
-#### Step 3 - Effettuare l'upload dei documenti
+### Step 3 - Effettuare l'upload dei documenti
 
 Ora bisogna effettuare l'operazione di upload verso il _safeStorage_ per entrambi i documenti. Cliccando sulle url ottenute, si aprirà una scheda Postman già parzialmente configurata con l'url di interesse. Sarà ora necessario compilare gli headers nella sezione "Headers" inserendo i parametri ottenuti nella precedente chiamata:
 
@@ -62,7 +62,7 @@ Dopo aver lanciato la richiesta per entrambi ed aver ottenuto esito positivo, bi
 
 <figure><img src=".gitbook/assets/response_header.png" alt=""><figcaption></figcaption></figure>
 
-#### Step 4 - Effettuare l'inserimento della notifica
+### Step 4 - Effettuare l'inserimento della notifica
 
 A questo punto è possibile effettuare l'inserimento della Notifica nella scheda **Richiesta invio notifica**, inserendo correttamente il body della request:
 
@@ -78,4 +78,7 @@ Se la chiamata è andata a buon fine si otterrà una response con httpStatus: 20
 
 <figure><img src=".gitbook/assets/accepted_request.png" alt=""><figcaption></figcaption></figure>
 
-**NOTA:** nel body della response si otterranno i seguenti campi: **\<notificationRequestId>:** questo identificativo viene assegnato alla richiesta di notifica appena inserita e potrà essere utilizzato in seguito per verificare se sia stata accettata o meno dalla SEND . **\<paProtocolNumber>** e **\<idempotenceToken>:** questi campi sono gli stessi che sono stati inseriti nella precedente richiesta di inserimento Notifica e potranno essere utilizzati, in modo alternativo al **\<notificationRequestId>** ed insieme tra loro, per conoscere lo stato di accettazione della notifica su SEND .
+**NOTA:** nel body della response si otterranno i seguenti campi:&#x20;
+
+* **\<notificationRequestId>:** questo identificativo viene assegnato alla richiesta di notifica appena inserita e potrà essere utilizzato in seguito per verificare se sia stata accettata o meno dalla SEND .
+* **\<paProtocolNumber>** e **\<idempotenceToken>:** questi campi sono gli stessi che sono stati inseriti nella precedente richiesta di inserimento Notifica e potranno essere utilizzati, in modo alternativo al **\<notificationRequestId>** ed insieme tra loro, per conoscere lo stato di accettazione della notifica su SEND .

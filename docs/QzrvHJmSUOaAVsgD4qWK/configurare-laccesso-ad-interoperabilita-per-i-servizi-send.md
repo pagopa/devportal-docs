@@ -3,97 +3,92 @@
 In questo tutorial vedremo in pochi passaggi come puoi configurare l’accesso a Interoperabilità e generare il Voucher per chiamare i servizi SEND.\
 
 
-### 1  - Creazione dell’utente tecnico incaricato
+### 1 - Creazione dell’utente tecnico incaricato
 
-La prima cosa che dovrai fare è accedere all’area riservata in [produzione](https://selfcare.pagopa.it/)[ ](https://urldefense.com/v3/\_\_https:/selfcare.pagopa.it/\_\_;!!EJ3n55FBLexp1rhr!\_FsIroOd0kHtR7U6OVuZgB3Bpwp8zUWFauQWCl1uaUusbiib07erhRMlrsSoc9JhSCLdG1mVZSyXtYVckqbDFP5KMpqT4ObLPiw$)(e non di test),[ ](https://uat.selfcare.pagopa.it/)e creare l'utente del tecnico incaricato tramite la funzione "Crea Utente", associando ad esso il prodotto "Interoperabilità Collaudo" ed il ruolo "Amministratore":&#x20;
+La prima cosa che dovrai fare è accedere all’area riservata in [produzione](https://selfcare.pagopa.it/)[ ](https://urldefense.com/v3/__https:/selfcare.pagopa.it/__;!!EJ3n55FBLexp1rhr!_FsIroOd0kHtR7U6OVuZgB3Bpwp8zUWFauQWCl1uaUusbiib07erhRMlrsSoc9JhSCLdG1mVZSyXtYVckqbDFP5KMpqT4ObLPiw$)(e non di test),[ ](https://uat.selfcare.pagopa.it/)e creare l'utente del tecnico incaricato tramite la funzione "Crea Utente", associando ad esso il prodotto "Interoperabilità Collaudo" ed il ruolo "Amministratore":&#x20;
 
 <figure><img src=".gitbook/assets/send_pdnd_1.png" alt=""><figcaption></figcaption></figure>
 
-\
-Questa abilitazione come "Amministratore" viene fornita in ambiente Interoperabilità Collaudo pertanto non impatterà l'ambiente di Produzione.
+Questa abilitazione come "Amministratore" viene fornita in ambiente Interoperabilità Collaudo e pertanto non impatterà l'ambiente di Produzione.
 
 Per la registrazione dell'utente incaricato sono necessari i dati nome, cognome, codice fiscale ed email.
 
 \
 L'utente del tecnico incaricato dovrà:
 
-* Effettuare l'accesso su selfcare di produzione:[ https://selfcare.pagopa.it/](https://urldefense.com/v3/\_\_https:/selfcare.pagopa.it/\_\_;!!EJ3n55FBLexp1rhr!\_FsIroOd0kHtR7U6OVuZgB3Bpwp8zUWFauQWCl1uaUusbiib07erhRMlrsSoc9JhSCLdG1mVZSyXtYVckqbDFP5KMpqT4ObLPiw$) utilizzando le proprie credenziali SPID associate dall'ente di riferimento al punto precedente.
-* Selezionare l'Ente di riferimento
-* Selezionare la card "Interoperabilità"
-* Selezionare "Collaudo"
+* Effettuare l'accesso su Selfcare di produzione:[ https://selfcare.pagopa.it/](https://urldefense.com/v3/__https:/selfcare.pagopa.it/__;!!EJ3n55FBLexp1rhr!_FsIroOd0kHtR7U6OVuZgB3Bpwp8zUWFauQWCl1uaUusbiib07erhRMlrsSoc9JhSCLdG1mVZSyXtYVckqbDFP5KMpqT4ObLPiw$) utilizzando le proprie credenziali SPID associate dall'ente di riferimento al punto precedente;
+* Selezionare l'Ente di riferimento;
+* Selezionare la card "Interoperabilità";
+* Selezionare "Collaudo".
 
 A questo punto dovrai cercare l'e-service andando su Fruizione > Catalogo e-service:
 
 <figure><img src=".gitbook/assets/send_pdnd_2.png" alt="" width="366"><figcaption></figcaption></figure>
 
-Avvia la ricerca dell'e-service di SEND - UAT e clicca su Richiedi fruizione creando una bozza di richiesta dove inserire tutte le informazioni richieste, tra cui gli attributi, che si dividono in:
+Avvia la ricerca dell'e-service di SEND - UAT e clicca su "_Richiedi fruizione"_ creando una bozza di richiesta dove inserire tutte le informazioni richieste, tra cui gli attributi, che si dividono in:
 
-* Attributi certificati: vengono verificati tramite le banche dati delle istituzioni.
+* Attributi Certificati: vengono verificati tramite le banche dati delle istituzioni.
 * Attributi Verificati: vengono verificati dall’erogatore del servizio a seguito dell'invio della documentazione da parte del fruitore.
 * Attributi Dichiarati: vengono dichiarati da chi effettua la richiesta di fruizione sotto la propria responsabilità
 
-Puoi trovare [maggiori dettagli](https://docs.pagopa.it/interoperabilita-1/manuale-operativo/attributi) e un [videotutorial](https://www.youtube.com/watch?v=zmyQIQHAo\_0\&list=PLZcD-ZoVxFzi1f2-taSdg7a3d2UQse3\_Q\&index=8) sugli attributi.
+Puoi trovare [maggiori dettagli](https://docs.pagopa.it/interoperabilita-1/manuale-operativo/attributi) e un [videotutorial](https://www.youtube.com/watch?v=zmyQIQHAo_0\&list=PLZcD-ZoVxFzi1f2-taSdg7a3d2UQse3_Q\&index=8) sugli attributi.
 
-Quando la richiesta di fruizione è stata compilata con successo, clicca su "Inoltra richiesta di fruizione"
+Quando la richiesta di fruizione è stata compilata con successo, clicca su "_Inoltra richiesta di fruizione_"
 
 <figure><img src=".gitbook/assets/send_pdnd_3.png" alt="" width="563"><figcaption></figcaption></figure>
 
 Una volta che la richiesta di fruizione è stata inviata, questa verrà esaminata dall'Erogatore che dovrà approvarla. È sempre possibile verificare lo stato delle richieste di fruizione presentate andando su Fruizione > Le tue richieste.
 
-Puoi trovare [maggiori dettagli](https://docs.pagopa.it/interoperabilita-1/manuale-operativo/richieste-di-fruizione) e un [videotutorial](https://www.youtube.com/watch?v=2O81jdLHpgQ\&list=PLZcD-ZoVxFzi1f2-taSdg7a3d2UQse3\_Q\&index=8) sulla richiesta di fruizione[ ](https://docs.pagopa.it/interoperabilita-1/manuale-operativo/richieste-di-fruizione)
+Puoi trovare [maggiori dettagli](https://docs.pagopa.it/interoperabilita-1/manuale-operativo/richieste-di-fruizione) e un [videotutorial](https://www.youtube.com/watch?v=2O81jdLHpgQ\&list=PLZcD-ZoVxFzi1f2-taSdg7a3d2UQse3_Q\&index=8) sulla richiesta di fruizione
 
+### 2 - Creare una finalità per l’e-service di SEND-UAT
 
-
-### 3  - Creare una finalità per l’e-service di SEND-UAT
-
-A seguito dell'approvazione della richiesta di fruizione per l'e-service di SEND - UAT è necessario creare una finalità andando su Fruizione > Le tue finalità e cliccando "Aggiungi".
+A seguito dell'approvazione della richiesta di fruizione per l'e-service di SEND - UAT è necessario creare una finalità andando su Fruizione > Le tue finalità e cliccando "_Aggiungi_".
 
 <figure><img src=".gitbook/assets/send_pdnd_4.png" alt="" width="563"><figcaption></figcaption></figure>
 
 \
-Compilare tutti i dati che appaiono sul Form, in particolare:
+Compilare tutti i dati che appaiono sul form, in particolare:
 
 * e-service da associare: che dovrà corrispondere a quello di SEND - UAT
 * numero di chiamate stimate API/giorno: corrisponde alla stima di chiamate al giorno che verranno effettuate verso l’erogatore. Questo valore potrà essere aggiornato in seguito e potrebbe essere necessaria l'attivazione manuale da parte dall’erogatore.
 
-Nella pagina successive bisogna compilare la sezione di analisi del rischio ed infine cliccare su "Crea bozza finalità" per pubblicare la finalità.
+Nella pagina successive bisogna compilare la sezione di analisi del rischio ed infine cliccare su "_Crea bozza finalità_" per pubblicare la finalità.
 
-Puoi trovare [maggiori dettagli](https://docs.pagopa.it/interoperabilita-1/manuale-operativo/finalita) e un [videotutorial](https://www.youtube.com/watch?v=bCHRgeBJucI\&list=PLZcD-ZoVxFzi1f2-taSdg7a3d2UQse3\_Q\&index=9) sulla creazione di finalità.
+Puoi trovare [maggiori dettagli](https://docs.pagopa.it/interoperabilita-1/manuale-operativo/finalita) e un [videotutorial](https://www.youtube.com/watch?v=bCHRgeBJucI\&list=PLZcD-ZoVxFzi1f2-taSdg7a3d2UQse3_Q\&index=9) sulla creazione di finalità.
 
-### &#x20;4  - Associare un client ad una finalità
+### &#x20;3 - Associare un client ad una finalità
 
 \
 Il client è un contenitore di materiale crittografico nel quale vengono inseriti un numero discrezionale di operatori di sicurezza, che sono autorizzati a caricare la chiave pubblica del materiale crittografico in loro possesso.&#x20;
 
-Per creare un nuovo client bisogna andare nella sezione Fruizione > I tuoi client e-service e cliccando su "Aggiungi"
+Per creare un nuovo client bisogna andare nella sezione Fruizione > I tuoi client e-service e cliccando su "_Aggiungi_"
 
-Compilare tutti i dati che appaiono sul Form, selezionando tra gli operatori quelli abilitati ad operare nel back-office.&#x20;
+Compilare tutti i dati che appaiono sul form, selezionando tra gli operatori quelli abilitati ad operare nel back-office.&#x20;
 
-Una volta creato un client, sarà possibile associarlo ad una finalità, entrando in Fruizione > Le tue finalità, poi nel tab "Client associati" cliccare su "Aggiungi"\
+Una volta creato un client, sarà possibile associarlo ad una finalità, entrando in Fruizione > Le tue finalità, poi nel tab "_Client associati_" cliccare su "_Aggiungi_":\
 
 
 <figure><img src=".gitbook/assets/send_pdnd_5.png" alt="" width="563"><figcaption></figcaption></figure>
 
-Infine apparirà un menù a tendina che permette di selezionare i client da associare:
-
-\
+Infine apparirà un menù a tendina che permette di selezionare i client da associare:\
 
 
 <figure><img src=".gitbook/assets/send_pdnd_6.png" alt="" width="563"><figcaption></figcaption></figure>
 
 I client possono anche essere riutilizzabili su più finalità e modificati successivamente.
 
-Puoi trovare [maggiori dettagli](https://docs.pagopa.it/interoperabilita-1/manuale-operativo/client-e-materiale-crittografico) e un [videotutorial](https://www.youtube.com/watch?v=w3ynRRMyrxg\&list=PLZcD-ZoVxFzi1f2-taSdg7a3d2UQse3\_Q\&index=10) sul client,
+Puoi trovare [maggiori dettagli](https://docs.pagopa.it/interoperabilita-1/manuale-operativo/client-e-materiale-crittografico) e un [videotutorial](https://www.youtube.com/watch?v=w3ynRRMyrxg\&list=PLZcD-ZoVxFzi1f2-taSdg7a3d2UQse3_Q\&index=10) sul client,
 
 
 
 ### 4  - Caricare una chiave pubblica
 
-Prima di caricare una chiave pubblica, entra nella sezione **Fruizione > I tuoi client** seleziona "Ispeziona" sul client di riferimento ed assicurati che sia presente "**IL TOKEN PUÒ ESSERE STACCATO: SI**" come segue:
+Prima di caricare una chiave pubblica, entra nella sezione **Fruizione > I tuoi client** seleziona "_Ispeziona_" sul client di riferimento ed assicurati che sia presente "**IL TOKEN PUÒ ESSERE STACCATO: SI**" come segue:
 
 <figure><img src=".gitbook/assets/send_pdnd_7.png" alt="" width="563"><figcaption></figcaption></figure>
 
-Poi accedi al tab "Chiavi pubbliche" e clicca su "Aggiungi"
+Poi accedi al tab "_Chiavi pubbliche_" e clicca su "_Aggiungi_"
 
 <figure><img src=".gitbook/assets/send_pdnd_8.png" alt="" width="563"><figcaption></figcaption></figure>
 
@@ -112,9 +107,9 @@ openssl pkcs8 -topk8 -inform PEM -outform PEM -nocrypt -in <nomeChiave>.rsa.pem 
 Sostituendo \<nomeChiave> con il nome che si vuole dare al file contenente la chiave.
 
 \
-Il comando genererà una coppia di chiave pubblica e privata, ed un certificato che in questo caso non è necessario utilizzare. La chiave pubblica appena ottenuta, deve essere copiata nel riquadro "Chiave pubblica" del pop up del client; quella privata rimarrà in mano all'aderente, che la manterrà al sicuro e la userà per firmare la richiesta per ottenere un voucher dal server autorizzativo di PDND Interoperabilità.
+Il comando genererà una coppia di chiave pubblica e privata, ed un certificato che in questo caso non è necessario utilizzare. La chiave pubblica appena ottenuta, deve essere copiata nel riquadro "_Chiave pubblica_" del pop up del client; quella privata rimarrà in mano all'aderente, che la manterrà al sicuro e la userà per firmare la richiesta per ottenere un voucher dal server autorizzativo di PDND Interoperabilità.
 
-Puoi trovare qui un [videotutorial](https://www.youtube.com/watch?v=q6zuJ2wn8vM\&list=PLZcD-ZoVxFzi1f2-taSdg7a3d2UQse3\_Q\&index=11) su come generare una chiave pubblica.
+Puoi trovare qui un [videotutorial](https://www.youtube.com/watch?v=q6zuJ2wn8vM\&list=PLZcD-ZoVxFzi1f2-taSdg7a3d2UQse3_Q\&index=11) su come generare una chiave pubblica.
 
 ### 5 - Generare un Voucher
 
@@ -125,7 +120,7 @@ Per prima cosa dovrai costruire una client assertion valida e firmarla con la tu
 
 <figure><img src=".gitbook/assets/send_pdnd_10.png" alt="" width="375"><figcaption></figcaption></figure>
 
-Nella prima pagina "Client assertion", potrai selezionare la chiave pubblica di riferimento e generare la client assertion con i comandi script che seguono:
+Nella prima pagina "_Client assertion_", potrai selezionare la chiave pubblica di riferimento e generare la client assertion con i comandi script che seguono:
 
 #### Script di esempio per generare un’asserzione
 
@@ -157,9 +152,9 @@ python create_client_assertion.py \
 
 Ricorda di modificare la variabile \<PATH\_CHIAVE\_PRIVATA> con il path della chiave privata generata al punto precedente. Per creare la client assertion è possibile utilizzare [questo codice](https://github.com/pagopa/pn-b2b-client/blob/develop/create-client-assertion/src/main/java/it/pagopa/pdnd/CreateClientAssertionApp.java).
 
-E' disponibile il corrispettivo codice java della classe per generare la "Client assertion"[ CreateClientAssertionApp](https://github.com/pagopa/pn-b2b-client/blob/develop/create-client-assertion/src/main/java/it/pagopa/pdnd/CreateClientAssertionApp.java).
+È disponibile il corrispettivo codice java della classe per generare la "Client assertion"[ CreateClientAssertionApp](https://github.com/pagopa/pn-b2b-client/blob/develop/create-client-assertion/src/main/java/it/pagopa/pdnd/CreateClientAssertionApp.java).
 
-Salva l'output ottenuto e vai nella seconda pagina "Stacco access token", dove dovrai lanciare il comando che trovi nella pagina in basso:\
+Salva l'output ottenuto e vai nella seconda pagina "_Stacco access token_", dove dovrai lanciare il comando che trovi nella pagina in basso:\
 \
 Esempio di cURL:
 
@@ -181,21 +176,10 @@ Come risposta al comando otterrai una response che contiene access\_token, expir
 \
 L'access\_token(PDNDVoucher) appena ottenuto corrisponde al Voucher che potrà essere utilizzato nelle chiamate verso i servizi B2B di SEND - UAT inserendolo come Header: "Authorization: Bearer \<PDNDVoucher>"
 
-Puoi trovare [qui](https://www.youtube.com/watch?v=fb-CDltaeqw\&list=PLZcD-ZoVxFzi1f2-taSdg7a3d2UQse3\_Q\&index=12) un videotutorial su come ottenere un access token
-
-
+Puoi trovare [qui](https://www.youtube.com/watch?v=fb-CDltaeqw\&list=PLZcD-ZoVxFzi1f2-taSdg7a3d2UQse3_Q\&index=12) un videotutorial su come ottenere un access token.
 
 ### 6 - Chiamare i servizi SEND - UAT
 
 A questo punto per chiamare i servizi PND sarà necessario utilizzare la baseUrl dell'Ambiente UAT:[ https://api.uat.notifichedigitali.it](https://api.uat.notifichedigitali.it/)&#x20;
 
 Inoltre dovrai generare delle nuove APIKey per l'Ambiente UAT effettuando l'accesso da qui:[ https://selfcare.uat.notifichedigitali.it/](https://selfcare.uat.notifichedigitali.it/) con le stesse credenziali ottenute in fase di Onboarding, poi selezionare l'Ente di riferimento, fare clic sulla card su Piattaforma Notifiche UAT, e generare le APIKey da utilizzare unitamente al Voucher appena creato.
-
-\
-
-
-\
-
-
-\
-\
