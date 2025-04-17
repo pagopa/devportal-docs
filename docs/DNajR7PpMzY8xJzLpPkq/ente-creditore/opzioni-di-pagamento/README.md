@@ -8,7 +8,7 @@ PagoPA mette a disposizione degli Enti Creditori (EC) una funzionalità per gest
 
 Tale URL viene invocata dalla nuova componente mediante una chiamata **`GET REST`**. L’esposizione del servizio sopraindicato è in carico all’EC in caso di integrazione sincrona, o in carico a Gestione Posizioni Debitorie (GPD) in caso di integrazione asincrona. Per riassumere, gli EC che vogliono utilizzare la nuova funzionalità di OdP devono:
 
-* configurare le stazioni per specificare se si supporta o meno il recupero delle opzioni di pagamento (per maggiori informazioni si rimanda al manuale utente del Backoffice al seguente link: [https://dev.developer.pagopa.it/pago-pa/guides/manuale-bo-ec/readme/funzionalita/stazioni/configurazione-opzioni-di-pagamento](https://dev.developer.pagopa.it/pago-pa/guides/manuale-bo-ec/readme/funzionalita/stazioni/configurazione-opzioni-di-pagamento));
+* configurare le stazioni per specificare se si supporta o meno il recupero delle opzioni di pagamento (per maggiori informazioni si rimanda al manuale utente del Backoffice al seguente link: [https://developer.pagopa.it/pago-pa/guides/manuale-bo-ec/readme/funzionalita/stazioni/configurazione-opzioni-di-pagamento](https://developer.pagopa.it/pago-pa/guides/manuale-bo-ec/readme/funzionalita/stazioni/configurazione-opzioni-di-pagamento);
 * in caso di integrazione sincrona configurare un nuovo endpoint REST per le stazioni che supportano le opzioni di pagamento;
 * implementare la logica delle opzioni di pagamento secondo quanto descritto nei [casi d'uso](casi-duso/).
 
