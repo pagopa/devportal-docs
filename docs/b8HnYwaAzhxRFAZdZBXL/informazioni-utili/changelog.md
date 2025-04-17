@@ -12,6 +12,12 @@ description: >-
 
 <summary>Aprile 2025</summary>
 
+### 1.0.144
+
+**16 aprile**
+
+* Bug fixing
+
 ### 1.0.143
 
 **14 aprile**
