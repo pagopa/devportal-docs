@@ -74,9 +74,13 @@ La prima è che il pre-requisito per poter ottenere un voucher valido è aver ca
 
 La seconda è che all'interno del payload della client assertion va specificato anche il `purposeId`, ossia l'id della finalità per la quale si richiede il voucher. Questo parametro è disponibile nel back office di PDND Interoperabilità.
 
-### Verifica di un voucher da parte di un erogatore di e-service
+### Verifica di un voucher rilasciato da PDND Interoperabilità da parte di un erogatore di e-service
 
-L'erogatore di un e-service deve ovviamente poter verificare la legittimità di qualsiasi richiesta riceva. Prima di tutto, estrae il voucher dalla richiesta, dall'header `Authorization: Bearer` nel quale arriva, e lo deserializza.&#x20;
+{% hint style="danger" %}
+Dal 1° giugno 2025 in ambiente di collaudo e dal 3 luglio in produzione saranno introdotti quattro nuovi claim. Servono a semplificare l’utilizzo della piattaforma e facilitare l’applicazione delle best practice nella verifica dei voucher erogati dalla PDND, nonché nell’uso delle relative **audience**. Tutti gli aggiornamenti saranno disponibili [qui](https://github.com/pagopa/pdnd-interop-frontend/issues/1215).
+{% endhint %}
+
+L'erogatore di un e-service deve poter verificare la legittimità di qualsiasi richiesta riceva dai fruitori. Prima di tutto, estrae il voucher rilasciato da PDND Interoperabilità dall'header `Authorization: Bearer` della richiesta, e lo deserializza.
 
 #### Contenuto di un voucher
 
@@ -84,33 +88,62 @@ A titolo esemplificativo, di seguito un esempio di contenuto di voucher deserial
 
 Header:
 
-```
-{
-  "alg": "RS256",
+<pre><code><strong>{
+</strong>  "alg": "RS256",
   "kid": "ZmYxZGE2YjQtMzY2Yy00NWI5LThjNGItMDJmYmQyZGIyMmZh",
   "typ": "at+jwt"
 }
-```
+</code></pre>
 
 Payload:
 
-```
-{
-  "iss": "interop.pagopa.it", 
+<pre><code><strong>{
+</strong>  "iss": "interop.pagopa.it", 
   "nbf": 1616170668,
   "iat": 1616170068,
   "exp": 1616170668,
   "jti": "12297ac1-c192-4573-8350-207a4213e5ac",
   "aud": "https://erogatore.example/ente-example/v1",
   "sub": "9b361d49-33f4-4f1e-a88b-4e12661f2309",
+  "client_id": "9b361d49-33f4-4f1e-a88b-4e12661f2309",
   "purposeId": "1b361d49-33f4-4f1e-a88b-4e12661f2300",
-  "client_id": "9b361d49-33f4-4f1e-a88b-4e12661f2309"
+  "producerId" : "0e9e2dab-2e93-4f24-ba59-38d9f11198ca",
+  "consumerId" : "69e2865e-65ab-4e48-a638-2037a9ee2ee7",
+  "eserviceId" : "b8c6d7ad-93fc-4eaf-9018-3cd8bf98163f",
+  "descriptorId": "9525a54b-9157-4b46-8976-ec66f20b7d7e",
+  "digest": {
+    "alg": "SHA256",
+    "value": "5db26201b684761d2b970329ab8596773164ba1b43b1559980e20045941b8065"
+  }
 }
-```
+</code></pre>
 
-#### Verifiche sugli header
+#### Significato dei campi del voucher
 
-Il voucher deve essere di tipo `at+jwt`.
+Nell'header si troveranno tre camp&#x69;_:_
+
+* `kid`: l'id della chiave che usato per firmare il vouche&#x72;_,_ reperibile sul well known di PDND Interoperabilità (vedi sotto [Verifica sulla firma](utilizzare-i-voucher.md#verifica-sulla-firma));
+* `alg`: l'algoritmo usato per firmare il JWT ( `RS256`);
+* `typ`: il tipo di oggetto che si sta inviando (`at+jwt`).
+
+Nel payload ci saranno invece tredici campi obbligatori, e uno opzionale:&#x20;
+
+* `iss`: l'issuer, rappresenta il dominio corrispondente all'authorization server di PDND Interoperabilità che ha rilasciato il voucher (ad esempio, l'issuer dell'ambiente di produzione è `interop.pagopa.it`);
+* `nbf`: not before, il timestamp dal quale è valido il voucher, espresso in [UNIX epoch](https://datatracker.ietf.org/doc/html/rfc3339) (valore numerico, non stringa). Per i voucher di PDND Interoperabilità, l'`nbf` corrisponde allo `iat`, ossia il voucher è spendibile immediatamente;
+* `iat`: issued at, il timestamp nel quale è stato rilasciato il voucher, espresso in [UNIX epoch](https://datatracker.ietf.org/doc/html/rfc3339) (valore numerico, non stringa);
+* `exp`: l'expiration, il timestamp riportante data e ora di scadenza del token, espresso in [UNIX epoch](https://datatracker.ietf.org/doc/html/rfc3339) (valore numerico, non stringa). La durata del voucher (ossia la differenza tra `nbf` ed `exp`) dipende dal valore che l'erogatore ha impostato nella configurazione dell'e-service;
+* `jti`: il JWT ID, un id unico random assegnato da PDND Interoperabilità;
+* `aud`: l'audience, ossia l'indicazione di quale servizio dell'erogatore il fruitore intenda consumare con il voucher. Il valore riportato è quello che l'erogatore ha inserito nella configurazione dell'e-service;
+* `sub`: il subject, in questo caso l'id del client che ha richiesto il voucher a PDND Interoperabilit&#xE0;_;_
+* `client_id`: l'identificativo unico del client del fruitore che ha richiesto il voucher a PDND Interoperabilità (corrisponde al `sub`);
+* `purposeId`: l'identificativo unico della finalità per la quale è rilasciato il voucher;
+* `producerId`: l'identificativo unico dell'erogatore dell'e-service;
+* `consumerId`: l'identificativo unico del fruitore;
+* `eserviceId`: l'identificativo unico dell'e-service;
+* `descriptorId`: l'identificativo unico della versione di e-service;
+* `digest` : il campo è opzionale. Fa parte del particolare caso d'uso nel quale l'erogatore richieda informazioni aggiuntive. Maggiori informazioni sono disponibili nella [sezione dedicata](utilizzare-i-voucher.md#trasmettere-e-tracciare-dati-complementari-alla-richiesta).
+
+NB: il `client_id` è presente nel token e utilizza lo snake case invece del camel case per coerenza con l'RFC di riferimento.
 
 #### Verifica sulla firma
 
@@ -120,15 +153,35 @@ L'erogatore scarica la lista di chiavi in uso da un file esposto nella cartella 
 
 All'interno del file, l'erogatore cerca l'oggetto che ha lo stesso `kid` presente nell'header del voucher. In quello stesso oggetto troverà la chiave pubblica al parametro `n`. Effettuerà dunque una verifica della firma, che la chiave privata usata per firmare il voucher corrisponda a quella pubblica appena ottenuta.
 
-#### Verifiche sul payload
+#### Verifiche standard da effettuare sul payload
 
-Quelli che interessano ai fini della verifica sono:
+I claim di interesse ai fini delle verifiche standard sono:
 
-* `iss`: l'issuer del voucher, che deve rappresentare il dominio corrispondente all'authorization server di PDND Interoperabilità che ha rilasciato il voucher stesso (ad esempio, l'issuer di produzione è `interop.pagopa.it`)
-* `exp`: la scadenza del voucher
-* `aud`: l'audience, ossia l'indicazione di quale servizio dell'erogatore il fruitore intenda consumare con il voucher
+* `iss`: l'issuer deve essere PDND Interoperabilità;
+* `nbf`: la data di inizio validità del voucher, che il voucher sia in corso di validità;
+* `exp`: la scadenza del voucher, anche in questo caso che il voucher sia in corso di validità.
 
-Il parametro `purposeId` dà il riferimento della finalità per la quale il fruitore fa richiesta all'erogatore. Attraverso successive chiamate all'API gateway di PDND Interoperabilità è possibile richiedere tutte le informazioni di contesto, in caso siano necessarie (ossia i client associati, la richiesta di fruizione e l'e-service di riferimento, ecc).
+**Verifiche sulla corrispondenza della propria risorsa sul payload**
+
+Per verificare la legittimità della richiesta per la specifica risorsa, è consigliato effettuare la verifica in uno di questi due modi.
+
+Il primo è affiancare alla verifica dell'audience (campo `aud` ) quella del `producerId`. In questo modo, c'è la doppia certezza che la risorsa richiesta sia quella corretta, e che appartenga effettivamente al proprio ente.
+
+Il secondo è verificare la corrispondenza di `eserviceId` e `descriptorId` rispetto alla propria risorsa. In questa maniera si ottiene una maggiore granularità di verifica.
+
+L'una o l'altra modalità possono essere consigliate in base alle proprie architetture e configurazioni per valutare le richieste in ingresso.
+
+#### Reperire e conservare gli identificativi
+
+Gli identificativi unici sono diversi per ogni ambiente, cioè non sono gli stessi in ambiente di collaudo e di produzione.
+
+`producerId` , `eserviceId`  e `descriptorId`  e l'audience (`aud`) sono reperibili attraverso l'interfaccia del back office nella scheda e-service di erogazione (_Erogazione > I tuoi e-service_).
+
+`purposeId`  e `consumerId`  si trovano invece nella scheda finalità di erogazione (_Erogazione > Finalità_).
+
+Tutti i parametri sono disponibili anche sulle [API esposte da PDND Interoperablità](api-esposte-da-pdnd-interoperabilita.md).
+
+Gli id non cambiano nel tempo e non contengono informazioni sensibili. Si consiglia quindi di fare caching per una maggiore efficienza nella verifica.&#x20;
 
 ## Trasmettere e tracciare dati complementari alla richiesta
 
@@ -144,8 +197,6 @@ In questo modo si avrà un indice di tutti gli allegati contenuti nel document c
 
 <img src="../.gitbook/assets/Screenshot 2024-05-20 alle 10.17.36.png" alt="" data-size="original">
 {% endhint %}
-
-
 
 ### Il flusso in breve
 
