@@ -5,11 +5,11 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 * fornire alle cittadine e ai cittadini e le cittadine un riferimento per la ricezione delle comunicazioni riguardanti i bandi di concorso del Comune;
 * monitorare e gestire tempestivamente le richieste e le comunicazioni per l’erogazione del servizio.
 
-[**Scopri tutti i benefici di integrarsi con IO →** ](https://app.gitbook.com/s/xWONfJmawghGo2ekuaKh/cose-io-e-qual-e-il-suo-obiettivo#perche-integrarsi-con-io)
+[**Scopri tutti i benefici di integrarsi con IO →**](https://app.gitbook.com/s/xWONfJmawghGo2ekuaKh/cose-io-e-qual-e-il-suo-obiettivo#perche-integrarsi-con-io)
 
 ## Scheda servizio <a href="#scheda-servizio" id="scheda-servizio"></a>
 
-<table data-header-hidden><thead><tr><th width="373"></th><th></th></tr></thead><tbody><tr><td><strong>Nome servizio</strong></td><td>Bandi di concorso</td></tr><tr><td><strong>Argomento</strong></td><td>Vita lavorativa</td></tr><tr><td><strong>Descrizione del servizio</strong></td><td><p>Il servizio riguarda i bandi di concorso.</p><p></p><p>Tramite IO potrai:</p><ul><li>ricevere comunicazioni e aggiornamenti sui bandi di concorso;</li><li>ricevere altre comunicazioni.</li></ul></td></tr><tr><td><strong>Pulsante</strong></td><td>Accedi al portale</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="373"></th><th></th></tr></thead><tbody><tr><td><strong>Nome servizio</strong></td><td>Bandi di concorso</td></tr><tr><td><strong>Argomento</strong></td><td>Vita lavorativa</td></tr><tr><td><strong>Descrizione del servizio</strong></td><td><p>Il servizio riguarda i bandi di concorso.</p><p>Tramite IO potrai:</p><ul><li>ricevere comunicazioni e aggiornamenti sui bandi di concorso;</li><li>ricevere altre comunicazioni.</li></ul></td></tr><tr><td><strong>Pulsante</strong></td><td>Accedi al portale</td></tr></tbody></table>
 
 {% include "../.gitbook/includes/banner-single-sign-on.md" %}
 
@@ -31,21 +31,21 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 <summary>Pubblicazione bando</summary>
 
-{% include "../.gitbook/includes/allegati.md" %}
+{% include "../.gitbook/includes/allegati+sso.md" %}
 
 ***
 
 **🖋 Titolo del messaggio:** Pubblicato un nuovo bando
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
-Dal \<gg/mm/aaaa> è possibile fare domanda di partecipazione al bando per \<oggetto del bando>.&#x20;
+Dal \<gg/mm/aaaa> è possibile fare domanda di partecipazione al bando per \<oggetto del bando>.
 
 Per consultare i criteri di assegnazione e fare domanda, \[visita questo sito]\(URL).
 
 \[Solo per messaggi con allegato] Trovi il testo completo del bando in allegato a questo messaggio.
 
-**🪄 Pulsante**: n/a
+**🪄 Pulsante**: Fai domanda
 
 <mark style="color:blue;">**📎 Allegato:**</mark> \<testo integrale del bando>
 
@@ -63,11 +63,11 @@ Per consultare i criteri di assegnazione e fare domanda, \[visita questo sito]\(
 
 <summary>Aggiornamento bando</summary>
 
-{% include "../.gitbook/includes/allegati.md" %}
+{% include "../.gitbook/includes/allegati+sso.md" %}
 
 ***
 
-**🖋 Titolo del messaggio:**  Il bando è stato aggiornato
+**🖋 Titolo del messaggio:** Il bando è stato aggiornato
 
 🗒 **Testo del messaggio:**
 
@@ -77,7 +77,7 @@ Per visualizzare il bando aggiornato, \[visita questo sito]\(URL).
 
 \[Solo per messaggi con allegato] Trovi il testo completo del bando aggiornato in allegato a questo messaggio.
 
-**🪄 Pulsante:** n/a
+**🪄 Pulsante:** Fai domanda
 
 <mark style="color:blue;">**📎 Allegato:**</mark> \<testo integrale del bando>
 
@@ -107,7 +107,7 @@ Il numero di protocollo è \<nnnn>.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
-**🪄  Pulsante:** n/a
+**🪄 Pulsante:** n/a
 
 ***
 
@@ -121,7 +121,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 ### Processo di selezione
 
-Se è prevista una prova pre-selettiva o una convocazione per una prova, si possono predisporre i seguenti messaggi:&#x20;
+Se è prevista una prova pre-selettiva o una convocazione per una prova, si possono predisporre i seguenti messaggi:
 
 <details>
 
@@ -229,7 +229,7 @@ Se vuoi rinunciare alla tua posizione, hai tempo fino al \<gg/mm/aaaa>.
 
 Per fare domanda di rinuncia, \[visita questo sito]\(URL).
 
-**🪄 Pulsante:** Vedi graduatoria
+**🪄 Pulsante:** Vai alla graduatoria
 
 ***
 
@@ -293,7 +293,7 @@ Per maggiori informazioni o per richiedere assistenza, contattaci tramite i cana
 
 In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio potrebbe subire variazioni.
 
-**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)
 
 ***
 
@@ -310,7 +310,7 @@ In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio p
 {% hint style="info" %}
 **Un modello da personalizzare**
 
-Le procedure di questo servizio variano molto da ente a ente. Consigliamo di utilizzare i testi dei messaggi come un punto di partenza e di aggiungere ulteriori informazioni.&#x20;
+Le procedure di questo servizio variano molto da ente a ente. Consigliamo di utilizzare i testi dei messaggi come un punto di partenza e di aggiungere ulteriori informazioni.
 
 Il modello è un esempio che non ha carattere vincolante per l’ente e sul quale la Società declina qualsiasi responsabilità, avendo valore esemplificativo.
 

@@ -9,7 +9,7 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 
 ## Scheda servizio <a href="#scheda-servizio" id="scheda-servizio"></a>
 
-<table data-header-hidden><thead><tr><th width="320"></th><th></th></tr></thead><tbody><tr><td><strong>Nome servizio</strong></td><td>Discariche e isole ecologiche</td></tr><tr><td><strong>Argomento</strong></td><td>Ambiente e animali</td></tr><tr><td><strong>Descrizione del servizio</strong></td><td><p>Il servizio riguarda l’accesso o la richiesta di informazioni per l’uso delle discariche e delle isole ecologiche.</p><p>Tramite IO potrai:</p><ul><li>ricevere comunicazioni e aggiornamenti sull’utilizzo delle discariche e delle isole ecologiche;</li><li>ricevere eventuali avvisi di pagamento e pagarli in app;</li><li>ricevere altre comunicazioni.</li></ul></td></tr><tr><td><strong>Pulsante</strong></td><td>Vedi informazioni sulle isole ecologiche</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="320"></th><th></th></tr></thead><tbody><tr><td><strong>Nome servizio</strong></td><td>Discariche e isole ecologiche</td></tr><tr><td><strong>Argomento</strong></td><td>Ambiente e animali</td></tr><tr><td><strong>Descrizione del servizio</strong></td><td><p>Il servizio riguarda l’accesso o la richiesta di informazioni per l’uso delle discariche e delle isole ecologiche.</p><p>Tramite IO potrai:</p><ul><li>ricevere comunicazioni e aggiornamenti sull’utilizzo delle discariche e delle isole ecologiche;</li><li>ricevere eventuali avvisi di pagamento e pagarli in app;</li><li>ricevere altre comunicazioni.</li></ul></td></tr><tr><td><strong>Pulsante</strong></td><td>Vai alle informazioni</td></tr></tbody></table>
 
 ## Ciclo di vita del servizio
 

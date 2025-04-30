@@ -5,11 +5,11 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 * fornire alle cittadine e i cittadini un riferimento per la ricezione delle comunicazioni riguardanti le richieste di cittadinanza italiana;
 * monitorare e gestire tempestivamente le richieste, comunicazioni e i pagamenti per l’erogazione del servizio.
 
-[**Scopri tutti i benefici di integrarsi con IO →** ](https://docs.pagopa.it/manuale-servizi/lapp-io/cose-io-e-qual-e-il-suo-obiettivo)
+[**Scopri tutti i benefici di integrarsi con IO →**](https://docs.pagopa.it/manuale-servizi/lapp-io/cose-io-e-qual-e-il-suo-obiettivo)
 
 ## Scheda servizio <a href="#scheda-servizio" id="scheda-servizio"></a>
 
-<table data-header-hidden><thead><tr><th width="373"></th><th></th></tr></thead><tbody><tr><td><strong>Nome servizio</strong></td><td>Cittadinanza italiana</td></tr><tr><td><strong>Argomento</strong></td><td>Servizi anagrafici e civici</td></tr><tr><td><strong>Descrizione del servizio</strong></td><td><p>Il servizio riguarda le richieste di cittadinanza italiana.</p><p></p><p>Tramite IO potrai:</p><ul><li>ricevere aggiornamenti sulla richiesta di cittadinanza;</li><li>ricevere comunicazioni sulla cerimonia di giuramento;</li><li>ricevere altre comunicazioni.</li></ul></td></tr><tr><td><strong>Pulsante</strong></td><td>Prenota appuntamento</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="373"></th><th></th></tr></thead><tbody><tr><td><strong>Nome servizio</strong></td><td>Cittadinanza italiana</td></tr><tr><td><strong>Argomento</strong></td><td>Servizi anagrafici e civici</td></tr><tr><td><strong>Descrizione del servizio</strong></td><td><p>Il servizio riguarda le richieste di cittadinanza italiana.</p><p>Tramite IO potrai:</p><ul><li>ricevere aggiornamenti sulla richiesta di cittadinanza;</li><li>ricevere comunicazioni sulla cerimonia di giuramento;</li><li>ricevere altre comunicazioni.</li></ul></td></tr><tr><td><strong>Pulsante</strong></td><td>Prenota appuntamento</td></tr></tbody></table>
 
 {% include "../.gitbook/includes/banner-single-sign-on.md" %}
 
@@ -30,6 +30,10 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 <details>
 
 <summary>Possibilità di avvio pratica cittadinanza</summary>
+
+{% include "../.gitbook/includes/single-sign-on.md" %}
+
+***
 
 **🖋 Titolo del messaggio:** Puoi presentare richiesta di cittadinanza
 
@@ -60,6 +64,10 @@ Per prenotare il tuo appuntamento, \[visita questo sito]\(URL).
 <details>
 
 <summary>Conferma prenotazione appuntamento per il riconoscimento</summary>
+
+{% include "../.gitbook/includes/single-sign-on.md" %}
+
+***
 
 **🖋 Titolo del messaggio:** Il tuo appuntamento
 
@@ -117,7 +125,7 @@ Per maggiori informazioni o per richiedere assistenza, contattaci tramite i cana
 
 In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio potrebbe subire variazioni.
 
-**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)
 
 ***
 
@@ -143,7 +151,7 @@ Il tuo pagamento per \<causale> sta per scadere.
 
 Se hai già provveduto a pagare l’avviso ignora questo messaggio.
 
-**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)
 
 ***
 
@@ -157,7 +165,7 @@ Se hai già provveduto a pagare l’avviso ignora questo messaggio.
 
 ### Concessione cittadinanza
 
-Questi messaggi di gestione appuntamenti prenotazione possono essere utilizzati se l'ente già offre questa parte del servizio.&#x20;
+Questi messaggi di gestione appuntamenti prenotazione possono essere utilizzati se l'ente già offre questa parte del servizio.
 
 <details>
 
@@ -188,6 +196,10 @@ Per prenotare il tuo giuramento e ulteriori informazioni, \[visita questo sito]\
 <details>
 
 <summary>Conferma prenotazione appuntamento per il giuramento</summary>
+
+{% include "../.gitbook/includes/single-sign-on.md" %}
+
+***
 
 **🖋 Titolo del messaggio:** Il tuo appuntamento
 
@@ -235,7 +247,7 @@ Il \<gg/mm/aaaa> hai acquisito la cittadinanza italiana.
 
 \[Ad esempio] Se vuoi richiedere la Carta d'Identità Elettronica (CIE)\[visita questa pagina]\(URL).
 
-Per ulteriori informazioni, \[visita il sito]\(URL).&#x20;
+Per ulteriori informazioni, \[visita il sito]\(URL).
 
 **🪄 Pulsante:** n/a
 
@@ -254,7 +266,7 @@ Per ulteriori informazioni, \[visita il sito]\(URL).&#x20;
 {% hint style="info" %}
 **Un modello da personalizzare**
 
-Le procedure di questo servizio variano molto da ente a ente. Consigliamo di utilizzare i testi dei messaggi come un punto di partenza e di aggiungere ulteriori informazioni.&#x20;
+Le procedure di questo servizio variano molto da ente a ente. Consigliamo di utilizzare i testi dei messaggi come un punto di partenza e di aggiungere ulteriori informazioni.
 
 Il modello è un esempio che non ha carattere vincolante per l’ente e sul quale la Società declina qualsiasi responsabilità, avendo valore esemplificativo.
 

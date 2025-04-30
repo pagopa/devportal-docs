@@ -5,11 +5,11 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 * fornire alle cittadine e ai cittadini un riferimento per la ricezione delle comunicazioni riguardanti l’assegnazione di alloggi sociali nel Comune;
 * monitorare e gestire tempestivamente le richieste e comunicazioni per l’erogazione del servizio.
 
-[**Scopri tutti i benefici di integrarsi con IO →** ](https://docs.pagopa.it/manuale-servizi/lapp-io/cose-io-e-qual-e-il-suo-obiettivo)
+[**Scopri tutti i benefici di integrarsi con IO →**](https://docs.pagopa.it/manuale-servizi/lapp-io/cose-io-e-qual-e-il-suo-obiettivo)
 
 ## Scheda servizio <a href="#scheda-servizio" id="scheda-servizio"></a>
 
-<table data-header-hidden><thead><tr><th width="373"></th><th></th></tr></thead><tbody><tr><td><strong>Nome servizio</strong></td><td>Alloggi sociali</td></tr><tr><td><strong>Argomento</strong></td><td>Benessere sociale</td></tr><tr><td><strong>Descrizione del servizio</strong></td><td><p>Il servizio riguarda la richiesta e l’assegnazione di alloggi sociali.</p><p></p><p>Tramite IO potrai:</p><ul><li>ricevere informazioni sull’apertura dei bandi e sulle modalità di presentazione della domanda e sulle graduatorie;</li><li>ricevere eventuali avvisi di pagamento e pagarli in app;</li><li>ricevere altre comunicazioni.</li></ul></td></tr><tr><td><strong>Pulsante</strong></td><td>Prenota appuntamento</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="373"></th><th></th></tr></thead><tbody><tr><td><strong>Nome servizio</strong></td><td>Alloggi sociali</td></tr><tr><td><strong>Argomento</strong></td><td>Benessere sociale</td></tr><tr><td><strong>Descrizione del servizio</strong></td><td><p>Il servizio riguarda la richiesta e l’assegnazione di alloggi sociali.</p><p>Tramite IO potrai:</p><ul><li>ricevere informazioni sull’apertura dei bandi e sulle modalità di presentazione della domanda e sulle graduatorie;</li><li>ricevere eventuali avvisi di pagamento e pagarli in app;</li><li>ricevere altre comunicazioni.</li></ul></td></tr><tr><td><strong>Pulsante</strong></td><td>Prenota appuntamento</td></tr></tbody></table>
 
 {% include "../.gitbook/includes/banner-single-sign-on.md" %}
 
@@ -31,13 +31,13 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 <summary>Pubblicazione bando</summary>
 
-{% include "../.gitbook/includes/allegati.md" %}
+{% include "../.gitbook/includes/allegati+sso.md" %}
 
 ***
 
 **🖋 Titolo del messaggio:** Pubblicato un nuovo bando
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Il \<gg/mm/aaaa> è stato pubblicato il bando per l’assegnazione di alloggi nel Comune di \<Comune>.
 
@@ -47,7 +47,7 @@ Per consultare i criteri di assegnazione e scaricare la modulistica, \[visita qu
 
 \[Solo per messaggi con allegato] Trovi il testo completo del bando in allegato a questo messaggio.
 
-**🪄 Pulsante**: n/a
+**🪄 Pulsante**: Vai ai bandi aperti
 
 <mark style="color:blue;">**📎 Allegato:**</mark> \<testo integrale del bando>
 
@@ -71,7 +71,7 @@ Per consultare i criteri di assegnazione e scaricare la modulistica, \[visita qu
 
 ***
 
-**🖋 Titolo del messaggio:** Il tuo appuntamento&#x20;
+**🖋 Titolo del messaggio:** Il tuo appuntamento
 
 🗒 **Testo del messaggio:**
 
@@ -109,7 +109,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 **🖋 Titolo del messaggio:** Hai un nuovo avviso di pagamento
 
-🗒 **Testo del messaggio:**&#x20;
+🗒 **Testo del messaggio:**
 
 C'è un avviso da pagare intestato a \<nome> \<cognome> e relativo a \<causale>.
 
@@ -125,7 +125,7 @@ Per maggiori informazioni o per richiedere assistenza, contattaci tramite i cana
 
 In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio potrebbe subire variazioni.
 
-**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)
 
 ***
 
@@ -145,13 +145,13 @@ In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio p
 
 **🖋 Titolo del messaggio:** Hai un pagamento in scadenza
 
-🗒 **Testo del messaggio:**&#x20;
+🗒 **Testo del messaggio:**
 
 Il tuo pagamento per \<causale> sta per scadere.
 
 Se hai già provveduto a pagare l’avviso ignora questo messaggio.
 
-**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)
 
 ***
 
@@ -169,9 +169,13 @@ Se hai già provveduto a pagare l’avviso ignora questo messaggio.
 
 <summary>Conferma di presa in carico della domanda</summary>
 
+{% include "../.gitbook/includes/single-sign-on.md" %}
+
+***
+
 **🖋 Titolo del messaggio:** La tua domanda è stata presa in carico
 
-🗒 **Testo del messaggio:**&#x20;
+🗒 **Testo del messaggio:**
 
 La tua domanda è stata presa in carico.
 
@@ -181,7 +185,7 @@ Riceverai un messaggio in app che ti avverte dell’apertura del periodo di asse
 
 Per vedere la tua domanda, \[visita questo sito]\(URL).
 
-**🪄 Pulsante:** n/a
+**🪄 Pulsante:** Consulta la pratica
 
 ***
 
@@ -203,7 +207,7 @@ Per vedere la tua domanda, \[visita questo sito]\(URL).
 
 ***
 
-**🖋 Titolo del messaggio:** Richiesta di integrazione&#x20;
+**🖋 Titolo del messaggio:** Richiesta di integrazione
 
 🗒 **Testo del messaggio:**
 
@@ -211,7 +215,7 @@ Per elaborare la tua domanda abbiamo bisogno di ricevere entro il \<gg/mm/aaaa> 
 
 Consulta il riepilogo della tua domanda, \[visita questo sito]\(URL).
 
-**🪄 Pulsante:** Accedi al portale&#x20;
+**🪄 Pulsante:** Accedi al portale
 
 ***
 
@@ -243,7 +247,7 @@ Hai tempo fino al \<gg/mm/aaaa>.
 
 Per consultare i criteri di assegnazione e presentare domanda, \[visita questo sito]\(URL).
 
-**🪄 Pulsante:** Fai domanda&#x20;
+**🪄 Pulsante:** Fai domanda
 
 ***
 
@@ -273,7 +277,7 @@ Per consultare i criteri di assegnazione e presentare domanda, \[visita questo s
 
 Per visualizzare la tua posizione in graduatoria \[visita questo sito]\(URL).
 
-**🪄 Pulsante:** Vai alla graduatoria&#x20;
+**🪄 Pulsante:** Vai alla graduatoria
 
 ***
 
@@ -303,7 +307,7 @@ Per visualizzare la tua posizione in graduatoria \[visita questo sito]\(URL).
 
 Per visualizzare la tua posizione in graduatoria \[visita questo sito]\(URL).
 
-**🪄 Pulsante:** Vai alla graduatoria&#x20;
+**🪄 Pulsante:** Vai alla graduatoria
 
 ***
 
@@ -423,7 +427,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 **🖋 Titolo del messaggio:** Hai un nuovo avviso di pagamento
 
-🗒 **Testo del messaggio:**&#x20;
+🗒 **Testo del messaggio:**
 
 C'è un avviso da pagare intestato a \<nome> \<cognome> e relativo a \<causale>.
 
@@ -439,7 +443,7 @@ Per maggiori informazioni o per richiedere assistenza, contattaci tramite i cana
 
 In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio potrebbe subire variazioni.
 
-**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)
 
 ***
 
@@ -459,13 +463,13 @@ In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio p
 
 **🖋 Titolo del messaggio:** Hai un pagamento in scadenza
 
-🗒 **Testo del messaggio:**&#x20;
+🗒 **Testo del messaggio:**
 
 Il tuo pagamento per \<causale> sta per scadere.
 
 Se hai già provveduto a pagare l’avviso ignora questo messaggio.
 
-**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)
 
 ***
 
@@ -495,7 +499,7 @@ Il tuo pagamento relativo a \<causale> è scaduto il \<gg/mm/aaaa>.
 
 Se hai già provveduto a pagare l’avviso ignora questo messaggio.
 
-**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)
 
 ***
 
@@ -519,7 +523,7 @@ IO è integrata con SEND - Servizio Notifiche Digitale, per l'invio di comunicaz
 {% hint style="info" %}
 **Un modello da personalizzare**
 
-Le procedure di questo servizio variano molto da ente a ente. Consigliamo di utilizzare i testi dei messaggi come un punto di partenza e di aggiungere ulteriori informazioni.&#x20;
+Le procedure di questo servizio variano molto da ente a ente. Consigliamo di utilizzare i testi dei messaggi come un punto di partenza e di aggiungere ulteriori informazioni.
 
 Il modello è un esempio che non ha carattere vincolante per l’ente e sul quale la Società declina qualsiasi responsabilità, avendo valore esemplificativo.
 

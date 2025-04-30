@@ -5,11 +5,11 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 * fornire alle cittadine e ai cittadini un riferimento per la ricezione delle comunicazioni riguardanti i servizi anagrafici;
 * monitorare e gestire tempestivamente le richieste, comunicazioni e i pagamenti per l’erogazione del servizio.
 
-[**Scopri tutti i benefici di integrarsi con IO →** ](https://docs.pagopa.it/manuale-servizi/lapp-io/cose-io-e-qual-e-il-suo-obiettivo)
+[**Scopri tutti i benefici di integrarsi con IO →**](https://docs.pagopa.it/manuale-servizi/lapp-io/cose-io-e-qual-e-il-suo-obiettivo)
 
 ## Scheda servizio <a href="#scheda-servizio" id="scheda-servizio"></a>
 
-<table data-header-hidden><thead><tr><th width="373"></th><th></th></tr></thead><tbody><tr><td><strong>Nome servizio</strong></td><td>Anagrafe</td></tr><tr><td><strong>Argomento</strong></td><td>Servizi anagrafici e civici</td></tr><tr><td><strong>Descrizione del servizio</strong></td><td><p>Il servizio ti invia informazioni sulle pratiche anagrafiche, sul registro della popolazione, sulle autenticazioni e sulle certificazioni.</p><p></p><p>Tramite IO potrai:</p><ul><li>ricevere comunicazioni e aggiornamenti sulle pratiche presentate;</li><li>ricevere comunicazioni su autentiche, atti notori e richieste di certificati;</li><li>ricevere comunicazioni e aggiornamenti sugli appuntamenti;</li><li>ricevere altre comunicazioni.</li></ul></td></tr><tr><td><strong>Pulsante</strong></td><td>Vai alla modulistica</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="373"></th><th></th></tr></thead><tbody><tr><td><strong>Nome servizio</strong></td><td>Anagrafe</td></tr><tr><td><strong>Argomento</strong></td><td>Servizi anagrafici e civici</td></tr><tr><td><strong>Descrizione del servizio</strong></td><td><p>Il servizio ti invia informazioni sulle pratiche anagrafiche, sul registro della popolazione, sulle autenticazioni e sulle certificazioni.</p><p>Tramite IO potrai:</p><ul><li>ricevere comunicazioni e aggiornamenti sulle pratiche presentate;</li><li>ricevere comunicazioni su autentiche, atti notori e richieste di certificati;</li><li>ricevere comunicazioni e aggiornamenti sugli appuntamenti;</li><li>ricevere altre comunicazioni.</li></ul></td></tr><tr><td><strong>Pulsante</strong></td><td>Vai alla modulistica</td></tr></tbody></table>
 
 {% include "../.gitbook/includes/banner-single-sign-on.md" %}
 
@@ -31,9 +31,13 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 <summary>Sollecito rinnovo</summary>
 
+{% include "../.gitbook/includes/single-sign-on.md" %}
+
+***
+
 **🖋 Titolo del messaggio:** Hai un documento in scadenza
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Il tuo documento \<tipo documento> sta per scadere.
 
@@ -45,7 +49,7 @@ Per prenotare il tuo appuntamento, \[visita questo sito]\(URL).
 
 ***
 
-**Destinatari**: Tutti gli utenti con documenti anagrafici prossimi alla scadenza nell’area geografica di azione del servizio.&#x20;
+**Destinatari**: Tutti gli utenti con documenti anagrafici prossimi alla scadenza nell’area geografica di azione del servizio.
 
 **Quando inviarlo**: Quando il documento è prossimo alla scadenza.
 
@@ -115,7 +119,7 @@ Per maggiori informazioni o per richiedere assistenza, contattaci tramite i cana
 
 In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio potrebbe subire variazioni.
 
-**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)
 
 ***
 
@@ -141,7 +145,7 @@ Il tuo pagamento per \<causale> sta per scadere.
 
 Se hai già provveduto a pagare l’avviso, ignora questo messaggio.
 
-**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)
 
 ***
 
@@ -167,7 +171,7 @@ Se hai già provveduto a pagare l’avviso, ignora questo messaggio.
 
 🗒 **Testo del messaggio:**
 
-Per elaborare la tua richiesta di rinnovo per \<tipo documento> al servizio \<tipologia di servizio> abbiamo bisogno di ricevere entro il \<gg/mm/aaaa> altri documenti.&#x20;
+Per elaborare la tua richiesta di rinnovo per \<tipo documento> al servizio \<tipologia di servizio> abbiamo bisogno di ricevere entro il \<gg/mm/aaaa> altri documenti.
 
 Consulta il riepilogo della richiesta<mark style="color:purple;">,</mark>\[visita questo sito]\(URL).
 
@@ -329,7 +333,7 @@ IO è integrata con SEND - Servizio Notifiche Digitale, per l'invio di comunicaz
 {% hint style="info" %}
 **Un modello da personalizzare**
 
-Le procedure di questo servizio variano molto da ente a ente. Consigliamo di utilizzare i testi dei messaggi come un punto di partenza e di aggiungere ulteriori informazioni.&#x20;
+Le procedure di questo servizio variano molto da ente a ente. Consigliamo di utilizzare i testi dei messaggi come un punto di partenza e di aggiungere ulteriori informazioni.
 
 Il modello è un esempio che non ha carattere vincolante per l’ente e sul quale la Società declina qualsiasi responsabilità, avendo valore esemplificativo.
 

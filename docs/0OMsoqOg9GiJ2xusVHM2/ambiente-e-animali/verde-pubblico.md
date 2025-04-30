@@ -13,8 +13,6 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 
 {% include "../.gitbook/includes/banner-single-sign-on.md" %}
 
-
-
 ## Ciclo di vita del servizio
 
 <figure><img src="../.gitbook/assets/image (76).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Verde pubblico</strong></p></figcaption></figure>
@@ -113,7 +111,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 <summary>Emissione autorizzazione in formato digitale</summary>
 
-{% include "../.gitbook/includes/allegati.md" %}
+{% include "../.gitbook/includes/allegati+sso.md" %}
 
 ***
 
@@ -129,7 +127,7 @@ Per visualizzarla, \[visita questo sito]\(URL).
 
 \[Inserire qui indicazioni su eventuali ulteriori passi per il cittadino]
 
-**🪄 Pulsante:** n/a
+**🪄 Pulsante:** Scarica il documento
 
 <mark style="color:blue;">**📎 Allegato:**</mark> \<autorizzazione>
 
@@ -231,7 +229,7 @@ Per maggiori informazioni o per richiedere assistenza, contattaci tramite i cana
 
 In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio potrebbe subire variazioni.
 
-**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)
 
 ***
 
@@ -257,7 +255,7 @@ Il tuo pagamento per \<causale> sta per scadere.
 
 Se hai già provveduto a pagare l'avviso, ignora questo messaggio.
 
-**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)
 
 ***
 

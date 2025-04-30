@@ -5,11 +5,11 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 * fornire alle cittadine e ai cittadini un riferimento per la ricezione delle comunicazioni riguardanti il sistema scolastico frequentato dai minori a carico;
 * monitorare e gestire tempestivamente le richieste e le comunicazioni per l’erogazione del servizio.
 
-[**Scopri tutti i benefici di integrarsi con IO →** ](https://docs.pagopa.it/manuale-servizi/lapp-io/cose-io-e-qual-e-il-suo-obiettivo)
+[**Scopri tutti i benefici di integrarsi con IO →**](https://docs.pagopa.it/manuale-servizi/lapp-io/cose-io-e-qual-e-il-suo-obiettivo)
 
 ## Scheda servizio <a href="#scheda-servizio" id="scheda-servizio"></a>
 
-<table data-header-hidden><thead><tr><th width="373"></th><th></th></tr></thead><tbody><tr><td><strong>Nome servizio</strong></td><td>Scuola primaria e secondaria</td></tr><tr><td><strong>Argomento</strong></td><td>Educazione e formazione</td></tr><tr><td><strong>Descrizione del servizio</strong></td><td><p>Il servizio riguarda le attività scolastiche ed extrascolastiche per la scuola primaria e secondaria.</p><p></p><p>Tramite IO potrai:</p><ul><li>ricevere comunicazioni e aggiornamenti sulle richieste presentate, sulle attività e sugli orari;</li><li>ricevere avvisi di pagamento e pagarli in app;</li><li>richiedere l’iscrizione al servizio di pre-post scuola;</li><li>ricevere altre comunicazioni.</li></ul></td></tr><tr><td><strong>Pulsante</strong></td><td>Vedi iscrizioni aperte</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="373"></th><th></th></tr></thead><tbody><tr><td><strong>Nome servizio</strong></td><td>Scuola primaria e secondaria</td></tr><tr><td><strong>Argomento</strong></td><td>Educazione e formazione</td></tr><tr><td><strong>Descrizione del servizio</strong></td><td><p>Il servizio riguarda le attività scolastiche ed extrascolastiche per la scuola primaria e secondaria.</p><p>Tramite IO potrai:</p><ul><li>ricevere comunicazioni e aggiornamenti sulle richieste presentate, sulle attività e sugli orari;</li><li>ricevere avvisi di pagamento e pagarli in app;</li><li>richiedere l’iscrizione al servizio di pre-post scuola;</li><li>ricevere altre comunicazioni.</li></ul></td></tr><tr><td><strong>Pulsante</strong></td><td>Consulta iscrizioni aperte</td></tr></tbody></table>
 
 {% include "../.gitbook/includes/banner-single-sign-on.md" %}
 
@@ -37,7 +37,7 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 **🖋 Titolo del messaggio:** Sono aperte le iscrizioni per l’anno educativo \<aaaa/aaaa>
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Dal \<gg/mm/aaaa> al \<gg/mm/aaaa> potrai fare domanda di iscrizione al servizio \<tipologia di servizio> per l’anno educativo \<aaaa/aaaa>.
 
@@ -57,7 +57,7 @@ Per ulteriori informazioni e fare domanda d’iscrizione, \[visita questo sito]\
 
 ### Presentazione della domanda di iscrizione
 
-La compilazione della domanda può prevedere diversi stati di elaborazione rappresentati dai messaggi seguenti. Se questi stati non sono già comunicati al cittadino tramite procedura digitalizzata, consigliamo di integrare eventuali comunicazioni con questi messaggi, per aggiornare il cittadino sullo stato della domanda.&#x20;
+La compilazione della domanda può prevedere diversi stati di elaborazione rappresentati dai messaggi seguenti. Se questi stati non sono già comunicati al cittadino tramite procedura digitalizzata, consigliamo di integrare eventuali comunicazioni con questi messaggi, per aggiornare il cittadino sullo stato della domanda.
 
 <details>
 
@@ -69,15 +69,15 @@ La compilazione della domanda può prevedere diversi stati di elaborazione rappr
 
 **🖋 Titolo del messaggio:** Abbiamo ricevuto la tua domanda
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
-Il \<gg/mm/aaaa> abbiamo ricevuto la tua domanda di iscrizione per \<nome> \<cognome> al servizio \<tipologia del servizio>  per l’anno educativo \<aaaa/aaaa>.&#x20;
+Il \<gg/mm/aaaa> abbiamo ricevuto la tua domanda di iscrizione per \<nome> \<cognome> al servizio \<tipologia del servizio> per l’anno educativo \<aaaa/aaaa>.
 
 Il numero di protocollo della tua domanda è: \<nnnn>
 
 Per consultare il riepilogo della domanda, \[visita questo sito]\(URL).
 
-**🪄 Pulsante**: Vai alla tua domanda&#x20;
+**🪄 Pulsante**: Vai alla tua domanda
 
 ***
 
@@ -93,15 +93,19 @@ Per consultare il riepilogo della domanda, \[visita questo sito]\(URL).
 
 <summary>Domanda di iscrizione: integrazione documentazione</summary>
 
+{% include "../.gitbook/includes/single-sign-on.md" %}
+
+***
+
 **🖋 Titolo del messaggio:** Richiesta di integrazione
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Per elaborare la tua domanda di iscrizione per \<nome> \<cognome> al servizio \<tipologia di servizio> nr. \<nnnn> per l’anno educativo \<aaaa/aaaa>, abbiamo bisogno di ricevere entro il \<gg/mm/aaaa> altri documenti.
 
 Consulta il riepilogo della domanda, \[visita questo sito]\(URL).
 
-**🪄 Pulsante**: n/a
+**🪄 Pulsante**: Aggiungi documenti
 
 ***
 
@@ -119,12 +123,12 @@ Consulta il riepilogo della domanda, \[visita questo sito]\(URL).
 
 **🖋 Titolo del messaggio:** La tua domanda è stata accolta
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
-La domanda di iscrizione per \<nome> \<cognome> al servizio \<tipologia di servizio> nr. \<nnnn> per l'anno educativo \<aaaa/aaaa> è stata accolta in \<gg/mm/aaaa>. \
+La domanda di iscrizione per \<nome> \<cognome> al servizio \<tipologia di servizio> nr. \<nnnn> per l'anno educativo \<aaaa/aaaa> è stata accolta in \<gg/mm/aaaa>.\
 Sarà possibile consultare la propria posizione in graduatoria dal \<gg/mm/aaaa>.
 
-\[Se previsto] Per consultare il riepilogo della domanda, \[visita questo sito]\(URL).&#x20;
+\[Se previsto] Per consultare il riepilogo della domanda, \[visita questo sito]\(URL).
 
 **🪄 Pulsante**: n/a
 
@@ -144,11 +148,11 @@ Sarà possibile consultare la propria posizione in graduatoria dal \<gg/mm/aaaa>
 
 **🖋 Titolo del messaggio:** La tua domanda non è stata accolta
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
-La domanda di iscrizione per \<nome> \<cognome> al servizio \<tipologia di servizio> nr. \<nnnn> per l'anno educativo \<aaaa/aaaa> non è stata accolta.&#x20;
+La domanda di iscrizione per \<nome> \<cognome> al servizio \<tipologia di servizio> nr. \<nnnn> per l'anno educativo \<aaaa/aaaa> non è stata accolta.
 
-Per ulteriori informazioni, \[visita questo sito]\(URL).&#x20;
+Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 **🪄 Pulsante**: n/a
 
@@ -174,7 +178,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).&#x20;
 
 **🖋 Titolo del messaggio:** Pubblicata la graduatoria \<provvisoria/definitiva> per l’anno \<aaaa/aaaa>
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 È disponibile la graduatoria di ammissione al servizio \<tipologia di servizio> per l’anno educativo \<aaaa/aaaa> per \<nome> \<cognome>.
 
@@ -184,7 +188,7 @@ Se vuoi rinunciare alla tua posizione, hai tempo fino al \<gg/mm/aaaa>.
 
 Per visualizzare la tua posizione in graduatoria \[visita questo sito]\(URL).
 
-**🪄 Pulsante**:Vai alla graduatoria&#x20;
+**🪄 Pulsante**: Vai alla graduatoria
 
 ***
 
@@ -226,7 +230,7 @@ Per maggiori informazioni o per richiedere assistenza, contattaci tramite i cana
 
 In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio potrebbe subire variazioni.
 
-**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)
 
 ***
 
@@ -246,13 +250,13 @@ In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio p
 
 **🖋 Titolo del messaggio:** Hai un pagamento in scadenza
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Il tuo pagamento per \<servizio> sta per scadere.
 
 Se hai già provveduto a pagare l’avviso ignora questo messaggio.
 
-**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)
 
 ***
 
@@ -276,13 +280,13 @@ Il seguente messaggio serve a sensibilizzare il cittadino per il mancato pagamen
 
 **🖋 Titolo del messaggio:** Pagamento non effettuato
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Il tuo pagamento per \<causale> è scaduto il \<gg/mm/aaaa>.
 
 Se hai già provveduto a pagare l’avviso ignora questo messaggio.
 
-**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)
 
 ***
 
@@ -300,13 +304,13 @@ Se hai già provveduto a pagare l’avviso ignora questo messaggio.
 
 **🖋 Titolo del messaggio:** L'iscrizione al servizio è bloccata da pagamenti insoluti
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Risultano pagamenti insoluti a carico di \<nome> \<cognome> e relative a \<causale>.
 
 Per maggiori informazioni o per richiedere assistenza, contattaci tramite i canali che trovi nella scheda servizio.
 
-**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)
 
 ***
 
@@ -330,7 +334,7 @@ I seguenti messaggi presentano i diversi stati di elaborazione.
 
 **🖋 Titolo del messaggio:** Abbiamo ricevuto la tua richiesta di rinuncia
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Abbiamo ricevuto la tua richiesta di rinuncia alla posizione in graduatoria per il servizio \<tipologia di servizio> per l’anno educativo \<aaaa/aaaa>.
 
@@ -354,7 +358,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 **🖋 Titolo del messaggio:** Hai rinunciato alla tua posizione
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 La tua richiesta di rinuncia alla tua posizione in graduatoria per il servizio \<tipologia di servizio> per l’anno educativo \<aaaa/aaaa> è stata accolta.
 
@@ -380,7 +384,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 **🖋 Titolo del messaggio:** La tua richiesta di rimborso è stata accolta
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 La tua richiesta di rimborso per il servizio \<tipologia di servizio> per \<nome> \<cognome> per l’anno \<aaaa/aaaa> è stata accolta.
 
@@ -406,9 +410,9 @@ Entro il: \<gg/mm/aaaa>
 
 **🖋 Titolo del messaggio:** La tua richiesta di rimborso non è stata accolta
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
-La domanda per rimborso per il servizio \<tipologia di servizi> per \<nome> \<cognome> per l’anno \<aaaa/aaaa> non è stata accolta.&#x20;
+La domanda per rimborso per il servizio \<tipologia di servizi> per \<nome> \<cognome> per l’anno \<aaaa/aaaa> non è stata accolta.
 
 Per ulteriori informazioni, \[visita il sito]\(URL).
 
@@ -430,7 +434,7 @@ Per ulteriori informazioni, \[visita il sito]\(URL).
 
 **🖋 Titolo del messaggio:** Il tuo rimborso è in arrivo
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Il gg/mm/aaaa abbiamo emesso un rimborso per l’iscrizione al servizio \<tipologia di servizio> per l’anno educativo \<aaaa/aaaa>.
 
@@ -438,7 +442,7 @@ Il gg/mm/aaaa abbiamo emesso un rimborso per l’iscrizione al servizio \<tipolo
 
 Per maggiori informazioni o per richiedere assistenza, contattaci tramite i canali che trovi nella scheda servizio.
 
-**🪄 Pulsante**: Vedi ricevuta
+**🪄 Pulsante**: Vai alla ricevuta
 
 ***
 
@@ -460,13 +464,13 @@ In determinate circostanze la posizione in graduatoria può essere depennata, ad
 
 **🖋 Titolo del messaggio:** La tua posizione in graduatoria sta per essere depennata
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 La tua posizione in graduatoria per il servizio \<tipologia di servizio> per \<nome> \<cognome> è prossima al depennamento per mancato pagamento.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
-**🪄 Pulsante**: Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
+**🪄 Pulsante**: Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)
 
 ***
 
@@ -484,7 +488,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 **🖋 Titolo del messaggio:** La tua posizione in graduatoria sta per essere depennata
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 La tua posizione in graduatoria per il servizio \<tipologia di servizio> per \<nome> \<cognome> è prossima al depennamento.
 
@@ -508,7 +512,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 **🖋 Titolo del messaggio:** La tua posizione in graduatoria è stata depennata
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 La tua posizione in graduatoria per il servizio \<tipologia servizio> per \<nome> \<cognome> per l’anno \<aaaa/aaaa> è stata depennata il \<gg/mm/aaaa>.
 
@@ -538,7 +542,7 @@ IO è integrata con SEND - Servizio Notifiche Digitale, per l'invio di comunicaz
 {% hint style="info" %}
 **Un modello da personalizzare**
 
-Le procedure di questo servizio variano molto da ente a ente. Consigliamo di utilizzare i testi dei messaggi come un punto di partenza e di aggiungere ulteriori informazioni.&#x20;
+Le procedure di questo servizio variano molto da ente a ente. Consigliamo di utilizzare i testi dei messaggi come un punto di partenza e di aggiungere ulteriori informazioni.
 
 Il modello è un esempio che non ha carattere vincolante per l’ente e sul quale la Società declina qualsiasi responsabilità, avendo valore esemplificativo.
 

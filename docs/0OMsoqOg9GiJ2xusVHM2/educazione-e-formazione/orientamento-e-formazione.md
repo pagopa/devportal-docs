@@ -2,14 +2,14 @@
 
 Erogare il servizio tramite l'app IO permette agli enti di:
 
-* promuovere nuove iniziative e opportunità erogate dall'ente stesso a studenti di diverse scuole e fasce d'età;&#x20;
+* promuovere nuove iniziative e opportunità erogate dall'ente stesso a studenti di diverse scuole e fasce d'età;
 * promuovere percorsi di orientamento nelle scuole e università locali.
 
-[**Scopri tutti i benefici di integrarsi con IO →** ](https://docs.pagopa.it/manuale-servizi/lapp-io/cose-io-e-qual-e-il-suo-obiettivo)
+[**Scopri tutti i benefici di integrarsi con IO →**](https://docs.pagopa.it/manuale-servizi/lapp-io/cose-io-e-qual-e-il-suo-obiettivo)
 
 ## Scheda servizio <a href="#scheda-servizio" id="scheda-servizio"></a>
 
-<table data-header-hidden><thead><tr><th width="373"></th><th></th></tr></thead><tbody><tr><td><strong>Nome servizio</strong></td><td>Orientamento e formazione</td></tr><tr><td><strong>Argomento</strong></td><td>Educazione e formazione</td></tr><tr><td><strong>Descrizione del servizio</strong></td><td><p>Il servizio ti invia informazioni sull’orientamento e sulla formazione.</p><p><br>Tramite IO potrai:</p><ul><li>ricevere comunicazioni e aggiornamenti sulle nuove iniziative dedicate all’orientamento;</li><li>ricevere informazioni sugli eventi dedicati alle scuole aperte;</li><li>ricevere comunicazioni e aggiornamenti su bandi, concorsi, corsi e nuovi percorsi formativi;</li><li>ricevere altre comunicazioni.</li></ul></td></tr><tr><td><strong>Pulsante</strong></td><td>Vedi le iniziative</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="373"></th><th></th></tr></thead><tbody><tr><td><strong>Nome servizio</strong></td><td>Orientamento e formazione</td></tr><tr><td><strong>Argomento</strong></td><td>Educazione e formazione</td></tr><tr><td><strong>Descrizione del servizio</strong></td><td><p>Il servizio ti invia informazioni sull’orientamento e sulla formazione.</p><p><br>Tramite IO potrai:</p><ul><li>ricevere comunicazioni e aggiornamenti sulle nuove iniziative dedicate all’orientamento;</li><li>ricevere informazioni sugli eventi dedicati alle scuole aperte;</li><li>ricevere comunicazioni e aggiornamenti su bandi, concorsi, corsi e nuovi percorsi formativi;</li><li>ricevere altre comunicazioni.</li></ul></td></tr><tr><td><strong>Pulsante</strong></td><td>Cerca le iniziative</td></tr></tbody></table>
 
 {% include "../.gitbook/includes/banner-single-sign-on.md" %}
 
@@ -17,7 +17,7 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 
 <figure><img src="../.gitbook/assets/Educazione e formazione_Orientamento e formazione.png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Orientamento e formazione</strong></p></figcaption></figure>
 
-## Messaggi del servizio&#x20;
+## Messaggi del servizio
 
 {% hint style="success" %}
 **Il servizio ideale**
@@ -33,19 +33,19 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 **🖋 Titolo del messaggio:** È disponibile una nuova iniziativa di orientamento
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 \[Inserire una descrizione dell'iniziativa, da completare a cura e responsabilità dell'ente].
 
-Per ulteriori informazioni sul servizio, \[visita questo sito]\(URL).&#x20;
+Per ulteriori informazioni sul servizio, \[visita questo sito]\(URL).
 
 **🪄 Pulsante**: n/a
 
 ***
 
-**Destinatari**: Tutti i cittadini residenti nell’area geografica di azione del servizio che sono in prossimità della fine di un percorso scolastico.&#x20;
+**Destinatari**: Tutti i cittadini residenti nell’area geografica di azione del servizio che sono in prossimità della fine di un percorso scolastico.
 
-**Quando inviarlo**: Quando un percorso scolastico è quasi finito.&#x20;
+**Quando inviarlo**: Quando un percorso scolastico è quasi finito.
 
 **User story**: Come cittadino voglio ricevere informazioni sulla possibilità che ho di continuare a studiare o lavorare sul territorio e sulle iniziative dedicate a me.
 
@@ -59,19 +59,19 @@ Per ulteriori informazioni sul servizio, \[visita questo sito]\(URL).&#x20;
 
 **🖋 Titolo del messaggio:** Partecipa agli open day
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
-Dal \<gg/mm/aaaa> al \<gg/mm/aaaa>, puoi partecipare agli open day delle \<es. scuole superiori, università> della città.&#x20;
+Dal \<gg/mm/aaaa> al \<gg/mm/aaaa>, puoi partecipare agli open day delle \<es. scuole superiori, università> della città.
 
-\[Inserire una descrizione più dettagliata, da completare a cura e responsabilità dell'ente]&#x20;
+\[Inserire una descrizione più dettagliata, da completare a cura e responsabilità dell'ente]
 
-Per ulteriori informazioni, \[visita questo sito]\(URL).&#x20;
+Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 **🪄 Pulsante**: n/a
 
 ***
 
-**Destinatari**: Tutti i cittadini residenti nell’area geografica di azione del servizio che sono in prossimità della fine di un percorso scolastico.&#x20;
+**Destinatari**: Tutti i cittadini residenti nell’area geografica di azione del servizio che sono in prossimità della fine di un percorso scolastico.
 
 **Quando inviarlo**: Quando un percorso scolastico è quasi finito.
 
@@ -92,9 +92,9 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).&#x20;
 
 ***
 
-**🖋 Titolo del messaggio:**  Pubblicato un nuovo \<bando/concorso/corso>
+**🖋 Titolo del messaggio:** Pubblicato un nuovo \<bando/concorso/corso>
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Dal \<gg/mm/aaaa> puoi fare richiesta di \<oggetto del bando/concorso/corso>.
 
@@ -104,15 +104,15 @@ Per consultare i criteri di assegnazione e presentare richiesta, \[visita questo
 
 \[Solo per messaggi con allegato] Trovi il testo completo del bando in allegato a questo messaggio.
 
-**🪄 Pulsante**: Presenta richiesta
+**🪄 Pulsante**: Invia richiesta
 
 <mark style="color:blue;">**📎 Allegato:**</mark> \<testo integrale del bando/ concorso/ corso>
 
 ***
 
-**Destinatari**: Tutti i cittadini residenti nell’area geografica di azione del servizio che sono ritenuti idonei secondo le specifiche dell'iniziativa contenute nel bando/ corso/concorso.&#x20;
+**Destinatari**: Tutti i cittadini residenti nell’area geografica di azione del servizio che sono ritenuti idonei secondo le specifiche dell'iniziativa contenute nel bando/ corso/concorso.
 
-**Quando inviarlo**:  Quando l'ente pubblica un bando/corso/concorso riguardante l'orientamento e la formazione.
+**Quando inviarlo**: Quando l'ente pubblica un bando/corso/concorso riguardante l'orientamento e la formazione.
 
 **User story**: Come cittadino voglio ricevere informazioni su nuove opportunità di formazione o lavoro.
 

@@ -5,7 +5,7 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 * fornire alle cittadine e ai cittadini un riferimento per la ricezione delle comunicazioni riguardanti gli atti e pratiche di separazione e divorzio;
 * monitorare e gestire tempestivamente le richieste, comunicazioni e i pagamenti per l’erogazione del servizio.
 
-[**Scopri tutti i benefici di integrarsi con IO →** ](https://docs.pagopa.it/manuale-servizi/lapp-io/cose-io-e-qual-e-il-suo-obiettivo)
+[**Scopri tutti i benefici di integrarsi con IO →**](https://docs.pagopa.it/manuale-servizi/lapp-io/cose-io-e-qual-e-il-suo-obiettivo)
 
 ## Scheda servizio <a href="#scheda-servizio" id="scheda-servizio"></a>
 
@@ -31,9 +31,13 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 <summary>Integrazione documentazione</summary>
 
+{% include "../.gitbook/includes/single-sign-on.md" %}
+
+***
+
 **🖋 Titolo del messaggio:** Richiesta di integrazione
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Per elaborare la tua richiesta, abbiamo bisogno di ricevere entro il \<gg/mm/aaaa> altri documenti.
 
@@ -43,7 +47,7 @@ Consulta il riepilogo della tua richiesta, \[visita questo sito]\(URL).
 
 ***
 
-**Destinatari**: Tutti i cittadini residenti nell’area di azione del servizio che hanno presentato richiesta di separazione, divorzio, modifica delle condizioni di separazione/divorzio o di scioglimento Unione Civile.&#x20;
+**Destinatari**: Tutti i cittadini residenti nell’area di azione del servizio che hanno presentato richiesta di separazione, divorzio, modifica delle condizioni di separazione/divorzio o di scioglimento Unione Civile.
 
 **Quando inviarlo**: Quando l’ente ha bisogno di ulteriori documenti per l’elaborazione della richiesta.
 
@@ -55,9 +59,13 @@ Consulta il riepilogo della tua richiesta, \[visita questo sito]\(URL).
 
 <summary>Conferma appuntamento fissato dai coniugi</summary>
 
+{% include "../.gitbook/includes/single-sign-on.md" %}
+
+***
+
 **🖋 Titolo del messaggio:** Il tuo appuntamento
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Hai prenotato un appuntamento per \<oggetto dell’appuntamento>.
 
@@ -83,9 +91,13 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 <summary>Conferma appuntamento fissato dall'ente</summary>
 
+{% include "../.gitbook/includes/single-sign-on.md" %}
+
+***
+
 **🖋 Titolo del messaggio:** Il tuo appuntamento
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Hai prenotato un appuntamento per \<oggetto dell’appuntamento>.
 
@@ -103,8 +115,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 **Quando inviarlo**: Quando l’appuntamento è confermato.
 
-**User story**: Come cittadino voglio ricevere una conferma quando l’appuntamento viene confermato dall’ente.\
-
+**User story**: Come cittadino voglio ricevere una conferma quando l’appuntamento viene confermato dall’ente.\\
 
 </details>
 
@@ -114,7 +125,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 **🖋 Titolo del messaggio:** Ricordati del tuo appuntamento
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Ti ricordiamo l’appuntamento del \<gg/mm/aaaa> per \<oggetto dell’appuntamento>.
 
@@ -164,7 +175,7 @@ Per maggiori informazioni o per richiedere assistenza, contattaci tramite i cana
 
 In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio potrebbe subire variazioni.
 
-**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)
 
 ***
 
@@ -184,13 +195,13 @@ In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio p
 
 **🖋 Titolo del messaggio:** Hai un pagamento in scadenza
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Il tuo pagamento per \<causale> sta per scadere.
 
 Se hai già provveduto a pagare l’avviso ignora questo messaggio.
 
-**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)
 
 ***
 
@@ -214,7 +225,7 @@ Il seguente messaggio serve a sensibilizzare il cittadino per il mancato pagamen
 
 **🖋 Titolo del messaggio:** Pagamento non effettuato
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Il tuo pagamento per \<causale> è scaduto il \<gg/mm/aaaa>.
 
@@ -222,7 +233,7 @@ Il tuo pagamento per \<causale> è scaduto il \<gg/mm/aaaa>.
 
 Se hai già provveduto a pagare l’avviso ignora questo messaggio.
 
-**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)
 
 ***
 
@@ -240,9 +251,13 @@ Se hai già provveduto a pagare l’avviso ignora questo messaggio.
 
 <summary>Conferma secondo appuntamento</summary>
 
+{% include "../.gitbook/includes/single-sign-on.md" %}
+
+***
+
 **🖋 Titolo del messaggio:** Il tuo appuntamento
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Ti confermiamo l’appuntamento per \<oggetto dell’appuntamento>.
 
@@ -270,7 +285,7 @@ Per ulteriori informazioni, \[visita il sito]\(URL).
 
 **🖋 Titolo del messaggio:** Ricordati del tuo appuntamento
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Ti ricordiamo l’appuntamento del \<gg/mm/aaaa> per \<oggetto dell’appuntamento>.
 
@@ -300,7 +315,7 @@ Per ulteriori informazioni, \[visita il sito]\(URL).
 
 **🖋 Titolo del messaggio:** Atto di \<oggetto> trascritto
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Il \<gg/mm/aaaa> abbiamo trascritto l’atto di \<oggetto>.
 
@@ -310,7 +325,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 ***
 
-**Destinatari**: I coniugi che hanno fatto richiesta di separazione, divorzio, modifica delle condizioni di separazione/divorzio o di scioglimento Unione Civile.&#x20;
+**Destinatari**: I coniugi che hanno fatto richiesta di separazione, divorzio, modifica delle condizioni di separazione/divorzio o di scioglimento Unione Civile.
 
 **Quando inviarlo**: Quando l’ente trascrive la sentenza.
 
@@ -323,7 +338,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 {% hint style="info" %}
 **Un modello da personalizzare**
 
-Le procedure di questo servizio variano molto da ente a ente. Consigliamo di utilizzare i testi dei messaggi come un punto di partenza e di aggiungere ulteriori informazioni.&#x20;
+Le procedure di questo servizio variano molto da ente a ente. Consigliamo di utilizzare i testi dei messaggi come un punto di partenza e di aggiungere ulteriori informazioni.
 
 Il modello è un esempio che non ha carattere vincolante per l’ente e sul quale la Società declina qualsiasi responsabilità, avendo valore esemplificativo.
 

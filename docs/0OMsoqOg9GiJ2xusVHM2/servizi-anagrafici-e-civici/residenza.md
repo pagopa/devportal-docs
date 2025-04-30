@@ -5,7 +5,7 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 * fornire alle cittadine e ai cittadini un riferimento per la ricezione delle comunicazioni riguardanti le richieste di residenza e di cambio di residenza;
 * monitorare e gestire tempestivamente le richieste, le comunicazioni e i pagamenti per l’erogazione del servizio.
 
-[**Scopri tutti i benefici di integrarsi con IO →** ](https://docs.pagopa.it/manuale-servizi/lapp-io/cose-io-e-qual-e-il-suo-obiettivo)
+[**Scopri tutti i benefici di integrarsi con IO →**](https://docs.pagopa.it/manuale-servizi/lapp-io/cose-io-e-qual-e-il-suo-obiettivo)
 
 ## Scheda servizio <a href="#scheda-servizio" id="scheda-servizio"></a>
 
@@ -35,7 +35,7 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 **🖋 Titolo del messaggio:** Iscrizione della residenza temporanea
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 La tua richiesta di residenza temporanea presso il Comune di \<Comune> è stata accolta.
 
@@ -59,7 +59,7 @@ Per ulteriori informazioni, \[visita questa pagina]\(URL).
 
 **🖋 Titolo del messaggio:** Richiesta di residenza non accolta
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 La tua richiesta di residenza temporanea non è stata accolta.
 
@@ -83,13 +83,13 @@ Per ulteriori informazioni, \[visita questa pagina]\(URL).
 **Lo sapevi?**\
 IO è integrata con SEND - Servizio Notifiche Digitale, per l'invio di comunicazioni a valore legale.
 
-[**Scopri di più su SEND**](https://notifichedigitali.pagopa.it/) [**-->**](https://www.pagopa.it/it/prodotti-e-servizi/piattaforma-notifiche-digitali)
+[**Scopri di più su SEND**](https://notifichedigitali.pagopa.it/) [**->**](https://www.pagopa.it/it/prodotti-e-servizi/piattaforma-notifiche-digitali)
 {% endhint %}
 
 {% hint style="info" %}
 **Un modello da personalizzare**
 
-Le procedure di questo servizio variano molto da ente a ente. Consigliamo di utilizzare i testi dei messaggi come un punto di partenza e di aggiungere ulteriori informazioni.&#x20;
+Le procedure di questo servizio variano molto da ente a ente. Consigliamo di utilizzare i testi dei messaggi come un punto di partenza e di aggiungere ulteriori informazioni.
 
 Il modello è un esempio che non ha carattere vincolante per l’ente e sul quale la Società declina qualsiasi responsabilità, avendo valore esemplificativo.
 

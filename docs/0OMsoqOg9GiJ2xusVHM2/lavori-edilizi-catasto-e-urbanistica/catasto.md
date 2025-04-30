@@ -5,11 +5,11 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 * fornire alle cittadine e ai cittadini un riferimento per la gestione pratiche e delle comunicazioni riguardanti le visure catastali degli immobili, fabbricati e terreni presenti sul territorio del Comune;
 * monitorare e gestire tempestivamente le richieste, comunicazioni e i pagamenti per l’erogazione del servizio.
 
-[**Scopri tutti i benefici di integrarsi con IO →** ](https://docs.pagopa.it/manuale-servizi/lapp-io/cose-io-e-qual-e-il-suo-obiettivo#perche-un-ente-dovrebbe-integrarsi-con-io)
+[**Scopri tutti i benefici di integrarsi con IO →**](https://docs.pagopa.it/manuale-servizi/lapp-io/cose-io-e-qual-e-il-suo-obiettivo#perche-un-ente-dovrebbe-integrarsi-con-io)
 
 ## Scheda servizio <a href="#scheda-servizio" id="scheda-servizio"></a>
 
-<table data-header-hidden><thead><tr><th width="363"></th><th></th></tr></thead><tbody><tr><td><strong>Nome servizio</strong></td><td>Catasto</td></tr><tr><td><strong>Argomento</strong></td><td>Lavori edilizi, catasto e urbanistica</td></tr><tr><td><strong>Descrizione del servizio</strong></td><td><p>Il servizio riguarda le visure catastali degli immobili, fabbricati e terreni presenti sul territorio del Comune.  </p><p></p><p>Tramite IO potrai:</p><ul><li>ricevere comunicazioni e aggiornamenti sulle richieste presentate e su eventuali appuntamenti; </li><li>ricevere avvisi di pagamento e pagarli in app; </li><li>ricevere altre comunicazioni.</li></ul></td></tr><tr><td><strong>Pulsante</strong></td><td>Richiedi una visura</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="363"></th><th></th></tr></thead><tbody><tr><td><strong>Nome servizio</strong></td><td>Catasto</td></tr><tr><td><strong>Argomento</strong></td><td>Lavori edilizi, catasto e urbanistica</td></tr><tr><td><strong>Descrizione del servizio</strong></td><td><p>Il servizio riguarda le visure catastali degli immobili, fabbricati e terreni presenti sul territorio del Comune.  </p><p>Tramite IO potrai:</p><ul><li>ricevere comunicazioni e aggiornamenti sulle richieste presentate e su eventuali appuntamenti; </li><li>ricevere avvisi di pagamento e pagarli in app; </li><li>ricevere altre comunicazioni.</li></ul></td></tr><tr><td><strong>Pulsante</strong></td><td>Richiedi una visura</td></tr></tbody></table>
 
 {% include "../.gitbook/includes/banner-single-sign-on.md" %}
 
@@ -25,7 +25,7 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende erogare questo servizio può valutare quali e quanti messaggi inviare, in base alle proprie possibilità di integrazione. L'obiettivo finale rimane quello di inviarli tutti, rilasciando in maniera iterativa versioni del servizio sempre più complete.
 {% endhint %}
 
-### Prenotazioni&#x20;
+### Prenotazioni
 
 <details>
 
@@ -33,7 +33,7 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 **🖋 Titolo del messaggio:** Il tuo appuntamento
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Hai prenotato un appuntamento per \<oggetto dell’appuntamento>.
 
@@ -83,7 +83,7 @@ Per maggiori informazioni o per richiedere assistenza, contattaci tramite i cana
 
 In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio potrebbe subire variazioni.
 
-**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)
 
 ***
 
@@ -109,7 +109,7 @@ Il tuo pagamento per \<causale> sta per scadere.
 
 Se hai già provveduto a pagare l’avviso, ignora questo messaggio.
 
-**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)
 
 ***
 
@@ -167,7 +167,7 @@ Dal \<gg/mm/aaaa> puoi \<ritirare/visionare> i documenti richiesti.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
-**🪄 Pulsante:** Vedi modalità di ritiro
+**🪄 Pulsante:** Scopri di più
 
 ***
 
@@ -184,11 +184,11 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 {% hint style="info" %}
 **Un modello da personalizzare**
 
-Le procedure di questo servizio variano molto da ente a ente. Consigliamo di utilizzare i testi dei messaggi come un punto di partenza e di aggiungere ulteriori informazioni.&#x20;
+Le procedure di questo servizio variano molto da ente a ente. Consigliamo di utilizzare i testi dei messaggi come un punto di partenza e di aggiungere ulteriori informazioni.
 
 Il modello è un esempio che non ha carattere vincolante per l’ente e sul quale la Società declina qualsiasi responsabilità, avendo valore esemplificativo.
 
-Puoi copiare i testi dei messaggi da personalizzare da questo documento:&#x20;
+Puoi copiare i testi dei messaggi da personalizzare da questo documento:
 
 {% file src="../.gitbook/assets/IO - Template servizi - Catasto.xlsx" %}
 {% endhint %}

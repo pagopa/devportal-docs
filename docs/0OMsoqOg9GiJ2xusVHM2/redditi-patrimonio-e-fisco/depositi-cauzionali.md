@@ -5,11 +5,11 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 * fornire alle cittadine e ai cittadini un unico punto di riferimento per la ricezione delle comunicazioni riguardanti i depositi cauzionali dovuti al Comune;
 * monitorare e gestire tempestivamente le richieste, comunicazioni e i pagamenti per l’erogazione del servizio.
 
-[**Scopri tutti i benefici di integrarsi con IO →** ](https://app.gitbook.com/s/xWONfJmawghGo2ekuaKh/cose-io-e-qual-e-il-suo-obiettivo#perche-integrarsi-con-io)
+[**Scopri tutti i benefici di integrarsi con IO →**](https://app.gitbook.com/s/xWONfJmawghGo2ekuaKh/cose-io-e-qual-e-il-suo-obiettivo#perche-integrarsi-con-io)
 
 ## Scheda servizio <a href="#scheda-servizio" id="scheda-servizio"></a>
 
-<table data-header-hidden><thead><tr><th width="373"></th><th></th></tr></thead><tbody><tr><td><strong>Nome servizio</strong></td><td>Depositi cauzionali</td></tr><tr><td><strong>Argomento</strong></td><td>Redditi, patrimonio e fisco</td></tr><tr><td><strong>Descrizione del servizio</strong></td><td><p>Il servizio riguarda i depositi cauzionali dovuti al Comune. Il deposito cauzionale è un importo che il Comune può richiedere a titolo di garanzia per alcuni servizi.</p><p></p><p>Tramite IO potrai:</p><ul><li>ricevere comunicazioni e aggiornamenti sul pagamento di depositi cauzionali e sul loro rimborso;</li><li>ricevere avvisi di pagamento e pagarli in app;</li><li>ricevere altre comunicazioni.</li></ul></td></tr><tr><td><strong>Pulsante</strong></td><td>Compila il modulo di richiesta restituzione</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="373"></th><th></th></tr></thead><tbody><tr><td><strong>Nome servizio</strong></td><td>Depositi cauzionali</td></tr><tr><td><strong>Argomento</strong></td><td>Redditi, patrimonio e fisco</td></tr><tr><td><strong>Descrizione del servizio</strong></td><td><p>Il servizio riguarda i depositi cauzionali dovuti al Comune. Il deposito cauzionale è un importo che il Comune può richiedere a titolo di garanzia per alcuni servizi.</p><p>Tramite IO potrai:</p><ul><li>ricevere comunicazioni e aggiornamenti sul pagamento di depositi cauzionali e sul loro rimborso;</li><li>ricevere avvisi di pagamento e pagarli in app;</li><li>ricevere altre comunicazioni.</li></ul></td></tr><tr><td><strong>Pulsante</strong></td><td>Vai al servizio</td></tr></tbody></table>
 
 {% include "../.gitbook/includes/banner-single-sign-on.md" %}
 
@@ -53,7 +53,7 @@ Per maggiori informazioni o per richiedere assistenza, contattaci tramite i cana
 
 In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio potrebbe subire variazioni.
 
-**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)
 
 ***
 
@@ -61,8 +61,7 @@ In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio p
 
 **Quando inviarlo:** Quando è previsto il pagamento del deposito cauzionale.
 
-**User story:** Come cittadino voglio ricevere comunicazione quando è possibile procedere al pagamento.\
-
+**User story:** Come cittadino voglio ricevere comunicazione quando è possibile procedere al pagamento.\\
 
 </details>
 
@@ -80,7 +79,7 @@ Il tuo pagamento per \<causale> sta per scadere.
 
 Se hai già provveduto a pagare l’avviso, ignora questo messaggio.
 
-**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)
 
 ***
 
@@ -88,8 +87,7 @@ Se hai già provveduto a pagare l’avviso, ignora questo messaggio.
 
 **Quando inviarlo:** Quando il pagamento è prossimo alla scadenza.
 
-**User story:** Come cittadino voglio ricevere un promemoria per i pagamenti in scadenza.\
-
+**User story:** Come cittadino voglio ricevere un promemoria per i pagamenti in scadenza.\\
 
 </details>
 
@@ -180,11 +178,11 @@ Per maggiori informazioni o per richiedere assistenza, contattaci tramite i cana
 {% hint style="info" %}
 **Un modello da personalizzare**
 
-Le procedure di questo servizio variano molto da ente a ente. Consigliamo di utilizzare i testi dei messaggi come un punto di partenza e di aggiungere ulteriori informazioni.&#x20;
+Le procedure di questo servizio variano molto da ente a ente. Consigliamo di utilizzare i testi dei messaggi come un punto di partenza e di aggiungere ulteriori informazioni.
 
 Il modello è un esempio che non ha carattere vincolante per l’ente e sul quale la Società declina qualsiasi responsabilità, avendo valore esemplificativo.
 
-Puoi copiare i testi dei messaggi da personalizzare da questo documento:&#x20;
+Puoi copiare i testi dei messaggi da personalizzare da questo documento:
 
 {% file src="../.gitbook/assets/IO - Template servizi - Depositi cauzionali (2).xlsx" %}
 {% endhint %}

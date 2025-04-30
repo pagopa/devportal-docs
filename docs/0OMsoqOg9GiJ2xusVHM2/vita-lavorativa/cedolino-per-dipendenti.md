@@ -5,7 +5,7 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 * fornire per le dipendenti e i dipendenti del Comune un riferimento per la ricezione delle comunicazioni riguardanti i cedolini, la Certificazione Unica e altri documenti;
 * monitorare e gestire tempestivamente le richieste e le comunicazioni per l’erogazione del servizio.
 
-[**Scopri tutti i benefici di integrarsi con IO →** ](https://app.gitbook.com/s/xWONfJmawghGo2ekuaKh/cose-io-e-qual-e-il-suo-obiettivo#perche-integrarsi-con-io)
+[**Scopri tutti i benefici di integrarsi con IO →**](https://app.gitbook.com/s/xWONfJmawghGo2ekuaKh/cose-io-e-qual-e-il-suo-obiettivo#perche-integrarsi-con-io)
 
 ## Scheda servizio <a href="#scheda-servizio" id="scheda-servizio"></a>
 
@@ -33,9 +33,9 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 **🖋 Titolo del messaggio:** Ti diamo il benvenuto in \<nome portale>
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
-Dal \<gg/mm/aaaa> puoi accedere a \<nome portale>.&#x20;
+Dal \<gg/mm/aaaa> puoi accedere a \<nome portale>.
 
 \[Inserire qui indicazioni sull’accesso e su cosa troverà il dipendente all’interno del portale, da compilare a cura e responsabilità dell'ente]
 
@@ -59,7 +59,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 <summary>Pubblicazione cedolino</summary>
 
-{% include "../.gitbook/includes/allegati.md" %}
+{% include "../.gitbook/includes/allegati+sso.md" %}
 
 ***
 
@@ -67,13 +67,11 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio:**
 
-È disponibile il tuo cedolino per il mese di \<mese> \<anno>.&#x20;
-
-Per visualizzarlo, \[visita questa pagina]\(URL).
+È disponibile il tuo cedolino per il mese di \<mese> \<anno>.
 
 \[Solo per messaggi con allegato] Puoi trovare il documento in allegato a questo messaggio.
 
-**🪄  Pulsante:** n/a
+**🪄 Pulsante:** Scarica il cedolino
 
 <mark style="color:blue;">**📎 Allegato:**</mark> \<cedolino>
 
@@ -93,7 +91,7 @@ Per visualizzarlo, \[visita questa pagina]\(URL).
 
 <summary>Pubblicazione Certificazione Unica</summary>
 
-{% include "../.gitbook/includes/allegati.md" %}
+{% include "../.gitbook/includes/allegati+sso.md" %}
 
 ***
 
@@ -103,11 +101,9 @@ Per visualizzarlo, \[visita questa pagina]\(URL).
 
 È disponibile la tua Certificazione Unica per l’anno \<aaaa>.
 
-Per visualizzarla, \[visita questa pagina]\(URL).
-
 \[Solo per messaggi con allegato] Puoi trovare il documento in allegato a questo messaggio.
 
-**🪄  Pulsante:** n/a
+**🪄 Pulsante:** Scarica il documento
 
 <mark style="color:blue;">**📎 Allegato:**</mark> \<certificazione unica>
 
@@ -126,7 +122,7 @@ Per visualizzarla, \[visita questa pagina]\(URL).
 {% hint style="info" %}
 **Un modello da personalizzare**
 
-Le procedure di questo servizio variano molto da ente a ente. Consigliamo di utilizzare i testi dei messaggi come un punto di partenza e di aggiungere ulteriori informazioni.&#x20;
+Le procedure di questo servizio variano molto da ente a ente. Consigliamo di utilizzare i testi dei messaggi come un punto di partenza e di aggiungere ulteriori informazioni.
 
 Il modello è un esempio che non ha carattere vincolante per l’ente e sul quale la Società declina qualsiasi responsabilità, avendo valore esemplificativo.
 

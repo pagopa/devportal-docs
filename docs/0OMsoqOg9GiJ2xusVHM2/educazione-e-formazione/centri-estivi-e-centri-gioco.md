@@ -5,11 +5,11 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 * fornire alle cittadine e ai cittadini un riferimento per la ricezione delle comunicazioni riguardanti i servizi erogati verso i minori a carico;
 * monitorare e gestire tempestivamente le richieste e le comunicazioni per l’erogazione del servizio.
 
-[**Scopri tutti i benefici di integrarsi con IO →** ](https://docs.pagopa.it/manuale-servizi/lapp-io/cose-io-e-qual-e-il-suo-obiettivo)
+[**Scopri tutti i benefici di integrarsi con IO →**](https://docs.pagopa.it/manuale-servizi/lapp-io/cose-io-e-qual-e-il-suo-obiettivo)
 
 ## Scheda servizio <a href="#scheda-servizio" id="scheda-servizio"></a>
 
-<table data-header-hidden><thead><tr><th width="370"></th><th></th></tr></thead><tbody><tr><td><strong>Nome servizio</strong></td><td>Centri estivi e centri gioco</td></tr><tr><td><strong>Argomento</strong></td><td>Educazione e formazione</td></tr><tr><td><strong>Descrizione del servizio</strong></td><td><p>Il servizio riguarda i centri estivi.</p><p></p><p>Tramite IO potrai:</p><ul><li>ricevere comunicazioni e aggiornamenti sull’iscrizione;</li><li>ricevere avvisi di pagamento e pagarli in app;</li><li>ricevere altre comunicazioni.</li></ul></td></tr><tr><td><strong>Pulsante</strong></td><td>Vedi iscrizioni aperte</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="370"></th><th></th></tr></thead><tbody><tr><td><strong>Nome servizio</strong></td><td>Centri estivi e centri gioco</td></tr><tr><td><strong>Argomento</strong></td><td>Educazione e formazione</td></tr><tr><td><strong>Descrizione del servizio</strong></td><td><p>Il servizio riguarda i centri estivi.</p><p>Tramite IO potrai:</p><ul><li>ricevere comunicazioni e aggiornamenti sull’iscrizione;</li><li>ricevere avvisi di pagamento e pagarli in app;</li><li>ricevere altre comunicazioni.</li></ul></td></tr><tr><td><strong>Pulsante</strong></td><td>Consulta iscrizioni aperte</td></tr></tbody></table>
 
 {% include "../.gitbook/includes/banner-single-sign-on.md" %}
 
@@ -33,7 +33,7 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 **🖋 Titolo del messaggio:** Prossima apertura iscrizioni per l’anno \<aaaa>
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Dal \<gg/mm/aaaa> al \<gg/mm/aaaa> saranno aperte le iscrizioni al servizio \<centro estivo/centro gioco> per l’anno \<aaaa>.
 
@@ -61,7 +61,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 **🖋 Titolo del messaggio:** Sono aperte le iscrizioni per l’anno \<aaaa>
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Sono aperte le iscrizioni al servizio \<centro estivo/centro gioco> per l’anno \<aaaa>.
 
@@ -91,7 +91,7 @@ Per ulteriori informazioni e fare domanda di iscrizione, \[visita questo sito]\(
 
 **🖋 Titolo del messaggio:** Richiesta di integrazione alla tua domanda
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Per elaborare la tua domanda per di iscrizione per \<nome> \<cognome> al servizio \<centro estivo/centro gioco> per l’anno \<aaaa>, abbiamo bisogno di ricevere entro il \<gg/mm/aaaa> altri documenti.
 
@@ -121,9 +121,9 @@ Consulta il riepilogo della domanda, \[visita questo sito]\(URL).
 
 **🖋 Titolo del messaggio:** Pubblicata la graduatoria per l’anno \<aaaa>
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
-È disponibile la graduatoria di ammissione per \<nome> \<cognome> al servizio \<centro estivo/centro gioco> per  l’anno \<aaaa/aaaa>.
+È disponibile la graduatoria di ammissione per \<nome> \<cognome> al servizio \<centro estivo/centro gioco> per l’anno \<aaaa/aaaa>.
 
 \[Se previsto] Per confermare l’iscrizione, dovrai effettuare il pagamento per la \<rata unica/prima rata> entro il \<gg/mm/aaaa>.
 
@@ -171,7 +171,7 @@ Per maggiori informazioni o per richiedere assistenza, contattaci tramite i cana
 
 In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio potrebbe subire variazioni.
 
-**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)
 
 ***
 
@@ -197,7 +197,7 @@ Il tuo pagamento per l’iscrizione per \<nome> \<cognome> al servizio \<centro 
 
 Se hai già provveduto a pagare l’avviso ignora questo messaggio.
 
-**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)
 
 ***
 
@@ -227,7 +227,7 @@ Il tuo pagamento per l’iscrizione per \<nome> \<cognome> al servizio \<centro 
 
 Se hai già provveduto a pagare l’avviso, ignora questo messaggio.
 
-**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)
 
 ***
 
@@ -245,13 +245,13 @@ Se hai già provveduto a pagare l’avviso, ignora questo messaggio.
 
 **🖋 Titolo del messaggio:** Iscrizione al \<centro estivo/centro gioco> è bloccata da pagamenti insoluti
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Risultano pagamenti insoluti a carico di \<nome> \<cognome> e relative a \<causale>.
 
-Per maggiori informazioni o per richiedere assistenza, contattaci tramite i canali che trovi nella scheda servizio o \[visita il sito]\(URL).&#x20;
+Per maggiori informazioni o per richiedere assistenza, contattaci tramite i canali che trovi nella scheda servizio o \[visita il sito]\(URL).
 
-**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)
 
 ***
 
@@ -271,7 +271,7 @@ Per maggiori informazioni o per richiedere assistenza, contattaci tramite i cana
 
 **🖋 Titolo del messaggio:** Abbiamo ricevuto la tua richiesta di rinuncia
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Abbiamo ricevuto la tua richiesta di rinuncia alla posizione in graduatoria di \<nome> \<cognome> per il servizio di \<centro estivo/centro gioco> per l’anno educativo \<aaaa>.
 
@@ -299,7 +299,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio**:
 
-La tua richiesta di rinuncia al servizio di \<nome> \<cognome> per il servizio \<centro estivo/centro gioco> per l’anno \<aaaa> è arrivata oltre il termine previsto dalla domanda di iscrizione.&#x20;
+La tua richiesta di rinuncia al servizio di \<nome> \<cognome> per il servizio \<centro estivo/centro gioco> per l’anno \<aaaa> è arrivata oltre il termine previsto dalla domanda di iscrizione.
 
 **Devi pagare:** <00,00> €
 
@@ -311,7 +311,7 @@ Se hai già provveduto a pagare l'avviso ignora questo messaggio.
 
 Per maggiori informazioni o per richiedere assistenza, contattaci tramite i canali che trovi nella scheda servizio.
 
-**🪄 Pulsante**: Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
+**🪄 Pulsante**: Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)
 
 ***
 
@@ -329,7 +329,7 @@ Per maggiori informazioni o per richiedere assistenza, contattaci tramite i cana
 
 **🖋 Titolo del messaggio:** Hai rinunciato alla tua posizione
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 La tua richiesta di rinuncia alla posizione in graduatoria di \<nome> \<cognome> per il servizio di \<centro estivo/centro gioco> per l’anno educativo \<aaaa> è stata accolta.
 
@@ -355,7 +355,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 **🖋 Titolo del messaggio:** Richiesta di rimborso accolta
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 La tua richiesta di rimborso riguardante l’iscrizione per \<nome> \<cognome> al servizio \<centro estivo/centro gioco> per l’anno \<aaaa> è stata accolta.
 
@@ -381,7 +381,7 @@ Entro il: \<gg/mm/aaaa>
 
 **🖋 Titolo del messaggio:** Richiesta di rimborso non accolta
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 La richiesta di rimborso riguardante l’iscrizione per \<nome> \<cognome> al servizio \<centro estivo/centro gioco> per l’anno \<aaaa> non è stata accolta.
 
@@ -405,7 +405,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 **🖋 Titolo del messaggio:** Il tuo rimborso è in arrivo
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Il \<gg/mm/aaaa> abbiamo emesso un rimborso per l’iscrizione per \<nome> \<cognome> al \<centro estivo/centro gioco>.
 
@@ -413,7 +413,7 @@ Il \<gg/mm/aaaa> abbiamo emesso un rimborso per l’iscrizione per \<nome> \<cog
 
 Per maggiori informazioni o per richiedere assistenza, contattaci tramite i canali che trovi nella scheda servizio.
 
-**🪄 Pulsante**: Vedi ricevuta
+**🪄 Pulsante**: Vai alla ricevuta
 
 ***
 
@@ -437,11 +437,11 @@ IO è integrata con SEND - Servizio Notifiche Digitale, per l'invio di comunicaz
 {% hint style="info" %}
 **Un modello da personalizzare**
 
-Le procedure di questo servizio variano molto da ente a ente. Consigliamo di utilizzare i testi dei messaggi come un punto di partenza e di aggiungere ulteriori informazioni.&#x20;
+Le procedure di questo servizio variano molto da ente a ente. Consigliamo di utilizzare i testi dei messaggi come un punto di partenza e di aggiungere ulteriori informazioni.
 
 Il modello è un esempio che non ha carattere vincolante per l’ente e sul quale la Società declina qualsiasi responsabilità, avendo valore esemplificativo.
 
-Puoi copiare i testi dei messaggi da personalizzare da questo documento:&#x20;
+Puoi copiare i testi dei messaggi da personalizzare da questo documento:
 
 {% file src="../.gitbook/assets/IO - Template servizi - Centri estivi e centri gioco.xlsx" %}
 {% endhint %}

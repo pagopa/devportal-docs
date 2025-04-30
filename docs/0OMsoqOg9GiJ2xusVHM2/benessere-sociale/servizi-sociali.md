@@ -5,11 +5,11 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 * fornire alle cittadine e ai cittadini un riferimento per la ricezione delle comunicazioni riguardanti le iniziative dei Servizi sociali sul territorio del Comune;
 * monitorare e gestire tempestivamente le richieste e comunicazioni per l’erogazione del servizio.
 
-[**Scopri tutti i benefici di integrarsi con IO →** ](https://docs.pagopa.it/manuale-servizi/lapp-io/cose-io-e-qual-e-il-suo-obiettivo)
+[**Scopri tutti i benefici di integrarsi con IO →**](https://docs.pagopa.it/manuale-servizi/lapp-io/cose-io-e-qual-e-il-suo-obiettivo)
 
 ## Scheda servizio <a href="#scheda-servizio" id="scheda-servizio"></a>
 
-<table data-header-hidden><thead><tr><th width="373"></th><th></th></tr></thead><tbody><tr><td><strong>Nome servizio</strong></td><td>Servizi sociali</td></tr><tr><td><strong>Argomento</strong></td><td>Benessere sociale</td></tr><tr><td><strong>Descrizione del servizio</strong></td><td><p>Il servizio riguarda i servizi sociali, ad esempio iniziative rivolte a minori, anziani, persone con disabilità, persone con difficoltà economiche.</p><p></p><p>Tramite IO potrai:</p><ul><li>ricevere comunicazioni e aggiornamenti;</li><li>ricevere eventuali avvisi di pagamento e pagarli in app;</li><li>ricevere altre comunicazioni.</li></ul></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="373"></th><th></th></tr></thead><tbody><tr><td><strong>Nome servizio</strong></td><td>Servizi sociali</td></tr><tr><td><strong>Argomento</strong></td><td>Benessere sociale</td></tr><tr><td><strong>Descrizione del servizio</strong></td><td><p>Il servizio riguarda i servizi sociali, ad esempio iniziative rivolte a minori, anziani, persone con disabilità, persone con difficoltà economiche.</p><p>Tramite IO potrai:</p><ul><li>ricevere comunicazioni e aggiornamenti;</li><li>ricevere eventuali avvisi di pagamento e pagarli in app;</li><li>ricevere altre comunicazioni.</li></ul></td></tr></tbody></table>
 
 ## Ciclo di vita del servizio
 
@@ -31,13 +31,13 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 <summary>Pubblicazione bando</summary>
 
-{% include "../.gitbook/includes/allegati.md" %}
+{% include "../.gitbook/includes/allegati+sso.md" %}
 
 ***
 
 **🖋 Titolo del messaggio:** Pubblicato un nuovo bando
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Il \<gg/mm/aaaa> è stato pubblicato il bando per \<oggetto del bando>.
 
@@ -45,7 +45,7 @@ Se vuoi fare domanda e consultare i criteri di assegnazione, \[visita questo sit
 
 \[Solo per messaggi con allegato] Trovi il testo completo del bando in allegato a questo messaggio.
 
-**🪄 Pulsante**: n/a
+**🪄 Pulsante**: Vai ai bandi aperti
 
 **📎&#x20;**<mark style="color:blue;">**Allegato:**</mark> \<testo integrale del bando>
 
@@ -69,7 +69,7 @@ Se vuoi fare domanda e consultare i criteri di assegnazione, \[visita questo sit
 
 **🖋 Titolo del messaggio:** Il bando è stato aggiornato
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Il \<gg/mm/aaaa> è stato aggiornato il bando per \<oggetto del bando>.
 
@@ -95,9 +95,13 @@ Per visualizzare il bando aggiornato, \[visita questo sito]\(URL).
 
 <summary>Pubblicazioni graduatorie</summary>
 
+{% include "../.gitbook/includes/single-sign-on.md" %}
+
+***
+
 **🖋 Titolo del messaggio:** Pubblicata la graduatoria per \<bando>
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 È disponibile la graduatoria per il servizio \<tipologia di servizio> per \<nome> \<cognome>.
 
@@ -105,7 +109,7 @@ Se vuoi rinunciare alla tua posizione, hai tempo fino al \<gg/mm/aaaa>.
 
 Per visualizzare la tua posizione in graduatoria \[visita questo sito]\(URL).
 
-**🪄 Pulsante**: n/a
+**🪄 Pulsante**: Vai alla graduatoria
 
 ***
 
@@ -133,7 +137,7 @@ Per visualizzare la tua posizione in graduatoria \[visita questo sito]\(URL).
 
 **🖋 Titolo del messaggio:** Richiesta di integrazione
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Per elaborare la tua richiesta di \<oggetto della richiesta> al servizio \<tipologia di servizio>, abbiamo bisogno di ricevere entro il \<gg/mm/aaaa> questi documenti:
 
@@ -179,7 +183,7 @@ Per maggiori informazioni o per richiedere assistenza, contattaci tramite i cana
 
 In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio potrebbe subire variazioni.
 
-**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)
 
 ***
 
@@ -199,13 +203,13 @@ In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio p
 
 **🖋 Titolo del messaggio:** Hai un pagamento in scadenza
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Il tuo pagamento per \<causale> sta per scadere.
 
 Se hai già provveduto a pagare l’avviso ignora questo messaggio.
 
-**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)
 
 ***
 
@@ -229,13 +233,13 @@ Il seguente messaggio serve a sollecitare il cittadino per il mancato pagamento 
 
 **🖋 Titolo del messaggio:** Pagamento non effettuato
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Il tuo pagamento relativo a \<causale> è scaduto il \<gg/mm/aaaa>.
 
 Se hai già provveduto a pagare l’avviso ignora questo messaggio.
 
-**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)
 
 ***
 
@@ -255,7 +259,7 @@ Se hai già provveduto a pagare l’avviso ignora questo messaggio.
 
 **🖋 Titolo del messaggio:** La tua richiesta è stata accolta
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 La tua richiesta di \<oggetto della richiesta> è stata accolta.
 
@@ -279,7 +283,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL)
 
 **🖋 Titolo del messaggio:** La tua richiesta non è stata accolta
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 La tua richiesta di \<oggetto> non è stata accolta.
 
@@ -309,7 +313,7 @@ IO è integrata con SEND - Servizio Notifiche Digitale, per l'invio di comunicaz
 {% hint style="info" %}
 **Un modello da personalizzare**
 
-Le procedure di questo servizio variano molto da ente a ente. Consigliamo di utilizzare i testi dei messaggi come un punto di partenza e di aggiungere ulteriori informazioni.&#x20;
+Le procedure di questo servizio variano molto da ente a ente. Consigliamo di utilizzare i testi dei messaggi come un punto di partenza e di aggiungere ulteriori informazioni.
 
 Il modello è un esempio che non ha carattere vincolante per l’ente e sul quale la Società declina qualsiasi responsabilità, avendo valore esemplificativo.
 

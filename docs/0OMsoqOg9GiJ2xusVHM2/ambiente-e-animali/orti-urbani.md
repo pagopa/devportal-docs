@@ -9,7 +9,7 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 
 ## Scheda servizio <a href="#scheda-servizio" id="scheda-servizio"></a>
 
-<table data-header-hidden><thead><tr><th width="373"></th><th></th></tr></thead><tbody><tr><td><strong>Nome servizio</strong></td><td>Orti urbani</td></tr><tr><td><strong>Argomento</strong></td><td>Ambiente e animali</td></tr><tr><td><strong>Descrizione del servizio</strong></td><td><p>Il servizio riguarda gli orti urbani.</p><p>Tramite IO potrai:</p><ul><li>ricevere informazioni sulle modalità di assegnazione degli orti urbani;</li><li>ricevere comunicazioni e aggiornamenti sulle richieste presentate;</li><li>ricevere eventuali avvisi di pagamento e pagarli in app;</li><li>ricevere altre comunicazioni.</li></ul></td></tr><tr><td><strong>Pulsante</strong></td><td>Vedi bandi in corso</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="373"></th><th></th></tr></thead><tbody><tr><td><strong>Nome servizio</strong></td><td>Orti urbani</td></tr><tr><td><strong>Argomento</strong></td><td>Ambiente e animali</td></tr><tr><td><strong>Descrizione del servizio</strong></td><td><p>Il servizio riguarda gli orti urbani.</p><p>Tramite IO potrai:</p><ul><li>ricevere informazioni sulle modalità di assegnazione degli orti urbani;</li><li>ricevere comunicazioni e aggiornamenti sulle richieste presentate;</li><li>ricevere eventuali avvisi di pagamento e pagarli in app;</li><li>ricevere altre comunicazioni.</li></ul></td></tr><tr><td><strong>Pulsante</strong></td><td>Vai ai bandi aperti</td></tr></tbody></table>
 
 ## Ciclo di vita del servizio
 
@@ -29,7 +29,7 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 <summary>Pubblicazione bando</summary>
 
-{% include "../.gitbook/includes/allegati.md" %}
+{% include "../.gitbook/includes/allegati+sso.md" %}
 
 ***
 
@@ -43,7 +43,7 @@ Per consultare i criteri di assegnazione e fare domanda, \[visita questo sito]\(
 
 \[Solo presente un allegato] Trovi il testo completo del bando in allegato a questo messaggio.
 
-**🪄 Pulsante**: n/a
+**🪄 Pulsante**: Fai domanda
 
 📎 <mark style="color:blue;">**Allegato:**</mark> \<testo integrale del bando>
 
@@ -63,7 +63,7 @@ Per consultare i criteri di assegnazione e fare domanda, \[visita questo sito]\(
 
 <summary>Pubblicazione graduatoria</summary>
 
-{% include "../.gitbook/includes/single-sign-on.md" %}
+{% include "../.gitbook/includes/allegati+sso.md" %}
 
 ***
 
@@ -93,7 +93,7 @@ Per visualizzare la tua posizione in graduatoria, \[visita questo sito]\(URL).
 
 <summary>Dettagli assegnazione</summary>
 
-{% include "../.gitbook/includes/allegati.md" %}
+{% include "../.gitbook/includes/allegati+sso.md" %}
 
 ***
 
@@ -111,7 +111,7 @@ Riceverai un messaggio in app in prossimità della scadenza.
 
 Per visualizzare il regolamento e scoprire dettagli sull'assegnazione e modalità di utilizzo dell'orto, \[visita questo sito]\(URL).
 
-**🪄 Pulsante:** n/a
+**🪄 Pulsante:** Vai alla graduatoria
 
 📎 <mark style="color:blue;">**Allegato:**</mark> \<regolamento>
 
@@ -153,7 +153,7 @@ Per maggiori informazioni o per richiedere assistenza, contattaci tramite i cana
 
 In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio potrebbe subire variazioni.
 
-**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)
 
 ***
 
@@ -179,7 +179,7 @@ Il tuo pagamento per \<causale> sta per scadere.
 
 Se hai già provveduto a pagare l'avviso ignora questo messaggio.
 
-**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)
 
 ***
 
@@ -209,7 +209,7 @@ Il tuo pagamento per \<causale> è scaduto il \<gg/mm/aaaa>.
 
 Se hai già provveduto a pagare l'avviso ignora questo messaggio.
 
-**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)
 
 ***
 
@@ -263,9 +263,7 @@ La concessione del lotto \<nnnn> dell’orto urbano in \<indirizzo> scadrà il \
 
 Se vuoi, puoi fare richiesta di rinnovo. Hai tempo fino al \<gg/mm/aaaa>.
 
-Per richiedere il rinnovo, \[visita questo sito]\(URL).
-
-**🪄 Pulsante:** n/a
+**🪄 Pulsante:** Richiedi il rinnovo
 
 ***
 

@@ -5,11 +5,11 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 * fornire alle cittadine e ai cittadini un riferimento per la ricezione delle comunicazioni riguardanti gli atti e pratiche di nascita, adozione e riconoscimento dei figli
 * monitorare e gestire tempestivamente le richieste, comunicazioni e i pagamenti per l’erogazione del servizio.
 
-[**Scopri tutti i benefici di integrarsi con IO →** ](https://docs.pagopa.it/manuale-servizi/lapp-io/cose-io-e-qual-e-il-suo-obiettivo)
+[**Scopri tutti i benefici di integrarsi con IO →**](https://docs.pagopa.it/manuale-servizi/lapp-io/cose-io-e-qual-e-il-suo-obiettivo)
 
 ## Scheda servizio <a href="#scheda-servizio" id="scheda-servizio"></a>
 
-<table data-header-hidden><thead><tr><th width="371"></th><th></th></tr></thead><tbody><tr><td><strong>Nome servizio</strong></td><td>Nascite, adozioni e riconoscimento</td></tr><tr><td><strong>Argomento</strong></td><td>Servizi anagrafici e civici</td></tr><tr><td><strong>Descrizione del servizio</strong></td><td><p>Il servizio riguarda atti e pratiche per la nascita, l’adozione e il riconoscimento dei figli.</p><p></p><p>Tramite IO potrai:</p><ul><li>ricevere comunicazioni e aggiornamenti sulle richieste presentate;</li><li>ricevere aggiornamenti sulla trascrizione dell’atto di nascita;</li><li>ricevere altre comunicazioni.</li></ul></td></tr><tr><td><strong>Pulsante</strong></td><td>Prenota appuntamento</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="371"></th><th></th></tr></thead><tbody><tr><td><strong>Nome servizio</strong></td><td>Nascite, adozioni e riconoscimento</td></tr><tr><td><strong>Argomento</strong></td><td>Servizi anagrafici e civici</td></tr><tr><td><strong>Descrizione del servizio</strong></td><td><p>Il servizio riguarda atti e pratiche per la nascita, l’adozione e il riconoscimento dei figli.</p><p>Tramite IO potrai:</p><ul><li>ricevere comunicazioni e aggiornamenti sulle richieste presentate;</li><li>ricevere aggiornamenti sulla trascrizione dell’atto di nascita;</li><li>ricevere altre comunicazioni.</li></ul></td></tr><tr><td><strong>Pulsante</strong></td><td>Prenota appuntamento</td></tr></tbody></table>
 
 {% include "../.gitbook/includes/banner-single-sign-on.md" %}
 
@@ -33,9 +33,13 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 <summary>Conferma prenotazione appuntamento</summary>
 
+{% include "../.gitbook/includes/single-sign-on.md" %}
+
+***
+
 **🖋 Titolo del messaggio:** Il tuo appuntamento
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Hai prenotato un appuntamento per \<oggetto dell’appuntamento>.
 
@@ -49,7 +53,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 ***
 
-**Destinatari**: I cittadini residenti nell’area geografica di azione del servizio che hanno richiesto un appuntamento per pratiche di riconoscimento.&#x20;
+**Destinatari**: I cittadini residenti nell’area geografica di azione del servizio che hanno richiesto un appuntamento per pratiche di riconoscimento.
 
 **Quando inviarlo**: Quando l'appuntamento è confermato.
 
@@ -67,9 +71,13 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 <summary>Conferma prenotazione appuntamento</summary>
 
+{% include "../.gitbook/includes/single-sign-on.md" %}
+
+***
+
 **🖋 Titolo del messaggio:** Il tuo appuntamento
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Hai prenotato un appuntamento per \<oggetto dell’appuntamento>.
 
@@ -83,7 +91,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 ***
 
-**Destinatari**: I cittadini residenti nell’area geografica di azione del servizio che hanno richiesto un appuntamento per pratiche di adozione.&#x20;
+**Destinatari**: I cittadini residenti nell’area geografica di azione del servizio che hanno richiesto un appuntamento per pratiche di adozione.
 
 **Quando inviarlo**: Quando l'appuntamento è confermato.
 
@@ -127,9 +135,13 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 <summary>Conferma prenotazione appuntamento</summary>
 
-&#x20;**🖋 Titolo del messaggio:** Il tuo appuntamento
+{% include "../.gitbook/includes/single-sign-on.md" %}
 
-🗒 **Testo del messaggio**:&#x20;
+***
+
+**🖋 Titolo del messaggio:** Il tuo appuntamento
+
+🗒 **Testo del messaggio**:
 
 Hai prenotato un appuntamento per \<oggetto dell’appuntamento>.
 
@@ -143,7 +155,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 ***
 
-**Destinatari**: I cittadini residenti nell’area geografica di azione del servizio che hanno richiesto un appuntamento per pratiche di nascita.&#x20;
+**Destinatari**: I cittadini residenti nell’area geografica di azione del servizio che hanno richiesto un appuntamento per pratiche di nascita.
 
 **Quando inviarlo**: Quando l'appuntamento è confermato.
 
@@ -157,7 +169,11 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 <summary>Integrazione documentazione</summary>
 
-**🖋 Titolo del messaggio:** Richiesta di integrazione&#x20;
+{% include "../.gitbook/includes/single-sign-on.md" %}
+
+***
+
+**🖋 Titolo del messaggio:** Richiesta di integrazione
 
 🗒 **Testo del messaggio:**
 
@@ -259,7 +275,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL)
 
 <summary>Rilascio del documento e termine del procedimento</summary>
 
-**🖋 Titolo del messaggio:** Rilascio \<tipologia documento>&#x20;
+**🖋 Titolo del messaggio:** Rilascio \<tipologia documento>
 
 🗒 **Testo del messaggio:**
 
@@ -308,7 +324,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 {% hint style="info" %}
 **Un modello da personalizzare**
 
-Le procedure di questo servizio variano molto da ente a ente. Consigliamo di utilizzare i testi dei messaggi come un punto di partenza e di aggiungere ulteriori informazioni.&#x20;
+Le procedure di questo servizio variano molto da ente a ente. Consigliamo di utilizzare i testi dei messaggi come un punto di partenza e di aggiungere ulteriori informazioni.
 
 Il modello è un esempio che non ha carattere vincolante per l’ente e sul quale la Società declina qualsiasi responsabilità, avendo valore esemplificativo.
 

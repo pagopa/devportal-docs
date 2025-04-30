@@ -4,19 +4,21 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 
 * comunicare direttamente ai cittadini le **variazioni annuali dell'IMU** previste dal Comune di competenza, come aliquote ed esenzioni;
 * fornire alle cittadine e ai cittadini un riferimento per la ricezione delle comunicazioni riguardanti l'IMU su **uno o più immobili, anche di diversi Comuni** e con differenti regolamentazioni, se presenti su IO;
-* &#x20;**aggiornare in tempo reale** i cittadini e quindi consentirgli di agire con tempestività sul pagamento e non incorrere in eventuali more.
+* **aggiornare in tempo reale** i cittadini e quindi consentirgli di agire con tempestività sul pagamento e non incorrere in eventuali more.
 
-[**Scopri tutti i benefici di integrarsi con IO →** ](https://docs.pagopa.it/manuale-servizi/lapp-io/cose-io-e-qual-e-il-suo-obiettivo)
+[**Scopri tutti i benefici di integrarsi con IO →**](https://docs.pagopa.it/manuale-servizi/lapp-io/cose-io-e-qual-e-il-suo-obiettivo)
 
 ## Scheda servizio <a href="#scheda-servizio" id="scheda-servizio"></a>
 
-<table data-header-hidden><thead><tr><th width="373"></th><th></th></tr></thead><tbody><tr><td><strong>Nome servizio</strong></td><td>Imposta Municipale Unica (IMU) </td></tr><tr><td><strong>Argomento</strong></td><td>Casa e utenze</td></tr><tr><td><strong>Descrizione del servizio</strong></td><td><p>Il servizio riguarda l’Imposta Municipale Unica (IMU) per il possesso di immobili, fabbricati e terreni.</p><p><br>Tramite IO potrai:</p><ul><li>ricevere aggiornamenti sulle nuove disposizioni previste per l'anno in corso;</li><li>ricevere avvisi di pagamento e pagarli in app;</li><li>ricevere un messaggio che ti informa che il pagamento è in scadenza.</li></ul></td></tr><tr><td><strong>Pulsante</strong></td><td>Scopri di più</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="373"></th><th></th></tr></thead><tbody><tr><td><strong>Nome servizio</strong></td><td>Imposta Municipale Unica (IMU)</td></tr><tr><td><strong>Argomento</strong></td><td>Casa e utenze</td></tr><tr><td><strong>Descrizione del servizio</strong></td><td><p>Il servizio riguarda l’Imposta Municipale Unica (IMU) per il possesso di immobili, fabbricati e terreni.</p><p><br>Tramite IO potrai:</p><ul><li>ricevere aggiornamenti sulle nuove disposizioni previste per l'anno in corso;</li><li>ricevere avvisi di pagamento e pagarli in app;</li><li>ricevere un messaggio che ti informa che il pagamento è in scadenza.</li></ul></td></tr><tr><td><strong>Pulsante</strong></td><td>Vai al servizio</td></tr></tbody></table>
+
+{% include "../.gitbook/includes/banner-single-sign-on.md" %}
 
 ## Ciclo di vita del servizio
 
-<figure><img src="../.gitbook/assets/image (116).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Imposta Municipale Unica</strong> </p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (116).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Imposta Municipale Unica</strong></p></figcaption></figure>
 
-## Messaggi del servizio&#x20;
+## Messaggi del servizio
 
 {% hint style="success" %}
 **Il servizio ideale**
@@ -26,7 +28,7 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 <details>
 
-<summary>Aggiornamenti e novità IMU </summary>
+<summary>Aggiornamenti e novità IMU</summary>
 
 {% include "../.gitbook/includes/allegati.md" %}
 
@@ -34,13 +36,13 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 **🖋 Titolo del messaggio:** Aggiornamenti e novità IMU \<aaaa>
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
-Sono disponibili le nuove regolamentazioni ed aliquote per l'anno \<aaaa>.&#x20;
+Sono disponibili le nuove regolamentazioni ed aliquote per l'anno \<aaaa>.
 
-\[Descrizione sintetica e per punti di cose prevedono le nuove regolamentazioni, da completare a cura e responsabilità dell'ente]&#x20;
+\[Descrizione sintetica e per punti di cose prevedono le nuove regolamentazioni, da completare a cura e responsabilità dell'ente]
 
-Per ulteriori informazioni, \[visita questo sito]\(URL).&#x20;
+Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 **🪄 Pulsante**: n/a
 
@@ -52,7 +54,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).&#x20;
 
 **Quando inviarlo**: Quando il Comune pubblica aggiornamento sulle regolamentazioni
 
-**User story**: Come cittadino voglio ricevere notifica quando il Comune pubblica le regolamentazioni IMU&#x20;
+**User story**: Come cittadino voglio ricevere notifica quando il Comune pubblica le regolamentazioni IMU
 
 </details>
 
@@ -62,17 +64,17 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).&#x20;
 
 **🖋 Titolo del messaggio:** Pagamento \<prima, seconda, terza rata o rata unica>
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
-È possibile pagare l'importo IMU dovuto per \<periodo in questione> entro il \<gg/mm/aaaa>, applicando l’aliquota prevista dal tuo Comune.&#x20;
+È possibile pagare l'importo IMU dovuto per \<periodo in questione> entro il \<gg/mm/aaaa>, applicando l’aliquota prevista dal tuo Comune.
 
 Il versamento dell’imposta può essere effettuato anche in un’unica soluzione, pagando l'intero importo annuale entro \<gg/mm/aaaa>.
 
-Per calcolare l'importo dovuto, \[visita questo sito]\(URL).&#x20;
+Per calcolare l'importo dovuto, \[visita questo sito]\(URL).
 
-Per conoscere le modalità di pagamento, \[visita questo sito]\(URL).&#x20;
+Per conoscere le modalità di pagamento, \[visita questo sito]\(URL).
 
-Per ulteriori informazioni, \[visita questo sito]\(URL).&#x20;
+Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 **🪄 Pulsante**: n/a
 
@@ -80,25 +82,25 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).&#x20;
 
 **Destinatari**: Tutti i cittadini che possiedono beni immobiliari nel Comune.
 
-**Quando inviarlo**: Quando il Comune effettua la comunicazioni&#x20;
+**Quando inviarlo**: Quando il Comune effettua la comunicazioni
 
-**User story**: Come cittadino voglio ricevere notifica del periodo in cui è previsto il pagamento della prima rata.&#x20;
+**User story**: Come cittadino voglio ricevere notifica del periodo in cui è previsto il pagamento della prima rata.
 
-<mark style="color:purple;">ℹ️</mark> In caso di pagamenti su più rate, l'ente può mandare questo messaggio per ricordare le modalità di pagamento e le scadenze di ognuna.&#x20;
+<mark style="color:purple;">ℹ️</mark> In caso di pagamenti su più rate, l'ente può mandare questo messaggio per ricordare le modalità di pagamento e le scadenze di ognuna.
 
 </details>
 
 <details>
 
-<summary>IMU in scadenza </summary>
+<summary>IMU in scadenza</summary>
 
 **🖋 Titolo del messaggio:** IMU in scadenza
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Hai tempo fino al \<gg/mm/aaaa> per pagare la \<prima, seconda o terza rata, ravvedimento operoso> dell'IMU.
 
-Per ulteriori informazioni, \[visita questo sito]\(URL).&#x20;
+Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 **🪄 Pulsante**: n/a
 

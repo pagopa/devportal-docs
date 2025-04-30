@@ -5,7 +5,7 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 * fornire alle cittadine e ai cittadini un riferimento per la ricezione delle comunicazioni riguardanti richieste, comunicazioni e prenotazioni dei servizi bibliotecari;
 * monitorare e gestire tempestivamente le richieste, le comunicazioni e i pagamenti per l’erogazione del servizio.
 
-[**Scopri tutti i benefici di integrarsi con IO →** ](https://docs.pagopa.it/manuale-servizi/lapp-io/cose-io-e-qual-e-il-suo-obiettivo)
+[**Scopri tutti i benefici di integrarsi con IO →**](https://docs.pagopa.it/manuale-servizi/lapp-io/cose-io-e-qual-e-il-suo-obiettivo)
 
 ## Scheda servizio <a href="#scheda-servizio" id="scheda-servizio"></a>
 
@@ -33,9 +33,9 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 **🖋 Titolo del messaggio:** Iscrizione confermata
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
-La tua iscrizione è confermata per i servizi bibliotecari del Comune di \<Comune>.&#x20;
+La tua iscrizione è confermata per i servizi bibliotecari del Comune di \<Comune>.
 
 \[Inserire qui indicazioni sui servizi disponibili per il cittadino iscritto, da completare a cura e responsabilità dell'ente]
 
@@ -61,9 +61,9 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 **🖋 Titolo del messaggio:** Rinnova la tua iscrizione
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
-Il \<gg/mm/aaaa> la tua iscrizione al servizio bibliotecario del Comune di \<Comune> è scaduta.&#x20;
+Il \<gg/mm/aaaa> la tua iscrizione al servizio bibliotecario del Comune di \<Comune> è scaduta.
 
 Per continuare ad usufruire dei servizi bibliotecari, rinnova la tua iscrizione.
 
@@ -93,7 +93,7 @@ Per ulteriori informazioni su come rinnovare l’iscrizione, \[visita questo sit
 
 **🖋 Titolo del messaggio:** \<Libro/Rivista/Dvd/ecc> disponibile al ritiro
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Dal \<gg/mm/aaaa> potrai ritirare il \<Libro/Rivista/Dvd/ecc> richiesto.
 
@@ -121,7 +121,7 @@ Dal \<gg/mm/aaaa> potrai ritirare il \<Libro/Rivista/Dvd/ecc> richiesto.
 
 **🖋 Titolo del messaggio:** \<Libro/Rivista/Dvd/ecc> disponibile per il prestito
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Dal \<gg/mm/aaaa> il \<Libro/Rivista/Dvd/ecc> è disponibile per il prestito.
 
@@ -141,7 +141,7 @@ Dal \<gg/mm/aaaa> il \<Libro/Rivista/Dvd/ecc> è disponibile per il prestito.
 
 </details>
 
-Se è previsto un pagamento per il prestito bibliotecario, è possibile prevedere il seguente messaggio:&#x20;
+Se è previsto un pagamento per il prestito bibliotecario, è possibile prevedere il seguente messaggio:
 
 <details>
 
@@ -153,7 +153,7 @@ Se è previsto un pagamento per il prestito bibliotecario, è possibile preveder
 
 **🖋 Titolo del messaggio:** Hai un nuovo avviso di pagamento
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 C’è un avviso di pagamento intestato a \<nome> \<cognome> e relativo a \<causale>.
 
@@ -169,7 +169,7 @@ Per maggiori informazioni o per richiedere assistenza, contattaci tramite i cana
 
 In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio potrebbe subire variazioni.
 
-**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)
 
 ***
 
@@ -189,13 +189,13 @@ In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio p
 
 **🖋 Titolo del messaggio:** Hai un pagamento in scadenza
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Il tuo pagamento per \<causale> sta per scadere.
 
 Se hai già provveduto a pagare l’avviso, ignora questo messaggio.
 
-**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)
 
 ***
 
@@ -219,13 +219,13 @@ Il seguente messaggio serve a sollecitare il cittadino per il mancato pagamento 
 
 **🖋 Titolo del messaggio:** Pagamento non effettuato
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Il tuo pagamento relativo a \<causale> è scaduto il \<gg/mm/aaaa>.
 
 Se hai già provveduto a pagare l’avviso o se hai richiesto la domiciliazione del pagamento sul conto corrente, ignora questo messaggio.
 
-**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)
 
 ***
 
@@ -243,7 +243,7 @@ Se hai già provveduto a pagare l’avviso o se hai richiesto la domiciliazione 
 
 **🖋 Titolo del messaggio:** \<Libro/Rivista/Dvd/ecc> disponibile al ritiro
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Dal \<gg/mm/aaaa> potrai ritirare il \<Libro/Rivista/Dvd/ecc> richiesto.
 
@@ -271,11 +271,11 @@ Dal \<gg/mm/aaaa> potrai ritirare il \<Libro/Rivista/Dvd/ecc> richiesto.
 
 **🖋 Titolo del messaggio:** La tua prenotazione è in attesa
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
-Abbiamo ricevuto la tua richiesta di prenotazione per \<Libro/Rivista/Dvd/ecc>.&#x20;
+Abbiamo ricevuto la tua richiesta di prenotazione per \<Libro/Rivista/Dvd/ecc>.
 
-Il \<Libro/Rivista/Dvd/ecc>, risulta attualmente in prestito ad altro utente.&#x20;
+Il \<Libro/Rivista/Dvd/ecc>, risulta attualmente in prestito ad altro utente.
 
 Riceverai un messaggio in app non appena il \<Libro/Rivista/Dvd/ecc> verrà prenotato a tuo nome.
 
@@ -297,7 +297,7 @@ Riceverai un messaggio in app non appena il \<Libro/Rivista/Dvd/ecc> verrà pren
 
 **🖋 Titolo del messaggio:** \<Libro/Rivista/Dvd/ecc> disponibile al ritiro
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Dal \<gg/mm/aaaa> potrai ritirare il \<Libro/Rivista/Dvd/ecc> richiesto.
 
@@ -323,13 +323,13 @@ Dal \<gg/mm/aaaa> potrai ritirare il \<Libro/Rivista/Dvd/ecc> richiesto.
 
 <summary>Consegna ricevuta prestito</summary>
 
-{% include "../.gitbook/includes/allegati.md" %}
+{% include "../.gitbook/includes/allegati+sso.md" %}
 
 ***
 
 **🖋 Titolo del messaggio:** La ricevuta del tuo prestito
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 A seguire, la ricevuta del tuo prestito.
 
@@ -337,9 +337,7 @@ A seguire, la ricevuta del tuo prestito.
 
 \[Solo per messaggi con allegato] Trovi la ricevuta del tuo prestito in allegato.
 
-Per visualizzare la tua ricevuta, \[visita questo sito]\(URL).
-
-**🪄 Pulsante**: n/a
+**🪄 Pulsante**: Vai alla ricevuta
 
 📎 <mark style="color:blue;">**Allegato**</mark>: \<ricevuta prestito>
 
@@ -361,9 +359,9 @@ Per visualizzare la tua ricevuta, \[visita questo sito]\(URL).
 
 **🖋 Titolo del messaggio:** Il tuo prestito sta per terminare
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
-Il prestito per \<Libro/Rivista/Dvd/ecc> sta per terminare.&#x20;
+Il prestito per \<Libro/Rivista/Dvd/ecc> sta per terminare.
 
 Potrai restituire il prestito entro il \<gg/mm/aaaa> presso:
 
@@ -391,7 +389,7 @@ Potrai restituire il prestito entro il \<gg/mm/aaaa> presso:
 
 **🖋 Titolo del messaggio:** Il rinnovo di \<Libro/Rivista/Dvd/ecc> è confermato
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Il rinnovo del prestito per \<Libro/Rivista/Dvd/ecc> è confermato fino al \<gg/mm/aaaa>.
 
@@ -413,11 +411,11 @@ Il rinnovo del prestito per \<Libro/Rivista/Dvd/ecc> è confermato fino al \<gg/
 
 **🖋 Titolo del messaggio:** Non è possibile rinnovare il tuo prestito
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
-Il rinnovo del prestito \<Libro/Rivista/Dvd/ecc> non è possibile.&#x20;
+Il rinnovo del prestito \<Libro/Rivista/Dvd/ecc> non è possibile.
 
-Per procedere con una nuova prenotazione \[visita questo sito]\[URL]&#x20;
+Per procedere con una nuova prenotazione \[visita questo sito]\[URL]
 
 **🪄 Pulsante**: n/a
 
@@ -439,9 +437,9 @@ Per procedere con una nuova prenotazione \[visita questo sito]\[URL]&#x20;
 
 **🖋 Titolo del messaggio:** Il tuo prestito è scaduto
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
-Il prestito per \<Libro/Rivista/Dvd/ecc> è scaduto il \<gg/mm/aaaa>.&#x20;
+Il prestito per \<Libro/Rivista/Dvd/ecc> è scaduto il \<gg/mm/aaaa>.
 
 Deve essere restituito il prima possibile.
 
@@ -467,7 +465,7 @@ Per ulteriori informazioni, (visita questo sito)\[URL].
 
 Se dopo lo smarrimento o danneggiamento di un prestito, è prevista la sostituzione della copia o il pagamento della stessa è possibile prevedere i seguenti messaggi.
 
-&#x20;Le comunicazioni sotto riportate hanno scopo informativo e non assumono alcun valore legale. &#x20;
+Le comunicazioni sotto riportate hanno scopo informativo e non assumono alcun valore legale.
 
 <details>
 
@@ -475,7 +473,7 @@ Se dopo lo smarrimento o danneggiamento di un prestito, è prevista la sostituzi
 
 **🖋 Titolo del messaggio:** Hai una richiesta di sostituzione copia
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Hai una richiesta di sostituzione copia, causa \<smarrito/danneggiamento> a seguito del prestito di \<Libro/Rivista/Dvd/ecc>, registrato in data \<gg/mm/aaaa>.
 
@@ -503,7 +501,7 @@ Per ulteriori informazioni e consultare il regolamento, (visita questo sito)\[UR
 
 **🖋 Titolo del messaggio:** Hai un nuovo avviso di pagamento
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 C’è un avviso di pagamento intestato a \<nome> \<cognome> e relativo a \<causale>, in base a quanto previsto dal (regolamento)\[URL].
 
@@ -519,7 +517,7 @@ Per maggiori informazioni o per richiedere assistenza, contattaci tramite i cana
 
 In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio potrebbe subire variazioni.
 
-**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)
 
 ***
 
@@ -539,13 +537,13 @@ In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio p
 
 **🖋 Titolo del messaggio:** Hai un pagamento in scadenza
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Il tuo pagamento per \<causale> sta per scadere.
 
 Se hai già provveduto a pagare l’avviso, ignora questo messaggio.
 
-**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)
 
 ***
 
@@ -569,13 +567,13 @@ Il seguente messaggio serve a sollecitare il cittadino per il mancato pagamento 
 
 **🖋 Titolo del messaggio:** Pagamento non effettuato
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Il tuo pagamento relativo a \<causale> è scaduto il \<gg/mm/aaaa>.
 
 Se hai già provveduto a pagare l’avviso o se hai richiesto la domiciliazione del pagamento sul conto corrente, ignora questo messaggio.
 
-**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)
 
 ***
 
@@ -599,7 +597,7 @@ Se hai già provveduto a pagare l’avviso o se hai richiesto la domiciliazione 
 
 **🖋 Titolo del messaggio:** \<Libro/Rivista/Dvd/ecc> disponibile alla consegna
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Dal \<gg/mm/aaaa> il \<Libro/Rivista/Dvd/ecc> è disponibile per la consegna.
 
@@ -609,7 +607,7 @@ La consegna avverrà secondo le modalità richieste in fase di prenotazione.
 
 ***
 
-**Destinatari**: Tutti i cittadini che hanno richiesto una consegna  \<Libro/Rivista/Dvd/ecc> presso una biblioteca comunale.
+**Destinatari**: Tutti i cittadini che hanno richiesto una consegna \<Libro/Rivista/Dvd/ecc> presso una biblioteca comunale.
 
 **Quando inviarlo**: Quando il \<Libro/Rivista/Dvd/ecc> è disponibile alla consegna.
 
@@ -629,7 +627,7 @@ La consegna avverrà secondo le modalità richieste in fase di prenotazione.
 
 **🖋 Titolo del messaggio:** Hai un nuovo avviso di pagamento
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 C’è un avviso di pagamento intestato a \<nome> \<cognome> e relativo a \<causale>.
 
@@ -645,7 +643,7 @@ Per maggiori informazioni o per richiedere assistenza, contattaci tramite i cana
 
 In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio potrebbe subire variazioni.
 
-**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)
 
 ***
 
@@ -665,13 +663,13 @@ In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio p
 
 **🖋 Titolo del messaggio:** Hai un pagamento in scadenza
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Il tuo pagamento per \<causale> sta per scadere.
 
 Se hai già provveduto a pagare l’avviso, ignora questo messaggio.
 
-**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)
 
 ***
 
@@ -695,13 +693,13 @@ Il seguente messaggio serve a sollecitare il cittadino per il mancato pagamento 
 
 **🖋 Titolo del messaggio:** Pagamento non effettuato
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Il tuo pagamento relativo a \<causale> è scaduto il \<gg/mm/aaaa>.
 
 Se hai già provveduto a pagare l’avviso o se hai richiesto la domiciliazione del pagamento sul conto corrente, ignora questo messaggio.
 
-**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)
 
 ***
 
@@ -721,7 +719,7 @@ Se hai già provveduto a pagare l’avviso o se hai richiesto la domiciliazione 
 
 **🖋 Titolo del messaggio:** Il \<Libro/Rivista/Dvd/ecc> è stato inviato
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Ti abbiamo inviato la copia del \<Libro/Rivista/Dvd/ecc> richiesto.\
 \[Se l’utente ha richiesto invio digitale] Troverai l’allegato nella tua email\
@@ -753,7 +751,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 **🖋 Titolo del messaggio:** La tua proposta è stata accolta
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 La tua proposta per l’acquisto di \<Libro/Rivista/Dvd/ecc> è stata accolta.
 
@@ -777,7 +775,7 @@ Riceverai nei prossimi giorni un messaggio in app con le indicazioni utili al ri
 
 **🖋 Titolo del messaggio:** La tua proposta non è stata accolta
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 La tua proposta per l’acquisto di \<Libro/Rivista/Dvd/ecc> non è stata accolta.
 
@@ -801,7 +799,7 @@ Per ulteriori informazioni, (visita questo sito)\[URL].
 
 **🖋 Titolo del messaggio:** \<Libro/Rivista/Dvd/ecc> disponibile al ritiro
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Dal \<gg/mm/aaaa> potrai ritirare il \<Libro/Rivista/Dvd/ecc> richiesto.
 
@@ -826,11 +824,11 @@ Dal \<gg/mm/aaaa> potrai ritirare il \<Libro/Rivista/Dvd/ecc> richiesto.
 {% hint style="info" %}
 **Un modello da personalizzare**
 
-Le procedure di questo servizio variano molto da ente a ente. Consigliamo di utilizzare i testi dei messaggi come un punto di partenza e di aggiungere ulteriori informazioni.&#x20;
+Le procedure di questo servizio variano molto da ente a ente. Consigliamo di utilizzare i testi dei messaggi come un punto di partenza e di aggiungere ulteriori informazioni.
 
 Il modello è un esempio che non ha carattere vincolante per l’ente e sul quale la Società declina qualsiasi responsabilità, avendo valore esemplificativo.
 
-Puoi copiare i testi dei messaggi da personalizzare da questo documento:&#x20;
+Puoi copiare i testi dei messaggi da personalizzare da questo documento:
 
 {% file src="../.gitbook/assets/IO - Template servizi - Biblioteche.xlsx" %}
 {% endhint %}

@@ -5,11 +5,11 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 * fornire alle cittadine e ai cittadini un riferimento per le comunicazioni riguardanti le richieste di accesso a dati e documenti delle Pubbliche Amministrazioni;
 * monitorare e gestire tempestivamente le richieste, le comunicazioni e i pagamenti per l’erogazione del servizio.
 
-[**Scopri tutti i benefici di integrarsi con IO →** ](https://docs.pagopa.it/manuale-servizi/lapp-io/cose-io-e-qual-e-il-suo-obiettivo)
+[**Scopri tutti i benefici di integrarsi con IO →**](https://docs.pagopa.it/manuale-servizi/lapp-io/cose-io-e-qual-e-il-suo-obiettivo)
 
 ## Scheda servizio <a href="#scheda-servizio" id="scheda-servizio"></a>
 
-<table data-header-hidden><thead><tr><th width="373"></th><th></th></tr></thead><tbody><tr><td><strong>Nome servizio</strong></td><td>Accesso civico agli atti</td></tr><tr><td><strong>Argomento</strong></td><td>Servizi anagrafici e civici</td></tr><tr><td><strong>Descrizione del servizio</strong></td><td><p>Il servizio riguarda l’accesso agli atti amministrativi da parte dei cittadini che ne fanno richiesta.<br></p><p>Tramite IO potrai:</p><ul><li>ricevere comunicazioni e aggiornamenti sulle richieste presentate;</li><li>ricevere avvisi di pagamento relativi alle spese di riproduzione dei documenti e pagarli in app;</li><li>ricevere altre comunicazioni.</li></ul></td></tr><tr><td><strong>Pulsante</strong></td><td>Presenta richiesta</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="373"></th><th></th></tr></thead><tbody><tr><td><strong>Nome servizio</strong></td><td>Accesso civico agli atti</td></tr><tr><td><strong>Argomento</strong></td><td>Servizi anagrafici e civici</td></tr><tr><td><strong>Descrizione del servizio</strong></td><td><p>Il servizio riguarda l’accesso agli atti amministrativi da parte dei cittadini che ne fanno richiesta.<br></p><p>Tramite IO potrai:</p><ul><li>ricevere comunicazioni e aggiornamenti sulle richieste presentate;</li><li>ricevere avvisi di pagamento relativi alle spese di riproduzione dei documenti e pagarli in app;</li><li>ricevere altre comunicazioni.</li></ul></td></tr><tr><td><strong>Pulsante</strong></td><td>Invia richiesta</td></tr></tbody></table>
 
 {% include "../.gitbook/includes/banner-single-sign-on.md" %}
 
@@ -33,7 +33,7 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 **🖋 Titolo del messaggio:** Devi ricompilare la tua richiesta
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 La tua richiesta di accesso documentale agli atti \<nnnn> del \<gg/mm/aaaa> risulta \<incompleta/irregolare>.
 
@@ -59,7 +59,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 **🖋 Titolo del messaggio:** La tua richiesta è stata accolta
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 La tua richiesta di accesso documentale agli atti \<nnnn> è stata accolta.
 
@@ -85,7 +85,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 **🖋 Titolo del messaggio:** La tua richiesta non è stata accolta
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 La tua richiesta di accesso documentale agli atti \<nnnn> non è stata accolta.
 
@@ -111,7 +111,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 **🖋 Titolo del messaggio:** Gli atti sono pronti \<per la visione/per il ritiro>
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Dal \<gg/mm/aaaa> puoi \<ritirare/visionare> gli atti da te richiesti.
 
@@ -141,7 +141,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 **🖋 Titolo del messaggio:** La tua richiesta è stata archiviata
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Gli atti da te richiesti non sono stati \<ritirati/visionati> entro il termine previsto del \<gg/mm/aaaa>.
 
@@ -169,7 +169,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 **🖋 Titolo del messaggio:** La tua richiesta è stata accolta
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 La tua richiesta di accesso a \<oggetto della richiesta> \<nnnn> è stata accolta.
 
@@ -195,7 +195,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 **🖋 Titolo del messaggio:** La tua richiesta non è stata accolta
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 La tua richiesta di accesso a \<oggetto della richiesta> \<nnnn> non è stata accolta.
 
@@ -221,7 +221,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 **🖋 Titolo del messaggio:** Puoi visionare \<i documenti da te richiesti/le informazioni da te richieste/i dati da te richiesti>
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Il \<gg/mm/aaaa> \<i documenti da te richiesti/le informazioni da te richieste/i dati da te richiesti> sono \<stati pubblicati/state pubblicate>.
 
@@ -247,7 +247,7 @@ Per visionarli, \[visita questo sito]\(URL).
 
 **🖋 Titolo del messaggio:** La tua richiesta è stata accolta
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 La tua richiesta di accesso a \<oggetto della richiesta> \<nnnn> è stata accolta.
 
@@ -271,7 +271,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 **🖋 Titolo del messaggio:** La tua richiesta non è stata accolta
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 La tua richiesta di accesso a \<oggetto della richiesta> \<nnnn> non è stata accolta.
 
@@ -294,7 +294,7 @@ Per ulteriori informazioni, \[visita il sito]\(URL).
 {% hint style="info" %}
 **Un modello da personalizzare**
 
-Le procedure di questo servizio variano molto da ente a ente. Consigliamo di utilizzare i testi dei messaggi come un punto di partenza e di aggiungere ulteriori informazioni.&#x20;
+Le procedure di questo servizio variano molto da ente a ente. Consigliamo di utilizzare i testi dei messaggi come un punto di partenza e di aggiungere ulteriori informazioni.
 
 Il modello è un esempio che non ha carattere vincolante per l’ente e sul quale la Società declina qualsiasi responsabilità, avendo valore esemplificativo.
 

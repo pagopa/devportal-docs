@@ -5,11 +5,11 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 * fornire alle cittadine e ai cittadini un riferimento per la ricezione delle comunicazioni riguardanti la fornitura di servizi idrici nel territorio comunale;
 * monitorare e gestire tempestivamente le richieste, le comunicazioni e i pagamenti per l’erogazione del servizio.
 
-[**Scopri tutti i benefici di integrarsi con IO →** ](https://docs.pagopa.it/manuale-servizi/lapp-io/cose-io-e-qual-e-il-suo-obiettivo)
+[**Scopri tutti i benefici di integrarsi con IO →**](https://docs.pagopa.it/manuale-servizi/lapp-io/cose-io-e-qual-e-il-suo-obiettivo)
 
 ## Scheda servizio <a href="#scheda-servizio" id="scheda-servizio"></a>
 
-<table data-header-hidden><thead><tr><th width="373"></th><th></th></tr></thead><tbody><tr><td><strong>Nome servizio</strong></td><td>Servizi idrici</td></tr><tr><td><strong>Argomento</strong></td><td>Casa e utenze</td></tr><tr><td><strong>Descrizione del servizio</strong></td><td><p>Il servizio riguarda l’acqua potabile, l’uso delle fognature e degli impianti di depurazione.</p><p></p><p>Tramite IO potrai:</p><ul><li>ricevere comunicazioni e aggiornamenti sulle pratiche;</li><li>ricevere avvisi di pagamento e pagarli in app;</li><li>ricevere altre comunicazioni.</li></ul></td></tr><tr><td><strong>Pulsante</strong></td><td>Richiedi preventivo</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="373"></th><th></th></tr></thead><tbody><tr><td><strong>Nome servizio</strong></td><td>Servizi idrici</td></tr><tr><td><strong>Argomento</strong></td><td>Casa e utenze</td></tr><tr><td><strong>Descrizione del servizio</strong></td><td><p>Il servizio riguarda l’acqua potabile, l’uso delle fognature e degli impianti di depurazione.</p><p>Tramite IO potrai:</p><ul><li>ricevere comunicazioni e aggiornamenti sulle pratiche;</li><li>ricevere avvisi di pagamento e pagarli in app;</li><li>ricevere altre comunicazioni.</li></ul></td></tr><tr><td><strong>Pulsante</strong></td><td>Richiedi preventivo</td></tr></tbody></table>
 
 ## Ciclo di vita del servizio
 
@@ -23,9 +23,9 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende erogare questo servizio può valutare quali e quanti messaggi inviare, in base alle proprie possibilità di integrazione. L'obiettivo finale rimane quello di inviarli tutti, rilasciando in maniera iterativa versioni del servizio sempre più complete.
 {% endhint %}
 
-In base alle scelte della singola amministrazione, questo servizio può essere erogato dal Comune o gestito da soggetti terzi.&#x20;
+In base alle scelte della singola amministrazione, questo servizio può essere erogato dal Comune o gestito da soggetti terzi.
 
-Gli stessi possono indirizzare ai cittadini le comunicazioni inerenti al servizio tramite i propri canali e procedure. &#x20;
+Gli stessi possono indirizzare ai cittadini le comunicazioni inerenti al servizio tramite i propri canali e procedure.
 
 ## Attivazione fornitura (nuovo allacciamento, subentro o voltura)
 
@@ -41,13 +41,13 @@ Gli stessi possono indirizzare ai cittadini le comunicazioni inerenti al servizi
 
 **🖋 Titolo del messaggio:** Il tuo preventivo
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Il \<gg/mm/aaaa> ti abbiamo inviato il preventivo da te richiesto tramite \<canale> per \<l’allacciamento/il subentro/la voltura> dell’acqua in \<indirizzo>.
 
 Per completare la tua richiesta, \[visita questo sito]\(URL).
 
-**🪄 Pulsante**: Completa richiesta
+**🪄 Pulsante**: Completa la richiesta
 
 ***
 
@@ -65,13 +65,13 @@ Per completare la tua richiesta, \[visita questo sito]\(URL).
 
 **🖋 Titolo del messaggio:** Richiesta di \<allacciamento/subentro/voltura> è bloccata da pagamenti insoluti
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Risultano pagamenti insoluti a carico di \<nome> \<cognome> e relative a \<causale>.
 
 Per maggiori informazioni o per richiedere assistenza, contattaci tramite i canali che trovi nella scheda servizio.
 
-**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)
 
 ***
 
@@ -91,7 +91,7 @@ Per maggiori informazioni o per richiedere assistenza, contattaci tramite i cana
 
 **🖋 Titolo del messaggio:** Richiesta di preventivo \<allacciamento/subentro/voltura> non accolta
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 La tua richiesta di preventivo per \<allacciamento/subentro/voltura> non è stata accolta.
 
@@ -137,7 +137,7 @@ Per maggiori informazioni o per richiedere assistenza, contattaci tramite i cana
 
 In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio potrebbe subire variazioni.
 
-**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)
 
 ***
 
@@ -163,7 +163,7 @@ Il tuo pagamento per \<causale> sta per scadere.
 
 Se hai già provveduto a pagare l’avviso, ignora questo messaggio.
 
-**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)
 
 ***
 
@@ -181,7 +181,7 @@ Se hai già provveduto a pagare l’avviso, ignora questo messaggio.
 
 **🖋 Titolo del messaggio:** La richiesta degli atti autorizzativi è stata inoltrata
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Il \<gg/mm/aaaa> abbiamo inoltrato la richiesta degli atti autorizzativi richiesti da \<nome del gestore> all’ufficio competente \<denominazione ufficio>.
 
@@ -203,15 +203,19 @@ Riceverai ulteriori messaggio sullo stato di avanzamento della tua richiesta.
 
 <summary>Attivazione del servizio</summary>
 
+{% include "../.gitbook/includes/single-sign-on.md" %}
+
+***
+
 **🖋 Titolo del messaggio:** Il servizio è attivo
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Il \<gg/mm/aaaa> abbiamo attivato il servizio di fornitura per \<allacciamento/subentro/voltura> dell’acqua in \<indirizzo>.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
-**🪄 Pulsante**: n/a
+**🪄 Pulsante**: Accedi al portale
 
 ***
 
@@ -259,7 +263,7 @@ Per maggiori informazioni o per richiedere assistenza, contattaci tramite i cana
 
 In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio potrebbe subire variazioni.
 
-**🪄 Pulsante**: Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
+**🪄 Pulsante**: Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)
 
 ***
 
@@ -285,7 +289,7 @@ l tuo pagamento della bolletta per \<tipo di fornitura> sta per scadere.
 
 Se hai già provveduto a pagare l’avviso o se hai richiesto la domiciliazione della bolletta sul conto corrente, ignora questo messaggio.
 
-**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)
 
 ***
 
@@ -305,9 +309,9 @@ Se hai già provveduto a pagare l’avviso o se hai richiesto la domiciliazione 
 
 **🖋 Titolo del messaggio:** La tua richiesta di agevolazioni è stata accolta
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
-La tua richiesta di agevolazioni per \<tipologia di fornitura> in \<indirizzo> che hai inviato il \<gg/mm/aaaa> è stata accolta.&#x20;
+La tua richiesta di agevolazioni per \<tipologia di fornitura> in \<indirizzo> che hai inviato il \<gg/mm/aaaa> è stata accolta.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -329,9 +333,9 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 **🖋 Titolo del messaggio:** La tua richiesta di agevolazioni non è stata accolta
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
-La tua richiesta di agevolazioni per il servizio di fornitura dell’acqua in \<indirizzo> non è stata accolta.&#x20;
+La tua richiesta di agevolazioni per il servizio di fornitura dell’acqua in \<indirizzo> non è stata accolta.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -379,7 +383,7 @@ Per maggiori informazioni o per richiedere assistenza, contattaci tramite i cana
 
 In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio potrebbe subire variazioni.
 
-**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)
 
 ***
 
@@ -397,13 +401,13 @@ In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio p
 
 **🖋 Titolo del messaggio:** Il servizio è bloccato da pagamenti insoluti
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Risultano pagamenti insoluti a carico di \<nome> \<cognome> e relative a \<causale>.
 
 Per maggiori informazioni o per richiedere assistenza, contattaci tramite i canali che trovi nella scheda servizio.
 
-**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)
 
 ***
 
@@ -423,15 +427,15 @@ Per maggiori informazioni o per richiedere assistenza, contattaci tramite i cana
 
 **🖋 Titolo del messaggio:** Hai un pagamento in scadenza
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Il tuo pagamento per \<causale> sta per scadere.
 
 Se hai già provveduto a pagare l’avviso, ignora questo messaggio.
 
-Per maggiori informazioni o per richiedere assistenza, contattaci tramite i canali che trovi nella scheda servizio.&#x20;
+Per maggiori informazioni o per richiedere assistenza, contattaci tramite i canali che trovi nella scheda servizio.
 
-**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)
 
 ***
 
@@ -455,7 +459,7 @@ Il seguente messaggio serve a sollecitare il cittadino per il mancato pagamento 
 
 **🖋 Titolo del messaggio:** Pagamento non effettuato
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Il tuo pagamento per \<causale> è scaduto il \<gg/mm/aaaa>.
 
@@ -463,7 +467,7 @@ Se hai già provveduto a pagare l’avviso, ignora questo messaggio.
 
 Per maggiori informazioni o per richiedere assistenza, contattaci tramite i canali che trovi nella scheda servizio.
 
-**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)
 
 ***
 
@@ -487,7 +491,7 @@ Per maggiori informazioni o per richiedere assistenza, contattaci tramite i cana
 
 **🖋 Titolo del messaggio:** Modifica erogazione acqua in \<indirizzo>
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Il \<gg/mm/aaaa> dalle \<hh:mm> alle \<hh:mm> a causa di \<causa>, l’erogazione dell’acqua in \<indirizzo> potrà \<essere interrotta/essere ridotta/subire variazioni>.
 
@@ -511,7 +515,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 **🖋 Titolo del messaggio:** Modifica erogazione acqua in \<indirizzo>
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Dal \<gg/mm/aaaa> al \<gg/mm/aaaa> a causa di \<causa>, l’erogazione dell’acqua in \<indirizzo> potrà \<essere interrotta/essere ridotta/subire variazioni>.
 
@@ -543,7 +547,7 @@ IO è integrata con SEND - Servizio Notifiche Digitale, per l'invio di comunicaz
 {% hint style="info" %}
 **Un modello da personalizzare**
 
-Le procedure di questo servizio variano molto da ente a ente. Consigliamo di utilizzare i testi dei messaggi come un punto di partenza e di aggiungere ulteriori informazioni.&#x20;
+Le procedure di questo servizio variano molto da ente a ente. Consigliamo di utilizzare i testi dei messaggi come un punto di partenza e di aggiungere ulteriori informazioni.
 
 Il modello è un esempio che non ha carattere vincolante per l’ente e sul quale la Società declina qualsiasi responsabilità, avendo valore esemplificativo.
 

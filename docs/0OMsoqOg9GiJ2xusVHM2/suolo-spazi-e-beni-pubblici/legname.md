@@ -5,15 +5,15 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 * fornire alle cittadine e ai cittadini un riferimento per la ricezione delle comunicazioni riguardanti l’assegnazione gratuita o la vendita di legname di proprietà del Comune;
 * monitorare e gestire tempestivamente le richieste, comunicazioni e i pagamenti per l'erogazione del servizio.
 
-[**Scopri tutti i benefici di integrarsi con IO →** ](https://app.gitbook.com/s/xWONfJmawghGo2ekuaKh/cose-io-e-qual-e-il-suo-obiettivo#perche-integrarsi-con-io)
+[**Scopri tutti i benefici di integrarsi con IO →**](https://app.gitbook.com/s/xWONfJmawghGo2ekuaKh/cose-io-e-qual-e-il-suo-obiettivo#perche-integrarsi-con-io)
 
 ## Scheda servizio <a href="#scheda-servizio" id="scheda-servizio"></a>
 
-| **Nome servizio**            | Legname                                                                                                                                                                                                                                                                                                                          |
-| ---------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Argomento**                | Suolo, spazi e beni pubblici                                                                                                                                                                                                                                                                                                     |
-| **Descrizione del servizio** | <p>Il servizio riguarda l’assegnazione e la raccolta di legname nel territorio del Comune.</p><p></p><p>Tramite IO potrai:</p><ul><li>ricevere informazioni sulle modalità di richiesta, assegnazione e raccolta legname;</li><li>ricevere avvisi di pagamento e pagarli in app;</li><li>ricevere altre comunicazioni.</li></ul> |
-| **Pulsante**                 | Vedi bandi in corso                                                                                                                                                                                                                                                                                                              |
+| **Nome servizio**            | Legname                                                                                                                                                                                                                                                                                                                   |
+| ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Argomento**                | Suolo, spazi e beni pubblici                                                                                                                                                                                                                                                                                              |
+| **Descrizione del servizio** | <p>Il servizio riguarda l’assegnazione e la raccolta di legname nel territorio del Comune.</p><p>Tramite IO potrai:</p><ul><li>ricevere informazioni sulle modalità di richiesta, assegnazione e raccolta legname;</li><li>ricevere avvisi di pagamento e pagarli in app;</li><li>ricevere altre comunicazioni.</li></ul> |
+| **Pulsante**                 | Vai ai bandi aperti                                                                                                                                                                                                                                                                                                       |
 
 {% include "../.gitbook/includes/banner-single-sign-on.md" %}
 
@@ -21,7 +21,7 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 
 <figure><img src="../.gitbook/assets/image (137).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Legname</strong></p></figcaption></figure>
 
-## Messaggi del servizio&#x20;
+## Messaggi del servizio
 
 {% hint style="success" %}
 **Il servizio ideale**
@@ -35,13 +35,13 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 <summary>Pubblicazione bando</summary>
 
-{% include "../.gitbook/includes/allegati.md" %}
+{% include "../.gitbook/includes/allegati+sso.md" %}
 
 ***
 
 **🖋 Titolo del messaggio**: Pubblicato il bando per l’anno \<aaaa>
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Il \<gg/mm/aaaa> è stato pubblicato il bando per \<l’assegnazione gratuita/la vendita di legname> per l’anno \<aaaa>.
 
@@ -53,7 +53,7 @@ Per consultare i criteri di assegnazione e compilare la domanda, \[visita questo
 
 \[Solo per messaggi con allegato] Trovi il testo completo del bando in allegato a questo messaggio.
 
-**🪄 Pulsante**: Compila la domanda
+**🪄 Pulsante**: Fai domanda
 
 <mark style="color:red;">📎</mark> <mark style="color:blue;">**Allegato:**</mark> \<testo integrale del bando>
 
@@ -127,9 +127,13 @@ Per maggiori informazioni, contatta \<denominazione ufficio> tramite \<canale>.
 
 <summary>Pubblicazione della graduatoria</summary>
 
+{% include "../.gitbook/includes/single-sign-on.md" %}
+
+***
+
 **🖋 Titolo del messaggio:** Pubblicata la graduatoria
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Sono disponibili le graduatorie di \<assegnazione/vendita> di legname per l’anno \<aaaa>.
 
@@ -151,7 +155,7 @@ Se vuoi, hai tempo fino al \<gg/mm/aaaa> per presentare richiesta di rinuncia.
 
 </details>
 
-### Richiesta di rinuncia&#x20;
+### Richiesta di rinuncia
 
 <details>
 
@@ -159,7 +163,7 @@ Se vuoi, hai tempo fino al \<gg/mm/aaaa> per presentare richiesta di rinuncia.
 
 **🖋 Titolo del messaggio:** Hai rinunciato alla tua posizione in graduatoria
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 La tua richiesta di rinuncia alla posizione in graduatoria per \<l’assegnazione/l’acquisto> di legname per l’anno \<aaaa> è stata accolta.
 
@@ -203,7 +207,7 @@ Per maggiori informazioni o per richiedere assistenza, contattaci tramite i cana
 
 In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio potrebbe subire variazioni.
 
-**🪄 Pulsante**: Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
+**🪄 Pulsante**: Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)
 
 ***
 
@@ -245,7 +249,7 @@ Per maggiori informazioni o per richiedere assistenza, contattaci tramite i cana
 
 In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio potrebbe subire variazioni.
 
-**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)
 
 ***
 
@@ -265,13 +269,13 @@ In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio p
 
 **🖋 Titolo del messaggio:** Hai un pagamento in scadenza
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Il tuo pagamento per l’acquisto di legname per l’anno \<aaaa> ricevuto il \<gg/mm/aaaa> sta per scadere.
 
 Se hai già provveduto a pagare l’avviso ignora questo messaggio.
 
-**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)
 
 ***
 
@@ -295,13 +299,13 @@ Il seguente messaggio serve a sollecitare il cittadino per il mancato pagamento 
 
 **🖋 Titolo del messaggio:** Pagamento non effettuato
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Il tuo pagamento per l’acquisto di legname per l’anno \<aaaa> ricevuto il \<gg/mm/aaaa> è scaduto il \<gg/mm/aaaa>.
 
 Se hai già provveduto a pagare l’avviso ignora questo messaggio.
 
-**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)
 
 ***
 
@@ -325,11 +329,11 @@ IO è integrata con SEND - Servizio Notifiche Digitale, per l'invio di comunicaz
 {% hint style="info" %}
 **Un modello da personalizzare**
 
-Le procedure di questo servizio variano molto da ente a ente. Consigliamo di utilizzare i testi dei messaggi come un punto di partenza e di aggiungere ulteriori informazioni.&#x20;
+Le procedure di questo servizio variano molto da ente a ente. Consigliamo di utilizzare i testi dei messaggi come un punto di partenza e di aggiungere ulteriori informazioni.
 
 Il modello è un esempio che non ha carattere vincolante per l’ente e sul quale la Società declina qualsiasi responsabilità, avendo valore esemplificativo.
 
-Puoi copiare i testi dei messaggi da personalizzare da questo documento:&#x20;
+Puoi copiare i testi dei messaggi da personalizzare da questo documento:
 
 {% file src="../.gitbook/assets/IO - Template servizi - Legname (1).xlsx" %}
 {% endhint %}

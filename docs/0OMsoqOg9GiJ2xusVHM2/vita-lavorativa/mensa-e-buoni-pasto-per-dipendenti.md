@@ -5,11 +5,11 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 * fornire alle dipendenti e ai dipendenti del Comune un riferimento per la ricezione delle comunicazioni riguardanti la mensa e i buoni pasto.
 * monitorare e gestire tempestivamente le richieste e le comunicazioni per l’erogazione del servizio.
 
-[**Scopri tutti i benefici di integrarsi con IO →** ](https://app.gitbook.com/s/xWONfJmawghGo2ekuaKh/cose-io-e-qual-e-il-suo-obiettivo#perche-integrarsi-con-io)
+[**Scopri tutti i benefici di integrarsi con IO →**](https://app.gitbook.com/s/xWONfJmawghGo2ekuaKh/cose-io-e-qual-e-il-suo-obiettivo#perche-integrarsi-con-io)
 
 ## Scheda servizio <a href="#scheda-servizio" id="scheda-servizio"></a>
 
-<table data-header-hidden><thead><tr><th width="373"></th><th></th></tr></thead><tbody><tr><td><strong>Nome servizio</strong></td><td>Mensa e buoni pasto per dipendenti</td></tr><tr><td><strong>Argomento</strong></td><td>Vita lavorativa</td></tr><tr><td><strong>Descrizione del servizio</strong></td><td><p>Il servizio riguarda la mensa e i buoni pasto per i dipendenti del Comune.</p><p></p><p>Tramite IO, i dipendenti del Comune potranno:</p><ul><li>ricevere comunicazioni e aggiornamenti sulla mensa e sui buoni pasto;</li><li>ricevere avvisi di pagamento per l’acquisto di buoni pasto e pagarli in app;</li><li>ricevere altre comunicazioni.</li></ul></td></tr><tr><td><strong>Pulsante</strong></td><td>Vedi le convenzioni attive</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="373"></th><th></th></tr></thead><tbody><tr><td><strong>Nome servizio</strong></td><td>Mensa e buoni pasto per dipendenti</td></tr><tr><td><strong>Argomento</strong></td><td>Vita lavorativa</td></tr><tr><td><strong>Descrizione del servizio</strong></td><td><p>Il servizio riguarda la mensa e i buoni pasto per i dipendenti del Comune.</p><p>Tramite IO, i dipendenti del Comune potranno:</p><ul><li>ricevere comunicazioni e aggiornamenti sulla mensa e sui buoni pasto;</li><li>ricevere avvisi di pagamento per l’acquisto di buoni pasto e pagarli in app;</li><li>ricevere altre comunicazioni.</li></ul></td></tr><tr><td><strong>Pulsante</strong></td><td>Consulta le convenzioni</td></tr></tbody></table>
 
 ## Ciclo di vita del servizio
 
@@ -31,7 +31,7 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 **🖋 Titolo del messaggio:** È attivo il servizio buoni pasto
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Dal \<gg/mm/aaaa> sarà attivo il servizio \<nome del servizio> per la gestione dei buoni pasto.
 
@@ -51,11 +51,15 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 </details>
 
-### Registrazione al portale&#x20;
+### Registrazione al portale
 
 <details>
 
 <summary>Registrazione al portale</summary>
+
+{% include "../.gitbook/includes/single-sign-on.md" %}
+
+***
 
 **🖋 Titolo del messaggio:** Registrazione al portale \<portale>
 
@@ -65,9 +69,7 @@ Dal \<gg/mm/aaaa> puoi accedere al portale \<portale> per gestire i tuoi buoni p
 
 \[Inserire qui indicazioni sulla registrazione e su eventuale app mobile, da compilare a cura e reponsabilità dell'ente]
 
-Per registrarti, \[visita questo sito]\(URL).
-
-**🪄 Pulsante:** n/a
+**🪄 Pulsante:** Accedi al portale
 
 ***
 
@@ -180,11 +182,11 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 {% hint style="info" %}
 **Un modello da personalizzare**
 
-Le procedure di questo servizio variano molto da ente a ente. Consigliamo di utilizzare i testi dei messaggi come un punto di partenza e di aggiungere ulteriori informazioni.&#x20;
+Le procedure di questo servizio variano molto da ente a ente. Consigliamo di utilizzare i testi dei messaggi come un punto di partenza e di aggiungere ulteriori informazioni.
 
 Il modello è un esempio che non ha carattere vincolante per l’ente e sul quale la Società declina qualsiasi responsabilità, avendo valore esemplificativo.
 
-Puoi copiare i testi dei messaggi da personalizzare da questo documento:&#x20;
+Puoi copiare i testi dei messaggi da personalizzare da questo documento:
 
 {% file src="../.gitbook/assets/IO - Template servizi - Mensa e buoni pasto per dipendenti.xlsx" %}
 {% endhint %}
