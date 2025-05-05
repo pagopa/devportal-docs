@@ -11,7 +11,7 @@ I Cataloghi sono dedicati a tipologie specifiche di enti:
 Se il tuo ente sceglie i servizi da pubblicare tra quelli del Catalogo:&#x20;
 
 * avrà a disposizione la scheda del servizio, che l'ente può ripubblicare senza modifiche oppure eliminando uno o più punti dopo "Tramite IO";&#x20;
-* il servizio verrà approvato automaticamente.
+* Il servizio passerà sicuramente la fase di verifica.
 
 {% hint style="info" %}
 Se l'ente preferisce pubblicare un servizio che non fa parte del Catalogo, può farlo. Il servizio tuttavia verrà sottoposto a **controllo manuale** e verrà valutato secondo quanto scritto in questo Manuale. Dunque, non è assicurata l'approvazione — come invece avviene se si sceglie un servizio a catalogo.
