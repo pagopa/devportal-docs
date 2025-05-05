@@ -20,7 +20,7 @@ Un attributo è una qualità che un aderente possiede o dichiara di possedere. L
 
 ## Back office
 
-<mark style="background-color:blue;">\[Da compilare]</mark>
+<mark style="background-color:blue;">Interfaccia utente alla cui accedi attraverso l'Area Riservata</mark>
 
 ## Catalogo degli e-service
 
@@ -50,16 +50,7 @@ Ogni client raccoglie un gruppo di operatori di sicurezza e un gruppo di chiavi.
 
 ## Finalità
 
-È una dichiarazione che il fruitore presenta per dettagliare le sue ragioni e modalità di accesso alle informazioni in possesso dell'erogatore. Una finalità è di norma associata ad un e-service per il quale un fruitore ha una richiesta di fruizione attiva.
-
-I punti salienti di una finalità sono quattro:
-
-1. a quale e-service si intende accedere;
-2. la finalità e le modalità del trattamento dei dati dei quali si viene in possesso (analisi del rischio);
-3. il carico che si intende porre sull'infrastruttura dell'erogatore (stima di carico, definita in numero di chiamate all'API dell'erogatore al giorno stimate);
-4. i client associati, cioè quelli attraverso i quali è possibile ottenere un voucher valido.
-
-Le finalità vengono attivate mano a mano che sono presentate dal fruitore all'erogatore, automaticamente, fino al raggiungimento delle soglie massime di carico impostate dall'erogatore. Quando si eccede il carico che l'erogatore ha dichiarato di poter sostenere, le nuove finalità non saranno più attivate automaticamente. Da quel punto in poi, l'erogatore avrà facoltà di attivarle manualmente, dichiarando anzitempo una data di attivazione, in modo da avere il tempo di adeguare l'infrastruttura a reggere il carico.
+È una dichiarazione che il fruitore presenta per dettagliare le sue ragioni e modalità di accesso alle informazioni in possesso dell'erogatore. Una finalità è di norma associata a un e-service per il quale un fruitore ha una richiesta di fruizione attiva.
 
 ## Fruitore
 
@@ -73,9 +64,13 @@ Dal [comunicato stampa](https://www.agid.gov.it/it/agenzia/stampa-e-comunicazion
 
 > si focalizzano sulle tecnologie e le loro modalità di utilizzo per garantire la sicurezza delle transazioni digitali realizzate tra e verso le pubbliche amministrazioni che utilizzano le application programming interface (API) tramite rete di collegamento informatica.
 
+## Linee Guida sull’interoperabilità tecnica delle Pubbliche Amministrazioni
+
+Documento in cui è definito il ModI
+
 ## Modello di interoperabilità - ModI&#x20;
 
-Definito da AgID, stabilisce il perimetro dell'interoperabilità tra pubbliche amministrazioni
+Definito da AgID, stabilisce il perimetro dell'interoperabilità tra pubbliche amministrazioni.
 
 ## Operatore API
 
@@ -95,10 +90,6 @@ Con una richiesta di fruizione attiva, il fruitore può creare un numero di fina
 
 Un **Service Level Agreement - SLA -** è un **accordo sui livelli di servizio** tra un fornitore e un cliente, che definisce le prestazioni minime garantite per un servizio digitale o tecnologico.
 
-## Token JWT
-
-<mark style="background-color:blue;">\[Da compilare]</mark>
-
-## Voucher
+## &#x20;Voucher (Token JWT )
 
 L'autorizzazione all'accesso all'API dell'erogatore da parte del fruitore avviene attraverso un meccanismo di autenticazione e autorizzazione. In breve, il fruitore richiede a PDND Interoperabilità un voucher per uno specifico e-service e una specifica finalità. Questo voucher potrà essere speso presso l'e-service dell'erogatore che ne verificherà l'autenticità e il corso di validità prima di restituire le informazioni legittimamente richieste dal fruitore.&#x20;

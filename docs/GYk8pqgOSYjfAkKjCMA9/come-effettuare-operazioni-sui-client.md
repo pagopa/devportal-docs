@@ -1,18 +1,18 @@
 # Come effettuare operazioni sui client
 
-### Creare un client e-service
+## Creare un client e-service
 
 È possibile creare client e-service dalla voce di menù _**Fruizione > I tuoi client e-service**_, e poi _**Crea nuovo**_. Il contenuto del client è modificabile in qualsiasi momento, inclusa l'aggiunta e la rimozione dei suoi membri. La creazione del client di per sé non ha effetto sull'accesso agli e-service. Deve essere successivamente associato ad una o più finalità per le quali le chiavi saranno utilizzabili per ottenere un voucher.
 
-### Creare un client api interop
+## Creare un client api interop
 
 Dalla voce di menù _**Fruizione > I tuoi client api interop**_ e poi _**Crea nuovo**_. Il contenuto del client è modificabile in qualsiasi momento, inclusa l'aggiunta e la rimozione dei suoi membri.
 
-### Creare un portachiavi
+## Creare un portachiavi
 
 Dalla voce di menù _**Erogazione > I tuoi portachiavi**_ e poi _**Crea nuovo**_. Il contenuto del portachiavi è modificabile in qualsiasi momento, inclusa l'aggiunta e la rimozione dei suoi membri.
 
-### Eliminare un client o un portachiavi
+## Eliminare un client o un portachiavi
 
 È possibile eliminare un client dalla vista _**Fruizione > I tuoi client e-service**_ oppure _**Fruizione > I tuoi client api interop**_, cliccare sui tre pallini e selezionare l'azione _**Elimina**_. La stessa operazione può essere fatta sui portachiavi dalla vista _**Erogazione > I tuoi portachiavi**_**.**
 
@@ -20,7 +20,7 @@ Dalla voce di menù _**Erogazione > I tuoi portachiavi**_ e poi _**Crea nuovo**_
 L'eliminazione in toto di un client e-service prevede anche la sua rimozione da tutte le finalità alle quali è eventualmente associato e l'eliminazione di tutte le chiavi associate a quel client, che non potranno più essere utilizzate per ottenere voucher validi da spendere presso gli e-service degli erogatori.
 {% endhint %}
 
-### Gestire i membri di un client o un portachiavi
+## Gestire i membri di un client o un portachiavi
 
 In qualsiasi momento, è possibile aggiungere o rimuovere membri da uno specifico client o portachiavi. Le persone aggiunte avranno la possibilità di caricare chiavi pubbliche.
 

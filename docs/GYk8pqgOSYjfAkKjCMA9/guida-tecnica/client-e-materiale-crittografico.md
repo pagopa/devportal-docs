@@ -4,7 +4,7 @@
 Puoi trovare un videotutorial su come si carica una chiave pubblica a [questo link.](https://www.youtube.com/watch?v=q6zuJ2wn8vM\&list=PLZcD-ZoVxFzi1f2-taSdg7a3d2UQse3_Q\&index=11)
 {% endhint %}
 
-Il sistema dei client è volutamente lasco in modo da garantire agli aderenti che possano organizzare i client attorno ai loro processi e non viceversa. Si possono scegliere diverse soluzioni nell'implementazione:&#x20;
+Il sistema dei client è molto flessibile per garantire agli utenti di organizzare i client in base ai loro processi, piuttosto che adattare i processi ai client. Si possono scegliere diverse soluzioni nell'implementazione:&#x20;
 
 * un client per ogni e-service;
 * molti client per ogni e-service;

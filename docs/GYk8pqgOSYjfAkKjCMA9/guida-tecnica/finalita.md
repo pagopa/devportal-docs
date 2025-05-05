@@ -1,6 +1,23 @@
 # Finalità
 
+Una finalità è composta da informazioni generali come:
+
+* l'e-service a cui si intende accedere;
+* la finalità e le modalità del trattamento dei dati dei quali si viene in possesso (analisi del rischio);
+* la stima del carico che si intende porre sull'infrastruttura, cioè il numero di chiamate all'API dell'erogatore al giorno;
+* i client associati, cioè quelli attraverso i quali è possibile ottenere un voucher valido.
+
+Le finalità vengono attivate quando il fruitore le presenta all'erogatore, automaticamente, fino al raggiungimento delle soglie massime di carico impostate dall'erogatore. Quando si eccede il carico che l'erogatore ha dichiarato di poter sostenere, le nuove finalità non saranno più attivate automaticamente. Da quel punto in poi, l'erogatore avrà facoltà di attivarle manualmente, dichiarando anzitempo una data di attivazione, in modo da avere il tempo di adeguare l'infrastruttura a reggere il carico.
+
+Una volta pubblicata la finalità, le informazioni generali e l'analisi del rischio non sono modificabili, mentre sarà possibile aggiornare i client utilizzati e la stima di carico.
+
+Sarà sempre possibile mantenere la finalità in bozza o pubblicarla. Una volta pubblicata, diventerà immediatamente attiva se l'utilizzo delle risorse stimato dal fruitore è inferiore a tutte le soglie stabilite dell'erogatore. In caso contrario, dovrà invece essere approvata manualmente dall'erogatore.&#x20;
+
+Per facilitare il compito dei fruitori rispetto alla compilazione dell'analisi del rischio, nella quale si indica "la finalità e le modalità del trattamento dei dati dei quali si viene in possesso", PDND Interoperabilità mette a disposizione un sistema di templating. In sostanza, sarà possibile esplorare le finalità sottoscritte da altri fruitori o i casi d'uso più comuni indicati dagli erogatori e creare una nuova richiesta di fruizione a partire da una già presente nell'archivio della piattaforma.
+
 ### Creare una finalità
+
+Nel momento in cui si crea la finalità, sarà necessario indicare l'e-service per il quale la finalità sarà attiva. Dall'elenco si potranno scegliere solo gli e-service per i quali l'ente ha una richiesta di fruizione attiva.
 
 Per recuperare le informazioni dall'API dell'erogatore per prima cosa un fruitore deve inoltrare e vedersi attivata una richiesta di fruizione per un determinato e-service. A questo punto, deve creare almeno una finalità da associare a questo e-service. Il ruolo della finalità per il fruitore è dettagliare le sue ragioni e modalità di accesso alle informazioni in possesso dell'erogatore. Una volta creata una finalità, è possibile associare uno o più client sui quali verrà caricato il materiale crittografico necessario a ottenere un voucher valido da spendere presso l'erogatore. L'erogatore riceverà sempre indicazione della finalità per la quale il fruitore sta facendo una determinata richiesta di dati.
 
@@ -26,7 +43,9 @@ Se un client è associato a due finalità, entrambe a loro volta associate ad un
 
 ### Aggiornare la stima di carico di una finalità
 
-Se la motivazione per accedere ad un e-service rimane la stessa ma cambiano le necessità in termini di richieste API al giorno stimate, è possibile aggiornare la stima di carico per quella finalità. Se il risultato dell'aggiornamento è un valore sotto le soglie impostate dall'erogatore, verrà aggiornata automaticamente e sarà attiva da subito. In caso contrario, la finalità mostrerà come stato "In attesa di approvazione". Sarà facoltà esclusiva dell'erogatore decidere i tempi e le modalità di approvazione in base al carico della propria infrastruttura e ai propri processi interni.
+La stima di carico che viene stabilita dall'erogatore è relativa al singolo fruitore, questo vuol dire che se un fruitore crea più client e li associa alla stessa finalità, il numero di chiamate API massimo  sarà la somma delle chiamate sui diversi client.
+
+È possibile aggiornare la stima di carico per una finalità se la motivazione per accedere a un e-service rimane la stessa ma cambia la stima delle richieste API giornaliere. Se l'aggiornamento mantiene un valore sotto le soglie impostate dall'erogatore, la stima di carico verrà aggiornata automaticamente e sarà attiva da subito. In caso contrario, la finalità mostrerà come stato "In attesa di approvazione". Sarà facoltà esclusiva dell'erogatore decidere i tempi e le modalità di approvazione in base al carico della propria infrastruttura e ai propri processi interni.
 
 ### Finalità con stato "In aggiornamento"
 

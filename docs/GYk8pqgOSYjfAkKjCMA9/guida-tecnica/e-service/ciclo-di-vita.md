@@ -29,7 +29,7 @@ La bozza di un e-service può essere eliminata in due casi:
 
 L’erogatore può **sospendere** una versione di e-service in stato **attivo** o **deprecato**, interrompendo temporaneamente il servizio. Una versione sospesa può essere **riattivata**, ripristinando l’accesso ai fruitori.
 
-Oltre ad una sospensione ex abrupto, legata a circostanze straordinarie e di forza maggiore, è possibile effettuare una "sospensione programmata"  (per esempio per manutenzione) in una versione di un e-service. In questo caso, da linee guida di AgID è previsto che l'erogatore fornisca un preavviso.
+Oltre ad una sospensione ex abrupto, legata a circostanze straordinarie e di forza maggiore, è possibile effettuare una "sospensione programmata"  (per esempio per manutenzione) di una versione di un e-service. In questo caso, da linee guida di AgID è previsto che l'erogatore fornisca un preavviso.
 
 {% hint style="warning" %}
 La sospensione di una versione di e-service comporta un'interruzione di servizio verso i fruitori e tutti gli utenti intermedi e finali che fruiscono dei loro e-service.
@@ -37,11 +37,11 @@ La sospensione di una versione di e-service comporta un'interruzione di servizio
 
 ## **Archiviazione e clonazione**
 
-* Quando tutte le richieste di fruizione di una versione deprecata sono state aggiornate a una nuova versione, l’e-service può essere **archiviato**. Questa operazione è **irreversibile**.
+* Quando tutte le richieste di fruizione di una versione deprecata sono state aggiornate a una nuova versione, la versione deprecata dell’e-service viene **archiviata**. Questa operazione è **irreversibile**.
 * Per facilitare la gestione di servizi simili, è possibile **clonare un e-service**, modificarne alcune parti e pubblicarlo come nuovo servizio indipendente.
 
 ## Esportazione&#x20;
 
-È possibile esportare una versione di e-service da un ambiente di PDND Interoperabilità; quindi, la si può importare all'interno di un altro ambiente come nuovo e-service in bozza. Attualmente questa funzionalità è disponibile solo attraverso la UI.
+È possibile esportare una versione di e-service da un ambiente di PDND Interoperabilità e importare all'interno di un altro ambiente come nuovo e-service in bozza. Attualmente questa funzionalità è disponibile solo attraverso la UI.
 
-La funzionalità è pensata per facilitare il passaggio di un e-service che ha superato la fase di collaudo ed è pronto per essere portato in produzione, ma può essere usata a discrezione per esportare ed importare gli e-service da un ambiente all'altro, oppure per replicare uno stesso e-service presso più enti (nel caso, ad esempio, di Partner Tecnologici).
+La funzionalità facilita la messa in produzione di un e-service che ha superato la fase di collaudo, ma può essere usata per esportare e importare gli e-service da un ambiente all'altro, oppure per replicare un e-service presso più enti (nel caso, ad esempio, di Partner Tecnologici).

@@ -2,10 +2,12 @@
 
 ### Caveat all'importazione
 
-I caveat sono chiaramente indicati all'interno del cassetto laterale. Per ragioni tecniche, non è possibile fornire all'utente un'indicazione puntuale dell'errore registrato. Vengono quindi fornite tutte le indicazioni utili per il debugging. Nello specifico:
+I caveat all'importazione sono indicati all'interno del cassetto laterale. Per ragioni tecniche, non è possibile fornire all'utente un'indicazione puntuale dell'errore registrato. Vengono quindi fornite tutte le indicazioni utili per il debugging.&#x20;
+
+Nello specifico:
 
 1. **attributi**: non è possibile portare gli attributi da un ambiente all'altro. Di conseguenza, l'utente dovrà riassegnare manualmente gli attributi nel nuovo ambiente;
-2. **duplicato del titolo e-service**: se nell'ambiente di importazione c'è già un e-service con lo stesso nome per lo stesso ente, non sarà possibile importare l'e-service. Il nome dell'e-service può essere modificato all'interno dello .zip, come spiegato nel paragrafo seguente;
+2. **duplicazione dell'e-service**: se nell'ambiente di importazione c'è già un e-service con lo stesso nome per lo stesso ente, non sarà possibile importare l'e-service. Il nome dell'e-service può essere modificato all'interno dello .zip, come spiegato nel paragrafo seguente;
 3. **struttura archivio**: per assicurare la consistenza del materiale caricato, all'interno dello .zip c'è un file di configurazione, che indica i file da caricare e la loro posizione, oltre ai campi necessari per l'e-service. Se uno o più campi non sono correttamente formattati, sono mancanti, o rimandano a file non disponibili, o se viceversa nello .zip ci saranno file estranei non mappati nel file di configurazione, non sarà possibile importare l'e-service;
 4. **interfaccia API**: ricorda che le URL dei server che indichi all'interno del file di interfaccia API potrebbero essere diverse da un ambiente all'altro, in base a come il tuo ente gestisce la propria infrastruttura e il processo di collaudo.
 

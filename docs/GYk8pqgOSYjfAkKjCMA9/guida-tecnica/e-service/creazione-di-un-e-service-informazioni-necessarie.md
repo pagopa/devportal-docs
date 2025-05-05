@@ -1,12 +1,17 @@
 # Creazione di un E-service: Informazioni necessarie
 
-Gli e-service sono costituiti da due parti: una **parte fissa,** costituita delle informazioni di massima che non possono cambiare nel tempo e una parte **variabile**, che viene versionata automaticamente da PDND Interoperabilità e contiene quelle informazioni che invece possono cambiare e evolvere. La parte fissa può essere modificata solo fintanto che la prima versione dell'e-service non è stata pubblicata.
+Gli e-service sono costituiti da due parti:&#x20;
+
+* &#x20;una **fissa,** che include informazioni essenziali e immutabili nel tempo e che può essere modificata fintanto che la prima versione dell'e-service non è stata pubblicata.
+* &#x20;una **variabile**, gestita tramite versionamento automatico da PDND Interoperabilità, contenente dati soggetti a cambiamenti  ed evoluzioni.
+
+***
 
 Nella parte fissa vengono richiesti:
 
-* **nome:** esposto all'interno del catalogo degli e-service sulla piattaforma PDND Interoperabilità (leggere la [guida alle buone pratiche](https://italia.github.io/pdnd-guida-nomenclatura-eservice/));
-* **descrizione:** esposto all'interno del catalogo degli e-service sulla piattaforma PDND Interoperabilità (leggere la [guida alle buone pratiche](https://italia.github.io/pdnd-guida-nomenclatura-eservice/));
-* **tecnologia:** con cui è sviluppata l'API con cui si intende erogare il servizio, se REST o SOAP;
+* **Nome:** esposto all'interno del catalogo degli e-service sulla piattaforma PDND Interoperabilità (leggere la [guida alle buone pratiche](https://italia.github.io/pdnd-guida-nomenclatura-eservice/));
+* **Descrizione:** esposto all'interno del catalogo degli e-service sulla piattaforma PDND Interoperabilità (leggere la [guida alle buone pratiche](https://italia.github.io/pdnd-guida-nomenclatura-eservice/));
+* **Tecnologia:** con cui è sviluppata l'API con cui si intende erogare il servizio, se REST o SOAP;
 
 {% hint style="info" %}
 Al fine di assicurare la conformità delle API pubblicate agli standard del Modello di Interoperabilità Tecnica per la Pubblica Amministrazione Italiana, è stato creato uno strumento di verifica del file OpenAPI (quindi per gli e-service che utilizzano tecnologia REST).
@@ -14,9 +19,9 @@ Al fine di assicurare la conformità delle API pubblicate agli standard del Mode
 È possibile trovare l'API checker a questo link: [https://italia.github.io/api-oas-checker/](https://italia.github.io/api-oas-checker/) e prima di usare lo strumento è consigliato leggere le [Guide per l’utilizzo](https://github.com/italia/api-oas-checker-rules).
 {% endhint %}
 
-* **Mode**: eroga o riceve dati ;
+* **Modalità&#x20;**~~**Mode**~~: la modalità con cui l'e-service gestisce i dati, se li eroga o li riceve;
 * **Descrizione della versione corrente:** Poiché gli e-service sono organizzati in versioni, è necessaria una descrizione che copra sia la bozza iniziale che le future iterazioni. Questa descrizione deve evidenziare i cambiamenti rispetto alle versioni precedenti.
-* **Parametro audience&#x20;**_**(aud)**_**:** i fruitori dovranno inserire questo parametro all'interno del token per le richieste che effettueranno verso questa versione dell'e-service. È discrezione dell'erogatore stabilire la policy relativa alle audience: è possibile utilizzare la stessa audience per più versioni, audience diverse per ogni versione, etc.;
+* **Parametro audience&#x20;**_**(aud)**_**:** i fruitori dovranno inserire questo parametro all'interno del token per le richieste che effettueranno verso questa versione dell'e-service. ~~È discrezione dell'erogatore stabilire la policy relativa alle audience: è possibile utilizzare la stessa audience per più versioni, audience diverse per ogni versione, etc.;~~
 * <mark style="background-color:blue;">**Durata della validità del voucher:**</mark> <mark style="background-color:blue;"></mark><mark style="background-color:blue;">dopo quanto tempo scade il voucher rilasciato da PDND Interoperabilità valido per accedere a questo servizio;</mark>
 * <mark style="background-color:blue;">**Analisi del rischio**</mark>
 
@@ -25,8 +30,8 @@ Al fine di assicurare la conformità delle API pubblicate agli standard del Mode
 Nella parte variabile vengono richiesti:
 
 * **Soglia delle chiamate API**: si rimanda alla descrizione del meccanismo della [stima di carico](creazione-di-un-e-service-informazioni-necessarie.md#gestire-il-carico-infrastrutturale-di-una-versione-di-e-service);
-* **Policy:** è la policy relativa alle richieste di fruizione. Se è attiva l'erogatore ha il diritto di attivare manualmente la richiesta di fruizione, anche se il fruitore possiede già tutti gli attributi necessari all'attivazione della richiesta di fruizione. Se non è attiva l'attivazione è automatica. Questo meccanismo regola solo il caso in cui il fruitore possegga tutti gli attributi necessari nel momento di inoltro della richiesta di fruizione, altrimenti servirà sempre un'attivazione manuale da parte dell'erogatore;
-* **Attributi:** elenco degli [attributi](../attributi/#come-funzionano) che deve avere l'ente fruitore per poter inoltrare la richiesta di fruizione;
+* **Policy di attivazione delle richieste di fruizione:** è la policy relativa alle richieste di fruizione. Di default le richieste di fruizione vengono attivate automaticamente. L'erogatore può scegliere di richeidere l'attivazione manuale anche se il fruitore possiede già tutti gli atttributi necessari. Questo meccanismo regola solo il caso in cui il fruitore possegga tutti gli attributi necessari nel momento di inoltro della richiesta di fruizione, altrimenti servirà sempre un'attivazione manuale da parte dell'erogatore;
+* **Attributi:** elenco dei requisiti di accesso che l'ente fruitore deve rispettare per poter inoltrare la richiesta di fruizione;
 * **File di specifica dell'API per questa versione dell'e-service**: dovrà essere caricato un file OpenAPI per i servizi REST e WSDL per i servizi SOAP, come indicato all'interno del perimetro di sicurezza del ModI;
 * **Documentazione tecnica aggiuntiva** (manuale d'uso, esempi, etc.): opzionale;
 

@@ -2,7 +2,7 @@
 
 ## Ciclo di vita
 
-L'intero ciclo di vita dei voucher si compone di una serie di interazioni machine to machine. Il flusso è diverso se l'aderente sta richiedendo un voucher da spendere su un e-service del catalogo in qualità di fruitore o se vuole dialogare con le API di PDND Interoperabilità per ottenere informazioni.
+L'intero ciclo di vita dei voucher si compone di una serie di interazioni _machine to machine_. Il flusso è diverso se l'aderente sta richiedendo un voucher da spendere su un e-service del catalogo in qualità di fruitore o se vuole dialogare con le API di PDND Interoperabilità per ottenere informazioni.
 
 I voucher sono di fatto dei token JWT. Il flusso di autenticazione implementato è un OAuth 2.0 che fa riferimento all'[RFC6750](https://datatracker.ietf.org/doc/html/rfc6750) per quanto riguarda l'uso del Bearer token e all'[RFC7521](https://datatracker.ietf.org/doc/html/rfc7521) per l'autorizzazione del client tramite client assertion.&#x20;
 

@@ -1,7 +1,5 @@
 # Come creare i client e associarli agli e-service
 
-
-
 Il sistema dei client è volutamente lasco in modo da garantire agli aderenti che possano organizzare i client attorno ai loro processi e non viceversa. Si possono scegliere diverse soluzioni nell'implementazione:&#x20;
 
 * un client per ogni e-service;

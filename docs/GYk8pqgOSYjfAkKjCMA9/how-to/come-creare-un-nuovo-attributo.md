@@ -7,5 +7,3 @@ Gli utenti con permessi di _amministratore_ di un ente accreditato come "certifi
 All'interno, è possibile cliccare su _**Crea nuovo**_, inserire il nome e la descrizione del nuovo attributo e crearlo.&#x20;
 
 L'attributo creato diventa disponibile per tutti gli enti nell'elenco degli attributi certificati che possono essere richiesti per l'iscrizione ad un e-service presente nel catalogo di PDND Interoperabilità. I potenziali enti fruitori che rispettano tutti i requisiti, potranno iscriversi all'e-service.
-
-###

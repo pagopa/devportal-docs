@@ -26,5 +26,3 @@ Per cittadine e cittadini, questo si traduce in due vantaggi evidenti:
 
 * procedure più semplici e snelle, evase in tempi ridotti, senza ulteriore aggravio per le finanze dello Stato;
 * non dover più dare alle pubbliche amministrazioni informazioni già in loro possesso (principio del _once only_).
-
-Se hai poco tempo, puoi consultare una **serie di videotutorial** che illustrano il funzionamento della piattaforma, dalla registrazione al rilascio di un voucher \[Link ai videotutorial].

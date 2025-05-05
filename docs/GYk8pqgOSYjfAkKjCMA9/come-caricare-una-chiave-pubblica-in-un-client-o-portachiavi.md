@@ -1,6 +1,6 @@
 # Come caricare una chiave pubblica in un client o portachiavi
 
-Quando un membro di un client effettua l'accesso a PDND Interoperabilità, troverà i client ai quali è associato sotto _Fruizione > I tuoi client e-service_ e _Fruzione > I tuoi client api interop_. Entrando all'interno del client di interesse, può andare nella tab _Chiavi pubbliche_ e _+ Aggiungi_ per caricare una nuova chiave. Le chiavi caricate saranno immediatamente utilizzabili. Per i client di tipo e-service, questo deve essere associato ad almeno una finalità il cui flusso di interazione con l'erogatore è attivo.
+Quando un membro di un client effettua l'accesso a PDND Interoperabilità, troverà i client ai quali è associato sotto _**Fruizione > I tuoi client e-service**_**&#x20;e&#x20;**_**Fruzione > I tuoi client api interop**_. Entrando all'interno del client di interesse, può andare nella tab _Chiavi pubbliche_ e _+ Aggiungi_ per caricare una nuova chiave. Le chiavi caricate saranno immediatamente utilizzabili. Per i client di tipo e-service, questo deve essere associato ad almeno una finalità il cui flusso di interazione con l'erogatore è attivo.
 
 L'operazione è analoga per i portachiavi erogatore, ed disponibile nella vista _Erogazione > I tuoi portachiavi_.
 
