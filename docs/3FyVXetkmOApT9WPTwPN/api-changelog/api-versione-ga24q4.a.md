@@ -20,7 +20,9 @@ In ogni elemento di timeline sono stati aggiunti i seguenti campi:
 
 Le modifiche agli elementi di timeline si applicano sulle seguenti API:
 
-#### **Dettagli della notifica**  [ &#xNAN;**/delivery/v2.4/notifications/sent/{iun}**](https://petstore.swagger.io/?url=https%3A%2F%2Fraw.githubusercontent.com%2Fpagopa%2Fpn-delivery%2Fmain%2Fdocs%2Fopenapi%2Fapi-external-b2b-pa-bundle.yaml#/SenderReadB2B/retrieveSentNotificationV24)&#x20;
+#### <kbd>**Dettagli della notifica**</kbd>
+
+#### [**/delivery/v2.4/notifications/sent/{iun}**](https://petstore.swagger.io/?url=https%3A%2F%2Fraw.githubusercontent.com%2Fpagopa%2Fpn-delivery%2Fmain%2Fdocs%2Fopenapi%2Fapi-external-b2b-pa-bundle.yaml#/SenderReadB2B/retrieveSentNotificationV24)&#x20;
 
 #### **Gestione degli stream** _di eventi che PN mette a disposizione_
 
