@@ -68,6 +68,12 @@ Questa versione aggiunge la pubblicazione delle API di:
 
 Per i dettagli aprire la pagina [#api-di-stato-della-piattaforma](api-versione-ga24q4.b.md#api-di-stato-della-piattaforma "mention")
 
+## Supporto al bilinguismo
+
+Da questa versione SEND consente di inviare notifiche e atti in doppia lingua (italiano + tedesco, francese o sloveno) per garantire il bilinguismo amministrativo. Le traduzioni sono a cura dell’ente mittente. Sono state predisposte delle FAQ apposite per il seguente tema: [BILINGUISMO](https://developer.pagopa.it/send/guides/knowledge-base/readme/supporto-al-bilinguismo-amministrativo).
+
+
+
 
 
 ####
