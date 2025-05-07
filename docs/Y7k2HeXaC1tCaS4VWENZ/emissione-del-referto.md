@@ -6,7 +6,9 @@ description: >-
 
 # 6️⃣ Emissione del referto
 
-## Cosa succede lato ente
+<figure><img src=".gitbook/assets/7.jpg" alt=""><figcaption></figcaption></figure>
+
+## Cosa fa l'Ente
 
 Se previsto, il medico emette un referto digitale che viene reso disponibile nel fascicolo sanitario elettronico del cittadino.
 
@@ -23,7 +25,7 @@ L'ente, tramite i propri sistemi, invia su IO un messaggio informativo, che incl
 * Se desideri veicolare dati personale e/o sensibili nel titolo o nel corpo del messaggio, puoi usare i [**contenuti remoti** ](https://developer.pagopa.it/app-io/guides/io-guida-tecnica/funzionalita/inviare-un-messaggio/inviare-un-messaggio-a-contenuto-remoto)e mantenere il controllo sul dato all'interno dei sistemi dell'ente;
 * Invita le persone all'azione, puoi aggiungere al messaggio un [pulsante o Call to action](https://www.developer.pagopa.it/app-io/guides/manuale-servizi/come-si-crea-un-servizio/la-scheda-servizio/pulsante-con-call-to-action-cta) per compiere azioni aggiuntive come **visualizzare il referto**. Con la funzionalità gratuita del [Single Sign-On](https://www.developer.pagopa.it/app-io/guides/manuale-servizi/lapp-io/le-funzionalita-di-io-a-disposizione-degli-enti/accedere-tramite-single-sign-on) (SSO), il pulsante inserito può condurre un utente al sito per le prenotazioni CUP in modalità autenticata SPID/CIE.&#x20;
 
-## Cosa vede il cittadino
+## Cosa fa il cittadino
 
 Il cittadino riceve un messaggio su IO che lo informa dell'emissione del referto.&#x20;
 

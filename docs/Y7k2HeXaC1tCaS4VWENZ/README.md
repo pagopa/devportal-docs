@@ -1,13 +1,13 @@
 # Introduzione
 
-Il servizio consente al cittadino di ricevere e gestire tutte le comunicazioni legate a una prestazione sanitaria, dalla prescrizione all'emissione del referto. L’intero ciclo avviene su app IO, un canale digitale, sicuro e accessibile.
+Il servizio Prestazioni Sanitarie consente al cittadino di ricevere e gestire tutte le comunicazioni legate a una prestazione sanitaria, dalla prescrizione all'emissione del referto. L’intero ciclo avviene su app IO, un canale digitale sicuro e accessibile.
 
-Erogare il servizio **Prestazioni Sanitarie** tramite l’app IO permette agli enti di:
+Gestire le **Prestazioni Sanitarie** attraverso app IO permette agli enti di:
 
-* creare un punto di riferimento per tutte le comunicazioni legate alla salute, anche in caso di mobilità tra Regioni;
-* ridurre il numero di appuntamenti non disdetti ("no show"), migliorando la gestione delle liste d’attesa;
-* favorire il pagamento anticipato delle prestazioni, semplificando le operazioni di incasso e riducendo i tempi di accettazione in struttura;
-* integrare sistemi regionali e locali con l’app IO, mantenendo il controllo dei contenuti e garantendo un’esperienza mobile first per il cittadino.
+* gestire in un unico canale tutte le proprie comunicazioni legate alla salute, anche in caso di mobilità tra Regioni;
+* efficientare l'accesso alla prestazione, con una conseguente riduzione del fenomeno del "no show" e migliorando la gestione delle liste d’attesa;
+* semplificare il processo di pagamento delle prestazioni, con conseguente anticipo dei tempi di incasso, riducendo i tempi di accettazione in struttura;
+* integrare sistemi regionali e locali, mantenendo il controllo dei contenuti e garantendo un’esperienza mobile first per il cittadino.
 
 Il servizio può essere utilizzato per ogni tipo di prestazione sanitaria prenotabile, erogabile o refertabile, purché siano disponibili i sistemi informativi in grado di generare comunicazioni, posizioni debitorie o documenti.
 
@@ -18,9 +18,9 @@ Il processo illustrato nelle prossime sezioni è un esempio indicativo: gli enti
 
 ## Attori coinvolti
 
-| Cittadino                                                                                                                                        | Ente sanitario                                                                                                                                                       |
-| ------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Ha installato IO, può autenticarsi via SPID/CIE, accede al Fascicolo Sanitario Elettronico, riceve messaggi, prenota, paga e visualizza referti. | Azienda Sanitarla Locale (ASL), Aziende Ospedaliere (AO) e Regioni, integrate con piattaforme pagoPA, SEND e IO. Possono essere supportato da un parner tecnologico. |
+| Cittadino                                                                                                                                        | Ente sanitario                                                                                                                                                      |
+| ------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Ha installato IO, può autenticarsi via SPID/CIE, accede al Fascicolo Sanitario Elettronico, riceve messaggi, prenota, paga e visualizza referti. | Azienda Sanitarla Locale (ASL), Aziende Ospedaliere (AO) e Regioni, integrate con piattaforme pagoPA, SEND e IO. Possono essere supportate da un parner tecnologico |
 
 ## L'analisi del servizio&#x20;
 
@@ -37,7 +37,7 @@ Possono essere coinvolte singolarmente o contemporaneamente nelle fasi del servi
 
 <summary>pagoPA</summary>
 
-Su IO, i cittadini possono ricevere e pagare gli avvisi di pagamento pagoPA grazie all'integrazione con l'omonima piattaforma, così come salvare uno o più metodi di pagamento.
+I cittadini possono ricevere e pagare gli avvisi di pagamento pagoPA, e salvare uno o più metodi di pagamento, grazie all'integrazione con IO.
 
 [**Vai al sito →** ](https://www.pagopa.gov.it/)
 

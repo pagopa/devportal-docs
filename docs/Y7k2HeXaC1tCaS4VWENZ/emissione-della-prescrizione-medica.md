@@ -6,7 +6,9 @@ description: >-
 
 # 1️⃣ Emissione della prescrizione medica
 
-## Cosa succede lato ente
+<figure><img src=".gitbook/assets/1.jpg" alt=""><figcaption></figcaption></figure>
+
+## Cosa fa l'Ente
 
 Il medico, tramite il sistema sanitario regionale, emette una nuova prescrizione. L’ente, tramite i propri sistemi, genera un messaggio su IO contenente:
 
@@ -22,9 +24,9 @@ Il medico, tramite il sistema sanitario regionale, emette una nuova prescrizione
 * Invita le persone all'azione, puoi aggiungere al messaggio un [pulsante o Call to actio](https://www.developer.pagopa.it/app-io/guides/manuale-servizi/come-si-crea-un-servizio/la-scheda-servizio/pulsante-con-call-to-action-cta)n per compiere azioni aggiuntive come **prenotare l'appuntamento**. Con la funzionalità gratuita del [Single Sign-On](https://www.developer.pagopa.it/app-io/guides/manuale-servizi/lapp-io/le-funzionalita-di-io-a-disposizione-degli-enti/accedere-tramite-single-sign-on) (SSO), il pulsante inserito può condurre un utente al sito per le prenotazioni CUP in modalità autenticata SPID/CIE.&#x20;
   * Si possono aggiungere fino a [due pulsanti](https://developer.pagopa.it/app-io/guides/io-guida-tecnica/risorse-utili/guida-al-markdown#pulsanti-azione-\(cta\)) opzionali all’interno di un messaggio per permettere comodamente di spostare e disdire l’appuntamento
 
-## Cosa vede il cittadino
+## Cosa fa il cittadino
 
-Il cittadino riceve una **notifica push non parlante**, apre l’app IO e trova un nuovo messaggio non letto che contiene:
+Il cittadino riceve una **notifica push non parlante**, apre l’app IO e trova un nuovo messaggio da leggere che contiene:
 
 * i dettagli della prescrizione;
 * eventuali allegati già consultabili (es. la ricetta);
@@ -32,4 +34,4 @@ Il cittadino riceve una **notifica push non parlante**, apre l’app IO e trova 
 
 ## Scrivere i messaggi su IO
 
-Nel [Manuale dei servizi dell'app IO,](https://developer.pagopa.it/app-io/guides/manuale-servizi) puoi trovare il modello [Prestazioni Sanitarie](https://developer.pagopa.it/app-io/guides/modelli-servizi/salute/prestazioni-sanitarie), cioè un template da cui l'ente può partire per **configurare il servizio e i relativi messaggi al cittadino** su IO.&#x20;
+Nel [Manuale dei servizi dell'app IO,](https://developer.pagopa.it/app-io/guides/manuale-servizi) puoi trovare il modello [Prestazioni Sanitarie](https://developer.pagopa.it/app-io/guides/modelli-servizi/salute/prestazioni-sanitarie), cioè un template da cui partire per **configurare il servizio e i relativi messaggi al cittadino** su IO.&#x20;

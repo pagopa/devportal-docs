@@ -1,13 +1,14 @@
 ---
 description: >-
-  Il cittadino riceve su IO un messaggio che lo informa dell’emissione della
-  prescrizione e decide di prenotare l’appuntamento cliccando sul link nel
-  messaggio.
+  Il cittadino, ricevuto su IO il messaggio che lo informa dell'emissione della
+  prescrizione, clicca sull'apposito link per prenotare l'appuntamento.
 ---
 
 # 2️⃣ Prenotazione dell’appuntamento
 
-## Cosa succede lato ente
+<figure><img src=".gitbook/assets/2.jpg" alt=""><figcaption></figcaption></figure>
+
+## Cosa fa l'Ente
 
 L’ente, tramite i propri sistemi, configura nel messaggio un [pulsante di azione](https://www.developer.pagopa.it/app-io/guides/manuale-servizi/come-si-crea-un-servizio/la-scheda-servizio/pulsante-con-call-to-action-cta) collegato a un sistema esterno, come il portale del fascicolo sanitario o il CUP, sfruttando la funzionalità di [**Single Sign-On** ](https://www.developer.pagopa.it/app-io/guides/manuale-servizi/lapp-io/le-funzionalita-di-io-a-disposizione-degli-enti/accedere-tramite-single-sign-on)**(SSO)** tramite IO.
 

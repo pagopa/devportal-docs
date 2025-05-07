@@ -6,7 +6,9 @@ description: >-
 
 # 5️⃣ Pagamento della prestazione sanitaria
 
-## Cosa succede lato ente
+<figure><img src=".gitbook/assets/5.jpg" alt=""><figcaption></figcaption></figure>
+
+## Cosa fa l'Ente
 
 Il sistema dell’ente crea una **posizione debitoria pagoPA**, associata al messaggio di conferma appuntamento.
 
@@ -20,10 +22,10 @@ Nel messaggio IO, l'ente, tramite i propri sistemi, deve ricordarsi di inserire:
 
 * il cittadino vedrà data e oggetto del pagamento che sono stati popolati alla creazione della posizione debitoria.&#x20;
   * Evita pertanto di inserire date fittizie (es. 31/12/2099)
-* La ricevuta non richiede un messaggio di conferma separato: viene inviata automaticamente;
-* Se l’ente, tramite i propri sistemi, vuole inibire il pagamento dopo una determinata data, è necessario usare correttamente gli [stati di errore](https://docs.pagopa.it/gestionedeglierrori/faultcode-e-faultstring/domino-ec) da restituire in fase di verifica avviso: in questo modo l’utente capirà che l’avviso è scaduto.
+* La ricevuta viene inviata automaticamente, non è pertanto necessario prevedere un messaggio di conferma dedicato.
+* Se l’ente, tramite i propri sistemi, vuole inibire il pagamento dopo una determinata data, è necessario dare evidenza dell'impossibilità di pagare l'avviso attraverso l'apposito stato di errore. In questo modo l’utente capirà che l’avviso è scaduto.
 
-## Cosa vede il cittadino
+## Cosa fa il cittadino
 
 Il cittadino che riceve il messaggio di conferma appuntamento tramite IO può:&#x20;
 

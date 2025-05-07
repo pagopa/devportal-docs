@@ -6,11 +6,13 @@ description: >-
 
 # 4️⃣ Gestione dell’appuntamento
 
-## Cosa succede lato ente
+<figure><img src=".gitbook/assets/6.jpg" alt=""><figcaption></figcaption></figure>
 
-L’ente, tramite i propri sistemi, configura nel messaggio un [pulsante di azion](https://www.developer.pagopa.it/app-io/guides/manuale-servizi/come-si-crea-un-servizio/la-scheda-servizio/pulsante-con-call-to-action-cta)e collegato a un sistema esterno, come il portale del fascicolo sanitario o il CUP, sfruttando la funzionalità di [**Single Sign-On** ](https://www.developer.pagopa.it/app-io/guides/manuale-servizi/lapp-io/le-funzionalita-di-io-a-disposizione-degli-enti/accedere-tramite-single-sign-on)**(SSO)** tramite IO.
+## Cosa fa l'Ente
 
-Il cittadino, cliccando il pulsante, atterra già autenticato nella sezione corretta del sito dell’ente, evitando di accedere nuovamente tramite SPID, CIE o passaggi aggiuntivi.
+L’ente, tramite i propri sistemi, configura nel messaggio un [pulsante di azione ](https://www.developer.pagopa.it/app-io/guides/manuale-servizi/come-si-crea-un-servizio/la-scheda-servizio/pulsante-con-call-to-action-cta)collegato a un sistema esterno, come il portale del fascicolo sanitario o il CUP, sfruttando la funzionalità di [**Single Sign-On** ](https://www.developer.pagopa.it/app-io/guides/manuale-servizi/lapp-io/le-funzionalita-di-io-a-disposizione-degli-enti/accedere-tramite-single-sign-on)**(SSO)** tramite IO.
+
+Il cittadino, cliccando il pulsante, atterra già autenticato nella sezione del sito dell’Ente da cui potrà modificare il suo appuntamento, evitando di accedere nuovamente tramite SPID, CIE o passaggi aggiuntivi.
 
 ### Migliora l'esperienza dall'inizio alla fine 💡
 
@@ -20,7 +22,7 @@ L'ente può garantire una migliore esperienza all'utente dall'app IO ai propri p
 * Dopo aver cliccato sul pulsante, l’utente deve atterrare direttamente nella pagina delle **prenotazione**, senza passaggi intermedi;
 * Mettiti nei panni dei cittadini e fornisci informazioni **proattive**. Per esempio, se il cittadino vuole prenotare un appuntamento per una prestazione, mostragli le migliori disponibilità per l'appuntamento.&#x20;
 
-## Cosa può fare il cittadino
+## Cosa fa il cittadino
 
 Se il cittadino è impossibilitato a partecipare all'appuntamento, può utilizzare i pulsanti contenuti all'interno del messaggio di conferma appuntamento per:
 
@@ -29,6 +31,6 @@ Se il cittadino è impossibilitato a partecipare all'appuntamento, può utilizza
 
 ## Benefici
 
-* Riduzione delle assenze ingiustificate (no show);
+* Riduzione del fenomeno del no show (mancata presentazione alla visita senza preavviso)
 * Ottimizzazione delle agende sanitarie;
 * Comunicazione proattiva e tempestiva con il cittadino.

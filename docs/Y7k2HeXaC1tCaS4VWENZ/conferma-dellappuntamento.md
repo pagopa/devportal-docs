@@ -6,9 +6,11 @@ description: >-
 
 # 3️⃣ Conferma dell’appuntamento
 
-## Cosa succede lato ente
+<figure><img src=".gitbook/assets/3 (1).jpg" alt=""><figcaption></figcaption></figure>
 
-Una volta completata la prenotazione, l’ente, tramite i propri sistemi, invia su IO un nuovo messaggio di conferma contenente:
+## Cosa fa l'Ente
+
+Una volta completata la prenotazione, l’ente, tramite i propri sistemi, invia su IO un messaggio di conferma contenente:
 
 * la data, l’orario e la struttura della visita;
 * fino a tre [pulsanti](https://www.developer.pagopa.it/app-io/guides/manuale-servizi/come-si-crea-un-servizio/la-scheda-servizio/pulsante-con-call-to-action-cta), ad esempio:
@@ -26,9 +28,9 @@ Una volta completata la prenotazione, l’ente, tramite i propri sistemi, invia 
   * Si possono aggiungere fino a [due pulsanti](https://developer.pagopa.it/app-io/guides/io-guida-tecnica/risorse-utili/guida-al-markdown#pulsanti-azione-\(cta\)) opzionali all’interno di un messaggio per permettere comodamente di spostare e disdire l’appuntamento;
   * Il pulsante **Paga** è aggiunto in automatico se l'ente fornisce correttamente il codice avviso nel messaggio, valorizzando il campo [`payment_data`](https://docs.pagopa.it/io-guida-tecnica/api-e-specifiche/api-messaggi/submit-a-message-passing-the-user-fiscal_code-in-the-request-body#payment_data).
 
-## Cosa vede il cittadino
+## Cosa fa il cittadino
 
-Riceve un messaggio su IO che contiene:&#x20;
+Il cittadino riceve in app IO un messaggio che contiene:&#x20;
 
 * la conferma l’appuntamento preso;
 * un invito all’azione tramite pulsanti dedicati: pagare, spostare, annullare, visualizzare dettagli dell'appuntamento.
