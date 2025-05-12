@@ -12,6 +12,7 @@
 * [Glossario](la-guida-tecnica/glossario.md)
 * [Segnali](la-guida-tecnica/segnali.md)
 * [Documentazione del produttore](la-guida-tecnica/documentazione-del-produttore.md)
+* [Retention Period](la-guida-tecnica/retention-period.md)
 * [Limite di utilizzo del servizio: rate limiting](la-guida-tecnica/limite-di-utilizzo-del-servizio-rate-limiting.md)
 * [Documenti specifica OpenAPI](la-guida-tecnica/documenti-specifica-openapi.md)
 

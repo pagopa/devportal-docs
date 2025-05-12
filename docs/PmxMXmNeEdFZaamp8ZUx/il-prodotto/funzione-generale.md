@@ -2,13 +2,13 @@
 
 Uso di Signal Hub
 
-1. Scambio e aggiornamento delle informazioni crittografiche, preliminare rispetto alla produzione e al recupero dei segnali
-2. Produzione dei segnali
-3. Consumo dei segnali
-   1. recupero dei segnali
-   2. elaborazione dei segnali
-   3. aggiornamento del dato
-   4. aggiornamento delle informazioni crittografiche
+1. [Scambio e aggiornamento delle informazioni crittografiche, preliminare rispetto alla produzione e al recupero dei segnali](../how-to/scambio-o-aggiornamento-delle-informazioni-crittografiche.md)
+2. [Produzione dei segnali](../how-to/produzione-dei-segnali.md)
+3. [Consumo dei segnali](../how-to/consumo-dei-segnali.md)
+   1. [Recupero dei segnali](../how-to/recupero-dei-segnali.md)
+   2. [Elaborazione dei segnali](https://app.gitbook.com/o/KXYtsf32WSKm6ga638R3/s/zwqHiUqrZCs3zNnHdc9A/)
+   3. [Aggiornamento del dato](https://app.gitbook.com/o/KXYtsf32WSKm6ga638R3/s/zwqHiUqrZCs3zNnHdc9A/)
+   4. Aggiornamento delle informazioni crittografiche
 
 <figure><img src="../.gitbook/assets/casi uso sh.png" alt=""><figcaption><p><strong>Diagramma per l'uso di Signal Hub</strong></p></figcaption></figure>
 
