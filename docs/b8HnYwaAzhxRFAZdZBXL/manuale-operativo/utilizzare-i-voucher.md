@@ -77,7 +77,7 @@ La seconda è che all'interno del payload della client assertion va specificato 
 ### Verifica di un voucher rilasciato da PDND Interoperabilità da parte di un erogatore di e-service
 
 {% hint style="danger" %}
-Dal 1° giugno 2025 in ambiente di collaudo e dal 3 luglio in produzione saranno introdotti quattro nuovi claim. Servono a semplificare l’utilizzo della piattaforma e facilitare l’applicazione delle best practice nella verifica dei voucher erogati dalla PDND, nonché nell’uso delle relative **audience**. Tutti gli aggiornamenti saranno disponibili [qui](https://github.com/pagopa/pdnd-interop-frontend/issues/1215).
+Dal 3 giugno 2025 in ambiente di collaudo e dal 1° luglio in produzione saranno introdotti quattro nuovi claim. Servono a semplificare l’utilizzo della piattaforma e facilitare l’applicazione delle best practice nella verifica dei voucher erogati dalla PDND, nonché nell’uso delle relative **audience**. Tutti gli aggiornamenti saranno disponibili [qui](https://github.com/pagopa/pdnd-interop-frontend/issues/1215).
 {% endhint %}
 
 L'erogatore di un e-service deve poter verificare la legittimità di qualsiasi richiesta riceva dai fruitori. Prima di tutto, estrae il voucher rilasciato da PDND Interoperabilità dall'header `Authorization: Bearer` della richiesta, e lo deserializza.
