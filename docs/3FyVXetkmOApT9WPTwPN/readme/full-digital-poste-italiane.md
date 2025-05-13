@@ -19,21 +19,25 @@ Il documenti prodotti sono archiviati all'interno di un file ZIP contenente:
 
 1. **File XML**: contiene i dati relativi agli invii dei modelli 23L, 23i, e ARCAD.
 2. **File XML di inesito** (DID): contiene i dettagli dell'inesito (solo in caso di notifiche non andate a buon fine).
-3. **File PDF**: una versione leggibile del file XML in formato PDF per consultazione.
+3. **File PDF\***: una versione leggibile del file XML in formato PDF per consultazione.
+4. **File XSD\*\*:** utilizzato per la validazione del file xml.
 
-**NOTA**: il file PDF non riporta la firma digitale PADES perché i dati e la loro firma sono nel file XML. Il file PDF è generato dai dati contenuti nel XML solo al fine di rendere leggibile il contenuto.
+**NOTE**: \
+\* il file PDF non riporta la firma digitale PADES perché i dati e la loro firma sono nel file XML. Il file PDF è generato dai dati contenuti nel XML solo al fine di rendere leggibile il contenuto.
 
-### Esempi
+\*\* dal 13.05.2025 tutti i file zip degli esempi contengono anche gli schemi in formato XSD per la validazione del file XML.
 
-### Raccomandata 890
+## Esempi
+
+#### Raccomandata 890
 
 * **23L digitale consegna c/o domicilio**
 
 **File ZIP**
 
-II file ZIP contiene un PDF e un XML relativi a una spedizione 890 per Raccomandata Mod. 23L consegnata a domicilio, con dettagli su codice di spedizione, data e luogo di accettazione e recapito.
+II file ZIP contiene il file XML firmato, gli schema XSD per la validazione e il file PDF relativi a una spedizione 890 per Raccomandata Mod. 23L consegnata a domicilio, con dettagli su codice di spedizione, data e luogo di accettazione e recapito.
 
-{% file src="../.gitbook/assets/23L_domicilio.zip" %}
+{% file src="../.gitbook/assets/FPIN_Consegna_AG_da_ptl.zip" %}
 
 #### Schema di Validazione
 
@@ -43,7 +47,7 @@ II file ZIP contiene un PDF e un XML relativi a una spedizione 890 per Raccomand
 
 #### File ZIP
 
-Il file ZIP contiene un PDF e un XML relativi a una spedizione 890 per Raccomandata Mod. 23L consegnata ad un ufficio postale, con dettagli su codice di spedizione, data e luogo di accettazione e recapito.
+II file ZIP contiene il file XML firmato, gli schema XSD per la validazione e il file PDF relativi a una spedizione 890 per Raccomandata Mod. 23L consegnata ad un ufficio postale, con dettagli su codice di spedizione, data e luogo di accettazione e recapito.
 
 {% file src="../.gitbook/assets/SP04_23LFD_281526382192_381526382193.zip" %}
 
@@ -57,43 +61,45 @@ Il file ZIP contiene un PDF e un XML relativi a una spedizione 890 per Raccomand
 
 **File ZIP**
 
-Il file ZIP contiene un PDF e un XML relativi a una spedizione 890 per ARCAD digiale , con dettagli su codice di spedizione, data e luogo di accettazione e recapito.
+II file ZIP contiene il file XML firmato, gli schema XSD per la validazione e il file PDF relativi a una spedizione 890 per ARCAD digiale , con dettagli su codice di spedizione, data e luogo di accettazione e recapito.
 
-{% file src="../.gitbook/assets/ARCAD_domicilio.zip" %}
+{% file src="../.gitbook/assets/WU2W_ARCAD_FD.zip" %}
 
 #### Schema di validazione
 
-{% file src="../.gitbook/assets/SchemaARCAD.xsd" %}
+{% file src="../.gitbook/assets/Schema_ARCAD.xsd" %}
 
-### Raccomandata A/R
+#### Raccomandata A/R
 
 * **23i digitale consegna c/o domicilio**
 
 **File ZIP**
 
-II file ZIP contiene un PDF e un XML relativi a una spedizione A/R per Raccomandata Mod. 23i consegnata a domicilio, con dettagli su codice di spedizione, data e luogo di accettazione e recapito.
+II file ZIP contiene il file XML firmato, gli schema XSD per la validazione e il file PDF relativi a una spedizione A/R per Raccomandata Mod. 23i consegnata a domicilio, con dettagli su codice di spedizione, data e luogo di accettazione e recapito.
 
-{% file src="../.gitbook/assets/23i_domicilio.zip" %}
+{% file src="../.gitbook/assets/KUXW_Consegna_Racc_PTL.zip" %}
 
 #### Schema di validazione
 
+{% file src="../.gitbook/assets/Schema_23I_v.1.0.xsd" %}
 
-
-{% file src="../.gitbook/assets/Schema23I-v.1.0.xsd" %}
+{% file src="../.gitbook/assets/Schema_23I_v.2.0.xsd" %}
+v2
+{% endfile %}
 
 * **23i digitale consegna c/o ufficio postale**
 
 #### **File ZIP**
 
-Il file ZIP contiene un PDF e un XML relativi a una spedizione A/R per Raccomandata Mod. 23i consegnata ad un ufficio postale, con dettagli su codice di spedizione, data e luogo di accettazione e recapito.
+II file ZIP contiene il file XML firmato, gli schema XSD per la validazione e il file PDF relativi a una spedizione A/R per Raccomandata Mod. 23i consegnata ad un ufficio postale, con dettagli su codice di spedizione, data e luogo di accettazione e recapito.
 
-{% file src="../.gitbook/assets/23IFD_ACFD697319802149_697319802149.zip" %}
+{% file src="../.gitbook/assets/9QM6_Consegna_Racc_da_UP (1).zip" %}
 
 #### Schema di validzione
 
 {% file src="../.gitbook/assets/Schema23I_v.1.0daUP.xsd" %}
 
-{% file src="../.gitbook/assets/SchemaDIDRK.xsd" %}
+{% file src="../.gitbook/assets/Schema_DIDRK.xsd" %}
 
 
 
