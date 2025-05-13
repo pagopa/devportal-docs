@@ -6,7 +6,7 @@ description: >-
 
 # 6️⃣ Emissione del referto
 
-<figure><img src=".gitbook/assets/7.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/05 - Referto.png" alt=""><figcaption><p>Un esempio di emissione referto dal messaggio su IO al sito dell'ente</p></figcaption></figure>
 
 ## Cosa fa l'Ente
 
@@ -19,10 +19,10 @@ L'ente, tramite i propri sistemi, invia su IO un messaggio informativo, che incl
 
 ### Da ricordare 💡
 
-* Utilizza il metadato [**`require_secure_channels`**](https://developer.pagopa.it/app-io/guides/io-guida-tecnica/funzionalita/pubblicare-un-servizio/dati-obbligatori/attributi#require_secure_channels) per proteggere **i contenuti sensibili**:&#x20;
+* Utilizza il metadato [**`require_secure_channels`**](https://developer.pagopa.it/app-io/guides/io-guida-tecnica/funzionalita/pubblicare-un-servizio/dati-obbligatori/attributi#require_secure_channels) per **proteggere** **i contenuti sensibili**:&#x20;
   * le notifiche push sui dispositivi del destinatario mostreranno un generico invito ad aprire il messaggio, senza riportare il contenuto del titolo;
   * i messaggi non verranno inoltrati via email a prescindere dalla preferenza impostata dall'utente destinatario;
-* Se desideri veicolare dati personale e/o sensibili nel titolo o nel corpo del messaggio, puoi usare i [**contenuti remoti** ](https://developer.pagopa.it/app-io/guides/io-guida-tecnica/funzionalita/inviare-un-messaggio/inviare-un-messaggio-a-contenuto-remoto)e mantenere il controllo sul dato all'interno dei sistemi dell'ente;
+* Se desideri veicolare dati personali e/o sensibili nel titolo o nel corpo del messaggio, puoi usare i [**contenuti remoti** ](https://developer.pagopa.it/app-io/guides/io-guida-tecnica/funzionalita/inviare-un-messaggio/inviare-un-messaggio-a-contenuto-remoto)e mantenere il controllo sul dato all'interno dei sistemi dell'ente;
 * Invita le persone all'azione, puoi aggiungere al messaggio un [pulsante o Call to action](https://www.developer.pagopa.it/app-io/guides/manuale-servizi/come-si-crea-un-servizio/la-scheda-servizio/pulsante-con-call-to-action-cta) per compiere azioni aggiuntive come **visualizzare il referto**. Con la funzionalità gratuita del [Single Sign-On](https://www.developer.pagopa.it/app-io/guides/manuale-servizi/lapp-io/le-funzionalita-di-io-a-disposizione-degli-enti/accedere-tramite-single-sign-on) (SSO), il pulsante inserito può condurre un utente al sito per le prenotazioni CUP in modalità autenticata SPID/CIE.&#x20;
 
 ## Cosa fa il cittadino

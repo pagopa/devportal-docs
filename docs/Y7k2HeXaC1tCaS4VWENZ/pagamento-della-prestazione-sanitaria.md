@@ -6,7 +6,7 @@ description: >-
 
 # 5️⃣ Pagamento della prestazione sanitaria
 
-<figure><img src=".gitbook/assets/5.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/04 - Pagamento.png" alt=""><figcaption><p>Pagamento di un avviso pagoPA</p></figcaption></figure>
 
 ## Cosa fa l'Ente
 
@@ -20,7 +20,7 @@ Nel messaggio IO, l'ente, tramite i propri sistemi, deve ricordarsi di inserire:
 
 ### Da ricordare 💡
 
-* il cittadino vedrà data e oggetto del pagamento che sono stati popolati alla creazione della posizione debitoria.&#x20;
+* Il cittadino vedrà data e oggetto del pagamento che sono stati popolati alla creazione della posizione debitoria.&#x20;
   * Evita pertanto di inserire date fittizie (es. 31/12/2099)
 * La ricevuta viene inviata automaticamente, non è pertanto necessario prevedere un messaggio di conferma dedicato.
 * Se l’ente, tramite i propri sistemi, vuole inibire il pagamento dopo una determinata data, è necessario dare evidenza dell'impossibilità di pagare l'avviso attraverso l'apposito stato di errore. In questo modo l’utente capirà che l’avviso è scaduto.

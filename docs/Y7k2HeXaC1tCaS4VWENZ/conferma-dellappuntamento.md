@@ -6,7 +6,7 @@ description: >-
 
 # 3️⃣ Conferma dell’appuntamento
 
-<figure><img src=".gitbook/assets/3 (1).jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Conferma appuntamento (2).png" alt=""><figcaption><p>Un esempio di messaggio di conferma appuntamento su IO</p></figcaption></figure>
 
 ## Cosa fa l'Ente
 

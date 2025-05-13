@@ -6,7 +6,7 @@ description: >-
 
 # 4️⃣ Gestione dell’appuntamento
 
-<figure><img src=".gitbook/assets/6.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/03 - Gestione.png" alt=""><figcaption><p>Un esempio di gestione appuntamento dal messaggio su IO al sito dell'ente</p></figcaption></figure>
 
 ## Cosa fa l'Ente
 
@@ -20,7 +20,7 @@ L'ente può garantire una migliore esperienza all'utente dall'app IO ai propri p
 
 * Il portale dell’ente deve essere accessibile e ottimizzato per un utilizzo tramite mobile;
 * Dopo aver cliccato sul pulsante, l’utente deve atterrare direttamente nella pagina delle **prenotazione**, senza passaggi intermedi;
-* Mettiti nei panni dei cittadini e fornisci informazioni **proattive**. Per esempio, se il cittadino vuole prenotare un appuntamento per una prestazione, mostragli le migliori disponibilità per l'appuntamento.&#x20;
+* Mettiti nei panni dei cittadini e fornisci **informazioni** **proattive**. Per esempio, se il cittadino vuole prenotare un appuntamento per una prestazione, mostragli le migliori disponibilità per l'appuntamento.&#x20;
 
 ## Cosa fa il cittadino
 

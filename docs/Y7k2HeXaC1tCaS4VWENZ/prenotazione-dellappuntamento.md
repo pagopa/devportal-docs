@@ -6,7 +6,7 @@ description: >-
 
 # 2️⃣ Prenotazione dell’appuntamento
 
-<figure><img src=".gitbook/assets/2.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/02 - Prenotazione.png" alt=""><figcaption><p>Un esempio di prenotazione appuntamento dal messaggio su IO al sito dell'ente</p></figcaption></figure>
 
 ## Cosa fa l'Ente
 
@@ -19,8 +19,8 @@ Il cittadino, cliccando il pulsante, atterra già autenticato nella sezione corr
 L'ente può garantire una migliore esperienza all'utente dall'app IO ai propri portali web, seguendo qualche accorgimento.
 
 * Il portale dell’ente deve essere accessibile e ottimizzato per un utilizzo tramite mobile;
-* Dopo aver cliccato sul pulsante, indirizza l’utente direttamente nella pagina delle **prenotazione**, senza passaggi intermedi;
-* Mettiti nei panni dei cittadini e fornisci informazioni **proattive**. Per esempio, se il cittadino vuole prenotare un appuntamento per una prestazione, mostragli subito le migliori disponibilità per l'appuntamento.&#x20;
+* Dopo aver cliccato sul pulsante, indirizza l’utente direttamente nella pagina ~~delle~~ della prenotazione, senza passaggi intermedi;
+* Mettiti nei panni dei cittadini e fornisci informazioni proattive.
 
 ## Benefici
 
