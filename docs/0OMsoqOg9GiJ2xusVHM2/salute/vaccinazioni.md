@@ -65,7 +65,7 @@ Prenota il tuo appuntamento per \<nome vaccino>.
 
 Per ulteriori informazioni sul programma, \[visita questo sito]\(URL).
 
-**🪄 Pulsante**: Prenota un appuntamento
+**🪄 Pulsante**: Prenota appuntamento
 
 ***
 
