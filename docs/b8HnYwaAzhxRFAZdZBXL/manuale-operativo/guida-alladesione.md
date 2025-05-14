@@ -13,7 +13,7 @@ Controlla di avere sottomano tutti i dati relativi alla società che potranno es
 
 * **Se sei un Gestore privato di piattaforma e-procurement:**
 
-Controlla di aver completato il [processo](https://www.agid.gov.it/it/piattaforme/procurement/certificazione-componenti-piattaforme) di certificazione dei componenti delle piattaforme pubblicato da AgID.
+Controlla di aver completato il [processo](https://registro-certificazione.agid.gov.it/) di certificazione dei componenti delle piattaforme pubblicato da AgID.
 
 Per maggiori informazioni sull'e-procurement si fa riferimento a [questa news ](https://www.agid.gov.it/it/agenzia/stampa-e-comunicazione/notizie/2023/09/25/procurement-pubblicato-schema-operativo-supporto-del-processo-certificazione)sul sito di AgID.
 
