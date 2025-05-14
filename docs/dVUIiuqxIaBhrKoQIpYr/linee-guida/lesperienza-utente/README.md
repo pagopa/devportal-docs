@@ -1,6 +1,6 @@
 # 📲 L'esperienza utente
 
-L’esperienza è scandita da più fasi che permettono al cliente di **Terza parte** di **scoprire il servizio, attivarlo, utilizzarlo e, se necessario, disattivarlo**.
+L’esperienza è scandita da più fasi che permettono al cliente dei **PSP** di **scoprire il servizio, attivarlo, utilizzarlo e, se necessario, disattivarlo**.
 
 Per ciascuna fase, vengono fornite linee guida volte a garantire un’esperienza fluida, coerente e corretta.
 

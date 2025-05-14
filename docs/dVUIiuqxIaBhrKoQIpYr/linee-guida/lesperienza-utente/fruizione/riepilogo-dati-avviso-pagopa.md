@@ -8,7 +8,7 @@
 
 * Parlare di **avviso pagoPA**
 * Riportare i campi necessari per il pagamento tramite avviso pagoPA, ovvero: **Ente creditore, Oggetto del pagamento, Importo, Codice Avviso, Codice Fiscale Ente creditore, Totale da pagare**
-* Per il campo commissioni è fondamentale specificare che sono applicate dalla Terza parte e NON da pagoPA, usare dunque la dicitura **Commissione applicata da \[PSP]**
+* Per il campo commissioni è fondamentale specificare che sono applicate dal PSP e NON da pagoPA, usare dunque la dicitura **Commissione applicata da \[PSP]**
 * Una **call-to-action** che porti al pagamento
 
 Maggiori dettagli nel [**glossario**](../../glossario.md)**.**

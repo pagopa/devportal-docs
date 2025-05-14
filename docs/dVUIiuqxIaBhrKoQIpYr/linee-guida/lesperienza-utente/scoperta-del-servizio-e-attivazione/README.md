@@ -4,7 +4,7 @@ icon: '1'
 
 # Scoperta del servizio e attivazione
 
-Questa prima fase ha l’obiettivo di far conoscere il servizio al cliente della **Terza parte** mentre naviga nella sua app o nel sito di home banking, incoraggiandolo ad attivarlo.
+Questa prima fase ha l’obiettivo di far conoscere il servizio al cliente del **PSP** mentre naviga nella sua app o nel sito di home banking, incoraggiandolo ad attivarlo.
 
 Il cliente può essere informato attraverso diversi strumenti di comunicazione, come **banner, landing page, una scheda di dettaglio del servizio oppure con un messaggio in bacheca**. Al fine dell'integrazione non devono essere presenti tutti gli strumenti, ma per ognuno vengono condivise le specifiche linee guida.&#x20;
 
