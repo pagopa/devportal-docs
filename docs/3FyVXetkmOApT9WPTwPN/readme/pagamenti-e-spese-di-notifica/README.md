@@ -37,6 +37,20 @@ Per tutte le notifiche depositate con `notificationFeePolicy=DELIVERY_MODE`il ca
 
 ### Pagamenti Rateali
 
-Se ad una notifica sono collegati più pagamenti non alternativi tra loro, ma che identificano rate della stesso atto notificato, è necessario indicare tramite l'elemento applyCost su quali pagamenti (es: rata unica e prima rata) devono essere applicati i costi di notifica al destinatario.\
+Se ad una notifica sono collegati più pagamenti non alternativi tra loro, ma che identificano rate della stesso atto notificato, è necessario indicare tramite l'elemento applyCost su quali pagamenti (es: rata unica e prima rata) devono essere applicati i costi di notifica al destinatario.
+
+### Gestione IVA sui costi di invio cartaceo
+
+Il campo **`vat`**&#x6E;ella richiesta di notifica consente al mittente di specificare l'aliquota IVA applicabile ai costi di invio cartaceo, in base al proprio regime fiscale. Il valore di **vat** deve essere un numero intero ed è obbligatorio quando **`notificationFeePolicy`** è impostato su **`DELIVERY_MODE`** o per notifiche con allegati di pagamento modello F24. In assenza di un valore specificato, l'aliquota IVA predefinita è del 22%. Ad esempio, per specificare un'IVA del 22%, il campo vat deve essere impostato su 22.
+
+### Quota del costo di notifica a favore dei mittenti
+
+Il campo **`paFee`** (quota del costo di notifica a favore dei mittenti), indica l'importo in eurocent da applicare al mittente per coprire i costi della spedizione (Decreto Costi del 30 maggio 2022 all'art. 5, comma 1, lettera a).Questo campo diventa obbligatorio per le notifiche che hanno:
+
+* il campo `notificationFeePolicy=DELIVERY_MODE`
+* la modalità di integrazione con pagoPA asincrona (`pagoPaIntMode`=`ASYNC`)
+* Nel caso la notifica abbia collegato un pagamento tramite modelloF24
+
+Di default, se non è obbligatorio, l'importo predefinito è di 100 eurocent.Esempio: quota di copertura spese mittente 1€ -> specificare l'elemento paFee = 100\
 
 
