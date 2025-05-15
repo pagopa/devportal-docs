@@ -43,7 +43,7 @@ La domanda è gratuita e può essere inoltrata dal \<gg/mm/aaaa> al \<gg/mm/aaaa
 
 Per ulteriori informazioni sul ruolo del presidente e scrutatore, \[visita questo sito]\(URL).
 
-**🪄 Pulsante**: n/a
+**🪄 Pulsante**: Iscriviti all'albo
 
 ***
 
