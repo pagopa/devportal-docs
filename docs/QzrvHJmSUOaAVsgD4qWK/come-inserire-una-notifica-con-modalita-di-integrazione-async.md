@@ -1,11 +1,11 @@
 ---
 description: >-
-  In questa pagina verrà mostrato passo per passo l'inserimento e
+  In questo tutorial verrà mostrato passo per passo l'inserimento e
   l'attualizzazione di una notifica con l'integrazione con il sistema pagoPa in
   maniera asincrona
 ---
 
-# Inserimento notifica con modalità di integrazione async
+# Come inserire una notifica con modalità di integrazione async
 
 In questa tipologia di integrazione la gestione dei costi di notifica sono gestiti in autonomia dai sistemi SEND e GPS di PagoPA.&#x20;
 

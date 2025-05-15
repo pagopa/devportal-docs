@@ -1,11 +1,11 @@
 ---
 description: >-
-  In questa pagina verrà mostrato passo per passo l'inserimento e
+  In questo tutorial verrà mostrato passo per passo l'inserimento e
   l'attualizzazione di una notifica con l'integrazione con il sistema pagoPa in
   maniera sincrona
 ---
 
-# Inserimento notifica con modalità di integrazione sync
+# Come inserire una notifica con modalità di integrazione sync
 
 In questa tipologia di integrazione la posizione debitoria è in capo all'ente creditore (EC), quindi la gestione dei costi di notifica è in carico al PT pagoPA che deve dialogare con il PT SEND per recuperare il costo di notifica e aggiungerlo all'importo dell'atto notificato.
 
