@@ -16,6 +16,12 @@ description: >-
 
 * Bug fixing
 
+### 1.0.145
+
+**9 maggio**
+
+* Bug fixing
+
 </details>
 
 <details>
