@@ -6,7 +6,17 @@ description: >-
 
 # Changelog
 
+<details>
 
+<summary>Maggio 2025</summary>
+
+### 1.0.146
+
+**15 maggio**
+
+* Bug fixing
+
+</details>
 
 <details>
 
