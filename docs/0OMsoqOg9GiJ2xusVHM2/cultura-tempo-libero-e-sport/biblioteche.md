@@ -357,6 +357,10 @@ A seguire, la ricevuta del tuo prestito.
 
 <summary>Prestito in scadenza</summary>
 
+{% include "../.gitbook/includes/single-sign-on.md" %}
+
+***
+
 **🖋 Titolo del messaggio:** Il tuo prestito sta per terminare
 
 🗒 **Testo del messaggio**:
@@ -369,7 +373,7 @@ Potrai restituire il prestito entro il \<gg/mm/aaaa> presso:
 
 **Orario**: \<orari biblioteca>
 
-**🪄 Pulsante**: n/a
+**🪄 Pulsante**: Rinnovo prestito
 
 ***
 
