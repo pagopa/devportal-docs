@@ -1,3 +1,7 @@
+---
+description: Versione 1.0
+---
+
 # 👋 Introduzione
 
 ## Obiettivo del documento
