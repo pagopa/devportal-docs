@@ -9,7 +9,7 @@ Dopo aver attivato il servizio, ogni volta che l’utente riceve una **comunicaz
 Il cliente accede quindi a **SEND**, dove può leggere la comunicazione a valore legale a suo carico.\
 Se quest'ultima prevede un pagamento, l’utente viene reindirizzato all’app del PSP per completare la transazione.
 
-<figure><img src="../../../.gitbook/assets/SEND multicanalità (touch point di terze parti)2 (1).png" alt=""><figcaption><p>Rappresentazione della fase di fruizione</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Scenario - Pagamento gestito dal PSP.png" alt=""><figcaption><p>Rappresentazione della fase di fruizione</p></figcaption></figure>
 
 Al fine di garantire un'esperienza fluida e coerente vengono condivise le linee guida delle seguenti pagine:
 
