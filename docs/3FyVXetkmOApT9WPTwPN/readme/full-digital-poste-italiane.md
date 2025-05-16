@@ -37,11 +37,12 @@ Il documenti prodotti sono archiviati all'interno di un file ZIP contenente:
 
 II file ZIP contiene il file XML firmato, gli schema XSD per la validazione e il file PDF relativi a una spedizione 890 per Raccomandata Mod. 23L consegnata a domicilio, con dettagli su codice di spedizione, data e luogo di accettazione e recapito.
 
-{% file src="../.gitbook/assets/FPIN_Consegna_AG_da_ptl.zip" %}
+📎 <a href="../.gitbook/assets/FPIN_Consegna_AG_da_ptl.zip">FPIN_Consegna_AG_da_ptl.zip</a>
 
 #### Schema di Validazione
 
-{% file src="../.gitbook/assets/Schema23L-v.1.0.xsd" %}
+📎 <a href="../.gitbook/assets/Schema23L-v.1.0.xsd">Schema23L-v.1.0.xsd</a>
+
 
 * **23L digitale consegna c/o ufficio postale**
 
@@ -49,13 +50,15 @@ II file ZIP contiene il file XML firmato, gli schema XSD per la validazione e il
 
 II file ZIP contiene il file XML firmato, gli schema XSD per la validazione e il file PDF relativi a una spedizione 890 per Raccomandata Mod. 23L consegnata ad un ufficio postale, con dettagli su codice di spedizione, data e luogo di accettazione e recapito.
 
-{% file src="../.gitbook/assets/SP04_23LFD_281526382192_381526382193.zip" %}
+📎 <a href="../.gitbook/assets/SP04_23LFD_281526382192_381526382193.zip">SP04_23LFD_281526382192_381526382193.zip</a>
+
 
 #### Schema di Validazione
 
-{% file src="../.gitbook/assets/Schema23L_v.1.0daUP.xsd" %}
+📎 <a href="../.gitbook/assets/Schema23L_v.1.0daUP.xsd">Schema23L_v.1.0daUP.xsd</a>
+📎 <a href="../.gitbook/assets/SchemaDIDAGE.xsd">SchemaDIDAGE.xsd</a>
 
-{% file src="../.gitbook/assets/SchemaDIDAGE.xsd" %}
+
 
 * **ARCAD digitale**
 
@@ -63,11 +66,13 @@ II file ZIP contiene il file XML firmato, gli schema XSD per la validazione e il
 
 II file ZIP contiene il file XML firmato, gli schema XSD per la validazione e il file PDF relativi a una spedizione 890 per ARCAD digiale , con dettagli su codice di spedizione, data e luogo di accettazione e recapito.
 
-{% file src="../.gitbook/assets/WU2W_ARCAD_FD.zip" %}
+📎 <a href="../.gitbook/assets/WU2W_ARCAD_FD.zip">WU2W_ARCAD_FD.zip</a>
+
 
 #### Schema di validazione
 
-{% file src="../.gitbook/assets/Schema_ARCAD.xsd" %}
+
+📎 <a href="../.gitbook/assets/Schema_ARCAD.xsd">Schema_ARCAD.xsd</a>
 
 #### Raccomandata A/R
 
@@ -81,11 +86,11 @@ II file ZIP contiene il file XML firmato, gli schema XSD per la validazione e il
 
 #### Schema di validazione
 
-{% file src="../.gitbook/assets/Schema_23I_v.1.0.xsd" %}
+📎 <a href="../.gitbook/assets/Schema_23I_v.1.0.xsd">Schema_23I_v.1.0.xsd</a>
 
-{% file src="../.gitbook/assets/Schema_23I_v.2.0.xsd" %}
-v2
-{% endfile %}
+📎 <a href="../.gitbook/assets/Schema_23I_v.2.0.xsd">Schema_23I_v.2.0.xsd</a> (v2)
+
+
 
 * **23i digitale consegna c/o ufficio postale**
 
@@ -93,14 +98,12 @@ v2
 
 II file ZIP contiene il file XML firmato, gli schema XSD per la validazione e il file PDF relativi a una spedizione A/R per Raccomandata Mod. 23i consegnata ad un ufficio postale, con dettagli su codice di spedizione, data e luogo di accettazione e recapito.
 
-{% file src="../.gitbook/assets/9QM6_Consegna_Racc_da_UP (1).zip" %}
+📎 <a href="../.gitbook/assets/9QM6_Consegna_Racc_da_UP (1).zip">9QM6_Consegna_Racc_da_UP (1).zip</a>
+
 
 #### Schema di validzione
 
-{% file src="../.gitbook/assets/Schema23I_v.1.0daUP.xsd" %}
-
-{% file src="../.gitbook/assets/Schema_DIDRK.xsd" %}
-
+📎 <a href="../.gitbook/assets/Schema_DIDRK.xsd">Schema_DIDRK.xsd</a>
 
 
 ### Dettaglio dei campi del file XML
