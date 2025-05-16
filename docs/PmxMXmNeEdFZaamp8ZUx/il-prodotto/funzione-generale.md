@@ -1,10 +1,11 @@
 # Funzione Generale
 
-Uso di Signal Hub
+Uso di Signal Hub:
 
-1. [Scambio e aggiornamento delle informazioni crittografiche, preliminare rispetto alla produzione e al recupero dei segnali](../how-to/scambio-o-aggiornamento-delle-informazioni-crittografiche.md)
-2. [Produzione dei segnali](../how-to/produzione-dei-segnali.md)
-3. [Consumo dei segnali](../how-to/consumo-dei-segnali.md)
+1. [Prerequisiti](../how-to/prerequisiti.md)
+2. [Scambio e aggiornamento delle informazioni crittografiche, preliminare rispetto alla produzione e al recupero dei segnali](../how-to/scambio-o-aggiornamento-delle-informazioni-crittografiche.md)
+3. [Produzione dei segnali](../how-to/produzione-dei-segnali.md)
+4. [Consumo dei segnali](../how-to/consumo-dei-segnali.md)
    1. [Recupero dei segnali](../how-to/recupero-dei-segnali.md)
    2. [Elaborazione dei segnali](https://app.gitbook.com/o/KXYtsf32WSKm6ga638R3/s/zwqHiUqrZCs3zNnHdc9A/)
    3. [Aggiornamento del dato](https://app.gitbook.com/o/KXYtsf32WSKm6ga638R3/s/zwqHiUqrZCs3zNnHdc9A/)

@@ -34,6 +34,8 @@ Se ad esempio l’ultimo `signalId` inviato è il 10, il servizio di deposito se
 
 L’erogatore deve tenere traccia dei `signalId` inviati, in modo che riesca sempre a risalire all’ultimo `signalId` inviato per generare correttamente il successivo.
 
+In caso di errore di invio dovuto a un ordinamento del `signalId` non valido (esempio: invio del `signalId` 9 quando è già stato inviato il 10), l'erogatore dovrà gestire il re-invio del segnale, opportunamente ri-ordinato, con il `signalId` corretto
+
 ### Deposito del segnale <a href="#deposito-del-segnale" id="deposito-del-segnale"></a>
 
 Rispetto alle [tipologie](../la-guida-tecnica/segnali.md) dei segnali possiamo avere:
@@ -85,7 +87,7 @@ Il servizio risponde con `{ "signalId": 1 }` per indicare che il segnale è stat
 
 #### Deposito del segnale di aggiornamento delle informazioni crittografiche <a href="#deposito-del-segnale-di-aggiornamento-delle-informazioni-crittografiche" id="deposito-del-segnale-di-aggiornamento-delle-informazioni-crittografiche"></a>
 
-Il servizio di deposito segnali può essere utilizzato sia per mandare segnali di insert/update/delete relativamente al ciclo di vita degli oggetti esposti dal produttore, sia per comunicare al consumatore che sono cambiate le informazioni crittografiche (hash function e seed).
+Il servizio di deposito segnali può essere utilizzato sia per mandare segnali di update/delete relativamente al ciclo di vita degli oggetti esposti dal produttore, sia per comunicare al consumatore che sono cambiate le informazioni crittografiche (hash function e seed).
 
 A tale scopo il produttore invia il segnale al servizio Deposito Segnali di Signal Hub:
 
