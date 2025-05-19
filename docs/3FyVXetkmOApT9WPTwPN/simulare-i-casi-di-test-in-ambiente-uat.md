@@ -19,14 +19,34 @@ Per simulare i casi di test in ambiente UAT sono stati creati 3 utenti che sono 
 Le simulazioni nell'ambiente test **UAT** hanno una relazione di tempo diversa rispetto a quelle di **PRODUZIONE** permettendo di simulare gli eventi senza dover aspettare il normale scorrimento temporale.
 
 Ogni giorno in ambiente di PRODUZIONE vale 1 minuto in ambiente di UAT:\
-`1g PROD -> 1m UAT`
+`1g PROD -> 1m UAT`&#x20;
 
-### Simulare pagamento Async&#x20;
+### Simulare pagamento i pagamenti in ambiente di test
 
-Per creare una notifica con il pagamento asincrono è necessario inserire nel campo pagoPaIntMode: `ASYNC` e i dati di pagamento PagoPA con :
+L'ambiente di collaudo UAT di SEND è collegato con l'ambiente UAT di pagoPA, per cui se l'ente è connesso a questo ambiente può utilizzare il proprio codice fiscale e il numero avviso che ha predisposto su tale ambiente.
+
+In alternativa è possibile utilizzare il codice fiscale di un ente creditore fittizio `77777777777` ed un numero avviso che rispetti le regole sottostanti.
+
+NOTA: poiché la coppia CF EC (codice fiscale di un ente creditore) e NAV (numero avviso) devono essere univoci sull'ambiente SEND, è possibile che una notifica sia rifiutata perché il NAV associato all'ente fittizio con CF `77777777777` è già stato utilizzato da un altro ente.
+
+#### Modalità di integrazione Sync
+
+Per creare una notifica con il pagamento sincrono è necessario inserire nel campo `pagoPaIntMode=SYNC` e i dati di pagamento pagoPA con :
+
+* Codice fiscale dell’ente creditore fittizio: `77777777777` \
+  NOTA: è possibile utilizzare se configurato in ambiente di UAT di pagoPA il codice fiscale dell'ente creditore.
+* Numero di avviso formalmente valido, per esempio: `302010xxxxxxxxxx`
+
+NOTA: la coppia \<codice fiscale ente creditore>,\<numero di avviso> **deve essere univoco per ambiente**, in caso sia già stato utilizzato la notifica verrà rifiutata.
+
+#### Modalità di integrazione Async&#x20;
+
+Per creare una notifica con il pagamento asincrono è necessario inserire nel campo `pagoPaIntMode=ASYNC` e i dati di pagamento pagoPA con :
 
 * Codice fiscale dell'ente di test: `77777777777`
-* Uno iuv formalmente valido, con questa sequenza:`302011xxxxxxxxxxxx`
+* Numero avviso formalmente valido, con questa sequenza:`302011xxxxxxxxxxxx`&#x20;
+
+NOTA: la posizione debitoria deve essere prima caricata sull'ambiente uat di GPD (gestione posizione debitorie) in caso contrario la notifica verrà rifiutata
 
 ## Simulazione Workflow
 
