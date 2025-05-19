@@ -2,7 +2,7 @@
 
 Gli attributi possono essere di tre tipi:
 
-* **certificati**: questi atributi sono certificati da  una fonte autoritativa e non necessitano di ulteriori verifiche&#x20;
+* **certificati**: questi atributi sono certificati da  una fonte autoritativa e non necessitano di ulteriori verifiche. Un ente può accreditarsi come fonte autoritativa facendo richiesta al Dipartimerto per la Trasformazione Digitale&#x20;
 * **dichiarati**: questi attributi necessitano verifica da parte di almeno un erogatore. Il fruitore potrebbe già possederne alcuni o tutti.
 * **verificati**: il fruitore deve dichiarare sotto la propria responsabilità di possedere questi attributi; potrebbe già possederene alcuni o tutti
 

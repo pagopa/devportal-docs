@@ -8,13 +8,15 @@ Se l'attributo richiesto non è presente nel database è possibile aggiungerlo e
 
 Questo meccanismo è comune a tutti attributi verificati e dichiarati.
 
+Per quelli certificati, è possibile creare nuovi attributi solamente se è accreditati come "enti certificatori".
+
+
+
 ### Revoca e riattivazione di un attributo
 
 È facoltà sia dell'erogatore che del fruitore revocare ed eventualmente riattivare un attributo. La revoca di un attributo ha come conseguenza la sospensione di tutte le richieste di fruizione per le quali l'attributo era un requisito di accesso.
 
 Per converso, la riattivazione dell'attributo prevede la riattivazione di tutte le richieste di fruizione precedentemente sospese. La riattivazione della richiesta di fruizione non viene effettuata solo nei casi in cui ci siano altri elementi ostativi. Ad esempio, se la richiesta di fruizione era già stata manualmente sospesa prima della revoca di un attributo, non sarà sufficiente la riattivazione dell'attributo per riattivarla; sarà necessario anche riattivare la richiesta di fruizione stessa.
-
-Questo meccanismo è comune agli attributi certificati e dichiarati.
 
 ### Rifiuto di un attributo
 
@@ -22,8 +24,8 @@ Se l'erogatore valuta che il fruitore non possegga i requisiti per vedersi ricon
 
 L'erogatore potrà quindi decidere di negare l'attivazione della richiesta di fruizione, di fatto rendendola inutilizzabile. Sarà facoltà del fruitore presentare una nuova richiesta di fruizione per lo stesso e-service, motivando la decisione.
 
-Questo meccanismo è comune agli attributi certificati e verificati, posto che l'erogatore abbia richiesto di verificare autonomamente il requisito (senza quindi appoggiarsi alla verifica di un ente certificatore o di un altro ente erogatore, nel caso dei verificati).
+Questo meccanismo è proprio degli attributi verificati, posto che l'erogatore abbia richiesto di verificare autonomamente il requisito, senza quindi appoggiarsi alla verifica di un ente certificatore o di un altro ente erogatore.
 
 ### Ritardo nell'aggiornamento dello stato di un attributo
 
-L'aggiornamento del cambio di stato degli attributi è, per ragioni tecniche, asincrono. Questo vuol dire che potrebbe esserci un ritardo tra il momento in cui si richiede la revoca/riattivazione di un attributo ed il momento in cui si propaga a tutte le componenti di PDND Interoperabilità.
+L'aggiornamento del cambio di stato degli attributi è, per ragioni tecniche, asincrono. Questo vuol dire che potrebbe esserci un ritardo di qualche secondo tra il momento in cui si richiede la revoca/riattivazione di un attributo ed il momento in cui si propaga a tutte le componenti di PDND Interoperabilità.

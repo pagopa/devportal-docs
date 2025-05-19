@@ -40,7 +40,11 @@ Inoltre, è necessario che tutti gli attributi necessari per una richiesta di fr
 
 ### Archiviare una richiesta di fruizione
 
-L'archiviazione è automatica nel momento in cui si effettua l'aggiornamento della richiesta di fruizione. A scopo esemplificativo, se esiste una richiesta di fruizione attiva per la versione 5 di un e-service, nel momento in cui esce una versione 6 e il fruitore effettua l'aggiornamento, la richiesta di fruizione per la versione 6 diventa attiva mentre la 5 viene archiviata.
 
 
+Nel momento in cui si effettua l'aggiornamento della richiesta di fruizione, l'archiviazione è automatica.&#x20;
+
+A scopo esemplificativo, se esiste una richiesta di fruizione attiva per la versione 5 di un e-service, nel momento in cui esce una versione 6 e il fruitore effettua l'aggiornamento, la richiesta di fruizione per la versione 6 diventa attiva mentre la 5 viene archiviata.
+
+Se viene più utilizzato un servizio, l'archiviazione deve essere manuale a opera del fruitore.  Il fruitore può ripresentare una nuova richiesta di fruizione, sempre con il caveat che un ente può avere una sola richiesta di fruizione attiva per ogni e-service.
 

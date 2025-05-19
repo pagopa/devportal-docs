@@ -2,7 +2,7 @@
 
 ## Fruizione: perdita di un attributo certificato
 
-Se PDND Interoperabilità constata che un fruitore non possiede più un attributo precedentemente riconosciutogli dal Catalogo IPA, viene automaticamente cambiato lo stato della richiesta di fruizione.
+Se PDND Interoperabilità constata che un fruitore non possiede più un attributo riconosciutogli dal Catalogo IPA o da qualsiasi altra fonte autoritativa, viene automaticamente cambiato lo stato della richiesta di fruizione.
 
 Se la richiesta è in bozza o in attesa di approvazione, viene portata in uno stato "invalido". Per uscire da questo stato, è necessario che il Catalogo IPA riconosca nuovamente l'attributo al fruitore. In alternativa, il fruitore può eliminare la bozza.&#x20;
 

@@ -56,9 +56,9 @@ Ogni client raccoglie un gruppo di operatori di sicurezza e un gruppo di chiavi.
 
 È un aderente che fruisce degli e-service messi a disposizione da un erogatore mediante le funzionalità di PDND Interoperabilità.
 
-## Linee guida AgID
+## Linee guida sull'infrastruttura tecnologica della PDND per l'interoperabilità dei sistemi informativi e delle basi dati
 
-Definiscono il modello di interoperabilità delle pubbliche amministrazioni (ModI) che viene implementato da PagoPA in PDND Interoperabilità, coerentemente con il nuovo European Interoperability Framework.
+Linee guida AgID che definiscono il modello di interoperabilità delle pubbliche amministrazioni (ModI) che viene implementato da PagoPA in PDND Interoperabilità, coerentemente con il nuovo European Interoperability Framework.
 
 Dal [comunicato stampa](https://www.agid.gov.it/it/agenzia/stampa-e-comunicazione/notizie/2021/10/05/interoperabilita-agid-adotta-linee-guida) di AgID, le linee guida
 
@@ -70,7 +70,7 @@ Documento in cui è definito il ModI
 
 ## Modello di interoperabilità - ModI&#x20;
 
-Definito da AgID, stabilisce il perimetro dell'interoperabilità tra pubbliche amministrazioni.
+Definito da AgID, stabilisce il perimetro dell'interoperabilità tra pubbliche amministrazioni. Il Modl è lo standard con il quale si costruiscono le API.
 
 ## Operatore API
 

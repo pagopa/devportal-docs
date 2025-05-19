@@ -10,4 +10,6 @@ Questa guida intende agevolare la ricerca e la comprensione degli e-service per 
 
 <mark style="background-color:blue;">Un e-service</mark> <mark style="background-color:blue;"></mark><mark style="background-color:blue;">**eroga**</mark> <mark style="background-color:blue;"></mark><mark style="background-color:blue;">dati quando tutti gli endpoint di quell'API sono predisposti per erogare dati;</mark>
 
-<mark style="background-color:blue;">Un e-service</mark> <mark style="background-color:blue;"></mark><mark style="background-color:blue;">**riceve**</mark> <mark style="background-color:blue;"></mark><mark style="background-color:blue;">dati quando tutti gli endpoint di quell'API sono predisposti per ricevere dati</mark>
+<mark style="background-color:blue;">Un e-service</mark> <mark style="background-color:blue;"></mark><mark style="background-color:blue;">**riceve**</mark> <mark style="background-color:blue;"></mark><mark style="background-color:blue;">dati quando tutti gli endpoint di quell'API sono predisposti per ricevere dati;</mark>
+
+Al fine di assicurare la conformità delle API pubblicate agli standard del Modello di Interoperabilità Tecnica per la Pubblica Amministrazione Italiana, è stato creato uno strumento di verifica del file OpenAPI (quindi per gli e-service che utilizzano tecnologia REST).
