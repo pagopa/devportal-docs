@@ -8,7 +8,7 @@ Questa funzionalità supporta le lingue **tedesco**, **francese** e **sloveno**,
 
 * DE (tedesco)
 * FR (francese)
-* SI (sloveno)&#x20;
+* SL (sloveno)&#x20;
 
 E' possibile indicare una sola lingua aggiuntiva per volta. In assenza di lingue aggiuntive, la lingua di default per la generazione dei documenti, degli atti opponibili a terzi, ecc. sarà l'italiano.
 

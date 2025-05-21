@@ -2,11 +2,13 @@
 
 Questo sistema digitale è stato sviluppato per ottimizzare la gestione del processo delle immagini degli oggetti di ritorno. Esso consente di generare, in modalità completamente digitale, i documenti di consegna a domicilio che presso un ufficio postale, in conformità alla normativa vigente.
 
+[I documenti generati si trovano all'interno dell'evento **SEND\_ANALOG\_PROGRESS** all'interno di un file ZIP con la denominazione del modello.](#user-content-fn-1)[^1]
+
 ### Documenti Generati
 
 Il sistema produce i seguenti documenti in formato digitale:
 
-<table><thead><tr><th>Modello</th><th align="center">Codice</th><th data-type="checkbox">c/o Domicilio</th><th data-type="checkbox">c/o  Ufficio Postale</th></tr></thead><tbody><tr><td><strong>23L digitale</strong></td><td align="center">890</td><td>true</td><td>true</td></tr><tr><td><strong>ARCAD digitale</strong></td><td align="center">890</td><td>true</td><td>false</td></tr><tr><td><strong>AC digitale (23i)</strong></td><td align="center">A/R</td><td>true</td><td>true</td></tr></tbody></table>
+<table><thead><tr><th>Modello</th><th align="center">Codice</th><th data-type="checkbox">c/o Domicilio</th><th data-type="checkbox">c/o Ufficio Postale</th></tr></thead><tbody><tr><td><strong>23L digitale</strong></td><td align="center">890</td><td>true</td><td>true</td></tr><tr><td><strong>ARCAD digitale</strong></td><td align="center">890</td><td>true</td><td>false</td></tr><tr><td><strong>AC digitale (23i)</strong></td><td align="center">A/R</td><td>true</td><td>true</td></tr></tbody></table>
 
 La generazione dei documenti digitali riporta i seguenti elementi:
 
@@ -22,7 +24,7 @@ Il documenti prodotti sono archiviati all'interno di un file ZIP contenente:
 3. **File PDF\***: una versione leggibile del file XML in formato PDF per consultazione.
 4. **File XSD\*\*:** utilizzato per la validazione del file xml.
 
-**NOTE**: \
+**NOTE**:\
 \* il file PDF non riporta la firma digitale PADES perché i dati e la loro firma sono nel file XML. Il file PDF è generato dai dati contenuti nel XML solo al fine di rendere leggibile il contenuto.
 
 \*\* dal 13.05.2025 tutti i file zip degli esempi contengono anche gli schemi in formato XSD per la validazione del file XML.
@@ -37,12 +39,11 @@ Il documenti prodotti sono archiviati all'interno di un file ZIP contenente:
 
 II file ZIP contiene il file XML firmato, gli schema XSD per la validazione e il file PDF relativi a una spedizione 890 per Raccomandata Mod. 23L consegnata a domicilio, con dettagli su codice di spedizione, data e luogo di accettazione e recapito.
 
-📎 <a href="../.gitbook/assets/FPIN_Consegna_AG_da_ptl.zip">FPIN_Consegna_AG_da_ptl.zip</a>
+📎 [FPIN\_Consegna\_AG\_da\_ptl.zip](../.gitbook/assets/FPIN_Consegna_AG_da_ptl.zip)
 
 #### Schema di Validazione
 
-📎 <a href="../.gitbook/assets/Schema23L-v.1.0.xsd">Schema23L-v.1.0.xsd</a>
-
+📎 [Schema23L-v.1.0.xsd](../.gitbook/assets/Schema23L-v.1.0.xsd)
 
 * **23L digitale consegna c/o ufficio postale**
 
@@ -50,15 +51,13 @@ II file ZIP contiene il file XML firmato, gli schema XSD per la validazione e il
 
 II file ZIP contiene il file XML firmato, gli schema XSD per la validazione e il file PDF relativi a una spedizione 890 per Raccomandata Mod. 23L consegnata ad un ufficio postale, con dettagli su codice di spedizione, data e luogo di accettazione e recapito.
 
-📎 <a href="../.gitbook/assets/SP04_23LFD_281526382192_381526382193.zip">SP04_23LFD_281526382192_381526382193.zip</a>
-
+📎 [SP04\_23LFD\_281526382192\_381526382193.zip](../.gitbook/assets/SP04_23LFD_281526382192_381526382193.zip)
 
 #### Schema di Validazione
 
-📎 <a href="../.gitbook/assets/Schema23L_v.1.0daUP.xsd">Schema23L_v.1.0daUP.xsd</a>
+📎 [Schema23L\_v.1.0daUP.xsd](../.gitbook/assets/Schema23L_v.1.0daUP.xsd)
 
-📎 <a href="../.gitbook/assets/SchemaDIDAGE.xsd">SchemaDIDAGE.xsd</a>
-
+📎 [SchemaDIDAGE.xsd](../.gitbook/assets/SchemaDIDAGE.xsd)
 
 * **ARCAD digitale**
 
@@ -66,13 +65,11 @@ II file ZIP contiene il file XML firmato, gli schema XSD per la validazione e il
 
 II file ZIP contiene il file XML firmato, gli schema XSD per la validazione e il file PDF relativi a una spedizione 890 per ARCAD digiale , con dettagli su codice di spedizione, data e luogo di accettazione e recapito.
 
-📎 <a href="../.gitbook/assets/WU2W_ARCAD_FD.zip">WU2W_ARCAD_FD.zip</a>
-
+📎 [WU2W\_ARCAD\_FD.zip](../.gitbook/assets/WU2W_ARCAD_FD.zip)
 
 #### Schema di validazione
 
-
-📎 <a href="../.gitbook/assets/Schema_ARCAD.xsd">Schema_ARCAD.xsd</a>
+📎 [Schema\_ARCAD.xsd](../.gitbook/assets/Schema_ARCAD.xsd)
 
 #### Raccomandata A/R
 
@@ -82,16 +79,13 @@ II file ZIP contiene il file XML firmato, gli schema XSD per la validazione e il
 
 II file ZIP contiene il file XML firmato, gli schema XSD per la validazione e il file PDF relativi a una spedizione A/R per Raccomandata Mod. 23i consegnata a domicilio, con dettagli su codice di spedizione, data e luogo di accettazione e recapito.
 
-📎 <a href="../.gitbook/assets/KUXW_Consegna_Racc_PTL.zip">KUXW_Consegna_Racc_PTL.zip</a>
-
-
+📎 [KUXW\_Consegna\_Racc\_PTL.zip](../.gitbook/assets/KUXW_Consegna_Racc_PTL.zip)
 
 #### Schema di validazione
 
-📎 <a href="../.gitbook/assets/Schema_23I_v.1.0.xsd">Schema_23I_v.1.0.xsd</a>
+📎 [Schema\_23I\_v.1.0.xsd](../.gitbook/assets/Schema_23I_v.1.0.xsd)
 
-📎 <a href="../.gitbook/assets/Schema_23I_v.2.0.xsd">Schema_23I_v.2.0.xsd</a> (v2)
-
+📎 [Schema\_23I\_v.2.0.xsd](../.gitbook/assets/Schema_23I_v.2.0.xsd) (v2)
 
 * **23i digitale consegna c/o ufficio postale**
 
@@ -99,18 +93,16 @@ II file ZIP contiene il file XML firmato, gli schema XSD per la validazione e il
 
 II file ZIP contiene il file XML firmato, gli schema XSD per la validazione e il file PDF relativi a una spedizione A/R per Raccomandata Mod. 23i consegnata ad un ufficio postale, con dettagli su codice di spedizione, data e luogo di accettazione e recapito.
 
-📎 <a href="../.gitbook/assets/9QM6_Consegna_Racc_da_UP (1).zip">9QM6_Consegna_Racc_da_UP (1).zip</a>
-
+📎 [9QM6\_Consegna\_Racc\_da\_UP (1).zip](../.gitbook/assets/9QM6_Consegna_Racc_da_UP%20\(1\).zip)
 
 #### Schema di validzione
 
-📎 <a href="../.gitbook/assets/Schema_DIDRK.xsd">Schema_DIDRK.xsd</a>
-
+📎 [Schema\_DIDRK.xsd](../.gitbook/assets/Schema_DIDRK.xsd)
 
 ### Dettaglio dei campi del file XML
 
 l file XML della Raccomandata 23L include campi per tracciare l’intera spedizione, come il codice identificativo dell’oggetto, la descrizione del documento inviato (es. atto giudiziario), la data e il luogo di accettazione e recapito, e i dettagli sul mittente. Questi campi certificano ogni fase del processo di notifica e rendono la spedizione conforme alle normative legali.
 
-📎 <a href="../.gitbook/assets/Dettaglio campi per file FD PagoPA_V3.xlsx">Dettaglio campi per file FD PagoPA_V3.xlsx</a>
+📎 [Dettaglio campi per file FD PagoPA\_V3.xlsx](../.gitbook/assets/Dettaglio%20campi%20per%20file%20FD%20PagoPA_V3.xlsx)
 
-
+[^1]: [michelegiorgio.bellizzi](https://app.gitbook.com/u/diLa4K9PZwTuhjIJYjQHnTpnXOq2 "mention")riusciamo ad essere più precisi? su quali dettagli e fare un esempio di timeline-element per ogniuno dei 5 casi?
