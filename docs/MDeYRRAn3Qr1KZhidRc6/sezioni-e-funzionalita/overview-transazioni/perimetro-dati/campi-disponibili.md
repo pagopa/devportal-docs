@@ -49,8 +49,8 @@ Si riportano di seguito i campi a disposizione sia per le visualizzazioni dei da
 * **Servizio di Incasso:** descrizione del codice tassonomico identificativo del servizio di incasso erogato dall’Ente Creditore;
 * **Codice Tassonomico Servizio di Incasso**: codice identificativo del servizio di incasso erogato dall’Ente Creditore;
 * **Canale di pagamento:** il canale "PagoPA" include le transazioni effettuati tramite App IO e il servizio online Checkout, che rappresenta il portale di riferimento per le transazioni dal sito ufficiale di pagoPA. Inoltre, comprende anche le transazioni eseguiti direttamente sui siti degli enti creditori, sia tramite il modulo WISP (deprecato a novembre 2024) sia attraverso il modulo Checkout, che lo ha sostituito. Tutti gli altri canali dei Prestatori di Servizi di Pagamento (PSP) rientrano invece nel canale "PSP";
-* **Tipologia Utente Debitore:** esistono tre (3) diverse tipologie per i soggetti debitori delle posizioni debitorie, ossia “F” che indica una persona fisica, “G” per una persona giuridica e “NA” per tutti i casi di intestatario e relativa tipologia mancante;
-* &#x20;**Fascia di importo:** il controvalore transato è stato suddiviso in sette (7) diverse fasce di importo, ossia (0-25]€, (25-50]€, (50-100]€, (100-200]€, (200-500]€, (500-1000]€, >1000€.
+* &#x20;**Fascia di importo:** il controvalore transato è stato suddiviso in sette (7) diverse fasce di importo, ossia (0-25]€, (25-50]€, (50-100]€, (100-200]€, (200-500]€, (500-1000]€, >1000€;
+* **Tipologia Utente Debitore:** esistono tre (3) diverse tipologie per i soggetti debitori delle posizioni debitorie, ossia “F” che indica una persona fisica, “G” per una persona giuridica e “NA” per tutti i casi di intestatario e relativa tipologia mancante.
 
 &#x20;
 

@@ -1,6 +1,6 @@
 # Specifiche e criteri  di elaborazione dati
 
-In aggiunta ai criteri definiti nel paragrafo 3.1.1.3, il perimetro dei dati transazionali del Prestatore Aderente consultabili nella sezione "Transazioni Prestatore Aderente" è soggetto anche alle seguenti logiche di processamento dei dati:
+In aggiunta ai criteri definiti nel paragrafo "Specifiche e criteri di elaborazione dati" della sezione "Overview transazioni", il perimetro dei dati transazionali del Prestatore Aderente consultabili nella sezione "Transazioni Prestatore Aderente" è soggetto anche alle seguenti logiche di processamento dei dati:
 
 * **Attribuzione transazioni a fronte di una fusione tra PSP** (fermo restando quanto disciplinato nell’articolo 12. CESSIONE E OPERAZIONI STRAORDINARIE): nei casi di fusione tra PSP è necessario distinguere tra i seguenti scenari:
   * il contratto di adesione al Servizio è stato sottoscritto dal **PSP incorporante**

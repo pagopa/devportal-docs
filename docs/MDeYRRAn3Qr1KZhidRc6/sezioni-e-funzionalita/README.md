@@ -4,11 +4,12 @@ Il Servizio è stato progettato per offrire una panoramica completa delle transa
 
 Il Servizio si compone di cinque (5) sezioni, ciascuna rappresentata da una scheda navigabile:
 
-* Overview Transazioni;
-* Transazioni Prestatore Aderente;
-* Analisi Stagionalità;
-* Analisi Libera;
-* &#x20;Tassonomia Servizi di Incasso.
+* **Overview Transazioni**;
+* **Transazioni Prestatore Aderente**;
+* **Market Share Prestatore Aderente**;
+* **Analisi Stagionalità**;
+* **Analisi Libera**;
+* &#x20;**Tassonomia Servizi di Incasso**.
 
 Le principali funzionalità disponibili nelle diverse sezioni sono:
 
