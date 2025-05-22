@@ -115,6 +115,7 @@ II file ZIP contiene il file XML firmato, gli schema XSD per la validazione e il
 #### Schema di validazione
 
 {% file src="../.gitbook/assets/Schema_23I_v.1.0.xsd" %}
+
 {% file src="../.gitbook/assets/Schema_23I_v.2.0.xsd" %}
 
 
@@ -124,7 +125,7 @@ II file ZIP contiene il file XML firmato, gli schema XSD per la validazione e il
 
 II file ZIP contiene il file XML firmato, gli schema XSD per la validazione e il file PDF relativi a una spedizione A/R per Raccomandata Mod. 23i consegnata ad un ufficio postale, con dettagli su codice di spedizione, data e luogo di accettazione e recapito.
 
-{% file src="../.gitbook/assets/9QM6_Consegna_Racc_da_UP%20\(1\).zip" %}
+{% file src="../.gitbook/assets/9QM6_Consegna_Racc_da_UP.zip" %}
 
 
 
