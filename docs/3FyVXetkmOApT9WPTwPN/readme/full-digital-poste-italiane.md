@@ -129,7 +129,7 @@ II file ZIP contiene il file XML firmato, gli schema XSD per la validazione e il
 
 
 
-#### Schema di validzione
+#### Schema di validazione
 
 {% file src="../.gitbook/assets/Schema_DIDRK.xsd" %}
 
