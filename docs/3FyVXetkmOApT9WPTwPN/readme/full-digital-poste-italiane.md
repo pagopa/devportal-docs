@@ -2,7 +2,27 @@
 
 Questo sistema digitale è stato sviluppato per ottimizzare la gestione del processo delle immagini degli oggetti di ritorno. Esso consente di generare, in modalità completamente digitale, i documenti di consegna a domicilio che presso un ufficio postale, in conformità alla normativa vigente.
 
-[I documenti generati si trovano all'interno dell'evento **SEND\_ANALOG\_PROGRESS** all'interno di un file ZIP con la denominazione del modello.](#user-content-fn-1)[^1]
+I documenti generati si trovano all'interno dell'evento **SEND\_ANALOG\_PROGRESS** all'interno di un file ZIP con la denominazione del modello con i seguenti `deliveryDetailCode` :
+
+#### Raccomandata 890
+
+* RECAG001B - Consegnato Con Dematerializzazione - 23L
+* RECAG002B - Consegnato a persona abilitata Con Dematerializzazione - 23L
+* RECAG003B - Mancata consegna
+*  RECAG003E - Irreperibilità Assoluta Con Dematerializzazione - Plico e Indagine opzionalmente
+* RECAG005B - Consegnato presso Punti di Giacenza Con Dematerializzazione - 23L
+* RECAG006B - Consegna a persona delegata presso Punti di Giacenza - Dematerializzazione 23L
+* RECAG007B - Mancata consegna presso Punti di Giacenza Con Dematerializzazione - Plico
+* RECAG008B - Compiuta giacenza Con Dematerializzazione - Plico
+* RECAG011B - In Giacenza - Con Dematerializzazione 23L
+
+#### Raccomandata AR&#xD;
+
+* RECRN001B - Consegnato Con Dematerializzazione - AR
+* RECRN002B - Mancata consegna Con Dematerializzazione - Plico
+* RECRN002E - Irreperibilità Assoluta. È un evento finale. Con Dematerializzazione – Plico Indagine
+* RECRN003B - Consegnato presso Punti di Giacenza Con Dematerializzazione - AR
+* RECRN005B - Compiuta giacenza Con Dematerializzazione - Plico
 
 ### Documenti Generati
 
@@ -104,5 +124,3 @@ II file ZIP contiene il file XML firmato, gli schema XSD per la validazione e il
 l file XML della Raccomandata 23L include campi per tracciare l’intera spedizione, come il codice identificativo dell’oggetto, la descrizione del documento inviato (es. atto giudiziario), la data e il luogo di accettazione e recapito, e i dettagli sul mittente. Questi campi certificano ogni fase del processo di notifica e rendono la spedizione conforme alle normative legali.
 
 📎 [Dettaglio campi per file FD PagoPA\_V3.xlsx](../.gitbook/assets/Dettaglio%20campi%20per%20file%20FD%20PagoPA_V3.xlsx)
-
-[^1]: [michelegiorgio.bellizzi](https://app.gitbook.com/u/diLa4K9PZwTuhjIJYjQHnTpnXOq2 "mention")riusciamo ad essere più precisi? su quali dettagli e fare un esempio di timeline-element per ogniuno dei 5 casi?

@@ -58,15 +58,18 @@ I controlli effettuati da PN sono i seguenti:
 * verifica che le informazioni inserite siano sintatticamente corrette e rispettino i vincoli applicati sui campi delle entities.
 * verifica che le combinazioni di **creditorTaxId/noticeCode** e **creditorTaxId/alternativeNoticeCode** siano univoche.
 * verifica che la combinazione dei campi **senderPaId, paProtocolNumber, idempotenceToken** siano univoci.
+* verifica che ciascun CF fornito sia corretto sintatticamente
 
 ### Quali controlli vengono effettuati a seguito dell'inserimento della notifica (controlli asincroni)?
 
 I controlli asincroni sulla notifica partono dal momento successivo all'OK ottenuto in risposta all'inserimento della notifica e producono sempre un esito entro 24H da questo momento. L'esito dei controlli asincroni può essere verificato con l'apposito servizio [Verifica accettazione richiesta notifica](https://petstore.swagger.io/?url=https%3A%2F%2Fraw.githubusercontent.com%2Fpagopa%2Fpn-delivery%2Fdevelop%2Fdocs%2Fopenapi%2Fapi-external-b2b-pa.yaml#/SenderReadB2B/retrieveNotificationRequestStatus) o consumando il relativo evento di Timeline.\
 I controlli effettuati da PN sono i seguenti:
 
-* verifica che lo sha256 inserito nella notifica corrisponda a quello del documento associato ad essa
-* verifica che ciascun CF fornito esista veramente
 * verifica che l'indirizzo fisico associato a ciascun destinatario sia esistente e che il CAP inserito sia specifico della località e non generico. Queste verifiche vengono effettuate con Postel.&#x20;
+* verifica che lo hash sha256 inserito nella notifica corrisponda a quello dei documenti associati ad essa
+* verifica che ogni allegato PDF contenga un’intestazione conforme, necessaria per l’identificazione corretta del documento.
+* verifica che i metadati inseriti nel JSON fornito per la generazione degli F24 sia conforme allo schema previsto.
+* verifica che la posizione debitoria inserita in caso di integrazione ASYNC sia esistente e creata sul portale GPD
 
 **NOTA:** nel caso in cui una Notifica venga rifiutata in fase di validazione, PND fatturerà comunque alla PA mittente € 1 per ogni destinatario della notifica (a copertura dei servizi di PND).\
 Vedi l'art. 4 comma 3 lettera d) dei [T\&C della piattaforma](https://docs.pagopa.it/documento-1-termini-condizioni-di-adesione-e-uso/).
