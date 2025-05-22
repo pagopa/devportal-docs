@@ -2,7 +2,7 @@
 
 Questo sistema digitale è stato sviluppato per ottimizzare la gestione del processo delle immagini degli oggetti di ritorno. Esso consente di generare, in modalità completamente digitale, i documenti di consegna a domicilio che presso un ufficio postale, in conformità alla normativa vigente.
 
-I documenti generati si trovano all'interno dell'evento **SEND\_ANALOG\_PROGRESS** all'interno di un file ZIP nella sezione attachments con i seguenti `deliveryDetailCode` :
+I documenti generati si trovano all'interno dell'evento **SEND\_ANALOG\_PROGRESS** all'interno di un file ZIP nella sezione `legalFactsIds` con i seguenti `deliveryDetailCode` :
 
 #### Raccomandata 890
 
