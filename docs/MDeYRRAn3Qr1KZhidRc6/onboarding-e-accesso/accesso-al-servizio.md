@@ -2,17 +2,19 @@
 
 Il Servizio è accessibile dal Back Office pagoPA, ossia il portale verticale, integrato all’interno della piattaforma Area riservata\[1], che offre servizi dedicati al prodotto pagoPA.
 
-&#x20;
+All'interno del menu del portale Back Office pagoPA è presente la sezione denominata "**Insights**", attraverso la quale, subordinatamente alla disponibilità di una Lettera di Adesione a pagoPA Insights valida per il Prestatore Aderente di riferimento, è consentito l'accesso e la navigazione del Servizio.
 
-All'interno del menu del portale Back Office pagoPA è presente la sezione denominata "**Insights**", attraverso la quale, subordinatamente alla disponibilità di una Lettera di Adesione a pagoPA Insights valida per il Prestatore Aderente di riferimento e al riconoscimento dell'utente autenticato con ruolo di Amministratore, è consentito l'accesso e la navigazione del Servizio.
+Qualora il PSP di riferimento non abbia sottoscritto la Lettera di Adesione a pagoPA Insights, possono verificarsi i seguenti scenari in base al profilo dell’utente che ha effettuato l’accesso:
 
-&#x20;
+* _l’utente è un Amministratore_
+  * Back Office mostra il seguente messaggio: “Servizio non attivo. Procedi alla sottoscrizione del contratto per abilitare il Servizio.”
+* _l’utente non è un Amministratore_
+  * Back Office mostra il seguente messaggio: “Servizio non attivo. Contatta il tuo amministratore per procedere alla sottoscrizione del servizio e richiederne l’accesso.”
 
-Qualora il PSP di riferimento non abbia sottoscritto la Lettera di Adesione a pagoPA Insights e/o l’utente non disponga del ruolo di Amministratore, si possono verificare i seguenti scenari:
+L’accesso alla dashboard e alle relative funzionalità è consentito a ciascun Operatore, nei limiti previsti dal proprio ruolo e nell’ambito del Servizio.
 
-* &#x20;_**Il PSP ha aderito al Servizio, ma l'utente non è un Amministratore**:_  Back Office mostra il seguente messaggio: “Non sei abilitato alla visualizzazione del Servizio. Contatta il tuo amministratore per richiedere l'accesso o ulteriori informazioni.”
-* _**Il PSP non ha aderito al Servizio, ma l’utente è un Amministratore**:_ Back Office mostra il seguente messaggio: “Servizio non attivo. Procedi alla sottoscrizione del contratto per abilitare il Servizio.”
-* _**Il PSP non ha aderito al Servizio e l’utente non è un Amministratore:**_ Back Office mostra il seguente messaggio: “Servizio non attivo. Contatta il tuo amministratore per procedere alla sottoscrizione del servizio e richiederne l’accesso.”
+\
+
 
 ***
 
