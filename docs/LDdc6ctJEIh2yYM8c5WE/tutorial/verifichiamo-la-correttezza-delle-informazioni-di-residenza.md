@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Verifichiamo la correttezza delle informazioni di residenza
 
 L’e-service “Attestazione - Residence Verification”, pubblicato sul catalogo, consente di **verificare la presenza e la correttezza di un determinato indirizzo fisico** simulando un ente che possiede le informazioni aggiornate e centralizzate di tutti gli indirizzi di residenza/domicili fisici dei soggetti.

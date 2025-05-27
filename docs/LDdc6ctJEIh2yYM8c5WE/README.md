@@ -2,7 +2,8 @@
 
 Ambiente di Attestazione nasce come un ambiente in cui è possibile **sperimentare e utilizzare le funzionalità messe a disposizione dalla piattaforma di Interoperabilità**, mediante l’utilizzo di servizi e dati fittizi.
 
-L’accesso all’ambiente è aperto a tutti i soggetti di cui all’articolo 2, comma 2, lettera a), b) e c) del CAD e cioè Pubbliche amministrazioni, Gestori di pubblici servizi e Società a controllo pubblico.\
+L’accesso all’ambiente è aperto come descritto [qui](https://docs.pagopa.it/interoperabilita-1/normativa-e-approfondimenti).
+
 \
 Sono stati anche abilitati previa autorizzazione del Dipartimento per la trasformazione digitale:
 

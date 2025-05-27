@@ -1,24 +1,30 @@
 # Richiediamo informazioni sull'indirizzo digitale
 
-L’e-service “Attestazione - Digital Address” pubblicato sul catalogo, consente **di verificare la presenza e la correttezza di un determinato indirizzo digitale**, simulando un ente che possiede tutte le informazioni anagrafiche legate agli indirizzi digitali dei soggetti.
+L’e-service “Attestazione - Verifica indirizzo digitale” pubblicato sul catalogo, consente **di verificare la presenza e la correttezza di un determinato indirizzo digitale**, simulando un ente che possiede tutte le informazioni anagrafiche legate agli indirizzi digitali dei soggetti.
 
 In questo tutorial vedremo un caso reale di applicazione di questo servizio.
 
 ## Il caso d'uso
 
-Come fruitore, ho la necessità **di arricchire la mia base dati aggiungendo gli indirizzi digitali** dei soggetti.  Per procedere, dovrò effettuare la sottoscrizione all’e-service qs“Attestazione - Digital Address”  che permette di effettaure anche un’estrazione massiva, grazie all’invocazione del seguente set di API:
+{% hint style="danger" %}
+**Problema:** Come fruitore ho la necessità di arricchire la mia base dati aggiungendo gli indirizzi digitali dei soggetti.
 
-`POST /digital-address-verification/list`
+**Soluzione:** Effettuo la sottoscrizione all’e-service “Attestazione - Digital Address” essendo l’ente che possiede tali informazioni a livello nazionale. L’e-service espone dei metodi che permettono di effettuare anche un’estrazione massiva, utile proprio a risolvere il nostro problema.
+{% endhint %}
 
-`GET /digital-address-verification/list/state/{id}`
+L’e-service in oggetto mi permette infatti di recuperare tali dati grazie all’invocazione del seguente set di API:
 
-`GET /digital-address-verification/list/response/{id}`
+{% code lineNumbers="true" %}
+```
+POST /digital-address-verification/list
+GET /digital-address-verification/list/state/{id}
+GET /digital-address-verification/list/response/{id}
+```
+{% endcode %}
 
 I metodi sopra esposti permettono di effettuare un’estrazione massiva degli indirizzi, a partire dagli id soggetto indicati all’interno della request.
 
 _aggiungere qui  le differenze tra le tre API: nel resto della documentazione le due GET sono delle POST, cosa è corretto?_
-
-
 
 ## Data preparation
 
@@ -26,20 +32,22 @@ La prima cosa da fare, come abbiamo visto, è la configurazione dei dati. Proced
 
 Facendo riferimento al problema sopra esposto, supponiamo di avere la seguente base dati all’interno della nostra applicazione
 
-| ID               | Nome  | Cognome | Pec  |
-| ---------------- | ----- | ------- | ---- |
-| RSSMRA80A01H501U | Mario | Rossi   | NULL |
-| LGUBCH80A01H501B | Luigi | Bianchi | NULL |
+<table><thead><tr><th width="189.78125">ID</th><th>Nome</th><th>Cognome</th><th>Pec</th></tr></thead><tbody><tr><td>RSSMRA80A01H501U</td><td>Mario</td><td>Rossi</td><td>NULL</td></tr><tr><td>LGUBCH80A01H501B</td><td>Luigi</td><td>Bianchi</td><td>NULL</td></tr></tbody></table>
 
 In accordo a questa effettuiamo la data preparation simulando il seguente scenario:
 
-●     L’id **RSSMRA80A01H501U** è un soggetto noto a cui è associata una pec ancora valida
-
-●     L’id **LGUBCH80A01H501B** è un soggetto noto a cui è associata una pec non più valida
+* L’id **RSSMRA80A01H501U** è un soggetto noto a cui è associata una pec ancora valida
+* L’id **LGUBCH80A01H501B** è un soggetto noto a cui è associata una pec non più valida
 
 Replichiamo la configurazione desiderata nel seguente modo:
 
-`POST /digital-address-verification/data-preparation`
+```
+POST /digital-address-verification/data-preparation
+```
+
+<details>
+
+<summary><strong>Input</strong></summary>
 
 **Header**:
 
@@ -50,10 +58,10 @@ x-correlation-id: {{myUniqueCorrelationId}}
 apikey: {{apikey}}
 ```
 
-**Payload**:
+#### **Payload**:
 
+{% code lineNumbers="true" %}
 ```json
-application/json
 {
     "idSubject": "RSSMRA80A01H501U",
     "from": "2017-07-21T17:32:28Z",
@@ -69,24 +77,30 @@ application/json
     ]
 }
 ```
+{% endcode %}
+
+</details>
+
+<details>
+
+<summary><strong>Output</strong></summary>
 
 **Response**:
 
-```
-application/json
-```
-
-"_aggiungere qui la response mancante_".
-
 **Status codes:**
 
-●     **201** - Configurazione salvata con successo
+* **201** - Configurazione salvata con successo
+* **400** - Errore formato dati input
 
-●     **400** - Errore formato dati input
+</details>
 
 Abbiamo configurato il primo soggetto, procediamo alla configurazione del secondo
 
-**Header:**
+<details>
+
+<summary>Input</summary>
+
+#### **Header:**
 
 ```json
 Content-Type: application/json
@@ -95,10 +109,10 @@ x-correlation-id: {{myUniqueCorrelationId}}
 apikey: {{apikey}}
 ```
 
-**Payload:**
+#### **Payload:**
 
+{% code lineNumbers="true" %}
 ```json
-application/json
 {
     "idSubject": "LGUBCH80A01H501B",
     "from": "2017-07-21T17:32:28Z",
@@ -114,33 +128,265 @@ application/json
     ]
 }
 ```
+{% endcode %}
 
-**Response:**
+</details>
 
-```
-// Some code
-```
+<details>
 
-"_aggiungere qui la response mancante_".
+<summary>Output</summary>
 
-Status codes:
+#### **Response**:
 
-●     **201** - Configurazione salvata con successo
+#### **Status codes:**
 
-●     **400** - Errore formato dati input
+* **201** - Configurazione salvata con successo
+
+- **400** - Errore formato dati input
+
+</details>
+
+
 
 Abbiamo configurato anche il secondo soggetto, specificando che la data di fina validità della pec è antecedente alla data odierna.
 
+Di seguito gli altri end-point per la gestione dei record presenti nella base dati:
+
+### **Ottenimento dei dati**
+
+Con questa chiamata è possibile ottenere la lista delle organizzazioni presenti all'interno della base dati.
+
+```
+GET /digital-address-verification/data-preparation
+```
+
+<details>
+
+<summary>Input</summary>
+
+#### **Header:**
+
+```json
+Content-Type: application/json
+Authorization: Bearer {{bearerToken}}
+x-correlation-id: {{myUniqueCorrelationId}}
+apikey: {{apikey}}
+```
+
+</details>
+
+<details>
+
+<summary>Output</summary>
+
+#### Response
+
+* Status code: **200**
+
+{% code lineNumbers="true" %}
+```json
+{
+  "data": [
+    {
+      "idSubject": "VRANGL74M28R701X",
+      "from": "2017-07-21T17:32:28Z",
+      "digitalAddress": [
+        {
+          "digitalAddress": "example@pec.it",
+          "profession": "Doctor",
+          "information": {
+            "reason": "CESSAZIONE_VOLONTARIA",
+            "endDate": "2017-07-21T17:32:28Z"
+          }
+        }
+      ]
+    }
+  ]
+}
+```
+{% endcode %}
+
+* Status code: **400, 401, 403, 404, 500, 503**
+
+{% code lineNumbers="true" %}
+```json
+{  
+  "status": "<HTTP_CODE>",
+  "type": "<HTTP_STATUS>",
+  "detail": "<detail_error>"
+}
+```
+{% endcode %}
+
+</details>
+
+### **Eliminazione dei dati**
+
+```
+DELETE /digital-address-verification/data-preparation
+```
+
+<details>
+
+<summary>Input</summary>
+
+#### **Header:**
+
+```json
+Content-Type: application/json
+Authorization: Bearer {{bearerToken}}
+x-correlation-id: {{myUniqueCorrelationId}}
+apikey: {{apikey}}
+```
+
+</details>
+
+<details>
+
+<summary>Output</summary>
+
+#### Response
+
+* Status code: **202** - Richiesta completata con successo
+
+- Status code: **400, 401, 403, 404, 500, 503**
+
+{% code lineNumbers="true" %}
+```json
+{  
+  "status": "<HTTP_CODE>",
+  "type": "<HTTP_STATUS>",
+  "detail": "<detail_error>"
+}
+```
+{% endcode %}
+
+</details>
+
+### **Ottenimento di un singolo record**
+
+```
+GET /digital-address-verification/data-preparation/:idSubject
+```
+
+<details>
+
+<summary>Input</summary>
+
+#### **Header:**
+
+```json
+Content-Type: application/json
+Authorization: Bearer {{bearerToken}}
+x-correlation-id: {{myUniqueCorrelationId}}
+apikey: {{apikey}}
+```
+
+</details>
+
+<details>
+
+<summary>Output</summary>
+
+#### Response
+
+* Status code: **200**
+
+{% code lineNumbers="true" %}
+```json
+{
+  "data": [
+    {
+      "idSubject": "VRANGL74M28R701X",
+      "from": "2017-07-21T17:32:28Z",
+      "digitalAddress": [
+        {
+          "digitalAddress": "example@pec.it",
+          "profession": "Doctor",
+          "information": {
+            "reason": "CESSAZIONE_VOLONTARIA",
+            "endDate": "2017-07-21T17:32:28Z"
+          }
+        }
+      ]
+    }
+  ]
+}
+```
+{% endcode %}
+
+* Status code: **400, 401, 403, 404, 500, 503**
+
+{% code lineNumbers="true" %}
+```json
+{  
+  "status": "<HTTP_CODE>",
+  "type": "<HTTP_STATUS>",
+  "detail": "<detail_error>"
+}
+```
+{% endcode %}
+
+</details>
+
+### **Eliminazione di un singolo record**
+
+```
+DELETE /digital-address-verification/data-preparation/:idSubject
+```
+
+<details>
+
+<summary>Input</summary>
+
+#### **Header:**
+
+```json
+Content-Type: application/json
+Authorization: Bearer {{bearerToken}}
+x-correlation-id: {{myUniqueCorrelationId}}
+apikey: {{apikey}}
+```
+
+</details>
+
+<details>
+
+<summary>Output</summary>
+
+#### Response
+
+* Status code: **200** - Richiesta completata con successo
+
+- Status code: **400, 401, 403, 404, 500, 503**
+
+{% code lineNumbers="true" %}
+```json
+{  
+  "status": "<HTTP_CODE>",
+  "type": "<HTTP_STATUS>",
+  "detail": "<detail_error>"
+}
+```
+{% endcode %}
+
+</details>
+
 Procediamo a questo punto all’invocazione delle API messe a disposizione dell’e-service.
-
-
 
 ## Invocazione e-service per estrazione massiva
 
 Effettuo la seguente chiamata per l’id soggetto di Mario Rossi e e Lugi Bianchi.
 
-`POST /digital-address-verification/list`
+```
+POST /digital-address-verification/list
+```
 
+<details>
+
+<summary>Curl</summary>
+
+{% code lineNumbers="true" %}
 ```bash
 curl --location '{host}/digital-address-verification/list' \
 --header 'Content-Type: application/json' \
@@ -155,34 +401,50 @@ curl --location '{host}/digital-address-verification/list' \
   "idRequest": "00001"
 }'
 ```
+{% endcode %}
 
-Response:
+</details>
 
+<details>
+
+<summary>Output</summary>
+
+#### Response:
+
+{% code overflow="wrap" lineNumbers="true" %}
 ```json
-application/json
-{
-    "state": "PRESA_IN_CARICO",
-    "message": "PRESA_IN_CARICO",
-    "id": "20d0c1e1-b9c2-460b-8f8a-c8c6f264bb81",
-    "requestTimestamp": "2024-10-15T14:36:24.028Z"
+{ 
+  "state": "PRESA_IN_CARICO", 
+  "message": "PRESA_IN_CARICO", 
+  "id": "20d0c1e1-b9c2-460b-8f8a-c8c6f264bb81", 
+  "requestTimestamp": "2024-10-15T14:36:24.028Z" 
 }
 ```
+{% endcode %}
 
-Status codes:
+#### **Status codes:**
 
-●     200 - Richiesta effettuata con successo
+* **200** - Richiesta effettuata con successo
+
+</details>
 
 La response ci indica che la nostra richiesta di estrazione massiva è stata presa in carico. Utilizzeremo l’id presente all’interno della response, per invocare la successiva api.
 
 
 
-## Invocazione e-service per  Verifica stato esortazione massiva
+## Invocazione e-service per  Verifica stato esportazione massiva
 
 Effettuiamo la seguente chiamata, utilizzando l’id ricevuto nella precedente
 
-`POST /digital-address-verification/list/state/:id`
+```
+POST /digital-address-verification/list/state/:id
+```
 
-{% code overflow="wrap" %}
+<details>
+
+<summary>Curl</summary>
+
+{% code lineNumbers="true" %}
 ```bash
 curl --location '{host}/digital-address-verification/list/state/20d0c1e1-b9c2-460b-8f8a-c8c6f264bb81' \
 --header 'Accept: application/json' \
@@ -191,7 +453,13 @@ curl --location '{host}/digital-address-verification/list/state/20d0c1e1-b9c2-46
 ```
 {% endcode %}
 
-Response:
+</details>
+
+<details>
+
+<summary>Output</summary>
+
+#### Response:
 
 ```json
 application/json
@@ -201,25 +469,27 @@ application/json
 }
 ```
 
-Status codes:
+#### Status codes:
 
-●     200 - Richiesta effettuata con successo
+* **200** - Richiesta effettuata con successo
+
+</details>
 
 La response ci indica che la nostra richiesta di estrazione massiva è ancora in fase di elaborazione.
 
+Effettuo dunque la chiamata nuovamente, finché non ricevo una response che mi indica che l’estrazione è terminata con successo.
 
-
-## Invocazione e-service per  Verifica stato esrtazione massiva
-
-Effettuo dunque la chiamata nuovamente, finchè non ricevo una response che mi indica che l’estrazione è terminata con successo.
-
-Non appena il campo “status” presente all’interno della respons è DISPONIBILE, procedo con la successiva invocazione.
-
-
+Non appena il campo “status” presente all’interno della response è DISPONIBILE, procedo con la successiva invocazione.
 
 Effettuiamo la seguente chiamata, utilizzando l’id ricevuto nella richiesta di estrazione massiva
 
-`POST /digital-address-verification/list/response/:id`
+```
+POST /digital-address-verification/list/response/:id
+```
+
+<details>
+
+<summary>Curl</summary>
 
 {% code overflow="wrap" %}
 ```bash
@@ -227,14 +497,19 @@ curl --location 'host}/digital-address-verification/list/response/20d0c1e1-b9c2-
 --header 'Accept: application/json' \
 --header 'x-correlation-id: 1' \
 --header 'Authorization: Bearer xxx'
-
 ```
 {% endcode %}
 
-Response:
+</details>
 
+<details>
+
+<summary>Output</summary>
+
+#### Response:
+
+{% code lineNumbers="true" %}
 ```json
-application/json
 {
     "list": [
         {
@@ -267,11 +542,27 @@ application/json
         }
     ]
 }
-
 ```
+{% endcode %}
 
-Status codes:
+#### Status codes:
 
-●     200 - Richiesta effettuata con successo
+* **200** - Richiesta effettuata con successo
+
+</details>
 
 La response ci restituisce i dati presenti nella base dati dell’ente.
+
+## Esito finale
+
+Dopo aver interrogato l’e-service possiamo procedere all’aggiornamento della nostra base dati in base alle informazioni che abbiamo recuperato.
+
+Di seguito una panoramica della situazione a seguito dell’aggiornamento
+
+<table><thead><tr><th width="192.31640625">ID</th><th>Nome</th><th>Cognome</th><th>Pec</th></tr></thead><tbody><tr><td>RSSMRA80A01H501U</td><td>Mario</td><td>Rossi</td><td><a href="mailto:example_1@pec.it">example_1@pec.it</a></td></tr><tr><td>LGUBCH80A01H501B</td><td>Luigi</td><td>Bianchi</td><td>NULL</td></tr></tbody></table>
+
+La nostra base dati è stata correttamente aggiornata. Non abbiamo inserito l’indirizzo digitale per il soggetto Luigi Bianchi, essendo ormai obsoleta.
+
+## Diagramma di flusso
+
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>

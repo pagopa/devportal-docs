@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Richiediamo informazioni sullo stato di famiglia
 
 L’e-service “Attestazione - Family Status” pubblicato sul catalogo, offre un servizio mediante il quale è possibile verificare la correttezza delle informazioni legate allo stato di famiglia simulando un ente che possiede le informazioni aggiornate e centralizzate legate allo stato di famiglia.

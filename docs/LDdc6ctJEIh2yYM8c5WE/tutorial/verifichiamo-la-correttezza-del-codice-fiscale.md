@@ -1,8 +1,12 @@
-# Verifichiamo la correttezza del Codice Fiscale
+---
+hidden: true
+---
 
-Il servizio Accertamento Codice Fiscale simula, a partire da un criterio di ricerca, l’ottenimento del codice fiscale di un cittadino.
+# Verifichiamo la correttezza dell'Identificativo utente - old
 
-Per eseguire correttamente il flusso di Accertamento Codice Fiscale bisogna:
+Il servizio Verifica identificativo utente simula, a partire da un criterio di ricerca, l’ottenimento dell'identificativo di un cittadino.
+
+Per eseguire correttamente il flusso di Accertamento Verifica identificativo utente bisogna:
 
 * Creare ‘Voucher Interop' ed inserirlo all’interno del Header come Bearer Token.
 * Generare un certificato client, utilizzando il tool OpenSSL, partendo dalla generazione della chiave privata (a 2048 bit nell’esempio):
@@ -22,8 +26,7 @@ openssl req -new -x509 -key private-key.pem -out cert.pem -days 365
 * Modifica la curl sotto con le informazioni recuperate, quindi il bearerToken ed l’apikey
 * Aggiorna il path del file contentente il certificato, con il percorso esatto dove è presente il file sulla macchina dal quale viene testato l’e-service
 * Creare apikey come descritto nella sezione “Dettaglio“ ed utilizzarlo anche per le successive chiamate
-* Contattare API di Handshake per inserire il certificato:\
-
+* Contattare API di Handshake per inserire il certificato:
 
 {% code overflow="wrap" %}
 ```bash

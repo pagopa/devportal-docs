@@ -14,10 +14,11 @@ I dati inseriti non hanno una scadenza. Pertanto una volta fatta la prima config
 
 Gli e-service che prevedono tale tipo di configurazione sono i seguenti:
 
-* Check Id Subject
-* Check Organization Id
-* Check Digital Address
-* Check Address
+* Attestazione - Identificativo utente
+* Attestazione - Identificativo organizzazione
+* Attestazione - Verifica indirizzo digitale
+
+
 
 Vediamo i passaggi per creare ognuno di essi
 
