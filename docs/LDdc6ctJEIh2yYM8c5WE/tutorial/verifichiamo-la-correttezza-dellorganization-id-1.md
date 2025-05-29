@@ -1,6 +1,6 @@
 # Verifichiamo la correttezza dell'Identificativo utente
 
-L’e-service “Demo - Identificativo utente” pubblicato sul catalogo offre un servizio mediante il quale è possibile verificare la presenza e la correttezza di un determinato id legato a un soggetto.
+L'e-service “Demo - Identificativo utente” pubblicato sul catalogo offre un servizio mediante il quale è possibile verificare la presenza e la correttezza di un determinato id legato a un soggetto.
 
 {% hint style="info" %}
 _Attestazione - Identificativo utente_ è un e-service che ha lo scopo di simulare un ente che possiede le informazioni aggiornate e centralizzate di tutte le anagrafiche soggetto.
@@ -11,10 +11,10 @@ _Attestazione - Identificativo utente_ è un e-service che ha lo scopo di simula
 {% hint style="danger" %}
 **Problema**: Come fruitore ho la necessità di verificare che la lista di identificativo utente che ho sulla mia base dati sia corretto e ancora valida.
 
-**Soluzione**: Effettuo la sottoscrizione all’e-service “Attestazione - Identificativo utente” essendo erogato dall’ente che possiede tali informazioni a livello nazionale
+**Soluzione**: Effettuo la sottoscrizione all'e-service “Attestazione - Identificativo utente” essendo erogato dall'ente che possiede tali informazioni a livello nazionale
 {% endhint %}
 
-L’e-service in oggetto mi permette infatti di effettuare questa verifica grazie all’invocazione della seguente API:
+L'e-service in oggetto mi permette infatti di effettuare questa verifica grazie all'invocazione della seguente API:
 
 ```
 POST /subject-id-verification/check
@@ -26,7 +26,7 @@ La prima cosa da fare, come abbiamo visto, è la configurazione dei dati. Proced
 
 **Scambio certificati**
 
-L’e-service che desideriamo invocare prevede un ulteriore livello di sicurezza per il quale è prevista una fase di _handshake_.
+L'e-service che desideriamo invocare prevede un ulteriore livello di sicurezza per il quale è prevista una fase di _handshake_.
 
 Questa fase prevede, in altre parole, lo scambio di un certificato tra fruitore ed erogatore ed è permessa dalla seguente API
 
@@ -82,7 +82,7 @@ form: 'certificate=@"/myLocation/cert.pem"'
 L’apikey previsto tra gli header rappresenta un identificativo per il chiamante. La valorizzazione è a carico del chiamante. Non sono previsti controlli di validazione se non quello sulla sua obbligatorietà.
 {% endhint %}
 
-Se non sai come creare il certificato, di seguito trovi un pò di informazioni utili
+Di seguito alcune informazioni sulla creazione del certificato.
 
 ### **Come generare il certificato**
 
@@ -94,24 +94,24 @@ Per farlo puoi utilizzare il tool [_OpenSSL_](https://openssl.org/). Lanciamo il
 openssl genrsa -out private-key.pem 2048
 ```
 
-a questo punto possiamo procedere alla creazione del certificato, contenente al suo interno la chiave pubblica (della durata di 365 giorni nell’esempio):
+a questo punto possiamo procedere alla creazione del certificato, contenente al suo interno la chiave pubblica (della durata di 365 giorni nell'esempio):
 
 ```
 openssl req -new -x509 -key private-key.pem -out cert.pem -days 365
 ```
 
-Il certificato è pronto per essere condiviso con l’erogatore nella fase di handshake e successive chiamate.
+Il certificato è pronto per essere condiviso con l'erogatore nella fase di handshake e successive chiamate.
 
 ### **Inserimento dati**
 
-Supponiamo di avere la seguente base dati all’interno della nostra applicazione:
+Supponiamo di avere la seguente base dati all'interno della nostra applicazione:
 
 <table><thead><tr><th width="191.1484375">ID</th><th>Nome</th><th>Cognome</th><th>Date fine validità</th></tr></thead><tbody><tr><td>RSSMRA80A01H501U</td><td>Mario</td><td>Rossi</td><td>NULL</td></tr><tr><td>LGUBCH80A01H501B</td><td>Luigi</td><td>Bianchi</td><td>NULL</td></tr></tbody></table>
 
 In accordo a questa effettuiamo la data preparation simulando il seguente scenario:
 
-* L’id **RSSMRA80A01H501U** è un soggetto ancora valido
-* L’id **LGUBCH80A01H501B** è un soggetto obsoleto e che quindi deve essere rimosso dalla nostra base dati
+* L'id **RSSMRA80A01H501U** è un soggetto ancora valido
+* L'id **LGUBCH80A01H501B** è un soggetto obsoleto e che quindi deve essere rimosso dalla nostra base dati
 
 Replichiamo la configurazione desiderata nel seguente modo:
 
@@ -312,13 +312,13 @@ apikey: {{apikey}}
 
 
 
-Procediamo a questo punto all’invocazione delle API messe a disposizione dell’e-service.
+Procediamo a questo punto all'invocazione delle API messe a disposizione dell'e-service.
 
 ## Invocazione E-Service
 
-Completata la fase di configurazione non resta che procedere all’invocazione del servizio effettuando la verifica per i due soggetti presenti nella mia base dati.
+Completata la fase di configurazione non resta che procedere all'invocazione del servizio effettuando la verifica per i due soggetti presenti nella mia base dati.
 
-Ripeto dunque la seguente chiamata prima per l’id soggetto di Mario Rossi e dopo per Luigi Bianchi.
+Ripeto dunque la seguente chiamata prima per l'id soggetto di Mario Rossi e dopo per Luigi Bianchi.
 
 ```
 POST /subject-id-verification/check 
@@ -362,14 +362,14 @@ POST /subject-id-verification/check
 
 Ciò che otterremo a seguito delle due invocazioni è il seguente risultato:
 
-* Mario Rossi: il soggetto è stato trovato e abbiamo ottenuto una risposta positiva che ci indica la validità dell’id inviato
-* Luigi Bianchi: il soggetto non è stato trovato. Il servizio ci ha risposto con successo indicandoci però che l’id soggetto inviato non è più valido
+* Mario Rossi: il soggetto è stato trovato e abbiamo ottenuto una risposta positiva che ci indica la validità dell'id inviato
+* Luigi Bianchi: il soggetto non è stato trovato. Il servizio ci ha risposto con successo indicandoci però che l'id soggetto inviato non è più valido
 
 ## Esito Finale
 
-Dopo aver interrogato l’e-service possiamo procedere all’aggiornamento della nostra base dati in base alle informazioni che abbiamo recuperato.
+Dopo aver interrogato l'e-service possiamo procedere all'aggiornamento della nostra base dati in base alle informazioni che abbiamo recuperato.
 
-Di seguito una panoramica della situazione a seguito dell’aggiornamento
+Di seguito una panoramica della situazione a seguito dell'aggiornamento
 
 <table><thead><tr><th width="192.0703125">ID</th><th>Nome</th><th>Cognome</th><th>Data fine validità</th></tr></thead><tbody><tr><td>RSSMRA80A01H501U</td><td>Mario</td><td>Rossi</td><td>NULL</td></tr><tr><td>LGUBCH80A01H501B</td><td>Luigi</td><td>Bianchi</td><td>01/09/2024</td></tr></tbody></table>
 

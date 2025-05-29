@@ -10,7 +10,7 @@ POST /digital-address-verification/list
 
 #### **Descrizione**:
 
-<mark style="background-color:blue;">Recupera informazioni per verificare la presenza e la correttezza per più indirizzi digitali.</mark>
+Recupera informazioni per verificare la presenza e la correttezza per più indirizzi digitali.
 
 #### **Authentication**:
 
@@ -352,7 +352,7 @@ GET /keychain-mock/signature
 
 **Descrizione**:
 
-Offre un servizio mediante il quale è possibile vedere in azione la funzione del portachiav&#x69;**.** L’erogatore invia in risposta non solo il body della response, ma anche degli header aggiuntivi calcolati sulla base della chiave pubblica collegata al portachiavi.
+Offre un servizio mediante il quale è possibile vedere in azione la funzione del portachiav&#x69;**.** L'erogatore invia in risposta non solo il body della response, ma anche degli header aggiuntivi calcolati sulla base della chiave pubblica collegata al portachiavi.
 
 #### **Request Headers**:
 
@@ -386,9 +386,9 @@ GET /keys/:kid
 
 #### **Descrizione**:
 
-Valorizzando il parametro :kid con il valore ottenuto nell’ header _x-payload-signature-kid_ della chiamata _Signature_. L’api risponderà con la chiave pubblica associata.
+Valorizzando il parametro :kid con il valore ottenuto nell'header _x-payload-signature-kid_ della chiamata _Signature_. L'API risponderà con la chiave pubblica associata.
 
-Per la verifica è necessario recuperare il valore associato a x-payload-signature e applicare l’algoritmo indicato in _x-payload-signature-algorythm_ sulla signature.
+Per la verifica è necessario recuperare il valore associato a x-payload-signature e applicare l'algoritmo indicato in _x-payload-signature-algorythm_ sulla signature.
 
 ***
 
@@ -400,7 +400,7 @@ POST /keychain-mock/verify
 
 #### **Descrizione**:
 
-L’e-service espone un’ulteriore api che permette di inviare verso l’erogatore il feedback a seguito della verifica della signature.
+L'e-service espone un'ulteriore API che permette di inviare verso l'erogatore il feedback a seguito della verifica della signature.
 
 #### **Request Headers**:
 

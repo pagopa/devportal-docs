@@ -1,8 +1,8 @@
 # Verifichiamo la correttezza dell'Identificativo organizzazione
 
-L’e-service “Demo - Identificativo organizzazione” pubblicato sul catalogo offre un servizio mediante il quale è possibile **verificare la presenza e la correttezza di un determinato id legato a un’organizzazione o un’azienda,** simulando un ente che possiede le informazioni aggiornate e centralizzate di tutte le anagrafiche delle organizzazioni/aziende.
+L'e-service “Demo - Identificativo organizzazione” pubblicato sul catalogo offre un servizio mediante il quale è possibile **verificare la presenza e la correttezza di un determinato id legato a un'organizzazione o un'azienda,** simulando un ente che possiede le informazioni aggiornate e centralizzate di tutte le anagrafiche delle organizzazioni/aziende.
 
-In questo tutorial vedremo un caso reale di applicazione di questo servizio.
+In questo tutorial viene mostrato un caso reale di applicazione di questo servizio.
 
 ## Il caso d'uso
 
@@ -18,13 +18,13 @@ POST /organization-id-verification/check
 
 ## Data preparation
 
-La prima cosa da fare, come abbiamo visto, è la configurazione dei dati. Procediamo dunque alla fase di Data Preparation.
+La prima cosa da fare è la configurazione dei dati. Procediamo dunque alla fase di Data Preparation.
 
 **Scambio certificati**
 
-L’e-service che desideriamo invocare prevede un ulteriore livello di sicurezza per il quale è prevista una fase di _handshake_.
+L'e-service che desideriamo invocare prevede un ulteriore livello di sicurezza per il quale è prevista una fase di _handshake_.
 
-Questa fase prevede, in altre parole, lo scambio di un certificato tra fruitore ed erogatore ed è permessa dalla seguente API
+Questa fase prevede lo scambio di un certificato tra fruitore ed erogatore ed è permessa dalla seguente API
 
 ```
 POST /organization-id-verification/data-preparation/handshake 
@@ -75,16 +75,18 @@ form: 'certificate=@"/myLocation/cert.pem"'
 </details>
 
 {% hint style="info" %}
-L’apikey previsto tra gli header rappresenta un identificativo per il chiamante. La valorizzazione è a carico del chiamante. Non sono previsti controlli di validazione se non quello sulla sua obbligatorietà.
+L'apikey previsto tra gli header rappresenta un identificativo per il chiamante.&#x20;
+
+La valorizzazione è a carico del chiamante.&#x20;
+
+Non sono previsti controlli di validazione se non quello sulla sua obbligatorietà.
 {% endhint %}
 
-Se non sai come creare il certificato, di seguito trovi un pò di informazioni utili
+Di seguito alcune informazioni sulla creazione del certificato.
 
 ### **Come generare il certificato**
 
-Il primo passo da fare è quello di generare un certificato client.
-
-Per farlo puoi utilizzare il tool [_OpenSSL_](https://openssl.org/). Lanciamo il comando per la generazione della chiave privata che nel nostro esempio è a 2048 bit:
+Il primo passo da fare è quello di generare un certificato client, utilizzando, per esempio, il tool [_OpenSSL_](https://openssl.org/). Lanciamo il comando per la generazione della chiave privata che nel nostro esempio è a 2048 bit:
 
 ```
 openssl genrsa -out private-key.pem 2048
@@ -107,10 +109,10 @@ Supponiamo di avere la seguente base dati all’interno della nostra applicazion
 | Org-1 | Organizzazione 1 | NULL               |
 | Org-2 | Organizzazione 2 | 2022-12-31         |
 
-In accordo a questa effettuiamo la data preparation simulando il seguente scenario:
+Effettuiamo quindi la data preparation simulando il seguente scenario:
 
-* L’id **Org-1** è una organizzazione ancora valido
-* L’id **Org-2** è una organizzazione obsoleta e che quindi deve essere rimossa dalla nostra base dati
+* L’id **Org-1** è un'organizzazione ancora valido
+* L’id **Org-2** è un'organizzazione obsoleta e che quindi deve essere rimossa dalla nostra base dati
 
 Replichiamo la configurazione desiderata nel seguente modo:
 
@@ -320,9 +322,9 @@ Procediamo a questo punto all’invocazione delle API messe a disposizione dell�
 
 ## Invocazione E-Service
 
-Completata la fase di configurazione non resta che procedere all’invocazione del servizio effettuando la verifica per i due soggetti presenti nella mia base dati.
+Completata la fase di configurazione non resta che procedere all’invocazione del servizio effettuando la verifica per i due soggetti presenti nella nostra base dati.
 
-Ripeto dunque la seguente chiamata prima per l’id organizzazione di Org-1 e dopo per Org-2.
+Ripetiamo dunque la seguente chiamata prima per l’id organizzazione di Org-1 e dopo per Org-2.
 
 ```
 POST /organization-id-verification/check 

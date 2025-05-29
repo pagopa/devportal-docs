@@ -9,7 +9,7 @@
 
 * [I servizi disponibili](guida-tecnica/i-servizi-disponibili.md)
 * [Definizione di E-service](guida-tecnica/definizione-di-e-service.md)
-* [Glossario dei termini](guida-tecnica/glossario-dei-termini.md)
+* [Glossario](guida-tecnica/glossario-dei-termini.md)
 * [API](guida-tecnica/api.md)
 
 ## HOW TO

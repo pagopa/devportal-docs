@@ -1,8 +1,12 @@
 # A chi è rivolto il prodotto
 
-Ambiente di Attestazione è rivolto a tutti i soggetti autorizzati che **desiderano testare i servizi presenti nell'ambiente di interoperabilità ed esporre i propri e-service**, consentendo agli utenti di sperimentare e validare soluzioni personalizzate in un contesto controllato e sicuro. &#x20;
+L'adesione ad Ambiente di Attestazione è automatica per tutti gli enti che aderiscono a PDND Interoperabilità, in particolare:
 
-All'interno di Ambiente di Attestazione è possibile trovare una serie di e-service che simulano quelli presenti in ambiente di Collaudo e Produzione di Interoperabilità, in modo da permettere alle società che gestiscono le attività per conto delle Pubbliche amministrazioni di **sviluppare le proprie soluzioni tecniche e implementazioni in un ambiente di esercizio**, così da facilitarne i processi una volta che dovranno ripetere lo stesso lavoro nell'ambiente di Produzione con l'utilizzo di dati reali.
+* gli enti censiti sull'indice IPA secondo [i termini di accreditamento](https://docs.pagopa.it/interoperabilita-1/normativa-e-approfondimenti) previsti;
+* i gestori privati di piattaforma e-procurement che hanno completato il [processo](https://www.agid.gov.it/it/piattaforme/procurement/certificazione-componenti-piattaforme) di certificazione dei componenti delle piattaforme pubblicato da AgID;
+* le imprese / gruppi assicurativi presenti all'interno [dell'Albo](https://infostat-ivass.bancaditalia.it/RIGAInquiry-public/ng/#/home).
 
-Sempre in Attestazione sarà possibile, nel corso del tempo, **testare in anteprima una serie di feature che verranno poi rilasciate negli altri ambienti,** allo scopo di fornire feedback e consigli su possibili implementazioni che possono aiutare nello svolgimento delle proprie mansioni quotidiane.
+Inoltre, possono accedere previa adesione ad Ambiente di Attestazione le aziende private presenti su Infocamere.&#x20;
+
+Maggiori informazioni sull'adesione sono disponibili nella [guida dedicata](https://docs.pagopa.it/interoperabilita-1/manuale-operativo/guida-alladesione).
 

@@ -1,10 +1,10 @@
 # I servizi disponibili
 
-L'ambiente di attestazione offre una serie di servizi che possono essere utilizzati&#x20;
+Ambiente di Attestazione offre una serie di servizi che possono essere utilizzati, che replicano i pattern di sicurezza utilizzati dagli aderenti negli e-service di produzione.&#x20;
 
 ## Verifica identificativo organizzazione&#x20;
 
-Con l'e-service “[Attestazione - Identificativo organizzazione](../tutorial/verifichiamo-la-correttezza-dellorganization-id.md)"  è possibile verificare la presenza e la correttezza di un determinato id legato a un’organizzazione o un’azienda.  Ha lo scopo di simulare un ente che possiede le informazioni aggiornate e centralizzate di tutte le anagrafiche delle organizzazioni/aziende.
+Con l'e-service “[Attestazione - Identificativo organizzazione](../tutorial/verifichiamo-la-correttezza-dellorganization-id.md)"  è possibile verificare la presenza e la correttezza di un determinato id legato a un'organizzazione o un'azienda.  Ha lo scopo di simulare un ente che possiede le informazioni aggiornate e centralizzate di tutte le anagrafiche delle organizzazioni/aziende.
 
 ## Verifica identificativo utente
 
@@ -16,5 +16,5 @@ Con l'e-service “[Attestazione - Verifica Indirizzo digitale](../tutorial/rich
 
 ## Portachiavi
 
-Con l'e-service “[Attestazione - Demo Portachiavi](../tutorial/e-service-con-funzionalita-portachiavi-trial-keychain.md)” è possibile vedere in azione la funzione del portachiavi. Permette di avere evidenza immediata di quali informazioni aggiuntive l’erogatore che implementa la funzione invia verso il fruitore.
+Con l'e-service “[Attestazione - Demo Portachiavi](../tutorial/e-service-con-funzionalita-portachiavi-trial-keychain.md)” è possibile vedere in azione la funzione del portachiavi. Permette di avere evidenza immediata di quali informazioni aggiuntive l'erogatore che implementa la funzione invia verso il fruitore.
 

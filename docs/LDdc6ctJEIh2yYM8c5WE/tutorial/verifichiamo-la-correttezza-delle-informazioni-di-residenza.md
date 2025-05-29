@@ -4,13 +4,13 @@ hidden: true
 
 # Verifichiamo la correttezza delle informazioni di residenza
 
-L’e-service “Attestazione - Residence Verification”, pubblicato sul catalogo, consente di **verificare la presenza e la correttezza di un determinato indirizzo fisico** simulando un ente che possiede le informazioni aggiornate e centralizzate di tutti gli indirizzi di residenza/domicili fisici dei soggetti.
+L'e-service “Attestazione - Residence Verification”, pubblicato sul catalogo, consente di **verificare la presenza e la correttezza di un determinato indirizzo fisico** simulando un ente che possiede le informazioni aggiornate e centralizzate di tutti gli indirizzi di residenza/domicili fisici dei soggetti.
 
 In questo tutorial vedremo un caso reale di applicazione di questo servizio.
 
 ## **Il caso d'uso**
 
-Come fruitore, ho la necessità di **verificare la correttezza delle informazioni presenti sulla mia base dati** relative agli indirizzi fisici dei soggetti.  Per procedere, dovrò effettuare la sottoscrizione all’e-service “Attestazione - Residence Verification”, che consente di recuperare questi dati grazie all’invocazione del seguente set di API:
+Come fruitore, ho la necessità di **verificare la correttezza delle informazioni presenti sulla mia base dati** relative agli indirizzi fisici dei soggetti.  Per procedere, dovrò effettuare la sottoscrizione all'e-service “Attestazione - Residence Verification”, che consente di recuperare questi dati grazie all'invocazione del seguente set di API:
 
 `POST /residence-verification`
 
@@ -20,14 +20,14 @@ Come fruitore, ho la necessità di **verificare la correttezza delle informazion
 
 La prima cosa da fare è la configurazione dei dati. Procediamo dunque, per la prima volta, alla fase di Data Preparation.
 
-Facendo riferimento al problema sopra esposto, supponiamo di avere la seguente base dati all’interno della nostra applicazione
+Facendo riferimento al problema sopra esposto, supponiamo di avere la seguente base dati all'interno della nostra applicazione
 
 <table data-header-hidden><thead><tr><th width="235">ID</th><th width="96">Nome</th><th width="143">Cognome</th><th>CAP</th><th>Città</th></tr></thead><tbody><tr><td>RSSMRA80A01H501U</td><td>Mario</td><td>Rossi</td><td>00100</td><td>Roma</td></tr><tr><td>LGUBCH80A01H501B</td><td>Luigi</td><td>Bianchi</td><td>NULL</td><td>NULL</td></tr></tbody></table>
 
 In accordo a questa effettuiamo la data preparation simulando il seguente scenario:
 
-1. L’id **RSSMRA80A01H501U** è un soggetto noto a cui è associato l’indirizzo di residenza ed è ancora valido
-2. L’id **LGUBCH80A01H501B** è un soggetto noto per il quale però non siamo a conoscenza dell’attuale indirizzo di residenza.
+1. L'id **RSSMRA80A01H501U** è un soggetto noto a cui è associato l'indirizzo di residenza ed è ancora valido
+2. L'id **LGUBCH80A01H501B** è un soggetto noto per il quale però non siamo a conoscenza dell'attuale indirizzo di residenza.
 
 Replichiamo la configurazione desiderata nel seguente modo:
 
@@ -84,7 +84,7 @@ application/json
 
 **`200`**` ``- Configurazione salvata con successo`
 
-Procediamo con il censimento anche del secondo soggetto, simulando che l’erogatore sia a conoscenza dell’indirizzo.
+Procediamo con il censimento anche del secondo soggetto, simulando che l'erogatore sia a conoscenza dell'indirizzo.
 
 **Header:**
 
@@ -142,7 +142,7 @@ Dato il nostro scenario abbiamo completato la fase di configurazione.
 
 ### Agid-JWT-TrackingEvidence
 
-Per poter procedere all’invocazione delle API, l'utente deve presentare anche il token di audit "Agid-JWT-TrackingEvidence", come richiesto dal pattern "AUDIT\_REST\_01"
+Per poter procedere all'invocazione delle API, l'utente deve presentare anche il token di audit "Agid-JWT-TrackingEvidence", come richiesto dal pattern "AUDIT\_REST\_01"
 
 Il pattern garantisce i seguenti punti:
 
@@ -158,14 +158,14 @@ Di seguito riportiamo le linee guida utili alla generazione del suddetto token:
    * **sub** (Subject): l'identificativo del soggetto, ovvero il clientId censito su PDND.
    * **iss**(Issuer): l'identificativo del soggetto, ovvero il clientId censito su PDND.
    * **aud**(Audience): l'identificativo dell'audience, reperibile sempre nella sezione dedicata al tuo client;
-   * &#x20;**purposeId**: rappresenta l’id della finalità
+   * &#x20;**purposeId**: rappresenta l'id della finalità
    * &#x20;**jti** (JWT ID): un identificativo univoco del token.
 3. Firmare il token: Dopo aver creato il payload, è necessario firmare il token con la chiave privata caricata sulla PDND in fase di registazione del client (riferimento al paragrafo[ ](https://pagopa.atlassian.net/wiki/spaces/ADA/pages/1289945113/Guida+Operativa+Ambiente+Attestazione#3.4.1-Come-generare-il-Voucher)[https://pagopa.atlassian.net/wiki/spaces/ADA/pages/1289945113/Guida+Operativa+Ambiente+Attestazione#3.4.1-Come-generare-il-Voucher](https://pagopa.atlassian.net/wiki/spaces/ADA/pages/1289945113/Guida+Operativa+Ambiente+Attestazione#3.4.1-Come-generare-il-Voucher)).\
    &#x20;La firma deve essere generata utilizzando un algoritmoRS256 (RSA con SHA-256) e chiave privata PKCS#8. La chiave privata utilizzata per la firma deve essere quella associata alla chiave pubblica registrata sulla PDND.
 4. Generare il JWT: Una volta preparati il payload e la firma, non resta che utilizzare la libreria JWT per la creazione del token.
 5. Includere il token nell'header della richiesta: Una volta generato, il token "Agid-JWT-TrackingEvidence" va inserito nell'header HTTP della richiesta.
 
-Se tutti i passaggi sopra riportati sono stati eseguiti correttamente l’erogatore verificherà correttamente il token e risponderà con successo alla richiesta.
+Se tutti i passaggi sopra riportati sono stati eseguiti correttamente l'erogatore verificherà correttamente il token e risponderà con successo alla richiesta.
 
 ### Agid-JWT-Signature
 
@@ -184,7 +184,7 @@ Di seguito riportiamo le linee guida utili alla generazione del suddetto token:
    * **sub (Subject):** l'identificativo del soggetto, ovvero il clientId censito su PDND.
    * **iss(Issuer):** l'identificativo del soggetto, ovvero il clientId censito su PDND.
    * **aud(Audience):** l'identificativo dell'audience, reperibile sempre nella sezione dedicata al tuo client;
-   * **kid:** l'id della chiave che si usa per firmare l'asserzion&#x65;_,_ reperibile all’interno del tuo client, sotto la sezione _“Client assertion”_
+   * **kid:** l'id della chiave che si usa per firmare l'asserzion&#x65;_,_ reperibile all'interno del tuo client, sotto la sezione _“Client assertion”_
    * **jti (JWT ID):** un identificativo univoco del token.
    * **signed\_header:** contiene il digest del contenuto (hash dei dati) calcolato con l'algoritmo SHA-256 e il tipo di contenuto, impostato (ad esempio application/json).\
      Relativamente a questo campo, riportiamo di seguito uno snippet di codice esplicativo per la sua valorizzazione
@@ -256,7 +256,7 @@ Il payload ottenuto a seguito di questo step avrà una forma simile alla seguent
 4. **Generare il JWT:** Una volta preparati il payload e la firma, non resta che utilizzare la libreria JWT per la creazione del token.
 5. **Includere il token nell'header della richiesta:** Una volta generato, il token "Agid-JWT-Signature" va inserito nell'header HTTP della richiesta.
 
-Se tutti i passaggi sopra riportati sono stati eseguiti correttamente l’erogatore verificherà correttamente il token e risponderà con successo alla richiesta.
+Se tutti i passaggi sopra riportati sono stati eseguiti correttamente l'erogatore verificherà correttamente il token e risponderà con successo alla richiesta.
 
 ## Invocazione e-service per verifica informazioni
 
@@ -382,11 +382,11 @@ Status codes:
 
 **`200`**` ``- Richiesta effettuata con successo`
 
-Dalla response ricevuta deduciamo che le informazioni presenti sulla nostra base dati sono effettivamente coerenti con quanto detenuto dall’erogatore
+Dalla response ricevuta deduciamo che le informazioni presenti sulla nostra base dati sono effettivamente coerenti con quanto detenuto dall'erogatore
 
 ## Invocazione e-service per richiesta informazioni
 
-Per il soggetto “Luigi Bianchi”, del quale non conosciamo l’indirizzo di residenza, invochiamo la seguente API:
+Per il soggetto “Luigi Bianchi”, del quale non conosciamo l'indirizzo di residenza, invochiamo la seguente API:
 
 `POST /residence-verification`
 
@@ -530,9 +530,9 @@ Dalla response ricevuta possiamo arricchire la nostra base dati con le informaiz
 
 ## Esito Finale
 
-Dopo aver interrogato l’e-service possiamo procedere all’aggiornamento della nostra base dati in base alle informazioni che abbiamo recuperato.
+Dopo aver interrogato l'e-service possiamo procedere all'aggiornamento della nostra base dati in base alle informazioni che abbiamo recuperato.
 
-Di seguito una panoramica della situazione a seguito dell’aggiornamento
+Di seguito una panoramica della situazione a seguito dell'aggiornamento
 
 <table data-header-hidden><thead><tr><th width="259">ID</th><th width="97">Nome</th><th>Cognome</th><th>CAP</th><th>Città</th></tr></thead><tbody><tr><td>RSSMRA80A01H501U</td><td>Mario</td><td>Rossi</td><td>00100</td><td>Roma</td></tr><tr><td>LGUBCH80A01H501B</td><td>Luigi</td><td>Bianchi</td><td>10024</td><td>Torino</td></tr></tbody></table>
 

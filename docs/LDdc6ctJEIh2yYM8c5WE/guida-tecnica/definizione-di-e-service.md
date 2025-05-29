@@ -12,6 +12,6 @@ Per fruire di un e-service, un aderente/fruitore è tenuto a creare, seguendo gl
 
 All'interno della **PDND**, la **finalità** è una **dichiarazione obbligatoria** che descrive lo **scopo concreto** per cui un ente richiede l'accesso a un determinato **e-service** (cioè ai dati esposti da un altro ente). Serve a:
 
-* **Garantire la legittimità** del trattamento dei dati secondo il **GDPR** e il **Codice dell’Amministrazione Digitale (CAD)**.
-* **Assicurare la trasparenza**  nell’uso delle informazioni condivise.
+* **Garantire la legittimità** del trattamento dei dati secondo il **GDPR** e il **Codice dell'Amministrazione Digitale (CAD)**.
+* **Assicurare la trasparenza**  nell'uso delle informazioni condivise.
 * **Limitare l’accesso** solo ai dati strettamente necessari allo scopo dichiarato.
