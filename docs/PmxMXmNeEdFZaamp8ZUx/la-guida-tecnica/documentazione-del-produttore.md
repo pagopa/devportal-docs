@@ -2,7 +2,7 @@
 
 L'erogatore, come produttore di segnali, deve redigere una documentazione che descriva il dominio delle variazioni dei dati e le specifiche modalità di elaborazione dei dati contenuti nei segnali. Tali informazioni integrano la documentazione dell'e-service e vanno fornite agli aderenti contestualmente alla documentazione all'e-service abilitato all'uso di Signal Hub.
 
-In particolare si suggerisce di descrivere: &#x20;
+In particolare, si suggerisce di descrivere: &#x20;
 
 come implementare le informazioni crittografiche (vedi sezione [Come esporre le informazioni crittografiche](../tutorial/come-esporre-le-informazioni-crittografiche-pseudonimizzazione.md))
 

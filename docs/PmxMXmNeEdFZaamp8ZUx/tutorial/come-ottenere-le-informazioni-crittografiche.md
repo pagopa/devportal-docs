@@ -1,10 +1,10 @@
 # Come ottenere le informazioni crittografiche
 
-### Requisiti <a href="#requisiti" id="requisiti"></a>
+## Requisiti <a href="#requisiti" id="requisiti"></a>
 
 Si assume che il consumatore di segnali sia un aderente fruitore e che possa accedere all’e-service di interesse (vedi i [requisiti per l’uso](../how-to/prerequisiti.md) di Signal Hub).
 
-### Recupero informazioni crittografiche <a href="#recupero-informazioni-crittografiche" id="recupero-informazioni-crittografiche"></a>
+## Recupero informazioni crittografiche <a href="#recupero-informazioni-crittografiche" id="recupero-informazioni-crittografiche"></a>
 
 Il consumatore, fruitore dell’e-service di interesse, richiama l’operazione di lettura delle informazioni riguardanti l'algoritmo di pseudonimizzazione con seme e i parametri per la sua esecuzione. Ad esempio:
 

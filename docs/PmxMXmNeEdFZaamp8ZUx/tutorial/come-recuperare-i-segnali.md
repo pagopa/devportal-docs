@@ -1,6 +1,6 @@
 # Come recuperare i segnali
 
-### Requisiti <a href="#requisiti.2" id="requisiti.2"></a>
+## Requisiti <a href="#requisiti.2" id="requisiti.2"></a>
 
 Si assume che il consumatore sia un aderente fruitore, che possa accedere a un e-service abilitato a Signal Hub, che abbia un client api (vedi [i requisiti per l'uso di Signal Hub](../how-to/prerequisiti.md)).
 
@@ -24,7 +24,7 @@ Si assume che il consumatore di segnali sia in grado di calcolare gli id pseudon
 
 Il segnale depositato su Signal Hub ha un _retention period_ (vedi sezione specifica) e oltre questo periodo non sarà più disponibile in lettura. Di conseguenza non potranno essere recuperati segnali che superano il _retention period_. Vedere la sezione relativa per le regole di polling verso le API di recupero del segnale senza perdere gli aggiornamenti.
 
-### Recupero dei segnali <a href="#recupero-dei-segnali.1" id="recupero-dei-segnali.1"></a>
+## Recupero dei segnali <a href="#recupero-dei-segnali.1" id="recupero-dei-segnali.1"></a>
 
 #### Recupero di un segnale legato all'entità
 
@@ -109,7 +109,7 @@ Risposta n. 1\
 `],`\
 `"lastSignalId": 5`
 
-Lo `Http Status 206` indica che esistono ancora dei segnali, quindi il consumatore creerà una nuova richiesta impostando il query param `signalId` uguale al valore di `lastSignalId` presente nella risposta:
+Lo `Http Status 206` indica che esistono ancora dei segnali; quindi, il consumatore creerà una nuova richiesta impostando il query param `signalId` uguale al valore di `lastSignalId` presente nella risposta:
 
 Richiesta n. 2
 

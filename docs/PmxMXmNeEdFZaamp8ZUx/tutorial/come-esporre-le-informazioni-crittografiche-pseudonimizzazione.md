@@ -1,6 +1,6 @@
 # Come esporre le informazioni crittografiche - pseudonimizzazione
 
-### Esposizione delle informazioni crittografiche
+## Esposizione delle informazioni crittografiche
 
 L’erogatore espone un’operazione di lettura delle informazioni crittografiche, in modo che il fruitore possa usarle per la lettura dei segnali e così garantire la riservatezza delle informazioni. La pseudonimizzazione è obbligatoria per i dati personali.
 
@@ -8,7 +8,7 @@ Il produttore individua l’algoritmo di pseudonimizzazione con seme e i paramet
 
 Il valore di algoritmo e seme è univoco per e-service: tutti i consumatori otterranno lo stesso algoritmo e lo stesso seme. Il consumatore deve mantenere riservate le informazioni ricevute.
 
-### Scelta dell'algoritmo e del seme
+## Scelta dell'algoritmo e del seme
 
 Sulla scelta dell’algoritmo e del seme, e come riferimento per aggiornamenti ed evoluzioni, si faccia riferimento a:
 
@@ -53,7 +53,7 @@ In quanto segue si riportano della raccomandazione per il produttore in consider
 | Dati giudiziari della persona fisica (esistenza di determinati provvedimenti giudiziari soggetti ad iscrizione nel casellario giudiziale)                                                  | <ul><li>SHA-512</li><li>SHA3-512</li><li>SHAKE128</li><li>SHAKE256</li></ul>                                  | <= 60 gg          | >= 64 caratteri |
 | Altri dati della persona fisica (relativi alle comunicazioni elettroniche e che consentono la geolocalizzazione)                                                                           | Nessuna raccomandazione specifica                                                                             | <= 120 gg         | >= 16 caratteri |
 
-### Implementazione della condivisione delle informazioni crittografiche
+## Implementazione della condivisione delle informazioni crittografiche
 
 Il produttore comunica al consumatore la scelta dell'algoritmo di pseudonimizzazione e dei parametri per la sua esecuzione tramite l’esposizione di un’operazione specifica sull’e-service erogato.
 

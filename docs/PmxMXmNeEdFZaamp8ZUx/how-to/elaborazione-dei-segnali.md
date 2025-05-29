@@ -1,12 +1,12 @@
 # Elaborazione dei segnali
 
-1. il consumatore accede allla lista dei segnali di variazione
+1. Il consumatore accede alla lista dei segnali di variazione
 2. Se tra i segnali è presente un segnale di tipo _SeedUpdate_ (vedi sezione sulle [tipologie dei segnali](../la-guida-tecnica/segnali.md)), è necessario che il consumatore aggiorni le informazioni crittografiche
 3. Il consumatore ricerca nei segnali ricevuti gli identificativi pseudonimizzati associati relativi ai soggetti per cui sono presenti procedimenti in essere. La ricerca determina se l'identificativo pseudonimizzato è riconducibile a un soggetto con procedimento in essere confrontando
    1. l'identificativo pseudonimizzato presente nel messaggio
    2. l'identificativo pseudonimizzato precalcolato o calcolato a runtime di ciascun soggetto per cui è presente un procedimento in essere
 4. Il consumatore trova un identificativo pseudonimizzato associato a uno degli identificativi pseudonimizzati precalcolati e individua l’identificativo in chiaro del dato soggetto a variazione
-5. dopo aver esaminato tutti i segnali, il consumatore ha la lista degli identificativi in chiaro dei dati soggetti a variazione, necessari per l’invocazione dell’e-service di interesse
+5. Dopo aver esaminato tutti i segnali, il consumatore ha la lista degli identificativi in chiaro dei dati soggetti a variazione, necessari per l’invocazione dell’e-service di interesse
 
 <figure><img src="../.gitbook/assets/elaborazione dei segnali.png" alt=""><figcaption></figcaption></figure>
 

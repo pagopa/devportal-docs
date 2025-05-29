@@ -1,6 +1,6 @@
 # Come depositare un segnale
 
-### Requisiti <a href="#requisiti.1" id="requisiti.1"></a>
+## Requisiti <a href="#requisiti.1" id="requisiti.1"></a>
 
 Si assume che il produttore sia un aderente erogatore, che abbia un e-service abilitato a Signal Hub in erogazione, che abbia un client api (vedi [i requisiti per l'uso](../how-to/prerequisiti.md) di Signal Hub).
 
@@ -36,7 +36,7 @@ L’erogatore deve tenere traccia dei `signalId` inviati, in modo che riesca sem
 
 In caso di errore di invio dovuto a un ordinamento del `signalId` non valido (esempio: invio del `signalId` 9 quando è già stato inviato il 10), l'erogatore dovrà gestire il re-invio del segnale, opportunamente ri-ordinato, con il `signalId` corretto
 
-### Deposito del segnale <a href="#deposito-del-segnale" id="deposito-del-segnale"></a>
+## Deposito del segnale <a href="#deposito-del-segnale" id="deposito-del-segnale"></a>
 
 Rispetto alle [tipologie](../la-guida-tecnica/segnali.md) dei segnali possiamo avere:
 
@@ -74,12 +74,12 @@ Dettaglio dei dati del Segnale:
   * `UPDATE`, nel caso in cui sia stato modificato un elemento esistente
   * `DELETE`, nel caso in cui sia stato eliminato un elemento esistente
   * `SEEDUPDATE`, nel caso di aggiornamento delle informazioni crittografiche
-* `objectType`, rappresenta il tipo di oggetto a cui fa riferimento il segnale; è un campo obbligatorio ad inserimento libero in cui viene indicato l'eventuale tipo di oggetto interessati dall'evento. Nel caso in cui l’e-service esponga diverse entità, il valore di `objectType` può essere usato per discriminarle. Ad esempio in un dominio di documenti amministrativi `objectType` potrebbe assumere i valori:
+* `objectType`, rappresenta il tipo di oggetto a cui fa riferimento il segnale; è un campo obbligatorio ad inserimento libero in cui viene indicato l'eventuale tipo di oggetto interessati dall'evento. Nel caso in cui l’e-service esponga diverse entità, il valore di `objectType` può essere usato per discriminarle. Ad esempio, in un dominio di documenti amministrativi `objectType` potrebbe assumere i valori:
   * `cartaidentità`
   * `patente`
   * `passaporto`
 
-L’erogatore deve integrare queste informazioni nella documentazione dell’e-service in modo che il fruitore sappia come gestirlo.
+L'erogatore deve integrare queste informazioni nella documentazione dell’e-service in modo che il fruitore sappia come gestirlo.
 
 * `eserviceId` rappresenta l'identificativo del servizio a cui fa riferimento il segnale
 

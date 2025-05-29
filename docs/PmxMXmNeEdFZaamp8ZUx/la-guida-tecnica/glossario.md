@@ -3,7 +3,7 @@
 Per approfondimenti e chiarimenti, si rimanda al capitolo "Definizioni" di \[LG PDND 4].
 
 **Signal Hub**\
-Insieme di servizi di piattaforma PDND che implementa l'allegato 4: "Processo di distribuzione dei segnali di variazione" di \[LG PDND]. E' composto da due servizi: deposito e recupero segnali.
+Insieme di servizi di piattaforma PDND che implementa l'allegato 4: "Processo di distribuzione dei segnali di variazione" di \[LG PDND]. È composto da due servizi: deposito e recupero segnali.
 
 **Segnale di variazione**\
 Evento tramite il quale un Aderente comunica alla Piattaforma interoperabilità PDND l’avvenuta variazione di stati e/o fatti conosciuti all’interno del dominio di dati/informazioni di cui lo stesso è titolare.
@@ -33,6 +33,6 @@ Una funzione di hashing con seme è un tipo di funzione di hashing che richiede
 **Identificatore pseudonimizzato**\
 Un identificatore pseudonimizzato è un dato ottenuto attraverso l'applicazione di una funzione di hashing su un identificatore originale, rendendo così difficile l'associazione diretta con la persona fisica corrispondente senza l'uso di informazioni aggiuntive.
 
-<mark style="background-color:blue;">**Pseudonimizzazione**</mark>
+**Pseudonimizzazione**
 
 Il trattamento dei dati personali in modo tale che i dati personali non possano più essere attribuiti a un interessato specifico senza l'utilizzo di informazioni aggiuntive, a condizione che tali informazioni aggiuntive siano conservate separatamente e soggette a misure tecniche e organizzative intese a garantire che tali dati personali non siano attribuiti a una persona fisica identificata o identificabile _(Art. 4 del Regolamento UE 2016 679_)

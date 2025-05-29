@@ -1,6 +1,10 @@
 # Consumo dei segnali
 
-Il consumatore deve eseguire le operazioni di (1) recupero dei segnali, (2) elaborazione dei segnali per (3) ottenere l'aggiornamento del dato.&#x20;
+Il consumatore deve eseguire le operazioni di&#x20;
+
+1. recupero dei segnali
+2. elaborazione dei segnali&#x20;
+3. l'aggiornamento del dato.&#x20;
 
 <figure><img src="../.gitbook/assets/recupero elaborazione aggiornamento segnale sh.png" alt=""><figcaption><p>Diagramma recupero dei segnali</p></figcaption></figure>
 
