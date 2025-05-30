@@ -13,3 +13,16 @@ Ogni PSP può definire 3 tipologie di pacchetto commissionale
 * "Per tutti" → disponibile per i pagamenti di qualsiasi EC;
 * "Su richiesta" → disponibile solo per i pagamenti degli EC che hanno attivato una “convenzione” tramite marketplace;
 * "Su invito" → disponibile solo per i pagamenti degli EC che hanno attivato una “convenzione” tramite marketplace su invito del PSP;
+
+{% hint style="warning" %}
+E' possibile creare pacchetti che sono contigui. In tal caso il pacchetto che viene preso in considerazione durante il pagamento è quello con il limite inferiore.
+
+Esempio.
+
+Pacchetto 1 -> Importo minimo 0€ - Importo massimo 50€
+
+Pacchetto 2 -> Importo minimo 50€ - Importo massimo 1000€\
+\
+Nel caso di pagamento di un avviso di 50€ il pacchetto che verrebbe preso in considerazione è il Pacchetto 1.
+{% endhint %}
+
