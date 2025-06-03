@@ -1,6 +1,6 @@
 # Verifichiamo la correttezza dell'Identificativo organizzazione
 
-L'e-service “Demo - Identificativo organizzazione” pubblicato sul catalogo offre un servizio mediante il quale è possibile **verificare la presenza e la correttezza di un determinato id legato a un'organizzazione o un'azienda,** simulando un ente che possiede le informazioni aggiornate e centralizzate di tutte le anagrafiche delle organizzazioni/aziende.
+L'e-service “Attestazione - Identificativo organizzazione” pubblicato sul catalogo offre un servizio mediante il quale è possibile **verificare la presenza e la correttezza di un determinato id legato a un'organizzazione o un'azienda,** simulando un ente che possiede le informazioni aggiornate e centralizzate di tutte le anagrafiche delle organizzazioni/aziende.
 
 In questo tutorial viene mostrato un caso reale di applicazione di questo servizio.
 
@@ -9,7 +9,7 @@ In questo tutorial viene mostrato un caso reale di applicazione di questo serviz
 {% hint style="danger" %}
 **Problema**: Come fruitore, ho la necessità di **verificare** che **gli id delle Organizzazioni** che ho sulla mia base dati sia corretto e ancora valida. &#x20;
 
-**Soluzione**: Effettuo la sottoscrizione all’e-service “Demo - Identificativo organizzazione”  che consente di recuperare questi dati grazie all’invocazione della seguente API:
+**Soluzione**: Effettuo la sottoscrizione all’e-service “Attestazione - Identificativo organizzazione”  che consente di recuperare questi dati grazie all’invocazione della seguente API:
 {% endhint %}
 
 ```
@@ -388,7 +388,7 @@ La nostra base dati è stata correttamente aggiornata.
 
 ## Diagramma di Flusso:
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Demo - Identificativo organizzazione.drawio.png" alt=""><figcaption><p>Diagramma del flusso per interagire con il servizio "Attestazione - Identificativo organizzazione"</p></figcaption></figure>
 
 
 

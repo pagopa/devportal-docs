@@ -9,7 +9,7 @@ In questo tutorial vedremo un caso reale di applicazione di questo servizio.
 {% hint style="danger" %}
 **Problema:** Come fruitore ho la necessità di arricchire la mia base dati aggiungendo gli indirizzi digitali dei soggetti.
 
-**Soluzione:** Effettuo la sottoscrizione all'e-service “Attestazione - Digital Address” essendo l'ente che possiede tali informazioni a livello nazionale. L'e-service espone dei metodi che permettono di effettuare anche un'estrazione massiva, utile proprio a risolvere il nostro problema.
+**Soluzione:** Effettuo la sottoscrizione all'e-service “Attestazione - Verifica Indirizzo Digitale” essendo l'ente che possiede tali informazioni a livello nazionale. L'e-service espone dei metodi che permettono di effettuare anche un'estrazione massiva, utile proprio a risolvere il nostro problema.
 {% endhint %}
 
 L'e-service in oggetto mi permette di recuperare tali dati grazie all’invocazione del seguente set di API:
@@ -428,7 +428,7 @@ curl --location '{host}/digital-address-verification/list' \
 
 La response ci indica che la nostra richiesta di estrazione massiva è stata presa in carico. Utilizzeremo l’id presente all’interno della response per invocare la successiva API.
 
-## Invocazione e-service per  Verifica stato esportazione massiva
+## Invocazione e-service per Verifica stato esportazione massiva
 
 Effettuiamo la seguente chiamata, utilizzando l’id ricevuto nella chiamata precedente:
 
@@ -475,7 +475,7 @@ La response ci indica che la nostra richiesta di estrazione massiva è ancora in
 
 Effettuiamo nuovamente la chiamata, finché non riceviamo una response che indichi che l’estrazione è terminata con successo.
 
-Non appena il campo “status” presente all’interno della response è DISPONIBILE, procediamo con la successiva invocazione.
+Per verificarlo, bisogna controllare il campo "status" della risposta. Può essere valorizzato con PRESO\_IN\_CARICO, IN\_ELABORAZIONE e DISPONIBILE. Non appena diventa DISPONIBILE, procediamo con la successiva invocazione.
 
 Effettuiamo la seguente chiamata, utilizzando l’id ricevuto nella richiesta di estrazione massiva
 
@@ -561,4 +561,4 @@ La nostra base dati è stata correttamente aggiornata. Non abbiamo inserito l’
 
 ## Diagramma di flusso
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Demo - Verifica indirizzo digitale.drawio.png" alt=""><figcaption><p>Diagramma del flusso per interagire con il servizio "Attestazione - Verifica indirizzo digitale"</p></figcaption></figure>

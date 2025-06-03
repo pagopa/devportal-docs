@@ -1,6 +1,6 @@
 # Verifichiamo la correttezza dell'Identificativo utente
 
-L'e-service “Demo - Identificativo utente” pubblicato sul catalogo offre un servizio mediante il quale è possibile verificare la presenza e la correttezza di un determinato id legato a un soggetto.
+L'e-service “Attestazione - Identificativo utente” pubblicato sul catalogo offre un servizio mediante il quale è possibile verificare la presenza e la correttezza di un determinato id legato a un soggetto.
 
 {% hint style="info" %}
 _Attestazione - Identificativo utente_ è un e-service che ha lo scopo di simulare un ente che possiede le informazioni aggiornate e centralizzate di tutte le anagrafiche soggetto.
@@ -377,7 +377,7 @@ La nostra base dati è stata correttamente aggiornata.
 
 ## Diagramma di Flusso:
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Demo - Identificativo utente.drawio.png" alt=""><figcaption><p>Diagramma del flusso per interagire con il servizio "Attestazione - Identificativo organizzazione"</p></figcaption></figure>
 
 
 
