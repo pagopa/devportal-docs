@@ -20,10 +20,7 @@
 
 ## TUTORIAL
 
-* [Verifichiamo la correttezza delle informazioni di residenza](tutorial/verifichiamo-la-correttezza-delle-informazioni-di-residenza.md)
 * [Verifichiamo la correttezza dell'Identificativo organizzazione](tutorial/verifichiamo-la-correttezza-dellorganization-id.md)
 * [Verifichiamo la correttezza dell'Identificativo utente](tutorial/verifichiamo-la-correttezza-dellorganization-id-1.md)
-* [Verifichiamo la correttezza dell'Identificativo utente - old](tutorial/verifichiamo-la-correttezza-del-codice-fiscale.md)
 * [Richiediamo informazioni sull'indirizzo digitale](tutorial/richiediamo-informazioni-sullindirizzo-digitale.md)
-* [Richiediamo informazioni sullo stato di famiglia](tutorial/richiediamo-informazioni-sullo-stato-di-famiglia.md)
 * [E-service con funzionalità "portachiavi"](tutorial/e-service-con-funzionalita-portachiavi-trial-keychain.md)
