@@ -21,9 +21,6 @@ Le principali funzionalità disponibili nelle diverse sezioni sono:
 
 
 
-\
-
-
 ***
 
 \[1] Per transazione con esito positivo si intende un’operazione autorizzata dall'utente e richiesta al PSP che ne rilascia un esito positivo o attraverso i suoi canali o tramite i servizi della Piattaforma pagoPA o che, comunque, ha determinato l’obbligazione in capo al PSP di riconoscere ad almeno un Ente Creditore le somme di sua spettanza. Nel presente documento le transazioni con esito positivo possono essere identificate anche con il solo termine “transazioni”.

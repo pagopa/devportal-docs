@@ -11,9 +11,7 @@ Qualora il PSP di riferimento non abbia sottoscritto la Lettera di Adesione a pa
 * _l’utente non è un Amministratore_
   * Back Office mostra il seguente messaggio: “Servizio non attivo. Contatta il tuo amministratore per procedere alla sottoscrizione del servizio e richiederne l’accesso.”
 
-L’accesso alla dashboard e alle relative funzionalità è consentito a ciascun Operatore, nei limiti previsti dal proprio ruolo e nell’ambito del Servizio.
-
-\
+L’accesso alla dashboard e alle relative funzionalità è consentito a ciascun Operatore, nei limiti previsti dal proprio ruolo e nell’ambito del Servizio.\
 
 
 ***

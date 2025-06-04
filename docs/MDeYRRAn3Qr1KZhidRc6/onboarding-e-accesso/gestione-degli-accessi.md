@@ -7,5 +7,3 @@ L’accesso al Servizio comporta la generazione di una **sessione**, durante la 
 Ogni sessione ha una durata massima di **30 minuti**, al termine dei quali viene automaticamente chiusa, indipendentemente dall’attività dell’utente. Qualsiasi operazione successiva alla chiusura della sessione comporta l'avvio di una nuova sessione.
 
 Ciascun Prestatore Aderente ha diritto ad un massimo di **500 sessioni mensili**.  Tale limite è definito al fine di a garantire la sostenibilità del Servizio.
-
-\
