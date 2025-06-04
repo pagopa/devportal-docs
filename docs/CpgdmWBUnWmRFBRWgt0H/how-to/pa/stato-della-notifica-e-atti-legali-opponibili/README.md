@@ -28,7 +28,7 @@ L’utente può impostare dei filtri per modificare la visualizzazione dell’el
 Le notifiche sono presentate in pagine da 10, 20, 50 elementi ciascuna. La dimensione della pagina è selezionabile dell’utente.\
 
 
-<figure><img src="../../../.gitbook/assets/image (165).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (136).png" alt=""><figcaption></figcaption></figure>
 
 Nel dettaglio di una notifica viene visualizzata la lista dei Documenti allegati alla notifica. Non sono invece forniti i dati e documenti relativi al pagamento se non il codice avviso.
 
@@ -52,7 +52,7 @@ Questa pagina mostra le informazioni visualizzate precedentemente nella tabella 
 
 
 
-<figure><img src="../../../.gitbook/assets/image (94).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (65).png" alt=""><figcaption></figcaption></figure>
 
 ## Stato della notifica
 
@@ -60,7 +60,7 @@ La notifica segue un ciclo di vita che prevede una serie di stati tracciati e vi
 
 &#x20;
 
-<figure><img src="../../../.gitbook/assets/image (113).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (84).png" alt=""><figcaption></figcaption></figure>
 
 La timeline presenta inizialmente solamente gli eventi che determinano un cambiamento di stato della notifica (vedi paragrafo [Informazione di stato sintetica](./)). Eventi secondari (esempio i diversi tentativi di invio di una PEC) sono disponibili aprendo le sezioni “Mostra di più”. Eventuali documenti collegati agli eventi secondari sono disponibili anche attraverso i link presenti negli eventi principali.
 

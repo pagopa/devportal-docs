@@ -12,8 +12,8 @@ Inoltre, PN permette di configurare altri recapiti digitali, diversi da quello p
 
 All’interno di PN è consentita una sola configurazione per ciascuno dei recapiti digitali: non è quindi possibile aggiungere ulteriori recapiti, oltre a quello già indicati, sia come Recapito legale e/o, sia come indirizzo Email/cellulare.
 
-<figure><img src="../../../.gitbook/assets/image (130).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (101).png" alt=""><figcaption></figcaption></figure>
 
 Sempre dalla sezione _**I tuoi recapiti**_ l’utente può accedere a _**I tuoi dati**_ e visualizzare i dati ricavati da SPID/CIE.
 
-<figure><img src="../../../.gitbook/assets/image (116).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (87).png" alt=""><figcaption></figcaption></figure>

@@ -29,7 +29,7 @@ PN genera un’attestazione opponibile ai terzi contenenti le informazioni relat
 
 <mark style="background-color:blue;">Nel caso in cui la PA mittente non sia in grado di determinare se un Codice Fiscale appartenga ad una persona fisica o ad una persona giuridica, si suggerisce di assumere che il Codice Fiscale appartenga alla persona fisica</mark>.
 
-<figure><img src="../.gitbook/assets/image (159).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (130).png" alt=""><figcaption></figcaption></figure>
 
 Una volta che una notifica è stata correttamente creata dalla PA mittente, PN genera un documento denominato **Avviso di Avvenuta Ricezione** (AAR) che contiene le informazioni relative all’esistenza della notifica, il suo IUN e le indicazioni sulle modalità che il destinatario può utilizzare per accedere agli atti notificati e depositati in piattaforma.&#x20;
 
@@ -93,7 +93,7 @@ Per informare comunque il destinatario dell'esistenza della notifica, **PN invia
 
 La notifica si perfeziona per il destinatario dopo 7 giorni dalla consegna dell’AAR attraverso PEC o SERCQ oppure 15 giorni dopo la generazione dell’AMR. In particolare, se l'avviso di avvenuta ricezione AAR è consegnato/l’eventuale AMR è generato al destinatario dopo le ore 21.00, il numero di giorni indicati in precedenza per il perfezionamento viene incrementato di 1 (art. 26 D.L. 76/2020).
 
-<figure><img src="../.gitbook/assets/image (120).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (91).png" alt=""><figcaption></figcaption></figure>
 
 ## Notificazione Analogica
 
@@ -130,7 +130,7 @@ L'indirizzo fornito dall'operatore postale o quello risultante dalle banche dati
 
 Nel caso che l'indirizzo fornito dalla PA mittente faccia riferimento ad uno Stato estero, non è prevista la ricerca di un nuovo indirizzo da parte dell’operatore postale.
 
-<figure><img src="../.gitbook/assets/image (105).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (76).png" alt=""><figcaption></figcaption></figure>
 
 PN riceve dall’operatore postale gli aggiornamenti sullo stato della consegna e la copia digitale conforme di ogni documento generato durante la notificazione (es. ricevuta firmata dal destinatario). Tali documenti sono memorizzati e conservati per 10 anni su PN in modo immutabile e collegati allo IUN in modo tale da poter essere reperiti accedendo al portale.
 

@@ -37,7 +37,7 @@ Le API Key sono visualizzate in forma tabellare e con le seguenti informazioni:&
 * l'istante di blocco&#x20;
 * il nome e cognome di chi ha effettuato l’operazione.
 
-<figure><img src="../../../.gitbook/assets/image (68).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (39).png" alt=""><figcaption></figcaption></figure>
 
 
 

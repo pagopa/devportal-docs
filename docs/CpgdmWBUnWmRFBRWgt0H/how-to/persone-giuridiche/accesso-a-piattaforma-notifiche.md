@@ -6,7 +6,7 @@ Il legale rappresentante accede a PN attraverso l’Area Riservata messa a dispo
 
 Il dipendente della persona giuridica accede a PN, attraverso il portale SEND all’indirizzo [https://pn-pg.pagopa.it](https://pn.pagopa.it/) autenticandosi con la sua identità digitale.
 
-<figure><img src="../../.gitbook/assets/image (166).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (137).png" alt=""><figcaption></figcaption></figure>
 
 Al primo accesso l’utente deve confermare la presa visione dei termini di servizio (ToS) e dell’informativa privacy.
 
@@ -14,6 +14,6 @@ PN verifica che la persona ha un ruolo per la persona giuridica, in quanto inser
 
 Selezionato di operare per conto dalla persona giuridica, la persona accede con le restrizioni legate al suo ruolo.
 
-<figure><img src="../../.gitbook/assets/image (127).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (98).png" alt=""><figcaption></figcaption></figure>
 
 Il portale SEND è disponibile, oltre che nella lingua italiana, anche in: inglese, francese, tedesco e sloveno.

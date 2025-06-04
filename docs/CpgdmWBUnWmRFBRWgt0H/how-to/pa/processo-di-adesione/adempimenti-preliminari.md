@@ -44,7 +44,7 @@ Il portale mittente di Piattaforma Notifiche permette di:
 * verificare la regolare operatività della piattaforma (pagina Status della piattaforma)
 * creare e gestire le api key per l'integrazione B2B
 
-<figure><img src="../../../.gitbook/assets/image (67).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (38).png" alt=""><figcaption></figcaption></figure>
 
 ### Portale di fatturazione
 

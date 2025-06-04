@@ -6,7 +6,7 @@ Quando una notifica viene annullata il processo di notificazione si interrompe, 
 
 L’annullamento da portale web richiede la spunta di un disclaimer che indica che, nel caso in cui sia già stato effettuato il pagamento da parte del destinatario, la PA mittente si impegna a rimborsare il destinatario e a manlevare e tenere indenne il Gestore da qualsiasi pretesa del destinatario derivante dal mancato rimborso.
 
-<figure><img src="../../.gitbook/assets/image (181).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (152).png" alt=""><figcaption></figcaption></figure>
 
 La notifica annullata rimane visibile e consultabile in SEND, nello stato "Annullata".
 

@@ -2,7 +2,7 @@
 
 L’invio manuale di una notifica si effettua premendo il tasto _**Invia una nuova notifica**_ presente nella pagina di accesso _**Notifiche**_.
 
-<figure><img src="../../.gitbook/assets/image (38).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
 La pagina _**Invia una nuova notifica**_ prevede cinque sezioni di compilazione:&#x20;
 
@@ -40,7 +40,7 @@ Abbandonando la sezione senza aver premuto il tasto _**Continua**_ le informazio
 **ATTENZIONE**: da una qualunque delle cinque sezioni previste per la creazione di una nuova notifica, premendo il tasto in alto a sinistra _**Indietro**_, l'operatore verrà riportato alla pagina di accesso a PN _**Notifiche**_ e le informazioni inserite nelle sezioni non verranno salvate.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (31).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 ## Seconda sezione - "Destinatari"
 
@@ -56,7 +56,7 @@ Abbandonando la sezione senza aver premuto il tasto _**Continua**_ le informazio
 
 Premendo il tasto _**Torna a informazioni preliminari**_ l'operatore sarà riportato alla sezione precedente.
 
-<figure><img src="../../.gitbook/assets/image (32).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 ## Terza Sezione - "Posizione debitoria"
 
@@ -73,7 +73,7 @@ Nel caso in cui la scelta sia _**Nessun pagamento**_ si procederà direttamente 
 
 Selezionando uno dei pagamenti, si abiliterà il tasto _**Continua**_ e sarà possibile procedere inserendo le informazioni riguardanti quest'ultimo.
 
-<figure><img src="../../.gitbook/assets/image (33).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 ## Quarta Sezione - "Dettaglio posizione debitoria"
 
@@ -101,7 +101,7 @@ Se la notifica prevede più pagamenti, per ognuno di essi le informazioni richie
 
 Compilando correttamente la posizione debitoria si abiliterà il tasto _**Continua**_ e sarà possibile procedere all'ultima sezione.
 
-<figure><img src="../../.gitbook/assets/image (36).png" alt=""><figcaption><p>F24</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption><p>F24</p></figcaption></figure>
 
 ## Quinta Sezione - "Documenti Allegati"
 
@@ -117,10 +117,10 @@ Abbandonando la sezione senza aver premuto il tasto _**Invia**_ le informazioni 
 
 Premendo il tasto _**Torna al dettaglio posizione debitoria**_ l'operatore sarà riportato alla sezione precedente.
 
-<figure><img src="../../.gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
 La richiesta di notifica viene sottoposta ad un processo di validazione che normalmente richiede qualche minuto al termine del quale, se non sono stati riscontrati errori, SEND visualizzerà la notifica, ed il relativo Identificativo Univoco della Notifica (IUN) nella lista di notifiche inviate visibile nella pagina di accesso _**Notifiche**_. Nel caso in cui la creazione non vada a buon fine, la relativa notifica non sarà presente in elenco.&#x20;
 
 A questo punto l’operatore può visualizzare l'avanzamento del processo di notificazione nella pagina di accesso _**Notifiche**_.
 
-<figure><img src="../../.gitbook/assets/image (76).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (47).png" alt=""><figcaption></figcaption></figure>

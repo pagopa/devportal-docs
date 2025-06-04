@@ -8,4 +8,4 @@ La pagina mostra i recapiti digitali configurati dall’utente suddivisi tra:
 *   **Altri recapiti:** eventuali indirizzi PEC/SERCQ, Email o numero di cellulare da associare alle notifiche provenienti da specifici Enti e, che quindi PN userà come recapito del destinatario, esclusivamente per le comunicazioni provenienti da uno di essi.\
 
 
-    <figure><img src="../../../.gitbook/assets/image (48).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
