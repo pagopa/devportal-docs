@@ -8,7 +8,7 @@ L’utente può impostare dei filtri per ridurre il numero di notifiche visualiz
 
 L’utente può anche scegliere il numero di elementi da visualizzare nella pagina.
 
-<figure><img src="../../.gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (55).png" alt=""><figcaption></figcaption></figure>
 
 ## Dettagli di una notifica
 
@@ -26,7 +26,7 @@ Nel caso in cui l'avvenuto accesso ad una notifica sia stato compiuto da parte d
 
 Nel caso di notifiche inviate a più destinatari, ciascun destinatario vedrà nella timeline gli eventi relativi a tutti gli altri destinatari ma non potrà vedere i loro dati personali (CF, indirizzi fisici, PEC, email, ecc.)
 
-<figure><img src="../../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (47).png" alt=""><figcaption></figcaption></figure>
 
 ## Accesso ai documenti relativi a una notifica
 
@@ -38,7 +38,7 @@ PN mantiene i documenti forniti dalla PA per 120 giorni a partire dalla data di 
 
 ## Accesso agli atti opponibili ai terzi e ai documenti della notificazione analogica o digitale
 
-Nel dettaglio della specifica notifica viene visualizzata la timeline della notifica (Stato della notifica).
+Nel dettaglio della specifica notifica viene visualizzata la timeline della notifica _**Stato della notifica**_.
 
 Gli eventi sono organizzati in forma di timeline, ordinati temporalmente e con indicazione dell’istante di occorrenza dell’evento e la descrizione dell’evento stesso.
 

@@ -12,7 +12,6 @@
 * **CAD**: il decreto legislativo 7 marzo 2005, n. 82;&#x20;
 * **CIE**: il documento d’identità munito di elementi per l’identificazione fisica del titolare, di cui all’articolo 66 del decreto legislativo 7 marzo 2005, n. 82; f) “decreto-legge”: il decreto-legge 17 luglio 2020, n. 76, convertito, con modificazioni, dalla legge 11 settembre 2020, n. 120;&#x20;
 * **Codice Fiscale (CF)**: codice alfanumerico che identifica univocamente le persone fisiche ed altri soggetti nei rapporti con la Pubblica Amministrazione. Si compone di 16 caratteri per le persone fisiche e di 11 caratteri per gli altri soggetti;
-* **Codice IUN**: codice che identifica in modo univoco una notifica;
 * **Destinatario**: chi riceve una notifica, sia esso persona fisica o giuridica;
 * **Documenti allegati**: documenti allegati ad un atto;&#x20;
 * **Domicilio digitale di piattaforma**: l’indirizzo di posta elettronica certificata o di un servizio elettronico di recapito certificato qualificato, appositamente eletto per la ricezione delle notificazioni delle pubbliche amministrazioni effettuate tramite piattaforma, di cui all’articolo 26, comma 5, lettera c), del decreto-legge;&#x20;

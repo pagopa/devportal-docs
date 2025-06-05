@@ -40,7 +40,7 @@ Possono aderire a SEND:
 
 ***
 
-## **Un soggetto “Riscossore” con la modalità “in concessione” o “a supporto”**
+## **Soggetti “Riscossore” con la modalità “in concessione” o “a supporto”**
 
 L’art. 52, comma 5, lettera b, del D.Lgs. n. 446/1997 prevede la possibilità per l’Ente Locale di “affidare a terzi, anche disgiuntamente, l'accertamento e la riscossione dei tributi e di tutte le entrate, le relative attività sono affidate, nel rispetto della normativa dell'Unione europea e delle procedure vigenti in materia di affidamento della gestione dei servizi pubblici locali”, senza precisare che l’affidamento debba avvenire con una specifica modalità.
 
