@@ -97,12 +97,6 @@ description: >-
 
 <summary>Febbraio 2025</summary>
 
-### 1.0.136
-
-**18 febbraio**
-
-* Bug fixing
-
 ### 1.0.135
 
 **10 febbraio**

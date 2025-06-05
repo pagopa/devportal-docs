@@ -31,6 +31,7 @@ Al fine di assicurare la conformità delle API pubblicate agli standard del Mode
 
 <figure><img src="../.gitbook/assets/creazione e-service erogatore standard.jpg" alt=""><figcaption><p>Fase 1</p></figcaption></figure>
 
+* se l'e-service è disponibile per delega. Maggiori informazioni nella [sezione dedicata](e-service.md#impostazioni-per-le-deleghe);
 * essendo gli e-service organizzati in versioni, verrà richiesta una descrizione della versione attuale, sia che si tratti della prima bozza che eventualmente di quelle future, andando a descrivere i cambiamenti rispetto alle versioni precedenti;
 * una serie di richieste più tecniche:
   1. audience: il parametro _audience (aud)_ che i fruitori dovranno inserire all'interno del token per le richieste che effettueranno verso questa versione dell'e-service. È discrezione dell'erogatore stabilire la policy relativa alle audience: è possibile utilizzare la stessa audience per più versioni, audience diverse per ogni versione, etc.;
@@ -124,6 +125,34 @@ Per facilitare la procedura di creazione di e-service molto simili, è stata dis
 L'e-service creato da questo clone non sarà pubblicato immediatamente, sarà messo in bozza. La sua numerazione di versione partirà dalla 1, indipendentemente dal numero di versione dell'e-service dal quale è stato clonato.
 
 <figure><img src="../.gitbook/assets/clona_e-service.png" alt=""><figcaption></figcaption></figure>
+
+## Impostazioni per le deleghe
+
+Tra le impostazioni dell'e-service, c'è anche la possibilità di permettere o meno che l'e-service sia fruito per delega.&#x20;
+
+### Permettere la fruizione per delega
+
+La prima impostazione chiede se "l'e-service è disponibile per delega". Abilitando questa impostazione, l'erogatore permette che le Pubbliche Amministrazioni possano delegare un'altra Pubblica Amministrazione per la gestione amministrativa della fruizione dell'e-service.&#x20;
+
+{% hint style="info" %}
+Solo in ambiente di attestazione, la funzionalità è estesa e aperta a tutti, non solo alle Pubbliche Amministrazioni.
+{% endhint %}
+
+All'atto pratico, il delegato potrà pubblicare e gestire una richiesta di fruizione e le finalità relative per conto del delegante.&#x20;
+
+<figure><img src="../.gitbook/assets/deleghe_1.png" alt=""><figcaption><p>La schermata mostra dove si trova l'impostazione relativa all'attivazione delle deleghe per la fruizione.</p></figcaption></figure>
+
+### Permettere al delegato l'accesso al dato
+
+Se l'erogatore decide di permettere l'accesso all'e-service per delega, può opzionalmente scegliere se permettere anche l'accesso al dato per delega.
+
+<figure><img src="../.gitbook/assets/deleghe_2.png" alt=""><figcaption><p>La schermata mostra dove si trova l'impostazione relativa all'impostazione dell'accesso al dato per delega.</p></figcaption></figure>
+
+Abilitando questa impostazione, sarà possibile per il delegato associare i propri client alle finalità che ha creato nell'ambito della delega che ha ricevuto.
+
+All'interno dei client, sarà discrezione del delegato (in accordo con il delegante) inserire il personale tecnico necessario. Il personale tecnico non necessariamente farà parte del delegato. Ciò significa che non necessariamente il delegato farà richieste verso l'API dell'erogatore autonomamente. Con questa impostazione, l'erogatore ne dà al delegato la facoltà. Sarà poi però demandato agli accordi tra delegante e delegato l'effettiva scelta implementativa.
+
+Per maggiori informazioni sulle deleghe, visita la [pagina dedicata](deleghe.md).
 
 ## Esportare ed importare un e-service
 
