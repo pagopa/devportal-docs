@@ -123,7 +123,7 @@ Alcuni recapitisti utilizzano un formato XML per la rendicontazione full-digital
 
 Per testare l'invio analogico con restituzione del recapitista della ricevuta full-digital in formato ZIP utilizzare le seguenti chiavi sequenza.
 
-<table data-header-hidden><thead><tr><th width="201"></th><th></th></tr></thead><tbody><tr><td><strong>Chiave Sequenza</strong></td><td><strong>Scenario</strong></td></tr><tr><td>OK_AR_ZIP</td><td><p>Per simulare la ricezione della rendicontazione FULL-DIGITAL di una raccomandata AR valorizzare </p><p><code>recipients.physicalAddress.address="VIA @OK_AR_ZIP"</code></p></td></tr><tr><td>OK_890_ZIP</td><td><p>Per simulare la ricezione della rendicontazione FULL-DIGITAL di una raccomandata 890 valorizzare </p><p><code>recipients.physicalAddress.address="VIA @OK_890_ZIP"</code></p></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="201"></th><th></th></tr></thead><tbody><tr><td><strong>Chiave Sequenza</strong></td><td><strong>Scenario</strong></td></tr><tr><td>OK_AR_ZIP</td><td><p>Per simulare la ricezione della rendicontazione FULL-DIGITAL di una raccomandata AR valorizzare </p><p><code>recipients.physicalAddress.address="VIA @OK_AR_ZIP"</code></p></td></tr><tr><td>OK_890_ZIP</td><td><p>Per simulare la ricezione della rendicontazione FULL-DIGITAL di una raccomandata 890 valorizzare </p><p><code>recipients.physicalAddress.address="VIA @OK_890_ZIP"</code></p></td></tr><tr><td>OK-GiacenzaCAD-lte10_890</td><td><p>Per simulare il postino che non è riuscito a consegnare l'ARCAD e quindi rendiconta la CAD (comunicazione di avvenuto deposito)</p><p><code>recipients.physicalAddress.address="VIA @OK-GiacenzaCAD-lte10_890"</code></p></td></tr></tbody></table>
 
 ### Casi di decesso
 
