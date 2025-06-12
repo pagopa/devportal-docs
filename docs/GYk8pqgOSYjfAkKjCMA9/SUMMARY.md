@@ -21,7 +21,6 @@
 * [E-service](guida-tecnica/e-service/README.md)
   * [Ciclo di vita](guida-tecnica/e-service/ciclo-di-vita.md)
   * [Creazione di un E-service: Informazioni necessarie](guida-tecnica/e-service/creazione-di-un-e-service-informazioni-necessarie.md)
-  * [\[Bozza\] Creazione di un E-service: Informazioni necessarie](guida-tecnica/e-service/bozza-creazione-di-un-e-service-informazioni-necessarie.md)
   * [Importazione di un E-service](guida-tecnica/e-service/e-service.md)
   * [Gestione del carico](guida-tecnica/e-service/gestione-del-carico.md)
   * [Info Utili](guida-tecnica/e-service/info-utili.md)

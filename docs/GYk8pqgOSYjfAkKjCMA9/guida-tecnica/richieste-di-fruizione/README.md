@@ -30,7 +30,7 @@ Quindi, se una richiesta di fruizione è sospesa dall'erogatore, solo l'erogator
 
 &#x20;Di norma, queste sono le regole di sospensione:
 
-* **sospensione ad opera dell'erogatore:** l'erogatore può sospendere direttamente una richiesta di fruizione in maniera manuale, oppure farlo dopo aver revocato al fruitore uno o più attributi verificati;&#x20;
+* **sospensione ad opera dell'erogatore:** l'erogatore può sospendere direttamente una richiesta di fruizione in maniera manuale, oppure può revocare al fruitore uno o più attributi verificati: in questo caso la paittaforma sospenderà in autometico la richiesta di fruizione;&#x20;
 * **sospensione ad opera del fruitore:** il fruitore può sospendere direttamente una richiesta di fruizione in maniera manuale;
 * **sospensione ad opera della piattaforma:** PDND Interoperabilità sospende in maniera automatica una richiesta di fruizione se il fruitore perde uno o più attributi certificati e/o dichiarati.
 
@@ -40,11 +40,9 @@ Inoltre, è necessario che tutti gli attributi necessari per una richiesta di fr
 
 ### Archiviare una richiesta di fruizione
 
-
-
 Nel momento in cui si effettua l'aggiornamento della richiesta di fruizione, l'archiviazione è automatica.&#x20;
 
 A scopo esemplificativo, se esiste una richiesta di fruizione attiva per la versione 5 di un e-service, nel momento in cui esce una versione 6 e il fruitore effettua l'aggiornamento, la richiesta di fruizione per la versione 6 diventa attiva mentre la 5 viene archiviata.
 
-Se viene più utilizzato un servizio, l'archiviazione deve essere manuale a opera del fruitore.  Il fruitore può ripresentare una nuova richiesta di fruizione, sempre con il caveat che un ente può avere una sola richiesta di fruizione attiva per ogni e-service.
+L'archiviazione della richiesta di fruizione può essere anche manuale a opera del fruitore, nel caso in cui non debba più utilizzare il servizio. Potrà comunque creare una nuova richiesta di fruizione in futuro, con l'unico vincolo che non ne abbia già una attiva per lo stesso e-service.
 
