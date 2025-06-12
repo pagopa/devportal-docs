@@ -32,7 +32,7 @@ La tipologia ente è suddivisa in:
 </tbody>
 </table>
 
-Per ogni tipologia di ente sono individuati gli **ambiti** e all'interno dell'ambito la **tipologia  di notifica**.
+Per ogni tipologia di ente sono individuati gli **ambiti** e all'interno dell'ambito la **tipologia di notifica**.
 
 # Codici per tipologia Ente
 
@@ -50,13 +50,13 @@ Ambiti e tipologia notifica:
 Tutte le tipologie di comunicazioni/verbali/solleciti relative a violazione al CdS (divieto di sosta, autovelox, ztl etc...)
 
 * Codice`010102P` - **Notifiche Violazioni extra CdS** 
-Tutte le tipologie di comunicazioni relative a violazioni extra CdS (sanzioni ambientali,  altre sanzioni amministrative etc...)
+Tutte le tipologie di comunicazioni relative a violazioni extra CdS (sanzioni ambientali, altre sanzioni amministrative etc...)
 
 * Codice`010103N` - **Notifiche Violazioni al Codice della Strada** 
 Tutte le tipologie di comunicazioni/verbali/solleciti relative a violazione al CdS (divieto di sosta, autovelox, ztl etc...)
 
 * Codice`010104N` - **Notifiche Violazioni extra CdS** 
-Tutte le tipologie di comunicazioni relative a violazioni extra CdS (sanzioni ambientali,  altre sanzioni amministrative etc...)
+Tutte le tipologie di comunicazioni relative a violazioni extra CdS (sanzioni ambientali, altre sanzioni amministrative etc...)
 
 ### 0102 - **Tributi** 
 
@@ -77,10 +77,10 @@ Tutte le tipologie di comunicazione che non prevedono un pagamento correlato (es
 ### 0104 - **Scuola** 
 
 * Codice`010401P` - **Notifiche per sollecito pagamento servizi scolastici** 
-Tutte le tipologie di comunicazione  relative al sollecito di pagamento servizi scolastici (es. mense, trasporto, rette, pre post scuola etc...)
+Tutte le tipologie di comunicazione relative al sollecito di pagamento servizi scolastici (es. mense, trasporto, rette, pre post scuola etc...)
 
 * Codice`010401N` - **Notifiche Atti Servizi Scolastici** 
-Tutte le tipologie di comunicazione  relative al sollecito di pagamento servizi scolastici (es. mense, trasporto, rette, pre post scuola etc...)
+Tutte le tipologie di comunicazione relative al sollecito di pagamento servizi scolastici (es. mense, trasporto, rette, pre post scuola etc...)
 
 ### 0105 - **Anagrafe** 
 
@@ -111,7 +111,7 @@ Notifica atti relativi a procedimenti di riscossione coattiva / ingiunzioni fisc
 ### 0109 - **Delegazioni** 
 
 * Codice`010901N` - **notifica delegazioni di pagamento a tesoriere** 
-a notificare al tesoriere i documenti richiesti da cddpp
+a notificare al tesoriere i documenti richiesti da CDDPP
 
 ### 0110 - **Convocazioni** 
 
@@ -225,10 +225,10 @@ Notifiche relative a Contributi verso l&#39;ente previdenziale (es. Riscatti, Ri
 
 ### 0502 - **Provvedimenti** 
 
-* Codice`050201N` - **Notifiche dei Provvedimenti  dei prodotti/servizi** 
+* Codice`050201N` - **Notifiche dei Provvedimenti dei prodotti/servizi** 
 Notifiche dei provvedimenti dei prodotti/servizi (es. Riscatti, Ricongiunzione e Rendite, Assegno di Inclusione, Supporto Formazione e Lavoro)
 
-* Codice`050201P` - **Notifiche dei Provvedimenti  dei prodotti/servizi** 
+* Codice`050201P` - **Notifiche dei Provvedimenti dei prodotti/servizi** 
 Notifiche dei provvedimenti dei prodotti/servizi (es. Riscatti, Ricongiunzione e Rendite, Assegno di Inclusione, Supporto Formazione e Lavoro)
 
 ### 0503 - **Recupero indebiti** 
@@ -319,7 +319,7 @@ Servizi Didattici informa lo studente di una sua posizione debitoria e lo invita
 
 ### 0804 - **Riscossione coattiva** 
 
-* Codice`080401P` - **Ingiuzioni** 
+* Codice`080401P` - **Ingiunzioni** 
 Avvocatura di Ateneo quantifica il debito dello studente e ne richiede il pagamento
 
 
@@ -422,7 +422,7 @@ Atto di ingiunzione alla restituzione del finanziamento e/o contributo concesso 
     <td>Notifiche Violazioni extra CdS</td>
 </tr>
 <tr>
-    <td colspan="4">Tutte le tipologie di comunicazioni relative a violazioni extra CdS (sanzioni ambientali,  altre sanzioni amministrative etc...)</td>
+    <td colspan="4">Tutte le tipologie di comunicazioni relative a violazioni extra CdS (sanzioni ambientali, altre sanzioni amministrative etc...)</td>
 </tr>
 <tr>
     <td rowspan="2"><strong>010103N</strong></td>
@@ -440,7 +440,7 @@ Atto di ingiunzione alla restituzione del finanziamento e/o contributo concesso 
     <td>Notifiche Violazioni extra CdS</td>
 </tr>
 <tr>
-    <td colspan="4">Tutte le tipologie di comunicazioni relative a violazioni extra CdS (sanzioni ambientali,  altre sanzioni amministrative etc...)</td>
+    <td colspan="4">Tutte le tipologie di comunicazioni relative a violazioni extra CdS (sanzioni ambientali, altre sanzioni amministrative etc...)</td>
 </tr>
 <tr>
     <td rowspan="2"><strong>010201P</strong></td>
@@ -557,7 +557,7 @@ Atto di ingiunzione alla restituzione del finanziamento e/o contributo concesso 
     <td>notifica delegazioni di pagamento a tesoriere</td>
 </tr>
 <tr>
-    <td colspan="4">a notificare al tesoriere i documenti richiesti da cddpp</td>
+    <td colspan="4">a notificare al tesoriere i documenti richiesti da CDDPP</td>
 </tr>
 <tr>
     <td rowspan="2"><strong>011001N</strong></td>
@@ -869,7 +869,7 @@ Atto di ingiunzione alla restituzione del finanziamento e/o contributo concesso 
     <td rowspan="2"><strong>080401P</strong></td>
     <td>08 - Università/ Scuola statale/ Altri Enti</td>
     <td>04 - Riscossione coattiva</td>
-    <td>Ingiuzioni</td>
+    <td>Ingiunzioni</td>
 </tr>
 <tr>
     <td colspan="4">Avvocatura di Ateneo quantifica il debito dello studente e ne richiede il pagamento</td>
