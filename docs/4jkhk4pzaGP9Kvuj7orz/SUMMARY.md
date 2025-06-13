@@ -75,7 +75,6 @@
         * [Cancellazione di un recapito digitale “Email o SMS”](piattaforma-notifiche-digitali-manuale-operativo/destinatari/persone-fisiche/configurazione-dei-recapiti-digitali/cancellazione-di-un-recapito-digitale-email-o-sms.md)
         * [Modifica di un recapito legale](piattaforma-notifiche-digitali-manuale-operativo/destinatari/persone-fisiche/configurazione-dei-recapiti-digitali/modifica-di-un-recapito-legale.md)
         * [Modifica di un recapito digitale "Email o SMS"](piattaforma-notifiche-digitali-manuale-operativo/destinatari/persone-fisiche/configurazione-dei-recapiti-digitali/modifica-di-un-recapito-digitale-email-o-sms.md)
-        * [Modifica di un Altro recapito](piattaforma-notifiche-digitali-manuale-operativo/destinatari/persone-fisiche/configurazione-dei-recapiti-digitali/modifica-di-un-altro-recapito.md)
       * [Gestione delle deleghe](piattaforma-notifiche-digitali-manuale-operativo/destinatari/persone-fisiche/gestione-delle-deleghe/README.md)
         * [Visualizzazione delle deleghe](piattaforma-notifiche-digitali-manuale-operativo/destinatari/persone-fisiche/gestione-delle-deleghe/visualizzazione-delle-deleghe.md)
         * [Creazione di una delega](piattaforma-notifiche-digitali-manuale-operativo/destinatari/persone-fisiche/gestione-delle-deleghe/creazione-di-una-delega.md)

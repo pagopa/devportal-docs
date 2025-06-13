@@ -1,17 +1,11 @@
 # Configurazione dei recapiti digitali
 
-PN permette ai suoi utenti di configurare i propri recapiti legali (ovvero gli indirizzi PEC/SERCQ) da utilizzare in via preferenziale per la notificazione da parte di PN degli atti provenienti da una PA mittente.
+PN consente ai Destinatari persone fisiche di configurare un proprio domicilio digitale (ovvero, una PEC o un SERCQ), nella sezione “Il tuo domicilio digitale”che sarà utilizzato in via preferenziale per la notificazione da parte di PN degli atti provenienti dalle PA mittenti aderenti alla stessa PN.
 
-Per l’invio dei messaggi di cortesia è possibile configurare altri recapiti digitali, quali: Email, numero di cellulare, accesso tramite app IO al servizio “Avviso di cortesia” messo a disposizione da PN.
+PN consente, inoltre, ai Destinatari di configurare, domicili digitali specifici per singole PA Mittenti, diversi da quello principale selezionando il tasto “Gestisci”, nella sezione “Il tuo domicilio digitale””. In questo modo, il Destinatario può differenziare per caselle postali e/o tipologia di domicilio  (PEC o SERCQ) le notifiche provenienti dalle diverse PA mittenti. In ogni caso per poter indicare eventuali domicili digitali specifici per singole PA Mittenti, è necessario aver configurato il domicilio digitale principale nella sezione “Il tuo domicilio digitale”.
 
-Inoltre PN permette di configurare altri recapiti digitali, diversi da quello principale indicato nel box “Recapito legale”, per ricevere le notifiche di specifici Enti da indicare nel box “Altri recapiti”. In questo modo l’utente può separare, su caselle postali diverse e canali di comunicazioni diversi, le notifiche e messaggi di cortesia provenienti da diverse PA.
+<figure><img src="../../../../.gitbook/assets/Screenshot 2025-06-12 at 14.30.03.png" alt=""><figcaption></figcaption></figure>
 
-ATTENZIONE: in assenza di un indirizzo PEC/SERCQ nel box “Recapito legale” e/o di uno Email/cellulare nel box “Email o SMS” non è possibile indicarne uno nel box “Altri recapiti”.
+Per la ricezione dei messaggi di cortesia, i Destinatari possono configurare altri recapiti digitali, quali: e-mail, numero di cellulare, App IO, previa abilitazione del relativo servizio “Avviso di cortesia” messo a disposizione da PN.
 
-All’interno di PN è consentita una sola configurazione per ciascuno dei recapiti digitali: non è quindi possibile aggiungere ulteriori recapiti, oltre a quello già indicati, sia come Recapito legale e/o, sia come indirizzo Email/cellulare.
-
-<figure><img src="../../../../.gitbook/assets/image (91).png" alt=""><figcaption></figcaption></figure>
-
-Sempre dalle sezione “I tuoi recapiti” l’utente può accedere a “I tuoi dati” e visualizzare i dati ricavati da SPID/CIE.
-
-<figure><img src="../../../../.gitbook/assets/image (77).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Screenshot 2025-06-12 at 14.44.55.png" alt=""><figcaption></figcaption></figure>
