@@ -32,11 +32,13 @@ Si suggerisce di fare sempre riferimento alla guida passo passo implementata nel
 
 <figure><img src="../.gitbook/assets/Screen guida ottenere voucher" alt=""><figcaption><p>La guida in tre passi per ottenere l'accesso al token si trova sotto "I tuoi client e-service". Se si vuole aggiungere ad un Client già creato si deve cliccare su "Ispeziona", altrimenti su "Crea nuovo".</p></figcaption></figure>
 
-### Richiesta di un voucher spendibile presso le API di Interoperabilità
+### Richiesta di un voucher spendibile presso un e-service del catalogo
 
-Il pre-requisito per poter ottenere un voucher valido è aver caricato almeno una chiave pubblica, parte del proprio materiale crittografico, all'interno di un client api interop (disponibile sull'interfaccia del back office alla voce _Fruizione > I tuoi client api interop_). Per saperne di più, leggi la [s](client-e-materiale-crittografico.md)[ezione dedicata](client-e-materiale-crittografico.md).
+Il pre-requisito per poter ottenere un voucher valido è aver caricato almeno una chiave pubblica, parte del proprio materiale crittografico, all'interno di un client e-service (disponibile sull'interfaccia del back office alla voce _Fruizione > I tuoi client e-service_). Per saperne di più, leggi la [s](client-e-materiale-crittografico.md)[ezione dedicata](client-e-materiale-crittografico.md).
 
-Il primo passo è costruire una _client assertion_ valida e firmarla con la propria chiave privata (che deve essere l'omologa della chiave pubblica depositata sul client su PDND Interoperabilità). La client assertion è composta da un header e un payload.&#x20;
+Il primo passo è costruire una _client assertion_ valida. La client assertion è composta da un header e un payload.
+
+#### I campi contenuti nella client assertion
 
 Nell'header andranno inseriti tre camp&#x69;_:_
 
@@ -51,7 +53,45 @@ Nel payload ci saranno invece sei campi:&#x20;
 * `aud`: l'audience, reperibile su PDND Interoperabilità;
 * `jti`: il JWT ID, un id unico random assegnato da chi vuole creare il token, si usa per tracciare il token stesso. Deve essere cura del chiamante assicurarsi che l'id di questo token sia unico per quanto riguarda la client assertion;
 * `iat`: l'issued at, il timestamp riportante data e ora in cui viene creato il token, espresso in [UNIX epoch](https://datatracker.ietf.org/doc/html/rfc3339) (valore numerico, non stringa);
-* `exp`: l'expiration, il timestamp riportante data e ora di scadenza del token, espresso in [UNIX epoch](https://datatracker.ietf.org/doc/html/rfc3339) (valore numerico, non stringa).
+* `exp`: l'expiration, il timestamp riportante data e ora di scadenza del token, espresso in [UNIX epoch](https://datatracker.ietf.org/doc/html/rfc3339) (valore numerico, non stringa);
+* `purposeId`: l'id della singola finalità per la quale si vuole ottenere un voucher, disponibile sul back office;
+* `digest`: opzionale. Da compilare solamente se l'erogatore richiede espressamente delle informazioni aggiuntive. Il campo digest ha due valori: `alg`, l'algoritmo di hashing, che è sempre SHA256; `value`, l'hash del contenuto. Per maggiori informazioni, si veda la [sezione dedicata](utilizzare-i-voucher.md#trasmettere-e-tracciare-dati-complementari-alla-richiesta).&#x20;
+
+#### Un esempio di client assertion
+
+A titolo esemplificativo, di seguito un esempio di contenuto di client assertion deserializzata.
+
+Header:
+
+```
+{
+  "alg": "RS256",
+  "kid": "2MJFa7aSSveFte8ULX9U-MaaygcoL5fBIJDTXBdba64",
+  "typ": "jwt"
+}
+```
+
+Payload:
+
+```
+{
+  "iss": "8e9f24ca-78f5-4c69-9e4f-0efbeac7bb2b", 
+  "sub": "8e9f24ca-78f5-4c69-9e4f-0efbeac7bb2b",
+  "aud": "auth.interop.pagopa.it/client-assertion",
+  "jti": "23387ac1-c192-4573-8350-207a4213d4be",
+  "iat": 1616170068,
+  "exp": 1616170668,
+  "purposeId": "34f1624b-91cb-4b05-b8c0-cad208a30222",
+  "digest": {
+    "alg": "SHA256",
+    "value": "5db26201b684761d2b970329ab8596773164ba1b43b1559980e20045941b8065"
+  }
+}
+```
+
+#### Il processo per ottenere un voucher
+
+Dopo aver costruito una _client assertion_ valida, questa deve essere firmata con la propria chiave privata (che deve essere l'omologa della chiave pubblica depositata sul client su PDND Interoperabilità).&#x20;
 
 Una volta firmata l'asserzione, prendere l'output e tenerlo da parte.
 
@@ -62,17 +102,19 @@ Il secondo passaggio è chiamare il server autorizzativo di PDND Interoperabilit
 * `client_assertion_type`: il formato della client assertion, come indicato in RFC (sempre `urn:ietf:params:oauth:client-assertion-type:jwt-bearer`);
 * `grant_type`_:_ la tipologia di flusso utilizzato, come indicato in RFC (sempre `client_credentials`).
 
-Se tutto è impostato correttamente, PDND Interoperabilità risponderà con un voucher valido all'interno del body della risposta alla proprietà `access_token`. Sempre nella risposta, sarà contenuta anche la durata di validità del token in secondi (es. `"expires_in": 600` indica un token con validità 10 minuti, 10 \* 60 secondi = 600).
+Se tutto è impostato correttamente, PDND Interoperabilità risponderà con un voucher valido all'interno del body della risposta alla proprietà `access_token`. Sempre nella risposta, sarà contenuta anche la durata di validità del voucher in secondi (es. `"expires_in": 600` indica un voucher con validità 10 minuti, 10 \* 60 secondi = 600). La durata del voucher è scelta dall'erogatore sulla base delle proprie considerazioni di sicurezza, e può variare da e-service a e-service.
 
-Il token andrà inserito nell'header di tutte le chiamate successive verso le API gateway di PDND Interoperabilità come header `Authorization: Bearer`.
+Il voucher andrà inserito nell'header di tutte le chiamate successive verso le API dell'erogatore. Andrà inserito nell'header `Authorization: Bearer`.
 
-### Richiesta di un voucher spendibile presso un e-service del catalogo
+### Richiesta di un voucher spendibile presso le API di Interoperabilità
 
 Le istruzioni sono essenzialmente uguali a quelle del paragrafo precedente, con due eccezioni.
 
-La prima è che il pre-requisito per poter ottenere un voucher valido è aver caricato almeno una chiave pubblica all'interno di un client e-service associato ad una finalità attiva, invece di un client api interop. Anche qui, si veda la [sezione dedicata](client-e-materiale-crittografico.md#caricare-una-chiave-pubblica-in-un-client).
+La prima è che il pre-requisito per poter ottenere un voucher valido è aver caricato almeno una chiave pubblica all'interno di un _client API Interop_. Anche qui, si veda la [sezione dedicata](client-e-materiale-crittografico.md#caricare-una-chiave-pubblica-in-un-client).
 
-La seconda è che all'interno del payload della client assertion va specificato anche il `purposeId`, ossia l'id della finalità per la quale si richiede il voucher. Questo parametro è disponibile nel back office di PDND Interoperabilità.
+La seconda è che all'interno del payload della client assertion non va specificato il `purposeId`, ossia l'id della finalità per la quale si richiede il voucher. Non c'è bisogno di specificare alcuna finalità per interagire con le API di servizio esposte da PDND Interoperabilità.
+
+Anche qui, il voucher andrà inserito nell'header di tutte le chiamate successive verso le API di PDND Interoperabilità. Andrà inserito nell'header `Authorization: Bearer`.
 
 ### Verifica di un voucher rilasciato da PDND Interoperabilità da parte di un erogatore di e-service
 
@@ -88,17 +130,19 @@ A titolo esemplificativo, di seguito un esempio di contenuto di voucher deserial
 
 Header:
 
-<pre><code><strong>{
-</strong>  "alg": "RS256",
+```
+{
+  "alg": "RS256",
   "kid": "ZmYxZGE2YjQtMzY2Yy00NWI5LThjNGItMDJmYmQyZGIyMmZh",
   "typ": "at+jwt"
 }
-</code></pre>
+```
 
 Payload:
 
-<pre><code><strong>{
-</strong>  "iss": "interop.pagopa.it", 
+```
+{
+  "iss": "interop.pagopa.it", 
   "nbf": 1616170668,
   "iat": 1616170068,
   "exp": 1616170668,
@@ -116,7 +160,7 @@ Payload:
     "value": "5db26201b684761d2b970329ab8596773164ba1b43b1559980e20045941b8065"
   }
 }
-</code></pre>
+```
 
 #### Significato dei campi del voucher
 
