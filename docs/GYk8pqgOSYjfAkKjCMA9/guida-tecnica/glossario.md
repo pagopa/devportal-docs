@@ -20,7 +20,7 @@ Un attributo è una qualità che un aderente possiede o dichiara di possedere. L
 
 ## Back office
 
-<mark style="background-color:blue;">Interfaccia utente alla cui accedi attraverso l'Area Riservata</mark>
+Interfaccia utente di PDND Interoperabilità alla cui accedi attraverso l'Area Riservata di PagoPA.
 
 ## Catalogo degli e-service
 
@@ -34,7 +34,7 @@ Ogni client raccoglie un gruppo di operatori di sicurezza e un gruppo di chiavi.
 
 ## Codice dell'Amministrazione Digitale  - C.A.D.&#x20;
 
-<mark style="background-color:blue;">\[Da compilare]</mark>
+Un insieme di norme che regolano l’uso delle tecnologie digitali nella Pubblica Amministrazione (PA) e nei rapporti tra cittadini, imprese e PA. L'articolo 50-ter è dedicato a PDND Interoperabilità. Altri articoli ne definiscono le basi dati di interesse nazionale e la platea degli enti aderenti.
 
 ## E-service
 
@@ -42,7 +42,7 @@ Ogni client raccoglie un gruppo di operatori di sicurezza e un gruppo di chiavi.
 
 ## Ente certificatore
 
-<mark style="background-color:blue;">\[Da compilare]</mark>
+Un ente accreditato per creare nuovi attributi certificati. Il certificatore può poi assegnare e revocare agli altri aderenti gli attributi che ha creato.
 
 ## Erogatore
 
