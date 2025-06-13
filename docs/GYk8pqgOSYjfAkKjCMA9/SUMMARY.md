@@ -23,6 +23,7 @@
   * [Creazione di un E-service: Informazioni necessarie](guida-tecnica/e-service/creazione-di-un-e-service-informazioni-necessarie.md)
   * [Importazione di un E-service](guida-tecnica/e-service/e-service.md)
   * [Gestione del carico](guida-tecnica/e-service/gestione-del-carico.md)
+  * [Portachiavi](guida-tecnica/e-service/portachiavi.md)
   * [Info Utili](guida-tecnica/e-service/info-utili.md)
 * [Richieste di fruizione](guida-tecnica/richieste-di-fruizione/README.md)
   * [Casi Particolari](guida-tecnica/richieste-di-fruizione/casi-particolari.md)
