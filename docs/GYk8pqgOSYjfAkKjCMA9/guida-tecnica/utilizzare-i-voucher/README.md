@@ -155,7 +155,7 @@ Per supportare gli erogatori in quest'attività, PDND Interoperabilità mette a 
 
 #### Come funzionano gli eventi sulle chiavi?
 
-Gli eventi sulle chiavi hanno lo stesso meccanismo di funzionamento di quello degli altri eventi, descritto nella [sezione dedicata](../informazioni-utili/api-esposte-da-pdnd-interoperabilita.md#endpoint-di-notifica-eventi). In sostanza, è possibile chiamare l'endpoint `/events/keys` passando come parametri `lastEventId` (richiesto) e `limit` (opzionale, default a 100). Il primo indica l'id dell'ultimo evento scaricato, il secondo quanti eventi si intende scaricare.
+Gli eventi sulle chiavi hanno lo stesso meccanismo di funzionamento di quello degli altri eventi, descritto nella [sezione dedicata](../api-esposte-da-pdnd-interoperabilita/#endpoint-di-notifica-eventi). In sostanza, è possibile chiamare l'endpoint `/events/keys` passando come parametri `lastEventId` (richiesto) e `limit` (opzionale, default a 100). Il primo indica l'id dell'ultimo evento scaricato, il secondo quanti eventi si intende scaricare.
 
 Ogni risultato ha la seguente struttura:
 
@@ -248,7 +248,7 @@ Il fruitore può verificare l’autenticità e l’integrità dei dati ricevuti 
 
 #### Identificazione della chiave corretta
 
-La chiave corrispondente al kid è disponibile sulle [API esposte da PDND Interoperabilità](../informazioni-utili/api-esposte-da-pdnd-interoperabilita.md) al path `GET /keys/{kid}`, dal quale otterrà la chiave pubblica corrispondente al _kid_ in formato JWK.
+La chiave corrispondente al kid è disponibile sulle [API esposte da PDND Interoperabilità](../api-esposte-da-pdnd-interoperabilita/) al path `GET /keys/{kid}`, dal quale otterrà la chiave pubblica corrispondente al _kid_ in formato JWK.
 
 #### Ricalcolo dell'hash
 

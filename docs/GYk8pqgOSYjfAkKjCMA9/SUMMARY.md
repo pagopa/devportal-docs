@@ -38,9 +38,11 @@
 * [Client](guida-tecnica/client-e-materiale-crittografico.md)
 * [Voucher](guida-tecnica/utilizzare-i-voucher/README.md)
   * [Il flusso in breve](guida-tecnica/utilizzare-i-voucher/il-flusso-in-breve.md)
+* [API](guida-tecnica/api-esposte-da-pdnd-interoperabilita/README.md)
+  * [v. 1 — in dismissione](guida-tecnica/api-esposte-da-pdnd-interoperabilita/v.-1-in-dismissione.md)
+  * [v. 2](guida-tecnica/api-esposte-da-pdnd-interoperabilita/v.-2.md)
 * [Informazioni Utili](guida-tecnica/informazioni-utili/README.md)
   * [Utenze](guida-tecnica/informazioni-utili/utenze.md)
-  * [API esposte da PDND Interoperabilità](guida-tecnica/informazioni-utili/api-esposte-da-pdnd-interoperabilita.md)
   * [Canali di supporto](guida-tecnica/informazioni-utili/canali-di-supporto.md)
   * [Changelog](guida-tecnica/informazioni-utili/changelog.md)
 
