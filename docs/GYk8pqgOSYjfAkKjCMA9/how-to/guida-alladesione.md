@@ -18,7 +18,7 @@ Controlla di aver completato il [processo](https://www.agid.gov.it/it/piattaform
 
 Per maggiori informazioni sull'e-procurement si fa riferimento a [questa news ](https://www.agid.gov.it/it/agenzia/stampa-e-comunicazione/notizie/2023/09/25/procurement-pubblicato-schema-operativo-supporto-del-processo-certificazione)sul sito di AgID.
 
-* **Se sei un impresa e/o gruppo assicurativo:**
+* **Se sei un'impresa e/o gruppo assicurativo:**
 
 Controlla di essere presente all'interno [dell'Albo](https://infostat-ivass.bancaditalia.it/RIGAInquiry-public/ng/#/home).&#x20;
 
@@ -138,7 +138,7 @@ Cliccando sul pulsante "Completa la richiesta" presente nella PEC, l'utente ha l
 
 Se il caricamento va a buon fine, il nuovo Amministratore viene aggiunto correttamente.
 
-Il personale tecnico, identificato dalla figure di "operatore API" e "operatore di sicurezza" invece non rientra nell'accordo di adesione. Può essere gestito in qualsiasi momento dagli operatori amministrativi, i quali hanno permessi di amministrazione, sulla Piattaforma Area Riservata (Self Care). Per farlo, troveranno la voce di menù _**Utenti**_ sulla sinistra. Questa flessibilità permette di gestire più facilmente eventuali cambiamenti in corsa e personale sia in-house che esterno all'ente.
+Il personale tecnico, identificato dalla figure di "operatore API" e "operatore di sicurezza" invece non rientra nell'accordo di adesione. Può essere gestito in qualsiasi momento dagli operatori amministrativi, i quali hanno permessi di amministrazione, sulla Piattaforma Area Riservata (Self Care). Per farlo, troveranno la voce di menu _**Utenti**_ sulla sinistra. Questa flessibilità permette di gestire più facilmente eventuali cambiamenti in corsa e personale sia in-house che esterno all'ente.
 
 ## Rimuovere un operatore amministrativo a PDND Interoperabilità
 

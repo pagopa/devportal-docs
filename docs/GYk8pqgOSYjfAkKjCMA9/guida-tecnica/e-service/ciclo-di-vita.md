@@ -16,7 +16,7 @@ Se un e-service è già stato pubblicato, eventuali aggiornamenti richiedono la 
 
 Le versioni degli e-service sono numerate **automaticamente** dalla piattaforma in ordine crescente.
 
-Quando viene pubblicata una nuova versione di un e-service **non viene effettuato l'upgrade automatico** per tutti i fruitori: una nuova versione di e-service può presentare delle differenze rispetto alla versione precedente, quindi un upgrade automatico di tutti i fruitori porterebbe a disservizi diffusi laddove parte dell'API fosse cambiata. Ogni fruitore potrà fare l'upgrade manualmente della propria richiesta di fruizione all'ultima versione dell'e-service non appena riterrà la sua integrazione stabile.
+Il rilascio di una nuova versione di un e-service **non prevede un upgrade automatico** per tutti gli utenti. Questo avviene perché ogni nuova versione può differire dalla precedente, e un aggiornamento automatico potrebbe causare disservizi se l'API è stata modificata. Gli utenti hanno la possibilità di eseguire manualmente l'upgrade  della propria richiesta di fruizione all'ultima versione dell'e-service quando ritengono che l'integrazione sia stabile.
 
 ## **Cancellazione di una bozza**
 
@@ -37,8 +37,9 @@ La sospensione di una versione di e-service comporta un'interruzione di servizio
 
 ## **Archiviazione e clonazione**
 
-* Quando tutte le richieste di fruizione di una versione deprecata sono state aggiornate a una nuova versione, la versione deprecata dell’e-service viene **archiviata**. Questa operazione è **irreversibile**.
-* Per facilitare la gestione di servizi simili, è possibile **clonare un e-service**, modificarne alcune parti e pubblicarlo come nuovo servizio indipendente.
+Quando tutte le richieste di fruizione di una versione deprecata sono state aggiornate a una nuova versione, la versione deprecata dell’e-service viene **archiviata**. Questa operazione è **irreversibile**.
+
+Per facilitare la gestione di servizi simili, è possibile **clonare un e-service**, modificarne alcune parti e pubblicarlo come nuovo servizio indipendente.
 
 ## Esportazione&#x20;
 

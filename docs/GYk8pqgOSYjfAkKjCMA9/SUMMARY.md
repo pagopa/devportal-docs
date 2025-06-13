@@ -29,7 +29,11 @@
 * [Attributi](guida-tecnica/attributi/README.md)
   * [Funzionamento](guida-tecnica/attributi/funzionamento.md)
   * [Tipologie di Attributi](guida-tecnica/attributi/tipologie-di-attributi.md)
-* [Finalità](guida-tecnica/finalita.md)
+* [Finalità](guida-tecnica/finalita/README.md)
+  * [Ciclo di vita](guida-tecnica/finalita/ciclo-di-vita.md)
+  * [Creazione di una finalità: informazioni necessarie](guida-tecnica/finalita/creazione-di-una-finalita-informazioni-necessarie.md)
+  * [Gestione del carico](guida-tecnica/finalita/gestione-del-carico.md)
+  * [Gestione dei client](guida-tecnica/finalita/gestione-dei-client.md)
 * [Client](guida-tecnica/client-e-materiale-crittografico.md)
 * [Voucher](guida-tecnica/utilizzare-i-voucher/README.md)
   * [Il flusso in breve](guida-tecnica/utilizzare-i-voucher/il-flusso-in-breve.md)
@@ -43,7 +47,7 @@
 
 * [Come accedere a PDND Interoperabilità](how-to/ambienti-disponibili.md)
 * [Come aderire a PDND Interoperabilità e aggiungere un operatore](how-to/guida-alladesione.md)
-* [Come Gestire un E-service](how-to/e-service.md)
+* [Come gestire un E-service](how-to/e-service.md)
 * [Come creare un nuovo attributo](how-to/come-creare-un-nuovo-attributo.md)
 * [Come assegnare o revocare un attributo certificato da un altro ente](how-to/come-assegnare-o-revocare-un-attributo-certificato-da-un-altro-ente.md)
 * [Come gestire una richiesta di fruizione](how-to/come-gestire-una-richiesta-di-fruizione.md)
@@ -62,5 +66,5 @@
 ## Tutorial
 
 * [Attributi e interoperabilità per enti locali (caso terremoto 2016)](tutorial/attributi-e-interoperabilita-per-enti-locali-caso-terremoto-2016.md)
-* [Creare una finalità per e-service che riceve dati - Caso ANAC](tutorial/creare-una-finalita-per-e-service-che-riceve-dati-caso-anac.md)
+* [Creare una finalità per E-service che riceve dati - Caso ANAC](tutorial/creare-una-finalita-per-e-service-che-riceve-dati-caso-anac.md)
 * [Esempio di export di un E-service](tutorial/esempio-di-export-di-un-e-service.md)

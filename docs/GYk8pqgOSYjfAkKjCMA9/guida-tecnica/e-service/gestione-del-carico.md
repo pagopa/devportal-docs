@@ -19,4 +19,4 @@ Gli obiettivi di questa gestione sono:
 
 Le soglie sono sempre modificabili dall'erogatore senza dover creare una nuova version e dell'e-service.
 
-Maggiori informazioni sono disponibili nella sezione [Finalità](../finalita.md).
+Maggiori informazioni sono disponibili nella sezione [Finalità](broken-reference).

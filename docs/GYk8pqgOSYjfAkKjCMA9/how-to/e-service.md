@@ -1,4 +1,4 @@
-# Come Gestire un E-service
+# Come gestire un E-service
 
 ## Creazione di un e-service
 
@@ -6,7 +6,7 @@ Ogni e-service contiene al suo interno una specifica - definito file di interfac
 
 ### Step 1 - Crea Nuovo
 
-Se hai permessi di amministrazione o da operatore API, troverai la voce di menù _**Erogazione > I tuoi e-service**_**&#x20;>&#x20;**_**Crea nuovo**_.&#x20;
+Se hai permessi di amministrazione o da operatore API, troverai la voce di menu _**Erogazione > I tuoi e-service**_**&#x20;>&#x20;**_**Crea nuovo**_.&#x20;
 
 <figure><img src="../.gitbook/assets/nuovo e-service.png" alt=""><figcaption></figcaption></figure>
 
@@ -67,13 +67,13 @@ Per creare una nuova versione, nella vista _**Erogazione > I tuoi e-service**_ s
 
 <figure><img src="../.gitbook/assets/crea bozza nuova versione.png" alt=""><figcaption><p>Schermata di creazione di una bozza di nuova versione di e-service</p></figcaption></figure>
 
-Una volta selezionata la voce _Crea bozza_, si aprirà la schermata di creazione della nuova versione di e-service. Alcuni campi saranno pre compilati come la versione precedente e si potranno modificare a proprio piacimento, come ad esempio le informazioni su voucher, soglia di carico, attributi e documentazione.
+Una volta selezionata la voce _**Crea bozza**_, si aprirà la schermata di creazione della nuova versione di e-service. Alcuni campi saranno pre compilati come la versione precedente e si potranno modificare a proprio piacimento, come ad esempio le informazioni su voucher, soglia di carico, attributi e documentazione.
 
 <figure><img src="../.gitbook/assets/bozza precompilata nuova versione.png" alt=""><figcaption><p>Schermata di modifica delle informazioni in una nuova versione di e-service</p></figcaption></figure>
 
-### Come erogare un E-service
+## Erogare un E-service
 
-L'aderente che intende erogare un e-service potrà crearlo e gestirlo dalla voce di menù _**Erogazione > I tuoi e-service**_. Una volta pubblicato un [e-service](broken-reference), sarà reso disponibile sul _Catalogo e-service_, visualizzabile in modalità fruizione (_**Fruizione > Catalogo e-service**_). Gli aderenti interessati a fruire dell'e-service e in possesso dei requisiti minimi richiesti dall'erogatore (attributi), potranno iscriversi presentando una richiesta di fruizione. Ogni erogatore troverà le richieste di fruizione presentate dai Fruitori in _**Erogazione > Richieste di fruizione**_, dove potrà gestirle. Il fruitore potrà presentare delle finalità e iniziare a utilizzare l'e-service solo dopo che la richiesta è approvata.
+L'aderente che intende erogare un e-service potrà crearlo e gestirlo dalla voce di menù _**Erogazione > I tuoi e-service**_. Una volta pubblicato un e-service, sarà reso disponibile sul _Catalogo e-service_, visualizzabile in modalità fruizione (_**Fruizione > Catalogo e-service**_). Gli aderenti interessati a fruire dell'e-service e in possesso dei requisiti minimi richiesti dall'erogatore (attributi), potranno iscriversi presentando una richiesta di fruizione. Ogni erogatore troverà le richieste di fruizione presentate dai Fruitori in _**Erogazione > Richieste di fruizione**_, dove potrà gestirle. Il fruitore potrà presentare delle finalità e iniziare a utilizzare l'e-service solo dopo che la richiesta è approvata.
 
 {% hint style="info" %}
 Per approfondire il funzionamento del flusso dell'erogatore si rimanda ai paragrafi successivi e alle voci [Client e materiale crittografico](../guida-tecnica/client-e-materiale-crittografico.md) e [Utilizzare i voucher](../guida-tecnica/utilizzare-i-voucher/) di questa guida.
@@ -83,7 +83,7 @@ Per approfondire il funzionamento del flusso dell'erogatore si rimanda ai paragr
 
 <mark style="background-color:blue;">\[Aggiungere l'archiviazione/screenshot]</mark>
 
-Se una versione di e-service è archiviabile, l'opzione per farlo sarà cliccabile. Bisogna andare su _**Erogazione > I tuoi e-service**_, cliccare sui tre pallini della versione di e-service deprecata di interesse, e su _**Archivia**_.
+Se una versione di e-service è archiviabile, l'opzione per farlo sarà cliccabile. Bisogna andare su _**Erogazione > I tuoi e-service**_, cliccare sui tre pallini della versione di e-service deprecata di interesse e su _**Archivia**_.
 
 {% hint style="warning" %}
 Questa funzionalità non è ancora stata rilasciata in ambiente di esercizio
@@ -93,7 +93,7 @@ Questa funzionalità non è ancora stata rilasciata in ambiente di esercizio
 
 <mark style="background-color:blue;">\[aggiungere la cancellazione bozza]</mark>
 
-Per cancellare un e-service o una sua versione in bozza, andare su _Erogazione > I tuoi e-service_, cliccare sui tre pallini della versione di e-service in bozza desiderata, e su _Elimina_.
+Per cancellare un e-service o una sua versione in bozza, andare su _**Erogazione > I tuoi e-service**_, cliccare sui tre pallini della versione di e-service in bozza desiderata e su _**Elimina**_.
 
 <mark style="background-color:blue;">\[Aggiungere Sospendere o riattivare una versione ]</mark>
 
@@ -101,11 +101,11 @@ Per cancellare un e-service o una sua versione in bozza, andare su _Erogazione >
 
 Per facilitare la procedura di creazione di e-service molto simili, è stata disposta una funzionalità di clonazione. Per farlo, puoi andare su _**Erogazione > I tuoi e-service**_, cliccare sui tre pallini dell'e-service da clonare e selezionare _**Clona**_. È possibile clonare solo versioni di e-service in stato "attivo" o "deprecato".
 
-L'e-service creato da questo clone non sarà pubblicato immediatamente, sarà messo in bozza. La sua numerazione di versione partirà dalla 1, indipendentemente dal numero di versione dell'e-service dal quale è stato clonato.
+L'e-service creato da questo clone non sarà pubblicato immediatamente, sarà messo in bozza. La sua numerazione di versione partirà da 1, indipendentemente dal numero di versione dell'e-service dal quale è stato clonato.
 
 <figure><img src="../.gitbook/assets/clona_e-service.png" alt=""><figcaption></figcaption></figure>
 
-## Esportare ed importare un e-service
+## Esportare e importare un e-service
 
 È possibile esportare una versione di e-service da un ambiente di PDND Interoperabilità; quindi, la si può importare all'interno di un altro ambiente come nuovo e-service in bozza. Attualmente questa funzionalità è disponibile solo attraverso la UI.
 
@@ -119,13 +119,13 @@ Un utente con permessi di gestione per gli e-service (ossia amministratore o ope
 
 <figure><img src="../.gitbook/assets/import_export_e-service 2.png" alt=""><figcaption><p>Vista della lista degli e-service in gestione all'ente con, in alto a destra, il pulsante "Importa"</p></figcaption></figure>
 
-Cliccando su _Importa_, si apre un cassetto laterale che offre la possibilità di inserire un file zip. Una volta inserito, verranno elencate le possibili problematiche che impediranno il corretto caricamento. Una volta verificati tutti i punti, si potrà cliccare su _**Ho preso visione**, e **confermo**_, e cliccare sul pulsante _**Importa**_.&#x20;
+Cliccando su _Importa_, si apre un cassetto laterale che offre la possibilità di inserire un file zip. Una volta inserito, verranno elencate le possibili problematiche che impediranno il corretto caricamento. Una volta verificati tutti i punti, si potrà cliccare su _**Ho preso visione** > **Confermo**_ > _**Importa**_.&#x20;
 
 <figure><img src="../.gitbook/assets/import_export_e-service 3.png" alt=""><figcaption><p>Vista del cassetto laterale che permette di caricare lo .zip</p></figcaption></figure>
 
 Se tutto va a buon fine, l'utente sarà reindirizzato direttamente alla bozza del nuovo e-service che è stata creata a partire dallo .zip importato. In caso contrario, verrà dato un feeback negativo.
 
-### Come esportare una versione di E-service
+### Esportare una versione di E-service
 
 Un utente con permessi di gestione per gli e-service (ossia amministratore o operatore API) può entrare nella scheda del singolo e-service in _**Erogazione > I tuoi e-service**_. A quel punto, tra le azioni disponibili in basso nella scheda _**Informazioni generali**_, troverà _**Scarica questa versione dell'e-service**_.
 
@@ -133,6 +133,6 @@ Un utente con permessi di gestione per gli e-service (ossia amministratore o ope
 
 La versione di e-service verrà scaricata in formato .zip, già pronta per essere reimportata nell'altro ambiente.
 
-## Come fruire di un E-service
+## Fruire di un E-service
 
 L'aderente che intende fruire di un e-service potrà visualizzare tutti quelli disponibili andando su _**Fruizione > Catalogo e-service**_. Se possiede i requisiti minimi, visualizzerà un pulsante _**Iscriviti**_, attraverso il quale potrà "iscriversi all'e-service" presentando una richiesta di fruizione che l'erogatore valuterà. Una volta che la richiesta di fruizione viene approvata ed è attiva, il fruitore potrà creare delle finalità. In ogni finalità, dovrà indicare il dettaglio sull'accesso e l'utilizzo dei dati (chiamata _analisi del rischio_) e la _stima di carico_, la quantità di richieste che insisteranno sull'erogatore (definito in numero di chiamate API al giorno stimate). Se la stima di carico eccede la capacità dell'infrastruttura dell'erogatore, sarà necessaria la sua approvazione prima che il fruitore possa utilizzare quella finalità per accedere al e-service.

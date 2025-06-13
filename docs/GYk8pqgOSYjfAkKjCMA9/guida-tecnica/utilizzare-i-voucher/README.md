@@ -34,7 +34,7 @@ Si suggerisce di fare sempre riferimento alla guida passo passo implementata nel
 
 ### Richiesta di un voucher spendibile presso le API di Interoperabilità
 
-Il pre-requisito per poter ottenere un voucher valido è aver caricato almeno una chiave pubblica, parte del proprio materiale crittografico, all'interno di un client api interop (disponibile sull'interfaccia del back office alla voce _Fruizione > I tuoi client api interop_). Per saperne di più, leggi la [s](../client-e-materiale-crittografico.md)[ezione dedicata](../client-e-materiale-crittografico.md).
+Il prerequisito per poter ottenere un voucher valido è aver caricato almeno una chiave pubblica, parte del proprio materiale crittografico, all'interno di un client api interop (disponibile sull'interfaccia del back office alla voce _Fruizione > I tuoi client api interop_). Per saperne di più, leggi la [s](../client-e-materiale-crittografico.md)[ezione dedicata](../client-e-materiale-crittografico.md).
 
 Il primo passo è costruire una _client assertion_ valida e firmarla con la propria chiave privata (che deve essere l'omologa della chiave pubblica depositata sul client su PDND Interoperabilità). La client assertion è composta da un header e un payload.&#x20;
 
@@ -70,7 +70,7 @@ Il token andrà inserito nell'header di tutte le chiamate successive verso le AP
 
 Le istruzioni sono essenzialmente uguali a quelle del paragrafo precedente, con due eccezioni.
 
-La prima è che il pre-requisito per poter ottenere un voucher valido è aver caricato almeno una chiave pubblica all'interno di un client e-service associato ad una finalità attiva, invece di un client api interop. Anche qui, si veda la [sezione dedicata](../client-e-materiale-crittografico.md#caricare-una-chiave-pubblica-in-un-client).
+La prima è che il prerequisito per poter ottenere un voucher valido è aver caricato almeno una chiave pubblica all'interno di un client e-service associato ad una finalità attiva, invece di un client api interop. Anche qui, si veda la [sezione dedicata](../client-e-materiale-crittografico.md#caricare-una-chiave-pubblica-in-un-client).
 
 La seconda è che all'interno del payload della client assertion va specificato anche il `purposeId`, ossia l'id della finalità per la quale si richiede il voucher. Questo parametro è disponibile nel back office di PDND Interoperabilità.
 

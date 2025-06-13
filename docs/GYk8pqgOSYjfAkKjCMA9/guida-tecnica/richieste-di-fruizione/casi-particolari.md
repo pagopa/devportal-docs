@@ -22,7 +22,7 @@ Il sistema di notifica è in corso di realizzazione e non è ancora disponibile.
 
 ## Fruizione: perdita di un attributo dichiarato
 
-La certificazione e la revoca degli attributi dichiarati è a carico esclusivo dei fruitori.
+La certificazione e la revoca degli attributi dichiarati sono a carico esclusivo dei fruitori.
 
 Se il fruitore si revoca un attributo dichiarato per una richiesta di fruizione in bozza, esistono due casi. Se l'attributo non è strettamente necessario alla presentazione della richiesta di fruizione, non succede nulla. Se l'attributo è invece necessario, non sarà possibile inoltrare la richiesta finché l'attributo non viene nuovamente dichiarato.
 
