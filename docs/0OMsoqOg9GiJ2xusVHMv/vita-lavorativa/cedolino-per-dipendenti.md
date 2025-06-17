@@ -1,6 +1,6 @@
 # Cedolino per dipendenti
 
-Erogare il servizio tramite l'app IO permette agli enti di:
+Erogare il servizio tramite l'App IO permette agli enti di:
 
 * fornire per le dipendenti e i dipendenti del Comune un riferimento per la ricezione delle comunicazioni riguardanti i cedolini, la Certificazione Unica e altri documenti;
 * monitorare e gestire tempestivamente le richieste e le comunicazioni per l’erogazione del servizio.
