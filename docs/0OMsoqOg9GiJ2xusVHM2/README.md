@@ -17,6 +17,9 @@ Quando il servizio sarà pubblicato, questi elementi saranno visibili al cittadi
 I modelli dei messaggi sono degli esempi indicativi: gli enti che desiderino utilizzarli devono quindi modificarli a seconda delle loro esigenze. Gli enti mittenti sono i soli responsabili del contenuto dei messaggi che inviano.
 {% endhint %}
 
+Per rendere il servizio più performante, è importante che il pulsante sia un invito chiaro e diretto e che spinga l'utente a compiere un'azione specifica e immediata.\
+Abbiamo inserito una **breve guida** con dei suggerimenti[ in questa pagina](https://app.gitbook.com/s/NnGVerf52DRacWYFzrxv/come-si-crea-un-servizio/la-scheda-servizio/pulsante-con-call-to-action-cta).
+
 ***
 
 {% hint style="info" %}
