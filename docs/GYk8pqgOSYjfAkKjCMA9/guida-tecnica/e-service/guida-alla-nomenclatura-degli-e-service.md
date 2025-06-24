@@ -1,6 +1,4 @@
-# Info Utili
-
-## Guida alla nomenclatura degli e-service
+# Guida alla nomenclatura degli e-service
 
 È stata creata una guida ad hoc per la nomenclatura degli e-service, che consiste in una serie di buone pratiche per la loro nomina e descrizione su PDND Interoperabilità.
 

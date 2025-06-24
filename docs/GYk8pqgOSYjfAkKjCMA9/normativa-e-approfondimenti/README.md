@@ -2,22 +2,22 @@
 
 ## Termini di accreditamento a PDND Interoperabilità
 
-1. I soggetti di cui all’articolo 2, comma 2, lettera a) (**Pubbliche amministrazioni**) del CAD sono tenuti ad accreditarsi alla PDND, a sviluppare le interfacce di programmazione (API) di cui all’articolo 50-ter, comma 2, del CAD ed a rendere disponibili le proprie basi dati sulla PDND entro il 30 settembre 2023.
-2. I soggetti di cui all’articolo 2, comma 2, lettera b) (**Gestori di pubblici servizi**), del CAD sono tenuti ad accreditarsi alla PDND, a sviluppare le interfacce di programmazione (API) di cui all’articolo 50-ter, comma 2, del CAD ed a rendere disponibili le proprie basi dati sulla PDND entro il 31 marzo 2024.
-3. I soggetti di cui all’articolo 2, comma 2, lettera c) (**Società a controllo pubblico**), del CAD sono tenuti ad accreditarsi alla PDND, a sviluppare le interfacce di programmazione (API) di cui all’articolo 50-ter, comma 2, del CAD ed a rendere disponibili le proprie basi dati sulla PDND entro il 30 settembre 2024.
-4. Gli obblighi di cui ai commi precedenti vigono anche per i soggetti di cui all’articolo 2, comma 2, del CAD che, ai sensi dell’articolo 50-ter, comma 7, del CAD, decidono di continuare ad utilizzare anche i sistemi di interoperabilità già previsti dalla legislazione vigente.
+1. I soggetti di cui all’Articolo 2, Comma 2, Lettera a) (**Pubbliche Amministrazioni**) del CAD devono accreditarsi a PDND Interoperabilità, sviluppare le interfacce di programmazione (API) specifiche dell’Articolo 50-ter, Comma 2 del CAD e rendere disponibili le proprie basi dati sulla PDND Interoperabilità entro il 30 settembre 2023.
+2. I soggetti di cui all’Articolo 2, Comma 2, Lettera b) (**Gestori di pubblici servizi**) del CAD devono accreditarsi alla PDND Interoperabilità, sviluppare le interfacce di programmazione (API) specifiche dell’Articolo 50-ter, Comma 2, del CAD e rendere disponibili le proprie basi dati sulla PDND Interoperabilità entro il 31 marzo 2024.
+3. I soggetti di cui all’Articolo 2, Comma 2, Lettera c) (**Società a controllo pubblico**)del CAD devono accreditarsi alla PDND Interoperabilità, sviluppare le interfacce di programmazione (API) specifiche dell’Articolo 50-ter, Comma 2, del CAD e rendere disponibili le proprie basi dati sulla PDND Interoperabilità entro il 30 settembre 2024.
+4. Gli obblighi precedenti si applicano anche ai soggetti di cui all’Aticolo 2, Comma 2 del CAD che, ai sensi dell’Articolo 50-ter, Comma 7 del CAD, decidono di continuare a utilizzare i sistemi di interoperabilità già previsti dalla legislazione vigente.
 
 ## SLA - Service Level Agreement
 
 In ottemperanza alle [Linee Guida AgID](https://www.agid.gov.it/sites/agid/files/2024-06/Linee_guida_infrastruttura_interoperabilita_pdnd.pdf) per PDND Interoperabilità, in particolare al paragrafo 13 sui livello di servizio dell'infrastruttura, la piattaforma garantisce i seguenti SLA per la generazione del token di accesso:
 
 * **Indicatore 13.1.1 - Tempo di risposta delle richieste su percentile:**\
-  P90 di 10 secondi in un range di 120 minuti, ovvero "considerando un periodo di 120 minuti, il 90% delle richieste viene processato entro 10 secondi";
+  Il P90 di 10 secondi in un intervallo di 120 minuti, ovvero "in un periodo di 120 minuti, il 90% delle richieste viene processato entro 10 secondi";
 * **Indicatore 13.1.2 - Numero di richieste per unità di tempo:**\
-  \- Ambiente di Produzione: 1.440.000 richieste in un range di 120 minuti (200 richieste per secondo)\
-  \- Altri ambienti: 720.000 richieste in un range di 120 minuti (100 richieste per secondo);
+  \- Ambiente di Produzione: 1.440.000 richieste in un intervallo di 120 minuti (200 richieste al secondo)\
+  \- Altri Ambienti: 720.000 richieste in un intervallo di 120 minuti (100 richieste al secondo);
 * **Indicatore 13.1.3 - Numero di richieste con risposta di errore per unità di tempo:**\
-  3% in un range di 120 minuti.
+  Un massimo del 3% in un intervallo di 120 minuti.
 
 {% file src="../.gitbook/assets/Decreto PDND art. 50-ter co 2-bis del CAD" %}
 

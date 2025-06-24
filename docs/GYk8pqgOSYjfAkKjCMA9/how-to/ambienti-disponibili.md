@@ -1,10 +1,10 @@
-# Come accedere a PDND Interoperabilità
+# Come accedere al back office di PDND Interoperabilità
 
-## Accesso
+## Come Accedere
 
 ### Step 1 - Login
 
-Effettuare il login con SPID.
+Effettuare il login con SPID o CIE.
 
 <figure><img src="../.gitbook/assets/interop_ambiente_test_01.png" alt=""><figcaption><p>Schermata di login alla Piattaforma Area Riservata (Self Care) attraverso SPID.</p></figcaption></figure>
 
@@ -18,32 +18,38 @@ Scegliere l'ente per il quale si opera.
 
 ### Step 3 -Selezionare Interoperabilità
 
-Selezionare il prodotto _Interoperabilità_.
+Selezionare il prodotto _**Interoperabilità**_.
 
 <figure><img src="../.gitbook/assets/Interoperabilità nuovo layout.png" alt=""><figcaption><p>Schermata di selezione prodotto sulla Piattaforma Area Riservata (Self Care).</p></figcaption></figure>
 
 ### Step 4 - Selezionare l'ambiente
 
-All'apertura della modale, è richiesto l'ambiente in cui si intende operare: collaudo o produzione. Si verrà quindi rimandati a PDND Interoperabilità nell'ambiente richiesto.
+All'apertura della modale, è richiesto l'ambiente in cui si intende operare: Collaudo, Attestazione o Produzione.&#x20;
+
+Si viene indirizzati a PDND Interoperabilità nell'ambiente richiesto.
 
 <figure><img src="../.gitbook/assets/interop collaudo.png" alt=""><figcaption><p>Schermata di selezione ambiente, dopo aver selezionato il prodotto, sulla Piattaforma Area Riservata (Self Care).</p></figcaption></figure>
 
-{% hint style="info" %}
-Su Interoperabilità chi possiede il ruolo di amministratorre in produzione, è Amministratore anche nell'ambiente di collaudo.
+{% hint style="warning" %}
+Se non ti viene chiesto di scegliere l'ambiente, vuol dire che la tua utenza è associata solamente ad uno dei tre ambienti disponibili. Per farti abilitare agli altri ambienti, contatta un tuo amministratore.
 {% endhint %}
 
-L'operatore API e l'operatore di sicurezza devono essere abilitati dall'amministratore per accedere all'ambiente di collaudo. Chi non fosse abilitato dopo aver effettuato il login con SPID, selezionato l'ente di riferimento e scelto il prodotto Interoperabilità, verrà rimandato automaticamente all'ambiente di produzione.
+## Come abilitare un utente
 
-## Abilitazione
+Solo gli amministratori possono abilitare gli utenti.
 
-L'amministratore, per poter abilitare un utente, deve accedere a PDND Interoperabilità nell'ambiente di produzione o al back office di Selfcare e andare su _Utenti > Aggiungi Utente_. Si aprirà così un form da compilare con i dati dell'operatore da abilitare all'ambiente di collaudo.
+Per abilitare un utente:
 
-<figure><img src="../.gitbook/assets/doppio ambiente interop + collaudo.png" alt=""><figcaption><p>Nella sezione Utenti è presente una distinzione tra l'ambiente Interoperabilità produzione e Interoperabilità collaudo, bisogna fare attenzione in quale ambiente si inserisce la nuova utenza</p></figcaption></figure>
+* accedere al back office di Area Riservata
+* andare su _**Utenti > Aggiungi Utente**_
+* compilare il form con i dati dell'utente da abilitare all'ambiente di interesse.
+
+<figure><img src="../.gitbook/assets/doppio ambiente interop + collaudo.png" alt=""><figcaption><p>Nella sezione Utenti è presente una distinzione tra l'ambiente Interoperabilità (Produzione), Interoperabilità Collaudo e Interoperabilità Attestazione, bisogna fare attenzione in quale ambiente si inserisce la nuova utenza</p></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/collaudo aggiungi utente.png" alt=""><figcaption><p>Come appare la schermata di aggiunta utente dove si può scegliere il prodotto per cui si sta aggiungendo la nuova utenza</p></figcaption></figure>
 
-Nell'ambiente di collaudo è possibile nominare amministratore anche l'utente che in produzione ha il ruolo di operatore, in quanto:
+Nell'ambiente di Collaudo o Attestazione è possibile nominare amministratore anche l'utente che in Produzione ha il ruolo di operatore, in quanto:
 
-* &#x20;i due ambienti non interferiscono tra loro;
-* è possibile fare tutti i test per valutare l'integrazione dell'ente con PDND Interoperabilità;
-* l'operatore può reperire tutte le informazioni necessarie per abilitare il proprio amministratore per operare poi nell'ambiente di produzione.
+* l'ambiente di Collaudo è un ambiente di test e i dati lì contenuti sono fittizi;&#x20;
+* gli ambienti sono completamente separati tra loro;
+* l'operatore può reperire tutte le informazioni necessarie per supportare il proprio amministratore per operare efficacemente nell'ambiente di Produzione.

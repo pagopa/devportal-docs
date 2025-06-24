@@ -1,7 +1,7 @@
 # Gestione del carico
 
-Il fruitore è tenuto a comunicare il carico che stima di porre sull'infrastruttura dell'erogatore. Il carico è stimato in chiamate API/giorno che l'erogatore si deve aspettare dal fruitore.
+Questa stima può essere aggiornata in qualsiasi momento. Tuttavia, si possono verificare due scenari distinti:
 
-Questa stima è aggiornabile in qualsiasi momento dal fruitore. Nel caso questa richiesta di cambio di piano superi una o tutte e due le soglie impostate dall'erogatore, la nuova stima andrà in stato "In attesa di approvazione". Il fruitore potrà continuare ad utilizzare la finalità regolarmente con la stima concordata in precedenza fino all'eventuale approvazione della nuova stima da parte dell'erogatore.
+**Aggiornamento di una stima già approvata:** Se la nuova richiesta supera una o entrambe le soglie stabilite dall'erogatore, la modifica passa in stato "In attesa di approvazione". Nel frattempo, il fruitore può continuare a utilizzare regolarmente la finalità con la stima precedentemente concordata, fino all'eventuale approvazione della nuova configurazione.
 
-Esiste anche il caso che la stima superi una o tutte e due le soglie dell'erogatore già la prima volta che viene presentata. In quel caso, l'intera finalità andrà "In attesa di approvazione" e non potrà essere utilizzata per ottenere voucher fino a che l'erogatore non l'avrà approvata manualmente.
+**Prima sottomissione oltre le soglie:** Se già la stima iniziale supera una o entrambe le soglie dell'erogatore, l'intera finalità viene posta "In attesa di approvazione" e non può essere utilizzata per ottenere voucher fino all'approvazione manuale da parte dell'erogatore.

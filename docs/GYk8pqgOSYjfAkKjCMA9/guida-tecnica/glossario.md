@@ -1,12 +1,18 @@
 # Glossario
 
+<mark style="background-color:blue;">Interfaccia utente di PDND Interoperabilità alla cui accedi attraverso l'Area Riservata di PagoPA.</mark>
+
+Un insieme di norme che regolano l’uso delle tecnologie digitali nella Pubblica Amministrazione (PA) e nei rapporti tra cittadini, imprese e PA. L'articolo 50-ter è dedicato a PDND Interoperabilità. Altri articoli ne definiscono le basi dati di interesse nazionale e la platea degli enti aderenti.
+
+Un ente accreditato per creare nuovi attributi certificati. Il certificatore può poi assegnare e revocare agli altri aderenti gli attributi che ha creato.
+
 ## Adesione
 
 Per poter usufruire delle funzionalità messe a disposizione da PDND Interoperabilità, un ente deve prima effettuare l'adesione alla piattaforma, seguendo la procedura dedicata. Una volta abilitato, potrà agire sia in veste di erogatore che di fruitore.
 
 ## Amministratore (operatore amministrativo)
 
-All'atto dell'adesione dell'ente, puoi specificare fino a tre amministratori (operatori amministrativi). Questi sono di fatto delegati dal legale rappresentante ad operare con pieni poteri su PDND Interoperabilità. Utenti con questi permessi possono ad esempio inoltrare, sospendere e riattivare richieste di fruizione, creare client e finalità, aggiungere, rimuovere o sospendere figure operative, compilare analisi del rischio e fare tutte le operazioni che competono a livelli di permesso inferiori.
+All'atto dell'adesione dell'ente, puoi specificare fino a tre amministratori (operatori amministrativi). Questi sono di fatto delegati dal legale rappresentante ad operare con pieni poteri su PDND Interoperabilità. Utenti con questi permessi possono inoltrare, sospendere e riattivare richieste di fruizione, creare client e finalità, aggiungere, rimuovere o sospendere figure operative, compilare analisi del rischio e fare tutte le operazioni che competono a livelli di permesso inferiori.
 
 {% hint style="info" %}
 Puoi aggiungere ulteriori operatori amministrativi in una seconda fase. L'operazione richiede la firma digitale del legale rappresentante dell'ente. Questa funzionalità non è attualmente implementata sulla Piattaforma Area Riservata (Self Care), che centralizza la gestione degli utenti per tutti i prodotti erogati da PagoPA.

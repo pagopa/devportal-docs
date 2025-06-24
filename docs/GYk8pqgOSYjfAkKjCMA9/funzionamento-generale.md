@@ -1,6 +1,6 @@
 # Funzionamento generale
 
-## Le due modalità del back office
+## Le modalità di  utilizzo della piattaforma
 
 Il back office ha due funzionalità: erogazione e fruizione. Ogni aderente della Pubblica Amministrazione può fungere da erogatore di e-service, fruitore o ricoprire contemporaneamente entrambe le funzioni. PDND Interoperabilità fornisce un'interfaccia per gestire tutte le operazioni di creazione, modifica, aggiornamento e archiviazione del ciclo di vita degli e-service sia per gli erogatori che per i fruitori. Inoltre, fornisce un'API per eventuali necessità di automatizzazione dei flussi.
 

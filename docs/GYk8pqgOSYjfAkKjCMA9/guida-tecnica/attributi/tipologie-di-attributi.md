@@ -1,4 +1,4 @@
-# Tipologie di Attributi
+# Tipologie di attributi
 
 Gli attributi possono essere di tre tipi:
 
@@ -6,9 +6,9 @@ Gli attributi possono essere di tre tipi:
 * **verificati**: necessitano di verifica da parte dell'erogatore;
 * **dichiarati**: sono autodichiarazioni presentate dal fruitore.
 
-Tutti gli attributi sono organizzati in "gruppi". Se viene aggiunto più di un attributo allo stesso gruppo, sarà sufficiente che il fruitore ne possegga uno per ritenere soddisfatto il requisito di accesso all'e-service.&#x20;
+Tutti gli attributi sono organizzati in "gruppi". Se viene aggiunto più di un attributo allo stesso gruppo, è sufficiente che il fruitore ne possegga uno per ritenere soddisfatto il requisito di accesso all'e-service.&#x20;
 
-A scopo esemplificativo, se un e-service richiede un gruppo di attributi certificati definito come "Comune" _oppure_ "Regione", ogni ente che abbia come attributo certificato quello di "Comune" oppure quello di "Regione" soddisferà il requisito.
+A scopo esemplificativo, se un e-service richiede un gruppo di attributi certificati definito come "Comune" _oppure_ "Regione", ogni ente che abbia come attributo certificato quello di "Comune" oppure quello di "Regione" soddisfa il requisito.
 
 #### Attributi certificati
 
@@ -16,11 +16,11 @@ La particolarità di questa tipologia di attributi è che ci si avvale di una fo
 
 La responsabilità del corretto riconoscimento dell'attributo ricade dunque sull'ente certificatore.
 
-Per fare un esempio: uno degli attributi messi a disposizione sul Catalogo IPA, che è un ente certificatore, è _Comuni e loro Consorzi e Associazioni_. Un erogatore inserisce questo attributo tra i requisiti di accesso per un suo e-service. Quando un ente inoltra una richiesta di fruizione, viene fatta una verifica. PDND Interoperabilità controlla presso l'ente certificatore che il potenziale fruitore possieda effettivamente questo attributo, e riporta l'esito sulla piattaforma.
+Per fare un esempio: uno degli attributi messi a disposizione sul Catalogo IPA, che è un ente certificatore, è _Comuni e loro Consorzi e Associazioni_. Un erogatore inserisce questo attributo tra i requisiti di accesso per un suo e-service. Quando un ente inoltra una richiesta di fruizione, viene fatta una verifica. PDND Interoperabilità controlla presso l'ente certificatore che il potenziale fruitore possieda effettivamente questo attributo e riporta l'esito sulla piattaforma.
 
-Per le **pubbliche amministrazioni e i gestori di pubblici servizi** la fonte autoritativa principale ad oggi è il [catalogo IPA](https://indicepa.gov.it/ipa-portale/). La verifica del possesso di questi attributi da parte del fruitore viene effettuata automaticamente da PDND Interoperabilità e non è suscettibile di correttivi da parte di PagoPA. Se il fruitore ritiene che IPA gli abbia erroneamente non riconosciuto un attributo, dovrà contattare autonomamente il gestore del servizio per richiedere una modifica.
+Per le **pubbliche amministrazioni e i gestori di pubblici servizi** la fonte autoritativa principale ad oggi è il [catalogo IPA](https://indicepa.gov.it/ipa-portale/). La verifica del possesso di questi attributi da parte del fruitore viene effettuata automaticamente da PDND Interoperabilità e non è suscettibile di correttivi da parte di PagoPA. Se il fruitore ritiene che IPA non gli abbia erroneamente riconosciuto un attributo, deve contattare autonomamente il gestore del servizio per richiedere una modifica.
 
-Per i **gestori privati** **di e-procurement**, l'attribuzione dipende dal [processo](https://www.agid.gov.it/it/piattaforme/procurement/certificazione-componenti-piattaforme) di certificazione dei componenti delle piattaforme pubblicato da AgID. Una volta completato, verrà comunicato a PDND Interoperabilità il nome dell'ente a cui associare gli attributi certificati richiesti dall'erogatore. Allo stesso modo, anche le PA e i gestori di pubblici servizi che vogliono vedersi riconosciuti gli attributi necessari per accedere ai servizi ANAC dovranno seguire il processo di riconoscimento tramite AgID.
+Per i **gestori privati** **di e-procurement**, l'attribuzione dipende dal [processo](https://www.agid.gov.it/it/piattaforme/procurement/certificazione-componenti-piattaforme) di certificazione dei componenti delle piattaforme pubblicato da AgID. Una volta completato, viene comunicato a PDND Interoperabilità il nome dell'ente a cui associare gli attributi certificati richiesti dall'erogatore. Allo stesso modo, anche le PA e i gestori di pubblici servizi che vogliono vedersi riconosciuti gli attributi necessari per accedere ai servizi ANAC devono seguire il processo di riconoscimento tramite AgID.
 
 #### Attributi verificati
 
@@ -32,7 +32,7 @@ Laddove rilevante, il fruitore carica o indica la documentazione necessaria alle
 
 Per questa tipologia di attributi, la responsabilità ricade interamente sul dichiarante, ossia sul fruitore.
 
-Un erogatore può decidere di richiedere al fruitore diversi attributi dichiarati. Per ognuno di questi, il fruitore dichiarerà sotto la propria responsabilità di possedere il requisito prima di inoltrare la richiesta di fruizione all'erogatore. La dichiarazione viene registrata da PDND Interoperabilità sotto forma di "click". Non è dunque una dichiarazione implicita, ma richiede un'azione esplicita del fruitore.
+Un erogatore può decidere di richiedere al fruitore diversi attributi dichiarati. Per ognuno di questi, il fruitore deve dichiarare di possedere il requisito prima di inoltrare la richiesta di fruizione all'erogatore. La dichiarazione viene registrata da PDND Interoperabilità sotto forma di "click". Non è dunque una dichiarazione implicita, poiché richiede un'azione esplicita del fruitore.
 
-Una volta che l'aderente entra in possesso di uno specifico attributo dichiarato, non dovrà dichiararlo nuovamente se dovesse essere richiesto per l'iscrizione ad un altro e-service.
+Una volta che l'aderente entra in possesso di uno specifico attributo dichiarato, non deve dichiararlo nuovamente se dovesse essere richiesto per l'iscrizione ad un altro e-service.
 

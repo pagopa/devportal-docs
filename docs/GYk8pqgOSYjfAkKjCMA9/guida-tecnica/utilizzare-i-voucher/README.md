@@ -18,13 +18,17 @@ L'aderente costruisce una client assertion e la firma con una chiave privata la 
 
 ### Flusso voucher spendibile presso le API di Interoperabilità
 
-L'aderente fa richiesta di un voucher. Una volta ottenuto, lo inserisce come header autorizzativo nelle successive chiamate verso le API di PDND Interoperabilità.
+1. Il fruitore richiede un voucher a PDND Interoperabilità.
+2. PDND Interoperabilità restituisce un voucher all'aderente.
+3. Il fruitore lo inserisce come header autorizzativo nelle chiamate verso le API di PDND Interoperabilità.
 
 ### Flusso voucher spendibile presso un e-service del catalogo
 
-Il fruitore fa richiesta di un voucher. Una volta ottenuto, lo inserisce come header autorizzativo nelle chiamate che effettua verso l'e-service di un erogatore.
-
-L'erogatore, ricevuta la richiesta con il voucher, effettua i debiti controlli. È possibile che alcuni di questi controlli richiedano il recupero di informazioni detenute da Interoperabilità. In quel caso, l'erogatore stesso dovrà richiedere un voucher spendibile presso le API di Interoperabilità. Una volta terminati i controlli, l'erogatore autorizza il fruitore all'accesso al servizio per la specifica finalità richiesta.
+1. Il fruitore richiede un voucher a PDND Interoperabilità.
+2. PDND Interoperabilità restituisce un voucher all'aderente.
+3. Il fruitore lo inserisce come header autorizzativo nelle chiamate che effettua verso l'e-service di un erogatore.
+4. L'erogatore, ricevuta la richiesta con il voucher, effettua i debiti controlli: è possibile che alcuni di questi controlli richiedano il recupero di informazioni detenute da Interoperabilità. In quel caso, l'erogatore stesso dovrà richiedere un voucher spendibile presso le API di Interoperabilità.
+5. Una volta terminati i controlli, l'erogatore autorizza il fruitore all'accesso al servizio per la specifica finalità richiesta.
 
 ## Implementazione
 
@@ -34,7 +38,7 @@ Si suggerisce di fare sempre riferimento alla guida passo passo implementata nel
 
 ### Richiesta di un voucher spendibile presso le API di Interoperabilità
 
-Il prerequisito per poter ottenere un voucher valido è aver caricato almeno una chiave pubblica, parte del proprio materiale crittografico, all'interno di un client api interop (disponibile sull'interfaccia del back office alla voce _Fruizione > I tuoi client api interop_). Per saperne di più, leggi la [s](../client-e-materiale-crittografico.md)[ezione dedicata](../client-e-materiale-crittografico.md).
+Il prerequisito per poter ottenere un voucher valido è aver caricato almeno una chiave pubblica, parte del proprio materiale crittografico, all'interno di un client API interop (disponibile sull'interfaccia del back office alla voce _**Fruizione > I tuoi client api interop**_). Per saperne di più, leggi la [s](../client-e-materiale-crittografico.md)[ezione dedicata](../client-e-materiale-crittografico.md).
 
 Il primo passo è costruire una _client assertion_ valida e firmarla con la propria chiave privata (che deve essere l'omologa della chiave pubblica depositata sul client su PDND Interoperabilità). La client assertion è composta da un header e un payload.&#x20;
 
@@ -50,12 +54,12 @@ Nel payload ci saranno invece sei campi:&#x20;
 * `sub`: il subject, in questo caso sempre il _clientId;_
 * `aud`: l'audience, reperibile su PDND Interoperabilità;
 * `jti`: il JWT ID, un id unico random assegnato da chi vuole creare il token, si usa per tracciare il token stesso. Deve essere cura del chiamante assicurarsi che l'id di questo token sia unico per quanto riguarda la client assertion;
-* `iat`: l'issued at, il timestamp riportante data e ora in cui viene creato il token, espresso in [UNIX epoch](https://datatracker.ietf.org/doc/html/rfc3339) (valore numerico, non stringa);
+* `iat`: l'issued at, il timestamp riportante data e ora in cui viene creato il token, espresso in [UNIX epoch](https://datatracker.ietf.org/doc/html/rfc3339) (valore numerico, non stringa).
 * `exp`: l'expiration, il timestamp riportante data e ora di scadenza del token, espresso in [UNIX epoch](https://datatracker.ietf.org/doc/html/rfc3339) (valore numerico, non stringa).
 
 Una volta firmata l'asserzione, prendere l'output e tenerlo da parte.
 
-Il secondo passaggio è chiamare il server autorizzativo di PDND Interoperabilità con la client assertion per ottenerne in cambio un voucher spendibile presso l'API di di PDND Interoperabilità (ossia un token valido). L'URL dell'endpoint cambia in funzione dell'ambiente e sarà chiaramente visibile sull'interfaccia all'interno del back office. L'endpoint andrà chiamato con alcuni parametri in body:
+Il secondo passaggio è chiamare il server autorizzativo di PDND Interoperabilità con la client assertion per ottenerne in cambio un voucher spendibile presso l'API di PDND Interoperabilità (ossia un token valido). L'URL dell'endpoint cambia in funzione dell'ambiente e sarà chiaramente visibile sull'interfaccia all'interno del back office. L'endpoint andrà chiamato con alcuni parametri in body:
 
 * `client_id`: di nuovo il _clientId_ usato nell'assertion;
 * `client_assertion`: il contenuto dell'asserzione firmata nel primo passaggio;
@@ -68,15 +72,14 @@ Il token andrà inserito nell'header di tutte le chiamate successive verso le AP
 
 ### Richiesta di un voucher spendibile presso un e-service del catalogo
 
-Le istruzioni sono essenzialmente uguali a quelle del paragrafo precedente, con due eccezioni.
+Le istruzioni sono essenzialmente uguali a quelle del paragrafo precedente, con le seguenti eccezioni:
 
-La prima è che il prerequisito per poter ottenere un voucher valido è aver caricato almeno una chiave pubblica all'interno di un client e-service associato ad una finalità attiva, invece di un client api interop. Anche qui, si veda la [sezione dedicata](../client-e-materiale-crittografico.md#caricare-una-chiave-pubblica-in-un-client).
-
-La seconda è che all'interno del payload della client assertion va specificato anche il `purposeId`, ossia l'id della finalità per la quale si richiede il voucher. Questo parametro è disponibile nel back office di PDND Interoperabilità.
+* Il prerequisito per ottenere un voucher valido è aver caricato almeno una chiave pubblica all'interno di un client e-service associato ad una finalità attiva, invece di un client api interop. Anche qui, si veda la [sezione dedicata](../client-e-materiale-crittografico.md#caricare-una-chiave-pubblica-in-un-client).
+* All'interno del payload della client assertion va specificato anche il `purposeId`, ossia l'id della finalità per la quale si richiede il voucher. Questo parametro è disponibile nel back office di PDND Interoperabilità.
 
 ### Verifica di un voucher da parte di un erogatore di e-service
 
-L'erogatore di un e-service deve ovviamente poter verificare la legittimità di qualsiasi richiesta riceva. Prima di tutto, estrae il voucher dalla richiesta, dall'header `Authorization: Bearer` nel quale arriva, e lo deserializza.&#x20;
+L'erogatore di un e-service deve poter verificare la legittimità di qualsiasi richiesta ricevuta. Prima di tutto, estrae il voucher dalla richiesta, dall'header `Authorization: Bearer` nel quale arriva, e lo deserializza.&#x20;
 
 #### Contenuto di un voucher
 
@@ -128,7 +131,7 @@ Quelli che interessano ai fini della verifica sono:
 * `exp`: la scadenza del voucher
 * `aud`: l'audience, ossia l'indicazione di quale servizio dell'erogatore il fruitore intenda consumare con il voucher
 
-Il parametro `purposeId` dà il riferimento della finalità per la quale il fruitore fa richiesta all'erogatore. Attraverso successive chiamate all'API gateway di PDND Interoperabilità è possibile richiedere tutte le informazioni di contesto, in caso siano necessarie (ossia i client associati, la richiesta di fruizione e l'e-service di riferimento, ecc).
+Il parametro `purposeId` dà il riferimento della finalità per la quale il fruitore fa richiesta all'erogatore. Attraverso successive chiamate all'API gateway di PDND Interoperabilità è possibile richiedere tutte le informazioni di contesto, in caso siano necessarie (ossia i client associati, la richiesta di fruizione e l'e-service di riferimento, ecc.).
 
 ## Trasmettere e tracciare dati complementari alla richiesta
 
@@ -153,9 +156,9 @@ Per ovviare, suggeriamo agli erogatori che sfruttano questa funzionalità di dot
 
 Per supportare gli erogatori in quest'attività, PDND Interoperabilità mette a disposizione un secondo endpoint sulle proprie API:`/events/keys`.
 
-#### Come funzionano gli eventi sulle chiavi?
+#### Gli eventi sulle chiavi
 
-Gli eventi sulle chiavi hanno lo stesso meccanismo di funzionamento di quello degli altri eventi, descritto nella [sezione dedicata](../api-esposte-da-pdnd-interoperabilita/#endpoint-di-notifica-eventi). In sostanza, è possibile chiamare l'endpoint `/events/keys` passando come parametri `lastEventId` (richiesto) e `limit` (opzionale, default a 100). Il primo indica l'id dell'ultimo evento scaricato, il secondo quanti eventi si intende scaricare.
+Gli eventi sulle chiavi hanno lo stesso meccanismo di funzionamento di quello degli altri eventi, descritto nella [sezione dedicata](../informazioni-utili/api-esposte-da-pdnd-interoperabilita.md#endpoint-di-notifica-eventi). In sostanza, è possibile chiamare l'endpoint `/events/keys` passando come parametri `lastEventId` (richiesto) e `limit` (opzionale, default a 100). Il primo indica l'id dell'ultimo evento scaricato, il secondo quanti eventi si intende scaricare.
 
 Ogni risultato ha la seguente struttura:
 
@@ -170,7 +173,13 @@ Ogni risultato ha la seguente struttura:
 }
 ```
 
-NB: L'endpoint deve essere chiamato dall'aderente in modalità polling.
+{% hint style="info" %}
+L'endpoint deve essere chiamato dall'aderente in modalità polling.
+{% endhint %}
+
+{% hint style="warning" %}
+La richiesta e il dettaglio implementativo delle informazioni aggiuntive dovranno essere esplicitate dall'erogatore all'interno della documentazione tecnica a corredo dell'e-service.
+{% endhint %}
 
 #### Un esempio di logica di business per l'implementazione della cache
 
@@ -178,22 +187,18 @@ Utilizzando l'endpoint `/events/keys` è possibile chiamare puntualmente l'endpo
 
 Quelle chiavi per le quali l'evento è `DELETED` vanno rimosse dalla propria cache. Se si vuole ottenere una controprova, anche qui è possibile chiamare l'endpoint `/keys/{kid}` con il `kid` della chiave che si è riscontrato essere stata cancellata, e il sistema restituirà uno status code `404 - Not Found`.
 
-### Dove viene indicato se sono richieste informazioni aggiuntive?
-
-La richiesta e il dettaglio implementativo delle informazioni aggiuntive dovranno essere esplicitate dall'erogatore all'interno della documentazione tecnica a corredo dell'e-service.
-
 ## Garanzia dell'integrità della risposta
 
 È possibile per gli erogatori mettere a disposizione dei fruitori un ulteriore livello di sicurezza, che garantisca l'integrità della risposta fornita.
 
 In sostanza, gli erogatori firmano la propria risposta con una chiave privata, la cui corrispondente chiave pubblica è depositata su PDND Interoperabilità per le dovute verifiche.
 
-Il meccanismo di caricamento e gestione delle chiavi è analogo a quello dei client, ed è disponibile nella sezione _Erogazione > I tuoi portachiavi_. Si rimanda alla [sezione dedicata](../client-e-materiale-crittografico.md) per tutte le operazioni legate alla gestione di un portachiavi.
+Si rimanda alla [sezione dedicata](../client-e-materiale-crittografico.md) per tutte le operazioni legate alla gestione di un portachiavi.
 
 ### Precondizioni&#x20;
 
 * l'erogatore deve avere creato un portachiavi;
-* deve averlo associato ad un e-service attraverso la tab "Portachiavi" disponibile all'interno della scheda e-service (_Erogazione > I tuoi e-service_);
+* deve averlo associato ad un e-service attraverso la tab _**Portachiavi**_ disponibile all'interno della scheda e-service (_**Erogazione > I tuoi e-service**_);
 * un suo operatore di sicurezza o amministratore deve aver caricato almeno una chiave pubblica all'interno di quel portachiavi.
 
 Sarà quindi possibile per l'erogatore firmare la propria risposta con la propria chiave privata. Il fruitore potrà verificare la corrispondente chiave pubblica depositata su PDND Interoperabilità.
@@ -236,7 +241,7 @@ Il contenuto del campo _data_ viene convertito in una stringa di byte e sottopos
 
 #### Firma dell'hash
 
-L’hash calcolato è poi firmato utilizzando una delle chiavi RSA, identificata univocamente tramite _kid_, appartenente ad un portachiavi associato all'e-service. La firma garantisce che solo chi possiede la chiave privata corrispondente a _kid_ (erogatore) possa generare la firma specifica per quel contenuto. Il _kid_ della chiave pubblica che si è caricata è disponibile all'interno del portachiavi, aprendo la pagina relativa alla singola chiave (_Erogazione > I tuoi portachiavi_, clicchi sul portachiavi di interesse, tab _Chiavi pubbliche_, e clicchi sulla chiave di tuo interesse).
+L’hash calcolato è poi firmato utilizzando una delle chiavi RSA, identificata univocamente tramite _kid_, appartenente ad un portachiavi associato all'e-service. La firma garantisce che solo chi possiede la chiave privata corrispondente a _kid_ (erogatore) possa generare la firma specifica per quel contenuto. Il _kid_ della chiave pubblica che si è caricata è disponibile all'interno del portachiavi, aprendo la pagina relativa alla singola chiave (_**Erogazione > I tuoi portachiavi**_, clicchi sul portachiavi di interesse, tab _**Chiavi pubbliche**_, e clicchi sulla chiave di tuo interesse).
 
 #### Integrazione della firma nella risposta
 
@@ -248,7 +253,7 @@ Il fruitore può verificare l’autenticità e l’integrità dei dati ricevuti 
 
 #### Identificazione della chiave corretta
 
-La chiave corrispondente al kid è disponibile sulle [API esposte da PDND Interoperabilità](../api-esposte-da-pdnd-interoperabilita/) al path `GET /keys/{kid}`, dal quale otterrà la chiave pubblica corrispondente al _kid_ in formato JWK.
+La chiave corrispondente al kid è disponibile sulle [API esposte da PDND Interoperabilità](../informazioni-utili/api-esposte-da-pdnd-interoperabilita.md) al path `GET /keys/{kid}`, dal quale otterrà la chiave pubblica corrispondente al _kid_ in formato JWK.
 
 #### Ricalcolo dell'hash
 

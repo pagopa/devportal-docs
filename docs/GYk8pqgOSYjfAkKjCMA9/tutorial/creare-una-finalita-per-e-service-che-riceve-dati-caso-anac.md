@@ -18,7 +18,7 @@ Configurare una finalità per un e-service che riceve dati, gestito da un ente p
 
 #### 1. Accesso e selezione dell’e-service
 
-Il ~~<mark style="background-color:blue;">gestore</mark>~~ <mark style="background-color:blue;"></mark><mark style="background-color:blue;">fruitore</mark> accede alla piattaforma, seleziona l’e-service ANAC dal catalogo. Essendo un servizio che riceve dati, l’erogatore ha preconfigurato l’analisi del rischio.
+Il fruitore accede alla piattaforma, seleziona l’e-service ANAC dal catalogo. Essendo un servizio che riceve dati, l’erogatore ha preconfigurato l’analisi del rischio.
 
 #### 2. Selezione della finalità
 

@@ -1,4 +1,4 @@
-# Esempio di export di un E-service
+# Esempio di export di un e-service
 
 Poniamo di aver esportato il seguente pacchetto attraverso la funzionalità di esportazione.
 
@@ -9,7 +9,7 @@ Come si vede, presenta il seguente file di configurazione:
 ```
 {
   "name" : "E-service erogazione inversa esempio",
-  "description" : "Questo è un esempio di un e-service di erogazione inversa per documentare la funzionatità dell'importazione-esportazione e-service",
+  "description" : "Questo è un esempio di un e-service di erogazione inversa per documentare la funzionalità dell'importazione-esportazione e-service",
   "technology" : "REST",
   "mode" : "RECEIVE",
   "descriptor" : {

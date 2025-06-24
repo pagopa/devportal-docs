@@ -1,21 +1,23 @@
-# Come gestire un E-service
+# Come gestire un e-service
 
-## Creazione di un e-service
+## Come creare un e-service
 
-Ogni e-service contiene al suo interno una specifica - definito file di interfaccia - e dettaglia il contenuto dell'API dell'erogatore. Si intende che un e-service eroga dati quando tutti gli endpoint di quell'API sono predisposti per erogare dati; mentre un e-service riceve dati quando tutti gli endpoint di quell'API sono predisposti per ricevere dati.
+Ogni e-service contiene al suo interno una specifica - definita file di interfaccia - che dettaglia il contenuto dell'API dell'erogatore.&#x20;
 
-### Step 1 - Crea Nuovo
+Un e-service eroga dati quando tutti gli endpoint di quell'API sono predisposti per erogare dati; mentre un e-service riceve dati quando tutti gli endpoint di quell'API sono predisposti per ricevere dati.
 
-Se hai permessi di amministrazione o da operatore API, troverai la voce di menu _**Erogazione > I tuoi e-service**_**&#x20;>&#x20;**_**Crea nuovo**_.&#x20;
+### Step 1 - Crea nuovo
+
+Chi ha i permessi di amministrazione o da operatore API, troverai la voce di menu _**Erogazione > I tuoi e-service**_**&#x20;>&#x20;**_**Crea nuovo**_.&#x20;
 
 <figure><img src="../.gitbook/assets/nuovo e-service.png" alt=""><figcaption></figcaption></figure>
 
 ### Step 2 - Compilazione Form&#x20;
 
-Un nuovo e-service viene creato attraverso un processo dove vengono richiesti:
+Durante la creazione dell'e-service vengono richiesti:
 
 * un nome e una descrizione che saranno quelli esposti all'interno del catalogo degli e-service sulla piattaforma PDND Interoperabilità (è consigliato leggere prima la [guida alle buone pratiche](https://italia.github.io/pdnd-guida-nomenclatura-eservice/));
-* con quale tecnologia è scritta l'API attraverso la quale si intende erogare il servizio, se REST o SOAP;
+* il protocollo con cui viene esposta l'API, se REST o SOAP;
 
 {% hint style="info" %}
 Al fine di assicurare la conformità delle API pubblicate agli standard del Modello di Interoperabilità Tecnica per la Pubblica Amministrazione Italiana, è stato creato uno strumento di verifica del file OpenAPI (quindi per gli e-service che utilizzano tecnologia REST).
@@ -23,7 +25,7 @@ Al fine di assicurare la conformità delle API pubblicate agli standard del Mode
 È possibile trovare l'API checker a questo link: [https://italia.github.io/api-oas-checker/](https://italia.github.io/api-oas-checker/) e prima di usare lo strumento è consigliato leggere le [Guide per l’utilizzo](https://github.com/italia/api-oas-checker-rules).
 {% endhint %}
 
-* se l'e-service eroga o riceve dati (in questo caso eroga);
+* la tipologia di e-service, se l'e-service eroga o riceve dati (in questo caso eroga);
 
 <figure><img src="../.gitbook/assets/creazione e-service erogatore standard.jpg" alt=""><figcaption><p>Fase 1</p></figcaption></figure>
 
@@ -61,43 +63,33 @@ L'erogatore deve quindi indicare il caso d'uso per cui intende raccogliere i dat
 
 <figure><img src="../.gitbook/assets/analisi del rischio e-procurement.jpg" alt=""><figcaption><p>Esempio di analisi del rischio</p></figcaption></figure>
 
-## Creare una nuova versione di e-service
+## Come creare una nuova versione di e-service
 
 Per creare una nuova versione, nella vista _**Erogazione > I tuoi e-service**_ si può cliccare sui tre pallini alla voce dell'e-service di interesse, e selezionare _**Crea bozza**_. Per questioni di consistenza, non è possibile avere più bozze dello stesso e-service contemporaneamente.
 
 <figure><img src="../.gitbook/assets/crea bozza nuova versione.png" alt=""><figcaption><p>Schermata di creazione di una bozza di nuova versione di e-service</p></figcaption></figure>
 
-Una volta selezionata la voce _**Crea bozza**_, si aprirà la schermata di creazione della nuova versione di e-service. Alcuni campi saranno pre compilati come la versione precedente e si potranno modificare a proprio piacimento, come ad esempio le informazioni su voucher, soglia di carico, attributi e documentazione.
+Una volta selezionata la voce _**Crea bozza**_, si aprirà la schermata di creazione della nuova versione di e-service. Alcuni campi saranno precompilati come la versione precedente e si potranno modificare a proprio piacimento, come ad esempio le informazioni su voucher, soglia di carico, attributi e documentazione.
 
 <figure><img src="../.gitbook/assets/bozza precompilata nuova versione.png" alt=""><figcaption><p>Schermata di modifica delle informazioni in una nuova versione di e-service</p></figcaption></figure>
 
-## Erogare un E-service
+## Come erogare un e-service
 
-L'aderente che intende erogare un e-service potrà crearlo e gestirlo dalla voce di menù _**Erogazione > I tuoi e-service**_. Una volta pubblicato un e-service, sarà reso disponibile sul _Catalogo e-service_, visualizzabile in modalità fruizione (_**Fruizione > Catalogo e-service**_). Gli aderenti interessati a fruire dell'e-service e in possesso dei requisiti minimi richiesti dall'erogatore (attributi), potranno iscriversi presentando una richiesta di fruizione. Ogni erogatore troverà le richieste di fruizione presentate dai Fruitori in _**Erogazione > Richieste di fruizione**_, dove potrà gestirle. Il fruitore potrà presentare delle finalità e iniziare a utilizzare l'e-service solo dopo che la richiesta è approvata.
+L'aderente che intende erogare un e-service potrà crearlo e gestirlo dalla voce di menu _**Erogazione > I tuoi e-service**_. Una volta pubblicato un e-service, sarà visualizzabile in modalità fruizione su _**Fruizione > Catalogo e-service**_. Gli aderenti interessati a fruire dell'e-service e in possesso dei requisiti minimi richiesti dall'erogatore (attributi), potranno iscriversi presentando una richiesta di fruizione. Ogni erogatore troverà le richieste di fruizione presentate dai Fruitori in _**Erogazione > Richieste di fruizione**_, dove potrà gestirle. Il fruitore potrà presentare delle finalità e iniziare a utilizzare l'e-service solo dopo che la richiesta è approvata.
 
 {% hint style="info" %}
 Per approfondire il funzionamento del flusso dell'erogatore si rimanda ai paragrafi successivi e alle voci [Client e materiale crittografico](../guida-tecnica/client-e-materiale-crittografico.md) e [Utilizzare i voucher](../guida-tecnica/utilizzare-i-voucher/) di questa guida.
 {% endhint %}
 
-<mark style="background-color:blue;">\[Aggiungere la pubblicazione/screenshot]</mark>
-
-<mark style="background-color:blue;">\[Aggiungere l'archiviazione/screenshot]</mark>
-
-Se una versione di e-service è archiviabile, l'opzione per farlo sarà cliccabile. Bisogna andare su _**Erogazione > I tuoi e-service**_, cliccare sui tre pallini della versione di e-service deprecata di interesse e su _**Archivia**_.
+Se una versione di e-service è archiviabile, l'opzione per farlo sarà attiva. Bisogna andare su _**Erogazione > I tuoi e-service**_, cliccare sui tre pallini della versione di e-service deprecata di interesse e su _**Archivia**_.
 
 {% hint style="warning" %}
 Questa funzionalità non è ancora stata rilasciata in ambiente di esercizio
 {% endhint %}
 
-<mark style="background-color:blue;">\[è stata rilasciata?]</mark>
-
-<mark style="background-color:blue;">\[aggiungere la cancellazione bozza]</mark>
-
 Per cancellare un e-service o una sua versione in bozza, andare su _**Erogazione > I tuoi e-service**_, cliccare sui tre pallini della versione di e-service in bozza desiderata e su _**Elimina**_.
 
-<mark style="background-color:blue;">\[Aggiungere Sospendere o riattivare una versione ]</mark>
-
-## Clonare un e-service
+## Come clonare un e-service
 
 Per facilitare la procedura di creazione di e-service molto simili, è stata disposta una funzionalità di clonazione. Per farlo, puoi andare su _**Erogazione > I tuoi e-service**_, cliccare sui tre pallini dell'e-service da clonare e selezionare _**Clona**_. È possibile clonare solo versioni di e-service in stato "attivo" o "deprecato".
 
@@ -105,34 +97,34 @@ L'e-service creato da questo clone non sarà pubblicato immediatamente, sarà me
 
 <figure><img src="../.gitbook/assets/clona_e-service.png" alt=""><figcaption></figcaption></figure>
 
-## Esportare e importare un e-service
+## Come esportare e importare un e-service
 
 È possibile esportare una versione di e-service da un ambiente di PDND Interoperabilità; quindi, la si può importare all'interno di un altro ambiente come nuovo e-service in bozza. Attualmente questa funzionalità è disponibile solo attraverso la UI.
 
-La funzionalità è pensata per facilitare il passaggio di un e-service che ha superato la fase di collaudo ed è pronto per essere portato in produzione, ma può essere usata a discrezione per esportare ed importare gli e-service da un ambiente all'altro, oppure per replicare uno stesso e-service presso più enti (nel caso, ad esempio, di Partner Tecnologici).
+La funzionalità è pensata per facilitare il passaggio di un e-service che ha superato la fase di collaudo ed è pronto per essere portato in produzione, ma può essere usata a discrezione per esportare e importare gli e-service da un ambiente all'altro, oppure per replicare uno stesso e-service presso più enti (nel caso, ad esempio, di Partner Tecnologici).
 
 Un esempio pratico: c'è un e-service chiamato "Il mio e-service" in versione 5 in collaudo. È possibile esportare questa versione di e-service e reimportarla in produzione come versione 1 in bozza. L'e-service avrà lo stesso nome e le stesse caratteristiche di quello di partenza, con alcuni caveat descritti più sotto.
 
 ### Importare un e-service in bozza
 
-Un utente con permessi di gestione per gli e-service (ossia amministratore o operatore API) può entrare nella pagina che elenca gli e-service erogati dal proprio ente _**Erogazione > I tuoi e-service**_**.** Alla sinistra dell'azione _+1 Crea nuovo_, troverà _**Importa**_**.**
+Un utente con permessi di gestione per gli e-service (ossia amministratore o operatore API) può entrare nella pagina che elenca gli e-service erogati dal proprio ente _**Erogazione > I tuoi e-service**_**.** Alla sinistra dell'azione _**+1 Crea nuovo**_, si trova _**Importa**_**.**
 
 <figure><img src="../.gitbook/assets/import_export_e-service 2.png" alt=""><figcaption><p>Vista della lista degli e-service in gestione all'ente con, in alto a destra, il pulsante "Importa"</p></figcaption></figure>
 
-Cliccando su _Importa_, si apre un cassetto laterale che offre la possibilità di inserire un file zip. Una volta inserito, verranno elencate le possibili problematiche che impediranno il corretto caricamento. Una volta verificati tutti i punti, si potrà cliccare su _**Ho preso visione** > **Confermo**_ > _**Importa**_.&#x20;
+Cliccando su _**Importa**_, si apre un cassetto laterale che offre la possibilità di inserire un file zip. Una volta inserito, vengono elencate le possibili problematiche che impediscono il corretto caricamento. Una volta verificati tutti i punti, si può cliccare su _**Ho preso visione** > **Confermo**_ > _**Importa**_.&#x20;
 
 <figure><img src="../.gitbook/assets/import_export_e-service 3.png" alt=""><figcaption><p>Vista del cassetto laterale che permette di caricare lo .zip</p></figcaption></figure>
 
-Se tutto va a buon fine, l'utente sarà reindirizzato direttamente alla bozza del nuovo e-service che è stata creata a partire dallo .zip importato. In caso contrario, verrà dato un feeback negativo.
+Se tutto va a buon fine, l'utente è reindirizzato direttamente alla bozza del nuovo e-service che è stata creata a partire dallo .zip importato. In caso contrario, si riceve un feedback negativo.
 
-### Esportare una versione di E-service
+### Esportare una versione di e-service
 
-Un utente con permessi di gestione per gli e-service (ossia amministratore o operatore API) può entrare nella scheda del singolo e-service in _**Erogazione > I tuoi e-service**_. A quel punto, tra le azioni disponibili in basso nella scheda _**Informazioni generali**_, troverà _**Scarica questa versione dell'e-service**_.
+Un utente con permessi di gestione per gli e-service (ossia amministratore o operatore API) può entrare nella scheda del singolo e-service in _**Erogazione > I tuoi e-service**_. A quel punto, tra le azioni disponibili in basso nella scheda _**Informazioni generali**_, trova _**Scarica questa versione dell'e-service**_.
 
 <figure><img src="../.gitbook/assets/import_export_e-service.png" alt=""><figcaption><p>L'azione "Scarica questa versione dell'e-service" è l'ultima in basso nella scheda "Informazioni generali"</p></figcaption></figure>
 
-La versione di e-service verrà scaricata in formato .zip, già pronta per essere reimportata nell'altro ambiente.
+La versione di e-service viene scaricata in formato .zip, pronta per essere reimportata nell'altro ambiente.
 
-## Fruire di un E-service
+## Come fruire di un e-service
 
-L'aderente che intende fruire di un e-service potrà visualizzare tutti quelli disponibili andando su _**Fruizione > Catalogo e-service**_. Se possiede i requisiti minimi, visualizzerà un pulsante _**Iscriviti**_, attraverso il quale potrà "iscriversi all'e-service" presentando una richiesta di fruizione che l'erogatore valuterà. Una volta che la richiesta di fruizione viene approvata ed è attiva, il fruitore potrà creare delle finalità. In ogni finalità, dovrà indicare il dettaglio sull'accesso e l'utilizzo dei dati (chiamata _analisi del rischio_) e la _stima di carico_, la quantità di richieste che insisteranno sull'erogatore (definito in numero di chiamate API al giorno stimate). Se la stima di carico eccede la capacità dell'infrastruttura dell'erogatore, sarà necessaria la sua approvazione prima che il fruitore possa utilizzare quella finalità per accedere al e-service.
+L'aderente che intende fruire di un e-service può visualizzare tutti quelli disponibili andando su _**Fruizione > Catalogo e-service**_. Chi possiede i requisiti minimi, visualizza il pulsante _**Iscriviti**_, attraverso il quale ci si può "iscrivere all'e-service" presentando una richiesta di fruizione che deve essere sottoposta alla valutazione dell'erogatore. Una volta che la richiesta di fruizione viene approvata ed è attiva, il fruitore può creare le finalità. In ogni finalità, bisogna indicare il dettaglio sull'accesso e sull'utilizzo dei dati (chiamato _analisi del rischio_) e la _stima di carico_, la quantità di richieste che insisteranno sull'erogatore (definito in numero di chiamate API al giorno stimate). Se la stima di carico eccede la capacità dell'infrastruttura dell'erogatore, è necessario che l'erogatore l'approvi prima che il fruitore possa utilizzare quella finalità per accedere all'e-service.

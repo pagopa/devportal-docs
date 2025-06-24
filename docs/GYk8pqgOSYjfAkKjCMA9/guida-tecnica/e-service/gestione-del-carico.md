@@ -17,6 +17,6 @@ Gli obiettivi di questa gestione sono:
 * costruire un modello che sia osservabile e nel tempo possa condurre all’ottimizzazione delle risorse.
 {% endhint %}
 
-Le soglie sono sempre modificabili dall'erogatore senza dover creare una nuova version e dell'e-service.
+Le soglie sono sempre modificabili dall'erogatore senza dover creare una nuova versione dell'e-service.
 
 Maggiori informazioni sono disponibili nella sezione [Finalità](broken-reference).

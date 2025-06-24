@@ -1,4 +1,4 @@
-# Come erogare un Voucher
+# Come erogare un voucher
 
 ### Step 1 - Il fruitore impacchetta le informazioni complementari
 
@@ -14,7 +14,9 @@ Un `JWS` di esempio può avere header
 
 Il payload sarà invece costituito dalle informazioni aggiuntive che il fruitore vuole trasmettere all'erogatore. Il fruitore firma quindi il `JWS` con una chiave privata. La chiave pubblica corrispondente deve essere depositata su PDND Interoperabilità e avere per `kid` quello inserito nell'header del `JWS`.
 
-NB: questa chiave e questo `kid` non devono necessariamente essere gli stessi con i quali si firma la client assertion al passaggio 3.
+{% hint style="warning" %}
+Questa chiave e questo `kid` non devono necessariamente essere gli stessi con i quali si firma la client assertion al passaggio 3.
+{% endhint %}
 
 ### Step 2 - Il fruitore calcola l'hash
 
@@ -38,11 +40,13 @@ si ottiene l'hash a lunghezza fissa
 5db26201b684761d2b970329ab8596773164ba1b43b1559980e20045941b8065
 ```
 
+{% hint style="warning" %}
 NB: la flag `-n` che viene passata nel primo comando indica che vengano rimosse eventuali "newline" non viste dall'operatore. Un'eventuale "newline" presente nel token fa cambiare il valore dell'hash che poi non corrisponderà all'atto della verifica dell'erogatore.
+{% endhint %}
 
 ### Step 3 - Il fruitore costruisce la client assertion
 
-Il fruitore prende quindi l'hash appena ottenuto, e lo inserisce nel payload della client assertion nel campo `digest.value`. Il campo `digest.alg` per adesso accetta solamente il valore `SHA256` (corrispondente all'algoritmo di hashing che è stato applicato al `JWS`).
+Il fruitore prende l'hash ottenuto e lo inserisce nel payload della client assertion nel campo `digest.value`. Il campo `digest.alg` accetta solamente il valore `SHA256` (corrispondente all'algoritmo di hashing che è stato applicato al `JWS`).
 
 ```
 {
@@ -54,7 +58,9 @@ Il fruitore prende quindi l'hash appena ottenuto, e lo inserisce nel payload del
 }
 ```
 
-L'header della client assertion rimane invece invariato rispetto al flusso standard. La client assertion andrà firmata con la chiave privata corrispondente alla pubblica caricata su PDND Interoperabilità il quale `kid` è nell'header di questa asserzione.
+L'header della client assertion rimane invece invariato rispetto al flusso standard. La client assertion deve essere firmata con la chiave privata corrispondente alla pubblica caricata su PDND Interoperabilità.&#x20;
+
+ll `kid` è nell'header dell'asserzione.
 
 ### Step 4 - Il fruitore richiede un voucher a PDND Interoperabilità
 
@@ -66,9 +72,9 @@ Anche in questo passaggio non ci sono variazioni. Da notare che l'unica verifica
 
 ### Step 6 - Il fruitore fa una richiesta di dati all'erogatore
 
-In questo passaggio, il fruitore costruisce una richiesta verso il servizio dell'erogatore secondo quanto descritto nel file di interfaccia e nella documentazione tecnica a corredo fornita dall'erogatore attraverso PDND Interoperabilità.&#x20;
+Il fruitore costruisce una richiesta verso il servizio dell'erogatore secondo quanto descritto nel file di interfaccia e nella documentazione tecnica a corredo fornita dall'erogatore attraverso PDND Interoperabilità.&#x20;
 
-Nella richiesta inserirà l'header standard `Authorization` che conterrà come `Bearer` token il voucher rilasciato da PDND Interoperabilità allo step precedente. Inoltre, il fruitore inserirà il `JWS` che contiene le informazioni complementari all'interno di un secondo header denominato `Agid-JWT-TrackingEvidence`.&#x20;
+Nella richiesta inserisce l'header standard `Authorization` che deve contenere come `Bearer` token il voucher rilasciato da PDND Interoperabilità allo step precedente. Inoltre, il fruitore deve inserire il `JWS` che contiene le informazioni complementari all'interno di un secondo header denominato `Agid-JWT-TrackingEvidence`.&#x20;
 
 ### Step 7 - L'erogatore effettua le verifiche standard
 
@@ -78,21 +84,25 @@ Per questo passaggio, si veda la [sezione dedicata](come-erogare-un-voucher.md#v
 
 Dopo aver completato le verifiche standard, l'erogatore può effettuare le verifiche aggiuntive necessarie a garantire l'attendibilità delle informazioni complementari inserite nel `JWS` aggiuntivo.
 
-Quindi verificherà l'autenticità e la validità della chiave privata con la quale è firmato il JWS. Per farlo:
+Può verificare l'autenticità e la validità della chiave privata con la quale è firmato il JWS. Per farlo l'erogatore deve:
 
-1. si autentica sulle API di Interoperabilità come descritto nel [flusso dedicato](come-erogare-un-voucher.md#richiesta-di-un-voucher-spendibile-presso-le-api-di-interoperabilita);
-2. effettua una chiamata `keys/{kid}` dove kid è valorizzato con il kid inserito nell'header del `JWS`;
-3. ottiene da PDND Interoperabilità una chiave pubblica in risposta all'interno del campo `n`;
-4. verifica la firma del `JWS`, effettuata dal fruitore con la chiave privata, con la chiave pubblica appena ottenuta.
+1. autenticarsi sulle API di Interoperabilità come descritto nel [flusso dedicato](come-erogare-un-voucher.md#richiesta-di-un-voucher-spendibile-presso-le-api-di-interoperabilita);
+2. effettuare una chiamata `keys/{kid}` dove kid è valorizzato con il kid inserito nell'header del `JWS`;
+3. ottienere da PDND Interoperabilità una chiave pubblica in risposta all'interno del campo `n`;
+4. verificare la firma del `JWS`, effettuata dal fruitore con la chiave privata, con la chiave pubblica appena ottenuta.
 
 Se l'erogatore ottiene un errore con status code `404 - Not found`, significa che la chiave non è presente su PDND Interoperabilità e dunque la richiesta è da ritenersi inattendibile.
 
 ### Step 9 - L'erogatore calcola e confronta l'hash
 
-Se la chiave è presente e corrisponde, può procedere ad una seconda verifica, ossia quella notarile. In pratica, verifica che la traccia depositata su PDND Interoperabilità corrisponda a quella inserita all'interno del voucher rilasciato da PDND Interoperabilità.&#x20;
+Se la chiave è presente e corrisponde, può procedere ad una seconda verifica, ossia quella notarile: verifica che la traccia depositata su PDND Interoperabilità corrisponda a quella inserita all'interno del voucher rilasciato da PDND Interoperabilità.&#x20;
 
 Se c'è corrispondenza, vuol dire che le informazioni complementari inserite all'interno del JWS sono effettivamente quelle che il fruitore ha dichiarato su PDND Interoperabilità di aver inserito.
 
-Per farlo, l'erogatore prende il JWS ed effettua la stessa operazione effettuata dal fruitore nel secondo passaggio. Ottiene quindi l'hash non reversibile del JWS.
+Per verificare la traccia, l'erogatore:
 
-L'erogatore confronta quindi questo hash con quello presente all'interno del campo `digest.value` del voucher rilasciato da PDND Interoperabilità presente nell'header `Authorization`. Se i due hash sono uguali, il fruitore ha reso una dichiarazione che corrisponde ed è tracciata su PDND Interoperabilità.
+* &#x20;effettua la stessa operazione effettuata dal fruitore nel secondo passaggio, ma sul JWS
+* ottiene l'hash non reversibile del JWS
+* confronta l'hash ottenuto con quello presente all'interno del campo `digest.value` del voucher rilasciato da PDND Interoperabilità presente nell'header `Authorization`.&#x20;
+
+Se i due hash sono uguali, il fruitore ha reso una dichiarazione che corrisponde ed è tracciata su PDND Interoperabilità.

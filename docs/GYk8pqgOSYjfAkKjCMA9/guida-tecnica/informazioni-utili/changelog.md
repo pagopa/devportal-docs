@@ -658,7 +658,7 @@ description: >-
 
 **11 settembre**
 
-* Aggiornamento vista crezione finalità
+* Aggiornamento vista creazione finalità
 * Mail di contatto obbligatoria per tutti gli enti
 * Bug fixing
 

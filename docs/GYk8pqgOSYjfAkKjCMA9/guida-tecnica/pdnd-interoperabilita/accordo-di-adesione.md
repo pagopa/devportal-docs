@@ -1,6 +1,6 @@
 # Accordo di Adesione
 
-## Cosa prevede l'accordo di adesione?
+## Cosa prevede l'accordo di adesione
 
 Quando si aderisce a PDND Interoperabilità tramite le categorie abilitate, si ha direttamente accesso a tutti gli ambienti disponibili, senza ulteriori oneri richiesti agli aderenti. \
 Tutti gli ambienti saranno disponibili dopo aver fatto login con SPID.

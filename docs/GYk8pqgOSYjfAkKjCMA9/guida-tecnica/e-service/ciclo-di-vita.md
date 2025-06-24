@@ -35,6 +35,12 @@ Oltre ad una sospensione ex abrupto, legata a circostanze straordinarie e di for
 La sospensione di una versione di e-service comporta un'interruzione di servizio verso i fruitori e tutti gli utenti intermedi e finali che fruiscono dei loro e-service.
 {% endhint %}
 
+## Sospensione per manutenzione
+
+Oltre ad una sospensione ex abrupto, legata a circostanze straordinarie e di forza maggiore, è possibile effettuare una "sospensione programmata" in una versione di un e-service. In questo caso, da linee guida di AgID è previsto che l'erogatore fornisca un preavviso.
+
+> l’Erogatore PUÒ sospendere temporaneamente la disponibilità dell’e-service segnalando in anticipo al Fruitore tale circostanza nel rispetto delle condizioni eventualmente indicate negli SLA concordati con il Fruitore al di fuori della Infrastruttura interoperabilità PDND ([LLGG AgID](https://trasparenza.agid.gov.it/moduli/downloadFile.php?file=oggetto_allegati/213481832130O__O20211210_LG+Infrastruttura+Interoperabilit%26%23224%3B+PDND_v1_allegato+2.pdf) – allegato 2, capitolo 4, pag. 17)
+
 ## **Archiviazione e clonazione**
 
 Quando tutte le richieste di fruizione di una versione deprecata sono state aggiornate a una nuova versione, la versione deprecata dell’e-service viene **archiviata**. Questa operazione è **irreversibile**.

@@ -2,7 +2,7 @@
 
 ### Panoramica&#x20;
 
-<mark style="background-color:blue;">\[Da compilare]</mark>
+
 
 ### Erogatore: approvazione di una richiesta di fruizione
 
@@ -30,13 +30,13 @@ Quindi, se una richiesta di fruizione è sospesa dall'erogatore, solo l'erogator
 
 &#x20;Di norma, queste sono le regole di sospensione:
 
-* **sospensione ad opera dell'erogatore:** l'erogatore può sospendere direttamente una richiesta di fruizione in maniera manuale, oppure può revocare al fruitore uno o più attributi verificati: in questo caso la paittaforma sospenderà in autometico la richiesta di fruizione;&#x20;
+* **sospensione ad opera dell'erogatore:** l'erogatore può sospendere direttamente una richiesta di fruizione in maniera manuale, oppure può revocare al fruitore uno o più attributi verificati: in questo caso la piattaforma sospenderà in automatico la richiesta di fruizione;&#x20;
 * **sospensione ad opera del fruitore:** il fruitore può sospendere direttamente una richiesta di fruizione in maniera manuale;
 * **sospensione ad opera della piattaforma:** PDND Interoperabilità sospende in maniera automatica una richiesta di fruizione se il fruitore perde uno o più attributi certificati e/o dichiarati.
 
-Per poter riattivare di una richiesta di fruizione è previsto che tutti gli attori che hanno sospeso la richiesta chiedano la sua riattivazione. Se, ad esempio, una richiesta di fruizione è sospesa sia dall'erogatore che dalla piattaforma non sarà sufficiente che l'erogatore riattivi la richiesta. Sarà necessario che anche la piattaforma lo faccia.
+Per poter riattivare di una richiesta di fruizione è previsto che tutti gli attori che hanno sospeso la richiesta chiedano la sua riattivazione: se una richiesta di fruizione è sospesa sia dall'erogatore che dalla piattaforma non sarà sufficiente che l'erogatore riattivi la richiesta; sarà necessario che anche la piattaforma riattivi la richiesta.
 
-Inoltre, è necessario che tutti gli attributi necessari per una richiesta di fruizione siano riconosciuti. Ad esempio, se un erogatore tenta di riattivare una richiesta di fruizione ad un fruitore al quale ha revocato un attributo verificato, la riattivazione non andrà a buon fine. Sarà necessario prima verificare nuovamente l'attributo, e solo successivamente riattivare la richiesta.
+Inoltre, è necessario che tutti gli attributi necessari per una richiesta di fruizione siano riconosciuti: se un erogatore tenta di riattivare una richiesta di fruizione ad un fruitore al quale ha revocato un attributo verificato, la riattivazione non andrà a buon fine; sarà necessario prima verificare nuovamente l'attributo e solo successivamente riattivare la richiesta.
 
 ### Archiviare una richiesta di fruizione
 

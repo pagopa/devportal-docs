@@ -1,4 +1,4 @@
-# Creazione di un E-service: Informazioni necessarie
+# Creazione di un e-service: Informazioni necessarie
 
 Gli e-service sono costituiti da due parti:&#x20;
 
@@ -20,7 +20,7 @@ Al fine di assicurare la conformità delle API pubblicate agli standard del Mode
 {% endhint %}
 
 * **Modalità**: la modalità con cui l'e-service gestisce i dati, se li eroga ai fruitori o li riceve. Se li eroga, significa che tutti gli endpoint dell'API esposta erogano dati; se li riceve, che tutti gli endpoint ricevono dati. Non è possibile avere endpoint di lettura e scrittura esposti in un unico e-service;
-* **Analisi del rischio**: solamente se la modalità indicata è "ricezione". In quel caso, l'erogatore deve indicare i caso d'uso per i quali intende raccogliere dati dai fruitori e compilare il questionario.
+* **Analisi del rischio**: solamente se la modalità indicata è "ricezione". In quel caso, l'erogatore deve indicare i caso d'uso per i quali intende raccogliere dati dai fruitori e compilare il questionario. È la parte amministrativa dell'accesso alla fruizione di un e-service. Realizzato sulla base delle misure minime indicate nelle [_Linee guida AgID_](https://trasparenza.agid.gov.it/moduli/downloadFile.php?file=oggetto_allegati/213481831510O__O20211210_LG+Infrastruttura+Interoperabilit%26%23224%3B+PDND_v1.pdf), su invito del Garante, è un questionario per lo più contenente domande relative alla privacy e ai dati cui intende accedere un fruitore. Una nuova analisi del rischio andrà compilata per ogni finalità di accesso ai dati detenuti dall'erogatore.&#x20;
 
 Per garantire la robustezza e la continuità del servizio nel tempo, i valori impostati in tecnologia e modalità non saranno più modificabili una volta pubblicata a catalogo la prima versione dell'e-service.
 
