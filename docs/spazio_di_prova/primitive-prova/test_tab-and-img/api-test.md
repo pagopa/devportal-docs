@@ -1,10 +1,6 @@
 # API Test
 
-{% openapi-operation spec="send-api-b2b" path="/delivery/v2.4/requests" method="post" %}
-[Broken link](broken-reference)
-{% endopenapi-operation %}
-
-## test
+## GetPaymentPippo
 
 <mark style="color:green;">`POST`</mark> `/users`
 
