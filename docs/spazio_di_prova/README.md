@@ -8,7 +8,7 @@ I campi contrassegnati con﹡sono obbligatori
 
 Per i dettagli [https://github.com/pagopa/pagopa-api/tree/SANP3.8.0](https://github.com/pagopa/pagopa-api/tree/SANP3.8.0)
 
-## paVerifyPaymentNotice <a href="#pagetpayment" id="pagetpayment"></a>
+## paVerifyPaymentNoticePappappero <a href="#pagetpayment" id="pagetpayment"></a>
 
 <mark style="color:green;">`POST`</mark>&#x20;
 
