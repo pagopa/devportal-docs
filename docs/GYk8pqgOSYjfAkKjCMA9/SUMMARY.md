@@ -33,7 +33,7 @@
   * [Tipologie di attributi](guida-tecnica/attributi/tipologie-di-attributi.md)
 * [Finalità](guida-tecnica/finalita/README.md)
   * [Ciclo di vita](guida-tecnica/finalita/ciclo-di-vita.md)
-  * [Creazione di una finalità: informazioni necessarie](guida-tecnica/finalita/creazione-di-una-finalita-informazioni-necessarie.md)
+  * [Informazioni per la creazione della finalità](guida-tecnica/finalita/informazioni-per-la-creazione-della-finalita.md)
   * [Gestione del carico](guida-tecnica/finalita/gestione-del-carico.md)
   * [Gestione dei client](guida-tecnica/finalita/gestione-dei-client.md)
 * [Client](guida-tecnica/client-e-materiale-crittografico.md)
@@ -47,24 +47,23 @@
   * [Canali di supporto](guida-tecnica/informazioni-utili/canali-di-supporto.md)
   * [Changelog](guida-tecnica/informazioni-utili/changelog.md)
 
-## HOW TO
+## HOW TO (non prioritari)
 
-* [Come accedere al back office di PDND Interoperabilità](how-to/ambienti-disponibili.md)
-* [Come aderire a PDND Interoperabilità e aggiungere un operatore](how-to/guida-alladesione.md)
-* [Come gestire un e-service](how-to/e-service.md)
-* [Enti certificatori: come creare un nuovo attributo certificato](how-to/enti-certificatori-come-creare-un-nuovo-attributo-certificato.md)
-* [Ente certificatore: come assegnare o revocare un proprio attributo certificato](how-to/ente-certificatore-come-assegnare-o-revocare-un-proprio-attributo-certificato.md)
-* [Come gestire una richiesta di fruizione](how-to/come-gestire-una-richiesta-di-fruizione.md)
-* [Come gestire una finalità](how-to/come-gestire-una-finalita.md)
-* [Come erogare un voucher](how-to/come-erogare-un-voucher.md)
-* [Come generare e caricare chiavi di sicurezza di un voucher](how-to/generare-e-caricare-chiavi-di-sicurezza.md)
+* [Come abilitare un utente al back office](how-to-non-prioritari/come-abilitare-un-utente-al-back-office.md)
+* [Come revocare le abilitazioni ad un operatore amministrativo](how-to-non-prioritari/come-revocare-le-abilitazioni-ad-un-operatore-amministrativo.md)
+* [Come gestire un e-service](how-to-non-prioritari/e-service.md)
+* [Enti certificatori: come creare un nuovo attributo certificato](how-to-non-prioritari/enti-certificatori-come-creare-un-nuovo-attributo-certificato.md)
+* [Ente certificatore: come assegnare o revocare un proprio attributo certificato](how-to-non-prioritari/ente-certificatore-come-assegnare-o-revocare-un-proprio-attributo-certificato.md)
+* [Come sottoscrivere una richiesta di fruizione](how-to-non-prioritari/come-sottoscrivere-una-richiesta-di-fruizione.md)
+* [Come gestire una finalità](how-to-non-prioritari/come-gestire-una-finalita.md)
+* [Come erogare un voucher](how-to-non-prioritari/come-erogare-un-voucher.md)
+* [Come generare e caricare chiavi di sicurezza di un voucher](how-to-non-prioritari/generare-e-caricare-chiavi-di-sicurezza.md)
 
 ***
 
-* [Come creare i client e associarli agli e-service](come-creare-i-client-e-associarli-agli-e-service.md)
 * [Come effettuare operazioni sui client](come-effettuare-operazioni-sui-client.md)
+* [Come approvare una richiesta di fruizione](come-approvare-una-richiesta-di-fruizione.md)
 * [Come caricare e eliminare una chiave pubblica in un client o portachiavi](come-caricare-e-eliminare-una-chiave-pubblica-in-un-client-o-portachiavi.md)
-* [Come generare il materiale crittografico](come-generare-il-materiale-crittografico.md)
 * [Come creare un nuovo operatore](utenze.md)
 
 ## Tutorial
@@ -72,3 +71,21 @@
 * [Attributi e interoperabilità per enti locali (caso terremoto 2016)](tutorial/attributi-e-interoperabilita-per-enti-locali-caso-terremoto-2016.md)
 * [Creare una finalità per e-service che riceve dati - Caso ANAC](tutorial/creare-una-finalita-per-e-service-che-riceve-dati-caso-anac.md)
 * [Esempio di export di un e-service](tutorial/esempio-di-export-di-un-e-service.md)
+
+## HOW TO
+
+* [Come aderire a PDND Interoperabilità](how-to/guida-alladesione.md)
+* [Come accedere al back office di PDND Interoperabilità](how-to/ambienti-disponibili.md)
+* [Come creare le utenze amministrative](how-to/come-creare-le-utenze-amministrative.md)
+* [Come creare un e-service](how-to/come-creare-un-e-service.md)
+* [Come aggiornare un proprio e-service](how-to/come-aggiornare-un-proprio-e-service.md)
+* [Come fruire di un e-service](how-to/come-fruire-di-un-e-service.md)
+* [Come Inoltrare una finalità](how-to/come-inoltrare-una-finalita.md)
+* [Come creare un client](how-to/come-creare-un-client.md)
+* [Come associare i client alle finalità](how-to/come-associare-i-client-alle-finalita.md)
+* [Come generare corredo crittografico e caricare chiavi pubbliche](how-to/come-generare-corredo-crittografico-e-caricare-chiavi-pubbliche.md)
+* [Come staccare un voucher](how-to/come-staccare-un-voucher.md)
+* [Come inoltrare una chiamata ad un erogatore](how-to/come-inoltrare-una-chiamata-ad-un-erogatore.md)
+* [Come verificare una chiamata ricevuta da un fruitore](how-to/come-verificare-una-chiamata-ricevuta-da-un-fruitore.md)
+* [Come inoltrare informazioni aggiuntive richieste dall'erogatore](how-to/come-inoltrare-informazioni-aggiuntive-richieste-dallerogatore.md)
+* [Come delegare un altro ente](how-to/come-delegare-un-altro-ente.md)

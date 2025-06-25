@@ -1,12 +1,17 @@
 # Come effettuare operazioni sui client
 
-## Come creare un client e-service
+Il sistema dei client è progettato per essere flessibile, permettendo agli utenti di adattare i client ai loro processi. Si possono scegliere diverse soluzioni nell'implementazione:&#x20;
 
-È possibile creare client e-service dalla voce di menu _**Fruizione > I tuoi client e-service**_, e poi _**Crea nuovo**_. Il contenuto del client è modificabile in qualsiasi momento, inclusa l'aggiunta e la rimozione dei suoi membri. La creazione del client di per sé non ha effetto sull'accesso agli e-service. Deve essere successivamente associato ad una o più finalità per le quali le chiavi saranno utilizzabili per ottenere un voucher.
+* un client per ogni e-service;
+* molti client per ogni e-service;
+* un solo client per tutti gli e-service;
+* una combinazione delle soluzioni precedenti.
 
-## Come creare un client API interop
+Ogni client è dotato di un nome, che può essere utilizzato per individuare il gruppo di persone che ne fa parte (per esempio i dipendenti di una software house esterna o interna all'ente).
 
-Dalla voce di menu _**Fruizione > I tuoi client api interop**_ e poi _**Crea nuovo**_. Il contenuto del client è modificabile in qualsiasi momento, inclusa l'aggiunta e la rimozione dei suoi membri.
+{% hint style="warning" %}
+Si suggerisce di essere sempre il più restrittivi possibile con la gestione dei client, poiché contengono permessi e chiavi per l'accesso agli e-service.&#x20;
+{% endhint %}
 
 ## Come creare un portachiavi
 
@@ -20,16 +25,3 @@ Dalla voce di menu _**Erogazione > I tuoi portachiavi**_ e poi _**Crea nuovo**_.
 L'eliminazione in toto di un client e-service prevede anche la sua rimozione da tutte le finalità alle quali è eventualmente associato e l'eliminazione di tutte le chiavi associate a quel client, che non potranno più essere utilizzate per ottenere voucher validi da spendere presso gli e-service degli erogatori.
 {% endhint %}
 
-## Come gestire i membri di un client o un portachiavi
-
-In qualsiasi momento, è possibile aggiungere o rimuovere membri da uno specifico client o portachiavi. Le persone aggiunte hanno la possibilità di caricare chiavi pubbliche.
-
-I membri rimossi non possono più operare all'interno di quello specifico client o portachiavi, anche se le chiavi caricate fino a quel momento rimangono valide e attive e possono essere rimosse da altri utenti che hanno ancora accesso al client o portachiavi.&#x20;
-
-Le chiavi caricate da membri rimossi vengono evidenziate dall'interfaccia in modo da aiutare gli altri membri ad individuarle e sostituirle, prima di eliminarle. Questo comportamento è pensato per bilanciare le necessità di sicurezza e facilitare la continuità di servizio nell'eventualità di un ricambio di personale.&#x20;
-
-Per gestire i membri di un client, andare su _**Fruizione > I tuoi client e-service**_ oppure _**Fruizione > I tuoi client api Interop**_, cercare la riga della tabella dedicata al client di interesse e cliccare su _**Ispeziona**_. All'interno del singolo client, selezionare la tab _**Membri del client**_. La stessa operazione può essere effettuata sui portachiavi erogatore dalla vista _**Erogazione > I tuoi portachiavi**_.
-
-{% hint style="warning" %}
-Attenzione: continuare ad utilizzare chiavi associate ad un membro che non fa più parte della tua organizzazione costituisce un pericolo per la sicurezza. Elimina sempre le chiavi, dopo averle sostituite.
-{% endhint %}

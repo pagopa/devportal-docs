@@ -38,7 +38,7 @@ Si suggerisce di fare sempre riferimento alla guida passo passo implementata nel
 
 ### Richiesta di un voucher spendibile presso le API di Interoperabilità
 
-Il prerequisito per poter ottenere un voucher valido è aver caricato almeno una chiave pubblica, parte del proprio materiale crittografico, all'interno di un client API interop (disponibile sull'interfaccia del back office alla voce _**Fruizione > I tuoi client api interop**_). Per saperne di più, leggi la [s](../client-e-materiale-crittografico.md)[ezione dedicata](../client-e-materiale-crittografico.md).
+Il prerequisito per poter ottenere un voucher valido è aver caricato almeno una chiave pubblica, parte del proprio materiale crittografico, all'interno di un client API interop. Per saperne di più, leggi la [s](../client-e-materiale-crittografico.md)[ezione dedicata](../client-e-materiale-crittografico.md).
 
 Il primo passo è costruire una _client assertion_ valida e firmarla con la propria chiave privata (che deve essere l'omologa della chiave pubblica depositata sul client su PDND Interoperabilità). La client assertion è composta da un header e un payload.&#x20;
 

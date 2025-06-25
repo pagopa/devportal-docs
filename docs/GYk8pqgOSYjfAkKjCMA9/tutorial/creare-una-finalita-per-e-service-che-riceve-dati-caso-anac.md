@@ -36,11 +36,13 @@ Dopo il riepilogo finale, il fruitore decide se pubblicare la finalità e proseg
 
 ### Risultato finale
 
-Il gestore privato ha creato una finalità coerente con un e-service che riceve dati che ha l'analisi del rischio preconfigurata ed è pronto per essere fruito.
+Il gestore privato ha creato una finalità coerente con un e-service che:
+
+* riceve dati
+* ha l'analisi del rischio preconfigurata&#x20;
+* è pronto per essere fruito.
 
 ### How-to correlati
 
 * [come-creare-una-finalita.md](http://./how-to/come-creare-una-finalita.md)
-* [guida-alladesione.md](http://./how-to/guida-alladesione.md)
-
-\
+* [guida-alladesione.md](http://./how-to/guida-alladesione.md)\

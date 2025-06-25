@@ -1,11 +1,5 @@
 # Glossario
 
-<mark style="background-color:blue;">Interfaccia utente di PDND Interoperabilità alla cui accedi attraverso l'Area Riservata di PagoPA.</mark>
-
-Un insieme di norme che regolano l’uso delle tecnologie digitali nella Pubblica Amministrazione (PA) e nei rapporti tra cittadini, imprese e PA. L'articolo 50-ter è dedicato a PDND Interoperabilità. Altri articoli ne definiscono le basi dati di interesse nazionale e la platea degli enti aderenti.
-
-Un ente accreditato per creare nuovi attributi certificati. Il certificatore può poi assegnare e revocare agli altri aderenti gli attributi che ha creato.
-
 ## Adesione
 
 Per poter usufruire delle funzionalità messe a disposizione da PDND Interoperabilità, un ente deve prima effettuare l'adesione alla piattaforma, seguendo la procedura dedicata. Una volta abilitato, potrà agire sia in veste di erogatore che di fruitore.
@@ -38,7 +32,7 @@ Sulle linee guida AgID è denominato "Catalogo delle API".
 
 Ogni client raccoglie un gruppo di operatori di sicurezza e un gruppo di chiavi. La composizione del client potrà essere gestita a piacimento degli amministratori dell'aderente, che potranno associare lo stesso operatore di sicurezza a uno o più client. Ogni client (e di riflesso ogni gruppo di chiavi) può essere associato ad una o più finalità.
 
-## Codice dell'Amministrazione Digitale  - C.A.D.&#x20;
+## Codice dell'Amministrazione Digitale - C.A.D.&#x20;
 
 Un insieme di norme che regolano l’uso delle tecnologie digitali nella Pubblica Amministrazione (PA) e nei rapporti tra cittadini, imprese e PA. L'articolo 50-ter è dedicato a PDND Interoperabilità. Altri articoli ne definiscono le basi dati di interesse nazionale e la platea degli enti aderenti.
 
@@ -96,6 +90,6 @@ Con una richiesta di fruizione attiva, il fruitore può creare un numero di fina
 
 Un **Service Level Agreement - SLA -** è un **accordo sui livelli di servizio** tra un fornitore e un cliente, che definisce le prestazioni minime garantite per un servizio digitale o tecnologico.
 
-## &#x20;Voucher (Token JWT )
+## &#x20;Voucher (Token JWT)
 
 L'autorizzazione all'accesso all'API dell'erogatore da parte del fruitore avviene attraverso un meccanismo di autenticazione e autorizzazione. In breve, il fruitore richiede a PDND Interoperabilità un voucher per uno specifico e-service e una specifica finalità. Questo voucher potrà essere speso presso l'e-service dell'erogatore che ne verificherà l'autenticità e il corso di validità prima di restituire le informazioni legittimamente richieste dal fruitore.&#x20;

@@ -1,4 +1,4 @@
-# Come generare il materiale crittografico
+# Come generare corredo crittografico e caricare chiavi pubbliche
 
 Nella vista dell'interfaccia dedicata al caricamento delle chiavi si trova il link ad un breve tutorial che aiuta a dotarsi del materiale crittografico necessario. I punti più rilevanti sono riportati qui per completezza.
 
@@ -22,4 +22,4 @@ La chiave pubblica deve essere caricata su PDND Interoperabilità, quella privat
 * nel caso di client API Interop: firmare la richiesta per ottenere un voucher spendibile presso l'API esposta da PDND Interoperabilità dallo stesso server autorizzativo;
 * nel caso di portachiavi erogatore: firmare una risposta da inviare ad un fruitore che ha legittimamente inoltrato una richiesta corredata di un voucher e-service in corso di validità.
 
-Per quanto riguarda i client, l'artefatto da inviare al server autorizzativo è una "client assertion". Maggiori informazioni nella [sezione dedicata](guida-tecnica/utilizzare-i-voucher/#flusso-voucher-spendibile-presso-un-e-service-del-catalogo).
+Per quanto riguarda i client, l'artefatto da inviare al server autorizzativo è una "client assertion". Maggiori informazioni nella [sezione dedicata](../guida-tecnica/utilizzare-i-voucher/#flusso-voucher-spendibile-presso-un-e-service-del-catalogo).

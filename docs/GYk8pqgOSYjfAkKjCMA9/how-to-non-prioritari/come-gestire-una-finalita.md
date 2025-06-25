@@ -4,8 +4,6 @@
 
 Per creare una nuova finalità, andare su _**Fruizione > Le tue finalità**_ e cliccare _**Crea nuovo**_.
 
-
-
 Nel momento in cui si crea la finalità, è necessario indicare l'e-service per il quale la finalità sarà attiva. Dall'elenco degli e-service si potranno scegliere solo quelli per cui l'ente ha una richiesta di fruizione attiva.
 
 Si devono inoltre indicare il nome e la motivazione, l'eventuale annotazione di accesso a titolo gratuito e la stima di carico.
@@ -16,17 +14,11 @@ Se l'e-service per cui si crea la finalità eroga dati, il fruitore - in quanto 
 
 ### Creare una finalità per e-service che riceve dati
 
-Se l'e-service riceve invece dati,  l'erogatore durante la creazione dell'e-service deve compilare un'analisi del rischio per ogni finalità per la quale riceverà dati dai fruitori.&#x20;
+Se l'e-service riceve invece dati, l'erogatore durante la creazione dell'e-service deve compilare un'analisi del rischio per ogni finalità per la quale riceverà dati dai fruitori.&#x20;
 
-Il fruitore, nel creare la finalità, non deve compilare l'analisi del rischio, deve però scegliere per quale  finalità, tra quelle proposte dall'erogatore, invierà dati all'erogatore. L'analisi del rischio sarà quella ammessa dalla finalità.
+Il fruitore, nel creare la finalità, non deve compilare l'analisi del rischio, deve però scegliere per quale finalità, tra quelle proposte dall'erogatore, invierà dati all'erogatore. L'analisi del rischio sarà quella ammessa dalla finalità.
 
 Per fare un esempio: l'erogatore prevede una finalità "per fini istituzionali" e una seconda finalità "per fini statistici". Quando il fruitore crea la finalità, deve scegliere una delle due finalità. L'erogatore è tenuto a trattare i dati ricevuti in conformità con quanto dichiarato nella finalità scelta dal fruitore.
-
-
-
-
-
-
 
 ## Come eliminare una finalità
 
@@ -56,16 +48,3 @@ Per archiviare una finalità, andare su _**Fruizione > Le mie finalità**_, clic
 Ricordati di controllare periodicamente le tue finalità, e di archiviare quelle che non usi più. Questo piccolo accorgimento garantirà una migliore qualità di servizio per tutti.
 {% endhint %}
 
-## Come associare e rimuovere i client da una finalità
-
-È possibile associare e rimuovere i client legati ad una finalità una volta che questa è stata approvata dall'erogatore. Se la finalità è in stato di bozza o in attesa di approvazione non è possibile associare un client.
-
-<figure><img src="../.gitbook/assets/recap finalità in bozza.png" alt=""><figcaption></figcaption></figure>
-
-Se si intende modificare in un secondo momento uno o più client associati, il fruitore può andare su _**Fruizione > Le tue finalità**_, trovare la finalità desiderata e cliccare su _**Visualizza**_. Nella tab _**Client associati**_ è possibile operare sui client.
-
-<div><figure><img src="../.gitbook/assets/Nuova UI Le tue finalità.png" alt=""><figcaption><p>Le tue finalità --> Visualizza</p></figcaption></figure> <figure><img src="../.gitbook/assets/tab client associati.png" alt=""><figcaption><p>Tab "Client associati"</p></figcaption></figure></div>
-
-Una volta rimosso un client da una finalità, non è più possibile utilizzare le chiavi in esso contenute per ottenere voucher validi da spendere verso l'API dell'erogatore dell'e-service per quella specifica finalità.&#x20;
-
-Per fare un esempio, se un client è associato alla finalità A e alla finalità B, entrambe a loro volta associate ad uno stesso e-service, se io rimuovo il client solo dalla finalità A, sarà possibile continuare ad ottenere voucher validi per l'e-service attraverso la finalità B.
