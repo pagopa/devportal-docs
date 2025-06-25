@@ -14,10 +14,10 @@ Per i dettagli [https://github.com/pagopa/pagopa-api/tree/SANP3.8.0](https://git
 
 #### Request Body
 
-| Name                                         | Type   | Description                                                                      |
-| -------------------------------------------- | ------ | -------------------------------------------------------------------------------- |
-| idPA<mark style="color:red;">\*</mark>       | String | <p>codice fiscale della struttura che invia </p><p>la richiesta di pagamento</p> |
-| idBrokerPA<mark style="color:red;">\*</mark> | String | identificativo del soggetto che opera come intermediario per l'EC                |
+| Name                                         | Type   | Description                                                                       |
+| -------------------------------------------- | ------ | --------------------------------------------------------------------------------- |
+| idPA<mark style="color:red;">\*</mark>       | String | <p>codice fiscale della struttura, che invia </p><p>la richiesta di pagamento</p> |
+| idBrokerPA<mark style="color:red;">\*</mark> | String | identificativo del soggetto che opera come intermediario per l'EC                 |
 
 | Name                                         | Type   | Description                                                            |
 | -------------------------------------------- | ------ | ---------------------------------------------------------------------- |
