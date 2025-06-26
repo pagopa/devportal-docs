@@ -2083,8 +2083,8 @@ Altri canali di pagamento
 
 ## EC Checkout API
 
-{% openapi src=".gitbook/assets/checkout.yaml" path="/carts" method="post" %}
-[checkout.yaml](.gitbook/assets/checkout.yaml)
+{% openapi src="../spazio_di_prova/.gitbook/assets/checkout.yaml" path="/carts" method="post" %}
+[checkout.yaml](../spazio_di_prova/.gitbook/assets/checkout.yaml)
 {% endopenapi %}
 
 ## Nuove API - Gestione Flussi di Rendicontazione&#x20;
