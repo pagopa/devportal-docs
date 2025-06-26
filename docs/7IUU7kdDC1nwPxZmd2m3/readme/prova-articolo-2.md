@@ -21,7 +21,7 @@ Queste API richiedono:
 
 ***
 
-### Endpoints principali
+### Endpoints&#x20;
 
 #### 1. `GET /organizations/{organizationfiscalcode}/debtpositions`
 
