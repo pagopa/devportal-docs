@@ -1,5 +1,7 @@
 # Gestione Posizioni Debitorie
 
+## PagoPA API - Gestione Posizioni Debitorie
+
 Versione: **0.11.59**\
 Ambiente di test: `https://api.uat.platform.pagopa.it/gpd/debt-positions-service/v1/`\
 Ambiente di produzione: `https://api.platform.pagopa.it/gpd/debt-positions-service/v1/`
@@ -34,22 +36,15 @@ Restituisce l'elenco delle posizioni debitorie relative a un'organizzazione.
 * `status`: stato posizione (`DRAFT`, `PAID`, ecc.)
 * `orderby`, `ordering`
 
-**Risposte:**
-
-* `200 OK`: lista posizioni
-* `400`, `401`, `429`, `500`
+**Risposte:** `200 OK`, `400`, `401`, `429`, `500`
 
 ***
 
 #### 2. `POST /organizations/{organizationfiscalcode}/debtpositions`
 
 Crea una nuova posizione debitoria.\
-Parametri:
-
-* `toPublish` (booleano, default `false`)
-
-**Body:** oggetto `PaymentPositionModel`
-
+Parametri: `toPublish` (booleano, default `false`)\
+**Body:** `PaymentPositionModel`\
 **Risposte:** `201 Created`, `400`, `401`, `409`, `500`
 
 ***
@@ -64,8 +59,8 @@ Dettaglio di una specifica posizione.\
 #### 4. `PUT /organizations/{organizationfiscalcode}/debtpositions/{iupd}`
 
 Aggiorna una posizione esistente.\
-**Parametri:** `toPublish` (opzionale)\
-**Body:** oggetto `PaymentPositionModel`\
+Parametri: `toPublish` (opzionale)\
+**Body:** `PaymentPositionModel`\
 **Risposte:** `200 OK`, `400`, `404`, `409`, `500`
 
 ***
@@ -80,20 +75,20 @@ Elimina una posizione.\
 #### 6. `POST /organizations/{organizationfiscalcode}/debtpositions/{iupd}/publish`
 
 Pubblica una posizione.\
-**Risposte:** `200 OK`, `404`, `409`, `500`
+**Risposte:** `200 OK`, `404`, `409`, `500`, `401`
 
 ***
 
 #### 7. `POST /organizations/{organizationfiscalcode}/debtpositions/{iupd}/invalidate`
 
 Annulla una posizione.\
-**Risposte:** `200 OK`, `404`, `409`, `500`
+**Risposte:** `200 OK`, `404`, `409`, `500`, `401`
 
 ***
 
 #### 8. `GET /info`
 
-Verifica stato applicazione (`health check`).\
+Verifica lo stato dell’applicazione (health check).\
 **Risposte:** `200 OK`, `401`, `403`, `500`
 
 ***
@@ -109,10 +104,5 @@ Include:
 * Dati anagrafici
 * Stato (`DRAFT`, `PAID`, `INVALID`, ecc.)
 * Opzioni di pagamento (array `paymentOption`)
-* Ogni `paymentOption` include: `amount`, `iuv`, `dueDate`, `transfer`, `metadata`, ecc.
+  * Ogni `paymentOption` include: `amount`, `iuv`, `dueDate`, `transfer`, `metadata`, ecc.
 
-***
-
-### Contatti e Termini
-
-Per maggiori dettagli: [https://www.pagopa.gov.it](https://www.pagopa.gov.it)

@@ -2,8 +2,8 @@
 
 * [Test space 1](README.md)
   * [Prova articolo 1](readme/prova-articolo-1.md)
-  * [Gestione Posizioni Debitorie](readme/gestione-posizioni-debitorie.md)
-* [Test link](test-link.md)
+  * [Gestione Posizioni Debitorie](readme/prova-articolo-2.md)
+* [Test link - prova di sync](test-link.md)
 
 ## Group 1
 
