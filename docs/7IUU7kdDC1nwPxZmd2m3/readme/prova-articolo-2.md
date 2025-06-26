@@ -1,108 +1,153 @@
 # Gestione Posizioni Debitorie
 
-## PagoPA API - Gestione Posizioni Debitorie
+## PagoPA GPD API - Gestione Posizioni Debitorie
 
-Versione: **0.11.59**\
-Ambiente di test: `https://api.uat.platform.pagopa.it/gpd/debt-positions-service/v1/`\
-Ambiente di produzione: `https://api.platform.pagopa.it/gpd/debt-positions-service/v1/`
+Versione: **v1**\
+Ambiente UAT: `https://api.uat.platform.pagopa.it/gpd/api/v1`\
+Ambiente PROD: `https://api.platform.pagopa.it/gpd/api/v1`
+
+***
 
 ### Descrizione
 
-API REST per la gestione delle posizioni debitorie (creazione, aggiornamento, pubblicazione, annullamento e consultazione).
+Queste API permettono di:
+
+* verificare la salute dell'applicazione
+* gestire l'elenco delle organizzazioni
+* creare, leggere, aggiornare, pubblicare, invalidare o eliminare posizioni debitorie
+* gestire le opzioni di pagamento
 
 ***
 
 ### Autenticazione
 
-Queste API richiedono:
+Sono richieste:
 
-* **API Key**: da includere nell'header `Ocp-Apim-Subscription-Key`
-* **JWT Bearer Token**: da includere nell'header `Authorization`
+* **API Key** negli header `Ocp-Apim-Subscription-Key` o query param `subscription-key`.
 
 ***
 
 ### Endpoints&#x20;
 
-#### 1. `GET /organizations/{organizationfiscalcode}/debtpositions`
+#### 1. `GET /info`
 
-Restituisce l'elenco delle posizioni debitorie relative a un'organizzazione.
+Controlla lo stato dell'applicazione.\
+**Risposte:** `200 OK`, `401`, `403`, `500`
 
-**Query parametri principali:**
+***
 
-* `limit`: max 50 (default 10)
-* `page`: numero di pagina (default 0)
-* `due_date_from`, `due_date_to`
-* `payment_date_from`, `payment_date_to`
-* `status`: stato posizione (`DRAFT`, `PAID`, ecc.)
-* `orderby`, `ordering`
+#### 2. `GET /organizations`
 
+Restituisce l'elenco delle organizzazioni aggiornate a partire da una certa data.\
+**Query param:** `since (yyyy-MM-dd)`\
+**Risposte:** `200 OK`, `401`, `500`
+
+***
+
+#### 3. `GET /organizations/{organizationfiscalcode}`
+
+Verifica l'esistenza di una organizzazione.\
+**Path param:** `organizationfiscalcode`\
+**Risposte:** `200 OK`, `404`, `401`, `500`
+
+***
+
+#### 4. `GET /organizations/{organizationfiscalcode}/debtpositions`
+
+Restituisce l'elenco delle posizioni debitorie per un'organizzazione.\
+**Query param obbligatori:** `page`, `due_date_from`, `due_date_to`\
 **Risposte:** `200 OK`, `400`, `401`, `429`, `500`
 
 ***
 
-#### 2. `POST /organizations/{organizationfiscalcode}/debtpositions`
+#### 5. `POST /organizations/{organizationfiscalcode}/debtpositions`
 
 Crea una nuova posizione debitoria.\
-Parametri: `toPublish` (booleano, default `false`)\
 **Body:** `PaymentPositionModel`\
 **Risposte:** `201 Created`, `400`, `401`, `409`, `500`
 
 ***
 
-#### 3. `GET /organizations/{organizationfiscalcode}/debtpositions/{iupd}`
+#### 6. `GET /organizations/{organizationfiscalcode}/debtpositions/{iupd}`
 
-Dettaglio di una specifica posizione.\
+Restituisce i dettagli di una posizione debitoria.\
+**Path param:** `iupd`\
 **Risposte:** `200 OK`, `404`, `401`, `500`
 
 ***
 
-#### 4. `PUT /organizations/{organizationfiscalcode}/debtpositions/{iupd}`
+#### 7. `PUT /organizations/{organizationfiscalcode}/debtpositions/{iupd}`
 
-Aggiorna una posizione esistente.\
-Parametri: `toPublish` (opzionale)\
+Aggiorna una posizione debitoria esistente.\
 **Body:** `PaymentPositionModel`\
 **Risposte:** `200 OK`, `400`, `404`, `409`, `500`
 
 ***
 
-#### 5. `DELETE /organizations/{organizationfiscalcode}/debtpositions/{iupd}`
+#### 8. `DELETE /organizations/{organizationfiscalcode}/debtpositions/{iupd}`
 
-Elimina una posizione.\
+Elimina una posizione debitoria.\
 **Risposte:** `200 OK`, `404`, `409`, `500`
 
 ***
 
-#### 6. `POST /organizations/{organizationfiscalcode}/debtpositions/{iupd}/publish`
+#### 9. `POST /organizations/{organizationfiscalcode}/debtpositions/{iupd}/invalidate`
 
-Pubblica una posizione.\
+Annulla una posizione debitoria.\
 **Risposte:** `200 OK`, `404`, `409`, `500`, `401`
 
 ***
 
-#### 7. `POST /organizations/{organizationfiscalcode}/debtpositions/{iupd}/invalidate`
+#### 10. `POST /organizations/{organizationfiscalcode}/debtpositions/{iupd}/publish`
 
-Annulla una posizione.\
+Pubblica una posizione debitoria.\
 **Risposte:** `200 OK`, `404`, `409`, `500`, `401`
 
 ***
 
-#### 8. `GET /info`
+#### 11. `GET /organizations/{organizationfiscalcode}/paymentoptions/{iuv}`
 
-Verifica lo stato dell’applicazione (health check).\
-**Risposte:** `200 OK`, `401`, `403`, `500`
+Restituisce i dettagli di una opzione di pagamento.\
+**Path param:** `iuv`\
+**Risposte:** `200 OK`, `404`, `401`, `500`
 
 ***
 
-### Schema Principale: PaymentPositionModel
+#### 12. `POST /organizations/{organizationfiscalcode}/paymentoptions/{iuv}/pay`
 
-Campi richiesti:
+Segnala l'avvenuto pagamento di una opzione.\
+**Body:** `PayPaymentOptionModel`\
+**Risposte:** `200 OK`, `400`, `404`, `409`, `422`, `401`, `500`
 
-* `iupd`, `type`, `companyName`, `fiscalCode`, `fullName`, `switchToExpired`
+***
 
-Include:
+#### 13. `POST /organizations/{organizationfiscalcode}/paymentoptions/{iuv}/transfers/{transferid}/report`
 
-* Dati anagrafici
-* Stato (`DRAFT`, `PAID`, `INVALID`, ecc.)
-* Opzioni di pagamento (array `paymentOption`)
-  * Ogni `paymentOption` include: `amount`, `iuv`, `dueDate`, `transfer`, `metadata`, ecc.
+Segnala la rendicontazione di una singola transazione.\
+**Path param:** `transferid`\
+**Risposte:** `200 OK`, `400`, `404`, `409`, `401`, `500`
+
+***
+
+### Schemi principali
+
+#### PaymentPositionModel
+
+Contiene i dati del debitore, l’identificativo univoco (iupd), e un array di `paymentOption`.
+
+#### PaymentOptionModel
+
+Contiene:
+
+* `amount`, `iuv`, `dueDate`, `description`, `fee`, `transfer`
+
+#### TransferModel
+
+Dettagli del trasferimento economico, compresi `idTransfer`, `iban`, `amount`, `category`.
+
+***
+
+### Contatti e Termini
+
+Per maggiori dettagli: [https://www.pagopa.gov.it](https://www.pagopa.gov.it)
 
