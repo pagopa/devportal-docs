@@ -11,13 +11,14 @@
 * [Glossario](la-guida-tecnica/glossario.md)
 * [Segnali](la-guida-tecnica/segnali.md)
 * [Documentazione del produttore](la-guida-tecnica/documentazione-del-produttore.md)
-* [Retention Period](la-guida-tecnica/retention-period.md)
+* [Retention Period e API polling](la-guida-tecnica/retention-period-e-api-polling.md)
 * [Limite di utilizzo del servizio: rate limiting](la-guida-tecnica/limite-di-utilizzo-del-servizio-rate-limiting.md)
 * [Documenti specifica OpenAPI](la-guida-tecnica/documenti-specifica-openapi.md)
 
 ## HOW TO
 
 * [Prerequisiti](how-to/prerequisiti.md)
+* [Abilitazione del servizio](how-to/abilitazione-del-servizio.md)
 * [Scambio o aggiornamento delle informazioni crittografiche](how-to/scambio-o-aggiornamento-delle-informazioni-crittografiche.md)
 * [Produzione dei segnali](how-to/produzione-dei-segnali.md)
 * [Consumo dei segnali](how-to/consumo-dei-segnali.md)

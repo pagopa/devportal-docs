@@ -1,9 +1,5 @@
 # Introduzione
 
-{% hint style="warning" %}
-Signal Hub è attualmente disponibile negli ambienti di collaudo e attestazione, ma non in produzione.
-{% endhint %}
-
 ## Contesto <a href="#contesto" id="contesto"></a>
 
 Per un ente, sia esso una pubblica amministrazione (PA) o un soggetto privato, sono di interesse sia i dati sia le loro _variazioni_. Per variazione di un dato si intende, ad esempio, il cambio di residenza di un soggetto o un rinnovo della patente di guida.

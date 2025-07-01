@@ -2,7 +2,7 @@
 
 Per garantire agli utenti affidabilità e disponibilità del servizio, è previsto un sistema di _rate limiting_ che pone un limite al numero di richieste che possono essere effettuate entro uno specifico intervallo di tempo.
 
-**Il&#x20;**_**rate limit**_**&#x20;è impostato a 25 richieste per secondo, per ente aderente**, sia in deposito sia in recupero segnali.
+**Il&#x20;**_**rate limit**_**&#x20;è impostato a 25 richieste per secondo, per ente aderente**, **per ciascun servizio** (deposito e recupero segnali. L'ente "A" dispone di 25 richieste al secondo per il servizio di push e di 25 richieste al secondo per il servizio di pull.
 
 Le informazioni sul _rate limiting_ sono disponibili come intestazioni della risposta HTTP e sono applicate **per singolo aderente** (produttore o consumatore di segnali). Ad esempio, le seguenti intestazioni
 

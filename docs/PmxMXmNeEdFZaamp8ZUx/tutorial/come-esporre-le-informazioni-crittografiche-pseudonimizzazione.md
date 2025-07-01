@@ -6,7 +6,7 @@ L’erogatore espone un’operazione di lettura delle informazioni crittografich
 
 Il produttore individua l’algoritmo di pseudonimizzazione con seme e i parametri per la sua esecuzione (seme). Tale scelta deve essere proporzionale alla tipologia di dati personali o alla riservatezza delle informazioni oggetto degli stati e dei fatti cui le variazioni possono riferirsi.
 
-Il valore di algoritmo e seme è univoco per e-service: tutti i consumatori otterranno lo stesso algoritmo e lo stesso seme. Il consumatore deve mantenere riservate le informazioni ricevute.
+**Il valore di algoritmo e seme è specifico per e-service**: tutti i consumatori otterranno lo stesso algoritmo e lo stesso seme. Il consumatore deve mantenere riservate le informazioni ricevute.
 
 ## Scelta dell'algoritmo e del seme
 
