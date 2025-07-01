@@ -23,7 +23,7 @@ Crea un messaggio informativo con dettagli sulla campagna (tipologia vaccino, de
 * **Indica chiaramente le opzioni di prenotazione**: Se l’appuntamento è preassegnato, specificalo. Altrimenti, inserisci il link diretto alla prenotazione.
 * **Verifica la corretta visualizzazione su mobile**: Testa il messaggio su diversi dispositivi per assicurarti che tutte le informazioni e i pulsanti siano facilmente leggibili e cliccabili.
 
-### **Benefici per l’ente e per il cittadino** ✅
+## **Benefici per l’ente e per il cittadino** ✅
 
 * **Possibilità di prenotazione immediata**: L’integrazione con i sistemi di prenotazione consente di passare all’azione con un solo clic, riducendo l’inerzia.
 * **Riduzione del cartaceo e dei costi**: L’invio digitale sostituisce canali tradizionali più lenti, costosi e soggetti a errori.
