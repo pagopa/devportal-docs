@@ -6,6 +6,6 @@
 
 * Invia messaggio di conferma con tutti i dettagli rilevanti e un link per modifica o cancellazione.
 
-### **Cosa fa Anna:**
+### **Cosa fa il cittadino:**
 
 * Verifica i dati e, se necessario, accede alla gestione per spostare o annullare l’appuntamento.

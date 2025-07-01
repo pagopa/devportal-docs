@@ -6,7 +6,7 @@ Quando ha dovuto prenotare una vaccinazione a pagamento, Anna ha ricevuto su App
 
 * Invia un messaggio contenente il dettaglio del debito e un link integrato con PagoPA per il pagamento.
 
-### **Cosa fa Anna:**
+### **Cosa fa il cittadino:**
 
 * Accede alla sezione pagamento tramite App IO e salda l’importo dovuto prima di recarsi alla prestazione.
 

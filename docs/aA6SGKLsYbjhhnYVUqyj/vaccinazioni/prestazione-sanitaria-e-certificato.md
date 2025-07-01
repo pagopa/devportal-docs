@@ -7,7 +7,7 @@
 * Carica il certificato all’interno del fascicolo sanitario elettronico.
 * Invia messaggio informativo con link diretto al documento.
 
-### **Cosa fa Anna:**
+### **Cosa fa il cittadino:**
 
 * Accede al messaggio, apre il fascicolo sanitario e consulta o scarica il certificato.
 

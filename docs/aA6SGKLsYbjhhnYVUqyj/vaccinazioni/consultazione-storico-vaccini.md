@@ -6,7 +6,7 @@ Anna può consultare in qualsiasi momento lo storico delle sue vaccinazioni dire
 
 * Abilita l’accesso alla sezione dello storico nella scheda servizio, integrando il single sign-on.
 
-### **Cosa fa Anna:**
+### **Cosa fa il cittadino:**
 
 * Accede autonomamente da App IO allo storico delle vaccinazioni per verificare i vaccini effettuati.
 

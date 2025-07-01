@@ -7,6 +7,17 @@
 * Comunica la disponibilità del kit, specificando come, dove e quando ritirarlo e restituirlo.
 * Utilizza messaggi chiari, con mappa o indicazioni logistiche precise.
 
-### **Cosa fa Lucia:**
+### **Cosa fa il cittadino:**
 
 * Si reca nel luogo indicato, ritira il kit, esegue le istruzioni e lo restituisce entro i termini.
+
+### **Benefici per l’ente e per il cittadino** ✅
+
+* **Maggiore comodità per il cittadino**: Ricevere informazioni chiare su dove ritirare o come ricevere a casa il kit riduce le barriere all’accesso.
+* **Riduzione degli errori d’uso**: Le indicazioni puntuali sull’uso corretto del kit aiutano a migliorare la qualità del campione e dell’analisi.
+* **Tracciabilità del percorso**: L’utilizzo dell’app consente di monitorare chi ha ritirato, restituito e completato il test, migliorando il follow-up.
+
+### Scrivere i messaggi su IO
+
+Nel [Manuale dei servizi dell'app IO,](https://developer.pagopa.it/app-io/guides/manuale-servizi) puoi trovare il modello [Prevenzione](https://developer.pagopa.it/app-io/guides/modelli-servizi/salute/in-arrivo) cioè un template da cui l'ente può partire per **configurare il servizio e i relativi messaggi al cittadino** su IO.&#x20;
+
