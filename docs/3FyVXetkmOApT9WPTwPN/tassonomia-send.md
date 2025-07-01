@@ -312,14 +312,12 @@ Sollecito a comunicare il Codice IBAN per l&#39;accredito della Borsa di Studio 
 * Codice`080201N` - **Accertamento economico-patrimoniale** 
 Comunicazione amministrativa di avvio procedimento per accertamento di sussistenza dei requisiti che danno diritto ai benefici concessi
 
-### 0803 - **Servizi Didattici** 
+### 0803 - **Riscossione coattiva** 
 
 * Codice`080301N` - **Diffide** 
 Servizi Didattici informa lo studente di una sua posizione debitoria e lo invita a regolarizzarla
 
-### 0804 - **Riscossione coattiva** 
-
-* Codice`080401P` - **Ingiuzioni** 
+* Codice`080302P` - **Ingiunzioni** 
 Avvocatura di Ateneo quantifica il debito dello studente e ne richiede il pagamento
 
 
@@ -410,7 +408,7 @@ Atto di ingiunzione alla restituzione del finanziamento e/o contributo concesso 
     <td rowspan="2"><strong>010101P</strong></td>
     <td>01 - Comune</td>
     <td>01 - Polizia Locale</td>
-    <td>Notifiche Violazioni al Codice della Strada</td>
+    <td>01 - Notifiche Violazioni al Codice della Strada</td>
 </tr>
 <tr>
     <td colspan="4">Tutte le tipologie di comunicazioni/verbali/solleciti relative a violazione al CdS (divieto di sosta, autovelox, ztl etc...)</td>
@@ -419,7 +417,7 @@ Atto di ingiunzione alla restituzione del finanziamento e/o contributo concesso 
     <td rowspan="2"><strong>010102P</strong></td>
     <td>01 - Comune</td>
     <td>01 - Polizia Locale</td>
-    <td>Notifiche Violazioni extra CdS</td>
+    <td>02 - Notifiche Violazioni extra CdS</td>
 </tr>
 <tr>
     <td colspan="4">Tutte le tipologie di comunicazioni relative a violazioni extra CdS (sanzioni ambientali,  altre sanzioni amministrative etc...)</td>
@@ -428,7 +426,7 @@ Atto di ingiunzione alla restituzione del finanziamento e/o contributo concesso 
     <td rowspan="2"><strong>010103N</strong></td>
     <td>01 - Comune</td>
     <td>01 - Polizia Locale</td>
-    <td>Notifiche Violazioni al Codice della Strada</td>
+    <td>03 - Notifiche Violazioni al Codice della Strada</td>
 </tr>
 <tr>
     <td colspan="4">Tutte le tipologie di comunicazioni/verbali/solleciti relative a violazione al CdS (divieto di sosta, autovelox, ztl etc...)</td>
@@ -437,7 +435,7 @@ Atto di ingiunzione alla restituzione del finanziamento e/o contributo concesso 
     <td rowspan="2"><strong>010104N</strong></td>
     <td>01 - Comune</td>
     <td>01 - Polizia Locale</td>
-    <td>Notifiche Violazioni extra CdS</td>
+    <td>04 - Notifiche Violazioni extra CdS</td>
 </tr>
 <tr>
     <td colspan="4">Tutte le tipologie di comunicazioni relative a violazioni extra CdS (sanzioni ambientali,  altre sanzioni amministrative etc...)</td>
@@ -446,7 +444,7 @@ Atto di ingiunzione alla restituzione del finanziamento e/o contributo concesso 
     <td rowspan="2"><strong>010201P</strong></td>
     <td>01 - Comune</td>
     <td>02 - Tributi</td>
-    <td>Notifiche Riscossione Tributi con pagamento</td>
+    <td>01 - Notifiche Riscossione Tributi con pagamento</td>
 </tr>
 <tr>
     <td colspan="4">Tutte le tipologie di comunicazione associate ad un pagamento (es: accertamenti, solleciti etc...) relative a Tributi che l&#39;Ente deve incassare dal cittadino/impresa (IMU, TASI, TARI, IDRICO etc...)</td>
@@ -455,7 +453,7 @@ Atto di ingiunzione alla restituzione del finanziamento e/o contributo concesso 
     <td rowspan="2"><strong>010202N</strong></td>
     <td>01 - Comune</td>
     <td>02 - Tributi</td>
-    <td>Notifiche Riscossione Tributi senza pagamento</td>
+    <td>02 - Notifiche Riscossione Tributi senza pagamento</td>
 </tr>
 <tr>
     <td colspan="4">Tutte le tipologie di comunicazione che non prevedono un pagamento correlato (es: rettifica/annullamento dell&#39;accertamento, atto di invito a comparire per accertamento con adesione, questionario e censimento lg. 147/2013, controllo su planimetria abitazione, revisione rendite catastali lg 336, stipula/cessazione contratto idrico, atto di messa in mora etc...) relative a Tributi che l&#39;Ente incassa dal cittadino/impresa (IMU, TASI, TARI, IDRICO etc...)</td>
@@ -464,7 +462,7 @@ Atto di ingiunzione alla restituzione del finanziamento e/o contributo concesso 
     <td rowspan="2"><strong>010301P</strong></td>
     <td>01 - Comune</td>
     <td>03 - Patrimonio</td>
-    <td>Notifiche riscossione entrate patrimoniali con pagamento</td>
+    <td>01 - Notifiche riscossione entrate patrimoniali con pagamento</td>
 </tr>
 <tr>
     <td colspan="4">Tutte le tipologie di comunicazione associate ad un pagamento (es. notifica/sollecito rata affitti) relative a entrate patrimoniali che l&#39;Ente incassa dal cittadino/impresa</td>
@@ -473,7 +471,7 @@ Atto di ingiunzione alla restituzione del finanziamento e/o contributo concesso 
     <td rowspan="2"><strong>010302N</strong></td>
     <td>01 - Comune</td>
     <td>03 - Patrimonio</td>
-    <td>Notifiche riscossione entrate patrimoniali senza pagamento</td>
+    <td>02 - Notifiche riscossione entrate patrimoniali senza pagamento</td>
 </tr>
 <tr>
     <td colspan="4">Tutte le tipologie di comunicazione che non prevedono un pagamento correlato (es. rettifica annullamento, stipula, determinazione canone, richiesta dati reddituali, cessazione contratto etc..) relative ad entrate patrimoniali che l&#39;Ente incassa dal cittadino/impresa</td>
@@ -482,7 +480,7 @@ Atto di ingiunzione alla restituzione del finanziamento e/o contributo concesso 
     <td rowspan="2"><strong>010401P</strong></td>
     <td>01 - Comune</td>
     <td>04 - Scuola </td>
-    <td>Notifiche per sollecito pagamento servizi scolastici</td>
+    <td>01 - Notifiche per sollecito pagamento servizi scolastici</td>
 </tr>
 <tr>
     <td colspan="4">Tutte le tipologie di comunicazione  relative al sollecito di pagamento servizi scolastici (es. mense, trasporto, rette, pre post scuola etc...)</td>
@@ -491,7 +489,7 @@ Atto di ingiunzione alla restituzione del finanziamento e/o contributo concesso 
     <td rowspan="2"><strong>010401N</strong></td>
     <td>01 - Comune</td>
     <td>04 - Scuola </td>
-    <td>Notifiche Atti Servizi Scolastici</td>
+    <td>01 - Notifiche Atti Servizi Scolastici</td>
 </tr>
 <tr>
     <td colspan="4">Tutte le tipologie di comunicazione  relative al sollecito di pagamento servizi scolastici (es. mense, trasporto, rette, pre post scuola etc...)</td>
@@ -500,7 +498,7 @@ Atto di ingiunzione alla restituzione del finanziamento e/o contributo concesso 
     <td rowspan="2"><strong>010501N</strong></td>
     <td>01 - Comune</td>
     <td>05 - Anagrafe </td>
-    <td>Notifiche comunicazioni VL relative ad ufficio anagrafe</td>
+    <td>01 - Notifiche comunicazioni VL relative ad ufficio anagrafe</td>
 </tr>
 <tr>
     <td colspan="4">Tutte le tipologie di provvedimenti e notifiche emessi da Ufficio Anagrafe vs. cittadini e imprese (es. provvedimento di irreperibilità, nomina presidente/scrutatore di seggio, convocazione per giuramento cittadinanza, accesso agli atti etc...)</td>
@@ -509,7 +507,7 @@ Atto di ingiunzione alla restituzione del finanziamento e/o contributo concesso 
     <td rowspan="2"><strong>010601N</strong></td>
     <td>01 - Comune</td>
     <td>06 - Ufficio Tecnico / SUAP</td>
-    <td>Notifiche comunicazioni VL Ufficio Tecnico / SUAP</td>
+    <td>01 - Notifiche comunicazioni VL Ufficio Tecnico / SUAP</td>
 </tr>
 <tr>
     <td colspan="4">Tutte le tipologie di atti inviati a imprese/cittadini per procedimenti attivati c/o Ufficio Tecnico / SUAP (es. richiesta parere altri uffici, SCIA accoglimento/diniego, comunicazioni e autorizzazioni accoglimento/diniego etc...)</td>
@@ -518,7 +516,7 @@ Atto di ingiunzione alla restituzione del finanziamento e/o contributo concesso 
     <td rowspan="2"><strong>010701P</strong></td>
     <td>01 - Comune</td>
     <td>07 - Ordinanze</td>
-    <td>Ordinanze Comunali con pagamento</td>
+    <td>01 - Ordinanze Comunali con pagamento</td>
 </tr>
 <tr>
     <td colspan="4">Notifica Ordinanza ingiunzione (es. sanzioni amministrative varie)</td>
@@ -527,7 +525,7 @@ Atto di ingiunzione alla restituzione del finanziamento e/o contributo concesso 
     <td rowspan="2"><strong>010702N</strong></td>
     <td>01 - Comune</td>
     <td>07 - Ordinanze</td>
-    <td>Ordinanze Comunali senza pagamento</td>
+    <td>02 - Ordinanze Comunali senza pagamento</td>
 </tr>
 <tr>
     <td colspan="4">Notifiche Ordinanze (es. ordinarie, per casi eccezionali di particolare gravità, contingibili e urgenti, etc...)</td>
@@ -536,7 +534,7 @@ Atto di ingiunzione alla restituzione del finanziamento e/o contributo concesso 
     <td rowspan="2"><strong>010801N</strong></td>
     <td>01 - Comune</td>
     <td>08 - Riscossione Coattiva</td>
-    <td>Comunicazioni relative a riscossioni coattive e ingiunzioni fiscali</td>
+    <td>01 - Comunicazioni relative a riscossioni coattive e ingiunzioni fiscali</td>
 </tr>
 <tr>
     <td colspan="4">Notifica atti relativi a procedimenti di riscossione coattiva / ingiunzioni fiscali (es. preavviso fermo amministrativo, preavviso iscrizione ipoteca, avviso di intimazione)</td>
@@ -545,7 +543,7 @@ Atto di ingiunzione alla restituzione del finanziamento e/o contributo concesso 
     <td rowspan="2"><strong>010801P</strong></td>
     <td>01 - Comune</td>
     <td>08 - Riscossione Coattiva</td>
-    <td>Comunicazioni relative a riscossioni coattive e ingiunzioni fiscali</td>
+    <td>01 - Comunicazioni relative a riscossioni coattive e ingiunzioni fiscali</td>
 </tr>
 <tr>
     <td colspan="4">Notifica atti relativi a procedimenti di riscossione coattiva / ingiunzioni fiscali (es. preavviso fermo amministrativo, preavviso iscrizione ipoteca, avviso di intimazione)</td>
@@ -554,7 +552,7 @@ Atto di ingiunzione alla restituzione del finanziamento e/o contributo concesso 
     <td rowspan="2"><strong>010901N</strong></td>
     <td>01 - Comune</td>
     <td>09 - Delegazioni</td>
-    <td>notifica delegazioni di pagamento a tesoriere</td>
+    <td>01 - notifica delegazioni di pagamento a tesoriere</td>
 </tr>
 <tr>
     <td colspan="4">a notificare al tesoriere i documenti richiesti da cddpp</td>
@@ -563,7 +561,7 @@ Atto di ingiunzione alla restituzione del finanziamento e/o contributo concesso 
     <td rowspan="2"><strong>011001N</strong></td>
     <td>01 - Comune</td>
     <td>10 - Convocazioni</td>
-    <td>notifica atti di convocazione consiglio comunale</td>
+    <td>01 - notifica atti di convocazione consiglio comunale</td>
 </tr>
 <tr>
     <td colspan="4">per notificare ai vari consiglieri comunali la convocazione del consiglio</td>
@@ -572,7 +570,7 @@ Atto di ingiunzione alla restituzione del finanziamento e/o contributo concesso 
     <td rowspan="2"><strong>020101P</strong></td>
     <td>02 - Regioni ed Enti Regionali</td>
     <td>01 - Recupero Bolli non Pagati</td>
-    <td>Notifiche Riscossione Bollo non pagato</td>
+    <td>01 - Notifiche Riscossione Bollo non pagato</td>
 </tr>
 <tr>
     <td colspan="4">Tutte le comunicazione associate ad un pagamento (es: accertamenti, solleciti etc...) relative al recupero dei Bolli non pagati degli anni precedenti che l&#39;Ente deve incassare dal cittadino/impresa.</td>
@@ -581,7 +579,7 @@ Atto di ingiunzione alla restituzione del finanziamento e/o contributo concesso 
     <td rowspan="2"><strong>020401P</strong></td>
     <td>02 - Regioni ed Enti Regionali</td>
     <td>04 - Esenzioni Bolli Auto</td>
-    <td>Notifiche Istanze di diniego/accettazione esenzione</td>
+    <td>01 - Notifiche Istanze di diniego/accettazione esenzione</td>
 </tr>
 <tr>
     <td colspan="4">Tutte le comunicazioni, di diniego, di accettazione o di carenza di documentazione, che riguardano le istanze di esenzione per il pagamento del bollo auto presentate da soggetti ex art. 3, co.3, l. 104/92, invalide, etc...</td>
@@ -590,7 +588,7 @@ Atto di ingiunzione alla restituzione del finanziamento e/o contributo concesso 
     <td rowspan="2"><strong>020402N</strong></td>
     <td>02 - Regioni ed Enti Regionali</td>
     <td>04 - Esenzioni Bolli Auto</td>
-    <td>Notifiche Istanze di diniego/accettazione esenzione</td>
+    <td>02 - Notifiche Istanze di diniego/accettazione esenzione</td>
 </tr>
 <tr>
     <td colspan="4">Tutte le comunicazioni, di diniego, di accettazione o di carenza di documentazione, che riguardano le istanze di esenzione per il pagamento del bollo auto presentate da soggetti ex art. 3, co.3, l. 104/92, invalide, etc...</td>
@@ -599,7 +597,7 @@ Atto di ingiunzione alla restituzione del finanziamento e/o contributo concesso 
     <td rowspan="2"><strong>020403N</strong></td>
     <td>02 - Regioni ed Enti Regionali</td>
     <td>04 - Esenzioni Bolli Auto</td>
-    <td>Notifica Tasse per Sospensione Rivenditori</td>
+    <td>03 - Notifica Tasse per Sospensione Rivenditori</td>
 </tr>
 <tr>
     <td colspan="4">Tutte le comunicazioni che riguardano il contributo da versare in relazione alla sospensione del bollo auto per rivendita</td>
@@ -608,7 +606,7 @@ Atto di ingiunzione alla restituzione del finanziamento e/o contributo concesso 
     <td rowspan="2"><strong>030101P</strong></td>
     <td>03 - Riscossore</td>
     <td>01 - Tributi</td>
-    <td>Notifiche Riscossione Tributi con pagamento</td>
+    <td>01 - Notifiche Riscossione Tributi con pagamento</td>
 </tr>
 <tr>
     <td colspan="4">Tutte le tipologie di comunicazione associate ad un pagamento (es: accertamenti, solleciti etc...) relative a Tributi che l&#39;Ente deve incassare dal cittadino/impresa (IMU, TASI, TARI, IDRICO etc...)</td>
@@ -617,7 +615,7 @@ Atto di ingiunzione alla restituzione del finanziamento e/o contributo concesso 
     <td rowspan="2"><strong>030102N</strong></td>
     <td>03 - Riscossore</td>
     <td>01 - Tributi</td>
-    <td>Notifiche Riscossione Tributi senza pagamento</td>
+    <td>02 - Notifiche Riscossione Tributi senza pagamento</td>
 </tr>
 <tr>
     <td colspan="4">Tutte le tipologie di comunicazione che non prevedono un pagamento correlato (es: rettifica/annullamento dell&#39;accertamento, atto di invito a comparire per accertamento con adesione, questionario e censimento lg. 147/2013, controllo su planimetria abitazione, revisione rendite catastali lg 336, stipula/cessazione contratto idrico, atto di messa in mora etc...) relative a Tributi che l&#39;Ente incassa dal cittadino/impresa (IMU, TASI, TARI, IDRICO etc...)</td>
@@ -626,7 +624,7 @@ Atto di ingiunzione alla restituzione del finanziamento e/o contributo concesso 
     <td rowspan="2"><strong>030201P</strong></td>
     <td>03 - Riscossore</td>
     <td>02 - Patrimonio</td>
-    <td>Notifiche riscossione entrate patrimoniali con pagamento</td>
+    <td>01 - Notifiche riscossione entrate patrimoniali con pagamento</td>
 </tr>
 <tr>
     <td colspan="4">Tutte le tipologie di comunicazione associate ad un pagamento (es. notifica/sollecito rata affitti, ICP, CANONE UNICO PATRIMONIALE, OCCUPAZIONE SUOLO PUBBLICO, etc...) relative a entrate patrimoniali che l&#39;Ente incassa dal cittadino/impresa</td>
@@ -635,7 +633,7 @@ Atto di ingiunzione alla restituzione del finanziamento e/o contributo concesso 
     <td rowspan="2"><strong>030202N</strong></td>
     <td>03 - Riscossore</td>
     <td>02 - Patrimonio</td>
-    <td>Notifiche riscossione entrate patrimoniali senza pagamento</td>
+    <td>02 - Notifiche riscossione entrate patrimoniali senza pagamento</td>
 </tr>
 <tr>
     <td colspan="4">Tutte le tipologie di comunicazione che non prevedono un pagamento correlato (es. rettifica annullamento, stipula, determinazione canone, richiesta dati reddituali, cessazione contratto etc..) relative a entrate patrimoniali che l&#39;Ente incassa dal cittadino/impresa (AFFITTI, ICP, CANONE UNICO PATRIMONIALE, OCCUPAZIONE SUOLO PUBBLICO, etc...)</td>
@@ -644,7 +642,7 @@ Atto di ingiunzione alla restituzione del finanziamento e/o contributo concesso 
     <td rowspan="2"><strong>030301P</strong></td>
     <td>03 - Riscossore</td>
     <td>03 - Riscossione Coattiva</td>
-    <td>Comunicazioni relative a riscossioni coattive e ingiunzioni fiscali</td>
+    <td>01 - Comunicazioni relative a riscossioni coattive e ingiunzioni fiscali</td>
 </tr>
 <tr>
     <td colspan="4">Tutte le tipologie di comunicazioni associate ad un pagamento che prevedono la notifica di atti relativi a procedimenti di riscossione coattiva / ingiunzioni fiscali (es. Ingiunzione fiscale, Preavviso fermo amministrativo, Preavviso iscrizione ipoteca, etc...)</td>
@@ -653,7 +651,7 @@ Atto di ingiunzione alla restituzione del finanziamento e/o contributo concesso 
     <td rowspan="2"><strong>030302N</strong></td>
     <td>03 - Riscossore</td>
     <td>03 - Riscossione Coattiva</td>
-    <td>Comunicazioni relative a riscossioni coattive e ingiunzioni fiscali</td>
+    <td>02 - Comunicazioni relative a riscossioni coattive e ingiunzioni fiscali</td>
 </tr>
 <tr>
     <td colspan="4">Notifica atti relativi a procedimenti di riscossione coattiva / ingiunzioni fiscali (es. Ingiunzione fiscale, Preavviso fermo amministrativo, Preavviso iscrizione ipoteca, etc...)</td>
@@ -662,7 +660,7 @@ Atto di ingiunzione alla restituzione del finanziamento e/o contributo concesso 
     <td rowspan="2"><strong>030401P</strong></td>
     <td>03 - Riscossore</td>
     <td>04 - Accesso agli Atti</td>
-    <td>Comunicazioni relative a processi amministrativi di accesso agli atti</td>
+    <td>01 - Comunicazioni relative a processi amministrativi di accesso agli atti</td>
 </tr>
 <tr>
     <td colspan="4">Tutte le tipologie di comunicazioni associate ad un pagamento rispetto alla erogazione del servizio di accesso agli atti dell&#39;Ente</td>
@@ -671,7 +669,7 @@ Atto di ingiunzione alla restituzione del finanziamento e/o contributo concesso 
     <td rowspan="2"><strong>030402N</strong></td>
     <td>03 - Riscossore</td>
     <td>04 - Accesso agli Atti</td>
-    <td>Comunicazioni relative a processi amministrativi di accesso agli atti</td>
+    <td>02 - Comunicazioni relative a processi amministrativi di accesso agli atti</td>
 </tr>
 <tr>
     <td colspan="4">Notifiche di atti relativi a procedimenti relativi alla richiesta di accesso agli atti dell&#39;Ente (conferma, diniego, rifiuto, etc...)</td>
@@ -680,7 +678,7 @@ Atto di ingiunzione alla restituzione del finanziamento e/o contributo concesso 
     <td rowspan="2"><strong>030501N</strong></td>
     <td>03 - Riscossore</td>
     <td>05 - Commercio e SUAP</td>
-    <td>Comunicazioni relative ad ufficio SUAP e Commercio</td>
+    <td>01 - Comunicazioni relative ad ufficio SUAP e Commercio</td>
 </tr>
 <tr>
     <td colspan="4">Tutte le tipologie di comunicazioni associate ad un pagamento che prevedono la notifica di atti c/o ufficio tecnico (Richiesta parere altri uffici, SCIA - Accoglimento/Diniego, Comunicazioni, Accoglimento/Diniego Autorizzazioni, etc...)</td>
@@ -689,7 +687,7 @@ Atto di ingiunzione alla restituzione del finanziamento e/o contributo concesso 
     <td rowspan="2"><strong>030601P</strong></td>
     <td>03 - Riscossore</td>
     <td>06 - Recupero Bolli non Pagati</td>
-    <td>Notifiche Riscossione Bollo non pagato</td>
+    <td>01 - Notifiche Riscossione Bollo non pagato</td>
 </tr>
 <tr>
     <td colspan="4">Tutte le comunicazione associate ad un pagamento (es: accertamenti, solleciti etc...) relative al recupero dei Bolli non pagati degli anni precedenti che l&#39;Ente deve incassare dal cittadino/impresa.</td>
@@ -698,7 +696,7 @@ Atto di ingiunzione alla restituzione del finanziamento e/o contributo concesso 
     <td rowspan="2"><strong>040101N</strong></td>
     <td>04 - Ministeri</td>
     <td>01 - Decreto </td>
-    <td>Notifica di concessione/diniego di cittadinanza</td>
+    <td>01 - Notifica di concessione/diniego di cittadinanza</td>
 </tr>
 <tr>
     <td colspan="4">Notifiche di atti relativi a procedimenti inerenti a richieste di cittadinanza</td>
@@ -707,7 +705,7 @@ Atto di ingiunzione alla restituzione del finanziamento e/o contributo concesso 
     <td rowspan="2"><strong>040201N</strong></td>
     <td>04 - Ministeri</td>
     <td>02 - Esercito Italiano</td>
-    <td>Comunicazione di avvio del procedimento</td>
+    <td>01 - Comunicazione di avvio del procedimento</td>
 </tr>
 <tr>
     <td colspan="4">Costituzione in mora – Comunicazione di avvio del procedimento</td>
@@ -716,7 +714,7 @@ Atto di ingiunzione alla restituzione del finanziamento e/o contributo concesso 
     <td rowspan="2"><strong>050101P</strong></td>
     <td>05 - Previdenza</td>
     <td>01 - Contributi</td>
-    <td>Notifiche relative a Contributi verso l&#39;ente previdenziale</td>
+    <td>01 - Notifiche relative a Contributi verso l&#39;ente previdenziale</td>
 </tr>
 <tr>
     <td colspan="4">Notifiche relative a Contributi verso l&#39;ente previdenziale (es. Riscatti, Ricongiunzione e Rendite, Versamenti Volontari, Lavoratori Domestici)</td>
@@ -725,7 +723,7 @@ Atto di ingiunzione alla restituzione del finanziamento e/o contributo concesso 
     <td rowspan="2"><strong>050201N</strong></td>
     <td>05 - Previdenza</td>
     <td>02 - Provvedimenti</td>
-    <td>Notifiche dei Provvedimenti  dei prodotti/servizi</td>
+    <td>01 - Notifiche dei Provvedimenti  dei prodotti/servizi</td>
 </tr>
 <tr>
     <td colspan="4">Notifiche dei provvedimenti dei prodotti/servizi (es. Riscatti, Ricongiunzione e Rendite, Assegno di Inclusione, Supporto Formazione e Lavoro)</td>
@@ -734,7 +732,7 @@ Atto di ingiunzione alla restituzione del finanziamento e/o contributo concesso 
     <td rowspan="2"><strong>050201P</strong></td>
     <td>05 - Previdenza</td>
     <td>02 - Provvedimenti</td>
-    <td>Notifiche dei Provvedimenti  dei prodotti/servizi</td>
+    <td>01 - Notifiche dei Provvedimenti  dei prodotti/servizi</td>
 </tr>
 <tr>
     <td colspan="4">Notifiche dei provvedimenti dei prodotti/servizi (es. Riscatti, Ricongiunzione e Rendite, Assegno di Inclusione, Supporto Formazione e Lavoro)</td>
@@ -743,7 +741,7 @@ Atto di ingiunzione alla restituzione del finanziamento e/o contributo concesso 
     <td rowspan="2"><strong>050301N</strong></td>
     <td>05 - Previdenza</td>
     <td>03 - Recupero indebiti</td>
-    <td>Notifiche dei provvedimenti di recupero indebiti</td>
+    <td>01 - Notifiche dei provvedimenti di recupero indebiti</td>
 </tr>
 <tr>
     <td colspan="4">Notifiche dei provvedimenti di recupero indebiti da pensione, ammortizzatori sociali ed entrate</td>
@@ -752,7 +750,7 @@ Atto di ingiunzione alla restituzione del finanziamento e/o contributo concesso 
     <td rowspan="2"><strong>050301P</strong></td>
     <td>05 - Previdenza</td>
     <td>03 - Recupero indebiti</td>
-    <td>Notifiche dei provvedimenti di recupero indebiti</td>
+    <td>01 - Notifiche dei provvedimenti di recupero indebiti</td>
 </tr>
 <tr>
     <td colspan="4">Notifiche dei provvedimenti di recupero indebiti da pensione, ammortizzatori sociali ed entrate</td>
@@ -761,7 +759,7 @@ Atto di ingiunzione alla restituzione del finanziamento e/o contributo concesso 
     <td rowspan="2"><strong>050401P</strong></td>
     <td>05 - Previdenza</td>
     <td>04 - Avvisi di addebito</td>
-    <td>Notifiche dei provvedimenti di recupero del credito</td>
+    <td>01 - Notifiche dei provvedimenti di recupero del credito</td>
 </tr>
 <tr>
     <td colspan="4">Notifiche dei provvedimenti di recupero del credito emessi dall’Istituto Previdenziale e riscossi dall’Agenzia delle entrate-Riscossione</td>
@@ -770,7 +768,7 @@ Atto di ingiunzione alla restituzione del finanziamento e/o contributo concesso 
     <td rowspan="2"><strong>060101P</strong></td>
     <td>06 - Servizio Sanitario Nazionale</td>
     <td>01 - Ticket</td>
-    <td>Notifiche relative al Pagamento nei confronti della Sanità</td>
+    <td>01 - Notifiche relative al Pagamento nei confronti della Sanità</td>
 </tr>
 <tr>
     <td colspan="4">Tutte le tipologie di notifiche che riguardano il pagamento di una tassa per usufruire del servizio sanitario pubblico</td>
@@ -779,7 +777,7 @@ Atto di ingiunzione alla restituzione del finanziamento e/o contributo concesso 
     <td rowspan="2"><strong>060201P</strong></td>
     <td>06 - Servizio Sanitario Nazionale</td>
     <td>02 - Recupero ticket esenzione da reddito</td>
-    <td>Notifiche recupero crediti in seguito ad errate dichiarazioni di esenzione da reddito</td>
+    <td>01 - Notifiche recupero crediti in seguito ad errate dichiarazioni di esenzione da reddito</td>
 </tr>
 <tr>
     <td colspan="4">Tutte le comunicazioni associate ad un pagamento, relative al recupero del ticket dovuto per le prestazioni di assistenza specialistica e/o farmaceutica fruite indebitamente</td>
@@ -788,7 +786,7 @@ Atto di ingiunzione alla restituzione del finanziamento e/o contributo concesso 
     <td rowspan="2"><strong>070101P</strong></td>
     <td>07 - Provincia</td>
     <td>01 - Polizia Provinciale</td>
-    <td>Notifiche Violazioni al Codice della Strada</td>
+    <td>01 - Notifiche Violazioni al Codice della Strada</td>
 </tr>
 <tr>
     <td colspan="4">Tutte le tipologie di comunicazioni/verbali/solleciti relative a violazione al CdS in ambito provinciale (ex. autovelox, etc...)</td>
@@ -797,7 +795,7 @@ Atto di ingiunzione alla restituzione del finanziamento e/o contributo concesso 
     <td rowspan="2"><strong>070201P</strong></td>
     <td>07 - Provincia</td>
     <td>02 - Violazioni</td>
-    <td>Notifiche Violazioni extra CdS </td>
+    <td>01 - Notifiche Violazioni extra CdS </td>
 </tr>
 <tr>
     <td colspan="4">Inviare le notifiche Extra Cds per le Province</td>
@@ -806,7 +804,7 @@ Atto di ingiunzione alla restituzione del finanziamento e/o contributo concesso 
     <td rowspan="2"><strong>070202N</strong></td>
     <td>07 - Provincia</td>
     <td>02 - Violazioni</td>
-    <td>Notifiche Violazioni extra CdS </td>
+    <td>02 - Notifiche Violazioni extra CdS </td>
 </tr>
 <tr>
     <td colspan="4">Inviare le notifiche Extra Cds per le Province</td>
@@ -815,7 +813,7 @@ Atto di ingiunzione alla restituzione del finanziamento e/o contributo concesso 
     <td rowspan="2"><strong>070301P</strong></td>
     <td>07 - Provincia</td>
     <td>03 - Ordinanze</td>
-    <td>Ordinanze Provinciali </td>
+    <td>01 - Ordinanze Provinciali </td>
 </tr>
 <tr>
     <td colspan="4">Inviare le notifiche Extra Cds per le Province</td>
@@ -824,7 +822,7 @@ Atto di ingiunzione alla restituzione del finanziamento e/o contributo concesso 
     <td rowspan="2"><strong>070302N</strong></td>
     <td>07 - Provincia</td>
     <td>03 - Ordinanze</td>
-    <td>Ordinance Provinciali </td>
+    <td>02 - Ordinance Provinciali </td>
 </tr>
 <tr>
     <td colspan="4">Inviare le notifiche Extra Cds per le Province</td>
@@ -833,7 +831,7 @@ Atto di ingiunzione alla restituzione del finanziamento e/o contributo concesso 
     <td rowspan="2"><strong>080101N</strong></td>
     <td>08 - Università/ Scuola statale/ Altri Enti</td>
     <td>01 - Revoca benefici</td>
-    <td>Revoca dei benefici per mancanza di requisiti</td>
+    <td>01 - Revoca dei benefici per mancanza di requisiti</td>
 </tr>
 <tr>
     <td colspan="4">Comunicazione amministrativa di revoca per perdita dei requisiti di accesso ai benefici e richiesta di rientro delle somme percepite</td>
@@ -842,7 +840,7 @@ Atto di ingiunzione alla restituzione del finanziamento e/o contributo concesso 
     <td rowspan="2"><strong>080201N</strong></td>
     <td>08 - Università/ Scuola statale/ Altri Enti</td>
     <td>02 - Accertamenti</td>
-    <td>Accertamento economico-patrimoniale </td>
+    <td>01 - Accertamento economico-patrimoniale </td>
 </tr>
 <tr>
     <td colspan="4">Comunicazione amministrativa di avvio procedimento per accertamento di sussistenza dei requisiti che danno diritto ai benefici concessi</td>
@@ -851,7 +849,7 @@ Atto di ingiunzione alla restituzione del finanziamento e/o contributo concesso 
     <td rowspan="2"><strong>080102N</strong></td>
     <td>08 - Università/ Scuola statale/ Altri Enti</td>
     <td>01 - Revoca benefici</td>
-    <td>Remissione del credito art. 1236 codice civile</td>
+    <td>02 - Remissione del credito art. 1236 codice civile</td>
 </tr>
 <tr>
     <td colspan="4">Sollecito a comunicare il Codice IBAN per l&#39;accredito della Borsa di Studio a pena di remissione del credito in caso di inadempienza</td>
@@ -859,17 +857,17 @@ Atto di ingiunzione alla restituzione del finanziamento e/o contributo concesso 
 <tr>
     <td rowspan="2"><strong>080301N</strong></td>
     <td>08 - Università/ Scuola statale/ Altri Enti</td>
-    <td>03 - Servizi Didattici</td>
-    <td>Diffide</td>
+    <td>03 - Riscossione coattiva</td>
+    <td>01 - Diffide</td>
 </tr>
 <tr>
     <td colspan="4">Servizi Didattici informa lo studente di una sua posizione debitoria e lo invita a regolarizzarla</td>
 </tr>
 <tr>
-    <td rowspan="2"><strong>080401P</strong></td>
+    <td rowspan="2"><strong>080302P</strong></td>
     <td>08 - Università/ Scuola statale/ Altri Enti</td>
-    <td>04 - Riscossione coattiva</td>
-    <td>Ingiuzioni</td>
+    <td>03 - Riscossione coattiva</td>
+    <td>02 - Ingiunzioni</td>
 </tr>
 <tr>
     <td colspan="4">Avvocatura di Ateneo quantifica il debito dello studente e ne richiede il pagamento</td>
@@ -878,7 +876,7 @@ Atto di ingiunzione alla restituzione del finanziamento e/o contributo concesso 
     <td rowspan="2"><strong>090101P</strong></td>
     <td>09 - Camera di Commercio</td>
     <td>01 - Verbali ed Ordinanze</td>
-    <td>Servizio di notifiche digitali per Verbali e Ordinanze </td>
+    <td>01 - Servizio di notifiche digitali per Verbali e Ordinanze </td>
 </tr>
 <tr>
     <td colspan="4">Ingiungere gli importi dovuti a seguito di sanzioni amministrative (registro imprese e di altri organi accertatori)</td>
@@ -887,7 +885,7 @@ Atto di ingiunzione alla restituzione del finanziamento e/o contributo concesso 
     <td rowspan="2"><strong>100101P</strong></td>
     <td>10 - Ordine Professionale</td>
     <td>01 - Professionisti</td>
-    <td>Tassa Iscrizione Annua</td>
+    <td>01 - Tassa Iscrizione Annua</td>
 </tr>
 <tr>
     <td colspan="4">Tutte le tipologie di comunicazioni associate al pagamento della Tassa di Iscrizione Annua che prevedono la notifica di atti relativi ai procedimenti di riscossione</td>
@@ -896,7 +894,7 @@ Atto di ingiunzione alla restituzione del finanziamento e/o contributo concesso 
     <td rowspan="2"><strong>100102N</strong></td>
     <td>10 - Ordine Professionale</td>
     <td>01 - Professionisti</td>
-    <td>Tassa Iscrizione Annua</td>
+    <td>02 - Tassa Iscrizione Annua</td>
 </tr>
 <tr>
     <td colspan="4">Tutte le tipologie di comunicazioni associate alla Tassa di Iscrizione Annua”</td>
@@ -905,7 +903,7 @@ Atto di ingiunzione alla restituzione del finanziamento e/o contributo concesso 
     <td rowspan="2"><strong>100103P</strong></td>
     <td>10 - Ordine Professionale</td>
     <td>01 - Professionisti</td>
-    <td>Notifiche relative al Pagamento nei confronti dell’Ordine</td>
+    <td>03 - Notifiche relative al Pagamento nei confronti dell’Ordine</td>
 </tr>
 <tr>
     <td colspan="4">Tutte le tipologie di comunicazioni associate ad un pagamento che prevedono la notifica di atti relativi a procedimenti di riscossione (Decreti ingiuntivi, etc</td>
@@ -914,7 +912,7 @@ Atto di ingiunzione alla restituzione del finanziamento e/o contributo concesso 
     <td rowspan="2"><strong>100104N</strong></td>
     <td>10 - Ordine Professionale</td>
     <td>01 - Professionisti</td>
-    <td>Notifiche relative al Pagamento nei confronti dell’Ordine</td>
+    <td>04 - Notifiche relative al Pagamento nei confronti dell’Ordine</td>
 </tr>
 <tr>
     <td colspan="4">Tutte le tipologie di comunicazioni associate ad un pagamento che prevedono la notifica di atti relativi a procedimenti di riscossione (Decreti ingiuntivi, etc</td>
@@ -923,7 +921,7 @@ Atto di ingiunzione alla restituzione del finanziamento e/o contributo concesso 
     <td rowspan="2"><strong>100105P</strong></td>
     <td>10 - Ordine Professionale</td>
     <td>01 - Professionisti</td>
-    <td>Notifiche atti amministrativi/contabili </td>
+    <td>05 - Notifiche atti amministrativi/contabili </td>
 </tr>
 <tr>
     <td colspan="4">Tutte le tipologie di comunicazioni associate ad un pagamento rispetto alla erogazione del servizio di accesso agli atti dell&#39;Ente</td>
@@ -932,7 +930,7 @@ Atto di ingiunzione alla restituzione del finanziamento e/o contributo concesso 
     <td rowspan="2"><strong>100106N</strong></td>
     <td>10 - Ordine Professionale</td>
     <td>01 - Professionisti</td>
-    <td>Notifiche atti amministrativi</td>
+    <td>06 - Notifiche atti amministrativi</td>
 </tr>
 <tr>
     <td colspan="4">Notifiche di atti relativi a procedimenti amministrativi dell’Ente (Rigetti, Cancellazioni, Sospensioni, Diffide, etc…</td>
@@ -941,7 +939,7 @@ Atto di ingiunzione alla restituzione del finanziamento e/o contributo concesso 
     <td rowspan="2"><strong>100107N</strong></td>
     <td>10 - Ordine Professionale</td>
     <td>01 - Professionisti</td>
-    <td>Avviso Morosità</td>
+    <td>07 - Avviso Morosità</td>
 </tr>
 <tr>
     <td colspan="4">Comunicazione relativa al sollecito di pagamento della Tassa di Iscrizione annua (primo, secondo e terzo avviso</td>
@@ -950,7 +948,7 @@ Atto di ingiunzione alla restituzione del finanziamento e/o contributo concesso 
     <td rowspan="2"><strong>110101P</strong></td>
     <td>11 - Gestore di Pubblico Servizio</td>
     <td>01 - Gestione Morosità</td>
-    <td>Solleciti di Pagamento</td>
+    <td>01 - Solleciti di Pagamento</td>
 </tr>
 <tr>
     <td colspan="4">Tutte le tipologie di sollecito clienti morosi</td>
@@ -959,7 +957,7 @@ Atto di ingiunzione alla restituzione del finanziamento e/o contributo concesso 
     <td rowspan="2"><strong>120101P</strong></td>
     <td>12 - Società a Controllo Pubblico</td>
     <td>01 - Gestione misure agevolative</td>
-    <td>Notifica Avviso di Pagamento</td>
+    <td>01 - Notifica Avviso di Pagamento</td>
 </tr>
 <tr>
     <td colspan="4">avviso di pagamento di una rata del finanziamento/contributo concesso</td>
@@ -968,7 +966,7 @@ Atto di ingiunzione alla restituzione del finanziamento e/o contributo concesso 
     <td rowspan="2"><strong>120102P</strong></td>
     <td>12 - Società a Controllo Pubblico</td>
     <td>01 - Gestione misure agevolative</td>
-    <td>Notifica Solleciti di Pagamento</td>
+    <td>02 - Notifica Solleciti di Pagamento</td>
 </tr>
 <tr>
     <td colspan="4">Sollecito avviso di pagamento di una o più rate scadute del finanziamento/contributo concesso</td>
@@ -977,7 +975,7 @@ Atto di ingiunzione alla restituzione del finanziamento e/o contributo concesso 
     <td rowspan="2"><strong>120103P</strong></td>
     <td>12 - Società a Controllo Pubblico</td>
     <td>01 - Gestione misure agevolative</td>
-    <td>Notifica Atto di Ingiunzione</td>
+    <td>03 - Notifica Atto di Ingiunzione</td>
 </tr>
 <tr>
     <td colspan="4">Atto di ingiunzione alla restituzione del finanziamento e/o contributo concesso qualora l’intero ammontare non sia stato restituito a seguito di revoca nei tempi stabiliti</td>
