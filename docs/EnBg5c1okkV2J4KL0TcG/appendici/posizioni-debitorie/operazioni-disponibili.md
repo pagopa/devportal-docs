@@ -16,6 +16,8 @@ Per i dettagli [https://github.com/pagopa/pagopa-api/tree/SANP3.8.0/openapi](htt
 
 ### Creazione di una posizione debitoria
 
+
+
 {% openapi src="https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.7.1/openapi/gpd.json" path="/organizations/{organizationfiscalcode}/debtpositions" method="post" %}
 [https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.7.1/openapi/gpd.json](https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.7.1/openapi/gpd.json)
 {% endopenapi %}
@@ -114,17 +116,17 @@ Sono messe a disposizione due API per il recupero delle ricevute di pagamento:
 * lista ricevute di pagamento
 * dettaglio singola ricevuta
 
-{% openapi src="https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.7.0/openapi/gpd_payments.json" path="/payments/{organizationfiscalcode}/receipts" method="get" %}
-[https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.7.0/openapi/gpd_payments.json](https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.7.0/openapi/gpd_payments.json)
-{% endopenapi %}
-
 <figure><img src="../../.gitbook/assets/readReceiptList.png" alt=""><figcaption></figcaption></figure>
 
-{% openapi src="https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.7.0/openapi/gpd_payments.json" path="/payments/{organizationfiscalcode}/receipts/{iuv}" method="get" %}
-[https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.7.0/openapi/gpd_payments.json](https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.7.0/openapi/gpd_payments.json)
-{% endopenapi %}
+{% openapi-operation spec="gpd-payments" path="/payments/{organizationfiscalcode}/receipts" method="get" %}
+[OpenAPI gpd-payments](https://raw.githubusercontent.com/pagopa/pagopa-api/refs/heads/SANP3.9.1/openapi/gpd_payments.json)
+{% endopenapi-operation %}
 
 <figure><img src="../../.gitbook/assets/readReceipt.png" alt=""><figcaption></figcaption></figure>
+
+{% openapi-operation spec="gpd-payments" path="/payments/{organizationfiscalcode}/receipts/{iuv}" method="get" %}
+[OpenAPI gpd-payments](https://raw.githubusercontent.com/pagopa/pagopa-api/refs/heads/SANP3.9.1/openapi/gpd_payments.json)
+{% endopenapi-operation %}
 
 ## Flussi di rendicontazione
 
