@@ -1,5 +1,5 @@
 ---
-description: Versione 1.0
+description: Versione 1.1
 ---
 
 # 👋 Introduzione
