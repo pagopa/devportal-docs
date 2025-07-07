@@ -12,52 +12,39 @@ Il paradigma utilizzato per l'implementazione di tutte le API esposte di PDND In
 Ulteriori prove autorizzative o informazioni legate al dominio del fruitore possono essere previste nella comunicazione tra erogatore e fruitore, a discrezione delle parti.
 {% endhint %}
 
-### Richiesta di un voucher
+## Richiesta di un voucher spendibile presso un e-service del catalogo
 
-L'aderente costruisce una client assertion e la firma con una chiave privata la cui omologa pubblica è nota a PDND Interoperabilità. Successivamente, chiama il server autorizzativo di PDND Interoperabilità richiedendo un voucher valido per quell'asserzione firmata. In caso tutti i controlli diano riscontro positivo, PDND Interoperabilità restituisce un voucher all'aderente.
-
-### Flusso voucher spendibile presso le API di Interoperabilità
-
-L'aderente fa richiesta di un voucher. Una volta ottenuto, lo inserisce come header autorizzativo nelle successive chiamate verso le API di PDND Interoperabilità.
-
-### Flusso voucher spendibile presso un e-service del catalogo
-
-Il fruitore fa richiesta di un voucher. Una volta ottenuto, lo inserisce come header autorizzativo nelle chiamate che effettua verso l'e-service di un erogatore.
-
-L'erogatore, ricevuta la richiesta con il voucher, effettua i debiti controlli. È possibile che alcuni di questi controlli richiedano il recupero di informazioni detenute da Interoperabilità. In quel caso, l'erogatore stesso dovrà richiedere un voucher spendibile presso le API di Interoperabilità. Una volta terminati i controlli, l'erogatore autorizza il fruitore all'accesso al servizio per la specifica finalità richiesta.
-
-## Implementazione
-
-Si suggerisce di fare sempre riferimento alla guida passo passo implementata nel back office di PDND Interoperabilità. Alcune informazioni sono tuttavia riportate anche qui per completezza.
-
-<figure><img src="../.gitbook/assets/Screen guida ottenere voucher" alt=""><figcaption><p>La guida in tre passi per ottenere l'accesso al token si trova sotto "I tuoi client e-service". Se si vuole aggiungere ad un Client già creato si deve cliccare su "Ispeziona", altrimenti su "Crea nuovo".</p></figcaption></figure>
-
-### Richiesta di un voucher spendibile presso un e-service del catalogo
+Questo flusso descrive il processo attraverso il quale il fruitore richiede un voucher a PDND Interoperabilità, e lo spende poi presso l'erogatore di un e-service.
 
 Il pre-requisito per poter ottenere un voucher valido è aver caricato almeno una chiave pubblica, parte del proprio materiale crittografico, all'interno di un client e-service (disponibile sull'interfaccia del back office alla voce _Fruizione > I tuoi client e-service_). Per saperne di più, leggi la [s](client-e-materiale-crittografico.md)[ezione dedicata](client-e-materiale-crittografico.md).
 
-Il primo passo è costruire una _client assertion_ valida. La client assertion è composta da un header e un payload.
+{% hint style="info" %}
+Si suggerisce di fare sempre riferimento alla guida passo passo implementata nel back office di PDND Interoperabilità. Alcune informazioni sono tuttavia riportate anche qui per completezza.
+{% endhint %}
 
-#### I campi contenuti nella client assertion
+<figure><img src="../.gitbook/assets/Screen guida ottenere voucher" alt=""><figcaption><p>La guida in tre passi per ottenere l'accesso al token si trova sotto "I tuoi client e-service". Se si vuole aggiungere ad un Client già creato si deve cliccare su "Ispeziona", altrimenti su "Crea nuovo".</p></figcaption></figure>
 
-Nell'header andranno inseriti tre camp&#x69;_:_
+### Il flusso in breve
 
-* `kid`: l'id della chiave che si usa per firmare l'asserzion&#x65;_,_ reperibile su PDND Interoperabilità;
-* `alg`: l'algoritmo usato per firmare il JWT (per ora, sempre `RS256`);
-* `typ`: il tipo di oggetto che si sta inviando (sempre `JWT`).
+In sostanza, il processo end-to-end richiede cinque passaggi:
 
-Nel payload ci saranno invece sei campi:&#x20;
+1. il fruitore genera la client assertion
+2. il fruitore chiede il voucher al server autorizzativo di PDND
+3. il server autorizzativo di PDND effettua le verifiche necessarie. In caso di esito positivo, restituisce un voucher
+4. il fruitore fa una richiesta verso l'e-service dell'erogatore
+5. l'erogatore effettua le verifiche necessarie. In caso di esito positivo, restituisce i dati al fruitore
 
-* `iss`: l'issuer, in questo caso il _clientId;_
-* `sub`: il subject, in questo caso sempre il _clientId;_
-* `aud`: l'audience, reperibile su PDND Interoperabilità;
-* `jti`: il JWT ID, un id unico random assegnato da chi vuole creare il token, si usa per tracciare il token stesso. Deve essere cura del chiamante assicurarsi che l'id di questo token sia unico per quanto riguarda la client assertion;
-* `iat`: l'issued at, il timestamp riportante data e ora in cui viene creato il token, espresso in [UNIX epoch](https://datatracker.ietf.org/doc/html/rfc3339) (valore numerico, non stringa);
-* `exp`: l'expiration, il timestamp riportante data e ora di scadenza del token, espresso in [UNIX epoch](https://datatracker.ietf.org/doc/html/rfc3339) (valore numerico, non stringa);
-* `purposeId`: l'id della singola finalità per la quale si vuole ottenere un voucher, disponibile sul back office;
-* `digest`: opzionale. Da compilare solamente se l'erogatore richiede espressamente delle informazioni aggiuntive. Il campo digest ha due valori: `alg`, l'algoritmo di hashing, che è sempre SHA256; `value`, l'hash del contenuto. Per maggiori informazioni, si veda la [sezione dedicata](utilizzare-i-voucher.md#trasmettere-e-tracciare-dati-complementari-alla-richiesta).&#x20;
+### 1. Il fruitore genera una client assertion
 
-#### Un esempio di client assertion
+Il primo passo è costruire una _client assertion_ valida. La client assertion è composta da un header e un payload, contenenti i seguenti campi.
+
+Header:
+
+<table><thead><tr><th width="128.4140625">Nome campo</th><th>Significato</th></tr></thead><tbody><tr><td><code>kid</code></td><td>l'id della chiave che si usa per firmare l'asserzione<em>,</em> reperibile su PDND Interoperabilità</td></tr><tr><td><code>alg</code></td><td>l'algoritmo usato per firmare il JWT (per ora, sempre <code>RS256</code>)</td></tr><tr><td><code>typ</code></td><td>il tipo di oggetto che si sta inviando (sempre <code>JWT</code>)</td></tr></tbody></table>
+
+Payload:
+
+<table><thead><tr><th width="127.37109375">Nome campo</th><th>Significato</th></tr></thead><tbody><tr><td>iss</td><td>l'issuer, in questo caso il <em>clientId</em></td></tr><tr><td>sub</td><td>il subject, in questo caso sempre il <em>clientId</em></td></tr><tr><td>aud</td><td>l'audience, reperibile su PDND Interoperabilità</td></tr><tr><td>jti</td><td>il JWT ID, un id unico random assegnato da chi vuole creare il token, si usa per tracciare il token stesso. Deve essere cura del chiamante assicurarsi che l'id di questo token sia unico per quanto riguarda la client assertion</td></tr><tr><td>iat</td><td>l'issued at, il timestamp riportante data e ora in cui viene creato il token, espresso in <a href="https://datatracker.ietf.org/doc/html/rfc3339">UNIX epoch</a> (valore numerico, non stringa)</td></tr><tr><td>exp</td><td>l'expiration, il timestamp riportante data e ora di scadenza del token, espresso in <a href="https://datatracker.ietf.org/doc/html/rfc3339">UNIX epoch</a> (valore numerico, non stringa)</td></tr><tr><td>purposeId</td><td>l'id della singola finalità per la quale si vuole ottenere un voucher, disponibile sul back office</td></tr><tr><td>digest</td><td>opzionale. Da compilare solamente se l'erogatore richiede espressamente delle informazioni aggiuntive. Il campo digest ha due valori: <code>alg</code>, l'algoritmo di hashing, che è sempre SHA256; <code>value</code>, l'hash del contenuto. Per maggiori informazioni, si veda la <a href="utilizzare-i-voucher.md#trasmettere-e-tracciare-dati-complementari-alla-richiesta">sezione dedicata</a></td></tr></tbody></table>
 
 A titolo esemplificativo, di seguito un esempio di contenuto di client assertion deserializzata.
 
@@ -89,34 +76,34 @@ Payload:
 }
 ```
 
-#### Il processo per ottenere un voucher
-
 Dopo aver costruito una _client assertion_ valida, questa deve essere firmata con la propria chiave privata (che deve essere l'omologa della chiave pubblica depositata sul client su PDND Interoperabilità).&#x20;
 
-Una volta firmata l'asserzione, prendere l'output e tenerlo da parte.
+### 2. Il fruitore richiede un voucher a PDND
 
-Il secondo passaggio è chiamare il server autorizzativo di PDND Interoperabilità con la client assertion per ottenerne in cambio un voucher spendibile presso l'API di di PDND Interoperabilità (ossia un token valido). L'URL dell'endpoint cambia in funzione dell'ambiente e sarà chiaramente visibile sull'interfaccia all'interno del back office. L'endpoint andrà chiamato con alcuni parametri in body:
+Il secondo passaggio è chiamare il server autorizzativo di PDND Interoperabilità con la client assertion per ottenerne in cambio un voucher spendibile presso l'API di di PDND Interoperabilità (ossia un token valido). L'URL dell'endpoint cambia in funzione dell'ambiente e sarà chiaramente visibile sull'interfaccia all'interno del back office. L'endpoint andrà chiamato con alcuni parametri nel body:
 
-* `client_id`: di nuovo il _clientId_ usato nell'assertion;
-* `client_assertion`: il contenuto dell'asserzione firmata nel primo passaggio;
-* `client_assertion_type`: il formato della client assertion, come indicato in RFC (sempre `urn:ietf:params:oauth:client-assertion-type:jwt-bearer`);
-* `grant_type`_:_ la tipologia di flusso utilizzato, come indicato in RFC (sempre `client_credentials`).
+| Nome campo              | Significato                                                                                                               |
+| ----------------------- | ------------------------------------------------------------------------------------------------------------------------- |
+| `client_id`             | di nuovo il _clientId_ usato nell'assertion                                                                               |
+| `client_assertion`      | il contenuto dell'asserzione firmata nel primo passaggio                                                                  |
+| `client_assertion_type` | il formato della client assertion, come indicato in RFC (sempre `urn:ietf:params:oauth:client-assertion-type:jwt-bearer`) |
+| `grant_type`            | la tipologia di flusso utilizzato, come indicato in RFC (sempre `client_credentials`)                                     |
 
-Se tutto è impostato correttamente, PDND Interoperabilità risponderà con un voucher valido all'interno del body della risposta alla proprietà `access_token`. Sempre nella risposta, sarà contenuta anche la durata di validità del voucher in secondi (es. `"expires_in": 600` indica un voucher con validità 10 minuti, 10 \* 60 secondi = 600). La durata del voucher è scelta dall'erogatore sulla base delle proprie considerazioni di sicurezza, e può variare da e-service a e-service.
+### 3. Il server di PDND verifica e rilascia il voucher
 
-Il voucher andrà inserito nell'header di tutte le chiamate successive verso le API dell'erogatore. Andrà inserito nell'header `Authorization: Bearer`.
+Se tutto è impostato correttamente, PDND Interoperabilità risponderà con un voucher valido all'interno del body della risposta alla proprietà `access_token`.&#x20;
 
-### Richiesta di un voucher spendibile presso le API di Interoperabilità
+Sempre nella risposta, sarà contenuta anche la durata di validità del voucher in secondi (es. `"expires_in": 600` indica un voucher con validità 10 minuti, 10 \* 60 secondi = 600). La durata del voucher è scelta dall'erogatore sulla base delle proprie considerazioni di sicurezza, e può variare da e-service a e-service.
 
-Le istruzioni sono essenzialmente uguali a quelle del paragrafo precedente, con due eccezioni.
+### 4. Il fruitore richiede i dati all'erogatore
 
-La prima è che il pre-requisito per poter ottenere un voucher valido è aver caricato almeno una chiave pubblica all'interno di un _client API Interop_. Anche qui, si veda la [sezione dedicata](client-e-materiale-crittografico.md#caricare-una-chiave-pubblica-in-un-client).
+Il voucher andrà inserito nell'header di tutte le chiamate successive verso le API dell'erogatore. Andrà inserito come header, come segue:
 
-La seconda è che all'interno del payload della client assertion non va specificato il `purposeId`, ossia l'id della finalità per la quale si richiede il voucher. Non c'è bisogno di specificare alcuna finalità per interagire con le API di servizio esposte da PDND Interoperabilità.
+```
+Authorization: Bearer <voucher>
+```
 
-Anche qui, il voucher andrà inserito nell'header di tutte le chiamate successive verso le API di PDND Interoperabilità. Andrà inserito nell'header `Authorization: Bearer`.
-
-### Verifica di un voucher rilasciato da PDND Interoperabilità da parte di un erogatore di e-service
+### 5. L'erogatore verifica la richiesta
 
 {% hint style="danger" %}
 Dal 3 giugno 2025 in ambiente di collaudo e dal 1° luglio in produzione saranno introdotti quattro nuovi claim. Servono a semplificare l’utilizzo della piattaforma e facilitare l’applicazione delle best practice nella verifica dei voucher erogati dalla PDND, nonché nell’uso delle relative **audience**. Tutti gli aggiornamenti saranno disponibili [qui](https://github.com/pagopa/pdnd-interop-frontend/issues/1215).
@@ -166,26 +153,11 @@ Payload:
 
 Nell'header si troveranno tre camp&#x69;_:_
 
-* `kid`: l'id della chiave che usato per firmare il vouche&#x72;_,_ reperibile sul well known di PDND Interoperabilità (vedi sotto [Verifica sulla firma](utilizzare-i-voucher.md#verifica-sulla-firma));
-* `alg`: l'algoritmo usato per firmare il JWT ( `RS256`);
-* `typ`: il tipo di oggetto che si sta inviando (`at+jwt`).
+<table><thead><tr><th width="123.4765625">Nome campo</th><th>Significato</th></tr></thead><tbody><tr><td><code>kid</code></td><td>l'id della chiave che usato per firmare il voucher<em>,</em> reperibile sul well known di PDND Interoperabilità (vedi sotto <a href="utilizzare-i-voucher.md#verifica-sulla-firma">Verifica sulla firma</a>)</td></tr><tr><td><code>alg</code></td><td>l'algoritmo usato per firmare il JWT ( <code>RS256</code>)</td></tr><tr><td><code>typ</code></td><td>il tipo di oggetto che si sta inviando (<code>at+jwt</code>)</td></tr></tbody></table>
 
 Nel payload ci saranno invece tredici campi obbligatori, e uno opzionale:&#x20;
 
-* `iss`: l'issuer, rappresenta il dominio corrispondente all'authorization server di PDND Interoperabilità che ha rilasciato il voucher (ad esempio, l'issuer dell'ambiente di produzione è `interop.pagopa.it`);
-* `nbf`: not before, il timestamp dal quale è valido il voucher, espresso in [UNIX epoch](https://datatracker.ietf.org/doc/html/rfc3339) (valore numerico, non stringa). Per i voucher di PDND Interoperabilità, l'`nbf` corrisponde allo `iat`, ossia il voucher è spendibile immediatamente;
-* `iat`: issued at, il timestamp nel quale è stato rilasciato il voucher, espresso in [UNIX epoch](https://datatracker.ietf.org/doc/html/rfc3339) (valore numerico, non stringa);
-* `exp`: l'expiration, il timestamp riportante data e ora di scadenza del token, espresso in [UNIX epoch](https://datatracker.ietf.org/doc/html/rfc3339) (valore numerico, non stringa). La durata del voucher (ossia la differenza tra `nbf` ed `exp`) dipende dal valore che l'erogatore ha impostato nella configurazione dell'e-service;
-* `jti`: il JWT ID, un id unico random assegnato da PDND Interoperabilità;
-* `aud`: l'audience, ossia l'indicazione di quale servizio dell'erogatore il fruitore intenda consumare con il voucher. Il valore riportato è quello che l'erogatore ha inserito nella configurazione dell'e-service;
-* `sub`: il subject, in questo caso l'id del client che ha richiesto il voucher a PDND Interoperabilit&#xE0;_;_
-* `client_id`: l'identificativo unico del client del fruitore che ha richiesto il voucher a PDND Interoperabilità (corrisponde al `sub`);
-* `purposeId`: l'identificativo unico della finalità per la quale è rilasciato il voucher;
-* `producerId`: l'identificativo unico dell'erogatore dell'e-service;
-* `consumerId`: l'identificativo unico del fruitore;
-* `eserviceId`: l'identificativo unico dell'e-service;
-* `descriptorId`: l'identificativo unico della versione di e-service;
-* `digest` : il campo è opzionale. Fa parte del particolare caso d'uso nel quale l'erogatore richieda informazioni aggiuntive. Maggiori informazioni sono disponibili nella [sezione dedicata](utilizzare-i-voucher.md#trasmettere-e-tracciare-dati-complementari-alla-richiesta).
+<table><thead><tr><th width="152.84765625">Nome campo</th><th>Significato</th></tr></thead><tbody><tr><td><code>iss</code></td><td>l'issuer, rappresenta il dominio corrispondente all'authorization server di PDND Interoperabilità che ha rilasciato il voucher (ad esempio, l'issuer dell'ambiente di produzione è <code>interop.pagopa.it</code>)</td></tr><tr><td><code>nbf</code></td><td>not before, il timestamp dal quale è valido il voucher, espresso in <a href="https://datatracker.ietf.org/doc/html/rfc3339">UNIX epoch</a> (valore numerico, non stringa). Per i voucher di PDND Interoperabilità, l'<code>nbf</code> corrisponde allo <code>iat</code>, ossia il voucher è spendibile immediatamente</td></tr><tr><td><code>iat</code></td><td>issued at, il timestamp nel quale è stato rilasciato il voucher, espresso in <a href="https://datatracker.ietf.org/doc/html/rfc3339">UNIX epoch</a> (valore numerico, non stringa)</td></tr><tr><td><code>exp</code></td><td>l'expiration, il timestamp riportante data e ora di scadenza del token, espresso in <a href="https://datatracker.ietf.org/doc/html/rfc3339">UNIX epoch</a> (valore numerico, non stringa). La durata del voucher (ossia la differenza tra <code>nbf</code> ed <code>exp</code>) dipende dal valore che l'erogatore ha impostato nella configurazione dell'e-service</td></tr><tr><td><code>jti</code></td><td>il JWT ID, un id unico random assegnato da PDND Interoperabilità</td></tr><tr><td><code>aud</code></td><td>l'audience, ossia l'indicazione di quale servizio dell'erogatore il fruitore intenda consumare con il voucher. Il valore riportato è quello che l'erogatore ha inserito nella configurazione dell'e-service</td></tr><tr><td><code>sub</code></td><td>il subject, in questo caso l'id del client che ha richiesto il voucher a PDND Interoperabilità</td></tr><tr><td><code>client_id</code></td><td>l'identificativo unico del client del fruitore che ha richiesto il voucher a PDND Interoperabilità (corrisponde al <code>sub</code>)</td></tr><tr><td><code>purposeId</code></td><td>l'identificativo unico della finalità per la quale è rilasciato il voucher</td></tr><tr><td><code>producerId</code></td><td>l'identificativo unico dell'erogatore dell'e-service</td></tr><tr><td><code>consumerId</code></td><td>l'identificativo unico del fruitore</td></tr><tr><td><code>eserviceId</code></td><td>l'identificativo unico dell'e-service</td></tr><tr><td><code>descriptorId</code></td><td>l'identificativo unico della versione di e-service</td></tr><tr><td><code>digest</code></td><td>il campo è opzionale. Fa parte del particolare caso d'uso nel quale l'erogatore richieda informazioni aggiuntive. Maggiori informazioni sono disponibili nella <a href="utilizzare-i-voucher.md#trasmettere-e-tracciare-dati-complementari-alla-richiesta">sezione dedicata</a></td></tr></tbody></table>
 
 NB: il `client_id` è presente nel token e utilizza lo snake case invece del camel case per coerenza con l'RFC di riferimento.
 
@@ -227,9 +199,21 @@ Tutti i parametri sono disponibili anche sulle [API esposte da PDND Interoperabl
 
 Gli id non cambiano nel tempo e non contengono informazioni sensibili. Si consiglia quindi di fare caching per una maggiore efficienza nella verifica.&#x20;
 
+## Richiesta di un voucher spendibile presso le API di Interoperabilità
+
+Questo flusso descrive il processo attraverso il quale il fruitore richiede un voucher a PDND Interoperabilità, e lo spende poi presso le API di PDND Interoperabilità.
+
+Le istruzioni sono essenzialmente uguali a quelle del paragrafo precedente, con due eccezioni.
+
+La prima è che il pre-requisito per poter ottenere un voucher valido è aver caricato almeno una chiave pubblica all'interno di un _client API Interop_. Anche qui, si veda la [sezione dedicata](client-e-materiale-crittografico.md#caricare-una-chiave-pubblica-in-un-client).
+
+La seconda è che all'interno del payload della client assertion non va specificato il `purposeId`, ossia l'id della finalità per la quale si richiede il voucher. Non c'è bisogno di specificare alcuna finalità per interagire con le API di servizio esposte da PDND Interoperabilità.
+
+Anche qui, il voucher andrà inserito nell'header di tutte le chiamate successive verso le API di PDND Interoperabilità. Andrà inserito nell'header `Authorization: Bearer`.
+
 ## Trasmettere e tracciare dati complementari alla richiesta
 
-Per l'erogatore può essere necessario ottenere informazioni aggiuntive che non fanno parte dei campi standard previsti da PDND Interoperabilità all'interno della client assertion. Un esempio può essere l'indirizzo IP del chiamante, oppure informazioni relative all'operatore che sta effettuando la richiesta.
+Per l'erogatore può essere necessario ottenere informazioni aggiuntive di audit che non fanno parte dei campi standard previsti da PDND Interoperabilità all'interno della client assertion. Un esempio può essere l'indirizzo IP del chiamante, oppure informazioni relative all'operatore che sta effettuando la richiesta.
 
 Il meccanismo messo a punto permette all'erogatore di verificare che il fruitore abbia depositato una traccia su PDND Interoperabilità, che agisce da notaio in questo processo. Allo stesso tempo, le informazioni sono scambiate direttamente tra il fruitore e l'erogatore, senza che PDND Interoperabilità ne sia a conoscenza.
 
@@ -246,7 +230,7 @@ In questo modo si avrà un indice di tutti gli allegati contenuti nel document c
 
 Dal punto di vista tecnico, l'interazione si articola in alcuni passaggi, che sono di fatto una variazione sul tema rispetto al flusso standard di richiesta e verifica di un voucher, descritto [nelle sezioni sopra](utilizzare-i-voucher.md#richiesta-di-un-voucher-spendibile-presso-un-e-service-del-catalogo). In particolare:&#x20;
 
-1. **il fruitore impacchetta le informazioni complementari**: il fruitore costruisce un `JWS` secondo la specifica definita nell'[RFC7519](https://datatracker.ietf.org/doc/html/rfc7519) inserendo nell'header il `kid` di una chiave pubblica depositata su PDND Interoperabilità. Con la chiave privata corrispondente a quella pubblica firmerà questo `JWS`. Nel corpo (payload) del `JWS` inserisce le informazioni complementari da inviare all'erogatore;
+1. **il fruitore impacchetta le informazioni complementari**: il fruitore costruisce un `JWS` secondo la specifica definita nell'[RFC 7519](https://datatracker.ietf.org/doc/html/rfc7519) inserendo nell'header il `kid` di una chiave pubblica depositata su PDND Interoperabilità. Con la chiave privata corrispondente a quella pubblica firmerà questo `JWS`. Nel corpo (payload) del `JWS` inserisce le informazioni complementari da inviare all'erogatore;
 2. **il fruitore calcola l'hash**: il fruitore calcola un hash non reversibile a partire dal `JWS` secondo l'algoritmo di hashing `SHA256`;
 3. **il fruitore costruisce la client assertion**: il fruitore inserisce l'hash nel campo `digest` nella client assertion, per il resto compilata come nel flusso standard;
 4. **il fruitore richiede un voucher a PDND Interoperabilità**: il fruitore inoltra a PDND Interoperabilità la richiesta per ottenere un voucher sulla base della client assertion, come da flusso standard;
@@ -482,3 +466,193 @@ Il processo di firma e verifica segue specifiche internazionali che garantiscono
 * [RFC 8017](https://datatracker.ietf.org/doc/html/rfc8017) (PKCS #1): definisce le modalità di utilizzo dell’algoritmo RSA per la firma digitale;
 * [RFC 7518](https://datatracker.ietf.org/doc/html/rfc7518) (JSON Web Algorithms): specifica gli algoritmi di firma, come RSA e SHA-256;
 * [RFC 7517](https://datatracker.ietf.org/doc/html/rfc7517) (JSON Web Key — JWK): questo documento specifica il formato JSON per rappresentare le chiavi crittografiche, sia pubbliche che private.
+
+## Protezione avanzata del voucher con DPoP
+
+Questa sezione spiega come attivare e usare Demonstrating Proof‑of‑Possession (DPoP) – lo standard IETF ([RFC 9449](https://datatracker.ietf.org/doc/html/rfc9449)) che rende un voucher (token JWT) inutilizzabile se sottratto, perché vincolato a una chiave pubblica posseduta dal chiamante.
+
+### Chi decide l'uso di DPoP?
+
+È l'erogatore a richiederlo. L'erogatore inserisce il DPoP all'interno delle informazioni del proprio file di interfaccia API. DPoP è consigliato per i casi d'uso in cui si desidera una protezione extra contro furto e replay dei token. Se non è espressamente richiesto l'uso di DPoP, si continua ad usare i voucher "Bearer" tradizionali.
+
+### Perché usare DPoP?
+
+<table><thead><tr><th width="160.23828125">Vantaggio</th><th>Cosa significa in pratica</th></tr></thead><tbody><tr><td>Token vincolato al chiamante</td><td>Il voucher contiene l'hash — il thumbprint — della chiave pubblica del chiamante; senza la chiave privata corrispondente non è possibile utilizzarlo.</td></tr><tr><td>Replay protetto</td><td>Ogni richiesta porta un piccolo JWT firmato (“DPoP”) con <code>htm</code> + <code>htu</code> + timestamp + <code>jti</code>; la stessa proof non può essere ri‑usata su un altro endpoint o oltre pochi minuti.</td></tr><tr><td>Zero certificati chiamante</td><td>Si ottiene un risultato simile a mTLS, ma con una semplice coppia di chiavi generata dal chiamante.</td></tr><tr><td>"Filo conduttore" crittografico</td><td>DPoP crea un legame unico tra gli attori coinvolti nel flusso OAuth2.0 attraverso la condivisione di un'informazione unica in possesso esclusivo del fruitore (chiave privata).</td></tr></tbody></table>
+
+### Come attivare DPoP?
+
+Il fruitore genera **una coppia di chiavi asimmetriche dedicata al DPoP**. **La chiave privata resta sempre** sul server o dispositivo del fruitore e non viene mai condivisa. Questa chiave **non deve essere depositata su PDND** né coincidere con una di quelle eventualmente registrate per la `client_assertion`: è indipendente e gestita dal fruitore.
+
+DPoP incoraggia l’uso di chiavi **effimere o almeno separate**: la stessa chiave può firmare tutte le richieste di una "sessione", ma **ogni chiamata API** include una DPoP con `jti` e `iat` univoci, creando così un contesto crittografico distinto e non riutilizzabile da terzi.
+
+Se necessario, il fruitore può mantenere la chiave DPoP per periodi più lunghi, purché rimanga diversa da quella usata per la client assertion.
+
+#### Il flusso in breve
+
+In sostanza, il processo end-to-end richiede sette passaggi:
+
+1. il fruitore genera la client assertion standard; la firma con la chiave privata la cui pubblica è depositata sul proprio client su PDND Interoperabilità;
+2. il fruitore costruisce la DPoP destinata al server autorizzativo di PDND; la firma con una seconda chiave privata la cui pubblica sarà inserita nell'intestazione della DPoP, nel campo `jwk`;
+3. il fruitore chiede il voucher al server autorizzativo di PDND, aggiungendo l'header DPoP;
+4. il server autorizzativo di PDND effettua le verifiche necessarie. In caso di esito positivo, restituisce un voucher di tipo DPoP;
+5. il fruitore costruisce una seconda DPoP, questa volta destinata al resource server, ossia l'API dell'e-service dell'erogatore; la firma con la stessa chiava privata della DPoP al punto 2, mettendo anche qusta volta la chiave pubblica corrispondente nell'intestazione della DPoP, nel campo `jwk`;
+6. il fruitore fa una richiesta verso l'e-service dell'erogatore; inserisce sia il voucher rilasciato da PDND Interoperabilità, sia la DPoP generata al punto precedente nell'header DPoP;
+7. l'erogatore effettua le verifiche necessarie. In caso di esito positivo, restituisce i dati al fruitore.
+
+Vediamoli in dettaglio.
+
+#### 1. Il fruitore genera una client assertion
+
+Il fruitore crea una client assertion secondo il processo standard (vedi [sezione dedicata](utilizzare-i-voucher.md#id-1.-generazione-client-assertion)).
+
+#### 2. Il fruitore costruisce una prima DPoP
+
+Il fruitore procede quindi alla costruzione della DPoP destinata al server autorizzativo di PDND, vale a dire un JWT con
+
+Header:
+
+```
+{
+  "typ": "dpop+jwt",
+  "alg": "ES256",
+  "jwk": "{CHIAVE_PUBBLICA_CHIAMANTE}"
+}
+```
+
+Payload:
+
+```
+{
+  "htm": "POST",
+  "htu": "https://auth.interop.pagopa.it/token.oauth2",
+  "iat": 1747406361,
+  "jti": "b60203a7-6f31-4d08-a3d1-f69ba308eee0"
+}
+```
+
+Ecco nel dettaglio i campi sopra indicati:
+
+<table><thead><tr><th width="112.5546875">Nome campo</th><th>Significato</th></tr></thead><tbody><tr><td><code>typ</code></td><td>deve essere impostato a <code>dpop+jwt</code></td></tr><tr><td><code>alg</code></td><td>indica l'algoritmo usato per la firma della DPoP. L'algoritmo consigliato è ES256</td></tr><tr><td><code>jwk</code></td><td>la chiave pubblica in formato JWK corrispondente alla chiave privata utilizzata per firmare la DPoP</td></tr><tr><td><code>htm</code></td><td>indica il metodo HTTP che si sta invocando. Per l'ottenimento di un voucher da PDND Interoperabilità, il metodo è <code>POST</code></td></tr><tr><td><code>htu</code></td><td>indica l'URL che si sta invocando. Per l'ottenimento di un voucher da PDND Interoperabilità in ambiente di produzione è <code>https://auth.interop.pagopa.it/token.oauth2</code> (per gli ambienti di attestazione e collaudo va inserita quella specifica)</td></tr><tr><td><code>iat</code></td><td>l'issued at, il timestamp riportante data e ora in cui viene creata la DPoP, espresso in <a href="https://datatracker.ietf.org/doc/html/rfc3339">UNIX epoch</a> (valore numerico, non stringa)</td></tr><tr><td><code>jti</code></td><td>identificativo univoco della DPoP. Deve essere cura del fruitore assicurarsi che l'id di questo token sia unico e non venga riutilizzato</td></tr></tbody></table>
+
+#### 3. Il fruitore richiede un voucher a PDND
+
+Generate la DPoP e la client assertion, il fruitore può richiedere un voucher al server autorizzativo di PDND Interoperabilità secondo il processo standard ([vedi sezione dedicata](utilizzare-i-voucher.md#id-2.-richiesta-voucher-a-pdnd)), semplicemente aggiungendo nell'intestazione della richiesta l’header DPoP valorizzato con la DPoP prodotta:
+
+<pre><code><strong>DPoP: &#x3C;DPoP_proof>
+</strong></code></pre>
+
+#### 4. Il server di PDND verifica e rilascia il voucher
+
+Il server autorizzativo di PDND Interoperabilità effettua le verifiche necessarie, in particolare:
+
+* verifica la `client-assertion` secondo i controlli già previsti;
+* verifica la firma della DPoP utilizzando la chiave pubblica indicata nel campo `jwk` contenuto nel header;
+* controlla che i campi `htm` e `htu` corrispondano ai valori attesi per la richiesta in corso;
+* considera temporalmente valida una proof presentata entro 60 secondi dalla data di emissione della proof stessa (`iat`);
+* verifica che il valore del campo `jti` non sia già stato utilizzato per un'altra chiamata verso il server autorizzativo di PDND Interoperabilità.
+
+Il server autorizzativo di  PDND Interoperabilità, validata la DPoP, restituisce un voucher di tipo DPoP (campo `token_type`) firmato come JWT con header di tipo `"typ": "at+jwt"` e contenente un claim `cnf.jkt`.
+
+La risposta che il server autorizzativo di PDND Interoperabilità restituisce è la seguente:
+
+```
+{
+  "access_token": "eyJ0eXAiOiJhdCtqd3QiLC...",
+  "expires_in": 600,
+  "token_type": "DPoP"
+}
+```
+
+Se decodifichiamo il campo dedicato all'`access_token`, troviamo
+
+Header:
+
+```
+{
+  "typ": "at+jwt",
+  "alg": "RS256",
+  "use": "sig",
+  "kid": "{KID_CHIAVE_PDND}"
+}
+```
+
+Payload:
+
+```
+{
+  "iss": "interop.pagopa.it", 
+  "nbf": 1747408537,
+  "iat": 1747408537,
+  "exp": 1747409537,
+  "jti": "12297ac1-c192-4573-8350-207a4213e5ac",
+  "aud": "https://eservice.pa.it/api/v1",
+  "sub": "9b361d49-33f4-4f1e-a88b-4e12661f2309",
+  "client_id": "9b361d49-33f4-4f1e-a88b-4e12661f2309",
+  "purposeId": "1b361d49-33f4-4f1e-a88b-4e12661f2300",
+  "producerId" : "0e9e2dab-2e93-4f24-ba59-38d9f11198ca",
+  "consumerId" : "69e2865e-65ab-4e48-a638-2037a9ee2ee7",
+  "eserviceId" : "b8c6d7ad-93fc-4eaf-9018-3cd8bf98163f",
+  "descriptorId": "9525a54b-9157-4b46-8976-ec66f20b7d7e",
+  "cnf": {
+    "jkt" : "L5TP6x6ved3p_jmIAtCiHMcNJeRrGWAusNnQkTTrnLY"
+  }
+}
+```
+
+dove il campo `cnf.jkt` contiene il thumbprint della chiave pubblica in formato JWK ([RFC 7638](https://datatracker.ietf.org/doc/html/rfc7638)) utilizzata nella DPoP inviata dal fruitore (client) verso PDND Interoperabilità (server autorizzativo).
+
+#### 5. Il fruitore costruisce una seconda DPoP&#x20;
+
+Il fruitore costruisce una seconda DPoP, che questa volta è destinata all'API dell'e-service dell'erogatore. Questa seconda DPoP è simile a quella prodotta nel secondo passaggio, con due differenze:&#x20;
+
+* i campi `htm` e `htu` devono essere valorizzati con la risorsa che verrà chiamata sul server dell'erogatore indicata nel file di interfaccia API, invece che fare riferimento al server autorizzativo di PDND Interoperabilità;
+* va inserito un altro campo, `ath` .
+
+Il campo `ath` contiene l'hash del voucher rilasciato da PDND Interoperabilità. Questo hash è ottenuto usando SHA256 e deve essere codificato in Base64URL, con la seguente formula:
+
+```
+BASE64URL(SHA-256(access_token_bytes))
+```
+
+{% hint style="warning" %}
+Questa seconda DPoP deve essere firmata con la stessa chiave privata utilizzata per la prima DPoP al secondo passaggio e destinata al server autorizzativo di PDND Interoperabilità.
+{% endhint %}
+
+#### 6. Il fruitore richiede i dati all'erogatore
+
+Il fruitore può a questo punto procedere alla richiesta verso l'API dell'e-service. L'header Authorization, che in una chiamata standard sarebbe valorizzato con&#x20;
+
+```
+Authorization: Bearer <voucher_rilasciato_da_PDND>
+```
+
+è invece valorizzato con&#x20;
+
+```
+Authorization: DPoP <voucher_rilasciato_da_PDND>
+```
+
+Inoltre, il fruitore deve inserire anche un altro header, in particolare
+
+<pre><code><strong>DPoP: &#x3C;DPoP_proof_generata_al_passaggio_precedente>
+</strong></code></pre>
+
+#### 7. L'erogatore verifica la richiesta
+
+L'erogatore, ricevuta una richiesta in contesto DPoP, esegue i seguenti passaggi:
+
+1. controlla la firma del voucher e che `typ="dpop+jwt"` ;
+2. estrae `cnf.jkt` dal voucher;
+3. verifica la DPoP ricevuta dal fruitore, in particolare:
+   1. che la chiave contenuta nell'header `jwk` della DPoP corrisponda a quella usata per la firma della DPoP stessa;
+   2. &#x20;che l'`htm` corrisponda al metodo effettivamente invocato e che l'`htu` corrisponda effettivamente all'endpoint chiamato;
+   3. che la DPoP sia stata emessa non oltre `iat` + 60 secondi con una tolleranza di ±10 secondi;
+   4. che l'id unico, il `jti`, non sia presente nella cache dell'e-service;
+   5. che l'`ath`  combaci con l'hash calcolato sul voucher rilasciato da PDND Interoperabilità, seguendo la stessa procedura eseguita dal fruitore al passaggio 5;
+4. calcola il thumbprint della chiave pubblica contenuta nella proof (`jwk`) e verifica che sia identico al `cnf.jkt`.
+
+Se tutte le verifiche vanno a buon fine, la richiesta è autenticata.
+
+Con questi passi, il voucher rilasciato da PDND Interoperabilità offre uno strumento efficace e standardizzato per proteggere ulteriormente le comunicazioni tra fruitore ed erogatore.
+
+\
