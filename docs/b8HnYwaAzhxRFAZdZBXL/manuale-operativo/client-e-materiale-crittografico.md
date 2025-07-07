@@ -1,7 +1,7 @@
 # Client, portachiavi e materiale crittografico
 
 {% hint style="info" %}
-Puoi trovare un videotutorial su come si carica una chiave pubblica a [questo link.](https://www.youtube.com/watch?v=q6zuJ2wn8vM\&list=PLZcD-ZoVxFzi1f2-taSdg7a3d2UQse3\_Q\&index=11)
+Puoi trovare un videotutorial su come si carica una chiave pubblica a [questo link.](https://www.youtube.com/watch?v=q6zuJ2wn8vM\&list=PLZcD-ZoVxFzi1f2-taSdg7a3d2UQse3_Q\&index=11)
 {% endhint %}
 
 ## Tipi di client fruitore: e-service e api interop
@@ -26,9 +26,11 @@ Lo speculare del client fruitore è il portachiavi erogatore. Anche questo è un
 
 È possibile creare client e-service dalla voce di menù _Fruizione > I tuoi client e-service_, e poi _Crea nuovo_. Il contenuto del client è modificabile in qualsiasi momento, inclusa l'aggiunta e la rimozione dei suoi membri. La creazione del client di per sé non ha effetto sull'accesso agli e-service. Deve essere successivamente associato ad una o più finalità per le quali le chiavi saranno utilizzabili per ottenere un voucher.
 
-### Creare un client api interop
+### Creare un client API Interop
 
-Dalla voce di menù _Fruizione > I tuoi client api interop_ e poi _Crea nuovo_. Il contenuto del client è modificabile in qualsiasi momento, inclusa l'aggiunta e la rimozione dei suoi membri.
+Dalla voce di menù _Fruizione > I tuoi client API Interop_ e poi _Crea nuovo_. Il contenuto del client è modificabile in qualsiasi momento, inclusa l'aggiunta e la rimozione dei suoi membri.
+
+Il client API Interop, oltre alle chiamate di lettura, può effettuare anche chiamate di scrittura su PDND Interoperabilità. Nel caso in cui si effettuino scritture, è necessario indicare uno degli amministratori come responsabile delle operazioni. In caso contrario, le richieste saranno rifiutate.
 
 ### Creare un portachiavi
 

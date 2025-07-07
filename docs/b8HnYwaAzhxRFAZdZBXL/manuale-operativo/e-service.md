@@ -32,6 +32,7 @@ Al fine di assicurare la conformità delle API pubblicate agli standard del Mode
 <figure><img src="../.gitbook/assets/creazione e-service erogatore standard.jpg" alt=""><figcaption><p>Fase 1</p></figcaption></figure>
 
 * se l'e-service è disponibile per delega. Maggiori informazioni nella [sezione dedicata](e-service.md#impostazioni-per-le-deleghe);
+* se l'e-service mette a disposizione i segnali di variazione dei dati (Signal Hub); ossia se è possibile rimanere aggiornati nel caso in cui un dato di proprio interesse varia nel tempo. Maggiori informazioni nella [documentazione dedicata](https://developer.pagopa.it/pdnd-interoperabilita/guides/manuale-operativo-signal-hub);
 * essendo gli e-service organizzati in versioni, verrà richiesta una descrizione della versione attuale, sia che si tratti della prima bozza che eventualmente di quelle future, andando a descrivere i cambiamenti rispetto alle versioni precedenti;
 * una serie di richieste più tecniche:
   1. audience: il parametro _audience (aud)_ che i fruitori dovranno inserire all'interno del token per le richieste che effettueranno verso questa versione dell'e-service. È discrezione dell'erogatore stabilire la policy relativa alle audience: è possibile utilizzare la stessa audience per più versioni, audience diverse per ogni versione, etc.;
