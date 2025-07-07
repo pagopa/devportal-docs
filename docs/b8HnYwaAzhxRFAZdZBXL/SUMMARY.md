@@ -20,6 +20,10 @@
 * [Generare e caricare chiavi di sicurezza](manuale-operativo/generare-e-caricare-chiavi-di-sicurezza.md)
 * [Utilizzare i voucher](manuale-operativo/utilizzare-i-voucher.md)
 * [Deleghe](manuale-operativo/deleghe.md)
+* [Template e-service](manuale-operativo/template-e-service/README.md)
+  * [Ciclo di vita](manuale-operativo/template-e-service/ciclo-di-vita.md)
+  * [Relazione tra template e istanza](manuale-operativo/template-e-service/relazione-tra-template-e-istanza.md)
+  * [Altre informazioni utili](manuale-operativo/template-e-service/altre-informazioni-utili.md)
 * [Utenze](manuale-operativo/utenze.md)
 * [API esposte da PDND Interoperabilità](manuale-operativo/api-esposte-da-pdnd-interoperabilita.md)
 
