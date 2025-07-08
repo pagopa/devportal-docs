@@ -6,7 +6,7 @@ description: >-
 
 # 🕘 Changelog
 
-### 3.4 (maggio 2025)
+### 3.4 (luglio 2025)
 
 * Inseriti riferimenti alle API di generazione avvisi ([https://developer.pagopa.it/pago-pa/guides/stampa-avvisi-pagamento](https://developer.pagopa.it/pago-pa/guides/stampa-avvisi-pagamento))
 * Specificato meglio l'uso dei file di esempio forniti nella pagina [come-usare-i-file.md](../allegato-2/come-usare-i-file.md "mention")
