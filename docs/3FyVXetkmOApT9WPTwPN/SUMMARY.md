@@ -32,7 +32,7 @@
   * [Full Digital - Poste Italiane](readme/full-digital-poste-italiane.md)
   * [Supporto al bilinguismo amministrativo](readme/supporto-al-bilinguismo-amministrativo.md)
 * [Simulare i casi di test in ambiente UAT](simulare-i-casi-di-test-in-ambiente-uat.md)
-* [🏷️ Tassonomia SEND](tassonomia-send.md)
+* [Tassonomia SEND](tassonomia-send.md)
 * [API CHANGELOG](api-changelog/README.md)
   * [API VERSIONE GA 2.0](api-changelog/api-versione-ga-2.0.md)
   * [API VERSIONE GA 2.1](api-changelog/api-versione-ga-2.1.md)
