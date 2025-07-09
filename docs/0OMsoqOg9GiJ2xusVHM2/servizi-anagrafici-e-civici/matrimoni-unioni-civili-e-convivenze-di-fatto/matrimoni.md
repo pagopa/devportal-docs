@@ -76,7 +76,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 **🖋 Titolo del messaggio:** La tua richiesta non è stata accolta
 
-**🗒 Testo del messaggio:**&#x20;
+**🗒 Testo del messaggio:**
 
 La tua richiesta di affissione delle pubblicazioni di matrimonio non è stata accolta.
 
@@ -154,9 +154,9 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 **🖋 Titolo del messaggio:** Le vostre pubblicazioni sono affisse
 
-**🗒 Testo del messaggio:**&#x20;
+**🗒 Testo del messaggio:**
 
-Il \<gg/mm/aaaa> abbiamo affisso le pubblicazioni del vostro matrimonio. Saranno pubbliche fino al \<gg/mm/aaaa>.&#x20;
+Il \<gg/mm/aaaa> abbiamo affisso le pubblicazioni del vostro matrimonio. Saranno pubbliche fino al \<gg/mm/aaaa>.
 
 Puoi \<scaricare/ritirare> il certificato di eseguite pubblicazioni tramite \<canale>.
 
@@ -168,7 +168,7 @@ Per visualizzare le pubblicazioni, \[visita questo sito]\(URL).
 
 **Destinatari:** Il futuro coniuge che ha presentato richiesta di matrimonio.
 
-**Quando inviarlo:** Quando l’ente pubblica le pubblicazioni di matrimonio&#x20;
+**Quando inviarlo:** Quando l’ente pubblica le pubblicazioni di matrimonio
 
 **User story:** Come cittadino voglio ricevere una comunicazione quando le pubblicazioni sono pubblicate dall’ente.
 
@@ -202,7 +202,7 @@ Per maggiori informazioni o per richiedere assistenza, contattaci tramite i cana
 
 In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio potrebbe subire variazioni.
 
-**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)
 
 ***
 
@@ -228,7 +228,7 @@ Il tuo pagamento per \<causale> sta per scadere.
 
 Se hai già provveduto a pagare l’avviso, ignora questo messaggio.
 
-**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)
 
 ***
 
@@ -358,7 +358,7 @@ Ti confermiamo che il \<gg/mm/aaaa> celebrerai il matrimonio di \<Nome> \<Cognom
 
 **Quando:** \[Inserire qui i giorni e gli orari di apertura dello sportello]
 
-Per ulteriori informazioni, \[visita questo sito]\(URL).&#x20;
+Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 **🪄 Pulsante:** n/a
 
@@ -386,7 +386,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).&#x20;
 
 🗒 **Testo del messaggio:**
 
-La celebrazione del vostro matrimonio è fissata per il \<gg/mm/aaaa>.&#x20;
+La celebrazione del vostro matrimonio è fissata per il \<gg/mm/aaaa>.
 
 Per procedere con la celebrazione, dovete confermare la data.
 

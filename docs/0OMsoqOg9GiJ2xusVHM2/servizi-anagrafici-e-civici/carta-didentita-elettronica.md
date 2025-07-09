@@ -180,4 +180,6 @@ Le procedure di questo servizio variano molto da ente a ente. Consigliamo di uti
 Il modello è un esempio che non ha carattere vincolante per l’ente e sul quale la Società declina qualsiasi responsabilità, avendo valore esemplificativo.
 
 Puoi copiare i testi dei messaggi da personalizzare da questo documento:
+
+{% file src="../.gitbook/assets/IO - Template servizi - Carta d'Identità Elettronica.xlsx" %}
 {% endhint %}

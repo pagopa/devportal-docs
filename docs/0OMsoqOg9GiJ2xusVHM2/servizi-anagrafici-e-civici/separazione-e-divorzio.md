@@ -344,5 +344,5 @@ Il modello è un esempio che non ha carattere vincolante per l’ente e sul qual
 
 Puoi copiare i testi dei messaggi da personalizzare da questo documento:
 
-{% file src="../.gitbook/assets/IO - Template servizi - Separazione e divorzio (1).xlsx" %}
+{% file src="../.gitbook/assets/IO - Template servizi - Separazione e divorzio.xlsx" %}
 {% endhint %}

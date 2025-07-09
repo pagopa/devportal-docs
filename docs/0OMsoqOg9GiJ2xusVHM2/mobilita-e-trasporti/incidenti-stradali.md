@@ -5,7 +5,7 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 * fornire alle cittadine e ai cittadini un riferimento per la ricezione delle comunicazioni riguardanti il rilascio di copia cartacea o digitale del rapporto di incidente stradale;
 * monitorare e gestire tempestivamente le richieste, comunicazioni e i pagamenti per l'erogazione del servizio.
 
-[**Scopri tutti i benefici di integrarsi con IO →** ](https://docs.pagopa.it/manuale-servizi/lapp-io/cose-io-e-qual-e-il-suo-obiettivo#perche-un-ente-dovrebbe-integrarsi-con-io)
+[**Scopri tutti i benefici di integrarsi con IO →**](https://docs.pagopa.it/manuale-servizi/lapp-io/cose-io-e-qual-e-il-suo-obiettivo#perche-un-ente-dovrebbe-integrarsi-con-io)
 
 ## Scheda servizio <a href="#scheda-servizio" id="scheda-servizio"></a>
 
@@ -35,7 +35,7 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 **🖋 Titolo del messaggio:** La tua richiesta è stata accolta
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 La tua richiesta di copia cartacea del rapporto di incidente stradale è stata accolta.
 
@@ -63,7 +63,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 **🖋 Titolo del messaggio:** La tua richiesta non è stata accolta
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 La tua richiesta di copia cartacea del rapporto di incidente stradale non è stata accolta.
 
@@ -109,7 +109,7 @@ Per maggiori informazioni o per richiedere assistenza, contattaci tramite i cana
 
 In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio potrebbe subire variazioni.
 
-**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)
 
 ***
 
@@ -129,13 +129,13 @@ In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio p
 
 **🖋 Titolo del messaggio:** Hai un pagamento in scadenza
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Il tuo pagamento per \<causale> sta per scadere.
 
 Se hai già provveduto a pagare l’avviso, ignora questo messaggio.
 
-**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)
 
 ***
 
@@ -155,7 +155,7 @@ Se hai già provveduto a pagare l’avviso, ignora questo messaggio.
 
 **🖋 Titolo del messaggio:** Abbiamo consegnato il documento richiesto
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Il \<gg/mm/aaaa> abbiamo consegnato la copia cartacea del rapporto di incidente stradale da te richiesto a \<nome e cognome>.
 
@@ -177,7 +177,7 @@ Il \<gg/mm/aaaa> abbiamo consegnato la copia cartacea del rapporto di incidente 
 
 **🖋 Titolo del messaggio:** La tua copia è pronta per il ritiro
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Dal \<gg/mm/aaaa> puoi ritirare la copia cartacea del rapporto di incidente stradale da te richiesto.
 
@@ -263,7 +263,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 **🗒 Testo del messaggio:**
 
-Dal \<gg/mm/aaaa> puoi scaricare la copia digitale del rapporto di incidente stradale da te richiesta.&#x20;
+Dal \<gg/mm/aaaa> puoi scaricare la copia digitale del rapporto di incidente stradale da te richiesta.
 
 Hai tempo fino al \<gg/mm/aaaa>.
 
@@ -286,11 +286,11 @@ Per scaricare il documento, \[visita questo sito]\(URL).
 {% hint style="info" %}
 **Un modello da personalizzare**
 
-Le procedure di questo servizio variano molto da ente a ente. Consigliamo di utilizzare i testi dei messaggi come un punto di partenza e di aggiungere ulteriori informazioni.&#x20;
+Le procedure di questo servizio variano molto da ente a ente. Consigliamo di utilizzare i testi dei messaggi come un punto di partenza e di aggiungere ulteriori informazioni.
 
 Il modello è un esempio che non ha carattere vincolante per l’ente e sul quale la Società declina qualsiasi responsabilità, avendo valore esemplificativo.
 
-Puoi copiare i testi dei messaggi da personalizzare da questo documento:&#x20;
+Puoi copiare i testi dei messaggi da personalizzare da questo documento:
 
-{% file src="../.gitbook/assets/IO - Template servizi - Incidenti stradali (1).xlsx" %}
+{% file src="../.gitbook/assets/IO - Template servizi - Incidenti stradali.xlsx" %}
 {% endhint %}

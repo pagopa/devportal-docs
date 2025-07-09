@@ -80,7 +80,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio:**
 
-Ti confermiamo che  \<Nome> \<Cognome> sarà il celebrante della vostra unione civile.
+Ti confermiamo che \<Nome> \<Cognome> sarà il celebrante della vostra unione civile.
 
 \<Nome> \<Cognome> dovrà recarsi presso \<denominazione ufficio> entro il \<gg/mm/aaaa> per depositare la propria firma.
 
@@ -102,7 +102,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 <summary>Richiesta celebrante: non accolta</summary>
 
-**🖋  Titolo del messaggio:** La tua richiesta non è stata accolta
+**🖋 Titolo del messaggio:** La tua richiesta non è stata accolta
 
 🗒 **Testo del messaggio:**
 
