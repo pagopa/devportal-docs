@@ -8,27 +8,54 @@ description: >-
 
 <details>
 
-<summary>Maggio 2025</summary>
+<summary>Luglio 2025</summary>
 
-### 1.0.147
+### 2.1.1
 
-**26 maggio**
-
-* Bug fixing
-
-### 1.0.146
-
-**15 maggio**
+**9 luglio**
 
 * Bug fixing
 
-### 1.0.145
+### 2.1.0
 
-**9 maggio**
+**1 luglio**
+
+* Introdotti quattro nuovi custom claim nel voucher rilasciato da PDND Interoperabilità
+* Introdotti vincoli stringenti dei claim per il rilascio del voucher
+
+### 2.0.1
+
+**1 luglio**
 
 * Bug fixing
 
 </details>
+
+<details>
+
+<summary>Giugno 2025</summary>
+
+### 2.0.0
+
+**30 giugno**
+
+* Deleghe
+* Template e-service
+* Richiesto amministratore per client API Interop in caso di operazioni di scrittura
+* API v. 2, primo rilascio
+* DPoP, Distributed Proof of Possession
+
+- Bug fixing
+
+### 1.0.148
+
+**3 giugno**
+
+* Accesso a Società in Conto Economico Consolidato (SCEC)
+
+</details>
+
+{% include "../.gitbook/includes/untitled.md" %}
 
 <details>
 
