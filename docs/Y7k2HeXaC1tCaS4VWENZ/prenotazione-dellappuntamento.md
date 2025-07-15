@@ -19,7 +19,7 @@ Il cittadino, cliccando il pulsante, atterra già autenticato nella sezione corr
 L'ente può garantire una migliore esperienza all'utente dall'app IO ai propri portali web, seguendo qualche accorgimento.
 
 * Il portale dell’ente deve essere accessibile e ottimizzato per un utilizzo tramite mobile;
-* Dopo aver cliccato sul pulsante, indirizza l’utente direttamente nella pagina ~~delle~~ della prenotazione, senza passaggi intermedi;
+* Dopo aver cliccato sul pulsante, indirizza l’utente direttamente nella pagina della prenotazione, senza passaggi intermedi;
 * Mettiti nei panni dei cittadini e fornisci informazioni proattive.
 
 ## Benefici
