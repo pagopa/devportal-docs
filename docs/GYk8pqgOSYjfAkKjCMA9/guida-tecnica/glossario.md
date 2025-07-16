@@ -8,10 +8,6 @@ Per poter usufruire delle funzionalità messe a disposizione da PDND Interoperab
 
 All'atto dell'adesione dell'ente, puoi specificare fino a tre amministratori (operatori amministrativi). Questi sono di fatto delegati dal legale rappresentante ad operare con pieni poteri su PDND Interoperabilità. Utenti con questi permessi possono inoltrare, sospendere e riattivare richieste di fruizione, creare client e finalità, aggiungere, rimuovere o sospendere figure operative, compilare analisi del rischio e fare tutte le operazioni che competono a livelli di permesso inferiori.
 
-{% hint style="info" %}
-Puoi aggiungere ulteriori operatori amministrativi in una seconda fase. L'operazione richiede la firma digitale del legale rappresentante dell'ente. Questa funzionalità non è attualmente implementata sulla Piattaforma Area Riservata (Self Care), che centralizza la gestione degli utenti per tutti i prodotti erogati da PagoPA.
-{% endhint %}
-
 ## Attributo
 
 Un attributo è una qualità che un aderente possiede o dichiara di possedere. L'erogatore, all'atto della creazione di un e-service, stabilisce quali sono gli attributi che il fruitore dovrà possedere o dichiarare di possedere per poter vedere accettata la sua richiesta di fruizione.
@@ -82,9 +78,8 @@ Un operatore di sicurezza è un'utenza tecnica dedicata a un aderente che opera 
 
 ## Richiesta di fruizione
 
-L'aderente interessato a fruire di un e-service disponibile sul catalogo deve dimostrare di possedere i requisiti minimi indicati dall'erogatore. Per farlo, presenta una richiesta di fruizione, che sarà passata al vaglio della piattaforma e dell'erogatore. La richiesta sarà attivata solo a verifiche avvenute con esito positivo.
-
-Con una richiesta di fruizione attiva, il fruitore può creare un numero di finalità a piacimento per fruire dell'e-service.
+Domanda formale con cui un ente chiede l’accesso a un e-service pubblicato da un altro ente tramite PDND Interoperabilità. La richiesta viene passata al vaglio della piattaforma e dell'erogatore, e attivata all'esito positivo delle verifiche.\
+Una richiesta di fruizione attiva consente di creare un numero di finalità a piacimento per fruire dell'e-service.
 
 ## **Service Level Agreement -** SLA
 

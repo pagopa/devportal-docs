@@ -1,2 +1,0 @@
-# Come staccare un voucher
-

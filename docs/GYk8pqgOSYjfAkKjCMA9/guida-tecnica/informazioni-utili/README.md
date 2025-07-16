@@ -1,2 +1,0 @@
-# Informazioni Utili
-

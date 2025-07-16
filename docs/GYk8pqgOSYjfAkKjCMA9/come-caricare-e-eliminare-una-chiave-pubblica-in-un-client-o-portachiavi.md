@@ -2,7 +2,9 @@
 
 ## Come caricare una chiave pubblica da un client
 
-Quando un membro di un client effettua l'accesso a PDND Interoperabilità, troverà i client ai quali è associato sotto _**Fruizione > I tuoi client e-service**_ oppure  _**Fruizione > I tuoi client api interop**_. Entrando all'interno del client di interesse, può andare nella tab _**Chiavi pubbliche**_ e _+ **Aggiungi**_ per caricare una nuova chiave. Le chiavi caricate saranno immediatamente utilizzabili. Per i client di tipo e-service, questo deve essere associato ad almeno una finalità il cui flusso di interazione con l'erogatore è attivo.
+### **Step 1**
+
+Gli utenti di PDND Interoperabilità possono visualizzare i client ai quali sono associati sotto _**Fruizione > I tuoi client e-service**_ oppure _**Fruizione > I tuoi client api interop**_. Entrando all'interno del client di interesse, può andare nella tab _**Chiavi pubbliche**_ e _+ **Aggiungi**_ per caricare una nuova chiave. Le chiavi caricate saranno immediatamente utilizzabili. Per i client di tipo e-service, questo deve essere associato ad almeno una finalità il cui flusso di interazione con l'erogatore è attivo.
 
 L'operazione è analoga per i portachiavi erogatore ed è disponibile nella vista _**Erogazione > I tuoi portachiavi**_.
 
@@ -15,7 +17,7 @@ Per caricare una chiave:&#x20;
 
 Se il caricamento è andato a buon fine si riceve immediatamente riscontro.
 
-Se dovessero verificarsi errori, è possibile suguire le istruzioni indicate nel messaggio di errore o guardare nelle [FAQ](broken-reference) di questa guida.
+Se dovessero verificarsi errori, sarebbe possibile seguire le istruzioni indicate nel messaggio di errore o guardare nelle [FAQ](broken-reference) di questa guida.
 
 ## Come rimuovere una chiave pubblica da un client
 

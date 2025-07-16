@@ -6,7 +6,7 @@
 
 Prima di iniziare la procedura di adesione verifica che i dati dell'ente contenuti in [IPA](https://www.indicepa.gov.it/ipa-portale/consultazione/indirizzo-sede/ricerca-ente) siano corretti;
 
-Assicurati di avere accesso alla PEC indicata come domicilio digitale all'interno del Catalogo IPA.
+Assicurati di avere accesso alla PEC indicata come domicilio digitale dell'ente all'interno del Catalogo IPA.
 
 * **Se sei una Società a Controllo Pubblico:**
 
@@ -34,7 +34,7 @@ Per aiutarti nel percorso di onboarding abbiamo creato un [videotutorial](https:
 
 ## Step 3 - Effettuare il login con SPID o CIE
 
-Non è necessario che sia il Legale Rappresentante dell'ente colui che avvia il processo di adesione. Viene comunque garantita la legittimità dell'operazione: l'Accordo di Adesione da firmare è inviato al domicilio digitale dell'ente di riferimento. Il domicilio digitale viene preso automaticamente dai dati disponibili sul catalogo IPA e non è modificabile dall'utente.
+Come primo passo va effettuato il login con SPID o CIE. Non è necessario che sia il Legale Rappresentante dell'ente colui che avvia il processo di adesione. Viene comunque garantita la legittimità dell'operazione: l'Accordo di Adesione da firmare è inviato al domicilio digitale dell'ente di riferimento. Il domicilio digitale viene preso automaticamente dai dati disponibili sul catalogo IPA e non è modificabile dall'utente.
 
 ## Step 4 - Selezionare la tipologia di ente
 
@@ -80,11 +80,11 @@ Ulteriori Amministratori, oltre a quelli segnalati in fase di adesione, possono 
 {% endhint %}
 
 * Per PA e GSP: una volta completato l'inserimento, clicca su _**Continua**._ Se non ci sono errori, viene generato l'Accordo di Adesione da firmare, che viene inviato al domicilio digitale dell'ente.
-* Per SCP: una volta completato l'inserimento, clicca su _**Continua**._ Se non ci sono errori, viene generata e inviata alla PEC indicata in fase di adesione una mail contenente le istruzioni per completare l'adesione. Ora si tratta di attendere di essere contattati dal Team Account dedicato all'adesione che chiederà l'inoltro dei documenti richiesti in precedenza. Controllati i documenti, il Team Account invierà sempre alla PEC indicata l'Accordo di Adesione da firmare in formato CAdES (.p7m) come indicato al punto 8.
+* Per SCP: una volta completato l'inserimento, clicca su _**Continua**._ Se non ci sono errori, viene generata e inviata alla PEC indicata in fase di adesione una mail contenente le istruzioni per completare l'adesione. Ora si tratta di attendere di essere contattati dal Team Account dedicato all'adesione che chiederà l'inoltro dei documenti richiesti in precedenza. Controllati i documenti, il Team Account invierà sempre alla PEC indicata l'Accordo di Adesione da firmare in formato CAdES (.p7m).
 
 ## Step 9 - Firmare digitalmente l'Accordo di Adesione
 
-Apri la PEC che è arrivata al tuo ente. Scarica l'Accordo di Adesione allegato, che deve essere firmato per nome e per conto di chi è Legale Rappresentante. Come indicato al [punto 6](guida-alladesione.md#6.-indica-il-legale-rappresentante), i dati nella firma digitale devono corrispondere alla persona indicata come Legale Rappresentante durante la fase di compilazione del form di adesione. La firma digitale va apposta una volta all'intero documento, e lo standard da utilizzare è CAdES.
+Apri la PEC che è arrivata al tuo ente. Scarica l'Accordo di Adesione allegato, che deve essere firmato per nome e per conto di chi è Legale Rappresentante. I dati nella firma digitale devono corrispondere alla persona indicata come Legale Rappresentante durante la fase di compilazione del form di adesione. La firma digitale va apposta una volta all'intero documento, e lo standard da utilizzare è CAdES.
 
 ## Step 10 - Caricare l'Accordo di Adesione firmato
 

@@ -1,32 +1,20 @@
-# Come fruire di un e-service
+# Come fruire delle API Interop
 
 ## Adempimenti preliminari
 
 I seguenti step andranno eseguiti solo una volta, prima della prima fruizione dell'e-service, mentre la sezione successiva inerente alla creazione del voucher deve essere seguita ogni volta che si desidera fare una chiamata ad un e-service.
 
-### Step 1 - Selezionare l'e-service
-
-L'aderente che intende fruire di un e-service può visualizzare tutti quelli disponibili andando su _**Fruizione > Catalogo e-service**_.
-
-### Step 2 - Invio richiesta di fruizione
-
-Chi possiede i requisiti minimi, visualizza il pulsante _**Iscriviti**_, attraverso il quale ci si può "iscrivere all'e-service" presentando una richiesta di fruizione che deve essere sottoposta alla valutazione dell'erogatore.
-
-### Step 3 - Creazione Finalità
-
-Una volta che la richiesta di fruizione viene approvata ed è attiva, il fruitore può creare le finalità. In ogni finalità, bisogna indicare il dettaglio sull'accesso e sull'utilizzo dei dati (chiamato _analisi del rischio_) e la _stima di carico_, la quantità di richieste che insisteranno sull'erogatore (definito in numero di chiamate API al giorno stimate). Se la stima di carico eccede la capacità dell'infrastruttura dell'erogatore, è necessario che l'erogatore l'approvi prima che il fruitore possa utilizzare quella finalità per accedere all'e-service.
-
-### Step 4 - Creazione di un client Interop
+### Step 1 - Creazione di un client Interop
 
 Per saperne di più, leggi la [s](../guida-tecnica/client-e-materiale-crittografico/)[ezione dedicata](../guida-tecnica/client-e-materiale-crittografico/) ai client Api interop.
 
-### Step 5 - Caricamento di una chiave pubblica nel client
+### Step 2 - Caricamento di una chiave pubblica nel client
 
-Caricare una chiave pubblica parte del proprio materiale crittografico, all'interno di un client e-service associato ad una finalità attiva.&#x20;
+Caricare una chiave pubblica parte del proprio materiale crittografico, all'interno di un client API Interop.&#x20;
 
-## Come richiedere un voucher a PDND Interoperabilità per un e-service
+## Come richiedere un voucher a PDND Interoperabilità per le API di PDND Interoperabilità
 
-Il prerequisito per poter ottenere un voucher valido è aver caricato almeno una chiave pubblica, parte del proprio materiale crittografico, all'interno di un client e-service associato ad una finalità attiva. Per saperne di più, leggi la [sezione dedicata](../guida-tecnica/client-e-materiale-crittografico/#caricare-una-chiave-pubblica-in-un-client) ai [cliente e-service](../guida-tecnica/client-e-materiale-crittografico/#caricare-una-chiave-pubblica-in-un-client).
+Il prerequisito per poter ottenere un voucher valido è aver caricato almeno una chiave pubblica, parte del proprio materiale crittografico, all'interno di un client API Interop associato ad una finalità attiva.&#x20;
 
 ### Step 1 - Client assertion
 
@@ -46,7 +34,6 @@ Nel payload ci saranno invece i seguenti campi:&#x20;
 * `sub`: il subject, in questo caso sempre il _clientId;_
 * `aud`: l'audience, reperibile su PDND Interoperabilità; per quale risorsa è valido
 * `jti`: il JWT ID, un id unico random assegnato da chi vuole creare il token, si usa per tracciare il token stesso. Deve essere cura del chiamante assicurarsi che l'id di questo token sia unico per quanto riguarda la client assertion;
-* `purposeId` (solo per gli e-service): l'id della finalità per la quale si richiede il voucher. Questo parametro è disponibile nel back office di PDND Interoperabilità.
 
 Un `JWS` di esempio può avere header
 
@@ -66,7 +53,7 @@ Questa chiave e questo `kid` non devono necessariamente essere gli stessi con i 
 
 Una volta firmata l'asserzione, salvare l'output.
 
-### Step 2- Il fruitore costruisce la client assertion
+### Step 2 - Il fruitore costruisce la client assertion
 
 Il fruitore prende l'hash ottenuto e lo inserisce nel payload della client assertion nel campo `digest.value`. Il campo `digest.alg` accetta solamente il valore `SHA256` (corrispondente all'algoritmo di hashing che è stato applicato al `JWS`).
 
@@ -95,43 +82,3 @@ Anche in questo passaggio non ci sono variazioni. Da notare che l'unica verifica
 ### Step 5 - Richiesta all'erogatore
 
 Il fruitore può usare il voucher per effettuare una richiesta verso un servizio dell'erogatore
-
-## Come richiedere un voucher a PDND Interoperabilità per un e-service in cui sono richiesti dati non standard
-
-### Step 1 - Client assertion
-
-### Step 2 - Il fruitore costruisce la client assertion
-
-### Step 3 - Il fruitore calcola l'hash
-
-A partire dalla codifica del `JWS` (ossia il `JWS` codificato secondo l'algoritmo inserito nell'header, in genere inizia per `ey`) il fruitore applica l'algoritmo di hashing `SHA256` al `JWS`, ottenendone un hash non reversibile a lunghezza fissa.&#x20;
-
-A scopo esemplificativo, è possibile inserire in un terminale il seguente comando, previa installazione del pacchetto `openssl`
-
-```
-echo -n {JWS} | openssl sha256
-```
-
-per ottenere l'hash del `JWS`. Ad esempio, a fronte del JWS esempio con codifica
-
-```
-eyJhbGciOiJIUzI1NiIsImtpZCI6IlptWXhaR0UyWWpRdE16WTJZeTAwTldJNUxUaGpOR0l0TURKbVltUXlaR0l5TW1aaCIsInR5cCI6ImF0K2p3dCJ9.eyJqdGkiOiJkc2Zkc2Zkc2ZkcyIsImEiOiJiIn0.2QcY5UpoE2PgJhe1FKnHx-SZZq_NS6AKDTlfFdpVP9Q
-```
-
-si ottiene l'hash a lunghezza fissa
-
-```
-5db26201b684761d2b970329ab8596773164ba1b43b1559980e20045941b8065
-```
-
-{% hint style="warning" %}
-NB: la flag `-n` che viene passata nel primo comando indica che vengano rimosse eventuali "newline" non viste dall'operatore. Un'eventuale "newline" presente nel token fa cambiare il valore dell'hash che poi non corrisponderà all'atto della verifica dell'erogatore.
-{% endhint %}
-
-### Step 4 - Il fruitore richiede un voucher a PDND Interoperabilità
-
-
-
-### Step 5 - PDND Interoperabilità restituisce un voucher al fruitore
-
-### Step 6 - Richiesta all'erogatore

@@ -3,7 +3,7 @@
 {% hint style="info" %}
 Il numero massimo di utenti con il ruolo di amministratore è tre.
 
-é sempre possibile aggiungere o rimuovere gli utenti con il ruolo di amministrazione, una volta concluso il processo di adesione a PDND Interoperailità
+È sempre possibile aggiungere o rimuovere gli utenti con il ruolo di amministrazione, una volta concluso il processo di adesione a PDND Interoperailità
 {% endhint %}
 
 ### Step 1 - Accesso ad Area Riservata

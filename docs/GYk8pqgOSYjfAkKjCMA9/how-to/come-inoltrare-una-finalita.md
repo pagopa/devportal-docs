@@ -1,2 +1,0 @@
-# Come Inoltrare una finalità
-

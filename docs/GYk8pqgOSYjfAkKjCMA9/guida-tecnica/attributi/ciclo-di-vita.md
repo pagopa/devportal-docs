@@ -1,10 +1,8 @@
-# Funzionamento
-
-I fruitori possono accedere all'e-service dell'erogatore sottoscrivendo una richiesta di fruizione. L'accesso è condizionato dal possesso di specifici attributi, ossia requisiti previsti dalla normativa che il fruitore deve possedere o dimostrare di avere. Durante la creazione di un nuovo e-service, l'erogatore deve definire quali attributi richiedere come condizione necessaria per poter presentare la richiesta di fruizione.
+# Ciclo di vita
 
 ### Creazione di un attributo
 
-Gli aderenti possono creare autonomamente attributi verificati e dichiarati. Per  poter creare gli attributi certificati, devono essere accreditati come **enti certificatori**.
+Gli aderenti possono creare autonomamente attributi verificati e dichiarati. Per poter creare gli attributi certificati, devono essere accreditati come **enti certificatori**.
 
 Se durante la creazione di un nuovo e-service l'attributo desiderato non è presente nel database, è possibile crearlo e utilizzarlo immediatamente. L'attributo sarà automaticamente disponibile in archivio per tutti gli erogatori successivi, che potranno utilizzarlo per i propri e-service.
 

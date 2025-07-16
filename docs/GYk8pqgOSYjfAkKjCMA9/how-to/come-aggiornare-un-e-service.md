@@ -1,6 +1,18 @@
-# Come aggiornare un proprio e-service
+# Come aggiornare un e-service
 
 ## Come creare una nuova versione di e-service
+
+come raccomandazioni generali:&#x20;
+
+evitare interruzioni di servi&#x20;
+
+minimizzare l'onere di gestione
+
+
+
+{% hint style="danger" %}
+**Conseguenze** Quando viene creata una nuova versione viene proposto a tutti i fruitori di aggiornare la richiesta di fruizione verso la nuova versione. È caldamente consigliato al fruitore, di consultare il changelog e verificare audience e interfaccia API prima di aggiornare.
+{% endhint %}
 
 ### Step 1 - Generale
 
@@ -25,4 +37,6 @@ Cliccare _**Salva bozza e prosegui.**_
 
 
 ### Step 4 - Documentazione
+
+
 

@@ -1,17 +1,17 @@
 # Come gestire un e-service
 
-## Come erogare un e-service
+L'erogatore può gestire l'e-service dalla voce di menu _**Erogazione > I tuoi e-service**_.&#x20;
 
-L'aderente può gestire l'e-service dalla voce di menu _**Erogazione > I tuoi e-service**_.&#x20;
+Ogni erogatore troverà le richieste di fruizione presentate verso i propri e-service dai fruitori in _**Erogazione > Richieste di fruizione**_, dove può gestirle. Il fruitore può presentare le finalità e, dopo che la richiesta è approvata, iniziare a utilizzare l'e-service.
 
-Una volta pubblicato un e-service, è visualizzabile in modalità fruizione su _**Fruizione > Catalogo e-service**_.&#x20;
+***
+
+Il fruitore può visualizzare in modalità fruizione tutti gli e-service pubblicati su _**Fruizione > Catalogo e-service.**_&#x20;
 
 Gli aderenti interessati a fruire dell'e-service e in possesso dei requisiti minimi richiesti dall'erogatore (attributi), possono iscriversi presentando una richiesta di fruizione.&#x20;
 
-Ogni erogatore troverà le richieste di fruizione presentate dai Fruitori in _**Erogazione > Richieste di fruizione**_, dove può gestirle. Il fruitore può presentare le finalità e, dopo che la richiesta è approvata, iniziare a utilizzare l'e-service.
-
 {% hint style="info" %}
-Per approfondire il funzionamento del flusso dell'erogatore si rimanda ai paragrafi successivi e alle voci [Client e materiale crittografico](../guida-tecnica/client-e-materiale-crittografico.md) e [Utilizzare i voucher](../guida-tecnica/utilizzare-i-voucher/) di questa guida.
+Per approfondire il funzionamento del flusso dell'erogatore si rimanda ai paragrafi successivi e alle voci [Client e materiale crittografico](../guida-tecnica/client-e-materiale-crittografico/) e [Utilizzare i voucher](../guida-tecnica/utilizzare-i-voucher/) di questa guida.
 {% endhint %}
 
 ## Come eliminare un e-service
@@ -34,7 +34,7 @@ La funzionalità è pensata per facilitare il passaggio di un e-service che ha s
 
 Un esempio pratico: c'è un e-service chiamato "Il mio e-service" in versione 5 in collaudo. È possibile esportare questa versione di e-service e reimportarla in produzione come versione 1 in bozza. L'e-service avrà lo stesso nome e le stesse caratteristiche di quello di partenza, con alcuni caveat descritti più sotto.
 
-### Importare un e-service in bozza
+### Come importare un e-service in bozza
 
 Un utente con permessi di gestione per gli e-service (ossia amministratore o operatore API) può entrare nella pagina che elenca gli e-service erogati dal proprio ente _**Erogazione > I tuoi e-service**_**.** Alla sinistra dell'azione _**+1 Crea nuovo**_, si trova _**Importa**_**.**
 
@@ -46,7 +46,7 @@ Cliccando su _**Importa**_, si apre un cassetto laterale che offre la possibilit
 
 Se tutto va a buon fine, l'utente è reindirizzato direttamente alla bozza del nuovo e-service che è stata creata a partire dallo .zip importato. In caso contrario, si riceve un feedback negativo.
 
-### Esportare una versione di e-service
+### Come esportare una versione di e-service
 
 Un utente con permessi di gestione per gli e-service (ossia amministratore o operatore API) può entrare nella scheda del singolo e-service in _**Erogazione > I tuoi e-service**_. A quel punto, tra le azioni disponibili in basso nella scheda _**Informazioni generali**_, trova _**Scarica questa versione dell'e-service**_.
 

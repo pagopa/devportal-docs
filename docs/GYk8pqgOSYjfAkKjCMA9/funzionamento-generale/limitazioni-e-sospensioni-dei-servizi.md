@@ -2,7 +2,7 @@
 
 Per garantire agli aderenti di poter intervenire tempestivamente in caso di malfunzionamenti o eventuali usi malevoli, PDND Interoperabilità mette a disposizione la possibilità di sospendere il servizio in diversi punti del flusso. Di seguito è riportato il diagramma del flusso:
 
-<figure><img src="../../.gitbook/assets/interop_funzionamento_generale_02.png" alt="Un diagramma che dettaglia le aree di sovrapposizione sulle operazioni. Gli e-service sono esclusiva competenza dell&#x27;erogatore, client e chiavi pubbliche del fruitore. Richieste di fruizione e finalità sono invece parti sulle quali entrambi gli attori possono agire"><figcaption><p>Un diagramma che dettaglia le aree di sovrapposizione sulle operazioni. Gli e-service sono esclusiva competenza dell'erogatore, client e chiavi pubbliche del fruitore. Richieste di fruizione e finalità sono invece parti sulle quali entrambi gli attori possono agire</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/interop_funzionamento_generale_02.png" alt="Un diagramma che dettaglia le aree di sovrapposizione sulle operazioni. Gli e-service sono esclusiva competenza dell&#x27;erogatore, client e chiavi pubbliche del fruitore. Richieste di fruizione e finalità sono invece parti sulle quali entrambi gli attori possono agire"><figcaption><p>Un diagramma che dettaglia le aree di sovrapposizione sulle operazioni. Gli e-service sono esclusiva competenza dell'erogatore, client e chiavi pubbliche del fruitore. Richieste di fruizione e finalità sono invece parti sulle quali entrambi gli attori possono agire</p></figcaption></figure>
 
 Esistono tre punti nei quali è possibile limitare l'operatività del flusso:&#x20;
 

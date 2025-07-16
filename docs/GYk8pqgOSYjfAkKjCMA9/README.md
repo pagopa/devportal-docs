@@ -14,9 +14,9 @@ Grazie a questa piattaforma, gli enti aderenti possono:
 
 PDND Interoperabilità **non** tratta né conserva i dati scambiati tra gli enti e **non** consente un accesso indiscriminato o generalizzato ai dati delle amministrazioni.
 
-Non tutte le funzionalità previste dalle linee guida AgID sono state ancora implementate e alcune sono in fase di sviluppo. Mentre le linee guida descrivono ciò che la PDND Interoperabilità diventerà  una volta a regime, questa guida fornisce **tutti i dettagli necessari per utilizzare le funzionalità attualmente disponibili** ed è costantemente aggiornata.
+Non tutte le funzionalità previste dalle linee guida AgID sono state ancora implementate e alcune sono in fase di sviluppo. Mentre le linee guida descrivono ciò che la PDND Interoperabilità diventerà una volta a regime, questa guida fornisce **tutti i dettagli necessari per utilizzare le funzionalità attualmente disponibili** ed è costantemente aggiornata.
 
-PDND Interoperabilità permette alle Pubbliche Amministrazioni di velocizzare e standardizzare il flusso di condivisione delle informazioni tra loro. si evidenziano tre aspetti chiave:&#x20;
+PDND Interoperabilità permette alle Pubbliche Amministrazioni di velocizzare e standardizzare il flusso di condivisione delle informazioni tra loro. Si evidenziano tre aspetti chiave:&#x20;
 
 * Un catalogo unico per tutta la Pubblica Amministrazione: viene chiamato _Catalogo degli e-service_ o _Catalogo delle API_;
 * La creazione di un canale sicuro e standard tra chi eroga un e-service e chi ne fruisce, senza necessità di integrazioni personalizzate;
@@ -25,4 +25,4 @@ PDND Interoperabilità permette alle Pubbliche Amministrazioni di velocizzare e 
 Per le cittadine e i cittadini, questo si traduce in due vantaggi evidenti:
 
 * Procedure più semplici e rapide, evase in tempi ridotti senza ulteriore aggravio per le finanze dello Stato;
-* Non dover fornire nuovamente  alle pubbliche amministrazioni informazioni già in loro possesso (principio del _once only_).
+* Non dover fornire nuovamente alle pubbliche amministrazioni informazioni già in loro possesso (principio _once only_).

@@ -2,13 +2,13 @@
 
 È possibile associare e rimuovere i client da una finalità una volta che questa è stata approvata dall'erogatore. Se la finalità è in stato di bozza o in attesa di approvazione non è possibile associare un client.
 
-## Step 1&#x20;
+## Step 1 - Accedere
 
-Se si intende modificare uno o più client associati, il fruitore può andare su _**Fruizione > Le tue finalità**_, trovare la finalità desiderata e cliccare su _**Visualizza**_.&#x20;
+Se si intende modificare uno o più client associati, il fruitore può andare dal back office su _**Fruizione > Le tue finalità**_, trovare la finalità desiderata e cliccare su _**Visualizza**_.&#x20;
 
 <figure><img src="../.gitbook/assets/Nuova UI Le tue finalità.png" alt=""><figcaption><p>Le tue finalità --> Visualizza</p></figcaption></figure>
 
-## Step 2
+## Step 2&#x20;
 
 Nella tab _**Client associati**_ è possibile operare sui client.
 

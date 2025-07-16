@@ -1,25 +1,5 @@
 # Come gestire una finalità
 
-## Come creare una finalità
-
-Per creare una nuova finalità, andare su _**Fruizione > Le tue finalità**_ e cliccare _**Crea nuovo**_.
-
-Nel momento in cui si crea la finalità, è necessario indicare l'e-service per il quale la finalità sarà attiva. Dall'elenco degli e-service si potranno scegliere solo quelli per cui l'ente ha una richiesta di fruizione attiva.
-
-Si devono inoltre indicare il nome e la motivazione, l'eventuale annotazione di accesso a titolo gratuito e la stima di carico.
-
-### Creare una finalità per e-service che eroga dati
-
-Se l'e-service per cui si crea la finalità eroga dati, il fruitore - in quanto destinatario dei dati - deve compilare l'analisi del rischio.
-
-### Creare una finalità per e-service che riceve dati
-
-Se l'e-service riceve invece dati, l'erogatore durante la creazione dell'e-service deve compilare un'analisi del rischio per ogni finalità per la quale riceverà dati dai fruitori.&#x20;
-
-Il fruitore, nel creare la finalità, non deve compilare l'analisi del rischio, deve però scegliere per quale finalità, tra quelle proposte dall'erogatore, invierà dati all'erogatore. L'analisi del rischio sarà quella ammessa dalla finalità.
-
-Per fare un esempio: l'erogatore prevede una finalità "per fini istituzionali" e una seconda finalità "per fini statistici". Quando il fruitore crea la finalità, deve scegliere una delle due finalità. L'erogatore è tenuto a trattare i dati ricevuti in conformità con quanto dichiarato nella finalità scelta dal fruitore.
-
 ## Come eliminare una finalità
 
 È possibile eliminare una finalità solo quando è in bozza.&#x20;

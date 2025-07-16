@@ -2,7 +2,15 @@
 
 ## Come creare un client e-service
 
-Dalla voce di menu _**Fruizione > I tuoi client e-service**_ e poi _**Crea nuovo**_.
+### Step 1 - Accedere&#x20;
+
+Dal back office andare alla voce di menu _**Fruizione > I tuoi client e-service**_ e poi _**Crea nuovo**_.
+
+### Step 2 - Dare un nome&#x20;
+
+Ogni client è dotato di un nome, che può essere utilizzato per individuare il gruppo di persone che ne fa parte (per esempio i dipendenti di una software house esterna o interna all'ente).
+
+### Step 3 - Associare un e-service
 
 La creazione del client non ha effetto sull'accesso agli e-service: il client deve essere successivamente associato ad una o più finalità le cui chiavi saranno utilizzabili per ottenere un voucher.
 
