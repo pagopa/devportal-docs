@@ -97,3 +97,9 @@
 * [Come approvare una richiesta di fruizione](come-approvare-una-richiesta-di-fruizione.md)
 * [Come caricare e eliminare una chiave pubblica in un client o portachiavi](come-caricare-e-eliminare-una-chiave-pubblica-in-un-client-o-portachiavi.md)
 * [Come creare un nuovo operatore](utenze.md)
+
+## Contenuti Richiesta di Fruizione
+
+* [Come creare e sottomettere una Richiesta di Fruizione](contenuti-richiesta-di-fruizione/come-creare-e-sottomettere-una-richiesta-di-fruizione.md)
+* [Come un Erogatore può approvare  una Richiesta di Fruizione in stato PENDING](contenuti-richiesta-di-fruizione/come-un-erogatore-puo-approvare-una-richiesta-di-fruizione-in-stato-pending.md)
+* [Come ottenere le Richieste di Fruizione in stato PENDING](contenuti-richiesta-di-fruizione/come-ottenere-le-richieste-di-fruizione-in-stato-pending.md)
