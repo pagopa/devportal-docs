@@ -12,7 +12,7 @@ Per saperne di più, leggi la [s](../guida-tecnica/client-e-materiale-crittograf
 
 Caricare una chiave pubblica parte del proprio materiale crittografico, all'interno di un client API Interop.&#x20;
 
-## Come richiedere un voucher a PDND Interoperabilità per le API di PDND Interoperabilità
+## Come richiedere un voucher a PDND Interoperabilità per le API di PDND Interop
 
 Il prerequisito per poter ottenere un voucher valido è aver caricato almeno una chiave pubblica, parte del proprio materiale crittografico, all'interno di un client API Interop associato ad una finalità attiva.&#x20;
 

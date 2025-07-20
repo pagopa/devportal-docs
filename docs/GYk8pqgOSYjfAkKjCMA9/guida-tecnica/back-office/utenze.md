@@ -5,7 +5,7 @@
 La voce di menu per gestire le utenze è disponibile solo per gli amministratori nel menu del back office di PDND Interoperabilità, alla voce _Utenti_. Si verrà rimandati alla pagina dedicata sulla Piattaforma Area Riservata, che gestisce tutti gli utenti in maniera centralizzata per i prodotti PagoPA.
 
 {% hint style="warning" %}
-Per poter accedere ad Area Riservata, il tuo ente deve aver già effettuato l'adesione a PDND Interoperabilità. Se non sai come fare, segui la [_Guida all'adesione._](../../how-to/guida-alladesione.md)
+Per poter accedere ad Area Riservata, il tuo ente deve aver già effettuato l'adesione a PDND Interoperabilità. Se non sai come fare, segui la [_Guida all'adesione._](../../tutorial/guida-alladesione.md)
 {% endhint %}
 
 ## Tipologie di utenza

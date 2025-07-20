@@ -1,6 +1,6 @@
 # Ciclo di vita
 
-Dal punto di vista tecnico, l'interazione si articola in alcuni passaggi, che sono di fatto una variazione sul tema rispetto al flusso standard di richiesta e verifica di un voucher. In particolare:&#x20;
+Dal punto di vista tecnico, l'interazione si articola in alcuni passaggi. In particolare:&#x20;
 
 1. **il fruitore costruisce la client assertion**
 2. **il fruitore richiede un voucher a PDND Interoperabilità**: il fruitore inoltra a PDND Interoperabilità la richiesta per ottenere un voucher sulla base della client assertion
@@ -15,11 +15,11 @@ Le issue che contengono informazioni potenzialmente sensibili potranno essere ri
 
 L'intero ciclo di vita dei voucher si compone di una serie di interazioni _machine to machine_.
 
-## Client assertion
+## Fruitore: costruzione della Client assertion
 
 Il fruitore deve costruire una _client assertion_ valida e firmarla con la propria chiave privata (che deve essere l'omologa della chiave pubblica depositata sul client su PDND Interoperabilità). &#x20;
 
-## Richiesta di un voucher
+## Fruitore: Richiesta di un voucher a PDND Interoperabilità
 
 L'aderente costruisce una client assertion e la firma con una chiave privata la cui omologa pubblica è nota a PDND Interoperabilità.&#x20;
 
@@ -39,6 +39,8 @@ Il token andrà inserito nell'header di tutte le chiamate successive verso le AP
 ### Richiesta di un voucher spendibile per e-service
 
 \[Manca]
+
+## Fruitore: richiesta dati all'erogatore
 
 ## Richiedere dati non standard&#x20;
 

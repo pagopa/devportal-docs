@@ -1,6 +1,6 @@
-# Casi Particolari
+# Revoca attributi
 
-## Fruizione: perdita di un attributo certificato
+## Revoca di un attributo certificato
 
 Se PDND Interoperabilità constata che un fruitore non possiede più un attributo riconosciutogli dal Catalogo IPA o da qualsiasi altra fonte autoritativa, viene automaticamente cambiato lo stato della richiesta di fruizione.
 
@@ -8,7 +8,7 @@ Se la richiesta è in bozza o in attesa di approvazione, viene portata in uno st
 
 Se la richiesta era in attesa di approvazione prima di essere portata in stato "invalido", a valle del nuovo riconoscimento dell'attributo certificato viene riportata in stato di bozza e potrà essere nuovamente presentata all'erogatore.
 
-## Fruizione: perdita di un attributo verificato
+## Revoca di un attributo verificato
 
 Se l'erogatore revoca un attributo verificato precedentemente riconosciuto al fruitore, la richiesta non viene sospesa immediatamente. PDND Interoperabilità notifica a tutti gli enti interessati da quell'attributo verificato il fatto che ci siano discrepanze. Per fare un esempio:&#x20;
 
@@ -20,7 +20,7 @@ Se l'erogatore revoca un attributo verificato precedentemente riconosciuto al fr
 Il sistema di notifica è in corso di realizzazione e non è ancora disponibile.
 {% endhint %}
 
-## Fruizione: perdita di un attributo dichiarato
+## Revoca di un attributo dichiarato
 
 La certificazione e la revoca degli attributi dichiarati sono a carico esclusivo dei fruitori.
 

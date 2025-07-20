@@ -1,5 +1,37 @@
 # Ciclo di vita
 
+## Informazioni per la creazione della finalità
+
+Le finalità sono composte da alcune informazioni non variabili come:
+
+* l'**e-service** a cui si intende accedere;
+* l'**analisi del rischio**, ossia la dichiarazione della modalità del trattamento dei dati dei quali si viene in possesso;
+* l'eventuale annotazione di **accesso a titolo gratuito** e la sua **motivazione**.
+
+{% hint style="info" %}
+Per le Pubbliche Amministrazioni, l'accesso è sempre a titolo gratuito. Come motivazione, si può lasciare il default impostato nel campo, ossia "Sono una Pubblica Amministrazione".
+{% endhint %}
+
+Inoltre, hanno alcune informazioni variabili, quali:
+
+* il **nome** e la **descrizione**, che servono al fruitore a orientarsi tra le finalità che ha inoltrato;
+* la **stima del carico** che si intende porre sull'infrastruttura dell'erogatore, cioè il numero di chiamate al giorno che si stima di effettuare verso l'API esposta dall'e-service; questa stima può essere aggiornata in qualsiasi momento. Tuttavia, si possono verificare due scenari distinti:
+  * **Aggiornamento di una stima già approvata:** Se la nuova richiesta supera una o entrambe le soglie stabilite dall'erogatore, la modifica passa in stato "In attesa di approvazione". Nel frattempo, il fruitore può continuare a utilizzare regolarmente la finalità con la stima precedentemente concordata, fino all'eventuale approvazione della nuova configurazione.
+  * **Prima sottomissione oltre le soglie:** Se già la stima iniziale supera una o entrambe le soglie dell'erogatore, l'intera finalità viene posta "In attesa di approvazione" e non può essere utilizzata per ottenere voucher fino all'approvazione manuale da parte dell'erogatore.
+* i **client** associati, cioè quelli attraverso i quali è possibile ottenere un voucher valido: è possibile associare i client solo alle finalità attive. Tutte le chiavi presenti all'interno di un client potranno essere utilizzate per ottenere voucher relativi alla finalità associata, per tutta la durata dell'associazione. È facoltà degli utenti con ruolo di _amministratore_ gestire l'associazione tra finalità e client.
+
+### Compilazione dell'analisi del rischio
+
+Se l'e-service per cui si crea la finalità eroga dati, il fruitore - in quanto destinatario dei dati - deve compilare l'analisi del rischio.
+
+Se l'e-service riceve invece dati, l'erogatore durante la creazione dell'e-service deve compilare un'analisi del rischio per ogni finalità per la quale riceverà dati dai fruitori.&#x20;
+
+Il fruitore, nel creare la finalità, non deve compilare l'analisi del rischio, deve però scegliere per quale finalità, tra quelle proposte dall'erogatore, invierà dati all'erogatore. L'analisi del rischio sarà quella ammessa dalla finalità.
+
+Per fare un esempio: l'erogatore prevede una finalità "per fini istituzionali" e una seconda finalità "per fini statistici". Quando il fruitore crea la finalità, deve scegliere una delle due finalità. L'erogatore è tenuto a trattare i dati ricevuti in conformità con quanto dichiarato nella finalità scelta dal fruitore.
+
+## Stati di una finalità
+
 Una **finalità** può trovarsi in uno dei seguenti stati:
 
 * **Bozza**: è in fase di creazione e non è ancora stata inviata all'erogatore.
