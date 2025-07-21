@@ -10,6 +10,12 @@ description: >-
 
 <summary>Luglio 2025</summary>
 
+### 2.1.4
+
+**17 luglio**
+
+* Bug fixing
+
 ### 2.1.3
 
 **15 luglio**
