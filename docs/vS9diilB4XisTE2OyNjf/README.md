@@ -1,3 +1,18 @@
+---
+funzione: il-prodotto
+obiettivo: comprensione
+livello: principiante
+tecnologia: []
+utente: [partner_tecnologico, pubblica_amministrazione, gestore_servizi_pubblici]
+tag: [introduzione, panoramica, srtp, rtp, psp]
+status_contenuto: pubblicato
+prodotto:
+  nome_prodotto: Richiesta di Pagamento (RTP)
+  versione_prodotto: v1.0.0
+argomenti_correlati:
+  - "/il-prodotto/schema-sepa-rtp"
+---
+
 # Introduzione al servizio
 
 Il servizio **Richiesta di Pagamento (RTP)** è la soluzione offerta da PagoPA per evolvere le modalità con cui gli Enti Creditori notificano e incassano i pagamenti. Nasce per rispondere alla necessità di cittadini e imprese di ricevere richieste di pagamento (come tributi, bollette di pubblici servizi e altro) in modo digitale, semplice e immediato, direttamente sui canali con cui gestiscono le proprie finanze, come l'home banking.
