@@ -24,5 +24,5 @@ L'implementazione del servizio SRTP da parte di PagoPA si basa su alcuni princip
 * **Unico Modello di Funzionamento "Accept Later / Pay Later":** Per garantire uniformità, è stato adottato esclusivamente questo modello, in cui sia la data di accettazione che quella di pagamento coincidono con la scadenza dell'avviso.
 * **Indipendenza tra Richiesta e Avviso:** Lo stato di una RTP (es. rifiutata) non influenza lo stato dell'avviso di pagamento pagoPA, che può essere comunque pagato tramite qualsiasi altro canale.
 * **Pagamento sempre su pagoPA:** La SRTP è un canale di notifica. Il pagamento vero e proprio deve sempre avvenire nel rispetto delle regole del Nodo dei Pagamenti-SPC.
-* **Utilizzo di un IBAN Fittizio:** L'IBAN presente nei messaggi ha solo finalità di identificazione e non deve mai essere usato per disporre il pagamento.
+* **Utilizzo di un IBAN Fittizio:** L'IBAN presente nei messaggi ha solo finalità di identificazione e non deve mai essere usato per disporre il pagamento, l'informazione è  pubblica nel documento del CPI.
 * **Identificazione dei Service Provider:** Ogni SP viene identificato in modo univoco tramite il proprio Bank Identifier Code (BIC) o, in sua assenza, tramite Codice Fiscale.
