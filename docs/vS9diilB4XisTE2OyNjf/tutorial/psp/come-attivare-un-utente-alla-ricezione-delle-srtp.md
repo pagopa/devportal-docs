@@ -36,8 +36,8 @@ Request Body Il corpo della richiesta deve contenere un oggetto `ActivationReq` 
 * `fiscalCode`: Il Codice Fiscale dell'utente che sta dando il consenso.
 * `rtpSpId`: L'identificativo (BIC o P.IVA) del tuo PSP.
 
-#### Risposte
+### Risposte
 
-* Successo (`201 Created`): L'attivazione è stata registrata. L'header `Location` della risposta conterrà l'URL univoco di questa attivazione, da conservare per future gestioni.
-* Errore (`409 Conflict`): L'utente risulta già attivo. In questo caso, puoi usare l'URL nell'header `Location` per recuperare i dettagli dell'attivazione esistente e verificare se è gestita da te o da un altro PSP.
+* **Successo (`201 Created`):** L'attivazione è stata registrata. L'header `Location` della risposta conterrà l'URL univoco di questa attivazione, da conservare per future gestioni.
+* **Errore (`409 Conflict`):** L'utente risulta già attivo. In questo caso, puoi usare l'URL nell'header `Location` per recuperare i dettagli dell'attivazione esistente e verificare se è gestita da te o da un altro PSP.
 
