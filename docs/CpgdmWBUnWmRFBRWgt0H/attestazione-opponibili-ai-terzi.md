@@ -42,7 +42,7 @@ Nel caso di notifica multi-destinatario, verranno generate tante attestazioni qu
 
 #### **Attestazione opponibile a terzi: avvenuto accesso (da parte del destinatario)** <a href="#attestazione-opponibile-a-terzi-avvenuto-accesso" id="attestazione-opponibile-a-terzi-avvenuto-accesso"></a>
 
-Questa attestazione viene generata quando il destinatario accede alla notifica (secondo le [modalità previste](processi/processo-di-notificazione.md)) ed è associata allo stato della notifica "Avvenuto Accesso"
+Questa attestazione viene generata quando il destinatario accede alla notifica (secondo le [modalità previste](funzionamento-generale/processo-di-notificazione.md)) ed è associata allo stato della notifica "Avvenuto Accesso"
 
 Nel caso di notifica multi-destinatario, questa Attestazione attesta l'avvenuto accesso per ciascun destinatario e, quindi verranno generate tante attestazioni quanti sono i co destinatari e ciascuno di essi avrà a disposizione/visibilità esclusivamente della propria. Mentre il Mittente le avrà tutte a disposizione.&#x20;
 
@@ -52,7 +52,7 @@ Nel caso di notifica multi-destinatario, questa Attestazione attesta l'avvenuto 
 
 #### **Attestazione opponibile a terzi: avvenuto accesso (da parte del delegato)** <a href="#attestazione-opponibile-a-terzi-avvenuto-accesso" id="attestazione-opponibile-a-terzi-avvenuto-accesso"></a>
 
-Questa Attestazione viene generata quando l'accesso per conto del destinatario delegante alla notifica avviene (secondo le [modalità previste](processi/processo-di-notificazione.md)) da parte di un delegato; ed è associata allo stato della notifica "Avvenuto Accesso".
+Questa Attestazione viene generata quando l'accesso per conto del destinatario delegante alla notifica avviene (secondo le [modalità previste](funzionamento-generale/processo-di-notificazione.md)) da parte di un delegato; ed è associata allo stato della notifica "Avvenuto Accesso".
 
 Nel caso di notifica multi-destinatario, questa Attestazione attesta l'avvenuto accesso per conto del singolo destinatario delegante e, quindi verranno generate tante attestazioni quanti sono i co destinatari deleganti e, ciascuno di essi avrà a disposizione/visibilità esclusivamente della propria. Mentre il Mittente le avrà tutte a disposizione.&#x20;
 

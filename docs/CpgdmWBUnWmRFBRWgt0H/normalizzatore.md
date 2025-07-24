@@ -7,7 +7,7 @@ Il normalizzatore degli indirizzi è il componente della piattaforma che decide 
 
 Il normalizzatore in caso di:
 
-* **indirizzo italiano** proverà a correggere CAP(_zip_) e Provincia(_province_) utilizzando Città (_municipality_), Località/Frazione (_municipalityDetails_) e Via (_address_).
+* **indirizzo italiano** proverà a correggere CAP (_zip_) e Provincia(_province_) utilizzando Città (_municipality_), Località/Frazione (_municipalityDetails_) e Via (_address_).
 * **indirizzo estero** validerà esclusivamente il paese (_country)_. In questo caso i caratteri accettati saranno sempre e comunque gli ISO\_LATIN\_1.
 
 In questo scenario:

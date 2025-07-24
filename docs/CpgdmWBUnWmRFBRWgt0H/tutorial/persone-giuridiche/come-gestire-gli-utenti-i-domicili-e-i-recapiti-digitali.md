@@ -1,4 +1,4 @@
-# Gestione degli utenti, dei domicili e dei recapiti digitali
+# Come gestire gli utenti, i domicili e i recapiti digitali
 
 ## Gestione utenti
 
@@ -43,7 +43,7 @@ L’utente amministratore di gruppo modifica un utente selezionandolo dalla list
 
 L’utente può modificare nome, cognome, indirizzo email e ruolo (solo tra amministratore di gruppo e tecnico di gruppo).
 
-### Cancellare un utente
+### Come cancellare un utente
 
 L’utente amministratore o amministratore di gruppo rimuove un utente selezionandolo dalla lista e premendo il tasto _**Rimuovi**_.
 

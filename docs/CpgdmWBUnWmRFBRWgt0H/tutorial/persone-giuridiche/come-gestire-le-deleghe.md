@@ -1,6 +1,6 @@
-# Gestione delle deleghe
+# Come gestire le deleghe
 
-Le persone giuridiche gestiscono le deleghe con le stesse modalità descritte nella sezione [Gestione delle delege](../persone-fisiche/gestione-delle-deleghe.md) relativa alle persone fisiche, ma con le seguenti differenze:
+Le persone giuridiche gestiscono le deleghe con le stesse modalità descritte nella sezione [Gestione delle delege](../persone-fisiche/come-gestire-le-deleghe.md) relativa alle persone fisiche, ma con le seguenti differenze:
 
 * Solo gli utenti amministratori possono creare e gestire deleghe nelle quali la persona giuridica è parte delegante;
 

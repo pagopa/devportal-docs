@@ -1,4 +1,4 @@
-# Visualizzazione delle notifiche
+# Come visualizzare le notifiche da back office
 
 Selezionando la voce _**Notifiche**_ si accede alla pagina di visualizzazione delle notifiche inviate dalla PA.
 
@@ -23,8 +23,7 @@ L’utente può impostare dei filtri per modificare la visualizzazione dell’el
 * intervallo temporale&#x20;
 * stato della notifica.
 
-Le notifiche sono presentate in pagine da 10, 20, 50 elementi ciascuna. La dimensione della pagina è selezionabile dell’utente.\
-
+Le notifiche sono presentate in pagine da 10, 20, 50 elementi ciascuna. La dimensione della pagina è selezionabile dell’utente.
 
 <figure><img src="../../.gitbook/assets/image (165).png" alt=""><figcaption></figcaption></figure>
 
@@ -34,11 +33,7 @@ Ciascun elemento contiene un link che permette di scaricare il documento.
 
 PN mantiene i documenti per 120 giorni a partire dalla data di perfezionamento della notifica per il destinatario, passati i quali i link non saranno più disponibili.
 
-
-
 ***
-
-
 
 <figure><img src="../../.gitbook/assets/image (94).png" alt=""><figcaption></figcaption></figure>
 
@@ -55,5 +50,5 @@ Gli stati attraversati differiscono a seconda del percorso di notificazione util
 Per i diversi stati attraversati dalla notifica sono disponibili attraverso link i relativi atti opponibili ai terzi aventi valore legale.
 
 {% hint style="info" %}
-**ATTENZIONE**: in alcuni casi più di un evento può fare riferimento alla stessa attestazione opponibile ai terzi. Ad esempio, tutti i vari tentativi di inoltro della PEC, come descritto nel [Processo di notificazione](../../processi/processo-di-notificazione.md) sono raggruppati in una singola attestazione opponibile ai terzi.
+**ATTENZIONE**: in alcuni casi più di un evento può fare riferimento alla stessa attestazione opponibile ai terzi. Ad esempio, tutti i vari tentativi di inoltro della PEC, come descritto nel [Processo di notificazione](../../funzionamento-generale/processo-di-notificazione.md) sono raggruppati in una singola attestazione opponibile ai terzi.
 {% endhint %}

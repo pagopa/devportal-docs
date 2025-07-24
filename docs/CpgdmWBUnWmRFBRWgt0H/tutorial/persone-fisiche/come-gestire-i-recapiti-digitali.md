@@ -1,4 +1,4 @@
-# Gestione dei recapiti digitali
+# Come gestire i recapiti digitali
 
 PN permette ai suoi utenti di configurare i propri recapiti legali (ovvero gli indirizzi PEC/SERCQ) da utilizzare in via preferenziale per la notificazione da parte di PN degli atti provenienti da una PA mittente.
 
@@ -20,7 +20,7 @@ Sempre dalla sezione _**I tuoi recapiti**_ l’utente può accedere a _**I tuoi 
 
 ***
 
-## Aggiunta di un recapito legale
+## Come aggiungere un recapito legale
 
 L’operazione non è permessa se esiste già un indirizzo PEC/SERCQ configurato per ricevere la notifica.
 
@@ -30,7 +30,7 @@ Nel caso in cui venga inserito un indirizzo non noto a PN, viene inviata una PEC
 
 Al momento dell’inserimento del nuovo recapito legale, l’utente deve dare consenso esplicito all’utilizzo di tale domicilio come primo recapito legale di invio durante il processo di notificazione.
 
-## Aggiunta di un recapito digitale "Email o SMS"
+## Come aggiungere un recapito digitale "Email o SMS"
 
 L’operazione non è permessa se esiste già un altro indirizzo Email e/o numero di cellulare italiano configurati per ricevere i messaggi di cortesia.
 
@@ -40,7 +40,7 @@ Nel caso in cui venga inserito un indirizzo email non noto a PN, viene inviata u
 
 Nel caso in cui venga inserito un numero di cellulare non noto a PN, viene inviato un SMS con un codice che l’utente deve inserire per confermare la correttezza del numero inserito. Solo a seguito della conferma il recapito digitale è effettivamente utilizzato nel processo di notificazione.
 
-## Aggiunta di Altri recapiti
+## Come aggiungere altri recapiti
 
 L’operazione non è permessa se non è presente un indirizzo PEC/SERCQ nel box _**Recapito legale**_ e/o uno Email/cellulare nel box _**Email o SMS.**_
 
@@ -50,28 +50,26 @@ L’utente può indicare ulteriori indirizzi PEC/SERCQ, Email o numero di cellul
 
 Selezionando un recapito legale PEC/SERCQ esistente e premendo il bottone _**Elimina**_, PN chiede conferma dell’operazione e quindi rimuove il recapito legale dal sistema.
 
-## Cancellazione di un recapito legale
+## Come cancellare un recapito legale
 
 Se l’utente alla voce _**Altri recapiti**_ ha indicato altri indirizzi PEC/SERCQ associati a specifici Enti, PN avvisa che per procedere occorre prima eliminare questi ultimi.
 
 <figure><img src="../../.gitbook/assets/image (174).png" alt=""><figcaption></figcaption></figure>
 
-## Cancellazione di un recapito digitale “Email o SMS”
+## Come cancellare un recapito digitale “Email o SMS”
 
 Selezionando un Email e/o numero di cellulare esistente e premendo il bottone _**Elimina**_, PN chiede conferma dell’operazione e quindi rimuove il recapito digitale dal sistema.
 
-
-
-## Modifica di un recapito legale
+## Come modificare un recapito legale
 
 Selezionando il bottone _**Modifica**_ PN mostra le informazioni relative al recapito legale e permette di salvare o eliminare le modifiche.
 
 <figure><img src="../../.gitbook/assets/image (143).png" alt=""><figcaption></figcaption></figure>
 
-## Modifica di un recapito digitale "Email o SMS"
+## Come modificare un recapito digitale "Email o SMS"
 
 Selezionando il bottone _**Modifica**_ PN mostra le informazioni relative al recapito digitale e permette di salvare o eliminare le modifiche.
 
-## Modifica di un Altro recapito
+## Come modificare un altro recapito
 
 <figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>

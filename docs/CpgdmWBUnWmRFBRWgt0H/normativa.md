@@ -1,4 +1,6 @@
-# Chi può aderire a SEND
+# Normativa
+
+## Chi può aderire&#x20;
 
 A SEND - Servizio Notifiche Digitali (anche nota come Piattaforma Notifiche Digitali di cui all'art. 26 del decreto-legge 76/2020 s.m.i.) possono aderire le amministrazioni di cui all’art. 26 del D.L. 76/2020, comma 2, lettera c) ovvero:&#x20;
 

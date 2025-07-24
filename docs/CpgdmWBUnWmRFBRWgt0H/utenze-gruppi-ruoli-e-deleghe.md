@@ -25,7 +25,7 @@ Le persone giuridiche sono entità che possono avere una struttura organizzativa
 
 Utenti non associati a gruppi possono essere gestiti solamente da utenti amministratori.
 
-Il legale rappresentante può inizialmente assegnare il ruolo di amministratore ad altri utenti che potranno quindi creare i gruppi rappresentanti le entità interne alla persona giuridica ed assegnare amministratori di tali gruppi. Questi potranno quindi estendere l’accesso al personale tecnico.
+Il legale rappresentante può inizialmente assegnare il ruolo di amministratore ad altri utenti che potranno creare i gruppi rappresentanti le entità interne alla persona giuridica ed assegnare amministratori di tali gruppi. Questi potranno estendere l’accesso al personale tecnico.
 
 Selezionando la voce “Ruoli”, l’utente amministratore visualizza la lista di tutti gli utenti configurati per la persona giuridica.
 

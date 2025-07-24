@@ -1,4 +1,4 @@
-# Test di integrazione
+# Come seguire i test di integrazione
 
 Scopo di questo documento è di raccogliere i test che una PA mittente, o il suo partner tecnologico, devono effettuare e documentare per validare l’avvenuta integrazione con Piattaforma Notifiche (PN)
 
@@ -26,9 +26,9 @@ Si evidenzia che sono presenti le istruzioni su come salvare e nominare il repor
 
 #### Validazione dei test lato Enti nei casi di utilizzo soluzione SaaS
 
-Nel caso specifico dei Partner che hanno sviluppato una soluzione SaaS, rimane comunque fondamentale completare il processo di convalida del report che è collegato all’asseveramento; pertanto è possibile procedere nel seguente modo:
+Nel caso specifico dei Partner che hanno sviluppato una soluzione SaaS, rimane comunque fondamentale completare il processo di convalida del report che è collegato all’asseveramento; pertanto, è possibile procedere nel seguente modo:
 
-_Inviare una PEC all'indirizzo_ [_pagopa@pec.governo.it_](mailto:pagopa@pec.governo.it) _che abbia nell’oggetto un riferimento al Partner Coinvolto ed al fatto che si stia utilizzando la soluzione SaaS e che contenenga i seguenti allegati:_
+_Inviare una PEC all'indirizzo_ [_pagopa@pec.governo.it_](mailto:pagopa@pec.governo.it) _che abbia nell’oggetto un riferimento al Partner Coinvolto ed al fatto che si stia utilizzando la soluzione SaaS e che contenga i seguenti allegati:_
 
 1. _Descrizione della Soluzione di intermediazione in SaaS di cui gli Enti associati al Partner si avvalgono._
 2. _Elenco degli Enti contrattualizzati._
@@ -46,7 +46,7 @@ _4.      Una copia del report ottenuta dal Validator tool utilizzando la Soluzio
 * La PA definisce la denominazione del destinatario (es. Nome e Cognome) ed il suo Codice Fiscale&#x20;
 * La PA definisce il domicilio digitale speciale del destinatario
 * La PA definisce l’indirizzo fisico del destinatario
-* La PA definisce la modalità dell’invio cartaceo
+* La PA definisce la modalità̀ dell’invio cartaceo
 * La PA definisce i dati relativi all’avviso pagoPA (Codice Fiscale ente creditore e codice avviso)
 * La PA precarica i documenti PDF utilizzando le API fornite da PN
 * La PA invoca l’API di creazione di una notifica
@@ -60,7 +60,7 @@ Evidenze da produrre: Report del Validator tool; in alternativa, i documenti e m
 * La PA definisce la denominazione del destinatario (es. Nome e Cognome) ed il suo Codice Fiscale&#x20;
 * La PA definisce il domicilio digitale speciale del destinatario
 * La PA definisce l’indirizzo fisico del destinatario
-* La PA definisce la modalità dell’invio cartaceo
+* La PA definisce la modalità̀ dell’invio cartaceo
 * La PA precarica i documenti PDF utilizzando le API fornite da PN
 * La PA invoca l’API di creazione di una notifica
 * La PA riceve l’esito della creazione, in caso di successo memorizza la requestID
@@ -94,6 +94,6 @@ Evidenza da produrre: Report del Validator tool; in alternativa, IUN, timestamp 
 
 _**Scenario 2**_: La PA mittente ha creato una notifica di test nella quale l’ente creditore per il pagamento non coincide con la PA mittente (ad esempio nel caso esista un Ente Riscossore diverso dall’Ente mittente della notifica). La Pa mittente del processo d’integrazione verso PN ha provveduto ad includere l’ente creditore responsabile per l’attualizzazione della posizione debitoria. Si procede all’accesso alla notifica attraverso il portale Destinatario oppure si effettua il pagamento di uno degli IUV associati alla notifica
 
-* L’ente creditore riceve la richiesta di validazione della posizione debitoria e si coordina con la PA mittente per effettuare l’attualizzazione attraverso l’invocazione dell' API NotificationPrice, che restituisce la data di perfezionamento ed il costo della notifica
+* L’ente creditore riceve la richiesta di validazione della posizione debitoria e si coordina con la PA mittente per effettuare l’attualizzazione attraverso l’invocazione dell'API NotificationPrice, che restituisce la data di perfezionamento ed il costo della notifica
 
 Evidenza da produrre: Report del Validator tool; in alternativa, IUN, timestamp della richiesta di validazione, timestamp del perfezionamento, costo della notifica restituito dall’API

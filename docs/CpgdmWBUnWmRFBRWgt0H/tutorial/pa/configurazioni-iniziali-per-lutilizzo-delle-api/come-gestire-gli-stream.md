@@ -1,4 +1,4 @@
-# Creazione e gestione degli stream con il comando curl e Postman
+# Come gestire gli stream
 
 ## Inserimento e creazione stream con il comando curl
 
@@ -6,7 +6,7 @@
 **NOTA:** i comandi che verranno descritti di seguito dovranno essere lanciati con un terminal SSH, su OS Windows si può utilizzare ad esempio git bash.
 {% endhint %}
 
-### PASSO 1 - Creazione e configurazione dello stream
+### Step 1 - Creazione e configurazione dello stream
 
 Creare lo stream andando a configurare l'**eventType** con uno dei seguenti:
 
@@ -73,10 +73,10 @@ Nella response di questo servizio, si otterrà il seguente payload:
 * **\<version>:** versione dello stream creato
 
 {% hint style="info" %}
-**NOTA:** Una volta creata la stream verranno registrati tutti gli eventi emessi dalle notifiche a seguito della loro creazione, di conseguenza si consiglia di creare le stream prima di inserire le notifiche.
+**NOTA:** Una volta creato lo stream verranno registrati tutti gli eventi emessi dalle notifiche a seguito della loro creazione, di conseguenza si consiglia di creare gli stream prima di inserire le notifiche.
 {% endhint %}
 
-### PASSO 2 - Prima interrogazione dello stream
+### Step 2 - Prima interrogazione dello stream
 
 La prima interrogazione dello stream permetterà di ricevere i primi 50 eventi registrati dallo stream. È importante lanciare la curl con il **--verbose** che permetterà di visualizzare nell'header della response il valore "_retry-after_" utile per la prossima chiamata.\
 Lanciare il seguente comando:
@@ -141,7 +141,7 @@ Gli eventi ottenuti dovranno essere memorizzati dal client poichè nelle success
 È quindi fondamentale rispettare la logica che viene rappresentata dal campo  `retry-after` il quale fornisce l'indicazione al client su quando richiamare il servizio; pertanto, si **sconsiglia** di creare dei processi di batch che effettuino la chiamata in un momento fisso e/o ripetuto nei giorni.
 {% endhint %}
 
-### PASSO 3 - Interrogazione dello stream successive alla prima
+### Step 3 - Interrogazione dello stream successive alla prima
 
 Dalle interrogazioni successive alla prima dello stream, si otterranno i 50 eventi successivi a quello del lastEventId (l'eventId dell'ultimo evento ottenuto nelle precedenti chiamate).
 
@@ -183,7 +183,7 @@ Gli eventi ottenuti dovranno essere memorizzati dal client poichè nelle success
 **NOTA:** prima di procedere con l'inserimento e la creazione dello stream utilizzando Postman, assicurarsi di aver correttamente importato le definizioni delle API su Postman ed aver configurato l'ambiente di test seguendo i passaggi descritti al seguente link:[Generazione client e definizioni delle API](https://app.gitbook.com/o/KXYtsf32WSKm6ga638R3/s/22sG8XdGZ5NgDBIoHgF2/~/diff/~/revisions/MgTfVBOxi9cHR0Qsd7DZ/readme/generazione-client-e-definizioni-delle-api)
 {% endhint %}
 
-### PASSO 1 -  Creazione e configurazione dello stream <a href="#id-1-creazione-e-configurazione-dello-stream" id="id-1-creazione-e-configurazione-dello-stream"></a>
+### Step 1 -  Creazione e configurazione dello stream <a href="#id-1-creazione-e-configurazione-dello-stream" id="id-1-creazione-e-configurazione-dello-stream"></a>
 
 Creare lo stream andando a configurare l'**eventType** con uno dei seguenti:
 
@@ -216,7 +216,7 @@ Nella response di questo servizio, si otterrà il seguente payload:
 **NOTA:** Una volta creata la stream verranno registrati tutti gli eventi emessi dalle notifiche a seguito della loro creazione, di conseguenza si consiglia di creare le stream prima di inserire le notifiche.
 {% endhint %}
 
-### PASSO 2 - Prima interrogazione dello stream <a href="#id-2-prima-interrogazione-dello-stream" id="id-2-prima-interrogazione-dello-stream"></a>
+### Step 2 - Prima interrogazione dello stream <a href="#id-2-prima-interrogazione-dello-stream" id="id-2-prima-interrogazione-dello-stream"></a>
 
 La prima interrogazione dello stream permetterà di ricevere i primi 50 eventi registrati dallo stream. Aprire la scheda **Leggi progressi notifiche** e riprodurre questa configurazione:
 
@@ -246,7 +246,7 @@ NOTA: nell'header della response ottenuta fare attenzione al campo retry-after c
 
 
 
-### PASSO 3 - Interrogazione dello stream successive alla prima
+### Step 3 - Interrogazione dello stream successive alla prima
 
 Dalle interrogazioni successive alla prima dello stream, si otterranno i 50 eventi successivi a quello del lastEventId (l'eventId dell'ultimo evento ottenuto nelle precedenti chiamate).\
 Aprire la scheda **Leggi progressi notifiche** e riprodurre questa configurazione:

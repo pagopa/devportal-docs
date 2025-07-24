@@ -1,4 +1,4 @@
-# Inserimento delle notifiche con il comando curl e con Postman
+# Come inviare il payload della notifica alla Piattaforma
 
 ## Inserimento Notifica con il comando curl
 
@@ -6,7 +6,7 @@
 **NOTA:** i comandi che verranno descritti di seguito dovranno essere lanciati con un terminal SSH, su OS Windows si può utilizzare ad esempio git bash.
 {% endhint %}
 
-### PASSO 1 - Generare il checksum sha256, codificato in base 64, del contenuto binario dei pdf di Notifica.pdf e di Pagamento.pdf che verranno caricati su PND
+### Step 1 - Generare il checksum sha256 per Notifica.pdf e Pagamento.pdf&#x20;
 
 Entrare nella cartella che che contiene i file Notifica.pdf e Pagamento.pdf e lanciare i seguenti comandi utilizzando un terminal ssh (ad es. git bash):
 
@@ -28,7 +28,7 @@ L'output ottenuto per ogni file dovrà essere memorizzato per i futuri utilizzi
 **NOTA:** i file Notifica.pdf e Pagamento.pdf dovranno essere sostituiti con i file corrispondenti ai pdf che si vuole caricare su Piattaforma Notifiche
 {% endhint %}
 
-### PASSO 2 - Eseguire l'operazione di pre-caricamento dei file
+### Step 2 - Eseguire l'operazione di pre-caricamento dei file
 
 Lanciare il seguente comando:
 
@@ -89,7 +89,7 @@ I valori ottenuti nella response dovranno essere memorizzati per i futuri utiliz
 * **\<url1>** e **\<url2>:** sono le url da utilizzare nella chiamata di upload dei documenti
 * **\<key2>** e **\<key2>:** sono le keys da utilizzare in fase di inserimento notifica, rispettivamente per i 2 file
 
-### PASSO 3 - Effettuare l'upload dei documenti&#x20;
+### Step 3 - Effettuare l'upload dei documenti
 
 Effettuare l'operazione di upload verso il _safeStorage_ per entrambi i documenti di interesse effettuando le seguenti chiamate:
 
@@ -127,7 +127,7 @@ E' importante lanciare la curl con il --verbose che permetterà di visualizzare 
 Assicurarsi di **NON** inserire in questa chiamata l'Autorization Header `"Authorization: Bearer <PDNDVoucher>`con il Vocuher.
 {% endhint %}
 
-### PASSO 4 - Effettuare l'inserimento della notifica
+### Step 4 - Effettuare l'inserimento della notifica
 
 A questo punto è possibile effettuare l'inserimento della Notifica con la seguente chiamata:
 
@@ -179,7 +179,7 @@ Prima di procedere con l'inserimento Notifica con Postman, assicurarsi di aver c
 [Broken link](broken-reference)
 {% endcontent-ref %}
 
-### PASSO 1 - Generare il checksum sha256, codificato in base 64, del contenuto binario dei pdf di Notifica.pdf e di Pagamento.pdf che verranno caricati su PND
+### Step 1 - Generare il checksum sha256 per Notifica.pdf e di Pagamento.pdf&#x20;
 
 Entrare nella cartella che che contiene i file Notifica.pdf e Pagamento.pdf e lanciare i seguenti comandi utilizzando un terminal ssh (ad es. git bash):
 
@@ -201,7 +201,7 @@ L'output ottenuto per ogni file dovrà essere memorizzato per i futuri utilizzi.
 **NOTA:** i file Notifica.pdf e Pagamento.pdf dovranno essere sostituiti con i file corrispondenti ai pdf che si vuole caricare su Piattaforma Notifiche
 {% endhint %}
 
-### PASSO 2 - Eseguire l'operazione di pre-caricamento dei file
+### Step 2 - Eseguire l'operazione di pre-caricamento dei file
 
 Aprire la scheda **richiesta di pre-caricamento allegati** ed inserire nel body il seguente payload:\
 
@@ -226,7 +226,7 @@ I valori ottenuti nella response dovranno essere memorizzati per i futuri utiliz
 * **\<url1>** e **\<url2>:** sono le url da utilizzare nella chiamata di upload dei documenti
 * **\<key2>** e **\<key2>:** sono le keys da utilizzare in fase di inserimento notifica, rispettivamente per i 2 file
 
-### PASSO 3 - Effettuare l'upload dei documenti&#x20;
+### Step 3 - Effettuare l'upload dei documenti&#x20;
 
 Ora bisogna effettuare l'operazione di upload verso il _safeStorage_ per entrambi i documenti. Cliccando sulle url ottenute, si aprirà una scheda Postman già parzialmente configurata con l'url di interesse. Sarà ora necessario compilare gli headers nella sezione "Headers" inserendo i parametri ottenuti nella precedente chiamata:
 
@@ -244,7 +244,7 @@ Dopo aver lanciato la richiesta per entrambi ed aver ottenuto esito positivo, bi
 
 <figure><img src="../../../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
 
-### PASSO 4 - Effettuare l'inserimento della notifica
+### Step 4 - Effettuare l'inserimento della notifica
 
 A questo punto è possibile effettuare l'inserimento della Notifica nella scheda **Richiesta invio notifica**, inserendo correttamente il body della request:
 

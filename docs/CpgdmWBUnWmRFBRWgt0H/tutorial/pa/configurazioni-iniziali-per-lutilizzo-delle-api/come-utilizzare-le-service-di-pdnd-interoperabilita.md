@@ -1,10 +1,10 @@
-# Integrazione con  PDND Interoperabilità
+# Come utilizzare l'e-service di PDND Interoperabilità
 
 ## Configurare l'accesso
 
 Per accedere alla piattaforma PDND Interoperablità in qualità di tecnico incaricato, è necessario seguire i seguenti passaggi (da eseguire su [selfcare di **produzione**](https://urldefense.com/v3/__https:/selfcare.pagopa.it/__;!!EJ3n55FBLexp1rhr!_FsIroOd0kHtR7U6OVuZgB3Bpwp8zUWFauQWCl1uaUusbiib07erhRMlrsSoc9JhSCLdG1mVZSyXtYVckqbDFP5KMpqT4ObLPiw$) e **non** di [**test**](https://uat.selfcare.pagopa.it/)).
 
-### **PASSO 1**&#x20;
+### **Step 1**&#x20;
 
 &#x20;Chiedere all'Ente di effettuare l'accesso su[ selfcare di **produzione**](https://urldefense.com/v3/__https:/selfcare.pagopa.it/__;!!EJ3n55FBLexp1rhr!_FsIroOd0kHtR7U6OVuZgB3Bpwp8zUWFauQWCl1uaUusbiib07erhRMlrsSoc9JhSCLdG1mVZSyXtYVckqbDFP5KMpqT4ObLPiw$) e creare l'utente del tecnico incaricato tramite la funzione _**Crea Utente**_, associando ad esso il prodotto "**Interoperabilità Collaudo**" ed il ruolo "**Amministratore**" come in foto:
 
@@ -15,11 +15,11 @@ Per accedere alla piattaforma PDND Interoperablità in qualità di tecnico incar
 Per la registrazione dell'utente incaricato sono necessari i dati nome, cognome, codice fiscale ed email.
 {% endhint %}
 
-### **PASSO 2**&#x20;
+### **Step 2**&#x20;
 
 L'utente del tecnico incaricato dovrà effettuare l'accesso su [selfcare di produzione](https://urldefense.com/v3/__https:/selfcare.pagopa.it/__;!!EJ3n55FBLexp1rhr!_FsIroOd0kHtR7U6OVuZgB3Bpwp8zUWFauQWCl1uaUusbiib07erhRMlrsSoc9JhSCLdG1mVZSyXtYVckqbDFP5KMpqT4ObLPiw$) utilizzando le proprie credenziali SPID associate dall'ente di riferimento al punto precedente.&#x20;
 
-### **PASSO 3**&#x20;
+### **Step 3**&#x20;
 
 Una volta aver fatto il login con le proprie credenziali SPID, il tecnico incaricato dovrà selezionare l'Ente di riferimento, poi selezionare la card "**Interoperabilità**":\
 ![](<../../../.gitbook/assets/image (3) (1).png>)
@@ -40,7 +40,7 @@ Di seguito vengono elencati i passaggi che permettono si generare il Voucher nec
 I seguenti passaggi sono anche documentati nei seguenti videotutorial:\
 [https://docs.pagopa.it/interoperabilita-1/videotutorial](https://docs.pagopa.it/interoperabilita-1/videotutorial)
 
-### Effettuare il login
+### Step 1 - Effettuare il login
 
 È possibile accedere ad Interoperabilità da [qui](https://selfcare.pagopa.it/auth/login), inserendo le credenziali SPID/CIE dell'Amministratore. Una volta entrati, apparirà l'elenco degli Enti associati e sarà necessario selezionare quello di interesse ed accedere, poi selezionare la card:\
 ![](<../../../.gitbook/assets/image (3) (1).png>)
@@ -49,7 +49,7 @@ e selezionare "Collaudo"
 
 ![](<../../../.gitbook/assets/image (4) (1).png>)
 
-### Creare una richiesta di fruizione per l'e-service di SEND - UAT
+### Step 2 - Creare una richiesta di fruizione per l'e-service di SEND - UAT
 
 Per inviare una richiesta di fruizione bisogna prima cercare l'e-service andando su _**Fruizione > Catalogo e-service:**_
 
@@ -71,7 +71,7 @@ Una volta che la richiesta di fruizione è stata inviata, questa verrà esaminat
 
 Maggiori dettagli sulla richiesta di fruizione sono [qui](https://app.gitbook.com/s/zcLztiq5qDSVw9rRjW7p/che-cosa-puo-fare-un-servizio-su-io/cosa-fare-in-caso-di-errori-nellinvio/messaggio-di-test-inviato-ai-cittadini) e il video-tutorial è [qui](https://www.youtube.com/watch?v=2O81jdLHpgQ\&list=PLZcD-ZoVxFzi1f2-taSdg7a3d2UQse3_Q\&index=8).
 
-### Creare una finalità per l'e-service di SEND - UAT
+### Step 3 -Creare una finalità per l'e-service di SEND - UAT
 
 A seguito dell'approvazione della richiesta di fruizione per l'e-service di SEND - UAT è necessario creare una finalità andando su _**Fruizione > Le tue finalità**_ e cliccando _**Aggiungi**._
 
@@ -88,7 +88,7 @@ nella pagina successive bisogna compilare la sezione di analisi del rischio ed i
 
 Maggiori dettagli sulla creazione di finalità sono [qui](https://app.gitbook.com/s/zN9ui0XIE88QquJhyppA/) e il video-tutorial è [qui](https://www.youtube.com/watch?v=bCHRgeBJucI\&list=PLZcD-ZoVxFzi1f2-taSdg7a3d2UQse3_Q\&index=9).
 
-### Associare un client ad una finalità
+### Step 4 - Associare un client ad una finalità
 
 Il client è un contenitore di materiale crittografico nel quale vengono inseriti un numero discrezionale di operatori di sicurezza, che sono autorizzati a caricare la chiave pubblica del materiale crittografico in loro possesso. \
 Per creare un nuovo client bisogna andare nella sezione _Fruizione > I tuoi client e-service_ e cliccando su "Aggiungi"
@@ -111,7 +111,7 @@ I video-tutorial sono qui:\
 [https://www.youtube.com/watch?v=w3ynRRMyrxg\&list=PLZcD-ZoVxFzi1f2-taSdg7a3d2UQse3\_Q\&index=10](https://www.youtube.com/watch?v=w3ynRRMyrxg\&list=PLZcD-ZoVxFzi1f2-taSdg7a3d2UQse3_Q\&index=10)\
 [https://www.youtube.com/watch?v=w3ynRRMyrxg\&list=PLZcD-ZoVxFzi1f2-taSdg7a3d2UQse3\_Q\&index=10](https://www.youtube.com/watch?v=w3ynRRMyrxg\&list=PLZcD-ZoVxFzi1f2-taSdg7a3d2UQse3_Q\&index=10)
 
-### Caricare una chiave pubblica
+### Step 5 - Caricare una chiave pubblica
 
 prima di caricare una chiave pubblica, entrare nella sezione _**Fruizione > I tuoi client**_ selezionare "Ispeziona" sul client di riferimento ed assicurarsi che sia presente "_IL TOKEN PUò ESSERE STACCATO: SI_" come segue:
 
@@ -136,11 +136,11 @@ openssl pkcs8 -topk8 -inform PEM -outform PEM -nocrypt -in <nomeChiave>.rsa.pem 
 
 Sostituendo \<nomeChiave> con il nome che si vuole dare al file contenente la chiave.
 
-Il comando genererà una coppia di chiave pubblica e privata, ed un certificato che in questo caso non è necessario utilizzare. La chiave pubblica appena ottenuta, deve essere copiata nel riquadro "Chiave pubblica" del pop up del client; quella privata rimarrà in mano all'aderente, che la manterrà al sicuro e la userà per firmare la richiesta per ottenere un voucher dal server autorizzativo di PDND Interoperabilità.\
+Il comando genererà una coppia di chiave pubblica e privata, ed un certificato che in questo caso non è necessario utilizzare. La chiave pubblica appena ottenuta deve essere copiata nel riquadro "Chiave pubblica" del pop up del client; quella privata rimarrà in mano all'aderente, che la manterrà al sicuro e la userà per firmare la richiesta per ottenere un voucher dal server autorizzativo di PDND Interoperabilità.\
 il video-tutorial è qui:\
 [https://www.youtube.com/watch?v=q6zuJ2wn8vM\&list=PLZcD-ZoVxFzi1f2-taSdg7a3d2UQse3\_Q\&index=11](https://www.youtube.com/watch?v=q6zuJ2wn8vM\&list=PLZcD-ZoVxFzi1f2-taSdg7a3d2UQse3_Q\&index=11)
 
-### Generare un Voucher
+### Step 6 - Generare un Voucher
 
 A questo punto è necessario generare il Voucher da inserire come Authorization header nelle chiamate verso i servizi B2B di SEND - UAT.
 
@@ -176,10 +176,10 @@ L'**access\_token(PDNDVoucher)** appena ottenuto corrisponde al Voucher che potr
 `"Authorization: Bearer <PDNDVoucher>"`\
 il video-tutorial è [qui](https://www.youtube.com/watch?v=fb-CDltaeqw\&list=PLZcD-ZoVxFzi1f2-taSdg7a3d2UQse3_Q\&index=12)
 
-### Chiamare i servizi SEND - UAT
+### Step 7 - Chiamare i servizi SEND - UAT
 
 Per chiamare i servizi PND sarà necessario utilizzare la [baseUrl dell'Ambiente UAT](https://api.uat.notifichedigitali.it/)\
-Inoltre sarà necessario generare delle nuove APIKey per l'Ambiente UAT effettuando l'accesso da qui: [https://selfcare.uat.notifichedigitali.it/](https://selfcare.uat.notifichedigitali.it/) con le stesse credenziali ottenute in fase di Onboarding, poi selezionare l'Ente di riferimento, cliccare su Piattaforma Notifiche UAT:\
+Inoltre, sarà necessario generare delle nuove APIKey per l'Ambiente UAT effettuando l'accesso da qui: [https://selfcare.uat.notifichedigitali.it/](https://selfcare.uat.notifichedigitali.it/) con le stesse credenziali ottenute in fase di Onboarding, poi selezionare l'Ente di riferimento, cliccare su Piattaforma Notifiche UAT:\
 ![](<../../../.gitbook/assets/image (18).png>)
 
 e generare le APIKey da utilizzare unitamente al Voucher appena creato.

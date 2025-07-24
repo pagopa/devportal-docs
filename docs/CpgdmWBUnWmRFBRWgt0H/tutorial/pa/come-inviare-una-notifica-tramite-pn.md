@@ -1,4 +1,4 @@
-# Processo di notifica tramite PN
+# Come inviare una notifica tramite PN
 
 L’invio manuale di una notifica si effettua premendo il tasto _**Invia una nuova notifica**_ presente nella pagina di accesso _**Notifiche**_.
 
@@ -12,9 +12,11 @@ La pagina _**Invia una nuova notifica**_ prevede cinque sezioni di compilazione:
 * dettagli posizione debitoria
 * allegati
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-03-27 at 10.27.40.png" alt=""><figcaption></figcaption></figure>
 
-## Prima sezione - "Informazioni preliminari"
+
+## Step  1 - Informazioni preliminari
+
+<figure><img src="../../.gitbook/assets/Screenshot 2025-03-27 at 10.27.40.png" alt=""><figcaption></figcaption></figure>
 
 I campi obbligatori sono:&#x20;
 
@@ -42,7 +44,7 @@ Abbandonando la sezione senza aver premuto il tasto _**Continua**_ le informazio
 
 <figure><img src="../../.gitbook/assets/image (31).png" alt=""><figcaption></figcaption></figure>
 
-## Seconda sezione - "Destinatari"
+## Step 2 - Destinatari
 
 Questo modulo prevede i seguenti campi obbligatori per ciascuno dei destinatari previsti: individuazione del soggetto giuridico destinatario (persona fisica/persona giuridica), nome, cognome, codice fiscale (anche per le persone giuridiche), indirizzo fisico del destinatario.&#x20;
 
@@ -58,7 +60,9 @@ Premendo il tasto _**Torna a informazioni preliminari**_ l'operatore sarà ripor
 
 <figure><img src="../../.gitbook/assets/image (32).png" alt=""><figcaption></figcaption></figure>
 
-## Terza Sezione - "Posizione debitoria"
+## Step 3  - Posizione debitoria
+
+<figure><img src="../../.gitbook/assets/image (33).png" alt=""><figcaption></figcaption></figure>
 
 La terza sezione prevede la scelta della posizione debitoria da aggiungere.&#x20;
 
@@ -73,9 +77,9 @@ Nel caso in cui la scelta sia _**Nessun pagamento**_ si procederà direttamente 
 
 Selezionando uno dei pagamenti, si abiliterà il tasto _**Continua**_ e sarà possibile procedere inserendo le informazioni riguardanti quest'ultimo.
 
-<figure><img src="../../.gitbook/assets/image (33).png" alt=""><figcaption></figcaption></figure>
+## Step 4 - Dettaglio posizione debitoria
 
-## Quarta Sezione - "Dettaglio posizione debitoria"
+<figure><img src="../../.gitbook/assets/image (36).png" alt=""><figcaption><p>F24</p></figcaption></figure>
 
 Nella quarta sezione si inseriranno le informazioni relative al pagamento.
 
@@ -101,23 +105,21 @@ Se la notifica prevede più pagamenti, per ognuno di essi le informazioni richie
 
 Compilando correttamente la posizione debitoria si abiliterà il tasto _**Continua**_ e sarà possibile procedere all'ultima sezione.
 
-<figure><img src="../../.gitbook/assets/image (36).png" alt=""><figcaption><p>F24</p></figcaption></figure>
+## Step 5 - Documenti Allegati
 
-## Quinta Sezione - "Documenti Allegati"
+<figure><img src="../../.gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure>
 
 La quinta e ultima sezione prevede il caricamento in allegato di almeno un atto in formato PDF/A e firmato digitalmente dalla PA mittente, eventualmente contenente anche l’avviso di pagamento pagoPA (se non è stato già inserito nella sezione dei pagamenti).
 
 La PA può allegare più atti nel caso in cui essi siano separati su file distinti, per un massimo di 10 allegati per notifica (atto + massimo 10 allegati).
 
-Una volta allegati i file, verranno presentati all’utente le hash SHA-256 dei documenti che verranno inoltrate a PN per verifica (vedi I[l processo di notificazione](../../processi/processo-di-notificazione.md)).
+Una volta allegati i file, verranno presentati all’utente le hash SHA-256 dei documenti che verranno inoltrate a PN per verifica (vedi I[l processo di notificazione](../../funzionamento-generale/processo-di-notificazione.md)).
 
 L’inserimento dei dati richiesti abilita il tasto _**Invia**_ per completare la sessione di creazione della richiesta di notifica.
 
 Abbandonando la sezione senza aver premuto il tasto _**Invia**_ le informazioni fino a quel momento inserite non verranno salvate.
 
 Premendo il tasto _**Torna al dettaglio posizione debitoria**_ l'operatore sarà riportato alla sezione precedente.
-
-<figure><img src="../../.gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure>
 
 La richiesta di notifica viene sottoposta ad un processo di validazione che normalmente richiede qualche minuto al termine del quale, se non sono stati riscontrati errori, SEND visualizzerà la notifica, ed il relativo Identificativo Univoco della Notifica (IUN) nella lista di notifiche inviate visibile nella pagina di accesso _**Notifiche**_. Nel caso in cui la creazione non vada a buon fine, la relativa notifica non sarà presente in elenco.&#x20;
 

@@ -1,4 +1,4 @@
-# Gestione delle API Key
+# Come gestire le API Key
 
 Selezionando la voce _**API Key**_ il referente tecnico gestisce i “secret” che sono utilizzati per permettere alla PA di autenticare le proprie richieste su PN.
 
@@ -22,7 +22,7 @@ A questo proposito si ricorda che al momento della creazione di una notifica il 
 * se l’operatore PA (o l’api-key) sono associati a un gruppo allora il campo gruppo, durante la creazione della notifica, è obbligatorio.
 * se l’operatore PA (o l’api-key) NON sono associati a un gruppo allora il campo gruppo, durante la creazione della notifica, è facoltativo. (Indipendentemente dal fatto che su SelfCare siano censiti gruppi oppure no)
 
-## Visualizzazione API Key
+## Come visualizzare le API Key
 
 La pagina mostra la lista delle API Key già configurate dalla PA e che sono etichettate con gruppi ai quali l’utente appartiene.
 
@@ -43,7 +43,7 @@ Le API Key sono visualizzate in forma tabellare e con le seguenti informazioni:&
 
 
 
-## Rotazione API Key
+## Come ruotare le API Key
 
 Selezionata un’API Key attiva, l’utente la ruota premendo il bottone _**Ruota**_. Questo richiede a PN di generare un nuovo secret.
 

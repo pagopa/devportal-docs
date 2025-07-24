@@ -2,7 +2,7 @@
 
 Una volta identificato il primo use-case da portare su SEND, l’Ente effettua un assessment accurato dello stesso.
 
-Di seguito si illustra un approccio metodologico che l’Ente potrebbe utilizzare per effettuare l’analisi del processo di notificazione attuale.&#x20;
+Di seguito si illustra un approccio metodologico che l’Ente potrebbe utilizzare per effettuare l’analisi del processo di notificazione attuale:
 
 1. Individuare e formalizzare ogni attività del flusso di notificazione AS-IS, censendo tutti i sistemi informativi coinvolti;
 2. Definire ruoli e responsabilità di ciascun attore/ struttura coinvolta nel processo;

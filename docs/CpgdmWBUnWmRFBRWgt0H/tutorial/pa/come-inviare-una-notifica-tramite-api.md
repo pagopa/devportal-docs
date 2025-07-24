@@ -1,4 +1,4 @@
-# Processo di notifica tramite API
+# Come inviare una notifica tramite API
 
 Il processo di notificazione inizia con la PA mittente che richiede a Piattaforma Notifiche (PN) di prendere in carico l’effettuazione di una notifica.
 
@@ -8,7 +8,7 @@ Questa operazione avviene in tre fasi:&#x20;
 * creazione della notifica
 * verifica dei dati forniti
 
-## PASSO 1 - Fase di caricamento documenti
+## Step 1 - Fase di caricamento documenti
 
 Nella prima **fase di caricamento dei documenti** la PA fornisce a PN gli atti da notificare unitamente agli avvisi pagoPA, se previsto il pagamento da parte del destinatario.
 
@@ -30,7 +30,7 @@ Se l'operazione di upload è stata eseguita con successo, si otterrà come rispo
 Nell'header di questa risposta, si otterrà il campo **x-amz-version-id** che dovrà essere utilizzato durante\
 l'inserimento della notifica, nel campo ref.**versionToken** in corrispondenza del documento ad esso associato.
 
-## PASSO 2 - Fase di creazione della notifica
+## Step 2 - Fase di creazione della notifica
 
 Nella **fase di** **creazione della notifica** la PA genera la richiesta di creazione, fornendo per ogni destinatario i seguenti dati (sono indicati con l'asterisco \* quelli obbligatori):
 
@@ -53,7 +53,7 @@ PN ricevute queste informazioni, verifica che siano sintatticamente corrette e c
 La piattaforma permette di inserire molteplici avvisi di pagamento (es. per gestire le rate della TARI), dando la possibilità al destinatario di selezionare l'avviso/i per i quali vuole procedere al pagamento.\
 <mark style="background-color:blue;">Per il caso d'uso relativo alle sanzioni al codice della strada saranno inserite, per ciascun destinatario, le due coppie di Codice Avviso e Codice Fiscale dell’Ente creditore contenti l'avviso che deve essere pagato entro 5 giorni dalla data di perfezionamento della notifica e quello che contiene l'avviso che deve esser pagato passati i 5 giorni e comunque entro i 60 giorni dal perfezionamento. Il destinatario vedrà entrambi i pagamenti disponibili e sceglierà quale pagare</mark>.
 
-## PASSO 3 - Fase di **accettazione richiesta di invio notifica**
+## Step 3 - Fase di **accettazione richiesta di invio notifica**
 
 Nell'ultima **fase di verifica**, PN verifica che lo SHA-256 fornito dalla PA coincida con quello calcolato da PN a partire dai documenti allegati. PN effettua inoltre un'attività di verifica e normalizzazione dell'indirizzo fisico fornito per ciascun destinatario allo scopo di garantire la possibilità di notificare al destinatario in forma cartacea. L'indirizzo originale fornito dalla PA mittente verrà riportato nelle attestazioni opponibili ai terzi mentre l'indirizzo normalizzato verrà utilizzato per l'avvio in postalizzazione. Nel caso in cui l'indirizzo fisico fornito dalla PA mittente non sia postalizzabile, la notifica viene rifiutata. Se le verifiche hanno successo, PN genera lo IUN che viene restituito alla PA mittente unitamente al token generato all’atto di creazione della notifica.&#x20;
 
@@ -63,7 +63,7 @@ I documenti allegati devono essere in formato PDF e conformi a quanto richiesto 
 
 Nel caso in cui la PA mittente non sia in grado di determinare se un Codice Fiscale appartenga ad una persona fisica o ad una persona giuridica, si suggerisce di assumere che il Codice Fiscale appartenga alla persona fisica.
 
-<figure><img src="../../../.gitbook/assets/image (159).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (159).png" alt=""><figcaption></figcaption></figure>
 
 Una volta che una notifica è stata correttamente creata dalla PA mittente, PN genera un documento denominato Avviso di Avvenuta Ricezione (AAR) che contiene le informazioni relative all’esistenza della notifica, il suo IUN e le indicazioni sulle modalità che il destinatario può utilizzare per accedere agli atti notificati e depositati in piattaforma. PN a questo punto verifica se è possibile effettuare la notificazione attraverso canali digitali. Questo è possibile se la PA mittente ha fornito un domicilio digitale (speciale), oppure se esiste negli archivi di PN un domicilio digitale (di piattaforma) collegato al destinatario oppure, infine, se è possibile reperire un domicilio digitale (generale) nei registri pubblici (IniPEC, IPA, INAD). Nel caso in cui i registri pubblici restituiscano più di un domicilio digitale riconducibile al destinatario PN utilizzerà solamente il primo indirizzo restituito.
 

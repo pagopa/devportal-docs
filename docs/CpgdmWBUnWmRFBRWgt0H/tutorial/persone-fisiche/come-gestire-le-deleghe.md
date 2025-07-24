@@ -1,4 +1,4 @@
-# Gestione delle deleghe
+# Come gestire le deleghe
 
 Le persone fisiche possono delegare altre persone fisiche o persone giuridiche ad accedere alle proprie notifiche per proprio conto.
 
@@ -20,7 +20,7 @@ Per tutta la durata di validità di una delega attiva, il delegato potrà accede
 
 Periodicamente PN verifica le deleghe presenti a sistema e rimuove quelle con data di fine validità precedente all’istante corrente.
 
-## Creazione di una delega
+## Come creare una delega
 
 Premendo il tasto _**Aggiungi una delega**_, l’utente crea una nuova delega.
 
@@ -40,7 +40,7 @@ PN genera un codice di accettazione che il delegante deve fornire, con mezzi pro
 
 <figure><img src="../../.gitbook/assets/image (157).png" alt=""><figcaption></figcaption></figure>
 
-## Visualizzazione delle deleghe
+## Come visualizzare le deleghe
 
 L'utente visualizza le deleghe attive o in corso di accettazione selezionando _**Deleghe**_.
 
@@ -64,7 +64,7 @@ Per le deleghe ricevute vengono mostrati:&#x20;
 
 <figure><img src="../../.gitbook/assets/image (139).png" alt=""><figcaption></figcaption></figure>
 
-## Recupero codice di accettazione di una delega
+## Come recuperare il codice di accettazione di una delega
 
 Selezionando una delega creata dall'utente nello stato “in attesa di conferma” e premendo il tasto _**Mostra codice**_, PN visualizza il codice di accettazione richiesto per completare l'accettazione.
 
@@ -72,13 +72,13 @@ Selezionando una delega creata dall'utente nello stato “in attesa di conferma�
 
 <figure><img src="../../.gitbook/assets/image (136).png" alt=""><figcaption></figcaption></figure>
 
-## Cancellazione di una delega
+## Come cancellare una delega
 
 Selezionando una delega creata dall’utente nello stato “in attesa di conferma” o “attiva” e premendo il tasto “Rimuovi”, PN chiede conferma dell’operazione e quindi rimuove la delega dal sistema. Questa funzionalità è offerta nel caso in cui la delega sia stata creata per errore.
 
 <figure><img src="../../.gitbook/assets/image (141).png" alt=""><figcaption></figcaption></figure>
 
-## Accettazione di una delega
+## Come accettare una delega
 
 L’accettazione di una delega da parte del delegato avviene premendo il tasto _**Accetta**_ posto a fianco delle delega che deve essere accettata.
 
@@ -92,13 +92,13 @@ Nel caso in cui il codice sia corretto, la delega transita nello stato “attiva
 
 <figure><img src="../../.gitbook/assets/image (135).png" alt=""><figcaption></figcaption></figure>
 
-## Revoca di una delega
+## Come revocare una delega
 
 Selezionando una delega creata dall’utente nello stato “attiva” e premendo il tasto “Revoca”, PN chiede conferma dell’operazione e quindi cambia lo stato della delega in “revocata”.
 
 <figure><img src="../../.gitbook/assets/image (154).png" alt=""><figcaption></figcaption></figure>
 
-## Rifiuto di una delega
+## Come rifiutare una delega
 
 Selezionando una delega ricevuta dall’utente nello stato “in attesa di conferma” o “attiva” e premendo il tasto _**Rifiuta**_ dal menu, PN chiede conferma dell’operazione e quindi cambia lo stato della delega in “rifiutata”.
 
