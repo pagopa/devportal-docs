@@ -1,15 +1,16 @@
+# API del servizio di attivazione
 
 Queste API sono dedicate alla gestione del ciclo di vita delle attivazioni. Un'attivazione rappresenta il consenso di un utente (Debitore o Payer) a ricevere le richieste di pagamento (SRTP) tramite un determinato Service Provider del Debitore. Le operazioni descritte di seguito permettono di creare, leggere, aggiornare, cancellare e gestire il subentro (takeover) di queste attivazioni.
 
-#### Autenticazione
+## **Autenticazione**
 
 Tutte le chiamate a queste API devono essere autenticate tramite protocollo **OAuth2 (Client Credentials Flow)**. È necessario includere un `AccessToken` valido nell'header `Authorization` di ogni richiesta.
 
------
+***
 
-### Endpoints
+## Endpoints
 
-#### Creare una nuova attivazione
+### **Creare una nuova attivazione**
 
 ```http
 POST /activations
@@ -17,14 +18,13 @@ POST /activations
 
 Questa operazione viene utilizzata dal Service Provider del Debitore per registrare il consenso di un nuovo utente al servizio RTP. Se esiste già un'attivazione per lo stesso utente (identificato dal Codice Fiscale), il servizio risponderà con un errore `409 Conflict`.
 
-**Parametri Header**
+### **Parametri Header**
 
-  * `RequestId` (UUID, obbligatorio): Identificativo univoco della richiesta.
+* `RequestId` (UUID, obbligatorio): Identificativo univoco della richiesta.
 
-**Corpo della Richiesta**
-Il corpo della richiesta deve contenere un oggetto `ActivationReq`.
+**Corpo della Richiesta** Il corpo della richiesta deve contenere un oggetto `ActivationReq`.
 
-*Esempio di payload:*
+_Esempio di payload:_
 
 ```json
 {
@@ -37,10 +37,10 @@ Il corpo della richiesta deve contenere un oggetto `ActivationReq`.
 
 **Risposte**
 
-  * **`201 Created`**: L'attivazione è stata registrata con successo. L'header `Location` della risposta conterrà l'URL della risorsa appena creata.
-  * **`409 Conflict`**: Esiste già un'attivazione per l'utente indicato.
+* **`201 Created`**: L'attivazione è stata registrata con successo. L'header `Location` della risposta conterrà l'URL della risorsa appena creata.
+* **`409 Conflict`**: Esiste già un'attivazione per l'utente indicato.
 
-#### Ottenere un elenco di attivazioni
+**Ottenere un elenco di attivazioni**
 
 ```http
 GET /activations
@@ -50,14 +50,14 @@ Restituisce un elenco paginato di tutte le attivazioni associate al Service Prov
 
 **Parametri Query**
 
-  * `page` (integer, obbligatorio): Numero della pagina richiesta.
-  * `size` (integer, obbligatorio): Dimensione della pagina (massimo 128).
+* `page` (integer, obbligatorio): Numero della pagina richiesta.
+* `size` (integer, obbligatorio): Dimensione della pagina (massimo 128).
 
 **Risposte**
 
-  * **`200 OK`**: La richiesta è andata a buon fine. Il corpo della risposta conterrà un oggetto `PageOfActivations` con la lista delle attivazioni e i metadati di paginazione.
+* **`200 OK`**: La richiesta è andata a buon fine. Il corpo della risposta conterrà un oggetto `PageOfActivations` con la lista delle attivazioni e i metadati di paginazione.
 
-#### Ottenere i dettagli di una singola attivazione
+**Ottenere i dettagli di una singola attivazione**
 
 ```http
 GET /activations/{activationId}
@@ -67,14 +67,14 @@ Recupera una specifica attivazione tramite il suo ID.
 
 **Parametri Path**
 
-  * `activationId` (UUID, obbligatorio): L'ID univoco dell'attivazione.
+* `activationId` (UUID, obbligatorio): L'ID univoco dell'attivazione.
 
 **Risposte**
 
-  * **`200 OK`**: La richiesta è andata a buon fine. Il corpo della risposta conterrà un oggetto `Activation` con i dettagli della risorsa.
-  * **`404 Not Found`**: L'attivazione con l'ID specificato non esiste o non è associata al Service Provider chiamante.
+* **`200 OK`**: La richiesta è andata a buon fine. Il corpo della risposta conterrà un oggetto `Activation` con i dettagli della risorsa.
+* **`404 Not Found`**: L'attivazione con l'ID specificato non esiste o non è associata al Service Provider chiamante.
 
-#### Cancellare un'attivazione
+**Cancellare un'attivazione**
 
 ```http
 DELETE /activations/{activationId}
@@ -84,14 +84,14 @@ Elimina un'attivazione esistente, revocando di fatto il consenso dell'utente a r
 
 **Parametri Path**
 
-  * `activationId` (UUID, obbligatorio): L'ID univoco dell'attivazione da cancellare.
+* `activationId` (UUID, obbligatorio): L'ID univoco dell'attivazione da cancellare.
 
 **Risposte**
 
-  * **`204 No Content`**: L'attivazione è stata cancellata con successo.
-  * **`404 Not Found`**: L'attivazione con l'ID specificato non esiste o non è associata al Service Provider chiamante.
+* **`204 No Content`**: L'attivazione è stata cancellata con successo.
+* **`404 Not Found`**: L'attivazione con l'ID specificato non esiste o non è associata al Service Provider chiamante.
 
-#### Gestire il subentro (Takeover) di un'attivazione
+**Gestire il subentro (Takeover) di un'attivazione**
 
 ```http
 PATCH /activations/{activationId}
@@ -101,12 +101,11 @@ Questa operazione permette a un nuovo Service Provider del Debitore di "prendere
 
 **Parametri Path**
 
-  * `activationId` (UUID, obbligatorio): L'ID dell'attivazione su cui effettuare il subentro.
+* `activationId` (UUID, obbligatorio): L'ID dell'attivazione su cui effettuare il subentro.
 
-**Corpo della Richiesta**
-Il corpo della richiesta deve contenere un oggetto `TakeoverActivationReq` con l'identificativo del nuovo Service Provider.
+**Corpo della Richiesta** Il corpo della richiesta deve contenere un oggetto `TakeoverActivationReq` con l'identificativo del nuovo Service Provider.
 
-*Esempio di payload:*
+_Esempio di payload:_
 
 ```json
 {
@@ -116,9 +115,9 @@ Il corpo della richiesta deve contenere un oggetto `TakeoverActivationReq` con l
 
 **Risposte**
 
-  * **`204 No Content`**: Il subentro è stato effettuato con successo.
+* **`204 No Content`**: Il subentro è stato effettuato con successo.
 
-#### Trovare un'attivazione tramite Codice Fiscale (Discovery)
+**Trovare un'attivazione tramite Codice Fiscale (Discovery)**
 
 ```http
 GET /activations/payer
@@ -128,9 +127,9 @@ Permette di trovare un'attivazione esistente tramite il Codice Fiscale del pagat
 
 **Parametri Header**
 
-  * `PayerId` (string, obbligatorio): Il Codice Fiscale dell'utente da cercare.
+* `PayerId` (string, obbligatorio): Il Codice Fiscale dell'utente da cercare.
 
 **Risposte**
 
-  * **`200 OK`**: È stata trovata un'attivazione per l'utente. Il corpo della risposta conterrà un oggetto `Activation`, il cui campo `payer.rtpSpId` identifica il Service Provider del Debitore a cui inviare le SRTP.
-  * **`404 Not Found`**: L'utente non ha attivazioni valide per il servizio RTP.
+* **`200 OK`**: È stata trovata un'attivazione per l'utente. Il corpo della risposta conterrà un oggetto `Activation`, il cui campo `payer.rtpSpId` identifica il Service Provider del Debitore a cui inviare le SRTP.
+* **`404 Not Found`**: L'utente non ha attivazioni valide per il servizio RTP.
