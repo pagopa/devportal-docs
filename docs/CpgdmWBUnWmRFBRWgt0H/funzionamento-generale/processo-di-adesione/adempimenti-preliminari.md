@@ -1,6 +1,6 @@
 # Adempimenti preliminari
 
-Preliminarmente agli adempimenti e all’avvio delle attività di onboarding, è necessaria una verifica che il soggetto sia in perimetro SEND, nella sezione [Chi può aderire a SEND](../../normativa.md).&#x20;
+Preliminarmente agli adempimenti e all’avvio delle attività di onboarding, è necessaria una verifica che il soggetto sia in perimetro SEND, nella sezione [Chi può aderire a SEND](../../target-del-prodotto.md).&#x20;
 
 Se il soggetto è anche in perimetro PDND Interoperabilità (art. 2 comma 2 CAD), si veda il successivo paragrafo “Soggetti in perimetro PDND Interoperabilità”.
 

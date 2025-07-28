@@ -192,7 +192,7 @@ Creare lo stream andando a configurare l'**eventType** con uno dei seguenti:
 
 Nel campo **groups** dovranno essere inseriti uno o più gruppi tramite il l'id del gruppo, in modo da realizzare una segregazione tra gli eventi delle notifiche che appartengono solo ai gruppi specificati.All'interno del **filterValues** è possibile inserire un array di eventi di tipo **STATUS/TIMELINE** che verranno utilizzati per filtrare e registrare nello stream solo questi eventi; se invece si inserisce un array con il valore `DEFAULT`, vanno riportati gli eventi che hanno ripercussione sul cambiamento di stato del workflow o che riportano dati di interesse per il mittente. Qui è possibile vedere quali eventi verranno restituiti: [Stream di timeline 2.4](https://app.gitbook.com/o/KXYtsf32WSKm6ga638R3/s/22sG8XdGZ5NgDBIoHgF2/~/diff/~/revisions/MgTfVBOxi9cHR0Qsd7DZ/readme/creazione-e-gestione-degli-stream/stream-di-timeline).Aprire la scheda **Crea nuovo stream di eventi** ed inserire nel body il seguente payload:
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 Sostituire i seguenti:
 
@@ -207,7 +207,7 @@ Sostituire i seguenti:
 
 Nella response di questo servizio, si otterrà il seguente payload:
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 * **\<streamId>:** id dello stream che viene autogenerato dal servizio
 * **\<activationDate>:** data di attivazione dello stream autogenerata dal servizio
@@ -220,7 +220,7 @@ Nella response di questo servizio, si otterrà il seguente payload:
 
 La prima interrogazione dello stream permetterà di ricevere i primi 50 eventi registrati dallo stream. Aprire la scheda **Leggi progressi notifiche** e riprodurre questa configurazione:
 
-<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 Sostituire i seguenti:
 
@@ -229,11 +229,11 @@ Sostituire i seguenti:
 
 Nella response di questo servizio, si otterrà il seguente payload che rappresenta tutti gli eventi:
 
-<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 Gli eventi ottenuti dovranno essere memorizzati dal client poichè nelle successive chiamate i risultati ottenuti verranno consumati e cancellati dallo stream per lasciare il posto agli eventi successivi. E' poi necessario selezionare il tab Headers della response per visualizzare i valori ottenuti:
 
-<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -251,7 +251,7 @@ NOTA: nell'header della response ottenuta fare attenzione al campo retry-after c
 Dalle interrogazioni successive alla prima dello stream, si otterranno i 50 eventi successivi a quello del lastEventId (l'eventId dell'ultimo evento ottenuto nelle precedenti chiamate).\
 Aprire la scheda **Leggi progressi notifiche** e riprodurre questa configurazione:
 
-<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 Sostituire i seguenti:
 

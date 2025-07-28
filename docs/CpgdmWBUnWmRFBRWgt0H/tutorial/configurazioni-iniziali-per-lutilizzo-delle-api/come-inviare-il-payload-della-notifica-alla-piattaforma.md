@@ -206,7 +206,7 @@ L'output ottenuto per ogni file dovrà essere memorizzato per i futuri utilizzi.
 Aprire la scheda **richiesta di pre-caricamento allegati** ed inserire nel body il seguente payload:\
 
 
-<figure><img src="../../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
 
 Sostituire i seguenti:
 
@@ -216,7 +216,7 @@ Sostituire i seguenti:
 
 Nella response di questo servizio, si otterrà il seguente payload:
 
-<figure><img src="../../../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
 
 I valori ottenuti nella response dovranno essere memorizzati per i futuri utilizzi; nello specifico:
 
@@ -230,25 +230,25 @@ I valori ottenuti nella response dovranno essere memorizzati per i futuri utiliz
 
 Ora bisogna effettuare l'operazione di upload verso il _safeStorage_ per entrambi i documenti. Cliccando sulle url ottenute, si aprirà una scheda Postman già parzialmente configurata con l'url di interesse. Sarà ora necessario compilare gli headers nella sezione "Headers" inserendo i parametri ottenuti nella precedente chiamata:
 
-<figure><img src="../../../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
 
 Spostarsi poi nella sezione "Body" e selezionare il radio button "binary", selezionando il file che si vuole caricare:
 
-<figure><img src="../../../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
 
 Avendo due documenti, le chiamate da effettuare per effettuare l'upload sono 2, pertanto sarà necessario utilizzare i riferimenti **\<url1>, \<httpMethod1>** e **\<secret1>** nella chiamata di caricamento del primo file e **\<url2>, \<httpMethod2>** e **\<secret2>** nella chiamata di caricamento del secondo file. Per effettuare questa chiamata sarà necessario selezionare il "Desktop Agent" di Postman, dalla sezione dedicata in basso.
 
-<figure><img src="../../../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
 
 Dopo aver lanciato la richiesta per entrambi ed aver ottenuto esito positivo, bisogna memorizzare i valore di x-amz-version-id: **\<versionIdNotifica>** e **\<versionIdPagamento>** che si ottengono nella sezione "Header" della response, rispettivamente il primo nella response del primo upload ed il secondo nella response del secondo upload, che verranno utilizzati nella prossima chiamata:
 
-<figure><img src="../../../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
 
 ### Step 4 - Effettuare l'inserimento della notifica
 
 A questo punto è possibile effettuare l'inserimento della Notifica nella scheda **Richiesta invio notifica**, inserendo correttamente il body della request:
 
-<figure><img src="../../../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
 
 * **\<payloadDellaNotifica>:** corrisponde al json contenente tutti i dati della notifica; per inserire correttamente i riferimenti ai pdf caricati in precedenza, seguire le seguenti istruzioni:
   * Valorizzare i seguenti riferimenti al file Notifica.pdf\
@@ -264,7 +264,7 @@ A questo punto è possibile effettuare l'inserimento della Notifica nella scheda
 
 Se la chiamata è andata a buon fine si otterrà una response con httpStatus: 202 ACCEPTED ed il seguente body:
 
-<figure><img src="../../../.gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
 
 Nel body della response si otterranno i seguenti campi:\
 &#xNAN;**\<notificationRequestId>:** questo identificativo viene assegnato alla richiesta di notifica appena inserita e potrà essere utilizzato in seguito per verificare se sia stata accettata o meno dalla Piattaforma Notifiche.\

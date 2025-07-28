@@ -1,4 +1,8 @@
-# Visualizzazione delle  Notifiche
+# Come visualizzazione le notifiche
+
+## Step 1 - Accesso alla piattaforma
+
+## Step 2 - Sezione Notifiche
 
 Selezionando la voce _**Notifiche**_ si accede alla pagina di visualizzazione delle notifiche inviate all’utente.
 
@@ -10,7 +14,7 @@ L’utente può anche scegliere il numero di elementi da visualizzare nella pagi
 
 <figure><img src="../../.gitbook/assets/image (55).png" alt=""><figcaption></figcaption></figure>
 
-## Dettagli di una notifica
+## Step 3 - Dettagli di una notifica
 
 Selezionando una specifica notifica nella pagina di visualizzazione delle notifiche, si visualizzano i suoi dettagli.
 
@@ -28,7 +32,7 @@ Nel caso di notifiche inviate a più destinatari, ciascun destinatario vedrà ne
 
 <figure><img src="../../.gitbook/assets/image (47).png" alt=""><figcaption></figcaption></figure>
 
-## Accesso ai documenti relativi a una notifica
+## Step 4 - Accesso ai documenti&#x20;
 
 Nel dettaglio della specifica notifica viene visualizzata la lista dei documenti allegati alla notifica: l’atto oggetto della notifica e, se previsto, l’avviso di pagamento pagoPA e il modello F24 da usare per il pagamento.
 
@@ -36,10 +40,3 @@ Ciascun elemento contiene un link che permette di scaricare il documento.
 
 PN mantiene i documenti forniti dalla PA per 120 giorni a partire dalla data di perfezionamento per il destinatario, passati i quali i link agli stessi non saranno più disponibili.
 
-## Accesso agli atti opponibili ai terzi e ai documenti della notificazione analogica o digitale
-
-Nel dettaglio della specifica notifica viene visualizzata la timeline della notifica _**Stato della notifica**_.
-
-Gli eventi sono organizzati in forma di timeline, ordinati temporalmente e con indicazione dell’istante di occorrenza dell’evento e la descrizione dell’evento stesso.
-
-Nel caso in cui all’evento sia associato un documento, sia esso un’attestazione opponibile ai terzi o un documento relativo alla notificazione analogica o digitale, è presente un link che permette all’utente di scaricare tale documento.

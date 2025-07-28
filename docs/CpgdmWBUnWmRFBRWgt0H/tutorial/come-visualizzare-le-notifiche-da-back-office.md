@@ -25,7 +25,7 @@ L’utente può impostare dei filtri per modificare la visualizzazione dell’el
 
 Le notifiche sono presentate in pagine da 10, 20, 50 elementi ciascuna. La dimensione della pagina è selezionabile dell’utente.
 
-<figure><img src="../../.gitbook/assets/image (165).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (165).png" alt=""><figcaption></figcaption></figure>
 
 Nel dettaglio di una notifica viene visualizzata la lista dei Documenti allegati alla notifica. Non sono invece forniti i dati e documenti relativi al pagamento se non il codice avviso.
 
@@ -35,13 +35,13 @@ PN mantiene i documenti per 120 giorni a partire dalla data di perfezionamento d
 
 ***
 
-<figure><img src="../../.gitbook/assets/image (94).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (94).png" alt=""><figcaption></figcaption></figure>
 
 La notifica segue un ciclo di vita che prevede una serie di stati tracciati e visualizzati sul portale di PN nella sezione _**Stato della notifica**_ disponibile visualizzando il _**Dettaglio della notifica**_.
 
 &#x20;
 
-<figure><img src="../../.gitbook/assets/image (113).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (113).png" alt=""><figcaption></figcaption></figure>
 
 La timeline presenta inizialmente solamente gli eventi che determinano un cambiamento di stato della notifica (vedi paragrafo Informazione di stato sintetica). Eventi secondari (esempio i diversi tentativi di invio di una PEC) sono disponibili aprendo le sezioni _**Mostra di più**_. Eventuali documenti collegati agli eventi secondari sono disponibili anche attraverso i link presenti negli eventi principali.
 
@@ -50,5 +50,5 @@ Gli stati attraversati differiscono a seconda del percorso di notificazione util
 Per i diversi stati attraversati dalla notifica sono disponibili attraverso link i relativi atti opponibili ai terzi aventi valore legale.
 
 {% hint style="info" %}
-**ATTENZIONE**: in alcuni casi più di un evento può fare riferimento alla stessa attestazione opponibile ai terzi. Ad esempio, tutti i vari tentativi di inoltro della PEC, come descritto nel [Processo di notificazione](../../funzionamento-generale/processo-di-notificazione.md) sono raggruppati in una singola attestazione opponibile ai terzi.
+**ATTENZIONE**: in alcuni casi più di un evento può fare riferimento alla stessa attestazione opponibile ai terzi. Ad esempio, tutti i vari tentativi di inoltro della PEC, come descritto nel [Processo di notificazione](../funzionamento-generale/processo-di-notificazione.md) sono raggruppati in una singola attestazione opponibile ai terzi.
 {% endhint %}

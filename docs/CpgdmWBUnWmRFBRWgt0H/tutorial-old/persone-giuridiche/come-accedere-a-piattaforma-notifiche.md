@@ -1,8 +1,8 @@
-# Accesso a Piattaforma Notifiche
+# Come accedere a Piattaforma Notifiche
 
 Il legale rappresentante accede a PN attraverso l’Area Riservata messa a disposizione da PagoPA sul portale Self Care.
 
-## Accesso a Piattaforma Notifiche di un dipendente della persona giuridica
+## Step 1 - Autenticazione
 
 Il dipendente della persona giuridica accede a PN, attraverso il portale SEND all’indirizzo [https://pn-pg.pagopa.it](https://pn.pagopa.it/) autenticandosi con la sua identità digitale.
 
@@ -12,6 +12,8 @@ Al primo accesso l’utente deve confermare la presa visione&#x20;
 
 * dei termini di servizio (ToS)&#x20;
 * dell’informativa privacy
+
+## Step 2 - Selezione della persona giuridica
 
 Selezionata la persona giuridica per conto di cui opera, l'utente accede con le restrizioni legate al suo ruolo.
 
