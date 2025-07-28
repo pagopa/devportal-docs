@@ -1,39 +1,41 @@
-Il servizio si basa sullo schema **SEPA Request-To-Pay (SRTP)**, un'iniziativa dell'European Payments Council (EPC) che definisce un insieme di regole e messaggi standard per la tramitazione di richieste di pagamento in tutta l'area SEPA.
+# Lo Schema SEPA Request-to-Pay (EPC)
+
+Il servizio si basa sullo schema **SEPA Request-To-Pay (SRTP)**, un'[iniziativa dell'European Payments Council (EPC)](https://www.europeanpaymentscouncil.eu/what-we-do/other-schemes/sepa-request-pay) che definisce un insieme di regole e messaggi standard per la tramitazione di richieste di pagamento in tutta l'area SEPA.
 
 È importante sottolineare che SRTP non è uno strumento di pagamento, ma un protocollo di messaggistica che standardizza il modo in cui una richiesta di pagamento viene inviata, ricevuta e gestita, facilitando la successiva fase di pagamento.
 
-##### Il Modello Four-Corner
+## **Il Modello Four-Corner**
 
 Lo schema si fonda su un **"four-corner model"** (modello a quattro angoli), che prevede l'interazione tra quattro attori principali:
 
-  * **Creditore (Payee)**: Il soggetto che deve ricevere il pagamento e che avvia la richiesta.
-  * **Debitore (Payer)**: Il soggetto che deve effettuare il pagamento e che riceve la richiesta.
-  * **Service Provider del Creditore**: Il partner tecnologico che aderisce allo schema e invia le richieste SRTP per conto del Creditore.
-  * **Service Provider del Debitore**: Il partner tecnologico che aderisce allo schema, riceve le richieste SRTP e le presenta al Debitore sui propri canali.
+* **Creditore (Payee)**: Il soggetto che deve ricevere il pagamento e che avvia la richiesta.
+* **Debitore (Payer)**: Il soggetto che deve effettuare il pagamento e che riceve la richiesta.
+* **Service Provider del Creditore**: Il partner tecnologico che aderisce allo schema e invia le richieste SRTP per conto del Creditore.
+* **Service Provider del Debitore**: Il partner tecnologico che aderisce allo schema, riceve le richieste SRTP e le presenta al Debitore sui propri canali.
 
-*Modello four-corner dello schema SRTP*
+<figure><img src="../.gitbook/assets/Screenshot 2025-07-28 alle 18.39.49.png" alt=""><figcaption></figcaption></figure>
 
-##### Principi di Funzionamento
+## **Principi di Funzionamento**
 
 Il flusso di base prevede che il Creditore, tramite il proprio Service Provider, invii una richiesta di pagamento al Service Provider del Debitore, che a sua volta la rende disponibile al Debitore. Una volta ricevuta la notifica, il Debitore può **accettare o rifiutare** la richiesta.
 
 Lo schema EPC definisce diverse modalità con cui un Debitore può gestire una richiesta, basate sulla combinazione di quando accetta e quando intende pagare:
 
-| | **PAY NOW** (Paga subito) | **PAY LATER** (Paga dopo) |
-| :--- | :--- | :--- |
-| **ACCEPT NOW** | Accetta e procede subito al pagamento. | Accetta subito ma programma il pagamento a una data successiva. |
-| **ACCEPT LATER**| Programma l'accettazione a una data successiva e, contestualmente, il pagamento. | Programma sia la data di accettazione che quella di esecuzione del pagamento. |
+|                  | **PAY NOW** (Paga subito)                                                        | **PAY LATER** (Paga dopo)                                                     |
+| ---------------- | -------------------------------------------------------------------------------- | ----------------------------------------------------------------------------- |
+| **ACCEPT NOW**   | Accetta e procede subito al pagamento.                                           | Accetta subito ma programma il pagamento a una data successiva.               |
+| **ACCEPT LATER** | Programma l'accettazione a una data successiva e, contestualmente, il pagamento. | Programma sia la data di accettazione che quella di esecuzione del pagamento. |
 
-##### Ambiti e Flessibilità
+## **Ambiti e Flessibilità**
 
 Lo schema EPC è volutamente flessibile su alcuni aspetti per adattarsi a diversi contesti di mercato. Ad esempio, non impone le modalità tecniche di connessione tra i due Service Provider.
 
 Lo standard copre i seguenti processi:
 
-  * Enrollment dei soggetti
-  * Attivazione del servizio
-  * Invio della richiesta
-  * Accettazione o rifiuto
-  * Cancellazione della richiesta
+* Enrollment dei soggetti
+* Attivazione del servizio
+* Invio della richiesta
+* Accettazione o rifiuto
+* Cancellazione della richiesta
 
 Tuttavia, lo schema **non norma la fase di pagamento successiva**. Per questo motivo, un Service Provider non è obbligatoriamente un Prestatore di Servizi di Pagamento (PSP), ma può essere un qualsiasi fornitore tecnologico che aderisce alle regole dello schema. Lo standard è inoltre progettato per essere applicabile a un'ampia gamma di modelli di business (B2C, B2B, G2C, ecc.) e per funzionare a livello transfrontaliero nell'area SEPA.

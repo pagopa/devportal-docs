@@ -16,9 +16,7 @@ Perché questo flusso possa iniziare, assumiamo che due condizioni siano già st
 1. Laura ha già attivato il servizio RTP tramite l'app della sua Banca.
 2. Il Comune di Milano ha già censito una posizione debitoria (es. la TARI) per Laura nell'Archivio Centralizzato Avvisi.
 
-***
-
-**Fase 1: Ricezione della Richiesta di Pagamento (`pain.013`)**
+## **Fase 1: Ricezione della Richiesta di Pagamento (`pain.013`)**
 
 Il processo inizia quando PagoPA, per conto del Comune, invia una SRTP alla Banca di Laura.
 
@@ -28,7 +26,7 @@ Il processo inizia quando PagoPA, per conto del Comune, invia una SRTP alla Banc
 
 > Per i dettagli tecnici su come implementare questo passaggio, consulta il tutorial: [**Come ricevere e validare una Richiesta di Pagamento**](https://www.google.com/search?q=./tutorial/come-ricevere-e-validare-una-richiesta-di-pagamento).
 
-**Fase 2: Interazione dell'Utente e Invio dello Stato (`pain.014`)**
+## **Fase 2: Interazione dell'Utente e Invio dello Stato (`pain.014`)**
 
 Laura riceve una notifica push dalla sua app bancaria.
 
@@ -39,7 +37,7 @@ Laura riceve una notifica push dalla sua app bancaria.
 
 > Per i dettagli tecnici su come implementare questo passaggio, consulta il tutorial: [**Come inviare una Risposta di Stato via Callback**](https://www.google.com/search?q=./tutorial/come-inviare-una-risposta-di-stato).
 
-**Fase 3: Pagamento e Riconciliazione (Cancellazione)**
+## **Fase 3: Pagamento e Riconciliazione (Cancellazione)**
 
 Qualche giorno dopo, Laura procede con il pagamento dell'avviso direttamente dalla sua app, utilizzando il flusso standard di pagoPA.
 
@@ -52,6 +50,6 @@ Qualche giorno dopo, Laura procede con il pagamento dell'avviso direttamente dal
 
 > Per i dettagli tecnici su come implementare questo passaggio, consulta il tutorial: [**Come ricevere e gestire una Richiesta di Cancellazione**](https://www.google.com/search?q=./tutorial/come-ricevere-e-gestire-una-richiesta-di-cancellazione).
 
-**Conclusione**
+## **Conclusione**
 
 Il ciclo di vita della richiesta è completo. Grazie all'interazione standardizzata tra i sistemi, Laura ha potuto gestire un pagamento verso la PA in modo interamente digitale e integrato, e tutti gli attori coinvolti hanno i sistemi informativi allineati sullo stato finale dell'operazione.

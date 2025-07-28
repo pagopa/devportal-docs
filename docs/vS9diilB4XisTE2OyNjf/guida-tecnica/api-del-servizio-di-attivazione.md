@@ -6,8 +6,6 @@ Queste API sono dedicate alla gestione del ciclo di vita delle attivazioni. Un'a
 
 Tutte le chiamate a queste API devono essere autenticate tramite protocollo **OAuth2 (Client Credentials Flow)**. È necessario includere un `AccessToken` valido nell'header `Authorization` di ogni richiesta.
 
-***
-
 ## Endpoints
 
 ### **Creare una nuova attivazione**
@@ -18,11 +16,13 @@ POST /activations
 
 Questa operazione viene utilizzata dal Service Provider del Debitore per registrare il consenso di un nuovo utente al servizio RTP. Se esiste già un'attivazione per lo stesso utente (identificato dal Codice Fiscale), il servizio risponderà con un errore `409 Conflict`.
 
-### **Parametri Header**
+#### **Parametri Header**
 
 * `RequestId` (UUID, obbligatorio): Identificativo univoco della richiesta.
 
-**Corpo della Richiesta** Il corpo della richiesta deve contenere un oggetto `ActivationReq`.
+**Corpo della Richiesta**&#x20;
+
+Il corpo della richiesta deve contenere un oggetto `ActivationReq`.
 
 _Esempio di payload:_
 
@@ -35,12 +35,12 @@ _Esempio di payload:_
 }
 ```
 
-**Risposte**
+#### **Risposte**
 
 * **`201 Created`**: L'attivazione è stata registrata con successo. L'header `Location` della risposta conterrà l'URL della risorsa appena creata.
 * **`409 Conflict`**: Esiste già un'attivazione per l'utente indicato.
 
-**Ottenere un elenco di attivazioni**
+### **Ottenere un elenco di attivazioni**
 
 ```http
 GET /activations
@@ -57,7 +57,7 @@ Restituisce un elenco paginato di tutte le attivazioni associate al Service Prov
 
 * **`200 OK`**: La richiesta è andata a buon fine. Il corpo della risposta conterrà un oggetto `PageOfActivations` con la lista delle attivazioni e i metadati di paginazione.
 
-**Ottenere i dettagli di una singola attivazione**
+### **Ottenere i dettagli di una singola attivazione**
 
 ```http
 GET /activations/{activationId}
@@ -74,7 +74,7 @@ Recupera una specifica attivazione tramite il suo ID.
 * **`200 OK`**: La richiesta è andata a buon fine. Il corpo della risposta conterrà un oggetto `Activation` con i dettagli della risorsa.
 * **`404 Not Found`**: L'attivazione con l'ID specificato non esiste o non è associata al Service Provider chiamante.
 
-**Cancellare un'attivazione**
+### **Cancellare un'attivazione**
 
 ```http
 DELETE /activations/{activationId}
@@ -91,7 +91,7 @@ Elimina un'attivazione esistente, revocando di fatto il consenso dell'utente a r
 * **`204 No Content`**: L'attivazione è stata cancellata con successo.
 * **`404 Not Found`**: L'attivazione con l'ID specificato non esiste o non è associata al Service Provider chiamante.
 
-**Gestire il subentro (Takeover) di un'attivazione**
+### **Gestire il subentro (Takeover) di un'attivazione**
 
 ```http
 PATCH /activations/{activationId}
@@ -117,7 +117,7 @@ _Esempio di payload:_
 
 * **`204 No Content`**: Il subentro è stato effettuato con successo.
 
-**Trovare un'attivazione tramite Codice Fiscale (Discovery)**
+### **Trovare un'attivazione tramite Codice Fiscale (Discovery)**
 
 ```http
 GET /activations/payer
