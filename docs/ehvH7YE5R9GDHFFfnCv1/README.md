@@ -4,7 +4,9 @@ Il servizio Request to Pay (RTP) è un canale digitale che permette a cittadini 
 
 L'obiettivo è superare le modalità tradizionali, rispondendo alla necessità di disporre di un'esperienza di pagamento più evoluta e semplice. Invece di dover recuperare e inserire manualmente i dati di un avviso, con RTP l'utente riceve una notifica precompilata da cui può verificare i dettagli e procedere al saldo in pochi passaggi.
 
+{% hint style="info" %}
 È importante sottolineare che la richiesta è un **invito al pagamento, non un addebito automatico**: l'utente mantiene sempre il pieno controllo su se, come e quando pagare.
+{% endhint %}
 
 L'adozione di questo servizio porta vantaggi concreti a tutti gli attori coinvolti:
 

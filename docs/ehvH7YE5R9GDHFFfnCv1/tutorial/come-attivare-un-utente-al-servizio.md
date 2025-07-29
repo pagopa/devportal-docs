@@ -14,7 +14,7 @@ Come per tutte le operazioni verso la piattaforma, il primo passo consiste nell'
 
 ## **Step 2: Preparare il corpo della richiesta (`ActivationReq`)**
 
-Per attivare un utente, devi costruire un semplice oggetto JSON che contiene i suoi dati identificativi e quelli del tuo servizio.
+Per attivare un utente, dovrai costruire un semplice oggetto JSON che contiene i suoi dati identificativi e quelli del tuo servizio.
 
 **Esempio di Payload di Attivazione**
 

@@ -2,7 +2,9 @@
 
 Il servizio si basa sullo schema **SEPA Request-To-Pay (SRTP)**, un'[iniziativa dell'European Payments Council (EPC)](https://www.europeanpaymentscouncil.eu/what-we-do/other-schemes/sepa-request-pay) che definisce un insieme di regole e messaggi standard per la tramitazione di richieste di pagamento in tutta l'area SEPA.
 
-È importante sottolineare che SRTP non è uno strumento di pagamento, ma un protocollo di messaggistica che standardizza il modo in cui una richiesta di pagamento viene inviata, ricevuta e gestita, facilitando la successiva fase di pagamento.
+{% hint style="info" %}
+È importante sottolineare che SRTP non è uno str**umento di pagamento**, ma un protocollo di messaggistica che standardizza il modo in cui una richiesta di pagamento viene inviata, ricevuta e gestita, facilitando la successiva fase di pagamento.
+{% endhint %}
 
 ## **Il Modello Four-Corner**
 
@@ -13,7 +15,7 @@ Lo schema si fonda su un **"four-corner model"** (modello a quattro angoli), che
 * **Service Provider del Creditore**: Il partner tecnologico che aderisce allo schema e invia le richieste SRTP per conto del Creditore.
 * **Service Provider del Debitore**: Il partner tecnologico che aderisce allo schema, riceve le richieste SRTP e le presenta al Debitore sui propri canali.
 
-<figure><img src="../.gitbook/assets/Screenshot 2025-07-28 alle 18.39.49.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/https___files.gitbook.com_v0_b_gitbook-x-prod.appspot.com_o_spaces%2F0IKhR8KIASBbcwgRZ2gC%2Fuploads%2Fx0tA2tUMUQkzb7ElGSaQ%2Fimage.avif" alt=""><figcaption></figcaption></figure>
 
 ## **Principi di Funzionamento**
 

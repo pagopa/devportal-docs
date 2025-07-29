@@ -1,6 +1,6 @@
 # Invio di un avviso TARI a un cittadino e gestione del pagamento
 
-il ciclo di vita completo di una richiesta di pagamento. Lo scenario mostra come le diverse API e i messaggi standard interagiscono in un caso d'uso reale, dal momento in cui una richiesta arriva a un Service Provider del Debitore fino alla sua riconciliazione finale.
+In questo caso d'uso di esempio, descriviamo il ciclo di vita completo di una richiesta di pagamento. Lo scenario mostra come le diverse API e i messaggi standard interagiscono in un caso d'uso reale, dal momento in cui una richiesta arriva a un Service Provider del Debitore fino alla sua riconciliazione finale.
 
 **Attori dello scenario:**
 
@@ -24,7 +24,9 @@ Il processo inizia quando PagoPA, per conto del Comune, invia una SRTP alla Banc
 2. **Validazione**: La Banca valida la richiesta e risponde `201 Created` per confermare la presa in carico.
 3. **Processamento**: Il sistema della Banca processa i dati del `pain.013` e prepara la notifica da mostrare a Laura.
 
-> Per i dettagli tecnici su come implementare questo passaggio, consulta il tutorial: [**Come ricevere e validare una Richiesta di Pagamento**](https://www.google.com/search?q=./tutorial/come-ricevere-e-validare-una-richiesta-di-pagamento).
+{% hint style="info" %}
+Per i dettagli tecnici su come implementare questo passaggio, consulta il tutorial: [**Come ricevere e validare una Richiesta di Pagamento**](https://www.google.com/search?q=./tutorial/come-ricevere-e-validare-una-richiesta-di-pagamento).
+{% endhint %}
 
 ## **Fase 2: Interazione dell'Utente e Invio dello Stato (`pain.014`)**
 
@@ -35,7 +37,9 @@ Laura riceve una notifica push dalla sua app bancaria.
    * Costruisce un messaggio `pain.014.001.07` con lo stato `ACCP` (Accepted).
    * Invia questo messaggio tramite una chiamata `POST` all'URL di `callback` che era stato fornito nella richiesta originale.
 
-> Per i dettagli tecnici su come implementare questo passaggio, consulta il tutorial: [**Come inviare una Risposta di Stato via Callback**](https://www.google.com/search?q=./tutorial/come-inviare-una-risposta-di-stato).
+{% hint style="info" %}
+Per i dettagli tecnici su come implementare questo passaggio, consulta il tutorial: [**Come inviare una Risposta di Stato via Callback**](https://www.google.com/search?q=./tutorial/come-inviare-una-risposta-di-stato).
+{% endhint %}
 
 ## **Fase 3: Pagamento e Riconciliazione (Cancellazione)**
 
@@ -48,7 +52,9 @@ Qualche giorno dopo, Laura procede con il pagamento dell'avviso direttamente dal
    * Processa la richiesta, aggiornando lo stato della notifica nell'app di Laura da "Accettata" a "Pagata" (o "Annullata").
    * Infine, per completare il flusso, invia una conferma di cancellazione asincrona (`camt.029`) all'URL di callback di PagoPA.
 
-> Per i dettagli tecnici su come implementare questo passaggio, consulta il tutorial: [**Come ricevere e gestire una Richiesta di Cancellazione**](https://www.google.com/search?q=./tutorial/come-ricevere-e-gestire-una-richiesta-di-cancellazione).
+{% hint style="info" %}
+Per i dettagli tecnici su come implementare questo passaggio, consulta il tutorial: [**Come ricevere e gestire una Richiesta di Cancellazione**](https://www.google.com/search?q=./tutorial/come-ricevere-e-gestire-una-richiesta-di-cancellazione).
+{% endhint %}
 
 ## **Conclusione**
 
