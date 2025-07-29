@@ -8,7 +8,7 @@
 
 * **Attivazione nuovi custom claim**
 
-[Approfondisci → ](22-ottobre-2024.md)
+[Approfondisci → ](01-luglio-2025.md)
 
 ## Giugno 2025
 
@@ -23,5 +23,5 @@
 * **DPoP: Distributed Proof of Possession**
 * **Nuovi custom claim nel voucher PDND**
 
-[Approfondisci →](22-ottobre-2024-1.md)&#x20;
+[Approfondisci →](30-giugno-2025.md)&#x20;
 

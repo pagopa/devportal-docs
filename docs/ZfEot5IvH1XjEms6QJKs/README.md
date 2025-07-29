@@ -1,7 +1,3 @@
----
-description: Descrizione
----
-
 # Ultime release notes
 
 ## Luglio 2025&#x20;
@@ -12,7 +8,7 @@ description: Descrizione
 
 * **Attivazione nuovi custom claim**
 
-[Approfondisci → ](2024/22-ottobre-2024.md)
+[Approfondisci → ](2025/01-luglio-2025.md)
 
 ## Giugno 2025
 
@@ -27,4 +23,4 @@ description: Descrizione
 * **DPoP: Distributed Proof of Possession**
 * **Nuovi custom claim nel voucher PDND**
 
-[Approfondisci →](2024/22-ottobre-2024-1.md)&#x20;
+[Approfondisci →](2025/30-giugno-2025.md)&#x20;

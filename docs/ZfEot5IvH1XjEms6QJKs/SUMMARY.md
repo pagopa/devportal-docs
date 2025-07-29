@@ -1,6 +1,6 @@
 # Table of contents
 
 * [Ultime release notes](README.md)
-* [2025](2024/README.md)
-  * [01-luglio-2025](2024/22-ottobre-2024.md)
-  * [30-giugno-2025](2024/22-ottobre-2024-1.md)
+* [2025](2025/README.md)
+  * [01 Luglio 2025](2025/01-luglio-2025.md)
+  * [30 Giugno 2025](2025/30-giugno-2025.md)
