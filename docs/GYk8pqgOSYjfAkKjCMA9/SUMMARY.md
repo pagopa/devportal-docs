@@ -101,3 +101,7 @@
 * [Come creare e sottomettere una Richiesta di Fruizione](contenuti-richiesta-di-fruizione/come-creare-e-sottomettere-una-richiesta-di-fruizione.md)
 * [Come un Erogatore può approvare  una Richiesta di Fruizione in stato PENDING](contenuti-richiesta-di-fruizione/come-un-erogatore-puo-approvare-una-richiesta-di-fruizione-in-stato-pending.md)
 * [Come ottenere le Richieste di Fruizione in stato PENDING](contenuti-richiesta-di-fruizione/come-ottenere-le-richieste-di-fruizione-in-stato-pending.md)
+* [Ciclo di vita di una Richiesta di Fruizione](contenuti-richiesta-di-fruizione/ciclo-di-vita-di-una-richiesta-di-fruizione.md)
+* [Ciclo di vita di una Finalità](contenuti-richiesta-di-fruizione/ciclo-di-vita-di-una-finalita.md)
+* [Come creare e attivare una Purpose](contenuti-richiesta-di-fruizione/come-creare-e-attivare-una-purpose.md)
+* [Aggiornamento stima di carico di una Purpose](contenuti-richiesta-di-fruizione/aggiornamento-stima-di-carico-di-una-purpose.md)
