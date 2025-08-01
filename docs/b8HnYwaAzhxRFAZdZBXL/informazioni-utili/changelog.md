@@ -8,7 +8,31 @@ description: >-
 
 <details>
 
+<summary>Agosto 2025</summary>
+
+### 2.2.0
+
+**4 agosto**
+
+* Introdotti nuovi endpoint di lettura e scrittura sulle API v. 2
+
+</details>
+
+<details>
+
 <summary>Luglio 2025</summary>
+
+### 2.1.6
+
+**28 luglio**
+
+* Bug fixing
+
+### 2.1.5
+
+**21 luglio**
+
+* Bug fixing
 
 ### 2.1.4
 
@@ -73,7 +97,29 @@ description: >-
 
 </details>
 
-{% include "../.gitbook/includes/untitled.md" %}
+<details>
+
+<summary>Maggio 2025</summary>
+
+### 1.0.147
+
+**26 maggio**
+
+* Bug fixing
+
+### 1.0.146
+
+**15 maggio**
+
+* Bug fixing
+
+### 1.0.145
+
+**9 maggio**
+
+* Bug fixing
+
+</details>
 
 <details>
 
