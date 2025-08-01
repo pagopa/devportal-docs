@@ -17,7 +17,7 @@ Se l'erogatore revoca un attributo verificato precedentemente riconosciuto al fr
 3. ad A, B e C viene inviata una notifica segnalando che c'è una discrepanza tra l'interpretazione dell'erogatore A e B. PDND Interoperabilità si limita alla segnalazione, senza sospendere nessuna delle richieste di fruizione. Sarà compito degli attori coinvolti risolvere eventuali contese.
 
 {% hint style="warning" %}
-Il sistema di notifica è in corso di realizzazione e non è ancora disponibile.
+Il sistema di notifica è in corso di realizzazione e sarà disponibile entro la fine del 2025.
 {% endhint %}
 
 ## Revoca di un attributo dichiarato

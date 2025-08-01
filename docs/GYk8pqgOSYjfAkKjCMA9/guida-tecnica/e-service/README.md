@@ -2,41 +2,40 @@
 
 Gli e-service sono costituiti da due parti:&#x20;
 
-* &#x20;una **generale,** che include le informazioni essenziali sul funzionamento dell'e-service
-* &#x20;una **versionata**, gestita tramite versionamento automatico da PDND Interoperabilità, contenente dati soggetti a cambiamenti ed evoluzioni.
+* &#x20;una generale, di **informazioni essenziali**, che include le informazioni essenziali sul funzionamento dell'e-service;
+* &#x20;una **versionata**, gestita da PDND Interoperabilità tramite versionamento automatico progressivo; contiene dati soggetti a cambiamenti ed evoluzioni nel tempo.
 
 ## Informazioni essenziali
 
 Nella parte generale vengono richiesti:
 
-* **Nome:** esposto all'interno del catalogo degli e-service sulla piattaforma PDND Interoperabilità (leggere la [guida alle buone pratiche](https://italia.github.io/pdnd-guida-nomenclatura-eservice/));
-* **Descrizione:** esposto all'interno del catalogo degli e-service sulla piattaforma PDND Interoperabilità (leggere la [guida alle buone pratiche](https://italia.github.io/pdnd-guida-nomenclatura-eservice/));
-* **Tecnologia:** con cui è sviluppata l'API con cui si intende erogare il servizio, se REST o SOAP.
+* **nome** e **breve descrizione:** esposti all'interno del catalogo degli e-service sulla piattaforma PDND Interoperabilità (leggere la [guida alle buone pratiche](https://italia.github.io/pdnd-guida-nomenclatura-eservice/));
+* **tecnologia:** con cui è sviluppata l'API con cui si intende erogare il servizio, se REST o SOAP;
 
 {% hint style="info" %}
-Al fine di assicurare la conformità delle API pubblicate agli standard del Modello di Interoperabilità Tecnica per la Pubblica Amministrazione Italiana, è stato creato uno strumento di verifica del file OpenAPI (quindi per gli e-service che utilizzano tecnologia REST).
+Al fine di assicurare la conformità delle API pubblicate agli standard del MoDI, il Dipartimento per la trasformazione digitale ha creato uno strumento di verifica del file OpenAPI per le API con architettura REST.
 
-È possibile trovare l'API checker a questo link: [https://italia.github.io/api-oas-checker/](https://italia.github.io/api-oas-checker/) e prima di usare lo strumento è consigliato leggere le [Guide per l’utilizzo](https://github.com/italia/api-oas-checker-rules).
+È possibile trovarlo a questo link: [https://italia.github.io/api-oas-checker/](https://italia.github.io/api-oas-checker/). Prima di utilizzare lo strumento si consiglia di leggere la [Guida per l’utilizzo](https://github.com/italia/api-oas-checker-rules?tab=readme-ov-file#-guide-per-lutilizzo).
 {% endhint %}
 
-* **Modalità**: la modalità con cui l'e-service gestisce i dati, li **eroga** o li **riceve**. Se li eroga, significa che tutti gli endpoint dell'API esposta erogano dati; se li riceve, che tutti gli endpoint ricevono dati. Non è possibile avere endpoint di lettura e scrittura esposti in un unico e-service;
-* **Analisi del rischio**: solamente se la modalità indicata è "ricezione". In quel caso, l'erogatore deve indicare i casi d'uso per i quali intende raccogliere dati dai fruitori e compilare il questionario. È la parte amministrativa dell'accesso alla fruizione di un e-service. Realizzato sulla base delle misure minime indicate nelle [_Linee guida AgID_](https://trasparenza.agid.gov.it/moduli/downloadFile.php?file=oggetto_allegati/213481831510O__O20211210_LG+Infrastruttura+Interoperabilit%26%23224%3B+PDND_v1.pdf), su invito del Garante, è un questionario per lo più contenente domande relative alla privacy e ai dati cui intende accedere un fruitore. Una nuova analisi del rischio andrà compilata per ogni finalità di accesso ai dati detenuti dall'erogatore.&#x20;
+* **modalità**: la modalità con cui l'e-service gestisce i dati, se li **eroga** o li **riceve**. Se li eroga, significa che tutti gli endpoint dell'API esposta erogano dati; se li riceve, che tutti gli endpoint ricevono dati. Non è possibile avere endpoint di lettura e scrittura esposti in un unico e-service;
+* **analisi del rischio**: solamente se la modalità indicata è "ricezione". In quel caso, l'erogatore deve indicare i casi d'uso per i quali intende raccogliere dati dai fruitori e compilare il questionario. Maggiori informazioni nella sezione dedicata \[TBD];
+* **autorizzazione al conferimento di deleghe**: indica se le Pubbliche Amministrazioni fruitrici possono delegare un'altra Pubblica Amministrazione a completare gli adempimenti amministrativi (richiesta di fruizione, finalità) per conto loro. Maggiori dettagli nella sezione dedicata \[TBD];
+* **presenza del servizio di notifica di variazioni dei dati (Signal Hub)**: indica ai fruitori se questo e-service è integrato con Signal Hub e offre quindi ai fruitori la possibilità di rimanere aggiornati sulla variazione di dati di loro interesse all'interno della base dati dell'erogatore. Se l'opzione è disabilitata, sarà inibita la possibilità di scrivere e leggere notifiche sul Signal Hub. Maggiori dettagli nella [guida dedicata](https://developer.pagopa.it/pdnd-interoperabilita/guides/manuale-operativo-signal-hub).
 
-Per garantire la robustezza e la continuità del servizio nel tempo, i valori impostati in **tecnologia** e **modalità** una volta pubblicata la prima versione sul catalogo degli e-service, saranno modificabili solo attraverso la creazione di una nuova versione dell'e-service.
+Per garantire la robustezza e la continuità del servizio nel tempo, i valori impostati in **tecnologia** e **modalità** non sono modificabili una volta pubblicata la prima versione dell'e-service. È sempre possibile creare nuovi e-service ed archiviare quelli obsoleti.
 
-## Versione di e-service
+## Informazioni di versione
 
 Nella parte versionata vengono richiesti:
 
-* **File di specifica dell'API per questa versione dell'e-service**: dovrà essere caricato un file OpenAPI per i servizi REST, oppure un file WSDL per i servizi SOAP, come indicato all'interno del perimetro di sicurezza del ModI. Il file contiene la specifica tecnica dell'API esposta dall'erogatore in questa versione dell'e-service.
-* **Documentazione tecnica aggiuntiva**: opzionalmente, l'erogatore può caricare ulteriore documentazione a supporto della specifica API, come ad esempio un manuale d'uso, degli esempi, etc.
-* **Changelog:** una breve descrizione testuale che evidenzia i cambiamenti della versione corrente rispetto alle versioni precedenti.
-* **Attributi:** elenco di [requisiti di accesso](../attributi/#come-funzionano) che il fruitore deve possedere per potersi vedere attivata la richiesta di fruizione e accedere al servizio dell'erogatore;
-* **Policy di attivazione delle richieste di fruizione:** di default, tutte le richieste di fruizione presentate dai fruitori vengono attivate automaticamente, se questi possiedono tutti i requisiti di accesso richiesti per il servizio. L'erogatore può scegliere di attivarle manualmente anche in questo caso.
-* **Soglie delle chiamate API**: si rimanda alla descrizione del meccanismo della [stima di carico](./#gestire-il-carico-infrastrutturale-di-una-versione-di-e-service);
-* **Durata della validità del voucher:** in quanto tempo scade il voucher rilasciato da PDND Interoperabilità valido per accedere a questo servizio;
-* **Parametro audience&#x20;**_**(aud)**_**:** un claim standard che rappresenta il destinatario della richiesta. Può essere una URL o un identificativo univoco. L'erogatore riceverà questo valore all'interno del voucher rilasciato da PDND Interoperabilità al fruitore.
+* **file di specifica dell'API per questa versione dell'e-service**: dovrà essere caricato un file OpenAPI per i servizi REST, oppure un file WSDL per i servizi SOAP, come indicato all'interno del perimetro di sicurezza del ModI. Il file contiene la specifica tecnica dell'API esposta dall'erogatore in questa versione dell'e-service;
+* **documentazione tecnica aggiuntiva**: l'erogatore può caricare documentazione a supporto della specifica API, come ad esempio un manuale d'uso, degli esempi, ecc. È sempre consigliato farlo;
+* **changelog** ("descrizione della versione")**:** una breve descrizione testuale che evidenzia i cambiamenti della versione corrente rispetto alle versioni precedenti;
+* **attributi:** elenco di [requisiti di accesso](../attributi/#come-funzionano) che il fruitore deve possedere per potersi vedere attivata la richiesta di fruizione e accedere al servizio dell'erogatore;
+* **policy di attivazione delle richieste di fruizione:** di default, tutte le richieste di fruizione presentate dai fruitori vengono attivate automaticamente, se questi possiedono tutti i requisiti di accesso richiesti per il servizio. L'erogatore può scegliere di attivarle manualmente anche in questo caso;
+* **soglie delle chiamate API**: il carico, espresso in chiamate API/giorno, che la propria infrastruttura è in grado di sopportare. Per maggiori dettagli, si rimanda alla descrizione del meccanismo della [stima di carico](./#gestire-il-carico-infrastrutturale-di-una-versione-di-e-service);
+* **durata della validità del voucher:** in quanto tempo scade il voucher rilasciato da PDND Interoperabilità valido per accedere a questo servizio;
+* **parametro audience&#x20;**_**(aud)**_**:** un claim standard che rappresenta la risorsa per la quale si autorizza la richiesta. Può essere una URL o un identificativo univoco. L'erogatore riceverà questo valore all'interno del voucher rilasciato al fruitore da PDND Interoperabilità.
 
-Per garantire la robustezza e la continuità del servizio nel tempo, il **file di specifica dell'API** e il **parametro audience** una volta pubblicata la prima versione sul catalogo degli e-service, saranno modificabili solo attraverso la creazione di una nuova versione dell'e-service. Inoltre, sarà possibile solo aggiungere **nuovi attributi** senza aggiornare la versione dell'e-servic&#x65;**,** ma non modificare quelli attuali.
-
-È sempre possibile pubblicare nuove versioni dell'e-service.
+Tutti i parametri sono aggiornabili nel tempo anche senza creare una nuova versione di e-service, ad eccezione di tre. Il **file di specifica dell'API** e il parametro **audience** non possono essere mai modificati. Gli **attributi** possono essere modificati senza creare una nuova versione solamente se ampliano la platea dei possibili fruitori.

@@ -2,21 +2,17 @@
 
 ## Cosa prevede l'accordo di adesione
 
-Quando si aderisce a PDND Interoperabilità tramite le categorie abilitate, si ha direttamente accesso a tutti gli ambienti disponibili, senza ulteriori oneri richiesti agli aderenti. \
-Tutti gli ambienti saranno disponibili dopo aver fatto login con SPID.
+Se un ente o privato tra quelli indicati nella [sezione dedicata](approfondimenti.md#termini-e-condizioni) effettua l'adesione, ha automaticamente accesso a tutti e tre gli ambienti disponibili: collaudo, attestazione e produzione.
 
+Un ente o privato che non appartiene a nessuna delle categorie può comunque fare adesione. In questo caso, avrà accesso solamente all'ambiente di attestazione. Per maggiori informazioni sugli ambienti disponibili, si rimanda alla [sezione dedicata](../funzionamento-generale/ambienti-disponibili.md).
 
+Gli utenti che avranno accesso in prima istanza saranno solo quelli indicati come amministratori all'atto della presentazione dell'accordo di adesione. Questi potranno effettuare [accesso al back office](https://selfcare.pagopa.it/) previa autenticazione con SPID o CIE e potranno creare nuovi utenti.
 
-* &#x20;i due ambienti non interferiscono tra loro;
-* è possibile fare test per valutare l'integrazione di un ente con PDND Interoperabilità;
-* l'operatore può reperire tutte le informazioni necessarie per abilitare il proprio amministratore a operare nell'ambiente di produzione.
+Per una guida passo-passo all'adesione, si rimanda al [tutorial dedicato](../tutorial/guida-alladesione.md).
 
 ## Errore "Allegato non conforme"
 
-Quando si riceve l'errore di "allegato non conforme" possono esserci due casistiche:
+Se durante la procedura di caricamento dell'accordo di adesione si riceve l'errore di "allegato non conforme" possono esserci due casistiche:
 
 * il documento firmato è stato caricato già protocollato. La protocollazione invalida la verifica automatica dell'accordo di adesione e il sistema non lo riconosce. È necessario protocollare il documento solo dopo il caricamento sul sistema di PagoPA;
-
-oppure
-
 * l'accordo di adesione è stato firmato con diverse tipologie di firma qualifica rispetto a quella richiesta. La firma deve essere apposta tramite standard CAdES.

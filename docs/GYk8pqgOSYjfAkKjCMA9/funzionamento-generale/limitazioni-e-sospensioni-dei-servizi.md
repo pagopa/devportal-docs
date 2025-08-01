@@ -8,6 +8,6 @@ Esistono tre punti nei quali è possibile limitare l'operatività del flusso:&#x
 
 1. in caso di emergenza, l'erogatore può unilateralmente **sospendere una versione di e-service**, impedendo l'accesso a tutte le richieste di fruizione e alle finalità a esse associate. È sua facoltà anche effettuare una sospensione per manutenzione dandone congruo preavviso ai fruitori;
 2. sia l'erogatore che il fruitore possono **sospendere** unilateralmente **una richiesta di fruizione**, di fatto impedendo l'accesso a tutte le finalità a essa associate. Una richiesta di fruizione può essere, in alcuni casi eccezionali, sospesa unilateralmente da PDND Interoperabilità, come ad esempio la perdita di un attributo certificato da parte di un fruitore;
-3. entrambe le parti possono **sospendere** unilateralmente **una finalità**, come descritto nell'immagine sopra.&#x20;
+3. entrambe le parti possono **sospendere** unilateralmente **una singola finalità**.&#x20;
 
-Ogni atto di sospensione prevede che non si possano più per quel particolare e-service staccare voucher, inviare richieste di fruizione o creare finalità, neanche se tutte le restanti componenti del flusso sono attive e integrate correttamente.
+Ogni atto di sospensione prevede che non si possano più staccare voucher per quel particolare flusso, neanche se tutte le restanti componenti del flusso stesso sono attive e integrate correttamente. L'operatività riprenderà regolarmente una volta riattivate le componenti sospese.

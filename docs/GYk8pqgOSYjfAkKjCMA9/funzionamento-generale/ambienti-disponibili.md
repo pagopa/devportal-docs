@@ -1,12 +1,22 @@
 # Ambienti disponibili
 
-## Ambiente di collaudo e ambiente di produzione
+Sono disponibili tre ambienti: produzione, collaudo e attestazione. Questi ambienti hanno caratteristiche diverse, come indicato nella tabella sottostante.
 
-PDND Interoperabilità mette a disposizione degli aderenti due ambienti, collaudo e produzione. L'aderente non deve eseguire operazioni aggiuntive dopo l'adesione, poiché i due ambienti verranno attivati automaticamente.
+| Nome ambiente | Chi può erogare e-service? | Vengono erogati dati reali? |
+| ------------- | -------------------------- | --------------------------- |
+| Produzione    | PA, GSP, SCP, SCEC         | Sì                          |
+| Collaudo      | PA, GSP, SCP, SCEC         | No                          |
+| Attestazione  | Tutti gli aderenti         | No                          |
 
-La principale differenza tra i due ambienti è la necessità di utilizzare solo dati fittizi nell'ambiente di collaudo, mentre nell'ambiente di produzione gli e-service erogano dati reali. L'ambiente di collaudo permette di testare l'integrazione tra diversi aderenti e consente a un singolo aderente di verificare la propria integrazione con PDND Interoperabilità. È importante ricordare che un aderente può iscriversi anche agli e-service di cui è erogatore.
+## Ambiente di produzione
+
+È l'ambiente nel quale le integrazioni indicate permetteranno di accedere a dati reali. È l'ambiente maggiormente monitorato, il quale è anche soggetto agli [SLA indicati](../normativa-e-approfondimenti/approfondimenti.md#sla-service-level-agreement).
+
+## Ambiente di collaudo
+
+Può essere utilizzato per collaudare i propri e-service in erogazione e per fare test di fruizione. I dati restituiti dalle API degli erogatori devono essere fittizi.
 
 ## Ambiente di attestazione
 
-È un ambiente dove è possibile fare test e sperimentare il funzionamento della piattaforma **tramite dati fittizi.**
+Simile all'ambiente di collaudo, ma permette a tutti gli aderenti, inclusi partner tecnologici ed eventuali altri privati di testare le funzionalità di erogazione ed altre funzionalità avanzate. Vengono inoltre esposti da PagoPA alcuni e-service che simulano pattern d'accesso comuni, in modo da supportare gli enti e i partner tecnologici nel fare test di integrazione con diverse configurazioni. I dati restituiti dalle API degli erogatori devono essere fittizi.
 
