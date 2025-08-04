@@ -1,5 +1,12 @@
 # Verifica di un voucher da parte di un erogatore di e-service
 
+Le best practice emerse prevedono che l’erogatore possa fare una delle seguenti due verifiche:
+
+* verificare l’audience (campo `aud`) assieme al `producerId` (l'id dell'erogatore). In questo modo, c'è la doppia certezza che la risorsa richiesta sia quella corretta, e che appartenga effettivamente al proprio ente; OPPURE
+* verificare la corrispondenza di `eserviceId` e `descriptorId` (id dell'e-service e della versione di e-service) rispetto alla propria risorsa. In questa maniera si ottiene una maggiore granularità di verifica.
+
+
+
 L'erogatore di un e-service deve poter verificare la legittimità di qualsiasi richiesta ricevuta. Prima di tutto, estrae il voucher dalla richiesta, dall'header `Authorization: Bearer` nel quale arriva, e lo deserializza.&#x20;
 
 #### Verifiche sugli header

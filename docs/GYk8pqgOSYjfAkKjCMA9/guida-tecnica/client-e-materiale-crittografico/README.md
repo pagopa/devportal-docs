@@ -1,16 +1,15 @@
 # Client
 
-Un client è un contenitore che raccoglie:
+Un client è un contenitore che raccoglie gli utenti tecnici abilitati a caricare chiavi pubbliche e le chiavi pubbliche stesse.&#x20;
 
-* &#x20;utenti abilitati a caricare chiavi pubbliche&#x20;
-* &#x20;le relative chiavi pubbliche&#x20;
+Il client è lo strumento che abilita l'estrazione materiale dei dati. Per questa ragione, tutte le operazioni relative all'inserimento di personale tecnico e all'associazione di client e finalità possono essere effettuate solo da un'utenza con permessi di amministratore.
 
 Esistono due tipi di client:&#x20;
 
-* quelli che si rivolgono verso gli erogatori degli e-service&#x20;
-* quelli che si rivolgonoverso le API esposte da PDND Interoperabilità.&#x20;
+* quelli che si rivolgono verso gli erogatori degli e-service;
+* quelli che si rivolgono verso le API esposte da PDND Interoperabilità.&#x20;
 
-Il primo tipo di client, il _**client e-service**_, sarà associabile agli e-service per i quali un fruitore ha una richiesta di fruizione attiva.&#x20;
+Il primo tipo di client, il _**client e-service**_, sarà associabile agli e-service per i quali un fruitore ha una richiesta di fruizione attiva e almeno una finalità pubblicata.
 
 Ogni client e-service può essere associato a una o più finalità. Una volta associato, il materiale crittografico lì depositato sarà considerato valido per richiedere a PDND Interoperabilità un voucher per quella finalità.
 
@@ -26,10 +25,8 @@ Il sistema dei client è molto flessibile per garantire agli utenti di organizza
 
 Ogni ente valuterà facendo un compromesso tra sicurezza e manutenibilità della propria soluzione. In linea di principio, l'organizzazione dei client associati agli e-service deve garantire che i tecnici abbiano visibilità sulle finalità per le quali operano, ma non per le altre.
 
-{% hint style="warning" %}
-Si consiglia di assegnare ai client un nome che possa aiutare nell'individuazione del gruppo di persone che lo utilizza (per esempio i dipendenti di una software house esterna o interna all'ente).
-{% endhint %}
+Per maggiori dettagli, si veda il [webinar dedicato ai client](https://developer.pagopa.it/webinars/e-service-erogazione-inversa) (dal minuto 24:20 — iscrizione gratuita).
 
 {% hint style="warning" %}
-Si suggerisce di essere sempre il più restrittivi possibile con la gestione dei client, poiché contengono permessi e chiavi per l'accesso agli e-service.&#x20;
+Si consiglia di assegnare ai client un nome che possa aiutare nell'individuazione del gruppo di persone che lo utilizza (per esempio i dipendenti di una software house esterna o interna all'ente).
 {% endhint %}
