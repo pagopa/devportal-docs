@@ -40,10 +40,14 @@
   * [L'analisi del rischio](guida-tecnica/finalita/lanalisi-del-rischio.md)
 * [Client](guida-tecnica/client-e-materiale-crittografico/README.md)
   * [Ciclo di vita](guida-tecnica/client-e-materiale-crittografico/ciclo-di-vita.md)
+  * [Organizzazione dei propri client](guida-tecnica/client-e-materiale-crittografico/organizzazione-dei-propri-client.md)
 * [Voucher](guida-tecnica/utilizzare-i-voucher/README.md)
   * [FAQ e dubbi comuni](guida-tecnica/utilizzare-i-voucher/faq-e-dubbi-comuni.md)
   * [Tipi di richiesta di voucher](guida-tecnica/utilizzare-i-voucher/ciclo-di-vita.md)
-  * [Verifica di un voucher da parte di un erogatore](guida-tecnica/utilizzare-i-voucher/verifica-di-un-voucher-da-parte-di-un-erogatore-di-e-service.md)
+  * [Reperire gli identificativi per le verifiche](guida-tecnica/utilizzare-i-voucher/reperire-gli-identificativi-per-le-verifiche.md)
+  * [Verifiche su un voucher Bearer Token da parte di un erogatore](guida-tecnica/utilizzare-i-voucher/verifiche-su-un-voucher-bearer-token-da-parte-di-un-erogatore.md)
+  * [Verifiche sul digest da parte di un erogatore](guida-tecnica/utilizzare-i-voucher/verifiche-sul-digest-da-parte-di-un-erogatore.md)
+  * [\[TODO\] Verifiche su un voucher DPoP da parte di un erogatore](guida-tecnica/utilizzare-i-voucher/todo-verifiche-su-un-voucher-dpop-da-parte-di-un-erogatore.md)
   * [Garanzia dell'integrità della risposta](guida-tecnica/utilizzare-i-voucher/garanzia-dellintegrita-della-risposta.md)
   * [Approfondimento su DPoP](guida-tecnica/utilizzare-i-voucher/dpop.md)
 * [Deleghe](guida-tecnica/deleghe/README.md)
@@ -61,48 +65,25 @@
 
 * [Come aderire a PDND Interoperabilità](tutorial/guida-alladesione.md)
 * [Come accedere al back office di PDND Interoperabilità](tutorial/ambienti-disponibili.md)
-* [Come creare le utenze amministrative](tutorial/come-creare-le-utenze-amministrative.md)
-* [Come creare un e-service](tutorial/come-creare-un-e-service.md)
+* [Come creare un nuovo amministratore](tutorial/come-creare-un-nuovo-amministratore.md)
+* [Come creare un nuovo operatore](tutorial/utenze.md)
+* [Come creare un nuovo e-service](tutorial/come-creare-un-nuovo-e-service.md)
 * [Come aggiornare un e-service](tutorial/come-aggiornare-un-e-service.md)
-* [Come fruire di un e-service](tutorial/come-fruire-di-un-e-service.md)
-* [Come fruire delle API Interop](tutorial/come-fruire-delle-api-interop.md)
+* [Come aggiornare un e-service senza pubblicare una nuova versione](tutorial/come-aggiornare-un-e-service-senza-pubblicare-una-nuova-versione.md)
+* [Come aggiornare un e-service pubblicando una nuova versione](tutorial/come-aggiornare-un-e-service-pubblicando-una-nuova-versione.md)
+* [Come presentare una richiesta di fruizione](tutorial/come-presentare-una-richiesta-di-fruizione.md)
+* [Come aggiornare una richiesta di fruizione](tutorial/come-aggiornare-una-richiesta-di-fruizione.md)
 * [Come creare una finalità](tutorial/come-creare-una-finalita.md)
 * [Come creare un client](tutorial/come-creare-un-client.md)
-* [Come associare i client alle finalità](tutorial/come-associare-i-client-alle-finalita.md)
+* [Come associare un client ad una finalità](tutorial/come-associare-un-client-ad-una-finalita.md)
 * [Come generare corredo crittografico e caricare chiavi pubbliche](tutorial/come-generare-corredo-crittografico-e-caricare-chiavi-pubbliche.md)
-* [Come un erogatore verifica un voucher](tutorial/come-un-erogatore-verifica-un-voucher.md)
-* [Come delegare un altro ente](tutorial/come-delegare-un-altro-ente.md)
-
-***
-
-* [Come garantire l'integrità della risposta al fruitore](come-garantire-lintegrita-della-risposta-al-fruitore.md)
-* [Come fruire di un DPoP](come-fruire-di-un-dpop.md)
-* [Non prioritari](non-prioritari/README.md)
-  * [Come abilitare un utente al back office](non-prioritari/come-abilitare-un-utente-al-back-office.md)
-  * [Come creare un nuovo attributo certificato](non-prioritari/come-creare-un-nuovo-attributo-certificato.md)
-
-## Casi d'uso
-
-* [Attributi e interoperabilità per enti locali (caso terremoto 2016)](casi-duso/attributi-e-interoperabilita-per-enti-locali-caso-terremoto-2016.md)
-* [Creare una finalità per e-service che riceve dati - Caso ANAC](casi-duso/creare-una-finalita-per-e-service-che-riceve-dati-caso-anac.md)
-* [Esempio di export di un e-service](casi-duso/esempio-di-export-di-un-e-service.md)
-* [Esempio di logica di business per l'implementazione della cache](casi-duso/esempio-di-logica-di-business-per-limplementazione-della-cache.md)
-* [Contenuto di un voucher](casi-duso/contenuto-di-un-voucher.md)
-
-## HOW TO (non prioritari)
-
-* [Come revocare le abilitazioni ad un operatore amministrativo](how-to-non-prioritari/come-revocare-le-abilitazioni-ad-un-operatore-amministrativo.md)
-* [Come gestire un e-service](how-to-non-prioritari/e-service.md)
-* [Come assegnare o revocare un attributo certificato](how-to-non-prioritari/come-assegnare-o-revocare-un-attributo-certificato.md)
-* [Come sottoscrivere una richiesta di fruizione](how-to-non-prioritari/come-sottoscrivere-una-richiesta-di-fruizione.md)
-* [Come gestire una finalità](how-to-non-prioritari/come-gestire-una-finalita.md)
-
-***
-
-* [Come effettuare operazioni sui client](come-effettuare-operazioni-sui-client.md)
-* [Come approvare una richiesta di fruizione](come-approvare-una-richiesta-di-fruizione.md)
-* [Come caricare e eliminare una chiave pubblica in un client o portachiavi](come-caricare-e-eliminare-una-chiave-pubblica-in-un-client-o-portachiavi.md)
-* [Come creare un nuovo operatore](utenze.md)
+* [Come richiedere e spendere un voucher verso le API di PDND Interoperabilità](tutorial/come-richiedere-e-spendere-un-voucher-verso-le-api-di-pdnd-interoperabilita.md)
+* [Come richiedere e spendere un voucher verso le API di un erogatore (base)](tutorial/come-richiedere-e-spendere-un-voucher-verso-le-api-di-un-erogatore-base.md)
+* [Come richiedere e spendere un voucher verso le API di un erogatore (con informazioni aggiuntive)](tutorial/come-richiedere-e-spendere-un-voucher-verso-le-api-di-un-erogatore-con-informazioni-aggiuntive.md)
+* [Come richiedere e spendere un voucher verso le API di un erogatore (DPoP)](tutorial/come-richiedere-e-spendere-un-voucher-verso-le-api-di-un-erogatore-dpop.md)
+* [Come rendersi disponibili a ricevere deleghe](tutorial/come-rendersi-disponibili-a-ricevere-deleghe.md)
+* [Come conferire una delega ad un altro ente](tutorial/come-conferire-una-delega-ad-un-altro-ente.md)
+* [Come creare un nuovo attributo certificato](tutorial/come-creare-un-nuovo-attributo-certificato.md)
 
 ## Contenuti Richiesta di Fruizione
 

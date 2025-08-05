@@ -1,35 +1,31 @@
 # Come creare un client
 
-## Come creare un client e-service
+## Step 1 - Entrare nel flusso di creazione
 
-### Step 1 - Accedere&#x20;
+I client e-service e i client API Interop si creano in maniera molto simile. Cambia solamente la voce di menù da selezionare.
 
-Dal back office andare alla voce di menu _**Fruizione > I tuoi client e-service**_ e poi _**Crea nuovo**_.
+I client e-service sono destinati ad essere associati alle proprie finalità e ad interagire con le API degli e-service degli erogatori.
 
-### Step 2 - Dare un nome&#x20;
+I client API Interop sono invece destinati a interagire con le [API esposte da PDND Interoperabilità](https://developer.pagopa.it/pdnd-interoperabilita/api).
 
-Ogni client è dotato di un nome, che può essere utilizzato per individuare il gruppo di persone che ne fa parte (per esempio i dipendenti di una software house esterna o interna all'ente).
+Dal back office andare alla voce di menu _**Fruizione > I tuoi client e-service**_ oppure _**Fruizione > I tuoi client API Interop**_ e poi _**Crea nuovo**_.
 
-### Step 3 - Associare un e-service
+## Step 2 - Assegnare un nome e una descrizione&#x20;
 
-La creazione del client non ha effetto sull'accesso agli e-service: il client deve essere successivamente associato ad una o più finalità le cui chiavi saranno utilizzabili per ottenere un voucher.
+Ogni client ha un nome e una descrizione, per aiutare l'ente ad individuare il gruppo di persone che ne fa parte (per esempio i dipendenti di una software house esterna o interna all'ente).
 
-## Come creare un client API interop
+## Step 3 - Definire i membri del client
 
-Dalla voce di menu _**Fruizione > I tuoi client api interop**_ e poi _**Crea nuovo**_.
+È possibile inserire nel client un numero discrezionale di persone, a patto che queste persone abbiano delle utenze per operare per conto dell'ente.
 
-## Come gestire i membri di un client o un portachiavi
+È possibile gestire le utenze dalla Piattaforma Area Riservata, e maggiori informazioni sono disponibili nella [sezione dedicata](../guida-tecnica/back-office/utenze.md).
 
-Il contenuto del client è modificabile in qualsiasi momento, inclusi i membri che possono essere aggiunti o rimossi.&#x20;
+I ruoli ammessi all'interno di un client sono quello di amministratore e di operatore di sicurezza.
 
-In qualsiasi momento, è possibile aggiungere o rimuovere membri da uno specifico client o portachiavi. Le persone aggiunte hanno la possibilità di caricare chiavi pubbliche.
+Gli operatori di sicurezza non devono necessariamente far parte del proprio ente, possono anche essere persone di un proprio partner tecnologico, ad esempio. L'importante è che l'amministratore dell'ente censisca le utenze sulla Piattaforma Area Riservata, e poi inserisca gli utenti all'interno del client.
 
-I membri rimossi non possono più operare all'interno di quello specifico client o portachiavi, anche se le chiavi caricate fino a quel momento rimangono valide e attive e possono essere rimosse da altri utenti che hanno ancora accesso al client o portachiavi.&#x20;
+## Step 4 - Creare il client
 
-Le chiavi caricate da membri rimossi vengono evidenziate dall'interfaccia in modo da aiutare gli altri membri ad individuarle e sostituirle, prima di eliminarle. Questo comportamento è pensato per bilanciare le necessità di sicurezza e facilitare la continuità di servizio nell'eventualità di un ricambio di personale.&#x20;
+A fondo pagina, finalizzare la creazione cliccando su _**Crea**_.
 
-Per gestire i membri di un client, andare su _**Fruizione > I tuoi client e-service**_ oppure _**Fruizione > I tuoi client api Interop**_, cercare la riga della tabella dedicata al client di interesse e cliccare su _**Ispeziona**_. All'interno del singolo client, selezionare la tab _**Membri del client**_. La stessa operazione può essere effettuata sui portachiavi dell'erogatore dalla vista _**Erogazione > I tuoi portachiavi**_.
-
-{% hint style="warning" %}
-Attenzione: continuare ad utilizzare chiavi associate ad un membro che non fa più parte della tua organizzazione costituisce un pericolo per la sicurezza. Elimina sempre le chiavi, dopo averle sostituite.
-{% endhint %}
+Per le best practice nella gestione dei propri client, si veda la [sezione dedicata](../guida-tecnica/client-e-materiale-crittografico/organizzazione-dei-propri-client.md).

@@ -2,33 +2,27 @@
 
 ## Step 1 - Prima dell'adesione
 
-* **Se sei una PA o un Gestore di servizi pubblici:**
+### PA o Gestore di servizi pubblici (GSP)
 
-Prima di iniziare la procedura di adesione verifica che i dati dell'ente contenuti in [IPA](https://www.indicepa.gov.it/ipa-portale/consultazione/indirizzo-sede/ricerca-ente) siano corretti;
+Prima di iniziare la procedura di adesione verifica che i dati dell'ente contenuti in [IPA](https://www.indicepa.gov.it/ipa-portale/consultazione/indirizzo-sede/ricerca-ente) siano corretti. Assicurati di avere accesso alla PEC indicata come domicilio digitale dell'ente all'interno del Catalogo IPA.
 
-Assicurati di avere accesso alla PEC indicata come domicilio digitale dell'ente all'interno del Catalogo IPA.
+### Società a Controllo Pubblico (SCP)
 
-* **Se sei una Società a Controllo Pubblico:**
+Controlla di essere in possesso di tutti i dati relativi alla società che potranno esserti richiesti al momento dell'adesione e di avere accesso alla PEC che dovrai indicare nel form di adesione.
 
-Controlla di essere in possesso di tutti i dati relativi alla società che potranno esserti richiesti al momento dell'onboarding e di avere accesso alla PEC che dovrai indicare nel form di adesione.
+### Gestore privato di piattaforma e-procurement
 
-* **Se sei un Gestore privato di piattaforma e-procurement:**
+Controlla di aver completato il [processo](https://www.agid.gov.it/it/piattaforme/procurement/certificazione-componenti-piattaforme) di certificazione dei componenti delle piattaforme pubblicato da AgID. Per maggiori informazioni sull'e-procurement si fa riferimento a [questa news ](https://www.agid.gov.it/it/agenzia/stampa-e-comunicazione/notizie/2023/09/25/procurement-pubblicato-schema-operativo-supporto-del-processo-certificazione)sul sito di AgID.
 
-Controlla di aver completato il [processo](https://www.agid.gov.it/it/piattaforme/procurement/certificazione-componenti-piattaforme) di certificazione dei componenti delle piattaforme pubblicato da AgID.
+### Impresa e/o gruppo assicurativo
 
-Per maggiori informazioni sull'e-procurement si fa riferimento a [questa news ](https://www.agid.gov.it/it/agenzia/stampa-e-comunicazione/notizie/2023/09/25/procurement-pubblicato-schema-operativo-supporto-del-processo-certificazione)sul sito di AgID.
-
-* **Se sei un'impresa e/o gruppo assicurativo:**
-
-Controlla di essere presente all'interno [dell'Albo](https://infostat-ivass.bancaditalia.it/RIGAInquiry-public/ng/#/home).&#x20;
-
-Per maggiori informazioni si fa riferimento a questa [lettera](https://www.ivass.it/normativa/nazionale/secondaria-ivass/lettere/2023/lm-22-11/index.html?dotcache=refresh) al mercato di IVASS.
+Controlla di essere presente all'interno [dell'Albo](https://infostat-ivass.bancaditalia.it/RIGAInquiry-public/ng/#/home). Per maggiori informazioni si fa riferimento a questa [lettera](https://www.ivass.it/normativa/nazionale/secondaria-ivass/lettere/2023/lm-22-11/index.html?dotcache=refresh) al mercato di IVASS.
 
 {% hint style="info" %}
 Per aiutarti nel percorso di onboarding abbiamo creato un [videotutorial](https://www.youtube.com/watch?v=mLCAnUTL3QE) a completamento di questa guida all'adesione.
 {% endhint %}
 
-## Step 2 - Navigare alla pagina di onboarding
+## Step 2 - Navigare alla pagina di adesione
 
 {% embed url="https://selfcare.pagopa.it/onboarding/prod-interop" %}
 
@@ -40,7 +34,7 @@ Come primo passo va effettuato il login con SPID o CIE. Non è necessario che si
 
 <figure><img src="../.gitbook/assets/Selezione ente onboarding.png" alt=""><figcaption><p>La schermata di selezione della tipologia dell'ente</p></figcaption></figure>
 
-Indica qual è la tipologia dell’Ente per il quale si sta operando ai sensi degli artt. 2 (comma 2) e 64bis (par. 6) del Codice dell'Amministrazione Digitale (CAD). Qualora l’informazione sia già disponibile attraverso IPA, sarà preselezionata. Si potrà comunque modificare la tipologia dell’ente selezionando una differente opzione.
+Indica qual è la tipologia dell’Ente per il quale si sta operando ai sensi degli artt. 2 (comma 2) e 64bis (par. 6) del Codice dell'Amministrazione Digitale (CAD). Qualora l’informazione sia già disponibile attraverso IPA, sarà preselezionata. Si potrà comunque modificare la tipologia dell’ente selezionando un'opzione differente.
 
 ## Step 5 - Selezionare l'ente per il quale effettuare l'adesione
 
@@ -65,7 +59,7 @@ Il campo relativo al _**Codice destinatario**_ è invece sempre modificabile.
 
 Inserisci i dati richiesti per la sezione di Legale Rappresentante. Con questa figura si identifica non necessariamente il vertice dell'ente; può essere il rappresentante pro tempore o un procuratore munito dei necessari poteri di firma. La cosa importante è che i dati della persona qui indicata corrispondano con quelli della persona che apporrà la firma digitale al documento di adesione indicato al [punto 8](guida-alladesione.md#8.-fai-firmare-digitalmente-laccordo-al-legale-rappresentante).
 
-## Step 8 - Indicare gli amministratori per Interoperabilità
+## Step 8 - Indicare gli amministratori per PDND Interoperabilità
 
 ![La schermata nella quale si inseriscono i dati degli utenti con privilegi di amministrazione](<../.gitbook/assets/uat.selfcare.pagopa.it_onboarding_prod-interop(Macbook Pro – Screenshot) (4).png>)
 
@@ -99,7 +93,7 @@ Se il caricamento va a buon fine, avrai risposta positiva, ricevendo inoltre una
 In caso contrario, ti sarà segnalato l'errore. L'errore può essere di uno di questi  tipi:
 
 1. errore generico: errore non ben individuato ma che non ha permesso di completare la registrazione;
-2. errore per allegato non conforme: l’accordo di adesione non ha il formato aspettato oppure non coincide con quello inviato dalla piattaforma (per una spiegazione più esaustiva controlla le [FAQ per gli aderenti](broken-reference));
+2. errore per allegato non conforme: l’accordo di adesione non ha il formato aspettato oppure non coincide con quello inviato dalla piattaforma (per una spiegazione più esaustiva controlla la [sezione dedicata](../normativa-e-approfondimenti/accordo-di-adesione.md));
 3. errore per firma digitale non riconducibile al Legale Rappresentante indicato in fase di adesione al prodotto: il firmatario non coincide con quanto dichiarato nel documento;
 4. errore per invalidità dell’operazione, ossia tutti i casi in cui la richiesta sia già stata completata, cancellata o scaduta (passati i 30 giorni dall’invio della richiesta). \
    In questo caso qualora il link presente nella PEC non fosse più valido bisognerà rifare la richiesta di fruizione.

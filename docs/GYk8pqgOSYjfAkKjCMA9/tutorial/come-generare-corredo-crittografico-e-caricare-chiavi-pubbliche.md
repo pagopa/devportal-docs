@@ -1,10 +1,12 @@
 # Come generare corredo crittografico e caricare chiavi pubbliche
 
-Nella vista dell'interfaccia dedicata al caricamento delle chiavi si trova il link ad un breve tutorial che aiuta a dotarsi del materiale crittografico necessario. I punti più rilevanti sono riportati qui per completezza.
+Questo tutorial vale a titolo di esempio, ma è possibile generare il proprio corredo crittografico in molte altre maniere.
 
-### Step 1 - Generare le chiavi&#x20;
+Il vincolo è che si tratti di chiave RSA codificata in PEM di lunghezza 2048 bit.
 
-Aprire il terminale e incollare i comandi qui sotto. Per cambiare nome alla chiave, si può sostituire la stringa `client-test-keypair` con il nome che si vuole dare al file contenente la chiave.
+## Step 1 - Generare il corredo crittografico&#x20;
+
+Aprire il terminale e incollare i comandi qui sotto. Per cambiare nome alla chiave, si può sostituire tutte le occorrenze della stringa `client-test-keypair` con il nome che si vuole dare al file contenente la chiave.
 
 ```
 openssl genrsa -out client-test-keypair.rsa.pem 2048
@@ -12,14 +14,16 @@ openssl rsa -in client-test-keypair.rsa.pem -pubout -out client-test-keypair.rsa
 openssl pkcs8 -topk8 -inform PEM -outform PEM -nocrypt -in client-test-keypair.rsa.pem -out client-test-keypair.rsa.priv
 ```
 
-Il comando genera una coppia di chiave pubblica e privata e un certificato che in questo caso non è necessario utilizzare.&#x20;
+Il comando genera una coppia di chiave pubblica e privata e un certificato, che in questo caso non è necessario utilizzare.&#x20;
 
-### Step 2 - Caricare la chiave
+La chiave privata (`.priv`) rimane all'aderente, il quale la deve mantenere al sicuro. Quella pubblica viene invece caricata su PDND Interoperabilità, per permettere quelle verifiche che portano al rilascio di un voucher valido.
 
-La chiave pubblica deve essere caricata su PDND Interoperabilità, quella privata rimane all'aderente, che la mantiene al sicuro . Gli usi della chiave privata sono: &#x20;
+## Step 2 - Caricare la chiave pubblica
 
-* nel caso di client e-service: firmare la richiesta per ottenere un voucher spendibile presso un e-service dal server autorizzativo di PDND Interoperabilità;
-* nel caso di client API Interop: firmare la richiesta per ottenere un voucher spendibile presso l'API esposta da PDND Interoperabilità dallo stesso server autorizzativo;
-* nel caso di portachiavi erogatore: firmare una risposta da inviare ad un fruitore che ha legittimamente inoltrato una richiesta corredata di un voucher e-service in corso di validità.
+Bisogna entrare nel client di interesse dal back office, nella sezione _**Fruizione > I tuoi client e-service**_\*, e poi entrare nel client di interesse.&#x20;
 
-Per quanto riguarda i client, l'artefatto da inviare al server autorizzativo è una "client assertion". Maggiori informazioni nella [sezione dedicata](../guida-tecnica/utilizzare-i-voucher/#flusso-voucher-spendibile-presso-un-e-service-del-catalogo).
+Nella tab _**Chiavi Pubbliche**_, cliccare su _**Aggiungi**_. Se non è possibile farlo, è possibile che la tua utenze non sia censita tra i membri del client.
+
+Una volta che si apre il pannello laterale,  è necessario copiare l'intero contenuto del file della chiave pubblica (quella che finisce in `.pub`), assicurandosi di includere anche le parti iniziale e finale (incluse  `-----BEGIN PUBLIC KEY-----` e  `-----END PUBLIC KEY-----`).
+
+\*oppure _**Fruizione > I tuoi client API Interop**_ se il client serve per interagire con le API esposte da PDND Interoperabilità.

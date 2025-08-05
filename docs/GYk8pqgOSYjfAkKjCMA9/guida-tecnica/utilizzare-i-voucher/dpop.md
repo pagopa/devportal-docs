@@ -35,4 +35,4 @@ In sostanza, il processo end-to-end richiede sette passaggi:
 6. il fruitore fa una richiesta verso l'e-service dell'erogatore; inserisce sia il voucher rilasciato da PDND Interoperabilità, sia la DPoP generata al punto precedente nell'header DPoP;
 7. l'erogatore effettua le verifiche necessarie. In caso di esito positivo, restituisce i dati al fruitore.
 
-Per il dettaglio su come implementarlo, si rimanda al tutorial dedicato \[TBD].
+Per il dettaglio su come implementarlo, si rimanda al [tutorial dedicato](../../tutorial/come-richiedere-e-spendere-un-voucher-verso-le-api-di-un-erogatore-dpop.md).

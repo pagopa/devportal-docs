@@ -1,42 +1,41 @@
 # Come aggiornare un e-service
 
-## Come creare una nuova versione di e-service
+Il modo di aggiornare l'e-service cambia in funzione del campo che deve essere aggiornato. La modifica di alcuni campi (come ad esempio il file di interfaccia API o il parametro dell'_audience_) sono considerate modifiche potenzialmente _breaking_. Per modificare uno di questi campi, bisogna creare e pubblicare una nuova versione di e-service.
 
-come raccomandazioni generali:&#x20;
+In caso contrario è possibile aggiornare immediatamente il campo dell'e-service, senza ulteriori oneri.&#x20;
 
-evitare interruzioni di servi&#x20;
+## Step 1 - Individuare il campo da modificare
 
-minimizzare l'onere di gestione
+### Campi modificabili senza creare una nuova versione
 
+* nome dell'e-service
+* descrizione dell'e-service
+* autorizzazione al conferimento di deleghe
+* presenza del servizio di notifica di variazioni dei dati (Signal Hub)
+* documentazione tecnica aggiuntiva
+* changelog (descrizione della versione)
+* policy di attivazione delle richieste di fruizione
+* soglie delle chiamate API
+* durata della validità del voucher
 
+### Campi modificabili solo creando una nuova versione
 
-{% hint style="danger" %}
-**Conseguenze** Quando viene creata una nuova versione viene proposto a tutti i fruitori di aggiornare la richiesta di fruizione verso la nuova versione. È caldamente consigliato al fruitore, di consultare il changelog e verificare audience e interfaccia API prima di aggiornare.
-{% endhint %}
+* file interfaccia API
+* audience
+* requisiti di accesso (attributi)\*
 
-### Step 1 - Generale
+\*se gli attributi vengono estesi, è possibile modificarli anche senza creare una nuova versione. Ad esempio, se prima il requisito era solo _Comuni e loro Consorzi e Associazioni_, e oggi diventa _Comuni e loro Consorzi e Associazioni_ _oppure Regioni_, la platea viene semplicemente estesa, ed è possibile fare questa modifica senza creare una nuova versione di e-service.
 
-&#x20;Nella vista _**Erogazione > I tuoi e-service**_ cliccare sui tre pallini alla voce dell'e-service di interesse e selezionare _**Crea bozza**_.&#x20;
+### Campi mai modificabili
 
-Non è possibile avere più bozze dello stesso e-service contemporaneamente.
+* tecnologia (REST o SOAP)
+* modalità (eroga o riceve dati)
 
-<figure><img src="../.gitbook/assets/crea bozza nuova versione.png" alt=""><figcaption><p>Schermata di creazione di una bozza di nuova versione di e-service</p></figcaption></figure>
+Questi campi non sono mai aggiornabili. È necessario creare un nuovo e-service.
 
-### Step 2 -  Versione
+## Step 2 - Operare la modifica
 
-Compilare la scheda di creazione della nuova versione di e-service: alcuni campi saranno precompilati con i dati della versione precedente, ma si potranno modificare a proprio piacimento.
+Se non necessita di una nuova versione, si veda il tutorial [Come aggiornare un e-service senza pubblicare una nuova versione](come-aggiornare-un-e-service-senza-pubblicare-una-nuova-versione.md). Se si necessita di una nuova versione, si veda il tutorial [Come aggiornare un e-service pubblicando una nuova versione](come-aggiornare-un-e-service-pubblicando-una-nuova-versione.md).
 
-Cliccare _**Salva bozza e prosegui.**_
-
-
-
-<figure><img src="../.gitbook/assets/bozza precompilata nuova versione.png" alt=""><figcaption><p>Schermata di modifica delle informazioni in una nuova versione di e-service</p></figcaption></figure>
-
-### Step 3 - Attributi
-
-
-
-### Step 4 - Documentazione
-
-
+Maggiori informazioni anche nel [webinar dedicato](https://developer.pagopa.it/webinars/e-service-erogazione-inversa) (dal minuto 8).
 
