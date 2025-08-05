@@ -24,7 +24,7 @@ Per eventuali dubbi, un esempio pratico di come è fatta una client assertion è
 
 ## Il campo "nbf" è previsto dallo standard ma non lo vedo
 
-Corretto, il campo "nbf" non è tra i claim ammessi e non va inserito nella client assertion.
+Corretto, il campo `nbf` non è tra i claim ammessi e non va inserito nella client assertion.
 
 ## Dove devo inserire i nuovi custom claim previsti? Intendo "producerId", "consumerId", "eserviceId", "descriptorId"
 
@@ -38,9 +38,9 @@ No, nel contesto di un voucher di tipo Bearer Token è opzionale e va inserito s
 
 Non vanno inseriti nella client assertion. Quei campi sono informazioni aggiuntive richieste da specifici erogatori per specifici e-service e fanno parte dell'interazione fra erogatore e fruitore, non devono essere noti a PDND Interoperabilità.
 
-Per passarli all’erogatore, bisogna inserire quei campi nel secondo token previsto da AgID, l’“Integrity REST 02”. Questo secondo token sarà passato all’erogatore nell’header della chiamata verso la sua API, con chiave Agid-JWT-Tracking-Evidence.
+Per passarli all’erogatore, bisogna inserire quei campi nel secondo token previsto da AgID, l’“Audit REST 02”. Questo secondo token sarà passato all’erogatore nell’header della chiamata verso la sua API, con chiave `Agid-JWT-Tracking-Evidence`.
 
-Dal token creato per Integrity REST 02, calcolare l'hash usando l'algoritmo sha-256. A quel punto, inserire il valore risultante nel campo \`digest\` della client assertion, come
+Dal token creato per Audit REST 02, calcolare l'hash usando l'algoritmo sha-256. A quel punto, inserire il valore risultante nel campo \`digest\` della client assertion, come
 
 ```
 digest: {
@@ -55,9 +55,4 @@ Puoi usare lo strumento di debug presente nel back office alla voce _Fruizione >
 
 ## Dove trovo maggiori informazioni?
 
-Nel manuale tecnico. In particolare:
-
-* [implementazione standard](https://docs.pagopa.it/interoperabilita-1/manuale-operativo/utilizzare-i-voucher#richiesta-di-un-voucher-spendibile-presso-un-e-service-del-catalogo);
-* [implementazione con digest](https://docs.pagopa.it/interoperabilita-1/manuale-operativo/utilizzare-i-voucher#trasmettere-e-tracciare-dati-complementari-alla-richiesta).
-
-Inoltre, per un flusso completo, nel [webinar dedicato](https://developer.pagopa.it/webinars/DevTalks-PDNDInterop-voucher).
+In questo manuale tecnico, nella [sezione dedicata](tipi-di-richiesta-di-voucher.md). Inoltre, per un flusso completo, nel [webinar dedicato](https://developer.pagopa.it/webinars/DevTalks-PDNDInterop-voucher).

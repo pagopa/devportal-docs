@@ -25,7 +25,7 @@ L'erogatore inoltre indicare una data di attivazione prevista, in modo da comuni
 
 È sempre possibile aggiornare la propria stima di carico, aumentando o riducendo il numero di chiamate API/giorno richieste all'erogatore.
 
-Se la richiesta supera una o entrambe le soglie che l'erogatore ha impostato nella versione del proprio e-service, quell'adeguamento non sarà immediatamente attivo e utilizzabile. Sarà facoltà dell'erogatore approvarlo manualmente. Maggiori informazioni sul meccanismo di soglia e stima nella [sezione dedicata](../e-service/soglie-e-stime-di-carico.md).
+Se la richiesta supera una o entrambe le soglie che l'erogatore ha impostato nella versione del proprio e-service, quell'adeguamento non sarà immediatamente attivo e utilizzabile. Sarà facoltà dell'erogatore approvarlo manualmente. Maggiori informazioni sul meccanismo di soglia e stima nella [sezione dedicata](../e-service/soglie-di-carico.md).
 
 ### Approvazione o rifiuto di una finalità sopra soglia
 

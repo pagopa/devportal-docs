@@ -1,26 +1,32 @@
 # Garanzia dell'integrità della risposta
 
-È possibile per gli erogatori mettere a disposizione dei fruitori un ulteriore livello di sicurezza, che garantisca l'integrità della risposta fornita.
+È possibile per gli erogatori mettere a disposizione dei fruitori un ulteriore livello di sicurezza, che garantisca loro l'integrità della risposta che ricevono.
 
 In sostanza, gli erogatori firmano la propria risposta con una chiave privata, la cui corrispondente chiave pubblica è depositata su PDND Interoperabilità per le dovute verifiche.
 
-Si rimanda alla [sezione dedicata](../client-e-materiale-crittografico/) per tutte le operazioni legate alla gestione di un portachiavi.
+La chiave pubblica viene caricata dall'erogatore all'interno di un portachiavi (disponibile all'interno della scheda del proprio e-service — _Erogazione > I tuoi e-service_, seleziona un e-service, tab _Portachiavi_). Sarà possibile per il fruitore verificare la corrispondenza chiedendo la chiave pubblica attraverso le API di PDND Interoperabilità.
 
-### Precondizioni&#x20;
+Per tutte le operazioni legate alla gestione di un portachiavi, si rimanda alla [sezione dedicata](../client-e-materiale-crittografico/).
+
+## Precondizioni&#x20;
 
 * l'erogatore deve avere creato un portachiavi;
-* deve averlo associato ad un e-service attraverso la tab _**Portachiavi**_ disponibile all'interno della scheda e-service;
+* deve averlo associato ad un e-service attraverso la tab _Portachiavi_ disponibile all'interno della scheda e-service;
 * un suo operatore di sicurezza o amministratore deve aver caricato almeno una chiave pubblica all'interno di quel portachiavi.
 
 Sarà quindi possibile per l'erogatore firmare la propria risposta con la propria chiave privata. Il fruitore potrà verificare la corrispondente chiave pubblica depositata su PDND Interoperabilità.
 
-{% hint style="info" %}
-Il ModI lascia discrezione all'erogatore nell'indicare qual debba essere la procedura corretta di firma del payload e verifica da parte del fruitore. Per questa ragione, PDND Interoperabilità non impone alcun vincolo in questo senso ad accezione dell'utilizzo di chiavi asimmetriche di tipo RSA in conformità con gli standard di sicurezza già adottati.
-{% endhint %}
+## Esempio
 
-Di seguito riportiamo a titolo di esempio una possibile gestione del meccanismo di firma del payload di risposta di un e-service.
+Il MoDI lascia discrezione all'erogatore nell'indicare qual debba essere la procedura corretta di firma del payload e verifica da parte del fruitore.&#x20;
 
-### Definizione della struttura della risposta
+Per questa ragione, PDND Interoperabilità non impone alcun vincolo, ad accezione dell'utilizzo di chiavi asimmetriche di tipo RSA in conformità con gli standard di sicurezza già adottati.
+
+Nel tutorial dedicato \[TBD], si riporta a titolo di esempio una possibile gestione del meccanismo di firma del payload di risposta di un e-service.
+
+***
+
+## Definizione della struttura della risposta
 
 Questa sezione descrive come firmare un payload di risposta HTTP utilizzando RSA, per garantire che i dati provenienti da un e-service e non siano stati modificati.&#x20;
 
