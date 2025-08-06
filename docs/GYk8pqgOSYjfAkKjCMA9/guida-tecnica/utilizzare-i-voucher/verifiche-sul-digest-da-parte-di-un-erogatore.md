@@ -35,7 +35,7 @@ L'erogatore quindi:
 
 Per verificare l'autenticità e la validità della chiave privata con la quale è firmato il JWS, l'erogatore:
 
-1. si autentica sulle API di PDND Interoperabilità come descritto nel [flusso dedicato](../../tutorial-back-office/come-richiedere-un-voucher-bearer-per-le-api-di-pdnd-interoperabilita.md);
+1. si autentica sulle API di PDND Interoperabilità come descritto nel [flusso dedicato](../../tutorial-voucher/come-richiedere-un-voucher-bearer-per-le-api-di-pdnd-interoperabilita.md);
 2. effettua una chiamata `GET /keys/{kid}` dove `kid` è valorizzato con il `kid` inserito nell'header del JWS;
 3. ottiene da PDND Interoperabilità una chiave pubblica in risposta all'interno del campo `n`;
 4. verifica la corrispondenza tra la firma del JWS, effettuata dal fruitore con la chiave privata, e la chiave pubblica appena ottenuta.

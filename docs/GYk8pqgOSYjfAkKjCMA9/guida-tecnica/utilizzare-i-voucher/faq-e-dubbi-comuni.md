@@ -55,7 +55,7 @@ Puoi usare lo strumento di debug presente nel back office alla voce _Fruizione >
 
 ## Come è fatto un voucher rilasciato da PDND Interoperabilità?
 
-Dipende dal tipo di voucher: Bearer Token ([base](../../tutorial-back-office/come-richiedere-un-voucher-bearer-per-le-api-di-un-erogatore-base.md) o [con informazioni aggiuntive](../../tutorial-back-office/come-richiedere-un-voucher-bearer-per-le-api-di-un-erogatore-con-informazioni-aggiuntive.md)) o DPoP ([base](../../tutorial-back-office/come-richiedere-un-voucher-dpop-per-le-api-di-un-erogatore-base.md) o [con informazioni aggiuntive](../../tutorial-back-office/come-richiedere-un-voucher-dpop-per-le-api-di-un-erogatore-con-informazioni-aggiuntive.md)). In ognuno dei tutorial dedicati viene indicato come è strutturato il voucher.
+Dipende dal tipo di voucher: Bearer Token ([base](../../tutorial-voucher/come-richiedere-un-voucher-bearer-per-le-api-di-un-erogatore-base.md) o [con informazioni aggiuntive](../../tutorial-voucher/come-richiedere-un-voucher-bearer-per-le-api-di-un-erogatore-con-informazioni-aggiuntive.md)) o DPoP ([base](../../tutorial-voucher/come-richiedere-un-voucher-dpop-per-le-api-di-un-erogatore-base.md) o [con informazioni aggiuntive](../../tutorial-voucher/come-richiedere-un-voucher-dpop-per-le-api-di-un-erogatore-con-informazioni-aggiuntive.md)). In ognuno dei tutorial dedicati viene indicato come è strutturato il voucher.
 
 ## Dove trovo maggiori informazioni?
 
