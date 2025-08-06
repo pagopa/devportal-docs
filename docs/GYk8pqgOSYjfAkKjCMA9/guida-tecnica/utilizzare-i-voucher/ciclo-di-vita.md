@@ -45,7 +45,7 @@ Le API di PDND Interoperabilità sono fornite a tutti gli aderenti per contratto
 
 L'elenco delle API esposte da PDND Interoperabilità è disponibile [qui](https://developer.pagopa.it/pdnd-interoperabilita/api).&#x20;
 
-Per maggiori informazioni, si veda il [tutorial pratico](../../tutorial-back-office/come-richiedere-e-spendere-un-voucher-verso-le-api-di-pdnd-interoperabilita.md).
+Per maggiori informazioni, si veda il [tutorial pratico](../../tutorial-back-office/come-richiedere-un-voucher-bearer-per-le-api-di-pdnd-interoperabilita.md).
 
 {% hint style="info" %}
 PDND Interoperabilità non ha visibilità dei dati scambiati tra erogatore e fruitore. Le proprie API restituiscono solamente informazioni relative al dominio di PDND stessa (es. l'elenco delle richieste di fruizione presentate dal proprio ente).
@@ -55,7 +55,10 @@ PDND Interoperabilità non ha visibilità dei dati scambiati tra erogatore e fru
 
 Impiegato dalla grande maggioranza dei servizi, prevede la creazione di una client assertion che dettagli le informazioni base richieste da PDND Interoperabilità. Queste sono utili sia ai fini di audit, che perché l'erogatore possa valutare le richieste di accesso ai dati che gli pervengono.
 
-Per maggiori informazioni, si vedano il [tutorial pratico](../../tutorial-back-office/come-richiedere-e-spendere-un-voucher-verso-le-api-di-un-erogatore-base.md) e le [verifiche standard](verifiche-su-un-voucher-bearer-token-da-parte-di-un-erogatore.md).
+Per maggiori informazioni, si vedano:
+
+* lato fruitore: il [tutorial pratico](../../tutorial-back-office/come-richiedere-un-voucher-bearer-per-le-api-di-un-erogatore-base.md) per richiedere un voucher;
+* lato erogatore: le [verifiche standard](verifiche-su-un-voucher-bearer-da-parte-di-un-erogatore.md) consigliate.
 
 ## Bearer Token spendibile presso le API di un erogatore (con informazioni aggiuntive — pattern ModI _Audit REST 02_)
 
@@ -73,9 +76,12 @@ Infine, dopo aver ottenuto un voucher da PDND Interoperabilità, il fruitore ins
 
 L'erogatore confronta quindi l'hash che trova nel _digest_ che trova riportato nel voucher PDND con un valore calcolato a partire dal contenuto del secondo JWT. Se c'è corrispondenza, i dato aggiuntivi presenti nel secondo JWT sono integri.
 
-Per maggiori informazioni, si vedano il [tutorial pratico](../../tutorial-back-office/come-richiedere-e-spendere-un-voucher-verso-le-api-di-un-erogatore-con-informazioni-aggiuntive.md), le [verifiche standard](verifiche-su-un-voucher-bearer-token-da-parte-di-un-erogatore.md) e le [verifiche aggiuntive](verifiche-sul-digest-da-parte-di-un-erogatore.md).
+Per maggiori informazioni, si vedano:
 
-## DPoP spendibile presso le API di un erogatore
+* lato fruitore: il [tutorial pratico](../../tutorial-back-office/come-richiedere-un-voucher-bearer-per-le-api-di-un-erogatore-con-informazioni-aggiuntive.md) per richiedere un voucher;
+* lato erogatore: le [verifiche standard](verifiche-su-un-voucher-bearer-da-parte-di-un-erogatore.md) e le [verifiche aggiuntive](verifiche-sul-digest-da-parte-di-un-erogatore.md) consigliate.
+
+## DPoP spendibile presso le API di un erogatore (base)
 
 Il pattern di DPoP, _Demonstrating Proof-of-Possession_, prevede l'uso di due token di DPoP, uno destinato a PDND Interoperabilità e l'altro al resource server al quale si vuole richiedere il dato. Se non c'è corrispondenza tra le due verifiche indipendenti, la richiesta non viene autorizzata.
 
@@ -83,5 +89,19 @@ Questo pattern offre un layer di sicurezza aggiuntivo, utile ad esempio nei casi
 
 È una valida alternativa al mTLS per alcuni casi. Ha il vantaggio di non necessitare uno scambio di certificati tra le due parti e di non richiedere particolare manutenzione, specialmente da parte dell'erogatore.
 
-Per maggiori informazioni, si vedano il [tutorial pratico](../../tutorial-back-office/come-richiedere-e-spendere-un-voucher-verso-le-api-di-un-erogatore-dpop.md) e l'[approfondimento](dpop.md).
+Per maggiori informazioni, si vedano:
+
+* lato fruitore: il [tutorial pratico](../../tutorial-back-office/come-richiedere-un-voucher-dpop-per-le-api-di-un-erogatore-base.md) per richiedere un voucher;
+* lato erogatore: le [verifiche standard](verifiche-su-un-voucher-dpop-da-parte-di-un-erogatore.md) consigliate;
+* tutti: l'[approfondimento dedicato](dpop.md).
+
+## DPoP spendibile presso le API di un erogatore (con informazioni aggiuntive — pattern ModI _Audit REST 02_)
+
+Ricalca il caso precedente di DPoP, includendo in più le informazioni aggiuntive che un erogatore può eventualmente richiedere, come riportato nel caso [ancora precedente](ciclo-di-vita.md#bearer-token-spendibile-presso-le-api-di-un-erogatore-con-informazioni-aggiuntive-pattern-modi-audit).&#x20;
+
+Per maggiori informazioni, si vedano:
+
+* lato fruitore: il [tutorial pratico](../../tutorial-back-office/come-richiedere-un-voucher-dpop-per-le-api-di-un-erogatore-con-informazioni-aggiuntive.md) per richiedere un voucher;
+* lato erogatore: le [verifiche standard](verifiche-su-un-voucher-dpop-da-parte-di-un-erogatore.md) e le [verifiche aggiuntive](verifiche-sul-digest-da-parte-di-un-erogatore.md) consigliate;
+* tutti: l'[approfondimento dedicato](dpop.md).
 

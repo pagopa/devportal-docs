@@ -2,9 +2,9 @@
 
 I voucher sono rilasciati da PDND Interoperabilità ai fruitori sotto forma di **JWT** **(JSON Web Token)**.&#x20;
 
-A seconda della richiesta, possono implementare una specifica diversa (Bearer Token, DPoP), oppure avere una destinazione diversa (un'API di un erogatore, una delle API di PDND Interoperabilità).
+A seconda della richiesta, possono implementare una specifica diversa (Bearer Token, DPoP), oppure avere una destinazione diversa (una API di un erogatore, una delle API di PDND Interoperabilità).
 
-PDND Interoperabilità utilizza specifiche che si basano sulla specifica [RFC 6750](https://datatracker.ietf.org/doc/html/rfc6750) (**OAuth 2.0**). L'autorizzazione del client tramite client assertion è implementata secondo lo standard [RFC 7521](https://datatracker.ietf.org/doc/html/rfc7521). Ulteriori RFC dipendono dal tipo di voucher rilasciato e sono indicate puntualmente nelle varie sezioni.
+PDND Interoperabilità utilizza specifiche che si basano sull'[RFC 6750](https://datatracker.ietf.org/doc/html/rfc6750) (**OAuth 2.0**). L'autorizzazione del client tramite client assertion è implementata secondo lo standard [RFC 7521](https://datatracker.ietf.org/doc/html/rfc7521). Ulteriori RFC dipendono dal tipo di voucher rilasciato e sono indicate puntualmente nelle varie sezioni.
 
 Il tipo di voucher che un erogatore richiede è sempre indicato nel documento di interfaccia API e nella documentazione tecnica che un erogatore inserisce all'interno del proprio e-service.
 

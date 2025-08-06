@@ -1,8 +1,6 @@
-# Come richiedere e spendere un voucher verso le API di PDND Interoperabilità
+# Come richiedere un voucher Bearer per le API di PDND Interoperabilità
 
 Per un elenco di tutte le API messe a disposizione da PDND Interoperabilità, si veda [qui](https://app.gitbook.com/o/KXYtsf32WSKm6ga638R3/s/zwqHiUqrZCs3zNnHdc9A/).
-
-Il flusso di autenticazione implementato è un OAuth 2.0 che fa riferimento all'[RFC 6750](https://datatracker.ietf.org/doc/html/rfc6750) per quanto riguarda l'uso del Bearer token e all'[RFC 7521](https://datatracker.ietf.org/doc/html/rfc7521) per l'autorizzazione del client tramite client assertion.
 
 Maggiori informazioni su questa implementazione nella [sezione dedicata](../guida-tecnica/utilizzare-i-voucher/ciclo-di-vita.md#bearer-token-spendibile-presso-le-api-di-pdnd-interoperabilita).
 
@@ -66,7 +64,7 @@ A scopo esemplificativo, è stato pubblicato uno script Python per dimostrare co
 
 È inoltre disponibile una funzione per verificare la validità della propria client assertion ed evidenziare eventuali errori. Lo strumento è disponibile nel back office su _**Fruizione > Debug client assertion**_.
 
-## Step 2 - Richiesta del voucher al server autorizzativo di PDND Interoperabilità
+## Step 2 - Richiedere il voucher al server autorizzativo
 
 Il secondo passaggio è chiamare il server autorizzativo di PDND Interoperabilità con la client assertion firmata per ottenerne in cambio un voucher spendibile presso le API di PDND Interoperabilità.&#x20;
 
@@ -81,11 +79,52 @@ L'endpoint andrà chiamato con alcuni parametri nel body:
 | `client_assertion_type` | il formato della client assertion, come indicato in RFC (sempre `urn:ietf:params:oauth:client-assertion-type:jwt-bearer`) |
 | `grant_type`            | la tipologia di flusso utilizzato, come indicato in RFC (sempre `client_credentials`)                                     |
 
-## Step 3 - Attendere le verifiche del server di PDND, che rilascia il voucher
+## Step 3 - Il server autorizzativo verifica, e rilascia il voucher
 
 Se tutto è impostato correttamente, PDND Interoperabilità risponderà con un voucher valido all'interno del body della risposta alla proprietà `access_token`.&#x20;
 
 Sempre nella risposta, sarà contenuta anche la durata di validità del voucher in secondi (es. `"expires_in": 600`  indica un voucher con validità 10 minuti, 10 \* 60 secondi = 600). La durata del voucher è scelta dall'erogatore sulla base delle proprie considerazioni di sicurezza.
+
+La risposta che il server autorizzativo di PDND Interoperabilità restituisce è la seguente:
+
+```
+{
+  "access_token": "eyJ0eXAiOiJhdCtqd3QiLC...",
+  "expires_in": 600
+}
+```
+
+Se decodifichiamo il campo dedicato all'`access_token`, troviamo
+
+Header:
+
+```
+{
+  "typ": "at+jwt",
+  "alg": "RS256",
+  "kid": "{KID_CHIAVE_PDND}"
+}
+```
+
+Payload:
+
+```
+{
+  "iss": "interop.pagopa.it", 
+  "nbf": 1747408537,
+  "iat": 1747408537,
+  "exp": 1747409537,
+  "jti": "12297ac1-c192-4573-8350-207a4213e5ac",
+  "aud": "api.interop.pagopa.it/v2",
+  "sub": "9b361d49-33f4-4f1e-a88b-4e12661f2309",
+  "client_id": "9b361d49-33f4-4f1e-a88b-4e12661f2309",
+  "purposeId": "1b361d49-33f4-4f1e-a88b-4e12661f2300",
+  "producerId" : "0e9e2dab-2e93-4f24-ba59-38d9f11198ca",
+  "consumerId" : "69e2865e-65ab-4e48-a638-2037a9ee2ee7",
+  "eserviceId" : "b8c6d7ad-93fc-4eaf-9018-3cd8bf98163f",
+  "descriptorId": "9525a54b-9157-4b46-8976-ec66f20b7d7e"
+}
+```
 
 ## Step 4 - Richiedere i dati a PDND Interoperabilità
 

@@ -1,6 +1,8 @@
-# Come richiedere e spendere un voucher verso le API di un erogatore (DPoP)
+# Come richiedere un voucher DPoP per le API di un erogatore (base)
 
 Questo tutorial spiega come attivare e usare Demonstrating Proof‑of‑Possession (DPoP) – lo standard IETF ([RFC 9449](https://datatracker.ietf.org/doc/html/rfc9449)) che rende un voucher (token JWT) inutilizzabile se sottratto, perché vincolato a una chiave pubblica posseduta dal chiamante.
+
+Maggiori informazioni su questa implementazione nella [sezione dedicata](../guida-tecnica/utilizzare-i-voucher/ciclo-di-vita.md#bearer-token-spendibile-presso-le-api-di-un-erogatore-base).
 
 ## Il flusso in breve <a href="#il-flusso-in-breve" id="il-flusso-in-breve"></a>
 
@@ -95,7 +97,7 @@ Ecco nel dettaglio i campi sopra indicati:
 
 <table><thead><tr><th width="112.5546875">Nome campo</th><th>Significato</th></tr></thead><tbody><tr><td><code>typ</code></td><td>deve essere impostato a <code>dpop+jwt</code></td></tr><tr><td><code>alg</code></td><td>indica l'algoritmo usato per la firma della DPoP. L'algoritmo consigliato è ES256</td></tr><tr><td><code>jwk</code></td><td>la chiave pubblica in formato JWK corrispondente alla chiave privata utilizzata per firmare la DPoP</td></tr><tr><td><code>htm</code></td><td>indica il metodo HTTP che si sta invocando. Per l'ottenimento di un voucher da PDND Interoperabilità, il metodo è <code>POST</code></td></tr><tr><td><code>htu</code></td><td>indica l'URL che si sta invocando. Per l'ottenimento di un voucher da PDND Interoperabilità in ambiente di produzione è <code>https://auth.interop.pagopa.it/token.oauth2</code> (per gli ambienti di attestazione e collaudo va inserita quella specifica)</td></tr><tr><td><code>iat</code></td><td>l'issued at, il timestamp riportante data e ora in cui viene creata la DPoP, espresso in <a href="https://datatracker.ietf.org/doc/html/rfc3339">UNIX epoch</a> (valore numerico, non stringa)</td></tr><tr><td><code>jti</code></td><td>identificativo univoco della DPoP. Deve essere cura del fruitore assicurarsi che l'id di questo token sia unico e non venga riutilizzato</td></tr></tbody></table>
 
-## Step 3 - Richiesta del voucher al server autorizzativo di PDND Interoperabilità
+## Step 3 - Richiedere il voucher al server autorizzativo
 
 Il terzo passaggio è chiamare il server autorizzativo di PDND Interoperabilità con la client assertion firmata per ottenerne in cambio un voucher spendibile presso le API di PDND Interoperabilità.
 
@@ -115,7 +117,7 @@ L'endpoint andrà chiamato con alcuni parametri nel body:
 | `client_assertion_type` | il formato della client assertion, come indicato in RFC (sempre `urn:ietf:params:oauth:client-assertion-type:jwt-bearer`) |
 | `grant_type`            | la tipologia di flusso utilizzato, come indicato in RFC (sempre `client_credentials`)                                     |
 
-## Step 4 - Attendere le verifiche del server di PDND, che rilascia il voucher
+## Step 4 - Il server autorizzativo verifica, e rilascia il voucher
 
 Il server autorizzativo di PDND Interoperabilità effettua le verifiche necessarie, in particolare:
 
@@ -143,7 +145,7 @@ Header:
 
 ```
 {
-  "typ": "at+jwt",
+  "typ": "dpop+jwt",
   "alg": "RS256",
   "use": "sig",
   "kid": "{KID_CHIAVE_PDND}"
@@ -205,8 +207,8 @@ Inoltre, il fruitore deve inserire anche un altro header, in particolare:
 <pre><code><strong>DPoP: &#x3C;DPoP_proof_generata_al_passaggio_precedente>
 </strong></code></pre>
 
-## Step 7 - Attendere risposta dall'erogatore
+## Step 7 - Attendere le verifiche dell'erogatore
 
 L'erogatore effettua tutte le verifiche necessarie. Se tutto è in ordine, elabora la richiesta del fruitore, restituendogli i dati richiesti in caso di e-service che eroga dati, oppure accettando i dati dal fruitore in caso di e-service che riceve dati.
 
-Per consultare le verifiche consigliate agli erogatori, si veda la [sezione dedicata](../guida-tecnica/utilizzare-i-voucher/todo-verifiche-su-un-voucher-dpop-da-parte-di-un-erogatore.md).
+Per consultare le verifiche consigliate agli erogatori, si veda la [sezione dedicata](../guida-tecnica/utilizzare-i-voucher/verifiche-su-un-voucher-dpop-da-parte-di-un-erogatore.md).
