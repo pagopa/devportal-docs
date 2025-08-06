@@ -4,7 +4,7 @@
 
 Il documento descrive il ciclo di vita di una richiesta di fruizione, tecnicamente denominata **Agreement**, dettagliando gli stati che può assumere e le condizioni necessarie per le transizioni tra stati.
 
-Si rimanda alla [sezione dedicata](../guida-tecnica/richieste-di-fruizione/) per ulteriori informazioni sulle richieste di fruizione.
+Si rimanda alla [sezione dedicata](../guida-tecnica-prodotto/richieste-di-fruizione/) per ulteriori informazioni sulle richieste di fruizione.
 
 ## Attributi
 

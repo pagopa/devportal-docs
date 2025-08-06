@@ -3,7 +3,7 @@
 ## Panoramica
 
 Il documento descrive il ciclo di vita di una finalità, tecnicamente denominata **Purpose**, dettagliando gli stati che può assumere e le condizioni necessarie per le transizioni tra stati.\
-Si rimanda alla [documentazione](../guida-tecnica/finalita/) per ulteriori informazioni sulle finalità.
+Si rimanda alla [documentazione](../guida-tecnica-prodotto/finalita/) per ulteriori informazioni sulle finalità.
 
 ## Versioni di una finalità
 

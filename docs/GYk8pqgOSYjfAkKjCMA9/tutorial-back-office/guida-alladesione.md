@@ -93,7 +93,7 @@ Se il caricamento va a buon fine, avrai risposta positiva, ricevendo inoltre una
 In caso contrario, ti sarà segnalato l'errore. L'errore può essere di uno di questi  tipi:
 
 1. errore generico: errore non ben individuato ma che non ha permesso di completare la registrazione;
-2. errore per allegato non conforme: l’accordo di adesione non ha il formato aspettato oppure non coincide con quello inviato dalla piattaforma (per una spiegazione più esaustiva controlla la [sezione dedicata](../normativa-e-approfondimenti/accordo-di-adesione.md));
+2. errore per allegato non conforme: l’accordo di adesione non ha il formato aspettato oppure non coincide con quello inviato dalla piattaforma (per una spiegazione più esaustiva controlla la [sezione dedicata](../il-prodotto/normativa-e-approfondimenti/accordo-di-adesione.md));
 3. errore per firma digitale non riconducibile al Legale Rappresentante indicato in fase di adesione al prodotto: il firmatario non coincide con quanto dichiarato nel documento;
 4. errore per invalidità dell’operazione, ossia tutti i casi in cui la richiesta sia già stata completata, cancellata o scaduta (passati i 30 giorni dall’invio della richiesta). \
    In questo caso qualora il link presente nella PEC non fosse più valido bisognerà rifare la richiesta di fruizione.

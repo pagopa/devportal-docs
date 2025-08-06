@@ -27,7 +27,7 @@ Nella parte versionata vengono richiesti:
 * **changelog** ("descrizione della versione")**:** una breve descrizione testuale che evidenzia i cambiamenti della versione corrente rispetto alle versioni precedenti;
 * **attributi:** elenco di requisiti di accesso che il fruitore deve possedere per potersi vedere attivata la richiesta di fruizione e accedere al servizio dell'erogatore. Maggiori informazioni nella [sezione dedicata](../attributi/);
 * **policy di attivazione delle richieste di fruizione:** di default, tutte le richieste di fruizione presentate dai fruitori vengono attivate automaticamente, se questi possiedono tutti i requisiti di accesso richiesti per il servizio. L'erogatore può scegliere di attivarle manualmente anche in questo caso;
-* **soglie delle chiamate API**: il carico, espresso in chiamate API/giorno, che la propria infrastruttura è in grado di sopportare. Per maggiori dettagli, si rimanda alla [sezione dedicata](soglie-di-carico.md), che descrive in dettaglio il meccanismo della stima di carico;
+* **soglie delle chiamate API**: il carico, espresso in chiamate API/giorno, che la propria infrastruttura è in grado di sopportare. Per maggiori dettagli, si rimanda alla [sezione dedicata](soglie-e-stime-di-carico.md), che descrive in dettaglio il meccanismo della stima di carico;
 * **durata della validità del voucher:** dopo quanto tempo scade il voucher rilasciato da PDND Interoperabilità valido per accedere a questo servizio;
 * **parametro audience&#x20;**_**(aud)**_**:** un claim standard che rappresenta la risorsa per la quale si autorizza la richiesta. Può essere una URL o un identificativo univoco. L'erogatore riceverà questo valore all'interno del voucher rilasciato al fruitore da PDND Interoperabilità.
 

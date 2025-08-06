@@ -2,7 +2,7 @@
 
 Per un elenco di tutte le API messe a disposizione da PDND Interoperabilità, si veda [qui](https://app.gitbook.com/o/KXYtsf32WSKm6ga638R3/s/zwqHiUqrZCs3zNnHdc9A/).
 
-Maggiori informazioni su questa implementazione nella [sezione dedicata](../guida-tecnica/utilizzare-i-voucher/ciclo-di-vita.md#bearer-token-spendibile-presso-le-api-di-pdnd-interoperabilita).
+Maggiori informazioni su questa implementazione nella [sezione dedicata](../guida-tecnica-prodotto/utilizzare-i-voucher/tipi-di-richiesta-di-voucher.md#bearer-token-spendibile-presso-le-api-di-pdnd-interoperabilita).
 
 ## Il flusso in breve <a href="#il-flusso-in-breve" id="il-flusso-in-breve"></a>
 

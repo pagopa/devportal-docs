@@ -2,7 +2,7 @@
 
 Questo tutorial spiega come attivare e usare Demonstrating Proof‑of‑Possession (DPoP) – lo standard IETF ([RFC 9449](https://datatracker.ietf.org/doc/html/rfc9449)) che rende un voucher (token JWT) inutilizzabile se sottratto, perché vincolato a una chiave pubblica posseduta dal chiamante.
 
-Maggiori informazioni su questa implementazione nella [sezione dedicata](../guida-tecnica/utilizzare-i-voucher/ciclo-di-vita.md#bearer-token-spendibile-presso-le-api-di-un-erogatore-base).
+Maggiori informazioni su questa implementazione nella [sezione dedicata](../guida-tecnica-prodotto/utilizzare-i-voucher/tipi-di-richiesta-di-voucher.md#bearer-token-spendibile-presso-le-api-di-un-erogatore-base).
 
 ## Il flusso in breve <a href="#il-flusso-in-breve" id="il-flusso-in-breve"></a>
 
@@ -211,4 +211,4 @@ Inoltre, il fruitore deve inserire anche un altro header, in particolare:
 
 L'erogatore effettua tutte le verifiche necessarie. Se tutto è in ordine, elabora la richiesta del fruitore, restituendogli i dati richiesti in caso di e-service che eroga dati, oppure accettando i dati dal fruitore in caso di e-service che riceve dati.
 
-Per consultare le verifiche consigliate agli erogatori, si veda la [sezione dedicata](../guida-tecnica/utilizzare-i-voucher/verifiche-su-un-voucher-dpop-da-parte-di-un-erogatore.md).
+Per consultare le verifiche consigliate agli erogatori, si veda la [sezione dedicata](../guida-tecnica-prodotto/utilizzare-i-voucher/verifiche-su-un-voucher-dpop-da-parte-di-un-erogatore.md).

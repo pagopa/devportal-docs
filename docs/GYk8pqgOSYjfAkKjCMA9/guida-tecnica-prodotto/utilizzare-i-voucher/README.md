@@ -8,7 +8,7 @@ PDND Interoperabilità utilizza specifiche che si basano sull'[RFC 6750](https:/
 
 Il tipo di voucher che un erogatore richiede è sempre indicato nel documento di interfaccia API e nella documentazione tecnica che un erogatore inserisce all'interno del proprio e-service.
 
-Le richieste di voucher possibili e le loro differenze sono dettagliate nella [sezione dedicata](ciclo-di-vita.md).
+Le richieste di voucher possibili e le loro differenze sono dettagliate nella [sezione dedicata](tipi-di-richiesta-di-voucher.md).
 
 A maggior tutela, l'erogatore può inoltre firmare a sua volta la propria risposta, garantendone al fruitore l'integrità. Per farlo, utilizza il meccanismo del _portachiavi erogatore_ (chiamato _Server dell'aderente_ nelle Linee Guida AgID). Maggiori informazioni nella [sezione dedicata](garanzia-dellintegrita-della-risposta.md).&#x20;
 

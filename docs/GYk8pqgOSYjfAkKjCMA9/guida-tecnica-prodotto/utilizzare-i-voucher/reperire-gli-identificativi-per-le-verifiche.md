@@ -8,6 +8,6 @@ Questi identificativi unici sono diversi per ogni ambiente, cioè non sono gli s
 
 `purposeId` e `consumerId` si trovano invece nella scheda finalità di erogazione (_**Erogazione > Finalità**_).&#x20;
 
-Tutti i parametri sono disponibili anche sulle [API esposte da PDND Interoperablità](../informazioni-utili/api-esposte-da-pdnd-interoperabilita.md).&#x20;
+Tutti i parametri sono disponibili anche sulle [API esposte da PDND Interoperablità](../api-esposte-da-pdnd-interoperabilita/).&#x20;
 
-Gli id non cambiano nel tempo e non contengono informazioni sensibili. Si consiglia quindi di fare caching per una maggiore efficienza nella verifica, ed eventualmente sfruttare le [notifiche di aggiornamento](../informazioni-utili/api-esposte-da-pdnd-interoperabilita.md#canale-di-notifica) sull'API per recepire eventuali modifiche.
+Gli id non cambiano nel tempo e non contengono informazioni sensibili. Si consiglia quindi di fare caching per una maggiore efficienza nella verifica, ed eventualmente sfruttare le [notifiche di aggiornamento](../api-esposte-da-pdnd-interoperabilita/#canale-di-notifica) sull'API per recepire eventuali modifiche.

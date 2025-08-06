@@ -70,7 +70,7 @@ Il fruitore può verificare l’autenticità e l’integrità dei dati ricevuti 
 
 #### Identificazione della chiave corretta
 
-La chiave corrispondente al kid è disponibile sulle [API esposte da PDND Interoperabilità](../informazioni-utili/api-esposte-da-pdnd-interoperabilita.md) al path `GET /keys/{kid}`, dal quale otterrà la chiave pubblica corrispondente al _kid_ in formato JWK.
+La chiave corrispondente al kid è disponibile sulle [API esposte da PDND Interoperabilità](../api-esposte-da-pdnd-interoperabilita/) al path `GET /keys/{kid}`, dal quale otterrà la chiave pubblica corrispondente al _kid_ in formato JWK.
 
 #### Ricalcolo dell'hash
 

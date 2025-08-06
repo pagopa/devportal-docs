@@ -59,4 +59,4 @@ Dipende dal tipo di voucher: Bearer Token ([base](../../tutorial-voucher/come-ri
 
 ## Dove trovo maggiori informazioni?
 
-In questo manuale tecnico, nella [sezione dedicata](ciclo-di-vita.md). Inoltre, per un flusso completo, nel [webinar dedicato](https://developer.pagopa.it/webinars/DevTalks-PDNDInterop-voucher).
+In questo manuale tecnico, nella [sezione dedicata](tipi-di-richiesta-di-voucher.md). Inoltre, per un flusso completo, nel [webinar dedicato](https://developer.pagopa.it/webinars/DevTalks-PDNDInterop-voucher).

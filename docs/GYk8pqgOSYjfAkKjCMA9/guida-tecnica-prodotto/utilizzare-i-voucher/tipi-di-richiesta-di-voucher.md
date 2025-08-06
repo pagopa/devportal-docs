@@ -93,15 +93,15 @@ Per maggiori informazioni, si vedano:
 
 * lato fruitore: il [tutorial pratico](../../tutorial-voucher/come-richiedere-un-voucher-dpop-per-le-api-di-un-erogatore-base.md) per richiedere un voucher;
 * lato erogatore: le [verifiche standard](verifiche-su-un-voucher-dpop-da-parte-di-un-erogatore.md) consigliate;
-* tutti: l'[approfondimento dedicato](dpop.md).
+* tutti: l'[approfondimento dedicato](approfondimento-su-dpop.md).
 
 ## DPoP spendibile presso le API di un erogatore (con informazioni aggiuntive — pattern ModI _Audit REST 02_)
 
-Ricalca il caso precedente di DPoP, includendo in più le informazioni aggiuntive che un erogatore può eventualmente richiedere, come riportato nel caso [ancora precedente](ciclo-di-vita.md#bearer-token-spendibile-presso-le-api-di-un-erogatore-con-informazioni-aggiuntive-pattern-modi-audit).&#x20;
+Ricalca il caso precedente di DPoP, includendo in più le informazioni aggiuntive che un erogatore può eventualmente richiedere, come riportato nel caso [ancora precedente](tipi-di-richiesta-di-voucher.md#bearer-token-spendibile-presso-le-api-di-un-erogatore-con-informazioni-aggiuntive-pattern-modi-audit).&#x20;
 
 Per maggiori informazioni, si vedano:
 
 * lato fruitore: il [tutorial pratico](../../tutorial-voucher/come-richiedere-un-voucher-dpop-per-le-api-di-un-erogatore-con-informazioni-aggiuntive.md) per richiedere un voucher;
 * lato erogatore: le [verifiche standard](verifiche-su-un-voucher-dpop-da-parte-di-un-erogatore.md) e le [verifiche aggiuntive](verifiche-sul-digest-da-parte-di-un-erogatore.md) consigliate;
-* tutti: l'[approfondimento dedicato](dpop.md).
+* tutti: l'[approfondimento dedicato](approfondimento-su-dpop.md).
 
