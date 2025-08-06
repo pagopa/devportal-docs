@@ -1,10 +1,6 @@
----
-description: >-
-  La presentazione di una Richiesta di Fruizione (Agreement) prevede la
-  creazione di una bozza, seguita da una sottomissione.
----
+# Come presentare una richiesta di fruizione
 
-# Come creare e sottomettere una Richiesta di Fruizione
+La presentazione di una Richiesta di Fruizione (Agreement) prevede la creazione di una bozza, seguita da una sottomissione.
 
 ## Step 1 - Creare l'Agreement in DRAFT
 

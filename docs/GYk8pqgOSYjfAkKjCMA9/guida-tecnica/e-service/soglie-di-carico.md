@@ -17,9 +17,9 @@ Gli obiettivi di questa gestione sono:
 
 ## Considerazioni amministrative e di privacy
 
-Si ricorda che il meccanismo di soglia e stima di carico è uno strumento tecnico a supporto degli aderenti di PDND Interoperabilità ed al regolare funzionamento dei servizi per tutti.&#x20;
+Si ricorda che **il meccanismo di soglia e stima di carico è uno strumento tecnico** a supporto degli aderenti di PDND Interoperabilità ed al regolare funzionamento dei servizi per tutti.&#x20;
 
-Possono esserci delle considerazioni amministrative e di privacy rispetto alla quantità di dati estratti, in caso vengano trattati dati personali. Lo strumento corretto per tracciare quest'informazione non sono le soglie e la stima di carico, bensì la dichiarazione che il fruitore fa nell'analisi del rischio. Nell'analisi del rischio è presente la domanda "Indicare se si conosce la quantità di dati personali di cui si entrerà in possesso attraverso la fruizione del presente E-service." Eventuali giustificazioni e motivazioni possono essere dibattute in quella sede.
+Possono esserci delle **considerazioni amministrative** e di privacy rispetto alla quantità di dati estratti, in caso vengano trattati dati personali. **Lo strumento corretto** per tracciare quest'informazione non sono le soglie e la stima di carico, bensì la dichiarazione che il fruitore fa nell'**analisi del rischio**. Nell'analisi del rischio è presente la domanda "Indicare se si conosce la quantità di dati personali di cui si entrerà in possesso attraverso la fruizione del presente E-service." Eventuali giustificazioni e motivazioni possono essere dibattute in quella sede.
 
 ## Approvazione manuale
 
@@ -107,17 +107,17 @@ Se però un qualsiasi ente iscritto all'e-service dovesse creare nuove finalità
 
 ## Gestione dei picchi di chiamate
 
-Questa gestione dei picchi di carico è piuttosto semplificato, e non tiene conto di un problema molto comune: i picchi di chiamate (ad esempio durante i cosiddetti "click day").
+La gestione del carico prevista è piuttosto semplificata, e non tiene conto di un problema molto comune: i picchi di chiamate (ad esempio durante i cosiddetti "click day").
 
 Il modello è pensato in questa maniera per alcune ragioni, tra le quali:
 
-1. intende offrirsi come strumento a supporto degli aderenti per dimensionare le proprie richieste e la propria infrastruttura coerentemente con il traffico atteso;
-2. non intende sostituirsi agli strumenti di monitoraggio dell'erogatore;
-3. PDND Interoperabilità non ha visibilità del numero di chiamate che il fruitore fa all'erogatore in tempo reale; solo in differita attraverso lo strumento di [Tracing](https://app.gitbook.com/o/KXYtsf32WSKm6ga638R3/s/xgMmDloC8UwpLmzXPHfx/).
+1. intende offrirsi come strumento a supporto degli aderenti per dimensionare le proprie richieste e la propria infrastruttura coerentemente con il traffico atteso nel tempo. Non è dunque pensato come uno strumento per la gestione real time, per la quale sono più efficaci gli strumenti di monitoraggio e controllo dell'erogatore;
+2. non intende sostituirsi agli strumenti di verifica e monitoraggio dell'erogatore;
+3. PDND Interoperabilità non ha visibilità del numero di chiamate effettive che il fruitore fa all'erogatore in tempo reale. Potrà averne contezza solo in differita attraverso lo strumento di [Tracing](https://app.gitbook.com/o/KXYtsf32WSKm6ga638R3/s/xgMmDloC8UwpLmzXPHfx/) e dunque tutto sarebbe demandato all'azione dei singoli enti, generando interruzioni improvvise e un forte onere aggiuntivo di gestione.
 
 ### Strumenti di monitoraggio dell'erogatore
 
-Secondo le indicazioni presenti nel MoDI, l'erogatore e il fruitore sono tenuti a conservare la traccia di tutte le chiamate API ricevute.
+Secondo le indicazioni presenti nel ModI, l'erogatore e il fruitore sono tenuti a conservare la traccia di tutte le chiamate API ricevute.
 
 In questa maniera, l'erogatore può nel tempo:
 
@@ -134,5 +134,5 @@ In molti casi, è possibile differire le chiamate, distribuendole nel tempo, opp
 \*La funzionalità degli scambi massivi/asincroni non è ancora implementata; è prevista in roadmap per la prima metà del 2026.
 {% endhint %}
 
-È possibile farlo salvando le informazioni minime e la priorità acquisita dall'utente per un tempo limitato in un proprio database. Solo in un secondo momento, fare le verifiche contattando gli e-service degli erogatori.
+È possibile farlo salvando le informazioni minime e la priorità acquisita dall'utente per un tempo limitato in un proprio database. Solo in un secondo momento, fare le verifiche contattando gli e-service degli erogatori e completando la procedura.
 

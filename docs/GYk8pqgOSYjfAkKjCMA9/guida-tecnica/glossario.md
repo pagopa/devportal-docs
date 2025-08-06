@@ -2,33 +2,31 @@
 
 ## Adesione
 
-Per poter usufruire delle funzionalità messe a disposizione da PDND Interoperabilità, un ente deve prima effettuare l'adesione alla piattaforma, seguendo la procedura dedicata e caricando il proprio accordo di adesione. Una volta abilitato, potrà agire sia in veste di erogatore che di fruitore.
+Per poter usufruire delle funzionalità messe a disposizione da PDND Interoperabilità, un ente deve prima effettuare l'adesione alla piattaforma, seguendo la procedura dedicata e caricando il proprio _Accordo di Adesione_. Una volta abilitato, potrà agire sia in veste di erogatore che di fruitore.
 
 ## Amministratore (operatore amministrativo)
 
-All'atto dell'adesione dell'ente, puoi specificare fino a tre amministratori (chiamati _operatori amministrativi_ sulle Linee Guida AgID). Questi sono di fatto delegati dal legale rappresentante ad operare con pieni poteri su PDND Interoperabilità. Utenti con questi permessi possono inoltrare, sospendere e riattivare richieste di fruizione, creare client e finalità, aggiungere, rimuovere o sospendere figure operative, compilare analisi del rischio e fare tutte le operazioni che competono a livelli di permesso inferiori.
+All'atto dell'adesione dell'ente, è possibile specificare fino a tre amministratori (chiamati _operatori amministrativi_ sulle Linee Guida AgID). Questi sono di fatto delegati dal legale rappresentante ad operare con pieni poteri su PDND Interoperabilità. Utenti con questi permessi possono inoltrare, sospendere e riattivare richieste di fruizione, creare client e finalità, aggiungere, rimuovere o sospendere figure operative, compilare analisi del rischio e fare tutte le operazioni che competono a livelli di permesso inferiori.
 
 ## Attributo
 
 Un attributo è una qualità che un aderente possiede o dichiara di possedere. L'erogatore, all'atto della creazione di un e-service, stabilisce quali sono i requisiti di accesso che il fruitore deve possedere o dichiarare di possedere per poter vedere accettata la sua richiesta di fruizione. Questi requisiti di accesso sono gli attributi.
 
-[Come funzionano gli attributi.](attributi/#come-funzionano)
-
 ## Back office
 
-Interfaccia utente di PDND Interoperabilità alla cui accedi attraverso l'Area Riservata di PagoPA.
+Interfaccia utente di PDND Interoperabilità alla cui accedi attraverso la Piattaforma Area Riservata di PagoPA.
 
 ## Catalogo degli e-service
 
 È il punto di raccolta centralizzato di tutti gli e-service disponibili su PDND Interoperabilità. Ogni aderente può virtualmente iscriversi a tutti quelli per i quali soddisfa i requisiti minimi d'accesso, ossia possiede tutti gli attributi richiesti dall'erogatore.
 
-Sulle Linee Guida AgID è denominato "Catalogo delle API".
+Sulle Linee Guida AgID è denominato "Catalogo delle API". Ne è disponibile una [versione pubblica](https://www.interop.pagopa.it/catalogo) per consultazione.
 
 ## Client
 
 Ogni client raccoglie un gruppo di operatori di sicurezza e un gruppo di chiavi. La composizione del client potrà essere gestita a piacimento degli amministratori dell'aderente, che potranno associare lo stesso operatore di sicurezza a uno o più client. Ogni client (e di riflesso ogni gruppo di chiavi) può essere associato ad una o più finalità.
 
-## Codice dell'Amministrazione Digitale - C.A.D.&#x20;
+## Codice dell'Amministrazione Digitale — C.A.D.&#x20;
 
 Un insieme di norme che regolano l’uso delle tecnologie digitali nella Pubblica Amministrazione (PA) e nei rapporti tra cittadini, imprese e PA. L'articolo 50-ter è dedicato a PDND Interoperabilità. Altri articoli ne definiscono le basi dati di interesse nazionale e la platea degli enti aderenti.
 
@@ -54,15 +52,15 @@ Un ente accreditato per creare nuovi attributi certificati. Il certificatore pu�
 
 ## Linee Guida sull’infrastruttura tecnologica della Piattaforma Digitale Nazionale Dati per l’interoperabilità dei sistemi informativi e delle basi di dati
 
-Disciplinano il funzionamento della PDND come strumento abilitante per l’interoperabilità tra pubbliche amministrazioni, gestori di servizi pubblici e soggetti privati che accedono o forniscono dati. Sono una delle specifiche operative che deriva dal MoDI, il Modello di Interoperabilità definito da AgID.
+Queste Linee Guida disciplinano il funzionamento della PDND come strumento abilitante per l’interoperabilità tra pubbliche amministrazioni, gestori di servizi pubblici e soggetti privati che accedono o forniscono dati. Sono una delle specifiche operative che deriva dal ModI, il Modello di Interoperabilità definito da AgID.
 
 L'ultima versione pubblicata si trova [qui](https://trasparenza.agid.gov.it/page/103/details/5374/adozione-delle-linee-guida-sullinfrastruttura-tecnologica-della-piattaforma-digitale-nazionale-dati-per-linteroperabilita-dei-sistemi-informativi-e-delle-basi-di-dati.html).
 
-## Modello di Interoperabilità — MoDI&#x20;
+## Modello di Interoperabilità — ModI
 
-È il documento di riferimento strategico che stabilisce i principi, le regole e gli standard per garantire l’interoperabilità tra i sistemi informatici delle pubbliche amministrazioni (PA). I principi del MoDI sono tradotti in specifiche operative attraverso le Linee Guida. Tra queste, ci sono anche le _Linee Guida sull’infrastruttura tecnologica della Piattaforma Digitale Nazionale Dati per l’interoperabilità dei sistemi informativi e delle basi di dati_.
+È il documento di riferimento strategico che stabilisce i principi, le regole e gli standard per garantire l’interoperabilità tra i sistemi informatici delle pubbliche amministrazioni (PA). I principi del ModI sono tradotti in specifiche operative attraverso le Linee Guida. Tra queste, ci sono anche le _Linee Guida sull’infrastruttura tecnologica della Piattaforma Digitale Nazionale Dati per l’interoperabilità dei sistemi informativi e delle basi di dati_.
 
-Maggiori dettagli disponibili sulla [pagina dedicata](https://app.gitbook.com/o/KXYtsf32WSKm6ga638R3/s/zwqHiUqrZCs3zNnHdc9A/) sul sito di AgID.
+Maggiori dettagli disponibili sulla [pagina dedicata](https://www.agid.gov.it/it/infrastrutture/sistema-pubblico-connettivita/il-nuovo-modello-interoperabilita) sul sito di AgID.
 
 ## Operatore API
 

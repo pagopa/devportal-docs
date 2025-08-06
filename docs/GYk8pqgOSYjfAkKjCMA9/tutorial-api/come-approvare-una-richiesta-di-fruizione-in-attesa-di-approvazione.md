@@ -1,10 +1,8 @@
----
-description: >-
-  Un Agreement in stato PENDING necessita di uno o più interventi da parte
-  dell'Erogatore dell'E-Service.
----
+# Come approvare  una richiesta di fruizione in attesa di approvazione
 
-# Come un Erogatore può approvare  una Richiesta di Fruizione in stato PENDING
+Sull'API lo stato _**In attesa di approvazione**_ delle richieste di fruizione (Agreement) è identificato con _**PENDING**_.&#x20;
+
+Un Agreement in stato PENDING necessita di uno o più interventi da parte dell'Erogatore dell'E-Service.
 
 ## Caso 1 - Approvazione manuale necessaria
 

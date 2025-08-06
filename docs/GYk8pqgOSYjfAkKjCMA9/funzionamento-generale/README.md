@@ -1,22 +1,22 @@
 # Funzionamento generale
 
-Interoperabilità è un "ecosistema" composto da diverse componenti, protocolli e standard. PDND Interoperabilità è la piattaforma abilitante al centro dell'ecosistema.
+Quello dell'interoperabilità è un "ecosistema" composto da diverse componenti, protocolli e standard. PDND Interoperabilità è la piattaforma abilitante al centro dell'ecosistema.
 
 Per condividere i propri dati su PDND Interoperabilità l'ente deve seguire una serie di passaggi:
 
-1. [effettuare l'adesione](https://docs.pagopa.it/interoperabilita-1/manuale-operativo/guida-alladesione) a PDND Interoperabilità;
+1. solo una volta, [effettuare l'adesione](https://docs.pagopa.it/interoperabilita-1/manuale-operativo/guida-alladesione) a PDND Interoperabilità;
 2. accedere alla piattaforma per verificare le API già presenti sul catalogo;
-3. scrivere un'API che rispetti il perimetro di sicurezza e gli standard del _Modello di Interoperabilità_ (ModI), definito da AgID, che descrive il perimetro dell’interoperabilità tra pubbliche amministrazioni. Un'infarinatura teorica e pratica riguardante il ModI si può trovare [qui](https://developers.italia.it/it/news/interoperabilita.html);
-4. aggiungere [un controllo](https://docs.pagopa.it/interoperabilita-1/manuale-operativo/utilizzare-i-voucher#verifica-di-un-voucher-da-parte-di-un-erogatore-di-e-service) all'API per verificare la legittimità e validità dei voucher (token JWT) di chi sta richiedendo i dati;
-5. [pubblicare sul catalogo](https://docs.pagopa.it/interoperabilita-1/manuale-operativo/e-service) di PDND Interoperabilità l'API sotto forma di e-service, corredandola di tutte le informazioni di contorno e contesto necessarie ai casi d'uso.
+3. scrivere una API che rispetti il perimetro di sicurezza e gli standard del _Modello di Interoperabilità_ (ModI), definito da AgID, che descrive il perimetro dell’interoperabilità tra pubbliche amministrazioni. Alcuni riferimenti nella [sezione dedicata](../guida-tecnica/e-service/riferimenti-e-strumenti-a-supporto.md);
+4. aggiungere [un controllo](../guida-tecnica/utilizzare-i-voucher/verifiche-sul-digest-da-parte-di-un-erogatore.md) sulla API per verificare la legittimità e validità dei voucher presentati da chi sta richiedendo i dati. Il voucher è valido solo se è rilasciato da PDND Interoperabilità, in corso di validità e per la risorsa corretta;
+5. pubblicare sul Catalogo di PDND Interoperabilità l'API sotto forma di e-service, corredandola di tutte le informazioni di contorno e contesto necessarie ai casi d'uso.
 
 ## Le modalità di utilizzo della piattaforma
 
 Il back office ha due modalità di utilizzo: erogazione e fruizione.
 
-Ogni aderente a PDND Interoperabilità può essere erogatore di e-service, fruitore o ricoprire contemporaneamente entrambe le funzioni.
+Ogni aderente a PDND Interoperabilità può essere solo erogatore di e-service, solo fruitore o ricoprire contemporaneamente entrambe le funzioni, erogando alcuni e-service e fruendo di altri.
 
-PDND Interoperabilità fornisce un'interfaccia grafica (back-office) per gestire tutte le operazioni di creazione, modifica, aggiornamento e archiviazione del ciclo di vita degli e-service sia per gli erogatori che per i fruitori. Inoltre, fornisce un'API per eventuali necessità di automatizzazione dei flussi.
+PDND Interoperabilità fornisce un'interfaccia grafica (back-office) per gestire tutte le operazioni di creazione, modifica, aggiornamento e archiviazione del ciclo di vita degli e-service sia per gli erogatori che per i fruitori. Inoltre, fornisce un set di API per interagire con essa, automatizzando i processi.
 
 ## Flusso minimo erogatore/fruitore
 
@@ -30,7 +30,7 @@ Un aderente che desidera **erogare un e-service** può crearlo e gestirlo attrav
 
 Gli aderenti interessati ad accedere all’e-service, se in possesso dei **requisiti minimi richiesti** dall’erogatore (attributi), potranno **inoltrare una richiesta di fruizione**. L’erogatore avrà la possibilità di **valutare e gestire** tali richieste.
 
-Solo dopo l’approvazione della richiesta di fruizione, il fruitore potrà **presentare le proprie finalità** e iniziare a utilizzare l’e-service.
+Solo dopo l’approvazione della richiesta di fruizione, il fruitore potrà **presentare le proprie finalità** e iniziare a fruire dell’e-service.
 
 ## **Flusso del fruitore**
 
@@ -41,6 +41,6 @@ Una volta che la richiesta è **approvata e attiva**, il fruitore può **creare 
 * **Dettagli sull’accesso e trattamento dei dati** (analisi del rischio).
 * **Stima di carico**, ovvero il numero stimato di chiamate API giornaliere verso l’erogatore.
 
-Se la stima di carico supera la capacità dell’infrastruttura dell’erogatore, è necessaria **un’ulteriore approvazione** prima che il fruitore possa utilizzare la finalità per accedere all’e-service.
+Se la stima di carico supera la capacità dell’infrastruttura dell’erogatore, è necessaria **un’ulteriore approvazione tecnica** prima che il fruitore possa utilizzare la finalità per accedere all’e-service.
 
-Una volta che la finalità è attiva, il fruitore può finalizzare la propria integrazione tecnica per **ottenere un voucher** da PDND Interoperabilità da utilizzare per accedere all’API dell’erogatore. Per maggiori dettagli sull’implementazione tecnica, si rimanda alla **sezione dedicata della guida**.
+Una volta che la finalità è attiva, il fruitore può finalizzare la propria integrazione tecnica per **ottenere un voucher** da PDND Interoperabilità da utilizzare per accedere all’API dell’erogatore. Tutti questi aspetti verranno approfonditi nelle relative sezioni di questa guida.

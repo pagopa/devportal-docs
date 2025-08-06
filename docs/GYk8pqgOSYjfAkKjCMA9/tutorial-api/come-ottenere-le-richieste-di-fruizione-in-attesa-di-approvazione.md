@@ -1,8 +1,10 @@
-# Come ottenere le Richieste di Fruizione in stato PENDING
+# Come ottenere le richieste di fruizione in attesa di approvazione
 
 {% hint style="info" %}
-È possibile ottenere solo gli Agreements ai i quali il richiedente partecipa come Fruitore o come Erogatore
+È possibile ottenere solo le richieste di fruizione (Agreement) ai i quali il richiedente partecipa come Fruitore o come Erogatore
 {% endhint %}
+
+Sull'API lo stato _**In attesa di approvazione**_ delle richieste di fruizione (Agreement) è identificato con _**PENDING**_.&#x20;
 
 ## Caso 1 - Il Fruitore richiede i propri Agreements in PENDING
 

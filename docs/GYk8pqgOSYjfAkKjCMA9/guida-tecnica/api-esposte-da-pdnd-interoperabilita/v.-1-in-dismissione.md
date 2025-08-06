@@ -1,6 +1,6 @@
-# v. 1 — in dismissione
+# v. 1 (in dismissione)
 
-PDND Interoperabilità espone un set di api per effettuare verifiche in modalità machine to machine. La v.1 offre operazioni unicamente in lettura, ed una prima versione di un canale degli eventi, attraverso i quali gli aderenti possono rimanere aggiornati sui cambi di stato che avvengono sulla piattaforma per le componenti di loro interesse (es. e-service che erogano, richieste di fruizione che ricevono, ecc.).
+PDND Interoperabilità espone un set di API per effettuare verifiche in modalità machine to machine. La v.1 offre operazioni unicamente in lettura, ed una prima versione di un canale degli eventi, attraverso i quali gli aderenti possono rimanere aggiornati sui cambi di stato che avvengono sulla piattaforma per le componenti di loro interesse (es. e-service che erogano, richieste di fruizione che ricevono, ecc.).
 
 ## Obiettivi
 
@@ -9,14 +9,14 @@ PDND Interoperabilità espone un set di api per effettuare verifiche in modalit�
 
 ## Filosofia
 
-Le api sono pensate per essere il più generico ed agnostico possibile. Per questa ragione, ogni risposta restituisce gli id rilevanti degli altri oggetti ai quali è collegata, attraverso i quali è possibile fare ulteriori chiamate all'API per recuperare le informazioni di interesse.
+Le API sono pensate per essere il più generico ed agnostico possibile. Per questa ragione, ogni risposta restituisce gli id rilevanti degli altri oggetti ai quali è collegata, attraverso i quali è possibile fare ulteriori chiamate all'API per recuperare le informazioni di interesse.
 
 ## Dove si trovano?
 
 L'URL del servizio e la specifica OpenAPI dell'interfaccia sono reperibili all'interno della sezione _**Fruizione > I tuoi client API interop**_, all'interno di qualsiasi client machine to machine venga creato.
 
 {% hint style="warning" %}
-La URL del server che eroga le api è diverso per ogni ambiente (collaudo, attestazione, produzione).
+La URL del server che eroga le API è diverso per ogni ambiente (collaudo, attestazione, produzione).
 {% endhint %}
 
 ## Canale degli eventi

@@ -1,8 +1,8 @@
-# Come creare e attivare una Purpose
+# Come presentare una finalità
 
 
 
-L'utilizzo di una Purpose richiede la creazione di una bozza corredata dall'Analisi del Rischio, e una successiva attivazione.
+L'utilizzo di una finalità (Purpose) richiede la creazione di una bozza corredata dall'Analisi del Rischio, e una successiva attivazione.
 
 ## Step 1 - Creare la Purpose in DRAFT
 

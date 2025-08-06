@@ -10,4 +10,4 @@ Questi identificativi unici sono diversi per ogni ambiente, cioè non sono gli s
 
 Tutti i parametri sono disponibili anche sulle [API esposte da PDND Interoperablità](../informazioni-utili/api-esposte-da-pdnd-interoperabilita.md).&#x20;
 
-Gli id non cambiano nel tempo e non contengono informazioni sensibili. Si consiglia quindi di fare caching per una maggiore efficienza nella verifica.
+Gli id non cambiano nel tempo e non contengono informazioni sensibili. Si consiglia quindi di fare caching per una maggiore efficienza nella verifica, ed eventualmente sfruttare le [notifiche di aggiornamento](../informazioni-utili/api-esposte-da-pdnd-interoperabilita.md#canale-di-notifica) sull'API per recepire eventuali modifiche.

@@ -1,6 +1,6 @@
 # Back Office
 
-È possibile utilizzare PDND Interoperabilità in due modi: attraverso l'interfaccia grafica (back office) o via API. Per accedere al back office, è necessario effettuare il login con SPID o CIE attraverso la [piattaforma Area Riservata](https://selfcare.pagopa.it/), che centralizza l'accesso e la gestione delle utenze per tutti i back office gestiti da PagoPA S.p.A.
+È possibile utilizzare PDND Interoperabilità in due modi: attraverso l'interfaccia grafica (back office) o via API. Per accedere al back office, è necessario effettuare il login con SPID o CIE attraverso la Piattaforma [Area Riservata](https://selfcare.pagopa.it/), che centralizza l'accesso e la gestione delle utenze per tutti i back office gestiti da PagoPA S.p.A.
 
 L'interfaccia è divisa in diverse sezioni:
 

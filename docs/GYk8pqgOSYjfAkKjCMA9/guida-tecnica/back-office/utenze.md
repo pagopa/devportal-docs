@@ -2,10 +2,12 @@
 
 ## Gestione delle utenze
 
-La voce di menu per gestire le utenze è disponibile solo per gli amministratori nel menu del back office di PDND Interoperabilità, alla voce _Utenti_. Si verrà rimandati alla pagina dedicata sulla Piattaforma Area Riservata, che gestisce tutti gli utenti in maniera centralizzata per i prodotti PagoPA.
+La voce di menu per gestire le utenze è disponibile solo per gli amministratori nel menu di spalla del back office di PDND Interoperabilità, alla voce _Utenti_. Si verrà rimandati alla pagina dedicata sulla Piattaforma Area Riservata, che gestisce tutti gli utenti in maniera centralizzata per i prodotti PagoPA.
+
+È poi sempre possibile [creare nuovi amministratori](../../tutorial-back-office/come-creare-un-nuovo-amministratore.md) o [nuovi operatori](../../tutorial-back-office/utenze.md).
 
 {% hint style="warning" %}
-Per poter accedere ad Area Riservata, il tuo ente deve aver già effettuato l'adesione a PDND Interoperabilità. Se non sai come fare, segui la [_Guida all'adesione._](../../tutorial/guida-alladesione.md)
+Per poter accedere ad Area Riservata, il tuo ente deve aver già effettuato l'adesione a PDND Interoperabilità. Se non sai come fare, segui la [_Guida all'adesione._](../../tutorial-back-office/guida-alladesione.md)
 {% endhint %}
 
 ## Tipologie di utenza
@@ -18,7 +20,7 @@ Un amministratore (chiamato "operatore amministrativo" nelle Linee Guida AgID) �
 
 All'atto dell'adesione dell'ente, è possibile specificare fino a tre amministratori (operatori amministrativi). È sempre possibile aggiungerne altri, o rimuoverne, attraverso la Piattaforma Area Riservata.
 
-Gli utenti con questo lilvello di permesso hanno facoltà esclusiva di gestire tutto il quadro amministrativo dell'ente, come ad esempio: inoltrare, sospendere e riattivare richieste di fruizione, creare client e finalità, aggiungere, rimuovere o sospendere figure operative, compilare analisi del rischio.
+Gli utenti con questo livello di permesso hanno facoltà esclusiva di gestire tutto il quadro amministrativo dell'ente, come ad esempio: inoltrare, sospendere e riattivare richieste di fruizione, creare client e finalità, aggiungere, rimuovere o sospendere figure operative, compilare analisi del rischio.
 
 Possono inoltre gestire la parte tecnica, oppure decidere di delegarla alle altre utenze tecniche: operatore API (principalmente per gli e-service) o operatore di sicurezza (principalmente per il materiale crittografico).
 

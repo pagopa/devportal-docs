@@ -1,4 +1,4 @@
-# Verifica di un voucher da parte di un erogatore
+# Verifiche su un voucher Bearer Token da parte di un erogatore
 
 L'erogatore di un e-service deve poter verificare la legittimità di qualsiasi richiesta ricevuta. Prima di tutto, estrae dalla richiesta del fruitore il voucher rilasciato da PDND Interoperabilità, e lo deserializza.&#x20;
 
@@ -12,7 +12,7 @@ Il voucher deve essere di tipo `at+jwt`.
 
 #### Verifica sulla firma
 
-L'erogatore scarica la lista di chiavi in uso da un file esposto nella cartella `.well-known` di PDND Interoperabilità (l'URL corretta è disponibile sull'interfaccia nel back office all'interno della scheda di ogni singolo e-service e cambia in funzione dell'ambiente; a titolo esemplificativo, [questa](https://interop.pagopa.it/.well-known/jwks.json) è quella di produzione).&#x20;
+L'erogatore scarica la lista di chiavi in uso da un file esposto nella cartella `.well-known` di PDND Interoperabilità (l'URL corretta è disponibile sull'interfaccia nel back office all'interno della scheda di ogni singolo e-service e cambia in funzione dell'ambiente; a titolo esemplificativo, [https://interop.pagopa.it/.well-known/jwks.json](https://interop.pagopa.it/.well-known/jwks.json) è quella di produzione).&#x20;
 
 <figure><img src="../../.gitbook/assets/screen well-known" alt=""><figcaption><p>Esempio in ambiente di test su dove si trova il .well-known, si apre la tendina cliccando sulla voce "Vedi i dettagli tecnici dell'e-service"</p></figcaption></figure>
 

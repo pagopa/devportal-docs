@@ -22,7 +22,7 @@ Per questa ragione, è obbligatorio che una finalità sia sempre inoltrata da un
 
 ## Come compilarla
 
-La compilazione varia da caso a caso. Alcune indicazioni di indirizzo e pratiche sono discusse nel corso dedicato allo [Scambio dati attraverso la PDND](https://www.accademiacomunidigitali.it/course/view.php?id=26).
+La compilazione varia da caso a caso. Alcune indicazioni di indirizzo e pratiche sono discusse nel corso di ANCI dedicato allo [Scambio dati attraverso la PDND](https://www.accademiacomunidigitali.it/course/view.php?id=26).
 
 {% hint style="info" %}
 Nelle nuove Linee Guida AgID è prevista una funzionalità di "analisi del rischio agevolata". Permette di trovare e utilizzate template parzialmente o interamente compilati per presentare le proprie finalità. La funzionalità nasce per supportare gli enti non dotati di figure tecniche dedicate. Il rilascio della funzionalità è previsto entro la fine del 2025.

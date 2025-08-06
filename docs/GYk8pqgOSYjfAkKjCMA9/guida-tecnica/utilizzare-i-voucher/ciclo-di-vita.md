@@ -1,13 +1,14 @@
 # Tipi di richiesta di voucher
 
-È possibile richiedere a PDND Interoperabilità voucher che rispettino specifiche diverse. Per tutti i casi indicati di seguito tranne il primo, il voucher da richiedere è dettagliato dall'erogatore nelle impostazioni del proprio e-service (file di interfaccia API e documentazione tecnica allegata). Se l'erogatore non indica niente, il voucher da produrre è del secondo tipo (Bearer Token base).
+È possibile richiedere a PDND Interoperabilità voucher che rispettino specifiche diverse. Per tutti i casi indicati di seguito tranne il primo, il voucher da richiedere è dettagliato dall'erogatore nelle impostazioni del proprio e-service (file di interfaccia API e documentazione tecnica allegata). Se l'erogatore non indica niente, il voucher da produrre è del secondo tipo (Bearer) senza informazioni aggiuntive.
 
 I tipi possibili sono i seguenti:
 
-1. Bearer Token spendibile presso le API di PDND Interoperabilità;
-2. Bearer Token spendibile presso le API di un erogatore (base);
-3. Bearer Token spendibile presso le API di un erogatore (con informazioni aggiuntive — pattern MoDI _Audit REST 02_);
-4. DPoP spendibile presso le API di un erogatore.
+1. voucher Bearer spendibile presso le API di PDND Interoperabilità;
+2. voucher Bearer spendibile presso le API di un erogatore;
+3. voucher DPoP spendibile presso le API di un erogatore.
+
+Per le opzioni 2 e 3, è possibile sia una configurazione base, sia inserendo informazioni aggiuntive, secondo il pattern descritto da AgID chiamato _Audit REST 02_.
 
 Di seguito, una breve descrizione di tutte le tipologie di voucher.
 
@@ -25,7 +26,7 @@ Tutti i tipi di richiesta previsti sono una variazione di questo flusso, e fanno
 Ulteriori prove autorizzative possono comunque essere richieste nella comunicazione tra erogatore e fruitore, a discrezione delle parti.
 {% endhint %}
 
-## Sicurezza e standard di riferimento <a href="#sicurezza-e-standard-di-riferimento" id="sicurezza-e-standard-di-riferimento"></a>
+## Sicurezza e standard di riferimento per firma e verifica <a href="#sicurezza-e-standard-di-riferimento" id="sicurezza-e-standard-di-riferimento"></a>
 
 Il processo di firma e verifica segue specifiche internazionali che garantiscono la sicurezza. Gli standard di riferimento includono:
 
@@ -44,7 +45,7 @@ Le API di PDND Interoperabilità sono fornite a tutti gli aderenti per contratto
 
 L'elenco delle API esposte da PDND Interoperabilità è disponibile [qui](https://developer.pagopa.it/pdnd-interoperabilita/api).&#x20;
 
-Per maggiori informazioni, si veda il [tutorial pratico](../../tutorial/come-richiedere-e-spendere-un-voucher-verso-le-api-di-pdnd-interoperabilita.md).
+Per maggiori informazioni, si veda il [tutorial pratico](../../tutorial-back-office/come-richiedere-e-spendere-un-voucher-verso-le-api-di-pdnd-interoperabilita.md).
 
 {% hint style="info" %}
 PDND Interoperabilità non ha visibilità dei dati scambiati tra erogatore e fruitore. Le proprie API restituiscono solamente informazioni relative al dominio di PDND stessa (es. l'elenco delle richieste di fruizione presentate dal proprio ente).
@@ -54,9 +55,9 @@ PDND Interoperabilità non ha visibilità dei dati scambiati tra erogatore e fru
 
 Impiegato dalla grande maggioranza dei servizi, prevede la creazione di una client assertion che dettagli le informazioni base richieste da PDND Interoperabilità. Queste sono utili sia ai fini di audit, che perché l'erogatore possa valutare le richieste di accesso ai dati che gli pervengono.
 
-Per maggiori informazioni, si vedano il [tutorial pratico](../../tutorial/come-richiedere-e-spendere-un-voucher-verso-le-api-di-un-erogatore-base.md) e le [verifiche standard](verifiche-su-un-voucher-bearer-token-da-parte-di-un-erogatore.md).
+Per maggiori informazioni, si vedano il [tutorial pratico](../../tutorial-back-office/come-richiedere-e-spendere-un-voucher-verso-le-api-di-un-erogatore-base.md) e le [verifiche standard](verifiche-su-un-voucher-bearer-token-da-parte-di-un-erogatore.md).
 
-## Bearer Token spendibile presso le API di un erogatore (con informazioni aggiuntive — pattern MoDI _Audit REST 02_)
+## Bearer Token spendibile presso le API di un erogatore (con informazioni aggiuntive — pattern ModI _Audit REST 02_)
 
 Impiegato da tutti quei servizi per i quali l'erogatore ritiene necessario ottenere informazioni aggiuntive di audit che non fanno parte dei campi standard previsti da PDND Interoperabilità all'interno della client assertion.&#x20;
 
@@ -72,7 +73,7 @@ Infine, dopo aver ottenuto un voucher da PDND Interoperabilità, il fruitore ins
 
 L'erogatore confronta quindi l'hash che trova nel _digest_ che trova riportato nel voucher PDND con un valore calcolato a partire dal contenuto del secondo JWT. Se c'è corrispondenza, i dato aggiuntivi presenti nel secondo JWT sono integri.
 
-Per maggiori informazioni, si vedano il [tutorial pratico](../../tutorial/come-richiedere-e-spendere-un-voucher-verso-le-api-di-un-erogatore-con-informazioni-aggiuntive.md), le [verifiche standard](verifiche-su-un-voucher-bearer-token-da-parte-di-un-erogatore.md) e le [verifiche aggiuntive](verifiche-sul-digest-da-parte-di-un-erogatore.md).
+Per maggiori informazioni, si vedano il [tutorial pratico](../../tutorial-back-office/come-richiedere-e-spendere-un-voucher-verso-le-api-di-un-erogatore-con-informazioni-aggiuntive.md), le [verifiche standard](verifiche-su-un-voucher-bearer-token-da-parte-di-un-erogatore.md) e le [verifiche aggiuntive](verifiche-sul-digest-da-parte-di-un-erogatore.md).
 
 ## DPoP spendibile presso le API di un erogatore
 
@@ -82,5 +83,5 @@ Questo pattern offre un layer di sicurezza aggiuntivo, utile ad esempio nei casi
 
 È una valida alternativa al mTLS per alcuni casi. Ha il vantaggio di non necessitare uno scambio di certificati tra le due parti e di non richiedere particolare manutenzione, specialmente da parte dell'erogatore.
 
-Per maggiori informazioni, si vedano il [tutorial pratico](../../tutorial/come-richiedere-e-spendere-un-voucher-verso-le-api-di-un-erogatore-dpop.md) e l'[approfondimento](dpop.md).
+Per maggiori informazioni, si vedano il [tutorial pratico](../../tutorial-back-office/come-richiedere-e-spendere-un-voucher-verso-le-api-di-un-erogatore-dpop.md) e l'[approfondimento](dpop.md).
 

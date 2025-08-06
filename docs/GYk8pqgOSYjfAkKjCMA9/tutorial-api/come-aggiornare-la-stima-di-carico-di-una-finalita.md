@@ -1,6 +1,6 @@
-# Aggiornamento stima di carico di una Purpose
+# Come aggiornare la stima di carico di una finalità
 
-L'aggiornamento della stima di carico può essere applicato direttamente, o richiedere l'approvazione dell'Erogatore in caso sia superiore alle soglie previste dal Descrittore dell'E-Service
+L'aggiornamento della stima di carico di una finalità (Purpose) può essere applicato direttamente, o richiedere l'approvazione dell'Erogatore in caso sia superiore alle soglie previste dal Descrittore dell'E-Service
 
 1. Aggiornare la stima di carico
 

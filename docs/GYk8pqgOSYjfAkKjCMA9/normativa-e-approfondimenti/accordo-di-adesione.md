@@ -6,9 +6,9 @@ Se un ente o privato tra quelli indicati nella [sezione dedicata](approfondiment
 
 Un ente o privato che non appartiene a nessuna delle categorie può comunque fare adesione. In questo caso, avrà accesso solamente all'ambiente di attestazione. Per maggiori informazioni sugli ambienti disponibili, si rimanda alla [sezione dedicata](../funzionamento-generale/ambienti-disponibili.md).
 
-Gli utenti che avranno accesso in prima istanza saranno solo quelli indicati come amministratori all'atto della presentazione dell'accordo di adesione. Questi potranno effettuare [accesso al back office](https://selfcare.pagopa.it/) previa autenticazione con SPID o CIE e potranno creare nuovi utenti.
+Gli utenti che avranno accesso in prima istanza saranno solo quelli indicati come amministratori all'atto della sottoscrizione dell'accordo di adesione. Questi potranno effettuare [accesso al back office](https://selfcare.pagopa.it/) previa autenticazione con SPID o CIE e potranno [creare nuovi utenti](../tutorial-back-office/come-creare-un-nuovo-amministratore.md).
 
-Per una guida passo-passo all'adesione, si rimanda al [tutorial dedicato](../tutorial/guida-alladesione.md).
+Per una guida passo-passo all'adesione, si rimanda al [tutorial dedicato](../tutorial-back-office/guida-alladesione.md).
 
 ## Errore "Allegato non conforme"
 

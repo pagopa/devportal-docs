@@ -53,6 +53,10 @@ digest: {
 
 Puoi usare lo strumento di debug presente nel back office alla voce _Fruizione > Debug client assertion_. Nell’ambiente di Collaudo, lo strumento è già stato adeguato per rispondere correttamente alla nuova configurazione.
 
+## Come è fatto un voucher rilasciato da PDND Interoperabilità?
+
+Dipende dal tipo di voucher: [Bearer Token](../../tutorial-back-office/come-richiedere-e-spendere-un-voucher-verso-le-api-di-un-erogatore-base.md), [Bearer Token con digest](../../tutorial-back-office/come-richiedere-e-spendere-un-voucher-verso-le-api-di-un-erogatore-con-informazioni-aggiuntive.md) o [DPoP](../../tutorial-back-office/come-richiedere-e-spendere-un-voucher-verso-le-api-di-un-erogatore-dpop.md). In ognuno dei tutorial dedicati viene indicato come è strutturato il voucher.
+
 ## Dove trovo maggiori informazioni?
 
 In questo manuale tecnico, nella [sezione dedicata](ciclo-di-vita.md). Inoltre, per un flusso completo, nel [webinar dedicato](https://developer.pagopa.it/webinars/DevTalks-PDNDInterop-voucher).
