@@ -9,7 +9,7 @@ In sostanza, il processo end-to-end richiede cinque passaggi:
 1. il fruitore genera la client assertion;
 2. il fruitore chiede il voucher al server autorizzativo di PDND;
 3. il server autorizzativo di PDND effettua le verifiche necessarie. In caso di esito positivo, restituisce un voucher;
-4. il fruitore fa una richiesta verso le API dell'erogatore;
+4. il fruitore fa una richiesta verso l'e-service dell'erogatore; inserisce il voucher rilasciato da PDND Interoperabilità nell'header `Authorization`;
 5. l'erogatore effettua le verifiche necessarie. In caso di esito positivo, elabora la richiesta del fruitore.
 
 ## Prerequisiti <a href="#il-flusso-in-breve" id="il-flusso-in-breve"></a>
@@ -62,7 +62,7 @@ Dopo aver costruito una _client assertion_ valida, questa deve essere firmata co
 
 A scopo esemplificativo, è stato pubblicato uno script Python per dimostrare come eseguire l'operazione. Tutte le istruzioni sono disponibili nel back office, all'interno del proprio client.
 
-È inoltre disponibile una funzione per verificare la validità della propria client assertion ed evidenziare eventuali errori. Lo strumento è disponibile nel back office su _**Fruizione > Debug client assertion**_.
+È inoltre disponibile una funzione per verificare la validità della propria client assertion ed evidenziare eventuali errori. Lo strumento è disponibile nel back office su _**Tool per lo sviluppo > Debug client assertion**_.
 
 ## Step 2 - Richiedere il voucher al server autorizzativo
 

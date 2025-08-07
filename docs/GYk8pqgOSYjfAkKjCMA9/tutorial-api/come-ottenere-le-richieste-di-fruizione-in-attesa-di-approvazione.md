@@ -1,16 +1,16 @@
 # Come ottenere le richieste di fruizione in attesa di approvazione
 
 {% hint style="info" %}
-È possibile ottenere solo le richieste di fruizione (Agreement) ai i quali il richiedente partecipa come Fruitore o come Erogatore
+È possibile ottenere solo le richieste di fruizione (Agreement) alle quali il richiedente partecipa come fruitore o erogatore.
 {% endhint %}
 
-Sull'API lo stato _**In attesa di approvazione**_ delle richieste di fruizione (Agreement) è identificato con _**PENDING**_.&#x20;
+Sull'API lo stato **In attesa di approvazione** delle richieste di fruizione (Agreement) è identificato con **PENDING**.&#x20;
 
-## Caso 1 - Il Fruitore richiede i propri Agreements in PENDING
+## Caso 1 - Il Fruitore richiede i propri Agreement in PENDING
 
-È utile, ma non obbligatorio indicare il parametro `consumerIds` con l'id del proprio tenant per evitare di ottenere Agreement in PENDING per i quali si è Erogatori.&#x20;
+È utile, ma non obbligatorio indicare il parametro `consumerIds` con l'id del proprio ente (Tenant) per evitare di ottenere Agreement in PENDING per i quali si è erogatori.&#x20;
 
-Richiesta
+**Request**
 
 ```
 GET /agreements
@@ -20,7 +20,7 @@ GET /agreements
     &limit=2
 ```
 
-Risposta
+**Response**
 
 ```
 {
@@ -54,11 +54,11 @@ Risposta
 }
 ```
 
-## Caso 2 - L'Erogatore richiede gli Agreements PENDING per un proprio E-Service
+## Caso 2 - L'Erogatore richiede gli Agreements PENDING per un proprio e-service
 
-L'Erogatore può richiedere l'elenco degli Agreements per cui è richiesta la sua approvazione.
+L'erogatore può richiedere l'elenco degli Agreement per cui è richiesta la sua approvazione.
 
-Richiesta
+**Request**
 
 ```
 GET /agreements
@@ -68,7 +68,7 @@ GET /agreements
     &limit=2
 ```
 
-Risposta
+**Response**
 
 ```
 {
@@ -102,11 +102,11 @@ Risposta
 }
 ```
 
-## Caso 3 - L'Erogatore richiede gli Agreements PENDING per un proprio E-Service ed uno specifico Fruitore
+## Caso 3 - L'Erogatore richiede gli Agreement PENDING per un proprio e-service ed uno specifico fruitore
 
-L'Erogatore può ottenere l'Agreement di un determinato Fruitore verso un proprio E-Service.
+L'erogatore può ottenere l'Agreement di un determinato fruitore verso un proprio e-service.
 
-Richiesta
+**Request**
 
 ```
 GET /agreements
@@ -117,7 +117,7 @@ GET /agreements
     &limit=2
 ```
 
-Risposta
+**Response**
 
 ```
 {

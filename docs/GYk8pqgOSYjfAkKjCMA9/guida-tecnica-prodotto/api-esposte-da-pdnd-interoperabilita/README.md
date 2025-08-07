@@ -2,7 +2,7 @@
 
 È possibile utilizzare PDND Interoperabilità anche interrogando le API che espone. La versione corrente, la v. 2, permette di operare sia in lettura che in scrittura, esattamente come farebbe un utente attraverso l'interfaccia grafica del back office.
 
-Per garantire la legittimità delle operazioni di scrittura, è necessario indicare all'interno del proprio _client API Interop_ un utente con poteri da amministratore. Questa persona sarà la responsabile delle operazioni di scrittura eseguite attraverso le API.
+Per garantire la legittimità delle operazioni di scrittura, è necessario indicare all'interno del proprio _**client API Interoperabilità**_ un utente con poteri da amministratore. Questa persona sarà la responsabile delle operazioni di scrittura eseguite attraverso le API.
 
 Ogni endpoint delle API restituisce sempre l'id dell'oggetto richiesto assieme ad eventuali altri id che permettono di fare ulteriori chiamate, in caso si necessitassero maggiori informazioni (ad esempio, se si richiede una richiesta di fruizione, all'interno della risposta saranno contenuti anche l'id dell'e-service e della versione di e-service ai quali la richiesta è associata).
 

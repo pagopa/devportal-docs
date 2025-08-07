@@ -1,10 +1,12 @@
 # Come conferire una delega ad un altro ente
 
+{% hint style="info" %}
 In ambiente di _Collaudo_ e _Produzione_, le deleghe sono disponibili solamente per le Pubbliche Amministrazioni. In ambiente di _Attestazione_, sono invece disponibili a tutti gli aderenti per eseguire i propri test.
+{% endhint %}
 
 ## Step 1 - Iniziare il flusso di creazione
 
-Andare su _**Il tuo ente > Deleghe**_. Di default si atterrerà sulla tab _**Deleghe conferite**_. Da lì, cliccare _**Crea nuovo**_.
+Andare su _**Il mio ente > Gestione delle deleghe**_. Di default si atterrerà sulla tab _**Deleghe conferite**_. Da lì, cliccare _**Crea nuovo**_.
 
 ## Step 2 - Selezionare il tipo di delega
 

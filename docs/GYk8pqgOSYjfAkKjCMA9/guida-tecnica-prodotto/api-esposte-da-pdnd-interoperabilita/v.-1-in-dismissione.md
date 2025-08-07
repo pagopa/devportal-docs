@@ -1,5 +1,9 @@
 # v. 1 (in dismissione)
 
+{% hint style="warning" %}
+Le API v. 1 sono attualmente in dismissione. Per le nuove integrazioni, si prega di utilizzare la v. 2.
+{% endhint %}
+
 PDND Interoperabilità espone un set di API per effettuare verifiche in modalità machine to machine. La v.1 offre operazioni unicamente in lettura, ed una prima versione di un canale degli eventi, attraverso i quali gli aderenti possono rimanere aggiornati sui cambi di stato che avvengono sulla piattaforma per le componenti di loro interesse (es. e-service che erogano, richieste di fruizione che ricevono, ecc.).
 
 ## Obiettivi

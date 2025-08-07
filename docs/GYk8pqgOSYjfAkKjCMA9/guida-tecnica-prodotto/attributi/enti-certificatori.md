@@ -1,6 +1,6 @@
 # Enti certificatori
 
-Gli aderenti che lo ritengono, possono accreditarsi su PDND Interoperabilità come enti certificatori. Una volta accreditati, troveranno una voce aggiuntiva nel menù: _Il tuo ente > Ente certificatore_.
+Gli aderenti che lo ritengono, possono accreditarsi su PDND Interoperabilità come enti certificatori. Una volta accreditati, troveranno una voce aggiuntiva nel menù: _**Il mio ente > Ente certificatore**_.
 
 Un ente certificatore acquisisce la possibilità di creare i propri attributi certificati e gestirne il conferimento e la revoca agli altri aderenti sotto la propria responsabilità. Questi attributi potranno poi essere usati come requisiti di accesso agli e-service, come avviene per qualsiasi altro attributo.
 

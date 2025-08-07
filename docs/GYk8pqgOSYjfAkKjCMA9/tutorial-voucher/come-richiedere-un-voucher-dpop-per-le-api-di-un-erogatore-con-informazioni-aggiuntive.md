@@ -1,6 +1,6 @@
 # Come richiedere un voucher DPoP per le API di un erogatore (con informazioni aggiuntive)
 
-Questo tutorial spiega come attivare e usare Demonstrating Proof‑of‑Possession (DPoP) – lo standard IETF ([RFC 9449](https://datatracker.ietf.org/doc/html/rfc9449)) che rende un voucher (token JWT) inutilizzabile se sottratto, perché vincolato a una chiave pubblica posseduta dal chiamante.
+Questo tutorial spiega come richiedere un voucher che utilizza Demonstrating Proof‑of‑Possession (DPoP) – lo standard IETF ([RFC 9449](https://datatracker.ietf.org/doc/html/rfc9449)) che rende un voucher (token JWT) inutilizzabile se sottratto, perché vincolato a una chiave pubblica posseduta dal chiamante. Per maggiori dettagli, si veda l'[approfondimento](../guida-tecnica-prodotto/utilizzare-i-voucher/approfondimento-su-dpop.md).
 
 Il JWS contenente le informazioni aggiuntive rispetta l'[RFC 7519](https://datatracker.ietf.org/doc/html/rfc7519) e il pattern individuato, cioè quello previsto da AgID nel ModI (_Audit REST 02)_. Per maggiori informazioni, si veda la [sezione dedicata](../guida-tecnica-prodotto/utilizzare-i-voucher/tipi-di-richiesta-di-voucher.md#dpop-spendibile-presso-le-api-di-un-erogatore-con-informazioni-aggiuntive-pattern-modi-audit-rest-02).
 
@@ -14,8 +14,8 @@ In sostanza, il processo end-to-end richiede nove passaggi:
 4. il fruitore costruisce la DPoP destinata al server autorizzativo di PDND; la firma con una seconda chiave privata la cui pubblica sarà inserita nell'intestazione della DPoP, nel campo `jwk`;
 5. il fruitore chiede il voucher al server autorizzativo di PDND, aggiungendo l'header DPoP;
 6. il server autorizzativo di PDND effettua le verifiche necessarie. In caso di esito positivo, restituisce un voucher di tipo DPoP;
-7. il fruitore costruisce una seconda DPoP, questa volta destinata al resource server, ossia l'API dell'e-service dell'erogatore; la firma con la stessa chiava privata della DPoP al punto 2, mettendo anche qusta volta la chiave pubblica corrispondente nell'intestazione della DPoP, nel campo `jwk`;
-8. il fruitore fa una richiesta verso l'e-service dell'erogatore; inserisce sia il voucher rilasciato da PDND Interoperabilità, sia la DPoP generata al punto precedente nell'header DPoP;
+7. il fruitore costruisce una seconda DPoP, questa volta destinata al resource server, ossia l'API dell'e-service dell'erogatore; la firma con la stessa chiava privata della DPoP al punto 3, mettendo anche qusta volta la chiave pubblica corrispondente nell'intestazione della DPoP, nel campo `jwk`;
+8. il fruitore fa una richiesta verso l'e-service dell'erogatore; inserisce sia il voucher rilasciato da PDND Interoperabilità nell'header `Authorization`, sia la DPoP generata al punto precedente nell'header `DPoP`, sia il JWS con le informazioni aggiuntive generato al punto 1 nell'header `AgID-JWT-TrackingEvidence`;
 9. l'erogatore effettua le verifiche necessarie. In caso di esito positivo, elabora la richiesta del fruitore.
 
 ## Prerequisiti <a href="#il-flusso-in-breve" id="il-flusso-in-breve"></a>
@@ -28,9 +28,9 @@ Si assume che il fruitore abbia:
 
 ## Step 1 - Generazione del token contenente le informazioni aggiuntive <a href="#il-flusso-in-breve" id="il-flusso-in-breve"></a>
 
-Il fruitore costruisce un `JWS` , inserendo nell'header il `kid` di una chiave pubblica depositata su PDND Interoperabilità. Con la chiave privata corrispondente a quella pubblica firmerà questo `JWS`. Nel corpo (payload) del `JWS` inserisce le informazioni complementari da inviare all'erogatore.
+Il fruitore costruisce un JWS, inserendo nell'header il `kid` di una chiave pubblica depositata su PDND Interoperabilità. Con la chiave privata corrispondente a quella pubblica firmerà questo JWS. Nel corpo (payload) del JWS inserisce le informazioni complementari da inviare all'erogatore.
 
-Un `JWS` di esempio può avere header
+Un JWS di esempio può avere header
 
 ```
 {
@@ -44,7 +44,7 @@ NB: la chiave privata che firma e il  `kid` della pubblica corrispondente deposi
 
 ## Step 2 - Calcolare l'hash del JWS <a href="#il-flusso-in-breve" id="il-flusso-in-breve"></a>
 
-A partire dalla codifica del `JWS` (ossia il `JWS` codificato secondo l'algoritmo inserito nell'header, in genere inizia per `ey`) il fruitore applica l'algoritmo di hashing `SHA256` al `JWS`, ottenendone un hash non reversibile a lunghezza fissa.&#x20;
+A partire dalla codifica del JWS (ossia il JWS codificato secondo l'algoritmo inserito nell'header, in genere inizia per `ey`) il fruitore applica l'algoritmo di hashing SHA256 al JWS, ottenendone un hash non reversibile a lunghezza fissa.
 
 A scopo esemplificativo, è possibile inserire in un terminale il seguente comando, previa installazione del pacchetto `openssl`
 
@@ -52,7 +52,7 @@ A scopo esemplificativo, è possibile inserire in un terminale il seguente coman
 echo -n {JWS} | openssl sha256
 ```
 
-per ottenere l'hash del `JWS`. Ad esempio, a fronte del JWS esempio con codifica
+per ottenere l'hash del JWS. Ad esempio, a fronte del JWS esempio con codifica
 
 ```
 eyJhbGciOiJIUzI1NiIsImtpZCI6IlptWXhaR0UyWWpRdE16WTJZeTAwTldJNUxUaGpOR0l0TURKbVltUXlaR0l5TW1aaCIsInR5cCI6ImF0K2p3dCJ9.eyJqdGkiOiJkc2Zkc2Zkc2ZkcyIsImEiOiJiIn0.2QcY5UpoE2PgJhe1FKnHx-SZZq_NS6AKDTlfFdpVP9Q
@@ -112,7 +112,7 @@ Dopo aver costruito una _client assertion_ valida, questa deve essere firmata co
 
 A scopo esemplificativo, è stato pubblicato uno script Python per dimostrare come eseguire l'operazione. Tutte le istruzioni sono disponibili nel back office, all'interno del proprio client.
 
-È inoltre disponibile una funzione per verificare la validità della propria client assertion ed evidenziare eventuali errori. Lo strumento è disponibile nel back office su _**Fruizione > Debug client assertion**_.
+È inoltre disponibile una funzione per verificare la validità della propria client assertion ed evidenziare eventuali errori. Lo strumento è disponibile nel back office su _**Tool per lo sviluppo > Debug client assertion**_.
 
 ## Step 4 - Generazione della prima DPoP <a href="#il-flusso-in-breve" id="il-flusso-in-breve"></a>
 

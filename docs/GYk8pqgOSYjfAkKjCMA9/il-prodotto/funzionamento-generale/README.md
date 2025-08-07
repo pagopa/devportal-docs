@@ -7,7 +7,7 @@ Per condividere i propri dati su PDND Interoperabilità l'ente deve seguire una 
 1. solo una volta, [effettuare l'adesione](https://docs.pagopa.it/interoperabilita-1/manuale-operativo/guida-alladesione) a PDND Interoperabilità;
 2. accedere alla piattaforma per verificare le API già presenti sul catalogo;
 3. scrivere una API che rispetti il perimetro di sicurezza e gli standard del _Modello di Interoperabilità_ (ModI), definito da AgID, che descrive il perimetro dell’interoperabilità tra pubbliche amministrazioni. Alcuni riferimenti nella [sezione dedicata](../../guida-tecnica-prodotto/e-service/riferimenti-e-strumenti-a-supporto.md);
-4. aggiungere [un controllo](../../guida-tecnica-prodotto/utilizzare-i-voucher/verifiche-sul-digest-da-parte-di-un-erogatore.md) sulla API per verificare la legittimità e validità dei voucher presentati da chi sta richiedendo i dati. Il voucher è valido solo se è rilasciato da PDND Interoperabilità, in corso di validità e per la risorsa corretta;
+4. aggiungere [un controllo](../../guida-tecnica-prodotto/utilizzare-i-voucher/verifiche-su-un-voucher-bearer-da-parte-di-un-erogatore.md) sulla API per verificare la legittimità e validità dei voucher presentati da chi sta richiedendo i dati. Il voucher è valido solo se è rilasciato da PDND Interoperabilità, in corso di validità e per la risorsa corretta;
 5. pubblicare sul Catalogo di PDND Interoperabilità l'API sotto forma di e-service, corredandola di tutte le informazioni di contorno e contesto necessarie ai casi d'uso.
 
 ## Le modalità di utilizzo della piattaforma

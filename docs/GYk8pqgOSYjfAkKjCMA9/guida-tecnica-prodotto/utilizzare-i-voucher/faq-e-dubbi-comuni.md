@@ -2,7 +2,7 @@
 
 ## La mia richiesta di voucher viene rifiutata
 
-La maniera più semplice di capire perché è utilizzare lo strumento di _Debug Client Assertion_ presente nel back office (disponibile nel menù _Fruizione_).
+La maniera più semplice di capire perché è utilizzare lo strumento di _**Debug Client Assertion**_ presente nel back office (disponibile nel menù _**Tool per lo sviluppo**_).
 
 Nel dettaglio, lo strumento verifica che tutta la catena autorizzativa sia attiva, ossia:
 
@@ -38,9 +38,9 @@ No, nel contesto di un voucher di tipo Bearer Token è opzionale e va inserito s
 
 Non vanno inseriti nella client assertion. Quei campi sono informazioni aggiuntive richieste da specifici erogatori per specifici e-service e fanno parte dell'interazione fra erogatore e fruitore, non devono essere noti a PDND Interoperabilità.
 
-Per passarli all’erogatore, bisogna inserire quei campi nel secondo token previsto da AgID, l’“Audit REST 02”. Questo secondo token sarà passato all’erogatore nell’header della chiamata verso la sua API, con chiave `Agid-JWT-Tracking-Evidence`.
+Per passarli all’erogatore, bisogna inserire quei campi nel secondo token previsto da AgID, _Audit REST 02_. Questo secondo token sarà passato all’erogatore nell’header della chiamata verso la sua API, con chiave `Agid-JWT-Tracking-Evidence`.
 
-Dal token creato per Audit REST 02, calcolare l'hash usando l'algoritmo sha-256. A quel punto, inserire il valore risultante nel campo \`digest\` della client assertion, come
+Dal token creato per Audit REST 02, calcolare l'hash usando l'algoritmo SHA256. A quel punto, inserire il valore risultante nel campo \`digest\` della client assertion, come
 
 ```
 digest: {
@@ -51,7 +51,7 @@ digest: {
 
 ## Come faccio a sapere se la mia client assertion funziona?
 
-Puoi usare lo strumento di debug presente nel back office alla voce _Fruizione > Debug client assertion_. Nell’ambiente di Collaudo, lo strumento è già stato adeguato per rispondere correttamente alla nuova configurazione.
+Puoi usare lo strumento di debug presente nel back office alla voce _**Tool per lo sviluppo > Debug client assertion**_. Nell’ambiente di Collaudo, lo strumento è già stato adeguato per rispondere correttamente alla nuova configurazione.
 
 ## Come è fatto un voucher rilasciato da PDND Interoperabilità?
 

@@ -16,12 +16,7 @@ Se necessario, il fruitore può mantenere la chiave DPoP per periodi più lunghi
 
 ## Perché usare DPoP?
 
-| Vantaggio                       | Cosa significa in pratica                                                                                                                                                       |
-| ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Token vincolato al chiamante    | Il voucher contiene l'hash — il thumbprint — della chiave pubblica del chiamante; senza la chiave privata corrispondente non è possibile utilizzarlo.                           |
-| Replay protetto                 | Ogni richiesta porta un piccolo JWT firmato (“DPoP”) con htm + htu + timestamp + jti; la stessa proof non può essere ri‑usata su un altro endpoint o oltre pochi minuti.        |
-| Zero certificati chiamante      | Si ottiene un risultato simile a mTLS, ma con una semplice coppia di chiavi generata dal chiamante.                                                                             |
-| "Filo conduttore" crittografico | DPoP crea un legame unico tra gli attori coinvolti nel flusso OAuth2.0 attraverso la condivisione di un'informazione unica in possesso esclusivo del fruitore (chiave privata). |
+<table><thead><tr><th width="256.8031005859375">Vantaggio</th><th>Cosa significa in pratica</th></tr></thead><tbody><tr><td>Token vincolato al chiamante</td><td>Il voucher contiene l'hash — il thumbprint — della chiave pubblica del chiamante; senza la chiave privata corrispondente non è possibile utilizzarlo.</td></tr><tr><td>Replay protetto</td><td>Ogni richiesta porta un piccolo JWT firmato (“DPoP”) con htm + htu + timestamp + jti; la stessa proof non può essere ri‑usata su un altro endpoint o oltre pochi minuti.</td></tr><tr><td>Zero certificati chiamante</td><td>Si ottiene un risultato simile a mTLS, ma con una semplice coppia di chiavi generata dal chiamante.</td></tr><tr><td>"Filo conduttore" crittografico</td><td>DPoP crea un legame unico tra gli attori coinvolti nel flusso OAuth2.0 attraverso la condivisione di un'informazione unica in possesso esclusivo del fruitore (chiave privata).</td></tr></tbody></table>
 
 ## **Flusso di richiesta e autorizzazione**
 

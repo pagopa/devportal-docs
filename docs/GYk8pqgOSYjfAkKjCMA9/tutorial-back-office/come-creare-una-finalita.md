@@ -2,7 +2,7 @@
 
 ## Step 1 - Entrare nel flusso di creazione
 
-Per creare una nuova finalità, andare su _**Fruizione > Le tue finalità**_ e cliccare _**Crea nuovo**_.
+Per creare una nuova finalità, andare su _**Fruizione > Finalità inoltrate**_ e cliccare _**Crea nuovo**_.
 
 ## Step 2 - Selezionare l'e-service e l'ente da associare
 

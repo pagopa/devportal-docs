@@ -1,10 +1,12 @@
 # Come presentare una richiesta di fruizione
 
-La presentazione di una Richiesta di Fruizione (Agreement) prevede la creazione di una bozza, seguita da una sottomissione.
+La presentazione di una richiesta di fruizione (Agreement) prevede la creazione di una bozza, seguita da una sottomissione.
 
 ## Step 1 - Creare l'Agreement in DRAFT
 
-L'Agreement deve essere creato indicando sia l'E-Service che lo specifico Descrittore a cui fa riferimento.
+L'Agreement deve essere creato indicando sia l'e-service che la specifica versione di e-service (EServiceDescriptor) a cui fa riferimento.
+
+**Request**
 
 ```json
 POST /agreements
@@ -16,6 +18,8 @@ POST /agreements
 ```
 
 La richiesta di creazione, se andata a buon fine, produce un Agreement in bozza.
+
+**Response**
 
 ```json
 {
@@ -33,6 +37,8 @@ La richiesta di creazione, se andata a buon fine, produce un Agreement in bozza.
 
 La bozza può essere sottomessa per richiederne l'attivazione.
 
+**Request**
+
 ```
 POST /agreements/17bfba0b-85f2-44e1-9bfc-497605a0d8c7/submit
 
@@ -42,6 +48,8 @@ POST /agreements/17bfba0b-85f2-44e1-9bfc-497605a0d8c7/submit
 ### Risposta in caso di requisiti soddisfatti
 
 Se il Fruitore richiedente possiede i requisiti necessari, l'Agreement viene attivato.
+
+**Response**
 
 ```json
 {
@@ -58,7 +66,9 @@ Se il Fruitore richiedente possiede i requisiti necessari, l'Agreement viene att
 
 ### Risposta in caso di requisiti non soddisfatti
 
-Se il Fruitore richiedente non possiede i requisiti necessari, l'Agreement passa ad uno stato di attesa.
+Se il fruitore richiedente non possiede i requisiti necessari, l'Agreement passa allo stato In attesa di approvazione (PENDING).
+
+**Response**
 
 ```json
 {

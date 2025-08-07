@@ -1,10 +1,10 @@
 # Come aggiornare la stima di carico di una finalità
 
-L'aggiornamento della stima di carico di una finalità (Purpose) può essere applicato direttamente, o richiedere l'approvazione dell'Erogatore in caso sia superiore alle soglie previste dal Descrittore dell'E-Service
+L'aggiornamento della stima di carico di una finalità (Purpose) può essere applicato direttamente, o richiedere l'approvazione dell'erogatore in caso sia superiore alle soglie previste dalla versione dell'e-service (EServiceDescriptor).
 
-1. Aggiornare la stima di carico
+## Step 1 - Aggiornare la stima di carico
 
-Request
+**Request**
 
 ```
 POST /purposes/17bfba0b-85f2-44e1-9bfc-497605a0d8c7/versions
@@ -14,7 +14,9 @@ POST /purposes/17bfba0b-85f2-44e1-9bfc-497605a0d8c7/versions
 }
 ```
 
-a. Response se la stima di carico è inferiore alle soglie previste dal Descrittore dell'E-Service
+**Response**
+
+Se la stima di carico è inferiore alle soglie previste dalla versione dell'e-service (EServiceDescriptor):
 
 ```
 {
@@ -36,7 +38,9 @@ a. Response se la stima di carico è inferiore alle soglie previste dal Descritt
 }
 ```
 
-b. Response se la stima di carico è superiore alle soglie previste dal Descrittore dell'E-Service
+**Response**
+
+Se la stima di carico è superiore alle soglie previste dalla versione dell'e-service (EServiceDescriptor):
 
 ```
 {

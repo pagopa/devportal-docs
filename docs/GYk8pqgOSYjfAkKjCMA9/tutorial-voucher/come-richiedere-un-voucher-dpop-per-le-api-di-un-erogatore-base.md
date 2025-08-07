@@ -1,19 +1,19 @@
 # Come richiedere un voucher DPoP per le API di un erogatore (base)
 
-Questo tutorial spiega come attivare e usare Demonstrating Proof‑of‑Possession (DPoP) – lo standard IETF ([RFC 9449](https://datatracker.ietf.org/doc/html/rfc9449)) che rende un voucher (token JWT) inutilizzabile se sottratto, perché vincolato a una chiave pubblica posseduta dal chiamante.
+Questo tutorial spiega come richiedere un voucher che utilizza Demonstrating Proof‑of‑Possession (DPoP) – lo standard IETF ([RFC 9449](https://datatracker.ietf.org/doc/html/rfc9449)) che rende un voucher (token JWT) inutilizzabile se sottratto, perché vincolato a una chiave pubblica posseduta dal chiamante. Per maggiori dettagli, si veda l'[approfondimento](../guida-tecnica-prodotto/utilizzare-i-voucher/approfondimento-su-dpop.md).
 
 Maggiori informazioni su questa implementazione nella [sezione dedicata](../guida-tecnica-prodotto/utilizzare-i-voucher/tipi-di-richiesta-di-voucher.md#bearer-token-spendibile-presso-le-api-di-un-erogatore-base).
 
 ## Il flusso in breve <a href="#il-flusso-in-breve" id="il-flusso-in-breve"></a>
 
-In sostanza, il processo end-to-end richiede cinque passaggi:
+In sostanza, il processo end-to-end richiede sette passaggi:
 
 1. il fruitore genera la client assertion standard; la firma con la chiave privata la cui pubblica è depositata sul proprio client su PDND Interoperabilità;
 2. il fruitore costruisce la DPoP destinata al server autorizzativo di PDND; la firma con una seconda chiave privata la cui pubblica sarà inserita nell'intestazione della DPoP, nel campo `jwk`;
 3. il fruitore chiede il voucher al server autorizzativo di PDND, aggiungendo l'header DPoP;
 4. il server autorizzativo di PDND effettua le verifiche necessarie. In caso di esito positivo, restituisce un voucher di tipo DPoP;
 5. il fruitore costruisce una seconda DPoP, questa volta destinata al resource server, ossia l'API dell'e-service dell'erogatore; la firma con la stessa chiava privata della DPoP al punto 2, mettendo anche qusta volta la chiave pubblica corrispondente nell'intestazione della DPoP, nel campo `jwk`;
-6. il fruitore fa una richiesta verso l'e-service dell'erogatore; inserisce sia il voucher rilasciato da PDND Interoperabilità, sia la DPoP generata al punto precedente nell'header DPoP;
+6. il fruitore fa una richiesta verso l'e-service dell'erogatore; inserisce sia il voucher rilasciato da PDND Interoperabilità nell'header `Authorization`, sia la DPoP generata al punto precedente nell'header `DPoP`;
 7. l'erogatore effettua le verifiche necessarie. In caso di esito positivo, elabora la richiesta del fruitore.
 
 ## Prerequisiti <a href="#il-flusso-in-breve" id="il-flusso-in-breve"></a>
@@ -66,7 +66,7 @@ Dopo aver costruito una _client assertion_ valida, questa deve essere firmata co
 
 A scopo esemplificativo, è stato pubblicato uno script Python per dimostrare come eseguire l'operazione. Tutte le istruzioni sono disponibili nel back office, all'interno del proprio client.
 
-È inoltre disponibile una funzione per verificare la validità della propria client assertion ed evidenziare eventuali errori. Lo strumento è disponibile nel back office su _**Fruizione > Debug client assertion**_.
+È inoltre disponibile una funzione per verificare la validità della propria client assertion ed evidenziare eventuali errori. Lo strumento è disponibile nel back office su _**Tool per lo sviluppo > Debug client assertion**_.
 
 ## Step 2 - Generazione della prima DPoP <a href="#il-flusso-in-breve" id="il-flusso-in-breve"></a>
 

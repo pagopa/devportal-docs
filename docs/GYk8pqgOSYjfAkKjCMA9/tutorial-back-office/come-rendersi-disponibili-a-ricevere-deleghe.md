@@ -1,10 +1,12 @@
 # Come rendersi disponibili a ricevere deleghe
 
+{% hint style="info" %}
 In ambiente di _Collaudo_ e _Produzione_, le deleghe sono disponibili solamente per le Pubbliche Amministrazioni. In ambiente di _Attestazione_, sono invece disponibili a tutti gli aderenti per eseguire i propri test.
+{% endhint %}
 
 ## Step 1 - Individuare la funzionalità
 
-Andare su _**Il tuo ente > Deleghe**_, tab _**Disponibilità**_.
+Andare su _**Il mio ente > Gestione delle deleghe**_, tab _**Disponibilità**_.
 
 ## Step 2 - Modificare la disponibilità
 

@@ -32,7 +32,7 @@ La responsabilità della verifica di questi attributi è a carico dell'erogatore
 
 Nella bozza della richiesta di fruizione, il fruitore ha la possibilità di caricare la documentazione necessaria per agevolare la verifica da parte dell'erogatore.
 
-#### Attributi Dichiarati
+#### Attributi dichiarati
 
 Per questa tipologia di attributi, la responsabilità ricade interamente sul dichiarante, ossia sul fruitore.
 

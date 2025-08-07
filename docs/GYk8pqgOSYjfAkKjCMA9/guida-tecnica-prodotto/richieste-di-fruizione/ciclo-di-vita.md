@@ -50,7 +50,7 @@ L'erogatore ha la facoltà di rifiutare una richiesta di fruizione se, a suo giu
 
 ### Aggiornamento di una richiesta di fruizione
 
-È necessario quando un erogatore pubblica una nuova versione di e-service. In quel caso, il fruitore troverà un pulsante _Aggiorna_ nella scheda della propria richiesta di fruizione.&#x20;
+È necessario quando un erogatore pubblica una nuova versione di e-service. In quel caso, il fruitore troverà un pulsante _**Aggiorna**_ nella scheda della propria richiesta di fruizione.&#x20;
 
 Questo avviene perché la richiesta è fortemente legata alla versione di e-service per la quale è stata presentata. Se una richiesta di fruizione è stata presentata per un e-service in versione 5, nel momento in cui questo viene aggiornato alla versione 6, è necessario effettuare un aggiornamento.
 

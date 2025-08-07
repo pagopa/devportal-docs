@@ -8,7 +8,7 @@ I client non hanno veri e propri stati. Possono essere creati e distrutti, assoc
 
 ### Creazione di un client
 
-I client e-service possono essere creati da _Fruizione > I tuoi client e-service_. I client per le API di PDND Interoperabilità, da _Fruizione > I tuoi client API Interop_.
+I client e-service possono essere creati da _**Gestione del client > API e-service**_. I client per le API di PDND Interoperabilità, da _**Gestione del client > API Interoperabilità**_.
 
 Per creare un client, è sufficiente inserire un nome e una descrizione che ti aiutino a identificarlo.
 
@@ -24,7 +24,7 @@ Per creare un client, è sufficiente inserire un nome e una descrizione che ti a
 
 Le chiavi pubbliche contenute nei client e-service possono ottenere voucher validi solo per le finalità alle quali il client stesso è associato.
 
-All'interno di ogni finalità, è sempre disponibile la funzionalità per associare client. Si può entrare nella scheda della singola finalità, nella tab _Client associati_, e cliccare su _Aggiungi_. Nell'elenco saranno riportati tutti i client e-service creati in precedenza da _Fruizione > I tuoi client e-service_.
+All'interno di ogni finalità, è sempre disponibile la funzionalità per associare client. Si può entrare nella scheda della singola finalità, nella tab _**Client associati**_, e cliccare su _**Aggiungi**_. Nell'elenco saranno riportati tutti i client e-service creati in precedenza da _**Gestione del client > API e-service**_.
 
 Dal momento in cui un client viene associato ad una finalità, può richiedere voucher validi da spendere presso l'e-service che fanno capo a quella finalità.
 
@@ -32,7 +32,7 @@ Ogni client può essere contemporaneamente associato a più finalità.
 
 ### Disassociazione di un client da una finalità
 
-È sempre possibile per un amministratore disassociare un client da una finalità. Può farlo entrando nella singola finalità,  tab _Client Associati_, selezionare il client di interesse, e disassociarlo.
+È sempre possibile per un amministratore disassociare un client da una finalità. Può farlo entrando nella singola finalità,  tab _**Client Associati**_, selezionare il client di interesse, e disassociarlo.
 
 Quando un client viene disassociato da una finalità non viene eliminato. Semplicemente, smette di poter ottenere voucher per la finalità dal quale è stato disassociato, mentre continuerà a funzionare correttamente su tutte le altre finalità.
 

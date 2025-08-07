@@ -80,6 +80,7 @@
 * [Come creare una finalità](tutorial-back-office/come-creare-una-finalita.md)
 * [Come creare un client](tutorial-back-office/come-creare-un-client.md)
 * [Come associare un client ad una finalità](tutorial-back-office/come-associare-un-client-ad-una-finalita.md)
+* [Come associare un portachiavi ad un e-service](tutorial-back-office/come-associare-un-portachiavi-ad-un-e-service.md)
 * [Come generare corredo crittografico e caricare chiavi pubbliche](tutorial-back-office/come-generare-corredo-crittografico-e-caricare-chiavi-pubbliche.md)
 * [Come rendersi disponibili a ricevere deleghe](tutorial-back-office/come-rendersi-disponibili-a-ricevere-deleghe.md)
 * [Come conferire una delega ad un altro ente](tutorial-back-office/come-conferire-una-delega-ad-un-altro-ente.md)
@@ -92,6 +93,8 @@
 * [Come richiedere un voucher Bearer per le API di un erogatore (con informazioni aggiuntive)](tutorial-voucher/come-richiedere-un-voucher-bearer-per-le-api-di-un-erogatore-con-informazioni-aggiuntive.md)
 * [Come richiedere un voucher DPoP per le API di un erogatore (base)](tutorial-voucher/come-richiedere-un-voucher-dpop-per-le-api-di-un-erogatore-base.md)
 * [Come richiedere un voucher DPoP per le API di un erogatore (con informazioni aggiuntive)](tutorial-voucher/come-richiedere-un-voucher-dpop-per-le-api-di-un-erogatore-con-informazioni-aggiuntive.md)
+* [Come firmare una risposta per un fruitore](tutorial-voucher/come-firmare-una-risposta-per-un-fruitore.md)
+* [Come verificare una risposta firmata da un erogatore](tutorial-voucher/come-verificare-una-risposta-firmata-da-un-erogatore.md)
 
 ## Tutorial API
 

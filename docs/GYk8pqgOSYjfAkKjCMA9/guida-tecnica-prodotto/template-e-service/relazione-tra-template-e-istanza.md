@@ -2,13 +2,13 @@
 
 ### Chi può creare i template? <a href="#chi-puo-creare-i-template" id="chi-puo-creare-i-template"></a>
 
-Tutti gli aderenti autorizzati ad erogare in un certo ambiente potranno creare ed evolvere template e-service. Per creare un nuovo template, andare su _Erogazione > I tuoi template_ e clicca _Crea nuovo_.
+Tutti gli aderenti autorizzati ad erogare in un certo ambiente potranno creare ed evolvere template e-service. Per creare un nuovo template, andare su _**Erogazione > I miei template e-service**_ e clicca _**Crea nuovo**_.
 
 La creazione di un template è molto simile alla creazione di un e-service; di fatto un template contiene gli stessi campi di un e-service. L'unica variazione è che c'è un campo in più che contiene la **descrizione del template con eventuali note informative**, a beneficio dei potenziali enti interessati a derivare la propria istanza.
 
 ### Chi può istanziare gli e-service a partire dai template? <a href="#chi-puo-istanziare-gli-e-service-a-partire-dai-template" id="chi-puo-istanziare-gli-e-service-a-partire-dai-template"></a>
 
-Anche in questo caso, tutti gli aderenti autorizzati ad erogare in un certo ambiente potranno creare istanze a partire da template. Per farlo, potranno andare sul catalogo disponibile in _Erogazione > Catalogo template_, selezionare il template di interesse, e cliccare su _Usa template_ per generare la propria istanza.
+Anche in questo caso, tutti gli aderenti autorizzati ad erogare in un certo ambiente potranno creare istanze a partire da template. Per farlo, potranno andare sul catalogo disponibile in _**Erogazione >  Template e-service**_, selezionare il template di interesse, e cliccare su _**Usa template**_ per generare la propria istanza.
 
 ### Gestione dei requisiti di accesso (attributi) <a href="#gestione-dei-requisiti-di-accesso-attributi" id="gestione-dei-requisiti-di-accesso-attributi"></a>
 

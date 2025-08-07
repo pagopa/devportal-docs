@@ -6,7 +6,7 @@ Solamente gli enti di tipo PA, GSP o SCP possono erogare e-service negli ambient
 
 ## Step 1 - Creazione di un nuovo e-service
 
-Chi ha i permessi di amministrazione o di operatore API può accedere alla voce di menu _**Erogazione > I tuoi e-service**_**&#x20;>&#x20;**_**Crea nuovo**_.&#x20;
+Chi ha i permessi di amministrazione o di operatore API può accedere alla voce di menu _**Erogazione > I miei e-service**_**&#x20;>&#x20;**_**Crea nuovo**_.&#x20;
 
 <figure><img src="../.gitbook/assets/nuovo e-service.png" alt=""><figcaption></figcaption></figure>
 

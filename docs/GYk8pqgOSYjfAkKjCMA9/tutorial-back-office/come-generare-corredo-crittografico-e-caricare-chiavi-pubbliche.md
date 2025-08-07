@@ -1,8 +1,6 @@
 # Come generare corredo crittografico e caricare chiavi pubbliche
 
-Questo tutorial vale a titolo di esempio, ma è possibile generare il proprio corredo crittografico in molte altre maniere.
-
-Il vincolo è che si tratti di chiave RSA codificata in PEM di lunghezza 2048 bit.
+Questo tutorial vale a titolo di esempio, ma è possibile generare il proprio corredo crittografico in molte altre maniere. Il vincolo da rispettare è che si tratti di chiave RSA codificata in PEM di lunghezza 2048 bit.
 
 ## Step 1 - Generare il corredo crittografico&#x20;
 
@@ -20,10 +18,10 @@ La chiave privata (`.priv`) rimane all'aderente, il quale la deve mantenere al s
 
 ## Step 2 - Caricare la chiave pubblica
 
-Bisogna entrare nel client di interesse dal back office, nella sezione _**Fruizione > I tuoi client e-service**_\*, e poi entrare nel client di interesse.&#x20;
+Bisogna entrare nel client di interesse dal back office, nella sezione _**Gestione dei client > API e-service**_\*, e poi entrare nel client di interesse.&#x20;
 
 Nella tab _**Chiavi Pubbliche**_, cliccare su _**Aggiungi**_. Se non è possibile farlo, è possibile che la tua utenze non sia censita tra i membri del client.
 
 Una volta che si apre il pannello laterale,  è necessario copiare l'intero contenuto del file della chiave pubblica (quella che finisce in `.pub`), assicurandosi di includere anche le parti iniziale e finale (incluse  `-----BEGIN PUBLIC KEY-----` e  `-----END PUBLIC KEY-----`).
 
-\*oppure _**Fruizione > I tuoi client API Interop**_ se il client serve per interagire con le API esposte da PDND Interoperabilità.
+\*oppure _**Gestione dei client > API Interoperabilità**_ se il client serve per interagire con le API esposte da PDND Interoperabilità.

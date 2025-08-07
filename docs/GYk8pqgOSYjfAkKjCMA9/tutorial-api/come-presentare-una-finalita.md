@@ -2,13 +2,13 @@
 
 
 
-L'utilizzo di una finalità (Purpose) richiede la creazione di una bozza corredata dall'Analisi del Rischio, e una successiva attivazione.
+L'utilizzo di una finalità (**Purpose**) richiede la creazione di una bozza corredata dall'analisi del rischio, e una successiva attivazione.
 
 ## Step 1 - Creare la Purpose in DRAFT
 
-La Purpose deve essere creata indicando l'E-Service verso il quale verrà utilizzata, le informazioni della FInalità, la stima di carico e l'Analisi del Rischio.
+La Purpose deve essere creata indicando l'e-service verso il quale verrà utilizzata, le informazioni della finalità, la stima di carico e l'analisi del rischio.
 
-Request
+**Request**
 
 ```
 POST /purposes
@@ -27,11 +27,11 @@ POST /purposes
 }
 ```
 
-Nota: attraverso l'interfaccia web di Interoperabilità è disponibile il tool per sviluppatori `Export analisi del rischio`, che permette di generare il valore del campo `riskAnalysisForm` a partire dalla compilazione visuale del form.
+Nota: attraverso il [back office](../guida-tecnica-prodotto/back-office/) di PDND Interoperabilità è disponibile uno strumento per sviluppatori che permette di generare il valore del campo `riskAnalysisForm` a partire dalla compilazione visuale del form. È disponibile sotto _Tool per lo sviluppo > Export analisi del rischio_.
 
 La richiesta di creazione, se andata a buon fine, produce una Purpose con una versione in bozza.
 
-Response
+**Response**
 
 ```
 {
@@ -53,7 +53,11 @@ Response
 }
 ```
 
-## Step 2 - Attivazione della Purpose Completata la compilazione, è necessario sottomettere la Purpose per poterla attivare.
+## Step 2 - Attivazione della Purpose
+
+Completata la compilazione, è necessario sottomettere la Purpose per poterla attivare.
+
+**Request**
 
 ```
 POST /purposes/17bfba0b-85f2-44e1-9bfc-497605a0d8c7/activate
@@ -63,9 +67,9 @@ POST /purposes/17bfba0b-85f2-44e1-9bfc-497605a0d8c7/activate
 
 ### Caso 1 - Stima di carico inferiore alle soglie massime
 
-Se la stima di carico è inferiore alle soglie previste dal Descrittore dell'E-Service, la Purpose viene attivata.
+Se la stima di carico è inferiore alle soglie previste dalla versione dell'e-service (EServiceDescriptor), la Purpose viene attivata.
 
-Response
+**Response**
 
 ```
 {
@@ -91,9 +95,9 @@ Response
 
 ### Caso 2 - Stima di carico superiore alle soglie massime
 
-Se la stima di carico è superiore alle soglie previste dal Descrittore dell'E-Service, la Purpose passa in attesa di approvazione e richiede la conferma da parte dell'Erogatore.
+Se la stima di carico è superiore alle soglie previste dalla versione dell'e-service (EServiceDescriptor), la Purpose passa in attesa di approvazione e richiede la conferma da parte dell'erogatore.
 
-Response
+**Response**
 
 ```
 {

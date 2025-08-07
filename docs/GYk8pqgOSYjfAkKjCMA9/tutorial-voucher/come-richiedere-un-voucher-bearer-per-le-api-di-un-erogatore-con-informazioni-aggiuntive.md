@@ -11,7 +11,7 @@ In sostanza, il processo end-to-end richiede sette passaggi:
 3. il fruitore genera la client assertion inserendo al suo interno l'hash che si riferisce al token;
 4. il fruitore chiede il voucher al server autorizzativo di PDND;
 5. il server autorizzativo di PDND effettua le verifiche necessarie. In caso di esito positivo, restituisce un voucher;
-6. il fruitore fa una richiesta verso le API dell'erogatore;
+6. il fruitore fa una richiesta verso l'e-service dell'erogatore; inserisce sia il voucher rilasciato da PDND Interoperabilità nell'header `Authorization`, sia il JWS con le informazioni aggiuntive generato al punto 1 nell'header `AgID-JWT-TrackingEvidence`;
 7. l'erogatore effettua le verifiche necessarie. In caso di esito positivo, elabora la richiesta del fruitore.
 
 ## Prerequisiti <a href="#il-flusso-in-breve" id="il-flusso-in-breve"></a>
@@ -24,9 +24,9 @@ Si assume che il fruitore abbia:
 
 ## Step 1 - Generazione del token contenente le informazioni aggiuntive <a href="#il-flusso-in-breve" id="il-flusso-in-breve"></a>
 
-Il fruitore costruisce un `JWS` , inserendo nell'header il `kid` di una chiave pubblica depositata su PDND Interoperabilità. Con la chiave privata corrispondente a quella pubblica firmerà questo `JWS`. Nel corpo (payload) del `JWS` inserisce le informazioni complementari da inviare all'erogatore.
+Il fruitore costruisce un JWS , inserendo nell'header il `kid` di una chiave pubblica depositata su PDND Interoperabilità. Con la chiave privata corrispondente a quella pubblica firmerà questo JWS. Nel corpo (payload) del JWS inserisce le informazioni complementari da inviare all'erogatore.
 
-Un `JWS` di esempio può avere header
+Un JWS di esempio può avere header
 
 ```
 {
@@ -40,7 +40,7 @@ NB: la chiave privata che firma e il  `kid` della pubblica corrispondente deposi
 
 ## Step 2 - Calcolare l'hash del JWS <a href="#il-flusso-in-breve" id="il-flusso-in-breve"></a>
 
-A partire dalla codifica del `JWS` (ossia il `JWS` codificato secondo l'algoritmo inserito nell'header, in genere inizia per `ey`) il fruitore applica l'algoritmo di hashing `SHA256` al `JWS`, ottenendone un hash non reversibile a lunghezza fissa.&#x20;
+A partire dalla codifica del JWS (ossia il JWS codificato secondo l'algoritmo inserito nell'header, in genere inizia per `ey`) il fruitore applica l'algoritmo di hashing SHA256 al JWS, ottenendone un hash non reversibile a lunghezza fissa.&#x20;
 
 A scopo esemplificativo, è possibile inserire in un terminale il seguente comando, previa installazione del pacchetto `openssl`
 
@@ -48,7 +48,7 @@ A scopo esemplificativo, è possibile inserire in un terminale il seguente coman
 echo -n {JWS} | openssl sha256
 ```
 
-per ottenere l'hash del `JWS`. Ad esempio, a fronte del JWS esempio con codifica
+per ottenere l'hash del JWS. Ad esempio, a fronte del JWS esempio con codifica
 
 ```
 eyJhbGciOiJIUzI1NiIsImtpZCI6IlptWXhaR0UyWWpRdE16WTJZeTAwTldJNUxUaGpOR0l0TURKbVltUXlaR0l5TW1aaCIsInR5cCI6ImF0K2p3dCJ9.eyJqdGkiOiJkc2Zkc2Zkc2ZkcyIsImEiOiJiIn0.2QcY5UpoE2PgJhe1FKnHx-SZZq_NS6AKDTlfFdpVP9Q
@@ -108,7 +108,7 @@ Dopo aver costruito una _client assertion_ valida, questa deve essere firmata co
 
 A scopo esemplificativo, è stato pubblicato uno script Python per dimostrare come eseguire l'operazione. Tutte le istruzioni sono disponibili nel back office, all'interno del proprio client.
 
-È inoltre disponibile una funzione per verificare la validità della propria client assertion ed evidenziare eventuali errori. Lo strumento è disponibile nel back office su _**Fruizione > Debug client assertion**_.
+È inoltre disponibile una funzione per verificare la validità della propria client assertion ed evidenziare eventuali errori. Lo strumento è disponibile nel back office su _**Tool per lo sviluppo > Debug client assertion**_.
 
 ## Step 4 - Richiedere il voucher al server autorizzativo
 

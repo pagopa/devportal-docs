@@ -8,7 +8,7 @@ I portachiavi non hanno veri e propri stati. Possono essere creati e distrutti, 
 
 ### Creazione di un portachiavi
 
-I portachiavi possono essere creati da Erogazione _> I tuoi portachiavi_.
+I portachiavi possono essere creati da _**Erogazione > Portachiavi erogatore**_.
 
 Per creare un portachiavi, è sufficiente inserire un nome e una descrizione che ti aiutino a identificarlo.
 
@@ -24,7 +24,7 @@ Per creare un portachiavi, è sufficiente inserire un nome e una descrizione che
 
 Le chiavi pubbliche contenute nei portachiavi possono firmare risposte solo per gli e-service ai quali il portachiavi stesso è associato.
 
-All'interno di ogni e-service, è sempre disponibile la funzionalità per associare portachiavi. Si può entrare nella scheda del proprio e-service in modalità erogazione, nella tab _Portachiavi_, e cliccare su _Aggiungi_. Nell'elenco saranno riportati tutti i portachiavi creati in precedenza da _Erogazione > I tuoi portachiavi_.
+All'interno di ogni e-service, è sempre disponibile la funzionalità per associare portachiavi. Si può entrare nella scheda del proprio e-service in modalità erogazione, nella tab _**Portachiavi**_, e cliccare su _**Aggiungi**_. Nell'elenco saranno riportati tutti i portachiavi creati in precedenza da _**Erogazione > Portachiavi erogatore**_.
 
 Dal momento in cui un portachiavi viene associato ad un e-service, può firmare risposte verso il fruitore per le richieste che sono arrivate per quell'e-service.
 
@@ -32,7 +32,7 @@ Ogni portachiavi può essere contemporaneamente associato a più e-service.
 
 ### Disassociazione di un portachiavi da un e-service
 
-È sempre possibile per un amministratore disassociare un portachiavi da una e-service. Può farlo entrando nella scheda del singolo e-service in modalità erogazione,  tab _Portachiavi_, selezionare il portachiavi di interesse, e disassociarlo.
+È sempre possibile per un amministratore disassociare un portachiavi da una e-service. Può farlo entrando nella scheda del singolo e-service in modalità erogazione,  tab _**Portachiavi**_, selezionare il portachiavi di interesse, e disassociarlo.
 
 Quando un portachiavi viene disassociato da una finalità non viene eliminato. Semplicemente, smette di poter firmare risposte per l'e-service dal quale è stato disassociato, mentre continuerà a funzionare correttamente su tutti gli altri e-service.
 

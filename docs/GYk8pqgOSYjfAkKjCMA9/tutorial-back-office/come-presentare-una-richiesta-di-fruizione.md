@@ -2,7 +2,7 @@
 
 ### Step 1 - Trovare l'e-service&#x20;
 
-Cercare l'e-service per il quale si vuole presentare una richiesta di fruizione su _**Fruizione > Catalogo e-service**_. È indicato se l'aderente non può fruire dell'e-service perché non è in possesso di uno o più attributi certificati richiesti.
+Cercare l'e-service per il quale si vuole presentare una richiesta di fruizione su _**Catalogo e-service**_. È indicato se l'aderente non può fruire dell'e-service perché non è in possesso di uno o più attributi certificati richiesti.
 
 <figure><img src="../.gitbook/assets/catalogo e-service.png" alt=""><figcaption><p>Come appare il catalogo degli e-service</p></figcaption></figure>
 
@@ -21,6 +21,6 @@ Le parti di interesse per il fruitore sono potenzialmente due:
 
 Se la richiesta è compilata correttamente, è possibile inoltrarla. Una volta inoltrata, non può essere modificata o cancellata dal potenziale fruitore, fino a che non ci sia una verifica da parte dell'erogatore o PDND Interoperabilità riscontri modifiche allo stato degli attributi posseduti dal potenziale fruitore.
 
-È sempre possibile verificare lo stato delle richieste di fruizione presentate andando su _**Fruizione > Le tue richieste**_**.**
+È sempre possibile verificare lo stato delle richieste di fruizione presentate andando su _**Fruizione > Richieste inoltrate**_**.**
 
 <figure><img src="../.gitbook/assets/richieste di fruizione e-service.png" alt=""><figcaption></figcaption></figure>

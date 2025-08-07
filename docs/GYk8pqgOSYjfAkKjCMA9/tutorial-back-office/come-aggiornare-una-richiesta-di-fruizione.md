@@ -4,7 +4,7 @@ Quando viene pubblicata una nuova versione di e-service a catalogo, viene richie
 
 ## Step 1 - Entrare nella scheda della propria richiesta di fruizione
 
-Dalla voce di menù Fruizione > Le tue richieste, selezionare la richiesta di interesse, ed entrarci.
+Dalla voce di menù _**Fruizione > Richieste inoltrate**_, selezionare la richiesta di interesse, ed entrarci.
 
 ## Step 2 - Aggiornare la richiesta
 

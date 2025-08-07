@@ -8,7 +8,7 @@ I client e-service sono destinati ad essere associati alle proprie finalità e a
 
 I client API Interop sono invece destinati a interagire con le [API esposte da PDND Interoperabilità](https://developer.pagopa.it/pdnd-interoperabilita/api).
 
-Dal back office andare alla voce di menu _**Fruizione > I tuoi client e-service**_ oppure _**Fruizione > I tuoi client API Interop**_ e poi _**Crea nuovo**_.
+Dal back office andare alla voce di menu _**Gestione del client > API e-service**_ oppure _**Gestione del client > API Interoperabilità**_ e poi _**Crea nuovo**_.
 
 ## Step 2 - Assegnare un nome e una descrizione&#x20;
 

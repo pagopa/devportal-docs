@@ -6,7 +6,7 @@
 
 ## Step 1 - Entrare nella scheda dell'e-service da modificare
 
-Nella vista _**Erogazione > I tuoi e-service**_ cliccare sui tre pallini alla voce dell'e-service di interesse e selezionare _**Crea bozza**_.&#x20;
+Nella vista _**Erogazione > I miei e-service**_ cliccare sui tre pallini alla voce dell'e-service di interesse e selezionare _**Crea bozza**_.&#x20;
 
 Non è possibile avere più bozze dello stesso e-service contemporaneamente.
 

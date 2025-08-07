@@ -1,6 +1,6 @@
 # Come aggiornare un e-service
 
-Il modo di aggiornare l'e-service cambia in funzione del campo che deve essere aggiornato. La modifica di alcuni campi (come ad esempio il file di interfaccia API o il parametro dell'_audience_) sono considerate modifiche potenzialmente _breaking_. Per modificare uno di questi campi, bisogna creare e pubblicare una nuova versione di e-service.
+Il modo di aggiornare l'e-service cambia in funzione del campo che deve essere aggiornato. La modifica di alcuni campi (come ad esempio il file di interfaccia API o il parametro dell'_audience_) sono considerate modifiche potenzialmente _breaking_, ossia che causerebbero rotture nelle integrazioni dei fruitori. Per modificare uno di questi campi, bisogna creare e pubblicare una nuova versione di e-service.
 
 In caso contrario è possibile aggiornare immediatamente il campo dell'e-service, senza ulteriori oneri.&#x20;
 

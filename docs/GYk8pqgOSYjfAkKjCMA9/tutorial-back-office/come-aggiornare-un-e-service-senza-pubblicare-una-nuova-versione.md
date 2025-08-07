@@ -2,7 +2,7 @@
 
 ## Step 1 - Entrare nella scheda dell'e-service da modificare
 
-Entrare nel back office in _**Erogazione > I tuoi e-service**_ e selezionare l'e-service di interesse.
+Entrare nel back office in _**Erogazione > I miei e-service**_ e selezionare l'e-service di interesse.
 
 ## Step 2 - Operare la modifica
 

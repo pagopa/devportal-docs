@@ -2,7 +2,7 @@
 
 ### Monitoraggio delle istanze: andamento delle integrazioni <a href="#monitoraggio-delle-istanze-andamento-delle-integrazioni" id="monitoraggio-delle-istanze-andamento-delle-integrazioni"></a>
 
-Il creatore del template può sempre monitorare lo stato delle istanze create a partire dal template stesso nella sezione _Erogazione > I tuoi template_. In questa maniera, può verificare eventuali disallineamenti di versione (es. enti che non aggiornano la loro istanza) o eventuali criticità che interessano il network.
+Il creatore del template può sempre monitorare lo stato delle istanze create a partire dal template stesso nella sezione _**Erogazione > I miei template e-service**_. In questa maniera, può verificare eventuali disallineamenti di versione (es. enti che non aggiornano la loro istanza) o eventuali criticità che interessano il network.
 
 ### Integrazione con il meccanismo di delega <a href="#integrazione-con-il-meccanismo-di-delega" id="integrazione-con-il-meccanismo-di-delega"></a>
 

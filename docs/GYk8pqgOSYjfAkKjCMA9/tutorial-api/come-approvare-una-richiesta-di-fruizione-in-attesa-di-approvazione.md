@@ -1,14 +1,14 @@
 # Come approvare  una richiesta di fruizione in attesa di approvazione
 
-Sull'API lo stato _**In attesa di approvazione**_ delle richieste di fruizione (Agreement) è identificato con _**PENDING**_.&#x20;
+Sull'API lo stato **In attesa di approvazione** delle richieste di fruizione (Agreement) è identificato con **PENDING**.&#x20;
 
-Un Agreement in stato PENDING necessita di uno o più interventi da parte dell'Erogatore dell'E-Service.
+Un Agreement in stato PENDING necessita di uno o più interventi da parte dell'erogatore dell'e-service.
 
 ## Caso 1 - Approvazione manuale necessaria
 
-Da eseguire se l'attivazione di un Agreement richiede l'approvazione manuale dell'Erogatore, come configurato nell'E-Service.
+Da eseguire se l'attivazione di un Agreement richiede l'approvazione manuale dell'erogatore. L'approvazione manuale può essere scelta dall'erogatore all'atto della definizione di una versione di e-service. Per maggiori informazioni, si veda la [sezione dedicata](../guida-tecnica-prodotto/e-service/#informazioni-di-versione).
 
-Richiesta
+**Request**
 
 ```
 POST /agreements/4ed64879-2568-4117-9b34-2322cbcdf90d/approve
@@ -16,7 +16,7 @@ POST /agreements/4ed64879-2568-4117-9b34-2322cbcdf90d/approve
 {}
 ```
 
-Risposta
+**Response**
 
 ```json
 {
@@ -31,17 +31,19 @@ Risposta
 }
 ```
 
-## Caso 2 - Attributo Verificato necessario
+## Caso 2 - Attributo verificato necessario
 
-Da eseguire se l'E-Service richiede il possesso di uno o più Attributi Verificati non ancora assegnati al Fruitore.
+Da eseguire se l'e-service richiede il possesso di uno o più attributi verificati non ancora assegnati al fruitore.
 
-### Step 1 - Assegnazione di un Attributo Verificato al Fruitore
+### Step 1 - Assegnazione di un attributo verificato al fruitore
 
-{% hint style="info" %}
-API rilasciata prossimamente
+{% hint style="warning" %}
+Questo endpoint non è ancora disponibile, sarà rilasciato prossimamente. È comunque possibile eseguire l'operazione manualmente dal back office. Per maggiori informazioni, si veda la [sezione dedicata](../guida-tecnica-prodotto/attributi/).
 {% endhint %}
 
 L'assegnazione richiede il riferimento all'Agreement per il quale è necessario l'attributo.
+
+**Request**
 
 ```json
 POST /tenants/172c89fe-62d1-4f3e-82bc-1ff034a85567/verifiedAttributes
@@ -52,11 +54,11 @@ POST /tenants/172c89fe-62d1-4f3e-82bc-1ff034a85567/verifiedAttributes
 }
 ```
 
-### Step 2 - Approvazione dell'Agreement da parte dell'Erogatore
+### Step 2 - Approvazione dell'Agreement da parte dell'erogatore
 
-L'Erogatore può ora confermare l'attivazione dell'Agreement.
+L'erogatore può ora confermare l'attivazione dell'Agreement.
 
-Richiesta
+**Request**
 
 ```
 POST /agreements/4ed64879-2568-4117-9b34-2322cbcdf90d/approve
@@ -64,7 +66,7 @@ POST /agreements/4ed64879-2568-4117-9b34-2322cbcdf90d/approve
 {}
 ```
 
-Risposta
+**Response**
 
 ```json
 {

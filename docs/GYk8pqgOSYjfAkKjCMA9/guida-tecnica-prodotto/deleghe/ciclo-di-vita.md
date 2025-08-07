@@ -13,7 +13,7 @@ Una **delega** può trovarsi in uno dei seguenti stati:
 
 ### Dare la disponibilità a divenire delegato <a href="#dare-la-disponibilita-a-divenire-delegato" id="dare-la-disponibilita-a-divenire-delegato"></a>
 
-L'aderente che ha interesse ad offrirsi come delegato all'erogazione o alla fruizione per conto di altri aderenti, può visitare la sezione _Il tuo ente > Deleghe_, andare alla tab _Disponibilità_, e cambiare le proprie disponibilità.
+L'aderente che ha interesse ad offrirsi come delegato all'erogazione o alla fruizione per conto di altri aderenti, può visitare la sezione _**Il mio ente > Gestione delle deleghe**_, andare alla tab _**Disponibilità**_, e cambiare le proprie disponibilità.
 
 <figure><img src="https://docs.pagopa.it/interoperabilita-1/~gitbook/image?url=https%3A%2F%2F4146244877-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Fb8HnYwaAzhxRFAZdZBXL%252Fuploads%252FzBOnb1teQOfuSCxQGRLB%252Fdeleghe_disponibilita.png%3Falt%3Dmedia%26token%3Defe3698a-a3ba-4196-857d-67494fd26a3a&#x26;width=768&#x26;dpr=4&#x26;quality=100&#x26;sign=bdcde9a0&#x26;sv=2" alt="La vista che mostra come modificare l&#x27;impostazione per la disponibilità alle deleghe"><figcaption><p>La vista che mostra come modificare l'impostazione per la disponibilità alle deleghe</p></figcaption></figure>
 
@@ -23,7 +23,7 @@ Di default, la disponibilità ad essere delegato è disabilitata sia per l'eroga
 
 ### Creazione e inoltro di una delega <a href="#creazione-e-inoltro-di-una-delega" id="creazione-e-inoltro-di-una-delega"></a>
 
-L'aderente che vuole delegare un altro aderente, può andare nella sezione _Il tuo ente > Deleghe_, andare alla tab _Deleghe conferite_, e cliccare su _+1 Crea nuovo_.
+L'aderente che vuole delegare un altro aderente, può andare nella sezione _**Il mio ente > Gestione delle deleghe**_, andare alla tab _Deleghe conferite_, e cliccare su _**Crea nuovo**_.
 
 Seleziona la tipologia di delega da conferire.
 
@@ -35,13 +35,13 @@ Si può quindi procedere all'inoltro della richiesta di delega, che il potenzial
 
 ### Accettazione o rifiuto di una delega <a href="#accettazione-o-rifiuto-di-una-delega" id="accettazione-o-rifiuto-di-una-delega"></a>
 
-L'aderente che ha ricevuto una richiesta di delega da parte di un altro aderente può andare nella sezione _Il tuo ente > Deleghe_, andare alla tab _Deleghe ricevute_, ed espandere la scheda della delega di interesse.
+L'aderente che ha ricevuto una richiesta di delega da parte di un altro aderente può andare nella sezione _**Il mio ente > Gestione delle deleghe**_, andare alla tab _**Deleghe ricevute**_, ed espandere la scheda della delega di interesse.
 
 Può quindi valutarla e accettarla. Oppure, può rifiutarla, fornendone apposita motivazione, che viene resa nota anche al delegante.
 
 ### Revoca di una delega <a href="#revoca-di-una-delega" id="revoca-di-una-delega"></a>
 
-L'aderente che vuole revocare una delega, può andare nella sezione _Il tuo ente > Deleghe_, andare alla tab _Deleghe conferite_, ed espandere la scheda della delega di interesse.
+L'aderente che vuole revocare una delega, può andare nella sezione _**Il mio ente > Gestione delle deleghe**_, andare alla tab _**Deleghe conferite**_, ed espandere la scheda della delega di interesse.
 
 Può quindi cliccare sull'azione _Revoca_, ed ottenere la revoca della delega.
 
