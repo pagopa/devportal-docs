@@ -4,13 +4,13 @@ Il ModI lascia discrezione all'erogatore nell'indicare qual debba essere la proc
 
 Si riporta comunque a titolo di esempio una possibile gestione del meccanismo di firma del payload di risposta di un e-service.
 
-Per maggiori informazioni, si veda la [sezione dedicata](../guida-tecnica/utilizzare-i-voucher/garanzia-dellintegrita-della-risposta.md).
+Per maggiori informazioni, si veda la [sezione dedicata](../../../guida-tecnica/utilizzare-i-voucher/garanzia-dellintegrita-della-risposta.md).
 
 Quando un fruitore riceve una risposta firmata dall'erogatore, può verificare l’autenticità e l’integrità dei dati ricevuti nella risposta attraverso il `kid` (id della chiave) inserito nel payload, e la chiave pubblica che l'erogatore ha depositato sul proprio _**Portachiavi erogatore**_, associato all'e-service.
 
 ## Step 1 - Deserializzazione della risposta
 
-Una volta deserializzato il payload creato dall'erogatore nel [tutorial precedente](come-firmare-una-risposta-per-un-fruitore.md), il fruitore troverà la risposta JSON che l'erogatore ha inviato, strutturata come segue:
+Una volta deserializzato il payload creato dall'erogatore nel [tutorial precedente](../../erogatore/voucher/come-firmare-una-risposta-per-un-fruitore.md), il fruitore troverà la risposta JSON che l'erogatore ha inviato, strutturata come segue:
 
 ```
 {
@@ -30,12 +30,12 @@ Si passa quindi alla verifica della firma.
 
 ## Step 2 - Individuazione della chiave pubblica
 
-La chiave corrispondente al `kid` è reperibile sulle [API](../guida-tecnica/api-esposte-da-pdnd-interoperabilita/) esposte da PDND Interoperabilità.
+La chiave corrispondente al `kid` è reperibile sulle [API](../../../guida-tecnica/api-esposte-da-pdnd-interoperabilita/) esposte da PDND Interoperabilità.
 
 Per ottenere la chiave da PDND Interoperabilità, il fruitore deve aver:
 
-* creato un client di tipo API Interop ([vedi tutorial](../tutorial-back-office/come-creare-un-client.md));
-* generato almeno un set di materiale crittografico e caricato la relativa chiave pubblica su PDND Interoperabilità all'interno del client ([vedi tutorial](../tutorial-back-office/come-generare-corredo-crittografico-e-caricare-chiavi-pubbliche.md))
+* creato un client di tipo API Interop ([vedi tutorial](../back-office/come-creare-un-client.md));
+* generato almeno un set di materiale crittografico e caricato la relativa chiave pubblica su PDND Interoperabilità all'interno del client ([vedi tutorial](../back-office/come-generare-corredo-crittografico-e-caricare-chiavi-pubbliche.md))
 * aver ottenuto un voucher valido per le API di PDND Interoperabilità ([vedi tutorial](come-richiedere-un-voucher-bearer-per-le-api-di-pdnd-interoperabilita.md)).
 
 Il fruitore la troverà al path `GET /keys/{kid}`  in formato JWK.

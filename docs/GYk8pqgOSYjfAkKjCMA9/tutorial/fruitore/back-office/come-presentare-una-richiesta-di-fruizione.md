@@ -4,7 +4,7 @@
 
 Cercare l'e-service per il quale si vuole presentare una richiesta di fruizione su _**Catalogo e-service**_. È indicato se l'aderente non può fruire dell'e-service perché non è in possesso di uno o più attributi certificati richiesti.
 
-<figure><img src="../.gitbook/assets/catalogo e-service.png" alt=""><figcaption><p>Come appare il catalogo degli e-service</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/catalogo e-service.png" alt=""><figcaption><p>Come appare il catalogo degli e-service</p></figcaption></figure>
 
 ### Step 2 - Creazione della bozza di fruizione
 
@@ -23,4 +23,4 @@ Se la richiesta è compilata correttamente, è possibile inoltrarla. Una volta i
 
 È sempre possibile verificare lo stato delle richieste di fruizione presentate andando su _**Fruizione > Richieste inoltrate**_**.**
 
-<figure><img src="../.gitbook/assets/richieste di fruizione e-service.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/richieste di fruizione e-service.png" alt=""><figcaption></figcaption></figure>

@@ -1,8 +1,8 @@
 # Come richiedere un voucher DPoP per le API di un erogatore (con informazioni aggiuntive)
 
-Questo tutorial spiega come richiedere un voucher che utilizza Demonstrating Proof‑of‑Possession (DPoP) – lo standard IETF ([RFC 9449](https://datatracker.ietf.org/doc/html/rfc9449)) che rende un voucher (token JWT) inutilizzabile se sottratto, perché vincolato a una chiave pubblica posseduta dal chiamante. Per maggiori dettagli, si veda l'[approfondimento](../guida-tecnica/utilizzare-i-voucher/approfondimento-su-dpop.md).
+Questo tutorial spiega come richiedere un voucher che utilizza Demonstrating Proof‑of‑Possession (DPoP) – lo standard IETF ([RFC 9449](https://datatracker.ietf.org/doc/html/rfc9449)) che rende un voucher (token JWT) inutilizzabile se sottratto, perché vincolato a una chiave pubblica posseduta dal chiamante. Per maggiori dettagli, si veda l'[approfondimento](../../../guida-tecnica/utilizzare-i-voucher/approfondimento-su-dpop.md).
 
-Il JWS contenente le informazioni aggiuntive rispetta l'[RFC 7519](https://datatracker.ietf.org/doc/html/rfc7519) e il pattern individuato, cioè quello previsto da AgID nel ModI (_Audit REST 02)_. Per maggiori informazioni, si veda la [sezione dedicata](../guida-tecnica/utilizzare-i-voucher/tipi-di-richiesta-di-voucher.md#dpop-spendibile-presso-le-api-di-un-erogatore-con-informazioni-aggiuntive-pattern-modi-audit-rest-02).
+Il JWS contenente le informazioni aggiuntive rispetta l'[RFC 7519](https://datatracker.ietf.org/doc/html/rfc7519) e il pattern individuato, cioè quello previsto da AgID nel ModI (_Audit REST 02)_. Per maggiori informazioni, si veda la [sezione dedicata](../../../guida-tecnica/utilizzare-i-voucher/tipi-di-richiesta-di-voucher.md#dpop-spendibile-presso-le-api-di-un-erogatore-con-informazioni-aggiuntive-pattern-modi-audit-rest-02).
 
 ## Il flusso in breve <a href="#il-flusso-in-breve" id="il-flusso-in-breve"></a>
 
@@ -22,9 +22,9 @@ In sostanza, il processo end-to-end richiede nove passaggi:
 
 Si assume che il fruitore abbia:
 
-* creato un client di tipo e-service ([vedi tutorial](../tutorial-back-office/come-creare-un-client.md));
-* generato almeno un set di materiale crittografico e caricato la relativa chiave pubblica su PDND Interoperabilità all'interno del client ([vedi tutorial](../tutorial-back-office/come-generare-corredo-crittografico-e-caricare-chiavi-pubbliche.md));
-* associato il client alla finalità per la quale vuole ottenere o inviare dati all'erogatore ([vedi tutorial](../tutorial-back-office/come-associare-un-client-ad-una-finalita.md)).
+* creato un client di tipo e-service ([vedi tutorial](../back-office/come-creare-un-client.md));
+* generato almeno un set di materiale crittografico e caricato la relativa chiave pubblica su PDND Interoperabilità all'interno del client ([vedi tutorial](../back-office/come-generare-corredo-crittografico-e-caricare-chiavi-pubbliche.md));
+* associato il client alla finalità per la quale vuole ottenere o inviare dati all'erogatore ([vedi tutorial](../back-office/come-associare-un-client-ad-una-finalita.md)).
 
 ## Step 1 - Generazione del token contenente le informazioni aggiuntive <a href="#il-flusso-in-breve" id="il-flusso-in-breve"></a>
 
@@ -266,4 +266,4 @@ Inoltre, il JWS creato allo step 1 andrà inserito all'interno di un altro heade
 
 L'erogatore effettua tutte le verifiche necessarie. Se tutto è in ordine, elabora la richiesta del fruitore, restituendogli i dati richiesti in caso di e-service che eroga dati, oppure accettando i dati dal fruitore in caso di e-service che riceve dati.
 
-Per consultare le verifiche consigliate agli erogatori, si veda la [sezione dedicata](../guida-tecnica/utilizzare-i-voucher/verifiche-su-un-voucher-dpop-da-parte-di-un-erogatore.md).
+Per consultare le verifiche consigliate agli erogatori, si veda la [sezione dedicata](../../../guida-tecnica/utilizzare-i-voucher/verifiche-su-un-voucher-dpop-da-parte-di-un-erogatore.md).

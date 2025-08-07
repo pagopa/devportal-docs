@@ -26,4 +26,4 @@ Il ModI lascia discrezione all'erogatore nell'indicare qual debba essere la proc
 
 Per questa ragione, PDND Interoperabilità non impone alcun vincolo, ad accezione dell'utilizzo di chiavi asimmetriche di tipo RSA in conformità con gli standard di sicurezza già adottati.
 
-Nel tutorial dedicati all'[erogatore](../../tutorial-voucher/come-firmare-una-risposta-per-un-fruitore.md) e al [fruitore](../../tutorial-voucher/come-verificare-una-risposta-firmata-da-un-erogatore.md), si riporta a titolo di esempio una possibile gestione del meccanismo di firma del payload di risposta di un e-service.
+Nel tutorial dedicati all'[erogatore](../../tutorial/erogatore/voucher/come-firmare-una-risposta-per-un-fruitore.md) e al [fruitore](../../tutorial/fruitore/voucher/come-verificare-una-risposta-firmata-da-un-erogatore.md), si riporta a titolo di esempio una possibile gestione del meccanismo di firma del payload di risposta di un e-service.

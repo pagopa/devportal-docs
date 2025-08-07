@@ -2,7 +2,7 @@
 
 Per un elenco di tutte le API messe a disposizione da PDND Interoperabilità, si veda [qui](https://app.gitbook.com/o/KXYtsf32WSKm6ga638R3/s/zwqHiUqrZCs3zNnHdc9A/).
 
-Maggiori informazioni su questa implementazione nella [sezione dedicata](../guida-tecnica/utilizzare-i-voucher/tipi-di-richiesta-di-voucher.md#bearer-token-spendibile-presso-le-api-di-pdnd-interoperabilita).
+Maggiori informazioni su questa implementazione nella [sezione dedicata](../../../guida-tecnica/utilizzare-i-voucher/tipi-di-richiesta-di-voucher.md#bearer-token-spendibile-presso-le-api-di-pdnd-interoperabilita).
 
 ## Il flusso in breve <a href="#il-flusso-in-breve" id="il-flusso-in-breve"></a>
 
@@ -18,8 +18,8 @@ In sostanza, il processo end-to-end richiede cinque passaggi:
 
 Si assume che il fruitore abbia:
 
-* creato un client di tipo API Interop ([vedi tutorial](../tutorial-back-office/come-creare-un-client.md));
-* generato almeno un set di materiale crittografico e caricato la relativa chiave pubblica su PDND Interoperabilità all'interno del client ([vedi tutorial](../tutorial-back-office/come-generare-corredo-crittografico-e-caricare-chiavi-pubbliche.md)).
+* creato un client di tipo API Interop ([vedi tutorial](../back-office/come-creare-un-client.md));
+* generato almeno un set di materiale crittografico e caricato la relativa chiave pubblica su PDND Interoperabilità all'interno del client ([vedi tutorial](../back-office/come-generare-corredo-crittografico-e-caricare-chiavi-pubbliche.md)).
 
 ## Step 1 - Generazione della client assertion <a href="#il-flusso-in-breve" id="il-flusso-in-breve"></a>
 

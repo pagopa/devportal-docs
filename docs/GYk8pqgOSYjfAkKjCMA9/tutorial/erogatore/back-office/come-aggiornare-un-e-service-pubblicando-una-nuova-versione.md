@@ -10,7 +10,7 @@ Nella vista _**Erogazione > I miei e-service**_ cliccare sui tre pallini alla vo
 
 Non è possibile avere più bozze dello stesso e-service contemporaneamente.
 
-<figure><img src="../.gitbook/assets/crea bozza nuova versione.png" alt=""><figcaption><p>Schermata di creazione di una bozza di nuova versione di e-service</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/crea bozza nuova versione.png" alt=""><figcaption><p>Schermata di creazione di una bozza di nuova versione di e-service</p></figcaption></figure>
 
 ## Step 2 - Compilazione del form di versione dell'e-service
 
@@ -21,13 +21,13 @@ Non è possibile avere più bozze dello stesso e-service contemporaneamente.
   2. **durata della validità del voucher**: dopo quanto tempo scade il voucher rilasciato da PDND Interoperabilità valido per accedere a questo servizio;
   3. **soglie delle chiamate API, per singolo fruitore e totale:** le soglie oltre le quali le finalità non vengono più attivate automaticamente dalla piattaforma.
 
-<figure><img src="../.gitbook/assets/UI versioni e-service.png" alt=""><figcaption><p>Fase 2</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/UI versioni e-service.png" alt=""><figcaption><p>Fase 2</p></figcaption></figure>
 
 ## Step 3 - Compilazione del form degli attributi
 
 Ogni e-service prevede dei requisiti di accesso che il fruitore deve possedere per potersi iscrivere a fruirne. In questo step si elencano questi requisiti, definiti attributi.
 
-<figure><img src="../.gitbook/assets/nuova UI attributi.png" alt=""><figcaption><p>Fase 3</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/nuova UI attributi.png" alt=""><figcaption><p>Fase 3</p></figcaption></figure>
 
 ## Step 4 - Caricamento del file di interfaccia e della documentazione tecnica
 
@@ -41,9 +41,9 @@ Al fine di assicurare la conformità delle API pubblicate agli standard del Mode
 
 Si richiede inoltre di caricare altra documentazione tecnica aggiuntiva (manuale d'uso, esempi, etc.).
 
-<figure><img src="../.gitbook/assets/UI documentazione.png" alt=""><figcaption><p>Fase 4</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/UI documentazione.png" alt=""><figcaption><p>Fase 4</p></figcaption></figure>
 
 Alla fine del processo è disponibile un riepilogo di tutti i dati inseriti durante la creazione della versione di e-service e si può decidere se modificare la bozza, pubblicarla o eliminarla.
 
-Per il dettaglio sui singoli campi o sui meccanismi relativi all'e-service, si veda la [sezione dedicata](../guida-tecnica/e-service/).
+Per il dettaglio sui singoli campi o sui meccanismi relativi all'e-service, si veda la [sezione dedicata](../../../guida-tecnica/e-service/).
 

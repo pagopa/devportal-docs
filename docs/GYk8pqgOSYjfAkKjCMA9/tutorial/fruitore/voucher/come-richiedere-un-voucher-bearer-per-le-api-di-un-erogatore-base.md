@@ -1,6 +1,6 @@
 # Come richiedere un voucher Bearer per le API di un erogatore (base)
 
-Maggiori informazioni su questa implementazione nella [sezione dedicata](../guida-tecnica/utilizzare-i-voucher/tipi-di-richiesta-di-voucher.md#bearer-token-spendibile-presso-le-api-di-un-erogatore-base).
+Maggiori informazioni su questa implementazione nella [sezione dedicata](../../../guida-tecnica/utilizzare-i-voucher/tipi-di-richiesta-di-voucher.md#bearer-token-spendibile-presso-le-api-di-un-erogatore-base).
 
 ## Il flusso in breve <a href="#il-flusso-in-breve" id="il-flusso-in-breve"></a>
 
@@ -16,9 +16,9 @@ In sostanza, il processo end-to-end richiede cinque passaggi:
 
 Si assume che il fruitore abbia:
 
-* creato un client di tipo e-service ([vedi tutorial](../tutorial-back-office/come-creare-un-client.md));
-* generato almeno un set di materiale crittografico e caricato la relativa chiave pubblica su PDND Interoperabilità all'interno del client ([vedi tutorial](../tutorial-back-office/come-generare-corredo-crittografico-e-caricare-chiavi-pubbliche.md));
-* associato il client alla finalità per la quale vuole ottenere o inviare dati all'erogatore ([vedi tutorial](../tutorial-back-office/come-associare-un-client-ad-una-finalita.md)).
+* creato un client di tipo e-service ([vedi tutorial](../back-office/come-creare-un-client.md));
+* generato almeno un set di materiale crittografico e caricato la relativa chiave pubblica su PDND Interoperabilità all'interno del client ([vedi tutorial](../back-office/come-generare-corredo-crittografico-e-caricare-chiavi-pubbliche.md));
+* associato il client alla finalità per la quale vuole ottenere o inviare dati all'erogatore ([vedi tutorial](../back-office/come-associare-un-client-ad-una-finalita.md)).
 
 ## Step 1 - Generazione della client assertion <a href="#il-flusso-in-breve" id="il-flusso-in-breve"></a>
 
@@ -138,4 +138,4 @@ Authorization: Bearer <voucher>
 
 L'erogatore effettua tutte le verifiche necessarie. Se tutto è in ordine, elabora la richiesta del fruitore, restituiendogli i dati richiesti in caso di e-service che eroga dati, oppure accettando i dati dal fruitore in caso di e-service che riceve dati.
 
-Per consultare le verifiche consigliate agli erogatori, si veda la [sezione dedicata](../guida-tecnica/utilizzare-i-voucher/verifiche-su-un-voucher-bearer-da-parte-di-un-erogatore.md).
+Per consultare le verifiche consigliate agli erogatori, si veda la [sezione dedicata](../../../guida-tecnica/utilizzare-i-voucher/verifiche-su-un-voucher-bearer-da-parte-di-un-erogatore.md).

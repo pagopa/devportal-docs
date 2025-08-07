@@ -45,7 +45,7 @@ Le API di PDND Interoperabilità sono fornite a tutti gli aderenti per contratto
 
 L'elenco delle API esposte da PDND Interoperabilità è disponibile [qui](https://developer.pagopa.it/pdnd-interoperabilita/api).&#x20;
 
-Per maggiori informazioni, si veda il [tutorial pratico](../../tutorial-voucher/come-richiedere-un-voucher-bearer-per-le-api-di-pdnd-interoperabilita.md).
+Per maggiori informazioni, si veda il [tutorial pratico](../../tutorial/fruitore/voucher/come-richiedere-un-voucher-bearer-per-le-api-di-pdnd-interoperabilita.md).
 
 {% hint style="info" %}
 PDND Interoperabilità non ha visibilità dei dati scambiati tra erogatore e fruitore. Le proprie API restituiscono solamente informazioni relative al dominio di PDND stessa (es. l'elenco delle richieste di fruizione presentate dal proprio ente).
@@ -57,7 +57,7 @@ Impiegato dalla grande maggioranza dei servizi, prevede la creazione di una clie
 
 Per maggiori informazioni, si vedano:
 
-* lato fruitore: il [tutorial pratico](../../tutorial-voucher/come-richiedere-un-voucher-bearer-per-le-api-di-un-erogatore-base.md) per richiedere un voucher;
+* lato fruitore: il [tutorial pratico](../../tutorial/fruitore/voucher/come-richiedere-un-voucher-bearer-per-le-api-di-un-erogatore-base.md) per richiedere un voucher;
 * lato erogatore: le [verifiche standard](verifiche-su-un-voucher-bearer-da-parte-di-un-erogatore.md) consigliate.
 
 ## Bearer Token spendibile presso le API di un erogatore (con informazioni aggiuntive — pattern ModI _Audit REST 02_)
@@ -78,7 +78,7 @@ L'erogatore confronta quindi l'hash che trova nel _digest_ che trova riportato n
 
 Per maggiori informazioni, si vedano:
 
-* lato fruitore: il [tutorial pratico](../../tutorial-voucher/come-richiedere-un-voucher-bearer-per-le-api-di-un-erogatore-con-informazioni-aggiuntive.md) per richiedere un voucher;
+* lato fruitore: il [tutorial pratico](../../tutorial/fruitore/voucher/come-richiedere-un-voucher-bearer-per-le-api-di-un-erogatore-con-informazioni-aggiuntive.md) per richiedere un voucher;
 * lato erogatore: le [verifiche standard](verifiche-su-un-voucher-bearer-da-parte-di-un-erogatore.md) e le [verifiche aggiuntive](verifiche-sul-digest-da-parte-di-un-erogatore.md) consigliate.
 
 ## DPoP spendibile presso le API di un erogatore (base)
@@ -91,7 +91,7 @@ Questo pattern offre un layer di sicurezza aggiuntivo, utile ad esempio nei casi
 
 Per maggiori informazioni, si vedano:
 
-* lato fruitore: il [tutorial pratico](../../tutorial-voucher/come-richiedere-un-voucher-dpop-per-le-api-di-un-erogatore-base.md) per richiedere un voucher;
+* lato fruitore: il [tutorial pratico](../../tutorial/fruitore/voucher/come-richiedere-un-voucher-dpop-per-le-api-di-un-erogatore-base.md) per richiedere un voucher;
 * lato erogatore: le [verifiche standard](verifiche-su-un-voucher-dpop-da-parte-di-un-erogatore.md) consigliate;
 * tutti: l'[approfondimento dedicato](approfondimento-su-dpop.md).
 
@@ -101,7 +101,7 @@ Ricalca il caso precedente di DPoP, includendo in più le informazioni aggiuntiv
 
 Per maggiori informazioni, si vedano:
 
-* lato fruitore: il [tutorial pratico](../../tutorial-voucher/come-richiedere-un-voucher-dpop-per-le-api-di-un-erogatore-con-informazioni-aggiuntive.md) per richiedere un voucher;
+* lato fruitore: il [tutorial pratico](../../tutorial/fruitore/voucher/come-richiedere-un-voucher-dpop-per-le-api-di-un-erogatore-con-informazioni-aggiuntive.md) per richiedere un voucher;
 * lato erogatore: le [verifiche standard](verifiche-su-un-voucher-dpop-da-parte-di-un-erogatore.md) e le [verifiche aggiuntive](verifiche-sul-digest-da-parte-di-un-erogatore.md) consigliate;
 * tutti: l'[approfondimento dedicato](approfondimento-su-dpop.md).
 

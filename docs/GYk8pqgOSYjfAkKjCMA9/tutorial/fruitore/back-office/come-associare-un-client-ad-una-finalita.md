@@ -6,7 +6,7 @@
 
 Se si intende modificare uno o più client associati, il fruitore può andare dal back office su _**Fruizione > Finalità inoltrate**_, trovare la finalità desiderata e cliccare su _**Visualizza**_.&#x20;
 
-<figure><img src="../.gitbook/assets/Nuova UI Le tue finalità.png" alt=""><figcaption><p>Le tue finalità --> Visualizza</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Nuova UI Le tue finalità.png" alt=""><figcaption><p>Le tue finalità --> Visualizza</p></figcaption></figure>
 
 ## Step 2 - Associare il client alla finalità
 

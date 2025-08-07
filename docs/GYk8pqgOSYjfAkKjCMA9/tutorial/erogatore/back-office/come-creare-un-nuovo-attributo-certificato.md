@@ -2,13 +2,13 @@
 
 ## Precondizioni
 
-Per creare nuovi attributi certificati, è necessario essere accreditati come _Ente Certificatore_. Per maggiori informazioni, si veda la [sezione dedicata](../guida-tecnica/attributi/enti-certificatori.md).
+Per creare nuovi attributi certificati, è necessario essere accreditati come _Ente Certificatore_. Per maggiori informazioni, si veda la [sezione dedicata](../../../guida-tecnica/attributi/enti-certificatori.md).
 
 ## Step 1 - Accedere al back office
 
 Gli utenti con permessi di _amministratore_ possono accedere attraverso il back office nel menu di sinistra alla voce _**Il mio ente > Ente certificatore**,_ che permette di accedere alla schermata seguente.
 
-<figure><img src="../.gitbook/assets/interop_ente_certificatore_creazione_attributo.png" alt=""><figcaption><p>La schermata che mostra la tab <em><strong>Gestione attributi</strong></em> all'interno della pagina <em><strong>Il mio ente > Ente certificatore</strong></em></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/interop_ente_certificatore_creazione_attributo.png" alt=""><figcaption><p>La schermata che mostra la tab <em><strong>Gestione attributi</strong></em> all'interno della pagina <em><strong>Il mio ente > Ente certificatore</strong></em></p></figcaption></figure>
 
 ## Step 2 - Creazione di un attributo
 

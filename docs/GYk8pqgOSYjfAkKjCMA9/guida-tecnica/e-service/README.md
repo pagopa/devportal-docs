@@ -33,4 +33,4 @@ Nella parte versionata vengono richiesti:
 
 Tutti i parametri sono aggiornabili nel tempo anche senza creare una nuova versione di e-service, ad eccezione di tre. Il **file di specifica dell'API** e il parametro **audience** non possono essere mai modificati. Gli **attributi** possono essere modificati senza creare una nuova versione solamente se ampliano la platea dei possibili fruitori.
 
-Maggiori informazioni sulla gestione degli aggiornamenti nel [tutorial dedicato](../../tutorial-back-office/come-aggiornare-un-e-service.md).
+Maggiori informazioni sulla gestione degli aggiornamenti nel [tutorial dedicato](../../tutorial/erogatore/back-office/come-aggiornare-un-e-service.md).
