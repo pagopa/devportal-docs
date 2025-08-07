@@ -4,7 +4,7 @@
 
 Il documento descrive il ciclo di vita di una richiesta di fruizione, tecnicamente denominata **Agreement**, dettagliando gli stati che può assumere e le condizioni necessarie per le transizioni tra stati.
 
-Si rimanda alla [sezione dedicata](../guida-tecnica-prodotto/richieste-di-fruizione/) per ulteriori informazioni sulle richieste di fruizione.
+Si rimanda alla [sezione dedicata](../../richieste-di-fruizione/) per ulteriori informazioni sulle richieste di fruizione.
 
 ## Attributi
 
@@ -34,7 +34,7 @@ Gli stati che un **Agreement** può assumere sono:
 
 I dettagli e le condizioni di transizione sono indicate nel diagramma e nelle descrizioni nelle sezioni che seguono.
 
-<figure><img src="../.gitbook/assets/interop_api_v2_lifecycle_agreement.png" alt="" width="375"><figcaption><p>Diagramma di flusso che descrive i passaggi di stato</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/interop_api_v2_lifecycle_agreement.png" alt="" width="375"><figcaption><p>Diagramma di flusso che descrive i passaggi di stato</p></figcaption></figure>
 
 ### DRAFT
 

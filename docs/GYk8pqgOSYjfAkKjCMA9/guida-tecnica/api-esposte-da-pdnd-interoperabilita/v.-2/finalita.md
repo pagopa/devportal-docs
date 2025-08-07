@@ -3,7 +3,7 @@
 ## Panoramica
 
 Il documento descrive il ciclo di vita di una finalità, tecnicamente denominata **Purpose**, dettagliando gli stati che può assumere e le condizioni necessarie per le transizioni tra stati.\
-Si rimanda alla [documentazione](../guida-tecnica-prodotto/finalita/) per ulteriori informazioni sulle finalità.
+Si rimanda alla [documentazione](../../finalita/) per ulteriori informazioni sulle finalità.
 
 ## Versioni di una finalità
 
@@ -34,7 +34,7 @@ Gli stati che una versione di finalità (**PurposeVersion**) può assumere sono:
 
 I dettagli e le condizioni di transizione sono indicate nel diagramma e nelle descrizioni nelle sezioni che seguono.
 
-<figure><img src="../.gitbook/assets/interop_api_v2_lifecycle_purpose.png" alt="" width="563"><figcaption><p>Diagramma di flusso che descrive i passaggi di stato</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/interop_api_v2_lifecycle_purpose.png" alt="" width="563"><figcaption><p>Diagramma di flusso che descrive i passaggi di stato</p></figcaption></figure>
 
 ### DRAFT
 

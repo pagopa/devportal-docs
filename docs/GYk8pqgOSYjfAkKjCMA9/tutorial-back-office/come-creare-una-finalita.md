@@ -17,7 +17,7 @@ Per la creazione della finalità sono richiesti:
 * **nome e descrizione**: servono unicamente per aiutare l'ente a distinguerle dalle altre finalità che ha creato
 * **titolo gratuito**: indicare se l'accesso ai dati viene messo a disposizione a titolo gratuito (per le Pubbliche Amministrazioni, è sempre così)
 * **motivo del titolo gratuito**: dare motivazione del titolo gratuito (per le Pubbliche Amministrazioni viene precompilato con la dicitura "Sono una Pubblica Amministrazione")
-* **stima di carico**: quante chiamate API/giorno il fruitore stima di fare verso le API dell'erogatore. Maggiori informazioni nella [sezione dedicata](../guida-tecnica-prodotto/e-service/soglie-e-stime-di-carico.md).
+* **stima di carico**: quante chiamate API/giorno il fruitore stima di fare verso le API dell'erogatore. Maggiori informazioni nella [sezione dedicata](../guida-tecnica/e-service/soglie-e-stime-di-carico.md).
 
 ## Step 4 - Compilare l'analisi del rischio
 
@@ -25,7 +25,7 @@ Se l'e-service per il quale si crea la finalità eroga dati, il fruitore — in 
 
 Se l'e-service per il quale si crea la finalità invece riceve invece dati, il fruitore deve scegliere il caso d'uso tra quelli messi a disposizione dall'erogatore. In sostanza il fruitore sceglie in quale modo l'erogatore dovrà trattare i dati che riceve dal fruitore stesso, selezionando il caso d'uso di proprio interesse.
 
-Maggiori informazioni sulla compilazione del questionario nella [sezione dedicata](../guida-tecnica-prodotto/finalita/lanalisi-del-rischio.md).
+Maggiori informazioni sulla compilazione del questionario nella [sezione dedicata](../guida-tecnica/finalita/lanalisi-del-rischio.md).
 
 ## Step 5 - Pubblicare la finalità
 

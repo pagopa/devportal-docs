@@ -4,7 +4,7 @@ Il ModI lascia discrezione all'erogatore nell'indicare qual debba essere la proc
 
 Si riporta comunque a titolo di esempio una possibile gestione del meccanismo di firma del payload di risposta di un e-service.
 
-Per maggiori informazioni, si veda la [sezione dedicata](../guida-tecnica-prodotto/utilizzare-i-voucher/garanzia-dellintegrita-della-risposta.md).
+Per maggiori informazioni, si veda la [sezione dedicata](../guida-tecnica/utilizzare-i-voucher/garanzia-dellintegrita-della-risposta.md).
 
 Quando un fruitore riceve una risposta firmata dall'erogatore, può verificare l’autenticità e l’integrità dei dati ricevuti nella risposta attraverso il `kid` (id della chiave) inserito nel payload, e la chiave pubblica che l'erogatore ha depositato sul proprio _**Portachiavi erogatore**_, associato all'e-service.
 
@@ -30,7 +30,7 @@ Si passa quindi alla verifica della firma.
 
 ## Step 2 - Individuazione della chiave pubblica
 
-La chiave corrispondente al `kid` è reperibile sulle [API](../guida-tecnica-prodotto/api-esposte-da-pdnd-interoperabilita/) esposte da PDND Interoperabilità.
+La chiave corrispondente al `kid` è reperibile sulle [API](../guida-tecnica/api-esposte-da-pdnd-interoperabilita/) esposte da PDND Interoperabilità.
 
 Per ottenere la chiave da PDND Interoperabilità, il fruitore deve aver:
 

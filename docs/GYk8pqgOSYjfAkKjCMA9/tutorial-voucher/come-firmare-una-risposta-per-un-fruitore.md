@@ -4,13 +4,13 @@ Il ModI lascia discrezione all'erogatore nell'indicare qual debba essere la proc
 
 Si riporta comunque a titolo di esempio una possibile gestione del meccanismo di firma del payload di risposta di un e-service.
 
-Per maggiori informazioni, si veda la [sezione dedicata](../guida-tecnica-prodotto/utilizzare-i-voucher/garanzia-dellintegrita-della-risposta.md).
+Per maggiori informazioni, si veda la [sezione dedicata](../guida-tecnica/utilizzare-i-voucher/garanzia-dellintegrita-della-risposta.md).
 
 ## Prerequisiti
 
 Si assume che l'erogatore abbia:
 
-* creato un _**Portachiavi erogatore**_ ([vedi guida](../guida-tecnica-prodotto/e-service/portachiavi/));
+* creato un _**Portachiavi erogatore**_ ([vedi guida](../guida-tecnica/e-service/portachiavi/));
 * generato almeno un set di materiale crittografico e caricato la relativa chiave pubblica su PDND Interoperabilità all'interno del client ([vedi tutorial](../tutorial-back-office/come-generare-corredo-crittografico-e-caricare-chiavi-pubbliche.md));
 * associato il _**Portachiavi Erogatore**_ all'e-service per la quale vuole firmare la risposta al fruitore ([vedi tutorial](../tutorial-back-office/come-associare-un-portachiavi-ad-un-e-service.md)).
 

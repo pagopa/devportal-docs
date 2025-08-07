@@ -18,7 +18,7 @@ Ogni client ha un nome e una descrizione, per aiutare l'ente ad individuare il g
 
 È possibile inserire nel client un numero discrezionale di persone, a patto che queste persone abbiano delle utenze per operare per conto dell'ente.
 
-È possibile gestire le utenze dalla Piattaforma Area Riservata, e maggiori informazioni sono disponibili nella [sezione dedicata](../guida-tecnica-prodotto/back-office/utenze.md).
+È possibile gestire le utenze dalla Piattaforma Area Riservata, e maggiori informazioni sono disponibili nella [sezione dedicata](../guida-tecnica/back-office/utenze.md).
 
 I ruoli ammessi all'interno di un client sono quello di amministratore e di operatore di sicurezza.
 
@@ -28,4 +28,4 @@ Gli operatori di sicurezza non devono necessariamente far parte del proprio ente
 
 A fondo pagina, finalizzare la creazione cliccando su _**Crea**_.
 
-Per le best practice nella gestione dei propri client, si veda la [sezione dedicata](../guida-tecnica-prodotto/client-e-materiale-crittografico/organizzazione-dei-propri-client.md).
+Per le best practice nella gestione dei propri client, si veda la [sezione dedicata](../guida-tecnica/client-e-materiale-crittografico/organizzazione-dei-propri-client.md).

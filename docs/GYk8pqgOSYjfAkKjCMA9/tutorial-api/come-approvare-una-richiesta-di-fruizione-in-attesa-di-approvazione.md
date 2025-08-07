@@ -6,7 +6,7 @@ Un Agreement in stato PENDING necessita di uno o più interventi da parte dell'e
 
 ## Caso 1 - Approvazione manuale necessaria
 
-Da eseguire se l'attivazione di un Agreement richiede l'approvazione manuale dell'erogatore. L'approvazione manuale può essere scelta dall'erogatore all'atto della definizione di una versione di e-service. Per maggiori informazioni, si veda la [sezione dedicata](../guida-tecnica-prodotto/e-service/#informazioni-di-versione).
+Da eseguire se l'attivazione di un Agreement richiede l'approvazione manuale dell'erogatore. L'approvazione manuale può essere scelta dall'erogatore all'atto della definizione di una versione di e-service. Per maggiori informazioni, si veda la [sezione dedicata](../guida-tecnica/e-service/#informazioni-di-versione).
 
 **Request**
 
@@ -38,7 +38,7 @@ Da eseguire se l'e-service richiede il possesso di uno o più attributi verifica
 ### Step 1 - Assegnazione di un attributo verificato al fruitore
 
 {% hint style="warning" %}
-Questo endpoint non è ancora disponibile, sarà rilasciato prossimamente. È comunque possibile eseguire l'operazione manualmente dal back office. Per maggiori informazioni, si veda la [sezione dedicata](../guida-tecnica-prodotto/attributi/).
+Questo endpoint non è ancora disponibile, sarà rilasciato prossimamente. È comunque possibile eseguire l'operazione manualmente dal back office. Per maggiori informazioni, si veda la [sezione dedicata](../guida-tecnica/attributi/).
 {% endhint %}
 
 L'assegnazione richiede il riferimento all'Agreement per il quale è necessario l'attributo.

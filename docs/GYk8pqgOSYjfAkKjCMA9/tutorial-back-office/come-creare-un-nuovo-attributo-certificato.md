@@ -2,7 +2,7 @@
 
 ## Precondizioni
 
-Per creare nuovi attributi certificati, è necessario essere accreditati come _Ente Certificatore_. Per maggiori informazioni, si veda la [sezione dedicata](../guida-tecnica-prodotto/attributi/enti-certificatori.md).
+Per creare nuovi attributi certificati, è necessario essere accreditati come _Ente Certificatore_. Per maggiori informazioni, si veda la [sezione dedicata](../guida-tecnica/attributi/enti-certificatori.md).
 
 ## Step 1 - Accedere al back office
 

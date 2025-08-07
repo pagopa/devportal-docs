@@ -45,5 +45,5 @@ Si richiede inoltre di caricare altra documentazione tecnica aggiuntiva (manuale
 
 Alla fine del processo è disponibile un riepilogo di tutti i dati inseriti durante la creazione della versione di e-service e si può decidere se modificare la bozza, pubblicarla o eliminarla.
 
-Per il dettaglio sui singoli campi o sui meccanismi relativi all'e-service, si veda la [sezione dedicata](../guida-tecnica-prodotto/e-service/).
+Per il dettaglio sui singoli campi o sui meccanismi relativi all'e-service, si veda la [sezione dedicata](../guida-tecnica/e-service/).
 
