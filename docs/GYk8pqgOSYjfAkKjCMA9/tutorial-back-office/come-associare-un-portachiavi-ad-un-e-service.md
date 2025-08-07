@@ -1,6 +1,6 @@
 # Come associare un portachiavi ad un e-service
 
-È sempre possibile per un erogatore associare e disassociare i propri portachiavi dai propri e-service. Lo possono fare sia le utenze con ruolo amministratore, che operatore API.
+È sempre possibile per un erogatore associare e disassociare i propri portachiavi dai propri e-service. Lo possono fare solo le utenze con ruolo _amministratore_.
 
 ## Step 1 - Accedere all'e-service di interesse
 
