@@ -87,7 +87,7 @@ L’utente potrà abilitare SEND a domicilio digitale interagendo con un’appos
 
 ### Esempio
 
-Nel caso di domicilio digitale CERCQ si avranno solo due eventi delle categorie:
+Nel caso di domicilio digitale SERCQ si avranno solo due eventi delle categorie:
 
 * SEND\_DIGITAL\_DOMICILE
 * SEND\_DIGITAL\_FEEDBACK
