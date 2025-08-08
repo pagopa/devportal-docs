@@ -94,7 +94,7 @@
     * [Come creare una finalità](tutorial/fruitore/back-office/come-creare-una-finalita.md)
     * [Come creare un client](tutorial/fruitore/back-office/come-creare-un-client.md)
     * [Come associare un client ad una finalità](tutorial/fruitore/back-office/come-associare-un-client-ad-una-finalita.md)
-    * [Come generare corredo crittografico e caricare chiavi pubbliche](tutorial/fruitore/back-office/come-generare-corredo-crittografico-e-caricare-chiavi-pubbliche.md)
+    * [Come generare il corredo crittografico e caricare una chiave pubblica](tutorial/fruitore/back-office/come-generare-il-corredo-crittografico-e-caricare-una-chiave-pubblica.md)
   * [Voucher](tutorial/fruitore/voucher/README.md)
     * [Come richiedere un voucher Bearer per le API di PDND Interoperabilità](tutorial/fruitore/voucher/come-richiedere-un-voucher-bearer-per-le-api-di-pdnd-interoperabilita.md)
     * [Come richiedere un voucher Bearer per le API di un erogatore (base)](tutorial/fruitore/voucher/come-richiedere-un-voucher-bearer-per-le-api-di-un-erogatore-base.md)

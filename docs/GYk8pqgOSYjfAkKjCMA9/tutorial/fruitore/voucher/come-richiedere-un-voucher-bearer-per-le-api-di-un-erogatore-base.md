@@ -17,7 +17,7 @@ In sostanza, il processo end-to-end richiede cinque passaggi:
 Si assume che il fruitore abbia:
 
 * creato un client di tipo e-service ([vedi tutorial](../back-office/come-creare-un-client.md));
-* generato almeno un set di materiale crittografico e caricato la relativa chiave pubblica su PDND Interoperabilità all'interno del client ([vedi tutorial](../back-office/come-generare-corredo-crittografico-e-caricare-chiavi-pubbliche.md));
+* generato almeno un set di materiale crittografico e caricato la relativa chiave pubblica su PDND Interoperabilità all'interno del client ([vedi tutorial](../back-office/come-generare-il-corredo-crittografico-e-caricare-una-chiave-pubblica.md));
 * associato il client alla finalità per la quale vuole ottenere o inviare dati all'erogatore ([vedi tutorial](../back-office/come-associare-un-client-ad-una-finalita.md)).
 
 ## Step 1 - Generazione della client assertion <a href="#il-flusso-in-breve" id="il-flusso-in-breve"></a>

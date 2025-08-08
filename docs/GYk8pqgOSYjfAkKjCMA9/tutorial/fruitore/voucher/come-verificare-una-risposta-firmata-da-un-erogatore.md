@@ -35,7 +35,7 @@ La chiave corrispondente al `kid` è reperibile sulle [API](../../../guida-tecni
 Per ottenere la chiave da PDND Interoperabilità, il fruitore deve aver:
 
 * creato un client di tipo API Interop ([vedi tutorial](../back-office/come-creare-un-client.md));
-* generato almeno un set di materiale crittografico e caricato la relativa chiave pubblica su PDND Interoperabilità all'interno del client ([vedi tutorial](../back-office/come-generare-corredo-crittografico-e-caricare-chiavi-pubbliche.md))
+* generato almeno un set di materiale crittografico e caricato la relativa chiave pubblica su PDND Interoperabilità all'interno del client ([vedi tutorial](../back-office/come-generare-il-corredo-crittografico-e-caricare-una-chiave-pubblica.md))
 * aver ottenuto un voucher valido per le API di PDND Interoperabilità ([vedi tutorial](come-richiedere-un-voucher-bearer-per-le-api-di-pdnd-interoperabilita.md)).
 
 Il fruitore la troverà al path `GET /keys/{kid}`  in formato JWK.

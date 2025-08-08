@@ -11,7 +11,7 @@ Per maggiori informazioni, si veda la [sezione dedicata](../../../guida-tecnica/
 Si assume che l'erogatore abbia:
 
 * creato un _**Portachiavi erogatore**_ ([vedi guida](../../../guida-tecnica/e-service/portachiavi/));
-* generato almeno un set di materiale crittografico e caricato la relativa chiave pubblica su PDND Interoperabilità all'interno del client ([vedi tutorial](../../fruitore/back-office/come-generare-corredo-crittografico-e-caricare-chiavi-pubbliche.md));
+* generato almeno un set di materiale crittografico e caricato la relativa chiave pubblica su PDND Interoperabilità all'interno del client ([vedi tutorial](../../fruitore/back-office/come-generare-il-corredo-crittografico-e-caricare-una-chiave-pubblica.md));
 * associato il _**Portachiavi Erogatore**_ all'e-service per la quale vuole firmare la risposta al fruitore ([vedi tutorial](../back-office/come-associare-un-portachiavi-ad-un-e-service.md)).
 
 ## Preparazione - Definire la struttura della risposta

@@ -2,7 +2,7 @@
 
 ## Cosa prevede l'accordo di adesione
 
-Se un ente o privato tra quelli indicati nella [sezione dedicata](approfondimenti.md#termini-e-condizioni) effettua l'adesione, ha automaticamente accesso a tutti e tre gli ambienti disponibili: collaudo, attestazione e produzione.
+Se un ente o privato tra quelli indicati nei [termini per l'accreditamento](approfondimenti.md#termini-e-condizioni) effettua l'adesione, ha automaticamente accesso a tutti e tre gli ambienti disponibili: collaudo, attestazione e produzione.
 
 Un ente o privato che non appartiene a nessuna delle categorie può comunque fare adesione. In questo caso, avrà accesso solamente all'ambiente di attestazione. Per maggiori informazioni sugli ambienti disponibili, si rimanda alla [sezione dedicata](../funzionamento-generale/ambienti-disponibili.md).
 
