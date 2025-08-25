@@ -4,6 +4,36 @@ Dopo che un utente ha interagito con una richiesta di pagamento nella tua applic
 
 Questa operazione viene eseguita in modo asincrono, invocando un endpoint di callback con un messaggio di stato `pain.014`.
 
+```mermaid
+
+sequenceDiagram
+    autonumber
+
+    participant DSP as Service Provider Debitore
+    participant PPA as PagoPA
+    actor U as Utente
+
+    Note over DSP: Prerequisito: Il DSP ha già ricevuto la richiesta di pagamento<br>e ha salvato il 'callbackUrl' da essa.
+
+    U->>DSP: Interagisce con la richiesta di pagamento
+
+    activate DSP
+
+    alt L'utente accetta la richiesta
+        DSP->>DSP: Costruisce il payload pain.014 con TxSts = ACCP
+        DSP->>+PPA: POST /send (Notifica di stato pain.014)
+        PPA-->>-DSP: Risposta 200 OK
+
+    else L'utente rifiuta la richiesta
+        DSP->>DSP: Costruisce il payload pain.014 con TxSts = RJCT<br>e include la motivazione (StsRsnInf).
+        DSP->>+PPA: POST /send (Notifica di stato pain.014)
+        PPA-->>-DSP: Risposta 200 OK
+    end
+
+    deactivate DSP
+
+```
+
 ## **Step 1: Identifica l'URL di Callback**
 
 L'URL a cui inviare la notifica di stato non è un indirizzo statico. Devi recuperare dinamicamente l'URL corretto dal campo `callbackUrl` presente nel corpo della richiesta di pagamento (`SepaRequestToPayRequestResource`) originale che hai ricevuto.
