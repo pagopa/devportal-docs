@@ -10,11 +10,11 @@ description: >-
 
 #### Su PDND Interoperabilità avviene scambio di dati tra erogatore e fruitore?
 
-No, PDND Interoperabilità autentica e autorizza gli aderenti, abilitando lo scambio di informazioni tra le due parti ma i dati detenuti dagli erogatori non transitano mai per PDND Interoperabilità. È per questa ragione che nell'accordo non si fa riferimento al [DPCM sulla Strategia Nazionale Dati ](https://docs.italia.it/italia/piano-triennale-ict/codice-amministrazione-digitale-docs/it/v2018-09-28/\_rst/capo5\_sezione1\_art50-ter.html)e sul [coinvolgimento del Garante](https://www.garanteprivacy.it/web/guest/home/docweb/-/docweb-display/docweb/9732758).
+No, PDND Interoperabilità autentica e autorizza gli aderenti, abilitando lo scambio di informazioni tra le due parti ma i dati detenuti dagli erogatori non transitano mai per PDND Interoperabilità. È per questa ragione che nell'accordo non si fa riferimento al [DPCM sulla Strategia Nazionale Dati ](https://docs.italia.it/italia/piano-triennale-ict/codice-amministrazione-digitale-docs/it/v2018-09-28/_rst/capo5_sezione1_art50-ter.html)e sul [coinvolgimento del Garante](https://www.garanteprivacy.it/web/guest/home/docweb/-/docweb-display/docweb/9732758).
 
 #### Chi è il titolare del trattamento dei dati personali depositati o generati all'interno di PDND Interoperabilità?
 
-Il Gestore della Piattaforma (in questo caso, PagoPA S.p.A.) è stato qualificato come titolare del trattamento dei dati personali ai sensi del paragrafo 14 delle [Linee guida AgID](https://trasparenza.agid.gov.it/moduli/downloadFile.php?file=oggetto\_allegati/213481831510O\_\_O20211210\_LG+Infrastruttura+Interoperabilit%26%23224%3B+PDND\_v1.pdf), passate al vaglio anche del Garante. Da notare che i dati cui si fa riferimento sono solo quelli depositati o generati all'interno di PDND Interoperabilità e non i dati in possesso degli erogatori, i quali non transitano mai sulla piattaforma.
+Il Gestore della Piattaforma (in questo caso, PagoPA S.p.A.) è stato qualificato come titolare del trattamento dei dati personali ai sensi del paragrafo 14 delle [Linee guida AgID](https://www.agid.gov.it/it/linee-guida), passate al vaglio anche del Garante. Da notare che i dati cui si fa riferimento sono solo quelli depositati o generati all'interno di PDND Interoperabilità e non i dati in possesso degli erogatori, i quali non transitano mai sulla piattaforma.
 
 ### Accordo di adesione
 
@@ -42,13 +42,13 @@ Le richieste di fruizione sono più semplici degli accordi di interoperabilità 
 
 #### Che cos'è l'"analisi del rischio"?
 
-È la parte amministrativa della procedura di accesso alla fruizione di un e-service. Realizzato sulla base delle misure minime indicate nelle [_Linee guida AgID_](https://trasparenza.agid.gov.it/moduli/downloadFile.php?file=oggetto\_allegati/213481831510O\_\_O20211210\_LG+Infrastruttura+Interoperabilit%26%23224%3B+PDND\_v1.pdf), su invito del Garante, è un questionario per lo più contenente domande relative alla privacy e ai dati cui intende accedere un fruitore. Una nuova analisi del rischio andrà compilata per ogni finalità di accesso ai dati detenuti dall'erogatore.&#x20;
+È la parte amministrativa della procedura di accesso alla fruizione di un e-service. Realizzato sulla base delle misure minime indicate nelle [_Linee guida AgID_](https://www.agid.gov.it/it/linee-guida), su invito del Garante, è un questionario per lo più contenente domande relative alla privacy e ai dati cui intende accedere un fruitore. Una nuova analisi del rischio andrà compilata per ogni finalità di accesso ai dati detenuti dall'erogatore.&#x20;
 
 #### È possibile sospendere un e-service per manutenzione?
 
 Oltre ad una sospensione ex abrupto, legata a circostanze straordinarie e di forza maggiore, è possibile effettuare una "sospensione programmata" in una versione di un e-service. In questo caso, da linee guida di AgID è previsto che l'erogatore fornisca un preavviso.
 
-> l’Erogatore PUÒ sospendere temporaneamente la disponibilità dell’e-service segnalando in anticipo al Fruitore tale circostanza nel rispetto delle condizioni eventualmente indicate negli SLA concordati con il Fruitore al di fuori della Infrastruttura interoperabilità PDND ([LLGG AgID](https://trasparenza.agid.gov.it/moduli/downloadFile.php?file=oggetto\_allegati/213481832130O\_\_O20211210\_LG+Infrastruttura+Interoperabilit%26%23224%3B+PDND\_v1\_allegato+2.pdf) – allegato 2, capitolo 4, pag. 17)
+> l’Erogatore PUÒ sospendere temporaneamente la disponibilità dell’e-service segnalando in anticipo al Fruitore tale circostanza nel rispetto delle condizioni eventualmente indicate negli SLA concordati con il Fruitore al di fuori della Infrastruttura interoperabilità PDND ([LLGG AgID](https://www.agid.gov.it/it/linee-guida) – allegato 2, capitolo 4, pag. 17)
 
 #### Quando viene pubblicata una nuova versione di un e-service, perché non viene effettuato l'upgrade automatico per tutti i fruitori?
 
