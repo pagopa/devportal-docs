@@ -12,12 +12,12 @@ sequenceDiagram
     participant SP as Service Provider del Debitore
 
     %% Flusso Sincrono: Ricezione e Presa in Carico
-    PA->>+SP: POST /.../cancellation-requests (messaggio camt.055)
-    Note right of SP: Identifica la richiesta originale<br>Aggiorna lo stato interno a "Annullata"
-    SP-->>-PA: 201 Created (Presa in carico confermata)
+    PA->>+SP: POST /.../cancellation-requests <br>(messaggio camt.055)
+    Note right of SP: Identifica la richiesta <br> originale e aggiorna <br> lo stato interno <br> a "Annullata"
+    SP-->>-PA: 201 Created <br>(Presa in carico confermata)
 
     %% Flusso Asincrono: Notifica di Conferma
-    SP->>PA: Invia conferma asincrona (messaggio camt.029) all'URL di callback
+    SP->>PA: Invia conferma asincrona<br> (messaggio camt.029) <br> all'URL di callback
     Note left of PA: La conferma contiene lo stato<br>Sts.Conf = CNCL e TxCxlSts = ACCR
 ```
 
