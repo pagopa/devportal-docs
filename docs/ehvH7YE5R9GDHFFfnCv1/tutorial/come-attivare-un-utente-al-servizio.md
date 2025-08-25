@@ -4,6 +4,45 @@ Questo tutorial ti guida attraverso il processo tecnico di **Enrollment** e **At
 
 Il flusso si basa sull'invocazione delle API del Servizio di Attivazione, dopo essersi autenticati.
 
+```mermaid
+sequenceDiagram
+    autonumber
+
+    participant SP as Service Provider
+    participant AuthS as Server Autenticazione
+    participant ActAPI as Servizio di Attivazione
+
+    rect rgb(230, 240, 255)
+        %% Step 1: Autenticazione
+        SP->>AuthS: Richiesta AccessToken (OAuth2)
+        activate AuthS
+        AuthS-->>SP: Rilascia AccessToken
+        deactivate AuthS
+    end
+
+    rect rgb(230, 255, 240)
+        %% Step 2-4: Attivazione Utente
+        SP->>ActAPI: POST /activations (con Token e payload ActivationReq)
+        activate ActAPI
+        
+        alt Attivazione a buon fine
+            ActAPI-->>SP: 201 Created (con header 'Location')
+            note right of SP: Salva l'URL univoco dall'header 'Location'
+        else Utente già attivo
+            ActAPI-->>SP: 409 Conflict (con header 'Location')
+            note right of SP: Utilizza l'URL per verificare l'attivazione esistente
+        end
+        deactivate ActAPI
+    end
+
+
+
+
+
+
+
+```
+
 ## **Step 1: Ottenere l'AccessToken (Autenticazione)**
 
 Come per tutte le operazioni verso la piattaforma, il primo passo consiste nell'ottenere un token di autenticazione valido.
