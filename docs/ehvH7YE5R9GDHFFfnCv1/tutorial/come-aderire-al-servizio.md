@@ -2,6 +2,39 @@
 
 Questo tutorial descrive il processo di **Onboarding**, ovvero i passaggi che un Service Provider deve seguire per aderire al servizio RTP, ottenere le credenziali necessarie per l'integrazione tecnica e diventare pienamente operativo.
 
+```mermaid
+sequenceDiagram
+    autonumber
+
+    participant SP as Service Provider
+    participant PPA as PagoPA
+    participant UAT as Ambiente di Certificazione
+
+    Note over SP, PPA: Prerequisito: Il SP ha già aderito allo schema EPC SRTP autonomamente.
+
+    rect rgba(240, 240, 240, 0.7)
+        note over SP, PPA: Fase 1: Adesione e Configurazione
+        SP->>PPA: Sottoscrive Accordo di Adesione e T&C
+        SP->>PPA: Fornisce le informazioni tecniche richieste
+        PPA-->>SP: Invia credenziali (clientId, client_secret) al referente tecnico
+    end
+
+    rect rgba(240, 240, 240, 0.7)
+        note over SP, PPA: Fase 2: Certificazione Tecnica
+        Note right of SP: Implementazione tecnica <br>dei flussi API
+        SP->>+UAT: Esegue i test in ambiente di certificazione
+        UAT-->>-SP: Fornisce esito dei test
+        SP->>PPA: Invia la documentazione di test
+    end
+    
+    rect rgba(240, 240, 240, 0.7)
+        note over SP, PPA: Fase 3: Go-Live
+        Note left of PPA: PagoPA certifica il buon esito dei test
+        SP->>PPA: Concorda la data per il passaggio in produzione
+        Note over SP, PPA: Il Service Provider è operativo sul servizio reale
+    end
+```
+
 ## **Prerequisito: Adesione allo schema EPC**
 
 Prima di avviare il processo di onboarding con PagoPA, è necessario che il tuo istituto abbia aderito allo schema SEPA Request-to-Pay (SRTP) seguendo le regole definite nel Rulebook dell'European Payments Council (EPC). Questa attività non è gestita da PagoPA.
