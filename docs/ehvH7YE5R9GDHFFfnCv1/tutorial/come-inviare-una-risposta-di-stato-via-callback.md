@@ -13,7 +13,7 @@ sequenceDiagram
     participant PPA as PagoPA
     actor U as Utente
 
-    Note over DSP: Prerequisito: Il DSP ha già ricevuto la richiesta di pagamento<br>e ha salvato il 'callbackUrl' da essa.
+    Note over DSP: Prerequisito:<br> Il DSP ha già ricevuto la richiesta <br> di pagamento e ha salvato <br> il 'callbackUrl' da essa.
 
     U->>DSP: Interagisce con la richiesta di pagamento
 
