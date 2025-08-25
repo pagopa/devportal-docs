@@ -4,6 +4,33 @@ Questo tutorial ti guida attraverso i passaggi necessari per ricevere, validare 
 
 L'implementazione di questo flusso è il cuore del servizio, in quanto abilita la ricezione delle notifiche da presentare ai tuoi utenti finali.
 
+```mermaid
+sequenceDiagram
+    autonumber
+    participant PG as PagoPA
+    participant SPD as Service Provider Debitore
+
+    %% --- Inizio Flusso Sincrono ---
+    PG->>+SPD: POST /sepa-request-to-pay-requests
+    
+    Note right of SPD: Eseguo validazione <br> formale e di idempotenza
+
+    alt Validazione Sincrona OK
+        SPD-->>PG: 201 Created (con header Location)
+    else Validazione Sincrona Fallita
+        SPD-->>PG: 4xx Error (es. 400, 409)
+    end
+
+    deactivate SPD
+    %% --- Fine Flusso Sincrono ---
+
+    Note over PG,SPD: Il Service Provider del Debitore avvia <br> il processo asincrono di validazione di business...
+
+    opt Se la Validazione di Business Fallisce
+        SPD->>PG: Invia rifiuto asincrono (pain.014) al callback URL
+    end
+```
+
 ## **Step 1: Implementa l'endpoint di ricezione**
 
 Per prima cosa, il tuo sistema deve esporre un endpoint in grado di ricevere le richieste. Questo endpoint diventerà il punto di ingresso per tutte le SRTP destinate ai tuoi utenti.
