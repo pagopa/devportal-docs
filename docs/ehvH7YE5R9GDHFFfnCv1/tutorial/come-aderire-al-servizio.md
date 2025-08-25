@@ -10,17 +10,17 @@ sequenceDiagram
     participant PPA as PagoPA
     participant UAT as Ambiente di Certificazione
 
-    Note over SP, PPA: Prerequisito: Il SP ha già aderito allo schema EPC SRTP autonomamente.
+    Note over SP, PPA: Prerequisito: <br> Il SP ha già aderito allo schema EPC SRTP autonomamente.
 
     rect rgba(240, 240, 240, 0.7)
-        note over SP, PPA: Fase 1: Adesione e Configurazione
+        note over SP, PPA: Fase 1: Adesione e Configurazione (Step 1 e 2)
         SP->>PPA: Sottoscrive Accordo di Adesione e T&C
         SP->>PPA: Fornisce le informazioni tecniche richieste
         PPA-->>SP: Invia credenziali (clientId, client_secret) al referente tecnico
     end
 
     rect rgba(240, 240, 240, 0.7)
-        note over SP, PPA: Fase 2: Certificazione Tecnica
+        note over SP, PPA: Fase 2: Certificazione Tecnica (step 3 e 4)
         Note right of SP: Implementazione tecnica <br>dei flussi API
         SP->>+UAT: Esegue i test in ambiente di certificazione
         UAT-->>-SP: Fornisce esito dei test
@@ -28,7 +28,7 @@ sequenceDiagram
     end
     
     rect rgba(240, 240, 240, 0.7)
-        note over SP, PPA: Fase 3: Go-Live
+        note over SP, PPA: Fase 3: Go-Live (step 5)
         Note left of PPA: PagoPA certifica il buon esito dei test
         SP->>PPA: Concorda la data per il passaggio in produzione
         Note over SP, PPA: Il Service Provider è operativo sul servizio reale
