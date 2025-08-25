@@ -6,11 +6,7 @@ Per comprendere come interagiscono le diverse componenti del servizio, è utile 
 
 L'intero processo può avvenire solo se l'utente finale (Debitore) ha preventivamente dato il proprio consenso a ricevere le notifiche SRTP tramite il proprio Service Provider, come descritto nel processo di **Attivazione**.
 
-## Creazione della Posizione Debitoria (Azione dell'Ente Creditore)
-
-Tutto ha inizio quando un Ente Creditore (o un suo partner tecnologico) ha la necessità di richiedere un pagamento. L'ente registra questa necessità creando o aggiornando una **posizione debitoria** all'interno dell'**Archivio Centralizzato Avvisi (ACA)** di PagoPA, tipicamente tramite l'invocazione dell'API `paCreatePosition`. Questa operazione rende il debito e il relativo Avviso di Pagamento ufficialmente censiti nell'ecosistema.
-
-## Invio della Richiesta di Pagamento (Azione di PagoPA)
+## Invio del Messaggio SRTP
 
 La piattaforma PagoPA, agendo come Service Provider per l'Ente Creditore, identifica la nuova posizione debitoria. Il sistema verifica se il Debitore associato a quell'avviso ha un'attivazione RTP valida. In caso affermativo, PagoPA:
 
@@ -35,4 +31,4 @@ Se l'utente accetta la richiesta, può procedere al pagamento. È importante not
 
 ## Riconciliazione tramite Cancellazione
 
-Una volta che l'avviso di pagamento risulta saldato sulla piattaforma pagoPA, la richiesta SRTP originaria deve essere invalidata per evitare che l'utente la veda ancora come "da pagare". PagoPA, per conto dell'Ente Creditore, invia una **richiesta di cancellazione** (`POST /sepa-request-to-pay-requests/{id}/cancellation-requests`) al Service Provider del Debitore. Quest'ultimo, ricevuta la notifica, aggiorna lo stato della richiesta nella propria applicazione, chiudendo definitivamente il ciclo di vita.
+Quando il pagamento dell'avviso avviene tramite un canale diverso da quello che ha ricevuto la notifica SRTP, (ad esempio, se l'utente riceve la notifica sull'app della sua banca, ma poi paga lo stesso avviso presso un altro prestatore), una volta registrato il pagamento, PagoPA invia una richiesta di cancellazione (`POST /sepa-request-to-pay-requests/{id}/cancellation-requests`) al Service Provider originale per invalidare la notifica. Quest'ultimo, ricevuta la cancellazione, aggiorna lo stato della richiesta nella propria applicazione, chiudendo il ciclo.

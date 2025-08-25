@@ -7,7 +7,7 @@ Il processo con cui si stabilisce un accordo tra il Debitore e il Creditore (e i
 Il sistema gestito da PagoPA dove gli Enti Creditori (o i loro partner) sono tenuti a censire le posizioni debitorie prima di poter avviare un flusso RTP. È noto anche come Gestione Posizioni Debitorie (GPD).
 
 **Callback (Webhook)** \
-Il meccanismo di comunicazione **asincrona** con cui la piattaforma RTP notifica a un Service Provider un evento, come l'accettazione o il rifiuto di una richiesta da parte dell'utente finale. Richiede che il Service Provider esponga un endpoint per ricevere queste chiamate.
+Il meccanismo di comunicazione **asincrona** con cui la piattaforma RTP notifica a un Service Provider un evento, come l'accettazione di una richiesta da parte dell'utente finale. Richiede che il Service Provider esponga un endpoint per ricevere queste chiamate.
 
 **Creditore (Creditor/Payee)** \
 Il soggetto che deve ricevere il pagamento e che avvia la richiesta di pagamento. Nel contesto di pagoPA, è tipicamente un Ente Creditore.
@@ -44,6 +44,3 @@ Un partner tecnologico che aderisce allo schema SRTP per fornire servizi di invi
 
 **SRTP (SEPA Request-To-Pay)** \
 È il nome ufficiale dello schema definito dall'EPC per la tramitazione delle richieste di pagamento in area SEPA.
-
-**Takeover (Subentro)** \
-L'operazione, gestita tramite l'API di attivazione (`PATCH /activations/{activationId}`), con cui un PSP **subentra** a un altro nella gestione del servizio RTP per un utente che ha deciso di cambiare fornitore.

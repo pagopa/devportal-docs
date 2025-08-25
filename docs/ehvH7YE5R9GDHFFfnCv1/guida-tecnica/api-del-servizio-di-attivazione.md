@@ -91,32 +91,6 @@ Elimina un'attivazione esistente, revocando di fatto il consenso dell'utente a r
 * **`204 No Content`**: L'attivazione è stata cancellata con successo.
 * **`404 Not Found`**: L'attivazione con l'ID specificato non esiste o non è associata al Service Provider chiamante.
 
-### **Gestire il subentro (Takeover) di un'attivazione**
-
-```http
-PATCH /activations/{activationId}
-```
-
-Questa operazione permette a un nuovo Service Provider del Debitore di "prendere in carico" (takeover) un'attivazione esistente, ad esempio quando un utente decide di cambiare PSP.
-
-**Parametri Path**
-
-* `activationId` (UUID, obbligatorio): L'ID dell'attivazione su cui effettuare il subentro.
-
-**Corpo della Richiesta** Il corpo della richiesta deve contenere un oggetto `TakeoverActivationReq` con l'identificativo del nuovo Service Provider.
-
-_Esempio di payload:_
-
-```json
-{
-  "rtpSpId": "98765432100"
-}
-```
-
-**Risposte**
-
-* **`204 No Content`**: Il subentro è stato effettuato con successo.
-
 ### **Trovare un'attivazione tramite Codice Fiscale (Discovery)**
 
 ```http

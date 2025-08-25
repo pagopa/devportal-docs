@@ -1,6 +1,6 @@
 # Riferimento ai messaggi (Dataset ISO-20022)
 
-A differenza del Servizio di Attivazione, l'interazione tra Service Provider per lo scambio di richieste di pagamento si basa sullo standard [EPC133-22 v3.1](https://www.europeanpaymentscouncil.eu/sites/default/files/kb/file/2023-06/EPC137-22%20v3.1%20-%20SRTP%20related%20API%20Specifications%20-%20Preliminary%20Information.pdf). Questo standard prevede che le chiamate API contengano nel corpo della richiesta un oggetto risorsa (es. `SepaRequestToPayRequestResource`) che incapsula un messaggio conforme allo standard **ISO 20022**.
+A differenza del Servizio di Attivazione, l'interazione tra Service Provider per lo scambio di richieste di pagamento si basa sullo standard [EPC133-22](https://www.europeanpaymentscouncil.eu/document-library/guidance-documents/default-srtp-related-api-specifications) Questo standard prevede che le chiamate API contengano nel corpo della richiesta un oggetto risorsa (es. `SepaRequestToPayRequestResource`) che incapsula un messaggio conforme allo standard **ISO 20022**.
 
 Questa sezione fornisce una guida dettagliata alla struttura di questi messaggi, distinguendo tra quelli che, in qualità di Service Provider del Debitore, dovrai **interpretare** (in entrata) e quelli che dovrai **costruire** (in uscita). Per la struttura completa e definitiva di ogni campo, si rimanda alla specifica OpenAPI ufficiale dell'EPC.
 
@@ -43,21 +43,9 @@ Questo è il messaggio che devi costruire e inviare all'URL di `callback` per no
 
 #### **Campi Chiave da Costruire:**
 
-| Percorso Campo (semplificato)                                                    | Descrizione                                                                               |
-| -------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
-| `Document.CdtrPmtActvtnReqStsRpt.OrgnlGrpInfAndSts.OrgnlMsgId`                   | L'ID del messaggio `pain.013` originale a cui stai rispondendo.                           |
-| `Document.CdtrPmtActvtnReqStsRpt.OrgnlPmtInfAndSts.TxInfAndSts.OrgnlEndToEndId`  | Lo **IUV** della richiesta originale.                                                     |
-| `Document.CdtrPmtActvtnReqStsRpt.OrgnlPmtInfAndSts.TxInfAndSts.TxSts`            | Lo **stato** della richiesta, da valorizzare con `ACCP` (accettato) o `RJCT` (rifiutato). |
-| `Document.CdtrPmtActvtnReqStsRpt.OrgnlPmtInfAndSts.TxInfAndSts.StsRsnInf.Rsn.Cd` | In caso di rifiuto, il codice che ne specifica il motivo.                                 |
-
-### 4. Messaggio di Conferma Cancellazione (`camt.029.001.09`)
-
-Questo è il messaggio di conferma che devi costruire e inviare all'URL di `callback` dopo aver processato correttamente una richiesta di cancellazione.
-
-#### **Campi Chiave da Costruire:**
-
-| Percorso Campo (semplificato)                           | Descrizione                                                                                                  |
-| ------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
-| `Document.RsltnOfInvstgtn.Assgnmt.Id`                   | L'ID univoco della richiesta di cancellazione `camt.055` a cui stai rispondendo, per correlazione.           |
-| `Document.RsltnOfInvstgtn.Sts.Conf`                     | Lo **stato della conferma**. Da valorizzare con `CNCL` (Cancelled).                                          |
-| `Document.RsltnOfInvstgtn.CxlDtls.TxInfAndSts.TxCxlSts` | Lo **stato della cancellazione** della transazione. Da valorizzare con `ACCR` (AcceptedCancellationRequest). |
+| Percorso Campo (semplificato)                                                    | Descrizione                                                                                                                                                                                                                                 |
+| -------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `Document.CdtrPmtActvtnReqStsRpt.OrgnlGrpInfAndSts.OrgnlMsgId`                   | L'ID del messaggio `pain.013` originale a cui stai rispondendo.                                                                                                                                                                             |
+| `Document.CdtrPmtActvtnReqStsRpt.OrgnlPmtInfAndSts.TxInfAndSts.OrgnlEndToEndId`  | Lo **IUV** della richiesta originale.                                                                                                                                                                                                       |
+| `Document.CdtrPmtActvtnReqStsRpt.OrgnlPmtInfAndSts.TxInfAndSts.TxSts`            | <p>Lo <strong>stato</strong> della richiesta, da valorizzare con: - <code>ACCP</code> → accettato dall'utente<br><code>ACTC</code> → accettato dal service provider<br><code>RJCT</code> → rifiutato dall'utente o dal service provider</p> |
+| `Document.CdtrPmtActvtnReqStsRpt.OrgnlPmtInfAndSts.TxInfAndSts.StsRsnInf.Rsn.Cd` | In caso di rifiuto, il codice che ne specifica il motivo.                                                                                                                                                                                   |

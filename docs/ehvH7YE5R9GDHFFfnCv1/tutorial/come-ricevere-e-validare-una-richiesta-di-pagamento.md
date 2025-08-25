@@ -1,6 +1,6 @@
 # Come ricevere e validare una richiesta di pagamento
 
-Questo tutorial ti guida attraverso i passaggi necessari per ricevere, validare e processare correttamente una richiesta di pagamento (SRTP) in entrata, inviata da PagoPA.
+Questo tutorial ti guida attraverso i passaggi necessari per ricevere, validare e processare correttamente una richiesta di pagamento (SRTP) in entrata, inviata da PagoPA secondo le specifiche descritte in [API per la ricezione delle richieste SRTP](../guida-tecnica/api-per-la-ricezione-delle-richieste-srtp.md).
 
 L'implementazione di questo flusso è il cuore del servizio, in quanto abilita la ricezione delle notifiche da presentare ai tuoi utenti finali.
 

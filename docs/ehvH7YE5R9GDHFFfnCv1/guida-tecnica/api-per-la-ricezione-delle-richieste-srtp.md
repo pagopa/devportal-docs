@@ -1,6 +1,6 @@
 # API per la ricezione delle richieste SRTP
 
-Questa sezione descrive le API che un **Service Provider del Debitore** deve implementare per agire come **API server** all'interno dell'ecosistema SRTP. Le specifiche sono basate sullo standard ufficiale dell'European Payments Council  [EPC133-22 v3.1](https://www.europeanpaymentscouncil.eu/sites/default/files/kb/file/2023-06/EPC137-22%20v3.1%20-%20SRTP%20related%20API%20Specifications%20-%20Preliminary%20Information.pdf)
+Questa sezione descrive le API che un **Service Provider del Debitore** deve implementare per agire come **API server** all'interno dell'ecosistema SRTP. Le specifiche sono basate sullo standard ufficiale dell'European Payments Council  [EPC133-22](https://www.europeanpaymentscouncil.eu/document-library/guidance-documents/default-srtp-related-api-specifications)
 
 L'interfaccia definisce le operazioni per ricevere nuove richieste di pagamento, permetterne il recupero e gestirne la cancellazione.
 
@@ -22,30 +22,18 @@ POST /sepa-request-to-pay-requests
 Questo è l'endpoint principale attraverso cui il tuo servizio riceverà le nuove richieste di pagamento (SRTP) inviate da PagoPA (in qualità di SP del Creditore).
 
 **Corpo della Richiesta** \
-Il corpo della richiesta conterrà un oggetto `SepaRequestToPayRequestResource`, che incapsula il messaggio `pain.013.001.10` con tutti i dettagli della richiesta. È fondamentale che il tuo endpoint salvi l'`Idempotency-key` per prevenire doppie elaborazioni. La struttura dettagliata dei messaggi è descritta nel capitolo **Riferimento ai Messaggi (Dataset ISO 20022)**.
+Il corpo della richiesta conterrà un oggetto `SepaRequestToPayRequestResource`, che incapsula il messaggio `pain.013.001.10` con tutti i dettagli della richiesta. L'endpoint deve salvare l'`Idempotency-key` per prevenire doppie elaborazioni. La struttura dettagliata dei messaggi è descritta nel capitolo [**Riferimento ai Messaggi (Dataset ISO 20022)**.](riferimento-ai-messaggi-dataset-iso-20022.md)
 
 **Risposte**
 
 * **`201 Created`**: La risposta da inviare se la richiesta è stata accettata e processata correttamente. L'header `Location` deve contenere l'URL della risorsa appena creata.
 * **`400 Bad Request`**: La risposta da inviare se la richiesta è malformata o non valida secondo le regole dello schema SRTP. Il corpo della risposta deve contenere un oggetto `SepaRequestToPayErrorResponseResource_DS04b`.
+* **`401 Unauthorized`**: Le credenziali del chiamante non sono valide o sufficienti per l'operazione.
+* **`406 Not Acceptable`**: Il server non può produrre una risposta conforme agli header `Accept` inviati dal client.
 * **`409 Conflict`**: La risposta da inviare se la richiesta è un duplicato (stessa `Idempotency-key` e stesso payload) di una richiesta già processata. L'header `Location` deve contenere l'URL della risorsa originale.
-
-### **Fornire i dettagli di una richiesta di pagamento**
-
-```http
-GET /sepa-request-to-pay-requests/{sepaRequestToPayRequestResourceId}
-```
-
-Questo endpoint permette al mittente di recuperare i dettagli di una SRTP inviata in precedenza. Il tuo servizio deve implementarlo per restituire la risorsa richiesta.
-
-**Parametri Path**
-
-* `sepaRequestToPayRequestResourceId` (string, obbligatorio): L'identificativo univoco della risorsa SRTP da recuperare.
-
-**Risposte**
-
-* **`200 OK`**: La risposta da inviare se la risorsa viene trovata. Il corpo deve contenere l'oggetto `SepaRequestToPayRequestResource` originale.
-* **`404 Not Found`**: La risposta da inviare se la risorsa con l'ID specificato non esiste.
+* **`415 Unsupported Media Type`**: Il `Content-Type` della richiesta (es. `application/json`) non è supportato dall'endpoint.
+* **`422 Unprocessable Entity`**: La richiesta è formalmente corretta ma non può essere processata per motivi di business (es. `Idempotency-key` riutilizzata con un payload diverso).
+* **`429 Too Many Requests`**: Il client ha superato il numero massimo di richieste consentite in un dato periodo (rate limiting).
 
 ### **Ricevere una richiesta di cancellazione**
 
