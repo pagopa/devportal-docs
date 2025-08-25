@@ -4,6 +4,23 @@ Questo tutorial ti guida, in qualità di Service Provider del Debitore, attraver
 
 Il processo prevede la ricezione di una richiesta, l'aggiornamento dello stato nei tuoi sistemi e l'invio di una notifica di conferma asincrona.
 
+```mermaid
+sequenceDiagram
+    autonumber
+    
+    participant PA as PagoPA
+    participant SP as Service Provider del Debitore
+
+    %% Flusso Sincrono: Ricezione e Presa in Carico
+    PA->>+SP: POST /.../cancellation-requests (messaggio camt.055)
+    Note right of SP: Identifica la richiesta originale<br>Aggiorna lo stato interno a "Annullata"
+    SP-->>-PA: 201 Created (Presa in carico confermata)
+
+    %% Flusso Asincrono: Notifica di Conferma
+    SP->>PA: Invia conferma asincrona (messaggio camt.029) all'URL di callback
+    Note left of PA: La conferma contiene lo stato<br>Sts.Conf = CNCL e TxCxlSts = ACCR
+```
+
 ## **Step 1: Implementa l'endpoint di ricezione della cancellazione**
 
 Il tuo sistema deve esporre un endpoint in grado di ricevere le richieste di cancellazione inviate da PagoPA.
