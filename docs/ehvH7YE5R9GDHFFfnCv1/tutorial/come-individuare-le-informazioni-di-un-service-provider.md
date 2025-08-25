@@ -2,6 +2,36 @@
 
 Questo tutorial dedicato ai **Service Provider del Creditore diversi da PagoPA** spiega come utilizzare il Discovery Service, esposto tramite le API di Attivazione, per verificare se un utente è attivo al servizio RTP e per ottenere l'identificativo tecnico del suo Service Provider del Debitore. Questa informazione è indispensabile per poter instradare correttamente una richiesta di pagamento.
 
+```mermaid
+
+sequenceDiagram
+    autonumber
+
+    participant SPC as Service Provider Creditore
+    participant PPA as Piattaforma PagoPA
+
+    %% Step 1: Ottenere AccessToken
+    SPC->>PPA: Richiesta AccessToken (OAuth2 Client Credentials)
+    activate PPA
+    PPA-->>SPC: AccessToken
+    deactivate PPA
+
+    %% Step 2 & 3: Interrogare Discovery Service e gestire risposta
+    SPC->>PPA: GET /activations/payer (Header: PayerId, RequestId)
+    activate PPA
+    
+    alt Utente Attivo
+        PPA-->>SPC: 200 OK (JSON con Activation)
+    else Utente Non Attivo
+        PPA-->>SPC: 404 Not Found
+    end
+    
+    deactivate PPA
+
+    Note right of SPC: Se 200 OK, estrarre 'payer.rtpSpId' per instradare la SRTP.
+
+```
+
 ## **Step 1: Ottenere un AccessToken**
 
 Come per tutte le chiamate API verso la piattaforma, il primo passo consiste nell'ottenere un `AccessToken` valido tramite il flusso OAuth2 Client Credentials, utilizzando le proprie credenziali.
