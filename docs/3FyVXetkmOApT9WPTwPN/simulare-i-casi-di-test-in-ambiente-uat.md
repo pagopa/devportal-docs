@@ -52,7 +52,7 @@ NOTA: la posizione debitoria deve essere prima caricata sull'ambiente uat di GPD
 
 In ambiente UAT è possibile simulare gli esiti degli invii digitali ed analogici inserendo nei campi relativi ai domicili dei codici che riproducono il relativo scenario collegato.
 
-### Come simulare gli eventi di Workflow Digitale
+### Come simulare gli eventi di Workflow Digitale via PEC
 
 * **Consegna via PEC con esito OK:** \
   Per testare questo caso, bisognerà inserire come \
@@ -79,6 +79,12 @@ Di seguito le sequenze con cui eseguire gli scenari di test con destinatario l'u
 #### Raccomandata Semplice Internazionale (RIS)  <a href="#raccomandata-semplice-internazionale-ris" id="raccomandata-semplice-internazionale-ris"></a>
 
 <table data-header-hidden><thead><tr><th width="205"></th><th></th></tr></thead><tbody><tr><td><strong>Chiave Sequenza</strong></td><td><strong>Scenario</strong></td></tr><tr><td>OK_RIS</td><td><p>valorizzare</p><p><code>recipients.digitalDomicile.address="prova@fail.it"</code></p><p><code>recipients.physicalAddress.address="VIA @OK_RIS"</code></p><p><code>recipients.physicalAddress.foreignState="FRANCIA"</code></p><p></p><p>Dopo il fallimento dei tentativi di consegna digitale, si avvierà la consegna della Raccomandata Semplice Internazionale con esito OK.</p></td></tr><tr><td>FAIL_RIS</td><td><p>valorizzare </p><p><code>recipients.digitalDomicile.address="prova@fail.it"</code></p><p><code>recipients.physicalAddress.address="VIA @FAIL_RIS"</code></p><p><code>recipients.physicalAddress.foreignState="FRANCIA"</code></p><p></p><p>Dopo il fallimento dei tentativi di consegna digitale, si avvierà la consegna della Raccomandata Semplice Internazionale con esito KO.</p></td></tr></tbody></table>
+
+### Come simulare gli eventi di Workflow Digitale SERCQ di piattaforma
+
+Per testare la consegna digitale tramite domicilio SERCQ di piattaforma è stato configurato l'utente
+
+<table data-header-hidden data-full-width="false"><thead><tr><th></th><th width="232.33333333333331"></th><th></th></tr></thead><tbody><tr><td><strong>Nome Cittadino</strong></td><td><strong>Cognome Cittadino</strong></td><td><strong>Codice Fiscale Cittadino</strong></td></tr><tr><td>Galileo</td><td>Galilei</td><td><code>GLLGLL64B15G702I</code></td></tr></tbody></table>
 
 ### **Accesso tramite messaggio di cortesia entro 120h dalla preparazione del worklow analogico**
 
