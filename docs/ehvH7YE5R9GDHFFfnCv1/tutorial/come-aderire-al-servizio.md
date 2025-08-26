@@ -1,3 +1,63 @@
+---
+funzione: tutorial
+livello: principiante
+tecnologia:
+  - Onboarding
+  - API
+  - UAT
+utente:
+  ruolo: fruitore
+  tipo_ente: 
+    - partner_tecnologico
+    - prestatore_servizi_pagamento
+  tag:
+    - adesione
+    - onboarding
+    - certificazione
+status: pubblicato
+prodotto:
+  nome: RTP
+  versione: 
+argomenti_correlati:
+schema:
+  '@context': https://schema.org
+  '@type': HowTo
+  name: Come aderire al servizio
+  description: Tutorial che descrive il processo di Onboarding per un Service Provider che intende aderire al servizio RTP, ottenere le credenziali e diventare operativo.
+  author:
+    '@type': Organization
+    name: PagoPA
+  keywords:
+    - Onboarding
+    - Adesione
+    - RTP
+    - Service Provider
+    - EPC
+    - API
+    - UAT
+  audience:
+    '@type': Audience
+    audienceType: Service Provider del Debitore
+  step:
+    - '@type': HowToStep
+      name: 'Prerequisito: Adesione allo schema EPC'
+      text: Prima di avviare il processo di onboarding con PagoPA, è necessario che l'istituto abbia aderito allo schema SEPA Request-to-Pay (SRTP) seguendo le regole definite nel Rulebook dell'European Payments Council (EPC).
+    - '@type': HowToStep
+      name: "Step 1: Sottoscrivere l'Accordo di Adesione con PagoPA"
+      text: Formalizzare l'adesione al servizio tramite la sottoscrizione della convenzione e dei Termini e Condizioni (T&C) forniti da PagoPA.
+    - '@type': HowToStep
+      name: 'Step 2: Fornire le Informazioni Tecniche'
+      text: Compilare un allegato tecnico con le informazioni necessarie alla configurazione del servizio, come l'identificativo del Service Provider (BIC o codice fiscale), eventuale TPSP, ruolo, identificativo del canale pagoPA e contatti tecnici.
+    - '@type': HowToStep
+      name: 'Step 3: Ricevere le Credenziali di Accesso'
+      text: A seguito della sottoscrizione del contratto, il referente tecnico riceverà via email le credenziali di accesso ai servizi (`clientId` e `client_secret`).
+    - '@type': HowToStep
+      name: 'Step 4: Eseguire i Test in Ambiente di Certificazione (UAT)'
+      text: Procedere con l'integrazione tecnica e la certificazione in ambiente di test (UAT), implementando i flussi API e documentando le prove.
+    - '@type': HowToStep
+      name: 'Step 5: Pianificare il Passaggio in Produzione'
+      text: Dopo aver completato con successo i test, concordare con PagoPA la data per il passaggio in produzione.
+---
 # Come aderire al servizio
 
 Questo tutorial descrive il processo di **Onboarding**, ovvero i passaggi che un Service Provider deve seguire per aderire al servizio RTP, ottenere le credenziali necessarie per l'integrazione tecnica e diventare pienamente operativo.
