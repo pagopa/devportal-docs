@@ -10,10 +10,10 @@ L’obiettivo delle regole è di:
 
 ## In generale:
 
-:point\_right: Dai sempre del “tu” all’utente, evitando espressioni come “cliente”, “possessore di carta CGN”;
+👉 Dai sempre del “tu” all’utente, evitando espressioni come “cliente”, “possessore di carta CGN”;
 
-:point\_right: Usa un tono colloquiale e chiaro;
+👉 Usa un tono colloquiale e chiaro;
 
-:point\_right: Non menzionare la Carta Giovani Nazionale, l’utente che legge questi testi si trova già nella sezione dedicata all’iniziativa;
+👉 Non menzionare la Carta Giovani Nazionale, l’utente che legge questi testi si trova già nella sezione dedicata all’iniziativa;
 
-:point\_right: Non scrivere intere frasi in maiuscolo.
+👉 Non scrivere intere frasi in maiuscolo.
