@@ -1,6 +1,6 @@
 # Introduzione al servizio SRTP
 
-Il servizio Request to Pay (RTP) è un canale digitale che permette a cittadini e imprese di ricevere richieste di pagamento, come gli avvisi pagoPA, direttamente sui propri canali telematici abituali (ad esempio, l'home banking). La soluzione si basa sullo standard europeo **SEPA Request-To-Pay (SRTP)**, un'iniziativa dell'European Payments Council (EPC) per la tramitazione sicura e tracciabile delle richieste di pagamento.
+Il servizio Request to Pay (RTP) è un canale digitale che permette a cittadini e imprese di ricevere richieste di pagamento, come gli avvisi pagoPA, direttamente sui propri canali digitali abituali (ad esempio, l'home banking). La soluzione si basa sullo standard europeo **SEPA Request-To-Pay (SRTP)**, un'iniziativa dell'European Payments Council (EPC) per la tramitazione sicura e tracciabile delle richieste di pagamento.
 
 L'obiettivo è superare le modalità tradizionali, rispondendo alla necessità di disporre di un'esperienza di pagamento più evoluta e semplice. Invece di dover recuperare e inserire manualmente i dati di un avviso, con RTP l'utente riceve una notifica precompilata da cui può verificare i dettagli e procedere al saldo in pochi passaggi.
 
