@@ -1,3 +1,61 @@
+---
+argomenti_correlati:
+- /il-prodotto/lo-schema-sepa-request-to-pay-epc.md
+- /guida-tecnica/api-del-servizio-di-attivazione.md
+- /tutorial/come-aderire-al-servizio.md
+- /casi-duso/invio-di-un-avviso-tari-a-un-cittadino-e-gestione-del-pagamento.md
+funzione: introduzione
+livello: principiante
+prodotto:
+  nome: PagoPA SRTP
+  versione: v1.0.0
+schema:
+  '@context': https://schema.org
+  '@type': WebPage
+  about:
+    '@type': SoftwareApplication
+    applicationCategory: FinanceApplication
+    name: PagoPA SRTP
+    operatingSystem: Web
+    provider:
+      '@type': Organization
+      name: PagoPA S.p.A.
+    version: v1.0.0
+  author:
+    '@type': Organization
+    name: PagoPA S.p.A.
+    url: https://www.pagopa.it/
+  dateModified: '2024-05-23'
+  datePublished: '2024-01-15'
+  description: Indice ufficiale della documentazione per l'integrazione con il servizio
+    SEPA Request-to-Pay (SRTP) di PagoPA. Esplora le sezioni su prodotto, guide tecniche,
+    tutorial e casi d'uso.
+  keywords:
+  - PagoPA SRTP
+  - SEPA Request-to-Pay
+  - Documentazione Tecnica
+  - API
+  - Indice
+  - ISO-20022
+  name: Documentazione Completa PagoPA SRTP v1.0.0
+  publisher:
+    '@type': Organization
+    name: PagoPA S.p.A.
+    url: https://www.pagopa.it/
+status: pubblicato
+tecnologia:
+- SEPA Request-to-Pay
+- API REST
+- ISO-20022
+utente:
+  ruolo: sviluppatore
+  tag:
+  - indice
+  - SRTP
+  - documentazione
+  tipo_ente: partner_tecnologico
+---
+
 # Table of contents
 
 ## IL PRODOTTO

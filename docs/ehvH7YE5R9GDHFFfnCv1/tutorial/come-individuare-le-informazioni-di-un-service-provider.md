@@ -1,3 +1,65 @@
+---
+argomenti_correlati:
+- /guida-tecnica/attivazione/api
+funzione: tutorial
+livello: intermedio
+prodotto:
+  nome: PagoPA SRTP
+  versione: v1.0.0
+schema:
+  '@context': https://schema.org
+  '@type': HowTo
+  author:
+    '@type': Organization
+    name: PagoPA S.p.A.
+  description: Questo tutorial spiega ai Service Provider del Creditore come utilizzare
+    il Discovery Service per verificare l'attivazione di un utente al servizio RTP
+    e ottenere l'identificativo del suo Service Provider, informazione indispensabile
+    per instradare una richiesta di pagamento.
+  keywords:
+  - Discovery Service
+  - RTP
+  - SRTP
+  - Service Provider
+  - PayerId
+  - Activation
+  name: Come individuare le informazioni di un Service Provider per SRTP
+  step:
+  - '@type': HowToStep
+    name: Ottenere un AccessToken
+    text: Ottenere un AccessToken valido tramite il flusso OAuth2 Client Credentials
+      utilizzando le proprie credenziali.
+  - '@type': HowToStep
+    name: Interrogare il Discovery Service
+    text: Inviare una richiesta GET all'endpoint /activations/payer, includendo negli
+      header i parametri PayerId (Codice Fiscale dell'utente) e RequestId (UUID per
+      la richiesta).
+  - '@type': HowToStep
+    name: Interpretare la Risposta
+    text: Una risposta 200 OK contiene un oggetto Activation con il campo 'payer.rtpSpId',
+      necessario per l'instradamento. Una risposta 404 Not Found indica che l'utente
+      non è attivo sul servizio RTP.
+  tool:
+  - '@type': HowToTool
+    name: Client HTTP
+  - '@type': HowToTool
+    name: Credenziali OAuth2 per la piattaforma PagoPA
+  totalTime: PT2M
+status: pubblicato
+tecnologia:
+- REST
+- OAuth2
+- JSON
+utente:
+  ruolo: fruitore
+  tag:
+  - Discovery Service
+  - RTP
+  - SRTP
+  - Activation
+  tipo_ente: partner_tecnologico
+---
+
 # Come individuare le informazioni di un Service Provider
 
 Questo tutorial dedicato ai **Service Provider del Creditore diversi da PagoPA** spiega come utilizzare il Discovery Service, esposto tramite le API di Attivazione, per verificare se un utente è attivo al servizio RTP e per ottenere l'identificativo tecnico del suo Service Provider del Debitore. Questa informazione è indispensabile per poter instradare correttamente una richiesta di pagamento.

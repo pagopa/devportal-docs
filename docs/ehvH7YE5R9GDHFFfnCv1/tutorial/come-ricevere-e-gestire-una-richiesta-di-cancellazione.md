@@ -1,3 +1,63 @@
+---
+argomenti_correlati:
+- /docs/pago-pa-srtp/tutorial/come-inviare-richiesta-pagamento
+funzione: tutorial
+livello: intermedio
+prodotto:
+  nome: PagoPA SRTP
+  versione: v1.0.0
+schema:
+  '@context': https://schema.org
+  '@type': HowTo
+  author:
+    '@type': Organization
+    name: PagoPA S.p.A.
+  description: Questo tutorial guida i Service Provider del Debitore attraverso i
+    passaggi per gestire una richiesta di cancellazione (RfC) in entrata, avviata
+    da PagoPA quando un avviso di pagamento viene annullato o pagato tramite altri
+    canali.
+  keywords:
+  - cancellazione
+  - RfC
+  - camt.055
+  - camt.029
+  - callback
+  - SRTP
+  - SEPA Request-to-Pay
+  name: Come ricevere e gestire una richiesta di cancellazione
+  step:
+  - '@type': HowToStep
+    name: Implementa l'endpoint di ricezione della cancellazione
+    text: Esporre un endpoint POST /sepa-request-to-pay-requests/{sepaRequestToPayRequestResourceId}/cancellation-requests
+      per ricevere le richieste di cancellazione da PagoPA.
+  - '@type': HowToStep
+    name: Ricevi e processa il messaggio di cancellazione (camt.055)
+    text: All'arrivo di una richiesta, identifica la richiesta di pagamento originale
+      usando sepaRequestToPayRequestResourceId. Aggiorna lo stato interno a 'Annullata'
+      per impedire ulteriori pagamenti e rispondi con status 201 Created.
+  - '@type': HowToStep
+    name: Invia la conferma di cancellazione asincrona (camt.029)
+    text: Invia un messaggio di conferma camt.029 all'URL di callback del mittente.
+      Imposta il campo Sts.Conf a 'CNCL' e TxCxlSts a 'ACCR' per confermare l'avvenuta
+      cancellazione.
+status: pubblicato
+tecnologia:
+- REST API
+- HTTP
+- JSON
+- camt.055
+- camt.029
+utente:
+  ruolo: erogatore
+  tag:
+  - cancellazione
+  - RfC
+  - callback
+  - asincrono
+  - SRTP
+  tipo_ente: partner_tecnologico
+---
+
 # Come ricevere e gestire una richiesta di cancellazione
 
 Questo tutorial ti guida, in qualità di Service Provider del Debitore, attraverso i passaggi necessari per gestire correttamente una richiesta di cancellazione (RfC) in entrata. Questa operazione viene avviata da PagoPA quando un avviso di pagamento è stato annullato o pagato tramite altri canali.

@@ -1,3 +1,47 @@
+---
+argomenti_correlati: []
+funzione: il-prodotto
+livello: principiante
+prodotto:
+  nome: PagoPA SRTP
+  versione: v1.0.0
+schema:
+  '@context': https://schema.org
+  '@type': TechArticle
+  author:
+    '@type': Organization
+    name: PagoPA S.p.A.
+  datePublished: '2023-11-15'
+  description: Descrive lo schema SEPA Request-To-Pay (SRTP) dell'European Payments
+    Council (EPC), un protocollo di messaggistica che standardizza l'invio e la gestione
+    delle richieste di pagamento nell'area SEPA basandosi su un modello 'four-corner'.
+  keywords:
+  - SEPA
+  - Request-to-Pay
+  - SRTP
+  - EPC
+  - four-corner model
+  name: Lo Schema SEPA Request-to-Pay (EPC)
+  proficiencyLevel: principiante
+status: pubblicato
+tecnologia:
+- SRTP
+- SEPA
+- EPC
+utente:
+  ruolo:
+  - erogatore
+  - fruitore
+  tag:
+  - SEPA
+  - Request-to-Pay
+  - SRTP
+  - EPC
+  - four-corner model
+  - pagamenti
+  tipo_ente: partner_tecnologico
+---
+
 # Lo Schema SEPA Request-to-Pay (EPC)
 
 Il servizio si basa sullo schema **SEPA Request-To-Pay (SRTP)**, un'[iniziativa dell'European Payments Council (EPC)](https://www.europeanpaymentscouncil.eu/what-we-do/other-schemes/sepa-request-pay) che definisce un insieme di regole e messaggi standard per la tramitazione di richieste di pagamento in tutta l'area SEPA.

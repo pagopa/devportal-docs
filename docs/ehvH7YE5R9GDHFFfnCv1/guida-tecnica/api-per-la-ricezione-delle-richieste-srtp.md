@@ -1,3 +1,51 @@
+---
+argomenti_correlati:
+- /guida-tecnica/riferimento-ai-messaggi-dataset-iso-20022
+funzione: guida-tecnica
+livello: intermedio
+prodotto:
+  nome: PagoPA SRTP
+  versione: v1.0.0
+schema:
+  '@context': https://schema.org
+  '@type': WebAPI
+  description: Specifica tecnica delle API che un Service Provider del Debitore deve
+    implementare per ricevere, recuperare e cancellare richieste di pagamento SRTP,
+    in conformità con lo standard EPC133-22.
+  isBasedOn:
+    '@type': CreativeWork
+    name: EPC133-22 - Default SRTP related API Specifications
+    url: https://www.europeanpaymentscouncil.eu/document-library/guidance-documents/default-srtp-related-api-specifications
+  keywords:
+  - SRTP
+  - API
+  - EPC
+  - ISO 20022
+  - pain.013.001.10
+  - camt.055.001.08
+  - Idempotency
+  name: API per la ricezione delle richieste SRTP
+  proficiencyLevel: intermedio
+  protocol: HTTP
+  provider:
+    '@type': Organization
+    name: PagoPA S.p.A.
+status: pubblicato
+tecnologia:
+- HTTP
+- REST
+- JSON
+- ISO 20022
+utente:
+  ruolo: erogatore
+  tag:
+  - SRTP
+  - API
+  - endpoint
+  - pagamenti
+  tipo_ente: partner_tecnologico
+---
+
 # API per la ricezione delle richieste SRTP
 
 Questa sezione descrive le API che un **Service Provider del Debitore** deve implementare per agire come **API server** all'interno dell'ecosistema SRTP. Le specifiche sono basate sullo standard ufficiale dell'European Payments Council  [EPC133-22](https://www.europeanpaymentscouncil.eu/document-library/guidance-documents/default-srtp-related-api-specifications)
