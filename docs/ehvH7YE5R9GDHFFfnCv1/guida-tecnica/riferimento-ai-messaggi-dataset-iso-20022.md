@@ -1,3 +1,50 @@
+---
+argomenti_correlati:
+- /docs/pagopa-srtp/guida-tecnica/api-endpoints
+funzione: guida-tecnica
+livello: intermedio
+prodotto:
+  nome: PagoPA SRTP
+  versione: v1.0.0
+schema:
+  '@context': https://schema.org
+  '@type': TechArticle
+  author:
+    '@type': Organization
+    name: PagoPA S.p.A.
+  datePublished: '2024-05-21'
+  dependencies: Standard EPC133-22 - SEPA Request-to-Pay (SRTP)
+  description: Guida dettagliata alla struttura dei messaggi ISO 20022 utilizzati
+    nel servizio SRTP, con focus sui campi chiave da interpretare per le richieste
+    in entrata e da costruire per le risposte di stato.
+  keywords:
+  - ISO 20022
+  - EPC133-22
+  - pain.013.001.10
+  - camt.055.001.08
+  - pain.014.001.07
+  - SEPA Request-to-Pay
+  - SRTP
+  - IUV
+  name: Riferimento ai messaggi del Dataset ISO-20022 per SRTP
+  proficiencyLevel: Intermediate
+status: pubblicato
+tecnologia:
+- ISO-20022
+- EPC133-22
+- API
+utente:
+  ruolo: partner_tecnologico
+  tag:
+  - messaggistica
+  - ISO 20022
+  - pain.013
+  - pain.014
+  - camt.055
+  - SRTP
+  tipo_ente: partner_tecnologico
+---
+
 # Riferimento ai messaggi (Dataset ISO-20022)
 
 A differenza del Servizio di Attivazione, l'interazione tra Service Provider per lo scambio di richieste di pagamento si basa sullo standard [EPC133-22](https://www.europeanpaymentscouncil.eu/document-library/guidance-documents/default-srtp-related-api-specifications) Questo standard prevede che le chiamate API contengano nel corpo della richiesta un oggetto risorsa (es. `SepaRequestToPayRequestResource`) che incapsula un messaggio conforme allo standard **ISO 20022**.

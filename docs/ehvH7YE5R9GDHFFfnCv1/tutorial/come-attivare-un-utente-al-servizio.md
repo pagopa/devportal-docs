@@ -1,3 +1,63 @@
+---
+argomenti_correlati:
+- /docs/srtp/guida-tecnica/autenticazione
+funzione: tutorial
+livello: intermedio
+prodotto:
+  nome: PagoPA SRTP
+  versione: v1.0.0
+schema:
+  '@context': https://schema.org
+  '@type': HowTo
+  author:
+    '@type': Organization
+    name: PagoPA S.p.A.
+  description: Tutorial tecnico che guida un Service Provider attraverso il processo
+    di enrollment e attivazione di un utente (Debitore) tramite API, per abilitarlo
+    a ricevere notifiche.
+  keywords:
+  - attivazione utente
+  - enrollment
+  - SRTP
+  - API
+  - AccessToken
+  - OAuth2
+  name: Come attivare un utente al servizio SRTP
+  step:
+  - '@type': HowToStep
+    name: 'Step 1: Ottenere l''AccessToken (Autenticazione)'
+    text: Effettuare una chiamata al server di autenticazione PagoPA con lo schema
+      OAuth2 Client Credential Grant Type, usando il proprio client_id e client_secret
+      per ottenere un AccessToken.
+  - '@type': HowToStep
+    name: 'Step 2: Preparare il corpo della richiesta (ActivationReq)'
+    text: Costruire un oggetto JSON contenente il Codice Fiscale dell'utente (payer.fiscalCode)
+      e l'identificativo del Service Provider (payer.rtpSpId).
+  - '@type': HowToStep
+    name: 'Step 3: Invocare l''API di Attivazione'
+    text: Eseguire una richiesta POST all'endpoint /activations, includendo l'AccessToken
+      come Bearer Token nell'header Authorization e il payload ActivationReq nel corpo.
+  - '@type': HowToStep
+    name: 'Step 4: Gestire la risposta del servizio'
+    text: 'Interpretare la risposta HTTP: in caso di successo (201 Created), salvare
+      l''URL univoco dall''header ''Location''; in caso di utente già attivo (409
+      Conflict), usare l''URL fornito per verificare l''attivazione esistente.'
+status: pubblicato
+tecnologia:
+- REST
+- OAuth2
+- JSON
+utente:
+  ruolo: erogatore
+  tag:
+  - attivazione
+  - enrollment
+  - API
+  - autenticazione
+  - AccessToken
+  tipo_ente: partner_tecnologico
+---
+
 # Come attivare un utente al servizio
 
 Questo tutorial ti guida attraverso il processo tecnico di **Enrollment** e **Attivazione** di un utente (Debitore). Questa operazione, eseguita dal Service Provider del Debitore, è fondamentale per registrare il consenso dell'utente a ricevere notifiche SRTP e renderlo raggiungibile dai Service Provider dei Creditori.

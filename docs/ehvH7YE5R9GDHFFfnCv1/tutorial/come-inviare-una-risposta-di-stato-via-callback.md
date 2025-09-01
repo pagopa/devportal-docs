@@ -1,3 +1,67 @@
+---
+argomenti_correlati:
+- /docs/pago-pa-srtp/ricezione-richiesta-pagamento
+funzione: tutorial
+livello: intermedio
+prodotto:
+  nome: PagoPA SRTP
+  versione: v1.0.0
+schema:
+  '@context': https://schema.org
+  '@type': HowTo
+  author:
+    '@type': Organization
+    name: PagoPA S.p.A.
+  description: Guida passo-passo per i Service Provider del Debitore su come notificare
+    a PagoPA l'esito di una richiesta di pagamento (accettata o rifiutata) tramite
+    una chiamata di callback asincrona con un messaggio pain.014.
+  keywords:
+  - callback
+  - pain.014
+  - notifica stato
+  - pagoPA
+  - SRTP
+  - SEPA Request-to-Pay
+  name: Come inviare una Risposta di Stato via Callback in PagoPA SRTP
+  step:
+  - '@type': HowToStep
+    name: Identifica l'URL di Callback
+    text: Recupera dinamicamente l'URL dal campo `callbackUrl` presente nella richiesta
+      di pagamento originale e associalo alla transazione corrente.
+  - '@type': HowToStep
+    name: Costruisci il corpo della richiesta (pain.014)
+    text: Crea il messaggio `pain.014` in formato JSON, valorizzando i campi di correlazione
+      con i dati della richiesta originale e impostando lo stato `TxSts` su 'ACCP'
+      (accettato) o 'RJCT' (rifiutato).
+  - '@type': HowToStep
+    name: Invia la notifica di stato
+    text: Esegui una chiamata HTTP POST all'URL di callback recuperato, includendo
+      il payload JSON `pain.014` nel corpo della richiesta.
+  - '@type': HowToStep
+    name: Gestisci la risposta alla callback
+    text: Verifica di ricevere uno status code `200 OK` da PagoPA, che conferma la
+      corretta ricezione della notifica di stato.
+  tool:
+  - '@type': HowToTool
+    description: Un'applicazione o libreria in grado di effettuare chiamate API REST
+      con metodo POST e di costruire un payload JSON.
+    name: Client HTTP
+status: pubblicato
+tecnologia:
+- pain.014
+- JSON
+- REST API
+- Callback
+utente:
+  ruolo: service_provider_debitore
+  tag:
+  - callback
+  - notifica di stato
+  - pain.014
+  - risposta
+  tipo_ente: partner_tecnologico
+---
+
 # Come inviare una Risposta di Stato via Callback
 
 Dopo che un utente ha interagito con una richiesta di pagamento nella tua applicazione (accettandola o rifiutandola), in qualità di Service Provider del Debitore, hai il compito di comunicare questa decisione al mittente (PagoPA).

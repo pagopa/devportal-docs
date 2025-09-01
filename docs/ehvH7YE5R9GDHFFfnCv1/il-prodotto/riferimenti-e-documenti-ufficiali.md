@@ -1,3 +1,49 @@
+---
+argomenti_correlati: []
+funzione: guida-tecnica
+livello: avanzato
+prodotto:
+  nome: PagoPA SRTP
+  versione: v1.0.0
+schema:
+  '@context': https://schema.org
+  '@type': CollectionPage
+  about:
+    '@type': Thing
+    description: Standard e linee guida ufficiali per l'implementazione del servizio
+      SEPA Request-to-Pay.
+    name: SEPA Request-to-Pay (SRTP) Scheme
+  author:
+    '@type': Organization
+    name: PagoPA S.p.A.
+  description: Pagina di riferimento che raccoglie i link alla documentazione ufficiale
+    dello schema SEPA Request-to-Pay (SRTP), incluse le specifiche dell'European Payments
+    Council (EPC) e le linee guida di Banca d'Italia per il contesto PagoPA.
+  keywords:
+  - SRTP
+  - SEPA
+  - EPC
+  - Rulebook
+  - API Specifications
+  - Banca d'Italia
+  - PagoPA
+  name: Riferimenti e Documenti Ufficiali per SEPA Request-to-Pay
+status: pubblicato
+tecnologia:
+- SEPA
+- SRTP
+- API
+utente:
+  ruolo: sviluppatore
+  tag:
+  - SRTP
+  - SEPA
+  - EPC
+  - Rulebook
+  - specifiche
+  tipo_ente: partner_tecnologico
+---
+
 # Riferimenti e Documenti Ufficiali
 
 Per un'analisi completa e approfondita dello standard e delle linee guida su cui si basa il servizio, di seguito sono riportati i link alla documentazione ufficiale di riferimento.

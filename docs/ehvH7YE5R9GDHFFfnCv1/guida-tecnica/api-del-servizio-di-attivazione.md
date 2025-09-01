@@ -1,3 +1,43 @@
+---
+argomenti_correlati: []
+funzione: guida-tecnica
+livello: intermedio
+prodotto:
+  nome: PagoPA SRTP
+  versione: v1.0.0
+schema:
+  '@context': https://schema.org
+  '@type': WebAPI
+  description: Descrive gli endpoint REST per la gestione del ciclo di vita delle
+    attivazioni, che rappresentano il consenso dell'utente a ricevere richieste di
+    pagamento (SRTP). Include operazioni di creazione, lettura, cancellazione e discovery.
+  keywords:
+  - attivazione
+  - API
+  - OAuth2
+  - SRTP
+  - discovery service
+  name: API del servizio di attivazione
+  proficiencyLevel: intermedio
+  provider:
+    '@type': Organization
+    name: PagoPA S.p.A.
+  termRequired: OAuth2 Client Credentials Flow
+status: pubblicato
+tecnologia:
+- REST
+- OAuth2
+- JSON
+utente:
+  ruolo: erogatore
+  tag:
+  - attivazione
+  - API
+  - endpoint
+  - discovery
+  tipo_ente: partner_tecnologico
+---
+
 # API del servizio di attivazione
 
 Queste API sono dedicate alla gestione del ciclo di vita delle attivazioni. Un'attivazione rappresenta il consenso di un utente (Debitore o Payer) a ricevere le richieste di pagamento (SRTP) tramite un determinato Service Provider del Debitore. Le operazioni descritte di seguito permettono di creare, leggere, aggiornare, cancellare e gestire il subentro (takeover) di queste attivazioni.

@@ -1,3 +1,61 @@
+---
+argomenti_correlati:
+- /guida-tecnica/api-per-la-ricezione-delle-richieste-srtp
+funzione: tutorial
+livello: intermedio
+prodotto:
+  nome: PagoPA SRTP
+  versione: v1.0.0
+schema:
+  '@context': https://schema.org
+  '@type': HowTo
+  author:
+    '@type': Organization
+    name: PagoPA S.p.A.
+  description: Tutorial che guida passo-passo gli sviluppatori nell'implementazione
+    del flusso di ricezione, validazione e processamento di una richiesta di pagamento
+    (SRTP) inviata da PagoPA.
+  name: Come ricevere e validare una richiesta di pagamento
+  step:
+  - '@type': HowToStep
+    name: 'Step 1: Implementa l''endpoint di ricezione'
+    text: Esponi un endpoint POST /sepa-request-to-pay-requests per ricevere le richieste
+      SRTP in entrata.
+  - '@type': HowToStep
+    name: 'Step 2: Gestisci gli Header della Richiesta'
+    text: Gestisci correttamente gli header HTTP 'Idempotency-key' per prevenire duplicati
+      e 'X-Request-ID' per il logging e il troubleshooting.
+  - '@type': HowToStep
+    name: 'Step 3: Valida il Corpo della Richiesta'
+    text: Esegui una validazione sincrona per la correttezza formale del messaggio
+      pain.013 e una validazione di business asincrona sui dati del pagatore.
+  - '@type': HowToStep
+    name: 'Step 4: Invia la Risposta Sincrona'
+    text: In caso di successo della validazione formale, rispondi con '201 Created'
+      e l'header 'Location'. Altrimenti, rispondi con un codice di errore appropriato
+      (es. 400, 409).
+  - '@type': HowToStep
+    name: 'Step 5: Gestisci il Rifiuto Asincrono (DS-04)'
+    text: Se la validazione di business fallisce, notifica il mittente inviando un
+      messaggio di rifiuto asincrono (pain.014) all'URL di callback fornito nella
+      richiesta originale.
+status: pubblicato
+tecnologia:
+- HTTP
+- API
+- SEPA
+utente:
+  ruolo: erogatore
+  tag:
+  - SRTP
+  - richiesta di pagamento
+  - validazione
+  - idempotenza
+  - pain.013
+  - pain.014
+  tipo_ente: partner_tecnologico
+---
+
 # Come ricevere e validare una richiesta di pagamento
 
 Questo tutorial ti guida attraverso i passaggi necessari per ricevere, validare e processare correttamente una richiesta di pagamento (SRTP) in entrata, inviata da PagoPA secondo le specifiche descritte in [API per la ricezione delle richieste SRTP](../guida-tecnica/api-per-la-ricezione-delle-richieste-srtp.md).

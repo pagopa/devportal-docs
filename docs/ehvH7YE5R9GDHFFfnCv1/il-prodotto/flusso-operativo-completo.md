@@ -1,3 +1,73 @@
+---
+argomenti_correlati:
+- /docs/srtp/attivazione
+- /docs/srtp/guida-tecnica/cancellazione-richieste
+funzione: casi-duso
+livello: intermedio
+prodotto:
+  nome: PagoPA SRTP
+  versione: v1.0.0
+schema:
+  '@context': https://schema.org
+  '@type': HowTo
+  author:
+    '@type': Organization
+    name: PagoPA S.p.A.
+  description: Descrive il percorso completo di una richiesta di pagamento SRTP, dalla
+    generazione da parte di PagoPA fino alla ricezione, pagamento e riconciliazione
+    finale.
+  keywords:
+  - SRTP
+  - SEPA Request-to-Pay
+  - flusso di pagamento
+  - pain.013
+  - pain.014
+  - callback
+  name: Il Flusso Operativo Completo del Servizio SRTP
+  step:
+  - '@type': HowToStep
+    name: 'Prerequisito: Attivazione dell''Utente'
+    text: Il processo richiede che l'utente finale abbia preventivamente acconsentito
+      a ricevere notifiche SRTP dal suo Service Provider.
+  - '@type': HowToStep
+    name: Invio del Messaggio SRTP
+    text: PagoPA, per conto dell'Ente Creditore, identifica una nuova posizione debitoria,
+      costruisce un messaggio pain.013 e lo invia al Service Provider del Debitore.
+  - '@type': HowToStep
+    name: Ricezione e Presentazione della Richiesta
+    text: Il Service Provider del Debitore riceve la richiesta, la valida e la presenta
+      all'utente finale nel suo canale digitale (es. home banking).
+  - '@type': HowToStep
+    name: Risposta dell'Utente e Notifica di Stato
+    text: L'utente accetta o rifiuta la notifica. Il Service Provider comunica la
+      decisione a PagoPA inviando un messaggio di stato pain.014 a un endpoint di
+      callback.
+  - '@type': HowToStep
+    name: Pagamento dell'Avviso
+    text: In caso di accettazione, l'utente procede al pagamento tramite i circuiti
+      standard di pagoPA. Il pagamento non fa tecnicamente parte dello schema SRTP.
+  - '@type': HowToStep
+    name: Riconciliazione tramite Cancellazione
+    text: Se il pagamento avviene su un canale diverso, PagoPA invia una richiesta
+      di cancellazione al Service Provider originale per invalidare la notifica e
+      chiudere il ciclo.
+status: pubblicato
+tecnologia:
+- SRTP
+- pain.013
+- pain.014
+- API REST
+utente:
+  ruolo: fruitore
+  tag:
+  - flusso operativo
+  - SRTP
+  - callback
+  - riconciliazione
+  - pain.013
+  tipo_ente: partner_tecnologico
+---
+
 # Il Flusso Operativo Completo
 
 Per comprendere come interagiscono le diverse componenti del servizio, è utile seguire il percorso completo di una richiesta di pagamento, dalla sua origine fino alla sua conclusione. Il flusso coinvolge l'Ente Creditore, la piattaforma PagoPA (che agisce come Service Provider del Creditore e gestore del repository), il Service Provider del Debitore e l'utente finale.
