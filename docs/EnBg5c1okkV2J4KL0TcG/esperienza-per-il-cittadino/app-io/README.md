@@ -19,8 +19,6 @@ Il Portafoglio di IO consente di salvare diversi metodi di pagamento per effettu
 È possibile in ogni momento modificare le preferenze per ciascun metodo dalla sezione Portafoglio.&#x20;
 {% endhint %}
 
-{% embed url="https://io.italia.it/metodi-pagamento" %}
-
 ## Principali vantaggi
 
 * Salvando i vari metodi nel Portafoglio, è possibile ridurre il numero di passaggi per completare un pagamento;
