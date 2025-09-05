@@ -21,9 +21,9 @@ L'ente, tramite i propri sistemi, carica da back-office la notifica per il citta
 
 ### Documentazione tecnica&#x20;
 
-[In questa pagina](https://developer.pagopa.it/send/api/send-main#/send/api/send-main/operations/retrieveNotificationPriceV23) trovi le specifiche sull'API **`notificationPriceV23`** da utilizzare per conoscere l'importo dei costi di notifica da applicare agli avvisi di pagamento.&#x20;
+[In questa pagina](https://developer.pagopa.it/send/api/send-api-external-b2b-pa-bundle#/send/api/operations/retrieveNotificationPriceV23) trovi le specifiche sull'API **`RetrieveNotificationPriceV23`** da utilizzare per conoscere l'importo dei costi di notifica da applicare agli avvisi di pagamento.&#x20;
 
-[In questa pagina](https://developer.pagopa.it/send/api/send-main#/send/api/send-main/operations/sendNewNotificationV23) trovi le specifiche per collegare uno o più avvisi alla notifica: i sistemi in capo dall'ente devono utilizzare il campo **`pagoPa`** all’interno dell’oggetto **`payments`** (dentro recipients), fornendo i seguenti dati:&#x20;
+[In questa pagina](https://developer.pagopa.it/send/api/send-api-external-b2b-pa-bundle#/send/api/operations/sendNewNotificationV24) trovi le specifiche per collegare uno o più avvisi alla notifica: i sistemi in capo dall'ente devono utilizzare il campo **`pagoPa`** all’interno dell’oggetto **`payments`** (dentro recipients), fornendo i seguenti dati:&#x20;
 
 * **`noticeCode;`**&#x20;
 * **`creditorTaxId;`**&#x20;
@@ -42,7 +42,7 @@ L'ente, tramite i propri sistemi, può monitorare l'accettazione o rifiuto da pa
 
 ### Documentazione tecnica&#x20;
 
-[In questa pagina](https://developer.pagopa.it/send/api/send-main#/send/api/send-main/operations/consumeEventStreamV23) trovi le specifiche tecniche per leggere i progressi delle notifiche tramite stream.
+[In questa pagina](https://developer.pagopa.it/send/api/send-api-external-b2b-pa-bundle#/send/api/operations/consumeEventStreamV26) trovi le specifiche tecniche per leggere i progressi delle notifiche tramite stream.
 
 ## 3. SEND inizia il processo di notifica al cittadino
 
@@ -76,7 +76,7 @@ In caso di mancata apertura della notifica digitale entro i tempi indicati, SEND
 
 [In questa pagina ](https://app.gitbook.com/s/PmBz3R5ejc6lLp80K94Z/appendici/primitive)trovi le specifiche tecniche per compilare il campo **`dueDate`** della posizione debitoria con la data di perfezionamento della notifica.
 
-[In questa pagina](https://developer.pagopa.it/send/api/send-main#/send/api/send-main/operations/retrieveNotificationPriceV23) trovi le specifiche tecniche per conoscere la data di perfezionamento della notifica, utilizza l’API **`notificationPriceV23`.**&#x20;
+[In questa pagina](https://developer.pagopa.it/send/api/send-api-external-b2b-pa-bundle#/send/api/operations/retrieveNotificationPriceV23) trovi le specifiche tecniche per conoscere la data di perfezionamento della notifica, utilizza l’API **`RetrieveNotificationPriceV23`.**&#x20;
 
 [In questa pagina](https://notifichedigitali.pagopa.it/perfezionamento) puoi approfondire come si perfeziona una notifica rispetto al canale usato dal cittadino.
 
