@@ -46,3 +46,7 @@ L’aderente a pagoPA, che si avvale dell’integrazione asincrona, e che sia an
 **ii.** nel caso in cui ad una notifica dichiarata come sincrona siano, invece, associati IUV asincroni, questi ultimi non saranno aggiornati, e conseguentemente il costo complessivo delle notifiche non sarà attualizzato.&#x20;
 
 **b)** nel caso di cui alla lett. a, ii., che precede, PagoPA S.p.A. è, pertanto, legittimata a rendicontare e fatturare i costi dalla stessa anticipati per la notifica, anche se non pagati dal destinatario all’Aderente a causa della erronea qualificazione della notifica come sincrona da parte dell’Aderente stesso.
+
+{% hint style="warning" %}
+Per la comunicazione delle spese di notifica si faccia riferimento al dizionario dei metadata [https://app.gitbook.com/o/KXYtsf32WSKm6ga638R3/s/u6YdY319vyFX9MIvnKBa/spese-di-notifica-send](https://app.gitbook.com/o/KXYtsf32WSKm6ga638R3/s/u6YdY319vyFX9MIvnKBa/spese-di-notifica-send)
+{% endhint %}
