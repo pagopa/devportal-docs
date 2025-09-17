@@ -10,37 +10,40 @@ schema:
   '@type': CollectionPage
   about:
     '@type': Thing
-    description: Standard e linee guida ufficiali per l'implementazione del servizio
-      SEPA Request-to-Pay.
+    description: >-
+      Standard e linee guida ufficiali per l'implementazione del servizio SEPA
+      Request-to-Pay.
     name: SEPA Request-to-Pay (SRTP) Scheme
   author:
     '@type': Organization
     name: PagoPA S.p.A.
-  description: Pagina di riferimento che raccoglie i link alla documentazione ufficiale
-    dello schema SEPA Request-to-Pay (SRTP), incluse le specifiche dell'European Payments
-    Council (EPC) e le linee guida di Banca d'Italia per il contesto PagoPA.
+  description: >-
+    Pagina di riferimento che raccoglie i link alla documentazione ufficiale
+    dello schema SEPA Request-to-Pay (SRTP), incluse le specifiche dell'European
+    Payments Council (EPC) e le linee guida di Banca d'Italia per il contesto
+    PagoPA.
   keywords:
-  - SRTP
-  - SEPA
-  - EPC
-  - Rulebook
-  - API Specifications
-  - Banca d'Italia
-  - PagoPA
+    - SRTP
+    - SEPA
+    - EPC
+    - Rulebook
+    - API Specifications
+    - Banca d'Italia
+    - PagoPA
   name: Riferimenti e Documenti Ufficiali per SEPA Request-to-Pay
 status: pubblicato
 tecnologia:
-- SEPA
-- SRTP
-- API
+  - SEPA
+  - SRTP
+  - API
 utente:
   ruolo: sviluppatore
   tag:
-  - SRTP
-  - SEPA
-  - EPC
-  - Rulebook
-  - specifiche
+    - SRTP
+    - SEPA
+    - EPC
+    - Rulebook
+    - specifiche
   tipo_ente: partner_tecnologico
 ---
 
@@ -63,11 +66,11 @@ L'EPC è l'organismo che definisce e mantiene lo schema SEPA Request-to-Pay.
     Le linee guida di implementazione che descrivono le modalità di interazione tecnica tra i diversi Service Provider che aderiscono allo schema.
 *   [**Default SRTP related API Specifications**](https://www.europeanpaymentscouncil.eu/document-library/guidance-documents/default-srtp-related-api-specifications)
 
-    Documento di specifiche API versione 3.1 dello standard Single Euro Payments Area (SEPA) Request-to Pay (SRTP) \
-
+    Documento di specifiche API versione 3.1 dello standard Single Euro Payments Area (SEPA) Request-to Pay (SRTP) \\
 
 ## Documenti di Contesto Italiano
 
+* Documentazione piattaforma pagoPA: [SACI](https://developer.pagopa.it/pago-pa/guides/saci) e [SANP](https://developer.pagopa.it/pago-pa/guides/sanp)
 *   [**Linee Guida del Comitato Pagamenti Italia (CPI) di Banca d'Italia**](https://www.bancaditalia.it/compiti/sispaga-mercati/comitato-pagamenti-italia/CPI-Tavolo-incassi-e-pagamenti-pubblici-RTP-PagoPA.pdf)
 
     Il documento che illustra le modalità operative concordate dal tavolo "Incassi e pagamenti pubblici" per l'implementazione dello schema SRTP nel contesto specifico di PagoPA e dei pagamenti verso la Pubblica Amministrazione italiana.

@@ -12,33 +12,35 @@ schema:
     '@type': Organization
     name: PagoPA S.p.A.
   datePublished: '2023-11-15'
-  description: Descrive lo schema SEPA Request-To-Pay (SRTP) dell'European Payments
-    Council (EPC), un protocollo di messaggistica che standardizza l'invio e la gestione
-    delle richieste di pagamento nell'area SEPA basandosi su un modello 'four-corner'.
+  description: >-
+    Descrive lo schema SEPA Request-To-Pay (SRTP) dell'European Payments Council
+    (EPC), un protocollo di messaggistica che standardizza l'invio e la gestione
+    delle richieste di pagamento nell'area SEPA basandosi su un modello
+    'four-corner'.
   keywords:
-  - SEPA
-  - Request-to-Pay
-  - SRTP
-  - EPC
-  - four-corner model
+    - SEPA
+    - Request-to-Pay
+    - SRTP
+    - EPC
+    - four-corner model
   name: Lo Schema SEPA Request-to-Pay (EPC)
   proficiencyLevel: principiante
 status: pubblicato
 tecnologia:
-- SRTP
-- SEPA
-- EPC
+  - SRTP
+  - SEPA
+  - EPC
 utente:
   ruolo:
-  - erogatore
-  - fruitore
+    - erogatore
+    - fruitore
   tag:
-  - SEPA
-  - Request-to-Pay
-  - SRTP
-  - EPC
-  - four-corner model
-  - pagamenti
+    - SEPA
+    - Request-to-Pay
+    - SRTP
+    - EPC
+    - four-corner model
+    - pagamenti
   tipo_ente: partner_tecnologico
 ---
 
@@ -59,7 +61,7 @@ Lo schema si fonda su un **"four-corner model"** (modello a quattro angoli), che
 * **Service Provider del Creditore**: Il partner tecnologico che aderisce allo schema e invia le richieste SRTP per conto del Creditore.
 * **Service Provider del Debitore**: Il partner tecnologico che aderisce allo schema, riceve le richieste SRTP e le presenta al Debitore sui propri canali.
 
-<figure><img src="../.gitbook/assets/https___files.gitbook.com_v0_b_gitbook-x-prod.appspot.com_o_spaces%2F0IKhR8KIASBbcwgRZ2gC%2Fuploads%2Fx0tA2tUMUQkzb7ElGSaQ%2Fimage.avif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/https___files.gitbook.com_v0_b_gitbook-x-prod.appspot.com_o_spaces/0IKhR8KIASBbcwgRZ2gC/uploads/x0tA2tUMUQkzb7ElGSaQ/image.avif" alt=""><figcaption></figcaption></figure>
 
 ## **Principi di Funzionamento**
 
