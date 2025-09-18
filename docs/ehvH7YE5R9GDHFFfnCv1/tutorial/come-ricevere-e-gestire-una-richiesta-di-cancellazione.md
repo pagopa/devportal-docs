@@ -87,9 +87,9 @@ sequenceDiagram
     Note left of PA: La conferma contiene lo stato<br>Sts.Conf = CNCL e TxCxlSts = ACCR
 ```
 
-## **Step 1: Implementa l'endpoint di ricezione della cancellazione**
+## **Step 1: Implementazione dell'endpoint di ricezione della cancellazione**
 
-Il sistema del l Service Provider del Debitore deve esporre un endpoint in grado di ricevere le richieste di cancellazione inviate da PagoPA.
+Il sistema del Service Provider del Debitore deve esporre un endpoint in grado di ricevere le richieste di cancellazione inviate da PagoPA.
 
 ### **Endpoint (da implementare)**
 
@@ -97,7 +97,7 @@ Il sistema del l Service Provider del Debitore deve esporre un endpoint in grado
 POST /sepa-request-to-pay-requests/{sepaRequestToPayRequestResourceId}/cancellation-requests
 ```
 
-## **Step 2: Ricevi e processa il messaggio di cancellazione (`camt.055`)**
+## **Step 2: Ricezione e processamento dell messaggio di cancellazione (`camt.055`)**
 
 Quando si riceve una chiamata su questo endpoint, il corpo della richiesta contiene un oggetto `SepaRequestToPayCancellationRequestResource`, che incapsula un messaggio `camt.055.001.08`.
 
@@ -107,7 +107,7 @@ Sarà quindi necessario:
 2. **Aggiornare lo stato:** occorre modificare lo stato della richiesta nell'applicazione, mostrandola all'utente come "Annullata" o "Già pagata". Questo è un passaggio cruciale per impedire all'utente di tentare un pagamento non più dovuto.
 3. **Rispondere alla chiamata**: Occorre inviare una risposta sincrona con status code **`201 Created`** per confermare la presa in carico della richiesta di cancellazione.
 
-## **Step 3: Invia la conferma di cancellazione asincrona (`camt.029`)**
+## **Step 3: Invio della conferma di cancellazione asincrona (`camt.029`)**
 
 Dopo aver processato la richiesta, occorrerà inviare una conferma asincrona all'URL di `callback` del mittente (ricevuto nella richiesta di pagamento originale).
 
