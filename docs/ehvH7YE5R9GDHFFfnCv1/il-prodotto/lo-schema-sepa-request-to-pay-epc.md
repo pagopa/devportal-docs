@@ -65,7 +65,7 @@ Lo schema si fonda su un **"four-corner model"** (modello a quattro angoli), che
 
 ## **Principi di Funzionamento**
 
-Il flusso di base prevede che il Creditore, tramite il proprio Service Provider, invii una richiesta di pagamento al Service Provider del Debitore, che a sua volta la rende disponibile al Debitore. Una volta ricevuta la notifica, il Debitore può **accettare o rifiutare** la richiesta.
+Il flusso di base prevede che il Creditore, tramite il proprio Service Provider, invii una richiesta di pagamento al Service Provider del Debitore, che a sua volta la rende disponibile al Debitore. Una volta ricevuto il messaggio, il Debitore può **accettare o rifiutare** la richiesta.
 
 Lo schema EPC definisce diverse modalità con cui un Debitore può gestire una richiesta, basate sulla combinazione di quando accetta e quando intende pagare:
 
@@ -73,6 +73,8 @@ Lo schema EPC definisce diverse modalità con cui un Debitore può gestire una r
 | ---------------- | -------------------------------------------------------------------------------- | ----------------------------------------------------------------------------- |
 | **ACCEPT NOW**   | Accetta e procede subito al pagamento.                                           | Accetta subito ma programma il pagamento a una data successiva.               |
 | **ACCEPT LATER** | Programma l'accettazione a una data successiva e, contestualmente, il pagamento. | Programma sia la data di accettazione che quella di esecuzione del pagamento. |
+
+Per maggiori informazioni, si rimanda al seguente [link.](https://www.europeanpaymentscouncil.eu/sites/default/files/kb/file/2023-12/EPC014-20%20v3.2%20SEPA%20RTP%20Scheme%20Rulebook.pdf)
 
 ## **Ambiti e Flessibilità**
 

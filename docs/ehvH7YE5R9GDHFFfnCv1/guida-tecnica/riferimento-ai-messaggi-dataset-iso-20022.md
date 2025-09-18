@@ -1,6 +1,6 @@
 ---
 argomenti_correlati:
-- /docs/pagopa-srtp/guida-tecnica/api-endpoints
+  - /docs/pagopa-srtp/guida-tecnica/api-endpoints
 funzione: guida-tecnica
 livello: intermedio
 prodotto:
@@ -14,34 +14,35 @@ schema:
     name: PagoPA S.p.A.
   datePublished: '2024-05-21'
   dependencies: Standard EPC133-22 - SEPA Request-to-Pay (SRTP)
-  description: Guida dettagliata alla struttura dei messaggi ISO 20022 utilizzati
-    nel servizio SRTP, con focus sui campi chiave da interpretare per le richieste
+  description: >-
+    Guida dettagliata alla struttura dei messaggi ISO 20022 utilizzati nel
+    servizio SRTP, con focus sui campi chiave da interpretare per le richieste
     in entrata e da costruire per le risposte di stato.
   keywords:
-  - ISO 20022
-  - EPC133-22
-  - pain.013.001.10
-  - camt.055.001.08
-  - pain.014.001.07
-  - SEPA Request-to-Pay
-  - SRTP
-  - IUV
+    - ISO 20022
+    - EPC133-22
+    - pain.013.001.10
+    - camt.055.001.08
+    - pain.014.001.07
+    - SEPA Request-to-Pay
+    - SRTP
+    - IUV
   name: Riferimento ai messaggi del Dataset ISO-20022 per SRTP
   proficiencyLevel: Intermediate
 status: pubblicato
 tecnologia:
-- ISO-20022
-- EPC133-22
-- API
+  - ISO-20022
+  - EPC133-22
+  - API
 utente:
   ruolo: partner_tecnologico
   tag:
-  - messaggistica
-  - ISO 20022
-  - pain.013
-  - pain.014
-  - camt.055
-  - SRTP
+    - messaggistica
+    - ISO 20022
+    - pain.013
+    - pain.014
+    - camt.055
+    - SRTP
   tipo_ente: partner_tecnologico
 ---
 
@@ -49,13 +50,13 @@ utente:
 
 A differenza del Servizio di Attivazione, l'interazione tra Service Provider per lo scambio di richieste di pagamento si basa sullo standard [EPC133-22](https://www.europeanpaymentscouncil.eu/document-library/guidance-documents/default-srtp-related-api-specifications) Questo standard prevede che le chiamate API contengano nel corpo della richiesta un oggetto risorsa (es. `SepaRequestToPayRequestResource`) che incapsula un messaggio conforme allo standard **ISO 20022**.
 
-Questa sezione fornisce una guida dettagliata alla struttura di questi messaggi, distinguendo tra quelli che, in qualità di Service Provider del Debitore, dovrai **interpretare** (in entrata) e quelli che dovrai **costruire** (in uscita). Per la struttura completa e definitiva di ogni campo, si rimanda alla specifica OpenAPI ufficiale dell'EPC.
+Questa sezione fornisce una guida dettagliata alla struttura di questi messaggi, distinguendo tra quelli che, in qualità di Service Provider del Debitore, è necessario **interpretare** (in entrata) e quelli che sarà necessario **comporre** (in uscita). Per la struttura completa e definitiva di ogni campo, si rimanda alla specifica OpenAPI ufficiale dell'EPC.
 
 ## Messaggi Ricevuti (da Interpretare)
 
 ### 1. Messaggio di Richiesta di Pagamento (`pain.013.001.10`)
 
-Questo è il messaggio che ricevi quando ti viene inoltrata una nuova richiesta di pagamento. È contenuto all'interno dell'oggetto `SepaRequestToPayRequestResource` inviato all'endpoint `POST /sepa-request-to-pay-requests`.
+Questo è il messaggio ricevuto quando si inoltra una nuova richiesta di pagamento. È contenuto all'interno dell'oggetto `SepaRequestToPayRequestResource` inviato all'endpoint `POST /sepa-request-to-pay-requests`.
 
 #### **Campi Chiave da Interpretare:**
 
@@ -71,7 +72,7 @@ Questo è il messaggio che ricevi quando ti viene inoltrata una nuova richiesta 
 
 ### 2. Messaggio di Richiesta di Cancellazione (`camt.055.001.08`)
 
-Questo è il messaggio che ricevi quando una SRTP deve essere annullata. È contenuto nell'oggetto `SepaRequestToPayCancellationRequestResource` inviato all'endpoint `POST /sepa-request-to-pay-requests/{id}/cancellation-requests`.
+Questo è il messaggio che viene ricevuto quando una SRTP deve essere annullata. È contenuto nell'oggetto `SepaRequestToPayCancellationRequestResource` inviato all'endpoint `POST /sepa-request-to-pay-requests/{id}/cancellation-requests`.
 
 #### **Campi Chiave da Interpretare:**
 
@@ -82,11 +83,11 @@ Questo è il messaggio che ricevi quando una SRTP deve essere annullata. È cont
 
 ***
 
-## Messaggi Inviati (da Costruire)
+## Messaggi Inviati (da Comporre)
 
 ### 3. Messaggio di Risposta di Stato (`pain.014.001.07`)
 
-Questo è il messaggio che devi costruire e inviare all'URL di `callback` per notificare l'esito (accettazione o rifiuto) di una richiesta da parte dell'utente. È contenuto nell'oggetto `AsynchronousSepaRequestToPayResponseResource`.
+Questo è il messaggio che deve essere composto e inviato all'URL di `callback` per notificare l'esito (accettazione o rifiuto) di una richiesta da parte dell'utente. È contenuto nell'oggetto `AsynchronousSepaRequestToPayResponseResource`.
 
 #### **Campi Chiave da Costruire:**
 

@@ -1,6 +1,6 @@
 ---
 argomenti_correlati:
-- /guida-tecnica/riferimento-ai-messaggi-dataset-iso-20022
+  - /guida-tecnica/riferimento-ai-messaggi-dataset-iso-20022
 funzione: guida-tecnica
 livello: intermedio
 prodotto:
@@ -9,21 +9,23 @@ prodotto:
 schema:
   '@context': https://schema.org
   '@type': WebAPI
-  description: Specifica tecnica delle API che un Service Provider del Debitore deve
-    implementare per ricevere, recuperare e cancellare richieste di pagamento SRTP,
-    in conformità con lo standard EPC133-22.
+  description: >-
+    Specifica tecnica delle API che un Service Provider del Debitore deve
+    implementare per ricevere, recuperare e cancellare richieste di pagamento
+    SRTP, in conformità con lo standard EPC133-22.
   isBasedOn:
     '@type': CreativeWork
     name: EPC133-22 - Default SRTP related API Specifications
-    url: https://www.europeanpaymentscouncil.eu/document-library/guidance-documents/default-srtp-related-api-specifications
+    url: >-
+      https://www.europeanpaymentscouncil.eu/document-library/guidance-documents/default-srtp-related-api-specifications
   keywords:
-  - SRTP
-  - API
-  - EPC
-  - ISO 20022
-  - pain.013.001.10
-  - camt.055.001.08
-  - Idempotency
+    - SRTP
+    - API
+    - EPC
+    - ISO 20022
+    - pain.013.001.10
+    - camt.055.001.08
+    - Idempotency
   name: API per la ricezione delle richieste SRTP
   proficiencyLevel: intermedio
   protocol: HTTP
@@ -32,23 +34,23 @@ schema:
     name: PagoPA S.p.A.
 status: pubblicato
 tecnologia:
-- HTTP
-- REST
-- JSON
-- ISO 20022
+  - HTTP
+  - REST
+  - JSON
+  - ISO 20022
 utente:
   ruolo: erogatore
   tag:
-  - SRTP
-  - API
-  - endpoint
-  - pagamenti
+    - SRTP
+    - API
+    - endpoint
+    - pagamenti
   tipo_ente: partner_tecnologico
 ---
 
 # API per la ricezione delle richieste SRTP
 
-Questa sezione descrive le API che un **Service Provider del Debitore** deve implementare per agire come **API server** all'interno dell'ecosistema SRTP. Le specifiche sono basate sullo standard ufficiale dell'European Payments Council  [EPC133-22](https://www.europeanpaymentscouncil.eu/document-library/guidance-documents/default-srtp-related-api-specifications)
+Questa sezione descrive le API che un **Service Provider del Debitore** deve implementare per agire come **API server** all'interno dell'ecosistema SRTP. Le specifiche sono basate sullo standard ufficiale dell'European Payments Council [EPC133-22](https://www.europeanpaymentscouncil.eu/document-library/guidance-documents/default-srtp-related-api-specifications)
 
 L'interfaccia definisce le operazioni per ricevere nuove richieste di pagamento, permetterne il recupero e gestirne la cancellazione.
 
@@ -69,7 +71,7 @@ POST /sepa-request-to-pay-requests
 
 Questo è l'endpoint principale attraverso cui il tuo servizio riceverà le nuove richieste di pagamento (SRTP) inviate da PagoPA (in qualità di SP del Creditore).
 
-**Corpo della Richiesta** \
+**Corpo della Richiesta**\
 Il corpo della richiesta conterrà un oggetto `SepaRequestToPayRequestResource`, che incapsula il messaggio `pain.013.001.10` con tutti i dettagli della richiesta. L'endpoint deve salvare l'`Idempotency-key` per prevenire doppie elaborazioni. La struttura dettagliata dei messaggi è descritta nel capitolo [**Riferimento ai Messaggi (Dataset ISO 20022)**.](riferimento-ai-messaggi-dataset-iso-20022.md)
 
 **Risposte**
@@ -89,11 +91,11 @@ Il corpo della richiesta conterrà un oggetto `SepaRequestToPayRequestResource`,
 POST /sepa-request-to-pay-requests/{sepaRequestToPayRequestResourceId}/cancellation-requests
 ```
 
-Questo endpoint viene invocato da PagoPA per richiedere l'annullamento di una SRTP. Il tuo servizio deve ricevere la richiesta, processarla e aggiornare lo stato della SRTP nei tuoi sistemi.
+Questo endpoint viene invocato da PagoPA per richiedere l'annullamento di una SRTP. L'aderente deve ricevere la richiesta, processarla e aggiornare lo stato della SRTP nei tuoi sistemi.
 
-**Corpo della Richiesta** Il corpo della richiesta conterrà un oggetto `SepaRequestToPayCancellationRequestResource`, che incapsula il messaggio `camt.055.001.08`. La struttura dettagliata è descritta nel capitolo **Riferimento ai Messaggi (Dataset ISO 20022)**.
+**Corpo della Richiesta:** Il corpo della richiesta conterrà un oggetto `SepaRequestToPayCancellationRequestResource`, che incapsula il messaggio `camt.055.001.08`. La struttura dettagliata è descritta nel capitolo **Riferimento ai Messaggi (Dataset ISO 20022)**.
 
 **Risposte**
 
-* **`201 Created`**: La risposta da inviare se la richiesta di cancellazione è stata accettata. A seguito di questa operazione, il tuo servizio dovrà inviare la conferma asincrona tramite callback.
+* **`201 Created`**: La risposta da inviare se la richiesta di cancellazione è stata accettata. A seguito di questa operazione, il servizio dovrà inviare la conferma asincrona tramite callback.
 * **`422 Unprocessable Entity`**: La risposta da inviare se non è possibile annullare la SRTP (es. perché già in uno stato finale).

@@ -1,8 +1,8 @@
 ---
 argomenti_correlati:
-- /tutorial/come-ricevere-e-validare-una-richiesta-di-pagamento
-- /tutorial/come-inviare-una-risposta-di-stato
-- /tutorial/come-ricevere-e-gestire-una-richiesta-di-cancellazione
+  - /tutorial/come-ricevere-e-validare-una-richiesta-di-pagamento
+  - /tutorial/come-inviare-una-risposta-di-stato
+  - /tutorial/come-ricevere-e-gestire-una-richiesta-di-cancellazione
 funzione: casi-duso
 livello: intermedio
 prodotto:
@@ -14,52 +14,57 @@ schema:
   author:
     '@type': Organization
     name: PagoPA S.p.A.
-  description: Questo caso d'uso descrive il ciclo di vita completo di una richiesta
-    di pagamento, mostrando come le diverse API e i messaggi standard interagiscono
-    in uno scenario reale, dalla ricezione della richiesta fino alla riconciliazione
-    finale.
+  description: >-
+    Questo caso d'uso descrive il ciclo di vita completo di una richiesta di
+    pagamento, mostrando come le diverse API e i messaggi standard interagiscono
+    in uno scenario reale, dalla ricezione della richiesta fino alla
+    riconciliazione finale.
   keywords:
-  - SRTP
-  - TARI
-  - ciclo di vita pagamento
-  - pain.013
-  - pain.014
-  - camt.029
-  - SEPA Request-To-Pay
+    - SRTP
+    - TARI
+    - ciclo di vita pagamento
+    - pain.013
+    - pain.014
+    - camt.029
+    - SEPA Request-To-Pay
   name: Invio di un avviso TARI a un cittadino e gestione del pagamento
   step:
-  - '@type': HowToStep
-    name: 'Fase 1: Ricezione della Richiesta di Pagamento (pain.013)'
-    text: Il sistema del Service Provider del Debitore riceve una chiamata POST contenente
-      un messaggio pain.013 con i dettagli della TARI. Deve validare la richiesta,
-      confermarne la presa in carico e processarla per notificarla all'utente finale.
-  - '@type': HowToStep
-    name: 'Fase 2: Interazione dell''Utente e Invio dello Stato (pain.014)'
-    text: L'utente accetta la richiesta di pagamento tramite la propria app. Il sistema
-      del Service Provider costruisce un messaggio pain.014 con lo stato 'ACCP' (Accepted)
-      e lo invia tramite una chiamata POST all'URL di callback fornito nella richiesta
-      originale.
-  - '@type': HowToStep
-    name: 'Fase 3: Pagamento e Riconciliazione (Cancellazione)'
-    text: A seguito del pagamento, PagoPA invia una richiesta di cancellazione all'endpoint
-      del Service Provider. Il sistema deve processare la richiesta, aggiornare lo
-      stato della notifica e inviare una conferma di cancellazione asincrona (camt.029)
-      via callback.
+    - '@type': HowToStep
+      name: 'Fase 1: Ricezione della Richiesta di Pagamento (pain.013)'
+      text: >-
+        Il sistema del Service Provider del Debitore riceve una chiamata POST
+        contenente un messaggio pain.013 con i dettagli della TARI. Deve
+        validare la richiesta, confermarne la presa in carico e processarla per
+        notificarla all'utente finale.
+    - '@type': HowToStep
+      name: 'Fase 2: Interazione dell''Utente e Invio dello Stato (pain.014)'
+      text: >-
+        L'utente accetta la richiesta di pagamento tramite la propria app. Il
+        sistema del Service Provider costruisce un messaggio pain.014 con lo
+        stato 'ACCP' (Accepted) e lo invia tramite una chiamata POST all'URL di
+        callback fornito nella richiesta originale.
+    - '@type': HowToStep
+      name: 'Fase 3: Pagamento e Riconciliazione (Cancellazione)'
+      text: >-
+        A seguito del pagamento, PagoPA invia una richiesta di cancellazione
+        all'endpoint del Service Provider. Il sistema deve processare la
+        richiesta, aggiornare lo stato della notifica e inviare una conferma di
+        cancellazione asincrona (camt.029) via callback.
 status: pubblicato
 tecnologia:
-- REST API
-- SRTP
-- SEPA
+  - REST API
+  - SRTP
+  - SEPA
 utente:
   ruolo: erogatore
   tag:
-  - TARI
-  - pagamento
-  - richiesta di pagamento
-  - pain.013
-  - pain.014
-  - riconciliazione
-  - cancellazione
+    - TARI
+    - pagamento
+    - richiesta di pagamento
+    - pain.013
+    - pain.014
+    - riconciliazione
+    - cancellazione
   tipo_ente: partner_tecnologico
 ---
 
@@ -87,7 +92,7 @@ Il processo inizia quando PagoPA, per conto del Comune, invia una SRTP alla Banc
 
 1. **Azione**: Il sistema della Banca riceve una chiamata sull'endpoint `POST /sepa-request-to-pay-requests`. Il corpo della richiesta contiene un oggetto `SepaRequestToPayRequestResource` che incapsula un messaggio `pain.013` con tutti i dettagli della TARI di Laura.
 2. **Validazione**: La Banca valida la richiesta e risponde `201 Created` per confermare la presa in carico.
-3. **Processamento**: Il sistema della Banca processa i dati del `pain.013` e prepara la notifica da mostrare a Laura.
+3. **Processamento**: Il sistema della Banca processa i dati del `pain.013` e prepara il messaggio da mostrare a Laura.
 
 {% hint style="info" %}
 Per i dettagli tecnici su come implementare questo passaggio, consulta il tutorial: [**Come ricevere e validare una Richiesta di Pagamento**](https://www.google.com/search?q=./tutorial/come-ricevere-e-validare-una-richiesta-di-pagamento).
@@ -95,7 +100,7 @@ Per i dettagli tecnici su come implementare questo passaggio, consulta il tutori
 
 ## **Fase 2: Interazione dell'Utente e Invio dello Stato (`pain.014`)**
 
-Laura riceve una notifica push dalla sua app bancaria.
+Laura riceve un messaggio push dalla sua app bancaria.
 
 1. **Azione dell'Utente**: Laura apre l'app, visualizza i dettagli della richiesta di pagamento TARI precompilata (importo, scadenza, ente) e preme il pulsante "Accetta".
 2. **Azione della Banca**: A seguito dell'accettazione, il sistema della Banca ha il compito di notificare l'esito a PagoPA. Per farlo:

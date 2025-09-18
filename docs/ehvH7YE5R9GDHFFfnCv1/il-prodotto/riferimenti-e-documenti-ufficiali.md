@@ -70,7 +70,8 @@ L'EPC è l'organismo che definisce e mantiene lo schema SEPA Request-to-Pay.
 
 ## Documenti di Contesto Italiano
 
-* Documentazione piattaforma pagoPA: [SACI](https://developer.pagopa.it/pago-pa/guides/saci) e [SANP](https://developer.pagopa.it/pago-pa/guides/sanp)
-*   [**Linee Guida del Comitato Pagamenti Italia (CPI) di Banca d'Italia**](https://www.bancaditalia.it/compiti/sispaga-mercati/comitato-pagamenti-italia/CPI-Tavolo-incassi-e-pagamenti-pubblici-RTP-PagoPA.pdf)
+* [**Specifiche attuative dei codici identificativi di versamento (SACI)**](https://developer.pagopa.it/pago-pa/guides/saci) **e** [**Specifiche attuative del nodo dei pagamenti SPC (SANP)**\
+  ](https://developer.pagopa.it/pago-pa/guides/snp)La documentazione relativa alla piattaforma pagoPA
+*   [**Linee Guida del Comitato Pagamenti Italia (CPI) di Banca d'Italia**](https://developer.pagopa.it/pago-pa/guides/sanp)
 
     Il documento che illustra le modalità operative concordate dal tavolo "Incassi e pagamenti pubblici" per l'implementazione dello schema SRTP nel contesto specifico di PagoPA e dei pagamenti verso la Pubblica Amministrazione italiana.
