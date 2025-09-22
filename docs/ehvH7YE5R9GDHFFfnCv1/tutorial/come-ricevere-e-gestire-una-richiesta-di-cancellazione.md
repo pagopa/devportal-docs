@@ -97,58 +97,12 @@ Il sistema del Service Provider del Debitore deve esporre un endpoint in grado d
 POST /sepa-request-to-pay-requests/{sepaRequestToPayRequestResourceId}/cancellation-requests
 ```
 
-## **Step 2: Ricezione e processamento dell messaggio di cancellazione (`camt.055`)**
+## **Step 2: Ricezione e processamento del messaggio di cancellazione (`camt.055`)**
 
 Quando si riceve una chiamata su questo endpoint, il corpo della richiesta contiene un oggetto `SepaRequestToPayCancellationRequestResource`, che incapsula un messaggio `camt.055.001.08`.
 
-Sarà quindi necessario:
+A seguire:
 
-1. **Identificare la richiesta originale:** Si userà il `sepaRequestToPayRequestResourceId` ricevuto nel path e i dati di correlazione all'interno del messaggio (es. `OrgnlEndToEndId`) per individuare la richiesta di pagamento da annullare nel tuo sistema.
-2. **Aggiornare lo stato:** occorre modificare lo stato della richiesta nell'applicazione, mostrandola all'utente come "Annullata" o "Già pagata". Questo è un passaggio cruciale per impedire all'utente di tentare un pagamento non più dovuto.
-3. **Rispondere alla chiamata**: Occorre inviare una risposta sincrona con status code **`201 Created`** per confermare la presa in carico della richiesta di cancellazione.
-
-## **Step 3: Invio della conferma di cancellazione asincrona (`camt.029`)**
-
-Dopo aver processato la richiesta, occorrerà inviare una conferma asincrona all'URL di `callback` del mittente (ricevuto nella richiesta di pagamento originale).
-
-### **Campi Chiave da Valorizzare:**
-
-* **Correlazione**: andranno inclusi gli identificativi della richiesta di cancellazione (`camt.055`) a cui stai rispondendo.
-* **Stato**: si dovrà impostare il campo `Sts.Conf` su `CNCL` (Cancelled) e `TxCxlSts` su `ACCR` (AcceptedCancellationRequest) per confermare l'esito positivo.
-
-### **Esempio di Payload di Conferma Cancellazione (`camt.029`)**
-
-```json
-{
-  "resourceId": "string",
-  "SepaRequestToPayCancellationResponse": {
-    "Document": {
-      "RsltnOfInvstgtn": {
-        "Assgnmt": {
-          "Id": "ID_DELLA_RICHIESTA_DI_CANCELLAZIONE",
-          "Assgnr": { /* Dati di chi ha assegnato il task */ },
-          "Assgne": { /* Dati di chi ha eseguito il task */ },
-          "CreDtTm": "2025-07-28T18:00:00.000Z"
-        },
-        "Sts": {
-          "Conf": "CNCL"
-        },
-        "CxlDtls": {
-          "OrgnlPmtInfAndSts": [
-            {
-              "TxInfAndSts": [
-                {
-                  "OrgnlEndToEndId": "IUV_DELLA_RICHIESTA_ORIGINALE",
-                  "TxCxlSts": "ACCR"
-                }
-              ]
-            }
-          ]
-        }
-      }
-    }
-  }
-}
-```
-
-Questo payload andrà inviato all'endpoint di `callback` per completare il processo di cancellazione.
+1. **Viene identificata la richiesta originale:** Si userà il `sepaRequestToPayRequestResourceId` ricevuto nel path e i dati di correlazione all'interno del messaggio (es. `OrgnlEndToEndId`) per individuare la richiesta di pagamento da annullare nel sistema.
+2. **Viene aggiornato lo stato:** occorre modificare lo stato della richiesta nell'applicazione, mostrandola all'utente come "Annullata" o "Già pagata". Questo è un passaggio cruciale per impedire all'utente di tentare un pagamento non più dovuto.
+3. **Rispondere alla chiamata**: viene inviata una risposta sincrona con status code **`204 No Content`** per confermare la cancellazione.
