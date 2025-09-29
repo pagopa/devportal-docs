@@ -207,6 +207,11 @@ Notifiche di atti relativi a procedimenti inerenti a richieste di cittadinanza
 * Codice`040201N` - **Comunicazione di avvio del procedimento** 
 Costituzione in mora – Comunicazione di avvio del procedimento
 
+### 0403 - **Arma dei Carabinieri**
+
+* Codice`040301P` - **Procedimento di recupero stipendiale** 
+Tutte le tipologie di comunicazioni
+
 
 ##  05 - Previdenza
 
@@ -705,6 +710,15 @@ Atto di ingiunzione alla restituzione del finanziamento e/o contributo concesso 
 </tr>
 <tr>
     <td colspan="4">Costituzione in mora – Comunicazione di avvio del procedimento</td>
+</tr>
+<tr>
+    <td rowspan="2"><strong>040301P</strong></td>
+    <td>04 - Ministeri</td>
+    <td>03 - Arma dei Carabinieri</td>
+    <td>Procedimento di recupero stipendiale</td>
+</tr>
+<tr>
+    <td colspan="4">Tutte le tipologie di comunicazioni</td>
 </tr>
 <tr>
     <td rowspan="2"><strong>050101P</strong></td>
