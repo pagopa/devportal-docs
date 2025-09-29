@@ -77,7 +77,7 @@ Tutte le tipologie di comunicazione che non prevedono un pagamento correlato (es
 Tutte le tipologie di comunicazione relative al sollecito di pagamento servizi scolastici (es. mense, trasporto, rette, pre post scuola etc...)
 
 * Codice`010401N` - **Notifiche Atti Servizi Scolastici** 
-Tutte le tipologie di comunicazione relative alla notifica degli atti di pagamento servizi scolastici (es. mense, trasporto, rette, pre post scuola etc...)
+Tutte le tipologie di comunicazione relative alla notifica degli atti relativi ai servizi scolastici (es. mense, trasporto, rette, pre post scuola etc...)
 
 ### 0105 - **Anagrafe**
 
@@ -488,7 +488,7 @@ Atto di ingiunzione alla restituzione del finanziamento e/o contributo concesso 
     <td>Notifiche Atti Servizi Scolastici</td>
 </tr>
 <tr>
-    <td colspan="4">Tutte le tipologie di comunicazione relative alla notifica degli atti di pagamento servizi scolastici (es. mense, trasporto, rette, pre post scuola etc...)</td>
+    <td colspan="4">Tutte le tipologie di comunicazione relative alla notifica degli atti relativi ai servizi scolastici (es. mense, trasporto, rette, pre post scuola etc...)</td>
 </tr>
 <tr>
     <td rowspan="2"><strong>010501N</strong></td>
