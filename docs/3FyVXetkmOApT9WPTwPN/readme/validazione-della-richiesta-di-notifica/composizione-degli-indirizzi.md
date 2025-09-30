@@ -1,35 +1,49 @@
 ---
-description: In questa pagina viene indicata la corretta formattazione degli indirizzi
+description: In questa pagina viene indicata la corretta formattazione degli indirizzi.
 ---
 
 # Composizione degli indirizzi
 
-## Regole sulla lunghezza
+## Premessa
 
-* Riga1: **denomination** (massimo 44)
-* Riga2: **at** + " " + **municipalityDetails** (il totale non può superare 44)
-* Riga3: **addressDetails** (massimo 44)
-* Riga4: **address** (massimo 44)
-* Riga5:
-  * Per Italia: **zip** + " " + **municipality**' (massimo 35) + " " + **province** (massimo 2) (il totale non può superare 44)
-  * Per Estero: **zip** + " " + **municipality**' (massimo 35) + " " + province (il totale non può superare 44)
-* Riga6: **foreignState** (massimo 44)
+La corretta composizione di un indirizzo di destinazione, per il recapito di una corrispondenza cartacea, passa attraverso il soddisfacimento di due aspetti fondamentali per gli operatori postali:
 
-## Formattazione corretta
+* Completezza del contenuto&#x20;
+* Rispetto della struttura
 
-Per consentire ad una notifica di essere accettata l'indirizzo deve contenere le informazioni contenute nella seguente tabella:
+## Definizioni e regole sulla lunghezza
 
-<table><thead><tr><th width="100">Riga</th><th>Nome Riga</th><th>Descrizione</th><th>Obbligatoria</th></tr></thead><tbody><tr><td>1</td><td>DEST</td><td><strong>Destinatario</strong><br>Titolo, nome e cognome o Ragione Sociale</td><td>SI</td></tr><tr><td>2</td><td>AGG</td><td><strong>Aggiuntive</strong><br>Informazioni per specificare meglio il destinatario</td><td>NO</td></tr><tr><td>3</td><td>EDIF</td><td><strong>Edificio</strong><br>Informazioni sull'edificio(scala, interno, ecc..)</td><td>NO</td></tr><tr><td>4</td><td>IND</td><td><p> </p><p><strong>Indirizzo</strong></p><p>Contiene nell'ordine il qualificatore (via, corso, piazza..),</p><p>il nome della via, Il numero civico</p><p>In alternativa la CASELLA POSTALE, LOCALITA</p></td><td>SI</td></tr><tr><td>5</td><td>LOC</td><td><p><strong>Località</strong><br>Contiene nell'ordine il CAP, la località di destinazione e la sigla della provincia.</p><p>Tutte le informazioni sono obbligatorie.</p></td><td>SI</td></tr><tr><td>6</td><td>EST</td><td><p><strong>Stato Estero</strong></p><p>Contiene esclusivamente lo Stato estero di destinazione.</p></td><td>Solo se invio estero</td></tr></tbody></table>
+SEND fornisce campi specifici per gli Enti mittenti al fine di gestire le notifiche, consentendo di inserire tutti gli elementi necessari per il recapito al destinatario. È essenziale interpretare e compilare correttamente questi campi per la corretta accettazione della notifica e per assicurare il successo della consegna al destinatario.
 
-### Doppia Località in bi-lingua
+* **`denomination` (obbligatorio):** denominazione principale del destinatario (nome e cognome per persone fisiche, ragione sociale per persone giuridiche). La lunghezza massima accettata dalla piattaforma è **88** caratteri. La suddivisione del contenuto su più righe nella stampa dell'indirizzo sulla raccomandata è demandata al sistema di postalizzazione, secondo le specifiche previste e descritte in [logiche-di-stampa-indirizzo.md](logiche-di-stampa-indirizzo.md "mention").
+* **`at`** : denominazione secondaria, ed è destinato a contenere informazioni aggiuntive per identificare con maggiore precisione il destinatario, come "presso" o "alla c.a.". \
+  La lunghezza massima accettata dalla piattaforma è **88** caratteri.
+* **`municipality` (obbligatorio):** Comune di destinazione.
+* **`municipalityDetails` :** nome secondario della località di destinazione (frazione/località).&#x20;
+* **`address` (obbligatorio):** indirizzo del domicilio fisico. Vanno inseriti il qualificatore (via, piazza, viale...), il nome (toponimo) e il civico dell'indirizzo stradale. \
+  In alternativa, può essere indicata la Casella Postale. **Attenzione**: in quest'ultimo caso va popolato anche il campo `addressDetails` con la denominazione dell'ufficio postale in cui è ubicata la Casella, preceduta dalla dicitura "UFFICIO".&#x20;
+* **`addressDetails`**: dedicato alle informazioni aggiuntive sull'ubicazione (es. scala, palazzina, isolato, stabile...) che facilitano l'identificazione del punto di recapito, specialmente per unità abitative complesse.
+* **`zip` (obbligatorio):** ripartizione territoriale postale del Paese di riferimento (CAP per l'Italia). È valorizzabile fino a **5** caratteri.&#x20;
+* **`province` (obbligatorio):** Sigla della provincia di appartenenza del Comune, per un massimo di **2** caratteri.
+* **`foreignState` :** Denominazione dello Stato estero, obbligatoria nel caso di destinazione diverse da Italia, Città del Vaticano e San Marino.
 
-Le presenza di doppia località, in bilingue, va terminata con il **punto ('.')** per ognuna, oppure separate da **uno spazio vuoto ('blank')**.
+### Doppia località in bilingue
 
-Ad esempio:
+Il bilinguismo è gestito dal recapitista e dal sistema di normalizzazione esclusivamente per la lingua tedesca nella provincia di Bolzano (BZ), nei seguenti campi:
+
+* Comuni (`municipality`)
+* Frazioni/località (`municipalityDetails`)
+* Strade (`address`)
+
+È quindi possibile popolare questi campi indifferentemente con la dicitura italiana o tedesca.\
+Per il solo campo `municipality`  è possibile indicare il nome del Comune in entrambe le lingue: ciascuna dicitura deve terminare con un punto (`.`), oppure devono essere separate da uno spazio vuoto (`blank`). Ad esempio:
 
 `"municipality": "SAN LORENZO DI SEBATO. ST. LORENZEN."`
 
-`"municipality": "ALDINO. ALDEIN."`
+`"municipality": "ALDINO ALDEIN."`
+
+In questo caso, il normalizzatore restituirà la sola dicitura in italiano. \
+&#x20;
 
 
 
