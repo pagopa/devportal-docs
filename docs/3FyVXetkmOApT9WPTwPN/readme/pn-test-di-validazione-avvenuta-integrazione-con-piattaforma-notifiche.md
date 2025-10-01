@@ -16,7 +16,7 @@ dove vengono descritti di diversi scenari di integrazione e le due diverse possi
 
 #### Validazione dei test lato Partner
 
-In questa fase il report dovrà essere prodotto dal Partner Tecnologico utilizzando la propria soluzione di integrazione verso le API esposte dal tool PN-Validator allo scopo di produrre un report convalidato, che dovrà essere copiato all’interno di un file JSON e condiviso con il Team Supporto Enti ([pn-supporto-enti@pagopa.it](mailto:pn-supporto-enti@pagopa.it)) che provvederà a verificarne lo stato.
+In questa fase il report dovrà essere prodotto dal Partner Tecnologico utilizzando la propria soluzione di integrazione verso le API esposte dal tool PN-Validator allo scopo di produrre un report convalidato, che dovrà essere copiato all’interno di un file JSON e condiviso con il Team Supporto Enti ([https://pagopa.atlassian.net/servicedesk/customer/portal/5/group/28/create/150](https://pagopa.atlassian.net/servicedesk/customer/portal/5/group/28/create/150)) che provvederà a verificarne lo stato.
 
 #### Validazione dei test lato Enti
 

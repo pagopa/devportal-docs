@@ -16,7 +16,7 @@ openapi-generator-cli generate -i <urlFileSwagger> -g <lang> -o <dest>
 
 sostituendo:
 
-* **\<urlFileSwagger>:** con la url del file Swagger del quale si vuole generare il client. E' possibile utilizzare: [https://raw.githubusercontent.com/pagopa/pn-delivery/v2.1.0/docs/openapi/api-external-b2b-pa-bundle.yaml](https://raw.githubusercontent.com/pagopa/pn-delivery/v2.1.0/docs/openapi/api-external-b2b-pa-bundle.yaml)​​
+* **\<urlFileSwagger>:** con la url del file Swagger del quale si vuole generare il client. E' possibile utilizzare: [https://raw.githubusercontent.com/pagopa/pn-delivery/main/docs/openapi/api-external-b2b-pa-bundle.yaml](https://raw.githubusercontent.com/pagopa/pn-delivery/main/docs/openapi/api-external-b2b-pa-bundle.yaml)​​
 * **\<lang>:** con il linguaggio per il quale si vuole generare il client
 * **\<dest>:** con il path nel quale si vuole generare il client
 
@@ -26,7 +26,7 @@ E' anche possibile utilizzare il [pn-b2b-client](https://github.com/pagopa/pn-b2
 
 #### Importare le definizioni delle API su Postman <a href="#importare-le-definizioni-delle-api-su-postman" id="importare-le-definizioni-delle-api-su-postman"></a>
 
-Per importare le definizioni su Postman bisogna cliccare su "import", poi selezionare "Link" ed inserire il seguente url: [https://raw.githubusercontent.com/pagopa/pn-delivery/v2.1.0/docs/openapi/api-external-b2b-pa-bundle.yaml](https://raw.githubusercontent.com/pagopa/pn-delivery/v2.1.0/docs/openapi/api-external-b2b-pa-bundle.yaml)​Poi modificare i seguenti parametri delle collections ottenute:
+Per importare le definizioni su Postman bisogna cliccare su "import", poi selezionare "Link" ed inserire il seguente url: [​](https://raw.githubusercontent.com/pagopa/pn-delivery/main/docs/openapi/api-external-b2b-pa-bundle.yaml)[https://raw.githubusercontent.com/pagopa/pn-delivery/main/docs/openapi/api-external-b2b-pa-bundle.yaml](https://raw.githubusercontent.com/pagopa/pn-delivery/main/docs/openapi/api-external-b2b-pa-bundle.yaml)Poi modificare i seguenti parametri delle collections ottenute:
 
 {% content-ref url="integrazione-send-pdnd-interoperabilita/creazione-richiesta-di-fruizione-generazione-voucher-per-send-uat-piattaforma-notifiche.md" %}
 [creazione-richiesta-di-fruizione-generazione-voucher-per-send-uat-piattaforma-notifiche.md](integrazione-send-pdnd-interoperabilita/creazione-richiesta-di-fruizione-generazione-voucher-per-send-uat-piattaforma-notifiche.md)
