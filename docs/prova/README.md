@@ -15,3 +15,16 @@
 test
 {% endhint %}
 
+{% stepper %}
+{% step %}
+### Step 1
+
+Ciao ciao
+{% endstep %}
+
+{% step %}
+### Step 2
+
+Ciao ciao
+{% endstep %}
+{% endstepper %}
