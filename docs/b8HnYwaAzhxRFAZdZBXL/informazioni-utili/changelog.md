@@ -6,9 +6,80 @@ description: >-
 
 # Changelog
 
+
+
+<details>
+
+<summary>Ottobre 2025</summary>
+
+### 2.6.0
+
+**1 ottobre**
+
+* Gestione SCEC-GSP a partire dalle informazioni su IPA\
+
+
+</details>
+
+<details>
+
+<summary>Settembre 2025</summary>
+
+### 2.5.3
+
+**30 settembre**
+
+* Aggiornata dichiarazione di accessibilità
+* Bugfixing
+
+### 2.5.2
+
+**29 settembre**
+
+* Bugfixing
+
+### 2.5.1
+
+**15 settembre**
+
+* Bugfixing
+
+### 2.5.0
+
+**8 settembre**
+
+* [Terzo rilascio API v. 2](https://www.interop.pagopa.it/news/api-v2-terzo-rilascio)
+* Bugfixing
+
+### 2.2.4
+
+**4 settembre**
+
+* Config
+
+### 2.2.3
+
+**2 settembre**
+
+* Bugfixing
+
+</details>
+
 <details>
 
 <summary>Agosto 2025</summary>
+
+### 2.2.2
+
+**26 agosto**
+
+* Bugfixing
+
+### 2.2.1
+
+**6 agosto**
+
+* Bugfixing
 
 ### 2.2.0
 
