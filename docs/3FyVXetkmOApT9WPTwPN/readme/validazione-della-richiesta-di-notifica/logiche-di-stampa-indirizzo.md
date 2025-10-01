@@ -21,21 +21,32 @@ I dati obbligatori possono essere riportati su un minimo di 3 righe, così come 
 * Riga 2: `address`&#x20;
 * Riga 3: `zip` + `municipality` + `province`&#x20;
 
-<kbd>GIOVANNI NOTO</kbd>           \
-<kbd>VIA DELLA REPUBBLICA 100</kbd>\ <kbd>13900 BIELLA BI</kbd>
+`GIOVANNI NOTO`\
+`VIA DELLA REPUBBLICA 100`\
+`13900 BIELLA BI`
 
 Se il campo `denomination` supera i 44 caratteri, i restanti vengono riportati in seconda riga, per un totale di 4 righe. Nell'esempio di seguito, `denomination` è stato valorizzato con "CONSORZIO PER LA PROMOZIONE DEL MARCHIO STORICO DEI VINI REGGIANI":&#x20;
 
-<kbd>CONSORZIO PER LA PROMOZIONE DEL MARCHIO STOR</kbd>\ <kbd>ICO DEI VINI REGGIANI</kbd>\ <kbd>VIA CRISPI 3</kbd>\ <kbd>42121 REGGIO EMILIA RE</kbd>
+`CONSORZIO PER LA PROMOZIONE DEL MARCHIO STOR`\
+`ICO DEI VINI REGGIANI`\
+`VIA CRISPI 3`\
+`42121 REGGIO EMILIA RE`
 
 Le prime due righe dell’indirizzo sono valorizzabili complessivamente fino a 88 caratteri. Nell’esempio di seguito, il campo `at` è valorizzato con “ALLA C.A. GIOVANNI NOTO”, ma, avendo raggiunto il limite massimo di caratteri, la dicitura viene troncata:
 
-<kbd>CONSORZIO PER LA PROMOZIONE DEL MARCHIO STOR</kbd>\ <kbd>ICO DEI VINI REGGIANI ALLA C.A. GIOVANNI NOT</kbd>\ <kbd>VIA CRISPI 3</kbd>\ <kbd>42121 REGGIO EMILIA RE</kbd>
+`CONSORZIO PER LA PROMOZIONE DEL MARCHIO STOR`\
+`ICO DEI VINI REGGIANI ALLA C.A. GIOVANNI NOT`\
+`VIA CRISPI 3`\
+`42121 REGGIO EMILIA RE`
 
 Nel caso di presenza delle informazioni secondarie di ubicazione (`addressDetails`) e/o del nome secondario della località di destinazione (`municipalityDetails`), questi dati vengono stampati sulla riga immediatamente precedente quella di `address`. Nell'esempio che segue, i due campi sono stati valorizzati con
 
 * `addressDetails`: EDIFICIO A SCALA B PALAZZINA 12
 * `municipalityDetails`: RIVALTA
 
-<kbd>CONSORZIO PER LA PROMOZIONE DEL MARCHIO STOR</kbd>\ <kbd>ICO DEI VINI REGGIANI ALLA C.A. GIOVANNI NOT</kbd>\ <kbd>EDIFICIO A SCALA B PALAZZINA 12 RIVALTA</kbd>\ <kbd>VIA CRISPI 3</kbd>\ <kbd>42121 REGGIO EMILIA RE</kbd>
+`CONSORZIO PER LA PROMOZIONE DEL MARCHIO STOR`\
+`ICO DEI VINI REGGIANI ALLA C.A. GIOVANNI NOT`\
+`EDIFICIO A SCALA B PALAZZINA 12 RIVALTA`\
+`VIA CRISPI 3`\
+`42121 REGGIO EMILIA RE`
 
