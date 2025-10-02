@@ -1,4 +1,4 @@
-# Test link - prova di sync
+# Links
 
 ## Tutti i tipi di link in Gitbook
 
@@ -26,6 +26,6 @@ Link inline alla pagina [delle Best Practices](https://app.gitbook.com/s/PJuzswk
 link inline all'anchor [dedicato ai Payment Token](https://app.gitbook.com/s/PJuzswk8l2kp9Wm5PwAW/prestatore-di-servizi-di-pagamento/modalita-di-integrazione/best-practice#title-text)\
 (questo è il componente **link** che punta a un'_**anchor**_, creato selezionando il testo, e nelle parentesi quadre troviamo il testo selezionato ✅)
 
-[link a titolo in H1](../7IUU7kdDC1nwPxZmd2m3/broken-reference/)
+[link a titolo in H1](../../7IUU7kdDC1nwPxZmd2m3/broken-reference/)
 
-[link a titolo in H2](readme/prova-articolo-1.md#titolo-in-h2)
+[link a titolo in H2](broken-reference)
