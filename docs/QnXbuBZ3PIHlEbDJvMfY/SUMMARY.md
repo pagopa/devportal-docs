@@ -32,15 +32,12 @@
   * [Come inviare una richiesta di fruizione tramite API](tutorial/tutorial-per-il-fruitore/come-inviare-una-richiesta-di-fruizione-tramite-api.md)
   * [Come creare una finalità tramite API](tutorial/tutorial-per-il-fruitore/come-creare-una-finalita-tramite-api.md)
   * [Come aggiornare la stima di carico tramite API](tutorial/tutorial-per-il-fruitore/come-aggiornare-la-stima-di-carico-tramite-api.md)
-
-***
-
-* [Tutorial Generali](tutorial-generali/README.md)
-  * [Come accedere al back-office](tutorial-generali/come-accedere-al-back-office.md)
-  * [Come creare e revocare gli utenti Amministratori](tutorial-generali/come-creare-e-revocare-gli-utenti-amministratori.md)
-  * [Come creare e revocare gli utenti Operatori](tutorial-generali/come-creare-e-revocare-gli-utenti-operatori.md)
-  * [Come rendersi disponibili a ricevere deleghe](tutorial-generali/come-rendersi-disponibili-a-ricevere-deleghe.md)
-  * [Come conferire una delega a un altro ente](tutorial-generali/come-conferire-una-delega-a-un-altro-ente.md)
+* [Tutorial Generali](tutorial/tutorial-generali/README.md)
+  * [Come accedere al back-office](tutorial/tutorial-generali/come-accedere-al-back-office.md)
+  * [Come creare e revocare gli utenti Amministratori](tutorial/tutorial-generali/come-creare-e-revocare-gli-utenti-amministratori.md)
+  * [Come creare e revocare gli utenti Operatori](tutorial/tutorial-generali/come-creare-e-revocare-gli-utenti-operatori.md)
+  * [Come rendersi disponibili a ricevere deleghe](tutorial/tutorial-generali/come-rendersi-disponibili-a-ricevere-deleghe.md)
+  * [Come conferire una delega a un altro ente](tutorial/tutorial-generali/come-conferire-una-delega-a-un-altro-ente.md)
 
 ## Riferimenti tecnici
 

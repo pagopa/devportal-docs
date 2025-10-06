@@ -36,9 +36,9 @@ L'Amministratore può creare nuovi utenti Operatori o altri Amministratori diret
 {% hint style="info" %}
 Segui i tutorial dedicati:
 
-→ [**Come creare e revocare gli utenti Amministratori**](../tutorial-generali/come-creare-e-revocare-gli-utenti-amministratori.md)
+→ [**Come creare e revocare gli utenti Amministratori**](../tutorial/tutorial-generali/come-creare-e-revocare-gli-utenti-amministratori.md)
 
-→ [**Come creare e revocare gli utenti Operatori**](../tutorial-generali/come-creare-e-revocare-gli-utenti-operatori.md)
+→ [**Come creare e revocare gli utenti Operatori**](../tutorial/tutorial-generali/come-creare-e-revocare-gli-utenti-operatori.md)
 {% endhint %}
 
 ### Checklist per la Configurazione Iniziale
