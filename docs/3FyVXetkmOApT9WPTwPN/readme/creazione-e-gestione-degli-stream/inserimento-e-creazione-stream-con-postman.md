@@ -26,7 +26,7 @@ All'interno del **filterValues** è possibile inserire un array di eventi di tip
 \
 Aprire la scheda **Crea nuovo stream di eventi** ed inserire nel body il seguente payload:
 
-<figure><img src="../../.gitbook/assets/image (50).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (57).png" alt=""><figcaption></figcaption></figure>
 
 **-NOTA:** sostituire i seguenti:
 
@@ -54,7 +54,7 @@ Nella response di questo servizio, si otterrà il seguente payload:\
 La prima interrogazione dello stream permetterà di ricevere i primi 50 eventi registrati dallo stream. \
 Aprire la scheda **Leggi progressi notifiche** e riprodurre questa configurazione:
 
-<figure><img src="../../.gitbook/assets/image (53).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (58).png" alt=""><figcaption></figcaption></figure>
 
 **NOTA:** sostituire i seguenti:
 
@@ -82,7 +82,7 @@ E' quindi fondamentale rispettare la logica che viene rappresentata dal campo "_
 Dalle interrogazioni successive alla prima dello stream, si otterranno i 50 eventi successivi a quello del lastEventId (l'eventId dell'ultimo evento ottenuto nelle precedenti chiamate).\
 Aprire la scheda **Leggi progressi notifiche** e riprodurre questa configurazione:
 
-<figure><img src="../../.gitbook/assets/image (54).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (59).png" alt=""><figcaption></figcaption></figure>
 
 **NOTA:** sostituire i seguenti:
 

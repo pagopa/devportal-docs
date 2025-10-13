@@ -76,7 +76,7 @@ Dopo aver lanciato la richiesta per entrambi ed aver ottenuto esito positivo, bi
 
 A questo punto è possibile effettuare l'inserimento della Notifica nella scheda **Richiesta invio notifica**, inserendo correttamente il body della request:
 
-<figure><img src="../../.gitbook/assets/image (32).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (56).png" alt=""><figcaption></figcaption></figure>
 
 **NOTA:**
 
