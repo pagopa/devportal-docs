@@ -22,7 +22,7 @@ All'interno del **filterValues** è possibile inserire un array di eventi di tip
 Lanciare il seguente comando:
 
 ```bash
-curl --location 'https://<baseurlAmbiente>/delivery-progresses/v2.3/streams' \
+curl --location 'https://<baseurlAmbiente>/delivery-progresses/v2.8/streams' \
 --header 'Content-Type: application/json' \
 --header 'Accept: application/json' \
 --header 'x-api-key: <apiKey>' \
@@ -82,7 +82,7 @@ La prima interrogazione dello stream permetterà di ricevere i primi 50 eventi r
 Lanciare il seguente comando:
 
 ```bash
-curl --location 'https://<baseurlAmbiente>/delivery-progresses/v2.3/streams/<streamId>/events' \
+curl --location 'https://<baseurlAmbiente>/delivery-progresses/v2.8/streams/<streamId>/events' \
 --header 'Accept: application/json' \
 --header 'x-api-key: <apiKey>' \
 --header 'Authorization: Bearer <PDNDVoucher>' \
@@ -144,7 +144,7 @@ Anche in questo caso è importante lanciare la curl con il **--verbose** che per
 Lanciare il seguente comando:
 
 ```bash
-curl --location 'https://<baseurlAmbiente>/delivery-progresses/v2.3/streams/<streamId>/events?lastEventId=<lastEventId>' \
+curl --location 'https://<baseurlAmbiente>/delivery-progresses/v2.8/streams/<streamId>/events?lastEventId=<lastEventId>' \
 --header 'Accept: application/json' \
 --header 'x-api-key: <api-key>' \
 --header 'Authorization: Bearer <PDNDVoucher>' \
