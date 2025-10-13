@@ -1,14 +1,14 @@
 # Headings
 
-## Titolo in H1
+## Titolo in H2
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sed ullamcorper nisi, ut lobortis lacus. Maecenas pretium hendrerit turpis id mollis. Curabitur viverra feugiat arcu, ut lacinia est dapibus sit amet. Pellentesque sapien dui, tempus eu aliquam sed, aliquet vel metus. Aliquam erat volutpat. Duis in ligula non metus tempus condimentum ut ac ligula. Etiam ut velit purus. Aliquam at est aliquam, porta tortor quis, fringilla ipsum.
 
-### Titolo in H2
+### Titolo in H3
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sed ullamcorper nisi, ut lobortis lacus. Maecenas pretium hendrerit turpis id mollis. Curabitur viverra feugiat arcu, ut lacinia est dapibus sit amet. Pellentesque sapien dui, tempus eu aliquam sed, aliquet vel metus. Aliquam erat volutpat. Duis in ligula non metus tempus condimentum ut ac ligula. Etiam ut velit purus. Aliquam at est aliquam, porta tortor quis, fringilla ipsum.
 
-#### Titolo in H3
+#### Titolo in H4
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sed ullamcorper nisi, ut lobortis lacus. Maecenas pretium hendrerit turpis id mollis. Curabitur viverra feugiat arcu, ut lacinia est dapibus sit amet. Pellentesque sapien dui, tempus eu aliquam sed, aliquet vel metus. Aliquam erat volutpat. Duis in ligula non metus tempus condimentum ut ac ligula. Etiam ut velit purus. Aliquam at est aliquam, porta tortor quis, fringilla ipsum.
 
