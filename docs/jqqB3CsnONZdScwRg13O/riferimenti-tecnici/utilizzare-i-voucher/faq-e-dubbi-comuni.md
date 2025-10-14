@@ -29,7 +29,7 @@ Se la catena risulta valida, lo strumento verifica poi che:
 
 #### Tipi di dato previsti
 
-<table><thead><tr><th width="586.046875">Campo</th><th>Tipo di dato</th></tr></thead><tbody><tr><td><code>kid</code>, <code>alg</code>, <code>typ</code>, <code>iss</code>, <code>sub</code>, <code>aud</code>, <code>jti</code>, <code>purposeId</code>, <code>digest.alg</code>, <code>digest.value</code></td><td>stringa</td></tr><tr><td><code>iat</code>, <code>exp</code></td><td>long integer</td></tr></tbody></table>
+<table><thead><tr><th width="522.5343627929688">Campo</th><th>Tipo di dato</th></tr></thead><tbody><tr><td><code>kid</code>, <code>alg</code>, <code>typ</code>, <code>iss</code>, <code>sub</code>, <code>aud</code>, <code>jti</code>, <code>purposeId</code>, <code>digest.alg</code>, <code>digest.value</code></td><td>stringa</td></tr><tr><td><code>iat</code>, <code>exp</code></td><td>long integer</td></tr></tbody></table>
 
 Un **esempio pratico di client assertion** è disponibile nel [tutorial dedicato](../../tutorial/tutorial-per-il-fruitore/come-richiedere-un-voucher-bearer-per-le-api-di-un-erogatore-base.md#il-flusso-in-breve-2) allo stacco del voucher.
 

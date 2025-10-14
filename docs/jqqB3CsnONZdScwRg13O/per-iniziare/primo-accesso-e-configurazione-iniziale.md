@@ -44,8 +44,7 @@ L'amministratore può creare nuovi utenti operatori o altri amministratori diret
 {% hint style="info" %}
 Segui i tutorial dedicati:
 
-[→ **Come creare e revocare gli utenti amministratori**](../tutorial/tutorial-generali/come-creare-e-revocare-gli-utenti-amministratori.md)
-
+[→ **Come creare e revocare gli utenti amministratori**](../tutorial/tutorial-generali/come-creare-e-revocare-gli-utenti-amministratori.md)\
 [→ **Come creare e revocare gli utenti operatori**](../tutorial/tutorial-generali/utenze.md)
 {% endhint %}
 

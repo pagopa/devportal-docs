@@ -8,7 +8,7 @@ I client e-service sono destinati ad essere associati alle proprie finalità e a
 
 I **client API Interoperabilità** sono invece destinati a interagire con le [API della piattaforma](../../riferimenti-tecnici/api-della-piattaforma/).
 
-Dal back office andare alla voce di menu _**Gestione dei client > API e-service**_ oppure _**Gestione dei client > API Interoperabilità**_ e poi _**Crea nuovo**_.
+Dal front office andare alla voce di menu _**Gestione dei client > API e-service**_ oppure _**Gestione dei client > API Interoperabilità**_ e poi _**Crea nuovo**_.
 
 ## Step 2 - Assegnare un nome e una descrizione&#x20;
 

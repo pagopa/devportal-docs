@@ -38,7 +38,7 @@ Da eseguire se l'e-service richiede il possesso di uno o più attributi verifica
 ### Step 1 - Assegnazione di un attributo verificato al fruitore
 
 {% hint style="warning" %}
-Questo endpoint non è ancora disponibile, sarà rilasciato prossimamente. È comunque possibile eseguire l'operazione manualmente dal back office. Per maggiori informazioni, si veda la [sezione dedicata](../../riferimenti-tecnici/attributi/).
+Questo endpoint non è ancora disponibile, sarà rilasciato prossimamente. È comunque possibile eseguire l'operazione manualmente dal front office. Per maggiori informazioni, si veda la [sezione dedicata](../../riferimenti-tecnici/attributi/).
 {% endhint %}
 
 L'assegnazione richiede il riferimento all'Agreement per il quale è necessario l'attributo.

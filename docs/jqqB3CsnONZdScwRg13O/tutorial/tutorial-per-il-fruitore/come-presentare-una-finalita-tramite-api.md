@@ -27,7 +27,7 @@ POST /purposes
 }
 ```
 
-Nota: attraverso il [back office](https://selfcare.pagopa.it/) di PDND Interoperabilità è disponibile uno strumento per sviluppatori che permette di generare il valore del campo `riskAnalysisForm` a partire dalla compilazione visuale del form. È disponibile sotto _Tool per lo sviluppo > Export analisi del rischio_.
+Nota: attraverso il [front office](https://selfcare.pagopa.it/) di PDND Interoperabilità è disponibile uno strumento per sviluppatori che permette di generare il valore del campo `riskAnalysisForm` a partire dalla compilazione visuale del form. È disponibile sotto _Tool per lo sviluppo > Export analisi del rischio_.
 
 La richiesta di creazione, se andata a buon fine, produce una Purpose con una versione in bozza.
 

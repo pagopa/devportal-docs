@@ -23,7 +23,7 @@ Infine, è possibile rivedere e inoltrare la delega.
 {% hint style="info" %}
 Si ricorda sempre che il delegante deve nominare il delegato Responsabile del Trattamento dei Dati Personali ai sensi della GDPR per tutti quei casi nei quali il delegato abbia accesso a dati del delegante o di terzi per conto del delegante.
 
-Una finestra di dialogo nel back office ricorderà questo adempimento alle parti all'atto della sottoscrizione della delega.
+Una finestra di dialogo nel front office ricorderà questo adempimento alle parti all'atto della sottoscrizione della delega.
 {% endhint %}
 
 ***

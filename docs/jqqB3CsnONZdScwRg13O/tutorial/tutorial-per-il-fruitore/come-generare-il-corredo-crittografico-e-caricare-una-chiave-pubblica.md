@@ -18,7 +18,7 @@ La chiave privata (`.priv`) rimane all'aderente, il quale la deve mantenere al s
 
 ## Step 2 - Caricare la chiave pubblica
 
-Bisogna entrare nel client di interesse dal back office, nella sezione _**Gestione dei client > API e-service**_\*, e poi entrare nel client di interesse.&#x20;
+Bisogna entrare nel client di interesse dal front office, nella sezione _**Gestione dei client > API e-service**_\*, e poi entrare nel client di interesse.&#x20;
 
 Nella tab _**Chiavi Pubbliche**_, cliccare su _**Aggiungi**_. Se non è possibile farlo, è possibile che la tua utenze non sia censita tra i membri del client.
 

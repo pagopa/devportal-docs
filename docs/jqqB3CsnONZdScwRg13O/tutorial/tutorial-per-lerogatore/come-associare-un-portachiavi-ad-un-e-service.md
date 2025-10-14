@@ -4,7 +4,7 @@
 
 ## Step 1 - Accedere all'e-service di interesse
 
-Se si intende modificare uno o più portachiavi associati, il fruitore può andare dal back office su _**Erogazione > I miei e-service**_, trovare l'e-service desiderato e cliccare su _**Visualizza**_.&#x20;
+Se si intende modificare uno o più portachiavi associati, il fruitore può andare dal front office su _**Erogazione > I miei e-service**_, trovare l'e-service desiderato e cliccare su _**Visualizza**_.&#x20;
 
 ## Step 2 - Associare il portachiavi all'e-service
 
