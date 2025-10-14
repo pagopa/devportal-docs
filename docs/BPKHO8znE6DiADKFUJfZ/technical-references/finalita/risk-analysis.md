@@ -1,29 +1,34 @@
 # Risk analysis
 
-## Why complete it
+### What it is and what it is for
 
-The risk analysis questionnaire has been introduced in the PDND to implement the provisions contained in the GDPR, the General Data Protection Regulation. The Regulation was adopted by the European Union regarding the processing of personal data and privacy.
+The **risk analysis questionnaire** is a structured tool, **associated with each purpose**, through which the party that **receives the data** accurately describes the **purpose of processing**, **methods of access and use**, **data categories**, **retention periods**, and the **organizational and technical measures** applied.
 
-The risk analysis questionnaire has been reviewed by the Italian Data Protection Authority (Garante per la Protezione dei Dati Personali), which has given a favorable opinion.
+It serves to:
 
-## Who must complete it
+* **Document compliance** with the privacy framework (principle of _accountability_) and **formalize the declarant’s responsibilities**;
+* **Enable the producer** to assess the **consistency and lawfulness** of data consumption with respect to the requested e-service;
+* **Ensure traceability and transparency** of the declared operations, supporting the overall governance of the **National Digital Data Platform (PDND)**.
 
-The risk analysis must be completed by the party receiving the data from the other party, which, in GDPR terminology, is the _Data Controller_.
+### Why it must be completed
 
-The most common case in the _E-service Catalog_ is that of an e-service that provides data (direct provision — _read_ data from an e-service). In this case, it is the consumer that receives the data and must therefore complete the risk analysis.
+The **risk analysis questionnaire** has been introduced in the PDND to **implement the GDPR guidelines** on **personal data protection**. The **Italian Data Protection Authority (Garante per la protezione dei dati personali)** has **expressed a favorable opinion** on the questionnaire.
 
-In the case of an e-service that receives data (reverse provision — _write_ data to an e-service), it will be the producer who must complete the risk analysis. When the consumer creates a purpose for that e-service, they will have to select the use case that corresponds to the one for which they send data to the producer. The producer will be required to process the data in compliance with what is requested by the consumer in the selected risk analysis.
+### Who must complete it
 
-## Who is responsible?
+The **party receiving the data** from the other party — in GDPR terms, the **data controller** — **completes the risk analysis**.
 
-The responsibility for the statements made in the risk analysis always lies with the party making the declaration. This party is required to process the data in accordance with the statements made.
+* **Direct producing (the e-service produces data)**: the **consumer** receives the data and **completes** the risk analysis.
+* **Reverse producing (the e-service consumes data)**: the **producer** receives the data and **completes** the risk analysis.\
+  When the consumer **creates a purpose** for such an e-service, they **select the corresponding use case**; the producer **processes the data** in compliance with what is **declared in the selected purpose**.
 
-For this reason, it is mandatory that a purpose is always submitted by a user with the administrator role.
+The mode of the e-service is indicated in the essential information. More details are available in the [dedicated section](../e-services/#required-general-information).
 
-## How to complete it
+### Responsibility
 
-Completion varies from case to case. Some guidance and practices are discussed in the ANCI course dedicated to [Data Exchange through the PDND](https://www.accademiacomunidigitali.it/course/view.php?id=26) (Italian only).
+The **responsibility for the declarations** made in the risk analysis lies **with the party** that completes it, which **processes the data** in accordance with its own statements.\
+To ensure accuracy and traceability, the **purpose** must be **submitted** by a user with an **administrator role**.
 
-{% hint style="info" %}
-The new AgID Guidelines provide for a "simplified risk analysis" feature. This allows users to find and use partially or fully completed templates to submit their purposes. This feature is designed to support parties without dedicated technical staff. The release of this feature is scheduled by the end of 2025.
-{% endhint %}
+***
+
+Next page [→ Client](../client-e-materiale-crittografico/)

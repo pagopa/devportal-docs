@@ -2,7 +2,7 @@
 
 ## Preconditions
 
-To create new certified attributes, you must be accredited as a _Certifying Authority_. For more information, see the [dedicated section](../../../technical-references/attributi/certifying-authority.md).
+To create new certified attributes, you must be accredited as a _Certifying Authority_. For more information, see the [dedicated section](../../../technical-references/attributi/certifying-body.md).
 
 ## Step 1 - Access the back office
 

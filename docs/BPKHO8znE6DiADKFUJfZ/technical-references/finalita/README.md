@@ -1,12 +1,19 @@
 # Purposes
 
-A declaration that the consumer submits to detail their reasons and methods for accessing the information held by the producer, as well as for its processing. A purpose is normally associated with an e-service for which a consumer has an active service request.
+### What they are and what they are for
 
-## Essential information
+**Purposes** are **declarations** through which the **consumer** specifies the **reasons** and **methods** for accessing the information held by the **producer**, as well as the **data processing aspects**.\
+Each purpose is **associated** with an **e-service** for which the consumer has an **active service request**.
 
-* **The associated e-service**: which e-service, to which the party is subscribed, this purpose is intended to be used for. The declaration is binding, and the purpose cannot be used for other e-services.
-* **The name and description**: help the consumer navigate among the purposes they have submitted.
-* **The risk analysis**: the GDPR compliant questionnaire in which the goal, the methods of processing, and the retention of the data acquired are detailed. If the purpose is associated with an e-service that receives data, the risk analysis will be completed by the producer.
-* **The estimated load** intended to be placed on the producer’s infrastructure, i.e., the number of calls per day expected to be made to the API exposed by the e-service; this estimate can be updated at any time. For more details, see the [dedicated section](../e-services/thresholds-and-approvals.md).
-* **Any free-of-charge access and justification**: indicate whether access to the data is provided free of charge (for Public Administrations, this is always the case), and give the justification. For Public Administrations, the field is pre-filled with the wording "I am a Public Administration".
-* **The associated clients**: those through which a valid voucher can be obtained. Clients can only be associated with active purposes. For more details, see the [dedicated section](../client-e-materiale-crittografico/).
+### Essential information required
+
+* **Associated e-service**: Indicates **which e-service** (to which the party is subscribed) the purpose refers to. This **declaration is binding** — the purpose **cannot be used** for **other e-services**.
+* **Name and description**: Identify the purpose and **help the consumer navigate** among the purposes created.
+* **Risk analysis**: A questionnaire detailing the **purpose**, **processing methods**, and **retention** of the data being accessed. If the purpose is associated with an **e-service operating in receiving mode**, the **analysis** is **completed by the producer**.
+* **Load estimate**: The **estimated number of daily API calls** to the API exposed by the e-service; it can be **updated at any time**. More details are provided in the dedicated section.
+* **Free-of-charge title and motivation (if applicable)**: Indicates whether **data access** is **free of charge** and the corresponding **motivation**. For **Public Administrations**, the field is **pre-filled** with the statement _“I am a Public Administration.”_
+* **Associated clients**: The list of **clients** through which a **valid voucher** can be obtained. **Clients can be associated only with active purposes.** More details are available in the [dedicated section](../client-e-materiale-crittografico/).
+
+***
+
+Next page [→ Operations and lifecycle](operations-and-lifecycle.md)

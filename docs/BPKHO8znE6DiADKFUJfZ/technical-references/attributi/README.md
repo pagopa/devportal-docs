@@ -1,39 +1,45 @@
 # Attributes
 
-Attributes are characteristics that a party possesses, e.g., _being a Municipality_. Producers can use these attributes to restrict access to their e-services, effectively treating them as access requirements.
+### What they are and what they are for
 
-When creating a new e-service, the producer defines which attributes are required as a necessary condition for the consumer to submit a service request. If the consumer possesses— or can prove they meet — the requirements, they may register to access the e-service.
+**Attributes** are **characteristics** that a **party possesses** (for example, “being a Municipality”). **Producers** use them to **restrict access** to their **e-services**, treating them as **access requirements**.
 
-Attributes can be of three types:
+When **creating an e-service**, the producer **defines** the attributes **required** for a consumer to **submit a service request**. If the consumer **possesses** or can **prove possession** of these attributes, they can **subscribe** to consume the e-service.
 
-* **certified**: verified by an authoritative source;
-* **verified**: require verification by the producer;
-* **declared**: are self-declarations made by the consumer.
+### Grouping of attributes (groups)
 
-All attributes are grouped. If more than one attribute belongs to the same group, the consumer needs to possess only one to satisfy the access requirement.
+Attributes are organized into **groups**. When a **group** contains **multiple attributes**, it is sufficient for the consumer to **possess at least one** of them to meet the **access requirement**.
 
-For example, if an e-service requires a certified attribute group defined as _“Municipality”_ or _“Region”_, any party that has either certified attribute satisfies the requirement.
+**Example:** if an e-service requires an attribute group defined as “Municipality **or** Region,” any entity possessing either the **Municipality** or **Region** attribute satisfies the requirement.
 
-#### Certified attributes
+### Types of attributes
 
-These attributes rely on an authoritative source that certifies a member’s possession of a given attribute. This source is known as the **certifying authority** and is responsible for correctly validating the attribute.
+* **Certified**: attributes **certified** by an **authoritative source**.
+* **Verified**: attributes that **require verification** by the **producer**, according to its internal validation processes.
+* **Declared**: attributes **self-declared** by the **consumer** through an **explicit action**.
 
-For example, one of the attributes available in the IPA Catalog—which is a certifying authority—is _Municipalities and their Consortia and Associations_. If a producer includes this attribute among access requirements for an e-service, when a consumer submits a service request, PDND checks with the certifying authority to confirm the consumer actually possesses that attribute and reports the result on the platform.
+### Certified attributes
 
-For **public administrations** (**PAs**) and **public service providers** (**GSPs**), the main authoritative source is currently [IPA](https://indicepa.gov.it/ipa-portale/), the Italian Public Administration Index. The verification of these attributes for the consumer is performed automatically by PDND and cannot be overridden by PagoPA (the platform manager).
+Certification is based on an **authoritative source** called a **certifying body**; the **responsibility** for the **correct recognition** of the attribute lies with this body.
 
-If the consumer believes that IPA failed to recognize an attribute correctly, they must contact the service manager (AgID) directly to request a correction.
+**Operational example:** the **IPA Catalog** (authoritative source) provides the attribute “Municipalities and their Consortia and Associations” and the list of parties possessing it.
 
-For **private e-procurement managers**, the attribution depends on the certification [process](https://www.agid.gov.it/it/piattaforme/procurement/certificazione-componenti-piattaforme) of platform components published by AgID. Once completed, PDND is notified of the name of the party to associate with the certified attributes required by the producer. Similarly, PAs and public service providers wanting to have attributes recognized to access ANAC services must follow the AgID recognition process.
+* **Public Administrations (PA), Public Service Managers (GSP), Publicly Controlled Companies (SCP), Companies within the Consolidated Economic Account (SCEC):** the **main authoritative source** is [**IPA**](https://indicepa.gov.it/ipa-portale/); the **verification** of attribute possession is **automatic** on PDND. **Any updates** or **corrections** to attribute data must be **requested from the IPA manager (AgID)** according to the established procedures. The list is synchronized every 24 hours.
+* **Private e-procurement platform managers:** certification is based on the [**certification process**](https://www.agid.gov.it/it/piattaforme/procurement/certificazione-componenti-piattaforme) of components published by **AgID**; once completed, PDND is **notified** of the entity to which the **certified attributes** required by producers must be assigned.
+* **ANAC services:** Public Administrations and Public Service Managers seeking to **obtain** the attributes **required** to access **ANAC services** must follow the **recognition process** through **AgID**.
+* **Other certified attributes:** these are directly **assigned by parties to other parties** through the process dedicated to **certifying bodies**. More details are available in the [dedicated section](certifying-body.md).
 
-#### Verified attributes
+### Verified attributes
 
-Verification responsibility for these attributes lies with the producer and follows their own review processes.
+* The **verification** is **carried out by the producer**, according to its **internal validation processes**.
+* In the **draft** of the **service request**, the consumer must **upload any documentation** that can **support** the verification by the producer.
 
-In the draft version of the service request, the consumer can upload documentation to facilitate the producer’s verification.
+### Declared attributes
 
-#### Declared attributes
+* The **responsibility** lies **entirely with the declarant (consumer)**.
+* The producer may **require** one or more **declared attributes**; for each, the consumer must **explicitly declare possession** **before submitting** the **service request**.
+* The declaration is **recorded** on PDND as an **explicit action** through a mandatory click to activate the attribute; it is **not implicit**.
 
-Responsibility for this attribute type lies entirely with the declarant, i.e., the consumer.
+***
 
-A producer may require multiple declared attributes from the consumer. For each, the consumer must explicitly declare possession before submitting the service request. The declaration is recorded by PDND as a “click.” It is not implicit—it requires an explicit action by the consumer.
+Next page [→ Operations and lifecycle](operations-and-lifecycle.md)
