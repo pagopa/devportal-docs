@@ -53,14 +53,9 @@
 ## Technical references
 
 * [Glossary](technical-references/glossario.md)
-* [Back Office](technical-references/back-office/README.md)
-  * [Users](technical-references/back-office/utenze.md)
-* [APIs](technical-references/api-esposte-da-pdnd-interoperabilita/README.md)
-  * [v. 2](technical-references/api-esposte-da-pdnd-interoperabilita/v.-2/README.md)
-    * [Glossary](technical-references/api-esposte-da-pdnd-interoperabilita/v.-2/glossary.md)
-    * [Service request](technical-references/api-esposte-da-pdnd-interoperabilita/v.-2/service-request.md)
-    * [Purpose](technical-references/api-esposte-da-pdnd-interoperabilita/v.-2/purpose.md)
-  * [v. 1 (deprecated)](technical-references/api-esposte-da-pdnd-interoperabilita/v.-1-deprecated.md)
+* [Platform APIs](technical-references/api-esposte-da-pdnd-interoperabilita/README.md)
+  * [Service request (Agreement)](technical-references/api-esposte-da-pdnd-interoperabilita/service-request-agreement.md)
+  * [Purpose](technical-references/api-esposte-da-pdnd-interoperabilita/purpose.md)
 * [E-services](technical-references/e-services/README.md)
   * [Operations and lifecycle](technical-references/e-services/operations-and-lifecycle.md)
   * [Exporting and importing](technical-references/e-services/e-service.md)

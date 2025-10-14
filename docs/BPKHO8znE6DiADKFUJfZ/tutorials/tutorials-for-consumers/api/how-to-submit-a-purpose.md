@@ -25,7 +25,7 @@ POST /purposes
 }
 ```
 
-Note: through the PDND [back office](../../../technical-references/back-office/), a developer tool is available that allows generating the `riskAnalysisForm` field value starting from the visual compilation of the form. It is available under _**Developers Tools > Risk analysis export**_.
+Note: through the PDND [back office](broken-reference), a developer tool is available that allows generating the `riskAnalysisForm` field value starting from the visual compilation of the form. It is available under _**Developers Tools > Risk analysis export**_.
 
 If successful, the creation request produces a Purpose with a DRAFT version.
 

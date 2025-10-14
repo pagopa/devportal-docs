@@ -40,7 +40,7 @@ When a client is disassociated from a purpose, it is not deleted. It simply stop
 
 An administrator can always add new users to a client. Only users already registered in PDND can be added to clients.
 
-If you want to add a completely new user, it must first be registered on the Members Area platform. More information can be found in the [dedicated section](../back-office/utenze.md).
+If you want to add a completely new user, it must first be registered on the Members Area platform. More information can be found in the [dedicated section](broken-reference).
 
 ### Removing a user from a client
 

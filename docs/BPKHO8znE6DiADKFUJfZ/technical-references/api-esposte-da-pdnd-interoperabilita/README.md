@@ -1,17 +1,62 @@
-# APIs
+# Platform APIs
 
-PDND can also be accessed by invoking the APIs it exposes. The current version (v. 2) supports both read and write operations—mirroring the capabilities available through the graphical back-office interface.
+## What they are and what they are for
 
-To ensure the legitimacy of write operations, an administrator must be specified within your _**PDND API client**_. This user will serve as the user who is responsible, from an administrative standpoint, for all write actions executed via the APIs.
+The **PDND APIs** enable **application integration** with the platform, offering an alternative or complement to the **front office** for **automating** and **managing** the **producing** and **consuming** processes of e-services, in accordance with the party’s authorization profiles.
 
-Every API endpoint always returns the ID of the requested object, along with additional IDs that may be useful for subsequent calls. For example, if you request a service request, the response will also include the IDs of the associated e-service and the specific version of that e-service.
+## Current version
 
-## Notifications endpoint
+The **current version**, and the subject of this documentation, is **v.2**. For more details, see the [**OpenAPI specification**](https://developer.pagopa.it/pdnd-interoperabilita/api/pdnd-core-v2#/).
 
-The API also provides an events endpoint known as the "notifications endpoint." Subscribers can poll this endpoint to stay updated on all operations occurring within the platform—and potentially build automated triggers based on these events.
+## Prerequisites and roles
 
-For example: When a new version of an e-service of interest is published, an event is emitted via the notifications endpoint. Upon receiving this event, users could trigger an automation that sends the updated interface file to their email.
+Write operations require the **appointment** of one of the party’s **administrators** as the **client administrator** associated with the given configuration; the **permissions** assigned determine the actions allowed on each object.
 
-{% hint style="info" %}
-In v. 2, the notifications endpoint is currently under development, with release scheduled for early November 2025.
-{% endhint %}
+## Functional scope (v.2)
+
+Version 2 provides **read and write operations** on the platform’s main **domain objects**, in accordance with user permissions:
+
+* **E-services** and **versions** (creation, update, lifecycle management);
+* **Service requests** and **purposes** (submission, management, status);
+* **Clients**, **keys**, and **security operators** (association, cryptographic material management);
+* **Attributes** and **risk analyses** (compilation and management where required).
+
+## Domain objects
+
+The following tables are mostly relevant in languages different from English as the codebase and APIs specs are already written in that language.
+
+| API term           | Meaning            |
+| ------------------ | ------------------ |
+| Agreement          | service request    |
+| Attribute          | attribute          |
+| Client             | client             |
+| Consumer           | consumer party     |
+| Delegation         | delegation         |
+| EService           | e-service          |
+| EServiceDescriptor | e-service version  |
+| EServiceTemplate   | e-service template |
+| Key                | public key         |
+| Producer           | producer party     |
+| Purpose            | purpose            |
+| PurposeVersion     | purpose version    |
+| RiskAnalysis       | risk analysis      |
+| Tenant             | party              |
+| User               | user               |
+
+## States
+
+Domain objects can assume **common states** (in the sense of a **state machine**).\
+Not all objects implement the full set of states; some have specific ones not listed here for brevity. The **lifecycles** of each object are detailed in their respective sections of the guide.
+
+| API term                         | Meaning              |
+| -------------------------------- | -------------------- |
+| ACTIVE / PUBLISHED               | active               |
+| ARCHIVED                         | archived             |
+| DRAFT                            | draft                |
+| PENDING / WAITING\_FOR\_APPROVAL | waiting for approval |
+| REJECTED                         | rejected             |
+| SUSPENDED                        | suspended            |
+
+***
+
+Next page →&#x20;

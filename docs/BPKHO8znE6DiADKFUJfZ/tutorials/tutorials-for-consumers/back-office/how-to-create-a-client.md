@@ -18,7 +18,7 @@ Each client has a name and a description to help the party identify the group of
 
 You can add any number of people to the client, provided that these people have accounts to operate on behalf of the party.
 
-You can manage accounts from the Members Area platform, and more information is available in the [dedicated section](../../../technical-references/back-office/utenze.md).
+You can manage accounts from the Members Area platform, and more information is available in the [dedicated section](broken-reference).
 
 The roles allowed within a client are administrator and security operator.
 
