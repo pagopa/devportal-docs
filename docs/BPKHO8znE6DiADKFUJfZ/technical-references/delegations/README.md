@@ -23,4 +23,4 @@ With a delegation, the **ownership of objects** and **administrative responsibil
 
 ***
 
-Next page [→ Operations and lifecycle](operations-and-lifecycle.md)
+Next page [→ Operations and lifecycle](lifecycle.md)

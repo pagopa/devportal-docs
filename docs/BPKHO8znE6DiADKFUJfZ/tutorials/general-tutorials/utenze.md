@@ -24,3 +24,6 @@ After the role is assigned, the new user receives a registration notification at
 
 ![The home screen of the Members Area platform where the user will land after logging in. By finding the PDND (Interoperabilità) product and clicking on Manage, they will land on PDND and can start working.](<../../.gitbook/assets/uat.selfcare.pagopa.it_dashboard_79177d7c-66c1-4f0e-8c9f-294b6939c851(Macbook Pro – Screenshot).png>)
 
+***
+
+Next page [→ How to make your party available to receive delegations](how-to-make-your-party-available-to-receive-delegations.md)

@@ -17,7 +17,7 @@ The following information is required to create the purpose:
 * **name and description**: used only to help the party distinguish between the different purposes they have created;
 * **free of charge flag**: indicate whether access to the data is provided free of charge (for Public Administrations, this is always the case);
 * **reason for free of charge**: provide justification for the free-of-charge access (for Public Administrations, this is prefilled with "I am a Public Administration");
-* **load estimate**: the number of API calls per day the subscriber estimates to make toward the e-service’s API (see the [dedicated section](../../../technical-references/e-services/thresholds-and-approvals.md) for more details).
+* **load estimate**: the number of API calls per day the subscriber estimates to make toward the e-service’s API (see the [dedicated section](../../technical-references/e-services/thresholds-and-approvals.md) for more details).
 
 ## Step 4 - Fill in the risk analysis questionnaire
 
@@ -25,7 +25,7 @@ If the e-service for which you’re creating the purpose provides data, the subs
 
 If the e-service receives data, the subscriber must choose a use case from those made available by the producer. Essentially, the subscriber selects how the producer must process the data received from the subscriber, by selecting the use case of interest.
 
-More details on completing the questionnaire are available in the [dedicated section](../../../technical-references/finalita/risk-analysis.md).
+More details on completing the questionnaire are available in the [dedicated section](../../technical-references/finalita/risk-analysis.md).
 
 ## Step 5 - Publish the purpose
 
@@ -35,3 +35,6 @@ You can proceed to publish the purpose in draft form. If the load estimate is be
 
 Once the purpose is active, you can associate the related clients. For more details, see the [dedicated tutorial](how-to-associate-a-client-with-a-purpose.md).
 
+***
+
+Next page [→ How to create a client](how-to-create-a-client.md)

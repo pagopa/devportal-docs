@@ -31,7 +31,7 @@ If the chain is valid, the tool then checks that:
 
 <table><thead><tr><th width="526.3250122070312">Field</th><th>Data type</th></tr></thead><tbody><tr><td><code>kid</code>, <code>alg</code>, <code>typ</code>, <code>iss</code>, <code>sub</code>, <code>aud</code>, <code>jti</code>, <code>purposeId</code>, <code>digest.alg</code>, <code>digest.value</code></td><td>string</td></tr><tr><td><code>iat</code>, <code>exp</code></td><td>long integer</td></tr></tbody></table>
 
-A **practical example of a client assertion** is available in the dedicated tutorial \[TODO] for voucher generation.
+A **practical example of a client assertion** is available in the [dedicated tutorial](../../tutorials/tutorials-for-consumers/how-to-request-a-bearer-voucher-for-pdnd-apis.md#il-flusso-in-breve-2) for voucher generation.
 
 ### The `nbf` field is missing
 
@@ -71,10 +71,10 @@ Use the debug tool: **Developers Tools → Debug client assertion**.
 
 The voucher structure depends on its type:
 
-* **Bearer Token** (**basic** \[TODO] or **with additional information** \[TODO])
-* **DPoP** (**basic** \[TODO] or **with additional information** \[TODO])
+* **Bearer Token** ([**standard**](../../tutorials/tutorials-for-consumers/how-to-request-a-bearer-voucher-for-a-producers-api-standard.md) or [**with additional information**](../../tutorials/tutorials-for-consumers/how-to-request-a-bearer-voucher-for-a-producers-api-with-additional-information.md))
+* **DPoP** ([**standard**](../../tutorials/tutorials-for-consumers/how-to-request-a-dpop-voucher-for-a-producers-api-standard.md) or [**with**](../../tutorials/tutorials-for-consumers/how-to-request-a-dpop-voucher-for-a-producers-api-with-additional-information.md) **additional information**)
 
-Each **dedicated tutorial** \[TODO] shows the detailed format of the corresponding voucher.
+Each **dedicated tutorial** shows the detailed format of the corresponding voucher.
 
 ### Where to find more information
 

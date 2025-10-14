@@ -39,3 +39,7 @@ These fields can never be updated. You must create a new e-service.
 If a new version is not required, refer to the tutorial [How to update an e-service without publishing a new version](how-to-update-an-e-service-without-publishing-a-new-version.md). If a new version is required, refer to the tutorial [How to update an e-service by publishing a new version](how-to-update-and-e-service-by-publishing-a-new-version.md).
 
 For more information, see the [dedicated webinar](https://developer.pagopa.it/webinars/e-service-erogazione-inversa) (from minute 8).
+
+***
+
+Next page [→ How to update an e-service without publishing a new version](how-to-update-an-e-service-without-publishing-a-new-version.md)

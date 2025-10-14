@@ -62,4 +62,4 @@ More information on response integrity assurance is available in the dedicated s
 
 ***
 
-Next page →
+Next page [→ Tools and references](tools-and-references.md)

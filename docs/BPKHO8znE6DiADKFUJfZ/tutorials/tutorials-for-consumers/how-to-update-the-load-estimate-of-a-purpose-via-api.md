@@ -1,4 +1,4 @@
-# How to update the load estimate of a purpose
+# How to update the load estimate of a purpose via API
 
 Updating the load estimate of a Purpose can be applied directly, or require the producer’s approval if it exceeds the thresholds set by the e-service version (_**EServiceDescriptor**_).
 
@@ -68,3 +68,7 @@ If the load estimate is above the thresholds set by the e-service version (_**ES
     }
 }
 ```
+
+***
+
+Next page [→ How to generate the cryptographic material and upload a public key](how-to-generate-the-cryptographic-material-and-upload-a-public-key.md)

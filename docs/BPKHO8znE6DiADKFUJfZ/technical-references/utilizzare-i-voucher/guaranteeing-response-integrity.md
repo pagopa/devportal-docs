@@ -49,7 +49,7 @@ Response signing uses the **same cryptographic standards** applied in **voucher 
 
 **ModI** leaves producers free to define **how to sign the payload** and **how consumers should perform verification**. PDND imposes no constraints, except for the use of **RSA asymmetric keys** compliant with the adopted security standards.
 
-Dedicated tutorials are available for both the **producer** \[TODO] and the **consumer** \[TODO], illustrating a complete example of the response payload signing and verification process for an e-service.
+Dedicated tutorials are available for both the [**producer**](../../tutorials/tutorials-for-producers/how-to-sign-a-response-for-a-subscriber.md) and the [**consumer**](../../tutorials/tutorials-for-consumers/how-to-verify-a-response-signed-by-a-producer.md), illustrating a complete example of the response payload signing and verification process for an e-service.
 
 ***
 

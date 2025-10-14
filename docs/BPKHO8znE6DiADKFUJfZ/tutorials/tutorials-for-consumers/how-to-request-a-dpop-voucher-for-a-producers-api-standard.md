@@ -1,8 +1,8 @@
 # How to request a DPoP voucher for a producer's API (standard)
 
-This tutorial explains how to request a voucher that uses Demonstrating Proof-of-Possession (DPoP) — the IETF standard ([RFC 9449](https://datatracker.ietf.org/doc/html/rfc9449)) that makes a voucher (JWT token) unusable if stolen, because it is bound to a public key owned by the caller. For more details, see the [focus section](../../../technical-references/utilizzare-i-voucher/focus-on-dpop.md).
+This tutorial explains how to request a voucher that uses Demonstrating Proof-of-Possession (DPoP) — the IETF standard ([RFC 9449](https://datatracker.ietf.org/doc/html/rfc9449)) that makes a voucher (JWT token) unusable if stolen, because it is bound to a public key owned by the caller. For more details, see the [focus section](../../technical-references/utilizzare-i-voucher/focus-on-dpop.md).
 
-More information about this implementation can be found in the [dedicated section](../../../technical-references/utilizzare-i-voucher/types-of-voucher-requests.md#bearer-token-spendibile-presso-le-api-di-un-erogatore-base).
+More information about this implementation can be found in the [dedicated section](../../technical-references/utilizzare-i-voucher/types-of-voucher-requests.md#bearer-token-spendibile-presso-le-api-di-un-erogatore-base).
 
 ## Summary of the flow <a href="#il-flusso-in-breve" id="il-flusso-in-breve"></a>
 
@@ -20,9 +20,9 @@ In essence, the end-to-end process requires seven steps:
 
 It is assumed that the consumer has:
 
-* Created an e-service type client ([read tutorial](../back-office/how-to-create-a-client.md)).
-* Generated at least one set of cryptographic material and uploaded the related public key to PDND within the client ([read tutorial](../back-office/how-to-generate-the-cryptographic-material-and-upload-a-public-key.md)).
-* Associated the client with the purpose for which they want to obtain or send data to the producer ([read tutorial](../back-office/how-to-associate-a-client-with-a-purpose.md)).
+* Created an e-service type client ([read tutorial](how-to-create-a-client.md)).
+* Generated at least one set of cryptographic material and uploaded the related public key to PDND within the client ([read tutorial](how-to-generate-the-cryptographic-material-and-upload-a-public-key.md)).
+* Associated the client with the purpose for which they want to obtain or send data to the producer ([read tutorial](how-to-associate-a-client-with-a-purpose.md)).
 
 ## Step 1 - Generating the client assertion <a href="#il-flusso-in-breve" id="il-flusso-in-breve"></a>
 
@@ -211,4 +211,8 @@ The consumer must also insert another header:
 
 The producer carries out all necessary checks. If everything is in order, it processes the consumer’s request, returning the requested data in the case of a data-providing e-service, or accepting the data from the consumer in the case of a data-receiving e-service.
 
-To consult the recommended checks for producers, see the [dedicated section](../../tutorials-for-producers/checks-on-a-dpop-voucher-by-a-producer.md).
+To consult the recommended checks for producers, see the [dedicated section](../tutorials-for-producers/checks-on-a-dpop-voucher-by-a-producer.md).
+
+***
+
+Next page [→ How to request a DPoP voucher for a producer's API (with additional information)](how-to-request-a-dpop-voucher-for-a-producers-api-with-additional-information.md)

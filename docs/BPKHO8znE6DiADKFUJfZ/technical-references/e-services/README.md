@@ -58,4 +58,4 @@ More information on update management is available in the dedicated tutorial.
 
 ***
 
-Next page →&#x20;
+Next page [→ Operations and lifecycle](operations-and-lifecycle.md)

@@ -25,3 +25,7 @@ In the _**Public Keys**_ tab, click on _**Add**_. If this is not possible, it ma
 Once the side panel opens, you need to copy the entire content of the public key file (the one ending in `.pub`), making sure to also include the beginning and ending lines (`-----BEGIN PUBLIC KEY-----` and `-----END PUBLIC KEY-----`).
 
 \*Or _**Client Management > PDND API**_ if the client is intended to interact with the APIs exposed by PDND.
+
+***
+
+Next page [→ How to request a Bearer voucher for PDND APIs](how-to-request-a-bearer-voucher-for-pdnd-apis.md)

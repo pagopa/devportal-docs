@@ -1,4 +1,4 @@
-# How to submit a service request
+# How to submit a service request via API
 
 Submitting a service request (Agreement) involves creating a draft, followed by a submission.
 
@@ -82,3 +82,7 @@ If the requesting consumer does not meet the necessary requirements, the Agreeme
     "updatedAt": "2025-06-02T00:12:34Z"
 }
 ```
+
+***
+
+Next page [→ How to submit a purpose via API](how-to-submit-a-purpose-via-api.md)

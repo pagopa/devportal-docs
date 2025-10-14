@@ -16,7 +16,7 @@ Any additional technical specifications (RFCs) depend on the type of voucher iss
 
 ### More information, examples, and tutorials
 
-The following sections of this guide describe the different **voucher request methods** and their features. In the tutorial section, you can find step-by-step guides on how to **obtain \[TODO]** and **verify \[TODO]** a voucher.
+The following sections of this guide describe the different **voucher request methods** and their features. In the tutorial section, you can find step-by-step guides on how to [**obtain**](../../tutorials/tutorials-for-consumers/) and [**verify**](../../tutorials/tutorials-for-producers/) a voucher.
 
 ***
 

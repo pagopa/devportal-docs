@@ -13,3 +13,7 @@ For the editable field, there will be a pencil icon with the label _**Edit**_. B
 Once the change is completed, click the button at the bottom of the side panel, _**Update**_. The button is available for all modifications except for those on the documentation, which follow a slightly different process to ensure that the files are uploaded to the server.
 
 The applied change is immediately active and will also be visible in the e-service tab, both to the producer and to all other parties.
+
+***
+
+Next page [→ How to update an e-service by publishing a new version](how-to-update-and-e-service-by-publishing-a-new-version.md)

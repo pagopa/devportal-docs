@@ -32,7 +32,7 @@ When a new purpose or an **update** to the load estimate **exceeds the threshold
 
 If **both suspend**, **both must reactivate**.
 
-During suspension, **no associated client** can **obtain vouchers** for that purpose; this condition is also indicated in the **client assertion debug tool** available in the **front office**. More details on this tool are available in the dedicated section. \[TODO]
+During suspension, **no associated client** can **obtain vouchers** for that purpose; this condition is also indicated in the **client assertion debug tool** available in the **front office**. More details on this tool are available in the [dedicated section](../utilizzare-i-voucher/faqs.md).
 
 ### Archiving a purpose
 

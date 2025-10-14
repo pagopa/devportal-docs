@@ -25,3 +25,7 @@ It is always reminded that the delegating party must appoint the delegate as Dat
 
 A dialog box in the back office will remind the parties of this requirement when the delegation is signed.
 {% endhint %}
+
+***
+
+Next page [→ Glossary](../../technical-references/glossario.md)

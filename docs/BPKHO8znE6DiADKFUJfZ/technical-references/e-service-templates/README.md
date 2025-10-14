@@ -22,4 +22,4 @@ An introduction and demo of this feature are available in the [**dedicated webin
 
 ***
 
-Next page [→ Operations and lifecycle](operations-and-lifecycle.md)
+Next page [→ Operations and lifecycle](lifecycle.md)

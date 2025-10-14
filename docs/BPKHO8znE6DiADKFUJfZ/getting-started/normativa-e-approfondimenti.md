@@ -11,9 +11,9 @@ Interoperability is an **ecosystem** composed of components, protocols, and stan
 2. **Catalog verification**\
    Access the platform and **check the APIs already available** in the **E-service Catalog**.
 3. **Develop a ModI-compliant API**\
-   Write an **API** that complies with the **security perimeter** and the **standards of the Interoperability Model (ModI)** defined by AgID, which sets the interoperability framework between Public Administrations. More details are provided in the dedicated section. \[TODO]
+   Write an **API** that complies with the **security perimeter** and the **standards of the Interoperability Model (ModI)** defined by AgID, which sets the interoperability framework between Public Administrations. More details are provided in the [dedicated section](../technical-references/e-services/tools-and-references.md).
 4. **Voucher validation**\
-   Add a **control mechanism** to your API to verify the **legitimacy and validity** of **vouchers** presented by data requesters. The voucher is valid only if **issued by PDND**, **currently valid**, and **linked to the correct resource**. More details are provided in the dedicated section. \[TODO]
+   Add a **control mechanism** to your API to verify the **legitimacy and validity** of **vouchers** presented by data requesters. The voucher is valid only if **issued by PDND**, **currently valid**, and **linked to the correct resource**. More details are provided in the [dedicated section](../tutorials/tutorials-for-producers/checks-on-a-bearer-voucher-by-a-producer.md).
 5. **Publication as an e-service**\
    Publish the API on the **PDND Catalog** as an **e-service**, including all **contextual and supporting information** needed for its use cases.
 

@@ -44,7 +44,7 @@ The end-to-end process consists of **seven main steps**:
 
 ### Implementation
 
-For implementation details, refer to the **dedicated tutorial** \[TODO].
+For implementation details, refer to the [**dedicated tutorial**](../../tutorials/tutorials-for-consumers/how-to-request-a-dpop-voucher-for-a-producers-api-standard.md).
 
 ***
 

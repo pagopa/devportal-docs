@@ -28,4 +28,8 @@ Security operators do not necessarily have to be part of your party; they can al
 
 At the bottom of the page, finalize the creation by clicking _**Create**_.
 
-For best practices in managing your clients, see the [dedicated section](../../../technical-references/client-e-materiale-crittografico/client-management.md).
+For best practices in managing your clients, see the [dedicated section](../../technical-references/client-e-materiale-crittografico/client-management.md).
+
+***
+
+Next page [→ How to associate a client with a purpose](how-to-associate-a-client-with-a-purpose.md)

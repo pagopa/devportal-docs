@@ -16,3 +16,6 @@ You can update your preference at any time and give availability only for produc
 
 Availability does not imply automatic acceptance. Each delegation request must be reviewed by the potential delegate, who will decide whether to accept it or not.
 
+***
+
+Next page [→ How to grant a delegation to another party](how-to-grant-a-delegation-to-another-party.md)

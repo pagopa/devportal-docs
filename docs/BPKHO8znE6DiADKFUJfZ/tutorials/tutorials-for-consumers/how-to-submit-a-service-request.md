@@ -4,7 +4,7 @@
 
 Search for the e-service for which you want to submit a consumption request in the &#x45;_-service Catalog_. It will be clearly indicated if the party cannot use the e-service because they lack one or more required certified attributes.
 
-<figure><img src="../../../.gitbook/assets/catalogo e-service.png" alt=""><figcaption><p>Come appare il catalogo degli e-service</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/catalogo e-service.png" alt=""><figcaption><p>Come appare il catalogo degli e-service</p></figcaption></figure>
 
 ### Step 2 - Create the draft of the service request
 
@@ -23,4 +23,8 @@ If the request is correctly completed, it can be submitted. Once submitted, it c
 
 You can always check the status of submitted service requests by navigating to _**Subscribing > Sent requests**_.
 
-<figure><img src="../../../.gitbook/assets/richieste di fruizione e-service.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/richieste di fruizione e-service.png" alt=""><figcaption></figcaption></figure>
+
+***
+
+Next page [→ How to upgrade a service request](how-to-upgrade-a-service-request.md)

@@ -17,3 +17,7 @@ Before updating, it's recommended to consult with your technical team. In partic
 Once your integration is compatible with the latest version, you can click the _**Upgrade**_ button located at the top right of your request’s page.
 
 This action will archive the old service request and publish a new one updated to the latest version. No further steps are required.
+
+***
+
+Next page [→ How to create a purpose](how-to-create-a-purpose.md)

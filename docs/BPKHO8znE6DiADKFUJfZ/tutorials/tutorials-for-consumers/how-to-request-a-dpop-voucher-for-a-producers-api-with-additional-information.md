@@ -1,8 +1,8 @@
 # How to request a DPoP voucher for a producer's API (with additional information)
 
-This tutorial explains how to request a voucher that uses Demonstrating Proof-of-Possession (DPoP) — the IETF standard ([RFC 9449](https://datatracker.ietf.org/doc/html/rfc9449)) that makes a voucher (JWT token) unusable if stolen, because it is bound to a public key owned by the caller. For more details, see the [focus section](../../../technical-references/utilizzare-i-voucher/focus-on-dpop.md).
+This tutorial explains how to request a voucher that uses Demonstrating Proof-of-Possession (DPoP) — the IETF standard ([RFC 9449](https://datatracker.ietf.org/doc/html/rfc9449)) that makes a voucher (JWT token) unusable if stolen, because it is bound to a public key owned by the caller. For more details, see the [focus section](../../technical-references/utilizzare-i-voucher/focus-on-dpop.md).
 
-The JWS containing the additional information complies with [RFC 7519](https://datatracker.ietf.org/doc/html/rfc7519) and the identified pattern, that is, the one provided by AgID's ModI (_Audit REST 02_). For more information, see the [dedicated section](../../../technical-references/utilizzare-i-voucher/types-of-voucher-requests.md#bearer-token-spendibile-presso-le-api-di-un-erogatore-con-informazioni-aggiuntive-pattern-modi-audit).
+The JWS containing the additional information complies with [RFC 7519](https://datatracker.ietf.org/doc/html/rfc7519) and the identified pattern, that is, the one provided by AgID's ModI (_Audit REST 02_). For more information, see the [dedicated section](../../technical-references/utilizzare-i-voucher/types-of-voucher-requests.md#bearer-token-spendibile-presso-le-api-di-un-erogatore-con-informazioni-aggiuntive-pattern-modi-audit).
 
 ## Summary of the flow <a href="#il-flusso-in-breve" id="il-flusso-in-breve"></a>
 
@@ -22,9 +22,9 @@ Essentially, the end-to-end process requires nine steps:
 
 It is assumed that the consumer has:
 
-* created a client of type e-service ([read tutorial](../back-office/how-to-create-a-client.md));
-* generated at least one set of cryptographic material and uploaded the corresponding public key to PDND within the client ([read tutorial](../back-office/how-to-generate-the-cryptographic-material-and-upload-a-public-key.md));
-* associated the client with the purpose for which they want to obtain or send data to the producer ([read tutorial](../back-office/how-to-associate-a-client-with-a-purpose.md)).
+* created a client of type e-service ([read tutorial](how-to-create-a-client.md));
+* generated at least one set of cryptographic material and uploaded the corresponding public key to PDND within the client ([read tutorial](how-to-generate-the-cryptographic-material-and-upload-a-public-key.md));
+* associated the client with the purpose for which they want to obtain or send data to the producer ([read tutorial](how-to-associate-a-client-with-a-purpose.md)).
 
 ## Step 1 - Generating the token containing the additional information <a href="#il-flusso-in-breve" id="il-flusso-in-breve"></a>
 
@@ -266,4 +266,8 @@ Additionally, the JWS from step 1 is included in a custom header defined by AgID
 
 The producer carries out all necessary checks. If everything is in order, it processes the consumer’s request, returning the requested data in the case of a data-providing e-service, or accepting the data from the consumer in the case of a data-receiving e-service.
 
-To consult the recommended checks for producers, see the [dedicated section](../../tutorials-for-producers/checks-on-a-dpop-voucher-by-a-producer.md). In addition, it is possible to consult the verifications to be carried out regarding the digest, specific to this flow, in the [dedicated section](../../tutorials-for-producers/checks-of-the-digest-by-a-producer.md).
+To consult the recommended checks for producers, see the [dedicated section](../tutorials-for-producers/checks-on-a-dpop-voucher-by-a-producer.md). In addition, it is possible to consult the verifications to be carried out regarding the digest, specific to this flow, in the [dedicated section](../tutorials-for-producers/checks-of-the-digest-by-a-producer.md).
+
+***
+
+Next page [→ How to verify a response signed by a producer](how-to-verify-a-response-signed-by-a-producer.md)

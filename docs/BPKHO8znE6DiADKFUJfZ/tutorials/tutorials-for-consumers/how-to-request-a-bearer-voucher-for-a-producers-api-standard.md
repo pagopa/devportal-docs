@@ -1,6 +1,6 @@
 # How to request a Bearer voucher for a producer's API (standard)
 
-More information on this implementation can be found in the [dedicated section](../../../technical-references/utilizzare-i-voucher/types-of-voucher-requests.md#bearer-token-spendibile-presso-le-api-di-un-erogatore-base).
+More information on this implementation can be found in the [dedicated section](../../technical-references/utilizzare-i-voucher/types-of-voucher-requests.md#bearer-token-spendibile-presso-le-api-di-un-erogatore-base).
 
 ## Summary of the flow <a href="#il-flusso-in-breve" id="il-flusso-in-breve"></a>
 
@@ -16,9 +16,9 @@ Essentially, the end-to-end process requires five steps:
 
 It is assumed that the consumer has:
 
-* Created an e-service type client ([read tutorial](../back-office/how-to-create-a-client.md)).
-* Generated at least one set of cryptographic material and uploaded the related public key to PDND within the client ([read tutorial](../back-office/how-to-generate-the-cryptographic-material-and-upload-a-public-key.md)).
-* Associated the client with the purpose for which they want to obtain or send data to the producer ([read tutorial](../back-office/how-to-associate-a-client-with-a-purpose.md)).
+* Created an e-service type client ([read tutorial](how-to-create-a-client.md)).
+* Generated at least one set of cryptographic material and uploaded the related public key to PDND within the client ([read tutorial](how-to-generate-the-cryptographic-material-and-upload-a-public-key.md)).
+* Associated the client with the purpose for which they want to obtain or send data to the producer ([read tutorial](how-to-associate-a-client-with-a-purpose.md)).
 
 ## Step 1 - Generating the client assertion <a href="#il-flusso-in-breve" id="il-flusso-in-breve"></a>
 
@@ -140,4 +140,8 @@ The producer performs all necessary checks.
 
 If everything is in order, they process the consumer’s request — returning the requested data in the case of a data-producing e-service, or accepting data from the consumer in the case of a data-receiving e-service.
 
-For recommended checks for producers, see the [dedicated section](../../tutorials-for-producers/checks-on-a-bearer-voucher-by-a-producer.md).
+For recommended checks for producers, see the [dedicated section](../tutorials-for-producers/checks-on-a-bearer-voucher-by-a-producer.md).
+
+***
+
+Next page [→ How to request a Bearer voucher for a producer's API (with additional information)](how-to-request-a-bearer-voucher-for-a-producers-api-with-additional-information.md)

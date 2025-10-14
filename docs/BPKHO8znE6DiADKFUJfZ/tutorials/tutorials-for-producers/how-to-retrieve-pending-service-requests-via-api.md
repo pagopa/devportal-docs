@@ -1,4 +1,4 @@
-# How to retrieve pending service requests
+# How to retrieve pending service requests via API
 
 {% hint style="info" %}
 You can retrieve only the service requests (_Agreements_) in which the requester participates either as a subscriber or as a producer.
@@ -140,3 +140,7 @@ GET /agreements
   }
 }
 ```
+
+***
+
+Next page [→ How to sign a response for a subscriber](how-to-sign-a-response-for-a-subscriber.md)

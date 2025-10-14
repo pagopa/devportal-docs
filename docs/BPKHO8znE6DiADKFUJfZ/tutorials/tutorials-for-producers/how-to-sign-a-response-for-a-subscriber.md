@@ -4,15 +4,15 @@ The ModI leaves it to the producer to define the correct procedure for signing t
 
 Below is an example of a possible way to manage the signing mechanism of an e-service’s response payload.
 
-For more details, see the [dedicated section](../../../technical-references/utilizzare-i-voucher/guaranteeing-response-integrity.md).
+For more details, see the [dedicated section](../../technical-references/utilizzare-i-voucher/guaranteeing-response-integrity.md).
 
 ## Prerequisites
 
 It is assumed that the producer has:
 
-* created a **producer keychain** ([see guide](../../../technical-references/e-services/keychains.md));
-* generated at least one set of cryptographic material and uploaded the related public key to PDND within the client ([see tutorial](../../tutorials-for-consumers/back-office/how-to-generate-the-cryptographic-material-and-upload-a-public-key.md));
-* associated the _**producer keychain**_ with the e-service for which it wants to sign the response to the subscriber ([see tutorial](../back-office/how-to-associate-a-producer-keychain-with-an-e-service.md)).
+* created a **producer keychain** ([see guide](../../technical-references/e-services/keychains.md));
+* generated at least one set of cryptographic material and uploaded the related public key to PDND within the client ([see tutorial](../tutorials-for-consumers/how-to-generate-the-cryptographic-material-and-upload-a-public-key.md));
+* associated the _**producer keychain**_ with the e-service for which it wants to sign the response to the subscriber ([see tutorial](how-to-associate-a-producer-keychain-with-an-e-service.md)).
 
 ## Preparation - Define the structure of the response
 
@@ -57,3 +57,7 @@ As defined in the preparation step, the payload will contain:
 
 This way, the subscriber can uniquely identify the key to be used for verification.\
 The response is then sent to the subscriber.
+
+***
+
+Next page [→ Checks on a Bearer voucher by a producer](checks-on-a-bearer-voucher-by-a-producer.md)

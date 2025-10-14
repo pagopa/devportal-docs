@@ -1,6 +1,6 @@
 # How to request a Bearer voucher for a producer's API (with additional information)
 
-The JWS containing the additional information complies with [RFC 7519](https://datatracker.ietf.org/doc/html/rfc7519) and the identified pattern, that is, the one provided by AgID's ModI (_Audit REST 02_). For more information, see the [dedicated section](../../../technical-references/utilizzare-i-voucher/types-of-voucher-requests.md#bearer-token-spendibile-presso-le-api-di-un-erogatore-con-informazioni-aggiuntive-pattern-modi-audit).
+The JWS containing the additional information complies with [RFC 7519](https://datatracker.ietf.org/doc/html/rfc7519) and the identified pattern, that is, the one provided by AgID's ModI (_Audit REST 02_). For more information, see the [dedicated section](../../technical-references/utilizzare-i-voucher/types-of-voucher-requests.md#bearer-token-spendibile-presso-le-api-di-un-erogatore-con-informazioni-aggiuntive-pattern-modi-audit).
 
 ## Summary of the flow <a href="#il-flusso-in-breve" id="il-flusso-in-breve"></a>
 
@@ -18,9 +18,9 @@ Essentially, the end-to-end process requires seven steps:
 
 It is assumed that the consumer has:
 
-* created a client of type e-service ([read tutorial](../back-office/how-to-create-a-client.md));
-* generated at least one set of cryptographic material and uploaded the corresponding public key to PDND within the client ([read tutorial](../back-office/how-to-generate-the-cryptographic-material-and-upload-a-public-key.md));
-* associated the client with the purpose for which they want to obtain or send data to the producer ([read tutorial](../back-office/how-to-associate-a-client-with-a-purpose.md)).
+* created a client of type e-service ([read tutorial](how-to-create-a-client.md));
+* generated at least one set of cryptographic material and uploaded the corresponding public key to PDND within the client ([read tutorial](how-to-generate-the-cryptographic-material-and-upload-a-public-key.md));
+* associated the client with the purpose for which they want to obtain or send data to the producer ([read tutorial](how-to-associate-a-client-with-a-purpose.md)).
 
 ## Step 1 - Generating the token containing the additional information <a href="#il-flusso-in-breve" id="il-flusso-in-breve"></a>
 
@@ -192,4 +192,8 @@ Additionally, the JWS from step 1 is included in a custom header defined by AgID
 
 The producer performs all necessary checks. If successful, it processes the request, either returning data (if the e-service provides data) or accepting data (if the e-service receives data).
 
-To consult the recommended verifications for producers, see the [dedicated section](../../tutorials-for-producers/checks-on-a-bearer-voucher-by-a-producer.md). In addition, it is possible to consult the verifications to be carried out regarding the digest, specific to this flow, in the [dedicated section](../../tutorials-for-producers/checks-of-the-digest-by-a-producer.md).
+To consult the recommended verifications for producers, see the [dedicated section](../tutorials-for-producers/checks-on-a-bearer-voucher-by-a-producer.md). In addition, it is possible to consult the verifications to be carried out regarding the digest, specific to this flow, in the [dedicated section](../tutorials-for-producers/checks-of-the-digest-by-a-producer.md).
+
+***
+
+Next page [→ How to request a DPoP voucher for a producer's API (standard)](how-to-request-a-dpop-voucher-for-a-producers-api-standard.md)

@@ -1,4 +1,4 @@
-# How to submit a purpose
+# How to submit a purpose via API
 
 The use of a purpose (_**Purpose**_) requires creating a draft accompanied by the risk analysis, followed by activation.
 
@@ -118,3 +118,7 @@ If the load estimate is above the thresholds set by the e-service version (_**ES
     }
 }
 ```
+
+***
+
+Next page [→ How to update the load estimate of a purpose via API](how-to-update-the-load-estimate-of-a-purpose-via-api.md)

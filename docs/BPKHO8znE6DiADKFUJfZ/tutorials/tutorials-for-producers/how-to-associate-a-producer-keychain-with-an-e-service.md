@@ -11,3 +11,7 @@ If you intend to modify one or more associated keychains, you can go from the ba
 In the _**Associated keychains**_ tab, you can manage keychains by adding or removing the ones of interest.
 
 Once a keychain is associated with an e-service, all technical staff contained in the keychain will be able to upload keys to sign responses to subscribers of that e-service.
+
+***
+
+Next page [→ How to approve a pending service request via API](how-to-approve-a-pending-service-request-via-api.md)

@@ -36,24 +36,24 @@ Signing and verification follow international standards:
 
 ### **Vouchers for producer APIs**
 
-#### Bearer (basic version)
+#### Bearer (standard version)
 
 Used by the majority of services, it includes the **client assertion** with the **standard information** required by PDND, useful both for **audit** purposes and to allow the **producer** to assess the access requests.
 
 **Further details:**
 
-* Consumer side: **tutorial** \[TODO] for requesting a voucher.
-* Producer side: **standard verifications** \[TODO] recommended.
+* Consumer side: [**tutorial**](../../tutorials/tutorials-for-consumers/how-to-request-a-bearer-voucher-for-a-producers-api-standard.md) for requesting a voucher.
+* Producer side: [**standard verifications**](../../tutorials/tutorials-for-producers/checks-on-a-bearer-voucher-by-a-producer.md) recommended.
 
-#### DPoP (basic version)
+#### DPoP (standard version)
 
 The **DPoP (Demonstrating Proof-of-Possession)** pattern uses **two tokens** — one toward **PDND** and one toward the **producer’s resource server** — with independent verifications: both must match for authorization. It is a **valid alternative to mTLS**, reducing certificate management overhead.
 
 **Further details:**
 
-* Consumer side: **tutorial** \[TODO] for requesting a voucher.
-* Producer side: **standard verifications** \[TODO] recommended.
-* All users: **dedicated focus** \[TODO].
+* Consumer side: [**tutorial**](../../tutorials/tutorials-for-consumers/how-to-request-a-dpop-voucher-for-a-producers-api-standard.md) for requesting a voucher.
+* Producer side: [**standard verifications**](../../tutorials/tutorials-for-producers/checks-on-a-dpop-voucher-by-a-producer.md) recommended.
+* All users: [**dedicated focus**](focus-on-dpop.md).
 
 ### ModI Audit REST 02 pattern — additional information (applicable to Bearer and DPoP)
 
@@ -68,8 +68,8 @@ In this model, **PDND** certifies the **authorization chain** but **does not acc
 
 **Further details:**
 
-* Consumer side: tutorials for requesting a voucher **Bearer** \[TODO] or **DPoP** \[TODO] with additional information.
-* Producer side: **recommended verifications** \[TODO].
+* Consumer side: tutorials for requesting a voucher [**Bearer**](../../tutorials/tutorials-for-consumers/how-to-request-a-bearer-voucher-for-a-producers-api-with-additional-information.md) or [**DPoP**](../../tutorials/tutorials-for-consumers/how-to-request-a-dpop-voucher-for-a-producers-api-with-additional-information.md) with additional information.
+* Producer side: [**recommended verifications**](../../tutorials/tutorials-for-producers/checks-of-the-digest-by-a-producer.md).
 
 ### Vouchers for PDND APIs (Bearer)
 
@@ -83,7 +83,7 @@ The **PDND APIs** provide information related only to the **PDND domain** (e.g.,
 **Further details:**
 
 * [**List of APIs**](https://developer.pagopa.it/pdnd-interoperabilita/api).
-* **Dedicated tutorial** \[TODO].
+* [**Dedicated tutorial**](../../tutorials/tutorials-for-consumers/how-to-request-a-bearer-voucher-for-pdnd-apis.md).
 
 ***
 

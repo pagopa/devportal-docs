@@ -89,4 +89,4 @@ All fields in `configuration.json` are **mandatory**. Even if not used, they mus
 
 ***
 
-Next page →
+Next page [→ Thresholds and approvals](thresholds-and-approvals.md)

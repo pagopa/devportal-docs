@@ -37,4 +37,4 @@ A collection of **technical rules** and **patterns** for designing APIs consiste
 
 ***
 
-Next page →
+Next page [→ Attributes](../attributi/)

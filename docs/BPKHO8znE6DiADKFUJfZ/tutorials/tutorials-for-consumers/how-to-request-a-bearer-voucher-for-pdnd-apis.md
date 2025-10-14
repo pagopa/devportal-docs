@@ -2,7 +2,7 @@
 
 For a list of all APIs made available by PDND, see [here](https://app.gitbook.com/o/KXYtsf32WSKm6ga638R3/s/zwqHiUqrZCs3zNnHdc9A/).
 
-More information on this implementation is available in the [dedicated section](../../../technical-references/utilizzare-i-voucher/types-of-voucher-requests.md#bearer-token-spendibile-presso-le-api-di-pdnd-interoperabilita).
+More information on this implementation is available in the [dedicated section](../../technical-references/utilizzare-i-voucher/types-of-voucher-requests.md#bearer-token-spendibile-presso-le-api-di-pdnd-interoperabilita).
 
 ## Summary of the flow <a href="#il-flusso-in-breve" id="il-flusso-in-breve"></a>
 
@@ -18,8 +18,8 @@ Essentially, the end-to-end process requires five steps:
 
 It is assumed that the consumer has:
 
-* created an API Interop-type client ([read tutorial](../back-office/how-to-create-a-client.md));
-* generated at least one set of cryptographic material and uploaded the corresponding public key to PDND within the client ([read tutorial](../back-office/how-to-generate-the-cryptographic-material-and-upload-a-public-key.md)).
+* created an API Interop-type client ([read tutorial](how-to-create-a-client.md));
+* generated at least one set of cryptographic material and uploaded the corresponding public key to PDND within the client ([read tutorial](how-to-generate-the-cryptographic-material-and-upload-a-public-key.md)).
 
 ## Step 1 - Generating the client assertion <a href="#il-flusso-in-breve" id="il-flusso-in-breve"></a>
 
@@ -137,3 +137,7 @@ Authorization: Bearer <voucher>
 ## Step 5 - Wait for the response
 
 PDND verifies the validity of the voucher (ensuring it is indeed a voucher for its APIs and that it is still valid). If so, and if the consumer’s request is well-formed, it performs the requested operation.
+
+***
+
+Next page [→ How to request a Bearer voucher for a producer's API (standard)](how-to-request-a-bearer-voucher-for-a-producers-api-standard.md)

@@ -1,4 +1,4 @@
-# How to access the PDND back office
+# How to access the PDND front office
 
 ## Step 1 - Log in
 
@@ -32,3 +32,6 @@ You will then be redirected to the requested PDND environment.
 If you are not asked to select an environment, it means your user account is associated with only one of the three available environments. To gain access to the others, contact one of your administrators.
 {% endhint %}
 
+***
+
+Next page [→ How to create a new administrator](how-to-create-a-new-administrator.md)

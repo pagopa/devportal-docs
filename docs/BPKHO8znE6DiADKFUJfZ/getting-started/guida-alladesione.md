@@ -51,8 +51,8 @@ The administrator can create new operator or administrator accounts directly fro
 {% hint style="info" %}
 Follow the dedicated tutorials:
 
-→ **How to create and revoke administrator users \[TODO]**\
-→ **How to create and revoke operator users \[TODO]**
+[→ **How to create and revoke administrator users**](../tutorials/general-tutorials/how-to-create-a-new-administrator.md)\
+[→ **How to create and revoke operator users**](../tutorials/general-tutorials/utenze.md)
 {% endhint %}
 
 ## Initial configuration checklist
