@@ -5,9 +5,9 @@ Modifying certain fields (such as the API interface file or the _audience_ param
 
 Otherwise, it is possible to immediately update the e-service field without any further requirements.
 
-## Step 1 - Identify the field to modify
+### Step 1: Identify the field to modify
 
-### Fields the can be modified without creating a new version
+#### Fields the can be modified without creating a new version
 
 * name of the e-service
 * description of the e-service
@@ -19,7 +19,7 @@ Otherwise, it is possible to immediately update the e-service field without any 
 * API call thresholds
 * voucher validity duration
 
-### Fields that can be modified only by creating a new version
+#### Fields that can be modified only by creating a new version
 
 * API interface file
 * audience
@@ -27,14 +27,14 @@ Otherwise, it is possible to immediately update the e-service field without any 
 
 \*If attributes are extended, they can also be modified without creating a new version. For example, if the previous requirement was only _Municipalities and their Consortia and Associations_ and today it becomes _Municipalities and their Consortia and Associations_ OR _Regions_, the target audience is simply extended, and this change can be made without creating a new e-service version.
 
-### Fields that cannot be modified
+#### Fields that cannot be modified
 
 * technology (REST or SOAP)
 * mode (produces or receives data)
 
 These fields can never be updated. You must create a new e-service.
 
-## Step 2 - Make the change
+### Step 2: Make the change
 
 If a new version is not required, refer to the tutorial [How to update an e-service without publishing a new version](how-to-update-an-e-service-without-publishing-a-new-version.md). If a new version is required, refer to the tutorial [How to update an e-service by publishing a new version](how-to-update-and-e-service-by-publishing-a-new-version.md).
 

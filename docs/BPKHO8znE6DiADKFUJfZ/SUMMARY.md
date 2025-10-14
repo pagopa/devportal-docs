@@ -42,8 +42,8 @@
   * [How to verify a response signed by a producer](tutorials/tutorials-for-consumers/how-to-verify-a-response-signed-by-a-producer.md)
 * [General tutorials](tutorials/general-tutorials/README.md)
   * [How to access the PDND front office](tutorials/general-tutorials/ambienti-disponibili.md)
-  * [How to create a new administrator](tutorials/general-tutorials/how-to-create-a-new-administrator.md)
-  * [How to create a new operator](tutorials/general-tutorials/utenze.md)
+  * [How to create and revoke administrator users](tutorials/general-tutorials/how-to-create-and-revoke-administrator-users.md)
+  * [How to create and revoke operator users](tutorials/general-tutorials/utenze.md)
   * [How to make your party available to receive delegations](tutorials/general-tutorials/how-to-make-your-party-available-to-receive-delegations.md)
   * [How to grant a delegation to another party](tutorials/general-tutorials/how-to-grant-a-delegation-to-another-party.md)
 

@@ -2,11 +2,11 @@
 
 An _producer_ can always associate and disassociate their keychains from their e-services. This action can only be performed by users with the administrator role.
 
-## Step 1 - Access the e-service of interest
+### Step 1: Access the e-service of interest
 
 If you intend to modify one or more associated keychains, you can go from the front office to _**Producing > My e-services**_, find the desired e-service, and click _**View**_.
 
-## Step 2 - Associate the keychain with the e-service
+### Step 2: Associate the keychain with the e-service
 
 In the _**Associated keychains**_ tab, you can manage keychains by adding or removing the ones of interest.
 

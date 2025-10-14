@@ -2,7 +2,7 @@
 
 This tutorial serves as an example, but it is possible to generate your own cryptographic material in many other ways. The requirement to comply with is that it must be an RSA key, PEM-encoded, with a length of 2048 bits.
 
-## Step 1 - Generate the cryptographic material&#x20;
+### Step 1: Generate the cryptographic material&#x20;
 
 Open the terminal and paste the commands below. To change the key name, replace all occurrences of the string `client-test-keypair` with the desired name for the file containing the key.
 
@@ -16,7 +16,7 @@ The command generates a public and private key pair and a certificate, which in 
 
 The private key (`.priv`) remains with the party, who must keep it secure. The public key, on the other hand, is uploaded to PDND to enable the verifications that lead to the issuance of a valid voucher.
 
-## Step 2 - Upload the public key
+### Step 2: Upload the public key
 
 You must access the desired client from the front office, in the _**Client Management > e-service API**_\* section, and then open the desired client.
 

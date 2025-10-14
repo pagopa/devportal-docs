@@ -4,7 +4,7 @@ This tutorial explains how to request a voucher that uses Demonstrating Proof-of
 
 More information about this implementation can be found in the [dedicated section](../../technical-references/utilizzare-i-voucher/types-of-voucher-requests.md#bearer-token-spendibile-presso-le-api-di-un-erogatore-base).
 
-## Summary of the flow <a href="#il-flusso-in-breve" id="il-flusso-in-breve"></a>
+### Summary of the flow <a href="#il-flusso-in-breve" id="il-flusso-in-breve"></a>
 
 In essence, the end-to-end process requires seven steps:
 
@@ -16,7 +16,7 @@ In essence, the end-to-end process requires seven steps:
 6. The consumer makes a request to the producer’s e-service; inserts both the voucher issued by PDND in the `Authorization` header, and the DPoP generated in the previous step in the `DPoP` header.
 7. The producer performs the necessary checks. If successful, it processes the consumer’s request.
 
-## Prerequisites <a href="#il-flusso-in-breve" id="il-flusso-in-breve"></a>
+### Prerequisites <a href="#il-flusso-in-breve" id="il-flusso-in-breve"></a>
 
 It is assumed that the consumer has:
 
@@ -24,7 +24,7 @@ It is assumed that the consumer has:
 * Generated at least one set of cryptographic material and uploaded the related public key to PDND within the client ([read tutorial](how-to-generate-the-cryptographic-material-and-upload-a-public-key.md)).
 * Associated the client with the purpose for which they want to obtain or send data to the producer ([read tutorial](how-to-associate-a-client-with-a-purpose.md)).
 
-## Step 1 - Generating the client assertion <a href="#il-flusso-in-breve" id="il-flusso-in-breve"></a>
+### Step 1: Generating the client assertion <a href="#il-flusso-in-breve" id="il-flusso-in-breve"></a>
 
 The first step is to build a valid _client assertion_. The client assertion is composed of a header and a payload containing the following fields.
 
@@ -68,7 +68,7 @@ For demonstration purposes, a Python script has been published showing how to pe
 
 A function is also available to check the validity of your client assertion and highlight any errors. The tool is available in the front office under _**Developers Tools > Debug client assertion**_.
 
-## Step 2 - Generating the first DPoP <a href="#il-flusso-in-breve" id="il-flusso-in-breve"></a>
+### Step 2: Generating the first DPoP <a href="#il-flusso-in-breve" id="il-flusso-in-breve"></a>
 
 The consumer then builds the DPoP intended for the PDND authorization server, which is a JWT with
 
@@ -97,7 +97,7 @@ where
 
 <table><thead><tr><th width="112.5546875">Field name</th><th>Meaning</th></tr></thead><tbody><tr><td><code>typ</code></td><td>must be set to <code>dpop+jwt</code></td></tr><tr><td><code>alg</code></td><td>Indicates the algorithm used to sign the DPoP. The recommended algorithm is <code>ES256</code></td></tr><tr><td><code>jwk</code></td><td>The public key in JWK format corresponding to the private key used to sign the DPoP</td></tr><tr><td><code>htm</code></td><td>Indicates the HTTP method being invoked. For obtaining a voucher from PDND, the method is <code>POST</code></td></tr><tr><td><code>htu</code></td><td>Indicates the URL being invoked. For obtaining a voucher from PDND in the Production environment it is <code>https://auth.interop.pagopa.it/token.oauth2</code> (for Testing and Validation environments use the specific one provided in the front office)</td></tr><tr><td><code>iat</code></td><td><em>Issued at</em> — the timestamp (<a href="https://datatracker.ietf.org/doc/html/rfc3339">UNIX epoch</a>, numeric) indicating the date and time when the DPoP is created</td></tr><tr><td><code>jti</code></td><td>Unique identifier of the DPoP. It is the consumer’s responsibility to ensure that the ID of this token is unique and not reused</td></tr></tbody></table>
 
-## Step 3 - Requesting the voucher from the authorization server
+### Step 3: Requesting the voucher from the authorization server
 
 The third step is to call the PDND authorization server with the signed client assertion to obtain in return a voucher that can be used with the PDND APIs.
 
@@ -112,7 +112,7 @@ The endpoint must be called with the following body parameters:
 
 <table><thead><tr><th width="247.19378662109375">Field name</th><th>Meaning</th></tr></thead><tbody><tr><td><code>client_id</code></td><td>again, the <code>clientId</code> used in the assertion</td></tr><tr><td><code>client_assertion</code></td><td>the signed client assertion from the first step</td></tr><tr><td><code>client_assertion_type</code></td><td>the client assertion format, as indicated in RFC (always <code>urn:ietf:params:oauth:client-assertion-type:jwt-bearer</code>)</td></tr><tr><td><code>grant_type</code></td><td>the type of flow used, as indicated in RFC (always <code>client_credentials</code>)</td></tr></tbody></table>
 
-## Step 4 - The authorization server verifies and issues the voucher
+### Step 4: The authorization server verifies and issues the voucher
 
 The PDND authorization server performs the necessary checks, specifically:
 
@@ -172,7 +172,7 @@ Payload:
 
 The `cnf.jkt` field contains the thumbprint of the public key in JWK format ([RFC 7638](https://datatracker.ietf.org/doc/html/rfc7638)) used in the DPoP sent by the consumer (client) to the PDND authorization server.
 
-## Step 5 - The consumer builds a second DPoP&#x20;
+### Step 5: The consumer builds a second DPoP&#x20;
 
 The consumer builds a second DPoP, this time intended for the producer’s e-service APIs. This second DPoP is similar to the one produced in step 2, with two differences:
 
@@ -189,7 +189,7 @@ BASE64URL(SHA-256(access_token_bytes))
 This second DPoP must be signed with the same private key used for the first DPoP in step 2, intended for the PDND authorization server.
 {% endhint %}
 
-## Step 6 - Requesting data from the producer
+### Step 6: Requesting data from the producer
 
 The voucher must be inserted in the header of all subsequent calls to the producer’s APIs:
 
@@ -202,7 +202,7 @@ The consumer must also insert another header:
 <pre><code><strong>DPoP: &#x3C;DPoP_proof_generated_at_previous_step>
 </strong></code></pre>
 
-## Step 7 - Waiting for the producer’s checks
+### Step 7: Waiting for the producer’s checks
 
 The producer carries out all necessary checks. If everything is in order, it processes the consumer’s request, returning the requested data in the case of a data-providing e-service, or accepting the data from the consumer in the case of a data-receiving e-service.
 

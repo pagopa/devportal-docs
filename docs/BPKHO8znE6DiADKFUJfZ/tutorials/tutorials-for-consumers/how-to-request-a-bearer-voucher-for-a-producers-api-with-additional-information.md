@@ -2,7 +2,7 @@
 
 The JWS containing the additional information complies with [RFC 7519](https://datatracker.ietf.org/doc/html/rfc7519) and the identified pattern, that is, the one provided by AgID's ModI (_Audit REST 02_). For more information, see the [dedicated section](../../technical-references/utilizzare-i-voucher/types-of-voucher-requests.md#bearer-token-spendibile-presso-le-api-di-un-erogatore-con-informazioni-aggiuntive-pattern-modi-audit).
 
-## Summary of the flow <a href="#il-flusso-in-breve" id="il-flusso-in-breve"></a>
+### Summary of the flow <a href="#il-flusso-in-breve" id="il-flusso-in-breve"></a>
 
 Essentially, the end-to-end process requires seven steps:
 
@@ -14,7 +14,7 @@ Essentially, the end-to-end process requires seven steps:
 6. the consumer makes a request to the producer’s e-service; they insert both the voucher issued by PDND in the `Authorization` header, and the JWS with the additional information generated in step 1 in the `AgID-JWT-TrackingEvidence` header;
 7. the producer performs the necessary checks. If successful, it processes the consumer’s request.
 
-## Prerequisites <a href="#il-flusso-in-breve" id="il-flusso-in-breve"></a>
+### Prerequisites <a href="#il-flusso-in-breve" id="il-flusso-in-breve"></a>
 
 It is assumed that the consumer has:
 
@@ -22,7 +22,7 @@ It is assumed that the consumer has:
 * generated at least one set of cryptographic material and uploaded the corresponding public key to PDND within the client ([read tutorial](how-to-generate-the-cryptographic-material-and-upload-a-public-key.md));
 * associated the client with the purpose for which they want to obtain or send data to the producer ([read tutorial](how-to-associate-a-client-with-a-purpose.md)).
 
-## Step 1 - Generating the token containing the additional information <a href="#il-flusso-in-breve" id="il-flusso-in-breve"></a>
+### Step 1: Generating the token containing the additional information <a href="#il-flusso-in-breve" id="il-flusso-in-breve"></a>
 
 The consumer builds a JWS, inserting in the header the `kid` of a public key uploaded to PDND. With the corresponding private key, they will sign this JWS. In the body (payload) of the JWS, they insert the complementary information to send to the producer.
 
@@ -38,7 +38,7 @@ Example JWS header:
 
 Note: the private key used to sign and the `kid` of the corresponding public key uploaded to PDND do not necessarily have to be the same used to sign the client assertion in step 3.
 
-## Step 2 - Calculate the JWS hash <a href="#il-flusso-in-breve" id="il-flusso-in-breve"></a>
+### Step 2: Calculate the JWS hash <a href="#il-flusso-in-breve" id="il-flusso-in-breve"></a>
 
 From the encoded JWS (i.e., the JWS encoded according to the algorithm in the header, usually starting with `ey`), the consumer applies the SHA256 hashing algorithm to obtain a fixed-length non-reversible hash.
 
@@ -62,7 +62,7 @@ the output is the fixed-length hash
 
 Note: the `-n` flag in the command removes any unseen “newlines.” A newline in the token would change the hash value, causing a mismatch during the producer’s verification.
 
-## Step 3 - Generating the client assertion <a href="#il-flusso-in-breve" id="il-flusso-in-breve"></a>
+### Step 3: Generating the client assertion <a href="#il-flusso-in-breve" id="il-flusso-in-breve"></a>
 
 The next step is to build a valid _client assertion_. The client assertion is composed of a header and a payload containing the following fields.
 
@@ -110,7 +110,7 @@ For demonstration purposes, a Python script has been published showing how to pe
 
 A function is also available to check the validity of your client assertion and highlight any errors. The tool is available in the front office under _**Developers Tools > Debug client assertion**_.
 
-## Step 4 - Requesting the voucher from the authorization server
+### Step 4: Requesting the voucher from the authorization server
 
 The next step is to call PDND’s authorization server with the signed client assertion to obtain a voucher that can be used with the producer’s APIs.
 
@@ -120,7 +120,7 @@ The endpoint must be called with the following parameters in the body:
 
 <table><thead><tr><th width="248.03125">Field name</th><th>Meaning</th></tr></thead><tbody><tr><td><code>client_id</code></td><td>again, the <code>clientId</code> used in the assertion</td></tr><tr><td><code>client_assertion</code></td><td>the signed client assertion from the first step</td></tr><tr><td><code>client_assertion_type</code></td><td>the client assertion format, as indicated in RFC (always <code>urn:ietf:params:oauth:client-assertion-type:jwt-bearer</code>)</td></tr><tr><td><code>grant_type</code></td><td>the type of flow used, as indicated in RFC (always <code>client_credentials</code>)</td></tr></tbody></table>
 
-## Step 5 - The authorization server verifies and issues the voucher
+### Step 5: The authorization server verifies and issues the voucher
 
 If everything is set up correctly, PDND will respond with a valid voucher in the `access_token` property of the response body.
 
@@ -171,7 +171,7 @@ Payload:
 }
 ```
 
-## Step 6 - Request data from the producer
+### Step 6: Request data from the producer
 
 The voucher must be included in the header of all subsequent calls to the producer's API. It must be placed in the `Authorization` header, as follows:
 
@@ -183,7 +183,7 @@ Additionally, the JWS from step 1 is included in a custom header defined by AgID
 <pre><code><strong>Agid-JWT-TrackingEvidence: &#x3C;jws>
 </strong></code></pre>
 
-## Step 7 - Wait for producer verification
+### Step 7: Wait for producer verification
 
 The producer performs all necessary checks. If successful, it processes the request, either returning data (if the e-service provides data) or accepting data (if the e-service receives data).
 

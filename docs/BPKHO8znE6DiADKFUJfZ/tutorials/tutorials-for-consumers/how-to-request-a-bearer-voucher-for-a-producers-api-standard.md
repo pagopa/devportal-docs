@@ -2,7 +2,7 @@
 
 More information on this implementation can be found in the [dedicated section](../../technical-references/utilizzare-i-voucher/types-of-voucher-requests.md#bearer-token-spendibile-presso-le-api-di-un-erogatore-base).
 
-## Summary of the flow <a href="#il-flusso-in-breve" id="il-flusso-in-breve"></a>
+### Summary of the flow <a href="#il-flusso-in-breve" id="il-flusso-in-breve"></a>
 
 Essentially, the end-to-end process requires five steps:
 
@@ -12,7 +12,7 @@ Essentially, the end-to-end process requires five steps:
 4. The consumer makes a request to the producer’s e-service, inserting the voucher issued by PDND in the `Authorization` header;
 5. The producer performs the necessary checks. If successful, it processes the consumer’s request.
 
-## Prerequisites <a href="#il-flusso-in-breve" id="il-flusso-in-breve"></a>
+### Prerequisites <a href="#il-flusso-in-breve" id="il-flusso-in-breve"></a>
 
 It is assumed that the consumer has:
 
@@ -20,7 +20,7 @@ It is assumed that the consumer has:
 * Generated at least one set of cryptographic material and uploaded the related public key to PDND within the client ([read tutorial](how-to-generate-the-cryptographic-material-and-upload-a-public-key.md)).
 * Associated the client with the purpose for which they want to obtain or send data to the producer ([read tutorial](how-to-associate-a-client-with-a-purpose.md)).
 
-## Step 1 - Generating the client assertion <a href="#il-flusso-in-breve" id="il-flusso-in-breve"></a>
+### Step 1: Generating the client assertion <a href="#il-flusso-in-breve" id="il-flusso-in-breve"></a>
 
 The first step is to build a valid _client assertion_. The client assertion is composed of a header and a payload containing the following fields.
 
@@ -64,7 +64,7 @@ For demonstration purposes, a Python script has been published showing how to pe
 
 A function is also available to check the validity of your client assertion and highlight any errors. The tool is available in the front office under _**Developers Tools > Debug client assertion**_.
 
-## Step 2 - Requesting the voucher from the authorization server
+### Step 2: Requesting the voucher from the authorization server
 
 The second step is to call PDND’s authorization server with the signed client assertion to obtain a voucher that can be used with the producer’s APIs.
 
@@ -74,7 +74,7 @@ The endpoint must be called with the following parameters in the body:
 
 <table><thead><tr><th width="242.3499755859375">Field name</th><th>Meaning</th></tr></thead><tbody><tr><td><code>client_id</code></td><td>again, the <code>clientId</code> used in the assertion</td></tr><tr><td><code>client_assertion</code></td><td>the signed client assertion from the first step</td></tr><tr><td><code>client_assertion_type</code></td><td>the client assertion format, as indicated in RFC (always <code>urn:ietf:params:oauth:client-assertion-type:jwt-bearer</code>)</td></tr><tr><td><code>grant_type</code></td><td>the type of flow used, as indicated in RFC (always <code>client_credentials</code>)</td></tr></tbody></table>
 
-## Step 3 - The authorization server verifies and issues the voucher
+### Step 3: The authorization server verifies and issues the voucher
 
 If everything is set up correctly, PDND will respond with a valid voucher in the `access_token` property of the response body.
 
@@ -121,7 +121,7 @@ Payload:
 }
 ```
 
-## Step 4 - Request data from the producer
+### Step 4: Request data from the producer
 
 The voucher must be included in the header of all subsequent calls to the producer's API. It must be placed in the `Authorization` header, as follows:
 
@@ -129,7 +129,7 @@ The voucher must be included in the header of all subsequent calls to the produc
 Authorization: Bearer <voucher>
 ```
 
-## Step 5 - Waiting for the producer's checks
+### Step 5: Waiting for the producer's checks
 
 The producer performs all necessary checks.
 

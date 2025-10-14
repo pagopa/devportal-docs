@@ -1,6 +1,6 @@
 # How to access the PDND front office
 
-## Step 1 - Log in
+### Step 1: Log in
 
 Login using SPID or CIE.
 
@@ -8,19 +8,19 @@ Login using SPID or CIE.
 
 
 
-## Step 2 - Select the party
+### Step 2: Select the party
 
 Select the party for which you are working.
 
 <figure><img src="../../.gitbook/assets/interop_ambiente_test_02.png" alt=""><figcaption><p>Party selection screen on the <em>Members Area</em> Platform.</p></figcaption></figure>
 
-## Step 3 - Select PDND
+### Step 3: Select PDND
 
 Choose the product **PDND** (_**Interoperabilità**_).
 
 <figure><img src="../../.gitbook/assets/Interoperabilità nuovo layout.png" alt=""><figcaption><p>Product selection screen on the <em>Members Area</em> Platform.</p></figcaption></figure>
 
-## Step 4 - Select the environment
+### Step 4: Select the environment
 
 You will be asked to choose the environment in which you wish to operate: **Testing**, **Validation**, or **Production**.&#x20;
 
@@ -34,4 +34,4 @@ If you are not asked to select an environment, it means your user account is ass
 
 ***
 
-Next page [→ How to create a new administrator](how-to-create-a-new-administrator.md)
+Next page [→ How to create and revoke administrator users](how-to-create-and-revoke-administrator-users.md)

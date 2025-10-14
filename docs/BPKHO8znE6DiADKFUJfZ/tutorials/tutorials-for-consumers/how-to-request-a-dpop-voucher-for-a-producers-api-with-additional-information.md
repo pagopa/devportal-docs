@@ -4,7 +4,7 @@ This tutorial explains how to request a voucher that uses Demonstrating Proof-of
 
 The JWS containing the additional information complies with [RFC 7519](https://datatracker.ietf.org/doc/html/rfc7519) and the identified pattern, that is, the one provided by AgID's ModI (_Audit REST 02_). For more information, see the [dedicated section](../../technical-references/utilizzare-i-voucher/types-of-voucher-requests.md#bearer-token-spendibile-presso-le-api-di-un-erogatore-con-informazioni-aggiuntive-pattern-modi-audit).
 
-## Summary of the flow <a href="#il-flusso-in-breve" id="il-flusso-in-breve"></a>
+### Summary of the flow <a href="#il-flusso-in-breve" id="il-flusso-in-breve"></a>
 
 Essentially, the end-to-end process requires nine steps:
 
@@ -18,7 +18,7 @@ Essentially, the end-to-end process requires nine steps:
 8. The consumer makes a request to the producer’s e-service; inserts the voucher issued by PDND in the `Authorization` header, the DPoP generated in the previous step in the `DPoP` header, and the JWS with the additional information generated in step 1 in the `AgID-JWT-TrackingEvidence` header.
 9. The producer performs the necessary checks. If successful, it processes the consumer’s request.
 
-## Prerequisites <a href="#il-flusso-in-breve" id="il-flusso-in-breve"></a>
+### Prerequisites <a href="#il-flusso-in-breve" id="il-flusso-in-breve"></a>
 
 It is assumed that the consumer has:
 
@@ -26,7 +26,7 @@ It is assumed that the consumer has:
 * generated at least one set of cryptographic material and uploaded the corresponding public key to PDND within the client ([read tutorial](how-to-generate-the-cryptographic-material-and-upload-a-public-key.md));
 * associated the client with the purpose for which they want to obtain or send data to the producer ([read tutorial](how-to-associate-a-client-with-a-purpose.md)).
 
-## Step 1 - Generating the token containing the additional information <a href="#il-flusso-in-breve" id="il-flusso-in-breve"></a>
+### Step 1: Generating the token containing the additional information <a href="#il-flusso-in-breve" id="il-flusso-in-breve"></a>
 
 The consumer builds a JWS, inserting in the header the `kid` of a public key uploaded to PDND. With the corresponding private key, they will sign this JWS. In the body (payload) of the JWS, they insert the complementary information to send to the producer.
 
@@ -42,7 +42,7 @@ Example JWS header:
 
 Note: the private key used to sign and the `kid` of the corresponding public key uploaded to PDND do not necessarily have to be the same used to sign the client assertion in step 3.
 
-## Step 2 - Calculate the JSW hash <a href="#il-flusso-in-breve" id="il-flusso-in-breve"></a>
+### Step 2: Calculate the JSW hash <a href="#il-flusso-in-breve" id="il-flusso-in-breve"></a>
 
 From the encoded JWS (i.e., the JWS encoded according to the algorithm in the header, usually starting with `ey`), the consumer applies the SHA256 hashing algorithm to obtain a fixed-length non-reversible hash.
 
@@ -66,7 +66,7 @@ the output is the fixed-length hash
 
 Note: the `-n` flag in the command removes any unseen “newlines.” A newline in the token would change the hash value, causing a mismatch during the producer’s verification.
 
-## Step 3 - Generating the client assertion <a href="#il-flusso-in-breve" id="il-flusso-in-breve"></a>
+### Step 3: Generating the client assertion <a href="#il-flusso-in-breve" id="il-flusso-in-breve"></a>
 
 The next step is to build a valid _client assertion_. The client assertion is composed of a header and a payload containing the following fields.
 
@@ -114,7 +114,7 @@ For demonstration purposes, a Python script has been published showing how to pe
 
 A function is also available to check the validity of your client assertion and highlight any errors. The tool is available in the front office under _**Developers Tools > Debug client assertion**_.
 
-## Step 4 - Generating the first DPoP <a href="#il-flusso-in-breve" id="il-flusso-in-breve"></a>
+### Step 4: Generating the first DPoP <a href="#il-flusso-in-breve" id="il-flusso-in-breve"></a>
 
 The consumer then builds the DPoP intended for the PDND authorization server, which is a JWT with
 
@@ -143,7 +143,7 @@ where
 
 <table><thead><tr><th width="112.5546875">Field name</th><th>Meaning</th></tr></thead><tbody><tr><td><code>typ</code></td><td>must be set to <code>dpop+jwt</code></td></tr><tr><td><code>alg</code></td><td>Indicates the algorithm used to sign the DPoP. The recommended algorithm is <code>ES256</code></td></tr><tr><td><code>jwk</code></td><td>The public key in JWK format corresponding to the private key used to sign the DPoP</td></tr><tr><td><code>htm</code></td><td>Indicates the HTTP method being invoked. For obtaining a voucher from PDND, the method is <code>POST</code></td></tr><tr><td><code>htu</code></td><td>Indicates the URL being invoked. For obtaining a voucher from PDND in the Production environment it is <code>https://auth.interop.pagopa.it/token.oauth2</code> (for Testing and Validation environments use the specific one provided in the front office)</td></tr><tr><td><code>iat</code></td><td><em>Issued at</em> — the timestamp (<a href="https://datatracker.ietf.org/doc/html/rfc3339">UNIX epoch</a>, numeric) indicating the date and time when the DPoP is created</td></tr><tr><td><code>jti</code></td><td>Unique identifier of the DPoP. It is the consumer’s responsibility to ensure that the ID of this token is unique and not reused</td></tr></tbody></table>
 
-## Step 5 - Requesting the voucher from the authorization server
+### Step 5: Requesting the voucher from the authorization server
 
 The third step is to call the PDND authorization server with the signed client assertion to obtain in return a voucher that can be used with the PDND APIs.
 
@@ -158,7 +158,7 @@ The endpoint must be called with the following body parameters:
 
 <table><thead><tr><th width="255.26251220703125">Field name</th><th>Meaning</th></tr></thead><tbody><tr><td><code>client_id</code></td><td>again, the <code>clientId</code> used in the assertion</td></tr><tr><td><code>client_assertion</code></td><td>the signed client assertion from the first step</td></tr><tr><td><code>client_assertion_type</code></td><td>the client assertion format, as indicated in RFC (always <code>urn:ietf:params:oauth:client-assertion-type:jwt-bearer</code>)</td></tr><tr><td><code>grant_type</code></td><td>the type of flow used, as indicated in RFC (always <code>client_credentials</code>)</td></tr></tbody></table>
 
-## Step 6 - The authorization server verifies and issues the voucher
+### Step 6: The authorization server verifies and issues the voucher
 
 The PDND authorization server performs the necessary checks, specifically:
 
@@ -222,7 +222,7 @@ Payload:
 
 The `cnf.jkt` field contains the thumbprint of the public key in JWK format ([RFC 7638](https://datatracker.ietf.org/doc/html/rfc7638)) used in the DPoP sent by the consumer (client) to the PDND authorization server.
 
-## Step 7 - The consumer builds a second DPoP&#x20;
+### Step 7: The consumer builds a second DPoP&#x20;
 
 The consumer builds a second DPoP, this time intended for the producer’s e-service APIs. This second DPoP is similar to the one produced in step 2, with two differences:
 
@@ -239,7 +239,7 @@ BASE64URL(SHA-256(access_token_bytes))
 This second DPoP must be signed with the same private key used for the first DPoP in step 2, intended for the PDND authorization server.
 {% endhint %}
 
-## Step 8 - Requesting data from the producer
+### Step 8: Requesting data from the producer
 
 The voucher must be inserted in the header of all subsequent calls to the producer’s APIs:
 
@@ -257,7 +257,7 @@ Additionally, the JWS from step 1 is included in a custom header defined by AgID
 <pre><code><strong>Agid-JWT-TrackingEvidence: &#x3C;jws>
 </strong></code></pre>
 
-## Step 9 - Waiting for the producer’s checks
+### Step 9: Waiting for the producer’s checks
 
 The producer carries out all necessary checks. If everything is in order, it processes the consumer’s request, returning the requested data in the case of a data-providing e-service, or accepting the data from the consumer in the case of a data-receiving e-service.
 

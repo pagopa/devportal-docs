@@ -2,13 +2,11 @@
 
 It is possible to associate and remove clients from a purpose only if it is in the _**Active**_ state.
 
-## Step 1 - Access the purpose of interest
+### Step 1: Access the purpose of interest
 
 If you want to modify one or more associated clients, the subscriber can go to the front office under _**Subscribing > Sent purposes**_, find the desired purpose, and click on _**View**_.
 
-<figure><img src="../../.gitbook/assets/Nuova UI Le tue finalità.png" alt=""><figcaption><p>Phase 1</p></figcaption></figure>
-
-## Step 2 - Associate the client with the purpose
+### Step 2: Associate the client with the purpose
 
 In the _**Associated clients**_ tab, you can manage the clients by adding or removing those of interest.
 

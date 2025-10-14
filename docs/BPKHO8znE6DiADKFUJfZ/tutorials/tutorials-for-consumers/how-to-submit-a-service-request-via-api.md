@@ -2,7 +2,7 @@
 
 Submitting a service request (Agreement) involves creating a draft, followed by a submission.
 
-## Step 1 - Create the Agreement in DRAFT
+### Step 1: Create the Agreement in DRAFT
 
 The Agreement must be created by specifying both the e-service and the specific e-service version (_**EServiceDescriptor**_) it refers to.
 
@@ -33,7 +33,7 @@ If the creation request is successful, it produces an Agreement in DRAFT state.
 }
 ```
 
-## Step 2 - Submit the Agreement for activation
+### Step 2: Submit the Agreement for activation
 
 The draft can be submitted to request its activation.
 
@@ -45,7 +45,7 @@ POST /agreements/17bfba0b-85f2-44e1-9bfc-497605a0d8c7/submit
 {}
 ```
 
-### Response — Requirements met
+#### Response — Requirements met
 
 If the requesting consumer meets the necessary requirements, the Agreement is activated.
 
@@ -64,7 +64,7 @@ If the requesting consumer meets the necessary requirements, the Agreement is ac
 }
 ```
 
-### Response — Requirements not met
+#### Response — Requirements not met
 
 If the requesting consumer does not meet the necessary requirements, the Agreement moves to the waiting for approval (`PENDING`) state.
 

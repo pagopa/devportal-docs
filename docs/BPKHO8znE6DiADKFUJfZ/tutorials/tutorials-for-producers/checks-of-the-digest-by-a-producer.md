@@ -1,7 +1,5 @@
 # Checks of the digest by a producer
 
-## How to verify the digest of a voucher
-
 When a producer receives a request from a consumer, it must always perform the **voucher verifications**. These verifications depend on the **voucher type**: **Bearer** or **DPoP**.
 
 In both cases, if the consumer was required to include **additional audit information** according to the **AgID Audit REST 02 pattern**, an **extra verification** must be carried out on the `digest`.
@@ -10,7 +8,7 @@ For both **Bearer** and **DPoP** vouchers, the voucher will include an additiona
 
 Additionally, the request header will contain a **second token**, a **JWS** produced according to [**RFC 7519**](https://datatracker.ietf.org/doc/html/rfc7519), which appears in the `AgID-JWT-TrackingEvidence` header.
 
-### JWS content
+#### JWS content
 
 An example JWS header:
 

@@ -6,7 +6,7 @@ You can retrieve only the service requests (_Agreements_) in which the requester
 
 In the API, the status **In attesa di approvazione** is identified as **PENDING**.
 
-## Case 1 - The subscriber requests their own Agreements in PENDING
+### Case 1 — The subscriber requests their own Agreements in PENDING
 
 Including the `consumerIds` parameter with your party's ID is useful (but not mandatory) to avoid retrieving **PENDING** agreements for which you are the producer.
 
@@ -54,7 +54,7 @@ GET /agreements
 }
 ```
 
-## Case 2 - The producer retrieves PENDING Agreements for their e-service
+### Case 2 — The producer retrieves PENDING Agreements for their e-service
 
 The producer can retrieve the list of **PENDING** agreements that require their approval.
 
@@ -102,7 +102,7 @@ GET /agreements
 }
 ```
 
-## Case 3 - The producer retrieves PENDING Agreements for their e-service and a specific subscriber
+### Case 3 — The producer retrieves PENDING Agreements for their e-service and a specific subscriber
 
 The producer can get the **PENDING** agreement for one specific subscriber on their e-service.
 

@@ -2,7 +2,7 @@
 
 The use of a purpose (_**Purpose**_) requires creating a draft accompanied by the risk analysis, followed by activation.
 
-## Step 1 - Create the purpose in DRAFT
+### Step 1: Create the purpose in DRAFT
 
 The purpose must be created by indicating the e-service it will be used for, the purpose information, the load estimate, and the risk analysis.
 
@@ -51,7 +51,7 @@ If successful, the creation request produces a Purpose with a DRAFT version.
 }
 ```
 
-## Step 2 - Activate the purpose
+### Step 2: Activate the purpose
 
 Once completed, the Purpose must be submitted for activation.
 
@@ -63,7 +63,7 @@ POST /purposes/17bfba0b-85f2-44e1-9bfc-497605a0d8c7/activate
 {}
 ```
 
-### Case 1 - Load estimate below the maximum threshold
+#### Case 1 — Load estimate below the maximum threshold
 
 If the load estimate is below the thresholds set by the e-service version (_**EServiceDescriptor**_), the purpose is activated.
 
@@ -91,7 +91,7 @@ If the load estimate is below the thresholds set by the e-service version (_**ES
 }
 ```
 
-### Case 2 - Load estimate above the maximum threshold
+#### Case 2 — Load estimate above the maximum threshold
 
 If the load estimate is above the thresholds set by the e-service version (_**EServiceDescriptor**_), the Purpose goes into a _**WAITING\_FOR\_APPROVAL**_ state and requires confirmation by the producer.
 

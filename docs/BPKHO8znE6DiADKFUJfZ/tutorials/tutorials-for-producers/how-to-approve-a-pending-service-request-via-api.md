@@ -1,10 +1,10 @@
 # How to approve a pending service request via API
 
-On the API, the state **In attesa di approvazione** (Agreement) is identified as **PENDING**.
+On the API, the state **In attesa di approvazione** (Waiting for approval) in the context of an Agreement is identified as **PENDING**.
 
 An Agreement in **PENDING** state requires one or more actions by the **producer** of the e-service.
 
-## Case 1 - Manual approval required
+### Case 1 — Manual approval required
 
 Use this when activation of an Agreement requires manual approval by the producer. The producer can choose manual approval when defining a version of the e-service. For more information, see the [dedicated section](../../technical-references/e-services/#informazioni-di-versione).
 
@@ -31,11 +31,11 @@ POST /agreements/4ed64879-2568-4117-9b34-2322cbcdf90d/approve
 }
 ```
 
-## Case 2 - Verified attribute required
+### Case 2 — Verified attribute required
 
 Use this if the e-service requires the consumer to have one or more verified attributes that are not yet assigned.
 
-### Step 1 - Assign a verified attribute to the consumer
+#### Step 1: Assign a verified attribute to the consumer
 
 {% hint style="warning" %}
 This endpoint is not yet available, but can be executed manually via the front office. For more information, see the [dedicated section](../../technical-references/attributi/).
@@ -54,7 +54,7 @@ POST /tenants/172c89fe-62d1-4f3e-82bc-1ff034a85567/verifiedAttributes
 }
 ```
 
-### Step 2 - Approval of the Agreement by the producer
+#### Step 2: Approval of the Agreement by the producer
 
 The producer can now confirm activation of the Agreement.
 

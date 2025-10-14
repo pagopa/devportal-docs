@@ -4,11 +4,11 @@
 In the _Testing_ and _Production_ environments, delegations are available only for Public Administrations. In the _Validation_ environment, they are instead available to all parties for performing their own tests.
 {% endhint %}
 
-## Step 1 - Locate the feature
+### Step 1: Locate the feature
 
 Go to _**My party**_**&#x20;>&#x20;**_**Delegation management**_, _**Availability**_ tab.
 
-## Step 2 - Modify availability
+### Step 2: Modify availability
 
 Check whether availability for delegations in producing and/or consuming has been granted. You can change your preference by clicking _**Edit**_.
 

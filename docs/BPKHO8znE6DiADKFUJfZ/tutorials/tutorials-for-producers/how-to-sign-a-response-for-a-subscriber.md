@@ -6,7 +6,7 @@ Below is an example of a possible way to manage the signing mechanism of an e-se
 
 For more details, see the [dedicated section](../../technical-references/utilizzare-i-voucher/guaranteeing-response-integrity.md).
 
-## Prerequisites
+### Prerequisites
 
 It is assumed that the producer has:
 
@@ -14,7 +14,7 @@ It is assumed that the producer has:
 * generated at least one set of cryptographic material and uploaded the related public key to PDND within the client ([see tutorial](../tutorials-for-consumers/how-to-generate-the-cryptographic-material-and-upload-a-public-key.md));
 * associated the _**producer keychain**_ with the e-service for which it wants to sign the response to the subscriber ([see tutorial](how-to-associate-a-producer-keychain-with-an-e-service.md)).
 
-## Preparation - Define the structure of the response
+### Preparation: Define the structure of the response
 
 The producer defines the structure for signing an HTTP response payload using RSA, to ensure that the data comes from an e-service and has not been modified.
 
@@ -36,18 +36,18 @@ The JSON response the producer sends to the subscriber will be structured as fol
 
 Once defined, proceed to sign the response.
 
-## Step 1 - Create the hash
+### Step 1: Create the hash
 
 The content of the `data` field is converted into a byte string and passed through a hashing function such as SHA256.
 
-## Step 2 - Sign the hash
+### Step 2: Sign the hash
 
 The calculated hash is then signed using the private key corresponding to one of the public keys uploaded to the _**producer keychain**_ associated with the e-service.
 
 The signature ensures that only the holder of the private key corresponding to the `kid` (producer) can generate the specific signature for that content.\
 The `kid` of the uploaded public key is available within the keychain, by opening the page for the individual key (_**Producing > Producer keychains**_, _**Public keys**_ tab, selecting the specific key of interest).
 
-## Step 3 - Integrate the signature in the response
+### Step 3: Integrate the signature in the response
 
 As defined in the preparation step, the payload will contain:
 

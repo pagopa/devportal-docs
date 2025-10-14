@@ -1,28 +1,64 @@
-# How to create a new operator
+# How to create and revoke operator users
 
-### **Step 1 - Add a user**
+Operator roles are designed to delegate specific technical tasks to team members **without granting them full Administrator privileges**. This approach, based on the **“least privilege” principle**, increases security and ensures a clear division of responsibilities.
 
-After logging into the _**Members Area**_ platform, the administrator selects the _**Users**_ item from the menu on the left and then clicks on _**Add user**_.
+There are **two types of operational roles**:
 
-![The Members Area platform screen showing active users for PDND.](<../../.gitbook/assets/uat.selfcare.pagopa.it_dashboard_79177d7c-66c1-4f0e-8c9f-294b6939c851_users(Macbook Pro – Screenshot) (2).png>)
+* **API Operator:**\
+  A technical role focused on managing the **lifecycle of e-services and purposes**.\
+  It is ideal for developers or analysts responsible for the functional aspects of services.
+* **Security Operator:**\
+  A technical role with permissions limited to **client and cryptographic material management** (e.g., uploading and revoking public keys).\
+  It is intended for staff in charge of **integration security**.
 
-### **Step 2 - Enter the required data**
+This tutorial explains how an **Administrator** can **create and revoke** these specialized accounts.
 
-![The Members Area platform screen for creating a new account](<../../.gitbook/assets/uat.selfcare.pagopa.it_dashboard_79177d7c-66c1-4f0e-8c9f-294b6939c851_users(Macbook Pro – Screenshot) (4).png>)
+### Prerequisites
 
-Under _**Select the product**_, choose **PDND** (**Interoperabilità**). Then select the type of operator you want to create and click _**Continue**_.
+To perform these operations, you must access the **front office** with an account that has **Administrator** privileges. To add a new Operator, you need to know their **First Name**, **Last Name**, and **Fiscal Code**.
 
-![The Members Area (Self Care) platform screen for creating a new account
-filled in for a new user with API operator privileges on PDND.](<../../.gitbook/assets/uat.selfcare.pagopa.it_dashboard_79177d7c-66c1-4f0e-8c9f-294b6939c851_users(Macbook Pro – Screenshot) (6).png>)
+### Creating a new Operator
 
-Finally, confirm the operation.
+#### **Step 1: Access the “Users” section**
 
-![The confirmation modal on the Members Area platform
-to confirm the creation of the new account on PDND.](<../../.gitbook/assets/uat.selfcare.pagopa.it_dashboard_79177d7c-66c1-4f0e-8c9f-294b6939c851_users(Macbook Pro – Screenshot) (8).png>)
+From the main dashboard, click on the **“Users”** menu item to access the list of currently authorized users.
 
-After the role is assigned, the new user receives a registration notification at the email address entered in the creation form. The new user can then log into the _**Members Area**_ platform, where they can select PDND (Interoperabilità) from the products available for their account and click on _**Manage**_ to access the PDND service.
+#### **Step 2: Start creating a new user**
 
-![The home screen of the Members Area platform where the user will land after logging in. By finding the PDND (Interoperabilità) product and clicking on Manage, they will land on PDND and can start working.](<../../.gitbook/assets/uat.selfcare.pagopa.it_dashboard_79177d7c-66c1-4f0e-8c9f-294b6939c851(Macbook Pro – Screenshot).png>)
+Click the **“Add a user”** button.
+
+#### **Step 3: Enter the details and assign the role**
+
+Fill in the form with the information of the person you want to authorize:
+
+* **Fiscal Code:** Enter the user’s fiscal code.
+* **First Name:** Enter the user’s first name.
+* **Last Name:** Enter the user’s last name.
+* **Role:** Select from the dropdown the specific role to assign — **“API Operator”** or **“Security Operator.”**
+
+#### **Step 4: Confirm creation**
+
+Click **“Add”** to complete the operation. The new user will be added to the list and will be able to access the platform immediately using their **SPID** or **CIE** credentials. Their permissions will be limited to the actions allowed by the assigned Operator role.
+
+### Revoking an Operator
+
+#### **Step 1: Access the “Users” section**
+
+From the main dashboard, click on the **“Users”** menu item.
+
+#### **Step 2: Locate the user to revoke**
+
+Scroll through the list until you find the Operator whose access you want to revoke.
+
+#### **Step 3: Start the revocation**
+
+Click on the **trash can icon** or the **“Revoke”** button corresponding to the user’s row.
+
+#### **Step 4: Confirm the revocation**
+
+A confirmation dialog will appear. Click **“Confirm”** to proceed.
+
+Access for that user will be **immediately revoked**, and they will no longer be able to perform any operations on the platform.
 
 ***
 

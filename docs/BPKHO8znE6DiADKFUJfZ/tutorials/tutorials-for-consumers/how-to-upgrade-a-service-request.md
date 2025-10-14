@@ -2,11 +2,11 @@
 
 When a new version of the e-service is published in the catalog, all subscribers are required to update their service requests to the latest available version.
 
-## Step 1 - Access your request
+### Step 1: Access your request
 
 From the menu, go to _**Subscribing > Sent requests**_, select the request of interest, and enter it.
 
-## Step 2 - Upgrade the request
+### Step 2: Upgrade the request
 
 Before updating, it's recommended to consult with your technical team. In particular, it's best practice to review:
 
