@@ -16,8 +16,8 @@
 ## Riferimenti tecnici
 
 * [Specifiche del file CSV](riferimenti-tecnici/specifiche-del-file-csv.md)
-* [Dizionario degli stati del prodotto](riferimenti-tecnici/dizionario-degli-stati-del-prodotto.md)
 * [Elenco dei codici di errore](riferimenti-tecnici/elenco-dei-codici-di-errore.md)
+* [Dizionario degli stati del prodotto](riferimenti-tecnici/dizionario-degli-stati-del-prodotto.md)
 * [Glossario](riferimenti-tecnici/glossario.md)
 
 ## Casi d'uso

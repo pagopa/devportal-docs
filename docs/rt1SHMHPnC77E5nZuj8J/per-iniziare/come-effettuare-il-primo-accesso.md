@@ -13,14 +13,26 @@ A seguito delle verifiche, il Produttore riceve una comunicazione formale che co
 Per accedere alla piattaforma, seguire i seguenti passaggi:
 
 * **Step 1 - Accesso al portale** Collegarsi all'indirizzo del portale e selezionare la card relativa all'**Elenco Elettrodomestici**.
-* **Step 2 - Visione della documentazione** Prendere visione dei **Termini e condizioni d’uso** e dell’**informativa sul trattamento dei dati personali**.
-* **Step 3 - Avvio dell'autenticazione** Fare clic sul pulsante **Accedi**. Il sistema reindirizzerà al servizio di autenticazione.
-* **Step 4 - Autenticazione** Selezionare il proprio metodo di identità digitale, **SPID** o **CIE** (Carta d'Identità Elettronica), e completare l'autenticazione seguendo le istruzioni del proprio gestore.
 
-#### Primo accesso e visualizzazione anagrafica
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+* **Step 2 - Visione della documentazione** Prendere visione dei **Termini e condizioni d’uso** e dell’**informativa sul trattamento dei dati personali**.
+
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+In attesa dell’apertura del portale del Bonus Elettrodomestici dedicato all’Elenco informatico degli elettrodomestici, il Produttore avrà accesso ad una pagina informativa che gli comunica la data di apertura del portale. La data di apertura che verrà rispettata sarà quella indicata nel Decreto emesso dal MIMIT.
+
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
+* **Step 3 - Avvio dell'autenticazione** Fare clic sul pulsante **Accedi**. Il sistema reindirizzerà al servizio di autenticazione.
+* **Step 4 - Autenticazione** Selezionare il proprio metodo di identità digitale, **SPID** o **CIE** (Carta d'Identità Elettronica) e completare l'autenticazione seguendo le istruzioni del proprio gestore.
+
+#### Primo accesso e visualizzazione Panoramica
 
 Una volta completata l'autenticazione con successo, il sistema reindirizzerà il Produttore all'interno dell'area riservata.
 
-La prima schermata visualizzata è la sezione **"Anagrafica"**, che riepiloga i dati identificativi dell'azienda (Ragione Sociale, Codice Fiscale, Partita IVA). Questa schermata serve a confermare che l'accesso è avvenuto correttamente e che l'utente è associato all'azienda corretta.
+La prima schermata visualizzata è la sezione **"Panoramica"**, che riepiloga i dati identificativi dell'azienda (Ragione Sociale, Codice Fiscale, Partita IVA). Questa schermata serve a confermare che l'accesso è avvenuto correttamente e che l'utente è associato all'azienda corretta.
 
-I dati presenti in questa sezione sono di sola lettura. Per eventuali richieste di modifica, è necessario seguire la procedura descritta nel tutorial [Visualizzare i propri dati anagrafici](https://www.google.com/search?q=placeholder-link).
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+
+I dati presenti in questa sezione sono di sola lettura. Per eventuali richieste di modifica, è necessario seguire la procedura descritta nel tutorial [Visualizzare i propri dati anagrafici](../tutorial/come-visualizzare-i-propri-dati-anagrafici.md).

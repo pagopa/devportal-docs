@@ -16,7 +16,7 @@ Il Produttore accede alla piattaforma e segue la procedura descritta nel tutoria
 
 #### Step 2 - Il Produttore verifica l'esito del caricamento
 
-Dopo alcuni minuti, il Produttore accede alla sezione "Storico Caricamenti" per controllare lo stato dell'operazione, come spiegato in [Come consultare lo storico dei caricamenti](../tutorial/come-consultare-lo-storico-dei-caricamenti.md). Trova una nuova riga per il file `lotto_prodotti_q4.csv` con esito **"Caricato Parzialmente"**. Questo conferma che alcuni prodotti sono stati accettati, mentre altri no. Clicca sull'icona di download per scaricare il file di scarto, che il sistema nomina `scarto_lotto_prodotti_q4.csv`.
+Dopo alcuni minuti, il Produttore accede alla sezione **"Storico Caricamenti"** per controllare lo stato dell'operazione, come spiegato in [Come consultare lo storico dei caricamenti](../tutorial/come-consultare-lo-storico-dei-caricamenti.md). Trova una nuova riga per il file `lotto_prodotti_q4.csv` con esito **"Caricato Parzialmente"**. Questo conferma che alcuni prodotti sono stati accettati, mentre altri no. Clicca sull'icona di download per scaricare il file di scarto, che il sistema nomina `scarto_lotto_prodotti_q4.csv`.
 
 #### Step 3 - Il Produttore analizza gli errori e corregge il file
 
@@ -27,13 +27,12 @@ Il Produttore apre il file `scarto_lotto_prodotti_q4.csv`. Il file contiene solo
 | 9999999      | 8003437042311   | ... | Il prodotto non è presente o caricato nell'elenco della Banca dati europea... |
 | 2416729      | 8003437042399   | ... | Il codice GTIN indicato nel file CSV è un duplicato                           |
 
-```
-Seguendo le indicazioni del tutorial [Gestire gli errori di caricamento](placeholder-link), il Produttore:
-1.  Corregge il codice EPREL errato (9999999) con quello giusto.
-2.  Rimuove la riga con il GTIN duplicato.
-3.  **Elimina la colonna "Messaggio errore"**.
-4.  Salva il file corretto, che ora contiene una sola riga valida, con il nome `correzione_lotto_q4.csv`.
-```
+Seguendo le indicazioni del tutorial [Gestire gli errori di caricamento](../tutorial/come-gestire-gli-errori-di-caricamento.md), il Produttore:
+
+1. Corregge il codice EPREL errato (9999999) con quello giusto.
+2. Rimuove la riga con il GTIN duplicato.
+3. **Elimina la colonna "Messaggio errore"**.
+4. Salva il file corretto, che ora contiene una sola riga valida, con il nome `correzione_lotto_q4.csv`.
 
 #### Step 4 - Il Produttore ricarica solo i prodotti corretti
 

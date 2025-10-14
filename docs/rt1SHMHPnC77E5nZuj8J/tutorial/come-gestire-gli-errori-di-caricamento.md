@@ -4,7 +4,7 @@ Questo tutorial guida il Produttore nell'analisi del **file di scarto** generato
 
 ### Prerequisiti
 
-Per seguire questa guida, il Produttore deve aver scaricato un file di scarto dalla sezione "Storico Caricamenti", a seguito di un caricamento con esito **"Caricato Parzialmente"** o **"Rifiutato"**.
+Per seguire questa guida, il Produttore deve aver scaricato un file di scarto dalla sezione **"Storico Caricamenti"**, generato dal sistema a seguito di un caricamento con esito **"Caricato Parzialmente"** o **"Rifiutato"**.
 
 La procedura di download è descritta nel tutorial [Come consultare lo storico dei caricamenti](come-consultare-lo-storico-dei-caricamenti.md).
 
@@ -38,8 +38,7 @@ Una volta identificati gli errori, il Produttore deve:
 1. **Correggere le informazioni** errate direttamente nelle celle corrispondenti del file di scarto.
 2. **Eliminare l'intera colonna "Messaggio errore"** dal file.
 3. **Salvare** il file così modificato. Il file ora contiene solo i prodotti precedentemente scartati, ma con i dati corretti, ed è pronto per essere ricaricato.
-
-* **Step 4 - Ricaricare il file corretto** Tornare alla sezione **"Caricamento lotti"** e ripetere la procedura di caricamento utilizzando il nuovo file appena salvato.
+4. **Ricaricare il file corretto** Tornare alla sezione **"Caricamento lotti"** e ripetere la procedura di caricamento utilizzando il nuovo file appena salvato.
 
 #### Prossimi Passi
 

@@ -4,11 +4,11 @@ Il caricamento massivo dei prodotti sulla piattaforma avviene tramite file in fo
 
 Esistono **due formati distinti**, a seconda che i prodotti da caricare siano registrati o meno sulla banca dati europea **EPREL**.
 
-**Regole generali:**
+**Requisiti per entrambi i formati:**
 
 * Il file deve utilizzare la codifica **UTF-8**.
 * Il separatore di campo deve essere la **virgola** (`,`).
-* La **prima riga** del file deve sempre contenere l'intestazione con i nomi dei campi, esattamente come specificato di seguito.
+* La **prima riga** del file deve sempre contenere l'intestazione con i nomi dei campi, come specificato di seguito.
 
 ***
 

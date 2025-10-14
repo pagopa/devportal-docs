@@ -6,11 +6,11 @@ Questa guida è pensata per il **Produttore** e descrive come utilizzare l' "Ele
 
 ### Il ruolo del Produttore
 
-Il ruolo del Produttore è fondamentale per il successo dell'iniziativa. Attraverso questa piattaforma, ha il compito di fornire e mantenere aggiornata la lista dei propri elettrodomestici che possono beneficiare del bonus.
+Il Produttore, attraverso questa piattaforma, ha il compito di fornire e mantenere aggiornata la lista dei propri elettrodomestici che possono beneficiare del bonus.
 
 L'attività principale consiste nel caricare un elenco dei propri prodotti in un formato standard (**CSV**), che verrà poi validato e reso disponibile per le verifiche necessarie.
 
-### Come funziona la piattaforma: l'Elenco Informatico degli Elettrodomestici
+### L'Elenco Informatico degli Elettrodomestici
 
 L'Elenco Informatico degli Elettrodomestici è lo strumento ufficiale che permette al Produttore di:
 
@@ -19,4 +19,4 @@ L'Elenco Informatico degli Elettrodomestici è lo strumento ufficiale che permet
 * **Verificare** lo stato di approvazione di ogni prodotto inserito.
 * **Gestire** eventuali anomalie o richieste di modifica in modo tracciato.
 
-Questa documentazione guiderà il Produttore passo dopo passo, dal primo accesso fino alla gestione completa del proprio catalogo prodotti all'interno dell'iniziativa.
+Questa documentazione guiderà il Produttore passo dopo passo all'interno dell'iniziativa, dal primo accesso fino alla gestione completa del proprio catalogo prodotti.
