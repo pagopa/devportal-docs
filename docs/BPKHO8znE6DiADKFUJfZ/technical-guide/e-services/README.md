@@ -1,36 +1,61 @@
 # E-services
 
-E-services consist of two parts:
+## What it is and what it is for
 
-* A part containing **general information**, which includes essential details on how the e-service functions.
-* A **versioned** part, managed through progressive automatic versioning; it contains data that are subject to change and evolve over time.
+An e-service is a digital service that enables communication and data exchange between Public Administrations through the National Digital Data Platform (PDND). Its purpose is to make data and digital functionalities of an administration (called _producer_) securely, standardly, and controllably available to other administrations or public entities (consumers).
 
-## Essential information
+E-services represent the core of the PDND interoperability model: each party can either produce or consume digital services from other parties, ensuring traceability, security, and centralized permission management.
+
+## Structure
+
+### General section
+
+Contains the essential information required for the publication and operation of the e-service.
+
+### Versioned section
+
+Contains the technical information specific to each version of the service, including APIs, documentation, and operational thresholds.
+
+## Required general information
 
 The general section requires:
 
-* **Name and short description**: displayed within the _E-service Catalog_ on PDND.
-* **Technology**: the technology used to develop the API through which the e-service will be provided, either REST or SOAP.
-* **Mode**: whether the e-service handles data in **read** or **write**. If it writes, it means the producer receives data; if it reads, all endpoints return data to the subscriber. It is not possible to have a single e-service expose both read and write endpoints.
-* **Risk analysis**: required only for services operating in **write** mode. In that case, the producer must indicate the use cases for which they plan to collect consumer data and complete the risk analysis questionnaire. More details are available in the [dedicated section](../finalita/risk-analysis.md).
-* **Delegation authorization**: indicates whether consuming Public Administrations can delegate another Public Administration to complete administrative tasks (service request, purpose) on their behalf. More details in the [dedicated section](../delegations/).
-* **Presence of data change notification (Signal Hub)**: indicates whether this e-service is integrated with the Signal Hub, enabling consumers to stay updated on changes to data of interest within the producer’s database. If disabled, the involved parties cannot write or read notifications via the Signal Hub. More details in the [dedicated guide](https://developer.pagopa.it/pdnd-interoperabilita/guides/manuale-operativo-signal-hub).
+* **Name and brief description:** visible in the e-service catalog on the PDND platform.
+* **Technology:** indicates whether the API is developed in REST or SOAP.
+* **Mode:** specifies whether the e-service produces or receives data. If it produces, all API endpoints expose data. If it receives, all endpoints collect data.
+* **Risk analysis:** required only if the mode is “receiving.” In this case, the producer specifies the use cases for which it collects data from consumers and completes the dedicated questionnaire. More details are provided in the relevant section.
+* **Authorization for delegation:** specifies whether the consuming Public Administrations can delegate another administration to complete administrative tasks (_service request_, purpose) on their behalf. More details are provided in the relevant section.
+* **Presence of the data change notification service (Signal Hub):** indicates whether the e-service is integrated with Signal Hub, allowing consumers to receive notifications in case of data changes of their interest. More details are provided in the relevant section.
 
-To ensure long-term robustness and service continuity, the values set in **technology** and **mode** cannot be modified once the first version of the e-service is published. However, it is still possible to create new e-services and archive obsolete ones.
+The values set for technology and mode remain unchanged after the publication of the first version of the e-service, ensuring service stability and consistency over time. However, it is possible to create new e-services and archive those no longer in use.
 
-## Version information
+### Version information
 
-The versioned section requires:
+The versioned section requires the following information:
 
-* **API specification file for this e-service version**: must upload an OpenAPI file for REST services or a WSDL file for SOAP services, as indicated within the security perimeter of the ModI. This file contains the interface specification of the API the producer will expose in this version of the e-service.
-* **Additional technical documentation**: the producer may attach supporting documentation for the API specification, such as a usage manual or examples. This is always recommended.
-* **Changelog** (version description): a brief summary highlighting changes from the previous version(s).
-* **Attributes**: list of access requirements the consumer must possess to have their service request activated and access the producer’s e-service. More details in the [dedicated section](../attributi/).
-* **Policy for activating service requests**: by default, all service requests submitted by consumers are automatically activated if they possess all required access requirements; the producer may choose to activate them manually instead.
-* **API call thresholds**: the expected load in API calls/day that the producer’s infrastructure can handle. More details in the [dedicated section](thresholds-and-load-estimates.md) describing the load estimation mechanism.
-* **Voucher validity duration**: time period for which the voucher issued by PDND remains valid to access the service.
-* **Audience parameter (`aud`)**: a standard claim representing the resource for which the request is authorized (e.g., a URL or unique identifier). The producer will receive this value in the voucher provided to the consumer by PDND.
+* **API specification file for the version:** an OpenAPI file (for REST) or WSDL file (for SOAP) that technically describes the API exposed by the producer.
+* **Additional technical documentation:** may include manuals, examples, or other supporting materials.
+* **Changelog (version description):** a brief textual description of the changes introduced compared to previous versions.
+* **Attributes:** a set of access requirements that the consumer must meet to activate the service request. More details are provided in the relevant section.
+* **Activation policy for service requests:** by default, requests are automatically activated if the consumer meets the required criteria. The producer may choose to activate them manually.
+* **API call thresholds:** indicate the maximum load, expressed in API calls per day, that the infrastructure can handle. More details are provided in the relevant section.
+* **Voucher validity period:** indicates the validity period of the voucher issued by PDND, which allows access to the service.
+* **Audience parameter (aud):** standard claim that identifies the resource for which the request is authorized. The producer will receive this value within the voucher issued to the consumer by PDND.
 
-All parameters can be updated over time only by creating a new version of the e-service, except for the **API specification file** and the **audience** parameter—those cannot be modified. **Attributes** (**access requirements**) may be changed without creating a new version only if they expand the pool of possible consumers.
+All parameters can be updated over time without creating a new e-service version, except for:
 
-More information on managing updates is available in the [dedicated tutorial](../../tutorials/producer/back-office/how-to-update-an-e-service.md).
+* the API specification file,
+* the audience parameter,
+* the attributes, which may be modified without a new version only if the change expands the group of consumers.
+
+More information on update management is available in the dedicated tutorial.
+
+### Update rules
+
+* E-services are automatically versioned in sequential order.
+* PDND allows the creation of new versions for structural changes while maintaining consistency among published versions.
+* It is possible to archive inactive versions and publish new ones.
+
+***
+
+Next page →&#x20;

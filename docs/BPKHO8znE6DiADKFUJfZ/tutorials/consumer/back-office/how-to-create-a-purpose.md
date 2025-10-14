@@ -17,7 +17,7 @@ The following information is required to create the purpose:
 * **name and description**: used only to help the party distinguish between the different purposes they have created;
 * **free of charge flag**: indicate whether access to the data is provided free of charge (for Public Administrations, this is always the case);
 * **reason for free of charge**: provide justification for the free-of-charge access (for Public Administrations, this is prefilled with "I am a Public Administration");
-* **load estimate**: the number of API calls per day the subscriber estimates to make toward the e-service’s API (see the [dedicated section](../../../technical-guide/e-services/thresholds-and-load-estimates.md) for more details).
+* **load estimate**: the number of API calls per day the subscriber estimates to make toward the e-service’s API (see the [dedicated section](../../../technical-guide/e-services/thresholds-and-approvals.md) for more details).
 
 ## Step 4 - Fill in the risk analysis questionnaire
 

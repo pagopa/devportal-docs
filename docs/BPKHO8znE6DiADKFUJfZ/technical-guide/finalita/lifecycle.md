@@ -25,7 +25,7 @@ The producer may also indicate a planned activation date, to inform the consumer
 
 It is always possible to update the load estimate, increasing or decreasing the number of API calls per day requested from the producer.
 
-If the request exceeds one or both thresholds set by the producer in their e-service version, that adjustment will not be immediately active or usable. It will be up to the producer to approve it manually. For more information on the threshold and load mechanism, see the [dedicated section](../e-services/thresholds-and-load-estimates.md).
+If the request exceeds one or both thresholds set by the producer in their e-service version, that adjustment will not be immediately active or usable. It will be up to the producer to approve it manually. For more information on the threshold and load mechanism, see the [dedicated section](../e-services/thresholds-and-approvals.md).
 
 ### Approvazione o rifiuto di una finalità sopra soglia
 

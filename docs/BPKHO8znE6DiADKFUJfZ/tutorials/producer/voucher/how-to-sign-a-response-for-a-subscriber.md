@@ -10,7 +10,7 @@ For more details, see the [dedicated section](../../../technical-guide/utilizzar
 
 It is assumed that the producer has:
 
-* created a **producer keychain** ([see guide](../../../technical-guide/e-services/keychains/));
+* created a **producer keychain** ([see guide](../../../technical-guide/e-services/keychains.md));
 * generated at least one set of cryptographic material and uploaded the related public key to PDND within the client ([see tutorial](../../consumer/back-office/how-to-generate-the-cryptographic-material-and-upload-a-public-key.md));
 * associated the _**producer keychain**_ with the e-service for which it wants to sign the response to the subscriber ([see tutorial](../back-office/how-to-associate-a-producer-keychain-with-an-e-service.md)).
 

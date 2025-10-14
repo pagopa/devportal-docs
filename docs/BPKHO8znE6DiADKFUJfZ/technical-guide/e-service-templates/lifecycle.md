@@ -30,7 +30,7 @@ The main difference from a simple e-service is that the fields to fill out are d
 
 **Fields with suggestions** relate to day-to-day management by the producer. The party instantiating the template can choose to accept the creator’s suggestion or adjust the values at their discretion. The suggested fields are:
 
-* e-service: [Signal Hub](../integrations.md#signal-hub) availability;
+* e-service: [Signal Hub](../signal-hub.md#signal-hub) availability;
 * e-service version: API calls per day thresholds, policy for activating service requests.
 
 **Fields to complete** are specific to each individual party. In this case, it is the e-service provider who must complete them. The fields to complete are:

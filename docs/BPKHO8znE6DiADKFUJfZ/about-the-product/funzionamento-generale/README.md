@@ -6,7 +6,7 @@ To share their data via PDND, a party must follow these steps:
 
 1. [Subscribe](https://docs.pagopa.it/interoperabilita-1/manuale-operativo/guida-alladesione) to PDND (just the first time).
 2. Access the platform to verify the APIs already present in the E-service Catalog.
-3. Develop an API that complies with the security perimeter and standards outlined in the _Model of Interoperability_ (ModI) defined by AgID. It outlines the boundaries for interoperability among public administrations. Further references are available in the [dedicated section](../../technical-guide/e-services/references-and-tools.md).
+3. Develop an API that complies with the security perimeter and standards outlined in the _Model of Interoperability_ (ModI) defined by AgID. It outlines the boundaries for interoperability among public administrations. Further references are available in the [dedicated section](../../technical-guide/e-services/tools-and-references.md).
 4. Add [a check](../../technical-guide/utilizzare-i-voucher/checks-on-a-bearer-voucher-by-a-producer.md) to the API to validate the legitimacy and validity of vouchers presented by data requesters. A voucher is valid only if it is issued by PDND, is currently valid, and pertains to the correct resource.
 5. Publish the API as an e-service on the PDND E-service Catalog, including all necessary contextual and descriptive information.
 
