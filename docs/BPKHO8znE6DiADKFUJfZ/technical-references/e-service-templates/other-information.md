@@ -1,11 +1,24 @@
 # Other information
 
-### Monitoring of instances: integration process <a href="#monitoraggio-delle-istanze-andamento-delle-integrazioni" id="monitoraggio-delle-istanze-andamento-delle-integrazioni"></a>
+### Monitoring instances: tracking integrations
 
-The creator of the template can always monitor the status of the instances created from the template itself in the _**Producing > My templates**_ section. In this way, they can check for any version misalignments (e.g., parties that do not update their instance) or any issues affecting the network.
+The **template creator** can monitor the **status of the instances** derived from the template at any time, either via **API** or manually. It is always possible to:
 
-### Integration with the delegation mechanism <a href="#integrazione-con-il-meccanismo-di-delega" id="integrazione-con-il-meccanismo-di-delega"></a>
+* **Verify version alignment** between the template and its instances (e.g., identify parties that have not yet updated their instance);
+* **Detect potential issues** affecting the network of parties that have adopted the template;
+* **Direct support activities** toward parties requiring assistance or updates.
 
-E-service templates are fully integrated with the delegation mechanism. It is therefore possible for a party to give a delegation for producing their e-service instance derived from a template. Likewise, it is possible to give a delegation for consuming in order to subscribe to an e-service instance derived from a template.
+### Integration with the delegation mechanism
 
-For subscribing, the same constraint that applies to all e-services still holds. If the producer of the instance has defined that for that e-service they accept service requests by delegation, it will be possible to submit them. Otherwise, it will not be allowed. For more information on delegations, see the [dedicated section](../delegations/).
+**E-service templates** are fully **integrated with the delegation mechanism**. Therefore, it is possible to:
+
+* **Delegate the producing** of an **instance** derived from a template to another party;
+* **Delegate the consuming** to **subscribe** to an instance derived from a template.
+
+For **consuming**, the general rule already applicable to all e-services applies: **service requests by delegation** are **allowed** only if the producer of the instance has **explicitly enabled** this option in the e-service configuration (the setting is visible in the **e-service page**).
+
+For additional operational details on **producing** and **consuming** delegations, refer to the [**dedicated section**](../delegations/).
+
+***
+
+Next page [→ Signal Hub](../signal-hub.md)

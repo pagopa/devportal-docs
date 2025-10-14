@@ -1,9 +1,25 @@
 # E-service templates
 
-An e-service template standardizes the process of creating e-services for recurring use cases. If many parties need to produce the same e-service, it is possible to create an e-service template, so as to ensure that all services are produced with the same API and with similar e-service characteristics (e.g., same name and description).
+### What they are and how they work
 
-All templates prepared by the creator parties (called “API co-design manager” in the AgID Guidelines) are available in a dedicated catalog, different from the _E-service Catalog_.
+**E-service templates** standardize the **creation of e-services** for **recurring use cases**.\
+When multiple parties need to produce the **same e-service**, templates ensure the use of the **same API** and **homogeneous features** (e.g., **name** and **description**).
 
-Each party authorized to produce can consult the template catalog and create its own e-service instance, which will have characteristics similar to those defined in the template itself.
+### Template catalog
 
-For an introduction and a demo of the functionality, see the [dedicated webinar](https://developer.pagopa.it/webinars/DevTalks-PDNDInterop-template-e-service).
+Templates prepared by **creator parties** (referred to in the AgID Guidelines as **API co-design managers**) are published in a **dedicated catalog**, separate from the **e-service catalog**.
+
+### Use by producing parties
+
+Each **authorized producer** can:
+
+1. **Browse** the **template catalog**;
+2. **Create its own instance** of an e-service starting from the selected template.
+
+The instance inherits **features identical** to those defined in the template, ensuring **consistency** across multiple producing parties.
+
+An introduction and demo of this feature are available in the [**dedicated webinar**](https://developer.pagopa.it/webinars/DevTalks-PDNDInterop-template-e-service).
+
+***
+
+Next page [→ Operations and lifecycle](operations-and-lifecycle.md)

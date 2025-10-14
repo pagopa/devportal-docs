@@ -1,38 +1,71 @@
 # Relationship between template and instance
 
-### Who can create templates? <a href="#chi-puo-creare-i-template" id="chi-puo-creare-i-template"></a>
+### Who can create templates
 
-All parties authorized to act as producers in a given environment can create and evolve e-service templates. To create a new template, go to _**Producing**_**&#x20;>&#x20;**_**Your templates**_ and click on _**Create new**_.\
-The creation of a template is very similar to that of an e-service: in fact, a template contains the same fields as an e-service. The only difference is that there is an extra field for the **template description with potential explanatory notes**, intended to support parties interested in deriving their own instance.
+All **parties authorized to produce** in a specific environment can **create and evolve** e-service templates.\
+To create a new template:
 
-### Who can instatiate e-services from templates? <a href="#chi-puo-istanziare-gli-e-service-a-partire-dai-template" id="chi-puo-istanziare-gli-e-service-a-partire-dai-template"></a>
+1. Go to **Producing → My e-service templates**;
+2. Click **Create new**.
 
-Similarly, all parties authorized to act as producers in a given environment can create instances from templates. They can do this via _**Producing**_**&#x20;>&#x20;**_**Template catalog**_, selecting the desired template and clicking on _**Use template**_ to generate their own instance.
+Creating a template is similar to creating an **e-service**: it contains the **same fields**, plus one dedicated field for the **template description**, which may include **informative notes** useful for parties who will create their own instance from it.
 
-### Management of access requirements (attributes) <a href="#gestione-dei-requisiti-di-accesso-attributi" id="gestione-dei-requisiti-di-accesso-attributi"></a>
+### Who can instantiate e-services from templates
 
-As described in the [dedicated section](lifecycle.md), **the definition of attributes is at the discretion of the template creator**. The party deriving its instance from the template cannot modify them independently. If they believe there are inconsistencies, they must contact the template creator, who may correct them.&#x20;
+Similarly, all **parties authorized to produce** in a given environment can **create instances** from templates.\
+To do so:
 
-As with any other e-service, the attributes of the instance are the ones that will be required from potential consumers in order to submit a service request.
+1. Go to **Producing → E-service templates**;
+2. Select the **template of interest**;
+3. Click **Use template** to generate your own instance.
 
-### Relationship between states <a href="#relazione-tra-gli-stati" id="relazione-tra-gli-stati"></a>
+### Access requirement (attribute) management
 
-**The states** of a template and those of e-services instantiated from it **are completely independent from one another**. When a producer instantiates their e-service from a template, it does not inherit the template’s state updates.
+The **definition of attributes** is the **exclusive responsibility of the template creator**.\
+The party deriving its instance **cannot modify them independently**.\
+If it finds any **inconsistencies**, it must contact the **template creator** to request corrections.
 
-For example, if a template is suspended while the instantiated e-service is active, the e-service remains active. Likewise, a producer can archive their instance of an e-service without affecting the template.
+As with any e-service, the **attributes of the instance** represent the **access requirements** that consumers must meet to **submit a service request**.
 
-### Reception of template updates <a href="#recepimento-degli-aggiornamenti-a-un-template" id="recepimento-degli-aggiornamenti-a-un-template"></a>
+More details on attributes are provided in the [dedicated section](../attributi/).
 
-An e-service template can be updated over time. These updates are categorized as either minor or critical.
+### Relationship between states
 
-**Minor updates are propagated immediately** to all instances. For example, if an error is identified and corrected in the template description, that correction will automatically appear in all e-service instances derived from that template.
+The **states of the template** and those of the **instantiated e-services** are **independent**.
 
-**Critical updates** involve structural changes to the API interface, for which the template creator generates a new version of the template. In such cases, instances cannot be updated automatically. Each party that instantiated an e-service from the template **must update** it **manually** after making the necessary technical adjustments.
+* If a **template is suspended**, the **instantiated e-services** remain unchanged.
+* If an **instantiated e-service** is archived, it **does not affect** the template.
 
-Due to its critical nature, this update results in a new version of the e-service instance. Consequently, **all consumers must update their service request to the latest version of the e-service** after completing tests and technical updates, just like with any other e-service.
+**Example:** a suspended template can no longer generate new instances, but an already active e-service continues to operate normally.
 
-### Upgrading an instance <a href="#aggiornamento-di-unistanza" id="aggiornamento-di-unistanza"></a>
+### Applying template updates
 
-If a party has published an e-service instance and needs to update it (e.g., to change the server URL or audience), a new version of the e-service instance must be created—just as with any e-service.&#x20;
+An e-service template can be **updated over time**. Updates are classified as **minor** or **critical**.
 
-In this scenario, the version of the e-service instance may diverge from that of the template (e.g., the template may be at version 2 while the instance is at version 3).
+#### Minor updates
+
+They are **automatically propagated** to all instances of the template.\
+**Example:** correcting a typo in the template description → the modification immediately appears in all instances.
+
+#### Critical updates
+
+They require **publishing a new version** of the template (e.g., structural changes to the API interface).\
+In these cases, the **derived e-services** must be **manually updated** by the managing parties, after completing any **necessary technical adjustments**.
+
+Updating the instance creates a **new version of the e-service**, and as a result:
+
+* all **consumers** must **update their service requests** to the latest version;
+* any **tests or technical verifications** must be repeated as for any other e-service.
+
+### Updating an instance
+
+A party that has published an **e-service instance** may need to **update it independently** for specific reasons (e.g., changes to the **server URL** or **audience**).\
+In such cases, it must create a **new version of its instance**, following the same procedure as for any e-service.
+
+It may happen that the **template version** and the **instance version** **do not match**.
+
+**Example:** the **template e-service** is at **version 2**, while the party’s **instance** is at **version 3**, due to specific adaptations.
+
+***
+
+Next page [→ Other information](../signal-hub.md)

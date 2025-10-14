@@ -1,48 +1,67 @@
 # Delegation for consuming
 
-The delegation for subscribing allows a party to delegate the administrative operations related to the subscribing to an e-service.
+### Definition and scope
 
-In the case of delegation for consuming:
+The **delegation for consuming** allows a party (**delegating party**) to entrust another party (**delegate**) with the **administrative management** of the consumption of an e-service. The delegation concerns **administrative activities only** and does not change the ownership of the service request, which remains with the **delegating party**.
 
-1. the delegate submits and manages the subscribing request for the e-service for which they have received the delegation;
-2. the delegator and the delegate submit and manage the purposes with related risk analyses (each independently);
-3. the delegator associates clients with the purposes that they have created;
-4. the delegate associates clients with the purposes that they have created in delegation (only if the provider expressly allows it).
+Within the **AgID Guidelines on the technological infrastructure of the National Digital Data Platform (PDND)** issued by **AgID**, this functionality is referred to as the **“Consumer’s Delegate.”**
 
-Within the AgID Guidelines, this functionality is called “Delegato del Fruitore”.
+Delegation for consuming is possible **only if the producer** has explicitly indicated, in the configuration of its e-service, that **consumption by delegation is authorized**. This information is visible within the **e-service page**.
 
-{% hint style="warning" %}
-The delegation for consuming is possible only for e-services for which the subscribing request of the delegator is in active status.
-{% endhint %}
+### Delegate’s responsibilities
 
-## Day-to-day management <a href="#delega-per-la-fruizione-gestione-del-day-by-day" id="delega-per-la-fruizione-gestione-del-day-by-day"></a>
+In a delegation for consuming, the **delegate**:
 
-The delegation for consuming may not be available for all e-services. It is at the producer’s discretion to indicate, within the configuration, whether they authorize the granting of delegations for consuming to their e-service.
+* submits and manages the **service request** on behalf of the delegating party;
+* submits and manages the **purposes** and the related **risk analyses** for the service request;
+* may **associate clients** with the purposes they created **only if the producer explicitly allows it**.
 
-### The delegate <a href="#il-delegato-1" id="il-delegato-1"></a>
+#### Operational management
 
-#### Managing the subscription request <a href="#il-delegato-1" id="il-delegato-1"></a>
+**Managing the service request**
 
-The delegate manages the subscribing request for the e-service received in delegation on behalf of the delegator. They can declare any declared attributes and upload documentation for the verification of any verified attributes on behalf of the delegator. They have the ability to submit, suspend, reactivate, or archive the subscribing request.
+The **delegate** manages the **service request** of the delegated e-service. They can:
+
+* declare **declared attributes** and upload **documentation** to support the verification of **verified attributes** on behalf of the delegating party;
+* **submit**, **suspend**, **reactivate**, or **archive** the service request.
+
+**Managing purposes**
+
+The **delegate** manages the **purposes** linked to the delegated service request. They can:
+
+* complete the **risk analyses**;
+* select the **API calls/day plan**;
+* **submit**, **suspend**, **reactivate**, or **archive** the purposes.
+
+**Managing clients and data access**
+
+The **delegate** may **associate clients** with the purposes they created **only if the producer has authorized data access by delegation**. To verify this, simply consult the e-service page.
+
+### Delegating party’s responsibilities
+
+#### Visibility and operational scope
+
+The **delegating party** retains **full visibility** over:
+
+* the **service request** managed by the delegate;
+* the **purposes** created by the delegate.
+
+They cannot operate on these components, **except** for the ability to **associate their own clients** with the purposes created by the delegate within the scope of the granted delegation.
 
 #### Managing purposes
 
-The delegate manages the purposes for the e-service received in delegation on behalf of the delegator. They can complete the risk analyses, select the load estimate (estimated API calls per day). They can submit, suspend, reactivate, or archive the purposes.
+The **delegating party** may **independently** create and manage its own purposes, even when a delegation is in place. The purposes created by the delegating party:
+
+* are **not visible** to the delegate;
+* can be **activated**, **suspended**, or **archived** independently.
 
 #### Managing clients and data access
 
-The delegate can associate clients with the purposes that they have created in delegation only if the producer has expressly given their consent, authorizing data access for the e-service. As a cross-check, it is possible to go to the e-service page and verify whether the “Access to data for the e-service” entry allows it or not.
+The **delegating party** can always:
 
-### The delegator <a href="#il-delegante-1" id="il-delegante-1"></a>
+* **associate its own clients** with the purposes created by the delegate;
+* **associate its own clients** with the purposes created independently.
 
-#### Visibility and operability <a href="#il-delegante-1" id="il-delegante-1"></a>
+***
 
-The delegator retains visibility over both the service request and the purposes created by the delegate. They cannot act on any of these components, except to associate their own clients with the purposes created by the delegate within the scope of the granted delegation.
-
-#### Managing purposes
-
-The delegator can independently create their own purposes for the service request managed by the delegate. The purposes created by the delegator will not be visible to the delegate, and are regularly managed by the delegator, who can activate, suspend, and archive them at their discretion.
-
-#### Managing clients and data access
-
-The delegator can always associate their own clients with both the purposes created by the delegate and their own purposes.
+Next page [→ E-service templates](../e-service-templates/)

@@ -1,42 +1,68 @@
 # Delegation for producing
 
-The delegation for producing allows a party to delegate the administrative operations related to the provisioning of an e-service on the platform. The delegation does not concern the technical component of provisioning, that is, the construction and management of the API to which the e-service refers and any technical interactions with subscribers. These may be managed by the delegator as they see fit.
+### Definition and scope
 
-In the case of delegation for producing, the delegate:
+The **delegation for producing** allows a **party (delegator)** to entrust another **party (delegate)** with the **administrative management** related to the producing of an e-service on PDND.
 
-1. creates and manages e-service versions;
-2. publishes e-service versions (subject to approval by the delegator);
-3. evaluates and manages incoming requests for subscribing;
-4. evaluates and manages incoming purposes with related risk analyses.
+The delegation **does not include the technical component** of producing: the **development, maintenance, and operation of the API** behind the e-service, as well as the **technical interactions** with consumers, **remain under the responsibility of the delegator**, who may handle them independently.
 
-Within the AgID Guidelines, this functionality is called “Delegato dell’Erogatore”.
+Within the **AgID Guidelines on the technological infrastructure of the National Digital Data Platform (PDND)**, this function corresponds to the role of **“Producer Delegate.”**
 
-## Day-to-day management <a href="#delega-per-lerogazione-gestione-del-day-by-day" id="delega-per-lerogazione-gestione-del-day-by-day"></a>
+### Delegate’s responsibilities
 
-### The delegate
+In a producing delegation, the **delegate**:
 
-#### Publishing an e-service or its version
+* creates and manages **e-service versions**;
+* **publishes** e-service versions, **subject to the delegator’s approval**;
+* reviews and manages **service requests** received;
+* reviews and manages **purposes** and their corresponding **risk analyses**.
 
-The party that has received a delegation for producing of an e-service manages its entire life cycle on the platform as if they were the provider. The only exception is this: the publication of a new version of the e-service occurs only after approval by the delegator.
+#### Operational management
 
-#### Managing requests for subscribing
+**Publishing an e-service or version**
 
-The delegate manages requests for subscribing arrived for the e-service received in delegation on behalf of the delegator. This means that the delegate must approve, on behalf of the delegator, any verified attributes and will have the ability to suspend and reactivate the requests for subscribing present.
+The **delegate** manages the **entire lifecycle** of the delegated e-service **as if they were the producer**. The only exception is the **publication**: every new e-service version must be **approved by the delegator** before appearing in the **e-service catalog**.
 
-#### Managing purposes
+**Managing service requests**
 
-The delegate manages purposes received for active requests for subscribing. They can therefore suspend them, reactivate them, accept or reject proposed plan changes by the subscriber.
+The **delegate** handles **service requests** received for the delegated e-service. Specifically, they:
 
-### The delegator <a href="#il-delegante" id="il-delegante"></a>
+* approve **verified attributes** on behalf of the delegator;
+* can **suspend** or **reactivate** active service requests.
 
-#### Visibility and operability <a href="#il-delegante" id="il-delegante"></a>
+**Managing purposes**
 
-The delegator retains visibility over both the e-service and the related requests for subscribing and purposes. They cannot act on any of these components, except to approve or reject the publication of a new version of the e-service, or to manage the provider key store.
+The **delegate** manages **purposes** linked to active service requests. They can:
 
-#### Approval for the publication of an e-service or its version
+* **suspend** and **reactivate** purposes;
+* **approve** or **reject** changes to the **load estimate** proposed by consumers.
 
-Once a delegate has finalized a draft of a new version of the e-service, they forward it to the delegator for approval. The delegator may approve the version, which thus becomes published and present in the e-service catalog. They may also reject it, giving reasons for the choice. Once a version of the e-service is rejected, it returns to the delegate in a “draft” state, with the detail of the reason for rejection.
+### Delegator’s responsibilities
 
-#### Managing the producer keychain
+#### Visibility and operational scope
 
-The delegator retains the exclusive opportunity to operate on the producer keychain for the e-services given in delegation. The delegate will not have access to this functionality.
+The **delegator** retains **full visibility** over:
+
+* the delegated e-service;
+* the service requests;
+* the linked purposes.
+
+However, they **cannot act operationally** on these components, **except** to:
+
+* approve or reject the **publication** of a new e-service version;
+* **manage the producer’s keychain**.
+
+#### Approval of e-service or version publication
+
+When the **delegate** completes a **draft version** of an e-service, they **submit it to the delegator for approval**. The **delegator** can:
+
+* **approve** it, making it public in the e-service catalog;
+* **reject** it, providing a reason. If rejected, the version returns to the **delegate** in **draft** status, with the **motivation** detailed.
+
+#### Managing the producer’s keychain
+
+The **delegator** retains **exclusive control** over the **producer’s keychain** for delegated e-services. The **delegate** cannot access or modify the keys contained within the keychain.
+
+***
+
+Next page [→ Delegation for consuming](delegation-for-consuming.md)
