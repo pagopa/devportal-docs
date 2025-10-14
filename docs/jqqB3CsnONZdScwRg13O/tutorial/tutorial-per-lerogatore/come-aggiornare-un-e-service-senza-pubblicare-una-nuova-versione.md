@@ -1,14 +1,14 @@
 # Come aggiornare un e-service senza pubblicare una nuova versione
 
-## Step 1 - Entrare nella scheda dell'e-service da modificare
+### Step 1: Entrare nella scheda dell'e-service da modificare
 
 Entrare nel front office in _**Erogazione > I miei e-service**_ e selezionare l'e-service di interesse.
 
-## Step 2 - Operare la modifica
+### Step 2: Operare la modifica
 
 Sul campo modificabile, sarà presente una matita con la dicitura _**Modifica**_. Cliccandola, si aprirà un pannello laterale per operare la modifica.
 
-## Step 3 - Confermare la modifica
+### Step 3: Confermare la modifica
 
 Una volta completata la modifica, cliccare sul bottone in basso nel pannello laterale, _**Aggiorna**_. Il pulsante è presente per tutte le modifiche effettuabili tranne quelle sulla documentazione, che seguono un processo leggermente diverso, necessario a garantire il caricamento dei file sul server.
 

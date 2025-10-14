@@ -2,7 +2,7 @@
 
 Maggiori informazioni su questa implementazione nella [sezione dedicata](../../riferimenti-tecnici/utilizzare-i-voucher/tipi-di-richiesta-di-voucher.md#bearer-token-spendibile-presso-le-api-di-un-erogatore-base).
 
-## Il flusso in breve <a href="#il-flusso-in-breve" id="il-flusso-in-breve"></a>
+### Il flusso in breve <a href="#il-flusso-in-breve" id="il-flusso-in-breve"></a>
 
 In sostanza, il processo end-to-end richiede cinque passaggi:
 
@@ -12,7 +12,7 @@ In sostanza, il processo end-to-end richiede cinque passaggi:
 4. il fruitore fa una richiesta verso l'e-service dell'erogatore; inserisce il voucher rilasciato da PDND Interoperabilità nell'header `Authorization`;
 5. l'erogatore effettua le verifiche necessarie. In caso di esito positivo, elabora la richiesta del fruitore.
 
-## Prerequisiti <a href="#il-flusso-in-breve" id="il-flusso-in-breve"></a>
+### Prerequisiti <a href="#il-flusso-in-breve" id="il-flusso-in-breve"></a>
 
 Si assume che il fruitore abbia:
 
@@ -20,7 +20,7 @@ Si assume che il fruitore abbia:
 * generato almeno un set di materiale crittografico e caricato la relativa chiave pubblica su PDND Interoperabilità all'interno del client ([vedi tutorial](come-generare-il-corredo-crittografico-e-caricare-una-chiave-pubblica.md));
 * associato il client alla finalità per la quale vuole ottenere o inviare dati all'erogatore ([vedi tutorial](come-associare-un-client-ad-una-finalita.md)).
 
-## Step 1 - Generazione della client assertion <a href="#il-flusso-in-breve" id="il-flusso-in-breve"></a>
+### Step 1: Generazione della client assertion <a href="#il-flusso-in-breve" id="il-flusso-in-breve"></a>
 
 Il primo passo è costruire una _client assertion_ valida. La client assertion è composta da un header e un payload, contenenti i seguenti campi.
 
@@ -64,7 +64,7 @@ A scopo esemplificativo, è stato pubblicato uno script Python per dimostrare co
 
 È inoltre disponibile una funzione per verificare la validità della propria client assertion ed evidenziare eventuali errori. Lo strumento è disponibile nel front office su _**Tool per lo sviluppo > Debug client assertion**_.
 
-## Step 2 - Richiedere il voucher al server autorizzativo
+### Step 2: Richiedere il voucher al server autorizzativo
 
 Il secondo passaggio è chiamare il server autorizzativo di PDND Interoperabilità con la client assertion firmata per ottenerne in cambio un voucher spendibile presso le API di PDND Interoperabilità.&#x20;
 
@@ -74,7 +74,7 @@ L'endpoint andrà chiamato con alcuni parametri nel body:
 
 <table><thead><tr><th width="244.5718994140625">Nome campo</th><th>Significato</th></tr></thead><tbody><tr><td><code>client_id</code></td><td>di nuovo il <code>clientId</code> usato nell'assertion</td></tr><tr><td><code>client_assertion</code></td><td>il contenuto dell'asserzione firmata nel primo passaggio</td></tr><tr><td><code>client_assertion_type</code></td><td>il formato della client assertion, come indicato in RFC (sempre <code>urn:ietf:params:oauth:client-assertion-type:jwt-bearer</code>)</td></tr><tr><td><code>grant_type</code></td><td>la tipologia di flusso utilizzato, come indicato in RFC (sempre <code>client_credentials</code>)</td></tr></tbody></table>
 
-## Step 3 - Il server autorizzativo verifica, e rilascia il voucher
+### Step 3: Il server autorizzativo verifica, e rilascia il voucher
 
 Se tutto è impostato correttamente, PDND Interoperabilità risponderà con un voucher valido all'interno del body della risposta alla proprietà `access_token`.&#x20;
 
@@ -121,7 +121,7 @@ Payload:
 }
 ```
 
-## Step 4 - Richiedere i dati all'erogatore
+### Step 4: Richiedere i dati all'erogatore
 
 Il voucher andrà inserito nell'header di tutte le chiamate successive verso le API dell'erogatore. Andrà inserito nell'header di `Authorization`, come segue:
 
@@ -129,7 +129,7 @@ Il voucher andrà inserito nell'header di tutte le chiamate successive verso le 
 Authorization: Bearer <voucher>
 ```
 
-## Step 5 - Attendere le verifiche dell'erogatore
+### Step 5: Attendere le verifiche dell'erogatore
 
 L'erogatore effettua tutte le verifiche necessarie. Se tutto è in ordine, elabora la richiesta del fruitore, restituiendogli i dati richiesti in caso di e-service che eroga dati, oppure accettando i dati dal fruitore in caso di e-service che riceve dati.
 

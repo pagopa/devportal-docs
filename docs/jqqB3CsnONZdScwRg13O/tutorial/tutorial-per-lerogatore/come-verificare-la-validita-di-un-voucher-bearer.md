@@ -4,7 +4,7 @@ L'erogatore di un e-service deve poter verificare la legittimità di qualsiasi r
 
 Prima di tutto, l'erogatore estrae dall'header della richiesta del fruitore il voucher rilasciato da PDND Interoperabilità, e lo deserializza.&#x20;
 
-## Esempio di voucher Bearer rilasciato da PDND Interoperabilità deserializzato
+### Esempio di voucher Bearer rilasciato da PDND Interoperabilità deserializzato
 
 Header:
 
@@ -36,7 +36,7 @@ Payload:
 }
 ```
 
-### Significato dei campi
+#### Significato dei campi
 
 Nell'header si troveranno tre camp&#x69;_:_
 
@@ -48,13 +48,13 @@ Nel payload ci saranno invece tredici campi obbligatori, e uno opzionale:&#x20;
 
 NB: il `client_id` è presente nel token e utilizza lo snake case invece del camel case per coerenza con l'RFC di riferimento.
 
-## Verifiche di base
+### Verifiche di base
 
-### Verifiche sugli header
+#### Verifiche sugli header
 
 Il voucher deve essere di tipo `at+jwt`.
 
-### Verifica sulla firma
+#### Verifica sulla firma
 
 L'erogatore scarica la lista di chiavi in uso da un file esposto nella cartella `.well-known` di PDND Interoperabilità. L'URL corretta è disponibile sull'interfaccia nel back office all'interno della scheda di ogni singolo e-service e varia in funzione dell'ambiente nel quale è stata fatta la richiesta (collaudo, attestazione, produzione).&#x20;
 
@@ -64,7 +64,7 @@ A titolo di esempio, [https://interop.pagopa.it/.well-known/jwks.json](https://i
 
 All'interno del file, l'erogatore cerca l'oggetto che ha lo stesso `kid` presente nell'header del voucher. In quello stesso oggetto troverà la chiave pubblica al parametro `n`. Effettuerà dunque una verifica della firma, che la chiave privata usata per firmare il voucher corrisponda a quella pubblica appena ottenuta.
 
-### Verifiche sul payload
+#### Verifiche sul payload
 
 Quelli che interessano ai fini della verifica sono:
 
@@ -72,7 +72,7 @@ Quelli che interessano ai fini della verifica sono:
 * `exp`: la scadenza del voucher;
 * `aud`: l'audience, ossia l'indicazione di quale servizio dell'erogatore il fruitore intenda consumare con il voucher.
 
-## Best practice sulla verifica della risorsa richiesta
+### Best practice sulla verifica della risorsa richiesta
 
 Le best practice emerse prevedono che l’erogatore possa fare una delle seguenti due verifiche:
 

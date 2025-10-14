@@ -4,7 +4,7 @@ Questo tutorial spiega come richiedere un voucher che utilizza Demonstrating Pro
 
 Il JWS contenente le informazioni aggiuntive rispetta l'[RFC 7519](https://datatracker.ietf.org/doc/html/rfc7519) e il pattern individuato, cioè quello previsto da AgID nel ModI (_Audit REST 02)_. Per maggiori informazioni, si veda la [sezione dedicata](../../riferimenti-tecnici/utilizzare-i-voucher/tipi-di-richiesta-di-voucher.md#dpop-spendibile-presso-le-api-di-un-erogatore-con-informazioni-aggiuntive-pattern-modi-audit-rest-02).
 
-## Il flusso in breve <a href="#il-flusso-in-breve" id="il-flusso-in-breve"></a>
+### Il flusso in breve <a href="#il-flusso-in-breve" id="il-flusso-in-breve"></a>
 
 In sostanza, il processo end-to-end richiede nove passaggi:
 
@@ -18,7 +18,7 @@ In sostanza, il processo end-to-end richiede nove passaggi:
 8. il fruitore fa una richiesta verso l'e-service dell'erogatore; inserisce sia il voucher rilasciato da PDND Interoperabilità nell'header `Authorization`, sia la DPoP generata al punto precedente nell'header `DPoP`, sia il JWS con le informazioni aggiuntive generato al punto 1 nell'header `AgID-JWT-TrackingEvidence`;
 9. l'erogatore effettua le verifiche necessarie. In caso di esito positivo, elabora la richiesta del fruitore.
 
-## Prerequisiti <a href="#il-flusso-in-breve" id="il-flusso-in-breve"></a>
+### Prerequisiti <a href="#il-flusso-in-breve" id="il-flusso-in-breve"></a>
 
 Si assume che il fruitore abbia:
 
@@ -26,7 +26,7 @@ Si assume che il fruitore abbia:
 * generato almeno un set di materiale crittografico e caricato la relativa chiave pubblica su PDND Interoperabilità all'interno del client ([vedi tutorial](come-generare-il-corredo-crittografico-e-caricare-una-chiave-pubblica.md));
 * associato il client alla finalità per la quale vuole ottenere o inviare dati all'erogatore ([vedi tutorial](come-associare-un-client-ad-una-finalita.md)).
 
-## Step 1 - Generazione del token contenente le informazioni aggiuntive <a href="#il-flusso-in-breve" id="il-flusso-in-breve"></a>
+### Step 1: Generazione del token contenente le informazioni aggiuntive <a href="#il-flusso-in-breve" id="il-flusso-in-breve"></a>
 
 Il fruitore costruisce un JWS, inserendo nell'header il `kid` di una chiave pubblica depositata su PDND Interoperabilità. Con la chiave privata corrispondente a quella pubblica firmerà questo JWS. Nel corpo (payload) del JWS inserisce le informazioni complementari da inviare all'erogatore.
 
@@ -42,7 +42,7 @@ Un JWS di esempio può avere header
 
 NB: la chiave privata che firma e il  `kid` della pubblica corrispondente depositata su PDND Interoperabilità non devono necessariamente essere gli stessi con i quali si firma la client assertion allo step 3.
 
-## Step 2 - Calcolare l'hash del JWS <a href="#il-flusso-in-breve" id="il-flusso-in-breve"></a>
+### Step 2: Calcolare l'hash del JWS <a href="#il-flusso-in-breve" id="il-flusso-in-breve"></a>
 
 A partire dalla codifica del JWS (ossia il JWS codificato secondo l'algoritmo inserito nell'header, in genere inizia per `ey`) il fruitore applica l'algoritmo di hashing SHA256 al JWS, ottenendone un hash non reversibile a lunghezza fissa.
 
@@ -66,7 +66,7 @@ si ottiene l'hash a lunghezza fissa
 
 NB: la flag `-n` che viene passata nel primo comando indica che vengano rimosse eventuali "newline" non viste dall'operatore. Un'eventuale "newline" presente nel token fa cambiare il valore dell'hash che poi non corrisponderà all'atto della verifica dell'erogatore.
 
-## Step 3 - Generazione della client assertion <a href="#il-flusso-in-breve" id="il-flusso-in-breve"></a>
+### Step 3: Generazione della client assertion <a href="#il-flusso-in-breve" id="il-flusso-in-breve"></a>
 
 Il primo passo è costruire una _client assertion_ valida. La client assertion è composta da un header e un payload, contenenti i seguenti campi.
 
@@ -114,7 +114,7 @@ A scopo esemplificativo, è stato pubblicato uno script Python per dimostrare co
 
 È inoltre disponibile una funzione per verificare la validità della propria client assertion ed evidenziare eventuali errori. Lo strumento è disponibile nel front office su _**Tool per lo sviluppo > Debug client assertion**_.
 
-## Step 4 - Generazione della prima DPoP <a href="#il-flusso-in-breve" id="il-flusso-in-breve"></a>
+### Step 4: Generazione della prima DPoP <a href="#il-flusso-in-breve" id="il-flusso-in-breve"></a>
 
 Il fruitore procede quindi alla costruzione della DPoP destinata al server autorizzativo di PDND, vale a dire un JWT con
 
@@ -143,7 +143,7 @@ Ecco nel dettaglio i campi sopra indicati:
 
 <table><thead><tr><th width="142.45156860351562">Nome campo</th><th>Significato</th></tr></thead><tbody><tr><td><code>typ</code></td><td>deve essere impostato a <code>dpop+jwt</code></td></tr><tr><td><code>alg</code></td><td>indica l'algoritmo usato per la firma della DPoP. L'algoritmo consigliato è ES256</td></tr><tr><td><code>jwk</code></td><td>la chiave pubblica in formato JWK corrispondente alla chiave privata utilizzata per firmare la DPoP</td></tr><tr><td><code>htm</code></td><td>indica il metodo HTTP che si sta invocando. Per l'ottenimento di un voucher da PDND Interoperabilità, il metodo è <code>POST</code></td></tr><tr><td><code>htu</code></td><td>indica l'URL che si sta invocando. Per l'ottenimento di un voucher da PDND Interoperabilità in ambiente di produzione è <code>https://auth.interop.pagopa.it/token.oauth2</code> (per gli ambienti di attestazione e collaudo va inserita quella specifica)</td></tr><tr><td><code>iat</code></td><td>l'issued at, il timestamp riportante data e ora in cui viene creata la DPoP, espresso in <a href="https://datatracker.ietf.org/doc/html/rfc3339">UNIX epoch</a> (valore numerico, non stringa)</td></tr><tr><td><code>jti</code></td><td>identificativo univoco della DPoP. Deve essere cura del fruitore assicurarsi che l'id di questo token sia unico e non venga riutilizzato</td></tr></tbody></table>
 
-## Step 5 - Richiedere il voucher al server autorizzativo
+### Step 5: Richiedere il voucher al server autorizzativo
 
 Il terzo passaggio è chiamare il server autorizzativo di PDND Interoperabilità con la client assertion firmata per ottenerne in cambio un voucher spendibile presso le API di PDND Interoperabilità.
 
@@ -158,7 +158,7 @@ L'endpoint andrà chiamato con alcuni parametri nel body:
 
 <table><thead><tr><th width="239.74371337890625">Nome campo</th><th>Significato</th></tr></thead><tbody><tr><td><code>client_id</code></td><td>di nuovo il <code>clientId</code> usato nell'assertion</td></tr><tr><td><code>client_assertion</code></td><td>il contenuto dell'asserzione firmata nel primo passaggio</td></tr><tr><td><code>client_assertion_type</code></td><td>il formato della client assertion, come indicato in RFC (sempre <code>urn:ietf:params:oauth:client-assertion-type:jwt-bearer</code>)</td></tr><tr><td><code>grant_type</code></td><td>la tipologia di flusso utilizzato, come indicato in RFC (sempre <code>client_credentials</code>)</td></tr></tbody></table>
 
-## Step 6 - Il server autorizzativo verifica, e rilascia il voucher
+### Step 6: Il server autorizzativo verifica, e rilascia il voucher
 
 Il server autorizzativo di PDND Interoperabilità effettua le verifiche necessarie, in particolare:
 
@@ -222,7 +222,7 @@ Payload:
 
 dove il campo `cnf.jkt` contiene il thumbprint della chiave pubblica in formato JWK ([RFC 7638](https://datatracker.ietf.org/doc/html/rfc7638)) utilizzata nella DPoP inviata dal fruitore (client) verso PDND Interoperabilità (server autorizzativo).
 
-## Step 7 - Costruire una seconda DPoP&#x20;
+### Step 7: Costruire una seconda DPoP&#x20;
 
 Il fruitore costruisce una seconda DPoP, che questa volta è destinata alle API dell'e-service dell'erogatore. Questa seconda DPoP è simile a quella prodotta nel secondo passaggio, con due differenze:&#x20;
 
@@ -239,7 +239,7 @@ BASE64URL(SHA-256(access_token_bytes))
 Questa seconda DPoP deve essere firmata con la stessa chiave privata utilizzata per la prima DPoP al secondo passaggio e destinata al server autorizzativo di PDND Interoperabilità.
 {% endhint %}
 
-## Step 8 - Richiedere i dati all'ergoatore
+### Step 8: Richiedere i dati all'ergoatore
 
 Il voucher andrà inserito nell'header di tutte le chiamate successive verso le API dell'erogatore. Andrà inserito come header, come segue:
 
@@ -257,7 +257,7 @@ Inoltre, il JWS creato allo step 1 andrà inserito all'interno di un altro heade
 <pre><code><strong>Agid-JWT-TrackingEvidence: &#x3C;jws>
 </strong></code></pre>
 
-## Step 9 - Attendere le verifiche dell'erogatore
+### Step 9: Attendere le verifiche dell'erogatore
 
 L'erogatore effettua tutte le verifiche necessarie. Se tutto è in ordine, elabora la richiesta del fruitore, restituendogli i dati richiesti in caso di e-service che eroga dati, oppure accettando i dati dal fruitore in caso di e-service che riceve dati.
 

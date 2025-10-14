@@ -8,7 +8,7 @@ Sia nel caso di voucher Bearer che DPop, si troverà all'interno del voucher ste
 
 Inoltre, si troverà nell'header della chiamata un secondo token, un JWS prodotto secondo lo standard [RFC 7519](https://datatracker.ietf.org/doc/html/rfc7519), che sarà nell'header `AgID-JWT-TrackingEvidence`.
 
-## Contenuto del JWS
+### Contenuto del JWS
 
 Un JWS di esempio può avere header
 
@@ -22,7 +22,7 @@ Un JWS di esempio può avere header
 
 I campi presenti nel payload saranno invece le informazioni di audit che il fruitore invia all'erogatore, descritte all'interno della documentazione dell'e-service. Possono variare e dipendono dalla richiesta dell'erogatore sul singolo e-service.
 
-## Controlli da eseguire
+### Controlli da eseguire
 
 Bisogna dunque verificare che l'hash calcolato a partire dal JWS corrisponda all'hash inserito nel campo `digest` del voucher rilasciato da PDND Interoperabilità.
 
@@ -31,7 +31,7 @@ L'erogatore quindi:
 1. estrae il JWS dall'header `Agid-JWT-TrackingEvidence`  e verifica la firma del JWS stesso;
 2. verifica la corrispondenza tra l'hash del JWS, e l'hash presente nel `digest` del voucher rilasciato da PDND Interoperabilità.
 
-### Verifica della firma
+#### Verifica della firma
 
 Per verificare l'autenticità e la validità della chiave privata con la quale è firmato il JWS, l'erogatore:
 
@@ -42,7 +42,7 @@ Per verificare l'autenticità e la validità della chiave privata con la quale �
 
 NB: se l'erogatore ottiene dall'API di PDND Interoperabilità un errore con status code `404 - Not found`, significa che la chiave non è presente su PDND Interoperabilità e dunque la richiesta è da ritenersi inattendibile.
 
-### Calcolo e confronto dell'hash
+#### Calcolo e confronto dell'hash
 
 Se la chiave è presente e corrisponde, può procedere ad una seconda verifica, ossia quella notarile. In pratica, verifica che la traccia depositata dal fruitore su PDND Interoperabilità con la richiesta al server autorizzativo corrisponda a quella inserita all'interno del voucher rilasciato da PDND Interoperabilità.&#x20;
 

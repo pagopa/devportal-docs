@@ -4,7 +4,7 @@
 
 L'utilizzo di una finalità (**Purpose**) richiede la creazione di una bozza corredata dall'analisi del rischio, e una successiva attivazione.
 
-## Step 1 - Creare la Purpose in DRAFT
+### Step 1: Creare la Purpose in DRAFT
 
 La Purpose deve essere creata indicando l'e-service verso il quale verrà utilizzata, le informazioni della finalità, la stima di carico e l'analisi del rischio.
 
@@ -53,7 +53,7 @@ La richiesta di creazione, se andata a buon fine, produce una Purpose con una ve
 }
 ```
 
-## Step 2 - Attivazione della Purpose
+### Step 2: Attivazione della Purpose
 
 Completata la compilazione, è necessario sottomettere la Purpose per poterla attivare.
 
@@ -65,7 +65,7 @@ POST /purposes/17bfba0b-85f2-44e1-9bfc-497605a0d8c7/activate
 {}
 ```
 
-### Caso 1 - Stima di carico inferiore alle soglie massime
+#### Caso 1 — Stima di carico inferiore alle soglie massime
 
 Se la stima di carico è inferiore alle soglie previste dalla versione dell'e-service (EServiceDescriptor), la Purpose viene attivata.
 
@@ -93,7 +93,7 @@ Se la stima di carico è inferiore alle soglie previste dalla versione dell'e-se
 }
 ```
 
-### Caso 2 - Stima di carico superiore alle soglie massime
+#### Caso 2 — Stima di carico superiore alle soglie massime
 
 Se la stima di carico è superiore alle soglie previste dalla versione dell'e-service (EServiceDescriptor), la Purpose passa in attesa di approvazione e richiede la conferma da parte dell'erogatore.
 

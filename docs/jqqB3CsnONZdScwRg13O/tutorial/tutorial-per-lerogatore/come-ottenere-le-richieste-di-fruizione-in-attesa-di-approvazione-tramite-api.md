@@ -6,7 +6,7 @@
 
 Sull'API lo stato **In attesa di approvazione** delle richieste di fruizione (Agreement) è identificato con **PENDING**.&#x20;
 
-## Caso 1 - Il Fruitore richiede i propri Agreement in PENDING
+### Caso 1 — Il Fruitore richiede i propri Agreement in PENDING
 
 È utile, ma non obbligatorio indicare il parametro `consumerIds` con l'id del proprio ente (Tenant) per evitare di ottenere Agreement in PENDING per i quali si è erogatori.&#x20;
 
@@ -54,7 +54,7 @@ GET /agreements
 }
 ```
 
-## Caso 2 - L'Erogatore richiede gli Agreements PENDING per un proprio e-service
+### Caso 2 — L'Erogatore richiede gli Agreements PENDING per un proprio e-service
 
 L'erogatore può richiedere l'elenco degli Agreement per cui è richiesta la sua approvazione.
 
@@ -102,7 +102,7 @@ GET /agreements
 }
 ```
 
-## Caso 3 - L'Erogatore richiede gli Agreement PENDING per un proprio e-service ed uno specifico fruitore
+### Caso 3 — L'Erogatore richiede gli Agreement PENDING per un proprio e-service ed uno specifico fruitore
 
 L'erogatore può ottenere l'Agreement di un determinato fruitore verso un proprio e-service.
 

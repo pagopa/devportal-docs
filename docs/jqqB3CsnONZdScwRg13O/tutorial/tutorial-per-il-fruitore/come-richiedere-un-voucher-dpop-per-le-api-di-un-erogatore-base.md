@@ -4,7 +4,7 @@ Questo tutorial spiega come richiedere un voucher che utilizza Demonstrating Pro
 
 Maggiori informazioni su questa implementazione nella [sezione dedicata](../../riferimenti-tecnici/utilizzare-i-voucher/tipi-di-richiesta-di-voucher.md#bearer-token-spendibile-presso-le-api-di-un-erogatore-base).
 
-## Il flusso in breve <a href="#il-flusso-in-breve" id="il-flusso-in-breve"></a>
+### Il flusso in breve <a href="#il-flusso-in-breve" id="il-flusso-in-breve"></a>
 
 In sostanza, il processo end-to-end richiede sette passaggi:
 
@@ -16,7 +16,7 @@ In sostanza, il processo end-to-end richiede sette passaggi:
 6. il fruitore fa una richiesta verso l'e-service dell'erogatore; inserisce sia il voucher rilasciato da PDND Interoperabilità nell'header `Authorization`, sia la DPoP generata al punto precedente nell'header `DPoP`;
 7. l'erogatore effettua le verifiche necessarie. In caso di esito positivo, elabora la richiesta del fruitore.
 
-## Prerequisiti <a href="#il-flusso-in-breve" id="il-flusso-in-breve"></a>
+### Prerequisiti <a href="#il-flusso-in-breve" id="il-flusso-in-breve"></a>
 
 Si assume che il fruitore abbia:
 
@@ -24,7 +24,7 @@ Si assume che il fruitore abbia:
 * generato almeno un set di materiale crittografico e caricato la relativa chiave pubblica su PDND Interoperabilità all'interno del client ([vedi tutorial](come-generare-il-corredo-crittografico-e-caricare-una-chiave-pubblica.md));
 * associato il client alla finalità per la quale vuole ottenere o inviare dati all'erogatore ([vedi tutorial](come-associare-un-client-ad-una-finalita.md)).
 
-## Step 1 - Generazione della client assertion <a href="#il-flusso-in-breve" id="il-flusso-in-breve"></a>
+### Step 1: Generazione della client assertion <a href="#il-flusso-in-breve" id="il-flusso-in-breve"></a>
 
 Il primo passo è costruire una _client assertion_ valida. La client assertion è composta da un header e un payload, contenenti i seguenti campi.
 
@@ -68,7 +68,7 @@ A scopo esemplificativo, è stato pubblicato uno script Python per dimostrare co
 
 È inoltre disponibile una funzione per verificare la validità della propria client assertion ed evidenziare eventuali errori. Lo strumento è disponibile nel front office su _**Tool per lo sviluppo > Debug client assertion**_.
 
-## Step 2 - Generazione della prima DPoP <a href="#il-flusso-in-breve" id="il-flusso-in-breve"></a>
+### Step 2: Generazione della prima DPoP <a href="#il-flusso-in-breve" id="il-flusso-in-breve"></a>
 
 Il fruitore procede quindi alla costruzione della DPoP destinata al server autorizzativo di PDND, vale a dire un JWT con
 
@@ -97,7 +97,7 @@ Ecco nel dettaglio i campi sopra indicati:
 
 <table><thead><tr><th width="134.76092529296875">Nome campo</th><th>Significato</th></tr></thead><tbody><tr><td><code>typ</code></td><td>deve essere impostato a <code>dpop+jwt</code></td></tr><tr><td><code>alg</code></td><td>indica l'algoritmo usato per la firma della DPoP. L'algoritmo consigliato è ES256</td></tr><tr><td><code>jwk</code></td><td>la chiave pubblica in formato JWK corrispondente alla chiave privata utilizzata per firmare la DPoP</td></tr><tr><td><code>htm</code></td><td>indica il metodo HTTP che si sta invocando. Per l'ottenimento di un voucher da PDND Interoperabilità, il metodo è <code>POST</code></td></tr><tr><td><code>htu</code></td><td>indica l'URL che si sta invocando. Per l'ottenimento di un voucher da PDND Interoperabilità in ambiente di produzione è <code>https://auth.interop.pagopa.it/token.oauth2</code> (per gli ambienti di attestazione e collaudo va inserita quella specifica)</td></tr><tr><td><code>iat</code></td><td>l'issued at, il timestamp riportante data e ora in cui viene creata la DPoP, espresso in <a href="https://datatracker.ietf.org/doc/html/rfc3339">UNIX epoch</a> (valore numerico, non stringa)</td></tr><tr><td><code>jti</code></td><td>identificativo univoco della DPoP. Deve essere cura del fruitore assicurarsi che l'id di questo token sia unico e non venga riutilizzato</td></tr></tbody></table>
 
-## Step 3 - Richiedere il voucher al server autorizzativo
+### Step 3: Richiedere il voucher al server autorizzativo
 
 Il terzo passaggio è chiamare il server autorizzativo di PDND Interoperabilità con la client assertion firmata per ottenerne in cambio un voucher spendibile presso le API di PDND Interoperabilità.
 
@@ -112,7 +112,7 @@ L'endpoint andrà chiamato con alcuni parametri nel body:
 
 <table><thead><tr><th width="223.83441162109375">Nome campo</th><th>Significato</th></tr></thead><tbody><tr><td><code>client_id</code></td><td>di nuovo il <code>clientId</code> usato nell'assertion</td></tr><tr><td><code>client_assertion</code></td><td>il contenuto dell'asserzione firmata nel primo passaggio</td></tr><tr><td><code>client_assertion_type</code></td><td>il formato della client assertion, come indicato in RFC (sempre <code>urn:ietf:params:oauth:client-assertion-type:jwt-bearer</code>)</td></tr><tr><td><code>grant_type</code></td><td>la tipologia di flusso utilizzato, come indicato in RFC (sempre <code>client_credentials</code>)</td></tr></tbody></table>
 
-## Step 4 - Il server autorizzativo verifica, e rilascia il voucher
+### Step 4: Il server autorizzativo verifica, e rilascia il voucher
 
 Il server autorizzativo di PDND Interoperabilità effettua le verifiche necessarie, in particolare:
 
@@ -172,7 +172,7 @@ Payload:
 
 dove il campo `cnf.jkt` contiene il thumbprint della chiave pubblica in formato JWK ([RFC 7638](https://datatracker.ietf.org/doc/html/rfc7638)) utilizzata nella DPoP inviata dal fruitore (client) verso PDND Interoperabilità (server autorizzativo).
 
-## Step 5 - Il fruitore costruisce una seconda DPoP&#x20;
+### Step 5: Il fruitore costruisce una seconda DPoP&#x20;
 
 Il fruitore costruisce una seconda DPoP, che questa volta è destinata alle API dell'e-service dell'erogatore. Questa seconda DPoP è simile a quella prodotta nel secondo passaggio, con due differenze:&#x20;
 
@@ -189,7 +189,7 @@ BASE64URL(SHA-256(access_token_bytes))
 Questa seconda DPoP deve essere firmata con la stessa chiave privata utilizzata per la prima DPoP al secondo passaggio e destinata al server autorizzativo di PDND Interoperabilità.
 {% endhint %}
 
-## Step 6 - Richiedere i dati all'ergoatore
+### Step 6: Richiedere i dati all'ergoatore
 
 Il voucher andrà inserito nell'header di tutte le chiamate successive verso le API dell'erogatore. Andrà inserito come header, come segue:
 
@@ -202,7 +202,7 @@ Inoltre, il fruitore deve inserire anche un altro header, in particolare:
 <pre><code><strong>DPoP: &#x3C;DPoP_proof_generata_al_passaggio_precedente>
 </strong></code></pre>
 
-## Step 7 - Attendere le verifiche dell'erogatore
+### Step 7: Attendere le verifiche dell'erogatore
 
 L'erogatore effettua tutte le verifiche necessarie. Se tutto è in ordine, elabora la richiesta del fruitore, restituendogli i dati richiesti in caso di e-service che eroga dati, oppure accettando i dati dal fruitore in caso di e-service che riceve dati.
 

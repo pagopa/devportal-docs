@@ -4,9 +4,9 @@ Il modo di aggiornare l'e-service cambia in funzione del campo che deve essere a
 
 In caso contrario è possibile aggiornare immediatamente il campo dell'e-service, senza ulteriori oneri.&#x20;
 
-## Step 1 - Individuare il campo da modificare
+### Step 1: Individuare il campo da modificare
 
-### Campi modificabili senza creare una nuova versione
+#### Campi modificabili senza creare una nuova versione
 
 * nome dell'e-service
 * descrizione dell'e-service
@@ -18,7 +18,7 @@ In caso contrario è possibile aggiornare immediatamente il campo dell'e-service
 * soglie delle chiamate API
 * durata della validità del voucher
 
-### Campi modificabili solo creando una nuova versione
+#### Campi modificabili solo creando una nuova versione
 
 * file interfaccia API
 * audience
@@ -26,14 +26,14 @@ In caso contrario è possibile aggiornare immediatamente il campo dell'e-service
 
 \*se gli attributi vengono estesi, è possibile modificarli anche senza creare una nuova versione. Ad esempio, se prima il requisito era solo _Comuni e loro Consorzi e Associazioni_, e oggi diventa _Comuni e loro Consorzi e Associazioni_ _oppure Regioni_, la platea viene semplicemente estesa, ed è possibile fare questa modifica senza creare una nuova versione di e-service.
 
-### Campi mai modificabili
+#### Campi mai modificabili
 
 * tecnologia (REST o SOAP)
 * modalità (eroga o riceve dati)
 
 Questi campi non sono mai aggiornabili. È necessario creare un nuovo e-service.
 
-## Step 2 - Operare la modifica
+### Step 2: Operare la modifica
 
 Se non necessita di una nuova versione, si veda il tutorial [Come aggiornare un e-service senza pubblicare una nuova versione](come-aggiornare-un-e-service-senza-pubblicare-una-nuova-versione.md). Se si necessita di una nuova versione, si veda il tutorial [Come aggiornare un e-service pubblicando una nuova versione](come-aggiornare-un-e-service-pubblicando-una-nuova-versione.md).
 

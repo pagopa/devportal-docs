@@ -9,7 +9,7 @@ In questo caso, le verifiche vanno effettuate su due diversi token, ossia:
 
 Prima di tutto, l'erogatore estrae dall'header della richiesta del fruitore il voucher rilasciato da PDND Interoperabilità, e lo deserializza.
 
-## Esempio di voucher DPoP rilasciato da PDND Interoperabilità deserializzato
+### Esempio di voucher DPoP rilasciato da PDND Interoperabilità deserializzato
 
 Header:
 
@@ -49,13 +49,13 @@ dove il campo `cnf.jkt` contiene il thumbprint della chiave pubblica in formato 
 
 Effettua quindi alcune verifiche su questo voucher.
 
-## Verifiche di base sul voucher PDND
+### Verifiche di base sul voucher PDND
 
-### Verifiche sugli header
+#### Verifiche sugli header
 
 Il voucher deve essere di tipo `dpop+jwt`.
 
-### Verifica sulla firma
+#### Verifica sulla firma
 
 L'erogatore scarica la lista di chiavi in uso da un file esposto nella cartella `.well-known` di PDND Interoperabilità. L'URL corretta è disponibile sull'interfaccia nel back office all'interno della scheda di ogni singolo e-service e varia in funzione dell'ambiente nel quale è stata fatta la richiesta (collaudo, attestazione, produzione).&#x20;
 
@@ -65,7 +65,7 @@ A titolo di esempio, [https://interop.pagopa.it/.well-known/jwks.json](https://i
 
 All'interno del file, l'erogatore cerca l'oggetto che ha lo stesso `kid` presente nell'header del voucher. In quello stesso oggetto troverà la chiave pubblica al parametro `n`. Effettuerà dunque una verifica della firma, che la chiave privata usata per firmare il voucher corrisponda a quella pubblica appena ottenuta.
 
-### Verifiche sul payload
+#### Verifiche sul payload
 
 Quelli che interessano ai fini della verifica sono:
 
@@ -73,11 +73,11 @@ Quelli che interessano ai fini della verifica sono:
 * `exp`: la scadenza del voucher;
 * `aud`: l'audience, ossia l'indicazione di quale servizio dell'erogatore il fruitore intenda consumare con il voucher.
 
-## Focus sul token DPoP
+### Focus sul token DPoP
 
 Una volta terminate le verifiche sul voucher rilasciato da PDND Interoperabilità, si concentra sul secondo token, quello presente nell'header `DPoP`.
 
-## Esempio di DPoP costruita dal fruitore deserializzata
+### Esempio di DPoP costruita dal fruitore deserializzata
 
 Header:
 
@@ -101,11 +101,11 @@ Payload:
 }
 ```
 
-### Verifiche sugli header e sulla firma
+#### Verifiche sugli header e sulla firma
 
 La chiave contenuta nell'header `jwk` deve corrispondere a quella usata per la firma della DPoP stessa.
 
-### Verifiche sui payload
+#### Verifiche sui payload
 
 Ciò che interessa ai fini della verifica è:
 
@@ -113,11 +113,11 @@ Ciò che interessa ai fini della verifica è:
 * che la DPoP sia stata emessa non oltre `iat` + 60 secondi con una tolleranza di ±10 secondi;
 * che l'id unico, il `jti`, non sia presente nella cache dell'e-service;
 
-## Verifiche incrociate
+### Verifiche incrociate
 
 Vanno infine effettuate due verifiche incrociate sui due token (voucher PDND e DPoP), ossia
 
-### Verifica dell'ath
+#### Verifica dell'ath
 
 Bisogna verificare che l'`ath`  della DPoP combaci con l'hash calcolato a partire dal voucher rilasciato da PDND Interoperabilità.&#x20;
 
@@ -127,7 +127,7 @@ L'hash si ottiene usando SHA256 e deve essere codificato in Base64URL, con la se
 BASE64URL(SHA-256(access_token_bytes))
 ```
 
-### Verifica del thumbprint
+#### Verifica del thumbprint
 
 Bisogna verificare che il thumbprint della chiave pubblica contenuta nella DPoP (campo `jwk`) sia identico al valore `cnf.jkt` nel voucher di PDND Interoperabilità.
 

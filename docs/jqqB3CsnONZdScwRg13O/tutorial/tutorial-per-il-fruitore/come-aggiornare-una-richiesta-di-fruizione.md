@@ -2,11 +2,11 @@
 
 Quando viene pubblicata una nuova versione di e-service a catalogo, viene richiesto a tutti i fruitori di aggiornare la richiesta di fruizione alla versione più recente dell'e-service disponibile.
 
-## Step 1 - Entrare nella scheda della propria richiesta di fruizione
+### Step 1: Entrare nella scheda della propria richiesta di fruizione
 
 Dalla voce di menù _**Fruizione > Richieste inoltrate**_, selezionare la richiesta di interesse, ed entrarci.
 
-## Step 2 - Aggiornare la richiesta
+### Step 2: Aggiornare la richiesta
 
 Prima di aggiornare la richiesta, si consiglia di consultarsi con i propri tecnici. In particolare, è buona norma verificare:
 

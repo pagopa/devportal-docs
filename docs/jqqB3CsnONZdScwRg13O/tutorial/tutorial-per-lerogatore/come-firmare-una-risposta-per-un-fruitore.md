@@ -6,7 +6,7 @@ Si riporta comunque a titolo di esempio una possibile gestione del meccanismo di
 
 Per maggiori informazioni, si veda la [sezione dedicata](../../riferimenti-tecnici/utilizzare-i-voucher/garanzia-dellintegrita-della-risposta.md).
 
-## Prerequisiti
+### Prerequisiti
 
 Si assume che l'erogatore abbia:
 
@@ -14,7 +14,7 @@ Si assume che l'erogatore abbia:
 * generato almeno un set di materiale crittografico e caricato la relativa chiave pubblica su PDND Interoperabilità all'interno del client ([vedi tutorial](../tutorial-per-il-fruitore/come-generare-il-corredo-crittografico-e-caricare-una-chiave-pubblica.md));
 * associato il _**Portachiavi Erogatore**_ all'e-service per la quale vuole firmare la risposta al fruitore ([vedi tutorial](come-associare-un-portachiavi-ad-un-e-service.md)).
 
-## Preparazione - Definire la struttura della risposta
+### Preparazione: Definire la struttura della risposta
 
 L'erogatore definisce la struttura per firmare un payload di risposta HTTP utilizzando RSA, per garantire che i dati provenienti da un e-service e non siano stati modificati.&#x20;
 
@@ -36,17 +36,17 @@ La risposta JSON che l'erogatore invia al fruitore sarà strutturata come segue:
 
 Si passa quindi alla firma della risposta.
 
-## Step 1 - Creazione dell'hash
+### Step 1: Creazione dell'hash
 
 Il contenuto del campo `data` viene convertito in una stringa di byte e sottoposto a una funzione di hash utilizzando un algoritmo come SHA256.
 
-## Step 2 - Firma dell'hash
+### Step 2: Firma dell'hash
 
 L’hash calcolato è poi firmato utilizzando la chiave privata corrispondente ad una delle pubbliche caricate sul proprio _**Portachiavi erogatore**_ associato all'e-service.&#x20;
 
 La firma garantisce che solo chi possiede la chiave privata corrispondente a `kid` (erogatore) possa generare la firma specifica per quel contenuto. Il `kid` della chiave pubblica che si è caricata è disponibile all'interno del portachiavi, aprendo la pagina relativa alla singola chiave (_**Erogazione > Portachiavi erogatore**_, tab _**Chiavi pubbliche**_, selezionando la singola chiave di interesse).
 
-## Step 3 - Integrazione della firma nella risposta
+### Step 3: Integrazione della firma nella risposta
 
 Come definito nello step di preparazione, nel payload si inseriscono:
 

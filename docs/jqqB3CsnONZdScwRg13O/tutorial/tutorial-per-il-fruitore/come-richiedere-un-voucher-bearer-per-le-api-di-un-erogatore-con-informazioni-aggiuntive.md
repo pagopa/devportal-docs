@@ -2,7 +2,7 @@
 
 Il JWS contenente le informazioni aggiuntive rispetta l'[RFC 7519](https://datatracker.ietf.org/doc/html/rfc7519) e il pattern individuato, cioè quello previsto da AgID nel ModI (_Audit REST 02)_. Per maggiori informazioni, si veda la [sezione dedicata](../../riferimenti-tecnici/utilizzare-i-voucher/tipi-di-richiesta-di-voucher.md#bearer-token-spendibile-presso-le-api-di-un-erogatore-con-informazioni-aggiuntive-pattern-modi-audit).
 
-## Il flusso in breve <a href="#il-flusso-in-breve" id="il-flusso-in-breve"></a>
+### Il flusso in breve <a href="#il-flusso-in-breve" id="il-flusso-in-breve"></a>
 
 In sostanza, il processo end-to-end richiede sette passaggi:
 
@@ -14,7 +14,7 @@ In sostanza, il processo end-to-end richiede sette passaggi:
 6. il fruitore fa una richiesta verso l'e-service dell'erogatore; inserisce sia il voucher rilasciato da PDND Interoperabilità nell'header `Authorization`, sia il JWS con le informazioni aggiuntive generato al punto 1 nell'header `AgID-JWT-TrackingEvidence`;
 7. l'erogatore effettua le verifiche necessarie. In caso di esito positivo, elabora la richiesta del fruitore.
 
-## Prerequisiti <a href="#il-flusso-in-breve" id="il-flusso-in-breve"></a>
+### Prerequisiti <a href="#il-flusso-in-breve" id="il-flusso-in-breve"></a>
 
 Si assume che il fruitore abbia:
 
@@ -22,7 +22,7 @@ Si assume che il fruitore abbia:
 * generato almeno un set di materiale crittografico e caricato la relativa chiave pubblica su PDND Interoperabilità all'interno del client ([vedi tutorial](come-generare-il-corredo-crittografico-e-caricare-una-chiave-pubblica.md));
 * associato il client alla finalità per la quale vuole ottenere o inviare dati all'erogatore ([vedi tutorial](come-associare-un-client-ad-una-finalita.md)).
 
-## Step 1 - Generazione del token contenente le informazioni aggiuntive <a href="#il-flusso-in-breve" id="il-flusso-in-breve"></a>
+### Step 1: Generazione del token contenente le informazioni aggiuntive <a href="#il-flusso-in-breve" id="il-flusso-in-breve"></a>
 
 Il fruitore costruisce un JWS , inserendo nell'header il `kid` di una chiave pubblica depositata su PDND Interoperabilità. Con la chiave privata corrispondente a quella pubblica firmerà questo JWS. Nel corpo (payload) del JWS inserisce le informazioni complementari da inviare all'erogatore.
 
@@ -38,7 +38,7 @@ Un JWS di esempio può avere header
 
 NB: la chiave privata che firma e il  `kid` della pubblica corrispondente depositata su PDND Interoperabilità non devono necessariamente essere gli stessi con i quali si firma la client assertion allo step 3.
 
-## Step 2 - Calcolare l'hash del JWS <a href="#il-flusso-in-breve" id="il-flusso-in-breve"></a>
+### Step 2: Calcolare l'hash del JWS <a href="#il-flusso-in-breve" id="il-flusso-in-breve"></a>
 
 A partire dalla codifica del JWS (ossia il JWS codificato secondo l'algoritmo inserito nell'header, in genere inizia per `ey`) il fruitore applica l'algoritmo di hashing SHA256 al JWS, ottenendone un hash non reversibile a lunghezza fissa.&#x20;
 
@@ -62,7 +62,7 @@ si ottiene l'hash a lunghezza fissa
 
 NB: la flag `-n` che viene passata nel primo comando indica che vengano rimosse eventuali "newline" non viste dall'operatore. Un'eventuale "newline" presente nel token fa cambiare il valore dell'hash che poi non corrisponderà all'atto della verifica dell'erogatore.
 
-## Step 3 - Generazione della client assertion <a href="#il-flusso-in-breve" id="il-flusso-in-breve"></a>
+### Step 3: Generazione della client assertion <a href="#il-flusso-in-breve" id="il-flusso-in-breve"></a>
 
 Va quindi costruita una _client assertion_ valida. La client assertion è composta da un header e un payload, contenenti i seguenti campi.
 
@@ -110,7 +110,7 @@ A scopo esemplificativo, è stato pubblicato uno script Python per dimostrare co
 
 È inoltre disponibile una funzione per verificare la validità della propria client assertion ed evidenziare eventuali errori. Lo strumento è disponibile nel front office su _**Tool per lo sviluppo > Debug client assertion**_.
 
-## Step 4 - Richiedere il voucher al server autorizzativo
+### Step 4: Richiedere il voucher al server autorizzativo
 
 Il secondo passaggio è chiamare il server autorizzativo di PDND Interoperabilità con la client assertion firmata per ottenerne in cambio un voucher spendibile presso le API di PDND Interoperabilità.&#x20;
 
@@ -120,7 +120,7 @@ L'endpoint andrà chiamato con alcuni parametri nel body:
 
 <table><thead><tr><th width="233.28125">Nome campo</th><th>Significato</th></tr></thead><tbody><tr><td><code>client_id</code></td><td>di nuovo il <code>clientId</code> usato nell'assertion</td></tr><tr><td><code>client_assertion</code></td><td>il contenuto dell'asserzione firmata nel primo passaggio</td></tr><tr><td><code>client_assertion_type</code></td><td>il formato della client assertion, come indicato in RFC (sempre <code>urn:ietf:params:oauth:client-assertion-type:jwt-bearer</code>)</td></tr><tr><td><code>grant_type</code></td><td>la tipologia di flusso utilizzato, come indicato in RFC (sempre <code>client_credentials</code>)</td></tr></tbody></table>
 
-## Step 5 - Il server autorizzativo verifica, e rilascia il voucher
+### Step 5: Il server autorizzativo verifica, e rilascia il voucher
 
 Se tutto è impostato correttamente, PDND Interoperabilità risponderà con un voucher valido all'interno del body della risposta alla proprietà `access_token`.&#x20;
 
@@ -171,7 +171,7 @@ Payload:
 }
 ```
 
-## Step 6 - Richiedere i dati all'ergoatore
+### Step 6: Richiedere i dati all'ergoatore
 
 Il voucher andrà inserito nell'header di tutte le chiamate successive verso le API dell'erogatore. Andrà inserito come header, come segue:
 
@@ -183,7 +183,7 @@ Inoltre, il JWS creato allo step 1 andrà inserito all'interno di un altro heade
 <pre><code><strong>Agid-JWT-TrackingEvidence: &#x3C;jws>
 </strong></code></pre>
 
-## Step 7 - Attendere le verifiche dell'erogatore
+### Step 7: Attendere le verifiche dell'erogatore
 
 L'erogatore effettua tutte le verifiche necessarie. Se tutto è in ordine, elabora la richiesta del fruitore, restituendogli i dati richiesti in caso di e-service che eroga dati, oppure accettando i dati dal fruitore in caso di e-service che riceve dati.
 
