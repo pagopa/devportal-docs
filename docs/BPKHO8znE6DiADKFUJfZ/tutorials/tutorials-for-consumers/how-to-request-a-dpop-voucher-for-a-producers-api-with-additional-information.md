@@ -76,7 +76,7 @@ Header:
 
 Payload:
 
-<table><thead><tr><th width="127.37109375">Field name</th><th>Meaning</th></tr></thead><tbody><tr><td>iss</td><td>the issuer, in this case the <em>clientId</em></td></tr><tr><td>sub</td><td>the subject, in this case always the <em>clientId</em></td></tr><tr><td>aud</td><td>the audience, available on PDND</td></tr><tr><td>jti</td><td>the JWT ID, a unique random ID assigned by whoever is creating the token, used to track the token itself. It is the caller’s responsibility to ensure that the ID of this token is unique for the client assertion</td></tr><tr><td>iat</td><td>issued at, the timestamp indicating when the token was created, expressed in <a href="https://datatracker.ietf.org/doc/html/rfc3339">UNIX epoch</a> (numeric value, not a string)</td></tr><tr><td>exp</td><td>expiration, the timestamp indicating when the token expires, expressed in <a href="https://datatracker.ietf.org/doc/html/rfc3339">UNIX epoch</a> (numeric value, not a string)</td></tr><tr><td>purposeId</td><td>The ID of the specific purpose for which you want to obtain a voucher, available in the back office</td></tr><tr><td>digest</td><td>Contains two values: <code>alg</code> (hashing algorithm, always SHA256) and <code>value</code> (hash from step 2)</td></tr></tbody></table>
+<table><thead><tr><th width="127.37109375">Field name</th><th>Meaning</th></tr></thead><tbody><tr><td><code>iss</code></td><td>the issuer, in this case the <code>clientId</code></td></tr><tr><td><code>sub</code></td><td>the subject, in this case always the <code>clientId</code></td></tr><tr><td><code>aud</code></td><td>the audience, available on PDND</td></tr><tr><td><code>jti</code></td><td>the JWT ID, a unique random ID assigned by whoever is creating the token, used to track the token itself. It is the caller’s responsibility to ensure that the ID of this token is unique for the client assertion</td></tr><tr><td><code>iat</code></td><td>issued at, the timestamp indicating when the token was created, expressed in <a href="https://datatracker.ietf.org/doc/html/rfc3339">UNIX epoch</a> (numeric value, not a string)</td></tr><tr><td><code>exp</code></td><td>expiration, the timestamp indicating when the token expires, expressed in <a href="https://datatracker.ietf.org/doc/html/rfc3339">UNIX epoch</a> (numeric value, not a string)</td></tr><tr><td><code>purposeId</code></td><td>The ID of the specific purpose for which you want to obtain a voucher, available in the front office</td></tr><tr><td><code>digest</code></td><td>Contains two values: <code>alg</code> (hashing algorithm, always SHA256) and <code>value</code> (hash from step 2)</td></tr></tbody></table>
 
 As an example, here is a deserialized client assertion to highlight its contents.
 
@@ -110,9 +110,9 @@ Payload:
 
 After building a valid _client assertion_, it must be signed with your private key (the counterpart of the public key uploaded to the client in PDND).
 
-For demonstration purposes, a Python script has been published showing how to perform the operation. All instructions are available in the back office, within your client.
+For demonstration purposes, a Python script has been published showing how to perform the operation. All instructions are available in the front office, within your client.
 
-A function is also available to check the validity of your client assertion and highlight any errors. The tool is available in the back office under _**Developers Tools > Debug client assertion**_.
+A function is also available to check the validity of your client assertion and highlight any errors. The tool is available in the front office under _**Developers Tools > Debug client assertion**_.
 
 ## Step 4 - Generating the first DPoP <a href="#il-flusso-in-breve" id="il-flusso-in-breve"></a>
 
@@ -141,7 +141,7 @@ Payload:
 
 where
 
-<table><thead><tr><th width="112.5546875">Field name</th><th>Meaning</th></tr></thead><tbody><tr><td><code>typ</code></td><td>must be set to <code>dpop+jwt</code></td></tr><tr><td><code>alg</code></td><td>Indicates the algorithm used to sign the DPoP. The recommended algorithm is <code>ES256</code></td></tr><tr><td><code>jwk</code></td><td>The public key in JWK format corresponding to the private key used to sign the DPoP</td></tr><tr><td><code>htm</code></td><td>Indicates the HTTP method being invoked. For obtaining a voucher from PDND, the method is <code>POST</code></td></tr><tr><td><code>htu</code></td><td>Indicates the URL being invoked. For obtaining a voucher from PDND in the Production environment it is <code>https://auth.interop.pagopa.it/token.oauth2</code> (for Testing and Validation environments use the specific one provided in the back office)</td></tr><tr><td><code>iat</code></td><td><em>Issued at</em> — the timestamp (<a href="https://datatracker.ietf.org/doc/html/rfc3339">UNIX epoch</a>, numeric) indicating the date and time when the DPoP is created</td></tr><tr><td><code>jti</code></td><td>Unique identifier of the DPoP. It is the consumer’s responsibility to ensure that the ID of this token is unique and not reused</td></tr></tbody></table>
+<table><thead><tr><th width="112.5546875">Field name</th><th>Meaning</th></tr></thead><tbody><tr><td><code>typ</code></td><td>must be set to <code>dpop+jwt</code></td></tr><tr><td><code>alg</code></td><td>Indicates the algorithm used to sign the DPoP. The recommended algorithm is <code>ES256</code></td></tr><tr><td><code>jwk</code></td><td>The public key in JWK format corresponding to the private key used to sign the DPoP</td></tr><tr><td><code>htm</code></td><td>Indicates the HTTP method being invoked. For obtaining a voucher from PDND, the method is <code>POST</code></td></tr><tr><td><code>htu</code></td><td>Indicates the URL being invoked. For obtaining a voucher from PDND in the Production environment it is <code>https://auth.interop.pagopa.it/token.oauth2</code> (for Testing and Validation environments use the specific one provided in the front office)</td></tr><tr><td><code>iat</code></td><td><em>Issued at</em> — the timestamp (<a href="https://datatracker.ietf.org/doc/html/rfc3339">UNIX epoch</a>, numeric) indicating the date and time when the DPoP is created</td></tr><tr><td><code>jti</code></td><td>Unique identifier of the DPoP. It is the consumer’s responsibility to ensure that the ID of this token is unique and not reused</td></tr></tbody></table>
 
 ## Step 5 - Requesting the voucher from the authorization server
 
@@ -152,16 +152,11 @@ In the request header, you must insert a `DPoP` header containing the DPoP gener
 <pre><code><strong>DPoP: &#x3C;DPoP_proof>
 </strong></code></pre>
 
-The endpoint URL for the authorization server depends on the environment and will be clearly visible in the back office interface.
+The endpoint URL for the authorization server depends on the environment and will be clearly visible in the front office interface.
 
 The endpoint must be called with the following body parameters:
 
-| Field name              | Meaning                                                                                                            |
-| ----------------------- | ------------------------------------------------------------------------------------------------------------------ |
-| `client_id`             | again, the _clientId_ used in the assertion                                                                        |
-| `client_assertion`      | the signed client assertion from the first step                                                                    |
-| `client_assertion_type` | the client assertion format, as indicated in RFC (always `urn:ietf:params:oauth:client-assertion-type:jwt-bearer`) |
-| `grant_type`            | the type of flow used, as indicated in RFC (always `client_credentials`)                                           |
+<table><thead><tr><th width="255.26251220703125">Field name</th><th>Meaning</th></tr></thead><tbody><tr><td><code>client_id</code></td><td>again, the <code>clientId</code> used in the assertion</td></tr><tr><td><code>client_assertion</code></td><td>the signed client assertion from the first step</td></tr><tr><td><code>client_assertion_type</code></td><td>the client assertion format, as indicated in RFC (always <code>urn:ietf:params:oauth:client-assertion-type:jwt-bearer</code>)</td></tr><tr><td><code>grant_type</code></td><td>the type of flow used, as indicated in RFC (always <code>client_credentials</code>)</td></tr></tbody></table>
 
 ## Step 6 - The authorization server verifies and issues the voucher
 

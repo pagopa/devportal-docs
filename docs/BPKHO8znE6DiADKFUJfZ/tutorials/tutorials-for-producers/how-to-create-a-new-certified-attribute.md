@@ -4,9 +4,9 @@
 
 To create new certified attributes, you must be accredited as a _Certifying Authority_. For more information, see the [dedicated section](../../technical-references/attributi/certifying-authority.md).
 
-## Step 1 - Access the back office
+## Step 1 - Access the front office
 
-Users with administrator permissions can access the back office from the left-hand menu, under _My party > Certifying authority_, which opens the following screen.
+Users with administrator permissions can access the front office from the left-hand menu, under _My party > Certifying authority_, which opens the following screen.
 
 <figure><img src="../../.gitbook/assets/interop_ente_certificatore_creazione_attributo.png" alt=""><figcaption><p>The screen showing the <em>Manage attributes</em> tab within the <em>My party > Certifying authority</em> page.</p></figcaption></figure>
 

@@ -2,7 +2,7 @@
 
 ## Step 1 - Access the e-service to be modified
 
-Access the back office in _**Producing > My e-services**_ and select the e-service of interest.
+Access the front office in _**Producing > My e-services**_ and select the e-service of interest.
 
 ## Step 2 - Make the change
 

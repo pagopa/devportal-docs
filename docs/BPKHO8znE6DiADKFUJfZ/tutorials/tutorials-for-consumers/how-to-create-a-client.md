@@ -8,7 +8,7 @@ _E-service clients_ are intended to be associated with your purposes and to inte
 
 _PDND API clients_, on the other hand, are intended to interact with the [APIs exposed by PDND](https://developer.pagopa.it/pdnd-interoperabilita/api).
 
-From the back office, go to the menu item _**Client management > E-service APIs**_ or _**Client management > PDND APIs**_ and then click _**Create new**_.
+From the front office, go to the menu item _**Client management > E-service APIs**_ or _**Client management > PDND APIs**_ and then click _**Create new**_.
 
 ## Step 2 - Assign a name and a description
 
@@ -18,7 +18,7 @@ Each client has a name and a description to help the party identify the group of
 
 You can add any number of people to the client, provided that these people have accounts to operate on behalf of the party.
 
-You can manage accounts from the Members Area platform, and more information is available in the [dedicated section](broken-reference).
+You can manage accounts from the Members Area platform, and more information is available in the [dedicated section](../../getting-started/guida-alladesione.md#user-and-role-management).
 
 The roles allowed within a client are administrator and security operator.
 

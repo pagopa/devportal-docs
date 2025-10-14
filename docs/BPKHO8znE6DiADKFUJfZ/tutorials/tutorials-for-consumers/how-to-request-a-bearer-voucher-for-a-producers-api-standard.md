@@ -30,7 +30,7 @@ Header:
 
 Payload:
 
-<table><thead><tr><th width="127.37109375">Field name</th><th>Meaning</th></tr></thead><tbody><tr><td>iss</td><td>the issuer, in this case the <em>clientId</em></td></tr><tr><td>sub</td><td>the subject, in this case always the <em>clientId</em></td></tr><tr><td>aud</td><td>the audience, available on PDND</td></tr><tr><td>jti</td><td>the JWT ID, a unique random ID assigned by whoever is creating the token, used to track the token itself. It is the caller’s responsibility to ensure that the ID of this token is unique for the client assertion</td></tr><tr><td>iat</td><td>issued at, the timestamp indicating when the token was created, expressed in <a href="https://datatracker.ietf.org/doc/html/rfc3339">UNIX epoch</a> (numeric value, not a string)</td></tr><tr><td>exp</td><td>expiration, the timestamp indicating when the token expires, expressed in <a href="https://datatracker.ietf.org/doc/html/rfc3339">UNIX epoch</a> (numeric value, not a string)</td></tr><tr><td>purposeId</td><td>The ID of the specific purpose for which you want to obtain a voucher, available in the back office</td></tr></tbody></table>
+<table><thead><tr><th width="127.37109375">Field name</th><th>Meaning</th></tr></thead><tbody><tr><td><code>iss</code></td><td>the issuer, in this case the <code>clientId</code></td></tr><tr><td><code>sub</code></td><td>the subject, in this case always the <code>clientId</code></td></tr><tr><td><code>aud</code></td><td>the audience, available on PDND</td></tr><tr><td><code>jti</code></td><td>the JWT ID, a unique random ID assigned by whoever is creating the token, used to track the token itself. It is the caller’s responsibility to ensure that the ID of this token is unique for the client assertion</td></tr><tr><td><code>iat</code></td><td>issued at, the timestamp indicating when the token was created, expressed in <a href="https://datatracker.ietf.org/doc/html/rfc3339">UNIX epoch</a> (numeric value, not a string)</td></tr><tr><td><code>exp</code></td><td>expiration, the timestamp indicating when the token expires, expressed in <a href="https://datatracker.ietf.org/doc/html/rfc3339">UNIX epoch</a> (numeric value, not a string)</td></tr><tr><td><code>purposeId</code></td><td>The ID of the specific purpose for which you want to obtain a voucher, available in the front office</td></tr></tbody></table>
 
 As an example, here is a deserialized client assertion to highlight its contents.
 
@@ -60,24 +60,19 @@ Payload:
 
 After building a valid _client assertion_, it must be signed with your private key (the counterpart of the public key uploaded to the client in PDND).
 
-For demonstration purposes, a Python script has been published showing how to perform the operation. All instructions are available in the back office, within your client.
+For demonstration purposes, a Python script has been published showing how to perform the operation. All instructions are available in the front office, within your client.
 
-A function is also available to check the validity of your client assertion and highlight any errors. The tool is available in the back office under _**Developers Tools > Debug client assertion**_.
+A function is also available to check the validity of your client assertion and highlight any errors. The tool is available in the front office under _**Developers Tools > Debug client assertion**_.
 
 ## Step 2 - Requesting the voucher from the authorization server
 
 The second step is to call PDND’s authorization server with the signed client assertion to obtain a voucher that can be used with the producer’s APIs.
 
-The endpoint URL for the authorization server depends on the environment and will be clearly visible in the interface within the back office.
+The endpoint URL for the authorization server depends on the environment and will be clearly visible in the interface within the front office.
 
 The endpoint must be called with the following parameters in the body:
 
-| Field name              | Meaning                                                                                                            |
-| ----------------------- | ------------------------------------------------------------------------------------------------------------------ |
-| `client_id`             | again, the _clientId_ used in the assertion                                                                        |
-| `client_assertion`      | the signed client assertion from the first step                                                                    |
-| `client_assertion_type` | the client assertion format, as indicated in RFC (always `urn:ietf:params:oauth:client-assertion-type:jwt-bearer`) |
-| `grant_type`            | the type of flow used, as indicated in RFC (always `client_credentials`)                                           |
+<table><thead><tr><th width="242.3499755859375">Field name</th><th>Meaning</th></tr></thead><tbody><tr><td><code>client_id</code></td><td>again, the <code>clientId</code> used in the assertion</td></tr><tr><td><code>client_assertion</code></td><td>the signed client assertion from the first step</td></tr><tr><td><code>client_assertion_type</code></td><td>the client assertion format, as indicated in RFC (always <code>urn:ietf:params:oauth:client-assertion-type:jwt-bearer</code>)</td></tr><tr><td><code>grant_type</code></td><td>the type of flow used, as indicated in RFC (always <code>client_credentials</code>)</td></tr></tbody></table>
 
 ## Step 3 - The authorization server verifies and issues the voucher
 

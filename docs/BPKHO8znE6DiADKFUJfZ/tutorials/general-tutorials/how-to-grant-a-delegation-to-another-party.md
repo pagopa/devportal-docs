@@ -23,7 +23,7 @@ Finally, you can review and submit the delegation.
 {% hint style="info" %}
 It is always reminded that the delegating party must appoint the delegate as Data Controller under the GDPR in all cases in which the delegate has access to data belonging to the delegating party or to third parties on behalf of the delegating party.
 
-A dialog box in the back office will remind the parties of this requirement when the delegation is signed.
+A dialog box in the front office will remind the parties of this requirement when the delegation is signed.
 {% endhint %}
 
 ***

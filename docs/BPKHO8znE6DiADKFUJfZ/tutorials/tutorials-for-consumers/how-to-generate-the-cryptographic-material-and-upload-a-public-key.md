@@ -18,7 +18,7 @@ The private key (`.priv`) remains with the party, who must keep it secure. The p
 
 ## Step 2 - Upload the public key
 
-You must access the desired client from the back office, in the _**Client Management > e-service API**_\* section, and then open the desired client.
+You must access the desired client from the front office, in the _**Client Management > e-service API**_\* section, and then open the desired client.
 
 In the _**Public Keys**_ tab, click on _**Add**_. If this is not possible, it may be because your account is not registered among the members of the client.
 

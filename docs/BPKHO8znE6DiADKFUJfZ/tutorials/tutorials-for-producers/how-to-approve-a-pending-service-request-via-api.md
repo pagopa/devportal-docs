@@ -38,7 +38,7 @@ Use this if the e-service requires the consumer to have one or more verified att
 ### Step 1 - Assign a verified attribute to the consumer
 
 {% hint style="warning" %}
-This endpoint is not yet available, but can be executed manually via the back office. For more information, see the [dedicated section](../../technical-references/attributi/).
+This endpoint is not yet available, but can be executed manually via the front office. For more information, see the [dedicated section](../../technical-references/attributi/).
 {% endhint %}
 
 The assignment requires reference to the Agreement for which the attribute is needed.

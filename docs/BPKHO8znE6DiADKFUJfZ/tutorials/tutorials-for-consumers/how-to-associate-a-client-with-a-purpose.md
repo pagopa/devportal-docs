@@ -4,7 +4,7 @@ It is possible to associate and remove clients from a purpose only if it is in t
 
 ## Step 1 - Access the purpose of interest
 
-If you want to modify one or more associated clients, the subscriber can go to the back office under _**Subscribing > Sent purposes**_, find the desired purpose, and click on _**View**_.
+If you want to modify one or more associated clients, the subscriber can go to the front office under _**Subscribing > Sent purposes**_, find the desired purpose, and click on _**View**_.
 
 <figure><img src="../../.gitbook/assets/Nuova UI Le tue finalità.png" alt=""><figcaption><p>Phase 1</p></figcaption></figure>
 
