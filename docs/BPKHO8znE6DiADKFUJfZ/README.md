@@ -1,30 +1,35 @@
-# Introduction
+# Platform overview
 
-The **National Digital Data Platform Interoperability** (from now on, "PDND") is designed to uphold the _“_**once only**_”_ principle. This means that Public Administrations (PAs) should not request information from citizens that they already have on file.
+## What it is
 
-PDND provides a **unified access point to the E-service Catalog**, a list of digital services offered by participating entities. This catalog is initially populated by major data providers, which, **by law, are required** to register on the platform, develop the necessary interfaces, and make their databases available at **no additional cost to the public finances** (Art. 50‑ter, paragraph 2, Digital Administration Code).
+The **National Digital Data Platform (PDND)** is the infrastructure that enables the **secure, standardized exchange of data** through a **unified access point** to the **catalog of e-services**. Parties subscribe, publish their e-services, and access those of other parties through uniform authentication, authorization, and tracking processes.&#x20;
 
-## Benefits for Participating Entities
+It was established by Article 50-ter of the Digital Administration Code (CAD), which defines its purposes and stakeholders.
 
-Thanks to this platform, participating entities can:
+## Objectives
 
-* browse the **e‑service catalog** to find available services;
-* **register and access** services of interest;
-* benefit from a **standardized process** for accessing e‑services and reusing administrative procedures, thereby reducing administrative burdens;
-* **be authenticated and authorized** both as providers and consumers, ensuring a secure information exchange channel;
-* have their administrative operations with other entities **tracked and stored**.
+* **Simplification** of administrative procedures, reducing time and burdens.
+* **Interoperability** among parties, thanks to shared technical and operational rules.
+* **Governance and transparency**, through tracking and control of administrative operations.
 
-## Benefits for Citizens
+## The “once only” principle
 
-There are two clear advantages:
+PDND implements the **“once only”** principle: administrations **do not request again** from citizens and businesses information already held by other Public Administrations, as they can retrieve it via the e-services of the data-holding parties.
 
-* simpler and faster procedures, carried out more efficiently without additional strain on the State’s budget;
-* not having to resubmit information already held by Public Administrations (the _once only_ principle).
+## Benefits
 
-## Data handling
+**For parties, organizations, and businesses:** standardized access to information, homogeneous authorization processes, reuse of assessments, and greater organizational efficiency.
 
-**PDND Interoperability does not record, process, or store** the data exchanged between entities and does not allow indiscriminate or generalized access to the data owned by PAs.
+**For citizens:** **faster procedures**, fewer repeated formalities, and more consistent digital services nationwide.
 
-## Current status
+## Data management
 
-Not all features outlined in AgID’s Guidelines have been implemented yet; some are already in the roadmap or currently under development. While the Guidelines describe what PDND will become once fully operational, this guide is updated continuously and provides **all the operational details needed to use the features currently available**.
+The data for which producers are responsible **do not pass through** and are **not stored** in PDND; the platform does not archive the contents exchanged between parties. _(Art. 50-ter, paragraph 3, CAD)_
+
+## State of the art
+
+The AgID Guidelines on PDND define the platform’s technical specifications and functionalities. With reference to [the 2025 update](getting-started/reference-legislation.md), some of the newly introduced features are currently on the roadmap or under development and will be made available soon. This guide is updated progressively and provides the operational details required to use the functionalities available today.
+
+***
+
+Next page [→ Who is it for](getting-started/who-is-it-for.md)
