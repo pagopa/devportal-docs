@@ -10,7 +10,7 @@ Quando un fruitore riceve una risposta firmata dall'erogatore, può verificare l
 
 ## Step 1 - Deserializzazione della risposta
 
-Una volta deserializzato il payload creato dall'erogatore nel [tutorial precedente](../tutorial-per-lerogatore/come-firmare-una-risposta-per-un-fruitore.md), il fruitore troverà la risposta JSON che l'erogatore ha inviato, strutturata come segue:
+Una volta deserializzato il payload creato dall'erogatore nel [tutorial dedicato](../tutorial-per-lerogatore/come-firmare-una-risposta-per-un-fruitore.md), il fruitore troverà la risposta JSON che l'erogatore ha inviato, strutturata come segue:
 
 ```
 {
@@ -30,7 +30,7 @@ Si passa quindi alla verifica della firma.
 
 ## Step 2 - Individuazione della chiave pubblica
 
-La chiave corrispondente al `kid` è reperibile sulle [API](broken-reference) esposte da PDND Interoperabilità.
+La chiave corrispondente al `kid` è reperibile sulle [API](../../riferimenti-tecnici/api-della-piattaforma/) esposte da PDND Interoperabilità.
 
 Per ottenere la chiave da PDND Interoperabilità, il fruitore deve aver:
 

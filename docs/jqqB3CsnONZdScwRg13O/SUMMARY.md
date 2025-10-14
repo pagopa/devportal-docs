@@ -42,8 +42,8 @@
   * [Come verificare una risposta firmata da un erogatore](tutorial/tutorial-per-il-fruitore/come-verificare-una-risposta-firmata-da-un-erogatore.md)
 * [Tutorial generali](tutorial/tutorial-generali/README.md)
   * [Come accedere al front office di PDND Interoperabilità](tutorial/tutorial-generali/ambienti-disponibili.md)
-  * [Come creare un nuovo amministratore](tutorial/tutorial-generali/come-creare-un-nuovo-amministratore.md)
-  * [Come creare un nuovo operatore](tutorial/tutorial-generali/utenze.md)
+  * [Come creare e revocare gli utenti amministratori](tutorial/tutorial-generali/come-creare-e-revocare-gli-utenti-amministratori.md)
+  * [Come creare e revocare gli utenti operatori](tutorial/tutorial-generali/utenze.md)
   * [Come rendersi disponibili a ricevere deleghe](tutorial/tutorial-generali/come-rendersi-disponibili-a-ricevere-deleghe.md)
   * [Come conferire una delega ad un altro ente](tutorial/tutorial-generali/come-conferire-una-delega-ad-un-altro-ente.md)
 

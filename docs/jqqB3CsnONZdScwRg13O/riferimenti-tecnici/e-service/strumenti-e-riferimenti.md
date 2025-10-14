@@ -30,4 +30,4 @@ Raccolta di **regole tecniche** e **pattern** per progettare API aderenti al **M
 
 ***
 
-Pagina successiva → Attributi
+Pagina successiva [→ Attributi](../attributi/)

@@ -93,7 +93,7 @@ Per ogni Amministratore da nominare, il Legale Rappresentante deve inserire nome
 
 È buona norma nominare almeno due Amministratori per garantire la continuità operativa.
 
-Maggiori dettagli sulla gestione degli utenti nella [sezione dedicata](../tutorial/tutorial-generali/come-creare-un-nuovo-amministratore.md).
+Maggiori dettagli sulla gestione degli utenti nella [sezione dedicata](../tutorial/tutorial-generali/come-creare-e-revocare-gli-utenti-amministratori.md).
 
 #### 7. Download e Firma dell'Accordo di Adesione
 

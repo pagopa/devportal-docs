@@ -102,4 +102,6 @@ Gli erogatori e i fruitori **conservano la traccia** di tutte le chiamate API ri
 
 Maggiori informazioni nella [sezione dedicata](../tracing.md).
 
-Pagina successiva → Portachiavi
+***
+
+Pagina successiva [→ Portachiavi](portachiavi.md)

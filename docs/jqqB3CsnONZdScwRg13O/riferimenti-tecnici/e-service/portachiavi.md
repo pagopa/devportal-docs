@@ -42,7 +42,7 @@ Maggiori informazioni sulla garanzia dell'integrità della risposta nella [sezio
 ### Aggiunta di un utente ad un portachiavi
 
 * Un amministratore può **aggiungere** utenti già registrati su PDND.
-* Per inserire un nuovo utente, occorre prima censirlo nell’**Area Riservata**. Maggiori informazioni nella [sezione dedicata](broken-reference).&#x20;
+* Per inserire un nuovo utente, occorre prima censirlo nell’**Area Riservata**. Maggiori informazioni nella [sezione dedicata](../../per-iniziare/primo-accesso-e-configurazione-iniziale.md#gestione-di-utenti-e-ruoli).&#x20;
 
 ### Rimozione di un utente da un portachiavi
 
@@ -59,4 +59,6 @@ Maggiori informazioni sulla garanzia dell'integrità della risposta nella [sezio
 * L'utente che ha caricato la chiave (o un amministratore) può **eliminarla**.
 * Dopo l’eliminazione, la chiave **non è più utilizzabile**; le risposte successive **non** sono verificabili con quella chiave.
 
-Pagina successiva → Strumenti e riferimenti
+***
+
+Pagina successiva [→ Strumenti e riferimenti](strumenti-e-riferimenti.md)

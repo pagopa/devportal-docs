@@ -66,7 +66,7 @@ In questo modello PDND Interoperabilità **attesta la catena autorizzativa** e *
 
 **Approfondimenti:**
 
-* lato fruitore: tutorial pratico per richiedere un voucher [Bearer](tipi-di-richiesta-di-voucher.md#bearer-versione-base) o [DPoP](../../tutorial/tutorial-per-il-fruitore/come-richiedere-un-voucher-dpop-per-le-api-di-un-erogatore-con-informazioni-aggiuntive.md) con informazioni aggiuntive;
+* lato fruitore: tutorial pratico per richiedere un voucher [Bearer](../../tutorial/tutorial-per-il-fruitore/come-richiedere-un-voucher-bearer-per-le-api-di-un-erogatore-con-informazioni-aggiuntive.md) o [DPoP](../../tutorial/tutorial-per-il-fruitore/come-richiedere-un-voucher-dpop-per-le-api-di-un-erogatore-con-informazioni-aggiuntive.md) con informazioni aggiuntive;
 * lato erogatore: [verifiche aggiuntive](../../tutorial/tutorial-per-lerogatore/come-verificare-il-digest-di-un-voucher.md) consigliate.
 
 ## Voucher verso le API di PDND Interoperabilità (Bearer)

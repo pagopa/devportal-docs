@@ -34,4 +34,4 @@ Se non ti viene chiesto di scegliere l'ambiente, vuol dire che la tua utenza è 
 
 ***
 
-Pagina successiva [→ Come creare un nuovo amministratore](come-creare-un-nuovo-amministratore.md)
+Pagina successiva [→ Come creare un nuovo amministratore](come-creare-e-revocare-gli-utenti-amministratori.md)

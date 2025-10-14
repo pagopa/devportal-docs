@@ -80,4 +80,6 @@ Tutti i campi del `configuration.json` sono **obbligatori**. Anche se non utiliz
 | `key`      | String         | Chiave che identifica la domanda nel template (es. `institutionalPurpose`). |
 | `values`   | Array\<String> | Elenco delle risposte selezionate.                                          |
 
-Pagina successiva → Soglie e approvazioni
+***
+
+Pagina successiva [→ Soglie e approvazioni](soglie-e-approvazioni.md)

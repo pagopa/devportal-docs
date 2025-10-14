@@ -1,8 +1,8 @@
 # API della piattaforma
 
-### Che cos’è e a cosa serve
+### Che cosa sono e a cosa servono
 
-L’API di **PDND Interoperabilità** consente l’**integrazione applicativa** con la piattaforma, offrendo un’alternativa/complemento al **front office** per **automatizzare** e **governare** i processi di **erogazione** e **fruizione** degli e-service nel rispetto dei profili autorizzativi dell’ente.
+Le API di **PDND Interoperabilità** consentono l’**integrazione applicativa** con la piattaforma, offrendo un’alternativa/complemento al **front office** per **automatizzare** e **governare** i processi di **erogazione** e **fruizione** degli e-service nel rispetto dei profili autorizzativi dell’ente.
 
 ### Versione corrente
 

@@ -24,10 +24,10 @@ La certificazione si basa su una **fonte autoritativa** denominata **ente certif
 
 **Esempio operativo:** il **Catalogo IPA** (fonte autoritativa) espone l’attributo “Comuni e loro Consorzi e Associazioni” e l'elenco degli enti che lo possiedono.
 
-* **Pubbliche amministrazioni (PA), Gestori di Servizi Pubblici (GSP), Società a Controllo Pubblico (SCP), Società in Conto Economico Consolidato (SCEC):** la **fonte autoritativa principale** è [**IPA**](https://app.gitbook.com/u/EQp1l1PZtFd3zUaIxSqBzkDGUOr1); la **verifica** del possesso degli attributi è **automatica** su PDND Interoperabilità. **Eventuali aggiornamenti** o **correzioni** dei dati di attributo si **richiedono al gestore di IPA (AgID)** secondo le procedure previste. L'elenco viene allineato una volta ogni 24 ore.
+* **Pubbliche amministrazioni (PA), Gestori di Servizi Pubblici (GSP), Società a Controllo Pubblico (SCP), Società in Conto Economico Consolidato (SCEC):** la **fonte autoritativa principale** è [**IPA**](https://indicepa.gov.it/ipa-portale/); la **verifica** del possesso degli attributi è **automatica** su PDND Interoperabilità. **Eventuali aggiornamenti** o **correzioni** dei dati di attributo si **richiedono al gestore di IPA (AgID)** secondo le procedure previste. L'elenco viene allineato una volta ogni 24 ore.
 * **Gestori privati di e-procurement:** l’attribuzione discende dal [**processo di certificazione**](https://www.agid.gov.it/it/piattaforme/procurement/certificazione-componenti-piattaforme) **dei componenti** pubblicato da **AgID**; una volta completato, viene **comunicato** a PDND Interoperabilità il **soggetto** a cui associare gli attributi certificati **richiesti** dagli erogatori.
 * **Servizi ANAC:** le PA e i gestori di pubblici servizi che intendono **ottenere** gli attributi **necessari** per accedere ai servizi **ANAC** seguono il **processo di riconoscimento** tramite **AgID**.
-* **Altri attributi certificati**: sono assegnati direttamente dagli aderenti ad altri aderenti secondo il flusso dedicato agli _enti certificatori_. Maggiori dettagli nella [sezione dedicata](enti-certificatori.md).
+* **Altri attributi certificati**: sono assegnati direttamente dagli aderenti ad altri aderenti secondo il flusso dedicato agli **enti certificatori**. Maggiori dettagli nella [sezione dedicata](enti-certificatori.md).
 
 ## Attributi verificati
 

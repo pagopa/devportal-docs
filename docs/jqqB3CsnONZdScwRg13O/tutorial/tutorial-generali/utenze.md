@@ -1,4 +1,4 @@
-# Come creare un nuovo operatore
+# Come creare e revocare gli utenti operatori
 
 ### **Step 1 - Aggiungere un utente**
 

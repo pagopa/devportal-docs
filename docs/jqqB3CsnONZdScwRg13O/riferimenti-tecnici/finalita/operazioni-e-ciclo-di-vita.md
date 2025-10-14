@@ -31,7 +31,7 @@ La **sospensione** può essere **disposta** in modo indipendente da **fruitore**
 
 Se **entrambi** sospendono, **entrambi** devono **riattivare**.
 
-Durante la sospensione, **nessun client associato** può **ottenere voucher** per quella finalità; la circostanza è segnalata anche nello **strumento di debug della client assertion** disponibile nel **front office**. Maggiori dettagli sullo strumento nella sezione dedicata. \[TODO]
+Durante la sospensione, **nessun client associato** può **ottenere voucher** per quella finalità; la circostanza è segnalata anche nello **strumento di debug della client assertion** disponibile nel **front office**. Maggiori dettagli sullo strumento nella [sezione dedicata](../utilizzare-i-voucher/faq-e-dubbi-comuni.md).
 
 ## Archiviare una finalità
 

@@ -61,4 +61,4 @@ Esempio: il **template e-service** è alla **versione 2**, mentre l’**istanza*
 
 ***
 
-Pagina successiva [→ Altre informazioni](broken-reference)
+Pagina successiva [→ Altre informazioni](altre-informazioni.md)

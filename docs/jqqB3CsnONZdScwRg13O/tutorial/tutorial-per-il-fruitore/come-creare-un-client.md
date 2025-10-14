@@ -2,13 +2,13 @@
 
 ## Step 1 - Entrare nel flusso di creazione
 
-I client e-service e i client API Interop si creano in maniera molto simile. Cambia solamente la voce di menù da selezionare.
+I client e-service e i client API Interoperabilità si creano in maniera molto simile. Cambia solamente la voce di menù da selezionare.
 
 I client e-service sono destinati ad essere associati alle proprie finalità e ad interagire con le API degli e-service degli erogatori.
 
-I client API Interop sono invece destinati a interagire con le [API esposte da PDND Interoperabilità](https://developer.pagopa.it/pdnd-interoperabilita/api).
+I **client API Interoperabilità** sono invece destinati a interagire con le [API della piattaforma](../../riferimenti-tecnici/api-della-piattaforma/).
 
-Dal back office andare alla voce di menu _**Gestione del client > API e-service**_ oppure _**Gestione del client > API Interoperabilità**_ e poi _**Crea nuovo**_.
+Dal back office andare alla voce di menu _**Gestione dei client > API e-service**_ oppure _**Gestione dei client > API Interoperabilità**_ e poi _**Crea nuovo**_.
 
 ## Step 2 - Assegnare un nome e una descrizione&#x20;
 
@@ -18,7 +18,7 @@ Ogni client ha un nome e una descrizione, per aiutare l'ente ad individuare il g
 
 È possibile inserire nel client un numero discrezionale di persone, a patto che queste persone abbiano delle utenze per operare per conto dell'ente.
 
-È possibile gestire le utenze dalla Piattaforma Area Riservata, e maggiori informazioni sono disponibili nella [sezione dedicata](broken-reference).
+È possibile gestire le utenze dalla Piattaforma Area Riservata, e maggiori informazioni sono disponibili nella [sezione dedicata](../../per-iniziare/primo-accesso-e-configurazione-iniziale.md#gestione-di-utenti-e-ruoli).
 
 I ruoli ammessi all'interno di un client sono quello di amministratore e di operatore di sicurezza.
 

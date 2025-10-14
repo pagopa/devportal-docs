@@ -1,4 +1,4 @@
-# Come creare un nuovo amministratore
+# Come creare e revocare gli utenti amministratori
 
 {% hint style="info" %}
 Durante la fase di adesione è possibile definire al massimo tre amministratori. Successivamente, è sempre possibile aggiungere altri amministratori o rimuoverli, senza limitazioni di numero.

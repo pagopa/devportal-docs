@@ -1,7 +1,7 @@
 # Come creare un nuovo e-service
 
 {% hint style="info" %}
-Solamente gli enti di tipo PA, GSP o SCP possono erogare e-service negli ambienti di collaudo e produzione. Nell'ambiente di attestazione, non esistono invece limitazioni. Per maggiori informazioni, si veda la [sezione dedicata](broken-reference).
+Solamente gli enti di tipo PA, GSP o SCP possono erogare e-service negli ambienti di collaudo e produzione. Nell'ambiente di attestazione, non esistono invece limitazioni. Per maggiori informazioni, si veda la [sezione dedicata](../../per-iniziare/primo-accesso-e-configurazione-iniziale.md#comprendere-gli-ambienti-operativi).
 {% endhint %}
 
 ## Step 1 - Creazione di un nuovo e-service

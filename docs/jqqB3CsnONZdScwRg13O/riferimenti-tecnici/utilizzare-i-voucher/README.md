@@ -14,7 +14,7 @@ PDND Interoperabilità implementa meccanismi di autorizzazione basati sullo stan
 
 ## Maggiori informazioni, esempi e tutorial
 
-Nelle prossime sezioni della guida sono illustrate le diverse modalità di richiesta e loro caratteristiche. Nella sezione tutorial, sono inoltre disponibili guide passo passo per [ottenere](../../tutorial/tutorial-per-il-fruitore/) e [verificare](../../tutorial/tutorial-per-lerogatore/) un voucher.
+Nelle prossime sezioni della guida sono illustrate le diverse modalità di richiesta e loro caratteristiche. Nella sezione tutorial, sono inoltre disponibili guide passo passo per [ottenere](../../tutorial/tutorial-per-il-fruitore/#operazioni-per-ottenere-un-voucher-e-verificare-le-risposte) e [verificare](../../tutorial/tutorial-per-lerogatore/#operazioni-di-firma-e-verifica) un voucher.
 
 ***
 

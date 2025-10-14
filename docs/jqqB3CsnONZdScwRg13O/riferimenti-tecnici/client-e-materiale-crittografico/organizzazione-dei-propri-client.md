@@ -62,4 +62,4 @@ Si raccomanda inoltre di assegnare ai client **nomi descrittivi** che ne facilit
 
 ***
 
-Pagina successiva [→ Voucher](broken-reference)
+Pagina successiva [→ Voucher](../utilizzare-i-voucher/)

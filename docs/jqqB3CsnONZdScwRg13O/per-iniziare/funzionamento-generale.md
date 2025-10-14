@@ -32,7 +32,7 @@ sequenceDiagram
     autonumber
 
     participant E as Erogatore
-    participant C as Catalogo PDND
+    participant C as  PDND
     participant F as Fruitore
 
     E->>C: Pubblica e-service
@@ -54,22 +54,22 @@ sequenceDiagram
 
 #### Flusso dell’erogatore
 
-* Un aderente che desidera **erogare un e-service** può **crearlo e gestirlo** attraverso la piattaforma, come descritto in una [sezione precedente](funzionamento-generale.md#percorso-per-condividere-i-dati-su-pdnd-interoperabilita).
-* **Una volta pubblicato**, il servizio è **disponibile nel Catalogo** degli e-service, dove potrà essere visualizzato in **modalità fruizione**.
-* Gli aderenti interessati, **se in possesso dei requisiti minimi** richiesti dall’erogatore (**attributi**), possono **inoltrare una richiesta di fruizione**.
-* L’erogatore ha la possibilità di **valutare e gestire** tali richieste.
-* **Dopo l’approvazione** della richiesta di fruizione, il fruitore può **presentare le proprie finalità** e **iniziare a fruire** dell’e-service.
+1. Un aderente che desidera **erogare un e-service** può **crearlo e gestirlo** attraverso la piattaforma, come descritto in una [sezione precedente](funzionamento-generale.md#percorso-per-condividere-i-dati-su-pdnd-interoperabilita).
+2. **Una volta pubblicato**, il servizio è **disponibile nel Catalogo** degli e-service, dove potrà essere visualizzato in **modalità fruizione**.
+3. Gli aderenti interessati, **se in possesso dei requisiti minimi** richiesti dall’erogatore (**attributi**), possono **inoltrare una richiesta di fruizione**.
+4. L’erogatore ha la possibilità di **valutare e gestire** tali richieste.
+5. **Dopo l’approvazione** della richiesta di fruizione, il fruitore può **presentare le proprie finalità** e **iniziare a fruire** dell’e-service.
 
 #### Flusso del fruitore
 
-* Un aderente che desidera **fruire di un e-service** può **consultare il Catalogo** per visualizzare quelli disponibili.
-* Se **possiede i requisiti minimi** richiesti, può **richiedere l’iscrizione** presentando una **richiesta di fruizione**, che verrà **valutata dall’erogatore**.
-* Una volta che la richiesta è **approvata e attiva**, il fruitore può **creare finalità**, specificando:
-  * **Dettagli sull’accesso e trattamento dei dati** (_analisi del rischio_).
-  * **Stima di carico**, cioè il **numero stimato di chiamate API giornaliere** verso l’erogatore.
-* Se la **stima di carico** **supera la capacità** dell’infrastruttura dell’erogatore, è necessaria un’**ulteriore approvazione tecnica** prima di utilizzare la finalità per accedere all’e-service.
-* Quando la **finalità è attiva**, il fruitore può **finalizzare l’integrazione tecnica** per **ottenere un voucher** da PDND Interoperabilità e **accedere all’API** dell’erogatore.
-* Tutti questi aspetti verranno **approfonditi nelle relative sezioni** della guida.
+1. Un aderente che desidera **fruire di un e-service** può **consultare il Catalogo** per visualizzare quelli disponibili.
+2. Se **possiede i requisiti minimi** richiesti, può **richiedere l’iscrizione** presentando una **richiesta di fruizione**, che verrà **valutata dall’erogatore**.
+3. Una volta che la richiesta è **approvata e attiva**, il fruitore può **creare finalità**, specificando:
+   * **Dettagli sull’accesso e trattamento dei dati** (_analisi del rischio_).
+   * **Stima di carico**, cioè il **numero stimato di chiamate API giornaliere** verso l’erogatore.
+4. Se la **stima di carico** **supera la capacità** dell’infrastruttura dell’erogatore, è necessaria un’**ulteriore approvazione tecnica** prima di utilizzare la finalità per accedere all’e-service.
+5. Quando la **finalità è attiva**, il fruitore può **finalizzare l’integrazione tecnica** per **ottenere un voucher** da PDND Interoperabilità e **accedere all’API** dell’erogatore.
+6. Tutti questi aspetti verranno **approfonditi nelle relative sezioni** della guida.
 
 ***
 

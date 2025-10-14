@@ -1,6 +1,6 @@
 # Come richiedere un voucher Bearer per le API di PDND Interoperabilità
 
-Per un elenco di tutte le API messe a disposizione da PDND Interoperabilità, si veda [qui](https://app.gitbook.com/o/KXYtsf32WSKm6ga638R3/s/zwqHiUqrZCs3zNnHdc9A/).
+Per un elenco di tutte le API messe a disposizione da PDND Interoperabilità, si veda [qui](https://developer.pagopa.it/pdnd-interoperabilita/api).
 
 Maggiori informazioni su questa implementazione nella [sezione dedicata](../../riferimenti-tecnici/utilizzare-i-voucher/tipi-di-richiesta-di-voucher.md#bearer-token-spendibile-presso-le-api-di-pdnd-interoperabilita).
 
@@ -18,7 +18,7 @@ In sostanza, il processo end-to-end richiede cinque passaggi:
 
 Si assume che il fruitore abbia:
 
-* creato un client di tipo API Interop ([vedi tutorial](come-creare-un-client.md));
+* creato un client di tipo API Interoperabilità ([vedi tutorial](come-creare-un-client.md));
 * generato almeno un set di materiale crittografico e caricato la relativa chiave pubblica su PDND Interoperabilità all'interno del client ([vedi tutorial](come-generare-il-corredo-crittografico-e-caricare-una-chiave-pubblica.md)).
 
 ## Step 1 - Generazione della client assertion <a href="#il-flusso-in-breve" id="il-flusso-in-breve"></a>
@@ -31,7 +31,7 @@ Header:
 
 Payload:
 
-<table><thead><tr><th width="127.37109375">Nome campo</th><th>Significato</th></tr></thead><tbody><tr><td>iss</td><td>l'issuer, in questo caso il <em>clientId</em></td></tr><tr><td>sub</td><td>il subject, in questo caso sempre il <em>clientId</em></td></tr><tr><td>aud</td><td>l'audience, reperibile su PDND Interoperabilità</td></tr><tr><td>jti</td><td>il JWT ID, un id unico random assegnato da chi vuole creare il token, si usa per tracciare il token stesso. Deve essere cura del chiamante assicurarsi che l'id di questo token sia unico per quanto riguarda la client assertion</td></tr><tr><td>iat</td><td>l'issued at, il timestamp riportante data e ora in cui viene creato il token, espresso in <a href="https://datatracker.ietf.org/doc/html/rfc3339">UNIX epoch</a> (valore numerico, non stringa)</td></tr><tr><td>exp</td><td>l'expiration, il timestamp riportante data e ora di scadenza del token, espresso in <a href="https://datatracker.ietf.org/doc/html/rfc3339">UNIX epoch</a> (valore numerico, non stringa)</td></tr></tbody></table>
+<table><thead><tr><th width="127.37109375">Nome campo</th><th>Significato</th></tr></thead><tbody><tr><td><code>iss</code></td><td>l'issuer, in questo caso il <em>clientId</em></td></tr><tr><td><code>sub</code></td><td>il subject, in questo caso sempre il <em>clientId</em></td></tr><tr><td><code>aud</code></td><td>l'audience, reperibile su PDND Interoperabilità</td></tr><tr><td><code>jti</code></td><td>il JWT ID, un id unico random assegnato da chi vuole creare il token, si usa per tracciare il token stesso. Deve essere cura del chiamante assicurarsi che l'id di questo token sia unico per quanto riguarda la client assertion</td></tr><tr><td><code>iat</code></td><td>l'issued at, il timestamp riportante data e ora in cui viene creato il token, espresso in <a href="https://datatracker.ietf.org/doc/html/rfc3339">UNIX epoch</a> (valore numerico, non stringa)</td></tr><tr><td><code>exp</code></td><td>l'expiration, il timestamp riportante data e ora di scadenza del token, espresso in <a href="https://datatracker.ietf.org/doc/html/rfc3339">UNIX epoch</a> (valore numerico, non stringa)</td></tr></tbody></table>
 
 A titolo esemplificativo, di seguito un esempio di contenuto di client assertion deserializzata, in modo da evidenziarne il contenuto.
 

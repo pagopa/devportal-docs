@@ -49,7 +49,7 @@ Tutti i parametri possono essere aggiornati nel tempo anche senza creare una nuo
 * il parametro **audience**,
 * gli **attributi**, modificabili senza nuova versione solo se ampliano la platea dei fruitori.
 
-Maggiori informazioni sulla gestione degli aggiornamenti nel tutorial dedicato \[TODO].
+Maggiori informazioni sulla gestione degli aggiornamenti nel [tutorial dedicato](../../tutorial/tutorial-per-lerogatore/come-aggiornare-un-e-service.md).
 
 ## Regole di aggiornamento
 
@@ -57,4 +57,6 @@ Maggiori informazioni sulla gestione degli aggiornamenti nel tutorial dedicato \
 * PDND consente la creazione di nuove versioni per modifiche strutturali, preservando la coerenza delle versioni pubblicate.
 * È possibile archiviare le versioni non più attive e pubblicarne di nuove.
 
-Pagina successiva → Operazioni e ciclo di vita
+***
+
+Pagina successiva → [Operazioni e ciclo di vita](operazioni-e-ciclo-di-vita.md)
