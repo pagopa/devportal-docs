@@ -27,7 +27,7 @@ Certification is based on an **authoritative source** called a **certifying body
 * **Public Administrations (PA), Public Service Managers (GSP), Publicly Controlled Companies (SCP), Companies within the Consolidated Economic Account (SCEC):** the **main authoritative source** is [**IPA**](https://indicepa.gov.it/ipa-portale/); the **verification** of attribute possession is **automatic** on PDND. **Any updates** or **corrections** to attribute data must be **requested from the IPA manager (AgID)** according to the established procedures. The list is synchronized every 24 hours.
 * **Private e-procurement platform managers:** certification is based on the [**certification process**](https://www.agid.gov.it/it/piattaforme/procurement/certificazione-componenti-piattaforme) of components published by **AgID**; once completed, PDND is **notified** of the entity to which the **certified attributes** required by producers must be assigned.
 * **ANAC services:** Public Administrations and Public Service Managers seeking to **obtain** the attributes **required** to access **ANAC services** must follow the **recognition process** through **AgID**.
-* **Other certified attributes:** these are directly **assigned by parties to other parties** through the process dedicated to **certifying bodies**. More details are available in the [dedicated section](certifying-body.md).
+* **Other certified attributes:** these are directly **assigned by parties to other parties** through the process dedicated to **certifying bodies**. More details are available in the [dedicated section](certifying-authority.md).
 
 ### Verified attributes
 
@@ -42,4 +42,4 @@ Certification is based on an **authoritative source** called a **certifying body
 
 ***
 
-Next page [→ Operations and lifecycle](operations-and-lifecycle.md)
+Next page [→ Operations and lifecycle](lifecycle.md)

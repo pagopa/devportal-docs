@@ -4,7 +4,7 @@ The ModI leaves it to the producer’s discretion to indicate what the correct p
 
 Below is, by way of example, a possible management of the response payload signing mechanism of an e-service.
 
-For more information, see the [dedicated section](../../../technical-references/utilizzare-i-voucher/ensuring-response-integrity.md).
+For more information, see the [dedicated section](../../../technical-references/utilizzare-i-voucher/guaranteeing-response-integrity.md).
 
 When a consumer receives a response signed by the producer, they can verify the authenticity and integrity of the data received in the response through the `kid` (key ID) inserted in the payload and the public key that the producer has stored in their _**Producer Keychain**_, associated with the e-service.
 

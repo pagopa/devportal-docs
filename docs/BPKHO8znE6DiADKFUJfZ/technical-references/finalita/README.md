@@ -16,4 +16,4 @@ Each purpose is **associated** with an **e-service** for which the consumer has 
 
 ***
 
-Next page [→ Operations and lifecycle](operations-and-lifecycle.md)
+Next page [→ Operations and lifecycle](lifecycle.md)

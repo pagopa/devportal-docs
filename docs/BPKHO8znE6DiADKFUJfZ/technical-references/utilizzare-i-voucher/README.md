@@ -1,17 +1,23 @@
 # Vouchers
 
-Vouchers are issued by PDND to subscribers in the form of **JWT (JSON Web Token)**.
+### What they are and what they are for
 
-Depending on the request, they may implement a different specification (Bearer Token, DPoP), or have a different destination (a producer’s API, one of PDND’s APIs).
+**Vouchers** are **JWT tokens (JSON Web Tokens)** that act as an **authorization** issued by the platform to the _consumer_ to access an _e-service_ published by a _producer_.
 
-PDND uses specifications based on [RFC 6750](https://datatracker.ietf.org/doc/html/rfc6750) (**OAuth 2.0**). Client authorization via client assertion is implemented according to the [RFC 7521](https://datatracker.ietf.org/doc/html/rfc7521) standard. Additional RFCs depend on the type of voucher issued and are indicated in detail in the relevant sections.
+The voucher ensures the **security, legitimacy, and traceability** of data exchanges between parties by guaranteeing that:
 
-The type of voucher that a producer requires must always be specified in the API interface document and in the technical documentation that a producer includes within its e-service.
+1. **The consumer is reliably identified**, since the voucher is issued only after PDND has verified the entire chain: active e-service version, active service request, active purpose linked to the e-service, client associated with the purpose, and public key associated with the client.
+2. **The producer can verify the authorization of the request**, confirming that it originates from an authorized consumer, for the correct resource and an active purpose.
+3. **Each interaction is secure and verifiable**, thanks to the **digital signature** applied by PDND to the token.
 
-The possible voucher requests and their differences are detailed in the [dedicated section](types-of-voucher-requests.md).
+PDND implements authorization mechanisms based on the **OAuth 2.0** standard ([**RFC 6750**](https://datatracker.ietf.org/doc/html/rfc6750)).\
+Client authentication follows what is defined in [**RFC 7521**](https://datatracker.ietf.org/doc/html/rfc7521).\
+Any additional technical specifications (RFCs) depend on the type of voucher issued and are indicated in the respective sections of the manual.
 
-For additional safeguards, the producer may also sign its own response, ensuring its integrity for the subscriber. To do so, it uses the producer keychain mechanism (called the "Server dell'Aderente" in the AgID Guidelines). More information is available in the [dedicated section](ensuring-response-integrity.md).
+### More information, examples, and tutorials
 
-{% hint style="info" %}
-Additional authorization proofs or information related to the subscriber’s domain may be provided in the communication between the producer and the subscriber, at the discretion of the parties.
-{% endhint %}
+The following sections of this guide describe the different **voucher request methods** and their features. In the tutorial section, you can find step-by-step guides on how to **obtain \[TODO]** and **verify \[TODO]** a voucher.
+
+***
+
+Next page [→ Types of voucher requests](types-of-voucher-requests.md)&#x20;

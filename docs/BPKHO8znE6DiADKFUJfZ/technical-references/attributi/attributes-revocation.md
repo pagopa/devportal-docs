@@ -34,4 +34,4 @@ If the request **remains suspended** even after redeclaration, this means that *
 
 ***
 
-Next page [→ Certifying body](certifying-body.md)
+Next page [→ Certifying body](certifying-authority.md)

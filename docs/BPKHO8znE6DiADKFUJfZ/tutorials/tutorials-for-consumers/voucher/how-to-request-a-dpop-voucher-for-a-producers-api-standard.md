@@ -211,4 +211,4 @@ The consumer must also insert another header:
 
 The producer carries out all necessary checks. If everything is in order, it processes the consumer’s request, returning the requested data in the case of a data-providing e-service, or accepting the data from the consumer in the case of a data-receiving e-service.
 
-To consult the recommended checks for producers, see the [dedicated section](../../../technical-references/utilizzare-i-voucher/checks-on-a-dpop-voucher-by-a-producer.md).
+To consult the recommended checks for producers, see the [dedicated section](../../tutorials-for-producers/checks-on-a-dpop-voucher-by-a-producer.md).

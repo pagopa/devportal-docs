@@ -34,4 +34,4 @@ The **consumer** may **submit a new request** for the **same e-service**, provid
 
 ***
 
-Next page [→ Attribute revocation](attribute-revocation.md)
+Next page [→ Attribute revocation](attributes-revocation.md)

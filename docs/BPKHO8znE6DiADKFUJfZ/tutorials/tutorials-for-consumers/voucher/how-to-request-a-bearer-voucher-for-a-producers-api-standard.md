@@ -140,4 +140,4 @@ The producer performs all necessary checks.
 
 If everything is in order, they process the consumer’s request — returning the requested data in the case of a data-producing e-service, or accepting data from the consumer in the case of a data-receiving e-service.
 
-For recommended checks for producers, see the [dedicated section](../../../technical-references/utilizzare-i-voucher/checks-on-a-bearer-voucher-by-a-producer.md).
+For recommended checks for producers, see the [dedicated section](../../tutorials-for-producers/checks-on-a-bearer-voucher-by-a-producer.md).

@@ -1,18 +1,22 @@
 # Client
 
-A client is a container that includes the technical users authorized to upload public keys, as well as the public keys themselves.
+### What they are and what they are for
 
-The client is the tool that enables the actual extraction of data. For this reason, all operations related to adding technical staff and to associating clients and purposes can be performed only by an account with administrator permissions.
+**Clients** represent the **application identity** of the party: they group together the **security operators (technical users)** authorized to **upload public keys**, as well as the **public keys themselves**.
 
-There are two types of client:
+They constitute the **enabling tool for data extraction**; therefore, **all operations** related to **adding technical personnel** and **associating clients with purposes** can be performed **exclusively** by users with **administrator privileges**.
 
-* those that target the **producers** of e-services;
-* those that target the APIs exposed by **PDND**.
+### Types of clients
 
-The first type of client, the _**E-service API client**_, can be associated with e-services for which a consumer has an active service request and at least one published purpose.
+* **E-service API client (toward producers):** Can be **associated** with e-services for which the consumer has an **active service request** and **at least one published purpose**. Each e-service client can be **associated with one or more purposes**; once associated, the **cryptographic material** stored in the client becomes **valid** for **requesting from PDND a voucher** related to **that purpose**.
+* **Interoperability API client (toward the platform’s APIs):** Does **not require associations** with e-services or purposes and can be **used directly** to **obtain information** from **PDND** through its APIs.
 
-Each e-service client can be associated with one or more purposes. Once associated, the cryptographic material stored there will be considered valid to request from PDND a voucher for that purpose.
+#### Operational management
 
-The second type, the _**PDND API client**_, is not associated with anything and can be used directly to obtain information from PDND through its APIs.
+It is possible to **add or remove** **security operators** and **public keys** **at any time**.
 
-It is possible to add and remove users and public keys from any client at any time, as well as to associate or disassociate an e-service client from a purpose, even without deleting it.
+A **client (e-service)** can also be **associated or disassociated** from a **purpose** **without being deleted**, keeping its configuration **available for other associations** when necessary.
+
+***
+
+Next page [→ Operations](operations.md)

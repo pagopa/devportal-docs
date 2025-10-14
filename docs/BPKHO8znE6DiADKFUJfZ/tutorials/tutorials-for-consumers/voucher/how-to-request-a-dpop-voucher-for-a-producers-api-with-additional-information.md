@@ -266,4 +266,4 @@ Additionally, the JWS from step 1 is included in a custom header defined by AgID
 
 The producer carries out all necessary checks. If everything is in order, it processes the consumer’s request, returning the requested data in the case of a data-providing e-service, or accepting the data from the consumer in the case of a data-receiving e-service.
 
-To consult the recommended checks for producers, see the [dedicated section](../../../technical-references/utilizzare-i-voucher/checks-on-a-dpop-voucher-by-a-producer.md). In addition, it is possible to consult the verifications to be carried out regarding the digest, specific to this flow, in the [dedicated section](../../../technical-references/utilizzare-i-voucher/checks-of-the-digest-by-a-producer.md).
+To consult the recommended checks for producers, see the [dedicated section](../../tutorials-for-producers/checks-on-a-dpop-voucher-by-a-producer.md). In addition, it is possible to consult the verifications to be carried out regarding the digest, specific to this flow, in the [dedicated section](../../tutorials-for-producers/checks-of-the-digest-by-a-producer.md).

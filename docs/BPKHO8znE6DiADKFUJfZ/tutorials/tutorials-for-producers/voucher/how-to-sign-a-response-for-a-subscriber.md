@@ -4,7 +4,7 @@ The ModI leaves it to the producer to define the correct procedure for signing t
 
 Below is an example of a possible way to manage the signing mechanism of an e-service’s response payload.
 
-For more details, see the [dedicated section](../../../technical-references/utilizzare-i-voucher/ensuring-response-integrity.md).
+For more details, see the [dedicated section](../../../technical-references/utilizzare-i-voucher/guaranteeing-response-integrity.md).
 
 ## Prerequisites
 

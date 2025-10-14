@@ -13,4 +13,4 @@ As an act that **establishes an agreement between two parties**, the request mus
 
 ***
 
-Next page [→ Operations and lifecycle](operations-and-lifecycle.md)
+Next page [→ Operations and lifecycle](lifecycle.md)

@@ -1,104 +1,90 @@
 # Types of voucher requests
 
-It is possible to request vouchers from PDND that comply with different specifications. For all the cases listed below except the first, the voucher to request is detailed by the producer in the settings of their e-service (API interface file and attached technical documentation). If the producer does not specify anything, the voucher to produce is of the second type (Bearer) without additional information.
+### Introduction
 
-The possible types are as follows:
+It is possible to request from the **PDND** vouchers that comply with different specifications.\
+For all the cases listed below, the **voucher type** to be used is specified by the **producer** in the **e-service settings** (API interface file and attached technical documentation).
 
-* Bearer voucher usable with PDND APIs;
-* Bearer voucher usable with a producer's APIs;
-* DPoP voucher usable with a producer's APIs.
+If the producer **does not specify** any preference, the default voucher is the **Bearer** intended for the **producer’s APIs**, **without additional information**.
 
-For options 2 and 3, both a standard configuration and one including additional information are possible, according to the pattern described by AgID called _Audit REST 02_.
+The available voucher types are:
 
-Below is a brief description of all voucher types.
+* **Bearer** usable with **producer APIs**.
+* **DPoP** usable with **producer APIs**.
+* **Bearer** usable with the [**PDND APIs**](../api-esposte-da-pdnd-interoperabilita/).
 
-## Basic request flow
+For the **Bearer** and **DPoP** options toward the producer, both the **basic configuration** and the **variant with additional information** according to the **ModI Audit REST 02** pattern are available ([AgID Interoperability Guidelines, Annex 2](https://www.agid.gov.it/sites/agid/files/2024-07/Linee_guida_interoperabilit%C3%A0PA_All2_Pattern_sicurezza.pdf)).
 
-In all cases, the voucher request consists of at least three steps:
+### Basic request flow
 
-1. **generating and signing a client assertion** that provides the request details (from which client, for which purpose, etc.);
-2. **sending the client assertion to PDND’s authorization server** which, after verification, issues the voucher;
-3. **sending the data request to the producer**, including in the request header the voucher obtained from PDND.
+All voucher requests follow three fundamental steps:
 
-All the request types are variations of this flow and refer to specific RFCs.
+1. **Generate and sign** a **client assertion** containing the request details (client, purpose, etc.).
+2. **Send the client assertion** to the PDND authorization server, which performs the required verifications and **issues the voucher**.
+3. **Send the data request** to the producer, including the **voucher** in the header.
 
-{% hint style="info" %}
-Additional authorization proofs may still be required in the communication between producer and subscriber, at the parties' discretion.
-{% endhint %}
+All variants are based on this flow and refer to specific **RFC standards**. Additional authorization checks may be defined between the **producer** and the **consumer**.
 
-## Security and reference standards for signing and verification <a href="#sicurezza-e-standard-di-riferimento" id="sicurezza-e-standard-di-riferimento"></a>
+### Security and reference standards
 
-The signing and verification process follows international specifications that ensure security. The reference standards include:
+Signing and verification follow international standards:
 
-* [RFC 8017](https://datatracker.ietf.org/doc/html/rfc8017) (PKCS #1): defines the methods for using the RSA algorithm for digital signatures;
-* [RFC 7518](https://datatracker.ietf.org/doc/html/rfc7518) (JSON Web Algorithms): specifies signature algorithms such as RSA and SHA-256;
-* [RFC 7517](https://datatracker.ietf.org/doc/html/rfc7517) (JSON Web Key — JWK): specifies the JSON format for representing cryptographic keys, both public and private.
+* [**RFC 8017**](https://datatracker.ietf.org/doc/html/rfc8017) **(PKCS #1)** — Use of RSA for digital signatures.
+* [**RFC 7518**](https://datatracker.ietf.org/doc/html/rfc7518) **(JSON Web Algorithms)** — Signature algorithms (e.g., RSA, SHA-256).
+* [**RFC 7517**](https://datatracker.ietf.org/doc/html/rfc7517) **(JSON Web Key — JWK)** — JSON representation of keys.
+* Client authorization via **client assertion** follows [**RFC 7521**](https://datatracker.ietf.org/doc/html/rfc7521); additional RFCs depend on the voucher type.
 
-## Bearer Token usable with PDND APIs
+### **Vouchers for producer APIs**
 
-It has two distinctive features:
+#### Bearer (basic version)
 
-1. it must be made by a _PDND API client_;
-2. it does not require specifying the reference purpose.
+Used by the majority of services, it includes the **client assertion** with the **standard information** required by PDND, useful both for **audit** purposes and to allow the **producer** to assess the access requests.
 
-The PDND APIs are provided to all parties by contract, as required by AgID Guidelines. For this reason, there is no need to detail the purpose of the request.
+**Further details:**
 
-The list of APIs exposed by PDND is available [here](https://developer.pagopa.it/pdnd-interoperabilita/api).
+* Consumer side: **tutorial** \[TODO] for requesting a voucher.
+* Producer side: **standard verifications** \[TODO] recommended.
 
-For more information, see the [practical tutorial](../../tutorials/tutorials-for-consumers/voucher/how-to-request-a-bearer-voucher-for-pdnd-apis.md).
+#### DPoP (basic version)
 
-{% hint style="info" %}
-PDND does not have visibility of the data exchanged between producer and subscriber. Its APIs only return information related to the PDND domain itself (e.g., the list of service requests submitted by the party).
-{% endhint %}
+The **DPoP (Demonstrating Proof-of-Possession)** pattern uses **two tokens** — one toward **PDND** and one toward the **producer’s resource server** — with independent verifications: both must match for authorization. It is a **valid alternative to mTLS**, reducing certificate management overhead.
 
-## Bearer Token usable with a producer's APIs (standard)
+**Further details:**
 
-Used by the vast majority of services, it requires creating a client assertion detailing the basic information requested by PDND. This is useful both for audit purposes and for allowing the producer to assess the incoming data access requests.
+* Consumer side: **tutorial** \[TODO] for requesting a voucher.
+* Producer side: **standard verifications** \[TODO] recommended.
+* All users: **dedicated focus** \[TODO].
 
-For more information, see:
+### ModI Audit REST 02 pattern — additional information (applicable to Bearer and DPoP)
 
-* subscriber side: the [practical tutorial](../../tutorials/tutorials-for-consumers/voucher/how-to-request-a-bearer-voucher-for-a-producers-api-standard.md) for requesting a voucher;
-* producer side: the recommended [standard checks](checks-on-a-bearer-voucher-by-a-producer.md).
+When the producer requires **additional audit metadata** (e.g., **caller IP**, **operator identifier**), the **ModI Audit REST 02** pattern is used:
 
-## Bearer Token usable with a producer's APIs (with additional information — ModI _Audit REST 02_ pattern)
+1. The consumer generates a **second JWT** containing the additional information.
+2. An **hash** of the second JWT is calculated and inserted into the **client assertion** in the `digest.value` field.
+3. After PDND issues the **voucher**, the consumer sends the **voucher** together with the **second JWT** to the producer.
+4. The producer recalculates the **hash** from the second JWT and compares it with `digest.value`: a match confirms the **authenticity** and **integrity** of the metadata.
 
-Used by all those services for which the producer considers it necessary to obtain additional audit information not included in the standard fields required by PDND within the client assertion.
+In this model, **PDND** certifies the **authorization chain** but **does not access** the additional data exchanged directly between the producer and consumer. An example of this implementation is found in **ANPR (National Registry)** services.
 
-An example might be the caller's IP address or information related to the operator making the request.
+**Further details:**
 
-The mechanism allows the producer to verify that the subscriber has deposited a record on PDND, which acts as a notary in this process. At the same time, the information is exchanged directly between subscriber and producer, without PDND knowing it.
+* Consumer side: tutorials for requesting a voucher **Bearer** \[TODO] or **DPoP** \[TODO] with additional information.
+* Producer side: **recommended verifications** \[TODO].
 
-An example of this pattern is the ANPR services.
+### Vouchers for PDND APIs (Bearer)
 
-In this flow, the subscriber forges a second JWT containing the additional information. From this JWT, a hash is derived, which is then included in the client assertion in the `digest.value` field.
+**Characteristics:**
 
-Finally, after obtaining a voucher from PDND, the subscriber includes both the voucher and the second JWT in the call to the producer. The producer then compares the hash found in the digest in the PDND voucher with a value calculated from the contents of the second JWT. If they match, the additional data in the second JWT is intact.
+* Requested by **clients intended for the platform’s APIs (Interop API Clients)**.
+* Do **not** require the indication of a **purpose**.
 
-For more information, see:
+The **PDND APIs** provide information related only to the **PDND domain** (e.g., list of the party’s service requests) and do **not transmit data exchanged between producers and consumers**.
 
-* subscriber side: the [practical tutorial](../../tutorials/tutorials-for-consumers/voucher/how-to-request-a-bearer-voucher-for-a-producers-api-with-additional-information.md) for requesting a voucher;
-* producer side: the recommended [standard](checks-on-a-bearer-voucher-by-a-producer.md) and [additional](checks-of-the-digest-by-a-producer.md) checks.
+**Further details:**
 
-## DPoP usable with a producer's APIs (standard)
+* [**List of APIs**](https://developer.pagopa.it/pdnd-interoperabilita/api).
+* **Dedicated tutorial** \[TODO].
 
-The _Demonstrating Proof-of-Possession (DPoP)_ pattern involves using two DPoP tokens, one for PDND and the other for the resource server from which the data is being requested. If the two independent verifications do not match, the request is not authorized.
+***
 
-This pattern provides an additional security layer, useful for example when the data is requested for a single specific operation, such as when a device requests authorization to access data.
-
-It is a valid alternative to mTLS in some cases, with the advantage of not requiring a certificate exchange between the two parties and not needing special maintenance, especially by the producer.
-
-For more information, see:
-
-* subscriber side: the practical [practical tutorial](../../tutorials/tutorials-for-consumers/voucher/how-to-request-a-dpop-voucher-for-a-producers-api-standard.md) for requesting a voucher;
-* producer side: the recommended [standard checks](checks-on-a-dpop-voucher-by-a-producer.md);
-* everyone: the [dedicated in-depth guide](focus-on-dpop.md).
-
-## DPoP usable with a producer's APIs (with additional information — ModI _Audit REST 02_ pattern)
-
-This mirrors the previous DPoP case, but includes the additional information a producer may require, as described in the [earlier case](types-of-voucher-requests.md#bearer-token-spendibile-presso-le-api-di-un-erogatore-con-informazioni-aggiuntive-pattern-modi-audit).
-
-For more information, see:
-
-* subscriber side: the [practical tutorial](../../tutorials/tutorials-for-consumers/voucher/how-to-request-a-dpop-voucher-for-a-producers-api-with-additional-information.md) for requesting a voucher;
-* producer side: the recommended [standard](checks-on-a-dpop-voucher-by-a-producer.md) and [additional](checks-of-the-digest-by-a-producer.md) checks;
-* everyone: the [dedicated in-depth guide](focus-on-dpop.md).
+Next page [→ Retrieve identifiers for verifications](retrieve-identifiers-for-verifications.md)
