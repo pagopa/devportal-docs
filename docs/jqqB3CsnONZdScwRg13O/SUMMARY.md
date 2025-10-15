@@ -50,9 +50,9 @@
 ## Riferimenti tecnici
 
 * [Glossario](riferimenti-tecnici/glossario.md)
-* [API della piattaforma](riferimenti-tecnici/api-della-piattaforma/README.md)
-  * [Richiesta di fruizione (Agreement)](riferimenti-tecnici/api-della-piattaforma/richiesta-di-fruizione-agreement.md)
-  * [Finalità (Purpose)](riferimenti-tecnici/api-della-piattaforma/finalita-purpose.md)
+* [API esposte da PDND](riferimenti-tecnici/api-esposte-da-pdnd/README.md)
+  * [Richiesta di fruizione (Agreement)](riferimenti-tecnici/api-esposte-da-pdnd/richiesta-di-fruizione-agreement.md)
+  * [Finalità (Purpose)](riferimenti-tecnici/api-esposte-da-pdnd/finalita-purpose.md)
 * [E-service](riferimenti-tecnici/e-service/README.md)
   * [Operazioni e ciclo di vita](riferimenti-tecnici/e-service/operazioni-e-ciclo-di-vita.md)
   * [Esportazione e importazione](riferimenti-tecnici/e-service/e-service.md)

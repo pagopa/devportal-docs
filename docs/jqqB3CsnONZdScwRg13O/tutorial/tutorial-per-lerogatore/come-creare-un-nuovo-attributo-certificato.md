@@ -20,6 +20,10 @@ Gli enti certificatori possono assegnare gli attributi certificati che hanno cre
 
 Da lì può cliccare su _**Assegna attributo**_ per assegnare un proprio attributo certificato ad un ente, oppure individuare l'ente dalla lista sottostante per revocare l'attributo.
 
+{% hint style="warning" %}
+La revoca di un attributo certificato ha impatti immediati sul fruitore. Per maggiori dettagli, si veda la [sezione dedicata](../../riferimenti-tecnici/attributi/revoca-attributi.md#revoca-di-un-attributo-certificato).
+{% endhint %}
+
 ***
 
 Pagina successiva [→ Come associare un portachiavi ad un e-service](come-associare-un-portachiavi-ad-un-e-service.md)

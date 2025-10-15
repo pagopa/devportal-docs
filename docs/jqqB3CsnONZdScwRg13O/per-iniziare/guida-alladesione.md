@@ -53,7 +53,9 @@ Successivamente, **confermare** che le informazioni visualizzate siano corrette 
 
 Solo per Pubbliche Amministrazioni (PA), Gestori di Servizi Pubblici (GSP), Società a Controllo Pubblico (SCP) e Società in Conto Economico Consolidato (SCEC)
 
-<div><img src="../.gitbook/assets/selfcare.pagopa.it_onboarding_prod-interop(Macbook Pro – Screenshot).png" alt="La schermata di selezione dell&#x27;ente per PA e GSP"> <figure><img src="../.gitbook/assets/Screenshot 2024-10-09 alle 09.36.09.png" alt=""><figcaption><p>La schermata di selezione dell'ente per SCP</p></figcaption></figure></div>
+<figure><img src="../.gitbook/assets/Screenshot 2024-10-09 alle 09.36.09.png" alt="" width="375"><figcaption><p>La schermata di selezione dell'ente per SCP</p></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/selfcare.pagopa.it_onboarding_prod-interop(Macbook Pro – Screenshot).png" alt="" width="375"><figcaption><p>La schermata di selezione dell'ente per PA e GSP</p></figcaption></figure>
 
 **Pubbliche Amministrazioni (PA) e Gestori di Servizi Pubblici (GSP)**
 

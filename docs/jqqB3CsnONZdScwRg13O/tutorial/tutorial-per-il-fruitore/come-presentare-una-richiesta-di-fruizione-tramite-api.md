@@ -2,6 +2,11 @@
 
 La presentazione di una richiesta di fruizione (Agreement) prevede la creazione di una bozza, seguita da una sottomissione.
 
+### Prerequisiti
+
+* Aver creato un [client API Interoperabilità](../../riferimenti-tecnici/client-e-materiale-crittografico/) e caricato nel client almeno una chiave pubblica
+* Aver nominato un [amministratore del client](../../riferimenti-tecnici/api-esposte-da-pdnd/#prerequisiti-e-ruoli)
+
 ### Step 1: Creare l'Agreement in DRAFT
 
 L'Agreement deve essere creato indicando sia l'e-service che la specifica versione di e-service (EServiceDescriptor) a cui fa riferimento.

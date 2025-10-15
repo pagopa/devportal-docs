@@ -7,7 +7,7 @@ I **client** possono essere **creati** o **eliminati**, **associati** o **disass
 La creazione dei client avviene dal front office:
 
 * _Gestione del client > API e-service_ per i client API e-service;
-* _Gestione del client > API Interoperabilità_ per i client destinati alle [API della piattaforma](../api-della-piattaforma/) PDND Interoperabilità.
+* _Gestione del client > API Interoperabilità_ per i client destinati alle [API della piattaforma](../api-esposte-da-pdnd/) PDND Interoperabilità.
 
 È sufficiente indicare un nome e una descrizione per identificarli. Durante la creazione, è possibile aggiungere gli operatori di sicurezza e caricare le chiavi pubbliche necessarie.
 

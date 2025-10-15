@@ -4,6 +4,11 @@
 
 L'utilizzo di una finalità (**Purpose**) richiede la creazione di una bozza corredata dall'analisi del rischio, e una successiva attivazione.
 
+### Prerequisiti
+
+* Aver creato un [client API Interoperabilità](../../riferimenti-tecnici/client-e-materiale-crittografico/) e caricato nel client almeno una chiave pubblica
+* Aver nominato un [amministratore del client](../../riferimenti-tecnici/api-esposte-da-pdnd/#prerequisiti-e-ruoli)
+
 ### Step 1: Creare la Purpose in DRAFT
 
 La Purpose deve essere creata indicando l'e-service verso il quale verrà utilizzata, le informazioni della finalità, la stima di carico e l'analisi del rischio.

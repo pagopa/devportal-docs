@@ -52,6 +52,10 @@ Segui i tutorial dedicati:
 
 Al primo accesso, si raccomanda all'amministratore di **impostare i contatti dell'ente**: verificare e inserire l'indirizzo email di contatto per ricevere le comunicazioni importanti dalla piattaforma e dai fruitori.
 
+### Assegnazione degli attributi
+
+È necessario attendere fino a 24 ore per assicurare la corretta assegnazione di tutti gli attributi da parte delle fonti autoritative al proprio ente. Maggiori dettagli sugli attributi nella [sezione dedicata](../riferimenti-tecnici/attributi/).
+
 ***
 
 Pagina successiva [→ Normativa di riferimento](normativa-e-approfondimenti.md)

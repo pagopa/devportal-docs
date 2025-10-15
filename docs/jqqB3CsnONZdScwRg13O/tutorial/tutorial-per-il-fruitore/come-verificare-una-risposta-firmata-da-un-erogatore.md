@@ -30,7 +30,7 @@ Si passa quindi alla verifica della firma.
 
 ### Step 2: Individuazione della chiave pubblica
 
-La chiave corrispondente al `kid` è reperibile sulle [API](../../riferimenti-tecnici/api-della-piattaforma/) esposte da PDND Interoperabilità.
+La chiave corrispondente al `kid` è reperibile sulle [API](../../riferimenti-tecnici/api-esposte-da-pdnd/) esposte da PDND Interoperabilità.
 
 Per ottenere la chiave da PDND Interoperabilità, il fruitore deve aver:
 

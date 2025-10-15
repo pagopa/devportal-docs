@@ -10,7 +10,7 @@ I tipi di voucher previsti:
 
 * **Bearer** spendibile presso le **API di un erogatore**.
 * **DPoP** spendibile presso le **API di un erogatore**.
-* **Bearer** spendibile presso le [**API della piattaforma**](../api-della-piattaforma/).
+* **Bearer** spendibile presso le [**API della piattaforma**](../api-esposte-da-pdnd/).
 
 Per le opzioni **Bearer** e **DPoP** verso l’erogatore sono disponibili sia la **configurazione base** sia la variante con **informazioni aggiuntive** secondo il pattern **ModI** [**Audit REST 02**](https://www.agid.gov.it/sites/agid/files/2024-07/Linee_guida_interoperabilit%C3%A0PA_All2_Pattern_sicurezza.pdf?utm_source=chatgpt.com).
 

@@ -6,7 +6,7 @@ I client e-service e i client API Interoperabilità si creano in maniera molto s
 
 I client e-service sono destinati ad essere associati alle proprie finalità e ad interagire con le API degli e-service degli erogatori.
 
-I **client API Interoperabilità** sono invece destinati a interagire con le [API della piattaforma](../../riferimenti-tecnici/api-della-piattaforma/).
+I **client API Interoperabilità** sono invece destinati a interagire con le [API della piattaforma](../../riferimenti-tecnici/api-esposte-da-pdnd/).
 
 Dal front office andare alla voce di menu _**Gestione dei client > API e-service**_ oppure _**Gestione dei client > API Interoperabilità**_ e poi _**Crea nuovo**_.
 

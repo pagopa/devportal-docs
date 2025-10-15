@@ -4,6 +4,11 @@ Sull'API lo stato **In attesa di approvazione** delle richieste di fruizione (Ag
 
 Un Agreement in stato PENDING necessita di uno o più interventi da parte dell'erogatore dell'e-service.
 
+### Prerequisiti
+
+* Aver creato un [client API Interoperabilità](../../riferimenti-tecnici/client-e-materiale-crittografico/) e caricato nel client almeno una chiave pubblica
+* Aver nominato un [amministratore del client](../../riferimenti-tecnici/api-esposte-da-pdnd/#prerequisiti-e-ruoli)
+
 ### Caso 1 — Approvazione manuale necessaria
 
 Da eseguire se l'attivazione di un Agreement richiede l'approvazione manuale dell'erogatore. L'approvazione manuale può essere scelta dall'erogatore all'atto della definizione di una versione di e-service. Per maggiori informazioni, si veda la [sezione dedicata](../../riferimenti-tecnici/e-service/#informazioni-di-versione).

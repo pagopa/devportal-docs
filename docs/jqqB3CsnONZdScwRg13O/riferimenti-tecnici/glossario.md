@@ -31,11 +31,9 @@ Insieme di norme che regolano l’uso delle tecnologie digitali nella **Pubblica
 
 ### E-service
 
-Voce che identifica i **servizi presenti nel catalogo**. Ogni e-service è **gestito da un aderente** che ne definisce:
+È un **servizio digitale** messo a disposizione da una pubblica amministrazione o da un ente aderente, che consente lo scambio automatico e sicuro di dati e informazioni tra diverse amministrazioni o tra enti pubblici e soggetti privati autorizzati.
 
-* **requisiti di accesso** (_attributi_),
-* **destinazione** d’uso,
-* **struttura dell’API** mediante la quale i fruitori accedono alle informazioni in possesso dell’erogatore.
+L’e-service rappresenta l’unità logica di erogazione e fruizione dei dati all’interno della PDND: attraverso esso, un ente può esporre (erogare) o richiedere (fruire) dati in modo standardizzato, secondo le regole tecniche e i protocolli definiti dalla piattaforma.
 
 ### Ente certificatore
 
@@ -86,4 +84,4 @@ Il voucher **riporta** le informazioni necessarie all’erogatore per **verifica
 
 ***
 
-Pagina successiva [→ API della piattaforma](api-della-piattaforma/)
+Pagina successiva [→ API della piattaforma](api-esposte-da-pdnd/)

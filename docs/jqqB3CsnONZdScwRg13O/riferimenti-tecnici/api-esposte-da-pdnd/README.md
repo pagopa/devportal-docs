@@ -1,8 +1,8 @@
-# API della piattaforma
+# API esposte da PDND
 
 ### Che cosa sono e a cosa servono
 
-Le API di **PDND Interoperabilità** consentono l’**integrazione applicativa** con la piattaforma, offrendo un’alternativa/complemento al **front office** per **automatizzare** e **governare** i processi di **erogazione** e **fruizione** degli e-service nel rispetto dei profili autorizzativi dell’ente.
+Le API esposte da **PDND Interoperabilità** consentono l’**integrazione applicativa** con la piattaforma, offrendo un’alternativa/complemento al **front office** per **automatizzare** e **governare** i processi di **erogazione** e **fruizione** degli e-service nel rispetto dei profili autorizzativi dell’ente.
 
 ### Versione corrente
 
@@ -10,7 +10,7 @@ La **versione corrente** e oggetto di questa documentazione è la **v.2**. Per m
 
 ### Prerequisiti e ruoli
 
-Le operazioni in scrittura richiedono la **nomina** di un **amministratore** dell’ente come **amministratore del client** associato; i **permessi** determinano le azioni consentite su ciascun oggetto.
+Le operazioni in scrittura richiedono la **nomina** di un **amministratore** dell’ente come **amministratore del client API Interoperabilità** associato. È possibile eseguire l'operazione di associazione dalla scheda del client disponibile all'interno del front office.
 
 ### Ambito funzionale (v.2)
 

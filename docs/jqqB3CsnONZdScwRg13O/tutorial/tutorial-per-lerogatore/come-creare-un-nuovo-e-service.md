@@ -53,9 +53,9 @@ Al fine di assicurare la conformità delle API pubblicate agli standard del Mode
 È possibile trovare l'API checker a questo link: [https://italia.github.io/api-oas-checker/](https://italia.github.io/api-oas-checker/) e prima di usare lo strumento è consigliato leggere le [Guide per l’utilizzo](https://github.com/italia/api-oas-checker-rules).
 {% endhint %}
 
-Si richiede inoltre di caricare altra documentazione tecnica aggiuntiva (manuale d'uso, esempi, etc.).
+Si consiglia inoltre di caricare tutta la documentazione tecnica necessaria a facilitare l'attività di integrazione da parte dei fruitori e riducendo al minimo eventuali frizioni.
 
-Alla fine del processo è disponibile un riepilogo di tutti i dati inseriti durante la creazione dell'e-service e si può decidere se modificare la bozza, pubblicarla o eliminarla.
+Al termine del processo è disponibile un riepilogo di tutti i dati inseriti durante la creazione dell'e-service e si può decidere se modificare la bozza, pubblicarla o eliminarla.
 
 Per il dettaglio sui singoli campi o sui meccanismi relativi all'e-service, si veda la [sezione dedicata](../../riferimenti-tecnici/e-service/).
 

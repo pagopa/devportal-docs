@@ -14,7 +14,7 @@ La **Piattaforma Digitale Nazionale Dati (PDND)** è l’infrastruttura che abil
 
 ### Il principio “once only”
 
-PDND attua il principio del **“once only”**: le amministrazioni **non richiedono nuovamente** ai cittadini e alle imprese informazioni già detenute da altre PA, potendole reperire tramite gli e-service degli enti titolari dei dati.
+PDND abilita l'attuazione del **“once only”**: le amministrazioni **non richiedono nuovamente** ai cittadini e alle imprese informazioni già detenute da altre PA, potendole reperire tramite gli e-service degli enti titolari dei dati.
 
 ### Vantaggi
 
