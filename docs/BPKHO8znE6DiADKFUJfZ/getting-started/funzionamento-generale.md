@@ -49,9 +49,11 @@ Next, **confirm** that the displayed information is correct to proceed.
 
 ### 3. Selection of the party to subscribe for
 
-Only for Public Administrations (PA), Public Service Managers (GSP), Publicly Controlled Companies (SCP), and Companies within the Consolidated Economic Account (SCEC)
+Only for Public Administrations (PA), Public Service Managers (GSP), Publicly Controlled Companies (SCP), and Companies within the Consolidated Economic Account (SCEC).
 
-<div><figure><img src="../.gitbook/assets/selfcare.pagopa.it_onboarding_prod-interop(Macbook Pro – Screenshot).png" alt=""><figcaption><p>Screen for selecting the party for PAs and GSPs</p></figcaption></figure> <figure><img src="../.gitbook/assets/Screenshot 2024-10-09 alle 09.36.09.png" alt=""><figcaption><p>Screen for selecting the party for SCPs</p></figcaption></figure></div>
+<figure><img src="../.gitbook/assets/Screenshot 2024-10-09 alle 09.36.09.png" alt="" width="375"><figcaption><p>Screen for selecting the party for SCPs</p></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/selfcare.pagopa.it_onboarding_prod-interop(Macbook Pro – Screenshot).png" alt="" width="375"><figcaption><p>Screen for selecting the party for PAs and GSPs</p></figcaption></figure>
 
 **Public Administrations (PA) and Public Service Managers (GSP)**
 

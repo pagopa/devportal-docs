@@ -14,7 +14,7 @@ It was established by Article 50-ter of the Digital Administration Code (CAD), w
 
 ## The “once only” principle
 
-PDND implements the **“once only”** principle: administrations **do not request again** from citizens and businesses information already held by other Public Administrations, as they can retrieve it via the e-services of the data-holding parties.
+PDND enables the implementation of the “**once only**” principle. Public administrations **do not request** citizens and businesses to provide information already held by other public administrations, as they can obtain it through the e-services of the parties that own the data.
 
 ## Benefits
 

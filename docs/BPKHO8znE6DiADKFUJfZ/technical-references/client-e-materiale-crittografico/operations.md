@@ -7,7 +7,7 @@
 Clients are created from the front office:
 
 * _Client management > E-service API_ for **E-service API clients**;
-* _Client management > Interoperability API_ for clients intended for the **PDND APIs**.
+* _Client management > PDND API_ for clients intended for the **PDND APIs**.
 
 It is sufficient to provide a **name** and **description** to identify them. During creation, it is also possible to **add security operators** and **upload the necessary public keys**.
 

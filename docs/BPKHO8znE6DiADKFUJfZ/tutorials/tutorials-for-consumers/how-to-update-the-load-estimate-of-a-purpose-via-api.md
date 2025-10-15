@@ -2,6 +2,11 @@
 
 Updating the load estimate of a Purpose can be applied directly, or require the producer’s approval if it exceeds the thresholds set by the e-service version (_**EServiceDescriptor**_).
 
+### Prerequisites
+
+* Having created a [PDND API client](../../technical-references/client-e-materiale-crittografico/) and uploaded at least one public key to the client
+* Having appointed a [client administrator](../../technical-references/api-esposte-da-pdnd-interoperabilita/#prerequisites-and-roles)
+
 ### Step 1: Update the load estimate
 
 **Request**

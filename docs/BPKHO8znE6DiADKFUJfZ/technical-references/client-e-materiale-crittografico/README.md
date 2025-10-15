@@ -9,7 +9,7 @@ They constitute the **enabling tool for data extraction**; therefore, **all oper
 ### Types of clients
 
 * **E-service API client (toward producers):** Can be **associated** with e-services for which the consumer has an **active service request** and **at least one published purpose**. Each e-service client can be **associated with one or more purposes**; once associated, the **cryptographic material** stored in the client becomes **valid** for **requesting from PDND a voucher** related to **that purpose**.
-* **Interoperability API client (toward the platform’s APIs):** Does **not require associations** with e-services or purposes and can be **used directly** to **obtain information** from **PDND** through its APIs.
+* **PDND API client (toward the platform’s APIs):** Does **not require associations** with e-services or purposes and can be **used directly** to **obtain information** from **PDND** through its APIs.
 
 #### Operational management
 

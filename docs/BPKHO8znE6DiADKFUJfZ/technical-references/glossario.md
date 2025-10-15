@@ -30,11 +30,9 @@ A collection of regulations governing the use of digital technologies within the
 
 ### E-service
 
-An entry identifying the **services available in the catalog**. Each e-service is **managed by a party** that defines:
+It is a **digital service** made available by a public administration or a subscribing party, which enables the automatic and secure exchange of data and information between different administrations or between public parties and authorized private entities.
 
-* the **access requirements** (_attributes_),
-* the **intended use**,
-* the **API structure** through which consumers access the information held by the producer.
+The e-service represents the logical unit for producing and consuming data within the PDND: through it, a party can expose (produce) or request (consume) data in a standardized way, according to the technical rules and protocols defined by the platform.
 
 ### E-service catalog
 

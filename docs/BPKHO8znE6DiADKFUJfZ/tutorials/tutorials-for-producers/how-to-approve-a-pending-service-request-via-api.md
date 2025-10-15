@@ -4,6 +4,11 @@ On the API, the state **In attesa di approvazione** (Waiting for approval) in th
 
 An Agreement in **PENDING** state requires one or more actions by the **producer** of the e-service.
 
+### Prerequisites
+
+* Having created a [PDND API client](../../technical-references/client-e-materiale-crittografico/) and uploaded at least one public key to the client
+* Having appointed a [client administrator](../../technical-references/api-esposte-da-pdnd-interoperabilita/#prerequisites-and-roles)
+
 ### Case 1 — Manual approval required
 
 Use this when activation of an Agreement requires manual approval by the producer. The producer can choose manual approval when defining a version of the e-service. For more information, see the [dedicated section](../../technical-references/e-services/#informazioni-di-versione).

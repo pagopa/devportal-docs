@@ -2,6 +2,11 @@
 
 The use of a purpose (_**Purpose**_) requires creating a draft accompanied by the risk analysis, followed by activation.
 
+### Prerequisites
+
+* Having created a [PDND API client](../../technical-references/client-e-materiale-crittografico/) and uploaded at least one public key to the client
+* Having appointed a [client administrator](../../technical-references/api-esposte-da-pdnd-interoperabilita/#prerequisites-and-roles)
+
 ### Step 1: Create the purpose in DRAFT
 
 The purpose must be created by indicating the e-service it will be used for, the purpose information, the load estimate, and the risk analysis.

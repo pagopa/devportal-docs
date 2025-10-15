@@ -1,6 +1,6 @@
 # How to associate a producer keychain with an e-service
 
-An _producer_ can always associate and disassociate their keychains from their e-services. This action can only be performed by users with the administrator role.
+An _producer_ can always associate and disassociate their keychains from their e-services. This action can only be performed by users with the administrator role. More details about keychains are available in the [dedicated section](../../technical-references/e-services/keychains.md).
 
 ### Step 1: Access the e-service of interest
 

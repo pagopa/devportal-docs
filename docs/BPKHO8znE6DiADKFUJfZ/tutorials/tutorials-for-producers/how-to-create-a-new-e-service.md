@@ -49,11 +49,11 @@ Upload the API specification file for this e-service version, which is an OpenAP
 To ensure compliance of the published APIs with the interoperability model for Italian public administrations, an API checker tool is available at [this link](https://italia.github.io/api-oas-checker/) and a usage guide is available [here](https://github.com/italia/api-oas-checker-rules).
 {% endhint %}
 
-You must also upload additional technical documentation (user manuals, examples, etc.).
+It is also recommended to upload all technical documentation needed to facilitate consumers’ integration activities and minimize any potential friction.
 
-At the end of the process, you can review all the entered data for the e-service and choose to modify the draft, publish it, or delete it.
+At the end of the process, a summary of all data entered during the creation of the e-service is available, and it is possible to choose whether to edit the draft, publish it, or delete it.
 
-For details on individual fields or e-service mechanisms, see the [dedicated section](../../technical-references/e-services/).
+For details on individual fields or on mechanisms related to the e-service, see the [dedicated section](../../technical-references/e-services/).
 
 ***
 

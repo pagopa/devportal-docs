@@ -1,4 +1,4 @@
-# Platform APIs
+# APIs exposed by PDND
 
 ## What they are and what they are for
 
@@ -10,7 +10,7 @@ The **current version**, and the subject of this documentation, is **v.2**. For 
 
 ## Prerequisites and roles
 
-Write operations require the **appointment** of one of the party’s **administrators** as the **client administrator** associated with the given configuration; the **permissions** assigned determine the actions allowed on each object.
+Write operations require the **appointment** of a party **administrator** as the **administrator of the associated  PDND API client**. The association can be performed from the client page available within the front office.
 
 ## Functional scope (v.2)
 

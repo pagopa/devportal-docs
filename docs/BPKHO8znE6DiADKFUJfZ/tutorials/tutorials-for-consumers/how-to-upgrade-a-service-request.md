@@ -11,7 +11,7 @@ From the menu, go to _**Subscribing > Sent requests**_, select the request of in
 Before updating, it's recommended to consult with your technical team. In particular, it's best practice to review:
 
 * the **changelog**, i.e., the description of the latest version of the e-service, to understand what has changed since the previous version;
-* the **API interface file**, to ensure there are no breaking changes affecting your integration;
+* the **API interface file**, to verify that there are no breaking changes to the API that could effectively break its integration. The specifications of previous versions are always available from the e-service page;
 * any **documentation** attached by the producer, to verify the contents of the new version.
 
 Once your integration is compatible with the latest version, you can click the _**Upgrade**_ button located at the top right of your request’s page.

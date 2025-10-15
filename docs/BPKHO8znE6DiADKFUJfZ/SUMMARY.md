@@ -50,7 +50,7 @@
 ## Technical references
 
 * [Glossary](technical-references/glossario.md)
-* [Platform APIs](technical-references/api-esposte-da-pdnd-interoperabilita/README.md)
+* [APIs exposed by PDND](technical-references/api-esposte-da-pdnd-interoperabilita/README.md)
   * [Service request (Agreement)](technical-references/api-esposte-da-pdnd-interoperabilita/service-request-agreement.md)
   * [Purpose](technical-references/api-esposte-da-pdnd-interoperabilita/purpose.md)
 * [E-services](technical-references/e-services/README.md)

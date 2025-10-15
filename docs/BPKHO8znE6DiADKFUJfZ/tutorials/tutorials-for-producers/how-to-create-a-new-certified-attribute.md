@@ -21,6 +21,10 @@ To do this, go to _**My party > Certifying authority**_, _**Attribute assignment
 
 From there, click _**Assign attribute**_ to assign one of your certified attributes to a party, or find the party in the list below to revoke the attribute.
 
+{% hint style="warning" %}
+The revocation of a certified attribute has an immediate impact on the consumer. For more details, see the [dedicated section](../../technical-references/attributi/attributes-revocation.md#revocation-of-a-certified-attribute).
+{% endhint %}
+
 ***
 
 Next page [→ How to associate a producer keychain with an e-service](how-to-associate-a-producer-keychain-with-an-e-service.md)

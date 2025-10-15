@@ -2,6 +2,11 @@
 
 Submitting a service request (Agreement) involves creating a draft, followed by a submission.
 
+### Prerequisites
+
+* Having created a [PDND API client](../../technical-references/client-e-materiale-crittografico/) and uploaded at least one public key to the client
+* Having appointed a [client administrator](../../technical-references/api-esposte-da-pdnd-interoperabilita/#prerequisites-and-roles)
+
 ### Step 1: Create the Agreement in DRAFT
 
 The Agreement must be created by specifying both the e-service and the specific e-service version (_**EServiceDescriptor**_) it refers to.
