@@ -48,3 +48,7 @@ I controlli EPREL saranno eseguiti in asincrono; pertanto, il file caricato dal 
 &#x20;Il Produttore non riceve un esito immediato, ma può monitorare lo stato di avanzamento del processo nella sezione **"Storico Caricamenti"**, come descritto nel tutorial [Come consultare lo storico dei caricamenti](come-consultare-lo-storico-dei-caricamenti.md).
 
 Nel caso in cui un Prodotto viene escluso dai controlli automatici, il Produttore riceverà una mail in cui verrà informato del caricamento parziale e verrà invitato ad accedere al portale al fine di capire la problematica impattante e [gestire gli errori](come-gestire-gli-errori-di-caricamento.md).
+
+{% hint style="info" %}
+Un file può contenere fino ad un massimo di **100** prodotti appartenenti ad una **singola** categoria. Nel caso si debbano caricare più di 100 prodotti è necessario dividere i prodotti su più file CSV.
+{% endhint %}
