@@ -46,7 +46,6 @@
 * [Tributi multi-beneficiario](ente-creditore/tributi-multi-beneficiario.md)
 * [Attestazione di pagamento](ente-creditore/attestazione-di-pagamento.md)
 * [Riconciliazione contabile](ente-creditore/riconciliazione-contabile.md)
-* [Servizio @e.bollo](ente-creditore/servizio-e.bollo.md)
 * [Stampa avvisi pagoPA](ente-creditore/stampa-avvisi-pagopa.md)
 * [Processo di avvio in Esercizio](ente-creditore/processo-di-avvio-in-esercizio.md)
 * [Opzioni di pagamento](ente-creditore/opzioni-di-pagamento/README.md)
@@ -57,6 +56,10 @@
     * [Opzione totale e piano rateale (unico)](ente-creditore/opzioni-di-pagamento/casi-duso/opzione-totale-e-piano-rateale-unico.md)
     * [Opzione con molteplici piani rateali (con o senza opzione totale)](ente-creditore/opzioni-di-pagamento/casi-duso/opzione-con-molteplici-piani-rateali-con-o-senza-opzione-totale.md)
     * [Co-obbligati in solido](ente-creditore/opzioni-di-pagamento/casi-duso/co-obbligati-in-solido.md)
+* [Bollo Digitale](ente-creditore/bollo-digitale/README.md)
+  * [Servizio @e.bollo](ente-creditore/bollo-digitale/servizio-e.bollo.md)
+  * [Servizio @e.bollo 2.0](ente-creditore/bollo-digitale/servizio-e.bollo-2.0/README.md)
+    * [Pagamento dovuto](ente-creditore/bollo-digitale/servizio-e.bollo-2.0/pagamento-dovuto.md)
 
 ## Prestatore di Servizi di Pagamento
 

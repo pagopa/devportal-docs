@@ -12,8 +12,6 @@ Per i dettagli [https://github.com/pagopa/pagopa-api/tree/SANP3.9.1](https://git
 
 ## paVerifyPaymentOptions <a href="#pagetpayment" id="pagetpayment"></a>
 
-
-
 {% openapi src="../../../.gitbook/assets/openapi EC.json" path="/payment-options/organizations/{paTaxCode}/notices/{noticeId}" method="post" %}
 [openapi EC.json](<../../../.gitbook/assets/openapi EC.json>)
 {% endopenapi %}
@@ -64,7 +62,24 @@ Recupero della ricevuta mediante i codici `IUV`
 
 ## paCreatePosition
 
-{% openapi src="https://raw.githubusercontent.com/pagopa/pagopa-aca-service/refs/heads/main/api-spec/aca-api.yaml" path="/paCreatePosition" method="post" %}
-[https://raw.githubusercontent.com/pagopa/pagopa-aca-service/refs/heads/main/api-spec/aca-api.yaml](https://raw.githubusercontent.com/pagopa/pagopa-aca-service/refs/heads/main/api-spec/aca-api.yaml)
-{% endopenapi %}
+{% openapi-operation spec="pacreateposition-openapi" path="/paCreatePosition" method="post" %}
+[OpenAPI pacreateposition-openapi](https://raw.githubusercontent.com/pagopa/pagopa-api/refs/heads/develop/openapi/paCreatePosition.yaml)
+{% endopenapi-operation %}
 
+{% openapi-schemas spec="pacreateposition-openapi" schemas="NewDebtPositionRequest,DebtPositionResponse,AmountEuroCents,ProblemJson" grouped="true" %}
+[OpenAPI pacreateposition-openapi](https://raw.githubusercontent.com/pagopa/pagopa-api/refs/heads/develop/openapi/paCreatePosition.yaml)
+{% endopenapi-schemas %}
+
+## @e.bollo 2.0
+
+{% openapi-operation spec="ebollo-openapi" path="/organizations/{fiscalCodeEC}/mbd" method="post" %}
+[OpenAPI ebollo-openapi](https://raw.githubusercontent.com/pagopa/pagopa-api/refs/heads/develop/openapi/e_bollo_20.json)
+{% endopenapi-operation %}
+
+{% openapi-operation spec="ebollo-openapi" path="/organizations/{fiscalCodeEC}/receipt/{nav}" method="get" %}
+[OpenAPI ebollo-openapi](https://raw.githubusercontent.com/pagopa/pagopa-api/refs/heads/develop/openapi/e_bollo_20.json)
+{% endopenapi-operation %}
+
+{% openapi-schemas spec="ebollo-openapi" schemas="GetMbdRequest,PaymentNotice,ReturnUrls,GetCartErrorResponse,ProblemJson,GetCartResponse,GetMdbReceipt" grouped="true" %}
+[OpenAPI ebollo-openapi](https://raw.githubusercontent.com/pagopa/pagopa-api/refs/heads/develop/openapi/e_bollo_20.json)
+{% endopenapi-schemas %}

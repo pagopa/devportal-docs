@@ -132,7 +132,7 @@ Patch version rilasciata per risolvere alcuni elementi di ambiguità indicati di
 * Aggiunti _idCart_ e _allCCP_ per [integrazione-touch-point-dellec-con-checkout.md](../ente-creditore/modalita-dintegrazione/integrazione-touch-point-dellec-con-checkout.md "mention")
 * Chiarimenti sul tag _paymentNote_ in [#fase-di-attivazione](../ente-creditore/modalita-dintegrazione/best-practice.md#fase-di-attivazione "mention")
 * Utilizzo del [#bollettino-postale-pa](../ente-creditore/modalita-dintegrazione/best-practice.md#bollettino-postale-pa "mention") in caso di [pagamento-presso-frontend-dellec.md](../casi-duso/pagamento-presso-frontend-dellec.md "mention")
-* Chiarimenti sul [servizio-e.bollo.md](../ente-creditore/servizio-e.bollo.md "mention")
+* Chiarimenti sul [servizio-e.bollo.md](../ente-creditore/bollo-digitale/servizio-e.bollo.md "mention")
 * Aggiunto [#backoffice-pagopa](../prestatore-di-servizi-di-pagamento/adesione.md#backoffice-pagopa "mention") in [adesione.md](../prestatore-di-servizi-di-pagamento/adesione.md "mention") dei PSP
 * Rimossi i riferimenti alla whitelist in [#nodo-dei-pagamenti-client](../appendici/connettivita.md#nodo-dei-pagamenti-client "mention")
 * Aggiornata definizione tag _paymentNote_ in [#pagetpayment](../appendici/primitive/#pagetpayment "mention")
@@ -180,14 +180,14 @@ Patch version rilasciata per risolvere alcuni elementi di ambiguità indicati di
 
 ### 3.2.1 (novembre 2022)
 
-* Aggiunti dettagli per il corretto utilizzo del tag _transferCategory_ in merito al [servizio-e.bollo.md](../ente-creditore/servizio-e.bollo.md "mention")
+* Aggiunti dettagli per il corretto utilizzo del tag _transferCategory_ in merito al [servizio-e.bollo.md](../ente-creditore/bollo-digitale/servizio-e.bollo.md "mention")
 * Aggiornato lo swagger [#ec-checkout-api](../appendici/primitive/#ec-checkout-api "mention")
 * Aggiornati gli swagger in [operazioni-disponibili.md](../appendici/posizioni-debitorie/operazioni-disponibili.md "mention")
 
 ### 3.2.0 (ottobre 2022)
 
 * Aggiornate le specifiche per [pagamento-presso-frontend-dellec.md](../casi-duso/pagamento-presso-frontend-dellec.md "mention") e [integrazione-touch-point-dellec-con-checkout.md](../ente-creditore/modalita-dintegrazione/integrazione-touch-point-dellec-con-checkout.md "mention")
-* [servizio-e.bollo.md](../ente-creditore/servizio-e.bollo.md "mention")
+* [servizio-e.bollo.md](../ente-creditore/bollo-digitale/servizio-e.bollo.md "mention")
 * Aggiunti dettagli per il corretto utilizzo del [#payment-token](../prestatore-di-servizi-di-pagamento/modalita-di-integrazione/best-practice.md#payment-token "mention") in merito all'invocazione multipla della sendPaymentOutcome
 * Modifica delle [primitive](../appendici/primitive/ "mention") per la Gestione Evoluta Commissioni
 
