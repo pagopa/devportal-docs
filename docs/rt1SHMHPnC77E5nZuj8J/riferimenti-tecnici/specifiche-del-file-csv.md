@@ -9,6 +9,8 @@ Esistono **due formati distinti**, a seconda che i prodotti da caricare siano re
 * Il file deve utilizzare la codifica **UTF-8**.
 * Il separatore di campo deve essere la **virgola** (`,`).
 * La **prima riga** del file deve sempre contenere l'intestazione con i nomi dei campi, come specificato di seguito.
+* Un file CSV può contenere prodotti appartenenti ad **una** sola **categoria**
+* Un file CSV può contenere al massimo **100** prodotti
 
 ***
 
@@ -18,7 +20,7 @@ Questo formato deve essere utilizzato per tutti i prodotti presenti nella banca 
 
 **Struttura dei campi**
 
-<table><thead><tr><th width="222.6640625">Nome Campo</th><th width="124.60546875">Obbligatorio</th><th width="110.8984375">Formato</th><th>Descrizione</th></tr></thead><tbody><tr><td><code>Codice EPREL</code></td><td>Sì</td><td>Stringa</td><td>Il codice identificativo univoco del prodotto assegnato dalla banca dati EPREL.</td></tr><tr><td><code>Codice GTIN/EAN</code></td><td>Sì</td><td>Stringa</td><td>Il codice univoco del prodotto (es. codice a barre). <strong>È la chiave primaria</strong> che identifica il prodotto sulla piattaforma.</td></tr><tr><td><code>Codice Prodotto</code></td><td>Sì</td><td>Stringa</td><td>Il codice identificativo interno utilizzato dal Produttore.</td></tr><tr><td><code>Categoria</code></td><td>Sì</td><td>Stringa</td><td>La categoria merceologica del prodotto (es. "Lavatrice").</td></tr><tr><td><code>Paese di Produzione</code></td><td>Sì</td><td>Stringa</td><td>Il codice ISO 3166-1 alpha-2 del paese di produzione (es. "IT" per l'Italia).</td></tr></tbody></table>
+<table><thead><tr><th width="167.59765625">Nome Campo</th><th width="127.7265625">Obbligatorio</th><th width="152.65234375">Formato</th><th>Descrizione</th></tr></thead><tbody><tr><td><code>Codice EPREL</code></td><td>Sì</td><td>Numero</td><td>Il codice identificativo univoco del prodotto assegnato dalla banca dati EPREL</td></tr><tr><td><code>Codice GTIN/EAN</code></td><td>Sì</td><td>Stringa alfanumerica, max 14 caratteri. Non sono ammessi caratteri speciali come &#x26;, "", ', &#x3C;, >, %, $, : , ;, = o i caratteri con accenti</td><td>Il codice univoco del prodotto (es. codice a barre). <strong>È la chiave primaria</strong> che identifica il prodotto sulla piattaforma</td></tr><tr><td><code>Codice Prodotto</code></td><td>Sì</td><td>Stringa alfanumerica, max 100 caratteri. Non sono ammessi caratteri speciali come &#x26;, "", ', &#x3C;, >, %, $, : , ;, = o i caratteri con accenti</td><td>Il codice identificativo interno utilizzato dal Produttore</td></tr><tr><td><code>Categoria</code></td><td>Sì</td><td>Stringa.<br>Valori ammessi:<br><em>Apparecchio di refrigerazione,</em><br><em>Asciugatrice,</em><br><em>Cappa da cucina,</em><br><em>Forno,</em><br><em>Lavasciuga,</em><br><em>Lavastoviglie,</em><br><em>Lavatrice</em></td><td><p>La categoria merceologica del prodotto (es. "Lavatrice")</p><p><br></p></td></tr><tr><td><code>Paese di Produzione</code></td><td>Sì</td><td>Stringa, 2 caratteri</td><td>Il codice ISO 3166-1 alpha-2 del paese di produzione (es. "IT" per l'Italia)</td></tr></tbody></table>
 
 **Esempio di file**
 
@@ -36,14 +38,7 @@ Questo formato deve essere utilizzato per i prodotti che, per normativa, non ric
 
 **Struttura dei campi**
 
-| Nome Campo            | Obbligatorio | Formato | Descrizione                                                                                                                 |
-| --------------------- | ------------ | ------- | --------------------------------------------------------------------------------------------------------------------------- |
-| `Codice GTIN/EAN`     | Sì           | Stringa | Il codice univoco del prodotto (es. codice a barre). **È la chiave primaria** che identifica il prodotto sulla piattaforma. |
-| `Codice Prodotto`     | Sì           | Stringa | Il codice identificativo interno utilizzato dal Produttore.                                                                 |
-| `Categoria`           | Sì           | Stringa | La categoria merceologica del prodotto (es. "Piano cottura").                                                               |
-| `Paese di Produzione` | Sì           | Stringa | Il codice ISO 3166-1 alpha-2 del paese di produzione (es. "IT" per l'Italia).                                               |
-| `Marca`               | Sì           | Stringa | La marca commerciale del prodotto.                                                                                          |
-| `Modello`             | Sì           | Stringa | Il modello specifico del prodotto.                                                                                          |
+<table><thead><tr><th>Nome Campo</th><th width="142.109375">Obbligatorio</th><th>Formato</th><th>Descrizione</th></tr></thead><tbody><tr><td><code>Codice GTIN/EAN</code></td><td>Sì</td><td>Stringa alfanumerica, max 14 caratteri. Non sono ammessi caratteri speciali come &#x26;, "", ', &#x3C;, >, %, $, : , ;, = o i caratteri con accenti</td><td>Il codice univoco del prodotto (es. codice a barre). <strong>È la chiave primaria</strong> che identifica il prodotto sulla piattaforma.</td></tr><tr><td><code>Codice Prodotto</code></td><td>Sì</td><td>Stringa alfanumerica, max 100 caratteri. Non sono ammessi caratteri speciali come &#x26;, "", ', &#x3C;, >, %, $, : , ;, = o i caratteri con accenti</td><td>Il codice identificativo interno utilizzato dal Produttore.</td></tr><tr><td><code>Categoria</code></td><td>Sì</td><td><p>Stringa.</p><p>Valore fisso: <em>Piano cottura</em></p></td><td>La categoria merceologica del prodotto.</td></tr><tr><td><code>Paese di Produzione</code></td><td>Sì</td><td>Stringa, 2 caratteri</td><td>Il codice ISO 3166-1 alpha-2 del paese di produzione (es. "IT" per l'Italia).</td></tr><tr><td><code>Marca</code></td><td>Sì</td><td>Stringa  alfanumerica, max 100 caratteri</td><td>La marca commerciale del prodotto.</td></tr><tr><td><code>Modello</code></td><td>Sì</td><td>Stringa  alfanumerica, max 100 caratteri</td><td>Il modello specifico del prodotto.</td></tr></tbody></table>
 
 **Esempio di file**
 
