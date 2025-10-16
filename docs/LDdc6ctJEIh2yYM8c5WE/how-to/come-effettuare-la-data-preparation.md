@@ -28,7 +28,7 @@ L'invocazione di esso è dunque essenziale per poter effettuare un corretto setu
 
 È possibile effettuare più invocazioni di tale API in modo da creare, a esempio più entità.
 
-Si rimanda al paragrafo [TUTORIAL](broken-reference) per un esempio concreto di data preparation.&#x20;
+Si rimanda al paragrafo TUTORIAL per un esempio concreto di data preparation.&#x20;
 
 ## Step 2: Recupero Dati
 
