@@ -30,7 +30,7 @@ Ecco quali sono gli step che gli enti devono seguire per richiedere la firma di 
 
 <details>
 
-<summary><mark style="color:blue;">Step 3</mark>: Pubblica la richiesta di firma</summary>
+<summary><mark style="color:blue;">Step 4</mark>: Pubblica la richiesta di firma</summary>
 
 [Vai qui per scoprire come](richiedere-una-firma/pubblicazione-della-richiesta-di-firma.md)
 
@@ -38,7 +38,7 @@ Ecco quali sono gli step che gli enti devono seguire per richiedere la firma di 
 
 <details>
 
-<summary><mark style="color:blue;">Step 4</mark>: Invia la richiesta di firma</summary>
+<summary><mark style="color:blue;">Step 5</mark>: Invia la richiesta di firma</summary>
 
 [Vai qui per scoprire come](richiedere-una-firma/invio-della-richiesta-di-firma/)
 
@@ -46,7 +46,7 @@ Ecco quali sono gli step che gli enti devono seguire per richiedere la firma di 
 
 <details>
 
-<summary><mark style="color:blue;">Step 5</mark>: Verifica lo stato della firma</summary>
+<summary><mark style="color:blue;">Step 6</mark>: Verifica lo stato della firma</summary>
 
 [Vai qui per scoprire come](verificare-lo-stato-di-una-firma.md)
 
@@ -54,7 +54,7 @@ Ecco quali sono gli step che gli enti devono seguire per richiedere la firma di 
 
 <details>
 
-<summary><mark style="color:blue;">Step 6</mark>: Ottieni i documenti firmati</summary>
+<summary><mark style="color:blue;">Step 7</mark>: Ottieni i documenti firmati</summary>
 
 [Vai qui per scoprire come](ottenere-i-documenti-firmati.md)
 
