@@ -103,6 +103,6 @@ Quando si riceve una chiamata su questo endpoint, il corpo della richiesta conti
 
 A seguire:
 
-1. **Identificazione dela richiesta originale:** si userà il `sepaRequestToPayRequestResourceId` ricevuto nel path e i dati di correlazione all'interno del messaggio (es. `OrgnlEndToEndId`) per individuare la richiesta di pagamento da annullare nel sistema.
+1. **Identificazione della richiesta originale:** si userà il `sepaRequestToPayRequestResourceId` ricevuto nel path e i dati di correlazione all'interno del messaggio (es. `OrgnlEndToEndId`) per individuare la richiesta di pagamento da annullare nel sistema.
 2. **Aggiornamento dello stato:** occorre modificare lo stato della richiesta nell'applicazione, mostrandola all'utente come "Annullata" o "Già pagata". Questo è un passaggio cruciale per impedire all'utente di tentare un pagamento non più dovuto.
 3. **Risposta alla chiamata**: viene inviata una risposta sincrona con status code **`204 No Content`** per confermare la cancellazione.
