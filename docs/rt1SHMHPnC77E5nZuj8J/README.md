@@ -1,8 +1,8 @@
 # Cos'è il Bonus Elettrodomestici
 
-L'iniziativa **Bonus Elettrodomestici** nasce per supportare i cittadini, consentendo loro di acquistare elettrodomestici a condizioni agevolate tramite un incentivo. Affinché un cittadino possa beneficiare del bonus, il prodotto acquistato deve essere presente in un elenco ufficiale gestito dallo Stato.
+L'iniziativa **Bonus Elettrodomestici** nasce per supportare i cittadini, consentendo loro di acquistare **Elettrodomestici** a condizioni agevolate tramite un incentivo. Affinché un cittadino possa beneficiare del bonus, il prodotto acquistato deve essere presente in un elenco ufficiale gestito dallo Stato.
 
-Questa guida è pensata per il **Produttore** e descrive come utilizzare l' "Elenco Informatico degli Elettrodomestici", un prodotto afferente alla piattaforma PARI, per inserire e gestire i propri prodotti.
+Questa guida è pensata per il **Produttore** e descrive come utilizzare l' "Elenco informatico degli elettrodomestici", un prodotto afferente alla piattaforma PARI, per inserire e gestire i propri prodotti.
 
 ### Il ruolo del Produttore
 

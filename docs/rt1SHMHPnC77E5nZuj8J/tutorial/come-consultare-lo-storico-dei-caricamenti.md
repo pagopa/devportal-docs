@@ -20,6 +20,7 @@ Il sistema mostrerà una tabella contenente l'elenco di tutti i caricamenti effe
 
 * **Data di caricamento**: Giorno e ora in cui il file è stato inviato.
 * **Nome file**: Il nome del file `.csv` caricato.
+* **Numero record**: il numero dei record trovati e il numero di record caricati.
 * **Esito**: Lo stato finale dell'elaborazione del file.
 
 #### Analisi dell'esito

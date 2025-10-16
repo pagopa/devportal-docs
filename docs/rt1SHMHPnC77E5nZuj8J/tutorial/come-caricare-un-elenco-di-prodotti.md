@@ -1,6 +1,6 @@
 # Come caricare un elenco di prodotti
 
-Questo tutorial spiega come caricare un file in formato **CSV** contenente un lotto di prodotti da sottoporre a validazione per l'inserimento nell'Elenco del Bonus Elettrodomestici.
+Questo tutorial spiega come caricare un file in formato **CSV** contenente un lotto di prodotti da sottoporre a validazione per l'inserimento nell'Elenco informatico degli elettrodomestici.
 
 ### Prerequisiti
 
@@ -20,7 +20,7 @@ Per caricare un nuovo lotto di prodotti, selezionare la voce **"Carica .csv"** n
 
 #### **Step 2 - Selezionare la tipologia di prodotti**&#x20;
 
-Dopo aver cliccato sul pulsante Carica .csv i Produttori vengono reindirizzati ad una maschera di caricamento dei prodotti che andranno a comporre l’Elenco informatico degli elettrodomestici.
+Dopo aver cliccato sul pulsante Carica .csv, i Produttori vengono reindirizzati ad una maschera di caricamento dei prodotti che andranno a comporre l’Elenco informatico degli elettrodomestici.
 
 Le categorie dei Prodotti che potranno essere caricate sono: apparecchi di refrigerazione (frigoriferi e congelatori), asciugatrici, cappe da cucina, forni, lavasciuga, lavastoviglie, lavatrici e piani cottura.
 
@@ -42,7 +42,7 @@ Fare clic sul pulsante **"Carica"** per inviare il file al sistema. Un messaggio
 {% hint style="danger" %}
 I controlli formali sul file verranno eseguiti in maniera sincrona; laddove ci siano problematiche, ne verrà data evidenza al Produttore che potrà procedere con un ulteriore caricamento;
 
-I controlli EPREL saranno eseguiti in asincrono; pertanto, il file caricato dal Produttore verrà messo in una coda, fino a quando non passerà un servizio che lo elaborerà e al termine informerà il Produttore dell’esito del caricamento.
+I controlli EPREL saranno eseguiti in asincrono; pertanto, il file caricato dal Produttore verrà messo in una coda in attesa dell'elaborazione. In questa fase, il Produttore non può procedere al caricamento di ulteriori file. Al termine dell'elaborazione, il Produttore ricevere una comunicazione con l’esito del caricamento.
 {% endhint %}
 
 &#x20;Il Produttore non riceve un esito immediato, ma può monitorare lo stato di avanzamento del processo nella sezione **"Storico Caricamenti"**, come descritto nel tutorial [Come consultare lo storico dei caricamenti](come-consultare-lo-storico-dei-caricamenti.md).

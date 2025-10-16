@@ -23,3 +23,7 @@
 ## Casi d'uso
 
 * [Gestire un caricamento con errori parziali](casi-duso/gestire-un-caricamento-con-errori-parziali.md)
+
+***
+
+* [Contatti](contatti.md)

@@ -12,7 +12,7 @@ A seguito delle verifiche, il Produttore riceve una comunicazione formale che co
 
 Per accedere alla piattaforma, seguire i seguenti passaggi:
 
-* **Step 1 - Accesso al portale** Collegarsi all'indirizzo del portale e selezionare la card relativa all'**Elenco Elettrodomestici**.
+* **Step 1 - Accesso al portale** Collegarsi all'indirizzo del portale e selezionare la card relativa all'**Elenco Informatico degli Elettrodomestici**.
 
 <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
@@ -20,7 +20,7 @@ Per accedere alla piattaforma, seguire i seguenti passaggi:
 
 <figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
-In attesa dell’apertura del portale del Bonus Elettrodomestici dedicato all’Elenco informatico degli elettrodomestici, il Produttore avrà accesso ad una pagina informativa che gli comunica la data di apertura del portale. La data di apertura che verrà rispettata sarà quella indicata nel Decreto emesso dal MIMIT.
+In attesa dell’apertura del portale del Bonus Elettrodomestici dedicato all’Elenco informatico degli elettrodomestici, il Produttore avrà accesso ad una pagina informativa che gli comunica la data di apertura del portale. La data di apertura che verrà rispettata sarà quella indicata nel Decreto di apertura emesso dal MIMIT.
 
 <figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
