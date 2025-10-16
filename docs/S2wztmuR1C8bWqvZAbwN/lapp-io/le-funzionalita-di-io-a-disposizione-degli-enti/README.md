@@ -52,7 +52,7 @@ Su IO, i cittadini possono apporre in app una firma digitale su un documento gen
 
 <summary>SEND, Servizio Notifiche Digitali</summary>
 
-Su IO, i cittadini possono ricevere tramite [SEND (SErvizio Notifiche Digitali)](https://notifichedigitali.pagopa.it/it/) un avviso di cortesia, leggere i documenti notificati e, ove richiesto, procedere al pagamento direttamente in app.&#x20;
+Su IO, i cittadini possono ricevere tramite [SEND (SErvizio Notifiche Digitali)](https://notifichedigitali.it/) un avviso di cortesia, leggere i documenti notificati e, ove richiesto, procedere al pagamento direttamente in app.&#x20;
 
 </details>
 
@@ -83,5 +83,5 @@ Su IO, i cittadini potranno attivare e usare le agevolazioni e i crediti erogati
 Per maggiori informazioni, [leggi l'allegato 3](https://trasparenza.agid.gov.it/moduli/downloadFile.php?file=oggetto_allegati/213121604430O__OLG+Punto+accesso+telematico+servizi+PA_3.11.2021.pdf) delle Linee guida sul punto di accesso telematico ai servizi della Pubblica Amministrazione.
 
 {% hint style="info" %}
-Per approfondire, leggi [Broken link](broken-reference "mention")
+Per approfondire, leggi [inviare-messaggi](../../che-cosa-puo-fare-un-servizio-su-io/inviare-messaggi/ "mention")
 {% endhint %}
