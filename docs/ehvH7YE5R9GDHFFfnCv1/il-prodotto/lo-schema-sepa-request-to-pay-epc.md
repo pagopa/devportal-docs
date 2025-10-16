@@ -49,7 +49,7 @@ utente:
 Il servizio si basa sullo schema **SEPA Request-To-Pay (SRTP)**, un'[iniziativa dell'European Payments Council (EPC)](https://www.europeanpaymentscouncil.eu/what-we-do/other-schemes/sepa-request-pay) che definisce un insieme di regole e messaggi standard per la tramitazione di richieste di pagamento in tutta l'area SEPA.
 
 {% hint style="info" %}
-È importante sottolineare che SRTP non è uno str**umento di pagamento**, ma un protocollo di messaggistica che standardizza il modo in cui una richiesta di pagamento viene inviata, ricevuta e gestita, facilitando la successiva fase di pagamento.
+È importante sottolineare che SRTP non è uno **strumento di pagamento**, ma un protocollo di messaggistica che standardizza il modo in cui una richiesta di pagamento viene inviata, ricevuta e gestita, facilitando la successiva fase di pagamento.
 {% endhint %}
 
 ## **Il Modello Four-Corner**
