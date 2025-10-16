@@ -1,5 +1,13 @@
 # 2025
 
+## Agosto 2025
+
+`Nuove funzionalità`&#x20;
+
+* **API v. 2, secondo rilascio**
+
+[Approfondisci → ](04-agosto-2025.md)
+
 ## Luglio 2025&#x20;
 
 ### PDND Interoperabilità 2.1.0
