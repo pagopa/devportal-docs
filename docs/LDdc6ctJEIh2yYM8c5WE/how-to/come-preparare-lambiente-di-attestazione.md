@@ -12,7 +12,7 @@ Cliccando su “Entra” si avrà accesso a tutte le funzionalità previste all'
 
 Il primo passo per poter sfruttare tutte le potenzialità di un e-service è quello di sottoscriversi allo stesso.
 
-Navigando sul menu accediamo a _Fruizione > Catalogo e-service_ e va scelto il servizio più adatto ([Tutorial](broken-reference) per maggiori dettagli).
+Navigando sul menu accediamo a _Fruizione > Catalogo e-service_ e va scelto il servizio più adatto (Tutorial per maggiori dettagli).
 
 Si accede all'e-service e si seleziona il pulsante “Richiedi fruizione” presente sulla spalla destra.
 
