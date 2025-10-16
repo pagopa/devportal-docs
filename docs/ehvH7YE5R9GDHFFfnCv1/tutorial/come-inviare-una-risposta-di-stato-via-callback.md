@@ -171,4 +171,4 @@ Di seguito occorrerà:
 
 ## **Step 4: Gestisci la risposta alla callback**
 
-Se il messaggio è stata ricevuto correttamente dal server di PagoPA, verrà ricevuta una risposta immediata con uno status code `200 OK`. Questo conferma che la comunicazione è avvenuta con successo.
+Se il messaggio è stato ricevuto correttamente dal server di PagoPA, verrà ricevuta una risposta immediata con uno status code `200 OK`. Questo conferma che la comunicazione è avvenuta con successo.
