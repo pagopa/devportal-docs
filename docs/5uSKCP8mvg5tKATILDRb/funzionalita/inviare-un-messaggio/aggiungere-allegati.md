@@ -34,7 +34,7 @@ Per maggiori informazioni, leggi le [openapi-endpoint-di-recupero-dei-contenuti-
 
 </details>
 
-Per includere gli allegati in un messaggio, oltre agli step indicati in [.](./ "mention"), devi seguire questi step:
+Per includere gli allegati in un messaggio, oltre agli step indicati in [Inviare un messaggio](./), devi seguire questi step:
 
 <details>
 
