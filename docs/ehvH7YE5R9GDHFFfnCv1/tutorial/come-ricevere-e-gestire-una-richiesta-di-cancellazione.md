@@ -84,7 +84,7 @@ sequenceDiagram
 
     %% Flusso Asincrono: Notifica di Conferma
     SP->>PA: Invia conferma asincrona<br> (messaggio camt.029) <br> all'URL di callback
-    Note left of PA: La conferma contiene lo stato<br>Sts.Conf = CNCL e TxCxlSts = ACCR
+    Note over  PA, SP : La conferma contiene lo stato<br>Sts.Conf = CNCL e TxCxlSts = ACCR
 ```
 
 ## **Step 1: Implementazione dell'endpoint di ricezione della cancellazione**
