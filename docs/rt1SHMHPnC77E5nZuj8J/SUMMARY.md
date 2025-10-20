@@ -3,6 +3,7 @@
 ## Per iniziare
 
 * [Cos'è il Bonus Elettrodomestici](README.md)
+* [Il ruolo del Produttore](per-iniziare/il-ruolo-del-produttore.md)
 * [Come effettuare il primo accesso](per-iniziare/come-effettuare-il-primo-accesso.md)
 
 ## Tutorial
