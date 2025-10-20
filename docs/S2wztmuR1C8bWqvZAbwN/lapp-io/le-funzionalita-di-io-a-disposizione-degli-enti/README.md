@@ -80,7 +80,7 @@ Su IO, i cittadini potranno attivare e usare le agevolazioni e i crediti erogati
 
 </details>
 
-Per maggiori informazioni, [leggi l'allegato 3](https://trasparenza.agid.gov.it/moduli/downloadFile.php?file=oggetto_allegati/213121604430O__OLG+Punto+accesso+telematico+servizi+PA_3.11.2021.pdf) delle Linee guida sul punto di accesso telematico ai servizi della Pubblica Amministrazione.
+Per maggiori informazioni,[ leggi l'allegato 3 ](https://www.agid.gov.it/sites/agid/files/2024-05/lg_punto_accesso_telematico_servizi_pa_3112021.pdf)delle Linee guida sul punto di accesso telematico ai servizi della Pubblica Amministrazione.
 
 {% hint style="info" %}
 Per approfondire, leggi [inviare-messaggi](../../che-cosa-puo-fare-un-servizio-su-io/inviare-messaggi/ "mention")
