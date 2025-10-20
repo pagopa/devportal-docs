@@ -1,4 +1,4 @@
-# Come accettare un buono sconto (Portale Operatore PV)
+# Come accettare un buono sconto
 
 Questa è la procedura operativa principale per l'**Operatore Punto Vendita (PV)**. La guida descrive come inserire il codice sconto presentato da un cittadino, verificarne la validità e bloccarlo temporaneamente in attesa del pagamento.
 
@@ -22,6 +22,10 @@ L'Operatore compila i campi richiesti nel modulo:
 
 Dopo la compilazione, premere **"Conferma"** (o "Avanti").
 
+<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+
 #### Step 3 - Verificare i dati e l'identità del cittadino
 
 Il sistema visualizza una pagina di riepilogo con i dettagli del buono (importo, dati anagrafici del cittadino). L'Operatore ha il compito di verificare l'identità del cittadino.
@@ -38,8 +42,19 @@ Dopo aver completato la verifica:
 * Se i dati inseriti o l'identità non sono corretti, l'Operatore deve utilizzare il pulsante **"Indietro"** (o "Annulla") per tornare allo Step 2 o interrompere l'operazione.
 * Se tutti i dati sono corretti, l'Operatore deve cliccare sul pulsante **"Accetta buono sconto"**.
 
+<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+
+
+
+<figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+
 #### Esito
 
 Confermando l'accettazione, il buono sconto viene **bloccato temporaneamente** per quel cittadino presso quel Punto Vendita.
 
 Viene creata una nuova transazione che appare nell'elenco "Gestione Acquisti" (o simile). A questo punto, il buono non è ancora utilizzato; l'Operatore deve procedere con il pagamento da parte del cittadino per concludere l'operazione.
+
+<figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+

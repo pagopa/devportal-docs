@@ -1,4 +1,4 @@
-# Come censire i Punti Vendita (Portale Venditore)
+# Come censire i Punti Vendita
 
 Dopo aver completato l'adesione, il **Venditore** (tramite il suo Legale Rappresentante o gli Amministratori) deve registrare sulla piattaforma tutti i Punti Vendita fisici che parteciperanno all'iniziativa.
 
@@ -16,6 +16,8 @@ Il Venditore (Legale Rappresentante o Amministratore) accede al Portale Venditor
 
 Navigare alla sezione **"Censimento Punti Vendita"** (o voce di menu equivalente) per avviare la procedura di inserimento.
 
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+
 #### Step 3 - Compilare i dati del Punto Vendita
 
 Utilizzare l'interfaccia per inserire i dati richiesti per ciascun Punto Vendita. I campi obbligatori includono:
@@ -25,6 +27,10 @@ Utilizzare l'interfaccia per inserire i dati richiesti per ciascun Punto Vendita
 * CAP
 * Città
 * Provincia
+
+<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 #### Step 4 - Salvare e ripetere l'operazione
 
@@ -50,3 +56,7 @@ La piattaforma non supporta funzionalità di caricamento massivo (ad esempio tra
 {% endhint %}
 
 I Punti Vendita correttamente censiti appariranno nell'elenco gestito dal Venditore. Una volta che un Punto Vendita è registrato, il Venditore può procedere con la creazione degli account per gli Operatori associati a quel negozio.
+
+<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>

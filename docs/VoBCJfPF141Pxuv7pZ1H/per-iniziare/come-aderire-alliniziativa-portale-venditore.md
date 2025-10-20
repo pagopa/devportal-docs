@@ -16,18 +16,26 @@ Prima di iniziare, il Legale Rappresentante deve assicurarsi di avere a disposiz
 
 Il Legale Rappresentante deve seguire questi passaggi:
 
-1. **Accedere all'Area Riservata** del Portale Esercenti.
+1. **Accedere all'**[**Area Riservata**](https://selfcare.pagopa.it/onboarding/prod-idpay-merchant) del Portale Esercenti.
 2. Effettuare l'autenticazione selezionando **"Entra con SPID"** o **"Entra con CIE"** e inserendo le proprie credenziali personali.
-3. Compilare il modulo di adesione inserendo tutte le informazioni richieste, suddivise in:
-   * **Dati Venditore**: Ragione Sociale, Partita IVA, Codice Fiscale, Sede legale, IBAN per i rimborsi, PEC e altri contatti.
-   * **Dati Legale Rappresentante**: Nome, Cognome, Codice Fiscale e contatti.
+3.  Compilare il modulo di adesione inserendo tutte le informazioni richieste, suddivise in:
+
+    * **Dati Venditore**: Ragione Sociale, Partita IVA, Codice Fiscale, Sede legale, IBAN per i rimborsi, PEC e altri contatti.
+    * **Dati Legale Rappresentante**: Nome, Cognome, Codice Fiscale e contatti.
+
+    <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 4. Caricare la **Visura Camerale** dell'azienda nell'apposito campo.
 5. Inserire i dati degli **Amministratori** (fino a un massimo di tre). Gli Amministratori, insieme al Legale Rappresentante, potranno accedere al Portale Venditore per gestire le configurazioni.
-6. Verificare la correttezza di tutte le informazioni nella pagina di **Riepilogo**.
-7. Procedere alla **Sottoscrizione del contratto** di adesione. L'interfaccia guiderà l'utente attraverso il processo di firma digitale per formalizzare l'adesione.
+
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+1. Verificare la correttezza di tutte le informazioni nella pagina di **Riepilogo**.
+2. Procedere alla **Sottoscrizione del contratto** di adesione. L'interfaccia guiderà l'utente attraverso il processo di firma digitale per formalizzare l'adesione.
 
 #### Esito
 
 Una volta completata la procedura e sottoscritto il contratto, il Venditore è ufficialmente registrato all'iniziativa.
 
 Il Legale Rappresentante e gli Amministratori designati possono da questo momento accedere al Portale Venditore (sempre tramite SPID/CIE) per compiere le operazioni successive, prima fra tutte il censimento dei Punti Vendita.
+
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>

@@ -5,15 +5,19 @@
 * [Panoramica del Bonus Elettrodomestici](README.md)
 * [Come aderire all'iniziativa (Portale Venditore)](per-iniziare/come-aderire-alliniziativa-portale-venditore.md)
 
-## Tutorial
+## Tutorial per il venditore
 
-* [Come censire i Punti Vendita (Portale Venditore)](tutorial/come-censire-i-punti-vendita-portale-venditore.md)
-* [Come creare e gestire gli Operatori (Portale Venditore)](tutorial/come-creare-e-gestire-gli-operatori-portale-venditore.md)
-* [Come attivare il proprio account (Portale Operatore PV)](tutorial/come-attivare-il-proprio-account-portale-operatore-pv.md)
-* [Come accettare un buono sconto (Portale Operatore PV)](tutorial/come-accettare-un-buono-sconto-portale-operatore-pv.md)
-* [Come finalizzare un acquisto (Portale Operatore PV)](tutorial/come-finalizzare-un-acquisto-portale-operatore-pv.md)
-* [Come consultare lo storico delle transazioni](tutorial/come-consultare-lo-storico-delle-transazioni.md)
-* [Come gestire il tuo profilo](tutorial/come-gestire-il-tuo-profilo.md)
+* [Come censire i Punti Vendita](tutorial-per-il-venditore/come-censire-i-punti-vendita.md)
+* [Come creare e gestire gli Operatori](tutorial-per-il-venditore/come-creare-e-gestire-gli-operatori.md)
+* [Page 1](tutorial-per-il-venditore/page-1.md)
+
+## Tutorial per operatore Punto Vendita
+
+* [Come attivare il proprio account](tutorial-per-operatore-punto-vendita/come-attivare-il-proprio-account.md)
+* [Come accettare un buono sconto](tutorial-per-operatore-punto-vendita/come-accettare-un-buono-sconto.md)
+* [Come finalizzare un acquisto](tutorial-per-operatore-punto-vendita/come-finalizzare-un-acquisto.md)
+* [Come consultare lo storico delle transazioni](tutorial-per-operatore-punto-vendita/come-consultare-lo-storico-delle-transazioni.md)
+* [Come gestire il tuo profilo](tutorial-per-operatore-punto-vendita/come-gestire-il-tuo-profilo.md)
 
 ## Riferimenti tecnici
 
