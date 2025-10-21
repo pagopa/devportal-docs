@@ -1,6 +1,8 @@
 # Cos'è il Bonus Elettrodomestici
 
-È il contributo, erogato dal Ministero delle Imprese e del Made in Italy, per incentivare la sostituzione di un _Elettrodomestico_ con un modello ad alta efficienza energetica e promuovere la sostenibilità e la transizione energetica.
+Indica il contributo per l’acquisto di _Elettrodomestici_ previsto per l’anno 2025 dalla legge 30 dicembre 2024, n. 207 recante “Bilancio di previsione dello Stato per l'anno finanziario 2025 e bilancio pluriennale per il triennio 2025-2027”, modificata dal D.L. 19/2025 convertito con modificazioni dalla L. 60/2025;
+
+È il contributo, erogato dal Ministero delle Imprese e del Made in Italy, per incentivare la sostituzione di un _Elettrodomestico_ con un modello ad alta efficienza energetica e promuovere la sostenibilità e la transizione energetica ed è disciplinato dal Decreto del Ministro delle Imprese e del Made in Italy di concerto con il Ministero dell’Economia e delle Finanze 3 settembre 2025, ammesso alla registrazione dalla Corte dei Conti in data 18 settembre 2025, al n. 1146 che disciplina le condizioni, i criteri e le modalità per la concessione del contributo di cui all’art. 1, comma 107 della legge 30 dicembre 2024, n. 207.
 
 ## Chi può richiederlo?
 
