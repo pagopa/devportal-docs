@@ -3,7 +3,7 @@
 ## Per iniziare
 
 * [Panoramica del Bonus Elettrodomestici](README.md)
-* [Come aderire all'iniziativa (Portale Venditore)](per-iniziare/come-aderire-alliniziativa-portale-venditore.md)
+* [Come aderire all'iniziativa](per-iniziare/come-aderire-alliniziativa.md)
 
 ## Tutorial per il venditore
 

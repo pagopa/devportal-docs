@@ -1,25 +1,25 @@
-# Come finalizzare un acquisto (Portale Operatore PV)
+# Come finalizzare un acquisto
 
 Questa guida descrive il passaggio finale della gestione di un buono, che segue l'accettazione e il blocco temporaneo.
 
 Una volta che il buono è stato bloccato (come descritto nel tutorial precedente), l'**Operatore Punto Vendita (PV)** deve registrare l'esito finale dell'operazione: confermare l'avvenuto pagamento da parte del cittadino o annullare la transazione.
 
-#### Prerequisiti
+## Prerequisiti
 
 * L'Operatore PV deve aver completato la procedura [Come accettare un buono sconto](https://www.google.com/search?q=tutorial/accettare-buono-sconto).
-* Deve esistere una transazione nello stato "temporaneamente bloccato" (o simile) all'interno del Portale Operatore PV.
+* Deve esistere una transazione nello stato "da autorizzare" all'interno del Portale Operatore PV.
 
-#### Procedura di finalizzazione
+## Procedura di finalizzazione
 
-#### Step 1 - Accedere alla gestione delle transazioni
+### Step 1 - Accedere alla gestione delle transazioni
 
 L'Operatore accede alla sezione del portale dove sono elencate le transazioni in attesa di finalizzazione (es. **"Gestione Acquisti"**).
 
-#### Step 2 - Selezionare la transazione da finalizzare
+### Step 2 - Selezionare la transazione da finalizzare
 
 L'Operatore individua nell'elenco la transazione creata in precedenza e la seleziona per visualizzare le opzioni disponibili.
 
-#### Step 3 - Eseguire l'azione finale
+### Step 3 - Eseguire l'azione finale
 
 A questo punto, l'Operatore deve scegliere una delle due azioni definitive in base all'esito dell'interazione con il cittadino:
 
@@ -35,7 +35,7 @@ A questo punto, l'Operatore deve scegliere una delle due azioni definitive in ba
 
 ***
 
-#### Esito
+### Esito
 
 L'esito dipende dall'azione eseguita nello Step 3.
 
@@ -46,6 +46,6 @@ L'esito dipende dall'azione eseguita nello Step 3.
 * **In caso di Annullamento Transazione (Opzione B):**
   * Il buono sconto viene **rilasciato** e torna immediatamente disponibile per il cittadino.
   * La transazione cambia stato in **"Annullato"** e viene spostata nello storico consultabile.
-  * **Nota**: Come da specifiche, se il buono proviene da App IO, potrebbero essere necessari fino a 5 minuti prima che il cittadino lo visualizzi nuovamente come disponibile.
+  * **Nota**: Come da specifiche, se il buono proviene dall'app IO, potrebbero essere necessari fino a 5 minuti prima che il cittadino lo visualizzi nuovamente come disponibile.
 
 In entrambi i casi, la transazione scompare dall'elenco delle operazioni "in attesa" e diventa visibile nello storico.
