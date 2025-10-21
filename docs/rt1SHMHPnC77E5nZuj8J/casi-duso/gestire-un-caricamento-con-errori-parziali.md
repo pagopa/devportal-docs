@@ -1,3 +1,79 @@
+---
+argomenti_correlati:
+- /tutorial/come-caricare-un-elenco-di-prodotti
+- /tutorial/come-consultare-lo-storico-dei-caricamenti
+- /tutorial/come-gestire-gli-errori-di-caricamento
+funzione: casi-duso
+livello: intermedio
+prodotto:
+  nome: PARI - Bonus Elettrodomestici
+  versione: v1.0.0
+schema:
+  '@context': https://schema.org
+  '@type': HowTo
+  author:
+    '@type': Organization
+    name: PagoPA S.p.A.
+  description: 'Questo caso d''uso illustra lo scenario end-to-end più comune: il
+    Produttore carica un file CSV che contiene sia prodotti validi sia prodotti con
+    errori. L''obiettivo è mostrare il flusso completo per identificare, correggere
+    e ricaricare con successo solo i prodotti che sono stati inizialmente scartati.'
+  keywords:
+  - caricamento parziale
+  - gestione errori
+  - correzione CSV
+  - flusso di caricamento
+  - prodotti scartati
+  name: Gestire un caricamento con errori parziali
+  result:
+    '@type': Thing
+    description: Tutti i prodotti del lotto iniziale sono caricati correttamente sulla
+      piattaforma nello stato 'Da Esaminare', pronti per la validazione da parte di
+      Invitalia S.p.A.
+    name: Caricamento completo dei prodotti
+  step:
+  - '@type': HowToStep
+    name: 'Step 1: Caricamento del lotto iniziale'
+    text: Il Produttore carica il file CSV iniziale (lotto_prodotti_q4.csv) contenente
+      sia prodotti validi che con errori, seguendo la procedura del tutorial 'Come
+      caricare un elenco di prodotti'.
+  - '@type': HowToStep
+    name: 'Step 2: Verifica dell''esito del caricamento'
+    text: Il Produttore accede alla sezione 'Storico Caricamenti', trova l'esito 'Parziale'
+      per il file caricato e scarica il file di scarto con i dettagli degli errori.
+  - '@type': HowToStep
+    name: 'Step 3: Analisi e correzione degli errori'
+    text: Il Produttore apre il file di scarto, analizza le motivazioni di errore
+      (es. EPREL non valido, GTIN duplicato), corregge i dati, rimuove le righe non
+      recuperabili e la colonna degli errori, e salva un nuovo file CSV (correzione_lotto_q4.csv)
+      con solo i prodotti corretti.
+  - '@type': HowToStep
+    name: 'Step 4: Ricaricamento dei prodotti corretti'
+    text: Il Produttore torna alla sezione 'Caricamento lotti' e carica il nuovo file
+      CSV corretto (correzione_lotto_q4.csv).
+  - '@type': HowToStep
+    name: 'Step 5: Verifica finale'
+    text: Il Produttore controlla nuovamente lo 'Storico Caricamenti' e conferma che
+      il secondo caricamento ha avuto esito 'Caricato', completando l'inserimento
+      di tutti i prodotti.
+  tool:
+  - '@type': SoftwareApplication
+    name: Piattaforma informatica PARI - Bonus Elettrodomestici
+  - '@type': HowToTool
+    name: File CSV
+status: pubblicato
+tecnologia:
+- CSV
+utente:
+  ruolo: Produttore
+  tag:
+  - caricamento lotti
+  - errori
+  - correzione
+  - csv
+  tipo_ente: partner_tecnologico
+---
+
 # Gestire un caricamento con errori parziali
 
 Questo caso d'uso illustra lo scenario end-to-end più comune: il _Produttore_ carica un file CSV che contiene sia prodotti validi sia prodotti con errori. L'obiettivo è mostrare il flusso completo per identificare, correggere e ricaricare con successo solo i prodotti che sono stati inizialmente scartati.
