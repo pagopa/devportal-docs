@@ -1,3 +1,39 @@
+---
+argomenti_correlati: []
+funzione: introduzione
+livello: principiante
+prodotto:
+  nome: PARI - Bonus Elettrodomestici
+  versione: v1.0.0
+schema:
+  '@context': https://schema.org
+  '@type': TechArticle
+  author:
+    '@type': Organization
+    name: PagoPA S.p.A.
+  description: Guida introduttiva per il Produttore che descrive come utilizzare l'Elenco
+    informatico degli elettrodomestici, lo strumento della piattaforma PARI per caricare
+    e gestire i prodotti che rientrano nell'iniziativa.
+  keywords:
+  - Produttore
+  - Elenco informatico
+  - Bonus Elettrodomestici
+  - CSV
+  - PARI
+  name: Il ruolo del Produttore per il Bonus Elettrodomestici
+  proficiencyLevel: principiante
+status: pubblicato
+tecnologia:
+- CSV
+utente:
+  ruolo: Produttore
+  tag:
+  - Produttore
+  - Elettrodomestici
+  - PARI
+  tipo_ente: partner_tecnologico
+---
+
 # Il ruolo del Produttore
 
 Questa guida è pensata per il _Produttore_ e descrive come utilizzare l' "_Elenco informatico degli elettrodomestici_", un prodotto afferente alla piattaforma PARI per inserire e gestire i propri _Elettrodomestici_.

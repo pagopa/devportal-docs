@@ -1,3 +1,83 @@
+---
+argomenti_correlati: []
+funzione: glossario
+livello: principiante
+prodotto:
+  nome: PARI - Bonus Elettrodomestici
+  versione: v1.0.0
+schema:
+  '@context': https://schema.org
+  '@type': DefinedTermSet
+  author:
+    '@type': Organization
+    name: PagoPA S.p.A.
+  description: Definizioni dei principali acronimi e termini tecnici utilizzati nella
+    documentazione per garantire una comprensione chiara e univoca.
+  hasDefinedTerm:
+  - '@type': DefinedTerm
+    description: È uno dei due strumenti di identità digitale, insieme a SPID, che
+      consente l'accesso sicuro ai servizi online della Pubblica Amministrazione e
+      quindi alla Piattaforma PARI.
+    name: Carta d'Identità Elettronica
+    termCode: CIE
+  - '@type': DefinedTerm
+    description: È un formato di file testuale utilizzato per l'importazione/esportazione
+      di dati tabellari. In questo contesto, è il formato standard richiesto per caricare
+      i lotti di prodotti sulla piattaforma.
+    name: Comma-Separated Values
+    termCode: CSV
+  - '@type': DefinedTerm
+    description: È la banca dati europea in cui i Produttori sono tenuti a registrare
+      i prodotti soggetti a etichettatura energetica. La piattaforma si interfaccia
+      con EPREL per validare le informazioni di tali prodotti.
+    name: European Product Registry for Energy Labelling
+    termCode: EPREL
+  - '@type': DefinedTerm
+    description: È il codice a barre univoco riconosciuto a livello globale che identifica
+      un prodotto specifico. Sulla piattaforma, rappresenta la chiave primaria per
+      identificare e gestire ogni singolo prodotto, anche in fase di aggiornamento.
+    name: Global Trade Item Number / European Article Number
+    termCode: GTIN/EAN
+  - '@type': DefinedTerm
+    description: L'Agenzia nazionale per l'attrazione degli investimenti e lo sviluppo
+      d'impresa. In questo contesto, è l'ente incaricato di effettuare le verifiche
+      sui Produttori e di approvare i prodotti caricati sulla piattaforma per l'ammissione
+      al bonus.
+    name: Invitalia S.p.A.
+    termCode: Invitalia S.p.A.
+  - '@type': DefinedTerm
+    description: È il sistema di posta elettronica che fornisce al mittente la prova
+      legale dell'invio e della consegna dei documenti informatici. Viene utilizzata
+      per le comunicazioni formali tra il Produttore e Invitalia.
+    name: Posta Elettronica Certificata
+    termCode: PEC
+  - '@type': DefinedTerm
+    description: È uno dei due strumenti di identità digitale, insieme a CIE, che
+      permette di accedere in modo sicuro ai servizi online della Pubblica Amministrazione,
+      inclusa la piattaforma del Bonus Elettrodomestici.
+    name: Sistema Pubblico di Identità Digitale
+    termCode: SPID
+  inLanguage: it-IT
+  name: Glossario dei termini per PARI - Bonus Elettrodomestici
+status: pubblicato
+tecnologia:
+- CIE
+- SPID
+- CSV
+- PEC
+utente:
+  ruolo: erogatore
+  tag:
+  - acronimi
+  - definizioni
+  - CIE
+  - SPID
+  - CSV
+  - EPREL
+  - GTIN
+  tipo_ente: partner_tecnologico
+---
+
 # Glossario
 
 Questo glossario fornisce le definizioni dei principali acronimi e termini tecnici utilizzati in questa documentazione, al fine di garantire una comprensione chiara e univoca.

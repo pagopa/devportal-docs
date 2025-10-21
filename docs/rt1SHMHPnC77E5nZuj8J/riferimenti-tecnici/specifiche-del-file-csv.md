@@ -1,3 +1,52 @@
+---
+argomenti_correlati:
+- /docs/pari/come-caricare-prodotti
+funzione: guida-tecnica
+livello: intermedio
+prodotto:
+  nome: PARI - Bonus Elettrodomestici
+  versione: v1.0.0
+schema:
+  '@context': https://schema.org
+  '@type': TechArticle
+  about:
+  - '@type': Thing
+    name: CSV (Comma-Separated Values)
+  - '@type': Thing
+    name: EPREL (European Product Registry for Energy Labelling)
+  - '@type': Thing
+    name: GTIN (Global Trade Item Number)
+  author:
+    '@type': Organization
+    name: PagoPA S.p.A.
+  datePublished: '2023-11-15'
+  description: Specifica tecnica dettagliata del formato CSV richiesto per il caricamento
+    massivo dei prodotti sulla piattaforma, con le strutture dei campi per prodotti
+    registrati e non registrati su EPREL.
+  keywords:
+  - CSV
+  - EPREL
+  - GTIN
+  - formato file
+  - caricamento massivo
+  - specifiche tecniche
+  name: Specifiche del file CSV per il caricamento prodotti
+  proficiencyLevel: intermedio
+status: pubblicato
+tecnologia:
+- CSV
+- UTF-8
+utente:
+  ruolo: erogatore
+  tag:
+  - CSV
+  - upload
+  - caricamento massivo
+  - prodotti
+  - EPREL
+  tipo_ente: partner_tecnologico
+---
+
 # Specifiche del file CSV
 
 Il caricamento massivo dei prodotti sulla piattaforma avviene tramite file in formato CSV (_Comma-Separated Values_). È fondamentale che la struttura del file rispetti rigorosamente le specifiche descritte in questo documento per garantire una corretta elaborazione.

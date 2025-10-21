@@ -1,3 +1,68 @@
+---
+argomenti_correlati:
+- /tutorial/come-visualizzare-i-propri-dati-anagrafici
+funzione: tutorial
+livello: principiante
+prodotto:
+  nome: PARI - Bonus Elettrodomestici
+  versione: v1.0.0
+schema:
+  '@context': https://schema.org
+  '@type': HowTo
+  author:
+    '@type': Organization
+    name: PagoPA S.p.A.
+  description: Questa guida illustra la procedura che il Produttore deve seguire per
+    effettuare il primo accesso all'Elenco informatico degli elettrodomestici. Al
+    termine di questi passaggi, il Produttore sarà in grado di visualizzare la propria
+    anagrafica e operare all'interno dell'area riservata.
+  keywords: primo accesso, login, autenticazione, SPID, CIE, Bonus Elettrodomestici
+  name: Come effettuare il primo accesso all'Elenco informatico degli elettrodomestici
+  step:
+  - '@type': HowToStep
+    name: Accesso al portale
+    text: Collegarsi all'indirizzo del portale presente nella comunicazione ricevuta
+      in precedenza e selezionare la card relativa all'Elenco informatico degli elettrodomestici.
+  - '@type': HowToStep
+    name: Visione della documentazione
+    text: Prendere visione dei Termini e condizioni d’uso e dell’informativa sul trattamento
+      dei dati personali.
+  - '@type': HowToStep
+    name: Avvio dell'autenticazione
+    text: Dalla data di avvio dell'iniziativa, al Produttore sarà consentito accedere
+      all'Elenco informatico degli elettrodomestici facendo click sul pulsante Accedi.
+      Il sistema reindirizzerà al servizio di autenticazione.
+  - '@type': HowToStep
+    name: Autenticazione
+    text: Selezionare il proprio metodo di identità digitale, SPID o CIE (Carta d'Identità
+      Elettronica) e completare l'autenticazione seguendo le istruzioni del proprio
+      gestore.
+  - '@type': HowToStep
+    name: Primo accesso e visualizzazione Panoramica
+    text: Una volta completata l'autenticazione con successo, il sistema reindirizzerà
+      il Produttore all'interno dell'area riservata. La prima schermata visualizzata
+      è la sezione 'Panoramica', che riepiloga i dati identificativi dell'azienda.
+  tool:
+  - '@type': HowToTool
+    name: SPID
+  - '@type': HowToTool
+    name: CIE (Carta d'Identità Elettronica)
+  totalTime: PT5M
+status: pubblicato
+tecnologia:
+- SPID
+- CIE
+utente:
+  ruolo: produttore
+  tag:
+  - primo accesso
+  - login
+  - autenticazione
+  - SPID
+  - CIE
+  tipo_ente: partner_tecnologico
+---
+
 # Come effettuare il primo accesso
 
 Questa guida illustra la procedura che il _Produttore_ deve seguire per effettuare il primo accesso all'_Elenco informatico degli elettrodomestici_. Al termine di questi passaggi, il _Produttore_ sarà in grado di visualizzare la propria anagrafica e operare all'interno dell'area riservata.
