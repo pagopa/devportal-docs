@@ -28,7 +28,11 @@ Navigare alla sezione **"Censimento Punti Vendita"** (o voce di menu equivalente
 
 ## Step 3 - Compilare i dati del Punto Vendita
 
-Utilizzare l'interfaccia per inserire i dati richiesti per ciascun Punto Vendita. I campi obbligatori includono:
+Utilizzare l'interfaccia per inserire i dati richiesti per ciascun Punto Vendita.&#x20;
+
+### Punto vendita fisico
+
+I campi obbligatori includono:
 
 * Insegna
 * Indirizzo
@@ -37,6 +41,13 @@ Utilizzare l'interfaccia per inserire i dati richiesti per ciascun Punto Vendita
 * Provincia
 
 <figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+
+### Punto vendita online
+
+I campi obbligatori includono:
+
+* Insegna
+* Indirizzo web completo (es.: https://www.pagopa.it)
 
 <figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
