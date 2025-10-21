@@ -90,7 +90,7 @@ sequenceDiagram
     participant PPA as PagoPA
     participant UAT as Ambiente di Certificazione
 
-    Note over SP, PPA: Prerequisito: <br> Il SP ha già aderito allo schema EPC SRTP autonomamente.
+    Note over SP, PPA: Prerequisito: <br> Il SP si dota di una soluzone compatibile con lo standard EPC
 
     rect rgba(240, 240, 240, 0.7)
         note over SP, PPA: Fase 1: Test, Adesione e Configurazione (Step 1 e 2)
@@ -117,7 +117,7 @@ sequenceDiagram
 
 ## **Prerequisito: Adesione allo schema EPC**
 
-Prima di avviare il processo di onboarding con PagoPA, è necessario che l'istituto aderente abbia aderito allo schema SEPA Request-to-Pay (SRTP) seguendo le regole definite nel Rulebook dell'European Payments Council (EPC). Questa attività non è gestita da PagoPA.
+Prima di avviare il processo di onboarding con PagoPA, è necessario che l'istituto aderente abbia una soluzione conforme  allo schema SEPA Request-to-Pay (SRTP) seguendo le regole definite nel Rulebook dell'European Payments Council (EPC). Questa attività non è gestita da PagoPA.
 
 ## **Step 1: Fornire le Informazioni Tecniche**
 
