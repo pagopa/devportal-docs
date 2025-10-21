@@ -4,21 +4,29 @@ Dopo aver completato l'adesione, il **Venditore** (tramite il suo Legale Rappres
 
 Questa operazione è un prerequisito fondamentale per poter creare gli account degli Operatori che accetteranno i buoni.
 
-#### Procedura di censimento
-
 L'operazione di censimento si svolge all'interno del Portale Venditore e permette di inserire **fino a cinque Punti Vendita alla volta**.
 
-#### Step 1 - Accedere al Portale Venditore
+{% hint style="warning" %}
+**Verifica i dati inseriti prima di inviarli**
+
+Una volta che un Punto Vendita è stato creato e salvato, **non è più possibile modificarne i dati** (es. indirizzo o insegna). È fondamentale verificare la correttezza di tutte le informazioni prima di confermare l'inserimento.
+{% endhint %}
+
+## Step 1 - Accedere al Portale Venditore
 
 Il Venditore (Legale Rappresentante o Amministratore) accede al Portale Venditore autenticandosi tramite [SPID](https://www.google.com/search?q=riferimenti-tecnici/glossario%23spid) o [CIE](https://www.google.com/search?q=riferimenti-tecnici/glossario%23cie).
 
-#### Step 2 - Avviare il censimento
+***
+
+## Step 2 - Avviare il censimento
 
 Navigare alla sezione **"Censimento Punti Vendita"** (o voce di menu equivalente) per avviare la procedura di inserimento.
 
 <figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
-#### Step 3 - Compilare i dati del Punto Vendita
+***
+
+## Step 3 - Compilare i dati del Punto Vendita
 
 Utilizzare l'interfaccia per inserire i dati richiesti per ciascun Punto Vendita. I campi obbligatori includono:
 
@@ -32,28 +40,17 @@ Utilizzare l'interfaccia per inserire i dati richiesti per ciascun Punto Vendita
 
 <figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
-#### Step 4 - Salvare e ripetere l'operazione
+***
+
+## Step 4 - Salvare e ripetere l'operazione
 
 Dopo aver compilato i campi per uno o più Punti Vendita (fino a un massimo di cinque), confermare l'inserimento tramite l'apposito pulsante (es. "Salva" o "Conferma").
 
 Se il Venditore deve registrare più di cinque Punti Vendita, deve ripetere questa procedura (Step 2-4) fino al completamento dell'elenco.
 
-#### Informazioni importanti
+***
 
-Si prega di prestare la massima attenzione ai seguenti vincoli operativi della piattaforma:
-
-{% hint style="info" %}
-**ATTENZIONE: Impossibilità di modifica**
-
-Una volta che un Punto Vendita è stato creato e salvato, **non è più possibile modificarne i dati** (es. indirizzo o insegna). È fondamentale verificare la correttezza di tutte le informazioni prima di confermare l'inserimento.
-{% endhint %}
-
-{% hint style="info" %}
-**NOTA: Limiti di caricamento**
-
-La piattaforma non supporta funzionalità di caricamento massivo (ad esempio tramite file CSV). L'inserimento è esclusivamente manuale, con un limite di **5 Punti Vendita per operazione**.\
-
-{% endhint %}
+## Prossimi passi
 
 I Punti Vendita correttamente censiti appariranno nell'elenco gestito dal Venditore. Una volta che un Punto Vendita è registrato, il Venditore può procedere con la creazione degli account per gli Operatori associati a quel negozio.
 

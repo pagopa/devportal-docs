@@ -9,7 +9,6 @@
 
 * [Come censire i Punti Vendita](tutorial-per-il-venditore/come-censire-i-punti-vendita.md)
 * [Come creare e gestire gli Operatori](tutorial-per-il-venditore/come-creare-e-gestire-gli-operatori.md)
-* [Page 1](tutorial-per-il-venditore/page-1.md)
 
 ## Tutorial per operatore Punto Vendita
 

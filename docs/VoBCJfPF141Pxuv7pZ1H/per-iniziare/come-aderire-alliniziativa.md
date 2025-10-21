@@ -1,10 +1,10 @@
-# Come aderire all'iniziativa (Portale Venditore)
+# Come aderire all'iniziativa
 
 L'adesione all'iniziativa Bonus Elettrodomestici è il primo passo obbligatorio per un **Venditore** (l'azienda) e deve essere eseguita dal suo **Legale Rappresentante**.
 
 Questa procedura si svolge interamente online sul Portale Venditore e richiede l'autenticazione forte tramite identità digitale e la sottoscrizione di un contratto.
 
-#### Prerequisiti
+## Prerequisiti
 
 Prima di iniziare, il Legale Rappresentante deve assicurarsi di avere a disposizione:
 
@@ -12,7 +12,7 @@ Prima di iniziare, il Legale Rappresentante deve assicurarsi di avere a disposiz
 * Una **Visura Camerale** aggiornata dell'azienda (Venditore) in formato digitale (es. PDF) da caricare.
 * I dati completi dell'azienda, inclusi **IBAN** e **PEC**.
 
-#### Procedura di adesione
+## Procedura di adesione
 
 Il Legale Rappresentante deve seguire questi passaggi:
 
@@ -23,16 +23,13 @@ Il Legale Rappresentante deve seguire questi passaggi:
     * **Dati Venditore**: Ragione Sociale, Partita IVA, Codice Fiscale, Sede legale, IBAN per i rimborsi, PEC e altri contatti.
     * **Dati Legale Rappresentante**: Nome, Cognome, Codice Fiscale e contatti.
 
-    <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
 4. Caricare la **Visura Camerale** dell'azienda nell'apposito campo.
 5. Inserire i dati degli **Amministratori** (fino a un massimo di tre). Gli Amministratori, insieme al Legale Rappresentante, potranno accedere al Portale Venditore per gestire le configurazioni.
+6. Verificare la correttezza di tutte le informazioni nella pagina di **Riepilogo**.
+7. Procedere alla **Sottoscrizione del contratto** di adesione. L'interfaccia guiderà l'utente attraverso il processo di firma digitale per formalizzare l'adesione.
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
-
-1. Verificare la correttezza di tutte le informazioni nella pagina di **Riepilogo**.
-2. Procedere alla **Sottoscrizione del contratto** di adesione. L'interfaccia guiderà l'utente attraverso il processo di firma digitale per formalizzare l'adesione.
-
-#### Esito
+## Esito
 
 Una volta completata la procedura e sottoscritto il contratto, il Venditore è ufficialmente registrato all'iniziativa.
 
