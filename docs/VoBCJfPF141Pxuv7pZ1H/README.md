@@ -1,45 +1,20 @@
-# Panoramica del Bonus Elettrodomestici
+# Cos'è il Bonus Elettrodomestici
 
-Questa guida è il punto di riferimento per gli **Esercenti** che aderiscono all'iniziativa Bonus Elettrodomestici. L'obiettivo è fornire le istruzioni operative per utilizzare i portali di gestione e accettare i buoni sconto presentati dai cittadini.
+Indica il contributo per l’acquisto di _Elettrodomestici_ previsto per l’anno 2025 dalla legge 30 dicembre 2024, n. 207 recante “Bilancio di previsione dello Stato per l'anno finanziario 2025 e bilancio pluriennale per il triennio 2025-2027”, modificata dal D.L. 19/2025 convertito con modificazioni dalla L. 60/2025.
 
-L'adesione e la gestione del bonus **non richiedono alcuna integrazione tecnica** (API). Tutte le operazioni si svolgono interamente tramite due portali web dedicati, accessibili con le proprie credenziali.
+È il contributo, erogato dal Ministero delle Imprese e del Made in Italy, per incentivare la sostituzione di un _Elettrodomestico_ con un modello ad alta efficienza energetica e promuovere la sostenibilità e la transizione energetica ed è disciplinato dal Decreto del Ministro delle Imprese e del Made in Italy di concerto con il Ministero dell’Economia e delle Finanze 3 settembre 2025, ammesso alla registrazione dalla Corte dei Conti in data 18 settembre 2025, al n. 1146 che disciplina le condizioni, i criteri e le modalità per la concessione del contributo di cui all’art. 1, comma 107 della legge 30 dicembre 2024, n. 207.
 
-## I due ruoli chiave: Venditore e Operatore
+### Chi può richiederlo? <a href="#chi-puo-richiederlo" id="chi-puo-richiederlo"></a>
 
-Per gestire correttamente il processo, è fondamentale comprendere la distinzione tra i due ruoli principali e i relativi portali.
+Tutti i maggiorenni residenti in Italia che acquistano un _Elettrodomestico_ nuovo e smaltiscono quello obsoleto dello stesso tipo. Si può richiedere un solo bonus per ogni _Famiglia Anagrafica_.
 
-### 1. Il Venditore (Gestione Amministrativa)
+### Cosa offre? <a href="#cosa-offre" id="cosa-offre"></a>
 
-Il **Venditore** è l'entità legale (l'azienda) che aderisce all'iniziativa. L'accesso al "Portale Venditore" è riservato a figure amministrative, come il Legale Rappresentante o gli Amministratori designati, che accedono tramite [SPID](https://www.google.com/search?q=riferimenti-tecnici/glossario%23spid) o [CIE](https://www.google.com/search?q=riferimenti-tecnici/glossario%23cie).
+Uno sconto del 30% sul prezzo d’acquisto di un solo _Elettrodomestico_, nuovo e ad alta efficienza, di una di queste categorie: apparecchi di refrigerazione (frigoriferi e congelatori), asciugabiancheria, cappe da cucina, forni, lavasciuga, lavastoviglie, lavatrici e piani cottura. Lo sconto massimo che puoi ottenere è:
 
-#### **Compiti principali del Venditore:**
+* fino a 100€ se il tuo ISEE è uguale o superiore a 25.000€ oppure se non intendi fornire indicazioni;
+* fino a 200€ se il tuo ISEE è inferiore a 25.000€.
 
-* **Aderire all'iniziativa**: Registrare l'azienda e sottoscrivere digitalmente il contratto.
-* **Configurare l'azienda**: Gestire i dati anagrafici e l'IBAN su cui ricevere i rimborsi.
-* **Censire i Punti Vendita**: Registrare l'elenco di tutti i negozi fisici (punti vendita) abilitati all'iniziativa.
-* **Creare gli Operatori**: Generare gli account (utente e password) per il personale dei singoli Punti Vendita.
+Lo sconto non è cumulabile con altre agevolazioni, anche di tipo fiscale.
 
-### 2. L'Operatore Punto Vendita (Gestione Operativa)
-
-L'**Operatore Punto Vendita (PV)** è la persona fisica (ad esempio, l'addetto alla cassa o il responsabile del negozio) che opera nel singolo punto vendita. L'Operatore utilizza il "Portale Operatore PV" per gestire le vendite quotidiane.
-
-#### **Compiti principali dell'Operatore PV:**
-
-* **Accettare i buoni**: Inserire il codice sconto presentato dal cittadino (da App IO o cartaceo) e verificare i dati.
-* **Finalizzare le transazioni**: Confermare l'acquisto dopo il pagamento del cittadino o annullare l'operazione.
-* **Consultare lo storico**: Visionare l'elenco delle transazioni effettuate dal proprio Punto Vendita.
-
-## Struttura della Guida
-
-Questa documentazione è organizzata per guidare l'utente al risultato nel modo più efficiente:
-
-* **Per iniziare**: Guida l'utente nei primi passi indispensabili (come questa panoramica e la guida all'adesione).
-* **Tutorial**: Contiene le istruzioni passo-passo per ogni singola operazione (es. "Censire i Punti Vendita" o "Accettare un buono sconto").
-* **Riferimenti Tecnici**: Fornisce dettagli specifici da consultare rapidamente (es. il [Glossario](https://www.google.com/search?q=riferimenti-tecnici/glossario) o la [Descrizione degli Stati delle Transazioni](https://www.google.com/search?q=riferimenti-tecnici/descrizione-stati-transazioni)).
-* **Casi d'uso**: Mostra scenari completi dall'inizio alla fine (es. "Gestire una vendita completa").
-
-## Prossimo passo
-
-Il percorso dell'Esercente inizia con la registrazione della propria azienda come "Venditore". Per farlo, è necessario seguire la guida successiva.
-
-➡️ **Proseguire con:** [**Come aderire all'iniziativa (Portale Venditore)**](https://www.google.com/search?q=per-iniziare/come-aderire-all-iniziativa)
+I termini e le espressioni indicati in maiuscolo in questo documento hanno il significato loro attribuito dalla normativa vigente di riferimento, salvo ove diversamente specificato.

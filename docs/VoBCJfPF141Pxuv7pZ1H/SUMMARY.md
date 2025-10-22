@@ -2,29 +2,21 @@
 
 ## Per iniziare
 
-* [Panoramica del Bonus Elettrodomestici](README.md)
-* [Come aderire all'iniziativa](per-iniziare/come-aderire-alliniziativa.md)
+* [Cos'è il Bonus Elettrodomestici](README.md)
+* [Come aderire all'iniziativa](per-iniziare/come-aderire-alliniziativa-portale-venditore.md)
+* [Il ruolo del Venditore](per-iniziare/il-ruolo-del-venditore.md)
 
 ## Tutorial per il venditore
 
-* [Come censire i Punti Vendita](tutorial-per-il-venditore/come-censire-i-punti-vendita.md)
-* [Come creare e gestire gli Operatori](tutorial-per-il-venditore/come-creare-e-gestire-gli-operatori.md)
+* [Come censire i Punti Vendita](tutorial/come-censire-i-punti-vendita-portale-venditore.md)
 
 ## Tutorial per operatore Punto Vendita
 
-* [Come attivare il proprio account](tutorial-per-operatore-punto-vendita/come-attivare-il-proprio-account.md)
-* [Come accettare un buono sconto](tutorial-per-operatore-punto-vendita/come-accettare-un-buono-sconto.md)
-* [Come finalizzare un acquisto](tutorial-per-operatore-punto-vendita/come-finalizzare-un-acquisto.md)
-* [Come consultare lo storico delle transazioni](tutorial-per-operatore-punto-vendita/come-consultare-lo-storico-delle-transazioni.md)
-* [Come gestire il tuo profilo](tutorial-per-operatore-punto-vendita/come-gestire-il-tuo-profilo.md)
+* [Come attivare il proprio account](tutorial/come-attivare-il-proprio-account-portale-operatore-pv.md)
+* [Come accettare un Voucher](tutorial-per-operatore-punto-vendita/come-accettare-un-voucher.md)
+* [Come consultare lo storico dei Voucher gestiti](tutorial-per-operatore-punto-vendita/come-consultare-lo-storico-dei-voucher-gestiti.md)
+* [Come consultare l'Elenco informatico degli elettrodomestici](tutorial-per-operatore-punto-vendita/come-consultare-lelenco-informatico-degli-elettrodomestici.md)
 
 ## Riferimenti tecnici
 
-* [Glossario](riferimenti-tecnici/glossario.md)
-* [Descrizione degli Stati delle Transizioni](riferimenti-tecnici/descrizione-degli-stati-delle-transizioni.md)
-* [Vincoli Operativi](riferimenti-tecnici/vincoli-operativi.md)
-
-## Casi d'Uso
-
-* [Gestire una vendita](casi-duso/gestire-una-vendita.md)
-* [Gestire un annullamento](casi-duso/gestire-un-annullamento.md)
+* [Stati delle operazioni](riferimenti-tecnici/stati-delle-operazioni.md)
