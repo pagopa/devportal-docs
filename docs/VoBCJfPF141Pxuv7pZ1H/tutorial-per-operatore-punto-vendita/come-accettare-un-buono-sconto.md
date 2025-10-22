@@ -22,9 +22,9 @@ L'Operatore compila i campi richiesti nel modulo:
 
 Dopo la compilazione, premere **"Conferma"** (o "Avanti").
 
-<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Home page (2).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Dati spesa.png" alt=""><figcaption></figcaption></figure>
 
 ### Step 3 - Verificare i dati e l'identità del cittadino
 
@@ -42,11 +42,11 @@ Dopo aver completato la verifica:
 * Se i dati inseriti o l'identità non sono corretti, l'Operatore deve utilizzare il pulsante **"Indietro"** (o "Annulla") per tornare allo Step 2 o interrompere l'operazione.
 * Se tutti i dati sono corretti, l'Operatore deve cliccare sul pulsante **"Accetta buono sconto"**.
 
-<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Dati spesa (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
-<figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Dati spesa (2).png" alt=""><figcaption></figcaption></figure>
 
 ### Esito
 
@@ -54,7 +54,7 @@ Confermando l'accettazione, il buono sconto viene **pre-autorizzato** per quel c
 
 Viene creata una nuova transazione che appare nell'elenco "Gestione Acquisti" (o simile). A questo punto, il buono non è ancora utilizzato; l'Operatore deve procedere con il pagamento da parte del cittadino per concludere l'operazione.
 
-<figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Home page (3).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
 

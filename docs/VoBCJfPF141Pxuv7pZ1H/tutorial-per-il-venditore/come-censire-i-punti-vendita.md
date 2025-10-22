@@ -22,7 +22,7 @@ Il Venditore (Legale Rappresentante o Amministratore) accede al Portale Venditor
 
 Navigare alla sezione **"Censimento Punti Vendita"** (o voce di menu equivalente) per avviare la procedura di inserimento.
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Panoramica_empty.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -40,7 +40,7 @@ I campi obbligatori includono:
 * Città
 * Provincia
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Fisico - empty.png" alt=""><figcaption></figcaption></figure>
 
 ### Punto vendita online
 
@@ -49,7 +49,7 @@ I campi obbligatori includono:
 * Insegna
 * Indirizzo web completo (es.: https://www.pagopa.it)
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Online - empty.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -65,6 +65,6 @@ Se il Venditore deve registrare più di cinque Punti Vendita, deve ripetere ques
 
 I Punti Vendita correttamente censiti appariranno nell'elenco gestito dal Venditore. Una volta che un Punto Vendita è registrato, il Venditore può procedere con la creazione degli account per gli Operatori associati a quel negozio.
 
-<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Home page (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Panoramica - info e prodotti.png" alt=""><figcaption></figcaption></figure>
