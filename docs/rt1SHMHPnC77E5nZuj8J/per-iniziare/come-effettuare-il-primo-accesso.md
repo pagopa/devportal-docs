@@ -101,12 +101,6 @@ Prendere visione dei **Termini e condizioni d’uso** e dell’**informativa sul
 
 <figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
-Nelle more dell'avvio dell'iniziativa Bonus Elettrodomestici, il _Produttore_ avrà accesso ad una pagina informativa che gli comunica la data di apertura del portale _Elenco informatico degli elettrodomestici_.
-
-<figure><img src="../.gitbook/assets/Terms of use.png" alt=""><figcaption></figcaption></figure>
-
-***
-
 ### **Step 3 - Avvio dell'autenticazione**
 
 Dalla data di avvio dell'iniziativa, al _Produttore_ sarà consentito accedere all'_Elenco informatico degli elettrodomestici_ facendo click sul pulsante **Accedi**. Il sistema reindirizzerà al servizio di autenticazione.
