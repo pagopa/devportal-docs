@@ -1,11 +1,11 @@
-# Come attivare il proprio account
+# Attivare il proprio account
 
 Questa guida è rivolta all'Operatore Punto Vendita (PV). La procedura descrive come attivare il proprio account dopo che il _Venditore_ lo ha registrato sulla _Piattaforma PARI_.
 
 ## Prerequisiti
 
-* Il _Venditore_ deve aver completato la procedura descritta in: [Come creare e gestire gli Operatori](https://www.google.com/search?q=tutorial/creare-e-gestire-operatori).
-* L'Operatore PV deve avere accesso alla casella di posta elettronica fornita dal _Venditore_ precedentemente.
+* Il _Venditore_ deve aver [censito i punti vendita](../tutorial-per-il-venditore/censire-i-punti-vendita.md).
+* L'Operatore PV deve avere accesso alla casella di posta elettronica comunicata dal _Venditore_ in fase di censimento.
 
 ## Procedura di attivazione
 
@@ -27,7 +27,7 @@ L'Operatore viene reindirizzato a una pagina web dove deve inserire e confermare
 
 ### Step 4 - Accedere al portale
 
-Una volta confermata la password, l'account è attivo. L'Operatore può ora accedere al _Portale Esercenti_ utilizzando il proprio indirizzo email come username e la password appena creata.
+Una volta confermata la password, l'account è attivo. L'Operatore può ora accedere al [_Portale Operatori Punti Vendita_](https://bonuselettrodomestici.it/esercente) utilizzando il proprio indirizzo email come username e la password appena creata.
 
 ### Esito
 

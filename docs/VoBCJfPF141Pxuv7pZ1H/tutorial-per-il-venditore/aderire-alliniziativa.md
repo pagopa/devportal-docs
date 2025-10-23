@@ -1,8 +1,8 @@
-# Come aderire all'iniziativa
+# Aderire all'iniziativa
 
 L'adesione all'iniziativa Bonus Elettrodomestici è il primo passo obbligatorio per un _Venditore._
 
-Questa procedura si svolge interamente online sulla _Piattaforma PARI_ e richiede l'autenticazione forte tramite identità digitale e la sottoscrizione del contratto di cui il presente documento è allegato. L'adesione da parte dei _Venditori_ è disciplinata dalle Linee Guida <mark style="color:$danger;">XXXX.</mark>
+Questa procedura si svolge interamente online sulla _Piattaforma PARI_ e richiede l'autenticazione forte tramite identità digitale e la sottoscrizione del contratto di cui il presente documento è allegato. L'adesione da parte dei _Venditori_ è disciplinata dalle [Linee Guida](https://www.mimit.gov.it/images/stories/normativa/All1__Linee_Guida_Bonus__22_ottobre_2025__1_.pdf).
 
 ## Corrispettivi e oneri tributari
 

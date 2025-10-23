@@ -1,4 +1,4 @@
-# Come censire i Punti Vendita
+# Censire i Punti Vendita
 
 Dopo aver completato l'adesione, il _Venditore_ deve registrare sulla _Piattaforma PARI_ tutti i Punti Vendita fisici/online che parteciperanno all'iniziativa.
 
@@ -14,7 +14,7 @@ Una volta che un Punto Vendita è stato creato e salvato, **non è più possibil
 
 ## Step 1 - Accedere alla Piattaforma
 
-Il _Venditore_ accede alla _Piattaforma PARI_ attraverso il portale Area Riservata autenticandosi tramite [SPID](https://www.google.com/search?q=riferimenti-tecnici/glossario%23spid) o [CIE](https://www.google.com/search?q=riferimenti-tecnici/glossario%23cie).
+Il _Venditore_ accede alla _Piattaforma PARI_ attraverso il portale [Area Riservata](https://selfcare.pagopa.it/) autenticandosi tramite SPID o CIE.
 
 ***
 
@@ -57,7 +57,7 @@ I campi obbligatori includono:
 
 ## Step 4 - Salvare e ripetere l'operazione
 
-Dopo aver compilato i campi per uno o più Punti Vendita (fino a un massimo di cinque), confermare l'inserimento tramite l'apposito pulsante (es. "Salva" o "Conferma").
+Dopo aver compilato i campi per uno o più Punti Vendita (fino a un massimo di cinque), confermare l'inserimento tramite il pulsante "Conferma".
 
 Se il _Venditore_ deve registrare più di cinque Punti Vendita, deve ripetere questa procedura (Step 2-4) fino al completamento dell'elenco.
 
@@ -65,7 +65,9 @@ Se il _Venditore_ deve registrare più di cinque Punti Vendita, deve ripetere qu
 
 ## Prossimi passi
 
-I Punti Vendita correttamente censiti appariranno nell'elenco gestito dal _Venditore_. Una volta che un Punto Vendita è registrato, automaticamente verrà creato un account per l'Operatore del Punto Vendita. All'indirizzo e-mail specificato verrà inviata una comunicazione che permetterà all'Operatore del Punto Vendita di accedere al _Portale Esercenti._
+I Punti Vendita correttamente censiti appariranno nell'elenco gestito dal _Venditore_. Una volta che un Punto Vendita è registrato, automaticamente verrà creato un account per l'Operatore del Punto Vendita.
+
+All'indirizzo e-mail specificato verrà inviata una comunicazione che permetterà all'Operatore del Punto Vendita di accedere al _Portale Esercenti._
 
 <figure><img src="../.gitbook/assets/Home page (1).png" alt=""><figcaption></figcaption></figure>
 

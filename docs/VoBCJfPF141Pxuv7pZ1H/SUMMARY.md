@@ -3,20 +3,25 @@
 ## Per iniziare
 
 * [Cos'è il Bonus Elettrodomestici](README.md)
-* [Come aderire all'iniziativa](per-iniziare/come-aderire-alliniziativa-portale-venditore.md)
 * [Il ruolo del Venditore](per-iniziare/il-ruolo-del-venditore.md)
 
 ## Tutorial per il venditore
 
-* [Come censire i Punti Vendita](tutorial/come-censire-i-punti-vendita-portale-venditore.md)
+* [Aderire all'iniziativa](tutorial-per-il-venditore/aderire-alliniziativa.md)
+* [Censire i Punti Vendita](tutorial-per-il-venditore/censire-i-punti-vendita.md)
+* [Consultare lo storico delle transazioni](tutorial-per-il-venditore/consultare-lo-storico-delle-transazioni.md)
+* [Gestire i rimborsi](tutorial-per-il-venditore/gestire-i-rimborsi.md)
+* [Segnalare un utente](tutorial-per-il-venditore/segnalare-un-utente.md)
 
 ## Tutorial per operatore Punto Vendita
 
-* [Come attivare il proprio account](tutorial/come-attivare-il-proprio-account-portale-operatore-pv.md)
-* [Come accettare un Voucher](tutorial-per-operatore-punto-vendita/come-accettare-un-voucher.md)
-* [Come consultare lo storico dei Voucher gestiti](tutorial-per-operatore-punto-vendita/come-consultare-lo-storico-dei-voucher-gestiti.md)
-* [Come consultare l'Elenco informatico degli elettrodomestici](tutorial-per-operatore-punto-vendita/come-consultare-lelenco-informatico-degli-elettrodomestici.md)
+* [Attivare il proprio account](tutorial-per-operatore-punto-vendita/attivare-il-proprio-account.md)
+* [Accettare un Buono sconto in negozio](tutorial-per-operatore-punto-vendita/accettare-un-buono-sconto-in-negozio.md)
+* [Accettare un Buono sconto online](tutorial-per-operatore-punto-vendita/accettare-un-buono-sconto-online.md)
+* [Consultare lo storico delle transazioni](tutorial-per-operatore-punto-vendita/consultare-lo-storico-delle-transazioni.md)
+* [Consultare l'Elenco informatico degli elettrodomestici](tutorial-per-operatore-punto-vendita/consultare-lelenco-informatico-degli-elettrodomestici.md)
+* [Inviare le richieste di rimborso](tutorial-per-operatore-punto-vendita/inviare-le-richieste-di-rimborso.md)
 
 ## Riferimenti tecnici
 
-* [Stati delle operazioni](riferimenti-tecnici/stati-delle-operazioni.md)
+* [Stati delle transazioni](riferimenti-tecnici/stati-delle-transazioni.md)
