@@ -1,5 +1,9 @@
 # Aderire all'iniziativa
 
+{% hint style="success" %}
+Sarà possibile aderire a partire dalla data indicata [nel Decreto Direttoriale 22\10\2025](https://www.mimit.gov.it/it/normativa/decreti-direttoriali/decreto-direttoriale-22-ottobre-2025-bonus-elettrodomestici-modalita-di-richiesta-concessione-ed-erogazione)
+{% endhint %}
+
 L'adesione all'iniziativa Bonus Elettrodomestici è il primo passo obbligatorio per un _Venditore._
 
 Questa procedura si svolge interamente online sulla _Piattaforma PARI_ e richiede l'autenticazione forte tramite identità digitale e la sottoscrizione del contratto di cui il presente documento è allegato. L'adesione da parte dei _Venditori_ è disciplinata dalle [Linee Guida](https://www.mimit.gov.it/images/stories/normativa/All1__Linee_Guida_Bonus__22_ottobre_2025__1_.pdf).
