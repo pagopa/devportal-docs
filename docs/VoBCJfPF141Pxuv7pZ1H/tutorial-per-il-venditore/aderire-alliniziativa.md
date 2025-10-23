@@ -1,7 +1,7 @@
 # Aderire all'iniziativa
 
 {% hint style="success" %}
-Sarà possibile aderire a partire dalla data indicata [nel Decreto Direttoriale 22\10\2025](https://www.mimit.gov.it/it/normativa/decreti-direttoriali/decreto-direttoriale-22-ottobre-2025-bonus-elettrodomestici-modalita-di-richiesta-concessione-ed-erogazione), all'art. 2 comma 7
+Sarà possibile aderire a partire dalla data indicata [nel Decreto Direttoriale 22\10\2025](https://www.mimit.gov.it/it/normativa/decreti-direttoriali/decreto-direttoriale-22-ottobre-2025-bonus-elettrodomestici-modalita-di-richiesta-concessione-ed-erogazione), all'art. 4 comma 2
 {% endhint %}
 
 L'adesione all'iniziativa Bonus Elettrodomestici è il primo passo obbligatorio per un _Venditore._
