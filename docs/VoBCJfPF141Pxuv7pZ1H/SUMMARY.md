@@ -25,3 +25,7 @@
 ## Riferimenti tecnici
 
 * [Stati delle transazioni](riferimenti-tecnici/stati-delle-transazioni.md)
+
+***
+
+* [Contatti](contatti.md)
