@@ -57,3 +57,5 @@ Nel caso in cui un prodotto venga escluso dai controlli automatici, il _Produtto
 {% hint style="info" %}
 Un file può contenere fino ad un massimo di **100** prodotti appartenenti ad una **singola** categoria. Nel caso si debbano caricare più di 100 prodotti è necessario dividere i prodotti su più file CSV.
 {% endhint %}
+
+Andato a buon fine il caricamento del file ogni singolo _Elettrodomestico_ viene verificato &#x65;_,_ una volta approvato da Invitalia S.p.A., confluisce nell'_Elenco informatico degli elettrodomestici_.

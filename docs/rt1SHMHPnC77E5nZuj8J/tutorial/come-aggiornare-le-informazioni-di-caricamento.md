@@ -35,6 +35,6 @@ Una volta preparato il file, il _Produttore_ deve seguire la procedura standard 
 Una volta che il file di aggiornamento viene processato con successo:
 
 * Il sistema riconosce i codici GTIN/EAN già esistenti e sostituisce le vecchie informazioni con quelle appena caricate;
-* Il prodotto aggiornato viene nuovamente sottomesso al flusso di approvazione di Invitalia S.p.A. . Il suo stato tornerà in **"Da Esaminare"** e seguirà l'iter di verifica come se fosse un nuovo inserimento.
+* Il prodotto aggiornato viene nuovamente sottoposto al flusso di approvazione di Invitalia S.p.A. . Il suo stato tornerà in **"Da Esaminare"** e seguirà l'iter di verifica come se fosse un nuovo inserimento.
 
 Il _Produttore_ può monitorare lo stato di approvazione del prodotto aggiornato consultando la lista dei propri prodotti o lo storico dei caricamenti.
