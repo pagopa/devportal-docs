@@ -33,7 +33,7 @@ Si precisa che, le informazioni riportate nel Modulo di Profilazione:
 * rilevano per l’esercizio del diritto, da parte della Società, di sospendere l’esecutività dell’Accordo di Adesione (si veda l’art. 2 dell’Accordo di Adesione);
 * non rilevano per il servizio di gestione automatica dei picchi di recapito su PN.&#x20;
 
-##
+
 
 ## Modulo Commessa (nuova modalità di trasmissione)
 
@@ -82,7 +82,7 @@ Si precisa che le informazioni riportate nelle Commesse saranno utilizzate:
 1. ai fini dell’anticipazione da erogare in favore della Piattaforma e dell’emissione della relativa fattura;&#x20;
 2. al fine di calcolare la priorità di gestione delle notifiche depositate dall’Aderente rispetto all’effettiva capacità di recapito garantita, per il servizio di gestione automatica dei picchi di recapito su PN.
 
-####
+
 
 #### Periodo transitorio per i soggetti già aderenti a SEND al 27/10/2025
 
