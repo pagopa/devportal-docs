@@ -128,6 +128,14 @@ Ambiti e tipologia notifica:
 * Codice`020101P` - **Notifiche Riscossione Bollo non pagato** 
 Tutte le comunicazione associate ad un pagamento (es: accertamenti, solleciti etc...) relative al recupero dei Bolli non pagati degli anni precedenti che l&#39;Ente deve incassare dal cittadino/impresa.
 
+### 0203 - **Violazioni Norme Sismiche**
+
+* Codice`020301P` - **Notifiche Riscossione Sanzioni con pagamento** 
+Tutte le tipologie di comunicazione associate al pagamento della sanzione
+
+* Codice`020302N` - **Notifiche per Notizie di Reato** 
+Tutte le tipologie di comunicazioni che non prevedono un pagamento correlato
+
 ### 0204 - **Esenzioni Bolli Auto**
 
 * Codice`020401P` - **Notifiche Istanze di diniego/accettazione esenzione** 
@@ -138,6 +146,22 @@ Tutte le comunicazioni, di diniego, di accettazione o di carenza di documentazio
 
 * Codice`020403N` - **Notifica Tasse per Sospensione Rivenditori** 
 Tutte le comunicazioni che riguardano il contributo da versare in relazione alla sospensione del bollo auto per rivendita
+
+### 0205 - **Demanio Idrico**
+
+* Codice`020501P` - **Notifiche Riscossione con pagamento** 
+Tutte le tipologie di comunicazioni associate al pagamento del Canone di Concessione e/odell’Indennizzo, del Deposito cauzionale, e/o dell’imposta regionale del 10% 
+
+* Codice`020502N` - **Notifiche per Autorizzazioni/Concessioni – Nulla Osta Demaniali** 
+Tutte le tipologie di comunicazioni che non prevedono un pagamento correlato
+
+### 0206 - **Accesso agli Atti**
+
+* Codice`020601P` - **Comunicazioni relative a processi amministrativi di accesso agli atti** 
+Tutte le tipologie di comunicazioni associate ad un pagamento rispetto alla erogazione del serviziodi accesso agli atti dell&#39;Ente.
+
+* Codice`020601P` - **Comunicazioni relative a processi amministrativi di accesso agli atti** 
+Notifiche di atti relativi a procedimenti relativi alla richiesta di accesso agli atti dell&#39;Ente (conferma,diniego, rifiuto, etc...)
 
 
 ##  03 - Riscossore
@@ -213,6 +237,9 @@ Costituzione in mora – Comunicazione di avvio del procedimento
 Tutte le tipologie di comunicazioni
 
 * Codice`040302N` - **Comunicazioni relative alle deleghe di pagamento in favore delle APCSM** 
+Tutte le tipologie di comunicazioni
+
+* Codice`040303N` - **Comunicazioni relative al settore credito e procedure esecutive** 
 Tutte le tipologie di comunicazioni
 
 
@@ -580,6 +607,24 @@ Atto di ingiunzione alla restituzione del finanziamento e/o contributo concesso 
     <td colspan="4">Tutte le comunicazione associate ad un pagamento (es: accertamenti, solleciti etc...) relative al recupero dei Bolli non pagati degli anni precedenti che l&#39;Ente deve incassare dal cittadino/impresa.</td>
 </tr>
 <tr>
+    <td rowspan="2"><strong>020301P</strong></td>
+    <td>02 - Regioni ed Enti Regionali</td>
+    <td>03 - Violazioni Norme Sismiche</td>
+    <td>Notifiche Riscossione Sanzioni con pagamento</td>
+</tr>
+<tr>
+    <td colspan="4">Tutte le tipologie di comunicazione associate al pagamento della sanzione</td>
+</tr>
+<tr>
+    <td rowspan="2"><strong>020302N</strong></td>
+    <td>02 - Regioni ed Enti Regionali</td>
+    <td>03 - Violazioni Norme Sismiche</td>
+    <td>Notifiche per Notizie di Reato</td>
+</tr>
+<tr>
+    <td colspan="4">Tutte le tipologie di comunicazioni che non prevedono un pagamento correlato</td>
+</tr>
+<tr>
     <td rowspan="2"><strong>020401P</strong></td>
     <td>02 - Regioni ed Enti Regionali</td>
     <td>04 - Esenzioni Bolli Auto</td>
@@ -605,6 +650,42 @@ Atto di ingiunzione alla restituzione del finanziamento e/o contributo concesso 
 </tr>
 <tr>
     <td colspan="4">Tutte le comunicazioni che riguardano il contributo da versare in relazione alla sospensione del bollo auto per rivendita</td>
+</tr>
+<tr>
+    <td rowspan="2"><strong>020501P</strong></td>
+    <td>02 - Regioni ed Enti Regionali</td>
+    <td>05 - Demanio Idrico</td>
+    <td>Notifiche Riscossione con pagamento</td>
+</tr>
+<tr>
+    <td colspan="4">Tutte le tipologie di comunicazioni associate al pagamento del Canone di Concessione e/odell’Indennizzo, del Deposito cauzionale, e/o dell’imposta regionale del 10%</td>
+</tr>
+<tr>
+    <td rowspan="2"><strong>020502N</strong></td>
+    <td>02 - Regioni ed Enti Regionali</td>
+    <td>05 - Demanio Idrico</td>
+    <td>Notifiche per Autorizzazioni/Concessioni – Nulla Osta Demaniali</td>
+</tr>
+<tr>
+    <td colspan="4">Tutte le tipologie di comunicazioni che non prevedono un pagamento correlato</td>
+</tr>
+<tr>
+    <td rowspan="2"><strong>020601P</strong></td>
+    <td>02 - Regioni ed Enti Regionali</td>
+    <td>06 - Accesso agli Atti</td>
+    <td>Comunicazioni relative a processi amministrativi di accesso agli atti</td>
+</tr>
+<tr>
+    <td colspan="4">Tutte le tipologie di comunicazioni associate ad un pagamento rispetto alla erogazione del serviziodi accesso agli atti dell&#39;Ente.</td>
+</tr>
+<tr>
+    <td rowspan="2"><strong>020602N</strong></td>
+    <td>02 - Regioni ed Enti Regionali</td>
+    <td>06 - Accesso agli Atti</td>
+    <td>Comunicazioni relative a processi amministrativi di accesso agli atti</td>
+</tr>
+<tr>
+    <td colspan="4">Notifiche di atti relativi a procedimenti relativi alla richiesta di accesso agli atti dell&#39;Ente (conferma,diniego, rifiuto, etc...)</td>
 </tr>
 <tr>
     <td rowspan="2"><strong>030101P</strong></td>
@@ -728,6 +809,15 @@ Atto di ingiunzione alla restituzione del finanziamento e/o contributo concesso 
     <td>04 - Ministeri</td>
     <td>03 - Arma dei Carabinieri</td>
     <td>Comunicazioni relative alle deleghe di pagamento in favore delle APCSM</td>
+</tr>
+<tr>
+    <td colspan="4">Tutte le tipologie di comunicazioni</td>
+</tr>
+<tr>
+    <td rowspan="2"><strong>040303N</strong></td>
+    <td>04 - Ministeri</td>
+    <td>03 - Arma dei Carabinieri</td>
+    <td>Comunicazioni relative al settore credito e procedure esecutive</td>
 </tr>
 <tr>
     <td colspan="4">Tutte le tipologie di comunicazioni</td>
