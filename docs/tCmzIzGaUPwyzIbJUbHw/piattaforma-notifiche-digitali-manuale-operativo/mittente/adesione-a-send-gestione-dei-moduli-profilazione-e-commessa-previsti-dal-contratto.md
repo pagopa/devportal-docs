@@ -33,6 +33,8 @@ Si precisa che, le informazioni riportate nel Modulo di Profilazione:
 * rilevano per l’esercizio del diritto, da parte della Società, di sospendere l’esecutività dell’Accordo di Adesione (si veda l’art. 2 dell’Accordo di Adesione);
 * non rilevano per il servizio di gestione automatica dei picchi di recapito su PN.&#x20;
 
+##
+
 ## Modulo Commessa (nuova modalità di trasmissione)
 
 #### Compilazione
@@ -44,9 +46,11 @@ All’interno della Commessa, l’Aderente dovrà dichiarare i seguenti dati:
 1. il n. complessivo delle notifiche da processare nel mese di riferimento, con distinzione:
 
 * di quelle da processare in via digitale e in via analogica;
-* di quelle da processare sul territorio internazionale e nazionale. Per le notifiche da processare sul territorio nazionale l’Aderente può, a propria discrezione, fornire anche il dettaglio delle regioni. L’assenza di questa specificazione determina:
-  * &#x20;i) nel caso di Aderenti a carattere **locale o regionale**, l’attribuzione della Commessa sul territorio        della regione di appartenenza dell’Aderente;
-  * ii) nel caso di Aderenti a carattere **nazionale**, la distribuzione della Commessa su base regionale in base alla popolazione residente secondo la ripartizione demografica Istat.
+*   di quelle da processare sul territorio internazionale e nazionale. Per le notifiche da processare sul territorio nazionale l’Aderente può, a propria discrezione, fornire anche il dettaglio delle regioni. L’assenza di questa specificazione determina:
+
+    &#x20;i) nel caso di Aderenti a carattere **locale o regionale**, l’attribuzione della Commessa sul territorio        della regione di appartenenza dell’Aderente;
+
+    ii) nel caso di Aderenti a carattere **nazionale**, la distribuzione della Commessa su base regionale in base alla popolazione residente secondo la ripartizione demografica Istat.
 
 2. per le notifiche da processare nel mese di riferimento in via analogica:&#x20;
 
@@ -61,13 +65,13 @@ Ad es.: con riferimento alle **notifiche da processare nel mese di maggio 2026**
 
 
 
-Se l'Aderente **non** carica la Commessa **entro il giorno 15 del mese X-4**, l’Aderente - fatto salvo quanto previsto nell’Allegato 4 dell’accordo di adesione c.d. Ciclo PN (cfr. punto 4) - può comunque depositare notifiche relative alla mensilità X per cui la Commessa non è stata caricata: tuttavia, per quella specifica mensilità, le relative notifiche analogiche verranno processate **in coda** rispetto alle altre notifiche.&#x20;
+Se l'Aderente non carica la Commessa entro il giorno 15 del mese X-4, l’Aderente - fatto salvo quanto previsto nell’Allegato 4 dell’accordo di adesione c.d. Ciclo PN (cfr. punto 4) - può comunque depositare notifiche relative alla mensilità X per cui la Commessa non è stata caricata: tuttavia, per quella specifica mensilità, le relative notifiche analogiche verranno processate in coda rispetto alle altre notifiche.&#x20;
 
 Ad es. se entro il 15 gennaio 2026 l’Aderente non deposita la Commessa relativa al mese di maggio 2026, potrà comunque depositare notifiche a maggio 2026 - fatto salvo quanto previsto al punto 4 del Documento 4 - Ciclo PN - ma le notifiche analogiche depositate a maggio 2026 verranno gestite in coda rispetto alle altre notifiche.
 
 
 
-**È facoltà** dell’Ente inviare **più Commesse** aventi ad oggetto mesi distinti in un unico momento, pari al n. massimo di 12 mesi. Tuttavia, se trasmesse più Commesse, queste potranno essere aggiornate nel rispetto dei termini sopra indicati.&#x20;
+È facoltà dell’Ente inviare più Commesse aventi ad oggetto mesi distinti in un unico momento, pari al n. massimo di 12 mesi. Tuttavia, se trasmesse più Commesse, queste potranno essere aggiornate nel rispetto dei termini sopra indicati.&#x20;
 
 Ad es.: le Commesse trasmesse il 1° febbraio 2026, relative ai mesi di giugno 2026 e luglio 2026, potranno essere aggiornate entro e non oltre, rispettivamente, il 15 febbraio 2026 e il 15 marzo 2026.
 
@@ -78,10 +82,27 @@ Si precisa che le informazioni riportate nelle Commesse saranno utilizzate:
 1. ai fini dell’anticipazione da erogare in favore della Piattaforma e dell’emissione della relativa fattura;&#x20;
 2. al fine di calcolare la priorità di gestione delle notifiche depositate dall’Aderente rispetto all’effettiva capacità di recapito garantita, per il servizio di gestione automatica dei picchi di recapito su PN.
 
-#### Periodo transitorio
+####
 
-A partire dal mese di gennaio 2026 e fino al mese di marzo 2026, l’Aderente dovrà procedere alla compilazione e trasmissione delle seguenti Commesse:
+#### Periodo transitorio per i soggetti già aderenti a SEND al 27/10/2025
 
-1. entro il 15 gennaio 2026 dovrà caricare sia la Commessa per il mese di febbraio 2026 sia, almeno, la Commessa per il mese maggio 2026;
-2. entro il 15 febbraio 2026 dovrà caricare sia la Commessa per il mese di marzo 2026 sia, almeno, la Commessa per il mese giugno  2026;
-3. entro il 15 marzo 2026 dovrà caricare sia la Commessa per il mese di aprile 2026 sia, almeno, la Commessa per il mese luglio 2026.
+A partire dal mese di novembre 2025 e fino al mese di gennaio 2026, l’Aderente dovrà procedere alla compilazione e trasmissione delle seguenti Commesse:
+
+1. entro il 15 novembre 2025 dovrà caricare la Commessa per il mese di dicembre 2025. E’ consigliato l’inserimento anche della Commessa per il mese marzo 2026, con facoltà di modificare tale ultima Commessa entro il 15 febbraio;
+2. entro il 15 dicembre 2025 dovrà caricare la Commessa per il mese di gennaio 2026. E’ consigliato l’inserimento anche della Commessa per il mese aprile 2026, con facoltà di modificare tale ultima Commessa entro il 15 marzo;&#x20;
+3. entro il 15 gennaio 2026 dovrà caricare sia la Commessa per il mese di febbraio 2026, sia la Commessa per il mese maggio 2026. Tali Commesse non saranno più modificabili oltre il 15 gennaio.
+4. entro il 15 febbraio 2026 dovrà caricare sia la Commessa per il mese di marzo 2026 (ove non ancora caricata in precedenza), che la Commessa per giugno 2026. Tali Commesse non saranno più modificabili oltre il 15 febbraio 2026.
+5. entro il 15 marzo 2026 dovrà caricare sia la Commessa per il mese di aprile 2026 (ove non ancora caricata in precedenza), sia la Commessa per luglio 2026. Tali Commesse non saranno più modificabili oltre il 15 marzo 2026.
+
+
+
+#### Periodo Transitorio per i soggetti Aderenti la cui adesione è successiva al 27/10/2025&#x20;
+
+Entro il 15 del mese X-4 l’Aderente dovrà caricare la Commessa per il mese X. **Solo in occasione dell’inserimento della prima Commessa, l’Aderente dovrà contestualmente caricare anche le Commesse per i mesi X-1, X-2 e X-3,** senza possibilità di aggiornamento di tali Commesse successivamente a tale data.&#x20;
+
+Ad es: se un Ente aderisce a  SEND il 31 dicembre 2025, l’Aderente deve  entro il 15 gennaio 2026, solo con riferimento alla prima Commessa caricata sulla piattaforma:
+
+1. nel rispetto della regola generale –> depositare la Commessa relativa a maggio 2026 (X-4)
+2. eccezionalmente, solo per la prima Commessa → depositare anche le Commesse relative a febbraio 2026 (X-1), marzo 2026 (X-2) e aprile 2026 (X-3).
+
+\
