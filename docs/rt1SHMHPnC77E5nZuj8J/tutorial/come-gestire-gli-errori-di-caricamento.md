@@ -5,7 +5,7 @@ argomenti_correlati:
 funzione: tutorial
 livello: intermedio
 prodotto:
-  nome: PARI - Bonus Elettrodomestici
+  nome: PARI - Bonus Elettrodomestici - Manuale per il Produttore
   versione: v1.0.0
 schema:
   '@context': https://schema.org
@@ -22,7 +22,7 @@ schema:
   - validazione dati
   - CSV
   - bonus elettrodomestici
-  name: Come gestire gli errori di caricamento dei prodotti
+  name: Come gestire gli errori di caricamento
   step:
   - '@type': HowToStep
     name: Analizzare il file di scarto
@@ -32,20 +32,21 @@ schema:
   - '@type': HowToStep
     name: Interpretare i messaggi di errore
     text: Leggere il messaggio nella colonna 'Errori di validazione' per identificare
-      il problema specifico. Per una lista completa degli errori, consultare la documentazione
-      dei Riferimenti Tecnici.
+      il problema specifico. Per una lista completa degli errori, consultare la sezione
+      Elenco dei codici di errore nei Riferimenti Tecnici.
   - '@type': HowToStep
     itemListElement:
     - '@type': HowToDirection
       text: Correggere le informazioni errate direttamente nelle celle corrispondenti
         del file di scarto.
     - '@type': HowToDirection
-      text: Eliminare l'intera colonna 'Errori di validazione' dal file.
+      text: Eliminare l'intera colonna 'Messaggio errore' dal file.
     - '@type': HowToDirection
-      text: Salvare il file modificato. Ora contiene solo i prodotti corretti ed è
-        pronto per essere ricaricato.
+      text: Salvare il file così modificato. Il file ora contiene solo i prodotti
+        precedentemente scartati, ma con i dati corretti, ed è pronto per essere ricaricato.
     - '@type': HowToDirection
-      text: Tornare alla sezione 'Caricamento lotti' e ricaricare il file appena corretto.
+      text: Ricaricare il file corretto tornando alla sezione 'Caricamento lotti'
+        e ripetendo la procedura di caricamento utilizzando il nuovo file appena salvato.
     name: Correggere i dati e preparare un nuovo file
   tool:
   - '@type': HowToTool

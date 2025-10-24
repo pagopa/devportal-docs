@@ -1,3 +1,50 @@
+---
+argomenti_correlati:
+- /per-iniziare/il-ruolo-del-produttore.md
+- /tutorial/come-caricare-un-elenco-di-prodotti.md
+- /riferimenti-tecnici/specifiche-del-file-csv.md
+- /casi-duso/gestire-un-caricamento-con-errori-parziali.md
+funzione: guida-tecnica
+livello: principiante
+prodotto:
+  nome: PARI - Bonus Elettrodomestici - Manuale per il Produttore
+  versione: v1.0.0
+schema:
+  '@context': https://schema.org
+  '@type': TechArticle
+  about:
+    '@type': Thing
+    description: Iniziativa per l'incentivo all'acquisto di elettrodomestici a basso
+      consumo energetico.
+    name: Bonus Elettrodomestici
+  author:
+    '@type': Organization
+    name: PagoPA S.p.A.
+  description: Indice dei contenuti del manuale tecnico per i produttori che aderiscono
+    all'iniziativa Bonus Elettrodomestici. Include guide per iniziare, tutorial, riferimenti
+    tecnici e casi d'uso per la gestione del catalogo prodotti.
+  keywords:
+  - caricamento prodotti
+  - bonus elettrodomestici
+  - catalogo
+  - CSV
+  - produttore
+  name: PARI - Bonus Elettrodomestici - Manuale per il Produttore
+  proficiencyLevel: principiante
+  version: v1.0.0
+status: pubblicato
+tecnologia:
+- CSV
+utente:
+  ruolo: produttore
+  tag:
+  - caricamento prodotti
+  - bonus elettrodomestici
+  - catalogo
+  - CSV
+  tipo_ente: partner_tecnologico
+---
+
 # Table of contents
 
 ## Per iniziare

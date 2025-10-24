@@ -1,8 +1,65 @@
 ---
-description: >-
-  Questo tutorial spiega come caricare un file in formato CSV contenente un
-  lotto di prodotti da sottoporre a validazione per l'inserimento nell'Elenco
-  informatico degli elettrodomestici.
+argomenti_correlati:
+- /riferimenti-tecnici/specifiche-del-file-csv
+- /tutorial/come-consultare-lo-storico-dei-caricamenti
+- /tutorial/come-gestire-gli-errori-di-caricamento
+description: Questo tutorial spiega come caricare un file in formato CSV contenente
+  un lotto di prodotti da sottoporre a validazione per l'inserimento nell'Elenco informatico
+  degli elettrodomestici.
+funzione: tutorial
+livello: principiante
+prodotto:
+  nome: PARI - Bonus Elettrodomestici - Manuale per il Produttore
+  versione: v1.0.0
+schema:
+  '@context': https://schema.org
+  '@type': HowTo
+  author:
+    '@type': Organization
+    name: PagoPA S.p.A.
+  description: Questo tutorial spiega come caricare un file in formato CSV contenente
+    un lotto di prodotti da sottoporre a validazione per l'inserimento nell'Elenco
+    informatico degli elettrodomestici.
+  name: Come caricare un elenco di prodotti
+  step:
+  - '@type': HowToStep
+    image: ../.gitbook/assets/image (4).png
+    name: Accedere alla sezione di caricamento
+    text: Dalla pagina 'Panoramica', selezionare la voce 'Carica .csv' nella sezione
+      'Prodotti'.
+  - '@type': HowToStep
+    image: ../.gitbook/assets/image (5).png
+    name: Selezionare la tipologia di prodotti
+    text: Selezionare la categoria di prodotto corretta. I controlli EPREL verranno
+      eseguiti su tutte le categorie ad eccezione dei 'Piani Cottura'.
+  - '@type': HowToStep
+    name: Selezionare e caricare il file
+    text: Fare clic su 'Seleziona dal tuo computer' per scegliere il file .csv corrispondente.
+      Il nome del file selezionato apparirà a schermo.
+  - '@type': HowToStep
+    name: Avviare il processo
+    text: Fare clic sul pulsante 'Carica' per inviare il file. Un messaggio di conferma
+      notificherà l'avvenuta presa in carico del file.
+  - '@type': HowToStep
+    name: Monitorare l'elaborazione e gestire gli esiti
+    text: Poiché i controlli EPREL sono asincroni, monitorare lo stato di avanzamento
+      nella sezione 'Storico Caricamenti'. Al termine dell'elaborazione, si riceverà
+      una comunicazione con l'esito.
+  supply:
+  - '@type': HowToSupply
+    name: File CSV conforme alle specifiche del prodotto.
+status: pubblicato
+tecnologia:
+- CSV
+utente:
+  ruolo: produttore
+  tag:
+  - caricamento
+  - prodotti
+  - CSV
+  - EPREL
+  - elenco
+  tipo_ente: partner_tecnologico
 ---
 
 # Come caricare un elenco di prodotti

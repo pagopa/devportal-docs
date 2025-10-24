@@ -6,7 +6,7 @@ argomenti_correlati:
 funzione: casi-duso
 livello: intermedio
 prodotto:
-  nome: PARI - Bonus Elettrodomestici
+  nome: PARI - Bonus Elettrodomestici - Manuale per il Produttore
   versione: v1.0.0
 schema:
   '@context': https://schema.org
@@ -26,7 +26,7 @@ schema:
   - prodotti scartati
   name: Gestire un caricamento con errori parziali
   result:
-    '@type': Thing
+  - '@type': Thing
     description: Tutti i prodotti del lotto iniziale sono caricati correttamente sulla
       piattaforma nello stato 'Da Esaminare', pronti per la validazione da parte di
       Invitalia S.p.A.
@@ -34,9 +34,9 @@ schema:
   step:
   - '@type': HowToStep
     name: 'Step 1: Caricamento del lotto iniziale'
-    text: Il Produttore carica il file CSV iniziale (lotto_prodotti_q4.csv) contenente
-      sia prodotti validi che con errori, seguendo la procedura del tutorial 'Come
-      caricare un elenco di prodotti'.
+    text: Il Produttore carica il file CSV iniziale contenente sia prodotti validi
+      che con errori, seguendo la procedura del tutorial 'Come caricare un elenco
+      di prodotti'.
   - '@type': HowToStep
     name: 'Step 2: Verifica dell''esito del caricamento'
     text: Il Produttore accede alla sezione 'Storico Caricamenti', trova l'esito 'Parziale'
@@ -44,13 +44,12 @@ schema:
   - '@type': HowToStep
     name: 'Step 3: Analisi e correzione degli errori'
     text: Il Produttore apre il file di scarto, analizza le motivazioni di errore
-      (es. EPREL non valido, GTIN duplicato), corregge i dati, rimuove le righe non
-      recuperabili e la colonna degli errori, e salva un nuovo file CSV (correzione_lotto_q4.csv)
-      con solo i prodotti corretti.
+      (es. EPREL non valido, GTIN duplicato), corregge i dati e salva un nuovo file
+      CSV con solo i prodotti corretti.
   - '@type': HowToStep
     name: 'Step 4: Ricaricamento dei prodotti corretti'
     text: Il Produttore torna alla sezione 'Caricamento lotti' e carica il nuovo file
-      CSV corretto (correzione_lotto_q4.csv).
+      CSV corretto.
   - '@type': HowToStep
     name: 'Step 5: Verifica finale'
     text: Il Produttore controlla nuovamente lo 'Storico Caricamenti' e conferma che
@@ -71,6 +70,7 @@ utente:
   - errori
   - correzione
   - csv
+  - caricamento parziale
   tipo_ente: partner_tecnologico
 ---
 

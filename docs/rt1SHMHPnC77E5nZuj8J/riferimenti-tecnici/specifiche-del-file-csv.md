@@ -4,7 +4,7 @@ argomenti_correlati:
 funzione: guida-tecnica
 livello: intermedio
 prodotto:
-  nome: PARI - Bonus Elettrodomestici
+  nome: PARI - Bonus Elettrodomestici - Manuale per il Produttore
   versione: v1.0.0
 schema:
   '@context': https://schema.org
@@ -44,6 +44,7 @@ utente:
   - caricamento massivo
   - prodotti
   - EPREL
+  - GTIN
   tipo_ente: partner_tecnologico
 ---
 

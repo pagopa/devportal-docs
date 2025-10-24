@@ -3,7 +3,7 @@ argomenti_correlati: []
 funzione: introduzione
 livello: principiante
 prodotto:
-  nome: PARI - Bonus Elettrodomestici
+  nome: PARI - Bonus Elettrodomestici - Manuale per il Produttore
   versione: v1.0.0
 schema:
   '@context': https://schema.org
@@ -15,28 +15,32 @@ schema:
     '@type': Organization
     name: PagoPA S.p.A.
   datePublished: '2024-10-26'
-  description: >-
-    Descrive il contributo per l'acquisto di elettrodomestici ad alta efficienza
+  description: Descrive il contributo per l'acquisto di elettrodomestici ad alta efficienza
     energetica, previsto per il 2025, e le modalità per richiederlo.
+  isPartOf:
+    '@type': CreativeWork
+    name: PARI - Bonus Elettrodomestici - Manuale per il Produttore
+    version: v1.0.0
   keywords:
-    - bonus
-    - elettrodomestici
-    - sconto
-    - ISEE
-    - incentivi
-    - sostenibilità
+  - bonus
+  - elettrodomestici
+  - sconto
+  - ISEE
+  - incentivi
+  - sostenibilità
   name: Cos'è il Bonus Elettrodomestici
   proficiencyLevel: principiante
 status: pubblicato
 tecnologia: []
 utente:
-  ruolo: fruitore
+  ruolo: erogatore
   tag:
-    - bonus
-    - elettrodomestici
-    - sconto
-    - ISEE
-    - incentivi
+  - bonus
+  - elettrodomestici
+  - sconto
+  - ISEE
+  - incentivi
+  - sostenibilità
   tipo_ente: partner_tecnologico
 ---
 

@@ -1,8 +1,50 @@
 ---
-description: >-
-  Questo tutorial descrive come accedere alla sezione "Storico Caricamenti" per
-  monitorare lo stato di elaborazione dei file CSV inviati e come scaricare i
+argomenti_correlati:
+- /manuali/pari/come-caricare-un-elenco-di-prodotti
+- /manuali/pari/riferimenti-tecnici/elenco-dei-codici-di-errore
+- /manuali/pari/come-gestire-gli-errori-di-caricamento
+description: Questo tutorial descrive come accedere alla sezione "Storico Caricamenti"
+  per monitorare lo stato di elaborazione dei file CSV inviati e come scaricare i
   report in caso di errori.
+funzione: tutorial
+livello: principiante
+prodotto:
+  nome: PARI - Bonus Elettrodomestici - Manuale per il Produttore
+  versione: v1.0.0
+schema:
+  '@context': https://schema.org
+  '@type': TechArticle
+  author:
+    '@type': Organization
+    name: PagoPA S.p.A.
+  dependencies: Aver completato la procedura 'Come caricare un elenco di prodotti'.
+  description: Questo tutorial descrive come accedere alla sezione 'Storico Caricamenti'
+    per monitorare lo stato di elaborazione dei file CSV inviati e come scaricare
+    i report in caso di errori.
+  isPartOf:
+    '@type': CreativeWork
+    name: PARI - Bonus Elettrodomestici - Manuale per il Produttore
+    version: v1.0.0
+  keywords:
+  - storico caricamenti
+  - file CSV
+  - report
+  - monitoraggio
+  - file di scarto
+  name: Come consultare lo storico dei caricamenti
+  proficiencyLevel: Beginner
+status: pubblicato
+tecnologia:
+- CSV
+utente:
+  ruolo: produttore
+  tag:
+  - storico caricamenti
+  - file CSV
+  - report
+  - errori
+  - file di scarto
+  tipo_ente: partner_tecnologico
 ---
 
 # Come consultare lo storico dei caricamenti
