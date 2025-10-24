@@ -4,7 +4,7 @@ argomenti_correlati:
 funzione: guida-tecnica
 livello: intermedio
 prodotto:
-  nome: PARI - Bonus Elettrodomestici
+  nome: PARI - Bonus Elettrodomestici - Manuale per il Produttore
   versione: v1.0.0
 schema:
   '@context': https://schema.org
@@ -13,7 +13,8 @@ schema:
     '@type': Organization
     name: PagoPA S.p.A.
   description: Elenco completo degli errori di validazione restituiti durante il caricamento
-    dei file per il prodotto PARI, con le relative cause e azioni correttive.
+    dei file CSV per il prodotto PARI - Bonus Elettrodomestici, con le relative cause
+    e azioni correttive per i Produttori.
   mainEntity:
   - '@type': Question
     acceptedAnswer:
@@ -86,10 +87,11 @@ schema:
         inviare aggiornamenti.
     name: Il prodotto è sottoposto alle verifiche previste dal DM del 03/09/2025 e
       pertanto non è possibile variare le informazioni ad esso collegate
-  name: Elenco dei codici di errore per il caricamento prodotti
+  name: Elenco dei codici di errore per il caricamento prodotti PARI
 status: pubblicato
 tecnologia:
 - CSV
+- EPREL
 utente:
   ruolo: produttore
   tag:
@@ -97,6 +99,8 @@ utente:
   - validazione
   - EPREL
   - caricamento file
+  - CSV
+  - GTIN
   tipo_ente: partner_tecnologico
 ---
 

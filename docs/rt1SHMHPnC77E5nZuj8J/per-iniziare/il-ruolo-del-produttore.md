@@ -3,7 +3,7 @@ argomenti_correlati: []
 funzione: introduzione
 livello: principiante
 prodotto:
-  nome: PARI - Bonus Elettrodomestici
+  nome: PARI - Bonus Elettrodomestici - Manuale per il Produttore
   versione: v1.0.0
 schema:
   '@context': https://schema.org
@@ -31,6 +31,8 @@ utente:
   - Produttore
   - Elettrodomestici
   - PARI
+  - Bonus Elettrodomestici
+  - CSV
   tipo_ente: partner_tecnologico
 ---
 

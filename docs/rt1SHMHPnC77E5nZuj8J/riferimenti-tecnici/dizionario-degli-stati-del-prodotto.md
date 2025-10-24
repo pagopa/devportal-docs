@@ -3,7 +3,7 @@ argomenti_correlati: []
 funzione: glossario
 livello: principiante
 prodotto:
-  nome: PARI - Bonus Elettrodomestici
+  nome: PARI - Bonus Elettrodomestici - Manuale per il Produttore
   versione: v1.0.0
 schema:
   '@context': https://schema.org
@@ -30,7 +30,7 @@ schema:
       ritenuto idoneo per il bonus.
     name: Escluso
     termCode: Escluso
-  name: Dizionario degli stati del prodotto PARI
+  name: Dizionario degli stati del prodotto
 status: pubblicato
 tecnologia: []
 utente:

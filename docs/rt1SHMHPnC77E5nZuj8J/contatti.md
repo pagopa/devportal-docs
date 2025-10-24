@@ -3,7 +3,7 @@ argomenti_correlati: []
 funzione: guida-tecnica
 livello: principiante
 prodotto:
-  nome: PARI - Bonus Elettrodomestici
+  nome: PARI - Bonus Elettrodomestici - Manuale per il Produttore
   versione: v1.0.0
 schema:
   '@context': https://schema.org
@@ -18,16 +18,17 @@ schema:
   - '@type': ContactPoint
     availableLanguage: Italian
     contactType: customer support
-    description: Modulo online disponibile sul Portale Invitalia.
+    description: Modulo online disponibile sul Portale Invitalia nella sezione Accedi
+      all’area riservata
     url: http://invitalia-areariservata-fe.npi.invitalia.it
   - '@type': ContactPoint
     areaServed: IT
     availableLanguage: Italian
     contactOption: TollFree
     contactType: customer support
-    description: Numero verde gratuito (in corso di attivazione).
+    description: Numero verde gratuito (in corso di attivazione)
     hoursAvailable:
-    - '@type': OpeningHoursSpecification
+      '@type': OpeningHoursSpecification
       closes: '20:00'
       dayOfWeek:
       - Monday

@@ -1,8 +1,54 @@
 ---
-description: >-
-  Questo tutorial spiega come modificare i dati di un prodotto già presente
-  sulla piattaforma. La procedura di aggiornamento si basa sul ricaricamento
-  delle informazioni tramite un nuovo file CSV.
+argomenti_correlati:
+- /come-caricare-un-elenco-di-prodotti
+description: Questo tutorial spiega come modificare i dati di un prodotto già presente
+  sulla piattaforma. La procedura di aggiornamento si basa sul ricaricamento delle
+  informazioni tramite un nuovo file CSV.
+funzione: tutorial
+livello: principiante
+prodotto:
+  nome: PARI - Bonus Elettrodomestici - Manuale per il Produttore
+  versione: v1.0.0
+schema:
+  '@context': https://schema.org
+  '@type': HowTo
+  author:
+    '@type': Organization
+    name: PagoPA S.p.A.
+  description: Questo tutorial spiega come modificare i dati di un prodotto già presente
+    sulla piattaforma. La procedura di aggiornamento si basa sul ricaricamento delle
+    informazioni tramite un nuovo file CSV.
+  keywords:
+  - aggiornamento prodotto
+  - CSV
+  - GTIN
+  - EAN
+  - sostituzione dati
+  name: Come aggiornare le informazioni di caricamento
+  proficiencyLevel: Beginner
+  step:
+  - '@type': HowToStep
+    name: Preparare il file CSV di aggiornamento
+    text: Creare un nuovo file .csv contenente una riga per ogni prodotto da aggiornare.
+      Ogni riga deve riportare lo stesso Codice GTIN/EAN del prodotto esistente e
+      i nuovi valori nelle altre colonne.
+  - '@type': HowToStep
+    name: Caricare il file
+    text: Una volta preparato il file, seguire la procedura standard di caricamento
+      descritta nel tutorial 'Come caricare un elenco di prodotti'.
+status: pubblicato
+tecnologia:
+- CSV
+utente:
+  ruolo: produttore
+  tag:
+  - aggiornamento
+  - prodotto
+  - CSV
+  - caricamento
+  - GTIN
+  - EAN
+  tipo_ente: partner_tecnologico
 ---
 
 # Come aggiornare le informazioni di caricamento
