@@ -1,6 +1,6 @@
 ---
 argomenti_correlati:
-- /docs/pari/come-caricare-prodotti
+  - /docs/pari/come-caricare-prodotti
 funzione: guida-tecnica
 livello: intermedio
 prodotto:
@@ -10,56 +10,57 @@ schema:
   '@context': https://schema.org
   '@type': TechArticle
   about:
-  - '@type': Thing
-    name: CSV (Comma-Separated Values)
-  - '@type': Thing
-    name: EPREL (European Product Registry for Energy Labelling)
-  - '@type': Thing
-    name: GTIN (Global Trade Item Number)
+    - '@type': Thing
+      name: CSV (Comma-Separated Values)
+    - '@type': Thing
+      name: EPREL (European Product Registry for Energy Labelling)
+    - '@type': Thing
+      name: GTIN (Global Trade Item Number)
   author:
     '@type': Organization
     name: PagoPA S.p.A.
   datePublished: '2023-11-15'
-  description: Specifica tecnica dettagliata del formato CSV richiesto per il caricamento
-    massivo dei prodotti sulla piattaforma, con le strutture dei campi per prodotti
-    registrati e non registrati su EPREL.
+  description: >-
+    Specifica tecnica dettagliata del formato CSV richiesto per il caricamento
+    massivo dei prodotti sulla piattaforma, con le strutture dei campi per
+    prodotti registrati e non registrati su EPREL.
   keywords:
-  - CSV
-  - EPREL
-  - GTIN
-  - formato file
-  - caricamento massivo
-  - specifiche tecniche
+    - CSV
+    - EPREL
+    - GTIN
+    - formato file
+    - caricamento massivo
+    - specifiche tecniche
   name: Specifiche del file CSV per il caricamento prodotti
   proficiencyLevel: intermedio
 status: pubblicato
 tecnologia:
-- CSV
-- UTF-8
+  - CSV
+  - UTF-8
 utente:
   ruolo: erogatore
   tag:
-  - CSV
-  - upload
-  - caricamento massivo
-  - prodotti
-  - EPREL
-  - GTIN
+    - CSV
+    - upload
+    - caricamento massivo
+    - prodotti
+    - EPREL
+    - GTIN
   tipo_ente: partner_tecnologico
 ---
 
 # Specifiche del file CSV
 
-Il caricamento massivo dei prodotti sulla piattaforma avviene tramite file in formato CSV (_Comma-Separated Values_). È fondamentale che la struttura del file rispetti rigorosamente le specifiche descritte in questo documento per garantire una corretta elaborazione.
+Il caricamento massivo dei prodotti sulla piattaforma avviene tramite file in formato CSV. È fondamentale che la struttura del file rispetti rigorosamente le specifiche descritte in questo documento per garantire una corretta elaborazione.
 
 Esistono **due formati distinti**, a seconda che i prodotti da caricare siano registrati o meno sulla banca dati europea EPREL.
 
 **Requisiti per entrambi i formati:**
 
-* il file deve utilizzare la codifica **UTF-8**;
-* il separatore di campo deve essere la **virgola** (,);
-* la **prima riga** del file deve sempre contenere l'intestazione con i nomi dei campi, come specificato di seguito;
-* un file CSV può contenere prodotti appartenenti ad **una** sola **categoria**;
+* il file deve utilizzare la codifica **UTF-8**
+* il separatore di campo deve essere il <mark style="background-color:yellow;">**punto e virgola**</mark> <mark style="background-color:yellow;"></mark><mark style="background-color:yellow;">(;)</mark>
+* la **prima riga** del file deve sempre contenere l'intestazione con i nomi dei campi, come specificato di seguito
+* un file CSV può contenere prodotti appartenenti ad **una** sola **categoria**
 * un file CSV può contenere al massimo **100** prodotti.
 
 ***
@@ -88,7 +89,7 @@ Questo formato deve essere utilizzato per i prodotti che, per normativa, non ric
 
 #### **Struttura dei campi**
 
-<table><thead><tr><th>Nome Campo</th><th width="142.109375">Obbligatorio</th><th>Formato</th><th>Descrizione</th></tr></thead><tbody><tr><td>Codice GTIN/EAN</td><td>Sì</td><td>Stringa alfanumerica, max 14 caratteri. Non sono ammessi caratteri speciali come &#x26;, "", ', &#x3C;, >, %, $, : , ;, = o i caratteri con accenti</td><td>Il codice univoco del prodotto (es. codice a barre). <strong>È la chiave primaria</strong> che identifica il prodotto sulla piattaforma.</td></tr><tr><td>Codice Prodotto</td><td>Sì</td><td>Stringa alfanumerica, max 100 caratteri. Non sono ammessi caratteri speciali come &#x26;, "", ', &#x3C;, >, %, $, : , ;, = o i caratteri con accenti</td><td>Il codice identificativo interno utilizzato dal Produttore.</td></tr><tr><td>Categoria</td><td>Sì</td><td><p>Stringa.</p><p>Valore fisso: <em>Piano cottura</em></p></td><td>La categoria merceologica del prodotto.</td></tr><tr><td>Paese di Produzione</td><td>Sì</td><td>Stringa, 2 caratteri</td><td>Il codice ISO 3166-1 alpha-2 del paese di produzione (es. "IT" per l'Italia).</td></tr><tr><td>Marca</td><td>Sì</td><td>Stringa  alfanumerica, max 100 caratteri</td><td>La marca commerciale del prodotto.</td></tr><tr><td>Modello</td><td>Sì</td><td>Stringa  alfanumerica, max 100 caratteri</td><td>Il modello specifico del prodotto.</td></tr></tbody></table>
+<table><thead><tr><th>Nome Campo</th><th width="142.109375">Obbligatorio</th><th>Formato</th><th>Descrizione</th></tr></thead><tbody><tr><td>Codice GTIN/EAN</td><td>Sì</td><td>Stringa alfanumerica, max 14 caratteri. Non sono ammessi caratteri speciali come &#x26;, "", ', &#x3C;, >, %, $, : , ;, = o i caratteri con accenti</td><td>Il codice univoco del prodotto (es. codice a barre). <strong>È la chiave primaria</strong> che identifica il prodotto sulla piattaforma.</td></tr><tr><td>Codice Prodotto</td><td>Sì</td><td>Stringa alfanumerica, max 100 caratteri. Non sono ammessi caratteri speciali come &#x26;, "", ', &#x3C;, >, %, $, : , ;, = o i caratteri con accenti</td><td>Il codice identificativo interno utilizzato dal Produttore.</td></tr><tr><td>Categoria</td><td>Sì</td><td><p>Stringa.</p><p>Valore fisso: <em>Piano cottura</em></p></td><td>La categoria merceologica del prodotto.</td></tr><tr><td>Paese di Produzione</td><td>Sì</td><td>Stringa, 2 caratteri</td><td>Il codice ISO 3166-1 alpha-2 del paese di produzione (es. "IT" per l'Italia).</td></tr><tr><td>Marca</td><td>Sì</td><td>Stringa alfanumerica, max 100 caratteri</td><td>La marca commerciale del prodotto.</td></tr><tr><td>Modello</td><td>Sì</td><td>Stringa alfanumerica, max 100 caratteri</td><td>Il modello specifico del prodotto.</td></tr></tbody></table>
 
 #### **Esempio di file**
 
