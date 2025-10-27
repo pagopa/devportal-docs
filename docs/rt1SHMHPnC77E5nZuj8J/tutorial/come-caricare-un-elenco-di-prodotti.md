@@ -1,11 +1,8 @@
 ---
 argomenti_correlati:
-- /riferimenti-tecnici/specifiche-del-file-csv
-- /tutorial/come-consultare-lo-storico-dei-caricamenti
-- /tutorial/come-gestire-gli-errori-di-caricamento
-description: Questo tutorial spiega come caricare un file in formato CSV contenente
-  un lotto di prodotti da sottoporre a validazione per l'inserimento nell'Elenco informatico
-  degli elettrodomestici.
+  - /riferimenti-tecnici/specifiche-del-file-csv
+  - /tutorial/come-consultare-lo-storico-dei-caricamenti
+  - /tutorial/come-gestire-gli-errori-di-caricamento
 funzione: tutorial
 livello: principiante
 prodotto:
@@ -17,49 +14,60 @@ schema:
   author:
     '@type': Organization
     name: PagoPA S.p.A.
-  description: Questo tutorial spiega come caricare un file in formato CSV contenente
-    un lotto di prodotti da sottoporre a validazione per l'inserimento nell'Elenco
+  description: >-
+    Questo tutorial spiega come caricare un file in formato CSV contenente un
+    lotto di prodotti da sottoporre a validazione per l'inserimento nell'Elenco
     informatico degli elettrodomestici.
   name: Come caricare un elenco di prodotti
   step:
-  - '@type': HowToStep
-    image: ../.gitbook/assets/image (4).png
-    name: Accedere alla sezione di caricamento
-    text: Dalla pagina 'Panoramica', selezionare la voce 'Carica .csv' nella sezione
-      'Prodotti'.
-  - '@type': HowToStep
-    image: ../.gitbook/assets/image (5).png
-    name: Selezionare la tipologia di prodotti
-    text: Selezionare la categoria di prodotto corretta. I controlli EPREL verranno
-      eseguiti su tutte le categorie ad eccezione dei 'Piani Cottura'.
-  - '@type': HowToStep
-    name: Selezionare e caricare il file
-    text: Fare clic su 'Seleziona dal tuo computer' per scegliere il file .csv corrispondente.
-      Il nome del file selezionato apparirà a schermo.
-  - '@type': HowToStep
-    name: Avviare il processo
-    text: Fare clic sul pulsante 'Carica' per inviare il file. Un messaggio di conferma
-      notificherà l'avvenuta presa in carico del file.
-  - '@type': HowToStep
-    name: Monitorare l'elaborazione e gestire gli esiti
-    text: Poiché i controlli EPREL sono asincroni, monitorare lo stato di avanzamento
-      nella sezione 'Storico Caricamenti'. Al termine dell'elaborazione, si riceverà
-      una comunicazione con l'esito.
+    - '@type': HowToStep
+      image: ../.gitbook/assets/image (4).png
+      name: Accedere alla sezione di caricamento
+      text: >-
+        Dalla pagina 'Panoramica', selezionare la voce 'Carica .csv' nella
+        sezione 'Prodotti'.
+    - '@type': HowToStep
+      image: ../.gitbook/assets/image (5).png
+      name: Selezionare la tipologia di prodotti
+      text: >-
+        Selezionare la categoria di prodotto corretta. I controlli EPREL
+        verranno eseguiti su tutte le categorie ad eccezione dei 'Piani
+        Cottura'.
+    - '@type': HowToStep
+      name: Selezionare e caricare il file
+      text: >-
+        Fare clic su 'Seleziona dal tuo computer' per scegliere il file .csv
+        corrispondente. Il nome del file selezionato apparirà a schermo.
+    - '@type': HowToStep
+      name: Avviare il processo
+      text: >-
+        Fare clic sul pulsante 'Carica' per inviare il file. Un messaggio di
+        conferma notificherà l'avvenuta presa in carico del file.
+    - '@type': HowToStep
+      name: Monitorare l'elaborazione e gestire gli esiti
+      text: >-
+        Poiché i controlli EPREL sono asincroni, monitorare lo stato di
+        avanzamento nella sezione 'Storico Caricamenti'. Al termine
+        dell'elaborazione, si riceverà una comunicazione con l'esito.
   supply:
-  - '@type': HowToSupply
-    name: File CSV conforme alle specifiche del prodotto.
+    - '@type': HowToSupply
+      name: File CSV conforme alle specifiche del prodotto.
 status: pubblicato
 tecnologia:
-- CSV
+  - CSV
 utente:
   ruolo: produttore
   tag:
-  - caricamento
-  - prodotti
-  - CSV
-  - EPREL
-  - elenco
+    - caricamento
+    - prodotti
+    - CSV
+    - EPREL
+    - elenco
   tipo_ente: partner_tecnologico
+description: >-
+  Questo tutorial spiega come caricare un file in formato CSV contenente un
+  lotto di prodotti da sottoporre a validazione per l'inserimento nell'Elenco
+  informatico degli elettrodomestici.
 ---
 
 # Come caricare un elenco di prodotti
@@ -70,17 +78,21 @@ Prima di procedere con il caricamento, è fondamentale che il file .csv segua sc
 
 Per i dettagli sulla compilazione, consultare la sezione [Specifiche del file CSV](../riferimenti-tecnici/specifiche-del-file-csv.md).
 
+{% hint style="warning" %}
+Attenzione: il separatore dei campi del CSV è il **punto e virgola** (**;**) e non la semplice virgol (,)
+{% endhint %}
+
 ## Procedura
 
 Per caricare un nuovo lotto di prodotti, seguire i seguenti passaggi:
 
-### **Step 1 - Accedere alla sezione di caricamento**&#x20;
+### **Step 1 - Accedere alla sezione di caricamento**
 
 Per caricare un nuovo lotto di prodotti, selezionare la voce **"Carica .csv"** nella sezione **"Prodotti"** dalla pagina **"Panoramica".**
 
 <figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
-### Step 2 - Selezionare la tipologia di prodotti&#x20;
+### Step 2 - Selezionare la tipologia di prodotti
 
 Dopo aver cliccato sul pulsante **Carica .csv**, i _Produttori_ vengono reindirizzati ad una maschera di caricamento dei prodotti che andranno a comporre l’_Elenco informatico degli elettrodomestici_.
 
@@ -93,11 +105,11 @@ Per quanto riguarda le categorie appena descritte è necessario fare un’ulteri
 
 <figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
-### **Step 3 - Selezionare e caricare il file**&#x20;
+### **Step 3 - Selezionare e caricare il file**
 
 Fare clic su **"Seleziona dal tuo computer"** per selezionare dal proprio computer il file .csv corrispondente alla tipologia scelta. Una volta selezionato, il nome del file apparirà a schermo.
 
-### **Step 4 - Avviare il processo**&#x20;
+### **Step 4 - Avviare il processo**
 
 Fare clic sul pulsante **"Carica"** per inviare il file al sistema. Un messaggio di conferma notificherà l'avvenuta presa in carico del file.
 
