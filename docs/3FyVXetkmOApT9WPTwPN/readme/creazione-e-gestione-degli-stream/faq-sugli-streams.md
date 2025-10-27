@@ -86,3 +86,72 @@ La Piattaforma espone anche delle attestazioni prodotte da sistemi esterni, qual
 ### Come sono ordinati gli eventi ottenuti dagli streams?
 
 Gli streams contengono eventi che sono ordinati in base all'**eventId;** tuttavia alcuni eventi potrebbero avere un timestamp non coerente con l'ordine degli **eventId.** Questa situazione si verifica nei casi in cui il timestamp è stato attribuito da un sistema esterno a Piattaforma Notifiche, come avviene negli eventi di _SEND\_DIGITAL\_PROGRESS_ che ricevono il timestamp dai PEC provider. &#x20;
+
+documenti per ogni destinatario, a seconda delle evidenze prodotte dai sistemi esterni.
+
+### Come sono ordinati gli eventi ottenuti dagli streams?
+
+Gli streams contengono eventi che sono ordinati in base all'**eventId;** tuttavia alcuni eventi potrebbero avere un timestamp non coerente con l'ordine degli **eventId.** Questa situazione si verifica nei casi in cui il timestamp è stato attribuito da un sistema esterno a Piattaforma Notifiche, come avviene negli eventi di _SEND\_DIGITAL\_PROGRESS_ che ricevono il timestamp dai PEC provider. &#x20;
+
+### Dove viene trasmesso lo IUN nella timeline?
+
+Lo IUN è presente nell’evento **REQUEST\_ACCEPTED** (stato **ACCEPTED**): vengono restituiti anche i campi **iun**, **paProtocolNumber**, **idempotenceToken** e **requestId**.
+
+{% code fullWidth="true" %}
+```json
+{
+        "eventId": "00000000000000000000000000000000004833",
+        "notificationRequestId": "<requestIdNotifica>",
+        "iun": "<iunNotifica>",
+        "newStatus": "ACCEPTED",
+        "element": {
+            "elementId": "REQUEST_ACCEPTED.IUN_PZRP-EYLE-QMGV-202510-Z-1",
+            "timestamp": "2025-10-27T08:39:42.248448278Z",
+            "ingestionTimestamp": "2025-10-27T08:39:42.248448278Z",
+            "eventTimestamp": "2025-10-27T08:39:42.248448278Z",
+            "notificationSentAt": "2025-10-27T08:36:03.646624033Z",
+            "legalFactsIds": [
+                {
+                    "key": "safestorage://PN_LEGAL_FACTS-ba01fd672a734ef4af54348f45f31d73.pdf",
+                    "category": "SENDER_ACK"
+                }
+            ],
+            "category": "REQUEST_ACCEPTED",
+            "details": {
+                "notificationRequestId": "<requestIdNotifica>",
+                "paProtocolNumber": "<paProtocolNumberNotifica>",
+                "idempotenceToken": "<idempotenceTokenNotifica>"
+            }
+        }
+    },
+```
+{% endcode %}
+
+Se la richiesta è rifiutata **REQUEST\_REFUSED** (stato **REFUSED**), lo IUN **non** è presente: sono restituiti **paProtocolNumber**, **idempotenceToken** e **requestId** per risalire alla notifica; in **details** è fornito il motivo del rifiuto.
+
+{% code fullWidth="true" %}
+```json
+{
+        "eventId": "00000000000000000000000000000000004832",
+        "notificationRequestId": "<requestIdNotifica>",
+        "newStatus": "REFUSED",
+        "element": {
+            "elementId": "REQUEST_REFUSED.IUN_QNWR-UWQE-MTDZ-202510-U-1",
+            "timestamp": "2025-10-22T10:35:44.231250437Z",
+            "ingestionTimestamp": "2025-10-22T10:35:44.231250437Z",
+            "eventTimestamp": "2025-10-22T10:35:44.231250437Z",
+            "notificationSentAt": "2025-10-22T10:35:12.286397362Z",
+            "category": "REQUEST_REFUSED",
+            "details": {
+                "notificationRequestId": "<requestIdNotifica>",
+                "paProtocolNumber": "<paProtocolNumberNotifica>",
+                "idempotenceToken": "<idempotenceTokenNotifica>"
+                "notificationCost": 100,
+                "refusalReasons": [
+                    {
+                        "errorCode": "PAYMENT_NOT_VALID",
+                        "detail": "Payment information is not valid - creditorTaxId=00890370372 noticeCode=300202000000291312"
+                    }
+```
+{% endcode %}
+
