@@ -1,11 +1,11 @@
 # Norme che regolano il prodotto
 
-Questa documentazione presuppone la conoscenza delle [Linee Guida sull’interoperabilità tecnica delle Pubbliche Amministrazioni](https://www.agid.gov.it/it) dell'Agenzia per l'Italia digitale ([AGID](https://www.agid.gov.it/sites/default/files/repository_files/linee_guida_interoperabilit_tecnica_pa.pdf)).
+Questa documentazione presuppone la conoscenza delle [Linee Guida sull’interoperabilità tecnica delle Pubbliche Amministrazioni](https://www.agid.gov.it/sites/default/files/repository_files/linee_guida_interoperabilit_tecnica_pa.pdf) dell'Agenzia per l'Italia digitale ([AGID](https://www.agid.gov.it/)).
 
 In particolare, costituiscono il quadro regolatorio di riferimento per il servizio di deposito e recupero segnali:
 
 * \[LG PDND] [Linee Guida sull’infrastruttura tecnologica della Piattaforma Digitale Nazionale Dati per l’interoperabilità dei sistemi informativi e delle basi di dati](https://www.agid.gov.it/sites/agid/files/2024-05/lg_infrastruttura_interoperabilita_pdnd.pdf)
-* \[LG PDND 4]  Linee Guida sull’infrastruttura tecnologica della Piattaforma Digitale Nazionale Dati per l’interoperabilità dei sistemi informativi e delle basi di dati - ALLEGATO 4: Processo di distribuzione dei segnali di variazione
+* \[LG PDND 4]  [Linee Guida sull’infrastruttura tecnologica della Piattaforma Digitale Nazionale Dati per l’interoperabilità dei sistemi informativi e delle basi di dati - ALLEGATO 4: Processo di distribuzione dei segnali di variazione](https://www.agid.gov.it/sites/agid/files/2025-06/Linee_guida_PDND_v2_allegato_4.pdf)
 
 Altri riferimenti utili:
 

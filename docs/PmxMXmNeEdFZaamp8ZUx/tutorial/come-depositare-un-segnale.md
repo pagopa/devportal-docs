@@ -64,7 +64,7 @@ Il produttore invia il segnale al servizio Deposito Segnali di Signal Hub:
 `}'`\
 
 
-`$ { "signalId": 1 }`
+`{ "signalId": 1 }`
 
 Dettaglio dei dati del Segnale:
 
@@ -103,7 +103,7 @@ A tale scopo il produttore invia il segnale al servizio Deposito Segnali di Sign
 `"signalType": "SEEDUPDATE"`\
 `}'`
 
-`$ { "signalId": 2 }`
+`{ "signalId": 2 }`
 
 Anche il segnale di aggiornamento delle informazioni crittografiche deve avere un `signalId` che rispetta l’ordinamento dei messaggi. Dal `signalId` successivo gli id pseudonimizzati nel `objectId` dovranno essere calcolati con la nuova combinazione hash + seed.
 

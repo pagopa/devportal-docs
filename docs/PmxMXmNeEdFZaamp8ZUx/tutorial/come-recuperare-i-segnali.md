@@ -36,9 +36,10 @@ Il fruitore legge i segnali invocando il servizio di recupero segnali:
 
 `$ curl --request GET \`\
 `--url https://api.signalhub.interop.pagopa.it/1.0/pull/signals/b1817321-0486-4c75-89e5-4ee297250418?size=5&signalId=0 \`\
-`--header 'Authorization: Bearer eyJ4eBMlOiDgdDtqe6P...'`\
-`$ {`\
-`"signals": [`\
+`--header 'Authorization: Bearer eyJ4eBMlOiDgdDtqe6P...'`
+
+\
+`{`` ``"signals": [`\
 `{`\
 `"signalId": 1,`\
 `"signalType": "UPDATE",`\
@@ -73,9 +74,17 @@ Il fruitore legge i segnali invocando il servizio di recupero segnali:
 `"objectId": "7b0b1ad9-6ac0-4670-86e0-eacadb3aa9d4",`\
 `"eserviceId": "b1817321-0486-4c75-89e5-4ee297250418",`\
 `"objectType": "domicilio"`\
-`},`\
+`}`\
 `],`\
-`"lastSignalId": 5`
+`"lastSignalId": 5`\
+\
+\
+\
+\
+\
+\
+\
+`}`
 
 Nella **richiesta** al servizio dovranno essere presenti le seguenti informazioni (fare riferimento al documento OpenAPI per i valori di default, min, max)
 
@@ -103,11 +112,7 @@ Richiesta n. 1
 Risposta n. 1\
 `Http Status 206`
 
-`$ {`\
-`"signals": [`\
-`...`\
-`],`\
-`"lastSignalId": 5`
+`{`` ``"signals": [``...``],`` ``"lastSignalId": 5 }`&#x20;
 
 Lo `Http Status 206` indica che esistono ancora dei segnali; quindi, il consumatore creerà una nuova richiesta impostando il query param `signalId` uguale al valore di `lastSignalId` presente nella risposta:
 
@@ -120,11 +125,7 @@ Richiesta n. 2
 Risposta n. 2\
 `Http Status 200`
 
-`$ {`\
-`"signals": [`\
-`...`\
-`],`\
-`"lastSignalId": 10`
+`{`` ``"signals": [``...``],`` ``"lastSignalId": 10 }`&#x20;
 
 Lo `Http Status 200` indica che, nello stato attuale, non ci sono più segnali da leggere: oltre il `"lastSignalId": 10` non esiste un `signalId` successivo.
 
@@ -137,9 +138,7 @@ In un’ottica di long polling verso il servizio, la nuova richiesta da effettua
 che otterrebbe questo risultato:\
 `Http Status 200`
 
-`$ {`\
-`"signals": [],`\
-`"lastSignalId": null`
+`{`` ``"signals": [],`` ``"lastSignalId": null }`&#x20;
 
 fino a che la risposta non cambierà (`Http Status 206`, `signals` e `lastSignalId` valorizzati) , cioè fino a quando non ci saranno nuovi segnali.
 
@@ -156,11 +155,7 @@ Richiesta n. 1
 Risposta n. 1\
 `Http Status 200`
 
-`$ {`\
-`"signals": [`\
-`...`\
-`],`\
-`"lastSignalId": 4`
+`{`` ``"signals": [``...``],`` ``"lastSignalId": 4 }`&#x20;
 
 Lo `Http Status 200` indica che, nello stato attuale, non ci sono più segnali da leggere: oltre il `"lastSignalId": 4` non esiste un `signalId` successivo.
 
@@ -172,9 +167,7 @@ In un’ottica di long polling verso il servizio, la nuova richiesta da effettua
 
 Otterrebbe questo risultato:
 
-`$ {`\
-`"signals": [],`\
-`"lastSignalId": null`
+`{`` ``"signals": [],`` ``"lastSignalId": null }`
 
 fino a che la risposta non cambierà (`signals` e `lastSignalId` valorizzati) , cioè fino a quando non ci saranno nuovi segnali.
 

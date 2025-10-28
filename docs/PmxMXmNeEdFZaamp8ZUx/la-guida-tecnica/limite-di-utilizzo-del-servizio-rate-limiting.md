@@ -6,10 +6,12 @@ Per garantire agli utenti affidabilità e disponibilità del servizio, è previs
 
 Le informazioni sul _rate limiting_ sono disponibili come intestazioni della risposta HTTP e sono applicate **per singolo aderente** (produttore o consumatore di segnali). Ad esempio, le seguenti intestazioni
 
-`x-rate-limit-interval: 1000`\
-`x-rate-limit-limit: 25`\
-`x-rate-limit-remaining: 24`\
-`x-rate-limit-reset: 1733419765156`
+```
+x-rate-limit-interval: 1000
+x-rate-limit-limit: 25
+x-rate-limit-remaining: 24
+x-rate-limit-reset: 1733419765156
+```
 
 significano che:
 
