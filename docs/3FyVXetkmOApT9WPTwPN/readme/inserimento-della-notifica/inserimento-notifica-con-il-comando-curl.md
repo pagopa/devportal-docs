@@ -53,7 +53,7 @@ curl --location 'https://<baseurlAmbiente>/delivery/attachments/preload' \
 **NOTA:** sostituire i seguenti:
 
 * **\<baseurlAmbiente>:** inserire la url dell'ambiente di riferimento, nel caso di UAT è il seguente: **https://api.uat.notifichedigitali.it**
-* **\<apiKey&>:** inserire la apiKey dell'Ente di riferimento, precedentemente generata su PND&#x20;
+* **\<apiKey>:** inserire la apiKey dell'Ente di riferimento, precedentemente generata su PND&#x20;
 * **\<PDNDVoucher>:** inserire inserire il Voucher generato su **PDND Interoperabilità,** assicurandosi che non sia scaduto
 * **\<shaDellaNotifica>:** è lo sha256 della Notifica che si ottiene come output al punto 1.1
 * **\<shaDelPagamento>:** è lo sha256 del Pagamento che si ottiene come output al punto 1.2
