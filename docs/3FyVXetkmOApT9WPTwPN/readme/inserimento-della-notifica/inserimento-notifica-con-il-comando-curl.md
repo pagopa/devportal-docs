@@ -12,13 +12,13 @@ description: >-
 
 Entrare nella cartella che che contiene i file Notifica.pdf e Pagamento.pdf e lanciare i seguenti comandi utilizzando un terminal ssh (ad es. git bash):
 
-* comando per generare lo sha256, codificato in base 64 per la Notifica:
+**Comando per generare lo sha256, codificato in base 64 per la Notifica:**
 
 ```bash
 cat Notifica.pdf | openssl dgst -binary -sha256 | openssl base64
 ```
 
-* comando per generare lo sha256, codificato in base 64 per il Pagamento:
+**Comando per generare lo sha256, codificato in base 64 per il Pagamento:**
 
 ```bash
 cat Pagamento.pdf | openssl dgst -binary -sha256 | openssl base64
@@ -27,7 +27,7 @@ cat Pagamento.pdf | openssl dgst -binary -sha256 | openssl base64
 L'output ottenuto per ogni file dovrà essere memorizzato per i futuri utilizzi\
 **NOTA:** i file Notifica.pdf e Pagamento.pdf dovranno essere sostituiti con i file corrispondenti ai pdf che si vuole caricare su Piattaforma Notifiche
 
-### &#x20;2) Eseguire l'operazione di pre-caricamento dei file
+### 2) Eseguire l'operazione di pre-caricamento dei file
 
 Lanciare il seguente comando:
 
@@ -52,12 +52,12 @@ curl --location 'https://<baseurlAmbiente>/delivery/attachments/preload' \
 
 **NOTA:** sostituire i seguenti:
 
-* **\<baseurlAmbiente>:** inserire la url dell'ambiente di riferimento, nel caso di UAT è il seguente: **https://api.uat.notifichedigitali.it**
-* **\<apiKey>:** inserire la apiKey dell'Ente di riferimento, precedentemente generata su PND&#x20;
-* **\<PDNDVoucher>:** inserire inserire il Voucher generato su **PDND Interoperabilità,** assicurandosi che non sia scaduto
-* **\<shaDellaNotifica>:** è lo sha256 della Notifica che si ottiene come output al punto 1.1
-* **\<shaDelPagamento>:** è lo sha256 del Pagamento che si ottiene come output al punto 1.2
-* il valori **\<preloadIdx1>** e **\<preloadIdx2>** sono a discrezione del chiamante e servono per associare un indice alle richieste presenti nell'array di questa request
+* **`<baseurlAmbiente>`:** inserire la url dell'ambiente di riferimento, nel caso di UAT è il seguente: **https://api.uat.notifichedigitali.it**
+* **`<apiKey>`:** inserire la apiKey dell'Ente di riferimento, precedentemente generata su PND
+* **`<PDNDVoucher>`:** inserire inserire il Voucher generato su **PDND Interoperabilità,** assicurandosi che non sia scaduto
+* **`<shaDellaNotifica>`:** è lo sha256 della Notifica che si ottiene come output al punto 1.1
+* **`<shaDelPagamento>`:** è lo sha256 del Pagamento che si ottiene come output al punto 1.2
+* il valori **`<preloadIdx1>`** e **`<preloadIdx2>`** sono a discrezione del chiamante e servono per associare un indice alle richieste presenti nell'array di questa request
 
 Nella response di questo servizio, si otterrà il seguente payload:
 
@@ -82,17 +82,17 @@ Nella response di questo servizio, si otterrà il seguente payload:
 
 **NOTA:** i valori ottenuti nella response dovranno essere memorizzati per i futuri utilizzi; nello specifico:
 
-* **\<preloadIdx1>** e **\<preloadIdx2>:** hanno il solo scopo di fare riferimento agli elementi mettendo in correlazione request/response
-* **\<secret1>** e **\<secret2>:** andranno utilizzati nella chiamata di upload dei documenti
-* **\<httpMethod1> e \<httpMethod2>:** corrispondono al http method da utilizzare nella chiamata di upload dei documenti
-* **\<url1>** e **\<url2>:** sono le url da utilizzare nella chiamata di upload dei documenti
-* **\<key2>** e **\<key2>:** sono le keys da utilizzare in fase di inserimento notifica, rispettivamente per i 2 file
+* **`<preloadIdx1>`** e **`<preloadIdx2>`:** hanno il solo scopo di fare riferimento agli elementi mettendo in correlazione request/response
+* **`<secret1>`** e **`<secret2>`:** andranno utilizzati nella chiamata di upload dei documenti
+* **`<httpMethod1>` e `<httpMethod2>`:** corrispondono al http method da utilizzare nella chiamata di upload dei documenti
+* **`<url1>`** e **`<url2>`:** sono le url da utilizzare nella chiamata di upload dei documenti
+* **`<key2>`** e **`<key2>`:** sono le keys da utilizzare in fase di inserimento notifica, rispettivamente per i 2 file
 
-### 3) Effettuare l'upload dei documenti&#x20;
+### 3) Effettuare l'upload dei documenti
 
 Effettuare l'operazione di upload verso il _safeStorage_ per entrambi i documenti di interesse effettuando le seguenti chiamate:
 
-* Upload del documento Notifica.pdf
+**Upload del documento Notifica.pdf**
 
 ```bash
 curl -X <httpMethod1> \
@@ -107,7 +107,7 @@ curl -X <httpMethod1> \
 E' importante lanciare la curl con il --verbose che permetterà di visualizzare nell'header della response di esito positivo il valore di x-amz-version-id: **\<versionIdNotifica>** utile per la prossima chiamata.\
 Assicurarsi di **NON** inserire in questa chiamata l'Autorization Header `"Authorization: Bearer <`PDNDVoucher`>`con il Vocuher.
 
-* Upload del documento Pagamento.pdf
+**Upload del documento Pagamento.pdf**
 
 ```bash
 curl -X <httpMethod2> \
@@ -119,8 +119,8 @@ curl -X <httpMethod2> \
 ```
 
 **NOTA:** nella chiamata fare attenzione a sostituire i campi parametrici con le informazioni ottenute agli altri punti. Da notare che il comando **--data-binary** è necessario per fare l'upload del documento e bisognerà inserire la **@** prima del path del file che si sta caricando.\
-E' importante lanciare la curl con il --verbose che permetterà di visualizzare nell'header della response di esito positivo il valore di x-amz-version-id: **\<versionIdPagamento>** utile per la prossima chiamata.\
-Assicurarsi di **NON** inserire in questa chiamata l'Autorization Header `"Authorization: Bearer <`PDNDVoucher`>`con il Vocuher.
+E' importante lanciare la curl con il --verbose che permetterà di visualizzare nell'header della response di esito positivo il valore di x-amz-version-id: **`<versionIdPagamento>`** utile per la prossima chiamata.\
+Assicurarsi di **NON** inserire in questa chiamata l'Autorization Header `"Authorization: Bearer <PDNDVoucher>"`con il Voucher.
 
 ### 4) Effettuare l'inserimento della notifica
 
@@ -137,20 +137,20 @@ curl --location 'https://<baseurlAmbiente>/delivery/v2.5/requests' \
 
 **NOTA:**
 
-* **\<baseurlAmbiente>:** inserire la url dell'ambiente di riferimento, nel caso di UAT è il seguente: **https://api.uat.notifichedigitali.it**
-* **\<apiKey>:** inserire la apiKey dell'Ente di riferimento, precedentemente generata su PND
-* **\<PDNDVoucher>**: inserire inserire il Voucher generato su **PDND Interoperabilità**, assicurandosi che non sia scaduto
-* **\<payloadDellaNotifica>:** corrisponde al json contenente tutti i dati della notifica; per inserire correttamente i riferimenti ai pdf caricati in precedenza, seguire le seguenti istruzioni:
+* **`<baseurlAmbiente>`:** inserire la url dell'ambiente di riferimento, nel caso di UAT è il seguente: **https://api.uat.notifichedigitali.it**
+* **`<apiKey>`:** inserire la apiKey dell'Ente di riferimento, precedentemente generata su PND
+* **`<PDNDVoucher>`**: inserire inserire il Voucher generato su **PDND Interoperabilità**, assicurandosi che non sia scaduto
+* **`<payloadDellaNotifica>`:** corrisponde al json contenente tutti i dati della notifica; per inserire correttamente i riferimenti ai pdf caricati in precedenza, seguire le seguenti istruzioni:
   * Valorizzare i seguenti riferimenti al file Notifica.pdf\
-    documents.digests.sha256:  **\<shaDellaNotifica>**\
+    documents.digests.sha256: **`<shaDellaNotifica>`**\
     documents.contentType: **"application/pdf"**\
-    documents.ref.key: **\<key1>**\
-    documents.ref.versionToken: **\<versionIdNotifica>**
+    documents.ref.key: **`<key1>`**\
+    documents.ref.versionToken: **`<versionIdNotifica>`**
   * Valorizzare i seguenti riferimenti al file Pagamento.pdf\
-    recipients.payment.pagoPaForm.digests.sha256: **\<shaDelPagamento>**\
+    recipients.payment.pagoPaForm.digests.sha256: **`<shaDelPagamento>`**\
     recipients.payment.pagoPaForm.contentType: **"application/pdf"**\
-    recipients.payment.pagoPaForm.ref.key: **\<key2>**\
-    recipients.payment.pagoPaForm.ref.versionToken: **\<versionIdPagamento>**
+    recipients.payment.pagoPaForm.ref.key: **`<key2>`**\
+    recipients.payment.pagoPaForm.ref.versionToken: **`<versionIdPagamento>`**
 
 Se la chiamata è andata a buon fine si otterrà una response con httpStatus: 202 ACCEPTED ed il seguente body:
 
@@ -163,5 +163,5 @@ Se la chiamata è andata a buon fine si otterrà una response con httpStatus: 20
 ```
 
 **NOTA:** nel body della response si otterranno i seguenti campi:\
-&#xNAN;**\<notificationRequestId>:** questo identificativo viene assegnato alla richiesta di notifica appena inserita e potrà essere utilizzato in seguito per verificare se sia stata accettata o meno dalla Piattaforma Notifiche.\
-**\<paProtocolNumber>** e **\<idempotenceToken>:** questi campi sono gli stessi che sono stati inseriti nella precedente richiesta di inserimento Notifica e potranno essere utilizzati, in modo alternativo al **\<notificationRequestId>** ed insieme tra loro, per conoscere lo stato di accettazione della notifica su Piattaforma Notifiche.
+&#xNAN;**`<notificationRequestId>`:** questo identificativo viene assegnato alla richiesta di notifica appena inserita e potrà essere utilizzato in seguito per verificare se sia stata accettata o meno dalla Piattaforma Notifiche.\
+&#xNAN;**`<paProtocolNumber>`** e **`<idempotenceToken>`:** questi campi sono gli stessi che sono stati inseriti nella precedente richiesta di inserimento Notifica e potranno essere utilizzati, in modo alternativo al **`<notificationRequestId>`** ed insieme tra loro, per conoscere lo stato di accettazione della notifica su Piattaforma Notifiche.
