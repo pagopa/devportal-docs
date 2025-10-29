@@ -52,12 +52,12 @@ curl --location 'https://<baseurlAmbiente>/delivery/attachments/preload' \
 
 **NOTA:** sostituire i seguenti:
 
-* **&#x3c;baseurlAmbiente&#x3e;:** inserire la url dell'ambiente di riferimento, nel caso di UAT è il seguente: **https://api.uat.notifichedigitali.it**
-* **&#x3c;apiKey&#x3e;:** inserire la apiKey dell'Ente di riferimento, precedentemente generata su PND&#x20;
-* **&#x3c;PDNDVoucher&#x3e;:** inserire inserire il Voucher generato su **PDND Interoperabilità,** assicurandosi che non sia scaduto
-* **&#x3c;shaDellaNotifica&#x3e;:** è lo sha256 della Notifica che si ottiene come output al punto 1.1
-* **&#x3c;shaDelPagamento&#x3e;:** è lo sha256 del Pagamento che si ottiene come output al punto 1.2
-* il valori **&#x3c;preloadIdx1&#x3e;** e **&#x3c;preloadIdx2&#x3e;** sono a discrezione del chiamante e servono per associare un indice alle richieste presenti nell'array di questa request
+* **\<baseurlAmbiente>:** inserire la url dell'ambiente di riferimento, nel caso di UAT è il seguente: **https://api.uat.notifichedigitali.it**
+* **\<apiKey&>:** inserire la apiKey dell'Ente di riferimento, precedentemente generata su PND&#x20;
+* **\<PDNDVoucher>:** inserire inserire il Voucher generato su **PDND Interoperabilità,** assicurandosi che non sia scaduto
+* **\<shaDellaNotifica>:** è lo sha256 della Notifica che si ottiene come output al punto 1.1
+* **\<shaDelPagamento>:** è lo sha256 del Pagamento che si ottiene come output al punto 1.2
+* il valori **\<preloadIdx1>** e **\<preloadIdx2>** sono a discrezione del chiamante e servono per associare un indice alle richieste presenti nell'array di questa request
 
 Nella response di questo servizio, si otterrà il seguente payload:
 
