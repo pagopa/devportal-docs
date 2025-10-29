@@ -79,7 +79,11 @@ Prima di procedere con il caricamento, è fondamentale che il file .csv segua sc
 Per i dettagli sulla compilazione, consultare la sezione [Specifiche del file CSV](../riferimenti-tecnici/specifiche-del-file-csv.md).
 
 {% hint style="warning" %}
-Attenzione: il separatore dei campi del CSV è il **punto e virgola** (**;**) e non la semplice virgol (,)
+Se usi un software come Excel o Google Fogli, imposta il formato "Testo" per tutte le celle contenenti stringhe, così da evitare errori di caricamento CSV.
+{% endhint %}
+
+{% hint style="warning" %}
+Attenzione: il separatore dei campi del CSV è il **punto e virgola** (**;**) e non la semplice virgola (,)
 {% endhint %}
 
 ## Procedura

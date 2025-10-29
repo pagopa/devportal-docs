@@ -63,6 +63,10 @@ Esistono **due formati distinti**, a seconda che i prodotti da caricare siano re
 * un file CSV può contenere prodotti appartenenti ad **una** sola **categoria**
 * un file CSV può contenere al massimo **100** prodotti.
 
+{% hint style="warning" %}
+Se usi un software come Excel o Google Fogli, imposta il formato "Testo" per tutte le celle contenenti stringhe, così da evitare errori di caricamento CSV.
+{% endhint %}
+
 ***
 
 ### Formato 1: Prodotti registrati su EPREL
