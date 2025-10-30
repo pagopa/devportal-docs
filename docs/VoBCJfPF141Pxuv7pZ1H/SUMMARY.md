@@ -17,10 +17,14 @@
 
 * [Attivare il proprio account](tutorial-per-operatore-punto-vendita/attivare-il-proprio-account.md)
 * [Accettare un Buono sconto in negozio](tutorial-per-operatore-punto-vendita/accettare-un-buono-sconto-in-negozio.md)
-* [Accettare un Buono sconto online](tutorial-per-operatore-punto-vendita/accettare-un-buono-sconto-online.md)
 * [Consultare lo storico delle transazioni](tutorial-per-operatore-punto-vendita/consultare-lo-storico-delle-transazioni.md)
 * [Consultare l'Elenco informatico degli elettrodomestici](tutorial-per-operatore-punto-vendita/consultare-lelenco-informatico-degli-elettrodomestici.md)
 * [Inviare le richieste di rimborso](tutorial-per-operatore-punto-vendita/inviare-le-richieste-di-rimborso.md)
+
+## Tutorial per acquisti online
+
+* [Accettare un Buono sconto online](tutorial-per-acquisti-online/accettare-un-buono-sconto-online.md)
+* [Inviare le richieste di rimborso online](tutorial-per-acquisti-online/inviare-le-richieste-di-rimborso-online.md)
 
 ## Riferimenti tecnici
 
