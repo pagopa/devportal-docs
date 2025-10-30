@@ -28,7 +28,11 @@ Nella alla sezione Punti Vendita è possibile utilizzare la funzionalità **"Ins
 
 ## Step 3 - Compilare i dati del Punto Vendita
 
-Utilizzare l'interfaccia per inserire i dati richiesti per ciascun Punto Vendita.&#x20;
+Utilizzare l'interfaccia per inserire i dati richiesti per ciascun Punto Vendita.
+
+{% hint style="info" %}
+I dati inseriti (ad eccezione dei contatti del Referente) saranno pubblicati sul sito dell’iniziativa, per informare gli utenti su dove potranno utilizzare il Bonus Elettrodomestici.
+{% endhint %}
 
 ### Punto vendita fisico
 
