@@ -1,6 +1,29 @@
 # Contatti
 
-Per assistenza o chiarimenti è possibile contattare il servizio dedicato:
+## Hai dubbi sull'iniziativa?
 
-* tramite modulo online disponibile sul Portale Invitalia nella sezione Accedi all’area riservata ([link](http://invitalia-areariservata-fe.npi.invitalia.it))
-* oppure al numero verde gratuito (in corso di attivazione) attivo dalle ore 10:00 alle ore 20:00 tutti i giorni.
+### Online
+
+Usa il modulo online sul Portale Invitalia, nella sezione ["Accedi all’area riservata"](http://invitalia-areariservata-fe.npi.invitalia.it/)
+
+### Telefono
+
+{% hint style="warning" %}
+Il servizio è in corso di attivazione da parte di Invitalia S.p.A.
+{% endhint %}
+
+Chiama il numero verde gratuito, attivo tutti i giorni dalle ore 10:00 alle ore 20:00.
+
+## Hai un problema tecnico?
+
+Per ricevere assistenza tecnica sulla piattaforma PARI (ad esempio in caso di problemi di accesso, caricamento del contratto di adesione, firma digitale, gestione dei punti vendita o dei buoni), **ti invitiamo prima a verificare se la risposta è già disponibile nelle pagine di questo manuale.**
+
+Se il problema persiste, puoi aprire una richiesta di supporto seguendo questi passaggi:
+
+1. [Accedi all'assistenza](https://app.gitbook.com/u/TZvRImJ1R0O2xGZswDbfDRJmYDs1) della piattaforma PARI, autenticandoti tramite SPID o CIE
+2. Indica un indirizzo e-mail valido su cui ricevere la risposta
+3. Seleziona dall'elenco la categoria "PARI - Bonus e iniziative"
+4. Descrivi il tuo problema tecnico
+
+
+
