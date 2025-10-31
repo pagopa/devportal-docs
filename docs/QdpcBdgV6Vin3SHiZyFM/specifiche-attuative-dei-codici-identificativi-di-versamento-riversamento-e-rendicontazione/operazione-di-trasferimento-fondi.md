@@ -10,24 +10,24 @@ La Tabella 3 indica come valorizzare gli attributi dello schema di un SCT:
 
 #### Tabella 3 - Valorizzazione schema SCT
 
-<table><thead><tr><th width="150">ID</th><th width="150">Nome</th><th width="228.33065595716198">Valore</th><th data-type="checkbox">Opzionale</th></tr></thead><tbody><tr><td>AT-02</td><td>Ordinante</td><td>&#x3C;Ragione Sociale PSP> Servizio pagoPA</td><td>false</td></tr><tr><td>AT-04</td><td>Amount</td><td>&#x3C;Importo></td><td>false</td></tr><tr><td>AT-05</td><td>Remittance Information</td><td>/PUR/LGPE-RIVERSAMENTO/TXT/&#x3C;prog>/URI/&#x3C;identificativoFlusso></td><td>false</td></tr><tr><td>AT-10</td><td>Codice Identificativo Ordinante</td><td>&#x3C;Codice Fiscale Ordinante></td><td>true</td></tr><tr><td>AT-20</td><td>Iban Beneficiario</td><td>&#x3C;IBAN Beneficiario></td><td>false</td></tr><tr><td>AT-24</td><td>Codice Indentificativo Beneficiario</td><td>&#x3C;Codice Fiscale Beneficiario></td><td>true</td></tr><tr><td>AT-41</td><td>Referenza Ordinante</td><td>&#x3C;EndToEndID></td><td>true</td></tr></tbody></table>
+<table><thead><tr><th width="150">ID</th><th width="150">Nome</th><th width="228.33065595716198">Valore</th><th data-type="checkbox">Opzionale</th></tr></thead><tbody><tr><td>AT-02</td><td>Ordinante</td><td><code>&#x3C;Ragione Sociale PSP></code> Servizio pagoPA</td><td>false</td></tr><tr><td>AT-04</td><td>Amount</td><td><code>&#x3C;Importo></code></td><td>false</td></tr><tr><td>AT-05</td><td>Remittance Information</td><td><code>/PUR/LGPE-RIVERSAMENTO/TXT/&#x3C;prog>/URI/&#x3C;identificativoFlusso></code></td><td>false</td></tr><tr><td>AT-10</td><td>Codice Identificativo Ordinante</td><td><code>&#x3C;Codice Fiscale Ordinante></code></td><td>true</td></tr><tr><td>AT-20</td><td>Iban Beneficiario</td><td><code>&#x3C;IBAN Beneficiario></code></td><td>false</td></tr><tr><td>AT-24</td><td>Codice Indentificativo Beneficiario</td><td><code>&#x3C;Codice Fiscale Beneficiario></code></td><td>true</td></tr><tr><td>AT-41</td><td>Referenza Ordinante</td><td><code>&#x3C;EndToEndID></code></td><td>true</td></tr></tbody></table>
 
 Legenda:
 
-* \<prog>_:_ è un progressivo ad una cifra compreso fra 0 e 9, con
+* `<prog>`_:_ è un progressivo ad una cifra compreso fra 0 e 9, con
   * 0 -> SCT ordinario;
   * 1-9 -> SCT integrativi nella giornata a seguito di anomalie tecniche;
-* \<Importo>: importo totale SCT, ovvero la somma dei singoli importi delle transazioni inserite nel Flusso di Rendicontazione associato, identificabile tramite \<identificativoFlusso>;
-* \<IBAN Beneficiario>: Il PSP attinge tale dato dalle richieste di pagamento eseguite;
-* \<Codice Fiscale Beneficiario>: Il PSP attinge tale dato dalle richieste di pagamento eseguite;
-* \<identificativoFlusso>: specifica il dato relativo all’informazione identificativoFlusso presente nel flusso di rendicontazione descritto nel successivo [flusso-di-rendicontazione.md](flusso-di-rendicontazione.md "mention");
-* \<EndToEndID>: riferimento assegnato dal PSP all’operazione di trasferimento fondi.
+* `<Importo>`: importo totale SCT, ovvero la somma dei singoli importi delle transazioni inserite nel Flusso di Rendicontazione associato, identificabile tramite \<identificativoFlusso>;
+* `<IBAN Beneficiario>`: Il PSP attinge tale dato dalle richieste di pagamento eseguite;
+* `<Codice Fiscale Beneficiario>`: Il PSP attinge tale dato dalle richieste di pagamento eseguite;
+* `<identificativoFlusso>`: specifica il dato relativo all’informazione identificativoFlusso presente nel flusso di rendicontazione descritto nel successivo [flusso-di-rendicontazione.md](flusso-di-rendicontazione.md "mention");
+* `<EndToEndID>`: riferimento assegnato dal PSP all’operazione di trasferimento fondi.
 
 Alcune precisazioni:
 
 * per ogni FdR deve essere predisposto un unico SCT, solo in caso di anomalie tecniche possono essere eseguiti degli SCT integrativi;
 * non è consentito eseguire SCT puntuali per ogni singola operazione di pagamento;
-* al fine di effettuare una riconciliazione automatica del versamento le informazioni dell’attributo AT-05 sono state composte secondo la struttura proposta dall’Associazione Europea dei Tesorieri di Impresa (EACT) nel documento [EACT FORMATTING RULES OF SEPA “UNSTRUCTURED” 140 CHRS FIELD FOR REMITTANCE INFORMATION](https://eact.eu/Core/Documents/Wordpress\_Old/docs/EACT\_Standard\_for\_Remittance\_Info.pdf) e finalizzata al trattamento automatizzato delle informazioni tra partner commerciali. In particolare le stringhe “/PUR/”, "/TXT/" e “/URI/” sono tag costanti il cui significato è definito dallo standard EACT
+* al fine di effettuare una riconciliazione automatica del versamento le informazioni dell’attributo AT-05 sono state composte secondo la struttura proposta dall’Associazione Europea dei Tesorieri di Impresa (EACT) nel documento [EACT FORMATTING RULES OF SEPA “UNSTRUCTURED” 140 CHRS FIELD FOR REMITTANCE INFORMATION](https://eact.eu/Core/Documents/Wordpress_Old/docs/EACT_Standard_for_Remittance_Info.pdf) e finalizzata al trattamento automatizzato delle informazioni tra partner commerciali. In particolare le stringhe “/PUR/”, "/TXT/" e “/URI/” sono tag costanti il cui significato è definito dallo standard EACT
   * **PUR** _purpose of payment, coded_
   * **TXT** _free text, to be used in combination with other structured elements_
   * **URI** _identification of a Remittance Advice which is sent separately_
