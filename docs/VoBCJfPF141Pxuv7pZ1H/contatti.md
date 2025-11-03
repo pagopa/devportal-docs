@@ -8,11 +8,9 @@ Usa il modulo online sul Portale Invitalia, nella sezione ["Accedi all’area ri
 
 ### Telefono
 
-{% hint style="warning" %}
-Il servizio è in corso di attivazione da parte di Invitalia S.p.A.
-{% endhint %}
+Chiama il numero [**0698248217**](tel://+390698248217)**.**
 
-Chiama il numero verde gratuito, attivo tutti i giorni dalle ore 10:00 alle ore 20:00.
+Il servizio è attivo tutti i giorni dalle ore 10:00 alle ore 20:00.
 
 ## Hai un problema tecnico?
 
@@ -20,7 +18,7 @@ Per ricevere assistenza tecnica sulla piattaforma PARI (ad esempio in caso di pr
 
 Se il problema persiste, puoi aprire una richiesta di supporto seguendo questi passaggi:
 
-1. [Accedi all'assistenza](https://app.gitbook.com/u/TZvRImJ1R0O2xGZswDbfDRJmYDs1) della piattaforma PARI, autenticandoti tramite SPID o CIE
+1. [Accedi all'assistenza](https://selfcare.pagopa.it/assistenza) della piattaforma PARI, autenticandoti tramite SPID o CIE
 2. Indica un indirizzo e-mail valido su cui ricevere la risposta
 3. Seleziona dall'elenco la categoria "PARI - Bonus e iniziative"
 4. Descrivi il tuo problema tecnico
