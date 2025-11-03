@@ -65,11 +65,9 @@ Usa il modulo online sul Portale Invitalia, nella sezione ["Accedi all’area ri
 
 ### Telefono
 
-{% hint style="warning" %}
-Il servizio è in corso di attivazione da parte di Invitalia S.p.A.
-{% endhint %}
+Chiama il numero [**0698248217**](tel://+390698248217)**.**
 
-Chiama il numero verde gratuito, attivo tutti i giorni dalle ore 10:00 alle ore 20:00.
+Il servizio è attivo tutti i giorni dalle ore 10:00 alle ore 20:00.
 
 ## Hai un problema tecnico?
 
