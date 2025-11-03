@@ -4,7 +4,7 @@ Questo tutorial descrive la procedura step-by-step per l'accettazione di un buon
 
 Il flusso copre i passaggi necessari per validare il buono, bloccarlo e confermare la vendita dopo il pagamento.
 
-### **Prerequisiti**
+## Prerequisiti
 
 Per seguire questa procedura, devi essere in possesso di:
 
@@ -15,14 +15,16 @@ Per seguire questa procedura, devi essere in possesso di:
 
 ***
 
-### **Step 1: (Facoltativo) Recuperare i prodotti ammessi**
+## Procedura
+
+### Step 1: (Facoltativo) Recuperare i prodotti ammessi
 
 Se il tuo sistema e-commerce non è già allineato con l'elenco dei prodotti ammessi all'iniziativa, puoi recuperare la lista completa.
 
 1. Chiama l'endpoint [`GET /products`](https://developer.pagopa.it/pari/api/pari-e-commerce#/pari/api/operations/getProducts).
 2. Utilizza la risposta per ottenere un `productGtin` valido da usare nei passaggi successivi.
 
-### **Step 2: Validare il buono (Preview)**
+### Step 2: Validare il buono (Preview)
 
 Questo passaggio ti permette di verificare la validità del `trxCode` e di calcolare l'importo dello sconto applicabile, **senza bloccare il buono**.
 
@@ -39,7 +41,7 @@ Questo passaggio ti permette di verificare la validità del `trxCode` e di calco
 3. Se la chiamata ha successo (risposta `200 OK`), riceverai un JSON con i dettagli della transazione (in stato `CREATED`), l'importo originale, lo sconto (`rewardCents`) e l'importo residuo (`residualAmountCents`).
 4. Mostra al cliente nel carrello il prezzo finale scontato.
 
-### **Step 3: Autorizzare la transazione (Authorize)**
+### Step 3: Autorizzare la transazione (Authorize)
 
 Una volta che il cliente conferma di voler procedere con l'acquisto, devi "bloccare" il buono per riservarlo a questa transazione. Questo passaggio cambia lo stato della transazione da `CREATED` ad `AUTHORIZED`.
 
@@ -55,7 +57,7 @@ Una volta che il cliente conferma di voler procedere con l'acquisto, devi "blocc
 3. Se la chiamata ha successo (`200 OK`), il buono è ora bloccato (stato `AUTHORIZED`) e non può essere utilizzato da nessun altro.
 4. Reindirizza il cliente al tuo sistema di pagamento per saldare l'importo residuo.
 
-### **Step 4: Catturare la transazione (Capture)**
+### Step 4: Catturare la transazione (Capture)
 
 Questo è l'atto finale che conferma la vendita. Devi eseguire questo passaggio **solo dopo aver ricevuto la conferma di avvenuto pagamento** da parte del cliente.
 
