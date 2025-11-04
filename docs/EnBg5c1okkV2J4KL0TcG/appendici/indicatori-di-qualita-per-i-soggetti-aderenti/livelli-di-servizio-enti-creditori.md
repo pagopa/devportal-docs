@@ -37,4 +37,28 @@ Il Tavolo Operativo dell’EC reagisce autonomamente e con la massima tempestivi
 
 ## Gestione IBAN di accredito&#x20;
 
-L'EC deve comunicare qualsiasi tipo di variazione in relazione ai propri IBAN di accredito con almeno 7 giorni di anticipo rispetto alla data di decorrenza della modifica.
+L'EC deve comunicare senza irragionevole ritardo qualsiasi tipo di variazione in relazione ai propri IBAN di accredito con almeno 7 giorni di anticipo rispetto alla data di decorrenza modifica. Tale aggiornamento deve avvenire tramite [BackOffice](https://selfcare.pagopa.it/).
+
+Nel caso si riscontrino problemi di accesso al BackOffice, invitiamo a contattare l’assistenza attraverso [Area Riservata](https://www.pagopa.it/it/area-riservata/) utilizzando la specifica funzionalità in alto a destra “? Assistenza”.
+
+Tuttavia, al solo fine di supportare gli stakeholder della piattaforma pagoPA, ed in particolare i PSP nello svolgimento ordinario delle proprie attività, è stata predisposta una tabella “Enti con IBAN errati”, che contiene le informazioni relative agli EC che risultano avere un IBAN errato. Tale tabella è consultabile direttamente tramite il presente link [https://docs.google.com/spreadsheets/d/1wK\_6SlvC4q7ToWGxZpg3lYx0g38jBGdByi0mekow4DU/edit?usp=sharing](https://docs.google.com/spreadsheets/d/1wK_6SlvC4q7ToWGxZpg3lYx0g38jBGdByi0mekow4DU/edit?usp=sharing).
+
+E’, inoltre, predisposta la tabella “Storico Enti con IBAN errati”, anch’essa consultabile tramite il seguente link [https://docs.google.com/spreadsheets/d/1Vn9rUYgGWGcONS\_\_wHzFifO1Cs2ojpkCr1VDTkev5p0/edit?usp=sharing](https://docs.google.com/spreadsheets/d/1Vn9rUYgGWGcONS__wHzFifO1Cs2ojpkCr1VDTkev5p0/edit?usp=sharing).&#x20;
+
+Tali tabelle rappresentano uno strumento di moral suasion e sono soggette ad aggiornamento in base alle informazioni di volta in volta disponibili.
+
+PagoPA S.p.A. non assume alcuna responsabilità riguardo all’accuratezza e aggiornamento delle informazioni relative agli IBAN di accredito degli EC, che rimangono gli unici responsabili della correttezza del dato presente nel BackOffice.
+
+PagoPA si impegna affinché tutte le informazioni relative agli IBAN siano correttamente gestite nel sistema BackOffice e a supportare gli EC e i PSP nella risoluzione delle problematiche derivanti da IBAN errati, ma non è responsabile per eventuali disagi o ritardi derivanti da inadeguate comunicazioni o mancanti aggiornamenti da parte degli EC.
+
+Ai fini di una corretta esecuzione delle attività è necessaria la collaborazione tempestiva ed efficace di EC e PSP.&#x20;
+
+A tal fine, i PSP e gli Enti Creditori devono trasmettere prontamente alla Società tutte le informazioni necessarie e pertinenti, assicurando la completezza, l’accuratezza e l’aggiornamento dei dati. Inoltre, EC e PSP devono prestare la massima attenzione nella gestione delle comunicazioni e delle richieste di chiarimento, favorendo un flusso informativo efficiente e trasparente.
+
+\
+
+
+\
+
+
+\
