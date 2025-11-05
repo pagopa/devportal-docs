@@ -4,7 +4,7 @@ Il _Portale Esercenti_ utilizza diversi stati per identificare le operazioni.
 
 Di seguito è riportata la definizione degli stati principali che una transazione può assumere nel suo ciclo di vita. A seconda del ruolo dell'utente, la transazione avrà uno stato che spiega qual è l'azione richiesta da compiere, se prevista.
 
-<div data-full-width="true"><figure><img src="../.gitbook/assets/Stati.png" alt="Diagramma che spiega il cambio dei vari stati"><figcaption><p>Lo schema riepiloga il passaggio tra i vari stati di una transazione.</p></figcaption></figure></div>
+<figure><img src="../.gitbook/assets/Stati.png" alt="Diagramma che spiega il cambio dei vari stati"><figcaption>Lo schema riepiloga il passaggio tra i vari stati di una transazione.</figcaption></figure>
 
 ## Vista degli stati per l'Operatore del punto vendita
 
