@@ -106,5 +106,5 @@ Il campo `content` contiene il file `xml` relativo alla ricevuta MBD codificato 
 Un metodo alternativo per il recupero della receipt consiste nella configurazione di una stazione di broadcast, se presente il Nodo Dei Pagamenti NDP invocherà la primitiva `paSendRTV2` utilizzando l'endpoint configurato nella stazione, l'EC potrà recuperare la ricevuta della MBD dal campo [MBDAttachment](https://github.com/pagopa/pagopa-api/blob/05207a1759914675eb606316c2abcbe317f79f98/wsdl/xsd/paForNode.xsd#L389C24-L389C37) della receipt.
 
 {% hint style="info" %}
-Per per le specifiche complete dell'API fare riferimento alla sezione [@e.bollo 2.0](../../../appendici/primitive/ente-creditore/api-rest.md#ebollo-2.0)
+Per per le specifiche complete delle API fare riferimento alla sezione [@e.bollo 2.0](../../../appendici/primitive/ente-creditore/api-rest.md#e.bollo-2.0)
 {% endhint %}
