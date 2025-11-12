@@ -10,7 +10,7 @@
 
 🗒 **Testo del messaggio**:&#x20;
 
-Dal \<gg/mm/aaaa> al \<gg/mm/aaaa> potrai fare domanda di iscrizione al servizio \<tipologia di servizio>.
+Dal `<gg/mm/aaaa>` al `<gg/mm/aaaa>` potrai fare domanda di iscrizione al servizio `<tipologia di servizio>`.
 
 Per ulteriori informazioni e fare domanda d’iscrizione, \[visita questo sito]\(URL).
 
@@ -44,9 +44,9 @@ Per ulteriori informazioni e fare domanda d’iscrizione, \[visita questo sito]\
 
 🗒 **Testo del messaggio**:&#x20;
 
-Il \<gg/mm/aaaa> abbiamo ricevuto la tua domanda di iscrizione al servizio \<tipologia del servizio> .
+Il `<gg/mm/aaaa>` abbiamo ricevuto la tua domanda di iscrizione al servizio `<tipologia del servizio>` .
 
-\[Se previsto] Il numero di protocollo della tua domanda è: \<nnnn>
+\[Se previsto] Il numero di protocollo della tua domanda è: `<nnnn>`
 
 Per consultare il riepilogo della domanda, \[visita questo sito]\(URL).
 

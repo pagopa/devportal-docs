@@ -37,19 +37,19 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 🗒 **Testo del messaggio**:
 
-Da oggi è possibile fare richiesta per \<nome agevolazione>.
+Da oggi è possibile fare richiesta per `<nome agevolazione>`.
 
-Hai tempo fino al \<gg/mm/aaaa>.
+Hai tempo fino al `<gg/mm/aaaa>`.
 
 Per consultare i criteri di assegnazione e fare richiesta, \[visita questo sito]\(URL).
 
 \[inserire qui le modalità di presentazione della richiesta, da compilare a cura e responsabilità dell'ente]
 
-**Dove presentarsi**: \<denominazione ufficio>; \<indirizzo>.
+**Dove presentarsi**: `<denominazione ufficio>`; `<indirizzo>`.
 
 **Quando**: \[inserire qui orari e giorni disponibili al pubblico per presentare richiesta]
 
-Per ulteriori informazioni, contatta l’ufficio \<denominazione ufficio> tramite \<canale> o visita \[questo sito]\(URL) .
+Per ulteriori informazioni, contatta l’ufficio `<denominazione ufficio>` tramite `<canale>` o visita \[questo sito]\(URL) .
 
 **🪄 Pulsante**: Invia richiesta
 
@@ -73,7 +73,7 @@ Per ulteriori informazioni, contatta l’ufficio \<denominazione ufficio> tramit
 
 🗒 **Testo del messaggio**:
 
-La tua richiesta per \<nome agevolazione> è stata accolta.
+La tua richiesta per `<nome agevolazione>` è stata accolta.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -97,7 +97,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio**:
 
-La tua richiesta per \<nome agevolazione> non è stata accolta.
+La tua richiesta per `<nome agevolazione>` non è stata accolta.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 

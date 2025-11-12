@@ -39,7 +39,7 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 🗒 **Testo del messaggio**:
 
-Per elaborare la tua richiesta di noleggio di \<nome bene mobile> abbiamo bisogno di ricevere entro il \<gg/mm/aaaa> altri documenti.
+Per elaborare la tua richiesta di noleggio di `<nome bene mobile>` abbiamo bisogno di ricevere entro il `<gg/mm/aaaa>` altri documenti.
 
 Consulta il riepilogo della domanda, \[visita questo sito]\(URL).
 
@@ -63,11 +63,11 @@ Consulta il riepilogo della domanda, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio**:
 
-La tua richiesta di noleggio di \<nome bene mobile> è stata accolta.
+La tua richiesta di noleggio di `<nome bene mobile>` è stata accolta.
 
-Potrai usufruirne dal \<gg/mm/aaaa> fino al \<gg/mm/aaaa>.
+Potrai usufruirne dal `<gg/mm/aaaa>` fino al `<gg/mm/aaaa>`.
 
-Il canone sarà di <00,00> € ogni \<periodo di tempo>.
+Il canone sarà di <00,00> € ogni `<periodo di tempo>`.
 
 \[Inserire qui eventuali ulteriori disposizioni riguardo all’utilizzo del bene, da compilare a cura e responsabilità dell'ente]
 
@@ -93,9 +93,9 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio**:
 
-La tua richiesta di noleggio di \<nome bene mobile> non è stata accolta.
+La tua richiesta di noleggio di `<nome bene mobile>` non è stata accolta.
 
-Per maggiori informazioni, contatta \<denominazione ufficio> tramite \<canale> oppure \[visita questo sito]\(URL).
+Per maggiori informazioni, contatta `<denominazione ufficio>` tramite `<canale>` oppure \[visita questo sito]\(URL).
 
 **🪄 Pulsante**: n/a
 
@@ -123,17 +123,17 @@ Per maggiori informazioni, contatta \<denominazione ufficio> tramite \<canale> o
 
 🗒 **Testo del messaggio**:
 
-C'è un avviso da pagare intestato a \<nome> \<cognome> e relativo a \<causale>.
+C'è un avviso da pagare intestato a `<nome>` `<cognome>` e relativo a `<causale>`.
 
 **Devi pagare:** <00,00> €
 
-**Entro il:** \<gg/mm/aaaa>
+**Entro il:** `<gg/mm/aaaa>`
 
 Puoi pagare direttamente in app premendo “Paga”, oppure tramite tutti i canali di pagamento della piattaforma pagoPA e le altre modalità di pagamento offerte dell'ente creditore.
 
 Se hai già provveduto a pagare l'avviso, ignora questo messaggio.
 
-Se vuoi hai tempo fino al \<gg/mm/aaaa> per rinunciare alla \<concessione/locazione>.
+Se vuoi hai tempo fino al `<gg/mm/aaaa>` per rinunciare alla `<concessione/locazione>`.
 
 Per maggiori informazioni o per richiedere assistenza, contattaci tramite i canali che trovi nella scheda servizio.
 
@@ -161,7 +161,7 @@ In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio p
 
 🗒 **Testo del messaggio**:
 
-Il tuo pagamento del canone per \<descrizione noleggio/concessione/locazione> sta per scadere.
+Il tuo pagamento del canone per `<descrizione noleggio/concessione/locazione>` sta per scadere.
 
 Se hai già provveduto a pagare l’avviso, ignora questo messaggio.
 
@@ -191,7 +191,7 @@ Se hai già provveduto a pagare l’avviso, ignora questo messaggio.
 
 🗒 **Testo del messaggio**:
 
-Per elaborare la tua richiesta di locazione di \<nome bene immobile> abbiamo bisogno di ricevere entro il \<gg/mm/aaaa> altri documenti.
+Per elaborare la tua richiesta di locazione di `<nome bene immobile>` abbiamo bisogno di ricevere entro il `<gg/mm/aaaa>` altri documenti.
 
 Per consultare il riepilogo della domanda, \[visita questo sito]\(URL).
 
@@ -215,11 +215,11 @@ r**🖋 Titolo del messaggio:** La tua richiesta è stata accolta
 
 🗒 **Testo del messaggio**:
 
-La tua richiesta di locazione di \<nome bene immobile> è stata accolta.
+La tua richiesta di locazione di `<nome bene immobile>` è stata accolta.
 
-Potrai usufruirne dal \<gg/mm/aaaa> fino al \<gg/mm/aaaa>.
+Potrai usufruirne dal `<gg/mm/aaaa>` fino al `<gg/mm/aaaa>`.
 
-Il canone sarà di <00,00> € ogni \<periodo di tempo>.
+Il canone sarà di <00,00> € ogni `<periodo di tempo>`.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -243,9 +243,9 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio**:
 
-La tua richiesta di locazione di \<nome bene immobile> non è stata accolta.
+La tua richiesta di locazione di `<nome bene immobile>` non è stata accolta.
 
-Per maggiori informazioni, contatta \<denominazione ufficio> tramite \<canale> oppure \[visita questo sito]\(URL).
+Per maggiori informazioni, contatta `<denominazione ufficio>` tramite `<canale>` oppure \[visita questo sito]\(URL).
 
 **🪄 Pulsante**: n/a
 
@@ -265,11 +265,11 @@ Per maggiori informazioni, contatta \<denominazione ufficio> tramite \<canale> o
 
 <summary>Revoca della concessione o locazione</summary>
 
-**🖋 Titolo del messaggio:** Revoca della \<concessione/locazione> per \<immobile/impianto>
+**🖋 Titolo del messaggio:** Revoca della `<concessione/locazione>` per `<immobile/impianto>`
 
 🗒 **Testo del messaggio**:
 
-La \<concessione/locazione> per \<l’immobile/l’impianto> \<nome del bene> in \<indirizzo> è stata revocata.
+La `<concessione/locazione>` per `<l’immobile/l’impianto>` `<nome del bene>` in `<indirizzo>` è stata revocata.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -299,11 +299,11 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio**:
 
-C'è un avviso da pagare intestato a \<nome e cognome> e relativo a \<causale>. 
+C'è un avviso da pagare intestato a `<nome e cognome>` e relativo a `<causale>`. 
 
 **Devi pagare:** <00,00> €
 
-**Entro il:** \<gg/mm/aaaa>
+**Entro il:** `<gg/mm/aaaa>`
 
 Puoi pagare direttamente in app premendo “Paga”, oppure tramite tutti i canali di pagamento della piattaforma pagoPA e le altre modalità di pagamento offerte dell’ente creditore.
 
@@ -329,11 +329,11 @@ In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio p
 
 <summary>Richiesta di rinuncia: accolta</summary>
 
-**🖋 Titolo del messaggio:** Hai rinunciato alla \<concessione/locazione>
+**🖋 Titolo del messaggio:** Hai rinunciato alla `<concessione/locazione>`
 
 🗒 **Testo del messaggio**:
 
-La tua richiesta di rinuncia alla \<concessione/locazione> per \<l’immobile/l’impianto>\<nome del bene> in \<indirizzo> è stata accolta.
+La tua richiesta di rinuncia alla `<concessione/locazione>` per `<l’immobile/l’impianto>``<nome del bene>` in `<indirizzo>` è stata accolta.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -359,7 +359,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio**:
 
-Il \<gg/mm/aaaa> abbiamo emesso un rimborso a seguito della tua rinuncia alla \<concessione/locazione> per \<l’immobile/l’impianto> \<nome del bene> in \<indirizzo>.
+Il `<gg/mm/aaaa>` abbiamo emesso un rimborso a seguito della tua rinuncia alla `<concessione/locazione>` per `<l’immobile/l’impianto>` `<nome del bene>` in `<indirizzo>`.
 
 **Ti abbiamo rimborsato**: <00,00> €
 

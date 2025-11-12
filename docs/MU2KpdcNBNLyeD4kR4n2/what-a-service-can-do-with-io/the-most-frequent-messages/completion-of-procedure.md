@@ -10,7 +10,7 @@
 
 🗒 **Text of the message**:
 
-On \<dd/mm/yyyy> your request \<code> was closed.
+On `<dd/mm/yyyy>` your request `<code>` was closed.
 
 \[Enter here the additional steps the citizen needs to take]
 

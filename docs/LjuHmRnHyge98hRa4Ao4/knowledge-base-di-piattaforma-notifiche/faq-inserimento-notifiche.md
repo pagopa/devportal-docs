@@ -155,11 +155,11 @@ Aprire la shell di Git Bash o un terminal SSH ed eseguire il comando_:_
 `--data-binary "@<filePath>"  \`\
 `"<url>"`
 
-**\<httpMethod>**: è il metodo http (PUT o POST) indicato nella response della preload, da utilizzare per questa chiamata\
-**\<secret>**: è il secret ottenuto nella response della preload\
-**\<checksum>**: è il checksum sha256, codificato in base 64, del contenuto binario del file da caricare\
-**\<file>**: è il path del file da caricare\
-**\<url>**: è l'url del bucket S3 ottenuto nella response della preload, sul quale effettuare l'upload del documento\
+**`<httpMethod>`**: è il metodo http (PUT o POST) indicato nella response della preload, da utilizzare per questa chiamata\
+**`<secret>`**: è il secret ottenuto nella response della preload\
+**`<checksum>`**: è il checksum sha256, codificato in base 64, del contenuto binario del file da caricare\
+**`<file>`**: è il path del file da caricare\
+**`<url>`**: è l'url del bucket S3 ottenuto nella response della preload, sul quale effettuare l'upload del documento\
 **NOTA:** l'header `-H"trailer: x-amz-checksum-sha256"` è non obbligatorio ai fini del buon esito della chiamata, per tanto può essere omesso qualora si riscontrassero problemi durante questa fase; inoltre si evidenzia che in questa chiamata **NON** deve essere inserito l'Autorization Header `"Authorization: Bearer <PDNDVoucher>`con il Vocuher.
 
 ### Quanto tempo ho per scaricare le Attestazioni Opponibili a Terzi?

@@ -39,11 +39,11 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 🗒 **Testo del messaggio:**
 
-Hai prenotato un appuntamento per \<oggetto dell’appuntamento> presso il tuo domicilio.
+Hai prenotato un appuntamento per `<oggetto dell’appuntamento>` presso il tuo domicilio.
 
-Il numero della prenotazione è \<nnnn>.
+Il numero della prenotazione è `<nnnn>`.
 
-**Quando:** il \<gg/mm/aaaa> alle \<hh:mm>
+**Quando:** il `<gg/mm/aaaa>` alle `<hh:mm>`
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -71,13 +71,13 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio:**
 
-Ti ricordiamo l’appuntamento del \<gg/mm/aaaa> per \<oggetto dell’appuntamento>.
+Ti ricordiamo l’appuntamento del `<gg/mm/aaaa>` per `<oggetto dell’appuntamento>`.
 
-Il numero della prenotazione è \<nnnn>.
+Il numero della prenotazione è `<nnnn>`.
 
-**Dove:** \<indirizzo>
+**Dove:** `<indirizzo>`
 
-**Quando:** il \<gg/mm/aaaa> alle \<hh:mm>
+**Quando:** il `<gg/mm/aaaa>` alle `<hh:mm>`
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -115,7 +115,7 @@ Puoi ora consultare il tuo piano assistenziale.
 
 **🪄 Pulsante:** Consulta il piano
 
-<mark style="color:blue;">**📎 Allegato:**</mark> \<piano assistenziale>
+<mark style="color:blue;">**📎 Allegato:**</mark> `<piano assistenziale>`
 
 ***
 
@@ -141,7 +141,7 @@ Puoi ora consultare il tuo piano assistenziale.
 
 🗒 **Testo del messaggio:**
 
-Il servizio di assistenza domiciliare da te richiesto sarà attivo dal \<gg/mm/aaaa>.
+Il servizio di assistenza domiciliare da te richiesto sarà attivo dal `<gg/mm/aaaa>`.
 
 Per i dettagli sulle prestazioni erogate, puoi fare riferimento al tuo piano assistenziale consultabile \[visita questo sito]\(URL).
 
@@ -173,11 +173,11 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio:**
 
-C'è un avviso da pagare intestato a \<nome> \<cognome> e relativo a \<causale>.
+C'è un avviso da pagare intestato a `<nome>` `<cognome>` e relativo a `<causale>`.
 
 **Devi pagare**: <00,00> €
 
-**Entro il**: \<gg/mm/aaaa>
+**Entro il**: `<gg/mm/aaaa>`
 
 Puoi pagare direttamente in app premendo “Paga”, oppure tramite tutti i canali di pagamento della piattaforma pagoPA e le altre modalità di pagamento offerte dell'ente creditore.
 
@@ -209,7 +209,7 @@ In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio p
 
 🗒 **Testo del messaggio:**
 
-Il tuo pagamento per \<causale> sta per scadere.
+Il tuo pagamento per `<causale>` sta per scadere.
 
 Se hai già provveduto a pagare l’avviso ignora questo messaggio.
 
@@ -239,7 +239,7 @@ Il seguente messaggio serve a sollecitare il cittadino per il mancato pagamento 
 
 🗒 **Testo del messaggio:**
 
-Il tuo pagamento relativo a \<causale> è scaduto il \<gg/mm/aaaa>.
+Il tuo pagamento relativo a `<causale>` è scaduto il `<gg/mm/aaaa>`.
 
 Se hai già provveduto a pagare l’avviso, ignora questo messaggio.
 

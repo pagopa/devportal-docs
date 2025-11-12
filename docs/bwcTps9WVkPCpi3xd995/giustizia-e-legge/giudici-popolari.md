@@ -39,11 +39,11 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 🗒 **Testo del messaggio**:
 
-Dal \<gg/mm/aaaa> puoi fare domanda di iscrizione all’elenco dei giudici popolari per il comune di \<Comune>.
+Dal `<gg/mm/aaaa>` puoi fare domanda di iscrizione all’elenco dei giudici popolari per il comune di `<Comune>`.
 
-Per presentare domanda, puoi inviare la modulistica tramite \<canale>.
+Per presentare domanda, puoi inviare la modulistica tramite `<canale>`.
 
-Hai tempo fino al \<gg/mm/aaaa>.
+Hai tempo fino al `<gg/mm/aaaa>`.
 
 \[Inserire qui ulteriori informazioni utili per l’iscrizione, da compilare a cura e responsabilità dell'ente]
 
@@ -53,7 +53,7 @@ Per consultare i requisiti di iscrizione e scaricare i moduli, \[visita questo s
 
 **🪄 Pulsante**: Fai domanda
 
-<mark style="color:blue;">**📎 Allegato:**</mark> \<modulo d'iscrizione>
+<mark style="color:blue;">**📎 Allegato:**</mark> `<modulo d'iscrizione>`
 
 ***
 
@@ -75,13 +75,13 @@ Per consultare i requisiti di iscrizione e scaricare i moduli, \[visita questo s
 
 🗒 **Testo del messaggio:**
 
-Il \<gg/mm/aaaa> sei \<stato iscritto/stata iscritta> alle liste dei giudici popolari di Corte d'Assise e Corte di Assise di Appello per il Comune di \<Comune>.
+Il `<gg/mm/aaaa>` sei `<stato iscritto/stata iscritta>` alle liste dei giudici popolari di Corte d'Assise e Corte di Assise di Appello per il Comune di `<Comune>`.
 
 Per vedere la tua posizione, \[visita questo sito]\(URL).
 
 \[Inserire indicazioni sui passi successivi, da compilare a cura e responsabilità dell'ente]
 
-Entro il \<gg/mm/aaaa> sarà pubblicato l’albo definitivo.
+Entro il `<gg/mm/aaaa>` sarà pubblicato l’albo definitivo.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -107,7 +107,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio:**
 
-Sono disponibili le liste definitive dei giudici popolari di Corte d'Assise e Corte di Assise di Appello per il comune di \<Comune>.
+Sono disponibili le liste definitive dei giudici popolari di Corte d'Assise e Corte di Assise di Appello per il comune di `<Comune>`.
 
 Per vedere la tua posizione, \[visita questo sito]\(URL).
 
@@ -131,11 +131,11 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 <summary>Iscrizione all'albo dei giudici popolari</summary>
 
-**🖋 Titolo del messaggio:** Sei \<iscritta/iscritto> all’albo
+**🖋 Titolo del messaggio:** Sei `<iscritta/iscritto>` all’albo
 
 🗒 **Testo del messaggio:**
 
-Il \<gg/mm/aaaa> sei \<stato iscritto/stata iscritta> all’albo dei giudici popolari di Corte d'Assise e Corte di Assise di Appello per il Comune di \<comune>.
+Il `<gg/mm/aaaa>` sei `<stato iscritto/stata iscritta>` all’albo dei giudici popolari di Corte d'Assise e Corte di Assise di Appello per il Comune di `<comune>`.
 
 Per vedere la tua posizione, \[visita questo sito]\(URL).
 

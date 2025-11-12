@@ -41,11 +41,11 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 🗒 **Testo del messaggio**:
 
-Hai prenotato un appuntamento per \<oggetto dell’appuntamento>.
+Hai prenotato un appuntamento per `<oggetto dell’appuntamento>`.
 
-**Dove:** \<indirizzo>
+**Dove:** `<indirizzo>`
 
-**Quando:** \<gg/mm/aaaa> alle \<hh:mm>
+**Quando:** `<gg/mm/aaaa>` alle `<hh:mm>`
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -79,11 +79,11 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio**:
 
-Hai prenotato un appuntamento per \<oggetto dell’appuntamento>.
+Hai prenotato un appuntamento per `<oggetto dell’appuntamento>`.
 
-**Dove:** \<indirizzo>
+**Dove:** `<indirizzo>`
 
-**Quando:** \<gg/mm/aaaa> alle \<hh:mm>
+**Quando:** `<gg/mm/aaaa>` alle `<hh:mm>`
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -109,7 +109,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio:**
 
-Il \<gg/mm/aaaa> abbiamo trascritto la sentenza di adozione \<nnnn>.
+Il `<gg/mm/aaaa>` abbiamo trascritto la sentenza di adozione `<nnnn>`.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -143,11 +143,11 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio**:
 
-Hai prenotato un appuntamento per \<oggetto dell’appuntamento>.
+Hai prenotato un appuntamento per `<oggetto dell’appuntamento>`.
 
-**Dove:** \<indirizzo>
+**Dove:** `<indirizzo>`
 
-**Quando:** \<gg/mm/aaaa> alle \<hh:mm>
+**Quando:** `<gg/mm/aaaa>` alle `<hh:mm>`
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -177,7 +177,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio:**
 
-Per elaborare la tua richiesta di \<oggetto della richiesta>, abbiamo bisogno di ricevere entro il \<gg/mm/aaaa> altri documenti.
+Per elaborare la tua richiesta di `<oggetto della richiesta>`, abbiamo bisogno di ricevere entro il `<gg/mm/aaaa>` altri documenti.
 
 Consulta il riepilogo della tua richiesta, \[visita questo sito]\(URL).
 
@@ -203,7 +203,7 @@ Consulta il riepilogo della tua richiesta, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio:**
 
-La tua richiesta di \<oggetto della richiesta> del \<tipologia di documento> è stata accolta.
+La tua richiesta di `<oggetto della richiesta>` del `<tipologia di documento>` è stata accolta.
 
 Riceverai un messaggio in app quando il documento sarà disponibile per il ritiro.
 
@@ -225,11 +225,11 @@ Per ulteriori informazioni, \[visita questo sito]\(URL)
 
 <summary>Richiesta per variazioni o rilascio atto/certificato di nascita: non accolta</summary>
 
-**🖋 Titolo del messaggio:** Richiesta \<tipologia di documento> non accolta
+**🖋 Titolo del messaggio:** Richiesta `<tipologia di documento>` non accolta
 
 🗒 **Testo del messaggio:**
 
-La tua richiesta di \<oggetto della richiesta> del \<tipologia documento> non è stata accolta.
+La tua richiesta di `<oggetto della richiesta>` del `<tipologia documento>` non è stata accolta.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -249,11 +249,11 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 <summary>Rilascio del documento e termine del procedimento</summary>
 
-**🖋 Titolo del messaggio:** \<Tipologia documento> pronto per il ritiro
+**🖋 Titolo del messaggio:** `<Tipologia documento>` pronto per il ritiro
 
 🗒 **Testo del messaggio:**
 
-\<Tipologia documento> da te richiesto è pronto per il ritiro.
+`<Tipologia documento>` da te richiesto è pronto per il ritiro.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL)
 
@@ -275,11 +275,11 @@ Per ulteriori informazioni, \[visita questo sito]\(URL)
 
 <summary>Rilascio del documento e termine del procedimento</summary>
 
-**🖋 Titolo del messaggio:** Rilascio \<tipologia documento>
+**🖋 Titolo del messaggio:** Rilascio `<tipologia documento>`
 
 🗒 **Testo del messaggio:**
 
-Puoi \<scaricare/ritirare> \<tipologia documento> da te richiesto.
+Puoi `<scaricare/ritirare>` `<tipologia documento>` da te richiesto.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -303,7 +303,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio:**
 
-La tua richiesta di \<oggetto della richiesta> del \<tipologia documento> non è stata accolta.
+La tua richiesta di `<oggetto della richiesta>` del `<tipologia documento>` non è stata accolta.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 

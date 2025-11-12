@@ -33,9 +33,9 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 🗒 **Testo del messaggio**:&#x20;
 
-Il tuo documento \<tipo documento> sta per scadere.
+Il tuo documento `<tipo documento>` sta per scadere.
 
-Per il rinnovo, dovrai prendere appuntamento presso \<denominazione ufficio>.
+Per il rinnovo, dovrai prendere appuntamento presso `<denominazione ufficio>`.
 
 Per prenotare il tuo appuntamento, \[visita questo sito]\(URL).
 
@@ -65,13 +65,13 @@ Per prenotare il tuo appuntamento, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio:**
 
-Hai prenotato un appuntamento per \<oggetto dell’appuntamento>.
+Hai prenotato un appuntamento per `<oggetto dell’appuntamento>`.
 
-Il numero della prenotazione è: \<nnnn>.
+Il numero della prenotazione è: `<nnnn>`.
 
-**Dove**: \<indirizzo>
+**Dove**: `<indirizzo>`
 
-**Quando**: \<gg/mm/aaaa> alle \<hh:mm>
+**Quando**: `<gg/mm/aaaa>` alle `<hh:mm>`
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -99,11 +99,11 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio:**
 
-C’è un avviso da pagare intestato a \<nome> \<cognome> e relativo a \<causale>.
+C’è un avviso da pagare intestato a `<nome>` `<cognome>` e relativo a `<causale>`.
 
 **Devi pagare**: <00,00> €
 
-**Entro il**: \<gg/mm/aaaa>
+**Entro il**: `<gg/mm/aaaa>`
 
 Puoi pagare direttamente in app premendo “Paga”, oppure tramite tutti i canali di pagamento della piattaforma pagoPA e le altre modalità di pagamento offerte dell'ente creditore.
 
@@ -141,7 +141,7 @@ Gli utenti che hanno dato il loro consenso, infatti, riceveranno automaticamente
 
 🗒 **Testo del messaggio:**
 
-Il tuo pagamento per \<causale> sta per scadere.
+Il tuo pagamento per `<causale>` sta per scadere.
 
 Se hai già provveduto a pagare l’avviso, ignora questo messaggio.
 
@@ -167,7 +167,7 @@ Se hai già provveduto a pagare l’avviso, ignora questo messaggio.
 
 🗒 **Testo del messaggio:**
 
-Per elaborare la tua richiesta di rinnovo per \<tipo documento> al servizio \<tipologia di servizio> abbiamo bisogno di ricevere entro il \<gg/mm/aaaa> altri documenti.&#x20;
+Per elaborare la tua richiesta di rinnovo per `<tipo documento>` al servizio `<tipologia di servizio>` abbiamo bisogno di ricevere entro il `<gg/mm/aaaa>` altri documenti.&#x20;
 
 Consulta il riepilogo della richiesta<mark style="color:purple;">,</mark>\[visita questo sito]\(URL).
 
@@ -191,7 +191,7 @@ Consulta il riepilogo della richiesta<mark style="color:purple;">,</mark>\[visit
 
 🗒 **Testo del messaggio:**
 
-La tua richiesta per \<tipo documento> è stata accolta.
+La tua richiesta per `<tipo documento>` è stata accolta.
 
 \[Se previsto] Riceverai un messaggio su app IO quando i documenti saranno pronti per il ritiro.
 
@@ -217,7 +217,7 @@ Per informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio:**
 
-La tua richiesta per \<tipo documento> non è stata accolta.
+La tua richiesta per `<tipo documento>` non è stata accolta.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -247,7 +247,7 @@ L'invio di questo messaggio serve a comunicare al cittadino i passi successivi a
 
 🗒 **Testo del messaggio**:
 
-Il \<gg/mm/aaaa> la tua richiesta \<codice> è stata chiusa.
+Il `<gg/mm/aaaa>` la tua richiesta `<codice>` è stata chiusa.
 
 \[Inserire qui ulteriori passi necessari per il cittadino, da completare a cura e responsabilità dell'ente]
 
@@ -273,9 +273,9 @@ Per informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio:**
 
-Dal \<gg/mm/aaaa> puoi \<ritirare/visionare> i documenti richiesti.
+Dal `<gg/mm/aaaa>` puoi `<ritirare/visionare>` i documenti richiesti.
 
-**Dove**: \<indirizzo>
+**Dove**: `<indirizzo>`
 
 **Quando**: \[Inserire qui i giorni e gli orari di apertura dello sportello]
 
@@ -301,7 +301,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio**:
 
-Il \<gg/mm/aaaa> la tua richiesta \<oggetto> è stata annullata.
+Il `<gg/mm/aaaa>` la tua richiesta `<oggetto>` è stata annullata.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 

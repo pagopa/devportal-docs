@@ -35,7 +35,7 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 🗒 **Testo del messaggio**:
 
-In seguito alla delibera della Giunta Comunale \<riferimento all'atto> del \<gg/mm/aaaa>, abbiamo accolto con piacere la tua donazione di \<tipologia bene>.
+In seguito alla delibera della Giunta Comunale `<riferimento all'atto>` del `<gg/mm/aaaa>`, abbiamo accolto con piacere la tua donazione di `<tipologia bene>`.
 
 **🪄 Pulsante**: n/a
 
@@ -57,7 +57,7 @@ In seguito alla delibera della Giunta Comunale \<riferimento all'atto> del \<gg/
 
 🗒 **Testo del messaggio**:
 
-La tua donazione di \<tipologia bene> non è stata accolta.
+La tua donazione di `<tipologia bene>` non è stata accolta.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 

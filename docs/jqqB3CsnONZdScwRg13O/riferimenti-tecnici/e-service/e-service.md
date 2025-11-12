@@ -37,8 +37,8 @@ Tutti i campi del `configuration.json` sono **obbligatori**. Anche se non utiliz
 | ------------------------- | ------------------- | --------------------------------------------------------------------------------------------------- |
 | `description`             | String              | Descrizione della **versione** (10–250 caratteri, spazi inclusi).                                   |
 | `interface`               | Document            | Documento che descrive l’**interfaccia API** erogata.                                               |
-| `docs`                    | Array\<Document>    | Documenti allegati alla versione (es. documentazione tecnica). Default: `[]`.                       |
-| `audience`                | Array\<String>      | Audience della risorsa. In genere è inserita **una sola stringa**.                                  |
+| `docs`                    | Array`<Document>`    | Documenti allegati alla versione (es. documentazione tecnica). Default: `[]`.                       |
+| `audience`                | Array`<String>`      | Audience della risorsa. In genere è inserita **una sola stringa**.                                  |
 | `voucherLifespan`         | Number              | Durata del **voucher** in **secondi** (valori consentiti: `60`–`86_400`, cioè **1 minuto–24 ore**). |
 | `dailyCallsPerConsumer`   | Number              | Soglia chiamate **per fruitore** (chiamate API/giorno). Valori ≥ 1.                                 |
 | `dailyCallsTotal`         | Number              | Soglia chiamate **totali** (API/giorno) ≥ `dailyCallsPerConsumer`.                                  |
@@ -63,8 +63,8 @@ Tutti i campi del `configuration.json` sono **obbligatori**. Anche se non utiliz
 | Nome campo      | Tipo                             | Descrizione                                              |
 | --------------- | -------------------------------- | -------------------------------------------------------- |
 | `version`       | String                           | Versione del modello di analisi (es. **3.0** per le PA). |
-| `singleAnswers` | Array\<RiskAnalysisSingleAnswer> | Risposte **a scelta singola**.                           |
-| `multiAnswers`  | Array\<RiskAnalysisMultiAnswer>  | Risposte **a scelta multipla**.                          |
+| `singleAnswers` | Array`<RiskAnalysisSingleAnswer>` | Risposte **a scelta singola**.                           |
+| `multiAnswers`  | Array`<RiskAnalysisMultiAnswer>`  | Risposte **a scelta multipla**.                          |
 
 **RiskAnalysisSingleAnswer**
 
@@ -78,7 +78,7 @@ Tutti i campi del `configuration.json` sono **obbligatori**. Anche se non utiliz
 | Nome campo | Tipo           | Descrizione                                                                 |
 | ---------- | -------------- | --------------------------------------------------------------------------- |
 | `key`      | String         | Chiave che identifica la domanda nel template (es. `institutionalPurpose`). |
-| `values`   | Array\<String> | Elenco delle risposte selezionate.                                          |
+| `values`   | Array`<String>` | Elenco delle risposte selezionate.                                          |
 
 ***
 

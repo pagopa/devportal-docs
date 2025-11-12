@@ -12,9 +12,9 @@
 
 Your request for a refund for  <mark style="color:purple;">{object}</mark> has been accepted.
 
-**We will reimburse to you**: €\<00.00>
+**We will reimburse to you**: €`<00.00>`
 
-Due date: \<dd/mm/yyyy>
+Due date: `<dd/mm/yyyy>`
 
 **🪄 Button**: n/a
 
@@ -68,9 +68,9 @@ For more information, visit \[this website](URL).
 
 🗒 **Text of the message**: 
 
-On \<dd/mm/yyyy> we issued a refund for <mark style="color:purple;">{object}.</mark>
+On `<dd/mm/yyyy>` we issued a refund for <mark style="color:purple;">{object}.</mark>
 
-**We have refunded to you:** €\<00.00>
+**We have refunded to you:** €`<00.00>`
 
 For more information or if you need assistance, contact us using the channels located on the service tab.
 

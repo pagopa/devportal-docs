@@ -68,11 +68,11 @@ If a payment is due for the cancellation after the deadline:
 
 🗒 **Text of the message**: 
 
-There is a payment notice for \<first and last name> regarding \<reason>.  
+There is a payment notice for `<first and last name>` regarding `<reason>`.  
 
-**Amount due**: €\<00.00> 
+**Amount due**: €`<00.00>` 
 
-**Due date**: \<dd/mm/yyyy>  
+**Due date**: `<dd/mm/yyyy>`  
 
 You can pay directly in-app by pressing “See notice”, or using all the payment channels of the pagoPA platform and the other payment methods offered by the Creditor.
 

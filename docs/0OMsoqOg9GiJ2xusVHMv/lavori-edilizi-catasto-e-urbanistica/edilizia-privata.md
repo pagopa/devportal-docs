@@ -37,11 +37,11 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 🗒 **Testo del messaggio:**
 
-Hai prenotato un appuntamento per \<oggetto dell’appuntamento>.
+Hai prenotato un appuntamento per `<oggetto dell’appuntamento>`.
 
-**Dove**: \<indirizzo>
+**Dove**: `<indirizzo>`
 
-**Quando**: \<gg/mm/aaaa> alle \<hh:mm>
+**Quando**: `<gg/mm/aaaa>` alle `<hh:mm>`
 
 Per ulteriori informazioni, (visita questo sito)\[URL].
 
@@ -71,11 +71,11 @@ Per ulteriori informazioni, (visita questo sito)\[URL].
 
 🗒 **Testo del messaggio:**
 
-C’è un avviso di pagamento intestato a \<nome>\<cognome> e relativo a \<causale>.
+C’è un avviso di pagamento intestato a `<nome>``<cognome>` e relativo a `<causale>`.
 
 **Devi pagare**: <00,00> €
 
-**Entro il**: \<gg/mm/aaaa>
+**Entro il**: `<gg/mm/aaaa>`
 
 Puoi pagare direttamente in app premendo “Paga”, oppure tramite tutti i canali di pagamento della piattaforma pagoPA e le altre modalità di pagamento offerte dell'ente creditore.
 
@@ -113,7 +113,7 @@ Gli utenti che hanno dato il loro consenso, infatti, riceveranno automaticamente
 
 🗒 **Testo del messaggio:**
 
-Il tuo pagamento per \<causale> sta per scadere.
+Il tuo pagamento per `<causale>` sta per scadere.
 
 Se hai già provveduto a pagare l’avviso, ignora questo messaggio.
 
@@ -139,7 +139,7 @@ Se hai già provveduto a pagare l’avviso, ignora questo messaggio.
 
 🗒 **Testo del messaggio:**
 
-Per elaborare la tua domanda per \<oggetto> abbiamo bisogno di ricevere entro il \<gg/mm/aaaa> altri documenti.
+Per elaborare la tua domanda per `<oggetto>` abbiamo bisogno di ricevere entro il `<gg/mm/aaaa>` altri documenti.
 
 Per aggiungere i documenti alla tua richiesta, \[visita questo sito]\(URL).
 
@@ -163,11 +163,11 @@ Per aggiungere i documenti alla tua richiesta, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio:**
 
-La tua domanda per autorizzazione edilizia di \<indirizzo> è stata accolta.
+La tua domanda per autorizzazione edilizia di `<indirizzo>` è stata accolta.
 
-Puoi ora comunicare al Comune la data di inizio lavori tramite \<canale>.
+Puoi ora comunicare al Comune la data di inizio lavori tramite `<canale>`.
 
-Per richiedere controlli in corso d'opera contatta il Comune tramite \<canale>.
+Per richiedere controlli in corso d'opera contatta il Comune tramite `<canale>`.
 
 Per ulteriori informazioni, \[visita questa pagina]\(URL).
 
@@ -191,7 +191,7 @@ Per ulteriori informazioni, \[visita questa pagina]\(URL).
 
 🗒 **Testo del messaggio:**
 
-La tua domanda per autorizzazione edilizia di \<indirizzo> non è stata accolta.
+La tua domanda per autorizzazione edilizia di `<indirizzo>` non è stata accolta.
 
 Per ulteriori informazioni, \[visita questa pagina]\(URL).
 
@@ -223,15 +223,15 @@ Questo messaggio è da utilizzare sia per messaggi Premium, sia per messaggi sta
 
 🗒 **Testo del messaggio:**
 
-La tua certificazione di agibilità per l’immobile di \<indirizzo> è disponibile.
+La tua certificazione di agibilità per l’immobile di `<indirizzo>` è disponibile.
 
-Per scaricare la copia digitale in formato \<formato documento> \[visita questa pagina]\(URL).
+Per scaricare la copia digitale in formato `<formato documento>` \[visita questa pagina]\(URL).
 
-\[Solo per messaggi Premium con allegato] Trovi la copia digitale in formato \<formato documento> in allegato.
+\[Solo per messaggi Premium con allegato] Trovi la copia digitale in formato `<formato documento>` in allegato.
 
 \[Inserire qui istruzioni utili al ritiro ed eventuali possibilità di delega, da compilare a cura e responsabilità dell'ente]
 
-**Dove:** \<indirizzo>
+**Dove:** `<indirizzo>`
 
 **Quando:** \[Inserire qui i giorni e gli orari di apertura dello sportello]
 
@@ -239,7 +239,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 **🪄 Pulsante:** n/a
 
-<mark style="color:blue;">**📎 Allegato Premium:**</mark> \<certificazione di agibilità>
+<mark style="color:blue;">**📎 Allegato Premium:**</mark> `<certificazione di agibilità>`
 
 ***
 

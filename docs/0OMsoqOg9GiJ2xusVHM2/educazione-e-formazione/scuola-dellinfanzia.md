@@ -35,11 +35,11 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 ***
 
-**🖋 Titolo del messaggio:** Sono aperte le iscrizioni per l'anno educativo \<aaaa/aaaa>
+**🖋 Titolo del messaggio:** Sono aperte le iscrizioni per l'anno educativo `<aaaa/aaaa>`
 
 🗒 **Testo del messaggio**:
 
-Dal \<gg/mm/aaaa> al \<gg/mm/aaaa> potrai fare domanda di iscrizione al servizio \<tipologia di servizio> per l’anno educativo \<aaaa/aaaa>.
+Dal `<gg/mm/aaaa>` al `<gg/mm/aaaa>` potrai fare domanda di iscrizione al servizio `<tipologia di servizio>` per l’anno educativo `<aaaa/aaaa>`.
 
 Per ulteriori informazioni e fare domanda d’iscrizione, \[visita questo sito]\(URL).
 
@@ -71,9 +71,9 @@ La compilazione della domanda può prevedere diversi stati di elaborazione rappr
 
 🗒 **Testo del messaggio**:
 
-Il \<gg/mm/aaaa> abbiamo ricevuto la tua domanda di iscrizione per \<nome> \<cognome> al servizio \<tipologia del servizio> per l’anno educativo \<aaaa/aaaa>.
+Il `<gg/mm/aaaa>` abbiamo ricevuto la tua domanda di iscrizione per `<nome>` `<cognome>` al servizio `<tipologia del servizio>` per l’anno educativo `<aaaa/aaaa>`.
 
-Il numero di protocollo della tua domanda è: \<nnnn>
+Il numero di protocollo della tua domanda è: `<nnnn>`
 
 Per consultare il riepilogo della domanda, \[visita questo sito]\(URL).
 
@@ -101,7 +101,7 @@ Per consultare il riepilogo della domanda, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio**:
 
-Per elaborare la tua domanda di iscrizione per \<nome> \<cognome> al servizio \<tipologia di servizio> nr. \<nnnn> per l’anno educativo \<aaaa/aaaa>, abbiamo bisogno di ricevere entro il \<gg/mm/aaaa> altri documenti.
+Per elaborare la tua domanda di iscrizione per `<nome>` `<cognome>` al servizio `<tipologia di servizio>` nr. `<nnnn>` per l’anno educativo `<aaaa/aaaa>`, abbiamo bisogno di ricevere entro il `<gg/mm/aaaa>` altri documenti.
 
 Consulta il riepilogo della domanda, \[visita questo sito]\(URL).
 
@@ -125,8 +125,8 @@ Consulta il riepilogo della domanda, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio**:
 
-La domanda di iscrizione per \<nome> \<cognome> al servizio \<tipologia di servizio> nr. \<nnnn> per l'anno educativo \<aaaa/aaaa> è stata accolta in \<gg/mm/aaaa>.\
-Sarà possibile consultare la propria posizione in graduatoria dal \<gg/mm/aaaa>.
+La domanda di iscrizione per `<nome>` `<cognome>` al servizio `<tipologia di servizio>` nr. `<nnnn>` per l'anno educativo `<aaaa/aaaa>` è stata accolta in `<gg/mm/aaaa>`.\
+Sarà possibile consultare la propria posizione in graduatoria dal `<gg/mm/aaaa>`.
 
 \[Se previsto] Per consultare il riepilogo della domanda, \[visita questo sito]\(URL).
 
@@ -150,7 +150,7 @@ Sarà possibile consultare la propria posizione in graduatoria dal \<gg/mm/aaaa>
 
 🗒 **Testo del messaggio**:
 
-La domanda di iscrizione per \<nome> \<cognome> al servizio \<tipologia di servizio> nr. \<nnnn> per l'anno educativo \<aaaa/aaaa> non è stata accolta.
+La domanda di iscrizione per `<nome>` `<cognome>` al servizio `<tipologia di servizio>` nr. `<nnnn>` per l'anno educativo `<aaaa/aaaa>` non è stata accolta.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -178,13 +178,13 @@ La graduatoria viene pubblicata secondo le modalità scelte dall'ente: se le gra
 
 ***
 
-**🖋 Titolo del messaggio:** Pubblicata la graduatoria \<provvisoria/definitiva> per l’anno \<aaaa/aaaa>
+**🖋 Titolo del messaggio:** Pubblicata la graduatoria `<provvisoria/definitiva>` per l’anno `<aaaa/aaaa>`
 
 🗒 **Testo del messaggio**:
 
-È disponibile la graduatoria di ammissione al servizio \<tipologia di servizio> per \<nome> \<cognome> per l’anno educativo \<aaaa/aaaa>.
+È disponibile la graduatoria di ammissione al servizio `<tipologia di servizio>` per `<nome>` `<cognome>` per l’anno educativo `<aaaa/aaaa>`.
 
-Se vuoi rinunciare alla tua posizione, hai tempo fino al \<gg/mm/aaaa>.
+Se vuoi rinunciare alla tua posizione, hai tempo fino al `<gg/mm/aaaa>`.
 
 Per visualizzare la tua posizione in graduatoria \[visita questo sito]\(URL).
 
@@ -208,7 +208,7 @@ Per visualizzare la tua posizione in graduatoria \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio**:
 
-Hai confermato la posizione in graduatoria per la domanda di iscrizione per \<nome> \<cognome> al servizio \<tipologia di servizio> nr. \<nnnn> per l'anno educativo \<aaaa/aaaa> presso \<scuola> .
+Hai confermato la posizione in graduatoria per la domanda di iscrizione per `<nome>` `<cognome>` al servizio `<tipologia di servizio>` nr. `<nnnn>` per l'anno educativo `<aaaa/aaaa>` presso `<scuola>` .
 
 \[indicare eventuali comunicazioni future, ad esempio data d'inserimento a scuola]
 
@@ -236,7 +236,7 @@ Per consultare la tua domanda, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio**:
 
-Abbiamo ricevuto la tua richiesta di rinuncia alla posizione in graduatoria di \<nome> \<cognome> per il servizio \<tipologia di servizio> per l’anno educativo \<aaaa>.
+Abbiamo ricevuto la tua richiesta di rinuncia alla posizione in graduatoria di `<nome>` `<cognome>` per il servizio `<tipologia di servizio>` per l’anno educativo `<aaaa>`.
 
 \[Inserire qui eventuali indicazioni su comunicazioni future]
 
@@ -262,7 +262,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio**:
 
-La tua richiesta di rinuncia alla tua posizione in graduatoria di \<nome> \<cognome> per il servizio \<tipologia di servizio> per l’anno educativo \<aaaa/aaaa> è stata accolta.
+La tua richiesta di rinuncia alla tua posizione in graduatoria di `<nome>` `<cognome>` per il servizio `<tipologia di servizio>` per l’anno educativo `<aaaa/aaaa>` è stata accolta.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -286,11 +286,11 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio**:
 
-C'è un avviso da pagare intestato a \<nome e cognome> e relativo a \<causale>. 
+C'è un avviso da pagare intestato a `<nome e cognome>` e relativo a `<causale>`. 
 
 **Devi pagare**: <00,00> €
 
-**Entro il**: \<gg/mm/aaaa> 
+**Entro il**: `<gg/mm/aaaa>` 
 
 Puoi pagare direttamente in app premendo “Paga”, oppure tramite tutti i canali di pagamento della piattaforma pagoPA e le altre modalità di pagamento offerte dell'ente creditore.
 
@@ -356,11 +356,11 @@ Qui sono riportati i messaggi di pagamento gestiti dall'ente:
 
 🗒 **Testo del messaggio**:
 
-C'è un avviso da pagare intestato a \<nome e cognome> e relativo a \<causale>.
+C'è un avviso da pagare intestato a `<nome e cognome>` e relativo a `<causale>`.
 
 **Devi pagare:** <00,00> €
 
-**Entro il:** \<gg/mm/aaaa>
+**Entro il:** `<gg/mm/aaaa>`
 
 Puoi pagare direttamente in app premendo “Paga”, oppure tramite tutti i canali di pagamento della piattaforma pagoPA e le altre modalità di pagamento offerte dell'ente creditore.
 
@@ -392,7 +392,7 @@ In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio p
 
 🗒 **Testo del messaggio**:
 
-Il tuo pagamento per l’iscrizione di \<nome> \<cognome> al servizio \<tipologia di servizio> per l’anno \<aaaa> sta per scadere.
+Il tuo pagamento per l’iscrizione di `<nome>` `<cognome>` al servizio `<tipologia di servizio>` per l’anno `<aaaa>` sta per scadere.
 
 Se hai già provveduto a pagare l’avviso ignora questo messaggio.
 
@@ -422,7 +422,7 @@ Il seguente messaggio serve a sensibilizzare il cittadino per il mancato pagamen
 
 🗒 **Testo del messaggio**:
 
-Il tuo pagamento per \<causale> è scaduto il \<gg/mm/aaaa>.
+Il tuo pagamento per `<causale>` è scaduto il `<gg/mm/aaaa>`.
 
 Se hai già provveduto a pagare l’avviso ignora questo messaggio.
 
@@ -446,7 +446,7 @@ Se hai già provveduto a pagare l’avviso ignora questo messaggio.
 
 🗒 **Testo del messaggio**:
 
-Risultano pagamenti insoluti a carico di \<nome> \<cognome> e relative a \<causale>.
+Risultano pagamenti insoluti a carico di `<nome>` `<cognome>` e relative a `<causale>`.
 
 Per maggiori informazioni o per richiedere assistenza, contattaci tramite i canali che trovi nella scheda servizio o \[visita il sito]\(URL).
 
@@ -474,7 +474,7 @@ Qui sono riportati i messaggi di pagamento nel caso in cui l'ente si avvale di u
 
 🗒 **Testo del messaggio**:
 
-Il termine per il pagamento relativo alla retta scolastica per \<nome> \<cognome> scadrà il \<gg/mm/aaaa>.
+Il termine per il pagamento relativo alla retta scolastica per `<nome>` `<cognome>` scadrà il `<gg/mm/aaaa>`.
 
 Ricarica il tuo borsellino elettronico con l'importo dovuto entro la data di scadenza.
 
@@ -500,7 +500,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio**:
 
-Il pagamento automatico per \<causale> non è stato effettuato tramite il borsellino elettronico gestito da \<ente>.
+Il pagamento automatico per `<causale>` non è stato effettuato tramite il borsellino elettronico gestito da `<ente>`.
 
 Ricarica ora per saldare l'importo dovuto. Per farlo, \[sito]\(URL).
 

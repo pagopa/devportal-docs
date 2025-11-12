@@ -22,7 +22,7 @@ Una volta importato, il componente è disponibile in pagina sotto forma di custo
 
 #### Includere il Pulsante Firma con IO
 
-Per poter usare il componente io-sign è necessario includerlo all'interno delle proprie pagine HTML (dentro \<head> o alla fine di \<body>)
+Per poter usare il componente io-sign è necessario includerlo all'interno delle proprie pagine HTML (dentro `<head>` o alla fine di `<body>`)
 
 ```
 <script type="module" src="https://assets.cdn.io.pagopa.it/sign/io-sign.js"></script>
@@ -46,7 +46,7 @@ Il componente, infine, espone la funzione reset(), che annulla il loading e ne r
 
 **Esempio**
 
-Questo esempio mostra come aggiungere l'elemento \<io-sign> in pagina, gestire l'evento io-sign.cta.click emesso al click del Pulsante Firma con IO e chiamare la funzione redirectOrShowQrCode per mostrare il QRCode o portare l'utente direttamente su App IO o reset per terminare il loading.
+Questo esempio mostra come aggiungere l'elemento `<io-sign>` in pagina, gestire l'evento io-sign.cta.click emesso al click del Pulsante Firma con IO e chiamare la funzione redirectOrShowQrCode per mostrare il QRCode o portare l'utente direttamente su App IO o reset per terminare il loading.
 
 Nel tuo applicativo all'interno della funzione (qui nominata) createOrRetrieveSignatureRequest dovrai mettere tutta la business logic necessaria per creare la richiesta di Firma, ottenerne una già creata, caricare i documenti dialogando con le tue API back-end integrate alle API REST di Firma con IO.
 

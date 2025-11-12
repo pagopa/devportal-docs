@@ -104,7 +104,7 @@ curl -X <httpMethod1> \
 ```
 
 **NOTA:** nella chiamata fare attenzione a sostituire i campi parametrici con le informazioni ottenute agli altri punti. Da notare che il comando **--data-binary** è necessario per fare l'upload del documento e bisognerà inserire la **@** prima del path del file che si sta caricando.\
-E' importante lanciare la curl con il --verbose che permetterà di visualizzare nell'header della response di esito positivo il valore di x-amz-version-id: **\<versionIdNotifica>** utile per la prossima chiamata.\
+E' importante lanciare la curl con il --verbose che permetterà di visualizzare nell'header della response di esito positivo il valore di x-amz-version-id: **`<versionIdNotifica>`** utile per la prossima chiamata.\
 Assicurarsi di **NON** inserire in questa chiamata l'Autorization Header `"Authorization: Bearer <`PDNDVoucher`>`con il Vocuher.
 
 **Upload del documento Pagamento.pdf**

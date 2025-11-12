@@ -25,14 +25,14 @@ Quando il pagamento è legato ad una **domiciliazione** — anche d. bancaria, d
 🗒 **Testo del messaggio**:
 
 <mark style="color:green;">// se causale generica //</mark>\
-<mark style="color:orange;">\{{{C'è un avviso da pagare intestato a \<nome> \<cognome> e relativo a \<causale>.\}}}</mark>
+<mark style="color:orange;">\{{{C'è un avviso da pagare intestato a `<nome>` `<cognome>` e relativo a `<causale>`.\}}}</mark>
 
 <mark style="color:green;">// se causale specifica //</mark>\
 <mark style="color:orange;">\{{{La tua</mark> <mark style="color:purple;">{domanda di rinuncia per …}</mark> <mark style="color:orange;">è arrivata oltre il termine previsto.\}}}</mark>
 
 **Devi pagare:** <00,00> €
 
-**Entro il:** \<gg/mm/aaaa>
+**Entro il:** `<gg/mm/aaaa>`
 
 Puoi pagare direttamente in app premendo “Paga", oppure tramite tutti i canali di pagamento della piattaforma pagoPA e le altre modalità di pagamento offerte dell'ente creditore.
 
@@ -70,11 +70,11 @@ In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio p
 
 **🖋 Titolo del messaggio:** Proroga scadenza del pagamento
 
-🗒 **Testo del messaggio**: È stata prorogata la data di scadenza dell'avviso intestato a \<nome cognome> e relativo a \<casuale>.
+🗒 **Testo del messaggio**: È stata prorogata la data di scadenza dell'avviso intestato a `<nome cognome>` e relativo a `<casuale>`.
 
 **Devi pagare**: <00,00> €&#x20;
 
-**Entro il**: \<gg/mm/aaaa>
+**Entro il**: `<gg/mm/aaaa>`
 
 Puoi pagare direttamente in app premendo "Paga", oppure tramite tutti i canali di pagamento della piattaforma pagoPA.
 
@@ -112,7 +112,7 @@ Il seguente messaggio serve a sensibilizzare il cittadino per il mancato pagamen
 
 🗒 **Testo del messaggio**:&#x20;
 
-Il tuo pagamento \<causale> è scaduto il \<gg/mm/aaaa>.
+Il tuo pagamento `<causale>` è scaduto il `<gg/mm/aaaa>`.
 
 Se hai già provveduto a pagare l’avviso <mark style="color:orange;">\{{{o se hai richiesto la domiciliazione</mark> <mark style="color:purple;">{delle rette}</mark> <mark style="color:orange;">sul conto corrente, \}}}</mark> ignora questo messaggio.
 

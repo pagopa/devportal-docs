@@ -37,7 +37,7 @@ Per creare una notifica con il pagamento sincrono è necessario inserire nel cam
   NOTA: è possibile utilizzare se configurato in ambiente di UAT di pagoPA il codice fiscale dell'ente creditore.
 * Numero di avviso formalmente valido, per esempio: `302010xxxxxxxxxx`
 
-NOTA: la coppia \<codice fiscale ente creditore>,\<numero di avviso> **deve essere univoco per ambiente**, in caso sia già stato utilizzato la notifica verrà rifiutata.
+NOTA: la coppia `<codice fiscale ente creditore>`,`<numero di avviso>` **deve essere univoco per ambiente**, in caso sia già stato utilizzato la notifica verrà rifiutata.
 
 #### Modalità di integrazione Async&#x20;
 

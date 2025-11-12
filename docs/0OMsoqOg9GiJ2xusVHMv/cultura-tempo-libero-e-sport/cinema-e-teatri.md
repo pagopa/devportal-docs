@@ -35,7 +35,7 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 🗒 **Testo del messaggio**:&#x20;
 
-Sono aperte le iscrizioni ai laboratori teatrali di \<nome teatro> per l’anno \<aaaa/aaaa>.
+Sono aperte le iscrizioni ai laboratori teatrali di `<nome teatro>` per l’anno `<aaaa/aaaa>`.
 
 \[Inserire qui una breve descrizione dei laboratori e a chi sono rivolti, da compilare a cura e responsabilità dell'ente]
 
@@ -67,11 +67,11 @@ Per fare domanda di iscrizione, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio**:\
 \
-C'è un avviso da pagare intestato a \<nome> \<cognome> e relativo a \<causale>.
+C'è un avviso da pagare intestato a `<nome>` `<cognome>` e relativo a `<causale>`.
 
 **Devi pagare:** <00,00> €
 
-**Entro il:** \<gg/mm/aaaa>
+**Entro il:** `<gg/mm/aaaa>`
 
 Puoi pagare direttamente in app premendo “Paga”, oppure tramite tutti i canali di pagamento della piattaforma pagoPA e le altre modalità di pagamento offerte dell'ente creditore.
 
@@ -109,7 +109,7 @@ Gli utenti che hanno dato il loro consenso, infatti, riceveranno automaticamente
 
 🗒 **Testo del messaggio**:&#x20;
 
-Il tuo pagamento per \<causale> sta per scadere.
+Il tuo pagamento per `<causale>` sta per scadere.
 
 Se hai già provveduto a pagare l’avviso, ignora questo messaggio.
 
@@ -139,7 +139,7 @@ Il seguente messaggio serve a sollecitare il cittadino per il mancato pagamento 
 
 🗒 **Testo del messaggio**:&#x20;
 
-Il tuo pagamento per \<causale> è scaduto il \<gg/mm/aaaa>.
+Il tuo pagamento per `<causale>` è scaduto il `<gg/mm/aaaa>`.
 
 Se hai già provveduto a pagare l’avviso ignora questo messaggio.
 
@@ -165,7 +165,7 @@ Se hai già provveduto a pagare l’avviso ignora questo messaggio.
 
 **🗒 Testo del messaggio:**
 
-La tua domanda di iscrizione ai laboratori teatrali del teatro \<nome teatro> per l’anno \<aaaa/aaaa> è stata accolta.
+La tua domanda di iscrizione ai laboratori teatrali del teatro `<nome teatro>` per l’anno `<aaaa/aaaa>` è stata accolta.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -189,7 +189,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio:**
 
-La tua domanda di iscrizione ai laboratori teatrali del teatro di \<nome teatro> per l’anno \<aaaa/aaaa> non è stata accolta.
+La tua domanda di iscrizione ai laboratori teatrali del teatro di `<nome teatro>` per l’anno `<aaaa/aaaa>` non è stata accolta.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -225,11 +225,11 @@ Questo messaggio è da utilizzare sia per messaggi Premium, sia per messaggi sta
 
 🗒 **Testo del messaggio:**
 
-Il \<gg/mm/aaaa> è stato pubblicato il bando per la formazione finanziata a teatro nel Comune di \<Comune>.
+Il `<gg/mm/aaaa>` è stato pubblicato il bando per la formazione finanziata a teatro nel Comune di `<Comune>`.
 
-Per presentare domanda di partecipazione, puoi prenotare un appuntamento presso \<denominazione sportello> o inviare la modulistica tramite \<canale>.
+Per presentare domanda di partecipazione, puoi prenotare un appuntamento presso `<denominazione sportello>` o inviare la modulistica tramite `<canale>`.
 
-**Dove**: \<indirizzo>
+**Dove**: `<indirizzo>`
 
 **Quando**: \[inserire qui i giorni e gli orari di apertura dello sportello]
 
@@ -239,7 +239,7 @@ Per consultare i criteri di assegnazione e scaricare la modulistica, \[visita qu
 
 **🪄 Pulsante**: n/a
 
-**📎&#x20;**<mark style="color:blue;">**Allegato Premium**</mark>: \<testo integrale del bando>
+**📎&#x20;**<mark style="color:blue;">**Allegato Premium**</mark>: `<testo integrale del bando>`
 
 ***
 
@@ -265,7 +265,7 @@ Questo messaggio è da utilizzare sia per messaggi Premium, sia per messaggi sta
 
 🗒 **Testo del messaggio:**
 
-Il \<gg/mm/aaaa> è stato aggiornato il bando per \<oggetto del bando>.
+Il `<gg/mm/aaaa>` è stato aggiornato il bando per `<oggetto del bando>`.
 
 Per visualizzare il bando aggiornato, \[visita questo sito]\(URL).
 
@@ -273,7 +273,7 @@ Per visualizzare il bando aggiornato, \[visita questo sito]\(URL).
 
 **🪄 Pulsante**: n/a
 
-<mark style="color:blue;">**📎 Allegato Premium:**</mark> \<testo integrale del bando aggiornato>
+<mark style="color:blue;">**📎 Allegato Premium:**</mark> `<testo integrale del bando aggiornato>`
 
 ***
 
@@ -295,7 +295,7 @@ Per visualizzare il bando aggiornato, \[visita questo sito]\(URL).
 
 **🗒 Testo del messaggio:**
 
-La domanda di ammissione presso \<nome teatro> che hai presentato il \<gg/mm/aaaa> è stata accolta.
+La domanda di ammissione presso `<nome teatro>` che hai presentato il `<gg/mm/aaaa>` è stata accolta.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -319,7 +319,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio:**
 
-La domanda di ammissione presso \<nome teatro> che hai presentato il \<gg/mm/aaaa> non è stata accolta.
+La domanda di ammissione presso `<nome teatro>` che hai presentato il `<gg/mm/aaaa>` non è stata accolta.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -341,13 +341,13 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 <summary>Pubblicazione graduatoria</summary>
 
-**🖋 Titolo del messaggio:** Pubblicata la graduatoria per \<bando>
+**🖋 Titolo del messaggio:** Pubblicata la graduatoria per `<bando>`
 
 🗒 **Testo del messaggio:**
 
-È disponibile la graduatoria per il servizio \<tipologia di servizio> per \<nome> \<cognome>.
+È disponibile la graduatoria per il servizio `<tipologia di servizio>` per `<nome>` `<cognome>`.
 
-Se vuoi rinunciare alla tua posizione, hai tempo fino al \<gg/mm/aaaa>.
+Se vuoi rinunciare alla tua posizione, hai tempo fino al `<gg/mm/aaaa>`.
 
 Per visualizzare la tua posizione in graduatoria \[visita questo sito]\(URL).
 
@@ -373,11 +373,11 @@ Per visualizzare la tua posizione in graduatoria \[visita questo sito]\(URL).
 
 ***
 
-**🖋 Titolo del messaggio:** Il corso \<nome corso> sta per iniziare
+**🖋 Titolo del messaggio:** Il corso `<nome corso>` sta per iniziare
 
 🗒 **Testo del messaggio:**
 
-A partire dal \<gg/mm/aaaa> inizierà il corso \<nome corso> presso \<nome teatro> del Comune di \<Comune>.
+A partire dal `<gg/mm/aaaa>` inizierà il corso `<nome corso>` presso `<nome teatro>` del Comune di `<Comune>`.
 
 Per fare domanda di rinuncia, \[visita questo sito]\(URL).
 
@@ -403,7 +403,7 @@ Per fare domanda di rinuncia, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio:**
 
-La tua domanda di rinuncia al corso \<nome corso> è stata accolta.
+La tua domanda di rinuncia al corso `<nome corso>` è stata accolta.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -427,7 +427,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio:**
 
-La tua domanda di rinuncia al corso \<nome corso> non è stata accolta.
+La tua domanda di rinuncia al corso `<nome corso>` non è stata accolta.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 

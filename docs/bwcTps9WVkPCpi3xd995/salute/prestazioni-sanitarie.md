@@ -58,15 +58,15 @@ Tra i dati sensibili rientrano, ad esempio:
 
 \[Inserire la descrizione della prescrizione medica]
 
-Hai ricevuto una prescrizione medica per \<nome-prescrizione>.
+Hai ricevuto una prescrizione medica per `<nome-prescrizione>`.
 
-Ente: \<ente erogatore>
+Ente: `<ente erogatore>`
 
-Medico: \<nome> \<cognome>
+Medico: `<nome>` `<cognome>`
 
-Codice impegnativa: \<codice impegnativa>
+Codice impegnativa: `<codice impegnativa>`
 
-Scadenza: \<gg/mm/aa>
+Scadenza: `<gg/mm/aa>`
 
 **🪄 Pulsante:** Prenota appuntamento
 
@@ -94,13 +94,13 @@ Scadenza: \<gg/mm/aa>
 
 🗒 **Testo del messaggio**:
 
-Ti attendiamo per effettuare \<oggetto dell’appuntamento>.
+Ti attendiamo per effettuare `<oggetto dell’appuntamento>`.
 
-Il numero della prenotazione è: \<nnnn>.
+Il numero della prenotazione è: `<nnnn>`.
 
-**Dove:** \<indirizzo>
+**Dove:** `<indirizzo>`
 
-**Quando:** \<gg/mm/aaaa> alle \<hh:mm>
+**Quando:** `<gg/mm/aaaa>` alle `<hh:mm>`
 
 Ti arriverà un messaggio con l'avviso da pagare per questa prestazione.
 
@@ -134,13 +134,13 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio:**
 
-Ti ricordiamo il tuo appuntamento per \<oggetto dell’appuntamento>.
+Ti ricordiamo il tuo appuntamento per `<oggetto dell’appuntamento>`.
 
-Il numero della prenotazione è: \<nnnn>.
+Il numero della prenotazione è: `<nnnn>`.
 
-**Dove:** \<indirizzo>
+**Dove:** `<indirizzo>`
 
-**Quando:** \<gg/mm/aaaa> alle \<hh:mm>
+**Quando:** `<gg/mm/aaaa>` alle `<hh:mm>`
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -176,11 +176,11 @@ Se non veicolato all'interno del messaggio di conferma prenotazione, è possibil
 
 🗒 **Testo del messaggio**:
 
-C'è un avviso da pagare intestato a \<nome e cognome> e relativo a \<causale>.
+C'è un avviso da pagare intestato a `<nome e cognome>` e relativo a `<causale>`.
 
 **Devi pagare:** <00,00> €
 
-**Entro il:** \<gg/mm/aaaa>
+**Entro il:** `<gg/mm/aaaa>`
 
 Puoi pagare direttamente in app premendo “Paga”, oppure tramite tutti i canali di pagamento della piattaforma pagoPA e le altre modalità di pagamento offerte dell'ente creditore.
 
@@ -212,7 +212,7 @@ In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio p
 
 🗒 **Testo del messaggio**:
 
-Il tuo pagamento per \<oggetto appuntamento> con prenotazione \<nnnn> per il \<gg/mm/aaaa> sta per scadere.
+Il tuo pagamento per `<oggetto appuntamento>` con prenotazione `<nnnn>` per il `<gg/mm/aaaa>` sta per scadere.
 
 Se hai già provveduto a pagare l’avviso ignora questo messaggio.
 
@@ -242,7 +242,7 @@ Il seguente messaggio serve a sollecitare il cittadino per il mancato pagamento 
 
 🗒 **Testo del messaggio**:
 
-Il tuo pagamento per \<oggetto appuntamento> con prenotazione \<nnnn> per il \<gg/mm/aaaa> è scaduto il \<gg/mm/aaaa>.
+Il tuo pagamento per `<oggetto appuntamento>` con prenotazione `<nnnn>` per il `<gg/mm/aaaa>` è scaduto il `<gg/mm/aaaa>`.
 
 Se hai già provveduto a pagare l’avviso, ignora questo messaggio.
 
@@ -268,11 +268,11 @@ Se hai già provveduto a pagare l’avviso, ignora questo messaggio.
 
 🗒 **Testo del messaggio**:
 
-La richiesta di rimborso per \<tipologia di prestazione> è stata accolta.
+La richiesta di rimborso per `<tipologia di prestazione>` è stata accolta.
 
 **Ti rimborseremo**: <00,00> €
 
-**Entro il**: \<gg/mm/aaaa>
+**Entro il**: `<gg/mm/aaaa>`
 
 **🪄 Pulsante**: n/a
 
@@ -294,7 +294,7 @@ La richiesta di rimborso per \<tipologia di prestazione> è stata accolta.
 
 🗒 **Testo del messaggio**:
 
-La domanda per rimborso per \<tipologia di prestazione> non è stata accolta.
+La domanda per rimborso per `<tipologia di prestazione>` non è stata accolta.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -318,7 +318,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio**:
 
-Il gg/mm/aaaa abbiamo emesso un rimborso per \<oggetto prestazione>.
+Il gg/mm/aaaa abbiamo emesso un rimborso per `<oggetto prestazione>`.
 
 **Ti abbiamo rimborsato**: <00,00> €
 
@@ -350,7 +350,7 @@ Per maggiori informazioni o per richiedere assistenza, contattaci tramite i cana
 
 🗒 **Testo del messaggio**:
 
-Il \<gg/mm/aaaa>, alle ore \<hh:mm>, è stato pubblicato \<nome-referto> da \<ente> \<nome-medico>.
+Il `<gg/mm/aaaa>`, alle ore `<hh:mm>`, è stato pubblicato `<nome-referto>` da `<ente>` `<nome-medico>`.
 
 **🪄 Pulsante**: Vai al Fascicolo Sanitario
 
@@ -376,7 +376,7 @@ Il \<gg/mm/aaaa>, alle ore \<hh:mm>, è stato pubblicato \<nome-referto> da \<en
 
 🗒 **Testo del messaggio**:
 
-Il \<gg/mm/aaaa>, alle ore \<hh:mm>, è stato pubblicato \<nome-certificato> da \<ente> \<nome-medico>.
+Il `<gg/mm/aaaa>`, alle ore `<hh:mm>`, è stato pubblicato `<nome-certificato>` da `<ente>` `<nome-medico>`.
 
 **🪄 Pulsante**: Vai al Fascicolo Sanitario
 
@@ -402,7 +402,7 @@ Il \<gg/mm/aaaa>, alle ore \<hh:mm>, è stato pubblicato \<nome-certificato> da 
 
 🗒 **Testo del messaggio**:
 
-Il \<gg/mm/aaaa>, alle ore \<hh:mm>, è stato pubblicato \<nome-libretto> da \<ente> \<nome-medico>.
+Il `<gg/mm/aaaa>`, alle ore `<hh:mm>`, è stato pubblicato `<nome-libretto>` da `<ente>` `<nome-medico>`.
 
 **🪄 Pulsante**: Vai al Fascicolo Sanitario
 

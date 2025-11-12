@@ -65,10 +65,10 @@ Chiamata con metodo `GET` su endpoint `http://<urlValidator>/delivery-push/<iunD
 
 Sostituendo i seguenti:
 
-* **\<urlValidator>:** inserire la url del validator (se avviato con le istruzioni standard è localhost:3000)
-* **\<iunDellaNotifica>:** è lo IUN della notifica inserita verso il validator
-* **\<legalFactType>:** è il legalFactType del documento che si vuole scaricare
-* **\<legalFactId>:** è il legalFactId del documento che si vuole scaricare
+* **`<urlValidator>`:** inserire la url del validator (se avviato con le istruzioni standard è localhost:3000)
+* **`<iunDellaNotifica>`:** è lo IUN della notifica inserita verso il validator
+* **`<legalFactType>`:** è il legalFactType del documento che si vuole scaricare
+* **`<legalFactId>`:** è il legalFactId del documento che si vuole scaricare
 
 Si ottiene la seguente risposta:
 

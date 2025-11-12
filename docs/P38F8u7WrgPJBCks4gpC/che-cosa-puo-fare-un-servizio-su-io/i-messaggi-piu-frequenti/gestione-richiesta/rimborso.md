@@ -14,7 +14,7 @@ La tua richiesta di rimborso riguardante  <mark style="color:purple;">{oggetto}<
 
 **Ti rimborseremo**: <00,00> €
 
-Entro il: \<gg/mm/aaaa>
+Entro il: `<gg/mm/aaaa>`
 
 **🪄 Pulsante**: n/a
 
@@ -68,7 +68,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio**:&#x20;
 
-Il \<gg/mm/aaaa> abbiamo emesso un rimborso per <mark style="color:purple;">{oggetto}.</mark>
+Il `<gg/mm/aaaa>` abbiamo emesso un rimborso per <mark style="color:purple;">{oggetto}.</mark>
 
 **Ti abbiamo rimborsato:** <00,00> €
 

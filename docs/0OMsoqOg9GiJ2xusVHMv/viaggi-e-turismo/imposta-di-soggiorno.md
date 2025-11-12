@@ -33,7 +33,7 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 🗒 **Testo del messaggio**:&#x20;
 
-Hai tempo fino al \<gg/mm/aaaa> per presentare la dichiarazione annuale per l’anno \<aaaa>.
+Hai tempo fino al `<gg/mm/aaaa>` per presentare la dichiarazione annuale per l’anno `<aaaa>`.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -57,7 +57,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio**:&#x20;
 
-Hai tempo fino al \<gg/mm/aaaa> per inviare il riepilogo trimestrale dei pernottamenti.
+Hai tempo fino al `<gg/mm/aaaa>` per inviare il riepilogo trimestrale dei pernottamenti.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -81,7 +81,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio**:&#x20;
 
-Dal \<gg/mm/aaaa> \<oggetto della variazione> subirà le seguenti variazioni:
+Dal `<gg/mm/aaaa>` `<oggetto della variazione>` subirà le seguenti variazioni:
 
 \[Inserire qui le indicazioni sulle variazioni, da compilare a cura e responsabilità dell'ente]
 
@@ -113,11 +113,11 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio**:&#x20;
 
-C’è un avviso di pagamento intestato a \<nome> \<cognome> e relativo a \<causale>.
+C’è un avviso di pagamento intestato a `<nome>` `<cognome>` e relativo a `<causale>`.
 
 **Devi pagare**: <00,00> €
 
-**Entro il**: \<gg/mm/aaaa>
+**Entro il**: `<gg/mm/aaaa>`
 
 Puoi pagare direttamente in app premendo “Paga”, oppure tramite tutti i canali di pagamento della piattaforma pagoPA e le altre modalità di pagamento offerte dell'ente creditore.
 
@@ -155,7 +155,7 @@ Gli utenti che hanno dato il loro consenso, infatti, riceveranno automaticamente
 
 🗒 **Testo del messaggio**:&#x20;
 
-Il tuo pagamento per \<causale> sta per scadere.
+Il tuo pagamento per `<causale>` sta per scadere.
 
 Se hai già provveduto a pagare l’avviso, ignora questo messaggio.
 
@@ -185,7 +185,7 @@ Il seguente messaggio serve a sollecitare il cittadino per il mancato pagamento 
 
 🗒 **Testo del messaggio:**
 
-Il tuo pagamento per \<causale> è scaduto il \<gg/mm/aaaa>.
+Il tuo pagamento per `<causale>` è scaduto il `<gg/mm/aaaa>`.
 
 Se hai già provveduto a pagare l’avviso, ignora questo messaggio.
 

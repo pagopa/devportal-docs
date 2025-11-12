@@ -28,9 +28,9 @@ Altrimenti puoi utilizzare i seguenti messaggi:&#x20;
 
 🗒 **Testo del messaggio**:&#x20;
 
-La tua domanda per \<servizio> è stata presa in carico.&#x20;
+La tua domanda per `<servizio>` è stata presa in carico.&#x20;
 
-Il numero di protocollo è: \<nnnn>
+Il numero di protocollo è: `<nnnn>`
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -58,7 +58,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio**:&#x20;
 
-Per elaborare la tua <mark style="color:purple;">{domanda/richiesta per oggetto}</mark> al servizio \<tipologia di servizio> abbiamo bisogno di ricevere entro il \<gg/mm/aaaa> altri documenti.&#x20;
+Per elaborare la tua <mark style="color:purple;">{domanda/richiesta per oggetto}</mark> al servizio `<tipologia di servizio>` abbiamo bisogno di ricevere entro il `<gg/mm/aaaa>` altri documenti.&#x20;
 
 Consulta il riepilogo della <mark style="color:purple;">{domanda/richiesta}</mark>, \[visita questo sito]\(URL).
 
@@ -86,7 +86,7 @@ Consulta il riepilogo della <mark style="color:purple;">{domanda/richiesta}</mar
 
 🗒 **Testo del messaggio**:&#x20;
 
-La tua <mark style="color:purple;">{domanda/richiesta}</mark> per \<oggetto> è stata accolta.
+La tua <mark style="color:purple;">{domanda/richiesta}</mark> per `<oggetto>` è stata accolta.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -110,7 +110,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio**:&#x20;
 
-La tua <mark style="color:purple;">{domanda/richiesta}</mark> per \<oggetto> non è stata accolta.
+La tua <mark style="color:purple;">{domanda/richiesta}</mark> per `<oggetto>` non è stata accolta.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 

@@ -33,7 +33,7 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 🗒 **Testo del messaggio**:&#x20;
 
-Dal \<gg/mm/aaaa> saranno aperte le aste pubbliche per la vendita di beni mobili e immobili comunali.
+Dal `<gg/mm/aaaa>` saranno aperte le aste pubbliche per la vendita di beni mobili e immobili comunali.
 
 Per ulteriori informazioni, \[visita questa pagina]\(URL).
 
@@ -59,9 +59,9 @@ Per ulteriori informazioni, \[visita questa pagina]\(URL).
 
 🗒 **Testo del messaggio**:&#x20;
 
-Dal \<gg/mm/aaaa> è aperta l'asta pubblica per la vendita di beni mobili e immobili comunali.&#x20;
+Dal `<gg/mm/aaaa>` è aperta l'asta pubblica per la vendita di beni mobili e immobili comunali.&#x20;
 
-Hai tempo fino al \<gg/mm/aaaa> per manifestare interesse verso un bene in elenco.
+Hai tempo fino al `<gg/mm/aaaa>` per manifestare interesse verso un bene in elenco.
 
 Per ulteriori informazioni, \[visita questa pagina]\(URL).
 

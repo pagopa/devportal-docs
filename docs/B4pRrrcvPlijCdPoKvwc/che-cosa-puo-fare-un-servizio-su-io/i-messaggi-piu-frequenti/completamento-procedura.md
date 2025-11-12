@@ -10,7 +10,7 @@
 
 🗒 **Testo del messaggio**:
 
-Il \<gg/mm/aaaa> la tua richiesta \<codice> è stata chiusa.
+Il `<gg/mm/aaaa>` la tua richiesta `<codice>` è stata chiusa.
 
 \[Inserire qui ulteriori passi necessari per il cittadino]
 

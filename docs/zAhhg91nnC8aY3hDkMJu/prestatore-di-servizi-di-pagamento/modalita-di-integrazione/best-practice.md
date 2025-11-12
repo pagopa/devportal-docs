@@ -51,7 +51,7 @@ Non deve essere associato per nessun motivo alla _chiave di idempotenza_ il conc
 
 Se un PSP, ad esempio, non riceve la _response_ all'attivazione del pagamento potrà rifare la stessa chiamata, avendo cura di utilizzare la stessa chiave di idempotenza, ottenendo i dati che erano a lui destinati durante la prima chiamata. Qualora non utilizzasse la medesima chiave di idempotenza otterrà invece in _response_ “pagamento in corso” e non potrà procedere con il pagamento.
 
-La regola di generazione della _chiave di idempotenza_ è _\<CF\_PSP> + "\_" + \<RANDOM STRING>_.
+La regola di generazione della _chiave di idempotenza_ è _`<CF\_PSP>` + "\_" + `<RANDOM STRING>`_.
 
 La durata della _chiave di idempotenza_ è impostata dalla piattaforma pagoPA, in base ad una configurazione comune a tutti i PSP, nel caso della [activatePaymentNotice](../../appendici/primitive.md#activatepaymentnotice) la durata massima non può essere superiore a quella del p_ayment token._
 

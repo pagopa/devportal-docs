@@ -35,11 +35,11 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 🗒 **Testo del messaggio**:
 
-Dal \<gg/mm/aaaa> al \<gg/mm/aaaa> / Il \<gg/mm/aaaa> si terrà l’evento \<nome evento>:
+Dal `<gg/mm/aaaa>` al `<gg/mm/aaaa>` / Il `<gg/mm/aaaa>` si terrà l’evento `<nome evento>`:
 
-**Dove**: \<indirizzo>
+**Dove**: `<indirizzo>`
 
-**Orari**: \<orari evento>
+**Orari**: `<orari evento>`
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -69,11 +69,11 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 **🗒 Testo del messaggio:**
 
-Hai prenotato un posto per l’evento \<nome evento>.
+Hai prenotato un posto per l’evento `<nome evento>`.
 
-**Dove**: \<indirizzo>
+**Dove**: `<indirizzo>`
 
-**Quando**: \<gg/mm/aaaa> alle \<hh:mm>
+**Quando**: `<gg/mm/aaaa>` alle `<hh:mm>`
 
 \[Inserire qui eventuali ulteriori dettagli per il cittadino utili per la partecipazione all’evento, da compilare a cura e responsabilità dell'ente]
 
@@ -97,11 +97,11 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 <summary>Aggiornamenti sull'evento prenotato</summary>
 
-**🖋 Titolo del messaggio:** Aggiornamenti evento \<nome evento>
+**🖋 Titolo del messaggio:** Aggiornamenti evento `<nome evento>`
 
 🗒 **Testo del messaggio:**
 
-Ci sono aggiornamenti sull’evento \<nome evento>.
+Ci sono aggiornamenti sull’evento `<nome evento>`.
 
 \[Inserire qui gli aggiornamenti sull’evento, da compilare a cura e responsabilità dell'ente]
 
@@ -137,11 +137,11 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio:**
 
-Hai prenotato un appuntamento per \<oggetto dell’appuntamento>.
+Hai prenotato un appuntamento per `<oggetto dell’appuntamento>`.
 
-**Dove**: \<indirizzo>
+**Dove**: `<indirizzo>`
 
-**Quando**: \<gg/mm/aaaa> alle \<hh:mm>
+**Quando**: `<gg/mm/aaaa>` alle `<hh:mm>`
 
 Per ulteriori informazioni, (visita questo sito)\[URL].
 
@@ -167,7 +167,7 @@ Per ulteriori informazioni, (visita questo sito)\[URL].
 
 🗒 **Testo del messaggio:**
 
-La tua richiesta di patrocinio per l’evento \<nome evento> è stata accolta.
+La tua richiesta di patrocinio per l’evento `<nome evento>` è stata accolta.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -191,7 +191,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio:**
 
-La tua richiesta di patrocinio per l’evento \<nome evento> non è stata accolta.
+La tua richiesta di patrocinio per l’evento `<nome evento>` non è stata accolta.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL)
 
@@ -221,7 +221,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL)
 
 🗒 **Testo del messaggio:**
 
-Per elaborare la tua richiesta di \<oggetto della richiesta>, abbiamo bisogno di ricevere entro il \<gg/mm/aaaa> altri documenti.
+Per elaborare la tua richiesta di `<oggetto della richiesta>`, abbiamo bisogno di ricevere entro il `<gg/mm/aaaa>` altri documenti.
 
 Per aggiungere i documenti alla tua richiesta, \[visita questo sito]\(URL).
 
@@ -245,7 +245,7 @@ Per aggiungere i documenti alla tua richiesta, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio:**
 
-La tua richiesta di organizzazione per l’evento \<nome evento> è stata accolta.
+La tua richiesta di organizzazione per l’evento `<nome evento>` è stata accolta.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL)
 
@@ -269,7 +269,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL)
 
 🗒 **Testo del messaggio:**
 
-La tua richiesta di organizzazione per l’evento \<nome evento> non è stata accolta.
+La tua richiesta di organizzazione per l’evento `<nome evento>` non è stata accolta.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL)
 
@@ -299,7 +299,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL)
 
 🗒 **Testo del messaggio:**
 
-Per elaborare la tua richiesta aggiuntiva di \<oggetto della richiesta>, abbiamo bisogno di ricevere entro il \<gg/mm/aaaa> altri documenti.
+Per elaborare la tua richiesta aggiuntiva di `<oggetto della richiesta>`, abbiamo bisogno di ricevere entro il `<gg/mm/aaaa>` altri documenti.
 
 Per aggiungere i documenti alla tua richiesta, \[visita questo sito]\(URL).
 
@@ -323,7 +323,7 @@ Per aggiungere i documenti alla tua richiesta, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio:**
 
-La tua richiesta aggiuntiva di \<oggetto della richiesta> per l’evento \<nome evento> è stata accolta.
+La tua richiesta aggiuntiva di `<oggetto della richiesta>` per l’evento `<nome evento>` è stata accolta.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL)
 
@@ -347,7 +347,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL)
 
 🗒 **Testo del messaggio:**
 
-La tua richiesta aggiuntiva di \<oggetto della richiesta> per l’evento \<nome evento> non è stata accolta.
+La tua richiesta aggiuntiva di `<oggetto della richiesta>` per l’evento `<nome evento>` non è stata accolta.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL)
 

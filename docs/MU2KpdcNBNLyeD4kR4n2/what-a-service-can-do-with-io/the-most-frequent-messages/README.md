@@ -40,10 +40,10 @@ The texts <mark style="color:orange;">{{{between triple curly brackets and highl
 
 | Description| Variable|
 |----------|----------|
-| Amount due or refunded| €\<00.00>|
-| Date| \<dd/mm/yyyy>|
-| Example text to be supplemented by the institution with the specific data| \<first and last name>, \<description>, \<yyyy> etc.|
-| Choice to be made by the institution based on the example provided| \<summer centers/play centers>, \<provisional/definitive> etc.|
+| Amount due or refunded| €`<00.00>`|
+| Date| `<dd/mm/yyyy>`|
+| Example text to be supplemented by the institution with the specific data| `<first and last name>`, `<description>`, `<yyyy>` etc.|
+| Choice to be made by the institution based on the example provided| `<summer centers/play centers>`, `<provisional/definitive>` etc.|
 | Insertion of a link| \[Visit this website](URL)|
 | Guidance on the type of text to be integrated, no suggestions| [Insert a short bullet-pointed list of conditions].|
 

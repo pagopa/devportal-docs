@@ -29,11 +29,11 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 <summary>Modifiche al servizio</summary>
 
-**🖋 Titolo del messaggio:** Nuove disposizioni per \<oggetto della variazione>
+**🖋 Titolo del messaggio:** Nuove disposizioni per `<oggetto della variazione>`
 
 🗒 **Testo del messaggio**:
 
-Dal \<gg/mm/aaaa> \<oggetto della variazione> subirà le seguenti variazioni:
+Dal `<gg/mm/aaaa>` `<oggetto della variazione>` subirà le seguenti variazioni:
 
 \[Inserire qui le indicazioni sulle variazioni, da completare a cura e responsabilità dell'ente]
 
@@ -63,11 +63,11 @@ Se è prevista l'erogazione e l'utilizzo di una tessera per accedere alle discar
 
 🗒 **Testo del messaggio:**
 
-Dal \<gg/mm/aaaa> puoi ritirare la tua tessera \<riferimenti tessera>.
+Dal `<gg/mm/aaaa>` puoi ritirare la tua tessera `<riferimenti tessera>`.
 
 \[Inserire qui indicazioni sulle modalità di utilizzo della tessera]
 
-**Dove:** \<indirizzo>
+**Dove:** `<indirizzo>`
 
 **Quando:** \[Inserire qui i giorni e gli orari di apertura dello sportello]
 

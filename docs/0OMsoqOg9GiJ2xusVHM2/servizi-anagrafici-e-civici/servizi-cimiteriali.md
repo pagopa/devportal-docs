@@ -49,7 +49,7 @@ Tra i dati sensibili rientrano, ad esempio:
 
 🗒 **Testo del messaggio**:
 
-La tua richiesta \<nome servizio> è stata accolta. Per maggiori informazioni, \[visita questo sito]\(URL).
+La tua richiesta `<nome servizio>` è stata accolta. Per maggiori informazioni, \[visita questo sito]\(URL).
 
 **🪄 Pulsante**: n/a
 
@@ -71,7 +71,7 @@ La tua richiesta \<nome servizio> è stata accolta. Per maggiori informazioni, \
 
 🗒 **Testo del messaggio**:
 
-La tua richiesta per \<nome servizio> non è stata accolta.
+La tua richiesta per `<nome servizio>` non è stata accolta.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -95,7 +95,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio**:
 
-In seguito alla tua richiesta per \<nome servizio> accolta in data \<gg/mm/aaaa>, ti comunichiamo l'appuntamento previsto per \<gg/mm/aaaa> alle hh:mm.
+In seguito alla tua richiesta per `<nome servizio>` accolta in data `<gg/mm/aaaa>`, ti comunichiamo l'appuntamento previsto per `<gg/mm/aaaa>` alle hh:mm.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -123,11 +123,11 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio**:
 
-C'è un avviso da pagare intestato a \<nome e cognome> e relativo a \<causale>.
+C'è un avviso da pagare intestato a `<nome e cognome>` e relativo a `<causale>`.
 
 **Devi pagare:** <00,00> €
 
-**Entro il:** \<gg/mm/aaaa>
+**Entro il:** `<gg/mm/aaaa>`
 
 Puoi pagare direttamente in app premendo “Paga”, oppure tramite tutti i canali di pagamento della piattaforma pagoPA e le altre modalità di pagamento offerte dell'ente creditore.
 
@@ -159,7 +159,7 @@ In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio p
 
 🗒 **Testo del messaggio**:
 
-Il tuo pagamento per \<servizio> sta per scadere.
+Il tuo pagamento per `<servizio>` sta per scadere.
 
 Se hai già provveduto a pagare l’avviso ignora questo messaggio.
 
@@ -189,7 +189,7 @@ Il seguente messaggio serve a sensibilizzare il cittadino per il mancato pagamen
 
 🗒 **Testo del messaggio**:
 
-Il tuo pagamento per \<servizio> è scaduto il \<gg/mm/aaaa>.
+Il tuo pagamento per `<servizio>` è scaduto il `<gg/mm/aaaa>`.
 
 Se hai già provveduto a pagare l’avviso ignora questo messaggio.
 
@@ -215,7 +215,7 @@ Se hai già provveduto a pagare l’avviso ignora questo messaggio.
 
 🗒 **Testo del messaggio**:
 
-La tua richiesta per \<nome servizio> è stata accolta.
+La tua richiesta per `<nome servizio>` è stata accolta.
 
 Per maggiori informazioni, \[visita questo sito]\(URL).
 
@@ -239,7 +239,7 @@ Per maggiori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio**:
 
-La tua richiesta per \<nome servizio> non è stata accolta.
+La tua richiesta per `<nome servizio>` non è stata accolta.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -263,7 +263,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio**:
 
-In seguito alla tua richiesta per \<nome servizio> accolta in data \<gg/mm/aaaa>, ti comunichiamo l'appuntamento previsto per \<gg/mm/aaaa> alle \<hh:mm>.
+In seguito alla tua richiesta per `<nome servizio>` accolta in data `<gg/mm/aaaa>`, ti comunichiamo l'appuntamento previsto per `<gg/mm/aaaa>` alle `<hh:mm>`.
 
 **🪄 Pulsante**: n/a
 
@@ -289,11 +289,11 @@ In seguito alla tua richiesta per \<nome servizio> accolta in data \<gg/mm/aaaa>
 
 🗒 **Testo del messaggio**:
 
-C'è un avviso da pagare intestato a \<nome e cognome> e relativo a \<causale>.
+C'è un avviso da pagare intestato a `<nome e cognome>` e relativo a `<causale>`.
 
 **Devi pagare:** <00,00> €
 
-**Entro il:** \<gg/mm/aaaa>
+**Entro il:** `<gg/mm/aaaa>`
 
 Puoi pagare direttamente in app premendo “Paga”, oppure tramite tutti i canali di pagamento della piattaforma pagoPA e le altre modalità di pagamento offerte dell'ente creditore.
 
@@ -325,7 +325,7 @@ In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio p
 
 🗒 **Testo del messaggio**:
 
-Il tuo pagamento per \<nome servizio> sta per scadere.
+Il tuo pagamento per `<nome servizio>` sta per scadere.
 
 Se hai già provveduto a pagare l’avviso ignora questo messaggio.
 
@@ -355,7 +355,7 @@ Il seguente messaggio serve a sensibilizzare il cittadino per il mancato pagamen
 
 🗒 **Testo del messaggio**:
 
-Il tuo pagamento per \<nome servizio> è scaduto il \<gg/mm/aaaa>.
+Il tuo pagamento per `<nome servizio>` è scaduto il `<gg/mm/aaaa>`.
 
 Se hai già provveduto a pagare l’avviso ignora questo messaggio.
 
@@ -381,7 +381,7 @@ Se hai già provveduto a pagare l’avviso ignora questo messaggio.
 
 🗒 **Testo del messaggio**:
 
-La tua richiesta per la concessione a tempo determinato di \<specifica concessione cimiteriale> è stata accolta.
+La tua richiesta per la concessione a tempo determinato di `<specifica concessione cimiteriale>` è stata accolta.
 
 Il rilascio della concessione è subordinato al pagamento del canone per cui ti arriverà un messaggio in app con l'avviso di pagamento.
 
@@ -413,11 +413,11 @@ Per ulteriori informazioni sulla durata della concessione, \[visita questo sito]
 
 🗒 **Testo del messaggio**:
 
-C'è un avviso da pagare intestato a \<nome e cognome> e relativo a \<causale>.
+C'è un avviso da pagare intestato a `<nome e cognome>` e relativo a `<causale>`.
 
 **Devi pagare:** <00,00> €
 
-**Entro il:** \<gg/mm/aaaa>
+**Entro il:** `<gg/mm/aaaa>`
 
 Puoi pagare direttamente in app premendo “Paga”, oppure tramite tutti i canali di pagamento della piattaforma pagoPA e le altre modalità di pagamento offerte dell'ente creditore.
 
@@ -451,7 +451,7 @@ In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio p
 
 🗒 **Testo del messaggio**:
 
-Il tuo pagamento per \<servizio> sta per scadere.
+Il tuo pagamento per `<servizio>` sta per scadere.
 
 Se hai già provveduto a pagare l’avviso o se hai richiesto la domiciliazione delle rette sul conto corrente, ignora questo messaggio.
 
@@ -481,7 +481,7 @@ Il seguente messaggio serve a sensibilizzare il cittadino per il mancato pagamen
 
 🗒 **Testo del messaggio**:
 
-Il tuo pagamento per \<nome servizio> è scaduto il \<gg/mm/aaaa>.
+Il tuo pagamento per `<nome servizio>` è scaduto il `<gg/mm/aaaa>`.
 
 Se hai già provveduto a pagare l’avviso, ignora questo messaggio.
 
@@ -507,7 +507,7 @@ Se hai già provveduto a pagare l’avviso, ignora questo messaggio.
 
 🗒 **Testo del messaggio**:
 
-La tua concessione per \<specificare dettagli della concessione> è prossima alla scadenza in data \<gg/mm/aaaa>.
+La tua concessione per `<specificare dettagli della concessione>` è prossima alla scadenza in data `<gg/mm/aaaa>`.
 
 Se desideri prorogare la tua concessione, scopri come \[visitando questo sito]\(URL).
 
@@ -531,7 +531,7 @@ Se desideri prorogare la tua concessione, scopri come \[visitando questo sito]\(
 
 🗒 **Testo del messaggio**:
 
-La tua richiesta per \<nome servizio> è stata accolta.
+La tua richiesta per `<nome servizio>` è stata accolta.
 
 Per ulteriori informazioni sulla durata della concessione, \[visita questo sito]\(URL).
 
@@ -555,7 +555,7 @@ Per ulteriori informazioni sulla durata della concessione, \[visita questo sito]
 
 🗒 **Testo del messaggio**:
 
-La tua richiesta per \<nome servizio> non è stata accolta.
+La tua richiesta per `<nome servizio>` non è stata accolta.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -583,11 +583,11 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio**:
 
-C'è un avviso da pagare intestato a \<nome e cognome> e relativo a \<causale>.
+C'è un avviso da pagare intestato a `<nome e cognome>` e relativo a `<causale>`.
 
 **Devi pagare:** <00,00> €
 
-**Entro il:** \<gg/mm/aaaa>
+**Entro il:** `<gg/mm/aaaa>`
 
 Puoi pagare direttamente in app premendo “Paga”, oppure tramite tutti i canali di pagamento della piattaforma pagoPA e le altre modalità di pagamento offerte dell'ente creditore.
 
@@ -621,7 +621,7 @@ In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio p
 
 🗒 **Testo del messaggio**:
 
-Il tuo pagamento per \<nome servizio> sta per scadere.
+Il tuo pagamento per `<nome servizio>` sta per scadere.
 
 Se hai già provveduto a pagare l’avviso o se hai richiesto la domiciliazione delle rette sul conto corrente, ignora questo messaggio.
 
@@ -651,7 +651,7 @@ Il seguente messaggio serve a sensibilizzare il cittadino per il mancato pagamen
 
 🗒 **Testo del messaggio**:
 
-Il tuo pagamento per \<nome servizio> è scaduto il \<gg/mm/aaaa>.
+Il tuo pagamento per `<nome servizio>` è scaduto il `<gg/mm/aaaa>`.
 
 Se hai già provveduto a pagare l’avviso, ignora questo messaggio.
 
@@ -675,7 +675,7 @@ Se hai già provveduto a pagare l’avviso, ignora questo messaggio.
 
 🗒 **Testo del messaggio**:
 
-Ti informiamo che in data \<gg/mm/aaaa> la tua concessione per \<specificare dettagli della concessione> è scaduta.
+Ti informiamo che in data `<gg/mm/aaaa>` la tua concessione per `<specificare dettagli della concessione>` è scaduta.
 
 Per ulteriori informazioni sulla durata della concessione, \[visita questo sito]\(URL).
 
@@ -707,7 +707,7 @@ Per ulteriori informazioni sulla durata della concessione, \[visita questo sito]
 
 🗒 **Testo del messaggio**:
 
-La tua richiesta per \<nome servizio> è stata accolta.
+La tua richiesta per `<nome servizio>` è stata accolta.
 
 La richiesta è subordinata a un pagamento per la pratica per cui ti arriverà un messaggio in app con l'avviso di pagamento.
 
@@ -735,7 +735,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio**:
 
-La tua richiesta per \<nome servizio> non è stata accolta.
+La tua richiesta per `<nome servizio>` non è stata accolta.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -763,11 +763,11 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio**:
 
-C'è un avviso da pagare intestato a \<nome e cognome> e relativo a \<causale>.
+C'è un avviso da pagare intestato a `<nome e cognome>` e relativo a `<causale>`.
 
 **Devi pagare:** <00,00> €
 
-**Entro il:** \<gg/mm/aaaa>
+**Entro il:** `<gg/mm/aaaa>`
 
 Puoi pagare direttamente in app premendo “Paga”, oppure tramite tutti i canali di pagamento della piattaforma pagoPA e le altre modalità di pagamento offerte dell'ente creditore.
 
@@ -801,7 +801,7 @@ In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio p
 
 🗒 **Testo del messaggio**:
 
-Il tuo pagamento per \<nome servizio> sta per scadere.
+Il tuo pagamento per `<nome servizio>` sta per scadere.
 
 Se hai già provveduto a pagare l’avviso o se hai richiesto la domiciliazione delle rette sul conto corrente, ignora questo messaggio.
 
@@ -831,7 +831,7 @@ Il seguente messaggio serve a sensibilizzare il cittadino per il mancato pagamen
 
 🗒 **Testo del messaggio**:
 
-Il tuo pagamento per \<nome servizio> è scaduto il \<gg/mm/aaaa>.
+Il tuo pagamento per `<nome servizio>` è scaduto il `<gg/mm/aaaa>`.
 
 Se hai già provveduto a pagare l’avviso ignora questo messaggio.
 
@@ -855,7 +855,7 @@ Se hai già provveduto a pagare l’avviso ignora questo messaggio.
 
 🗒 **Testo del messaggio**:
 
-La tua disdetta per il servizio \<nome servizio> è stata correttamente processata.
+La tua disdetta per il servizio `<nome servizio>` è stata correttamente processata.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -887,9 +887,9 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 È stato pubblicato il nuovo calendario delle esumazioni ordinarie per:
 
-* Nome cimitero: \<nome>
-* Indirizzo: \<indirizzo>
-* Data: \<gg/mm/aaaa o periodo di tempo>
+* Nome cimitero: `<nome>`
+* Indirizzo: `<indirizzo>`
+* Data: `<gg/mm/aaaa o periodo di tempo>`
 
 La famiglia dovrà incaricare un'impresa funebre per svolgere alcune attività.
 
@@ -897,7 +897,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 **🪄 Pulsante**: n/a
 
-<mark style="color:blue;">**📎 Allegato:**</mark> \<modulo d'iscrizione>
+<mark style="color:blue;">**📎 Allegato:**</mark> `<modulo d'iscrizione>`
 
 ***
 

@@ -33,7 +33,7 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 🗒 **Testo del messaggio**:
 
-Il \<gg/mm/aaaa> dalle \<hh:mm> alle \<hh:mm> si svolgeranno interventi di disinfestazione in \<indirizzo>.
+Il `<gg/mm/aaaa>` dalle `<hh:mm>` alle `<hh:mm>` si svolgeranno interventi di disinfestazione in `<indirizzo>`.
 
 \[Inserire qui indicazioni sui comportamenti da adottare durante l’esecuzione dei lavori, da compilare a cura e responsabilità dell'ente]
 
@@ -59,7 +59,7 @@ Per consultare il calendario completo degli interventi, \[visita questo sito]\(U
 
 🗒 **Testo del messaggio:**
 
-Gli interventi di disinfestazione in \<indirizzo> pianificati per il \<gg/mm/aaaa> sono stati riprogrammati per \<causa>. I lavori saranno eseguiti il \<gg/mm/aaaa> dalle \<hh:mm> alle \<hh:mm>.
+Gli interventi di disinfestazione in `<indirizzo>` pianificati per il `<gg/mm/aaaa>` sono stati riprogrammati per `<causa>`. I lavori saranno eseguiti il `<gg/mm/aaaa>` dalle `<hh:mm>` alle `<hh:mm>`.
 
 \[Inserire qui indicazioni sui comportamenti da adottare durante l’esecuzione dei lavori, da compilare a cura e responsabilità dell'ente]
 
@@ -89,7 +89,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio:**
 
-La tua richiesta di intervento in \<indirizzo> è stata accolta.
+La tua richiesta di intervento in `<indirizzo>` è stata accolta.
 
 Riceverai un messaggio in app con aggiornamenti sulla tua segnalazione.
 
@@ -115,7 +115,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio:**
 
-La tua richiesta di intervento in \<indirizzo> non è stata accolta.
+La tua richiesta di intervento in `<indirizzo>` non è stata accolta.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -141,7 +141,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio:**
 
-I lavori di disinfestazione che hai richiesto in \<indirizzo> sono stati eseguiti il \<gg/mm/aaaa>.
+I lavori di disinfestazione che hai richiesto in `<indirizzo>` sono stati eseguiti il `<gg/mm/aaaa>`.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 

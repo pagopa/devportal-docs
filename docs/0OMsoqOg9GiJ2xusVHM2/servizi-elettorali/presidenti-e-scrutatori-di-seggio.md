@@ -39,7 +39,7 @@ Puoi iscriverti all'albo presidenti o l'albo scrutatori per partecipare ai seggi
 
 Per iscriverti, \[inserire la descrizione della procedura, da completare a cura e responsabilità dell'ente].
 
-La domanda è gratuita e può essere inoltrata dal \<gg/mm/aaaa> al \<gg/mm/aaaa>. Non è necessario rinnovarla ogni anno.
+La domanda è gratuita e può essere inoltrata dal `<gg/mm/aaaa>` al `<gg/mm/aaaa>`. Non è necessario rinnovarla ogni anno.
 
 Per ulteriori informazioni sul ruolo del presidente e scrutatore, \[visita questo sito]\(URL).
 
@@ -65,9 +65,9 @@ Per ulteriori informazioni sul ruolo del presidente e scrutatore, \[visita quest
 
 🗒 **Testo del messaggio**:
 
-Sei convocato a prestare servizio come \<presidente o scrutinatore> presso il seggio \<identificativo del seggio> per \<le elezioni o il referendum> del \<gg/mm/aaaa>.
+Sei convocato a prestare servizio come `<presidente o scrutinatore>` presso il seggio `<identificativo del seggio>` per `<le elezioni o il referendum>` del `<gg/mm/aaaa>`.
 
-Per ulteriori informazioni, \<inserire i canale di comunicazione da consultare o contattare>.
+Per ulteriori informazioni, `<inserire i canale di comunicazione da consultare o contattare>`.
 
 **🪄 Pulsante**: n/a
 

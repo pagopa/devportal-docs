@@ -29,11 +29,11 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 <summary>Aggiornamenti e novità Canone Unico</summary>
 
-**🖋 Titolo del messaggio:** Aggiornamenti e novità Canone Unico \<anno di riferimento>
+**🖋 Titolo del messaggio:** Aggiornamenti e novità Canone Unico `<anno di riferimento>`
 
 🗒 **Testo del messaggio**:
 
-Sono disponibili le nuove regolamentazioni e tariffe per l'anno \<aaaa>.
+Sono disponibili le nuove regolamentazioni e tariffe per l'anno `<aaaa>`.
 
 \[Inserire una descrizione sintetica e per punti di cosa prevedono le nuove regolamentazioni, da compilare a cura e responsabilità dell'ente]
 
@@ -67,11 +67,11 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio**:
 
-C'è un avviso da pagare intestato a \<nome e cognome> e relativo a \<causale>.
+C'è un avviso da pagare intestato a `<nome e cognome>` e relativo a `<causale>`.
 
 **Devi pagare:** <00,00> €
 
-**Entro il:** \<gg/mm/aaaa>
+**Entro il:** `<gg/mm/aaaa>`
 
 Puoi pagare direttamente in app premendo “Paga”, oppure tramite tutti i canali di pagamento della piattaforma pagoPA e le altre modalità di pagamento offerte dell'ente creditore.
 
@@ -109,7 +109,7 @@ In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio p
 
 🗒 **Testo del messaggio**:
 
-Il tuo pagamento per il Canone Unico Patrimoniale per \<dettaglio autorizzazione/concessione> sta per scadere.
+Il tuo pagamento per il Canone Unico Patrimoniale per `<dettaglio autorizzazione/concessione>` sta per scadere.
 
 Se hai già provveduto a pagare l’avviso o se hai richiesto la domiciliazione delle rette sul conto corrente, ignora questo messaggio.
 
@@ -139,7 +139,7 @@ Il seguente messaggio serve a sollecitare il cittadino per il mancato pagamento 
 
 🗒 **Testo del messaggio**:
 
-Il tuo pagamento per il Canone Unico Patrimoniale per \<dettaglio autorizzazione/concessione> è scaduto il \<gg/mm/aaaa>.
+Il tuo pagamento per il Canone Unico Patrimoniale per `<dettaglio autorizzazione/concessione>` è scaduto il `<gg/mm/aaaa>`.
 
 Se hai già provveduto a pagare l’avviso ignora questo messaggio.
 
@@ -165,11 +165,11 @@ Se hai già provveduto a pagare l’avviso ignora questo messaggio.
 
 🗒 **Testo del messaggio**:
 
-La richiesta di rimborso per il servizio \<tipologia di servizio> è stata accolta.
+La richiesta di rimborso per il servizio `<tipologia di servizio>` è stata accolta.
 
 **Ti rimborseremo**: <00,00> €
 
-**Entro il**: \<gg/mm/aaaa>
+**Entro il**: `<gg/mm/aaaa>`
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -193,7 +193,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio**:
 
-La domanda per rimborso per il servizio \<tipologia di servizio> non è stata accolta.
+La domanda per rimborso per il servizio `<tipologia di servizio>` non è stata accolta.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -217,7 +217,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio**:
 
-Il gg/mm/aaaa abbiamo emesso un rimborso per \<oggetto prestazione>.
+Il gg/mm/aaaa abbiamo emesso un rimborso per `<oggetto prestazione>`.
 
 **Ti abbiamo rimborsato**: <00,00> €
 

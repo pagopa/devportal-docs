@@ -11,5 +11,5 @@ La piattaforma pagoPA rileva un timeout nella chiamata verso la controparte e re
 * **id** = _NodoDeiPagamentiSPC_
 * **faultCode** = _PPT\_CANALE\_TIMEOUT_ (se controparte è PSP) / _PPT\_STAZIONE\_INT\_PA\_TIMEOUT_ (se controparte è EC)
 * **faultString** = _"Timeout in risposta dal canale"_ (se controparte è PSP) / _"Timeout risposta dalla stazione"_ (se controparte è EC)
-* **description** = _\<description>_
+* **description** = _`<description>`_
 * **serial** = (se necessario)

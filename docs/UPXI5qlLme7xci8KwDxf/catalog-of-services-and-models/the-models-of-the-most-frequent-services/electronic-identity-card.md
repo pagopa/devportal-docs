@@ -31,11 +31,11 @@ The series of all messages represents the ideal service. The institution that wa
 
 <summary><strong>Appointment confirmation</strong></summary>
 
-**🖋 Title of the message:** Your appointment with \<office>
+**🖋 Title of the message:** Your appointment with `<office>`
 
 🗒 **Text of the message**: 
 
-Please remember that you have an appointment with the \<office> located in \<address> on \<dd/mm/yyyy> at \<hh:mm>.
+Please remember that you have an appointment with the `<office>` located in `<address>` on `<dd/mm/yyyy>` at `<hh:mm>`.
 
 Please arrive at least 15 minutes before your appointment and bring all your necessary documents with you. For more information about the document you need, visit the website [CIE](https://www.cartaidentita.interno.gov.it/cittadini/rilascio-e-rinnovo-in-italia/).
 
@@ -57,11 +57,11 @@ You can cancel the appointment online, at \[website name](URL).
 
 <summary><strong>Appointment cancellation</strong></summary>
 
-**🖋 Title of the message:** Cancel appointment with \<office>
+**🖋 Title of the message:** Cancel appointment with `<office>`
 
 🗒 **Text of the message**: 
 
-Your appointment with the \<office> located in \<address> on \<dd/mm/yyyy> at \<hh:mm> was canceled due to \<description of the reason>.
+Your appointment with the `<office>` located in `<address>` on `<dd/mm/yyyy>` at `<hh:mm>` was canceled due to `<description of the reason>`.
 
 If you want to make a new appointment online, you can use the appointment service (URL) for your municipality or go to the registry office that best meets your needs.
 
@@ -89,11 +89,11 @@ If you want to make a new appointment online, you can use the appointment servic
 
 🗒 **Text of the message**:
 
-There is a payment notification for \<first and last name> regarding the issue of an Electronic Identity Card. 
+There is a payment notification for `<first and last name>` regarding the issue of an Electronic Identity Card. 
 
-**Amount due:** € \<xx.xx>
+**Amount due:** € `<xx.xx>`
 
-**Due date:** \<dd/mm/yyyy>
+**Due date:** `<dd/mm/yyyy>`
 
 You can pay directly in-app by pressing “See notification”, or using all the payment channels of the pagoPA platform.
 

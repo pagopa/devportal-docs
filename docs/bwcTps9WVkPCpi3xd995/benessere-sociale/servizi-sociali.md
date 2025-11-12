@@ -39,7 +39,7 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 🗒 **Testo del messaggio**:
 
-Il \<gg/mm/aaaa> è stato pubblicato il bando per \<oggetto del bando>.
+Il `<gg/mm/aaaa>` è stato pubblicato il bando per `<oggetto del bando>`.
 
 Se vuoi fare domanda e consultare i criteri di assegnazione, \[visita questo sito]\(URL).
 
@@ -47,7 +47,7 @@ Se vuoi fare domanda e consultare i criteri di assegnazione, \[visita questo sit
 
 **🪄 Pulsante**: Vai ai bandi aperti
 
-**📎&#x20;**<mark style="color:blue;">**Allegato:**</mark> \<testo integrale del bando>
+**📎&#x20;**<mark style="color:blue;">**Allegato:**</mark> `<testo integrale del bando>`
 
 ***
 
@@ -71,7 +71,7 @@ Se vuoi fare domanda e consultare i criteri di assegnazione, \[visita questo sit
 
 🗒 **Testo del messaggio**:
 
-Il \<gg/mm/aaaa> è stato aggiornato il bando per \<oggetto del bando>.
+Il `<gg/mm/aaaa>` è stato aggiornato il bando per `<oggetto del bando>`.
 
 Per visualizzare il bando aggiornato, \[visita questo sito]\(URL).
 
@@ -79,7 +79,7 @@ Per visualizzare il bando aggiornato, \[visita questo sito]\(URL).
 
 **🪄 Pulsante**: n/a
 
-**📎&#x20;**<mark style="color:blue;">**Allegato:**</mark> \<testo integrale del bando aggiornato>
+**📎&#x20;**<mark style="color:blue;">**Allegato:**</mark> `<testo integrale del bando aggiornato>`
 
 ***
 
@@ -99,13 +99,13 @@ Per visualizzare il bando aggiornato, \[visita questo sito]\(URL).
 
 ***
 
-**🖋 Titolo del messaggio:** Pubblicata la graduatoria per \<bando>
+**🖋 Titolo del messaggio:** Pubblicata la graduatoria per `<bando>`
 
 🗒 **Testo del messaggio**:
 
-È disponibile la graduatoria per il servizio \<tipologia di servizio> per \<nome> \<cognome>.
+È disponibile la graduatoria per il servizio `<tipologia di servizio>` per `<nome>` `<cognome>`.
 
-Se vuoi rinunciare alla tua posizione, hai tempo fino al \<gg/mm/aaaa>.
+Se vuoi rinunciare alla tua posizione, hai tempo fino al `<gg/mm/aaaa>`.
 
 Per visualizzare la tua posizione in graduatoria \[visita questo sito]\(URL).
 
@@ -139,7 +139,7 @@ Per visualizzare la tua posizione in graduatoria \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio**:
 
-Per elaborare la tua richiesta di \<oggetto della richiesta> al servizio \<tipologia di servizio>, abbiamo bisogno di ricevere entro il \<gg/mm/aaaa> questi documenti:
+Per elaborare la tua richiesta di `<oggetto della richiesta>` al servizio `<tipologia di servizio>`, abbiamo bisogno di ricevere entro il `<gg/mm/aaaa>` questi documenti:
 
 Per aggiungere i documenti alla tua richiesta, \[visita questo sito]\(URL).
 
@@ -169,11 +169,11 @@ Per aggiungere i documenti alla tua richiesta, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio**:
 
-C'è un avviso da pagare intestato a \<nome> \<cognome> e relativo a \<causale>.
+C'è un avviso da pagare intestato a `<nome>` `<cognome>` e relativo a `<causale>`.
 
 **Devi pagare:** <00,00> €
 
-**Entro il:** \<gg/mm/aaaa>
+**Entro il:** `<gg/mm/aaaa>`
 
 Puoi pagare direttamente in app premendo “Paga”, oppure tramite tutti i canali di pagamento della piattaforma pagoPA e le altre modalità di pagamento offerte dell'ente creditore.
 
@@ -205,7 +205,7 @@ In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio p
 
 🗒 **Testo del messaggio**:
 
-Il tuo pagamento per \<causale> sta per scadere.
+Il tuo pagamento per `<causale>` sta per scadere.
 
 Se hai già provveduto a pagare l’avviso ignora questo messaggio.
 
@@ -235,7 +235,7 @@ Il seguente messaggio serve a sollecitare il cittadino per il mancato pagamento 
 
 🗒 **Testo del messaggio**:
 
-Il tuo pagamento relativo a \<causale> è scaduto il \<gg/mm/aaaa>.
+Il tuo pagamento relativo a `<causale>` è scaduto il `<gg/mm/aaaa>`.
 
 Se hai già provveduto a pagare l’avviso ignora questo messaggio.
 
@@ -261,7 +261,7 @@ Se hai già provveduto a pagare l’avviso ignora questo messaggio.
 
 🗒 **Testo del messaggio**:
 
-La tua richiesta di \<oggetto della richiesta> è stata accolta.
+La tua richiesta di `<oggetto della richiesta>` è stata accolta.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL)
 
@@ -285,7 +285,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL)
 
 🗒 **Testo del messaggio**:
 
-La tua richiesta di \<oggetto> non è stata accolta.
+La tua richiesta di `<oggetto>` non è stata accolta.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 

@@ -16,9 +16,9 @@ This message is to be used for both Premium and Standard messages. In case of a 
 
 🗒 **Text of the message**:
 
-As of \<dd/mm/yyyyy> you can apply for \<object of call>.
+As of `<dd/mm/yyyyy>` you can apply for `<object of call>`.
 
-You have time until \<dd/mm/yyyyy>.
+You have time until `<dd/mm/yyyyy>`.
 
 To see the award criteria and apply, \[visit this website](URL).
 
@@ -26,7 +26,7 @@ To see the award criteria and apply, \[visit this website](URL).
 
 **🪄 Button**: Submit request
 
-<mark style="color:blue;">**📎 Premium attachment:**</mark> \<full text of call>
+<mark style="color:blue;">**📎 Premium attachment:**</mark> `<full text of call>`
 
 ***
 
@@ -50,9 +50,9 @@ To see the award criteria and apply, \[visit this website](URL).
 
 🗒 **Text of the message**: 
 
-The ranking list for \<type of service> for \<name> \<surname> is available.
+The ranking list for `<type of service>` for `<name>` `<surname>` is available.
 
-If you wish to relinquish your position, you have time until \<dd/mm/yyyyy>.
+If you wish to relinquish your position, you have time until `<dd/mm/yyyyy>`.
 
 To see your position in the rankings list[ \[visit this website](URL).
 

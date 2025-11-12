@@ -49,7 +49,7 @@ The concept of managing the payment session must not be associated with the _ide
 
 If a PSP, for example, does not receive the _response_ to the activation of the payment, it can repeat the same call, making sure to use the same idempotency key in order to obtain the data that was intended for them during the first call. If the same idempotency key is not used, the _response_ will instead be “payment in progress” and it will not be possible to proceed with the payment.
 
-The rule for generating the _idempotency key_  is _\<CF\_PSP> + "\_" + \<RANDOM STRING>_.
+The rule for generating the _idempotency key_  is _`<CF\_PSP>` + "\_" + `<RANDOM STRING>`_.
 
 The duration of the _idempotency key_  is set by the pagoPA platform based on a configuration common to all the PSPs. In the case of the [activatePaymentNotice](../../appendices/primitive.md#activatepaymentnotice) the maximum duration may not exceed that of the payment token.\_
 

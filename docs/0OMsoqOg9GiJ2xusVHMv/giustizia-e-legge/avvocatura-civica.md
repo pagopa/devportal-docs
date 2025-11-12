@@ -33,7 +33,7 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 🗒 **Testo del messaggio**:&#x20;
 
-Per elaborare la tua domanda di iscrizione all’Elenco Speciale del Comune di \<Comune> abbiamo bisogno di ricevere entro il \<gg/mm/aaaa> altri documenti.
+Per elaborare la tua domanda di iscrizione all’Elenco Speciale del Comune di `<Comune>` abbiamo bisogno di ricevere entro il `<gg/mm/aaaa>` altri documenti.
 
 Consulta il riepilogo della domanda, \[visita questo sito]\(URL).
 
@@ -57,7 +57,7 @@ Consulta il riepilogo della domanda, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio:**
 
-La tua domanda di iscrizione all’Elenco Speciale del Comune di \<Comune> è stata accolta.
+La tua domanda di iscrizione all’Elenco Speciale del Comune di `<Comune>` è stata accolta.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -81,7 +81,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio:**
 
-La tua domanda di iscrizione all’Elenco Speciale del Comune di \<Comune> non è stata accolta.
+La tua domanda di iscrizione all’Elenco Speciale del Comune di `<Comune>` non è stata accolta.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -107,7 +107,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio:**
 
-La tua domanda di cancellazione dall’Elenco Speciale del Comune di \<Comune> è stata accolta. Il tuo nominativo non è più presente nell’Elenco.
+La tua domanda di cancellazione dall’Elenco Speciale del Comune di `<Comune>` è stata accolta. Il tuo nominativo non è più presente nell’Elenco.
 
 Per ulteriori informazioni, (visita questo sito)\[URL].
 
@@ -131,7 +131,7 @@ Per ulteriori informazioni, (visita questo sito)\[URL].
 
 🗒 **Testo del messaggio:**&#x20;
 
-La tua domanda di cancellazione dall’Elenco Speciale del Comune di \<Comune> non è stata accolta.
+La tua domanda di cancellazione dall’Elenco Speciale del Comune di `<Comune>` non è stata accolta.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -157,17 +157,17 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 ***
 
-**🖋 Titolo del messaggio:** Sei \<stato convocato> / \<stata convocata>
+**🖋 Titolo del messaggio:** Sei `<stato convocato>` / `<stata convocata>`
 
 🗒 **Testo del messaggio:**
 
-A seguito dei controlli periodici sugli iscritti all’Elenco Speciale del Comune di \<Comune>, non sussistono più i requisiti necessari alla tua permanenza in Elenco.
+A seguito dei controlli periodici sugli iscritti all’Elenco Speciale del Comune di `<Comune>`, non sussistono più i requisiti necessari alla tua permanenza in Elenco.
 
-Per verificare una possibile risoluzione, devi recarti presso \<Denominazione Ufficio>.
+Per verificare una possibile risoluzione, devi recarti presso `<Denominazione Ufficio>`.
 
-**Dove:** \<indirizzo>
+**Dove:** `<indirizzo>`
 
-**Quando:** \<gg/mm/aaaa>; alle \<hh:mm>
+**Quando:** `<gg/mm/aaaa>`; alle `<hh:mm>`
 
 \[Inserire qui ulteriori informazioni utili per la convocazione, da compilare a cura e responsabilità dell'ente]
 
@@ -193,7 +193,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio:**
 
-La verifica dei tuoi requisiti ha avuto esito negativo. Pertanto, il tuo nominativo è stato cancellato dall’Elenco Speciale del Comune di \<Comune>.
+La verifica dei tuoi requisiti ha avuto esito negativo. Pertanto, il tuo nominativo è stato cancellato dall’Elenco Speciale del Comune di `<Comune>`.
 
 Potrai presentare nuova domanda di iscrizione una volta in possesso dei requisiti necessari.
 

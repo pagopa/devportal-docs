@@ -35,7 +35,7 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 🗒 **Testo del messaggio**:&#x20;
 
-La tua iscrizione è confermata per i servizi bibliotecari del Comune di \<Comune>.&#x20;
+La tua iscrizione è confermata per i servizi bibliotecari del Comune di `<Comune>`.&#x20;
 
 \[Inserire qui indicazioni sui servizi disponibili per il cittadino iscritto, da completare a cura e responsabilità dell'ente]
 
@@ -63,7 +63,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio**:&#x20;
 
-Il \<gg/mm/aaaa> la tua iscrizione al servizio bibliotecario del Comune di \<Comune> è scaduta.&#x20;
+Il `<gg/mm/aaaa>` la tua iscrizione al servizio bibliotecario del Comune di `<Comune>` è scaduta.&#x20;
 
 Per continuare ad usufruire dei servizi bibliotecari, rinnova la tua iscrizione.
 
@@ -95,13 +95,13 @@ Per ulteriori informazioni su come rinnovare l’iscrizione, \[visita questo sit
 
 ***
 
-**🖋 Titolo del messaggio:** \<Libro/Rivista/Dvd/ecc> disponibile al ritiro
+**🖋 Titolo del messaggio:** `<Libro/Rivista/Dvd/ecc>` disponibile al ritiro
 
 🗒 **Testo del messaggio**:&#x20;
 
-Dal \<gg/mm/aaaa> potrai ritirare il \<Libro/Rivista/Dvd/ecc> richiesto.
+Dal `<gg/mm/aaaa>` potrai ritirare il `<Libro/Rivista/Dvd/ecc>` richiesto.
 
-**Dove**: \<indirizzo>
+**Dove**: `<indirizzo>`
 
 **Orario**: \[Inserire qui i giorni e gli orari di apertura della biblioteca]
 
@@ -109,9 +109,9 @@ Dal \<gg/mm/aaaa> potrai ritirare il \<Libro/Rivista/Dvd/ecc> richiesto.
 
 ***
 
-**Destinatari**: Tutti i cittadini che hanno richiesto un \<Libro/Rivista/Dvd/ecc> presso una biblioteca comunale.
+**Destinatari**: Tutti i cittadini che hanno richiesto un `<Libro/Rivista/Dvd/ecc>` presso una biblioteca comunale.
 
-**Quando inviarlo**: Quando il \<Libro/Rivista/Dvd/ecc> è disponibile al ritiro.
+**Quando inviarlo**: Quando il `<Libro/Rivista/Dvd/ecc>` è disponibile al ritiro.
 
 **User story**: Come cittadino voglio ricevere un promemoria sulla disponibilità dei beni richiesti.
 
@@ -123,13 +123,13 @@ Dal \<gg/mm/aaaa> potrai ritirare il \<Libro/Rivista/Dvd/ecc> richiesto.
 
 <summary>Documento disponibile per prestito</summary>
 
-**🖋 Titolo del messaggio:** \<Libro/Rivista/Dvd/ecc> disponibile per il prestito
+**🖋 Titolo del messaggio:** `<Libro/Rivista/Dvd/ecc>` disponibile per il prestito
 
 🗒 **Testo del messaggio**:&#x20;
 
-Dal \<gg/mm/aaaa> il \<Libro/Rivista/Dvd/ecc> è disponibile per il prestito.
+Dal `<gg/mm/aaaa>` il `<Libro/Rivista/Dvd/ecc>` è disponibile per il prestito.
 
-**Dove**: \<indirizzo>
+**Dove**: `<indirizzo>`
 
 **Orario**: \[Inserire qui i giorni e gli orari di apertura della biblioteca]
 
@@ -137,9 +137,9 @@ Dal \<gg/mm/aaaa> il \<Libro/Rivista/Dvd/ecc> è disponibile per il prestito.
 
 ***
 
-**Destinatari**: Tutti i cittadini che hanno richiesto un \<Libro/Rivista/Dvd/ecc> per prestito interbibliotecario presso una biblioteca comunale.
+**Destinatari**: Tutti i cittadini che hanno richiesto un `<Libro/Rivista/Dvd/ecc>` per prestito interbibliotecario presso una biblioteca comunale.
 
-**Quando inviarlo**: Quando il \<Libro/Rivista/Dvd/ecc> è disponibile al prestito ed è proveniente da una biblioteca differente.
+**Quando inviarlo**: Quando il `<Libro/Rivista/Dvd/ecc>` è disponibile al prestito ed è proveniente da una biblioteca differente.
 
 **User story**: Come cittadino voglio ricevere un promemoria sulla disponibilità dei beni richiesti.
 
@@ -159,11 +159,11 @@ Se è previsto un pagamento per il prestito bibliotecario, è possibile preveder
 
 🗒 **Testo del messaggio**:&#x20;
 
-C’è un avviso di pagamento intestato a \<nome> \<cognome> e relativo a \<causale>.
+C’è un avviso di pagamento intestato a `<nome>` `<cognome>` e relativo a `<causale>`.
 
 **Devi pagare**: <00,00> €
 
-**Entro il**: \<gg/mm/aaaa>
+**Entro il**: `<gg/mm/aaaa>`
 
 Puoi pagare direttamente in app premendo “Paga”, oppure tramite tutti i canali di pagamento della piattaforma pagoPA e le altre modalità di pagamento offerte dell'ente creditore.
 
@@ -201,7 +201,7 @@ Gli utenti che hanno dato il loro consenso, infatti, riceveranno automaticamente
 
 🗒 **Testo del messaggio**:&#x20;
 
-Il tuo pagamento per \<causale> sta per scadere.
+Il tuo pagamento per `<causale>` sta per scadere.
 
 Se hai già provveduto a pagare l’avviso, ignora questo messaggio.
 
@@ -231,7 +231,7 @@ Il seguente messaggio serve a sollecitare il cittadino per il mancato pagamento 
 
 🗒 **Testo del messaggio**:&#x20;
 
-Il tuo pagamento relativo a \<causale> è scaduto il \<gg/mm/aaaa>.
+Il tuo pagamento relativo a `<causale>` è scaduto il `<gg/mm/aaaa>`.
 
 Se hai già provveduto a pagare l’avviso o se hai richiesto la domiciliazione del pagamento sul conto corrente, ignora questo messaggio.
 
@@ -255,13 +255,13 @@ Se hai già provveduto a pagare l’avviso o se hai richiesto la domiciliazione 
 
 ***
 
-**🖋 Titolo del messaggio:** \<Libro/Rivista/Dvd/ecc> disponibile al ritiro
+**🖋 Titolo del messaggio:** `<Libro/Rivista/Dvd/ecc>` disponibile al ritiro
 
 🗒 **Testo del messaggio**:&#x20;
 
-Dal \<gg/mm/aaaa> potrai ritirare il \<Libro/Rivista/Dvd/ecc> richiesto.
+Dal `<gg/mm/aaaa>` potrai ritirare il `<Libro/Rivista/Dvd/ecc>` richiesto.
 
-**Dove**: \<indirizzo>
+**Dove**: `<indirizzo>`
 
 **Orario**: \[Inserire qui i giorni e gli orari di apertura della biblioteca]
 
@@ -269,9 +269,9 @@ Dal \<gg/mm/aaaa> potrai ritirare il \<Libro/Rivista/Dvd/ecc> richiesto.
 
 ***
 
-**Destinatari**: Tutti i cittadini che hanno richiesto un \<Libro/Rivista/Dvd/ecc> per prestito interbibliotecario presso una biblioteca comunale.
+**Destinatari**: Tutti i cittadini che hanno richiesto un `<Libro/Rivista/Dvd/ecc>` per prestito interbibliotecario presso una biblioteca comunale.
 
-**Quando inviarlo**: Quando il \<Libro/Rivista/Dvd/ecc> è disponibile al ritiro.
+**Quando inviarlo**: Quando il `<Libro/Rivista/Dvd/ecc>` è disponibile al ritiro.
 
 **User story**: Come cittadino voglio ricevere un promemoria sulla disponibilità dei beni richiesti.
 
@@ -287,21 +287,21 @@ Dal \<gg/mm/aaaa> potrai ritirare il \<Libro/Rivista/Dvd/ecc> richiesto.
 
 🗒 **Testo del messaggio**:&#x20;
 
-Abbiamo ricevuto la tua richiesta di prenotazione per \<Libro/Rivista/Dvd/ecc>.&#x20;
+Abbiamo ricevuto la tua richiesta di prenotazione per `<Libro/Rivista/Dvd/ecc>`.&#x20;
 
-Il \<Libro/Rivista/Dvd/ecc>, risulta attualmente in prestito ad altro utente.&#x20;
+Il `<Libro/Rivista/Dvd/ecc>`, risulta attualmente in prestito ad altro utente.&#x20;
 
-Riceverai un messaggio in app non appena il \<Libro/Rivista/Dvd/ecc> verrà prenotato a tuo nome.
+Riceverai un messaggio in app non appena il `<Libro/Rivista/Dvd/ecc>` verrà prenotato a tuo nome.
 
 **🪄 Pulsante**: n/a
 
 ***
 
-**Destinatari**: Tutti i cittadini che hanno richiesto un prestito per un \<Libro/Rivista/Dvd/ecc> non disponibile.
+**Destinatari**: Tutti i cittadini che hanno richiesto un prestito per un `<Libro/Rivista/Dvd/ecc>` non disponibile.
 
-**Quando inviarlo**: Quando il \<Libro/Rivista/Dvd/ecc> richiesto non è al momento disponibile ma prenotabile con una lista di attesa.
+**Quando inviarlo**: Quando il `<Libro/Rivista/Dvd/ecc>` richiesto non è al momento disponibile ma prenotabile con una lista di attesa.
 
-**User story**: Come cittadino voglio ricevere un promemoria sulla disponibilità per \<Libro/Rivista/Dvd/ecc> che al momento non risultano prenotabili.
+**User story**: Come cittadino voglio ricevere un promemoria sulla disponibilità per `<Libro/Rivista/Dvd/ecc>` che al momento non risultano prenotabili.
 
 </details>
 
@@ -313,13 +313,13 @@ Riceverai un messaggio in app non appena il \<Libro/Rivista/Dvd/ecc> verrà pren
 
 ***
 
-**🖋 Titolo del messaggio:** \<Libro/Rivista/Dvd/ecc> disponibile al ritiro
+**🖋 Titolo del messaggio:** `<Libro/Rivista/Dvd/ecc>` disponibile al ritiro
 
 🗒 **Testo del messaggio**:&#x20;
 
-Dal \<gg/mm/aaaa> potrai ritirare il \<Libro/Rivista/Dvd/ecc> richiesto.
+Dal `<gg/mm/aaaa>` potrai ritirare il `<Libro/Rivista/Dvd/ecc>` richiesto.
 
-**Dove**: \<indirizzo>
+**Dove**: `<indirizzo>`
 
 **Orario**: \[Inserire qui i giorni e gli orari di apertura della biblioteca]
 
@@ -327,9 +327,9 @@ Dal \<gg/mm/aaaa> potrai ritirare il \<Libro/Rivista/Dvd/ecc> richiesto.
 
 ***
 
-**Destinatari**: Tutti i cittadini che hanno richiesto un \<Libro/Rivista/Dvd/ecc> per prestito presso una biblioteca comunale.
+**Destinatari**: Tutti i cittadini che hanno richiesto un `<Libro/Rivista/Dvd/ecc>` per prestito presso una biblioteca comunale.
 
-**Quando inviarlo**: Quando il \<Libro/Rivista/Dvd/ecc> è disponibile al ritiro.
+**Quando inviarlo**: Quando il `<Libro/Rivista/Dvd/ecc>` è disponibile al ritiro.
 
 **User story**: Come cittadino voglio ricevere un promemoria sulla disponibilità dei beni richiesti.
 
@@ -361,7 +361,7 @@ Per visualizzare la tua ricevuta, \[visita questo sito]\(URL).
 
 **🪄 Pulsante**: n/a
 
-📎 <mark style="color:blue;">**Allegato Premium**</mark>: \<ricevuta prestito>
+📎 <mark style="color:blue;">**Allegato Premium**</mark>: `<ricevuta prestito>`
 
 ***
 
@@ -387,13 +387,13 @@ Per visualizzare la tua ricevuta, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio**:&#x20;
 
-Il prestito per \<Libro/Rivista/Dvd/ecc> sta per terminare.&#x20;
+Il prestito per `<Libro/Rivista/Dvd/ecc>` sta per terminare.&#x20;
 
-Potrai restituire il prestito entro il \<gg/mm/aaaa> presso:
+Potrai restituire il prestito entro il `<gg/mm/aaaa>` presso:
 
-**Dove**: \<indirizzo>
+**Dove**: `<indirizzo>`
 
-**Orario**: \<orari biblioteca>
+**Orario**: `<orari biblioteca>`
 
 **🪄 Pulsante**: n/a
 
@@ -413,11 +413,11 @@ Potrai restituire il prestito entro il \<gg/mm/aaaa> presso:
 
 <summary>Conferma rinnovo prestito</summary>
 
-**🖋 Titolo del messaggio:** Il rinnovo di \<Libro/Rivista/Dvd/ecc> è confermato
+**🖋 Titolo del messaggio:** Il rinnovo di `<Libro/Rivista/Dvd/ecc>` è confermato
 
 🗒 **Testo del messaggio**:&#x20;
 
-Il rinnovo del prestito per \<Libro/Rivista/Dvd/ecc> è confermato fino al \<gg/mm/aaaa>.
+Il rinnovo del prestito per `<Libro/Rivista/Dvd/ecc>` è confermato fino al `<gg/mm/aaaa>`.
 
 **🪄 Pulsante**: n/a
 
@@ -439,7 +439,7 @@ Il rinnovo del prestito per \<Libro/Rivista/Dvd/ecc> è confermato fino al \<gg/
 
 🗒 **Testo del messaggio**:&#x20;
 
-Il rinnovo del prestito \<Libro/Rivista/Dvd/ecc> non è possibile.&#x20;
+Il rinnovo del prestito `<Libro/Rivista/Dvd/ecc>` non è possibile.&#x20;
 
 Per procedere con una nuova prenotazione \[visita questo sito]\[URL]&#x20;
 
@@ -465,11 +465,11 @@ Per procedere con una nuova prenotazione \[visita questo sito]\[URL]&#x20;
 
 🗒 **Testo del messaggio**:&#x20;
 
-Il prestito per \<Libro/Rivista/Dvd/ecc> è scaduto il \<gg/mm/aaaa>.&#x20;
+Il prestito per `<Libro/Rivista/Dvd/ecc>` è scaduto il `<gg/mm/aaaa>`.&#x20;
 
 Deve essere restituito il prima possibile.
 
-**Dove**: \<indirizzo>
+**Dove**: `<indirizzo>`
 
 **Orario**: \[Inserire qui i giorni e gli orari di apertura della biblioteca]
 
@@ -501,7 +501,7 @@ Se dopo lo smarrimento o danneggiamento di un prestito, è prevista la sostituzi
 
 🗒 **Testo del messaggio**:&#x20;
 
-Hai una richiesta di sostituzione copia, causa \<smarrito/danneggiamento> a seguito del prestito di \<Libro/Rivista/Dvd/ecc>, registrato in data \<gg/mm/aaaa>.
+Hai una richiesta di sostituzione copia, causa `<smarrito/danneggiamento>` a seguito del prestito di `<Libro/Rivista/Dvd/ecc>`, registrato in data `<gg/mm/aaaa>`.
 
 Per ulteriori informazioni e consultare il regolamento, (visita questo sito)\[URL].
 
@@ -511,7 +511,7 @@ Per ulteriori informazioni e consultare il regolamento, (visita questo sito)\[UR
 
 **Destinatari**: Tutti i cittadini che hanno ricevuto una richiesta di sostituzione copia prestito da una biblioteca comunale a seguito di smarrimento e/o danneggiamento.
 
-**Quando inviarlo**: Quando la biblioteca accerta uno smarrimento o danneggiamento di un \<Libro/Rivista/Dvd/ecc>.
+**Quando inviarlo**: Quando la biblioteca accerta uno smarrimento o danneggiamento di un `<Libro/Rivista/Dvd/ecc>`.
 
 **User story**: Come cittadino voglio ricevere comunicazioni circa i prestiti bibliotecari richiesti.
 
@@ -529,11 +529,11 @@ Per ulteriori informazioni e consultare il regolamento, (visita questo sito)\[UR
 
 🗒 **Testo del messaggio**:&#x20;
 
-C’è un avviso di pagamento intestato a \<nome> \<cognome> e relativo a \<causale>, in base a quanto previsto dal (regolamento)\[URL].
+C’è un avviso di pagamento intestato a `<nome>` `<cognome>` e relativo a `<causale>`, in base a quanto previsto dal (regolamento)\[URL].
 
 **Devi pagare**: <00,00> €
 
-**Entro il**: \<gg/mm/aaaa>
+**Entro il**: `<gg/mm/aaaa>`
 
 Puoi pagare direttamente in app premendo “Paga”, oppure tramite tutti i canali di pagamento della piattaforma pagoPA e le altre modalità di pagamento offerte dell'ente creditore.
 
@@ -571,7 +571,7 @@ Gli utenti che hanno dato il loro consenso, infatti, riceveranno automaticamente
 
 🗒 **Testo del messaggio**:&#x20;
 
-Il tuo pagamento per \<causale> sta per scadere.
+Il tuo pagamento per `<causale>` sta per scadere.
 
 Se hai già provveduto a pagare l’avviso, ignora questo messaggio.
 
@@ -601,7 +601,7 @@ Il seguente messaggio serve a sollecitare il cittadino per il mancato pagamento 
 
 🗒 **Testo del messaggio**:&#x20;
 
-Il tuo pagamento relativo a \<causale> è scaduto il \<gg/mm/aaaa>.
+Il tuo pagamento relativo a `<causale>` è scaduto il `<gg/mm/aaaa>`.
 
 Se hai già provveduto a pagare l’avviso o se hai richiesto la domiciliazione del pagamento sul conto corrente, ignora questo messaggio.
 
@@ -627,11 +627,11 @@ Se hai già provveduto a pagare l’avviso o se hai richiesto la domiciliazione 
 
 <summary>Documento disponibile per la consegna</summary>
 
-**🖋 Titolo del messaggio:** \<Libro/Rivista/Dvd/ecc> disponibile alla consegna
+**🖋 Titolo del messaggio:** `<Libro/Rivista/Dvd/ecc>` disponibile alla consegna
 
 🗒 **Testo del messaggio**:&#x20;
 
-Dal \<gg/mm/aaaa> il \<Libro/Rivista/Dvd/ecc> è disponibile per la consegna.
+Dal `<gg/mm/aaaa>` il `<Libro/Rivista/Dvd/ecc>` è disponibile per la consegna.
 
 La consegna avverrà secondo le modalità richieste in fase di prenotazione.
 
@@ -639,9 +639,9 @@ La consegna avverrà secondo le modalità richieste in fase di prenotazione.
 
 ***
 
-**Destinatari**: Tutti i cittadini che hanno richiesto una consegna  \<Libro/Rivista/Dvd/ecc> presso una biblioteca comunale.
+**Destinatari**: Tutti i cittadini che hanno richiesto una consegna  `<Libro/Rivista/Dvd/ecc>` presso una biblioteca comunale.
 
-**Quando inviarlo**: Quando il \<Libro/Rivista/Dvd/ecc> è disponibile alla consegna.
+**Quando inviarlo**: Quando il `<Libro/Rivista/Dvd/ecc>` è disponibile alla consegna.
 
 **User story**: Come cittadino voglio ricevere un promemoria sulla disponibilità dei beni richiesti.
 
@@ -661,11 +661,11 @@ La consegna avverrà secondo le modalità richieste in fase di prenotazione.
 
 🗒 **Testo del messaggio**:&#x20;
 
-C’è un avviso di pagamento intestato a \<nome> \<cognome> e relativo a \<causale>.
+C’è un avviso di pagamento intestato a `<nome>` `<cognome>` e relativo a `<causale>`.
 
 **Devi pagare**: <00,00> €
 
-**Entro il**: \<gg/mm/aaaa>
+**Entro il**: `<gg/mm/aaaa>`
 
 Puoi pagare direttamente in app premendo “Paga”, oppure tramite tutti i canali di pagamento della piattaforma pagoPA e le altre modalità di pagamento offerte dell'ente creditore.
 
@@ -703,7 +703,7 @@ Gli utenti che hanno dato il loro consenso, infatti, riceveranno automaticamente
 
 🗒 **Testo del messaggio**:&#x20;
 
-Il tuo pagamento per \<causale> sta per scadere.
+Il tuo pagamento per `<causale>` sta per scadere.
 
 Se hai già provveduto a pagare l’avviso, ignora questo messaggio.
 
@@ -733,7 +733,7 @@ Il seguente messaggio serve a sollecitare il cittadino per il mancato pagamento 
 
 🗒 **Testo del messaggio**:&#x20;
 
-Il tuo pagamento relativo a \<causale> è scaduto il \<gg/mm/aaaa>.
+Il tuo pagamento relativo a `<causale>` è scaduto il `<gg/mm/aaaa>`.
 
 Se hai già provveduto a pagare l’avviso o se hai richiesto la domiciliazione del pagamento sul conto corrente, ignora questo messaggio.
 
@@ -755,13 +755,13 @@ Se hai già provveduto a pagare l’avviso o se hai richiesto la domiciliazione 
 
 <summary>Spedizione/invio documenti</summary>
 
-**🖋 Titolo del messaggio:** Il \<Libro/Rivista/Dvd/ecc> è stato inviato
+**🖋 Titolo del messaggio:** Il `<Libro/Rivista/Dvd/ecc>` è stato inviato
 
 🗒 **Testo del messaggio**:&#x20;
 
-Ti abbiamo inviato la copia del \<Libro/Rivista/Dvd/ecc> richiesto.\
+Ti abbiamo inviato la copia del `<Libro/Rivista/Dvd/ecc>` richiesto.\
 \[Se l’utente ha richiesto invio digitale] Troverai l’allegato nella tua email\
-\[Se l’utente ha richiesto invio fisico]: Il \<Libro/Rivista/Dvd/ecc> arriverà al tuo domicilio.
+\[Se l’utente ha richiesto invio fisico]: Il `<Libro/Rivista/Dvd/ecc>` arriverà al tuo domicilio.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -769,7 +769,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 ***
 
-**Destinatari**: Tutti i cittadini che hanno richiesto l’invio di \<Libro/Rivista/Dvd/ecc> da una biblioteca comunale.
+**Destinatari**: Tutti i cittadini che hanno richiesto l’invio di `<Libro/Rivista/Dvd/ecc>` da una biblioteca comunale.
 
 **Quando inviarlo**: Quando la biblioteca deve avvisare l’utente dell’invio effettuato.
 
@@ -791,7 +791,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio**:&#x20;
 
-La tua proposta per l’acquisto di \<Libro/Rivista/Dvd/ecc> è stata accolta.
+La tua proposta per l’acquisto di `<Libro/Rivista/Dvd/ecc>` è stata accolta.
 
 Riceverai nei prossimi giorni un messaggio in app con le indicazioni utili al ritiro.
 
@@ -815,7 +815,7 @@ Riceverai nei prossimi giorni un messaggio in app con le indicazioni utili al ri
 
 🗒 **Testo del messaggio**:&#x20;
 
-La tua proposta per l’acquisto di \<Libro/Rivista/Dvd/ecc> non è stata accolta.
+La tua proposta per l’acquisto di `<Libro/Rivista/Dvd/ecc>` non è stata accolta.
 
 Per ulteriori informazioni, (visita questo sito)\[URL].
 
@@ -839,13 +839,13 @@ Per ulteriori informazioni, (visita questo sito)\[URL].
 
 ***
 
-**🖋 Titolo del messaggio:** \<Libro/Rivista/Dvd/ecc> disponibile al ritiro
+**🖋 Titolo del messaggio:** `<Libro/Rivista/Dvd/ecc>` disponibile al ritiro
 
 🗒 **Testo del messaggio**:&#x20;
 
-Dal \<gg/mm/aaaa> potrai ritirare il \<Libro/Rivista/Dvd/ecc> richiesto.
+Dal `<gg/mm/aaaa>` potrai ritirare il `<Libro/Rivista/Dvd/ecc>` richiesto.
 
-**Dove**: \<indirizzo>
+**Dove**: `<indirizzo>`
 
 **Orario**: \[Inserire qui i giorni e gli orari di apertura della biblioteca]
 
@@ -853,9 +853,9 @@ Dal \<gg/mm/aaaa> potrai ritirare il \<Libro/Rivista/Dvd/ecc> richiesto.
 
 ***
 
-**Destinatari**: Tutti i cittadini che hanno richiesto un \<Libro/Rivista/Dvd/ecc> presso una biblioteca comunale.
+**Destinatari**: Tutti i cittadini che hanno richiesto un `<Libro/Rivista/Dvd/ecc>` presso una biblioteca comunale.
 
-**Quando inviarlo**: Quando il \<Libro/Rivista/Dvd/ecc> è disponibile al ritiro.
+**Quando inviarlo**: Quando il `<Libro/Rivista/Dvd/ecc>` è disponibile al ritiro.
 
 **User story**: Come cittadino voglio ricevere un promemoria sulla disponibilità dei beni richiesti.
 

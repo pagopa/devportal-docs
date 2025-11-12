@@ -63,13 +63,13 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio:**
 
-Hai prenotato un appuntamento presso \<sportello>.
+Hai prenotato un appuntamento presso `<sportello>`.
 
-Il numero di prenotazione è \<nnnn>.
+Il numero di prenotazione è `<nnnn>`.
 
-**Dove:** \<indirizzo>
+**Dove:** `<indirizzo>`
 
-**Quando:** il \<gg/mm/aaaa> alle \<hh:mm>
+**Quando:** il `<gg/mm/aaaa>` alle `<hh:mm>`
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -99,7 +99,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio:**
 
-Per elaborare la tua richiesta di \<oggetto della richiesta> abbiamo bisogno di ricevere entro il \<gg/mm/aaaa> altri documenti.
+Per elaborare la tua richiesta di `<oggetto della richiesta>` abbiamo bisogno di ricevere entro il `<gg/mm/aaaa>` altri documenti.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -123,7 +123,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio:**
 
-La tua richiesta di \<oggetto della richiesta> è stata accolta.
+La tua richiesta di `<oggetto della richiesta>` è stata accolta.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -147,7 +147,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio:**
 
-La tua richiesta di \<oggetto della richiesta> non è stata accolta.
+La tua richiesta di `<oggetto della richiesta>` non è stata accolta.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 

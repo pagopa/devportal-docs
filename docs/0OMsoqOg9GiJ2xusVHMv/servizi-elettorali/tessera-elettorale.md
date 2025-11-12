@@ -32,9 +32,9 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 🗒 **Testo del messaggio**:&#x20;
 
-Controlla se la tua tessera elettorale è valida per \<le elezioni o il referendum> del \<gg/mm/aaaa>.
+Controlla se la tua tessera elettorale è valida per `<le elezioni o il referendum>` del `<gg/mm/aaaa>`.
 
-Puoi richiedere una nuova tessera o un suo aggiornamento in caso di smarrimento, furto, esaurimento spazi per la certificazione o per cambio indirizzo di domicilio o residenza. Per farlo, \<modalità di richiesta>.&#x20;
+Puoi richiedere una nuova tessera o un suo aggiornamento in caso di smarrimento, furto, esaurimento spazi per la certificazione o per cambio indirizzo di domicilio o residenza. Per farlo, `<modalità di richiesta>`.&#x20;
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).&#x20;
 
@@ -58,7 +58,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).&#x20;
 
 🗒 **Testo del messaggio**:&#x20;
 
-Il \<gg/mm/aaaa> è stata rilasciata la tessera elettorale \<modalità di rilascio>.
+Il `<gg/mm/aaaa>` è stata rilasciata la tessera elettorale `<modalità di rilascio>`.
 
 Per ulteriori informazioni, (visita questo sito)\[URL).&#x20;
 
@@ -84,7 +84,7 @@ Per ulteriori informazioni, (visita questo sito)\[URL).&#x20;
 
 🗒 **Testo del messaggio**:&#x20;
 
-Il \<gg/mm/aaaa> è stata rilasciata una tessera elettorale a tuo nome. È stata inviata per posta al tuo indirizzo di residenza.&#x20;
+Il `<gg/mm/aaaa>` è stata rilasciata una tessera elettorale a tuo nome. È stata inviata per posta al tuo indirizzo di residenza.&#x20;
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).&#x20;
 

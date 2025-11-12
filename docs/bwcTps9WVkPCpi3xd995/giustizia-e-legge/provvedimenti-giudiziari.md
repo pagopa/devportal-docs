@@ -35,11 +35,11 @@ I messaggi del presente servizio non sono riconducibili ai messaggi di cortesia 
 
 🗒 **Testo del messaggio**:&#x20;
 
-Hai prenotato un appuntamento per \<oggetto dell’appuntamento>.
+Hai prenotato un appuntamento per `<oggetto dell’appuntamento>`.
 
-**Dove:** \<indirizzo>
+**Dove:** `<indirizzo>`
 
-**Quando:** \<gg/mm/aaaa> alle \<hh:mm>
+**Quando:** `<gg/mm/aaaa>` alle `<hh:mm>`
 
 Per ulteriori informazioni, (visita questo sito)\[URL].
 

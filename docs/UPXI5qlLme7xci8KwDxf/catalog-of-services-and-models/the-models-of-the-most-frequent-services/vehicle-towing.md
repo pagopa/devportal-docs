@@ -35,15 +35,15 @@ The series of all messages represents the ideal service. The institution that wa
 
 🗒 **Text of the message**: 
 
-On \<dd/mm/yyyy> at \<hh:mm>, at \<address>, the vehicle with license plate \<license plate> was clamped for these violations: 
+On `<dd/mm/yyyy>` at `<hh:mm>`, at `<address>`, the vehicle with license plate `<license plate>` was clamped for these violations: 
 
-**•&nbsp;\<type of violation> - art. \<number>**
+**•&nbsp;`<type of violation>` - art. `<number>`**
 
-**Ticket number**: \<ticket number>
+**Ticket number**: `<ticket number>`
 
 \[See ticket](URL)
 
-\<Enter instructions about what the recipient must do, e.g. “Contact your local police at number”>. For more information visit \[this website](URL).
+`<Enter instructions about what the recipient must do, e.g. “Contact your local police at number”>`. For more information visit \[this website](URL).
 
 **🪄 Button**: n/a
 
@@ -65,17 +65,17 @@ On \<dd/mm/yyyy> at \<hh:mm>, at \<address>, the vehicle with license plate \<li
 
 **🖋 Title of the message:** Your vehicle has been towed 
 
-🗒 **Text of the message**:  On \<dd/mm/yyyy> at \<hh:mm>, at \<address>, the vehicle with license plate \<license plate> was towed for these violations:
+🗒 **Text of the message**:  On `<dd/mm/yyyy>` at `<hh:mm>`, at `<address>`, the vehicle with license plate `<license plate>` was towed for these violations:
 
-* **\<type of violation> - art. \<number>**
+* **`<type of violation>` - art. `<number>`**
 
-**Ticket number**: \<ticket number>
+**Ticket number**: `<ticket number>`
 
 \[See ticket](URL)
 
-Your vehicle is in storage at \<address>.  
+Your vehicle is in storage at `<address>`.  
   
-<Enter instructions about what the recipient must do, e.g. "You have until \<dd/mm/yy> to collect it>. For more information visit \[this website](URL) or contact \<institution to contact>\<method of contact>.
+<Enter instructions about what the recipient must do, e.g. "You have until `<dd/mm/yy>` to collect it>. For more information visit \[this website](URL) or contact `<institution to contact>``<method of contact>`.
 
 **🪄 Button**: n/a
 
@@ -97,11 +97,11 @@ Your vehicle is in storage at \<address>.
 
 **🖋 Title of the message:** The storage period of your vehicle is expiring
 
-🗒 **Text of the message**:  Your have until \<dd/mm/yyyy> to collect the vehicle with license plate \<license plate> at the storage yard at \<address>. 
+🗒 **Text of the message**:  Your have until `<dd/mm/yyyy>` to collect the vehicle with license plate `<license plate>` at the storage yard at `<address>`. 
 
-You may collect it only after paying the service and storage costs. If you do not collect it by the indicated date, \<enter what happens>. 
+You may collect it only after paying the service and storage costs. If you do not collect it by the indicated date, `<enter what happens>`. 
 
-For more information visit \[this website](URL) or contact \<institution to contact>\<method of contact>.
+For more information visit \[this website](URL) or contact `<institution to contact>``<method of contact>`.
 
 **🪄 Button**: n/a
 
@@ -121,9 +121,9 @@ For more information visit \[this website](URL) or contact \<institution to cont
 
 **🖋 Title of the message:** Your vehicle was reported as abandoned
 
-🗒 **Text of the message**: The vehicle with license plate \<license plate> at \<address> is considered abandoned. 
+🗒 **Text of the message**: The vehicle with license plate `<license plate>` at `<address>` is considered abandoned. 
 
-<Enter instructions about what the recipient must do, e.g. "You have until \<dd/mm/yy> to contact \<name of the institution>...>. For more information visit \[this website](URL) or contact \<institution to contact>\<method of contact>.
+<Enter instructions about what the recipient must do, e.g. "You have until `<dd/mm/yy>` to contact `<name of the institution>`...>. For more information visit \[this website](URL) or contact `<institution to contact>``<method of contact>`.
 
 **🪄 Button**: n/a
 

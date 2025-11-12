@@ -35,7 +35,7 @@ I seguenti messaggi comunicano ai cittadini lo stato di avanzamento della pratic
 
 🗒 **Testo del messaggio**:&#x20;
 
-Il \<gg/mm/aaaa> la tua segnalazione per \<oggetto> è stata inoltrata all’ufficio competente \<denominazione ufficio>.
+Il `<gg/mm/aaaa>` la tua segnalazione per `<oggetto>` è stata inoltrata all’ufficio competente `<denominazione ufficio>`.
 
 Per vedere la tua segnalazione, \[visita questo sito]\(URL).
 

@@ -9,9 +9,9 @@ Per ogni chiamata applicativa, il soggetto chiamato in causa (Nodo dei Pagamenti
 
 Il **faultCode** deve avere la seguente struttura:
 
-_\<erogatore>\_\<codice errore>_
+_`<erogatore>`\_`<codice errore>`_
 
-dove _\<erogatore>_ può assumere uno dei seguenti valori:
+dove _`<erogatore>`_ può assumere uno dei seguenti valori:
 
 | **Valore** | **Descrizione**                                     |
 | ---------- | --------------------------------------------------- |
@@ -21,8 +21,8 @@ dove _\<erogatore>_ può assumere uno dei seguenti valori:
 
 I **faultCode:**
 
-* _\<erogatore>\_SYSTEM\_ERROR_ possono essere restituiti da qualsiasi primitiva;
-* _\<erogatore>\_SEMANTICA_ sono definiti genericamente per ogni primitiva, e qualsiasi errore di tipo semantico che non possa essere ricondotto ad un **faultCode** specifico può essere segnalato in questo modo.
+* _`<erogatore>`\_SYSTEM\_ERROR_ possono essere restituiti da qualsiasi primitiva;
+* _`<erogatore>`\_SEMANTICA_ sono definiti genericamente per ogni primitiva, e qualsiasi errore di tipo semantico che non possa essere ricondotto ad un **faultCode** specifico può essere segnalato in questo modo.
 
 ## Categorie di faultCode <a href="#categorie-di-faultcode" id="categorie-di-faultcode"></a>
 

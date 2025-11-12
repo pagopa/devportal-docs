@@ -104,7 +104,7 @@ openssl rsa -in <nomeChiave>.rsa.pem -pubout -out <nomeChiave>.rsa.pub
 openssl pkcs8 -topk8 -inform PEM -outform PEM -nocrypt -in <nomeChiave>.rsa.pem -out <nomeChiave>.rsa.priv
 ```
 
-Sostituendo \<nomeChiave> con il nome che si vuole dare al file contenente la chiave.
+Sostituendo `<nomeChiave>` con il nome che si vuole dare al file contenente la chiave.
 
 \
 Il comando genererà una coppia di chiave pubblica e privata, ed un certificato che in questo caso non è necessario utilizzare. La chiave pubblica appena ottenuta, deve essere copiata nel riquadro "_Chiave pubblica_" del pop up del client; quella privata rimarrà in mano all'aderente, che la manterrà al sicuro e la userà per firmare la richiesta per ottenere un voucher dal server autorizzativo di PDND Interoperabilità.
@@ -150,7 +150,7 @@ python create_client_assertion.py \
   --keyPath=PATH_CHIAVE_PRIVATA
 ```
 
-Ricorda di modificare la variabile \<PATH\_CHIAVE\_PRIVATA> con il path della chiave privata generata al punto precedente. Per creare la client assertion è possibile utilizzare [questo codice](https://github.com/pagopa/pn-b2b-client/blob/develop/create-client-assertion/src/main/java/it/pagopa/pdnd/CreateClientAssertionApp.java).
+Ricorda di modificare la variabile `<PATH\_CHIAVE\_PRIVATA>` con il path della chiave privata generata al punto precedente. Per creare la client assertion è possibile utilizzare [questo codice](https://github.com/pagopa/pn-b2b-client/blob/develop/create-client-assertion/src/main/java/it/pagopa/pdnd/CreateClientAssertionApp.java).
 
 È disponibile il corrispettivo codice java della classe per generare la "Client assertion"[ CreateClientAssertionApp](https://github.com/pagopa/pn-b2b-client/blob/develop/create-client-assertion/src/main/java/it/pagopa/pdnd/CreateClientAssertionApp.java).
 
@@ -168,13 +168,13 @@ curl --location --request POST https://auth.dev.interop.pagopa.it/token.oauth2 \
 ```
 
 \
-Ricorda di modificare la variabile \<LA\_TUA\_CLIENT\_ASSERTION> con l'output ottenuto al punto 1.
+Ricorda di modificare la variabile `<LA\_TUA\_CLIENT\_ASSERTION>` con l'output ottenuto al punto 1.
 
 Per riprodurre il comando si può anche prendere come esempio [questo codice](https://github.com/pagopa/pn-b2b-client/blob/102ba3b4d790a3ccd378bd187525d8cb6937ff07/src/main/java/it/pagopa/pn/client/b2b/pa/impl/PnPaB2bExternalClientImpl.java#L199-L212):[ ](https://github.com/pagopa/pn-b2b-client/blob/102ba3b4d790a3ccd378bd187525d8cb6937ff07/src/main/java/it/pagopa/pn/client/b2b/pa/impl/PnPaB2bExternalClientImpl.java#L199-L212)
 
 Come risposta al comando otterrai una response che contiene access\_token, expires\_in e token\_type. \
 \
-L'access\_token(PDNDVoucher) appena ottenuto corrisponde al Voucher che potrà essere utilizzato nelle chiamate verso i servizi B2B di SEND - UAT inserendolo come Header: "Authorization: Bearer \<PDNDVoucher>"
+L'access\_token(PDNDVoucher) appena ottenuto corrisponde al Voucher che potrà essere utilizzato nelle chiamate verso i servizi B2B di SEND - UAT inserendolo come Header: "Authorization: Bearer `<PDNDVoucher>`"
 
 Puoi trovare [qui](https://www.youtube.com/watch?v=fb-CDltaeqw\&list=PLZcD-ZoVxFzi1f2-taSdg7a3d2UQse3_Q\&index=12) un videotutorial su come ottenere un access token.
 

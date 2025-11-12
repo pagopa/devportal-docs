@@ -39,7 +39,7 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 🗒 **Testo del messaggio**:
 
-Dal \<gg/mm/aaaa> il \<nome area ZTL o tratto di ZTL interessato alla variazione se presente> subirà queste variazioni:
+Dal `<gg/mm/aaaa>` il `<nome area ZTL o tratto di ZTL interessato alla variazione se presente>` subirà queste variazioni:
 
 \[Inserire qui le modifiche e le eventuali espansioni delle aree in ZTL, da completare a cura e responsabilità dell'ente]
 
@@ -67,13 +67,13 @@ Per leggere l’ordinanza completa, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio:**
 
-Hai prenotato un appuntamento per richiedere un permesso di sosta e/o circolazione presso \<nome ufficio>.
+Hai prenotato un appuntamento per richiedere un permesso di sosta e/o circolazione presso `<nome ufficio>`.
 
-Il numero della prenotazione è \<nnnn>
+Il numero della prenotazione è `<nnnn>`
 
-**Dove:** \<indirizzo>
+**Dove:** `<indirizzo>`
 
-**Quando:** il \<gg/mm/aaaa> alle \<hh:mm>
+**Quando:** il `<gg/mm/aaaa>` alle `<hh:mm>`
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -101,7 +101,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 **🗒 Testo del messaggio:**
 
-Per elaborare la tua richiesta di rilascio contrassegno per sosta e/o circolazione in zone a traffico limitato, abbiamo bisogno di ricevere entro il \<gg/mm/aaaa> altri documenti.
+Per elaborare la tua richiesta di rilascio contrassegno per sosta e/o circolazione in zone a traffico limitato, abbiamo bisogno di ricevere entro il `<gg/mm/aaaa>` altri documenti.
 
 Per aggiungere i documenti alla tua richiesta, \[visita questo sito]\(URL).
 
@@ -127,7 +127,7 @@ Per consultare il riepilogo della richiesta, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio:**
 
-La tua richiesta di rilascio contrassegno per \<sosta e/o circolazione> è stata accolta.
+La tua richiesta di rilascio contrassegno per `<sosta e/o circolazione>` è stata accolta.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -151,7 +151,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio:**
 
-La tua richiesta di rilascio contrassegno per \<sosta e/o circolazione> non è stata accolta.
+La tua richiesta di rilascio contrassegno per `<sosta e/o circolazione>` non è stata accolta.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -179,11 +179,11 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 **🖋 Titolo del messaggio:** Hai un nuovo avviso di pagamento
 
-🗒 **Testo del messaggio**: C'è un avviso da pagare intestato a \<nome cognome> e relativo a \<causale>.
+🗒 **Testo del messaggio**: C'è un avviso da pagare intestato a `<nome cognome>` e relativo a `<causale>`.
 
 **Devi pagare:** <00,00> €
 
-**Entro il:** \<gg/mm/aaaa>
+**Entro il:** `<gg/mm/aaaa>`
 
 Puoi pagare direttamente in app premendo “Paga”, oppure tramite tutti i canali di pagamento della piattaforma pagoPA e le altre modalità di pagamento offerte dell'ente creditore.
 
@@ -215,7 +215,7 @@ In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio p
 
 🗒 **Testo del messaggio**:
 
-Il tuo pagamento per \<causale> sta per scadere.
+Il tuo pagamento per `<causale>` sta per scadere.
 
 Se hai già provveduto a pagare l’avviso, ignora questo messaggio.
 
@@ -249,7 +249,7 @@ Se il contrassegno richiede una firma, è possibile utilizzare questo messaggio.
 
 🗒 **Testo del messaggio**:
 
-Il contrassegno per \<sosta e/o circolazione> è pronto per la firma.
+Il contrassegno per `<sosta e/o circolazione>` è pronto per la firma.
 
 Per visualizzare il documento, \[visita questa pagina]\(URL).
 
@@ -257,11 +257,11 @@ Per prenotare il tuo appuntamento per la firma, \[visita questo sito]\(URL),
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
-\[Solo per messaggi con allegato] Puoi trovare in allegato a questo messaggio il contrassegno in formato \<formato>.
+\[Solo per messaggi con allegato] Puoi trovare in allegato a questo messaggio il contrassegno in formato `<formato>`.
 
 **🪄 Pulsante**: n/a
 
-<mark style="color:blue;">**📎 Allegato:**</mark> \<contrassegno>
+<mark style="color:blue;">**📎 Allegato:**</mark> `<contrassegno>`
 
 ***
 
@@ -287,15 +287,15 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio:**
 
-Il contrassegno per \<sosta e/o circolazione> richiesto in data \<gg/mm/aaaa> è pronto per essere stampato.
+Il contrassegno per `<sosta e/o circolazione>` richiesto in data `<gg/mm/aaaa>` è pronto per essere stampato.
 
 Per visualizzare il documento, \[visita questa pagina]\(URL).
 
-\[Solo per messaggi con allegato] Puoi trovare in allegato a questo messaggio il contrassegno in formato \<formato>.
+\[Solo per messaggi con allegato] Puoi trovare in allegato a questo messaggio il contrassegno in formato `<formato>`.
 
 **🪄 Pulsante:** n/a
 
-**📎&#x20;**<mark style="color:blue;">**Allegato**</mark>**:** \<contrassegno>
+**📎&#x20;**<mark style="color:blue;">**Allegato**</mark>**:** `<contrassegno>`
 
 ***
 
@@ -315,11 +315,11 @@ Per visualizzare il documento, \[visita questa pagina]\(URL).
 
 🗒 **Testo del messaggio:**
 
-Dal \<gg/mm/aaaa> puoi ritirare il tuo contrassegno per \<sosta e/o circolazione>.
+Dal `<gg/mm/aaaa>` puoi ritirare il tuo contrassegno per `<sosta e/o circolazione>`.
 
 \[Inserire qui indicazioni sulle modalità di utilizzo della contrassegno, da compilare a cura e responsabilità dell'ente]
 
-**Dove:** \<indirizzo>
+**Dove:** `<indirizzo>`
 
 **Quando:** \[Inserire qui i giorni e gli orari di apertura dello sportello]
 
@@ -349,9 +349,9 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio:**
 
-Ti ricordiamo che il tuo contrassegno per \<sosta e/o circolazione> scadrà in data \<gg/mm/aaaa>.
+Ti ricordiamo che il tuo contrassegno per `<sosta e/o circolazione>` scadrà in data `<gg/mm/aaaa>`.
 
-Per rinnovarlo puoi seguire la \[procedura di rinnovo online]\(URL) o \[prendere appuntamento presso lo sportello]\(URL) \<denominazione ufficio>.
+Per rinnovarlo puoi seguire la \[procedura di rinnovo online]\(URL) o \[prendere appuntamento presso lo sportello]\(URL) `<denominazione ufficio>`.
 
 **🪄 Pulsante**: Rinnova contrassegno
 
@@ -373,7 +373,7 @@ Per rinnovarlo puoi seguire la \[procedura di rinnovo online]\(URL) o \[prendere
 
 🗒 **Testo del messaggio**:
 
-La tua richiesta di rinnovo del contrassegno per \<sosta e/o circolazione> è stata accolta.
+La tua richiesta di rinnovo del contrassegno per `<sosta e/o circolazione>` è stata accolta.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -399,11 +399,11 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 **🖋 Titolo del messaggio:** Hai un nuovo avviso di pagamento
 
-🗒 **Testo del messaggio**: C'è un avviso da pagare intestato a \<nome cognome> e relativo a \<causale>.
+🗒 **Testo del messaggio**: C'è un avviso da pagare intestato a `<nome cognome>` e relativo a `<causale>`.
 
 **Devi pagare:** <00,00> €
 
-**Entro il:** \<gg/mm/aaaa>
+**Entro il:** `<gg/mm/aaaa>`
 
 Puoi pagare direttamente in app premendo “Paga”, oppure tramite tutti i canali di pagamento della piattaforma pagoPA e le altre modalità di pagamento offerte dell'ente creditore.
 
@@ -435,7 +435,7 @@ In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio p
 
 🗒 **Testo del messaggio**:
 
-Il tuo pagamento per \<causale> sta per scadere.
+Il tuo pagamento per `<causale>` sta per scadere.
 
 Se hai già provveduto a pagare l’avviso, ignora questo messaggio.
 
@@ -461,7 +461,7 @@ Se hai già provveduto a pagare l’avviso, ignora questo messaggio.
 
 🗒 **Testo del messaggio**:
 
-La tua richiesta di \<variazione/cessazione> del permesso di \<sosta e/o circolazione> è stata accolta.
+La tua richiesta di `<variazione/cessazione>` del permesso di `<sosta e/o circolazione>` è stata accolta.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -487,7 +487,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio:**
 
-In data \<gg/mm/aaaa> il tuo contrassegno per \<categoria> è stato revocato per mancato rispetto dei requisiti che hanno determinato il rilascio.
+In data `<gg/mm/aaaa>` il tuo contrassegno per `<categoria>` è stato revocato per mancato rispetto dei requisiti che hanno determinato il rilascio.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 

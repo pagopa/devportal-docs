@@ -29,13 +29,13 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 <summary>Pubblicazione iniziativa</summary>
 
-**🖋 Titolo del messaggio:** È disponibile \<una nuova iniziativa>&#x20;
+**🖋 Titolo del messaggio:** È disponibile `<una nuova iniziativa>`&#x20;
 
 🗒 **Testo del messaggio**:&#x20;
 
 \[Inserire qui una descrizione sintetica dell’iniziativa, da completare a cura e responsabilità dell'ente]
 
-Per visualizzare \<nome dell'iniziativa>, \[visita questo sito]\(URL).
+Per visualizzare `<nome dell'iniziativa>`, \[visita questo sito]\(URL).
 
 **🪄 Pulsante**: n/a
 
@@ -59,7 +59,7 @@ Per visualizzare \<nome dell'iniziativa>, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio:**
 
-Per elaborare la tua domanda di \<oggetto della domanda> è necessario fissare un appuntamento presso \<denominazione ufficio>.
+Per elaborare la tua domanda di `<oggetto della domanda>` è necessario fissare un appuntamento presso `<denominazione ufficio>`.
 
 Per prenotare il tuo appuntamento, \[visita questo sito]\(URL).&#x20;
 
@@ -89,13 +89,13 @@ Per ulteriori informazioni, \[visita questo sito]\(URL)&#x20;
 
 🗒 **Testo del messaggio:**
 
-Hai prenotato un appuntamento per \<oggetto dell’appuntamento>.
+Hai prenotato un appuntamento per `<oggetto dell’appuntamento>`.
 
-Il numero della prenotazione è \<nnnn>.
+Il numero della prenotazione è `<nnnn>`.
 
-**Dove:** \<indirizzo>
+**Dove:** `<indirizzo>`
 
-**Quando:** il \<gg/mm/aaaa> alle \<hh:mm>
+**Quando:** il `<gg/mm/aaaa>` alle `<hh:mm>`
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -119,7 +119,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio:**
 
-Per elaborare la tua domanda per \<oggetto della domanda> abbiamo bisogno di ricevere entro il \<gg/mm/aaaa> altri documenti.&#x20;
+Per elaborare la tua domanda per `<oggetto della domanda>` abbiamo bisogno di ricevere entro il `<gg/mm/aaaa>` altri documenti.&#x20;
 
 Consulta il riepilogo della tua domanda, \[visita questo sito]\(URL).
 
@@ -145,7 +145,7 @@ Consulta il riepilogo della tua domanda, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio:**
 
-La tua domanda per \<oggetto della domanda> è stata accolta.
+La tua domanda per `<oggetto della domanda>` è stata accolta.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -169,7 +169,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio:**
 
-La tua domanda per \<oggetto della domanda> non è stata accolta.
+La tua domanda per `<oggetto della domanda>` non è stata accolta.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -195,7 +195,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio:**
 
-Il \<gg/mm/aaaa> abbiamo liquidato il tuo contributo per \<oggetto>.
+Il `<gg/mm/aaaa>` abbiamo liquidato il tuo contributo per `<oggetto>`.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 

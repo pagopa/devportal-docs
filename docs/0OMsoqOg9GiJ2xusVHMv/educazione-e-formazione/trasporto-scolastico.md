@@ -33,7 +33,7 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 🗒 **Testo del messaggio**:&#x20;
 
-Il trasporto scolastico previsto \<identificativo linea> per \<scuola> subirà variazioni \<es. in data gg/mm/aaaa> per \<motivazione>.&#x20;
+Il trasporto scolastico previsto `<identificativo linea>` per `<scuola>` subirà variazioni `<es. in data gg/mm/aaaa>` per `<motivazione>`.&#x20;
 
 Ci scusiamo per il disagio.
 
@@ -57,13 +57,13 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).&#x20;
 
 <summary>Apertura iscrizioni per il trasporto scolastico</summary>
 
-**🖋 Titolo del messaggio:** Sono aperte le richieste per il trasporto scolastico per l'anno educativo \<aaaa/aaaa>
+**🖋 Titolo del messaggio:** Sono aperte le richieste per il trasporto scolastico per l'anno educativo `<aaaa/aaaa>`
 
 🗒 **Testo del messaggio**:&#x20;
 
-In seguito alla domanda di iscrizione per l'anno educativo  \<aaaa/aaaa> a \<scuola> per \<nome> \<cognome>, dal \<gg/mm/aaaa> al \<gg/mm/aaaa> potrai fare domanda di iscrizione al servizio di trasporto scolastico. Il trasporto è operativo \<es. per tutto il periodo scolastico>.&#x20;
+In seguito alla domanda di iscrizione per l'anno educativo  `<aaaa/aaaa>` a `<scuola>` per `<nome>` `<cognome>`, dal `<gg/mm/aaaa>` al `<gg/mm/aaaa>` potrai fare domanda di iscrizione al servizio di trasporto scolastico. Il trasporto è operativo `<es. per tutto il periodo scolastico>`.&#x20;
 
-Il servizio è effettuato da \<azienda convenzionata>.
+Il servizio è effettuato da `<azienda convenzionata>`.
 
 \[Se previsto] È possibile richiedere anche il trasporto scolastico individuale per alunni con disabilità: scopri come \[a questa pagina]\(URL).
 
@@ -91,7 +91,7 @@ Per ulteriori informazioni e fare domanda d’iscrizione, \[visita questo sito]\
 
 🗒 **Testo del messaggio**:&#x20;
 
-La tua domanda per \<nome> \<cognome> per il servizio di trasporto scolastico è stata accolta, potrai avere maggiori informazioni sul servizio \[visitando questo sito]\(URL).&#x20;
+La tua domanda per `<nome>` `<cognome>` per il servizio di trasporto scolastico è stata accolta, potrai avere maggiori informazioni sul servizio \[visitando questo sito]\(URL).&#x20;
 
 \[Se previsto] Per finalizzare l'iscrizione, è previsto il pagamento della prima rata tramite l'avviso di pagamento.
 
@@ -115,7 +115,7 @@ La tua domanda per \<nome> \<cognome> per il servizio di trasporto scolastico è
 
 🗒 **Testo del messaggio**:&#x20;
 
-La tua domanda per \<nome> \<cognome> per il servizio di trasporto scolastico non è stata accolta.
+La tua domanda per `<nome>` `<cognome>` per il servizio di trasporto scolastico non è stata accolta.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).&#x20;
 
@@ -173,11 +173,11 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio**:
 
-C'è un avviso da pagare intestato a \<nome e cognome> e relativo a \<causale>.
+C'è un avviso da pagare intestato a `<nome e cognome>` e relativo a `<causale>`.
 
 **Devi pagare:** <00,00> €
 
-**Entro il:** \<gg/mm/aaaa>
+**Entro il:** `<gg/mm/aaaa>`
 
 Puoi pagare direttamente in app premendo “Paga”, oppure tramite tutti i canali di pagamento della piattaforma pagoPA e le altre modalità di pagamento offerte dell'ente creditore.
 
@@ -215,7 +215,7 @@ Gli utenti che hanno dato il loro consenso, infatti, riceveranno automaticamente
 
 🗒 **Testo del messaggio**:
 
-Il tuo pagamento per il servizio trasporto scolastico per \<scuola> sta per scadere.
+Il tuo pagamento per il servizio trasporto scolastico per `<scuola>` sta per scadere.
 
 Se hai già provveduto a pagare l’avviso o se hai richiesto la domiciliazione delle rette sul conto corrente, ignora questo messaggio.
 

@@ -18,29 +18,29 @@ Per ciascuno dei pagamenti della lista vengono mostrati:
 
 Per ogni elemento della lista il Referente dei Pagamenti può scaricare la “Ricevuta” utilizzando l’unica azione disponibile (tasto “Scarica ricevuta”). Ogni ricevuta scaricata è costituita da un file in formato xml la cui nomenclatura è:&#x20;
 
-ricevuta\_\<IUV>.xml
+ricevuta\_`<IUV>`.xml
 
 Nel file in formato xml le informazioni di interesse (alcune necessarie alla riconciliazione del pagamento con gli importi riversati sull’IBAN di accredito) sono le seguenti:
 
-**\<noticeNumber>** Numero o Codice Avviso&#x20;
+**`<noticeNumber>`** Numero o Codice Avviso&#x20;
 
-**\<fiscalCode>** Codice Fiscale dell’Ente beneficiario&#x20;
+**`<fiscalCode>`** Codice Fiscale dell’Ente beneficiario&#x20;
 
-**\<creditorReferenceId>** Identificativo Univoco di Versamento&#x20;
+**`<creditorReferenceId>`** Identificativo Univoco di Versamento&#x20;
 
-**\<paymentAmount>** Importo del Pagamento&#x20;
+**`<paymentAmount>`** Importo del Pagamento&#x20;
 
-**\<description>** Descrizione del Pagamento&#x20;
+**`<description>`** Descrizione del Pagamento&#x20;
 
-**\<entityUniqueIdentifierValue>** Codice Fiscale del debitore (CORPORATE)&#x20;
+**`<entityUniqueIdentifierValue>`** Codice Fiscale del debitore (CORPORATE)&#x20;
 
-**\<fullName>** Descrizione (ragione sociale) del debitore (CORPORATE)&#x20;
+**`<fullName>`** Descrizione (ragione sociale) del debitore (CORPORATE)&#x20;
 
-**\<IBAN>** IBAN sul quale viene accreditato il pagamento&#x20;
+**`<IBAN>`** IBAN sul quale viene accreditato il pagamento&#x20;
 
-**\<transferCategory>** Codice tassonomico&#x20;
+**`<transferCategory>`** Codice tassonomico&#x20;
 
-**\<transferDate>** Data di riversamento del pagamento
+**`<transferDate>`** Data di riversamento del pagamento
 
 Questo un esempio di un file di ricevuta:
 
