@@ -37,11 +37,11 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 🗒 **Testo del messaggio**:&#x20;
 
-Hai prenotato un appuntamento per \<oggetto dell’appuntamento>.
+Hai prenotato un appuntamento per `<oggetto dell’appuntamento>`.
 
-**Dove**: \<indirizzo>
+**Dove**: `<indirizzo>`
 
-**Quando**: \<gg/mm/aaaa> alle \<hh:mm>
+**Quando**: `<gg/mm/aaaa>` alle `<hh:mm>`
 
 Per ulteriori informazioni, (visita questo sito)\[URL].&#x20;
 
@@ -71,11 +71,11 @@ Per ulteriori informazioni, (visita questo sito)\[URL].&#x20;
 
 🗒 **Testo del messaggio**:
 
-C'è un avviso da pagare intestato a \<nome> \<cognome> e relativo a \<causale>.
+C'è un avviso da pagare intestato a `<nome>` `<cognome>` e relativo a `<causale>`.
 
 **Devi pagare:** <00,00> €
 
-**Entro il:** \<gg/mm/aaaa>
+**Entro il:** `<gg/mm/aaaa>`
 
 Puoi pagare direttamente in app premendo “Paga”, oppure tramite tutti i canali di pagamento della piattaforma pagoPA e le altre modalità di pagamento offerte dell'ente creditore.
 
@@ -113,7 +113,7 @@ Gli utenti che hanno dato il loro consenso, infatti, riceveranno automaticamente
 
 🗒 **Testo del messaggio**:&#x20;
 
-Il tuo pagamento per \<causale> sta per scadere.
+Il tuo pagamento per `<causale>` sta per scadere.
 
 Se hai già provveduto a pagare l’avviso ignora questo messaggio.
 
@@ -139,7 +139,7 @@ Se hai già provveduto a pagare l’avviso ignora questo messaggio.
 
 🗒 **Testo del messaggio**:&#x20;
 
-Per elaborare la tua richiesta di \<oggetto della richiesta>, abbiamo bisogno di ricevere entro il \<gg/mm/aaaa> altri documenti.
+Per elaborare la tua richiesta di `<oggetto della richiesta>`, abbiamo bisogno di ricevere entro il `<gg/mm/aaaa>` altri documenti.
 
 Per aggiungere i documenti alla tua richiesta, \[visita questo sito]\(URL).
 
@@ -163,7 +163,7 @@ Per aggiungere i documenti alla tua richiesta, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio**:&#x20;
 
-La tua richiesta di \<oggetto della richiesta> è stata accolta.
+La tua richiesta di `<oggetto della richiesta>` è stata accolta.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL)
 
@@ -187,7 +187,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL)
 
 🗒 **Testo del messaggio**:&#x20;
 
-La tua richiesta di \<oggetto della richiesta> non è stata accolta.
+La tua richiesta di `<oggetto della richiesta>` non è stata accolta.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL)
 

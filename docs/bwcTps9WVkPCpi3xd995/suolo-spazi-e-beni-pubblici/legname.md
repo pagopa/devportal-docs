@@ -39,13 +39,13 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 ***
 
-**🖋 Titolo del messaggio**: Pubblicato il bando per l’anno \<aaaa>
+**🖋 Titolo del messaggio**: Pubblicato il bando per l’anno `<aaaa>`
 
 🗒 **Testo del messaggio**:
 
-Il \<gg/mm/aaaa> è stato pubblicato il bando per \<l’assegnazione gratuita/la vendita di legname> per l’anno \<aaaa>.
+Il `<gg/mm/aaaa>` è stato pubblicato il bando per `<l’assegnazione gratuita/la vendita di legname>` per l’anno `<aaaa>`.
 
-Potrai compilare una sola domanda per il tuo nucleo familiare. Hai tempo fino al \<gg/mm/aaaa>.
+Potrai compilare una sola domanda per il tuo nucleo familiare. Hai tempo fino al `<gg/mm/aaaa>`.
 
 \[Inserire qui le modalità di compilazione della domanda e la documentazione necessaria, da compilare a cura e responsabilità dell'ente]
 
@@ -55,7 +55,7 @@ Per consultare i criteri di assegnazione e compilare la domanda, \[visita questo
 
 **🪄 Pulsante**: Fai domanda
 
-<mark style="color:red;">📎</mark> <mark style="color:blue;">**Allegato:**</mark> \<testo integrale del bando>
+<mark style="color:red;">📎</mark> <mark style="color:blue;">**Allegato:**</mark> `<testo integrale del bando>`
 
 ***
 
@@ -77,11 +77,11 @@ Per consultare i criteri di assegnazione e compilare la domanda, \[visita questo
 
 🗒 **Testo del messaggio**:
 
-Abbiamo ricevuto la tua domanda di \<assegnazione/acquisto> di legname per l’anno \<aaaa>.
+Abbiamo ricevuto la tua domanda di `<assegnazione/acquisto>` di legname per l’anno `<aaaa>`.
 
-Potrai consultare la tua posizione in graduatoria dal \<gg/mm/aaaa>.
+Potrai consultare la tua posizione in graduatoria dal `<gg/mm/aaaa>`.
 
-Il numero di protocollo della tua domanda è: \<nnnn>
+Il numero di protocollo della tua domanda è: `<nnnn>`
 
 Per consultare il riepilogo della domanda, \[visita questo sito]\(URL).
 
@@ -105,9 +105,9 @@ Per consultare il riepilogo della domanda, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio**:
 
-La tua domanda di \<assegnazione/acquisto> di legname per l’anno \<aaaa> non è stata accolta.
+La tua domanda di `<assegnazione/acquisto>` di legname per l’anno `<aaaa>` non è stata accolta.
 
-Per maggiori informazioni, contatta \<denominazione ufficio> tramite \<canale>.
+Per maggiori informazioni, contatta `<denominazione ufficio>` tramite `<canale>`.
 
 **🪄 Pulsante**: n/a
 
@@ -135,13 +135,13 @@ Per maggiori informazioni, contatta \<denominazione ufficio> tramite \<canale>.
 
 🗒 **Testo del messaggio**:
 
-Sono disponibili le graduatorie di \<assegnazione/vendita> di legname per l’anno \<aaaa>.
+Sono disponibili le graduatorie di `<assegnazione/vendita>` di legname per l’anno `<aaaa>`.
 
 \[Inserire qui le informazioni sull’esito della graduatoria, eventuale punteggio ottenuto, da compilare a cura e responsabilità dell'ente]
 
 Per visualizzare la tua posizione, \[visita questo sito]\(URL).
 
-Se vuoi, hai tempo fino al \<gg/mm/aaaa> per presentare richiesta di rinuncia.
+Se vuoi, hai tempo fino al `<gg/mm/aaaa>` per presentare richiesta di rinuncia.
 
 **🪄 Pulsante**: Vai alla graduatoria
 
@@ -165,7 +165,7 @@ Se vuoi, hai tempo fino al \<gg/mm/aaaa> per presentare richiesta di rinuncia.
 
 🗒 **Testo del messaggio**:
 
-La tua richiesta di rinuncia alla posizione in graduatoria per \<l’assegnazione/l’acquisto> di legname per l’anno \<aaaa> è stata accolta.
+La tua richiesta di rinuncia alla posizione in graduatoria per `<l’assegnazione/l’acquisto>` di legname per l’anno `<aaaa>` è stata accolta.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -193,11 +193,11 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio**:
 
-C'è un avviso da pagare intestato a \<nome e cognome> e relativo a \<causale> . 
+C'è un avviso da pagare intestato a `<nome e cognome>` e relativo a `<causale>` . 
 
 **Devi pagare:** <00,00> €
 
-**Entro il:** \<gg/mm/aaaa>
+**Entro il:** `<gg/mm/aaaa>`
 
 Puoi pagare direttamente in app premendo “Paga”, oppure tramite tutti i canali di pagamento della piattaforma pagoPA e le altre modalità di pagamento offerte dell'ente creditore.
 
@@ -235,11 +235,11 @@ I seguenti modelli di messaggio sono validi nei casi di domanda di acquisto — 
 
 🗒 **Testo del messaggio**:
 
-C'è un avviso da pagare intestato a \<nome> \<cognome> e relativo a \<causale>.
+C'è un avviso da pagare intestato a `<nome>` `<cognome>` e relativo a `<causale>`.
 
 **Devi pagare:** <00,00> €
 
-**Entro il:** \<gg/mm/aaaa>
+**Entro il:** `<gg/mm/aaaa>`
 
 Puoi pagare direttamente in app premendo “Paga”, oppure tramite tutti i canali di pagamento della piattaforma pagoPA e le altre modalità di pagamento offerte dell'ente creditore.
 
@@ -271,7 +271,7 @@ In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio p
 
 🗒 **Testo del messaggio**:
 
-Il tuo pagamento per l’acquisto di legname per l’anno \<aaaa> ricevuto il \<gg/mm/aaaa> sta per scadere.
+Il tuo pagamento per l’acquisto di legname per l’anno `<aaaa>` ricevuto il `<gg/mm/aaaa>` sta per scadere.
 
 Se hai già provveduto a pagare l’avviso ignora questo messaggio.
 
@@ -301,7 +301,7 @@ Il seguente messaggio serve a sollecitare il cittadino per il mancato pagamento 
 
 🗒 **Testo del messaggio**:
 
-Il tuo pagamento per l’acquisto di legname per l’anno \<aaaa> ricevuto il \<gg/mm/aaaa> è scaduto il \<gg/mm/aaaa>.
+Il tuo pagamento per l’acquisto di legname per l’anno `<aaaa>` ricevuto il `<gg/mm/aaaa>` è scaduto il `<gg/mm/aaaa>`.
 
 Se hai già provveduto a pagare l’avviso ignora questo messaggio.
 

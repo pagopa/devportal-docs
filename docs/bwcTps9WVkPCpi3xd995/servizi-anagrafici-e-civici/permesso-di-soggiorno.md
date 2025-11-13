@@ -41,9 +41,9 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 🗒 **Testo del messaggio**:
 
-Il tuo permesso di soggiorno scadrà il \<gg/mm/aaaa>.
+Il tuo permesso di soggiorno scadrà il `<gg/mm/aaaa>`.
 
-Per il rinnovo, dovrai prendere appuntamento presso \<denominazione ufficio>.
+Per il rinnovo, dovrai prendere appuntamento presso `<denominazione ufficio>`.
 
 Per prenotare il tuo appuntamento, \[visita questo sito]\(URL).
 
@@ -77,11 +77,11 @@ Per prenotare il tuo appuntamento, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio:**
 
-Hai prenotato un appuntamento presso \<denominazione ufficio>.
+Hai prenotato un appuntamento presso `<denominazione ufficio>`.
 
-**Dove:** \<indirizzo>
+**Dove:** `<indirizzo>`
 
-**Quando:** \<gg/mm/aaaa> alle \<hh:mm>
+**Quando:** `<gg/mm/aaaa>` alle `<hh:mm>`
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -109,7 +109,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio:**
 
-Il \<gg/mm/aaaa> la pratica \<nnnn> per \<oggetto> è stata presa in carico da \<denominazione ufficio>.
+Il `<gg/mm/aaaa>` la pratica `<nnnn>` per `<oggetto>` è stata presa in carico da `<denominazione ufficio>`.
 
 Per visualizzare lo stato della pratica, \[visita questo sito]\(URL).
 
@@ -135,15 +135,15 @@ Per visualizzare lo stato della pratica, \[visita questo sito]\(URL).
 
 ***
 
-**🖋 Titolo del messaggio:** Permesso di soggiorno \<ottenuto/rinnovato>
+**🖋 Titolo del messaggio:** Permesso di soggiorno `<ottenuto/rinnovato>`
 
 🗒 **Testo del messaggio:**
 
-Il tuo permesso di soggiorno è stato \<rinnovato/rilasciato> il \<gg/mm/aaaa>.
+Il tuo permesso di soggiorno è stato `<rinnovato/rilasciato>` il `<gg/mm/aaaa>`.
 
-Hai tempo fino al \<gg/mm/aaaa> per dichiarare la tua dimora abituale.
+Hai tempo fino al `<gg/mm/aaaa>` per dichiarare la tua dimora abituale.
 
-Per procedere con la dichiarazione di dimora, dovrai prendere un appuntamento presso \<denominazione ufficio>.
+Per procedere con la dichiarazione di dimora, dovrai prendere un appuntamento presso `<denominazione ufficio>`.
 
 Per prenotare il tuo appuntamento, \[visita questo sito]\(URL).
 
@@ -173,11 +173,11 @@ Per prenotare il tuo appuntamento, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio:**
 
-Hai prenotato un appuntamento per \<oggetto dell’appuntamento>.
+Hai prenotato un appuntamento per `<oggetto dell’appuntamento>`.
 
-**Dove:** \<indirizzo>
+**Dove:** `<indirizzo>`
 
-**Quando:** \<gg/mm/aaaa> alle \<hh:mm>
+**Quando:** `<gg/mm/aaaa>` alle `<hh:mm>`
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -203,9 +203,9 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio:**
 
-È stata avviata la pratica di cancellazione della tua iscrizione all'anagrafe del Comune di \<Comune> per irreperibilità.
+È stata avviata la pratica di cancellazione della tua iscrizione all'anagrafe del Comune di `<Comune>` per irreperibilità.
 
-Prendi appuntamento presso \<denominazione ufficio> per dichiarare la tua dimora abituale. Hai tempo fino al \<gg/mm/aaaa>.
+Prendi appuntamento presso `<denominazione ufficio>` per dichiarare la tua dimora abituale. Hai tempo fino al `<gg/mm/aaaa>`.
 
 Per prenotare il tuo appuntamento, \[visita questo sito]\(URL).
 

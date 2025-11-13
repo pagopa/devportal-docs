@@ -53,9 +53,9 @@ Le campagne vaccinali gratuite possono essere promosse ed erogate con modalità 
 
 \[Inserire qui una breve descrizione della campagna vaccinale, da completare a cura e responsabilità dell'ente]
 
-Prenota il tuo appuntamento per \<nome vaccino>.
+Prenota il tuo appuntamento per `<nome vaccino>`.
 
-**Dove**: \<luogo>
+**Dove**: `<luogo>`
 
 **Cosa portare**: \[indicazione sui documenti da portare]
 
@@ -83,13 +83,13 @@ Per ulteriori informazioni sul programma, \[visita questo sito]\(URL).&#x20;
 
 🗒 **Testo del messaggio:**
 
-Hai prenotato un appuntamento per \<oggetto dell’appuntamento>.
+Hai prenotato un appuntamento per `<oggetto dell’appuntamento>`.
 
-Il numero della prenotazione è: \<nnnn>.
+Il numero della prenotazione è: `<nnnn>`.
 
-**Dove:** \<indirizzo>
+**Dove:** `<indirizzo>`
 
-**Quando:** \<gg/mm/aaaa> alle \<hh:mm>
+**Quando:** `<gg/mm/aaaa>` alle `<hh:mm>`
 
 **Cosa portare**: \[indicazione sui documenti da portare]
 
@@ -115,13 +115,13 @@ Per ulteriori informazioni sul programma, \[visita questo sito]\(URL).&#x20;
 
 🗒 **Testo del messaggio:**
 
-Ti ricordiamo del tuo appuntamento per \<oggetto dell’appuntamento>.
+Ti ricordiamo del tuo appuntamento per `<oggetto dell’appuntamento>`.
 
-Il numero della prenotazione è: \<nnnn>.
+Il numero della prenotazione è: `<nnnn>`.
 
-**Dove:** \<indirizzo>
+**Dove:** `<indirizzo>`
 
-**Quando:** \<gg/mm/aaaa> alle \<hh:mm>
+**Quando:** `<gg/mm/aaaa>` alle `<hh:mm>`
 
 **Cosa portare**: \[indicazione sui documenti da portare]
 

@@ -22,9 +22,9 @@ Otherwise you can use the following messages:
 
 🗒 **Text of the message**: 
 
-Your application for \<service> has been undertaken. 
+Your application for `<service>` has been undertaken. 
 
-The protocol number is: \<nnnn>
+The protocol number is: `<nnnn>`
 
 For more information, visit \[this website](URL).
 
@@ -52,7 +52,7 @@ For more information, visit \[this website](URL).
 
 🗒 **Text of the message**: 
 
-To process your <mark style="color:purple;">{application/request for object}</mark> to the service \<service type> we need to receive additional documents by \<dd/mm/yyyy>. 
+To process your <mark style="color:purple;">{application/request for object}</mark> to the service `<service type>` we need to receive additional documents by `<dd/mm/yyyy>`. 
 
 To consult your <mark style="color:purple;">{application/request} summary}</mark>, \[visit this website](URL).
 
@@ -80,7 +80,7 @@ To consult your <mark style="color:purple;">{application/request} summary}</mark
 
 🗒 **Text of the message**: 
 
-Your <mark style="color:purple;">{application/request}</mark> for \<object> was accepted.
+Your <mark style="color:purple;">{application/request}</mark> for `<object>` was accepted.
 
 For more information, visit \[this website](URL).
 
@@ -104,7 +104,7 @@ For more information, visit \[this website](URL).
 
 🗒 **Text of the message**: 
 
-Your <mark style="color:purple;">{application/request}</mark> for \<object> was denied.
+Your <mark style="color:purple;">{application/request}</mark> for `<object>` was denied.
 
 For more information, \[visit this website](URL).
 

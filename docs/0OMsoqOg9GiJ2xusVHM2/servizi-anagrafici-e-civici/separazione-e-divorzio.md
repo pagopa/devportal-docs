@@ -39,7 +39,7 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 🗒 **Testo del messaggio**:
 
-Per elaborare la tua richiesta, abbiamo bisogno di ricevere entro il \<gg/mm/aaaa> altri documenti.
+Per elaborare la tua richiesta, abbiamo bisogno di ricevere entro il `<gg/mm/aaaa>` altri documenti.
 
 Consulta il riepilogo della tua richiesta, \[visita questo sito]\(URL).
 
@@ -67,11 +67,11 @@ Consulta il riepilogo della tua richiesta, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio**:
 
-Hai prenotato un appuntamento per \<oggetto dell’appuntamento>.
+Hai prenotato un appuntamento per `<oggetto dell’appuntamento>`.
 
-**Dove**: \<indirizzo>
+**Dove**: `<indirizzo>`
 
-**Quando**: \<gg/mm/aaaa> alle \<hh:mm>
+**Quando**: `<gg/mm/aaaa>` alle `<hh:mm>`
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -99,11 +99,11 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio**:
 
-Hai prenotato un appuntamento per \<oggetto dell’appuntamento>.
+Hai prenotato un appuntamento per `<oggetto dell’appuntamento>`.
 
-**Dove**: \<indirizzo>
+**Dove**: `<indirizzo>`
 
-**Quando**: \<gg/mm/aaaa> alle \<hh:mm>
+**Quando**: `<gg/mm/aaaa>` alle `<hh:mm>`
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -127,11 +127,11 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio**:
 
-Ti ricordiamo l’appuntamento del \<gg/mm/aaaa> per \<oggetto dell’appuntamento>.
+Ti ricordiamo l’appuntamento del `<gg/mm/aaaa>` per `<oggetto dell’appuntamento>`.
 
-**Dove**: \<indirizzo>
+**Dove**: `<indirizzo>`
 
-**Quando**: \<gg/mm/aaaa> alle \<hh:mm>
+**Quando**: `<gg/mm/aaaa>` alle `<hh:mm>`
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -161,11 +161,11 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio**:
 
-C'è un avviso da pagare intestato a \<nome> \<cognome> e relativo a \<causale>.
+C'è un avviso da pagare intestato a `<nome>` `<cognome>` e relativo a `<causale>`.
 
 **Devi pagare:** <00,00> €
 
-**Entro il:** \<gg/mm/aaaa>
+**Entro il:** `<gg/mm/aaaa>`
 
 Puoi pagare direttamente in app premendo “Paga”, oppure tramite tutti i canali di pagamento della piattaforma pagoPA e le altre modalità di pagamento offerte dell'ente creditore.
 
@@ -197,7 +197,7 @@ In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio p
 
 🗒 **Testo del messaggio**:
 
-Il tuo pagamento per \<causale> sta per scadere.
+Il tuo pagamento per `<causale>` sta per scadere.
 
 Se hai già provveduto a pagare l’avviso ignora questo messaggio.
 
@@ -227,7 +227,7 @@ Il seguente messaggio serve a sensibilizzare il cittadino per il mancato pagamen
 
 🗒 **Testo del messaggio**:
 
-Il tuo pagamento per \<causale> è scaduto il \<gg/mm/aaaa>.
+Il tuo pagamento per `<causale>` è scaduto il `<gg/mm/aaaa>`.
 
 \[Inserire qui indicazioni sull’impatto del protrarsi del mancato pagamento]
 
@@ -259,11 +259,11 @@ Se hai già provveduto a pagare l’avviso ignora questo messaggio.
 
 🗒 **Testo del messaggio**:
 
-Ti confermiamo l’appuntamento per \<oggetto dell’appuntamento>.
+Ti confermiamo l’appuntamento per `<oggetto dell’appuntamento>`.
 
-**Dove**: \<indirizzo>
+**Dove**: `<indirizzo>`
 
-**Quando**: \<gg/mm/aaaa> alle \<hh:mm>
+**Quando**: `<gg/mm/aaaa>` alle `<hh:mm>`
 
 Per ulteriori informazioni, \[visita il sito]\(URL).
 
@@ -287,11 +287,11 @@ Per ulteriori informazioni, \[visita il sito]\(URL).
 
 🗒 **Testo del messaggio**:
 
-Ti ricordiamo l’appuntamento del \<gg/mm/aaaa> per \<oggetto dell’appuntamento>.
+Ti ricordiamo l’appuntamento del `<gg/mm/aaaa>` per `<oggetto dell’appuntamento>`.
 
-**Dove**: \<indirizzo>
+**Dove**: `<indirizzo>`
 
-**Quando**: \<gg/mm/aaaa> alle \<hh:mm>
+**Quando**: `<gg/mm/aaaa>` alle `<hh:mm>`
 
 Per ulteriori informazioni, \[visita il sito]\(URL).
 
@@ -313,11 +313,11 @@ Per ulteriori informazioni, \[visita il sito]\(URL).
 
 <summary>Avvenuta trascrizione dell’atto di separazione o divorzio</summary>
 
-**🖋 Titolo del messaggio:** Atto di \<oggetto> trascritto
+**🖋 Titolo del messaggio:** Atto di `<oggetto>` trascritto
 
 🗒 **Testo del messaggio**:
 
-Il \<gg/mm/aaaa> abbiamo trascritto l’atto di \<oggetto>.
+Il `<gg/mm/aaaa>` abbiamo trascritto l’atto di `<oggetto>`.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 

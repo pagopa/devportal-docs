@@ -38,9 +38,9 @@ Aprire la scheda **richiesta di pre-caricamento allegati** ed inserire nel body 
 
 **NOTA:** sostituire i seguenti:
 
-* **\<shaDellaNotifica>:** è lo sha256 della Notifica che si ottiene come output al punto 1.1
-* **\<shaDelPagamento>:** è lo sha256 del Pagamento che si ottiene come output al punto 1.2
-* il valori **\<preloadIdx1>** e **\<preloadIdx2>** sono a discrezione del chiamante e servono per associare un indice alle richieste presenti nell'array di questa request
+* **`<shaDellaNotifica>`:** è lo sha256 della Notifica che si ottiene come output al punto 1.1
+* **`<shaDelPagamento>`:** è lo sha256 del Pagamento che si ottiene come output al punto 1.2
+* il valori **`<preloadIdx1>`** e **`<preloadIdx2>`** sono a discrezione del chiamante e servono per associare un indice alle richieste presenti nell'array di questa request
 
 Nella response di questo servizio, si otterrà il seguente payload:
 
@@ -48,11 +48,11 @@ Nella response di questo servizio, si otterrà il seguente payload:
 
 **NOTA:** i valori ottenuti nella response dovranno essere memorizzati per i futuri utilizzi; nello specifico:
 
-* **\<preloadIdx1>** e **\<preloadIdx2>:** hanno il solo scopo di fare riferimento agli elementi mettendo in correlazione request/response
-* **\<secret1>** e **\<secret2>:** andranno utilizzati nella chiamata di upload dei documenti
-* **\<httpMethod1> e \<httpMethod2>:** corrispondono al http method da utilizzare nella chiamata di upload dei documenti
-* **\<url1>** e **\<url2>:** sono le url da utilizzare nella chiamata di upload dei documenti
-* **\<key2>** e **\<key2>:** sono le keys da utilizzare in fase di inserimento notifica, rispettivamente per i 2 file
+* **`<preloadIdx1>`** e **`<preloadIdx2>`:** hanno il solo scopo di fare riferimento agli elementi mettendo in correlazione request/response
+* **`<secret1>`** e **`<secret2>`:** andranno utilizzati nella chiamata di upload dei documenti
+* **`<httpMethod1>` e `<httpMethod2>`:** corrispondono al http method da utilizzare nella chiamata di upload dei documenti
+* **`<url1>`** e **`<url2>`:** sono le url da utilizzare nella chiamata di upload dei documenti
+* **`<key2>`** e **`<key2>`:** sono le keys da utilizzare in fase di inserimento notifica, rispettivamente per i 2 file
 
 ### 3) Effettuare l'upload dei documenti&#x20;
 
@@ -64,11 +64,11 @@ Spostarsi poi nella sezione "Body" e selezionare il radio button "binary", selez
 
 <figure><img src="../../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
 
-**NOTA:** avendo 2 documenti, le chiamate da effettuare per effettuare l'upload sono 2, pertanto sarà necessario utilizzare i riferimenti **\<url1>, \<httpMethod1>** e **\<secret1>** nella chiamata di caricamento del primo file e **\<url2>, \<httpMethod2>** e **\<secret2>** nella chiamata di caricamento del secondo file. Per effettuare questa chiamata sarà necessario selezionare il "Desktop Agent" di Postman, dalla sezione dedicata in basso.
+**NOTA:** avendo 2 documenti, le chiamate da effettuare per effettuare l'upload sono 2, pertanto sarà necessario utilizzare i riferimenti **`<url1>`, `<httpMethod1>`** e **`<secret1>`** nella chiamata di caricamento del primo file e **`<url2>`, `<httpMethod2>`** e **`<secret2>`** nella chiamata di caricamento del secondo file. Per effettuare questa chiamata sarà necessario selezionare il "Desktop Agent" di Postman, dalla sezione dedicata in basso.
 
 <figure><img src="../../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
 
-Dopo aver lanciato la richiesta per entrambi ed aver ottenuto esito positivo, bisogna memorizzare i valore di x-amz-version-id: **\<versionIdNotifica>** e **\<versionIdPagamento>** che si ottengono nella sezione "Header" della response, rispettivamente il primo nella response del primo upload ed il secondo nella response del secondo upload, che verranno utilizzati nella prossima chiamata:
+Dopo aver lanciato la richiesta per entrambi ed aver ottenuto esito positivo, bisogna memorizzare i valore di x-amz-version-id: **`<versionIdNotifica>`** e **`<versionIdPagamento>`** che si ottengono nella sezione "Header" della response, rispettivamente il primo nella response del primo upload ed il secondo nella response del secondo upload, che verranno utilizzati nella prossima chiamata:
 
 <figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 
@@ -80,22 +80,22 @@ A questo punto è possibile effettuare l'inserimento della Notifica nella scheda
 
 **NOTA:**
 
-* **\<payloadDellaNotifica>:** corrisponde al json contenente tutti i dati della notifica; per inserire correttamente i riferimenti ai pdf caricati in precedenza, seguire le seguenti istruzioni:
+* **`<payloadDellaNotifica>`:** corrisponde al json contenente tutti i dati della notifica; per inserire correttamente i riferimenti ai pdf caricati in precedenza, seguire le seguenti istruzioni:
   * Valorizzare i seguenti riferimenti al file Notifica.pdf\
-    documents.digests.sha256: **\<shaDellaNotifica>**\
+    documents.digests.sha256: **`<shaDellaNotifica>`**\
     documents.contentType: **"application/pdf"**\
-    documents.ref.key: **\<key1>**\
-    documents.ref.versionToken: **\<versionIdNotifica>**
+    documents.ref.key: **`<key1>`**\
+    documents.ref.versionToken: **`<versionIdNotifica>`**
   * Valorizzare i seguenti riferimenti al file Pagamento.pdf\
-    recipients.payment.pagoPaForm.digests.sha256: **\<shaDelPagamento>**\
+    recipients.payment.pagoPaForm.digests.sha256: **`<shaDelPagamento>`**\
     recipients.payment.pagoPaForm.contentType: **"application/pdf"**\
-    recipients.payment.pagoPaForm.ref.key: **\<key2>**\
-    recipients.payment.pagoPaForm.ref.versionToken: **\<versionIdPagamento>**
+    recipients.payment.pagoPaForm.ref.key: **`<key2>`**\
+    recipients.payment.pagoPaForm.ref.versionToken: **`<versionIdPagamento>`**
 
 Se la chiamata è andata a buon fine si otterrà una response con httpStatus: 202 ACCEPTED ed il seguente body:
 
 <figure><img src="../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
 
 **NOTA:** nel body della response si otterranno i seguenti campi:\
-**\<notificationRequestId>:** questo identificativo viene assegnato alla richiesta di notifica appena inserita e potrà essere utilizzato in seguito per verificare se sia stata accettata o meno dalla Piattaforma Notifiche.\
-**\<paProtocolNumber>** e **\<idempotenceToken>:** questi campi sono gli stessi che sono stati inseriti nella precedente richiesta di inserimento Notifica e potranno essere utilizzati, in modo alternativo al **\<notificationRequestId>** ed insieme tra loro, per conoscere lo stato di accettazione della notifica su Piattaforma Notifiche.
+**`<notificationRequestId>`:** questo identificativo viene assegnato alla richiesta di notifica appena inserita e potrà essere utilizzato in seguito per verificare se sia stata accettata o meno dalla Piattaforma Notifiche.\
+**`<paProtocolNumber>`** e **`<idempotenceToken>`:** questi campi sono gli stessi che sono stati inseriti nella precedente richiesta di inserimento Notifica e potranno essere utilizzati, in modo alternativo al **`<notificationRequestId>`** ed insieme tra loro, per conoscere lo stato di accettazione della notifica su Piattaforma Notifiche.

@@ -11,7 +11,7 @@ La piattaforma pagoPA rileva un errore di connessione verso la controparte e res
 * **id** = _NodoDeiPagamentiSPC_
 * **faultCode** = _PPT\_CANALE\_IRRAGGIUNGIBILE_(se controparte è PSP) / _PPT\_STAZIONE\_INT\_PA\_IRRAGGIUNGIBILE_ (se controparte è EC)
 * **faultString** = _"Errore di connessione verso il canale."_ (se controparte è PSP) / _"Errore di connessione verso la Stazione"_ (se controparte è EC)
-* **description** = _\<description>_
+* **description** = _`<description>`_
 * **serial** = (se necessario)
 
 ## Servizio non attivo <a href="#servizio-non-attivo" id="servizio-non-attivo"></a>
@@ -25,5 +25,5 @@ La piattaforma pagoPA rileva che il servizio della controparte non è attivo e r
 * **id** = _NodoDeiPagamentiSPC_
 * **faultCode** = _PPT\_CANALE\_SERVIZIO\_NONATTIVO_(se controparte è PSP) / _PPT\_STAZIONE\_INT\_PA\_SERVIZIO\_NONATTIVO_ (se controparte è EC)
 * **faultString** = _"Il Servizio Applicativo del Canale non è attivo."_ (se controparte è PSP) / _"Il Servizio Applicativo della Stazione non è attivo"_ (se controparte è EC)
-* **description** = _\<description>_
+* **description** = _`<description>`_
 * **serial** = (se necessario)

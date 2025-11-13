@@ -34,17 +34,17 @@ The series of all messages represents the ideal service. The institution that wa
 
 **🖋 Title of the message:** Ticket
 
-🗒 **Text of the message**: On \<dd/mm/yyyy> at \<hh:mm> at \<address>, the person driving the vehicle with license plate number \<license plate number> committed these violations:
+🗒 **Text of the message**: On `<dd/mm/yyyy>` at `<hh:mm>` at `<address>`, the person driving the vehicle with license plate number `<license plate number>` committed these violations:
 
-**•&nbsp;\<type of violation> - art. \<number>**
+**•&nbsp;`<type of violation>` - art. `<number>`**
 
-**Ticket number**: \<ticket number>
+**Ticket number**: `<ticket number>`
 
 \[See ticket](URL)
 
-**Amount due**: € \<xx.yy>, already discounted 30% if paid by \<dd/mm/yyyy>
+**Amount due**: € `<xx.yy>`, already discounted 30% if paid by `<dd/mm/yyyy>`
 
-**What happens if I don't pay by \<dd/mm/yy>?** If foreseen, you will receive the violation report at your address of residency and you will be charged for the costs of notification. 
+**What happens if I don't pay by `<dd/mm/yy>`?** If foreseen, you will receive the violation report at your address of residency and you will be charged for the costs of notification. 
 
 **🪄 Button**: See notification
 
@@ -64,7 +64,7 @@ The series of all messages represents the ideal service. The institution that wa
 
 **🖋 Title of the message:** Payment due
 
-🗒 **Text of the message**: You have until \<dd/mm/yy> to pay the violation report number \<report number>. Pay it immediately to avoid additional costs.
+🗒 **Text of the message**: You have until `<dd/mm/yy>` to pay the violation report number `<report number>`. Pay it immediately to avoid additional costs.
 
 **🪄 Button**: n/a
 
@@ -84,7 +84,7 @@ The series of all messages represents the ideal service. The institution that wa
 
 **🖋 Title of the message:** Sending of the report
 
-🗒 **Text of the message**: We sent the violation report \<report number> to your address of residency. You will receive the registered letter in the next few days. 
+🗒 **Text of the message**: We sent the violation report `<report number>` to your address of residency. You will receive the registered letter in the next few days. 
 
 The amount of the report includes the notification expenses. For more information visit \[this website](URL).
 

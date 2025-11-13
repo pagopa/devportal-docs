@@ -16,17 +16,17 @@
 
 <mark style="color:green;">// if generic appointment //</mark> 
 
-<mark style="color:orange;">{{{You have made an appointment for \<subject of the appointment>.}}}</mark>
+<mark style="color:orange;">{{{You have made an appointment for `<subject of the appointment>`.}}}</mark>
 
 <mark style="color:green;">// if appointment with help desk //</mark> 
 
-<mark style="color:orange;">{{{You have made an appointment at \<helpdesk></mark>.<mark style="color:orange;">}}}</mark>
+<mark style="color:orange;">{{{You have made an appointment at `<helpdesk>`</mark>.<mark style="color:orange;">}}}</mark>
 
-The booking number is \<nnnn>.
+The booking number is `<nnnn>`.
 
-**Where:** \<address>
+**Where:** `<address>`
 
-**When:** on \<dd/mm/yyyy> at \<hh:mm>
+**When:** on `<dd/mm/yyyy>` at `<hh:mm>`
 
 For more information, visit \[this website](URL).
 
@@ -56,13 +56,13 @@ In place of this message we recommend the use of the feature :sparkles:[premium 
 
 🗒 **Text of the message**:
 
-We’d like to remind you about your appointment on \<dd/mm/yyyy> for \<subject>.
+We’d like to remind you about your appointment on `<dd/mm/yyyy>` for `<subject>`.
 
-The booking number is \<nnnn>.
+The booking number is `<nnnn>`.
 
-**Where:** \<address>
+**Where:** `<address>`
 
-**When:** on \<dd/mm/yyyy> at \<hh:mm>
+**When:** on `<dd/mm/yyyy>` at `<hh:mm>`
 
 For more information, visit \[this website](URL).
 

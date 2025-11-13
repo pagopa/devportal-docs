@@ -42,7 +42,7 @@ Per connettività in ingresso si intende il traffico generato dall’EC/PSP vers
    ℹ️ _L’accesso alla pagoPA Platform di Produzione di regola viene concesso solo alla conclusione positiva dei test nell’ambiente di Collaudo._
 2. **Accesso alla pagoPA Platform:** accedere alla pagoPA Platform dell’ambiente che si intende configurare con le credenziali registrate.
 3. **Sottoscrizione alla Nuova Connettività**: nel menù che si presenta in alto a destra bisogna accedere alla voce Products e scegliere tra i prodotti proposti **Nodo dei Pagamenti (Nuova Connettività).** Una volta fatta questa scelta sarà possibile sottoscrivere la connettività attraverso i seguenti passaggi:
-   1. Inserire nella textbox riportante il messaggio Your new product description name il nome che si intende dare alla connettività stessa (si consiglia di seguire una nomenclatura del tipo NC\<nomePSP/EC>\<UAT/Prod> come, per esempio, NCBestPSPEverUAT)
+   1. Inserire nella textbox riportante il messaggio Your new product description name il nome che si intende dare alla connettività stessa (si consiglia di seguire una nomenclatura del tipo NC`<nomePSP/EC>``<UAT/Prod>` come, per esempio, NCBestPSPEverUAT)
    2. Confermare con il bottone Subscribe .
    3. Attendere il messaggio di conferma della corretta attivazione della sottoscrizione.
    4. La sottoscrizione appena confermata sarà elencata sotto la voce Profile del menu.

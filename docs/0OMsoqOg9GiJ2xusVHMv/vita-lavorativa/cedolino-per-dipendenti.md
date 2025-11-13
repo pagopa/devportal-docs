@@ -29,11 +29,11 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 <summary>Benvenuto nel portale</summary>
 
-**🖋 Titolo del messaggio:** Ti diamo il benvenuto in \<nome portale>
+**🖋 Titolo del messaggio:** Ti diamo il benvenuto in `<nome portale>`
 
 🗒 **Testo del messaggio**:&#x20;
 
-Dal \<gg/mm/aaaa> puoi accedere a \<nome portale>.&#x20;
+Dal `<gg/mm/aaaa>` puoi accedere a `<nome portale>`.&#x20;
 
 \[Inserire qui indicazioni sull’accesso e su cosa troverà il dipendente all’interno del portale, da compilare a cura e responsabilità dell'ente]
 
@@ -63,11 +63,11 @@ Questo messaggio è da utilizzare sia per messaggi Premium, sia per messaggi sta
 
 ***
 
-**🖋 Titolo del messaggio:** Il tuo cedolino per il mese di \<mese> \<anno>
+**🖋 Titolo del messaggio:** Il tuo cedolino per il mese di `<mese>` `<anno>`
 
 🗒 **Testo del messaggio:**
 
-È disponibile il tuo cedolino per il mese di \<mese> \<anno>.&#x20;
+È disponibile il tuo cedolino per il mese di `<mese>` `<anno>`.&#x20;
 
 Per visualizzarlo, \[visita questa pagina]\(URL).
 
@@ -75,7 +75,7 @@ Per visualizzarlo, \[visita questa pagina]\(URL).
 
 **🪄  Pulsante:** n/a
 
-<mark style="color:blue;">**📎 Allegato Premium:**</mark> \<cedolino>
+<mark style="color:blue;">**📎 Allegato Premium:**</mark> `<cedolino>`
 
 ***
 
@@ -99,11 +99,11 @@ Questo messaggio è da utilizzare sia per messaggi Premium, sia per messaggi sta
 
 ***
 
-**🖋 Titolo del messaggio:** La tua Certificazione Unica per l'anno \<aaaa>
+**🖋 Titolo del messaggio:** La tua Certificazione Unica per l'anno `<aaaa>`
 
 🗒 **Testo del messaggio:**
 
-È disponibile la tua Certificazione Unica per l’anno \<aaaa>.
+È disponibile la tua Certificazione Unica per l’anno `<aaaa>`.
 
 Per visualizzarla, \[visita questa pagina]\(URL).
 
@@ -111,7 +111,7 @@ Per visualizzarla, \[visita questa pagina]\(URL).
 
 **🪄  Pulsante:** n/a
 
-<mark style="color:blue;">**📎 Allegato Premium:**</mark> \<certificazione unica>
+<mark style="color:blue;">**📎 Allegato Premium:**</mark> `<certificazione unica>`
 
 ***
 

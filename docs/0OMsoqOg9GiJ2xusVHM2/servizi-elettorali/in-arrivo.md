@@ -45,13 +45,13 @@ Tra i dati sensibili rientrano, ad esempio:
 
 <summary>Nuove elezioni: voto in Italia</summary>
 
-**🖋 Titolo del messaggio:** \<Elezioni o referendum> del \<gg/mm/aaaa>
+**🖋 Titolo del messaggio:** `<Elezioni o referendum>` del `<gg/mm/aaaa>`
 
 🗒 **Testo del messaggio**:
 
-Per partecipare \<alle elezioni o al referendum> del \<gg/mm/aaaa>, recati al il seggio, indicato sulla tua tessera elettorale, dalle ore hh:mm alle hh:mm.
+Per partecipare `<alle elezioni o al referendum>` del `<gg/mm/aaaa>`, recati al il seggio, indicato sulla tua tessera elettorale, dalle ore hh:mm alle hh:mm.
 
-\[Se previsto] Per le persone con disabilità è attivo il servizio di trasporto gratuito. Per richiedere il servizio \<modalità di richiesta>.
+\[Se previsto] Per le persone con disabilità è attivo il servizio di trasporto gratuito. Per richiedere il servizio `<modalità di richiesta>`.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -75,11 +75,11 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio**:
 
-Dal \<gg/mm/aaaa> al \<gg/mm/aaaa>, se sei cittadino dell'Unione Europea, puoi presentare la richiesta di iscrizione gratuita per poter votare alle elezioni del Consiglio Comunale del \<gg/mm/aaaa>. Puoi iscriverti nell'apposita lista elettorale dedicata se:
+Dal `<gg/mm/aaaa>` al `<gg/mm/aaaa>`, se sei cittadino dell'Unione Europea, puoi presentare la richiesta di iscrizione gratuita per poter votare alle elezioni del Consiglio Comunale del `<gg/mm/aaaa>`. Puoi iscriverti nell'apposita lista elettorale dedicata se:
 
 • hai diritto a votare nel tuo Stato di origine o di appartenenza;
 
-• sei maggiorenne e residente nel Comune \<nome Comune>.
+• sei maggiorenne e residente nel Comune `<nome Comune>`.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -99,13 +99,13 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 <summary>Voto dall'estero: come partecipare</summary>
 
-**🖋 Titolo del messaggio:** \<Elezioni o referendum> del \<gg/mm/aaaa>: voto dall'estero
+**🖋 Titolo del messaggio:** `<Elezioni o referendum>` del `<gg/mm/aaaa>`: voto dall'estero
 
 🗒 **Testo del messaggio**:
 
-Per \<le elezioni o il referendum> del \<gg/mm/aaaa>, puoi votare anche dall'estero.
+Per `<le elezioni o il referendum>` del `<gg/mm/aaaa>`, puoi votare anche dall'estero.
 
-Se sei all'estero da almeno tre mesi per motivi di lavoro, studio o cure mediche, puoi richiedere di votare per corrispondenza \<modalità di richiesta>.
+Se sei all'estero da almeno tre mesi per motivi di lavoro, studio o cure mediche, puoi richiedere di votare per corrispondenza `<modalità di richiesta>`.
 
 Se invece vivi all'estero da più di un anno e sei iscritto all'Anagrafe Italiani Residenti all'Estero (AIRE), scopri come puoi votare consultando il \[sito]\(URL).
 
@@ -133,7 +133,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio**:
 
-Dal \<gg/mm/aaaa> al \<gg/mm/aaaa> è possibile richiedere il voto assistito o il voto domiciliare per \<le elezioni o il referendum> del \<gg/mm/aaaa>.
+Dal `<gg/mm/aaaa>` al `<gg/mm/aaaa>` è possibile richiedere il voto assistito o il voto domiciliare per `<le elezioni o il referendum>` del `<gg/mm/aaaa>`.
 
 Le richieste possono essere presentate anche da un delegato, scopri come \[visitando questi sito]\(URL).
 
@@ -163,13 +163,13 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio:**
 
-Hai prenotato un appuntamento per \<voto domiciliare o trasporto ai seggi> per \<le elezioni o il referendum> del \<gg/mm/aaaa>.
+Hai prenotato un appuntamento per `<voto domiciliare o trasporto ai seggi>` per `<le elezioni o il referendum>` del `<gg/mm/aaaa>`.
 
-\[Se previsto] Il numero della prenotazione è \<nnnn>.
+\[Se previsto] Il numero della prenotazione è `<nnnn>`.
 
-**Dove**: \<indirizzo>
+**Dove**: `<indirizzo>`
 
-**Quando**: il \<gg/mm/aaaa> alle \<hh:mm>
+**Quando**: il `<gg/mm/aaaa>` alle `<hh:mm>`
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 

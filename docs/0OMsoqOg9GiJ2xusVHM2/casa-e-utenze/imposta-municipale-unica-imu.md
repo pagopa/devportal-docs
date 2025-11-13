@@ -34,11 +34,11 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 ***
 
-**🖋 Titolo del messaggio:** Aggiornamenti e novità IMU \<aaaa>
+**🖋 Titolo del messaggio:** Aggiornamenti e novità IMU `<aaaa>`
 
 🗒 **Testo del messaggio**:
 
-Sono disponibili le nuove regolamentazioni ed aliquote per l'anno \<aaaa>.
+Sono disponibili le nuove regolamentazioni ed aliquote per l'anno `<aaaa>`.
 
 \[Descrizione sintetica e per punti di cose prevedono le nuove regolamentazioni, da completare a cura e responsabilità dell'ente]
 
@@ -46,7 +46,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 **🪄 Pulsante**: n/a
 
-📎 <mark style="color:blue;">**Allegato**</mark>: \<documento>
+📎 <mark style="color:blue;">**Allegato**</mark>: `<documento>`
 
 ***
 
@@ -62,13 +62,13 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 <summary>Istruzioni sul pagamento della rata</summary>
 
-**🖋 Titolo del messaggio:** Pagamento \<prima, seconda, terza rata o rata unica>
+**🖋 Titolo del messaggio:** Pagamento `<prima, seconda, terza rata o rata unica>`
 
 🗒 **Testo del messaggio**:
 
-È possibile pagare l'importo IMU dovuto per \<periodo in questione> entro il \<gg/mm/aaaa>, applicando l’aliquota prevista dal tuo Comune.
+È possibile pagare l'importo IMU dovuto per `<periodo in questione>` entro il `<gg/mm/aaaa>`, applicando l’aliquota prevista dal tuo Comune.
 
-Il versamento dell’imposta può essere effettuato anche in un’unica soluzione, pagando l'intero importo annuale entro \<gg/mm/aaaa>.
+Il versamento dell’imposta può essere effettuato anche in un’unica soluzione, pagando l'intero importo annuale entro `<gg/mm/aaaa>`.
 
 Per calcolare l'importo dovuto, \[visita questo sito]\(URL).
 
@@ -98,7 +98,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio**:
 
-Hai tempo fino al \<gg/mm/aaaa> per pagare la \<prima, seconda o terza rata, ravvedimento operoso> dell'IMU.
+Hai tempo fino al `<gg/mm/aaaa>` per pagare la `<prima, seconda o terza rata, ravvedimento operoso>` dell'IMU.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 

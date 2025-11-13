@@ -37,13 +37,13 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 🗒 **Testo del messaggio**:&#x20;
 
-Hai prenotato un appuntamento presso \<tipologia sportello>.
+Hai prenotato un appuntamento presso `<tipologia sportello>`.
 
-Il numero della prenotazione è: \<nnnn>
+Il numero della prenotazione è: `<nnnn>`
 
-**Dove:** \<indirizzo>
+**Dove:** `<indirizzo>`
 
-**Quando:** \<gg/mm/aaaa> alle \<hh:mm>
+**Quando:** `<gg/mm/aaaa>` alle `<hh:mm>`
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 

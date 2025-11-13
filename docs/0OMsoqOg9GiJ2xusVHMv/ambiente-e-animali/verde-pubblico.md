@@ -35,7 +35,7 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 🗒 **Testo del messaggio**:
 
-Per elaborare la tua richiesta di autorizzazione per \<oggetto dell’autorizzazione> abbiamo bisogno di ricevere entro il \<gg/mm/aaaa> altri documenti.
+Per elaborare la tua richiesta di autorizzazione per `<oggetto dell’autorizzazione>` abbiamo bisogno di ricevere entro il `<gg/mm/aaaa>` altri documenti.
 
 Consulta il riepilogo della richiesta, \[visita questo sito]\(URL).
 
@@ -59,7 +59,7 @@ Consulta il riepilogo della richiesta, \[visita questo sito]\(URL).
 
 🗒**Testo del messaggio:**
 
-La tua richiesta di autorizzazione per \<oggetto dell’autorizzazione> è stata accolta.
+La tua richiesta di autorizzazione per `<oggetto dell’autorizzazione>` è stata accolta.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -83,7 +83,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio:**
 
-La tua richiesta di autorizzazione per \<oggetto dell’autorizzazione> non è stata accolta.
+La tua richiesta di autorizzazione per `<oggetto dell’autorizzazione>` non è stata accolta.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -115,7 +115,7 @@ Questo messaggio è da utilizzare sia per messaggi Premium, sia per messaggi sta
 
 🗒 **Testo del messaggio:**
 
-La tua autorizzazione per \<oggetto dell’autorizzazione> è pronta.
+La tua autorizzazione per `<oggetto dell’autorizzazione>` è pronta.
 
 Per visualizzarla, \[visita questo sito]\(URL).
 
@@ -125,7 +125,7 @@ Per visualizzarla, \[visita questo sito]\(URL).
 
 **🪄 Pulsante:** n/a
 
-<mark style="color:blue;">**📎 Allegato Premium:**</mark> \<autorizzazione>
+<mark style="color:blue;">**📎 Allegato Premium:**</mark> `<autorizzazione>`
 
 ***
 
@@ -145,9 +145,9 @@ Per visualizzarla, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio:**
 
-Dal \<gg/mm/aaaa> puoi ritirare l’autorizzazione da te richiesta per \<oggetto dell’autorizzazione>.
+Dal `<gg/mm/aaaa>` puoi ritirare l’autorizzazione da te richiesta per `<oggetto dell’autorizzazione>`.
 
-**Dove:** \<indirizzo>
+**Dove:** `<indirizzo>`
 
 **Quando:** \[Inserire i giorni e gli orari apertura dello sportello]
 
@@ -179,7 +179,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio:**
 
-Per elaborare la tua richiesta di autorizzazione per \<oggetto della richiesta>, abbiamo bisogno di ricevere entro il \<gg/mm/aaaa> altri documenti.
+Per elaborare la tua richiesta di autorizzazione per `<oggetto della richiesta>`, abbiamo bisogno di ricevere entro il `<gg/mm/aaaa>` altri documenti.
 
 Consulta il riepilogo della richiesta, \[visita questo sito]\(URL).
 
@@ -207,11 +207,11 @@ Consulta il riepilogo della richiesta, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio:**
 
-C'è un avviso da pagare intestato a \<nome> \<cognome> e relativo a \<causale>:
+C'è un avviso da pagare intestato a `<nome>` `<cognome>` e relativo a `<causale>`:
 
 **Devi pagare:** <00,00> €
 
-**Entro il:** \<gg/mm/aaaa>
+**Entro il:** `<gg/mm/aaaa>`
 
 Puoi pagare direttamente in app premendo “Paga”, oppure tramite tutti i canali di pagamento della piattaforma pagoPA e le altre modalità di pagamento offerte dell'ente creditore.
 
@@ -249,7 +249,7 @@ Gli utenti che hanno dato il loro consenso, infatti, riceveranno automaticamente
 
 🗒 **Testo del messaggio:**
 
-Il tuo pagamento per \<causale> sta per scadere.
+Il tuo pagamento per `<causale>` sta per scadere.
 
 Se hai già provveduto a pagare l'avviso, ignora questo messaggio.
 
@@ -273,7 +273,7 @@ Se hai già provveduto a pagare l'avviso, ignora questo messaggio.
 
 🗒 **Testo del messaggio:**
 
-La tua richiesta di autorizzazione per lavori di \<oggetto dei lavori> in \<indirizzo> è stata accolta.
+La tua richiesta di autorizzazione per lavori di `<oggetto dei lavori>` in `<indirizzo>` è stata accolta.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -297,7 +297,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio:**
 
-La tua richiesta di autorizzazione per lavori di \<oggetto dei lavori> in \<indirizzo> non è stata accolta.
+La tua richiesta di autorizzazione per lavori di `<oggetto dei lavori>` in `<indirizzo>` non è stata accolta.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -323,7 +323,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio:**
 
-La tua richiesta di \<proroga/sospensione> dei lavori di \<oggetto dei lavori> in \<indirizzo> è stata accolta.
+La tua richiesta di `<proroga/sospensione>` dei lavori di `<oggetto dei lavori>` in `<indirizzo>` è stata accolta.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -347,7 +347,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio:**
 
-La tua richiesta di \<proroga/sospensione> dei lavori di \<oggetto dei lavori> in \<indirizzo> non è stata accolta.
+La tua richiesta di `<proroga/sospensione>` dei lavori di `<oggetto dei lavori>` in `<indirizzo>` non è stata accolta.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -373,7 +373,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio:**
 
-Il \<gg/mm/aaaa> alle \<hh:mm> si svolgerà il collaudo di chiusura dei lavori di \<oggetto dei lavori> in \<indirizzo>.
+Il `<gg/mm/aaaa>` alle `<hh:mm>` si svolgerà il collaudo di chiusura dei lavori di `<oggetto dei lavori>` in `<indirizzo>`.
 
 \[Inserire qui indicazioni utili per il sopralluogo, da compilare a cura e responsabilità dell'ente]
 

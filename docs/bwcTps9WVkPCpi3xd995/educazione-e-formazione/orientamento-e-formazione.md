@@ -61,7 +61,7 @@ Per ulteriori informazioni sul servizio, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio**:
 
-Dal \<gg/mm/aaaa> al \<gg/mm/aaaa>, puoi partecipare agli open day delle \<es. scuole superiori, università> della città.
+Dal `<gg/mm/aaaa>` al `<gg/mm/aaaa>`, puoi partecipare agli open day delle `<es. scuole superiori, università>` della città.
 
 \[Inserire una descrizione più dettagliata, da completare a cura e responsabilità dell'ente]
 
@@ -92,13 +92,13 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 ***
 
-**🖋 Titolo del messaggio:** Pubblicato un nuovo \<bando/concorso/corso>
+**🖋 Titolo del messaggio:** Pubblicato un nuovo `<bando/concorso/corso>`
 
 🗒 **Testo del messaggio**:
 
-Dal \<gg/mm/aaaa> puoi fare richiesta di \<oggetto del bando/concorso/corso>.
+Dal `<gg/mm/aaaa>` puoi fare richiesta di `<oggetto del bando/concorso/corso>`.
 
-Hai tempo fino al \<gg/mm/aaaa>.
+Hai tempo fino al `<gg/mm/aaaa>`.
 
 Per consultare i criteri di assegnazione e presentare richiesta, \[visita questo sito]\(URL).
 
@@ -106,7 +106,7 @@ Per consultare i criteri di assegnazione e presentare richiesta, \[visita questo
 
 **🪄 Pulsante**: Invia richiesta
 
-<mark style="color:blue;">**📎 Allegato:**</mark> \<testo integrale del bando/ concorso/ corso>
+<mark style="color:blue;">**📎 Allegato:**</mark> `<testo integrale del bando/ concorso/ corso>`
 
 ***
 

@@ -22,11 +22,11 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 🗒 **Testo del messaggio:**
 
-Hai prenotato un appuntamento per \<oggetto dell’appuntamento>.
+Hai prenotato un appuntamento per `<oggetto dell’appuntamento>`.
 
-**Dove:** \<indirizzo>
+**Dove:** `<indirizzo>`
 
-**Quando:** \<gg/mm/aaaa> alle \<hh:mm>
+**Quando:** `<gg/mm/aaaa>` alle `<hh:mm>`
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -102,7 +102,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 **🗒 Testo del messaggio:**
 
-Per elaborare la tua richiesta di affissione delle pubblicazioni di matrimonio abbiamo bisogno di ricevere entro il \<gg/mm/aaaa> altri documenti.
+Per elaborare la tua richiesta di affissione delle pubblicazioni di matrimonio abbiamo bisogno di ricevere entro il `<gg/mm/aaaa>` altri documenti.
 
 Consulta il riepilogo della tua richiesta, \[visita il sito]\(URL).
 
@@ -128,9 +128,9 @@ Consulta il riepilogo della tua richiesta, \[visita il sito]\(URL).
 
 Siamo lieti di confermare la data di celebrazione del vostro matrimonio!
 
-**Dove:** \<indirizzo>
+**Dove:** `<indirizzo>`
 
-**Quando:** \<gg/mm/aaaa> alle \<hh:mm>
+**Quando:** `<gg/mm/aaaa>` alle `<hh:mm>`
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -156,9 +156,9 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 **🗒 Testo del messaggio:**
 
-Il \<gg/mm/aaaa> abbiamo affisso le pubblicazioni del vostro matrimonio. Saranno pubbliche fino al \<gg/mm/aaaa>.
+Il `<gg/mm/aaaa>` abbiamo affisso le pubblicazioni del vostro matrimonio. Saranno pubbliche fino al `<gg/mm/aaaa>`.
 
-Puoi \<scaricare/ritirare> il certificato di eseguite pubblicazioni tramite \<canale>.
+Puoi `<scaricare/ritirare>` il certificato di eseguite pubblicazioni tramite `<canale>`.
 
 Per visualizzare le pubblicazioni, \[visita questo sito]\(URL).
 
@@ -188,11 +188,11 @@ Per visualizzare le pubblicazioni, \[visita questo sito]\(URL).
 
 **🗒 Testo del messaggio:**
 
-C’è un avviso di pagamento intestato a \<nome> \<cognome> e relativo a \<causale>.
+C’è un avviso di pagamento intestato a `<nome>` `<cognome>` e relativo a `<causale>`.
 
 **Devi pagare:** <00,00> €
 
-**Entro il:** \<gg/mm/aaaa>
+**Entro il:** `<gg/mm/aaaa>`
 
 Puoi pagare direttamente in app premendo “Paga”, oppure tramite tutti i canali di pagamento della piattaforma pagoPA e le altre modalità di pagamento offerte dell'ente creditore.
 
@@ -224,7 +224,7 @@ In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio p
 
 🗒 **Testo del messaggio:**
 
-Il tuo pagamento per \<causale> sta per scadere.
+Il tuo pagamento per `<causale>` sta per scadere.
 
 Se hai già provveduto a pagare l’avviso, ignora questo messaggio.
 
@@ -254,7 +254,7 @@ La tua richiesta di rimborso è stata accolta.
 
 **Ti rimborseremo**: <00,00> €
 
-Entro il: \<gg/mm/aaaa>
+Entro il: `<gg/mm/aaaa>`
 
 **🪄 Pulsante:** n/a
 
@@ -302,9 +302,9 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio:**
 
-Ti confermiamo che \<Nome> \<Cognome> sarà il celebrante del vostro matrimonio.
+Ti confermiamo che `<Nome>` `<Cognome>` sarà il celebrante del vostro matrimonio.
 
-\<Nome> \<Cognome> dovrà recarsi presso \<denominazione ufficio> entro il \<gg/mm/aaaa> per depositare la propria firma.
+`<Nome>` `<Cognome>` dovrà recarsi presso `<denominazione ufficio>` entro il `<gg/mm/aaaa>` per depositare la propria firma.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -328,7 +328,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio:**
 
-Purtroppo \<Nome> \<Cognome> non potrà celebrare il vostro matrimonio.
+Purtroppo `<Nome>` `<Cognome>` non potrà celebrare il vostro matrimonio.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -352,9 +352,9 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio:**
 
-Ti confermiamo che il \<gg/mm/aaaa> celebrerai il matrimonio di \<Nome> \<Cognome> e \<Nome> \<Cognome>.
+Ti confermiamo che il `<gg/mm/aaaa>` celebrerai il matrimonio di `<Nome>` `<Cognome>` e `<Nome>` `<Cognome>`.
 
-**Dove:** \<Indirizzo>
+**Dove:** `<Indirizzo>`
 
 **Quando:** \[Inserire qui i giorni e gli orari di apertura dello sportello]
 
@@ -386,7 +386,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio:**
 
-La celebrazione del vostro matrimonio è fissata per il \<gg/mm/aaaa>.
+La celebrazione del vostro matrimonio è fissata per il `<gg/mm/aaaa>`.
 
 Per procedere con la celebrazione, dovete confermare la data.
 

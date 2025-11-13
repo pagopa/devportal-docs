@@ -33,7 +33,7 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 🗒 **Testo del messaggio:**
 
-Per elaborare la tua \<richiesta di/variazione di/rinuncia al> passo carrabile abbiamo bisogno di ricevere entro il \<gg/mm/aaaa> altri documenti.
+Per elaborare la tua `<richiesta di/variazione di/rinuncia al>` passo carrabile abbiamo bisogno di ricevere entro il `<gg/mm/aaaa>` altri documenti.
 
 Per aggiungere i documenti alla tua richiesta, \[visita questo sito]\(URL).
 
@@ -57,7 +57,7 @@ Per aggiungere i documenti alla tua richiesta, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio:**
 
-La tua \<richiesta di/variazione di/rinuncia al> passo carrabile per \<indirizzo> è stata accolta.
+La tua `<richiesta di/variazione di/rinuncia al>` passo carrabile per `<indirizzo>` è stata accolta.
 
 \[Nel caso di voltura] Riceverai un pagamento in app per il cartello di passo carrabile.
 
@@ -87,7 +87,7 @@ Per ulteriori informazioni, \[visita questa pagina]\(URL).
 
 🗒 **Testo del messaggio:**
 
-La tua \<richiesta di/variazione di/rinuncia al> passo carrabile per \<indirizzo> non è stata accolta.
+La tua `<richiesta di/variazione di/rinuncia al>` passo carrabile per `<indirizzo>` non è stata accolta.
 
 Per ulteriori informazioni, \[visita questa pagina]\(URL).
 
@@ -117,11 +117,11 @@ Per ulteriori informazioni, \[visita questa pagina]\(URL).
 
 🗒 **Testo del messaggio:**
 
-C’è un avviso di pagamento intestato a \<nome> \<cognome> e relativo a \<causale>.
+C’è un avviso di pagamento intestato a `<nome>` `<cognome>` e relativo a `<causale>`.
 
 **Devi pagare**: <00,00> €
 
-**Entro il**: \<gg/mm/aaaa>
+**Entro il**: `<gg/mm/aaaa>`
 
 Puoi pagare direttamente in app premendo “Paga”, oppure tramite tutti i canali di pagamento della piattaforma pagoPA e le altre modalità di pagamento offerte dell'ente creditore.
 
@@ -159,7 +159,7 @@ Gli utenti che hanno dato il loro consenso, infatti, riceveranno automaticamente
 
 🗒 **Testo del messaggio:**
 
-Il tuo pagamento per \<causale> sta per scadere.
+Il tuo pagamento per `<causale>` sta per scadere.
 
 Se hai già provveduto a pagare l’avviso, ignora questo messaggio.
 
@@ -185,9 +185,9 @@ Se hai già provveduto a pagare l’avviso, ignora questo messaggio.
 
 🗒 **Testo del messaggio:**
 
-Dal \<gg/mm/aaaa> puoi ritirare il passo carrabile richiesto.
+Dal `<gg/mm/aaaa>` puoi ritirare il passo carrabile richiesto.
 
-**Dove**: \<indirizzo>
+**Dove**: `<indirizzo>`
 
 **Quando**: \[inserire qui i giorni e gli orari di apertura dello sportello]
 
@@ -213,11 +213,11 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio:**
 
-Il \<gg/mm/aaaa> verrà installato il passo carrabile da te richiesto.
+Il `<gg/mm/aaaa>` verrà installato il passo carrabile da te richiesto.
 
-**Quando:** dalle \<hh:hh> alle \<hh:hh>
+**Quando:** dalle `<hh:hh>` alle `<hh:hh>`
 
-**Dove:** \<indirizzo>
+**Dove:** `<indirizzo>`
 
 \[Inserire qui ulteriori indicazioni sull'installazione, da compilare a cura e responsabilità dell'ente]
 
@@ -245,11 +245,11 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio:**
 
-Dal \<gg/mm/aaaa> puoi restituire il cartello di passo carrabile in tuo possesso.
+Dal `<gg/mm/aaaa>` puoi restituire il cartello di passo carrabile in tuo possesso.
 
 \[Inserire qui istruzioni utili alla riconsegna, da compilare a cura e responsabilità dell'ente]
 
-**Dove**: \<indirizzo>
+**Dove**: `<indirizzo>`
 
 **Quando**: \[inserire qui i giorni e gli orari di apertura dello sportello]
 

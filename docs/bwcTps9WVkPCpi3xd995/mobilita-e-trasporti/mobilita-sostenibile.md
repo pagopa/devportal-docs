@@ -31,7 +31,7 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 <summary>Nuova convenzione o iniziativa</summary>
 
-**🖋 Titolo del messaggio:** C'è una nuova \<convenzione/iniziativa>
+**🖋 Titolo del messaggio:** C'è una nuova `<convenzione/iniziativa>`
 
 🗒 **Testo del messaggio**:
 
@@ -59,7 +59,7 @@ Per maggiori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio**:
 
-Dal \<gg/mm/aaaa> è attivo il nuovo servizio \<nome servizio>.
+Dal `<gg/mm/aaaa>` è attivo il nuovo servizio `<nome servizio>`.
 
 \[Inserire qui le informazioni sul servizio, da completare a cura e responsabilità dell'ente]
 
@@ -91,9 +91,9 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio**:
 
-Dal \<gg/mm/aaaa> puoi fare richiesta di \<oggetto del bando>.
+Dal `<gg/mm/aaaa>` puoi fare richiesta di `<oggetto del bando>`.
 
-Hai tempo fino al \<gg/mm/aaaa>.
+Hai tempo fino al `<gg/mm/aaaa>`.
 
 Per consultare i criteri di assegnazione e presentare richiesta, \[visita questo sito]\(URL).
 
@@ -101,7 +101,7 @@ Per consultare i criteri di assegnazione e presentare richiesta, \[visita questo
 
 **🪄 Pulsante**: Invia richiesta
 
-<mark style="color:blue;">**📎 Allegato:**</mark> \<testo integrale del bando>
+<mark style="color:blue;">**📎 Allegato:**</mark> `<testo integrale del bando>`
 
 ***
 
@@ -123,7 +123,7 @@ Per consultare i criteri di assegnazione e presentare richiesta, \[visita questo
 
 🗒 **Testo del messaggio**:
 
-Per elaborare la tua richiesta di \<oggetto del bando> abbiamo bisogno di ricevere entro il \<gg/mm/aaaa> altri documenti.
+Per elaborare la tua richiesta di `<oggetto del bando>` abbiamo bisogno di ricevere entro il `<gg/mm/aaaa>` altri documenti.
 
 Per aggiungere i documenti alla tua richiesta, \[visita questo sito]\(URL).
 
@@ -147,7 +147,7 @@ Per aggiungere i documenti alla tua richiesta, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio**:
 
-La tua richiesta di \<oggetto del bando> è stata accolta.
+La tua richiesta di `<oggetto del bando>` è stata accolta.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -171,7 +171,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio**:
 
-La tua richiesta di \<oggetto del bando> non è stata accolta.
+La tua richiesta di `<oggetto del bando>` non è stata accolta.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -201,11 +201,11 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio**:
 
-C’è un avviso da pagare intestato a \<nome e cognome> e relativo a \<causale>.
+C’è un avviso da pagare intestato a `<nome e cognome>` e relativo a `<causale>`.
 
 **Devi pagare**: <00,00> €
 
-**Entro il**: \<gg/mm/aaaa>
+**Entro il**: `<gg/mm/aaaa>`
 
 Puoi pagare direttamente in app premendo “Paga”, oppure tramite tutti i canali di pagamento della piattaforma pagoPA e le altre modalità di pagamento offerte dell'ente creditore.
 
@@ -237,7 +237,7 @@ In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio p
 
 🗒 **Testo del messaggio**:
 
-Il tuo pagamento per \<causale> sta per scadere.
+Il tuo pagamento per `<causale>` sta per scadere.
 
 Se hai già provveduto a pagare l’avviso, ignora questo messaggio.
 
@@ -267,7 +267,7 @@ Il seguente messaggio serve a sollecitare il cittadino per il mancato pagamento 
 
 🗒 **Testo del messaggio**:
 
-Il tuo pagamento per \<causale> è scaduto il \<gg/mm/aaaa>.
+Il tuo pagamento per `<causale>` è scaduto il `<gg/mm/aaaa>`.
 
 Se hai già provveduto a pagare l’avviso, ignora questo messaggio.
 

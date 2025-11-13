@@ -39,7 +39,7 @@ Questo messaggio è da utilizzare sia per messaggi Premium, sia per messaggi sta
 
 🗒 **Testo del messaggio**:
 
-Dal \<gg/mm/aaaa> è possibile fare domanda di assegnazione di orti urbani nel territorio comunale.
+Dal `<gg/mm/aaaa>` è possibile fare domanda di assegnazione di orti urbani nel territorio comunale.
 
 Per consultare i criteri di assegnazione e fare domanda, \[visita questo sito]\(URL).
 
@@ -47,7 +47,7 @@ Per consultare i criteri di assegnazione e fare domanda, \[visita questo sito]\(
 
 **🪄 Pulsante**: n/a
 
-\*\*📎 \*\*<mark style="color:blue;">**Allegato Premium:**</mark> \<testo integrale del bando>
+\*\*📎 \*\*<mark style="color:blue;">**Allegato Premium:**</mark> `<testo integrale del bando>`
 
 ***
 
@@ -71,7 +71,7 @@ Per consultare i criteri di assegnazione e fare domanda, \[visita questo sito]\(
 
 È disponibile la graduatoria per l’assegnazione di orti urbani nel territorio comunale.
 
-Se vuoi rinunciare alla tua posizione, hai tempo fino al \<gg/mm/aaaa>.
+Se vuoi rinunciare alla tua posizione, hai tempo fino al `<gg/mm/aaaa>`.
 
 Per visualizzare la tua posizione in graduatoria, \[visita questo sito]\(URL).
 
@@ -101,9 +101,9 @@ Questo messaggio è da utilizzare sia per messaggi Premium, sia per messaggi sta
 
 🗒 **Testo del messaggio:**
 
-Dal \<gg/mm/aaaa> il lotto \<nnnn> in \<indirizzo> è assegnato a te.
+Dal `<gg/mm/aaaa>` il lotto `<nnnn>` in `<indirizzo>` è assegnato a te.
 
-L’assegnazione scadrà il \<gg/mm/aaaa>.
+L’assegnazione scadrà il `<gg/mm/aaaa>`.
 
 Riceverai un messaggio in app in prossimità della scadenza.
 
@@ -113,7 +113,7 @@ Per visualizzare il regolamento e scoprire dettagli sull'assegnazione e modalit�
 
 **🪄 Pulsante:** n/a
 
-\*\*📎 \*\*<mark style="color:blue;">**Allegato Premium:**</mark> \<regolamento>
+\*\*📎 \*\*<mark style="color:blue;">**Allegato Premium:**</mark> `<regolamento>`
 
 ***
 
@@ -139,11 +139,11 @@ Per visualizzare il regolamento e scoprire dettagli sull'assegnazione e modalit�
 
 🗒 **Testo del messaggio:**
 
-C'è un avviso da pagare intestato a \<nome> \<cognome> e relativo a \<causale>.
+C'è un avviso da pagare intestato a `<nome>` `<cognome>` e relativo a `<causale>`.
 
 **Devi pagare:** <00,00> €
 
-**Entro il:** \<gg/mm/aaaa>
+**Entro il:** `<gg/mm/aaaa>`
 
 Puoi pagare direttamente in app premendo “Paga”, oppure tramite tutti i canali di pagamento della piattaforma pagoPA e le altre modalità di pagamento offerte dell'ente creditore.
 
@@ -181,7 +181,7 @@ Gli utenti che hanno dato il loro consenso, infatti, riceveranno automaticamente
 
 🗒 **Testo del messaggio:**
 
-Il tuo pagamento per \<causale> sta per scadere.
+Il tuo pagamento per `<causale>` sta per scadere.
 
 Se hai già provveduto a pagare l'avviso ignora questo messaggio.
 
@@ -211,7 +211,7 @@ Il seguente messaggio serve a sollecitare il cittadino per il mancato pagamento 
 
 🗒 **Testo del messaggio:**
 
-Il tuo pagamento per \<causale> è scaduto il \<gg/mm/aaaa>.
+Il tuo pagamento per `<causale>` è scaduto il `<gg/mm/aaaa>`.
 
 Se hai già provveduto a pagare l'avviso ignora questo messaggio.
 
@@ -237,7 +237,7 @@ Se hai già provveduto a pagare l'avviso ignora questo messaggio.
 
 🗒 **Testo del messaggio:**
 
-A partire dal \<gg/mm/aaaa>, il lotto \<nnnn> dell’orto urbano in \<indirizzo> non sarà più assegnato a te.
+A partire dal `<gg/mm/aaaa>`, il lotto `<nnnn>` dell’orto urbano in `<indirizzo>` non sarà più assegnato a te.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -265,9 +265,9 @@ Se i cittadini possono richiedere il rinnovo della concessione, si consiglia di 
 
 🗒 **Testo del messaggio:**
 
-La concessione del lotto \<nnnn> dell’orto urbano in \<indirizzo> scadrà il \<gg/mm/aaaa>.
+La concessione del lotto `<nnnn>` dell’orto urbano in `<indirizzo>` scadrà il `<gg/mm/aaaa>`.
 
-Se vuoi, puoi fare richiesta di rinnovo. Hai tempo fino al \<gg/mm/aaaa>.
+Se vuoi, puoi fare richiesta di rinnovo. Hai tempo fino al `<gg/mm/aaaa>`.
 
 Per richiedere il rinnovo, \[visita questo sito]\(URL).
 
@@ -293,7 +293,7 @@ Se i cittadini non possono richiedere il rinnovo della concessione, si consiglia
 
 🗒 **Testo del messaggio:**
 
-La concessione del lotto \<nnnn> dell’orto urbano in \<indirizzo> scadrà il \<gg/mm/aaaa>.
+La concessione del lotto `<nnnn>` dell’orto urbano in `<indirizzo>` scadrà il `<gg/mm/aaaa>`.
 
 \[Se previsto] Hai già rinnovato la tua concessione, quindi non potrai estenderla di nuovo.
 
@@ -319,9 +319,9 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio:**
 
-La tua richiesta di rinnovo della concessione del lotto \<nnnn> dell’orto urbano in \<indirizzo> è stata accolta.
+La tua richiesta di rinnovo della concessione del lotto `<nnnn>` dell’orto urbano in `<indirizzo>` è stata accolta.
 
-Il rinnovo sarà attivo dal \<gg/mm/aaaa> e scadrà il \<gg/mm/aaaa>.
+Il rinnovo sarà attivo dal `<gg/mm/aaaa>` e scadrà il `<gg/mm/aaaa>`.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -345,7 +345,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio:**
 
-La tua richiesta di rinnovo della concessione del lotto \<nnnn> dell’orto urbano in \<indirizzo> non è stata accolta.
+La tua richiesta di rinnovo della concessione del lotto `<nnnn>` dell’orto urbano in `<indirizzo>` non è stata accolta.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 

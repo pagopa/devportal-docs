@@ -39,11 +39,11 @@ Se è prevista l'erogazione e l'utilizzo di un tesserino per la raccolta funghi,
 
 🗒 **Testo del messaggio**:
 
-C'è un avviso da pagare intestato a \<nome> \<cognome> e relativo a \<causale>.
+C'è un avviso da pagare intestato a `<nome>` `<cognome>` e relativo a `<causale>`.
 
 Devi pagare: <00,00> €
 
-Entro il: \<gg/mm/aaaa>
+Entro il: `<gg/mm/aaaa>`
 
 Puoi pagare direttamente in app premendo “Paga”, oppure tramite tutti i canali di pagamento della piattaforma pagoPA e le altre modalità di pagamento offerte dell'ente creditore.
 
@@ -81,7 +81,7 @@ Gli utenti che hanno dato il loro consenso, infatti, riceveranno automaticamente
 
 🗒 **Testo del messaggio:**
 
-Il tuo pagamento per \<causale> sta per scadere.
+Il tuo pagamento per `<causale>` sta per scadere.
 
 Se hai già provveduto a pagare l'avviso ignora questo messaggio.
 
@@ -111,11 +111,11 @@ Se hai già provveduto a pagare l'avviso ignora questo messaggio.
 
 🗒 **Testo del messaggio:**
 
-Hai prenotato un appuntamento per il ritiro del tuo tesserino \<tipo tesserino>.
+Hai prenotato un appuntamento per il ritiro del tuo tesserino `<tipo tesserino>`.
 
-**Dove**: \<indirizzo>
+**Dove**: `<indirizzo>`
 
-**Quando**: il \<gg/mm/aaaa> alle \<hh:mm>
+**Quando**: il `<gg/mm/aaaa>` alle `<hh:mm>`
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -141,9 +141,9 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio:**
 
-Il tuo tesserino \<tipo tesserino> sta per scadere.
+Il tuo tesserino `<tipo tesserino>` sta per scadere.
 
-Per il rinnovo, dovrai prendere appuntamento presso \<sportello>.
+Per il rinnovo, dovrai prendere appuntamento presso `<sportello>`.
 
 Per prenotare il tuo appuntamento, \[visita questo sito]\(URL).
 

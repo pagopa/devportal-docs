@@ -16,9 +16,9 @@ Questo messaggio è da utilizzare sia per messaggi Premium, sia per messaggi sta
 
 🗒 **Testo del messaggio**:
 
-Dal \<gg/mm/aaaa> puoi fare richiesta di \<oggetto del bando>.
+Dal `<gg/mm/aaaa>` puoi fare richiesta di `<oggetto del bando>`.
 
-Hai tempo fino al \<gg/mm/aaaa>.
+Hai tempo fino al `<gg/mm/aaaa>`.
 
 Per consultare i criteri di assegnazione e presentare richiesta, \[visita questo sito]\(URL).
 
@@ -26,7 +26,7 @@ Per consultare i criteri di assegnazione e presentare richiesta, \[visita questo
 
 **🪄 Pulsante**: Presenta richiesta
 
-<mark style="color:blue;">**📎 Allegato Premium:**</mark> \<testo integrale del bando>
+<mark style="color:blue;">**📎 Allegato Premium:**</mark> `<testo integrale del bando>`
 
 ***
 
@@ -50,9 +50,9 @@ Per consultare i criteri di assegnazione e presentare richiesta, \[visita questo
 
 🗒 **Testo del messaggio**:&#x20;
 
-È disponibile la graduatoria per il servizio \<tipologia di servizio> per \<nome> \<cognome>.
+È disponibile la graduatoria per il servizio `<tipologia di servizio>` per `<nome>` `<cognome>`.
 
-Se vuoi rinunciare alla tua posizione, hai tempo fino al \<gg/mm/aaaa>.
+Se vuoi rinunciare alla tua posizione, hai tempo fino al `<gg/mm/aaaa>`.
 
 Per visualizzare la tua posizione in graduatoria \[visita questo sito]\(URL).
 

@@ -35,9 +35,9 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 🗒 **Testo del messaggio**:
 
-La tua richiesta di accesso documentale agli atti \<nnnn> del \<gg/mm/aaaa> risulta \<incompleta/irregolare>.
+La tua richiesta di accesso documentale agli atti `<nnnn>` del `<gg/mm/aaaa>` risulta `<incompleta/irregolare>`.
 
-Pertanto, devi compilare di nuovo la tua richiesta, per farlo, \[visita questo sito]\(URL). Hai tempo fino al \<gg/mm/aaaa>.
+Pertanto, devi compilare di nuovo la tua richiesta, per farlo, \[visita questo sito]\(URL). Hai tempo fino al `<gg/mm/aaaa>`.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -61,7 +61,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio**:
 
-La tua richiesta di accesso documentale agli atti \<nnnn> è stata accolta.
+La tua richiesta di accesso documentale agli atti `<nnnn>` è stata accolta.
 
 \[Se è stata richiesta una copia dell'atto, Inserire qui indicazioni sulle modalità di pagamento in contanti e/o digitale]
 
@@ -87,7 +87,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio**:
 
-La tua richiesta di accesso documentale agli atti \<nnnn> non è stata accolta.
+La tua richiesta di accesso documentale agli atti `<nnnn>` non è stata accolta.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -109,15 +109,15 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 <summary>Atti disponibili per la visione/ritiro</summary>
 
-**🖋 Titolo del messaggio:** Gli atti sono pronti \<per la visione/per il ritiro>
+**🖋 Titolo del messaggio:** Gli atti sono pronti `<per la visione/per il ritiro>`
 
 🗒 **Testo del messaggio**:
 
-Dal \<gg/mm/aaaa> puoi \<ritirare/visionare> gli atti da te richiesti.
+Dal `<gg/mm/aaaa>` puoi `<ritirare/visionare>` gli atti da te richiesti.
 
-Hai tempo fino al \<gg/mm/aaaa>.
+Hai tempo fino al `<gg/mm/aaaa>`.
 
-**Dove**: \<indirizzo>
+**Dove**: `<indirizzo>`
 
 **Quando**: \[inserire qui i giorni e gli orari di apertura dello sportello]
 
@@ -143,7 +143,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio**:
 
-Gli atti da te richiesti non sono stati \<ritirati/visionati> entro il termine previsto del \<gg/mm/aaaa>.
+Gli atti da te richiesti non sono stati `<ritirati/visionati>` entro il termine previsto del `<gg/mm/aaaa>`.
 
 Se vuoi, puoi presentare una nuova richiesta.
 
@@ -171,7 +171,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio**:
 
-La tua richiesta di accesso a \<oggetto della richiesta> \<nnnn> è stata accolta.
+La tua richiesta di accesso a `<oggetto della richiesta>` `<nnnn>` è stata accolta.
 
 Riceverai un messaggio in app quando saranno pubblicati \[su questo sito]\(URL).
 
@@ -197,7 +197,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio**:
 
-La tua richiesta di accesso a \<oggetto della richiesta> \<nnnn> non è stata accolta.
+La tua richiesta di accesso a `<oggetto della richiesta>` `<nnnn>` non è stata accolta.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -219,11 +219,11 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 <summary>Pubblicazione</summary>
 
-**🖋 Titolo del messaggio:** Puoi visionare \<i documenti da te richiesti/le informazioni da te richieste/i dati da te richiesti>
+**🖋 Titolo del messaggio:** Puoi visionare `<i documenti da te richiesti/le informazioni da te richieste/i dati da te richiesti>`
 
 🗒 **Testo del messaggio**:
 
-Il \<gg/mm/aaaa> \<i documenti da te richiesti/le informazioni da te richieste/i dati da te richiesti> sono \<stati pubblicati/state pubblicate>.
+Il `<gg/mm/aaaa>` `<i documenti da te richiesti/le informazioni da te richieste/i dati da te richiesti>` sono `<stati pubblicati/state pubblicate>`.
 
 Per visionarli, \[visita questo sito]\(URL).
 
@@ -249,7 +249,7 @@ Per visionarli, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio**:
 
-La tua richiesta di accesso a \<oggetto della richiesta> \<nnnn> è stata accolta.
+La tua richiesta di accesso a `<oggetto della richiesta>` `<nnnn>` è stata accolta.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -273,7 +273,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio**:
 
-La tua richiesta di accesso a \<oggetto della richiesta> \<nnnn> non è stata accolta.
+La tua richiesta di accesso a `<oggetto della richiesta>` `<nnnn>` non è stata accolta.
 
 Per ulteriori informazioni, \[visita il sito]\(URL).
 

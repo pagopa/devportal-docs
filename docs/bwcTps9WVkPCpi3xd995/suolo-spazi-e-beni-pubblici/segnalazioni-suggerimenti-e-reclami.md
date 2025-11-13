@@ -37,9 +37,9 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 🗒 **Testo del messaggio**:
 
-Il \<gg/mm/aaaa> abbiamo preso in carico la segnalazione presentata il \<gg/mm/aaaa>.
+Il `<gg/mm/aaaa>` abbiamo preso in carico la segnalazione presentata il `<gg/mm/aaaa>`.
 
-Il codice della segnalazione è: \<codice>
+Il codice della segnalazione è: `<codice>`
 
 Per gestire la tua segnalazione \[visita questo sito]\(URL).
 
@@ -63,7 +63,7 @@ Per gestire la tua segnalazione \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio**:
 
-Il \<gg/mm/aaaa> la tua segnalazione \<codice> è stata inoltrata all’ufficio competente \<denominazione ufficio>.
+Il `<gg/mm/aaaa>` la tua segnalazione `<codice>` è stata inoltrata all’ufficio competente `<denominazione ufficio>`.
 
 Per visualizzare la tua segnalazione, \[visita questo sito]\(URL).
 

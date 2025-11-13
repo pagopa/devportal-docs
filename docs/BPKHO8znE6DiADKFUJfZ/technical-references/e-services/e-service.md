@@ -36,7 +36,7 @@ All fields in `configuration.json` are **mandatory**. Even if not used, they mus
 | `technology`   | REST \| SOAP         | Technology of the produced API. The interface file extension must be consistent.                                                                                                                           |
 | `mode`         | DELIVER \| RECEIVE   | Mode of the e-service (direct or reverse producing). In **RECEIVE**, at least one entry in `riskAnalysis` is required; in **DELIVER**, there must be none. \[**correction: corrected REICEVE to RECEIVE**] |
 | `descriptor`   | Descriptor           | Content of the e-service **version** (see _Descriptor_ table).                                                                                                                                             |
-| `riskAnalysis` | Array\<RiskAnalysis> | Risk analyses required for e-services in **RECEIVE** mode (default: `[]`).                                                                                                                                 |
+| `riskAnalysis` | Array`<RiskAnalysis>` | Risk analyses required for e-services in **RECEIVE** mode (default: `[]`).                                                                                                                                 |
 
 **Descriptor**
 
@@ -44,8 +44,8 @@ All fields in `configuration.json` are **mandatory**. Even if not used, they mus
 | ------------------------- | ------------------- | ------------------------------------------------------------------------------------------------- |
 | `description`             | String              | Description of the **version** (10–250 characters, including spaces).                             |
 | `interface`               | Document            | Document describing the produced **API interface**.                                               |
-| `docs`                    | Array\<Document>    | Documents attached to the version (e.g., technical documentation). Default: `[]`.                 |
-| `audience`                | Array\<String>      | Audience of the resource. Typically, **only one string** is included.                             |
+| `docs`                    | Array`<Document>`    | Documents attached to the version (e.g., technical documentation). Default: `[]`.                 |
+| `audience`                | Array`<String>`      | Audience of the resource. Typically, **only one string** is included.                             |
 | `voucherLifespan`         | Number              | **Voucher** validity in **seconds** (allowed values: `60`–`86_400`, i.e., **1 minute–24 hours**). |
 | `dailyCallsPerConsumer`   | Number              | **Per-consumer** call threshold (API calls per day). Values ≥ 1.                                  |
 | `dailyCallsTotal`         | Number              | **Total** call threshold (API calls per day) ≥ `dailyCallsPerConsumer`.                           |
@@ -70,8 +70,8 @@ All fields in `configuration.json` are **mandatory**. Even if not used, they mus
 | Field name      | Type                             | Description                                                               |
 | --------------- | -------------------------------- | ------------------------------------------------------------------------- |
 | `version`       | String                           | Version of the analysis model (e.g., **3.0** for Public Administrations). |
-| `singleAnswers` | Array\<RiskAnalysisSingleAnswer> | **Single-choice** answers.                                                |
-| `multiAnswers`  | Array\<RiskAnalysisMultiAnswer>  | **Multiple-choice** answers.                                              |
+| `singleAnswers` | Array`<RiskAnalysisSingleAnswer>` | **Single-choice** answers.                                                |
+| `multiAnswers`  | Array`<RiskAnalysisMultiAnswer>`  | **Multiple-choice** answers.                                              |
 
 **RiskAnalysisSingleAnswer**
 
@@ -85,7 +85,7 @@ All fields in `configuration.json` are **mandatory**. Even if not used, they mus
 | Field name | Type           | Description                                                                  |
 | ---------- | -------------- | ---------------------------------------------------------------------------- |
 | `key`      | String         | Key identifying the question in the template (e.g., `institutionalPurpose`). |
-| `values`   | Array\<String> | List of selected answers.                                                    |
+| `values`   | Array`<String>` | List of selected answers.                                                    |
 
 ***
 

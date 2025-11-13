@@ -14,14 +14,14 @@ Table 3 shows how to assign values to the attributes of an SCT template:
 
 Legend:
 
-* \<prog>: is a one-digit progressive number between 0 and 9, with
+* `<prog>`: is a one-digit progressive number between 0 and 9, with
   * 0 -> ordinary SCT;
   * 1-9 -> supplementary SCTs in the day as a result of technical anomalies;
-* \<Amount>: total SCT amount, i.e. the sum of the individual transaction amounts entered in the associated Reporting Flow, identifiable by \<FlowIdentifier>;
-* \<IBAN of Beneficiary>: The PSP draws this data from the executed payment requests;
-* \<Beneficiary Fiscal Code>: The PSP draws this data from the executed payment requests;
-* \<FlowIdentifier>: specifies the data element related to the FlowIdentifier information present in the Reporting Flow described in the following [reporting-flow.md](reporting-flow.md "mention");
-* \<EndToEndID>: reference assigned by the PSP to the fund transfer operation.
+* `<Amount>`: total SCT amount, i.e. the sum of the individual transaction amounts entered in the associated Reporting Flow, identifiable by `<FlowIdentifier>`;
+* `<IBAN of Beneficiary>`: The PSP draws this data from the executed payment requests;
+* `<Beneficiary Fiscal Code>`: The PSP draws this data from the executed payment requests;
+* `<FlowIdentifier>`: specifies the data element related to the FlowIdentifier information present in the Reporting Flow described in the following [reporting-flow.md](reporting-flow.md "mention");
+* `<EndToEndID>`: reference assigned by the PSP to the fund transfer operation.
 
 Please note:
 

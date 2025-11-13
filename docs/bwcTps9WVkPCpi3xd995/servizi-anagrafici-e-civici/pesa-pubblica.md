@@ -33,7 +33,7 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 🗒 **Testo del messaggio**:
 
-Dal \<gg/mm/aaaa> il servizio di pesa pubblica subirà delle variazioni.
+Dal `<gg/mm/aaaa>` il servizio di pesa pubblica subirà delle variazioni.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 

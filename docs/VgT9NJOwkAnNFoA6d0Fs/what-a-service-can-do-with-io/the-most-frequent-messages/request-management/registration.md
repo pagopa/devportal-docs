@@ -10,7 +10,7 @@
 
 🗒 **Text of the message**: 
 
-From \<dd/mm/yyyy> to \<dd/mm/yyyy> you can apply to register with the \<service type> service.
+From `<dd/mm/yyyy>` to `<dd/mm/yyyy>` you can apply to register with the `<service type>` service.
 
 For more information, and to apply to register, \[visit this website](URL).
 
@@ -44,9 +44,9 @@ For more information, and to apply to register, \[visit this website](URL).
 
 🗒 **Text of the message**: 
 
-On \<dd/mm/yyyy> we received your application to register with the \<service type> service.
+On `<dd/mm/yyyy>` we received your application to register with the `<service type>` service.
 
-[If assigned] The protocol number of your application is: \<nnnn>
+[If assigned] The protocol number of your application is: `<nnnn>`
 
 To consult your application summary, \[visit this website](URL).
 

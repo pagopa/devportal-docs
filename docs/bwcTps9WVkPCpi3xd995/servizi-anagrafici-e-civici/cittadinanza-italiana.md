@@ -39,11 +39,11 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 🗒 **Testo del messaggio:**
 
-Dal \<gg/mm/aaaa> puoi presentare richiesta per ottenere la cittadinanza italiana.
+Dal `<gg/mm/aaaa>` puoi presentare richiesta per ottenere la cittadinanza italiana.
 
-Hai tempo fino al \<gg/mm/aaaa>.
+Hai tempo fino al `<gg/mm/aaaa>`.
 
-Per presentare richiesta, prenota un appuntamento presso \<denominazione ufficio>.
+Per presentare richiesta, prenota un appuntamento presso `<denominazione ufficio>`.
 
 Per prenotare il tuo appuntamento, \[visita questo sito]\(URL).
 
@@ -73,15 +73,15 @@ Per prenotare il tuo appuntamento, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio:**
 
-Hai prenotato un appuntamento per \<oggetto dell’appuntamento>.
+Hai prenotato un appuntamento per `<oggetto dell’appuntamento>`.
 
-Il numero della prenotazione è: \<nnnn>.
+Il numero della prenotazione è: `<nnnn>`.
 
-**Dove:** \<indirizzo>
+**Dove:** `<indirizzo>`
 
-**Quando:** \<gg/mm/aaaa> alle \<hh:mm>
+**Quando:** `<gg/mm/aaaa>` alle `<hh:mm>`
 
-Prima dell’appuntamento, dovrai effettuare il pagamento di \<causale>.
+Prima dell’appuntamento, dovrai effettuare il pagamento di `<causale>`.
 
 Riceverai nei prossimi giorni un messaggio in app con l’avviso di pagamento.
 
@@ -111,11 +111,11 @@ Per ulteriori informazioni, \[visita il sito]\(URL).
 
 🗒 **Testo del messaggio:**
 
-C’è un avviso da pagare intestato a \<nome> \<cognome> e relativo a \<causale>.
+C’è un avviso da pagare intestato a `<nome>` `<cognome>` e relativo a `<causale>`.
 
 **Devi pagare:** <00,00> €
 
-**Entro il:** \<gg/mm/aaaa>
+**Entro il:** `<gg/mm/aaaa>`
 
 Puoi pagare direttamente in app premendo “Paga”, oppure tramite tutti i canali di pagamento della piattaforma pagoPA e le altre modalità di pagamento offerte dell'ente creditore.
 
@@ -147,7 +147,7 @@ In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio p
 
 🗒 **Testo del messaggio:**
 
-Il tuo pagamento per \<causale> sta per scadere.
+Il tuo pagamento per `<causale>` sta per scadere.
 
 Se hai già provveduto a pagare l’avviso ignora questo messaggio.
 
@@ -175,9 +175,9 @@ Questi messaggi di gestione appuntamenti prenotazione possono essere utilizzati 
 
 🗒 **Testo del messaggio:**
 
-Dal \<gg/mm/aaaa> puoi prenotare la cerimonia del tuo giuramento.
+Dal `<gg/mm/aaaa>` puoi prenotare la cerimonia del tuo giuramento.
 
-Hai tempo fino al \<gg/mm/aaaa>.
+Hai tempo fino al `<gg/mm/aaaa>`.
 
 Per prenotare il tuo giuramento e ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -205,15 +205,15 @@ Per prenotare il tuo giuramento e ulteriori informazioni, \[visita questo sito]\
 
 🗒 **Testo del messaggio:**
 
-Hai prenotato un appuntamento per \<oggetto dell’appuntamento>.
+Hai prenotato un appuntamento per `<oggetto dell’appuntamento>`.
 
-Il numero della prenotazione è: \<nnnn>.
+Il numero della prenotazione è: `<nnnn>`.
 
-**Dove:** \<indirizzo>
+**Dove:** `<indirizzo>`
 
-**Quando:** \<gg/mm/aaaa> alle \<hh:mm>
+**Quando:** `<gg/mm/aaaa>` alle `<hh:mm>`
 
-\[Se previsto] Prima dell’appuntamento, dovrai effettuare il pagamento di \<causale>.
+\[Se previsto] Prima dell’appuntamento, dovrai effettuare il pagamento di `<causale>`.
 
 Riceverai nei prossimi giorni un messaggio in app con l’avviso di pagamento.
 
@@ -241,7 +241,7 @@ Per ulteriori informazioni, \[visita il sito]\(URL).
 
 🗒 **Testo del messaggio:**
 
-Il \<gg/mm/aaaa> hai acquisito la cittadinanza italiana.
+Il `<gg/mm/aaaa>` hai acquisito la cittadinanza italiana.
 
 \[Ad esempio] Se vuoi richiedere il passaporto italiano, \[visita questa pagina]\(URL).
 

@@ -33,7 +33,7 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 🗒 **Testo del messaggio**:&#x20;
 
-Dal \<gg/mm/aaaa> sarà attivo il servizio \<nome del servizio> per la gestione dei buoni pasto.
+Dal `<gg/mm/aaaa>` sarà attivo il servizio `<nome del servizio>` per la gestione dei buoni pasto.
 
 \[Inserire qui indicazioni sulle modalità di distribuzione dei buoni pasto, da compilare a cura e responsabilità dell'ente]
 
@@ -57,11 +57,11 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 <summary>Registrazione al portale</summary>
 
-**🖋 Titolo del messaggio:** Registrazione al portale \<portale>
+**🖋 Titolo del messaggio:** Registrazione al portale `<portale>`
 
 🗒 **Testo del messaggio:**
 
-Dal \<gg/mm/aaaa> puoi accedere al portale \<portale> per gestire i tuoi buoni pasto.
+Dal `<gg/mm/aaaa>` puoi accedere al portale `<portale>` per gestire i tuoi buoni pasto.
 
 \[Inserire qui indicazioni sulla registrazione e su eventuale app mobile, da compilare a cura e reponsabilità dell'ente]
 
@@ -95,7 +95,7 @@ Questo messaggio è da utilizzare sia per messaggi Premium, sia per messaggi sta
 
 🗒 **Testo del messaggio:**
 
-Dal \<gg/mm/aaaa> è disponibile una nuova convenzione per i dipendenti del Comune.
+Dal `<gg/mm/aaaa>` è disponibile una nuova convenzione per i dipendenti del Comune.
 
 Per ulteriori informazioni sulla convenzione, \[visita questa pagina]\(URL).
 
@@ -105,7 +105,7 @@ Per visualizzare l’elenco aggiornato delle convenzioni, \[visita questo sito]\
 
 **🪄 Pulsante:** n/a
 
-<mark style="color:blue;">**📎 Allegato Premium:**</mark> \<elenco convenzioni>
+<mark style="color:blue;">**📎 Allegato Premium:**</mark> `<elenco convenzioni>`
 
 ***
 
@@ -131,7 +131,7 @@ Questo messaggio è da utilizzare sia per messaggi Premium, sia per messaggi sta
 
 🗒 **Testo del messaggio:**
 
-Dal \<gg/mm/aaaa> alcune convenzioni non saranno più attive.
+Dal `<gg/mm/aaaa>` alcune convenzioni non saranno più attive.
 
 Per visualizzare l’elenco aggiornato, \[visita questo sito]\(URL).
 
@@ -139,7 +139,7 @@ Per visualizzare l’elenco aggiornato, \[visita questo sito]\(URL).
 
 **🪄 Pulsante:** n/a
 
-<mark style="color:blue;">**📎 Allegato Premium:**</mark> \<elenco convenzioni>
+<mark style="color:blue;">**📎 Allegato Premium:**</mark> `<elenco convenzioni>`
 
 ***
 
@@ -163,7 +163,7 @@ Per visualizzare l’elenco aggiornato, \[visita questo sito]\(URL).
 
 I tuoi buoni pasto stanno per scadere.
 
-Hai tempo fino al \<gg/mm/aaaa>.
+Hai tempo fino al `<gg/mm/aaaa>`.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 

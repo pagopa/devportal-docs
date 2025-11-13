@@ -34,11 +34,11 @@ Questo messaggio è da utilizzare sia per messaggi Premium, sia per messaggi sta
 
 ***
 
-**🖋 Titolo del messaggio:** Aggiornamenti e novità IMU \<aaaa>
+**🖋 Titolo del messaggio:** Aggiornamenti e novità IMU `<aaaa>`
 
 🗒 **Testo del messaggio**:&#x20;
 
-Sono disponibili le nuove regolamentazioni ed aliquote per l'anno \<aaaa>.&#x20;
+Sono disponibili le nuove regolamentazioni ed aliquote per l'anno `<aaaa>`.&#x20;
 
 \[Descrizione sintetica e per punti di cose prevedono le nuove regolamentazioni, da completare a cura e responsabilità dell'ente]&#x20;
 
@@ -46,7 +46,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).&#x20;
 
 **🪄 Pulsante**: n/a
 
-📎 <mark style="color:blue;">**Allegato Premium**</mark>: \<documento>
+📎 <mark style="color:blue;">**Allegato Premium**</mark>: `<documento>`
 
 ***
 
@@ -62,13 +62,13 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).&#x20;
 
 <summary>Istruzioni sul pagamento della rata</summary>
 
-**🖋 Titolo del messaggio:** Pagamento \<prima, seconda, terza rata o rata unica>
+**🖋 Titolo del messaggio:** Pagamento `<prima, seconda, terza rata o rata unica>`
 
 🗒 **Testo del messaggio**:&#x20;
 
-È possibile pagare l'importo IMU dovuto per \<periodo in questione> entro il \<gg/mm/aaaa>, applicando l’aliquota prevista dal tuo Comune.&#x20;
+È possibile pagare l'importo IMU dovuto per `<periodo in questione>` entro il `<gg/mm/aaaa>`, applicando l’aliquota prevista dal tuo Comune.&#x20;
 
-Il versamento dell’imposta può essere effettuato anche in un’unica soluzione, pagando l'intero importo annuale entro \<gg/mm/aaaa>.
+Il versamento dell’imposta può essere effettuato anche in un’unica soluzione, pagando l'intero importo annuale entro `<gg/mm/aaaa>`.
 
 Per calcolare l'importo dovuto, \[visita questo sito]\(URL).&#x20;
 
@@ -98,7 +98,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).&#x20;
 
 🗒 **Testo del messaggio**:&#x20;
 
-Hai tempo fino al \<gg/mm/aaaa> per pagare la \<prima, seconda o terza rata, ravvedimento operoso> dell'IMU.
+Hai tempo fino al `<gg/mm/aaaa>` per pagare la `<prima, seconda o terza rata, ravvedimento operoso>` dell'IMU.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).&#x20;
 

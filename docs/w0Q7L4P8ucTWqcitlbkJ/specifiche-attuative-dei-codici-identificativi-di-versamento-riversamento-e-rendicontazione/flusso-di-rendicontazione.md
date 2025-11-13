@@ -26,7 +26,7 @@ La predisposizione di più di un FdR con lo stesso _identificativoFlusso_ è un 
 
 Tenuto presente che il significato dei dati richiesti per il flusso di rendicontazione è riportato nella colonna “contenuto” della Tabella 6, di seguito sono riportate alcune precisazioni utili agli EC sui dati presenti nel flusso di rendicontazione:
 
-* **identificativoFlusso:** deve essere lo stesso riportato nel componente **\<identificativoFlusso>** della causale del SEPA Credit Transfer di Riversamento (dato “_Remittance Information_” - attributo AT-05, [operazione-di-trasferimento-fondi.md](operazione-di-trasferimento-fondi.md "mention"));
+* **identificativoFlusso:** deve essere lo stesso riportato nel componente **`<identificativoFlusso>`** della causale del SEPA Credit Transfer di Riversamento (dato “_Remittance Information_” - attributo AT-05, [operazione-di-trasferimento-fondi.md](operazione-di-trasferimento-fondi.md "mention"));
 * **identificativoUnivocoRegolamento:** _Transaction Reference Number (TRN) AT-43 Originator Bank’s Reference_ del SEPA Credit Transfer di Riversamento;
 * **identificativoUnivocoRiscossione:** rappresenta l’identificativo con il quale il PSP individua la singola operazione, è contenuto all'interno della _receipt_ elemento _receiptId_;
 * **indiceDatiSingoloPagamento:** dato facoltativo che rappresenta la i-esima occorrenza di versamento all’interno della _receipt_ rendicontata;
@@ -35,14 +35,14 @@ Tenuto presente che il significato dei dati richiesti per il flusso di rendicont
 
 Al fine di rendere omogenea la modalità di composizione del dato _identificativoFlusso_ presente nella causale standardizzata del SEPA Credit Transfer ed anche nel flusso di rendicontazione è adottata la seguente struttura:
 
-**\<data regolamento>\<istituto mittente>”-“\<flusso>**
+**`<data regolamento>``<istituto mittente>`”-“`<flusso>`**
 
 dove i componenti sopra indicati assumono il seguente significato:
 
-* **\<data regolamento>** contiene le stesse informazioni dell’elemento _dataRegolamento_ del file XML;
-* **\<istituto mittente>** contiene il codice di identificazione all'interno della piattaforma del PSP che predispone il flusso;&#x20;
+* **`<data regolamento>`** contiene le stesse informazioni dell’elemento _dataRegolamento_ del file XML;
+* **`<istituto mittente>`** contiene il codice di identificazione all'interno della piattaforma del PSP che predispone il flusso;&#x20;
 * **"-"** dato fisso;
-* **\<flusso>** stringa alfanumerica che, insieme alle informazioni sopra indicate, consente di individuare univocamente il flusso stesso. I caratteri ammessi all’interno della stringa sono: cifre da 0 a 9, lettere dell’alfabeto latino maiuscole e minuscole ed i caratteri della Tabella 7.
+* **`<flusso>`** stringa alfanumerica che, insieme alle informazioni sopra indicate, consente di individuare univocamente il flusso stesso. I caratteri ammessi all’interno della stringa sono: cifre da 0 a 9, lettere dell’alfabeto latino maiuscole e minuscole ed i caratteri della Tabella 7.
 
 #### Tabella 7 - Caratteri ammessi
 

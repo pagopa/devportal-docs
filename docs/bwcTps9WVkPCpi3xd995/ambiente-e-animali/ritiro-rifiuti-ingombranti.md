@@ -41,11 +41,11 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 Ti confermiamo la tua prenotazione per il ritiro di rifiuti ingombranti bordo strada. Ecco i dettagli:
 
-**Dove**: \<indirizzo>
+**Dove**: `<indirizzo>`
 
-**Quando**: \<gg/mm/aaaa> dalle \<hh:mm>
+**Quando**: `<gg/mm/aaaa>` dalle `<hh:mm>`
 
-**Cosa verrà ritirato**: \<oggetto del ritiro>
+**Cosa verrà ritirato**: `<oggetto del ritiro>`
 
 \[Inserire indicazioni per la segnalazione del rifiuto da lasciare bordo strada, da completare a cura e responsabilità dell'ente]
 
@@ -75,11 +75,11 @@ Ti confermiamo la tua prenotazione per il ritiro di rifiuti ingombranti bordo st
 
 Ti confermiamo la tua prenotazione per il ritiro di rifiuti ingombranti al piano. Ecco i dettagli:
 
-**Dove**: \<indirizzo>
+**Dove**: `<indirizzo>`
 
-**Quando**: \<gg/mm/aaaa> dalle \<hh:mm> alle \<hh:mm>
+**Quando**: `<gg/mm/aaaa>` dalle `<hh:mm>` alle `<hh:mm>`
 
-**Cosa verrà ritirato**: \<oggetto del ritiro>
+**Cosa verrà ritirato**: `<oggetto del ritiro>`
 
 **🪄 Pulsante:** Disdici appuntamento
 
@@ -105,13 +105,13 @@ Ti confermiamo la tua prenotazione per il ritiro di rifiuti ingombranti al piano
 
 🗒 **Testo del messaggio:**
 
-Ti ricordiamo che hai prenotato un ritiro \<in strada/al piano>.
+Ti ricordiamo che hai prenotato un ritiro `<in strada/al piano>`.
 
-**Dove**: \<indirizzo>
+**Dove**: `<indirizzo>`
 
-**Quando**: \<gg/mm/aaaa> dalle \<hh:mm> alle \<hh:mm>
+**Quando**: `<gg/mm/aaaa>` dalle `<hh:mm>` alle `<hh:mm>`
 
-**Cosa verrà ritirato**: \<oggetto del ritiro>
+**Cosa verrà ritirato**: `<oggetto del ritiro>`
 
 **🪄 Pulsante:** Disdici appuntamento
 
@@ -143,11 +143,11 @@ Se è previsto un costo per il ritiro dei rifiuti ingombranti, si possono predis
 
 🗒 **Testo del messaggio:**
 
-C'è un avviso da pagare intestato a \<nome> \<cognome> e relativo a \<causale>.
+C'è un avviso da pagare intestato a `<nome>` `<cognome>` e relativo a `<causale>`.
 
 **Devi pagare**: <00,00> €
 
-**Entro il**: \<gg/mm/aaaa>
+**Entro il**: `<gg/mm/aaaa>`
 
 Puoi pagare direttamente in app premendo “Paga”, oppure tramite tutti i canali di pagamento della piattaforma pagoPA e le altre modalità di pagamento offerte dell'ente creditore.
 
@@ -179,7 +179,7 @@ In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio p
 
 🗒 **Testo del messaggio:**
 
-Il tuo pagamento per \<causale> sta per scadere.
+Il tuo pagamento per `<causale>` sta per scadere.
 
 Se hai già provveduto a pagare l’avviso, ignora questo messaggio.
 

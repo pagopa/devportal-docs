@@ -36,15 +36,15 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 🗒 **Testo del messaggio**:&#x20;
 
-Il \<gg/mm/aaaa> alle hh:mm, in \<indirizzo>, il veicolo targato \<targa> è stato bloccato con le ganasce per queste violazioni:&#x20;
+Il `<gg/mm/aaaa>` alle hh:mm, in `<indirizzo>`, il veicolo targato `<targa>` è stato bloccato con le ganasce per queste violazioni:&#x20;
 
-**• \<tipologia di violazione> - art. \<numero>**
+**• `<tipologia di violazione>` - art. `<numero>`**
 
-**Accertamento numero**: \<numero accertamento>
+**Accertamento numero**: `<numero accertamento>`
 
 \[Vedi accertamento]\(link)
 
-\<Inserire indicazioni su cosa deve fare il destinatario, per es. "Contatta la polizia locale al numero">. Per maggiori informazioni visita \[questo sito]\(URL).
+`<Inserire indicazioni su cosa deve fare il destinatario, per es. "Contatta la polizia locale al numero">`. Per maggiori informazioni visita \[questo sito]\(URL).
 
 **🪄 Call to action**: n/a
 
@@ -66,17 +66,17 @@ Il \<gg/mm/aaaa> alle hh:mm, in \<indirizzo>, il veicolo targato \<targa> è sta
 
 **🖋 Titolo del messaggio:** Il tuo veicolo è stato rimosso&#x20;
 
-🗒 **Testo del messaggio**:  Il \<gg/mm/aaaa> alle hh:mm, in \<indirizzo>, il veicolo targato \<targa> è stato rimosso per queste violazioni:
+🗒 **Testo del messaggio**:  Il `<gg/mm/aaaa>` alle hh:mm, in `<indirizzo>`, il veicolo targato `<targa>` è stato rimosso per queste violazioni:
 
-* **\<tipologia di violazione> - art. \<numero>**
+* **`<tipologia di violazione>` - art. `<numero>`**
 
-**Accertamento numero**: \<numero accertamento>
+**Accertamento numero**: `<numero accertamento>`
 
 \[Vedi accertamento]\(link)
 
-Il tuo veicolo si trova presso il deposito in \<indirizzo>.\
+Il tuo veicolo si trova presso il deposito in `<indirizzo>`.\
 \
-\<Inserire indicazioni su cosa deve fare il destinatario, per es. "Hai tempo fino al \<gg/mm/aa> per ritirarlo>. Per maggiori informazioni visita \[questo sito]\(URL) o contatta \<ente da contattare>\<modalità di contatto>.
+`<Inserire indicazioni su cosa deve fare il destinatario, per es. "Hai tempo fino al <gg/mm/aa> per ritirarlo>`. Per maggiori informazioni visita \[questo sito]\(URL) o contatta `<ente da contattare>``<modalità di contatto>`.
 
 **🪄 Call to action**: n/a
 
@@ -98,11 +98,11 @@ Il tuo veicolo si trova presso il deposito in \<indirizzo>.\
 
 **🖋 Titolo del messaggio:** Il deposito del tuo veicolo è in scadenza
 
-🗒 **Testo del messaggio**:  Hai tempo fino al \<gg/mm/aaaa> per ritirare il veicolo targato \<numero targa> presso il deposito in \<indirizzo>.&#x20;
+🗒 **Testo del messaggio**:  Hai tempo fino al `<gg/mm/aaaa>` per ritirare il veicolo targato `<numero targa>` presso il deposito in `<indirizzo>`.&#x20;
 
-Potrai ritirarlo solo dopo avere pagato i costi di servizio e deposito. Se non lo ritiri entro il termine stabilito, \<inserire cosa succede>.&#x20;
+Potrai ritirarlo solo dopo avere pagato i costi di servizio e deposito. Se non lo ritiri entro il termine stabilito, `<inserire cosa succede>`.&#x20;
 
-Per maggiori informazioni visita \[questo sito]\(URL) o contatta \<ente da contattare>\<modalità di contatto>.
+Per maggiori informazioni visita \[questo sito]\(URL) o contatta `<ente da contattare>``<modalità di contatto>`.
 
 **🪄 Call to action**: n/a
 
@@ -122,9 +122,9 @@ Per maggiori informazioni visita \[questo sito]\(URL) o contatta \<ente da conta
 
 **🖋 Titolo del messaggio:** Il tuo veicolo risulta abbandonato
 
-🗒 **Testo del messaggio**: Il veicolo targato \<targa> in \<indirizzo> è considerato in stato in abbandono.&#x20;
+🗒 **Testo del messaggio**: Il veicolo targato `<targa>` in `<indirizzo>` è considerato in stato in abbandono.&#x20;
 
-\<Inserire indicazioni su cosa deve fare il destinatario, per es. "Hai tempo fino al \<gg/mm/aa> per contattare \<nome ente>...>. Per maggiori informazioni visita \[questo sito]\(URL) o contatta \<ente da contattare>\<modalità di contatto>.
+`<Inserire indicazioni su cosa deve fare il destinatario, per es. "Hai tempo fino al <gg/mm/aa> per contattare <nome ente>...>`. Per maggiori informazioni visita \[questo sito]\(URL) o contatta `<ente da contattare>``<modalità di contatto>`.
 
 **🪄 Call to action**: n/a
 

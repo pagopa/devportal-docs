@@ -37,11 +37,11 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 🗒 **Testo del messaggio:**
 
-C’è un avviso di pagamento intestato a \<nome> \<cognome> e relativo a \<causale>.
+C’è un avviso di pagamento intestato a `<nome>` `<cognome>` e relativo a `<causale>`.
 
 **Devi pagare:** <00,00> €
 
-**Entro il:** \<gg/mm/aaaa>
+**Entro il:** `<gg/mm/aaaa>`
 
 Puoi pagare direttamente in app premendo “Paga”, oppure tramite tutti i canali di pagamento della piattaforma pagoPA e le altre modalità di pagamento offerte dell'ente creditore.
 
@@ -80,7 +80,7 @@ Gli utenti che hanno dato il loro consenso, infatti, riceveranno automaticamente
 
 🗒 **Testo del messaggio:**
 
-Il tuo pagamento per \<causale> sta per scadere.
+Il tuo pagamento per `<causale>` sta per scadere.
 
 Se hai già provveduto a pagare l’avviso, ignora questo messaggio.
 
@@ -107,11 +107,11 @@ Se hai già provveduto a pagare l’avviso, ignora questo messaggio.
 
 🗒 **Testo del messaggio:**
 
-La tua richiesta di restituzione del deposito cauzionale per \<oggetto> è stata accolta.
+La tua richiesta di restituzione del deposito cauzionale per `<oggetto>` è stata accolta.
 
 Riceverai: <00,00> €
 
-Entro il: \<gg/mm/aaaa>
+Entro il: `<gg/mm/aaaa>`
 
 Riceverai un messaggio in app per informarti dell’avvenuta restituzione.
 
@@ -137,7 +137,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio:**
 
-La tua richiesta di restituzione del deposito cauzionale per \<oggetto> non è stata accolta.
+La tua richiesta di restituzione del deposito cauzionale per `<oggetto>` non è stata accolta.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -161,7 +161,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio:**
 
-Il \<gg/mm/aaaa> abbiamo emesso il pagamento in restituzione del tuo deposito cauzionale relativo a \<oggetto>.
+Il `<gg/mm/aaaa>` abbiamo emesso il pagamento in restituzione del tuo deposito cauzionale relativo a `<oggetto>`.
 
 Ti abbiamo restituito: <00,00> €
 

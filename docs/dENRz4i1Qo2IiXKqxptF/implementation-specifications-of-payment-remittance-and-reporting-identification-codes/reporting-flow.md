@@ -35,14 +35,14 @@ Bearing in mind that the meaning of the data required for the reporting flow is 
 
 In order to standardize the way of composition of the _FlowIdentifier_ element present in the standardized description of the SEPA Credit Transfer and also in the reporting flow, the following structure is adopted:
 
-**\<settlement date>\<sender institution>"-"\<flow>.**
+**`<settlement date>``<sender institution>`"-"`<flow>`.**
 
 where the above components take on the following meaning:
 
-* **\<settlement date>** contains the same information as the _Settlementdate_ element of the XML file;
-* **\<sender institution>** contains the identification code within the platform of the PSP preparing the flow; 
+* **`<settlement date>`** contains the same information as the _Settlementdate_ element of the XML file;
+* **`<sender institution>`** contains the identification code within the platform of the PSP preparing the flow; 
 * **"-"** fixed data;
-* **\<flow>** alphanumeric string that, together with the above information, allows the flow itself to be uniquely identified. The characters allowed within the string are: digits 0 to 9, upper and lower case letters of the Latin alphabet, and the characters in Table 7.
+* **`<flow>`** alphanumeric string that, together with the above information, allows the flow itself to be uniquely identified. The characters allowed within the string are: digits 0 to 9, upper and lower case letters of the Latin alphabet, and the characters in Table 7.
 
 #### Table 7 - Allowed characters
 

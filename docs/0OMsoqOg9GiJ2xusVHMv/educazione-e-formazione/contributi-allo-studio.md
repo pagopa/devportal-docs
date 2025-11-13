@@ -59,7 +59,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).&#x20;
 
 🗒 **Testo del messaggio**:&#x20;
 
-Per elaborare la tua domanda di iscrizione al servizio \<tipologia di servizio> nr. \<nnnn>, abbiamo bisogno di ricevere entro il \<gg/mm/aaaa> altri documenti.
+Per elaborare la tua domanda di iscrizione al servizio `<tipologia di servizio>` nr. `<nnnn>`, abbiamo bisogno di ricevere entro il `<gg/mm/aaaa>` altri documenti.
 
 Consulta il riepilogo della domanda, \[visita questo sito]\(URL).
 
@@ -81,13 +81,13 @@ Consulta il riepilogo della domanda, \[visita questo sito]\(URL).
 
 <summary>Pubblicazioni graduatorie </summary>
 
-**🖋 Titolo del messaggio:** Pubblicata la graduatoria \<provvisoria/definitiva> per \<iniziativa>
+**🖋 Titolo del messaggio:** Pubblicata la graduatoria `<provvisoria/definitiva>` per `<iniziativa>`
 
 🗒 **Testo del messaggio**:&#x20;
 
-È disponibile la graduatoria di ammissione al servizio \<tipologia di servizio> per \<iniziativa> per \<nome> \<cognome>.
+È disponibile la graduatoria di ammissione al servizio `<tipologia di servizio>` per `<iniziativa>` per `<nome>` `<cognome>`.
 
-Se vuoi rinunciare alla tua posizione, hai tempo fino al \<gg/mm/aaaa>.
+Se vuoi rinunciare alla tua posizione, hai tempo fino al `<gg/mm/aaaa>`.
 
 Per visualizzare la tua posizione in graduatoria \[visita questo sito]\(URL).
 

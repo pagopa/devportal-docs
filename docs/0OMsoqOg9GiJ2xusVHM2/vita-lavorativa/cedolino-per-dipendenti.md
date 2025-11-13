@@ -31,11 +31,11 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 <summary>Benvenuto nel portale</summary>
 
-**🖋 Titolo del messaggio:** Ti diamo il benvenuto in \<nome portale>
+**🖋 Titolo del messaggio:** Ti diamo il benvenuto in `<nome portale>`
 
 🗒 **Testo del messaggio**:
 
-Dal \<gg/mm/aaaa> puoi accedere a \<nome portale>.
+Dal `<gg/mm/aaaa>` puoi accedere a `<nome portale>`.
 
 \[Inserire qui indicazioni sull’accesso e su cosa troverà il dipendente all’interno del portale, da compilare a cura e responsabilità dell'ente]
 
@@ -63,17 +63,17 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 ***
 
-**🖋 Titolo del messaggio:** Il tuo cedolino per il mese di \<mese> \<anno>
+**🖋 Titolo del messaggio:** Il tuo cedolino per il mese di `<mese>` `<anno>`
 
 🗒 **Testo del messaggio:**
 
-È disponibile il tuo cedolino per il mese di \<mese> \<anno>.
+È disponibile il tuo cedolino per il mese di `<mese>` `<anno>`.
 
 \[Solo per messaggi con allegato] Puoi trovare il documento in allegato a questo messaggio.
 
 **🪄 Pulsante:** Scarica il cedolino
 
-<mark style="color:blue;">**📎 Allegato:**</mark> \<cedolino>
+<mark style="color:blue;">**📎 Allegato:**</mark> `<cedolino>`
 
 ***
 
@@ -95,17 +95,17 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 ***
 
-**🖋 Titolo del messaggio:** La tua Certificazione Unica per l'anno \<aaaa>
+**🖋 Titolo del messaggio:** La tua Certificazione Unica per l'anno `<aaaa>`
 
 🗒 **Testo del messaggio:**
 
-È disponibile la tua Certificazione Unica per l’anno \<aaaa>.
+È disponibile la tua Certificazione Unica per l’anno `<aaaa>`.
 
 \[Solo per messaggi con allegato] Puoi trovare il documento in allegato a questo messaggio.
 
 **🪄 Pulsante:** Scarica il documento
 
-<mark style="color:blue;">**📎 Allegato:**</mark> \<certificazione unica>
+<mark style="color:blue;">**📎 Allegato:**</mark> `<certificazione unica>`
 
 ***
 

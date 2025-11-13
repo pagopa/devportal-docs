@@ -35,11 +35,11 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 ***
 
-**🖋 Titolo del messaggio:** Sono aperte le richieste per il servizio mensa per l'anno educativo \<aaaa/aaaa>
+**🖋 Titolo del messaggio:** Sono aperte le richieste per il servizio mensa per l'anno educativo `<aaaa/aaaa>`
 
 🗒 **Testo del messaggio**:
 
-In seguito alla domanda di iscrizione nr. \<nnnn> per l'anno educativo \<aaaa/aaaa>, è possibile richiedere il servizio mensa.
+In seguito alla domanda di iscrizione nr. `<nnnn>` per l'anno educativo `<aaaa/aaaa>`, è possibile richiedere il servizio mensa.
 
 \[Se previsto] Se hai espresso la preferenza per il tempo pieno, l'iscrizione alla mensa è obbligatoria.
 
@@ -65,9 +65,9 @@ Per ulteriori informazioni sul servizio, diete speciali e costi, \[visita questa
 
 🗒 **Testo del messaggio**:
 
-La tua richiesta per il servizio mensa per \<nome> \<cognome> è stata accolta.
+La tua richiesta per il servizio mensa per `<nome>` `<cognome>` è stata accolta.
 
-\[Se previsto] L'iscrizione sarà valida per il periodo di erogazione del servizio mensa dal \<gg/mm/aaaa> al \<gg/mm/aaaa>.
+\[Se previsto] L'iscrizione sarà valida per il periodo di erogazione del servizio mensa dal `<gg/mm/aaaa>` al `<gg/mm/aaaa>`.
 
 Per ulteriori informazioni, \[visita questa pagina]\(URL).
 
@@ -91,7 +91,7 @@ Per ulteriori informazioni, \[visita questa pagina]\(URL).
 
 🗒 **Testo del messaggio**:
 
-La tua richiesta per il servizio mensa per \<nome> \<cognome> non è stata accolta.
+La tua richiesta per il servizio mensa per `<nome>` `<cognome>` non è stata accolta.
 
 Per ulteriori informazioni, \[visita questa pagina]\(URL).
 
@@ -117,7 +117,7 @@ Per ulteriori informazioni, \[visita questa pagina]\(URL).
 
 🗒 **Testo del messaggio**:
 
-La tua richiesta di dieta speciale per \<nome> \<cognome> è stata accolta, potrai avere maggiori informazioni sui pasti e la relativa retta \[su questo sito]\(URL).
+La tua richiesta di dieta speciale per `<nome>` `<cognome>` è stata accolta, potrai avere maggiori informazioni sui pasti e la relativa retta \[su questo sito]\(URL).
 
 **🪄 Pulsante**: n/a
 
@@ -139,7 +139,7 @@ La tua richiesta di dieta speciale per \<nome> \<cognome> è stata accolta, potr
 
 🗒 **Testo del messaggio**:
 
-La tua richiesta di dieta speciale per \<nome> \<cognome> non è stata accolta.
+La tua richiesta di dieta speciale per `<nome>` `<cognome>` non è stata accolta.
 
 Per ulteriori informazioni, \[visita questa pagina]\(URL).
 
@@ -163,7 +163,7 @@ Per ulteriori informazioni, \[visita questa pagina]\(URL).
 
 🗒 **Testo del messaggio**:
 
-La tua richiesta di rinuncia alla dieta speciale per \<nome> \<cognome> prevista per il servizio mensa scolastica è stata accolta.
+La tua richiesta di rinuncia alla dieta speciale per `<nome>` `<cognome>` prevista per il servizio mensa scolastica è stata accolta.
 
 Per ulteriori informazioni, \[visita questa pagina]\(URL).
 
@@ -225,11 +225,11 @@ Qui sono riportati i messaggi di pagamento gestiti dall'ente:
 
 🗒 **Testo del messaggio**:
 
-C'è un avviso da pagare intestato a \<nome e cognome> e relativo a \<causale>.
+C'è un avviso da pagare intestato a `<nome e cognome>` e relativo a `<causale>`.
 
 **Devi pagare:** <00,00> €
 
-**Entro il:** \<gg/mm/aaaa>
+**Entro il:** `<gg/mm/aaaa>`
 
 Puoi pagare direttamente in app premendo “Paga”, oppure tramite tutti i canali di pagamento della piattaforma pagoPA e le altre modalità di pagamento offerte dell'ente creditore.
 
@@ -287,7 +287,7 @@ Se hai già provveduto a pagare l’avviso o se hai richiesto la domiciliazione 
 
 🗒 **Testo del messaggio**:
 
-Risultano pagamenti insoluti a carico di \<nome> \<cognome> e relative a \<causale>.
+Risultano pagamenti insoluti a carico di `<nome>` `<cognome>` e relative a `<causale>`.
 
 Per maggiori informazioni o per richiedere assistenza, contattaci tramite i canali che trovi nella scheda servizio.
 
@@ -317,7 +317,7 @@ Il seguente messaggio serve a sensibilizzare il cittadino per il mancato pagamen
 
 🗒 **Testo del messaggio**:
 
-Il tuo pagamento per \<causale> è scaduto il \<gg/mm/aaaa>.
+Il tuo pagamento per `<causale>` è scaduto il `<gg/mm/aaaa>`.
 
 Se hai già provveduto a pagare l’avviso ignora questo messaggio.
 
@@ -345,7 +345,7 @@ Qui sono riportati i messaggi di pagamento nel caso in cui l'ente si avvale di u
 
 🗒 **Testo del messaggio**:
 
-Il \<gg/mm/aaaa> è stato effettuato un pagamento sul tuo borsellino elettronico relativo al servizio mensa per \<nome> \<cognome>.
+Il `<gg/mm/aaaa>` è stato effettuato un pagamento sul tuo borsellino elettronico relativo al servizio mensa per `<nome>` `<cognome>`.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -369,13 +369,13 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio**:
 
-Il pagamento per \<causale> relativo al servizio mensa per \<nome> \<cognome> è in scadenza.
+Il pagamento per `<causale>` relativo al servizio mensa per `<nome>` `<cognome>` è in scadenza.
 
 Ricarica il tuo borsellino elettronico con l'importo dovuto entro la data di scadenza.
 
 **Devi pagare:** <00,00> €
 
-**Entro il:** \<gg/mm/aaaa>
+**Entro il:** `<gg/mm/aaaa>`
 
 Puoi pagare direttamente in app premendo “Paga”, oppure tramite tutti i canali di pagamento della piattaforma pagoPA e le altre modalità di pagamento offerte dell'ente creditore.
 
@@ -437,13 +437,13 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio**:
 
-Dal \<gg/mm/aaaa> è disponibile l'attestazione delle spese sostenute relative al servizio mensa per \<nome> \<cognome> utile ai fini delle detrazioni in sede di dichiarazione dei redditi.
+Dal `<gg/mm/aaaa>` è disponibile l'attestazione delle spese sostenute relative al servizio mensa per `<nome>` `<cognome>` utile ai fini delle detrazioni in sede di dichiarazione dei redditi.
 
 \[Solo per messaggi con allegato] Trovi l'attestazione emessa in allegato a questo messaggio.
 
 **🪄 Pulsante**: Accedi al portale
 
-<mark style="color:blue;">**📎 Allegato:**</mark> \<documento di attestazione>
+<mark style="color:blue;">**📎 Allegato:**</mark> `<documento di attestazione>`
 
 ***
 

@@ -33,7 +33,7 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 🗒 **Testo del messaggio**:&#x20;
 
-Per elaborare la tua richiesta di installazione di campeggio mobile abbiamo bisogno di ricevere entro il \<gg/mm/aaaa> altri documenti.
+Per elaborare la tua richiesta di installazione di campeggio mobile abbiamo bisogno di ricevere entro il `<gg/mm/aaaa>` altri documenti.
 
 Consulta il riepilogo della richiesta, \[visita questo sito]\(URL).
 
@@ -57,7 +57,7 @@ Consulta il riepilogo della richiesta, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio:**
 
-La tua richiesta di installazione di campeggio mobile in \<indirizzo> è stata accolta.
+La tua richiesta di installazione di campeggio mobile in `<indirizzo>` è stata accolta.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -81,7 +81,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio:**
 
-La tua richiesta di installazione di campeggio mobile in \<indirizzo> non è stata accolta.
+La tua richiesta di installazione di campeggio mobile in `<indirizzo>` non è stata accolta.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -107,7 +107,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio:**
 
-Dal \<gg/mm/aaaa> le aree di servizio \<riferimenti aree> subiranno le seguenti variazioni:
+Dal `<gg/mm/aaaa>` le aree di servizio `<riferimenti aree>` subiranno le seguenti variazioni:
 
 \[Inserire qui il dettaglio delle variazioni come chiusura o apertura, sospensione o modifica orari, da compilare a cura e responsabilità dell'ente]
 

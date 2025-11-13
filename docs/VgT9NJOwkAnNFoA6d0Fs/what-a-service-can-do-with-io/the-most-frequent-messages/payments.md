@@ -23,14 +23,14 @@ When the payment is linked to a **direct debit**— including in the bank, on a 
 🗒 **Text of the message**:
 
 <mark style="color:green;">// if generic reason //</mark>  
-<mark style="color:orange;">{{{There is a payment notice for \<first and last name> regarding \<reason>..}}}</mark>
+<mark style="color:orange;">{{{There is a payment notice for `<first and last name>` regarding `<reason>`..}}}</mark>
 
 <mark style="color:green;">// if specific reason //</mark>  
 <mark style="color:orange;">{{{Your</mark> <mark style="color:purple;">{request for cancellation …}</mark> <mark style="color:orange;">arrived later than the deadline.}}}</mark>
 
-**Amount due:** €\<00.00>
+**Amount due:** €`<00.00>`
 
-**Deadline:** \<dd/mm/yyyy>
+**Deadline:** `<dd/mm/yyyy>`
 
 You can pay directly in-app by pressing “See notice”, or using all the payment channels of the pagoPA platform and the other payment methids offered by the Creditor.
 
@@ -68,11 +68,11 @@ At the payment stage, if provided by the institution, the amount shown in the me
 
 **🖋 Title of the message:** Extension of the payment deadline
 
-🗒 **Text of the message**: The payment deadline for the notice in the name of \<first and last name> and related to \<reason>.
+🗒 **Text of the message**: The payment deadline for the notice in the name of `<first and last name>` and related to `<reason>`.
 
-**Amount due**: €\<00.00> 
+**Amount due**: €`<00.00>` 
 
-**Deadline**: \<dd/mm/yyyy>
+**Deadline**: `<dd/mm/yyyy>`
 
 You can pay directly in-app by pressing “See notice”, or using all the payment channels of the pagoPA platform.
 
@@ -108,7 +108,7 @@ The following message serves to make the citizen aware of non payment but in no 
 
 🗒 **Text of the message**: 
 
-Your payment \<description> is due on \<dd/mm/yyyyy>.
+Your payment `<description>` is due on `<dd/mm/yyyyy>`.
 
 If you have already paid the notice <mark style="color:orange;">{{{or if you have applied for a direct debit</mark> <mark style="color:purple;">{for tuition fees}</mark> <mark style="color:orange;">on a current account, }}}</mark> please ignore this message.
 

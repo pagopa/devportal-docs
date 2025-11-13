@@ -31,11 +31,11 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 <summary><strong>Conferma appuntamento</strong></summary>
 
-**🖋 Titolo del messaggio:** Il tuo appuntamento con \<ufficio>
+**🖋 Titolo del messaggio:** Il tuo appuntamento con `<ufficio>`
 
 🗒 **Testo del messaggio**:&#x20;
 
-Ti ricordiamo l'appuntamento presso l'\<ufficio> situato in \<indirizzo> fissato per il giorno \<gg/mm/aaaa> alle ore [hh:mm](hh:mm).
+Ti ricordiamo l'appuntamento presso l'`<ufficio>` situato in `<indirizzo>` fissato per il giorno `<gg/mm/aaaa>` alle ore [hh:mm](hh:mm).
 
 Ti invitiamo a presentarti con almeno 15 minuti di anticipo e di portare con te tutti i documenti necessari. Per maggiori informazioni su quali documenti ti serviranno, visita il sito di [CIE](https://www.cartaidentita.interno.gov.it/cittadini/rilascio-e-rinnovo-in-italia/).
 
@@ -57,11 +57,11 @@ Puoi disdire l'appuntamento online, sul sito \[nome sito]\(URL).
 
 <summary><strong>Disdetta appuntamento</strong></summary>
 
-**🖋 Titolo del messaggio:** Disdetta appuntamento con \<ufficio>
+**🖋 Titolo del messaggio:** Disdetta appuntamento con `<ufficio>`
 
 🗒 **Testo del messaggio**:&#x20;
 
-Il tuo appuntamento presso l'\<ufficio> situato in \<indirizzo> fissato per il giorno \<gg/mm/aaaa> alle ore [hh:mm](hh:mm) è stato cancellato per \<descrizione motivazione>.
+Il tuo appuntamento presso l'`<ufficio>` situato in `<indirizzo>` fissato per il giorno `<gg/mm/aaaa>` alle ore [hh:mm](hh:mm) è stato cancellato per `<descrizione motivazione>`.
 
 Se desideri prenotare un nuovo appuntamento online, puoi utilizzare il servizio di prenotazione (URL) del tuo Comune o recarti all'ufficio Anagrafe più comodo per le tue esigenze.
 
@@ -87,9 +87,9 @@ Se desideri prenotare un nuovo appuntamento online, puoi utilizzare il servizio 
 
 Da oggi puoi procedere al pagamento dell'importo necessario per l'emissione della Carta di Identità Elettronica.
 
-Intestatario: \<nome e cognome> \
-Importo: \<xx,xx> \
-Causale: \<causale>
+Intestatario: `<nome e cognome>` \
+Importo: `<xx,xx>` \
+Causale: `<causale>`
 
 Puoi pagare direttamente dall'app, oppure direttamente allo sportello il giorno dell'appuntamento. Se vuoi scegliere un'altra modalità di pagamento, visita la sezione **pagoPA** \[https://www.comune..cr.it/servizi/pago-pa] del sito di \[nome ente]\(URL).
 
@@ -113,7 +113,7 @@ Puoi pagare direttamente dall'app, oppure direttamente allo sportello il giorno 
 
 🗒 **Testo del messaggio**:&#x20;
 
-Oggi \<gg/mm/aaaa> è scaduta la tua Carta d'Identità \<numero>.
+Oggi `<gg/mm/aaaa>` è scaduta la tua Carta d'Identità `<numero>`.
 
 Se non l'hai ancora fatto, puoi prenotare un appuntamento per il rinnovo, direttamente online online, al sito \[nome sito]\(URL), oppure presentarti all'Ufficio Anagrafe più vicino a te, verificando giorni e orari di apertura sul sito del tuo Comune.
 

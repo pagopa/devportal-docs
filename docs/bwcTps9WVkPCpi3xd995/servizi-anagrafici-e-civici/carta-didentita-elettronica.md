@@ -41,11 +41,11 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 🗒 **Testo del messaggio**:
 
-Hai prenotato un appuntamento presso \<sportello>.
+Hai prenotato un appuntamento presso `<sportello>`.
 
-**Dove:** \<indirizzo>
+**Dove:** `<indirizzo>`
 
-**Quando:** il \<gg/mm/aaaa> alle \<hh:mm>
+**Quando:** il `<gg/mm/aaaa>` alle `<hh:mm>`
 
 Ti invitiamo a presentarti con almeno 15 minuti di anticipo e di portare con te tutti i documenti necessari. Per maggiori informazioni su quali documenti ti serviranno, visita il sito di [CIE](https://www.cartaidentita.interno.gov.it/cittadini/rilascio-e-rinnovo-in-italia/).
 
@@ -77,11 +77,11 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio**:
 
-C'è un avviso da pagare intestato a \<nome cognome> e relativo a \<causale>.
+C'è un avviso da pagare intestato a `<nome cognome>` e relativo a `<causale>`.
 
 **Devi pagare:** <00,00> €
 
-**Entro il:** \<gg/mm/aaaa>
+**Entro il:** `<gg/mm/aaaa>`
 
 Puoi pagare direttamente in app premendo “Paga”, oppure tramite tutti i canali di pagamento della piattaforma pagoPA e le altre modalità di pagamento offerte dell'ente creditore.
 
@@ -113,7 +113,7 @@ In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio p
 
 🗒 **Testo del messaggio:**
 
-Il tuo pagamento per \<causale> sta per scadere.
+Il tuo pagamento per `<causale>` sta per scadere.
 
 Se hai già provveduto a pagare l'avviso, ignora questo messaggio.
 
@@ -143,7 +143,7 @@ Se hai già provveduto a pagare l'avviso, ignora questo messaggio.
 
 🗒 **Testo del messaggio**:
 
-Oggi \<gg/mm/aaaa> è scaduta la tua Carta d'Identità \<numero>.
+Oggi `<gg/mm/aaaa>` è scaduta la tua Carta d'Identità `<numero>`.
 
 Se non l'hai ancora fatto, puoi prenotare un nuovo appuntamento online utilizzando il servizio di prenotazione del tuo Comune o recarti all'ufficio Anagrafe più comodo per le tue esigenze.
 

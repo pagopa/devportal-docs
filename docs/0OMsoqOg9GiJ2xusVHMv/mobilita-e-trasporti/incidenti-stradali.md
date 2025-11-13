@@ -37,7 +37,7 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 La tua richiesta di copia cartacea del rapporto di incidente stradale è stata accolta.
 
-Per procedere al ritiro, dovrai effettuare il pagamento entro il \<gg/mm/aaaa>.
+Per procedere al ritiro, dovrai effettuare il pagamento entro il `<gg/mm/aaaa>`.
 
 Riceverai nei prossimi giorni un messaggio in app con l’avviso di pagamento.
 
@@ -93,11 +93,11 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio**:\
 \
-C'è un avviso da pagare intestato a \<nome cognome> e relativo a \<causale>.
+C'è un avviso da pagare intestato a `<nome cognome>` e relativo a `<causale>`.
 
 **Devi pagare:** <00,00> €
 
-**Entro il:** \<gg/mm/aaaa>
+**Entro il:** `<gg/mm/aaaa>`
 
 Puoi pagare direttamente in app premendo “Paga”, oppure tramite tutti i canali di pagamento della piattaforma pagoPA e le altre modalità di pagamento offerte dell'ente creditore.
 
@@ -135,7 +135,7 @@ Gli utenti che hanno dato il loro consenso, infatti, riceveranno automaticamente
 
 🗒 **Testo del messaggio**:&#x20;
 
-Il tuo pagamento per \<causale> sta per scadere.
+Il tuo pagamento per `<causale>` sta per scadere.
 
 Se hai già provveduto a pagare l’avviso, ignora questo messaggio.
 
@@ -161,7 +161,7 @@ Se hai già provveduto a pagare l’avviso, ignora questo messaggio.
 
 🗒 **Testo del messaggio**:&#x20;
 
-Il \<gg/mm/aaaa> abbiamo consegnato la copia cartacea del rapporto di incidente stradale da te richiesto a \<nome e cognome>.
+Il `<gg/mm/aaaa>` abbiamo consegnato la copia cartacea del rapporto di incidente stradale da te richiesto a `<nome e cognome>`.
 
 **🪄 Pulsante**: n/a
 
@@ -183,9 +183,9 @@ Il \<gg/mm/aaaa> abbiamo consegnato la copia cartacea del rapporto di incidente 
 
 🗒 **Testo del messaggio**:&#x20;
 
-Dal \<gg/mm/aaaa> puoi ritirare la copia cartacea del rapporto di incidente stradale da te richiesto.
+Dal `<gg/mm/aaaa>` puoi ritirare la copia cartacea del rapporto di incidente stradale da te richiesto.
 
-**Dove**: \<indirizzo>
+**Dove**: `<indirizzo>`
 
 **Quando**: \[inserire i giorni e gli orari apertura dello sportello]
 
@@ -267,9 +267,9 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 **🗒 Testo del messaggio:**
 
-Dal \<gg/mm/aaaa> puoi scaricare la copia digitale del rapporto di incidente stradale da te richiesta.&#x20;
+Dal `<gg/mm/aaaa>` puoi scaricare la copia digitale del rapporto di incidente stradale da te richiesta.&#x20;
 
-Hai tempo fino al \<gg/mm/aaaa>.
+Hai tempo fino al `<gg/mm/aaaa>`.
 
 Per scaricare il documento, \[visita questo sito]\(URL).
 

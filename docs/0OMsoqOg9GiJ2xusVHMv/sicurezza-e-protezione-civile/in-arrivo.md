@@ -39,7 +39,7 @@ Siamo alla ricerca di persone pronte ad aiutare!
 
 Diventa volontario o volontaria della Protezione Civile e aiuta a proteggere il nostro comune in caso di emergenza.
 
-Per conoscere le organizzazioni attive nel Comune di \<comune> e diventare volontario o volontaria, \[visita questo sito]\(URL).
+Per conoscere le organizzazioni attive nel Comune di `<comune>` e diventare volontario o volontaria, \[visita questo sito]\(URL).
 
 **🪄 Pulsante**: n/a
 
@@ -63,7 +63,7 @@ Per conoscere le organizzazioni attive nel Comune di \<comune> e diventare volon
 
 🗒 **Testo del messaggio**:
 
-Il \<gg/mm/aaaa> è stato pubblicato il nuovo piano di protezione civile del comune di \<comune>.
+Il `<gg/mm/aaaa>` è stato pubblicato il nuovo piano di protezione civile del comune di `<comune>`.
 
 All'interno del piano troverai indicazioni su come proteggere te stesso/a, la tua famiglia e la comunità in caso di emergenze.
 
@@ -97,7 +97,7 @@ Utilizza questo messaggio per inviare informazioni utili alla cittadinanza **non
 
 <summary>Notizie dal territorio</summary>
 
-**🖋 Titolo del messaggio:** \<oggetto della comunicazione>
+**🖋 Titolo del messaggio:** `<oggetto della comunicazione>`
 
 🗒 **Testo del messaggio:**
 
@@ -131,7 +131,7 @@ Questo messaggio è da utilizzare sia per messaggi Premium, sia per messaggi sta
 
 🗒 **Testo del messaggio**:
 
-Dal \<gg/mm/aaaa> è possibile fare domanda per \<oggetto del bando>.
+Dal `<gg/mm/aaaa>` è possibile fare domanda per `<oggetto del bando>`.
 
 Per consultare i criteri di assegnazione e fare domanda, \[visita questo sito]\(URL).
 
@@ -139,7 +139,7 @@ Per consultare i criteri di assegnazione e fare domanda, \[visita questo sito]\(
 
 **🪄 Pulsante**: n/a
 
-<mark style="color:blue;">**📎 Allegato Premium:**</mark> \<testo integrale del bando>
+<mark style="color:blue;">**📎 Allegato Premium:**</mark> `<testo integrale del bando>`
 
 ***
 
@@ -157,11 +157,11 @@ Per consultare i criteri di assegnazione e fare domanda, \[visita questo sito]\(
 
 <summary>Indicazioni per condizioni di calamità naturale o di emergenze</summary>
 
-**🖋 Titolo del messaggio:** \<Calamità/Emergenza>: cosa fare
+**🖋 Titolo del messaggio:** `<Calamità/Emergenza>`: cosa fare
 
 🗒 **Testo del messaggio:**
 
-Il \<gg/mm/aaaa> è prevista \<situazione oggetto dell'emergenza> sul nostro territorio.
+Il `<gg/mm/aaaa>` è prevista `<situazione oggetto dell'emergenza>` sul nostro territorio.
 
 \[Inserire qui le indicazioni su comportamenti da seguire, da compilare a cura e responsabilità dell'ente]
 

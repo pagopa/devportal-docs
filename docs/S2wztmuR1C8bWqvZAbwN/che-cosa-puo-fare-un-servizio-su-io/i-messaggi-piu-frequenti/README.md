@@ -45,9 +45,9 @@ I testi <mark style="color:orange;">\{{{tra triple graffe ed evidenziati in aran
 | Descrizione                                                                 | Variabile                                                     |
 | --------------------------------------------------------------------------- | ------------------------------------------------------------- |
 | Importo da pagare o rimborsato                                              | <00,00> €                                                     |
-| Data                                                                        | \<gg/mm/aaaa>                                                 |
-| Testo esemplificativo che l'ente deve integrare con il dato specifico       | \<nome e cognome>, \<causale>, \<aaaa> etc.                   |
-| Scelta che l'ente deve operare sulla base dell'esempio fornito              | \<centri estivi/centri gioco>, \<provvisoria/definitiva> etc. |
+| Data                                                                        | `<gg/mm/aaaa>`                                                 |
+| Testo esemplificativo che l'ente deve integrare con il dato specifico       | `<nome e cognome>`, `<causale>`, `<aaaa>` etc.                   |
+| Scelta che l'ente deve operare sulla base dell'esempio fornito              | `<centri estivi/centri gioco>`, `<provvisoria/definitiva>` etc. |
 | Inserimento di un link                                                      | \[visita questo sito]\(URL)                                   |
 | Indicazioni sulla tipologia di testo che è da integrare, senza suggerimenti | \[Inserire un breve elenco puntato di condizioni]             |
 

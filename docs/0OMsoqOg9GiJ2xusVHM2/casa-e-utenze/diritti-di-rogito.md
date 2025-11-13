@@ -33,7 +33,7 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 🗒 **Testo del messaggio**:
 
-Il Segretario Comunale scelto per la stesura dell’atto di rogito del \<bene> \<riferimenti bene> è \<nome> \<cognome>.
+Il Segretario Comunale scelto per la stesura dell’atto di rogito del `<bene>` `<riferimenti bene>` è `<nome>` `<cognome>`.
 
 Riceverai un messaggio quando sarà possibile procedere con la firma.
 
@@ -65,11 +65,11 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio**:
 
-C’è un avviso da pagare intestato a \<nome> \<cognome> e relativo a \<causale>.
+C’è un avviso da pagare intestato a `<nome>` `<cognome>` e relativo a `<causale>`.
 
 **Devi pagare:** <00,00> €
 
-**Entro il:** \<gg/mm/aaaa>
+**Entro il:** `<gg/mm/aaaa>`
 
 Puoi pagare direttamente in app premendo “Paga”, oppure tramite tutti i canali di pagamento della piattaforma pagoPA e le altre modalità di pagamento offerte dell'ente creditore.
 
@@ -101,7 +101,7 @@ In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio p
 
 🗒 **Testo del messaggio**:
 
-Il tuo pagamento relativo ai diritti di rogito per l’acquisto di del \<bene> \<riferimenti del bene> è prossimo alla scadenza.
+Il tuo pagamento relativo ai diritti di rogito per l’acquisto di del `<bene>` `<riferimenti del bene>` è prossimo alla scadenza.
 
 Se hai già provveduto a pagare l’avviso o se hai richiesto la domiciliazione del pagamento sul conto corrente, ignora questo messaggio.
 
@@ -131,7 +131,7 @@ Il seguente messaggio serve a sollecitare il cittadino per il mancato pagamento 
 
 🗒 **Testo del messaggio**:
 
-Il tuo pagamento relativo ai diritti di rogito per l’acquisto del \<bene> \<riferimenti del bene> non è stato effettuato entro la scadenza del \<gg/mm/aaaa>.
+Il tuo pagamento relativo ai diritti di rogito per l’acquisto del `<bene>` `<riferimenti del bene>` non è stato effettuato entro la scadenza del `<gg/mm/aaaa>`.
 
 Se hai già provveduto a pagare l’avviso o se hai richiesto la domiciliazione del pagamento sul conto corrente, ignora questo messaggio.
 
@@ -157,9 +157,9 @@ Se hai già provveduto a pagare l’avviso o se hai richiesto la domiciliazione 
 
 🗒 **Testo del messaggio**:
 
-Il \<gg/mm/aaaa> abbiamo protocollato l’atto di rogito del \<bene> \<riferimenti del bene> firmato il \<gg/mm/aaaa> da \<nome e cognome>.
+Il `<gg/mm/aaaa>` abbiamo protocollato l’atto di rogito del `<bene>` `<riferimenti del bene>` firmato il `<gg/mm/aaaa>` da `<nome e cognome>`.
 
-Il numero di protocollo è: \<nnnn>
+Il numero di protocollo è: `<nnnn>`
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -191,7 +191,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio**:
 
-L’atto di rogito del \<bene> \<riferimento del bene > è pronto per la firma.
+L’atto di rogito del `<bene>` `<riferimento del bene >` è pronto per la firma.
 
 Per visualizzare il documento, \[visita questa pagina]\(URL).
 
@@ -199,11 +199,11 @@ Per prenotare il tuo appuntamento per la firma, \[visita questo sito]\(URL),
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
-\[Solo per messaggi con allegato] Puoi trovare in allegato a questo messaggio l'atto di rogito in formato \<formato>.
+\[Solo per messaggi con allegato] Puoi trovare in allegato a questo messaggio l'atto di rogito in formato `<formato>`.
 
 **🪄 Pulsante**: n/a
 
-<mark style="color:blue;">**📎 Allegato:**</mark> \<atto di rogito>
+<mark style="color:blue;">**📎 Allegato:**</mark> `<atto di rogito>`
 
 ***
 
@@ -227,11 +227,11 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio:**
 
-Hai prenotato un appuntamento per \<oggetto dell’appuntamento>.
+Hai prenotato un appuntamento per `<oggetto dell’appuntamento>`.
 
-**Dove:** \<indirizzo>
+**Dove:** `<indirizzo>`
 
-**Quando:** \<gg/mm/aaaa> alle \<hh:mm>
+**Quando:** `<gg/mm/aaaa>` alle `<hh:mm>`
 
 Per ulteriori informazioni, (visita questo sito)\[URL].
 
@@ -257,7 +257,7 @@ Per ulteriori informazioni, (visita questo sito)\[URL].
 
 🗒 **Testo del messaggio**:
 
-Il \<gg/mm/aaaa> abbiamo registrato il contratto di compravendita del \<bene> \<riferimenti del bene>.
+Il `<gg/mm/aaaa>` abbiamo registrato il contratto di compravendita del `<bene>` `<riferimenti del bene>`.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 

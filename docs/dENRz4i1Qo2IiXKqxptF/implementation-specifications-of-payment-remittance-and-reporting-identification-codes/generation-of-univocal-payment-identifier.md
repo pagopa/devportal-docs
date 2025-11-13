@@ -49,7 +49,7 @@ For all types of payment there must always be a payment notice (analog or digita
 
 The structure of the Notice Number, which conforms to pre-existing and established de facto practices and standards at PSPs, is specified by the following template, where the indicated components take on the following meaning:
 
-$$ \<aux digit (1n)>\<IUV code (17n)> $$
+$$ `<aux digit (1n)>``<IUV code (17n)>` $$
 
 | **Aux Digit**| Numeric value that defines the structure of the IUV code according to the number of points of its generation. **The values 0-1-2 must no longer be used**.|
 |----------|----------|
@@ -61,7 +61,7 @@ $$ \<aux digit (1n)>\<IUV code (17n)> $$
 
 The composition of the **IUV code** is represented by the template as a concatenation of its components, which take the following meaning:
 
-$$ \<Segregation code (2n)>\<base IUV (13n)>\<IUV check digit (2n)> $$
+$$ `<Segregation code (2n)>``<base IUV (13n)>``<IUV check digit (2n)>` $$
 
 | **Segregation code**| Numerical value that represents the [Segregation Code](generation-of-univocal-payment-identifier.md#il-codice-di-segregazione).|
 |----------|----------|
@@ -80,13 +80,13 @@ This is a template provided to manage institutions that have one or more than on
 
 The template shows the composition to use for the Notice Number:
 
-$$ 3\<segregation code (2n)>\<base IUV (13n)>\<IUV check digit (2n)> $$
+$$ 3`<segregation code (2n)>``<base IUV (13n)>``<IUV check digit (2n)>` $$
 
 #### IUV.3 template
 
 The composition of the IUV code is defined by the following template:
 
-$$ \<segregation code (2n)>\<base IUV (13n)>\<IUV check digit (2n)> $$
+$$ `<segregation code (2n)>``<base IUV (13n)>``<IUV check digit (2n)>` $$
 
 where the component `<IUV check digit>` is calculated as the remainder of the division by 93 of the number obtained by concatenating the components , `<aux digit>`, `<codice segregazione>` and `<IUV base>`.
 

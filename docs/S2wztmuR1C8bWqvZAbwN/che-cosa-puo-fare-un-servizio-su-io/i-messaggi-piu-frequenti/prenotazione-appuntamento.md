@@ -12,17 +12,17 @@
 
 <mark style="color:green;">// se appuntamento generico //</mark>&#x20;
 
-<mark style="color:orange;">\{{{Hai prenotato un appuntamento per \<oggetto dell'appuntamento>.\}}}</mark>
+<mark style="color:orange;">\{{{Hai prenotato un appuntamento per `<oggetto dell'appuntamento>`.\}}}</mark>
 
 <mark style="color:green;">// se appuntamento presso uno sportello //</mark>&#x20;
 
-<mark style="color:orange;">\{{{Hai prenotato un appuntamento presso \<sportello></mark>.<mark style="color:orange;">\}}}</mark>
+<mark style="color:orange;">\{{{Hai prenotato un appuntamento presso `<sportello>`</mark>.<mark style="color:orange;">\}}}</mark>
 
-Il numero della prenotazione è \<nnnn>.
+Il numero della prenotazione è `<nnnn>`.
 
-**Dove:** \<indirizzo>
+**Dove:** `<indirizzo>`
 
-**Quando:** il \<gg/mm/aaaa> alle \<hh:mm>
+**Quando:** il `<gg/mm/aaaa>` alle `<hh:mm>`
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -50,13 +50,13 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio:**
 
-Ti ricordiamo l’appuntamento del \<gg/mm/aaaa> per \<oggetto>.
+Ti ricordiamo l’appuntamento del `<gg/mm/aaaa>` per `<oggetto>`.
 
-Il numero della prenotazione è \<nnnn>.
+Il numero della prenotazione è `<nnnn>`.
 
-**Dove:** \<indirizzo>
+**Dove:** `<indirizzo>`
 
-**Quando:** il \<gg/mm/aaaa> alle \<hh:mm>
+**Quando:** il `<gg/mm/aaaa>` alle `<hh:mm>`
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 

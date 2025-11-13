@@ -35,7 +35,7 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 🗒 **Testo del messaggio**:&#x20;
 
-Per elaborare la tua richiesta di \<oggetto della richiesta>, abbiamo bisogno di ricevere entro il \<gg/mm/aaaa> alcuni documenti.
+Per elaborare la tua richiesta di `<oggetto della richiesta>`, abbiamo bisogno di ricevere entro il `<gg/mm/aaaa>` alcuni documenti.
 
 Per aggiungere i documenti alla tua richiesta, \[visita questo sito]\(URL).
 
@@ -59,7 +59,7 @@ Per aggiungere i documenti alla tua richiesta, \[visita questo sito]\(URL).
 
 **🗒 Testo del messaggio:**
 
-La tua richiesta per \<oggetto della richiesta> è stata accolta.
+La tua richiesta per `<oggetto della richiesta>` è stata accolta.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -83,7 +83,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio:**
 
-La tua richiesta per \<oggetto della richiesta> non è stata accolta.
+La tua richiesta per `<oggetto della richiesta>` non è stata accolta.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -113,11 +113,11 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio**:\
 \
-C'è un avviso da pagare intestato a \<nome> \<cognome> e relativo a \<causale>.
+C'è un avviso da pagare intestato a `<nome>` `<cognome>` e relativo a `<causale>`.
 
 **Devi pagare:** <00,00> €
 
-**Entro il:** \<gg/mm/aaaa>
+**Entro il:** `<gg/mm/aaaa>`
 
 Puoi pagare direttamente in app premendo “Paga”, oppure tramite tutti i canali di pagamento della piattaforma pagoPA e le altre modalità di pagamento offerte dell'ente creditore.
 
@@ -155,7 +155,7 @@ Gli utenti che hanno dato il loro consenso, infatti, riceveranno automaticamente
 
 🗒 **Testo del messaggio**:&#x20;
 
-Il tuo pagamento per \<causale> sta per scadere.
+Il tuo pagamento per `<causale>` sta per scadere.
 
 Se hai già provveduto a pagare l’avviso, ignora questo messaggio.
 
@@ -179,7 +179,7 @@ Se hai già provveduto a pagare l’avviso, ignora questo messaggio.
 
 🗒 **Testo del messaggio**:&#x20;
 
-La tua richiesta per \<oggetto della richiesta> è stata annullata per mancato pagamento.
+La tua richiesta per `<oggetto della richiesta>` è stata annullata per mancato pagamento.
 
 Per ulteriori informazioni, (visita questo sito)\[URL].&#x20;
 
@@ -215,9 +215,9 @@ Questo messaggio è da utilizzare sia per messaggi Premium, sia per messaggi sta
 
 🗒 **Testo del messaggio:**
 
-Dal \<gg/mm/aaaa> puoi fare richiesta di \<oggetto del bando>.
+Dal `<gg/mm/aaaa>` puoi fare richiesta di `<oggetto del bando>`.
 
-Hai tempo fino al \<gg/mm/aaaa>.
+Hai tempo fino al `<gg/mm/aaaa>`.
 
 Per consultare i criteri di assegnazione e presentare richiesta, \[visita questo sito]\(URL).
 
@@ -225,7 +225,7 @@ Per consultare i criteri di assegnazione e presentare richiesta, \[visita questo
 
 **🪄 Pulsante**: n/a\
 \
-<mark style="color:blue;">**📎 Allegato Premium:**</mark> \<testo integrale del bando>
+<mark style="color:blue;">**📎 Allegato Premium:**</mark> `<testo integrale del bando>`
 
 ***
 
@@ -247,9 +247,9 @@ Per consultare i criteri di assegnazione e presentare richiesta, \[visita questo
 
 🗒 **Testo del messaggio:**
 
-È disponibile la graduatoria per il servizio \<tipologia di servizio> per \<nome> \<cognome>.
+È disponibile la graduatoria per il servizio `<tipologia di servizio>` per `<nome>` `<cognome>`.
 
-Se vuoi rinunciare alla tua posizione, hai tempo fino al \<gg/mm/aaaa>.
+Se vuoi rinunciare alla tua posizione, hai tempo fino al `<gg/mm/aaaa>`.
 
 Per visualizzare la tua posizione in graduatoria \[visita questo sito]\(URL).
 

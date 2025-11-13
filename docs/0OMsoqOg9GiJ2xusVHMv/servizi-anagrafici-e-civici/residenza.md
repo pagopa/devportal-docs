@@ -35,7 +35,7 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 🗒 **Testo del messaggio**:&#x20;
 
-La tua richiesta di residenza temporanea presso il Comune di \<Comune> è stata accolta.
+La tua richiesta di residenza temporanea presso il Comune di `<Comune>` è stata accolta.
 
 Per ulteriori informazioni, \[visita questa pagina]\(URL).
 

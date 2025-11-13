@@ -33,7 +33,7 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 **🖋 Titolo del messaggio:** Il tuo veicolo risulta abbandonato
 
-🗒 **Testo del messaggio**: Il veicolo targato \<targa> in \<indirizzo> è considerato in stato in abbandono.&#x20;
+🗒 **Testo del messaggio**: Il veicolo targato `<targa>` in `<indirizzo>` è considerato in stato in abbandono.&#x20;
 
 Per maggiori informazioni visita \[questo sito]\(URL).
 
@@ -57,9 +57,9 @@ Per maggiori informazioni visita \[questo sito]\(URL).
 
 **🖋 Titolo del messaggio:** Il tuo veicolo è stato rimosso&#x20;
 
-🗒 **Testo del messaggio**:  Il \<gg/mm/aaaa> alle \<hh:mm>, in \<indirizzo>, il veicolo targato \<targa> è stato rimosso.&#x20;
+🗒 **Testo del messaggio**:  Il `<gg/mm/aaaa>` alle `<hh:mm>`, in `<indirizzo>`, il veicolo targato `<targa>` è stato rimosso.&#x20;
 
-Il tuo veicolo si trova presso il deposito in \<indirizzo>.
+Il tuo veicolo si trova presso il deposito in `<indirizzo>`.
 
 Per maggiori informazioni visita \[questo sito]\(URL).
 
@@ -83,7 +83,7 @@ Per maggiori informazioni visita \[questo sito]\(URL).
 
 **🖋 Titolo del messaggio:** Il deposito del tuo veicolo è in scadenza
 
-🗒 **Testo del messaggio**:  Hai tempo fino al \<gg/mm/aaaa> per ritirare il veicolo targato \<numero targa> presso il deposito in \<indirizzo>.&#x20;
+🗒 **Testo del messaggio**:  Hai tempo fino al `<gg/mm/aaaa>` per ritirare il veicolo targato `<numero targa>` presso il deposito in `<indirizzo>`.&#x20;
 
 Potrai ritirarlo solo dopo avere pagato i costi di servizio e deposito.&#x20;
 
@@ -109,7 +109,7 @@ Per maggiori informazioni visita \[questo sito]\(URL).
 
 **🖋 Titolo del messaggio:** Il tuo veicolo risulta abbandonato
 
-🗒 **Testo del messaggio**: Il veicolo targato \<targa> in \<indirizzo> è considerato in stato in abbandono.&#x20;
+🗒 **Testo del messaggio**: Il veicolo targato `<targa>` in `<indirizzo>` è considerato in stato in abbandono.&#x20;
 
 Per maggiori informazioni visita \[questo sito]\(URL).
 

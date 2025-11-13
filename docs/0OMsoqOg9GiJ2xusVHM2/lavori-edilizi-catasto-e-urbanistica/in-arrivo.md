@@ -41,7 +41,7 @@ I servizi di IO possono essere erogati anche alle persone fisiche, a condizione 
 
 🗒 **Testo del messaggio**:
 
-Dal \<gg/mm/aaaa> è possibile presentare la domanda di ammissione al bando \<oggetto del bando>.
+Dal `<gg/mm/aaaa>` è possibile presentare la domanda di ammissione al bando `<oggetto del bando>`.
 
 \[Inserire qui le modalità di compilazione della domanda e la documentazione necessaria, da compilare a cura e responsabilità dell'ente]
 
@@ -51,7 +51,7 @@ Per consultare i criteri di assegnazione e compilare la domanda, \[visita questo
 
 **🪄 Pulsante**: Fai domanda
 
-<mark style="color:blue;">**📎 Allegato:**</mark> \<testo integrale del bando>
+<mark style="color:blue;">**📎 Allegato:**</mark> `<testo integrale del bando>`
 
 ***
 
@@ -77,7 +77,7 @@ Per consultare i criteri di assegnazione e compilare la domanda, \[visita questo
 
 🗒 **Testo del messaggio**:
 
-Per comprovare i requisiti di accesso di \<ragione sociale> al bando \<nome del bando> \<riferimenti del bando> abbiamo bisogno di ricevere entro il \<gg/mm/aaaa> alcuni documenti.
+Per comprovare i requisiti di accesso di `<ragione sociale>` al bando `<nome del bando>` `<riferimenti del bando>` abbiamo bisogno di ricevere entro il `<gg/mm/aaaa>` alcuni documenti.
 
 **🪄 Pulsante**: Aggiungi documenti
 
@@ -99,7 +99,7 @@ Per comprovare i requisiti di accesso di \<ragione sociale> al bando \<nome del 
 
 🗒 **Testo del messaggio:**
 
-La tua domanda di ammissione al bando \<nome del bando> \<riferimenti del bando> è stata accolta.
+La tua domanda di ammissione al bando `<nome del bando>` `<riferimenti del bando>` è stata accolta.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -123,7 +123,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio:**
 
-La tua domanda di ammissione al bando \<nome del bando> \<riferimenti del bando> non è stata accolta.
+La tua domanda di ammissione al bando `<nome del bando>` `<riferimenti del bando>` non è stata accolta.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -153,11 +153,11 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio:**
 
-C’è un avviso di pagamento intestato a \<nome> \<cognome> e relativo a \<causale>.
+C’è un avviso di pagamento intestato a `<nome>` `<cognome>` e relativo a `<causale>`.
 
 Devi pagare: <00,00> €
 
-Entro il: \<gg/mm/aaaa>
+Entro il: `<gg/mm/aaaa>`
 
 Puoi pagare direttamente in app premendo “Paga”, oppure tramite tutti i canali di pagamento della piattaforma pagoPA e le altre modalità di pagamento offerte dell'ente creditore.
 
@@ -189,7 +189,7 @@ In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio p
 
 🗒 **Testo del messaggio:**
 
-Il tuo pagamento per \<causale> sta per scadere.
+Il tuo pagamento per `<causale>` sta per scadere.
 
 Se hai già provveduto a pagare l’avviso ignora questo messaggio.
 
@@ -215,7 +215,7 @@ Se hai già provveduto a pagare l’avviso ignora questo messaggio.
 
 🗒 **Testo del messaggio:**
 
-Il \<gg/mm/aaaa> \<denominazione stazione appaltante> ha assegnato a \<Ragione sociale> i lavori relativi a \<nome del bando> \<riferimento bando>.
+Il `<gg/mm/aaaa>` `<denominazione stazione appaltante>` ha assegnato a `<Ragione sociale>` i lavori relativi a `<nome del bando>` `<riferimento bando>`.
 
 \[Inserire qui passi successivi, da compilare a cura e responsabilità dell'ente]
 
@@ -239,13 +239,13 @@ Per visualizzare il documento di aggiudicazione, \[visita questo sito]\(URL).
 
 <summary>Selezione non superata</summary>
 
-**🖋 Titolo del messaggio:** Esito del bando \<riferimenti bando>
+**🖋 Titolo del messaggio:** Esito del bando `<riferimenti bando>`
 
 🗒 **Testo del messaggio:**
 
-Il \<gg/mm/aaaa> \<denominazione stazione appaltante> ha concluso la procedura di selezione per il bando \<oggetto del bando> \<riferimenti del bando>.
+Il `<gg/mm/aaaa>` `<denominazione stazione appaltante>` ha concluso la procedura di selezione per il bando `<oggetto del bando>` `<riferimenti del bando>`.
 
-\<Ragione Sociale> non ha superato la selezione. Pertanto, non è aggiudicataria dei lavori.
+`<Ragione Sociale>` non ha superato la selezione. Pertanto, non è aggiudicataria dei lavori.
 
 Per visualizzare il documento di aggiudicazione, \[visita questo sito]\(URL).
 
@@ -275,9 +275,9 @@ Per visualizzare il documento di aggiudicazione, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio:**
 
-Il contratto di appalto \<U> relativo all’assegnazione di \<nome del bando> a \<Ragione Sociale> è pronto per la firma.
+Il contratto di appalto `<U>` relativo all’assegnazione di `<nome del bando>` a `<Ragione Sociale>` è pronto per la firma.
 
-\[Solo per messaggi con allegato] Puoi trovare in allegato il testo integrale del contratto in formato \<formato>.
+\[Solo per messaggi con allegato] Puoi trovare in allegato il testo integrale del contratto in formato `<formato>`.
 
 Per visualizzare il contratto, \[visita questo sito]\(URL).
 
@@ -287,7 +287,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 **🪄 Pulsante:** n/a
 
-<mark style="color:blue;">**📎 Allegato:**</mark> \<contratto>
+<mark style="color:blue;">**📎 Allegato:**</mark> `<contratto>`
 
 ***
 
@@ -307,11 +307,11 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio:**
 
-Hai prenotato un appuntamento per \<oggetto dell’appuntamento>.
+Hai prenotato un appuntamento per `<oggetto dell’appuntamento>`.
 
-**Dove:** \<indirizzo>
+**Dove:** `<indirizzo>`
 
-**Quando:** \<gg/mm/aaaa> alle \<hh:mm>
+**Quando:** `<gg/mm/aaaa>` alle `<hh:mm>`
 
 Per ulteriori informazioni, (visita questo sito)\[URL].
 

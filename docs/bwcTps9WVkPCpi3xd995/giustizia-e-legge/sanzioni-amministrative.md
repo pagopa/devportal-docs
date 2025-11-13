@@ -32,7 +32,7 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 🗒 **Testo del messaggio**:&#x20;
 
-Il \<gg/mm/aaaa> è stata pubblicata una nuova ordinanza relativa a \<oggetto dell’ordinanza>.
+Il `<gg/mm/aaaa>` è stata pubblicata una nuova ordinanza relativa a `<oggetto dell’ordinanza>`.
 
 Per visualizzarla, \[visita questo sito]\(URL).
 

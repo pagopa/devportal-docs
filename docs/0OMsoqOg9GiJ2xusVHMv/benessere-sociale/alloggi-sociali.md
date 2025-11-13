@@ -39,9 +39,9 @@ Questo messaggio è da utilizzare sia per messaggi Premium, sia per messaggi sta
 
 🗒 **Testo del messaggio**:&#x20;
 
-Il \<gg/mm/aaaa> è stato pubblicato il bando per l’assegnazione di alloggi nel Comune di \<Comune>.
+Il `<gg/mm/aaaa>` è stato pubblicato il bando per l’assegnazione di alloggi nel Comune di `<Comune>`.
 
-Se vuoi presentare domanda di partecipazione, puoi prenotare un appuntamento presso \<denominazione sportello> o inviare la modulistica tramite \<canale>.
+Se vuoi presentare domanda di partecipazione, puoi prenotare un appuntamento presso `<denominazione sportello>` o inviare la modulistica tramite `<canale>`.
 
 Per consultare i criteri di assegnazione e scaricare la modulistica, \[visita questo sito]\(URL).
 
@@ -49,7 +49,7 @@ Per consultare i criteri di assegnazione e scaricare la modulistica, \[visita qu
 
 **🪄 Pulsante**: n/a
 
-<mark style="color:blue;">**📎 Allegato Premium:**</mark> \<testo integrale del bando>
+<mark style="color:blue;">**📎 Allegato Premium:**</mark> `<testo integrale del bando>`
 
 ***
 
@@ -75,13 +75,13 @@ Per consultare i criteri di assegnazione e scaricare la modulistica, \[visita qu
 
 🗒 **Testo del messaggio:**
 
-Hai prenotato un appuntamento per \<oggetto dell’appuntamento>.
+Hai prenotato un appuntamento per `<oggetto dell’appuntamento>`.
 
-Il numero della prenotazione è \<nnnn>.
+Il numero della prenotazione è `<nnnn>`.
 
-**Dove**: \<indirizzo>
+**Dove**: `<indirizzo>`
 
-**Quando**: il \<gg/mm/aaaa> alle \<hh:mm>
+**Quando**: il `<gg/mm/aaaa>` alle `<hh:mm>`
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -111,11 +111,11 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio:**&#x20;
 
-C'è un avviso da pagare intestato a \<nome> \<cognome> e relativo a \<causale>.
+C'è un avviso da pagare intestato a `<nome>` `<cognome>` e relativo a `<causale>`.
 
 **Devi pagare**: <00,00> €
 
-**Entro il**: \<gg/mm/aaaa>
+**Entro il**: `<gg/mm/aaaa>`
 
 Puoi pagare direttamente in app premendo “Paga”, oppure tramite tutti i canali di pagamento della piattaforma pagoPA e le altre modalità di pagamento offerte dell'ente creditore.
 
@@ -153,7 +153,7 @@ Gli utenti che hanno dato il loro consenso, infatti, riceveranno automaticamente
 
 🗒 **Testo del messaggio:**&#x20;
 
-Il tuo pagamento per \<causale> sta per scadere.
+Il tuo pagamento per `<causale>` sta per scadere.
 
 Se hai già provveduto a pagare l’avviso ignora questo messaggio.
 
@@ -181,7 +181,7 @@ Se hai già provveduto a pagare l’avviso ignora questo messaggio.
 
 La tua domanda è stata presa in carico.
 
-Il numero di protocollo è: \<nnnn>
+Il numero di protocollo è: `<nnnn>`
 
 Riceverai un messaggio in app che ti avverte dell’apertura del periodo di assegnazione degli alloggi. Entro la data che ti verrà indicata, dovrai presentare la tua domanda.
 
@@ -209,7 +209,7 @@ Per vedere la tua domanda, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio:**
 
-Per elaborare la tua domanda abbiamo bisogno di ricevere entro il \<gg/mm/aaaa> altri documenti.
+Per elaborare la tua domanda abbiamo bisogno di ricevere entro il `<gg/mm/aaaa>` altri documenti.
 
 Consulta il riepilogo della tua domanda, \[visita questo sito]\(URL).
 
@@ -235,9 +235,9 @@ Consulta il riepilogo della tua domanda, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio:**
 
-Dal \<gg/mm/aaaa> è possibile presentare domanda di assegnazione di alloggi nel Comune di \<Comune>.
+Dal `<gg/mm/aaaa>` è possibile presentare domanda di assegnazione di alloggi nel Comune di `<Comune>`.
 
-Hai tempo fino al \<gg/mm/aaaa>.
+Hai tempo fino al `<gg/mm/aaaa>`.
 
 Per consultare i criteri di assegnazione e presentare domanda, \[visita questo sito]\(URL).
 
@@ -263,7 +263,7 @@ Per consultare i criteri di assegnazione e presentare domanda, \[visita questo s
 
 🗒 **Testo del messaggio:**
 
-È disponibile la graduatoria provvisoria per l’assegnazione di alloggi sociali nel Comune di \<Comune>.
+È disponibile la graduatoria provvisoria per l’assegnazione di alloggi sociali nel Comune di `<Comune>`.
 
 Per visualizzare la tua posizione in graduatoria \[visita questo sito]\(URL).
 
@@ -289,7 +289,7 @@ Per visualizzare la tua posizione in graduatoria \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio:**
 
-È disponibile la graduatoria definitiva per l’assegnazione di alloggi sociali nel Comune di \<Comune>.
+È disponibile la graduatoria definitiva per l’assegnazione di alloggi sociali nel Comune di `<Comune>`.
 
 Per visualizzare la tua posizione in graduatoria \[visita questo sito]\(URL).
 
@@ -315,7 +315,7 @@ Per visualizzare la tua posizione in graduatoria \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio:**
 
-Dal \<gg/mm/aaaa> l'alloggio sociale in \<indirizzo> è assegnato a te.
+Dal `<gg/mm/aaaa>` l'alloggio sociale in `<indirizzo>` è assegnato a te.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -353,17 +353,17 @@ Questo messaggio è da utilizzare sia per messaggi Premium, sia per messaggi sta
 
 🗒 **Testo del messaggio:**
 
-Il contratto di locazione per l’alloggio \<riferimento alloggio> assegnato in \<indirizzo> è pronto per la firma.
+Il contratto di locazione per l’alloggio `<riferimento alloggio>` assegnato in `<indirizzo>` è pronto per la firma.
 
 Per prenotare l'appuntamento per la firma, \[visita questo sito]\(URL).
 
-\[Solo per messaggi Premium con allegato] Puoi trovare in allegato il testo integrale del contratto in formato \<formato>.
+\[Solo per messaggi Premium con allegato] Puoi trovare in allegato il testo integrale del contratto in formato `<formato>`.
 
 Per scaricare il contratto, \[visita questo sito]\(URL).
 
 **🪄 Pulsante:** n/a
 
-<mark style="color:blue;">**📎 Allegato Premium:**</mark> \<contratto>
+<mark style="color:blue;">**📎 Allegato Premium:**</mark> `<contratto>`
 
 ***
 
@@ -387,13 +387,13 @@ Per scaricare il contratto, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio:**
 
-Hai prenotato un appuntamento per \<oggetto dell’appuntamento>.
+Hai prenotato un appuntamento per `<oggetto dell’appuntamento>`.
 
-Il numero della prenotazione è: \<nnnn>.
+Il numero della prenotazione è: `<nnnn>`.
 
-**Dove:** \<indirizzo>
+**Dove:** `<indirizzo>`
 
-**Quando:** \<gg/mm/aaaa> alle \<hh:mm>
+**Quando:** `<gg/mm/aaaa>` alle `<hh:mm>`
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -423,11 +423,11 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio:**&#x20;
 
-C'è un avviso da pagare intestato a \<nome> \<cognome> e relativo a \<causale>.
+C'è un avviso da pagare intestato a `<nome>` `<cognome>` e relativo a `<causale>`.
 
 **Devi pagare:** <00,00> €
 
-**Entro il:** \<gg/mm/aaaa>
+**Entro il:** `<gg/mm/aaaa>`
 
 Puoi pagare direttamente in app premendo “Vedi Avviso”, oppure tramite tutti i canali di Puoi pagare direttamente in app premendo “Paga”, oppure tramite tutti i canali di pagamento della piattaforma pagoPA e le altre modalità di pagamento offerte dell'ente creditore.
 
@@ -465,7 +465,7 @@ Gli utenti che hanno dato il loro consenso, infatti, riceveranno automaticamente
 
 🗒 **Testo del messaggio:**&#x20;
 
-Il tuo pagamento per \<causale> sta per scadere.
+Il tuo pagamento per `<causale>` sta per scadere.
 
 Se hai già provveduto a pagare l’avviso ignora questo messaggio.
 
@@ -495,7 +495,7 @@ Il seguente messaggio serve a sollecitare il cittadino per il mancato pagamento 
 
 🗒 **Testo del messaggio:**
 
-Il tuo pagamento relativo a \<causale> è scaduto il \<gg/mm/aaaa>.
+Il tuo pagamento relativo a `<causale>` è scaduto il `<gg/mm/aaaa>`.
 
 Se hai già provveduto a pagare l’avviso ignora questo messaggio.
 

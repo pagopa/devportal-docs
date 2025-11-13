@@ -39,7 +39,7 @@ Gli stessi possono indirizzare ai cittadini le comunicazioni inerenti al servizi
 
 🗒 **Testo del messaggio**:&#x20;
 
-Il \<gg/mm/aaaa> ti abbiamo inviato il preventivo da te richiesto tramite \<canale> per \<l’allacciamento/il subentro/la voltura> dell’acqua in \<indirizzo>.
+Il `<gg/mm/aaaa>` ti abbiamo inviato il preventivo da te richiesto tramite `<canale>` per `<l’allacciamento/il subentro/la voltura>` dell’acqua in `<indirizzo>`.
 
 Per completare la tua richiesta, \[visita questo sito]\(URL).
 
@@ -59,11 +59,11 @@ Per completare la tua richiesta, \[visita questo sito]\(URL).
 
 <summary>Pagamenti insoluti</summary>
 
-**🖋 Titolo del messaggio:** Richiesta di \<allacciamento/subentro/voltura> è bloccata da pagamenti insoluti
+**🖋 Titolo del messaggio:** Richiesta di `<allacciamento/subentro/voltura>` è bloccata da pagamenti insoluti
 
 🗒 **Testo del messaggio**:&#x20;
 
-Risultano pagamenti insoluti a carico di \<nome> \<cognome> e relative a \<causale>.
+Risultano pagamenti insoluti a carico di `<nome>` `<cognome>` e relative a `<causale>`.
 
 Per maggiori informazioni o per richiedere assistenza, contattaci tramite i canali che trovi nella scheda servizio.
 
@@ -85,11 +85,11 @@ Per maggiori informazioni o per richiedere assistenza, contattaci tramite i cana
 
 <summary>Richiesta preventivo decaduta</summary>
 
-**🖋 Titolo del messaggio:** Richiesta di preventivo \<allacciamento/subentro/voltura> non accolta
+**🖋 Titolo del messaggio:** Richiesta di preventivo `<allacciamento/subentro/voltura>` non accolta
 
 🗒 **Testo del messaggio**:&#x20;
 
-La tua richiesta di preventivo per \<allacciamento/subentro/voltura> non è stata accolta.
+La tua richiesta di preventivo per `<allacciamento/subentro/voltura>` non è stata accolta.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -119,11 +119,11 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio**:
 
-C’è un avviso di pagamento intestato a \<nome> \<cognome> e relativo a \<causale>.
+C’è un avviso di pagamento intestato a `<nome>` `<cognome>` e relativo a `<causale>`.
 
-**Devi pagare:** \<xx,xx> €
+**Devi pagare:** `<xx,xx>` €
 
-**Entro il:** \<gg/mm/aaaa>
+**Entro il:** `<gg/mm/aaaa>`
 
 Puoi pagare direttamente in app premendo “Paga”, oppure tramite tutti i canali di pagamento della piattaforma pagoPA e le altre modalità di pagamento offerte dell'ente creditore.
 
@@ -161,7 +161,7 @@ Gli utenti che hanno dato il loro consenso, infatti, riceveranno automaticamente
 
 🗒 **Testo del messaggio:**
 
-Il tuo pagamento per \<causale> sta per scadere.
+Il tuo pagamento per `<causale>` sta per scadere.
 
 Se hai già provveduto a pagare l’avviso, ignora questo messaggio.
 
@@ -185,7 +185,7 @@ Se hai già provveduto a pagare l’avviso, ignora questo messaggio.
 
 🗒 **Testo del messaggio**:&#x20;
 
-Il \<gg/mm/aaaa> abbiamo inoltrato la richiesta degli atti autorizzativi richiesti da \<nome del gestore> all’ufficio competente \<denominazione ufficio>.
+Il `<gg/mm/aaaa>` abbiamo inoltrato la richiesta degli atti autorizzativi richiesti da `<nome del gestore>` all’ufficio competente `<denominazione ufficio>`.
 
 Riceverai ulteriori messaggio sullo stato di avanzamento della tua richiesta.
 
@@ -209,7 +209,7 @@ Riceverai ulteriori messaggio sullo stato di avanzamento della tua richiesta.
 
 🗒 **Testo del messaggio**:&#x20;
 
-Il \<gg/mm/aaaa> abbiamo attivato il servizio di fornitura per \<allacciamento/subentro/voltura> dell’acqua in \<indirizzo>.
+Il `<gg/mm/aaaa>` abbiamo attivato il servizio di fornitura per `<allacciamento/subentro/voltura>` dell’acqua in `<indirizzo>`.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -243,13 +243,13 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio**:
 
-C’è un avviso di pagamento intestato a \<nome> \<cognome> e relativo a \<causale>.
+C’è un avviso di pagamento intestato a `<nome>` `<cognome>` e relativo a `<causale>`.
 
-**Devi pagare:** \<xx,xx> €
+**Devi pagare:** `<xx,xx>` €
 
-**Entro il:** \<gg/mm/aaaa>
+**Entro il:** `<gg/mm/aaaa>`
 
-\[Se previsto] Se vuoi richiedere agevolazioni economiche sul pagamento delle bollette, puoi farlo entro il \<gg/mm/aaaa>.
+\[Se previsto] Se vuoi richiedere agevolazioni economiche sul pagamento delle bollette, puoi farlo entro il `<gg/mm/aaaa>`.
 
 Per richiedere le agevolazioni, \[visita questo sito]\(URL).
 
@@ -289,7 +289,7 @@ Gli utenti che hanno dato il loro consenso, infatti, riceveranno automaticamente
 
 🗒 **Testo del messaggio**:
 
-l tuo pagamento della bolletta per \<tipo di fornitura> sta per scadere.
+l tuo pagamento della bolletta per `<tipo di fornitura>` sta per scadere.
 
 Se hai già provveduto a pagare l’avviso o se hai richiesto la domiciliazione della bolletta sul conto corrente, ignora questo messaggio.
 
@@ -315,7 +315,7 @@ Se hai già provveduto a pagare l’avviso o se hai richiesto la domiciliazione 
 
 🗒 **Testo del messaggio**:&#x20;
 
-La tua richiesta di agevolazioni per \<tipologia di fornitura> in \<indirizzo> che hai inviato il \<gg/mm/aaaa> è stata accolta.&#x20;
+La tua richiesta di agevolazioni per `<tipologia di fornitura>` in `<indirizzo>` che hai inviato il `<gg/mm/aaaa>` è stata accolta.&#x20;
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -339,7 +339,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio**:&#x20;
 
-La tua richiesta di agevolazioni per il servizio di fornitura dell’acqua in \<indirizzo> non è stata accolta.&#x20;
+La tua richiesta di agevolazioni per il servizio di fornitura dell’acqua in `<indirizzo>` non è stata accolta.&#x20;
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -373,11 +373,11 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio**:
 
-C'è un avviso da pagare intestato a \<nome> \<cognome> e relativo a \<causale>.
+C'è un avviso da pagare intestato a `<nome>` `<cognome>` e relativo a `<causale>`.
 
-**Devi pagare:** \<xx,xx> €
+**Devi pagare:** `<xx,xx>` €
 
-**Entro il:** \<gg/mm/aaaa>
+**Entro il:** `<gg/mm/aaaa>`
 
 Puoi pagare direttamente in app premendo “Paga”, oppure tramite tutti i canali di pagamento della piattaforma pagoPA e le altre modalità di pagamento offerte dell'ente creditore.
 
@@ -407,7 +407,7 @@ In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio p
 
 🗒 **Testo del messaggio**:&#x20;
 
-Risultano pagamenti insoluti a carico di \<nome> \<cognome> e relative a \<causale>.
+Risultano pagamenti insoluti a carico di `<nome>` `<cognome>` e relative a `<causale>`.
 
 Per maggiori informazioni o per richiedere assistenza, contattaci tramite i canali che trovi nella scheda servizio.
 
@@ -439,7 +439,7 @@ Gli utenti che hanno dato il loro consenso, infatti, riceveranno automaticamente
 
 🗒 **Testo del messaggio**:&#x20;
 
-Il tuo pagamento per \<causale> sta per scadere.
+Il tuo pagamento per `<causale>` sta per scadere.
 
 Se hai già provveduto a pagare l’avviso, ignora questo messaggio.
 
@@ -471,7 +471,7 @@ Il seguente messaggio serve a sollecitare il cittadino per il mancato pagamento 
 
 🗒 **Testo del messaggio**:&#x20;
 
-Il tuo pagamento per \<causale> è scaduto il \<gg/mm/aaaa>.
+Il tuo pagamento per `<causale>` è scaduto il `<gg/mm/aaaa>`.
 
 Se hai già provveduto a pagare l’avviso, ignora questo messaggio.
 
@@ -499,11 +499,11 @@ Per maggiori informazioni o per richiedere assistenza, contattaci tramite i cana
 
 <summary>Modifica erogazione del servizio per un giorno</summary>
 
-**🖋 Titolo del messaggio:** Modifica erogazione acqua in \<indirizzo>
+**🖋 Titolo del messaggio:** Modifica erogazione acqua in `<indirizzo>`
 
 🗒 **Testo del messaggio**:&#x20;
 
-Il \<gg/mm/aaaa> dalle \<hh:mm> alle \<hh:mm> a causa di \<causa>, l’erogazione dell’acqua in \<indirizzo> potrà \<essere interrotta/essere ridotta/subire variazioni>.
+Il `<gg/mm/aaaa>` dalle `<hh:mm>` alle `<hh:mm>` a causa di `<causa>`, l’erogazione dell’acqua in `<indirizzo>` potrà `<essere interrotta/essere ridotta/subire variazioni>`.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -523,13 +523,13 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 <summary><strong>Modifica erogazione del servizio per periodo prolungato</strong></summary>
 
-**🖋 Titolo del messaggio:** Modifica erogazione acqua in \<indirizzo>
+**🖋 Titolo del messaggio:** Modifica erogazione acqua in `<indirizzo>`
 
 🗒 **Testo del messaggio**:&#x20;
 
-Dal \<gg/mm/aaaa> al \<gg/mm/aaaa> a causa di \<causa>, l’erogazione dell’acqua in \<indirizzo> potrà \<essere interrotta/essere ridotta/subire variazioni>.
+Dal `<gg/mm/aaaa>` al `<gg/mm/aaaa>` a causa di `<causa>`, l’erogazione dell’acqua in `<indirizzo>` potrà `<essere interrotta/essere ridotta/subire variazioni>`.
 
-Le variazioni saranno attive nella fascia oraria dalle \<hh:mm> alle \<hh:mm>.
+Le variazioni saranno attive nella fascia oraria dalle `<hh:mm>` alle `<hh:mm>`.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 

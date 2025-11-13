@@ -31,11 +31,11 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 <summary>Prossima partenza del servizio</summary>
 
-**🖋 Titolo del messaggio:** Prossima apertura iscrizioni per l’anno \<aaaa>
+**🖋 Titolo del messaggio:** Prossima apertura iscrizioni per l’anno `<aaaa>`
 
 🗒 **Testo del messaggio**:
 
-Dal \<gg/mm/aaaa> al \<gg/mm/aaaa> saranno aperte le iscrizioni al servizio \<centro estivo/centro gioco> per l’anno \<aaaa>.
+Dal `<gg/mm/aaaa>` al `<gg/mm/aaaa>` saranno aperte le iscrizioni al servizio `<centro estivo/centro gioco>` per l’anno `<aaaa>`.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -59,11 +59,11 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 ***
 
-**🖋 Titolo del messaggio:** Sono aperte le iscrizioni per l’anno \<aaaa>
+**🖋 Titolo del messaggio:** Sono aperte le iscrizioni per l’anno `<aaaa>`
 
 🗒 **Testo del messaggio**:
 
-Sono aperte le iscrizioni al servizio \<centro estivo/centro gioco> per l’anno \<aaaa>.
+Sono aperte le iscrizioni al servizio `<centro estivo/centro gioco>` per l’anno `<aaaa>`.
 
 Per ulteriori informazioni e fare domanda di iscrizione, \[visita questo sito]\(URL).
 
@@ -93,7 +93,7 @@ Per ulteriori informazioni e fare domanda di iscrizione, \[visita questo sito]\(
 
 🗒 **Testo del messaggio**:
 
-Per elaborare la tua domanda per di iscrizione per \<nome> \<cognome> al servizio \<centro estivo/centro gioco> per l’anno \<aaaa>, abbiamo bisogno di ricevere entro il \<gg/mm/aaaa> altri documenti.
+Per elaborare la tua domanda per di iscrizione per `<nome>` `<cognome>` al servizio `<centro estivo/centro gioco>` per l’anno `<aaaa>`, abbiamo bisogno di ricevere entro il `<gg/mm/aaaa>` altri documenti.
 
 Consulta il riepilogo della domanda, \[visita questo sito]\(URL).
 
@@ -119,15 +119,15 @@ Consulta il riepilogo della domanda, \[visita questo sito]\(URL).
 
 ***
 
-**🖋 Titolo del messaggio:** Pubblicata la graduatoria per l’anno \<aaaa>
+**🖋 Titolo del messaggio:** Pubblicata la graduatoria per l’anno `<aaaa>`
 
 🗒 **Testo del messaggio**:
 
-È disponibile la graduatoria di ammissione per \<nome> \<cognome> al servizio \<centro estivo/centro gioco> per l’anno \<aaaa/aaaa>.
+È disponibile la graduatoria di ammissione per `<nome>` `<cognome>` al servizio `<centro estivo/centro gioco>` per l’anno `<aaaa/aaaa>`.
 
-\[Se previsto] Per confermare l’iscrizione, dovrai effettuare il pagamento per la \<rata unica/prima rata> entro il \<gg/mm/aaaa>.
+\[Se previsto] Per confermare l’iscrizione, dovrai effettuare il pagamento per la `<rata unica/prima rata>` entro il `<gg/mm/aaaa>`.
 
-Se vuoi rinunciare alla tua posizione, hai tempo fino al \<gg/mm/aaaa>.
+Se vuoi rinunciare alla tua posizione, hai tempo fino al `<gg/mm/aaaa>`.
 
 Per visualizzare la tua posizione in graduatoria \[visita questo sito]\(URL).
 
@@ -157,11 +157,11 @@ Per visualizzare la tua posizione in graduatoria \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio**:
 
-C'è un avviso da pagare intestato a \<nome e cognome> e relativo a \<causale>.
+C'è un avviso da pagare intestato a `<nome e cognome>` e relativo a `<causale>`.
 
 **Devi pagare:** <00,00> €
 
-**Entro il:** \<gg/mm/aaaa>
+**Entro il:** `<gg/mm/aaaa>`
 
 Puoi pagare direttamente in app premendo “Paga”, oppure tramite tutti i canali di pagamento della piattaforma pagoPA e le altre modalità di pagamento offerte dell'ente creditore.
 
@@ -193,7 +193,7 @@ In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio p
 
 🗒 **Testo del messaggio**:
 
-Il tuo pagamento per l’iscrizione per \<nome> \<cognome> al servizio \<centro estivo/centro gioco> per l’anno \<aaaa> sta per scadere.
+Il tuo pagamento per l’iscrizione per `<nome>` `<cognome>` al servizio `<centro estivo/centro gioco>` per l’anno `<aaaa>` sta per scadere.
 
 Se hai già provveduto a pagare l’avviso ignora questo messaggio.
 
@@ -223,7 +223,7 @@ Il seguente messaggio serve a sensibilizzare il cittadino per il mancato pagamen
 
 🗒 **Testo del messaggio**:
 
-Il tuo pagamento per l’iscrizione per \<nome> \<cognome> al servizio \<centro estivo/centro gioco> per l’anno \<aaaa> è scaduto il \<gg/mm/aaaa>.
+Il tuo pagamento per l’iscrizione per `<nome>` `<cognome>` al servizio `<centro estivo/centro gioco>` per l’anno `<aaaa>` è scaduto il `<gg/mm/aaaa>`.
 
 Se hai già provveduto a pagare l’avviso, ignora questo messaggio.
 
@@ -243,11 +243,11 @@ Se hai già provveduto a pagare l’avviso, ignora questo messaggio.
 
 <summary>Pagamenti insoluti</summary>
 
-**🖋 Titolo del messaggio:** Iscrizione al \<centro estivo/centro gioco> è bloccata da pagamenti insoluti
+**🖋 Titolo del messaggio:** Iscrizione al `<centro estivo/centro gioco>` è bloccata da pagamenti insoluti
 
 🗒 **Testo del messaggio**:
 
-Risultano pagamenti insoluti a carico di \<nome> \<cognome> e relative a \<causale>.
+Risultano pagamenti insoluti a carico di `<nome>` `<cognome>` e relative a `<causale>`.
 
 Per maggiori informazioni o per richiedere assistenza, contattaci tramite i canali che trovi nella scheda servizio o \[visita il sito]\(URL).
 
@@ -273,7 +273,7 @@ Per maggiori informazioni o per richiedere assistenza, contattaci tramite i cana
 
 🗒 **Testo del messaggio**:
 
-Abbiamo ricevuto la tua richiesta di rinuncia alla posizione in graduatoria di \<nome> \<cognome> per il servizio di \<centro estivo/centro gioco> per l’anno educativo \<aaaa>.
+Abbiamo ricevuto la tua richiesta di rinuncia alla posizione in graduatoria di `<nome>` `<cognome>` per il servizio di `<centro estivo/centro gioco>` per l’anno educativo `<aaaa>`.
 
 \[Inserire qui eventuali indicazioni su comunicazioni future].
 
@@ -299,11 +299,11 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio**:
 
-La tua richiesta di rinuncia al servizio di \<nome> \<cognome> per il servizio \<centro estivo/centro gioco> per l’anno \<aaaa> è arrivata oltre il termine previsto dalla domanda di iscrizione.
+La tua richiesta di rinuncia al servizio di `<nome>` `<cognome>` per il servizio `<centro estivo/centro gioco>` per l’anno `<aaaa>` è arrivata oltre il termine previsto dalla domanda di iscrizione.
 
 **Devi pagare:** <00,00> €
 
-**Entro il:** \<gg/mm/aaaa>
+**Entro il:** `<gg/mm/aaaa>`
 
 Puoi pagare direttamente in app premendo “Paga”, oppure tramite tutti i canali di pagamento della piattaforma pagoPA e le altre modalità di pagamento offerte dell'ente creditore.
 
@@ -331,7 +331,7 @@ Per maggiori informazioni o per richiedere assistenza, contattaci tramite i cana
 
 🗒 **Testo del messaggio**:
 
-La tua richiesta di rinuncia alla posizione in graduatoria di \<nome> \<cognome> per il servizio di \<centro estivo/centro gioco> per l’anno educativo \<aaaa> è stata accolta.
+La tua richiesta di rinuncia alla posizione in graduatoria di `<nome>` `<cognome>` per il servizio di `<centro estivo/centro gioco>` per l’anno educativo `<aaaa>` è stata accolta.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -357,11 +357,11 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio**:
 
-La tua richiesta di rimborso riguardante l’iscrizione per \<nome> \<cognome> al servizio \<centro estivo/centro gioco> per l’anno \<aaaa> è stata accolta.
+La tua richiesta di rimborso riguardante l’iscrizione per `<nome>` `<cognome>` al servizio `<centro estivo/centro gioco>` per l’anno `<aaaa>` è stata accolta.
 
 **Ti rimborseremo**: <00,00> €
 
-Entro il: \<gg/mm/aaaa>
+Entro il: `<gg/mm/aaaa>`
 
 **🪄 Pulsante**: n/a
 
@@ -383,7 +383,7 @@ Entro il: \<gg/mm/aaaa>
 
 🗒 **Testo del messaggio**:
 
-La richiesta di rimborso riguardante l’iscrizione per \<nome> \<cognome> al servizio \<centro estivo/centro gioco> per l’anno \<aaaa> non è stata accolta.
+La richiesta di rimborso riguardante l’iscrizione per `<nome>` `<cognome>` al servizio `<centro estivo/centro gioco>` per l’anno `<aaaa>` non è stata accolta.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -407,7 +407,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio**:
 
-Il \<gg/mm/aaaa> abbiamo emesso un rimborso per l’iscrizione per \<nome> \<cognome> al \<centro estivo/centro gioco>.
+Il `<gg/mm/aaaa>` abbiamo emesso un rimborso per l’iscrizione per `<nome>` `<cognome>` al `<centro estivo/centro gioco>`.
 
 **Ti abbiamo rimborsato:** <00,00> €
 

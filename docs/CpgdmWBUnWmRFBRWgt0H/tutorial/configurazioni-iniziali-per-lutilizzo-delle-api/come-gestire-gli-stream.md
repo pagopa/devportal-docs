@@ -40,14 +40,14 @@ curl --location 'https://<baseurlAmbiente>/delivery-progresses/v2.3/streams' \
 
 Sostituire i seguenti:
 
-* **\<baseurlAmbiente>:** inserire la url dell'ambiente di riferimento, nel caso di UAT è il seguente: **https://api.uat.notifichedigitali.it**
-* **\<apiKey>:** inserire la apiKey dell'Ente di riferimento, precedentemente generata su PND
-* **\<PDNDVoucher>:** inserire inserire il Voucher generato su **PDND Interoperabilità,** assicurandosi che non sia scaduto
-* **\<title>:** inserire un titolo da attribuire a questo stream
-* **\<groupId>:** Id del gruppo per ottenere la segregazione tra gli eventi delle notifiche che appartengono solo ai gruppi specificati
-* **\<eventType>:** inserire la tipologia di stream a scelta tra **STATUS** e **TIMELINE**&#x20;
-* **\<filterValues>:** inserire un array di eventi che verranno utilizzati come filtro. Se valorizzato con array vuoto: `DEFAULT` lo stream registrerà tutti gli eventi eventi che hanno ripercussione sul cambiamento di stato del workflow o che riportano dati di interesse per il mittente
-* **\<replacedStreamId>:** campo opzionale, serve per sostituire lo stream indicato tramite streamId da quello che verrà creato.
+* **`<baseurlAmbiente>`:** inserire la url dell'ambiente di riferimento, nel caso di UAT è il seguente: **https://api.uat.notifichedigitali.it**
+* **`<apiKey>`:** inserire la apiKey dell'Ente di riferimento, precedentemente generata su PND
+* **`<PDNDVoucher>`:** inserire inserire il Voucher generato su **PDND Interoperabilità,** assicurandosi che non sia scaduto
+* **`<title>`:** inserire un titolo da attribuire a questo stream
+* **`<groupId>`:** Id del gruppo per ottenere la segregazione tra gli eventi delle notifiche che appartengono solo ai gruppi specificati
+* **`<eventType>`:** inserire la tipologia di stream a scelta tra **STATUS** e **TIMELINE**&#x20;
+* **`<filterValues>`:** inserire un array di eventi che verranno utilizzati come filtro. Se valorizzato con array vuoto: `DEFAULT` lo stream registrerà tutti gli eventi eventi che hanno ripercussione sul cambiamento di stato del workflow o che riportano dati di interesse per il mittente
+* **`<replacedStreamId>`:** campo opzionale, serve per sostituire lo stream indicato tramite streamId da quello che verrà creato.
 
 Nella response di questo servizio, si otterrà il seguente payload:
 
@@ -68,9 +68,9 @@ Nella response di questo servizio, si otterrà il seguente payload:
 }
 ```
 
-* **\<streamId>:** id dello stream che viene autogenerato dal servizio
-* **\<activationDate>:** data di attivazione dello stream autogenerata dal servizio
-* **\<version>:** versione dello stream creato
+* **`<streamId>`:** id dello stream che viene autogenerato dal servizio
+* **`<activationDate>`:** data di attivazione dello stream autogenerata dal servizio
+* **`<version>`:** versione dello stream creato
 
 {% hint style="info" %}
 **NOTA:** Una volta creato lo stream verranno registrati tutti gli eventi emessi dalle notifiche a seguito della loro creazione, di conseguenza si consiglia di creare gli stream prima di inserire le notifiche.
@@ -91,10 +91,10 @@ curl --location 'https://<baseurlAmbiente>/delivery-progresses/v2.3/streams/<str
 
 Sostituire i seguenti:
 
-* **\<baseurlAmbiente>:** inserire la url dell'ambiente di riferimento, nel caso di UAT è il seguente: **https://api.uat.notifichedigitali.it**
-* **\<apiKey>:** inserire la apiKey dell'Ente di riferimento, precedentemente generata su PND
-* **\<PDNDVoucher>:** inserire inserire il Voucher generato su **PDND Interoperabilità,** assicurandosi che non sia scaduto
-* **\<streamId>:** inserire l'id dello stream che si vuole interrogare
+* **`<baseurlAmbiente>`:** inserire la url dell'ambiente di riferimento, nel caso di UAT è il seguente: **https://api.uat.notifichedigitali.it**
+* **`<apiKey>`:** inserire la apiKey dell'Ente di riferimento, precedentemente generata su PND
+* **`<PDNDVoucher>`:** inserire inserire il Voucher generato su **PDND Interoperabilità,** assicurandosi che non sia scaduto
+* **`<streamId>`:** inserire l'id dello stream che si vuole interrogare
 
 Nella response di questo servizio, si otterrà il seguente payload che rappresenta tutti gli eventi:
 
@@ -160,11 +160,11 @@ curl --location 'https://<baseurlAmbiente>/delivery-progresses/v2.3/streams/<str
 
 Sostituire i seguenti:
 
-* **\<baseurlAmbiente>:** inserire la url dell'ambiente di riferimento, nel caso di UAT è il seguente: **https://api.uat.notifichedigitali.it**
-* **\<apiKey>:** inserire la apiKey dell'Ente di riferimento, precedentemente generata su PND
-* **\<PDNDVoucher>:** inserire inserire il Voucher generato su **PDND Interoperabilità,** assicurandosi che non sia scaduto
-* **\<streamId>:** inserire l'id dello stream che si vuole interrogare
-* **\<lastEventId>:** inserire l'eventId dell'ultimo evento ottenuto nella precedente chiamata
+* **`<baseurlAmbiente>`:** inserire la url dell'ambiente di riferimento, nel caso di UAT è il seguente: **https://api.uat.notifichedigitali.it**
+* **`<apiKey>`:** inserire la apiKey dell'Ente di riferimento, precedentemente generata su PND
+* **`<PDNDVoucher>`:** inserire inserire il Voucher generato su **PDND Interoperabilità,** assicurandosi che non sia scaduto
+* **`<streamId>`:** inserire l'id dello stream che si vuole interrogare
+* **`<lastEventId>`:** inserire l'eventId dell'ultimo evento ottenuto nella precedente chiamata
 
 Gli eventi ottenuti dovranno essere memorizzati dal client poichè nelle successive chiamate i risultati ottenuti verranno consumati e cancellati dallo stream per lasciare il posto agli eventi successivi.
 
@@ -196,21 +196,21 @@ Nel campo **groups** dovranno essere inseriti uno o più gruppi tramite il l'id 
 
 Sostituire i seguenti:
 
-* **\<baseurlAmbiente>:** inserire la url dell'ambiente di riferimento, nel caso di UAT è il seguente: **https://api.uat.notifichedigitali.it**
-* **\<apiKey>:** inserire la apiKey dell'Ente di riferimento, precedentemente generata su PND
-* **\<PDNDVoucher>:** inserire inserire il Voucher generato su **PDND Interoperabilità,** assicurandosi che non sia scaduto
-* **\<title>:** inserire un titolo da attribuire a questo stream
-* **\<groupId>:** Id del gruppo per ottenere la segregazione tra gli eventi delle notifiche che appartengono solo ai gruppi specificati
-* **\<eventType>:** inserire la tipologia di stream a scelta tra **STATUS** e **TIMELINE**
-* **\<filterValues>:** inserire un array di eventi che verranno utilizzati come filtro. Se valorizzato con array vuoto: `DEFAULT` lo stream registrerà tutti gli eventi eventi che hanno ripercussione sul cambiamento di stato del workflow o che riportano dati di interesse per il mittente
-* **\<replacedStreamId>:** campo opzionale, serve per sostituire lo stream indicato tramite streamId da quello che verrà creato.
+* **`<baseurlAmbiente>`:** inserire la url dell'ambiente di riferimento, nel caso di UAT è il seguente: **https://api.uat.notifichedigitali.it**
+* **`<apiKey>`:** inserire la apiKey dell'Ente di riferimento, precedentemente generata su PND
+* **`<PDNDVoucher>`:** inserire inserire il Voucher generato su **PDND Interoperabilità,** assicurandosi che non sia scaduto
+* **`<title>`:** inserire un titolo da attribuire a questo stream
+* **`<groupId>`:** Id del gruppo per ottenere la segregazione tra gli eventi delle notifiche che appartengono solo ai gruppi specificati
+* **`<eventType>`:** inserire la tipologia di stream a scelta tra **STATUS** e **TIMELINE**
+* **`<filterValues>`:** inserire un array di eventi che verranno utilizzati come filtro. Se valorizzato con array vuoto: `DEFAULT` lo stream registrerà tutti gli eventi eventi che hanno ripercussione sul cambiamento di stato del workflow o che riportano dati di interesse per il mittente
+* **`<replacedStreamId>`:** campo opzionale, serve per sostituire lo stream indicato tramite streamId da quello che verrà creato.
 
 Nella response di questo servizio, si otterrà il seguente payload:
 
 <figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
-* **\<streamId>:** id dello stream che viene autogenerato dal servizio
-* **\<activationDate>:** data di attivazione dello stream autogenerata dal servizio
+* **`<streamId>`:** id dello stream che viene autogenerato dal servizio
+* **`<activationDate>`:** data di attivazione dello stream autogenerata dal servizio
 
 {% hint style="info" %}
 **NOTA:** Una volta creata la stream verranno registrati tutti gli eventi emessi dalle notifiche a seguito della loro creazione, di conseguenza si consiglia di creare le stream prima di inserire le notifiche.
@@ -224,8 +224,8 @@ La prima interrogazione dello stream permetterà di ricevere i primi 50 eventi r
 
 Sostituire i seguenti:
 
-* **\<baseurl>:** inserire la url dell'ambiente di riferimento, nel caso di UAT è il seguente: **https://api.uat.notifichedigitali.it**
-* **\<streamId>:** inserire l'id dello stream che si vuole interrogare
+* **`<baseurl>`:** inserire la url dell'ambiente di riferimento, nel caso di UAT è il seguente: **https://api.uat.notifichedigitali.it**
+* **`<streamId>`:** inserire l'id dello stream che si vuole interrogare
 
 Nella response di questo servizio, si otterrà il seguente payload che rappresenta tutti gli eventi:
 
@@ -255,9 +255,9 @@ Aprire la scheda **Leggi progressi notifiche** e riprodurre questa configurazion
 
 Sostituire i seguenti:
 
-* **\<baseurlAmbiente>:** inserire la url dell'ambiente di riferimento, nel caso di UAT è il seguente: **https://api.uat.notifichedigitali.it**
-* **\<streamId>:** inserire l'id dello stream che si vuole interrogare
-* **\<lastEventId>:** inserire l'eventId dell'ultimo evento ottenuto nella precedente chiamata
+* **`<baseurlAmbiente>`:** inserire la url dell'ambiente di riferimento, nel caso di UAT è il seguente: **https://api.uat.notifichedigitali.it**
+* **`<streamId>`:** inserire l'id dello stream che si vuole interrogare
+* **`<lastEventId>`:** inserire l'eventId dell'ultimo evento ottenuto nella precedente chiamata
 
 Gli eventi ottenuti dovranno essere memorizzati dal client poichè nelle successive chiamate i risultati ottenuti verranno consumati e cancellati dallo stream per lasciare il posto agli eventi successivi.
 

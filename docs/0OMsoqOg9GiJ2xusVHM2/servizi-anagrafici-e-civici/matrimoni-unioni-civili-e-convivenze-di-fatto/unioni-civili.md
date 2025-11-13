@@ -22,11 +22,11 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 🗒 **Testo del messaggio:**
 
-Hai prenotato un appuntamento per \<oggetto dell’appuntamento>.
+Hai prenotato un appuntamento per `<oggetto dell’appuntamento>`.
 
-Dove: \<indirizzo>
+Dove: `<indirizzo>`
 
-Quando: \<gg/mm/aaaa> alle \<hh:mm>
+Quando: `<gg/mm/aaaa>` alle `<hh:mm>`
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -52,9 +52,9 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio:** Siamo lieti di confermare la data di celebrazione della vostra unione civile!
 
-Dove: \<indirizzo>
+Dove: `<indirizzo>`
 
-Quando: \<gg/mm/aaaa> alle \<hh:mm>
+Quando: `<gg/mm/aaaa>` alle `<hh:mm>`
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -80,9 +80,9 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio:**
 
-Ti confermiamo che \<Nome> \<Cognome> sarà il celebrante della vostra unione civile.
+Ti confermiamo che `<Nome>` `<Cognome>` sarà il celebrante della vostra unione civile.
 
-\<Nome> \<Cognome> dovrà recarsi presso \<denominazione ufficio> entro il \<gg/mm/aaaa> per depositare la propria firma.
+`<Nome>` `<Cognome>` dovrà recarsi presso `<denominazione ufficio>` entro il `<gg/mm/aaaa>` per depositare la propria firma.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -106,7 +106,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio:**
 
-Purtroppo, \<Nome> \<Cognome> non potrà celebrare la vostra unione civile.
+Purtroppo, `<Nome>` `<Cognome>` non potrà celebrare la vostra unione civile.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -130,9 +130,9 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio:**
 
-Ti confermiamo che il \<gg/mm/aaaa> celebrerai l’unione civile di \<Nome> \<Cognome> e \<Nome> \<Cognome>.
+Ti confermiamo che il `<gg/mm/aaaa>` celebrerai l’unione civile di `<Nome>` `<Cognome>` e `<Nome>` `<Cognome>`.
 
-**Dove**: \<indirizzo>
+**Dove**: `<indirizzo>`
 
 **Quando:** \[Inserire qui i giorni e gli orari di apertura dello sportello]
 
@@ -160,7 +160,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio:**
 
-Per elaborare la richiesta di costituzione di unione civile abbiamo bisogno di ricevere entro il \<gg/mm/aaaa> altri documenti.
+Per elaborare la richiesta di costituzione di unione civile abbiamo bisogno di ricevere entro il `<gg/mm/aaaa>` altri documenti.
 
 Consulta il riepilogo della tua richiesta, \[visita questo sito]\(URL).
 

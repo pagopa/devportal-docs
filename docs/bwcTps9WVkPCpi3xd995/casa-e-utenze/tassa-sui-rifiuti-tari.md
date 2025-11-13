@@ -31,9 +31,9 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 <summary>Dichiarazione di occupazione</summary>
 
-**🖋 Titolo del messaggio:** Dichiarazione di \<inizio/variazione> occupazione immobile
+**🖋 Titolo del messaggio:** Dichiarazione di `<inizio/variazione>` occupazione immobile
 
-🗒 **Testo del messaggio**: Ti diamo il benvenuto nel Comune di \<Comune>.
+🗒 **Testo del messaggio**: Ti diamo il benvenuto nel Comune di `<Comune>`.
 
 Ricevi questo messaggio perché potresti avere recentemente cambiato residenza, acquistato un immobile o sottoscritto un contratto di affitto.
 
@@ -61,11 +61,11 @@ Inoltre, se vuoi conoscere meglio il servizio offerto \[visita questo sito]\(URL
 
 **🖋 Titolo del messaggio:** La tua dichiarazione è stata accolta
 
-🗒 **Testo del messaggio**: Abbiamo ricevuto la tua dichiarazione di \<inizio/variazione> occupazione di un immobile. Ecco i dettagli:
+🗒 **Testo del messaggio**: Abbiamo ricevuto la tua dichiarazione di `<inizio/variazione>` occupazione di un immobile. Ecco i dettagli:
 
-**Indirizzo**: \<indirizzo> - \<piano ed interno immobile>\
-**Occupato da**: \<nome cognome>\
-**A partire dal**: \<gg/mm/aa>
+**Indirizzo**: `<indirizzo>` - `<piano ed interno immobile>`\
+**Occupato da**: `<nome cognome>`\
+**A partire dal**: `<gg/mm/aa>`
 
 \[A questo sito]\(URL) trovi maggiori informazioni su come funziona il calcolo TARI e sulle eventuali esenzioni di cui puoi beneficiare.
 
@@ -95,11 +95,11 @@ Quando il pagamento è suddiviso per rate e l'ente vuole permettere al cittadino
 
 **🖋 Titolo del messaggio:** Nuovo avviso di pagamento
 
-🗒 **Testo del messaggio**: C'è un avviso da pagare intestato a \<nome cognome> e relativo alla \<rata unica/prima rata/seconda rata> della Tassa sui rifiuti (TARI) per l'immobile situato in \<indirizzo> - \<piano ed interno immobile>.
+🗒 **Testo del messaggio**: C'è un avviso da pagare intestato a `<nome cognome>` e relativo alla `<rata unica/prima rata/seconda rata>` della Tassa sui rifiuti (TARI) per l'immobile situato in `<indirizzo>` - `<piano ed interno immobile>`.
 
 **Devi pagare**: <00,00> €
 
-**Entro il**: \<gg/mm/aaaa>
+**Entro il**: `<gg/mm/aaaa>`
 
 Puoi pagare direttamente in app premendo “Paga”, oppure tramite tutti i canali di pagamento della piattaforma pagoPA e le altre modalità di pagamento offerte dell'ente creditore.
 
@@ -129,7 +129,7 @@ In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio p
 
 🗒 **Testo del messaggio:**
 
-Il tuo pagamento per \<causale> sta per scadere.
+Il tuo pagamento per `<causale>` sta per scadere.
 
 Se hai già provveduto a pagare l’avviso, ignora questo messaggio.
 
@@ -161,7 +161,7 @@ Quando il pagamento è suddiviso per rate e l'ente vuole comunicare al cittadino
 
 🗒 **Testo del messaggio**:
 
-Dal \<gg/mm/aaaa> sarà possibile pagare la Tassa sui rifiuti (TARI) intestato a \<nome cognome> per l'immobile situato in \<indirizzo> - \<piano ed interno immobile>.
+Dal `<gg/mm/aaaa>` sarà possibile pagare la Tassa sui rifiuti (TARI) intestato a `<nome cognome>` per l'immobile situato in `<indirizzo>` - `<piano ed interno immobile>`.
 
 \[Solo per messaggi con allegato] Trovi i pagamenti previsti in allegato a questo messaggio.
 
@@ -169,7 +169,7 @@ Per avere maggiori informazioni sul pagamento, \[visita il sito]\(URL).
 
 **🪄 Pulsante**: n/a
 
-**📎&#x20;**<mark style="color:blue;">**Allegato:**</mark> \<documento con gli avvisi di pagamento delle rate previste>
+**📎&#x20;**<mark style="color:blue;">**Allegato:**</mark> `<documento con gli avvisi di pagamento delle rate previste>`
 
 ***
 
@@ -193,11 +193,11 @@ Per avere maggiori informazioni sul pagamento, \[visita il sito]\(URL).
 
 **🖋 Titolo del messaggio:** Proroga scadenza del pagamento
 
-🗒 **Testo del messaggio**: È stata prorogata la data di scadenza dell'avviso intestato a \<nome cognome> e relativo a \<casuale>.
+🗒 **Testo del messaggio**: È stata prorogata la data di scadenza dell'avviso intestato a `<nome cognome>` e relativo a `<casuale>`.
 
 **Devi pagare**: <00,00> €
 
-**Entro il**: \<gg/mm/aaaa>
+**Entro il**: `<gg/mm/aaaa>`
 
 Puoi pagare direttamente in app premendo “Paga”, oppure tramite tutti i canali di pagamento della piattaforma pagoPA e le altre modalità di pagamento offerte dell'ente creditore.
 

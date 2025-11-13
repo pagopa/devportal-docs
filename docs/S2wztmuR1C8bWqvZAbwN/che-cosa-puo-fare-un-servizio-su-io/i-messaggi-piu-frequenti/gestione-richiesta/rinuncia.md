@@ -68,11 +68,11 @@ Se la rinuncia fuori termine prevede un pagamento:&#x20;
 
 🗒 **Testo del messaggio**:&#x20;
 
-C'è un avviso da pagare intestato a \<nome e cognome> e relativo a \<causale>. &#x20;
+C'è un avviso da pagare intestato a `<nome e cognome>` e relativo a `<causale>`. &#x20;
 
 **Devi pagare**: <00,00> €&#x20;
 
-**Entro il**: \<gg/mm/aaaa> &#x20;
+**Entro il**: `<gg/mm/aaaa>` &#x20;
 
 Puoi pagare direttamente in app premendo "Paga”, oppure tramite tutti i canali di pagamento della piattaforma pagoPA e le altre modalità di pagamento offerte dell’ente creditore.
 

@@ -36,12 +36,12 @@ curl --location 'https://<baseurlAmbiente>/delivery-progresses/streams' \
 
 **NOTA:** sostituire i seguenti:
 
-* **\<baseurlAmbiente>:** inserire la url dell'ambiente di riferimento, nel caso di UAT è il seguente: **https://api.uat.notifichedigitali.it**
-* **\<apiKey>:** inserire la apiKey dell'Ente di riferimento, precedentemente generata su PND
-* **\<PDNDVoucher>:** inserire inserire il Voucher generato su **PDND Interoperabilità,** assicurandosi che non sia scaduto
-* **\<title>:** inserire un titolo da attribuire a questo stream
-* **\<eventType>:** inserire la tipologia di stream a scelta tra **STATUS** e **TIMELINE**&#x20;
-* **\<filterValues>:** inserire un array di eventi che verranno utilizzati come filtro. Se valorizzato con array vuoto: `[]` lo stream registrerà tutti gli eventi.
+* **`<baseurlAmbiente>`:** inserire la url dell'ambiente di riferimento, nel caso di UAT è il seguente: **https://api.uat.notifichedigitali.it**
+* **`<apiKey>`:** inserire la apiKey dell'Ente di riferimento, precedentemente generata su PND
+* **`<PDNDVoucher>`:** inserire inserire il Voucher generato su **PDND Interoperabilità,** assicurandosi che non sia scaduto
+* **`<title>`:** inserire un titolo da attribuire a questo stream
+* **`<eventType>`:** inserire la tipologia di stream a scelta tra **STATUS** e **TIMELINE**&#x20;
+* **`<filterValues>`:** inserire un array di eventi che verranno utilizzati come filtro. Se valorizzato con array vuoto: `[]` lo stream registrerà tutti gli eventi.
 
 Nella response di questo servizio, si otterrà il seguente payload:
 
@@ -55,8 +55,8 @@ Nella response di questo servizio, si otterrà il seguente payload:
 }
 ```
 
-* **\<streamId>:** id dello stream che viene autogenerato dal servizio
-* **\<activationDate>:** data di attivazione dello stream autogenerata dal servizio
+* **`<streamId>`:** id dello stream che viene autogenerato dal servizio
+* **`<activationDate>`:** data di attivazione dello stream autogenerata dal servizio
 
 **NOTA:** Una volta creata la stream verranno registrati tutti gli eventi emessi dalle notifiche a seguito della loro creazione, di conseguenza si consiglia di creare le stream prima di inserire le notifiche.
 
@@ -75,10 +75,10 @@ curl --location 'https://<baseurlAmbiente>/delivery-progresses/streams/<streamId
 
 **NOTA:** sostituire i seguenti:
 
-* **\<baseurlAmbiente>:** inserire la url dell'ambiente di riferimento, nel caso di UAT è il seguente: **https://api.uat.notifichedigitali.it**
-* **\<apiKey>:** inserire la apiKey dell'Ente di riferimento, precedentemente generata su PND
-* **\<PDNDVoucher>:** inserire inserire il Voucher generato su **PDND Interoperabilità,** assicurandosi che non sia scaduto
-* **\<streamId>:** inserire l'id dello stream che si vuole interrogare
+* **`<baseurlAmbiente>`:** inserire la url dell'ambiente di riferimento, nel caso di UAT è il seguente: **https://api.uat.notifichedigitali.it**
+* **`<apiKey>`:** inserire la apiKey dell'Ente di riferimento, precedentemente generata su PND
+* **`<PDNDVoucher>`:** inserire inserire il Voucher generato su **PDND Interoperabilità,** assicurandosi che non sia scaduto
+* **`<streamId>`:** inserire l'id dello stream che si vuole interrogare
 
 Nella response di questo servizio, si otterrà il seguente payload che rappresenta tutti gli eventi:
 
@@ -137,11 +137,11 @@ curl --location 'https://<baseurlAmbiente>/delivery-progresses/streams/<streamId
 
 **NOTA:** sostituire i seguenti:
 
-* **\<baseurlAmbiente>:** inserire la url dell'ambiente di riferimento, nel caso di UAT è il seguente: **https://api.uat.notifichedigitali.it**
-* **\<apiKey>:** inserire la apiKey dell'Ente di riferimento, precedentemente generata su PND
-* **\<PDNDVoucher>:** inserire inserire il Voucher generato su **PDND Interoperabilità,** assicurandosi che non sia scaduto
-* **\<streamId>:** inserire l'id dello stream che si vuole interrogare
-* **\<lastEventId>:** inserire l'eventId dell'ultimo evento ottenuto nella precedente chiamata
+* **`<baseurlAmbiente>`:** inserire la url dell'ambiente di riferimento, nel caso di UAT è il seguente: **https://api.uat.notifichedigitali.it**
+* **`<apiKey>`:** inserire la apiKey dell'Ente di riferimento, precedentemente generata su PND
+* **`<PDNDVoucher>`:** inserire inserire il Voucher generato su **PDND Interoperabilità,** assicurandosi che non sia scaduto
+* **`<streamId>`:** inserire l'id dello stream che si vuole interrogare
+* **`<lastEventId>`:** inserire l'eventId dell'ultimo evento ottenuto nella precedente chiamata
 
 Gli eventi ottenuti dovranno essere memorizzati dal client poichè nelle successive chiamate i risultati ottenuti verranno consumati e cancellati dallo stream per lasciare il posto agli eventi successivi.
 

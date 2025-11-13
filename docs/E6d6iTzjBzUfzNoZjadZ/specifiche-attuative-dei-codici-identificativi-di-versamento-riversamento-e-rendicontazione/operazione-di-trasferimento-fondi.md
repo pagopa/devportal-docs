@@ -14,14 +14,14 @@ La Tabella 3 indica come valorizzare gli attributi dello schema di un SCT:
 
 Legenda:
 
-* \<prog>_:_ è un progressivo ad una cifra compreso fra 0 e 9, con
+* `<prog>`_:_ è un progressivo ad una cifra compreso fra 0 e 9, con
   * 0 -> SCT legato al Flusso di Rendicontazione ordinario;
   * 1-9 -> SCT straordinari nella giornata a seguito di Flussi di Rendicontazione integrativi o di recupero in seguito ad anomalie tecniche;
-* \<Importo>: importo totale SCT, ovvero la somma dei singoli importi delle transazioni inserite nel Flusso di Rendicontazione associato, identificabile tramite \<identificativoFlusso>;
-* \<IBAN Beneficiario>: Il PSP attinge tale dato dalle richieste di pagamento eseguite;
-* \<Codice Fiscale Beneficiario>: Il PSP attinge tale dato dalle richieste di pagamento eseguite;
-* \<identificativoFlusso>: specifica il dato relativo all’informazione identificativoFlusso presente nel flusso di rendicontazione descritto nel successivo [flusso-di-rendicontazione.md](flusso-di-rendicontazione.md "mention");
-* \<EndToEndID>: riferimento assegnato dal PSP all’operazione di trasferimento fondi.
+* `<Importo>`: importo totale SCT, ovvero la somma dei singoli importi delle transazioni inserite nel Flusso di Rendicontazione associato, identificabile tramite `<identificativoFlusso>`;
+* `<IBAN Beneficiario>`: Il PSP attinge tale dato dalle richieste di pagamento eseguite;
+* `<Codice Fiscale Beneficiario>`: Il PSP attinge tale dato dalle richieste di pagamento eseguite;
+* `<identificativoFlusso>`: specifica il dato relativo all’informazione identificativoFlusso presente nel flusso di rendicontazione descritto nel successivo [flusso-di-rendicontazione.md](flusso-di-rendicontazione.md "mention");
+* `<EndToEndID>`: riferimento assegnato dal PSP all’operazione di trasferimento fondi.
 
 Alcune precisazioni:
 

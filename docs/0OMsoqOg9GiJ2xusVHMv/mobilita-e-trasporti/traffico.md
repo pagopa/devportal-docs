@@ -31,11 +31,11 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 <summary>Modifica della viabilità per un giorno</summary>
 
-**🖋 Titolo del messaggio:** Modifica viabilità in \<via/piazza/quartiere>
+**🖋 Titolo del messaggio:** Modifica viabilità in `<via/piazza/quartiere>`
 
 🗒 **Testo del messaggio**:&#x20;
 
-Il \<gg/mm/aaaa> dalle \<hh:mm> alle \<hh:mm>, la viabilità di \<via/piazza/quartiere> subirà queste variazioni:&#x20;
+Il `<gg/mm/aaaa>` dalle `<hh:mm>` alle `<hh:mm>`, la viabilità di `<via/piazza/quartiere>` subirà queste variazioni:&#x20;
 
 \[Inserire qui indicazioni sulle variazioni alla viabilità, da completare a cura e responsabilità dell'ente]
 
@@ -57,11 +57,11 @@ Per leggere l’ordinanza completa, \[visita questo sito]\(URL).
 
 <summary>Modifica della viabilità per periodo</summary>
 
-**🖋 Titolo del messaggio:** Modifica viabilità in \<via/piazza/quartiere>
+**🖋 Titolo del messaggio:** Modifica viabilità in `<via/piazza/quartiere>`
 
 🗒 **Testo del messaggio**:&#x20;
 
-Dal \<gg/mm/aaaa> al \<gg/mm/aaaa> la viabilità di \<via/piazza/quartiere> subirà queste variazioni: &#x20;
+Dal `<gg/mm/aaaa>` al `<gg/mm/aaaa>` la viabilità di `<via/piazza/quartiere>` subirà queste variazioni: &#x20;
 
 \[Inserire qui indicazioni sulle variazioni alla viabilità, da completare a cura e responsabilità dell'ente]
 
@@ -93,7 +93,7 @@ Per leggere l’ordinanza completa, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio**:&#x20;
 
-Per elaborare la tua richiesta di modifica alla viabilità, abbiamo bisogno di ricevere entro il \<gg/mm/aaaa> altri documenti.
+Per elaborare la tua richiesta di modifica alla viabilità, abbiamo bisogno di ricevere entro il `<gg/mm/aaaa>` altri documenti.
 
 Per aggiungere i documenti alla tua richiesta, \[visita questo sito]\(URL).
 
@@ -145,7 +145,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 La tua richiesta di modifica alla viabilità non è stata accolta.
 
-Per maggiori informazioni, contatta \<denominazione ufficio> tramite \<canale>.
+Per maggiori informazioni, contatta `<denominazione ufficio>` tramite `<canale>`.
 
 **🪄 Pulsante**: n/a
 
@@ -173,11 +173,11 @@ Per maggiori informazioni, contatta \<denominazione ufficio> tramite \<canale>.
 
 🗒 **Testo del messaggio**:\
 \
-C'è un avviso da pagare intestato a \<nome cognome> e relativo a \<causale>.
+C'è un avviso da pagare intestato a `<nome cognome>` e relativo a `<causale>`.
 
 **Devi pagare:** <00,00> €
 
-**Entro il:** \<gg/mm/aaaa>
+**Entro il:** `<gg/mm/aaaa>`
 
 Puoi pagare direttamente in app premendo “Paga”, oppure tramite tutti i canali di pagamento della piattaforma pagoPA e le altre modalità di pagamento offerte dell'ente creditore.
 
@@ -207,7 +207,7 @@ In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio p
 
 🗒 **Testo del messaggio**:&#x20;
 
-Risultano pagamenti insoluti a carico di \<nome e cognome> e relative a \<causale>.
+Risultano pagamenti insoluti a carico di `<nome e cognome>` e relative a `<causale>`.
 
 Per maggiori informazioni o per richiedere assistenza, contattaci tramite i canali che trovi nella scheda servizio.
 
@@ -239,7 +239,7 @@ Gli utenti che hanno dato il loro consenso, infatti, riceveranno automaticamente
 
 🗒 **Testo del messaggio**:&#x20;
 
-Il tuo pagamento per \<causale> sta per scadere.
+Il tuo pagamento per `<causale>` sta per scadere.
 
 Se hai già provveduto a pagare l’avviso, ignora questo messaggio.
 
@@ -269,7 +269,7 @@ Il seguente messaggio serve a sollecitare il cittadino per il mancato pagamento 
 
 🗒 **Testo del messaggio**:&#x20;
 
-Il tuo pagamento per \<causale> è scaduto il \<gg/mm/aaaa>.
+Il tuo pagamento per `<causale>` è scaduto il `<gg/mm/aaaa>`.
 
 Se hai già provveduto a pagare l’avviso ignora questo messaggio.
 
@@ -295,7 +295,7 @@ Se hai già provveduto a pagare l’avviso ignora questo messaggio.
 
 🗒 **Testo del messaggio**:&#x20;
 
-Il \<gg/mm/aaaa> abbiamo pubblicato l’ordinanza di modifica alla viabilità da te richiesta.
+Il `<gg/mm/aaaa>` abbiamo pubblicato l’ordinanza di modifica alla viabilità da te richiesta.
 
 Per vedere i dettagli dell’ordinanza, \[visita questo sito]\(URL).
 

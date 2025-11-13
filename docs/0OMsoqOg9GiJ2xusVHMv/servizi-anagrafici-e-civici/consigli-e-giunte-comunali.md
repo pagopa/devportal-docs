@@ -37,13 +37,13 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 🗒 **Testo del messaggio**:&#x20;
 
-Sei \<convocato/convocata> alla prossima seduta \<riferimenti seduta> del Consiglio comunale.
+Sei `<convocato/convocata>` alla prossima seduta `<riferimenti seduta>` del Consiglio comunale.
 
 Per consultare l’ordine del giorno, \[visita questa pagina]\(URL).
 
-**Quando**: \<gg/mm/aaaa> dalle \<hh:mm> alle \<hh:mm>
+**Quando**: `<gg/mm/aaaa>` dalle `<hh:mm>` alle `<hh:mm>`
 
-**Dove**: \<sala>; \<piano>; \<indirizzo>
+**Dove**: `<sala>`; `<piano>`; `<indirizzo>`
 
 Se non puoi partecipare, comunicalo all'ente tramite \[questo sito]\(URL).&#x20;
 
@@ -67,7 +67,7 @@ Se non puoi partecipare, comunicalo all'ente tramite \[questo sito]\(URL).&#x20;
 
 🗒 **Testo del messaggio:**
 
-Il \<gg/mm/aaaa> si svolgerà la seduta \<riferimenti seduta> del Consiglio comunale.
+Il `<gg/mm/aaaa>` si svolgerà la seduta `<riferimenti seduta>` del Consiglio comunale.
 
 Puoi partecipare come osservatore o osservatrice.
 
@@ -75,9 +75,9 @@ Per consultare l’ordine del giorno, \[visita questa pagina]\(URL).
 
 La seduta sarà trasmessa anche in diretta streaming \[su questo sito]\(URL).
 
-**Quando:** \<gg/mm/aaaa> dalle \<hh:mm> alle \<hh:mm>
+**Quando:** `<gg/mm/aaaa>` dalle `<hh:mm>` alle `<hh:mm>`
 
-**Dove:** \<sala>; \<piano>; \<edificio>; \<indirizzo>
+**Dove:** `<sala>`; `<piano>`; `<edificio>`; `<indirizzo>`
 
 Per richiedere l’autorizzazione a produrre foto e riprese audio/video \[visita questo sito]\(URL).
 
@@ -101,12 +101,12 @@ Per richiedere l’autorizzazione a produrre foto e riprese audio/video \[visita
 
 🗒 **Testo del messaggio:**
 
-Nel \<mese di mm/periodo> si svolgeranno le seguenti sedute del Consiglio comunale:
+Nel `<mese di mm/periodo>` si svolgeranno le seguenti sedute del Consiglio comunale:
 
 \[Inserire qui elenco delle date nel seguente modo:
 
-* &#x20;\<gg/mm/aaaa> alle \<hh:mm>, \<riferimenti seduta>
-* &#x20;\<gg/mm/aaaa> alle \<hh:mm>, \<riferimenti seduta>]
+* &#x20;`<gg/mm/aaaa>` alle `<hh:mm>`, `<riferimenti seduta>`
+* &#x20;`<gg/mm/aaaa>` alle `<hh:mm>`, `<riferimenti seduta>`]
 
 Puoi partecipare come osservatore o osservatrice.
 
@@ -114,7 +114,7 @@ Per consultare l’ordine del giorno, \[visita questa pagina]\(URL).
 
 Le sedute saranno trasmesse anche in diretta streaming \[su questo sito]\(URL).
 
-**Dove:** \<sala>; \<piano>; \<edificio>; \<indirizzo>
+**Dove:** `<sala>`; `<piano>`; `<edificio>`; `<indirizzo>`
 
 Per richiedere l’autorizzazione a produrre foto e riprese audio/video \[visita questo sito]\(URL).
 
@@ -140,7 +140,7 @@ Per richiedere l’autorizzazione a produrre foto e riprese audio/video \[visita
 
 🗒 **Testo del messaggio:**
 
-La tua richiesta di autorizzazione per foto e riprese audio/video della seduta del Consiglio comunale \<riferimenti seduta> del \<gg/mm/aaaa> è stata accolta.
+La tua richiesta di autorizzazione per foto e riprese audio/video della seduta del Consiglio comunale `<riferimenti seduta>` del `<gg/mm/aaaa>` è stata accolta.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -164,7 +164,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio:**
 
-La tua richiesta di autorizzazione per foto e riprese audio/video della seduta del Consiglio comunale \<riferimenti seduta> del \<gg/mm/aaaa> non è stata accolta.
+La tua richiesta di autorizzazione per foto e riprese audio/video della seduta del Consiglio comunale `<riferimenti seduta>` del `<gg/mm/aaaa>` non è stata accolta.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -194,11 +194,11 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio:**
 
-Il giorno \<gg/mm/aaaa> è stata convocata la seduta \<riferimenti seduta> del Consiglio comunale.
+Il giorno `<gg/mm/aaaa>` è stata convocata la seduta `<riferimenti seduta>` del Consiglio comunale.
 
-**Quando:** \<gg/mm/aaaa> dalle \<hh:mm> alle \<hh:mm>
+**Quando:** `<gg/mm/aaaa>` dalle `<hh:mm>` alle `<hh:mm>`
 
-**Dove:** \<sala>; \<piano>; \<edificio>; \<indirizzo>
+**Dove:** `<sala>`; `<piano>`; `<edificio>`; `<indirizzo>`
 
 Se non puoi partecipare, comunicalo all'ente tramite \[questo sito]\(URL).&#x20;
 
@@ -224,7 +224,7 @@ Se non puoi partecipare, comunicalo all'ente tramite \[questo sito]\(URL).&#x20;
 
 🗒 **Testo del messaggio:**
 
-Il \<gg/mm/aaaa> si svolgerà la seduta \<riferimenti seduta> del Consiglio comunale.
+Il `<gg/mm/aaaa>` si svolgerà la seduta `<riferimenti seduta>` del Consiglio comunale.
 
 Segui la diretta streaming \[su questo sito]\(URL).
 
@@ -246,13 +246,13 @@ Segui la diretta streaming \[su questo sito]\(URL).
 
 <summary>Esito della seduta</summary>
 
-**🖋 Titolo del messaggio:** Esito della seduta \<del Consiglio/della Giunta> comunale
+**🖋 Titolo del messaggio:** Esito della seduta `<del Consiglio/della Giunta>` comunale
 
 🗒 **Testo del messaggio:**
 
-Il \<gg/mm/aaaa> si è svolta la seduta \<riferimenti seduta> \<del Consiglio/della Giunta> comunale.
+Il `<gg/mm/aaaa>` si è svolta la seduta `<riferimenti seduta>` `<del Consiglio/della Giunta>` comunale.
 
-Per consultare \<gli esiti/ le delibere> della seduta, \[visita questo sito]\(URL).
+Per consultare `<gli esiti/ le delibere>` della seduta, \[visita questo sito]\(URL).
 
 **🪄 Pulsante:** n/a
 

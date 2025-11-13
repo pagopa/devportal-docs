@@ -18,13 +18,13 @@ openapi-generator-cli generate -i <urlFileSwagger> -g <lang> -o <dest>
 
 sostituendo:
 
-* **\<urlFileSwagger>:** con la url del file Swagger del quale si vuole generare il client. E' possibile utilizzare:
+* **`<urlFileSwagger>`:** con la url del file Swagger del quale si vuole generare il client. E' possibile utilizzare:
   * per la pagina API B2B per le Pubbliche Amministrazioni:&#x20;
     * [https://raw.githubusercontent.com/pagopa/pn-delivery/main/docs/openapi/api-external-b2b-pa-bundle.yaml](https://raw.githubusercontent.com/pagopa/pn-delivery/main/docs/openapi/api-external-b2b-pa-bundle.yaml)
   * per la pagina API B2B Avanzamento Notifiche:
     * [https://raw.githubusercontent.com/pagopa/pn-delivery-push/main/docs/openapi/api-external-b2b-webhook-bundle.yaml](https://raw.githubusercontent.com/pagopa/pn-delivery-push/main/docs/openapi/api-external-b2b-webhook-bundle.yaml)
-* **\<lang>:** con il linguaggio per il quale si vuole generare il client
-* **\<dest>:** con il path nel quale si vuole generare il client
+* **`<lang>`:** con il linguaggio per il quale si vuole generare il client
+* **`<dest>`:** con il path nel quale si vuole generare il client
 
 ### Client b2b Java
 

@@ -49,13 +49,13 @@ curl --location 'https://api.uat.notifichedigitali.it/delivery/attachments/prelo
 
 **NOTA:** sostituire i seguenti:
 
-* **\<baseurlAmbiente>:** inserire la url dell'ambiente di riferimento, nel caso di UAT è il seguente: [**api.uat.notifichedigitali.it**](https://api.uat.notifichedigitali.it)
-* **\<apiKey>:** inserire la apiKey dell'Ente di riferimento, precedentemente generata su PND
-* **\<PDNDVoucher>:** inserire inserire il Voucher generato su **PDND Interoperabilità,** assicurandosi che non sia scaduto
-* **\<shaDellaNotifica>:** è lo sha256 della Notifica che si ottiene come output al punto 1.1
-* **\<shaDelPagamento>:** è lo sha256 del Pagamento che si ottiene come output al punto 1.2
-* il valori **\<preloadIdx1>** e **\<preloadIdx2>** sono a discrezione del chiamante e servono per associare un indice alle richieste presenti nell'array di questa request
-* **\<voucher generato>** tramite client assertion di Interoperabilità per eseguire chiamate UAT
+* **`<baseurlAmbiente>`:** inserire la url dell'ambiente di riferimento, nel caso di UAT è il seguente: [**api.uat.notifichedigitali.it**](https://api.uat.notifichedigitali.it)
+* **`<apiKey>`:** inserire la apiKey dell'Ente di riferimento, precedentemente generata su PND
+* **`<PDNDVoucher>`:** inserire inserire il Voucher generato su **PDND Interoperabilità,** assicurandosi che non sia scaduto
+* **`<shaDellaNotifica>`:** è lo sha256 della Notifica che si ottiene come output al punto 1.1
+* **`<shaDelPagamento>`:** è lo sha256 del Pagamento che si ottiene come output al punto 1.2
+* il valori **`<preloadIdx1>`** e **`<preloadIdx2>`** sono a discrezione del chiamante e servono per associare un indice alle richieste presenti nell'array di questa request
+* **`<voucher generato>`** tramite client assertion di Interoperabilità per eseguire chiamate UAT
 
 
 
@@ -84,11 +84,11 @@ Nella response di questo servizio, si otterrà il seguente payload:
 
 **NOTA:** i valori ottenuti nella response dovranno essere memorizzati per i futuri utilizzi; nello specifico:
 
-* **\<preloadIdx1>** e **\<preloadIdx2>:** hanno il solo scopo di fare riferimento agli elementi mettendo in correlazione request/response
-* **\<secret1>** e **\<secret2>:** andranno utilizzati nella chiamata di upload dei documenti
-* **\<httpMethod1> e \<httpMethod2>:** corrispondono al http method da utilizzare nella chiamata di upload dei documenti
-* **\<url1>** e **\<url2>:** sono le url da utilizzare nella chiamata di upload dei documenti
-* **\<key2>** e **\<key2>:** sono le keys da utilizzare in fase di inserimento notifica, rispettivamente per i 2 file
+* **`<preloadIdx1>`** e **`<preloadIdx2>`:** hanno il solo scopo di fare riferimento agli elementi mettendo in correlazione request/response
+* **`<secret1>`** e **`<secret2>`:** andranno utilizzati nella chiamata di upload dei documenti
+* **`<httpMethod1>` e `<httpMethod2>`:** corrispondono al http method da utilizzare nella chiamata di upload dei documenti
+* **`<url1>`** e **`<url2>`:** sono le url da utilizzare nella chiamata di upload dei documenti
+* **`<key2>`** e **`<key2>`:** sono le keys da utilizzare in fase di inserimento notifica, rispettivamente per i 2 file
 
 ### Step 3 - Effettuare l'upload dei documenti
 
@@ -109,7 +109,7 @@ curl -X <httpMethod1> \
 
 **NOTA:** nella chiamata fare attenzione a sostituire i campi parametrici con le informazioni ottenute agli altri punti. Da notare che il comando **--data-binary** è necessario per fare l'upload del documento e bisognerà inserire la **@** prima del path del file che si sta caricando.&#x20;
 
-È importante lanciare la curl con il --verbose che permetterà di visualizzare nell'header della response di esito positivo il valore di x-amz-version-id: **\<versionIdNotifica>** utile per la prossima chiamata.
+È importante lanciare la curl con il --verbose che permetterà di visualizzare nell'header della response di esito positivo il valore di x-amz-version-id: **`<versionIdNotifica>`** utile per la prossima chiamata.
 
 
 
@@ -124,7 +124,7 @@ curl -X <httpMethod2> \
 <url2> --verbose
 ```
 
-**NOTA:** nella chiamata fare attenzione a sostituire i campi parametrici con le informazioni ottenute agli altri punti. Da notare che il comando **--data-binary** è necessario per fare l'upload del documento e bisognerà inserire la **@** prima del path del file che si sta caricando. E' importante lanciare la curl con il --verbose che permetterà di visualizzare nell'header della response di esito positivo il valore di x-amz-version-id: **\<versionIdPagamento>** utile per la prossima chiamata
+**NOTA:** nella chiamata fare attenzione a sostituire i campi parametrici con le informazioni ottenute agli altri punti. Da notare che il comando **--data-binary** è necessario per fare l'upload del documento e bisognerà inserire la **@** prima del path del file che si sta caricando. E' importante lanciare la curl con il --verbose che permetterà di visualizzare nell'header della response di esito positivo il valore di x-amz-version-id: **`<versionIdPagamento>`** utile per la prossima chiamata
 
 ### Step 4 - Effettuare l'inserimento della notifica
 
@@ -141,11 +141,11 @@ curl --location 'https://<baseurlAmbiente>/delivery/requests' \
 
 **NOTA:**
 
-* **\<baseurlAmbiente>:** inserire la url dell'ambiente di riferimento, nel caso di COLL è il seguente: [**api.coll.pn.pagopa.it**](http://api.coll.pn.pagopa.it)
-* **\<apiKey>:** inserire la apiKey dell'Ente di riferimento, precedentemente generata su PND
-* **\<payloadDellaNotifica>:** corrisponde al json contenente tutti i dati della notifica; per inserire correttamente i riferimenti ai pdf caricati in precedenza, seguire le seguenti istruzioni:
-  * Valorizzare i seguenti riferimenti al file Notifica.pdf documents.digests.sha256: **\<shaDellaNotifica>** documents.contentType: **"application/pdf"** documents.ref.key: **\<key1>** documents.ref.versionToken: **\<versionIdNotifica>**
-  * Valorizzare i seguenti riferimenti al file Pagamento.pdf recipients.payment.pagoPaForm.digests.sha256: **\<shaDelPagamento>** recipients.payment.pagoPaForm.contentType: **"application/pdf"** recipients.payment.pagoPaForm.ref.key: **\<key2>** recipients.payment.pagoPaForm.ref.versionToken: **\<versionIdPagamento>**
+* **`<baseurlAmbiente>`:** inserire la url dell'ambiente di riferimento, nel caso di COLL è il seguente: [**api.coll.pn.pagopa.it**](http://api.coll.pn.pagopa.it)
+* **`<apiKey>`:** inserire la apiKey dell'Ente di riferimento, precedentemente generata su PND
+* **`<payloadDellaNotifica>`:** corrisponde al json contenente tutti i dati della notifica; per inserire correttamente i riferimenti ai pdf caricati in precedenza, seguire le seguenti istruzioni:
+  * Valorizzare i seguenti riferimenti al file Notifica.pdf documents.digests.sha256: **`<shaDellaNotifica>`** documents.contentType: **"application/pdf"** documents.ref.key: **`<key1>`** documents.ref.versionToken: **`<versionIdNotifica>`**
+  * Valorizzare i seguenti riferimenti al file Pagamento.pdf recipients.payment.pagoPaForm.digests.sha256: **`<shaDelPagamento>`** recipients.payment.pagoPaForm.contentType: **"application/pdf"** recipients.payment.pagoPaForm.ref.key: **`<key2>`** recipients.payment.pagoPaForm.ref.versionToken: **`<versionIdPagamento>`**
 
 Se la chiamata è andata a buon fine si otterrà una response con httpStatus: 202 ACCEPTED ed il seguente body:
 
@@ -159,5 +159,5 @@ Se la chiamata è andata a buon fine si otterrà una response con httpStatus: 20
 
 **NOTA:** nel body della response si otterranno i seguenti campi:&#x20;
 
-* **\<notificationRequestId>:** questo identificativo viene assegnato alla richiesta di notifica appena inserita e potrà essere utilizzato in seguito per verificare se sia stata accettata o meno dalla SEND.
-* **\<paProtocolNumber>** e **\<idempotenceToken>:** questi campi sono gli stessi che sono stati inseriti nella precedente richiesta di inserimento Notifica e potranno essere utilizzati, in modo alternativo al **\<notificationRequestId>** ed insieme tra loro, per conoscere lo stato di accettazione della notifica su SEND.
+* **`<notificationRequestId>`:** questo identificativo viene assegnato alla richiesta di notifica appena inserita e potrà essere utilizzato in seguito per verificare se sia stata accettata o meno dalla SEND.
+* **`<paProtocolNumber>`** e **`<idempotenceToken>`:** questi campi sono gli stessi che sono stati inseriti nella precedente richiesta di inserimento Notifica e potranno essere utilizzati, in modo alternativo al **`<notificationRequestId>`** ed insieme tra loro, per conoscere lo stato di accettazione della notifica su SEND.

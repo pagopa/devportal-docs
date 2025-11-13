@@ -57,9 +57,9 @@ I programmi di screening possono avere diverse modalità di esecuzione che dipen
 
 \[Inserire qui la descrizione del programma di screening, da compilare a cura e responsabilità dell'ente]
 
-Prenota un appuntamento per \<nome screening>.
+Prenota un appuntamento per `<nome screening>`.
 
-**Dove**: \<luogo>
+**Dove**: `<luogo>`
 
 **Cosa portare**: \[indicazione sui documenti da portare]
 
@@ -93,13 +93,13 @@ Per ulteriori informazioni sul programma, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio:**
 
-Ti attendiamo per effettuare \<oggetto dell’appuntamento>.
+Ti attendiamo per effettuare `<oggetto dell’appuntamento>`.
 
-Il numero della prenotazione è: \<nnnn>.
+Il numero della prenotazione è: `<nnnn>`.
 
-**Dove:** \<indirizzo>
+**Dove:** `<indirizzo>`
 
-**Quando:** \<gg/mm/aaaa> alle \<hh:mm>
+**Quando:** `<gg/mm/aaaa>` alle `<hh:mm>`
 
 L'esame e gli eventuali controlli successivi sono gratuiti. Ricordati di portare con te questo messaggio e la tessera sanitaria.
 
@@ -129,13 +129,13 @@ Per ulteriori informazioni sul programma, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio:**
 
-Ti ricordiamo il tuo appuntamento per \<oggetto dell’appuntamento>.
+Ti ricordiamo il tuo appuntamento per `<oggetto dell’appuntamento>`.
 
-Il numero della prenotazione è: \<nnnn>.
+Il numero della prenotazione è: `<nnnn>`.
 
-**Dove:** \<indirizzo>
+**Dove:** `<indirizzo>`
 
-**Quando:** \<gg/mm/aaaa> alle \<hh:mm>
+**Quando:** `<gg/mm/aaaa>` alle `<hh:mm>`
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -167,7 +167,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 \[Inserire se prevista la modalità di raccolta campioni]
 
-L'esito del test sarà consegnato entro il \<gg/mm/aa>. Se non dovesse arrivare nei tempi previsti, ti preghiamo di contattarci \[modalità di contatto].
+L'esito del test sarà consegnato entro il `<gg/mm/aa>`. Se non dovesse arrivare nei tempi previsti, ti preghiamo di contattarci \[modalità di contatto].
 
 L'esame e gli eventuali controlli successivi sono gratuiti. Ricordati di portare con te questo messaggio e la tessera sanitaria.
 
@@ -195,9 +195,9 @@ Per ulteriori informazioni sul programma, \[visita questo sito]\(URL).
 
 \[Inserire qui una breve descrizione del programma di screening, da compilare a cura e responsabilità dell'ente]
 
-Il campione \<nome campione> può essere riconsegnato nella sede in \<indirizzo> entro il \<gg/mm/aaa>.
+Il campione `<nome campione>` può essere riconsegnato nella sede in `<indirizzo>` entro il `<gg/mm/aaa>`.
 
-L'esito del test sarà consegnato entro il \<gg/mm/aa>. Se non dovesse arrivare nei tempi previsti, ti preghiamo di contattarci \[modalità di contatto].
+L'esito del test sarà consegnato entro il `<gg/mm/aa>`. Se non dovesse arrivare nei tempi previsti, ti preghiamo di contattarci \[modalità di contatto].
 
 L'esame e gli eventuali controlli successivi sono gratuiti. Ricordati di portare con te questo messaggio e la tessera sanitaria.
 

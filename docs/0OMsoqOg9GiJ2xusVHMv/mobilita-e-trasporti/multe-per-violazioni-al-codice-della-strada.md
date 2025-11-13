@@ -38,15 +38,15 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 **🖋 Titolo del messaggio:** Preavviso di accertamento
 
-🗒 **Testo del messaggio**: Il \<gg/mm/aaaa> alle \<hh:mm> in \<indirizzo>, la persona alla guida del veicolo targato \<numero targa> ha commesso queste violazioni:
+🗒 **Testo del messaggio**: Il `<gg/mm/aaaa>` alle `<hh:mm>` in `<indirizzo>`, la persona alla guida del veicolo targato `<numero targa>` ha commesso queste violazioni:
 
-**• \<tipologia di violazione> - art. \<numero>**
+**• `<tipologia di violazione>` - art. `<numero>`**
 
-**Accertamento numero**: \<numero accertamento> - \[Vedi accertamento]\(URL)
+**Accertamento numero**: `<numero accertamento>` - \[Vedi accertamento]\(URL)
 
-**Da pagare**: <00,00> €, già scontato del 30% se paghi entro il \<gg/mm/aaaa>
+**Da pagare**: <00,00> €, già scontato del 30% se paghi entro il `<gg/mm/aaaa>`
 
-**Cosa succede se non pago entro il \<gg/mm/aaaa>?** Riceverai il verbale di contravvenzione in base a quanto previsto dal Codice della Strada e potranno essere addebitate le spese di notifica.&#x20;
+**Cosa succede se non pago entro il `<gg/mm/aaaa>`?** Riceverai il verbale di contravvenzione in base a quanto previsto dal Codice della Strada e potranno essere addebitate le spese di notifica.&#x20;
 
 \[Se previsto] Inoltre, ricordati di \[**comunicare i dati di chi era alla guida del veicolo**]\(URL) al momento dell'infrazione, anche se si tratta del proprietario del mezzo, entro il gg/mm/aaaa.
 
@@ -74,7 +74,7 @@ In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio p
 
 **🖋 Titolo del messaggio:** Invio del verbale
 
-🗒 **Testo del messaggio**: In base al Codice della Strada, ti abbiamo inviato il verbale di contestazione \<numero verbale>. Lo riceverai nei prossimi giorni.&#x20;
+🗒 **Testo del messaggio**: In base al Codice della Strada, ti abbiamo inviato il verbale di contestazione `<numero verbale>`. Lo riceverai nei prossimi giorni.&#x20;
 
 L’importo del verbale potrà comprendere spese di notifica. Per maggiori informazioni, visita \[questo sito]\(URL).
 

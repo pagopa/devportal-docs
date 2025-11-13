@@ -34,9 +34,9 @@ The series of all messages represents the ideal service. The institution that wa
 
 🗒 **Text of the message**: We received your declaration of occupation of a new property. Here are the details:
 
-**Address**: \<address> - \<land registry data>  
-**Occupied by**: \<first and last name>  
-**Since**: \<dd/mm/yy>
+**Address**: `<address>` - `<land registry data>`  
+**Occupied by**: `<first and last name>`  
+**Since**: `<dd/mm/yy>`
 
 \[On this website](URL) you can find more information about how TARI is calculated and about any exemptions you might benefit from.
 
@@ -58,11 +58,11 @@ The series of all messages represents the ideal service. The institution that wa
 
 **🖋 Title of the message:** New payment notification
 
-🗒 **Text of the message**: There is a payment notification for \<first and last name> regarding the \<reason>.
+🗒 **Text of the message**: There is a payment notification for `<first and last name>` regarding the `<reason>`.
 
-**Amount due**: €\<00.00>
+**Amount due**: €`<00.00>`
 
-**Due date**: \<dd/mm/yyyy>
+**Due date**: `<dd/mm/yyyy>`
 
 You can pay directly in-app by pressing “See notification”, or using all the payment channels of the pagoPA platform.
 
@@ -88,11 +88,11 @@ For more information or if you need assistance, contact us using the channels lo
 
 **🖋 Title of the message:** Extension of the payment deadline
 
-🗒 **Text of the message**: The payment deadline for the notification in the name of \<first and last name> and related to \<reason>.
+🗒 **Text of the message**: The payment deadline for the notification in the name of `<first and last name>` and related to `<reason>`.
 
-**Amount due**: €\<00.00> 
+**Amount due**: €`<00.00>` 
 
-**Due date**: \<dd/mm/yyyy>
+**Due date**: `<dd/mm/yyyy>`
 
 You can pay directly in-app by pressing “See notification”, or using all the payment channels of the pagoPA platform.
 
@@ -118,11 +118,11 @@ For more information or if you need assistance, contact us using the channels lo
 
 🗒 **Text of the message**: We received your declaration of end of occupation of a property. Here are the details:
 
-**Address**: \<address>
+**Address**: `<address>`
 
-**Occupied by**: \<first and last name>
+**Occupied by**: `<first and last name>`
 
-**Since**: \<dd/mm/yy>
+**Since**: `<dd/mm/yy>`
 
 For more information or if you need assistance, contact us using the channels located on the service tab.
 

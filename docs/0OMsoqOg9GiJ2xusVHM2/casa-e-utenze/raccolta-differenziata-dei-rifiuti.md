@@ -29,11 +29,11 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 <summary>Giorni e orari pulizia delle strade</summary>
 
-**🖋 Titolo del messaggio:** Pulizia strade in \<indirizzo>
+**🖋 Titolo del messaggio:** Pulizia strade in `<indirizzo>`
 
 🗒 **Testo del messaggio**:
 
-Il \<gg/mm/aaaa> dalle \<hh:mm> alle \<hh:mm> sarà attivo il servizio di pulizia strade in \<indirizzo>.
+Il `<gg/mm/aaaa>` dalle `<hh:mm>` alle `<hh:mm>` sarà attivo il servizio di pulizia strade in `<indirizzo>`.
 
 Ti ricordiamo di non lasciare il tuo veicolo in sosta nel giorno e nella fascia oraria indicata.
 
@@ -59,15 +59,15 @@ Se è previsto l'utilizzo di una card o un kit per la raccolta dei rifiuti, si p
 
 <summary>Ritiro card/kit di raccolta</summary>
 
-**🖋 Titolo del messaggio:** \<La tua card/il tuo kit> è \<pronto/a> per il ritiro
+**🖋 Titolo del messaggio:** `<La tua card/il tuo kit>` è `<pronto/a>` per il ritiro
 
 🗒 **Testo del messaggio**:
 
-Dal \<gg/mm/aaaa> puoi ritirare \<la tua card/il tuo kit> di raccolta differenziata dei rifiuti.
+Dal `<gg/mm/aaaa>` puoi ritirare `<la tua card/il tuo kit>` di raccolta differenziata dei rifiuti.
 
-**Dove:** \<indirizzo dello sportello>
+**Dove:** `<indirizzo dello sportello>`
 
-**Quando:** \<giorni e orari di apertura dello sportello>
+**Quando:** `<giorni e orari di apertura dello sportello>`
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -87,11 +87,11 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 <summary>Variazioni del servizio per un giorno</summary>
 
-**🖋 Titolo del messaggio:** Variazione raccolta dei rifiuti in \<indirizzo>
+**🖋 Titolo del messaggio:** Variazione raccolta dei rifiuti in `<indirizzo>`
 
 🗒 **Testo del messaggio**:
 
-Il \<gg/mm/aaaa> il servizio di raccolta differenziata dei rifiuti in \<indirizzo> subirà queste variazioni:
+Il `<gg/mm/aaaa>` il servizio di raccolta differenziata dei rifiuti in `<indirizzo>` subirà queste variazioni:
 
 \[Inserire qui indicazioni sulle variazioni del servizio, da completare a cura e responsabilità dell'ente]
 
@@ -113,11 +113,11 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 <summary>Variazioni del servizio per un periodo</summary>
 
-**🖋 Titolo del messaggio:** Variazione raccolta dei rifiuti in \<indirizzo>
+**🖋 Titolo del messaggio:** Variazione raccolta dei rifiuti in `<indirizzo>`
 
 🗒 **Testo del messaggio**:
 
-Dal \<gg/mm/aaaa> al \<gg/mm/aaaa> il servizio di raccolta differenziata dei rifiuti in \<indirizzo> subirà variazioni.
+Dal `<gg/mm/aaaa>` al `<gg/mm/aaaa>` il servizio di raccolta differenziata dei rifiuti in `<indirizzo>` subirà variazioni.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -143,11 +143,11 @@ Se è prevista la consegna dei sacchi della raccolta differenziata a raccolta de
 
 🗒 **Testo del messaggio**:
 
-Dal \<gg/mm/aaaa> al \<gg/mm/aaaa> potrai ritirare i sacchi per la raccolta differenziata dei rifiuti.
+Dal `<gg/mm/aaaa>` al `<gg/mm/aaaa>` potrai ritirare i sacchi per la raccolta differenziata dei rifiuti.
 
-**Dove:** \<indirizzo dello sportello>
+**Dove:** `<indirizzo dello sportello>`
 
-**Quando:** \<giorni e orari apertura dello sportello>
+**Quando:** `<giorni e orari apertura dello sportello>`
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -171,11 +171,11 @@ Se è previsto l'utilizzo di card condominiali o bidoni condominiali per i rifiu
 
 <summary>Richiesta di card, bidoni, sacchi o sopralluogo: accolta</summary>
 
-**🖋 Titolo del messaggio:** La tua richiesta di \<card/bidoni/sacchi/sopralluogo> è stata accolta
+**🖋 Titolo del messaggio:** La tua richiesta di `<card/bidoni/sacchi/sopralluogo>` è stata accolta
 
 🗒 **Testo del messaggio**:
 
-La tua richiesta di \<oggetto della richiesta> del \<gg/mm/aaaa> è stata accolta.
+La tua richiesta di `<oggetto della richiesta>` del `<gg/mm/aaaa>` è stata accolta.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -195,11 +195,11 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 <summary>Richiesta di card, bidoni, sacchi o sopralluogo: non accolta</summary>
 
-**🖋 Titolo del messaggio:** La tua richiesta di \<card/bidoni/sacchi/sopralluogo> non è stata accolta
+**🖋 Titolo del messaggio:** La tua richiesta di `<card/bidoni/sacchi/sopralluogo>` non è stata accolta
 
 🗒 **Testo del messaggio**:
 
-La tua richiesta di \<oggetto della richiesta> del \<gg/mm/aaaa> non è stata accolta.
+La tua richiesta di `<oggetto della richiesta>` del `<gg/mm/aaaa>` non è stata accolta.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -227,11 +227,11 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio**:
 
-C'è un avviso da pagare intestato a \<nome> \<cognome> e relativo a \<causale>.
+C'è un avviso da pagare intestato a `<nome>` `<cognome>` e relativo a `<causale>`.
 
 **Devi pagare:** <00,00> €
 
-**Entro il:** \<gg/mm/aaaa>
+**Entro il:** `<gg/mm/aaaa>`
 
 Puoi pagare direttamente in app premendo “Paga”, oppure tramite tutti i canali di pagamento della piattaforma pagoPA e le altre modalità di pagamento offerte dell'ente creditore.
 
@@ -263,7 +263,7 @@ In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio p
 
 🗒 **Testo del messaggio:**
 
-Il tuo pagamento per \<causale> sta per scadere.
+Il tuo pagamento per `<causale>` sta per scadere.
 
 Se hai già provveduto a pagare l’avviso, ignora questo messaggio.
 
@@ -292,7 +292,7 @@ Il seguente messaggio serve a sollecitare il cittadino per il mancato pagamento 
 
 🗒 **Testo del messaggio**:
 
-Il tuo pagamento per \<causale> è scaduto il \<gg/mm/aaaa>.
+Il tuo pagamento per `<causale>` è scaduto il `<gg/mm/aaaa>`.
 
 Se hai già provveduto a pagare l’avviso, ignora questo messaggio.
 
@@ -322,13 +322,13 @@ Se hai già provveduto a pagare l’avviso, ignora questo messaggio.
 
 🗒 **Testo del messaggio**:
 
-Hai prenotato un appuntamento per \<causale> presso \<sportello>.
+Hai prenotato un appuntamento per `<causale>` presso `<sportello>`.
 
-Il numero della prenotazione è: \<nnnn>
+Il numero della prenotazione è: `<nnnn>`
 
-**Dove:** \<indirizzo>
+**Dove:** `<indirizzo>`
 
-**Quando:** \<gg/mm/aaaa> alle \<hh:mm>
+**Quando:** `<gg/mm/aaaa>` alle `<hh:mm>`
 
 Per ulteriori informazioni, (visita questo sito)\[URL].
 

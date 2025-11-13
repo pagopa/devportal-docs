@@ -34,9 +34,9 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 🗒 **Testo del messaggio**: Abbiamo ricevuto la tua dichiarazione di occupazione di un nuovo immobile. Ecco i dettagli:
 
-**Indirizzo**: \<indirizzo> - \<dati catastali>\
-**Occupato da**: \<nome cognome>\
-**A partire dal**: \<gg/mm/aa>
+**Indirizzo**: `<indirizzo>` - `<dati catastali>`\
+**Occupato da**: `<nome cognome>`\
+**A partire dal**: `<gg/mm/aa>`
 
 \[A questo sito]\(URL) trovi maggiori informazioni su come funziona il calcolo TARI e sulle eventuali esenzioni di cui puoi beneficiare.
 
@@ -58,11 +58,11 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 **🖋 Titolo del messaggio:** Nuovo avviso di pagamento
 
-🗒 **Testo del messaggio**: C'è un avviso da pagare intestato a \<nome cognome> e relativo a \<causale>.
+🗒 **Testo del messaggio**: C'è un avviso da pagare intestato a `<nome cognome>` e relativo a `<causale>`.
 
 **Devi pagare**: <00,00> €
 
-**Entro il**: \<gg/mm/aaaa>
+**Entro il**: `<gg/mm/aaaa>`
 
 Puoi pagare direttamente in app premendo "Vedi Avviso", oppure tramite tutti i canali di pagamento della piattaforma pagoPA.
 
@@ -88,11 +88,11 @@ Per maggiori informazioni o per richiedere assistenza, contattaci tramite i cana
 
 **🖋 Titolo del messaggio:** Proroga scadenza del pagamento
 
-🗒 **Testo del messaggio**: È stata prorogata la data di scadenza dell'avviso intestato a \<nome cognome> e relativo a \<casuale>.
+🗒 **Testo del messaggio**: È stata prorogata la data di scadenza dell'avviso intestato a `<nome cognome>` e relativo a `<casuale>`.
 
 **Devi pagare**: <00,00> €&#x20;
 
-**Entro il**: \<gg/mm/aaaa>
+**Entro il**: `<gg/mm/aaaa>`
 
 Puoi pagare direttamente in app premendo "Vedi Avviso", oppure tramite tutti i canali di pagamento della piattaforma pagoPA.
 
@@ -118,11 +118,11 @@ Per maggiori informazioni o per richiedere assistenza, contattaci tramite i cana
 
 🗒 **Testo del messaggio**: Abbiamo ricevuto la tua dichiarazione di cessazione occupazione immobile. Ecco i dettagli:
 
-**Indirizzo**: \<indirizzo>
+**Indirizzo**: `<indirizzo>`
 
-**Occupato da**: \<nome cognome>
+**Occupato da**: `<nome cognome>`
 
-**A partire dal**: \<gg/mm/aa>
+**A partire dal**: `<gg/mm/aa>`
 
 Per maggiori informazioni o per richiedere assistenza, contattaci tramite i canali che trovi nella scheda servizio.
 

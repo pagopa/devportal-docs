@@ -46,7 +46,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 Abbiamo ricevuto la tua dichiarazione di cessazione di convivenza di fatto.
 
-Dal \<gg/mm/aaaa> le tue informazioni nel Registro Anagrafe sono state aggiornate.
+Dal `<gg/mm/aaaa>` le tue informazioni nel Registro Anagrafe sono state aggiornate.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 

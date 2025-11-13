@@ -34,17 +34,17 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 **🖋 Titolo del messaggio:** Preavviso di accertamento
 
-🗒 **Testo del messaggio**: Il \<gg/mm/aaaa> alle \<hh:mm> in \<indirizzo>, la persona alla guida del veicolo targato \<numero targa> ha commesso queste violazioni:
+🗒 **Testo del messaggio**: Il `<gg/mm/aaaa>` alle `<hh:mm>` in `<indirizzo>`, la persona alla guida del veicolo targato `<numero targa>` ha commesso queste violazioni:
 
-**• \<tipologia di violazione> - art. \<numero>**
+**• `<tipologia di violazione>` - art. `<numero>`**
 
-**Accertamento numero**: \<numero accertamento>
+**Accertamento numero**: `<numero accertamento>`
 
 \[Vedi accertamento]\(link)
 
-**Da pagare**: xx,yy €, già scontato del 30% se paghi entro il \<gg/mm/aaaa>
+**Da pagare**: xx,yy €, già scontato del 30% se paghi entro il `<gg/mm/aaaa>`
 
-**Cosa succede se non pago entro il \<gg/mm/aa>?** Riceverai il verbale di contravvenzione al tuo indirizzo di residenza e ti verranno addebitate le spese di notifica.&#x20;
+**Cosa succede se non pago entro il `<gg/mm/aa>`?** Riceverai il verbale di contravvenzione al tuo indirizzo di residenza e ti verranno addebitate le spese di notifica.&#x20;
 
 **🪄  Pulsante**: Vedi avviso
 
@@ -66,7 +66,7 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 **🖋 Titolo del messaggio:** Spedizione del verbale
 
-🗒 **Testo del messaggio**: Abbiamo inviato al tuo indirizzo di residenza il verbale di contravvenzione \<numero verbale>. Lo riceverai tramite raccomandata nei prossimi giorni.&#x20;
+🗒 **Testo del messaggio**: Abbiamo inviato al tuo indirizzo di residenza il verbale di contravvenzione `<numero verbale>`. Lo riceverai tramite raccomandata nei prossimi giorni.&#x20;
 
 L’importo del verbale comprenderà le spese di notifica. Per maggiori informazioni, visita \[questo sito]\(URL).
 
@@ -88,7 +88,7 @@ L’importo del verbale comprenderà le spese di notifica. Per maggiori informaz
 
 **🖋 Titolo del messaggio:** Pagamento in scadenza
 
-🗒 **Testo del messaggio**: Hai tempo fino al \<gg/mm/aa> per pagare il verbale di contravvenzione numero \<numero verbale>. Pagalo subito per evitare costi aggiuntivi.
+🗒 **Testo del messaggio**: Hai tempo fino al `<gg/mm/aa>` per pagare il verbale di contravvenzione numero `<numero verbale>`. Pagalo subito per evitare costi aggiuntivi.
 
 **🪄  Pulsante**: n/a
 
@@ -108,7 +108,7 @@ L’importo del verbale comprenderà le spese di notifica. Per maggiori informaz
 
 **🖋 Titolo del messaggio:** Conferma del pagamento
 
-🗒 **Testo del messaggio**: Ti confermiamo che il \<gg/mm/aaaa> abbiamo ricevuto un pagamento relativo al preavviso di accertamento \<numero preavviso> / verbale di contravvenzione \<numero verbale>.
+🗒 **Testo del messaggio**: Ti confermiamo che il `<gg/mm/aaaa>` abbiamo ricevuto un pagamento relativo al preavviso di accertamento `<numero preavviso>` / verbale di contravvenzione `<numero verbale>`.
 
 **🪄  Pulsante**: Vedi ricevuta
 

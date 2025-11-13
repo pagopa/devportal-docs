@@ -11,14 +11,14 @@ La piattaforma pagoPA ad oggi non effettua alcun controllo sui **faultCode** eme
 
 La piattaforma pagoPA rileva un errore (valido) emesso dalla controparte e restituisce in response al chiamante un [..](../ "mention") con le seguenti caratteristiche:
 
-* **id** = \<idPSP> (se controparte è PSP) / \<idDominio> (se controparte è PA)
+* **id** = `<idPSP>` (se controparte è PSP) / `<idDominio>` (se controparte è PA)
 * **faultCode** = _PPT\_CANALE\_ERRORE_ (se controparte è PSP) / _PPT\_ERRORE\_EMESSO\_DA\_PAA_ (se controparte è EC)
 * **faultString** = _"Errore restituito dal canale"_ (se controparte è PSP) / _"Errore restituito dall’ente creditore"_ (se controparte è EC)
-* **description** = _\<description>_
+* **description** = _`<description>`_
 * **serial** = (se necessario)
-* **originalFaultCode** = _\<faultCode emesso da controparte>_
-* **originalFaultString** = _\<faultString emesso da controparte>_
-* **originalDescription** = _\<description emessa da controparte>_
+* **originalFaultCode** = _`<faultCode emesso da controparte>`_
+* **originalFaultString** = _`<faultString emesso da controparte>`_
+* **originalDescription** = _`<description emessa da controparte>`_
 
 L'errore emesso da controparte è l'unico caso per cui il nodo restituisce come **id** quello del soggetto che emette l'errore.
 

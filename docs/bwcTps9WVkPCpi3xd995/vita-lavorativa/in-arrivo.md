@@ -39,7 +39,7 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 🗒 **Testo del messaggio**:
 
-Dal \<gg/mm/aaaa> è possibile fare domanda di partecipazione al bando per \<oggetto del bando>.
+Dal `<gg/mm/aaaa>` è possibile fare domanda di partecipazione al bando per `<oggetto del bando>`.
 
 Per consultare i criteri di assegnazione e fare domanda, \[visita questo sito]\(URL).
 
@@ -47,7 +47,7 @@ Per consultare i criteri di assegnazione e fare domanda, \[visita questo sito]\(
 
 **🪄 Pulsante**: Fai domanda
 
-<mark style="color:blue;">**📎 Allegato:**</mark> \<testo integrale del bando>
+<mark style="color:blue;">**📎 Allegato:**</mark> `<testo integrale del bando>`
 
 ***
 
@@ -71,7 +71,7 @@ Per consultare i criteri di assegnazione e fare domanda, \[visita questo sito]\(
 
 🗒 **Testo del messaggio:**
 
-Il \<gg/mm/aaaa> è stato aggiornato il bando per \<oggetto del bando>.
+Il `<gg/mm/aaaa>` è stato aggiornato il bando per `<oggetto del bando>`.
 
 Per visualizzare il bando aggiornato, \[visita questo sito]\(URL).
 
@@ -79,7 +79,7 @@ Per visualizzare il bando aggiornato, \[visita questo sito]\(URL).
 
 **🪄 Pulsante:** Fai domanda
 
-<mark style="color:blue;">**📎 Allegato:**</mark> \<testo integrale del bando>
+<mark style="color:blue;">**📎 Allegato:**</mark> `<testo integrale del bando>`
 
 ***
 
@@ -101,9 +101,9 @@ Per visualizzare il bando aggiornato, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio:**
 
-La tua domanda di partecipazione al bando per \<oggetto del bando> è stata presa in carico.
+La tua domanda di partecipazione al bando per `<oggetto del bando>` è stata presa in carico.
 
-Il numero di protocollo è \<nnnn>.
+Il numero di protocollo è `<nnnn>`.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -131,11 +131,11 @@ Se è prevista una prova pre-selettiva o una convocazione per una prova, si poss
 
 🗒 **Testo del messaggio:**
 
-Sei convocata/o alla prova pre-selettiva per il bando \<oggetto del bando>.
+Sei convocata/o alla prova pre-selettiva per il bando `<oggetto del bando>`.
 
-**Quando:** \<gg/mm/aaaa> dalle \<hh:mm> alle \<hh:mm>
+**Quando:** `<gg/mm/aaaa>` dalle `<hh:mm>` alle `<hh:mm>`
 
-**Dove:** \<sala>; \<piano>; \<edificio>; \<indirizzo>
+**Dove:** `<sala>`; `<piano>`; `<edificio>`; `<indirizzo>`
 
 **Cosa portare:** \[indicazione sui documenti da portare]
 
@@ -161,7 +161,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio:**
 
-In data \<gg/mm/aaaa> è stato pubblicato l'esito della tua prova pre-selettiva per il bando \<oggetto del bando>.
+In data `<gg/mm/aaaa>` è stato pubblicato l'esito della tua prova pre-selettiva per il bando `<oggetto del bando>`.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -181,15 +181,15 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 <summary>Convocazione per prova scritta e/o orale</summary>
 
-**🖋 Titolo del messaggio:** Convocazione prova \<scritta e/o orale>
+**🖋 Titolo del messaggio:** Convocazione prova `<scritta e/o orale>`
 
 🗒 **Testo del messaggio:**
 
-Sei \<convocata/convocato> alla prova \<scritta e/o orale> per il bando \<oggetto del bando>.
+Sei `<convocata/convocato>` alla prova `<scritta e/o orale>` per il bando `<oggetto del bando>`.
 
-**Quando:** \<gg/mm/aaaa> dalle \<hh:mm> alle \<hh:mm>
+**Quando:** `<gg/mm/aaaa>` dalle `<hh:mm>` alle `<hh:mm>`
 
-**Dove:** \<sala>; \<piano>; \<edificio>; \<indirizzo>
+**Dove:** `<sala>`; `<piano>`; `<edificio>`; `<indirizzo>`
 
 **Cosa portare:** \[indicazione sui documenti identificativi da portare]
 
@@ -221,11 +221,11 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio:**
 
-È disponibile la graduatoria di ammissione al bando per \<oggetto del bando>.
+È disponibile la graduatoria di ammissione al bando per `<oggetto del bando>`.
 
 Per visualizzare la tua posizione in graduatoria, \[visita questo sito]\(URL).
 
-Se vuoi rinunciare alla tua posizione, hai tempo fino al \<gg/mm/aaaa>.
+Se vuoi rinunciare alla tua posizione, hai tempo fino al `<gg/mm/aaaa>`.
 
 Per fare domanda di rinuncia, \[visita questo sito]\(URL).
 
@@ -251,7 +251,7 @@ Per fare domanda di rinuncia, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio:**
 
-La tua richiesta di rinuncia alla tua posizione in graduatoria per \<oggetto del bando> è stata accolta.
+La tua richiesta di rinuncia alla tua posizione in graduatoria per `<oggetto del bando>` è stata accolta.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -279,11 +279,11 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio:**
 
-La tua richiesta di rinuncia alla tua posizione in graduatoria per \<oggetto del bando> è arrivata oltre il termine previsto. In questo caso è prevista una penale.
+La tua richiesta di rinuncia alla tua posizione in graduatoria per `<oggetto del bando>` è arrivata oltre il termine previsto. In questo caso è prevista una penale.
 
 **Devi pagare**: <00,00> €
 
-**Entro il**: \<gg/mm/aaaa>
+**Entro il**: `<gg/mm/aaaa>`
 
 Puoi pagare direttamente in app premendo “Paga”, oppure tramite tutti i canali di pagamento della piattaforma pagoPA e le altre modalità di pagamento offerte dell'ente creditore.
 
