@@ -7,7 +7,6 @@
 * [Come funziona: il flusso operativo](per-iniziare/funzionamento-generale.md)
 * [Come aderire: la guida completa](per-iniziare/guida-alladesione.md)
 * [Primo accesso e configurazione iniziale](per-iniziare/primo-accesso-e-configurazione-iniziale.md)
-* [Normativa di riferimento](per-iniziare/normativa-e-approfondimenti.md)
 
 ## Tutorial
 
@@ -18,7 +17,7 @@
   * [Come aggiornare un e-service pubblicando una nuova versione](tutorial/tutorial-per-lerogatore/come-aggiornare-un-e-service-pubblicando-una-nuova-versione.md)
   * [Come creare un nuovo attributo certificato](tutorial/tutorial-per-lerogatore/come-creare-un-nuovo-attributo-certificato.md)
   * [Come associare un portachiavi ad un e-service](tutorial/tutorial-per-lerogatore/come-associare-un-portachiavi-ad-un-e-service.md)
-  * [Come approvare  una richiesta di fruizione in attesa di approvazione tramite API](tutorial/tutorial-per-lerogatore/come-approvare-una-richiesta-di-fruizione-in-attesa-di-approvazione-tramite-api.md)
+  * [Come approvare una richiesta di fruizione in attesa di approvazione tramite API](tutorial/tutorial-per-lerogatore/come-approvare-una-richiesta-di-fruizione-in-attesa-di-approvazione-tramite-api.md)
   * [Come ottenere le richieste di fruizione in attesa di approvazione tramite API](tutorial/tutorial-per-lerogatore/come-ottenere-le-richieste-di-fruizione-in-attesa-di-approvazione-tramite-api.md)
   * [Come firmare una risposta per un fruitore](tutorial/tutorial-per-lerogatore/come-firmare-una-risposta-per-un-fruitore.md)
   * [Come verificare la validità di un voucher Bearer](tutorial/tutorial-per-lerogatore/come-verificare-la-validita-di-un-voucher-bearer.md)
@@ -88,8 +87,12 @@
 * [Signal Hub](riferimenti-tecnici/signal-hub.md)
 * [Tracing](riferimenti-tecnici/tracing.md)
 
+## Riferimenti Normativi
+
+* [Normativa](riferimenti-normativi/normativa-e-approfondimenti.md)
+* [Termini e condizioni e SLA](riferimenti-normativi/termini-e-condizioni-e-sla.md)
+
 ## Altre informazioni
 
 * [Assistenza e segnalazioni](altre-informazioni/canali-di-supporto.md)
 * [Changelog](altre-informazioni/changelog.md)
-* [Termini e condizioni e SLA](altre-informazioni/termini-e-condizioni-e-sla.md)

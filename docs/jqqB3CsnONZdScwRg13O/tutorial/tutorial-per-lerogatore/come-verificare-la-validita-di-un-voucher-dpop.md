@@ -5,7 +5,7 @@ L'erogatore di un e-service deve poter verificare la legittimità di qualsiasi r
 In questo caso, le verifiche vanno effettuate su due diversi token, ossia:
 
 * il voucher DPoP rilasciato da PDND Interoperabilità al fruitore, e che il fruitore ha inserito nell'header `Authorization` della chiamata;
-* la DPoP costruita dal fruitore e inserita in un differente header  `DPoP`.
+* la DPoP costruita dal fruitore e inserita in un differente header `DPoP`.
 
 Prima di tutto, l'erogatore estrae dall'header della richiesta del fruitore il voucher rilasciato da PDND Interoperabilità, e lo deserializza.
 
@@ -57,11 +57,11 @@ Il voucher deve essere di tipo `dpop+jwt`.
 
 #### Verifica sulla firma
 
-L'erogatore scarica la lista di chiavi in uso da un file esposto nella cartella `.well-known` di PDND Interoperabilità. L'URL corretta è disponibile sull'interfaccia nel back office all'interno della scheda di ogni singolo e-service e varia in funzione dell'ambiente nel quale è stata fatta la richiesta (collaudo, attestazione, produzione).&#x20;
+L'erogatore scarica la lista di chiavi in uso da un file esposto nella cartella `.well-known` di PDND Interoperabilità. L'URL corretta è disponibile sull'interfaccia nel back office all'interno della scheda di ogni singolo e-service e varia in funzione dell'ambiente nel quale è stata fatta la richiesta (collaudo, attestazione, produzione).
 
-A titolo di esempio, [https://interop.pagopa.it/.well-known/jwks.json](https://interop.pagopa.it/.well-known/jwks.json) è quella di produzione.&#x20;
+A titolo di esempio, [https://interop.pagopa.it/.well-known/jwks.json](https://interop.pagopa.it/.well-known/jwks.json) è quella di produzione.
 
-<figure><img src="../../.gitbook/assets/screen well-known" alt="" width="563"><figcaption><p>Esempio in ambiente di test su dove si trova il .well-known, <br>si apre la tendina cliccando sulla voce "Vedi i dettagli tecnici dell'e-service"</p></figcaption></figure>
+<figure><img src="../../../5esl1LsfE1mLepPADQoC/.gitbook/assets/screen well-known" alt="" width="563"><figcaption><p>Esempio in ambiente di test su dove si trova il .well-known,<br>si apre la tendina cliccando sulla voce "Vedi i dettagli tecnici dell'e-service"</p></figcaption></figure>
 
 All'interno del file, l'erogatore cerca l'oggetto che ha lo stesso `kid` presente nell'header del voucher. In quello stesso oggetto troverà la chiave pubblica al parametro `n`. Effettuerà dunque una verifica della firma, che la chiave privata usata per firmare il voucher corrisponda a quella pubblica appena ottenuta.
 
@@ -109,7 +109,7 @@ La chiave contenuta nell'header `jwk` deve corrispondere a quella usata per la f
 
 Ciò che interessa ai fini della verifica è:
 
-* &#x20;che l'`htm` corrisponda al metodo effettivamente invocato e che l'`htu` corrisponda effettivamente all'endpoint dell'erogatore chiamato;
+* che l'`htm` corrisponda al metodo effettivamente invocato e che l'`htu` corrisponda effettivamente all'endpoint dell'erogatore chiamato;
 * che la DPoP sia stata emessa non oltre `iat` + 60 secondi con una tolleranza di ±10 secondi;
 * che l'id unico, il `jti`, non sia presente nella cache dell'e-service;
 
@@ -119,7 +119,7 @@ Vanno infine effettuate due verifiche incrociate sui due token (voucher PDND e D
 
 #### Verifica dell'ath
 
-Bisogna verificare che l'`ath`  della DPoP combaci con l'hash calcolato a partire dal voucher rilasciato da PDND Interoperabilità.&#x20;
+Bisogna verificare che l'`ath` della DPoP combaci con l'hash calcolato a partire dal voucher rilasciato da PDND Interoperabilità.
 
 L'hash si ottiene usando SHA256 e deve essere codificato in Base64URL, con la seguente formula:
 

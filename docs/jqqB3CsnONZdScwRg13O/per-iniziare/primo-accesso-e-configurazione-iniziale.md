@@ -19,8 +19,6 @@ La piattaforma mette a disposizione tre ambienti separati, ciascuno con uno scop
 * **Collaudo**: È un ambiente identico alla produzione ma utilizzato per testare le integrazioni e il corretto funzionamento degli e-service prima di renderli disponibili a tutti. Non devono essere utilizzati dati reali.
 * **Attestazione**: È un ambiente di prova aperto anche a soggetti che non hanno ancora completato l'adesione (es. imprese private). Utilizza esclusivamente dati fittizi e serve a familiarizzare con le funzionalità della piattaforma.
 
-
-
 <table><thead><tr><th width="154.7718505859375">Nome ambiente</th><th width="285.79998779296875">Abilitati all'erogazione</th><th>Si erogano dati reali</th></tr></thead><tbody><tr><td>Produzione</td><td>Pubbliche Amministrazioni (PA), Gestori di Servizi Pubblici (GSP), Società a Controllo Pubblico (SCP), Società in Conto Economico Consolidato (SCEC)</td><td>Sì</td></tr><tr><td>Collaudo</td><td>Pubbliche Amministrazioni (PA), Gestori di Servizi Pubblici (GSP), Società a Controllo Pubblico (SCP), Società in Conto Economico Consolidato (SCEC)</td><td>No</td></tr><tr><td>Attestazione</td><td>Tutti gli aderenti</td><td>No</td></tr></tbody></table>
 
 ### Gestione di Utenti e Ruoli
@@ -29,7 +27,7 @@ L'**amministratore** è la figura responsabile della gestione degli utenti del p
 
 #### I Ruoli Utente
 
-* **Amministratore**: Ha il controllo completo sul front office. Può gestire gli utenti, creare e-service, gestire le finalità e le richieste di fruizione.  Può gestire il materiale crittografico (client e chiavi).
+* **Amministratore**: Ha il controllo completo sul front office. Può gestire gli utenti, creare e-service, gestire le finalità e le richieste di fruizione. Può gestire il materiale crittografico (client e chiavi).
 * **Operatore di Sicurezza**: È il ruolo tecnico responsabile della gestione del materiale crittografico (es. caricamento delle chiavi pubbliche). Non può gestire né gli utenti né gli e-service.
 * **Operatore API**: È il ruolo tecnico che gestisce gli e-service e gli aspetti tecnici delle finalità. Non può gestire gli utenti né il materiale crittografico.
 
@@ -58,4 +56,4 @@ Al primo accesso, si raccomanda all'amministratore di **impostare i contatti del
 
 ***
 
-Pagina successiva [→ Normativa di riferimento](normativa-e-approfondimenti.md)
+Pagina successiva [→ Normativa di riferimento](../riferimenti-normativi/normativa-e-approfondimenti.md)

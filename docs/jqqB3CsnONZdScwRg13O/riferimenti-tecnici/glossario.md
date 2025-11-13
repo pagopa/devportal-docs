@@ -27,7 +27,7 @@ La composizione è **gestita dagli amministratori** dell’aderente; lo **stesso
 
 ### Codice dell’Amministrazione Digitale (CAD)
 
-Insieme di norme che regolano l’uso delle tecnologie digitali nella **Pubblica Amministrazione** e nei rapporti tra **cittadini, imprese e PA**. L’**articolo 50-ter** disciplina **PDND Interoperabilità**; ulteriori articoli definiscono **basi di dati di interesse nazionale** e **platea degli enti aderenti**. Maggiori dettagli nella [sezione dedicata](../per-iniziare/normativa-e-approfondimenti.md) alla normativa.
+Insieme di norme che regolano l’uso delle tecnologie digitali nella **Pubblica Amministrazione** e nei rapporti tra **cittadini, imprese e PA**. L’**articolo 50-ter** disciplina **PDND Interoperabilità**; ulteriori articoli definiscono **basi di dati di interesse nazionale** e **platea degli enti aderenti**. Maggiori dettagli nella [sezione dedicata](../riferimenti-normativi/normativa-e-approfondimenti.md) alla normativa.
 
 ### E-service
 
@@ -54,12 +54,12 @@ Aderente che **fruisce** degli e-service **messi a disposizione dall’erogatore
 ### Linee Guida sull’infrastruttura tecnologica della PDND
 
 Linee Guida che **disciplinano** il funzionamento della **PDND** come strumento abilitante per l’**interoperabilità** tra **pubbliche amministrazioni**, **gestori di servizi pubblici** e **soggetti privati** che accedono o forniscono dati.\
-Costituiscono una delle **specifiche operative** derivanti dal **Modello di Interoperabilità (ModI)** di AgID. Maggiori dettagli nella [sezione dedicata](../per-iniziare/normativa-e-approfondimenti.md) alla normativa.
+Costituiscono una delle **specifiche operative** derivanti dal **Modello di Interoperabilità (ModI)** di AgID. Maggiori dettagli nella [sezione dedicata](../riferimenti-normativi/normativa-e-approfondimenti.md) alla normativa.
 
 ### Modello di Interoperabilità (ModI)
 
 Documento di riferimento strategico che definisce **principi, regole e standard** per garantire l’**interoperabilità** tra i sistemi informatici delle amministrazioni.\
-I principi del ModI sono **tradotti** in **specifiche operative** attraverso le **Linee Guida**, tra cui quelle sull’infrastruttura tecnologica della PDND. Sono disponibili **maggiori dettagli** nella [pagina dedicata](https://www.agid.gov.it/it/infrastrutture/sistema-pubblico-connettivita/il-nuovo-modello-interoperabilita) di AgID e nella [sezione dedicata](../per-iniziare/normativa-e-approfondimenti.md) alla normativa.
+I principi del ModI sono **tradotti** in **specifiche operative** attraverso le **Linee Guida**, tra cui quelle sull’infrastruttura tecnologica della PDND. Sono disponibili **maggiori dettagli** nella [pagina dedicata](https://www.agid.gov.it/it/infrastrutture/sistema-pubblico-connettivita/il-nuovo-modello-interoperabilita) di AgID e nella [sezione dedicata](../riferimenti-normativi/normativa-e-approfondimenti.md) alla normativa.
 
 ### Operatore API
 

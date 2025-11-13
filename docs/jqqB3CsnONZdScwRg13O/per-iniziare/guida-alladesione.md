@@ -2,8 +2,8 @@
 
 ### Prerequisiti
 
-* Per completare il processo, è necessario disporre di un'**identità digitale SPID o CIE di livello 2**.&#x20;
-* Il Legale Rappresentante dell'ente deve essere in possesso di una **firma elettronica qualificata (FEQ) di tipo CAdES**.&#x20;
+* Per completare il processo, è necessario disporre di un'**identità digitale SPID o CIE di livello 2**.
+* Il Legale Rappresentante dell'ente deve essere in possesso di una **firma elettronica qualificata (FEQ) di tipo CAdES**.
 
 ### Verifiche preliminari
 
@@ -35,7 +35,7 @@
 
 {% embed url="https://selfcare.pagopa.it/onboarding/prod-interop" %}
 
-L’adesione si avvia con **accesso SPID o CIE**. Il processo può essere avviato da **un utente**, anche **diverso dal legale rappresentante**; la **legittimità** è garantita poiché l’**Accordo di Adesione** da sottoscrivere viene **trasmesso al domicilio digitale** istituzionale.&#x20;
+L’adesione si avvia con **accesso SPID o CIE**. Il processo può essere avviato da **un utente**, anche **diverso dal legale rappresentante**; la **legittimità** è garantita poiché l’**Accordo di Adesione** da sottoscrivere viene **trasmesso al domicilio digitale** istituzionale.
 
 Per gli enti e le organizzazioni presenti sul **Catalogo IPA**, il domicilio digitale è **preimpostato**; **eventuali aggiornamenti si eseguono direttamente su IPA**.
 
@@ -45,7 +45,7 @@ Seleziona la **tipologia dell’ente** per cui stai operando, ai sensi degli **a
 
 Quando l’informazione è disponibile tramite **IPA**, la tipologia è **preselezionata**; è comunque possibile **modificarla** scegliendo un’opzione diversa.
 
-<figure><img src="../.gitbook/assets/Selezione ente onboarding.png" alt=""><figcaption><p>La schermata di selezione della tipologia dell'ente</p></figcaption></figure>
+<figure><img src="../../5esl1LsfE1mLepPADQoC/.gitbook/assets/Selezione ente onboarding.png" alt=""><figcaption><p>La schermata di selezione della tipologia dell'ente</p></figcaption></figure>
 
 Successivamente, **confermare** che le informazioni visualizzate siano corrette per poter proseguire.
 
@@ -53,9 +53,9 @@ Successivamente, **confermare** che le informazioni visualizzate siano corrette 
 
 Solo per Pubbliche Amministrazioni (PA), Gestori di Servizi Pubblici (GSP), Società a Controllo Pubblico (SCP) e Società in Conto Economico Consolidato (SCEC)
 
-<figure><img src="../.gitbook/assets/Screenshot 2024-10-09 alle 09.36.09.png" alt="" width="375"><figcaption><p>La schermata di selezione dell'ente per SCP</p></figcaption></figure>
+<figure><img src="../../5esl1LsfE1mLepPADQoC/.gitbook/assets/Screenshot 2024-10-09 alle 09.36.09.png" alt="" width="375"><figcaption><p>La schermata di selezione dell'ente per SCP</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/selfcare.pagopa.it_onboarding_prod-interop(Macbook Pro – Screenshot).png" alt="" width="375"><figcaption><p>La schermata di selezione dell'ente per PA e GSP</p></figcaption></figure>
+<figure><img src="../../5esl1LsfE1mLepPADQoC/.gitbook/assets/selfcare.pagopa.it_onboarding_prod-interop(Macbook Pro – Screenshot).png" alt="" width="375"><figcaption><p>La schermata di selezione dell'ente per PA e GSP</p></figcaption></figure>
 
 **Pubbliche Amministrazioni (PA) e Gestori di Servizi Pubblici (GSP)**
 
@@ -63,14 +63,14 @@ Solo per Pubbliche Amministrazioni (PA), Gestori di Servizi Pubblici (GSP), Soci
 * L’elenco è **alimentato dal Catalogo IPA**.
 * **Se l’ente non è presente**, utilizza il **link informativo** sotto il campo per conoscere la procedura di **accreditamento su IPA**.
 
-**Società a Controllo Pubblico (SCP) e Società in Conto Economico Consolidato (SCEC)**&#x20;
+**Società a Controllo Pubblico (SCP) e Società in Conto Economico Consolidato (SCEC)**
 
 * **Inserisci il codice fiscale** della società.
 * La **denominazione** viene proposta automaticamente dopo il clic su **“Continua”.**
 
 #### 4. Inserire i dati dell'ente
 
-![La schermata nella quale indicare i dati dell'ente, abitualmente precompilata con le informazioni che vengono dal Catalogo IPA](<../.gitbook/assets/uat.selfcare.pagopa.it_onboarding_prod-interop(Macbook Pro – Screenshot) (2).png>)
+![La schermata nella quale indicare i dati dell'ente, abitualmente precompilata con le informazioni che vengono dal Catalogo IPA](<../../5esl1LsfE1mLepPADQoC/.gitbook/assets/uat.selfcare.pagopa.it_onboarding_prod-interop(Macbook Pro – Screenshot) (2).png>)
 
 * I campi sopra indicati vengono **precompilati**, quando disponibili, sulla base delle fonti ufficiali.
 * Quando l’origine è il **Catalogo IPA**, i campi **Ragione sociale**, **Sede legale**, **Indirizzo PEC**, **Codice fiscale** e **Partita IVA** sono **valorizzati e bloccati** per garantire coerenza con i dati IPA.
@@ -79,7 +79,7 @@ Solo per Pubbliche Amministrazioni (PA), Gestori di Servizi Pubblici (GSP), Soci
 
 #### 5. Indicare il Legale Rappresentante
 
-![La schermata nella quale si inseriscono le informazioni del legale rappresentante dell'ente](<../.gitbook/assets/uat.selfcare.pagopa.it_onboarding_prod-interop(Macbook Pro – Screenshot) (3).png>)
+![La schermata nella quale si inseriscono le informazioni del legale rappresentante dell'ente](<../../5esl1LsfE1mLepPADQoC/.gitbook/assets/uat.selfcare.pagopa.it_onboarding_prod-interop(Macbook Pro – Screenshot) (3).png>)
 
 * **Compila** i dati richiesti per la sezione **legale rappresentante**.
 * Ai fini dell’adesione, la figura può **coincidere con il rappresentante pro tempore** oppure con un **procuratore** munito dei **poteri di firma** necessari.
@@ -87,7 +87,7 @@ Solo per Pubbliche Amministrazioni (PA), Gestori di Servizi Pubblici (GSP), Soci
 
 #### 6. Nomina degli Amministratori
 
-![La schermata nella quale si inseriscono i dati degli utenti con privilegi di amministrazione](<../.gitbook/assets/uat.selfcare.pagopa.it_onboarding_prod-interop(Macbook Pro – Screenshot) (4).png>)
+![La schermata nella quale si inseriscono i dati degli utenti con privilegi di amministrazione](<../../5esl1LsfE1mLepPADQoC/.gitbook/assets/uat.selfcare.pagopa.it_onboarding_prod-interop(Macbook Pro – Screenshot) (4).png>)
 
 Il passo successivo consiste nella nomina di uno o più **Amministratori**. Queste figure saranno gli utenti principali del back-office di Interoperabilità e avranno il compito di gestire la piattaforma per conto dell'ente.
 
@@ -108,7 +108,7 @@ L'ente deve:
 
 #### 8. Caricamento dell'Accordo e Finalizzazione
 
-![La schermata nella quale si carica l'accordo di adesione ricevuto al domicilio digitale, firmato dal legale rappresentante dell'ente](<../.gitbook/assets/Screenshot 2022-07-28 at 17.15.59.png>)
+![La schermata nella quale si carica l'accordo di adesione ricevuto al domicilio digitale, firmato dal legale rappresentante dell'ente](<../../5esl1LsfE1mLepPADQoC/.gitbook/assets/Screenshot 2022-07-28 at 17.15.59.png>)
 
 L'ultimo passaggio consiste nel tornare sulla piattaforma e **caricare il file `.p7m`** dell'accordo firmato. Il sistema verificherà automaticamente la validità della firma.
 
