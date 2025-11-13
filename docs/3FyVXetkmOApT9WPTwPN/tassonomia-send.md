@@ -150,7 +150,7 @@ Tutte le comunicazioni che riguardano il contributo da versare in relazione alla
 ### 0205 - **Demanio Idrico**
 
 * Codice`020501P` - **Notifiche Riscossione con pagamento** 
-Tutte le tipologie di comunicazioni associate al pagamento del Canone di Concessione e/odell’Indennizzo, del Deposito cauzionale, e/o dell’imposta regionale del 10% 
+Tutte le tipologie di comunicazioni associate al pagamento del Canone di Concessione e/o dell’Indennizzo, del Deposito cauzionale, e/o dell’imposta regionale del 10% 
 
 * Codice`020502N` - **Notifiche per Autorizzazioni/Concessioni – Nulla Osta Demaniali** 
 Tutte le tipologie di comunicazioni che non prevedono un pagamento correlato
@@ -158,10 +158,10 @@ Tutte le tipologie di comunicazioni che non prevedono un pagamento correlato
 ### 0206 - **Accesso agli Atti**
 
 * Codice`020601P` - **Comunicazioni relative a processi amministrativi di accesso agli atti** 
-Tutte le tipologie di comunicazioni associate ad un pagamento rispetto alla erogazione del serviziodi accesso agli atti dell&#39;Ente.
+Tutte le tipologie di comunicazioni associate ad un pagamento rispetto alla erogazione del servizio di accesso agli atti dell&#39;Ente.
 
-* Codice`020601P` - **Comunicazioni relative a processi amministrativi di accesso agli atti** 
-Notifiche di atti relativi a procedimenti relativi alla richiesta di accesso agli atti dell&#39;Ente (conferma,diniego, rifiuto, etc...)
+* Codice`020602N` - **Comunicazioni relative a processi amministrativi di accesso agli atti** 
+Notifiche di atti relativi a procedimenti relativi alla richiesta di accesso agli atti dell&#39;Ente (conferma, diniego, rifiuto, etc...)
 
 
 ##  03 - Riscossore
@@ -428,6 +428,11 @@ Sollecito avviso di pagamento di una o più rate scadute del finanziamento/contr
 * Codice`120103P` - **Notifica Atto di Ingiunzione** 
 Atto di ingiunzione alla restituzione del finanziamento e/o contributo concesso qualora l’intero ammontare non sia stato restituito a seguito di revoca nei tempi stabiliti
 
+### 1202 - **Equitalia Giustizia**
+
+* Codice`120201P` - **Recupero del Contributo Unificato** 
+Equitalia Giustizia gestisce il recupero del Contributo Unificato per conto del Ministero della giustizia
+
 
 
 
@@ -658,7 +663,7 @@ Atto di ingiunzione alla restituzione del finanziamento e/o contributo concesso 
     <td>Notifiche Riscossione con pagamento</td>
 </tr>
 <tr>
-    <td colspan="4">Tutte le tipologie di comunicazioni associate al pagamento del Canone di Concessione e/odell’Indennizzo, del Deposito cauzionale, e/o dell’imposta regionale del 10%</td>
+    <td colspan="4">Tutte le tipologie di comunicazioni associate al pagamento del Canone di Concessione e/o dell’Indennizzo, del Deposito cauzionale, e/o dell’imposta regionale del 10%</td>
 </tr>
 <tr>
     <td rowspan="2"><strong>020502N</strong></td>
@@ -676,7 +681,7 @@ Atto di ingiunzione alla restituzione del finanziamento e/o contributo concesso 
     <td>Comunicazioni relative a processi amministrativi di accesso agli atti</td>
 </tr>
 <tr>
-    <td colspan="4">Tutte le tipologie di comunicazioni associate ad un pagamento rispetto alla erogazione del serviziodi accesso agli atti dell&#39;Ente.</td>
+    <td colspan="4">Tutte le tipologie di comunicazioni associate ad un pagamento rispetto alla erogazione del servizio di accesso agli atti dell&#39;Ente.</td>
 </tr>
 <tr>
     <td rowspan="2"><strong>020602N</strong></td>
@@ -685,7 +690,7 @@ Atto di ingiunzione alla restituzione del finanziamento e/o contributo concesso 
     <td>Comunicazioni relative a processi amministrativi di accesso agli atti</td>
 </tr>
 <tr>
-    <td colspan="4">Notifiche di atti relativi a procedimenti relativi alla richiesta di accesso agli atti dell&#39;Ente (conferma,diniego, rifiuto, etc...)</td>
+    <td colspan="4">Notifiche di atti relativi a procedimenti relativi alla richiesta di accesso agli atti dell&#39;Ente (conferma, diniego, rifiuto, etc...)</td>
 </tr>
 <tr>
     <td rowspan="2"><strong>030101P</strong></td>
@@ -1091,6 +1096,15 @@ Atto di ingiunzione alla restituzione del finanziamento e/o contributo concesso 
 </tr>
 <tr>
     <td colspan="4">Atto di ingiunzione alla restituzione del finanziamento e/o contributo concesso qualora l’intero ammontare non sia stato restituito a seguito di revoca nei tempi stabiliti</td>
+</tr>
+<tr>
+    <td rowspan="2"><strong>120201P</strong></td>
+    <td>12 - Società a Controllo Pubblico</td>
+    <td>02 - Equitalia Giustizia</td>
+    <td>Recupero del Contributo Unificato</td>
+</tr>
+<tr>
+    <td colspan="4">Equitalia Giustizia gestisce il recupero del Contributo Unificato per conto del Ministero della giustizia</td>
 </tr>
 </tbody>
 </table>
