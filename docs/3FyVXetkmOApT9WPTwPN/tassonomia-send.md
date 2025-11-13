@@ -428,6 +428,11 @@ Sollecito avviso di pagamento di una o più rate scadute del finanziamento/contr
 * Codice`120103P` - **Notifica Atto di Ingiunzione** 
 Atto di ingiunzione alla restituzione del finanziamento e/o contributo concesso qualora l’intero ammontare non sia stato restituito a seguito di revoca nei tempi stabiliti
 
+### 1202 - **Equitalia Giustizia**
+
+* Codice`120201P` - **Recupero del Contributo Unificato** 
+Equitalia Giustizia gestisce il recupero del Contributo Unificato per conto del Ministero della giustizia
+
 
 
 
@@ -1091,6 +1096,15 @@ Atto di ingiunzione alla restituzione del finanziamento e/o contributo concesso 
 </tr>
 <tr>
     <td colspan="4">Atto di ingiunzione alla restituzione del finanziamento e/o contributo concesso qualora l’intero ammontare non sia stato restituito a seguito di revoca nei tempi stabiliti</td>
+</tr>
+<tr>
+    <td rowspan="2"><strong>120201P</strong></td>
+    <td>12 - Società a Controllo Pubblico</td>
+    <td>02 - Equitalia Giustizia</td>
+    <td>Recupero del Contributo Unificato</td>
+</tr>
+<tr>
+    <td colspan="4">Equitalia Giustizia gestisce il recupero del Contributo Unificato per conto del Ministero della giustizia</td>
 </tr>
 </tbody>
 </table>
