@@ -94,26 +94,26 @@ sequenceDiagram
 
 ```
 
-## **Step 1: Ottenere un AccessToken**
+## Step 1: Ottenere un AccessToken
 
 Come per tutte le chiamate API verso la piattaforma, il primo passo consiste nell'ottenere un `AccessToken` valido tramite il flusso OAuth2 Client Credentials, utilizzando le proprie credenziali.
 
-## **Step 2: Interrogare il Discovery Service**
+## Step 2: Interrogare il Discovery Service
 
 Per scoprire le informazioni di raggiungibilità di un utente, è necessario interrogare l'endpoint di ricerca del Servizio di Attivazione.
 
-### **Endpoint**
+### Endpoint
 
 ```http
 GET /activations/payer
 ```
 
-#### **Parametri Header**
+#### Parametri Header
 
 * `PayerId` (header, obbligatorio): Il Codice Fiscale dell'utente (pagatore) di cui si vogliono conoscere le informazioni di attivazione.
 * `RequestId` (header, obbligatorio): Un UUID per identificare la richiesta.
 
-## **Step 3: Interpretare la Risposta (Come vengono erogate le informazioni)**
+## Step 3: Interpretare la Risposta (Come vengono erogate le informazioni)
 
 L'esito della chiamata determina se è possibile o meno inviare una SRTP all'utente.
 
