@@ -95,17 +95,17 @@ sequenceDiagram
     end
 ```
 
-## **Step 1: Implementa l'endpoint di ricezione**
+## Step 1: Implementa l'endpoint di ricezione
 
 Per prima cosa, il sistema dovrà esporre un endpoint in grado di ricevere le richieste. Questo endpoint diventerà il punto di ingresso per tutte le SRTP destinate agli utenti.
 
-### **Endpoint (da implementare)**
+### Endpoint (da implementare)
 
 ```http
 POST /sepa-request-to-pay-requests
 ```
 
-## **Step 2: Gestisci gli Header della Richiesta**
+## Step 2: Gestisci gli Header della Richiesta
 
 Ogni richiesta in entrata conterrà degli header HTTP standard che occorrerà gestire correttamente.
 
@@ -114,14 +114,14 @@ Ogni richiesta in entrata conterrà degli header HTTP standard che occorrerà ge
   2. Se si riceve una nuova richiesta con una chiave già vista, occorre verificare se il payload è identico. Se lo è,  è necessario restituire la risposta originale (`201 Created`); se è diverso, occorre restituire un errore (`422 Unprocessable Entity`).
 * **`X-Request-ID`**: Un ID di correlazione da utilizzare per il logging e il troubleshooting.
 
-## **Step 3: Validazione del Corpo della Richiesta (`SepaRequestToPayRequestResource`)**
+## Step 3: Validazione del Corpo della Richiesta (`SepaRequestToPayRequestResource`)
 
 La validazione del payload avviene in due fasi:
 
 1. **Validazione Sincrona (immediata)**: Appena si riceve la richiesta, occorre eseguire una validazione formale per assicurarsi che il corpo contenga un oggetto `SepaRequestToPayRequestResource` valido e che il messaggio `pain.013` incapsulato sia strutturalmente corretto. Se questa validazione fallisce,  occorre rispondere immediatamente con un errore (vedi Step 4).
 2. **Validazione di Business (successiva)**: Dopo aver confermato la presa in carico (vedi Step 4), vanno eseguiti controlli più approfonditi.&#x20;
 
-## **Step 4: Invia la Risposta Sincrona**
+## Step 4: Invia la Risposta Sincrona
 
 Dopo la validazione formale, è necessario inviare una risposta immediata per comunicare l'esito della presa in carico.
 
@@ -132,7 +132,7 @@ Dopo la validazione formale, è necessario inviare una risposta immediata per co
   * **`400 Bad Request`**: Per richieste malformate o non valide.
   * **`409 Conflict`**: Se la richiesta è un duplicato (stessa `Idempotency-key`).
 
-## **Step 5: Gestisci il Rifiuto Asincrono (DS-04)**
+## Step 5: Gestisci il Rifiuto Asincrono (DS-04)
 
 Questo passaggio è necessario se la validazione di business (descritta nello Step 3) fallisce **dopo** che hai già risposto `201 Created`.
 
