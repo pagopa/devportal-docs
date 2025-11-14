@@ -38,7 +38,7 @@ Questo passaggio ti permette di verificare la validità del `trxCode` e di calco
       "amountCents": 120000
     }
     ```
-3. Se la chiamata ha successo (risposta `200 OK`), riceverai un JSON con i dettagli della transazione (in stato `CREATED`), l'importo originale, lo sconto (`rewardCents`) e l'importo residuo (`residualAmountCents`).
+3. Se la chiamata ha successo (risposta `200 OK`), riceverai un JSON con i dettagli della transazione, l'importo originale, lo sconto (`rewardCents`) e l'importo residuo (`residualAmountCents`).
 4. Mostra al cliente nel carrello il prezzo finale scontato.
 
 ### Step 3: Autorizzare la transazione (Authorize)
@@ -51,7 +51,8 @@ Una volta che il cliente conferma di voler procedere con l'acquisto, devi "blocc
     ```json
     {
       "amountCents": 120000,
-      "idTrxAcquirer": "TUO_ID_ORDINE_UUID"
+      "idTrxAcquirer": "TUO_ID_ORDINE_UUID",
+      "additionalProperties": { "productGtin": "8024651207962" } 
     }
     ```
 3. Se la chiamata ha successo (`200 OK`), il buono è ora bloccato (stato `AUTHORIZED`) e non può essere utilizzato da nessun altro.
