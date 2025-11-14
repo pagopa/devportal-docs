@@ -104,13 +104,13 @@ sequenceDiagram
 
 ```
 
-## **Step 1: Identifica l'URL di Callback**
+## Step 1: Identifica l'URL di Callback
 
 L'URL a cui inviare la notifica di stato non è un indirizzo statico. Occorre recuperare dinamicamente l'URL corretto dal campo `callbackUrl` presente nel corpo della richiesta di pagamento (`SepaRequestToPayRequestResource`) originale che hai ricevuto.
 
 È fondamentale che il tuo sistema associ questo `callbackUrl` alla richiesta di pagamento per poterlo utilizzare in questo passaggio.
 
-## **Step 2: Componi il corpo della richiesta (`pain.014.001.07`)**
+## Step 2: Componi il corpo della richiesta (`pain.014.001.07`)
 
 Occorre comporre un messaggio `pain.014` che contenga l'esito dell'operazione. Questo messaggio sarà incapsulato in un oggetto `AsynchronousSepaRequestToPayResponseResource`.
 
@@ -122,7 +122,7 @@ Campi Chiave da Valorizzare:
   * `RJCT`: Se l'utente ha rifiutato la richiesta.
 * Motivazione: In caso di rifiuto, è buona norma compilare il blocco `StsRsnInf` per specificarne il motivo.
 
-### **Esempio di Payload di Accettazione (`pain.014`)**
+### Esempio di Payload di Accettazione (`pain.014`)
 
 ```json
 {
@@ -154,7 +154,7 @@ Campi Chiave da Valorizzare:
 }
 ```
 
-## **Step 3: Invia la notifica di stato**
+## Step 3: Invia la notifica di stato
 
 Una volta preparato il payload, occorre eseguire la chiamata API.
 
@@ -169,6 +169,6 @@ Di seguito occorrerà:
 1. Effettuare una chiamata `POST` all'URL di `callback` recuperato nello Step 1.
 2. Inserire il payload JSON che hai costruito nel corpo della richiesta.
 
-## **Step 4: Gestisci la risposta alla callback**
+## Step 4: Gestisci la risposta alla callback
 
 Se il messaggio è stato ricevuto correttamente dal server di PagoPA, verrà ricevuta una risposta immediata con uno status code `200 OK`. Questo conferma che la comunicazione è avvenuta con successo.
