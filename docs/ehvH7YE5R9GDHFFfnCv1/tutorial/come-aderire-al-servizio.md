@@ -115,11 +115,11 @@ sequenceDiagram
     end
 ```
 
-## **Prerequisito: Adesione allo schema EPC**
+## Prerequisito: Adesione allo schema EPC
 
 Prima di avviare il processo di onboarding con PagoPA, è necessario che l'istituto aderente abbia una soluzione conforme  allo schema SEPA Request-to-Pay (SRTP) seguendo le regole definite nel Rulebook dell'European Payments Council (EPC). Questa attività non è gestita da PagoPA.
 
-## **Step 1: Fornire le Informazioni Tecniche**
+## Step 1: Fornire le Informazioni Tecniche
 
 Prima della fase di adesione, occorrerà compilare il seguente allegato tecnico con tutte le informazioni necessarie alla configurazione del  servizio sulla piattaforma.:
 
@@ -135,18 +135,18 @@ I dati richiesti includono:
 * **Identificativo del canale pagoPA**: Il canale che verrà utilizzato per i pagamenti degli avvisi notificati tramite SRTP.
 * **Contatti**: L'indirizzo email di un referente tecnico per il supporto all'integrazione e l'elenco degli utenti (beta-tester) che opereranno in ambiente di test.
 
-## **Step 2: Sottoscrivere il modulo di Adesione con PagoPA**
+## Step 2: Sottoscrivere il modulo di Adesione con PagoPA
 
 Il  passo successivo consiste nel formalizzare l'adesione al servizio tramite la sottoscrizione del modulo di adesione fornito da PagoPA.
 
-## **Step 3: Ricevere le Credenziali di Accesso**
+## Step 3: Ricevere le Credenziali di Accesso
 
 A seguito della sottoscrizione del modulo e della trasmissione dei dati tecnici, l'Amministratore indicato riceverà una mail con scadenza contenente un link ad una cassaforte digitale dalla quale sarà possibile recuperare le informazioni necessarie. Nello specifico, verranno comunicati `clientId` e `client_secret`, indispensabili per l'autenticazione `OAuth2` e per l'utilizzo delle API.
 
-## **Step 4: Eseguire i Test in Ambiente di Certificazione (UAT)**
+## Step 4: Eseguire i Test in Ambiente di Certificazione (UAT)
 
 Una volta ottenute le credenziali, occorrerà procedere con l'integrazione tecnica e la certificazione in ambiente di test (UAT). Questa fase prevede l'implementazione dei flussi API e l'esecuzione di una serie di prove per verificare il corretto funzionamento dell'integrazione, che andranno documentate secondo le modalità fornite.
 
-## **Step 5: Pianificare il Passaggio in Produzione**
+## Step 5: Pianificare il Passaggio in Produzione
 
 Dopo aver completato con successo la fase di test e ottenuto la certificazione, sarà possibile concordare con PagoPA la data per il passaggio in produzione e iniziare a operare nel servizio reale.
