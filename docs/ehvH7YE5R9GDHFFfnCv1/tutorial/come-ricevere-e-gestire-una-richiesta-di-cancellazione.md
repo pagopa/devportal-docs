@@ -87,17 +87,17 @@ sequenceDiagram
     Note over  PA, SP : La conferma contiene lo stato<br>Sts.Conf = CNCL e TxCxlSts = ACCR
 ```
 
-## **Step 1: Implementazione dell'endpoint di ricezione della cancellazione**
+## Step 1: Implementazione dell'endpoint di ricezione della cancellazione
 
 Il sistema del Service Provider del Debitore deve esporre un endpoint in grado di ricevere le richieste di cancellazione inviate da PagoPA.
 
-### **Endpoint (da implementare)**
+### Endpoint (da implementare)
 
 ```http
 POST /sepa-request-to-pay-requests/{sepaRequestToPayRequestResourceId}/cancellation-requests
 ```
 
-## **Step 2: Ricezione e processamento del messaggio di cancellazione (`camt.055`)**
+## Step 2: Ricezione e processamento del messaggio di cancellazione (`camt.055`)
 
 Quando si riceve una chiamata su questo endpoint, il corpo della richiesta contiene un oggetto `SepaRequestToPayCancellationRequestResource`, che incapsula un messaggio `camt.055.001.08`.
 
