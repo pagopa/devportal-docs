@@ -111,7 +111,7 @@ sequenceDiagram
 
 ```
 
-## **Step 1: Ottenere l'AccessToken (Autenticazione)**
+## Step 1: Ottenere l'AccessToken (Autenticazione)
 
 Come per tutte le operazioni verso la piattaforma, il primo passo consiste nell'ottenere un token di autenticazione valido.
 
@@ -119,7 +119,7 @@ Come per tutte le operazioni verso la piattaforma, il primo passo consiste nell'
 2. Includere nella richiesta il tuo `client_id` e `client_secret`, che hai ricevuto durante il processo di adesione.
 3. Il server risponderà con un `AccessToken` da utilizzare nel passo successivo.
 
-## **Step 2: Preparare il corpo della richiesta (`ActivationReq`)**
+## Step 2: Preparare il corpo della richiesta (`ActivationReq`)
 
 Per attivare un utente, occorrerà costruire un semplice oggetto JSON che contiene i suoi dati identificativi e quelli del tuo servizio.
 
@@ -137,7 +137,7 @@ Per attivare un utente, occorrerà costruire un semplice oggetto JSON che contie
 * `payer.fiscalCode`: Il Codice Fiscale dell'utente che ha dato il consenso.
 * `payer.rtpSpId`: L'identificativo (BIC o P.IVA) del tuo servizio di Service Provider.
 
-## **Step 3: Invocare l'API di Attivazione**
+## Step 3: Invocare l'API di Attivazione
 
 Una volta ottenuto l'`AccessToken` e preparato il payload, sarà possibile procedere con la richiesta di attivazione.
 
@@ -149,7 +149,7 @@ POST /activations
 
 Occorrerà includere l'`AccessToken` nell'header `Authorization` come Bearer Token e il JSON `ActivationReq` nel corpo della richiesta.
 
-## **Step 4: Gestire la risposta del servizio**
+## Step 4: Gestire la risposta del servizio
 
 L'esito della chiamata  informa se l'attivazione è andata a buon fine o se l'utente era già attivo.
 
