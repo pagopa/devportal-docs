@@ -63,8 +63,6 @@ Upon first access, the administrator is advised to **set up the party’s contac
 
 It is necessary to wait up to 24 hours to ensure that all attributes are correctly assigned to the new party by the authoritative sources. More details about the attributes are available in the dedicated section.
 
-
-
 ***
 
-Next page [→ Reference legislation](reference-legislation.md)
+Next page [→ Reference legislation](../regulatory-references/reference-legislation.md)

@@ -7,7 +7,6 @@
 * [How it works: the operational flow](getting-started/normativa-e-approfondimenti.md)
 * [How to join: the complete guide](getting-started/funzionamento-generale.md)
 * [First access and initial configuration](getting-started/guida-alladesione.md)
-* [Reference legislation](getting-started/reference-legislation.md)
 
 ## Tutorials
 
@@ -92,4 +91,8 @@
 
 * [Support channels](other-information/canali-di-supporto.md)
 * [Changelog](other-information/changelog.md)
-* [Terms and conditions and SLAs](other-information/terms-and-conditions-and-slas.md)
+
+## Regulatory references
+
+* [Reference legislation](regulatory-references/reference-legislation.md)
+* [Terms and conditions and SLAs](regulatory-references/terms-and-conditions-and-slas.md)

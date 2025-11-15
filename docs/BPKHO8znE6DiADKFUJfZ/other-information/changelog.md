@@ -4,13 +4,13 @@
 
 <summary>August 2025</summary>
 
-#### 2.2.1 <a href="#id-2.2.0" id="id-2.2.0"></a>
+**2.2.1**
 
 **6 agosto**
 
 * Bug fixing
 
-#### 2.2.0 <a href="#id-2.2.0" id="id-2.2.0"></a>
+**2.2.0**
 
 **4 agosto**
 
@@ -22,50 +22,50 @@
 
 <summary>July 2025</summary>
 
-#### 2.1.6 <a href="#id-2.1.6" id="id-2.1.6"></a>
+**2.1.6**
 
 **28 luglio**
 
 * Bug fixing
 
-#### 2.1.5 <a href="#id-2.1.5" id="id-2.1.5"></a>
+**2.1.5**
 
 **21 luglio**
 
 * Bug fixing
 
-#### 2.1.4 <a href="#id-2.1.4" id="id-2.1.4"></a>
+**2.1.4**
 
 **17 luglio**
 
 * Bug fixing
 
-#### 2.1.3 <a href="#id-2.1.3" id="id-2.1.3"></a>
+**2.1.3**
 
 **15 luglio**
 
 * Bug fixing
 
-#### 2.1.2 <a href="#id-2.1.2" id="id-2.1.2"></a>
+**2.1.2**
 
 **14 luglio**
 
 * Bug fixing
 
-#### 2.1.1 <a href="#id-2.1.1" id="id-2.1.1"></a>
+**2.1.1**
 
 **9 luglio**
 
 * Bug fixing
 
-#### 2.1.0 <a href="#id-2.1.0" id="id-2.1.0"></a>
+**2.1.0**
 
 **1 luglio**
 
 * Introdotti quattro nuovi custom claim nel voucher rilasciato da PDND Interoperabilità
 * Introdotti vincoli stringenti dei claim per il rilascio del voucher
 
-#### 2.0.1 <a href="#id-2.0.1" id="id-2.0.1"></a>
+**2.0.1**
 
 **1 luglio**
 
@@ -77,7 +77,7 @@
 
 <summary>June 2025</summary>
 
-#### 2.0.0 <a href="#id-2.0.0" id="id-2.0.0"></a>
+**2.0.0**
 
 **30 giugno**
 
@@ -88,7 +88,7 @@
 * DPoP, Distributed Proof of Possession
 * Bug fixing
 
-#### 1.0.148 <a href="#id-1.0.148" id="id-1.0.148"></a>
+**1.0.148**
 
 **3 giugno**
 
@@ -100,19 +100,19 @@
 
 <summary>May 2025</summary>
 
-#### 1.0.147 <a href="#id-1.0.147" id="id-1.0.147"></a>
+**1.0.147**
 
 **26 maggio**
 
 * Bug fixing
 
-#### 1.0.146 <a href="#id-1.0.146" id="id-1.0.146"></a>
+**1.0.146**
 
 **15 maggio**
 
 * Bug fixing
 
-#### 1.0.145 <a href="#id-1.0.145" id="id-1.0.145"></a>
+**1.0.145**
 
 **9 maggio**
 
@@ -124,25 +124,25 @@
 
 <summary>April 2025</summary>
 
-#### 1.0.144 <a href="#id-1.0.144" id="id-1.0.144"></a>
+**1.0.144**
 
 **16 aprile**
 
 * Bug fixing
 
-#### 1.0.143 <a href="#id-1.0.143" id="id-1.0.143"></a>
+**1.0.143**
 
 **14 aprile**
 
 * Bug fixing
 
-#### 1.0.142 <a href="#id-1.0.142" id="id-1.0.142"></a>
+**1.0.142**
 
 **3 aprile**
 
 * Bug fixing
 
-#### 1.0.141 <a href="#id-1.0.141" id="id-1.0.141"></a>
+**1.0.141**
 
 **2 aprile**
 
@@ -154,19 +154,19 @@
 
 <summary>March 2025</summary>
 
-#### 1.0.140 <a href="#id-1.0.140" id="id-1.0.140"></a>
+**1.0.140**
 
 **28 marzo**
 
 * Bug fixing
 
-#### 1.0.139 <a href="#id-1.0.139" id="id-1.0.139"></a>
+**1.0.139**
 
 **21 marzo**
 
 * Bug fixing
 
-#### 1.0.138 <a href="#id-1.0.138" id="id-1.0.138"></a>
+**1.0.138**
 
 **18 marzo**
 
@@ -174,7 +174,7 @@
 * Aggiunta nella scheda dell'ente codice IPA / partita IVA
 * Bug fixing
 
-#### 1.0.137 <a href="#id-1.0.137" id="id-1.0.137"></a>
+**1.0.137**
 
 **3 marzo**
 
@@ -187,7 +187,7 @@
 
 <summary>February 2025</summary>
 
-#### 1.0.135 <a href="#id-1.0.135" id="id-1.0.135"></a>
+**1.0.135**
 
 **10 febbraio**
 
@@ -199,20 +199,20 @@
 
 <summary>January 2025</summary>
 
-#### 1.0.134 <a href="#id-1.0.134" id="id-1.0.134"></a>
+**1.0.134**
 
 **22 gennaio**
 
 * Aggiunta la possibilità di modificare il nome di un e-service
 * Bug fixing
 
-#### 1.0.133 <a href="#id-1.0.133" id="id-1.0.133"></a>
+**1.0.133**
 
 **20** **gennaio**
 
 * Aggiornamento infrastrutturale
 
-#### 1.0.132 <a href="#id-1.0.132" id="id-1.0.132"></a>
+**1.0.132**
 
 **8 gennaio**
 
@@ -224,19 +224,19 @@
 
 <summary>December 2024</summary>
 
-#### 1.0.131 <a href="#id-1.0.131" id="id-1.0.131"></a>
+**1.0.131**
 
 **30 dicembre**
 
 * Bug fixing
 
-#### 1.0.130 <a href="#id-1.0.130" id="id-1.0.130"></a>
+**1.0.130**
 
 **23 dicembre**
 
 * Bug fixing
 
-#### 1.0.129 <a href="#id-1.0.129" id="id-1.0.129"></a>
+**1.0.129**
 
 **16 dicembre**
 
@@ -244,19 +244,19 @@
 * Aggiunte le notifiche di cortesia di attivazione e rifiuto di una richiesta di fruizione
 * Bug fixing
 
-#### 1.0.128 <a href="#id-1.0.128" id="id-1.0.128"></a>
+**1.0.128**
 
 **10 dicembre**
 
 * Bug fixing
 
-#### 1.0.127 <a href="#id-1.0.127" id="id-1.0.127"></a>
+**1.0.127**
 
 **6 dicembre**
 
 * Bug fixing
 
-#### 1.0.126 <a href="#id-1.0.126" id="id-1.0.126"></a>
+**1.0.126**
 
 **5 dicembre**
 
@@ -268,43 +268,43 @@
 
 <summary>November 2024</summary>
 
-#### 1.0.125 <a href="#id-1.0.125" id="id-1.0.125"></a>
+**1.0.125**
 
 **29 novembre**
 
 * Bug fixing
 
-#### 1.0.124 <a href="#id-1.0.124" id="id-1.0.124"></a>
+**1.0.124**
 
 **26 novembre**
 
 * Bug fixing
 
-#### 1.0.123 <a href="#id-1.0.123" id="id-1.0.123"></a>
+**1.0.123**
 
 **25 novembre**
 
 * Bug fixing
 
-#### 1.0.122 <a href="#id-1.0.122" id="id-1.0.122"></a>
+**1.0.122**
 
 **14 novembre**
 
 * Bug fixing
 
-#### 1.0.121 <a href="#id-1.0.121" id="id-1.0.121"></a>
+**1.0.121**
 
 **13 novembre**
 
 * Bug fixing
 
-#### 1.0.120 <a href="#id-1.0.120" id="id-1.0.120"></a>
+**1.0.120**
 
 **12 novembre**
 
 * Bug fixing
 
-#### 1.0.119 <a href="#id-1.0.119" id="id-1.0.119"></a>
+**1.0.119**
 
 **11 novembre**
 
@@ -316,44 +316,44 @@
 
 <summary>October 2024</summary>
 
-#### 1.0.118 <a href="#id-1.0.118" id="id-1.0.118"></a>
+**1.0.118**
 
 **29 ottobre**
 
 * Aggiunta della nuova feature [Portachiavi Erogatore](https://docs.pagopa.it/interoperabilita-1/manuale-operativo/client-e-materiale-crittografico#portachiavi-erogatore)
 * Bug fixing
 
-#### 1.0.117 <a href="#id-1.0.117" id="id-1.0.117"></a>
+**1.0.117**
 
 **15 ottobre**
 
 * Bug fixing
 
-#### 1.0.116 <a href="#id-1.0.116" id="id-1.0.116"></a>
+**1.0.116**
 
 **11 ottobre**
 
 * Bug fixing
 
-#### 1.0.115 <a href="#id-1.0.115" id="id-1.0.115"></a>
+**1.0.115**
 
 **10 ottobre**
 
 * Bug fixing
 
-#### 1.0.114 <a href="#id-1.0.114" id="id-1.0.114"></a>
+**1.0.114**
 
 **7 ottobre**
 
 * Bug fixing
 
-#### 1.0.113 <a href="#id-1.0.113" id="id-1.0.113"></a>
+**1.0.113**
 
 **5 ottobre**
 
 * Adeguamento infrastrutturale
 
-#### 1.0.112 <a href="#id-1.0.112" id="id-1.0.112"></a>
+**1.0.112**
 
 **1 ottobre**
 
@@ -367,26 +367,26 @@
 
 <summary>September 2024</summary>
 
-#### 1.0.111 <a href="#id-1.0.111" id="id-1.0.111"></a>
+**1.0.111**
 
 **30 settembre**
 
 * Abilitazione per le Società a Controllo Pubblico all'ingresso in piattaforma
 
-#### 1.0.110 <a href="#id-1.0.110" id="id-1.0.110"></a>
+**1.0.110**
 
 **24 settembre**
 
 * Bug fixing
 * Adeguamento infrastrutturale
 
-#### 1.0.109 <a href="#id-1.0.109" id="id-1.0.109"></a>
+**1.0.109**
 
 **10 settembre**
 
 * Bug fixing
 
-#### 1.0.108 <a href="#id-1.0.108" id="id-1.0.108"></a>
+**1.0.108**
 
 **4 settembre**
 
@@ -399,19 +399,19 @@
 
 <summary>August 2024</summary>
 
-#### 1.0.107 <a href="#id-1.0.107" id="id-1.0.107"></a>
+**1.0.107**
 
 **23 agosto**
 
 * Adeguamento infrastrutturale
 
-#### 1.0.106 <a href="#id-1.0.106" id="id-1.0.106"></a>
+**1.0.106**
 
 **9 agosto**
 
 * Bug fixing
 
-#### 1.0.105 <a href="#id-1.0.105" id="id-1.0.105"></a>
+**1.0.105**
 
 **7 agosto**
 
@@ -423,13 +423,13 @@
 
 <summary>July 2024</summary>
 
-#### 1.0.104 <a href="#id-1.0.104" id="id-1.0.104"></a>
+**1.0.104**
 
 **30 luglio**
 
 * Bug fixing
 
-#### 1.0.103 <a href="#id-1.0.103" id="id-1.0.103"></a>
+**1.0.103**
 
 **29 luglio**
 
@@ -440,26 +440,26 @@
 * Aggiunta link all'OpenAPI checker
 * Presenza del correlationID che viene esposto in caso di errore durante la pubblicazione di un e-service
 
-#### 1.0.102 <a href="#id-1.0.102" id="id-1.0.102"></a>
+**1.0.102**
 
 **23 luglio**
 
 * Bug fixing
 
-#### 1.0.101 <a href="#id-1.0.101" id="id-1.0.101"></a>
+**1.0.101**
 
 **17 luglio**
 
 * Bug fixing
 
-#### 1.0.100 <a href="#id-1.0.100" id="id-1.0.100"></a>
+**1.0.100**
 
 **12 luglio**
 
 * Bug fixing
 * Adeguamento infrastrutturale
 
-#### 1.0.99 <a href="#id-1.0.99" id="id-1.0.99"></a>
+**1.0.99**
 
 **2 luglio**
 
@@ -473,39 +473,39 @@
 
 <summary>June 2024</summary>
 
-#### 1.0.98 <a href="#id-1.0.98" id="id-1.0.98"></a>
+**1.0.98**
 
 **25 giugno**
 
 * Bug fixing
 * Aggiunta la possibilità di modificare la documentazione all'interno di e-service già pubblicati senza dover creare una nuova versione
 
-#### 1.0.97 <a href="#id-1.0.97" id="id-1.0.97"></a>
+**1.0.97**
 
 **23 giugno**
 
 * Bug fixing
 * Adeguamento infrastrutturale
 
-#### 1.0.96 <a href="#id-1.0.96" id="id-1.0.96"></a>
+**1.0.96**
 
 **19 giugno**
 
 * Bug fixing
 
-#### 1.0.95 <a href="#id-1.0.95" id="id-1.0.95"></a>
+**1.0.95**
 
 **17 giugno**
 
 * Bug fixing
 
-#### 1.0.94 <a href="#id-1.0.94" id="id-1.0.94"></a>
+**1.0.94**
 
 **5 giugno**
 
 * Bug fixing
 
-#### 1.0.93 <a href="#id-1.0.93" id="id-1.0.93"></a>
+**1.0.93**
 
 **4 giugno**
 
@@ -517,7 +517,7 @@
 
 <summary>May 2024</summary>
 
-#### 1.0.92 <a href="#id-1.0.92" id="id-1.0.92"></a>
+**1.0.92**
 
 **30 maggio**
 
@@ -526,19 +526,19 @@
 * Integrazione di MixPanel e OneTrust sul sito PDND Interoperabilità
 * Aggiunta la possibilità di clonare una finalità associandola ad un e-service differente da quello di partenza
 
-#### 1.0.91 <a href="#id-1.0.91" id="id-1.0.91"></a>
+**1.0.91**
 
 **23 maggio**
 
 * Bug fixing
 
-#### 1.0.90 <a href="#id-1.0.90" id="id-1.0.90"></a>
+**1.0.90**
 
 **9 maggio**
 
 * Bug fixing
 
-#### 1.0.89 <a href="#id-1.0.89" id="id-1.0.89"></a>
+**1.0.89**
 
 **6 maggio**
 
@@ -550,26 +550,26 @@
 
 <summary>April 2024</summary>
 
-#### 1.0.88 <a href="#id-1.0.88" id="id-1.0.88"></a>
+**1.0.88**
 
 **29 aprile**
 
 * Adeguamento infrastrutturale
 * Abilitazione per le assicurazioni estere all'entrata in piattaforma
 
-#### 1.0.87 <a href="#id-1.0.87" id="id-1.0.87"></a>
+**1.0.87**
 
 **22 aprile**
 
 * Bug fixing
 
-#### 1.0.86 <a href="#id-1.0.86" id="id-1.0.86"></a>
+**1.0.86**
 
 **17 aprile**
 
 * Aggiornamenti del back office
 
-#### 1.0.85 <a href="#id-1.0.85" id="id-1.0.85"></a>
+**1.0.85**
 
 **9 aprile**
 
@@ -581,37 +581,37 @@
 
 <summary>March 2024</summary>
 
-#### 1.0.84 <a href="#id-1.0.84" id="id-1.0.84"></a>
+**1.0.84**
 
 **28 marzo**
 
 * Bug fixing
 
-#### 1.0.83 <a href="#id-1.0.83" id="id-1.0.83"></a>
+**1.0.83**
 
 **27 marzo**
 
 * Bug fixing
 
-#### 1.0.82 <a href="#id-1.0.82" id="id-1.0.82"></a>
+**1.0.82**
 
 **26 marzo**
 
 * Bug fixing
 
-#### 1.0.81 <a href="#id-1.0.81" id="id-1.0.81"></a>
+**1.0.81**
 
 **19 marzo**
 
 * Bug fixing
 
-#### 1.0.80 <a href="#id-1.0.80" id="id-1.0.80"></a>
+**1.0.80**
 
 **18 marzo**
 
 * Bug fixing
 
-#### 1.0.79 <a href="#id-1.0.79" id="id-1.0.79"></a>
+**1.0.79**
 
 **15 marzo**
 
@@ -623,7 +623,7 @@
 
 <summary>February 2024</summary>
 
-#### 1.0.78 <a href="#id-1.0.78" id="id-1.0.78"></a>
+**1.0.78**
 
 **19 febbraio**
 
@@ -631,7 +631,7 @@
 * Aggiornamento metriche per la dashboard pubblica
 * Bug fixing
 
-#### 1.0.77 <a href="#id-1.0.77" id="id-1.0.77"></a>
+**1.0.77**
 
 **8 febbraio**
 
@@ -644,37 +644,37 @@
 
 <summary>January 2024</summary>
 
-#### 1.0.75 e 1.0.76 <a href="#id-1.0.75-e-1.0.76" id="id-1.0.75-e-1.0.76"></a>
+**1.0.75 e 1.0.76**
 
 **26 gennaio**
 
 * Bug fixing
 
-#### 1.0.74 <a href="#id-1.0.74" id="id-1.0.74"></a>
+**1.0.74**
 
 **24 gennaio**
 
 * Bug fixing
 
-#### 1.0.73 <a href="#id-1.0.73" id="id-1.0.73"></a>
+**1.0.73**
 
 **16 gennaio**
 
 * Bug fixing
 
-#### 1.0.72 <a href="#id-1.0.72" id="id-1.0.72"></a>
+**1.0.72**
 
 **12 gennaio**
 
 * Bug fixing
 
-#### 1.0.71 <a href="#id-1.0.71" id="id-1.0.71"></a>
+**1.0.71**
 
 **11 gennaio**
 
 * Bug fixing
 
-#### 1.0.70 <a href="#id-1.0.70" id="id-1.0.70"></a>
+**1.0.70**
 
 **9 gennaio**
 
@@ -686,31 +686,31 @@
 
 <summary>December 2023</summary>
 
-#### 1.0.69 <a href="#id-1.0.69" id="id-1.0.69"></a>
+**1.0.69**
 
 **22 dicembre**
 
 * Bug fixing
 
-#### 1.0.68 <a href="#id-1.0.68" id="id-1.0.68"></a>
+**1.0.68**
 
 **20 dicembre**
 
 * Bug fixing
 
-#### 1.0.67 <a href="#id-1.0.67" id="id-1.0.67"></a>
+**1.0.67**
 
 **19 dicembre**
 
 * Bug fixing
 
-#### 1.0.65 e 1.0.66 <a href="#id-1.0.65-e-1.0.66" id="id-1.0.65-e-1.0.66"></a>
+**1.0.65 e 1.0.66**
 
 **15 dicembre**
 
 * Bug fixing
 
-#### 1.0.64 <a href="#id-1.0.64" id="id-1.0.64"></a>
+**1.0.64**
 
 **13 dicembre**
 
@@ -734,7 +734,7 @@
 * Aggiunta la possibilità di scaricare la documentazione tecnica dell’e-service dell’erogatore
 * Bug fixing
 
-#### 1.0.63 <a href="#id-1.0.63" id="id-1.0.63"></a>
+**1.0.63**
 
 **6 dicembre**
 
@@ -746,19 +746,19 @@
 
 <summary>November 2023</summary>
 
-#### 1.0.62 <a href="#id-1.0.62" id="id-1.0.62"></a>
+**1.0.62**
 
 **14 novembre**
 
 * Bug fixing
 
-#### 1.0.61 <a href="#id-1.0.61" id="id-1.0.61"></a>
+**1.0.61**
 
 **13 novembre**
 
 * Rilascio automazione generazione metriche giornaliere: pubblicazione e-service e abilitazione enti
 
-#### **1.0.60** <a href="#id-1.0.60" id="id-1.0.60"></a>
+**1.0.60**
 
 **6 novembre**
 
@@ -770,19 +770,19 @@
 
 <summary>October 2023</summary>
 
-#### 1.0.59 <a href="#id-1.0.59" id="id-1.0.59"></a>
+**1.0.59**
 
 **25 ottobre**
 
 * Bug fixing
 
-#### 1.0.58 <a href="#id-1.0.58" id="id-1.0.58"></a>
+**1.0.58**
 
 **25 ottobre**
 
 * Bug fixing
 
-#### 1.0.57 <a href="#id-1.0.57" id="id-1.0.57"></a>
+**1.0.57**
 
 **23 ottobre**
 
@@ -790,7 +790,7 @@
 * Rilascio della nuova funzione di erogazione inversa
 * Abilitazione dell'Autorità Nazionale Anticorruzione alla piattaforma
 
-#### 1.0.56 <a href="#id-1.0.56" id="id-1.0.56"></a>
+**1.0.56**
 
 **10 ottobre**
 
@@ -802,26 +802,26 @@
 
 <summary>September 2023</summary>
 
-#### 1.0.55 <a href="#id-1.0.55" id="id-1.0.55"></a>
+**1.0.55**
 
 **27 settembre**
 
 * Bug fixing
 
-#### 1.0.54 <a href="#id-1.0.54" id="id-1.0.54"></a>
+**1.0.54**
 
 **18 settembre**
 
 * Bug fixing
 
-#### 1.0.53 <a href="#id-1.0.53" id="id-1.0.53"></a>
+**1.0.53**
 
 **15 settembre**
 
 * Bug fixing
 * Esposizione metriche e-service
 
-#### 1.0.52 <a href="#id-1.0.52" id="id-1.0.52"></a>
+**1.0.52**
 
 **11 settembre**
 
@@ -835,13 +835,13 @@
 
 <summary>August 2023</summary>
 
-#### 1.0.51 <a href="#id-1.0.51" id="id-1.0.51"></a>
+**1.0.51**
 
 **3 agosto**
 
 * Bug fixing
 
-#### 1.0.50 <a href="#id-1.0.50" id="id-1.0.50"></a>
+**1.0.50**
 
 **2 agosto**
 
@@ -853,7 +853,7 @@
 
 <summary>July 2023</summary>
 
-#### 1.0.49 <a href="#id-1.0.49" id="id-1.0.49"></a>
+**1.0.49**
 
 **31 luglio**
 
@@ -867,19 +867,19 @@
 * Archiviazione manuale della richiesta di fruizione (lato fruitore)
 * Bug fixing
 
-#### 1.0.48 <a href="#id-1.0.48" id="id-1.0.48"></a>
+**1.0.48**
 
 **14 luglio**
 
 * Rilascio del nuovo [catalogo degli e-service](https://www.interop.pagopa.it/catalogo) sul sito di Interoperabilità
 
-#### 1.0.47 <a href="#id-1.0.47" id="id-1.0.47"></a>
+**1.0.47**
 
 **7 luglio**
 
 * Allineamento e aggiornamento delle dashboard su [https://www.interop.pagopa.it/numeri](https://www.interop.pagopa.it/numeri)
 
-#### 1.0.46 <a href="#id-1.0.46" id="id-1.0.46"></a>
+**1.0.46**
 
 **4 luglio**
 
@@ -892,20 +892,20 @@
 
 <summary>June 2023</summary>
 
-#### 1.0.45 <a href="#id-1.0.45" id="id-1.0.45"></a>
+**1.0.45**
 
 **22 giugno**
 
 * Bug fixing
 
-#### 1.0.44 <a href="#id-1.0.44" id="id-1.0.44"></a>
+**1.0.44**
 
 **20 giugno**
 
 * Aggiunta attributo certificato Pubbliche Amministrazioni
 * Bug fixing
 
-#### 1.0.43 <a href="#id-1.0.43" id="id-1.0.43"></a>
+**1.0.43**
 
 **9 giugno**
 
@@ -917,19 +917,19 @@
 
 <summary>May 2023</summary>
 
-#### 1.0.42 <a href="#id-1.0.42" id="id-1.0.42"></a>
+**1.0.42**
 
 **25 maggio**
 
 * Adeguamento infrastrutturale
 
-#### 1.0.41 <a href="#id-1.0.41" id="id-1.0.41"></a>
+**1.0.41**
 
 **25 maggio**
 
 * Bug fixing
 
-#### 1.0.40 <a href="#id-1.0.40" id="id-1.0.40"></a>
+**1.0.40**
 
 **22 maggio**
 
@@ -937,7 +937,7 @@
 * Aggiunta la possibilità di inserire informazione pseudoanonimizzate all’interno del token
 * Adeguamento infrastrutturale
 
-#### 1.0.39 <a href="#id-1.0.39" id="id-1.0.39"></a>
+**1.0.39**
 
 **22 maggio**
 
@@ -952,13 +952,13 @@
 
 <summary>April 2023</summary>
 
-#### 1.0.38 <a href="#id-1.0.38" id="id-1.0.38"></a>
+**1.0.38**
 
 **26 aprile**
 
 * Bug fixing
 
-#### 1.0.37 <a href="#id-1.0.37" id="id-1.0.37"></a>
+**1.0.37**
 
 **17 aprile**
 
@@ -977,7 +977,7 @@
 
 <summary>March 2023</summary>
 
-#### **2 marzo** <a href="#id-2-marzo" id="id-2-marzo"></a>
+**2 marzo**
 
 * Rilascio in produzione del nuovo ambiente di Collaudo che sostituisce quello di Test e permette maggiori funzionalità
 * Rilascio della nuova [dashboard](https://www.interop.pagopa.it/numeri) sulle metriche di PDND Interoperabilità
@@ -988,31 +988,31 @@
 
 <summary>February 2023</summary>
 
-#### 1.0.36 <a href="#id-1.0.36" id="id-1.0.36"></a>
+**1.0.36**
 
 **28 febbraio**
 
 * Bug fixing
 
-#### 1.0.35 <a href="#id-1.0.35" id="id-1.0.35"></a>
+**1.0.35**
 
 **28 febbraio**
 
 * Bug fixing
 
-#### 1.0.34 <a href="#id-1.0.34" id="id-1.0.34"></a>
+**1.0.34**
 
 **27 febbraio**
 
 * Bug fixing
 
-#### 1.0.33 <a href="#id-1.0.33" id="id-1.0.33"></a>
+**1.0.33**
 
 **23 febbraio**
 
 * Bug fixing
 
-#### 1.0.32 <a href="#id-1.0.32" id="id-1.0.32"></a>
+**1.0.32**
 
 **21 febbraio**
 
@@ -1036,13 +1036,13 @@
 
 <summary>January 2023</summary>
 
-#### 1.0.30 <a href="#id-1.0.30" id="id-1.0.30"></a>
+**1.0.30**
 
 **26 gennaio**
 
 * Bug fixing
 
-#### 1.0.29 <a href="#id-1.0.29" id="id-1.0.29"></a>
+**1.0.29**
 
 **23 gennaio**
 
@@ -1055,7 +1055,7 @@
 * Internal enhancement
 * Migliorato il feedback di caricamento dati
 
-#### 1.0.28 <a href="#id-1.0.28" id="id-1.0.28"></a>
+**1.0.28**
 
 **9 gennaio**
 
@@ -1067,13 +1067,13 @@
 
 <summary>December 2022</summary>
 
-#### 1.0.27 <a href="#id-1.0.27" id="id-1.0.27"></a>
+**1.0.27**
 
 **29 dicembre**
 
 * Aggiunto un nuovo processo per la generazione delle metriche per PA-Digitale
 
-#### 1.0.26 <a href="#id-1.0.26" id="id-1.0.26"></a>
+**1.0.26**
 
 **21 dicembre**
 
@@ -1085,19 +1085,19 @@
 
 <summary>November 2022</summary>
 
-#### 1.0.25 <a href="#id-1.0.25" id="id-1.0.25"></a>
+**1.0.25**
 
 **17 novembre**
 
 * Bug fixing
 
-#### 1.0.24 <a href="#id-1.0.24" id="id-1.0.24"></a>
+**1.0.24**
 
 **16 novembre**
 
 * Bug fixing
 
-#### 1.0.23 <a href="#id-1.0.23" id="id-1.0.23"></a>
+**1.0.23**
 
 **10 novembre**
 
@@ -1105,7 +1105,7 @@
 * Aggiornata vista di accettazione termini di servizio
 * Bug fixing
 
-#### 1.0.22 <a href="#id-1.0.22" id="id-1.0.22"></a>
+**1.0.22**
 
 **3 novembre**
 
@@ -1118,7 +1118,7 @@
 
 <summary>October 2022</summary>
 
-#### **1.0.21** <a href="#id-1.0.21" id="id-1.0.21"></a>
+**1.0.21**
 
 **28 ottobre**
 
@@ -1132,7 +1132,7 @@
 * Semplificato form di analisi del rischio
 * Bug fixing
 
-#### 1.0.20 <a href="#id-1.0.20" id="id-1.0.20"></a>
+**1.0.20**
 
 **18 ottobre**
 
@@ -1154,4 +1154,4 @@
 
 ***
 
-Next page [→ Terms and conditions and SLAs](terms-and-conditions-and-slas.md)
+Next page [→ Terms and conditions and SLAs](../regulatory-references/terms-and-conditions-and-slas.md)
