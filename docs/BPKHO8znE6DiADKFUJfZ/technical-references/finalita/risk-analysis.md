@@ -29,6 +29,18 @@ The mode of the e-service is indicated in the essential information. More detail
 The **responsibility for the declarations** made in the risk analysis lies **with the party** that completes it, which **processes the data** in accordance with its own statements.\
 To ensure accuracy and traceability, the **purpose** must be **submitted** by a user with an **administrator role**.
 
+### Personal data
+
+During the e-service publication phase, the producer is required to complete a specific field declaring whether the service involves the processing (provision or reception) of personal data.
+
+#### Obligation for the consumer
+
+The producer's declaration binds the consumer during the compilation of the risk analysis. If the producer has indicated that personal data will be processed, the consumer must mandatorily select "Yes" in response to the question: "Indicate whether personal data is accessed."
+
+#### Obligation for the producer
+
+In the case of reverse delivery, where the e-service involves the reception (rather than the provision) of data, the producer itself must comply with and apply this requirement in its own risk analysis.
+
 ***
 
 Next page [→ Client](../client-e-materiale-crittografico/)

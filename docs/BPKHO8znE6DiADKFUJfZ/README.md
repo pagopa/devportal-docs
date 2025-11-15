@@ -28,7 +28,7 @@ The data for which producers are responsible **do not pass through** and are **n
 
 ## State of the art
 
-The AgID Guidelines on PDND define the platform’s technical specifications and functionalities. With reference to [the 2025 update](regulatory-references/reference-legislation.md), some of the newly introduced features are currently on the roadmap or under development and will be made available soon. This guide is updated progressively and provides the operational details required to use the functionalities available today.
+The AgID Guidelines on PDND define the platform’s technical specifications and functionalities. With reference to [the 2025 update](getting-started/reference-legislation.md), some of the newly introduced features are currently on the roadmap or under development and will be made available soon. This guide is updated progressively and provides the operational details required to use the functionalities available today.
 
 ***
 

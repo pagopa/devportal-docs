@@ -23,9 +23,10 @@ The general section requires:
 * **Name and brief description:** visible in the e-service catalog on the PDND platform.
 * **Technology:** indicates whether the API is developed in REST or SOAP.
 * **Mode:** specifies whether the e-service produces or receives data. If it produces, all API endpoints expose data. If it receives, all endpoints collect data.
-* **Risk analysis:** required only if the mode is “receiving.” In this case, the producer specifies the use cases for which it collects data from consumers and completes the dedicated questionnaire. More details are provided in the relevant section.
-* **Authorization for delegation:** specifies whether the consuming Public Administrations can delegate another administration to complete administrative tasks (_service request_, purpose) on their behalf. More details are provided in the relevant section.
-* **Presence of the data change notification service (Signal Hub):** indicates whether the e-service is integrated with Signal Hub, allowing consumers to receive notifications in case of data changes of their interest. More details are provided in the relevant section.
+* **Personal data provision (or reception)**: indicates whether the information supplied or received through the e-service qualifies as personal data. This declaration binds all parties to complete the risk analysis in accordance with this statement. More details are provided in the [relevant section](../finalita/risk-analysis.md#personal-data).
+* **Risk analysis:** required only if the mode is “receiving.” In this case, the producer specifies the use cases for which it collects data from consumers and completes the dedicated questionnaire. More details are provided in the [relevant section](../finalita/risk-analysis.md).
+* **Authorization for delegation:** specifies whether the consuming Public Administrations can delegate another administration to complete administrative tasks (_service request_, purpose) on their behalf. More details are provided in the [relevant section](../delegations/).
+* **Presence of the data change notification service (Signal Hub):** indicates whether the e-service is integrated with Signal Hub, allowing consumers to receive notifications in case of data changes of their interest. More details are provided in the [relevant section](../signal-hub.md).
 
 The values set for technology and mode remain unchanged after the publication of the first version of the e-service, ensuring service stability and consistency over time. However, it is possible to create new e-services and archive those no longer in use.
 

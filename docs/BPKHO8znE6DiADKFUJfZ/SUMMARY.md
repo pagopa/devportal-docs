@@ -17,6 +17,7 @@
   * [How to update and e-service by publishing a new version](tutorials/tutorials-for-producers/how-to-update-and-e-service-by-publishing-a-new-version.md)
   * [How to create a new certified attribute](tutorials/tutorials-for-producers/how-to-create-a-new-certified-attribute.md)
   * [How to associate a producer keychain with an e-service](tutorials/tutorials-for-producers/how-to-associate-a-producer-keychain-with-an-e-service.md)
+  * [How to formalize the declaration on personal data processing](tutorials/tutorials-for-producers/how-to-formalize-the-declaration-on-personal-data-processing.md)
   * [How to approve a pending service request via API](tutorials/tutorials-for-producers/how-to-approve-a-pending-service-request-via-api.md)
   * [How to retrieve pending service requests via API](tutorials/tutorials-for-producers/how-to-retrieve-pending-service-requests-via-api.md)
   * [How to sign a response for a subscriber](tutorials/tutorials-for-producers/how-to-sign-a-response-for-a-subscriber.md)
@@ -94,5 +95,5 @@
 
 ## Regulatory references
 
-* [Reference legislation](regulatory-references/reference-legislation.md)
-* [Terms and conditions and SLAs](regulatory-references/terms-and-conditions-and-slas.md)
+* [Reference legislation](getting-started/reference-legislation.md)
+* [Terms and conditions and SLAs](other-information/terms-and-conditions-and-slas.md)

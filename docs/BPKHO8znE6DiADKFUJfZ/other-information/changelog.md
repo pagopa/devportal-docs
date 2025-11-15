@@ -1154,4 +1154,4 @@
 
 ***
 
-Next page [→ Terms and conditions and SLAs](../regulatory-references/terms-and-conditions-and-slas.md)
+Next page [→ Terms and conditions and SLAs](terms-and-conditions-and-slas.md)
