@@ -24,6 +24,7 @@ Nella parte generale vengono richiesti:
 * **Nome** e **breve descrizione:** visibili nel catalogo degli e-service sulla piattaforma PDND.
 * **Tecnologia:** indica se l’API è sviluppata in REST o SOAP.
 * **Modalità:** specifica se l’e-service **eroga** o **riceve** dati. Se eroga, tutti gli endpoint dell’API espongono dati. Se riceve, tutti gli endpoint raccolgono dati.
+* **Erogazione (o ricezione) dati personali**: indica se le informazioni erogate o ricevute attraverso l'e-service si configurano come dati personali. Vincola gli aderenti a compilare l'analisi del rischio in accordo con questa dichiarazione. Maggiori dettagli nella [sezione dedicata](../finalita/analisi-del-rischio.md#dati-personali).
 * **Analisi del rischio:** richiesta solo se la modalità è “ricezione”. In tal caso, l’erogatore indica i casi d’uso per cui raccoglie dati dai fruitori e compila l’apposito questionario. Maggiori dettagli nella [sezione dedicata](../finalita/analisi-del-rischio.md).
 * **Autorizzazione al conferimento di deleghe:** specifica se le Pubbliche Amministrazioni fruitrici possono delegare un’altra amministrazione a completare gli adempimenti amministrativi (richiesta di fruizione, finalità) per loro conto. Maggiori dettagli nella [sezione dedicata](../deleghe/).
 * **Presenza del servizio di notifica di variazioni dei dati (Signal Hub):** segnala se l’e-service è integrato con Signal Hub e consente ai fruitori di ricevere notifiche in caso di variazioni dei dati di loro interesse. Maggiori dettagli nella [sezione dedicata](../signal-hub.md).

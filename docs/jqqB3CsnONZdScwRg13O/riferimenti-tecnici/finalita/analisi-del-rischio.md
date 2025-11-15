@@ -27,6 +27,18 @@ La modalità dell'e-service è indicata nelle informazioni essenziali. Maggiori 
 
 La **responsabilità delle dichiarazioni** rese nell’analisi del rischio è **in capo all’ente** che la compila, che **tratta i dati** in conformità con quanto dichiarato. Per garantire correttezza e tracciabilità, la **finalità** deve essere **inoltrata** da un’utenza con **ruolo di amministratore**.
 
+## Dati personali
+
+Durante la fase di pubblicazione di un e-service, l'erogatore è tenuto a compilare un campo specifico per dichiarare se il servizio prevede il trattamento (invio o ricezione) di dati personali.
+
+#### Obbligo per il fruitore
+
+La dichiarazione dell'erogatore vincola il fruitore durante la compilazione dell'analisi del rischio. Se l'erogatore ha indicato che verranno trattati dati personali, il fruitore deve obbligatoriamente selezionare "Sì" in risposta al quesito "Indicare se si accede a dati personali".
+
+#### Obbligo per l'erogatore
+
+Nel caso di erogazione inversa, dove l'e-service prevede la ricezione (anziché l'invio) di dati, è l'erogatore stesso a dover rispettare e applicare questa prescrizione nella propria analisi del rischio.
+
 ***
 
 Pagina successiva [→ Client](../client-e-materiale-crittografico/)

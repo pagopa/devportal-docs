@@ -17,6 +17,7 @@
   * [Come aggiornare un e-service pubblicando una nuova versione](tutorial/tutorial-per-lerogatore/come-aggiornare-un-e-service-pubblicando-una-nuova-versione.md)
   * [Come creare un nuovo attributo certificato](tutorial/tutorial-per-lerogatore/come-creare-un-nuovo-attributo-certificato.md)
   * [Come associare un portachiavi ad un e-service](tutorial/tutorial-per-lerogatore/come-associare-un-portachiavi-ad-un-e-service.md)
+  * [Come adeguare la dichiarazione sui dati personali](tutorial/tutorial-per-lerogatore/come-adeguare-la-dichiarazione-sui-dati-personali.md)
   * [Come approvare una richiesta di fruizione in attesa di approvazione tramite API](tutorial/tutorial-per-lerogatore/come-approvare-una-richiesta-di-fruizione-in-attesa-di-approvazione-tramite-api.md)
   * [Come ottenere le richieste di fruizione in attesa di approvazione tramite API](tutorial/tutorial-per-lerogatore/come-ottenere-le-richieste-di-fruizione-in-attesa-di-approvazione-tramite-api.md)
   * [Come firmare una risposta per un fruitore](tutorial/tutorial-per-lerogatore/come-firmare-una-risposta-per-un-fruitore.md)

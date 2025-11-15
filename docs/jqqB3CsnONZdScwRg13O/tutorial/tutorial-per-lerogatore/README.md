@@ -8,6 +8,7 @@
 * [Come aggiornare un e-service pubblicando una nuova versione](come-aggiornare-un-e-service-pubblicando-una-nuova-versione.md)
 * [Come creare un nuovo attributo certificato](come-creare-un-nuovo-attributo-certificato.md)
 * [Come associare un portachiavi ad un e-service](come-associare-un-portachiavi-ad-un-e-service.md)
+* [Come adeguare la dichiarazione sui dati personali](come-adeguare-la-dichiarazione-sui-dati-personali.md)
 
 ## Operazioni eseguibili tramite API
 
