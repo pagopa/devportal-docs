@@ -1,6 +1,6 @@
 # Pagamento dovuto
 
-Lo scenario descritto in questo use case è quello di un cittadino che accede al sito di un ente creditore EC per scaricare un documento su cui ha necessità di apporre una Marca da Bollo Digitale MBD. \
+Lo scenario descritto in questo use case è quello di un cittadino che accede al sito di un ente creditore EC per scaricare un documento su cui ha necessità di apporre una Marca da Bollo Digitale MBD.\
 l’EC potrà indirizzare il cittadino sui sistemi PagoPA per il pagamento della MBD inoltre, a valle del processo di pagamento, avrà a disposizione due modalità di recupero della ricevuta della MBD con l’identificativo univoco da associare al documento più tutte le informazioni necessarie per poter eventualmente generare una ricevuta da inviare al cittadino.
 
 ## Come aderire al servizio
@@ -8,7 +8,7 @@ l’EC potrà indirizzare il cittadino sui sistemi PagoPA per il pagamento della
 L'adesione al servizio _**@e.bollo 2.0 Pagamento Dovuto**_ avviene mediante l'apertura di un ticket al team Service Management & Operations SMO dell'area pagoPA, nella richiesta deve essere specificato il codice fiscale dell'EC aderente, il segregation code da utilizzare per la creazione delle posizioni debitorie e il servizio a cui si vuole aderire (nel nostro caso _**@e.bollo 2.0 Pagamento Dovuto**_).
 
 {% hint style="warning" %}
-Al fine di poter utilizzare le API descritte di seguito nel documento è necessario creare la relativa `subscription-key` mediante il portale Backoffice-pagoPA, per ulteriori dettagli è possibile fare riferimento al alla sezione [Generazione API Key](https://developer.pagopa.it/pago-pa/guides/manuale-bo-ec/manuale-operativo-back-office-pagopa-ente-creditore/funzionalita/generazione-api-key) del manuale.&#x20;
+Al fine di poter utilizzare le API descritte di seguito nel documento è necessario creare la relativa `subscription-key` mediante il portale Backoffice-pagoPA, per ulteriori dettagli è possibile fare riferimento al alla sezione [Generazione API Key](https://developer.pagopa.it/pago-pa/guides/manuale-bo-ec/manuale-operativo-back-office-pagopa-ente-creditore/funzionalita/generazione-api-key) del manuale.
 {% endhint %}
 
 ## Flusso di pagamento MBD
@@ -20,7 +20,7 @@ Di seguito il diagramma che riporta il flusso completo del pagamento di una MDB:
 Il flusso di pagamento parte dal sito dell'EC nel momento in cui si palesa la necessità di far pagare al cittadino una MBD da associare in modo univoco ad un documento digitale.\
 A tale scopo _**@e.bollo 2.0**_ mette a disposizione dell'EC una API che consente predisporre il pagamento sui sistemi PagoPA e di ricevere una URL a cui indirizzare il cittadino per l'acquisto della MDB, di seguito i dettagli:
 
-> _**POST**_  https://api.platform.pagopa.it/pagopa-mbd-service/v1/organizations/{EC\_FISCAL\_CODE}/mbd
+> _**POST**_ https://api.platform.pagopa.it/pagopa-mbd-service/v1/organizations/{EC\_FISCAL\_CODE}/mbd
 
 il body della richiesta è di tipo `application/json` e deve contenere un document con i campi di seguito riportati:
 
@@ -53,11 +53,11 @@ Dettaglio dei campi di input:
 * `paymentNotices.fiscalCode` - codice fiscale utente
 * `paymentNotices.email` - email utente
 * `paymentNotices.amount` - importo MBD
-* `paymentNotices.province` - provincia di riferimento per l'imposta di bollo&#x20;
+* `paymentNotices.province` - provincia di riferimento per l'imposta di bollo
 * `paymentNotices.documentHash` - hash del documento a cui associare/applicare la MBD
 * `idCIService` - codice identificativo del servizio _**@e.bollo 2.0 Pagamento Dovuto**_ da valorizzare con `00005`
 * `returnUrl.successUrl` - url scelta dall'EC su cui effettuare la redirect in caso di pagamento eseguito con successo
-* `returnUrl.cancelUrl` -  url scelta dall'EC su cui effettuare la redirect nel caso in cui l'utente cancelli/annulli l'operazione
+* `returnUrl.cancelUrl` - url scelta dall'EC su cui effettuare la redirect nel caso in cui l'utente cancelli/annulli l'operazione
 * `returnUrl.errorUrl` - url scelta dall'EC su cui effettuare la redirect in caso di errore durante la fase di pagamento
 
 Il servizio risponde all'EC con un response body del seguente tipo:
@@ -81,7 +81,7 @@ Dettaglio dei campi in output:
 
 ### Recupero ricevuta MBD
 
-La ricevuta della MBD è nel formato `xml` la cui struttura è definita e consultabile sul [sito dell'Agenzia delle Entrate](https://www.agenziaentrate.gov.it/portale/archivio/archivioschedeadempimento/schede-adempimento-2018/pagamenti-e-rimborsi/imposta-di-bollo-per-le-istanze-trasmesse-alla-pa-ebollo/normativa-e-linee-guida-ebollo),  lo schema `xsd` può essere scaricato dal [repository pagoPA](https://github.com/pagopa/pagopa-api/blob/master/xsd-common/MarcaDaBollo.xsd). \
+La ricevuta della MBD è nel formato `xml` la cui struttura è definita e consultabile sul [sito dell'Agenzia delle Entrate](https://www.agenziaentrate.gov.it/portale/archivio/archivioschedeadempimento/schede-adempimento-2018/pagamenti-e-rimborsi/imposta-di-bollo-per-le-istanze-trasmesse-alla-pa-ebollo/normativa-e-linee-guida-ebollo), lo schema `xsd` può essere scaricato dal [repository pagoPA](https://github.com/pagopa/pagopa-api/blob/master/xsd-common/MarcaDaBollo.xsd).\
 Per il recupero della ricevuta sono disponibili due modalità descritte di seguito nel documento.
 
 #### Servizio MBD receipt
@@ -99,12 +99,12 @@ Il servizio risponde con un response body `json` del seguente tipo:
 }
 ```
 
-Il campo `content` contiene il file `xml` relativo alla ricevuta MBD codificato in Base64.&#x20;
+Il campo `content` contiene il file `xml` relativo alla ricevuta MBD codificato in Base64.
 
 #### Stazione di broadcast
 
 Un metodo alternativo per il recupero della receipt consiste nella configurazione di una stazione di broadcast, se presente il Nodo Dei Pagamenti NDP invocherà la primitiva `paSendRTV2` utilizzando l'endpoint configurato nella stazione, l'EC potrà recuperare la ricevuta della MBD dal campo [MBDAttachment](https://github.com/pagopa/pagopa-api/blob/05207a1759914675eb606316c2abcbe317f79f98/wsdl/xsd/paForNode.xsd#L389C24-L389C37) della receipt.
 
 {% hint style="info" %}
-Per per le specifiche complete delle API fare riferimento alla sezione [@e.bollo 2.0](../../../appendici/primitive/ente-creditore/api-rest.md#e.bollo-2.0)
+Per per le specifiche complete delle API fare riferimento alla sezione [@e.bollo 2.0](../../../appendici/primitive/ente-creditore/api-rest/#e.bollo-2.0)
 {% endhint %}

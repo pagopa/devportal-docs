@@ -66,7 +66,7 @@ Gli EC devono essere in grado di gestire importi potenzialmente non attualizzati
 
 Il meccanismo Stand In, attivato quando la stazione dell'EC è temporaneamente indisponibile, recupera le informazioni necessarie per il pagamento in ACA.
 
-L’integrazione con ACA, solo ed esclusivamente nel caso di conferimento tramite la [paCreatePosition](../../appendici/primitive/ente-creditore/api-rest.md#pacreateposition), prevede la comunicazione delle seguenti informazioni:
+L’integrazione con ACA, solo ed esclusivamente nel caso di conferimento tramite la [paCreatePosition](../../appendici/primitive/ente-creditore/api-rest/#pacreateposition), prevede la comunicazione delle seguenti informazioni:
 
 * _fiscalCodePA_: codice fiscale dell’EC che ha creato la posizione debitoria;
 * _entityUniqueIdentifierType_: tipologia del debitore (F=persona fisica, G=persona giuridica);
@@ -83,10 +83,10 @@ L’integrazione con ACA, solo ed esclusivamente nel caso di conferimento tramit
 
 Nel caso non siano stati inviati i campi _Iban_ e _postalIban_, il sistema recupera autonomamente l’IBAN che verrà utilizzato in fase di accredito, viene utilizzato quello configurato dall’EC tramite backoffice pagoPa o, se non presente tale configurazione, viene utilizzato quello con la modifica più recente.
 
-La struttura dei dati conferma che vi è un solo importo totale comunicato dall’EC, che rappresenta la somma degli importi presenti nei vari transfer della posizione debitoria originaria, questo implica che la funzionalità di Stand In, solo ed esclusivamente nel caso di conferimento all’ACA tramite la [paCreatePosition](../../appendici/primitive/ente-creditore/api-rest.md#pacreateposition), non può gestire la suddivisione degli importi di una posizione debitoria di tipo multi-beneficiario, in quanto non vengono fornite le informazioni necessarie per l’esecuzione di tale struttura di pagamento.
+La struttura dei dati conferma che vi è un solo importo totale comunicato dall’EC, che rappresenta la somma degli importi presenti nei vari transfer della posizione debitoria originaria, questo implica che la funzionalità di Stand In, solo ed esclusivamente nel caso di conferimento all’ACA tramite la [paCreatePosition](../../appendici/primitive/ente-creditore/api-rest/#pacreateposition), non può gestire la suddivisione degli importi di una posizione debitoria di tipo multi-beneficiario, in quanto non vengono fornite le informazioni necessarie per l’esecuzione di tale struttura di pagamento.
 
 {% hint style="info" %}
-Qualora il pagamento di una posizione debitoria di tipo multi-beneficiario avvenga in modalità di Stand In, solo ed esclusivamente nel caso di conferimento all’ACA tramite la [paCreatePosition](../../appendici/primitive/ente-creditore/api-rest.md#pacreateposition), verrà effettuato un unico riversamento all’EC che ha creato l’avviso di pagamento con l’importo totale (EC presente nel campo _fiscalCodePA)_, sarà responsabilità di quest’ultimo assicurare una suddivisione accurata delle quote di pagamento tra gli ulteriori EC inseriti come beneficiari, nelle modalità da lui individuate in accordo con gli EC secondari.
+Qualora il pagamento di una posizione debitoria di tipo multi-beneficiario avvenga in modalità di Stand In, solo ed esclusivamente nel caso di conferimento all’ACA tramite la [paCreatePosition](../../appendici/primitive/ente-creditore/api-rest/#pacreateposition), verrà effettuato un unico riversamento all’EC che ha creato l’avviso di pagamento con l’importo totale (EC presente nel campo _fiscalCodePA)_, sarà responsabilità di quest’ultimo assicurare una suddivisione accurata delle quote di pagamento tra gli ulteriori EC inseriti come beneficiari, nelle modalità da lui individuate in accordo con gli EC secondari.
 {% endhint %}
 
 ### Definizione di un IBAN di default per pagamenti in Stand In
@@ -95,7 +95,7 @@ Gli EC possono definire un IBAN di default tramite backoffice pagoPA per la gest
 
 Se l’EC non dichiara un IBAN di default viene utilizzato l’IBAN con la data di modifica più recente.
 
-Tali informazioni relative all’IBAN di default vengono utilizzate solo nel caso non siano stati inviati entrambi i campi _Iban_ e _postalIban_ tramite la [paCreatePosition](../../appendici/primitive/ente-creditore/api-rest.md#pacreateposition).
+Tali informazioni relative all’IBAN di default vengono utilizzate solo nel caso non siano stati inviati entrambi i campi _Iban_ e _postalIban_ tramite la [paCreatePosition](../../appendici/primitive/ente-creditore/api-rest/#pacreateposition).
 
 In caso di conferimento all’ACA tramite API di creazione e aggiornamento del servizio di [Gestione Posizione Debitorie](../../appendici/posizioni-debitorie/operazioni-disponibili.md#creazione-di-una-posizione-debitoria) (GPD) il campo _iban_ di ogni transfer è obbligatorio.
 

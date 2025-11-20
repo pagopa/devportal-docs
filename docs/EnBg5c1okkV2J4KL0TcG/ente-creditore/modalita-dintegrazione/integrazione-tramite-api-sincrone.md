@@ -4,7 +4,7 @@
 Per la gestione degli errori fare riferimento a [Gestione degli errori](https://app.gitbook.com/o/KXYtsf32WSKm6ga638R3/s/mU2qgiLV1G3m9z1VjAOc/ "mention")
 {% endhint %}
 
-## Archivio Centralizzato Avvisi&#x20;
+## Archivio Centralizzato Avvisi
 
 Se gli Enti Creditori e/o i loro Intermediari Tecnologici e/o Partner Tecnologici si avvalgono dell’integrazione tramite API sincrone sono tenuti al conferimento di tutti i dati delle posizioni debitorie all'Archivio Centralizzato Avvisi (“ACA”), necessari ad assicurare le misure di continuità operativa, che devono essere adottate dai gestori di sistemi di pagamento e dai fornitori critici di infrastrutture o servizi tecnici in conformità con gli obblighi ex art. 146 T.U.B. di sorveglianza svolta dalla Banca d'Italia.
 
@@ -12,26 +12,26 @@ Resta inteso che, per i trattamenti di dati personali connessi al servizio Archi
 
 Ogni EC, al momento delle creazione di una nuova posizione debitoria, deve effettuare il censimento della stessa sull’ACA tramite una delle seguenti modalità:
 
-* API di creazione e aggiornamento del servizio di [Gestione Posizioni Debitorie](../../appendici/posizioni-debitorie/operazioni-disponibili.md#creazione-di-una-posizione-debitoria) (“GPD”);&#x20;
-* API [paCreatePosition](../../appendici/primitive/ente-creditore/api-rest.md#pacreateposition).
+* API di creazione e aggiornamento del servizio di [Gestione Posizioni Debitorie](../../appendici/posizioni-debitorie/operazioni-disponibili.md#creazione-di-una-posizione-debitoria) (“GPD”);
+* API [paCreatePosition](../../appendici/primitive/ente-creditore/api-rest/#pacreateposition).
 
 ### Condizioni di esclusione dal conferimento delle posizioni sull’ACA
 
-E’ possibile definire delle  esclusioni dal conferimento delle posizioni sull’ACA tramite il backoffice pagoPA.
+E’ possibile definire delle esclusioni dal conferimento delle posizioni sull’ACA tramite il backoffice pagoPA.
 
 La motivazione a cui devono essere ricondotte tutte le casistiche di esclusione è riconducibile esclusivamente alla generazione della posizione debitoria su richiesta diretta del Debitore e contestuale al pagamento (a puro titolo esemplificativo e non esaustivo possono essere associati a tale casistica i cosiddetti pagamenti _on the fly_ presso il frontend dell’EC). Diverso è il caso di avvisi di pagamento generati sempre dal portale dell’EC su richiesta del Debitore, ma che possono essere stampati e/o pagati in un secondo momento rispetto alla creazione della posizione debitoria e del relativo avviso di pagamento.
 
 ### Conferimento tramite la paCreatePosition
 
-La [paCreatePosition](../../appendici/primitive/ente-creditore/api-rest.md#pacreateposition), grazie alla proprietà di idempotenza, permette sia di inserire sia di aggiornare la posizione.
+La [paCreatePosition](../../appendici/primitive/ente-creditore/api-rest/#pacreateposition), grazie alla proprietà di idempotenza, permette sia di inserire sia di aggiornare la posizione.
 
-Per la procedura di abilitazione all'utilizzo della [paCreatePosition](../../appendici/primitive/ente-creditore/api-rest.md#pacreateposition) è necessario fare riferimento al capitolo [connettivita.md](../../appendici/connettivita.md "mention").
+Per la procedura di abilitazione all'utilizzo della [paCreatePosition](../../appendici/primitive/ente-creditore/api-rest/#pacreateposition) è necessario fare riferimento al capitolo [connettivita.md](../../appendici/connettivita.md "mention").
 
 <figure><img src="https://lh3.googleusercontent.com/Vd05z8M6URcVGBWcwhOOsV0cR_Nxo3q1v-yjJnWvYVqk8pQAn9zaTkMwhhSF4PcF3CwhRjdzxEHU8hQ3hH6tMXuIAJJxHjjx0EghovLtMQdtmE-fqxNhpA9mYHAHLM57vfKk6E76vKoDk2rYENBzoo4" alt=""><figcaption></figcaption></figure>
 
 #### **Fase di censimento**
 
-La richiesta di creazione di una nuova posizione giunge all’ACA per mezzo della[ paCreatePosition](../../appendici/primitive/ente-creditore/api-rest.md#pacreateposition), fornendo in input i seguenti dati:
+La richiesta di creazione di una nuova posizione giunge all’ACA per mezzo della[ paCreatePosition](../../appendici/primitive/ente-creditore/api-rest/#pacreateposition), fornendo in input i seguenti dati:
 
 * _paFiscalCode_: codice fiscale dell’EC che ha creato la posizione debitoria;
 * _entityType_: tipologia del debitore (F=persona fisica, G=persona giuridica);
@@ -60,15 +60,15 @@ Anche le posizioni debitorie multi-beneficiario devono essere inviate all'ACA, c
 
 Nel campo _fiscalCodePA_ deve essere inserito il CF dell'Ente che ha creato la posizione debitoria.
 
-La struttura dei dati conferma che vi è un solo importo totale comunicato dall’EC, che rappresenta la somma degli importi presenti nei vari transfer della posizione debitoria originaria, questo implica che la funzionalità di [stand-in.md](../../specifiche-attuative-del-nodo-dei-pagamenti-spc/funzionamento-generale/stand-in.md "mention"), solo ed esclusivamente nel caso di conferimento all’ACA tramite la [paCreatePosition](../../appendici/primitive/ente-creditore/api-rest.md#pacreateposition), non può gestire la suddivisione degli importi di una posizione debitoria di tipo multi-beneficiario, in quanto non vengono fornite le informazioni necessarie per la gestione di tale struttura di pagamento.
+La struttura dei dati conferma che vi è un solo importo totale comunicato dall’EC, che rappresenta la somma degli importi presenti nei vari transfer della posizione debitoria originaria, questo implica che la funzionalità di [stand-in.md](../../specifiche-attuative-del-nodo-dei-pagamenti-spc/funzionamento-generale/stand-in.md "mention"), solo ed esclusivamente nel caso di conferimento all’ACA tramite la [paCreatePosition](../../appendici/primitive/ente-creditore/api-rest/#pacreateposition), non può gestire la suddivisione degli importi di una posizione debitoria di tipo multi-beneficiario, in quanto non vengono fornite le informazioni necessarie per la gestione di tale struttura di pagamento.
 
 {% hint style="info" %}
-Qualora il pagamento di una posizione debitoria di tipo multi-beneficiario avvenga in modalità di [stand-in.md](../../specifiche-attuative-del-nodo-dei-pagamenti-spc/funzionamento-generale/stand-in.md "mention"), solo ed esclusivamente nel caso di conferimento all’ACA tramite la [paCreatePosition](../../appendici/primitive/ente-creditore/api-rest.md#pacreateposition), verrà effettuato un unico riversamento all’EC che ha creato l’avviso di pagamento con l’importo totale (EC presente nel campo _fiscalCodePA)_, sarà responsabilità di quest’ultimo assicurare una suddivisione accurata delle quote di pagamento tra gli ulteriori EC inseriti come beneficiari, nelle modalità da lui individuate in accordo con gli EC secondari.
+Qualora il pagamento di una posizione debitoria di tipo multi-beneficiario avvenga in modalità di [stand-in.md](../../specifiche-attuative-del-nodo-dei-pagamenti-spc/funzionamento-generale/stand-in.md "mention"), solo ed esclusivamente nel caso di conferimento all’ACA tramite la [paCreatePosition](../../appendici/primitive/ente-creditore/api-rest/#pacreateposition), verrà effettuato un unico riversamento all’EC che ha creato l’avviso di pagamento con l’importo totale (EC presente nel campo _fiscalCodePA)_, sarà responsabilità di quest’ultimo assicurare una suddivisione accurata delle quote di pagamento tra gli ulteriori EC inseriti come beneficiari, nelle modalità da lui individuate in accordo con gli EC secondari.
 {% endhint %}
 
 **Fase di aggiornamento**
 
-E’ obbligatorio effettuare un aggiornamento della posizione debitoria richiamando la summenzionata API [paCreatePosition](../../appendici/primitive/ente-creditore/api-rest.md#pacreateposition) nei seguenti casi:
+E’ obbligatorio effettuare un aggiornamento della posizione debitoria richiamando la summenzionata API [paCreatePosition](../../appendici/primitive/ente-creditore/api-rest/#pacreateposition) nei seguenti casi:
 
 * aggiornamento dell’importo;
 * aggiornamento dello stato, per comunicare la chiusura o l’annullamento della posizione, impostando il valore del campo _amount_ a zero;
@@ -80,17 +80,17 @@ Ogni volta che viene eseguito un aggiornamento della posizione debitoria, la pia
 
 **Fase di annullamento**
 
-E' obbligatorio nel caso di posizione annullata o sostituita con una nuova effettuare l’annullamento della posizione debitoria richiamando la summenzionata API [paCreatePosition](../../appendici/primitive/ente-creditore/api-rest.md#pacreateposition). &#x20;
+E' obbligatorio nel caso di posizione annullata o sostituita con una nuova effettuare l’annullamento della posizione debitoria richiamando la summenzionata API [paCreatePosition](../../appendici/primitive/ente-creditore/api-rest/#pacreateposition).
 
 La chiamata deve essere fatta contestualmente alla modifica effettuata sull'archivio dell'EC.
 
-L’annullamento  può essere effettuato esclusivamente impostando il valore del campo _amount_ a zero.
+L’annullamento può essere effettuato esclusivamente impostando il valore del campo _amount_ a zero.
 
 **Fase di chiusura**
 
-Nel caso di posizione debitoria pagata dal debitore tramite canali diversi dalla piattafroma pagoPA è necessario richiamare la summenzionata API [paCreatePosition](../../appendici/primitive/ente-creditore/api-rest.md#pacreateposition) per effettuare la chiusura della stessa.
+Nel caso di posizione debitoria pagata dal debitore tramite canali diversi dalla piattafroma pagoPA è necessario richiamare la summenzionata API [paCreatePosition](../../appendici/primitive/ente-creditore/api-rest/#pacreateposition) per effettuare la chiusura della stessa.
 
-La chiusura può essere effettuata  esclusivamente impostando il valore del campo _amount_ a zero.
+La chiusura può essere effettuata esclusivamente impostando il valore del campo _amount_ a zero.
 
 ## Fase di richiesta di creazione della posizione debitoria
 
@@ -191,5 +191,4 @@ Come è possibile osservare il servizio effettua la ricerca della receipt utiliz
 
 Il servizio non è pensato per un utilizzo massivo, a protezione di questa caratteristica sono state attivate delle politiche di throttling che prevedono, per ogni sottoscrizione al servizio, un massimo di 10 chiamate nell’arco di 60 minuti.
 
-Per i tutti i dettagli tecnici relativi al corretto utilizzo del servizio è possibile fare riferimento alle specifiche della primitiva in getOrganizationReceipt.&#x20;
-
+Per i tutti i dettagli tecnici relativi al corretto utilizzo del servizio è possibile fare riferimento alle specifiche della primitiva in getOrganizationReceipt.
