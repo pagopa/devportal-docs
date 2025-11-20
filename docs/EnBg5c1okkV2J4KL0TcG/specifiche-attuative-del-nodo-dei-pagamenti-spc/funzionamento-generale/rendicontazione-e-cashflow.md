@@ -23,9 +23,9 @@ Esistono, invece, 2 configurazioni possibili (mutuamente esclusive) per l’EC r
 * SOAP (Web Service)
 * SFTP
 
-![](<../../.gitbook/assets/image (29).png>)
+![](../../../9E4vGfV6bOPGpOwZoKIm/.gitbook/assets/image.png)
 
-![](<../../.gitbook/assets/image (3).png>)
+![](<../../../DG2lpjf4Y5u7ZRFE7CyZ/.gitbook/assets/image (3).png>)
 
 Per quanto riguarda la [nodoChiediElencoFlussiRendicontazione](../../appendici/primitive/ente-creditore/api-soap.md#nodochiedielencoflussirendicontazione) la piattaforma risponderà in maniera indipendente dalla configurazione dell'EC (SOAP o SFTP), in entrambi i casi infatti la piattaforma risponderà con un elenco di FdR. L’utilizzo della primitiva in caso di configurazione SFTP è opzionale e un possibile motivo per l’utilizzo riguarda finalità statistiche.
 
@@ -74,7 +74,7 @@ Di seguito un esempio di xml del Flusso di Rendicontazione contenuto nel tag _xm
 
 ## Gestione sovrascritture Flussi di Rendicontazione <a href="#title-text" id="title-text"></a>
 
-Un PSP ha la possibilità di mandare più flussi allo stesso EC tramite la primitiva [nodoInviaFlussoRendicontazione](../../appendici/primitive/psp/api-soap.md#nodoinviaflussorendicontazione) con lo stesso _identificativoFlusso_ ma con _dataOraFlusso_ differente. Questa opzione permette al PSP di **sovrascrivere** un flusso già inviato, in caso un flusso già inviato necessitasse di correzioni.&#x20;
+Un PSP ha la possibilità di mandare più flussi allo stesso EC tramite la primitiva [nodoInviaFlussoRendicontazione](../../appendici/primitive/psp/api-soap.md#nodoinviaflussorendicontazione) con lo stesso _identificativoFlusso_ ma con _dataOraFlusso_ differente. Questa opzione permette al PSP di **sovrascrivere** un flusso già inviato, in caso un flusso già inviato necessitasse di correzioni.
 
 Si ricorda, inoltre, l'_identificativoFlusso_ deve essere univoco nell’ambito dell’anno di riferimento delle operazioni di pagamento cui si riferisce il flusso, di conseguenza lo stesso _identificativoFlusso_ può essere usato più di una volta nel corso dello stesso anno solo nel caso di invio di un flusso di sovrascrittura.
 
@@ -124,7 +124,7 @@ Attualmente il Nodo non tiene traccia dei flussi già scaricati dall’EC, per q
 
 Per una corretta gestione l'EC deve verificare ed eventualmente gestire il contenuto associato ad ogni singolo _identificativoFlusso_ inviato fino alla quarta giornata lavorativa (D+4) successiva alla ricezione dell’ordine di pagamento.
 
-![](../../.gitbook/assets/fdr_sovrascittura.png)
+![](../../../9E4vGfV6bOPGpOwZoKIm/.gitbook/assets/fdr_sovrascittura.png)
 
 Non esistendo lato EC possibilità di filtrare, né temporalmente, né quantitativamente gli elementi restituiti, è stata definita una proprietà della piattaforma che permette di limitare l'intervallo temporale su cui basarsi per rispondere alla chiamata, la proprietà è unica per tutta la piattaforma e attualmente è impostata a 30 giorni.
 
@@ -137,7 +137,7 @@ Il Nodo deve rispondere coerentemente con quanto dichiarato nella primitiva prec
 
 ## Nuove primitive flussi di rendicontazione <a href="#richiesta-flussi-di-rendicontazione-da-parte-dellente-creditore" id="richiesta-flussi-di-rendicontazione-da-parte-dellente-creditore"></a>
 
-PagoPA metterà a disposizione degli EC/PSP delle nuove [primitive](../../appendici/primitive/#nuova-gestione-flussi-di-rendicontazione) per la gestione di download/upload dei FdR.&#x20;
+PagoPA metterà a disposizione degli EC/PSP delle nuove [primitive](../../appendici/primitive/#nuova-gestione-flussi-di-rendicontazione) per la gestione di download/upload dei FdR.
 
 L'introduzione dei nuovi servizi ha l’obiettivo di ottimizzare l’attuale flusso logico, gestendo in maniera ottimale tutte le fasi di gestione dei FdR, anche di dimensioni elevate.
 
@@ -152,7 +152,7 @@ Vengono messi a disposizione due nuovi prodotti:
 
 Si riporta di seguito il disegno del nuovo processo:
 
-<figure><img src="../../.gitbook/assets/image (54).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../DG2lpjf4Y5u7ZRFE7CyZ/.gitbook/assets/image (54).png" alt=""><figcaption></figcaption></figure>
 
 Il nuovo processo prevede l'introduzione di tre nuove funzioni, descritte nei paragrafi seguenti.
 
@@ -181,4 +181,3 @@ Gli esempi delle chiamate sono consultabili nella sezione Primitive - Nuove prim
    Dopo aver ottenuto l’elenco, l’EC può richiedere il download di un singolo flusso.
 3. **Download flusso di grandi dimensioni:**\
    Se il flusso richiesto è molto grande, può essere scaricato in forma paginata, recuperando i pagamenti suddivisi per blocchi.
-

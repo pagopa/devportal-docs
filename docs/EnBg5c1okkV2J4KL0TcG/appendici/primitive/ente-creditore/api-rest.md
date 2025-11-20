@@ -8,27 +8,19 @@ I campi contrassegnati con﹡sono obbligatori
 
 Per i dettagli [https://github.com/pagopa/pagopa-api/tree/SANP3.9.1](https://github.com/pagopa/pagopa-api/tree/SANP3.9.1)
 
-
-
 ## paVerifyPaymentOptions <a href="#pagetpayment" id="pagetpayment"></a>
 
 {% openapi src="../../../.gitbook/assets/openapi EC.json" path="/payment-options/organizations/{paTaxCode}/notices/{noticeId}" method="post" %}
 [openapi EC.json](<../../../.gitbook/assets/openapi EC.json>)
 {% endopenapi %}
 
-
-
-
-
-
-
 ## EC Checkout API
 
-{% openapi src="../../../.gitbook/assets/checkout (5).yaml" path="/carts" method="post" %}
-[checkout (5).yaml](<../../../.gitbook/assets/checkout (5).yaml>)
+{% openapi src="../../../../spazio_di_prova/.gitbook/assets/checkout.yaml" path="/carts" method="post" %}
+[checkout.yaml](../../../../spazio_di_prova/.gitbook/assets/checkout.yaml)
 {% endopenapi %}
 
-## Nuove API - Gestione Flussi di Rendicontazione&#x20;
+## Nuove API - Gestione Flussi di Rendicontazione
 
 {% openapi src="https://raw.githubusercontent.com/pagopa/pagopa-api/refs/heads/SANP3.10.0_01/openapi/fdr_organization.yaml" path="/info" method="get" %}
 [https://raw.githubusercontent.com/pagopa/pagopa-api/refs/heads/SANP3.10.0_01/openapi/fdr_organization.yaml](https://raw.githubusercontent.com/pagopa/pagopa-api/refs/heads/SANP3.10.0_01/openapi/fdr_organization.yaml)
@@ -63,23 +55,23 @@ Recupero della ricevuta mediante i codici `IUV`
 ## paCreatePosition
 
 {% openapi-operation spec="pacreateposition-openapi" path="/paCreatePosition" method="post" %}
-[OpenAPI pacreateposition-openapi](https://raw.githubusercontent.com/pagopa/pagopa-api/refs/heads/develop/openapi/paCreatePosition.yaml)
+[Broken link](broken-reference)
 {% endopenapi-operation %}
 
 {% openapi-schemas spec="pacreateposition-openapi" schemas="NewDebtPositionRequest,DebtPositionResponse,AmountEuroCents,ProblemJson" grouped="true" %}
-[OpenAPI pacreateposition-openapi](https://raw.githubusercontent.com/pagopa/pagopa-api/refs/heads/develop/openapi/paCreatePosition.yaml)
+[Broken link](broken-reference)
 {% endopenapi-schemas %}
 
 ## @e.bollo 2.0
 
 {% openapi-operation spec="ebollo-openapi" path="/organizations/{fiscalCodeEC}/mbd" method="post" %}
-[OpenAPI ebollo-openapi](https://raw.githubusercontent.com/pagopa/pagopa-api/refs/heads/develop/openapi/e_bollo_20.json)
+[Broken link](broken-reference)
 {% endopenapi-operation %}
 
 {% openapi-operation spec="ebollo-openapi" path="/organizations/{fiscalCodeEC}/receipt/{nav}" method="get" %}
-[OpenAPI ebollo-openapi](https://raw.githubusercontent.com/pagopa/pagopa-api/refs/heads/develop/openapi/e_bollo_20.json)
+[Broken link](broken-reference)
 {% endopenapi-operation %}
 
 {% openapi-schemas spec="ebollo-openapi" schemas="GetMbdRequest,PaymentNotice,ReturnUrls,GetCartErrorResponse,ProblemJson,GetCartResponse,GetMdbReceipt" grouped="true" %}
-[OpenAPI ebollo-openapi](https://raw.githubusercontent.com/pagopa/pagopa-api/refs/heads/develop/openapi/e_bollo_20.json)
+[Broken link](broken-reference)
 {% endopenapi-schemas %}

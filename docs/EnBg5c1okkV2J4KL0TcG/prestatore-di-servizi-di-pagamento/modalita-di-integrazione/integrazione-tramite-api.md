@@ -6,7 +6,7 @@ Per la gestione degli errori fare riferimento a [Gestione degli errori](https://
 
 ## Fase di richiesta di creazione della posizione debitoria
 
-![](../../.gitbook/assets/demandPaymentNotice.png)
+![](../../../DG2lpjf4Y5u7ZRFE7CyZ/.gitbook/assets/demandPaymentNotice.png)
 
 La [demandPaymentNotice](../../appendici/primitive/psp/api-soap.md#demandpaymentnotice) è utilizzabile dai PSP per inviare i dati del servizio specifico inseriti dall'utente, in modo da ricevere in risposta le informazioni necessarie per avviare il processo di pagamento, in particolare:
 
@@ -15,13 +15,13 @@ La [demandPaymentNotice](../../appendici/primitive/psp/api-soap.md#demandpayment
 * l'importo parziale di ogni singolo pagamento;
 * il codice fiscale dell’EC beneficiario di ogni singolo pagamento.
 
-&#x20;Tale fase è obbligatoria nel caso di pagamento spontanei attivati presso i PSP.
+Tale fase è obbligatoria nel caso di pagamento spontanei attivati presso i PSP.
 
 I PSP possono recuperare i dati dello specifico servizio tramite il [catalogo-dei-servizi.md](../../casi-duso/pagamento-spontaneo-presso-psp/catalogo-dei-servizi.md "mention").
 
 ## Fase di verifica
 
-![](../../.gitbook/assets/verifyPaymentNotice.png)
+![](../../../9E4vGfV6bOPGpOwZoKIm/.gitbook/assets/verifyPaymentNotice.png)
 
 La [verifyPaymentNotice](../../appendici/primitive/psp/api-soap.md#activatepaymentnotice) è utilizzabile dai PSP che avviano il pagamento per mezzo del QR code presente nell'avviso analogico o con l’immissione manuale dei dati, con questa richiesta il PSP richiede le informazioni di pagamento relative ad un numero avviso, in particolare:
 
@@ -32,7 +32,7 @@ La fase di verifica è opzionale per i PSP, se il Nodo riscontra che la posizion
 
 ## Fase di verifica da parte di Poste Italiane
 
-![](<../../.gitbook/assets/image (42).png>)
+![](<../../../9E4vGfV6bOPGpOwZoKIm/.gitbook/assets/image (41).png>)
 
 La [verificaBollettino](../../appendici/primitive/psp/api-soap.md#verificabollettino) è utilizzabile esclusivamente dal PSP Poste Italiane che avvia il pagamento per mezzo del Data Matrix presente nell'avviso analogico, e non per mezzo del QR Code, con questa chiamata vengono richieste le informazioni di pagamento relative ad un numero avviso, in particolare:
 
@@ -46,7 +46,7 @@ La fase di verifica è opzionale per i PSP, se il Nodo riscontra che la posizion
 
 ## Fase di attivazione
 
-![](../../.gitbook/assets/activatePaymentNotice.png)
+![](../../../9E4vGfV6bOPGpOwZoKIm/.gitbook/assets/activatePaymentNotice.png)
 
 Con l’[activatePaymentNotice](../../appendici/primitive/psp/api-soap.md#activatepaymentnotice-1) il PSP chiede al nodo di attivare il pagamento presso l’EC.
 
@@ -67,7 +67,7 @@ Il PSP può avviare un processo di retry in caso di mancata ricezione della risp
 
 ## Fase di inoltro del pagamento
 
-![](<../../.gitbook/assets/pspNotifyPayment (1).png>)
+![](../../../Z6DbUfot7pwmbrL7H8Og/.gitbook/assets/pspNotifyPayment.png)
 
 I dettagli dei pagamenti eseguiti sui touchpoints di PagoPA S.p.A. vengono inoltrati al PSP tramite la [pspNotifyPayment](../../appendici/primitive/psp/api-soap.md#pspnotifypayment).
 
@@ -92,7 +92,7 @@ Per un corretto e standardizzato utilizzo dei _metadata_ è stato creato un appo
 
 ## Fase di invio dell'esito del pagamento
 
-![](../../.gitbook/assets/sendPaymentOutcome.png)
+![](../../../9E4vGfV6bOPGpOwZoKIm/.gitbook/assets/sendPaymentOutcome.png)
 
 Il PSP è tenuto a fornire l'esito del pagamento **entro 2sec** con la [sendPaymentOutcome](../../appendici/primitive/psp/api-soap.md#sendpaymentoutcome), sia in caso di pagamento effettuato con successo (outcome = OK), sia in caso di pagamento non effettuato (outcome = KO), l’effetto dell’invio dell’esito del pagamento è quello di “sbloccare” la posizione debitoria sulla piattaforma:
 

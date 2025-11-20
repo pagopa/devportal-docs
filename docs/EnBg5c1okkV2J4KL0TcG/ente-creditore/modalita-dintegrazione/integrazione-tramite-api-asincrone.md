@@ -16,9 +16,9 @@ L’Ente Creditore resta in ogni caso responsabile della correttezza dei dati de
 
 Con riferimento al trattamento dei dati personali, l’Ente Creditore è titolare del trattamento dei dati personali della posizione debitoria e, salvo diversa indicazione da formalizzarsi per iscritto, fa proprio l’ “Accordo sul trattamento dei dati personali da parte del responsabile del trattamento ai sensi dell’articolo 28 del Regolamento (UE) 2016/679”, nominando, pertanto, la PagoPA S.p.A. quale Responsabile del Trattamento. L'accordo è disponibile al seguente link:
 
-{% file src="../../.gitbook/assets/DPA_PagoPA_posizioni-debitorie_v1 (1).pdf" %}
+{% file src="../../../DG2lpjf4Y5u7ZRFE7CyZ/.gitbook/assets/DPA_PagoPA_posizioni-debitorie_v1.pdf" %}
 
-Qualora l’Ente Creditore si avvalga di un Intermediario Tecnologico e/o Partner Tecnologico come responsabile del trattamento dei dati personali della posizione debitoria, sarà quest’ultimo a far proprio l’Accordo summenzionato,  salvo diversa  indicazione da formalizzarsi per iscritto. PagoPA S.p.A. agirà, quindi, come sub-responsabile dell’Ente Creditore, presupposta per tale specifica fattispecie una autorizzazione generale dal Titolare al Responsabile di avvalersi di altri responsabili.
+Qualora l’Ente Creditore si avvalga di un Intermediario Tecnologico e/o Partner Tecnologico come responsabile del trattamento dei dati personali della posizione debitoria, sarà quest’ultimo a far proprio l’Accordo summenzionato, salvo diversa indicazione da formalizzarsi per iscritto. PagoPA S.p.A. agirà, quindi, come sub-responsabile dell’Ente Creditore, presupposta per tale specifica fattispecie una autorizzazione generale dal Titolare al Responsabile di avvalersi di altri responsabili.
 
 Nel caso in cui l’Ente Creditore comunichi di non voler far proprio l’Accordo sul Trattamento dei Dati e/o sue successive eventuali modifiche e aggiornamenti, l’adesione al servizio resterà sospesa fintanto che il trattamento dei dati personali non sia disciplinato da altro accordo ai sensi dell’art. 28 del Regolamento (UE) 2016/679.
 
@@ -26,7 +26,7 @@ Per maggiori dettagli sulle funzionalità offerte dal servizio, si rimanda all'a
 
 ### Ricezione sincrona della ricevuta
 
-In considerazione del fatto che la[ paSendRT vers. 2](../../appendici/primitive/ente-creditore/api-soap.md#pasendrt-versione-2) viene inoltrata:&#x20;
+In considerazione del fatto che la[ paSendRT vers. 2](../../appendici/primitive/ente-creditore/api-soap.md#pasendrt-versione-2) viene inoltrata:
 
 * alla stazione dell'Ente Creditore primario, da cui è stato attivato il pagamento;
 * alle stazioni di tutti gli Enti Creditori configurate come broadcast;
@@ -43,10 +43,10 @@ L’aderente a pagoPA, che si avvale dell’integrazione asincrona, e che sia an
 
 **i.** nel caso in cui ad una notifica dichiarata come asincrona siano, invece, associati IUV sincroni, la notifica non sarà generata perché il sistema restituirà un errore;
 
-**ii.** nel caso in cui ad una notifica dichiarata come sincrona siano, invece, associati IUV asincroni, questi ultimi non saranno aggiornati, e conseguentemente il costo complessivo delle notifiche non sarà attualizzato.&#x20;
+**ii.** nel caso in cui ad una notifica dichiarata come sincrona siano, invece, associati IUV asincroni, questi ultimi non saranno aggiornati, e conseguentemente il costo complessivo delle notifiche non sarà attualizzato.
 
 **b)** nel caso di cui alla lett. a, ii., che precede, PagoPA S.p.A. è, pertanto, legittimata a rendicontare e fatturare i costi dalla stessa anticipati per la notifica, anche se non pagati dal destinatario all’Aderente a causa della erronea qualificazione della notifica come sincrona da parte dell’Aderente stesso.
 
 {% hint style="warning" %}
-Per la comunicazione delle spese di notifica si faccia riferimento al dizionario dei metadata [https://app.gitbook.com/o/KXYtsf32WSKm6ga638R3/s/u6YdY319vyFX9MIvnKBa/spese-di-notifica-send](https://app.gitbook.com/o/KXYtsf32WSKm6ga638R3/s/u6YdY319vyFX9MIvnKBa/spese-di-notifica-send)
+Per la comunicazione delle spese di notifica si faccia riferimento al dizionario dei metadata [https://app.gitbook.com/o/KXYtsf32WSKm6ga638R3/s/u6YdY319vyFX9MIvnKBa/spese-di-notifica-send](https://app.gitbook.com/s/u6YdY319vyFX9MIvnKBa/spese-di-notifica-send)
 {% endhint %}

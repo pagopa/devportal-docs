@@ -13,8 +13,8 @@ Le azioni indicate nei seguenti schemi possono avvenire da 2 fonti:
 
 ## Opzione di Pagamento
 
-![](<../../.gitbook/assets/image (9).png>)
+![](<../../../DG2lpjf4Y5u7ZRFE7CyZ/.gitbook/assets/image (9).png>)
 
 ## Versamento
 
-![](../../.gitbook/assets/FSM-PD-Transfer.drawio.png)
+![](../../../9E4vGfV6bOPGpOwZoKIm/.gitbook/assets/FSM-PD-Transfer.drawio.png)

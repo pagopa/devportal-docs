@@ -1,6 +1,6 @@
 # Checkout
 
-![](<../../.gitbook/assets/checkout_SANP (1).png>)
+![](<../../../9E4vGfV6bOPGpOwZoKIm/.gitbook/assets/checkout_SANP (3).png>)
 
 * l'utente che avvia il pagamento da Checkout deve inserire il numero avviso e l'identificativo dell'EC destinatario;
 * la [paVerifyPaymentNotice](../../appendici/primitive/ente-creditore/api-soap.md#paverifypaymentnotice) è utilizzata per richiedere all’EC la verifica dell’opzione di pagamento identificata dal numero avviso;
@@ -10,7 +10,7 @@
   * scadenza del payment token: il processo viene interrotto e il pagamento deve essere stornato;
   * ricezione della [sendPaymentOutcome vers. 2](../../appendici/primitive/psp/api-soap.md#sendpaymentoutcome-versione-2): il flusso procede normalmente, tenendo sempre presente che il PSP non può inviare un outcome = KO;
 * nel caso il PSP inviasse una [sendPaymentOutcome](../../appendici/primitive/psp/api-soap.md#sendpaymentoutcome-versione-2) dopo aver risposto con un KO alla [pspNotifyPayment](../../appendici/primitive/psp/api-soap.md#pspnotifypayment) il Nodo risponderebbe con un KO per segnalare l'esito discorde;
-* in caso di accettazione della [pspNotifyPayment](../../appendici/primitive/psp/api-soap.md#pspnotifypayment) il PSP è tenuto a fornire l'esito del pagamento  **entro 2sec** con la [sendPaymentOutcome](../../appendici/primitive/psp/api-soap.md#sendpaymentoutcome-versione-2), nel caso il PSP inviasse un outcome = KO il Nodo risponderebbe con un KO per segnalare l'esito discorde;
+* in caso di accettazione della [pspNotifyPayment](../../appendici/primitive/psp/api-soap.md#pspnotifypayment) il PSP è tenuto a fornire l'esito del pagamento **entro 2sec** con la [sendPaymentOutcome](../../appendici/primitive/psp/api-soap.md#sendpaymentoutcome-versione-2), nel caso il PSP inviasse un outcome = KO il Nodo risponderebbe con un KO per segnalare l'esito discorde;
 * tramite la primitiva [paSendRT](../../appendici/primitive/ente-creditore/api-soap.md#pasendrt) viene inoltrata agli _n_ EC interessati al pagamento la _receipt_ (ricevuta) solo se il pagamento è stato effettuato, la _receipt_ è un oggetto generato dalla piattaforma pagoPA;
 * quando l'EC riceve la _receipt_ deve chiudere la posizione debitoria e considerarla interamente saldata.
 
