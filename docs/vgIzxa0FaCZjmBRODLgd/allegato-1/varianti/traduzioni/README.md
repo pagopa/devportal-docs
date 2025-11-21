@@ -14,7 +14,7 @@ description: >-
 
 ### Italiano
 
-{% file src="../../../.gitbook/assets/pagoPA-avvisi-320-stringhe-it.json" %}
+{% file src="../../../.gitbook/assets/pagoPA-avvisi-350-stringhe-it.json" %}
 Stringhe in italiano, in formato JSON
 {% endfile %}
 
@@ -98,7 +98,7 @@ Stringhe in italiano, in formato JSON
           "descrizione": "La notifica corrisponde al giorno del ritiro, se questo avviene entro 10 giorni dalla data di deposito (la data più vecchia sull’avviso di giacenza). Se non ritiri il verbale entro i 10 giorni, calcola le scadenze iniziando a contare dall’undicesimo giorno.",
           "titolo": "Cosa succede in caso di giacenza?"
         },
-        "legal": "In fase di pagamento, se previsto dall’ente, l’importo potrebbe essere aggiornato automaticamente e subire variazioni in diminuzione (per sgravi, note di credito) o in aumento (per sanzioni, interessi, ecc.).",
+        "legal": "In fase di pagamento l’importo potrebbe subire aumenti (per sanzioni, interessi, costi di notifica o altri fattori) o riduzioni (per sgravi o note di credito).",
         "rate": {
           "molteRate": "Importi e scadenze sono riportati nel dettaglio di ogni singola rata.",
           "rate": "Puoi pagare per intero o in {{Numero}} rate",
@@ -143,7 +143,7 @@ Stringhe in italiano, in formato JSON
 
 ### Francese
 
-{% file src="../../../.gitbook/assets/pagoPA-avvisi-320-stringhe-fr.json" %}
+{% file src="../../../.gitbook/assets/pagoPA-avvisi-350-stringhe-fr.json" %}
 Stringhe in francese, in formato JSON
 {% endfile %}
 
@@ -201,7 +201,7 @@ Stringhe in francese, in formato JSON
         "online": {
           "descrizione": {
             "noEnte": "avec l’application IO, depuis votre «Banque à domicile», avec votre application de paiement ou avec les autres canaux activés.",
-            "sitoEnte": "avec l’application IO, sur le site de {{EnteNome}}, depuis votre « Banque à domicile », avec votre application de paiement ou avec les autres canaux activés."
+            "sitoEnte": "avec l’application IO, sur le site de {{EnteNome}}, depuis votre « Banque à domicile », avec votre application de paiement ou avec les autres canaux activés."
           },
           "titolo": "Payez en ligne"
         }
@@ -213,7 +213,7 @@ Stringhe in francese, in formato JSON
         },
         "online": {
           "descrizione": {
-            "noEnte": "ou depuis votre « Banque à domicile », avec votre application de paiement ou avec les autres canaux activés.",
+            "noEnte": "ou depuis votre « Banque à domicile », avec votre application de paiement ou avec les autres canaux activés.",
             "sitoEnte": "sur le site de {{EnteNome}}, depuis votre «Banque à domicile», avec votre application de paiement ou avec les autres canaux activés."
           },
           "titolo": "Paiement avec l’application IO"
@@ -224,14 +224,14 @@ Stringhe in francese, in formato JSON
     "importoScadenza": {
       "disclaimer": {
         "giacenza": {
-          "descrizione": "La notification correspond au jour du retrait, si celui-ci a lieu dans les 10 jours à compter de la date de dépôt (la date la plus ancienne figurant sur l’avis de passage). Si vous ne retirez pas le procès-verbal dans les 10 jours, calculez les échéances en commençant à compter à partir du onzième jour.",
-          "titolo": "Que se passe-t-il en cas de conservation au bureau de poste ?"
+          "descrizione": "La notification correspond au jour du retrait, si celui-ci a lieu dans les 10 jours à compter de la date de dépôt (la date la plus ancienne figurant sur l’avis de passage). Si vous ne retirez pas le procès-verbal dans les 10 jours, calculez les échéances en commençant à compter à partir du onzième jour.",
+          "titolo": "Que se passe-t-il en cas de conservation au bureau de poste ?"
         },
-        "legal": "En phase de paiement, si l’organisme le prévoit, le montant pourrait être mis à jour automatiquement et subir des variations en diminution (pour les réductions, les notes de crédit) ou en augmentation (pour les sanctions, les intérêts, etc.).",
+        "legal": "Lors du paiement, le montant peut être augmenté (en raison de sanctions, d’intérêts, de frais de notification ou d’autres facteurs) ou réduit (en raison de réductions ou de notes de crédit).",
         "rate": {
           "molteRate": "Les montants et les échéances sont indiqués en détail pour chaque versement.",
-          "rate": "Vous pouvez payer le montant total ou en {{Numero}} échéances",
-          "soloRate": "Vous pouvez payer en {{Numero}} échéances"
+          "rate": "Vous pouvez payer le montant total ou en {{Numero}} échéances",
+          "soloRate": "Vous pouvez payer en {{Numero}} échéances"
         },
         "scadenze": {
           "descrizione": "Le jour de la notification n’est pas compté. Si l’échéance tombe un dimanche (ou à un jour férié), vous pouvez également payer le premier jour ouvrable suivant.",
@@ -246,9 +246,9 @@ Stringhe in francese, in formato JSON
         "scontato": "Montant réduit de 30%"
       },
       "scadenza": {
-        "cinqueGiorni": "dans les 5 jours suivant la notification du procès-verbal",
+        "cinqueGiorni": "dans les 5 jours suivant la notification du procès-verbal",
         "scadenza": "avant le",
-        "sessantaGiorni": "entre le 6e et le 60e jour à compter de la notification du procès-verbal"
+        "sessantaGiorni": "entre le 6e et le 60e jour à compter de la notification du procès-verbal"
       },
       "titolo": "Combien et quand payer?"
     },
@@ -274,7 +274,7 @@ Stringhe in francese, in formato JSON
 
 ### Inglese
 
-{% file src="../../../.gitbook/assets/pagoPA-avvisi-320-stringhe-en.json" %}
+{% file src="../../../.gitbook/assets/pagoPA-avvisi-350-stringhe-en.json" %}
 Stringhe in inglese, in formato JSON
 {% endfile %}
 
@@ -358,7 +358,7 @@ Stringhe in inglese, in formato JSON
           "descrizione": "The notification is the day of the collection, if this occurs within 10 days from the date printed on the non-delivery notice. If you don’t collect the notice within 10 days, count the deadlines starting from the 11th day.",
           "titolo": "What happens in case of a failed delivery attempt?"
         },
-        "legal": "During the payment, if allowed by the payee, the amount may be updated automatically and be subject to decreases (in case of discounts or credit notes) or increases (in case of penalties, interest, etc.).",
+        "legal": "During the payment the amount may increase (due to penalties, interest, notification costs or other factors) or be reduced (due to discounts or credit notes).",
         "rate": {
           "molteRate": "Amounts and due dates are shown in each instalment detail.",
           "rate": "You can pay in full or in [avviso.rate.totali] instalments.",
@@ -405,7 +405,7 @@ Stringhe in inglese, in formato JSON
 
 ### Sloveno
 
-{% file src="../../../.gitbook/assets/pagoPA-avvisi-320-stringhe-sl.json" %}
+{% file src="../../../.gitbook/assets/pagoPA-avvisi-350-stringhe-sl.json" %}
 Stringhe in sloveno, in formato JSON
 {% endfile %}
 
@@ -489,7 +489,7 @@ Stringhe in sloveno, in formato JSON
           "descrizione": "Obvestilo ustreza dnevu prevzema, če se to zgodi v 10 dneh od datuma prispetja (najstarejši datum na obvestilu o prispelem pismu). Če zapisnika ne prevzamete v 10 dneh, izračunajte roke zapadlosti, ki začnejo teči z enajstim dnem.",
           "titolo": "Kaj se zgodi, če pismo ni izročeno?"
         },
-        "legal": "Če upravičenec to predvidi, se lahko med fazo plačila znesek samodejno posodobi in tudi zmanjša (zaradi popustov, dobropisov) ali poveča (zaradi kazni, obresti itd.).",
+        "legal": "Med fazo plačila se lahko znesek poveča (zaradi sankcij, obresti, stroškov obvestil ali drugih dejavnikov) ali zmanjša (zaradi popustov ali dobropisov)",
         "rate": {
           "molteRate": "Zneski in roki zapadlosti so podrobno prikazani za vsak posamezen obrok.",
           "rate": "Plačate lahko v celoti ali v {{Numero}} obrokih",
@@ -536,7 +536,7 @@ Stringhe in sloveno, in formato JSON
 
 ### Tedesco
 
-{% file src="../../../.gitbook/assets/pagoPA-avvisi-320-stringhe-de.json" %}
+{% file src="../../../.gitbook/assets/pagoPA-avvisi-350-stringhe-de (1).json" %}
 Stringhe in tedesco, in formato JSON
 {% endfile %}
 
@@ -573,19 +573,19 @@ Stringhe in tedesco, in formato JSON
       "numRata": "Rate {{Numero}}"
     },
     "dovePagare": {
-      "cta": "Liste der Zahlungsdienstleister: pagopa.gov.it",
+      "cta": "Liste der Zahlungsdienstleister: pagopa.gov.it",
       "gps": {
         "online": {
           "descrizione": {
-            "noEnte": "mit der App IO, mittels Home Banking, einer Zahlungsapp oder anderer zugelassener Zahlungsdienstleister.",
-            "sitoEnte": "mit der App IO, auf {{EnteNome}}, mittels Home Banking, einer Zahlungsapp oder anderer zugelassener Zahlungsdienstleister."
+            "noEnte": "mit der App IO, mittels Home Banking, einer Zahlungsapp oder anderer zugelassener Zahlungsdienstleister.",
+            "sitoEnte": "mit der App IO, auf {{EnteNome}}, mittels Home Banking, einer Zahlungsapp oder anderer zugelassener Zahlungsdienstleister."
           },
           "titolo": "Online"
         }
       },
       "italia": {
         "territorio": {
-          "descrizione": "bei Banken und ATM-Schaltern, in Postämtern und Poststellen, Tabaktrafiken und anderen angebundenen Dienstleistern.",
+          "descrizione": "bei Banken und ATM-Schaltern, in Postämtern und Poststellen, Tabaktrafiken und anderen angebundenen Dienstleistern.",
           "titolo": "In ihrer umgebung"
         }
       },
@@ -594,17 +594,17 @@ Stringhe in tedesco, in formato JSON
     "importoScadenza": {
       "disclaimer": {
         "giacenza": {
-          "descrizione": "Die Zustellung entspricht dem Tag der Abholung, wenn diese innerhalb von 10 Tagen nach dem Lagerdatum erfolgt. Wird der Bericht nicht innerhalb von 10 Tagen abgeholt, sind die Fristen ab dem elften Tag zu berechnen.",
+          "descrizione": "Die Zustellung entspricht dem Tag der Abholung, wenn diese innerhalb von 10 Tagen nach dem Lagerdatum erfolgt. Wird der Bericht nicht innerhalb von 10 Tagen abgeholt, sind die Fristen ab dem elften Tag zu berechnen.",
           "titolo": "Was passiert bei Lagerung?"
         },
-        "legal": "Der angeführte Betrag könnte sich auf Grund von allfälligen auch teilweisen Annullierungen oder Gutschriften,Verzugsgebühren, Strafen, Zinsen oder anderen Kosten ändern.",
+        "legal": "Während des Zahlungsvorganges kann sich der Betrag erhöhen (durch Strafen, Zinsen, Zustellungsgebühren oder anderes) oder verringern (durch Entlastungen oder Gutschriften).",
         "rate": {
           "molteRate": "Die Beträge und Fälligkeiten sind in den Details der einzelnen Rate angegeben.",
-          "rate": "Es ist möglich, den Betrag vollständig oder in {{Numero}} Raten zu zahlen",
-          "soloRate": "Es ist möglich, den Betrag in {{Numero}} Raten zu zahlen"
+          "rate": "Es ist möglich, den Betrag vollständig oder in {{Numero}} Raten zu zahlen",
+          "soloRate": "Es ist möglich, den Betrag in {{Numero}} Raten zu zahlen"
         },
         "scadenze": {
-          "descrizione": "Der Tag der Zustellung wird nicht mitgerechnet. Fällt die Frist auf einen Sonntag (oder Feiertag), kann am ersten folgenden Werktag bezahlt werden.",
+          "descrizione": "Der Tag der Zustellung wird nicht mitgerechnet. Fällt die Frist auf einen Sonntag (oder Feiertag), kann am ersten folgenden Werktag bezahlt werden.",
           "titolo": "Wie werden die Fristen berechnet?"
         },
         "scelta": "Den zur eigenen Frist passenden Bereich auswählen."

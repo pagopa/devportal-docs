@@ -6,6 +6,14 @@ description: >-
 
 # 🕘 Changelog
 
+### 3.5 (novembre 2025)
+
+* Aggiornato il testo nella sezione "_Quanto e dove pagare?_"per chiarire che l'importo può variare a causa dei costi di notifica
+* Aggiunto lo stesso testo anche nella variante [violazioni-codice-della-strada.md](../allegato-1/varianti/violazioni-codice-della-strada.md "mention")&#x20;
+* Aggiornati i file di esempio
+* Aggiornati testi nella sezione [**Traduzioni** ](../allegato-1/varianti/traduzioni/)
+* Aggiornati assets [violazioni-codice-della-strada.md](../allegato-1/varianti/violazioni-codice-della-strada.md "mention")
+
 ### 3.4 (luglio 2025)
 
 * Inseriti riferimenti alle API di generazione avvisi ([https://developer.pagopa.it/pago-pa/guides/stampa-avvisi-pagamento](https://developer.pagopa.it/pago-pa/guides/stampa-avvisi-pagamento))
