@@ -1,6 +1,6 @@
 # Stand In
 
-## PProcesso di pagamento in Stand In
+## Processo di pagamento in Stand In
 
 Lo Stand In è una funzionalità che consente di sopperire alla situazione in cui i sistemi degli EC sono temporaneamente indisponibili, affinché gli utenti possano effettuare i pagamenti degli avvisi pagoPA anche in tale situazione, a condizione che l’avviso di pagamento sia stato correttamente caricato nell’Archivio Centralizzato Avvisi (ACA).
 

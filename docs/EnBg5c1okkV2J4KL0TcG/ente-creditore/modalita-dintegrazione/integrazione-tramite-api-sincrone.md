@@ -12,8 +12,8 @@ Resta inteso che, per i trattamenti di dati personali connessi al servizio Archi
 
 Ogni EC, al momento delle creazione di una nuova posizione debitoria, deve effettuare il censimento della stessa sull’ACA tramite una delle seguenti modalità:
 
-* API via [Gestione Posizioni Debitorie](../../appendici/posizioni-debitorie/operazioni-disponibili.md#creazione-di-una-posizione-debitoria) (“GPD”);&#x20;
-* API [paCreatePosition](../../appendici/primitive/ente-creditore/api-rest/#pacreateposition);
+* API via [Gestione Posizioni Debitorie](../../appendici/posizioni-debitorie/operazioni-disponibili.md#gestione-posizioni-debitorie) (GPD);&#x20;
+* API [paCreatePosition](../../appendici/primitive/ente-creditore/api-rest/archivio-centralizzato-avvisi-aca.md);
 * API di [Gestione massiva](../../appendici/posizioni-debitorie/gestione-massiva/gestione-massiva-tramite-api-rest.md).
 
 ### Condizioni di esclusione dal conferimento delle posizioni sull’ACA
@@ -38,15 +38,15 @@ Una posizione debitoria di tipo ACA, per poter essere pagabile in modalità stan
 
 ### Conferimento tramite la paCreatePosition
 
-La [paCreatePosition](../../appendici/primitive/ente-creditore/api-rest/#pacreateposition), grazie alla proprietà di idempotenza, permette sia di inserire sia di aggiornare la posizione.
+La [paCreatePosition](../../appendici/primitive/ente-creditore/api-rest/archivio-centralizzato-avvisi-aca.md), grazie alla proprietà di idempotenza, permette sia di inserire sia di aggiornare la posizione.
 
-Per la procedura di abilitazione all'utilizzo della [paCreatePosition](../../appendici/primitive/ente-creditore/api-rest/#pacreateposition) è necessario fare riferimento al capitolo [connettivita.md](../../appendici/connettivita.md "mention").
+Per la procedura di abilitazione all'utilizzo della [paCreatePosition](../../appendici/primitive/ente-creditore/api-rest/archivio-centralizzato-avvisi-aca.md) è necessario fare riferimento al capitolo [connettivita.md](../../appendici/connettivita.md "mention").
 
 <figure><img src="https://lh3.googleusercontent.com/Vd05z8M6URcVGBWcwhOOsV0cR_Nxo3q1v-yjJnWvYVqk8pQAn9zaTkMwhhSF4PcF3CwhRjdzxEHU8hQ3hH6tMXuIAJJxHjjx0EghovLtMQdtmE-fqxNhpA9mYHAHLM57vfKk6E76vKoDk2rYENBzoo4" alt=""><figcaption></figcaption></figure>
 
 #### **Fase di censimento**
 
-La richiesta di creazione di una nuova posizione giunge all’ACA per mezzo della[ paCreatePosition](../../appendici/primitive/ente-creditore/api-rest/#pacreateposition), fornendo in input i seguenti dati:
+La richiesta di creazione di una nuova posizione giunge all’ACA per mezzo della[ paCreatePosition](../../appendici/primitive/ente-creditore/api-rest/archivio-centralizzato-avvisi-aca.md), fornendo in input i seguenti dati:
 
 * _paFiscalCode_: codice fiscale dell’EC che ha creato la posizione debitoria;
 * _entityType_: tipologia del debitore (F=persona fisica, G=persona giuridica);
@@ -75,15 +75,15 @@ Anche le posizioni debitorie multi-beneficiario devono essere inviate all'ACA, c
 
 Nel campo _fiscalCodePA_ deve essere inserito il CF dell'Ente che ha creato la posizione debitoria.
 
-La struttura dei dati conferma che vi è un solo importo totale comunicato dall’EC, che rappresenta la somma degli importi presenti nei vari transfer della posizione debitoria originaria, questo implica che la funzionalità di [stand-in.md](../../specifiche-attuative-del-nodo-dei-pagamenti-spc/funzionamento-generale/stand-in.md "mention"), solo ed esclusivamente nel caso di conferimento all’ACA tramite la [paCreatePosition](../../appendici/primitive/ente-creditore/api-rest/#pacreateposition), non può gestire la suddivisione degli importi di una posizione debitoria di tipo multi-beneficiario, in quanto non vengono fornite le informazioni necessarie per la gestione di tale struttura di pagamento.
+La struttura dei dati conferma che vi è un solo importo totale comunicato dall’EC, che rappresenta la somma degli importi presenti nei vari transfer della posizione debitoria originaria, questo implica che la funzionalità di [stand-in.md](../../specifiche-attuative-del-nodo-dei-pagamenti-spc/funzionamento-generale/stand-in.md "mention"), solo ed esclusivamente nel caso di conferimento all’ACA tramite la [paCreatePosition](../../appendici/primitive/ente-creditore/api-rest/archivio-centralizzato-avvisi-aca.md), non può gestire la suddivisione degli importi di una posizione debitoria di tipo multi-beneficiario, in quanto non vengono fornite le informazioni necessarie per la gestione di tale struttura di pagamento.
 
 {% hint style="info" %}
-Qualora il pagamento di una posizione debitoria di tipo multi-beneficiario avvenga in modalità di [stand-in.md](../../specifiche-attuative-del-nodo-dei-pagamenti-spc/funzionamento-generale/stand-in.md "mention"), solo ed esclusivamente nel caso di conferimento all’ACA tramite la [paCreatePosition](../../appendici/primitive/ente-creditore/api-rest/#pacreateposition), verrà effettuato un unico riversamento all’EC che ha creato l’avviso di pagamento con l’importo totale (EC presente nel campo _fiscalCodePA)_, sarà responsabilità di quest’ultimo assicurare una suddivisione accurata delle quote di pagamento tra gli ulteriori EC inseriti come beneficiari, nelle modalità da lui individuate in accordo con gli EC secondari.
+Qualora il pagamento di una posizione debitoria di tipo multi-beneficiario avvenga in modalità di [stand-in.md](../../specifiche-attuative-del-nodo-dei-pagamenti-spc/funzionamento-generale/stand-in.md "mention"), solo ed esclusivamente nel caso di conferimento all’ACA tramite la [paCreatePosition](../../appendici/primitive/ente-creditore/api-rest/archivio-centralizzato-avvisi-aca.md), verrà effettuato un unico riversamento all’EC che ha creato l’avviso di pagamento con l’importo totale (EC presente nel campo _fiscalCodePA)_, sarà responsabilità di quest’ultimo assicurare una suddivisione accurata delle quote di pagamento tra gli ulteriori EC inseriti come beneficiari, nelle modalità da lui individuate in accordo con gli EC secondari.
 {% endhint %}
 
 **Fase di aggiornamento**
 
-E’ obbligatorio effettuare un aggiornamento della posizione debitoria richiamando la summenzionata API [paCreatePosition](../../appendici/primitive/ente-creditore/api-rest/#pacreateposition) nei seguenti casi:
+E’ obbligatorio effettuare un aggiornamento della posizione debitoria richiamando la summenzionata API [paCreatePosition](../../appendici/primitive/ente-creditore/api-rest/archivio-centralizzato-avvisi-aca.md) nei seguenti casi:
 
 * aggiornamento dell’importo;
 * aggiornamento dello stato, per comunicare la chiusura o l’annullamento della posizione, impostando il valore del campo _amount_ a zero;
@@ -95,7 +95,7 @@ Ogni volta che viene eseguito un aggiornamento della posizione debitoria, la pia
 
 **Fase di annullamento**
 
-E' obbligatorio nel caso di posizione annullata o sostituita con una nuova effettuare l’annullamento della posizione debitoria richiamando la summenzionata API [paCreatePosition](../../appendici/primitive/ente-creditore/api-rest/#pacreateposition).
+E' obbligatorio nel caso di posizione annullata o sostituita con una nuova effettuare l’annullamento della posizione debitoria richiamando la summenzionata API [paCreatePosition](../../appendici/primitive/ente-creditore/api-rest/archivio-centralizzato-avvisi-aca.md).
 
 La chiamata deve essere fatta contestualmente alla modifica effettuata sull'archivio dell'EC.
 
@@ -103,7 +103,7 @@ L’annullamento può essere effettuato esclusivamente impostando il valore del 
 
 **Fase di chiusura**
 
-Nel caso di posizione debitoria pagata dal debitore tramite canali diversi dalla piattafroma pagoPA è necessario richiamare la summenzionata API [paCreatePosition](../../appendici/primitive/ente-creditore/api-rest/#pacreateposition) per effettuare la chiusura della stessa.
+Nel caso di posizione debitoria pagata dal debitore tramite canali diversi dalla piattaforma pagoPA è necessario richiamare la summenzionata API [paCreatePosition](../../appendici/primitive/ente-creditore/api-rest/archivio-centralizzato-avvisi-aca.md) per effettuare la chiusura della stessa.
 
 La chiusura può essere effettuata esclusivamente impostando il valore del campo _amount_ a zero.
 
