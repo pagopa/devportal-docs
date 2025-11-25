@@ -23,6 +23,24 @@ L'operatore deve inserire i seguenti dati:
 * importo della spesa dell'elettrodomestico che l'Utente finale intende acquistare con il bonus;
 * codice sconto, ovvero codice alfanumerico che l'Utente finale presenta, o tramite l'app IO o in formato cartaceo.
 
+{% hint style="info" %}
+Durante l'inserimento, fare attenzione nel distinguere le lettere dalle cifre (es.: la cifra `0` vs la lettera `O`).
+{% endhint %}
+
+<details>
+
+<summary>Come si ottiene il codice sconto dall'app IO?</summary>
+
+L'utente deve compiere i seguenti passaggi:
+
+1. Aprire l'app IO
+2. Verrà chiesto di autenticarsi con volto, impronta o codice di sblocco
+3. Andare nella sezione **Portafoglio** e premere su **Bonus Elettrodomestici**
+4. Premere su **Usa il bonus** e poi su **Genera un codice sconto**
+5. **Verrà mostrato un codice** della validità di 15 minuti. Se il codice scade prima di completare il pagamento, è possibile generarne uno nuovo.
+
+</details>
+
 <figure><img src="../.gitbook/assets/Dati spesa.png" alt=""><figcaption></figcaption></figure>
 
 ***
@@ -31,7 +49,7 @@ L'operatore deve inserire i seguenti dati:
 
 Il sistema visualizza una pagina di riepilogo con i dettagli del Buono sconto.&#x20;
 
-Se l'utente finale non usa l'app IO, L'Operatore ha il compito di **controllare la corrispondenza del Codice Fiscale** mostrato dal sistema con quello riportato sulla sua Tessera Sanitaria.
+Se l'utente finale non usa l'app IO, l'Operatore ha il compito di **controllare la corrispondenza del Codice Fiscale** mostrato dal sistema con quello riportato sulla sua Tessera Sanitaria.
 
 <figure><img src="../.gitbook/assets/Dati spesa (2).png" alt=""><figcaption></figcaption></figure>
 
