@@ -12,14 +12,29 @@ Resta inteso che, per i trattamenti di dati personali connessi al servizio Archi
 
 Ogni EC, al momento delle creazione di una nuova posizione debitoria, deve effettuare il censimento della stessa sull’ACA tramite una delle seguenti modalità:
 
-* API di creazione e aggiornamento del servizio di [Gestione Posizioni Debitorie](../../appendici/posizioni-debitorie/operazioni-disponibili.md#creazione-di-una-posizione-debitoria) (“GPD”);
-* API [paCreatePosition](../../appendici/primitive/ente-creditore/api-rest/#pacreateposition).
+* API via [Gestione Posizioni Debitorie](../../appendici/posizioni-debitorie/operazioni-disponibili.md#creazione-di-una-posizione-debitoria) (“GPD”);&#x20;
+* API [paCreatePosition](../../appendici/primitive/ente-creditore/api-rest/#pacreateposition);
+* API di [Gestione massiva](../../appendici/posizioni-debitorie/gestione-massiva/gestione-massiva-tramite-api-rest.md).
 
 ### Condizioni di esclusione dal conferimento delle posizioni sull’ACA
 
 E’ possibile definire delle esclusioni dal conferimento delle posizioni sull’ACA tramite il backoffice pagoPA.
 
 La motivazione a cui devono essere ricondotte tutte le casistiche di esclusione è riconducibile esclusivamente alla generazione della posizione debitoria su richiesta diretta del Debitore e contestuale al pagamento (a puro titolo esemplificativo e non esaustivo possono essere associati a tale casistica i cosiddetti pagamenti _on the fly_ presso il frontend dell’EC). Diverso è il caso di avvisi di pagamento generati sempre dal portale dell’EC su richiesta del Debitore, ma che possono essere stampati e/o pagati in un secondo momento rispetto alla creazione della posizione debitoria e del relativo avviso di pagamento.
+
+### Conferimento tramite API via Gestione Posizioni Debitorie
+
+Le API di creazione ed aggiornamento delle posizioni ACA sono strutturalmente analoghe al servizio di Gestione Posizioni Debitorie (GPD). Ciò che cambia è il base path del servizio stesso. In particolare:
+
+```http
+https://api.platform.pagopa.it/aca/debt-positions-service
+```
+
+Tale differenza è importante per una categorizzazione corretta delle posizioni debitorie. Per i dettagli specifici si rimanda alla sezione API del DevPortal [https://developer.pagopa.it/pago-pa/api](https://developer.pagopa.it/pago-pa/api).
+
+{% hint style="info" %}
+Una posizione debitoria di tipo ACA, per poter essere pagabile in modalità stand-in, dev’essere nello stato VALID.
+{% endhint %}
 
 ### Conferimento tramite la paCreatePosition
 
@@ -91,6 +106,16 @@ L’annullamento può essere effettuato esclusivamente impostando il valore del 
 Nel caso di posizione debitoria pagata dal debitore tramite canali diversi dalla piattafroma pagoPA è necessario richiamare la summenzionata API [paCreatePosition](../../appendici/primitive/ente-creditore/api-rest/#pacreateposition) per effettuare la chiusura della stessa.
 
 La chiusura può essere effettuata esclusivamente impostando il valore del campo _amount_ a zero.
+
+### Conferimento tramite la gestione massiva
+
+Le API di gestione massiva ACA sono strutturalmente analoghe al servizio massivo di Gestione Posizioni Debitorie (GPD). Ciò che cambia è il base path del servizio stesso, in particolare:
+
+```http
+https://api.platform.pagopa.it/upload/aca/debt-positions-service/v2
+```
+
+Tale differenza è importante per una categorizzazione corretta delle posizioni debitorie. Per i dettagli specifici si rimanda alla sezione API del DevPortal [https://developer.pagopa.it/pago-pa/api](https://developer.pagopa.it/pago-pa/api).
 
 ## Fase di richiesta di creazione della posizione debitoria
 
