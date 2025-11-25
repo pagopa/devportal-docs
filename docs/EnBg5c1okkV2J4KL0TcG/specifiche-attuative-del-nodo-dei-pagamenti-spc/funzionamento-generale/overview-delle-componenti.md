@@ -2,7 +2,7 @@
 
 In questa pagina descriviamo lo scopo di ciascuna componente della piattaforma pagoPA, senza entrare nel dettaglio dei moduli o degli attori appartenenti al dominio dell'Ente Creditore o del Prestatore dei Servizi di Pagamento.
 
-<figure><img src="../../../9E4vGfV6bOPGpOwZoKIm/.gitbook/assets/overview_componenti_pagopa.png" alt=""><figcaption><p>Macro componenti della piattaforma pagoPA</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/overview_componenti_pagopa.png" alt=""><figcaption><p>Macro componenti della piattaforma pagoPA</p></figcaption></figure>
 
 ## Nodo dei pagamenti
 
@@ -33,7 +33,7 @@ La componente Checkout inoltre fornisce all’utilizzatore finale funzioni di su
 
 ## IO
 
-<img src="../../../uZtPuOMNFRHnv2PsvM8Q/.gitbook/assets/image.png" alt="" data-size="line">permette di interagire facilmente con diverse Pubbliche Amministrazioni, locali o nazionali, raccogliendo tutti i loro servizi, comunicazioni, pagamenti e documenti in un'unica app, in modo sicuro e sempre a portata di mano.
+<img src="../../.gitbook/assets/image (1).png" alt="" data-size="line">permette di interagire facilmente con diverse Pubbliche Amministrazioni, locali o nazionali, raccogliendo tutti i loro servizi, comunicazioni, pagamenti e documenti in un'unica app, in modo sicuro e sempre a portata di mano.
 
 L'app permette di pagare direttamente da messaggio o avviso cartaceo, riducendo i tempi e i costi d’incasso per l’Ente.
 

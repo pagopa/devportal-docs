@@ -6,7 +6,7 @@ Per far transitare sulla piattaforma pagoPA le informazioni utili alla riconcili
 
 Per un corretto e standardizzato utilizzo dei _metadata_ è stato creato un apposito [Dizionario dei metadata](https://app.gitbook.com/o/KXYtsf32WSKm6ga638R3/s/u6YdY319vyFX9MIvnKBa/ "mention"), in cui è presente una sezione dedicata alla riconciliazione contabile.
 
-![](../../9E4vGfV6bOPGpOwZoKIm/.gitbook/assets/flussoMetadataEC.png)
+![](../.gitbook/assets/flussoMetadataEC.png)
 
 * nella _response_ alla richiesta di attivazione del pagamento, che giunge all’EC per mezzo della [paGetPayment vers.2](../appendici/primitive/ente-creditore/api-soap.md#pagetpayment-versione-2), è possibile inserire i _metadata_ per ogni singolo transfer;
 * tramite la primitiva [paSendRT vers. 2](../appendici/primitive/ente-creditore/api-soap.md#pasendrt-versione-2), che viene inviata agli _n_ EC interessati al pagamento tramite i loro Partner/Intermediari Tecnologici, vengono inoltrati i _metadata_ che erano stati inseriti nella [paGetPayment vers. 2](../appendici/primitive/ente-creditore/api-soap.md#pagetpayment-versione-2) _response_;

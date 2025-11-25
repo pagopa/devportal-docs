@@ -29,7 +29,7 @@ _Ad esempio, una opzione di pagamento potrebbe avere la seguente suddivisione:_
 
 ### Schema logico (ER)
 
-![](<../../../9E4vGfV6bOPGpOwZoKIm/.gitbook/assets/image (38).png>)
+![](<../../.gitbook/assets/image (38) (1).png>)
 
 #### Posizione Debitoria (PD) <a href="#posizione-debitoria-pd" id="posizione-debitoria-pd"></a>
 
@@ -104,7 +104,7 @@ In caso di pagamento spontaneo:
 
 ### Sottoscrizione ai servizi di pagamento spontaneo (schema logico)
 
-![](<../../../9E4vGfV6bOPGpOwZoKIm/.gitbook/assets/EnrollmentPS.drawio (3).png>)
+![](<../../.gitbook/assets/EnrollmentPS.drawio (3).png>)
 
 Un **Ente Creditore** , aderente alla gestione dei pagamenti spontanei, può aderire a più **servizi.** La disponibilità dei servizi dipende dal catalogo dei servizi della piattaforma pagoPA.
 

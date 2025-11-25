@@ -4,7 +4,7 @@
 
 Lo Stand In è una funzionalità che consente di sopperire alla situazione in cui i sistemi degli EC sono temporaneamente indisponibili, affinché gli utenti possano effettuare i pagamenti degli avvisi pagoPA anche in tale situazione, a condizione che l’avviso di pagamento sia stato correttamente caricato nell’Archivio Centralizzato Avvisi (ACA).
 
-<figure><img src="../../../DG2lpjf4Y5u7ZRFE7CyZ/.gitbook/assets/image (53).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (53).png" alt=""><figcaption></figcaption></figure>
 
 ### Funzionalità di Stand In per i pagamenti attivati presso PSP
 

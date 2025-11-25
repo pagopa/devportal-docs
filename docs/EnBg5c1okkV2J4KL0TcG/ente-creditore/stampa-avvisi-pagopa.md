@@ -16,14 +16,14 @@ Nel caso in cui l’Ente Creditore comunichi di non voler far proprio l’Accord
 
 ## **Stampa singolo avviso**
 
-<figure><img src="../../9E4vGfV6bOPGpOwZoKIm/.gitbook/assets/monoAvviso.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/monoAvviso.png" alt=""><figcaption></figcaption></figure>
 
 * L’EC invia tutte le informazioni necessarie alla stampaSingoloAvviso, come indicate nella sezione [#informazioni-richieste-per-la-stampa-dellavviso-di-pagamento](stampa-avvisi-pagopa.md#informazioni-richieste-per-la-stampa-dellavviso-di-pagamento "mention");
 * la stampaSingoloAvviso risponde con il PDF dell’_avviso di pagamento_ richiesto, conforme alle specifiche descritte in [Avvisi di pagamento](https://docs.pagopa.it/avviso-pagamento).
 
 ## **Stampa multipla avvisi**
 
-<figure><img src="../../9E4vGfV6bOPGpOwZoKIm/.gitbook/assets/multiAvviso.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/multiAvviso.png" alt=""><figcaption></figcaption></figure>
 
 * L’EC invia tutte le informazioni necessarie alla stampaMultiAvviso, come indicate nella sezione [#informazioni-richieste-per-la-stampa-dellavviso-di-pagamento](stampa-avvisi-pagopa.md#informazioni-richieste-per-la-stampa-dellavviso-di-pagamento "mention");
 * la stampaMultiAvviso fornirà l’url dove poter effettuare il download di tutti i PDF degli _avvisi di pagamento_ richiesti, conformi alle specifiche descritte in [Avvisi di pagamento](https://docs.pagopa.it/avviso-pagamento).

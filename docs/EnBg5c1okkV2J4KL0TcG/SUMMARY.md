@@ -28,6 +28,7 @@
 * [Pagamento spontaneo presso PSP](casi-duso/pagamento-spontaneo-presso-psp/README.md)
   * [Catalogo dei servizi](casi-duso/pagamento-spontaneo-presso-psp/catalogo-dei-servizi.md)
   * [Bollo auto](casi-duso/pagamento-spontaneo-presso-psp/bollo-auto.md)
+  * [Passaporto](casi-duso/pagamento-spontaneo-presso-psp/passaporto.md)
 * [Pagamento presso frontend dell'EC](casi-duso/pagamento-presso-frontend-dellec.md)
 * [Pagamento da Touchpoint PagoPA](casi-duso/pagamento-da-touchpoint-pagopa/README.md)
   * [Checkout](casi-duso/pagamento-da-touchpoint-pagopa/checkout.md)
