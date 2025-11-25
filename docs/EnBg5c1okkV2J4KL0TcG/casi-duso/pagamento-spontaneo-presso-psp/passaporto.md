@@ -9,11 +9,11 @@ L'utente, dopo aver inserito/fornito i dati che saranno inviati all'ente _Minist
 
 <figure><img src="../../.gitbook/assets/Screenshot 2025-11-04 alle 15.59.42.png" alt=""><figcaption></figcaption></figure>
 
-* La [demandPaymentNotice](../../appendici/primitive/#demandpaymentnotice) è utilizzabile dai PSP per inviare i dati del servizio specifico inseriti dall'utente, che nel caso attuale sono essenzialmente:&#x20;
+* La [demandPaymentNotice](../../appendici/primitive/psp/api-soap.md#demandpaymentnotice) è utilizzabile dai PSP per inviare i dati del servizio specifico inseriti dall'utente, che nel caso attuale sono essenzialmente:&#x20;
   * dati dell'intestatario del passaporto
   * dati del pagatore
   * codice pratica **A001** (che identifica in modo univoco il tipo di servizio di cui si sta usufruendo).
-* la [paDemandPaymentNotice](../../appendici/primitive/#pademandpaymentnotice) è utilizzata per richiedere a _Ministero dell'Interno_ la creazione della posizione debitoria in base alle informazioni ricevute. A sua volta, _Ministero dell'Interno_ invierà in risposta il numero avviso e i dati dell'ente beneficiario del pagamento.
+* la [paDemandPaymentNotice](../../appendici/primitive/ente-creditore/api-soap.md#pademandpaymentnotice) è utilizzata per richiedere a _Ministero dell'Interno_ la creazione della posizione debitoria in base alle informazioni ricevute. A sua volta, _Ministero dell'Interno_ invierà in risposta il numero avviso e i dati dell'ente beneficiario del pagamento.
 
 Di seguito un esempio di struttura che deve transitare tramite il tag _datiSpecificiServizio_ nel formato base64.
 
