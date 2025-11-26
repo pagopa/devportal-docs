@@ -1,5 +1,13 @@
 # Gestione Posizioni Debitorie (GPD)
 
+{% hint style="warning" %}
+Tutte le operazioni indicate sono segregate per codice fiscale dell'ente creditore (`organizationfiscalcode`).
+
+In caso di intermediazione, è possibile associare alla _subscription key_ dell'intermediario da _1_ ad _n_ codici fiscali di enti intermediati, ciò consente agli intermediari di utilizzare una sola _subscription key_ per l'invocazione delle API per conto di tutti gli enti intermediati. Tali abilitazioni devono essere richieste a PagoPA contestualmente alla creazione della _subscription key_ o in momenti successivi.
+
+Le _subscription key_ e le relative abilitazioni sono segregate per ambiente _UAT/PROD._
+{% endhint %}
+
 | TABELLA DELLE SEZIONI                                                                                                                                                     |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [Inserimento/Modifica/Cancellazione/Lettura](gestione-posizioni-debitorie-gpd.md#pagetpayment)                                                                            |
@@ -19,6 +27,10 @@
 [OpenAPI pagopa-SANP3-10-0-gpd](https://raw.githubusercontent.com/pagopa/pagopa-api/refs/heads/SANP3.10.0/openapi/gpd.json)
 {% endopenapi-operation %}
 
+{% hint style="warning" %}
+Il _query parameter_ `toPublish` consente di pubblicare automaticamente una posizione debitoria in fase di creazione, impostando questo parametro a `true` e valorizzando contestualmente a `null` il campo `validityDate`, la posizione debitoria andrà direttamente nello stato VALID pronta per essere pagata.
+{% endhint %}
+
 {% openapi-operation spec="pagopa-SANP3-10-0-gpd" path="/organizations/{organizationfiscalcode}/debtpositions/transfers" method="patch" %}
 [OpenAPI pagopa-SANP3-10-0-gpd](https://raw.githubusercontent.com/pagopa/pagopa-api/refs/heads/SANP3.10.0/openapi/gpd.json)
 {% endopenapi-operation %}
@@ -30,6 +42,11 @@
 {% openapi-operation spec="pagopa-SANP3-10-0-gpd" path="/organizations/{organizationfiscalcode}/debtpositions/{iupd}" method="put" %}
 [OpenAPI pagopa-SANP3-10-0-gpd](https://raw.githubusercontent.com/pagopa/pagopa-api/refs/heads/SANP3.10.0/openapi/gpd.json)
 {% endopenapi-operation %}
+
+{% hint style="warning" %}
+E' importante porre particolare attenzione al campo `notificationFee` che contiene le spese di notifica della posizione debitoria. Questo campo viene gestito in modo esclusivo da Piattaforma Notifiche e l'eventuale importo viene aggiunto automaticamente dal sistema GPD all'importo delle posizioni debitorie.\
+L'EC pertanto in fase di aggiornamento dell'importo `amount` di uno dei `transfer` presenti all'interno di una `paymentOption`, non dovrà tenere conto del valore presente all'interno del campo `notificationFee`.
+{% endhint %}
 
 {% openapi-schemas spec="pagopa-SANP3-10-0-gpd" schemas="PaymentOptionMetadataModel,PaymentOptionModel,PaymentPositionModel,Stamp,TransferMetadataModel,TransferModel,ProblemJson,PaymentOptionMetadataModelResponse,TransferMetadataModelResponse,TransferModelResponse,UpdateTransferIbanMassiveModel,UpdateTransferIbanMassiveResponse,PageInfo,PaymentOptionModelResponse,PaymentPositionModelBaseResponse,PaymentPositionsInfo,AppInfo" grouped="true" %}
 [OpenAPI pagopa-SANP3-10-0-gpd](https://raw.githubusercontent.com/pagopa/pagopa-api/refs/heads/SANP3.10.0/openapi/gpd.json)
@@ -156,3 +173,4 @@ Queste API saranno dismesse a partire dal 31/12/2026
 {% openapi-schemas spec="pagopa-SANP3-10-0-gpd-v3" schemas="DebtorModel,InstallmentMetadataModel,InstallmentModel,PaymentOptionModelV3,PaymentPositionModelV3,Stamp,TransferMetadataModel,TransferModel,ProblemJson,InstallmentModelResponse,PageInfo,PaymentOptionModelResponseV3,PaymentPositionModelResponseV3,PaymentPositionsInfoV3,TransferMetadataModelResponse,TransferModelResponse" grouped="true" %}
 [OpenAPI pagopa-SANP3-10-0-gpd-v3](https://raw.githubusercontent.com/pagopa/pagopa-api/refs/heads/SANP3.10.0/openapi/gpd_v3.json)
 {% endopenapi-schemas %}
+
