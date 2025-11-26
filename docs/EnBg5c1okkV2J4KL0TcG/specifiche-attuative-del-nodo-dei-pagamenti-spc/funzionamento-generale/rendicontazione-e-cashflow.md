@@ -158,7 +158,7 @@ Si riporta di seguito il disegno del nuovo processo:
 
 Il processo prevede l'introduzione di diversi step, descritti nei paragrafi seguenti.
 
-Gli esempi delle chiamate sono consultabili sul [developer portal.](http://linkdeveloperportal)
+Gli esempi delle chiamate sono consultabili sul [developer portal.](https://developer.pagopa.it/pago-pa/api/flussi-di-rendicontazione)
 
 #### **Azioni disponibili per l'invio e la gestione dei flussi di rendicontazione**
 
