@@ -44,6 +44,7 @@
   * [Best practice](ente-creditore/modalita-dintegrazione/best-practice.md)
 * [Generazione dell’Identificativo Univoco di Versamento](ente-creditore/generazione-dellidentificativo-univoco-di-versamento.md)
 * [Tassonomia dei servizi di incasso](ente-creditore/tassonomia-dei-servizi-di-incasso.md)
+* [SEPA RTP - Request To Pay](ente-creditore/sepa-rtp-request-to-pay.md)
 * [Tributi multi-beneficiario](ente-creditore/tributi-multi-beneficiario.md)
 * [Attestazione di pagamento](ente-creditore/attestazione-di-pagamento.md)
 * [Riconciliazione contabile](ente-creditore/riconciliazione-contabile.md)
