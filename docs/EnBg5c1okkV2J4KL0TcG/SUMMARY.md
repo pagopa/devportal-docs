@@ -133,6 +133,9 @@
     * [📥 Gestione massiva tramite SFTP](appendici/posizioni-debitorie/gestione-massiva/gestione-massiva-tramite-sftp.md)
   * [Operazioni disponibili](appendici/posizioni-debitorie/operazioni-disponibili.md)
 * [POS Fisici](appendici/pos-fisici.md)
+* [Integrazione Servizio SRTP](appendici/integrazione-servizio-srtp/README.md)
+  * [EC](appendici/integrazione-servizio-srtp/ec.md)
+  * [PSP](appendici/integrazione-servizio-srtp/psp.md)
 
 ## FAQ
 
