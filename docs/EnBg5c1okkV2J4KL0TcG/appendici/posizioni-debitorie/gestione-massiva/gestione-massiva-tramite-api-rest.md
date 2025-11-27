@@ -6,40 +6,62 @@ description: >-
 
 # ⚙️ Gestione massiva tramite API REST
 
-La gestione massiva può essere innescato tramite API le cui specifiche sono riportate di seguito nel documento.\
-Mediante l'API `/brokers/{broker-code}/organizations/{organization-fiscal-code}/debtpositions/file` è possibile innescare il caricamento, la modifica e l'eliminazione massiva delle posizioni debitorie presenti all'interno di un file compresso come descritto in [Specifiche tracciato di input](specifiche-tracciato-di-input.md). \
-Il metodo in caso positivo risponde subito con un codice `HTTP 202`, una volta ottenuta una risposta positiva è possibile verificare lo stato dell'operazione massiva mediante l'utilizzo dell'API `/brokers/{broker-code}/organizations/{organization-fiscal-code}/debtpositions/file/{fileId}/status`. Per ottenere un report completo, comprensivo degli esiti per ogni posizioni debitoria, è necessario interrogare l'API\
-&#x20;`/brokers/{broker-code}/organizations/{organization-fiscal-code}/debtpositions/file/{fileId}/report`
+Le API di gestione massiva consentono il caricamento, l'aggiornamento e la cancellazione massiva di posizioni debitorie. Tale processo consente all'Ente Creditore di gestire un massimo di 100 mila posizioni debitorie mediante il caricamento di un file che non deve superare la dimensione di 5 MB compresso in formato ZIP.
 
-{% hint style="info" %}
-Le URI che consentono di consultare lo `status` ed il `report` dell'operazione effettuata tramite caricamento sono accessibili inserendo come path param il `fileID` contenuto nel `Location` header delle risposte alle seguenti`API`\
-`POST /organizations/{organization-fiscal-code}/debtpositions/file`
+### Creazione massiva
 
-`PUT /organizations/{organization-fiscal-code}/debtpositions/file`
+La richiesta di creazione massiva delle posizioni debitorie prevede il caricamento di un file JSON contenente una lista di posizioni debitorie. Per i dettagli specifici del file si rimanda alla sezione API del DevPortal (inserire link).
 
-`DELETE /organizations/{organization-fiscal-code}/debtpositions/file`
+Se il caricamento del file è avvenuto correttamente e risulta valido, la risposta restituirà lo status code 202.&#x20;
 
-<mark style="color:blue;">"Location" : "brokers/{broker-code}/organizations/{ec-code}/debtpositions/file/{</mark><mark style="color:blue;">**fileID**</mark><mark style="color:blue;">}/status"</mark>
-{% endhint %}
+Al fine di poter verificare il corretto caricamento delle posizioni debitorie in archivio è necessario utilizzare le informazioni condivise nell'header di risposta nei seguenti campi:
 
-### Specifiche API <a href="#specifiche-api" id="specifiche-api"></a>
+* Location contenente l'URL relativo per verificare lo stato di avanzamento della creazione;
+* Retry-After contenente una stima di quando il processo di creazione sarà completato.
 
-{% openapi src="https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.8.0/openapi/gpd_massive.json" path="/brokers/{broker-code}/organizations/{organization-fiscal-code}/debtpositions/file" method="post" %}
-[https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.8.0/openapi/gpd_massive.json](https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.8.0/openapi/gpd_massive.json)
-{% endopenapi %}
+Tale API ha un rate-limit configurato pari a 1 richiesta al secondo per subscription-key.
 
-{% openapi src="https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.8.0/openapi/gpd_massive.json" path="/brokers/{broker-code}/organizations/{organization-fiscal-code}/debtpositions/file" method="put" %}
-[https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.8.0/openapi/gpd_massive.json](https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.8.0/openapi/gpd_massive.json)
-{% endopenapi %}
+### Aggiornamento Massivo
 
-{% openapi src="https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.8.0/openapi/gpd_massive.json" path="/brokers/{broker-code}/organizations/{organization-fiscal-code}/debtpositions/file" method="delete" %}
-[https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.8.0/openapi/gpd_massive.json](https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.8.0/openapi/gpd_massive.json)
-{% endopenapi %}
+La richiesta dell'aggiornamento massivo richiede il caricamento di un file JSON con struttura analoga a quello utilizzato in fase di creazione.&#x20;
 
-{% openapi src="https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.8.0/openapi/gpd_massive.json" path="/brokers/{broker-code}/organizations/{organization-fiscal-code}/debtpositions/file/{file-id}/report" method="get" %}
-[https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.8.0/openapi/gpd_massive.json](https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.8.0/openapi/gpd_massive.json)
-{% endopenapi %}
+Verranno aggiornate esclusivamente le posizioni debitorie riconosciute, mentre quelle non presenti in archivio saranno ignorate.
 
-{% openapi src="https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.8.0/openapi/gpd_massive.json" path="/brokers/{broker-code}/organizations/{organization-fiscal-code}/debtpositions/file/{file-id}/status" method="get" %}
-[https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.8.0/openapi/gpd_massive.json](https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.8.0/openapi/gpd_massive.json)
-{% endopenapi %}
+Se il caricamento del file è avvenuto correttamente e risulta valido, la risposta restituirà lo status code 202.&#x20;
+
+Al fine di poter verificare il corretto aggiornamento delle posizioni debitorie in archivio è necessario utilizzare le informazioni condivise nell'header di risposta nei seguenti campi:
+
+* Location contenente l'URL relativo per verificare lo stato di avanzamento della creazione;
+* Retry-After contenente una stima di quando il processo di creazione sarà completato.
+
+Tale API ha un rate-limit configurato pari a 1 richiesta al secondo per subscription-key.
+
+### Cancellazione Massiva
+
+La richiesta di cancellazione massiva prevede il caricamento di un file JSON contenente la lista degli IUPD da cancellare.
+
+Se il caricamento del file è avvenuto correttamente e risulta valido, la risposta restituirà lo status code 202.&#x20;
+
+Al fine di poter verificare la corretta cancellazione delle posizioni debitorie in archivio è necessario utilizzare le informazioni condivise nell'header di risposta nei seguenti campi:
+
+* Location contenente l'URL relativo per verificare lo stato di avanzamento della creazione;
+* Retry-After contenente una stima di quando il processo di creazione sarà completato.
+
+Tale API ha un rate-limit configurato pari a 1 richiesta al secondo per subscription-key.
+
+### Stato delle operazioni massive
+
+Per monitorare lo stato di avanzamento di un'operazione massiva sono disponibili due API di supporto:
+
+* **API di recupero dell'identificativo di elaborazione:** fornisce la lista degli identificativi dei file caricati (corrispondente ad una operazione massiva) per cui è possibile richiedere lo status o il report. La lista ha una profondità di 60 giorni ed è limitata ad un range di 7 giorni.\
+  Se il campo _`hasMore`_ nel body di risposta è true allora nell'header è presente il campo `x-continuation-token` necessario per richiedere la paginazione successiva.
+* **API di status:** restituisce il numero di posizioni debitorie elaborate rispetto al totale di quelle sottomesse. Lo status è recuperabile per operazioni entro i 60 giorni. Quando i campi `processedItem` e `submittedItem` in risposta corrispondono allora l'elaborazione è completata.\
+  Inoltre, per maggior dettaglio, nelle v2 è riportato il campo `operationStatus` contenente lo stato dell'elaborazione dell'operazione massiva assumendo i seguenti significati:
+  * IN\_PROGRESS: il file è stato acquisito ma l'elaborazione è ancora in corso;
+  * COMPLETED: l'elaborazione è terminata e sono state effettuate con successo tutte le operazioni massive riguardanti le posizioni debitorie specificate nel file caricato;
+  * COMPLETED\_WITH\_WARNINGS: l'elaborazione è terminata ma non tutte le operazioni massive riguardanti le posizioni debitorie specificate nel file caricato hanno avuto successo;
+  * COMPLETED\_UNSUCESSFULLY: l'elaborazione è terminata ma tutte le operazioni massive riguardanti le posizioni debitorie specificate nel file caricato non hanno avuto successo;
+* **API di report:** fornisce un riepilogo aggregato degli status code e status message ottenuti durante l'interazione con il servizio di gestione delle posizioni debitorie.\
+  Il report è recuperabile per operazioni entro i 60 giorni.
+
+Tali API hanno un rate-limit configurato pari a 10 richieste al secondo per subscription-key.
