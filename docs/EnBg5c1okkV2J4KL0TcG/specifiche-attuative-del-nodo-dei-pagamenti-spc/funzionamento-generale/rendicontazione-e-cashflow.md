@@ -154,7 +154,7 @@ Vengono messi a disposizione due nuovi prodotti:
 
 Si riporta di seguito il disegno del nuovo processo:
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-11-26 alle 09.23.29.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2025-11-27 alle 10.31.48.png" alt=""><figcaption></figcaption></figure>
 
 Il processo prevede l'introduzione di diversi step, descritti nei paragrafi seguenti.
 
