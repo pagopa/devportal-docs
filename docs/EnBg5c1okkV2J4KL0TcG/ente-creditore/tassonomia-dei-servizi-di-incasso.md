@@ -24,6 +24,6 @@ Il codice tassonomico è così composto (esempio usato: 9/**0101002IM**/):
 
 L’elenco completo ed aggiornato della tassonomia è disponibile in:
 
-* [formato csv](https://api.platform.pagopa.it/taxonomy/service/v1/taxonomy?extension=csv)
-* [formato json](https://api.platform.pagopa.it/taxonomy/service/v1/taxonomy)
+{% file src="../.gitbook/assets/tassonomia.csv" %}
 
+{% file src="../.gitbook/assets/tassonomia.json" %}
