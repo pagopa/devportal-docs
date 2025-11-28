@@ -1,5 +1,27 @@
 # Changelog
 
+### 3.10.0 (Novembre 2025)
+
+* Procedura di riscontro IBAN errati \
+  [Livelli di servizio Enti Creditori](../appendici/indicatori-di-qualita-per-i-soggetti-aderenti/livelli-di-servizio-enti-creditori.md)
+* Rendicontazione e Cashflow: descritti nuovi flussi di rendicontazione REST\
+  [Rendicontazione e Cashflow](funzionamento-generale/rendicontazione-e-cashflow.md)
+* Passaporto (Pagamento spontaneo presso PSP)\
+  [Passaporto](../casi-duso/pagamento-spontaneo-presso-psp/passaporto.md)
+* Funzionalità deprecate: deprecati i vecchi flussi di rendicontazione SOAP e le API di GPD per i flussi di rendicontazione\
+  [Funzionalità deprecate](../appendici/funzionalita-deprecate.md)
+* Metadata spese di notifica SEND - aggiunto riferimento al Dizionario Metadata\
+  [Integrazione tramite API asincrone](../ente-creditore/modalita-dintegrazione/integrazione-tramite-api-asincrone.md)
+* Aggiornamento Integrazione Sincrona (ACA) - aggiunta caricamento massivo\
+  [Integrazione tramite API sincrone](../ente-creditore/modalita-dintegrazione/integrazione-tramite-api-sincrone.md)
+* Servizio eBollo 2.0: pubblicate le specifiche tecniche per aderire al nuovo servizio\
+  [Servizio @e.bollo 2.0](../ente-creditore/bollo-digitale/servizio-e.bollo-2.0/)
+* SRTP: pubblicate le linee guida per aderire al nuovo servizio RTP\
+  [Tassonomia dei servizi di incasso](../ente-creditore/tassonomia-dei-servizi-di-incasso.md)\
+  [Integrazione Servizio SRTP](../appendici/integrazione-servizio-srtp/)\
+  [SEPA RTP - Request To Pay](../ente-creditore/sepa-rtp-request-to-pay.md)
+* Refactoring sezione Primitive
+
 ### 3.9.1 (Dicembre 2024)
 
 * Aggiornamento del modello dati descritto in [modello-dati.md](modello-dati.md "mention")
@@ -112,7 +134,7 @@ Patch version rilasciata per risolvere alcuni elementi di ambiguità indicati di
 * Deprecazione [#informativa-conto-accredito](../appendici/funzionalita-deprecate.md#informativa-conto-accredito "mention")
 * [pagamenti-presso-frontend-dellec-in-modalita-asincrona.md](../appendici/posizioni-debitorie/pagamenti-presso-frontend-dellec-in-modalita-asincrona.md "mention")
 * Aggiornate specifiche openapi in [operazioni-disponibili.md](../appendici/posizioni-debitorie/operazioni-disponibili.md "mention")
-* Obbligatorietà del tag _companyName_ in _data_ e in _transfer_ di [#pagetpayment-versione-2](../appendici/primitive/#pagetpayment-versione-2 "mention")&#x20;
+* Obbligatorietà del tag _companyName_ in _data_ e in _transfer_ di [#pagetpayment-versione-2](../appendici/primitive/#pagetpayment-versione-2 "mention")
 * Aggiunta campo _companyName_ in _transfer_ di [#activatepaymentnotice-versione-2](../appendici/primitive/#activatepaymentnotice-versione-2 "mention")
 
 ### 3.4.1 (maggio 2023)
@@ -219,7 +241,7 @@ Patch version rilasciata per risolvere alcuni elementi di ambiguità indicati di
 
 ### 2.5.1 (gennaio 2022)
 
-* Modificate e-mail dell’assistenza&#x20;
+* Modificate e-mail dell’assistenza
 * Revisione scarico dei Flussi di Rendicontazione
 
 {% embed url="https://docs.italia.it/italia/pagopa/pagopa-specifichepagamenti-docs/it/v2.5.1/index.html" %}
