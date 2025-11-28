@@ -19,7 +19,7 @@ Il codice tassonomico è così composto (esempio usato: 9/**0101002IM**/):
 
 | Segmento                   | Regex                        | Esempio |
 | -------------------------- | ---------------------------- | ------- |
-| Prefisso\*                 | 9/\|6/\|7/\|8/               | 9/      |
+| Prefisso\*                 | 9\\/\|6\\/\|7\\/\|8\\/       | 9/      |
 | Codice tipo Ente Creditore | `\d{2}`                      | 01      |
 | Progressivo macro area     | `\d{2}`                      | 01      |
 | Codice tipologia servizio  | `\d{3}`                      | 002     |
