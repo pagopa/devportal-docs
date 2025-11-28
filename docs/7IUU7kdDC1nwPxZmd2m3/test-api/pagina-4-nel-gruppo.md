@@ -4,6 +4,8 @@ description: description
 
 # OpenAPI test
 
+## Titolo
+
 {% openapi src="../.gitbook/assets/residence_example.yaml" path="/residence-verification/data-preparation" method="post" %}
 [residence_example.yaml](../.gitbook/assets/residence_example.yaml)
 {% endopenapi %}
