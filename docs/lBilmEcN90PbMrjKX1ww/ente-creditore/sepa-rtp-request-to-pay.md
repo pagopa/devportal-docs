@@ -7,9 +7,9 @@ metaLinks:
 
 # SEPA RTP - Request To Pay
 
-La **SEPA Request To Pay** (SRTP) consiste nella veicolazione della posizione debitoria (Pd) di un EC presso il canale censito dal debitore di tale singola posizione debitoria, previa adesione al servizio SRTP da parte del PSP e/o del Service Provider titolare o gestore del canale censito dal debitore.
+In particolare, la **SEPA Request To Pay** (SRTP) consiste nella veicolazione della posizione debitoria (Pd) di un EC presso il canale censito dal debitore di tale singola posizione debitoria, previa adesione al servizio SRTP da parte del PSP e/o del Service Provider titolare o gestore del canale censito dal debitore.
 
-Tale veicolazione propria della SRTP è ricompresa nei servizi della piattaforma pagoPA e, pertanto, la piattaforma pagoPA, a partire 1° marzo 2026, provvede a tale veicolazione in modo automatico senza alcun consenso e/o contrattualizzazione ad hoc da parte dell’EC, risultando necessaria per tale veicolazione solo ed esclusivamente il ricorrere di 3 condizioni, e segnatamente:
+Tale veicolazione propria della RTP è ricompresa nei servizi della piattaforma pagoPA e, pertanto, la piattaforma pagoPA, a partire 1° marzo 2026, provvede a tale veicolazione in modo automatico senza alcun consenso e/o contrattualizzazione ad hoc da parte dell’EC, risultando necessaria per tale veicolazione solo ed esclusivamente il ricorrere di 3 condizioni, e segnatamente:
 
 1. il PSP e/o il Service Provider (che ha in gestione il canale censito dal debitore della Pd) devono avere già sottoscritto un accordo con la PagoPA S.p.A. avente ad oggetto il servizio SRTP;
 2. il debitore della Pd deve avere espressamente eletto un canale presso il quale ricevere in modalità push le proprie Pd tramite il servizio di SRTP;&#x20;
@@ -57,6 +57,6 @@ Tale segnalazione da parte dell’EC è spesso connessa all’esistenza di un pr
 \
 Tale segnalazione da parte dell’EC potrà essere altresì connessa all’esigenza, da parte dell’EC stesso, di vedersi restituite dal debitore in via integrale le spese di notificazione o altre spese indirette in quanto ripetibili nei suoi confronti e pertanto è interesse dell’EC aspettare l’avvenuto perfezionamento della relativa notificazione per poter liquidare e/o ripetere tali spese nei confronti del debitore all'atto del pagamento della Pd. Una possibile soluzione a tale evenienza potrebbe essere rappresentata dalla scelta da parte dell’Ec di forfettizzare ex ante l’ammontare delle spese di notificazione e/o delle ulteriori voci di spesa (es. per spese indirette).
 
-Con il prefisso 7/, l’EC segnala alla piattaforma che la Pd non è veicolabile dalla piattaforma pagoPA in quanto l’EC ha già contrattualizzato un servizio di veicolazione della stessa Pd con altro operatore in via esclusiva e pertanto, non può assegnare la veicolazione di tale stessa Pd anche alla PagoPA S.p.A.
+Con il prefisso 7/, l’EC segnala alla piattaforma pagoPA che la Pd non è veicolabile dalla piattaforma pagoPA in quanto l’EC ha già contrattualizzato un servizio di veicolazione della stessa Pd con altro operatore in via esclusiva e pertanto, non può assegnare la veicolazione di tale stessa Pd anche alla PagoPA S.p.A.
 
-Con il prefisso 8/, l’EC segnala alla piattaforma il ricorrere di entrambe le casistiche di cui al prefisso 6/ e al prefisso 7/.
+Con il prefisso 8/, l’EC segnala alla piattaforma pagoPA il ricorrere di entrambe le casistiche di cui al prefisso 6/ e al prefisso 7/.
