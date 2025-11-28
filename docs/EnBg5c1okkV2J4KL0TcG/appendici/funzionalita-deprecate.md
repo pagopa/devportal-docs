@@ -32,13 +32,15 @@ Tale tipologia di connessione sarà dismessa a partire dal 30/04/2023.
 
 L'utilizzo del WISP è deprecato, è sostituito dal Checkout e sarà dismesso come comunicato a tutti gli Aderenti tramite il dedicato processo di comunicazione periodica a cadenza trimestrale.
 
-## Flussi di Rendicontazione SOAP
+## Flussi di Rendicontazione&#x20;
 
-Le primitive per la gestione dei flussi di rendicontazione verranno deprecate in data 30/06/2026. Di seguito l’elenco delle primitive:
+Le primitive SOAP per la gestione dei flussi di rendicontazione verranno deprecate in data 30/06/2026. Di seguito l’elenco delle primitive:
 
 * nodoInviaFlussoRendicontazione;
 * nodoChiediElencoFlussiRendicontazione
 * nodoChiediFlussoRendicontazione
+
+In tale data verrà deprecata anche la ricezione via server SFTP.
 
 ## GPD FDR reporting
 
