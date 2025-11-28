@@ -6,13 +6,11 @@ Per la gestione degli errori fare riferimento a [Gestione degli errori](https://
 I campi contrassegnati con﹡sono obbligatori
 {% endhint %}
 
-Per i dettagli [https://github.com/pagopa/pagopa-api/tree/SANP3.9.1](https://github.com/pagopa/pagopa-api/tree/SANP3.9.1)
-
-
+Per i dettagli [https://github.com/pagopa/pagopa-api/tree/SANP3.10.0](https://github.com/pagopa/pagopa-api/tree/SANP3.10.0)
 
 ## verifyPaymentNotice <a href="#activatepaymentnotice" id="activatepaymentnotice"></a>
 
-<mark style="color:green;">`POST`</mark>&#x20;
+<mark style="color:green;">`POST`</mark>
 
 #### Request Body
 
@@ -95,7 +93,7 @@ Per i dettagli [https://github.com/pagopa/pagopa-api/tree/SANP3.9.1](https://git
 
 ## verificaBollettino
 
-<mark style="color:green;">`POST`</mark>&#x20;
+<mark style="color:green;">`POST`</mark>
 
 #### Request Body
 
@@ -182,24 +180,24 @@ Per i dettagli [https://github.com/pagopa/pagopa-api/tree/SANP3.9.1](https://git
 
 ## activatePaymentNotice versione 1
 
-<mark style="color:green;">`POST`</mark>&#x20;
+<mark style="color:green;">`POST`</mark>
 
 #### Request Body
 
-| Name                                           | Type   | Description                                                                                                                                                                                                                                                                                                                                                                |
-| ---------------------------------------------- | ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| idPSP<mark style="color:red;">\*</mark>        | String | <p>Identificativo del PSP, assegnato da PagoPA.</p><p>Il codice è generalmente rappresentato dal codice BIC (Bank Identifier Code) del PSP.</p><p>In assenza del codice BIC, o per gestire situazioni particolari, può essere utilizzato un altro codice, purché identifichi in modo univoco il PSP.</p>                                                                   |
-| idBrokerPSP<mark style="color:red;">\*</mark>  | String | <p>Identificativo dell'intermediario, assegnato da PagoPA.</p><p>Identificazione dell'intermediario/broker del PSP che fornisce l'accesso (canale) al PSP per l'erogazione del servizio.</p><p>Nota: l'intermediario/broker può coincidere con il PSP stesso.</p>                                                                                                          |
-| idChannel<mark style="color:red;">\*</mark>    | String | <p>Identificativo del canale, identifica una categoria di servizio di pagamento e attraverso la quale viene effettuata la transazione.</p><p>Un identificatore di canale appartiene a un solo intermediario/broker PSP e di conseguenza deve essere univoco rispetto al PSP.</p>                                                                                           |
-| qrCode<mark style="color:red;">\*</mark>       | String | E' composto da _fiscalCode_ e _noticeNumber._                                                                                                                                                                                                                                                                                                                              |
-| fiscalCode<mark style="color:red;">\*</mark>   | String | Codice fiscale dell'EC.                                                                                                                                                                                                                                                                                                                                                    |
-| noticeNumber<mark style="color:red;">\*</mark> | String | \[auxDigit]\[segregationCode]\[IUVBase]\[IUVCheckDigit]                                                                                                                                                                                                                                                                                                                    |
-| password<mark style="color:red;">\*</mark>     | String | Password del canale, assegnata da PagoPA.                                                                                                                                                                                                                                                                                                                                  |
-| idempotencyKey                                 |        | Chiave di idempotenza                                                                                                                                                                                                                                                                                                                                                      |
-| expirationTime                                 | String | <p>Tempo di scadenza del token ( ms ), max 30 minuti.</p><p>La durata del token di pagamento può essere impostata in 2 modi:</p><p> - Implicitamente dalla piattaforma pagoPA, se non è impostato nella richiesta di activatePaymentNotice (valore di default durata = 30 minuti)</p><p> - Esplicitamente dal PSP, se impostato in richiesta all'activatePaymentNotice</p> |
-| paymentNote                                    | String | Testo libero per descrivere l'oggetto del pagamento                                                                                                                                                                                                                                                                                                                        |
-| dueDate                                        | String | <p>Se presente, rappresenta la data di scadenza del pagamento secondo il formato ISO 8601 [AAAA]-[MM]-[GG]. </p><p></p><p>Per maggiori informazioni, consulta le <a href="../../../ente-creditore/modalita-dintegrazione/best-practice.md">Best Practice</a>.</p>                                                                                                          |
-| amount<mark style="color:red;">\*</mark>       | String | Importo in euro                                                                                                                                                                                                                                                                                                                                                            |
+| Name                                           | Type   | Description                                                                                                                                                                                                                                                                                                                                                              |
+| ---------------------------------------------- | ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| idPSP<mark style="color:red;">\*</mark>        | String | <p>Identificativo del PSP, assegnato da PagoPA.</p><p>Il codice è generalmente rappresentato dal codice BIC (Bank Identifier Code) del PSP.</p><p>In assenza del codice BIC, o per gestire situazioni particolari, può essere utilizzato un altro codice, purché identifichi in modo univoco il PSP.</p>                                                                 |
+| idBrokerPSP<mark style="color:red;">\*</mark>  | String | <p>Identificativo dell'intermediario, assegnato da PagoPA.</p><p>Identificazione dell'intermediario/broker del PSP che fornisce l'accesso (canale) al PSP per l'erogazione del servizio.</p><p>Nota: l'intermediario/broker può coincidere con il PSP stesso.</p>                                                                                                        |
+| idChannel<mark style="color:red;">\*</mark>    | String | <p>Identificativo del canale, identifica una categoria di servizio di pagamento e attraverso la quale viene effettuata la transazione.</p><p>Un identificatore di canale appartiene a un solo intermediario/broker PSP e di conseguenza deve essere univoco rispetto al PSP.</p>                                                                                         |
+| qrCode<mark style="color:red;">\*</mark>       | String | E' composto da _fiscalCode_ e _noticeNumber._                                                                                                                                                                                                                                                                                                                            |
+| fiscalCode<mark style="color:red;">\*</mark>   | String | Codice fiscale dell'EC.                                                                                                                                                                                                                                                                                                                                                  |
+| noticeNumber<mark style="color:red;">\*</mark> | String | \[auxDigit]\[segregationCode]\[IUVBase]\[IUVCheckDigit]                                                                                                                                                                                                                                                                                                                  |
+| password<mark style="color:red;">\*</mark>     | String | Password del canale, assegnata da PagoPA.                                                                                                                                                                                                                                                                                                                                |
+| idempotencyKey                                 |        | Chiave di idempotenza                                                                                                                                                                                                                                                                                                                                                    |
+| expirationTime                                 | String | <p>Tempo di scadenza del token ( ms ), max 30 minuti.</p><p>La durata del token di pagamento può essere impostata in 2 modi:</p><p>- Implicitamente dalla piattaforma pagoPA, se non è impostato nella richiesta di activatePaymentNotice (valore di default durata = 30 minuti)</p><p>- Esplicitamente dal PSP, se impostato in richiesta all'activatePaymentNotice</p> |
+| paymentNote                                    | String | Testo libero per descrivere l'oggetto del pagamento                                                                                                                                                                                                                                                                                                                      |
+| dueDate                                        | String | <p>Se presente, rappresenta la data di scadenza del pagamento secondo il formato ISO 8601 [AAAA]-[MM]-[GG].</p><p>Per maggiori informazioni, consulta le <a href="../../../ente-creditore/modalita-dintegrazione/best-practice.md">Best Practice</a>.</p>                                                                                                                |
+| amount<mark style="color:red;">\*</mark>       | String | Importo in euro                                                                                                                                                                                                                                                                                                                                                          |
 
 {% tabs %}
 {% tab title="200: OK " %}
@@ -289,30 +287,30 @@ Per i dettagli [https://github.com/pagopa/pagopa-api/tree/SANP3.9.1](https://git
 
 ## activatePaymentNotice versione 2
 
-<mark style="color:green;">`POST`</mark>&#x20;
+<mark style="color:green;">`POST`</mark>
 
 **In questa versione è possibile far transitare i metadata per ogni&#x20;**_**payment**_**&#x20;e in ogni singolo&#x20;**_**transfer**_**&#x20;della response, inoltre sono gestite le informazioni ricavate da** [gestione-evoluta-commissioni.md](../../gestione-evoluta-commissioni.md "mention").
 
 #### Request Body
 
-| Name                                           | Type   | Description                                                                                                                                                                                                                                                                                                                                                                |
-| ---------------------------------------------- | ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| idPSP<mark style="color:red;">\*</mark>        | String | <p>Identificativo del PSP, assegnato da PagoPA.</p><p>Il codice è generalmente rappresentato dal codice BIC (Bank Identifier Code) del PSP.</p><p>In assenza del codice BIC, o per gestire situazioni particolari, può essere utilizzato un altro codice, purché identifichi in modo univoco il PSP.</p>                                                                   |
-| idBrokerPSP<mark style="color:red;">\*</mark>  | String | <p>Identificativo dell'intermediario, assegnato da PagoPA.</p><p>Identificazione dell'intermediario/broker del PSP che fornisce l'accesso (canale) al PSP per l'erogazione del servizio.</p><p>Nota: l'intermediario/broker può coincidere con il PSP stesso.</p>                                                                                                          |
-| idChannel<mark style="color:red;">\*</mark>    | String | <p>Identificativo del canale, identifica una categoria di servizio di pagamento e attraverso la quale viene effettuata la transazione.</p><p>Un identificatore di canale appartiene a un solo intermediario/broker PSP e di conseguenza deve essere univoco rispetto al PSP.</p>                                                                                           |
-| qrCode<mark style="color:red;">\*</mark>       | String | E' composto da _fiscalCode_ e _noticeNumber._                                                                                                                                                                                                                                                                                                                              |
-| fiscalCode<mark style="color:red;">\*</mark>   | String | Codice fiscale dell'EC.                                                                                                                                                                                                                                                                                                                                                    |
-| noticeNumber<mark style="color:red;">\*</mark> | String | \[auxDigit]\[segregationCode]\[IUVBase]\[IUVCheckDigit]                                                                                                                                                                                                                                                                                                                    |
-| password<mark style="color:red;">\*</mark>     | String | Password del canale, assegnata da PagoPA.                                                                                                                                                                                                                                                                                                                                  |
-| idempotencyKey                                 |        | Chiave di idempotenza                                                                                                                                                                                                                                                                                                                                                      |
-| expirationTime                                 | String | <p>Tempo di scadenza del token ( ms ), max 30 minuti.</p><p>La durata del token di pagamento può essere impostata in 2 modi:</p><p> - Implicitamente dalla piattaforma pagoPA, se non è impostato nella richiesta di activatePaymentNotice (valore di default durata = 30 minuti)</p><p> - Esplicitamente dal PSP, se impostato in richiesta all'activatePaymentNotice</p> |
-| paymentNote                                    | String | Testo libero per descrivere l'oggetto del pagamento                                                                                                                                                                                                                                                                                                                        |
-| dueDate                                        | String | <p>Se presente, rappresenta la data di scadenza del pagamento secondo il formato ISO 8601 [AAAA]-[MM]-[GG]. </p><p></p><p>Per maggiori informazioni, consulta le <a href="../../../ente-creditore/modalita-dintegrazione/best-practice.md">Best Practice.</a></p>                                                                                                          |
-| amount<mark style="color:red;">\*</mark>       | String | Importo in euro                                                                                                                                                                                                                                                                                                                                                            |
-| allCCP                                         | String | ad uso interno per i servizi PagoPA                                                                                                                                                                                                                                                                                                                                        |
-|                                                | String |                                                                                                                                                                                                                                                                                                                                                                            |
-| paymentMethod                                  | String | metodo di pagamento                                                                                                                                                                                                                                                                                                                                                        |
-| touchPoint                                     | String | touchpoint utilizzato per il pagamento (es. POS fisico, ATM, ..)                                                                                                                                                                                                                                                                                                           |
+| Name                                           | Type   | Description                                                                                                                                                                                                                                                                                                                                                              |
+| ---------------------------------------------- | ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| idPSP<mark style="color:red;">\*</mark>        | String | <p>Identificativo del PSP, assegnato da PagoPA.</p><p>Il codice è generalmente rappresentato dal codice BIC (Bank Identifier Code) del PSP.</p><p>In assenza del codice BIC, o per gestire situazioni particolari, può essere utilizzato un altro codice, purché identifichi in modo univoco il PSP.</p>                                                                 |
+| idBrokerPSP<mark style="color:red;">\*</mark>  | String | <p>Identificativo dell'intermediario, assegnato da PagoPA.</p><p>Identificazione dell'intermediario/broker del PSP che fornisce l'accesso (canale) al PSP per l'erogazione del servizio.</p><p>Nota: l'intermediario/broker può coincidere con il PSP stesso.</p>                                                                                                        |
+| idChannel<mark style="color:red;">\*</mark>    | String | <p>Identificativo del canale, identifica una categoria di servizio di pagamento e attraverso la quale viene effettuata la transazione.</p><p>Un identificatore di canale appartiene a un solo intermediario/broker PSP e di conseguenza deve essere univoco rispetto al PSP.</p>                                                                                         |
+| qrCode<mark style="color:red;">\*</mark>       | String | E' composto da _fiscalCode_ e _noticeNumber._                                                                                                                                                                                                                                                                                                                            |
+| fiscalCode<mark style="color:red;">\*</mark>   | String | Codice fiscale dell'EC.                                                                                                                                                                                                                                                                                                                                                  |
+| noticeNumber<mark style="color:red;">\*</mark> | String | \[auxDigit]\[segregationCode]\[IUVBase]\[IUVCheckDigit]                                                                                                                                                                                                                                                                                                                  |
+| password<mark style="color:red;">\*</mark>     | String | Password del canale, assegnata da PagoPA.                                                                                                                                                                                                                                                                                                                                |
+| idempotencyKey                                 |        | Chiave di idempotenza                                                                                                                                                                                                                                                                                                                                                    |
+| expirationTime                                 | String | <p>Tempo di scadenza del token ( ms ), max 30 minuti.</p><p>La durata del token di pagamento può essere impostata in 2 modi:</p><p>- Implicitamente dalla piattaforma pagoPA, se non è impostato nella richiesta di activatePaymentNotice (valore di default durata = 30 minuti)</p><p>- Esplicitamente dal PSP, se impostato in richiesta all'activatePaymentNotice</p> |
+| paymentNote                                    | String | Testo libero per descrivere l'oggetto del pagamento                                                                                                                                                                                                                                                                                                                      |
+| dueDate                                        | String | <p>Se presente, rappresenta la data di scadenza del pagamento secondo il formato ISO 8601 [AAAA]-[MM]-[GG].</p><p>Per maggiori informazioni, consulta le <a href="../../../ente-creditore/modalita-dintegrazione/best-practice.md">Best Practice.</a></p>                                                                                                                |
+| amount<mark style="color:red;">\*</mark>       | String | Importo in euro                                                                                                                                                                                                                                                                                                                                                          |
+| allCCP                                         | String | ad uso interno per i servizi PagoPA                                                                                                                                                                                                                                                                                                                                      |
+|                                                | String |                                                                                                                                                                                                                                                                                                                                                                          |
+| paymentMethod                                  | String | metodo di pagamento                                                                                                                                                                                                                                                                                                                                                      |
+| touchPoint                                     | String | touchpoint utilizzato per il pagamento (es. POS fisico, ATM, ..)                                                                                                                                                                                                                                                                                                         |
 
 {% tabs %}
 {% tab title="200: OK " %}
@@ -412,7 +410,7 @@ Per i dettagli [https://github.com/pagopa/pagopa-api/tree/SANP3.9.1](https://git
     * companyName: nome completo dell'EC, dato valorizzato solo in caso di _outcome_ OK
     * IBAN﹡: IBAN sul quale verra riversato l'importo
     * remittanceInformation﹡: testo libero per descrivere l'oggetto del pagamento
-    * transferCategory﹡: codice tassonomico, composto da _Codice tipo Ente Creditore + Progressivo macro area + Codice tipologia servizio + Motivo Giuridico_ ( ex. **0101002IM** )&#x20;
+    * transferCategory﹡: codice tassonomico, composto da _Codice tipo Ente Creditore + Progressivo macro area + Codice tipologia servizio + Motivo Giuridico_ ( ex. **0101002IM** )
     * metadata: è un campo di archiviazione chiave/valore.
       * mapEntry﹡
         * key﹡
@@ -432,7 +430,7 @@ Per i dettagli [https://github.com/pagopa/pagopa-api/tree/SANP3.9.1](https://git
 
 ## sendPaymentOutcome versione 1
 
-<mark style="color:green;">`POST`</mark>&#x20;
+<mark style="color:green;">`POST`</mark>
 
 #### Request Body
 
@@ -440,7 +438,7 @@ Per i dettagli [https://github.com/pagopa/pagopa-api/tree/SANP3.9.1](https://git
 | ------------------------------------------------------------- | ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | idPSP<mark style="color:red;">\*</mark>                       | String | <p>identificativo del PSP, assegnato da PagoPA.</p><p>Il codice è generalmente rappresentato dal codice BIC (Bank Identifier Code) del PSP.</p><p>In assenza del codice BIC, o per gestire situazioni particolari, può essere utilizzato un altro codice, purché identifichi in modo univoco il PSP.</p> |
 | details                                                       | String | Dettagli del risultato dell'operazione, da inserire obbligatoriamente in caso di _outcome_ OK                                                                                                                                                                                                            |
-| outcome<mark style="color:red;">\*</mark>                     | String | <p></p><p> Il risultato dell'operazione che può contenere i seguenti codici</p><p><strong>OK</strong> : operazione eseguita con successo</p><p><strong>KO</strong> : operazione terminata con errore</p>                                                                                                 |
+| outcome<mark style="color:red;">\*</mark>                     | String | <p>Il risultato dell'operazione che può contenere i seguenti codici</p><p><strong>OK</strong> : operazione eseguita con successo</p><p><strong>KO</strong> : operazione terminata con errore</p>                                                                                                         |
 | paymentToken<mark style="color:red;">\*</mark>                | String | Viene generato dal sistema durante la fase di attivazione del pagamento, è l'identificatore di correlazione da abbinare all'attivazione e all'esito del pagamento.                                                                                                                                       |
 | password<mark style="color:red;">\*</mark>                    | String | Password del canale, assegnata da PagoPA.                                                                                                                                                                                                                                                                |
 | idChannel<mark style="color:red;">\*</mark>                   | String | <p>identificativo del canale, identifica una categoria di servizio di pagamento e attraverso la quale viene effettuata la transazione.</p><p>Un identificatore di canale appartiene a un solo intermediario/broker PSP e di conseguenza deve essere univoco rispetto al PSP.</p>                         |
@@ -451,7 +449,7 @@ Per i dettagli [https://github.com/pagopa/pagopa-api/tree/SANP3.9.1](https://git
 | paymentMethod<mark style="color:red;">\*</mark>               | String | <p>metodo di pagamento</p><p>enum: "cash" "creditCard" "bancomat" "other"</p>                                                                                                                                                                                                                            |
 | transferDate<mark style="color:red;">\*</mark>                | String | data del riversamento verso l'EC                                                                                                                                                                                                                                                                         |
 | applicationDate<mark style="color:red;">\*</mark>             | String | data applicativa del pagamento                                                                                                                                                                                                                                                                           |
-| e-mail	                                                       | String |                                                                                                                                                                                                                                                                                                          |
+| e-mail                                                        | String |                                                                                                                                                                                                                                                                                                          |
 | country                                                       | String |                                                                                                                                                                                                                                                                                                          |
 | stateProvinceRegion                                           | String |                                                                                                                                                                                                                                                                                                          |
 | city                                                          | String |                                                                                                                                                                                                                                                                                                          |
@@ -530,7 +528,7 @@ Per i dettagli [https://github.com/pagopa/pagopa-api/tree/SANP3.9.1](https://git
 
 ## sendPaymentOutcome versione 2
 
-<mark style="color:green;">`POST`</mark>&#x20;
+<mark style="color:green;">`POST`</mark>
 
 **Utilizzata per il pagamento attivato presso il frontend dell'EC, rispetto alla versione 1 permette di inviare l'outcome di più payment tokens contemporaneamente, inoltre sono gestite le informazioni ricavate da** [gestione-evoluta-commissioni.md](../../gestione-evoluta-commissioni.md "mention")**e il servizio @e.bollo.**
 
@@ -540,7 +538,7 @@ Per i dettagli [https://github.com/pagopa/pagopa-api/tree/SANP3.9.1](https://git
 | ------------------------------------------------------------- | ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | idPSP<mark style="color:red;">\*</mark>                       | String | <p>Identificativo del PSP, assegnato da PagoPA.</p><p>Il codice è generalmente rappresentato dal codice BIC (Bank Identifier Code) del PSP.</p><p>In assenza del codice BIC, o per gestire situazioni particolari, può essere utilizzato un altro codice, purché identifichi in modo univoco il PSP.</p> |
 | details                                                       | String | dettagli del risultato dell'operazione, da inserire obbligatoriamente in caso di _outcome_ OK                                                                                                                                                                                                            |
-| outcome<mark style="color:red;">\*</mark>                     | String | <p></p><p>il risultato dell'operazione che può contenere i seguenti codici</p><p><strong>OK</strong> : operazione eseguita con successo</p><p><strong>KO</strong> : operazione terminata con errore</p>                                                                                                  |
+| outcome<mark style="color:red;">\*</mark>                     | String | <p>il risultato dell'operazione che può contenere i seguenti codici</p><p><strong>OK</strong> : operazione eseguita con successo</p><p><strong>KO</strong> : operazione terminata con errore</p>                                                                                                         |
 | paymentToken<mark style="color:red;">\*</mark>                | String | viene generato dal sistema durante la fase di attivazione del pagamento, è l'identificatore di correlazione da abbinare all'attivazione e all'esito del pagamento                                                                                                                                        |
 | password<mark style="color:red;">\*</mark>                    | String | Password del canale, assegnata da PagoPA.                                                                                                                                                                                                                                                                |
 | idChannel<mark style="color:red;">\*</mark>                   | String | <p>Identificativo del canale, identifica una categoria di servizio di pagamento e attraverso la quale viene effettuata la transazione.</p><p>Un identificatore di canale appartiene a un solo intermediario/broker PSP e di conseguenza deve essere univoco rispetto al PSP.</p>                         |
@@ -551,7 +549,7 @@ Per i dettagli [https://github.com/pagopa/pagopa-api/tree/SANP3.9.1](https://git
 | paymentMethod<mark style="color:red;">\*</mark>               | String | <p>metodo di pagamento</p><p>enum: "cash" "creditCard" "bancomat" "other"</p>                                                                                                                                                                                                                            |
 | transferDate<mark style="color:red;">\*</mark>                | String | data del riversamento verso l'EC                                                                                                                                                                                                                                                                         |
 | applicationDate<mark style="color:red;">\*</mark>             | String | data applicativa del pagamento                                                                                                                                                                                                                                                                           |
-| e-mail	                                                       | String |                                                                                                                                                                                                                                                                                                          |
+| e-mail                                                        | String |                                                                                                                                                                                                                                                                                                          |
 | country                                                       | String |                                                                                                                                                                                                                                                                                                          |
 | stateProvinceRegion                                           | String |                                                                                                                                                                                                                                                                                                          |
 | city                                                          | String |                                                                                                                                                                                                                                                                                                          |
@@ -647,7 +645,7 @@ Per i dettagli [https://github.com/pagopa/pagopa-api/tree/SANP3.9.1](https://git
 
 ## pspNotifyPayment versione 1
 
-<mark style="color:green;">`POST`</mark>&#x20;
+<mark style="color:green;">`POST`</mark>
 
 #### Request Body
 
@@ -795,7 +793,7 @@ Altri canali di pagamento
 
 ## pspNotifyPayment versione 2
 
-<mark style="color:green;">`POST`</mark>&#x20;
+<mark style="color:green;">`POST`</mark>
 
 **Utilizzata per il pagamento attivato presso il frontend dell'EC, rispetto alla precedente versione della pspNotifyPayment permette di inviare al PSP una lista di&#x20;**_**payment**_**, inoltre, le informazioni specifiche del pagamento utilizzato sono inserite nella sezione&#x20;**_**additionalPaymentInformations**_**&#x20;che contiene una lista di metadata. E' possibile, inoltre, inserire i metadata per ogni&#x20;**_**payment**_**&#x20;e in ogni singolo&#x20;**_**transfer**_**&#x20;e gestire il servizio @e.bollo.**
 
@@ -931,11 +929,9 @@ Altri canali di pagamento
 {% endtab %}
 {% endtabs %}
 
-
-
 ## demandPaymentNotice
 
-<mark style="color:green;">`POST`</mark>&#x20;
+<mark style="color:green;">`POST`</mark>
 
 #### Request Body
 
@@ -1018,11 +1014,9 @@ Altri canali di pagamento
 {% endtab %}
 {% endtabs %}
 
-
-
 ## nodoInviaFlussoRendicontazione
 
-<mark style="color:green;">`POST`</mark>&#x20;
+<mark style="color:green;">`POST`</mark>
 
 #### Request Body
 
@@ -1081,13 +1075,11 @@ Altri canali di pagamento
 {% endtab %}
 {% endtabs %}
 
-
-
 ## nodoChiediCatalogoServizi
 
 ## nodoChiediCatalogoServizi versione 2
 
-<mark style="color:green;">`POST`</mark>&#x20;
+<mark style="color:green;">`POST`</mark>
 
 #### Request Body
 
@@ -1100,8 +1092,6 @@ Altri canali di pagamento
 | identificativoIntermediarioPSP<mark style="color:red;">\*</mark> | String | <p>Identificativo dell'intermediario, assegnato da PagoPA.</p><p>Identificazione dell'intermediario/broker del PSP che fornisce l'accesso (canale) al PSP per l'erogazione del servizio.</p><p>Nota: l'intermediario/broker può coincidere con il PSP stesso.</p>                                        |
 | categoria                                                        | String | Filtro in base alla categoria dei servizi.                                                                                                                                                                                                                                                               |
 | commissione                                                      | String | Filtro in base al consiglio di applicare o meno le commissioni inserite dall'EC che ha creato il servizio.                                                                                                                                                                                               |
-
-
 
 {% tabs %}
 {% tab title="200: OK " %}
@@ -1148,11 +1138,9 @@ Altri canali di pagamento
 {% endtab %}
 {% endtabs %}
 
-
-
 ## nodoChiediTemplateInformativaPSP
 
-<mark style="color:green;">`POST`</mark>&#x20;
+<mark style="color:green;">`POST`</mark>
 
 #### Request Body
 
@@ -1162,8 +1150,6 @@ Altri canali di pagamento
 | identificativoIntermediarioPSP<mark style="color:red;">\*</mark> | String | <p>Identificativo dell'intermediario, assegnato da PagoPA.</p><p>Identificazione dell'intermediario/broker del PSP che fornisce l'accesso (canale) al PSP per l'erogazione del servizio.</p><p>Nota: l'intermediario/broker può coincidere con il PSP stesso.</p>                                        |
 | identificativoCanale<mark style="color:red;">\*</mark>           | String | <p>Identificativo del canale, identifica una categoria di servizio di pagamento e attraverso la quale viene effettuata la transazione.</p><p>Un identificatore di canale appartiene a un solo intermediario/broker PSP e di conseguenza deve essere univoco rispetto al PSP.</p>                         |
 | password<mark style="color:red;">\*</mark>                       | String | Password del canale, assegnata da PagoPA.                                                                                                                                                                                                                                                                |
-
-
 
 {% tabs %}
 {% tab title="200: OK " %}
@@ -1202,14 +1188,7 @@ Altri canali di pagamento
   * **KO** : operazione terminata con errore
 * _fault_: tutti i dettagli dell'errore, dato valorizzato solo in caso di _esito_ KO [Gestione degli errori](https://app.gitbook.com/o/KXYtsf32WSKm6ga638R3/s/mU2qgiLV1G3m9z1VjAOc/ "mention")
 * xmlTemplateInformativa: template dell'informativa in formato base64, dato valorizzato solo in caso di _esito_ OK
-
-
 {% endtab %}
 {% endtabs %}
 {% endtab %}
 {% endtabs %}
-
-
-
-
-

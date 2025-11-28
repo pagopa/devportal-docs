@@ -6,13 +6,11 @@ Per la gestione degli errori fare riferimento a [Gestione degli errori](https://
 I campi contrassegnati con﹡sono obbligatori
 {% endhint %}
 
-Per i dettagli [https://github.com/pagopa/pagopa-api/tree/SANP3.9.1](https://github.com/pagopa/pagopa-api/tree/SANP3.9.1)
-
-
+Per i dettagli [https://github.com/pagopa/pagopa-api/tree/SANP3.10.0](https://github.com/pagopa/pagopa-api/tree/SANP3.10.0)
 
 ## paVerifyPaymentNotice
 
-<mark style="color:green;">`POST`</mark>&#x20;
+<mark style="color:green;">`POST`</mark>
 
 #### Request Body
 
@@ -24,8 +22,6 @@ Per i dettagli [https://github.com/pagopa/pagopa-api/tree/SANP3.9.1](https://git
 | qrCode<mark style="color:red;">\*</mark>       | String | è composto da _fiscalCode_ e _noticeNumber_                        |
 | fiscalCode<mark style="color:red;">\*</mark>   | String | codice fiscale dell'EC                                             |
 | noticeNumber<mark style="color:red;">\*</mark> | String | \[auxDigit]\[segregationCode]\[IUVBase]\[IUVCheckDigit]            |
-
-
 
 {% tabs %}
 {% tab title="200: OK " %}
@@ -96,17 +92,15 @@ Per i dettagli [https://github.com/pagopa/pagopa-api/tree/SANP3.9.1](https://git
 {% endtab %}
 {% endtabs %}
 
-
-
 ## paGetPayment <a href="#pagetpayment" id="pagetpayment"></a>
 
 ## paGetPayment versione 1
 
-<mark style="color:green;">`POST`</mark>&#x20;
+<mark style="color:green;">`POST`</mark>
 
 #### Request Body
 
-<table><thead><tr><th width="370">Name</th><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>idPA<mark style="color:red;">*</mark></td><td>String</td><td>Codice fiscale della struttura che invia la richiesta di pagamento.</td></tr><tr><td>dueDate</td><td>String</td><td><p>Se presente, rappresenta la data di scadenza del pagamento secondo il formato ISO 8601 [AAAA]-[MM]-[GG]. </p><p></p><p>Per maggiori informazioni, consulta le <a href="../../../ente-creditore/modalita-dintegrazione/best-practice.md">Best Practice.</a></p></td></tr><tr><td>transferType</td><td>String</td><td>Valore ammesso: POSTAL.</td></tr><tr><td>paymentNote</td><td>String</td><td>Descrizione del pagamento. Valorizzato con <em>idCart</em>, nel caso il parametro  venisse valorizzato nel <a data-mention href="../../../casi-duso/pagamento-presso-frontend-dellec.md">pagamento-presso-frontend-dellec.md</a> </td></tr><tr><td>amount</td><td>String</td><td>Importo del pagamento in euro.</td></tr><tr><td>noticeNumber<mark style="color:red;">*</mark></td><td>String</td><td>[auxDigit][segregationCode][IUVBase][IUVCheckDigit]</td></tr><tr><td>fiscalCode<mark style="color:red;">*</mark></td><td>String</td><td>Codice fiscale dell'EC.</td></tr><tr><td>qrCode<mark style="color:red;">*</mark></td><td>String</td><td>E' composto da <em>fiscalCode</em> e <em>noticeNumber.</em></td></tr><tr><td>idStation<mark style="color:red;">*</mark></td><td>String</td><td>Identificativo della stazione dell'EC nel sistema pagoPa.</td></tr><tr><td>idBrokerPA<mark style="color:red;">*</mark></td><td>String</td><td>Identificativo del soggetto che opera come intermediario per l'EC.</td></tr></tbody></table>
+<table><thead><tr><th width="370">Name</th><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>idPA<mark style="color:red;">*</mark></td><td>String</td><td>Codice fiscale della struttura che invia la richiesta di pagamento.</td></tr><tr><td>dueDate</td><td>String</td><td><p>Se presente, rappresenta la data di scadenza del pagamento secondo il formato ISO 8601 [AAAA]-[MM]-[GG].</p><p>Per maggiori informazioni, consulta le <a href="../../../ente-creditore/modalita-dintegrazione/best-practice.md">Best Practice.</a></p></td></tr><tr><td>transferType</td><td>String</td><td>Valore ammesso: POSTAL.</td></tr><tr><td>paymentNote</td><td>String</td><td>Descrizione del pagamento. Valorizzato con <em>idCart</em>, nel caso il parametro venisse valorizzato nel <a data-mention href="../../../casi-duso/pagamento-presso-frontend-dellec.md">pagamento-presso-frontend-dellec.md</a></td></tr><tr><td>amount</td><td>String</td><td>Importo del pagamento in euro.</td></tr><tr><td>noticeNumber<mark style="color:red;">*</mark></td><td>String</td><td>[auxDigit][segregationCode][IUVBase][IUVCheckDigit]</td></tr><tr><td>fiscalCode<mark style="color:red;">*</mark></td><td>String</td><td>Codice fiscale dell'EC.</td></tr><tr><td>qrCode<mark style="color:red;">*</mark></td><td>String</td><td>E' composto da <em>fiscalCode</em> e <em>noticeNumber.</em></td></tr><tr><td>idStation<mark style="color:red;">*</mark></td><td>String</td><td>Identificativo della stazione dell'EC nel sistema pagoPa.</td></tr><tr><td>idBrokerPA<mark style="color:red;">*</mark></td><td>String</td><td>Identificativo del soggetto che opera come intermediario per l'EC.</td></tr></tbody></table>
 
 {% tabs %}
 {% tab title="200: OK " %}
@@ -226,7 +220,7 @@ Per i dettagli [https://github.com/pagopa/pagopa-api/tree/SANP3.9.1](https://git
       * fiscalCodePA﹡: codice fiscale dell'EC
       * IBAN﹡: IBAN sul quale sarà effettuato il riversamento
       * remittanceInformation﹡: motivo del pagamento
-      * transferCategory﹡: codice tassonomico, composto da _Codice tipo Ente Creditore + Progressivo macro area + Codice tipologia servizio + Motivo Giuridico_ ( ex. **0101002IM** )&#x20;
+      * transferCategory﹡: codice tassonomico, composto da _Codice tipo Ente Creditore + Progressivo macro area + Codice tipologia servizio + Motivo Giuridico_ ( ex. **0101002IM** )
   * metadata: è un campo di archiviazione chiave/valore ad uso esclusivo dell'EC. I dati saranno inseriti nella _receipt_ (_paSendRT_)
     * mapEntry﹡
       * key﹡
@@ -238,24 +232,24 @@ Per i dettagli [https://github.com/pagopa/pagopa-api/tree/SANP3.9.1](https://git
 
 ## paGetPayment versione 2
 
-<mark style="color:green;">`POST`</mark>&#x20;
+<mark style="color:green;">`POST`</mark>
 
 **In questa versione è possibile inserire i metadata in ogni singolo&#x20;**_**transfer**_**, inoltre è possibile gestire il servizio @e.bollo.**
 
 #### Request Body
 
-| Name                                           | Type   | Description                                                                                                                                                                                                                                                       |
-| ---------------------------------------------- | ------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| idPA<mark style="color:red;">\*</mark>         | String | Codice fiscale della struttura che invia la richiesta di pagamento.                                                                                                                                                                                               |
-| idBrokerPA<mark style="color:red;">\*</mark>   | String | Identificativo del soggetto che opera come intermediario per l'EC.                                                                                                                                                                                                |
-| idStation<mark style="color:red;">\*</mark>    | String | Identificativo della stazione dell'EC nel sistema pagoPa.                                                                                                                                                                                                         |
-| qrCode<mark style="color:red;">\*</mark>       | String | E' composto da _fiscalCode_ e _noticeNumber._                                                                                                                                                                                                                     |
-| amount<mark style="color:red;">\*</mark>       | String | Importo del pagamento in euro                                                                                                                                                                                                                                     |
-| paymentNote                                    | String | Descrizione del pagamento. Valorizzato con _idCart_, nel caso il parametro  venisse valorizzato nel [pagamento-presso-frontend-dellec.md](../../../casi-duso/pagamento-presso-frontend-dellec.md "mention")                                                       |
-| transferType                                   | String | <p>Valori ammessi</p><p>POSTAL</p><p>PAGOPA</p>                                                                                                                                                                                                                   |
-| dueDate                                        | String | <p>Se presente, rappresenta la data di scadenza del pagamento secondo il formato ISO 8601 [AAAA]-[MM]-[GG]. </p><p></p><p>Per maggiori informazioni, consulta le <a href="../../../ente-creditore/modalita-dintegrazione/best-practice.md">Best Practice</a>.</p> |
-| fiscalCode<mark style="color:red;">\*</mark>   | String | codice fiscale dell'EC                                                                                                                                                                                                                                            |
-| noticeNumber<mark style="color:red;">\*</mark> | String | \[auxDigit]\[segregationCode]\[IUVBase]\[IUVCheckDigit]                                                                                                                                                                                                           |
+| Name                                           | Type   | Description                                                                                                                                                                                                                                               |
+| ---------------------------------------------- | ------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| idPA<mark style="color:red;">\*</mark>         | String | Codice fiscale della struttura che invia la richiesta di pagamento.                                                                                                                                                                                       |
+| idBrokerPA<mark style="color:red;">\*</mark>   | String | Identificativo del soggetto che opera come intermediario per l'EC.                                                                                                                                                                                        |
+| idStation<mark style="color:red;">\*</mark>    | String | Identificativo della stazione dell'EC nel sistema pagoPa.                                                                                                                                                                                                 |
+| qrCode<mark style="color:red;">\*</mark>       | String | E' composto da _fiscalCode_ e _noticeNumber._                                                                                                                                                                                                             |
+| amount<mark style="color:red;">\*</mark>       | String | Importo del pagamento in euro                                                                                                                                                                                                                             |
+| paymentNote                                    | String | Descrizione del pagamento. Valorizzato con _idCart_, nel caso il parametro venisse valorizzato nel [pagamento-presso-frontend-dellec.md](../../../casi-duso/pagamento-presso-frontend-dellec.md "mention")                                                |
+| transferType                                   | String | <p>Valori ammessi</p><p>POSTAL</p><p>PAGOPA</p>                                                                                                                                                                                                           |
+| dueDate                                        | String | <p>Se presente, rappresenta la data di scadenza del pagamento secondo il formato ISO 8601 [AAAA]-[MM]-[GG].</p><p>Per maggiori informazioni, consulta le <a href="../../../ente-creditore/modalita-dintegrazione/best-practice.md">Best Practice</a>.</p> |
+| fiscalCode<mark style="color:red;">\*</mark>   | String | codice fiscale dell'EC                                                                                                                                                                                                                                    |
+| noticeNumber<mark style="color:red;">\*</mark> | String | \[auxDigit]\[segregationCode]\[IUVBase]\[IUVCheckDigit]                                                                                                                                                                                                   |
 
 {% tabs %}
 {% tab title="200: OK " %}
@@ -389,7 +383,7 @@ Per i dettagli [https://github.com/pagopa/pagopa-api/tree/SANP3.9.1](https://git
           * _hashDocumento_: contiene l’impronta informatica (digest), nel formato base64, del documento informatico o della segnatura di protocollo cui è associata la marca da bollo digitale
           * _provinciaResidenza_: sigla automobilistica della provincia di residenza del soggetto pagatore
       * remittanceInformation﹡: motivo del pagamento
-      * transferCategory﹡: codice tassonomico, composto da _Codice tipo Ente Creditore + Progressivo macro area + Codice tipologia servizio + Motivo Giuridico_ ( ex. **0101002IM** )&#x20;
+      * transferCategory﹡: codice tassonomico, composto da _Codice tipo Ente Creditore + Progressivo macro area + Codice tipologia servizio + Motivo Giuridico_ ( ex. **0101002IM** )
       * metadata: è un campo di archiviazione chiave/valore. I dati saranno inseriti nella _receipt_ (_paSendRT_)
         * mapEntry﹡
           * key﹡
@@ -407,7 +401,7 @@ Per i dettagli [https://github.com/pagopa/pagopa-api/tree/SANP3.9.1](https://git
 
 ## paSendRT versione 1
 
-<mark style="color:green;">`POST`</mark>&#x20;
+<mark style="color:green;">`POST`</mark>
 
 #### Request Body
 
@@ -529,88 +523,88 @@ Per i dettagli [https://github.com/pagopa/pagopa-api/tree/SANP3.9.1](https://git
 
 ## paSendRT versione 2
 
-<mark style="color:green;">`POST`</mark>&#x20;
+<mark style="color:green;">`POST`</mark>
 
 **In questa versione possono essere inseriti i metadata in ogni singolo&#x20;**_**transfer**_**&#x20;della&#x20;**_**receipt,**_**&#x20;inoltre sono gestite le informazioni ricavate da** [gestione-evoluta-commissioni.md](../../gestione-evoluta-commissioni.md "mention")**e il servizio @e.bollo.**
 
 #### Request Body
 
-| Name                                                          | Type    | Description                                                                                                                                                                                                  |
-| ------------------------------------------------------------- | ------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| idPA<mark style="color:red;">\*</mark>                        | String  | codice fiscale della struttura che invia la richiesta di pagamento                                                                                                                                           |
-| idBrokerPA<mark style="color:red;">\*</mark>                  | String  | identificativo del soggetto che opera come intermediario per l'EC                                                                                                                                            |
-| idStation<mark style="color:red;">\*</mark>                   | String  | identificativo della stazione dell'EC nel sistema pagoPa                                                                                                                                                     |
-| receipt<mark style="color:red;">\*</mark>                     | String  | la ricevuta di pagamento                                                                                                                                                                                     |
-| receiptId<mark style="color:red;">\*</mark>                   | String  | identificatore univoco della _receipt_ contiene il _paymentToken_ assegnato da pagoPa                                                                                                                        |
-| noticeNumber<mark style="color:red;">\*</mark>                | String  | \[auxDigit]\[segregationCode]\[IUVBase]\[IUVCheckDigit]                                                                                                                                                      |
-| fiscalCode<mark style="color:red;">\*</mark>                  | String  | codice fiscale dell'EC                                                                                                                                                                                       |
-| outcome<mark style="color:red;">\*</mark>                     | String  | il risultato dell'operazione che può contenere i codici OK o KO                                                                                                                                              |
-| creditorReferenceId<mark style="color:red;">\*</mark>         | String  | **IUV** _Identificativo Univoco Versamento_                                                                                                                                                                  |
-| paymentAmount<mark style="color:red;">\*</mark>               | String  | importo espresso in euro                                                                                                                                                                                     |
-| description<mark style="color:red;">\*</mark>                 | String  |                                                                                                                                                                                                              |
-| companyName<mark style="color:red;">\*</mark>                 | String  | nome completo dell'EC                                                                                                                                                                                        |
-| officeName                                                    | String  |                                                                                                                                                                                                              |
-| debtor<mark style="color:red;">\*</mark>                      | String  | individua il debitore a cui si riferisce la posizione debitoria                                                                                                                                              |
-| uniqueIdentifier<mark style="color:red;">\*</mark>            | String  |                                                                                                                                                                                                              |
-| entityUniqueIdentifierType<mark style="color:red;">\*</mark>  | String  | <p><strong>F</strong> : Persona fisica</p><p><strong>G</strong> : Persona giuridica</p>                                                                                                                      |
-| entityUniqueIdentifierValue<mark style="color:red;">\*</mark> | String  | codice fiscale o partita IVA                                                                                                                                                                                 |
-| fullName<mark style="color:red;">\*</mark>                    | String  | nome completo del debitore                                                                                                                                                                                   |
-| streetName                                                    | String  |                                                                                                                                                                                                              |
-| civicNumber                                                   | String  |                                                                                                                                                                                                              |
-| postalCode                                                    | String  |                                                                                                                                                                                                              |
-| city                                                          | String  |                                                                                                                                                                                                              |
-| stateProvinceRegion                                           | String  |                                                                                                                                                                                                              |
-| country                                                       | String  |                                                                                                                                                                                                              |
-| e-mail                                                        | String  |                                                                                                                                                                                                              |
-| transferList<mark style="color:red;">\*</mark>                | String  | struttura che contiene i dettagli dei _transfer_                                                                                                                                                             |
-| transfer<mark style="color:red;">\*</mark>                    | String  |                                                                                                                                                                                                              |
-| idTransfer<mark style="color:red;">\*</mark>                  | String  | indice della lista (da 1 a 5)                                                                                                                                                                                |
-| transferAmount<mark style="color:red;">\*</mark>              | String  | importo                                                                                                                                                                                                      |
-| fiscalCodePA<mark style="color:red;">\*</mark>                | String  | codice fiscale dell'EC                                                                                                                                                                                       |
-| companyName                                                   | String  | nome completo dell'EC                                                                                                                                                                                        |
-| IBAN                                                          | String  | IBAN sul quale sarà effettuato il riversamento                                                                                                                                                               |
-| remittanceInformation<mark style="color:red;">\*</mark>       | String  | motivo del pagamento                                                                                                                                                                                         |
-| transferCategory<mark style="color:red;">\*</mark>            | String  | codice tassonomico, composto da _Codice tipo Ente Creditore + Progressivo macro area + Codice tipologia servizio + Motivo Giuridico_ ( ex. **0101002IM** )                                                   |
-| metadata                                                      | String  |                                                                                                                                                                                                              |
-| mapEntry                                                      | String  |                                                                                                                                                                                                              |
-| key                                                           | String  |                                                                                                                                                                                                              |
-| value<mark style="color:red;">\*</mark>                       | String  |                                                                                                                                                                                                              |
-| idPSP<mark style="color:red;">\*</mark>                       | String  | identificativo del PSP                                                                                                                                                                                       |
-| pspFiscalCode                                                 | String  |                                                                                                                                                                                                              |
-| pspPartitaIVA                                                 | String  |                                                                                                                                                                                                              |
-| PSPCompanyName<mark style="color:red;">\*</mark>              | String  |                                                                                                                                                                                                              |
-| idChannel<mark style="color:red;">\*</mark>                   | String  |                                                                                                                                                                                                              |
-| channelDescription<mark style="color:red;">\*</mark>          | String  |                                                                                                                                                                                                              |
-| payer                                                         | String  | individua il pagatore                                                                                                                                                                                        |
-| uniqueIdentifier<mark style="color:red;">\*</mark>            | String  |                                                                                                                                                                                                              |
-| entityUniqueIdentifierType<mark style="color:red;">\*</mark>  | String  | <p><strong>F</strong> : Persona fisica</p><p><strong>G</strong> : Persona giuridica</p>                                                                                                                      |
-| entityUniqueIdentifierValue<mark style="color:red;">\*</mark> | String  | codice fiscale o partita IVA                                                                                                                                                                                 |
-| fullName<mark style="color:red;">\*</mark>                    | String  | nome completo del debitore                                                                                                                                                                                   |
-| streetName                                                    | String  |                                                                                                                                                                                                              |
-| civicNumber                                                   | String  |                                                                                                                                                                                                              |
-| postalCode                                                    | String  |                                                                                                                                                                                                              |
-| city                                                          | String  |                                                                                                                                                                                                              |
-| stateProvinceRegion                                           | String  |                                                                                                                                                                                                              |
-| country                                                       | String  |                                                                                                                                                                                                              |
-| e-mail                                                        | String  |                                                                                                                                                                                                              |
-| paymentMethod                                                 | String  |                                                                                                                                                                                                              |
-| fee                                                           | String  | importo della commissione espresso in euro                                                                                                                                                                   |
-| primaryCiIncurredFee                                          | String  | importo della commissione a carico dell'EC espresso in euro ricavato da [gestione-evoluta-commissioni.md](../../gestione-evoluta-commissioni.md "mention")                                                   |
-| idBundle                                                      | String  | identificativo del pacchetto di [gestione-evoluta-commissioni.md](../../gestione-evoluta-commissioni.md "mention")                                                                                           |
-| idCiBundle                                                    | String  | identificativo degli attributi aggiunti dall'EC al pacchetto di [gestione-evoluta-commissioni.md](../../gestione-evoluta-commissioni.md "mention")                                                           |
-| paymentDateTime                                               | String  | data e ora del pagamento                                                                                                                                                                                     |
-| applicationDate                                               | String  | data applicativa                                                                                                                                                                                             |
-| transferDate                                                  | String  | data del riversamento                                                                                                                                                                                        |
-| metadata                                                      | String  |                                                                                                                                                                                                              |
-| mapEntry                                                      | String  |                                                                                                                                                                                                              |
-| key                                                           | String  |                                                                                                                                                                                                              |
-| value                                                         | String  |                                                                                                                                                                                                              |
-| CHOICE<mark style="color:red;">\*</mark>                      | String  | Choice tra IBAN e marcaDaBollo                                                                                                                                                                               |
-| tipoBollo                                                     | String  | Tipologia del bollo                                                                                                                                                                                          |
-| marcaDaBollo                                                  | String  | I dati della marca da bollo digitale                                                                                                                                                                         |
-| MBDAttachment                                                 | String  | Il documento XML che contiene la marca da bollo digitale, nel formato base64.                                                                                                                                |
-| paymentNote                                                   | String  | Descrizione del pagamento. Valorizzato con _idCart_, nel caso il parametro  venisse valorizzato nel [pagamento-presso-frontend-dellec.md](../../../casi-duso/pagamento-presso-frontend-dellec.md "mention")  |
-| standin                                                       | Boolean | true: pagamento avvenuto in Stand in                                                                                                                                                                         |
+| Name                                                          | Type    | Description                                                                                                                                                                                                |
+| ------------------------------------------------------------- | ------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| idPA<mark style="color:red;">\*</mark>                        | String  | codice fiscale della struttura che invia la richiesta di pagamento                                                                                                                                         |
+| idBrokerPA<mark style="color:red;">\*</mark>                  | String  | identificativo del soggetto che opera come intermediario per l'EC                                                                                                                                          |
+| idStation<mark style="color:red;">\*</mark>                   | String  | identificativo della stazione dell'EC nel sistema pagoPa                                                                                                                                                   |
+| receipt<mark style="color:red;">\*</mark>                     | String  | la ricevuta di pagamento                                                                                                                                                                                   |
+| receiptId<mark style="color:red;">\*</mark>                   | String  | identificatore univoco della _receipt_ contiene il _paymentToken_ assegnato da pagoPa                                                                                                                      |
+| noticeNumber<mark style="color:red;">\*</mark>                | String  | \[auxDigit]\[segregationCode]\[IUVBase]\[IUVCheckDigit]                                                                                                                                                    |
+| fiscalCode<mark style="color:red;">\*</mark>                  | String  | codice fiscale dell'EC                                                                                                                                                                                     |
+| outcome<mark style="color:red;">\*</mark>                     | String  | il risultato dell'operazione che può contenere i codici OK o KO                                                                                                                                            |
+| creditorReferenceId<mark style="color:red;">\*</mark>         | String  | **IUV** _Identificativo Univoco Versamento_                                                                                                                                                                |
+| paymentAmount<mark style="color:red;">\*</mark>               | String  | importo espresso in euro                                                                                                                                                                                   |
+| description<mark style="color:red;">\*</mark>                 | String  |                                                                                                                                                                                                            |
+| companyName<mark style="color:red;">\*</mark>                 | String  | nome completo dell'EC                                                                                                                                                                                      |
+| officeName                                                    | String  |                                                                                                                                                                                                            |
+| debtor<mark style="color:red;">\*</mark>                      | String  | individua il debitore a cui si riferisce la posizione debitoria                                                                                                                                            |
+| uniqueIdentifier<mark style="color:red;">\*</mark>            | String  |                                                                                                                                                                                                            |
+| entityUniqueIdentifierType<mark style="color:red;">\*</mark>  | String  | <p><strong>F</strong> : Persona fisica</p><p><strong>G</strong> : Persona giuridica</p>                                                                                                                    |
+| entityUniqueIdentifierValue<mark style="color:red;">\*</mark> | String  | codice fiscale o partita IVA                                                                                                                                                                               |
+| fullName<mark style="color:red;">\*</mark>                    | String  | nome completo del debitore                                                                                                                                                                                 |
+| streetName                                                    | String  |                                                                                                                                                                                                            |
+| civicNumber                                                   | String  |                                                                                                                                                                                                            |
+| postalCode                                                    | String  |                                                                                                                                                                                                            |
+| city                                                          | String  |                                                                                                                                                                                                            |
+| stateProvinceRegion                                           | String  |                                                                                                                                                                                                            |
+| country                                                       | String  |                                                                                                                                                                                                            |
+| e-mail                                                        | String  |                                                                                                                                                                                                            |
+| transferList<mark style="color:red;">\*</mark>                | String  | struttura che contiene i dettagli dei _transfer_                                                                                                                                                           |
+| transfer<mark style="color:red;">\*</mark>                    | String  |                                                                                                                                                                                                            |
+| idTransfer<mark style="color:red;">\*</mark>                  | String  | indice della lista (da 1 a 5)                                                                                                                                                                              |
+| transferAmount<mark style="color:red;">\*</mark>              | String  | importo                                                                                                                                                                                                    |
+| fiscalCodePA<mark style="color:red;">\*</mark>                | String  | codice fiscale dell'EC                                                                                                                                                                                     |
+| companyName                                                   | String  | nome completo dell'EC                                                                                                                                                                                      |
+| IBAN                                                          | String  | IBAN sul quale sarà effettuato il riversamento                                                                                                                                                             |
+| remittanceInformation<mark style="color:red;">\*</mark>       | String  | motivo del pagamento                                                                                                                                                                                       |
+| transferCategory<mark style="color:red;">\*</mark>            | String  | codice tassonomico, composto da _Codice tipo Ente Creditore + Progressivo macro area + Codice tipologia servizio + Motivo Giuridico_ ( ex. **0101002IM** )                                                 |
+| metadata                                                      | String  |                                                                                                                                                                                                            |
+| mapEntry                                                      | String  |                                                                                                                                                                                                            |
+| key                                                           | String  |                                                                                                                                                                                                            |
+| value<mark style="color:red;">\*</mark>                       | String  |                                                                                                                                                                                                            |
+| idPSP<mark style="color:red;">\*</mark>                       | String  | identificativo del PSP                                                                                                                                                                                     |
+| pspFiscalCode                                                 | String  |                                                                                                                                                                                                            |
+| pspPartitaIVA                                                 | String  |                                                                                                                                                                                                            |
+| PSPCompanyName<mark style="color:red;">\*</mark>              | String  |                                                                                                                                                                                                            |
+| idChannel<mark style="color:red;">\*</mark>                   | String  |                                                                                                                                                                                                            |
+| channelDescription<mark style="color:red;">\*</mark>          | String  |                                                                                                                                                                                                            |
+| payer                                                         | String  | individua il pagatore                                                                                                                                                                                      |
+| uniqueIdentifier<mark style="color:red;">\*</mark>            | String  |                                                                                                                                                                                                            |
+| entityUniqueIdentifierType<mark style="color:red;">\*</mark>  | String  | <p><strong>F</strong> : Persona fisica</p><p><strong>G</strong> : Persona giuridica</p>                                                                                                                    |
+| entityUniqueIdentifierValue<mark style="color:red;">\*</mark> | String  | codice fiscale o partita IVA                                                                                                                                                                               |
+| fullName<mark style="color:red;">\*</mark>                    | String  | nome completo del debitore                                                                                                                                                                                 |
+| streetName                                                    | String  |                                                                                                                                                                                                            |
+| civicNumber                                                   | String  |                                                                                                                                                                                                            |
+| postalCode                                                    | String  |                                                                                                                                                                                                            |
+| city                                                          | String  |                                                                                                                                                                                                            |
+| stateProvinceRegion                                           | String  |                                                                                                                                                                                                            |
+| country                                                       | String  |                                                                                                                                                                                                            |
+| e-mail                                                        | String  |                                                                                                                                                                                                            |
+| paymentMethod                                                 | String  |                                                                                                                                                                                                            |
+| fee                                                           | String  | importo della commissione espresso in euro                                                                                                                                                                 |
+| primaryCiIncurredFee                                          | String  | importo della commissione a carico dell'EC espresso in euro ricavato da [gestione-evoluta-commissioni.md](../../gestione-evoluta-commissioni.md "mention")                                                 |
+| idBundle                                                      | String  | identificativo del pacchetto di [gestione-evoluta-commissioni.md](../../gestione-evoluta-commissioni.md "mention")                                                                                         |
+| idCiBundle                                                    | String  | identificativo degli attributi aggiunti dall'EC al pacchetto di [gestione-evoluta-commissioni.md](../../gestione-evoluta-commissioni.md "mention")                                                         |
+| paymentDateTime                                               | String  | data e ora del pagamento                                                                                                                                                                                   |
+| applicationDate                                               | String  | data applicativa                                                                                                                                                                                           |
+| transferDate                                                  | String  | data del riversamento                                                                                                                                                                                      |
+| metadata                                                      | String  |                                                                                                                                                                                                            |
+| mapEntry                                                      | String  |                                                                                                                                                                                                            |
+| key                                                           | String  |                                                                                                                                                                                                            |
+| value                                                         | String  |                                                                                                                                                                                                            |
+| CHOICE<mark style="color:red;">\*</mark>                      | String  | Choice tra IBAN e marcaDaBollo                                                                                                                                                                             |
+| tipoBollo                                                     | String  | Tipologia del bollo                                                                                                                                                                                        |
+| marcaDaBollo                                                  | String  | I dati della marca da bollo digitale                                                                                                                                                                       |
+| MBDAttachment                                                 | String  | Il documento XML che contiene la marca da bollo digitale, nel formato base64.                                                                                                                              |
+| paymentNote                                                   | String  | Descrizione del pagamento. Valorizzato con _idCart_, nel caso il parametro venisse valorizzato nel [pagamento-presso-frontend-dellec.md](../../../casi-duso/pagamento-presso-frontend-dellec.md "mention") |
+| standin                                                       | Boolean | true: pagamento avvenuto in Stand in                                                                                                                                                                       |
 
 {% tabs %}
 {% tab title="200: OK " %}
@@ -737,13 +731,9 @@ Per i dettagli [https://github.com/pagopa/pagopa-api/tree/SANP3.9.1](https://git
 {% endtab %}
 {% endtabs %}
 
-
-
-
-
 ## paDemandPaymentNotice
 
-<mark style="color:green;">`POST`</mark>&#x20;
+<mark style="color:green;">`POST`</mark>
 
 #### Request Body
 
@@ -755,8 +745,6 @@ Per i dettagli [https://github.com/pagopa/pagopa-api/tree/SANP3.9.1](https://git
 | idStation<mark style="color:red;">\*</mark>             | String | Identificativo della stazione dell'EC nel sistema pagoPa.                                                                                                                                          |
 | idBrokerPA<mark style="color:red;">\*</mark>            | String | Identificativo del soggetto che opera come intermediario per l'EC.                                                                                                                                 |
 | idSoggettoServizio<mark style="color:red;">\*</mark>    | String | Identificativo dell'associazione tra servizio e EC per cui si vuole attivare il pagamento. Corrisponde al tag elencoSoggettiEroganti.soggettoErogante.idSoggettoServizio del Catalogo dei Servizi. |
-
-
 
 {% tabs %}
 {% tab title="200: OK " %}
@@ -827,11 +815,9 @@ Per i dettagli [https://github.com/pagopa/pagopa-api/tree/SANP3.9.1](https://git
 {% endtab %}
 {% endtabs %}
 
-
-
 ## nodoChiediElencoFlussiRendicontazione
 
-<mark style="color:green;">`POST`</mark>&#x20;
+<mark style="color:green;">`POST`</mark>
 
 #### Request Body
 
@@ -896,11 +882,9 @@ Per i dettagli [https://github.com/pagopa/pagopa-api/tree/SANP3.9.1](https://git
 {% endtab %}
 {% endtabs %}
 
-
-
 ## nodoChiediFlussoRendicontazione
 
-<mark style="color:green;">`POST`</mark>&#x20;
+<mark style="color:green;">`POST`</mark>
 
 #### Request Body
 
@@ -912,8 +896,6 @@ Per i dettagli [https://github.com/pagopa/pagopa-api/tree/SANP3.9.1](https://git
 | identificativoDominio                                                   | String | Codice fiscale dell'EC.                                                                                                                                                                                                                                                                                  |
 | password<mark style="color:red;">\*</mark>                              | String | Password della stazione, assegnata da PagoPA.                                                                                                                                                                                                                                                            |
 | identificativoStazioneIntermediarioPA<mark style="color:red;">\*</mark> | String | Identificativo della stazione dell'EC nel sistema pagoPa.                                                                                                                                                                                                                                                |
-
-
 
 {% tabs %}
 {% tab title="200: OK " %}
