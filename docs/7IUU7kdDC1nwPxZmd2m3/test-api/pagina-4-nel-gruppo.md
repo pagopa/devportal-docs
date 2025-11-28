@@ -6,13 +6,12 @@ description: description
 
 ## Titolo
 
-{% openapi src="https://raw.githubusercontent.com/pagopa/pagopa-api/refs/heads/SANP3.10.0/openapi/gpd_massive_v2.json" path="/brokers/{broker-code}/organizations/{organization-fiscal-code}/debtpositions/file/{file-id}/status" method="get" %} gdp_massive.yaml {% endopenapi %}
+{% openapi src="https://raw.githubusercontent.com/pagopa/pagopa-api/refs/heads/SANP3.10.0/openapi/gpd.json" path="/organizations/{organizationfiscalcode}/debtpositions" method="get" %} test {% endopenapi %}
 
+{% hint style="warning" %} Il query parameter toPublish consente di pubblicare automaticamente una posizione debitoria in fase di creazione, impostando questo parametro a true e valorizzando contestualmente a null il campo validityDate, la posizione debitoria andrà direttamente nello stato VALID pronta per essere pagata. {% endhint %}
 
-{% openapi src="https://raw.githubusercontent.com/pagopa/pagopa-api/refs/heads/SANP3.10.0/openapi/gpd_massive_v2.json" %} gdp_massive.yaml {% endopenapi %}
+{% openapi src="https://raw.githubusercontent.com/pagopa/pagopa-api/refs/heads/SANP3.10.0/openapi/gpd.json" path="/organizations/{organizationfiscalcode}/debtpositions/transfers" method="patch" %} test {% endopenapi %}
 
-
-{% openapi src="https://raw.githubusercontent.com/pagopa/pagopa-api/refs/heads/SANP3.10.0/openapi/gpd_massive_v2.json" path="" method="get" %} gdp_massive.yaml {% endopenapi %}
 
 
 
