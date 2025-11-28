@@ -10,7 +10,7 @@ Le API di gestione massiva consentono il caricamento, l'aggiornamento e la cance
 
 ### Creazione massiva
 
-La richiesta di creazione massiva delle posizioni debitorie prevede il caricamento di un file JSON contenente una lista di posizioni debitorie. Per i dettagli specifici del file si rimanda alla sezione API del DevPortal (inserire link).
+La richiesta di creazione massiva delle posizioni debitorie prevede il caricamento di un file JSON contenente una lista di posizioni debitorie. Per i dettagli specifici del file si rimanda alla sezione [API del DevPortal](https://developer.pagopa.it/pago-pa/api/gestione-massiva-delle-posizioni-debitorie).
 
 Se il caricamento del file è avvenuto correttamente e risulta valido, la risposta restituirà lo status code 202.&#x20;
 
