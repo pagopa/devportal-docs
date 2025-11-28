@@ -8,14 +8,7 @@ In caso di intermediazione, è possibile associare alla _subscription key_ dell'
 Le _subscription key_ e le relative abilitazioni sono segregate per ambiente _UAT/PROD._
 {% endhint %}
 
-| TABELLA DELLE SEZIONI                                                                                                                                                     |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [Inserimento/Modifica/Cancellazione/Lettura](gestione-posizioni-debitorie-gpd.md#pagetpayment)                                                                            |
-| [Flussi di rendicontazione - DEPRECATED ](gestione-posizioni-debitorie-gpd.md#flussi-di-rendicontazione-deprecated)                                                       |
-| [Inserimento/Modifica/Cancellazione/Lettura - Gestione Massiva v1](gestione-posizioni-debitorie-gpd.md#inserimento-modifica-cancellazione-lettura-gestione-massiva-v1)    |
-| [Inserimento/Modifica/Cancellazione/Lettura - Gestione Massiva v2](gestione-posizioni-debitorie-gpd.md#inserimento-modifica-cancellazione-lettura-gestione-massiva-v2)    |
-| [Recupero ricevute](gestione-posizioni-debitorie-gpd.md#recupero-ricevute)                                                                                                |
-| [Inserimento/Modifica/Cancellazione/Lettura + Opzioni di Pagamento](gestione-posizioni-debitorie-gpd.md#inserimento-modifica-cancellazione-lettura--opzioni-di-pagamento) |
+<table data-full-width="true"><thead><tr><th>TABELLA DELLE SEZIONI</th></tr></thead><tbody><tr><td><a href="gestione-posizioni-debitorie-gpd.md#pagetpayment">Inserimento/Modifica/Cancellazione/Lettura</a></td></tr><tr><td><a href="gestione-posizioni-debitorie-gpd.md#flussi-di-rendicontazione-deprecated">Flussi di rendicontazione - DEPRECATED </a></td></tr><tr><td><a href="gestione-posizioni-debitorie-gpd.md#inserimento-modifica-cancellazione-lettura-gestione-massiva-v1">Inserimento/Modifica/Cancellazione/Lettura - Gestione Massiva v1</a></td></tr><tr><td><a href="gestione-posizioni-debitorie-gpd.md#inserimento-modifica-cancellazione-lettura-gestione-massiva-v2">Inserimento/Modifica/Cancellazione/Lettura - Gestione Massiva v2</a></td></tr><tr><td><a href="gestione-posizioni-debitorie-gpd.md#recupero-ricevute">Recupero ricevute</a></td></tr><tr><td><a href="gestione-posizioni-debitorie-gpd.md#inserimento-modifica-cancellazione-lettura--opzioni-di-pagamento">Inserimento/Modifica/Cancellazione/Lettura + Opzioni di Pagamento</a></td></tr></tbody></table>
 
 ### Inserimento/Modifica/Cancellazione/Lettura <a href="#pagetpayment" id="pagetpayment"></a>
 

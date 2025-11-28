@@ -1,10 +1,6 @@
 # Archivio Centralizzato Avvisi (ACA)
 
-| TABELLA DELLE SEZIONI                                                                                                                                                       |
-| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [Inserimento tramite vecchia primitiva paCreatePosition](archivio-centralizzato-avvisi-aca.md#pagetpayment)                                                                 |
-| [Inserimento puntuale con API di Gestione Posizioni Debitorie (GDP)](archivio-centralizzato-avvisi-aca.md#inserimento-puntuale-con-api-di-gestione-posizioni-debitorie-gdp) |
-| [Inserimento massivo con API di Gestione Posizioni Debitorie (GDP)](archivio-centralizzato-avvisi-aca.md#inserimento-massivo-con-api-di-gestione-posizioni-debitorie-gdp)   |
+<table data-full-width="true"><thead><tr><th>TABELLA DELLE SEZIONI</th></tr></thead><tbody><tr><td><a href="archivio-centralizzato-avvisi-aca.md#pagetpayment">Inserimento tramite vecchia primitiva paCreatePosition</a></td></tr><tr><td><a href="archivio-centralizzato-avvisi-aca.md#inserimento-puntuale-con-api-di-gestione-posizioni-debitorie-gdp">Inserimento puntuale con API di Gestione Posizioni Debitorie (GDP)</a></td></tr><tr><td><a href="archivio-centralizzato-avvisi-aca.md#inserimento-massivo-con-api-di-gestione-posizioni-debitorie-gdp">Inserimento massivo con API di Gestione Posizioni Debitorie (GDP)</a></td></tr></tbody></table>
 
 ### Inserimento tramite vecchia primitiva paCreatePosition <a href="#pagetpayment" id="pagetpayment"></a>
 
