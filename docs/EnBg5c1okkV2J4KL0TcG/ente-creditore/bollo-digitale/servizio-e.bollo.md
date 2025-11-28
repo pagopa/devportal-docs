@@ -18,7 +18,7 @@ Una volta conclusa la transazione di pagamento il PSP deve compilare il tag _mar
 
 * _paymentToken_: il paymentToken con cui è arrivata la richiesta di marca da bollo digitale;
 * _idTransfer_: l'identificativo del transfer che contiene il dato _richiestaMarcaDaBollo;_
-* _MBDAttachment_: il documento XML che contiene la marca da bollo digitale, nel formato base64.
+* _MDBAttachment_: il documento XML che contiene la marca da bollo digitale, nel formato base64.
 
 Come indicato nelle linee guida pubblicate da Agenzia delle Entrate _"Le Pubbliche Amministrazioni che ricevono dal cittadino, direttamente o indirettamente, la marca da bollo digitale ed il certificato cui è associata effettuano il controllo di validità utilizzando un software di controllo locale..."_, quindi la validazione del documento XML che contiene la marca da bollo digitale è responsabilità dell'EC che lo riceve tramite la [paSendRTV2](../../appendici/primitive/ente-creditore/api-soap.md#pasendrt-versione-2).
 

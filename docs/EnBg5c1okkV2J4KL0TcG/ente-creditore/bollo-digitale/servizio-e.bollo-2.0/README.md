@@ -4,7 +4,7 @@ description: Evoluzione servizio @e.bollo
 
 # Servizio @e.bollo 2.0
 
-Le interlocuzioni tra Agenzia delle Entrate e PagoPA hanno evidenziato l’esigenza di studiare un framework evoluto per la gestione della vendita ed utilizzo delle Marche da Bollo.
+Le interlocuzioni tra Agenzia delle Entrate e PagoPA hanno evidenziato l’esigenza di studiare un framework evoluto per la gestione della vendita ed utilizzo delle Marche Da Bollo.
 
 L'evoluzione del servizio @e.bollo prevede l'implementazione dei seguenti use cases:
 
