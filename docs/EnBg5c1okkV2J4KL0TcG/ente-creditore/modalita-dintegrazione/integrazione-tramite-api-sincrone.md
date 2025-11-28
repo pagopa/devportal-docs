@@ -12,9 +12,9 @@ Resta inteso che, per i trattamenti di dati personali connessi al servizio Archi
 
 Ogni EC, al momento delle creazione di una nuova posizione debitoria, deve effettuare il censimento della stessa sull’ACA tramite una delle seguenti modalità:
 
-* API via [Gestione Posizioni Debitorie](../../appendici/posizioni-debitorie/operazioni-disponibili.md#gestione-posizioni-debitorie) (GPD);&#x20;
+* API via [Gestione Posizioni Debitorie](../../appendici/primitive/ente-creditore/api-rest/archivio-centralizzato-avvisi-aca.md) (GPD);&#x20;
 * API [paCreatePosition](../../appendici/primitive/ente-creditore/api-rest/archivio-centralizzato-avvisi-aca.md);
-* API di [Gestione massiva](../../appendici/posizioni-debitorie/gestione-massiva/gestione-massiva-tramite-api-rest.md).
+* API di [Gestione massiva](../../appendici/primitive/ente-creditore/api-rest/archivio-centralizzato-avvisi-aca.md).
 
 ### Condizioni di esclusione dal conferimento delle posizioni sull’ACA
 
