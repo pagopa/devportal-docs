@@ -26,7 +26,7 @@ Il codice tassonomico è così composto (esempio usato: 9/**0101002IM**/):
 | Motivo Giuridico           | `IM \| TS \| SP \| SA \| AP` | IM      |
 
 {% hint style="warning" %}
-\*Nella selezione del Prefisso gli Enti sono tenuti a consultare la sezione SEPA Request To Pay.
+\*Nella selezione del Prefisso gli Enti sono tenuti a consultare la sezione [SEPA Request To Pay](sepa-rtp-request-to-pay.md).
 {% endhint %}
 
 L’elenco completo ed aggiornato della tassonomia è disponibile in:
