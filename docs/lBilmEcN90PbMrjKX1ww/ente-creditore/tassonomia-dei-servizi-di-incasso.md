@@ -17,13 +17,13 @@ Nella creazione della posizione debitoria, l’EC deve attribuire al campo _tran
 
 Il codice tassonomico è così composto (esempio usato: 9/**0101002IM**/):
 
-| Segmento                   | Regex                        | Esempio |
-| -------------------------- | ---------------------------- | ------- |
-| Prefisso\*                 | 9\\/\|6\\/\|7\\/\|8\\/       | 9/      |
-| Codice tipo Ente Creditore | `\d{2}`                      | 01      |
-| Progressivo macro area     | `\d{2}`                      | 01      |
-| Codice tipologia servizio  | `\d{3}`                      | 002     |
-| Motivo Giuridico           | `IM \| TS \| SP \| SA \| AP` | IM      |
+| Segmento                   | Regex                                                                                                | Esempio |
+| -------------------------- | ---------------------------------------------------------------------------------------------------- | ------- |
+| Prefisso\*                 | <div><figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure></div> | 9/      |
+| Codice tipo Ente Creditore | `\d{2}`                                                                                              | 01      |
+| Progressivo macro area     | `\d{2}`                                                                                              | 01      |
+| Codice tipologia servizio  | `\d{3}`                                                                                              | 002     |
+| Motivo Giuridico           | `IM \| TS \| SP \| SA \| AP`                                                                         | IM      |
 
 {% hint style="warning" %}
 \*Nella selezione del Prefisso gli Enti sono tenuti a consultare la sezione [SEPA Request To Pay](sepa-rtp-request-to-pay.md).

@@ -28,7 +28,7 @@ Ogni PSP può definire 3 tipologie di pacchetto commissionale
 * "Su richiesta" → disponibile solo per i pagamenti degli EC che hanno attivato una “convenzione” tramite marketplace;
 * "Su invito" → disponibile solo per i pagamenti degli EC che hanno attivato una “convenzione” tramite marketplace su invito del PSP;
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Casi d'uso
 
