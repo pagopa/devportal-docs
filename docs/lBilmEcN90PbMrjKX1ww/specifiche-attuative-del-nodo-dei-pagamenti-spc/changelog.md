@@ -27,7 +27,8 @@ metaLinks:
   [Tassonomia dei servizi di incasso](../ente-creditore/tassonomia-dei-servizi-di-incasso.md)\
   [Integrazione Servizio SRTP](../appendici/integrazione-servizio-srtp/)\
   [SEPA RTP - Request To Pay](../ente-creditore/sepa-rtp-request-to-pay.md)
-* Refactoring sezione Primitive
+* Refactoring sezione Primitive\
+  [Primitive](../appendici/primitive/)
 
 ### 3.9.1 (Dicembre 2024)
 
