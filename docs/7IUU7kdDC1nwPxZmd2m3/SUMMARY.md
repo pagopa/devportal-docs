@@ -13,3 +13,4 @@
 
 * [Gestione Posizioni Debitorie](test-api/gestione-posizioni-debitorie.md)
 * [OpenAPI test](test-api/pagina-4-nel-gruppo.md)
+* [Test stringhe code](test-api/test-stringhe-code.md)
