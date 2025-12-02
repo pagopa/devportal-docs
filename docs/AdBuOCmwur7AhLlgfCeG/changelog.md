@@ -12,7 +12,7 @@
 
 ### Versione 2.0 (maggio 2023)
 
-* Integrata sezione [Pulsante Firma con IO](broken-reference).
+* Integrata sezione [Pulsante Firma con IO](/broken/pages/UAXN3TVSU5hw8hyLWu3C).
 * Integrata sezione [Validare i documenti](il-processo-di-firma/preparare-i-documenti/validare-i-documenti.md) per verificare che il documento sia stato preparato correttamente con campi firma validi.&#x20;
 * Integrata sezione [Creare il Dossier](creare-il-dossier.md) con la possibilità di inserire il contatto di assistenza legato allo specifico Dossier.&#x20;
 
