@@ -4,13 +4,13 @@ L'adesione all'iniziativa Bonus Elettrodomestici è il primo passo obbligatorio 
 
 Questa procedura si svolge interamente online sulla _Piattaforma PARI_ e richiede l'autenticazione forte tramite identità digitale e la sottoscrizione del contratto di cui il presente documento è allegato. L'adesione da parte dei _Venditori_ è disciplinata dalle [Linee Guida](https://www.mimit.gov.it/images/stories/normativa/All1__Linee_Guida_Bonus__22_ottobre_2025__1_.pdf).
 
-## Corrispettivi e oneri tributari
+### Corrispettivi e oneri tributari
 
 L'adesione all'iniziativa Bonus Elettrodomestici da parte dei _Venditori_ è gratuita.
 
 L'Accordo di adesione alla Piattaforma PARI, con riferimento all'iniziativa di cui si discute, è soggetto ad imposta di bollo ai sensi dell’art. 18, comma 10 del D.lgs. 36/2023. Trattandosi di accordo gratuito, ai fini della determinazione dell’imposta di bollo, rispetto alla tabella A dell’allegato I.4 del D.lgs. 36/2023, si applica il primo scaglione per cui l’accordo è esente da imposta di bollo.
 
-## Procedura di adesione
+### Procedura di adesione
 
 Il _Venditore_ deve seguire questi passaggi:
 
@@ -23,7 +23,7 @@ Il _Venditore_ deve seguire questi passaggi:
 5. verificare la correttezza di tutte le informazioni nella pagina di **Riepilogo**.
 6. procedere alla **Sottoscrizione del contratto** di adesione con firma digitale da parte del Legale Rappresentante o di chi ne ha i poteri. L'interfaccia guiderà l'utente attraverso il processo di firma digitale per formalizzare l'adesione.
 
-## Esito
+### Esito
 
 Una volta completata la procedura e sottoscritto il contratto, il _Venditore_ è tenuto a trasmettere mediante apposita interfaccia l'accordo debitamente sottoscritto.
 

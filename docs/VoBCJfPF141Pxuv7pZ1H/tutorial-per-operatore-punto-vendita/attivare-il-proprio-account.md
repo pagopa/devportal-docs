@@ -2,12 +2,10 @@
 
 Questa guida è rivolta all'Operatore Punto Vendita (PV). La procedura descrive come attivare il proprio account dopo che il _Venditore_ lo ha registrato sulla _Piattaforma PARI_.
 
-## Prerequisiti
+### Prerequisiti
 
 * Il _Venditore_ deve aver [censito i punti vendita](../tutorial-per-il-venditore/censire-i-punti-vendita.md).
 * L'Operatore PV deve avere accesso alla casella di posta elettronica comunicata dal _Venditore_ in fase di censimento.
-
-## Procedura di attivazione
 
 ### Step 1 - Ricevere l'email di attivazione
 

@@ -1,6 +1,50 @@
 # Inviare le richieste di rimborso
 
+Dopo aver accettato un buono sconto, l'Operatore del Punto Vendita può procedere all'invio di richiesta rimborso—che dovrà a sua volta essere [approvata e inviata dal Venditore](../tutorial-per-il-venditore/gestire-i-rimborsi.md) a Invitalia S.p.A.&#x20;
+
 {% hint style="warning" %}
-Il contenuto sarà presto disponibile
+Prima di richiedere un rimborso, verificare che la fattura sia corretta e non debba essere stornata. I rimborsi saranno elaborati e accreditati [entro il 28 febbraio 2026.](../tutorial-per-il-venditore/gestire-i-rimborsi.md#tempi-di-approvazione)
 {% endhint %}
+
+### Prerequisiti
+
+* La transazione deve essere in stato "[Fattura da caricare](../riferimenti-tecnici/stati-delle-transazioni.md)".
+* Se la transazione è avvenuta online, devono essere trascorsi 14 giorni dall'acquisto, così da garantire il [diritto di recesso previsto dal Codice del consumo](https://www.mimit.gov.it/it/assistenza/domande-frequenti/diritto-di-recesso-domande-frequenti-faq).
+
+***
+
+### Step 1 - Seleziona una transazione
+
+Nella sezione "Gestione acquisti", selezionare la transazione di riferimento cliccando sulla relativa freccia blu, poi su "Carica la fattura".
+
+<figure><img src="../.gitbook/assets/Dettaglio transazione - fattura da caricare.png" alt="Dettaglio di una transazione, su cui compare il pulsante &#x22;Carica la fattura&#x22; o &#x22;Storna&#x22;"><figcaption></figcaption></figure>
+
+***
+
+### Step 2 - Carica la fattura
+
+È necessario caricare una fattura elettronica, in formato `XML` o `PDF` e inserire il relativo numero fattura.
+
+La fattura dovrà contenere al suo interno:
+
+* il riferimento al ritiro RAEE;
+* codice sconto usato in fase d'acquisto (riportato nel [documento di pre-autorizzazione)](accettare-un-buono-sconto-in-negozio.md#step-5-stampa-il-documento-di-pre-autorizzazione).
+
+<figure><img src="../.gitbook/assets/Carica la fattura (1).png" alt="Schermata di caricamento della fattura"><figcaption></figcaption></figure>
+
+Completato il caricamento, la transazione passerà in stato "[Presa in carico](../riferimenti-tecnici/stati-delle-transazioni.md)": il Venditore dovrà quindi [approvare la richiesta di rimborso](../tutorial-per-il-venditore/gestire-i-rimborsi.md).&#x20;
+
+***
+
+### (opzionale) Step 3 - Modifica la fattura
+
+{% hint style="warning" %}
+**Importante:** se devi stornare la transazione, [usa la funzione apposita](gestire-uno-storno.md).
+{% endhint %}
+
+È possibile sostituire una fattura errata con quella corretta, purché il [Venditore non l'abbia ancora approvata.](../tutorial-per-il-venditore/gestire-i-rimborsi.md)
+
+Per farlo, l'operatore deve cliccare sulla freccia blu dell'operazione e quindi su "Modifica documento".
+
+<figure><img src="../.gitbook/assets/Modifica documento (2) (1).png" alt="Schermata in cui è possibile modificare una fattura già caricata"><figcaption></figcaption></figure>
 

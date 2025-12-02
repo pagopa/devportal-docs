@@ -6,11 +6,11 @@ Indica il contributo per l’acquisto di _Elettrodomestici_ previsto per l’ann
 
 È inoltre disciplinato dal Decreto direttoriale 22 ottobre 2025 presente al seguente link: [https://www.mimit.gov.it/it/normativa/decreti-direttoriali/decreto-direttoriale-22-ottobre-2025-bonus-elettrodomestici-modalita-di-richiesta-concessione-ed-erogazione](https://www.mimit.gov.it/it/normativa/decreti-direttoriali/decreto-direttoriale-22-ottobre-2025-bonus-elettrodomestici-modalita-di-richiesta-concessione-ed-erogazione).
 
-## Chi può richiederlo? <a href="#chi-puo-richiederlo" id="chi-puo-richiederlo"></a>
+### Chi può richiederlo? <a href="#chi-puo-richiederlo" id="chi-puo-richiederlo"></a>
 
 Tutti i maggiorenni residenti in Italia che acquistano un _Elettrodomestico_ nuovo e smaltiscono quello obsoleto dello stesso tipo. Si può richiedere un solo bonus per ogni _Famiglia Anagrafica_.
 
-## Cosa offre? <a href="#cosa-offre" id="cosa-offre"></a>
+### Cosa offre? <a href="#cosa-offre" id="cosa-offre"></a>
 
 Uno sconto del 30% sul prezzo d’acquisto di un solo _Elettrodomestico_, nuovo e ad alta efficienza, di una di queste categorie: apparecchi di refrigerazione (frigoriferi e congelatori), asciugabiancheria, cappe da cucina, forni, lavasciuga, lavastoviglie, lavatrici e piani cottura. Lo sconto massimo che puoi ottenere è:
 

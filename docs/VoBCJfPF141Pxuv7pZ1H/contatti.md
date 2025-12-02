@@ -1,6 +1,6 @@
 # Contatti
 
-## Hai dubbi sull'iniziativa?
+## Hai dubbi sull'iniziativa o problemi con i rimborsi?
 
 ### Online
 
@@ -22,6 +22,3 @@ Se il problema persiste, puoi aprire una richiesta di supporto seguendo questi p
 2. Indica un indirizzo e-mail valido su cui ricevere la risposta
 3. Seleziona dall'elenco la categoria "PARI - Bonus e iniziative"
 4. Descrivi il tuo problema tecnico
-
-
-

@@ -6,7 +6,7 @@
 &#x20;Per maggiori informazioni sugli stati, consulta la pagina [Stati delle transazioni](../riferimenti-tecnici/stati-delle-transazioni.md).
 {% endhint %}
 
-## Sezione "Punti vendita"
+### Sezione "Punti vendita"
 
 {% hint style="info" %}
 Il Venditore non ha visibilità di eventuali acquisti in corso (ovvero in stato Pre-autorizzato).&#x20;

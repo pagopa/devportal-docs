@@ -2,15 +2,11 @@
 
 Questa guida è il punto di riferimento per i _Venditori_ che aderiscono all'iniziativa Bonus Elettrodomestici. L'obiettivo è fornire le istruzioni operative per utilizzare i portali di gestione e accettare i buoni sconto presentati dai cittadini.
 
-Per la definizione di _Venditore_ si rinvia al Decreto interministeriale citato. Per _Operatore di Punto Vendita_ si intende il referente nominato dal _Venditore_ in fase di censimento dei Punti Vendita.
+### Venditore
 
-## I due ruoli chiave: Venditore e Operatore
+Per la definizione di _Venditore_ si rinvia al Decreto interministeriale citato.
 
-Per gestire correttamente il processo, è fondamentale comprendere la distinzione tra i due ruoli principali e i relativi portali.
-
-### 1. Il Venditore
-
-#### Compiti principali del Venditore:
+**I compiti principali del Venditore sono:**
 
 * aderire all'iniziativa;
 * censire i Punti Vendita, registrare l'elenco di tutti i negozi fisici e/o online;
@@ -19,11 +15,13 @@ Per gestire correttamente il processo, è fondamentale comprendere la distinzion
 
 Per i _Venditori_ e-commerce saranno necessarie dell'integrazioni tra le piattaforma attraverso delle API pubbliche.
 
-### 2. L'Operatore Punto Vendita
+### L'Operatore Punto Vendita
 
-L'Operatore Punto Vendita (PV) è la persona fisica (ad esempio, l'addetto alla cassa o il responsabile del negozio) che opera nel singolo punto vendita. L'Operatore utilizza il "**Portale Esercenti**" per gestire le richieste di utilizzo del _Voucher_ da parte dell'_Utente finale_, nonché le conseguenti richieste di rimborso.
+Per _Operatore di Punto Vendita_ si intende il referente nominato dal _Venditore_ in fase di censimento dei Punti Vendita.
 
-#### **Compiti principali dell'Operatore PV:**
+L'Operatore Punto Vendita (PV) è la persona fisica (ad esempio, l'addetto alla cassa o il responsabile del negozio) che opera nel singolo punto vendita. L'Operatore utilizza il portale per gestire le richieste di utilizzo del _Voucher_ da parte dell'_Utente finale_, nonché le conseguenti richieste di rimborso.
+
+**I compiti principali dell'Operatore PV sono:**
 
 * inserire il buono sconto (_Voucher_) presentato dal cittadino e verificare i dati limitatamente alla casistica in cui il _Voucher_ è cartaceo. Nel caso in cui l'_Utente finale_ presenti il _Voucher_ attraverso l'app IO non sarà necessario verificare la corrispondenza con il Codice Fiscale.
 * _&#x63;_&#x6F;nfermare con apposita funzionalità disponibile in piattaforma l'acquisto dopo il pagamento del cittadino o annullare l'operazione;

@@ -12,13 +12,13 @@ L'operazione di censimento si svolge all'interno della _Piattaforma PARI_ e perm
 Una volta che un Punto Vendita è stato creato e salvato, **non è più possibile modificarne i dati relativi al Punto Vendita** (ad eccezione dei dati relativi al referente che _Venditore_ può sempre aggiornare). È fondamentale verificare la correttezza di tutte le informazioni prima di confermare l'inserimento.
 {% endhint %}
 
-## Step 1 - Accedere alla Piattaforma
+### Step 1 - Accedere alla Piattaforma
 
 Il _Venditore_ accede alla _Piattaforma PARI_ attraverso il portale [Area Riservata](https://selfcare.pagopa.it/) autenticandosi tramite SPID o CIE.
 
 ***
 
-## Step 2 - Avviare il censimento
+### Step 2 - Avviare il censimento
 
 Nella alla sezione Punti Vendita è possibile utilizzare la funzionalità **"Inserisci i tuoi punti vendita"** per avviare la procedura di inserimento.
 
@@ -26,7 +26,7 @@ Nella alla sezione Punti Vendita è possibile utilizzare la funzionalità **"Ins
 
 ***
 
-## Step 3 - Compilare i dati del Punto Vendita
+### Step 3 - Compilare i dati del Punto Vendita
 
 Utilizzare l'interfaccia per inserire i dati richiesti per ciascun Punto Vendita.
 
@@ -34,7 +34,7 @@ Utilizzare l'interfaccia per inserire i dati richiesti per ciascun Punto Vendita
 I dati inseriti (ad eccezione dei contatti del Referente) saranno pubblicati sul sito dell’iniziativa, per informare gli utenti su dove potranno utilizzare il Bonus Elettrodomestici.
 {% endhint %}
 
-### Punto vendita fisico
+#### Punto vendita fisico
 
 I campi obbligatori includono:
 
@@ -48,7 +48,7 @@ I campi obbligatori includono:
 
 <figure><img src="../.gitbook/assets/Fisico - empty.png" alt=""><figcaption></figcaption></figure>
 
-### Punto vendita online
+#### Punto vendita online
 
 I campi obbligatori includono:
 
@@ -59,7 +59,7 @@ I campi obbligatori includono:
 
 ***
 
-## Step 4 - Salvare e ripetere l'operazione
+### Step 4 - Salvare e ripetere l'operazione
 
 Dopo aver compilato i campi per uno o più Punti Vendita (fino a un massimo di cinque), confermare l'inserimento tramite il pulsante "Conferma".
 
@@ -67,7 +67,7 @@ Se il _Venditore_ deve registrare più di cinque Punti Vendita, deve ripetere qu
 
 ***
 
-## Prossimi passi
+### Prossimi passi
 
 I Punti Vendita correttamente censiti appariranno nell'elenco gestito dal _Venditore_. Una volta che un Punto Vendita è registrato, automaticamente verrà creato un account per l'Operatore del Punto Vendita.
 

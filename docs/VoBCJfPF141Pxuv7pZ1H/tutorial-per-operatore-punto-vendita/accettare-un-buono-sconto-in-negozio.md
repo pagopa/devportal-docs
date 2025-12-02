@@ -2,12 +2,10 @@
 
 Questa è la procedura operativa principale per l'_Operatore Punto Vendita (PV)_. La guida descrive come inserire il codice sconto presentato da un cittadino.
 
-## Prerequisiti
+### Prerequisiti
 
 * L'Operatore PV deve aver [attivato il proprio account](attivare-il-proprio-account.md).
 * L'Operatore PV deve aver effettuato l'accesso al [Portale Operatori Punti Vendita](https://bonuselettrodomestici.it/esercente) con le proprie credenziali (email e password).
-
-## Procedura di accettazione
 
 ### Step 1 - Avviare la procedura di accettazione
 
@@ -66,17 +64,19 @@ Dopo aver completato la verifica:
 
 ***
 
-### (opzionale) Step 5 - Stampa il documento di pre-autorizzazione
+### Step 5 - Stampa il documento di pre-autorizzazione
+
+{% hint style="warning" %}
+**Importante:** Questo documento contiene il codice sconto usato dall'utente, **che andrà inserito nella fattura.**
+{% endhint %}
 
 Dopo aver cliccato "Accetta buono sconto", la transazione verrà mostrata nell'elenco della sezione "Gestione acquisti" nello stato **"Da autorizzare".**
-
-Se utile, l'operatore può anche scaricare e stampare un documento di pre-autorizzazione, per facilitare il pagamento in cassa.
 
 Per scaricare il documento, l'operatore deve cliccare sulla freccia blu dell'operazione e quindi sul link contrassegnato dall'icona a forma di documento.
 
 ***
 
-### Step 5 - Conferma il pagamento
+### Step 6 - Conferma il pagamento
 
 Dopo aver cliccato "Accetta buono sconto", la transazione verrà mostrata nell'elenco della sezione "Gestione acquisti" nello stato **"Da autorizzare".**
 
@@ -86,7 +86,7 @@ Dopo aver cliccato "Accetta buono sconto", la transazione verrà mostrata nell'e
 
 L'Operatore può confermare l'operazione cliccando sulla freccia blu dell'operazione e cliccare quindi su "**Conferma pagamento**".
 
-<figure><img src="../.gitbook/assets/dettaglio transazione.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/dettaglio transazione (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
