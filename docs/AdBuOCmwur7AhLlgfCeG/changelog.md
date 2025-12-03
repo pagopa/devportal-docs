@@ -1,5 +1,9 @@
 # 🕗 Changelog
 
+### Versione 5.0 (dicembre 2025)
+
+* Aggiornata la sezione [Per iniziare](./) andando a rimuovere i richiami alla sperimentazione controllata del prodotto
+
 ### Versione 4.0 (settembre 2023)
 
 * Integrata sezione [Ambienti: Test & Produzione](https://docs.pagopa.it/manuale-operativo-di-firma-con-io/api/ambienti-test-and-produzione) che introduce la possibilità di poter utilizzare contemporaneamente l'ambiente di test e l'ambiente di produzione

@@ -9,14 +9,8 @@ Il documento vuole:
 * spiegare come **preparare** un documento e **richiederne la firma**;
 * dare indicazioni su come verificare lo **stato** di una firma e scaricare i **documenti firmati**.
 
-{% hint style="danger" %}
-**Fase di sperimentazione**
-
-Questo manuale riguarda le API di Firma con IO per la fase di sperimentazione: le informazioni contenute al suo interno potrebbero subire delle modifiche.
-{% endhint %}
-
 {% hint style="warning" %}
-Solo dopo la firma dell’**accordo di sperimentazione** si potrà testare il servizio generando le **API Key** di test direttamente dall'[Area Riservata](https://selfcare.pagopa.it/auth/login).\
+Solo dopo la firma dell’**accordo** si potrà testare il servizio generando le **API Key** di test direttamente dall'[Area Riservata](https://selfcare.pagopa.it/auth/login).\
 Se l’Ente è già integrato ad App IO, non potrà utilizzare le API key che già possiede, ma dovrà generare delle API Key specifiche per il prodotto.
 {% endhint %}
 
