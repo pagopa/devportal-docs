@@ -45,7 +45,7 @@
 #### 2.7.0 (6 ottobre)
 
 * [Quarto rilascio API v. 2](https://www.interop.pagopa.it/news/api-v2-quarto-rilascio): rilasciati gli endpoint relativi a template e-service
-* Nuova sidenav
+* Nuova sidenav: il menù di navigazione laterale nel front office viene riorganizzato, con l'obiettivo di rendere più chiare le voci e di prepare il menù per il rilascio previsto delle notifiche in app
 
 #### 2.8.0 (18 novembre)
 
