@@ -6,7 +6,7 @@ Durante la descrizione delle interfacce si farà riferimento ad alcune entità l
 
 * _Posizione Debitoria_: rappresenta l'entità padre per la quale l'EC vuole ricevere pagamenti tramite la piattaforma. Essa è identificata dallo _IUPD_ (Identificativo Unico Posizione Debitoria) ed è così composta:
   * una o più _Opzioni di pagamento_ (es. Soluzione Unica, Pagamento Rateale, etc.), maggiori informazioni in [Opzioni di pagamento](../ente-creditore/opzioni-di-pagamento/);
-  * ogni _Opzione di Pagamento_ si compone di uno o più _Installment (Rate),_ in questa entità sono presenti tutte le informazioni che identificano l'avviso di pagamento (es. il _NAV_ e lo _IUV_), a ogni _Installment_ sono associati da 1 a 5 _Transfer._&#x20;
+  * ogni _Opzione di Pagamento_ si compone di uno o più _Installment (Rate),_ in questa entità sono presenti tutte le informazioni che identificano l'avviso di pagamento (es. il _NAV_ e lo _IUV_), a ogni _Installment_ sono associati da 1 a 5 _Transfer._
 * _Avviso di Pagamento_: rappresenta la notifica (cartacea o digitale) di ogni singolo dovuto verso il cittadino.
 * _Pagamento_: descrive nel dettaglio l’operazione di pagamento correlata ad un avviso e contiene informazioni di incasso e di accredito.
 * _Ricevuta_: descrive l’esito di un pagamento, contiene i dettagli dell’incasso e la previsione dell’accredito, contiene al suo interno anche il riferimento all’avviso di pagamento.
@@ -16,13 +16,13 @@ Durante la descrizione delle interfacce si farà riferimento ad alcune entità l
 
 ![](../.gitbook/assets/oggettiBusiness.png)
 
-Il _**payment**_ (pagamento) è un oggetto generato dall’EC, gestito dalla piattaforma pagoPA e inoltrato al PSP; l’EC fornisce questo oggetto alla piattaforma pagoPA con la response alla  [paGetPayment](../appendici/primitive.md#pagetpayment), la piattaforma pagoPA fornisce questo oggetto al PSP con la response alla [activatePaymentNotice](../appendici/primitive.md#activatepaymentnotice); l’oggetto _payment_ fornito al PSP contiene un subset di dati inviati dall'EC alla piattaforma pagoPA.
+Il _**payment**_ (pagamento) è un oggetto generato dall’EC, gestito dalla piattaforma pagoPA e inoltrato al PSP; l’EC fornisce questo oggetto alla piattaforma pagoPA con la response alla [paGetPayment](../appendici/primitive.md#pagetpayment), la piattaforma pagoPA fornisce questo oggetto al PSP con la response alla [activatePaymentNotice](../appendici/primitive.md#activatepaymentnotice); l’oggetto _payment_ fornito al PSP contiene un subset di dati inviati dall'EC alla piattaforma pagoPA.
 
 La _**receipt**_ (ricevuta) è un oggetto generato dalla piattaforma pagoPA sulla base dei dati ricevuti dalla response alla [paGetPayment](../appendici/primitive.md#pagetpayment) (da EC) e dalla [sendPaymentOutcome](../appendici/primitive.md#sendpaymentoutcome) (da PSP); viene inviato agli _n_ Enti Creditori interessati al pagamento per mezzo della primitiva [paSendRT](../appendici/primitive.md#pasendrt); l’oggetto _receipt_ viene inoltrato all’EC solo se il pagamento è stato effettuato.
 
 Il _**flusso di rendicontazione**_ contiene le informazioni che devono essere messe a disposizione dell’EC per effettuare le operazioni di riconciliazione dei pagamenti, tale flusso deve essere reso disponibile ai soggetti interessati a cura del PSP che ha effettuato l’operazione di pagamento, entro e non oltre le ore 24 della seconda giornata lavorativa successiva alla ricezione dell’ordine di pagamento (D+2). I PSP inviano ogni singolo flusso di rendicontazione alla piattaforma pagoPA tramite la primitiva [nodoInviaFlussoRendicontazione](../appendici/primitive.md#nodoinviaflussorendicontazione); per la ricezione dei flussi di rendicontazione da parte degli EC le primitive da usare sono la [nodoChiediElencoFlussiRendicontazione](../appendici/primitive.md#nodochiediflussorendicontazione), per avere l'elenco dei flussi disponibili, e la [nodoChiediFlussoRendicontazione](../appendici/primitive.md#nodochiediflussorendicontazione) per scaricare uno specifico flusso.
 
-![](<../.gitbook/assets/flussiRendicontazione (1).png>)
+![](../.gitbook/assets/flussiRendicontazione.png)
 
 ## Strutture dati di supporto <a href="#strutture-dati-business" id="strutture-dati-business"></a>
 
@@ -36,4 +36,4 @@ La Tabella delle controparti estesa è stata deprecata, per ulteriori dettagli f
 
 Il **Catalogo servizi** è utilizzato dai PSP per ottenere i dettagli di particolari servizi offerti da ogni EC, in modo da poter offrire il pagamento spontaneo ([pagamento-spontaneo-presso-psp](../casi-duso/pagamento-spontaneo-presso-psp/ "mention")), tale struttura può essere prelevata tramite la primitiva [nodoChiediCatalogoServizi](../appendici/primitive.md#nodochiedicatalogoservizi).
 
-![](<../.gitbook/assets/image (48).png>)
+![](<../.gitbook/assets/image (40).png>)

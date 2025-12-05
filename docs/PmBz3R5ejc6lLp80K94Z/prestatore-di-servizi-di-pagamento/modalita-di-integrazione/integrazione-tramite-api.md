@@ -15,7 +15,7 @@ La [demandPaymentNotice](../../appendici/primitive.md#demandpaymentnotice) è ut
 * l'importo parziale di ogni singolo pagamento;
 * il codice fiscale dell’EC beneficiario di ogni singolo pagamento.
 
-&#x20;Tale fase è obbligatoria nel caso di pagamento spontanei attivati presso i PSP.
+Tale fase è obbligatoria nel caso di pagamento spontanei attivati presso i PSP.
 
 I PSP possono recuperare i dati dello specifico servizio tramite il [catalogo-dei-servizi.md](../../casi-duso/pagamento-spontaneo-presso-psp/catalogo-dei-servizi.md "mention").
 
@@ -32,7 +32,7 @@ La fase di verifica è opzionale per i PSP, se il Nodo riscontra che la posizion
 
 ## Fase di verifica da parte di Poste Italiane
 
-![](<../../.gitbook/assets/image (42).png>)
+![](<../../.gitbook/assets/image (41).png>)
 
 La [verificaBollettino](../../appendici/primitive.md#verificabollettino) è utilizzabile esclusivamente dal PSP Poste Italiane che avvia il pagamento per mezzo del Data Matrix presente nell'avviso analogico, e non per mezzo del QR Code, con questa chiamata vengono richieste le informazioni di pagamento relative ad un numero avviso, in particolare:
 
@@ -67,7 +67,7 @@ Il PSP può avviare un processo di retry in caso di mancata ricezione della risp
 
 ## Fase di inoltro del pagamento
 
-![](<../../.gitbook/assets/pspNotifyPayment (1).png>)
+![](../../.gitbook/assets/pspNotifyPayment.png)
 
 I dettagli dei pagamenti eseguiti sui touchpoints di PagoPA S.p.A. vengono inoltrati al PSP tramite la [pspNotifyPayment](../../appendici/primitive.md#pspnotifypayment).
 
@@ -122,6 +122,6 @@ Il Nodo verifica lo stato del pagamento per capire se il token sia ancora in cor
 
 Il PSP dopo avere inviato l'esito per un pagamento non può modificarlo, sia in caso di pagamento effettuato con successo (outcome = OK), sia in caso di pagamento non effettuato (outcome = KO).
 
-L'invio di una  [sendPaymentOutcome](../../appendici/primitive.md#sendpaymentoutcome) con esito positivo (outcome = OK) è un impegno del PSP a riversare l’importo del pagamento all’EC, al netto dell'eventuali eccezioni con cui può rispondere il Nodo.
+L'invio di una [sendPaymentOutcome](../../appendici/primitive.md#sendpaymentoutcome) con esito positivo (outcome = OK) è un impegno del PSP a riversare l’importo del pagamento all’EC, al netto dell'eventuali eccezioni con cui può rispondere il Nodo.
 
 Al termine dell’operazione il PSP, in linea con le norme vigenti, consegna un’attestazione di pagamento la quale dovrà contenere (in aggiunta a quanto previsto dalle normative) l’identificativo della sessione di pagamento ottenuto durante le operazioni di pagamento (_paymentToken_).

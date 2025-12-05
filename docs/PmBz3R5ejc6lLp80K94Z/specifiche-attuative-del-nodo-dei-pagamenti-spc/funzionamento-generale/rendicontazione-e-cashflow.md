@@ -23,7 +23,7 @@ Esistono, invece, 2 configurazioni possibili (mutuamente esclusive) per l’EC r
 * SOAP (Web Service)
 * SFTP
 
-![](<../../.gitbook/assets/image (29).png>)
+![](<../../.gitbook/assets/image (1).png>)
 
 ![](<../../.gitbook/assets/image (3).png>)
 
@@ -74,7 +74,7 @@ Di seguito un esempio di xml del Flusso di Rendicontazione contenuto nel tag _xm
 
 ## Gestione sovrascritture Flussi di Rendicontazione <a href="#title-text" id="title-text"></a>
 
-Un PSP ha la possibilità di mandare più flussi allo stesso EC tramite la primitiva [nodoInviaFlussoRendicontazione](../../appendici/primitive.md#nodoinviaflussorendicontazione) con lo stesso _identificativoFlusso_ ma con _dataOraFlusso_ differente. Questa opzione permette al PSP di **sovrascrivere** un flusso già inviato, in caso un flusso già inviato necessitasse di correzioni.&#x20;
+Un PSP ha la possibilità di mandare più flussi allo stesso EC tramite la primitiva [nodoInviaFlussoRendicontazione](../../appendici/primitive.md#nodoinviaflussorendicontazione) con lo stesso _identificativoFlusso_ ma con _dataOraFlusso_ differente. Questa opzione permette al PSP di **sovrascrivere** un flusso già inviato, in caso un flusso già inviato necessitasse di correzioni.
 
 Si ricorda, inoltre, l'_identificativoFlusso_ deve essere univoco nell’ambito dell’anno di riferimento delle operazioni di pagamento cui si riferisce il flusso, di conseguenza lo stesso _identificativoFlusso_ può essere usato più di una volta nel corso dello stesso anno solo nel caso di invio di un flusso di sovrascrittura.
 
@@ -137,7 +137,7 @@ Il Nodo deve rispondere coerentemente con quanto dichiarato nella primitiva prec
 
 ## Nuove primitive flussi di rendicontazione <a href="#richiesta-flussi-di-rendicontazione-da-parte-dellente-creditore" id="richiesta-flussi-di-rendicontazione-da-parte-dellente-creditore"></a>
 
-PagoPA metterà a disposizione degli EC/PSP delle nuove [primitive](../../appendici/primitive.md#nuova-gestione-flussi-di-rendicontazione) per la gestione di download/upload dei FdR.&#x20;
+PagoPA metterà a disposizione degli EC/PSP delle nuove [primitive](../../appendici/primitive.md#nuova-gestione-flussi-di-rendicontazione) per la gestione di download/upload dei FdR.
 
 L'introduzione dei nuovi servizi ha l’obiettivo di ottimizzare l’attuale flusso logico, gestendo in maniera ottimale tutte le fasi di gestione dei FdR, anche di dimensioni elevate.
 
@@ -162,27 +162,27 @@ Gli esempi delle chiamate sono consultabili nella sezione Primitive - Nuove prim
 
 La nuova modalità di invio dei flussi introduce la possibilità di spezzettare un flusso di grandi dimensioni, in tanti piccoli pacchetti.
 
-I PSP, che intendono caricare un flusso di rendicontazione, effettuano una prima chiamata con la _signature_:&#x20;
+I PSP, che intendono caricare un flusso di rendicontazione, effettuano una prima chiamata con la _signature_:
 
-`POST`` `**`/psps/{pspId}/fdrs/{fdr}`**
+` POST`` `` `**`/psps/{pspId}/fdrs/{fdr}`**
 
 Al termine della chiamata il nodo dei pagamenti è pronto a ricevere tutti i pacchetti che andranno a comporre l'intero flusso.
 
-L'aggiunta dei pacchetti avviene tramite la chiamata client con la _signature_:&#x20;
+L'aggiunta dei pacchetti avviene tramite la chiamata client con la _signature_:
 
-`PUT`` `**`/psps/{pspId}/fdrs/{fdr}/payments/add`**
+` PUT`` `` `**`/psps/{pspId}/fdrs/{fdr}/payments/add`**
 
-La chiamata può essere ripetuta tante volte fino all'invio dell'ultimo pacchetto che compone il flusso di Rendicontazione.&#x20;
+La chiamata può essere ripetuta tante volte fino all'invio dell'ultimo pacchetto che compone il flusso di Rendicontazione.
 
 Può essere utilizzata la chiamata con la _signature_:
 
-`PUT`` `**`/psps/{pspId}/fdrs/{fdr}`**&#x20;
+` PUT`` `` `**`/psps/{pspId}/fdrs/{fdr}`**
 
 Per cancellare un pacchetto erroneamente caricato.
 
 Quando tutti i pacchetti sono stati caricati, può essere publicato il flusso tramite la chiamata con _signature_:
 
-`POST`` `**`/psps/{pspId}/fdrs/{fdr}/publish`**
+` POST`` `` `**`/psps/{pspId}/fdrs/{fdr}/publish`**
 
 Oppure si può decidere di eliminare i pacchetti inseriti tramite la chiamata con _signature_:
 
@@ -192,7 +192,7 @@ Oppure si può decidere di eliminare i pacchetti inseriti tramite la chiamata co
 
 L'EC che intende scaricarsi l'elenco dei flussi di rendicontazione non ancora scaricati, può effettuarlo tramite _signature_:
 
-`GET`` `**`/organizations/{organizationId}/fdrs`**
+` GET`` `` `**`/organizations/{organizationId}/fdrs`**
 
 La primitiva restituisce i flussi secondo le logiche descritte nel paragrafo [Elenco Flussi](rendicontazione-e-cashflow.md#elenco-flussi)**.**
 
@@ -204,7 +204,6 @@ L’EC, che intende richiedere un flusso contenuto nell'elenco dei flussi, può 
 
 Se il flusso richiesto è di grandi dimensioni può essere scaricato tramite la _signature_:
 
-`GET`**`/organizations/{organizationId}/fdrs/{fdr}/revisions/{revision}/psps/{pspId}/payments`**&#x20;
+`GET`**`/organizations/{organizationId}/fdrs/{fdr}/revisions/{revision}/psps/{pspId}/payments`**
 
 che recupera tutti i pagamenti paginati.
-
