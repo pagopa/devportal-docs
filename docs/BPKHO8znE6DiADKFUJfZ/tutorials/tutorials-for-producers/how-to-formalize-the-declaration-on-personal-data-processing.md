@@ -17,3 +17,7 @@ In the side panel that appears, specify whether the e-service processes personal
 {% hint style="warning" %}
 Once confirmed, this selection cannot be modified. Utmost care is required during this step.
 {% endhint %}
+
+***
+
+Next page [→ How to approve a pending service request via API](how-to-approve-a-pending-service-request-via-api.md)

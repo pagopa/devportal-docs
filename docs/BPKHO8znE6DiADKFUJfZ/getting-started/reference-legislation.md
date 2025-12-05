@@ -21,4 +21,4 @@ For more details on the structure of the ecosystem, see the [dedicated page](htt
 
 ***
 
-Next page [→ Tutorials for producers](../tutorials/tutorials-for-producers/)
+Next page [→ Terms and conditions and SLAs](../other-information/terms-and-conditions-and-slas.md)

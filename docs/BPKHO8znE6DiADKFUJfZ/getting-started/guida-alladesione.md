@@ -65,4 +65,4 @@ It is necessary to wait up to 24 hours to ensure that all attributes are correct
 
 ***
 
-Next page [→ Reference legislation](reference-legislation.md)
+Next page [→ Tutorials for producers](../tutorials/tutorials-for-producers/)

@@ -91,7 +91,11 @@
 ## Other information
 
 * [Support channels](other-information/canali-di-supporto.md)
-* [Changelog](other-information/changelog.md)
+* [Changelog](other-information/changelog/README.md)
+  * [Changelog 2025](other-information/changelog/changelog-2025.md)
+  * [Changelog 2024](other-information/changelog/changelog-2024.md)
+  * [Changelog 2023](other-information/changelog/changelog-2023.md)
+  * [Changelog 2022](other-information/changelog/changelog-2022.md)
 
 ## Regulatory references
 

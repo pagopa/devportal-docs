@@ -19,7 +19,7 @@ Certain states and transitions of service requests depend on the **attributes** 
 
 ### State details
 
-<figure><img src="../../../5esl1LsfE1mLepPADQoC/.gitbook/assets/interop_api_v2_lifecycle_agreement.png" alt="" width="375"><figcaption><p>Flow diagram describing the state transitions.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/interop_api_v2_lifecycle_agreement.png" alt="" width="375"><figcaption><p>Flow diagram describing the state transitions.</p></figcaption></figure>
 
 #### DRAFT
 

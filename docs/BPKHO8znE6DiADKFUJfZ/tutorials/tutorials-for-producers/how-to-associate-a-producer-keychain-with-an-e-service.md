@@ -14,4 +14,4 @@ Once a keychain is associated with an e-service, all technical staff contained i
 
 ***
 
-Next page [→ How to approve a pending service request via API](how-to-approve-a-pending-service-request-via-api.md)
+Next page [→ How to formalize the declaration on personal data processing](how-to-formalize-the-declaration-on-personal-data-processing.md)

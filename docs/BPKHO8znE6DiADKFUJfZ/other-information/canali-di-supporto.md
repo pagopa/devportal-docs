@@ -12,4 +12,4 @@
 
 ***
 
-Next page [→ Changelog](changelog.md)
+Next page [→ Changelog](changelog/)

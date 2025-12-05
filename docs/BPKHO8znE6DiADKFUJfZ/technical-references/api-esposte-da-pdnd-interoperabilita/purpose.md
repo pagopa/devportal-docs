@@ -24,7 +24,7 @@ If the estimate is **below the thresholds** defined in the **e-service version (
 
 ### State details
 
-<figure><img src="../../../5esl1LsfE1mLepPADQoC/.gitbook/assets/interop_api_v2_lifecycle_purpose.png" alt="" width="375"><figcaption><p>Flow diagram describing the state transitions.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/interop_api_v2_lifecycle_purpose.png" alt="" width="375"><figcaption><p>Flow diagram describing the state transitions.</p></figcaption></figure>
 
 #### DRAFT
 
