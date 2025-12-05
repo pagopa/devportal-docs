@@ -24,7 +24,7 @@ Se la stima è **inferiore alle soglie** previste dalla versione dell’**e-serv
 
 ### Dettaglio degli stati
 
-<figure><img src="../../../5esl1LsfE1mLepPADQoC/.gitbook/assets/interop_api_v2_lifecycle_purpose.png" alt="" width="563"><figcaption><p>Diagramma di flusso che descrive i passaggi di stato</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/interop_api_v2_lifecycle_purpose.png" alt="" width="563"><figcaption><p>Diagramma di flusso che descrive i passaggi di stato</p></figcaption></figure>
 
 #### DRAFT
 

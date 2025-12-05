@@ -17,3 +17,7 @@ Nel cassetto laterale che viene aperto in sovraimpressione, indicare se l'e-serv
 {% hint style="warning" %}
 **Attenzione**: una volta confermata, questa scelta non può più essere modificata. Si raccomanda la massima attenzione durante la compilazione.
 {% endhint %}
+
+***
+
+Pagina successiva [→ Come approvare una richiesta di fruizione in attesa di approvazione tramite API](come-approvare-una-richiesta-di-fruizione-in-attesa-di-approvazione-tramite-api.md)

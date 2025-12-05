@@ -30,3 +30,7 @@ In ottemperanza alle Linee Guida AgID – par. 13 ("livelli di servizio dell’i
   * Altri Ambienti: 720.000 richieste in un intervallo di 120 minuti (100 richieste al secondo);
 * **Indicatore 13.1.3 - Numero di richieste con risposta di errore per unità di tempo:**\
   Un massimo del 3% in un intervallo di 120 minuti.
+
+***
+
+Pagina successiva [→ Assistenza e segnalazioni](../altre-informazioni/canali-di-supporto.md)

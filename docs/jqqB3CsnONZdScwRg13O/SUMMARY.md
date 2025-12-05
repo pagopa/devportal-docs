@@ -96,4 +96,8 @@
 ## Altre informazioni
 
 * [Assistenza e segnalazioni](altre-informazioni/canali-di-supporto.md)
-* [Changelog](altre-informazioni/changelog.md)
+* [Changelog](altre-informazioni/changelog/README.md)
+  * [Changelog 2025](altre-informazioni/changelog/changelog-2025.md)
+  * [Changelog 2024](altre-informazioni/changelog/changelog-2024.md)
+  * [Changelog 2023](altre-informazioni/changelog/changelog-2023.md)
+  * [Changelog 2022](altre-informazioni/changelog/changelog-2022.md)

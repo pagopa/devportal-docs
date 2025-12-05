@@ -19,7 +19,7 @@ Alcune condizioni di stato e di transizione delle richieste di fruizione dipendo
 
 ### Dettaglio degli stati
 
-<figure><img src="../../../5esl1LsfE1mLepPADQoC/.gitbook/assets/interop_api_v2_lifecycle_agreement.png" alt="" width="375"><figcaption><p>Diagramma di flusso che descrive i passaggi di stato</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/interop_api_v2_lifecycle_agreement.png" alt="" width="375"><figcaption><p>Diagramma di flusso che descrive i passaggi di stato</p></figcaption></figure>
 
 #### DRAFT
 

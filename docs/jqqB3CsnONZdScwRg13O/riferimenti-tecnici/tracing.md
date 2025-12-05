@@ -16,4 +16,4 @@ L’**utilizzo del servizio è obbligatorio** per gli aderenti. Per dettagli ope
 
 ***
 
-Pagina successiva [→ Assistenza e segnalazioni](../altre-informazioni/canali-di-supporto.md)
+Pagina successiva [→ Normativa](../riferimenti-normativi/normativa-e-approfondimenti.md)

@@ -56,4 +56,4 @@ Al primo accesso, si raccomanda all'amministratore di **impostare i contatti del
 
 ***
 
-Pagina successiva [→ Normativa di riferimento](../riferimenti-normativi/normativa-e-approfondimenti.md)
+Pagina successiva [→ Tutorial per l'erogatore](../tutorial/tutorial-per-lerogatore/)

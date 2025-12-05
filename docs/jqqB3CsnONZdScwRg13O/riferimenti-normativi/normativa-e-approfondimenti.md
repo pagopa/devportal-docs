@@ -1,4 +1,4 @@
-# Normativa di riferimento
+# Normativa
 
 ### Il Quadro Normativo
 
@@ -19,4 +19,4 @@ Per maggiori dettagli sulla struttura dell'ecosistema, si veda la [pagina dedica
 
 ***
 
-Pagina successiva [→ Tutorial per l'erogatore](../tutorial/tutorial-per-lerogatore/)
+Pagina successiva [→ Termini e condizioni e SLA](termini-e-condizioni-e-sla.md)
