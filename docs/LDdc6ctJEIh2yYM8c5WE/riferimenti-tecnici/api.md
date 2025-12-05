@@ -74,7 +74,7 @@ Richiede un Bearer Token in the `Authorization` header.
 
 #### **Esempio**:
 
-[→ Richiediamo informazioni sull'indirizzo digitale](../tutorial/richiediamo-informazioni-sullindirizzo-digitale.md)
+[→ Richiediamo informazioni sull'indirizzo digitale](../casi-duso/richiediamo-informazioni-sullindirizzo-digitale.md)
 
 ***
 
@@ -155,7 +155,7 @@ Richiede un Bearer Token in the `Authorization` header.
 
 #### **Esempio**:
 
-[→ Richiediamo informazioni sull'indirizzo digitale](../tutorial/richiediamo-informazioni-sullindirizzo-digitale.md)
+[→ Richiediamo informazioni sull'indirizzo digitale](../casi-duso/richiediamo-informazioni-sullindirizzo-digitale.md)
 
 
 
@@ -240,7 +240,7 @@ Richiede un Bearer Token in the `Authorization` header.
 
 #### **Esempio**:
 
-[→ Richiediamo informazioni sull'indirizzo digitale](../tutorial/richiediamo-informazioni-sullindirizzo-digitale.md)
+[→ Richiediamo informazioni sull'indirizzo digitale](../casi-duso/richiediamo-informazioni-sullindirizzo-digitale.md)
 
 ***
 
@@ -290,7 +290,7 @@ Richiede un Bearer Token in the `Authorization` header.
 
 #### **Esempio**:
 
-[→ Verifichiamo la correttezza dell'identificativo organizzazione](../tutorial/verifichiamo-la-correttezza-dellorganization-id.md)
+[→ Verifichiamo la correttezza dell'identificativo organizzazione](../casi-duso/verifichiamo-la-correttezza-dellorganization-id.md)
 
 ***
 
@@ -340,7 +340,7 @@ Richiede un Bearer Token in the `Authorization` header.
 
 #### **Esempio**:
 
-[→ Verifichiamo la correttezza dell'identificativo utente](../tutorial/verifichiamo-la-correttezza-dellorganization-id-1.md)
+[→ Verifichiamo la correttezza dell'identificativo utente](../casi-duso/verifichiamo-la-correttezza-dellorganization-id-1.md)
 
 ***
 
@@ -423,4 +423,4 @@ L'e-service espone un'ulteriore API che permette di inviare verso l'erogatore il
 
 #### **Esempio**:
 
-[→ E-Service con funzionalità "portachiavi"](../tutorial/e-service-con-funzionalita-portachiavi-trial-keychain.md)
+[→ E-Service con funzionalità "portachiavi"](../casi-duso/e-service-con-funzionalita-portachiavi-trial-keychain.md)

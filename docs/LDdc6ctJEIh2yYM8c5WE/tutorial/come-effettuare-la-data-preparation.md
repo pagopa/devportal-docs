@@ -64,11 +64,10 @@ Ogni erogatore può infatti aggiungere ulteriori livelli di sicurezza sui propri
 
 Per questi è dunque prevista una fase di configurazione e scambio di tali informazioni in modo da poter garantire la corretta invocazione di tutto il flusso previsto dal servizio.
 
-Si rimanda al paragrafo [TUTORIAL](broken-reference) per un esempio concreto.
+Si rimanda al paragrafo [TUTORIAL](/broken/pages/4RLMq47tQ2lu61JmHm4I) per un esempio concreto.
 
 Si ricorda che l'ambiente di attestazione è un ambiente di simulazione per cui i dati utilizzati in tutte le fasi non devono essere reali.
 
-\
+<br>
 
-
-\
+<br>

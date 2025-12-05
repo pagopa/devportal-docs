@@ -1,26 +1,25 @@
 # Table of contents
 
-## IL PRODOTTO
+## PER INIZIARE
 
 * [Introduzione](README.md)
-* [A chi è rivolto il prodotto](il-prodotto/a-chi-e-rivolto-il-prodotto.md)
+* [Come preparare l'Ambiente di Attestazione](per-iniziare/come-preparare-lambiente-di-attestazione.md)
 
-## GUIDA TECNICA
+## RIFERIMENTI TECNICI
 
-* [I servizi disponibili](guida-tecnica/i-servizi-disponibili.md)
-* [Definizione di E-service](guida-tecnica/definizione-di-e-service.md)
-* [Glossario](guida-tecnica/glossario-dei-termini.md)
-* [API](guida-tecnica/api.md)
-
-## HOW TO
-
-* [Come preparare l'Ambiente di Attestazione](how-to/come-preparare-lambiente-di-attestazione.md)
-* [Come effettuare la Data Preparation](how-to/come-effettuare-la-data-preparation.md)
-* [Come invocare un E-service](how-to/come-invocare-un-e-service.md)
+* [I servizi disponibili](riferimenti-tecnici/i-servizi-disponibili.md)
+* [Definizione di E-service](riferimenti-tecnici/definizione-di-e-service.md)
+* [Glossario](riferimenti-tecnici/glossario-dei-termini.md)
+* [API](riferimenti-tecnici/api.md)
 
 ## TUTORIAL
 
-* [Verifichiamo la correttezza dell'Identificativo organizzazione](tutorial/verifichiamo-la-correttezza-dellorganization-id.md)
-* [Verifichiamo la correttezza dell'Identificativo utente](tutorial/verifichiamo-la-correttezza-dellorganization-id-1.md)
-* [Richiediamo informazioni sull'indirizzo digitale](tutorial/richiediamo-informazioni-sullindirizzo-digitale.md)
-* [E-service con funzionalità "portachiavi"](tutorial/e-service-con-funzionalita-portachiavi-trial-keychain.md)
+* [Come effettuare la Data Preparation](tutorial/come-effettuare-la-data-preparation.md)
+* [Come invocare un E-service](tutorial/come-invocare-un-e-service.md)
+
+## CASI D'USO
+
+* [Verifichiamo la correttezza dell'Identificativo organizzazione](casi-duso/verifichiamo-la-correttezza-dellorganization-id.md)
+* [Verifichiamo la correttezza dell'Identificativo utente](casi-duso/verifichiamo-la-correttezza-dellorganization-id-1.md)
+* [Richiediamo informazioni sull'indirizzo digitale](casi-duso/richiediamo-informazioni-sullindirizzo-digitale.md)
+* [E-service con funzionalità "portachiavi"](casi-duso/e-service-con-funzionalita-portachiavi-trial-keychain.md)
