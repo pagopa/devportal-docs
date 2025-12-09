@@ -29,6 +29,7 @@
 ## Riferimenti tecnici
 
 * [Stati delle transazioni](riferimenti-tecnici/stati-delle-transazioni.md)
+* [Stati dei lotti](riferimenti-tecnici/stati-delle-transazioni-1.md)
 
 ***
 

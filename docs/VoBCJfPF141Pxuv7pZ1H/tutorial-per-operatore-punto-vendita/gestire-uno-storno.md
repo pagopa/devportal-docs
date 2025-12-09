@@ -27,3 +27,8 @@ Nella sezione "Gestione acquisti", selezionare la transazione di riferimento cli
 <figure><img src="../.gitbook/assets/Storno.png" alt=""><figcaption></figcaption></figure>
 
 Completato il caricamento, la transazione passerà in stato "[Stornata](../riferimenti-tecnici/stati-delle-transazioni.md)".
+
+Nel caso in cui un utente intende annullare un ordine per cui il Punto Vendita non ha emesso fattura, è necessario compilare i suddetti campi della procedura di storno in questo modo:
+
+* numero della nota di credito: numero dell'ordine;
+* nota di credito: file pdf ad-hoc in cui è riportata una dicitura che spieghi la mancanza della nota di credito in quanto non era stata ancora emessa fattura prima dell'annullamento dell'ordine.

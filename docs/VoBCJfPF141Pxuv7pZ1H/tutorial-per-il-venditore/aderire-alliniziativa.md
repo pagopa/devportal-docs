@@ -29,4 +29,4 @@ Una volta completata la procedura e sottoscritto il contratto, il _Venditore_ è
 
 Il Legale Rappresentante e gli Amministratori designati possono da questo momento accedere alla _Piattaforma PARI_ (sempre tramite SPID/CIE) per compiere le operazioni successive, prima fra tutte il censimento dei Punti Vendita.
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
