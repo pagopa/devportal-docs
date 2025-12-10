@@ -5,9 +5,6 @@
 * [Introduzione al servizio SRTP](README.md)
 * [Lo Schema SEPA Request-to-Pay (EPC)](il-prodotto/lo-schema-sepa-request-to-pay-epc.md)
 * [Il Flusso Operativo Completo](il-prodotto/flusso-operativo-completo.md)
-* [Riferimenti e Documenti Ufficiali](il-prodotto/riferimenti-e-documenti-ufficiali.md)
-* [Termini e condizioni](il-prodotto/termini-e-condizioni.md)
-* [Service Level Agreement (SLA)](il-prodotto/service-level-agreement-sla.md)
 
 ## guida tecnica
 
@@ -29,3 +26,9 @@
 ## CASI D'USO
 
 * [Invio di un avviso TARI a un cittadino e gestione del pagamento](casi-duso/invio-di-un-avviso-tari-a-un-cittadino-e-gestione-del-pagamento.md)
+
+## Riferimenti Normativi
+
+* [Riferimenti e Documenti Ufficiali](riferimenti-normativi/riferimenti-e-documenti-ufficiali.md)
+* [Termini e condizioni](riferimenti-normativi/termini-e-condizioni.md)
+* [Service Level Agreement (SLA)](riferimenti-normativi/service-level-agreement-sla.md)

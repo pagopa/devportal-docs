@@ -64,8 +64,7 @@ Gli obblighi descritti nella presente Sezione non trovano applicazione nei casi 
 In caso di mancato rispetto dei tempi previsti per la risoluzione in funzione della priorità assegnata, PagoPA S.p.A. si impegna a:&#x20;
 
 * attivare una escalation tecnica e/o manageriale interna;
-* informare tempestivamente il soggetto aderente, laddove ne sia previsto il coinvolgimento diretto e, aggiornarlo con frequenza coerente con quanto previsto nella tabella di priorità, attraverso i mezzi digitali messi a disposizione per la sottomissione delle segnalazioni.\
-
+* informare tempestivamente il soggetto aderente, laddove ne sia previsto il coinvolgimento diretto e, aggiornarlo con frequenza coerente con quanto previsto nella tabella di priorità, attraverso i mezzi digitali messi a disposizione per la sottomissione delle segnalazioni.<br>
 
 ### 6. Sicurezza e compliance a carico di PagoPA S.p.A. e dei soggetti aderenti firmatari
 
@@ -89,8 +88,7 @@ Le escalation di PagoPa verso un partecipante che non risponde alle segnalazioni
 * Escalation tecnica: la condivisione del ticket originale a un SPO del partecipante
 * Escalation manageriale: escalation via PEC/email verso l’Amministratore/gli Amministratori entro 24 ore dalla escalation tecnica non risolta.
 
-In caso di incidenti non risolti tramite ticketing entro le tempistiche previste per la priorità, l’escalation tecnica può essere convertita in escalation manageriale mediante invio PEC o email all’indirizzo indicato dal Soggetto Aderente al momento dell’adesione. PagoPA S.p.A. risponderà entro 24 ore lavorative.\
-
+In caso di incidenti non risolti tramite ticketing entro le tempistiche previste per la priorità, l’escalation tecnica può essere convertita in escalation manageriale mediante invio PEC o email all’indirizzo indicato dal Soggetto Aderente al momento dell’adesione. PagoPA S.p.A. risponderà entro 24 ore lavorative.<br>
 
 Nel caso in cui l’esclation deve essere fatta dall’Aderente verranno contattati i seguenti indirizzi:
 

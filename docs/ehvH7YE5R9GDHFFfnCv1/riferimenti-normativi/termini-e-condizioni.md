@@ -8,6 +8,8 @@ description: >-
 
 ## Termini e Condizioni Generali per l’Adesione ai Servizi RTP e Repository di PagoPA S.p.A.
 
+Ultimo aggiornamento: dicembre 2025
+
 ### **Articolo 1 - Oggetto**
 
 1.1. I presenti Termini e Condizioni Generali ("T\&C") disciplinano l’adesione e l’utilizzo, da parte del Soggetto Aderente, dei seguenti servizi forniti da PagoPA S.p.A., anche in conformità a quanto, di volta in volta, disciplinato nelle [Linee Guida CPI](https://www.bancaditalia.it/compiti/sispaga-mercati/comitato-pagamenti-italia/CPI-Tavolo-Incassi-Pagamenti-Pubblici-RTP-PagoPA-ver-1.2.pdf):
@@ -67,7 +69,13 @@ b) compensare con altri debiti a qualsiasi titolo maturati, ai sensi e per gli e
 Il presente Accordo è soggetto ad imposta di registro in caso d’uso ai sensi del D.P.R. n. 131/86.\
 Il presente Accordo è soggetto ad imposta di bollo in termine fisso ai sensi dell’art. 2. della Tariffa, parte prima, allegata al D.P.R. n. 642 del 1972. L’imposta di bollo verrà assolta dal Soggetto Aderente che dovrà fornire prova dell’avvenuto assolvimento con modalità conforme all'art. 3 del Dpr. 642/1972 alla PagoPA S.p.A. entro 60 (sessanta) giorni dalla sottoscrizione del presente Accordo, inviando una email all’indirizzo [indirect-tax@pagopa.it](mailto:indirect-tax@pagopa.it).
 
-### **Articolo 6 – Durata e Reces**7.1. Obblighi generali
+### **Articolo 6 – Durata e Recesso**
+
+6.1 Il presente Contratto SRTP diviene efficace dalla sottoscrizione del Modulo di adesione, salva diversa pattuizione intercorsa tra le Parti, e continuerà ad avere efficacia fino ad eventuale recesso del Soggetto Aderente o della Società o risoluzione ai sensi del successivo art. 9.&#x20;
+
+6.2 Entrambe le parti potranno recedere dal/i Servizio/i scelto in base all’art. 2 del Modulo di Adesione, con preavviso di almeno 30 giorni da comunicarsi con le modalità previste all’articolo 12.
+
+### 7.1. Obblighi generali
 
 Il Soggetto Aderente si impegna a:
 
