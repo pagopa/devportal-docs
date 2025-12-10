@@ -13,7 +13,7 @@ metaLinks:
 
 * [paCreatePosition](https://developer.pagopa.it/pago-pa/api/inserimento-posizioni-debitorie#/pago-pa/api/operations/newDebtPosition)
 
-### Inserimento puntuale con API di Gestione Posizioni Debitorie (GDP)
+### Inserimento puntuale con API di Gestione Posizioni Debitorie (GPD)
 
 * [Return the list of the organization debt positions. The due dates interval is mutually exclusive with the payment dates interval.](https://developer.pagopa.it/pago-pa/api/gpd-aca#/pago-pa/api/operations/getOrganizationDebtPositions)
 * [The Organization creates a debt Position](https://developer.pagopa.it/pago-pa/api/gpd-aca#/pago-pa/api/operations/createPosition)
@@ -24,7 +24,7 @@ metaLinks:
 * [The Organization publish a debt Position](https://developer.pagopa.it/pago-pa/api/gpd-aca#/pago-pa/api/operations/publishPosition)
 * [The Organization mark a payment option as already paid](https://developer.pagopa.it/pago-pa/api/gpd-aca#/pago-pa/api/operations/setPaymentOptionAsAlreadyPaid)
 
-### Inserimento massivo con API di Gestione Posizioni Debitorie (GDP)
+### Inserimento massivo con API di Gestione Posizioni Debitorie (GPD)
 
 * [The Organization creates the debt positions listed in the file.](https://developer.pagopa.it/pago-pa/api/gpd-aca?spec=GPD%20for%20ACA%20massive#/pago-pa/api/operations/update-debt-positions-by-file-upload)
 * [The Organization updates the debt positions listed in the file.](https://developer.pagopa.it/pago-pa/api/gpd-aca?spec=GPD%20for%20ACA%20massive#/pago-pa/api/operations/create-debt-positions-by-file-upload)
