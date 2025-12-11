@@ -14,11 +14,7 @@ Selezionando un lotto si abiliterà la relativa funzionalità di invio.
 
 Per avere maggiori informazioni in merito agli stati assunti da ciascun lotto, fare riferimento alla sezione [Stati dei lotti](../riferimenti-tecnici/stati-delle-transazioni-1.md).
 
-### (opzionale) Step 3 - Escludi fatture dal lotto
-
-Il Venditore ha la facoltà di navigare un lotto prima di inviarlo in approvazione a Invitalia S.p.A. Per visualizzare le fatture facenti parte del lotto è sufficiente cliccare sulla freccia blu presente sulla destra.
-
-Dopo aver selezionato un lotto per la verifica, il Venditore avrà la possibilità di escludere una o più fatture e non mandarle in approvazione attraverso l'apposita funzionalità.
+***
 
 ### Tempi di approvazione
 

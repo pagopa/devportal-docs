@@ -1,12 +1,15 @@
 # Gestire uno storno
 
-{% hint style="warning" %}
+{% hint style="info" %}
 Al momento è possibile stornare una transazione soltanto se questa è nello stato "[Fattura da caricare](../riferimenti-tecnici/stati-delle-transazioni.md)".
+
+Dal 19 dicembre sarà possibile farlo anche per le transazioni in stato "Presa in carico".
 {% endhint %}
 
 ### Prerequisiti
 
 * La transazione deve essere in stato "[Fattura da caricare](../riferimenti-tecnici/stati-delle-transazioni.md)".
+* (Dal 19 dicembre) la transazione deve essere in stato "[Presa in carico](../riferimenti-tecnici/stati-delle-transazioni.md)".
 
 ***
 
@@ -28,7 +31,9 @@ Nella sezione "Gestione acquisti", selezionare la transazione di riferimento cli
 
 Completato il caricamento, la transazione passerà in stato "[Stornata](../riferimenti-tecnici/stati-delle-transazioni.md)".
 
-Nel caso in cui un utente intende annullare un ordine per cui il Punto Vendita non ha emesso fattura, è necessario compilare i suddetti campi della procedura di storno in questo modo:
+### Casi particolari
+
+Nel caso in cui un utente intende annullare un ordine per cui il Punto Vendita non abbia emesso fattura, è necessario compilare i suddetti campi della procedura di storno in questo modo:
 
 * numero della nota di credito: numero dell'ordine;
 * nota di credito: file pdf ad-hoc in cui è riportata una dicitura che spieghi la mancanza della nota di credito in quanto non era stata ancora emessa fattura prima dell'annullamento dell'ordine.
