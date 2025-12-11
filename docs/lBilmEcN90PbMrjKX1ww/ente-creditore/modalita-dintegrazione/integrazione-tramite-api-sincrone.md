@@ -33,9 +33,7 @@ La motivazione a cui devono essere ricondotte tutte le casistiche di esclusione 
 
 Le API di creazione ed aggiornamento delle posizioni ACA sono strutturalmente analoghe al servizio di Gestione Posizioni Debitorie (GPD). Ciò che cambia è il base path del servizio stesso. In particolare:
 
-```http
-https://api.platform.pagopa.it/aca/debt-positions-service
-```
+`https://api.platform.pagopa.it/aca/debt-positions-service`                          &#x20;
 
 Tale differenza è importante per una categorizzazione corretta delle posizioni debitorie. Per i dettagli specifici si rimanda alla sezione API del DevPortal [https://developer.pagopa.it/pago-pa/api](https://developer.pagopa.it/pago-pa/api).
 
