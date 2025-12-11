@@ -19,6 +19,8 @@ Stringa di 4 byte con possibili valori
 `RBPS` : SCRIGNO Internet Banking
 
 `RICO` : Conto ICONTO
+
+`KLRN` : Klarna
 {% endtab %}
 
 {% tab title="Dimensioni" %}
