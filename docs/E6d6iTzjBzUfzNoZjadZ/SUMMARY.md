@@ -1,6 +1,6 @@
 # Table of contents
 
-* [⬅ Torna a pagoPA.gov.it](https://www.pagopa.gov.it/)
+* [⬅️ Torna a pagoPA.gov.it](https://www.pagopa.gov.it/)
 
 ## SPECIFICHE ATTUATIVE DEI CODICI IDENTIFICATIVI DI VERSAMENTO, RIVERSAMENTO E RENDICONTAZIONE
 
