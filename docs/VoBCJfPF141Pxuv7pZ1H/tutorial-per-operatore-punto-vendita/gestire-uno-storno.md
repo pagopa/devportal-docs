@@ -1,15 +1,8 @@
 # Gestire uno storno
 
-{% hint style="info" %}
-Al momento è possibile stornare una transazione soltanto se questa è nello stato "[Fattura da caricare](../riferimenti-tecnici/stati-delle-transazioni.md)".
-
-Dal 19 dicembre sarà possibile farlo anche per le transazioni in stato "Presa in carico".
-{% endhint %}
-
 ### Prerequisiti
 
-* La transazione deve essere in stato "[Fattura da caricare](../riferimenti-tecnici/stati-delle-transazioni.md)".
-* (Dal 19 dicembre) la transazione deve essere in stato "[Presa in carico](../riferimenti-tecnici/stati-delle-transazioni.md)".
+* La transazione deve essere in stato "[Fattura da caricare](../riferimenti-tecnici/stati-delle-transazioni.md)" o "[Presa in carico](../riferimenti-tecnici/stati-delle-transazioni.md)".
 
 ***
 
