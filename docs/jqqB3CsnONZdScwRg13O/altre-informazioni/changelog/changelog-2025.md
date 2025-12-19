@@ -60,6 +60,13 @@
 
 * [Sesto rilascio API v. 2](https://www.interop.pagopa.it/news/api-v2-sesto-rilascio): rimanere aggiornati sui cambi di stato che avvengono sui propri oggetti in piattaforma attraverso un meccanismo di polling (canale degli eventi — eventi machine-to-machine)
 
+#### 2.11.0 (18 dicembre)
+
+* Archiviazione documentale: rafforza la validità amministrativa dei documenti PDF generati dalla piattaforma, gli eventi di audit e quelli di piattaforma opponibili a terzi attraverso un meccanismo di firma e marcatura temporale di terze parti
+*   Template e-service (erogazione inversa): permette di creare template e-service per quegli e-service che ricevono dati invece di inviarli
+
+    <br>
+
 ***
 
 Pagina successiva [→ Changelog 2024](changelog-2024.md)
