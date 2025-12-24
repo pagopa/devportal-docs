@@ -23,7 +23,7 @@ La connettività segue le regole standard della piattaforma pagoPA, consultabili
 I campi contrassegnati con﹡sono obbligatori
 {% endhint %}
 
-## [API recupero URL](https://${host}/redirections)
+## API recupero URL
 
 API invocata dalla piattaforma pagoPA per recuperare la URL su cui effettuare la redirect e inviare in anticipo al PSP informazioni sul pagamento.
 
