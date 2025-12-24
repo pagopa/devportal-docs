@@ -1,11 +1,11 @@
 # Pagamento dovuto
 
 Lo scenario descritto in questo use case è quello di un cittadino che accede al sito di un ente creditore EC per scaricare un documento su cui ha necessità di apporre una Marca da Bollo Digitale MBD.\
-L’EC potrà indirizzare il cittadino sui sistemi PagoPA per il pagamento della MBD. Inoltre, a valle del processo di pagamento, avrà a disposizione due modalità di recupero della ricevuta della MBD con l’identificativo univoco da associare al documento più tutte le informazioni necessarie per poter eventualmente generare una ricevuta da inviare al cittadino.
+L’EC potrà indirizzare il cittadino sui sistemi PagoPA per il pagamento della MBD e, inoltre, a valle del processo di pagamento, avrà a disposizione due modalità di recupero della ricevuta della MBD con l’identificativo univoco da associare al documento più tutte le informazioni necessarie per poter eventualmente generare una ricevuta da inviare al cittadino.
 
 ## Come aderire al servizio
 
-L'adesione al servizio _**@e.bollo 2.0 Pagamento Dovuto**_ avviene mediante l'apertura di un ticket al team Service Management & Operations SMO dell'area pagoPA, nella richiesta deve essere specificato il codice fiscale dell'EC aderente, il segregation code da utilizzare per la creazione delle posizioni debitorie e il servizio a cui si vuole aderire (nel nostro caso _**@e.bollo 2.0 Pagamento Dovuto**_).
+L'adesione al servizio **@e.bollo 2.0 Pagamento Dovuto** avviene (in prima applicazione) mediante l'apertura di un [ticket](https://pagopa.atlassian.net/servicedesk/customer/portal/3) al team Service Management di pagoPA. Nella richiesta deve essere specificato il codice fiscale dell'EC aderente, il segregation code da utilizzare per la creazione delle posizioni debitorie e il servizio a cui si vuole aderire (nel caso specifico **@e.bollo 2.0 Pagamento Dovuto**).
 
 {% hint style="warning" %}
 Al fine di poter utilizzare le API descritte di seguito nel documento è necessario creare la relativa `subscription-key` mediante il portale Backoffice-pagoPA, per ulteriori dettagli è possibile fare riferimento al alla sezione [Generazione API Key](https://developer.pagopa.it/pago-pa/guides/manuale-bo-ec/manuale-operativo-back-office-pagopa-ente-creditore/funzionalita/generazione-api-key) del manuale.
@@ -55,7 +55,7 @@ Dettaglio dei campi di input:
 * `paymentNotices.amount` - importo MBD
 * `paymentNotices.province` - provincia di riferimento per l'imposta di bollo
 * `paymentNotices.documentHash` - hash del documento a cui associare/applicare la MBD
-* `idCIService` - codice identificativo del servizio _**@e.bollo 2.0 Pagamento Dovuto**_ da valorizzare con `00005`
+* `idCIService` - codice identificativo del servizio _**@e.bollo 2.0 Pagamento Dovuto**_  (_**scenario C1**_ da valorizzare con  `00005` )
 * `returnUrl.successUrl` - url scelta dall'EC su cui effettuare la redirect in caso di pagamento eseguito con successo
 * `returnUrl.cancelUrl` - url scelta dall'EC su cui effettuare la redirect nel caso in cui l'utente cancelli/annulli l'operazione
 * `returnUrl.errorUrl` - url scelta dall'EC su cui effettuare la redirect in caso di errore durante la fase di pagamento
