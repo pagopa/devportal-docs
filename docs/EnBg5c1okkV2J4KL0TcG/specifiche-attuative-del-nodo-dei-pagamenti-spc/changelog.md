@@ -164,8 +164,8 @@ Patch version rilasciata per risolvere alcuni elementi di ambiguità indicati di
 * Aggiunto tag _idSoggettoServizio_ in [#pademandpaymentnotice](../appendici/primitive/#pademandpaymentnotice "mention") request
 * Corretto tag identificativoDominio in [#nodochiedielencoflussirendicontazione](../appendici/primitive/#nodochiedielencoflussirendicontazione "mention")
 * Aggiunti campi _idCart_ e _allCCP_ in [#ec-checkout-api](../appendici/primitive/#ec-checkout-api "mention")
-* Definizione del servizio per la creazione di una opzione di pagamento ad-hoc in [#pagamento-spontaneo](../appendici/posizioni-debitorie/modello-dati.md#pagamento-spontaneo "mention")
-* Aggiornata FSM in [#posizione-debitoria](../appendici/posizioni-debitorie/stati-della-posizione-debitoria.md#posizione-debitoria "mention")
+* Definizione del servizio per la creazione di una opzione di pagamento ad-hoc in [Broken link](/broken/pages/THnwOHSHNsUvKj8AAOT7#pagamento-spontaneo "mention")
+* Aggiornata FSM in [Broken link](/broken/pages/tu6xBTp7HNzj8xlva4Zw#posizione-debitoria "mention")
 * Aggiornate le modalità di pubblicazione in [#creazione-di-una-posizione-debitoria](../appendici/posizioni-debitorie/operazioni-disponibili.md#creazione-di-una-posizione-debitoria "mention")
 * Aggiornata la gestione dei filtri in [#lettura-di-una-lista-di-posizioni-debitorie-e-di-una-singola-posizione-debitoria](../appendici/posizioni-debitorie/operazioni-disponibili.md#lettura-di-una-lista-di-posizioni-debitorie-e-di-una-singola-posizione-debitoria "mention")
 * Aggiunte operazioni per le [#ricevute-di-pagamento](../appendici/posizioni-debitorie/operazioni-disponibili.md#ricevute-di-pagamento "mention") delle Posizioni Debitorie
