@@ -16,7 +16,7 @@ L’Ente Creditore resta in ogni caso responsabile della correttezza dei dati de
 
 Con riferimento al trattamento dei dati personali, l’Ente Creditore è titolare del trattamento dei dati personali della posizione debitoria e, salvo diversa indicazione da formalizzarsi per iscritto, fa proprio l’ “Accordo sul trattamento dei dati personali da parte del responsabile del trattamento ai sensi dell’articolo 28 del Regolamento (UE) 2016/679”, nominando, pertanto, la PagoPA S.p.A. quale Responsabile del Trattamento. L'accordo è disponibile al seguente link:
 
-{% file src="../../../DG2lpjf4Y5u7ZRFE7CyZ/.gitbook/assets/DPA_PagoPA_posizioni-debitorie_v1.pdf" %}
+{% file src="../../.gitbook/assets/DPA_PagoPA_posizioni-debitorie_v1.pdf" %}
 
 Qualora l’Ente Creditore si avvalga di un Intermediario Tecnologico e/o Partner Tecnologico come responsabile del trattamento dei dati personali della posizione debitoria, sarà quest’ultimo a far proprio l’Accordo summenzionato, salvo diversa indicazione da formalizzarsi per iscritto. PagoPA S.p.A. agirà, quindi, come sub-responsabile dell’Ente Creditore, presupposta per tale specifica fattispecie una autorizzazione generale dal Titolare al Responsabile di avvalersi di altri responsabili.
 
@@ -29,9 +29,16 @@ Per maggiori dettagli sulle funzionalità offerte dal servizio, si rimanda all'a
 In considerazione del fatto che la[ paSendRT vers. 2](../../appendici/primitive/ente-creditore/api-soap.md#pasendrt-versione-2) viene inoltrata:
 
 * alla stazione dell'Ente Creditore primario, da cui è stato attivato il pagamento;
-* alle stazioni di tutti gli Enti Creditori configurate come broadcast;
+* alle stazioni di tutti gli Enti Creditori configurate come broadcast.
 
-l'Ente Creditore, anche se si integra con la piattaforma in modalità asincrona, potrebbe attivare una stazione di broadcast per la ricezione sincrona della receipt.
+L'Ente Creditore che si integra con la piattaforma in modalità asincrona, ha due opzioni per il recupero della ricevuta:
+
+1. Configurazione di una stazione di broadcast (opzione consigliata);
+2. Utilizzo delle specifiche [API](https://app.gitbook.com/o/KXYtsf32WSKm6ga638R3/s/lBilmEcN90PbMrjKX1ww/appendici/primitive/ente-creditore/api-rest/gestione-posizioni-debitorie-gpd#recupero-ricevute) messe a disposizione da GPD.
+
+L’opzione 2 è fortemente sconsigliata in quanto lato Ente Creditore è necessario implementare un meccanismo di polling che verifichi costantemente la presenza di nuove ricevute.
+
+Il servizio per il recupero della lista delle ricevute è paginato e prevede una profondità massima di 30 giorni, qualora in casi particolari sorgesse la necessità di recuperare una ricevuta più vecchia di tale intervallo è possibile utilizzare il servizio [getOrganizationReceipt](https://app.gitbook.com/o/KXYtsf32WSKm6ga638R3/s/lBilmEcN90PbMrjKX1ww/appendici/primitive/ente-creditore/api-rest/recupero-ricevute). &#x20;
 
 ### Interazione con SEND
 
