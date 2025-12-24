@@ -7,7 +7,7 @@ L'utente, dopo aver inserito/fornito i dati che saranno inviati all'ente _Minist
 * codice fiscale, nome e cognome dell'intestatario del passaporto
 * codice fiscale, nome e cognome del pagatore.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-11-04 alle 15.59.42.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2025-12-15 alle 09.01.11.png" alt=""><figcaption></figcaption></figure>
 
 * La [demandPaymentNotice](../../appendici/primitive/psp/api-soap.md#demandpaymentnotice) è utilizzabile dai PSP per inviare i dati del servizio specifico inseriti dall'utente, che nel caso attuale sono essenzialmente:&#x20;
   * dati dell'intestatario del passaporto
@@ -34,7 +34,7 @@ Di seguito un esempio di struttura che deve transitare tramite il tag _datiSpeci
 
 La specifica XSD è presente [qui](https://github.com/pagopa/pagopa-api/blob/SANP3.10.0/catalogo-servizi/A001_Passaporto_1_0_0.xsd).
 
-Inoltre, la ricevuta che il PSP invierà all'utente dovrà contenere, oltre quanto già previsto dalle specifiche, il barcode del codice avviso della posizione debitoria, in formato [GS1-128](https://gs1it.org/assistenza/standard-specifiche/simbologie-codici-a-barre/#gs1-128-per-il-pagamento-dei-bollettini) secondo le caratteristiche elencate di seguito&#x20;
+Inoltre, la ricevuta che il PSP invierà all'utente dovrà contenere, oltre quanto già previsto dalle specifiche [nella relativa sezione](https://app.gitbook.com/o/KXYtsf32WSKm6ga638R3/s/lBilmEcN90PbMrjKX1ww/prestatore-di-servizi-di-pagamento/attestazione-di-pagamento), il barcode del codice avviso della posizione debitoria, in formato [GS1-128](https://gs1it.org/assistenza/standard-specifiche/simbologie-codici-a-barre/#gs1-128-per-il-pagamento-dei-bollettini) secondo le caratteristiche elencate di seguito&#x20;
 
 | Caratteristica                     | Valore                                                          |
 | ---------------------------------- | --------------------------------------------------------------- |
