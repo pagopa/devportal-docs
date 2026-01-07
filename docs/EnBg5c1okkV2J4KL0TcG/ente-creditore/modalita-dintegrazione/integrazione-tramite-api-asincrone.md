@@ -31,14 +31,14 @@ In considerazione del fatto che la[ paSendRT vers. 2](../../appendici/primitive/
 * alla stazione dell'Ente Creditore primario, da cui è stato attivato il pagamento;
 * alle stazioni di tutti gli Enti Creditori configurate come broadcast.
 
-L'Ente Creditore che si integra con la piattaforma in modalità asincrona, ha due opzioni per il recupero della ricevuta:
+L'Ente Creditore che si integra con la piattaforma in modalità asincrona ha due opzioni per il recupero della ricevuta:
 
 1. Configurazione di una stazione di broadcast (opzione consigliata);
 2. Utilizzo delle specifiche [API](https://app.gitbook.com/o/KXYtsf32WSKm6ga638R3/s/lBilmEcN90PbMrjKX1ww/appendici/primitive/ente-creditore/api-rest/gestione-posizioni-debitorie-gpd#recupero-ricevute) messe a disposizione da GPD.
 
 L’opzione 2 è fortemente sconsigliata in quanto lato Ente Creditore è necessario implementare un meccanismo di polling che verifichi costantemente la presenza di nuove ricevute.
 
-Il servizio per il recupero della lista delle ricevute è paginato e prevede una profondità massima di 30 giorni, qualora in casi particolari sorgesse la necessità di recuperare una ricevuta più vecchia di tale intervallo è possibile utilizzare il servizio [getOrganizationReceipt](https://app.gitbook.com/o/KXYtsf32WSKm6ga638R3/s/lBilmEcN90PbMrjKX1ww/appendici/primitive/ente-creditore/api-rest/recupero-ricevute). &#x20;
+Il servizio per il recupero della lista delle ricevute è paginato e prevede una profondità massima di 30 giorni. Qualora, in casi particolari, sorgesse la necessità di recuperare una ricevuta più vecchia di tale intervallo è possibile utilizzare il servizio [getOrganizationReceipt](https://app.gitbook.com/o/KXYtsf32WSKm6ga638R3/s/lBilmEcN90PbMrjKX1ww/appendici/primitive/ente-creditore/api-rest/recupero-ricevute). &#x20;
 
 ### Interazione con SEND
 
