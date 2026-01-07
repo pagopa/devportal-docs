@@ -39,7 +39,7 @@ Gli esempi delle chiamate sono consultabili sul [developer portal.](https://deve
 #### **Lato Ente Creditore:**
 
 1. **Richiesta dell'elenco dei flussi disponibili:**\
-   L’EC può richiedere l’elenco dei flussi di rendicontazione ad essa associati. E’ possibile recuperare unicamente i flussi di rendicontazione degli ultimi 30 giorni. il servizio di lista è paginato ed è consentito richiedere al massimo 1000 elementi per pagina.
+   L’EC può richiedere l’elenco dei flussi di rendicontazione ad esso associati. E’ possibile recuperare unicamente i flussi di rendicontazione degli ultimi 30 giorni. Il servizio di lista è paginato ed è consentito richiedere al massimo 1000 elementi per pagina.
 2. **Download di un flusso specifico:**\
    Dopo aver ottenuto l’elenco, l’EC può richiedere il download di un singolo flusso di rendicontazione. Se il flusso richiesto è molto grande, deve essere scaricato in forma paginata, recuperando i pagamenti suddivisi per blocchi. E’ possibile recuperare unicamente i flussi di rendicontazione degli ultimi 30 giorni.
 
