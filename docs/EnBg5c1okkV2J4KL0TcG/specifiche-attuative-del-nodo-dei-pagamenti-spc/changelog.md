@@ -4,8 +4,6 @@
 
 * Rendicontazione e Cashflow: descritti nuovi flussi di rendicontazione REST\
   [Rendicontazione e Cashflow](funzionamento-generale/rendicontazione-e-cashflow.md)
-* Passaporto (Pagamento spontaneo presso PSP)\
-  [Passaporto](../casi-duso/pagamento-spontaneo-presso-psp/passaporto.md)
 * Servizio eBollo 2.0: modificati scenari applicativi\
   [Servizio @e.bollo 2.0](../ente-creditore/bollo-digitale/servizio-e.bollo-2.0/)
 * Gestione Posizione Debitorie: aggiornato modello dati posizioni debitorie per V1 e V3\
