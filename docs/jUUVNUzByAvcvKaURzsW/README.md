@@ -4,12 +4,10 @@ description: Piattaforma Fatturazione
 
 # Allegati Portale fatturazione
 
-Nome pdf: Manuale Utente Portale Fatturazione
+#### Manuale Utente Portale Fatturazione
 
-{% file src=".gitbook/assets/ManualeUtentePortaleFatturazione_Allegato_tecnico.docx.pdf" %}
+{% file src=".gitbook/assets/ManualeUtentePortaleFatturazione_Allegato_tecnico.pdf" %}
 
+#### Allegato Tecnico Portale Fatturazione
 
-
-nome pdf: Allegato Tecnico Portale Fatturazione
-
-{% file src=".gitbook/assets/Allegato Tecnico PF_contratti_PAC_PAL.docx.pdf" %}
+{% file src=".gitbook/assets/Allegato Tecnico PF_contratti_PAC_PAL.pdf" %}
