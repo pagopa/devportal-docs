@@ -55,7 +55,7 @@ Dettaglio dei campi di input:
 * `paymentNotices.amount` - importo MBD
 * `paymentNotices.province` - provincia di riferimento per l'imposta di bollo
 * `paymentNotices.documentHash` - hash del documento a cui associare/applicare la MBD
-* `idCIService` - codice identificativo del servizio _**@e.bollo 2.0 Pagamento Dovuto**_  (_**scenario C1**_ da valorizzare con  `00005` )
+* `idCIService` - codice identificativo del servizio _**@e.bollo 2.0 Pagamento Dovuto**_  (da valorizzare con  `00005` )
 * `returnUrl.successUrl` - url scelta dall'EC su cui effettuare la redirect in caso di pagamento eseguito con successo
 * `returnUrl.cancelUrl` - url scelta dall'EC su cui effettuare la redirect nel caso in cui l'utente cancelli/annulli l'operazione
 * `returnUrl.errorUrl` - url scelta dall'EC su cui effettuare la redirect in caso di errore durante la fase di pagamento
@@ -72,7 +72,7 @@ Il servizio risponde all'EC con un response body del seguente tipo:
 
 Dettaglio dei campi in output:
 
-* `checkoutRedirectUrl` - URL su cui effettuare la redirect per indirizzare il cittadino sul sito Checkout di pagoPA per il pagamento della MBD, l'utente dovrà confermare l'email e procedere con il pagamento:
+* `checkoutRedirectUrl` - URL su cui effettuare la redirect per indirizzare il cittadino sul sito Checkout di pagoPA per il pagamento della MBD. L'utente dovrà confermare l'email e procedere con il pagamento:
 
 <figure><img src="../../../.gitbook/assets/image (59).png" alt=""><figcaption></figcaption></figure>
 
@@ -90,7 +90,7 @@ E' disponibile un servizio che consente di recuperare il file `xml` relativo all
 
 > _**GET** https://api.platform.pagopa.it/pagopa-mbd-service/v1/organizations/{EC\_FISCAL\_CODE}/receipt/{NAV}_
 
-La URL completa da utilizzare è presente all'interno del campo `mbdDownloadLink` in risposta al servizio di innesco del pagamento descritto in precedenza, in alternativa per costruire la URL si può utilizzare il campo `nav` che contiene il numero avviso associato al pagamento.\
+La URL completa da utilizzare è presente all'interno del campo `mbdDownloadLink` in risposta al servizio di innesco del pagamento descritto in precedenza. In alternativa, per costruire la URL si può utilizzare il campo `nav` che contiene il numero avviso associato al pagamento.\
 Il servizio risponde con un response body `json` del seguente tipo:
 
 ```json
@@ -103,7 +103,7 @@ Il campo `content` contiene il file `xml` relativo alla ricevuta MBD codificato 
 
 #### Stazione di broadcast
 
-Un metodo alternativo per il recupero della receipt consiste nella configurazione di una stazione di broadcast, se presente il Nodo Dei Pagamenti NDP invocherà la primitiva `paSendRTV2` utilizzando l'endpoint configurato nella stazione, l'EC potrà recuperare la ricevuta della MBD dal campo [MBDAttachment](https://github.com/pagopa/pagopa-api/blob/05207a1759914675eb606316c2abcbe317f79f98/wsdl/xsd/paForNode.xsd#L389C24-L389C37) della receipt.
+Un metodo alternativo per il recupero della receipt consiste nella configurazione di una stazione di broadcast. Se presente, il Nodo Dei Pagamenti NDP invocherà la primitiva `paSendRTV2` utilizzando l'endpoint configurato nella stazione e l'EC potrà recuperare la ricevuta della MBD dal campo [MBDAttachment](https://github.com/pagopa/pagopa-api/blob/05207a1759914675eb606316c2abcbe317f79f98/wsdl/xsd/paForNode.xsd#L389C24-L389C37) della receipt.
 
 {% hint style="info" %}
 Per per le specifiche complete delle API fare riferimento alla sezione [@e.bollo 2.0](../../../appendici/primitive/ente-creditore/api-rest/#e.bollo-2.0)

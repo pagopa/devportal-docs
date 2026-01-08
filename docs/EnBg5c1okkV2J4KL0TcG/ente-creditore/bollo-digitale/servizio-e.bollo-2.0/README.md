@@ -15,5 +15,5 @@ L'evoluzione del servizio @e.bollo prevede l'implementazione del seguente scenar
 * **Scenario A - Pagamento dovuto** - Pagamento del bollo nell’ambito di servizi on line delle amministrazioni che generano “Documenti Informatici”.
 
 {% hint style="info" %}
-Il servizio **@e.bollo 2.0** non va in sostituzione del processo esistente [Servizio @e.bollo](../servizio-e.bollo.md), lo scenario attualmente implementato è da considerarsi come una semplificazione che può essere implementata discrezionalmente dall'EC.
+Il servizio **@e.bollo 2.0** non va in sostituzione del processo esistente [Servizio @e.bollo](../servizio-e.bollo.md), lo scenario la cui implementazione è descritta in questo documento è da considerarsi come una semplificazione che può essere implementata discrezionalmente dall'EC.
 {% endhint %}
