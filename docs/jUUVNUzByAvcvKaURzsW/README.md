@@ -1,7 +1,3 @@
----
-description: Piattaforma Fatturazione
----
-
 # Allegati Portale fatturazione
 
 #### Manuale Utente Portale Fatturazione
