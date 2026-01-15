@@ -81,6 +81,10 @@
 
 * Bug fixing: allow producers to download agreement document
 
+#### Tracing 1.0.0 (December 23)
+
+* [Service launch](https://developer.pagopa.it/pdnd-interoperabilita/guides/manuale-operativo-tracing): Tracing collects quantitative logs of exchanges between providers and consumers
+
 ***
 
 Next page [→ Changelog 2024](changelog-2024.md)
