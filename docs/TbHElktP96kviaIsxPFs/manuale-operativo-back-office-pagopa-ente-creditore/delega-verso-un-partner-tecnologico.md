@@ -5,6 +5,5 @@ Qualora l'ente creditore (di seguito EC) decidesse di accedere alla piattaforma 
 {% hint style="danger" %}
 Si ricorda inoltre che affinché il Partner Tecnologico possa poi associare l'EC alle sue stazioni, l'EC deve aver necessariamente ultimato la procedura di registrazione al nodo come descritto in [Registrazione al nodo dei pagamenti](funzionalita/registrazione-al-nodo-dei-pagamenti-pagopa.md). In caso contrario non sarà possibile procedere con l'associazione come nel caso di esempio di seguito.
 
-![](<../.gitbook/assets/Screenshot 2024-01-29 alle 14.51.20 (3).png>)
+<img src="../.gitbook/assets/Screenshot 2024-01-29 alle 14.51.20.png" alt="" data-size="original">
 {% endhint %}
-

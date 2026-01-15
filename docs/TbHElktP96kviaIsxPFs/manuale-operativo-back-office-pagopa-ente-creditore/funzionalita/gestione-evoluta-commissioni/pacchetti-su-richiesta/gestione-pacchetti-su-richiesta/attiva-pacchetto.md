@@ -8,7 +8,7 @@ Cliccando sul tasto `"Attiva"` si accede alla maschera di attivazione.
 
 Nella maschera di attivazione è possibile visualizzare i dettagli delle commissioni applicate dai PSP.
 
-Nella sezione `"Commissioni a tuo carico"` l'EC può decidere di farsi carico di una quota commissionale inserendo l'importo di cui vuole farsi carico per ogni servizio di incasso associato al pacchetto oppure per l'intero pacchetto indipendentemente dai servizi di incasso.&#x20;
+Nella sezione `"Commissioni a tuo carico"` l'EC può decidere di farsi carico di una quota commissionale inserendo l'importo di cui vuole farsi carico per ogni servizio di incasso associato al pacchetto oppure per l'intero pacchetto indipendentemente dai servizi di incasso.
 
 L'importo inserito dall'EC non può superare l'importo applicato dal PSP. In questo caso nella maschera viene visualizzato un messaggio di errore.
 
@@ -18,7 +18,7 @@ Per proseguire con l'attivazione del pacchetto, l'EC deve cliccare sul tasto `"A
 
 Il sistema a questo punto mostra un messaggio di richiesta attivazione pacchetto, dove viene comunicato che nel caso si voglia procedere con l'invio della richiesta, bisognerà attendere la conferma dell'avvenuta attivazione via email.
 
-<figure><img src="../../../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 Cliccando sul tasto `"Invia Richiesta"` viene inviata un'email di notifica verso il PSP.
 

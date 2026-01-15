@@ -13,14 +13,10 @@ Le informazioni da specificare sono le seguenti:
 * _**Logo**_ -> immagine png o jpeg che poi viene inserita nella stampa dell'avviso di pagamento
 *   _**Settore**_ -> campo opzionale che se valorizzato intende specificare l'unità organizzativa che gestisce il pagamento (specifica tecnica [https://docs.pagopa.it/avviso-pagamento/allegato-2/specifiche-tecniche/informazioni-sullente-creditore#ente-settore](https://docs.pagopa.it/avviso-pagamento/allegato-2/specifiche-tecniche/informazioni-sullente-creditore#ente-settore))
 
-
-
     <figure><img src="../../.gitbook/assets/Screenshot 2024-06-06 alle 12.52.36.png" alt=""><figcaption><p>Sezione del bollettino dove viene valorizzato il campo Settore</p></figcaption></figure>
-
-
 * _**Dove pagare**_ -> sezione dove poter specificare se l'ente accetta pagamenti presso un suo sito web, app oppure no
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-06-06 alle 14.09.40.png" alt=""><figcaption><p>Sezione del bollettino dove viene impostata la dicitura "sul sito, o dall'app" </p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2024-06-06 alle 14.09.40.png" alt=""><figcaption><p>Sezione del bollettino dove viene impostata la dicitura "sul sito, o dall'app"</p></figcaption></figure>
 
 * _**Bollettino Postale PA**_ -> sezione dove poter specificare se l'ente accetta pagamenti presso un conto postale e quindi sono necessari i seguenti campi:
   * "Intestato a" -> facoltativo
@@ -37,21 +33,18 @@ Si ricorda infatti che PagoPA non ha alcuna autorizzazione per la stampa del bol
 
 <figure><img src="../../.gitbook/assets/Screenshot 2024-06-06 alle 14.17.12.png" alt=""><figcaption><p>Sezione del bollettino dove viene valorizzato il campo Info</p></figcaption></figure>
 
-
-
 Le informazioni di cui sopra vanno specificate all'interno della sezione "Avvisi di pagamento"
 
-<figure><img src="../../.gitbook/assets/image (213).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10) (2).png" alt=""><figcaption></figcaption></figure>
 
 Attraverso il pulsante "Configura modello" è possibile accedere alla form in cui specificare tutti i dettagli:
 
-<figure><img src="../../.gitbook/assets/image (214).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (11) (2).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (218).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/avvisi_3.png" alt=""><figcaption></figcaption></figure>
 
 Una volta inseriti i vari dati è possibile procedere con il tasto "Conferma" e vedere una pagina riepilogativa dei dati inseriti.
 
-In qualsiasi momento è possibile procedere alla modifica delle informazioni in modo che queste vengano aggiornate sulle prossime stampe degli avvisi.&#x20;
+In qualsiasi momento è possibile procedere alla modifica delle informazioni in modo che queste vengano aggiornate sulle prossime stampe degli avvisi.
 
-<figure><img src="../../.gitbook/assets/image (219).png" alt=""><figcaption></figcaption></figure>
-
+<figure><img src="../../.gitbook/assets/avvisi_4.png" alt=""><figcaption></figcaption></figure>

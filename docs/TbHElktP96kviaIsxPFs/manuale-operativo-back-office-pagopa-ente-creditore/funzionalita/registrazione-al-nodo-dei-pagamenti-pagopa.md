@@ -18,14 +18,14 @@ Inoltre, una volta selezionata la modalità "diretta" non è possible da sistema
 
 La modalità "indiretta" prevede invece che l'EC sarà connesso al nodo per il tramite di un EC "diretto" oppure di un Partner Tecnologico. Affinchè il Partner Tecnologico possa poi associare l'EC ad una stazione è necessario che l'EC abbia concluso la procedura di registrazione al nodo indicata in questa sezione.
 
-![](../../.gitbook/assets/spaces_TbHElktP96kviaIsxPFs_uploads_hL0lb3IbEe9mUYvUYQ9m_image.webp)
+<img src="../../.gitbook/assets/spaces_TbHElktP96kviaIsxPFs_uploads_hL0lb3IbEe9mUYvUYQ9m_image.webp" alt="" data-size="original">
 {% endhint %}
 
 ## Registrazione al Nodo
 
 Per procedere alla Registrazione al nodo, all'interno del box "E ora?" l'utente può **cliccare** sul tasto "**Completa registrazione** -->".
 
-<figure><img src="../../.gitbook/assets/image (56).png" alt=""><figcaption><p><em>Panoramica - Completa registrazione</em></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (60).png" alt=""><figcaption><p><em>Panoramica - Completa registrazione</em></p></figcaption></figure>
 
 Una volta aver cliccato su "Completa registrazione -->", l'utente **accede** alla Pagina "**Registrazione sul Nodo**".
 
@@ -35,15 +35,13 @@ Indirizzo, Provincia, Domicilio Fiscale, Città e CAP, **all'interno** della **s
 
 Inoltre, l'utente oltre a dover procedere alla compilazione dei suddetti campi, è **tenuto** ad **esprimere** la scelta relativa alla **modalità** di **connessione** al **Nodo**. Tale scelta avviene **tramite** **selezione** **dell'opzione "Diretta"/"Indiretta"** all'interno della **sezione** **"Modalità di connessione al Nodo"**.
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p><em>Registrazione al Nodo - da completare</em></p></figcaption></figure>
-
-
+<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption><p><em>Registrazione al Nodo - da completare</em></p></figcaption></figure>
 
 #### Caso 1: Modalità di connessione al Nodo indiretta
 
 L'utente procede alla **compilazione dei dati obbligatori** e sceglie la **modalità indiretta** di connessione al Nod&#x6F;**.**
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption><p><em>Registrazione al Nodo - connessione indiretta</em></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1).png" alt=""><figcaption><p><em>Registrazione al Nodo - connessione indiretta</em></p></figcaption></figure>
 
 Una volta aver cliccato sul tasto "Conferma", l'utente avrà completato la Registrazione al Nodo dei Pagamenti PagoPA.
 
@@ -62,17 +60,17 @@ Questo verrà reindirizzato alla Panoramica in cui potrà visualizzare il riepil
 * Stato "**Abilitato**"
 * Intermediario di altri **"Non disponibile"**
 
-<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption><p><em>Panoramica - Registrazione al Nodo completata - Connessione indiretta</em></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1).png" alt=""><figcaption><p><em>Panoramica - Registrazione al Nodo completata - Connessione indiretta</em></p></figcaption></figure>
 
-#### Caso 2 :  Modalità di connessione al Nodo diretta
+#### Caso 2 : Modalità di connessione al Nodo diretta
 
 L'utente procede alla **compilazione dei dati obbligatori e** sceglie la **modalità diretta** di connessione al Nod&#x6F;**.**
 
-<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
 
-L'utente, una volta **cliccato** su **"Conferma"**, visualizzerà il **pop up** informativo **per confermare la scelta** di volersi connettere direttamente al Nodo.&#x20;
+L'utente, una volta **cliccato** su **"Conferma"**, visualizzerà il **pop up** informativo **per confermare la scelta** di volersi connettere direttamente al Nodo.
 
-&#x20;Un EC che sceglie di connettersi direttamente al Nodo, utilizzando quindi le proprie infrastrutture ed i propri collegamenti, avrà la possibilità di essere intermediario di altri EC indiretti e di associarli alle proprie stazioni attraverso la funzionalità [Associa EC](stazioni/associazione-di-un-ec-alla-stazione.md).
+Un EC che sceglie di connettersi direttamente al Nodo, utilizzando quindi le proprie infrastrutture ed i propri collegamenti, avrà la possibilità di essere intermediario di altri EC indiretti e di associarli alle proprie stazioni attraverso la funzionalità [Associa EC](stazioni/associazione-di-un-ec-alla-stazione.md).
 
 Una volta completati i campi obbligatori e aver cliccato sul tasto "Conferma", l'utente avrà completato la Registrazione al Nodo dei Pagamenti PagoPA.
 
@@ -93,7 +91,7 @@ Questo verrà reindirizzato alla Panoramica in cui potrà visualizzare il riepil
 * Stato "**Abilitato**"
 * Modalità di connessione **"Diretta"**
 
-<figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption><p><em>Panoramica - Registrazione al Nodo completata - Connessione diretta</em></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9) (1).png" alt=""><figcaption><p><em>Panoramica - Registrazione al Nodo completata - Connessione diretta</em></p></figcaption></figure>
 
 L'utente **solo** dopo aver **completato la Registrazione**, può procedere all'esecuzione degli step successivi a questa, come la Generazione delle API Key, che può avviare direttamente dalla Panoramica - box "E ora?" cliccando su tasto "**Genera API Key**", o accedendo alla **Sezione** **dedicata** ["**API Key"**](generazione-api-key.md)**.**
 
@@ -105,8 +103,6 @@ L'utente, una volta completata la registrazione al Nodo **potrà** intervenire a
 * **Città**
 * **Provincia**
 * **CAP**
-* **Modalità di Connessione al Nodo:** questa scelta è **modificabile senza vincoli** **solo** se si intende passare **da** connessione **Indiretta** a **Diretta.** Se invece si vuole passare **da Diretta a Indiretta** la possibilità è garantita soltanto se non esistono dei rapporti di associazione in corso sulle stazioni  configurate. In tal caso è necessario contattare l'assistenza PagoPa.
-
-
+* **Modalità di Connessione al Nodo:** questa scelta è **modificabile senza vincoli** **solo** se si intende passare **da** connessione **Indiretta** a **Diretta.** Se invece si vuole passare **da Diretta a Indiretta** la possibilità è garantita soltanto se non esistono dei rapporti di associazione in corso sulle stazioni configurate. In tal caso è necessario contattare l'assistenza PagoPa.
 
 ####

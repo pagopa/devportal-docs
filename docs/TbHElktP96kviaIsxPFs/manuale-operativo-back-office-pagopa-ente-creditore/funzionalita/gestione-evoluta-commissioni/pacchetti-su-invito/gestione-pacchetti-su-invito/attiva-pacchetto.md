@@ -2,7 +2,7 @@
 
 Accedendo al dettaglio di un pacchetto presente nella lista dei pachetti nello stato `"Da attivare"` (vedi sezione[ Visualizza dettaglio](visualizza-dettaglio.md)), è possibile procedere all'attivazione del pacchetto da parte di un EC.
 
-<figure><img src="../../../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 Cliccando sul tasto `"Attiva"` si accede alla maschera di attivazione.
 
@@ -22,6 +22,6 @@ Il sistema a questo punto mostra un messaggio di conferma invio richiesta attiva
 
 <figure><img src="../../../../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
-Cliccando sul tasto `"Conferma"` si conferma l'attivazione del pacchetto che viene visualizzato nella lista dei pacchetti disponibili nello stato `"Attivo"`.&#x20;
+Cliccando sul tasto `"Conferma"` si conferma l'attivazione del pacchetto che viene visualizzato nella lista dei pacchetti disponibili nello stato `"Attivo"`.
 
 <figure><img src="../../../../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>

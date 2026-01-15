@@ -12,6 +12,6 @@ Altrimenti si visualizza il seguente dettaglio che contiene anche i servizi di i
 
 Cliccando sulle due etichette `"+ Mostra di più"` è possibile espandere il dettaglio in merito ai dati relativi alla configurazione, e in relazione ai servizi di incasso se presenti.
 
-<figure><img src="../../../../.gitbook/assets/image (208).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (169).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/image (1) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (188) (1).png" alt=""><figcaption></figcaption></figure>
