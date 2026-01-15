@@ -5,7 +5,7 @@
 [Best practice](https://app.gitbook.com/s/PJuzswk8l2kp9Wm5PwAW/prestatore-di-servizi-di-pagamento/modalita-di-integrazione/best-practice "mention")\
 (questo è il componente **link** che punta a una _**pagina**_ e nelle parentesi quadre troviamo il **nomefile.md** di destinazione 🔴)
 
-[Payment Token](https://app.gitbook.com/s/PJuzswk8l2kp9Wm5PwAW/prestatore-di-servizi-di-pagamento/modalita-di-integrazione/best-practice#title-text "mention")\
+[Best practice #Payment Token](https://app.gitbook.com/s/PJuzswk8l2kp9Wm5PwAW/prestatore-di-servizi-di-pagamento/modalita-di-integrazione/best-practice#title-text "mention")\
 (questo è il componente **link** che punta a un _**anchor**_, e nelle parentesi quadre troviamo il titolo dell'heading di destinazione ✅)
 
 {% content-ref url="https://app.gitbook.com/s/PJuzswk8l2kp9Wm5PwAW/prestatore-di-servizi-di-pagamento/modalita-di-integrazione/best-practice" %}
@@ -26,6 +26,12 @@ Link inline alla pagina [delle Best Practices](https://app.gitbook.com/s/PJuzswk
 link inline all'anchor [dedicato ai Payment Token](https://app.gitbook.com/s/PJuzswk8l2kp9Wm5PwAW/prestatore-di-servizi-di-pagamento/modalita-di-integrazione/best-practice#title-text)\
 (questo è il componente **link** che punta a un'_**anchor**_, creato selezionando il testo, e nelle parentesi quadre troviamo il testo selezionato ✅)
 
-[link a titolo in H1](../../7IUU7kdDC1nwPxZmd2m3/broken-reference/)
+[link a titolo in H1](../broken-reference/)
 
-[link a titolo in H2](broken-reference)
+[link a titolo in H2](broken-reference/)
+
+
+
+[Roadmap](https://app.gitbook.com/s/tJodTCyBhcpVzLFwZZ31/specifiche-attuative-del-nodo-dei-pagamenti-spc/roadmap "mention")
+
+[page-1.md](headings/page-1.md "mention")
