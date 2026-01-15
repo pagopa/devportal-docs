@@ -65,6 +65,22 @@
 * Archiviazione documentale: rafforza la validità amministrativa dei documenti PDF generati dalla piattaforma, gli eventi di audit e quelli di piattaforma opponibili a terzi attraverso un meccanismo di firma e marcatura temporale di terze parti
 * Template e-service (erogazione inversa): permette di creare template e-service per quegli e-service che ricevono dati invece di inviarli
 
+#### 2.11.1 (19 dicembre)
+
+* Bug fixing: internal
+
+#### 2.11.2 (20 dicembre)
+
+* Bug fixing: fix sulla pubblicazione del documento di analisi del rischio per enti che hanno cambiato la loro tipologia
+
+#### 2.11.3 (23 dicembre)
+
+* Bug fixing: abilitazione del flag per il bug risolto in 2.11.2
+
+#### 2.11.4 (23 dicembre)
+
+* Bug fixing: permettere agli erogatori di scaricare il documento di richiesta di fruizione
+
 #### Tracing 1.0.0 (23 dicembre)
 
 * [Apertura del servizio](https://developer.pagopa.it/pdnd-interoperabilita/guides/manuale-operativo-tracing): Tracing raccoglie i tracciati quantitativi degli scambi tra erogatori e fruitori

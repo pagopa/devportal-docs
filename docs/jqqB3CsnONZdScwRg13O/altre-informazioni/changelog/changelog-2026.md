@@ -6,7 +6,7 @@
 
 #### 2.12.0 (15 gennaio)
 
-* [Apertura della PDND ai privati](https://www.interop.pagopa.it/news/apertura-privati): la piattaforma è aperta a tutte le imprese iscritte al Registro Imprese
+* Apertura della PDND ai privati: la piattaforma è aperta a tutte le imprese iscritte al Registro Imprese
 * Modifica default attivazione deleghe: quando si crea un nuovo e-service, l'impostazione per permettere ai fruitori di iscriversi all'e-service tramite delega è attivata di default
 
 ***
