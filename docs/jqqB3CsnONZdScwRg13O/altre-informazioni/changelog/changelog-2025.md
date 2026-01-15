@@ -63,9 +63,11 @@
 #### 2.11.0 (18 dicembre)
 
 * Archiviazione documentale: rafforza la validità amministrativa dei documenti PDF generati dalla piattaforma, gli eventi di audit e quelli di piattaforma opponibili a terzi attraverso un meccanismo di firma e marcatura temporale di terze parti
-*   Template e-service (erogazione inversa): permette di creare template e-service per quegli e-service che ricevono dati invece di inviarli
+* Template e-service (erogazione inversa): permette di creare template e-service per quegli e-service che ricevono dati invece di inviarli
 
-    <br>
+#### Tracing 1.0.0 (23 dicembre)
+
+* [Apertura del servizio](https://developer.pagopa.it/pdnd-interoperabilita/guides/manuale-operativo-tracing): Tracing raccoglie i tracciati quantitativi degli scambi tra erogatori e fruitori
 
 ***
 
