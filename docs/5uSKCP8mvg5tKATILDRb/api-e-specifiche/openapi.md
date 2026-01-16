@@ -6,7 +6,7 @@ Le specifiche sono disponibili all'indirizzo: [https://developer.pagopa.it/app-i
 
 ### **File**
 
-Il file openAPI 2.0 è disponibile all'indirizzo: [https://github.com/pagopa/io-functions-services/blob/master/openapi/index.yaml](https://github.com/pagopa/io-functions-services/blob/master/openapi/index.yaml)
+Il file openAPI 2.0 è disponibile all'indirizzo: [https://github.com/pagopa/io-functions-services/blob/master/apps/io-functions-services/openapi/index.yaml](https://github.com/pagopa/io-functions-services/blob/master/apps/io-functions-services/openapi/index.yaml)
 
 ### Note
 
