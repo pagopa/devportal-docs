@@ -12,4 +12,4 @@ Uno dei momenti chiave in cui intercettare l'utente, è al termine della lettura
 
 ### **Esempio**
 
-<div align="left"><figure><img src="../.gitbook/assets/image (46).png" alt="Interfaccia di una richiesta di pagamento digitale che mostra i dettagli dell&#x27;avviso e un meccanismo di feedback per l&#x27;utente. Il pop-up di feedback permette di segnalare problemi come la mancanza di informazioni, dati non corretti o l&#x27;impossibilità di riconoscere l&#x27;avviso di pagamento." width="563"><figcaption><p>Il pop-up di feedback permette di segnalare problemi come la mancanza di informazioni, dati non corretti o l'impossibilità di riconoscere l'avviso di pagamento.</p></figcaption></figure></div>
+<figure><img src="../.gitbook/assets/image (46).png" alt=""><figcaption></figcaption></figure>
