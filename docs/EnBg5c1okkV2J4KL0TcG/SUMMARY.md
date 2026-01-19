@@ -101,7 +101,7 @@
   * [Livelli di Servizio Enti Creditori](appendici/indicatori-di-qualita-per-i-soggetti-aderenti/livelli-di-servizio-enti-creditori.md)
   * [Livelli di Servizio PSP](appendici/indicatori-di-qualita-per-i-soggetti-aderenti/livelli-di-servizio-psp.md)
 * [Giornale degli eventi](appendici/giornale-degli-eventi.md)
-* [Generazione e stampa degli avvisi](https://docs.pagopa.it/avviso-pagamento)
+* [Generazione e stampa degli avvisi](https://developer.pagopa.it/pago-pa/guides/avviso-pagamento)
 * [Gestione evoluta commissioni](appendici/gestione-evoluta-commissioni.md)
 * [Primitive](appendici/primitive/README.md)
   * [PSP](appendici/primitive/psp/README.md)
