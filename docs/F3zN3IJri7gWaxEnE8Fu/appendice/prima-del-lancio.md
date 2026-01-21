@@ -134,7 +134,7 @@ Garantisci un'adesione volontaria, trasparente e sicura.
 * [ ] All'utente è data la possibilità di scegliere i canali di notifica preferiti (es. push, email)?
 * [ ] È garantita all'utente la possibilità di disattivare il servizio in qualsiasi momento, in una sezione chiara e raggiungibile?
 
-### Disattivazione e trasferimento del Servizi
+### Disattivazione e trasferimento dei Servizi
 
 {% hint style="success" %}
 Dai all'utente il pieno controllo sulla gestione del servizio.
