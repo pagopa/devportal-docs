@@ -33,7 +33,7 @@ La componente Checkout inoltre fornisce all’utilizzatore finale funzioni di su
 
 ## IO
 
-<img src="../../.gitbook/assets/image (1).png" alt="" data-size="line">permette di interagire facilmente con diverse Pubbliche Amministrazioni, locali o nazionali, raccogliendo tutti i loro servizi, comunicazioni, pagamenti e documenti in un'unica app, in modo sicuro e sempre a portata di mano.
+Permette di interagire facilmente con diverse Pubbliche Amministrazioni, locali o nazionali, raccogliendo tutti i loro servizi, comunicazioni, pagamenti e documenti in un'unica app, in modo sicuro e sempre a portata di mano.
 
 L'app permette di pagare direttamente da messaggio o avviso cartaceo, riducendo i tempi e i costi d’incasso per l’Ente.
 
