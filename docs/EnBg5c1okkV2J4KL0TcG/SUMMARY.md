@@ -125,7 +125,7 @@
       * [Gestione Posizioni Debitorie (GPD)](appendici/primitive/ente-creditore/api-rest/gestione-posizioni-debitorie-gpd.md)
 * [Funzionalità deprecate](appendici/funzionalita-deprecate.md)
 * [Posizioni Debitorie](appendici/posizioni-debitorie/README.md)
-  * [Modello dei dati V 1](appendici/posizioni-debitorie/modello-dei-dati-v-1.md)
+  * [Modello dei dati V1](appendici/posizioni-debitorie/modello-dei-dati-v1.md)
   * [Modello dei dati V 3](appendici/posizioni-debitorie/modello-dei-dati-v-3.md)
   * [Stati della posizione debitoria V1](appendici/posizioni-debitorie/stati-della-posizione-debitoria-v1.md)
   * [Stati della posizione debitoria V3](appendici/posizioni-debitorie/stati-della-posizione-debitoria-v3.md)
