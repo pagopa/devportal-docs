@@ -126,7 +126,7 @@
 * [Funzionalità deprecate](appendici/funzionalita-deprecate.md)
 * [Posizioni Debitorie](appendici/posizioni-debitorie/README.md)
   * [Modello dei dati V1](appendici/posizioni-debitorie/modello-dei-dati-v1.md)
-  * [Modello dei dati V 3](appendici/posizioni-debitorie/modello-dei-dati-v-3.md)
+  * [Modello dei dati V3](appendici/posizioni-debitorie/modello-dei-dati-v3.md)
   * [Stati della posizione debitoria V1](appendici/posizioni-debitorie/stati-della-posizione-debitoria-v1.md)
   * [Stati della posizione debitoria V3](appendici/posizioni-debitorie/stati-della-posizione-debitoria-v3.md)
   * [Pagamenti presso frontend dell'EC in modalità asincrona](appendici/posizioni-debitorie/pagamenti-presso-frontend-dellec-in-modalita-asincrona.md)

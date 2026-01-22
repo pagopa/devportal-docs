@@ -8,7 +8,7 @@
   [Servizio @e.bollo 2.0](../ente-creditore/bollo-digitale/servizio-e.bollo-2.0/)
 * Gestione Posizione Debitorie: aggiornato modello dati posizioni debitorie per V1 e V3\
   [Modello dei dati V1](../appendici/posizioni-debitorie/modello-dei-dati-v1.md)\
-  [Modello dei dati V3](../appendici/posizioni-debitorie/modello-dei-dati-v-3.md)
+  [Modello dei dati V3](../appendici/posizioni-debitorie/modello-dei-dati-v3.md)
 * Gestione Posizioni Debitorie: aggiornata FSM per V1 e V3\
   [Stati della posizione debitoria V1](../appendici/posizioni-debitorie/stati-della-posizione-debitoria-v1.md)\
   [Stati della posizione debitoria V3](../appendici/posizioni-debitorie/stati-della-posizione-debitoria-v3.md)
