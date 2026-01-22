@@ -37,7 +37,7 @@ A suspended version can be **reactivated**, restoring access for consumers.
 
 For planned suspensions (for example, maintenance), advance notice to consumers is recommended in accordance with the conditions set out in the Guidelines:
 
-> The producer MAY temporarily suspend the availability of the e-service, notifying the consumer in advance of such circumstance, in compliance with the conditions that may be specified in the SLAs agreed with the consumer outside the PDND interoperability infrastructure ([AgID Guidelines](https://trasparenza.agid.gov.it/moduli/downloadFile.php?file=oggetto_allegati/213481832130O__O20211210_LG+Infrastruttura+Interoperabilit%26%23224%3B+PDND_v1_allegato+2.pdf) – Annex 2, Chapter 4, p. 17)
+> The producer MAY temporarily suspend the availability of the e-service, notifying the consumer in advance of such circumstance, in compliance with the conditions that may be specified in the SLAs agreed with the consumer outside the PDND interoperability infrastructure ([AgID Guidelines](https://trasparenza.agid.gov.it/download/9591.html) – Annex 2, Chapter 4, p. 9)
 
 {% hint style="warning" %}
 **Suspension causes a service interruption** for consumers and connected end users.
