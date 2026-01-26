@@ -23,7 +23,7 @@
 * Template e-service
 * Richiesto amministratore per client API Interop in caso di operazioni di scrittura
 * Primo rilascio API v. 2: rilasciati gli endpoint già presenti nelle API v. 1
-* DPoP, Distributed Proof of Possession
+* DPoP, Demonstrating Proof-of-Possession
 
 #### 2.1.0 (1 luglio)
 
