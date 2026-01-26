@@ -44,6 +44,10 @@
   * [Come accedere al front office di PDND Interoperabilità](tutorial/tutorial-generali/ambienti-disponibili.md)
   * [Come creare e revocare gli utenti amministratori](tutorial/tutorial-generali/come-creare-e-revocare-gli-utenti-amministratori.md)
   * [Come creare e revocare gli utenti operatori](tutorial/tutorial-generali/utenze.md)
+  * [Come modificare la mail associata all’utenza](tutorial/tutorial-generali/come-modificare-la-mail-associata-allutenza.md)
+  * [Come configurare le notifiche per la tua utenza](tutorial/tutorial-generali/come-configurare-le-notifiche-per-la-tua-utenza.md)
+  * [Come configurare le notifiche per il tuo ente](tutorial/tutorial-generali/come-configurare-le-notifiche-per-il-tuo-ente.md)
+  * [Come abilitare la ricezione di promemoria e novità settimanali](tutorial/tutorial-generali/come-abilitare-la-ricezione-di-promemoria-e-novita-settimanali.md)
   * [Come rendersi disponibili a ricevere deleghe](tutorial/tutorial-generali/come-rendersi-disponibili-a-ricevere-deleghe.md)
   * [Come conferire una delega ad un altro ente](tutorial/tutorial-generali/come-conferire-una-delega-ad-un-altro-ente.md)
 
@@ -87,6 +91,7 @@
   * [Altre informazioni](riferimenti-tecnici/template-e-service/altre-informazioni.md)
 * [Signal Hub](riferimenti-tecnici/signal-hub.md)
 * [Tracing](riferimenti-tecnici/tracing.md)
+* [Notifiche](riferimenti-tecnici/notifiche.md)
 
 ## Riferimenti Normativi
 
