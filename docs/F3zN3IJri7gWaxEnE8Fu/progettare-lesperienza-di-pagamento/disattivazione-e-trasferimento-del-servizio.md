@@ -10,7 +10,7 @@ L'utente deve poter interrompere la ricezione delle richieste di pagamento in qu
 * Fornisci all'utente tutte le informazioni per effettuare la scelta, spiegando le implicazioni della disattivazione del servizio.
 * Fornisci una conferma esplicita di disattivazione sfruttando i touchpoint a disposizione. (es. feedback immediato e conferma via e-mail).
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Trasferimento del servizio
 
