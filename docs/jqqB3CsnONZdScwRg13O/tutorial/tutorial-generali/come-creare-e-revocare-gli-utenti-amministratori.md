@@ -16,9 +16,9 @@ Per aggiungere utenti con i permessi di amministratore, un altro amministratore 
 
 #### Step 2: Firma del legale rappresentante
 
-Per la nomina di un Amministratore è necessaria la firma del Legale Rappresentante. \
+Per la nomina di un Amministratore è necessaria la firma del Legale Rappresentante.\
 \
-I dati anagrafici del Legale Rappresentante verranno presentati all'utente alla fine del processo di nomina del nuovo Amministratore.&#x20;
+I dati anagrafici del Legale Rappresentante verranno presentati all'utente alla fine del processo di nomina del nuovo Amministratore.
 
 L'utente ha la possibilità di confermare i dati presentati oppure di modificarli, inserendo quindi un Legale Rappresentante differente. Se viene scelto un Legale Rappresentante diverso da quello in memoria si aprirà una schermata per confermare la scelta.
 
@@ -28,7 +28,7 @@ Cliccare su _**Invia richiesta**_ o confermare un Legale Rappresentante differen
 
 #### Step 4: Completa richiesta
 
-&#x20;Si riceve una PEC all'indirizzo e-mail dell'ente con le istruzioni per completare la richiesta: cliccando sul pulsante _**Completa la richiesta**_ presente nella PEC, l'utente ha la possibilità di scaricare il modulo di nomina e ricaricarlo, dopo avervi fatto apporre la firma digitale del Legale Rappresentante in formato p7m.&#x20;
+Si riceve una PEC all'indirizzo e-mail dell'ente con le istruzioni per completare la richiesta: cliccando sul pulsante _**Completa la richiesta**_ presente nella PEC, l'utente ha la possibilità di scaricare il modulo di nomina e ricaricarlo, dopo avervi fatto apporre la firma digitale del Legale Rappresentante in formato p7m.
 
 Se il caricamento va a buon fine, il nuovo Amministratore viene aggiunto correttamente.
 
@@ -40,7 +40,7 @@ Il personale tecnico, identificato dalle figure di "operatore API" e "operatore 
 
 È possibile anche revocare un amministratore, compilando il modulo scaricabile sotto e inoltrandolo via PEC a PagoPA.
 
-{% file src="../../.gitbook/assets/Revoca Operatore Amministativo_PDND (1).pdf" %}
+{% file src="../../.gitbook/assets/Revoca_Operatore_Amministrativo_PDND.pdf" %}
 
 ***
 
