@@ -36,7 +36,7 @@ sequenceDiagram
             ActAPI-->>SP: 201 Created (con header 'Location')
             note right of SP: Salva l'URL univoco dall'header 'Location'
         else Utente già attivo
-            ActAPI-->>SP: 409 Conflict (con header 'Location')
+            ActAPI-->>SP: 409 Conflict (con header 'Location' o 'Response Body')
             note right of SP: Utilizza l'URL per verificare l'attivazione esistente
         end
         deactivate ActAPI
@@ -92,5 +92,22 @@ Occorrerà includere l'`AccessToken` nell'header `Authorization` come Bearer Tok
 
 L'esito della chiamata informa se l'attivazione è andata a buon fine o se l'utente era già attivo.
 
-* **Caso di Successo (`201 Created`)** La risposta indica che l'utente è stato attivato con successo. **Importante**: è ncessario recuperare e salvare il valore dell'header `Location` della risposta. Contiene l'URL univoco dell'attivazione, che include l'`activationId` necessario per gestire la risorsa in futuro (es. per cancellarla).
-* **Caso di Utente Già Attivo (`409 Conflict`)** Questo errore indica che esiste già un'attivazione per il Codice Fiscale fornito. L'header `Location` conterrà l'URL dell'attivazione esistente. Sarà possibile utilizzare questo URL per recuperare i dettagli (`GET /activations/{activationId}`) e verificare se l'attivazione è già associata al Service Provider o se è necessario avviare un processo di subentro (takeover).
+* **Caso di Successo (`201 Created`)** La risposta indica che l'utente è stato attivato con successo. **Importante**: è necessario recuperare e salvare il valore dell'header `Location` della risposta. Contiene l'URL univoco dell'attivazione, che include l'`activationId` necessario per gestire la risorsa in futuro (es. per cancellarla).
+*   **Caso di Utente Già Attivo (`409 Conflict`)**&#x20;
+
+    Il comportamento varia a seconda della proprietà dell'utenza:
+
+    *   Utenza attiva presso il proprio BIC: L'API risponde con il codice errore specifico `01031006E`. Esempio di Response Body:
+
+        ```json
+        {
+          "errors": [
+            {
+              "code": "01031006E",
+              "description": "User is already active"
+            }
+          ]
+        }
+        ```
+    * Utenza attiva presso un altro BIC: In questo caso, l'attivazione diretta non è consentita. È necessario avviare la procedura di subentro seguendo le indicazioni fornite nella [documentazione dedicata](come-gestire-il-subentro-di-un-debitore-takeover.md).
+

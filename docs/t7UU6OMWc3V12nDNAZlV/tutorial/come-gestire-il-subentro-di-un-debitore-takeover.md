@@ -27,7 +27,7 @@ sequenceDiagram
     NSP->>AS: POST /activations (Tentativo Enrolment standard)
     
     alt Utente già attivo su altro SP
-        AS-->>NSP: 409 Conflict (Body: contiene OTP)
+        AS-->>NSP: 409 Conflict (Location: contiene urlOTP)
         Note right of NSP: Il SP riceve l'OTP per <br>forzare il passaggio
         
         NSP->>AS: POST /activations/takeover/{otp}
