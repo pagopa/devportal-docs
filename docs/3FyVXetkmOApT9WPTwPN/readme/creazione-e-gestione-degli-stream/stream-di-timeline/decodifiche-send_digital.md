@@ -4,7 +4,7 @@ description: Decodifica del campo deliveryDetailCode degli eventi di invio digit
 
 # Decodifiche SEND\_DIGITAL
 
-Gli eventi SEND\_DIGITAL\_PROGRESS e SEND\_DIGITAL\_FEEDBACK contengono il campo `deliveryDetailCode` all'interno dell'elemeto `details` che riporta il motivo specifico del successo, del fallimento o l'avanzamento della spedizione digitale.&#x20;
+Gli eventi SEND\_DIGITAL\_PROGRESS e SEND\_DIGITAL\_FEEDBACK contengono il campo `deliveryDetailCode` all'interno dell'elemeto `details` che riporta il motivo specifico del successo, del fallimento o l'avanzamento della spedizione digitale.
 
 ## Tabella decodifica deliveryDetailCode - Domicilio digitale PEC
 
@@ -31,7 +31,6 @@ L'evento SEND\_DIGITAL\_FEEDBACK riporta il codice `deliveryDetailCode=C003` cor
 			"type": "PEC",
 			"address": "notifichedigitali-dev@pec.pagopa.it"
 		},
-		"digitalAddressSource": "SPECIAL",
 		"responseStatus": "OK",
 		"notificationDate": "2024-02-29T11:42:39.4248206Z",
 		"deliveryDetailCode": "C003",
@@ -124,7 +123,6 @@ Nel caso di domicilio digitale SERCQ si avranno solo due eventi delle categorie:
       "type": "SERCQ",
       "address": "x-pagopa-pn-sercq:send-self:notification-already-delivered?timestamp=2025-08-02T11:43:42.178756013Z"
     },
-    "digitalAddressSource": "PLATFORM",
     "responseStatus": "OK",
     "notificationDate": "2025-08-02T11:43:42.178756013Z",
     "deliveryDetailCode": "Q003",
