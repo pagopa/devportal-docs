@@ -17,7 +17,7 @@ Le _subscription key_ e le relative abilitazioni sono segregate per ambiente _UA
 
 <table data-full-width="true"><thead><tr><th>TABELLA DELLE SEZIONI</th></tr></thead><tbody><tr><td><a href="gestione-posizioni-debitorie-gpd.md#pagetpayment">Inserimento/Modifica/Cancellazione/Lettura</a></td></tr><tr><td><a href="gestione-posizioni-debitorie-gpd.md#flussi-di-rendicontazione-deprecated">Flussi di rendicontazione - DEPRECATED </a></td></tr><tr><td><a href="gestione-posizioni-debitorie-gpd.md#inserimento-modifica-cancellazione-lettura-gestione-massiva-v1">Inserimento/Modifica/Cancellazione/Lettura - Gestione Massiva v1</a></td></tr><tr><td><a href="gestione-posizioni-debitorie-gpd.md#inserimento-modifica-cancellazione-lettura-gestione-massiva-v2">Inserimento/Modifica/Cancellazione/Lettura - Gestione Massiva v2</a></td></tr><tr><td><a href="gestione-posizioni-debitorie-gpd.md#recupero-ricevute">Recupero ricevute</a></td></tr><tr><td><a href="gestione-posizioni-debitorie-gpd.md#inserimento-modifica-cancellazione-lettura--opzioni-di-pagamento">Inserimento/Modifica/Cancellazione/Lettura + Opzioni di Pagamento</a></td></tr></tbody></table>
 
-### Inserimento/Modifica/Cancellazione/Lettura <a href="#pagetpayment" id="pagetpayment"></a>
+### Inserimento/Modifica/Cancellazione/Lettura <a href="#inserimento-modifica-cancellazione-lettura" id="inserimento-modifica-cancellazione-lettura"></a>
 
 * [Return the list of the organization debt positions. The due dates interval is mutually exclusive with the payment dates interval.](https://developer.pagopa.it/pago-pa/api/gestione-posizioni-debitorie#/pago-pa/api/operations/getOrganizationDebtPositions)
 * [The Organization creates a debt Position](https://developer.pagopa.it/pago-pa/api/gestione-posizioni-debitorie#/pago-pa/api/operations/createPosition)
@@ -40,7 +40,7 @@ E' importante porre particolare attenzione al campo `notificationFee` che contie
 L'EC pertanto in fase di aggiornamento dell'importo `amount` di uno dei `transfer` presenti all'interno di una `paymentOption`, non dovrà tenere conto del valore presente all'interno del campo `notificationFee`.
 {% endhint %}
 
-### Flussi di rendicontazione - DEPRECATED&#x20;
+### Flussi di rendicontazione - DEPRECATED  <a href="#flussi-di-rendicontazione-deprecated" id="flussi-di-rendicontazione-deprecated"></a>
 
 {% hint style="warning" %}
 Queste API saranno dismesse a partire dal 31/12/2026
@@ -49,7 +49,7 @@ Queste API saranno dismesse a partire dal 31/12/2026
 * [getFlowList](https://developer.pagopa.it/pago-pa/api/gpd-fdr#/pago-pa/api/operations/get-organizations-organizationid-reportings)
 * [getFlow](https://developer.pagopa.it/pago-pa/api/gpd-fdr#/pago-pa/api/operations/get-organizations-organizationid-reportings-flowid-date-date)
 
-### Inserimento/Modifica/Cancellazione/Lettura - Gestione Massiva v1
+### Inserimento/Modifica/Cancellazione/Lettura - Gestione Massiva v1 <a href="#inserimento-modifica-cancellazione-lettura-gestione-massiva-v1" id="inserimento-modifica-cancellazione-lettura-gestione-massiva-v1"></a>
 
 * [Returns the debt positions upload status](https://developer.pagopa.it/pago-pa/api/gestione-massiva-delle-posizioni-debitorie#/pago-pa/api/operations/get-debt-positions-upload-status)
 * [Returns the debt positions upload report](https://developer.pagopa.it/pago-pa/api/gestione-massiva-delle-posizioni-debitorie#/pago-pa/api/operations/get-debt-positions-upload-report)
@@ -58,7 +58,7 @@ Queste API saranno dismesse a partire dal 31/12/2026
 * [The Organization updates the debt positions listed in the file](https://developer.pagopa.it/pago-pa/api/gestione-massiva-delle-posizioni-debitorie#/pago-pa/api/operations/create-debt-positions-by-file-upload)
 * [The Organization deletes the debt positions based on IUPD listed in the file](https://developer.pagopa.it/pago-pa/api/gestione-massiva-delle-posizioni-debitorie#/pago-pa/api/operations/delete-debt-positions-by-file-upload)
 
-### Inserimento/Modifica/Cancellazione/Lettura - Gestione Massiva v2
+### Inserimento/Modifica/Cancellazione/Lettura - Gestione Massiva v2 <a href="#inserimento-modifica-cancellazione-lettura-gestione-massiva-v2" id="inserimento-modifica-cancellazione-lettura-gestione-massiva-v2"></a>
 
 * [Returns the debt positions upload report](https://developer.pagopa.it/pago-pa/api/gestione-massiva-delle-posizioni-debitorie?spec=v2#/pago-pa/api/operations/get-debt-positions-upload-report)
 * [Returns the debt positions upload status](https://developer.pagopa.it/pago-pa/api/gestione-massiva-delle-posizioni-debitorie?spec=v2#/pago-pa/api/operations/get-debt-positions-upload-status)
@@ -67,12 +67,12 @@ Queste API saranno dismesse a partire dal 31/12/2026
 * [The Organization updates the debt positions listed in the file](https://developer.pagopa.it/pago-pa/api/gestione-massiva-delle-posizioni-debitorie?spec=v2#/pago-pa/api/operations/create-debt-positions-by-file-upload)
 * [The Organization deletes the debt positions based on IUPD listed in the file](https://developer.pagopa.it/pago-pa/api/gestione-massiva-delle-posizioni-debitorie?spec=v2#/pago-pa/api/operations/delete-debt-positions-by-file-upload)
 
-### Recupero ricevute
+### Recupero ricevute <a href="#recupero-ricevute" id="recupero-ricevute"></a>
 
 * [Return the list of the organization receipts](https://developer.pagopa.it/pago-pa/api/gpd-recupero-receipt#/pago-pa/api/operations/getOrganizationReceipts)
 * [Return the details of a specific receipt](https://developer.pagopa.it/pago-pa/api/gpd-recupero-receipt#/pago-pa/api/operations/getReceiptByIUV)
 
-### Inserimento/Modifica/Cancellazione/Lettura + Opzioni di Pagamento
+### Inserimento/Modifica/Cancellazione/Lettura + Opzioni di Pagamento <a href="#inserimento-modifica-cancellazione-lettura-opzioni-di-pagamento" id="inserimento-modifica-cancellazione-lettura-opzioni-di-pagamento"></a>
 
 * [Return the details of a specific debt position](https://developer.pagopa.it/pago-pa/api/gestione-posizioni-debitorie?spec=GPD%20con%20gestione%20opzioni%20di%20pagamento#/pago-pa/api/operations/getOrganizationDebtPositionByIUPD)
 * [The Organization updates a debt position](https://developer.pagopa.it/pago-pa/api/gestione-posizioni-debitorie?spec=GPD%20con%20gestione%20opzioni%20di%20pagamento#/pago-pa/api/operations/updatePosition)
