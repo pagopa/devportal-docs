@@ -38,7 +38,7 @@ Completato il caricamento, la transazione passerà in stato "[Presa in carico](.
 
 ### (opzionale) Step 3 - Modifica la fattura
 
-È possibile sostituire una fattura errata con quella corretta, purché il [Venditore non l'abbia ancora inviata per richiedere il rimborso.](../tutorial-per-il-venditore/gestire-i-rimborsi.md)
+È possibile sostituire una fattura errata con quella corretta in qualsiasi momento purché lo stato del lotto non sia **Inviato**. In quest'ultima casistica la modifica del documento sarà possibile a partire dal giorno seguente.
 
 Per farlo, l'operatore deve cliccare sulla freccia blu dell'operazione e quindi su "Modifica documento".
 
