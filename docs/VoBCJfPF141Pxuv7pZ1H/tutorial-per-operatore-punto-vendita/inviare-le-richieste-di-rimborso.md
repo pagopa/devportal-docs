@@ -2,10 +2,6 @@
 
 Dopo aver accettato un buono sconto, l'Operatore del Punto Vendita deve terminare la procedura di acquisto caricando la fattura dell'ordine per dare la possibilità al Venditore di [inviare la richiesta di rimborso](../tutorial-per-il-venditore/gestire-i-rimborsi.md) all'ente deputato ai controlli Invitalia S.p.A.&#x20;
 
-{% hint style="warning" %}
-Prima di richiedere un rimborso, verifica che la fattura sia corretta e non debba essere stornata. I rimborsi saranno elaborati e accreditati [entro il 28 febbraio 2026.](../tutorial-per-il-venditore/gestire-i-rimborsi.md#tempi-di-approvazione)
-{% endhint %}
-
 ### Prerequisiti
 
 * La transazione deve essere in stato "[Fattura da caricare](../riferimenti-tecnici/stati-delle-transazioni.md)".
