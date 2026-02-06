@@ -9,6 +9,8 @@ metaLinks:
 
 **Il Comune di Ipazia deve procedere alla riscossione di tributi TARI non pagati.** L'ente non deve preoccuparsi di stampare e imbustare migliaia di lettere: prepara i dati digitalmente e li affida a SEND, che si occuperà di raggiungere ogni cittadino nel modo più appropriato.
 
+<figure><img src=".gitbook/assets/preparazione_invio_notifica.png" alt=""><figcaption></figcaption></figure>
+
 ### Cosa fa l'Ente
 
 * **Crea la posizione debitoria:** Genera la posizione debitoria sui sistemi pagoPA indicando chiaramente l'oggetto (es. Tassa Rifiuti) e le scadenze.
@@ -17,9 +19,9 @@ metaLinks:
 * **Carica su SEND:** Carica mediante API B2B la notifica su SEND per Lucia che contiene:
   * oggetto della notifica;
   * descrizione della notifica;
-  * l’avviso di pagamento;
+  * avviso di pagamento;
   * informazioni del destinatario;
-  * l’atto.
+  * atto.
 
 ### Migliora l'esperienza dall'inizio alla fine 💡
 
@@ -31,5 +33,5 @@ metaLinks:
 
 * **Efficienza operativa:** SEND automatizza l’invio delle notifiche, garantendo la consegna dal digitale al cartaceo, eliminando i carichi manuale dell’ente
 * **Certezza legale:** Il processo di deposito e invio è tracciato e a valore legale.
-* **Integrato con IO e pagoPA:** SEND massimizza la certezza di consegna della notifica e degli incassi grazie all'integrazione con IO e pagoPA.
+* **Integrazione con IO e pagoPA:** SEND massimizza la certezza di consegna della notifica e degli incassi grazie all'integrazione con IO e pagoPA.
 

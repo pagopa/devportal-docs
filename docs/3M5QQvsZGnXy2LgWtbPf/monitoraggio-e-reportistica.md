@@ -17,9 +17,9 @@ SEND fornisce strumenti avanzati per il controllo dell'intero ciclo di vita dell
 ### Migliora l'esperienza dall'inizio alla fine 💡
 
 * **Informazione proattiva:** Informare i cittadini (tramite sito web o sportelli) che l'ente utilizza SEND. Molti potrebbero non conoscere il mittente "SEND" o la notifica su IO e scambiarla per un errore.
-* **Campagne di comunicazione:** Come dimostrato dal caso di Reggio Emilia, una comunicazione preventiva ("Arrivano le notifiche digitali") aumenta drasticamente la percentuale di adesione digitale e riduce le lamentele.
+* **Campagne di comunicazione: U**na comunicazione preventiva ai cittadini aumenta drasticamente la percentuale di adesione digitale e riduce le lamentele.
 
 ### Benefici per l'ente e per il cittadino ✅
 
-* **Data Driven:** L'ente passa da una gestione passiva a una basata sui dati, potendo analizzare l'efficacia della riscossione in tempo reale.
+* **Gestione basata sui dati:** L'ente passa da una gestione passiva a una basata sui dati, potendo analizzare l'efficacia della riscossione in tempo reale.
 * **Riduzione del contenzioso:** La certezza della data di perfezionamento e la tracciabilità completa riducono i ricorsi legati ai difetti di notifica.

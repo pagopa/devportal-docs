@@ -15,18 +15,22 @@ Per garantire un'esperienza utente chiara ed efficace su app IO relativa alla ri
 * Abstract informativo: Usa il campo abstract per fornire contesto immediato (es. periodo di riferimento della tassa, breve spiegazione della natura dell'atto).
 
 {% hint style="success" %}
-Esplora i [**Modelli dei servizi di IO**](https://developer.pagopa.it/app-io/guides/modelli-servizi) per conoscere i servizi più importanti, significativi e frequenti in app IO
+Consulta il [**Manuale dei Servizi di IO**](https://developer.pagopa.it/app-io/guides/modelli-servizi) per consigli sulla stesura del contenuto.
 {% endhint %}
 
 ### 📬 Comunicazioni attese
 
-L'ente deve prepararsi a gestire tramite SEND:
+L'ente deve predisporsi a gestire:
 
-* La notifica dell'atto di riscossione.
-* L'avviso di pagamento pagoPA allegato.
-* Eventuali comunicazioni di avvenuta ricezione (AAR) per i canali analogici.
+* La creazione e firma dell'atto
+* La creazione e gestione dell'avviso di pagamento
+* Il reperimento dei dati dei cittadini a cui inviare le comunicazioni
 
 ### 🚀 Azioni e pulsanti
 
-* L'obiettivo primario è il pagamento: la notifica deve permettere all'utente di saldare l'importo direttamente in app.
+Le azioni previste sono:
+
+* Apertura della notifica.
+* Visualizzazione dell'atto.
+* Pagamento, se previsto.
 

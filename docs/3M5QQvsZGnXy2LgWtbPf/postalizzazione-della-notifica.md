@@ -19,10 +19,6 @@ L'ente ha spedito una notifica anche per Marco. Non trovando nessun domicilio di
 * **Delega:** Se Marco non potesse accedere, può delegare una persona di fiducia per accedere alla notifica al posto suo.
 * **Perfezionamento della notifica**: Marco apre la notifica ricevuta, di conseguenza la notifica si perfeziona.
 
-### Migliora l'esperienza dall'inizio alla fine 💡
-
-* **Supporto alla delega:** L'ente può informare i cittadini meno digitalizzati della possibilità di farsi aiutare da un parente tramite la funzione di delega.
-
 ### Benefici per l'ente e per il cittadino ✅
 
 * **Il futuro delle comunicazioni a valore legale che non lascia indietro nessuno:** Favorisce il progressivo passaggio al recapito su canali digitali, ma senza lasciare indietro nessuno grazie alla possibilità di delega e ai canali di ritiro analogici

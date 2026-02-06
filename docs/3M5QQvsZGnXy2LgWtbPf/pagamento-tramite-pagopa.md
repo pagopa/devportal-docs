@@ -12,16 +12,16 @@ Con pochi tap su app IO, Lucia paga l'importo dovuto in modo sicuro e riceve imm
 
 ### Cosa fa l'ente
 
-* **Permette a Lucia di pagare online:** Se l'ente vuole collegare uno o più avvisi alla notifica deve utilizzare il campo pagoPa all'interno dell'oggetto payments (dentro recipients) fornendo i seguenti dati:
+* **Permette a Lucia di pagare online:** Se l'ente vuole collegare uno o più avvisi alla notifica deve utilizzare il campo pagoPA all'interno dell'oggetto "Payments", fornendo i seguenti dati:
   * codice avviso pagoPA;
   * identificativo fiscale dell’ente creditore;
   * attribuzione dei costi di notifica;
-  * riferimento al PDF contenete l’avviso pagoPA.
+  * riferimento al PDF contenente l’avviso pagoPA.
 
 ### Cosa fa il cittadino&#x20;
 
 * **Paga l'avviso tramite IO:** Seleziona il metodo di pagamento preferito salvato su IO e conferma l'operazione.
-* **Scarica la ricevuta:** Dopo il pagamento, trova la ricevuta PDF nella sezione "Pagamenti" di IO, utile come prova dell'avvenuto saldo.
+* **Scarica la ricevuta:** Dopo il pagamento, può trovare e scaricare la ricevuta PDF nella sezione "Pagamenti" di IO, utile come prova dell'avvenuto saldo.
 
 ### Migliora l'esperienza dall'inizio alla fine 💡
 
