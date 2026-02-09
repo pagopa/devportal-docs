@@ -14,7 +14,7 @@ Se l'erogatore utilizza la funzionalità per firmare la risposta, la risposta co
 
 * header HTTP `Agid-JWT-Signature`: contiene un JWT con informazioni relative all'erogatore sulle quali basare le proprie verifiche;
 * header HTTP `Digest`: contiene un digest calcolato a partire dai dati contenuti nel payload;
-* header HTTP `Accept`: indica il `content-type` del payload;
+* header HTTP `Content-Type`: indica il `content-type` del payload;
 * payload: contiene i dati veri e propri.
 
 ### Step 1: Verifica della firma

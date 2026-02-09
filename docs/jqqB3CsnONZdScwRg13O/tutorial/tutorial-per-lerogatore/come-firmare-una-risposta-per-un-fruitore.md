@@ -20,7 +20,7 @@ Nel pattern `INTEGRITY REST 02`, la risposta al fruitore è costituita da:
 
 * header HTTP `Agid-JWT-Signature`: contiene un JWT con informazioni relative all'erogatore sulle quali basare le proprie verifiche;
 * header HTTP `Digest`: contiene un digest calcolato a partire dai dati contenuti nel payload;
-* header HTTP `Accept`: indica il `content-type` del payload;
+* header HTTP `Content-Type`: indica il `content-type` del payload;
 * payload: contiene i dati veri e propri.
 
 ### Step 1: creazione dell'hash
@@ -99,7 +99,6 @@ La risposta sarà quindi composta da:
 #### Header
 
 ```
-Accept: application/json
 Agid-JWT-Signature: eyJhbGciOiJSUzI1NiIsInR5c.vz8...
 Digest: SHA-256=cFfTOCesrWTLVzxn8fmHl4AcrUs40Lv5D275FmAZ96E=
 Content-Type: application/json
