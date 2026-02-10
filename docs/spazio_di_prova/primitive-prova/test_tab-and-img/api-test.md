@@ -4,7 +4,7 @@
 
 <mark style="color:green;">`POST`</mark> `/users`
 
-`<Description of the endpoint>`
+\<Description of the endpoint>
 
 **Headers**
 
