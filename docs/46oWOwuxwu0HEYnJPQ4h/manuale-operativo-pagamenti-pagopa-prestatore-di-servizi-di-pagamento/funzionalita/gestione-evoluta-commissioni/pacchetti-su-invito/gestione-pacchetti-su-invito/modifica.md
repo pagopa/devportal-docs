@@ -12,4 +12,4 @@ Dopo aver eseguito le modifiche è necessario cliccare il tasto `"Conferma"` a v
 
 <figure><img src="../../../../../.gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
 
-Alla pressione del tasto "`Conferma`" la modifica del pacchetto diventa da subito attiva.
+Alla pressione del tasto "`Conferma`" la modifica del pacchetto sarà attiva dal giorno successivo.
