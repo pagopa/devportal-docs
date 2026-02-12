@@ -6,7 +6,7 @@
 
 Tale portale consente la **gestione centralizzata** di tutti i **pagamenti** (tributi, imposte o rette) **dei cittadini** verso la **Pubblica Amministrazione**.
 
-Esso è dedicato, quindi, a tutti gli Enti che possono usufruire dei servizi offerti dal prodotto pagoPA, ovvero: **Enti creditori - EC** (quali Pubbliche Amministrazioni, Gestori di Pubblico Servizio e Società a Controllo Pubblico) , **Prestatori di Servizi di Pagamento – PSP e Partner Tecnologici o Intermediari** che operano per conto degli Enti Creditori o dei Prestatori di Servizi di Pagamento**.**&#x20;
+Esso è dedicato, quindi, a tutti gli Enti che possono usufruire dei servizi offerti dal prodotto pagoPA, ovvero: **Enti creditori - EC** (quali Pubbliche Amministrazioni, Gestori di Pubblico Servizio e Società a Controllo Pubblico) , **Prestatori di Servizi di Pagamento – PSP e Partner Tecnologici o Intermediari** che operano per conto degli Enti Creditori o dei Prestatori di Servizi di Pagament&#x6F;**.**&#x20;
 
 Nasce dall’esigenza di creare un **unico portale** tramite cui **attivare** e **gestire** il **prodotto pagoPA** e di concedere maggiore **autonomia al cliente** e alle figure referenti da lui indicate per modifiche o integrazioni relative al **proprio profilo di prodotto**.
 
