@@ -18,6 +18,4 @@ Per avere maggiori informazioni in merito agli stati assunti da ciascun lotto, f
 
 ### Tempi di approvazione
 
-Una volta che il Venditore invia le richieste di rimborso, queste verranno gestite e valutate da Invitalia S.p.A.&#x20;
-
-L'erogazione dei rimborsi è prevista entro il 28 febbraio 2026. Per maggiori informazioni, [contatta l'assistenza di Invitalia.](../contatti.md#hai-dubbi-sulliniziativa)
+Una volta che il Venditore invia le richieste di rimborso, queste verranno gestite e valutate da Invitalia S.p.A.
