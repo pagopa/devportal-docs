@@ -33,7 +33,7 @@ L'output ottenuto per ogni file dovrà essere memorizzato per i futuri utilizzi\
 
 Aprire la scheda **richiesta di pre-caricamento allegati** ed inserire nel body il seguente payload:\\
 
-<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **NOTA:** sostituire i seguenti:
 
