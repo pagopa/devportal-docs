@@ -11,6 +11,7 @@
 * [Come abilitare la ricezione di promemoria e novità settimanali](come-abilitare-la-ricezione-di-promemoria-e-novita-settimanali.md)
 * [Come rendersi disponibili a ricevere deleghe](come-rendersi-disponibili-a-ricevere-deleghe.md)
 * [Come conferire una delega ad un altro ente](come-conferire-una-delega-ad-un-altro-ente.md)
+* [Come verificare l'integrità di un documento](come-verificare-lintegrita-di-un-documento.md)
 
 ***
 

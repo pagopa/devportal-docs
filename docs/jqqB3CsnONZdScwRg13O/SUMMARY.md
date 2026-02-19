@@ -51,6 +51,7 @@
   * [Come abilitare la ricezione di promemoria e novità settimanali](tutorial/tutorial-generali/come-abilitare-la-ricezione-di-promemoria-e-novita-settimanali.md)
   * [Come rendersi disponibili a ricevere deleghe](tutorial/tutorial-generali/come-rendersi-disponibili-a-ricevere-deleghe.md)
   * [Come conferire una delega ad un altro ente](tutorial/tutorial-generali/come-conferire-una-delega-ad-un-altro-ente.md)
+  * [Come verificare l'integrità di un documento](tutorial/tutorial-generali/come-verificare-lintegrita-di-un-documento.md)
 
 ## Riferimenti tecnici
 
