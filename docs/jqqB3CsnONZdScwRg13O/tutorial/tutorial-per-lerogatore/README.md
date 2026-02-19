@@ -2,6 +2,7 @@
 
 ## Operazioni eseguibili manualmente
 
+* [Come integrare un'API](come-integrare-unapi.md)
 * [Come creare un nuovo e-service](come-creare-un-nuovo-e-service.md)
 * [Come aggiornare un e-service](come-aggiornare-un-e-service.md)
 * [Come aggiornare un e-service senza pubblicare una nuova versione](come-aggiornare-un-e-service-senza-pubblicare-una-nuova-versione.md)

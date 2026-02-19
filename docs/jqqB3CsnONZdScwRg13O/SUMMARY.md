@@ -11,6 +11,7 @@
 ## Tutorial
 
 * [Tutorial per l'erogatore](tutorial/tutorial-per-lerogatore/README.md)
+  * [Come integrare un'API](tutorial/tutorial-per-lerogatore/come-integrare-unapi.md)
   * [Come creare un nuovo e-service](tutorial/tutorial-per-lerogatore/come-creare-un-nuovo-e-service.md)
   * [Come aggiornare un e-service](tutorial/tutorial-per-lerogatore/come-aggiornare-un-e-service.md)
   * [Come aggiornare un e-service senza pubblicare una nuova versione](tutorial/tutorial-per-lerogatore/come-aggiornare-un-e-service-senza-pubblicare-una-nuova-versione.md)
