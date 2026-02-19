@@ -1,9 +1,6 @@
 ---
-description: '- ruolo: "TSPSP"'
-metaLinks:
-  alternates:
-    - >-
-      https://app.gitbook.com/s/t7UU6OMWc3V12nDNAZlV/tutorial/come-inviare-una-risposta-di-stato-via-callback
+description: '[ruolo: "TSPSP", "Service Provider"]'
+metaLinks: {}
 ---
 
 # Come inviare una Risposta di Stato via Callback
