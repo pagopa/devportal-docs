@@ -1,3 +1,103 @@
+---
+title: "Manuale PDND Interoperabilità"
+version: "1.0.0"
+product: "PagoPA - PDND Interoperabilità"
+user_roles:
+  - "erogatore"
+  - "fruitore"
+pages_roles_mapping:
+  # Tutorial per l'erogatore
+  - path: "tutorial/tutorial-per-lerogatore/README.md"
+    roles: ["erogatore"]
+  - path: "tutorial/tutorial-per-lerogatore/come-integrare-unapi.md"
+    roles: ["erogatore"]
+  - path: "tutorial/tutorial-per-lerogatore/come-creare-un-nuovo-e-service.md"
+    roles: ["erogatore"]
+  - path: "tutorial/tutorial-per-lerogatore/come-aggiornare-un-e-service.md"
+    roles: ["erogatore"]
+  - path: "tutorial/tutorial-per-lerogatore/come-aggiornare-un-e-service-senza-pubblicare-una-nuova-versione.md"
+    roles: ["erogatore"]
+  - path: "tutorial/tutorial-per-lerogatore/come-aggiornare-un-e-service-pubblicando-una-nuova-versione.md"
+    roles: ["erogatore"]
+  - path: "tutorial/tutorial-per-lerogatore/come-creare-un-nuovo-attributo-certificato.md"
+    roles: ["erogatore"]
+  - path: "tutorial/tutorial-per-lerogatore/come-associare-un-portachiavi-ad-un-e-service.md"
+    roles: ["erogatore"]
+  - path: "tutorial/tutorial-per-lerogatore/come-adeguare-la-dichiarazione-sui-dati-personali.md"
+    roles: ["erogatore"]
+  - path: "tutorial/tutorial-per-lerogatore/come-approvare-una-richiesta-di-fruizione-in-attesa-di-approvazione-tramite-api.md"
+    roles: ["erogatore"]
+  - path: "tutorial/tutorial-per-lerogatore/come-ottenere-le-richieste-di-fruizione-in-attesa-di-approvazione-tramite-api.md"
+    roles: ["erogatore"]
+  - path: "tutorial/tutorial-per-lerogatore/come-firmare-una-risposta-per-un-fruitore.md"
+    roles: ["erogatore"]
+  - path: "tutorial/tutorial-per-lerogatore/come-verificare-la-validita-di-un-voucher-bearer.md"
+    roles: ["erogatore"]
+  - path: "tutorial/tutorial-per-lerogatore/come-verificare-la-validita-di-un-voucher-dpop.md"
+    roles: ["erogatore"]
+  - path: "tutorial/tutorial-per-lerogatore/come-verificare-il-digest-di-un-voucher.md"
+    roles: ["erogatore"]
+
+  # Tutorial per il fruitore
+  - path: "tutorial/tutorial-per-il-fruitore/README.md"
+    roles: ["fruitore"]
+  - path: "tutorial/tutorial-per-il-fruitore/come-presentare-una-richiesta-di-fruizione.md"
+    roles: ["fruitore"]
+  - path: "tutorial/tutorial-per-il-fruitore/come-aggiornare-una-richiesta-di-fruizione.md"
+    roles: ["fruitore"]
+  - path: "tutorial/tutorial-per-il-fruitore/come-creare-una-finalita.md"
+    roles: ["fruitore"]
+  - path: "tutorial/tutorial-per-il-fruitore/come-creare-un-client.md"
+    roles: ["fruitore"]
+  - path: "tutorial/tutorial-per-il-fruitore/come-associare-un-client-ad-una-finalita.md"
+    roles: ["fruitore"]
+  - path: "tutorial/tutorial-per-il-fruitore/come-presentare-una-richiesta-di-fruizione-tramite-api.md"
+    roles: ["fruitore"]
+  - path: "tutorial/tutorial-per-il-fruitore/come-presentare-una-finalita-tramite-api.md"
+    roles: ["fruitore"]
+  - path: "tutorial/tutorial-per-il-fruitore/come-aggiornare-la-stima-di-carico-di-una-finalita-tramite-api.md"
+    roles: ["fruitore"]
+  - path: "tutorial/tutorial-per-il-fruitore/come-generare-il-corredo-crittografico-e-caricare-una-chiave-pubblica.md"
+    roles: ["fruitore"]
+  - path: "tutorial/tutorial-per-il-fruitore/come-richiedere-un-voucher-bearer-per-le-api-di-pdnd-interoperabilita.md"
+    roles: ["fruitore"]
+  - path: "tutorial/tutorial-per-il-fruitore/come-richiedere-un-voucher-bearer-per-le-api-di-un-erogatore-base.md"
+    roles: ["fruitore"]
+  - path: "tutorial/tutorial-per-il-fruitore/come-richiedere-un-voucher-bearer-per-le-api-di-un-erogatore-con-informazioni-aggiuntive.md"
+    roles: ["fruitore"]
+  - path: "tutorial/tutorial-per-il-fruitore/come-richiedere-un-voucher-dpop-per-le-api-di-un-erogatore-base.md"
+    roles: ["fruitore"]
+  - path: "tutorial/tutorial-per-il-fruitore/come-richiedere-un-voucher-dpop-per-le-api-di-un-erogatore-con-informazioni-aggiuntive.md"
+    roles: ["fruitore"]
+  - path: "tutorial/tutorial-per-il-fruitore/come-verificare-una-risposta-firmata-da-un-erogatore.md"
+    roles: ["fruitore"]
+
+  # Tutorial generali
+  - path: "tutorial/tutorial-generali/README.md"
+    roles: ["erogatore", "fruitore"]
+  - path: "tutorial/tutorial-generali/ambienti-disponibili.md"
+    roles: ["erogatore", "fruitore"]
+  - path: "tutorial/tutorial-generali/come-creare-e-revocare-gli-utenti-amministratori.md"
+    roles: ["erogatore", "fruitore"]
+  - path: "tutorial/tutorial-generali/utenze.md"
+    roles: ["erogatore", "fruitore"]
+  - path: "tutorial/tutorial-generali/come-modificare-la-mail-associata-allutenza.md"
+    roles: ["erogatore", "fruitore"]
+  - path: "tutorial/tutorial-generali/come-configurare-le-notifiche-per-la-tua-utenza.md"
+    roles: ["erogatore", "fruitore"]
+  - path: "tutorial/tutorial-generali/come-configurare-le-notifiche-per-il-tuo-ente.md"
+    roles: ["erogatore", "fruitore"]
+  - path: "tutorial/tutorial-generali/come-abilitare-la-ricezione-di-promemoria-e-novita-settimanali.md"
+    roles: ["erogatore", "fruitore"]
+  - path: "tutorial/tutorial-generali/come-rendersi-disponibili-a-ricevere-deleghe.md"
+    roles: ["erogatore", "fruitore"]
+  - path: "tutorial/tutorial-generali/come-conferire-una-delega-ad-un-altro-ente.md"
+    roles: ["erogatore", "fruitore"]
+  - path: "tutorial/tutorial-generali/come-verificare-lintegrita-di-un-documento.md"
+    roles: ["erogatore", "fruitore"]
+---
+
+
 # Table of contents
 
 ## PER INIZIARE
