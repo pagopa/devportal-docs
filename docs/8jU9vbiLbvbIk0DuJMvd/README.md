@@ -30,7 +30,7 @@ PDND abilita l'attuazione del **“once only”**: le amministrazioni **non rich
 
 ### Gestione del dato
 
-I dati di cui gli erogatori sono titolari **non transitano** e **non vengono conservati** in PDND; la piattaforma non archivia i contenuti scambiati tra gli enti. _(art. 50-ter, comma 3, CAD)_
+I dati di cui gli erogatori sono titolari **non transitano** e **non vengono conservati** in PDND; la piattaforma non archivia i contenuti scambiati tra gli enti _(art. 50-ter, comma 3, CAD)._
 
 ### Stato dell'arte
 
