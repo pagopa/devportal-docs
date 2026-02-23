@@ -1,6 +1,6 @@
 # Changelog
 
-### 3.11.0 (Gennaio 2026)
+### 3.11.0 (Febbraio 2026)
 
 * Rendicontazione e Cashflow: descritti nuovi flussi di rendicontazione REST\
   [Rendicontazione e Cashflow](funzionamento-generale/rendicontazione-e-cashflow.md)
@@ -12,6 +12,13 @@
 * Gestione Posizioni Debitorie: aggiornata FSM per V1 e V3\
   [Stati della posizione debitoria V1](../appendici/posizioni-debitorie/stati-della-posizione-debitoria-v1.md)\
   [Stati della posizione debitoria V3](../appendici/posizioni-debitorie/stati-della-posizione-debitoria-v3.md)
+* Aggiornamento sezione FAQ\
+  [FAQ Ente Creditore](../faq/ente-creditore.md)\
+  [FAQ PSP](../faq/psp.md)
+
+
+
+
 
 ### 3.10.0 (Novembre 2025)
 
