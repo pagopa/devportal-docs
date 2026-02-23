@@ -49,4 +49,5 @@
     * [Matrice Ruoli / Funzionalità](manuale-operativo-back-office-pagopa-ente-creditore/funzionalita/matrice-ruoli-funzionalita.md)
     * [Recupero ricevute pagamenti CUP](manuale-operativo-back-office-pagopa-ente-creditore/funzionalita/recupero-ricevute-pagamenti-cup.md)
     * [Avvisi di pagamento](manuale-operativo-back-office-pagopa-ente-creditore/funzionalita/avvisi-di-pagamento.md)
+    * [Gestione del Servizio Request to Pay (RTP)](readme/funzionalita/gestione-del-servizio-request-to-pay-rtp.md)
   * [Delega verso un Partner Tecnologico](manuale-operativo-back-office-pagopa-ente-creditore/delega-verso-un-partner-tecnologico.md)
