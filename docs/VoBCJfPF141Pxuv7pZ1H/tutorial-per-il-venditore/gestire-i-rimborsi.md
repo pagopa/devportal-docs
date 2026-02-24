@@ -14,6 +14,14 @@ Selezionando un lotto si abiliterà la relativa funzionalità di invio.
 
 Per avere maggiori informazioni in merito agli stati assunti da ciascun lotto, fare riferimento alla sezione [Stati dei lotti](../riferimenti-tecnici/stati-delle-transazioni-1.md).
 
+### Step 3 - Modifica della fattura
+
+È possibile sostituire una fattura errata con quella corretta in qualsiasi momento purché lo stato del lotto non sia **Approvato**.
+
+Per farlo, l'operatore dovrà entrare nel relativo lotto, selezionare la transazione desiderata cliccando sulla freccia in fondo alla riga e utilizzare la funzionalità di "Modifica documento".
+
+La transazione su cui viene modificata la fattura verrà spostata nel lotto successivo nello stato **Da Controllare**.
+
 ***
 
 ### Tempi di approvazione

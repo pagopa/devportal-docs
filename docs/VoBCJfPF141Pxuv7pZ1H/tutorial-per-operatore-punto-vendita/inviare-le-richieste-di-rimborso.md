@@ -34,9 +34,9 @@ Completato il caricamento, la transazione passerà in stato "[Presa in carico](.
 
 ### (opzionale) Step 3 - Modifica la fattura
 
-È possibile sostituire una fattura errata con quella corretta in qualsiasi momento purché lo stato del lotto non sia **Inviato**. In quest'ultima casistica la modifica del documento sarà possibile a partire dal giorno seguente.
+È possibile sostituire una fattura errata con quella corretta in qualsiasi momento purché lo stato del lotto non sia **Approvato**.
 
-Per farlo, l'operatore deve cliccare sulla freccia blu dell'operazione e quindi su "Modifica documento".
+Per farlo, l'operatore deve cliccare sulla freccia blu dell'operazione e quindi su "Modifica documento". Dopo aver modificato la fattura, la transazione verrà spostata al lotto successivo nello stato **Da Controllare**.
 
 <figure><img src="../.gitbook/assets/Modifica documento (2) (1).png" alt="Schermata in cui è possibile modificare una fattura già caricata"><figcaption></figcaption></figure>
 
