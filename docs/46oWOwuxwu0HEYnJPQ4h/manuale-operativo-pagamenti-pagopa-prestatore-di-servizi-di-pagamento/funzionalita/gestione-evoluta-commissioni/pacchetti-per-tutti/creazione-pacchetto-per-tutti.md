@@ -62,7 +62,7 @@ Compilate le informazioni di cui sopra è necessario proseguire schiacciando il 
 
 Schiacciando il pulsante `"Sfoglia catalogo"` è possibile accedere all'elenco delle tassonomie disponibili raggruppate per tipologia di Ente Creditore, di Area e di specifico servizio.
 
-<div align="center" data-full-width="false"><figure><img src="../../../../.gitbook/assets/image (178).png" alt="" width="188"><figcaption><p>Vista tassonomie per Ente Creditore</p></figcaption></figure></div>
+<figure><img src="../../../../.gitbook/assets/image (178).png" alt="" width="188"><figcaption><p>Vista tassonomie per Ente Creditore</p></figcaption></figure>
 
 <figure><img src="../../../../.gitbook/assets/image (179).png" alt="" width="188"><figcaption><p>Vista tassonomie per Area</p></figcaption></figure>
 
