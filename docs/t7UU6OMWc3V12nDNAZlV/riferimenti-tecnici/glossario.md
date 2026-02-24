@@ -51,5 +51,8 @@ Un soggetto tecnologico che aderisce allo schema SRTP per fornire servizi di inv
 * **Service Provider del Creditore**: Il soggetto tecnologico che invia le richieste SRTP per conto del Creditore.
 * **Service Provider del Debitore**: Il soggetto tecnologico (es. una banca) che riceve le richieste SRTP e le presenta al Debitore sui propri canali digitali.
 
+**Technical Solution Provider (TSP)**\
+Un soggetto  che agisce in qualità di aggregatore e facilitatore tecnico, permettendo ai Service Provider dei Debitori di aderire al servizio SRTP di PagoPA S.p.A.
+
 **SRTP (SEPA Request-To-Pay)**\
 È il nome ufficiale dello schema definito dall'EPC per la tramitazione delle richieste di pagamento in area SEPA.

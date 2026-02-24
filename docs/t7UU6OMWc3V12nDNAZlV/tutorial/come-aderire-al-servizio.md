@@ -13,7 +13,7 @@ Questo tutorial descrive il processo di **Onboarding**, ovvero i passaggi che un
 sequenceDiagram
     autonumber
 
-    participant SP as Service Provider
+    participant SP as Service Provider or TSP*
     participant PPA as PagoPA
     participant UAT as Ambiente di Certificazione
 
@@ -38,7 +38,7 @@ sequenceDiagram
         note over SP, PPA: Fase 3: Go-Live (step 5)
         Note left of PPA: PagoPA certifica il buon esito dei test
         SP->>PPA: Concorda la data per il passaggio in produzione
-        Note over SP, PPA: Il Service Provider è operativo sul servizio reale
+        Note over SP, PPA: Il Service Provider/ TSP è operativo sul servizio reale
     end
 ```
 
@@ -57,14 +57,14 @@ Scarica il documento relativo ai test da effetturare
 I dati richiesti includono:
 
 * **Identificativo del Service Provider**: Il Bank Identifier Code (BIC) o, in sua assenza, il codice fiscale dell'organizzazione.
-* **Eventuale TPSP:** Se l'Istituto si avvale di un Technical Service Provider (TPSP) per l'integrazione, dovrà fornire anche il suo identificativo.
+* **Eventuale TSP:** Se il Service Provider si avvale di un Technical Solution Provider (TSP) per l'integrazione, dovrà fornire anche il suo identificativo.
 * **Ruolo ricoperto**: In questo contesto, "Service Provider del Debitore".
 * **Identificativo del canale pagoPA**: Il canale che verrà utilizzato per i pagamenti degli avvisi notificati tramite SRTP.
 * **Contatti**: L'indirizzo email di un referente tecnico per il supporto all'integrazione e l'elenco degli utenti (beta-tester) che opereranno in ambiente di test.
 
 ## Step 2: Sottoscrivere il modulo di Adesione con PagoPA
 
-Il passo successivo consiste nel formalizzare l'adesione al servizio tramite la sottoscrizione del modulo di adesione fornito da PagoPA.
+Il passo successivo consiste nel formalizzare l'adesione al servizio tramite la sottoscrizione del modulo di adesione fornito da PagoPA, a seconda del ruolo ricoperto Service Provider o Techinichal Solution  Provider.
 
 ## Step 3: Ricevere le Credenziali di Accesso
 
@@ -77,3 +77,7 @@ Una volta ottenute le credenziali, occorrerà procedere con l'integrazione tecni
 ## Step 5: Pianificare il Passaggio in Produzione
 
 Dopo aver completato con successo la fase di test e ottenuto la certificazione, sarà possibile concordare con PagoPA la data per il passaggio in produzione e iniziare a operare nel servizio reale.
+
+{% hint style="info" %}
+Il Technical Solution Provider (TSP) gestisce in esclusiva ogni adempimento tecnico, configurazione e sessione di test per l’abilitazione al servizio, operando in vece e per conto del PSP che l'hano nominato. Il TSP garantisce la piena conformità dell’integrazione agli standard europei EPC  seguendo tutte le fasi di test come PSP che rappresenta.
+{% endhint %}
