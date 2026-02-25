@@ -6,7 +6,7 @@ Per la gestione degli errori fare riferimento a [Gestione degli errori](https://
 I campi contrassegnati con﹡sono obbligatori
 {% endhint %}
 
-Per i dettagli [https://github.com/pagopa/pagopa-api/tree/SANP3.10.0](https://github.com/pagopa/pagopa-api/tree/SANP3.10.0)
+Per i dettagli [https://github.com/pagopa/pagopa-api/tree/SANP3.11.0](https://github.com/pagopa/pagopa-api/tree/SANP3.11.0)
 
 ## paVerifyPaymentNotice
 
