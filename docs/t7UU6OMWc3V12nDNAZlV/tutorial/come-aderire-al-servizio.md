@@ -44,7 +44,7 @@ sequenceDiagram
 
 ## Prerequisito: Adesione allo schema EPC
 
-Prima di avviare il processo di onboarding con PagoPA, è necessario che l'istituto aderente abbia una soluzione conforme allo schema SEPA Request-to-Pay (SRTP) seguendo le regole definite nel Rulebook dell'European Payments Council (EPC). Questa attività non è gestita da PagoPA.
+Prima di avviare il processo di onboarding con PagoPA, è necessario che il PSP aderente abbia una soluzione conforme allo schema SEPA Request-to-Pay (SRTP) seguendo le regole definite nel Rulebook dell'European Payments Council (EPC). Questa attività non è gestita da PagoPA.
 
 ## Step 1: Fornire le Informazioni Tecniche
 
@@ -79,5 +79,5 @@ Una volta ottenute le credenziali, occorrerà procedere con l'integrazione tecni
 Dopo aver completato con successo la fase di test e ottenuto la certificazione, sarà possibile concordare con PagoPA la data per il passaggio in produzione e iniziare a operare nel servizio reale.
 
 {% hint style="info" %}
-Il Technical Solution Provider (TSP) gestisce in esclusiva ogni adempimento tecnico, configurazione e sessione di test per l’abilitazione al servizio, operando in vece e per conto del PSP che l'hano nominato. Il TSP garantisce la piena conformità dell’integrazione agli standard europei EPC  seguendo tutte le fasi di test come PSP che rappresenta.
+Il Technical Solution Provider (TSP) gestisce ogni adempimento tecnico, configurazione e sessione di test per l’abilitazione al servizio, operando in vece e per conto del PSP che l'ha nominato. Il TSP garantisce la piena conformità dell’integrazione agli standard europei EPC  seguendo tutte le fasi di test come PSP che rappresenta.
 {% endhint %}
