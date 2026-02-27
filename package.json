@@ -7,11 +7,18 @@
     "doc": "docs"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate_file": "npx ts-node updateCrowdin.ts"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/pagopa/devportal-docs.git"
+  },
+  "devDependencies": {
+    "@types/js-yaml": "^4.0.9",
+    "@types/node": "^25.2.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
   },
   "keywords": [],
   "author": "",
