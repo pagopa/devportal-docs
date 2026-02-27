@@ -14,17 +14,17 @@ Le immagini sono riportate qui di seguito solo a titolo dimostrativo. Per scaric
 
 
 
-<figure><img src="../../.gitbook/assets/Layout_lawres_smartphone .png" alt="" width="375"><figcaption><p>Layout soggetto Adesione/1</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/SEND_DONNA_70X100_MASTER.png" alt="" width="375"><figcaption><p>Layout soggetto Adesione/1</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/layout_lawres_desktop.png" alt="" width="375"><figcaption><p>Layout soggetto Adesione/2</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/SEND_UOMO_70x100_MASTER.png" alt="" width="375"><figcaption><p>Layout soggetto Adesione/2</p></figcaption></figure>
 
 * il layout grafico in formato verticale (adatto per locandina, affissione esterna, annuncio stampa) da utilizzare per comunicare ai cittadini l’**eventuale ricezione di una violazione del codice della strada**, quale use case più diffuso durante la prima fase di adozione della piattaforma da parte degli enti.
 
-<figure><img src="../../.gitbook/assets/layout_lawres_multe.png" alt="" width="375"><figcaption><p>Layout use case Violazione codice della strada</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/SEND_TELEFONO_70X100_MASTER.png" alt="" width="375"><figcaption><p>Layout use case Violazione codice della strada</p></figcaption></figure>
 
 * il layout grafico in formato verticale (adatto per locandina, affissione esterna, annuncio stampa) da utilizzare per comunicare ai cittadini l’**eventuale ricezione degli accertamenti per i mancati pagamenti del bollo auto**, quale use case specifico dedicato alle **Regioni**.
 
-<figure><img src="../../.gitbook/assets/Layout bollo auto.png" alt="" width="375"><figcaption><p>Layout use case Bollo auto </p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/SEND_BOLLOAUTO_70X100_MASTER.png" alt="" width="375"><figcaption><p>Layout use case Bollo auto </p></figcaption></figure>
 
 {% hint style="warning" %}
 Nelle prossime pagine troverai i template disponibili per ciascun soggetto, che potrai scaricare e utilizzare nelle diverse modalità descritte nelle sezioni successive, in base ai materiali che il tuo ente vorrà realizzare.

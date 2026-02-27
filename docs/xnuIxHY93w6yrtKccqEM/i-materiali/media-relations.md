@@ -6,7 +6,7 @@ Questo potrà avvenire tramite:
 
 * la distribuzione di un **comunicato stampa**, da pubblicare eventualmente anche nell’area dedicata alle news sul sito dell’ente. Se preferisci puoi personalizzare l'esempio di comunicato stampa che trovi di seguito:
 
-{% file src="../.gitbook/assets/2025_SEND_Comunicato_Stampa_TEMPLATE.pdf" %}
+{% file src="../.gitbook/assets/2026_SEND_Comunicato_Stampa_TEMPLATE.docx (1).pdf" %}
 
 * la realizzazione di **interviste di approfondimento** o il **rilascio di dichiarazioni** da parte del responsabile di questa iniziativa presso il tuo ente (es. l’Assessore all’Innovazione, il Responsabile alla Transizione Digitale, il Sindaco…)
 * l’organizzazione di una **conferenza stampa**, idealmente nell’ambito di un evento più ampio (es. per fare il punto su diversi progetti di digitalizzazione dei servizi pubblici messi in campo dal tuo ente)
