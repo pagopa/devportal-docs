@@ -8,7 +8,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "generate_file": "npx ts-node updateCrowdin.ts"
+    "generate_file": "npx ts-node src/updateCrowdin.ts"
   },
   "repository": {
     "type": "git",
@@ -26,5 +26,8 @@
   "bugs": {
     "url": "https://github.com/pagopa/devportal-docs/issues"
   },
-  "homepage": "https://github.com/pagopa/devportal-docs#readme"
+  "homepage": "https://github.com/pagopa/devportal-docs#readme",
+  "dependencies": {
+    "js-yaml": "^4.1.1"
+  }
 }
