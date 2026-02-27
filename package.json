@@ -1,0 +1,23 @@
+{
+  "name": "devportal-docs",
+  "version": "1.0.0",
+  "description": "This repository contains all some spaces synched from GitBook",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pagopa/devportal-docs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pagopa/devportal-docs/issues"
+  },
+  "homepage": "https://github.com/pagopa/devportal-docs#readme"
+}
