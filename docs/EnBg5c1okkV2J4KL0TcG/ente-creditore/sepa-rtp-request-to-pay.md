@@ -10,7 +10,7 @@ Tale veicolazione propria della RTP è ricompresa nei servizi della piattaforma 
 
 Resta fermo, invece, che un codice tassonomico diverso dai prefissi 6/, 7/, 8/, segnala alla piattaforma la piena veicolazione della Pd sui canali dei PSP o Service Provider tempo per tempo aderenti al servizio SRTP e nei confronti dei debitori tempo per tempo che abbiano censito i canali dei medesimi PSP o Service Provider per la ricezione delle proprie Pd.
 
-Resta salva la possibilità in capo all’Ente Creditore di disattivare (opt-out) il servizio SEPA-RTP; tale funzionalità verrà implementata prossimamente all’interno del Back-Office.
+Resta salva la possibilità in capo all’Ente Creditore di disattivare (opt-out) il servizio SEPA-RTP; tale funzionalità è disponibile all’interno del Back-Office.
 
 La tassonomia deve essere dall’EC correttamente indicata alla creazione della posizione debitoria.
 
