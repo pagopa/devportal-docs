@@ -66,6 +66,7 @@
   * [Portachiavi](riferimenti-tecnici/e-service/portachiavi.md)
   * [Strumenti e riferimenti](riferimenti-tecnici/e-service/strumenti-e-riferimenti.md)
 * [Attributi](riferimenti-tecnici/attributi/README.md)
+  * [Gli attributi più utilizzati](riferimenti-tecnici/attributi/gli-attributi-piu-utilizzati.md)
   * [Operazioni e ciclo di vita](riferimenti-tecnici/attributi/operazioni-e-ciclo-di-vita.md)
   * [Revoca attributi](riferimenti-tecnici/attributi/revoca-attributi.md)
   * [Enti certificatori](riferimenti-tecnici/attributi/enti-certificatori.md)
