@@ -17,7 +17,10 @@
   [FAQ PSP](../faq/psp.md)
 * Aggiornato SEPA RTP\
   [SEPA RTP - Request To Pay](../ente-creditore/sepa-rtp-request-to-pay.md)\
-  [Integrazione Servizio SRTP per EC](../appendici/integrazione-servizio-srtp/ec.md)
+  [Integrazione Servizio SRTP per EC](../appendici/integrazione-servizio-srtp/ec.md)\
+  [Tassonomia dei sistemi di incasso](../ente-creditore/tassonomia-dei-servizi-di-incasso.md)
+
+
 
 
 

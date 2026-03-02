@@ -22,11 +22,10 @@ Il codice tassonomico è così composto (esempio usato: 9/**0101002IM**/):
 \*Nella selezione del Prefisso gli Enti sono tenuti a consultare la sezione SEPA Request To Pay.
 {% endhint %}
 
-L’elenco completo ed aggiornato della tassonomia è disponibile in:
+L’elenco completo ed aggiornato della tassonomia è disponibile ai seguenti link:
 
-{% file src="../.gitbook/assets/tassonomia.csv" %}
-
-{% file src="../.gitbook/assets/tassonomia.json" %}
+* [Tassonomia.csv](https://api.platform.pagopa.it/taxonomy/service/v1/taxonomy?extension=csv)
+* [Tassonomia.json](https://api.platform.pagopa.it/taxonomy/service/v1/taxonomy)
 
 {% hint style="danger" %}
 Attenzione: Si avvisano gli EC che non sarà possibile aggiungere nuovi codici tassonomici fino a diverse indicazioni da parte di PagoPA S.p.A.
