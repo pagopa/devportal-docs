@@ -2,7 +2,7 @@
 
 Gli attributi sono utilizzati come requisiti di accesso agli e-service.&#x20;
 
-Per offrire maggiore granularità, gli enti presenti su IPA possiedono anche un attributo legato al nome del proprio ente. Ad esempio, Regione Lazio si troverà riconosciuto da IPA anche l'attributo _Regione Lazio_, che potrà essere usato come requisito per accedere ad un e-service.
+Per offrire maggiore granularità, gli enti presenti su IPA possiedono anche un attributo legato al nome del proprio ente. Ad esempio, Regione Lazio si troverà riconosciuto da IPA l'attributo _Regione Lazio_, che potrà essere usato come requisito per accedere ad un e-service.
 
 Questo porta ad avere, già in partenza, una base dati di oltre 24.000 attributi certificati. Orientarsi può essere difficile.&#x20;
 
@@ -14,37 +14,28 @@ La fonte autoritativa principale di molti attributi relativi alla pubblica ammin
 
 ### Attributi certificati più utilizzati
 
-1. [Amministrazioni Centrali e Costituzionali](gli-attributi-piu-utilizzati.md#id-1.-amministrazioni-centrali-e-costituzionali)
-2. [Enti Territoriali e Locali](gli-attributi-piu-utilizzati.md#id-2.-enti-territoriali-e-locali)
-3. [Giustizia, Sicurezza e Professioni](gli-attributi-piu-utilizzati.md#id-3.-giustizia-sicurezza-e-professioni)
+1. [Amministrazioni Centrali e Costituzionali](gli-attributi-piu-utilizzati.md#amministrazioni-centrali-e-costituzionali)
+2. [Enti Territoriali e Locali](gli-attributi-piu-utilizzati.md#enti-territoriali-e-locali)
+3. [Giustizia, Sicurezza e Professioni](gli-attributi-piu-utilizzati.md#giustizia-sicurezza-e-professioni)
 4. [Cultura, Turismo e Sport](gli-attributi-piu-utilizzati.md#cultura-turismo-e-sport)
-5. [Sanità e Salute](gli-attributi-piu-utilizzati.md#id-5.-sanita-e-salute)
-6. [Welfare, Lavoro e Sociale](gli-attributi-piu-utilizzati.md#id-6.-welfare-lavoro-e-sociale)
-7. [Istruzione, Università e Ricerca](gli-attributi-piu-utilizzati.md#id-7.-istruzione-universita-e-ricerca)
-8. [Ambiente, Territorio e Infrastrutture](gli-attributi-piu-utilizzati.md#id-8.-ambiente-territorio-e-infrastrutture)
-9. [Sviluppo Economico e Servizi Pubblici](gli-attributi-piu-utilizzati.md#id-9.-sviluppo-economico-e-servizi-pubblici)
+5. [Sanità e Salute](gli-attributi-piu-utilizzati.md#sanita-e-salute)
+6. [Welfare, Lavoro e Sociale](gli-attributi-piu-utilizzati.md#welfare-lavoro-e-sociale)
+7. [Istruzione, Università e Ricerca](gli-attributi-piu-utilizzati.md#istruzione-universita-e-ricerca)
+8. [Ambiente, Territorio e Infrastrutture](gli-attributi-piu-utilizzati.md#ambiente-territorio-e-infrastrutture)
+9. [Sviluppo Economico e Servizi Pubblici](gli-attributi-piu-utilizzati.md#sviluppo-economico-e-servizi-pubblici)
 10. [Pubbliche Amministrazioni](gli-attributi-piu-utilizzati.md#pubbliche-amministrazioni)
 
 #### Amministrazioni Centrali e Costituzionali
 
 Include i vertici dello Stato, i Ministeri e le autorità indipendenti.
 
-<table><thead><tr><th width="253.6875">Nome attributo su PDND</th><th width="240.831298828125">Fonte autoritativa</th><th>Esempi pratici di enti che possiedono l'attributo</th></tr></thead><tbody><tr><td>Presidenza del Consiglio, Ministeri e Avvocatura dello Stato</td><td>IPA — <code>Codice_Categoria</code> C1</td><td>Ministero dell'Interno, Ministero della Giustizia</td></tr><tr><td>Organi Costituzionali e di Rilievo Costituzionale</td><td>IPA — <code>Codice_Categoria</code> C2</td><td>Corte Costituzionale, CSM, CNEL</td></tr><tr><td>Agenzie Fiscali</td><td>IPA — <code>Codice_Categoria</code> C10</td><td>Agenzia delle Entrate, Agenzia Dogane e Monopoli</td></tr><tr><td>Autorita' Amministrative Indipendenti</td><td>IPA — <code>Codice_Categoria</code> C5</td><td>AGCM (Antitrust), Garante Privacy, ARERA, CONSOB</td></tr><tr><td>Commissari Straordinari Governativi</td><td>IPA — <code>Codice_Categoria</code> L47</td><td>Commissario ricostruzione, Commissario bonifiche</td></tr><tr><td>Enti Pubblici Non Economici</td><td>IPA — <code>Codice_Categoria</code> C3</td><td>Enti nazionali vari (es. ACI Centrale, CRI Centrale)</td></tr></tbody></table>
+<table><thead><tr><th width="211.69378662109375">Nome attributo su PDND</th><th width="211.87506103515625">Fonte autoritativa</th><th>Esempi pratici di enti che possiedono l'attributo</th></tr></thead><tbody><tr><td>Presidenza del Consiglio, Ministeri e Avvocatura dello Stato</td><td>IPA — <code>Codice_Categoria</code> C1</td><td>Ministero dell'Interno, Ministero della Giustizia</td></tr><tr><td>Organi Costituzionali e di Rilievo Costituzionale</td><td>IPA — <code>Codice_Categoria</code> C2</td><td>Corte Costituzionale, CSM, CNEL</td></tr><tr><td>Agenzie Fiscali</td><td>IPA — <code>Codice_Categoria</code> C10</td><td>Agenzia delle Entrate, Agenzia Dogane e Monopoli</td></tr><tr><td>Autorita' Amministrative Indipendenti</td><td>IPA — <code>Codice_Categoria</code> C5</td><td>AGCM (Antitrust), Garante Privacy, ARERA, CONSOB</td></tr><tr><td>Commissari Straordinari Governativi</td><td>IPA — <code>Codice_Categoria</code> L47</td><td>Commissario ricostruzione, Commissario bonifiche</td></tr><tr><td>Enti Pubblici Non Economici</td><td>IPA — <code>Codice_Categoria</code> C3</td><td>Enti nazionali vari (es. ACI Centrale, CRI Centrale)</td></tr></tbody></table>
 
 #### Enti Territoriali e Locali
 
 Copre l'amministrazione del territorio dal livello regionale a quello comunale.
 
-| Nome attributo su PDND                     | Fonte autoritativa           | Esempi pratici di enti che possiedono l'attributo        |
-| ------------------------------------------ | ---------------------------- | -------------------------------------------------------- |
-| Comuni e loro Consorzi e Associazioni      | IPA — `Codice_Categoria` L6  | Comune di Milano, Comune di Roccafiorita                 |
-| Citta' Metropolitane                       | IPA — `Codice_Categoria` L45 | Città Metropolitana di Roma, Città Metropolitana di Bari |
-| Regioni, Province Autonome e loro Consorzi | IPA — `Codice_Categoria` L4  | Regione Lombardia, Provincia Autonoma di Bolzano         |
-| Province e loro Consorzi e Associazioni    | IPA — `Codice_Categoria` L5  | Provincia di Bergamo, Provincia di Salerno               |
-| Unioni di Comuni e loro Consorzi           | IPA — `Codice_Categoria` L18 | Unione dei Comuni della Bassa Romagna                    |
-| Comunita' Montane e loro Consorzi          | IPA — `Codice_Categoria` L12 | Comunità Montana Valle Brembana                          |
-| Altri Enti Locali                          | IPA — `Codice_Categoria` L1  | Consorzi di servizi sociali o cimiteriali tra comuni     |
-| Consorzi tra Amministrazioni Locali        | IPA — `Codice_Categoria` L36 | Consorzi intercomunali generici                          |
+<table><thead><tr><th width="212">Nome attributo su PDND</th><th width="212">Fonte autoritativa</th><th>Esempi pratici di enti che possiedono l'attributo</th></tr></thead><tbody><tr><td>Comuni e loro Consorzi e Associazioni</td><td>IPA — <code>Codice_Categoria</code> L6</td><td>Comune di Milano, Comune di Roccafiorita</td></tr><tr><td>Citta' Metropolitane</td><td>IPA — <code>Codice_Categoria</code> L45</td><td>Città Metropolitana di Roma, Città Metropolitana di Bari</td></tr><tr><td>Regioni, Province Autonome e loro Consorzi</td><td>IPA — <code>Codice_Categoria</code> L4</td><td>Regione Lombardia, Provincia Autonoma di Bolzano</td></tr><tr><td>Province e loro Consorzi e Associazioni</td><td>IPA — <code>Codice_Categoria</code> L5</td><td>Provincia di Bergamo, Provincia di Salerno</td></tr><tr><td>Unioni di Comuni e loro Consorzi</td><td>IPA — <code>Codice_Categoria</code> L18</td><td>Unione dei Comuni della Bassa Romagna</td></tr><tr><td>Comunita' Montane e loro Consorzi</td><td>IPA — <code>Codice_Categoria</code> L12</td><td>Comunità Montana Valle Brembana</td></tr><tr><td>Altri Enti Locali</td><td>IPA — <code>Codice_Categoria</code> L1</td><td>Consorzi di servizi sociali o cimiteriali tra comuni</td></tr><tr><td>Consorzi tra Amministrazioni Locali</td><td>IPA — <code>Codice_Categoria</code> L36</td><td>Consorzi intercomunali generici</td></tr></tbody></table>
 
 #### Giustizia, Sicurezza e Professioni
 
