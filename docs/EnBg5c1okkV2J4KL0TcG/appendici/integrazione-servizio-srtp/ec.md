@@ -23,7 +23,7 @@ Resta salva la possibilità in capo all’Ente Creditore di disattivare (opt-out
 
 #### 3. Flusso pagamento RTP&#x20;
 
-Il flusso di pagamento tramite SRTP segue i seguenti passaggi:Il flusso di pagamento tramite SRTP segue questi passaggi:
+Il flusso di pagamento tramite SRTP segue i seguenti passaggi:
 
 1. l’Ente Creditore carica una [posizione debitoria valida](https://developer.pagopa.it/pago-pa/guides/sanp/appendici/posizioni-debitorie/stati-della-posizione-debitoria) per il pagamento tramite [l’integrazione asincrona](https://developer.pagopa.it/pago-pa/guides/sanp/3.9.1/ente-creditore/modalita-dintegrazione/integrazione-tramite-api-asincrone);
 2. PagoPA recupera i dati delle posizioni inserite dall’Ente Creditore e le reinterpreta secondo gli standard sopra menzionati e inoltra la richiesta SRTP al PSP del debitore;
