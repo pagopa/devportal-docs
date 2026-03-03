@@ -19,7 +19,7 @@ Conseguentemente ed esclusivamente sulla base di tutto quanto presente in GPD, i
 
 PagoPA S.p.A. agisce esclusivamente in qualità di Service Provider tecnico, senza responsabilità sul contenuto delle richieste SRTP, il quale resta in capo esclusivo all’Ente Creditore. PagoPA S.p.A. agisce esclusivamente come fornitore tecnico per l’instradamento automatico delle RTP secondo le regole definite.
 
-Resta salva la possibilità in capo all’Ente Creditore di disattivare (opt-out) il servizio SEPA-RTP; tale funzionalità verrà implementata prossimamente all’interno del Back-Office.
+Resta salva la possibilità in capo all’Ente Creditore di disattivare (opt-out) il servizio SEPA-RTP; tale funzionalità è disponibile all’interno del Back-Office.
 
 #### 3. Flusso pagamento RTP&#x20;
 
