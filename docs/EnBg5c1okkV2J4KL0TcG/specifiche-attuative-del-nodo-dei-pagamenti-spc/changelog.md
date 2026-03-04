@@ -1,6 +1,6 @@
 # Changelog
 
-### 3.11.0 (Febbraio 2026)
+### 3.11.0 (<code class="expression">space.vars.latest_version_month</code>)
 
 * Rendicontazione e Cashflow: descritti nuovi flussi di rendicontazione REST\
   [Rendicontazione e Cashflow](funzionamento-generale/rendicontazione-e-cashflow.md)
