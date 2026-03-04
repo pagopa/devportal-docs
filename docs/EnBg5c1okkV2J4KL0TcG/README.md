@@ -1,6 +1,6 @@
 # Premessa
 
-**Allegato B alle "Linee guida per l'effettuazione dei pagamenti elettronici a favore delle pubbliche amministrazioni e dei gestori di pubblici servizi" edite da PagoPA SpA - versione 3.11.0 - febbraio 2026**
+**Allegato B alle "Linee guida per l'effettuazione dei pagamenti elettronici a favore delle pubbliche amministrazioni e dei gestori di pubblici servizi" edite da PagoPA SpA -** <code class="expression">space.vars.latest_version_SANP</code>**-** <code class="expression">space.vars.latest_version_month</code>
 
 Il sistema dei pagamenti elettronici a favore della Pubblica Amministrazione, il sistema pagoPA, garantisce agli utilizzatori finali di effettuare pagamenti elettronici alla Pubblica Amministrazione, alle Società a controllo pubblico e ai Gestori dei Pubblici servizi in modo sicuro, affidabile, semplice e in totale trasparenza nei costi di commissione.
 
