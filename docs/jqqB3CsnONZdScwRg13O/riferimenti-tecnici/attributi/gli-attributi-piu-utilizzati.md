@@ -29,13 +29,31 @@ La fonte autoritativa principale di molti attributi relativi alla pubblica ammin
 
 Include i vertici dello Stato, i Ministeri e le autorità indipendenti.
 
-<table><thead><tr><th width="211.69378662109375">Nome attributo su PDND</th><th width="211.87506103515625">Fonte autoritativa</th><th>Esempi pratici di enti che possiedono l'attributo</th></tr></thead><tbody><tr><td>Presidenza del Consiglio, Ministeri e Avvocatura dello Stato</td><td>IPA — <code>Codice_Categoria</code> C1</td><td>Ministero dell'Interno, Ministero della Giustizia</td></tr><tr><td>Organi Costituzionali e di Rilievo Costituzionale</td><td>IPA — <code>Codice_Categoria</code> C2</td><td>Corte Costituzionale, CSM, CNEL</td></tr><tr><td>Agenzie Fiscali</td><td>IPA — <code>Codice_Categoria</code> C10</td><td>Agenzia delle Entrate, Agenzia Dogane e Monopoli</td></tr><tr><td>Autorita' Amministrative Indipendenti</td><td>IPA — <code>Codice_Categoria</code> C5</td><td>AGCM (Antitrust), Garante Privacy, ARERA, CONSOB</td></tr><tr><td>Commissari Straordinari Governativi</td><td>IPA — <code>Codice_Categoria</code> L47</td><td>Commissario ricostruzione, Commissario bonifiche</td></tr><tr><td>Enti Pubblici Non Economici</td><td>IPA — <code>Codice_Categoria</code> C3</td><td>Enti nazionali vari (es. ACI Centrale, CRI Centrale)</td></tr></tbody></table>
+| Nome attributo su PDND                                              | Fonte autoritativa                 | Esempi pratici di enti che possiedono l'attributo |
+|---------------------------------------------------------------------|------------------------------------|---------------------------------------------------|
+| Presidenza del Consiglio, Ministeri e Avvocatura dello Stato       | IPA — `Codice_Categoria` C1        | Ministero dell'Interno, Ministero della Giustizia |
+| Organi Costituzionali e di Rilievo Costituzionale                  | IPA — `Codice_Categoria` C2        | Corte Costituzionale, CSM, CNEL                   |
+| Agenzie Fiscali                                                     | IPA — `Codice_Categoria` C10       | Agenzia delle Entrate, Agenzia Dogane e Monopoli  |
+| Autorita' Amministrative Indipendenti                              | IPA — `Codice_Categoria` C5        | AGCM (Antitrust), Garante Privacy, ARERA, CONSOB  |
+| Commissari Straordinari Governativi                                | IPA — `Codice_Categoria` L47       | Commissario ricostruzione, Commissario bonifiche  |
+| Enti Pubblici Non Economici                                        | IPA — `Codice_Categoria` C3        | Enti nazionali vari (es. ACI Centrale, CRI Centrale) |
+
 
 #### Enti Territoriali e Locali
 
 Copre l'amministrazione del territorio dal livello regionale a quello comunale.
 
-<table><thead><tr><th width="212">Nome attributo su PDND</th><th width="212">Fonte autoritativa</th><th>Esempi pratici di enti che possiedono l'attributo</th></tr></thead><tbody><tr><td>Comuni e loro Consorzi e Associazioni</td><td>IPA — <code>Codice_Categoria</code> L6</td><td>Comune di Milano, Comune di Roccafiorita</td></tr><tr><td>Citta' Metropolitane</td><td>IPA — <code>Codice_Categoria</code> L45</td><td>Città Metropolitana di Roma, Città Metropolitana di Bari</td></tr><tr><td>Regioni, Province Autonome e loro Consorzi</td><td>IPA — <code>Codice_Categoria</code> L4</td><td>Regione Lombardia, Provincia Autonoma di Bolzano</td></tr><tr><td>Province e loro Consorzi e Associazioni</td><td>IPA — <code>Codice_Categoria</code> L5</td><td>Provincia di Bergamo, Provincia di Salerno</td></tr><tr><td>Unioni di Comuni e loro Consorzi</td><td>IPA — <code>Codice_Categoria</code> L18</td><td>Unione dei Comuni della Bassa Romagna</td></tr><tr><td>Comunita' Montane e loro Consorzi</td><td>IPA — <code>Codice_Categoria</code> L12</td><td>Comunità Montana Valle Brembana</td></tr><tr><td>Altri Enti Locali</td><td>IPA — <code>Codice_Categoria</code> L1</td><td>Consorzi di servizi sociali o cimiteriali tra comuni</td></tr><tr><td>Consorzi tra Amministrazioni Locali</td><td>IPA — <code>Codice_Categoria</code> L36</td><td>Consorzi intercomunali generici</td></tr></tbody></table>
+| Nome attributo su PDND                                   | Fonte autoritativa                     | Esempi pratici di enti che possiedono l'attributo |
+|-----------------------------------------------------------|-----------------------------------------|---------------------------------------------------|
+| Comuni e loro Consorzi e Associazioni                     | IPA — `Codice_Categoria` L6             | Comune di Milano, Comune di Roccafiorita          |
+| Citta' Metropolitane                                      | IPA — `Codice_Categoria` L45            | Città Metropolitana di Roma, Città Metropolitana di Bari |
+| Regioni, Province Autonome e loro Consorzi                | IPA — `Codice_Categoria` L4             | Regione Lombardia, Provincia Autonoma di Bolzano  |
+| Province e loro Consorzi e Associazioni                   | IPA — `Codice_Categoria` L5             | Provincia di Bergamo, Provincia di Salerno        |
+| Unioni di Comuni e loro Consorzi                          | IPA — `Codice_Categoria` L18            | Unione dei Comuni della Bassa Romagna             |
+| Comunita' Montane e loro Consorzi                         | IPA — `Codice_Categoria` L12            | Comunità Montana Valle Brembana                   |
+| Altri Enti Locali                                         | IPA — `Codice_Categoria` L1             | Consorzi di servizi sociali o cimiteriali tra comuni |
+| Consorzi tra Amministrazioni Locali                       | IPA — `Codice_Categoria` L36            | Consorzi intercomunali generici                   |
+
 
 #### Giustizia, Sicurezza e Professioni
 
