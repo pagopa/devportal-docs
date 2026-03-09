@@ -4,7 +4,7 @@ import * as yaml from 'js-yaml';
 import * as os from 'os'; // Aggiungi questo import per gestire i fine riga
 
 // --- COSTANTI DI CONFIGURAZIONE ---
-const DOCS_DIR = 'docs';
+const DOCS_DIR = 'docs/8jU9vbiLbvbIk0DuJMvd';
 const CONFIG_FILE = 'crowdin.yml';
 
 interface CrowdinFileEntry {
@@ -37,21 +37,20 @@ function findMdFiles(dir: string, fileList: string[] = []): string[] {
 }
 
 function updateCrowdinConfig() {
-  console.log(`🔍 Scansione della cartella "${DOCS_DIR}" in corso...`);
+  console.log(` --- Searching for "${DOCS_DIR}" ---`);
 
   if (!fs.existsSync(DOCS_DIR)) {
-    console.error(`❌ Errore: La cartella "${DOCS_DIR}" non esiste.`);
+    console.error(`--- Error: "${DOCS_DIR}" not found. ---`);
     process.exit(1);
   }
 
   const mdFiles = findMdFiles(DOCS_DIR);
 
   if (mdFiles.length === 0) {
-    console.warn(`⚠️ Nessun file .md trovato in "${DOCS_DIR}".`);
+    console.warn(` --- No file found in  "${DOCS_DIR}". ---`);
     return;
   }
 
-  // --- 1. Generazione e salvataggio crowdin.yml (LOGICA ESISTENTE) ---
   const crowdinFiles: CrowdinFileEntry[] = mdFiles.map((sourcePath) => {
     const translationPath = sourcePath.replace(`${DOCS_DIR}/`, `${DOCS_DIR}/%locale%/`);
     return { source: sourcePath, translation: translationPath };
@@ -66,7 +65,7 @@ function updateCrowdinConfig() {
         const { files, base_path, preserve_hierarchy, ...rest } = loadedConfig;
         otherConfigProps = rest;
       }
-    } catch (e) { console.error('❌ Errore lettura crowdin.yml esistente.', e); }
+    } catch (e) { console.error(' --- Error, crowdin.yaml not found ---', e); }
   }
 
   const filesJsonString = JSON.stringify(crowdinFiles, null, 4);
@@ -78,28 +77,21 @@ function updateCrowdinConfig() {
 
   try {
     fs.writeFileSync(CONFIG_FILE, finalOutput, 'utf8');
-    console.log(`✅ File ${CONFIG_FILE} aggiornato.`);
-  } catch (e) { console.error('❌ Errore salvataggio crowdin.yml', e); }
+    console.log(` --- ${CONFIG_FILE} updated.`);
+  } catch (e) { console.error(' --- There was an error saving crowdin.yaml ---', e); }
 
-  // --- 2. LOGICA PER GITHUB ACTIONS OUTPUT (NUOVA PARTE) ---
-
-  // Questa variabile esiste SOLO se lo script gira su GitHub Actions
   const githubOutputPath = process.env.GITHUB_OUTPUT;
 
   if (githubOutputPath) {
-    // Trasformiamo l'array in una stringa JSON semplice (es: ["docs/a.md","docs/b.md"])
     const pathsJson = JSON.stringify(mdFiles);
-
-    // Scriviamo nel file speciale di GitHub usando il formato key=value
-    // Usiamo os.EOL per essere sicuri di andare a capo correttamente
     try {
       fs.appendFileSync(githubOutputPath, `found_files=${pathsJson}${os.EOL}`);
-      console.log(`🚀 Output 'found_files' inviato a GitHub Actions.`);
+      console.log(` --- Found files written to GITHUB_OUTPUT: ${pathsJson} ---`);
     } catch (error) {
-      console.error('❌ Impossibile scrivere su GITHUB_OUTPUT:', error);
+      console.error(' --- Unable to write on GITHUB_OUTPUT ---', error);
     }
   } else {
-    console.log('ℹ️ GITHUB_OUTPUT non rilevato (stai eseguendo in locale?), salto questo passaggio.');
+    console.log(' --- GITHUB_OUTPUT environment variable not set. Skipping output to GitHub Actions. ---');
   }
 }
 
