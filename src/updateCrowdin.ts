@@ -1,9 +1,8 @@
 import * as fs from 'fs';
 import * as path from 'path';
 import * as yaml from 'js-yaml';
-import * as os from 'os'; // Aggiungi questo import per gestire i fine riga
+import * as os from 'os';
 
-// --- COSTANTI DI CONFIGURAZIONE ---
 const DOCS_DIR = 'docs/8jU9vbiLbvbIk0DuJMvd';
 const CONFIG_FILE = 'crowdin.yml';
 
