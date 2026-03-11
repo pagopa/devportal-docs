@@ -15,10 +15,9 @@ jobs:
       - name: Setup Node.JS
         uses: ./.github/actions/setup-node
 
-      # (Ho mantenuto la tua cache intatta)
       - name: Cache npm dependencies
         id: cache-npm
-        uses: actions/cache@v3 # Nota: ho messo v3 standard, se usi hash specifico va bene uguale
+        uses: actions/cache@v3
         with:
           path: ~/.npm
           key: ${{ runner.os }}-npm-${{ hashFiles('**/package-lock.json') }}
@@ -30,7 +29,6 @@ jobs:
           npm config set cache ~/.npm
           npm ci
 
-      # --- MODIFICA QUI: Aggiunto id: extract_files ---
       - name: Generate crowdin file
         id: extract_files
         run: npm run generate_file
@@ -48,12 +46,11 @@ jobs:
           CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
           CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
 
-      # --- MODIFICA QUI: Passaggio dei parametri ---
       - name: Trigger download workflow
         env:
           GH_TOKEN: ${{ secrets.PAT_TOKEN }}
         run: |
           gh workflow run getTranslations.yml \
-            --repo Uqido/PagopaTranslationPocTarget \
+            --repo pagopa/devportal-docs-translations \
             --ref main \
             -f files='${{ steps.extract_files.outputs.found_files }}'
