@@ -8,7 +8,28 @@ Gli eventi SEND\_DIGITAL\_PROGRESS e SEND\_DIGITAL\_FEEDBACK contengono il campo
 
 ## Tabella decodifica deliveryDetailCode - Domicilio digitale PEC
 
-<table data-header-hidden><thead><tr><th width="232">deliveryDetailCode</th><th>Descrizione</th><th>deliveryFailureCause</th></tr></thead><tbody><tr><td><strong>deliveryDetailCode</strong></td><td><strong>Descrizione</strong></td><td>deliveryFailureCause</td></tr><tr><td><code>C000</code></td><td>COMUNICAZIONE CON SERVER PEC AVVENUTA (senza busta)</td><td></td></tr><tr><td><code>C001</code></td><td>ACCETTAZIONE (con busta)</td><td></td></tr><tr><td><code>C002</code></td><td>NON_ACCETTAZIONE (con busta)</td><td></td></tr><tr><td><code>C003</code></td><td>AVVENUTA_CONSEGNA (con busta)</td><td></td></tr><tr><td><code>C004</code></td><td>ERRORE_CONSEGNA (con busta)</td><td><strong>no-dest:</strong> dominio esistente ma casella inesistente<br><strong>no-domain:</strong> dominio inesistente<br><strong>virus:</strong> virus rilevato in fase di consegna<br><strong>other:</strong> errore generico</td></tr><tr><td><code>C005</code></td><td>PRESA_IN_CARICO (senza busta)</td><td></td></tr><tr><td><code>C006</code></td><td>RILEVAZIONE_VIRUS (con busta)</td><td><strong>virus:</strong> virus rilevato in fase di accettazione</td></tr><tr><td><code>C007</code></td><td>PREAVVISO_ERRORE_CONSEGNA (senza busta)</td><td></td></tr><tr><td><code>C008</code></td><td>ERRORE_COMUNICAZIONE_SERVER_PEC - con retry da parte di PN (senza busta)</td><td></td></tr><tr><td><code>C009</code></td><td>ERRORE_DOMINIO_PEC_NON_VALIDO - senza retry: indica un dominio pec non valido; (senza busta)</td><td></td></tr><tr><td><code>C010</code></td><td>ERROR_INVIO_PEC - con retry da parte di PN: indica un errore generico di invio pec (senza busta)</td><td></td></tr><tr><td><code>DP00</code></td><td>Tentativo reinvio richiesto: codice interno a delivery push che indica una richiesta di ritentativo</td><td></td></tr><tr><td><code>DP10</code></td><td>Scaduto timeout di invio a ext-channel, senza ottenere un evento di risposta OK/KO/RETRY_PROGRESS</td><td></td></tr></tbody></table>
+| **deliveryDetailCode** | **Descrizione**                                                                                     |
+| ---------------------- | --------------------------------------------------------------------------------------------------- |
+| `C000`                 | COMUNICAZIONE CON SERVER PEC AVVENUTA (senza busta)                                                 |
+| `C001`                 | ACCETTAZIONE (con busta)                                                                            |
+| `C002`                 | NON\_ACCETTAZIONE (con busta)                                                                       |
+| `C003`                 | AVVENUTA\_CONSEGNA (con busta)                                                                      |
+| `C004`                 | ERRORE\_CONSEGNA (con busta) con \***deliveryFaliureCause**                                         |
+| `C005`                 | PRESA\_IN\_CARICO (senza busta)                                                                     |
+| `C006`                 | RILEVAZIONE\_VIRUS (con busta) con \*\***deliveryFaliureCause**                                     |
+| `C007`                 | PREAVVISO\_ERRORE\_CONSEGNA (senza busta)                                                           |
+| `C008`                 | ERRORE\_COMUNICAZIONE\_SERVER\_PEC - con retry da parte di PN (senza busta)                         |
+| `C009`                 | ERRORE\_DOMINIO\_PEC\_NON\_VALIDO - senza retry: indica un dominio pec non valido; (senza busta)    |
+| `C010`                 | ERROR\_INVIO\_PEC - con retry da parte di PN: indica un errore generico di invio pec (senza busta)  |
+| `DP00`                 | Tentativo reinvio richiesto: codice interno a delivery push che indica una richiesta di ritentativo |
+| `DP10`                 | Scaduto timeout di invio a ext-channel, senza ottenere un evento di risposta OK/KO/RETRY\_PROGRESS  |
+
+| deliveryFailureCause | Descrizione                                                                                           |
+| -------------------- | ----------------------------------------------------------------------------------------------------- |
+| **`no-dest`**        |  dominio esistente ma casella inesistente                                                             |
+| **`no-domain`**      | dominio inesistente                                                                                   |
+| **`virus`**          | <ul><li>virus rilevato in fase di consegna</li><li>**virus rilevato in fase di accettazione</li></ul> |
+| **`other`**          | errore generico                                                                                       |
 
 ### Esempi
 
