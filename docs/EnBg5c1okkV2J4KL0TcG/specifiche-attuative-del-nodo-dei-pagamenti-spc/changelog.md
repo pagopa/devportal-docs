@@ -1,6 +1,6 @@
 # Changelog
 
-### 3.11.0 (Febbraio 2026)
+### 3.11.0 (Febbraio 2026
 
 * Rendicontazione e Cashflow: descritti nuovi flussi di rendicontazione REST\
   [Rendicontazione e Cashflow](funzionamento-generale/rendicontazione-e-cashflow.md)
@@ -17,7 +17,10 @@
   [FAQ PSP](../faq/psp.md)
 * Aggiornato SEPA RTP\
   [SEPA RTP - Request To Pay](../ente-creditore/sepa-rtp-request-to-pay.md)\
-  [Integrazione Servizio SRTP per EC](../appendici/integrazione-servizio-srtp/ec.md)
+  [Integrazione Servizio SRTP per EC](../appendici/integrazione-servizio-srtp/ec.md)\
+  [Tassonomia dei sistemi di incasso](../ente-creditore/tassonomia-dei-servizi-di-incasso.md)
+
+
 
 
 
