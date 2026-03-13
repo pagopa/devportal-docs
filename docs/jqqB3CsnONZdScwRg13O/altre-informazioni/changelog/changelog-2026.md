@@ -1,5 +1,16 @@
 # Changelog 2026
 
+#### 2.16.0 (12 marzo)
+
+* Suffissi template e-service: possibilità di istanziare e-service dallo stesso template più volte inserendo una parola identificativa per permettere di distinguere tra le istanze
+* Bug fixing
+
+#### 2.15.0 (9 marzo)
+
+* Digest: possibilità di ricevere le notifiche sotto forma di email di riassunto settimanale
+* Spostamento simulatore ottenimento voucher: ora si trova sotto _Tool per lo sviluppo_
+* Bug fixing
+
 #### 2.14.0 (16 febbraio)
 
 * API v. 2: filtrare `GET /clients/{clientId}/purposes` per `eserviceId`
