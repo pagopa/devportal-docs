@@ -1,8 +1,8 @@
 ---
 description: >-
   Questa pillola illustra gli adempimenti preliminari necessari per avviare
-  l’onboarding su SEND, guidando passo dopo passo l’Ente nella verifica dei
-  requisiti, nella scelta della modalità di integrazio
+  l’onboarding su SEND, guidando l’Ente nella verifica dei requisiti, nella
+  scelta della modalità di integrazione
 ---
 
 # Adempimenti preliminari all’onboarding su SEND
