@@ -1,8 +1,8 @@
 ---
 description: >-
   Questa pillola illustra gli adempimenti preliminari necessari per avviare
-  l’onboarding su SEND, guidando l’Ente nella verifica dei requisiti, nella
-  scelta della modalità di integrazione
+  l’onboarding su SEND, guidando passo dopo passo l’Ente nella verifica dei
+  requisiti, nella scelta della modalità di integrazio
 ---
 
 # Adempimenti preliminari all’onboarding su SEND
@@ -124,3 +124,14 @@ Queste informazioni consentono a PagoPA di emettere correttamente le fatture rel
 
 
 
+<details>
+
+<summary><strong>Come genero una API Key per SEND?</strong></summary>
+
+Per integrare i sistemi del tuo Ente con SEND è necessario generare una API key, che consente di autenticare le chiamate alle API della piattaforma.
+
+La generazione della chiave avviene tramite Area Riservata, nella sezione dedicata alla gestione delle API key. Da qui è possibile creare una nuova chiave e ottenere il secret associato, che verrà utilizzato dai sistemi del tuo Ente per inviare richieste alle API SEND.
+
+[Segui la guida per la creazione della API key.](https://developer.pagopa.it/it/send/guides/manuale-operativo/mittente/referente-tecnico-operatore/gestione-api-key/creazione-api-key)
+
+</details>
