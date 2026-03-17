@@ -21,4 +21,4 @@ Per ulteriori dettagli operativi su **erogazione** e **fruizione** in delega, è
 
 ***
 
-Pagina successiva [→ Signal Hub](../signal-hub.md)
+Pagina successiva [→ Template finalità](../template-finalita/)
