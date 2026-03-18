@@ -11,7 +11,7 @@ Le spese di notifica sono calcolate in base a:
 * Il decreto 30 maggio 2022 "Individuazione dei costi e dei criteri e modalita' di ripartizione e ripetizione delle spese di notifica degli atti tramite la piattaforma di cui all'art. 26, comma 14 del decreto-legge 16 luglio 2020, n. 76."
 * Costi sostenuti per l'invio cartaceo definiti come da Bando di Gara.
 
-Per i dettagli si veda anche "Costi di notifica digitale e analogica" su&#x20;
+Per i dettagli si veda anche "Costi di notifica digitale e analogica" su
 
 [https://notifichedigitali.it/enti-come-aderire](https://notifichedigitali.it/enti-come-aderire)
 
@@ -24,11 +24,10 @@ Per entrambe le modalità di pagamento è previsto che le spese di notificazione
 
 ### Pagamento puntuale o forfettario
 
-SEND prevede anche la possibilità di gestire le spese in maniera forfettaria (già incluse nell'atto notificato) indicando il parametro `notificationFeePolicy=FLAT_RATE`. In questa modalità il costo della notifica calcolato dalla piattaforma verso il destinatario sarà sempre nullo.\
-
+SEND prevede anche la possibilità di gestire le spese in maniera forfettaria (già incluse nell'atto notificato) indicando il parametro `notificationFeePolicy=FLAT_RATE`. In questa modalità il costo della notifica calcolato dalla piattaforma verso il destinatario sarà sempre nullo.\\
 
 {% hint style="info" %}
-È rimessa alla libera valutazione dell’Ente mittente la possibilità di non applicare dei costi di notifica, rinunciando alla ripetibilità della totalità degli stessi, ad esempio quando l’atto oggetto di notificazione non preveda alcuna forma di pagamento da parte del destinatario.&#x20;
+È rimessa alla libera valutazione dell’Ente mittente la possibilità di non applicare dei costi di notifica, rinunciando alla ripetibilità della totalità degli stessi, ad esempio quando l’atto oggetto di notificazione non preveda alcuna forma di pagamento da parte del destinatario.
 
 È rimessa alla libera valutazione dell’Ente mittente la possibilità di applicare dei costi forfettari alla notifica, rinunciando alla ripetibilità di quota degli stessi, ad esempio, indicando un valore forfettario pari a 2 Euro previsti dal Decreto Costi oltre il valore minimo pubblicato dalla PagoPA per la Raccomandata A/R ovvero i medesimi 2 Euro oltre al valore minimo pubblicato dalla PagoPA per la raccomandata ex L. 890/1982. NOTA: L'Ente deve valutare in proprio di essere legittimato in virtù di specifica normativa ad applicare costi forfettari.
 {% endhint %}
@@ -51,6 +50,5 @@ Il campo **`paFee`** (quota del costo di notifica a favore dei mittenti), indica
 * la modalità di integrazione con pagoPA asincrona (`pagoPaIntMode`=`ASYNC`)
 * Nel caso la notifica abbia collegato un pagamento tramite modelloF24
 
-Di default, se non è obbligatorio, l'importo predefinito è di 100 eurocent.Esempio: quota di copertura spese mittente 1€ -> specificare l'elemento paFee = 100\
-
+Di default, se non è obbligatorio, l'importo predefinito è di 100 eurocent.Esempio: quota di copertura spese mittente 1€ -> specificare l'elemento paFee = 100.
 

@@ -55,7 +55,7 @@ Dettaglio dei campi di input:
 * `paymentNotices.amount` - importo MBD
 * `paymentNotices.province` - provincia di riferimento per l'imposta di bollo
 * `paymentNotices.documentHash` - hash del documento a cui associare/applicare la MBD
-* `idCIService` - codice identificativo del servizio _**@e.bollo 2.0 Pagamento Dovuto**_  (da valorizzare con  `00005` )
+* `idCIService` - codice identificativo del servizio _**@e.bollo 2.0 Pagamento Dovuto**_  (da valorizzare con  `00005`)
 * `returnUrl.successUrl` - url scelta dall'EC su cui effettuare la redirect in caso di pagamento eseguito con successo
 * `returnUrl.cancelUrl` - url scelta dall'EC su cui effettuare la redirect nel caso in cui l'utente cancelli/annulli l'operazione
 * `returnUrl.errorUrl` - url scelta dall'EC su cui effettuare la redirect in caso di errore durante la fase di pagamento
@@ -106,5 +106,5 @@ Il campo `content` contiene il file `xml` relativo alla ricevuta MBD codificato 
 Un metodo alternativo per il recupero della receipt consiste nella configurazione di una stazione di broadcast. Se presente, il Nodo Dei Pagamenti NDP invocherà la primitiva `paSendRTV2` utilizzando l'endpoint configurato nella stazione e l'EC potrà recuperare la ricevuta della MBD dal campo [MBDAttachment](https://github.com/pagopa/pagopa-api/blob/05207a1759914675eb606316c2abcbe317f79f98/wsdl/xsd/paForNode.xsd#L389C24-L389C37) della receipt.
 
 {% hint style="info" %}
-Per per le specifiche complete delle API fare riferimento alla sezione [@e.bollo 2.0](../../../appendici/primitive/ente-creditore/api-rest/#e.bollo-2.0)
+Per le specifiche complete delle API fare riferimento alla sezione [@e.bollo 2.0](../../../appendici/primitive/ente-creditore/api-rest/#e.bollo-2.0)
 {% endhint %}

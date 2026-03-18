@@ -28,4 +28,4 @@ Una finestra di dialogo nel front office ricorderà questo adempimento alle part
 
 ***
 
-Pagina successiva [→ Glossario](../../riferimenti-tecnici/glossario.md)
+Pagina successiva [→ Come verificare l'integrità di un documento](come-verificare-lintegrita-di-un-documento.md)

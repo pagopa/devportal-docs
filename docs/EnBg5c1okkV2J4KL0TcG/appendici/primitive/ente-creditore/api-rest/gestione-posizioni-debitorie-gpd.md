@@ -12,38 +12,24 @@ Le _subscription key_ e le relative abilitazioni sono segregate per ambiente _UA
 
 ### Inserimento/Modifica/Cancellazione/Lettura <a href="#pagetpayment" id="pagetpayment"></a>
 
-{% openapi-operation spec="pagopa-SANP3-10-0-gpd" path="/organizations/{organizationfiscalcode}/debtpositions" method="get" %}
-[OpenAPI pagopa-SANP3-10-0-gpd](https://raw.githubusercontent.com/pagopa/pagopa-api/refs/heads/SANP3.10.0/openapi/gpd.json)
-{% endopenapi-operation %}
-
-{% openapi-operation spec="pagopa-SANP3-10-0-gpd" path="/organizations/{organizationfiscalcode}/debtpositions" method="post" %}
-[OpenAPI pagopa-SANP3-10-0-gpd](https://raw.githubusercontent.com/pagopa/pagopa-api/refs/heads/SANP3.10.0/openapi/gpd.json)
-{% endopenapi-operation %}
+* ​[Return the list of the organization debt positions. The due dates interval is mutually exclusive with the payment dates interval.](https://developer.pagopa.it/pago-pa/api/gestione-posizioni-debitorie#/pago-pa/api/operations/getOrganizationDebtPositions)​
+* ​[The Organization creates a debt Position](https://developer.pagopa.it/pago-pa/api/gestione-posizioni-debitorie#/pago-pa/api/operations/createPosition)
 
 {% hint style="warning" %}
 Il _query parameter_ `toPublish` consente di pubblicare automaticamente una posizione debitoria in fase di creazione, impostando questo parametro a `true` e valorizzando contestualmente a `null` il campo `validityDate`, la posizione debitoria andrà direttamente nello stato VALID pronta per essere pagata.
 {% endhint %}
 
-{% openapi-operation spec="pagopa-SANP3-10-0-gpd" path="/organizations/{organizationfiscalcode}/debtpositions/transfers" method="patch" %}
-[OpenAPI pagopa-SANP3-10-0-gpd](https://raw.githubusercontent.com/pagopa/pagopa-api/refs/heads/SANP3.10.0/openapi/gpd.json)
-{% endopenapi-operation %}
-
-{% openapi-operation spec="pagopa-SANP3-10-0-gpd" path="/organizations/{organizationfiscalcode}/debtpositions/{iupd}" method="get" %}
-[OpenAPI pagopa-SANP3-10-0-gpd](https://raw.githubusercontent.com/pagopa/pagopa-api/refs/heads/SANP3.10.0/openapi/gpd.json)
-{% endopenapi-operation %}
-
-{% openapi-operation spec="pagopa-SANP3-10-0-gpd" path="/organizations/{organizationfiscalcode}/debtpositions/{iupd}" method="put" %}
-[OpenAPI pagopa-SANP3-10-0-gpd](https://raw.githubusercontent.com/pagopa/pagopa-api/refs/heads/SANP3.10.0/openapi/gpd.json)
-{% endopenapi-operation %}
+* [The Organization updates the IBANs of every updatable payment](https://developer.pagopa.it/pago-pa/api/gestione-posizioni-debitorie#/pago-pa/api/operations/updateTransferIbanMassive)​​[option's transfers](https://developer.pagopa.it/pago-pa/api/gestione-posizioni-debitorie#/pago-pa/api/operations/updateTransferIbanMassive)​
+* ​[Return the details of a specific debt position](https://developer.pagopa.it/pago-pa/api/gestione-posizioni-debitorie#/pago-pa/api/operations/getOrganizationDebtPositionByIUPD)​
+* ​[The Organization updates a debt position](https://developer.pagopa.it/pago-pa/api/gestione-posizioni-debitorie#/pago-pa/api/operations/updatePosition)​
+* ​[The Organization delete a debt Position](https://developer.pagopa.it/pago-pa/api/gestione-posizioni-debitorie#/pago-pa/api/operations/deletePosition)​
+* ​[The Organization invalidate a debt Position](https://developer.pagopa.it/pago-pa/api/gestione-posizioni-debitorie#/pago-pa/api/operations/invalidatePosition)​
+* ​[The Organization publish a debt Position](https://developer.pagopa.it/pago-pa/api/gestione-posizioni-debitorie#/pago-pa/api/operations/publishPosition)
 
 {% hint style="warning" %}
 E' importante porre particolare attenzione al campo `notificationFee` che contiene le spese di notifica della posizione debitoria. Questo campo viene gestito in modo esclusivo da Piattaforma Notifiche e l'eventuale importo viene aggiunto automaticamente dal sistema GPD all'importo delle posizioni debitorie.\
 L'EC pertanto in fase di aggiornamento dell'importo `amount` di uno dei `transfer` presenti all'interno di una `paymentOption`, non dovrà tenere conto del valore presente all'interno del campo `notificationFee`.
 {% endhint %}
-
-{% openapi-schemas spec="pagopa-SANP3-10-0-gpd" schemas="PaymentOptionMetadataModel,PaymentOptionModel,PaymentPositionModel,Stamp,TransferMetadataModel,TransferModel,ProblemJson,PaymentOptionMetadataModelResponse,TransferMetadataModelResponse,TransferModelResponse,UpdateTransferIbanMassiveModel,UpdateTransferIbanMassiveResponse,PageInfo,PaymentOptionModelResponse,PaymentPositionModelBaseResponse,PaymentPositionsInfo,AppInfo" grouped="true" %}
-[OpenAPI pagopa-SANP3-10-0-gpd](https://raw.githubusercontent.com/pagopa/pagopa-api/refs/heads/SANP3.10.0/openapi/gpd.json)
-{% endopenapi-schemas %}
 
 ### Flussi di rendicontazione - DEPRECATED&#x20;
 
@@ -51,119 +37,38 @@ L'EC pertanto in fase di aggiornamento dell'importo `amount` di uno dei `transfe
 Queste API saranno dismesse a partire dal 31/12/2026
 {% endhint %}
 
-{% openapi-operation spec="pagopa-SANP3-10-0-gpd-fdr" path="/organizations/{organizationId}/reportings" method="get" %}
-[OpenAPI pagopa-SANP3-10-0-gpd-fdr](https://raw.githubusercontent.com/pagopa/pagopa-api/refs/heads/SANP3.10.0/openapi/gpd_fdr.json)
-{% endopenapi-operation %}
-
-{% openapi-operation spec="pagopa-SANP3-10-0-gpd-fdr" path="/organizations/{organizationId}/reportings/{flowId}/date/{date}" method="get" %}
-[OpenAPI pagopa-SANP3-10-0-gpd-fdr](https://raw.githubusercontent.com/pagopa/pagopa-api/refs/heads/SANP3.10.0/openapi/gpd_fdr.json)
-{% endopenapi-operation %}
-
-{% openapi-schemas spec="pagopa-SANP3-10-0-gpd-fdr" schemas="FlowList,Flow" grouped="true" %}
-[OpenAPI pagopa-SANP3-10-0-gpd-fdr](https://raw.githubusercontent.com/pagopa/pagopa-api/refs/heads/SANP3.10.0/openapi/gpd_fdr.json)
-{% endopenapi-schemas %}
+* [getFlowList](https://developer.pagopa.it/pago-pa/api/gpd-fdr#/pago-pa/api/operations/get-organizations-organizationid-reportings)
+* [getFlow](https://developer.pagopa.it/pago-pa/api/gpd-fdr#/pago-pa/api/operations/get-organizations-organizationid-reportings-flowid-date-date)
 
 ### Inserimento/Modifica/Cancellazione/Lettura - Gestione Massiva v1
 
-{% openapi-operation spec="pagopa-SANP3-10-0-gpd-massive" path="/brokers/{broker-code}/organizations/{organization-fiscal-code}/debtpositions/file/{upload-id}/status" method="get" %}
-[OpenAPI pagopa-SANP3-10-0-gpd-massive](https://raw.githubusercontent.com/pagopa/pagopa-api/refs/heads/SANP3.10.0/openapi/gpd_massive.json)
-{% endopenapi-operation %}
-
-{% openapi-operation spec="pagopa-SANP3-10-0-gpd-massive" path="/brokers/{broker-code}/organizations/{organization-fiscal-code}/debtpositions/file/{file-id}/report" method="get" %}
-[OpenAPI pagopa-SANP3-10-0-gpd-massive](https://raw.githubusercontent.com/pagopa/pagopa-api/refs/heads/SANP3.10.0/openapi/gpd_massive.json)
-{% endopenapi-operation %}
-
-{% openapi-operation spec="pagopa-SANP3-10-0-gpd-massive" path="/brokers/{broker-code}/organizations/{organization-fiscal-code}/debtpositions/files" method="get" %}
-[OpenAPI pagopa-SANP3-10-0-gpd-massive](https://raw.githubusercontent.com/pagopa/pagopa-api/refs/heads/SANP3.10.0/openapi/gpd_massive.json)
-{% endopenapi-operation %}
-
-{% openapi-operation spec="pagopa-SANP3-10-0-gpd-massive" path="/brokers/{broker-code}/organizations/{organization-fiscal-code}/debtpositions/file" method="post" %}
-[OpenAPI pagopa-SANP3-10-0-gpd-massive](https://raw.githubusercontent.com/pagopa/pagopa-api/refs/heads/SANP3.10.0/openapi/gpd_massive.json)
-{% endopenapi-operation %}
-
-{% openapi-operation spec="pagopa-SANP3-10-0-gpd-massive" path="/brokers/{broker-code}/organizations/{organization-fiscal-code}/debtpositions/file" method="put" %}
-[OpenAPI pagopa-SANP3-10-0-gpd-massive](https://raw.githubusercontent.com/pagopa/pagopa-api/refs/heads/SANP3.10.0/openapi/gpd_massive.json)
-{% endopenapi-operation %}
-
-{% openapi-operation spec="pagopa-SANP3-10-0-gpd-massive" path="/brokers/{broker-code}/organizations/{organization-fiscal-code}/debtpositions/file" method="delete" %}
-[OpenAPI pagopa-SANP3-10-0-gpd-massive](https://raw.githubusercontent.com/pagopa/pagopa-api/refs/heads/SANP3.10.0/openapi/gpd_massive.json)
-{% endopenapi-operation %}
-
-{% openapi-schemas spec="pagopa-SANP3-10-0-gpd-massive" schemas="AppInfo,FileIdListResponse,ProblemJson,ResponseEntry,UploadReport,UploadStatus" grouped="true" %}
-[OpenAPI pagopa-SANP3-10-0-gpd-massive](https://raw.githubusercontent.com/pagopa/pagopa-api/refs/heads/SANP3.10.0/openapi/gpd_massive.json)
-{% endopenapi-schemas %}
+* ​[Returns the debt positions upload status](https://developer.pagopa.it/pago-pa/api/gestione-massiva-delle-posizioni-debitorie#/pago-pa/api/operations/get-debt-positions-upload-status)​
+* ​[Returns the debt positions upload report](https://developer.pagopa.it/pago-pa/api/gestione-massiva-delle-posizioni-debitorie#/pago-pa/api/operations/get-debt-positions-upload-report)​
+* ​[Returns the list of fileIds for a broker/organization in the given date range (max 7 days)](https://developer.pagopa.it/pago-pa/api/gestione-massiva-delle-posizioni-debitorie#/pago-pa/api/operations/get-debt-positions-fileids)​
+* ​[The Organization creates the debt positions listed in the file](https://developer.pagopa.it/pago-pa/api/gestione-massiva-delle-posizioni-debitorie#/pago-pa/api/operations/update-debt-positions-by-file-upload)​
+* ​[The Organization updates the debt positions listed in the file](https://developer.pagopa.it/pago-pa/api/gestione-massiva-delle-posizioni-debitorie#/pago-pa/api/operations/create-debt-positions-by-file-upload)​
+* ​[The Organization deletes the debt positions based on IUPD listed in the file](https://developer.pagopa.it/pago-pa/api/gestione-massiva-delle-posizioni-debitorie#/pago-pa/api/operations/delete-debt-positions-by-file-upload)
 
 ### Inserimento/Modifica/Cancellazione/Lettura - Gestione Massiva v2
 
-{% openapi-operation spec="pagopa-SANP3-10-0-gpd-massive-v2" path="/brokers/{broker-code}/organizations/{organization-fiscal-code}/debtpositions/file/{file-id}/report" method="get" %}
-[OpenAPI pagopa-SANP3-10-0-gpd-massive-v2](https://raw.githubusercontent.com/pagopa/pagopa-api/refs/heads/SANP3.10.0/openapi/gpd_massive_v2.json)
-{% endopenapi-operation %}
-
-{% openapi-operation spec="pagopa-SANP3-10-0-gpd-massive-v2" path="/brokers/{broker-code}/organizations/{organization-fiscal-code}/debtpositions/file/{file-id}/status" method="get" %}
-[OpenAPI pagopa-SANP3-10-0-gpd-massive-v2](https://raw.githubusercontent.com/pagopa/pagopa-api/refs/heads/SANP3.10.0/openapi/gpd_massive_v2.json)
-{% endopenapi-operation %}
-
-{% openapi-operation spec="pagopa-SANP3-10-0-gpd-massive-v2" path="/brokers/{broker-code}/organizations/{organization-fiscal-code}/debtpositions/files" method="get" %}
-[OpenAPI pagopa-SANP3-10-0-gpd-massive-v2](https://raw.githubusercontent.com/pagopa/pagopa-api/refs/heads/SANP3.10.0/openapi/gpd_massive_v2.json)
-{% endopenapi-operation %}
-
-{% openapi-operation spec="pagopa-SANP3-10-0-gpd-massive-v2" path="/brokers/{broker-code}/organizations/{organization-fiscal-code}/debtpositions/file" method="post" %}
-[OpenAPI pagopa-SANP3-10-0-gpd-massive-v2](https://raw.githubusercontent.com/pagopa/pagopa-api/refs/heads/SANP3.10.0/openapi/gpd_massive_v2.json)
-{% endopenapi-operation %}
-
-{% openapi-operation spec="pagopa-SANP3-10-0-gpd-massive-v2" path="/brokers/{broker-code}/organizations/{organization-fiscal-code}/debtpositions/file" method="put" %}
-[OpenAPI pagopa-SANP3-10-0-gpd-massive-v2](https://raw.githubusercontent.com/pagopa/pagopa-api/refs/heads/SANP3.10.0/openapi/gpd_massive_v2.json)
-{% endopenapi-operation %}
-
-{% openapi-operation spec="pagopa-SANP3-10-0-gpd-massive-v2" path="/brokers/{broker-code}/organizations/{organization-fiscal-code}/debtpositions/file" method="delete" %}
-[OpenAPI pagopa-SANP3-10-0-gpd-massive-v2](https://raw.githubusercontent.com/pagopa/pagopa-api/refs/heads/SANP3.10.0/openapi/gpd_massive_v2.json)
-{% endopenapi-operation %}
-
-{% openapi-schemas spec="pagopa-SANP3-10-0-gpd-massive-v2" schemas="AppInfo,FileIdListResponse,ProblemJson,UploadReportDTO,UploadStatus" grouped="true" %}
-[OpenAPI pagopa-SANP3-10-0-gpd-massive-v2](https://raw.githubusercontent.com/pagopa/pagopa-api/refs/heads/SANP3.10.0/openapi/gpd_massive_v2.json)
-{% endopenapi-schemas %}
+* ​[Returns the debt positions upload report](https://developer.pagopa.it/pago-pa/api/gestione-massiva-delle-posizioni-debitorie?spec=v2#/pago-pa/api/operations/get-debt-positions-upload-report)​
+* ​[Returns the debt positions upload status](https://developer.pagopa.it/pago-pa/api/gestione-massiva-delle-posizioni-debitorie?spec=v2#/pago-pa/api/operations/get-debt-positions-upload-status)​
+* ​[Returns the list of fileIds for a broker/organization in the given date range (max 7 days)](https://developer.pagopa.it/pago-pa/api/gestione-massiva-delle-posizioni-debitorie?spec=v2#/pago-pa/api/operations/get-debt-positions-fileids).
+* ​[The Organization creates the debt positions listed in the file](https://developer.pagopa.it/pago-pa/api/gestione-massiva-delle-posizioni-debitorie?spec=v2#/pago-pa/api/operations/update-debt-positions-by-file-upload)​
+* ​[The Organization updates the debt positions listed in the file](https://developer.pagopa.it/pago-pa/api/gestione-massiva-delle-posizioni-debitorie?spec=v2#/pago-pa/api/operations/create-debt-positions-by-file-upload)​
+* ​[The Organization deletes the debt positions based on IUPD listed in the file](https://developer.pagopa.it/pago-pa/api/gestione-massiva-delle-posizioni-debitorie?spec=v2#/pago-pa/api/operations/delete-debt-positions-by-file-upload)
 
 ### Recupero ricevute
 
-{% openapi-operation spec="pagopa-SANP3-10-0-gpd-payments" path="/payments/{organizationfiscalcode}/receipts" method="get" %}
-[OpenAPI pagopa-SANP3-10-0-gpd-payments](https://raw.githubusercontent.com/pagopa/pagopa-api/refs/heads/SANP3.10.0/openapi/gpd_payments.json)
-{% endopenapi-operation %}
-
-{% openapi-operation spec="pagopa-SANP3-10-0-gpd-payments" path="/payments/{organizationfiscalcode}/receipts/{iuv}" method="get" %}
-[OpenAPI pagopa-SANP3-10-0-gpd-payments](https://raw.githubusercontent.com/pagopa/pagopa-api/refs/heads/SANP3.10.0/openapi/gpd_payments.json)
-{% endopenapi-operation %}
-
-{% openapi-schemas spec="pagopa-SANP3-10-0-gpd-payments" schemas="ProblemJson,ReceiptModelResponse,ReceiptsInfo,AppInfo" grouped="true" %}
-[OpenAPI pagopa-SANP3-10-0-gpd-payments](https://raw.githubusercontent.com/pagopa/pagopa-api/refs/heads/SANP3.10.0/openapi/gpd_payments.json)
-{% endopenapi-schemas %}
+* ​[Return the list of the organization receipts](https://developer.pagopa.it/pago-pa/api/gpd-recupero-receipt#/pago-pa/api/operations/getOrganizationReceipts)​
+* ​[Return the details of a specific receipt](https://developer.pagopa.it/pago-pa/api/gpd-recupero-receipt#/pago-pa/api/operations/getReceiptByIUV)
 
 ### Inserimento/Modifica/Cancellazione/Lettura + Opzioni di Pagamento
 
-{% openapi-operation spec="pagopa-SANP3-10-0-gpd-v3" path="/organizations/{organizationfiscalcode}/debtpositions/{iupd}" method="get" %}
-[OpenAPI pagopa-SANP3-10-0-gpd-v3](https://raw.githubusercontent.com/pagopa/pagopa-api/refs/heads/SANP3.10.0/openapi/gpd_v3.json)
-{% endopenapi-operation %}
-
-{% openapi-operation spec="pagopa-SANP3-10-0-gpd-v3" path="/organizations/{organizationfiscalcode}/debtpositions/{iupd}" method="put" %}
-[OpenAPI pagopa-SANP3-10-0-gpd-v3](https://raw.githubusercontent.com/pagopa/pagopa-api/refs/heads/SANP3.10.0/openapi/gpd_v3.json)
-{% endopenapi-operation %}
-
-{% openapi-operation spec="pagopa-SANP3-10-0-gpd-v3" path="/organizations/{organizationfiscalcode}/debtpositions/{iupd}" method="delete" %}
-[OpenAPI pagopa-SANP3-10-0-gpd-v3](https://raw.githubusercontent.com/pagopa/pagopa-api/refs/heads/SANP3.10.0/openapi/gpd_v3.json)
-{% endopenapi-operation %}
-
-{% openapi-operation spec="pagopa-SANP3-10-0-gpd-v3" path="/organizations/{organizationfiscalcode}/debtpositions" method="get" %}
-[OpenAPI pagopa-SANP3-10-0-gpd-v3](https://raw.githubusercontent.com/pagopa/pagopa-api/refs/heads/SANP3.10.0/openapi/gpd_v3.json)
-{% endopenapi-operation %}
-
-{% openapi-operation spec="pagopa-SANP3-10-0-gpd-v3" path="/organizations/{organizationfiscalcode}/debtpositions" method="post" %}
-[OpenAPI pagopa-SANP3-10-0-gpd-v3](https://raw.githubusercontent.com/pagopa/pagopa-api/refs/heads/SANP3.10.0/openapi/gpd_v3.json)
-{% endopenapi-operation %}
-
-{% openapi-operation spec="pagopa-SANP3-10-0-gpd-v3" path="/organizations/{organizationfiscalcode}/debtpositions/{iupd}/publish" method="post" %}
-[OpenAPI pagopa-SANP3-10-0-gpd-v3](https://raw.githubusercontent.com/pagopa/pagopa-api/refs/heads/SANP3.10.0/openapi/gpd_v3.json)
-{% endopenapi-operation %}
-
-{% openapi-schemas spec="pagopa-SANP3-10-0-gpd-v3" schemas="DebtorModel,InstallmentMetadataModel,InstallmentModel,PaymentOptionModelV3,PaymentPositionModelV3,Stamp,TransferMetadataModel,TransferModel,ProblemJson,InstallmentModelResponse,PageInfo,PaymentOptionModelResponseV3,PaymentPositionModelResponseV3,PaymentPositionsInfoV3,TransferMetadataModelResponse,TransferModelResponse" grouped="true" %}
-[OpenAPI pagopa-SANP3-10-0-gpd-v3](https://raw.githubusercontent.com/pagopa/pagopa-api/refs/heads/SANP3.10.0/openapi/gpd_v3.json)
-{% endopenapi-schemas %}
+* ​[Return the details of a specific debt position](https://developer.pagopa.it/pago-pa/api/gestione-posizioni-debitorie?spec=GPD%20con%20gestione%20opzioni%20di%20pagamento#/pago-pa/api/operations/getOrganizationDebtPositionByIUPD)​
+* ​[The Organization updates a debt position](https://developer.pagopa.it/pago-pa/api/gestione-posizioni-debitorie?spec=GPD%20con%20gestione%20opzioni%20di%20pagamento#/pago-pa/api/operations/updatePosition)​
+* ​[The Organization deletes a debt position](https://developer.pagopa.it/pago-pa/api/gestione-posizioni-debitorie?spec=GPD%20con%20gestione%20opzioni%20di%20pagamento#/pago-pa/api/operations/deletePosition)​
+* ​[Return the list of the organization debt positions. The due dates interval is mutually exclusive with the payment dates interval](https://developer.pagopa.it/pago-pa/api/gestione-posizioni-debitorie?spec=GPD%20con%20gestione%20opzioni%20di%20pagamento#/pago-pa/api/operations/getOrganizationDebtPositions)​
+* ​[The Organization creates a debt Position](https://developer.pagopa.it/pago-pa/api/gestione-posizioni-debitorie?spec=GPD%20con%20gestione%20opzioni%20di%20pagamento#/pago-pa/api/operations/createPosition)​
+* ​[The Organization publish a debt Position](https://developer.pagopa.it/pago-pa/api/gestione-posizioni-debitorie?spec=GPD%20con%20gestione%20opzioni%20di%20pagamento#/pago-pa/api/operations/publishPosition)
 

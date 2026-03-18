@@ -33,7 +33,7 @@ L’erogatore può **sospendere** una versione di e-service in stato **pubblicat
 
 Per sospensioni programmate (ad esempio, per manutenzione), si raccomanda un preavviso ai fruitori nel rispetto delle condizioni previste nelle Linee Guida:
 
-> l’Erogatore PUÒ sospendere temporaneamente la disponibilità dell’e-service segnalando in anticipo al Fruitore tale circostanza nel rispetto delle condizioni eventualmente indicate negli SLA concordati con il Fruitore al di fuori della Infrastruttura interoperabilità PDND ([LLGG AgID](https://trasparenza.agid.gov.it/moduli/downloadFile.php?file=oggetto_allegati/213481832130O__O20211210_LG+Infrastruttura+Interoperabilit%26%23224%3B+PDND_v1_allegato+2.pdf) – allegato 2, capitolo 4, pag. 17)
+> l’Erogatore PUÒ sospendere temporaneamente la disponibilità dell’e-service segnalando in anticipo al Fruitore tale circostanza nel rispetto delle condizioni eventualmente indicate negli SLA concordati con il Fruitore al di fuori della Infrastruttura interoperabilità PDND ([LLGG AgID](https://trasparenza.agid.gov.it/download/9591.html) – allegato 2, capitolo 4, pag. 9)
 
 {% hint style="warning" %}
 **La sospensione comporta un’interruzione di servizio** verso i fruitori e gli utenti finali collegati.

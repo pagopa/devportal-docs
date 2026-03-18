@@ -63,12 +63,6 @@ utente:
 
 Usa il modulo online sul Portale Invitalia, nella sezione ["Accedi all’area riservata"](http://invitalia-areariservata-fe.npi.invitalia.it/)
 
-### Telefono
-
-Chiama il numero [**0698248217**](tel://+390698248217)**.**
-
-Il servizio è attivo tutti i giorni dalle ore 10:00 alle ore 20:00.
-
 ## Hai un problema tecnico?
 
 Per ricevere assistenza tecnica sulla piattaforma PARI (ad esempio in caso di problemi di accesso o caricamento dei prodotti), **ti invitiamo prima a verificare se la risposta è già disponibile nelle pagine di questo manuale.**

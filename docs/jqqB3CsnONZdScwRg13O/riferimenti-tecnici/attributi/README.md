@@ -24,22 +24,28 @@ La certificazione si basa su una **fonte autoritativa** denominata **ente certif
 
 **Esempio operativo:** il **Catalogo IPA** (fonte autoritativa) espone l’attributo “Comuni e loro Consorzi e Associazioni” e l'elenco degli enti che lo possiedono.
 
-* **Pubbliche amministrazioni (PA), Gestori di Servizi Pubblici (GSP), Società a Controllo Pubblico (SCP), Società in Conto Economico Consolidato (SCEC):** la **fonte autoritativa principale** è [**IPA**](https://indicepa.gov.it/ipa-portale/); la **verifica** del possesso degli attributi è **automatica** su PDND Interoperabilità. **Eventuali aggiornamenti** o **correzioni** dei dati di attributo si **richiedono al gestore di IPA (AgID)** secondo le procedure previste. L'elenco viene allineato una volta ogni 24 ore.
+Gli attributi principali riguardano:
+
+* **Pubbliche amministrazioni (PA), Gestori di Servizi Pubblici (GSP), Società a Controllo Pubblico (SCP) e Società in Conto Economico Consolidato (SCEC):** la **fonte autoritativa principale** è [**IPA**](https://indicepa.gov.it/ipa-portale/); la **verifica** del possesso degli attributi è **automatica** su PDND Interoperabilità. **Eventuali aggiornamenti** o **correzioni** dei dati di attributo si **richiedono al gestore di IPA (AgID)** secondo le procedure previste. L'elenco viene allineato una volta ogni 24 ore.
 * **Gestori privati di e-procurement:** l’attribuzione discende dal [**processo di certificazione**](https://www.agid.gov.it/it/piattaforme/procurement/certificazione-componenti-piattaforme) **dei componenti** pubblicato da **AgID**; una volta completato, viene **comunicato** a PDND Interoperabilità il **soggetto** a cui associare gli attributi certificati **richiesti** dagli erogatori.
 * **Servizi ANAC:** le PA e i gestori di pubblici servizi che intendono **ottenere** gli attributi **necessari** per accedere ai servizi **ANAC** seguono il **processo di riconoscimento** tramite **AgID**.
 * **Altri attributi certificati**: sono assegnati direttamente dagli aderenti ad altri aderenti secondo il flusso dedicato agli **enti certificatori**. Maggiori dettagli nella [sezione dedicata](enti-certificatori.md).
 
+Un elenco degli attributi certificati più utilizzati è disponibile nella [sezione dedicata](gli-attributi-piu-utilizzati.md).
+
 ## Attributi verificati
 
-* La **verifica** è **in capo all’erogatore**, secondo i **propri processi di istruttoria**.
+* La **verifica** è **in capo all’erogatore**, secondo i **propri processi di istruttoria**. Sarà dunque l'erogatore ad assegnare (ed eventualmente a revocare) l'attributo.
 * Nella **bozza** della **richiesta di fruizione**, il fruitore è tenuto a **caricare eventuale documentazione** utile ad **agevolare** la verifica da parte dell’erogatore.
+
+Nella realtà questi attributi sono poco utilizzati. Vengono preferiti gli attributi certificati conferiti dagli enti certificatori.
 
 ## Attributi dichiarati
 
-* La **responsabilità** è **interamente** del **dichiarante (fruitore)**.
+* La **responsabilità** è **interamente** del **dichiarante (fruitore)**, ed è di fatto un'autodichiarazione.
 * L’erogatore può **richiedere** uno o più **attributi dichiarati**; per ciascuno, il fruitore deve **dichiarare esplicitamente** il possesso **prima** di inoltrare la **richiesta di fruizione**.
 * La dichiarazione è **registrata** su PDND Interoperabilità come **azione esplicita** mediante click necessario all'attivazione dell'attributo; non si tratta di una dichiarazione **implicita**.
 
 ***
 
-Pagina successiva → [Operazioni e ciclo di vita](operazioni-e-ciclo-di-vita.md)
+Pagina successiva [→ Gli attributi più utilizzati](gli-attributi-piu-utilizzati.md)

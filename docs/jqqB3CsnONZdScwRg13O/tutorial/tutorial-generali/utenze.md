@@ -59,4 +59,4 @@ L'accesso per quell'utente verrà immediatamente revocato e non sarà più in gr
 
 ***
 
-Pagina successiva [→ Come rendersi disponibili a ricevere deleghe](come-rendersi-disponibili-a-ricevere-deleghe.md)
+Pagina successiva [→ Come modificare la mail associata all'utenza](come-modificare-la-mail-associata-allutenza.md)

@@ -46,7 +46,7 @@ Il mittente è errato e il contesto della notifica non è chiaro
 {% column width="50%" %}
 ✅  **Corretti**
 
-<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure>
 
 Il titolo specifica lo scopo della notifica e l'oggetto rende subito chiaro di cosa si tratta.
 {% endcolumn %}

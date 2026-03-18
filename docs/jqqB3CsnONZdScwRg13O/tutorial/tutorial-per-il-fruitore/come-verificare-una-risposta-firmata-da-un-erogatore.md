@@ -1,36 +1,27 @@
 # Come verificare una risposta firmata da un erogatore
 
-Il ModI lascia discrezione all'erogatore nell'indicare qual debba essere la procedura corretta di firma del payload e verifica da parte del fruitore.&#x20;
+Questo tutorial è complementare a quello [dedicato all'erogatore](../tutorial-per-lerogatore/come-firmare-una-risposta-per-un-fruitore.md).
 
-Si riporta comunque a titolo di esempio una possibile gestione del meccanismo di firma del payload di risposta di un e-service.
+Nel ModI viene indicato come l'erogatore di un e-service possa l'implementare un pattern per firmare una risposta verso un fruitore che ha effettuato una richiesta. Questo pattern è indicato come `INTEGRITY_REST_02`.
 
-Per maggiori informazioni, si veda la [sezione dedicata](../../riferimenti-tecnici/utilizzare-i-voucher/garanzia-dellintegrita-della-risposta.md).
+Per maggiori informazioni sulla garanzia della risposta, si veda la [sezione dedicata](../../riferimenti-tecnici/utilizzare-i-voucher/garanzia-dellintegrita-della-risposta.md). Per la specifica tecnica definita da AgID, si veda la versione più recente delle [Linee Guida sull'interoperabilità tecnica delle Pubbliche Amministrazioni — Pattern di sicurezza](https://www.agid.gov.it/sites/agid/files/2024-07/Linee_guida_interoperabilit%C3%A0PA_All2_Pattern_sicurezza.pdf) (paragrafo 5.3, pagg. 44 e seguenti).
 
-Quando un fruitore riceve una risposta firmata dall'erogatore, può verificare l’autenticità e l’integrità dei dati ricevuti nella risposta attraverso il `kid` (id della chiave) inserito nel payload, e la chiave pubblica che l'erogatore ha depositato sul proprio _**Portachiavi erogatore**_, associato all'e-service.
+La verifica della risposta firmata è una tutela in più per il fruitore, per garantire la non ripudiabilità e l'integrità dei dati, ma non è obbligatoria.
 
-### Step 1: Deserializzazione della risposta
+### Struttura della risposta
 
-Una volta deserializzato il payload creato dall'erogatore nel [tutorial dedicato](../tutorial-per-lerogatore/come-firmare-una-risposta-per-un-fruitore.md), il fruitore troverà la risposta JSON che l'erogatore ha inviato, strutturata come segue:
+Se l'erogatore utilizza la funzionalità per firmare la risposta, la risposta consisterà di:
 
-```
-{
-  "data": {
-    "campo1": "valore1",
-    "campo2": "valore2"
-  },
-  "signature": "<firma_rsa_in_base64>",
-  "kid": "<id_chiave_pubblica>"
-}
+* header HTTP `Agid-JWT-Signature`: contiene un JWT con informazioni relative all'erogatore sulle quali basare le proprie verifiche;
+* header HTTP `Digest`: contiene un digest calcolato a partire dai dati contenuti nel payload;
+* header HTTP `Content-Type`: indica il `content-type` del payload;
+* payload: contiene i dati veri e propri.
 
-```
+### Step 1: Verifica della firma
 
-<table><thead><tr><th width="137.08123779296875">Nome campo</th><th>Significato</th></tr></thead><tbody><tr><td><code>data</code></td><td>contiene il payload, ossia i dati effettivi che l'e-service trasmette verso i fruitori</td></tr><tr><td><code>signature</code></td><td>contiene la firma digitale del campo data, calcolata dall'e-service utilizzando una chiave privata RSA (appartenente ad un portachiavi all'e-service) e codificata in formato base64</td></tr><tr><td><code>kid</code></td><td>identificatore della chiave usata per la firma; consente al fruitore di sapere quale chiave pubblica utilizzare per verificare la firma</td></tr></tbody></table>
+All'interno dell'header `Agid-JWT-Signature` , il fruitore troverà un JWT. Deserializzando il JWT, nell'header si troverà il campo `kid`.
 
-Si passa quindi alla verifica della firma.
-
-### Step 2: Individuazione della chiave pubblica
-
-La chiave corrispondente al `kid` è reperibile sulle [API](../../riferimenti-tecnici/api-esposte-da-pdnd/) esposte da PDND Interoperabilità.
+È necessario verificare che la chiave privata con la quale è stato firmato il JWT corrisponda alla chiave pubblica reperibile attraverso il `kid`. La chiave è esposta sulle API di PDND Interoperabilità all'endpoint `GET /producerKeys/{kid}` ([ref. endpoint](https://developer.pagopa.it/pdnd-interoperabilita/api/pdnd-core-v2#get-/producerKeys/-kid-)) in formato JWK.
 
 Per ottenere la chiave da PDND Interoperabilità, il fruitore deve aver:
 
@@ -38,15 +29,29 @@ Per ottenere la chiave da PDND Interoperabilità, il fruitore deve aver:
 * generato almeno un set di materiale crittografico e caricato la relativa chiave pubblica su PDND Interoperabilità all'interno del client ([vedi tutorial](come-generare-il-corredo-crittografico-e-caricare-una-chiave-pubblica.md))
 * aver ottenuto un voucher valido per le API di PDND Interoperabilità ([vedi tutorial](come-richiedere-un-voucher-bearer-per-le-api-di-pdnd-interoperabilita.md)).
 
-Il fruitore la troverà al path `GET /keys/{kid}`  in formato JWK.
+### Step 2: Verifica del digest
 
-### Step 3: Ricalcolo dell'hash
+Nello stesso JWT deserializzato dello step precedente, nel payload si troverà il campo `signed_headers.digest`.
 
-&#x20;Il fruitore calcola l’hash del contenuto di `data` usando lo stesso algoritmo utilizzato dell'erogatore SHA256.
+È necessario verificare che questo digest corrisponda a quello che si trova all'interno dell'header HTTP `Digest` contenuto nella risposta pervenuta dall'erogatore.&#x20;
 
-### Step 4: Verifica della firma
+### Step 3: Verifica del payload
 
-Con la chiave pubblica ottenuta allo step 2, il fruitore verifica che la firma (campo `signature`) corrisponda all’hash calcolato nello step 3. Se i due valori corrispondono, il payload è autentico e integro; in caso contrario, potrebbe essere stato alterato o non provenire dall'e-service ed è possibile contattare l'erogatore per maggiori informazioni.
+Si recupera a questo punto il payload della chiamata, lo si codifica in una stringa di byte e lo si sottopone a una funzione di hash utilizzando l'algoritmo SHA-256. Ad esempio, un payload come &#x20;
+
+```
+{"testo": "Ciao mondo"}
+```
+
+deve essere codificato come
+
+```
+SHA-256=cFfTOCesrWTLVzxn8fmHl4AcrUs40Lv5D275FmAZ96E=
+```
+
+come previsto dall'[RFC-3230](https://www.rfc-editor.org/rfc/rfc3230.html).
+
+La codifica ottenuta deve corrispondere a quella contenuta nell'header HTTP `Digest`. Se c'è corrispondenza, il dato inviato dall'erogatore è esattamente quello ricevuto dal fruitore.
 
 ***
 

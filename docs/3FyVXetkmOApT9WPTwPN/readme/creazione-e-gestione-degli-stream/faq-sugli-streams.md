@@ -12,51 +12,41 @@ Le pagine Swagger sono esclusivamente ad uso di documentazione e non sono config
 
 ### Cosa devo fare se ricevo **{"message": "Unauthorized"}**?
 
-Il messaggio indica che non sono disponibili le credenziali per utilizzare i servizi di PN o che non è stata completata l'integrazione con **PDND Interoperabilità**. \
+Il messaggio indica che non sono disponibili le credenziali per utilizzare i servizi di SEND o che non è stata completata l'integrazione con **PDND Interoperabilità**.\
 Se non è stato già fatto, è necessario intraprendere il processo di accreditamento, contattando l'indirizzo preposto: [account@pagopa.it](mailto:account@pagopa.it)\
-Se è stato già completato il processo di accreditamento, assicurarsi che si stia utilizzando correttamente l'API Key ed il Voucher.
+Se è stato già completato il processo di accreditamento, assicurarsi che si stia utilizzando correttamente l'API Key ed il Voucher PDND.
 
 ### Se creo uno stream senza filtri ad esempio
 
-`{` \
-&#x20;  `"title": "NoFilteredStream",` \
-&#x20;  `"eventType": "STATUS",` \
-&#x20;  `"filterValues": []` \
-`}`                                                                                           &#x20;
+`{`\
+`"title": "NoFilteredStream",`\
+`"eventType": "STATUS",`\
+`"filterValues": []`\
+`}`
 
 ### questo raccoglierà tutti i cambi di stato avvenuti nel tempo?
 
 SI. Questo concetto è valido anche per gli eventi di TIMELINE.
 
-### E' meglio avere più stream filtrati, per inquadrare specifici eventi di interesse?
-
-SI, è consigliato generare uno o più stream applicando i filtri sugli eventi di status / timeline di maggior interesse, restando nel limite massimo di 10 stream per PA. **\***&#x53;e invece si vogliono ottenere tutti gli eventi bisognerà inserire un filtro vuoto:**`"filterValues": []`**
-
-**\*Per retro compatibilità, inserendo questo campo vuoto lo stream di tipo TIMELINE restituirà gli eventi della versione GA 1.0, se si vogliono ottenere gli eventi di timeline introdotti dalle versioni successive sarà necessario indicare tutti gli eventi d'interesse nel campo `filterValues.`**
-
 ### Dopo aver creato uno stream ed inserite alcune notifiche, come posso vedere gli eventi da esse generati?
 
 Per ottenere gli eventi bisogna chiamare il servizio per la lettura degli eventi inserendo nel path variabile lo **streamId** dello stream che si vuole interrogare. A questo punto:
 
-1. Se nell'header della response ottengo **retry-after = 0** significa che è possibile consumare ulteriori eventi presenti nello stream; quindi, per ottenere gli eventi successivi bisogna richiamare nuovamente lo stesso servizio, aggiungendo come query param l'**eventId** dell'ultimo evento.
-2. Se nell'header della response ottengo **retryAfter ≠ 0** ed ho eventi nel body della response, significa che lo stream non contiene altri eventi e sarà necessario attendere che ne siano generati di nuovi, prima di poter richiamare di nuovamente il servizio sullo stesso stream. Il campo **retryAfter** restituisce appunto il tempo in millisecondi da rispettare prima di effettuare la nuova chiamata al servizio
+1. Se nell'header della response ottengo **retry-after = 0** significa che è possibile consumare ulteriori eventi presenti nello stream; quindi, per ottenere gli eventi successivi bisogna richiamare nuovamente lo stesso servizio, aggiungendo come query param _lastEventId_ l'**eventId** dell'ultimo evento precedentemente elaborato.
+2. Se nell'header della response ottengo **retryAfter ≠ 0** ed ho eventi nel body della response, significa che lo stream non contiene altri ulteriori eventi e sarà necessario attendere che ne siano generati di nuovi, prima di poter richiamare di nuovamente il servizio sullo stesso stream. Il campo **retryAfter** restituisce il tempo in millisecondi da rispettare prima di effettuare la nuova chiamata al servizio.
 
 ### Posso ottenere più di 50 eventi da una singola chiamata?
 
 NO, questo valore è configurato pari a 50 a livello applicativo e non può essere modificato dal consumer.
 
-### Ho interrogato uno stream inserendo come path variabile lo _streamId_ di mio interesse ed ho ottenuto 50 eventi, ognuno con il proprio _eventId_. Ho richiamato di nuovo lo stesso servizio aggiungendo come query param l'eventId dell'ultimo evento ottenuto nella prima chiamata ed ottengo gli eventi successivi a quelli ottenuti nella prima chiamata. Posso vedere di nuovo gli eventi ottenuti dalla prima chiamata?
+### Posso vedere di nuovo gli eventi ottenuti nella chiamata precedente?
 
-NO, una volta passato il query param **eventId** alla chiamata del servizio, tutti gli eventi precedenti sono cancellati dallo stream e non possono più essere recuperati. E' quindi fondamentale salvare gli eventi ottenuti da ogni chiamata, prima di richiedere i successivi.
+Se la chiamata viene effettuata con il parametro _lastEventId_ vuoto o con lo stesso valore della chiamata precedente vengono restituiti gli stessi elementi, eventualmente in coda quelli che si sono stati registrati tra le due chiamate.\
+Una volta passato il query param _lastEventId_ alla chiamata del servizio, tutti gli eventi con id precedenti al  _lastEventId_ sono cancellati dallo stream e non possono più essere recuperati. E' quindi fondamentale elaborare o memorizzare tutti gli eventi ottenuti da ogni chiamata, prima di richiedere i successivi.
 
 ### Per quanto tempo gli eventi restano registrati su uno stream?
 
-Gli eventi restano registrati su uno stream per **7 giorni**, trascorsi i quali non potranno più essere recuperati. A questo punto sarà possibile ottenere lo stato della notifica unicamente attraverso il servizio puntuale [getNotificationRequestStatus](https://petstore.swagger.io/?url=https://raw.githubusercontent.com/pagopa/pn-delivery/develop/docs/openapi/api-external-b2b-pa.yaml#/SenderReadB2B/retrieveNotificationRequestStatus), mentre se si conosce lo IUN si può utilizzare il servizio [getSentNotification](https://petstore.swagger.io/?url=https://raw.githubusercontent.com/pagopa/pn-delivery/develop/docs/openapi/api-external-b2b-pa.yaml#/SenderReadB2B/retrieveSentNotification) per leggere tutti i dettagli di una notifica accettata
-
-### Come si possono testare i diversi stati ed eventi appartenenti al processo di notifica?
-
-Si possono creare 2 stream con `"`**`eventType`**`":"`**`STATUS"`** e con **`"eventType": "TIMELINE"`**, inserire una notifica ed attendere alcuni minuti per permettere alla Piattaforma di elaborare la notifica appena inserita; infatti il workflow della notifica inizia subito dopo l'inserimento con la generazione dei vari eventi legati ai passaggi che si susseguono.\
-Gli eventi che si generano potranno essere consumati dallo stream ed essere utili ai fini dei test.
+Gli eventi restano registrati su uno stream per **7 giorni**, trascorsi i quali non potranno più essere recuperati. A questo punto sarà possibile ottenere lo stato della notifica unicamente attraverso il servizio puntuale [getNotificationRequestStatus](https://petstore.swagger.io/?url=https://raw.githubusercontent.com/pagopa/pn-delivery/develop/docs/openapi/api-external-b2b-pa.yaml#/SenderReadB2B/retrieveNotificationRequestStatus), mentre se si conosce lo IUN si può utilizzare il servizio [getSentNotification](https://petstore.swagger.io/?url=https://raw.githubusercontent.com/pagopa/pn-delivery/develop/docs/openapi/api-external-b2b-pa.yaml#/SenderReadB2B/retrieveSentNotification) per leggere tutti i dettagli di una notifica accettata.
 
 ### Come faccio a capire il canale di spedizione seguito da una notifica?
 
@@ -76,22 +66,16 @@ La descrizione di stato sintetica è così rappresentata:
 
 ### In caso di destinatario multiplo, che significato ha un evento di timeline?
 
-Quando sono presenti destinatari multipli, ogni evento di timeline sarà specifico per ogni destinatario ed appariranno tutti nella timeline con l'indicazione del destinatario impattato dall'evento.
+Quando sono presenti destinatari multipli, ogni evento di timeline sarà specifico per ogni destinatario ed appariranno tutti nella timeline con l'indicazione del destinatario impattato dall'evento deducibile dal suffisso `RECINDEX` del _elementId_ (es: `SEND_ANALOG_DOMICILE.IUN_VPKL-WEWK-VKUW-202601-R-1.RECINDEX_4.ATTEMPT_0` è l'evento relativo al quinto destinatario) oppure l'elemento `details.recIndex`.
 
 ### In caso di destinatario multiplo, ricevo un'attestazione opponibile per ogni destinatario?
 
-Ogni Attestazione Opponibile viene generata una volta per ogni destinatario, ad eccezione di quella della presa in carico della notifica poiché anche se con più destinatari la notifica è considerata singolarmente. \
+Ogni Attestazione Opponibile viene generata una volta per ogni destinatario, ad eccezione di quella della presa in carico della notifica poiché anche se con più destinatari la notifica è considerata singolarmente.\
 La Piattaforma espone anche delle attestazioni prodotte da sistemi esterni, quali ricevute xml dell’esito relativo all’invio PEC o le ricevuta delle raccomandate; in questo caso possono essere generati più documenti per ogni destinatario, a seconda delle evidenze prodotte dai sistemi esterni.
 
 ### Come sono ordinati gli eventi ottenuti dagli streams?
 
-Gli streams contengono eventi che sono ordinati in base all'**eventId;** tuttavia alcuni eventi potrebbero avere un timestamp non coerente con l'ordine degli **eventId.** Questa situazione si verifica nei casi in cui il timestamp è stato attribuito da un sistema esterno a Piattaforma Notifiche, come avviene negli eventi di _SEND\_DIGITAL\_PROGRESS_ che ricevono il timestamp dai PEC provider. &#x20;
-
-documenti per ogni destinatario, a seconda delle evidenze prodotte dai sistemi esterni.
-
-### Come sono ordinati gli eventi ottenuti dagli streams?
-
-Gli streams contengono eventi che sono ordinati in base all'**eventId;** tuttavia alcuni eventi potrebbero avere un timestamp non coerente con l'ordine degli **eventId.** Questa situazione si verifica nei casi in cui il timestamp è stato attribuito da un sistema esterno a Piattaforma Notifiche, come avviene negli eventi di _SEND\_DIGITAL\_PROGRESS_ che ricevono il timestamp dai PEC provider. &#x20;
+Gli streams contengono eventi che sono ordinati in base all'**eventId;** tuttavia alcuni eventi potrebbero avere un timestamp non coerente con l'ordine degli **eventId.** Questa situazione si verifica nei casi in cui il timestamp è stato attribuito da un sistema esterno a Piattaforma Notifiche, come avviene negli eventi di _SEND\_DIGITAL\_PROGRESS_ che ricevono il timestamp dai PEC provider.
 
 ### Dove viene trasmesso lo IUN nella timeline?
 
@@ -154,4 +138,3 @@ Se la richiesta è rifiutata **REQUEST\_REFUSED** (stato **REFUSED**), lo IUN **
                     }
 ```
 {% endcode %}
-

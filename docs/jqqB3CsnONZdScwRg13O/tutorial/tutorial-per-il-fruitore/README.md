@@ -7,6 +7,7 @@
 * [Come creare una finalità](come-creare-una-finalita.md)
 * [Come creare un client](come-creare-un-client.md)
 * [Come associare un client ad una finalità](come-associare-un-client-ad-una-finalita.md)
+* [Come generare una finalità da un template](come-generare-una-finalita-da-un-template.md)
 
 ## Operazioni eseguibili tramite API
 

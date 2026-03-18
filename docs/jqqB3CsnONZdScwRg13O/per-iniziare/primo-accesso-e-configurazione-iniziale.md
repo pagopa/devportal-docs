@@ -50,9 +50,15 @@ Segui i tutorial dedicati:
 
 Al primo accesso, si raccomanda all'amministratore di **impostare i contatti dell'ente**: verificare e inserire l'indirizzo email di contatto per ricevere le comunicazioni importanti dalla piattaforma e dai fruitori.
 
-### Assegnazione degli attributi
+### Attributi e assegnazione
 
-È necessario attendere fino a 24 ore per assicurare la corretta assegnazione di tutti gli attributi da parte delle fonti autoritative al proprio ente. Maggiori dettagli sugli attributi nella [sezione dedicata](../riferimenti-tecnici/attributi/).
+Ogni ente possiede delle "caratteristiche", che vengono riconosciute da PDND, che vengono chiamate _attributi_. Per fare un esempio, all'atto dell'iscrizione di Regione Lazio, all'ente vengono automaticamente riconosciuti gli attributo certificati _Regione_ e _Regione Lazio_, entrambe conferiti dalla fonte autoritativa l'IPA, l'[Indice della Pubblica Amministrazione](https://www.indicepa.gov.it/ipa-portale/).
+
+Questi attributi saranno poi utili per potersi iscrivere agli e-service presenti in piattaforma. Ad esempio, Regione Lazio potrà iscriversi a tutti quegli e-service riservati agli enti che possiedono gli attributi certificati _Regioni_ oppure _Regione Lazio_.&#x20;
+
+È necessario attendere fino a 24 ore per assicurare la corretta assegnazione di tutti gli attributi da parte delle fonti autoritative al proprio ente.
+
+Maggiori dettagli sugli attributi nella [sezione dedicata](../riferimenti-tecnici/attributi/).
 
 ***
 

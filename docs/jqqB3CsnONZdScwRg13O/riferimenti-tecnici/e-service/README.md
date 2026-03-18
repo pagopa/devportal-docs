@@ -7,6 +7,12 @@ Serve a rendere disponibili in modo sicuro, standardizzato e controllato i dati 
 
 Gli e-service rappresentano il cuore del modello di interoperabilità della PDND: ogni ente può **erogare** i propri servizi digitali o **fruirne** da altri enti, garantendo tracciabilità, sicurezza e gestione centralizzata dei permessi.
 
+## Requisiti di accesso
+
+L'erogatore ha facoltà di prevedere dei requisiti di accesso ai propri e-service. Nel linguaggio della piattaforma, sono definiti _attributi_. Gli enti che possiedono o dimostrano di possederli potranno iscriversi a fruire dell'e-service stesso.
+
+Maggiori dettagli nella [sezione dedicata agli attributi](../attributi/).&#x20;
+
 ## Struttura
 
 #### Parte generale

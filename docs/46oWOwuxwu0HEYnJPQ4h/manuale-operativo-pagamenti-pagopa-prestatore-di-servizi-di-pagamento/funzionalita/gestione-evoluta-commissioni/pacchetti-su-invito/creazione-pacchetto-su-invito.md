@@ -23,19 +23,20 @@ Le informazioni da inserire sono le seguenti:
   * Apple Pay
   * Bancomat Pay
   * Conto Banca Popolare di Sondrio
-  * Conto Banco Posta&#x20;
-  * Conto Banco PostaImpresa
+  * Conto Banco Posta
+  * Conto BancoPosta Impresa
+  * Conto ICONTO
   * Conto Intesa Sanpaolo
+  * Google Pay
+  * Klarna
   * MyBank
   * Paga con PostePay
   * Paypal
+  * Satispay
 * Touchpoint (menu a tendina)
-  * &#x20;IO
-  * pagoPA Checkout
-  * ATM
-  * POS
-  * Canale PSP
-  * WISP
+  * IO - (Per pagamenti effettuati tramite AppIO)
+  * Checkout - (Per pagamenti effettuati dal Checkout)
+  * Checkout\_Cart - (Per pagamenti effettuati dal Sito dell'EC)
 * Fascia Importo&#x20;
   * Minimo&#x20;
   * Massimo
@@ -47,9 +48,7 @@ Le informazioni da inserire sono le seguenti:
     * Codice Canale -> codice del canale del PSP su cui far valere il pacchetto
     * Gestione carrello di pagamenti -> Flag "Si" o "No" a seconda che il pacchetto possa essere utilizzato anche nel caso di carrello con più pagamenti.
 
-    {% hint style="danger" %}
-    La gestione del carrello può essere fatta esclusivamente per pacchetti su canali che sono configurati con primitive in versione 2.
-    {% endhint %}
+    <div data-gb-custom-block data-tag="hint" data-style="danger" class="hint hint-danger"><p>La gestione del carrello può essere fatta esclusivamente per pacchetti su canali che sono configurati con primitive in versione 2.</p></div>
 * Marca da bollo digitale (le due opzioni sono esclusive)
   * Pagamento con marca da bollo
   * Pagamento solo con marca da bollo

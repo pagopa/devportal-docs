@@ -39,6 +39,22 @@ La dichiarazione dell'erogatore vincola il fruitore durante la compilazione dell
 
 Nel caso di erogazione inversa, dove l'e-service prevede la ricezione (anziché l'invio) di dati, è l'erogatore stesso a dover rispettare e applicare questa prescrizione nella propria analisi del rischio.
 
+## Tipi di analisi del rischio
+
+Esistono due tipi di analisi del rischio: una destinata alla compilazione da parte di Pubbliche Amministrazioni, e un'altra per tutti gli altri.
+
+### Pubbliche amministrazioni
+
+{% file src="../../.gitbook/assets/Analisi del rischio PA v.3.1 pdf.pdf" %}
+
+{% file src="../../.gitbook/assets/Analisi del rischio PA v.3.1 docx.docx" %}
+
+### Tutti gli altri
+
+{% hint style="info" %}
+Il documento è attualmente in elaborazione e sarà presto reso disponibile.
+{% endhint %}
+
 ***
 
 Pagina successiva [→ Client](../client-e-materiale-crittografico/)

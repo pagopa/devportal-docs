@@ -11,6 +11,7 @@
 ## Tutorial
 
 * [Tutorial per l'erogatore](tutorial/tutorial-per-lerogatore/README.md)
+  * [Come integrare un'API](tutorial/tutorial-per-lerogatore/come-integrare-unapi.md)
   * [Come creare un nuovo e-service](tutorial/tutorial-per-lerogatore/come-creare-un-nuovo-e-service.md)
   * [Come aggiornare un e-service](tutorial/tutorial-per-lerogatore/come-aggiornare-un-e-service.md)
   * [Come aggiornare un e-service senza pubblicare una nuova versione](tutorial/tutorial-per-lerogatore/come-aggiornare-un-e-service-senza-pubblicare-una-nuova-versione.md)
@@ -30,6 +31,7 @@
   * [Come creare una finalità](tutorial/tutorial-per-il-fruitore/come-creare-una-finalita.md)
   * [Come creare un client](tutorial/tutorial-per-il-fruitore/come-creare-un-client.md)
   * [Come associare un client ad una finalità](tutorial/tutorial-per-il-fruitore/come-associare-un-client-ad-una-finalita.md)
+  * [Come generare una finalità da un template](tutorial/tutorial-per-il-fruitore/come-generare-una-finalita-da-un-template.md)
   * [Come presentare una richiesta di fruizione tramite API](tutorial/tutorial-per-il-fruitore/come-presentare-una-richiesta-di-fruizione-tramite-api.md)
   * [Come presentare una finalità tramite API](tutorial/tutorial-per-il-fruitore/come-presentare-una-finalita-tramite-api.md)
   * [Come aggiornare la stima di carico di una finalità tramite API](tutorial/tutorial-per-il-fruitore/come-aggiornare-la-stima-di-carico-di-una-finalita-tramite-api.md)
@@ -44,8 +46,13 @@
   * [Come accedere al front office di PDND Interoperabilità](tutorial/tutorial-generali/ambienti-disponibili.md)
   * [Come creare e revocare gli utenti amministratori](tutorial/tutorial-generali/come-creare-e-revocare-gli-utenti-amministratori.md)
   * [Come creare e revocare gli utenti operatori](tutorial/tutorial-generali/utenze.md)
+  * [Come modificare la mail associata all’utenza](tutorial/tutorial-generali/come-modificare-la-mail-associata-allutenza.md)
+  * [Come configurare le notifiche per la tua utenza](tutorial/tutorial-generali/come-configurare-le-notifiche-per-la-tua-utenza.md)
+  * [Come configurare le notifiche per il tuo ente](tutorial/tutorial-generali/come-configurare-le-notifiche-per-il-tuo-ente.md)
+  * [Come abilitare la ricezione di promemoria e novità settimanali](tutorial/tutorial-generali/come-abilitare-la-ricezione-di-promemoria-e-novita-settimanali.md)
   * [Come rendersi disponibili a ricevere deleghe](tutorial/tutorial-generali/come-rendersi-disponibili-a-ricevere-deleghe.md)
   * [Come conferire una delega ad un altro ente](tutorial/tutorial-generali/come-conferire-una-delega-ad-un-altro-ente.md)
+  * [Come verificare l'integrità di un documento](tutorial/tutorial-generali/come-verificare-lintegrita-di-un-documento.md)
 
 ## Riferimenti tecnici
 
@@ -60,6 +67,7 @@
   * [Portachiavi](riferimenti-tecnici/e-service/portachiavi.md)
   * [Strumenti e riferimenti](riferimenti-tecnici/e-service/strumenti-e-riferimenti.md)
 * [Attributi](riferimenti-tecnici/attributi/README.md)
+  * [Gli attributi più utilizzati](riferimenti-tecnici/attributi/gli-attributi-piu-utilizzati.md)
   * [Operazioni e ciclo di vita](riferimenti-tecnici/attributi/operazioni-e-ciclo-di-vita.md)
   * [Revoca attributi](riferimenti-tecnici/attributi/revoca-attributi.md)
   * [Enti certificatori](riferimenti-tecnici/attributi/enti-certificatori.md)
@@ -83,10 +91,14 @@
   * [Delega per la fruizione](riferimenti-tecnici/deleghe/delega-per-la-fruizione.md)
 * [Template e-service](riferimenti-tecnici/template-e-service/README.md)
   * [Operazioni e ciclo di vita](riferimenti-tecnici/template-e-service/operazioni-e-ciclo-di-vita.md)
-  * [Relazione tra template e istanza](riferimenti-tecnici/template-e-service/relazione-tra-template-e-istanza.md)
+  * [Relazione tra template e e-service](riferimenti-tecnici/template-e-service/relazione-tra-template-e-istanza.md)
   * [Altre informazioni](riferimenti-tecnici/template-e-service/altre-informazioni.md)
+* [Template finalità](riferimenti-tecnici/template-finalita/README.md)
+  * [Operazioni e ciclo di vita](riferimenti-tecnici/template-finalita/operazioni-e-ciclo-di-vita.md)
+  * [Relazione tra template e finalità](riferimenti-tecnici/template-finalita/relazione-tra-template-e-finalita.md)
 * [Signal Hub](riferimenti-tecnici/signal-hub.md)
 * [Tracing](riferimenti-tecnici/tracing.md)
+* [Notifiche](riferimenti-tecnici/notifiche.md)
 
 ## Riferimenti Normativi
 

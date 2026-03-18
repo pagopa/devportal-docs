@@ -12,6 +12,7 @@
 * [Consultare lo storico delle transazioni](tutorial-per-il-venditore/consultare-lo-storico-delle-transazioni.md)
 * [Gestire i rimborsi](tutorial-per-il-venditore/gestire-i-rimborsi.md)
 * [Segnalare un utente](tutorial-per-il-venditore/segnalare-un-utente.md)
+* [Report delle transazioni](tutorial-per-il-venditore/report-delle-transazioni.md)
 
 ## Tutorial per operatore Punto Vendita
 

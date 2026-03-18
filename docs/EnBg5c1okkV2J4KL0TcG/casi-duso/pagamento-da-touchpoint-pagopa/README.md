@@ -1,6 +1,6 @@
 # Pagamento da Touchpoint PagoPA
 
-App IO <img src="../../.gitbook/assets/image (1).png" alt="" data-size="line">
+App IO&#x20;
 
 {% hint style="info" %}
 Per vedere il dettaglio dell'esperienza del cittadino [app-io](../../esperienza-per-il-cittadino/app-io/ "mention")

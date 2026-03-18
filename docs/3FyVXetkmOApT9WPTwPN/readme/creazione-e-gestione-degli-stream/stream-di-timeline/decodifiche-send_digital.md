@@ -4,11 +4,32 @@ description: Decodifica del campo deliveryDetailCode degli eventi di invio digit
 
 # Decodifiche SEND\_DIGITAL
 
-Gli eventi SEND\_DIGITAL\_PROGRESS e SEND\_DIGITAL\_FEEDBACK contengono il campo `deliveryDetailCode` all'interno dell'elemeto `details` che riporta il motivo specifico del successo, del fallimento o l'avanzamento della spedizione digitale.&#x20;
+Gli eventi SEND\_DIGITAL\_PROGRESS e SEND\_DIGITAL\_FEEDBACK contengono il campo `deliveryDetailCode` all'interno dell'elemeto `details` che riporta il motivo specifico del successo, del fallimento o l'avanzamento della spedizione digitale.
 
 ## Tabella decodifica deliveryDetailCode - Domicilio digitale PEC
 
-<table data-header-hidden><thead><tr><th width="232">deliveryDetailCode</th><th>Descrizione</th></tr></thead><tbody><tr><td><strong>deliveryDetailCode</strong></td><td><strong>Descrizione</strong></td></tr><tr><td><code>C000</code></td><td>COMUNICAZIONE CON SERVER PEC AVVENUTA (senza busta)</td></tr><tr><td><code>C001</code></td><td>ACCETTAZIONE (con busta)</td></tr><tr><td><code>C002</code></td><td>NON_ACCETTAZIONE (con busta)</td></tr><tr><td><code>C003</code></td><td>AVVENUTA_CONSEGNA (con busta)</td></tr><tr><td><code>C004</code></td><td>ERRORE_CONSEGNA (con busta)</td></tr><tr><td><code>C005</code></td><td>PRESA_IN_CARICO (senza busta)</td></tr><tr><td><code>C006</code></td><td>RILEVAZIONE_VIRUS (con busta)</td></tr><tr><td><code>C007</code></td><td>PREAVVISO_ERRORE_CONSEGNA (senza busta)</td></tr><tr><td><code>C008</code></td><td>ERRORE_COMUNICAZIONE_SERVER_PEC - con retry da parte di PN (senza busta)</td></tr><tr><td><code>C009</code></td><td>ERRORE_DOMINIO_PEC_NON_VALIDO - senza retry: indica un dominio pec non valido; (senza busta)</td></tr><tr><td><code>C010</code></td><td>ERROR_INVIO_PEC - con retry da parte di PN: indica un errore generico di invio pec (senza busta)</td></tr><tr><td><code>DP00</code></td><td>Tentativo reinvio richiesto: codice interno a delivery push che indica una richiesta di ritentativo</td></tr><tr><td><code>DP10</code></td><td>Scaduto timeout di invio a ext-channel, senza ottenere un evento di risposta OK/KO/RETRY_PROGRESS</td></tr></tbody></table>
+| **deliveryDetailCode** | **Descrizione**                                                                                     |
+| ---------------------- | --------------------------------------------------------------------------------------------------- |
+| `C000`                 | COMUNICAZIONE CON SERVER PEC AVVENUTA (senza busta)                                                 |
+| `C001`                 | ACCETTAZIONE (con busta)                                                                            |
+| `C002`                 | NON\_ACCETTAZIONE (con busta)                                                                       |
+| `C003`                 | AVVENUTA\_CONSEGNA (con busta)                                                                      |
+| `C004`                 | ERRORE\_CONSEGNA (con busta) con \***deliveryFaliureCause**                                         |
+| `C005`                 | PRESA\_IN\_CARICO (senza busta)                                                                     |
+| `C006`                 | RILEVAZIONE\_VIRUS (con busta) con \*\***deliveryFaliureCause**                                     |
+| `C007`                 | PREAVVISO\_ERRORE\_CONSEGNA (senza busta)                                                           |
+| `C008`                 | ERRORE\_COMUNICAZIONE\_SERVER\_PEC - con retry da parte di PN (senza busta)                         |
+| `C009`                 | ERRORE\_DOMINIO\_PEC\_NON\_VALIDO - senza retry: indica un dominio pec non valido; (senza busta)    |
+| `C010`                 | ERROR\_INVIO\_PEC - con retry da parte di PN: indica un errore generico di invio pec (senza busta)  |
+| `DP00`                 | Tentativo reinvio richiesto: codice interno a delivery push che indica una richiesta di ritentativo |
+| `DP10`                 | Scaduto timeout di invio a ext-channel, senza ottenere un evento di risposta OK/KO/RETRY\_PROGRESS  |
+
+| deliveryFailureCause | Descrizione                                                                                           |
+| -------------------- | ----------------------------------------------------------------------------------------------------- |
+| **`no-dest`**        |  dominio esistente ma casella inesistente                                                             |
+| **`no-domain`**      | dominio inesistente                                                                                   |
+| **`virus`**          | <ul><li>virus rilevato in fase di consegna</li><li>**virus rilevato in fase di accettazione</li></ul> |
+| **`other`**          | errore generico                                                                                       |
 
 ### Esempi
 
@@ -31,7 +52,6 @@ L'evento SEND\_DIGITAL\_FEEDBACK riporta il codice `deliveryDetailCode=C003` cor
 			"type": "PEC",
 			"address": "notifichedigitali-dev@pec.pagopa.it"
 		},
-		"digitalAddressSource": "SPECIAL",
 		"responseStatus": "OK",
 		"notificationDate": "2024-02-29T11:42:39.4248206Z",
 		"deliveryDetailCode": "C003",
@@ -124,7 +144,6 @@ Nel caso di domicilio digitale SERCQ si avranno solo due eventi delle categorie:
       "type": "SERCQ",
       "address": "x-pagopa-pn-sercq:send-self:notification-already-delivered?timestamp=2025-08-02T11:43:42.178756013Z"
     },
-    "digitalAddressSource": "PLATFORM",
     "responseStatus": "OK",
     "notificationDate": "2025-08-02T11:43:42.178756013Z",
     "deliveryDetailCode": "Q003",

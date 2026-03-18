@@ -24,18 +24,19 @@ Le informazioni da inserire sono le seguenti:
   * Bancomat Pay
   * Conto Banca Popolare di Sondrio
   * Conto Banco Posta
-  * Conto Banco PostaImpresa
+  * Conto BancoPosta Impresa
+  * Conto ICONTO
   * Conto Intesa Sanpaolo
+  * Google Pay
+  * Klarna
   * MyBank
   * Paga con PostePay
   * Paypal
+  * Satispay
 * Touchpoint (menu a tendina)
-  * IO
-  * pagoPA Checkout
-  * ATM
-  * POS
-  * Canale PSP
-  * WISP
+  * IO - (Per pagamenti effettuati tramite AppIO)
+  * Checkout - (Per pagamenti effettuati dal Checkout)
+  * Checkout\_Cart - (Per pagamenti effettuati dal Sito dell'EC)
 * Fascia Importo
   * Minimo
   * Massimo
@@ -57,11 +58,7 @@ Compilate le informazioni di cui sopra è necessario proseguire cliccando il tas
 
 Cliccando sul tasto `"Sfoglia catalogo"` è possibile accedere all'elenco delle tassonomie disponibili raggruppate per tipologia di Ente Creditore, di Area e di specifico servizio.
 
-<div align="center">
-
-<figure><img src="../../../../.gitbook/assets/image (3).png" alt="" width="188"><figcaption><p>Vista tassonomia per ente creditore</p></figcaption></figure>
-
-</div>
+<div align="center"><figure><img src="../../../../.gitbook/assets/image (3).png" alt="" width="188"><figcaption><p>Vista tassonomia per ente creditore</p></figcaption></figure></div>
 
 <figure><img src="../../../../.gitbook/assets/image (4).png" alt="" width="188"><figcaption><p>Vista tassonomia per Area</p></figcaption></figure>
 

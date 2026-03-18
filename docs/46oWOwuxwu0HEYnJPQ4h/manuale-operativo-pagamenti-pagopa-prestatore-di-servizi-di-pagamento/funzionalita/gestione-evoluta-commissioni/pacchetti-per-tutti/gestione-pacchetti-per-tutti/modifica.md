@@ -12,5 +12,5 @@ Dopo aver eseguito le modifiche e necessario schiacciare il pulsante `"Continua"
 
 <figure><img src="../../../../../.gitbook/assets/image (174).png" alt=""><figcaption></figcaption></figure>
 
-Alla pressione del pulsante "`Conferma`" la modifica del pacchetto diventa da subito attiva.
+Alla pressione del pulsante "`Conferma`" la modifica del pacchetto sarà attiva dal giorno successivo.
 

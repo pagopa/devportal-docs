@@ -6,22 +6,100 @@ Secondo il modello dati dell'API V1 di GPD, la **Posizione Debitoria** è rappre
 
 Le transizioni contrassegnate dall'etichetta **API** indicano operazioni invocate esplicitamente dal client. Tutte le altre transizioni avvengono automaticamente in base a logiche interne (es. scadenze temporali) o sono scatenate dal ciclo di vita del pagamento.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-12-24 alle 14.07.08.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2026-01-14 alle 14.03.35.png" alt=""><figcaption></figcaption></figure>
 
-#### Regole di Business
+**Creazione della posizione debitoria**
 
-<table><thead><tr><th width="100">ID</th><th width="128.3026123046875">CATEGORIA</th><th width="213.49505615234375">REGOLA/VINCOLO</th><th>DESCRIZIONE</th></tr></thead><tbody><tr><td><strong>BR-01</strong></td><td>Validation</td><td><code>Create():</code><br><code>dueDate > validityDate.</code></td><td>In fase di creazione (<em>Create</em>), la data di scadenza (<code>dueDate</code>) deve essere strettamente successiva alla data di inizio validità (<code>validityDate</code>).</td></tr><tr><td><strong>BR-02</strong></td><td>Validation</td><td><p><code>Publish():</code> </p><p><code>dueDate > validityDate.</code></p></td><td>In fase di pubblicazione (<em>Publish</em>), la data di scadenza (<code>dueDate</code>) deve essere strettamente successiva alla data di inizio validità (<code>validityDate</code>).</td></tr><tr><td><strong>BR-03</strong></td><td>Validation</td><td><p><code>Update():</code> </p><p><code>dueDate > validityDate.</code></p></td><td>In fase di aggiornamento <em>(Update)</em>, la data di scadenza (<code>dueDate</code>) deve essere strettamente successiva alla data di inizio validità (<code>validityDate</code>).</td></tr><tr><td><strong>BR-04</strong></td><td>Scope</td><td><code>retentionDate</code> è ignorata.</td><td>Il campo <code>retentionDate</code> non è al momento gestito.</td></tr><tr><td><strong>BR-05</strong></td><td>State Machine</td><td><strong>Stati Aggiornabili:</strong> <code>DRAFT</code>, <code>PUBLISHED</code>, <code>VALID</code>, <code>EXPIRED</code>.</td><td>È consentito aggiornare la Posizione Debitoria quando si trova in uno degli stati menzionati.</td></tr><tr><td><strong>BR-06</strong></td><td>State Machine</td><td><strong>Stati Immutabili:</strong> <code>PARTIALLY_PAID</code>, <code>PAID</code>, <code>REPORTED</code>.</td><td>Non sono consentite modifiche via API alla Posizione Debitoria una volta raggiunti gli stati menzionati.</td></tr><tr><td><strong>BR-07</strong></td><td>State Machine</td><td><strong>Stati Pagabili:</strong> <code>VALID</code>, <code>PARTIALLY_PAID.</code></td><td><p>Definisce gli stati in cui la Posizione Debitoria ammette operazioni di pagamento.</p><ul><li><strong>VALID</strong>: Sono pagabili tutte le opzioni attive, cioè nello stato UNPAID.</li><li><strong>PARTIALLY_PAID</strong>: Sono pagabili esclusivamente le Opzioni (i.e. Rate) residue relative alla modalità di pagamento già avviata.</li></ul></td></tr><tr><td><strong>BR-08</strong></td><td>State Machine</td><td><strong>Transizione</strong> a <code>EXPIRED</code> solo se il parametro <code>switchToExpired</code> è abilitato.</td><td><p>Il sistema transita automaticamente la Posizione Debitoria dallo stato <strong>VALID</strong> a <strong>EXPIRED</strong>, inibendo il pagamento, al verificarsi congiunto di due condizioni:</p><ol><li><strong>Configurazione</strong>: Il flag <code>switchToExpired</code> (impostato in input sulla Payment Position) risulta abilitato.</li><li><strong>Temporale</strong>: È stata superata la data di scadenza (<code>dueDate</code>) massima tra tutte le opzioni di pagamento presenti.</li></ol><p>Nota: se il flag <code>switchToExpired</code> è disabilitato, la Posizione Debitoria rimane nello stato <strong>VALID</strong> anche se la <code>dueDate</code> è stata superata.</p></td></tr><tr><td><strong>BR-09</strong></td><td>State Machine</td><td>Transizione a <strong>VALID</strong>: Validità Immediata.</td><td><p>In fase di creazione o aggiornamento, se la richiesta presenta il flag <code>toPublish=true</code> senza specificare una data di validità (<code>validityDate=null</code>), il sistema porta automaticamente la Posizione Debitoria da uno degli stati <strong>DRAFT</strong>, <strong>PUBLISHED</strong> verso lo stato <strong>VALID</strong>.<br>In questo scenario, la data di validità viene impostata di default all'istante di elaborazione della richiesta.</p><p>Nota: nel caso di aggiornamento su una Posizione Debitoria che si trova già nello stato <strong>VALID</strong>, se la <code>validityDate</code> non è specificata e il <code>toPublish=true</code>, il sistema mantiene inalterata la data di validità originaria.</p></td></tr><tr><td><strong>BR-10</strong></td><td>Payment logic</td><td><p><strong>Pagamento Unico</strong></p><p> </p><p><code>isPartialPayment = false</code></p></td><td>Rappresenta il saldo in un'unica soluzione. Il pagamento dell'opzione unica determina la transizione della Posizione Debitoria allo stato <strong>PAID</strong>.</td></tr><tr><td><strong>BR-11</strong></td><td>Payment logic</td><td><p><strong>Pagamento Rateale</strong></p><p> </p><p><code>isPartialPayment = true</code></p></td><td>Rappresenta il pagamento frazionato (i.e. rate). La transizione allo stato <strong>PAID</strong> avviene <em>solo se e quando</em> tutte le opzioni parziali risultano saldate. Fino al completamento totale, la Posizione Debitoria permane nello stato <strong>PARTIALLY PAID</strong>.</td></tr><tr><td><strong>BR-12</strong></td><td>Constraint</td><td><p><strong>Mutua esclusione delle Opzioni di Pagamento</strong></p><p></p><p>Le due modalità di pagamento sono alternative ed esclusive.</p></td><td><p>Se viene effettuato un pagamento su un'opzione di tipo <em>Unica</em>, le opzioni di tipo <em>Parziale</em> risulteranno non pagabili e viceversa.</p><p>In particolare, in fase di verifica e attivazione dell’opzione alternativa sarà emesso il Fault Code <code>PAA_PAGAMENTO_SCONOSCIUTO</code></p></td></tr></tbody></table>
+In fase di creazione della posizione debitoria, lo stato di partenza viene assegnato in base alla configurazione dei parametri `toPublish` e `validityDate`. La data di validità, se non valorizzata, viene impostata di default all'istante di elaborazione della richiesta.
+
+1. Creazione in stato DRAFT: avviene quando la posizione è istanziata con il flag `toPublish` valorizzato a `false`.
+2. Creazione in stato PUBLISHED: avviene quando la posizione è istanziata con il flag `toPublish=true` e `validityDate` valorizzata.
+3. Creazione in stato VALID: avviene quando la posizione è istanziata con il flag `toPublish=true` e `validityDate=null`.
+
+**Gestione della posizione debitoria**
+
+4. Aggiornamenti (_API Update 4, 5, 6, 7_): È possibile spostare la posizione tra DRAFT, PUBLISHED e VALID modificando i campi `toPublish` e `validityDate`.
+
+Se la richiesta presenta il flag `toPublish=true` senza specificare una data di validità (`validityDate=null`), il sistema porta automaticamente la Posizione Debitoria da uno degli stati DRAFT, PUBLISHED verso lo stato VALID.
+
+Nel caso di aggiornamento su una posizione che si trova già nello stato VALID, se la `validityDate` non è specificata e il `toPublish=true`, il sistema mantiene inalterata la data di validità originaria.
+
+**Pubblicazione della posizione debitoria**
+
+8. L’operazione di pubblicazione via API determina la transizione di stato da DRAFT a PUBLISHED, con contestuale valorizzazione dell'attributo `publishDate` al timestamp corrente.
+
+**Transizione automatica stato VALID**
+
+9. Transizione Automatica: al raggiungimento della `validityDate`, fornita a livello di posizione debitoria, il sistema sposta automaticamente la posizione da PUBLISHED a VALID (_Time Trigger_).
+
+**Pagamento e rendicontazione**
+
+10. Transizione a PARTIALLY\_PAID: Il pagamento parziale di una parte delle opzioni di pagamento determina la transizione della posizione allo stato PARTIALLY\_PAID.
+11. Transizione a PAID: Il saldo integrale dell'importo dovuto, derivante dal pagamento di tutte le opzioni di pagamento previste, innesca la transizione allo stato PAID.
+12. Transizione a REPORTED: Stato raggiunto al termine della fase di rendicontazione, una volta riconciliati tutti i versamenti (_Transfer_) associati alle opzioni di pagamento.
+
+**Scadenza della posizione debitoria**
+
+Una posizione in stato EXPIRED non è pagabile.
+
+13. Transizione automatica allo stato EXPIRED: Il superamento della data di scadenza (`dueDate`) massima tra tutte le opzioni di pagamento, in presenza del parametro `switchToExpired` attivo, determina la transizione automatica della posizione allo stato EXPIRED.
+14. Ripristino dello stato VALID: L'aggiornamento dei dati della posizione mediante l'inserimento di una `dueDate` futura e valida innesca la transizione dallo stato EXPIRED allo stato VALID, rendendo la posizione nuovamente pagabile.
+
+Qualora `switchToExpired` sia disabilitato, la posizione permane nello stato VALID anche se la `dueDate` massima è stata superata.
+
+**Annullamento della posizione debitoria**
+
+15. Transizione allo stato INVALID: L'annullamento della posizione debitoria determina la transizione allo stato INVALID. Tale stato sancisce la chiusura definitiva del ciclo di vita della posizione, rendendola non più pagabile.
+
+#### Regole di Business <a href="#regole-di-business" id="regole-di-business"></a>
+
+**Vincoli sulle date**
+
+1. In fase di creazione, aggiornamento e pubblicazione, la data di scadenza (`dueDate`) deve essere strettamente successiva alla data di inizio validità (`validityDate`).
+2. Il campo `retention``Date` non è gestito nella versione corrente (SANP-3.11.0).
+
+**Tipologie di stati**
+
+1. Gli stati _aggiornabili_ sono`DRAFT`, `PUBLISHED`, `VALID`, `EXPIRED`. È consentito aggiornare la Posizione Debitoria quando si trova in uno degli stati menzionati.
+2. Gli stati _immutabili_ sono`PARTIALLY_PAID`, `PAID`, `REPORTED`. Non sono consentite modifiche via API alla Posizione Debitoria una volta raggiunti gli stati menzionati.
+3. Gli stati _pagabili_ sono `VALID`, `PARTIALLY_PAID`: se la posizione si trova in questi stati sono ammesse operazioni di pagamento su una o più opzioni di pagamento.
+   1. Nel caso di `VALID` sono pagabili tutte le opzioni attive, cioè nello stato `UNPAID`.
+   2. Nel caso di `PARTIALLY_PAID` sono pagabili esclusivamente le opzioni (i.e. rate) residue relative alla modalità di pagamento già avviata.
+
+**Logica del pagamento**
+
+1. Pagamento Unico (`isPartialPayment = false`): Rappresenta il saldo in un'unica soluzione. Il pagamento dell'opzione unica determina la transizione della Posizione Debitoria allo stato **PAID**.
+2. Pagamento Rateale (`isPartialPayment = true`): Rappresenta il pagamento frazionato (i.e. rate). La transizione allo stato **PAID** avviene _solo se e quando_ tutte le opzioni parziali risultano saldate. Fino al completamento totale, la Posizione Debitoria permane nello stato **PARTIALLY PAID**.
+3. Mutua esclusione delle Opzioni di Pagamento: Le due modalità di pagamento sono alternative ed esclusive. Qualora venga effettuato un pagamento su un'opzione di tipo _Unica_, le opzioni di tipo _Parziale_ risulteranno non pagabili e viceversa. In particolare, in fase di verifica e attivazione dell’opzione alternativa sarà emesso il Fault Code `PAA_PAGAMENTO_SCONOSCIUTO`.
 
 ### Payment Option FSM
 
 <figure><img src="../../.gitbook/assets/Screenshot 2025-12-24 alle 11.52.18.png" alt=""><figcaption></figcaption></figure>
 
-#### Regole di business
+**Regole di business**
 
-<table data-full-width="true"><thead><tr><th width="71.133544921875">ID</th><th width="133.468017578125">CATEGORIA</th><th width="202.944580078125">REGOLA/VINCOLO</th><th>DESCRIZIONE</th></tr></thead><tbody><tr><td><strong>BR-01</strong></td><td>State Machine</td><td>L’aggiornabilità della <strong>Payment Option</strong> è dipendente dallo stato della <strong>Payment Position</strong>.</td><td><p>È lo stato della Posizione Debitoria a consentire l’aggiornamento o meno dell’<strong>Opzione di Pagamento</strong>: non è possibile aggiornare <strong>Opzioni di Pagamento</strong> la cui Posizione Debitoria è in uno stato non aggiornabile.</p><p>Nota: L'unico meccanismo consentito per aggiornare puntualmente una singola <strong>Opzione di Pagamento</strong> è l'invocazione dell'endpoint <code>POST /organizations/{organizationfiscalcode}/paymentoptions/paids/{nav}.</code> Questa operazione forza la transizione dell'opzione allo stato <strong>PAID</strong>, indipendentemente dallo stato corrente della Posizione Debitoria.</p></td></tr></tbody></table>
+È lo stato della Posizione Debitoria a consentire l’aggiornamento o meno dell’Opzione di Pagamento: non è possibile aggiornare Opzioni di Pagamento la cui Posizione Debitoria è in uno stato non aggiornabile.
 
-#### FAQ
+{% hint style="info" %}
+L'unico meccanismo consentito per aggiornare puntualmente una singola Opzione di Pagamento è l'invocazione dell'endpoint:\
+`POST /organizations/{organizationfiscalcode}/paymentoptions/paids/{nav}`.\
+Questa operazione forza la transizione dell'opzione allo stato PAID, indipendentemente dallo stato corrente della Posizione Debitoria.
+{% endhint %}
 
-| QUESTION                                                                           | ANSWER                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-| ---------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| <p>Quali sono le date presenti in GPD-V1?<br>A quali entità fanno riferimento?</p> | <p>L’ente ha la possibilità di gestire le seguenti date distribuite sulle diverse entità.</p><ul><li><code>validityDate</code> a livello di Posizione Debitoria. Rappresenta la data a partire dalla quale le Opzioni di Pagamento saranno pagabili e la Posizione Debitoria sarà nello stato <strong>VALID</strong>.</li><li><code>dueDate</code> definita a livello di Opzione di Pagamento, agisce in combinazione con il flag <code>switchToExpired</code>.</li></ul><p>Al contrario, le seguenti date sono gestite unicamente dal sistema ed è possibile per l’Ente accedervi in sola lettura:</p><ul><li><code>insertedDate</code> a livello di Posizione Debitoria e Opzione di Pagamento. Essa identifica il timestamp di creazione, permettendo di tracciare il momento esatto della registrazione dell'entità nel sistema.</li><li><code>publishDate</code> a livello di Posizione Debitoria. Essa rappresenta la data di pubblicazione, ovvero la data in cui una Posizione Debitoria è in stato PUBLISHED.</li><li><code>paymentDate</code> a livello di Opzione di Pagamento. Tale data comunica quando è avvenuto il pagamento. L’informazione è ricavata dalla ricevuta generata dal Nodo.</li><li><code>reportingDate</code> a livello di Opzione di Pagamento. Essa rappresenta la data in cui una Opzione è stata completamente rendicontata.</li><li><code>last_updated_date</code> rappresenta la data di ultima modifica dell’entità effettuata tramite API o da parte del sistema.</li><li><code>last_updated_date_notification_fee</code> a livello di Opzione di Pagamento. Essa consente di conoscere la data in cui è stata aggiornata la spesa di notifica.</li></ul> |
+**Significato e gestione delle date in GPD (v1)**
+
+All'interno del servizio GPD, le date sono distribuite su diverse entità (Posizione Debitoria, Opzione di Pagamento, Installment) e si dividono in due categorie logiche.
+
+Le seguenti _**date**_ sono fornite dall’Ente e consentono di determinare il comportamento del ciclo di vita della posizione.
+
+1. `validityDate` (Posizione Debitoria): Determina il vincolo temporale a partire dal quale le Opzioni di Pagamento diventano esigibili e la Posizione assume lo stato VALID.
+2. `dueDate` (Opzione di Pagamento): Definisce la data di scadenza dell'opzione. In combinazione con il flag `switchToExpired` attivo, rende l'Opzione non più pagabile al superamento della data indicata.
+
+Al contrario, vi sono _**date**_ generate e aggiornate automaticamente dal sistema, accessibili dall'Ente in modalità lettura.
+
+1. `insertedDate` (Posizione Debitoria e Opzione di Pagamento): Timestamp di creazione tecnica dell'entità nel sistema.
+2. `publishDate` (Posizione Debitoria): Data in cui la posizione ha assunto lo stato PUBLISHED.
+3. `paymentDate` (Opzione di Pagamento): Data dell'effettivo pagamento, acquisita tramite la _Ricevuta_ generata dal Nodo dei Pagamenti.
+4. `reportingDate` (Opzione di Pagamento): Data in cui l’opzione è stata completamente rendicontata (flusso dei _Transfer_ completato).
+5. `last_updated_date`: Timestamp dell'ultima modifica effettuata sulla risorsa (sia via API che tramite processi di sistema).
+6. `last_updated_date_notification_fee` (Opzione di Pagamento): Data dell'ultimo aggiornamento relativo alle spese di notifica.

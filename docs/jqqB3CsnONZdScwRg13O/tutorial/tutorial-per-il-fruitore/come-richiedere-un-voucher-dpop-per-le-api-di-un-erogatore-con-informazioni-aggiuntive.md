@@ -40,7 +40,7 @@ Un JWS di esempio può avere header
 }
 ```
 
-NB: la chiave privata che firma e il  `kid` della pubblica corrispondente depositata su PDND Interoperabilità non devono necessariamente essere gli stessi con i quali si firma la client assertion allo step 3.
+NB: la chiave privata che firma e il `kid` della pubblica corrispondente depositata su PDND Interoperabilità non devono necessariamente essere gli stessi con i quali si firma la client assertion allo step 3.
 
 ### Step 2: Calcolare l'hash del JWS <a href="#il-flusso-in-breve" id="il-flusso-in-breve"></a>
 
@@ -152,7 +152,7 @@ Nell'header della richiesta dovrà inserire un header DPoP, che conterrà la DPo
 <pre><code><strong>DPoP: &#x3C;DPoP_proof>
 </strong></code></pre>
 
-L'URL dell'endpoint alla quale si trova il server autorizzativo cambia in funzione dell'ambiente in cui ci si trova e sarà chiaramente visibile sull'interfaccia all'interno del front office.&#x20;
+L'URL dell'endpoint alla quale si trova il server autorizzativo cambia in funzione dell'ambiente in cui ci si trova e sarà chiaramente visibile sull'interfaccia all'interno del front office.
 
 L'endpoint andrà chiamato con alcuni parametri nel body:
 
@@ -168,7 +168,7 @@ Il server autorizzativo di PDND Interoperabilità effettua le verifiche necessar
 * considera temporalmente valida una proof presentata entro 60 secondi dalla data di emissione della proof stessa (`iat`);
 * verifica che il valore del campo `jti` non sia già stato utilizzato per un'altra chiamata verso il server autorizzativo di PDND Interoperabilità.
 
-Il server autorizzativo di  PDND Interoperabilità, validata la DPoP, restituisce un voucher di tipo DPoP (campo `token_type`) firmato come JWT con header di tipo `"typ": "at+jwt"` e contenente un claim `cnf.jkt`.
+Il server autorizzativo di PDND Interoperabilità, validata la DPoP, restituisce un voucher di tipo DPoP (campo `token_type`) firmato come JWT con header di tipo `"typ": "at+jwt"` e contenente un claim `cnf.jkt`.
 
 La risposta che il server autorizzativo di PDND Interoperabilità restituisce è la seguente:
 
@@ -186,7 +186,7 @@ Header:
 
 ```
 {
-  "typ": "dpop+jwt",
+  "typ": "at+jwt",
   "alg": "RS256",
   "use": "sig",
   "kid": "{KID_CHIAVE_PDND}"
@@ -222,9 +222,9 @@ Payload:
 
 dove il campo `cnf.jkt` contiene il thumbprint della chiave pubblica in formato JWK ([RFC 7638](https://datatracker.ietf.org/doc/html/rfc7638)) utilizzata nella DPoP inviata dal fruitore (client) verso PDND Interoperabilità (server autorizzativo).
 
-### Step 7: Costruire una seconda DPoP&#x20;
+### Step 7: Costruire una seconda DPoP
 
-Il fruitore costruisce una seconda DPoP, che questa volta è destinata alle API dell'e-service dell'erogatore. Questa seconda DPoP è simile a quella prodotta nel secondo passaggio, con due differenze:&#x20;
+Il fruitore costruisce una seconda DPoP, che questa volta è destinata alle API dell'e-service dell'erogatore. Questa seconda DPoP è simile a quella prodotta nel secondo passaggio, con due differenze:
 
 * i campi `htm` e `htu` devono essere valorizzati con la risorsa che verrà chiamata sul server dell'erogatore indicata nel file di interfaccia API, invece che fare riferimento al server autorizzativo di PDND Interoperabilità;
 * va inserito un altro campo, `ath` .

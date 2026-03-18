@@ -21,7 +21,7 @@ Di seguito vengono descritti i passi principali del flusso di pagamento con la g
 
 <figure><img src="../../.gitbook/assets/fLDDJyCm3BtdL_W8XvsuxO0sLHL2Q5ib15TajUuKaILLaXRjt-EcxKZK0KNqPBlFpyyVsJYFrhSd1RerdTcPYfGoTs_v_a6uTwd16aT2Y8PHifGDQWzvbhWD7asnJKB5So44yCS6hEv7o1ewih8-5tW-aVQ7nakZtSrjG6BfPOUU9heGKnuqVOnfK2iyWdJWRKlX_m2T5s0tL80AFGPaYiwpDNkltuj9176xKopFO1LLwxKr (1).png" alt=""><figcaption></figcaption></figure>
 
-1. Il PSP ha la possibilità di chiamare sia la [verifyPaymentNotice](../../appendici/primitive/psp/api-soap.md#activatepaymentnotice) che la [verifyPaymentOptions](../../appendici/primitive/psp/api-rest/#pagetpayment);
+1. Il PSP ha la possibilità di chiamare sia la [verifyPaymentNotice](../../appendici/primitive/psp/api-soap.md#activatepaymentnotice) che la [verifyPaymentOptions](../../appendici/primitive/psp/api-rest/opzioni-di-pagamento.md);
 2. nel caso venga chiamata la [verifyPaymentOptions](../../appendici/primitive/psp/api-rest/#pagetpayment):
    1. viene attivato il microservizio dedicato;
    2. se la configurazione della stazione dell’EC da chiamare ha il flag _"new verify"_ impostato su **true**, il microservizio esegue la chiamata all'endpoint configurato dell'ente creditore e restituisce al PSP le informazioni sulle opzioni di pagamento. Il PSP deve riportare in response le opzioni di pagamento che sono state indicate dall’ente creditore;

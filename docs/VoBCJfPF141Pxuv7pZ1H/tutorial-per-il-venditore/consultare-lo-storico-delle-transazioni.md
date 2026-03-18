@@ -14,6 +14,8 @@ Il Venditore non ha visibilità di eventuali acquisti in corso (ovvero in stato 
 
 In questa sezione è possibile consultare le transazioni per singolo Punto Vendita.
 
-È possibile filtrare la lista per Codice Fiscale del beneficiario, Codice GTIN/EAN dell'elettrodomestico e stato della transazione.
+È possibile filtrare la lista per Codice Fiscale del beneficiario, Codice GTIN/EAN dell'elettrodomestico, Codice del Voucher e stato della transazione.
 
 Cliccando su ciascuna transazione, è possibile consultarne i relativi dettagli.
+
+In aggiunta, il Venditore ha la possibilità di modificare la fattura relativa alla transazione in oggetto purché il lotto a cui essa è associato non sia già stato approvato da Invitalia. La transazione oggetto della modifica verrà automaticamente spostata al successivo lotto nello stato **Da Controllare**.

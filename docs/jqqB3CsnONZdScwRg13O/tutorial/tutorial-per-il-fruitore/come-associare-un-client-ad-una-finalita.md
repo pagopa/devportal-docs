@@ -4,7 +4,7 @@
 
 ### Step 1: Accedere alla finalità di interesse
 
-Se si intende modificare uno o più client associati, il fruitore può andare dal front office su _**Fruizione > Finalità inoltrate**_, trovare la finalità desiderata e cliccare su _**Visualizza**_.&#x20;
+Se si intende modificare uno o più client associati, il fruitore può andare dal front office su _**Fruizione > Finalità inoltrate**_, trovare la finalità desiderata e cliccare su _**Visualizza**_.
 
 ### Step 2: Associare il client alla finalità
 
@@ -14,4 +14,4 @@ Una volta che si associa un client ad una finalità, tutto il personale tecnico 
 
 ***
 
-Pagina successiva [→ Come presentare una richiesta di fruizione tramite API](come-presentare-una-richiesta-di-fruizione-tramite-api.md)
+Pagina successiva [→ Come generare una finalità da un template](come-generare-una-finalita-da-un-template.md)

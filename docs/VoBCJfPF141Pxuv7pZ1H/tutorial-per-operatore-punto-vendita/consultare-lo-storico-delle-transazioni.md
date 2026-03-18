@@ -10,7 +10,7 @@
 
 In questa sezione vengono mostrate le transazioni create a seguito dell'inserimento di un buono sconto e che richiedono un'azione contestuale all'acquisto dell'elettrodomestico.
 
-È possibile filtrare la lista per Codice Fiscale del beneficiario, Codice GTIN/EAN dell'elettrodomestico e stato della transazione.
+È possibile filtrare la lista per Codice Fiscale del beneficiario, Codice GTIN/EAN dell'elettrodomestico, Codice del Voucher e stato della transazione.
 
 Cliccando su ciascuna transazione, è possibile consultarne i relativi dettagli.
 
