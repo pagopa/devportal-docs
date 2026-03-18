@@ -29,6 +29,7 @@ La tipologia ente è suddivisa in:
 <tr><td><strong>Ordine Professionale</strong></td><td>10</td></tr>
 <tr><td><strong>Gestore di Pubblico Servizio</strong></td><td>11</td></tr>
 <tr><td><strong>Società a Controllo Pubblico</strong></td><td>12</td></tr>
+<tr><td><strong>Agenzia Centrale</strong></td><td>13</td></tr>
 </tbody>
 </table>
 
@@ -445,6 +446,19 @@ Atto di ingiunzione alla restituzione del finanziamento e/o contributo concesso 
 
 * Codice`120201P` - **Recupero del Contributo Unificato** 
 Equitalia Giustizia gestisce il recupero del Contributo Unificato per conto del Ministero della giustizia
+
+
+##  13 - Agenzia Centrale
+
+I codici tassonomici delle notifiche dell'ente di tipo "Agenzia Centrale" hanno prefisso `13` (es: **13**0101P)
+
+Ambiti e tipologia notifica:
+
+
+### 1301 - **Ispettorato Nazionale del Lavoro**
+
+* Codice`130101P` - **Ordinanze Ingiunzioni** 
+Tutte le tipologie di comunicazioni e solleciti relativi alle ordinanze ingiunzioni
 
 
 
@@ -1145,6 +1159,15 @@ Equitalia Giustizia gestisce il recupero del Contributo Unificato per conto del 
 </tr>
 <tr>
     <td colspan="4">Equitalia Giustizia gestisce il recupero del Contributo Unificato per conto del Ministero della giustizia</td>
+</tr>
+<tr>
+    <td rowspan="2"><strong>130101P</strong></td>
+    <td>13 - Agenzia Centrale</td>
+    <td>01 - Ispettorato Nazionale del Lavoro</td>
+    <td>Ordinanze Ingiunzioni</td>
+</tr>
+<tr>
+    <td colspan="4">Tutte le tipologie di comunicazioni e solleciti relativi alle ordinanze ingiunzioni</td>
 </tr>
 </tbody>
 </table>
