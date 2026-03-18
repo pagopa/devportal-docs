@@ -1,5 +1,9 @@
 # Changelog 2026
 
+#### 2.16.1 (18 marzo)
+
+* [API v. 3](https://www.interop.pagopa.it/news/api-v3): API di PDND con tutte le operazioni di piattaforma disponibili, incluse operazioni su operatori e chiavi. Si accede con sicurezza avanzata
+
 #### 2.16.0 (12 marzo)
 
 * Suffissi template e-service: possibilità di istanziare e-service dallo stesso template più volte inserendo una parola identificativa per permettere di distinguere tra le istanze

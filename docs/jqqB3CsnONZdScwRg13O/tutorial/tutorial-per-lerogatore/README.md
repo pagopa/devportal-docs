@@ -18,7 +18,7 @@
 
 ## Operazioni di firma e verifica
 
-* [Come firmare una risposta per un fruitore](come-firmare-una-risposta-per-un-fruitore.md)
+* [Come firmare una risposta per un fruitore con INTEGRITY\_REST\_02](come-firmare-una-risposta-per-un-fruitore.md)
 * [Come verificare la validità di un voucher Bearer](come-verificare-la-validita-di-un-voucher-bearer.md)
 * [Come verificare la validità di un voucher DPoP](come-verificare-la-validita-di-un-voucher-dpop.md)
 * [Come verificare il digest di un voucher](come-verificare-il-digest-di-un-voucher.md)

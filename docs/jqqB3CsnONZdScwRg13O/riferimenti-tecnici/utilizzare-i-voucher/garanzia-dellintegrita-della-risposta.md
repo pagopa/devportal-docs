@@ -47,7 +47,7 @@ La firma della risposta utilizza **gli stessi standard crittografici** già appl
 
 Il **ModI** lascia agli erogatori la libertà di definire **come firmare il payload** e **come i fruitori debbano eseguire la verifica**. PDND Interoperabilità non impone alcun vincolo, fatta eccezione per l’utilizzo di **chiavi asimmetriche RSA** conformi agli standard di sicurezza adottati.
 
-Si mettono tuttavia a disposizione alcuni **tutorial dedicati all'**[**erogatore**](../../tutorial/tutorial-per-lerogatore/come-firmare-una-risposta-per-un-fruitore.md) **e al** [**fruitore**](../../tutorial/tutorial-per-il-fruitore/come-verificare-una-risposta-firmata-da-un-erogatore.md) per mostrare un esempio completo di implementazione del meccanismo di firma e verifica del payload di risposta di un e-service.
+Si mettono tuttavia a disposizione alcuni **tutorial dedicati all'**[**erogatore**](../../tutorial/tutorial-per-lerogatore/come-firmare-una-risposta-per-un-fruitore.md) **e al** [**fruitore**](../../tutorial/tutorial-generali/come-verificare-una-risposta-firmata-da-un-erogatore.md) per mostrare un esempio completo di implementazione del meccanismo di firma e verifica del payload di risposta di un e-service.
 
 ***
 

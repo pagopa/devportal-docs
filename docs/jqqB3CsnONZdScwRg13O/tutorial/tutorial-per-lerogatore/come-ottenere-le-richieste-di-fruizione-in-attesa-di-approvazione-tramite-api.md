@@ -4,11 +4,11 @@
 È possibile ottenere solo le richieste di fruizione (Agreement) alle quali il richiedente partecipa come fruitore o erogatore.
 {% endhint %}
 
-Sull'API lo stato **In attesa di approvazione** delle richieste di fruizione (Agreement) è identificato con **PENDING**.&#x20;
+Sull'API lo stato **In attesa di approvazione** delle richieste di fruizione (Agreement) è identificato con **PENDING**.
 
 ### Caso 1 — Il Fruitore richiede i propri Agreement in PENDING
 
-È utile, ma non obbligatorio indicare il parametro `consumerIds` con l'id del proprio ente (Tenant) per evitare di ottenere Agreement in PENDING per i quali si è erogatori.&#x20;
+È utile, ma non obbligatorio indicare il parametro `consumerIds` con l'id del proprio ente (Tenant) per evitare di ottenere Agreement in PENDING per i quali si è erogatori.
 
 **Request**
 
@@ -143,4 +143,4 @@ GET /agreements
 
 ***
 
-Pagina successiva [→ Come firmare una risposta per un fruitore](come-firmare-una-risposta-per-un-fruitore.md)
+Pagina successiva [→ Come firmare una risposta per un fruitore con INTEGRITY\_REST\_02](come-firmare-una-risposta-per-un-fruitore.md)

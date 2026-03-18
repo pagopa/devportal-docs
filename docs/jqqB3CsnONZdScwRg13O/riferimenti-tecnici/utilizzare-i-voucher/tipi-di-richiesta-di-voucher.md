@@ -8,11 +8,10 @@ Se l’erogatore **non** specifica alcuna preferenza, il voucher da produrre è 
 
 I tipi di voucher previsti:
 
-* **Bearer** spendibile presso le **API di un erogatore**.
-* **DPoP** spendibile presso le **API di un erogatore**.
-* **Bearer** spendibile presso le [**API della piattaforma**](../api-esposte-da-pdnd/).
+* **Bearer** spendibile presso le **API di un erogatore** o le **API di PDND Interoperabilità** ([Core v. 2](../api-esposte-da-pdnd/), Signal Hub [Push](https://developer.pagopa.it/pdnd-interoperabilita/api/signal-hub-push-v1) e [Pull](https://developer.pagopa.it/pdnd-interoperabilita/api/signal-hub-pull-v1), [Tracing](https://developer.pagopa.it/pdnd-interoperabilita/api/tracing-v1)).
+* **DPoP** spendibile presso le **API di un erogatore** o le **API di PDND Interoperabilità** ([Core v. 3](https://developer.pagopa.it/it/pdnd-interoperabilita/api/PDND-core-v3)).
 
-Per le opzioni **Bearer** e **DPoP** verso l’erogatore sono disponibili sia la **configurazione base** sia la variante con **informazioni aggiuntive** secondo il pattern **ModI** [**Audit REST 02**](https://www.agid.gov.it/sites/agid/files/2024-07/Linee_guida_interoperabilit%C3%A0PA_All2_Pattern_sicurezza.pdf?utm_source=chatgpt.com).
+Per le opzioni **Bearer** e **DPoP** verso l’erogatore sono disponibili sia la **configurazione base** sia la variante con **informazioni aggiuntive** secondo il pattern **MoDI** [**Audit REST 02**](https://www.agid.gov.it/sites/agid/files/2024-07/Linee_guida_interoperabilit%C3%A0PA_All2_Pattern_sicurezza.pdf?utm_source=chatgpt.com).
 
 ## Flusso di richiesta base
 
@@ -53,9 +52,9 @@ Il pattern **DPoP (Demonstrating Proof-of-Possession)** utilizza **due token**, 
 * lato erogatore: [verifiche standard](../../tutorial/tutorial-per-lerogatore/come-verificare-la-validita-di-un-voucher-dpop.md) consigliate;
 * tutti: [approfondimento dedicato](approfondimento-su-dpop.md).
 
-## Pattern ModI Audit REST 02 — informazioni aggiuntive (applicabile a Bearer e DPoP)
+## Pattern MoDI Audit REST 02 — informazioni aggiuntive (Bearer e DPoP)
 
-Quando l’erogatore richiede **metadati di audit aggiuntivi** (es. **IP del chiamante**, **identificativo operatore**), si adotta il pattern **ModI Audit REST 02**:
+Quando l’erogatore richiede **metadati di audit aggiuntivi** (es. **IP del chiamante**, **identificativo operatore**), si adotta il pattern **MoDI Audit REST 02**:
 
 1. Il fruitore genera un **secondo JWT** con le informazioni aggiuntive.
 2. Calcola un **hash** del secondo JWT e lo riporta nella **client assertion** nel campo `digest.value`.
@@ -69,7 +68,7 @@ In questo modello PDND Interoperabilità **attesta la catena autorizzativa** e *
 * lato fruitore: tutorial pratico per richiedere un voucher [Bearer](../../tutorial/tutorial-per-il-fruitore/come-richiedere-un-voucher-bearer-per-le-api-di-un-erogatore-con-informazioni-aggiuntive.md) o [DPoP](../../tutorial/tutorial-per-il-fruitore/come-richiedere-un-voucher-dpop-per-le-api-di-un-erogatore-con-informazioni-aggiuntive.md) con informazioni aggiuntive;
 * lato erogatore: [verifiche aggiuntive](../../tutorial/tutorial-per-lerogatore/come-verificare-il-digest-di-un-voucher.md) consigliate.
 
-## Voucher verso le API di PDND Interoperabilità (Bearer)
+## Voucher verso le API di PDND Interoperabilità (Bearer e DPoP)
 
 **Caratteristiche:**
 
@@ -81,7 +80,7 @@ Le **API di PDND Interoperabilità** forniscono esclusivamente informazioni del 
 **Approfondimenti:**
 
 * [elenco delle API](https://developer.pagopa.it/pdnd-interoperabilita/api);
-* [tutorial pratico dedicato](../../tutorial/tutorial-per-il-fruitore/come-richiedere-un-voucher-bearer-per-le-api-di-pdnd-interoperabilita.md).
+* [tutorial pratico dedicato](../../tutorial/tutorial-generali/come-richiedere-un-voucher-bearer-per-le-api-di-pdnd-interoperabilita.md).
 
 ***
 

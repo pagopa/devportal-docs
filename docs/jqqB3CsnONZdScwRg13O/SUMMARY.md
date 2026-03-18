@@ -21,7 +21,7 @@
   * [Come adeguare la dichiarazione sui dati personali](tutorial/tutorial-per-lerogatore/come-adeguare-la-dichiarazione-sui-dati-personali.md)
   * [Come approvare una richiesta di fruizione in attesa di approvazione tramite API](tutorial/tutorial-per-lerogatore/come-approvare-una-richiesta-di-fruizione-in-attesa-di-approvazione-tramite-api.md)
   * [Come ottenere le richieste di fruizione in attesa di approvazione tramite API](tutorial/tutorial-per-lerogatore/come-ottenere-le-richieste-di-fruizione-in-attesa-di-approvazione-tramite-api.md)
-  * [Come firmare una risposta per un fruitore](tutorial/tutorial-per-lerogatore/come-firmare-una-risposta-per-un-fruitore.md)
+  * [Come firmare una risposta per un fruitore con INTEGRITY\_REST\_02](tutorial/tutorial-per-lerogatore/come-firmare-una-risposta-per-un-fruitore.md)
   * [Come verificare la validità di un voucher Bearer](tutorial/tutorial-per-lerogatore/come-verificare-la-validita-di-un-voucher-bearer.md)
   * [Come verificare la validità di un voucher DPoP](tutorial/tutorial-per-lerogatore/come-verificare-la-validita-di-un-voucher-dpop.md)
   * [Come verificare il digest di un voucher](tutorial/tutorial-per-lerogatore/come-verificare-il-digest-di-un-voucher.md)
@@ -36,12 +36,10 @@
   * [Come presentare una finalità tramite API](tutorial/tutorial-per-il-fruitore/come-presentare-una-finalita-tramite-api.md)
   * [Come aggiornare la stima di carico di una finalità tramite API](tutorial/tutorial-per-il-fruitore/come-aggiornare-la-stima-di-carico-di-una-finalita-tramite-api.md)
   * [Come generare il corredo crittografico e caricare una chiave pubblica](tutorial/tutorial-per-il-fruitore/come-generare-il-corredo-crittografico-e-caricare-una-chiave-pubblica.md)
-  * [Come richiedere un voucher Bearer per le API di PDND Interoperabilità](tutorial/tutorial-per-il-fruitore/come-richiedere-un-voucher-bearer-per-le-api-di-pdnd-interoperabilita.md)
   * [Come richiedere un voucher Bearer per le API di un erogatore (base)](tutorial/tutorial-per-il-fruitore/come-richiedere-un-voucher-bearer-per-le-api-di-un-erogatore-base.md)
   * [Come richiedere un voucher Bearer per le API di un erogatore (con informazioni aggiuntive)](tutorial/tutorial-per-il-fruitore/come-richiedere-un-voucher-bearer-per-le-api-di-un-erogatore-con-informazioni-aggiuntive.md)
   * [Come richiedere un voucher DPoP per le API di un erogatore (base)](tutorial/tutorial-per-il-fruitore/come-richiedere-un-voucher-dpop-per-le-api-di-un-erogatore-base.md)
   * [Come richiedere un voucher DPoP per le API di un erogatore (con informazioni aggiuntive)](tutorial/tutorial-per-il-fruitore/come-richiedere-un-voucher-dpop-per-le-api-di-un-erogatore-con-informazioni-aggiuntive.md)
-  * [Come verificare una risposta firmata da un erogatore](tutorial/tutorial-per-il-fruitore/come-verificare-una-risposta-firmata-da-un-erogatore.md)
 * [Tutorial generali](tutorial/tutorial-generali/README.md)
   * [Come accedere al front office di PDND Interoperabilità](tutorial/tutorial-generali/ambienti-disponibili.md)
   * [Come creare e revocare gli utenti amministratori](tutorial/tutorial-generali/come-creare-e-revocare-gli-utenti-amministratori.md)
@@ -53,6 +51,9 @@
   * [Come rendersi disponibili a ricevere deleghe](tutorial/tutorial-generali/come-rendersi-disponibili-a-ricevere-deleghe.md)
   * [Come conferire una delega ad un altro ente](tutorial/tutorial-generali/come-conferire-una-delega-ad-un-altro-ente.md)
   * [Come verificare l'integrità di un documento](tutorial/tutorial-generali/come-verificare-lintegrita-di-un-documento.md)
+  * [Come richiedere un voucher Bearer per le API di PDND Interoperabilità](tutorial/tutorial-generali/come-richiedere-un-voucher-bearer-per-le-api-di-pdnd-interoperabilita.md)
+  * [Come richiedere un voucher DPoP per le API di PDND Interoperabilità](tutorial/tutorial-generali/come-richiedere-un-voucher-bearer-per-le-api-di-pdnd-interoperabilita-1.md)
+  * [Come verificare una risposta firmata con INTEGRITY\_REST\_02](tutorial/tutorial-generali/come-verificare-una-risposta-firmata-da-un-erogatore.md)
 
 ## Riferimenti tecnici
 

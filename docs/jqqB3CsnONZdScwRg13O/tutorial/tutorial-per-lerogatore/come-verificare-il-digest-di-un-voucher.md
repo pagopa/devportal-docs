@@ -28,14 +28,14 @@ Bisogna dunque verificare che l'hash calcolato a partire dal JWS corrisponda all
 
 L'erogatore quindi:
 
-1. estrae il JWS dall'header `Agid-JWT-TrackingEvidence`  e verifica la firma del JWS stesso;
+1. estrae il JWS dall'header `Agid-JWT-TrackingEvidence` e verifica la firma del JWS stesso;
 2. verifica la corrispondenza tra l'hash del JWS, e l'hash presente nel `digest` del voucher rilasciato da PDND Interoperabilità.
 
 #### Verifica della firma
 
 Per verificare l'autenticità e la validità della chiave privata con la quale è firmato il JWS, l'erogatore:
 
-1. si autentica sulle API di PDND Interoperabilità come descritto nel [flusso dedicato](../tutorial-per-il-fruitore/come-richiedere-un-voucher-bearer-per-le-api-di-pdnd-interoperabilita.md);
+1. si autentica sulle API di PDND Interoperabilità come descritto nel [flusso dedicato](../tutorial-generali/come-richiedere-un-voucher-bearer-per-le-api-di-pdnd-interoperabilita.md);
 2. effettua una chiamata `GET /keys/{kid}` dove `kid` è valorizzato con il `kid` inserito nell'header del JWS;
 3. ottiene da PDND Interoperabilità una chiave pubblica in risposta all'interno del campo `n`;
 4. verifica la corrispondenza tra la firma del JWS, effettuata dal fruitore con la chiave privata, e la chiave pubblica appena ottenuta.
@@ -44,7 +44,7 @@ NB: se l'erogatore ottiene dall'API di PDND Interoperabilità un errore con stat
 
 #### Calcolo e confronto dell'hash
 
-Se la chiave è presente e corrisponde, può procedere ad una seconda verifica, ossia quella notarile. In pratica, verifica che la traccia depositata dal fruitore su PDND Interoperabilità con la richiesta al server autorizzativo corrisponda a quella inserita all'interno del voucher rilasciato da PDND Interoperabilità.&#x20;
+Se la chiave è presente e corrisponde, può procedere ad una seconda verifica, ossia quella notarile. In pratica, verifica che la traccia depositata dal fruitore su PDND Interoperabilità con la richiesta al server autorizzativo corrisponda a quella inserita all'interno del voucher rilasciato da PDND Interoperabilità.
 
 Se c'è corrispondenza, vuol dire che le informazioni complementari inserite all'interno del JWS sono effettivamente quelle che il fruitore ha dichiarato su PDND Interoperabilità di aver inserito.
 

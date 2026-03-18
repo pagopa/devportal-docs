@@ -265,4 +265,4 @@ Per consultare le verifiche consigliate agli erogatori, si veda la [sezione dedi
 
 ***
 
-Pagina successiva [→ Come verificare una risposta firmata da un erogatore](come-verificare-una-risposta-firmata-da-un-erogatore.md)
+Pagina successiva [→ Tutorial generali](../tutorial-generali/)

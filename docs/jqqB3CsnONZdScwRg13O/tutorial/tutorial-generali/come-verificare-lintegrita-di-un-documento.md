@@ -34,4 +34,4 @@ Gli esempi sottostanti sono illustrativi e mostrano il procedimento manuale tram
 
 ***
 
-Pagina successiva [→ Glossario](../../riferimenti-tecnici/glossario.md)
+Pagina successiva [→ Come richiedere un voucher Bearer per le API di PDND Interoperabilità](come-richiedere-un-voucher-bearer-per-le-api-di-pdnd-interoperabilita.md)

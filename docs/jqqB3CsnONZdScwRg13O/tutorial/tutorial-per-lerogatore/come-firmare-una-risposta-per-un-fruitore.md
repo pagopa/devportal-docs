@@ -1,8 +1,8 @@
-# Come firmare una risposta per un fruitore
+# Come firmare una risposta per un fruitore con INTEGRITY\_REST\_02
 
 Nel ModI viene indicato come l'erogatore di un e-service possa l'implementare un pattern per firmare una risposta verso un fruitore che ha effettuato una richiesta.
 
-Il pattern è `INTEGRITY REST 02`, e ne viene data una dimostrazione in questo tutorial. &#x20;
+Il pattern è `INTEGRITY_REST_02`, e ne viene data una dimostrazione in questo tutorial. &#x20;
 
 Per maggiori informazioni sulla garanzia della risposta, si veda la [sezione dedicata](../../riferimenti-tecnici/utilizzare-i-voucher/garanzia-dellintegrita-della-risposta.md). Per la specifica tecnica definita da AgID, si veda la versione più recente delle [Linee Guida sull'interoperabilità tecnica delle Pubbliche Amministrazioni — Pattern di sicurezza](https://www.agid.gov.it/sites/agid/files/2024-07/Linee_guida_interoperabilit%C3%A0PA_All2_Pattern_sicurezza.pdf) (paragrafo 5.3, pagg. 44 e seguenti).
 
@@ -25,7 +25,7 @@ Nel pattern `INTEGRITY REST 02`, la risposta al fruitore è costituita da:
 
 ### Step 1: creazione dell'hash
 
-Il contenuto del payload viene codificato in una stringa di byte e sottoposto a una funzione di hash utilizzando l'algoritmo SHA-256. Ad esempio, un payload come&#x20;
+Si calcola l'hash del payload utilizzando l'algoritmo SHA-256. Il risultato ottenuto viene poi codificato in Base64. Il valore finale sarà composto dal nome dell'algoritmo seguito dal valore codificato. Ad esempio, un payload come&#x20;
 
 ```
 {"testo": "Ciao mondo"}
@@ -63,7 +63,7 @@ Nello specifico, questo token contiene i seguenti campi:
 
 #### Payload
 
-<table><thead><tr><th width="155.359375">Campo</th><th>Significato campo</th></tr></thead><tbody><tr><td><code>aud</code></td><td>l'indirizzo della risorsa contattata</td></tr><tr><td><code>iat</code></td><td>l'issued at, il timestamp riportante data e ora in cui viene creato il token, espresso in <a href="https://datatracker.ietf.org/doc/html/rfc3339">UNIX epoch</a> (valore numerico, non stringa)</td></tr><tr><td><code>nbf</code></td><td>(opzionale) il not before, il timestamp riportante data e ora alla quale diventa attivo il token, espresso in <a href="https://datatracker.ietf.org/doc/html/rfc3339">UNIX epoch</a> (valore numerico, non stringa)</td></tr><tr><td><code>exp</code></td><td>l'expiration, il timestamp riportante data e ora di scadenza del token, espresso in <a href="https://datatracker.ietf.org/doc/html/rfc3339">UNIX epoch</a> (valore numerico, non stringa)</td></tr><tr><td><code>signed_headers</code></td><td>un oggetto contenente due campi: <code>digest</code> e <code>content-type</code>. <code>Digest</code> è valorizzato con l'hash calcolato allo step 2. <code>Content-type</code> è il content type del payload della risposta (ad esempio <code>application/json</code>, <code>application/octet-stream</code>) </td></tr></tbody></table>
+<table><thead><tr><th width="155.359375">Campo</th><th>Significato campo</th></tr></thead><tbody><tr><td><code>aud</code></td><td>l'indirizzo della risorsa contattata</td></tr><tr><td><code>iat</code></td><td>l'issued at, il timestamp riportante data e ora in cui viene creato il token, espresso in <a href="https://datatracker.ietf.org/doc/html/rfc3339">UNIX epoch</a> (valore numerico, non stringa)</td></tr><tr><td><code>nbf</code></td><td>(opzionale) il not before, il timestamp riportante data e ora alla quale diventa attivo il token, espresso in <a href="https://datatracker.ietf.org/doc/html/rfc3339">UNIX epoch</a> (valore numerico, non stringa)</td></tr><tr><td><code>exp</code></td><td>l'expiration, il timestamp riportante data e ora di scadenza del token, espresso in <a href="https://datatracker.ietf.org/doc/html/rfc3339">UNIX epoch</a> (valore numerico, non stringa)</td></tr><tr><td><code>signed_headers</code></td><td>una lista di oggetti contenente: <code>digest</code> e, se presenti, <code>content-type</code> e <code>content-encoding</code>.<br><code>digest</code> è valorizzato con l'hash calcolato allo step 2. <br><code>content-type</code> è l'header della risposta che indica il formato del payload (ad esempio <code>application/json</code>, <code>application/octet-stream</code>).<br><code>content-encoding</code> è l'header presente nella risposta che include l'informazione sull'algoritmo di codifica o compressione utilizzato.</td></tr></tbody></table>
 
 #### Esempio
 
@@ -110,7 +110,7 @@ Content-Type: application/json
 {"testo": "Ciao mondo"}
 ```
 
-Per maggiori dettagli sulle verifiche che il fruitore farà, si rimanda al [tutorial dedicato](../tutorial-per-il-fruitore/come-verificare-una-risposta-firmata-da-un-erogatore.md).
+Per maggiori dettagli sulle verifiche che il fruitore farà, si rimanda al [tutorial dedicato](../tutorial-generali/come-verificare-una-risposta-firmata-da-un-erogatore.md).
 
 ***
 

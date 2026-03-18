@@ -4,17 +4,19 @@
 
 Le API esposte da **PDND Interoperabilità** consentono l’**integrazione applicativa** con la piattaforma, offrendo un’alternativa/complemento al **front office** per **automatizzare** e **governare** i processi di **erogazione** e **fruizione** degli e-service nel rispetto dei profili autorizzativi dell’ente.
 
+Vengono comunemente chiamate **API Core** per distinguerle dalle altre API messe a disposizione per Signal Hub ([Push](https://developer.pagopa.it/pdnd-interoperabilita/api/signal-hub-push-v1) e [Pull](https://developer.pagopa.it/pdnd-interoperabilita/api/signal-hub-pull-v1)) e [Tracing](https://developer.pagopa.it/pdnd-interoperabilita/api/tracing-v1).
+
 ### Versione corrente
 
-La **versione corrente** e oggetto di questa documentazione è la **v.2**. Per maggiori dettagli, si veda la [**specifica OpenAPI**](https://developer.pagopa.it/pdnd-interoperabilita/api/pdnd-core-v2#/).&#x20;
+La **versione corrente** è la [**v. 3**](https://developer.pagopa.it/it/pdnd-interoperabilita/api/PDND-core-v3). La v. 2 è ancora disponibile, anche se è deprecata.
 
 ### Prerequisiti e ruoli
 
 Le operazioni in scrittura richiedono la **nomina** di un **amministratore** dell’ente come **amministratore del client API Interoperabilità** associato. È possibile eseguire l'operazione di associazione dalla scheda del client disponibile all'interno del front office.
 
-### Ambito funzionale (v.2)
+### Ambito funzionale (v. 3)
 
-La v.2 espone operazioni **in lettura e scrittura** sui principali **oggetti di dominio** della piattaforma, in coerenza con i permessi dell’utenza:
+La v. 3 espone operazioni **in lettura e scrittura** sui principali **oggetti di dominio** della piattaforma, in coerenza con i permessi dell’utenza:
 
 * **e-service** e **versioni** (creazione, aggiornamento, gestione del ciclo di vita);
 * **richieste di fruizione** e **finalità** (presentazione, gestione, stato);

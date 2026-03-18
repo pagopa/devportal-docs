@@ -13,6 +13,12 @@
 * [Come conferire una delega ad un altro ente](come-conferire-una-delega-ad-un-altro-ente.md)
 * [Come verificare l'integrità di un documento](come-verificare-lintegrita-di-un-documento.md)
 
+## Operazioni per ottenere un voucher
+
+* [Come richiedere un voucher Bearer per le API di PDND Interoperabilità](come-richiedere-un-voucher-bearer-per-le-api-di-pdnd-interoperabilita.md)
+* [Come richiedere un voucher DPoP per le API di PDND Interoperabilità](come-richiedere-un-voucher-bearer-per-le-api-di-pdnd-interoperabilita.md)
+* [Come verificare una risposta firmata con INTEGRITY\_REST\_02](come-verificare-una-risposta-firmata-da-un-erogatore.md)
+
 ***
 
 Pagina successiva [→ Come accedere al front office di PDND Interoperabilità](ambienti-disponibili.md)
