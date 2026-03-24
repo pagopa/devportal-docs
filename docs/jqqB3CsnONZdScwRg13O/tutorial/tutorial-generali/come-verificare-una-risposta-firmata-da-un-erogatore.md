@@ -74,10 +74,10 @@ Il fruitore deve estrarre questi valori dal JWT e accertarsi che siano identici 
 
 #### Verifica aggiuntiva degli header di una risposta firmata da PDND Interoperabilità
 
-La risposta firmata da PDND Interoperabilità include nel JWT presente nell'header `Agid-JWT-Signature`  dei claim aggiuntivi:
+Nel JWT di una risposta firmata da PDND Interoperabilità sono presenti i seguenti claim aggiuntivi:
 
-* `client_id` corrisponde al `client_id` presente nel voucher inviato dal chiamante
-* `x-correlation-id` presente nel claim `signed_headers` corrispondente all'header `X-Correlation-Id` della response
+* `client_id`  (opzionale): corrisponde al `client_id` presente nel voucher inviato dal chiamante; viene valorizzato esclusivamente nel caso in cui la richiesta sia stata autenticata
+* &#x20;`x-correlation-id`  (obbligatorio):  è contenuto all'interno del claim `signed_headers` e corrisponde all'header HTTP `X-Correlation-Id`della response
 
 ***
 
