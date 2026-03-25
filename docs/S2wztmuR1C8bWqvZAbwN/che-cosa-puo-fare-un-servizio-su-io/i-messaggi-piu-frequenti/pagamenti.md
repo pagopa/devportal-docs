@@ -4,13 +4,11 @@
 
 Per i messaggi che veicolano una richiesta di pagamento, ci sono alcuni accorgimenti da tenere a mente.
 
-Sia che si tratti di <mark style="color:blue;">**causale generica**</mark> che di <mark style="color:blue;">**causale specifica**</mark>, l'Ente deve informare correttamente il cittadino in merito alla fonte della sua posizione debitoria (es. contravvenzione n., prenotazione appuntamento n., ecc.).&#x20;
+Sia che si tratti di <mark style="color:blue;">**causale generica**</mark> che di <mark style="color:blue;">**causale specifica**</mark>, l'Ente deve informare correttamente il cittadino in merito alla fonte della sua posizione debitoria (es. contravvenzione n., prenotazione appuntamento n., ecc.).
 
-Un esempio di <mark style="color:blue;">**causale specifica**</mark>**:**&#x20;
+Un esempio di <mark style="color:blue;">**causale specifica**</mark>**:**
 
 Quando il pagamento è legato ad una **domiciliazione** — anche d. bancaria, d. su conto corrente, RID (Rapporti Interbancari Diretti) — disponibile solo in alcuni casi, va specificato nella causale l'oggetto degli addebiti regolari (es. rette, bollette, abbonamenti,...).
-
-
 
 <details>
 
@@ -21,7 +19,7 @@ Quando il pagamento è legato ad una **domiciliazione** — anche d. bancaria, d
 🗒 **Testo del messaggio**:
 
 <mark style="color:green;">// se causale generica //</mark>\
-<mark style="color:orange;">\{{{C'è un avviso da pagare intestato a `<nome>` `<cognome>` e relativo a `<causale>`.\}}}</mark>
+<mark style="color:orange;">\{{{C'è un avviso da pagare intestato a</mark> <mark style="color:orange;"></mark><mark style="color:orange;">`<nome>`</mark> <mark style="color:orange;">`<cognome>`</mark> <mark style="color:orange;"></mark><mark style="color:orange;">e relativo a</mark> <mark style="color:orange;"></mark><mark style="color:orange;">`<causale>`</mark><mark style="color:orange;">.\}}}</mark>
 
 <mark style="color:green;">// se causale specifica //</mark>\
 <mark style="color:orange;">\{{{La tua</mark> <mark style="color:purple;">{domanda di rinuncia per …}</mark> <mark style="color:orange;">è arrivata oltre il termine previsto.\}}}</mark>
@@ -38,7 +36,7 @@ Per maggiori informazioni o per richiedere assistenza, contattaci tramite i cana
 
 In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio potrebbe subire variazioni.
 
-**🪄 Pulsante**: Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
+**🪄 Pulsante**: Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)
 
 ***
 
@@ -66,11 +64,11 @@ Il tuo pagamento per `<causale>` sta per scadere.
 
 Se hai già provveduto a pagare l'avviso, ignora questo messaggio.
 
-**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)
 
 ***
 
-**Destinatari:** Tutti i cittadini che ...&#x20;
+**Destinatari:** Tutti i cittadini che ...
 
 **Quando inviarlo:** Quando il pagamento è prossimo alla scadenza.
 
@@ -80,7 +78,7 @@ Se hai già provveduto a pagare l'avviso, ignora questo messaggio.
 
 ***
 
-## Proroga scadenza&#x20;
+## Proroga scadenza
 
 <details>
 
@@ -90,7 +88,7 @@ Se hai già provveduto a pagare l'avviso, ignora questo messaggio.
 
 🗒 **Testo del messaggio**: È stata prorogata la data di scadenza dell'avviso intestato a `<nome cognome>` e relativo a `<casuale>`.
 
-**Devi pagare**: <00,00> €&#x20;
+**Devi pagare**: <00,00> €
 
 **Entro il**: `<gg/mm/aaaa>`
 
@@ -100,7 +98,7 @@ Per maggiori informazioni o per richiedere assistenza, contattaci tramite i cana
 
 In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio potrebbe subire variazioni.
 
-**🪄  Pulsante**: Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
+**🪄 Pulsante**: Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)
 
 ***
 
@@ -108,7 +106,7 @@ In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio p
 
 **Quando inviarlo:** Se la scadenza del pagamento viene prorogata
 
-**User story:** Come cittadino voglio essere avvisato se la scadenza del pagamento è stata prorogata&#x20;
+**User story:** Come cittadino voglio essere avvisato se la scadenza del pagamento è stata prorogata
 
 </details>
 
@@ -128,13 +126,13 @@ Il seguente messaggio serve a sensibilizzare il cittadino per il mancato pagamen
 
 **🖋 Titolo del messaggio:** Pagamento non effettuato
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Il tuo pagamento `<causale>` è scaduto il `<gg/mm/aaaa>`.
 
 Se hai già provveduto a pagare l’avviso <mark style="color:orange;">\{{{o se hai richiesto la domiciliazione</mark> <mark style="color:purple;">{delle rette}</mark> <mark style="color:orange;">sul conto corrente, \}}}</mark> ignora questo messaggio.
 
-**🪄 Pulsante**: Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
+**🪄 Pulsante**: Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)
 
 ***
 
@@ -148,6 +146,6 @@ Se hai già provveduto a pagare l’avviso <mark style="color:orange;">\{{{o se 
 
 ***
 
-## Conferma del pagamento&#x20;
+## Conferma del pagamento
 
-❌  Non è stato previsto un template di conferma di un pagamento poiché, quando un cittadino effettua un pagamento verso un ente tramite pagoPA, riceve automaticamente in app IO l'esito della transazione. Per la quietanza di pagamento, con effetto liberatorio ai sensi di legge, invece, il cittadino dovrà sempre rivolgerti all'ente creditore.
+❌ Non è stato previsto un template di conferma di un pagamento poiché, quando un cittadino effettua un pagamento verso un ente tramite pagoPA, riceve automaticamente in app IO l'esito della transazione. Per la quietanza di pagamento, con effetto liberatorio ai sensi di legge, invece, il cittadino dovrà sempre rivolgerti all'ente creditore.

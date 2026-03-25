@@ -6,17 +6,17 @@
 
 <summary>Conferma prenotazione appuntamento</summary>
 
-**🖋 Titolo del messaggio:** Il tuo appuntamento&#x20;
+**🖋 Titolo del messaggio:** Il tuo appuntamento
 
 🗒 **Testo del messaggio:**
 
-<mark style="color:green;">// se appuntamento generico //</mark>&#x20;
+<mark style="color:green;">// se appuntamento generico //</mark>
 
-<mark style="color:orange;">\{{{Hai prenotato un appuntamento per `<oggetto dell'appuntamento>`.\}}}</mark>
+<mark style="color:orange;">\{{{Hai prenotato un appuntamento per</mark> <mark style="color:orange;"></mark><mark style="color:orange;">`<oggetto dell'appuntamento>`</mark><mark style="color:orange;">.\}}}</mark>
 
-<mark style="color:green;">// se appuntamento presso uno sportello //</mark>&#x20;
+<mark style="color:green;">// se appuntamento presso uno sportello //</mark>
 
-<mark style="color:orange;">\{{{Hai prenotato un appuntamento presso `<sportello>`</mark>.<mark style="color:orange;">\}}}</mark>
+<mark style="color:orange;">\{{{Hai prenotato un appuntamento presso</mark> <mark style="color:orange;"></mark><mark style="color:orange;">`<sportello>`</mark>.<mark style="color:orange;">\}}}</mark>
 
 Il numero della prenotazione è `<nnnn>`.
 
@@ -46,7 +46,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 <summary>Promemoria appuntamento</summary>
 
-**🖋 Titolo del messaggio:** Ricordati del tuo appuntamento&#x20;
+**🖋 Titolo del messaggio:** Ricordati del tuo appuntamento
 
 🗒 **Testo del messaggio:**
 
@@ -60,7 +60,7 @@ Il numero della prenotazione è `<nnnn>`.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
-**🪄 Pulsante:** Disdici appuntamento&#x20;
+**🪄 Pulsante:** Disdici appuntamento
 
 ***
 
