@@ -7,6 +7,10 @@ description: >-
 
 # Adempimenti preliminari all’onboarding su SEND
 
+| Sei un ente?                                                                                                                                    | Sei un ente aggregatore?                                                                                                                                                                                                                                                                                                                     |
+| ----------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Aderisci tramite l'Area Riservata](https://developer.pagopa.it/app-io/guides/io-guida-tecnica/setup-iniziale/adesione-tramite-larea-riservata) | <p>1. Scarica l'<a href="./#demo-guidata">accordo di adesione</a><br>2. Compila i campi richiesti e firma l’accordo<br>3. Invialo via PEC a adesioni-io@pec.pagopa.it<br>4. <a href="https://developer.pagopa.it/it/app-io/guides/io-guida-tecnica/v7.2/setup-iniziale/iscrizione-al-developer-portal">Iscriviti</a> al Developer Portal</p> |
+
 {% @arcade/embed flowId="3RIgkp6MsCCRAOwO94A6" url="https://app.arcade.software/share/3RIgkp6MsCCRAOwO94A6" %}
 
 <details>
