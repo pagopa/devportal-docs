@@ -5,7 +5,7 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 * comunicare direttamente ai cittadini le **variazioni di regolamento e novità sul Canone unico** previste dal Comune di competenza, come costi ed esenzioni;
 * fornire alle cittadine e ai cittadini un riferimento per la ricezione delle comunicazioni **riguardanti il Canone unico su tutte le occupazioni, concessioni e affissioni che ha richiesto il cittadino**.
 
-[**Scopri tutti i benefici di integrarsi con IO →**](https://app.gitbook.com/s/xWONfJmawghGo2ekuaKh/cose-io-e-qual-e-il-suo-obiettivo#perche-integrarsi-con-io)
+[**Scopri tutti i benefici di integrarsi con IO →**](https://app.gitbook.com/s/xWONfJmawghGo2ekuaKh/lapp-io/cose-io-e-qual-e-il-suo-obiettivo#perche-integrarsi-con-io)
 
 ## Scheda servizio <a href="#scheda-servizio" id="scheda-servizio"></a>
 

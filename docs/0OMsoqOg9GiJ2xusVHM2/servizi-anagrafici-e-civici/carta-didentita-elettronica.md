@@ -131,35 +131,85 @@ Se hai già provveduto a pagare l'avviso, ignora questo messaggio.
 
 ### Scadenza documento
 
+{% hint style="info" %}
+Il Ministero dell'Interno invia tramite il servizio nazionale di IO un messaggio di preavviso dalla scadenza della CIE e un avviso di avvenuta scadenza, pertanto si consiglia all'ente l'invio di messaggi solo a ridosso  della data di scadenza per evitare sovrapposizioni.&#x20;
+{% endhint %}
+
 <details>
 
-<summary>Promemoria di scadenza Carta d'Identità</summary>
+<summary>Promemoria rinnovo Carta d'Identità</summary>
 
 {% include "../.gitbook/includes/single-sign-on.md" %}
 
 ***
 
-**🖋 Titolo del messaggio:** Scadenza Carta d'Identità
+**🖋 Titolo del messaggio:** La tua Carta di Identità è in scadenza
 
 🗒 **Testo del messaggio**:
 
-Oggi `<gg/mm/aaaa>` è scaduta la tua Carta d'Identità `<numero>`.
+La tua Carta d'Identità scadrà il \*\*`<gg/mm/aaaa>`\*\*.
 
-Se non l'hai ancora fatto, puoi prenotare un nuovo appuntamento online utilizzando il servizio di prenotazione del tuo Comune o recarti all'ufficio Anagrafe più comodo per le tue esigenze.
+\# Come richiedere la CIE.
+
+\## Prenota un appuntamento
+
+Se non l'hai ancora fatto, puoi prenotare un nuovo appuntamento utilizzando il sistema di \[prenotazione online]\(URL) o recarti all'ufficio Anagrafe più comodo per le tue esigenze.
+
+\[Se l'ente dispone di questa modalità di pagamento] \
+\## Paga in anticipo
+
+Puoi pagare prima del giorno dell'appuntamento per velocizzare le operazioni allo sportello\
+Verifica sul sito del Comune \[le modalità di pagamento]\(URL).
 
 **🪄 Pulsante**: Prenota appuntamento
 
 ***
 
-**Destinatari**: Tutti i cittadini in possesso di una Carta d'Identità
+**Destinatari**: Tutti i cittadini in possesso di una Carta d'Identità in scadenza
 
-**Quando inviarlo**: Il giorno della scadenza del documento
+**Quando inviarlo**: Prima della scadenza del documento&#x20;
 
 **User story**: Come cittadino voglio essere avvisato quando scadrà il mio documento
 
+</details>
+
+<details>
+
+<summary>Avviso di scadenza Carta d'Identità</summary>
+
+{% include "../.gitbook/includes/single-sign-on.md" %}
+
 ***
 
-<mark style="color:purple;">ℹ️</mark> <mark style="background-color:yellow;">Il messaggio di preavviso della scadenza (a 180, 90 e 30 giorni) viene mandato al cittadino dal servizio nazionale di ANPR tramite IO. Si sconsiglia di duplicare l'invio da questo servizio con le stesse informazioni.</mark>
+**🖋 Titolo del messaggio:** La tua Carta di Identità è scaduta
+
+🗒 **Testo del messaggio**:
+
+La tua Carta d'Identità è scaduta il  \*\*`<gg/mm/aaaa>`\*\*.
+
+Richiedila al più presto: la Carta di Identità Elettronica (CIE), oltre ad essere un documento di riconoscimento ufficiale, ti servirà anche come \*\*strumento gratuito per accedere ai servizi online \*\* della Pubblica Amministrazione in modo semplice e veloce.
+
+\# Come richiedere la CIE.
+
+\## Prenota un appuntamento
+
+Se non l'hai ancora fatto, puoi prenotare un nuovo appuntamento utilizzando il sistema di \[prenotazione online]\(URL) o recarti all'ufficio Anagrafe più comodo per le tue esigenze.
+
+\[Se l'ente dispone di questa modalità di pagamento] \
+\## Paga in anticipo
+
+Puoi pagare prima del giorno dell'appuntamento per velocizzare le operazioni allo sportello\
+Verifica sul sito del Comune \[le modalità di pagamento]\(URL).
+
+**🪄 Pulsante**: Prenota appuntamento
+
+***
+
+**Destinatari**: Tutti i cittadini in possesso di una Carta d'Identità scaduta
+
+**Quando inviarlo**: Il giorno della scadenza del documento
+
+**User story**: Come cittadino voglio essere avvisato quando è scaduto il mio documento
 
 </details>
 
@@ -169,7 +219,7 @@ Se non l'hai ancora fatto, puoi prenotare un nuovo appuntamento online utilizzan
 **Lo sapevi?**\
 IO è integrata con SEND - Servizio Notifiche Digitale, per l'invio di comunicazioni a valore legale.
 
-[**Scopri di più su SEND**](https://notifichedigitali.pagopa.it/) [**-->**](https://www.pagopa.it/it/prodotti-e-servizi/piattaforma-notifiche-digitali)
+[**Scopri di più su SEND**](https://notifichedigitali.pagopa.it/) [→](https://www.pagopa.it/it/prodotti-e-servizi/piattaforma-notifiche-digitali)
 {% endhint %}
 
 {% hint style="info" %}
