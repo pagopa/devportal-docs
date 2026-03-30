@@ -1,0 +1,110 @@
+{
+  "avviso": {
+    "datiPagamento": {
+      "avviso": {
+        "breve": "Cod. Avviso",
+        "esteso": "Codice Avviso"
+      },
+      "cbill": {
+        "breve": "Cod. CBILL",
+        "esteso": "Codice CBILL"
+      },
+      "codiceFiscaleEnte": {
+        "breve": "Cod. Fiscale Ente",
+        "esteso": "Codice Fiscale Ente"
+      },
+      "destinatario": "Destinatario",
+      "enteCreditore": "Ente Creditore",
+      "istruzioni": {
+        "qrCode": {
+          "rataUnica": "Inquadra il codice QR con la tua app di pagamento o usa i dati accanto.",
+          "rate": "Inquadra il codice QR con la tua app di pagamento o usa i dati sopra."
+        }
+      },
+      "oggettoDelPagamento": "Oggetto del pagamento",
+      "rataUnica": "Rata unica",
+      "scadenza": "entro il",
+      "titolo": "Dati per il pagamento",
+      "numRata": "Rata {{Numero}}"
+    },
+    "dovePagare": {
+      "cta": "vai su pagopa.gov.it",
+      "estero": {
+        "online": {
+          "descrizione": {
+            "noEnte": "Vai su pagopa.gov.it e scegli il canale che preferisci.",
+            "sitoEnte": "Vai su pagopa.gov.it e scegli il canale che preferisci, o visita il sito di {{EnteNome}}."
+          },
+          "titolo": "Paga online"
+        },
+        "territorio": {
+          "descrizione": "presso Banche e Sportelli ATM, negli Uffici Postali e Punti Postali, nei Bar, Edicole, Ricevitorie, Supermercati, Tabaccherie e altri Esercenti Convenzionati in Italia.",
+          "titolo": "Paga sul territorio"
+        }
+      },
+      "gps": {
+        "online": {
+          "descrizione": {
+            "noEnte": "con l’app IO, dal tuo Home Banking, con la tua app di pagamento o con gli altri canali abilitati.",
+            "sitoEnte": "con l’app IO, sul sito di {{EnteNome}}, dal tuo Home Banking, con la tua app di pagamento o con gli altri canali abilitati."
+          },
+          "titolo": "Paga online"
+        }
+      },
+      "italia": {
+        "territorio": {
+          "descrizione": "presso Banche e Sportelli ATM, negli Uffici Postali e Punti Postali, nei Bar, Edicole, Ricevitorie, Supermercati, Tabaccherie e altri Esercenti Convenzionati.",
+          "titolo": "Paga sul territorio"
+        },
+        "online": {
+          "descrizione": {
+            "noEnte": "oppure dal tuo Home Banking, con la tua app di pagamento o con gli altri canali abilitati.",
+            "sitoEnte": "oppure sul sito di {{EnteNome}}, dal tuo Home Banking, con la tua app di pagamento o con gli altri canali abilitati."
+          },
+          "titolo": "Paga con l’app IO"
+        }
+      },
+      "titolo": "Dove pagare?"
+    },
+    "importoScadenza": {
+      "disclaimer": {
+        "giacenza": {
+          "descrizione": "La notifica corrisponde al giorno del ritiro, se questo avviene entro 10 giorni dalla data di deposito (la data più vecchia sull’avviso di giacenza). Se non ritiri il verbale entro i 10 giorni, calcola le scadenze iniziando a contare dall’undicesimo giorno.",
+          "titolo": "Cosa succede in caso di giacenza?"
+        },
+        "legal": "In fase di pagamento, se previsto dall’ente, l’importo potrebbe essere aggiornato automaticamente e subire variazioni in diminuzione (per sgravi, note di credito) o in aumento (per sanzioni, interessi, ecc.).",
+        "rate": {
+          "molteRate": "Importi e scadenze sono riportati nel dettaglio di ogni singola rata.",
+          "rate": "Puoi pagare per intero o in {{Numero}} rate",
+          "soloRate": "Puoi pagare in {{Numero}} rate"
+        },
+        "scadenze": {
+          "descrizione": "Il giorno della notifica non si conta. Se la scadenza è di domenica (o festivo), puoi pagare anche il primo giorno feriale successivo.",
+          "titolo": "Come si calcolano le scadenze?"
+        },
+        "scelta": "Scegli l’importo corretto per i termini previsti, altrimenti riceverai altre richieste di pagamento per le somme residue ed eventuali somme aggiuntive."
+      },
+      "euro": "Euro",
+      "importo": {
+        "importo": "Importo",
+        "ridotto": "Importo ridotto",
+        "scontato": "Importo scontato del 30%"
+      },
+      "scadenza": {
+        "cinqueGiorni": "entro 5 giorni dalla notifica del verbale",
+        "scadenza": "entro il",
+        "sessantaGiorni": "dal 6º al 60º giorno dalla notifica del verbale"
+      },
+      "titolo": "Quanto e quando pagare?"
+    },
+    "infoDestinatario": {
+      "titolo": "Destinatario"
+    },
+    "infoEnteCreditore": {
+      "titolo": "Ente Creditore"
+    },
+    "intestazione": {
+      "titolo": "Avviso di pagamento"
+    }
+  }
+}
