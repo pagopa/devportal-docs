@@ -1,0 +1,11 @@
+{
+  "label": "Per Iniziare",
+  "description": "Questa sezione funge da onboarding per i nuovi partner, spiegando il valore del servizio e i primi passi per l'abilitazione.",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "slug": "/external/per-iniziare"
+  }
+}
+
+
