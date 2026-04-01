@@ -1,9 +1,0 @@
-{
-  "label": "Casi d'uso",
-  "description": "Flussi end-to-end che mostrano scenari reali e interazioni complesse tra i sistemi.",
-  "position": 3,
-  "link": {
-    "type": "generated-index",
-    "slug": "/external/casi-duso"
-  }
-}
