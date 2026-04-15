@@ -157,7 +157,7 @@ Payload:
   "iat": 1747408537,
   "exp": 1747409537,
   "jti": "12297ac1-c192-4573-8350-207a4213e5ac",
-  "aud": "https://eservice.pa.it/api/v1",
+  "aud": "interop.pagopa.it/m2m",
   "sub": "9b361d49-33f4-4f1e-a88b-4e12661f2309",
   "client_id": "9b361d49-33f4-4f1e-a88b-4e12661f2309",
   "cnf": {
@@ -195,8 +195,17 @@ Authorization: DPoP <voucher_rilasciato_da_PDND>
 
 Inoltre, il fruitore deve inserire anche un altro header, in particolare:
 
-<pre><code><strong>DPoP: &#x3C;DPoP_proof_generata_al_passaggio_precedente>
-</strong></code></pre>
+```
+DPoP: <DPoP_proof_generata_al_passaggio_precedente>
+```
+
+A titolo di esempio, ecco una cURL per ottenere i primi 50 e-service del catalogo usando le API v. 3:
+
+```
+curl -X GET "https://api.interop.pagopa.it/v3/eservices?offset=0&limit=50" \
+  -H "Authorization: DPoP <voucher_rilasciato_da_PDND>" \
+  -H "DPoP: <DPoP_proof_generata_al_passaggio_precedente>"
+```
 
 ### Step 7: Attendere le verifiche di PDND Interoperabilità
 
