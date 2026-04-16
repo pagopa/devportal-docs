@@ -1,0 +1,48 @@
+# Table of contents
+
+## PER INIZIARE
+
+* [Panoramica del servizio](README.md)
+* [Flusso Operativo Completo](per-iniziare/02-ext-intro.md)
+* [Changelog](per-iniziare/03-ext-changelog.md)
+
+## TUTORIAL PER I PSP
+
+* [Come aderire al servizio](tutorial-per-i-psp/01-ext-processo-onboarding.md)
+* [Come attivare un utente al servizio](tutorial-per-i-psp/02-ext-processo-citizen-activation.md)
+* [Come disattivare un utente al servizio](tutorial-per-i-psp/03-ext-processo-citizen-deactivation.md)
+* [Come viene gestito un messaggio](tutorial-per-i-psp/04-ext-processo-receiving-msg-send.md)
+* [Come avviene il pagamento associato ad un messaggio](tutorial-per-i-psp/05-ext-processo-payment-psp.md)
+* [Come viene inviato un messaaggio](tutorial-per-i-psp/06-ext-processo-msg-to-tpp.md)
+* [Come effettuare un test di connettività](tutorial-per-i-psp/07-test-connettivita.md)
+
+## TUTORIAL PER GLI ENTI AGGREGATORI
+
+* [Come aderire al servizio](tutorial-per-gli-enti-aggregatori/01-ext-processo-onboarding-ea.md)
+* [Come attivare un utente al servizio](tutorial-per-gli-enti-aggregatori/02-ext-processo-citizen-activation-ea.md)
+* [Come disattivare un utente al servizio](tutorial-per-gli-enti-aggregatori/03-ext-processo-citizen-deactivation-ea.md)
+* [Come avviene il pagamento associato ad un messaggio](tutorial-per-gli-enti-aggregatori/04-ext-processo-msg-send-to-ea.md)
+* [Come avviene il pagamento associato ad un messaggio](tutorial-per-gli-enti-aggregatori/05-ext-processo-payment-ea.md)
+
+## CASI D'USO
+
+* [Ciclo di vita di un messaggio](casi-duso/ciclo-vita-messaggio.md)
+* [Flusso di un pagamento](casi-duso/flusso-pagamento.md)
+
+## RIFERIMENTI TECNICI
+
+* [Gestione della Sicurezza e Autenticazione](riferimenti-tecnici/authentication-security.md)
+* [API Reference - CITIZEN](riferimenti-tecnici/openapi-emd-ext-citizen.md)
+* [API Reference - MESSAGE](riferimenti-tecnici/openapi-emd-ext-message.md)
+* [API Reference - PAYMENT](riferimenti-tecnici/openapi-emd-ext-payment.md)
+* [API Reference - TPP](riferimenti-tecnici/openapi-emd-ext-tpp.md)
+* [Integrazione con le linee guida di design](riferimenti-tecnici/integrazione-lineeguida-design.md)
+* [Service Level Agreement (SLA)](riferimenti-tecnici/sla.md)
+* [Glossario](riferimenti-tecnici/glossario.md)
+* [Contatti](riferimenti-tecnici/contatti.md)
+
+## RIFERIMENTI NORMATIVI
+
+* [Riferimenti e Documenti Ufficiali](riferimenti-normativi/riferimenti-e-documenti-ufficiali.md)
+* [Termini e condizioni](riferimenti-normativi/08-ext-tc.md)
+* [Valore legale delle notifiche](riferimenti-normativi/09-ext-valorelegalenotifica.md)
