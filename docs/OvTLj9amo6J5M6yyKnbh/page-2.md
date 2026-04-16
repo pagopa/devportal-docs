@@ -4,14 +4,16 @@
 
 {% columns %}
 {% column %}
-<figure><img src="../OvTLj9amo6J5M6yyKnbh/.gitbook/assets/notifica_su_send-bc5f9a9b7c0f9fb68c1feb73992b50aa.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/notifica_su_send-bc5f9a9b7c0f9fb68c1feb73992b50aa.png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 
 {% column %}
-<figure><img src="../OvTLj9amo6J5M6yyKnbh/.gitbook/assets/notifica_su_send-bc5f9a9b7c0f9fb68c1feb73992b50aa.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/notifica_su_send-bc5f9a9b7c0f9fb68c1feb73992b50aa.png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 
 {% column %}
-<figure><img src="../OvTLj9amo6J5M6yyKnbh/.gitbook/assets/notifica_su_send-bc5f9a9b7c0f9fb68c1feb73992b50aa.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/notifica_su_send-bc5f9a9b7c0f9fb68c1feb73992b50aa.png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
+
+{% @arcade/embed flowId="H01x9VqMZ4QCU35ydiLo" url="https://app.arcade.software/share/H01x9VqMZ4QCU35ydiLo" %}
