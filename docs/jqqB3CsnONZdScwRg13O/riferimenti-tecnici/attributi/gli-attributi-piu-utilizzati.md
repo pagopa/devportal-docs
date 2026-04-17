@@ -1,10 +1,10 @@
 # Gli attributi più utilizzati
 
-Gli attributi sono utilizzati come requisiti di accesso agli e-service.&#x20;
+Gli attributi sono utilizzati come requisiti di accesso agli e-service.
 
 Per offrire maggiore granularità, gli enti presenti su IPA possiedono anche un attributo legato al nome del proprio ente. Ad esempio, Regione Lazio si troverà riconosciuto da IPA l'attributo _Regione Lazio_, che potrà essere usato come requisito per accedere ad un e-service.
 
-Questo porta ad avere, già in partenza, una base dati di oltre 24.000 attributi certificati. Orientarsi può essere difficile.&#x20;
+Questo porta ad avere, già in partenza, una base dati di oltre 24.000 attributi certificati. Orientarsi può essere difficile.
 
 Per questo motivo, viene qui riportata una sintesi degli attributi più frequentemente utilizzati. Questi attributi raggruppano alcuni cluster di enti con caratteristiche simili.
 
@@ -29,31 +29,29 @@ La fonte autoritativa principale di molti attributi relativi alla pubblica ammin
 
 Include i vertici dello Stato, i Ministeri e le autorità indipendenti.
 
-| Nome attributo su PDND                                              | Fonte autoritativa                 | Esempi pratici di enti che possiedono l'attributo |
-|---------------------------------------------------------------------|------------------------------------|---------------------------------------------------|
-| Presidenza del Consiglio, Ministeri e Avvocatura dello Stato       | IPA — `Codice_Categoria` C1        | Ministero dell'Interno, Ministero della Giustizia |
-| Organi Costituzionali e di Rilievo Costituzionale                  | IPA — `Codice_Categoria` C2        | Corte Costituzionale, CSM, CNEL                   |
-| Agenzie Fiscali                                                     | IPA — `Codice_Categoria` C10       | Agenzia delle Entrate, Agenzia Dogane e Monopoli  |
-| Autorita' Amministrative Indipendenti                              | IPA — `Codice_Categoria` C5        | AGCM (Antitrust), Garante Privacy, ARERA, CONSOB  |
-| Commissari Straordinari Governativi                                | IPA — `Codice_Categoria` L47       | Commissario ricostruzione, Commissario bonifiche  |
-| Enti Pubblici Non Economici                                        | IPA — `Codice_Categoria` C3        | Enti nazionali vari (es. ACI Centrale, CRI Centrale) |
-
+| Nome attributo su PDND                                       | Fonte autoritativa           | Esempi pratici di enti che possiedono l'attributo    |
+| ------------------------------------------------------------ | ---------------------------- | ---------------------------------------------------- |
+| Presidenza del Consiglio, Ministeri e Avvocatura dello Stato | IPA — `Codice_Categoria` C1  | Ministero dell'Interno, Ministero della Giustizia    |
+| Organi Costituzionali e di Rilievo Costituzionale            | IPA — `Codice_Categoria` C2  | Corte Costituzionale, CSM, CNEL                      |
+| Agenzie Fiscali                                              | IPA — `Codice_Categoria` C10 | Agenzia delle Entrate, Agenzia Dogane e Monopoli     |
+| Autorita' Amministrative Indipendenti                        | IPA — `Codice_Categoria` C5  | AGCM (Antitrust), Garante Privacy, ARERA, CONSOB     |
+| Commissari Straordinari Governativi                          | IPA — `Codice_Categoria` L47 | Commissario ricostruzione, Commissario bonifiche     |
+| Enti Pubblici Non Economici                                  | IPA — `Codice_Categoria` C3  | Enti nazionali vari (es. ACI Centrale, CRI Centrale) |
 
 #### Enti Territoriali e Locali
 
 Copre l'amministrazione del territorio dal livello regionale a quello comunale.
 
-| Nome attributo su PDND                                   | Fonte autoritativa                     | Esempi pratici di enti che possiedono l'attributo |
-|-----------------------------------------------------------|-----------------------------------------|---------------------------------------------------|
-| Comuni e loro Consorzi e Associazioni                     | IPA — `Codice_Categoria` L6             | Comune di Milano, Comune di Roccafiorita          |
-| Citta' Metropolitane                                      | IPA — `Codice_Categoria` L45            | Città Metropolitana di Roma, Città Metropolitana di Bari |
-| Regioni, Province Autonome e loro Consorzi                | IPA — `Codice_Categoria` L4             | Regione Lombardia, Provincia Autonoma di Bolzano  |
-| Province e loro Consorzi e Associazioni                   | IPA — `Codice_Categoria` L5             | Provincia di Bergamo, Provincia di Salerno        |
-| Unioni di Comuni e loro Consorzi                          | IPA — `Codice_Categoria` L18            | Unione dei Comuni della Bassa Romagna             |
-| Comunita' Montane e loro Consorzi                         | IPA — `Codice_Categoria` L12            | Comunità Montana Valle Brembana                   |
-| Altri Enti Locali                                         | IPA — `Codice_Categoria` L1             | Consorzi di servizi sociali o cimiteriali tra comuni |
-| Consorzi tra Amministrazioni Locali                       | IPA — `Codice_Categoria` L36            | Consorzi intercomunali generici                   |
-
+| Nome attributo su PDND                     | Fonte autoritativa           | Esempi pratici di enti che possiedono l'attributo        |
+| ------------------------------------------ | ---------------------------- | -------------------------------------------------------- |
+| Comuni e loro Consorzi e Associazioni      | IPA — `Codice_Categoria` L6  | Comune di Milano, Comune di Roccafiorita                 |
+| Citta' Metropolitane                       | IPA — `Codice_Categoria` L45 | Città Metropolitana di Roma, Città Metropolitana di Bari |
+| Regioni, Province Autonome e loro Consorzi | IPA — `Codice_Categoria` L4  | Regione Lombardia, Provincia Autonoma di Bolzano         |
+| Province e loro Consorzi e Associazioni    | IPA — `Codice_Categoria` L5  | Provincia di Bergamo, Provincia di Salerno               |
+| Unioni di Comuni e loro Consorzi           | IPA — `Codice_Categoria` L18 | Unione dei Comuni della Bassa Romagna                    |
+| Comunita' Montane e loro Consorzi          | IPA — `Codice_Categoria` L12 | Comunità Montana Valle Brembana                          |
+| Altri Enti Locali                          | IPA — `Codice_Categoria` L1  | Consorzi di servizi sociali o cimiteriali tra comuni     |
+| Consorzi tra Amministrazioni Locali        | IPA — `Codice_Categoria` L36 | Consorzi intercomunali generici                          |
 
 #### Giustizia, Sicurezza e Professioni
 
@@ -149,7 +147,7 @@ Include imprese, utility e stazioni appaltanti.
 
 ### Disponibilità sulle API di PDND Interoperabilità
 
-L'elenco completo degli attributi è sempre scaricabile attraverso le API di PDND Interoperabilità ([certificati](https://developer.pagopa.it/pdnd-interoperabilita/api/pdnd-core-v2#get-/certifiedAttributes), [verificati](https://developer.pagopa.it/pdnd-interoperabilita/api/pdnd-core-v2#get-/verifiedAttributes) e [dichiarati](https://developer.pagopa.it/pdnd-interoperabilita/api/pdnd-core-v2#get-/declaredAttributes)).
+L'elenco completo degli attributi è sempre scaricabile attraverso le API di PDND Interoperabilità ([certificati](https://developer.pagopa.it/it/pdnd-interoperabilita/api/PDND-core-v3#get-/certifiedAttributes), [verificati](https://developer.pagopa.it/it/pdnd-interoperabilita/api/PDND-core-v3#get-/verifiedAttributes) e [dichiarati](https://developer.pagopa.it/it/pdnd-interoperabilita/api/PDND-core-v3#get-/declaredAttributes)).
 
 ***
 
