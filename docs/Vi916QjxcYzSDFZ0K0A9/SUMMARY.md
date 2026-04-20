@@ -20,4 +20,4 @@
   * [Disattivazione](linee-guida/lesperienza-utente/disattivazione.md)
 * [❓ Contenuti utili all'assistenza](linee-guida/contenuti-utili-allassistenza.md)
 * [📄 Glossario](linee-guida/glossario.md)
-* [✅ Approvazione comunicazione](linee-guida/approvazione-comunicazione.md)
+* [✅ Approvazione dei materiali di Comunicazione](linee-guida/approvazione-dei-materiali-di-comunicazione.md)
