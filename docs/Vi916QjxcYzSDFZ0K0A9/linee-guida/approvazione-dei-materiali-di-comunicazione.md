@@ -11,7 +11,7 @@ Per la realizzazione di eventuali materiali di marketing legati alla funzionalit
 
 Qui di seguito è possibile scaricare gli asset e le linee guida:
 
-🔗 Logo di SEND
+🔗 [**Logo di SEND**](https://app.gitbook.com/s/xnuIxHY93w6yrtKccqEM/appendice/risorse-utili)
 
 🔗 [**Linee guida di SEND**](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FxnuIxHY93w6yrtKccqEM%2Fuploads%2F7lEKkCCjb9Ky0JhRgJdT%2Fsend_brand%20guidelines_DEF.pdf?alt=media\&token=511339d3-3ffc-4c5a-bbef-c09cc4687dd1)
 
