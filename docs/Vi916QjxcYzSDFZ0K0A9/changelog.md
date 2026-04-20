@@ -9,7 +9,7 @@ metaLinks:
 ### v 1.3 (Aprile 2026)
 
 * Aggiunti riferimenti all'allegato tecnico al fine di agevolare l'integrazione delle informazioni del messaggio di cortesia.
-* Specificato l'iter approvativo da parte del team di comunicazione PagoPA.
+* Nel capitolo [approvazione-dei-materiali-di-comunicazione.md](linee-guida/approvazione-dei-materiali-di-comunicazione.md "mention") è stato specificato l'iter approvativo da parte del team di comunicazione PagoPA.
 
 ### v 1.2 (Dicembre 2025)
 
