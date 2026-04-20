@@ -13,7 +13,7 @@ Qui di seguito è possibile scaricare gli asset e le linee guida:
 
 🔗 Logo di SEND
 
-🔗 Linee guida di SEND
+🔗 [**Linee guida di SEND**](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FxnuIxHY93w6yrtKccqEM%2Fuploads%2F7lEKkCCjb9Ky0JhRgJdT%2Fsend_brand%20guidelines_DEF.pdf?alt=media\&token=511339d3-3ffc-4c5a-bbef-c09cc4687dd1)
 
 {% hint style="warning" %}
 Una volta pronti i materiali, prima della divulgazione, sarà necessario inviare al Team di Comunicazione di PagoPA per visione e approvazione dei contenuti e dei materiali creativi all’indirizzo [**comunicazione@pagopa.it**](mailto:comunicazione@pagopa.it) almeno 3 giorni prima della pubblicazione sui propri canali.
