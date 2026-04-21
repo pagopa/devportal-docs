@@ -4,11 +4,11 @@
 Il Developer Portal è ancora in funzione, ma verrà dismesso nei prossimi mesi.
 {% endhint %}
 
-Il primo passo per utilizzare le API di IO è l’[**iscrizione al Developer Portal**](https://developer.io.italia.it/)**.**&#x20;
+Il primo passo per utilizzare le API di IO è l’[**iscrizione al Developer Portal**](https://developer.io.italia.it/)**.**
 
 Per completare l’iscrizione dovrai validare un indirizzo email, un numero di cellulare e inserire i dati anagrafici e di riferimento dell’ente.
 
-<figure><img src="../.gitbook/assets/0" alt="Esempio della schermata di registrazione"><figcaption><p>I dati da inserire per iscrivere l'ente al Developer Portal</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/0.png" alt=""><figcaption></figcaption></figure>
 
 ## Sandbox
 
