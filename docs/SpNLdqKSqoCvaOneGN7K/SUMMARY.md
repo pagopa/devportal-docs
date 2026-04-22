@@ -4,7 +4,7 @@
 
 ## IL TOOLKIT
 
-* [⁉ Perché usare questo toolkit](il-toolkit/perche-usare-questo-toolkit.md)
+* [👍 Perché usare questo toolkit](il-toolkit/perche-usare-questo-toolkit.md)
 * [🎯 Una sola campagna per tutti gli enti](il-toolkit/una-sola-campagna-per-tutti-gli-enti.md)
 
 ## I MATERIALI
@@ -18,7 +18,7 @@
 * [📸 Immagini di prodotto](i-materiali/immagini-di-prodotto.md)
 * [📰 Media relations](i-materiali/media-relations.md)
 * [📧 Condivisione della campagna](i-materiali/condivisione-della-campagna.md)
-* [🖱 Comunicazione interna](i-materiali/comunicazione-interna.md)
+* [🖱️ Comunicazione interna](i-materiali/comunicazione-interna.md)
 
 ## APPENDICE
 
