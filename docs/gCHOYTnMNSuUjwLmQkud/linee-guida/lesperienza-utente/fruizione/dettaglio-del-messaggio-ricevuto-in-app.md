@@ -1,6 +1,11 @@
 # Dettaglio del messaggio ricevuto in app
 
-<div><figure><img src="../../../.gitbook/assets/TPP - Messaggio di cortesia (5).png" alt=""><figcaption><p>Messaggio di cortesia con domicilio digitale non attivo</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/TPP - Messaggio di cortesia DOMD.png" alt=""><figcaption><p>Messaggio di cortesia con domicilio digitale attivo</p></figcaption></figure></div>
+| | |
+|---|---|
+| ![](../../../.gitbook/assets/TPP%20-%20Messaggio%20di%20cortesia%20(5).png) | ![](../../../.gitbook/assets/TPP%20-%20Messaggio%20di%20cortesia%20DOMD.png) |
+
+<img src="../../../.gitbook/assets/TPP%20-%20Messaggio%20di%20cortesia%20(5).png" width="45%" />
+<img src="../../../.gitbook/assets/TPP%20-%20Messaggio%20di%20cortesia%20DOMD.png" width="45%" />
 
 ### Elementi obbligatori
 
