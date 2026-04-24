@@ -5,9 +5,7 @@ metaLinks:
       https://app.gitbook.com/s/UdBZLK0IXWx2yqcEv6ks/tutorial-per-gli-enti-aggregatori/01-ext-processo-onboarding-ea
 ---
 
-# Come aderire al servizio
-
-## Come aderire al servizio Messaggi di Cortesia
+# Come aderire al servizio Messaggi di Cortesia - TPP/EA
 
 {% hint style="danger" %}
 La documentazione per la gestione degli **Enti Aggregatori** è in fase di revisione. **NON UTILIZZARLA** per esportarla all'esterno
