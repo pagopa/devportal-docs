@@ -8,7 +8,7 @@ description: In questa pagina viene indicata la corretta formattazione degli ind
 
 La corretta composizione di un indirizzo di destinazione, per il recapito di una corrispondenza cartacea, passa attraverso il soddisfacimento di due aspetti fondamentali per gli operatori postali:
 
-* Completezza del contenuto&#x20;
+* Completezza del contenuto
 * Rispetto della struttura
 
 ## Definizioni e regole sulla lunghezza
@@ -16,16 +16,65 @@ La corretta composizione di un indirizzo di destinazione, per il recapito di una
 SEND fornisce campi specifici per gli Enti mittenti al fine di gestire le notifiche, consentendo di inserire tutti gli elementi necessari per il recapito al destinatario. È essenziale interpretare e compilare correttamente questi campi per la corretta accettazione della notifica e per assicurare il successo della consegna al destinatario.
 
 * **`denomination` (obbligatorio):** denominazione principale del destinatario (nome e cognome per persone fisiche, ragione sociale per persone giuridiche). La lunghezza massima accettata dalla piattaforma è **88** caratteri. La suddivisione del contenuto su più righe nella stampa dell'indirizzo sulla raccomandata è demandata al sistema di postalizzazione, secondo le specifiche previste e descritte in [logiche-di-stampa-indirizzo.md](logiche-di-stampa-indirizzo.md "mention").
-* **`at`** : denominazione secondaria, ed è destinato a contenere informazioni aggiuntive per identificare con maggiore precisione il destinatario, come "presso" o "alla c.a.". \
+* **`at`** : denominazione secondaria, ed è destinato a contenere informazioni aggiuntive per identificare con maggiore precisione il destinatario, come "presso" o "alla c.a.".\
   La lunghezza massima accettata dalla piattaforma è **88** caratteri.
 * **`municipality` (obbligatorio):** Comune di destinazione.
-* **`municipalityDetails` :** nome secondario della località di destinazione (frazione/località).&#x20;
-* **`address` (obbligatorio):** indirizzo del domicilio fisico. Vanno inseriti il qualificatore (via, piazza, viale...), il nome (toponimo) e il civico dell'indirizzo stradale. \
-  In alternativa, può essere indicata la Casella Postale. **Attenzione**: in quest'ultimo caso va popolato anche il campo `addressDetails` con la denominazione dell'ufficio postale in cui è ubicata la Casella, preceduta dalla dicitura "UFFICIO".&#x20;
+* **`municipalityDetails` :** nome secondario della località di destinazione (frazione/località).
+* **`address` \* (obbligatorio):** indirizzo del domicilio fisico. **Attenzione**: in quest'ultimo caso va popolato anche il campo `addressDetails` con la denominazione dell'ufficio postale in cui è ubicata la Casella, preceduta dalla dicitura "UFFICIO".
 * **`addressDetails`**: dedicato alle informazioni aggiuntive sull'ubicazione (es. scala, palazzina, isolato, stabile...) che facilitano l'identificazione del punto di recapito, specialmente per unità abitative complesse.
-* **`zip` (obbligatorio):** ripartizione territoriale postale del Paese di riferimento (CAP per l'Italia). È valorizzabile fino a **5** caratteri.&#x20;
+* **`zip` (obbligatorio):** ripartizione territoriale postale del Paese di riferimento (CAP per l'Italia). È valorizzabile fino a **5** caratteri.
 * **`province` (obbligatorio):** Sigla della provincia di appartenenza del Comune, per un massimo di **2** caratteri.
 * **`foreignState` :** Denominazione dello Stato estero, obbligatoria nel caso di destinazione diverse da Italia, Città del Vaticano e San Marino.
+
+### Compilazione elemento _`Address`_
+
+\*L'indirizzo (`address`) deve essere inserito in un'unica stringa rispettando l'ordine delle componenti come indicato nella tabella sottostante. Ogni componente deve essere separata da uno spazio singolo.
+
+ES. VIA MONTE NAPOLEONE 16/A
+
+| **Componente**           | **Descrizione**                                       | **Esempio**       |
+| ------------------------ | ----------------------------------------------------- | ----------------- |
+| Toponimo (Specie)        | Il tipo di strada (Via, Viale, Piazza, ecc.)          | `VIA`             |
+| Toponimo (Denominazione) | Il nome della strada                                  | `MONTE NAPOLEONE` |
+| Numero Civico            | Il numero dell'edificio                               | `16`              |
+| Lettera o Esponente      | Valore alfanumerico                                   | `A`               |
+| Metrico                  | Distanza con prefisso "KM." (solo se manca il civico) | `KM. 150`         |
+| SNC                      | Senza Numero Civico                                   | `SNC`             |
+
+Esempio JSON:
+
+```json
+{
+    "address": "VIA MONTE NAPOLEONE 16/A",
+    "zip": "20121",
+    "municipality": "MILANO",
+    "province": "MI"
+}
+```
+
+### Compilazione elemento _`AddressDetails`_
+
+Il campo `addressDetails` è destinato a contenere le informazioni puntuali che facilitano l'individuazione del punto di recapito una volta raggiunto l'indirizzo principale.&#x20;
+
+Questo campo non deve contenere dati già presenti in `address`.
+
+Per una corretta compilazione, i dati vanno inseriti in quest'ordine:
+
+1. **Colore**: Un singolo carattere alfanumerico che identifica il colore del numero civico (caratteristica presente in alcune città come Firenze o Genova).
+   * _Esempio:_ `R` (per Rosso), `N` (per Nero).
+2. **Scala**: L'identificativo della scala all'interno del condominio o del complesso, preceduto obbligatoriamente dalla parola "Scala" e non abbreviato "sc".
+   * _Esempio:_ `Scala B`, `Scala 1`.
+
+Esempio JSON:
+
+<pre class="language-json"><code class="lang-json">{
+    "address": "VIA DEI MILLE 10/A",
+<strong>    "addressDetails": "N Scala C",
+</strong>    "zip": "50131",
+    "municipality": "FIRENZE",
+    "province": "FI"
+}
+</code></pre>
 
 ### Doppia località in bilingue
 
@@ -36,14 +85,10 @@ Il bilinguismo è gestito dal recapitista e dal sistema di normalizzazione esclu
 * Strade (`address`)
 
 È quindi possibile popolare questi campi indifferentemente con la dicitura italiana o tedesca.\
-Per il solo campo `municipality`  è possibile indicare il nome del Comune in entrambe le lingue: ciascuna dicitura deve terminare con un punto (`.`), oppure devono essere separate da uno spazio vuoto (`blank`). Ad esempio:
+Per il solo campo `municipality` è possibile indicare il nome del Comune in entrambe le lingue: ciascuna dicitura deve terminare con un punto (`.`), oppure devono essere separate da uno spazio vuoto (`blank`). Ad esempio:
 
 `"municipality": "SAN LORENZO DI SEBATO. ST. LORENZEN."`
 
 `"municipality": "ALDINO ALDEIN."`
 
-In questo caso, il normalizzatore restituirà la sola dicitura in italiano. \
-&#x20;
-
-
-
+In questo caso, il normalizzatore restituirà la sola dicitura in italiano.<br>
