@@ -16,10 +16,9 @@ La procedura per accedere al front office di PDND Interoperabilità è la seguen
 La piattaforma mette a disposizione tre ambienti separati, ciascuno con uno scopo preciso:
 
 * **Produzione**: È l'ambiente di esercizio reale, dove avvengono gli scambi di dati ufficiali tra gli enti.
-* **Collaudo**: È un ambiente identico alla produzione ma utilizzato per testare le integrazioni e il corretto funzionamento degli e-service prima di renderli disponibili a tutti. Non devono essere utilizzati dati reali.
-* **Attestazione**: È un ambiente di prova aperto anche a soggetti che non hanno ancora completato l'adesione (es. imprese private). Utilizza esclusivamente dati fittizi e serve a familiarizzare con le funzionalità della piattaforma.
+* **Collaudo e Attestazione**: Sono ambienti identici alla produzione ma utilizzati per testare le integrazioni e il corretto funzionamento degli e-service prima di renderli disponibili a tutti. Non devono essere utilizzati dati reali.
 
-<table><thead><tr><th width="154.7718505859375">Nome ambiente</th><th width="285.79998779296875">Abilitati all'erogazione</th><th>Si erogano dati reali</th></tr></thead><tbody><tr><td>Produzione</td><td>Pubbliche Amministrazioni (PA), Gestori di Servizi Pubblici (GSP), Società a Controllo Pubblico (SCP), Società in Conto Economico Consolidato (SCEC)</td><td>Sì</td></tr><tr><td>Collaudo</td><td>Pubbliche Amministrazioni (PA), Gestori di Servizi Pubblici (GSP), Società a Controllo Pubblico (SCP), Società in Conto Economico Consolidato (SCEC)</td><td>No</td></tr><tr><td>Attestazione</td><td>Tutti gli aderenti</td><td>No</td></tr></tbody></table>
+<table><thead><tr><th width="154.7718505859375">Nome ambiente</th><th width="384.1656494140625">Abilitati all'erogazione</th><th>Si erogano dati reali</th></tr></thead><tbody><tr><td>Produzione</td><td>Tutti gli aderenti</td><td>Sì</td></tr><tr><td>Collaudo</td><td>Tutti gli aderenti</td><td>No</td></tr><tr><td>Attestazione</td><td>Tutti gli aderenti</td><td>No</td></tr></tbody></table>
 
 ### Gestione di Utenti e Ruoli
 
@@ -33,7 +32,7 @@ L'**amministratore** è la figura responsabile della gestione degli utenti del p
 
 #### Permessi
 
-<table><thead><tr><th width="139.221923828125">Attività</th><th width="151.543701171875">Amministratore</th><th width="140.73126220703125">Operatore API</th><th>Operatore di sicurezza</th></tr></thead><tbody><tr><td>Nomina e revoca Amministratori</td><td>✅</td><td>❌</td><td>❌</td></tr><tr><td>Crea e rimuove operatori</td><td>✅</td><td>❌</td><td>❌</td></tr><tr><td>Gestisce lo stato dell’e-service</td><td>✅</td><td>❌</td><td>❌</td></tr><tr><td>Modifica gli attributi dell’e-service</td><td>✅</td><td>❌</td><td>❌</td></tr><tr><td>Gestisce la creazione dell’e-service</td><td>✅</td><td>✅</td><td>❌</td></tr><tr><td>Inviare una richiesta fruizione</td><td>✅</td><td>❌</td><td>❌</td></tr><tr><td>Gestisce la fruizione di e-service</td><td>✅</td><td>✅</td><td>❌</td></tr><tr><td>Gestisce il materiale crittografico</td><td>✅</td><td>✅</td><td>✅</td></tr></tbody></table>
+<table><thead><tr><th width="313.5125732421875">Attività</th><th width="151.543701171875">Amministratore</th><th width="140.73126220703125">Operatore API</th><th>Operatore di sicurezza</th></tr></thead><tbody><tr><td>Nomina e revoca Amministratori</td><td>✅</td><td>❌</td><td>❌</td></tr><tr><td>Crea e rimuove operatori</td><td>✅</td><td>❌</td><td>❌</td></tr><tr><td>Gestisce lo stato dell’e-service</td><td>✅</td><td>❌</td><td>❌</td></tr><tr><td>Modifica gli attributi dell’e-service</td><td>✅</td><td>❌</td><td>❌</td></tr><tr><td>Gestisce la creazione dell’e-service</td><td>✅</td><td>✅</td><td>❌</td></tr><tr><td>Inviare una richiesta fruizione</td><td>✅</td><td>❌</td><td>❌</td></tr><tr><td>Gestisce la fruizione di e-service</td><td>✅</td><td>✅</td><td>❌</td></tr><tr><td>Gestisce il materiale crittografico</td><td>✅</td><td>✅</td><td>✅</td></tr></tbody></table>
 
 #### Creazione e Gestione degli Utenti
 

@@ -8,12 +8,14 @@ Quando un erogatore crea una nuova versione di e-service, imposta due **soglie d
 Queste soglie, previste dalle Linee Guida, favoriscono il corretto dimensionamento del servizio e la continuità operativa.
 
 {% hint style="info" %}
-Obiettivi:&#x20;
+Obiettivi:
 
 * pianificazione delle risorse dell’erogatore;
-* guida ai fruitori verso stime coerenti;&#x20;
+* guida ai fruitori verso stime coerenti;
 * modello d’uso sostenibile e osservabile nel tempo.
 {% endhint %}
+
+È inoltre possibile definire delle soglie più stringenti, basate sui requisiti di accesso. Questa impostazione vale solo per gli **attributi certificati**. Per fare un esempio, se un e-service è aperto a tutti gli enti che possiedono l'attributo certificato _Comuni e loro Consorzi e Associazioni_ oppure l'attributo certificato _Regioni_, è possibile assegnare due soglie diverse per queste due tipologie di enti. Maggiori dettagli nell'[esempio pratico](soglie-e-approvazioni.md#soglia-per-requisito-di-accesso) sotto.
 
 ## Considerazioni amministrative e di privacy
 
@@ -45,6 +47,19 @@ Le finalità che risultavano _in attesa di approvazione_ **prima** della modific
 
 La terza finalità è _in attesa di approvazione_ (somma = **2.001** > **2.000** per fruitore). L’erogatore può **approvare** manualmente o **innalzare** la soglia per fruitore.
 
+### Soglia per requisito di accesso
+
+L'e-service ha come requisiti di accesso gli attributi certificati _Comuni e loro Consorzi e Associazioni_ e _Regioni_.
+
+1. Versione 1 di “E-service esempio”: **2.000** chiamate API/giorno per fruitore e **50.000** totali; inoltre, imposta una soglia personalizzata a **10.000** chiamate API/giorno per Regioni.
+2. Ente Comune X e Ente Regione Y si iscrivono e le richieste vengono attivate.
+3. Ente Comune X crea una finalità: **3.000** chiamate/giorno.
+4. Ente Regione Y crea una finalità: **9.000** chiamate/giorno.
+
+La finalità di Ente Comune X è _in attesa di approvazione_ (**3.000** > **2.000** per fruitore). L’erogatore può **approvare** manualmente o **innalzare** la soglia per fruitore.
+
+La finalità di Ente Regione Y è attiva (**9.000** < **10.000** per soglia dedicata alle Regioni).
+
 ### Soglia totale
 
 1. Versione 1 di “E-service esempio”: **5.000** chiamate API/giorno per fruitore e **10.000** totali.
@@ -74,7 +89,7 @@ La finalità di Ente D va _in attesa di approvazione_. L’erogatore può **appr
 9. Ente D crea e inoltra una finalità per _E-service esempio_, _Finalità 1_, con 1 chiamata API/giorno;
 10. l'erogatore, Ente A, innalza la soglia totale a 15.000 chiamate API/giorno.
 
-In questo caso, la finalità _Finalità 1_ di Ente D rimane _In attesa di approvazione_ e dovrà essere approvata manualmente dall'erogatore.&#x20;
+In questo caso, la finalità _Finalità 1_ di Ente D rimane _In attesa di approvazione_ e dovrà essere approvata manualmente dall'erogatore.
 
 Se però un qualsiasi ente iscritto all'e-service dovesse creare nuove finalità che, sommate, rimangano sotto alla nuova disponibilità, quell'ente si troverà le finalità direttamente _Attive_. La nuova disponibilità è di 5.000 chiamate API/giorno (originariamente 10.000, innalzata a 15.000).
 

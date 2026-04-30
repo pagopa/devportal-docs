@@ -1,5 +1,14 @@
 # Changelog 2026
 
+#### 2.17.0
+
+* Soglie differenziate: l'erogatore può impostare diverse soglie per attributo certificato (es. 5.000 chiamate API/giorno per Comuni, 20.000 per Regioni)
+* Attivazione deleghe su e-service già pubblicati: l'erogatore può gestire la preferenza se accettare o meno deleghe per la fruizione per il proprio e-service. La preferenza può essere aggiornata in qualsiasi momento.
+* Nuovi attributi certificati per i privati: due attributi certificati vengono assegnati ad alcune categorie di privato all'atto dell'adesione a PDND, in particolare
+  * adesione come "Privato": attributo certificato _Adesione dal Registro Imprese;_
+  * adesione come "SCP - Società a Controllo Pubblico": sia l'attributo _Adesione dal Registro Imprese_ che l'attributo _Società a Controllo Pubblico - Registro Imprese_. &#x20;
+* [API v. 3](https://www.interop.pagopa.it/news/api-v3): aggiunte le operazioni relative a client e portachiavi
+
 #### 2.16.1 (18 marzo)
 
 * [API v. 3](https://www.interop.pagopa.it/news/api-v3): API di PDND con tutte le operazioni di piattaforma disponibili, incluse operazioni su operatori e chiavi. Si accede con sicurezza avanzata

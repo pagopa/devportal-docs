@@ -8,6 +8,8 @@ Entrare nel front office in _**Erogazione > I miei e-service**_ e selezionare l'
 
 Sul campo modificabile, sarà presente una matita con la dicitura _**Modifica**_. Cliccandola, si aprirà un pannello laterale per operare la modifica.
 
+L'unica eccezione sono le soglie dedicate a specifici attributi. Per questi, si trova la dicitura _**Personalizza soglie**_ all'interno dell'attributo certificato previsto tra i requisiti di accesso alla versione di e-service.&#x20;
+
 ### Step 3: Confermare la modifica
 
 Una volta completata la modifica, cliccare sul bottone in basso nel pannello laterale, _**Aggiorna**_. Il pulsante è presente per tutte le modifiche effettuabili tranne quelle sulla documentazione, che seguono un processo leggermente diverso, necessario a garantire il caricamento dei file sul server.

@@ -24,6 +24,7 @@ La fonte autoritativa principale di molti attributi relativi alla pubblica ammin
 8. [Ambiente, Territorio e Infrastrutture](gli-attributi-piu-utilizzati.md#ambiente-territorio-e-infrastrutture)
 9. [Sviluppo Economico e Servizi Pubblici](gli-attributi-piu-utilizzati.md#sviluppo-economico-e-servizi-pubblici)
 10. [Pubbliche Amministrazioni](gli-attributi-piu-utilizzati.md#pubbliche-amministrazioni)
+11. [Privati](gli-attributi-piu-utilizzati.md#privati)
 
 #### Amministrazioni Centrali e Costituzionali
 
@@ -143,7 +144,11 @@ Include imprese, utility e stazioni appaltanti.
 
 #### Pubbliche Amministrazioni
 
-<table><thead><tr><th width="162.59381103515625">Nome attributo su PDND</th><th></th><th>Esempi pratici di enti che possiedono l'attributo</th></tr></thead><tbody><tr><td>Pubbliche Amministrazioni</td><td>IPA — <code>Tipologia</code> Pubbliche Amministrazioni</td><td>Ministero dell’Economia e delle Finanze, Comune di Roma, Regione Lombardia, Università degli Studi di Milano, Agenzia delle Entrate, Istituto Nazionale di Statistica (ISTAT)</td></tr></tbody></table>
+<table><thead><tr><th width="162.59381103515625">Nome attributo su PDND</th><th>Fonte autoritativa</th><th>Esempi pratici di enti che possiedono l'attributo</th></tr></thead><tbody><tr><td>Pubbliche Amministrazioni</td><td>IPA — <code>Tipologia</code> Pubbliche Amministrazioni</td><td>Ministero dell’Economia e delle Finanze, Comune di Roma, Regione Lombardia, Università degli Studi di Milano, Agenzia delle Entrate, Istituto Nazionale di Statistica (ISTAT)</td></tr></tbody></table>
+
+#### Privati
+
+<table><thead><tr><th width="220.29693603515625">Nome attributo su PDND</th><th width="283.28125">Criterio di assegnazione</th><th>Note</th></tr></thead><tbody><tr><td>Adesione dal Registro Imprese</td><td>Riconosciuto agli enti che aderiscono come "Privato" o "Società a Controllo Pubblico" attraverso Area Riservata</td><td>Per i dettagli, si veda la <a href="../../per-iniziare/guida-alladesione.md">sezione dedicata all'adesione</a>.</td></tr><tr><td>Società a Controllo Pubblico - Registro Imprese</td><td>Riconosciuto agli enti che aderiscono come "Privato" o "Società a Controllo Pubblico" attraverso Area Riservata</td><td>L'attributo è riconosciuto a seguito di un'istruttoria. Per i dettagli, si veda la <a href="../../per-iniziare/guida-alladesione.md">sezione dedicata all'adesione</a>.</td></tr></tbody></table>
 
 ### Disponibilità sulle API di PDND Interoperabilità
 

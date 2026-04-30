@@ -46,7 +46,7 @@ Nella parte versionata sono richieste le seguenti informazioni:
 * **Changelog (descrizione della versione):** breve descrizione testuale delle modifiche introdotte rispetto alle versioni precedenti.
 * **Attributi:** insieme dei requisiti di accesso che il fruitore deve possedere per attivare la richiesta di fruizione. Maggiori dettagli nella [sezione dedicata](../attributi/).
 * **Policy di attivazione delle richieste di fruizione:** per impostazione predefinita, le richieste vengono attivate automaticamente se il fruitore rispetta i requisiti previsti. L’erogatore può scegliere di attivarle manualmente.
-* **Soglie delle chiamate API:** indicano il carico massimo, espresso in chiamate API/giorno, che l’infrastruttura è in grado di sostenere. Maggiori dettagli nella [sezione dedicata](soglie-e-approvazioni.md).
+* **Soglie delle chiamate API:** indicano il carico massimo, espresso in chiamate API/giorno, che l’infrastruttura è in grado di sostenere. È possibile definirle sia a livello di versione di e-service, che di categoria di aderente, attraverso gli attributi certificati. Maggiori dettagli nella [sezione dedicata](soglie-e-approvazioni.md).
 * **Durata della validità del voucher:** indica il periodo di validità del voucher rilasciato da PDND, che consente l’accesso al servizio.
 * **Parametro audience (**_**aud**_**):** claim standard che identifica la risorsa per la quale viene autorizzata la richiesta. L'erogatore riceverà questo valore all'interno del voucher rilasciato al fruitore da PDND Interoperabilità.
 
