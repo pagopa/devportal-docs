@@ -1,9 +1,3 @@
----
-metaLinks:
-  alternates:
-    - https://app.gitbook.com/s/UdBZLK0IXWx2yqcEv6ks/riferimenti-tecnici/sla
----
-
 # Service Level Agreement (SLA)
 
 ## Manuale operativo Messaggi di Cortesia (MDC)
@@ -20,12 +14,12 @@ I livelli di servizio qui definiti si applicano esclusivamente nei rapporti tra 
 
 _A carico di PagoPA S.p.A. e dei soggetti aderenti firmatari._
 
-| Metrica                             | Obiettivo                                                                                                                                                                                |
-| ----------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Disponibilità Servizi**           | H24 / 7 giorni su 7 (eccetto cause di forza maggiore)                                                                                                                                    |
-| **Finestra manutenzione ordinaria** | Preferibilmente 22:00–06:00. Fatte salve esigenze specifiche comunicate tramite [Service Desk](https://pagopa.atlassian.net/servicedesk/customer/portal/3)                               |
-| **Preavviso manutenzione**          | ≥ 5 giorni lavorativi                                                                                                                                                                    |
-| **Manutenzioni straordinarie**      | Preavviso tempestivo (entro 3 ore dal sorgere della necessità), con fallback se possibile. Comunicazione via [Service Desk](https://pagopa.atlassian.net/servicedesk/customer/portal/3). |
+| Metrica                             | Obiettivo                                                                                                                            |
+| ----------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
+| **Disponibilità Servizi**           | H24 / 7 giorni su 7 (eccetto cause di forza maggiore)                                                                                |
+| **Finestra manutenzione ordinaria** | Preferibilmente 22:00–06:00. Fatte salve esigenze specifiche comunicate tramite [Service Desk](sla.md)                               |
+| **Preavviso manutenzione**          | ≥ 5 giorni lavorativi                                                                                                                |
+| **Manutenzioni straordinarie**      | Preavviso tempestivo (entro 3 ore dal sorgere della necessità), con fallback se possibile. Comunicazione via [Service Desk](sla.md). |
 
 ***
 

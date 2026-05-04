@@ -1,10 +1,3 @@
----
-metaLinks:
-  alternates:
-    - >-
-      https://app.gitbook.com/s/UdBZLK0IXWx2yqcEv6ks/tutorial-per-i-psp/07-test-connettivita
----
-
 # Come effettuare un test di connettività
 
 Questo tutorial guida attraverso il processo tecnico per verificare la correttezza delle credenziali ottenute in fase di onboarding. Questa operazione è fondamentale sia per la verifica delle credenziali ma anche per verificare la raggiungibilità dei servizi per i rispettivi ambienti di Collaudo (UAT) o Produzione.

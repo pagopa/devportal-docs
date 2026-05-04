@@ -1,10 +1,3 @@
----
-metaLinks:
-  alternates:
-    - >-
-      https://app.gitbook.com/s/UdBZLK0IXWx2yqcEv6ks/riferimenti-tecnici/openapi-emd-ext-payment
----
-
 # API Reference - PAYMENT
 
 **Versione:** 1.4.1\

@@ -1,10 +1,3 @@
----
-metaLinks:
-  alternates:
-    - >-
-      https://app.gitbook.com/s/UdBZLK0IXWx2yqcEv6ks/tutorial-per-i-psp/03-ext-processo-citizen-deactivation
----
-
 # Come disattivare un utente al servizio
 
 Questo tutorial guida attraverso il processo tecnico di Disattivazione di un utente. Questa operazione è fondamentale per consentire all'utente di modificare le proprie preferenze. In questa fase, l'utente ha la possibilità di disattivare il servizio di messaggi di cortesia in qualsiasi momento. La disattivazione del servizio, così come l'attivazione, sarà possibile solo attraverso l'App del PSP.

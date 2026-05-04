@@ -1,10 +1,3 @@
----
-metaLinks:
-  alternates:
-    - >-
-      https://app.gitbook.com/s/UdBZLK0IXWx2yqcEv6ks/casi-duso/ciclo-vita-messaggio
----
-
 # Ciclo di vita di un messaggio
 
 Ciclo di vita della notifica SEND su App PSP: dall'invio del messaggio da parte di SEND alla ricezione della notifica push sul dispositivo dell'utente, inclusi i meccanismi di retry in caso di errore.
@@ -230,7 +223,9 @@ Se tutti i tentativi configurati falliscono:
 3. La PSP viene **notificata** attraverso i canali di comunicazione stabiliti
 4. Il team di EMD collabora con la PSP per identificare e risolvere il problema
 
-:::note Il meccanismo di retry è completamente automatico e trasparente per la PSP. La PSP non deve implementare alcuna logica di retry lato suo — è sufficiente esporre un endpoint stabile e rispondere con `200 OK` alla ricezione. :::
+{% hint style="info" %}
+Il meccanismo di retry è completamente automatico e trasparente per la PSP. La PSP non deve implementare alcuna logica di retry lato suo — è sufficiente esporre un endpoint stabile e rispondere con `200 OK` alla ricezione.
+{% endhint %}
 
 ***
 

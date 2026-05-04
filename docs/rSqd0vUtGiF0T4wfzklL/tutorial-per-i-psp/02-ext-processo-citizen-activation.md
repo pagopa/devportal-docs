@@ -1,10 +1,3 @@
----
-metaLinks:
-  alternates:
-    - >-
-      https://app.gitbook.com/s/UdBZLK0IXWx2yqcEv6ks/tutorial-per-i-psp/02-ext-processo-citizen-activation
----
-
 # Come attivare un utente al servizio
 
 Questo tutorial guida attraverso il processo tecnico di attivazione di un utente. Questa operazione è fondamentale per registrare il consenso dell'utente a ricevere i messaggi di cortesia di SEND.

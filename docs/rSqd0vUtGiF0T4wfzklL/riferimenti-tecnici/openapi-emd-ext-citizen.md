@@ -1,14 +1,7 @@
----
-metaLinks:
-  alternates:
-    - >-
-      https://app.gitbook.com/s/UdBZLK0IXWx2yqcEv6ks/riferimenti-tecnici/openapi-emd-ext-citizen
----
-
 # API Reference - CITIZEN
 
 **Versione:** 1.0.6\
-**Titolo:** Gestione COnsensi del Cittadino - TPP Integration\
+**Titolo:** Gestione Consensi del Cittadino - TPP Integration\
 **Contatto:** PagoPA S.p.A. - messaggidicortesia@assistenza.pagopa.it
 
 ***

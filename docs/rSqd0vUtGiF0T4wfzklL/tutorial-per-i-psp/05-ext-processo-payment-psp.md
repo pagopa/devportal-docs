@@ -1,10 +1,3 @@
----
-metaLinks:
-  alternates:
-    - >-
-      https://app.gitbook.com/s/UdBZLK0IXWx2yqcEv6ks/tutorial-per-i-psp/05-ext-processo-payment-psp
----
-
 # Come avviene il pagamento associato ad un messaggio
 
 Dopo aver effettuato l’accesso al portale SEND tramite SPID o CIE e aver perfezionato la notifica, il Cittadino ove presente potrà procedere al pagamento

@@ -1,15 +1,8 @@
----
-metaLinks:
-  alternates:
-    - >-
-      https://app.gitbook.com/s/UdBZLK0IXWx2yqcEv6ks/tutorial-per-i-psp/06-ext-processo-msg-to-tpp
----
+# Come viene inviato un messaggio
 
-# Come viene inviato un messaaggio
+Questo documento guida i **PSP** attraverso il processo tecnico di ricezione dei **Messaggi di Cortesia**. Tale processo è fondamentale per garantire che i cittadini che hanno attivato il servizio sull'app del PSP ricevano tempestivamente le notifiche SEND.
 
-Questo documento guida i PSP attraverso il processo tecnico di ricezione dei Messaggi di Cortesia. Tale processo è fondamentale per garantire che i cittadini che hanno attivato il servizio sull'app del PSP ricevano tempestivamente le notifiche SEND.
-
-Quando un Ente invia un messaggio tramite SEND e il cittadino destinatario ha attivato il servizio di Messaggi di Cortesia sull'app del PSP , la piattaforma EMD provvede automaticamente a inoltrare la notifica agli endpoint configurati dalla TPP durante la fase di onboarding.
+Quando un Ente invia un messaggio tramite **SEND** e il cittadino destinatario ha attivato il servizio di Messaggi di Cortesia sull'app del PSP , la piattaforma EMD provvede automaticamente a inoltrare la notifica agli endpoint configurati dalla TPP durante la fase di onboarding.
 
 Il ruolo del PSP è quello di ricevere i messaggi e notificare tempestivamente il Cittadino tramite la propria app, consentendogli di accedere alla piattaforma SEND per visualizzare le comunicazioni ufficiali.
 

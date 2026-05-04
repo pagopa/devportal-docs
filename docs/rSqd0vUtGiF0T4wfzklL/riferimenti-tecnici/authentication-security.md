@@ -1,10 +1,3 @@
----
-metaLinks:
-  alternates:
-    - >-
-      https://app.gitbook.com/s/UdBZLK0IXWx2yqcEv6ks/riferimenti-tecnici/authentication-security
----
-
 # Gestione della Sicurezza e Autenticazione
 
 Il flusso **Client Credentials** è il metodo standard per l'autenticazione Machine-to-Machine (M2M). È ideale per servizi backend che devono consumare le nostre API in modo sicuro senza l'intervento di un utente finale.

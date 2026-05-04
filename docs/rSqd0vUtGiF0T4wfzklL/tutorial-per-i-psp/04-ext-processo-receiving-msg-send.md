@@ -1,10 +1,3 @@
----
-metaLinks:
-  alternates:
-    - >-
-      https://app.gitbook.com/s/UdBZLK0IXWx2yqcEv6ks/tutorial-per-i-psp/04-ext-processo-receiving-msg-send
----
-
 # Come viene gestito un messaggio
 
 Questo documento descrive il processo con cui la piattaforma EMD riceve i messaggi di cortesia inviati dalla piattaforma SEND e li instrada verso le PSP che hanno il consenso attivo del cittadino destinatario.

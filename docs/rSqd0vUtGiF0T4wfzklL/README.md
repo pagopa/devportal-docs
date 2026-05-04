@@ -1,9 +1,3 @@
----
-metaLinks:
-  alternates:
-    - https://app.gitbook.com/s/UdBZLK0IXWx2yqcEv6ks/per-iniziare/readme
----
-
 # Panoramica del servizio
 
 Cos'è il servizio Messaggi di Cortesia, i vantaggi per i PSP e il ruolo dell'**E**nterprise **M**essage **D**ispatcher (**EMD**).

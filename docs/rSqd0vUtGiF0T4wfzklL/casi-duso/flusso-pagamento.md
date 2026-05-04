@@ -1,9 +1,3 @@
----
-metaLinks:
-  alternates:
-    - https://app.gitbook.com/s/UdBZLK0IXWx2yqcEv6ks/casi-duso/flusso-pagamento
----
-
 # Flusso di un pagamento
 
 Flusso di pagamento completo tramite Messaggio di Cortesia: Scenario completo che descrive l'autenticazione su SEND, la verifica del canale tramite EMD e il perfezionamento del pagamento PagoPA.

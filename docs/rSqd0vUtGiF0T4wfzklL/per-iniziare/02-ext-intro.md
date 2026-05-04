@@ -1,9 +1,3 @@
----
-metaLinks:
-  alternates:
-    - https://app.gitbook.com/s/UdBZLK0IXWx2yqcEv6ks/per-iniziare/02-ext-intro
----
-
 # Flusso Operativo Completo
 
 Il Flusso Operativo Completo prevede:
@@ -44,4 +38,4 @@ L'intero processo può avvenire solo se l'utente finale ha preventivamente dato 
 
 Nell'immagine in basso sono descritti tutti gli step dalla ricezione del messaggio sino al pagamento
 
-<figure><img src="../.gitbook/assets/mdc_overview.png" alt=""><figcaption></figcaption></figure>
+![Panoramica Messaggi di Cortesia](../.gitbook/assets/mdc_overview.png)

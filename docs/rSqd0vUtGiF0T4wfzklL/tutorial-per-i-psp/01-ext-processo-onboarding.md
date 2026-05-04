@@ -1,10 +1,3 @@
----
-metaLinks:
-  alternates:
-    - >-
-      https://app.gitbook.com/s/UdBZLK0IXWx2yqcEv6ks/tutorial-per-i-psp/01-ext-processo-onboarding
----
-
 # Come aderire al servizio
 
 ## Premessa
@@ -53,7 +46,7 @@ Prima di avviare il processo di onboarding con PagoPA il PSP deve aver sottoscri
 
 Dopo aver avuto la validazione sulla corretta sottoscrizione del contratto occorrerà fornire le informazioni tecniche con tutte le informazioni necessarie alla configurazione del servizio sulla piattaforma.
 
-[→ Scarica il documento relativo ai test da effettuare](https://developer.pagopa.it/mdc/tutorials/come-aderire-al-servizio)
+[→ Scarica il documento relativo ai test da effettuare](01-ext-processo-onboarding.md)
 
 I dati richiesti includono:
 

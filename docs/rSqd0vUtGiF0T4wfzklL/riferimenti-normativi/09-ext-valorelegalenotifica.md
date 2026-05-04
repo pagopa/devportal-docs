@@ -1,10 +1,3 @@
----
-metaLinks:
-  alternates:
-    - >-
-      https://app.gitbook.com/s/UdBZLK0IXWx2yqcEv6ks/riferimenti-normativi/09-ext-valorelegalenotifica
----
-
 # Valore legale delle notifiche
 
 ## Valore legale delle notifiche

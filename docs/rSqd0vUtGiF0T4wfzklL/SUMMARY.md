@@ -13,7 +13,7 @@
 * [Come disattivare un utente al servizio](tutorial-per-i-psp/03-ext-processo-citizen-deactivation.md)
 * [Come viene gestito un messaggio](tutorial-per-i-psp/04-ext-processo-receiving-msg-send.md)
 * [Come avviene il pagamento associato ad un messaggio](tutorial-per-i-psp/05-ext-processo-payment-psp.md)
-* [Come viene inviato un messaaggio](tutorial-per-i-psp/06-ext-processo-msg-to-tpp.md)
+* [Come viene inviato un messaggio](tutorial-per-i-psp/06-ext-processo-msg-to-tpp.md)
 * [Come effettuare un test di connettività](tutorial-per-i-psp/07-test-connettivita.md)
 
 ## CASI D'USO

@@ -1,10 +1,3 @@
----
-metaLinks:
-  alternates:
-    - >-
-      https://app.gitbook.com/s/UdBZLK0IXWx2yqcEv6ks/riferimenti-tecnici/integrazione-lineeguida-design
----
-
 # Integrazione con le linee guida di design
 
 In basso saranno descritte le linee guida da rispettare per il mapping delle informazioni contenute nel messaggio all'interno della UX/UI. Per la parte UX/UI far sempre riferimento all'ultima versione pubblicata delle [Linee Guida di Design](https://app.gitbook.com/o/KXYtsf32WSKm6ga638R3/s/gCHOYTnMNSuUjwLmQkud/).
