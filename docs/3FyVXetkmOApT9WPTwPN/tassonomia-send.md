@@ -169,6 +169,14 @@ Tutte le tipologie di comunicazioni associate ad un pagamento rispetto alla erog
 * Codice`020602N` - **Comunicazioni relative a processi amministrativi di accesso agli atti** 
 Notifiche di atti relativi a procedimenti relativi alla richiesta di accesso agli atti dell'Ente (conferma, diniego, rifiuto, etc...)
 
+### 0207 - **Tutela delle Entrate Tributarie Regionali**
+
+* Codice`020701P` - **Avviso di accertamento tributario, per il recupero dei mancati pagamenti delle tasse annuali per le concessioni regionali** 
+Si tratta di avvisi di accertamento tributario per il recupero bonario e/o formale
+
+* Codice`020702N` - **Avviso di accertamento tributario, per il recupero dei mancati pagamenti delle tasse annuali per le concessioni regionali** 
+Si tratta di avvisi di accertamento tributario per il recupero bonario e/o formale
+
 
 ##  03 - Riscossore
 
@@ -727,6 +735,24 @@ Tutte le tipologie di comunicazioni e solleciti relativi alle ordinanze ingiunzi
 </tr>
 <tr>
     <td colspan="4">Notifiche di atti relativi a procedimenti relativi alla richiesta di accesso agli atti dell'Ente (conferma, diniego, rifiuto, etc...)</td>
+</tr>
+<tr>
+    <td rowspan="2"><strong>020701P</strong></td>
+    <td>02 - Regioni ed Enti Regionali</td>
+    <td>07 - Tutela delle Entrate Tributarie Regionali</td>
+    <td>Avviso di accertamento tributario, per il recupero dei mancati pagamenti delle tasse annuali per le concessioni regionali</td>
+</tr>
+<tr>
+    <td colspan="4">Si tratta di avvisi di accertamento tributario per il recupero bonario e/o formale</td>
+</tr>
+<tr>
+    <td rowspan="2"><strong>020702N</strong></td>
+    <td>02 - Regioni ed Enti Regionali</td>
+    <td>07 - Tutela delle Entrate Tributarie Regionali</td>
+    <td>Avviso di accertamento tributario, per il recupero dei mancati pagamenti delle tasse annuali per le concessioni regionali</td>
+</tr>
+<tr>
+    <td colspan="4">Si tratta di avvisi di accertamento tributario per il recupero bonario e/o formale</td>
 </tr>
 <tr>
     <td rowspan="2"><strong>030101P</strong></td>
