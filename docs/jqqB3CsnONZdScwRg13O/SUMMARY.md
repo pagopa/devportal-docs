@@ -25,6 +25,7 @@
   * [Come verificare la validità di un voucher Bearer](tutorial/tutorial-per-lerogatore/come-verificare-la-validita-di-un-voucher-bearer.md)
   * [Come verificare la validità di un voucher DPoP](tutorial/tutorial-per-lerogatore/come-verificare-la-validita-di-un-voucher-dpop.md)
   * [Come verificare il digest di un voucher](tutorial/tutorial-per-lerogatore/come-verificare-il-digest-di-un-voucher.md)
+  * [Come integrare il proprio e-service con il Probing](tutorial/tutorial-per-lerogatore/come-integrare-il-proprio-e-service-con-il-probing.md)
 * [Tutorial per il fruitore](tutorial/tutorial-per-il-fruitore/README.md)
   * [Come presentare una richiesta di fruizione](tutorial/tutorial-per-il-fruitore/come-presentare-una-richiesta-di-fruizione.md)
   * [Come aggiornare una richiesta di fruizione](tutorial/tutorial-per-il-fruitore/come-aggiornare-una-richiesta-di-fruizione.md)
@@ -99,6 +100,8 @@
   * [Relazione tra template e finalità](riferimenti-tecnici/template-finalita/relazione-tra-template-e-finalita.md)
 * [Signal Hub](riferimenti-tecnici/signal-hub.md)
 * [Tracing](riferimenti-tecnici/tracing.md)
+* [Probing](riferimenti-tecnici/probing/README.md)
+  * [Utilizzare l'interfaccia utente](riferimenti-tecnici/probing/utilizzare-linterfaccia-utente.md)
 * [Notifiche](riferimenti-tecnici/notifiche.md)
 
 ## Riferimenti Normativi

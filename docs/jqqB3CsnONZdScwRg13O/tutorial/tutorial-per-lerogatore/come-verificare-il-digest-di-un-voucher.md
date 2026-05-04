@@ -54,4 +54,4 @@ L'erogatore confronta quindi questo hash con quello presente all'interno del cam
 
 ***
 
-Pagina successiva [→ Tutorial per il fruitore](../tutorial-per-il-fruitore/)
+Pagina successiva [→ Come integrare il proprio e-service con il Probing](../../riferimenti-tecnici/probing/)

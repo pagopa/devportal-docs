@@ -28,6 +28,10 @@ Raccolta di **regole tecniche** e **pattern** per progettare API aderenti al **M
 🔗 [https://www.agid.gov.it/it/argomenti/interoperabilita](https://www.agid.gov.it/it/argomenti/interoperabilita)\
 🔗 [https://www.agid.gov.it/it/agenzia/stampa-e-comunicazione/notizie/2023/05/23/aggiornati-i-pattern-sicurezza-linee-guida-sullinteroperabilita-tecnica-pa](https://www.agid.gov.it/it/agenzia/stampa-e-comunicazione/notizie/2023/05/23/aggiornati-i-pattern-sicurezza-linee-guida-sullinteroperabilita-tecnica-pa)
 
+#### Integrazione con il probing
+
+Tra gli adempimenti previsti dal Modi e dalle Linee Guida AgID per la PDND c'è l'esposizione di un endpoint di status necessario al funzionamento del servizio di probing. Maggiori informazioni nella [sezione dedicata](../probing/) o nel [tutorial di integrazione](../../tutorial/tutorial-per-lerogatore/come-integrare-il-proprio-e-service-con-il-probing.md).&#x20;
+
 ***
 
 Pagina successiva [→ Attributi](../attributi/)
