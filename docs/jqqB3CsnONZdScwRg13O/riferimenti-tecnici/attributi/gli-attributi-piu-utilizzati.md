@@ -148,7 +148,7 @@ Include imprese, utility e stazioni appaltanti.
 
 #### Privati
 
-<table><thead><tr><th width="220.29693603515625">Nome attributo su PDND</th><th width="283.28125">Criterio di assegnazione</th><th>Note</th></tr></thead><tbody><tr><td>Adesione dal Registro Imprese</td><td>Riconosciuto agli enti che aderiscono come "Privato" o "Società a Controllo Pubblico" attraverso Area Riservata</td><td>Per i dettagli, si veda la <a href="../../per-iniziare/guida-alladesione.md">sezione dedicata all'adesione</a>.</td></tr><tr><td>Società a Controllo Pubblico - Registro Imprese</td><td>Riconosciuto agli enti che aderiscono come "Privato" o "Società a Controllo Pubblico" attraverso Area Riservata</td><td>L'attributo è riconosciuto a seguito di un'istruttoria. Per i dettagli, si veda la <a href="../../per-iniziare/guida-alladesione.md">sezione dedicata all'adesione</a>.</td></tr></tbody></table>
+<table><thead><tr><th width="220.29693603515625">Nome attributo su PDND</th><th width="283.28125">Criterio di assegnazione</th><th>Note</th></tr></thead><tbody><tr><td>Adesione dal Registro Imprese</td><td>Riconosciuto agli enti che aderiscono come "Privato" o "Società a Controllo Pubblico" attraverso Area Riservata</td><td>Per i dettagli, si veda la <a href="../../per-iniziare/guida-alladesione.md">sezione dedicata all'adesione</a>.</td></tr><tr><td>Società a Controllo Pubblico - Registro Imprese</td><td>Riconosciuto agli enti che aderiscono come "Società a Controllo Pubblico" attraverso Area Riservata</td><td>L'attributo è riconosciuto a seguito di un'istruttoria. Per i dettagli, si veda la <a href="../../per-iniziare/guida-alladesione.md">sezione dedicata all'adesione</a>.</td></tr></tbody></table>
 
 ### Disponibilità sulle API di PDND Interoperabilità
 
