@@ -16,14 +16,6 @@
 * [Come viene inviato un messaaggio](tutorial-per-i-psp/06-ext-processo-msg-to-tpp.md)
 * [Come effettuare un test di connettività](tutorial-per-i-psp/07-test-connettivita.md)
 
-## TUTORIAL PER GLI ENTI AGGREGATORI
-
-* [Come aderire al servizio](tutorial-per-gli-enti-aggregatori/01-ext-processo-onboarding-ea.md)
-* [Come attivare un utente al servizio](tutorial-per-gli-enti-aggregatori/02-ext-processo-citizen-activation-ea.md)
-* [Come disattivare un utente al servizio](tutorial-per-gli-enti-aggregatori/03-ext-processo-citizen-deactivation-ea.md)
-* [Come avviene il pagamento associato ad un messaggio](tutorial-per-gli-enti-aggregatori/04-ext-processo-msg-send-to-ea.md)
-* [Come avviene il pagamento associato ad un messaggio](tutorial-per-gli-enti-aggregatori/05-ext-processo-payment-ea.md)
-
 ## CASI D'USO
 
 * [Ciclo di vita di un messaggio](casi-duso/ciclo-vita-messaggio.md)

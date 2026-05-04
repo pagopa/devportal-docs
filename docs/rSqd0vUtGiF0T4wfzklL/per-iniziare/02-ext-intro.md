@@ -44,4 +44,4 @@ L'intero processo può avvenire solo se l'utente finale ha preventivamente dato 
 
 Nell'immagine in basso sono descritti tutti gli step dalla ricezione del messaggio sino al pagamento
 
-![Panoramica Messaggi di Cortesia](<../.gitbook/assets/mdc_overview (1).avif>)
+<figure><img src="../.gitbook/assets/mdc_overview.png" alt=""><figcaption></figcaption></figure>

@@ -9,7 +9,7 @@ metaLinks:
 
 ## Premessa
 
-Questo tutorial descrive il processo di Onboarding, ovvero i passi che un PSP deve seguire per aderire al servizio **M**esaggi **D**i **C**ortesia, ottenere le credenziali necessarie per l'integrazione tecnica e diventare pienamente operativo.
+Questo tutorial descrive il processo di Onboarding, ovvero i passi che un PSP deve seguire per aderire al servizio **M**essaggi **D**i **C**ortesia, ottenere le credenziali necessarie per l'integrazione tecnica e diventare pienamente operativo.
 
 ```mermaid
 sequenceDiagram

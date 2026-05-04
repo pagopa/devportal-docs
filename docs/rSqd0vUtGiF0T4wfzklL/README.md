@@ -60,8 +60,8 @@ Esplora i microservizi e le specifiche OpenAPI per gestire l'intero ciclo di vit
 
 Comprendi i processi chiave attraverso i nostri tutorial:
 
-1. [Come aderire al servizio da parte del PSP.](tutorial-per-i-psp/01-ext-processo-onboarding.md)
-2. [Attivazione del servizio da parte del cittadino tramite App.](tutorial-per-i-psp/02-ext-processo-citizen-activation.md)
-3. [Disttivazione del servizio da parte del cittadino tramite App.](tutorial-per-i-psp/03-ext-processo-citizen-deactivation.md)
-4. [Ricezione del messaggio di cortesia in modalità PUSH.](tutorial-per-i-psp/06-ext-processo-msg-to-tpp.md)
-5. [Flusso di pagamento opzionale tramite deeplink.](tutorial-per-i-psp/05-ext-processo-payment-psp.md)
+1. [Come aderire al servizio Messaggi di Cortesia.](tutorial-per-i-psp/01-ext-processo-onboarding.md)
+2. [Come attivare un utente al servizio.](tutorial-per-i-psp/02-ext-processo-citizen-activation.md)
+3. [Come disattivare un utente al servizio.](tutorial-per-i-psp/03-ext-processo-citizen-deactivation.md)
+4. [Come inviare un Messaggio di Cortesia ai PSP.](tutorial-per-i-psp/06-ext-processo-msg-to-tpp.md)
+5. [Come avviene il pagamento associato ad un messaggio.](tutorial-per-i-psp/05-ext-processo-payment-psp.md)
