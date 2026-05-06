@@ -62,24 +62,24 @@ Se trova un tracciato già presente in database per quella data, il sistema rest
 
 Nello specifico, l'errore sarà:
 
-```
+```json
 { 
   "code": "TRACING_ALREADY_EXISTS", 
   "detail": "A tracing for the current tenant already exists on this date: YYYY-MM-DD" 
 }
 ```
 
-### Cosa succede se il CSV contiene errori su specifici record per una data mai caricata?
+### Cosa succede se il CSV contiene errori o warning su specifici record per una data mai caricata?
 
 Il file viene processato comunque e il caricamento va a buon fine. Il parametro `errors` contenuto nella risposta sarà valorizzato a `true`.
 
 Sarà possibile recuperare dall'API l'indicazione dei record errati usando la rotta `GET /tracings/{tracingId}/errors`.
 
-### Come faccio a sapere se un file che ho caricato contiene errori?
+### Come faccio a sapere se un file che ho caricato contiene errori o warning?
 
 A valle di una richiesta di caricamento CSV, la risposta, oltre al `tracingId`, conterrà un parametro `errors` valorizzato a `true`. Ad esempio:
 
-```
+```json
 {
   "tracingId": "89ef5b79-cc18-4772-a318-d61c1d7644d0",
   "errors": true
@@ -96,16 +96,30 @@ Attenzione: `errors: true` è un'indicazione di carattere generale. Significa ch
 
 All'interno degli errori restituiti per uno specifico `tracingId`, viene restituito il dettaglio della finalità di riferimento (`purposeId`), il dettaglio dell'errore, e della riga nella quale si è verificato l'errore per il CSV di riferimento. Ad esempio, l'errore&#x20;
 
-```
+```json
 {
   "purposeId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+  "severity": "INVALID"
   "errorCode": "INVALID_STATUS_CODE",
   "message": "status: Invalid HTTP status code",
   "rowNumber": 4
 }
 ```
 
-indica che alla riga 4, rispetto alla finalità con id `3fa85f64-5717-4562-b3fc-2c963f66afa6`, è stato indicato uno status code non riconosciuto all'interno dello standard delle risposte HTTP previste.
+indica che alla riga 4, rispetto alla finalità con id `3fa85f64-5717-4562-b3fc-2c963f66afa6`, è stato indicato uno status code non riconosciuto all'interno dello standard delle risposte HTTP previste. Il flag `severity` è impostato su `INVALID`, il che indica che questo specifico errore rende non valido l'intero processo di caricamento.
+
+### Mi fai un esempio di un warning che mi viene restituito?
+
+I warning restituiti per uno specifico `tracingId` contengono i dettagli della finalità di riferimento (`purposeId`). Un warning identifica un record in cui la `purpose_id` esiste nell'ecosistema PDND, ma non è associabile al producer (erogatore) o al consumer (fruitore) specificati nel caricamento. I file che contengono solo dei WARNING genereranno uno stato di caricamento `WARNING`; questi non necessitano di un'operazione di `/recover` e sono considerati validi. Di seguito un esempio:
+
+<pre class="language-json"><code class="lang-json"><strong>{
+</strong>  "purposeId": "f47ac10b-58cc-4372-a567-0e02b2c3d479",
+  "severity": "WARNING"
+  "errorCode": "TENANT_IS_NOT_PRODUCER_OR_CONSUMER",
+  "message": "purpose_id: Invalid purpose id f47ac10b-58cc-4372-a567-0e02b2c3d479",
+  "rowNumber": 1
+}
+</code></pre>
 
 ### Come faccio a caricare i dati relativi a una data antecedente?
 

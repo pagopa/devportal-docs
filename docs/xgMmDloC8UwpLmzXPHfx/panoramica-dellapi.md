@@ -12,6 +12,8 @@ Il sistema permette agli aderenti di gestire l’invio di file CSV contenenti le
 
 Qualora non siano presenti errori, il sistema elabora i dati, li arricchisce con dettagli aggiuntivi e salva i singoli record.
 
+Se dovessero essere presenti dei warnings, il caricamento viene considerato valido. Un warning identifica una riga in cui è presente una `purpose_id` valida all'interno di PDND ma non associabile all'erogatore o al fruitore identificati dal record.
+
 In caso contrario, sarà possibile verificare gli errori, e sanarli. O, in caso fosse necessario, aggiornare dati precedentemente inseriti.
 
 {% hint style="info" %}
@@ -24,7 +26,7 @@ Il sistema è progettato per integrare servizi tramite OpenAPI.
 
 #### Servizi offerti
 
-<table data-header-hidden><thead><tr><th width="97">Metodo</th><th width="329">Endpoint</th><th>Descrizione</th></tr></thead><tbody><tr><td>POST</td><td><code>/tracings/submit</code></td><td>Inserimento di un tracciato per una giornata. Restituisce il <code>tracingId</code> di quel tracciato</td></tr><tr><td>GET</td><td><code>/tracings</code></td><td>Lista dei tracciati per l'ente richiedente</td></tr><tr><td>GET</td><td><code>/tracings/{tracingId}/errors</code></td><td>Dettaglio degli errori contenuti in un singolo tracciato</td></tr><tr><td>POST</td><td><code>/tracings/{tracingId}/recover</code></td><td>Sanificazione delle informazioni in un tracciato che presenta errori o dati mancanti</td></tr><tr><td>POST</td><td><code>/tracings/{tracingId}/replace</code></td><td>Sostituzione integrale dei dati di un tracciato precedentemente caricato</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="97">Metodo</th><th width="329">Endpoint</th><th>Descrizione</th></tr></thead><tbody><tr><td>POST</td><td><code>/tracings/submit</code></td><td>Inserimento di un tracciato per una giornata. Restituisce il <code>tracingId</code> di quel tracciato</td></tr><tr><td>GET</td><td><code>/tracings</code></td><td>Lista dei tracciati per l'ente richiedente</td></tr><tr><td>GET</td><td><code>/tracings/{tracingId}/errors</code></td><td>Dettaglio degli errori o dei warnings contenuti in un singolo tracciato</td></tr><tr><td>POST</td><td><code>/tracings/{tracingId}/recover</code></td><td>Sanificazione delle informazioni in un tracciato che presenta errori o dati mancanti</td></tr><tr><td>POST</td><td><code>/tracings/{tracingId}/replace</code></td><td>Sostituzione integrale dei dati di un tracciato precedentemente caricato</td></tr></tbody></table>
 
 #### Specifica OpenAPI
 
