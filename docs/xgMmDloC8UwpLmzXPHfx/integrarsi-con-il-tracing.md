@@ -112,14 +112,15 @@ indica che alla riga 4, rispetto alla finalità con id `3fa85f64-5717-4562-b3fc-
 
 I warning restituiti per uno specifico `tracingId` contengono i dettagli della finalità di riferimento (`purposeId`). Un warning identifica un record in cui la `purpose_id` esiste nell'ecosistema PDND, ma non è associabile al producer (erogatore) o al consumer (fruitore) specificati nel caricamento. I file che contengono solo dei WARNING genereranno uno stato di caricamento `WARNING`; questi non necessitano di un'operazione di `/recover` e sono considerati validi. Di seguito un esempio:
 
-<pre class="language-json"><code class="lang-json"><strong>{
-</strong>  "purposeId": "f47ac10b-58cc-4372-a567-0e02b2c3d479",
+```json
+{
+  "purposeId": "f47ac10b-58cc-4372-a567-0e02b2c3d479",
   "severity": "WARNING",
   "errorCode": "TENANT_IS_NOT_PRODUCER_OR_CONSUMER",
   "message": "purpose_id: Invalid purpose id f47ac10b-58cc-4372-a567-0e02b2c3d479",
   "rowNumber": 1
 }
-</code></pre>
+```
 
 ### Come faccio a caricare i dati relativi a una data antecedente?
 
