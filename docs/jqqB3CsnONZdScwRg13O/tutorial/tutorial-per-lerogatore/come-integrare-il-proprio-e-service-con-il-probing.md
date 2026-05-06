@@ -42,12 +42,10 @@ Payload:
 ```
 {
   "iss": "interop.pagopa.it", 
-  "nbf": 1747408537,
   "iat": 1747408537,
   "exp": 1747409537,
   "jti": "12297ac1-c192-4573-8350-207a4213e5ac",
-  "aud": "https://eservice.pa.it/api/v1",
-  "sub": "[Confermare Lorenzo]"
+  "aud": "https://eservice.pa.it/api/v1"
 }
 ```
 
@@ -59,7 +57,7 @@ Nell'header si troveranno quattro camp&#x69;_:_
 
 Nel payload ci saranno invece tredici campi obbligatori, e uno opzionale:
 
-<table><thead><tr><th width="152.84765625">Nome campo</th><th>Significato</th></tr></thead><tbody><tr><td><code>iss</code></td><td>l'issuer, rappresenta il dominio corrispondente all'authorization server di PDND Interoperabilità che ha rilasciato il voucher (ad esempio, l'issuer dell'ambiente di produzione è <code>interop.pagopa.it</code>)</td></tr><tr><td><code>nbf</code></td><td>not before, il timestamp dal quale è valido il voucher, espresso in <a href="https://datatracker.ietf.org/doc/html/rfc3339">UNIX epoch</a> (valore numerico, non stringa). Per i voucher di PDND Interoperabilità, l'<code>nbf</code> corrisponde allo <code>iat</code>, ossia il voucher è spendibile immediatamente</td></tr><tr><td><code>iat</code></td><td>issued at, il timestamp nel quale è stato rilasciato il voucher, espresso in <a href="https://datatracker.ietf.org/doc/html/rfc3339">UNIX epoch</a> (valore numerico, non stringa)</td></tr><tr><td><code>exp</code></td><td>l'expiration, il timestamp riportante data e ora di scadenza del token, espresso in <a href="https://datatracker.ietf.org/doc/html/rfc3339">UNIX epoch</a> (valore numerico, non stringa). La durata del voucher (ossia la differenza tra <code>nbf</code> ed <code>exp</code>) dipende dal valore che l'erogatore ha impostato nella configurazione dell'e-service</td></tr><tr><td><code>jti</code></td><td>il JWT ID, un id unico random assegnato da PDND Interoperabilità</td></tr><tr><td><code>aud</code></td><td>l'audience, ossia l'indicazione di quale servizio dell'erogatore PDND intenda consumare con il voucher. Il valore riportato è quello che l'erogatore ha inserito nella configurazione dell'e-service</td></tr><tr><td><code>sub</code></td><td>il subject, in questo caso l'id del client che ha richiesto il voucher a PDND Interoperabilità</td></tr></tbody></table>
+<table><thead><tr><th width="152.84765625">Nome campo</th><th>Significato</th></tr></thead><tbody><tr><td><code>iss</code></td><td>l'issuer, rappresenta il dominio corrispondente all'authorization server di PDND Interoperabilità che ha rilasciato il voucher (ad esempio, l'issuer dell'ambiente di produzione è <code>interop.pagopa.it</code>)</td></tr><tr><td><code>iat</code></td><td>issued at, il timestamp nel quale è stato rilasciato il voucher, espresso in <a href="https://datatracker.ietf.org/doc/html/rfc3339">UNIX epoch</a> (valore numerico, non stringa)</td></tr><tr><td><code>exp</code></td><td>l'expiration, il timestamp riportante data e ora di scadenza del token, espresso in <a href="https://datatracker.ietf.org/doc/html/rfc3339">UNIX epoch</a> (valore numerico, non stringa). La durata del voucher (ossia la differenza tra <code>nbf</code> ed <code>exp</code>) dipende dal valore che l'erogatore ha impostato nella configurazione dell'e-service</td></tr><tr><td><code>jti</code></td><td>il JWT ID, un id unico random assegnato da PDND Interoperabilità</td></tr><tr><td><code>aud</code></td><td>l'audience, ossia l'indicazione di quale servizio dell'erogatore PDND intenda consumare con il voucher. Il valore riportato è quello che l'erogatore ha inserito nella configurazione dell'e-service</td></tr></tbody></table>
 
 ***
 
