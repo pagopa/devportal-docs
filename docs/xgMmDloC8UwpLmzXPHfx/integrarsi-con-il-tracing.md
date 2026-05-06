@@ -99,7 +99,7 @@ All'interno degli errori restituiti per uno specifico `tracingId`, viene restitu
 ```json
 {
   "purposeId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
-  "severity": "INVALID"
+  "severity": "INVALID",
   "errorCode": "INVALID_STATUS_CODE",
   "message": "status: Invalid HTTP status code",
   "rowNumber": 4
@@ -114,7 +114,7 @@ I warning restituiti per uno specifico `tracingId` contengono i dettagli della f
 
 <pre class="language-json"><code class="lang-json"><strong>{
 </strong>  "purposeId": "f47ac10b-58cc-4372-a567-0e02b2c3d479",
-  "severity": "WARNING"
+  "severity": "WARNING",
   "errorCode": "TENANT_IS_NOT_PRODUCER_OR_CONSUMER",
   "message": "purpose_id: Invalid purpose id f47ac10b-58cc-4372-a567-0e02b2c3d479",
   "rowNumber": 1
