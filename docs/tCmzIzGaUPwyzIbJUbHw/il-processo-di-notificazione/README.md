@@ -8,25 +8,34 @@ Nella prima fase, la PA fornisce a PN gli atti da notificare unitamente agli avv
 
 Nella seconda fase, la PA genera la richiesta di creazione della notifica, fornendo i seguenti dati (sono indicati con l'asterisco \* quelli obbligatori):
 
+* numero di protocollo/identificativo lato mittente della notifica\*
+* oggetto della notifica\*
+* descrizione estesa della notifica
+* codice tassonomico\*
+* tipologia prodotto postale per l’eventuale spedizione analogica (890/AR)\*
+* lista dei documenti facenti parte della notifica (attraverso gli identificativi forniti da PN nella precedente fase) e l'hash SHA-256 dei documenti stessi\*
+* denominazione e codice fiscale ente mittente (corrispondenti a quelli indicati sull'accordo di adesione)
+* eventuale seconda lingua da utilizzare nelle comunicazioni verso i destinatari. Le lingue gestite dalla piattaforma oltre all'italiano sono: tedesco, francese, sloveno. Se non specificato, la lingua di default per la notifica sarà l'italiano. Quando viene aggiunta un'altra lingua, le comunicazioni generate dalla piattaforma saranno in italiano e nell'altra lingua.
+* indicazione della politica di addebitamento costi di notifica (forfettario o puntuale)
+  * in caso di addebitamento puntuale è necessario indicare la quota di costo di notifica a favore del mittente e la percentuale di IVA da calcolare sui costi dell'invii cartacei
+  * la modalità di integrazione con pagoPA utilizzata dalla stazione dell'ente creditore a cui fanno riferimento gli avvisi pagoPa collegati alla notifica (sincrona o asincrona).&#x20;
 
+In aggiunta ai dati sopra riportati, per ogni destinatario è necessario indicare anche:
 
-*   per ogni destinatario:
+* Codice Fiscale\*
+* l'indicazione del tipo di persona fisica o giuridica\*
+* nome e cognome o ragione sociale\*
+* indirizzo fisico di ogni destinatario noto alla PA\*
+* domicilio digitale speciale eventualmente eletto
 
-    * Codice Fiscale\*
-    * l'indicazione del tipo di persona fisica o giuridica\*
-    * nome e cognome o ragione sociale\*
-    * indirizzo fisico di ogni destinatario del domicilio noto alla PA\*
-    * domicilio digitale speciale eventualmente eletto
-    * Codice Avviso e Codice Fiscale dell’Ente creditore relativi all’avviso pagoPA
-    * numero di protocollo\*
-    * oggetto della notifica\*
-    * descrizione estesa della notifica
-    * codice tassonomico\*
-    * la modalità da adottare per l’eventuale spedizione analogica (890/AR)\*
-    * importo e data di scadenza del pagamento (a soli fini informativi per il mittente)
-    * lista dei documenti facenti parte della notifica (attraverso gli identificativi forniti da PN nella precedente fase) e l'hash SHA-256 dei documenti stessi\*
+In caso di pagamento pagoPA per ogni destinatario devono essere indicati :
 
-    PN ricevute queste informazioni, verifica che siano sintatticamente corrette e che non ci siano stati utilizzati combinazioni di numero di protocollo (paProtocolNumber)/identificativo univoco generato dal sistema di integrazione del mittente (IdempotenceToken) oppure Codice Avviso/Codice Fiscale dell’Ente creditore già utilizzati in altre notifiche non annullate. Nel caso in cui le verifiche abbiano successo restituisce al mittente un token (notificationRequestId) che servirà, in alternativa all'utilizzo degli stream, alla PA stessa per ricevere l’esito delle successive attività di verifica poste in atto da PN.
+* Numero Avviso\*
+* Codice Fiscale dell’Ente creditore\*
+* Avviso di pagamento in formato PDF
+* Indicazione dell'applicazione dei costi di notifica\*
+
+PN ricevute queste informazioni, verifica che siano sintatticamente corrette e che non siano state utilizzate combinazioni di numero di protocollo (paProtocolNumber)/identificativo univoco generato dal sistema di integrazione del mittente (IdempotenceToken) oppure Codice Avviso/Codice Fiscale dell’Ente creditore già utilizzati in altre notifiche non annullate. Nel caso in cui le verifiche abbiano successo restituisce al mittente un token (notificationRequestId) che servirà, in alternativa all'utilizzo degli stream, alla PA stessa per ricevere l’esito delle successive attività di verifica poste in atto da PN.
 
 La piattaforma permette di inserire molteplici avvisi di pagamento (es. per gestire le rate della TARI), dando la possibilità al destinatario di selezionare l'avviso/i per i quali vuole procedere al pagamento.\
 Per il caso d'uso relativo alle sanzioni al codice della strada saranno inserite, per ciascun destinatario, le due coppie di Codice Avviso e Codice Fiscale dell’Ente creditore contenti l'avviso che deve essere pagato entro 5 giorni dalla data di perfezionamento della notifica e quello che contiene l'avviso che deve esser pagato passati i 5 giorni e comunque entro i 60 giorni dal perfezionamento. Il destinatario vedrà entrambi i pagamenti disponibili e sceglierà quale pagare.
