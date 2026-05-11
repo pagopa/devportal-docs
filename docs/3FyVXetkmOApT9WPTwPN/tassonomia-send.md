@@ -124,7 +124,7 @@ Ambiti e tipologia notifica:
 ### 0207 - **Tutela delle Entrate Tributarie Regionali**
 
 * Codice`020701P` - **Avviso di accertamento tributario, per il recupero dei mancati pagamenti delle tasse annuali per le concessioni regionali** Si tratta di avvisi di accertamento tributario per il recupero formale
-* Codice`020702N` - **Avviso di accertamento tributario, per il recupero dei mancati pagamenti delle tasse annuali per le concessioni regionali** Si tratta di avvisi di accertamento tributario per il recupero formale
+* Codice`020702N` - **Avviso di accertamento tributario, per il recupero dei mancati pagamenti delle tasse annuali per le concessioni regionali** Si tratta di avvisi di accertamento tributario per il recupero bonario
 
 ## 03 - Riscossore
 
