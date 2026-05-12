@@ -2,7 +2,7 @@
 
 Durante la descrizione delle interfacce si farà riferimento ad alcune entità le cui relazioni vengono mostrate dal seguente diagramma
 
-<figure><img src="../.gitbook/assets/image (56).png" alt=""><figcaption><p>Modello Dati Posizione Debitoria</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>Modello Dati Posizione Debitoria</p></figcaption></figure>
 
 * _Posizione Debitoria_: rappresenta l'entità padre per la quale l'EC vuole ricevere pagamenti tramite la piattaforma. Essa è identificata dallo _IUPD_ (Identificativo Unico Posizione Debitoria) ed è così composta:
   * una o più _Opzioni di pagamento_ (es. Soluzione Unica, Pagamento Rateale, etc.), maggiori informazioni in [Opzioni di pagamento](../ente-creditore/opzioni-di-pagamento/);
