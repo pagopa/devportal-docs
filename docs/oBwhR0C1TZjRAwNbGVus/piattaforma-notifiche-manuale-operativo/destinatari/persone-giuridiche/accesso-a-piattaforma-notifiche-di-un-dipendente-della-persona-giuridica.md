@@ -1,6 +1,6 @@
 # Accesso a Piattaforma Notifiche di un dipendente della persona giuridica
 
-Il dipendente della persona giuridica accede a PN all’indirizzo [https://pn-pg.pagopa.it](https://pn.pagopa.it/) autenticandosi con la sua identità digitale.
+Il dipendente della persona giuridica accede a PN all’indirizzo [https://imprese.notifichedigitali.it](https://imprese.notifichedigitali.it) autenticandosi con la sua identità digitale.
 
 Al primo accesso l’utente deve confermare la presa visione dei termini di servizio (ToS) e dell’informativa privacy.
 
