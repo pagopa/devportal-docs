@@ -3,6 +3,7 @@
 * [Knowledge-base di SEND](README.md)
   * [Generazione client e definizioni delle API](readme/generazione-client-e-definizioni-delle-api.md)
   * [Workflow di Notifica](readme/workflow-di-notifica.md)
+  * [Gruppi](readme/gruppi.md)
   * [Inserimento della notifica](readme/inserimento-della-notifica/README.md)
     * [Inserimento Notifica con il comando curl](readme/inserimento-della-notifica/inserimento-notifica-con-il-comando-curl.md)
     * [Inserimento Notifica con Postman](readme/inserimento-della-notifica/inserimento-notifica-con-postman.md)
