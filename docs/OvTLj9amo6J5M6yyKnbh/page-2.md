@@ -4,15 +4,15 @@
 
 {% columns %}
 {% column %}
-<figure><img src=".gitbook/assets/notifica_su_send-bc5f9a9b7c0f9fb68c1feb73992b50aa.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../0_spaziodiprova/.gitbook/assets/notifica_su_send-bc5f9a9b7c0f9fb68c1feb73992b50aa.png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 
 {% column %}
-<figure><img src=".gitbook/assets/notifica_su_send-bc5f9a9b7c0f9fb68c1feb73992b50aa.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../0_spaziodiprova/.gitbook/assets/notifica_su_send-bc5f9a9b7c0f9fb68c1feb73992b50aa.png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 
 {% column %}
-<figure><img src=".gitbook/assets/notifica_su_send-bc5f9a9b7c0f9fb68c1feb73992b50aa.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../0_spaziodiprova/.gitbook/assets/notifica_su_send-bc5f9a9b7c0f9fb68c1feb73992b50aa.png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
