@@ -57,7 +57,7 @@ Compilare tutti i dati che appaiono sul Form, in particolare:
 
 nella pagina successive bisogna compilare la sezione di analisi del rischio ed infine cliccare su "Crea bozza finalità" per pubblicare la finalità.
 
-<figure><img src="../../.gitbook/assets/image (8) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ### Associare un client ad una finalità
 
@@ -70,7 +70,7 @@ Compilare tutti i dati che appaiono sul Form, selezionando tra gli operatori que
 
 Una volta creato un client, sarà possibile associarlo ad una finalità, entrando in _Fruizione > Finalità inoltrate,_ poi nel tab "Client associati" cliccare su "+1 Aggiungi"
 
-<figure><img src="../../.gitbook/assets/image (9) (3).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Infine apparirà un menù a tendina che permette di selezionare i client da associare:\\
 

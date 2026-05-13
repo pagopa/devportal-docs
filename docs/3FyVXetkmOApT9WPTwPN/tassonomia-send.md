@@ -123,7 +123,6 @@ Ambiti e tipologia notifica:
 
 * Codice`020702N` - **Avviso di accertamento tributario, per il recupero dei mancati pagamenti delle tasse annuali per le concessioni regionali** Si tratta di avvisi di accertamento tributario per il recupero bonario
 
-
 ## 03 - Riscossore
 
 I codici tassonomici delle notifiche dell'ente di tipo "Riscossore" hanno prefisso `03` (es: **03**0101P)

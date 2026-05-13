@@ -54,7 +54,7 @@ Esempio JSON:
 
 ### Compilazione elemento _`AddressDetails`_
 
-Il campo `addressDetails` è destinato a contenere le informazioni puntuali che facilitano l'individuazione del punto di recapito una volta raggiunto l'indirizzo principale.&#x20;
+Il campo `addressDetails` è destinato a contenere le informazioni puntuali che facilitano l'individuazione del punto di recapito una volta raggiunto l'indirizzo principale.
 
 Questo campo non deve contenere dati già presenti in `address`.
 
@@ -84,11 +84,13 @@ Il bilinguismo è gestito dal recapitista e dal sistema di normalizzazione esclu
 * Frazioni/località (`municipalityDetails`)
 * Strade (`address`)
 
-È quindi possibile popolare questi campi indifferentemente con la dicitura italiana o tedesca.\
-Per il solo campo `municipality` è possibile indicare il nome del Comune in entrambe le lingue: ciascuna dicitura deve terminare con un punto (`.`), oppure devono essere separate da uno spazio vuoto (`blank`). Ad esempio:
+È possibile popolare questi campi indifferentemente con la dicitura italiana o tedesca.&#x20;
 
-`"municipality": "SAN LORENZO DI SEBATO. ST. LORENZEN."`
+Per il solo campo `municipality` è possibile indicare il nome del Comune in entrambe le lingue, utilizzando specifici segni di interpunzione come separatori: il punto (`.`), lo spazio (`blank`), lo slash (`/`) o l'asterisco (`*`). Il normalizzatore, quale che sia l'input, restituirà la dicitura in bilingue utilizzando lo slash come separatore.&#x20;
 
-`"municipality": "ALDINO ALDEIN."`
+**Nota**: sebbene sia consentito l'inserimento in doppia lingua, per garantire la massima affidabilità del processo di normalizzazione si raccomanda di inserire il nome completo del Comune, senza abbreviazioni o troncature, nella sola lingua italiana.
 
-In questo caso, il normalizzatore restituirà la sola dicitura in italiano.<br>
+Di seguito una tabella riassuntiva dei possibili input accettati e dell'output restituito dal normalizzatore.
+
+<table><thead><tr><th width="404.8671875" valign="middle">Tipologia input</th><th>Esempio input</th><th>Output restituito</th></tr></thead><tbody><tr><td valign="middle">Sola lingua italiana (estesa, priva di troncature)</td><td><code>BOLZANO</code></td><td><code>BOLZANO/BOZEN</code></td></tr><tr><td valign="middle">Sola lingua tedesca</td><td><code>BOZEN</code></td><td><code>BOLZANO/BOZEN</code></td></tr><tr><td valign="middle">Doppia lingua (italiano. tedesco.)</td><td><code>BOLZANO. BOZEN.</code></td><td><code>BOLZANO/BOZEN</code></td></tr><tr><td valign="middle">Doppia lingua (italiano tedesco)</td><td><code>BOLZANO BOZEN</code></td><td><code>BOLZANO/BOZEN</code></td></tr><tr><td valign="middle">Doppia lingua (italiano/tedesco)</td><td><code>BOLZANO/BOZEN</code></td><td><code>BOLZANO/BOZEN</code></td></tr><tr><td valign="middle">Doppia lingua (italiano*tedesco)</td><td><code>BOLZANO*BOZEN</code></td><td><code>BOLZANO/BOZEN</code></td></tr></tbody></table>
+
