@@ -43,4 +43,4 @@ Con la primitiva [paSendRT](../../appendici/primitive.md#pasendrt) il nodo cerca
 * se una _receipt_ viene sottomessa nuovamente e va in uno stato finale si toglie dalla coda;
 * se una _receipt_ viene sottomessa nuovamente ma rimane in uno stato non finale (_NOTICE\_PENDING_) si lascia in coda e si aumenta il contatore relativo al numero di retry.
 
-Raggiunto il numero finale di retry (è un parametro di configurazione della piattaforma) il processo si ferma e l'elemento rimane in coda, è possibile riavviare il processo di retry con una richiesta all'assistenza di PagoPA S.p.A..\
+Raggiunto il numero finale di retry (è un parametro di configurazione della piattaforma) il processo si ferma e l'elemento rimane in coda, è possibile riavviare il processo di retry con una richiesta all'assistenza di PagoPA S.p.A..<br>

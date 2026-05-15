@@ -6,7 +6,7 @@ Per la gestione degli errori fare riferimento a [Gestione degli errori](https://
 
 ## Fase di richiesta di creazione della posizione debitoria
 
-![](<../../.gitbook/assets/demandPaymentNotice (1).png>)
+![](<../../../../../docs/pago-pa/sanp/3.0.0/.gitbook/assets/demandPaymentNotice (1).png>)
 
 La [demandPaymentNotice](../../appendici/primitive.md#demandpaymentnotice) è utilizzabile dai PSP per inviare i dati del servizio specifico inseriti dall'utente, in modo da ricevere in risposta le informazioni necessarie per avviare il processo di pagamento, in particolare:
 
@@ -21,7 +21,7 @@ I PSP possono recuperare i dati dello specifico servizio tramite il [catalogo-de
 
 ## Fase di verifica
 
-![](../../.gitbook/assets/verifyPaymentNotice.png)
+![](../../../../../docs/pago-pa/sanp/3.0.0/.gitbook/assets/verifyPaymentNotice.png)
 
 La [verifyPaymentNotice](../../appendici/primitive.md#verifypaymentnotice) è utilizzabile dai PSP che avviano il pagamento per mezzo del QR code presente nell'avviso analogico o con l’immissione manuale dei dati, con questa richiesta il PSP richiede le informazioni di pagamento relative ad un numero avviso, in particolare:
 
@@ -32,7 +32,7 @@ La fase di verifica è opzionale per i PSP, se il Nodo riscontra che la posizion
 
 ## Fase di verifica da parte di Poste Italiane
 
-![](<../../.gitbook/assets/image (19).png>)
+![](<../../../../../docs/pago-pa/sanp/3.0.0/.gitbook/assets/image (19).png>)
 
 La [verificaBollettino](../../appendici/primitive.md#verificabollettino) è utilizzabile esclusivamente dal PSP Poste Italiane che avvia il pagamento per mezzo del Data Matrix presente nell'avviso analogico, e non per mezzo del QR Code, con questa chiamata vengono richieste le informazioni di pagamento relative ad un numero avviso, in particolare:
 
@@ -46,7 +46,7 @@ La fase di verifica è opzionale per i PSP, se il Nodo riscontra che la posizion
 
 ## Fase di attivazione
 
-![](<../../.gitbook/assets/image (38).png>)
+![](<../../../../../docs/pago-pa/sanp/3.0.0/.gitbook/assets/image (38).png>)
 
 Con l’[activatePaymentNotice](../../appendici/primitive.md#activatepaymentnotice) il PSP chiede al nodo di attivare il pagamento presso l’EC.
 
@@ -67,7 +67,7 @@ Il PSP può avviare un processo di retry in caso di mancata ricezione della risp
 
 ## Fase di inoltro del pagamento
 
-![](../../.gitbook/assets/pspNotifyPayment.png)
+![](../../../../../docs/pago-pa/sanp/3.0.0/.gitbook/assets/pspNotifyPayment.png)
 
 I dettagli dei pagamenti eseguiti sui touchpoints di PagoPA S.p.A. vengono inoltrati al PSP tramite la [pspNotifyPayment](../../appendici/primitive.md#pspnotifypayment).
 
@@ -90,7 +90,7 @@ Se il PSP invia un OK nella response deve inviare un _outcome_ OK nella [sendPay
 
 ## Fase di invio dell'esito del pagamento
 
-![](<../../.gitbook/assets/image (2).png>)
+![](<../../../../../docs/pago-pa/sanp/3.0.0/.gitbook/assets/image (2).png>)
 
 Il PSP è tenuto a fornire l'esito del pagamento **entro 2sec** con la [sendPaymentOutcome](../../appendici/primitive.md#sendpaymentoutcome), sia in caso di pagamento effettuato con successo (outcome = OK), sia in caso di pagamento non effettuato (outcome = KO), l’effetto dell’invio dell’esito del pagamento è quello di “sbloccare” la posizione debitoria sulla piattaforma:
 

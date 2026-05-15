@@ -6,7 +6,7 @@ Il Catalogo dei Servizi viene aggiornato e pubblicato con cadenza giornaliera.
 
 Le informazioni del Catalogo dei Servizi sono codificate in un file XML secondo il tracciato [https://github.com/pagopa/pagopa-api/blob/SANP3.0.0/general/CatalogoServizi\_2\_0\_0.xsd](https://github.com/pagopa/pagopa-api/blob/SANP3.0.0/general/CatalogoServizi_2_0_0.xsd) e devono essere inviate da ogni EC a PagoPA S.p.A. attraverso le funzioni previste sul Portale dedicato all'Assistenza.
 
-![](<../../.gitbook/assets/image (7).png>)
+![](<../../../../../docs/pago-pa/sanp/3.0.0/.gitbook/assets/image (7).png>)
 
 Le informazioni possono essere richieste dai singoli PSP alla piattaforma pagoPA utilizzando l'apposita primitiva [nodoChiediCatalogoServizi](../../appendici/primitive.md#nodochiedicatalogoservizi).&#x20;
 

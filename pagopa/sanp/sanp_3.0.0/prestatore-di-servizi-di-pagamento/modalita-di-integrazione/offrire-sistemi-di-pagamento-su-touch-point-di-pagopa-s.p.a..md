@@ -38,7 +38,7 @@ L’operazione di pagamento avviene in due fasi:
 * autorizzazione
 * contabilizzazione
 
-![](<../../.gitbook/assets/PSP Acquirer (1).png>)
+![](<../../../../../docs/pago-pa/sanp/3.0.0/.gitbook/assets/PSP Acquirer (1).png>)
 
 * avvenuta la selezione dell’acquirer, il pagatore innesca l’azione del client;
 * la piattaforma verifica la disponibilità dell’importo verso l’acquirer tramite una chiamata al payment Gateway / Virtual POS;
