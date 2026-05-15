@@ -13,7 +13,7 @@ All'interno di IO sono già presenti più di 230.000 servizi erogati da oltre 15
 Per maggiori informazioni, [leggi le statistiche di utilizzo](https://io.italia.it/dashboard) dell'app.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (28).png" alt=""><figcaption><p>Un esempio completo di scheda servizio</p></figcaption></figure>
+<figure><img src="../../../app-io/manuale-servizi/v3.3/.gitbook/assets/image (28).png" alt=""><figcaption><p>Un esempio completo di scheda servizio</p></figcaption></figure>
 
 Ogni ente ha quindi esposti sotto al proprio nome i servizi che offre su IO. Premendo sul singolo servizio, compare una scheda dedicata in cui ciascun utente può consultare queste informazioni:
 

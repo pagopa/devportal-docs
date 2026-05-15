@@ -11,7 +11,7 @@ I servizi offerti dagli enti su IO spesso sono rimandare l'utente a **siti web o
 
 Per facilitare questa azione, le schede dei servizi e i messaggi possono contenere un **pulsante con azione** (chiamata _**Call To Action**_**&#x20;o CTA**). Quando l'utente preme sul pulsante, viene indirizzato al sito web o al portale definito dall'ente.
 
-<figure><img src="../../.gitbook/assets/image (29).png" alt=""><figcaption><p>Un esempio di pulsante con azione nella scheda servizio e in un messaggio</p></figcaption></figure>
+<figure><img src="../../../app-io/manuale-servizi/v3.3/.gitbook/assets/image (29).png" alt=""><figcaption><p>Un esempio di pulsante con azione nella scheda servizio e in un messaggio</p></figcaption></figure>
 
 Il pulsante con Call to action può essere:
 
