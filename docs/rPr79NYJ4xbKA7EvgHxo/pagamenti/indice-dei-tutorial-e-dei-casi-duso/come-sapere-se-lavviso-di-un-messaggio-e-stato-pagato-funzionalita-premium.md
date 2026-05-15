@@ -6,7 +6,7 @@ Questa informazione è accessibile tramite [la stessa API](https://docs.pagopa.i
 
 1.  Aggiungi l'header `Ocp-Apim-Subscription-Key` e valorizzalo con la chiave ([primaria o secondaria](https://docs.pagopa.it/kb-enti-servizi/domande-frequenti/domande-e-risposte-sui-servizi-io#perche-ci-sono-due-api-key-per-servizio)) del tuo Servizio IO: puoi recuperarla accedendo all'[Area Riservata](https://selfcare.pagopa.it/) e cercando la scheda del tuo Servizio nella pagina "Servizi"<br>
 
-    <figure><img src="../../../../app-io/supporto-agli-enti/v1.0/.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../app-io/supporto-agli-enti/v1.0/.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 2. Componi la URL di invocazione per l'API come nell'esempio:\
    \
    https://api.io.pagopa.it/api/v1/messages/<mark style="color:blue;">**RSRNOU70S54S000L**</mark>/<mark style="color:green;">**01GS8744E24EZDG3XD5ECXB9RG**</mark><br>

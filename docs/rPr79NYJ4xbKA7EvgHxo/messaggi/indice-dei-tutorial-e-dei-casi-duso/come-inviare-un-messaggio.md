@@ -24,7 +24,7 @@ Facendo riferimento al procedimento indicato nella [Guida Tecnica per l'integraz
 
 * il campo subject è il titolo del messaggio e comparirà nell'elenco dei messaggi e in testa allo stesso aprendone il contenuto:
 
-<table data-header-hidden><thead><tr><th></th><th width="40"></th><th></th></tr></thead><tbody><tr><td><img src="../../../../app-io/supporto-agli-enti/v1.0/.gitbook/assets/Screenshot_20231127_113321_IO (2).png" alt="" data-size="original"></td><td></td><td><img src="../../../../app-io/supporto-agli-enti/v1.0/.gitbook/assets/titolo_messaggio (4).png" alt="" data-size="original"></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th></th><th width="40"></th><th></th></tr></thead><tbody><tr><td><img src="../../../app-io/supporto-agli-enti/v1.0/.gitbook/assets/Screenshot_20231127_113321_IO (2).png" alt="" data-size="original"></td><td></td><td><img src="../../../app-io/supporto-agli-enti/v1.0/.gitbook/assets/titolo_messaggio (4).png" alt="" data-size="original"></td></tr></tbody></table>
 
 
 
@@ -64,7 +64,7 @@ Se hai [sottoscritto l'Accordo Premium](https://docs.pagopa.it/area-riservata-en
 2. Assicurati che il cittadino [possa ricevere il tuo messaggio](https://docs.pagopa.it/kb-enti-servizi/tutorial-e-casi-duso/indice-dei-tutorial-e-dei-casi-duso/come-sapere-se-un-cittadino-ha-abilitata-la-ricezione-dei-messaggi-per-un-servizio)
 3.  Aggiungi l'header `Ocp-Apim-Subscription-Key` e valorizzalo con la chiave ([primaria o secondaria](https://docs.pagopa.it/kb-enti-servizi/domande-frequenti/domande-e-risposte-sui-servizi-io#a-cosa-servono-le-due-api-key-associate-al-servizio-sono-differenti)) del tuo Servizio IO: puoi recuperarla accedendo all'[Area Riservata](https://selfcare.pagopa.it/) e cercando la scheda del tuo Servizio nella pagina "Servizi"
 
-    <figure><img src="../../../../app-io/supporto-agli-enti/v1.0/.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../app-io/supporto-agli-enti/v1.0/.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 4. Invoca l'API di invio richiamando in `POST` l'endpoint `https://api.io.pagopa.it/api/v1/messages`
 5. Prendi nota dell'identificativo del Messaggio che IO ti comunica in risposta: ti servirà per [conoscere il suo stato di processamento](https://docs.pagopa.it/kb-enti-messaggi/tutorial-e-casi-duso/indice-dei-tutorial-e-dei-casi-duso/come-sapere-se-un-messaggio-e-stato-recapitato) e, se sei cliente Premium, usufruire delle caratteristiche a valore aggiunto offerte dal Programma
 
@@ -84,4 +84,4 @@ Se vuoi ottenere maggiore capacità nell'utilizzo delle API di integrazione con 
 
 6.  Ecco cosa vedrà il Cittadino aprendo App IO quando riceverà il tuo messaggio:<br>
 
-    <figure><img src="../../../../app-io/supporto-agli-enti/v1.0/.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../app-io/supporto-agli-enti/v1.0/.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>

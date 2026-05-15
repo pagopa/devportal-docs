@@ -50,7 +50,7 @@ Per i **messaggi con avviso di pagamento e data di scadenza** **dichiarata dall�
 
 *   Esempio: il Cittadino riceve un messaggio Premium con avviso di pagamento dotato di scadenza, ma non lo paga. Riceverà fino a quattro promemoria 13, 10, 7 e 4 giorni prima della scadenza del tipo _“Hai un avviso da pagare. Entra nell'app e paga l'avviso emesso da \[nome dell'Ente creditore]”_<br>
 
-    <figure><img src="../../../app-io/supporto-agli-enti/v1.0/.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../app-io/supporto-agli-enti/v1.0/.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 Tieni presente alcuni aspetti importanti:
 
