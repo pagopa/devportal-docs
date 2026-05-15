@@ -50,7 +50,7 @@ Prima di avviare il processo di onboarding con PagoPA, è necessario che il PSP 
 
 Prima della fase di adesione, occorrerà compilare il seguente allegato tecnico con tutte le informazioni necessarie alla configurazione del servizio sulla piattaforma.:
 
-{% file src="../.gitbook/assets/Piano_Testing_SRTP_EPC.xlsx" %}
+{% file src="../../../srtp/manuale-operativo-srtp/v1.1/.gitbook/assets/Piano_Testing_SRTP_EPC.xlsx" %}
 Scarica il documento relativo ai test da effetturare
 {% endfile %}
 
