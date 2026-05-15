@@ -5,9 +5,9 @@ Questa configurazione è necessaria se hai intenzione di utilizzare una delle se
 1. [inviare-un-messaggio-a-contenuto-remoto.md](../funzionalita/inviare-un-messaggio/inviare-un-messaggio-a-contenuto-remoto.md "mention")
 2. [aggiungere-allegati.md](../funzionalita/inviare-un-messaggio/aggiungere-allegati.md "mention")
 
-Per entrambe le funzionalità è infatti necessario **mettere a disposizione un **_**REST web service**_ conforme alla [relativa OpenAPI](https://editor.swagger.io/?url=https://raw.githubusercontent.com/pagopa/io-backend/master/openapi/consumed/api\_remote\_content.yaml).
+Per entrambe le funzionalità è infatti necessario **mettere a disposizione un&#x20;**_**REST web service**_ conforme alla [relativa OpenAPI](https://editor.swagger.io/?url=https://raw.githubusercontent.com/pagopa/io-backend/master/openapi/consumed/api_remote_content.yaml).
 
-Il servizio deve **esporre 2 o 3 **_**endpoint**_, a seconda del [tipo di accordo](https://docs.pagopa.it/kb-enti-accordi/domande-frequenti/domande-e-risposte-sugli-accordi#quali-sono-le-formule-contrattuali-possibili-per-aderire-allapp-io) che hai sottoscritto con PagoPA, che il backend di IO richiamerà quando necessario:
+Il servizio deve **esporre 2 o 3&#x20;**_**endpoint**_, a seconda del [tipo di accordo](https://docs.pagopa.it/kb-enti-accordi/domande-frequenti/domande-e-risposte-sugli-accordi#quali-sono-le-formule-contrattuali-possibili-per-aderire-allapp-io) che hai sottoscritto con PagoPA, che il backend di IO richiamerà quando necessario:
 
 <table><thead><tr><th width="207">Accordo sottoscritto</th><th width="139" data-type="checkbox">Precondizioni</th><th width="191" data-type="checkbox">Dettagli messaggio</th><th data-type="checkbox">Allegati</th></tr></thead><tbody><tr><td>Standard</td><td>true</td><td>true</td><td>false</td></tr><tr><td>Fast</td><td>true</td><td>true</td><td>false</td></tr><tr><td>Premium</td><td>true</td><td>true</td><td>true</td></tr></tbody></table>
 

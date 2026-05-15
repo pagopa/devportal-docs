@@ -17,7 +17,7 @@ Per un messaggio, i contenuti remotizzabili sono:
 
 A differenza dell'invio tradizionale, in cui è prevista la trasmissione dei contenuti del messaggio ai sistemi di IO, i messaggi remoti prevedono che tali **contenuti risiedano esclusivamente presso i tuoi sistemi** e sarà IO a recuperarli ogni volta che l'utente destinatario vorrà visualizzarli in app.
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption><p>Sequenza delle principali fasi nei due scenari di invio</p></figcaption></figure>
+<figure><img src="../../../app-io/io-guida-tecnica/v5.0/.gitbook/assets/image (6).png" alt=""><figcaption><p>Sequenza delle principali fasi nei due scenari di invio</p></figcaption></figure>
 
 In questo modo, IO fa da canale di **comunicazione in tempo reale** tra te e il tuo utente e detiene unicamente le informazioni necessarie per consentire il recupero del messaggio e verificarne lo stato.
 
@@ -30,16 +30,16 @@ La gestione dei messaggi remotizzati implica che la tua organizzazione è respon
 Come specificato, i messaggi remotizzati sono pensati per garantire un invio _privacy compliant_ di informazioni personali/sensibili riferite al destinatario, **ove necessarie per l’erogazione del servizio.**&#x20;
 
 {% hint style="warning" %}
-Ti ricordiamo che tale modalità d'invio **lascia invariati i tuoi obblighi ai sensi della normativa vigente**, in particolare ai sensi dell'art. 7.3 delle [Linee Guida IO](https://trasparenza.agid.gov.it/moduli/downloadFile.php?file=oggetto\_allegati/213121604430O\_\_OLG+Punto+accesso+telematico+servizi+PA\_3.11.2021.pdf).
+Ti ricordiamo che tale modalità d'invio **lascia invariati i tuoi obblighi ai sensi della normativa vigente**, in particolare ai sensi dell'art. 7.3 delle [Linee Guida IO](https://trasparenza.agid.gov.it/moduli/downloadFile.php?file=oggetto_allegati/213121604430O__OLG+Punto+accesso+telematico+servizi+PA_3.11.2021.pdf).
 {% endhint %}
 
-Come ulteriore misura a protezione della privacy, il flag [#require\_secure\_channels](../../api-e-specifiche/api-messaggi/submit-a-message-passing-the-user-fiscal\_code-in-the-request-body.md#require\_secure\_channels "mention") ti consente di **marcare un messaggio come contenente informazioni sensibili**, con i seguenti effetti:
+Come ulteriore misura a protezione della privacy, il flag [#require\_secure\_channels](../../api-e-specifiche/api-messaggi/submit-a-message-passing-the-user-fiscal_code-in-the-request-body.md#require_secure_channels "mention") ti consente di **marcare un messaggio come contenente informazioni sensibili**, con i seguenti effetti:
 
 * le notifiche push sui dispositivi del destinatario mostreranno un generico invito ad aprire il messaggio, senza riportare il contenuto del titolo;
 * i messaggi non verranno inoltrati via email a prescindere dalla preferenza impostata dall'utente destinatario.
 
 {% hint style="info" %}
-Puoi anche impostare il flag `require_secure_channels` [direttamente sul servizio](../pubblicare-un-servizio/dati-obbligatori/attributi.md#require\_secure\_channels), così non devi preoccuparti di farlo per ogni singolo messaggio.
+Puoi anche impostare il flag `require_secure_channels` [direttamente sul servizio](../pubblicare-un-servizio/dati-obbligatori/attributi.md#require_secure_channels), così non devi preoccuparti di farlo per ogni singolo messaggio.
 {% endhint %}
 
 #### ✏️ Aggiornamento dei contenuti nel tempo
@@ -72,9 +72,9 @@ Per dare contezza al destinatario del fatto che i contenuti potrebbero essere ag
 
 
 
-<figure><img src="../../.gitbook/assets/Banner informativi (1).jpg" alt="" width="234"><figcaption><p>Informativa breve, in calce al messaggio</p></figcaption></figure>
+<figure><img src="../../../app-io/io-guida-tecnica/v5.0/.gitbook/assets/Banner informativi (1).jpg" alt="" width="234"><figcaption><p>Informativa breve, in calce al messaggio</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/Bottom sheet (2).jpg" alt="" width="270"><figcaption><p>Informativa estesa, consultabile tramite la CTA "Scopri di più" </p></figcaption></figure>
+<figure><img src="../../../app-io/io-guida-tecnica/v5.0/.gitbook/assets/Bottom sheet (2).jpg" alt="" width="270"><figcaption><p>Informativa estesa, consultabile tramite la CTA "Scopri di più" </p></figcaption></figure>
 
 {% hint style="info" %}
 **IO non effettua alcun controllo** sull'invariabilità nel tempo dei contenuti di un messaggio a contenuto remoto. L'accuratezza e la disponibilità delle informazioni contenute nel messaggio sono sempre di responsabilità esclusiva dell'Ente mittente.
@@ -97,7 +97,7 @@ Il ciclo di vita di un messaggio a contenuto remoto si compone di due momenti pr
 * L'**invio** (creazione) da parte dei sistemi della tua organizzazione;
 * La **fruizione** (visualizzazione) da parte del destinatario.
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption><p>Le due fasi principali del ciclo di vita di un messaggio a contenuto remoto</p></figcaption></figure>
+<figure><img src="../../../app-io/io-guida-tecnica/v5.0/.gitbook/assets/image (5).png" alt=""><figcaption><p>Le due fasi principali del ciclo di vita di un messaggio a contenuto remoto</p></figcaption></figure>
 
 Entrambe le fasi richiedono un'integrazione tra i tuoi sistemi e quelli di IO.
 
@@ -119,7 +119,7 @@ Come ente mittente, puoi decidere che l’apertura del messaggio debba essere pr
 
 Le precondizioni sono una schermata intermedia tra l'elenco dei messaggi e il dettaglio del messaggio selezionato. L’utente accede al dettaglio del messaggio solo se seleziona il bottone "Continua".&#x20;
 
-<img src="../../.gitbook/assets/Precondizioni.jpg" alt="" data-size="original">
+<img src="../../../app-io/io-guida-tecnica/v5.0/.gitbook/assets/Precondizioni.jpg" alt="" data-size="original">
 
 Di fatto, la visualizzazione delle precondizioni **porta a un’interruzione del flusso di lettura di un messaggio**. Quindi, è bene utilizzarle solo negli scenari in cui portino effettivamente valore alla tua comunicazione o siano altrimenti richiesti dalla normativa vigente, al fine di non degradare l'esperienza utente.
 
@@ -141,16 +141,13 @@ Il titolo del messaggio è usato da app IO in tre occasioni:
 2. come intestazione del dettaglio del messaggio, una volta aperto;
 3. nel testo delle notifiche push collegate al messaggio (ove abilitate dall'utente e ove il messaggio / servizio non siano da te contrassegnati come veicolanti informazioni sensibili)
 
-A seconda del valore del flag [#has\_remote\_content](../../api-e-specifiche/api-messaggi/submit-a-message-passing-the-user-fiscal\_code-in-the-request-body.md#has\_remote\_content "mention") che specificherai in [#third\_party\_data](../../api-e-specifiche/api-messaggi/submit-a-message-passing-the-user-fiscal\_code-in-the-request-body.md#third\_party\_data "mention") (vedi più avanti in questo capitolo) il **titolo del messaggio** presenterà comportamenti differenti:
+A seconda del valore del flag [#has\_remote\_content](../../api-e-specifiche/api-messaggi/submit-a-message-passing-the-user-fiscal_code-in-the-request-body.md#has_remote_content "mention") che specificherai in [#third\_party\_data](../../api-e-specifiche/api-messaggi/submit-a-message-passing-the-user-fiscal_code-in-the-request-body.md#third_party_data "mention") (vedi più avanti in questo capitolo) il **titolo del messaggio** presenterà comportamenti differenti:
 
-* se [#has\_remote\_content](../../api-e-specifiche/api-messaggi/submit-a-message-passing-the-user-fiscal\_code-in-the-request-body.md#has\_remote\_content "mention")`=true`, il campo [#subject](../../api-e-specifiche/api-messaggi/submit-a-message-passing-the-user-fiscal\_code-in-the-request-body.md#subject "mention") indicato al momento della creazione del messaggio è usato da IO _solo_ nell'elenco dei messaggi ricevuti. \
+* se [#has\_remote\_content](../../api-e-specifiche/api-messaggi/submit-a-message-passing-the-user-fiscal_code-in-the-request-body.md#has_remote_content "mention")`=true`, il campo [#subject](../../api-e-specifiche/api-messaggi/submit-a-message-passing-the-user-fiscal_code-in-the-request-body.md#subject "mention") indicato al momento della creazione del messaggio è usato da IO _solo_ nell'elenco dei messaggi ricevuti. \
   L'intestazione visibile all'interno del dettaglio del messaggio è invece recuperata successivamente (vedi [#cosa-succede-quando-il-destinatario-apre-un-messaggio-remotizzato](inviare-un-messaggio-a-contenuto-remoto.md#cosa-succede-quando-il-destinatario-apre-un-messaggio-remotizzato "mention")).\
   \
   Questo significa che i due campi potrebbero differire. Consigliamo di non modificare il titolo in modo sostanziale, in modo da mantenere la coerenza informativa tra i due testi. Inoltre, ti ricordiamo che ai sensi delle Linee Guida IO, non è possibile inserire informazioni sensibili nel titolo del messaggio.
-
-<!---->
-
-* se [#has\_remote\_content](../../api-e-specifiche/api-messaggi/submit-a-message-passing-the-user-fiscal\_code-in-the-request-body.md#has\_remote\_content "mention")`=false` oppure se non includi il flag, il campo [#subject](../../api-e-specifiche/api-messaggi/submit-a-message-passing-the-user-fiscal\_code-in-the-request-body.md#subject "mention") presenta il funzionamento standard di un messaggio tradizionale (non remoto): lo stesso contenuto testuale è usato in elenco messaggi e nel dettaglio del messaggio.
+* se [#has\_remote\_content](../../api-e-specifiche/api-messaggi/submit-a-message-passing-the-user-fiscal_code-in-the-request-body.md#has_remote_content "mention")`=false` oppure se non includi il flag, il campo [#subject](../../api-e-specifiche/api-messaggi/submit-a-message-passing-the-user-fiscal_code-in-the-request-body.md#subject "mention") presenta il funzionamento standard di un messaggio tradizionale (non remoto): lo stesso contenuto testuale è usato in elenco messaggi e nel dettaglio del messaggio.
 
 </details>
 
@@ -164,7 +161,7 @@ In fase di creazione di un messaggio a contenuto remoto, è comunque necessario,
 
 **Nota sull'inoltro dei messaggi via email:** Se abilitato dall'utente finale, un messaggio inviato tramite IO può essere inoltrato al suo indirizzo email. L'email contiene l'incipit del corpo del messaggio (i primi 134 caratteri), nonché un invito ad aprire l'app per accedere al contenuto completo tramite CTA che consente il redirect. Ecco un esempio di email di inoltro:
 
-![](<../../.gitbook/assets/image (11).png>)
+![](<../../../app-io/io-guida-tecnica/v5.0/.gitbook/assets/image (11).png>)
 
 </details>
 
@@ -175,12 +172,12 @@ Se hai sottoscritto l’Accordo Premium, i tuoi messaggi potranno includere anch
 
 
 
-Per i messaggi a contenuto remoto, è _obbligatorio_ inserire le seguenti informazioni aggiuntive nel blocco [#third\_party\_data](../../api-e-specifiche/api-messaggi/submit-a-message-passing-the-user-fiscal\_code-in-the-request-body.md#third\_party\_data "mention"):
+Per i messaggi a contenuto remoto, è _obbligatorio_ inserire le seguenti informazioni aggiuntive nel blocco [#third\_party\_data](../../api-e-specifiche/api-messaggi/submit-a-message-passing-the-user-fiscal_code-in-the-request-body.md#third_party_data "mention"):
 
 <table><thead><tr><th width="237">Campo</th><th>Descrizione campo</th></tr></thead><tbody><tr><td><a data-mention href="../../api-e-specifiche/api-messaggi/submit-a-message-passing-the-user-fiscal_code-in-the-request-body.md#id">#id</a></td><td>Questo è l'<strong>identificativo di correlazione remota</strong>, che identifica univocamente uno specifico messaggio indirizzato a uno specifico destinatario. Tale identificativo, <strong>determinato da te</strong>, consiste in una stringa che <strong>consente alle API d</strong>i recuperare i contenuti remoti per tale specifico messaggio.</td></tr><tr><td><a data-mention href="../../api-e-specifiche/api-messaggi/submit-a-message-passing-the-user-fiscal_code-in-the-request-body.md#has_precondition">#has_precondition</a></td><td><p>Imposta questo campo solo se vorrai che, al momento dell' apertura del messaggio in app, al destinatario sia mostrato un testo (con relativo titolo) recante <strong>informazioni di contesto</strong> che indicherai in quel momento (per maggiori informazioni fai riferimento a <a data-mention href="../../api-e-specifiche/openapi-endpoint-di-recupero-dei-contenuti-remotizzati.md#endpoint-di-recupero-delle-precondizioni-allapertura-del-messaggio">#endpoint-di-recupero-delle-precondizioni-allapertura-del-messaggio</a>): letto il testo, <strong>il destinatario potrà scegliere se continuare con l'apertura del messaggio</strong> o se tornare alla lista dei messaggi ricevuti; i valori possibili per questo campo sono:</p><ul><li><code>NEVER</code> (default)</li><li><code>ONCE</code> (le precondizioni sono mostrate solo la prima volta che il destinatario cerca di aprire il messaggio)</li><li><code>ALWAYS</code> (le precondizioni sono mostrate tutte le volte, anche se il messaggio era stato già letto in precedenza)</li></ul></td></tr><tr><td><a data-mention href="../../api-e-specifiche/api-messaggi/submit-a-message-passing-the-user-fiscal_code-in-the-request-body.md#has_remote_content">#has_remote_content</a></td><td>Imposta il campo col valore <code>true</code> <strong>se vuoi che il titolo (soggetto) e il corpo del messaggio siano remotizzati</strong>; quando IO te li richiederà tramite l'apposita API che avrai esposto, dovrai rispondere con una stringa di testo per il titolo e un <em>markdown</em> per il corpo, come li avresti specificati in fase di creazione di un messaggio tradizionale; il default per questo campo è il valore <code>false</code>.<br>Per maggiori informazioni e per comprendere il ruolo del titolo in un messaggio con contenuto remoto fai riferimento a <a data-mention href="../../api-e-specifiche/openapi-endpoint-di-recupero-dei-contenuti-remotizzati.md#endpoint-di-recupero-dei-dettagli-del-messaggio">#endpoint-di-recupero-dei-dettagli-del-messaggio</a></td></tr><tr><td><a data-mention href="../../api-e-specifiche/api-messaggi/submit-a-message-passing-the-user-fiscal_code-in-the-request-body.md#has_attachments">#has_attachments</a></td><td>Imposta il campo col il valore <code>true</code> se al messaggio vuoi che siano <strong>allegati uno o più documenti in formato PDF</strong>: come illustrato in <a data-mention href="../../api-e-specifiche/openapi-endpoint-di-recupero-dei-contenuti-remotizzati.md#endpoint-di-recupero-dei-dettagli-del-messaggio">#endpoint-di-recupero-dei-dettagli-del-messaggio</a>, quando IO ti richiederà i dettagli del messaggio dovrai indicare i metadati degli allegati (nome e relativa URL); quando il destinatario selezionerà un allegato in app, IO recupererà i byte presso i tuoi sistemi, tramite l'apposita API descritta in <a data-mention href="../../api-e-specifiche/openapi-endpoint-di-recupero-dei-contenuti-remotizzati.md#endpoint-di-recupero-dei-byte-del-singolo-allegato">#endpoint-di-recupero-dei-byte-del-singolo-allegato</a>.</td></tr></tbody></table>
 
 {% hint style="warning" %}
-Se il messaggio veicola **informazioni sensibili**, _devi_ impostare il flag [#require\_secure\_channels](../../api-e-specifiche/api-messaggi/submit-a-message-passing-the-user-fiscal\_code-in-the-request-body.md#require\_secure\_channels "mention")`=true`
+Se il messaggio veicola **informazioni sensibili**, _devi_ impostare il flag [#require\_secure\_channels](../../api-e-specifiche/api-messaggi/submit-a-message-passing-the-user-fiscal_code-in-the-request-body.md#require_secure_channels "mention")`=true`
 {% endhint %}
 
 ### Fase di fruizione del messaggio
@@ -190,10 +187,10 @@ Se il messaggio veicola **informazioni sensibili**, _devi_ impostare il flag [#r
 In questa fase, IO verifica le informazioni necessarie per il recupero del messaggio presso gli _endpoint_ da te esposti.
 
 {% hint style="info" %}
-Ogni chiamata da IO verso i tuoi sistemi è identificata dall'[#id](../../api-e-specifiche/api-messaggi/submit-a-message-passing-the-user-fiscal\_code-in-the-request-body.md#id "mention") di correlazione remota che avevi indicato in fase di [#creazione-del-messaggio-remotizzato](inviare-un-messaggio-a-contenuto-remoto.md#creazione-del-messaggio-remotizzato "mention") e, come _header_, il [#fiscal\_code](../../api-e-specifiche/api-messaggi/submit-a-message-passing-the-user-fiscal\_code-in-the-request-body.md#fiscal\_code "mention") del destinatario.
+Ogni chiamata da IO verso i tuoi sistemi è identificata dall'[#id](../../api-e-specifiche/api-messaggi/submit-a-message-passing-the-user-fiscal_code-in-the-request-body.md#id "mention") di correlazione remota che avevi indicato in fase di [#creazione-del-messaggio-remotizzato](inviare-un-messaggio-a-contenuto-remoto.md#creazione-del-messaggio-remotizzato "mention") e, come _header_, il [#fiscal\_code](../../api-e-specifiche/api-messaggi/submit-a-message-passing-the-user-fiscal_code-in-the-request-body.md#fiscal_code "mention") del destinatario.
 {% endhint %}
 
-In particolare, se in fase di [#creazione-del-messaggio-remotizzato](inviare-un-messaggio-a-contenuto-remoto.md#creazione-del-messaggio-remotizzato "mention") avevi indicato [#has\_precondition](../../api-e-specifiche/api-messaggi/submit-a-message-passing-the-user-fiscal\_code-in-the-request-body.md#has\_precondition "mention") con valore `ONCE` o `ALWAYS`, non appena il destinatario seleziona il messaggio dall'elenco messaggi in app per la prima volta (`=ONCE`) o tutte le volte (`=ALWAYS`) IO recupererà l'endpoint da richiamare dalle informazioni di configurazione, e **invocherà i tuoi sistemi** per **ottenere in risposta il titolo e il testo del messaggio** da mostrare nel pannello a comparsa delle [#precondizioni-allapertura](inviare-un-messaggio-a-contenuto-remoto.md#precondizioni-allapertura "mention").
+In particolare, se in fase di [#creazione-del-messaggio-remotizzato](inviare-un-messaggio-a-contenuto-remoto.md#creazione-del-messaggio-remotizzato "mention") avevi indicato [#has\_precondition](../../api-e-specifiche/api-messaggi/submit-a-message-passing-the-user-fiscal_code-in-the-request-body.md#has_precondition "mention") con valore `ONCE` o `ALWAYS`, non appena il destinatario seleziona il messaggio dall'elenco messaggi in app per la prima volta (`=ONCE`) o tutte le volte (`=ALWAYS`) IO recupererà l'endpoint da richiamare dalle informazioni di configurazione, e **invocherà i tuoi sistemi** per **ottenere in risposta il titolo e il testo del messaggio** da mostrare nel pannello a comparsa delle [#precondizioni-allapertura](inviare-un-messaggio-a-contenuto-remoto.md#precondizioni-allapertura "mention").
 
 A fronte della chiamata API all'[#endpoint-di-recupero-delle-precondizioni-allapertura-del-messaggio](../../api-e-specifiche/openapi-endpoint-di-recupero-dei-contenuti-remotizzati.md#endpoint-di-recupero-delle-precondizioni-allapertura-del-messaggio "mention") dovrai rispondere come nell'esempio:
 
@@ -208,10 +205,10 @@ A fronte della chiamata API all'[#endpoint-di-recupero-delle-precondizioni-allap
 
 Se il destinatario seleziona "**Continua**", IO procederà con la visualizzazione del messaggio in app; in caso contrario, l'utente verrà riportato all'elenco dei messaggi.
 
-Se in fase di [#creazione-del-messaggio-remotizzato](inviare-un-messaggio-a-contenuto-remoto.md#creazione-del-messaggio-remotizzato "mention") avevi indicato [#has\_remote\_content](../../api-e-specifiche/api-messaggi/submit-a-message-passing-the-user-fiscal\_code-in-the-request-body.md#has\_remote\_content "mention")`=true`, titolo e corpo del messaggio saranno recuperati al momento dell'apertura tramite una chiamata che IO farà all'API da te esposta (per i dettagli fai riferimento a [#endpoint-di-recupero-dei-dettagli-del-messaggio](../../api-e-specifiche/openapi-endpoint-di-recupero-dei-contenuti-remotizzati.md#endpoint-di-recupero-dei-dettagli-del-messaggio "mention")).
+Se in fase di [#creazione-del-messaggio-remotizzato](inviare-un-messaggio-a-contenuto-remoto.md#creazione-del-messaggio-remotizzato "mention") avevi indicato [#has\_remote\_content](../../api-e-specifiche/api-messaggi/submit-a-message-passing-the-user-fiscal_code-in-the-request-body.md#has_remote_content "mention")`=true`, titolo e corpo del messaggio saranno recuperati al momento dell'apertura tramite una chiamata che IO farà all'API da te esposta (per i dettagli fai riferimento a [#endpoint-di-recupero-dei-dettagli-del-messaggio](../../api-e-specifiche/openapi-endpoint-di-recupero-dei-contenuti-remotizzati.md#endpoint-di-recupero-dei-dettagli-del-messaggio "mention")).
 
 {% hint style="info" %}
-Come nel modello tradizionale, anche a un messaggio con contenuto remoto puoi aggiungere una data di scadenza ([#due\_date](../../api-e-specifiche/api-messaggi/submit-a-message-passing-the-user-fiscal\_code-in-the-request-body.md#due\_date "mention")) e i dati riferiti a una posizione debitoria ([#payment\_data](../../api-e-specifiche/api-messaggi/submit-a-message-passing-the-user-fiscal\_code-in-the-request-body.md#payment\_data "mention")); tali informazioni sono già remotizzati grazie all'integrazione con il nodo pagoPA.
+Come nel modello tradizionale, anche a un messaggio con contenuto remoto puoi aggiungere una data di scadenza ([#due\_date](../../api-e-specifiche/api-messaggi/submit-a-message-passing-the-user-fiscal_code-in-the-request-body.md#due_date "mention")) e i dati riferiti a una posizione debitoria ([#payment\_data](../../api-e-specifiche/api-messaggi/submit-a-message-passing-the-user-fiscal_code-in-the-request-body.md#payment_data "mention")); tali informazioni sono già remotizzati grazie all'integrazione con il nodo pagoPA.
 {% endhint %}
 
 ###

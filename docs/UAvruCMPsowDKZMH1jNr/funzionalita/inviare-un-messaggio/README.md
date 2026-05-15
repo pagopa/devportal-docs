@@ -1,4 +1,4 @@
-# ✉ Inviare un messaggio
+# ✉️ Inviare un messaggio
 
 ## Cosa sono i messaggi?
 
@@ -38,7 +38,7 @@ Per maggiori informazioni scopri le API [get-a-user-profile-using-post.md](../..
 
 <summary><mark style="color:blue;">Step 4</mark> - Invia il messaggio</summary>
 
-Per farlo, usa l'API [submit-a-message-passing-the-user-fiscal\_code-in-the-request-body.md](../../api-e-specifiche/api-messaggi/submit-a-message-passing-the-user-fiscal\_code-in-the-request-body.md "mention").
+Per farlo, usa l'API [submit-a-message-passing-the-user-fiscal\_code-in-the-request-body.md](../../api-e-specifiche/api-messaggi/submit-a-message-passing-the-user-fiscal_code-in-the-request-body.md "mention").
 
 Se intendi [inviare un messaggio a contenuto remoto](inviare-un-messaggio-a-contenuto-remoto.md), segui le [relative istruzioni](inviare-un-messaggio-a-contenuto-remoto.md#come-funziona-linvio-di-un-messaggio-a-contenuto-remoto) su come integrarti.
 
@@ -64,13 +64,13 @@ Alcune funzionalità menzionate richiedono la sottoscrizione di un accordo Premi
 
 Ci sono due modalità di invio dei messaggi, utili a seconda del tipo di contenuto che devi comunicare.
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption><p>Sequenza delle principali fasi nei due scenari di invio</p></figcaption></figure>
+<figure><img src="../../../app-io/io-guida-tecnica/v5.0/.gitbook/assets/image (6).png" alt=""><figcaption><p>Sequenza delle principali fasi nei due scenari di invio</p></figcaption></figure>
 
 ### Messaggio tradizionale
 
 Si tratta della forma di comunicazione più semplice e che richiede meno integrazioni: il mittente definisce il contenuto del messaggio e lo invia.
 
-[Scopri come inviare un messaggio tradizionale ->](../../api-e-specifiche/api-messaggi/submit-a-message-passing-the-user-fiscal\_code-in-the-request-body.md)
+[Scopri come inviare un messaggio tradizionale ->](../../api-e-specifiche/api-messaggi/submit-a-message-passing-the-user-fiscal_code-in-the-request-body.md)
 
 ### Messaggio a contenuto remoto
 
@@ -84,7 +84,7 @@ Al momento dell'invio, gli enti che hanno aderito all'offerta Premium possono in
 
 ## Gestione degli errori
 
-Tutte le API di IO possono restituire delle risposte di errore, definite nelle specifiche di ciascuna API_._ **È necessario implementare lato client dei meccanismi per la corretta gestione di questo tipo di risposte.**
+Tutte le API di IO possono restituire delle risposte di errore, definite nelle specifiche di ciascuna AP&#x49;_._ **È necessario implementare lato client dei meccanismi per la corretta gestione di questo tipo di risposte.**
 
 {% hint style="info" %}
 **Esempio:** tutte le API possono restituire lo `status code 429,` che rappresenta un segnale che indica il superamento del rate consentito. In questo caso, è necessario implementare un meccanismo di _retry_ e diminuire il _rate_ delle richieste inserendo delle pause.

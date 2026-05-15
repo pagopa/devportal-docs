@@ -103,12 +103,11 @@ Scopri che cos'è la [`chiave manage`](chiave-manage.md) e [come recuperarla](ch
 
 <summary><mark style="color:blue;">Step 3</mark> - Consulta esito</summary>
 
-1. Interroga l'API di [lettura del dettaglio di un servizio](broken-reference);
+1. Interroga l'API di [lettura del dettaglio di un servizio](/broken/pages/uWV9mc1eU6aNRDH9uyqs);
 2. Consulta il campo `status.value` per conoscere l'esito della revisione;
 3. Comprendi quali possono essere gli [stati del servizio](stato-del-servizio.md).
 
-🟢  Se il servizio è in stato **`APPROVED`**, è pronto per essere attivato. Se hai scelto l'attivazione automatica, il servizio sarà già **`PUBLISHED`** (ovvero **attivato**)\
-
+🟢  Se il servizio è in stato **`APPROVED`**, è pronto per essere attivato. Se hai scelto l'attivazione automatica, il servizio sarà già **`PUBLISHED`** (ovvero **attivato**)<br>
 
 🔴 Se il servizio è in stato **`REJECTED`**:
 

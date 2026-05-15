@@ -2,7 +2,7 @@
 
 ## Descrizione
 
-Questa API permette di caricare il logo di una organizzazione. Per funzionare correttamente richiede l'iinserimento di**`organization_fiscal_code`** come path parameter. Dovrai inoltre inserire il logo, in formato base64, nel body del messaggio.
+Questa API permette di caricare il logo di una organizzazione. Per funzionare correttamente richiede l'iinserimento d&#x69;**`organization_fiscal_code`** come path parameter. Dovrai inoltre inserire il logo, in formato base64, nel body del messaggio.
 
 {% hint style="warning" %}
 È obbligatorio utilizzare l’**api-key del servizio stesso**.
@@ -21,11 +21,11 @@ Per controllare che il logo dell’ente sia caricato correttamente puoi interrog
 https://assets.cdn.io.italia.it/logos/organizations/<ORGANIZATION_FISCAL_CODE>.png
 ```
 
-di cui **`<ORGANIZATION_FISCAL_CODE>`** è l’[`organization_fiscal_code`](../../funzionalita/pubblicare-un-servizio/dati-obbligatori/attributi.md#organization\_fiscal\_code) **privato degli eventuali zeri** iniziali del codice fiscale dell’ente.
+di cui **`<ORGANIZATION_FISCAL_CODE>`** è l’[`organization_fiscal_code`](../../funzionalita/pubblicare-un-servizio/dati-obbligatori/attributi.md#organization_fiscal_code) **privato degli eventuali zeri** iniziali del codice fiscale dell’ente.
 
-{% swagger src="https://raw.githubusercontent.com/teamdigitale/io-functions-services/master/openapi/index.yaml" path="/organizations/{organization_fiscal_code}/logo" method="put" %}
+{% openapi src="https://raw.githubusercontent.com/teamdigitale/io-functions-services/master/openapi/index.yaml" path="/organizations/{organization_fiscal_code}/logo" method="put" %}
 [https://raw.githubusercontent.com/teamdigitale/io-functions-services/master/openapi/index.yaml](https://raw.githubusercontent.com/teamdigitale/io-functions-services/master/openapi/index.yaml)
-{% endswagger %}
+{% endopenapi %}
 
 ## Esempi
 

@@ -8,7 +8,7 @@ Questa funzionalità è riservata agli enti che hanno sottoscritto il [programma
 
 Sono documenti in formato PDF, mostrati in calce al contenuto del messaggio. Questi allegati vengono recuperati dai sistemi dell'ente mittente **ogni volta** che l'utente accede alla risorsa nell'app IO.
 
-<figure><img src="../../.gitbook/assets/Allegati.png" alt="Esempio di come un utente può visualizzare un messaggio che contiene un allegato."><figcaption><p>Quando l'utente apre un messaggio vengono recuperati, oltre ai metadati del contenuto del messaggio, anche quelli relativi ai metadati (endpoint 1). Il recupero del file vero e proprio avviene tramite l'endpoint 2, ovvero con una GET all'indirizzo <code>{baseUrl}/messages/{id}/{url}</code></p></figcaption></figure>
+<figure><img src="../../../app-io/io-guida-tecnica/v5.0/.gitbook/assets/Allegati.png" alt="Esempio di come un utente può visualizzare un messaggio che contiene un allegato."><figcaption><p>Quando l'utente apre un messaggio vengono recuperati, oltre ai metadati del contenuto del messaggio, anche quelli relativi ai metadati (endpoint 1). Il recupero del file vero e proprio avviene tramite l'endpoint 2, ovvero con una GET all'indirizzo <code>{baseUrl}/messages/{id}/{url}</code></p></figcaption></figure>
 
 {% hint style="warning" %}
 Per garantire l'accessibilità e la sicurezza dei documenti, _devi_ utilizzare allegati in formato **PDF/A-2a:** assicurati di rispettare tale specifica.
@@ -20,7 +20,7 @@ Per garantire l'accessibilità e la sicurezza dei documenti, _devi_ utilizzare a
 
 <summary><mark style="color:blue;">Step 0</mark> - Esponi gli endpoint di recupero degli allegati</summary>
 
-Per permettere a IO di recuperare il contenuto di un messaggio e dei suoi allegati, **devi mettere a disposizione un **_**REST web service**_ conforme alla [relativa OpenAPI](https://editor.swagger.io/?url=https://raw.githubusercontent.com/pagopa/io-backend/master/openapi/consumed/api\_remote\_content.yaml).
+Per permettere a IO di recuperare il contenuto di un messaggio e dei suoi allegati, **devi mettere a disposizione un&#x20;**_**REST web service**_ conforme alla [relativa OpenAPI](https://editor.swagger.io/?url=https://raw.githubusercontent.com/pagopa/io-backend/master/openapi/consumed/api_remote_content.yaml).
 
 Per maggiori informazioni, leggi le [openapi-endpoint-di-recupero-dei-contenuti-remotizzati.md](../../api-e-specifiche/openapi-endpoint-di-recupero-dei-contenuti-remotizzati.md "mention").
 
@@ -32,7 +32,7 @@ Per includere gli allegati in un messaggio, oltre agli step indicati in [.](./ "
 
 <summary><mark style="color:blue;">Step 1</mark> - Includi il blocco <a data-mention href="../../api-e-specifiche/api-messaggi/submit-a-message-passing-the-user-fiscal_code-in-the-request-body.md#third_party_data">#third_party_data</a></summary>
 
-Includi il blocco [#third\_party\_data](../../api-e-specifiche/api-messaggi/submit-a-message-passing-the-user-fiscal\_code-in-the-request-body.md#third\_party\_data "mention") specificando l'`id` di correlazione remota, che IO ti restituirà quando ti chiederà i metadati e, successivamente, i byte degli allegati al particolare messaggio che stai inviando.
+Includi il blocco [#third\_party\_data](../../api-e-specifiche/api-messaggi/submit-a-message-passing-the-user-fiscal_code-in-the-request-body.md#third_party_data "mention") specificando l'`id` di correlazione remota, che IO ti restituirà quando ti chiederà i metadati e, successivamente, i byte degli allegati al particolare messaggio che stai inviando.
 
 </details>
 
@@ -40,7 +40,7 @@ Includi il blocco [#third\_party\_data](../../api-e-specifiche/api-messaggi/subm
 
 <summary><mark style="color:blue;">Step 2</mark> - Specifica il valore <code>TRUE</code> nel campo <a data-mention href="../../api-e-specifiche/api-messaggi/submit-a-message-passing-the-user-fiscal_code-in-the-request-body.md#has_attachments">#has_attachments</a> </summary>
 
-Specifica il valore `TRUE` nel campo [#has\_attachments](../../api-e-specifiche/api-messaggi/submit-a-message-passing-the-user-fiscal\_code-in-the-request-body.md#has\_attachments "mention") presente nel blocco [#third\_party\_data](../../api-e-specifiche/api-messaggi/submit-a-message-passing-the-user-fiscal\_code-in-the-request-body.md#third\_party\_data "mention").
+Specifica il valore `TRUE` nel campo [#has\_attachments](../../api-e-specifiche/api-messaggi/submit-a-message-passing-the-user-fiscal_code-in-the-request-body.md#has_attachments "mention") presente nel blocco [#third\_party\_data](../../api-e-specifiche/api-messaggi/submit-a-message-passing-the-user-fiscal_code-in-the-request-body.md#third_party_data "mention").
 
 </details>
 
@@ -48,7 +48,7 @@ Specifica il valore `TRUE` nel campo [#has\_attachments](../../api-e-specifiche/
 
 <summary><mark style="color:blue;">Step 3</mark> - Specifica il valore <code>ADVANCED</code> nel campo <a data-mention href="../../api-e-specifiche/api-messaggi/submit-a-message-passing-the-user-fiscal_code-in-the-request-body.md#feature_level_type">#feature_level_type</a> </summary>
 
-Specifica il valore `ADVANCED` nel campo [#feature\_level\_type](../../api-e-specifiche/api-messaggi/submit-a-message-passing-the-user-fiscal\_code-in-the-request-body.md#feature\_level\_type "mention") presente nella request.
+Specifica il valore `ADVANCED` nel campo [#feature\_level\_type](../../api-e-specifiche/api-messaggi/submit-a-message-passing-the-user-fiscal_code-in-the-request-body.md#feature_level_type "mention") presente nella request.
 
 </details>
 
