@@ -1,12 +1,12 @@
 # Integrazione tramite API sincrone
 
 {% hint style="info" %}
-Per la gestione degli errori fare riferimento a [Gestione degli errori](http://localhost:5000/o/KXYtsf32WSKm6ga638R3/s/mU2qgiLV1G3m9z1VjAOc/ "mention")
+Per la gestione degli errori fare riferimento a [Gestione degli errori](https://app.gitbook.com/o/KXYtsf32WSKm6ga638R3/s/mU2qgiLV1G3m9z1VjAOc/ "mention")
 {% endhint %}
 
 ## Fase di richiesta di creazione della posizione debitoria
 
-![](../../.gitbook/assets/paDemandPaymentNotice.png)
+![](../../../pago-pa/sanp/3.3.0/.gitbook/assets/paDemandPaymentNotice.png)
 
 La [paDemandPaymentNotice](../../appendici/primitive.md#pademandpaymentnotice) è utilizzata per richiedere all’EC la creazione della posizione debitoria in base ai dati dello specifico servizio inviati, l'EC invia in risposta le informazioni necessarie per avviare il processo di pagamento, in particolare:
 
@@ -21,7 +21,7 @@ Gli EC mettono a disposizione i dati dello specifico servizio tramite il [catalo
 
 ## Fase di verifica
 
-![](../../.gitbook/assets/paVerifyPaymentNotice.png)
+![](../../../pago-pa/sanp/3.3.0/.gitbook/assets/paVerifyPaymentNotice.png)
 
 La [paVerifyPaymentNotice](../../appendici/primitive.md#paverifypaymentnotice) è utilizzata per richiedere all’EC la verifica dell’opzione di pagamento identificata dal numero avviso, che invia le informazioni di pagamento relative al numero avviso, in particolare:
 
@@ -40,7 +40,7 @@ Il Nodo effettua una verifica semantica sulla response:
 
 ## Fase di attivazione
 
-![](<../../.gitbook/assets/paGetPayment (2).png>)
+![](../../../pago-pa/sanp/3.3.0/.gitbook/assets/paGetPayment.png)
 
 La richiesta di attivazione del pagamento giunge all’EC per mezzo della [paGetPayment](../../appendici/primitive.md#pagetpayment), l'EC invia l’importo del pagamento ed i dati necessari per il riversamento della somma, in particolare per ogni versamento:
 
@@ -60,7 +60,7 @@ Il Nodo effettua una verifica semantica sulla response:
 
 ## Fase di invio della ricevuta
 
-![](<../../.gitbook/assets/paSendRT (1).png>)
+![](../../../pago-pa/sanp/3.3.0/.gitbook/assets/paSendRT.png)
 
 Tramite la primitiva [paSendRT](../../appendici/primitive.md#pasendrt) viene inoltrata agli _n_ EC interessati al pagamento la _receipt_ (ricevuta) solo se il pagamento è stato effettuato, la _receipt_ è un oggetto generato dalla piattaforma pagoPA.
 
@@ -72,13 +72,13 @@ Il servizio è rivolto a tutti gli EC che, in casi particolari, hanno la necessi
 
 Come verrà ampiamente chiarito nelle sezioni successive, il servizio non è pensato per essere fruito durante tutte le fasi del processo di pagamento, ma soltanto in casi specifici e in modo particolare a valle della ricezione dei flussi di rendicontazione. A protezione della natura del servizio sono state implementate delle politiche di throttling che limitano il numero di chiamate _n_ in un intervallo di tempo _t_ da parte dello stesso EC.
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../pago-pa/sanp/3.3.0/.gitbook/assets/image (3) (2).png" alt=""><figcaption></figcaption></figure>
 
 Qualora durante la lavorazione del flusso una _receipt_ non fosse disponibile, l’eccezione può essere gestita tentando di recuperarla mediante l’invocazione del servizio _getOrganizationReceipt_.
 
 Il diagramma seguente riporta invece uno use case **non consentito**
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../pago-pa/sanp/3.3.0/.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 E' assolutamente vietato inserire l’invocazione del servizio _getOrganizationReceipt_ all’interno di un loop in modo indiscriminato senza l’insorgere di un evento di errore che ne giustifichi l’utilizzo.
@@ -100,4 +100,4 @@ Come è possibile osservare il servizio effettua la ricerca della _receipt_ util
 
 Come accennato nei precedenti capitoli, il servizio non è pensato per un utilizzo massivo, a protezione di questa caratteristica sono state attivate delle politiche di _throttling_ che prevedono, per ogni sottoscrizione al servizio, un massimo di 10 chiamate nell’arco di 60 minuti.
 
-Per i tutti i dettagli tecnici relativi al corretto utilizzo del servizio è possibile fare riferimento alle specifiche della primitiva in [#getorganizationreceipt](../../appendici/primitive.md#getorganizationreceipt "mention").\
+Per i tutti i dettagli tecnici relativi al corretto utilizzo del servizio è possibile fare riferimento alle specifiche della primitiva in [#getorganizationreceipt](../../appendici/primitive.md#getorganizationreceipt "mention").\\

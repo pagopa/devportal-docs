@@ -1,6 +1,6 @@
 # Primitive
 
-Per la gestione degli errori fare riferimento a [Gestione degli errori](http://localhost:5000/o/KXYtsf32WSKm6ga638R3/s/mU2qgiLV1G3m9z1VjAOc/ "mention").
+Per la gestione degli errori fare riferimento a [Gestione degli errori](https://app.gitbook.com/o/KXYtsf32WSKm6ga638R3/s/mU2qgiLV1G3m9z1VjAOc/ "mention").
 
 {% hint style="info" %}
 I campi contrassegnati con﹡sono obbligatori
@@ -8,42 +8,23 @@ I campi contrassegnati con﹡sono obbligatori
 
 Per i dettagli [https://github.com/pagopa/pagopa-api/tree/SANP3.3.0](https://github.com/pagopa/pagopa-api/tree/SANP3.3.0)
 
-{% swagger method="post" path="" baseUrl="" summary="paVerifyPaymentNotice" %}
-{% swagger-description %}
+## paVerifyPaymentNotice
 
-{% endswagger-description %}
+<mark style="color:green;">`POST`</mark>&#x20;
 
-{% swagger-parameter in="body" name="idPA" required="true" %}
-codice fiscale della struttura che invia la richiesta di pagamento
-{% endswagger-parameter %}
+#### Request Body
 
-{% swagger-parameter in="body" name="idBrokerPA" required="true" %}
-identificativo del soggetto che opera come intermediario per l'EC
-{% endswagger-parameter %}
+| Name                                           | Type   | Description                                                                        |
+| ---------------------------------------------- | ------ | ---------------------------------------------------------------------------------- |
+| idPA<mark style="color:red;">\*</mark>         | String | codice fiscale della struttura che invia la richiesta di pagamento                 |
+| idBrokerPA<mark style="color:red;">\*</mark>   | String | identificativo del soggetto che opera come intermediario per l'EC                  |
+| idStation<mark style="color:red;">\*</mark>    | String | identificativo della stazione dell'EC nel sistema pagoPa                           |
+| qrCode<mark style="color:red;">\*</mark>       | String | <p>è composto da</p><p><em>fiscalCode</em></p><p>e</p><p><em>noticeNumber</em></p> |
+| fiscalCode<mark style="color:red;">\*</mark>   | String | codice fiscale dell'EC                                                             |
+| noticeNumber<mark style="color:red;">\*</mark> | String | \[auxDigit]\[segregationCode]\[IUVBase]\[IUVCheckDigit]                            |
 
-{% swagger-parameter in="body" name="idStation" required="true" %}
-identificativo della stazione dell'EC nel sistema pagoPa
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="qrCode" required="true" %}
-è composto da 
-
-_fiscalCode_
-
- e 
-
-_noticeNumber_
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="fiscalCode" required="true" %}
-codice fiscale dell'EC
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="noticeNumber" required="true" %}
-\[auxDigit][segregationCode][IUVBase][IUVCheckDigit]
-{% endswagger-parameter %}
-
-{% swagger-response status="200: OK" description="" %}
+{% tabs %}
+{% tab title="200: OK " %}
 {% tabs %}
 {% tab title="Request example" %}
 ```xml
@@ -94,7 +75,7 @@ codice fiscale dell'EC
 * _outcome_﹡_:_ il risultato dell'operazione che può contenere i seguenti codici
   * **OK** : operazione eseguita con successo
   * **KO** : operazione terminata con errore
-* _fault_: tutti i dettagli dell'errore, da inserire obbligatoriamente in caso di _outcome_ KO [Gestione degli errori](http://localhost:5000/o/KXYtsf32WSKm6ga638R3/s/mU2qgiLV1G3m9z1VjAOc/ "mention")
+* _fault_: tutti i dettagli dell'errore, da inserire obbligatoriamente in caso di _outcome_ KO [Gestione degli errori](https://app.gitbook.com/o/KXYtsf32WSKm6ga638R3/s/mU2qgiLV1G3m9z1VjAOc/ "mention")
 * paymentList: struttura che contiene i dettagli del pagamento, al momento può contenere una sola _paymentOptionDescription_, da inserire obbligatoriamente in caso di _outcome_ OK
   * paymentOptionDescription﹡
     * amount﹡: importo in euro
@@ -108,63 +89,32 @@ codice fiscale dell'EC
 * officeName: nome completo dell'ufficio dell'EC
 {% endtab %}
 {% endtabs %}
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
 ## paGetPayment <a href="#pagetpayment" id="pagetpayment"></a>
 
-{% swagger method="post" path="" baseUrl="" summary="paGetPayment versione 1" %}
-{% swagger-description %}
+## paGetPayment versione 1
 
-{% endswagger-description %}
+<mark style="color:green;">`POST`</mark>&#x20;
 
-{% swagger-parameter in="body" name="idPA" required="true" %}
-Codice fiscale della struttura che invia la richiesta di pagamento.
-{% endswagger-parameter %}
+#### Request Body
 
-{% swagger-parameter in="body" name="idBrokerPA" required="true" %}
-Identificativo del soggetto che opera come intermediario per l'EC.
-{% endswagger-parameter %}
+| Name                                           | Type   | Description                                                                          |
+| ---------------------------------------------- | ------ | ------------------------------------------------------------------------------------ |
+| idPA<mark style="color:red;">\*</mark>         | String | Codice fiscale della struttura che invia la richiesta di pagamento.                  |
+| idBrokerPA<mark style="color:red;">\*</mark>   | String | Identificativo del soggetto che opera come intermediario per l'EC.                   |
+| idStation<mark style="color:red;">\*</mark>    | String | Identificativo della stazione dell'EC nel sistema pagoPa.                            |
+| qrCode<mark style="color:red;">\*</mark>       | String | <p>E' composto da</p><p><em>fiscalCode</em></p><p>e</p><p><em>noticeNumber.</em></p> |
+| fiscalCode<mark style="color:red;">\*</mark>   | String | Codice fiscale dell'EC.                                                              |
+| noticeNumber<mark style="color:red;">\*</mark> | String | \[auxDigit]\[segregationCode]\[IUVBase]\[IUVCheckDigit]                              |
+| amount                                         | String | Importo del pagamento in euro.                                                       |
+| paymentNote                                    | String | Descrizione del pagamento.                                                           |
+| transferType                                   | String | Valore ammesso: POSTAL.                                                              |
+| dueDate                                        | String | Data di scadenza del pagamento secondo il formato ISO 8601 \[AAAA]-\[MM]-\[GG].      |
 
-{% swagger-parameter in="body" name="idStation" required="true" %}
-Identificativo della stazione dell'EC nel sistema pagoPa.
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="qrCode" required="true" %}
-E' composto da 
-
-_fiscalCode_
-
- e 
-
-_noticeNumber._
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="fiscalCode" required="true" %}
-Codice fiscale dell'EC.
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="noticeNumber" required="true" %}
-\[auxDigit][segregationCode][IUVBase][IUVCheckDigit]
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="amount" %}
-Importo del pagamento in euro.
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="paymentNote" %}
-Descrizione del pagamento.
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="transferType" %}
-Valore ammesso: POSTAL.
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="dueDate" %}
-Data di scadenza del pagamento secondo il formato ISO 8601 [AAAA]-[MM]-[GG].
-{% endswagger-parameter %}
-
-{% swagger-response status="200: OK" description="" %}
+{% tabs %}
+{% tab title="200: OK " %}
 {% tabs %}
 {% tab title="Request example" %}
 ```xml
@@ -250,7 +200,7 @@ Data di scadenza del pagamento secondo il formato ISO 8601 [AAAA]-[MM]-[GG].
 * _outcome_﹡_:_ il risultato dell'operazione che può contenere i seguenti codici
   * **OK** : operazione eseguita con successo
   * **KO** : operazione terminata con errore
-* _fault_: tutti i dettagli dell'errore, da inserire obbligatoriamente in caso di _outcome_ KO [Gestione degli errori](http://localhost:5000/o/KXYtsf32WSKm6ga638R3/s/mU2qgiLV1G3m9z1VjAOc/ "mention")
+* _fault_: tutti i dettagli dell'errore, da inserire obbligatoriamente in caso di _outcome_ KO [Gestione degli errori](https://app.gitbook.com/o/KXYtsf32WSKm6ga638R3/s/mU2qgiLV1G3m9z1VjAOc/ "mention")
 * data: tutti i dettagli del pagamento, da inserire obbligatoriamente in caso di _outcome_ OK
   * _creditorReferenceId_﹡: **IUV** Identificativo Univoco Versamento
   * _paymentAmount_﹡: importo, deve essere uguale alle somme di _TransferAmount_ presenti nella _TransferList_
@@ -281,72 +231,43 @@ Data di scadenza del pagamento secondo il formato ISO 8601 [AAAA]-[MM]-[GG].
       * fiscalCodePA﹡: codice fiscale dell'EC
       * IBAN﹡: IBAN sul quale sarà effettuato il riversamento
       * remittanceInformation﹡: motivo del pagamento
-      * transferCategory﹡: codice tassonomico, composto da _Codice tipo Ente Creditore + Progressivo macro area + Codice tipologia servizio + Motivo Giuridico_ ( ex. **0101002IM** )&#x20;
+      * transferCategory﹡: codice tassonomico, composto da _Codice tipo Ente Creditore + Progressivo macro area + Codice tipologia servizio + Motivo Giuridico_ ( ex. **0101002IM** )
   * metadata: è un campo di archiviazione chiave/valore ad uso esclusivo dell'EC. I dati saranno inseriti nella _receipt_ (_paSendRT_)
     * mapEntry﹡
       * key﹡
       * value﹡
 {% endtab %}
 {% endtabs %}
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
-{% swagger method="post" path="" baseUrl="" summary="paGetPayment versione 2" %}
-{% swagger-description %}
-**In questa versione è possibile inserire i metadata in ogni singolo **
+## paGetPayment versione 2
+
+<mark style="color:green;">`POST`</mark>&#x20;
+
+\*\*In questa versione è possibile inserire i metadata in ogni singolo \*\*
 
 _**transfer**_
 
 **, inoltre è possibile gestire il servizio @e.bollo.**
-{% endswagger-description %}
 
-{% swagger-parameter in="body" name="idPA" required="true" %}
-Codice fiscale della struttura che invia la richiesta di pagamento.
-{% endswagger-parameter %}
+#### Request Body
 
-{% swagger-parameter in="body" name="idBrokerPA" required="true" %}
-Identificativo del soggetto che opera come intermediario per l'EC.
-{% endswagger-parameter %}
+| Name                                           | Type   | Description                                                                          |
+| ---------------------------------------------- | ------ | ------------------------------------------------------------------------------------ |
+| idPA<mark style="color:red;">\*</mark>         | String | Codice fiscale della struttura che invia la richiesta di pagamento.                  |
+| idBrokerPA<mark style="color:red;">\*</mark>   | String | Identificativo del soggetto che opera come intermediario per l'EC.                   |
+| idStation<mark style="color:red;">\*</mark>    | String | Identificativo della stazione dell'EC nel sistema pagoPa.                            |
+| qrCode<mark style="color:red;">\*</mark>       | String | <p>E' composto da</p><p><em>fiscalCode</em></p><p>e</p><p><em>noticeNumber.</em></p> |
+| fiscalCode<mark style="color:red;">\*</mark>   | String | codice fiscale dell'EC                                                               |
+| noticeNumber<mark style="color:red;">\*</mark> | String | \[auxDigit]\[segregationCode]\[IUVBase]\[IUVCheckDigit]                              |
+| amount<mark style="color:red;">\*</mark>       | String | importo del pagamento in euro                                                        |
+| paymentNote                                    | String | descrizione del pagamento                                                            |
+| transferType                                   | String | valore ammesso: POSTAL                                                               |
+| dueDate                                        | String | data di scadenza del pagamento secondo il formato ISO 8601 \[AAAA]-\[MM]-\[GG]       |
 
-{% swagger-parameter in="body" name="idStation" required="true" %}
-Identificativo della stazione dell'EC nel sistema pagoPa.
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="qrCode" required="true" %}
-E' composto da 
-
-_fiscalCode_
-
- e 
-
-_noticeNumber._
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="fiscalCode" required="true" %}
-codice fiscale dell'EC
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="noticeNumber" required="true" %}
-\[auxDigit][segregationCode][IUVBase][IUVCheckDigit]
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="amount" required="true" %}
-importo del pagamento in euro
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="paymentNote" %}
-descrizione del pagamento
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="transferType" %}
-valore ammesso: POSTAL
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="dueDate" %}
-data di scadenza del pagamento secondo il formato ISO 8601 [AAAA]-[MM]-[GG]
-{% endswagger-parameter %}
-
-{% swagger-response status="200: OK" description="" %}
+{% tabs %}
+{% tab title="200: OK " %}
 {% tabs %}
 {% tab title="Request example" %}
 ```xml
@@ -438,7 +359,7 @@ data di scadenza del pagamento secondo il formato ISO 8601 [AAAA]-[MM]-[GG]
 * _outcome_﹡_:_ il risultato dell'operazione che può contenere i seguenti codici
   * **OK** : operazione eseguita con successo
   * **KO** : operazione terminata con errore
-* _fault_: tutti i dettagli dell'errore, da inserire obbligatoriamente in caso di _outcome_ KO [Gestione degli errori](http://localhost:5000/o/KXYtsf32WSKm6ga638R3/s/mU2qgiLV1G3m9z1VjAOc/ "mention")
+* _fault_: tutti i dettagli dell'errore, da inserire obbligatoriamente in caso di _outcome_ KO [Gestione degli errori](https://app.gitbook.com/o/KXYtsf32WSKm6ga638R3/s/mU2qgiLV1G3m9z1VjAOc/ "mention")
 * data: tutti i dettagli del pagamento, da inserire obbligatoriamente in caso di _outcome_ OK
   * _creditorReferenceId_﹡: **IUV** Identificativo Univoco Versamento
   * _paymentAmount_﹡: importo, deve essere uguale alle somme di _TransferAmount_ presenti nella _TransferList_
@@ -474,7 +395,7 @@ data di scadenza del pagamento secondo il formato ISO 8601 [AAAA]-[MM]-[GG]
           * _hashDocumento_: contiene l’impronta informatica (digest), nel formato base64, del documento informatico o della segnatura di protocollo cui è associata la marca da bollo digitale
           * _provinciaResidenza_: sigla automobilistica della provincia di residenza del soggetto pagatore
       * remittanceInformation﹡: motivo del pagamento
-      * transferCategory﹡: codice tassonomico, composto da _Codice tipo Ente Creditore + Progressivo macro area + Codice tipologia servizio + Motivo Giuridico_ ( ex. **0101002IM** )&#x20;
+      * transferCategory﹡: codice tassonomico, composto da _Codice tipo Ente Creditore + Progressivo macro area + Codice tipologia servizio + Motivo Giuridico_ ( ex. **0101002IM** )
       * metadata: è un campo di archiviazione chiave/valore.
         * mapEntry﹡
           * key﹡
@@ -485,283 +406,82 @@ data di scadenza del pagamento secondo il formato ISO 8601 [AAAA]-[MM]-[GG]
       * value﹡
 {% endtab %}
 {% endtabs %}
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
 ## paSendRT <a href="#pasendrt" id="pasendrt"></a>
 
-{% swagger method="post" path="" baseUrl="" summary="paSendRT versione 1" %}
-{% swagger-description %}
-
-{% endswagger-description %}
-
-{% swagger-parameter in="body" name="idPA" required="true" %}
-codice fiscale della struttura che invia la richiesta di pagamento
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="idBrokerPA" required="true" %}
-identificativo del soggetto che opera come intermediario per l'EC
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="idStation" required="true" %}
-identificativo della stazione dell'EC nel sistema pagoPa
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="receipt" required="true" %}
-la ricevuta di pagamento
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="outcome" required="true" %}
-il risultato dell'operazione che può contenere i codici OK o KO
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="receiptId" required="true" %}
-identificatore univoco della 
-
-_receipt_
-
- contiene il 
-
-_paymentToken_
-
- assegnato da pagoPa
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="noticeNumber" required="true" %}
-\[auxDigit][segregationCode][IUVBase][IUVCheckDigit]
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="fiscalCode" required="true" %}
-codice fiscale dell'EC
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="creditorReferenceId" required="true" %}
-**IUV**
-
- 
-
-_Identificativo Univoco Versamento_
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="paymentAmount" required="true" %}
-importo espresso in euro
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="description" required="true" %}
-
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="companyName" required="true" %}
-nome completo dell'EC
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="officeName" %}
-
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="debtor" required="true" %}
-individua il debitore a cui si riferisce la posizione debitoria
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="uniqueIdentifier" required="true" %}
-
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="entityUniqueIdentifierType" required="true" %}
-**F** : Persona fisica
-
-**G** : Persona giuridica
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="entityUniqueIdentifierValue" required="true" %}
-codice fiscale o partita IVA
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="fullName" required="true" %}
-nome completo del debitore
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="streetName" %}
-
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="civicNumber" %}
-
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="postalCode" %}
-
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="city" %}
-
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="stateProvinceRegion" %}
-
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="country" %}
-
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="e-mail" %}
-
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="transferList" required="true" %}
-struttura che contiene i dettagli dei 
-
-_transfer_
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="transfer" required="true" %}
-
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="idTransfer" required="true" %}
-indice della lista (da 1 a 5)
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="transferAmount" required="true" %}
-importo
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="fiscalCodePA" required="true" %}
-codice fiscale dell'EC
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="IBAN" required="true" %}
-IBAN sul quale sarà effettuato il riversamento
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="remittanceInformation" required="true" %}
-motivo del pagamento
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="transferCategory" required="true" %}
-codice tassonomico, composto da 
-
-_Codice tipo Ente Creditore + Progressivo macro area + Codice tipologia servizio + Motivo Giuridico_
-
- ( ex. 
-
-**0101002IM**
-
- )
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="idPSP" required="true" %}
-identificativo del PSP
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="pspFiscalCode" %}
-
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="pspPartitaIVA" %}
-
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="PSPCompanyName" required="true" %}
-
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="idChannel" required="true" %}
-
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="channelDescription" required="true" %}
-
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="payer" %}
-individua il pagatore
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="uniqueIdentifier" required="true" %}
-
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="entityUniqueIdentifierType" required="true" %}
-**F** : Persona fisica
-
-**G** : Persona giuridica
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="entityUniqueIdentifierValue" required="true" %}
-codice fiscale o partita IVA
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="fullName" required="true" %}
-nome completo del debitore
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="streetName" %}
-
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="civicNumber" %}
-
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="postalCode" %}
-
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="city" %}
-
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="stateProvinceRegion" %}
-
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="country" %}
-
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="e-mail" %}
-
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="paymentMethod" %}
-
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="fee" %}
-importo della commissione espresso in euro
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="paymentDateTime" %}
-data e ora del pagamento
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="applicationDate" %}
-data applicativa
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="transferDate" %}
-data del riversamento
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="metadata" %}
-
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="mapEntry" required="true" %}
-
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="key" required="true" %}
-
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="value" required="true" %}
-
-{% endswagger-parameter %}
-
-{% swagger-response status="200: OK" description="" %}
+## paSendRT versione 1
+
+<mark style="color:green;">`POST`</mark>&#x20;
+
+#### Request Body
+
+| Name                                                          | Type   | Description                                                                                                                                                                                                   |
+| ------------------------------------------------------------- | ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| idPA<mark style="color:red;">\*</mark>                        | String | codice fiscale della struttura che invia la richiesta di pagamento                                                                                                                                            |
+| idBrokerPA<mark style="color:red;">\*</mark>                  | String | identificativo del soggetto che opera come intermediario per l'EC                                                                                                                                             |
+| idStation<mark style="color:red;">\*</mark>                   | String | identificativo della stazione dell'EC nel sistema pagoPa                                                                                                                                                      |
+| receipt<mark style="color:red;">\*</mark>                     | String | la ricevuta di pagamento                                                                                                                                                                                      |
+| outcome<mark style="color:red;">\*</mark>                     | String | il risultato dell'operazione che può contenere i codici OK o KO                                                                                                                                               |
+| receiptId<mark style="color:red;">\*</mark>                   | String | <p>identificatore univoco della</p><p><em>receipt</em></p><p>contiene il</p><p><em>paymentToken</em></p><p>assegnato da pagoPa</p>                                                                            |
+| noticeNumber<mark style="color:red;">\*</mark>                | String | \[auxDigit]\[segregationCode]\[IUVBase]\[IUVCheckDigit]                                                                                                                                                       |
+| fiscalCode<mark style="color:red;">\*</mark>                  | String | codice fiscale dell'EC                                                                                                                                                                                        |
+| creditorReferenceId<mark style="color:red;">\*</mark>         | String | <p><strong>IUV</strong></p><p><em>Identificativo Univoco Versamento</em></p>                                                                                                                                  |
+| paymentAmount<mark style="color:red;">\*</mark>               | String | importo espresso in euro                                                                                                                                                                                      |
+| description<mark style="color:red;">\*</mark>                 | String |                                                                                                                                                                                                               |
+| companyName<mark style="color:red;">\*</mark>                 | String | nome completo dell'EC                                                                                                                                                                                         |
+| officeName                                                    | String |                                                                                                                                                                                                               |
+| debtor<mark style="color:red;">\*</mark>                      | String | individua il debitore a cui si riferisce la posizione debitoria                                                                                                                                               |
+| uniqueIdentifier<mark style="color:red;">\*</mark>            | String |                                                                                                                                                                                                               |
+| entityUniqueIdentifierType<mark style="color:red;">\*</mark>  | String | <p><strong>F</strong> : Persona fisica</p><p><strong>G</strong> : Persona giuridica</p>                                                                                                                       |
+| entityUniqueIdentifierValue<mark style="color:red;">\*</mark> | String | codice fiscale o partita IVA                                                                                                                                                                                  |
+| fullName<mark style="color:red;">\*</mark>                    | String | nome completo del debitore                                                                                                                                                                                    |
+| streetName                                                    | String |                                                                                                                                                                                                               |
+| civicNumber                                                   | String |                                                                                                                                                                                                               |
+| postalCode                                                    | String |                                                                                                                                                                                                               |
+| city                                                          | String |                                                                                                                                                                                                               |
+| stateProvinceRegion                                           | String |                                                                                                                                                                                                               |
+| country                                                       | String |                                                                                                                                                                                                               |
+| e-mail                                                        | String |                                                                                                                                                                                                               |
+| transferList<mark style="color:red;">\*</mark>                | String | <p>struttura che contiene i dettagli dei</p><p><em>transfer</em></p>                                                                                                                                          |
+| transfer<mark style="color:red;">\*</mark>                    | String |                                                                                                                                                                                                               |
+| idTransfer<mark style="color:red;">\*</mark>                  | String | indice della lista (da 1 a 5)                                                                                                                                                                                 |
+| transferAmount<mark style="color:red;">\*</mark>              | String | importo                                                                                                                                                                                                       |
+| fiscalCodePA<mark style="color:red;">\*</mark>                | String | codice fiscale dell'EC                                                                                                                                                                                        |
+| IBAN<mark style="color:red;">\*</mark>                        | String | IBAN sul quale sarà effettuato il riversamento                                                                                                                                                                |
+| remittanceInformation<mark style="color:red;">\*</mark>       | String | motivo del pagamento                                                                                                                                                                                          |
+| transferCategory<mark style="color:red;">\*</mark>            | String | <p>codice tassonomico, composto da</p><p><em>Codice tipo Ente Creditore + Progressivo macro area + Codice tipologia servizio + Motivo Giuridico</em></p><p>( ex.</p><p><strong>0101002IM</strong></p><p>)</p> |
+| idPSP<mark style="color:red;">\*</mark>                       | String | identificativo del PSP                                                                                                                                                                                        |
+| pspFiscalCode                                                 | String |                                                                                                                                                                                                               |
+| pspPartitaIVA                                                 | String |                                                                                                                                                                                                               |
+| PSPCompanyName<mark style="color:red;">\*</mark>              | String |                                                                                                                                                                                                               |
+| idChannel<mark style="color:red;">\*</mark>                   | String |                                                                                                                                                                                                               |
+| channelDescription<mark style="color:red;">\*</mark>          | String |                                                                                                                                                                                                               |
+| payer                                                         | String | individua il pagatore                                                                                                                                                                                         |
+| uniqueIdentifier<mark style="color:red;">\*</mark>            | String |                                                                                                                                                                                                               |
+| entityUniqueIdentifierType<mark style="color:red;">\*</mark>  | String | <p><strong>F</strong> : Persona fisica</p><p><strong>G</strong> : Persona giuridica</p>                                                                                                                       |
+| entityUniqueIdentifierValue<mark style="color:red;">\*</mark> | String | codice fiscale o partita IVA                                                                                                                                                                                  |
+| fullName<mark style="color:red;">\*</mark>                    | String | nome completo del debitore                                                                                                                                                                                    |
+| streetName                                                    | String |                                                                                                                                                                                                               |
+| civicNumber                                                   | String |                                                                                                                                                                                                               |
+| postalCode                                                    | String |                                                                                                                                                                                                               |
+| city                                                          | String |                                                                                                                                                                                                               |
+| stateProvinceRegion                                           | String |                                                                                                                                                                                                               |
+| country                                                       | String |                                                                                                                                                                                                               |
+| e-mail                                                        | String |                                                                                                                                                                                                               |
+| paymentMethod                                                 | String |                                                                                                                                                                                                               |
+| fee                                                           | String | importo della commissione espresso in euro                                                                                                                                                                    |
+| paymentDateTime                                               | String | data e ora del pagamento                                                                                                                                                                                      |
+| applicationDate                                               | String | data applicativa                                                                                                                                                                                              |
+| transferDate                                                  | String | data del riversamento                                                                                                                                                                                         |
+| metadata                                                      | String |                                                                                                                                                                                                               |
+| mapEntry<mark style="color:red;">\*</mark>                    | String |                                                                                                                                                                                                               |
+| key<mark style="color:red;">\*</mark>                         | String |                                                                                                                                                                                                               |
+| value<mark style="color:red;">\*</mark>                       | String |                                                                                                                                                                                                               |
+
+{% tabs %}
+{% tab title="200: OK " %}
 {% tabs %}
 {% tab title="Request example" %}
 ```xml
@@ -867,354 +587,108 @@ data del riversamento
 * _outcome_﹡_:_ il risultato dell'operazione che può contenere i seguenti codici
   * **OK** : operazione eseguita con successo
   * **KO** : operazione terminata con errore
-* _fault_: tutti i dettagli dell'errore, da inserire obbligatoriamente in caso di _outcome_ KO [Gestione degli errori](http://localhost:5000/o/KXYtsf32WSKm6ga638R3/s/mU2qgiLV1G3m9z1VjAOc/ "mention")
+* _fault_: tutti i dettagli dell'errore, da inserire obbligatoriamente in caso di _outcome_ KO [Gestione degli errori](https://app.gitbook.com/o/KXYtsf32WSKm6ga638R3/s/mU2qgiLV1G3m9z1VjAOc/ "mention")
 {% endtab %}
 {% endtabs %}
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
-{% swagger method="post" path="" baseUrl="" summary="paSendRT versione 2" %}
-{% swagger-description %}
-**In questa versione possono essere inseriti i metadata in ogni singolo **
+## paSendRT versione 2
+
+<mark style="color:green;">`POST`</mark>&#x20;
+
+\*\*In questa versione possono essere inseriti i metadata in ogni singolo \*\*
 
 _**transfer**_
 
-** della **
+\*\* della \*\*
 
 _**receipt,**_
 
-** inoltre sono gestite le informazioni ricavate da**
-
- 
+\*\* inoltre sono gestite le informazioni ricavate da\*\*
 
 [gestione-evoluta-commissioni.md](gestione-evoluta-commissioni.md "mention")
 
 **e il servizio @e.bollo.**
-{% endswagger-description %}
 
-{% swagger-parameter in="body" name="idPA" required="true" %}
-codice fiscale della struttura che invia la richiesta di pagamento
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="idBrokerPA" required="true" %}
-identificativo del soggetto che opera come intermediario per l'EC
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="idStation" required="true" %}
-identificativo della stazione dell'EC nel sistema pagoPa
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="receipt" required="true" %}
-la ricevuta di pagamento
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="outcome" required="true" %}
-il risultato dell'operazione che può contenere i codici OK o KO
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="receiptId" required="true" %}
-identificatore univoco della 
-
-_receipt_
-
- contiene il 
-
-_paymentToken_
-
- assegnato da pagoPa
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="noticeNumber" required="true" %}
-\[auxDigit][segregationCode][IUVBase][IUVCheckDigit]
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="fiscalCode" required="true" %}
-codice fiscale dell'EC
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="creditorReferenceId" required="true" %}
-**IUV**
-
- 
-
-_Identificativo Univoco Versamento_
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="paymentAmount" required="true" %}
-importo espresso in euro
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="description" required="true" %}
-
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="companyName" required="true" %}
-nome completo dell'EC
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="officeName" %}
-
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="debtor" required="true" %}
-individua il debitore a cui si riferisce la posizione debitoria
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="uniqueIdentifier" required="true" %}
-
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="entityUniqueIdentifierType" required="true" %}
-**F** : Persona fisica
-
-**G** : Persona giuridica
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="entityUniqueIdentifierValue" required="true" %}
-codice fiscale o partita IVA
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="fullName" required="true" %}
-nome completo del debitore
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="streetName" %}
-
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="civicNumber" %}
-
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="postalCode" %}
-
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="city" %}
-
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="stateProvinceRegion" %}
-
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="country" %}
-
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="e-mail" %}
-
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="transferList" required="true" %}
-struttura che contiene i dettagli dei 
-
-_transfer_
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="transfer" required="true" %}
-
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="idTransfer" required="true" %}
-indice della lista (da 1 a 5)
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="transferAmount" required="true" %}
-importo
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="fiscalCodePA" required="true" %}
-codice fiscale dell'EC
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="CHOICE" required="true" %}
-Choice tra IBAN e marcaDaBollo
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="IBAN" required="false" %}
-IBAN sul quale sarà effettuato il riversamento
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="marcaDaBollo" %}
-I dati della marca da bollo digitale
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="tipoBollo" %}
-Tipologia del bollo
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="MBDAttachment" %}
-Il documento XML che contiene la marca da bollo digitale, nel formato base64.
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="remittanceInformation" required="true" %}
-motivo del pagamento
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="transferCategory" required="true" %}
-codice tassonomico, composto da 
-
-_Codice tipo Ente Creditore + Progressivo macro area + Codice tipologia servizio + Motivo Giuridico_
-
- ( ex. 
-
-**0101002IM**
-
- )
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="metadata" %}
-
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="mapEntry" %}
-
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="key" %}
-
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="value" %}
-
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="idPSP" required="true" %}
-identificativo del PSP
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="pspFiscalCode" %}
-
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="pspPartitaIVA" %}
-
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="PSPCompanyName" required="true" %}
-
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="idChannel" required="true" %}
-
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="channelDescription" required="true" %}
-
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="payer" %}
-individua il pagatore
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="uniqueIdentifier" required="true" %}
-
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="entityUniqueIdentifierType" required="true" %}
-**F** : Persona fisica
-
-**G** : Persona giuridica
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="entityUniqueIdentifierValue" required="true" %}
-codice fiscale o partita IVA
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="fullName" required="true" %}
-nome completo del debitore
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="streetName" %}
-
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="civicNumber" %}
-
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="postalCode" %}
-
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="city" %}
-
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="stateProvinceRegion" %}
-
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="country" %}
-
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="e-mail" %}
-
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="paymentMethod" %}
-
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="fee" %}
-importo della commissione espresso in euro
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="primaryCiIncurredFee" %}
-importo della commissione a carico dell'EC espresso in euro ricavato da 
-
-[gestione-evoluta-commissioni.md](gestione-evoluta-commissioni.md "mention")
-
-
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="idBundle" %}
-identificativo del pacchetto di 
-
-[gestione-evoluta-commissioni.md](gestione-evoluta-commissioni.md "mention")
-
-
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="idCiBundle" %}
-identificativo degli attributi aggiunti dall'EC al pacchetto di 
-
-[gestione-evoluta-commissioni.md](gestione-evoluta-commissioni.md "mention")
-
-
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="paymentDateTime" %}
-data e ora del pagamento
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="applicationDate" %}
-data applicativa
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="transferDate" %}
-data del riversamento
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="metadata" %}
-
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="mapEntry" required="true" %}
-
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="key" required="true" %}
-
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="value" required="true" %}
-
-{% endswagger-parameter %}
-
-{% swagger-response status="200: OK" description="" %}
+#### Request Body
+
+| Name                                                          | Type   | Description                                                                                                                                                                                                   |
+| ------------------------------------------------------------- | ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| idPA<mark style="color:red;">\*</mark>                        | String | codice fiscale della struttura che invia la richiesta di pagamento                                                                                                                                            |
+| idBrokerPA<mark style="color:red;">\*</mark>                  | String | identificativo del soggetto che opera come intermediario per l'EC                                                                                                                                             |
+| idStation<mark style="color:red;">\*</mark>                   | String | identificativo della stazione dell'EC nel sistema pagoPa                                                                                                                                                      |
+| receipt<mark style="color:red;">\*</mark>                     | String | la ricevuta di pagamento                                                                                                                                                                                      |
+| outcome<mark style="color:red;">\*</mark>                     | String | il risultato dell'operazione che può contenere i codici OK o KO                                                                                                                                               |
+| receiptId<mark style="color:red;">\*</mark>                   | String | <p>identificatore univoco della</p><p><em>receipt</em></p><p>contiene il</p><p><em>paymentToken</em></p><p>assegnato da pagoPa</p>                                                                            |
+| noticeNumber<mark style="color:red;">\*</mark>                | String | \[auxDigit]\[segregationCode]\[IUVBase]\[IUVCheckDigit]                                                                                                                                                       |
+| fiscalCode<mark style="color:red;">\*</mark>                  | String | codice fiscale dell'EC                                                                                                                                                                                        |
+| creditorReferenceId<mark style="color:red;">\*</mark>         | String | <p><strong>IUV</strong></p><p><em>Identificativo Univoco Versamento</em></p>                                                                                                                                  |
+| paymentAmount<mark style="color:red;">\*</mark>               | String | importo espresso in euro                                                                                                                                                                                      |
+| description<mark style="color:red;">\*</mark>                 | String |                                                                                                                                                                                                               |
+| companyName<mark style="color:red;">\*</mark>                 | String | nome completo dell'EC                                                                                                                                                                                         |
+| officeName                                                    | String |                                                                                                                                                                                                               |
+| debtor<mark style="color:red;">\*</mark>                      | String | individua il debitore a cui si riferisce la posizione debitoria                                                                                                                                               |
+| uniqueIdentifier<mark style="color:red;">\*</mark>            | String |                                                                                                                                                                                                               |
+| entityUniqueIdentifierType<mark style="color:red;">\*</mark>  | String | <p><strong>F</strong> : Persona fisica</p><p><strong>G</strong> : Persona giuridica</p>                                                                                                                       |
+| entityUniqueIdentifierValue<mark style="color:red;">\*</mark> | String | codice fiscale o partita IVA                                                                                                                                                                                  |
+| fullName<mark style="color:red;">\*</mark>                    | String | nome completo del debitore                                                                                                                                                                                    |
+| streetName                                                    | String |                                                                                                                                                                                                               |
+| civicNumber                                                   | String |                                                                                                                                                                                                               |
+| postalCode                                                    | String |                                                                                                                                                                                                               |
+| city                                                          | String |                                                                                                                                                                                                               |
+| stateProvinceRegion                                           | String |                                                                                                                                                                                                               |
+| country                                                       | String |                                                                                                                                                                                                               |
+| e-mail                                                        | String |                                                                                                                                                                                                               |
+| transferList<mark style="color:red;">\*</mark>                | String | <p>struttura che contiene i dettagli dei</p><p><em>transfer</em></p>                                                                                                                                          |
+| transfer<mark style="color:red;">\*</mark>                    | String |                                                                                                                                                                                                               |
+| idTransfer<mark style="color:red;">\*</mark>                  | String | indice della lista (da 1 a 5)                                                                                                                                                                                 |
+| transferAmount<mark style="color:red;">\*</mark>              | String | importo                                                                                                                                                                                                       |
+| fiscalCodePA<mark style="color:red;">\*</mark>                | String | codice fiscale dell'EC                                                                                                                                                                                        |
+| CHOICE<mark style="color:red;">\*</mark>                      | String | Choice tra IBAN e marcaDaBollo                                                                                                                                                                                |
+| IBAN                                                          | String | IBAN sul quale sarà effettuato il riversamento                                                                                                                                                                |
+| marcaDaBollo                                                  | String | I dati della marca da bollo digitale                                                                                                                                                                          |
+| tipoBollo                                                     | String | Tipologia del bollo                                                                                                                                                                                           |
+| MBDAttachment                                                 | String | Il documento XML che contiene la marca da bollo digitale, nel formato base64.                                                                                                                                 |
+| remittanceInformation<mark style="color:red;">\*</mark>       | String | motivo del pagamento                                                                                                                                                                                          |
+| transferCategory<mark style="color:red;">\*</mark>            | String | <p>codice tassonomico, composto da</p><p><em>Codice tipo Ente Creditore + Progressivo macro area + Codice tipologia servizio + Motivo Giuridico</em></p><p>( ex.</p><p><strong>0101002IM</strong></p><p>)</p> |
+| metadata                                                      | String |                                                                                                                                                                                                               |
+| mapEntry                                                      | String |                                                                                                                                                                                                               |
+| key                                                           | String |                                                                                                                                                                                                               |
+| value                                                         | String |                                                                                                                                                                                                               |
+| idPSP<mark style="color:red;">\*</mark>                       | String | identificativo del PSP                                                                                                                                                                                        |
+| pspFiscalCode                                                 | String |                                                                                                                                                                                                               |
+| pspPartitaIVA                                                 | String |                                                                                                                                                                                                               |
+| PSPCompanyName<mark style="color:red;">\*</mark>              | String |                                                                                                                                                                                                               |
+| idChannel<mark style="color:red;">\*</mark>                   | String |                                                                                                                                                                                                               |
+| channelDescription<mark style="color:red;">\*</mark>          | String |                                                                                                                                                                                                               |
+| payer                                                         | String | individua il pagatore                                                                                                                                                                                         |
+| uniqueIdentifier<mark style="color:red;">\*</mark>            | String |                                                                                                                                                                                                               |
+| entityUniqueIdentifierType<mark style="color:red;">\*</mark>  | String | <p><strong>F</strong> : Persona fisica</p><p><strong>G</strong> : Persona giuridica</p>                                                                                                                       |
+| entityUniqueIdentifierValue<mark style="color:red;">\*</mark> | String | codice fiscale o partita IVA                                                                                                                                                                                  |
+| fullName<mark style="color:red;">\*</mark>                    | String | nome completo del debitore                                                                                                                                                                                    |
+| streetName                                                    | String |                                                                                                                                                                                                               |
+| civicNumber                                                   | String |                                                                                                                                                                                                               |
+| postalCode                                                    | String |                                                                                                                                                                                                               |
+| city                                                          | String |                                                                                                                                                                                                               |
+| stateProvinceRegion                                           | String |                                                                                                                                                                                                               |
+| country                                                       | String |                                                                                                                                                                                                               |
+| e-mail                                                        | String |                                                                                                                                                                                                               |
+| paymentMethod                                                 | String |                                                                                                                                                                                                               |
+| fee                                                           | String | importo della commissione espresso in euro                                                                                                                                                                    |
+| primaryCiIncurredFee                                          | String | <p>importo della commissione a carico dell'EC espresso in euro ricavato da</p><p><a data-mention href="gestione-evoluta-commissioni.md">gestione-evoluta-commissioni.md</a></p>                               |
+| idBundle                                                      | String | <p>identificativo del pacchetto di</p><p><a data-mention href="gestione-evoluta-commissioni.md">gestione-evoluta-commissioni.md</a></p>                                                                       |
+| idCiBundle                                                    | String | <p>identificativo degli attributi aggiunti dall'EC al pacchetto di</p><p><a data-mention href="gestione-evoluta-commissioni.md">gestione-evoluta-commissioni.md</a></p>                                       |
+| paymentDateTime                                               | String | data e ora del pagamento                                                                                                                                                                                      |
+| applicationDate                                               | String | data applicativa                                                                                                                                                                                              |
+| transferDate                                                  | String | data del riversamento                                                                                                                                                                                         |
+| metadata                                                      | String |                                                                                                                                                                                                               |
+| mapEntry<mark style="color:red;">\*</mark>                    | String |                                                                                                                                                                                                               |
+| key<mark style="color:red;">\*</mark>                         | String |                                                                                                                                                                                                               |
+| value<mark style="color:red;">\*</mark>                       | String |                                                                                                                                                                                                               |
+
+{% tabs %}
+{% tab title="200: OK " %}
 {% tabs %}
 {% tab title="Request example" %}
 ```xml
@@ -1329,62 +803,30 @@ data del riversamento
 * _outcome_﹡_:_ il risultato dell'operazione che può contenere i seguenti codici
   * **OK** : operazione eseguita con successo
   * **KO** : operazione terminata con errore
-* _fault_: tutti i dettagli dell'errore, da inserire obbligatoriamente in caso di _outcome_ KO [Gestione degli errori](http://localhost:5000/o/KXYtsf32WSKm6ga638R3/s/mU2qgiLV1G3m9z1VjAOc/ "mention")
+* _fault_: tutti i dettagli dell'errore, da inserire obbligatoriamente in caso di _outcome_ KO [Gestione degli errori](https://app.gitbook.com/o/KXYtsf32WSKm6ga638R3/s/mU2qgiLV1G3m9z1VjAOc/ "mention")
 {% endtab %}
 {% endtabs %}
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
-{% swagger method="post" path="" baseUrl="" summary="verifyPaymentNotice" %}
-{% swagger-description %}
+## verifyPaymentNotice
 
-{% endswagger-description %}
+<mark style="color:green;">`POST`</mark>&#x20;
 
-{% swagger-parameter in="body" name="idPSP" required="true" %}
-Identificativo del PSP, assegnato da PagoPA.
+#### Request Body
 
-Il codice è generalmente rappresentato dal codice BIC (Bank Identifier Code) del PSP.
+| Name                                           | Type   | Description                                                                                                                                                                                                                                                                                              |
+| ---------------------------------------------- | ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| idPSP<mark style="color:red;">\*</mark>        | String | <p>Identificativo del PSP, assegnato da PagoPA.</p><p>Il codice è generalmente rappresentato dal codice BIC (Bank Identifier Code) del PSP.</p><p>In assenza del codice BIC, o per gestire situazioni particolari, può essere utilizzato un altro codice, purché identifichi in modo univoco il PSP.</p> |
+| idBrokerPSP<mark style="color:red;">\*</mark>  | String | <p>Identificativo dell'intermediario, assegnato da PagoPA.</p><p>Identificazione dell'intermediario/broker del PSP che fornisce l'accesso (canale) al PSP per l'erogazione del servizio.</p><p>Nota: l'intermediario/broker può coincidere con il PSP stesso.</p>                                        |
+| idChannel<mark style="color:red;">\*</mark>    | String | <p>Identificativo del canale, identifica una categoria di servizio di pagamento e attraverso la quale viene effettuata la transazione.</p><p>Un identificatore di canale appartiene a un solo intermediario/broker PSP e di conseguenza deve essere univoco rispetto al PSP.</p>                         |
+| password<mark style="color:red;">\*</mark>     | String | Password del canale, assegnata da PagoPA.                                                                                                                                                                                                                                                                |
+| qrCode<mark style="color:red;">\*</mark>       | String | <p>è composto da</p><p><em>fiscalCode</em></p><p>e</p><p><em>noticeNumber.</em></p>                                                                                                                                                                                                                      |
+| fiscalCode<mark style="color:red;">\*</mark>   | String | codice fiscale dell'EC.                                                                                                                                                                                                                                                                                  |
+| noticeNumber<mark style="color:red;">\*</mark> | String | \[auxDigit]\[segregationCode]\[IUVBase]\[IUVCheckDigit]                                                                                                                                                                                                                                                  |
 
-In assenza del codice BIC, o per gestire situazioni particolari, può essere utilizzato un altro codice, purché identifichi in modo univoco il PSP.
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="idBrokerPSP" required="true" %}
-Identificativo dell'intermediario, assegnato da PagoPA.
-
-Identificazione dell'intermediario/broker del PSP che fornisce l'accesso (canale) al PSP per l'erogazione del servizio.
-
-Nota: l'intermediario/broker può coincidere con il PSP stesso.
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="idChannel" required="true" %}
-Identificativo del canale, identifica una categoria di servizio di pagamento e attraverso la quale viene effettuata la transazione.
-
-Un identificatore di canale appartiene a un solo intermediario/broker PSP e di conseguenza deve essere univoco rispetto al PSP.
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="password" required="true" %}
-Password del canale, assegnata da PagoPA.
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="qrCode" required="true" %}
-è composto da 
-
-_fiscalCode_
-
- e 
-
-_noticeNumber._
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="fiscalCode" required="true" %}
-codice fiscale dell'EC. 
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="noticeNumber" required="true" %}
-\[auxDigit][segregationCode][IUVBase][IUVCheckDigit]
-{% endswagger-parameter %}
-
-{% swagger-response status="200: OK" description="" %}
+{% tabs %}
+{% tab title="200: OK " %}
 {% tabs %}
 {% tab title="Request example" %}
 ```xml
@@ -1432,7 +874,7 @@ codice fiscale dell'EC.
 * _outcome_﹡_:_ il risultato dell'operazione che può contenere i seguenti codici
   * **OK** : operazione eseguita con successo
   * **KO** : operazione terminata con errore
-* _fault_: tutti i dettagli dell'errore, dato valorizzato solo in caso di _outcome_ KO [Gestione degli errori](http://localhost:5000/o/KXYtsf32WSKm6ga638R3/s/mU2qgiLV1G3m9z1VjAOc/ "mention")
+* _fault_: tutti i dettagli dell'errore, dato valorizzato solo in caso di _outcome_ KO [Gestione degli errori](https://app.gitbook.com/o/KXYtsf32WSKm6ga638R3/s/mU2qgiLV1G3m9z1VjAOc/ "mention")
 * paymentList: struttura che contiene i dettagli del pagamento, al momento può contenere una sola _paymentOptionDescription_, dato valorizzato solo in caso di _outcome_ OK
   * paymentOptionDescription﹡
     * amount﹡: importo in euro
@@ -1445,49 +887,26 @@ codice fiscale dell'EC.
 * officeName: nome completo dell'ufficio dell'EC
 {% endtab %}
 {% endtabs %}
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
-{% swagger method="post" path="" baseUrl="" summary="verificaBollettino" %}
-{% swagger-description %}
+## verificaBollettino
 
-{% endswagger-description %}
+<mark style="color:green;">`POST`</mark>&#x20;
 
-{% swagger-parameter in="body" name="idPSP" required="true" %}
-Identificativo del PSP, assegnato da PagoPA.
+#### Request Body
 
-Il codice è generalmente rappresentato dal codice BIC (Bank Identifier Code) del PSP.
+| Name                                           | Type   | Description                                                                                                                                                                                                                                                                                              |
+| ---------------------------------------------- | ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| idPSP<mark style="color:red;">\*</mark>        | String | <p>Identificativo del PSP, assegnato da PagoPA.</p><p>Il codice è generalmente rappresentato dal codice BIC (Bank Identifier Code) del PSP.</p><p>In assenza del codice BIC, o per gestire situazioni particolari, può essere utilizzato un altro codice, purché identifichi in modo univoco il PSP.</p> |
+| idBrokerPSP<mark style="color:red;">\*</mark>  | String | <p>Identificativo dell'intermediario, assegnato da PagoPA.</p><p>Identificazione dell'intermediario/broker del PSP che fornisce l'accesso (canale) al PSP per l'erogazione del servizio.</p><p>Nota: l'intermediario/broker può coincidere con il PSP stesso.</p>                                        |
+| idChannel<mark style="color:red;">\*</mark>    | String | <p>Identificativo del canale, identifica una categoria di servizio di pagamento e attraverso la quale viene effettuata la transazione.</p><p>Un identificatore di canale appartiene a un solo intermediario/broker PSP e di conseguenza deve essere univoco rispetto al PSP.</p>                         |
+| password<mark style="color:red;">\*</mark>     | String | Password del canale, assegnata da PagoPA.                                                                                                                                                                                                                                                                |
+| ccPost<mark style="color:red;">\*</mark>       | String | conto corrente postale dell'EC.                                                                                                                                                                                                                                                                          |
+| noticeNumber<mark style="color:red;">\*</mark> | String | \[auxDigit]\[segregationCode]\[IUVBase]\[IUVCheckDigit]                                                                                                                                                                                                                                                  |
 
-In assenza del codice BIC, o per gestire situazioni particolari, può essere utilizzato un altro codice, purché identifichi in modo univoco il PSP.
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="idBrokerPSP" required="true" %}
-Identificativo dell'intermediario, assegnato da PagoPA.
-
-Identificazione dell'intermediario/broker del PSP che fornisce l'accesso (canale) al PSP per l'erogazione del servizio.
-
-Nota: l'intermediario/broker può coincidere con il PSP stesso.
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="idChannel" required="true" %}
-Identificativo del canale, identifica una categoria di servizio di pagamento e attraverso la quale viene effettuata la transazione.
-
-Un identificatore di canale appartiene a un solo intermediario/broker PSP e di conseguenza deve essere univoco rispetto al PSP.
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="password" required="true" %}
-Password del canale, assegnata da PagoPA.
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="ccPost" required="true" %}
-conto corrente postale dell'EC. 
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="noticeNumber" required="true" %}
-\[auxDigit][segregationCode][IUVBase][IUVCheckDigit]
-{% endswagger-parameter %}
-
-{% swagger-response status="200: OK" description="" %}
+{% tabs %}
+{% tab title="200: OK " %}
 {% tabs %}
 {% tab title="Request example" %}
 ```xml
@@ -1536,7 +955,7 @@ conto corrente postale dell'EC.
 * _outcome_﹡_:_ il risultato dell'operazione che può contenere i seguenti codici
   * **OK** : operazione eseguita con successo
   * **KO** : operazione terminata con errore
-* _fault_: tutti i dettagli dell'errore, dato valorizzato solo in caso di _outcome_ KO [Gestione degli errori](http://localhost:5000/o/KXYtsf32WSKm6ga638R3/s/mU2qgiLV1G3m9z1VjAOc/ "mention")
+* _fault_: tutti i dettagli dell'errore, dato valorizzato solo in caso di _outcome_ KO [Gestione degli errori](https://app.gitbook.com/o/KXYtsf32WSKm6ga638R3/s/mU2qgiLV1G3m9z1VjAOc/ "mention")
 * paymentBollettinoList: struttura che contiene i dettagli del pagamento, al momento può contenere una sola _paymentOptionDescription_, dato valorizzato solo in caso di _outcome_ OK, dato valorizzato solo in caso di _outcome_ OK
   * paymentOptionDescription﹡
     * amount﹡: importo in euro
@@ -1551,87 +970,34 @@ conto corrente postale dell'EC.
 * officeName: nome completo dell'ufficio dell'EC
 {% endtab %}
 {% endtabs %}
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
 ## activatePaymentNotice <a href="#activatepaymentnotice" id="activatepaymentnotice"></a>
 
-{% swagger method="post" path="" baseUrl="" summary="activatePaymentNotice versione 1" %}
-{% swagger-description %}
+## activatePaymentNotice versione 1
 
-{% endswagger-description %}
+<mark style="color:green;">`POST`</mark>&#x20;
 
-{% swagger-parameter in="body" name="idPSP" required="true" %}
-Identificativo del PSP, assegnato da PagoPA.
+#### Request Body
 
-Il codice è generalmente rappresentato dal codice BIC (Bank Identifier Code) del PSP.
+| Name                                           | Type   | Description                                                                                                                                                                                                                                                                                                                                                              |
+| ---------------------------------------------- | ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| idPSP<mark style="color:red;">\*</mark>        | String | <p>Identificativo del PSP, assegnato da PagoPA.</p><p>Il codice è generalmente rappresentato dal codice BIC (Bank Identifier Code) del PSP.</p><p>In assenza del codice BIC, o per gestire situazioni particolari, può essere utilizzato un altro codice, purché identifichi in modo univoco il PSP.</p>                                                                 |
+| idBrokerPSP<mark style="color:red;">\*</mark>  | String | <p>Identificativo dell'intermediario, assegnato da PagoPA.</p><p>Identificazione dell'intermediario/broker del PSP che fornisce l'accesso (canale) al PSP per l'erogazione del servizio.</p><p>Nota: l'intermediario/broker può coincidere con il PSP stesso.</p>                                                                                                        |
+| idChannel<mark style="color:red;">\*</mark>    | String | <p>Identificativo del canale, identifica una categoria di servizio di pagamento e attraverso la quale viene effettuata la transazione.</p><p>Un identificatore di canale appartiene a un solo intermediario/broker PSP e di conseguenza deve essere univoco rispetto al PSP.</p>                                                                                         |
+| password<mark style="color:red;">\*</mark>     | String | Password del canale, assegnata da PagoPA.                                                                                                                                                                                                                                                                                                                                |
+| idempotencyKey                                 |        | Chiave di idempotenza                                                                                                                                                                                                                                                                                                                                                    |
+| qrCode<mark style="color:red;">\*</mark>       | String | <p>E' composto da</p><p><em>fiscalCode</em></p><p>e</p><p><em>noticeNumber.</em></p>                                                                                                                                                                                                                                                                                     |
+| fiscalCode<mark style="color:red;">\*</mark>   | String | Codice fiscale dell'EC.                                                                                                                                                                                                                                                                                                                                                  |
+| noticeNumber<mark style="color:red;">\*</mark> | String | \[auxDigit]\[segregationCode]\[IUVBase]\[IUVCheckDigit]                                                                                                                                                                                                                                                                                                                  |
+| expirationTime                                 | String | <p>Tempo di scadenza del token ( ms ), max 30 minuti.</p><p>La durata del token di pagamento può essere impostata in 2 modi:</p><p>- Implicitamente dalla piattaforma pagoPA, se non è impostato nella richiesta di activatePaymentNotice (valore di default durata = 30 minuti)</p><p>- Esplicitamente dal PSP, se impostato in richiesta all'activatePaymentNotice</p> |
+| amount<mark style="color:red;">\*</mark>       | String | Importo in euro                                                                                                                                                                                                                                                                                                                                                          |
+| dueDate                                        | String | data di scadenza del pagamento secondo il formato ISO 8601 \[AAAA]-\[MM]-\[GG]                                                                                                                                                                                                                                                                                           |
+| paymentNote                                    | String | Testo libero per descrivere l'oggetto del pagamento                                                                                                                                                                                                                                                                                                                      |
 
-In assenza del codice BIC, o per gestire situazioni particolari, può essere utilizzato un altro codice, purché identifichi in modo univoco il PSP.
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="idBrokerPSP" required="true" %}
-Identificativo dell'intermediario, assegnato da PagoPA.
-
-Identificazione dell'intermediario/broker del PSP che fornisce l'accesso (canale) al PSP per l'erogazione del servizio.
-
-Nota: l'intermediario/broker può coincidere con il PSP stesso.
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="idChannel" required="true" %}
-Identificativo del canale, identifica una categoria di servizio di pagamento e attraverso la quale viene effettuata la transazione.
-
-Un identificatore di canale appartiene a un solo intermediario/broker PSP e di conseguenza deve essere univoco rispetto al PSP.
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="password" required="true" %}
-Password del canale, assegnata da PagoPA.
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="idempotencyKey" type="" %}
-Chiave di idempotenza
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="qrCode" required="true" %}
-E' composto da 
-
-_fiscalCode_
-
- e 
-
-_noticeNumber._
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="fiscalCode" required="true" %}
-Codice fiscale dell'EC. 
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="noticeNumber" required="true" %}
-\[auxDigit][segregationCode][IUVBase][IUVCheckDigit]
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="expirationTime" %}
-Tempo di scadenza del token ( ms ), max 30 minuti.
-
-La durata del token di pagamento può essere impostata in 2 modi:
-
-&#x20;\- Implicitamente dalla piattaforma pagoPA, se non è impostato nella richiesta di activatePaymentNotice (valore di default durata = 30 minuti)
-
-&#x20;\- Esplicitamente dal PSP, se impostato in richiesta all'activatePaymentNotice
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="amount" required="true" %}
-Importo in euro
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="dueDate" %}
-data di scadenza del pagamento secondo il formato ISO 8601 [AAAA]-[MM]-[GG]
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="paymentNote" %}
-Testo libero per descrivere l'oggetto del pagamento
-{% endswagger-parameter %}
-
-{% swagger-response status="200: OK" description="" %}
+{% tabs %}
+{% tab title="200: OK " %}
 {% tabs %}
 {% tab title="Request example" %}
 ```xml
@@ -1694,7 +1060,7 @@ Testo libero per descrivere l'oggetto del pagamento
 * _outcome_﹡_:_ il risultato dell'operazione che può contenere i seguenti codici
   * **OK** : operazione eseguita con successo
   * **KO** : operazione terminata con errore
-* _fault_: tutti i dettagli dell'errore, dato valorizzato solo in caso di _outcome_ KO [Gestione degli errori](http://localhost:5000/o/KXYtsf32WSKm6ga638R3/s/mU2qgiLV1G3m9z1VjAOc/ "mention")
+* _fault_: tutti i dettagli dell'errore, dato valorizzato solo in caso di _outcome_ KO [Gestione degli errori](https://app.gitbook.com/o/KXYtsf32WSKm6ga638R3/s/mU2qgiLV1G3m9z1VjAOc/ "mention")
 * totalAmount: rappresenta la somma degli importi dei singoli transfer, dato valorizzato solo in caso di _outcome_ OK
 * paymentDescription: testo libero per descrivere l'oggetto del pagamento, dato valorizzato solo in caso di _outcome_ OK
 * fiscalCodePA: codice fiscale dell'EC, dato valorizzato solo in caso di _outcome_ OK
@@ -1711,99 +1077,46 @@ Testo libero per descrivere l'oggetto del pagamento
 * creditorReferenceId: **IUV** Identificativo Univoco Versamento, dato valorizzato solo in caso di _outcome_ OK
 {% endtab %}
 {% endtabs %}
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
-{% swagger method="post" path="" baseUrl="" summary="activatePaymentNotice versione 2" %}
-{% swagger-description %}
-**In questa versione è possibile far transitare i metadata per ogni **
+## activatePaymentNotice versione 2
+
+<mark style="color:green;">`POST`</mark>&#x20;
+
+\*\*In questa versione è possibile far transitare i metadata per ogni \*\*
 
 _**payment**_
 
-** e in ogni singolo **
+\*\* e in ogni singolo \*\*
 
 _**transfer**_
 
-** della response, inoltre sono gestite le informazioni ricavate da**
-
- 
+\*\* della response, inoltre sono gestite le informazioni ricavate da\*\*
 
 [gestione-evoluta-commissioni.md](gestione-evoluta-commissioni.md "mention")
 
 .
-{% endswagger-description %}
 
-{% swagger-parameter in="body" name="idPSP" required="true" %}
-Identificativo del PSP, assegnato da PagoPA.
+#### Request Body
 
-Il codice è generalmente rappresentato dal codice BIC (Bank Identifier Code) del PSP.
+| Name                                           | Type   | Description                                                                                                                                                                                                                                                                                                                                                              |
+| ---------------------------------------------- | ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| idPSP<mark style="color:red;">\*</mark>        | String | <p>Identificativo del PSP, assegnato da PagoPA.</p><p>Il codice è generalmente rappresentato dal codice BIC (Bank Identifier Code) del PSP.</p><p>In assenza del codice BIC, o per gestire situazioni particolari, può essere utilizzato un altro codice, purché identifichi in modo univoco il PSP.</p>                                                                 |
+| idBrokerPSP<mark style="color:red;">\*</mark>  | String | <p>Identificativo dell'intermediario, assegnato da PagoPA.</p><p>Identificazione dell'intermediario/broker del PSP che fornisce l'accesso (canale) al PSP per l'erogazione del servizio.</p><p>Nota: l'intermediario/broker può coincidere con il PSP stesso.</p>                                                                                                        |
+| idChannel<mark style="color:red;">\*</mark>    | String | <p>Identificativo del canale, identifica una categoria di servizio di pagamento e attraverso la quale viene effettuata la transazione.</p><p>Un identificatore di canale appartiene a un solo intermediario/broker PSP e di conseguenza deve essere univoco rispetto al PSP.</p>                                                                                         |
+| password<mark style="color:red;">\*</mark>     | String | Password del canale, assegnata da PagoPA.                                                                                                                                                                                                                                                                                                                                |
+| idempotencyKey                                 |        | Chiave di idempotenza                                                                                                                                                                                                                                                                                                                                                    |
+| qrCode<mark style="color:red;">\*</mark>       | String | <p>E' composto da</p><p><em>fiscalCode</em></p><p>e</p><p><em>noticeNumber.</em></p>                                                                                                                                                                                                                                                                                     |
+| fiscalCode<mark style="color:red;">\*</mark>   | String | Codice fiscale dell'EC.                                                                                                                                                                                                                                                                                                                                                  |
+| noticeNumber<mark style="color:red;">\*</mark> | String | \[auxDigit]\[segregationCode]\[IUVBase]\[IUVCheckDigit]                                                                                                                                                                                                                                                                                                                  |
+| expirationTime                                 | String | <p>Tempo di scadenza del token ( ms ), max 30 minuti.</p><p>La durata del token di pagamento può essere impostata in 2 modi:</p><p>- Implicitamente dalla piattaforma pagoPA, se non è impostato nella richiesta di activatePaymentNotice (valore di default durata = 30 minuti)</p><p>- Esplicitamente dal PSP, se impostato in richiesta all'activatePaymentNotice</p> |
+| amount<mark style="color:red;">\*</mark>       | String | Importo in euro                                                                                                                                                                                                                                                                                                                                                          |
+| dueDate                                        | String | data di scadenza del pagamento secondo il formato ISO 8601 \[AAAA]-\[MM]-\[GG]                                                                                                                                                                                                                                                                                           |
+| paymentNote                                    | String | Testo libero per descrivere l'oggetto del pagamento                                                                                                                                                                                                                                                                                                                      |
 
-In assenza del codice BIC, o per gestire situazioni particolari, può essere utilizzato un altro codice, purché identifichi in modo univoco il PSP.
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="idBrokerPSP" required="true" %}
-Identificativo dell'intermediario, assegnato da PagoPA.
-
-Identificazione dell'intermediario/broker del PSP che fornisce l'accesso (canale) al PSP per l'erogazione del servizio.
-
-Nota: l'intermediario/broker può coincidere con il PSP stesso.
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="idChannel" required="true" %}
-Identificativo del canale, identifica una categoria di servizio di pagamento e attraverso la quale viene effettuata la transazione.
-
-Un identificatore di canale appartiene a un solo intermediario/broker PSP e di conseguenza deve essere univoco rispetto al PSP.
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="password" required="true" %}
-Password del canale, assegnata da PagoPA.
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="idempotencyKey" type="" %}
-Chiave di idempotenza
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="qrCode" required="true" %}
-E' composto da 
-
-_fiscalCode_
-
- e 
-
-_noticeNumber._
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="fiscalCode" required="true" %}
-Codice fiscale dell'EC. 
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="noticeNumber" required="true" %}
-\[auxDigit][segregationCode][IUVBase][IUVCheckDigit]
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="expirationTime" %}
-Tempo di scadenza del token ( ms ), max 30 minuti.
-
-La durata del token di pagamento può essere impostata in 2 modi:
-
-&#x20;\- Implicitamente dalla piattaforma pagoPA, se non è impostato nella richiesta di activatePaymentNotice (valore di default durata = 30 minuti)
-
-&#x20;\- Esplicitamente dal PSP, se impostato in richiesta all'activatePaymentNotice
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="amount" required="true" %}
-Importo in euro
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="dueDate" %}
-data di scadenza del pagamento secondo il formato ISO 8601 [AAAA]-[MM]-[GG]
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="paymentNote" %}
-Testo libero per descrivere l'oggetto del pagamento
-{% endswagger-parameter %}
-
-{% swagger-response status="200: OK" description="" %}
+{% tabs %}
+{% tab title="200: OK " %}
 {% tabs %}
 {% tab title="Request example" %}
 ```xml
@@ -1882,7 +1195,7 @@ Testo libero per descrivere l'oggetto del pagamento
 * _outcome_﹡_:_ il risultato dell'operazione che può contenere i seguenti codici
   * **OK** : operazione eseguita con successo
   * **KO** : operazione terminata con errore
-* _fault_: tutti i dettagli dell'errore, dato valorizzato solo in caso di _outcome_ KO [Gestione degli errori](http://localhost:5000/o/KXYtsf32WSKm6ga638R3/s/mU2qgiLV1G3m9z1VjAOc/ "mention")
+* _fault_: tutti i dettagli dell'errore, dato valorizzato solo in caso di _outcome_ KO [Gestione degli errori](https://app.gitbook.com/o/KXYtsf32WSKm6ga638R3/s/mU2qgiLV1G3m9z1VjAOc/ "mention")
 * totalAmount: rappresenta la somma degli importi dei singoli transfer, dato valorizzato solo in caso di _outcome_ OK
 * paymentDescription: testo libero per descrivere l'oggetto del pagamento, dato valorizzato solo in caso di _outcome_ OK
 * fiscalCodePA: codice fiscale dell'EC, dato valorizzato solo in caso di _outcome_ OK
@@ -1907,143 +1220,47 @@ Testo libero per descrivere l'oggetto del pagamento
 * suggestedIdCiBundle: identificativo degli attributi aggiunti dall'EC al pacchetto di [gestione-evoluta-commissioni.md](gestione-evoluta-commissioni.md "mention")
 {% endtab %}
 {% endtabs %}
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
 ## sendPaymentOutcome <a href="#sendpaymentoutcome" id="sendpaymentoutcome"></a>
 
-{% swagger method="post" path="" baseUrl="" summary="sendPaymentOutcome versione 1" %}
-{% swagger-description %}
+## sendPaymentOutcome versione 1
 
-{% endswagger-description %}
+<mark style="color:green;">`POST`</mark>&#x20;
 
-{% swagger-parameter in="body" name="idPSP" required="true" %}
-identificativo del PSP, assegnato da PagoPA.
+#### Request Body
 
-Il codice è generalmente rappresentato dal codice BIC (Bank Identifier Code) del PSP.
+| Name                                                          | Type   | Description                                                                                                                                                                                                                                                                                              |
+| ------------------------------------------------------------- | ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| idPSP<mark style="color:red;">\*</mark>                       | String | <p>identificativo del PSP, assegnato da PagoPA.</p><p>Il codice è generalmente rappresentato dal codice BIC (Bank Identifier Code) del PSP.</p><p>In assenza del codice BIC, o per gestire situazioni particolari, può essere utilizzato un altro codice, purché identifichi in modo univoco il PSP.</p> |
+| idBrokerPSP<mark style="color:red;">\*</mark>                 | String | <p>identificativo dell'intermediario, assegnato da PagoPA.</p><p>Identificazione dell'intermediario/broker del PSP che fornisce l'accesso (canale) al PSP per l'erogazione del servizio.</p><p>Nota: l'intermediario/broker può coincidere con il PSP stesso.</p>                                        |
+| idChannel<mark style="color:red;">\*</mark>                   | String | <p>identificativo del canale, identifica una categoria di servizio di pagamento e attraverso la quale viene effettuata la transazione.</p><p>Un identificatore di canale appartiene a un solo intermediario/broker PSP e di conseguenza deve essere univoco rispetto al PSP.</p>                         |
+| password<mark style="color:red;">\*</mark>                    | String | Password del canale, assegnata da PagoPA.                                                                                                                                                                                                                                                                |
+| idempotencyKey                                                | String | Chiave di idempotenza.                                                                                                                                                                                                                                                                                   |
+| paymentToken<mark style="color:red;">\*</mark>                | String | Viene generato dal sistema durante la fase di attivazione del pagamento, è l'identificatore di correlazione da abbinare all'attivazione e all'esito del pagamento.                                                                                                                                       |
+| outcome<mark style="color:red;">\*</mark>                     | String | <p>Il risultato dell'operazione che può contenere i seguenti codici</p><p><strong>OK</strong> : operazione eseguita con successo</p><p><strong>KO</strong> : operazione terminata con errore</p>                                                                                                         |
+| details                                                       | String | <p>Dettagli del risultato dell'operazione, da inserire obbligatoriamente in caso di</p><p><em>outcome</em></p><p>OK</p>                                                                                                                                                                                  |
+| paymentMethod<mark style="color:red;">\*</mark>               | String | <p>metodo di pagamento</p><p>enum: "cash" "creditCard" "bancomat" "other"</p>                                                                                                                                                                                                                            |
+| paymentChannel                                                | String | <p>canale di pagamento</p><p>enum: "frontOffice" "atm" "onLine" "app" "other"</p>                                                                                                                                                                                                                        |
+| fee<mark style="color:red;">\*</mark>                         | String | importo della commissione pagata in euro                                                                                                                                                                                                                                                                 |
+| payer                                                         | String | individua il pagatore                                                                                                                                                                                                                                                                                    |
+| uniqueIdentifier<mark style="color:red;">\*</mark>            | String |                                                                                                                                                                                                                                                                                                          |
+| entityUniqueIdentifierType<mark style="color:red;">\*</mark>  | String | <p><strong>F</strong> : Persona fisica</p><p><strong>G</strong> : Persona giuridica</p>                                                                                                                                                                                                                  |
+| entityUniqueIdentifierValue<mark style="color:red;">\*</mark> | String | codice fiscale o partita IVA, nel caso non siano disponibili è possibile utilizzare 'ANONIMO'                                                                                                                                                                                                            |
+| fullName<mark style="color:red;">\*</mark>                    | String | nome completo del pagatore                                                                                                                                                                                                                                                                               |
+| streetName                                                    | String |                                                                                                                                                                                                                                                                                                          |
+| civicNumber                                                   | String |                                                                                                                                                                                                                                                                                                          |
+| postalCode                                                    | String |                                                                                                                                                                                                                                                                                                          |
+| city                                                          | String |                                                                                                                                                                                                                                                                                                          |
+| stateProvinceRegion                                           | String |                                                                                                                                                                                                                                                                                                          |
+| country                                                       | String |                                                                                                                                                                                                                                                                                                          |
+| e-mail	                                                       | String |                                                                                                                                                                                                                                                                                                          |
+| applicationDate<mark style="color:red;">\*</mark>             | String | data applicativa del pagamento                                                                                                                                                                                                                                                                           |
+| transferDate<mark style="color:red;">\*</mark>                | String | data del riversamento verso l'EC                                                                                                                                                                                                                                                                         |
 
-In assenza del codice BIC, o per gestire situazioni particolari, può essere utilizzato un altro codice, purché identifichi in modo univoco il PSP.
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="idBrokerPSP" required="true" %}
-identificativo dell'intermediario, assegnato da PagoPA.
-
-Identificazione dell'intermediario/broker del PSP che fornisce l'accesso (canale) al PSP per l'erogazione del servizio.
-
-Nota: l'intermediario/broker può coincidere con il PSP stesso.
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="idChannel" required="true" %}
-identificativo del canale, identifica una categoria di servizio di pagamento e attraverso la quale viene effettuata la transazione.
-
-Un identificatore di canale appartiene a un solo intermediario/broker PSP e di conseguenza deve essere univoco rispetto al PSP.
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="password" required="true" %}
-Password del canale, assegnata da PagoPA.
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="idempotencyKey" %}
-Chiave di idempotenza.
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="paymentToken" required="true" %}
-Viene generato dal sistema durante la fase di attivazione del pagamento, è l'identificatore di correlazione da abbinare all'attivazione e all'esito del pagamento.
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="outcome" required="true" %}
-
-
-&#x20;Il risultato dell'operazione che può contenere i seguenti codici
-
-**OK** : operazione eseguita con successo
-
-**KO** : operazione terminata con errore
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="details" %}
-Dettagli del risultato dell'operazione, da inserire obbligatoriamente in caso di 
-
-_outcome_
-
- OK
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="paymentMethod" required="true" %}
-metodo di pagamento
-
-enum: "cash" "creditCard" "bancomat" "other"
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="paymentChannel" %}
-canale di pagamento
-
-enum: "frontOffice" "atm" "onLine" "app" "other"
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="fee" required="true" %}
-importo della commissione pagata in euro
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="payer" %}
-individua il pagatore
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="uniqueIdentifier" required="true" %}
-
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="entityUniqueIdentifierType" required="true" %}
-**F** : Persona fisica
-
-**G** : Persona giuridica
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="entityUniqueIdentifierValue" required="true" %}
-codice fiscale o partita IVA, nel caso non siano disponibili è possibile utilizzare 'ANONIMO'
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="fullName" required="true" %}
-nome completo del pagatore
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="streetName" %}
-
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="civicNumber" %}
-
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="postalCode" %}
-
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="city" %}
-
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="stateProvinceRegion" required="false" %}
-
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="country" %}
-
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="e-mail	" %}
-
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="applicationDate" required="true" %}
-data applicativa del pagamento
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="transferDate" required="true" %}
-data del riversamento verso l'EC
-{% endswagger-parameter %}
-
-{% swagger-response status="200: OK" description="" %}
+{% tabs %}
+{% tab title="200: OK " %}
 {% tabs %}
 {% tab title="Request example" %}
 ```xml
@@ -2100,200 +1317,63 @@ data del riversamento verso l'EC
 * _outcome_﹡_:_ il risultato dell'operazione che può contenere i seguenti codici
   * **OK** : operazione eseguita con successo
   * **KO** : operazione terminata con errore
-* _fault_: tutti i dettagli dell'errore, da inserire obbligatoriamente in caso di _outcome_ KO [Gestione degli errori](http://localhost:5000/o/KXYtsf32WSKm6ga638R3/s/mU2qgiLV1G3m9z1VjAOc/ "mention")
+* _fault_: tutti i dettagli dell'errore, da inserire obbligatoriamente in caso di _outcome_ KO [Gestione degli errori](https://app.gitbook.com/o/KXYtsf32WSKm6ga638R3/s/mU2qgiLV1G3m9z1VjAOc/ "mention")
 {% endtab %}
 {% endtabs %}
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
-{% swagger method="post" path="" baseUrl="" summary="sendPaymentOutcome versione 2" %}
-{% swagger-description %}
+## sendPaymentOutcome versione 2
+
+<mark style="color:green;">`POST`</mark>&#x20;
+
 **Utilizzata per il pagamento attivato presso il frontend dell'EC, rispetto alla versione 1 permette di inviare l'outcome di più payment tokens contemporaneamente, inoltre sono gestite le informazioni ricavate da**
-
- 
 
 [gestione-evoluta-commissioni.md](gestione-evoluta-commissioni.md "mention")
 
 **e il servizio @e.bollo.**
-{% endswagger-description %}
 
-{% swagger-parameter in="body" name="idPSP" required="true" %}
-Identificativo del PSP, assegnato da PagoPA.
-
-Il codice è generalmente rappresentato dal codice BIC (Bank Identifier Code) del PSP.
-
-In assenza del codice BIC, o per gestire situazioni particolari, può essere utilizzato un altro codice, purché identifichi in modo univoco il PSP.
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="idBrokerPSP" required="true" %}
-Identificativo dell'intermediario, assegnato da PagoPA.
-
-Identificazione dell'intermediario/broker del PSP che fornisce l'accesso (canale) al PSP per l'erogazione del servizio.
-
-Nota: l'intermediario/broker può coincidere con il PSP stesso.
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="idChannel" required="true" %}
-Identificativo del canale, identifica una categoria di servizio di pagamento e attraverso la quale viene effettuata la transazione.
-
-Un identificatore di canale appartiene a un solo intermediario/broker PSP e di conseguenza deve essere univoco rispetto al PSP.
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="password" required="true" %}
-Password del canale, assegnata da PagoPA.
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="idempotencyKey" %}
-Chiave di idempotenza
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="paymentTokens" required="true" %}
-sequence che contiene tutti i tokens
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="paymentToken" required="true" %}
-viene generato dal sistema durante la fase di attivazione del pagamento, è l'identificatore di correlazione da abbinare all'attivazione e all'esito del pagamento
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="outcome" required="true" %}
-
-
-il risultato dell'operazione che può contenere i seguenti codici
-
-**OK** : operazione eseguita con successo
-
-**KO** : operazione terminata con errore
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="details" %}
-dettagli del risultato dell'operazione, da inserire obbligatoriamente in caso di 
-
-_outcome_
-
- OK
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="paymentMethod" required="true" %}
-metodo di pagamento
-
-enum: "cash" "creditCard" "bancomat" "other"
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="paymentChannel" %}
-canale di pagamento
-
-enum: "frontOffice" "atm" "onLine" "app" "other"
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="fee" required="true" %}
-importo della commissione pagata in euro
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="primaryCiIncurredFee" %}
-importo della commissione a carico dell'EC espresso in euro ricavato da 
-
-[gestione-evoluta-commissioni.md](gestione-evoluta-commissioni.md "mention")
-
-
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="idBundle" %}
-identificativo del pacchetto di 
-
-[gestione-evoluta-commissioni.md](gestione-evoluta-commissioni.md "mention")
-
-
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="idCiBundle" %}
-identificativo degli attributi aggiunti dall'EC al pacchetto di 
-
-[gestione-evoluta-commissioni.md](gestione-evoluta-commissioni.md "mention")
-
-
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="payer" %}
-individua il pagatore
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="uniqueIdentifier" required="true" %}
-
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="entityUniqueIdentifierType" required="true" %}
-**F** : Persona fisica
-
-**G** : Persona giuridica
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="entityUniqueIdentifierValue" required="true" %}
-codice fiscale o partita IVA, nel caso non siano disponibili è possibile utilizzare 'ANONIMO'
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="fullName" required="true" %}
-nome completo del pagatore
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="streetName" %}
-
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="civicNumber" %}
-
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="postalCode" %}
-
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="city" %}
-
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="stateProvinceRegion" required="false" %}
-
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="country" %}
-
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="e-mail	" %}
-
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="applicationDate" required="true" %}
-data applicativa del pagamento
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="transferDate" required="true" %}
-data del riversamento verso l'EC
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="marcheDaBollo" %}
-La lista delle marche da bollo digitali gestite nella transazione di pagamento
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="marcaDaBollo" %}
-I dati di ogni singola marca da bollo digitale
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="paymentToken" %}
-Il paymentToken con cui è arrivata la richiesta di marca da bollo digitale
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="idTransfer" %}
-L'identificativo del transfer che contiene il dato 
-
-_richiestaMarcaDaBollo_
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="MBDAttachment" %}
-Il documento XML che contiene la marca da bollo digitale, nel formato base64
-{% endswagger-parameter %}
-
-{% swagger-response status="200: OK" description="" %}
+#### Request Body
+
+| Name                                                          | Type   | Description                                                                                                                                                                                                                                                                                              |
+| ------------------------------------------------------------- | ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| idPSP<mark style="color:red;">\*</mark>                       | String | <p>Identificativo del PSP, assegnato da PagoPA.</p><p>Il codice è generalmente rappresentato dal codice BIC (Bank Identifier Code) del PSP.</p><p>In assenza del codice BIC, o per gestire situazioni particolari, può essere utilizzato un altro codice, purché identifichi in modo univoco il PSP.</p> |
+| idBrokerPSP<mark style="color:red;">\*</mark>                 | String | <p>Identificativo dell'intermediario, assegnato da PagoPA.</p><p>Identificazione dell'intermediario/broker del PSP che fornisce l'accesso (canale) al PSP per l'erogazione del servizio.</p><p>Nota: l'intermediario/broker può coincidere con il PSP stesso.</p>                                        |
+| idChannel<mark style="color:red;">\*</mark>                   | String | <p>Identificativo del canale, identifica una categoria di servizio di pagamento e attraverso la quale viene effettuata la transazione.</p><p>Un identificatore di canale appartiene a un solo intermediario/broker PSP e di conseguenza deve essere univoco rispetto al PSP.</p>                         |
+| password<mark style="color:red;">\*</mark>                    | String | Password del canale, assegnata da PagoPA.                                                                                                                                                                                                                                                                |
+| idempotencyKey                                                | String | Chiave di idempotenza                                                                                                                                                                                                                                                                                    |
+| paymentTokens<mark style="color:red;">\*</mark>               | String | sequence che contiene tutti i tokens                                                                                                                                                                                                                                                                     |
+| paymentToken<mark style="color:red;">\*</mark>                | String | viene generato dal sistema durante la fase di attivazione del pagamento, è l'identificatore di correlazione da abbinare all'attivazione e all'esito del pagamento                                                                                                                                        |
+| outcome<mark style="color:red;">\*</mark>                     | String | <p>il risultato dell'operazione che può contenere i seguenti codici</p><p><strong>OK</strong> : operazione eseguita con successo</p><p><strong>KO</strong> : operazione terminata con errore</p>                                                                                                         |
+| details                                                       | String | <p>dettagli del risultato dell'operazione, da inserire obbligatoriamente in caso di</p><p><em>outcome</em></p><p>OK</p>                                                                                                                                                                                  |
+| paymentMethod<mark style="color:red;">\*</mark>               | String | <p>metodo di pagamento</p><p>enum: "cash" "creditCard" "bancomat" "other"</p>                                                                                                                                                                                                                            |
+| paymentChannel                                                | String | <p>canale di pagamento</p><p>enum: "frontOffice" "atm" "onLine" "app" "other"</p>                                                                                                                                                                                                                        |
+| fee<mark style="color:red;">\*</mark>                         | String | importo della commissione pagata in euro                                                                                                                                                                                                                                                                 |
+| primaryCiIncurredFee                                          | String | <p>importo della commissione a carico dell'EC espresso in euro ricavato da</p><p><a data-mention href="gestione-evoluta-commissioni.md">gestione-evoluta-commissioni.md</a></p>                                                                                                                          |
+| idBundle                                                      | String | <p>identificativo del pacchetto di</p><p><a data-mention href="gestione-evoluta-commissioni.md">gestione-evoluta-commissioni.md</a></p>                                                                                                                                                                  |
+| idCiBundle                                                    | String | <p>identificativo degli attributi aggiunti dall'EC al pacchetto di</p><p><a data-mention href="gestione-evoluta-commissioni.md">gestione-evoluta-commissioni.md</a></p>                                                                                                                                  |
+| payer                                                         | String | individua il pagatore                                                                                                                                                                                                                                                                                    |
+| uniqueIdentifier<mark style="color:red;">\*</mark>            | String |                                                                                                                                                                                                                                                                                                          |
+| entityUniqueIdentifierType<mark style="color:red;">\*</mark>  | String | <p><strong>F</strong> : Persona fisica</p><p><strong>G</strong> : Persona giuridica</p>                                                                                                                                                                                                                  |
+| entityUniqueIdentifierValue<mark style="color:red;">\*</mark> | String | codice fiscale o partita IVA, nel caso non siano disponibili è possibile utilizzare 'ANONIMO'                                                                                                                                                                                                            |
+| fullName<mark style="color:red;">\*</mark>                    | String | nome completo del pagatore                                                                                                                                                                                                                                                                               |
+| streetName                                                    | String |                                                                                                                                                                                                                                                                                                          |
+| civicNumber                                                   | String |                                                                                                                                                                                                                                                                                                          |
+| postalCode                                                    | String |                                                                                                                                                                                                                                                                                                          |
+| city                                                          | String |                                                                                                                                                                                                                                                                                                          |
+| stateProvinceRegion                                           | String |                                                                                                                                                                                                                                                                                                          |
+| country                                                       | String |                                                                                                                                                                                                                                                                                                          |
+| e-mail	                                                       | String |                                                                                                                                                                                                                                                                                                          |
+| applicationDate<mark style="color:red;">\*</mark>             | String | data applicativa del pagamento                                                                                                                                                                                                                                                                           |
+| transferDate<mark style="color:red;">\*</mark>                | String | data del riversamento verso l'EC                                                                                                                                                                                                                                                                         |
+| marcheDaBollo                                                 | String | La lista delle marche da bollo digitali gestite nella transazione di pagamento                                                                                                                                                                                                                           |
+| marcaDaBollo                                                  | String | I dati di ogni singola marca da bollo digitale                                                                                                                                                                                                                                                           |
+| paymentToken                                                  | String | Il paymentToken con cui è arrivata la richiesta di marca da bollo digitale                                                                                                                                                                                                                               |
+| idTransfer                                                    | String | <p>L'identificativo del transfer che contiene il dato</p><p><em>richiestaMarcaDaBollo</em></p>                                                                                                                                                                                                           |
+| MBDAttachment                                                 | String | Il documento XML che contiene la marca da bollo digitale, nel formato base64                                                                                                                                                                                                                             |
+
+{% tabs %}
+{% tab title="200: OK " %}
 {% tabs %}
 {% tab title="Request example" %}
 ```xml
@@ -2356,104 +1436,43 @@ Il documento XML che contiene la marca da bollo digitale, nel formato base64
 * _outcome_﹡_:_ il risultato dell'operazione che può contenere i seguenti codici
   * **OK** : operazione eseguita con successo
   * **KO** : operazione terminata con errore
-* _fault_: tutti i dettagli dell'errore, da inserire obbligatoriamente in caso di _outcome_ KO [Gestione degli errori](http://localhost:5000/o/KXYtsf32WSKm6ga638R3/s/mU2qgiLV1G3m9z1VjAOc/ "mention")
+* _fault_: tutti i dettagli dell'errore, da inserire obbligatoriamente in caso di _outcome_ KO [Gestione degli errori](https://app.gitbook.com/o/KXYtsf32WSKm6ga638R3/s/mU2qgiLV1G3m9z1VjAOc/ "mention")
 {% endtab %}
 {% endtabs %}
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
 ## pspNotifyPayment <a href="#pspnotifypayment" id="pspnotifypayment"></a>
 
-{% swagger method="post" path="" baseUrl="" summary="pspNotifyPayment versione 1" %}
-{% swagger-description %}
+## pspNotifyPayment versione 1
 
-{% endswagger-description %}
+<mark style="color:green;">`POST`</mark>&#x20;
 
-{% swagger-parameter in="body" name="idPSP" required="true" %}
-Identificativo del PSP, assegnato da PagoPA.
+#### Request Body
 
-Il codice è generalmente rappresentato dal codice BIC (Bank Identifier Code) del PSP.
+| Name                                                    | Type   | Description                                                                                                                                                                                                                                                                                              |
+| ------------------------------------------------------- | ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| idPSP<mark style="color:red;">\*</mark>                 | String | <p>Identificativo del PSP, assegnato da PagoPA.</p><p>Il codice è generalmente rappresentato dal codice BIC (Bank Identifier Code) del PSP.</p><p>In assenza del codice BIC, o per gestire situazioni particolari, può essere utilizzato un altro codice, purché identifichi in modo univoco il PSP.</p> |
+| idBrokerPSP<mark style="color:red;">\*</mark>           | String | <p>Identificativo dell'intermediario, assegnato da PagoPA.</p><p>Identificazione dell'intermediario/broker del PSP che fornisce l'accesso (canale) al PSP per l'erogazione del servizio.</p><p>Nota: l'intermediario/broker può coincidere con il PSP stesso.</p>                                        |
+| idChannel<mark style="color:red;">\*</mark>             | String | <p>Identificativo del canale, identifica una categoria di servizio di pagamento e attraverso la quale viene effettuata la transazione.</p><p>Un identificatore di canale appartiene a un solo intermediario/broker PSP e di conseguenza deve essere univoco rispetto al PSP.</p>                         |
+| paymentToken<mark style="color:red;">\*</mark>          | String | Viene generato dal sistema durante la fase di attivazione del pagamento, è l'identificatore di correlazione da abbinare all'attivazione e all'esito del pagamento.                                                                                                                                       |
+| paymentDescription<mark style="color:red;">\*</mark>    | String | Testo libero per descrivere l'oggetto del pagamento.                                                                                                                                                                                                                                                     |
+| fiscalCodePA<mark style="color:red;">\*</mark>          | String | Codice fiscale dell'EC.                                                                                                                                                                                                                                                                                  |
+| companyName<mark style="color:red;">\*</mark>           | String | Nome completo dell'EC.                                                                                                                                                                                                                                                                                   |
+| officeName                                              | String | Nome completo dell'ufficio dell'EC.                                                                                                                                                                                                                                                                      |
+| creditorReferenceId<mark style="color:red;">\*</mark>   | String | <p><strong>IUV</strong></p><p>Identificativo Univoco Versamento.</p>                                                                                                                                                                                                                                     |
+| debtAmount<mark style="color:red;">\*</mark>            | String | Rappresenta la somma degli importi dei singoli transfer.                                                                                                                                                                                                                                                 |
+| transferList<mark style="color:red;">\*</mark>          | String | Struttura che contiene i dettagli dei transfer pagamento, al momento i transfer possono essere al massimo 5.                                                                                                                                                                                             |
+| transfer<mark style="color:red;">\*</mark>              | String |                                                                                                                                                                                                                                                                                                          |
+| idTransfer<mark style="color:red;">\*</mark>            | String | Indice della lista (da 1 a 5).                                                                                                                                                                                                                                                                           |
+| transferAmount<mark style="color:red;">\*</mark>        | String | Importo                                                                                                                                                                                                                                                                                                  |
+| fiscalCodePA<mark style="color:red;">\*</mark>          | String | Codice fiscale dell'EC.                                                                                                                                                                                                                                                                                  |
+| IBAN<mark style="color:red;">\*</mark>                  | String | IBAN sul quale sarà effettuato il riversamento                                                                                                                                                                                                                                                           |
+| remittanceInformation<mark style="color:red;">\*</mark> | String | Motivo del pagamento.                                                                                                                                                                                                                                                                                    |
+| dati specifici del canale di pagamento                  | String | Struttura dati specifica del canale di pagamento utilizzato.                                                                                                                                                                                                                                             |
 
-In assenza del codice BIC, o per gestire situazioni particolari, può essere utilizzato un altro codice, purché identifichi in modo univoco il PSP.
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="idBrokerPSP" required="true" %}
-Identificativo dell'intermediario, assegnato da PagoPA.
-
-Identificazione dell'intermediario/broker del PSP che fornisce l'accesso (canale) al PSP per l'erogazione del servizio.
-
-Nota: l'intermediario/broker può coincidere con il PSP stesso.
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="idChannel" required="true" %}
-Identificativo del canale, identifica una categoria di servizio di pagamento e attraverso la quale viene effettuata la transazione.
-
-Un identificatore di canale appartiene a un solo intermediario/broker PSP e di conseguenza deve essere univoco rispetto al PSP.
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="paymentToken" required="true" %}
-Viene generato dal sistema durante la fase di attivazione del pagamento, è l'identificatore di correlazione da abbinare all'attivazione e all'esito del pagamento.
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="paymentDescription" required="true" %}
-Testo libero per descrivere l'oggetto del pagamento.
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="fiscalCodePA" required="true" %}
-Codice fiscale dell'EC. 
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="companyName" required="true" %}
-Nome completo dell'EC.
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="officeName" %}
-Nome completo dell'ufficio dell'EC.
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="creditorReferenceId" required="true" %}
-**IUV**
-
- Identificativo Univoco Versamento.
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="debtAmount" required="true" %}
-Rappresenta la somma degli importi dei singoli transfer.
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="transferList" required="true" %}
-Struttura che contiene i dettagli dei transfer pagamento, al momento i transfer possono essere al massimo 5.
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="transfer" required="true" %}
-
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="idTransfer" required="true" %}
-Indice della lista (da 1 a 5).
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="transferAmount" required="true" %}
-Importo
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="fiscalCodePA" required="true" %}
-Codice fiscale dell'EC.
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="IBAN" required="true" %}
-IBAN sul quale sarà effettuato il riversamento
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="remittanceInformation" required="true" %}
-Motivo del pagamento.
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="dati specifici del canale di pagamento" required="false" %}
-Struttura dati specifica del canale di pagamento utilizzato.
-{% endswagger-parameter %}
-
-{% swagger-response status="200: OK" description="" %}
+{% tabs %}
+{% tab title="200: OK " %}
 {% tabs %}
 {% tab title="Request example" %}
 ```xml
@@ -2511,7 +1530,7 @@ Struttura dati specifica del canale di pagamento utilizzato.
 * _outcome_﹡_:_ il risultato dell'operazione che può contenere i seguenti codici
   * **OK** : operazione eseguita con successo
   * **KO** : operazione terminata con errore
-* _fault_: tutti i dettagli dell'errore, da inserire obbligatoriamente in caso di _outcome_ KO [Gestione degli errori](http://localhost:5000/o/KXYtsf32WSKm6ga638R3/s/mU2qgiLV1G3m9z1VjAOc/ "mention")
+* _fault_: tutti i dettagli dell'errore, da inserire obbligatoriamente in caso di _outcome_ KO [Gestione degli errori](https://app.gitbook.com/o/KXYtsf32WSKm6ga638R3/s/mU2qgiLV1G3m9z1VjAOc/ "mention")
 {% endtab %}
 
 {% tab title="Dati specifici del canale di pagamento " %}
@@ -2568,175 +1587,71 @@ Altri canali di pagamento
 ```
 {% endtab %}
 {% endtabs %}
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
-{% swagger method="post" path="" baseUrl="" summary="pspNotifyPayment versione 2" %}
-{% swagger-description %}
-**Utilizzata per il pagamento attivato presso il frontend dell'EC, rispetto alla precedente versione della pspNotifyPayment permette di inviare al PSP una lista di **
+## pspNotifyPayment versione 2
+
+<mark style="color:green;">`POST`</mark>&#x20;
+
+\*\*Utilizzata per il pagamento attivato presso il frontend dell'EC, rispetto alla precedente versione della pspNotifyPayment permette di inviare al PSP una lista di \*\*
 
 _**payment**_
 
-**, inoltre, le informazioni specifiche del pagamento utilizzato sono inserite nella sezione **
+\*\*, inoltre, le informazioni specifiche del pagamento utilizzato sono inserite nella sezione \*\*
 
 _**additionalPaymentInformations**_
 
-** che contiene una lista di metadata. E' possibile, inoltre, inserire i metadata per ogni **
+\*\* che contiene una lista di metadata. E' possibile, inoltre, inserire i metadata per ogni \*\*
 
 _**payment**_
 
-** e in ogni singolo **
+\*\* e in ogni singolo \*\*
 
 _**transfer**_
 
-** e gestire il servizio @e.bollo.**
-{% endswagger-description %}
+\*\* e gestire il servizio @e.bollo.\*\*
 
-{% swagger-parameter in="body" name="idPSP" required="true" %}
-Identificativo del PSP, assegnato da PagoPA.
+#### Request Body
 
-Il codice è generalmente rappresentato dal codice BIC (Bank Identifier Code) del PSP.
+| Name                                                    | Type   | Description                                                                                                                                                                                                                                                                                              |
+| ------------------------------------------------------- | ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| idPSP<mark style="color:red;">\*</mark>                 | String | <p>Identificativo del PSP, assegnato da PagoPA.</p><p>Il codice è generalmente rappresentato dal codice BIC (Bank Identifier Code) del PSP.</p><p>In assenza del codice BIC, o per gestire situazioni particolari, può essere utilizzato un altro codice, purché identifichi in modo univoco il PSP.</p> |
+| idBrokerPSP<mark style="color:red;">\*</mark>           | String | <p>Identificativo dell'intermediario, assegnato da PagoPA.</p><p>Identificazione dell'intermediario/broker del PSP che fornisce l'accesso (canale) al PSP per l'erogazione del servizio.</p><p>Nota: l'intermediario/broker può coincidere con il PSP stesso.</p>                                        |
+| idChannel<mark style="color:red;">\*</mark>             | String | <p>Identificativo del canale, identifica una categoria di servizio di pagamento e attraverso la quale viene effettuata la transazione.</p><p>Un identificatore di canale appartiene a un solo intermediario/broker PSP e di conseguenza deve essere univoco rispetto al PSP.</p>                         |
+| transactionId<mark style="color:red;">\*</mark>         | String | Identificativo dell'operazione di pagamento.                                                                                                                                                                                                                                                             |
+| totalAmount<mark style="color:red;">\*</mark>           | String | Rappresenta la somma pagata dall'utente, comprensiva di commissione.                                                                                                                                                                                                                                     |
+| fee<mark style="color:red;">\*</mark>                   | String | Importo della commissione.                                                                                                                                                                                                                                                                               |
+| timestampOperation<mark style="color:red;">\*</mark>    | String | Timestamp dell'operazione di pagamento.                                                                                                                                                                                                                                                                  |
+| paymentList<mark style="color:red;">\*</mark>           | String | Lista dei pagamenti.                                                                                                                                                                                                                                                                                     |
+| payment<mark style="color:red;">\*</mark>               | String |                                                                                                                                                                                                                                                                                                          |
+| paymentToken<mark style="color:red;">\*</mark>          | String | Viene generato dal sistema durante la fase di attivazione del pagamento, è l'identificatore di correlazione da abbinare all'attivazione e all'esito del pagamento.                                                                                                                                       |
+| paymentDescription<mark style="color:red;">\*</mark>    | String | Testo libero per descrivere l'oggetto del pagamento.                                                                                                                                                                                                                                                     |
+| fiscalCodePA<mark style="color:red;">\*</mark>          | String | Codice fiscale dell'EC.                                                                                                                                                                                                                                                                                  |
+| companyName<mark style="color:red;">\*</mark>           | String | Nome completo dell'EC.                                                                                                                                                                                                                                                                                   |
+| officeName                                              | String | Nome completo dell'ufficio dell'EC.                                                                                                                                                                                                                                                                      |
+| creditorReferenceId<mark style="color:red;">\*</mark>   | String | <p><strong>IUV</strong></p><p>Identificativo Univoco Versamento.</p>                                                                                                                                                                                                                                     |
+| debtAmount<mark style="color:red;">\*</mark>            | String | Rappresenta la somma degli importi dei singoli transfer.                                                                                                                                                                                                                                                 |
+| transferList<mark style="color:red;">\*</mark>          | String | Struttura che contiene i dettagli dei transfer pagamento, al momento i transfer possono essere al massimo 5.                                                                                                                                                                                             |
+| transfer<mark style="color:red;">\*</mark>              | String |                                                                                                                                                                                                                                                                                                          |
+| idTransfer<mark style="color:red;">\*</mark>            | String | Indice della lista (da 1 a 5).                                                                                                                                                                                                                                                                           |
+| transferAmount<mark style="color:red;">\*</mark>        | String | Importo                                                                                                                                                                                                                                                                                                  |
+| fiscalCodePA<mark style="color:red;">\*</mark>          | String | Codice fiscale dell'EC.                                                                                                                                                                                                                                                                                  |
+| CHOICE<mark style="color:red;">\*</mark>                | String | Choice tra IBAN e richiestaMarcaDaBollo                                                                                                                                                                                                                                                                  |
+| IBAN                                                    | String | IBAN sul quale sarà effettuato il riversamento                                                                                                                                                                                                                                                           |
+| richiestaMarcaDaBollo                                   | String | I dati della richiesta della marca da bollo                                                                                                                                                                                                                                                              |
+| tipoBollo                                               | String | Tipologia del bollo                                                                                                                                                                                                                                                                                      |
+| hashDocumento                                           | String | Impronta informatica (digest), nel formato base64, del documento informatico o della segnatura di protocollo cui è associata la marca da bollo digitale                                                                                                                                                  |
+| provinciaResidenza                                      | String | Sigla automobilistica della provincia di residenza del soggetto pagatore                                                                                                                                                                                                                                 |
+| remittanceInformation<mark style="color:red;">\*</mark> | String | Motivo del pagamento.                                                                                                                                                                                                                                                                                    |
+| additionalPaymentInformations                           | String | Struttura che contiene i dati specifici del canale di pagamento utilizzato.                                                                                                                                                                                                                              |
+| additionalPaymentList<mark style="color:red;">\*</mark> | String |                                                                                                                                                                                                                                                                                                          |
+| mapEntry<mark style="color:red;">\*</mark>              | String |                                                                                                                                                                                                                                                                                                          |
+| key<mark style="color:red;">\*</mark>                   | String |                                                                                                                                                                                                                                                                                                          |
+| value<mark style="color:red;">\*</mark>                 | String |                                                                                                                                                                                                                                                                                                          |
 
-In assenza del codice BIC, o per gestire situazioni particolari, può essere utilizzato un altro codice, purché identifichi in modo univoco il PSP.
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="idBrokerPSP" required="true" %}
-Identificativo dell'intermediario, assegnato da PagoPA.
-
-Identificazione dell'intermediario/broker del PSP che fornisce l'accesso (canale) al PSP per l'erogazione del servizio.
-
-Nota: l'intermediario/broker può coincidere con il PSP stesso.
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="idChannel" required="true" %}
-Identificativo del canale, identifica una categoria di servizio di pagamento e attraverso la quale viene effettuata la transazione.
-
-Un identificatore di canale appartiene a un solo intermediario/broker PSP e di conseguenza deve essere univoco rispetto al PSP.
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="transactionId" required="true" %}
-Identificativo dell'operazione di pagamento.
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="totalAmount" required="true" %}
-Rappresenta la somma pagata dall'utente, comprensiva di commissione.
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="fee" required="true" %}
-Importo della commissione.
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="timestampOperation" required="true" %}
-Timestamp dell'operazione di pagamento.
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="paymentList" required="true" %}
-Lista dei pagamenti.
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="payment" required="true" %}
-
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="paymentToken" required="true" %}
-Viene generato dal sistema durante la fase di attivazione del pagamento, è l'identificatore di correlazione da abbinare all'attivazione e all'esito del pagamento.
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="paymentDescription" required="true" %}
-Testo libero per descrivere l'oggetto del pagamento.
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="fiscalCodePA" required="true" %}
-Codice fiscale dell'EC. 
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="companyName" required="true" %}
-Nome completo dell'EC.
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="officeName" %}
-Nome completo dell'ufficio dell'EC.
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="creditorReferenceId" required="true" %}
-**IUV**
-
- Identificativo Univoco Versamento.
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="debtAmount" required="true" %}
-Rappresenta la somma degli importi dei singoli transfer.
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="transferList" required="true" %}
-Struttura che contiene i dettagli dei transfer pagamento, al momento i transfer possono essere al massimo 5.
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="transfer" required="true" %}
-
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="idTransfer" required="true" %}
-Indice della lista (da 1 a 5).
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="transferAmount" required="true" %}
-Importo
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="fiscalCodePA" required="true" %}
-Codice fiscale dell'EC.
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" required="true" name="CHOICE" %}
-Choice tra IBAN e richiestaMarcaDaBollo
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="IBAN" required="false" %}
-IBAN sul quale sarà effettuato il riversamento
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="richiestaMarcaDaBollo" %}
-I dati della richiesta della marca da bollo
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="tipoBollo" %}
-Tipologia del bollo
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="hashDocumento" %}
-Impronta informatica (digest), nel formato base64, del documento informatico o della segnatura di protocollo cui è associata la marca da bollo digitale
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="provinciaResidenza" %}
-Sigla automobilistica della provincia di residenza del soggetto pagatore
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="remittanceInformation" required="true" %}
-Motivo del pagamento.
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="additionalPaymentInformations" %}
-Struttura che contiene i dati specifici del canale di pagamento utilizzato.
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="additionalPaymentList" required="true" %}
-
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="mapEntry" required="true" %}
-
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="key" required="true" %}
-
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="value" required="true" %}
-
-{% endswagger-parameter %}
-
-{% swagger-response status="200: OK" description="" %}
+{% tabs %}
+{% tab title="200: OK " %}
 {% tabs %}
 {% tab title="Request example" %}
 ```xml
@@ -2816,60 +1731,29 @@ Struttura che contiene i dati specifici del canale di pagamento utilizzato.
 * _outcome_﹡_:_ il risultato dell'operazione che può contenere i seguenti codici
   * **OK** : operazione eseguita con successo
   * **KO** : operazione terminata con errore
-* _fault_: tutti i dettagli dell'errore, da inserire obbligatoriamente in caso di _outcome_ KO [Gestione degli errori](http://localhost:5000/o/KXYtsf32WSKm6ga638R3/s/mU2qgiLV1G3m9z1VjAOc/ "mention")
+* _fault_: tutti i dettagli dell'errore, da inserire obbligatoriamente in caso di _outcome_ KO [Gestione degli errori](https://app.gitbook.com/o/KXYtsf32WSKm6ga638R3/s/mU2qgiLV1G3m9z1VjAOc/ "mention")
 {% endtab %}
 {% endtabs %}
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
-{% swagger method="post" path="" baseUrl="" summary="demandPaymentNotice" %}
-{% swagger-description %}
+## demandPaymentNotice
 
-{% endswagger-description %}
+<mark style="color:green;">`POST`</mark>&#x20;
 
-{% swagger-parameter in="body" name="idPSP" required="true" %}
-Identificativo del PSP, assegnato da PagoPA.
+#### Request Body
 
-Il codice è generalmente rappresentato dal codice BIC (Bank Identifier Code) del PSP.
+| Name                                                    | Type   | Description                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| ------------------------------------------------------- | ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| idPSP<mark style="color:red;">\*</mark>                 | String | <p>Identificativo del PSP, assegnato da PagoPA.</p><p>Il codice è generalmente rappresentato dal codice BIC (Bank Identifier Code) del PSP.</p><p>In assenza del codice BIC, o per gestire situazioni particolari, può essere utilizzato un altro codice, purché identifichi in modo univoco il PSP.</p>                                                                                                                                                |
+| idBrokerPSP<mark style="color:red;">\*</mark>           | String | <p>Identificativo dell'intermediario, assegnato da PagoPA.</p><p>Identificazione dell'intermediario/broker del PSP che fornisce l'accesso (canale) al PSP per l'erogazione del servizio.</p><p>Nota: l'intermediario/broker può coincidere con il PSP stesso.</p>                                                                                                                                                                                       |
+| idChannel<mark style="color:red;">\*</mark>             | String | <p>Identificativo del canale, identifica una categoria di servizio di pagamento e attraverso la quale viene effettuata la transazione.</p><p>Un identificatore di canale appartiene a un solo intermediario/broker PSP e di conseguenza deve essere univoco rispetto al PSP.</p>                                                                                                                                                                        |
+| password<mark style="color:red;">\*</mark>              | String | Password del canale, assegnata da PagoPA.                                                                                                                                                                                                                                                                                                                                                                                                               |
+| idSoggettoServizio<mark style="color:red;">\*</mark>    | String | Identificativo dell'associazione tra servizio e EC per cui si vuole attivare il pagamento. Corrisponde al tag elencoSoggettiEroganti.soggettoErogante.idSoggettoServizio del Catalogo dei Servizi.                                                                                                                                                                                                                                                      |
+| datiSpecificiServizio<mark style="color:red;">\*</mark> | String | <p>Sono censiti nel Catalogo dei Servizi, che è il repository che contiene l’elenco dei servizi generalizzati attivati dagli EC, inviati in formato base64. La struttura da inserire è definita dallo schema XSD il cui nome è riportato nell'elemento</p><p><em>xsdRiferimento</em></p><p>del Catalogo dei Servizi ed è consultabile tramite</p><p><a href="https://github.com/pagopa/pagopa-api">https://github.com/pagopa/pagopa-api</a></p><p>.</p> |
 
-In assenza del codice BIC, o per gestire situazioni particolari, può essere utilizzato un altro codice, purché identifichi in modo univoco il PSP.
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="idBrokerPSP" required="true" %}
-Identificativo dell'intermediario, assegnato da PagoPA.
-
-Identificazione dell'intermediario/broker del PSP che fornisce l'accesso (canale) al PSP per l'erogazione del servizio.
-
-Nota: l'intermediario/broker può coincidere con il PSP stesso.
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="idChannel" required="true" %}
-Identificativo del canale, identifica una categoria di servizio di pagamento e attraverso la quale viene effettuata la transazione.
-
-Un identificatore di canale appartiene a un solo intermediario/broker PSP e di conseguenza deve essere univoco rispetto al PSP.
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="password" required="true" %}
-Password del canale, assegnata da PagoPA.
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="idSoggettoServizio" required="true" %}
-Identificativo dell'associazione tra servizio e EC per cui si vuole attivare il pagamento. Corrisponde al tag elencoSoggettiEroganti.soggettoErogante.idSoggettoServizio del Catalogo dei Servizi.
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="datiSpecificiServizio" required="true" %}
-Sono censiti nel Catalogo dei Servizi, che è il repository che contiene l’elenco dei servizi generalizzati attivati dagli EC, inviati in formato base64. La struttura da inserire è definita dallo schema XSD il cui nome è riportato nell'elemento 
-
-_xsdRiferimento_
-
- del Catalogo dei Servizi ed è consultabile tramite 
-
-[https://github.com/pagopa/pagopa-api](https://github.com/pagopa/pagopa-api)
-
- .
-{% endswagger-parameter %}
-
-{% swagger-response status="200: OK" description="" %}
+{% tabs %}
+{% tab title="200: OK " %}
 {% tabs %}
 {% tab title="Request example" %}
 ```xml
@@ -2919,7 +1803,7 @@ _xsdRiferimento_
 * _outcome_﹡_:_ il risultato dell'operazione che può contenere i seguenti codici
   * **OK** : operazione eseguita con successo
   * **KO** : operazione terminata con errore
-* _fault_: tutti i dettagli dell'errore, dato valorizzato solo in caso di _outcome_ KO [Gestione degli errori](http://localhost:5000/o/KXYtsf32WSKm6ga638R3/s/mU2qgiLV1G3m9z1VjAOc/ "mention")
+* _fault_: tutti i dettagli dell'errore, dato valorizzato solo in caso di _outcome_ KO [Gestione degli errori](https://app.gitbook.com/o/KXYtsf32WSKm6ga638R3/s/mU2qgiLV1G3m9z1VjAOc/ "mention")
 * qrCode: è composto da fiscalCode e noticeNumber, dato valorizzato solo in caso di _outcome_ OK
   * fiscalCode: codice fiscale dell'EC
   * noticeNumber: \[auxDigit]\[segregationCode]\[IUVBase]\[IUVCheckDigit]
@@ -2935,35 +1819,25 @@ _xsdRiferimento_
 * officeName: nome completo dell'ufficio dell'EC
 {% endtab %}
 {% endtabs %}
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
-{% swagger method="post" path="" baseUrl="" summary="paDemandPaymentNotice" %}
-{% swagger-description %}
+## paDemandPaymentNotice
 
-{% endswagger-description %}
+<mark style="color:green;">`POST`</mark>&#x20;
 
-{% swagger-parameter in="body" name="idPA" required="true" %}
-Codice fiscale della struttura che invia la richiesta di pagamento.
-{% endswagger-parameter %}
+#### Request Body
 
-{% swagger-parameter in="body" name="idBrokerPA" required="true" %}
-Identificativo del soggetto che opera come intermediario per l'EC.
-{% endswagger-parameter %}
+| Name                                                    | Type   | Description                                                                                                                                              |
+| ------------------------------------------------------- | ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| idPA<mark style="color:red;">\*</mark>                  | String | Codice fiscale della struttura che invia la richiesta di pagamento.                                                                                      |
+| idBrokerPA<mark style="color:red;">\*</mark>            | String | Identificativo del soggetto che opera come intermediario per l'EC.                                                                                       |
+| idStation<mark style="color:red;">\*</mark>             | String | Identificativo della stazione dell'EC nel sistema pagoPa.                                                                                                |
+| idServizio<mark style="color:red;">\*</mark>            | String | Identificativo del servizio per cui si vuole attivare il pagamento.                                                                                      |
+| datiSpecificiServizio<mark style="color:red;">\*</mark> | String | Sono censiti nel Catalogo dei Servizi, che è il repository che contiene l’elenco dei servizi generalizzati attivati dagli EC, inviati in formato base64. |
 
-{% swagger-parameter in="body" name="idStation" required="true" %}
-Identificativo della stazione dell'EC nel sistema pagoPa.
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="idServizio" required="true" %}
-Identificativo del servizio per cui si vuole attivare il pagamento.
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="datiSpecificiServizio" required="true" %}
-Sono censiti nel Catalogo dei Servizi, che è il repository che contiene l’elenco dei servizi generalizzati attivati dagli EC, inviati in formato base64.
-{% endswagger-parameter %}
-
-{% swagger-response status="200: OK" description="" %}
+{% tabs %}
+{% tab title="200: OK " %}
 {% tabs %}
 {% tab title="Request example" %}
 ```xml
@@ -3011,7 +1885,7 @@ Sono censiti nel Catalogo dei Servizi, che è il repository che contiene l’ele
 * _outcome_﹡_:_ il risultato dell'operazione che può contenere i seguenti codici
   * **OK** : operazione eseguita con successo
   * **KO** : operazione terminata con errore
-* _fault_: tutti i dettagli dell'errore, dato valorizzato solo in caso di _outcome_ KO [Gestione degli errori](http://localhost:5000/o/KXYtsf32WSKm6ga638R3/s/mU2qgiLV1G3m9z1VjAOc/ "mention")
+* _fault_: tutti i dettagli dell'errore, dato valorizzato solo in caso di _outcome_ KO [Gestione degli errori](https://app.gitbook.com/o/KXYtsf32WSKm6ga638R3/s/mU2qgiLV1G3m9z1VjAOc/ "mention")
 * qrCode: è composto da fiscalCode e noticeNumber, dato valorizzato solo in caso di _outcome_ OK
   * fiscalCode: codice fiscale dell'EC
   * noticeNumber: \[auxDigit]\[segregationCode]\[IUVBase]\[IUVCheckDigit]
@@ -3027,57 +1901,28 @@ Sono censiti nel Catalogo dei Servizi, che è il repository che contiene l’ele
 * officeName: nome completo dell'ufficio dell'EC
 {% endtab %}
 {% endtabs %}
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
-{% swagger method="post" path="" baseUrl="" summary="nodoInviaFlussoRendicontazione" %}
-{% swagger-description %}
+## nodoInviaFlussoRendicontazione
 
-{% endswagger-description %}
+<mark style="color:green;">`POST`</mark>&#x20;
 
-{% swagger-parameter in="body" name="identificativoPSP" required="true" %}
-Identificativo del PSP, assegnato da PagoPA.
+#### Request Body
 
-Il codice è generalmente rappresentato dal codice BIC (Bank Identifier Code) del PSP.
+| Name                                                             | Type   | Description                                                                                                                                                                                                                                                                                              |
+| ---------------------------------------------------------------- | ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| identificativoPSP<mark style="color:red;">\*</mark>              | String | <p>Identificativo del PSP, assegnato da PagoPA.</p><p>Il codice è generalmente rappresentato dal codice BIC (Bank Identifier Code) del PSP.</p><p>In assenza del codice BIC, o per gestire situazioni particolari, può essere utilizzato un altro codice, purché identifichi in modo univoco il PSP.</p> |
+| identificativoIntermediarioPSP<mark style="color:red;">\*</mark> | String | <p>Identificativo dell'intermediario, assegnato da PagoPA.</p><p>Identificazione dell'intermediario/broker del PSP che fornisce l'accesso (canale) al PSP per l'erogazione del servizio.</p><p>Nota: l'intermediario/broker può coincidere con il PSP stesso.</p>                                        |
+| identificativoCanale<mark style="color:red;">\*</mark>           | String | <p>Identificativo del canale, identifica una categoria di servizio di pagamento e attraverso la quale viene effettuata la transazione.</p><p>Un identificatore di canale appartiene a un solo intermediario/broker PSP e di conseguenza deve essere univoco rispetto al PSP.</p>                         |
+| password<mark style="color:red;">\*</mark>                       | String | Password del canale, assegnata da PagoPA.                                                                                                                                                                                                                                                                |
+| identificativoDominio<mark style="color:red;">\*</mark>          | String | Codice fiscale dell'EC.                                                                                                                                                                                                                                                                                  |
+| identificativoFlusso<mark style="color:red;">\*</mark>           | String | Identificativo del Flusso di Rendicontazione.                                                                                                                                                                                                                                                            |
+| dataOraFlusso<mark style="color:red;">\*</mark>                  | String | Data e ora del Flusso di Rendicontazione.                                                                                                                                                                                                                                                                |
+| xmlRendicontazione<mark style="color:red;">\*</mark>             | String | Contenuto del Flusso di riversamento in formato base64.                                                                                                                                                                                                                                                  |
 
-In assenza del codice BIC, o per gestire situazioni particolari, può essere utilizzato un altro codice, purché identifichi in modo univoco il PSP.
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="identificativoIntermediarioPSP" required="true" %}
-Identificativo dell'intermediario, assegnato da PagoPA.
-
-Identificazione dell'intermediario/broker del PSP che fornisce l'accesso (canale) al PSP per l'erogazione del servizio.
-
-Nota: l'intermediario/broker può coincidere con il PSP stesso.
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="identificativoCanale" required="true" %}
-Identificativo del canale, identifica una categoria di servizio di pagamento e attraverso la quale viene effettuata la transazione.
-
-Un identificatore di canale appartiene a un solo intermediario/broker PSP e di conseguenza deve essere univoco rispetto al PSP.
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="password" required="true" %}
-Password del canale, assegnata da PagoPA.
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="identificativoDominio" required="true" %}
-Codice fiscale dell'EC. 
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="identificativoFlusso" required="true" %}
-Identificativo del Flusso di Rendicontazione.
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="dataOraFlusso" required="true" %}
-Data e ora del Flusso di Rendicontazione.
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="xmlRendicontazione" required="true" %}
-Contenuto del Flusso di riversamento in formato base64.
-{% endswagger-parameter %}
-
-{% swagger-response status="200: OK" description="" %}
+{% tabs %}
+{% tab title="200: OK " %}
 {% tabs %}
 {% tab title="Request example" %}
 ```xml
@@ -3114,42 +1959,28 @@ Contenuto del Flusso di riversamento in formato base64.
 * _esito_﹡_:_ il risultato dell'operazione che può contenere i seguenti codici
   * **OK** : operazione eseguita con successo
   * **KO** : operazione terminata con errore
-* _fault_: tutti i dettagli dell'errore, dato valorizzato solo in caso di _esito_ KO [Gestione degli errori](http://localhost:5000/o/KXYtsf32WSKm6ga638R3/s/mU2qgiLV1G3m9z1VjAOc/ "mention")
+* _fault_: tutti i dettagli dell'errore, dato valorizzato solo in caso di _esito_ KO [Gestione degli errori](https://app.gitbook.com/o/KXYtsf32WSKm6ga638R3/s/mU2qgiLV1G3m9z1VjAOc/ "mention")
 {% endtab %}
 {% endtabs %}
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
-{% swagger method="post" path="" baseUrl="" summary="nodoChiediElencoFlussiRendicontazione" %}
-{% swagger-description %}
+## nodoChiediElencoFlussiRendicontazione
 
-{% endswagger-description %}
+<mark style="color:green;">`POST`</mark>&#x20;
 
-{% swagger-parameter in="body" name="identificativoIntermediarioPA" required="true" %}
-Identificativo del soggetto che opera come intermediario per l'EC.
-{% endswagger-parameter %}
+#### Request Body
 
-{% swagger-parameter in="body" name="identificativoStazioneIntermediarioPA" required="true" %}
-Identificativo della stazione dell'EC nel sistema pagoPa.
-{% endswagger-parameter %}
+| Name                                                                    | Type   | Description                                                                                                                                                                                                                                                                                              |
+| ----------------------------------------------------------------------- | ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| identificativoIntermediarioPA<mark style="color:red;">\*</mark>         | String | Identificativo del soggetto che opera come intermediario per l'EC.                                                                                                                                                                                                                                       |
+| identificativoStazioneIntermediarioPA<mark style="color:red;">\*</mark> | String | Identificativo della stazione dell'EC nel sistema pagoPa.                                                                                                                                                                                                                                                |
+| password<mark style="color:red;">\*</mark>                              | String | Password della stazione, assegnata da PagoPA.                                                                                                                                                                                                                                                            |
+| identificativoDominio<mark style="color:red;">\*</mark>                 | String | Codice fiscale dell'EC.                                                                                                                                                                                                                                                                                  |
+| identificativoPSP<mark style="color:red;">\*</mark>                     | String | <p>Identificativo del PSP, assegnato da PagoPA.</p><p>Il codice è generalmente rappresentato dal codice BIC (Bank Identifier Code) del PSP.</p><p>In assenza del codice BIC, o per gestire situazioni particolari, può essere utilizzato un altro codice, purché identifichi in modo univoco il PSP.</p> |
 
-{% swagger-parameter in="body" name="password" required="true" %}
-Password della stazione, assegnata da PagoPA.
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="identificativoDominio" required="true" %}
-Codice fiscale dell'EC. 
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="identificativoPSP" required="true" %}
-Identificativo del PSP, assegnato da PagoPA.
-
-Il codice è generalmente rappresentato dal codice BIC (Bank Identifier Code) del PSP.
-
-In assenza del codice BIC, o per gestire situazioni particolari, può essere utilizzato un altro codice, purché identifichi in modo univoco il PSP.
-{% endswagger-parameter %}
-
-{% swagger-response status="200: OK" description="" %}
+{% tabs %}
+{% tab title="200: OK " %}
 {% tabs %}
 {% tab title="Request example" %}
 ```xml
@@ -3190,7 +2021,7 @@ In assenza del codice BIC, o per gestire situazioni particolari, può essere uti
 * _esito_﹡_:_ il risultato dell'operazione che può contenere i seguenti codici
   * **OK** : operazione eseguita con successo
   * **KO** : operazione terminata con errore
-* _fault_: tutti i dettagli dell'errore, dato valorizzato solo in caso di _esito_ KO [Gestione degli errori](http://localhost:5000/o/KXYtsf32WSKm6ga638R3/s/mU2qgiLV1G3m9z1VjAOc/ "mention")
+* _fault_: tutti i dettagli dell'errore, dato valorizzato solo in caso di _esito_ KO [Gestione degli errori](https://app.gitbook.com/o/KXYtsf32WSKm6ga638R3/s/mU2qgiLV1G3m9z1VjAOc/ "mention")
 * elencoFlussiRendicontazione: elenco dei flussi di riversamento, dato valorizzato solo in caso di _esito_ OK
   * totRestituiti: numero dei flussi presenti nell'elenco
   * idRendicontazione
@@ -3198,43 +2029,26 @@ In assenza del codice BIC, o per gestire situazioni particolari, può essere uti
     * dataOraFlusso: data e ora del Flusso di Rendicontazione
 {% endtab %}
 {% endtabs %}
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
-{% swagger method="post" path="" baseUrl="" summary="nodoChiediFlussoRendicontazione" %}
-{% swagger-description %}
+## nodoChiediFlussoRendicontazione
 
-{% endswagger-description %}
+<mark style="color:green;">`POST`</mark>&#x20;
 
-{% swagger-parameter in="body" name="identificativoIntermediarioPA" required="true" %}
-Identificativo del soggetto che opera come intermediario per l'EC.
-{% endswagger-parameter %}
+#### Request Body
 
-{% swagger-parameter in="body" name="identificativoStazioneIntermediarioPA" required="true" %}
-Identificativo della stazione dell'EC nel sistema pagoPa.
-{% endswagger-parameter %}
+| Name                                                                    | Type   | Description                                                                                                                                                                                                                                                                                              |
+| ----------------------------------------------------------------------- | ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| identificativoIntermediarioPA<mark style="color:red;">\*</mark>         | String | Identificativo del soggetto che opera come intermediario per l'EC.                                                                                                                                                                                                                                       |
+| identificativoStazioneIntermediarioPA<mark style="color:red;">\*</mark> | String | Identificativo della stazione dell'EC nel sistema pagoPa.                                                                                                                                                                                                                                                |
+| password<mark style="color:red;">\*</mark>                              | String | Password della stazione, assegnata da PagoPA.                                                                                                                                                                                                                                                            |
+| identificativoDominio<mark style="color:red;">\*</mark>                 | String | Codice fiscale dell'EC.                                                                                                                                                                                                                                                                                  |
+| identificativoPSP<mark style="color:red;">\*</mark>                     | String | <p>Identificativo del PSP, assegnato da PagoPA.</p><p>Il codice è generalmente rappresentato dal codice BIC (Bank Identifier Code) del PSP.</p><p>In assenza del codice BIC, o per gestire situazioni particolari, può essere utilizzato un altro codice, purché identifichi in modo univoco il PSP.</p> |
+| identificativoFlusso<mark style="color:red;">\*</mark>                  | String | Identificativo del Flusso di Rendicontazione.                                                                                                                                                                                                                                                            |
 
-{% swagger-parameter in="body" name="password" required="true" %}
-Password della stazione, assegnata da PagoPA.
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="identificativoDominio" required="true" %}
-Codice fiscale dell'EC. 
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="identificativoPSP" required="true" %}
-Identificativo del PSP, assegnato da PagoPA.
-
-Il codice è generalmente rappresentato dal codice BIC (Bank Identifier Code) del PSP.
-
-In assenza del codice BIC, o per gestire situazioni particolari, può essere utilizzato un altro codice, purché identifichi in modo univoco il PSP.
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="identificativoFlusso" required="true" %}
-Identificativo del Flusso di Rendicontazione.
-{% endswagger-parameter %}
-
-{% swagger-response status="200: OK" description="" %}
+{% tabs %}
+{% tab title="200: OK " %}
 {% tabs %}
 {% tab title="Request example" %}
 ```xml
@@ -3270,49 +2084,29 @@ Identificativo del Flusso di Rendicontazione.
 * _esito_﹡_:_ il risultato dell'operazione che può contenere i seguenti codici
   * **OK** : operazione eseguita con successo
   * **KO** : operazione terminata con errore
-* _fault_: tutti i dettagli dell'errore, dato valorizzato solo in caso di _esito_ KO [Gestione degli errori](http://localhost:5000/o/KXYtsf32WSKm6ga638R3/s/mU2qgiLV1G3m9z1VjAOc/ "mention")
+* _fault_: tutti i dettagli dell'errore, dato valorizzato solo in caso di _esito_ KO [Gestione degli errori](https://app.gitbook.com/o/KXYtsf32WSKm6ga638R3/s/mU2qgiLV1G3m9z1VjAOc/ "mention")
 * xmlRendicontazione: contenuto del flusso di riversamento in formato base64, dato valorizzato solo in caso di _esito_ OK
 {% endtab %}
 {% endtabs %}
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
-{% swagger method="post" path="" baseUrl="" summary="nodoChiediInformativaPA" %}
-{% swagger-description %}
+## nodoChiediInformativaPA
 
-{% endswagger-description %}
+<mark style="color:green;">`POST`</mark>&#x20;
 
-{% swagger-parameter in="body" name="identificativoPSP" required="true" %}
-Identificativo del PSP, assegnato da PagoPA.
+#### Request Body
 
-Il codice è generalmente rappresentato dal codice BIC (Bank Identifier Code) del PSP.
+| Name                                                             | Type   | Description                                                                                                                                                                                                                                                                                              |
+| ---------------------------------------------------------------- | ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| identificativoPSP<mark style="color:red;">\*</mark>              | String | <p>Identificativo del PSP, assegnato da PagoPA.</p><p>Il codice è generalmente rappresentato dal codice BIC (Bank Identifier Code) del PSP.</p><p>In assenza del codice BIC, o per gestire situazioni particolari, può essere utilizzato un altro codice, purché identifichi in modo univoco il PSP.</p> |
+| identificativoIntermediarioPSP<mark style="color:red;">\*</mark> | String | <p>Identificativo dell'intermediario, assegnato da PagoPA.</p><p>Identificazione dell'intermediario/broker del PSP che fornisce l'accesso (canale) al PSP per l'erogazione del servizio.</p><p>Nota: l'intermediario/broker può coincidere con il PSP stesso.</p>                                        |
+| identificativoCanale<mark style="color:red;">\*</mark>           | String | <p>Identificativo del canale, identifica una categoria di servizio di pagamento e attraverso la quale viene effettuata la transazione.</p><p>Un identificatore di canale appartiene a un solo intermediario/broker PSP e di conseguenza deve essere univoco rispetto al PSP.</p>                         |
+| password<mark style="color:red;">\*</mark>                       | String | Password del canale, assegnata da PagoPA.                                                                                                                                                                                                                                                                |
+| identificativoDominio<mark style="color:red;">\*</mark>          | String | Codice fiscale dell'EC.                                                                                                                                                                                                                                                                                  |
 
-In assenza del codice BIC, o per gestire situazioni particolari, può essere utilizzato un altro codice, purché identifichi in modo univoco il PSP.
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="identificativoIntermediarioPSP" required="true" %}
-Identificativo dell'intermediario, assegnato da PagoPA.
-
-Identificazione dell'intermediario/broker del PSP che fornisce l'accesso (canale) al PSP per l'erogazione del servizio.
-
-Nota: l'intermediario/broker può coincidere con il PSP stesso.
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="identificativoCanale" required="true" %}
-Identificativo del canale, identifica una categoria di servizio di pagamento e attraverso la quale viene effettuata la transazione.
-
-Un identificatore di canale appartiene a un solo intermediario/broker PSP e di conseguenza deve essere univoco rispetto al PSP.
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="password" required="true" %}
-Password del canale, assegnata da PagoPA.
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="identificativoDominio" required="true" %}
-Codice fiscale dell'EC. 
-{% endswagger-parameter %}
-
-{% swagger-response status="200: OK" description="" %}
+{% tabs %}
+{% tab title="200: OK " %}
 {% tabs %}
 {% tab title="Request example" %}
 ```xml
@@ -3347,57 +2141,31 @@ Codice fiscale dell'EC.
 * _esito_﹡_:_ il risultato dell'operazione che può contenere i seguenti codici
   * **OK** : operazione eseguita con successo
   * **KO** : operazione terminata con errore
-* _fault_: tutti i dettagli dell'errore, dato valorizzato solo in caso di _esito_ KO [Gestione degli errori](http://localhost:5000/o/KXYtsf32WSKm6ga638R3/s/mU2qgiLV1G3m9z1VjAOc/ "mention")
+* _fault_: tutti i dettagli dell'errore, dato valorizzato solo in caso di _esito_ KO [Gestione degli errori](https://app.gitbook.com/o/KXYtsf32WSKm6ga638R3/s/mU2qgiLV1G3m9z1VjAOc/ "mention")
 * xmlInformativa: contenuto dell'informativa in formato base64, dato valorizzato solo in caso di _esito_ OK
 {% endtab %}
 {% endtabs %}
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
-{% swagger method="post" path="" baseUrl="" summary="nodoChiediCatalogoServizi versione 2" %}
-{% swagger-description %}
+## nodoChiediCatalogoServizi versione 2
 
-{% endswagger-description %}
+<mark style="color:green;">`POST`</mark>&#x20;
 
-{% swagger-parameter in="body" name="identificativoPSP" required="true" %}
-Identificativo del PSP, assegnato da PagoPA.
+#### Request Body
 
-Il codice è generalmente rappresentato dal codice BIC (Bank Identifier Code) del PSP.
+| Name                                                             | Type   | Description                                                                                                                                                                                                                                                                                              |
+| ---------------------------------------------------------------- | ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| identificativoPSP<mark style="color:red;">\*</mark>              | String | <p>Identificativo del PSP, assegnato da PagoPA.</p><p>Il codice è generalmente rappresentato dal codice BIC (Bank Identifier Code) del PSP.</p><p>In assenza del codice BIC, o per gestire situazioni particolari, può essere utilizzato un altro codice, purché identifichi in modo univoco il PSP.</p> |
+| identificativoIntermediarioPSP<mark style="color:red;">\*</mark> | String | <p>Identificativo dell'intermediario, assegnato da PagoPA.</p><p>Identificazione dell'intermediario/broker del PSP che fornisce l'accesso (canale) al PSP per l'erogazione del servizio.</p><p>Nota: l'intermediario/broker può coincidere con il PSP stesso.</p>                                        |
+| identificativoCanale<mark style="color:red;">\*</mark>           | String | <p>Identificativo del canale, identifica una categoria di servizio di pagamento e attraverso la quale viene effettuata la transazione.</p><p>Un identificatore di canale appartiene a un solo intermediario/broker PSP e di conseguenza deve essere univoco rispetto al PSP.</p>                         |
+| password<mark style="color:red;">\*</mark>                       | String | Password del canale, assegnata da PagoPA.                                                                                                                                                                                                                                                                |
+| identificativoDominio                                            | String | Codice fiscale dell'EC.                                                                                                                                                                                                                                                                                  |
+| categoria                                                        | String | Filtro in base alla categoria dei servizi.                                                                                                                                                                                                                                                               |
+| commissione                                                      | String | Filtro in base al consiglio di applicare o meno le commissioni inserite dall'EC che ha creato il servizio.                                                                                                                                                                                               |
 
-In assenza del codice BIC, o per gestire situazioni particolari, può essere utilizzato un altro codice, purché identifichi in modo univoco il PSP.
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="identificativoIntermediarioPSP" required="true" %}
-Identificativo dell'intermediario, assegnato da PagoPA.
-
-Identificazione dell'intermediario/broker del PSP che fornisce l'accesso (canale) al PSP per l'erogazione del servizio.
-
-Nota: l'intermediario/broker può coincidere con il PSP stesso.
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="identificativoCanale" required="true" %}
-Identificativo del canale, identifica una categoria di servizio di pagamento e attraverso la quale viene effettuata la transazione.
-
-Un identificatore di canale appartiene a un solo intermediario/broker PSP e di conseguenza deve essere univoco rispetto al PSP.
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="password" required="true" %}
-Password del canale, assegnata da PagoPA.
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="identificativoDominio" required="false" %}
-Codice fiscale dell'EC. 
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="categoria" %}
-Filtro in base alla categoria dei servizi.
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="commissione" %}
-Filtro in base al consiglio di applicare o meno le commissioni inserite dall'EC che ha creato il servizio.
-{% endswagger-parameter %}
-
-{% swagger-response status="200: OK" description="" %}
+{% tabs %}
+{% tab title="200: OK " %}
 {% tabs %}
 {% tab title="Request example" %}
 ```xml
@@ -3434,45 +2202,28 @@ Filtro in base al consiglio di applicare o meno le commissioni inserite dall'EC 
 * _esito_﹡_:_ il risultato dell'operazione che può contenere i seguenti codici
   * **OK** : operazione eseguita con successo
   * **KO** : operazione terminata con errore
-* _fault_: tutti i dettagli dell'errore, dato valorizzato solo in caso di _esito_ KO [Gestione degli errori](http://localhost:5000/o/KXYtsf32WSKm6ga638R3/s/mU2qgiLV1G3m9z1VjAOc/ "mention")
+* _fault_: tutti i dettagli dell'errore, dato valorizzato solo in caso di _esito_ KO [Gestione degli errori](https://app.gitbook.com/o/KXYtsf32WSKm6ga638R3/s/mU2qgiLV1G3m9z1VjAOc/ "mention")
 * xmlCatalogoServizi: contenuto del catalogo dei servizi in formato base64, dato valorizzato solo in caso di _esito_ OK
 {% endtab %}
 {% endtabs %}
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
-{% swagger method="post" path="" baseUrl="" summary="nodoChiediTemplateInformativaPSP" %}
-{% swagger-description %}
+## nodoChiediTemplateInformativaPSP
 
-{% endswagger-description %}
+<mark style="color:green;">`POST`</mark>&#x20;
 
-{% swagger-parameter in="body" name="identificativoPSP" required="true" %}
-Identificativo del PSP, assegnato da PagoPA.
+#### Request Body
 
-Il codice è generalmente rappresentato dal codice BIC (Bank Identifier Code) del PSP.
+| Name                                                             | Type   | Description                                                                                                                                                                                                                                                                                              |
+| ---------------------------------------------------------------- | ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| identificativoPSP<mark style="color:red;">\*</mark>              | String | <p>Identificativo del PSP, assegnato da PagoPA.</p><p>Il codice è generalmente rappresentato dal codice BIC (Bank Identifier Code) del PSP.</p><p>In assenza del codice BIC, o per gestire situazioni particolari, può essere utilizzato un altro codice, purché identifichi in modo univoco il PSP.</p> |
+| identificativoIntermediarioPSP<mark style="color:red;">\*</mark> | String | <p>Identificativo dell'intermediario, assegnato da PagoPA.</p><p>Identificazione dell'intermediario/broker del PSP che fornisce l'accesso (canale) al PSP per l'erogazione del servizio.</p><p>Nota: l'intermediario/broker può coincidere con il PSP stesso.</p>                                        |
+| identificativoCanale<mark style="color:red;">\*</mark>           | String | <p>Identificativo del canale, identifica una categoria di servizio di pagamento e attraverso la quale viene effettuata la transazione.</p><p>Un identificatore di canale appartiene a un solo intermediario/broker PSP e di conseguenza deve essere univoco rispetto al PSP.</p>                         |
+| password<mark style="color:red;">\*</mark>                       | String | Password del canale, assegnata da PagoPA.                                                                                                                                                                                                                                                                |
 
-In assenza del codice BIC, o per gestire situazioni particolari, può essere utilizzato un altro codice, purché identifichi in modo univoco il PSP.
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="identificativoIntermediarioPSP" required="true" %}
-Identificativo dell'intermediario, assegnato da PagoPA.
-
-Identificazione dell'intermediario/broker del PSP che fornisce l'accesso (canale) al PSP per l'erogazione del servizio.
-
-Nota: l'intermediario/broker può coincidere con il PSP stesso.
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="identificativoCanale" required="true" %}
-Identificativo del canale, identifica una categoria di servizio di pagamento e attraverso la quale viene effettuata la transazione.
-
-Un identificatore di canale appartiene a un solo intermediario/broker PSP e di conseguenza deve essere univoco rispetto al PSP.
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="password" required="true" %}
-Password del canale, assegnata da PagoPA.
-{% endswagger-parameter %}
-
-{% swagger-response status="200: OK" description="" %}
+{% tabs %}
+{% tab title="200: OK " %}
 {% tabs %}
 {% tab title="Request example" %}
 ```xml
@@ -3506,23 +2257,21 @@ Password del canale, assegnata da PagoPA.
 * _esito_﹡_:_ il risultato dell'operazione che può contenere i seguenti codici
   * **OK** : operazione eseguita con successo
   * **KO** : operazione terminata con errore
-* _fault_: tutti i dettagli dell'errore, dato valorizzato solo in caso di _esito_ KO [Gestione degli errori](http://localhost:5000/o/KXYtsf32WSKm6ga638R3/s/mU2qgiLV1G3m9z1VjAOc/ "mention")
+* _fault_: tutti i dettagli dell'errore, dato valorizzato solo in caso di _esito_ KO [Gestione degli errori](https://app.gitbook.com/o/KXYtsf32WSKm6ga638R3/s/mU2qgiLV1G3m9z1VjAOc/ "mention")
 * xmlTemplateInformativa: template dell'informativa in formato base64, dato valorizzato solo in caso di _esito_ OK
-
-
 {% endtab %}
 {% endtabs %}
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
 ## EC Checkout API
 
-{% swagger src="https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.3.0/openapi/checkout.yaml" path="/carts" method="post" %}
+{% openapi src="https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.3.0/openapi/checkout.yaml" path="/carts" method="post" %}
 [https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.3.0/openapi/checkout.yaml](https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.3.0/openapi/checkout.yaml)
-{% endswagger %}
+{% endopenapi %}
 
 ## getOrganizationReceipt
 
-{% swagger src="../.gitbook/assets/bizEvents.yaml" path="/organizations/{organizationfiscalcode}/receipts/{iur}/paymentoptions/{iuv}" method="get" %}
-[bizEvents.yaml](../.gitbook/assets/bizEvents.yaml)
-{% endswagger %}
+{% openapi src="../../pago-pa/sanp/3.3.0/.gitbook/assets/bizEvents.yaml" path="/organizations/{organizationfiscalcode}/receipts/{iur}/paymentoptions/{iuv}" method="get" %}
+[bizEvents.yaml](../../pago-pa/sanp/3.3.0/.gitbook/assets/bizEvents.yaml)
+{% endopenapi %}

@@ -8,7 +8,7 @@ L’attuale workflow di pagamento presso i PSP si prefigge di gestire, ove possi
 * disponibilità delle informazioni essenziali per procedere all’incasso;
 * possibilità di pagamenti concorrenti.
 
-![](<../.gitbook/assets/nuovoModello3\_ENG (2).png>)
+![](../../pago-pa/sanp/3.3.0/.gitbook/assets/nuovoModello3_ENG.png)
 
 * La [verifyPaymentNotice](../appendici/primitive.md#verifypaymentnotice) è un servizio **OPZIONALE** che non modifica lo stato della posizione debitoria, utilizzabile dai PSP che avviano il pagamento per mezzo del QR code presente nell'avviso analogico o con l’immissione manuale dei dati;
 * la [verificaBollettino](../appendici/primitive.md#verificabollettino) è un servizio **OPZIONALE** che non modifica lo stato della posizione debitoria, è utilizzabile esclusivamente dal PSP Poste Italiane che avvia il pagamento per mezzo del Data Matrix presente nell'avviso analogico, e non per mezzo del QR Code;
@@ -19,4 +19,4 @@ L’attuale workflow di pagamento presso i PSP si prefigge di gestire, ove possi
 * tramite la primitiva [paSendRT](../appendici/primitive.md#pasendrt) viene inoltrata agli _n_ EC interessati al pagamento la _receipt_ (ricevuta) solo se il pagamento è stato effettuato, la _receipt_ è un oggetto generato dalla piattaforma pagoPA;
 * quando l'EC riceve la _receipt_ deve chiudere la posizione debitoria e considerarla interamente saldata.
 
-Per la gestione degli errori fare riferimento a [Gestione degli errori](http://localhost:5000/o/KXYtsf32WSKm6ga638R3/s/mU2qgiLV1G3m9z1VjAOc/ "mention").
+Per la gestione degli errori fare riferimento a [Gestione degli errori](https://app.gitbook.com/o/KXYtsf32WSKm6ga638R3/s/mU2qgiLV1G3m9z1VjAOc/ "mention").
