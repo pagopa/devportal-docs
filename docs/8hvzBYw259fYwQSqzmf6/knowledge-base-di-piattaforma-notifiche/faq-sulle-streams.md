@@ -12,15 +12,15 @@ Le pagine Swagger sono esclusivamente ad uso di documentazione e non sono config
 
 ### Cosa devo fare se ricevo **{"message": "Unauthorized"}**?
 
-Il messaggio indica che non sono disponibili le credenziali per utilizzare i servizi di PN o che non è stata completata l'integrazione con **PDND Interoperabilità**. \
+Il messaggio indica che non sono disponibili le credenziali per utilizzare i servizi di PN o che non è stata completata l'integrazione con **PDND Interoperabilità**.\
 Se non è stato già fatto, è necessario intraprendere il processo di accreditamento, contattando l'indirizzo preposto: [account@pagopa.it](mailto:account@pagopa.it)\
 Se è stato già completato il processo di accreditamento, assicurarsi che si stia utilizzando correttamente l'API Key ed il Voucher.
 
 ### Se creo uno stream senza filtri ad esempio
 
-**`{ "title": "NoFilteredStream",`** \
-&#x20;  **`"eventType": "STATUS",`** \
-&#x20;  **`"filterValues": [] }`**                                                                                               &#x20;
+**`{ "title": "NoFilteredStream",`**\
+&#xNAN;**`"eventType": "STATUS",`**\
+&#xNAN;**`"filterValues": [] }`**
 
 ### questo raccoglierà tutti i cambi di stato avvenuti nel tempo?
 
@@ -76,9 +76,9 @@ Quando sono presenti destinatari multipli, ogni evento di timeline sarà specifi
 
 ### In caso di destinatario multiplo, ricevo un'attestazione opponibile per ogni destinatario?
 
-Ogni Attestazione Opponibile viene generata una volta per ogni destinatario, ad eccezione di quella della presa in carico della notifica poiché anche se con più destinatari la notifica è considerata singolarmente. \
+Ogni Attestazione Opponibile viene generata una volta per ogni destinatario, ad eccezione di quella della presa in carico della notifica poiché anche se con più destinatari la notifica è considerata singolarmente.\
 La Piattaforma espone anche delle attestazioni prodotte da sistemi esterni, quali ricevute xml dell’esito relativo all’invio PEC o le ricevuta delle raccomandate; in questo caso possono essere generati più documenti per ogni destinatario, a seconda delle evidenze prodotte dai sistemi esterni.
 
 ### Come sono ordinati gli eventi ottenuti dagli streams?
 
-Gli streams contengono eventi che sono ordinati in base all'**eventId;** tuttavia alcuni eventi potrebbero avere un timestamp non coerente con l'ordine degli **eventId.** Questa situazione si verifica nei casi in cui il timestamp è stato attribuito da un sistema esterno a Piattaforma Notifiche, come avviene negli eventi di _SEND\_DIGITAL\_PROGRESS_ che ricevono il timestamp dai PEC provider. &#x20;
+Gli streams contengono eventi che sono ordinati in base all'**eventId;** tuttavia alcuni eventi potrebbero avere un timestamp non coerente con l'ordine degli **eventId.** Questa situazione si verifica nei casi in cui il timestamp è stato attribuito da un sistema esterno a Piattaforma Notifiche, come avviene negli eventi di _SEND\_DIGITAL\_PROGRESS_ che ricevono il timestamp dai PEC provider.

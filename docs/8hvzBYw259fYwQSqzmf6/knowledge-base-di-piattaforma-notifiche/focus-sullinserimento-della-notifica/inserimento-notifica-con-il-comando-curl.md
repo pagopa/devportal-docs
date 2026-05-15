@@ -27,7 +27,7 @@ cat Pagamento.pdf | openssl dgst -binary -sha256 | openssl base64
 L'output ottenuto per ogni file dovrà essere memorizzato per i futuri utilizzi\
 **NOTA:** i file Notifica.pdf e Pagamento.pdf dovranno essere sostituiti con i file corrispondenti ai pdf che si vuole caricare su Piattaforma Notifiche
 
-### &#x20;2) Eseguire l'operazione di pre-caricamento dei file
+### 2) Eseguire l'operazione di pre-caricamento dei file
 
 Lanciare il seguente comando:
 
@@ -53,7 +53,7 @@ curl --location 'https://<baseurlAmbiente>/delivery/attachments/preload' \
 **NOTA:** sostituire i seguenti:
 
 * **`<baseurlAmbiente>`:** inserire la url dell'ambiente di riferimento, nel caso di UAT è il seguente: **https://api.uat.notifichedigitali.it**
-* **`<apiKey>`:** inserire la apiKey dell'Ente di riferimento, precedentemente generata su PND&#x20;
+* **`<apiKey>`:** inserire la apiKey dell'Ente di riferimento, precedentemente generata su PND
 * **`<PDNDVoucher>`:** inserire inserire il Voucher generato su **PDND Interoperabilità,** assicurandosi che non sia scaduto
 * **`<shaDellaNotifica>`:** è lo sha256 della Notifica che si ottiene come output al punto 1.1
 * **`<shaDelPagamento>`:** è lo sha256 del Pagamento che si ottiene come output al punto 1.2
@@ -88,7 +88,7 @@ Nella response di questo servizio, si otterrà il seguente payload:
 * **`<url1>`** e **`<url2>`:** sono le url da utilizzare nella chiamata di upload dei documenti
 * **`<key2>`** e **`<key2>`:** sono le keys da utilizzare in fase di inserimento notifica, rispettivamente per i 2 file
 
-### 3) Effettuare l'upload dei documenti&#x20;
+### 3) Effettuare l'upload dei documenti
 
 Effettuare l'operazione di upload verso il _safeStorage_ per entrambi i documenti di interesse effettuando le seguenti chiamate:
 
@@ -142,7 +142,7 @@ curl --location 'https://<baseurlAmbiente>/delivery/requests' \
 * **`<PDNDVoucher>`**: inserire inserire il Voucher generato su **PDND Interoperabilità**, assicurandosi che non sia scaduto
 * **`<payloadDellaNotifica>`:** corrisponde al json contenente tutti i dati della notifica; per inserire correttamente i riferimenti ai pdf caricati in precedenza, seguire le seguenti istruzioni:
   * Valorizzare i seguenti riferimenti al file Notifica.pdf\
-    documents.digests.sha256:  **`<shaDellaNotifica>`**\
+    documents.digests.sha256: **`<shaDellaNotifica>`**\
     documents.contentType: **"application/pdf"**\
     documents.ref.key: **`<key1>`**\
     documents.ref.versionToken: **`<versionIdNotifica>`**
@@ -163,5 +163,5 @@ Se la chiamata è andata a buon fine si otterrà una response con httpStatus: 20
 ```
 
 **NOTA:** nel body della response si otterranno i seguenti campi:\
-**`<notificationRequestId>`:** questo identificativo viene assegnato alla richiesta di notifica appena inserita e potrà essere utilizzato in seguito per verificare se sia stata accettata o meno dalla Piattaforma Notifiche.\
-**`<paProtocolNumber>`** e **`<idempotenceToken>`:** questi campi sono gli stessi che sono stati inseriti nella precedente richiesta di inserimento Notifica e potranno essere utilizzati, in modo alternativo al **`<notificationRequestId>`** ed insieme tra loro, per conoscere lo stato di accettazione della notifica su Piattaforma Notifiche.
+&#xNAN;**`<notificationRequestId>`:** questo identificativo viene assegnato alla richiesta di notifica appena inserita e potrà essere utilizzato in seguito per verificare se sia stata accettata o meno dalla Piattaforma Notifiche.\
+&#xNAN;**`<paProtocolNumber>`** e **`<idempotenceToken>`:** questi campi sono gli stessi che sono stati inseriti nella precedente richiesta di inserimento Notifica e potranno essere utilizzati, in modo alternativo al **`<notificationRequestId>`** ed insieme tra loro, per conoscere lo stato di accettazione della notifica su Piattaforma Notifiche.
