@@ -23,12 +23,12 @@ Il controllo del relativo header può essere effettuato sia a livello infrastrut
 * [JAVA](https://mkyong.com/java/how-to-get-http-request-header-in-java/)
 * [NodeJ](https://www.codegrepper.com/code-examples/javascript/expressjs+custom+header)[s](https://www.codegrepper.com/code-examples/javascript/expressjs+custom+header)&#x20;
 * [Wordpress](https://wordpress.stackexchange.com/questions/288865/how-to-get-value-of-custom-http-header)
-* [Nginx](https://www.nginx.com/resources/wiki/start/topics/examples/headers\_management/)
+* [Nginx](https://www.nginx.com/resources/wiki/start/topics/examples/headers_management/)
 * [Apache](https://serverfault.com/questions/751697/how-to-read-specific-character-out-of-request-header-in-apache-http-config)
 
 #### Esperienza utente
 
-![](<../.gitbook/assets/Wallet - Dettaglio carta-1.png>)![](<../.gitbook/assets/Esercenti online.png>)![](<../.gitbook/assets/Dettaglio esercente fisico - online - singola.png>)![](<../.gitbook/assets/BS offerta - landing.png>)
+![](<../../app-io/carta-giovani-nazionale/v1.0/.gitbook/assets/Wallet - Dettaglio carta-1.png>)![](<../../app-io/carta-giovani-nazionale/v1.0/.gitbook/assets/Esercenti online.png>)![](<../../app-io/carta-giovani-nazionale/v1.0/.gitbook/assets/Dettaglio esercente fisico - online - singola.png>)![](<../../app-io/carta-giovani-nazionale/v1.0/.gitbook/assets/BS offerta - landing.png>)
 
 <mark style="color:purple;">**Fig. 6**</mark> <mark style="color:purple;"></mark><mark style="color:purple;">Esperienza d’uso per ricercare il codice sconto di un Operatore che aderisce all’iniziativa tramite Modello landing page</mark>
 

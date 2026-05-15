@@ -2,14 +2,14 @@
 
 L’Operatore può utilizzare il **Brand IO** consistente negli asset seguenti:&#x20;
 
-*   ![](.gitbook/assets/io\_brand.png)
+*   ![](../app-io/carta-giovani-nazionale/v1.0/.gitbook/assets/io_brand.png)
 
     vale a dire il marchio individuale che contraddistingue l’App IO e la piattaforma di cui all’art. 64-bis del CAD;&#x20;
 * il materiale grafico ufficiale rilasciato da PagoPA S.p.A..
 
 L’Operatore può altresì utilizzare il Brand CGN consistente negli asset seguenti:
 
-*   ![](.gitbook/assets/carta\_giovani\_nazionale.png)&#x20;
+*   ![](../app-io/carta-giovani-nazionale/v1.0/.gitbook/assets/carta_giovani_nazionale.png)&#x20;
 
     vale a dire il marchio che contraddistingue la CGN nel suo complesso, vale a dire l’iniziativa e la carta virtuale.&#x20;
 

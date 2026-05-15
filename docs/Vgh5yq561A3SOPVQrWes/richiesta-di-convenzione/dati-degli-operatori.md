@@ -28,7 +28,7 @@ Esempio: ✅ PagoPA   ❌ PAGOPA
 
 I campi contrassegnati con 👁 saranno visibili nella scheda operatori all’interno dell’App IO.&#x20;
 
-Gli Operatori che operano online e intendono aderire al Programma attraverso le proprie piattaforme web/e-commerce devono anche dichiarare in questa fase la specifica modalità di riconoscimento delle agevolazioni tra quelle disponibili (indicate nel capitolo [Attuazione della Convenzione](broken-reference)).
+Gli Operatori che operano online e intendono aderire al Programma attraverso le proprie piattaforme web/e-commerce devono anche dichiarare in questa fase la specifica modalità di riconoscimento delle agevolazioni tra quelle disponibili (indicate nel capitolo [Attuazione della Convenzione](/broken/pages/5HYcB2JjUGbFLQKWm3dn)).
 
 Successivamente sono richiesti i dati relativi alla o alle agevolazioni che l'Operatore intende proporre.
 
