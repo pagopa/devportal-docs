@@ -1,6 +1,6 @@
 # Checkout
 
-![](../../.gitbook/assets/checkout_SANP.png)
+![](../../../../../docs/pago-pa/sanp/3.1.0/.gitbook/assets/checkout_SANP.png)
 
 * l'utente che avvia il pagamento da Checkout deve inserire il numero avviso e l'identificativo dell'EC destinatario;
 * la [paVerifyPaymentNotice](../../appendici/primitive.md#paverifypaymentnotice) è utilizzata per richiedere all’EC la verifica dell’opzione di pagamento identificata dal numero avviso;

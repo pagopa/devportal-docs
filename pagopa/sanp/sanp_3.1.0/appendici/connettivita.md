@@ -15,7 +15,7 @@ Un soggetto può connettersi direttamente alla piattaforma pagoPA usufruendo del
 
 
 
-![](../.gitbook/assets/connettività.png)
+![](../../../../docs/pago-pa/sanp/3.1.0/.gitbook/assets/connettività.png)
 
 ## Procedura di attivazione della connessione
 

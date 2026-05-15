@@ -6,7 +6,7 @@ Per la gestione degli errori fare riferimento a [Gestione degli errori](https://
 
 ## Fase di richiesta di creazione della posizione debitoria
 
-![](../../.gitbook/assets/paDemandPaymentNotice.png)
+![](../../../../../docs/pago-pa/sanp/3.1.0/.gitbook/assets/paDemandPaymentNotice.png)
 
 La [paDemandPaymentNotice](../../appendici/primitive.md#pademandpaymentnotice) è utilizzata per richiedere all’EC la creazione della posizione debitoria in base ai dati dello specifico servizio inviati, l'EC invia in risposta le informazioni necessarie per avviare il processo di pagamento, in particolare:
 
@@ -21,7 +21,7 @@ Gli EC mettono a disposizione i dati dello specifico servizio tramite il [catalo
 
 ## Fase di verifica
 
-![](../../.gitbook/assets/paVerifyPaymentNotice.png)
+![](../../../../../docs/pago-pa/sanp/3.1.0/.gitbook/assets/paVerifyPaymentNotice.png)
 
 La [paVerifyPaymentNotice](../../appendici/primitive.md#paverifypaymentnotice) è utilizzata per richiedere all’EC la verifica dell’opzione di pagamento identificata dal numero avviso, che invia le informazioni di pagamento relative al numero avviso, in particolare:
 
@@ -40,7 +40,7 @@ Il Nodo effettua una verifica semantica sulla response:
 
 ## Fase di attivazione
 
-![](../../.gitbook/assets/paGetPayment.png)
+![](../../../../../docs/pago-pa/sanp/3.1.0/.gitbook/assets/paGetPayment.png)
 
 La richiesta di attivazione del pagamento giunge all’EC per mezzo della [paGetPayment](../../appendici/primitive.md#pagetpayment), l'EC invia l’importo del pagamento ed i dati necessari per il riversamento della somma, in particolare per ogni versamento:
 
@@ -60,7 +60,7 @@ Il Nodo effettua una verifica semantica sulla response:
 
 ## Fase di invio della ricevuta
 
-![](../../.gitbook/assets/paSendRT.png)
+![](../../../../../docs/pago-pa/sanp/3.1.0/.gitbook/assets/paSendRT.png)
 
 Tramite la primitiva [paSendRT](../../appendici/primitive.md#pasendrt) viene inoltrata agli _n_ EC interessati al pagamento la _receipt_ (ricevuta) solo se il pagamento è stato effettuato, la _receipt_ è un oggetto generato dalla piattaforma pagoPA.
 

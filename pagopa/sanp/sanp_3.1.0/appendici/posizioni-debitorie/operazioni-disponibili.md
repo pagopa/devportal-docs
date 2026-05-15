@@ -23,7 +23,7 @@ Nei seguenti sequence diagram si identifica con l'acronimo GPD il servizio di Ge
 [https://raw.githubusercontent.com/pagopa/pagopa-debt-position/main/gpd/openapi/openapi.json](https://raw.githubusercontent.com/pagopa/pagopa-debt-position/main/gpd/openapi/openapi.json)
 {% endopenapi %}
 
-![](<../../.gitbook/assets/createPD (1).png>)
+![](<../../../../../docs/pago-pa/sanp/3.1.0/.gitbook/assets/createPD (1).png>)
 
 In fase di creazione della posizione debitoria il servizio effettuerà controlli sui dati in input e controlli di eventuali duplicati.
 
@@ -43,7 +43,7 @@ Tra i controlli dei duplicati ci si basa sugli identificativi di pagamento (IUPD
 [https://raw.githubusercontent.com/pagopa/pagopa-debt-position/main/gpd/openapi/openapi.json](https://raw.githubusercontent.com/pagopa/pagopa-debt-position/main/gpd/openapi/openapi.json)
 {% endopenapi %}
 
-![](<../../.gitbook/assets/readPDList (1).png>)
+![](<../../../../../docs/pago-pa/sanp/3.1.0/.gitbook/assets/readPDList (1).png>)
 
 La lettura di una lista di posizioni debitorie prevede sempre una paginazione. E' inoltre possibile filtrare per `due_date` in modo da limitare i risultati.
 
@@ -53,7 +53,7 @@ La lettura di una lista di posizioni debitorie prevede sempre una paginazione. E
 [https://raw.githubusercontent.com/pagopa/pagopa-debt-position/main/gpd/openapi/openapi.json](https://raw.githubusercontent.com/pagopa/pagopa-debt-position/main/gpd/openapi/openapi.json)
 {% endopenapi %}
 
-![](<../../.gitbook/assets/readPD (1).png>)
+![](<../../../../../docs/pago-pa/sanp/3.1.0/.gitbook/assets/readPD (1).png>)
 
 La lettura di una posizione debitoria si basa sull'identificativo in input (IUPD). In caso lo IUPD non sia esistente verrà emesso un errore.
 
@@ -63,7 +63,7 @@ La lettura di una posizione debitoria si basa sull'identificativo in input (IUPD
 [https://raw.githubusercontent.com/pagopa/pagopa-debt-position/main/gpd/openapi/openapi.json](https://raw.githubusercontent.com/pagopa/pagopa-debt-position/main/gpd/openapi/openapi.json)
 {% endopenapi %}
 
-![](<../../.gitbook/assets/updatePD (1).png>)
+![](<../../../../../docs/pago-pa/sanp/3.1.0/.gitbook/assets/updatePD (1).png>)
 
 In fase di aggiornamento, oltre ai già citati controlli in fase di creazione , si verifica che la posizione sia esistente ed aggiornabile.
 
@@ -75,7 +75,7 @@ In particolare l'aggiornabilità della posizione debitoria dipende dallo stato d
 [https://raw.githubusercontent.com/pagopa/pagopa-debt-position/main/gpd/openapi/openapi.json](https://raw.githubusercontent.com/pagopa/pagopa-debt-position/main/gpd/openapi/openapi.json)
 {% endopenapi %}
 
-![](<../../.gitbook/assets/deletePD (2).png>)
+![](<../../../../../docs/pago-pa/sanp/3.1.0/.gitbook/assets/deletePD (2).png>)
 
 La cancellazione di una posizione debitoria prevede controlli sia sull'esistenza (IUPD) che sullo stato (ad esempio, una posizione debitoria non sarà cancellabile se è già stata pagata)
 
@@ -85,7 +85,7 @@ La cancellazione di una posizione debitoria prevede controlli sia sull'esistenza
 [https://raw.githubusercontent.com/pagopa/pagopa-debt-position/main/gpd/openapi/openapi.json](https://raw.githubusercontent.com/pagopa/pagopa-debt-position/main/gpd/openapi/openapi.json)
 {% endopenapi %}
 
-![](<../../.gitbook/assets/publishPD (1).png>)
+![](<../../../../../docs/pago-pa/sanp/3.1.0/.gitbook/assets/publishPD (1).png>)
 
 La pubblicazione della posizione debitoria permette il passaggio dallo stato `DRAFT` allo stato `PUBLISHED.`&#x20;
 
@@ -97,7 +97,7 @@ Una posizione in stato `DRAFT` (bozza) infatti non permette la normale operativi
 [https://raw.githubusercontent.com/pagopa/pagopa-debt-position/main/gpd/openapi/openapi.json](https://raw.githubusercontent.com/pagopa/pagopa-debt-position/main/gpd/openapi/openapi.json)
 {% endopenapi %}
 
-![](../../.gitbook/assets/invalidatePD.png)
+![](../../../../../docs/pago-pa/sanp/3.1.0/.gitbook/assets/invalidatePD.png)
 
 L'invalidazione di una posizione debitore consiste di fatto in una cancellazione logica. E' possibile solo partendo dagli stati `PUBLISHED` e `VALID`.
 
@@ -118,7 +118,7 @@ Si identificano 2 entità:
 [https://raw.githubusercontent.com/pagopa/pagopa-spontaneous-payments/main/openapi/openapi.json](https://raw.githubusercontent.com/pagopa/pagopa-spontaneous-payments/main/openapi/openapi.json)
 {% endopenapi %}
 
-![](../../.gitbook/assets/createEC.png)
+![](../../../../../docs/pago-pa/sanp/3.1.0/.gitbook/assets/createEC.png)
 
 Con questa operazione è possibile aderire tecnicamente al servizio di gestione dei pagamenti spontanei. E' inoltre possibile, già in fase di adesione, definire l'iscrizione ai vari servizi.
 
@@ -130,7 +130,7 @@ Vengono effettuati controlli sintattici e semantici sui campi in input. In parti
 [https://raw.githubusercontent.com/pagopa/pagopa-spontaneous-payments/main/openapi/openapi.json](https://raw.githubusercontent.com/pagopa/pagopa-spontaneous-payments/main/openapi/openapi.json)
 {% endopenapi %}
 
-![](<../../.gitbook/assets/deleteEC (3).png>)
+![](<../../../../../docs/pago-pa/sanp/3.1.0/.gitbook/assets/deleteEC (3).png>)
 
 Questa funzionalità permette la cancellazione di un adesione di un Ente Creditore al servizio di  gestione dei pagamenti spontanei. Contestualmente vengono cancellate tutte le sottoscrizioni.
 
@@ -142,7 +142,7 @@ Questa operazione, per potere essere effettuata, deve essere preceduta da un ade
 [https://raw.githubusercontent.com/pagopa/pagopa-spontaneous-payments/main/openapi/openapi.json](https://raw.githubusercontent.com/pagopa/pagopa-spontaneous-payments/main/openapi/openapi.json)
 {% endopenapi %}
 
-![](../../.gitbook/assets/updateEC.png)
+![](../../../../../docs/pago-pa/sanp/3.1.0/.gitbook/assets/updateEC.png)
 
 Con questa funzionalità è possibili aggiornare le proprietà dell'Ente Creditore in merito all'adesione al servizio.
 
@@ -154,7 +154,7 @@ Valgono gli stessi controlli definiti per la creazione dell' adesione, oltre ai 
 [https://raw.githubusercontent.com/pagopa/pagopa-spontaneous-payments/main/openapi/openapi.json](https://raw.githubusercontent.com/pagopa/pagopa-spontaneous-payments/main/openapi/openapi.json)
 {% endopenapi %}
 
-![](<../../.gitbook/assets/readEC (1).png>)
+![](<../../../../../docs/pago-pa/sanp/3.1.0/.gitbook/assets/readEC (1).png>)
 
 Questa funzionalità permette di recuperare, oltre alle proprietà dell'ente creditore, tutte le sottoscrizioni ai servizi.
 
@@ -164,7 +164,7 @@ Questa funzionalità permette di recuperare, oltre alle proprietà dell'ente cre
 [https://raw.githubusercontent.com/pagopa/pagopa-spontaneous-payments/main/openapi/openapi.json](https://raw.githubusercontent.com/pagopa/pagopa-spontaneous-payments/main/openapi/openapi.json)
 {% endopenapi %}
 
-![](<../../.gitbook/assets/createService (2).png>)
+![](<../../../../../docs/pago-pa/sanp/3.1.0/.gitbook/assets/createService (2).png>)
 
 Con questa operazione è possibile aggiungere una sottoscrizione ad un servizio.
 
@@ -176,7 +176,7 @@ Vengono effettuati controlli in merito all'identificativo del servizio aggiunto 
 [https://raw.githubusercontent.com/pagopa/pagopa-spontaneous-payments/main/openapi/openapi.json](https://raw.githubusercontent.com/pagopa/pagopa-spontaneous-payments/main/openapi/openapi.json)
 {% endopenapi %}
 
-![](<../../.gitbook/assets/readService (1).png>)
+![](<../../../../../docs/pago-pa/sanp/3.1.0/.gitbook/assets/readService (1).png>)
 
 Con questa operazione è possibile recuperare le proprietà di una determinata sottoscrizione ad un servizio.
 
@@ -186,7 +186,7 @@ Con questa operazione è possibile recuperare le proprietà di una determinata s
 [https://raw.githubusercontent.com/pagopa/pagopa-spontaneous-payments/main/openapi/openapi.json](https://raw.githubusercontent.com/pagopa/pagopa-spontaneous-payments/main/openapi/openapi.json)
 {% endopenapi %}
 
-![](<../../.gitbook/assets/updateService (1).png>)
+![](<../../../../../docs/pago-pa/sanp/3.1.0/.gitbook/assets/updateService (1).png>)
 
 Con questa operazione è possibile aggiornare le proprietà di una sottoscrizione precedentemente aggiunta.
 
@@ -198,7 +198,7 @@ Non è possibile cambiare il servizio con questa operazione.
 [https://raw.githubusercontent.com/pagopa/pagopa-spontaneous-payments/main/openapi/openapi.json](https://raw.githubusercontent.com/pagopa/pagopa-spontaneous-payments/main/openapi/openapi.json)
 {% endopenapi %}
 
-![](<../../.gitbook/assets/deleteService (1).png>)
+![](<../../../../../docs/pago-pa/sanp/3.1.0/.gitbook/assets/deleteService (1).png>)
 
 Con questa operazione è possibile cancellare la sottoscrizione ad un servizio precedentemente aggiunto.
 
@@ -213,11 +213,11 @@ Sono messe a disposizione delle funzionalità di lettura dei flussi di rendicont
 [https://raw.githubusercontent.com/pagopa/pagopa-debt-position/main/reporting-analysis/openapi/openapi.json](https://raw.githubusercontent.com/pagopa/pagopa-debt-position/main/reporting-analysis/openapi/openapi.json)
 {% endopenapi %}
 
-![](../../.gitbook/assets/readFdRList.png)
+![](../../../../../docs/pago-pa/sanp/3.1.0/.gitbook/assets/readFdRList.png)
 
 {% openapi src="https://raw.githubusercontent.com/pagopa/pagopa-debt-position/main/reporting-analysis/openapi/openapi.json" path="/organizations/{organizationId}/reportings/{flowId}/date/{date}" method="get" %}
 [https://raw.githubusercontent.com/pagopa/pagopa-debt-position/main/reporting-analysis/openapi/openapi.json](https://raw.githubusercontent.com/pagopa/pagopa-debt-position/main/reporting-analysis/openapi/openapi.json)
 {% endopenapi %}
 
-![](<../../.gitbook/assets/readFdR (1).png>)
+![](<../../../../../docs/pago-pa/sanp/3.1.0/.gitbook/assets/readFdR (1).png>)
 

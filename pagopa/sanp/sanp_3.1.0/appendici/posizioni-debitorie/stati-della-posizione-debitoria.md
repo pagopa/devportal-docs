@@ -9,12 +9,12 @@ Le azioni indicate nei seguenti schemi possono avvenire da 2 fonti:
 
 ## Posizione debitoria
 
-![](<../../.gitbook/assets/FSM-PD-\[SANP] DebtPosition.drawio (1).png>)
+![](<../../../../../docs/pago-pa/sanp/3.1.0/.gitbook/assets/FSM-PD-\[SANP] DebtPosition.drawio (1).png>)
 
 ## Opzione di Pagamento
 
-![](<../../.gitbook/assets/image (11).png>)
+![](<../../../../../docs/pago-pa/sanp/3.1.0/.gitbook/assets/image (11).png>)
 
 ## Versamento
 
-![](../../.gitbook/assets/FSM-PD-Transfer.drawio.png)
+![](../../../../../docs/pago-pa/sanp/3.1.0/.gitbook/assets/FSM-PD-Transfer.drawio.png)

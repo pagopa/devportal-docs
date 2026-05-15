@@ -23,9 +23,9 @@ Esistono, invece, 2 configurazioni possibili (mutuamente esclusive) per l’EC r
 * SOAP (Web Service)
 * SFTP
 
-![](../../.gitbook/assets/image.png)
+![](../../../../../docs/pago-pa/sanp/3.1.0/.gitbook/assets/image.png)
 
-![](<../../.gitbook/assets/image (4).png>)
+![](<../../../../../docs/pago-pa/sanp/3.1.0/.gitbook/assets/image (4).png>)
 
 Per quanto riguarda la [nodoChiediElencoFlussiRendicontazione](../../appendici/primitive.md#nodochiedielencoflussirendicontazione) la piattaforma risponderà in maniera indipendente dalla configurazione dell'EC (SOAP o SFTP), in entrambi i casi infatti la piattaforma risponderà con un elenco di FdR. L’utilizzo della primitiva in caso di configurazione SFTP è opzionale e un possibile motivo per l’utilizzo riguarda finalità statistiche.
 
@@ -124,7 +124,7 @@ Attualmente il Nodo non tiene traccia dei flussi già scaricati dall’EC, per q
 
 Per una corretta gestione l'EC deve verificare ed eventualmente gestire il contenuto associato ad ogni singolo _identificativoFlusso_ inviato fino alla quarta giornata lavorativa (D+4) successiva alla ricezione dell’ordine di pagamento.
 
-![](../../.gitbook/assets/fdr_sovrascittura.png)
+![](../../../../../docs/pago-pa/sanp/3.1.0/.gitbook/assets/fdr_sovrascittura.png)
 
 Non esistendo lato EC possibilità di filtrare, né temporalmente, né quantitativamente gli elementi restituiti, è stata definita una proprietà della piattaforma che permette di limitare l'intervallo temporale su cui basarsi per rispondere alla chiamata, la proprietà è unica per tutta la piattaforma e attualmente è impostata a 30 giorni.
 
