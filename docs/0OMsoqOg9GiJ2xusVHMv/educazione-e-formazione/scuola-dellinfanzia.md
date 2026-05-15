@@ -5,7 +5,7 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 * fornire alle cittadine e ai cittadini un riferimento per la ricezione delle comunicazioni riguardanti il sistema scolastico frequentato dai figli a carico;
 * aggiornare e monitorare promemoria, pagamenti e scadenze per i servizi offerti.
 
-[**Scopri tutti i benefici di integrarsi con IO →** ](https://docs.pagopa.it/manuale-servizi/lapp-io/cose-io-e-qual-e-il-suo-obiettivo)
+[**Scopri tutti i benefici di integrarsi con IO →**](https://docs.pagopa.it/manuale-servizi/lapp-io/cose-io-e-qual-e-il-suo-obiettivo)
 
 ## Scheda servizio <a href="#scheda-servizio" id="scheda-servizio"></a>
 
@@ -13,9 +13,9 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 
 ## Ciclo di vita del servizio
 
-<figure><img src="../.gitbook/assets/Educazione e formazione_Scuola dell&#x27;infanzia.png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Scuola dell'infanzia</strong></p></figcaption></figure>
+<figure><img src="../../../app-io/modelli-servizi/v1.0/.gitbook/assets/Educazione e formazione_Scuola dell&#x27;infanzia.png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Scuola dell'infanzia</strong></p></figcaption></figure>
 
-## Messaggi del servizio&#x20;
+## Messaggi del servizio
 
 {% hint style="success" %}
 **Il servizio ideale**
@@ -31,7 +31,7 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 **🖋 Titolo del messaggio:** Sono aperte le iscrizioni per l'anno educativo `<aaaa/aaaa>`
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Dal `<gg/mm/aaaa>` al `<gg/mm/aaaa>` potrai fare domanda di iscrizione al servizio `<tipologia di servizio>` per l’anno educativo `<aaaa/aaaa>`.
 
@@ -41,17 +41,17 @@ Per ulteriori informazioni e fare domanda d’iscrizione, \[visita questo sito]\
 
 ***
 
-**Destinatari**: Tutti i genitori/tutori che hanno responsabilità genitoriale di un minore iscritto ad una scuola dell'infanzia dell’area geografica di azione del servizio.&#x20;
+**Destinatari**: Tutti i genitori/tutori che hanno responsabilità genitoriale di un minore iscritto ad una scuola dell'infanzia dell’area geografica di azione del servizio.
 
 **Quando inviarlo**: Nei mesi precedenti l'inizio dell'anno educativo.
 
-**User story**: Come cittadino voglio ricevere promemoria dell'apertura delle nuove iscrizioni.&#x20;
+**User story**: Come cittadino voglio ricevere promemoria dell'apertura delle nuove iscrizioni.
 
 </details>
 
 ### **Presentazione della domanda**
 
-La compilazione della domanda può prevedere diversi stati di elaborazione rappresentati dai messaggi seguenti. Se questi stati non sono già comunicati al cittadino tramite procedura digitalizzata, consigliamo di integrare eventuali comunicazioni con questi messaggi, per aggiornare il cittadino sullo stato della domanda.&#x20;
+La compilazione della domanda può prevedere diversi stati di elaborazione rappresentati dai messaggi seguenti. Se questi stati non sono già comunicati al cittadino tramite procedura digitalizzata, consigliamo di integrare eventuali comunicazioni con questi messaggi, per aggiornare il cittadino sullo stato della domanda.
 
 <details>
 
@@ -59,15 +59,15 @@ La compilazione della domanda può prevedere diversi stati di elaborazione rappr
 
 **🖋 Titolo del messaggio:** Abbiamo ricevuto la tua domanda
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
-Il `<gg/mm/aaaa>` abbiamo ricevuto la tua domanda di iscrizione per `<nome>` `<cognome>` al servizio `<tipologia del servizio>`  per l’anno educativo `<aaaa/aaaa>`.&#x20;
+Il `<gg/mm/aaaa>` abbiamo ricevuto la tua domanda di iscrizione per `<nome>` `<cognome>` al servizio `<tipologia del servizio>` per l’anno educativo `<aaaa/aaaa>`.
 
 Il numero di protocollo della tua domanda è: `<nnnn>`
 
 Per consultare il riepilogo della domanda, \[visita questo sito]\(URL).
 
-**🪄 Pulsante**: Vai alla tua domanda&#x20;
+**🪄 Pulsante**: Vai alla tua domanda
 
 ***
 
@@ -85,7 +85,7 @@ Per consultare il riepilogo della domanda, \[visita questo sito]\(URL).
 
 **🖋 Titolo del messaggio:** Richiesta di integrazione
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Per elaborare la tua domanda di iscrizione per `<nome>` `<cognome>` al servizio `<tipologia di servizio>` nr. `<nnnn>` per l’anno educativo `<aaaa/aaaa>`, abbiamo bisogno di ricevere entro il `<gg/mm/aaaa>` altri documenti.
 
@@ -109,12 +109,12 @@ Consulta il riepilogo della domanda, \[visita questo sito]\(URL).
 
 **🖋 Titolo del messaggio:** La tua domanda è stata accolta
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
-La domanda di iscrizione per `<nome>` `<cognome>` al servizio `<tipologia di servizio>` nr. `<nnnn>` per l'anno educativo `<aaaa/aaaa>` è stata accolta in `<gg/mm/aaaa>`. \
+La domanda di iscrizione per `<nome>` `<cognome>` al servizio `<tipologia di servizio>` nr. `<nnnn>` per l'anno educativo `<aaaa/aaaa>` è stata accolta in `<gg/mm/aaaa>`.\
 Sarà possibile consultare la propria posizione in graduatoria dal `<gg/mm/aaaa>`.
 
-\[Se previsto] Per consultare il riepilogo della domanda, \[visita questo sito]\(URL).&#x20;
+\[Se previsto] Per consultare il riepilogo della domanda, \[visita questo sito]\(URL).
 
 **🪄 Pulsante**: n/a
 
@@ -134,11 +134,11 @@ Sarà possibile consultare la propria posizione in graduatoria dal `<gg/mm/aaaa>
 
 **🖋 Titolo del messaggio:** La tua domanda non è stata accolta
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
-La domanda di iscrizione per `<nome>` `<cognome>` al servizio `<tipologia di servizio>` nr. `<nnnn>` per l'anno educativo `<aaaa/aaaa>` non è stata accolta.&#x20;
+La domanda di iscrizione per `<nome>` `<cognome>` al servizio `<tipologia di servizio>` nr. `<nnnn>` per l'anno educativo `<aaaa/aaaa>` non è stata accolta.
 
-Per ulteriori informazioni, \[visita questo sito]\(URL).&#x20;
+Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 **🪄 Pulsante**: n/a
 
@@ -152,25 +152,25 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).&#x20;
 
 </details>
 
-### **Pubblicazione graduatorie**&#x20;
+### **Pubblicazione graduatorie**
 
-La graduatoria viene pubblicata secondo le modalità scelte dall'ente: se le graduatorie prevedono più turni di assegnazioni posti, i seguenti messaggi possono essere riproposti agli assegnatari indicando la variazione del turno nel titolo.&#x20;
+La graduatoria viene pubblicata secondo le modalità scelte dall'ente: se le graduatorie prevedono più turni di assegnazioni posti, i seguenti messaggi possono essere riproposti agli assegnatari indicando la variazione del turno nel titolo.
 
 <details>
 
-<summary>Pubblicazioni graduatorie </summary>
+<summary>Pubblicazioni graduatorie</summary>
 
 **🖋 Titolo del messaggio:** Pubblicata la graduatoria `<provvisoria/definitiva>` per l’anno `<aaaa/aaaa>`
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
-È disponibile la graduatoria di ammissione al servizio `<tipologia di servizio>` per `<nome>` `<cognome>` per  l’anno educativo `<aaaa/aaaa>`.
+È disponibile la graduatoria di ammissione al servizio `<tipologia di servizio>` per `<nome>` `<cognome>` per l’anno educativo `<aaaa/aaaa>`.
 
 Se vuoi rinunciare alla tua posizione, hai tempo fino al `<gg/mm/aaaa>`.
 
 Per visualizzare la tua posizione in graduatoria \[visita questo sito]\(URL).
 
-**🪄 Pulsante**: Vai alla graduatoria&#x20;
+**🪄 Pulsante**: Vai alla graduatoria
 
 ***
 
@@ -188,13 +188,13 @@ Per visualizzare la tua posizione in graduatoria \[visita questo sito]\(URL).
 
 **🖋 Titolo del messaggio:** Hai confermato la domanda d'iscrizione
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
-Hai confermato la posizione in graduatoria per la domanda di iscrizione per `<nome>` `<cognome>` al servizio `<tipologia di servizio>` nr. `<nnnn>` per l'anno educativo  `<aaaa/aaaa>` presso `<scuola>` .&#x20;
+Hai confermato la posizione in graduatoria per la domanda di iscrizione per `<nome>` `<cognome>` al servizio `<tipologia di servizio>` nr. `<nnnn>` per l'anno educativo `<aaaa/aaaa>` presso `<scuola>` .
 
 \[indicare eventuali comunicazioni future, ad esempio data d'inserimento a scuola]
 
-Per consultare la tua domanda, \[visita questo sito]\(URL).&#x20;
+Per consultare la tua domanda, \[visita questo sito]\(URL).
 
 **🪄 Pulsante**: n/a
 
@@ -202,9 +202,9 @@ Per consultare la tua domanda, \[visita questo sito]\(URL).&#x20;
 
 **Destinatari**: Tutti i cittadini residenti nell’area geografica di azione del servizio che hanno IO e hanno completato una domanda di iscrizione.
 
-**Quando inviarlo**: Quando il cittadino decide di accettare la posizione in graduatoria e completare la domanda di ammissione&#x20;
+**Quando inviarlo**: Quando il cittadino decide di accettare la posizione in graduatoria e completare la domanda di ammissione
 
-**User story**: Come cittadino voglio ricevere notifica dello status della mia domanda di iscrizione.&#x20;
+**User story**: Come cittadino voglio ricevere notifica dello status della mia domanda di iscrizione.
 
 </details>
 
@@ -216,7 +216,7 @@ Per consultare la tua domanda, \[visita questo sito]\(URL).&#x20;
 
 **🖋 Titolo del messaggio:** Abbiamo ricevuto la tua richiesta di rinuncia
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Abbiamo ricevuto la tua richiesta di rinuncia alla posizione in graduatoria di `<nome>` `<cognome>` per il servizio `<tipologia di servizio>` per l’anno educativo `<aaaa>`.
 
@@ -242,7 +242,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 **🖋 Titolo del messaggio:** Hai rinunciato alla tua posizione
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 La tua richiesta di rinuncia alla tua posizione in graduatoria di `<nome>` `<cognome>` per il servizio `<tipologia di servizio>` per l’anno educativo `<aaaa/aaaa>` è stata accolta.
 
@@ -266,13 +266,13 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🖋 **Titolo del messaggio**: Hai un nuovo avviso di pagamento
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
-C'è un avviso da pagare intestato a `<nome e cognome>` e relativo a `<causale>`. &#x20;
+C'è un avviso da pagare intestato a `<nome e cognome>` e relativo a `<causale>`. 
 
-**Devi pagare**: <00,00> €&#x20;
+**Devi pagare**: <00,00> €
 
-**Entro il**: `<gg/mm/aaaa>` &#x20;
+**Entro il**: `<gg/mm/aaaa>` 
 
 Puoi pagare direttamente in app premendo “Vedi Avviso”, oppure tramite tutti i canali di pagamento della piattaforma pagoPA e le altre modalità di pagamento offerte dell'ente creditore.
 
@@ -300,13 +300,13 @@ Per maggiori informazioni o per richiedere assistenza, contattaci tramite i cana
 
 **🖋 Titolo del messaggio:** Richiedi agevolazioni
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
-I nuovi iscritti o già iscritti possono comunicare l'interesse a richiedere una retta agevolata o ridotta se:&#x20;
+I nuovi iscritti o già iscritti possono comunicare l'interesse a richiedere una retta agevolata o ridotta se:
 
-\[Inserire un breve elenco puntato di condizioni]&#x20;
+\[Inserire un breve elenco puntato di condizioni]
 
-Per ulteriori informazioni, \[visita questo sito]\(URL).&#x20;
+Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 **🪄 Pulsante**: Scopri tutte le agevolazioni
 
@@ -320,11 +320,11 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).&#x20;
 
 </details>
 
-### **Pagamento retta**&#x20;
+### **Pagamento retta**
 
-Il pagamento della retta può avere diverse modalità di esecuzione che dipendono dall'ente erogatore.&#x20;
+Il pagamento della retta può avere diverse modalità di esecuzione che dipendono dall'ente erogatore.
 
-Qui sono riportati i messaggi di pagamento gestiti dall'ente:&#x20;
+Qui sono riportati i messaggi di pagamento gestiti dall'ente:
 
 <details>
 
@@ -352,7 +352,7 @@ Per maggiori informazioni o per richiedere assistenza, contattaci tramite i cana
 
 In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio potrebbe subire variazioni.
 
-**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)
 
 ***
 
@@ -384,7 +384,7 @@ Il tuo pagamento per l’iscrizione di `<nome>` `<cognome>` al servizio `<tipolo
 
 Se hai già provveduto a pagare l’avviso ignora questo messaggio.
 
-**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)
 
 ***
 
@@ -408,13 +408,13 @@ Il seguente messaggio serve a sensibilizzare il cittadino per il mancato pagamen
 
 **🖋 Titolo del messaggio:** Pagamento non effettuato
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Il tuo pagamento per `<causale>` è scaduto il `<gg/mm/aaaa>`.
 
 Se hai già provveduto a pagare l’avviso ignora questo messaggio.
 
-**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)
 
 ***
 
@@ -432,13 +432,13 @@ Se hai già provveduto a pagare l’avviso ignora questo messaggio.
 
 **🖋 Titolo del messaggio:** L'iscrizione al servizio è bloccata da pagamenti insoluti
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Risultano pagamenti insoluti a carico di `<nome>` `<cognome>` e relative a `<causale>`.
 
-Per maggiori informazioni o per richiedere assistenza, contattaci tramite i canali che trovi nella scheda servizio o \[visita il sito]\(URL).&#x20;
+Per maggiori informazioni o per richiedere assistenza, contattaci tramite i canali che trovi nella scheda servizio o \[visita il sito]\(URL).
 
-**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)
 
 ***
 
@@ -452,7 +452,7 @@ Per maggiori informazioni o per richiedere assistenza, contattaci tramite i cana
 
 ### Pagamento retta con borsellino
 
-Qui sono riportati i messaggi di pagamento nel caso in cui l'ente si avvale di un Borsellino Elettronico per la gestione degli stessi:&#x20;
+Qui sono riportati i messaggi di pagamento nel caso in cui l'ente si avvale di un Borsellino Elettronico per la gestione degli stessi:
 
 <details>
 
@@ -460,13 +460,13 @@ Qui sono riportati i messaggi di pagamento nel caso in cui l'ente si avvale di u
 
 **🖋 Titolo del messaggio:** Hai un pagamento in scadenza
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Il termine per il pagamento relativo alla retta scolastica per `<nome>` `<cognome>` scadrà il `<gg/mm/aaaa>`.
 
-Ricarica il tuo borsellino elettronico con l'importo dovuto entro la data di scadenza.&#x20;
+Ricarica il tuo borsellino elettronico con l'importo dovuto entro la data di scadenza.
 
-Per ulteriori informazioni, \[visita questo sito]\(URL).&#x20;
+Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 **🪄 Pulsante**: n/a
 
@@ -486,13 +486,13 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).&#x20;
 
 **🖋 Titolo del messaggio:** Pagamento non effettuato: ricarica il borsellino
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Il pagamento automatico per `<causale>` non è stato effettuato tramite il borsellino elettronico gestito da `<ente>`.
 
-Ricarica ora per saldare l'importo dovuto. Per farlo, \[sito]\(URL).&#x20;
+Ricarica ora per saldare l'importo dovuto. Per farlo, \[sito]\(URL).
 
-Per ulteriori informazioni, \[visita questo sito]\(URL).&#x20;
+Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 **🪄 Pulsante**: n/a
 
@@ -523,6 +523,4 @@ Le procedure di questo servizio variano molto da ente a ente. Consigliamo di uti
 Il modello è un esempio che non ha carattere vincolante per l’ente e sul quale la Società declina qualsiasi responsabilità, avendo valore esemplificativo.
 
 Puoi copiare i testi dei messaggi da personalizzare da questo documento:
-
-{% file src="../.gitbook/assets/IO - Template servizi - Scuola dell'infanzia.xlsx" %}
 {% endhint %}

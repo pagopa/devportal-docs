@@ -5,7 +5,7 @@ Erogare il servizio tramite l'App IO permette agli enti di:
 * fornire per le dipendenti e i dipendenti del Comune un riferimento per la ricezione delle comunicazioni riguardanti i cedolini, la Certificazione Unica e altri documenti;
 * monitorare e gestire tempestivamente le richieste e le comunicazioni per l’erogazione del servizio.
 
-[**Scopri tutti i benefici di integrarsi con IO →** ](https://app.gitbook.com/s/xWONfJmawghGo2ekuaKh/cose-io-e-qual-e-il-suo-obiettivo#perche-integrarsi-con-io)
+[**Scopri tutti i benefici di integrarsi con IO →**](https://app.gitbook.com/s/xWONfJmawghGo2ekuaKh/lapp-io/cose-io-e-qual-e-il-suo-obiettivo#perche-integrarsi-con-io)
 
 ## Scheda servizio <a href="#scheda-servizio" id="scheda-servizio"></a>
 
@@ -13,7 +13,7 @@ Erogare il servizio tramite l'App IO permette agli enti di:
 
 ## Ciclo di vita del servizio
 
-<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del sevizio Cedolino per i dipendenti</strong></p></figcaption></figure>
+<figure><img src="../../../app-io/modelli-servizi/v1.0/.gitbook/assets/image (7).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del sevizio Cedolino per i dipendenti</strong></p></figcaption></figure>
 
 ## Messaggi del servizio
 
@@ -31,9 +31,9 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 **🖋 Titolo del messaggio:** Ti diamo il benvenuto in `<nome portale>`
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
-Dal `<gg/mm/aaaa>` puoi accedere a `<nome portale>`.&#x20;
+Dal `<gg/mm/aaaa>` puoi accedere a `<nome portale>`.
 
 \[Inserire qui indicazioni sull’accesso e su cosa troverà il dipendente all’interno del portale, da compilare a cura e responsabilità dell'ente]
 
@@ -67,13 +67,13 @@ Questo messaggio è da utilizzare sia per messaggi Premium, sia per messaggi sta
 
 🗒 **Testo del messaggio:**
 
-È disponibile il tuo cedolino per il mese di `<mese>` `<anno>`.&#x20;
+È disponibile il tuo cedolino per il mese di `<mese>` `<anno>`.
 
 Per visualizzarlo, \[visita questa pagina]\(URL).
 
 \[Solo per messaggi premium con allegato] Puoi trovare il documento in allegato a questo messaggio.
 
-**🪄  Pulsante:** n/a
+**🪄 Pulsante:** n/a
 
 <mark style="color:blue;">**📎 Allegato Premium:**</mark> `<cedolino>`
 
@@ -109,7 +109,7 @@ Per visualizzarla, \[visita questa pagina]\(URL).
 
 \[Solo per messaggi premium con allegato] Puoi trovare il documento in allegato a questo messaggio.
 
-**🪄  Pulsante:** n/a
+**🪄 Pulsante:** n/a
 
 <mark style="color:blue;">**📎 Allegato Premium:**</mark> `<certificazione unica>`
 
@@ -128,11 +128,11 @@ Per visualizzarla, \[visita questa pagina]\(URL).
 {% hint style="info" %}
 **Un modello da personalizzare**
 
-Le procedure di questo servizio variano molto da ente a ente. Consigliamo di utilizzare i testi dei messaggi come un punto di partenza e di aggiungere ulteriori informazioni.&#x20;
+Le procedure di questo servizio variano molto da ente a ente. Consigliamo di utilizzare i testi dei messaggi come un punto di partenza e di aggiungere ulteriori informazioni.
 
 Il modello è un esempio che non ha carattere vincolante per l’ente e sul quale la Società declina qualsiasi responsabilità, avendo valore esemplificativo.
 
 Puoi copiare i testi dei messaggi da personalizzare da questo documento:
 
-{% file src="../.gitbook/assets/IO - Template servizi - Cedolino per dipendenti.xlsx" %}
+{% file src="../../../app-io/modelli-servizi/v1.0/.gitbook/assets/IO - Template servizi - Cedolino per dipendenti.xlsx" %}
 {% endhint %}

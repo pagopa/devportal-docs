@@ -6,7 +6,7 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 * fornire alle cittadine e ai cittadini un riferimento per la ricezione delle comunicazioni riguardanti il sistema sanitario erogato dalle diverse regioni;
 * ridurre il numero dei ticket e sanzioni non pagate, riducendo di conseguenza lunghe procedure di recupero crediti.
 
-[**Scopri tutti i benefici di integrarsi con IO →** ](https://docs.pagopa.it/manuale-servizi/lapp-io/cose-io-e-qual-e-il-suo-obiettivo#perche-un-ente-dovrebbe-integrarsi-con-io)
+[**Scopri tutti i benefici di integrarsi con IO →**](https://docs.pagopa.it/manuale-servizi/lapp-io/cose-io-e-qual-e-il-suo-obiettivo#perche-un-ente-dovrebbe-integrarsi-con-io)
 
 ## Scheda servizio <a href="#scheda-servizio" id="scheda-servizio"></a>
 
@@ -14,24 +14,24 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 
 ## Ciclo di vita del servizio
 
-<figure><img src="../.gitbook/assets/image (30).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Prestazioni sanitarie</strong></p></figcaption></figure>
+<figure><img src="../../../app-io/modelli-servizi/v1.0/.gitbook/assets/image (29).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Prestazioni sanitarie</strong></p></figcaption></figure>
 
-## Messaggi del servizio&#x20;
+## Messaggi del servizio
 
 {% hint style="success" %}
 **Il servizio ideale**
 
-L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende erogare questo servizio, può valutare quali e quanti messaggi inviare, in base alle proprie possibilità di integrazione.  L'obiettivo finale rimane quello di inviarli tutti, rilasciando in maniera iterativa versioni del servizio sempre più complete.
+L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende erogare questo servizio, può valutare quali e quanti messaggi inviare, in base alle proprie possibilità di integrazione. L'obiettivo finale rimane quello di inviarli tutti, rilasciando in maniera iterativa versioni del servizio sempre più complete.
 {% endhint %}
 
 {% hint style="warning" %}
 **Trattamento dati sensibili**
 
-I messaggi che questo servizio invia al cittadino spesso includono dati sensibili come il nome della visita da effettuare. Per questo, il servizio è considerato come sensibile e richiede l'utilizzo dell'attributo `require_secure_channels` la cui integrazione è spiegata all'interno della [Guida Tecnica all'Integrazione dei Servizi. ](https://app.gitbook.com/s/mzwjFv2XaE1mjbz7I8gt/funzionalita/pubblicare-un-servizio/dati-obbligatori/attributi#require_secure_channels)
+I messaggi che questo servizio invia al cittadino spesso includono dati sensibili come il nome della visita da effettuare. Per questo, il servizio è considerato come sensibile e richiede l'utilizzo dell'attributo `require_secure_channels` la cui integrazione è spiegata all'interno della [Guida Tecnica all'Integrazione dei Servizi.](https://app.gitbook.com/s/mzwjFv2XaE1mjbz7I8gt/funzionalita/pubblicare-un-servizio/dati-obbligatori/attributi#require_secure_channels)
 
 L'utilizzo di questo attributo permette di anonimizzare le notifiche push e mail, se previste dalle impostazioni del cittadino.\
 \
-Secondo quanto disposto dal paragrafo [7.3 delle Linee Guida di IO](https://trasparenza.agid.gov.it/moduli/downloadFile.php?file=oggetto_allegati/213121604430O__OLG+Punto+accesso+telematico+servizi+PA_3.11.2021.pdf), **non è ammesso** includere nel titolo dati sensibili, mentre deve essere **limitato** al minimo l'utilizzo all'interno del corpo del messaggio,&#x20;
+Secondo quanto disposto dal paragrafo [7.3 delle Linee Guida di IO](https://trasparenza.agid.gov.it/moduli/downloadFile.php?file=oggetto_allegati/213121604430O__OLG+Punto+accesso+telematico+servizi+PA_3.11.2021.pdf), **non è ammesso** includere nel titolo dati sensibili, mentre deve essere **limitato** al minimo l'utilizzo all'interno del corpo del messaggio,
 
 Tra i dati sensibili rientrano, ad esempio:
 
@@ -82,7 +82,7 @@ Scadenza: `<gg/mm/aa>`
 
 **🖋 Titolo del messaggio:** Il tuo appuntamento
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Ti attendiamo per effettuare `<oggetto dell’appuntamento>`.
 
@@ -92,7 +92,7 @@ Il numero della prenotazione è: `<nnnn>`.
 
 **Quando:** `<gg/mm/aaaa>` alle `<hh:mm>`
 
-Ti arriverà un messaggio con l'avviso da pagare per questa prestazione.&#x20;
+Ti arriverà un messaggio con l'avviso da pagare per questa prestazione.
 
 Potrai pagare direttamente in app premendo “Paga”, oppure tramite tutti i canali di pagamento della piattaforma pagoPA e le altre modalità di pagamento offerte dell'ente creditore.
 
@@ -128,7 +128,7 @@ Il numero della prenotazione è: `<nnnn>`.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
-**🪄  Pulsante:** Gestisci prenotazione
+**🪄 Pulsante:** Gestisci prenotazione
 
 ***
 
@@ -140,7 +140,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 ***
 
-:information\_source: Consigliamo di inviare il promemoria per gli appuntamenti almeno 3 giorni prima dell'appuntamento stesso se non si hanno già tempistiche da seguire.&#x20;
+:information\_source: Consigliamo di inviare il promemoria per gli appuntamenti almeno 3 giorni prima dell'appuntamento stesso se non si hanno già tempistiche da seguire.
 
 </details>
 
@@ -172,7 +172,7 @@ Per maggiori informazioni o per richiedere assistenza, contattaci tramite i cana
 
 In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio potrebbe subire variazioni.
 
-**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)
 
 ***
 
@@ -204,7 +204,7 @@ Il tuo pagamento per `<oggetto appuntamento>` con prenotazione `<nnnn>` per il `
 
 Se hai già provveduto a pagare l’avviso ignora questo messaggio.
 
-**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)
 
 ***
 
@@ -234,7 +234,7 @@ Il tuo pagamento per `<oggetto appuntamento>` con prenotazione `<nnnn>` per il `
 
 Se hai già provveduto a pagare l’avviso, ignora questo messaggio.
 
-**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)
 
 ***
 
@@ -254,7 +254,7 @@ Se hai già provveduto a pagare l’avviso, ignora questo messaggio.
 
 **🖋 Titolo del messaggio:** La tua richiesta di rimborso è stata accolta
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 La richiesta di rimborso per `<tipologia di prestazione>` è stata accolta.
 
@@ -280,9 +280,9 @@ La richiesta di rimborso per `<tipologia di prestazione>` è stata accolta.
 
 **🖋 Titolo del messaggio:** La tua richiesta di rimborso non è stata accolta
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
-La domanda per rimborso per `<tipologia di prestazione>` non è stata accolta.&#x20;
+La domanda per rimborso per `<tipologia di prestazione>` non è stata accolta.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -304,9 +304,9 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 **🖋 Titolo del messaggio:** Il tuo rimborso è in arrivo
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
-Il gg/mm/aaaa abbiamo emesso un rimborso per `<oggetto prestazione>`.&#x20;
+Il gg/mm/aaaa abbiamo emesso un rimborso per `<oggetto prestazione>`.
 
 **Ti abbiamo rimborsato**: <00,00> €
 
@@ -332,7 +332,7 @@ Per maggiori informazioni o per richiedere assistenza, contattaci tramite i cana
 
 **🖋 Titolo del messaggio:** C'è un nuovo referto
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Il `<gg/mm/aaaa>`, alle ore `<hh:mm>`, è stato pubblicato `<nome-referto>` da `<ente>` `<nome-medico>`.
 
@@ -356,9 +356,9 @@ Per ulteriori informazioni, \[visita il fascicolo sanitario elettronico]\(URL).
 
 **🖋 Titolo del messaggio:** C'è un nuovo certificato
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
-Il `<gg/mm/aaaa>`, alle ore `<hh:mm>`, è stato pubblicato `<nome-certificato>`  da `<ente>` `<nome-medico>`.
+Il `<gg/mm/aaaa>`, alle ore `<hh:mm>`, è stato pubblicato `<nome-certificato>` da `<ente>` `<nome-medico>`.
 
 Per ulteriori informazioni, \[visita il fascicolo sanitario elettronico]\(URL).
 
@@ -380,9 +380,9 @@ Per ulteriori informazioni, \[visita il fascicolo sanitario elettronico]\(URL).
 
 **🖋 Titolo del messaggio:** Il tuo libretto
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
-Il `<gg/mm/aaaa>`, alle ore `<hh:mm>`, è stato pubblicato `<nome-libretto>`  da `<ente>` `<nome-medico>`.
+Il `<gg/mm/aaaa>`, alle ore `<hh:mm>`, è stato pubblicato `<nome-libretto>` da `<ente>` `<nome-medico>`.
 
 Per ulteriori informazioni, \[visita il fascicolo sanitario elettronico]\(URL).
 
@@ -410,11 +410,11 @@ IO è integrata con SEND - Servizio Notifiche Digitale, per l'invio di comunicaz
 {% hint style="info" %}
 **Un modello da personalizzare**
 
-Le procedure di questo servizio variano molto da ente a ente. Consigliamo di utilizzare i testi dei messaggi come un punto di partenza e di aggiungere ulteriori informazioni.&#x20;
+Le procedure di questo servizio variano molto da ente a ente. Consigliamo di utilizzare i testi dei messaggi come un punto di partenza e di aggiungere ulteriori informazioni.
 
 Il modello è un esempio che non ha carattere vincolante per l’ente e sul quale la Società declina qualsiasi responsabilità, avendo valore esemplificativo.
 
-Puoi copiare i testi dei messaggi da personalizzare da questo documento:&#x20;
+Puoi copiare i testi dei messaggi da personalizzare da questo documento:
 
-{% file src="../.gitbook/assets/IO - Template servizi - Prestazioni sanitarie (2).xlsx" %}
+{% file src="../../../app-io/modelli-servizi/v1.0/.gitbook/assets/IO - Template servizi - Prestazioni sanitarie (1).xlsx" %}
 {% endhint %}

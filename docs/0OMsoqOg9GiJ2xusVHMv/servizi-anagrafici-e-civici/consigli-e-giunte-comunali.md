@@ -5,15 +5,15 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 * fornire alle cittadine e ai cittadini un riferimento per la ricezione delle comunicazioni riguardanti i Consigli e le Giunte comunali;
 * monitorare e gestire tempestivamente le richieste, le comunicazioni e i pagamenti per l’erogazione del servizio.
 
-[**Scopri tutti i benefici di integrarsi con IO →** ](https://docs.pagopa.it/manuale-servizi/lapp-io/cose-io-e-qual-e-il-suo-obiettivo)
+[**Scopri tutti i benefici di integrarsi con IO →**](https://docs.pagopa.it/manuale-servizi/lapp-io/cose-io-e-qual-e-il-suo-obiettivo)
 
 ## Scheda servizio <a href="#scheda-servizio" id="scheda-servizio"></a>
 
-<table data-header-hidden><thead><tr><th width="373"></th><th></th></tr></thead><tbody><tr><td><strong>Nome servizio</strong></td><td>Consigli e Giunte comunali</td></tr><tr><td><strong>Argomento</strong></td><td>Servizi anagrafici e civici</td></tr><tr><td><strong>Descrizione del servizio</strong></td><td><p>Il servizio ti invia informazioni sui Consigli e sulle Giunte comunali.</p><p></p><p>Tramite IO potrai:</p><ul><li>ricevere un messaggio che ti informa della convocazione del Consiglio o della Giunta;</li><li>ricevere altre comunicazioni.</li></ul></td></tr><tr><td><strong>Pulsante</strong></td><td>Vedi delibere</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="373"></th><th></th></tr></thead><tbody><tr><td><strong>Nome servizio</strong></td><td>Consigli e Giunte comunali</td></tr><tr><td><strong>Argomento</strong></td><td>Servizi anagrafici e civici</td></tr><tr><td><strong>Descrizione del servizio</strong></td><td><p>Il servizio ti invia informazioni sui Consigli e sulle Giunte comunali.</p><p>Tramite IO potrai:</p><ul><li>ricevere un messaggio che ti informa della convocazione del Consiglio o della Giunta;</li><li>ricevere altre comunicazioni.</li></ul></td></tr><tr><td><strong>Pulsante</strong></td><td>Vedi delibere</td></tr></tbody></table>
 
 ## Ciclo di vita del servizio
 
-<figure><img src="../.gitbook/assets/Servizi anagrafici_Consigli e Giunte comunali (2).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Consigli e Giunte comunali</strong></p></figcaption></figure>
+<figure><img src="../../../app-io/modelli-servizi/v1.0/.gitbook/assets/Servizi anagrafici_Consigli e Giunte comunali (2).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Consigli e Giunte comunali</strong></p></figcaption></figure>
 
 ## Messaggi del servizio
 
@@ -35,7 +35,7 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 **🖋 Titolo del messaggio:** Convocazione seduta Consiglio comunale
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Sei `<convocato/convocata>` alla prossima seduta `<riferimenti seduta>` del Consiglio comunale.
 
@@ -45,7 +45,7 @@ Per consultare l’ordine del giorno, \[visita questa pagina]\(URL).
 
 **Dove**: `<sala>`; `<piano>`; `<indirizzo>`
 
-Se non puoi partecipare, comunicalo all'ente tramite \[questo sito]\(URL).&#x20;
+Se non puoi partecipare, comunicalo all'ente tramite \[questo sito]\(URL).
 
 **🪄 Pulsante**: n/a
 
@@ -105,8 +105,8 @@ Nel `<mese di mm/periodo>` si svolgeranno le seguenti sedute del Consiglio comun
 
 \[Inserire qui elenco delle date nel seguente modo:
 
-* &#x20;`<gg/mm/aaaa>` alle `<hh:mm>`, `<riferimenti seduta>`
-* &#x20;`<gg/mm/aaaa>` alle `<hh:mm>`, `<riferimenti seduta>`]
+* `<gg/mm/aaaa>` alle `<hh:mm>`, `<riferimenti seduta>`
+* `<gg/mm/aaaa>` alle `<hh:mm>`, `<riferimenti seduta>`]
 
 Puoi partecipare come osservatore o osservatrice.
 
@@ -118,7 +118,7 @@ Le sedute saranno trasmesse anche in diretta streaming \[su questo sito]\(URL).
 
 Per richiedere l’autorizzazione a produrre foto e riprese audio/video \[visita questo sito]\(URL).
 
-**🪄 Pulsante:** Richiedi autorizzazione&#x20;
+**🪄 Pulsante:** Richiedi autorizzazione
 
 ***
 
@@ -200,7 +200,7 @@ Il giorno `<gg/mm/aaaa>` è stata convocata la seduta `<riferimenti seduta>` del
 
 **Dove:** `<sala>`; `<piano>`; `<edificio>`; `<indirizzo>`
 
-Se non puoi partecipare, comunicalo all'ente tramite \[questo sito]\(URL).&#x20;
+Se non puoi partecipare, comunicalo all'ente tramite \[questo sito]\(URL).
 
 **🪄 Pulsante:** n/a
 
@@ -271,11 +271,11 @@ Per consultare `<gli esiti/ le delibere>` della seduta, \[visita questo sito]\(U
 {% hint style="info" %}
 **Un modello da personalizzare**
 
-Le procedure di questo servizio variano molto da ente a ente. Consigliamo di utilizzare i testi dei messaggi come un punto di partenza e di aggiungere ulteriori informazioni.&#x20;
+Le procedure di questo servizio variano molto da ente a ente. Consigliamo di utilizzare i testi dei messaggi come un punto di partenza e di aggiungere ulteriori informazioni.
 
 Il modello è un esempio che non ha carattere vincolante per l’ente e sul quale la Società declina qualsiasi responsabilità, avendo valore esemplificativo.
 
 Puoi copiare i testi dei messaggi da personalizzare da questo documento:
 
-{% file src="../.gitbook/assets/IO - Template servizi - Consigli e Giunte comunali.xlsx" %}
+{% file src="../../../app-io/modelli-servizi/v1.0/.gitbook/assets/IO - Template servizi - Consigli e Giunte comunali.xlsx" %}
 {% endhint %}

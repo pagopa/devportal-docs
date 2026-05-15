@@ -4,7 +4,7 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 
 * comunicare aggiornamenti per pratiche richiesta dal cittadino relative a servizi cimiteriali e concessioni con tempestività e sicurezza;
 
-[**Scopri tutti i benefici di integrarsi con IO →** ](https://docs.pagopa.it/manuale-servizi/lapp-io/cose-io-e-qual-e-il-suo-obiettivo)
+[**Scopri tutti i benefici di integrarsi con IO →**](https://docs.pagopa.it/manuale-servizi/lapp-io/cose-io-e-qual-e-il-suo-obiettivo)
 
 ## Scheda servizio <a href="#scheda-servizio" id="scheda-servizio"></a>
 
@@ -12,7 +12,7 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 
 ## Ciclo di vita del servizio
 
-<figure><img src="../.gitbook/assets/Servizi anagrafici e civici_Servizi cimiteriali.png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del Servizi cimiteriali</strong></p></figcaption></figure>
+<figure><img src="../../../app-io/modelli-servizi/v1.0/.gitbook/assets/Servizi anagrafici e civici_Servizi cimiteriali.png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del Servizi cimiteriali</strong></p></figcaption></figure>
 
 ## Messaggi del servizio
 
@@ -25,19 +25,19 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 {% hint style="warning" %}
 **Trattamento dati sensibili**
 
-I messaggi che questo servizio invia al cittadino spesso includono dati sensibili come lo stato delle pratiche relative a richieste per servizi cimiteriali. Per questo, il servizio è considerato come sensibile e richiede l'utilizzo dell'attributo `require_secure_channels` la cui integrazione è spiegata all'interno della [Guida Tecnica all'Integrazione dei Servizi. ](https://app.gitbook.com/s/mzwjFv2XaE1mjbz7I8gt/funzionalita/pubblicare-un-servizio/dati-obbligatori/attributi#require_secure_channels)
+I messaggi che questo servizio invia al cittadino spesso includono dati sensibili come lo stato delle pratiche relative a richieste per servizi cimiteriali. Per questo, il servizio è considerato come sensibile e richiede l'utilizzo dell'attributo `require_secure_channels` la cui integrazione è spiegata all'interno della [Guida Tecnica all'Integrazione dei Servizi.](https://app.gitbook.com/s/mzwjFv2XaE1mjbz7I8gt/funzionalita/pubblicare-un-servizio/dati-obbligatori/attributi#require_secure_channels)
 
 L'utilizzo di questo attributo permette di anonimizzare le notifiche push e mail, se previste dalle impostazioni del cittadino.\
 \
-Secondo quanto disposto dal paragrafo [7.3 delle Linee Guida di IO](https://www.agid.gov.it/sites/default/files/repository_files/lg_punto_accesso_telematico_servizi_pa_3112021.pdf), **non è ammesso** includere nel titolo dati sensibili, mentre deve essere **limitato** al minimo l'utilizzo all'interno del corpo del messaggio,&#x20;
+Secondo quanto disposto dal paragrafo [7.3 delle Linee Guida di IO](https://www.agid.gov.it/sites/default/files/repository_files/lg_punto_accesso_telematico_servizi_pa_3112021.pdf), **non è ammesso** includere nel titolo dati sensibili, mentre deve essere **limitato** al minimo l'utilizzo all'interno del corpo del messaggio,
 
 Tra i dati sensibili rientrano, ad esempio:
 
-* Nome della persona defunta;&#x20;
-* Pratiche di cremazione, procedure di sepoltura.&#x20;
+* Nome della persona defunta;
+* Pratiche di cremazione, procedure di sepoltura.
 {% endhint %}
 
-## **Cremazione e sepoltura**&#x20;
+## **Cremazione e sepoltura**
 
 ### Richiesta cremazione
 
@@ -47,9 +47,9 @@ Tra i dati sensibili rientrano, ad esempio:
 
 **🖋 Titolo del messaggio:** Aggiornamenti sulle tue richieste
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
-La tua richiesta `<nome servizio>` è stata accolta. Per maggiori informazioni, \[visita questo sito]\(URL).&#x20;
+La tua richiesta `<nome servizio>` è stata accolta. Per maggiori informazioni, \[visita questo sito]\(URL).
 
 **🪄 Pulsante**: n/a
 
@@ -69,11 +69,11 @@ La tua richiesta `<nome servizio>` è stata accolta. Per maggiori informazioni, 
 
 **🖋 Titolo del messaggio:** Aggiornamenti sulle tue richieste
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 La tua richiesta per `<nome servizio>` non è stata accolta.
 
-Per ulteriori informazioni, \[visita questo sito]\(URL).&#x20;
+Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 **🪄 Pulsante**: n/a
 
@@ -93,17 +93,17 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).&#x20;
 
 **🖋 Titolo del messaggio:** Comunicazione tempistiche
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
-In seguito alla tua richiesta per `<nome servizio>` accolta in data `<gg/mm/aaaa>`, ti comunichiamo l'appuntamento previsto per `<gg/mm/aaaa>` alle hh:mm.&#x20;
+In seguito alla tua richiesta per `<nome servizio>` accolta in data `<gg/mm/aaaa>`, ti comunichiamo l'appuntamento previsto per `<gg/mm/aaaa>` alle hh:mm.
 
-Per ulteriori informazioni, \[visita questo sito]\(URL).&#x20;
+Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 **🪄 Pulsante**: n/a
 
 ***
 
-**Destinatari**: Tutti i cittadini residenti nell’area geografica di azione del servizio che hanno effettuato una richiesta per la pratica di cremazione.&#x20;
+**Destinatari**: Tutti i cittadini residenti nell’area geografica di azione del servizio che hanno effettuato una richiesta per la pratica di cremazione.
 
 **Quando inviarlo**: Quando l'appuntamento è stato programmato
 
@@ -137,11 +137,11 @@ Per maggiori informazioni o per richiedere assistenza, contattaci tramite i cana
 
 In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio potrebbe subire variazioni.
 
-**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)
 
 ***
 
-**Destinatari**: Tutti i cittadini residenti nell’area geografica di azione del servizio che hanno effettuato una richiesta per la pratica di cremazione.&#x20;
+**Destinatari**: Tutti i cittadini residenti nell’area geografica di azione del servizio che hanno effettuato una richiesta per la pratica di cremazione.
 
 **Quando inviarlo:** Quando è richiesto il pagamento del servizio.
 
@@ -169,11 +169,11 @@ Il tuo pagamento per `<servizio>` sta per scadere.
 
 Se hai già provveduto a pagare l’avviso ignora questo messaggio.
 
-**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)
 
 ***
 
-**Destinatari:** Tutti i cittadini residenti nell’area geografica di azione del servizio che hanno effettuato una richiesta per la pratica di cremazione.&#x20;
+**Destinatari:** Tutti i cittadini residenti nell’area geografica di azione del servizio che hanno effettuato una richiesta per la pratica di cremazione.
 
 **Quando inviarlo:** Quando il pagamento è prossimo alla scadenza
 
@@ -193,17 +193,17 @@ Il seguente messaggio serve a sensibilizzare il cittadino per il mancato pagamen
 
 **🖋 Titolo del messaggio:** Pagamento non effettuato
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Il tuo pagamento per `<servizio>` è scaduto il `<gg/mm/aaaa>`.
 
 Se hai già provveduto a pagare l’avviso ignora questo messaggio.
 
-**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)
 
 ***
 
-**Destinatari**: Tutti i cittadini residenti nell’area geografica di azione del servizio che hanno effettuato una richiesta per la pratica di cremazione.&#x20;
+**Destinatari**: Tutti i cittadini residenti nell’area geografica di azione del servizio che hanno effettuato una richiesta per la pratica di cremazione.
 
 **Quando inviarlo**: Quando il pagamento non è stato effettuato entro il termine.
 
@@ -219,11 +219,11 @@ Se hai già provveduto a pagare l’avviso ignora questo messaggio.
 
 **🖋 Titolo del messaggio:** Aggiornamenti sulle tue richieste
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
-La tua richiesta per `<nome servizio>` è stata accolta.&#x20;
+La tua richiesta per `<nome servizio>` è stata accolta.
 
-Per maggiori informazioni, \[visita questo sito]\(URL).&#x20;
+Per maggiori informazioni, \[visita questo sito]\(URL).
 
 **🪄 Pulsante**: n/a
 
@@ -243,11 +243,11 @@ Per maggiori informazioni, \[visita questo sito]\(URL).&#x20;
 
 **🖋 Titolo del messaggio:** Aggiornamenti sulle tue richieste
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 La tua richiesta per `<nome servizio>` non è stata accolta.
 
-Per ulteriori informazioni,  \[visita questo sito]\(URL).&#x20;
+Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 **🪄 Pulsante**: n/a
 
@@ -267,9 +267,9 @@ Per ulteriori informazioni,  \[visita questo sito]\(URL).&#x20;
 
 **🖋 Titolo del messaggio:** Comunicazione tempistiche
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
-In seguito alla tua richiesta per `<nome servizio>` accolta in data `<gg/mm/aaaa>`, ti comunichiamo l'appuntamento previsto per `<gg/mm/aaaa>` alle `<hh:mm>`.&#x20;
+In seguito alla tua richiesta per `<nome servizio>` accolta in data `<gg/mm/aaaa>`, ti comunichiamo l'appuntamento previsto per `<gg/mm/aaaa>` alle `<hh:mm>`.
 
 **🪄 Pulsante**: n/a
 
@@ -309,7 +309,7 @@ Per maggiori informazioni o per richiedere assistenza, contattaci tramite i cana
 
 In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio potrebbe subire variazioni.
 
-**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)
 
 ***
 
@@ -341,7 +341,7 @@ Il tuo pagamento per `<nome servizio>` sta per scadere.
 
 Se hai già provveduto a pagare l’avviso ignora questo messaggio.
 
-**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)
 
 ***
 
@@ -365,13 +365,13 @@ Il seguente messaggio serve a sensibilizzare il cittadino per il mancato pagamen
 
 **🖋 Titolo del messaggio:** Pagamento non effettuato
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Il tuo pagamento per `<nome servizio>` è scaduto il `<gg/mm/aaaa>`.
 
 Se hai già provveduto a pagare l’avviso ignora questo messaggio.
 
-**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)
 
 ***
 
@@ -391,15 +391,15 @@ Se hai già provveduto a pagare l’avviso ignora questo messaggio.
 
 **🖋 Titolo del messaggio:** Aggiornamenti sulle tue richieste
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 La tua richiesta per la concessione a tempo determinato di `<specifica concessione cimiteriale>` è stata accolta.
 
-Il rilascio della concessione è subordinato al pagamento del canone per cui ti arriverà un messaggio in app con l'avviso di pagamento.&#x20;
+Il rilascio della concessione è subordinato al pagamento del canone per cui ti arriverà un messaggio in app con l'avviso di pagamento.
 
 Puoi pagare direttamente in app premendo “Vedi Avviso”, oppure tramite tutti i canali di pagamento della piattaforma pagoPA e le altre modalità di pagamento offerte dell'ente creditore.
 
-Per ulteriori informazioni sulla durata della concessione, \[visita questo sito]\(URL).&#x20;
+Per ulteriori informazioni sulla durata della concessione, \[visita questo sito]\(URL).
 
 **🪄 Pulsante**: n/a
 
@@ -433,7 +433,7 @@ C'è un avviso da pagare intestato a `<nome e cognome>` e relativo a `<causale>`
 
 Puoi pagare direttamente in app premendo “Paga”, oppure tramite tutti i canali di pagamento della piattaforma pagoPA e le altre modalità di pagamento offerte dell'ente creditore.
 
-\[Se previsto] È possibile richiedere la domiciliazione delle rette direttamente sul tuo conto corrente. Per maggiori informazioni, \[visita questo sito]\(URL).&#x20;
+\[Se previsto] È possibile richiedere la domiciliazione delle rette direttamente sul tuo conto corrente. Per maggiori informazioni, \[visita questo sito]\(URL).
 
 Se hai già provveduto a pagare l'avviso, ignora questo messaggio.
 
@@ -441,7 +441,7 @@ Per maggiori informazioni o per richiedere assistenza, contattaci tramite i cana
 
 In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio potrebbe subire variazioni.
 
-**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)
 
 ***
 
@@ -473,7 +473,7 @@ Il tuo pagamento per `<servizio>` sta per scadere.
 
 Se hai già provveduto a pagare l’avviso o se hai richiesto la domiciliazione delle rette sul conto corrente, ignora questo messaggio.
 
-**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)
 
 ***
 
@@ -497,13 +497,13 @@ Il seguente messaggio serve a sensibilizzare il cittadino per il mancato pagamen
 
 **🖋 Titolo del messaggio:** Pagamento non effettuato
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Il tuo pagamento per `<nome servizio>` è scaduto il `<gg/mm/aaaa>`.
 
 Se hai già provveduto a pagare l’avviso, ignora questo messaggio.
 
-**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)
 
 ***
 
@@ -523,11 +523,11 @@ Se hai già provveduto a pagare l’avviso, ignora questo messaggio.
 
 **🖋 Titolo del messaggio:** Aggiornamenti sulle tue richieste
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
-La tua concessione per `<specificare dettagli della concessione>` è prossima alla scadenza in data `<gg/mm/aaaa>`.&#x20;
+La tua concessione per `<specificare dettagli della concessione>` è prossima alla scadenza in data `<gg/mm/aaaa>`.
 
-Se desideri prorogare la tua concessione, scopri come  \[visitando questo sito]\(URL). &#x20;
+Se desideri prorogare la tua concessione, scopri come \[visitando questo sito]\(URL).
 
 **🪄 Pulsante**: n/a
 
@@ -547,11 +547,11 @@ Se desideri prorogare la tua concessione, scopri come  \[visitando questo sito]\
 
 **🖋 Titolo del messaggio:** Aggiornamenti sulle tue richieste
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 La tua richiesta per `<nome servizio>` è stata accolta.
 
-Per ulteriori informazioni sulla durata della concessione, \[visita questo sito]\(URL).&#x20;
+Per ulteriori informazioni sulla durata della concessione, \[visita questo sito]\(URL).
 
 **🪄 Pulsante**: n/a
 
@@ -571,11 +571,11 @@ Per ulteriori informazioni sulla durata della concessione, \[visita questo sito]
 
 **🖋 Titolo del messaggio:** Aggiornamenti sulle tue richieste
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 La tua richiesta per `<nome servizio>` non è stata accolta.
 
-Per ulteriori informazioni, \[visita questo sito]\(URL).&#x20;
+Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 **🪄 Pulsante**: n/a
 
@@ -611,13 +611,13 @@ Puoi pagare direttamente in app premendo “Paga”, oppure tramite tutti i cana
 
 \[Se previsto] È possibile richiedere la domiciliazione delle rette direttamente sul tuo conto corrente. Per maggiori informazioni, \[visita questo sito]\(URL).
 
-Se hai già pagato o se hai richiesto la domiciliazione sul conto corrente, ignora pure questo messaggio.&#x20;
+Se hai già pagato o se hai richiesto la domiciliazione sul conto corrente, ignora pure questo messaggio.
 
 Per maggiori informazioni o per richiedere assistenza, contattaci tramite i canali che trovi nella scheda servizio.
 
 In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio potrebbe subire variazioni.
 
-**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)
 
 ***
 
@@ -649,7 +649,7 @@ Il tuo pagamento per `<nome servizio>` sta per scadere.
 
 Se hai già provveduto a pagare l’avviso o se hai richiesto la domiciliazione delle rette sul conto corrente, ignora questo messaggio.
 
-**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)
 
 ***
 
@@ -673,13 +673,13 @@ Il seguente messaggio serve a sensibilizzare il cittadino per il mancato pagamen
 
 **🖋 Titolo del messaggio:** Pagamento non effettuato
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Il tuo pagamento per `<nome servizio>` è scaduto il `<gg/mm/aaaa>`.
 
 Se hai già provveduto a pagare l’avviso, ignora questo messaggio.
 
-**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)
 
 ***
 
@@ -697,11 +697,11 @@ Se hai già provveduto a pagare l’avviso, ignora questo messaggio.
 
 **🖋 Titolo del messaggio:** La tua concessione è scaduta
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
-Ti informiamo che in data `<gg/mm/aaaa>` la tua concessione per `<specificare dettagli della concessione>` è scaduta.&#x20;
+Ti informiamo che in data `<gg/mm/aaaa>` la tua concessione per `<specificare dettagli della concessione>` è scaduta.
 
-Per ulteriori informazioni sulla durata della concessione, \[visita questo sito]\(URL).&#x20;
+Per ulteriori informazioni sulla durata della concessione, \[visita questo sito]\(URL).
 
 **🪄 Pulsante**: n/a
 
@@ -725,15 +725,15 @@ Per ulteriori informazioni sulla durata della concessione, \[visita questo sito]
 
 **🖋 Titolo del messaggio:** Aggiornamenti sulle tue richieste
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 La tua richiesta per `<nome servizio>` è stata accolta.
 
-La richiesta è subordinata a un pagamento per la pratica per cui ti arriverà un messaggio in app con l'avviso di pagamento.&#x20;
+La richiesta è subordinata a un pagamento per la pratica per cui ti arriverà un messaggio in app con l'avviso di pagamento.
 
 Puoi pagare direttamente in app premendo “Vedi Avviso”, oppure tramite tutti i canali di pagamento della piattaforma pagoPA e le altre modalità di pagamento offerte dell'ente creditore.
 
-Per ulteriori informazioni, \[visita questo sito]\(URL).&#x20;
+Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 **🪄 Pulsante**: Disdici richiesta
 
@@ -753,11 +753,11 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).&#x20;
 
 **🖋 Titolo del messaggio:** Aggiornamenti sulle tue richieste
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 La tua richiesta per `<nome servizio>` non è stata accolta.
 
-Per ulteriori informazioni, \[visita questo sito]\(URL).&#x20;
+Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 **🪄 Pulsante**: n/a
 
@@ -791,19 +791,19 @@ C'è un avviso da pagare intestato a `<nome e cognome>` e relativo a `<causale>`
 
 Puoi pagare direttamente in app premendo “Paga”, oppure tramite tutti i canali di pagamento della piattaforma pagoPA e le altre modalità di pagamento offerte dell'ente creditore.
 
-\[Se previsto] È possibile richiedere la domiciliazione delle rette direttamente sul tuo conto corrente. Per maggiori informazioni, \[visita questo sito]\(URL).&#x20;
+\[Se previsto] È possibile richiedere la domiciliazione delle rette direttamente sul tuo conto corrente. Per maggiori informazioni, \[visita questo sito]\(URL).
 
-Se hai già pagato o se hai richiesto la domiciliazione sul conto corrente, ignora pure questo messaggio.&#x20;
+Se hai già pagato o se hai richiesto la domiciliazione sul conto corrente, ignora pure questo messaggio.
 
 Per maggiori informazioni o per richiedere assistenza, contattaci tramite i canali che trovi nella scheda servizio.
 
 In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio potrebbe subire variazioni.
 
-**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)
 
 ***
 
-**Destinatari**: Tutti i cittadini residenti nell’area geografica di azione del servizio che hanno IO e hanno effettuato una richiesta per la pratica di cremazione.&#x20;
+**Destinatari**: Tutti i cittadini residenti nell’area geografica di azione del servizio che hanno IO e hanno effettuato una richiesta per la pratica di cremazione.
 
 **Quando inviarlo:** Quando è richiesto il pagamento del servizio.
 
@@ -831,11 +831,11 @@ Il tuo pagamento per `<nome servizio>` sta per scadere.
 
 Se hai già provveduto a pagare l’avviso o se hai richiesto la domiciliazione delle rette sul conto corrente, ignora questo messaggio.
 
-**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)
 
 ***
 
-**Destinatari:** Tutti i cittadini residenti nell’area geografica di azione del servizio che hanno effettuato una richiesta per la pratica di cremazione.&#x20;
+**Destinatari:** Tutti i cittadini residenti nell’area geografica di azione del servizio che hanno effettuato una richiesta per la pratica di cremazione.
 
 **Quando inviarlo:** Quando il pagamento è prossimo alla scadenza
 
@@ -855,17 +855,17 @@ Il seguente messaggio serve a sensibilizzare il cittadino per il mancato pagamen
 
 **🖋 Titolo del messaggio:** Pagamento non effettuato
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Il tuo pagamento per `<nome servizio>` è scaduto il `<gg/mm/aaaa>`.
 
 Se hai già provveduto a pagare l’avviso ignora questo messaggio.
 
-**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)
 
 ***
 
-**Destinatari**: Tutti i cittadini residenti nell’area geografica di azione del servizio che hanno effettuato una richiesta per la pratica di cremazione.&#x20;
+**Destinatari**: Tutti i cittadini residenti nell’area geografica di azione del servizio che hanno effettuato una richiesta per la pratica di cremazione.
 
 **Quando inviarlo**: Quando il pagamento non è stato effettuato entro il termine.
 
@@ -879,11 +879,11 @@ Se hai già provveduto a pagare l’avviso ignora questo messaggio.
 
 **🖋 Titolo del messaggio:** Conferma disdetta servizio di luce votiva
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 La tua disdetta per il servizio `<nome servizio>` è stata correttamente processata.
 
-Per ulteriori informazioni, \[visita questo sito]\(URL). &#x20;
+Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 **🪄 Pulsante**: n/a
 
@@ -911,9 +911,9 @@ Questo messaggio è da utilizzare sia per messaggi Premium, sia per messaggi sta
 
 **🖋 Titolo del messaggio:** Pubblicazione calendario delle esumazioni
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
-È stato pubblicato il nuovo calendario delle esumazioni ordinarie per:&#x20;
+È stato pubblicato il nuovo calendario delle esumazioni ordinarie per:
 
 * Nome cimitero: `<nome>`
 * Indirizzo: `<indirizzo>`
@@ -921,7 +921,7 @@ Questo messaggio è da utilizzare sia per messaggi Premium, sia per messaggi sta
 
 La famiglia dovrà incaricare un'impresa funebre per svolgere alcune attività.
 
-Per ulteriori informazioni, \[visita questo sito]\(URL).&#x20;
+Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 **🪄 Pulsante**: n/a
 
@@ -955,5 +955,5 @@ Il modello è un esempio che non ha carattere vincolante per l’ente e sul qual
 
 Puoi copiare i testi dei messaggi da personalizzare da questo documento:
 
-{% file src="../.gitbook/assets/IO - Template servizi - Servizi cimiteriali (1).xlsx" %}
+{% file src="../../../app-io/modelli-servizi/v1.0/.gitbook/assets/IO - Template servizi - Servizi cimiteriali (1).xlsx" %}
 {% endhint %}

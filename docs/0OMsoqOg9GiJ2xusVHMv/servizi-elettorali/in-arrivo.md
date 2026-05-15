@@ -6,7 +6,7 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 * incentivare la presenza degli elettori ai seggi;
 * promuovere servizi aggiuntivi di assistenza e partecipazione ai seggi.
 
-[**Scopri tutti i benefici di integrarsi con IO →** ](https://docs.pagopa.it/manuale-servizi/lapp-io/cose-io-e-qual-e-il-suo-obiettivo#perche-un-ente-dovrebbe-integrarsi-con-io)
+[**Scopri tutti i benefici di integrarsi con IO →**](https://docs.pagopa.it/manuale-servizi/lapp-io/cose-io-e-qual-e-il-suo-obiettivo#perche-un-ente-dovrebbe-integrarsi-con-io)
 
 ## Scheda servizio <a href="#scheda-servizio" id="scheda-servizio"></a>
 
@@ -14,9 +14,9 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 
 ## Ciclo di vita del servizio
 
-<figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Elezioni</strong></p></figcaption></figure>
+<figure><img src="../../../app-io/modelli-servizi/v1.0/.gitbook/assets/image (13).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Elezioni</strong></p></figcaption></figure>
 
-## Messaggi del servizio&#x20;
+## Messaggi del servizio
 
 {% hint style="success" %}
 **Il servizio ideale**
@@ -27,11 +27,11 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 {% hint style="warning" %}
 **Trattamento dati sensibili**
 
-I messaggi che questo servizio invia al cittadino possono includere dati sensibili come la richiesta di voto domiciliare o assistito e le comunicazioni per appuntamenti. Per questo, il servizio è considerato come sensibile e richiede l'utilizzo dell'attributo `require_secure_channels` la cui integrazione è spiegata all'interno della [Guida Tecnica all'Integrazione dei Servizi. ](https://app.gitbook.com/s/mzwjFv2XaE1mjbz7I8gt/funzionalita/pubblicare-un-servizio/dati-obbligatori/attributi#require_secure_channels)
+I messaggi che questo servizio invia al cittadino possono includere dati sensibili come la richiesta di voto domiciliare o assistito e le comunicazioni per appuntamenti. Per questo, il servizio è considerato come sensibile e richiede l'utilizzo dell'attributo `require_secure_channels` la cui integrazione è spiegata all'interno della [Guida Tecnica all'Integrazione dei Servizi.](https://app.gitbook.com/s/mzwjFv2XaE1mjbz7I8gt/funzionalita/pubblicare-un-servizio/dati-obbligatori/attributi#require_secure_channels)
 
 L'utilizzo di questo attributo permette di anonimizzare le notifiche push e mail, se previste dalle impostazioni del cittadino.\
 \
-Secondo quanto disposto dal paragrafo [7.3 delle Linee Guida di IO](https://www.agid.gov.it/sites/default/files/repository_files/lg_punto_accesso_telematico_servizi_pa_3112021.pdf), **non è ammesso** includere nel titolo dati sensibili, mentre deve essere **limitato** al minimo l'utilizzo all'interno del corpo del messaggio,&#x20;
+Secondo quanto disposto dal paragrafo [7.3 delle Linee Guida di IO](https://www.agid.gov.it/sites/default/files/repository_files/lg_punto_accesso_telematico_servizi_pa_3112021.pdf), **non è ammesso** includere nel titolo dati sensibili, mentre deve essere **limitato** al minimo l'utilizzo all'interno del corpo del messaggio,
 
 Tra i dati sensibili rientrano, ad esempio:
 
@@ -47,13 +47,13 @@ Tra i dati sensibili rientrano, ad esempio:
 
 **🖋 Titolo del messaggio:** `<Elezioni o referendum>` del `<gg/mm/aaaa>`
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Per partecipare `<alle elezioni o al referendum>` del `<gg/mm/aaaa>`, recati al il seggio, indicato sulla tua tessera elettorale, dalle ore hh:mm alle hh:mm.
 
-\[Se previsto] Per le persone con disabilità è attivo il servizio di trasporto gratuito. Per richiedere il servizio `<modalità di richiesta>`.&#x20;
+\[Se previsto] Per le persone con disabilità è attivo il servizio di trasporto gratuito. Per richiedere il servizio `<modalità di richiesta>`.
 
-Per ulteriori informazioni, \[visita questo sito]\(URL).&#x20;
+Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 **🪄 Pulsante**: n/a
 
@@ -61,7 +61,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).&#x20;
 
 **Destinatari**: Tutti i cittadini residenti nell’area geografica di azione del servizio che possono votare.
 
-**Quando inviarlo**: Quando i cittadini sono chiamati al voto&#x20;
+**Quando inviarlo**: Quando i cittadini sono chiamati al voto
 
 **User story**: Come cittadino voglio essere aggiornato sull'imminente voto ed elezioni.
 
@@ -73,15 +73,15 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).&#x20;
 
 **🖋 Titolo del messaggio:** Iscriviti alla lista elettorale aggiunta per votare
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
-Dal `<gg/mm/aaaa>` al `<gg/mm/aaaa>`, se sei cittadino dell'Unione Europea, puoi presentare la richiesta di iscrizione gratuita per poter votare alle elezioni del Consiglio Comunale del `<gg/mm/aaaa>`. Puoi iscriverti nell'apposita lista elettorale dedicata se:&#x20;
+Dal `<gg/mm/aaaa>` al `<gg/mm/aaaa>`, se sei cittadino dell'Unione Europea, puoi presentare la richiesta di iscrizione gratuita per poter votare alle elezioni del Consiglio Comunale del `<gg/mm/aaaa>`. Puoi iscriverti nell'apposita lista elettorale dedicata se:
 
-• hai diritto a votare nel tuo Stato di origine o di appartenenza;&#x20;
+• hai diritto a votare nel tuo Stato di origine o di appartenenza;
 
 • sei maggiorenne e residente nel Comune `<nome Comune>`.
 
-Per ulteriori informazioni, \[visita questo sito]\(URL).&#x20;
+Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 **🪄 Pulsante**: n/a
 
@@ -99,17 +99,17 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).&#x20;
 
 <summary>Voto dall'estero: come partecipare</summary>
 
-**🖋 Titolo del messaggio:**  `<Elezioni o referendum>` del `<gg/mm/aaaa>`: voto dall'estero
+**🖋 Titolo del messaggio:** `<Elezioni o referendum>` del `<gg/mm/aaaa>`: voto dall'estero
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
-Per `<le elezioni o il referendum>`  del `<gg/mm/aaaa>`, puoi votare anche dall'estero.&#x20;
+Per `<le elezioni o il referendum>` del `<gg/mm/aaaa>`, puoi votare anche dall'estero.
 
-Se sei all'estero da almeno tre mesi per motivi di lavoro, studio o cure mediche, puoi richiedere di votare per corrispondenza `<modalità di richiesta>`.&#x20;
+Se sei all'estero da almeno tre mesi per motivi di lavoro, studio o cure mediche, puoi richiedere di votare per corrispondenza `<modalità di richiesta>`.
 
-Se invece vivi all'estero da più di un anno e sei iscritto all'Anagrafe Italiani Residenti all'Estero (AIRE), scopri come puoi votare consultando il \[sito]\(URL).&#x20;
+Se invece vivi all'estero da più di un anno e sei iscritto all'Anagrafe Italiani Residenti all'Estero (AIRE), scopri come puoi votare consultando il \[sito]\(URL).
 
-Per ulteriori informazioni, \[visita questo sito]\(URL).&#x20;
+Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 **🪄 Pulsante**: n/a
 
@@ -117,7 +117,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).&#x20;
 
 **Destinatari**: Tutti i cittadini residenti nell’area geografica di azione del servizio che possono votare e sono all'estero
 
-**Quando inviarlo**: Quando i cittadini sono chiamati al voto&#x20;
+**Quando inviarlo**: Quando i cittadini sono chiamati al voto
 
 **User story**: Come cittadino voglio sapere come poter votare se non sono in Italia
 
@@ -131,19 +131,19 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).&#x20;
 
 **🖋 Titolo del messaggio:** Assistenza al voto
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
-Dal `<gg/mm/aaaa>` al `<gg/mm/aaaa>` è possibile richiedere il voto assistito o il voto domiciliare per `<le elezioni o il referendum>` del `<gg/mm/aaaa>`.&#x20;
+Dal `<gg/mm/aaaa>` al `<gg/mm/aaaa>` è possibile richiedere il voto assistito o il voto domiciliare per `<le elezioni o il referendum>` del `<gg/mm/aaaa>`.
 
-Le richieste possono essere presentate anche da un delegato, scopri come \[visitando questi sito]\(URL).&#x20;
+Le richieste possono essere presentate anche da un delegato, scopri come \[visitando questi sito]\(URL).
 
-Per ulteriori informazioni, \[visita questo sito]\(URL).&#x20;
+Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 **🪄 Pulsante**: n/a
 
 ***
 
-**Destinatari**: Tutti i cittadini residenti nell’area geografica di azione del servizio con gravi infermità o non vedenti, e le persone che li assistono.&#x20;
+**Destinatari**: Tutti i cittadini residenti nell’area geografica di azione del servizio con gravi infermità o non vedenti, e le persone che li assistono.
 
 **Quando inviarlo**: Quando i cittadini sono chiamati al voto
 
@@ -159,7 +159,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).&#x20;
 
 ***
 
-**🖋 Titolo del messaggio:** Il tuo appuntamento&#x20;
+**🖋 Titolo del messaggio:** Il tuo appuntamento
 
 🗒 **Testo del messaggio:**
 
@@ -177,7 +177,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 ***
 
-**Destinatari**: Tutti i cittadini residenti nell’area geografica di azione del servizio che hanno richiesto il voto domiciliare o il trasporto ai seggi&#x20;
+**Destinatari**: Tutti i cittadini residenti nell’area geografica di azione del servizio che hanno richiesto il voto domiciliare o il trasporto ai seggi
 
 **Quando inviarlo**: Quando l'appuntamento è confermato
 
@@ -201,7 +201,7 @@ Le procedure di questo servizio variano molto da ente a ente. Consigliamo di uti
 
 Il modello è un esempio che non ha carattere vincolante per l’ente e sul quale la Società declina qualsiasi responsabilità, avendo valore esemplificativo.
 
-Puoi copiare i testi dei messaggi da personalizzare da questo documento:&#x20;
+Puoi copiare i testi dei messaggi da personalizzare da questo documento:
 
-{% file src="../.gitbook/assets/IO - Template servizi - Elezioni.xlsx" %}
+{% file src="../../../app-io/modelli-servizi/v1.0/.gitbook/assets/IO - Template servizi - Elezioni.xlsx" %}
 {% endhint %}

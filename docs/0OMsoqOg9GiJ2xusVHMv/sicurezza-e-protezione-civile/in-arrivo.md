@@ -5,15 +5,15 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 * fornire alle cittadine e ai cittadini un riferimento per la ricezione delle comunicazioni riguardanti la Protezione Civile;
 * monitorare e gestire tempestivamente le richieste e le comunicazioni per l’erogazione del servizio.
 
-[**Scopri tutti i benefici di integrarsi con IO →** ](https://docs.pagopa.it/manuale-servizi/lapp-io/cose-io-e-qual-e-il-suo-obiettivo#perche-un-ente-dovrebbe-integrarsi-con-io)
+[**Scopri tutti i benefici di integrarsi con IO →**](https://docs.pagopa.it/manuale-servizi/lapp-io/cose-io-e-qual-e-il-suo-obiettivo#perche-un-ente-dovrebbe-integrarsi-con-io)
 
 ## Scheda servizio <a href="#scheda-servizio" id="scheda-servizio"></a>
 
-<table data-header-hidden><thead><tr><th width="373"></th><th></th></tr></thead><tbody><tr><td><strong>Nome servizio</strong></td><td>Protezione civile</td></tr><tr><td><strong>Argomento</strong></td><td>Sicurezza e protezione civile</td></tr><tr><td><strong>Descrizione del servizio</strong></td><td><p>Il servizio ti invia informazioni riguardanti la Protezione civile come emergenze, allerte meteo, campagne di prevenzione, donazioni e volontariato.</p><p></p><p>Tramite IO potrai:</p><ul><li>ricevere comunicazioni e aggiornamenti in caso di allerta meteo o emergenza sul territorio;</li><li>ricevere comunicazioni e aggiornamenti da parte della Protezione civile;</li><li>ricevere altre comunicazioni.</li></ul></td></tr><tr><td><strong>Pulsante</strong></td><td>Consulta il piano di protezione civile</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="373"></th><th></th></tr></thead><tbody><tr><td><strong>Nome servizio</strong></td><td>Protezione civile</td></tr><tr><td><strong>Argomento</strong></td><td>Sicurezza e protezione civile</td></tr><tr><td><strong>Descrizione del servizio</strong></td><td><p>Il servizio ti invia informazioni riguardanti la Protezione civile come emergenze, allerte meteo, campagne di prevenzione, donazioni e volontariato.</p><p>Tramite IO potrai:</p><ul><li>ricevere comunicazioni e aggiornamenti in caso di allerta meteo o emergenza sul territorio;</li><li>ricevere comunicazioni e aggiornamenti da parte della Protezione civile;</li><li>ricevere altre comunicazioni.</li></ul></td></tr><tr><td><strong>Pulsante</strong></td><td>Consulta il piano di protezione civile</td></tr></tbody></table>
 
 ## Ciclo di vita del servizio
 
-<figure><img src="../.gitbook/assets/image (27).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Protezione civile</strong></p></figcaption></figure>
+<figure><img src="../../../app-io/modelli-servizi/v1.0/.gitbook/assets/image (26).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Protezione civile</strong></p></figcaption></figure>
 
 ## Messaggi del servizio
 
@@ -33,7 +33,7 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 **🖋 Titolo del messaggio:** Entra a far parte della Protezione Civile
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Siamo alla ricerca di persone pronte ad aiutare!
 
@@ -59,7 +59,7 @@ Per conoscere le organizzazioni attive nel Comune di `<comune>` e diventare volo
 
 <summary>È stato pubblicato il nuovo piano di protezione civile</summary>
 
-**🖋  Titolo del messaggio:** È disponibile il nuovo piano di protezione civile
+**🖋 Titolo del messaggio:** È disponibile il nuovo piano di protezione civile
 
 🗒 **Testo del messaggio**:
 
@@ -69,7 +69,7 @@ All'interno del piano troverai indicazioni su come proteggere te stesso/a, la tu
 
 Per consultarlo, \[visita questo sito]\(URL).
 
-**🪄  Pulsante:** n/a
+**🪄 Pulsante:** n/a
 
 ***
 
@@ -184,11 +184,11 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 {% hint style="info" %}
 **Un modello da personalizzare**
 
-Le procedure di questo servizio variano molto da ente a ente. Consigliamo di utilizzare i testi dei messaggi come un punto di partenza e di aggiungere ulteriori informazioni.&#x20;
+Le procedure di questo servizio variano molto da ente a ente. Consigliamo di utilizzare i testi dei messaggi come un punto di partenza e di aggiungere ulteriori informazioni.
 
 Il modello è un esempio che non ha carattere vincolante per l’ente e sul quale la Società declina qualsiasi responsabilità, avendo valore esemplificativo.
 
-Puoi copiare i testi dei messaggi da personalizzare da questo documento:&#x20;
+Puoi copiare i testi dei messaggi da personalizzare da questo documento:
 
-{% file src="../.gitbook/assets/IO - Template servizi - Protezione civile.xlsx" %}
+{% file src="../../../app-io/modelli-servizi/v1.0/.gitbook/assets/IO - Template servizi - Protezione civile.xlsx" %}
 {% endhint %}

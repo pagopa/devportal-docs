@@ -5,15 +5,15 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 * fornire alle cittadine e ai cittadini un riferimento per la ricezione delle comunicazioni riguardanti la raccolta differenziata dei rifiuti nel territorio comunale;
 * monitorare e gestire tempestivamente le richieste, le comunicazioni e i pagamenti per l’erogazione del servizio.
 
-[**Scopri tutti i benefici di integrarsi con IO →** ](https://docs.pagopa.it/manuale-servizi/lapp-io/cose-io-e-qual-e-il-suo-obiettivo)
+[**Scopri tutti i benefici di integrarsi con IO →**](https://docs.pagopa.it/manuale-servizi/lapp-io/cose-io-e-qual-e-il-suo-obiettivo)
 
 ## Scheda servizio <a href="#scheda-servizio" id="scheda-servizio"></a>
 
-<table data-header-hidden><thead><tr><th width="373"></th><th></th></tr></thead><tbody><tr><td><strong>Nome servizio</strong></td><td>Raccolta differenziata dei rifiuti</td></tr><tr><td><strong>Argomento</strong></td><td>Casa e utenze</td></tr><tr><td><strong>Descrizione del servizio</strong></td><td><p>Il servizio riguarda la raccolta differenziata dei rifiuti. </p><p></p><p>Tramite IO potrai:</p><ul><li>ricevere comunicazioni e aggiornamento sul ritiro dei rifiuti;</li><li>ricevere eventuali avvisi di pagamento e pagarli in app;</li><li>ricevere altre comunicazioni.</li></ul></td></tr><tr><td><strong>Pulsante</strong></td><td>Visita il sito</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="373"></th><th></th></tr></thead><tbody><tr><td><strong>Nome servizio</strong></td><td>Raccolta differenziata dei rifiuti</td></tr><tr><td><strong>Argomento</strong></td><td>Casa e utenze</td></tr><tr><td><strong>Descrizione del servizio</strong></td><td><p>Il servizio riguarda la raccolta differenziata dei rifiuti.</p><p>Tramite IO potrai:</p><ul><li>ricevere comunicazioni e aggiornamento sul ritiro dei rifiuti;</li><li>ricevere eventuali avvisi di pagamento e pagarli in app;</li><li>ricevere altre comunicazioni.</li></ul></td></tr><tr><td><strong>Pulsante</strong></td><td>Visita il sito</td></tr></tbody></table>
 
 ## Ciclo di vita del servizio
 
-<figure><img src="../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption><p><strong>Ciclo di vita e eventi del servizio Raccolta differenziata dei rifiuti</strong></p></figcaption></figure>
+<figure><img src="../../../app-io/modelli-servizi/v1.0/.gitbook/assets/image (32) (1).png" alt=""><figcaption><p><strong>Ciclo di vita e eventi del servizio Raccolta differenziata dei rifiuti</strong></p></figcaption></figure>
 
 ## Messaggi del servizio
 
@@ -31,7 +31,7 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 **🖋 Titolo del messaggio:** Pulizia strade in `<indirizzo>`
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Il `<gg/mm/aaaa>` dalle `<hh:mm>` alle `<hh:mm>` sarà attivo il servizio di pulizia strade in `<indirizzo>`.
 
@@ -53,7 +53,7 @@ Per vedere il calendario della tua zona, \[visita questo sito]\(URL).
 
 ### Comunicazioni sul servizio di raccolta rifiuti
 
-Se è previsto l'utilizzo di una card o un kit per la raccolta dei rifiuti, si può predisporre il seguente messaggio:&#x20;
+Se è previsto l'utilizzo di una card o un kit per la raccolta dei rifiuti, si può predisporre il seguente messaggio:
 
 <details>
 
@@ -61,7 +61,7 @@ Se è previsto l'utilizzo di una card o un kit per la raccolta dei rifiuti, si p
 
 **🖋 Titolo del messaggio:** `<La tua card/il tuo kit>` è `<pronto/a>` per il ritiro
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Dal `<gg/mm/aaaa>` puoi ritirare `<la tua card/il tuo kit>` di raccolta differenziata dei rifiuti.
 
@@ -69,7 +69,7 @@ Dal `<gg/mm/aaaa>` puoi ritirare `<la tua card/il tuo kit>` di raccolta differen
 
 **Quando:** `<giorni e orari di apertura dello sportello>`
 
-&#x20;Per ulteriori informazioni, \[visita questo sito]\(URL).
+Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 **🪄 Pulsante**: n/a
 
@@ -89,7 +89,7 @@ Dal `<gg/mm/aaaa>` puoi ritirare `<la tua card/il tuo kit>` di raccolta differen
 
 **🖋 Titolo del messaggio:** Variazione raccolta dei rifiuti in `<indirizzo>`
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Il `<gg/mm/aaaa>` il servizio di raccolta differenziata dei rifiuti in `<indirizzo>` subirà queste variazioni:
 
@@ -115,7 +115,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 **🖋 Titolo del messaggio:** Variazione raccolta dei rifiuti in `<indirizzo>`
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Dal `<gg/mm/aaaa>` al `<gg/mm/aaaa>` il servizio di raccolta differenziata dei rifiuti in `<indirizzo>` subirà variazioni.
 
@@ -133,7 +133,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 </details>
 
-Se è prevista la consegna dei sacchi della raccolta differenziata a raccolta dei rifiuti, si può predisporre il seguente messaggio:&#x20;
+Se è prevista la consegna dei sacchi della raccolta differenziata a raccolta dei rifiuti, si può predisporre il seguente messaggio:
 
 <details>
 
@@ -141,7 +141,7 @@ Se è prevista la consegna dei sacchi della raccolta differenziata a raccolta de
 
 **🖋 Titolo del messaggio:** Consegna sacchi raccolta differenziata
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Dal `<gg/mm/aaaa>` al `<gg/mm/aaaa>` potrai ritirare i sacchi per la raccolta differenziata dei rifiuti.
 
@@ -165,7 +165,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 ### Richieste card condominiali, bidoni condominiali o sopralluogo <a href="#docs-internal-guid-2dc77bdc-7fff-bf45-bcec-a37cd4e26a93" id="docs-internal-guid-2dc77bdc-7fff-bf45-bcec-a37cd4e26a93"></a>
 
-Se è previsto l'utilizzo di card condominiali o bidoni condominiali per i rifiuti, si possono predisporre i seguenti messaggi:&#x20;
+Se è previsto l'utilizzo di card condominiali o bidoni condominiali per i rifiuti, si possono predisporre i seguenti messaggi:
 
 <details>
 
@@ -173,7 +173,7 @@ Se è previsto l'utilizzo di card condominiali o bidoni condominiali per i rifiu
 
 **🖋 Titolo del messaggio:** La tua richiesta di `<card/bidoni/sacchi/sopralluogo>` è stata accolta
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 La tua richiesta di `<oggetto della richiesta>` del `<gg/mm/aaaa>` è stata accolta.
 
@@ -197,7 +197,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 **🖋 Titolo del messaggio:** La tua richiesta di `<card/bidoni/sacchi/sopralluogo>` non è stata accolta
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 La tua richiesta di `<oggetto della richiesta>` del `<gg/mm/aaaa>` non è stata accolta.
 
@@ -223,7 +223,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 ***
 
-&#x20;**Titolo del messaggio:** Hai un nuovo avviso di pagamento
+**Titolo del messaggio:** Hai un nuovo avviso di pagamento
 
 🗒 **Testo del messaggio**:
 
@@ -241,7 +241,7 @@ Per maggiori informazioni o per richiedere assistenza, contattaci tramite i cana
 
 In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio potrebbe subire variazioni.
 
-**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)
 
 ***
 
@@ -273,7 +273,7 @@ Il tuo pagamento per `<causale>` sta per scadere.
 
 Se hai già provveduto a pagare l’avviso, ignora questo messaggio.
 
-**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)
 
 ***
 
@@ -296,13 +296,13 @@ Il seguente messaggio serve a sollecitare il cittadino per il mancato pagamento 
 
 **🖋 Titolo del messaggio:** Pagamento non effettuato
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Il tuo pagamento per `<causale>` è scaduto il `<gg/mm/aaaa>`.
 
 Se hai già provveduto a pagare l’avviso, ignora questo messaggio.
 
-**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)
 
 ***
 
@@ -326,7 +326,7 @@ Se hai già provveduto a pagare l’avviso, ignora questo messaggio.
 
 **🖋 Titolo del messaggio:** Il tuo appuntamento
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Hai prenotato un appuntamento per `<causale>` presso `<sportello>`.
 
@@ -336,7 +336,7 @@ Il numero della prenotazione è: `<nnnn>`
 
 **Quando:** `<gg/mm/aaaa>` alle `<hh:mm>`
 
-Per ulteriori informazioni, (visita questo sito)\[URL]. &#x20;
+Per ulteriori informazioni, (visita questo sito)\[URL].
 
 **🪄 Pulsante**: Disdici appuntamento
 
@@ -362,11 +362,11 @@ IO è integrata con SEND - Servizio Notifiche Digitale, per l'invio di comunicaz
 {% hint style="info" %}
 **Un modello da personalizzare**
 
-Le procedure di questo servizio variano molto da ente a ente. Consigliamo di utilizzare i testi dei messaggi come un punto di partenza e di aggiungere ulteriori informazioni.&#x20;
+Le procedure di questo servizio variano molto da ente a ente. Consigliamo di utilizzare i testi dei messaggi come un punto di partenza e di aggiungere ulteriori informazioni.
 
 Il modello è un esempio che non ha carattere vincolante per l’ente e sul quale la Società declina qualsiasi responsabilità, avendo valore esemplificativo.
 
 Puoi copiare i testi dei messaggi da personalizzare da questo documento:
 
-{% file src="../.gitbook/assets/IO - Template servizi - Raccolta differenziata dei rifiuti.xlsx" %}
+{% file src="../../../app-io/modelli-servizi/v1.0/.gitbook/assets/IO - Template servizi - Raccolta differenziata dei rifiuti.xlsx" %}
 {% endhint %}

@@ -5,7 +5,7 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 * fornire alle cittadine e ai cittadini un riferimento per la ricezione delle comunicazioni riguardanti il sistema scolastico frequentato dai minori su cui hanno responsabilità genitoriale;
 * monitorare e gestire tempestivamente le richieste, comunicazioni e i pagamenti per l'erogazione della mensa scolastica.
 
-[**Scopri tutti i benefici di integrarsi con IO →** ](https://docs.pagopa.it/manuale-servizi/lapp-io/cose-io-e-qual-e-il-suo-obiettivo)
+[**Scopri tutti i benefici di integrarsi con IO →**](https://docs.pagopa.it/manuale-servizi/lapp-io/cose-io-e-qual-e-il-suo-obiettivo)
 
 ## Scheda servizio <a href="#scheda-servizio" id="scheda-servizio"></a>
 
@@ -13,9 +13,9 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 
 ## Ciclo di vita del servizio
 
-<figure><img src="../.gitbook/assets/image (24).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Mensa Scolastica</strong></p></figcaption></figure>
+<figure><img src="../../../app-io/modelli-servizi/v1.0/.gitbook/assets/image (23).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Mensa Scolastica</strong></p></figcaption></figure>
 
-## Messaggi del servizio&#x20;
+## Messaggi del servizio
 
 {% hint style="success" %}
 **Il servizio ideale**
@@ -31,19 +31,19 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 **🖋 Titolo del messaggio:** Sono aperte le richieste per il servizio mensa per l'anno educativo `<aaaa/aaaa>`
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 In seguito alla domanda di iscrizione nr. `<nnnn>` per l'anno educativo `<aaaa/aaaa>`, è possibile richiedere il servizio mensa.
 
-\[Se previsto] Se hai espresso la preferenza per il tempo pieno, l'iscrizione alla mensa è obbligatoria.&#x20;
+\[Se previsto] Se hai espresso la preferenza per il tempo pieno, l'iscrizione alla mensa è obbligatoria.
 
-Per ulteriori informazioni sul servizio, diete speciali e costi, \[visita questa pagina]\(URL).&#x20;
+Per ulteriori informazioni sul servizio, diete speciali e costi, \[visita questa pagina]\(URL).
 
 **🪄 Pulsante**: Fai domanda
 
 ***
 
-**Destinatari**:  Tutti i genitori/tutori che hanno responsabilità genitoriale di un minore iscritto al sistema scolastico.
+**Destinatari**: Tutti i genitori/tutori che hanno responsabilità genitoriale di un minore iscritto al sistema scolastico.
 
 **Quando inviarlo**: Quando l'iscrizione al sistema scolastico è stata completata e accolta o inizia un nuovo anno educativo.
 
@@ -57,9 +57,9 @@ Per ulteriori informazioni sul servizio, diete speciali e costi, \[visita questa
 
 **🖋 Titolo del messaggio:** La tua richiesta è stata accolta
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
-La tua richiesta per il servizio mensa per `<nome>` `<cognome>` è stata accolta.&#x20;
+La tua richiesta per il servizio mensa per `<nome>` `<cognome>` è stata accolta.
 
 \[Se previsto] L'iscrizione sarà valida per il periodo di erogazione del servizio mensa dal `<gg/mm/aaaa>` al `<gg/mm/aaaa>`.
 
@@ -83,7 +83,7 @@ Per ulteriori informazioni, \[visita questa pagina]\(URL).
 
 **🖋 Titolo del messaggio:** La tua richiesta non è stata accolta
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 La tua richiesta per il servizio mensa per `<nome>` `<cognome>` non è stata accolta.
 
@@ -109,9 +109,9 @@ Per ulteriori informazioni, \[visita questa pagina]\(URL).
 
 **🖋 Titolo del messaggio:** La tua richiesta è stata accolta
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
-La tua richiesta di dieta speciale per `<nome>` `<cognome>` è stata accolta, potrai avere maggiori informazioni sui pasti e la relativa retta \[su questo sito]\(URL).&#x20;
+La tua richiesta di dieta speciale per `<nome>` `<cognome>` è stata accolta, potrai avere maggiori informazioni sui pasti e la relativa retta \[su questo sito]\(URL).
 
 **🪄 Pulsante**: n/a
 
@@ -131,11 +131,11 @@ La tua richiesta di dieta speciale per `<nome>` `<cognome>` è stata accolta, po
 
 **🖋 Titolo del messaggio:** La tua richiesta non è stata accolta
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 La tua richiesta di dieta speciale per `<nome>` `<cognome>` non è stata accolta.
 
-Per ulteriori informazioni, \[visita questa pagina]\(URL).&#x20;
+Per ulteriori informazioni, \[visita questa pagina]\(URL).
 
 **🪄 Pulsante**: n/a
 
@@ -155,7 +155,7 @@ Per ulteriori informazioni, \[visita questa pagina]\(URL).&#x20;
 
 **🖋 Titolo del messaggio:** La tua richiesta di rinuncia è stata accolta
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 La tua richiesta di rinuncia alla dieta speciale per `<nome>` `<cognome>` prevista per il servizio mensa scolastica è stata accolta.
 
@@ -179,15 +179,15 @@ Per ulteriori informazioni, \[visita questa pagina]\(URL).
 
 <summary>Richiedi agevolazioni e riduzioni sulla retta</summary>
 
-**🖋 Titolo del messaggio:** Richiedi agevolazioni sulla retta&#x20;
+**🖋 Titolo del messaggio:** Richiedi agevolazioni sulla retta
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 I nuovi iscritti o già iscritti possono comunicare l'interesse a richiedere una retta agevolata o ridotta se:
 
-\[Inserire un breve elenco puntato di condizioni, da completare a cura e responsabilità dell'ente]&#x20;
+\[Inserire un breve elenco puntato di condizioni, da completare a cura e responsabilità dell'ente]
 
-Per ulteriori informazioni, \[visita questo sito]\(URL).&#x20;
+Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 **🪄 Pulsante**: Scopri tutte le agevolazioni
 
@@ -203,9 +203,9 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).&#x20;
 
 ### Pagamento
 
-Il pagamento della retta può avere diverse modalità di esecuzione che dipendono dall'ente erogatore.&#x20;
+Il pagamento della retta può avere diverse modalità di esecuzione che dipendono dall'ente erogatore.
 
-Qui sono riportati i messaggi di pagamento gestiti dall'ente:&#x20;
+Qui sono riportati i messaggi di pagamento gestiti dall'ente:
 
 <details>
 
@@ -235,7 +235,7 @@ In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio p
 
 \[Se previsto] Per ulteriori informazioni sul calcolo della retta, \[visita questo sito]\(URL).
 
-**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)
 
 ***
 
@@ -267,7 +267,7 @@ Il tuo pagamento per il servizio mensa sta per scadere.
 
 Se hai già provveduto a pagare l’avviso o se hai richiesto la domiciliazione delle rette sul conto corrente, ignora questo messaggio.
 
-**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)
 
 ***
 
@@ -285,13 +285,13 @@ Se hai già provveduto a pagare l’avviso o se hai richiesto la domiciliazione 
 
 **🖋 Titolo del messaggio:** L'iscrizione al servizio è bloccata da pagamenti insoluti
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Risultano pagamenti insoluti a carico di `<nome>` `<cognome>` e relative a `<causale>`.
 
 Per maggiori informazioni o per richiedere assistenza, contattaci tramite i canali che trovi nella scheda servizio.
 
-**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)
 
 ***
 
@@ -315,13 +315,13 @@ Il seguente messaggio serve a sensibilizzare il cittadino per il mancato pagamen
 
 **🖋 Titolo del messaggio:** Pagamento non effettuato
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Il tuo pagamento per `<causale>` è scaduto il `<gg/mm/aaaa>`.
 
 Se hai già provveduto a pagare l’avviso ignora questo messaggio.
 
-**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)
 
 ***
 
@@ -335,7 +335,7 @@ Se hai già provveduto a pagare l’avviso ignora questo messaggio.
 
 ### Pagamento retta con borsellino
 
-Qui sono riportati i messaggi di pagamento nel caso in cui l'ente si avvale di un Borsellino Elettronico per la gestione degli stessi:&#x20;
+Qui sono riportati i messaggi di pagamento nel caso in cui l'ente si avvale di un Borsellino Elettronico per la gestione degli stessi:
 
 <details>
 
@@ -343,7 +343,7 @@ Qui sono riportati i messaggi di pagamento nel caso in cui l'ente si avvale di u
 
 **🖋 Titolo del messaggio:** Conferma di pagamento
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Il `<gg/mm/aaaa>` è stato effettuato un pagamento sul tuo borsellino elettronico relativo al servizio mensa per `<nome>` `<cognome>`.
 
@@ -353,7 +353,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 ***
 
-**Destinatari**: Tutti i genitori/tutori che hanno responsabilità genitoriale di un minore regolarmente iscritto&#x20;
+**Destinatari**: Tutti i genitori/tutori che hanno responsabilità genitoriale di un minore regolarmente iscritto
 
 **Quando inviarlo**: Quando il pagamento per la retta è stato effettuato.
 
@@ -367,11 +367,11 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 **🖋 Titolo del messaggio:** Hai un pagamento in scadenza
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
-Il pagamento per `<causale>` relativo al servizio mensa per `<nome>` `<cognome>` è in scadenza.&#x20;
+Il pagamento per `<causale>` relativo al servizio mensa per `<nome>` `<cognome>` è in scadenza.
 
-Ricarica il tuo borsellino elettronico con l'importo dovuto entro la data di scadenza.&#x20;
+Ricarica il tuo borsellino elettronico con l'importo dovuto entro la data di scadenza.
 
 **Devi pagare:** <00,00> €
 
@@ -385,7 +385,7 @@ Per maggiori informazioni o per richiedere assistenza, contattaci tramite i cana
 
 In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio potrebbe subire variazioni.
 
-**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)
 
 ***
 
@@ -405,7 +405,7 @@ In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio p
 
 **🖋 Titolo del messaggio:** Hai rinunciato al servizio mensa
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 La tua richiesta di rinuncia al servizio mensa è stata accolta.
 
@@ -423,7 +423,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 </details>
 
-### Emissione attestazione spese sostenute&#x20;
+### Emissione attestazione spese sostenute
 
 <details>
 
@@ -431,9 +431,9 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 **🖋 Titolo del messaggio:** È disponibile l'attestazione delle spese sostenute
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
-Dal `<gg/mm/aaaa>` è disponibile l'attestazione delle spese sostenute relative al servizio mensa per `<nome>` `<cognome>` utile ai fini delle detrazioni in sede di dichiarazione dei redditi.&#x20;
+Dal `<gg/mm/aaaa>` è disponibile l'attestazione delle spese sostenute relative al servizio mensa per `<nome>` `<cognome>` utile ai fini delle detrazioni in sede di dichiarazione dei redditi.
 
 \[Solo per messaggi Premium con allegato] Trovi l'attestazione emessa in allegato a questo messaggio.
 
@@ -471,5 +471,5 @@ Il modello è un esempio che non ha carattere vincolante per l’ente e sul qual
 
 Puoi copiare i testi dei messaggi da personalizzare da questo documento:
 
-{% file src="../.gitbook/assets/IO - Template servizi - Mensa scolastica.xlsx" %}
+{% file src="../../../app-io/modelli-servizi/v1.0/.gitbook/assets/IO - Template servizi - Mensa scolastica.xlsx" %}
 {% endhint %}

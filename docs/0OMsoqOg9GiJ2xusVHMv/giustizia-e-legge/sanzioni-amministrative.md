@@ -4,15 +4,15 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 
 * fornire alle cittadine e ai cittadini un riferimento per la ricezione delle comunicazioni riguardanti le sanzioni amministrative.
 
-[**Scopri tutti i benefici di integrarsi con IO →** ](https://docs.pagopa.it/manuale-servizi/lapp-io/cose-io-e-qual-e-il-suo-obiettivo)
+[**Scopri tutti i benefici di integrarsi con IO →**](https://docs.pagopa.it/manuale-servizi/lapp-io/cose-io-e-qual-e-il-suo-obiettivo)
 
 ## Scheda servizio <a href="#scheda-servizio" id="scheda-servizio"></a>
 
-<table data-header-hidden><thead><tr><th width="373"></th><th></th></tr></thead><tbody><tr><td><strong>Nome servizio</strong></td><td>Sanzioni amministrative</td></tr><tr><td><strong>Argomento</strong></td><td>Giustizia e legge</td></tr><tr><td><strong>Descrizione del servizio</strong></td><td><p>Il servizio riguarda le sanzioni amministrative a ordinanze e regolamenti</p><p></p><p>Tramite IO potrai:</p><ul><li>ricevere comunicazioni e aggiornamenti;</li><li>ricevere eventuali avvisi di pagamento e pagarli in app;</li><li>ricevere altre comunicazioni.</li></ul></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="373"></th><th></th></tr></thead><tbody><tr><td><strong>Nome servizio</strong></td><td>Sanzioni amministrative</td></tr><tr><td><strong>Argomento</strong></td><td>Giustizia e legge</td></tr><tr><td><strong>Descrizione del servizio</strong></td><td><p>Il servizio riguarda le sanzioni amministrative a ordinanze e regolamenti</p><p>Tramite IO potrai:</p><ul><li>ricevere comunicazioni e aggiornamenti;</li><li>ricevere eventuali avvisi di pagamento e pagarli in app;</li><li>ricevere altre comunicazioni.</li></ul></td></tr></tbody></table>
 
 ## Ciclo di vita del servizio
 
-<figure><img src="../.gitbook/assets/image (10) (1) (1).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Sanzioni amministrative</strong></p></figcaption></figure>
+<figure><img src="../../../app-io/modelli-servizi/v1.0/.gitbook/assets/image (37) (1).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Sanzioni amministrative</strong></p></figcaption></figure>
 
 ## Messaggi del servizio
 
@@ -30,7 +30,7 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 **🖋 Titolo del messaggio:** C'è una nuova ordinanza
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Il `<gg/mm/aaaa>` è stata pubblicata una nuova ordinanza relativa a `<oggetto dell’ordinanza>`.
 
@@ -60,11 +60,11 @@ IO è integrata con SEND - Servizio Notifiche Digitale, per l'invio di comunicaz
 {% hint style="info" %}
 **Un modello da personalizzare**
 
-Le procedure di questo servizio variano molto da ente a ente. Consigliamo di utilizzare i testi dei messaggi come un punto di partenza e di aggiungere ulteriori informazioni.&#x20;
+Le procedure di questo servizio variano molto da ente a ente. Consigliamo di utilizzare i testi dei messaggi come un punto di partenza e di aggiungere ulteriori informazioni.
 
 Il modello è un esempio che non ha carattere vincolante per l’ente e sul quale la Società declina qualsiasi responsabilità, avendo valore esemplificativo.
 
 Puoi copiare i testi dei messaggi da personalizzare da questo documento:
 
-{% file src="../.gitbook/assets/IO - Template servizi - Sanzioni amministrative.xlsx" %}
+{% file src="../../../app-io/modelli-servizi/v1.0/.gitbook/assets/IO - Template servizi - Sanzioni amministrative.xlsx" %}
 {% endhint %}

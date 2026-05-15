@@ -5,15 +5,15 @@ Erogare il servizio tramite app IO permette agli enti di:
 * fornire alle cittadine e ai cittadini un riferimento per la ricezione delle comunicazioni riguardanti il sistema scolastico frequentato dai minori a carico;
 * monitorare e gestire tempestivamente le richieste, comunicazioni e i pagamenti per l'erogazione del trasporto scolastico.
 
-[**Scopri tutti i benefici di integrarsi con IO →** ](https://docs.pagopa.it/manuale-servizi/lapp-io/cose-io-e-qual-e-il-suo-obiettivo)
+[**Scopri tutti i benefici di integrarsi con IO →**](https://docs.pagopa.it/manuale-servizi/lapp-io/cose-io-e-qual-e-il-suo-obiettivo)
 
 ## Scheda servizio <a href="#scheda-servizio" id="scheda-servizio"></a>
 
-<table data-header-hidden><thead><tr><th width="373"></th><th></th></tr></thead><tbody><tr><td><strong>Nome servizio</strong></td><td>Trasporto scolastico </td></tr><tr><td><strong>Argomento</strong></td><td>Educazione e formazione</td></tr><tr><td><strong>Descrizione del servizio</strong></td><td><p>Il servizio riguarda il trasporto scolastico.</p><p><br>Tramite IO potrai:</p><ul><li>ricevere informazioni sull'apertura delle iscrizioni al servizio trasporto scolastico;</li><li>ricevere comunicazioni e aggiornamenti sullo stato della domanda presentata;</li><li>ricevere informazioni su eventuali riduzioni e agevolazioni;</li><li>ricevere comunicazioni su eventuali variazioni dell'erogazione del servizio;</li><li>ricevere avvisi di pagamento e pagarli in app;</li><li>ricevere conferma del pagamento;</li><li>ricevere altre comunicazioni.</li></ul></td></tr><tr><td><strong>Pulsante</strong></td><td>Scopri di più</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="373"></th><th></th></tr></thead><tbody><tr><td><strong>Nome servizio</strong></td><td>Trasporto scolastico</td></tr><tr><td><strong>Argomento</strong></td><td>Educazione e formazione</td></tr><tr><td><strong>Descrizione del servizio</strong></td><td><p>Il servizio riguarda il trasporto scolastico.</p><p><br>Tramite IO potrai:</p><ul><li>ricevere informazioni sull'apertura delle iscrizioni al servizio trasporto scolastico;</li><li>ricevere comunicazioni e aggiornamenti sullo stato della domanda presentata;</li><li>ricevere informazioni su eventuali riduzioni e agevolazioni;</li><li>ricevere comunicazioni su eventuali variazioni dell'erogazione del servizio;</li><li>ricevere avvisi di pagamento e pagarli in app;</li><li>ricevere conferma del pagamento;</li><li>ricevere altre comunicazioni.</li></ul></td></tr><tr><td><strong>Pulsante</strong></td><td>Scopri di più</td></tr></tbody></table>
 
 ## Ciclo di vita del servizio
 
-<figure><img src="../.gitbook/assets/Educazione e formazione_Trasporto scolastico.png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Trasporto scolastico</strong></p></figcaption></figure>
+<figure><img src="../../../app-io/modelli-servizi/v1.0/.gitbook/assets/Educazione e formazione_Trasporto scolastico.png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Trasporto scolastico</strong></p></figcaption></figure>
 
 ## Messaggi del servizio
 
@@ -31,13 +31,13 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 **🖋 Titolo del messaggio:** Comunicazione di variazione del servizio
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
-Il trasporto scolastico previsto `<identificativo linea>` per `<scuola>` subirà variazioni `<es. in data gg/mm/aaaa>` per `<motivazione>`.&#x20;
+Il trasporto scolastico previsto `<identificativo linea>` per `<scuola>` subirà variazioni `<es. in data gg/mm/aaaa>` per `<motivazione>`.
 
 Ci scusiamo per il disagio.
 
-Per ulteriori informazioni, \[visita questo sito]\(URL).&#x20;
+Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 **🪄 Pulsante**: n/a
 
@@ -59,9 +59,9 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).&#x20;
 
 **🖋 Titolo del messaggio:** Sono aperte le richieste per il trasporto scolastico per l'anno educativo `<aaaa/aaaa>`
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
-In seguito alla domanda di iscrizione per l'anno educativo  `<aaaa/aaaa>` a `<scuola>` per `<nome>` `<cognome>`, dal `<gg/mm/aaaa>` al `<gg/mm/aaaa>` potrai fare domanda di iscrizione al servizio di trasporto scolastico. Il trasporto è operativo `<es. per tutto il periodo scolastico>`.&#x20;
+In seguito alla domanda di iscrizione per l'anno educativo `<aaaa/aaaa>` a `<scuola>` per `<nome>` `<cognome>`, dal `<gg/mm/aaaa>` al `<gg/mm/aaaa>` potrai fare domanda di iscrizione al servizio di trasporto scolastico. Il trasporto è operativo `<es. per tutto il periodo scolastico>`.
 
 Il servizio è effettuato da `<azienda convenzionata>`.
 
@@ -73,11 +73,11 @@ Per ulteriori informazioni e fare domanda d’iscrizione, \[visita questo sito]\
 
 ***
 
-**Destinatari**:  Tutti i genitori/tutori che hanno responsabilità genitoriale di un minore iscritto al sistema scolastico.
+**Destinatari**: Tutti i genitori/tutori che hanno responsabilità genitoriale di un minore iscritto al sistema scolastico.
 
 **Quando inviarlo**: Quando l'iscrizione al sistema scolastico è stata perfezionata e accolta o inizia un nuovo anno educativo.
 
-**User story**: Come cittadino voglio ricevere informazioni sulla possibilità di usufruire del servizio trasporto scolastico.&#x20;
+**User story**: Come cittadino voglio ricevere informazioni sulla possibilità di usufruire del servizio trasporto scolastico.
 
 </details>
 
@@ -89,9 +89,9 @@ Per ulteriori informazioni e fare domanda d’iscrizione, \[visita questo sito]\
 
 **🖋 Titolo del messaggio:** La tua domanda è stata accolta
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
-La tua domanda per `<nome>` `<cognome>` per il servizio di trasporto scolastico è stata accolta, potrai avere maggiori informazioni sul servizio \[visitando questo sito]\(URL).&#x20;
+La tua domanda per `<nome>` `<cognome>` per il servizio di trasporto scolastico è stata accolta, potrai avere maggiori informazioni sul servizio \[visitando questo sito]\(URL).
 
 \[Se previsto] Per finalizzare l'iscrizione, è previsto il pagamento della prima rata tramite l'avviso di pagamento.
 
@@ -113,11 +113,11 @@ La tua domanda per `<nome>` `<cognome>` per il servizio di trasporto scolastico 
 
 **🖋 Titolo del messaggio:** La tua domanda non è stata accolta
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 La tua domanda per `<nome>` `<cognome>` per il servizio di trasporto scolastico non è stata accolta.
 
-Per ulteriori informazioni, \[visita questo sito]\(URL).&#x20;
+Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 **🪄 Pulsante** : n/a
 
@@ -137,13 +137,13 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).&#x20;
 
 <summary>Richiedi agevolazioni e riduzioni sulla retta</summary>
 
-**🖋 Titolo del messaggio:** Richiedi agevolazioni sulla retta&#x20;
+**🖋 Titolo del messaggio:** Richiedi agevolazioni sulla retta
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
-I nuovi iscritti o già iscritti possono comunicare l'interesse a richiedere una retta agevolata o ridotta se:&#x20;
+I nuovi iscritti o già iscritti possono comunicare l'interesse a richiedere una retta agevolata o ridotta se:
 
-\[Inserire un breve elenco puntato di condizioni, da completare a cura e responsabilità dell'ente]&#x20;
+\[Inserire un breve elenco puntato di condizioni, da completare a cura e responsabilità dell'ente]
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -187,7 +187,7 @@ Per maggiori informazioni o per richiedere assistenza, contattaci tramite i cana
 
 In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio potrebbe subire variazioni.
 
-**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)
 
 ***
 
@@ -219,7 +219,7 @@ Il tuo pagamento per il servizio trasporto scolastico per `<scuola>` sta per sca
 
 Se hai già provveduto a pagare l’avviso o se hai richiesto la domiciliazione delle rette sul conto corrente, ignora questo messaggio.
 
-**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)
 
 ***
 
@@ -249,5 +249,5 @@ Il modello è un esempio che non ha carattere vincolante per l’ente e sul qual
 
 Puoi copiare i testi dei messaggi da personalizzare da questo documento:
 
-{% file src="../.gitbook/assets/IO - Template servizi - Trasporto scolastico .xlsx" %}
+{% file src="../../../app-io/modelli-servizi/v1.0/.gitbook/assets/IO - Template servizi - Trasporto scolastico .xlsx" %}
 {% endhint %}

@@ -4,7 +4,7 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 
 * mandare comunicazioni sul rilascio e gestione delle tessere elettorali dei cittadini.
 
-[**Scopri tutti i benefici di integrarsi con IO →** ](https://docs.pagopa.it/manuale-servizi/lapp-io/cose-io-e-qual-e-il-suo-obiettivo#perche-un-ente-dovrebbe-integrarsi-con-io)
+[**Scopri tutti i benefici di integrarsi con IO →**](https://docs.pagopa.it/manuale-servizi/lapp-io/cose-io-e-qual-e-il-suo-obiettivo#perche-un-ente-dovrebbe-integrarsi-con-io)
 
 ## Scheda servizio <a href="#scheda-servizio" id="scheda-servizio"></a>
 
@@ -12,9 +12,9 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 
 ## Ciclo di vita del servizio
 
-<figure><img src="../.gitbook/assets/image (26).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Tessera elettorale</strong></p></figcaption></figure>
+<figure><img src="../../../app-io/modelli-servizi/v1.0/.gitbook/assets/image (25).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Tessera elettorale</strong></p></figcaption></figure>
 
-## Messaggi del servizio&#x20;
+## Messaggi del servizio
 
 {% hint style="success" %}
 **Il servizio ideale**
@@ -30,13 +30,13 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 **🖋 Titolo del messaggio:** Richiedi la tua tessera elettorale
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Controlla se la tua tessera elettorale è valida per `<le elezioni o il referendum>` del `<gg/mm/aaaa>`.
 
-Puoi richiedere una nuova tessera o un suo aggiornamento in caso di smarrimento, furto, esaurimento spazi per la certificazione o per cambio indirizzo di domicilio o residenza. Per farlo, `<modalità di richiesta>`.&#x20;
+Puoi richiedere una nuova tessera o un suo aggiornamento in caso di smarrimento, furto, esaurimento spazi per la certificazione o per cambio indirizzo di domicilio o residenza. Per farlo, `<modalità di richiesta>`.
 
-Per ulteriori informazioni, \[visita questo sito]\(URL).&#x20;
+Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 **🪄 Pulsante**: n/a
 
@@ -44,7 +44,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).&#x20;
 
 **Destinatari**: Tutti i cittadini residenti nell’area geografica di azione del servizio che possono votare.
 
-**Quando inviarlo**: Quando i cittadini sono chiamati al voto&#x20;
+**Quando inviarlo**: Quando i cittadini sono chiamati al voto
 
 **User story**: Come cittadino voglio sapere come richiedere una tessera elettorale
 
@@ -56,11 +56,11 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).&#x20;
 
 **🖋 Titolo del messaggio:** La tua tessera elettorale è disponibile.
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Il `<gg/mm/aaaa>` è stata rilasciata la tessera elettorale `<modalità di rilascio>`.
 
-Per ulteriori informazioni, (visita questo sito)\[URL).&#x20;
+Per ulteriori informazioni, (visita questo sito)\[URL).
 
 **🪄 Pulsante**: n/a
 
@@ -68,7 +68,7 @@ Per ulteriori informazioni, (visita questo sito)\[URL).&#x20;
 
 **Destinatari**: Tutti i cittadini residenti nell’area geografica di azione del servizio che hanno richiesto una tessera elettorale
 
-**Quando inviarlo**: Quando la tessera elettorale è rilasciata&#x20;
+**Quando inviarlo**: Quando la tessera elettorale è rilasciata
 
 **User story**: Come cittadino voglio ricevere notifica quando la mia tessera elettorale è stata rilasciata
 
@@ -82,19 +82,19 @@ Per ulteriori informazioni, (visita questo sito)\[URL).&#x20;
 
 **🖋 Titolo del messaggio:** Recapito tessera elettorale
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
-Il `<gg/mm/aaaa>` è stata rilasciata una tessera elettorale a tuo nome. È stata inviata per posta al tuo indirizzo di residenza.&#x20;
+Il `<gg/mm/aaaa>` è stata rilasciata una tessera elettorale a tuo nome. È stata inviata per posta al tuo indirizzo di residenza.
 
-Per ulteriori informazioni, \[visita questo sito]\(URL).&#x20;
+Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 **🪄 Pulsante**: n/a
 
 ***
 
-**Destinatari**: Tutti i cittadini residenti nell’area geografica di azione del servizio neo maggiorenni o nuovi residenti&#x20;
+**Destinatari**: Tutti i cittadini residenti nell’area geografica di azione del servizio neo maggiorenni o nuovi residenti
 
-**Quando inviarlo**: Quando un cittadino compie 18 anni o cambia residenza&#x20;
+**Quando inviarlo**: Quando un cittadino compie 18 anni o cambia residenza
 
 **User story**: Come cittadino voglio ricevere la mia tessera elettorale in tempo per le votazioni
 
@@ -116,7 +116,7 @@ Le procedure di questo servizio variano molto da ente a ente. Consigliamo di uti
 
 Il modello è un esempio che non ha carattere vincolante per l’ente e sul quale la Società declina qualsiasi responsabilità, avendo valore esemplificativo.
 
-Puoi copiare i testi dei messaggi da personalizzare da questo documento:&#x20;
+Puoi copiare i testi dei messaggi da personalizzare da questo documento:
 
-{% file src="../.gitbook/assets/IO - Template servizi - Tessera elettorale.xlsx" %}
+{% file src="../../../app-io/modelli-servizi/v1.0/.gitbook/assets/IO - Template servizi - Tessera elettorale.xlsx" %}
 {% endhint %}

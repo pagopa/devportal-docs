@@ -2,10 +2,10 @@
 
 Erogare il servizio tramite l'app IO permette agli enti di:
 
-* fornire alle cittadine e ai cittadini un riferimento per la ricezione delle comunicazione riguardanti il rilascio dei permessi di sosta e circolazione nelle aree a sosta e traffico limitato e le eventuali modifiche a tali aree;&#x20;
+* fornire alle cittadine e ai cittadini un riferimento per la ricezione delle comunicazione riguardanti il rilascio dei permessi di sosta e circolazione nelle aree a sosta e traffico limitato e le eventuali modifiche a tali aree;
 * monitorare e gestire tempestivamente le richieste, comunicazioni e i pagamenti per l’erogazione del servizio.
 
-[**Scopri tutti i benefici di integrarsi con IO →** ](https://app.gitbook.com/s/xWONfJmawghGo2ekuaKh/cose-io-e-qual-e-il-suo-obiettivo#perche-integrarsi-con-io)
+[**Scopri tutti i benefici di integrarsi con IO →**](https://app.gitbook.com/s/xWONfJmawghGo2ekuaKh/lapp-io/cose-io-e-qual-e-il-suo-obiettivo#perche-integrarsi-con-io)
 
 ## Scheda del servizio
 
@@ -17,7 +17,7 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 
 ## Ciclo di vita del servizio
 
-<figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption><p>Ciclo di vita ed eventi del servizio Permessi per sosta e circolazione</p></figcaption></figure>
+<figure><img src="../../../app-io/modelli-servizi/v1.0/.gitbook/assets/image (15).png" alt=""><figcaption><p>Ciclo di vita ed eventi del servizio Permessi per sosta e circolazione</p></figcaption></figure>
 
 ## Messaggi del servizio
 
@@ -95,7 +95,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 <summary>Richiesta di rilascio contrassegno: integrazione documentazione</summary>
 
-#### **🖋 Titolo del messaggio: Richiesta di integrazione**
+**🖋 Titolo del messaggio: Richiesta di integrazione**
 
 **🗒 Testo del messaggio:**
 
@@ -103,7 +103,7 @@ Per elaborare la tua richiesta di rilascio contrassegno per sosta e/o circolazio
 
 Per aggiungere i documenti alla tua richiesta, \[visita questo sito]\(URL).
 
-Per consultare il riepilogo della richiesta, \[visita questo sito]\(URL).&#x20;
+Per consultare il riepilogo della richiesta, \[visita questo sito]\(URL).
 
 🪄**Pulsante**: Aggiungi documenti
 
@@ -121,7 +121,7 @@ Per consultare il riepilogo della richiesta, \[visita questo sito]\(URL).&#x20;
 
 <summary>Richiesta di rilascio contrassegno: accolta</summary>
 
-#### **🖋 Titolo del messaggio:** La tua richiesta è stata accolta
+**🖋 Titolo del messaggio: La tua richiesta è stata accolta**
 
 🗒 **Testo del messaggio:**
 
@@ -145,7 +145,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 <summary>Richiesta di rilascio contrassegno: non accolta</summary>
 
-#### **🖋 Titolo del messaggio:** La tua richiesta non è stata accolta
+**🖋 Titolo del messaggio: La tua richiesta non è stata accolta**
 
 🗒 **Testo del messaggio:**
 
@@ -191,7 +191,7 @@ Per maggiori informazioni o per richiedere assistenza, contattaci tramite i cana
 
 In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio potrebbe subire variazioni.
 
-**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)
 
 ***
 
@@ -223,7 +223,7 @@ Il tuo pagamento per `<causale>` sta per scadere.
 
 Se hai già provveduto a pagare l’avviso, ignora questo messaggio.
 
-**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)
 
 ***
 
@@ -259,7 +259,7 @@ Questo messaggio è da utilizzare sia per messaggi Premium, sia per messaggi sta
 
 **🖋 Titolo del messaggio:** Il contrassegno è pronto per la firma
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Il contrassegno per `<sosta e/o circolazione>` è pronto per la firma.
 
@@ -361,7 +361,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 **🖋 Titolo del messaggio:** Il tuo contrassegno sta per scadere
 
-🗒 **Testo del messaggio:**&#x20;
+🗒 **Testo del messaggio:**
 
 Ti ricordiamo che il tuo contrassegno per `<sosta e/o circolazione>` scadrà in data `<gg/mm/aaaa>`.
 
@@ -427,7 +427,7 @@ Per maggiori informazioni o per richiedere assistenza, contattaci tramite i cana
 
 In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio potrebbe subire variazioni.
 
-**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)
 
 ***
 
@@ -459,7 +459,7 @@ Il tuo pagamento per `<causale>` sta per scadere.
 
 Se hai già provveduto a pagare l’avviso, ignora questo messaggio.
 
-**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)
 
 ***
 
@@ -528,11 +528,11 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 {% hint style="info" %}
 **Un modello da personalizzare**
 
-Le procedure di questo servizio variano molto da ente a ente. Consigliamo di utilizzare i testi dei messaggi come un punto di partenza e di aggiungere ulteriori informazioni.&#x20;
+Le procedure di questo servizio variano molto da ente a ente. Consigliamo di utilizzare i testi dei messaggi come un punto di partenza e di aggiungere ulteriori informazioni.
 
 Il modello è un esempio che non ha carattere vincolante per l’ente e sul quale la Società declina qualsiasi responsabilità, avendo valore esemplificativo.
 
 Puoi copiare i testi dei messaggi da personalizzare da questo documento:
 
-{% file src="../.gitbook/assets/IO - Template servizi - Permessi per sosta e circolazione.xlsx" %}
+{% file src="../../../app-io/modelli-servizi/v1.0/.gitbook/assets/IO - Template servizi - Permessi per sosta e circolazione.xlsx" %}
 {% endhint %}

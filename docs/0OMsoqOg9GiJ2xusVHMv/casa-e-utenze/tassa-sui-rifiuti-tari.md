@@ -5,16 +5,16 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 * fornire ai cittadini comunicazioni puntuali sullo stato della TARI, coprendo l’intero ciclo di vita del servizio;
 * rappresentare per i cittadini un riferimento per la ricezione delle comunicazioni riguardanti la TARI su uno o più immobili, situati in diversi Comuni.
 
-[**Scopri tutti i benefici di integrarsi con IO →** ](https://docs.pagopa.it/manuale-servizi/lapp-io/cose-io-e-qual-e-il-suo-obiettivo)
+[**Scopri tutti i benefici di integrarsi con IO →**](https://docs.pagopa.it/manuale-servizi/lapp-io/cose-io-e-qual-e-il-suo-obiettivo)
 
-| **Nome servizio**            | Tassa sui rifiuti (TARI)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-| ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Argomento**                | Casa e utenze                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-| **Descrizione del servizio** | <p>Il servizio riguarda la Tassa sui rifiuti (TARI). </p><p></p><p>Tramite IO potrai:</p><ul><li>ricevere conferma della dichiarazione di occupazione di un immobile domestico e non domestico al fine della TARI;</li><li>ricevere avvisi di pagamento relativi alla TARI e pagarli in app;</li><li>ricevere aggiornamenti su eventuali proroghe alla data di scadenza;</li><li>ricevere conferma della dichiarazione di cessazione di occupazione di un immobile;</li><li>ricevere altre comunicazioni.</li></ul> |
+| **Nome servizio**            | Tassa sui rifiuti (TARI)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| ---------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Argomento**                | Casa e utenze                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| **Descrizione del servizio** | <p>Il servizio riguarda la Tassa sui rifiuti (TARI).</p><p>Tramite IO potrai:</p><ul><li>ricevere conferma della dichiarazione di occupazione di un immobile domestico e non domestico al fine della TARI;</li><li>ricevere avvisi di pagamento relativi alla TARI e pagarli in app;</li><li>ricevere aggiornamenti su eventuali proroghe alla data di scadenza;</li><li>ricevere conferma della dichiarazione di cessazione di occupazione di un immobile;</li><li>ricevere altre comunicazioni.</li></ul> |
 
 ## **Ciclo di vita del servizio**
 
-<figure><img src="../.gitbook/assets/TARI_xy.png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio TARI</strong></p></figcaption></figure>
+<figure><img src="../../../app-io/modelli-servizi/v1.0/.gitbook/assets/TARI_xy.png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio TARI</strong></p></figcaption></figure>
 
 ## **Messaggi del servizio**
 
@@ -28,25 +28,25 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 <details>
 
-<summary>Dichiarazione di occupazione </summary>
+<summary>Dichiarazione di occupazione</summary>
 
 **🖋 Titolo del messaggio:** Dichiarazione di `<inizio/variazione>` occupazione immobile
 
-🗒 **Testo del messaggio**: Ti diamo il benvenuto nel Comune di `<Comune>`.&#x20;
+🗒 **Testo del messaggio**: Ti diamo il benvenuto nel Comune di `<Comune>`.
 
-Ricevi questo messaggio perché potresti avere recentemente cambiato residenza, acquistato un immobile o sottoscritto un contratto di affitto.&#x20;
+Ricevi questo messaggio perché potresti avere recentemente cambiato residenza, acquistato un immobile o sottoscritto un contratto di affitto.
 
 Se non lo hai già fatto, effettua o aggiorna la tua dichiarazione di occupazione ai fini TARI (Tassa sui Rifiuti). Per farlo, \[visita questo sito]\(URL).
 
-Inoltre, se vuoi conoscere meglio il servizio offerto \[visita questo sito]\(URL).&#x20;
+Inoltre, se vuoi conoscere meglio il servizio offerto \[visita questo sito]\(URL).
 
-**🪄  Pulsante**: n/a
+**🪄 Pulsante**: n/a
 
 ***
 
-**Destinatari**: I cittadini che hanno recentemente cambiato residenza, acquistato un immobile o completato un contratto di affitto superiore a sei mesi.&#x20;
+**Destinatari**: I cittadini che hanno recentemente cambiato residenza, acquistato un immobile o completato un contratto di affitto superiore a sei mesi.
 
-**Quando inviarlo**: Quando l'ente riscontra aggiornamenti su cambi residenza, acquisto immobili o contratti d'affitto.&#x20;
+**Quando inviarlo**: Quando l'ente riscontra aggiornamenti su cambi residenza, acquisto immobili o contratti d'affitto.
 
 **User story**: Come cittadino voglio ricevere informazioni su come funziona la TARI nel Comune.
 
@@ -62,17 +62,17 @@ Inoltre, se vuoi conoscere meglio il servizio offerto \[visita questo sito]\(URL
 
 🗒 **Testo del messaggio**: Abbiamo ricevuto la tua dichiarazione di `<inizio/variazione>` occupazione di un immobile. Ecco i dettagli:
 
-**Indirizzo**: `<indirizzo>` - `<piano ed interno immobile>` \
+**Indirizzo**: `<indirizzo>` - `<piano ed interno immobile>`\
 **Occupato da**: `<nome cognome>`\
 **A partire dal**: `<gg/mm/aa>`
 
 \[A questo sito]\(URL) trovi maggiori informazioni su come funziona il calcolo TARI e sulle eventuali esenzioni di cui puoi beneficiare.
 
-**🪄  Pulsante**: n/a
+**🪄 Pulsante**: n/a
 
 ***
 
-**Destinatari**: I cittadini che hanno completato la dichiarazione di inizio o variazione occupazione di un immobile.&#x20;
+**Destinatari**: I cittadini che hanno completato la dichiarazione di inizio o variazione occupazione di un immobile.
 
 **Quando inviarlo**: Alla conclusione della registrazione della dichiarazione.
 
@@ -82,11 +82,11 @@ Inoltre, se vuoi conoscere meglio il servizio offerto \[visita questo sito]\(URL
 
 ### Pagamento a rate con avviso di pagamento
 
-Quando il pagamento è suddiviso per rate e l'ente vuole permettere al cittadino di pagare la rata direttamente su IO, potrà inviare un messaggio con l'avviso di pagamento per ogni rata prevista [come consigliato sul manuale dei servizi. ](https://docs.pagopa.it/manuale-servizi/che-cosa-puo-fare-un-servizio-su-io/inviare-messaggi/messaggi-che-veicolano-un-pagamento/soluzioni-per-pagamenti-a-rate)
+Quando il pagamento è suddiviso per rate e l'ente vuole permettere al cittadino di pagare la rata direttamente su IO, potrà inviare un messaggio con l'avviso di pagamento per ogni rata prevista [come consigliato sul manuale dei servizi.](https://docs.pagopa.it/manuale-servizi/che-cosa-puo-fare-un-servizio-su-io/inviare-messaggi/messaggi-che-veicolano-un-pagamento/soluzioni-per-pagamenti-a-rate)
 
 <details>
 
-<summary>Avviso di pagamento TARI </summary>
+<summary>Avviso di pagamento TARI</summary>
 
 **🖋 Titolo del messaggio:** Nuovo avviso di pagamento
 
@@ -102,7 +102,7 @@ Per maggiori informazioni o per richiedere assistenza, contattaci tramite i cana
 
 In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio potrebbe subire variazioni.
 
-**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)
 
 ***
 
@@ -134,7 +134,7 @@ Il tuo pagamento per `<causale>` sta per scadere.
 
 Se hai già provveduto a pagare l’avviso, ignora questo messaggio.
 
-**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)
 
 ***
 
@@ -148,11 +148,11 @@ Se hai già provveduto a pagare l’avviso, ignora questo messaggio.
 
 ### Pagamento a rate con allegato
 
-Quando il pagamento è suddiviso per rate e l'ente vuole comunicare al cittadino tutti i pagamenti in un unico messaggio su IO, potrà inviare un messaggio con un documento allegato che riassume tutte le rate e i relativi avvisi da pagare.&#x20;
+Quando il pagamento è suddiviso per rate e l'ente vuole comunicare al cittadino tutti i pagamenti in un unico messaggio su IO, potrà inviare un messaggio con un documento allegato che riassume tutte le rate e i relativi avvisi da pagare.
 
 <details>
 
-<summary>Istruzioni sul pagamento della rata </summary>
+<summary>Istruzioni sul pagamento della rata</summary>
 
 :sparkles: <mark style="color:blue;">**Allegati Premium**</mark> — Tramite questa funzionalità Premium, disponibile a seconda della tipologia di contratto sottoscritto dall’ente, puoi allegare documenti all'interno del messaggio.
 
@@ -162,15 +162,15 @@ Questo messaggio è da utilizzare sia per messaggi Premium, sia per messaggi sta
 
 **🖋 Titolo del messaggio:** Nuovo pagamento
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
-Dal `<gg/mm/aaaa>` sarà possibile pagare la Tassa sui rifiuti (TARI)  intestato a `<nome cognome>` per l'immobile situato in `<indirizzo>` - `<piano ed interno immobile>`.
+Dal `<gg/mm/aaaa>` sarà possibile pagare la Tassa sui rifiuti (TARI) intestato a `<nome cognome>` per l'immobile situato in `<indirizzo>` - `<piano ed interno immobile>`.
 
 \[Solo per messaggi Premium con allegato] Trovi i pagamenti previsti in allegato a questo messaggio.
 
 Per avere maggiori informazioni sul pagamento, \[visita il sito]\(URL).
 
-**🪄  Pulsante**: n/a
+**🪄 Pulsante**: n/a
 
 **📎&#x20;**<mark style="color:blue;">**Allegato Premium:**</mark> `<documento con gli avvisi di pagamento delle rate previste>`
 
@@ -198,7 +198,7 @@ Per avere maggiori informazioni sul pagamento, \[visita il sito]\(URL).
 
 🗒 **Testo del messaggio**: È stata prorogata la data di scadenza dell'avviso intestato a `<nome cognome>` e relativo a `<casuale>`.
 
-**Devi pagare**: <00,00> €&#x20;
+**Devi pagare**: <00,00> €
 
 **Entro il**: `<gg/mm/aaaa>`
 
@@ -208,7 +208,7 @@ Per maggiori informazioni o per richiedere assistenza, contattaci tramite i cana
 
 In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio potrebbe subire variazioni.
 
-**🪄  Pulsante**: Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
+**🪄 Pulsante**: Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)
 
 ***
 
@@ -228,11 +228,11 @@ In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio p
 
 **🖋 Titolo del messaggio:** Conferma di avvenuta cessazione di occupazione immobile
 
-🗒 **Testo del messaggio**: Abbiamo ricevuto la tua dichiarazione di cessazione occupazione immobile.&#x20;
+🗒 **Testo del messaggio**: Abbiamo ricevuto la tua dichiarazione di cessazione occupazione immobile.
 
 Per maggiori informazioni o per richiedere assistenza, contattaci tramite i canali che trovi nella scheda servizio.
 
-**🪄  Pulsante**: n/a
+**🪄 Pulsante**: n/a
 
 ***
 
@@ -263,7 +263,7 @@ IO è integrata con SEND - Servizio Notifiche Digitale, per l'invio di comunicaz
 {% hint style="info" %}
 **Un modello da personalizzare**
 
-Le procedure di questo servizio variano molto da ente a ente. Consigliamo di utilizzare i testi dei messaggi come un punto di partenza e di aggiungere o modificare il contenuto a seconda delle esigenze.&#x20;
+Le procedure di questo servizio variano molto da ente a ente. Consigliamo di utilizzare i testi dei messaggi come un punto di partenza e di aggiungere o modificare il contenuto a seconda delle esigenze.
 
 Il modello è uno esempio che non ha carattere vincolante per l’ente e sul quale la Società declina qualsiasi responsabilità, avendo valore esemplificativo.
 
@@ -271,5 +271,5 @@ Gli enti che desiderino utilizzarli devono, quindi, modificarli a seconda delle 
 
 Puoi copiare i testi dei messaggi da personalizzare da questo documento:
 
-{% file src="../.gitbook/assets/IO - Template servizi - Tassa sui rifiuti (TARI).xlsx" %}
+{% file src="../../../app-io/modelli-servizi/v1.0/.gitbook/assets/IO - Template servizi - Tassa sui rifiuti (TARI).xlsx" %}
 {% endhint %}

@@ -5,7 +5,7 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 * fornire alle cittadine e ai cittadini un riferimento per la ricezione delle comunicazioni riguardanti gli appalti pubblici;
 * monitorare e gestire tempestivamente le richieste e comunicazioni per l’erogazione del servizio.
 
-[**Scopri tutti i benefici di integrarsi con IO →** ](https://app.gitbook.com/s/xWONfJmawghGo2ekuaKh/cose-io-e-qual-e-il-suo-obiettivo#perche-integrarsi-con-io)
+[**Scopri tutti i benefici di integrarsi con IO →**](https://app.gitbook.com/s/xWONfJmawghGo2ekuaKh/lapp-io/cose-io-e-qual-e-il-suo-obiettivo#perche-integrarsi-con-io)
 
 ## Scheda servizio <a href="#scheda-servizio" id="scheda-servizio"></a>
 
@@ -13,7 +13,7 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 
 ## Ciclo di vita del servizio
 
-<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Appalti pubblici</strong></p></figcaption></figure>
+<figure><img src="../../../app-io/modelli-servizi/v1.0/.gitbook/assets/image (14) (1).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Appalti pubblici</strong></p></figcaption></figure>
 
 ## Messaggi del servizio
 
@@ -23,7 +23,7 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende erogare questo servizio può valutare quali e quanti messaggi inviare, in base alle proprie possibilità di integrazione. L'obiettivo finale rimane quello di inviarli tutti, rilasciando in maniera iterativa versioni del servizio sempre più complete.
 {% endhint %}
 
-I servizi di IO possono essere erogati anche alle persone fisiche, a condizione che agiscano per conto di persone giuridiche e siano debitamente delegate dalle stesse.&#x20;
+I servizi di IO possono essere erogati anche alle persone fisiche, a condizione che agiscano per conto di persone giuridiche e siano debitamente delegate dalle stesse.
 
 ### Pubblicazione bando
 
@@ -39,7 +39,7 @@ Questo messaggio è da utilizzare sia per messaggi Premium, sia per messaggi sta
 
 **🖋 Titolo del messaggio:** Pubblicato un nuovo bando
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Dal `<gg/mm/aaaa>` è possibile presentare la domanda di ammissione al bando `<oggetto del bando>`.
 
@@ -71,7 +71,7 @@ Per consultare i criteri di assegnazione e compilare la domanda, \[visita questo
 
 **🖋 Titolo del messaggio:** Richiesta di integrazione
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Per comprovare i requisiti di accesso di `<ragione sociale>` al bando `<nome del bando>` `<riferimenti del bando>` abbiamo bisogno di ricevere entro il `<gg/mm/aaaa>` alcuni documenti.
 
@@ -165,7 +165,7 @@ Per maggiori informazioni o per richiedere assistenza, contattaci tramite i cana
 
 In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio potrebbe subire variazioni.
 
-**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)
 
 ***
 
@@ -197,7 +197,7 @@ Il tuo pagamento per `<causale>` sta per scadere.
 
 Se hai già provveduto a pagare l’avviso ignora questo messaggio.
 
-**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)
 
 ***
 
@@ -348,11 +348,11 @@ Per ulteriori informazioni, (visita questo sito)\[URL].
 {% hint style="info" %}
 **Un modello da personalizzare**
 
-Le procedure di questo servizio variano molto da ente a ente. Consigliamo di utilizzare i testi dei messaggi come un punto di partenza e di aggiungere ulteriori informazioni.&#x20;
+Le procedure di questo servizio variano molto da ente a ente. Consigliamo di utilizzare i testi dei messaggi come un punto di partenza e di aggiungere ulteriori informazioni.
 
 Il modello è un esempio che non ha carattere vincolante per l’ente e sul quale la Società declina qualsiasi responsabilità, avendo valore esemplificativo.
 
-Puoi copiare i testi dei messaggi da personalizzare da questo documento:&#x20;
+Puoi copiare i testi dei messaggi da personalizzare da questo documento:
 
-{% file src="../.gitbook/assets/IO - Template servizi - Appalti pubblici.xlsx" %}
+{% file src="../../../app-io/modelli-servizi/v1.0/.gitbook/assets/IO - Template servizi - Appalti pubblici.xlsx" %}
 {% endhint %}

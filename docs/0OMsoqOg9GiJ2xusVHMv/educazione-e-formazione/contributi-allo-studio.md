@@ -2,10 +2,10 @@
 
 Erogare il servizio tramite l'app IO permette agli enti di:
 
-* promuovere iniziative e strumenti a supporto dei percorsi formativi degli studenti;&#x20;
+* promuovere iniziative e strumenti a supporto dei percorsi formativi degli studenti;
 * ridurre la dispersione scolastica.
 
-[**Scopri tutti i benefici di integrarsi con IO →** ](https://docs.pagopa.it/manuale-servizi/lapp-io/cose-io-e-qual-e-il-suo-obiettivo)
+[**Scopri tutti i benefici di integrarsi con IO →**](https://docs.pagopa.it/manuale-servizi/lapp-io/cose-io-e-qual-e-il-suo-obiettivo)
 
 ## Scheda servizio <a href="#scheda-servizio" id="scheda-servizio"></a>
 
@@ -13,9 +13,9 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 
 ## Ciclo di vita del servizio
 
-<figure><img src="../.gitbook/assets/Educazione e formazione_Contributi allo studio.png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Contributi allo studio</strong></p></figcaption></figure>
+<figure><img src="../../../app-io/modelli-servizi/v1.0/.gitbook/assets/Educazione e formazione_Contributi allo studio.png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Contributi allo studio</strong></p></figcaption></figure>
 
-## Messaggi del servizio&#x20;
+## Messaggi del servizio
 
 {% hint style="success" %}
 **Il servizio ideale**
@@ -31,11 +31,11 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 **🖋 Titolo del messaggio:** È disponibile una nuova iniziativa per gli studenti
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 \[Inserire una descrizione sintetica dell'iniziativa, da completare a cura e responsabilità dell'ente ].
 
-Per ulteriori informazioni, \[visita questo sito]\(URL).&#x20;
+Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 **🪄 Pulsante**: Inizia
 
@@ -49,7 +49,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).&#x20;
 
 </details>
 
-### **Presentare la domanda**&#x20;
+### **Presentare la domanda**
 
 <details>
 
@@ -57,13 +57,13 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).&#x20;
 
 **🖋 Titolo del messaggio:** Richiesta di integrazione
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Per elaborare la tua domanda di iscrizione al servizio `<tipologia di servizio>` nr. `<nnnn>`, abbiamo bisogno di ricevere entro il `<gg/mm/aaaa>` altri documenti.
 
 Consulta il riepilogo della domanda, \[visita questo sito]\(URL).
 
-**🪄 Pulsante**: Aggiungi documenti&#x20;
+**🪄 Pulsante**: Aggiungi documenti
 
 ***
 
@@ -79,11 +79,11 @@ Consulta il riepilogo della domanda, \[visita questo sito]\(URL).
 
 <details>
 
-<summary>Pubblicazioni graduatorie </summary>
+<summary>Pubblicazioni graduatorie</summary>
 
 **🖋 Titolo del messaggio:** Pubblicata la graduatoria `<provvisoria/definitiva>` per `<iniziativa>`
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 È disponibile la graduatoria di ammissione al servizio `<tipologia di servizio>` per `<iniziativa>` per `<nome>` `<cognome>`.
 
@@ -91,7 +91,7 @@ Se vuoi rinunciare alla tua posizione, hai tempo fino al `<gg/mm/aaaa>`.
 
 Per visualizzare la tua posizione in graduatoria \[visita questo sito]\(URL).
 
-**🪄 Pulsante**: Vai alla graduatoria&#x20;
+**🪄 Pulsante**: Vai alla graduatoria
 
 ***
 
@@ -121,5 +121,5 @@ Il modello è un esempio che non ha carattere vincolante per l’ente e sul qual
 
 Puoi copiare i testi dei messaggi da personalizzare da questo documento:
 
-{% file src="../.gitbook/assets/IO - Template servizi - Contributi allo studio.xlsx" %}
+{% file src="../../../app-io/modelli-servizi/v1.0/.gitbook/assets/IO - Template servizi - Contributi allo studio.xlsx" %}
 {% endhint %}

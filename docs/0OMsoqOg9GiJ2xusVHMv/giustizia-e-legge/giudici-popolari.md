@@ -5,7 +5,7 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 * fornire alle cittadine e ai cittadini un riferimento per la ricezione delle comunicazioni riguardanti l’iscrizione o cancellazione dall’albo dei giudici popolari;
 * monitorare e gestire tempestivamente le richieste e comunicazioni per l’erogazione del servizio.
 
-[**Scopri tutti i benefici di integrarsi con IO →** ](https://docs.pagopa.it/manuale-servizi/lapp-io/cose-io-e-qual-e-il-suo-obiettivo)
+[**Scopri tutti i benefici di integrarsi con IO →**](https://docs.pagopa.it/manuale-servizi/lapp-io/cose-io-e-qual-e-il-suo-obiettivo)
 
 ## Scheda servizio <a href="#scheda-servizio" id="scheda-servizio"></a>
 
@@ -13,7 +13,7 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 
 ## Ciclo di vita del servizio
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Giudici popolari</strong></p></figcaption></figure>
+<figure><img src="../../../app-io/modelli-servizi/v1.0/.gitbook/assets/image (28) (1).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Giudici popolari</strong></p></figcaption></figure>
 
 ## Messaggi del servizio
 
@@ -23,7 +23,7 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende erogare questo servizio può valutare quali e quanti messaggi inviare, in base alle proprie possibilità di integrazione. L'obiettivo finale rimane quello di inviarli tutti, rilasciando in maniera iterativa versioni del servizio sempre più complete.
 {% endhint %}
 
-### Apertura iscrizioni alle liste&#x20;
+### Apertura iscrizioni alle liste
 
 <details>
 
@@ -37,11 +37,11 @@ Questo messaggio è da utilizzare sia per messaggi Premium, sia per messaggi sta
 
 **🖋 Titolo del messaggio:** Apertura iscrizioni all’elenco dei giudici popolari
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Dal `<gg/mm/aaaa>` puoi fare domanda di iscrizione all’elenco dei giudici popolari per il comune di `<Comune>`.
 
-Per presentare domanda, puoi inviare la modulistica tramite `<canale>`.&#x20;
+Per presentare domanda, puoi inviare la modulistica tramite `<canale>`.
 
 Hai tempo fino al `<gg/mm/aaaa>`.
 
@@ -85,7 +85,7 @@ Entro il `<gg/mm/aaaa>` sarà pubblicato l’albo definitivo.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
-**🪄 Pulsante:** Vai alle liste&#x20;
+**🪄 Pulsante:** Vai alle liste
 
 ***
 
@@ -113,7 +113,7 @@ Per vedere la tua posizione, \[visita questo sito]\(URL).
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
-**🪄 Pulsante:** Vai alla lista&#x20;
+**🪄 Pulsante:** Vai alla lista
 
 ***
 
@@ -121,7 +121,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 **Quando inviarlo:** Quando l’ente l’ente pubblica l’albo pretorio aggiornato.
 
-**User story:** Come cittadino voglio ricevere aggiornamento&#x20;
+**User story:** Come cittadino voglio ricevere aggiornamento
 
 </details>
 
@@ -159,17 +159,17 @@ Per vedere la tua posizione, \[visita questo sito]\(URL).
 **Lo sapevi?**\
 IO è integrata con SEND - Servizio Notifiche Digitale, per l'invio di comunicazioni a valore legale.
 
-[**Scopri di più su SEND →**](https://notifichedigitali.pagopa.it/)&#x20;
+[**Scopri di più su SEND →**](https://notifichedigitali.pagopa.it/)
 {% endhint %}
 
 {% hint style="info" %}
 **Un modello da personalizzare**
 
-Le procedure di questo servizio variano molto da ente a ente. Consigliamo di utilizzare i testi dei messaggi come un punto di partenza e di aggiungere ulteriori informazioni.&#x20;
+Le procedure di questo servizio variano molto da ente a ente. Consigliamo di utilizzare i testi dei messaggi come un punto di partenza e di aggiungere ulteriori informazioni.
 
 Il modello è un esempio che non ha carattere vincolante per l’ente e sul quale la Società declina qualsiasi responsabilità, avendo valore esemplificativo.
 
 Puoi copiare i testi dei messaggi da personalizzare da questo documento:
 
-{% file src="../.gitbook/assets/IO - Template servizi - Giudici popolari.xlsx" %}
+{% file src="../../../app-io/modelli-servizi/v1.0/.gitbook/assets/IO - Template servizi - Giudici popolari.xlsx" %}
 {% endhint %}

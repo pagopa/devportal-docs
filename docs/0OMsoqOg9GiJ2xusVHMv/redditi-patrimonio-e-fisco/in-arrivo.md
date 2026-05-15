@@ -5,15 +5,15 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 * fornire alle cittadine e ai cittadini un riferimento per la ricezione delle comunicazioni riguardanti le agevolazioni tributarie;
 * monitorare e gestire tempestivamente le richieste, comunicazioni e i pagamenti per l’erogazione del servizio.
 
-[**Scopri tutti i benefici di integrarsi con IO →** ](https://docs.pagopa.it/manuale-servizi/lapp-io/cose-io-e-qual-e-il-suo-obiettivo#perche-un-ente-dovrebbe-integrarsi-con-io)
+[**Scopri tutti i benefici di integrarsi con IO →**](https://docs.pagopa.it/manuale-servizi/lapp-io/cose-io-e-qual-e-il-suo-obiettivo#perche-un-ente-dovrebbe-integrarsi-con-io)
 
 ## Scheda servizio <a href="#scheda-servizio" id="scheda-servizio"></a>
 
-<table data-header-hidden><thead><tr><th width="373"></th><th></th></tr></thead><tbody><tr><td><strong>Nome servizio</strong></td><td>Agevolazioni tributarie</td></tr><tr><td><strong>Argomento</strong></td><td>Redditi, patrimonio e fisco</td></tr><tr><td><strong>Descrizione del servizio</strong></td><td><p>Il servizio riguarda le agevolazioni tributarie, ovvero le eventuali riduzioni sull’importo da pagare per i tributi dovuti al Comune. <br></p><p>Tramite IO potrai:</p><ul><li>ricevere informazioni sulle agevolazioni, su chi può accedervi e in che modalità;</li><li>ricevere comunicazioni e aggiornamenti sulle richieste di agevolazione presentate;</li><li>ricevere altre comunicazioni.</li></ul></td></tr><tr><td><strong>Pulsante</strong></td><td>Scopri le agevolazioni disponibili</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="373"></th><th></th></tr></thead><tbody><tr><td><strong>Nome servizio</strong></td><td>Agevolazioni tributarie</td></tr><tr><td><strong>Argomento</strong></td><td>Redditi, patrimonio e fisco</td></tr><tr><td><strong>Descrizione del servizio</strong></td><td><p>Il servizio riguarda le agevolazioni tributarie, ovvero le eventuali riduzioni sull’importo da pagare per i tributi dovuti al Comune.<br></p><p>Tramite IO potrai:</p><ul><li>ricevere informazioni sulle agevolazioni, su chi può accedervi e in che modalità;</li><li>ricevere comunicazioni e aggiornamenti sulle richieste di agevolazione presentate;</li><li>ricevere altre comunicazioni.</li></ul></td></tr><tr><td><strong>Pulsante</strong></td><td>Scopri le agevolazioni disponibili</td></tr></tbody></table>
 
 ## Ciclo di vita del servizio
 
-<figure><img src="../.gitbook/assets/image (10) (1).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Agevolazioni tributarie</strong></p></figcaption></figure>
+<figure><img src="../../../app-io/modelli-servizi/v1.0/.gitbook/assets/image (22) (1).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Agevolazioni tributarie</strong></p></figcaption></figure>
 
 ## Messaggi del servizio
 
@@ -31,9 +31,9 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 **🖋 Titolo del messaggio:** È disponibile una nuova agevolazione
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
-Da oggi è possibile fare richiesta per `<nome agevolazione>`.&#x20;
+Da oggi è possibile fare richiesta per `<nome agevolazione>`.
 
 Hai tempo fino al `<gg/mm/aaaa>`.
 
@@ -67,9 +67,9 @@ Per ulteriori informazioni, contatta l’ufficio `<denominazione ufficio>` trami
 
 **🖋 Titolo del messaggio:** La tua richiesta è stata accolta
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
-La tua richiesta per `<nome agevolazione>` è stata accolta.&#x20;
+La tua richiesta per `<nome agevolazione>` è stata accolta.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -91,9 +91,9 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 **🖋 Titolo del messaggio:** La tua richiesta non è stata accolta
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
-La tua richiesta per `<nome agevolazione>` non è stata accolta.&#x20;
+La tua richiesta per `<nome agevolazione>` non è stata accolta.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
@@ -114,11 +114,11 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 {% hint style="info" %}
 **Un modello da personalizzare**
 
-Le procedure di questo servizio variano molto da ente a ente. Consigliamo di utilizzare i testi dei messaggi come un punto di partenza e di aggiungere ulteriori informazioni.&#x20;
+Le procedure di questo servizio variano molto da ente a ente. Consigliamo di utilizzare i testi dei messaggi come un punto di partenza e di aggiungere ulteriori informazioni.
 
 Il modello è un esempio che non ha carattere vincolante per l’ente e sul quale la Società declina qualsiasi responsabilità, avendo valore esemplificativo.
 
-Puoi copiare i testi dei messaggi da personalizzare da questo documento:&#x20;
+Puoi copiare i testi dei messaggi da personalizzare da questo documento:
 
-{% file src="../.gitbook/assets/IO - Template servizi - Agevolazioni tributarie.xlsx" %}
+{% file src="../../../app-io/modelli-servizi/v1.0/.gitbook/assets/IO - Template servizi - Agevolazioni tributarie.xlsx" %}
 {% endhint %}

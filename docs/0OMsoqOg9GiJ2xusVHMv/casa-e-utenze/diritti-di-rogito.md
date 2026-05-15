@@ -5,17 +5,17 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 * fornire alle cittadine e ai cittadini un riferimento per la ricezione delle comunicazioni riguardanti i diritti di rogito;
 * monitorare e gestire tempestivamente le richieste e le comunicazioni per l’erogazione del servizio.
 
-[**Scopri tutti i benefici di integrarsi con IO →** ](https://docs.pagopa.it/manuale-servizi/lapp-io/cose-io-e-qual-e-il-suo-obiettivo)
+[**Scopri tutti i benefici di integrarsi con IO →**](https://docs.pagopa.it/manuale-servizi/lapp-io/cose-io-e-qual-e-il-suo-obiettivo)
 
 ## Scheda servizio <a href="#scheda-servizio" id="scheda-servizio"></a>
 
-<table data-header-hidden><thead><tr><th width="373"></th><th></th></tr></thead><tbody><tr><td><strong>Nome servizio</strong></td><td>Diritti di rogito</td></tr><tr><td><strong>Argomento</strong></td><td>Casa e utenze</td></tr><tr><td><strong>Descrizione del servizio</strong></td><td><p>Il servizio riguarda i diritti di rogito dovuti al Comune.</p><p></p><p>Tramite IO potrai:</p><ul><li>ricevere comunicazioni e aggiornamenti sui diritti di rogito;</li><li>ricevere avvisi di pagamento e pagarli in app;</li><li>firmare digitalmente gli atti di rogito in app;</li><li>ricevere altre comunicazioni.</li></ul></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="373"></th><th></th></tr></thead><tbody><tr><td><strong>Nome servizio</strong></td><td>Diritti di rogito</td></tr><tr><td><strong>Argomento</strong></td><td>Casa e utenze</td></tr><tr><td><strong>Descrizione del servizio</strong></td><td><p>Il servizio riguarda i diritti di rogito dovuti al Comune.</p><p>Tramite IO potrai:</p><ul><li>ricevere comunicazioni e aggiornamenti sui diritti di rogito;</li><li>ricevere avvisi di pagamento e pagarli in app;</li><li>firmare digitalmente gli atti di rogito in app;</li><li>ricevere altre comunicazioni.</li></ul></td></tr></tbody></table>
 
 ## Ciclo di vita del servizio
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Diritti di rogito</strong></p></figcaption></figure>
+<figure><img src="../../../app-io/modelli-servizi/v1.0/.gitbook/assets/image (30) (1).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Diritti di rogito</strong></p></figcaption></figure>
 
-## Messaggi del servizio&#x20;
+## Messaggi del servizio
 
 {% hint style="success" %}
 **Il servizio ideale**
@@ -31,7 +31,7 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 **🖋 Titolo del messaggio:** Scelto il Segretario Comunale
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Il Segretario Comunale scelto per la stesura dell’atto di rogito del `<bene>` `<riferimenti bene>` è `<nome>` `<cognome>`.
 
@@ -79,7 +79,7 @@ Per maggiori informazioni o per richiedere assistenza, contattaci tramite i cana
 
 In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio potrebbe subire variazioni.
 
-**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)
 
 ***
 
@@ -105,21 +105,21 @@ Gli utenti che hanno dato il loro consenso, infatti, riceveranno automaticamente
 
 **🖋 Titolo del messaggio:** Hai un pagamento in scadenza
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Il tuo pagamento relativo ai diritti di rogito per l’acquisto di del `<bene>` `<riferimenti del bene>` è prossimo alla scadenza.
 
 Se hai già provveduto a pagare l’avviso o se hai richiesto la domiciliazione del pagamento sul conto corrente, ignora questo messaggio.
 
-**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)
 
 ***
 
 **Destinatari**: Tutti i cittadini che hanno IO e che devono pagare diritti di rogito per l’acquisto di un bene di cui il Comune è parte interessata.
 
-**Quando inviarlo**: Quando l’avviso di pagamento è prossimo alla scadenza&#x20;
+**Quando inviarlo**: Quando l’avviso di pagamento è prossimo alla scadenza
 
-**User story**: Come cittadino vorrei ricevere promemoria sulla scadenza dei miei avvisi di pagamento&#x20;
+**User story**: Come cittadino vorrei ricevere promemoria sulla scadenza dei miei avvisi di pagamento
 
 </details>
 
@@ -135,13 +135,13 @@ Il seguente messaggio serve a sollecitare il cittadino per il mancato pagamento 
 
 **🖋 Titolo del messaggio:** Pagamento non effettuato
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Il tuo pagamento relativo ai diritti di rogito per l’acquisto del `<bene>` `<riferimenti del bene>` non è stato effettuato entro la scadenza del `<gg/mm/aaaa>`.
 
 Se hai già provveduto a pagare l’avviso o se hai richiesto la domiciliazione del pagamento sul conto corrente, ignora questo messaggio.
 
-**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)
 
 ***
 
@@ -161,9 +161,9 @@ Se hai già provveduto a pagare l’avviso o se hai richiesto la domiciliazione 
 
 **🖋 Titolo del messaggio:** L’atto è stato protocollato
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
-Il `<gg/mm/aaaa>` abbiamo protocollato l’atto di rogito del `<bene>` `<riferimenti del bene>`  firmato il `<gg/mm/aaaa>` da `<nome e cognome>`.
+Il `<gg/mm/aaaa>` abbiamo protocollato l’atto di rogito del `<bene>` `<riferimenti del bene>` firmato il `<gg/mm/aaaa>` da `<nome e cognome>`.
 
 Il numero di protocollo è: `<nnnn>`
 
@@ -203,7 +203,7 @@ Questo messaggio è da utilizzare sia per messaggi Premium, sia per messaggi sta
 
 **🖋 Titolo del messaggio:** L’atto è pronto per la firma
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 L’atto di rogito del `<bene>` `<riferimento del bene >` è pronto per la firma.
 
@@ -253,7 +253,7 @@ Per ulteriori informazioni, (visita questo sito)\[URL].
 
 ***
 
-**Destinatari:** Tutti i cittadini che, a seguito di una compravendita di un bene di cui il Comune è parte attiva, hanno prenotato un appuntamento per la firma dell'atto di rogito.&#x20;
+**Destinatari:** Tutti i cittadini che, a seguito di una compravendita di un bene di cui il Comune è parte attiva, hanno prenotato un appuntamento per la firma dell'atto di rogito.
 
 **Quando inviarlo:** Quando l’appuntamento è confermato.
 
@@ -269,7 +269,7 @@ Per ulteriori informazioni, (visita questo sito)\[URL].
 
 **🖋 Titolo del messaggio:** Il contratto è stato registrato
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Il `<gg/mm/aaaa>` abbiamo registrato il contratto di compravendita del `<bene>` `<riferimenti del bene>`.
 
@@ -299,11 +299,11 @@ IO è integrata con SEND - Servizio Notifiche Digitale, per l'invio di comunicaz
 {% hint style="info" %}
 **Un modello da personalizzare**
 
-Le procedure di questo servizio variano molto da ente a ente. Consigliamo di utilizzare i testi dei messaggi come un punto di partenza e di aggiungere ulteriori informazioni.&#x20;
+Le procedure di questo servizio variano molto da ente a ente. Consigliamo di utilizzare i testi dei messaggi come un punto di partenza e di aggiungere ulteriori informazioni.
 
 Il modello è un esempio che non ha carattere vincolante per l’ente e sul quale la Società declina qualsiasi responsabilità, avendo valore esemplificativo.
 
 Puoi copiare i testi dei messaggi da personalizzare da questo documento:
 
-{% file src="../.gitbook/assets/IO - Template servizi - Diritti di rogito.xlsx" %}
+{% file src="../../../app-io/modelli-servizi/v1.0/.gitbook/assets/IO - Template servizi - Diritti di rogito.xlsx" %}
 {% endhint %}

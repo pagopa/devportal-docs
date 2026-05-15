@@ -7,16 +7,16 @@ Erogare il servizio "Multe per violazioni al Codice della Strada" tramite IO per
 * **velocizzare i tempi** di riscossione delle multe;
 * **informare sugli avvisi in scadenza**, riducendo la possibilità per i cittadini di incorrere in sanzioni aggiuntive.
 
-[**Scopri tutti i benefici di integrarsi con IO →** ](https://docs.pagopa.it/manuale-servizi/lapp-io/cose-io-e-qual-e-il-suo-obiettivo)
+[**Scopri tutti i benefici di integrarsi con IO →**](https://docs.pagopa.it/manuale-servizi/lapp-io/cose-io-e-qual-e-il-suo-obiettivo)
 
-| **Nome servizio**            | Multe per violazioni al Codice della Strada                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| ---------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Argomento**                | Mobilità e trasporti                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-| **Descrizione del servizio** | <p>Il servizio riguarda le multe per violazioni al Codice della Strada per i veicoli intestati a te.</p><p></p><p>Tramite IO potrai:</p><ul><li>ricevere il preavviso di accertamento e pagarlo in app;</li><li>ricevere un messaggio che ti informa se un verbale di contestazione è stato inviato al tuo indirizzo di residenza;</li><li>ricevere un messaggio che ti informa che il pagamento è in scadenza;</li><li>ricevere altre comunicazioni.</li></ul> |
+| **Nome servizio**            | Multe per violazioni al Codice della Strada                                                                                                                                                                                                                                                                                                                                                                                                              |
+| ---------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Argomento**                | Mobilità e trasporti                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| **Descrizione del servizio** | <p>Il servizio riguarda le multe per violazioni al Codice della Strada per i veicoli intestati a te.</p><p>Tramite IO potrai:</p><ul><li>ricevere il preavviso di accertamento e pagarlo in app;</li><li>ricevere un messaggio che ti informa se un verbale di contestazione è stato inviato al tuo indirizzo di residenza;</li><li>ricevere un messaggio che ti informa che il pagamento è in scadenza;</li><li>ricevere altre comunicazioni.</li></ul> |
 
 ## **Ciclo di vita del servizio**
 
-<figure><img src="../.gitbook/assets/Multe-x (1).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio multe per violazione del Codice della Strada</strong></p></figcaption></figure>
+<figure><img src="../../../app-io/modelli-servizi/v1.0/.gitbook/assets/Multe-x.png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio multe per violazione del Codice della Strada</strong></p></figcaption></figure>
 
 ## Messaggio del servizio
 
@@ -40,13 +40,13 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 🗒 **Testo del messaggio**: Il `<gg/mm/aaaa>` alle `<hh:mm>` in `<indirizzo>`, la persona alla guida del veicolo targato `<numero targa>` ha commesso queste violazioni:
 
-**• `<tipologia di violazione>` - art. `<numero>`**
+**• `<tipologia di violazione>` - art. `<numero>`**
 
 **Accertamento numero**: `<numero accertamento>` - \[Vedi accertamento]\(URL)
 
 **Da pagare**: <00,00> €, già scontato del 30% se paghi entro il `<gg/mm/aaaa>`
 
-**Cosa succede se non pago entro il `<gg/mm/aaaa>`?** Riceverai il verbale di contravvenzione in base a quanto previsto dal Codice della Strada e potranno essere addebitate le spese di notifica.&#x20;
+**Cosa succede se non pago entro il `<gg/mm/aaaa>`?** Riceverai il verbale di contravvenzione in base a quanto previsto dal Codice della Strada e potranno essere addebitate le spese di notifica.
 
 \[Se previsto] Inoltre, ricordati di \[**comunicare i dati di chi era alla guida del veicolo**]\(URL) al momento dell'infrazione, anche se si tratta del proprietario del mezzo, entro il gg/mm/aaaa.
 
@@ -54,9 +54,9 @@ Puoi pagare direttamente in app premendo “Paga”, oppure tramite tutti i cana
 
 In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio potrebbe subire variazioni.
 
-**🪄  Pulsante 1**: Vedi accertamento
+**🪄 Pulsante 1**: Vedi accertamento
 
-**🪄  Pulsante 2**: Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)
+**🪄 Pulsante 2**: Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)
 
 ***
 
@@ -74,11 +74,11 @@ In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio p
 
 **🖋 Titolo del messaggio:** Invio del verbale
 
-🗒 **Testo del messaggio**: In base al Codice della Strada, ti abbiamo inviato il verbale di contestazione `<numero verbale>`. Lo riceverai nei prossimi giorni.&#x20;
+🗒 **Testo del messaggio**: In base al Codice della Strada, ti abbiamo inviato il verbale di contestazione `<numero verbale>`. Lo riceverai nei prossimi giorni.
 
 L’importo del verbale potrà comprendere spese di notifica. Per maggiori informazioni, visita \[questo sito]\(URL).
 
-**🪄  Pulsante**: n/a
+**🪄 Pulsante**: n/a
 
 ***
 
@@ -102,11 +102,11 @@ IO è integrata con SEND - Servizio Notifiche Digitale, per l'invio di comunicaz
 {% hint style="info" %}
 **Un modello da personalizzare**
 
-Le procedure di questo servizio variano molto da ente a ente. Consigliamo di utilizzare i testi dei messaggi come un punto di partenza e di aggiungere ulteriori informazioni.&#x20;
+Le procedure di questo servizio variano molto da ente a ente. Consigliamo di utilizzare i testi dei messaggi come un punto di partenza e di aggiungere ulteriori informazioni.
 
 Il modello è un esempio che non ha carattere vincolante per l’ente e sul quale la Società declina qualsiasi responsabilità, avendo valore esemplificativo.
 
 Puoi copiare i testi dei messaggi da personalizzare da questo documento:
 
-{% file src="../.gitbook/assets/IO - Template servizi - Multe per violazioni al Codice della Strada.xlsx" %}
+{% file src="../../../app-io/modelli-servizi/v1.0/.gitbook/assets/IO - Template servizi - Multe per violazioni al Codice della Strada.xlsx" %}
 {% endhint %}

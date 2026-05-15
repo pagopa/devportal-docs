@@ -5,7 +5,7 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 * fornire alle cittadine e ai cittadini un riferimento per la ricezione delle comunicazioni riguardanti le segnalazioni inviate al Comune;
 * monitorare e gestire tempestivamente le richieste, comunicazioni e appuntamenti.
 
-[**Scopri tutti i benefici di integrarsi con IO →** ](https://app.gitbook.com/s/xWONfJmawghGo2ekuaKh/cose-io-e-qual-e-il-suo-obiettivo#perche-integrarsi-con-io)
+[**Scopri tutti i benefici di integrarsi con IO →**](https://app.gitbook.com/s/xWONfJmawghGo2ekuaKh/lapp-io/cose-io-e-qual-e-il-suo-obiettivo#perche-integrarsi-con-io)
 
 ## Scheda servizio <a href="#scheda-servizio" id="scheda-servizio"></a>
 
@@ -13,9 +13,9 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 
 ## Ciclo di vita del servizio
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Segnalazioni, suggerimenti e richiami</strong></p></figcaption></figure>
+<figure><img src="../../../app-io/modelli-servizi/v1.0/.gitbook/assets/image (5).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Segnalazioni, suggerimenti e richiami</strong></p></figcaption></figure>
 
-## Messaggi del servizio&#x20;
+## Messaggi del servizio
 
 {% hint style="success" %}
 **Il servizio ideale**
@@ -31,7 +31,7 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 **🖋 Titolo del messaggio:** La tua segnalazione è stata presa in carico
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Il `<gg/mm/aaaa>` abbiamo preso in carico la segnalazione presentata il `<gg/mm/aaaa>`.
 
@@ -39,7 +39,7 @@ Il codice della segnalazione è: `<codice>`
 
 Per gestire la tua segnalazione \[visita questo sito]\(URL).
 
-**🪄 Pulsante**: Visualizza la tua segnalazione&#x20;
+**🪄 Pulsante**: Visualizza la tua segnalazione
 
 ***
 
@@ -57,7 +57,7 @@ Per gestire la tua segnalazione \[visita questo sito]\(URL).
 
 **🖋 Titolo del messaggio:** La tua segnalazione è stata inoltrata all'ufficio competente
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Il `<gg/mm/aaaa>` la tua segnalazione `<codice>` è stata inoltrata all’ufficio competente `<denominazione ufficio>`.
 
@@ -80,11 +80,11 @@ Per visualizzare la tua segnalazione, \[visita questo sito]\(URL).
 {% hint style="info" %}
 **Un modello da personalizzare**
 
-Le procedure di questo servizio variano molto da ente a ente. Consigliamo di utilizzare i testi dei messaggi come un punto di partenza e di aggiungere ulteriori informazioni.&#x20;
+Le procedure di questo servizio variano molto da ente a ente. Consigliamo di utilizzare i testi dei messaggi come un punto di partenza e di aggiungere ulteriori informazioni.
 
 Il modello è un esempio che non ha carattere vincolante per l’ente e sul quale la Società declina qualsiasi responsabilità, avendo valore esemplificativo.
 
-Puoi copiare i testi dei messaggi da personalizzare da questo documento:&#x20;
+Puoi copiare i testi dei messaggi da personalizzare da questo documento:
 
-{% file src="../.gitbook/assets/IO - Template servizi - Segnalazioni, suggerimenti e reclami.xlsx" %}
+{% file src="../../../app-io/modelli-servizi/v1.0/.gitbook/assets/IO - Template servizi - Segnalazioni, suggerimenti e reclami.xlsx" %}
 {% endhint %}

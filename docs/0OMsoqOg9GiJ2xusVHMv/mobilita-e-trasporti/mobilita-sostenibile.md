@@ -5,7 +5,7 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 * fornire alle cittadine e ai cittadini un riferimento per la ricezione delle comunicazioni riguardanti la mobilità sostenibile;
 * monitorare e gestire tempestivamente le richieste, le comunicazioni e i pagamenti per l'erogazione del servizio.
 
-[**Scopri tutti i benefici di integrarsi con IO →** ](https://docs.pagopa.it/manuale-servizi/lapp-io/cose-io-e-qual-e-il-suo-obiettivo#perche-un-ente-dovrebbe-integrarsi-con-io)
+[**Scopri tutti i benefici di integrarsi con IO →**](https://docs.pagopa.it/manuale-servizi/lapp-io/cose-io-e-qual-e-il-suo-obiettivo#perche-un-ente-dovrebbe-integrarsi-con-io)
 
 ## Scheda servizio <a href="#scheda-servizio" id="scheda-servizio"></a>
 
@@ -13,7 +13,7 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 
 ## Ciclo di vita del servizio
 
-<figure><img src="../.gitbook/assets/image (8) (1).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Mobilità sostenibile</strong></p></figcaption></figure>
+<figure><img src="../../../app-io/modelli-servizi/v1.0/.gitbook/assets/image (20) (1).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Mobilità sostenibile</strong></p></figcaption></figure>
 
 ## Messaggi del servizio
 
@@ -31,7 +31,7 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 **🖋 Titolo del messaggio:** C'è una nuova `<convenzione/iniziativa>`
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 \[Inserire qui la descrizione della convenzione o iniziativa, da completare a cura e responsabilità dell'ente]
 
@@ -53,9 +53,9 @@ Per maggiori informazioni, \[visita questo sito]\(URL).
 
 <summary>Nuovo servizio</summary>
 
-**🖋 Titolo del messaggio:** C'è un nuovo servizio&#x20;
+**🖋 Titolo del messaggio:** C'è un nuovo servizio
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Dal `<gg/mm/aaaa>` è attivo il nuovo servizio `<nome servizio>`.
 
@@ -121,7 +121,7 @@ Per consultare i criteri di assegnazione e presentare richiesta, \[visita questo
 
 **🖋 Titolo del messaggio:** Richiesta di integrazione
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Per elaborare la tua richiesta di `<oggetto del bando>` abbiamo bisogno di ricevere entro il `<gg/mm/aaaa>` altri documenti.
 
@@ -145,7 +145,7 @@ Per aggiungere i documenti alla tua richiesta, \[visita questo sito]\(URL).
 
 **🖋 Titolo del messaggio:** La tua richiesta è stata accolta
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 La tua richiesta di `<oggetto del bando>` è stata accolta.
 
@@ -169,7 +169,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 **🖋 Titolo del messaggio:** La tua richiesta non è stata accolta
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 La tua richiesta di `<oggetto del bando>` non è stata accolta.
 
@@ -199,7 +199,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 **🖋 Titolo del messaggio:** Hai un nuovo avviso di pagamento
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 C’è un avviso da pagare intestato a `<nome e cognome>` e relativo a `<causale>`.
 
@@ -215,13 +215,13 @@ Per maggiori informazioni o per richiedere assistenza, contattaci tramite i cana
 
 In fase di pagamento, se previsto dall'ente, l'importo riportato nel messaggio potrebbe subire variazioni.
 
-**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)
 
 ***
 
 **Destinatari**: Tutti i cittadini residenti nell’area di azione geografica del servizio e che hanno fatto domanda per accedere a contributi per la mobilità sostenibile accolta dall’ente.
 
-**Quando inviarlo**: Quando è richiesto il pagamento.&#x20;
+**Quando inviarlo**: Quando è richiesto il pagamento.
 
 **User Story**: Come cittadino voglio ricevere comunicazione quando è possibile effettuare il pagamento delle imposte necessarie ad accedere all’agevolazione.
 
@@ -241,19 +241,19 @@ Gli utenti che hanno dato il loro consenso, infatti, riceveranno automaticamente
 
 **🖋 Titolo del messaggio:** Hai un pagamento in scadenza
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Il tuo pagamento per `<causale>` sta per scadere.
 
 Se hai già provveduto a pagare l’avviso, ignora questo messaggio.
 
-**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)
 
 ***
 
 **Destinatari**: Tutti i cittadini residenti nell’area di azione del servizio e che non hanno effettuato un pagamento per il servizio entro la scadenza.
 
-**Quando inviarlo**: Quando il pagamento è prossimo alla scadenza.&#x20;
+**Quando inviarlo**: Quando il pagamento è prossimo alla scadenza.
 
 **User Story**: Come cittadino voglio ricevere comunicazione sulla superata scadenza di un pagamento.
 
@@ -271,19 +271,19 @@ Il seguente messaggio serve a sollecitare il cittadino per il mancato pagamento 
 
 **🖋 Titolo del messaggio:** Pagamento non effettuato
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Il tuo pagamento per `<causale>` è scaduto il `<gg/mm/aaaa>`.
 
 Se hai già provveduto a pagare l’avviso, ignora questo messaggio.
 
-**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)&#x20;
+**🪄 Pulsante:** Paga (inserito automaticamente dall'app se il messaggio prevede un avviso di pagamento pagoPA)
 
 ***
 
 **Destinatari**: Tutti i cittadini residenti nell’area di azione del servizio e che non hanno effettuato un pagamento per il servizio entro la scadenza.
 
-**Quando inviarlo**: Quando non è stato effettuato il pagamento entro la scadenza.&#x20;
+**Quando inviarlo**: Quando non è stato effettuato il pagamento entro la scadenza.
 
 **User Story**: Come cittadino voglio ricevere comunicazione immediata in caso di superata scadenza di un pagamento.
 
@@ -301,11 +301,11 @@ IO è integrata con SEND - Servizio Notifiche Digitale, per l'invio di comunicaz
 {% hint style="info" %}
 **Un modello da personalizzare**
 
-Le procedure di questo servizio variano molto da ente a ente. Consigliamo di utilizzare i testi dei messaggi come un punto di partenza e di aggiungere ulteriori informazioni.&#x20;
+Le procedure di questo servizio variano molto da ente a ente. Consigliamo di utilizzare i testi dei messaggi come un punto di partenza e di aggiungere ulteriori informazioni.
 
 Il modello è un esempio che non ha carattere vincolante per l’ente e sul quale la Società declina qualsiasi responsabilità, avendo valore esemplificativo.
 
-Puoi copiare i testi dei messaggi da personalizzare da questo documento:&#x20;
+Puoi copiare i testi dei messaggi da personalizzare da questo documento:
 
-{% file src="../.gitbook/assets/IO - Template servizi - Mobilità sostenibile.xlsx" %}
+{% file src="../../../app-io/modelli-servizi/v1.0/.gitbook/assets/IO - Template servizi - Mobilità sostenibile.xlsx" %}
 {% endhint %}

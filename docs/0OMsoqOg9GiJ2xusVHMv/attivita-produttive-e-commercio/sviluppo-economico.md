@@ -5,15 +5,15 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 * fornire alle cittadine e ai cittadini un riferimento per la ricezione delle comunicazioni riguardanti le attività legate allo sviluppo e alla riqualificazione economica del territorio;
 * monitorare e gestire tempestivamente le richieste e comunicazioni per l’erogazione del servizio.
 
-[**Scopri tutti i benefici di integrarsi con IO →** ](https://docs.pagopa.it/manuale-servizi/lapp-io/cose-io-e-qual-e-il-suo-obiettivo)
+[**Scopri tutti i benefici di integrarsi con IO →**](https://docs.pagopa.it/manuale-servizi/lapp-io/cose-io-e-qual-e-il-suo-obiettivo)
 
 ## Scheda servizio <a href="#scheda-servizio" id="scheda-servizio"></a>
 
-<table data-header-hidden><thead><tr><th width="373"></th><th></th></tr></thead><tbody><tr><td><strong>Nome servizio</strong></td><td>Sviluppo economico</td></tr><tr><td><strong>Argomento</strong></td><td>Attività produttive e commercio</td></tr><tr><td><strong>Descrizione del servizio</strong></td><td><p>Il servizio riguarda le attività legate allo sviluppo e alla riqualificazione economica del territorio.</p><p></p><p>Tramite IO potrai:</p><ul><li>ricevere comunicazioni e aggiornamenti sulle attività;</li><li>ricevere eventuali avvisi di pagamento e pagarli in app;</li><li>ricevere altre comunicazioni.</li></ul></td></tr><tr><td><strong>Pulsante</strong></td><td>Vai alla modulistica</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="373"></th><th></th></tr></thead><tbody><tr><td><strong>Nome servizio</strong></td><td>Sviluppo economico</td></tr><tr><td><strong>Argomento</strong></td><td>Attività produttive e commercio</td></tr><tr><td><strong>Descrizione del servizio</strong></td><td><p>Il servizio riguarda le attività legate allo sviluppo e alla riqualificazione economica del territorio.</p><p>Tramite IO potrai:</p><ul><li>ricevere comunicazioni e aggiornamenti sulle attività;</li><li>ricevere eventuali avvisi di pagamento e pagarli in app;</li><li>ricevere altre comunicazioni.</li></ul></td></tr><tr><td><strong>Pulsante</strong></td><td>Vai alla modulistica</td></tr></tbody></table>
 
 ## Ciclo di vita del servizio
 
-<figure><img src="../.gitbook/assets/Attività produttive e commercio_Sviluppo economico (1).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Sviluppo economico</strong></p></figcaption></figure>
+<figure><img src="../../../app-io/modelli-servizi/v1.0/.gitbook/assets/Attività produttive e commercio_Sviluppo economico.png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Sviluppo economico</strong></p></figcaption></figure>
 
 ## Messaggi del servizio
 
@@ -29,9 +29,9 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 <summary>Pubblicazione iniziativa</summary>
 
-**🖋 Titolo del messaggio:** È disponibile `<una nuova iniziativa>`&#x20;
+**🖋 Titolo del messaggio:** È disponibile `<una nuova iniziativa>`
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 \[Inserire qui una descrizione sintetica dell’iniziativa, da completare a cura e responsabilità dell'ente]
 
@@ -55,15 +55,15 @@ Per visualizzare `<nome dell'iniziativa>`, \[visita questo sito]\(URL).
 
 <summary>Richiesta appuntamento</summary>
 
-**🖋 Titolo del messaggio:** Richiesta appuntamento&#x20;
+**🖋 Titolo del messaggio:** Richiesta appuntamento
 
 🗒 **Testo del messaggio:**
 
 Per elaborare la tua domanda di `<oggetto della domanda>` è necessario fissare un appuntamento presso `<denominazione ufficio>`.
 
-Per prenotare il tuo appuntamento, \[visita questo sito]\(URL).&#x20;
+Per prenotare il tuo appuntamento, \[visita questo sito]\(URL).
 
-Per ulteriori informazioni, \[visita questo sito]\(URL)&#x20;
+Per ulteriori informazioni, \[visita questo sito]\(URL)
 
 **🪄 Pulsante:** Prenota appuntamento
 
@@ -85,7 +85,7 @@ Per ulteriori informazioni, \[visita questo sito]\(URL)&#x20;
 
 ***
 
-**🖋 Titolo del messaggio:** Il tuo appuntamento&#x20;
+**🖋 Titolo del messaggio:** Il tuo appuntamento
 
 🗒 **Testo del messaggio:**
 
@@ -99,7 +99,7 @@ Il numero della prenotazione è `<nnnn>`.
 
 Per ulteriori informazioni, \[visita questo sito]\(URL).
 
-**🪄 Pulsante:** Disdici appuntamento&#x20;
+**🪄 Pulsante:** Disdici appuntamento
 
 ***
 
@@ -119,11 +119,11 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 
 🗒 **Testo del messaggio:**
 
-Per elaborare la tua domanda per `<oggetto della domanda>` abbiamo bisogno di ricevere entro il `<gg/mm/aaaa>` altri documenti.&#x20;
+Per elaborare la tua domanda per `<oggetto della domanda>` abbiamo bisogno di ricevere entro il `<gg/mm/aaaa>` altri documenti.
 
 Consulta il riepilogo della tua domanda, \[visita questo sito]\(URL).
 
-**🪄 Pulsante:** Aggiungi documenti&#x20;
+**🪄 Pulsante:** Aggiungi documenti
 
 ***
 
@@ -216,11 +216,11 @@ Per ulteriori informazioni, \[visita questo sito]\(URL).
 {% hint style="info" %}
 **Un modello da personalizzare**
 
-Le procedure di questo servizio variano molto da ente a ente. Consigliamo di utilizzare i testi dei messaggi come un punto di partenza e di aggiungere ulteriori informazioni.&#x20;
+Le procedure di questo servizio variano molto da ente a ente. Consigliamo di utilizzare i testi dei messaggi come un punto di partenza e di aggiungere ulteriori informazioni.
 
 Il modello è un esempio che non ha carattere vincolante per l’ente e sul quale la Società declina qualsiasi responsabilità, avendo valore esemplificativo.
 
 Puoi copiare i testi dei messaggi da personalizzare da questo documento:
 
-{% file src="../.gitbook/assets/IO - Template servizi - Sviluppo economico.xlsx" %}
+{% file src="../../../app-io/modelli-servizi/v1.0/.gitbook/assets/IO - Template servizi - Sviluppo economico.xlsx" %}
 {% endhint %}

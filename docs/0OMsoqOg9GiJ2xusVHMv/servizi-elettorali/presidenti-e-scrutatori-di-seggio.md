@@ -5,7 +5,7 @@ Erogare il servizio tramite app IO permette agli enti di:
 * promuovere e reclutare cittadini idonei a ricoprire i ruoli di presidenti e scrutatori di seggio;
 * creare un canale di comunicazioni diretto con i cittadini.
 
-[**Scopri tutti i benefici di integrarsi con IO →** ](https://docs.pagopa.it/manuale-servizi/lapp-io/cose-io-e-qual-e-il-suo-obiettivo#perche-un-ente-dovrebbe-integrarsi-con-io)
+[**Scopri tutti i benefici di integrarsi con IO →**](https://docs.pagopa.it/manuale-servizi/lapp-io/cose-io-e-qual-e-il-suo-obiettivo#perche-un-ente-dovrebbe-integrarsi-con-io)
 
 ## Scheda servizio <a href="#scheda-servizio" id="scheda-servizio"></a>
 
@@ -13,9 +13,9 @@ Erogare il servizio tramite app IO permette agli enti di:
 
 ## Ciclo di vita del servizio
 
-<figure><img src="../.gitbook/assets/image (25).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Presidenti e scrutatori di seggio</strong></p></figcaption></figure>
+<figure><img src="../../../app-io/modelli-servizi/v1.0/.gitbook/assets/image (24).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Presidenti e scrutatori di seggio</strong></p></figcaption></figure>
 
-## Messaggi del servizio&#x20;
+## Messaggi del servizio
 
 {% hint style="success" %}
 **Il servizio ideale**
@@ -31,15 +31,15 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 **🖋 Titolo del messaggio:** Iscriviti all'albo scrutatori o all'albo presidenti
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
-Puoi iscriverti all'albo presidenti o l'albo scrutatori per partecipare ai seggi del nostro Comune nelle prossime elezioni.&#x20;
+Puoi iscriverti all'albo presidenti o l'albo scrutatori per partecipare ai seggi del nostro Comune nelle prossime elezioni.
 
-Per iscriverti, \[inserire la descrizione della procedura, da completare a cura e responsabilità dell'ente].&#x20;
+Per iscriverti, \[inserire la descrizione della procedura, da completare a cura e responsabilità dell'ente].
 
-La domanda è gratuita e può essere inoltrata dal `<gg/mm/aaaa>` al `<gg/mm/aaaa>`. Non è necessario rinnovarla ogni anno.&#x20;
+La domanda è gratuita e può essere inoltrata dal `<gg/mm/aaaa>` al `<gg/mm/aaaa>`. Non è necessario rinnovarla ogni anno.
 
-Per ulteriori informazioni sul ruolo del presidente e scrutatore, \[visita questo sito]\(URL).&#x20;
+Per ulteriori informazioni sul ruolo del presidente e scrutatore, \[visita questo sito]\(URL).
 
 **🪄 Pulsante**: n/a
 
@@ -49,7 +49,7 @@ Per ulteriori informazioni sul ruolo del presidente e scrutatore, \[visita quest
 
 **Quando inviarlo**: In caso di scarsa disponibilità di scrutatori o presidenti
 
-**User story**: Come cittadino voglio informato della possibilità di svolgere il ruolo di presidente o scrutatore di un seggio&#x20;
+**User story**: Come cittadino voglio informato della possibilità di svolgere il ruolo di presidente o scrutatore di un seggio
 
 </details>
 
@@ -61,9 +61,9 @@ Per ulteriori informazioni sul ruolo del presidente e scrutatore, \[visita quest
 
 **🖋 Titolo del messaggio:** Convocazione ai seggi
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
-Sei convocato a prestare servizio come `<presidente o scrutinatore>` presso il seggio `<identificativo del seggio>` per `<le elezioni o il referendum>`  del `<gg/mm/aaaa>`.
+Sei convocato a prestare servizio come `<presidente o scrutinatore>` presso il seggio `<identificativo del seggio>` per `<le elezioni o il referendum>` del `<gg/mm/aaaa>`.
 
 Per ulteriori informazioni, `<inserire i canale di comunicazione da consultare o contattare>`.
 
@@ -73,7 +73,7 @@ Per ulteriori informazioni, `<inserire i canale di comunicazione da consultare o
 
 **Destinatari**: Tutti i cittadini residenti nell’area geografica di azione del servizio che sono convocati come presidenti o scrutatori
 
-**Quando inviarlo**: Quando i cittadini sono chiamati al voto&#x20;
+**Quando inviarlo**: Quando i cittadini sono chiamati al voto
 
 **User story**: Come cittadino voglio sapere se sono convocato come scrutatore o presidente
 
@@ -95,7 +95,7 @@ Le procedure di questo servizio variano molto da ente a ente. Consigliamo di uti
 
 Il modello è un esempio che non ha carattere vincolante per l’ente e sul quale la Società declina qualsiasi responsabilità, avendo valore esemplificativo.
 
-Puoi copiare i testi dei messaggi da personalizzare da questo documento:&#x20;
+Puoi copiare i testi dei messaggi da personalizzare da questo documento:
 
-{% file src="../.gitbook/assets/IO - Template servizi - Presidenti e scrutatori di seggio.xlsx" %}
+{% file src="../../../app-io/modelli-servizi/v1.0/.gitbook/assets/IO - Template servizi - Presidenti e scrutatori di seggio.xlsx" %}
 {% endhint %}
