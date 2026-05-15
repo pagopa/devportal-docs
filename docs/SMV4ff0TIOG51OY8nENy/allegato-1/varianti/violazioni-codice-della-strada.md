@@ -21,7 +21,7 @@ Se l'Ente Creditore dispone di un conto corrente postale per gli incassi, è nec
 
 ### Risorse disponibili
 
-{% file src="../../.gitbook/assets/pagoPA-Avvisi-310-violazioniCDS.zip" %}
+{% file src="../../../pago-pa/avviso-pagamento/3.3.0/.gitbook/assets/pagoPA-Avvisi-310-violazioniCDS.zip" %}
 Modello di avviso di pagamento pagoPA in caso di data notifica non nota (SVG e PDF).
 {% endfile %}
 
@@ -45,7 +45,7 @@ Le informazioni contenute nella sezione [dove-pagare.md](../../allegato-2/specif
 
 ### Risorse disponibili
 
-{% file src="../../.gitbook/assets/pagoPA-Avvisi-310-violazioniCDS-StampaTermica.zip" %}
+{% file src="../../../pago-pa/avviso-pagamento/3.3.0/.gitbook/assets/pagoPA-Avvisi-310-violazioniCDS-StampaTermica.zip" %}
 Modello di avviso di pagamento pagoPA per stampanti termiche (SVG e PDF).
 {% endfile %}
 

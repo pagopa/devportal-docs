@@ -19,6 +19,6 @@ Se l'Ente Creditore dispone di un conto corrente postale per gli incassi, è nec
 
 ### Risorse disponibili
 
-{% file src="../../.gitbook/assets/pagoPA-Avvisi-310-molteRate.zip" %}
+{% file src="../../../pago-pa/avviso-pagamento/3.3.0/.gitbook/assets/pagoPA-Avvisi-310-molteRate.zip" %}
 File ZIP contenente il modello dell'avviso in formato SVG e PDF.
 {% endfile %}
