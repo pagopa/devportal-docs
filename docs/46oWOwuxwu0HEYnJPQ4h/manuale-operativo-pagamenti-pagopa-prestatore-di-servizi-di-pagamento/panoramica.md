@@ -20,9 +20,9 @@ Una volta aver effettuato l'accesso al Back office PagoPA, l'utente accede alla 
 
 Nel caso in cui **non** è stata ancora effettuata la **registrazione al Nodo dei Pagamenti** lo **Stato** risulta in **"Non Abilitato"**.
 
-Per procedere alla Registrazione al nodo, all'interno del box "E ora?" l'utente può cliccare sul tasto **"Completa registrazione -->"** (vedi [funzionalità - Registrazione al nodo dei pagamenti PagoPA](https://app.gitbook.com/o/KXYtsf32WSKm6ga638R3/s/rJUTsG994kMeEJKlJ2MJ/\~/changes/19/manuale-operativo-pagamenti-back-office-pagopa-prestatore-di-servizi-di-pagamento/funzionalita/registrazione-al-nodo-dei-pagamenti-pagopa))
+Per procedere alla Registrazione al nodo, all'interno del box "E ora?" l'utente può cliccare sul tasto **"Completa registrazione -->"** (vedi [funzionalità - Registrazione al nodo dei pagamenti PagoPA](https://app.gitbook.com/o/KXYtsf32WSKm6ga638R3/s/rJUTsG994kMeEJKlJ2MJ/~/changes/19/manuale-operativo-pagamenti-back-office-pagopa-prestatore-di-servizi-di-pagamento/funzionalita/registrazione-al-nodo-dei-pagamenti-pagopa))
 
-<figure><img src="../.gitbook/assets/image (98).png" alt=""><figcaption><p><em>Panoramica- PSP censito al Nodo dei Pagamenti PagoPa</em></p></figcaption></figure>
+<figure><img src="../../pago-pa/manuale-bo-psp/v1.0/.gitbook/assets/image (139).png" alt=""><figcaption><p><em>Panoramica- PSP censito al Nodo dei Pagamenti PagoPa</em></p></figcaption></figure>
 
 ### Panoramica: Ambiente di Produzione
 

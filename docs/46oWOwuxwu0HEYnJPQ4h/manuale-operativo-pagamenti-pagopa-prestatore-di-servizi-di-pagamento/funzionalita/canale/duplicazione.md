@@ -18,7 +18,7 @@ Il ruolo che ne possiede il **pieno potere** a livello di **operatività** è il
 
 All'interno della _Pagina "Vista Canali",_ l'utente cliccando sui **3 puntini** accanto lo Stato **"Attivo"**, ha la possibilità di selezionare la voce **"Duplica"** accedendo così alla _Pagina di configurazione Canale._&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (150).png" alt=""><figcaption><p><em>Pagina Vista Canali - tabella elenco Canali</em></p></figcaption></figure>
+<figure><img src="../../../../pago-pa/manuale-bo-psp/v1.0/.gitbook/assets/image (191).png" alt=""><figcaption><p><em>Pagina Vista Canali - tabella elenco Canali</em></p></figcaption></figure>
 
 &#x20;Da qui l'utente, ha la possibilità di sostituire i dati all'interno dei campi per effettuare la creazione del nuovo canale.&#x20;
 
@@ -26,7 +26,7 @@ All'interno del form, l'utente può visualizzare **tutti i campi già valorizzat
 
 Se si intende creare un nuovo canale, al termine della compilazione, è possibile cliccare sul tasto **"Continua"**.
 
-<figure><img src="../../../.gitbook/assets/image (94).png" alt=""><figcaption><p><em>Pagina duplicazione canale - continua</em></p></figcaption></figure>
+<figure><img src="../../../../pago-pa/manuale-bo-psp/v1.0/.gitbook/assets/image (135).png" alt=""><figcaption><p><em>Pagina duplicazione canale - continua</em></p></figcaption></figure>
 
 Una volta aver cliccato sul tasto "Continua", l'utente attiverà il nuovo canale e verrà reindirizzato alla _Pagina Vista Canale_ in cui potrà visualizzarlo in stato **Attivo**.&#x20;
 
@@ -48,10 +48,10 @@ Cliccando sul tasto "Invia" verrà inviata una e-mail all'operatore.
 
 Altrimenti è necessario cliccare su "Torna indietro" per tornare alla _Pagina di dettaglio del canale._
 
-<figure><img src="../../../.gitbook/assets/image (41).png" alt=""><figcaption><p><em>Pop up - Conferma</em></p></figcaption></figure>
+<figure><img src="../../../../pago-pa/manuale-bo-psp/v1.0/.gitbook/assets/image (82).png" alt=""><figcaption><p><em>Pop up - Conferma</em></p></figcaption></figure>
 
 Una volta aver cliccato su tasto "Invia", l'utente verrà reindirizzato alla _Pagina Vista Canale_ in cui potrà visualizzare nella tabella il canale, che risulterà nello stato **In revisione** (il canale è stato creato, ma in attesa di revisione da parte di PagoPA).
 
-<figure><img src="../../../.gitbook/assets/image (151).png" alt=""><figcaption><p><em>Pagina Vista Canali - tabella elenco Canali</em></p></figcaption></figure>
+<figure><img src="../../../../pago-pa/manuale-bo-psp/v1.0/.gitbook/assets/image (192).png" alt=""><figcaption><p><em>Pagina Vista Canali - tabella elenco Canali</em></p></figcaption></figure>
 
 [^1]: 

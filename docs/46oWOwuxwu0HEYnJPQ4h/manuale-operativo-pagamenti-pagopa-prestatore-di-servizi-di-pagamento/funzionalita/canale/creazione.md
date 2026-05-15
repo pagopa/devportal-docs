@@ -19,11 +19,11 @@ All'interno della sezione Canali, se **non** sono ancora stati **creati canali**
 
 E' possibile procedere alla **creazione** di un **nuovo canale**, cliccando sia su tasto **"Crea Canale"** che su hyperlink in blu **"Crea canale".**
 
-<figure><img src="../../../.gitbook/assets/image (75).png" alt=""><figcaption><p><em>Pagina Vista Canali vuota - caso in cui ancora non è stato creato alcun canale</em></p></figcaption></figure>
+<figure><img src="../../../../pago-pa/manuale-bo-psp/v1.0/.gitbook/assets/image (116).png" alt=""><figcaption><p><em>Pagina Vista Canali vuota - caso in cui ancora non è stato creato alcun canale</em></p></figcaption></figure>
 
 Nel caso in cui sono già **stati creati canali**, l'utente nella suddetta _Pagina_ visualizzerà l'elenco di questi sotto forma di tabella, e per **creare** un **nuovo canale** è necessario cliccare sul tasto  **"Crea Canale".**
 
-<figure><img src="../../../.gitbook/assets/image (153).png" alt=""><figcaption><p><em>Pagina Vista Canali - tabella elenco Canali</em></p></figcaption></figure>
+<figure><img src="../../../../pago-pa/manuale-bo-psp/v1.0/.gitbook/assets/image (194).png" alt=""><figcaption><p><em>Pagina Vista Canali - tabella elenco Canali</em></p></figcaption></figure>
 
 ### **Pagina di creazione Canale (configurazione canale)**
 
@@ -33,11 +33,11 @@ Al click su **"Crea Canale"** l'utente può accedere alla _Pagina di dettaglio C
 
 I soli campi valorizzati sono quelli della sezione **Anagrafica,** per procedere è necessario compilare **almeno i campi obbligatori** evidenziati con un asterisco.
 
-<figure><img src="../../../.gitbook/assets/image (68).png" alt=""><figcaption><p><em>Pagina di creazione canale</em></p></figcaption></figure>
+<figure><img src="../../../../pago-pa/manuale-bo-psp/v1.0/.gitbook/assets/image (109).png" alt=""><figcaption><p><em>Pagina di creazione canale</em></p></figcaption></figure>
 
 Nel momento in cui la compilazione è **completata,** è possibile cliccare sul tasto **"Conferma".**
 
-<figure><img src="../../../.gitbook/assets/image (83).png" alt=""><figcaption><p><em>Pagina di creazione canale - Conferma</em></p></figcaption></figure>
+<figure><img src="../../../../pago-pa/manuale-bo-psp/v1.0/.gitbook/assets/image (124).png" alt=""><figcaption><p><em>Pagina di creazione canale - Conferma</em></p></figcaption></figure>
 
 Una volta aver cliccato sul tasto "Conferma", l'utente attiverà il canale e verrà reindirizzato alla _Pagina Vista Canale_ in cui potrà visualizzarlo in stato **Attivo**.&#x20;
 
@@ -59,11 +59,11 @@ Cliccando sul tasto "Invia" verrà inviata una e-mail all'operatore.
 
 Altrimenti è necessario cliccare su "Torna indietro" per tornare alla _Pagina di dettaglio del canale._
 
-<figure><img src="../../../.gitbook/assets/image (85).png" alt=""><figcaption><p><em>Pop up - Conferma</em></p></figcaption></figure>
+<figure><img src="../../../../pago-pa/manuale-bo-psp/v1.0/.gitbook/assets/image (126).png" alt=""><figcaption><p><em>Pop up - Conferma</em></p></figcaption></figure>
 
 Una volta aver cliccato su tasto "Invia", l'utente verrà reindirizzato alla _Pagina Vista Canale_ in cui potrà visualizzare nella tabella il canale, che risulterà nello stato **In revisione** (il canale è stato creato, ma in attesa di revisione da parte di PagoPA).
 
-<figure><img src="../../../.gitbook/assets/image (152).png" alt=""><figcaption><p><em>Pagina Vista Canali - tabella elenco Canali</em></p></figcaption></figure>
+<figure><img src="../../../../pago-pa/manuale-bo-psp/v1.0/.gitbook/assets/image (193).png" alt=""><figcaption><p><em>Pagina Vista Canali - tabella elenco Canali</em></p></figcaption></figure>
 
 
 

@@ -8,11 +8,11 @@ Si ricorda che un pacchetto "Per tutti" ha validità per tutti gli EC aderenti a
 
 Accedendo alla funzionalità `"Pacchetti commissioni"` dal menu laterale di sinistra e spostandosi nel tab `"Per tutti"` è possibile accedere alla funzione di creazione del pacchetto.
 
-<figure><img src="../../../../.gitbook/assets/Screenshot 2024-05-14 alle 17.05.56.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../pago-pa/manuale-bo-psp/v1.0/.gitbook/assets/Screenshot 2024-05-14 alle 17.05.56.png" alt=""><figcaption></figcaption></figure>
 
 Una volta schiacciato il pulsante `Crea pacchetto` il sistema mostrerà la seguente interfaccia per poter inserire tutte le informazioni necessarie alla creazione del pacchetto
 
-<figure><img src="../../../../.gitbook/assets/image (218).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../pago-pa/manuale-bo-psp/v1.0/.gitbook/assets/image (271).png" alt=""><figcaption></figcaption></figure>
 
 Le informazioni da inserire sono le seguenti:
 
@@ -58,25 +58,25 @@ N.B. Il tipo di pagamento inserito nel menu a tendina deve essere coerente con q
 
 Compilate le informazioni di cui sopra è necessario proseguire schiacciando il pulsante "`Continua`" il quale attiverà il passaggio alla seconda fase di configurazione del pacchetto, ovvero la possibilità di inserire delle tassonomie specifiche per quel determinato pacchetto. (Per maggiori informazioni sulle tassonomie consultare [https://docs.pagopa.it/sanp/ente-creditore/tassonomia-dei-servizi-di-incasso](https://docs.pagopa.it/sanp/ente-creditore/tassonomia-dei-servizi-di-incasso))
 
-<figure><img src="../../../../.gitbook/assets/image (176).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../pago-pa/manuale-bo-psp/v1.0/.gitbook/assets/image (229).png" alt=""><figcaption></figcaption></figure>
 
 Schiacciando il pulsante `"Sfoglia catalogo"` è possibile accedere all'elenco delle tassonomie disponibili raggruppate per tipologia di Ente Creditore, di Area e di specifico servizio.
 
-<figure><img src="../../../../.gitbook/assets/image (178).png" alt="" width="188"><figcaption><p>Vista tassonomie per Ente Creditore</p></figcaption></figure>
+<figure><img src="../../../../../pago-pa/manuale-bo-psp/v1.0/.gitbook/assets/image (231).png" alt="" width="188"><figcaption><p>Vista tassonomie per Ente Creditore</p></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/image (179).png" alt="" width="188"><figcaption><p>Vista tassonomie per Area</p></figcaption></figure>
+<figure><img src="../../../../../pago-pa/manuale-bo-psp/v1.0/.gitbook/assets/image (232).png" alt="" width="188"><figcaption><p>Vista tassonomie per Area</p></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/image (180).png" alt="" width="188"><figcaption><p>Vista tassonomia per servizio di incasso</p></figcaption></figure>
+<figure><img src="../../../../../pago-pa/manuale-bo-psp/v1.0/.gitbook/assets/image (233).png" alt="" width="188"><figcaption><p>Vista tassonomia per servizio di incasso</p></figcaption></figure>
 
 E' possibile indicare una singolo servizio oppure più di uno.
 
-<figure><img src="../../../../.gitbook/assets/image (181).png" alt="" width="188"><figcaption><p>Seleziona singolo servizio</p></figcaption></figure>
+<figure><img src="../../../../../pago-pa/manuale-bo-psp/v1.0/.gitbook/assets/image (234).png" alt="" width="188"><figcaption><p>Seleziona singolo servizio</p></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/image (182).png" alt="" width="188"><figcaption><p>Seleziona molteplici servizi</p></figcaption></figure>
+<figure><img src="../../../../../pago-pa/manuale-bo-psp/v1.0/.gitbook/assets/image (235).png" alt="" width="188"><figcaption><p>Seleziona molteplici servizi</p></figcaption></figure>
 
 Una volta selezionato il servizio (o i servizi) è necessario schiacciare il pulsante `"Aggiungi"` che porta ad una pagina di riepilogo dalla quale è possibile vedere i servizi associati al pacchetto. Dalla stessa pagina è possibile eseguire modifiche ai servizi scelti.
 
-<figure><img src="../../../../.gitbook/assets/image (183).png" alt=""><figcaption><p>Vista riepilogo servizi incasso</p></figcaption></figure>
+<figure><img src="../../../../../pago-pa/manuale-bo-psp/v1.0/.gitbook/assets/image (236).png" alt=""><figcaption><p>Vista riepilogo servizi incasso</p></figcaption></figure>
 
 Schiacciando il pulsante `"Sfoglia catalogo"` si torna alla possibilità di scelta di ulteriori servizi come specificato nelle sezioni precedenti.
 
@@ -86,15 +86,15 @@ Di seguito un esempio di file csv
 
 Schiacciando invece il pulsante `"Rimuovi"` è possibile rimuovere l'intera categoria di servizi.
 
-<figure><img src="../../../../.gitbook/assets/image (184).png" alt=""><figcaption><p>Rimozione categoria servizi</p></figcaption></figure>
+<figure><img src="../../../../../pago-pa/manuale-bo-psp/v1.0/.gitbook/assets/image (237).png" alt=""><figcaption><p>Rimozione categoria servizi</p></figcaption></figure>
 
 Schiacciando invece il pulsante `"-"` sulla sinistra di ogni singolo servizio è possibile invece rimuovere soltanto il servizio specifico.
 
-<figure><img src="../../../../.gitbook/assets/image (185).png" alt=""><figcaption><p>Rimozione singolo servizio</p></figcaption></figure>
+<figure><img src="../../../../../pago-pa/manuale-bo-psp/v1.0/.gitbook/assets/image (238).png" alt=""><figcaption><p>Rimozione singolo servizio</p></figcaption></figure>
 
 Terminata la fase di selezione dei servizi di incasso è necessario proseguire schiacciando il pulsante "`Continua`" il quale attiverà un popup preventivo alla conferma dei dati
 
-<figure><img src="../../../../.gitbook/assets/image (163).png" alt=""><figcaption><p>Popup conferma creazione pacchetto globale</p></figcaption></figure>
+<figure><img src="../../../../../pago-pa/manuale-bo-psp/v1.0/.gitbook/assets/image (216).png" alt=""><figcaption><p>Popup conferma creazione pacchetto globale</p></figcaption></figure>
 
 Schiacciando il pulsante "`Conferma`" si procederà alla creazione del pacchetto globale. Esso sarà poi visibile nella sezione "`Pacchetti commissioni`" nel tab "`Per tutti`"
 
@@ -102,4 +102,4 @@ Schiacciando il pulsante "`Conferma`" si procederà alla creazione del pacchetto
 Il pacchetto appena creato sarà visibile anche a tutti gli EC nell'apposita maschera riepilogativa di tutti i pacchetti "Per tutti"
 {% endhint %}
 
-<figure><img src="../../../../.gitbook/assets/Screenshot 2024-05-14 alle 17.10.04.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../pago-pa/manuale-bo-psp/v1.0/.gitbook/assets/Screenshot 2024-05-14 alle 17.10.04.png" alt=""><figcaption></figcaption></figure>

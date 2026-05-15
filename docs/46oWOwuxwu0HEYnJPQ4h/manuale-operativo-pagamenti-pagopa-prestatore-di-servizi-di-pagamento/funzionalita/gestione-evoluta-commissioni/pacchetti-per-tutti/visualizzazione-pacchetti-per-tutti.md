@@ -16,7 +16,7 @@ Gli stati disponibili per un pacchetto sono i seguenti:
 `In eliminazione` pacchetto in fase di eliminazione.
 {% endhint %}
 
-<figure><img src="../../../../.gitbook/assets/Screenshot 2024-05-14 alle 17.26.15.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../pago-pa/manuale-bo-psp/v1.0/.gitbook/assets/Screenshot 2024-05-14 alle 17.26.15.png" alt=""><figcaption></figcaption></figure>
 
 E' possibile ricercare un determinato pacchetto filtrando nel campo di ricerca e impostando il nome del pacchetto da ricercare.&#x20;
 

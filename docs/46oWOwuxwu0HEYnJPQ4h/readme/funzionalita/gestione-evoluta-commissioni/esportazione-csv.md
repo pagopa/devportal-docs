@@ -4,11 +4,11 @@ Questa funzionalità offre la possibilità di esportare in formato csv tutte le 
 
 La funzionalità è accessibile direttamente dalla pagina di gestione dei pacchetti cliccando sul pulsante "Scarica lista".
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2024-11-19 alle 09.38.35.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../pago-pa/manuale-bo-psp/v1.0/.gitbook/assets/Screenshot 2024-11-19 alle 09.38.35.png" alt=""><figcaption></figcaption></figure>
 
 Una volta schiacciato il pulsante viene proposta la maschera di scelta dell'export da eseguire, se totale oppure se specifico di una tipologia di pacchetto.
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2024-11-19 alle 09.39.00.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../pago-pa/manuale-bo-psp/v1.0/.gitbook/assets/Screenshot 2024-11-19 alle 09.39.00.png" alt=""><figcaption></figcaption></figure>
 
 L' output del csv è così strutturato:
 
@@ -21,11 +21,11 @@ L' output del csv è così strutturato:
 * Importo pagamento massimo
 * Tipo di pagamento ->&#x20;
 
-![](<../../../.gitbook/assets/Screenshot 2024-11-19 alle 09.53.40.png>)
+![](<../../../../pago-pa/manuale-bo-psp/v1.0/.gitbook/assets/Screenshot 2024-11-19 alle 09.53.40.png>)
 
 * Touchpoint ->
 
-&#x20;![](<../../../.gitbook/assets/Screenshot 2024-11-19 alle 09.53.56 (1).png>)
+&#x20;![](<../../../../pago-pa/manuale-bo-psp/v1.0/.gitbook/assets/Screenshot 2024-11-19 alle 09.53.56 (1).png>)
 
 * Valido da -> data di inizio validità del pacchetto
 * Valido a -> data di fine validità del pacchetto
@@ -41,5 +41,5 @@ L' output del csv è così strutturato:
 
 Un esempio di file csv è il seguente
 
-{% file src="../../../.gitbook/assets/PSP-DEMO_2024-11-19_tutti_bundle-export.csv" %}
+{% file src="../../../../pago-pa/manuale-bo-psp/v1.0/.gitbook/assets/PSP-DEMO_2024-11-19_tutti_bundle-export.csv" %}
 

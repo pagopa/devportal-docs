@@ -18,21 +18,21 @@ Il ruolo che ne possiede il **pieno potere** a livello di **operatività** è il
 
 Nella _Pagina "Vista Canali",_ dopo aver effettuato la creazione del canale in ambiente di collaudo, l'utente può visualizzare l'elenco dei canali creati sotto forma di tabella in Stato Attivo.
 
-**Cliccando** sui **3 puntini** accanto lo Stato **"Attivo"**, l'utente visualizzerà le voci **"Gestisci Canali"** e **"Duplica"** [(vedi Duplicazione - Ambiente di Collaudo)](https://app.gitbook.com/o/KXYtsf32WSKm6ga638R3/s/rJUTsG994kMeEJKlJ2MJ/\~/changes/14/manuale-operativo-back-office-pagopa-prestatore-di-servizi-di-pagamento/funzionalita/canale/duplicazione).
+**Cliccando** sui **3 puntini** accanto lo Stato **"Attivo"**, l'utente visualizzerà le voci **"Gestisci Canali"** e **"Duplica"** [(vedi Duplicazione - Ambiente di Collaudo)](https://app.gitbook.com/o/KXYtsf32WSKm6ga638R3/s/rJUTsG994kMeEJKlJ2MJ/~/changes/14/manuale-operativo-back-office-pagopa-prestatore-di-servizi-di-pagamento/funzionalita/canale/duplicazione).
 
-<figure><img src="../../../.gitbook/assets/image (92).png" alt=""><figcaption><p><em>Pagina Vista Canali - tabella elenco canali - menu stato Attivo</em></p></figcaption></figure>
+<figure><img src="../../../../pago-pa/manuale-bo-psp/v1.0/.gitbook/assets/image (133).png" alt=""><figcaption><p><em>Pagina Vista Canali - tabella elenco canali - menu stato Attivo</em></p></figcaption></figure>
 
 Selezionando la voce **"Gestisci Canali"**, l'utente può accedere alla _**Pagina di dettaglio Canale**_ in cui sono riportati tutti i dati di configurazione inseriti in fase di Creazione.
 
 Da questa pagina, oltre alla mera consultazione  ha la possibilità di avviare le **azioni** di disabilitazione, **duplicazione** e **modifica** del canale cliccando sui  rispettivi tasti "Richiedi eliminazione", "**Duplica**" e "**Modifica**".
 
-<figure><img src="../../../.gitbook/assets/image (109).png" alt=""><figcaption><p><em>Pagina di dettaglio configurazione del canale</em></p></figcaption></figure>
+<figure><img src="../../../../pago-pa/manuale-bo-psp/v1.0/.gitbook/assets/image (150).png" alt=""><figcaption><p><em>Pagina di dettaglio configurazione del canale</em></p></figcaption></figure>
 
 #### **PSP Intermediario tecnologico**
 
 Se il **PSP** ha scelto di rendersi **disponibile** ad **intermediare** altri PSP indiretti, **cliccando** sui **3 puntini** accanto lo Stato Attivo, potrà essere visualizzata oltre alle voci **"Gestisci Canali"** e **"Duplica",** anche la voce **"Gestisci PSP"** che consente di accedere alla _Pagina Gestione PSP_ da cui sarà possibile avviare tutte le azioni di gestione dei PSP associati a quel canale.
 
-<figure><img src="../../../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption><p><em>Pagina Vista Canali - PSP intermediario</em></p></figcaption></figure>
+<figure><img src="../../../../pago-pa/manuale-bo-psp/v1.0/.gitbook/assets/image (46).png" alt=""><figcaption><p><em>Pagina Vista Canali - PSP intermediario</em></p></figcaption></figure>
 
 ## Sezione Canale: Gestione - Ambiente di Produzione
 
@@ -43,13 +43,13 @@ Nella _Pagina "Vista Canali",_ dopo aver effettuato la creazione del canale in a
 
 **Cliccando** sui **3 puntini** accanto lo Stato "**In revisione"**, l'utente può visualizzare le voci **"Gestisci Canali"** e **"Duplica".** (vedi [Duplica - Ambiente di Produzione](duplicazione.md)).
 
-<figure><img src="../../../.gitbook/assets/image (6) (1) (1).png" alt=""><figcaption><p><em>Pagina Vista Canali - Tabella elenco Canali</em></p></figcaption></figure>
+<figure><img src="../../../../pago-pa/manuale-bo-psp/v1.0/.gitbook/assets/image (47).png" alt=""><figcaption><p><em>Pagina Vista Canali - Tabella elenco Canali</em></p></figcaption></figure>
 
 **Cliccando** sui **3 puntini** accanto lo Stato **Attivo**, l'utente avrà la possibilità di selezionare la voce **"Gestisci Canali"**, accedendo alla _Pagina di dettaglio Canale_ in cui sono riportati tutti i dati di configurazione inseriti in fase di Creazione.
 
 Da questa pagina, oltre alla mera consultazione, l'utente ha la possibilità di avviare le azioni di disabilitazione, duplicazione e modifica del canale cliccando sui  rispettivi tasti **"Disabilita", "Duplica" e "Modifica".**
 
-<figure><img src="../../../.gitbook/assets/image (70).png" alt=""><figcaption><p><em>Pagina di dettaglio configurazione canale - stato attivo</em></p></figcaption></figure>
+<figure><img src="../../../../pago-pa/manuale-bo-psp/v1.0/.gitbook/assets/image (111).png" alt=""><figcaption><p><em>Pagina di dettaglio configurazione canale - stato attivo</em></p></figcaption></figure>
 
 #### **Intermediario tecnologico**
 

@@ -17,7 +17,7 @@ Il ruolo che ne possiede il **pieno potere** a livello di **operatività** è il
 
 All'interno della _Pagina "Vista Canali",_ l'utente cliccando sui **3 puntini** accanto lo Stato **"Attivo"**, ha la possibilità di selezionare la voce **"Gestisci Canale".**
 
-<figure><img src="../../../.gitbook/assets/image (27) (1).png" alt=""><figcaption><p><em>Pagina Vista Canali - tabella elenco canali - Gestisci canale</em></p></figcaption></figure>
+<figure><img src="../../../../pago-pa/manuale-bo-psp/v1.0/.gitbook/assets/image (68).png" alt=""><figcaption><p><em>Pagina Vista Canali - tabella elenco canali - Gestisci canale</em></p></figcaption></figure>
 
 
 
@@ -25,11 +25,11 @@ Selezionando tale opzion&#x65;**"**, l'utente può accedere alla _Pagina di dett
 
 All'interno di questa, l'utente può visualizzare tutti i dati di configurazione inseriti in fase di Creazione.
 
-<figure><img src="../../../.gitbook/assets/image (96).png" alt=""><figcaption><p><em>Pagina di dettaglio Canale</em></p></figcaption></figure>
+<figure><img src="../../../../pago-pa/manuale-bo-psp/v1.0/.gitbook/assets/image (137).png" alt=""><figcaption><p><em>Pagina di dettaglio Canale</em></p></figcaption></figure>
 
 Cliccando sul pulsante "**Modifica**" tutti i **dati** di **configurazione** saranno **editabili** e l'utente potrà procedere a modificare i campi desiderati.
 
-<figure><img src="../../../.gitbook/assets/image (51).png" alt=""><figcaption><p><em>Pagina Modifica Canale</em></p></figcaption></figure>
+<figure><img src="../../../../pago-pa/manuale-bo-psp/v1.0/.gitbook/assets/image (92).png" alt=""><figcaption><p><em>Pagina Modifica Canale</em></p></figcaption></figure>
 
 
 
@@ -53,10 +53,10 @@ Cliccando sul tasto "Invia" verrà inviata una e-mail all'operatore.
 
 Altrimenti è necessario cliccare su "Torna indietro" per tornare alla _Pagina di dettaglio del canale._
 
-<figure><img src="../../../.gitbook/assets/image (85).png" alt=""><figcaption><p><em>Pop up - Conferma</em></p></figcaption></figure>
+<figure><img src="../../../../pago-pa/manuale-bo-psp/v1.0/.gitbook/assets/image (126).png" alt=""><figcaption><p><em>Pop up - Conferma</em></p></figcaption></figure>
 
 Una volta aver cliccato su tasto "Invia", l'utente verrà reindirizzato alla _Pagina Vista Canale_ in cui potrà visualizzare nella tabella il canale, che risulterà nello stato **In revisione** (il canale è stato creato, ma in attesa di revisione da parte di PagoPA).
 
-<figure><img src="../../../.gitbook/assets/image (28) (1).png" alt=""><figcaption><p><em>Pagina Vista Canali - tabella elenco Canali - menu stato In revisione</em></p></figcaption></figure>
+<figure><img src="../../../../pago-pa/manuale-bo-psp/v1.0/.gitbook/assets/image (69).png" alt=""><figcaption><p><em>Pagina Vista Canali - tabella elenco Canali - menu stato In revisione</em></p></figcaption></figure>
 
 [^1]: 

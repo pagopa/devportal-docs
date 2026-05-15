@@ -4,9 +4,9 @@ Per **attivare** e **gestire** il **prodotto pagoPA** è necessario prima accede
 
 Questa sezione ospita la lista dei prodotti a cui il PSP ha aderito e da cui è possibile effettuare l'**accesso al portale dedicato al singolo prodotto**.
 
-<figure><img src="../.gitbook/assets/portale_singolo_prodotto.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../pago-pa/manuale-bo-psp/v1.0/.gitbook/assets/portale_singolo_prodotto.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (154).png" alt=""><figcaption><p><em>Area Riservata - Panoramica</em></p></figcaption></figure>
+<figure><img src="../../pago-pa/manuale-bo-psp/v1.0/.gitbook/assets/image (195).png" alt=""><figcaption><p><em>Area Riservata - Panoramica</em></p></figcaption></figure>
 
 Nei 3 paragrafi seguenti andremo ad illustrare le azioni e le informazioni che consentono all'utente di accedere e operare nella sezione **Panoramica - Area riservata**, in dettaglio:&#x20;
 
@@ -20,7 +20,7 @@ Per poter accedere all’Area Riservata, è necessario aver **completato l’ade
 
 E' possibile accedere all'Are Riservata recandosi sul sito [https://www.pagopa.it](https://www.pagopa.it/) e cliccare in alto a destra su "AREA RISERVATA ENTI".
 
-<figure><img src="../.gitbook/assets/image (115).png" alt=""><figcaption><p><em>Punto di accesso all'Area Riservata: sito pagopa</em></p></figcaption></figure>
+<figure><img src="../../pago-pa/manuale-bo-psp/v1.0/.gitbook/assets/image (156).png" alt=""><figcaption><p><em>Punto di accesso all'Area Riservata: sito pagopa</em></p></figcaption></figure>
 
 Da qui, l’accesso all’Area Riservata di PagoPA può essere effettuato tramite:
 
@@ -37,14 +37,14 @@ Una volta effettuato l’accesso mediante una delle modalità disponibili, in ba
 
 Se si tenta di effettuare l’accesso senza avere un soggetto aderente associato, non è permesso l'accesso all’Area Riservata:
 
-<figure><img src="../.gitbook/assets/image (87).png" alt=""><figcaption><p><em>Messaggio informativo visualizzato dall'utente non ancora associato ad almeno un Aderente/Prodotto</em></p></figcaption></figure>
+<figure><img src="../../pago-pa/manuale-bo-psp/v1.0/.gitbook/assets/image (128).png" alt=""><figcaption><p><em>Messaggio informativo visualizzato dall'utente non ancora associato ad almeno un Aderente/Prodotto</em></p></figcaption></figure>
 
 In questo caso non è permesso l'accesso all’Area Riservata fino a che l'utente non sia stato abilitato.\
 Da qui sarà solo possibile tornare alla schermata di login tramite il tasto "Chiudi", effettuare il log-out oppure contattare l'Assistenza.
 
 #### 2. Utente associato ad un unico soggetto aderente e ad un prodotto per cui non è ancora stata completata l'adesione
 
-<figure><img src="../.gitbook/assets/image (116).png" alt=""><figcaption><p>Pagina di selezione dell' utente(accesso all'Area riservata) con un Aderente associato e adesione al prodotto non ancora completata</p></figcaption></figure>
+<figure><img src="../../pago-pa/manuale-bo-psp/v1.0/.gitbook/assets/image (157).png" alt=""><figcaption><p>Pagina di selezione dell' utente(accesso all'Area riservata) con un Aderente associato e adesione al prodotto non ancora completata</p></figcaption></figure>
 
 Se l'unico aderente a cui si è associati non ha ancora portato a termine l'adesione al primo prodotto, in pagina sarà mostrata l'etichetta dell'ente con le seguenti informazioni:
 
@@ -62,7 +62,7 @@ Nel momento in cui l’**adesione al prodotto viene portata a termine**, il tag 
 
 Nel caso in cui si sia **associati a più soggetti aderenti**, all’interno della pagina “Seleziona il tuo ente” viene esposta la relativa lista.
 
-<figure><img src="../.gitbook/assets/image (40).png" alt=""><figcaption><p><em>Pagina di selezione dell' aderente (accesso all'Area Riservata) per utente con un soggetto aderente associato che ha completato l'adesione ad almeno un prodotto</em></p></figcaption></figure>
+<figure><img src="../../pago-pa/manuale-bo-psp/v1.0/.gitbook/assets/image (81).png" alt=""><figcaption><p><em>Pagina di selezione dell' aderente (accesso all'Area Riservata) per utente con un soggetto aderente associato che ha completato l'adesione ad almeno un prodotto</em></p></figcaption></figure>
 
 Per ogni aderente sono disponibili le seguenti informazioni:
 
@@ -87,7 +87,7 @@ L’Area Riservata di PagoPA è accessibile agli utenti che possiedono un **ruol
 
 La **visualizzazione** e l’**operatività** all’interno delle diverse sezioni dipenderà dal **ruolo attribuito all'utente per quel determinato prodotto**.
 
-<figure><img src="../.gitbook/assets/image (1) (2).png" alt=""><figcaption><p><em>Area Riservata - Panoramica - vista Amministratore</em></p></figcaption></figure>
+<figure><img src="../../pago-pa/manuale-bo-psp/v1.0/.gitbook/assets/image (196).png" alt=""><figcaption><p><em>Area Riservata - Panoramica - vista Amministratore</em></p></figcaption></figure>
 
 All’interno della piattaforma sono sempre disponibili le seguenti funzioni:
 
@@ -106,11 +106,11 @@ Per ogni prodotto sono presenti il **Logo**, il **Nome** e il **pulsante di acce
 
 Inoltre, per esigenza specifica di alcuni prodotti, cliccando sul pulsante si potrebbe avere la possibilità di scegliere l'**ambiente target** a cui si intende accedere (es. Ambiente di Collaudo, Ambiente di produzione).
 
-<figure><img src="../.gitbook/assets/image (2) (2).png" alt=""><figcaption><p><em>Pop up di selezione ambiente target</em></p></figcaption></figure>
+<figure><img src="../../pago-pa/manuale-bo-psp/v1.0/.gitbook/assets/image (197).png" alt=""><figcaption><p><em>Pop up di selezione ambiente target</em></p></figcaption></figure>
 
 Inoltre è possibile **accedere** al **portale** del **prodotto pagoPA** anche dall’apposito menù a tendina situato al lato sinistro dell’intestazione. Anche da qui sarà possibile selezionare l’ambiente target.
 
-<figure><img src="../.gitbook/assets/image (4) (2).png" alt=""><figcaption><p><em>Menu a tendina per ingresso al prodotto</em></p></figcaption></figure>
+<figure><img src="../../pago-pa/manuale-bo-psp/v1.0/.gitbook/assets/image (199).png" alt=""><figcaption><p><em>Menu a tendina per ingresso al prodotto</em></p></figcaption></figure>
 
 
 
