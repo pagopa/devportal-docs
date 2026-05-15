@@ -1,0 +1,76 @@
+# Table of contents
+
+* [🏠 Guida tecnica](README.md)
+* [🕗 Changelog](../../../zoyf6XOs0u7aDnVh5hgk/changelog.md)
+* [🔢 Setup iniziale](../../../zoyf6XOs0u7aDnVh5hgk/setup-iniziale/README.md)
+  * [Configurazione remota](../../../zoyf6XOs0u7aDnVh5hgk/setup-iniziale/configurazione-remota.md)
+
+## Funzionalità
+
+* [📦 Pubblicare un servizio](../../../zoyf6XOs0u7aDnVh5hgk/funzionalita/pubblicare-un-servizio/README.md)
+  * [Creare un servizio](../../../zoyf6XOs0u7aDnVh5hgk/funzionalita/pubblicare-un-servizio/creare-un-servizio.md)
+  * [Provare un servizio in test](../../../zoyf6XOs0u7aDnVh5hgk/funzionalita/pubblicare-un-servizio/provare-un-servizio-in-test.md)
+  * [Revisione del servizio](../../../zoyf6XOs0u7aDnVh5hgk/funzionalita/pubblicare-un-servizio/revisione-del-servizio.md)
+  * [Visibilità del servizio in App](../../../zoyf6XOs0u7aDnVh5hgk/funzionalita/pubblicare-un-servizio/visibilita-del-servizio.md)
+  * [Importare servizi nell'Area Riservata](../../../zoyf6XOs0u7aDnVh5hgk/funzionalita/pubblicare-un-servizio/importare-servizi-nellarea-riservata.md)
+  * [Dati obbligatori](../../../zoyf6XOs0u7aDnVh5hgk/funzionalita/pubblicare-un-servizio/dati-obbligatori/README.md)
+    * [Attributi](../../../zoyf6XOs0u7aDnVh5hgk/funzionalita/pubblicare-un-servizio/dati-obbligatori/attributi.md)
+    * [Service Metadata](../../../zoyf6XOs0u7aDnVh5hgk/funzionalita/pubblicare-un-servizio/dati-obbligatori/service-metadata.md)
+  * [Informazioni sensibili](../../../zoyf6XOs0u7aDnVh5hgk/funzionalita/pubblicare-un-servizio/informazioni-sensibili.md)
+  * [Argomento del servizio](../../../zoyf6XOs0u7aDnVh5hgk/funzionalita/pubblicare-un-servizio/argomento-del-servizio.md)
+  * [Stato del servizio](../../../zoyf6XOs0u7aDnVh5hgk/funzionalita/pubblicare-un-servizio/stato-del-servizio.md)
+  * [API Key](../../../zoyf6XOs0u7aDnVh5hgk/funzionalita/pubblicare-un-servizio/chiave-manage/README.md)
+    * [API Key manage](../../../zoyf6XOs0u7aDnVh5hgk/funzionalita/pubblicare-un-servizio/chiave-manage/chiave-manage.md)
+    * [API Key use](../../../zoyf6XOs0u7aDnVh5hgk/funzionalita/pubblicare-un-servizio/chiave-manage/chiave-manage-1.md)
+  * [Gestire l'accesso ai servizi tramite i gruppi](../../../zoyf6XOs0u7aDnVh5hgk/funzionalita/pubblicare-un-servizio/gestire-laccesso-ai-servizi-tramite-i-gruppi.md)
+* [✉️ Inviare un messaggio](../../../zoyf6XOs0u7aDnVh5hgk/funzionalita/inviare-un-messaggio/README.md)
+  * [Messaggi di test](../../../zoyf6XOs0u7aDnVh5hgk/funzionalita/inviare-un-messaggio/messaggi-di-test.md)
+  * [Inviare un messaggio tradizionale](../../../zoyf6XOs0u7aDnVh5hgk/funzionalita/inviare-un-messaggio/inviare-un-messaggio-tradizionale.md)
+  * [Inviare un messaggio a contenuto remoto](../../../zoyf6XOs0u7aDnVh5hgk/funzionalita/inviare-un-messaggio/inviare-un-messaggio-a-contenuto-remoto.md)
+  * [Aggiungere allegati](../../../zoyf6XOs0u7aDnVh5hgk/funzionalita/inviare-un-messaggio/aggiungere-allegati.md)
+
+## API e specifiche
+
+* [📐 OpenAPI](../../../zoyf6XOs0u7aDnVh5hgk/api-e-specifiche/openapi.md)
+* [API Servizi](../../../zoyf6XOs0u7aDnVh5hgk/api-e-specifiche/api-servizi/README.md)
+  * [Manage Service: Get](../../../zoyf6XOs0u7aDnVh5hgk/api-e-specifiche/api-servizi/manage-service-get.md)
+  * [Manage Service: Get keys](../../../zoyf6XOs0u7aDnVh5hgk/api-e-specifiche/api-servizi/manage-service-get-keys.md)
+  * [Manage Service: Get User Services](../../../zoyf6XOs0u7aDnVh5hgk/api-e-specifiche/api-servizi/manage-service-get-user-services.md)
+  * [Manage Service: Create](../../../zoyf6XOs0u7aDnVh5hgk/api-e-specifiche/api-servizi/manage-service-create.md)
+  * [Manage Service: Delete](../../../zoyf6XOs0u7aDnVh5hgk/api-e-specifiche/api-servizi/manage-service-delete.md)
+  * [Manage Service: Update](../../../zoyf6XOs0u7aDnVh5hgk/api-e-specifiche/api-servizi/manage-service-update.md)
+  * [Manage Service: Request Review](../../../zoyf6XOs0u7aDnVh5hgk/api-e-specifiche/api-servizi/manage-service-request-review.md)
+  * [Manage Service: Release](../../../zoyf6XOs0u7aDnVh5hgk/api-e-specifiche/api-servizi/manage-service-release.md)
+  * [Manage Service: Get Released](../../../zoyf6XOs0u7aDnVh5hgk/api-e-specifiche/api-servizi/manage-service-get-released.md)
+  * [Manage Service: Unpublish](../../../zoyf6XOs0u7aDnVh5hgk/api-e-specifiche/api-servizi/manage-service-unpublish.md)
+  * [Manage Service: Regenerate api key](../../../zoyf6XOs0u7aDnVh5hgk/api-e-specifiche/api-servizi/manage-service-regenerate-api-key.md)
+  * [Manage Service: Upload service logo](../../../zoyf6XOs0u7aDnVh5hgk/api-e-specifiche/api-servizi/manage-service-upload-service-logo.md)
+  * [Upload organization logo](../../../zoyf6XOs0u7aDnVh5hgk/api-e-specifiche/api-servizi/upload-organization-logo.md)
+  * [Service Topics: Get all service topics](../../../zoyf6XOs0u7aDnVh5hgk/api-e-specifiche/api-servizi/service-topics-get-all-service-topics.md)
+* [API Messaggi](../../../zoyf6XOs0u7aDnVh5hgk/api-e-specifiche/api-messaggi/README.md)
+  * [Get a User Profile using POST](../../../zoyf6XOs0u7aDnVh5hgk/api-e-specifiche/api-messaggi/get-a-user-profile-using-post.md)
+  * [Submit a Message passing the user fiscal\_code in the request body](../../../zoyf6XOs0u7aDnVh5hgk/api-e-specifiche/api-messaggi/submit-a-message-passing-the-user-fiscal_code-in-the-request-body.md)
+  * [Get Message](../../../zoyf6XOs0u7aDnVh5hgk/api-e-specifiche/api-messaggi/get-message.md)
+  * [CRU Configurazioni remote](../../../zoyf6XOs0u7aDnVh5hgk/api-e-specifiche/api-messaggi/cru-configurazioni-remote.md)
+  * [Get Subscriptions Feed](../../../zoyf6XOs0u7aDnVh5hgk/api-e-specifiche/api-messaggi/get-subscriptions-feed.md)
+  * [⚠️ Get a User Profile](../../../zoyf6XOs0u7aDnVh5hgk/api-e-specifiche/api-messaggi/get-a-user-profile.md)
+  * [⚠️ Submit a Message passing the user fiscal\_code as path parameter](../../../zoyf6XOs0u7aDnVh5hgk/api-e-specifiche/api-messaggi/submit-a-message-passing-the-user-fiscal_code-as-path-parameter.md)
+* [Errori comuni](../../../zoyf6XOs0u7aDnVh5hgk/api-e-specifiche/errori-comuni.md)
+* [Specifiche API](https://developer.pagopa.it/app-io/api/app-io-main)
+* [OpenAPI endpoint di recupero dei contenuti remotizzati](../../../zoyf6XOs0u7aDnVh5hgk/api-e-specifiche/openapi-endpoint-di-recupero-dei-contenuti-remotizzati.md)
+* [Indirizzo IP pubblico](../../../zoyf6XOs0u7aDnVh5hgk/api-e-specifiche/indirizzo-ip-pubblico.md)
+
+***
+
+* [🔑 Abilitazioni](../../../zoyf6XOs0u7aDnVh5hgk/abilitazioni/README.md)
+  * [Test con Codici Fiscali reali](../../../zoyf6XOs0u7aDnVh5hgk/abilitazioni/test-con-codici-fiscali-reali.md)
+  * [Test invio avvisi pagoPA](../../../zoyf6XOs0u7aDnVh5hgk/abilitazioni/test-invio-avvisi-pagopa.md)
+  * [Subscription feed](../../../zoyf6XOs0u7aDnVh5hgk/abilitazioni/subscription-feed.md)
+  * [Gestione dei servizi](../../../zoyf6XOs0u7aDnVh5hgk/abilitazioni/gestione-dei-servizi.md)
+  * [Funzionalità Premium](../../../zoyf6XOs0u7aDnVh5hgk/abilitazioni/funzionalita-premium.md)
+
+## Risorse Utili
+
+* [#️⃣ Guida al Markdown](../../../zoyf6XOs0u7aDnVh5hgk/risorse-utili/guida-al-markdown.md)
+* [❓ Supporto agli Enti (tutorial, FAQ)](https://docs.pagopa.it/kb-enti)
+* [📘 Glossario](../../../zoyf6XOs0u7aDnVh5hgk/risorse-utili/glossario.md)
