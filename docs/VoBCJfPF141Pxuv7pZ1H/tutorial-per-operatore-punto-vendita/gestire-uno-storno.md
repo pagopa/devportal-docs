@@ -12,7 +12,7 @@ Nella sezione "Gestione acquisti", selezionare la transazione di riferimento cli
 
 
 
-<figure><img src="../.gitbook/assets/Dettaglio transazione - fattura da caricare.png" alt="Dettaglio di una transazione, su cui compare il pulsante &#x22;Carica la fattura&#x22; o &#x22;Storna&#x22;"><figcaption></figcaption></figure>
+<figure><img src="../../pari/bonuselettrodomestici-manuale-tecnico-venditore/1.0/.gitbook/assets/Dettaglio transazione - fattura da caricare.png" alt="Dettaglio di una transazione, su cui compare il pulsante &#x22;Carica la fattura&#x22; o &#x22;Storna&#x22;"><figcaption></figcaption></figure>
 
 ***
 
@@ -20,7 +20,7 @@ Nella sezione "Gestione acquisti", selezionare la transazione di riferimento cli
 
 È necessario caricare una nota di credito, in formato `XML` o `PDF` e inserire il relativo numero.
 
-<figure><img src="../.gitbook/assets/Storno.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../pari/bonuselettrodomestici-manuale-tecnico-venditore/1.0/.gitbook/assets/Storno.png" alt=""><figcaption></figcaption></figure>
 
 Completato il caricamento, la transazione passerà in stato "[Stornata](../riferimenti-tecnici/stati-delle-transazioni.md)".
 

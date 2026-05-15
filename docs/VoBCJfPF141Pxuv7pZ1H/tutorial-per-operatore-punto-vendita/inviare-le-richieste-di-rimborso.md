@@ -13,7 +13,7 @@ Dopo aver accettato un buono sconto, l'Operatore del Punto Vendita deve terminar
 
 Nella sezione "Gestione acquisti", selezionare la transazione di riferimento cliccando sulla relativa freccia blu, poi su "Carica la fattura".
 
-<figure><img src="../.gitbook/assets/Dettaglio transazione - fattura da caricare.png" alt="Dettaglio di una transazione, su cui compare il pulsante &#x22;Carica la fattura&#x22; o &#x22;Storna&#x22;"><figcaption></figcaption></figure>
+<figure><img src="../../pari/bonuselettrodomestici-manuale-tecnico-venditore/1.0/.gitbook/assets/Dettaglio transazione - fattura da caricare.png" alt="Dettaglio di una transazione, su cui compare il pulsante &#x22;Carica la fattura&#x22; o &#x22;Storna&#x22;"><figcaption></figcaption></figure>
 
 ***
 
@@ -26,7 +26,7 @@ La fattura dovrà contenere al suo interno:
 * il riferimento al ritiro RAEE;
 * codice sconto usato in fase d'acquisto (riportato nel [documento di pre-autorizzazione)](accettare-un-buono-sconto-in-negozio.md#step-5-stampa-il-documento-di-pre-autorizzazione).
 
-<figure><img src="../.gitbook/assets/Carica la fattura (1).png" alt="Schermata di caricamento della fattura"><figcaption></figcaption></figure>
+<figure><img src="../../pari/bonuselettrodomestici-manuale-tecnico-venditore/1.0/.gitbook/assets/Carica la fattura (1).png" alt="Schermata di caricamento della fattura"><figcaption></figcaption></figure>
 
 Completato il caricamento, la transazione passerà in stato "[Presa in carico](../riferimenti-tecnici/stati-delle-transazioni.md)": il Venditore dovrà quindi [effettuare la richiesta di rimborso](../tutorial-per-il-venditore/gestire-i-rimborsi.md).&#x20;
 
@@ -38,5 +38,5 @@ Completato il caricamento, la transazione passerà in stato "[Presa in carico](.
 
 Per farlo, l'operatore deve cliccare sulla freccia blu dell'operazione e quindi su "Modifica documento". Dopo aver modificato la fattura, la transazione verrà spostata al lotto successivo nello stato **Da Controllare**.
 
-<figure><img src="../.gitbook/assets/Modifica documento (2) (1).png" alt="Schermata in cui è possibile modificare una fattura già caricata"><figcaption></figcaption></figure>
+<figure><img src="../../pari/bonuselettrodomestici-manuale-tecnico-venditore/1.0/.gitbook/assets/Modifica documento (2) (1).png" alt="Schermata in cui è possibile modificare una fattura già caricata"><figcaption></figcaption></figure>
 
