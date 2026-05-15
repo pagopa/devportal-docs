@@ -2,7 +2,7 @@
 
 L’operazione non è permessa se esiste già un indirizzo PEC/SERCQ configurato per ricevere la notifica.
 
-<figure><img src="../../../../.gitbook/assets/image (46).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../send/manuale-operativo/v1.1.1/.gitbook/assets/image (46).png" alt=""><figcaption></figcaption></figure>
 
 Nel caso in cui venga inserito un indirizzo non noto a PN, viene inviata una PEC a quell’indirizzo con un codice che dovrà essere inserito per confermare l’indirizzo. Solo a seguito della conferma il recapito legale è effettivamente utilizzato nel processo di notificazione.
 
