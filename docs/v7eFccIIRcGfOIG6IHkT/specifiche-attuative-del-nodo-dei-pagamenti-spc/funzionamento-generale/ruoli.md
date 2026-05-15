@@ -2,7 +2,7 @@
 
 Il modello di funzionamento della Piattaforma pagoPA fa riferimento ai principi del Four Corners model definito dall’European Payment Council:
 
-![](../../.gitbook/assets/4corners.png)
+![](../../../pago-pa/sanp/3.2.0/.gitbook/assets/4corners.png)
 
 | Utilizzatore finale **(Debtor)**                                | Rappresenta il privato cittadino, professionista, impresa, che effettua pagamenti a favore della Pubblica Amministrazione, delle Società a controllo pubblico e dei Gestori dei Pubblici Servizi con modalità informatiche. L’identità dell’utilizzatore finale può essere determinata con modalità informatiche (tipicamente SPID) per accedere ai servizi informatici dell’EC. Nell’ambito del processo di pagamento si distingue il ruolo del soggetto debitore, cioè colui che ha contratto un debito a favore dell’EC, ovvero effettua un pagamento di sua iniziativa per ottenere un servizio o una certificazione. Nel rapporto con l'EC si può presumere che l’utilizzatore finale sia il soggetto debitore. Si distingue, infine, il soggetto versante, ossia come colui che accede ai servizi informatici dal PSP e dispone il pagamento a favore dell’EC. |
 | --------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -20,7 +20,7 @@ A tale proposito è utile fare una distinzione tra intermediario e partner tecno
 
 La piattaforma pagoPA prevede che le attività legate all’effettuazione dei pagamenti siano eseguite dai PSP o in forma diretta o tramite altri soggetti, di cui i PSP si avvalgono in via strumentale per l’esecuzione delle attività tecniche relative alla fornitura dei servizi IT, non necessariamente caratterizzabili, per l’interfacciamento con la piattaforma pagoPA, ferma restando la responsabilità nei confronti di PagoPA S.p.A. in capo al PSP.
 
-## Ruolo e responsabilità del PSP <a href="#_thmzlt865ej6" id="_thmzlt865ej6"></a>
+## Ruolo e responsabilità del PSP <a href="#thmzlt865ej6" id="thmzlt865ej6"></a>
 
 Il PSP è il soggetto abilitato dalle norme vigenti in materia ad eseguire le richieste di pagamento in via elettronica.
 
@@ -35,7 +35,7 @@ Il PSP è responsabile anche sotto il profilo giuridico:
 
 A prescindere dall’identificazione del pagatore eseguita dall’EC, se del caso, anche per il tramite del proprio Intermediario/Partner Tecnologico, il PSP resta responsabile dell’identificazione del soggetto Versante (titolare del C/C di addebito), in quanto suo cliente.
 
-## Ruolo e responsabilità dell’EC <a href="#_bt1apskhfea" id="_bt1apskhfea"></a>
+## Ruolo e responsabilità dell’EC <a href="#bt1apskhfea" id="bt1apskhfea"></a>
 
 Nel contesto di pagoPA la categoria degli EC comprende le pubbliche amministrazioni, le società a controllo pubblico, come definite nel decreto legislativo adottato in attuazione dell’articolo 18 della legge n. 124 del 2015, escluse le società quotate, ed i gestori di pubblici servizi.
 
@@ -52,7 +52,7 @@ Nel caso in cui l’EC proceda all’identificazione del soggetto pagatore, lo s
 
 Ai fini del rilascio della quietanza di pagamento sarà responsabilità dell’EC accertare che i dati contenuti nella ricevuta elettronica siano coerenti con quelli della richiesta di pagamento.
 
-## Ruolo e responsabilità di PagoPA S.p.A. <a href="#_rbtjsx52ef6i" id="_rbtjsx52ef6i"></a>
+## Ruolo e responsabilità di PagoPA S.p.A. <a href="#rbtjsx52ef6i" id="rbtjsx52ef6i"></a>
 
 La mission di PagoPA S.p.A. è la capillare diffusione del sistema di pagamenti e servizi digitali nel Paese, attraverso la gestione della piattaforma pagoPA per i pagamenti digitali verso la Pubblica Amministrazione.
 
@@ -75,7 +75,7 @@ A tale qualificazione corrisponderà un'effettiva erogazione di servizi in sussi
 
 Resta comunque ferma ogni facoltà in capo all’EC di scegliere di non utilizzare i servizi in sussidiarietà della PagoPA S.p.A. dotandosi per i medesimi servizi di incasso di un proprio intermediario e/o Partner Tecnologico.
 
-## Ruolo e responsabilità di Intermediari e Partner Tecnologici <a href="#_fts4d9groovv" id="_fts4d9groovv"></a>
+## Ruolo e responsabilità di Intermediari e Partner Tecnologici <a href="#fts4d9groovv" id="fts4d9groovv"></a>
 
 L'intermediario EC è un soggetto che permette all'EC di accedere al Nodo Dei Pagamenti. Gli EC, infatti, possono offrire il servizio e accedere al Nodo dei Pagamenti-SPC oltre che in totale autonomia, anche attraverso un intermediario tecnologico o un partner tecnologico.
 
@@ -87,7 +87,7 @@ Anche i PSP, come gli EC, possono utilizzare degli intermediari per connettersi 
 
 Come per gli Intermediari EC nei confronti degli EC, gli intermediari PSP sono i soggetti che mettono a disposizione del PSP i propri servizi.
 
-## Rispetto dei workflow di pagamento <a href="#_e81j9gcphkbr" id="_e81j9gcphkbr"></a>
+## Rispetto dei workflow di pagamento <a href="#e81j9gcphkbr" id="e81j9gcphkbr"></a>
 
 Ogni soggetto aderente al sistema pagoPA è tenuto a rispettare scrupolosamente i workflow di pagamento descritti nel presente documento.
 

@@ -29,7 +29,7 @@ _Ad esempio, una opzione di pagamento potrebbe avere la seguente suddivisione:_
 
 ### Schema logico (ER)
 
-![](<../../.gitbook/assets/image (36).png>)
+![](<../../../pago-pa/sanp/3.2.0/.gitbook/assets/image (38).png>)
 
 #### Posizione Debitoria (PD) <a href="#posizione-debitoria-pd" id="posizione-debitoria-pd"></a>
 
@@ -100,7 +100,7 @@ In caso di pagamento spontaneo:
 
 ### Sottoscrizione ai servizi di pagamento spontaneo (schema logico)
 
-![](<../../.gitbook/assets/EnrollmentPS.drawio (2).png>)
+![](<../../../pago-pa/sanp/3.2.0/.gitbook/assets/EnrollmentPS.drawio (3).png>)
 
 Un **Ente Creditore** , aderente alla gestione dei pagamenti spontanei, può aderire a più **servizi.** La disponibilità dei servizi dipende dal catalogo dei servizi della piattaforma pagoPA.
 
@@ -124,4 +124,3 @@ Alcune proprietà rilevanti delle relazioni in questione sono riportate in segui
 * **IBAN**: IBAN su cui incassare i pagamenti spontanei generati per uno specifico servizio
 * **nome ufficio:** ufficio di riferimento per lo specifico servizio
 * **causale versamento**: causale versamento da assegnare ai pagamenti spontanei generati per uno specifico servizio
-
