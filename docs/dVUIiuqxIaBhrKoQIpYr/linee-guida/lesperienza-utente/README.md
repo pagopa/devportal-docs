@@ -2,7 +2,7 @@
 
 L’esperienza è scandita da più fasi che permettono al cliente del **PSP** di **scoprire il servizio, attivarlo, utilizzarlo e, se necessario, disattivarlo**.
 
-<figure><img src="../../.gitbook/assets/SEND multicanalità (touch point di terze parti) (2).png" alt=""><figcaption><p>Descrizione del flusso nelle sue 3 fasi</p></figcaption></figure>
+<figure><img src="../../../pago-pa/lineeguida-messaggi-cortesia/1.0/.gitbook/assets/SEND multicanalità (touch point di terze parti).png" alt=""><figcaption><p>Descrizione del flusso nelle sue 3 fasi</p></figcaption></figure>
 
 Per ciascuna fase, vengono fornite linee guida volte a garantire un’esperienza fluida, coerente e corretta.
 
@@ -18,8 +18,4 @@ Per ciascuna fase, vengono fornite linee guida volte a garantire un’esperienza
 [disattivazione.md](disattivazione.md)
 {% endcontent-ref %}
 
-
-
-
-
-\
+\\

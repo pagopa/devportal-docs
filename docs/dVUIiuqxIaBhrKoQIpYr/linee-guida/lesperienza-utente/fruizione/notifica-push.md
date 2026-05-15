@@ -1,6 +1,6 @@
 # Notifica push
 
-<figure><img src="../../../.gitbook/assets/TPP - Push notification.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../pago-pa/lineeguida-messaggi-cortesia/1.0/.gitbook/assets/TPP - Push notification.png" alt=""><figcaption></figcaption></figure>
 
 ### Elementi obbligatori
 

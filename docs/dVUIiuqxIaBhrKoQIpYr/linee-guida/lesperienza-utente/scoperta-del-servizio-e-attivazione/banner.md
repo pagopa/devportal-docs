@@ -3,7 +3,7 @@
 Un **banner** è un elemento grafico o testuale utilizzato per attirare l'attenzione su un determinato contenuto, prodotto o servizio.
 
 {% hint style="success" %}
-Obiettivo di questo banner è quello di catturare l'attenzione dell'utente, introdurlo a **SEND - Servizio Notifiche Digitali** e portarlo ad approfondire/attivare il servizio **Messaggi di cortesia**.&#x20;
+Obiettivo di questo banner è quello di catturare l'attenzione dell'utente, introdurlo a **SEND - Servizio Notifiche Digitali** e portarlo ad approfondire/attivare il servizio **Messaggi di cortesia**.
 {% endhint %}
 
 ### Elementi obbligatori
@@ -17,20 +17,17 @@ Obiettivo di questo banner è quello di catturare l'attenzione dell'utente, intr
 
 ### Elementi facoltativi
 
-* Utilizzo di immagini o illustrazioni purché siano in linea con le [**Brand guidelines**](https://app.gitbook.com/invite/KXYtsf32WSKm6ga638R3/Bh78E1qYOrxJVckxMQfZ) [**di SEND**](https://app.gitbook.com/invite/KXYtsf32WSKm6ga638R3/Bh78E1qYOrxJVckxMQfZ). \
+* Utilizzo di immagini o illustrazioni purché siano in linea con le [**Brand guidelines**](https://app.gitbook.com/invite/KXYtsf32WSKm6ga638R3/Bh78E1qYOrxJVckxMQfZ) [**di SEND**](https://app.gitbook.com/invite/KXYtsf32WSKm6ga638R3/Bh78E1qYOrxJVckxMQfZ).\
   IMPORTANTE: gli asset dovranno esser approvati da parte del team di comunicazione PagoPA S.p.A.
 
-### Esempi DO/DON'T&#x20;
+### Esempi DO/DON'T
 
-| ✅ DO                                                                                                                                                             | ❌ DON'T                                                                                                                                                                                         |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <img src="../../../.gitbook/assets/Banner informativi - negativo (3).png" alt="" data-size="original">                                                           | <p><img src="../../../.gitbook/assets/Banner informativi - negativo X (1).png" alt="" data-size="original"><br>❌ Non viene citato il servizio <strong>Messaggi di cortesia</strong></p>         |
-| <p><img src="../../../.gitbook/assets/Banner informativi (3).png" alt="" data-size="original"><br><br></p>                                                       | <p><img src="../../../.gitbook/assets/Banner informativi X (2).png" alt="" data-size="original"><br>❌ Viene utilizzato impropriamente il termine <strong>Messaggio a valore legale</strong></p> |
-| <p></p><p><img src="../../../.gitbook/assets/Banner informativo logo e img (3).png" alt="Banner con logo SEND e illustrazione" data-size="original"><br><br></p> | <p><img src="../../../.gitbook/assets/Banner informativi - immagine (2).png" alt="" data-size="original"><br><br>❌ Il logo di <strong>SEND</strong> non è visibile</p>                          |
+| ✅ DO                                                                                                                                                                                                  | ❌ DON'T                                                                                                                                                                                                                                     |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <img src="../../../../pago-pa/lineeguida-messaggi-cortesia/1.0/.gitbook/assets/Banner informativi - negativo (3).png" alt="" data-size="original">                                                    | <p><img src="../../../../pago-pa/lineeguida-messaggi-cortesia/1.0/.gitbook/assets/Banner informativi - negativo X (1).png" alt="" data-size="original"><br>❌ Non viene citato il servizio <strong>Messaggi di cortesia</strong></p>         |
+| <p><img src="../../../../pago-pa/lineeguida-messaggi-cortesia/1.0/.gitbook/assets/Banner informativi (3).png" alt="" data-size="original"><br><br></p>                                                | <p><img src="../../../../pago-pa/lineeguida-messaggi-cortesia/1.0/.gitbook/assets/Banner informativi X (2).png" alt="" data-size="original"><br>❌ Viene utilizzato impropriamente il termine <strong>Messaggio a valore legale</strong></p> |
+| <p><img src="../../../../pago-pa/lineeguida-messaggi-cortesia/1.0/.gitbook/assets/Banner informativo logo e img (3).png" alt="Banner con logo SEND e illustrazione" data-size="original"><br><br></p> | <p><img src="../../../../pago-pa/lineeguida-messaggi-cortesia/1.0/.gitbook/assets/Banner informativi - immagine (2).png" alt="" data-size="original"><br><br>❌ Il logo di <strong>SEND</strong> non è visibile</p>                          |
 
 {% hint style="info" %}
 Le immagini e le illustrazioni sono a scopo esemplificativo.
 {% endhint %}
-
-
-

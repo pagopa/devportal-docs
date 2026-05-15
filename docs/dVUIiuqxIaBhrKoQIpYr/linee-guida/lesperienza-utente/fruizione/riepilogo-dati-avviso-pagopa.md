@@ -1,8 +1,8 @@
 # Riepilogo dati avviso pagoPA
 
-<figure><img src="../../../.gitbook/assets/TPP - Riepilogo avviso pagoPA (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../pago-pa/lineeguida-messaggi-cortesia/1.0/.gitbook/assets/TPP - Riepilogo avviso pagoPA (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/TPP - Riepilogo avviso pagoPA 2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../pago-pa/lineeguida-messaggi-cortesia/1.0/.gitbook/assets/TPP - Riepilogo avviso pagoPA 2.png" alt=""><figcaption></figcaption></figure>
 
 ### Elementi obbligatori
 
@@ -16,4 +16,3 @@ Maggiori dettagli nel [**glossario**](../../glossario.md)**.**
 ### 💡 Consiglio
 
 Eliminare le distrazioni per guidare l’utente verso l’azione di attivazione del servizio.
-
