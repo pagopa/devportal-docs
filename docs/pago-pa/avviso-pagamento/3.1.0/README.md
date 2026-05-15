@@ -23,18 +23,18 @@ Lo scopo di questo documento è uniformare la produzione di tali avvisi da parte
 
 Sono previsti diversi modelli di riferimento per supportare al meglio le varie tipologie di pagamento. I modelli devono essere utilizzati obbligatoriamente da parte degli Enti Creditori aderenti a pagoPA che offrono servizi di pagamento attivati presso il PSP.
 
-<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Modelli base</strong></td><td>I modelli più utilizzati: avviso di pagamento con rata unica e/o con rate multiple.</td><td><a href="../../../E9RM3F60OM97FbTVrCW8/allegato-1/modelli-base.md">Inizia da qui --></a></td><td><a href="../../../E9RM3F60OM97FbTVrCW8/allegato-1/modelli-base.md">modelli-base.md</a></td></tr><tr><td><strong>Varianti</strong></td><td>Una raccolta di template basati sul modello base per supportare meglio  casi d'uso specifici.</td><td><a href="../../../E9RM3F60OM97FbTVrCW8/allegato-1/varianti/">Vedi tutte --></a></td><td><a href="../../../E9RM3F60OM97FbTVrCW8/allegato-1/varianti/">varianti</a></td></tr><tr><td><strong>Esempi</strong></td><td>Alcuni esempi di avvisi già realizzati, così da aiutare gli Enti Creditori che devono progettare il loro avviso di pagamento.</td><td><a href="../../../E9RM3F60OM97FbTVrCW8/allegato-1/esempi.md">Guarda gli esempi --></a></td><td><a href="../../../E9RM3F60OM97FbTVrCW8/allegato-1/esempi.md">esempi.md</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Modelli base</strong></td><td>I modelli più utilizzati: avviso di pagamento con rata unica e/o con rate multiple.</td><td><a href="allegato-1/modelli-base.md">Inizia da qui --></a></td><td><a href="allegato-1/modelli-base.md">modelli-base.md</a></td></tr><tr><td><strong>Varianti</strong></td><td>Una raccolta di template basati sul modello base per supportare meglio  casi d'uso specifici.</td><td><a href="allegato-1/varianti/">Vedi tutte --></a></td><td><a href="allegato-1/varianti/">varianti</a></td></tr><tr><td><strong>Esempi</strong></td><td>Alcuni esempi di avvisi già realizzati, così da aiutare gli Enti Creditori che devono progettare il loro avviso di pagamento.</td><td><a href="allegato-1/esempi.md">Guarda gli esempi --></a></td><td><a href="allegato-1/esempi.md">esempi.md</a></td></tr></tbody></table>
 
 ### Per approfondire
 
-{% content-ref url="../../../E9RM3F60OM97FbTVrCW8/struttura/specifiche-tecniche/" %}
-[specifiche-tecniche](../../../E9RM3F60OM97FbTVrCW8/struttura/specifiche-tecniche/)
+{% content-ref url="struttura/specifiche-tecniche/" %}
+[specifiche-tecniche](struttura/specifiche-tecniche/)
 {% endcontent-ref %}
 
-{% content-ref url="../../../E9RM3F60OM97FbTVrCW8/struttura/elementi-di-design/" %}
-[elementi-di-design](../../../E9RM3F60OM97FbTVrCW8/struttura/elementi-di-design/)
+{% content-ref url="struttura/elementi-di-design/" %}
+[elementi-di-design](struttura/elementi-di-design/)
 {% endcontent-ref %}
 
-{% content-ref url="../../../E9RM3F60OM97FbTVrCW8/struttura/come-usare-i-file.md" %}
-[come-usare-i-file.md](../../../E9RM3F60OM97FbTVrCW8/struttura/come-usare-i-file.md)
+{% content-ref url="struttura/come-usare-i-file.md" %}
+[come-usare-i-file.md](struttura/come-usare-i-file.md)
 {% endcontent-ref %}
