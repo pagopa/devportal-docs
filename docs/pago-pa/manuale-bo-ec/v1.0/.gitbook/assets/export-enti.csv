@@ -1,0 +1,13 @@
+companyName;administrativeCode;taxCode;intermediated;brokerCompanyName;brokerTaxCode;model;auxDigit;segregationCode;applicationCode;cbillCode;stationId;stationState;activationDate;version;broadcast;PSPpayment
+Comune di Montichiari;;00645400177;true;Sample;06188330150;3;0;55;;;06188330150_06;ENABLED;;2;false;false
+Citta' Metropolitana di Torino;;01907990012;true;Sample;06188330150;3;0;03;;;06188330150_02;ENABLED;;2;false;false
+Comune di Besana in Brianza;;01556360152;true;Sample;06188330150;3;0;04;04;;06188330150_02;ENABLED;;2;false;false
+Comune di Pesaro;;00272430414;true;Sample;06188330150;3;0;04;;;06188330150_02;ENABLED;;2;false;false
+Comune di Palau;;82004530901;true;Sample;06188330150;3;0;04;;;06188330150_02;ENABLED;;2;false;false
+Comune di Buccinasco;;03482920158;true;Sample;06188330150;3;0;04;;;06188330150_04;ENABLED;;2;false;false
+Comune di Gorgonzola;;00861930154;true;Sample;06188330150;3;0;00;;;06188330150_02;ENABLED;;2;false;false
+Comune di Darfo Boario Terme;;00290170174;true;Sample;06188330150;3;0;09;;;06188330150_05;ENABLED;;2;false;false
+Comune di Pesaro;;00272430414;true;Sample;06188330150;3;0;01;;;06188330150_03;ENABLED;;2;false;false
+Provincia di Pavia;;80000030181;true;Sample;06188330150;3;0;11;;;06188330150_04;ENABLED;;2;true;false
+Provincia di Pesaro e Urbino;;00212000418;true;Sample;06188330150;3;0;04;;;06188330150_02;ENABLED;;2;true;false
+Comune di Palau;;82004530901;true;Sample;06188330150;3;0;01;;;06188330150_03;ENABLED;;2;false;false
