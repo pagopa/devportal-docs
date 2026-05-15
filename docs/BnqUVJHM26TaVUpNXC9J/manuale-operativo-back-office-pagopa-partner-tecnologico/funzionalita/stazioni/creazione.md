@@ -14,7 +14,7 @@ Se **non** sono ancora state **create stazioni**, l'utente visualizzerà la _Pag
 
 E' possibile procedere alla **creazione** di una **nuova stazione**, cliccando sia su tasto **"Crea Stazione"** che su hyperlink in blu **"Crea stazione".**
 
-<figure><img src="../../../.gitbook/assets/image (177).png" alt=""><figcaption><p><em>Pagina Lista Stazioni vuota - caso in cui non sono state ancora create stazioni</em></p></figcaption></figure>
+<figure><img src="../../../../pago-pa/manuale-bo-pt/v1.0/.gitbook/assets/image (177).png" alt=""><figcaption><p><em>Pagina Lista Stazioni vuota - caso in cui non sono state ancora create stazioni</em></p></figcaption></figure>
 
 Nel caso in cui sono già **state create stazioni**, l'utente nella suddetta _Pagina_ visualizzerà l'elenco di questi sotto forma di tabella:
 
@@ -35,7 +35,7 @@ Al click su **"Crea Stazione"** l'utente può accedere alla _Pagina di dettaglio
 L'immagine mostrata di seguito è leggermente diversa rispetto allo stato attuale del sistema. E' una preview della funzionalità che verrà rilasciata nelle prossime settimane e che prevede una maggiore chiarezza per gli utilizzatori del sistema
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/image (217).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../pago-pa/manuale-bo-pt/v1.0/.gitbook/assets/image (217).png" alt=""><figcaption></figcaption></figure>
 
 I soli campi valorizzati sono quelli della sezione **Anagrafica.**&#x20;
 
@@ -45,7 +45,7 @@ Se si seleziona la modalità "Asincrona" è possibile procedere con la conferma 
 
 Se invece la modalità scelta è "Sincrona" allora è necessario inserire i dati degli endpoint.
 
-<figure><img src="../../../.gitbook/assets/image (218).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../pago-pa/manuale-bo-pt/v1.0/.gitbook/assets/image (218).png" alt=""><figcaption></figcaption></figure>
 
 A seconda della configurazione della stazione, vecchio modello 1, oppure nuovo modello unico sarà necessario valorizzare i campi nel modo seguente:
 
@@ -57,7 +57,7 @@ _**Modello 1**_&#x20;
 _**Modello Unico**_
 
 * _`Endpoint:`_ inserire la url dell'endpoint unico
-* _`Versione primitive:`_selezionare dal menu a tendina la versione delle primitive da utilizzare (1 o 2)
+* _`Versione primitive:`_&#x73;elezionare dal menu a tendina la versione delle primitive da utilizzare (1 o 2)
 
 {% hint style="info" %}
 E' inoltre possibile eseguire un test di connettività degli endpoint schiacciando sui pulsanti "Verifica URL" a fianco di ogni endpoint. Qualora il test dovesse essere negativo è comunque possibile procedere all'invio della stazione agli operatori pagoPA.
@@ -85,13 +85,13 @@ Cliccando sul tasto "**Invia**", inoltre, verrà inviata una notifica all'operat
 
 Altrimenti è necessario cliccare su "Torna indietro" per tornare alla _Pagina di dettaglio della stazione._
 
-<figure><img src="../../../.gitbook/assets/image (131).png" alt=""><figcaption><p><em>Pop up - Invio per la revisione</em></p></figcaption></figure>
+<figure><img src="../../../../pago-pa/manuale-bo-pt/v1.0/.gitbook/assets/image (131).png" alt=""><figcaption><p><em>Pop up - Invio per la revisione</em></p></figcaption></figure>
 
 Una volta aver cliccato su tasto "Invia", l'utente verrà reindirizzato alla _Pagina Vista Stazioni_ in cui potrà visualizzare nella tabella la stazione appena configurata, che risulterà nello stato **In revisione** (la stazione è stata creata, ma in attesa di revisione da parte di PagoPA).&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (181).png" alt=""><figcaption><p><em>Pagina Lista Stazioni Prod - Stazione In revisione</em></p></figcaption></figure>
+<figure><img src="../../../../pago-pa/manuale-bo-pt/v1.0/.gitbook/assets/image (181).png" alt=""><figcaption><p><em>Pagina Lista Stazioni Prod - Stazione In revisione</em></p></figcaption></figure>
 
 Una volta completata la revisione da parte degli Operatori PagoPA la stazione diverrà "Attiva" e potrà essere utilizzata.
 
-<figure><img src="../../../.gitbook/assets/image (180).png" alt=""><figcaption><p><em>Pagina Lista Stazioni - Stazione creata</em></p></figcaption></figure>
+<figure><img src="../../../../pago-pa/manuale-bo-pt/v1.0/.gitbook/assets/image (180).png" alt=""><figcaption><p><em>Pagina Lista Stazioni - Stazione creata</em></p></figcaption></figure>
 

@@ -15,13 +15,13 @@ Affinché un Ente possa delegare un Partner Tecnologico ad operare per suo conto
 
 Per procedere alla Registrazione al nodo, all'interno del box "E ora?" l'utente può **cliccare** sul tasto "**Completa registrazione** -->".
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-02-16 alle 23.15.59 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../pago-pa/manuale-bo-pt/v1.0/.gitbook/assets/Screenshot 2024-02-16 alle 23.15.59 (1).png" alt=""><figcaption></figcaption></figure>
 
 Una volta aver cliccato su "Completa registrazione -->", l'utente **accede** alla Pagina "**Registrazione sul Nodo**".
 
 L'utente procede quindi alla scelta della tipologia di ente che vuole intermediare (EC e/o PSP).
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-02-17 alle 08.52.17.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../pago-pa/manuale-bo-pt/v1.0/.gitbook/assets/Screenshot 2024-02-17 alle 08.52.17.png" alt=""><figcaption></figcaption></figure>
 
 Una volta aver cliccato sul tasto "Conferma", l'utente avrà completato la Registrazione al Nodo dei Pagamenti PagoPA.
 
@@ -36,7 +36,7 @@ Questo verrà reindirizzato alla Panoramica in cui potrà visualizzare il riepil
 * Stato "**Abilitato**"
 * Intermediario di altri (EC e/o PSP)
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-02-16 alle 19.36.05.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../pago-pa/manuale-bo-pt/v1.0/.gitbook/assets/Screenshot 2024-02-16 alle 19.36.05.png" alt=""><figcaption></figcaption></figure>
 
 L'utente **solo** dopo aver **completato la Registrazione**, può procedere all'esecuzione degli step successivi a questa, come la Generazione delle API Key, che può avviare direttamente dalla Panoramica - box "E ora?" cliccando su tasto "**Genera API Key**", o accedendo alla **Sezione** **dedicata** ["**API Key"**](generazione-api-key.md)**.**
 

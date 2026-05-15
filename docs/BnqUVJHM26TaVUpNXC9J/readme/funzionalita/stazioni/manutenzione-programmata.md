@@ -34,43 +34,43 @@ E' possibile creare una manutenzione con almeno 72 ore di preavviso dall'avvio d
 
 Più in basso invece vi è l'elenco delle manutenzioni programmate, suddivise con gli stati "`in corso`" e "`in programma`", e di quelle passate.
 
-<figure><img src="../../../.gitbook/assets/image (225).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../pago-pa/manuale-bo-pt/v1.0/.gitbook/assets/image (225).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (226).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../pago-pa/manuale-bo-pt/v1.0/.gitbook/assets/image (226).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (227).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../pago-pa/manuale-bo-pt/v1.0/.gitbook/assets/image (227).png" alt=""><figcaption></figcaption></figure>
 
 Per creare una nuova manutenzione è necessario cliccare sul pulsante "`Nuova manutenzione`" che apre la seguente form.
 
-<figure><img src="../../../.gitbook/assets/image (228).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../pago-pa/manuale-bo-pt/v1.0/.gitbook/assets/image (228).png" alt=""><figcaption></figcaption></figure>
 
 E' necessario selezionare dal menu a tendina la stazione per la quale attivare la manutenzione, la data / ora di inizio di fermo e la data / ora di fine fermo. Inoltre è possibile indicare se durante il fermo della stazione sarà comunque possibile gestire i pagamenti mediante lo StandIN (maggiori info in [https://docs.pagopa.it/sanp/specifiche-attuative-del-nodo-dei-pagamenti-spc/funzionamento-generale/stand-in](https://docs.pagopa.it/sanp/specifiche-attuative-del-nodo-dei-pagamenti-spc/funzionamento-generale/stand-in))
 
 {% hint style="danger" %}
 Come già si ribadiva sopra, nel caso in cui il numero di ore di manutenzione previsto per l'anno (36) sia stato superato in caso di nuova manutenzione non è possibile impostare il flag StandIN a false (NO).&#x20;
 
-![](<../../../.gitbook/assets/image (229).png>)
+![](<../../../../pago-pa/manuale-bo-pt/v1.0/.gitbook/assets/image (229).png>)
 {% endhint %}
 
 Una volta confermata la manutenzione, questa assume lo stato "`In programma`" e viene mostrata nella griglia della manutenzioni programmate così come mostrato di seguito. Raggiunto la data / ora prevista la manutenzione assume lo stato `"In corso`" mentre una volta terminata questa viene spostata nel tab "Passate" con lo stato "`Terminata`".
 
-<figure><img src="../../../.gitbook/assets/image (230).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../pago-pa/manuale-bo-pt/v1.0/.gitbook/assets/image (230).png" alt=""><figcaption></figcaption></figure>
 
 Qualora si dovesse rendere necessaria una modifica ad una manutenzione già creata è possibile procedere utilizzando la funzione di modifica.&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (231).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../pago-pa/manuale-bo-pt/v1.0/.gitbook/assets/image (231).png" alt=""><figcaption></figcaption></figure>
 
 Le modifiche permesse sono quelle relative al flag StandIN e alle date, fermo restando che non sarà possibile impostare una data di avvio inferiore alle 72 ore.
 
-<figure><img src="../../../.gitbook/assets/image (232).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../pago-pa/manuale-bo-pt/v1.0/.gitbook/assets/image (232).png" alt=""><figcaption></figcaption></figure>
 
 Anche nel caso di una manutenzione in corso è possibile procedere alla modifica. In questo caso i vincoli sono i seguenti:
 
 * L'EC **ha la possibilità** di modificare una manutenzione _in corso_ modificando solo il campo`Data ora fine` manutenzione (non può essere precedente alla data e ora attuali)
 
-<figure><img src="../../../.gitbook/assets/image (233).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../pago-pa/manuale-bo-pt/v1.0/.gitbook/assets/image (233).png" alt=""><figcaption></figcaption></figure>
 
 L'EC mediante l'azione "Termina manutenzione" può decidere di eliminare la manutenzione programmata.
 
-<figure><img src="../../../.gitbook/assets/image (234).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../pago-pa/manuale-bo-pt/v1.0/.gitbook/assets/image (234).png" alt=""><figcaption></figcaption></figure>
 

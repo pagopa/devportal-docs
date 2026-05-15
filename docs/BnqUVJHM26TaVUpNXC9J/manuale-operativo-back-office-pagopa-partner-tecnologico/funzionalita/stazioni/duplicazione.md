@@ -11,7 +11,7 @@ description: >-
 
 All'interno della _Pagina "Vista Stazioni",_ l'utente cliccando sui **3 puntini** accanto lo Stato **"Attivo"**, ha la possibilità di selezionare la voce **"Duplica"** accedendo così alla _Pagina di Configurazione della Stazione._&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (186).png" alt=""><figcaption><p><em>Pagina Lista Stazioni - Duplica</em></p></figcaption></figure>
+<figure><img src="../../../../pago-pa/manuale-bo-pt/v1.0/.gitbook/assets/image (186).png" alt=""><figcaption><p><em>Pagina Lista Stazioni - Duplica</em></p></figcaption></figure>
 
 Da qui l'utente, ha la possibilità di sostituire i dati all'interno dei campi per effettuare la creazione della nuova stazione.&#x20;
 
@@ -19,9 +19,9 @@ All'interno del form, l'utente può visualizzare **tutti i campi già valorizzat
 
 Se si intende creare una nuova stazione, al termine della compilazione, è possibile cliccare sul tasto **"Conferma"**.
 
-<figure><img src="../../../.gitbook/assets/image (187).png" alt=""><figcaption><p><em>Pagina di configurazione della stazione</em></p></figcaption></figure>
+<figure><img src="../../../../pago-pa/manuale-bo-pt/v1.0/.gitbook/assets/image (187).png" alt=""><figcaption><p><em>Pagina di configurazione della stazione</em></p></figcaption></figure>
 
-Una volta aver completato la compilazione dei campi della P_agina di dettaglio,_ **è necessario ottenere la validazione di tali dati.**
+Una volta aver completato la compilazione dei campi della &#x50;_&#x61;gina di dettaglio,_ **è necessario ottenere la validazione di tali dati.**
 
 Quindi, una volta che l'utente avrà cliccato sul tasto "Conferma" non otterrà l'immediata attivazione della stazione, ma invia una richiesta di attivazione all'operatore PagoPA, come illustrato di seguito nel dettaglio.
 
@@ -31,7 +31,7 @@ _Consente di inviare i dati di configurazione della stazione, contenuti nella Pa
 
 Una volta aver confermato i dati, viene mostrato il seguente messaggio informativo che comunica all'utente che cliccando su tasto "Invia" è possibile inviare i dati salvati ad un operatore PagoPA per la revisione. Ad approvazione avvenuta l'utente riceverà una notifica.
 
-<figure><img src="../../../.gitbook/assets/image (27).png" alt="" width="316"><figcaption><p><em>Pop up Invia</em></p></figcaption></figure>
+<figure><img src="../../../../pago-pa/manuale-bo-pt/v1.0/.gitbook/assets/image (27).png" alt="" width="316"><figcaption><p><em>Pop up Invia</em></p></figcaption></figure>
 
 Cliccando sul tasto "Invia" verrà inviata una notifica all' operatore.
 
@@ -39,6 +39,6 @@ Altrimenti è necessario cliccare su "Torna indietro" per tornare alla _Pagina d
 
 Una volta aver cliccato su tasto "Invia", l'utente verrà reindirizzato alla _Pagina Vista Stazioni_ in cui potrà visualizzare nella tabella la stazione, che risulterà nello stato **In revisione** (la stazione è stata creata, ma in attesa di revisione da parte di PagoPA).
 
-<figure><img src="../../../.gitbook/assets/image (188).png" alt=""><figcaption><p><em>Pagina Lista Stazioni - Prod</em></p></figcaption></figure>
+<figure><img src="../../../../pago-pa/manuale-bo-pt/v1.0/.gitbook/assets/image (188).png" alt=""><figcaption><p><em>Pagina Lista Stazioni - Prod</em></p></figcaption></figure>
 
 [^1]: 

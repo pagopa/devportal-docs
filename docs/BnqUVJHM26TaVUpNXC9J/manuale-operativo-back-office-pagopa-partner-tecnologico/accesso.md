@@ -4,7 +4,7 @@ Per **attivare** e **gestire** il **prodotto pagoPA** è necessario prima accede
 
 Questa sezione ospita la lista dei prodotti a cui il Partner Tecnologico ha aderito e da cui è possibile effettuare l'**accesso al portale dedicato al singolo prodotto**.
 
-<figure><img src="../.gitbook/assets/Screenshot 2024-02-16 alle 18.30.10.png" alt=""><figcaption><p>Area riservata - Panoramica</p></figcaption></figure>
+<figure><img src="../../pago-pa/manuale-bo-pt/v1.0/.gitbook/assets/Screenshot 2024-02-16 alle 18.30.10.png" alt=""><figcaption><p>Area riservata - Panoramica</p></figcaption></figure>
 
 Nei paragrafi seguenti andremo ad illustrare le azioni e le informazioni che consentono all'utente di accedere e operare nella sezione **Panoramica - Area riservata**, in dettaglio:&#x20;
 
@@ -23,7 +23,7 @@ L’accesso all’Area Riservata di PagoPA può essere effettuato tramite:
 
 All’interno della pagina di accesso sono disponibili i link per visualizzare i _**Termini e condizioni d’uso**_ della piattaforma e l’_**Informativa Privacy**_, come da immagine seguente. &#x20;
 
-<figure><img src="../.gitbook/assets/image (132).png" alt=""><figcaption><p><em>Pagina di accesso all'Area Riservata di PagoPA</em></p></figcaption></figure>
+<figure><img src="../../pago-pa/manuale-bo-pt/v1.0/.gitbook/assets/image (132).png" alt=""><figcaption><p><em>Pagina di accesso all'Area Riservata di PagoPA</em></p></figcaption></figure>
 
 ### Area Riservata <a href="#h.1y810tw" id="h.1y810tw"></a>
 
@@ -59,8 +59,8 @@ In tale sezione, per ogni prodotto saranno visualizzati:&#x20;
 
 Per il **prodotto pagoPA**, al click su “Gestisci” viene esposto il messaggio che permette di selezionare l’ambiente target del prodotto a cui si intende accedere (Ambiente di Collaudo e Ambiente di Produzione).
 
-<figure><img src="../.gitbook/assets/image (170).png" alt=""><figcaption><p><em>Pop up di selezione Ambiente</em></p></figcaption></figure>
+<figure><img src="../../pago-pa/manuale-bo-pt/v1.0/.gitbook/assets/image (170).png" alt=""><figcaption><p><em>Pop up di selezione Ambiente</em></p></figcaption></figure>
 
 Inoltre è possibile **accedere** al **portale** del **prodotto pagoPA** anche dall’apposito menù a tendina situato al lato sinistro dell’intestazione. Anche da qui sarà possibile selezionare l’ambiente target.
 
-<figure><img src="../.gitbook/assets/image (165).png" alt=""><figcaption><p><em>Menu a tendina per ingresso al prodotto</em></p></figcaption></figure>
+<figure><img src="../../pago-pa/manuale-bo-pt/v1.0/.gitbook/assets/image (165).png" alt=""><figcaption><p><em>Menu a tendina per ingresso al prodotto</em></p></figcaption></figure>

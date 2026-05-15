@@ -16,7 +16,7 @@ La funzionalità è garantita sia agli EC che intermediano altri EC sia ai PT di
 
 Per accedere alla funzionalità è necessario posizionarsi nella sezione "Panoramica" all'interno della quale nel riquadro "Sezione download" è visibile il pulsante "Scarica lista EC"
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2024-01-25 alle 09.09.55.png" alt=""><figcaption><p>Sezione Download</p></figcaption></figure>
+<figure><img src="../../../../pago-pa/manuale-bo-pt/v1.0/.gitbook/assets/Screenshot 2024-01-25 alle 09.09.55.png" alt=""><figcaption><p>Sezione Download</p></figcaption></figure>
 
 {% hint style="danger" %}
 I dati esportati fanno riferimento a tutte le modifiche intercorse il giorno precedente fino alle 23:59. Eventuali variazioni che dovessero intercorrere durante il giorno in cui si effettua il download non verranno considerate nell'esportazione.
@@ -50,4 +50,4 @@ I dati che vengono esportati sono i seguenti:
 
 Un esempio di file csv prodotto è il seguente:
 
-{% file src="../../../.gitbook/assets/export-enti.csv" %}
+{% file src="../../../../pago-pa/manuale-bo-pt/v1.0/.gitbook/assets/export-enti.csv" %}

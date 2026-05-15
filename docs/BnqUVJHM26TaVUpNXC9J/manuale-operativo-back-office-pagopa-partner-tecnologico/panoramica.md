@@ -16,7 +16,7 @@ Una volta aver effettuato l'accesso al Back office PagoPA, l'utente accede alla 
 
 Nel caso in cui **non** è stata ancora effettuata la **registrazione al Nodo dei Pagamenti** lo **Stato** risulta in "**Non Abilitato**".
 
-<figure><img src="../.gitbook/assets/Screenshot 2024-02-16 alle 23.15.59.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../pago-pa/manuale-bo-pt/v1.0/.gitbook/assets/Screenshot 2024-02-16 alle 23.15.59.png" alt=""><figcaption></figcaption></figure>
 
 Per procedere alla Registrazione al nodo, all'interno del box "E ora?" l'utente può cliccare sul tasto "**Completa registrazione** -->"&#x20;
 

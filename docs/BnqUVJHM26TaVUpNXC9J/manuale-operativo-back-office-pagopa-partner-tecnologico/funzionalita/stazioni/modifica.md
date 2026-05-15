@@ -12,7 +12,7 @@ Nella Pagina "Vista Stazioni", dopo aver effettuato la creazione della stazione,
 
 **Cliccando** sui **3 puntini** accanto lo stato l'utente visualizzerà la voce "**Gestisci Stazione**".
 
-<figure><img src="../../../.gitbook/assets/image (184).png" alt=""><figcaption><p><em>Pagina Lista Stazioni - Gestisci Stazione</em></p></figcaption></figure>
+<figure><img src="../../../../pago-pa/manuale-bo-pt/v1.0/.gitbook/assets/image (184).png" alt=""><figcaption><p><em>Pagina Lista Stazioni - Gestisci Stazione</em></p></figcaption></figure>
 
 Selezionando la voce "**Gestisci Stazione**", l'utente può accedere alla Pagina di dettaglio Stazione in cui sono riportati tutti i dati di configurazione inseriti in fase di Creazione.
 
@@ -25,9 +25,9 @@ La funzionalità di `Duplica` permette di creare agevolmente una nuova stazione 
 
 
 
-<figure><img src="../../../.gitbook/assets/image (210).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../pago-pa/manuale-bo-pt/v1.0/.gitbook/assets/image (210).png" alt=""><figcaption></figcaption></figure>
 
-Una volta effettuata l'operazione **cliccando** su "**Conferma**", si verrà **reindirizzati** alla **pagina **_**Vista Stazioni**_ in cui è presente l'elenco delle stazioni create.
+Una volta effettuata l'operazione **cliccando** su "**Conferma**", si verrà **reindirizzati** alla **pagina&#x20;**_**Vista Stazioni**_ in cui è presente l'elenco delle stazioni create.
 
 {% hint style="warning" %}
 ### Modifica di una stazione in stato "Attiva"

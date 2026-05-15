@@ -19,23 +19,23 @@ Il **RT** che non ha ancora provveduto ad aggiungere il Tavolo Operativo, una vo
 
 
 
-<figure><img src="../../.gitbook/assets/image (199).png" alt=""><figcaption><p><em>Panoramica - Completa i dati del Tavolo Operativo</em></p></figcaption></figure>
+<figure><img src="../../../pago-pa/manuale-bo-pt/v1.0/.gitbook/assets/image (199).png" alt=""><figcaption><p><em>Panoramica - Completa i dati del Tavolo Operativo</em></p></figcaption></figure>
 
 Il Referente Tecnico scegliendo di **aggiungere** un **Tavolo Operativo** deve poter **cliccare** sul link in blu "**Gestisci"**.
 
 In questo modo, **accederà** al **form** in cui **inserire** le **informazioni** relative al **Tavolo Operativo** dell’Ente Creditore/Partner Tecnologico per cui ricopre il ruolo di RT.
 
-<figure><img src="../../.gitbook/assets/image (200).png" alt=""><figcaption><p><em>Form- Aggiungi Tavolo Operativo</em></p></figcaption></figure>
+<figure><img src="../../../pago-pa/manuale-bo-pt/v1.0/.gitbook/assets/image (200).png" alt=""><figcaption><p><em>Form- Aggiungi Tavolo Operativo</em></p></figcaption></figure>
 
 Le **informazioni da inserire** sono:
 
 * **Email**
 * **Telefono**
 
-<figure><img src="../../.gitbook/assets/image (201).png" alt=""><figcaption><p><em>Form - Aggiungi Tavolo Operativo - Conferma</em></p></figcaption></figure>
+<figure><img src="../../../pago-pa/manuale-bo-pt/v1.0/.gitbook/assets/image (201).png" alt=""><figcaption><p><em>Form - Aggiungi Tavolo Operativo - Conferma</em></p></figcaption></figure>
 
 Una volta **inserite** le **informazioni necessarie**, il tasto "**Conferma**" risulterà abilitato e l'utente vi potrà cliccare per finalizzare l'operazione.
 
-<figure><img src="../../.gitbook/assets/image (202).png" alt=""><figcaption><p><em>Panoramica - Tavolo Operativo completato</em></p></figcaption></figure>
+<figure><img src="../../../pago-pa/manuale-bo-pt/v1.0/.gitbook/assets/image (202).png" alt=""><figcaption><p><em>Panoramica - Tavolo Operativo completato</em></p></figcaption></figure>
 
 Una volta **confermata** l'operazione, l'utente **verrà reindirizzato** alla **Panoramica**, dove visualizzerà il **box "Tavolo operativo" popolato** con i dati appena inseriti.
