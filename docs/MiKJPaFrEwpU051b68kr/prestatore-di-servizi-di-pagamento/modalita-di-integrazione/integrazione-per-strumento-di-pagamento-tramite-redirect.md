@@ -2,7 +2,7 @@
 
 La modalità di pagamento in _redirect_ verso soluzioni fornite dai singoli PSP o terze parti da loro convenzionate, introdotta per facilitare i pagamenti su conto corrente e similari per i cittadini ed imprese, è studiata secondo le seguenti stelle polari:
 
-* _principio di neutralità_: la piattaforma pagoPA **deve** mettere a disposizione di tutti i PSP le medesime interfacce ed integrazioni tecnologiche senza alcuna customizzazione; é chiesto quindi a tutti i PSP che oggi hanno soluzioni custom di adeguarsi alla nuova modalità, unica disponibile per il modello unico di pagamento obbligatorio sulla piattaforma pagoPA;&#x20;
+* _principio di neutralità_: la piattaforma pagoPA **deve** mettere a disposizione di tutti i PSP le medesime interfacce ed integrazioni tecnologiche senza alcuna customizzazione; é chiesto quindi a tutti i PSP che oggi hanno soluzioni custom di adeguarsi alla nuova modalità, unica disponibile per il modello unico di pagamento obbligatorio sulla piattaforma pagoPA;
 * _compliance PSD2_: come oggi resta responsabilità del PSP, che mette a disposizione lo strumento di pagamento (direttamente o per il tramite di terzi), garantire il rispetto della normativa vigente in termini di sicurezza, autenticazione (SCA) e best practice bancarie;
 * _regole chiare descritte nelle SANP_: è scelta della società PagoPA S.p.A. declinare quali modalità di pagamento permettere di veicolare dentro la modalità di _redirect_, secondo principi che devono essere chiari e descritti nelle SANP.
 
@@ -21,44 +21,23 @@ La connettività segue le regole standard della piattaforma pagoPA, consultabili
 
 ## API recupero URL
 
-{% swagger method="post" path="" baseUrl="PSP url" summary="" expanded="false" %}
-{% swagger-description %}
+<mark style="color:green;">`POST`</mark> `PSP url`
 
-{% endswagger-description %}
+#### Request Body
 
-{% swagger-parameter in="body" name="idTransaction" required="true" type="String" %}
-Identificativo univoco dell’operazione di pagamento
-{% endswagger-parameter %}
+| Name                                            | Type    | Description                                                                                              |
+| ----------------------------------------------- | ------- | -------------------------------------------------------------------------------------------------------- |
+| idTransaction<mark style="color:red;">\*</mark> | String  | Identificativo univoco dell’operazione di pagamento                                                      |
+| idPsp<mark style="color:red;">\*</mark>         | String  | Identificativo PSP                                                                                       |
+| amount<mark style="color:red;">\*</mark>        | Integer | Importo dell’operazione di pagamento in euro cents comprensivo delle fee                                 |
+| urlBack<mark style="color:red;">\*</mark>       | String  | Url della piattaforma pagoPA verso la quale il PSP indirizza l'utente al completamento della transazione |
+| description<mark style="color:red;">\*</mark>   | String  | Causale del pagamento                                                                                    |
+| paymentMethod<mark style="color:red;">\*</mark> | String  | Codifica del metodo di pagamento utilizzato                                                              |
+| paName                                          | String  | Descrizione dell’ente creditore                                                                          |
+| idPaymentMethod                                 | String  | Identificativo del metodo di pagamento dell’utente                                                       |
 
-{% swagger-parameter in="body" name="idPsp" required="true" type="String" %}
-Identificativo PSP
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="amount" type="Integer" required="true" %}
-Importo dell’operazione di pagamento in euro cents comprensivo delle fee
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="urlBack" required="true" type="String" %}
-Url della piattaforma pagoPA verso la quale il PSP indirizza l'utente al completamento della transazione
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="description" required="true" type="String" %}
-Causale del pagamento
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="paymentMethod" required="true" type="String" %}
-Codifica del metodo di pagamento utilizzato
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="paName" type="String" %}
-Descrizione dell’ente creditore
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="idPaymentMethod" type="String" %}
-Identificativo del metodo di pagamento dell’utente
-{% endswagger-parameter %}
-
-{% swagger-response status="200: OK" description="" %}
+{% tabs %}
+{% tab title="200: OK " %}
 ```json
 {
     "url": string - url/idPSPTransaction 
@@ -72,9 +51,9 @@ Identificativo del metodo di pagamento dell’utente
                                             max 600000
 }
 ```
-{% endswagger-response %}
+{% endtab %}
 
-{% swagger-response description="" status="400: Bad Request" %}
+{% tab title="400: Bad Request " %}
 ```
 {
     "status": 400,​
@@ -82,9 +61,9 @@ Identificativo del metodo di pagamento dell’utente
     "idTransaction": string - "15448fefsfsr48sr84fser84sdf"
 }
 ```
-{% endswagger-response %}
+{% endtab %}
 
-{% swagger-response description="" status="401: Unauthorized" %}
+{% tab title="401: Unauthorized " %}
 ```
 {
     "status": 401,​
@@ -92,22 +71,22 @@ Identificativo del metodo di pagamento dell’utente
     "idTransaction": string - "15448fefsfsr48sr84fser84sdf"
 }
 ```
-{% endswagger-response %}
+{% endtab %}
 
-{% swagger-response description="" status="500: Internal Server Error" %}
+{% tab title="500: Internal Server Error " %}
 ```
 {
     "status": 500
 }
 ```
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
 ## Redirect
 
 L’utente, tramite GET all’url fornita dal PSP nella response alla chiamata[#api-recupero-url](integrazione-per-strumento-di-pagamento-tramite-redirect.md#api-recupero-url "mention"), viene reindirizzato dalla piattaforma pagoPA sul FE del PSP per effettuare l’autorizzazione del pagamento.
 
-Il PSP, per la corretta gestione, dovrà utilizzare le informazioni relative al pagamento inviate dalla piattaforma pagoPA nella chiamata[#api-recupero-url](integrazione-per-strumento-di-pagamento-tramite-redirect.md#api-recupero-url "mention").&#x20;
+Il PSP, per la corretta gestione, dovrà utilizzare le informazioni relative al pagamento inviate dalla piattaforma pagoPA nella chiamata[#api-recupero-url](integrazione-per-strumento-di-pagamento-tramite-redirect.md#api-recupero-url "mention").
 
 ### **Esito**
 
@@ -122,78 +101,63 @@ Come descritto nel paragrafo precedente è l’API server to server che il PSP, 
 
 L’API ha il fine di fornire un’esito finale anche nel caso in cui fallisca la _redirect_ dal FE del PSP alla piattaforma pagoPA.
 
-{% swagger method="post" path="" baseUrl="apiEsitoPagamento/idTransaction" summary="" expanded="false" %}
-{% swagger-description %}
+<mark style="color:green;">`POST`</mark> `apiEsitoPagamento/idTransaction`
 
-{% endswagger-description %}
+#### Query Parameters
 
-{% swagger-parameter in="body" name="idPsp" required="true" type="String" %}
-Identificativo PSP
-{% endswagger-parameter %}
+| Name          | Type   | Description                                         |
+| ------------- | ------ | --------------------------------------------------- |
+| idTransaction | String | Identificativo univoco dell’operazione di pagamento |
 
-{% swagger-parameter in="body" name="idPSPTransaction" required="true" type="String" %}
-Identificativo univoco dell’operazione di pagamento assegnato dal PSP
-{% endswagger-parameter %}
+#### Request Body
 
-{% swagger-parameter in="body" name="outcome" type="String" required="true" %}
-Esito dell'operazione (Valori possibili OK, KO, ANNULLO, SCADUTO e ERRORE)
-{% endswagger-parameter %}
+| Name                                               | Type      | Description                                                                                                      |
+| -------------------------------------------------- | --------- | ---------------------------------------------------------------------------------------------------------------- |
+| idPsp<mark style="color:red;">\*</mark>            | String    | Identificativo PSP                                                                                               |
+| idPSPTransaction<mark style="color:red;">\*</mark> | String    | Identificativo univoco dell’operazione di pagamento assegnato dal PSP                                            |
+| outcome<mark style="color:red;">\*</mark>          | String    | Esito dell'operazione (Valori possibili OK, KO, ANNULLO, SCADUTO e ERRORE)                                       |
+| timestampOperation                                 | Timestamp | Data e ora del pagamento, da valorizzare solo in caso di esito positivo                                          |
+| authorizationCode                                  | String    | Codice univoco di autorizzazione del pagamento rilasciato dal PSP, da valorizzare solo in caso di esito positivo |
+| errorCode                                          | String    | Motivo del diniego, da valorizzare solo in caso di esito negativo                                                |
 
-{% swagger-parameter in="body" name="timestampOperation" type="Timestamp" %}
-Data e ora del pagamento, da valorizzare solo in caso di esito positivo
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="authorizationCode" required="false" type="String" %}
-Codice univoco di autorizzazione del pagamento rilasciato dal PSP, da valorizzare solo in caso di esito positivo
-
-
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="errorCode" type="String" %}
-Motivo del diniego, da valorizzare solo in caso di esito negativo
-{% endswagger-parameter %}
-
-{% swagger-parameter in="query" name="idTransaction" type="String" %}
-Identificativo univoco dell’operazione di pagamento
-{% endswagger-parameter %}
-
-{% swagger-response status="200: OK" description="" %}
+{% tabs %}
+{% tab title="200: OK " %}
 ```
 {
   "idTransaction": "string",
   "outcome": "OK",
 }
 ```
-{% endswagger-response %}
+{% endtab %}
 
-{% swagger-response description="" status="400: Bad Request" %}
+{% tab title="400: Bad Request " %}
 ```
 {
     "status": 400,​
     "detail": string - "There was an error processing the request"
 }
 ```
-{% endswagger-response %}
+{% endtab %}
 
-{% swagger-response description="" status="401: Unauthorized" %}
+{% tab title="401: Unauthorized " %}
 ```
 {
     "status": 401,​
     "detail": string - "Unauthorized",
 }
 ```
-{% endswagger-response %}
+{% endtab %}
 
-{% swagger-response description="" status="404: Not Found" %}
+{% tab title="404: Not Found " %}
 ```
 {
     "status": 404,​
     "detail": string - "idTransaction/amount doesn't exit",
 }
 ```
-{% endswagger-response %}
+{% endtab %}
 
-{% swagger-response status="409: Conflict" description="" %}
+{% tab title="409: Conflict " %}
 ```
 {
     "status": 409,​
@@ -201,16 +165,16 @@ Identificativo univoco dell’operazione di pagamento
 
 }
 ```
-{% endswagger-response %}
+{% endtab %}
 
-{% swagger-response status="500: Internal Server Error" description="" %}
+{% tab title="500: Internal Server Error " %}
 ```
 {
     "status": 500
 }
 ```
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
 ## API annullo
 
@@ -227,60 +191,52 @@ Nel caso di cui al punto 2, in aggiunta all'effetto di cui sopra, la piattaforma
 
 Ciascun PSP deve fornire l'url da invocare tramite il backoffice pagoPA per ciascun ambiente (collaudo e produzione).
 
-{% swagger method="delete" path="" baseUrl="apiPSPStorno" summary="" expanded="false" %}
-{% swagger-description %}
+<mark style="color:red;">`DELETE`</mark> `apiPSPStorno`
 
-{% endswagger-description %}
+#### Request Body
 
-{% swagger-parameter in="body" name="idTransaction" required="true" type="String" %}
-Identificativo del pagamento
-{% endswagger-parameter %}
+| Name                                               | Type   | Description                                                           |
+| -------------------------------------------------- | ------ | --------------------------------------------------------------------- |
+| idTransaction<mark style="color:red;">\*</mark>    | String | Identificativo del pagamento                                          |
+| idPSPTransaction<mark style="color:red;">\*</mark> | String | Identificativo univoco dell’operazione di pagamento assegnato dal PSP |
+| action<mark style="color:red;">\*</mark>           | String | <p>Azione richiesta</p><p>i.e. "refund"</p>                           |
 
-{% swagger-parameter in="body" name="idPSPTransaction" required="true" type="String" %}
-Identificativo univoco dell’operazione di pagamento assegnato dal PSP
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="action" type="String" required="true" %}
-Azione richiesta
-
-i.e. "refund"
-{% endswagger-parameter %}
-
-{% swagger-response status="200: OK" description="" %}
+{% tabs %}
+{% tab title="200: OK " %}
 ```
 {
   "idTransaction": "string",
   "outcome": "OK",
 }
 ```
-{% endswagger-response %}
+{% endtab %}
 
-{% swagger-response description="" status="400: Bad Request" %}
+{% tab title="400: Bad Request " %}
 ```
 {
     "status": 400,​
     "detail": string - "There was an error processing the request"
 }
 ```
-{% endswagger-response %}
+{% endtab %}
 
-{% swagger-response status="404: Not Found" description="" %}
+{% tab title="404: Not Found " %}
 ```json
 {
     "status": 400,​
     "detail": string - "idTransaction doesn't exit",
 }
 ```
-{% endswagger-response %}
+{% endtab %}
 
-{% swagger-response status="500: Internal Server Error" description="" %}
+{% tab title="500: Internal Server Error " %}
 ```
 {
     "status": 500
 }
 ```
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
 A fronte di una mancata risposta con esito HTTP 200 (avente valore di esito positivo della risposta alla chiamata) è compito di pagoPA riproporre la medesima chiamata con una logica di _retry_.
 
@@ -288,7 +244,7 @@ L'API ha la caratteristica di essere _idempotente_ e il PSP deve riproporre lo s
 
 ## Fase di pagamento <a href="#sequence-diagram-fase-di-pagamento" id="sequence-diagram-fase-di-pagamento"></a>
 
-<figure><img src="../../.gitbook/assets/image (38).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../pago-pa/sanp/3.6.0/.gitbook/assets/image (38).png" alt=""><figcaption></figcaption></figure>
 
 ## Fase di annullo <a href="#sequence-diagram-fase-di-storno" id="sequence-diagram-fase-di-storno"></a>
 
@@ -296,10 +252,10 @@ L'API ha la caratteristica di essere _idempotente_ e il PSP deve riproporre lo s
 
 La piattaforma pagoPA effettua la chiamata di annullo con logica di retry se non riceve l’esito (positivo o negativo) del pagamento entro il _timeout_ indicato nella response alla [#api-recupero-url](integrazione-per-strumento-di-pagamento-tramite-redirect.md#api-recupero-url "mention") dal PSP o il timeout di default di _10 minuti_ dall'invocazione della redirect verso l'URL del PSP.
 
-<figure><img src="../../.gitbook/assets/image (39).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../pago-pa/sanp/3.6.0/.gitbook/assets/image (39).png" alt=""><figcaption></figcaption></figure>
 
 ### Caso 2 - pspNotifyPayment KO <a href="#caso-3-pspnotifypayment-ko" id="caso-3-pspnotifypayment-ko"></a>
 
 La piattaforma pagoPA effettua la chiamata di annullo con logica di retry quando il PSP ha risposto KO alla [#pspnotifypayment](../../appendici/primitive.md#pspnotifypayment "mention").
 
-<figure><img src="../../.gitbook/assets/image (40).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../pago-pa/sanp/3.6.0/.gitbook/assets/image (40).png" alt=""><figcaption></figcaption></figure>
