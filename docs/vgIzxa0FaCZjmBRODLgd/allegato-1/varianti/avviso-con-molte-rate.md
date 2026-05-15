@@ -15,10 +15,10 @@ Usa questo modello soltanto se il tuo avviso prevede un numero alto di rate, **m
 Se l'Ente Creditore dispone di un conto corrente postale per gli incassi, è necessario includere le rate anche nel formato [bollettino-postale-pa.md](../../allegato-2/specifiche-tecniche/dati-per-il-pagamento/bollettino-postale-pa.md "mention"). Per maggiori informazioni, fai riferimento al [#layout-con-multipli-di-3](../../allegato-2/specifiche-tecniche/dati-per-il-pagamento/bollettino-postale-pa.md#layout-con-multipli-di-3 "mention").
 {% endhint %}
 
-{% @figma/embed fileId="CtqIoS6ZTATNxFJtcARhbQ" nodeId="0:1" url="https://www.figma.com/file/CtqIoS6ZTATNxFJtcARhbQ/Avviso-con-molte-rate?node-id=0%3A1" %}
+{% @figma/embed url="https://www.figma.com/file/CtqIoS6ZTATNxFJtcARhbQ/Avviso-con-molte-rate?node-id=0%3A1" fileId="CtqIoS6ZTATNxFJtcARhbQ" nodeId="0:1" %}
 
 ### Risorse disponibili
 
-{% file src="../../.gitbook/assets/pagoPA-Avvisi-350-molteRate.zip" %}
+{% file src="../../../../pago-pa/avviso-pagamento/3.5.0/.gitbook/assets/pagoPA-Avvisi-350-molteRate.zip" %}
 File ZIP contenente il modello dell'avviso in formato SVG e PDF.
 {% endfile %}

@@ -10,7 +10,7 @@ description: >-
 
 Il Bollettino Postale PA va inserito dopo la porzione [rata-unica.md](rata-unica.md "mention"), come mostrato nell'esempio:
 
-![Dettaglio della sezione "Bollettino Postale PA (Rata unica)" all'interno dell'avviso di pagamento pagoPA.](<../../../.gitbook/assets/Poste rata unica.png>)
+![Dettaglio della sezione "Bollettino Postale PA (Rata unica)" all'interno dell'avviso di pagamento pagoPA.](<../../../../../pago-pa/avviso-pagamento/3.5.0/.gitbook/assets/Poste rata unica.png>)
 
 ## Rate multiple
 
@@ -18,11 +18,11 @@ Le diverse rate vanno inserite dopo la porzione [rate-multiple.md](rate-multiple
 
 ### Layout con multipli di 2
 
-![Dettaglio della sezione "Bollettino Postale PA (Rate in multipli di 2)" all'interno dell'avviso di pagamento pagoPA.](<../../../.gitbook/assets/2 Rate.png>)
+![Dettaglio della sezione "Bollettino Postale PA (Rate in multipli di 2)" all'interno dell'avviso di pagamento pagoPA.](<../../../../../pago-pa/avviso-pagamento/3.5.0/.gitbook/assets/2 Rate.png>)
 
 ### Layout con multipli di 3
 
-![Dettaglio della sezione "Bollettino Postale PA (Rate in multipli di 3)" all'interno dell'avviso di pagamento pagoPA.](<../../../.gitbook/assets/Completo - 3 Rate.png>)
+![Dettaglio della sezione "Bollettino Postale PA (Rate in multipli di 3)" all'interno dell'avviso di pagamento pagoPA.](<../../../../../pago-pa/avviso-pagamento/3.5.0/.gitbook/assets/Completo - 3 Rate.png>)
 
 ## Specifiche e testi segnaposto
 
