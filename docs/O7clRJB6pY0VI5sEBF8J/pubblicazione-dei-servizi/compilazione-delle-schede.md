@@ -2,13 +2,13 @@
 
 Le schede servizio contengono la **descrizione** dello specifico servizio offerto dall’ente e i dati di **contatto** a disposizione dell’utenza per approfondire il contenuto del servizio o inoltrare specifiche domande. La scheda servizio può essere compilata per ciascun servizio all’interno del [back-office](https://developers.italia.it/it/io/), nei campi associati a ciascun servizio-chiave API.
 
-#### Di seguito un ESEMPIO di scheda servizio: <a href="#_o6q8lhbtf5r3" id="_o6q8lhbtf5r3"></a>
+#### Di seguito un ESEMPIO di scheda servizio: <a href="#o6q8lhbtf5r3" id="o6q8lhbtf5r3"></a>
 
-![](../.gitbook/assets/0)
+![](../../app-io/accordi-adesione/v1.0/.gitbook/assets/0)
 
-![](../.gitbook/assets/1)
+![](../../app-io/accordi-adesione/v1.0/.gitbook/assets/1)
 
-### Campi obbligatori <a href="#_s4gp5hbiuxd1" id="_s4gp5hbiuxd1"></a>
+### Campi obbligatori <a href="#s4gp5hbiuxd1" id="s4gp5hbiuxd1"></a>
 
 Di seguito vengono elencati i campi **obbligatori** per la compilazione della scheda servizio, e alcune regole per la compilazione:
 
@@ -21,7 +21,7 @@ Di seguito vengono elencati i campi **obbligatori** per la compilazione della sc
 4. **privacy\_url**:\
    l’indirizzo web ove è pubblicata l’informativa privacy del servizio.
 5. **description:**\
-   la descrizione testuale in formato markdown che indica l’oggetto del servizio e chiarisce nel dettaglio cosa l’utenza può aspettarsi di ricevere tramite app IO (vedi tab 3 del [template](https://io.italia.it/assets/download/it/onboarding/210729\_io\_onboarding\_enti-template\_messaggi\_e\_servizi.xlsx)).
+   la descrizione testuale in formato markdown che indica l’oggetto del servizio e chiarisce nel dettaglio cosa l’utenza può aspettarsi di ricevere tramite app IO (vedi tab 3 del [template](https://io.italia.it/assets/download/it/onboarding/210729_io_onboarding_enti-template_messaggi_e_servizi.xlsx)).
 6. **contatti:**\
    almeno uno o più canali di contatto diretto a cui un utente può chiedere assistenza, a scelta tra: **phone, mail, pec, support\_url**
 7. **service\_logo** e/o **organization\_logo**:\
@@ -31,7 +31,7 @@ Di seguito vengono elencati i campi **obbligatori** per la compilazione della sc
 9. **authorized\_cidrs**:\
    uno o più indirizzi IP separati da ; da cui provengono le chiamate al back-end di IO, per le relative chiavi API/servizio (ad esempio 192.168.10.11/32;172.16.30.24/32). Questo è un blocco di sicurezza che inibisce le chiamate provenienti da altri indirizzi IP, che cercano di operare per quei servizi.
 
-### Campi facoltativi <a href="#_9pcrgk4kbjb6" id="_9pcrgk4kbjb6"></a>
+### Campi facoltativi <a href="#id-9pcrgk4kbjb6" id="id-9pcrgk4kbjb6"></a>
 
 In aggiunta ai campi obbligatori, sono disponibili alcuni campi aggiuntivi **facoltativi**:
 
@@ -49,7 +49,7 @@ In aggiunta ai campi obbligatori, sono disponibili alcuni campi aggiuntivi **fac
 Se il tuo servizio è stato già pubblicato ma non presenta tutti i campi obbligatori qui citati, lo troverai etichettato nel back-office con la scritta “**dati incompleti o incorretti**”: dovrai procedere all’inserimento dei campi mancanti per poter inoltrare la richiesta di pubblicazione del servizio.
 {% endhint %}
 
-![](../.gitbook/assets/2)
+![](../../app-io/accordi-adesione/v1.0/.gitbook/assets/2)
 
 {% hint style="warning" %}
 **Importante!**

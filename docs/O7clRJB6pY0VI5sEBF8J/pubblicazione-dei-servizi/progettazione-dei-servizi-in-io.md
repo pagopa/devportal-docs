@@ -1,14 +1,12 @@
 # Progettazione dei servizi in IO
 
-Al momento App IO può essere utilizzata per l’invio di:\
-
+Al momento App IO può essere utilizzata per l’invio di:<br>
 
 * **semplici notifiche** (messaggi di testo, possono riguardare un aggiornamento relativo ad esempio ad un nuovo documento disponibile o un’istanza presentata presso l’ente)
 * **promemoria** (messaggi che contengono una data di scadenza o da ricordare, come il reminder della scadenza di un documento da rinnovare o la data entro cui iscriversi a un servizio) - per questo tipo di messaggi è necessario utilizzare il campo due\_date nel payload del messaggio.
 * **avvisi di pagamento** (messaggi che contengono le informazioni relative a una posizione debitoria, con il promemoria della data di scadenza entro cui effettuare il pagamento e la funziona “paga” per poter procedere al pagamento) per questo tipo di messaggi è necessario inserire i campi relativi al payment\_data (IUV, importo da pagare, data di scadenza).
 
-Per facilitare l’ente nell’elaborare i testi dei propri messaggi e configurare i servizi su app IO è possibile far riferimento a questo [template](https://io.italia.it/assets/download/it/onboarding/210729\_io\_onboarding\_enti-template\_messaggi\_e\_servizi.xlsx), che può essere utilizzato come linea-guida per:\
-
+Per facilitare l’ente nell’elaborare i testi dei propri messaggi e configurare i servizi su app IO è possibile far riferimento a questo [template](https://io.italia.it/assets/download/it/onboarding/210729_io_onboarding_enti-template_messaggi_e_servizi.xlsx), che può essere utilizzato come linea-guida per:<br>
 
 **tab 1)** definire una lista di servizi che l’ente è interessato a offrire tramite App IO;\
 **tab 2)** definire una serie di messaggi che possono essere utilizzati per comunicare all’utenza, a seconda delle necessità di ciascun servizio;
