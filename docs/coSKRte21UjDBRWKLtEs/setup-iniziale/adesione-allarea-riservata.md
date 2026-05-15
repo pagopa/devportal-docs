@@ -8,7 +8,7 @@ Area Riservata sarà presto disponibile.
 
 Prima di poter utilizzare le API di IO, il tuo ente dovrà avere un'adesione base attiva. Se non la possiede, il primo passo è quello di eseguire il processo di _onboarding_ tramite l’Area Riservata del prodotto a cui vuole aderire.
 
-<figure><img src="../.gitbook/assets/areariservata.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../app-io/io-guida-tecnica/v2.2/.gitbook/assets/areariservata.png" alt=""><figcaption></figcaption></figure>
 
 Durante il processo di adesione, dovrai inserire i dati di:
 
