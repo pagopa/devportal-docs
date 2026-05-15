@@ -6,7 +6,7 @@ description: >-
 
 # 1️⃣ Apertura iscrizioni e invio domande
 
-<figure><img src="../../solutions/asili-nido/.gitbook/assets/Stepper_1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../solutions/asili-nido/.gitbook/assets/Stepper_1.png" alt=""><figcaption></figcaption></figure>
 
 ## &#x20;1. L'ente comunica ai cittadini interessati l'apertura delle iscrizioni all'asilo nido
 

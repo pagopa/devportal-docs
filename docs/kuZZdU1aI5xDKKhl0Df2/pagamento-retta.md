@@ -6,7 +6,7 @@ description: >-
 
 # 4️⃣ Pagamento retta
 
-<figure><img src="../../solutions/asili-nido/.gitbook/assets/Stepper_4.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../solutions/asili-nido/.gitbook/assets/Stepper_4.png" alt=""><figcaption></figcaption></figure>
 
 ## 1. Il cittadino riceve l'avviso di pagamento
 
