@@ -14,9 +14,9 @@ Il campo `eventType` può essere valorizzato in 2 modi:
 * **TIMELINE:** permette di registrare gli eventi di timeline delle notifiche.
 
 il campo `filterValues` può contenere il tipo di eventi che si vogliono filtrare all'interno dello stream, \*se lasciato vuoto `[]` permetterà di raccogliere tutti gli eventi emessi.\
-**\*Per retro compatibilità, inserendo questo campo vuoto lo stream di tipo TIMELINE restituirà gli eventi della versione GA 1.0, se si vogliono ottenere gli eventi di timeline introdotti dalle versioni successive sarà necessario indicare tutti gli eventi d'interesse nel campo `filterValues.`**
+&#xNAN;**\*Per retro compatibilità, inserendo questo campo vuoto lo stream di tipo TIMELINE restituirà gli eventi della versione GA 1.0, se si vogliono ottenere gli eventi di timeline introdotti dalle versioni successive sarà necessario indicare tutti gli eventi d'interesse nel campo `filterValues.`**
 
-È possibile sapere se sono presenti altri eventi da visualizzare tramite il valore del parametro `retry-after`presente nell'header del body della response ottenuta a seguito della prima chiamata a questo servizio:&#x20;
+È possibile sapere se sono presenti altri eventi da visualizzare tramite il valore del parametro `retry-after`presente nell'header del body della response ottenuta a seguito della prima chiamata a questo servizio:
 
 * se`retry-after = 0` significa che sono presenti altri eventi oltre a quelli ricevuti nella response; per ottenere i successivi è necessario consumare i precedenti, effettuando una nuova chiamata a questo servizio, nella quale valorizzare il campo `lastEventId` con l'eventId dell'ultimo evento ottenuto nella precedente chiamata.
 * se`retry-after` ≠ `0` significa che non sono presenti altri eventi nello stream oltre a quelli appena ottenuti, pertanto è necessario attendere la quantità di tempo (espressa in millisecondi) del valore restituito, prima di richiamare di nuovo il servizio

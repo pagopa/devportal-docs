@@ -12,7 +12,7 @@ Le pagine Swagger sono esclusivamente ad uso di documentazione e non sono config
 
 ### Cosa devo fare se ricevo `{"message": "Unauthorized"}` quando chiamo le API?
 
-Il messaggio indica che non sono disponibili le credenziali per utilizzare i servizi di PN o che non è stata completata l'integrazione con **PDND Interoperabilità**. \
+Il messaggio indica che non sono disponibili le credenziali per utilizzare i servizi di PN o che non è stata completata l'integrazione con **PDND Interoperabilità**.\
 Se non è stato già fatto, è necessario intraprendere il processo di accreditamento, contattando l'indirizzo preposto: [account@pagopa.it](mailto:account@pagopa.it)\
 Se è stato già completato il processo di accreditamento, assicurarsi che si stia utilizzando correttamente l'API Key ed il Voucher.
 
@@ -33,9 +33,9 @@ I documenti memorizzati su bucket S3 durante la fase di caricamento (1.a e 1.b d
 I passi da seguire sono i seguenti:
 
 1. **Pre inoltro della documentazione (atto di notifica e modello di pagamento).**\
-   Occorre chiamare il servizio [presignedUploadRequest](https://petstore.swagger.io/?url=https%3A%2F%2Fraw.githubusercontent.com%2Fpagopa%2Fpn-delivery%2Fdevelop%2Fdocs%2Fopenapi%2Fapi-external-b2b-pa.yaml#/NewNotification/presignedUploadRequest) per ottenere il/gli url da utilizzare per effettuare l'upload dei documenti**.** Non è obbligatorio caricare il modello di pagamento.
+   Occorre chiamare il servizio [presignedUploadRequest](https://petstore.swagger.io/?url=https%3A%2F%2Fraw.githubusercontent.com%2Fpagopa%2Fpn-delivery%2Fdevelop%2Fdocs%2Fopenapi%2Fapi-external-b2b-pa.yaml#/NewNotification/presignedUploadRequest) per ottenere il/gli url da utilizzare per effettuare l'upload dei documenti\*\*.\*\* Non è obbligatorio caricare il modello di pagamento.
 2. **Upload della documentazione.**\
-   Occorre effettuare, per ogni documento, una richiesta HTTP con metodo ed url restituiti dal servizio _presignedUploadRequest_ nella chiamata al punto precedente**.**
+   Occorre effettuare, per ogni documento, una richiesta HTTP con metodo ed url restituiti dal servizio _presignedUploadRequest_ nella chiamata al punto precedente\*\*.\*\*
 3. **Invio della notifica.**\
    A seguito dell'upload dei documenti , bisogna chiamare il servizio [sendNewNotification](https://petstore.swagger.io/?url=https%3A%2F%2Fraw.githubusercontent.com%2Fpagopa%2Fpn-delivery%2Fdevelop%2Fdocs%2Fopenapi%2Fapi-external-b2b-pa.yaml#/NewNotification/sendNewNotification) per completare l'invio della notifica, avendo cura di valorizzare correttamente i riferimenti ai documenti caricati al punto precedente.
 
@@ -66,7 +66,7 @@ I controlli effettuati da PN sono i seguenti:
 
 * verifica che lo sha256 inserito nella notifica corrisponda a quello del documento associato ad essa
 * verifica che ciascun CF fornito esista veramente
-* verifica che l'indirizzo fisico associato a ciascun destinatario sia esistente e che il CAP inserito sia specifico della località e non generico. Queste verifiche vengono effettuate con Postel.&#x20;
+* verifica che l'indirizzo fisico associato a ciascun destinatario sia esistente e che il CAP inserito sia specifico della località e non generico. Queste verifiche vengono effettuate con Postel.
 
 **NOTA:** nel caso in cui una Notifica venga rifiutata in fase di validazione, PND fatturerà comunque alla PA mittente € 1 per ogni destinatario della notifica (a copertura dei servizi di PND).\
 Vedi l'art. 4 comma 3 lettera d) dei T\&C della piattaforma: [https://docs.pagopa.it/documento-1-termini-condizioni-di-adesione-e-uso/](https://docs.pagopa.it/documento-1-termini-condizioni-di-adesione-e-uso/)
@@ -76,14 +76,14 @@ Vedi l'art. 4 comma 3 lettera d) dei T\&C della piattaforma: [https://docs.pagop
 Il processo di invio della notifica si sviluppa attraverso 2 diversi workflow:
 
 * **Workflow Digitale**\
-  Questo processo parte dopo aver verificato che il destinatario abbia **ALMENO UN** domicilio digitale tra quelli previsti (Domicilio digitale di piattaforma, Domicilio digitale speciale, Domicilio digitale generale). \
+  Questo processo parte dopo aver verificato che il destinatario abbia **ALMENO UN** domicilio digitale tra quelli previsti (Domicilio digitale di piattaforma, Domicilio digitale speciale, Domicilio digitale generale).\
   Una volta avviato questo Workflow, nel caso di fallimento del primo tentativo di invio digitale, PND effettuerà un secondo tentativo di invio a distanza di 7 giorni. Al primo successo PND interromperà il tentativo di invio, mentre se anche il secondo tentativo di invio fallisce, verrà effettuato un invio con raccomandata semplice.
 * **Workflow Analogico**\
   Questo processo parte solo dopo aver verificato che il destinatario **NON** abbia nessun domicilio digitale e prevede l'invio all'indirizzo del destinatario inserito nel campo _recipients.physicalAddress_ con invio di raccomandata del tipo valorizzato in _physicalCommunicationType_
 
 ### Cos'è il codice di tassonomia(taxonomyCode)?
 
-Il codice di tassonomia(taxonomyCode) viene utilizzato per definire la tipologia di atto ed è definito nell'_allegato 2 capitolo C_ del bando: [AVVISO PUBBLICO MISURA 1.4.5 PIATTAFORMA NOTIFICHE DIGITALI](https://pnrrcomuni.fondazioneifel.it/bandi\_public/Bando/325)
+Il codice di tassonomia(taxonomyCode) viene utilizzato per definire la tipologia di atto ed è definito nell'_allegato 2 capitolo C_ del bando: [AVVISO PUBBLICO MISURA 1.4.5 PIATTAFORMA NOTIFICHE DIGITALI](https://pnrrcomuni.fondazioneifel.it/bandi_public/Bando/325)
 
 ### Come si individua il domicilio del destinatario di una notifica in base alla tipologia del destinatario (PF e PG)?
 
@@ -109,7 +109,7 @@ Esistono varie casistiche che generano l’errore descritto; le più frequenti s
 1. In _uploadAllegati_ si è utilizzato uno sha256 diverso da quello utilizzato in _presignedUploadRequest_.
 2. In _uploadAllegati_ è stato inserito uno sha256 che non corrisponde al documento che si desidera effettivamente inviare.
 3. Lo sha256 è corretto in _presignedUploadRequest_ e coincidente con quello caricato in _uploadAllegati_, ma il secret errato.
-4. Se si utilizza Postman assicurarsi che gli header siano valorizzati correttamente e che il documento che si sta caricando sia effettivamente quello dal quale è stato generato lo Sha256(a volte è necessario rimuovere e ricaricare il file dalla scheda di Postman affinchè venga recepito)&#x20;
+4. Se si utilizza Postman assicurarsi che gli header siano valorizzati correttamente e che il documento che si sta caricando sia effettivamente quello dal quale è stato generato lo Sha256(a volte è necessario rimuovere e ricaricare il file dalla scheda di Postman affinchè venga recepito)
 5. Assicurarsi che gli header siano valorizzati correttamente ed inseriti nel giusto ordine (vedi 1.b del [Ciclo di vita della notifica lato mittente](https://petstore.swagger.io/?url=https%3A%2F%2Fraw.githubusercontent.com%2Fpagopa%2Fpn-delivery%2Fdevelop%2Fdocs%2Fopenapi%2Fapi-external-b2b-pa.yaml))
 
 ### Cosa fare quando si invoca il servizio di upload di un documento, passando x-amz-checksum-sha256 del file, si ottiene il seguente errore: `Value for x-amz-checksum-sha256 header is invalid`
@@ -141,21 +141,21 @@ Il comando restituisce la codifica base64 della rappresentazione binaria di sha2
 
 ### Come posso simulare l'upload di un documento su S3?
 
-Aprire la shell di Git Bash o un terminal SSH ed eseguire il comando_:_
+Aprire la shell di Git Bash o un terminal SSH ed eseguire il comando\_:\_
 
 `curl -X<httpMethod> \`\
 `-H"Content-type: application/pdf" \`\
 `-H"x-amz-meta-secret: <secret>" \`\
 `-H"trailer: x-amz-checksum-sha256" \`\
 `-H"x-amz-checksum-sha256: <checkSum>" \`\
-`--data-binary "@<filePath>"  \`\
+`--data-binary "@<filePath>" \`\
 `"<url>"`
 
 **`<httpMethod>`**: è il metodo http (PUT o POST) indicato nella response della preload, da utilizzare per questa chiamata\
-**`<secret>`**: è il secret ottenuto nella response della preload\
-**`<checksum>`**: è il checksum sha256, codificato in base 64, del contenuto binario del file da caricare\
-**`<file>`**: è il path del file da caricare\
-**`<url>`**: è l'url del bucket S3 ottenuto nella response della preload, sul quale effettuare l'upload del documento\
+&#xNAN;**`<secret>`**: è il secret ottenuto nella response della preload\
+&#xNAN;**`<checksum>`**: è il checksum sha256, codificato in base 64, del contenuto binario del file da caricare\
+&#xNAN;**`<file>`**: è il path del file da caricare\
+&#xNAN;**`<url>`**: è l'url del bucket S3 ottenuto nella response della preload, sul quale effettuare l'upload del documento\
 **NOTA:** l'header `-H"trailer: x-amz-checksum-sha256"` è non obbligatorio ai fini del buon esito della chiamata, per tanto può essere omesso qualora si riscontrassero problemi durante questa fase; inoltre si evidenzia che in questa chiamata **NON** deve essere inserito l'Autorization Header `"Authorization: Bearer <PDNDVoucher>`con il Vocuher.
 
 ### Quanto tempo ho per scaricare le Attestazioni Opponibili a Terzi?
@@ -196,7 +196,7 @@ Se si utilizza un client Java, può capitare che pur non effettuando il set di u
 
 * configurare l’ObjectMapper per far sì che includa solamente i campi NON\_NULL con la seguente configurazione: _mapper.setSerializationInclusion(Include.NON\_NULL);_
 * se si utilizza la libreria Jackson per la serializzazione delle request, è possibile aggiungere questa annotation a livello di Classe:\
-  _@com.fasterxml.jackson.annotation.JsonInclude(com.fasterxml.jackson.annotation.JsonInclude.Include.NON\_NULL)_
+  &#xNAN;_@com.fasterxml.jackson.annotation.JsonInclude(com.fasterxml.jackson.annotation.JsonInclude.Include.NON\_NULL)_
 
 ### Posso riutilizzare lo stesso IUV di una notifica rifiutata?
 
@@ -212,7 +212,7 @@ E' possibile inserire una Multa per violazione del Codice della Strada su Piatta
 
 1. NewNotificationRequest.recipients.payment.**noticeCode:** col numero avviso corrispondente al prezzo ridotto; questo verrà visualizzato in Piattaforma nella sezione di pagamento online con l'importo corrispondente entro 5 giorni dalla data di perfezionamento della notifica.
 2. NewNotificationRequest.recipients.payment.**noticeCodeAlternative:** col numero avviso corrispondente al prezzo intero; questo verrà visualizzato in Piattaforma nella sezione di pagamento online con l'importo corrispondente tra i 5 ed i 60 giorni dalla data di perfezionamento della notifica.
-3. il bollettino di pagamento può essere caricato nel campo NewNotificationRequest.recipients.payment.**pagoPaForm** se è contenuto in un file diverso da quello dell'atto e sarà scaricabile dal destinatario nella sezione "_Scarica l'avviso PagoPA"_. \
+3. il bollettino di pagamento può essere caricato nel campo NewNotificationRequest.recipients.payment.**pagoPaForm** se è contenuto in un file diverso da quello dell'atto e sarà scaricabile dal destinatario nella sezione "_Scarica l'avviso PagoPA"_.\
    Se invece questo è già presente nello stesso pdf contenente l'atto, potrà essere caricato come unico pdf all'interno del campo NewNotificationRequest.**documents** e sarà scaricabile dal destinatario unitamente all'atto nella sezione "_DOCUMENTI ALLEGATI"_
 
 ### Quali sono i passaggi per visualizzare la funzione di pagamento online?
@@ -232,11 +232,11 @@ In ambiente di collaudo UAT, è possibile testare questo caso inserendo una noti
 
 A questo punto bisogna entrare nel portale lato cittadino, accedere al dettaglio della notifica appena inviata ed apparirà la voce _Paga XXX_ per pagare online come in foto.
 
-![](<../.gitbook/assets/image (8).png>)
+![](<../../send/knowledge-base/v2.0/.gitbook/assets/image (8) (1).png>)
 
 Se invece la PA Mittente ha inserito il bollettino di pagamento separatamente dall'atto, all'interno del campo NewNotificationRequest.recipients.payment.**pagoPaForm,** entrando nel portale lato cittadino ed accedendo al dettaglio della notifica appena inviata, apparirà la voce _Paga XXX_ per pagare online e _Scarica l'avviso PagoPA_ per scaricare il bollettino di pagamento come in foto.
 
-<img src="../.gitbook/assets/image (46).png" alt="" data-size="original">
+<img src="../../send/knowledge-base/v2.0/.gitbook/assets/image (46).png" alt="" data-size="original">
 
 ### Come si può testare la correttezza del Codici Fiscale?
 
@@ -276,7 +276,7 @@ l'API [NotificazionPrice](https://petstore.swagger.io/?url=https%3A%2F%2Fraw.git
 * € 1 (per PND) se il _notificationFeePolicy=DELIVERY\_MODE_ e la notifica NON ha comportato invio cartaceo
 * € 1 (per PND) se il _notificationFeePolicy=DELIVERY\_MODE_ + X € costo dell'invio cartacea\
   **NOTA:** il costo X dell'invio cartaceo dipende dai tabellari dei prezzi di aggiudicazione delle gare pubbliche di recapito, visibili qui:\
-  [https://pagopa.portaleamministrazionetrasparente.it/moduli/downloadFile.php?file=oggetto\_allegati/23501547570O\_\_OPREZZI+DI+AGGIUDICAZIONE+GARA+SERVIZI+POSTALI+E+SERVIZI+%26%238220%3BA+VALLE%26%238221%3B+DEL+RECAPITO.docx.pdf](https://pagopa.portaleamministrazionetrasparente.it/moduli/downloadFile.php?file=oggetto\_allegati/23501547570O\_\_OPREZZI+DI+AGGIUDICAZIONE+GARA+SERVIZI+POSTALI+E+SERVIZI+%26%238220%3BA+VALLE%26%238221%3B+DEL+RECAPITO.docx.pdf)
+  [https://pagopa.portaleamministrazionetrasparente.it/moduli/downloadFile.php?file=oggetto\_allegati/23501547570O\_\_OPREZZI+DI+AGGIUDICAZIONE+GARA+SERVIZI+POSTALI+E+SERVIZI+%26%238220%3BA+VALLE%26%238221%3B+DEL+RECAPITO.docx.pdf](https://pagopa.portaleamministrazionetrasparente.it/moduli/downloadFile.php?file=oggetto_allegati/23501547570O__OPREZZI+DI+AGGIUDICAZIONE+GARA+SERVIZI+POSTALI+E+SERVIZI+%26%238220%3BA+VALLE%26%238221%3B+DEL+RECAPITO.docx.pdf)
 
 A questo punto la PA mittente può decidere a sua discrezione se addebitare al destinatario anche €1 previsti dalla legge a copertura dei costi sostenuti dalla PA stessa.
 
@@ -297,9 +297,8 @@ PND fatturerà alla PA mittente, nei termini previsti dal contratto di adesione,
 
 ### Cosa rappresenta lo status "Unreachable"?
 
-Lo status **"Unreachable"** rappresenta il caso nel quale la piattaforma non è riuscita a raggiungere il destinatario; questo vale anche nei casi in cui la postalizzazione ha avuto luogo ma il destinatario è risultato irreperibile all'indirizzo noto. \
-In questi casi si applicano le spese di notifica sostenute e l'atto depositato è considerato notificato.\
-
+Lo status **"Unreachable"** rappresenta il caso nel quale la piattaforma non è riuscita a raggiungere il destinatario; questo vale anche nei casi in cui la postalizzazione ha avuto luogo ma il destinatario è risultato irreperibile all'indirizzo noto.\
+In questi casi si applicano le spese di notifica sostenute e l'atto depositato è considerato notificato.\\
 
 ### Quando invio la notifica ricevo un'errore sulla lunghezza dei campi dell'address, come procedo?
 

@@ -16,10 +16,10 @@ L'annullamento della notifica può essere effettuata da via B2B o via portale mi
 
 Per supportare questa funzionalità sono state effettuati i seguenti interventi sulla API:
 
-* Aggiunta l'operation _`notificationCancellation`_ \
-  _<mark style="color:red;">PUT /delivery-push/v2.0/notifications/cancel/{iun}</mark>_: Permette l'annullamento di una notifica immettendo lo IUN nel path, restituendo una presa in carico, il processo di annullamento si completa poi in maniera asincrona.
+* Aggiunta l'operation _`notificationCancellation`_\
+  &#xNAN;_<mark style="color:red;">PUT /delivery-push/v2.0/notifications/cancel/{iun}</mark>_: Permette l'annullamento di una notifica immettendo lo IUN nel path, restituendo una presa in carico, il processo di annullamento si completa poi in maniera asincrona.
 * Nuova versione dell'operation _`retrieveSentNotificationV20`_\
-  _<mark style="color:red;">GET /delivery/v2.0/notifications/sent/{iun}:</mark>_ permette di visualizzare le specifiche della notifica inserendo lo IUN anche delle notifiche annullate con i dettagli di stato e di eventi relativi l'annullamento.
+  &#xNAN;_<mark style="color:red;">GET /delivery/v2.0/notifications/sent/{iun}:</mark>_ permette di visualizzare le specifiche della notifica inserendo lo IUN anche delle notifiche annullate con i dettagli di stato e di eventi relativi l'annullamento.
 * Aggiunti eventi di timeline collegati all'annullamento della notifica:
   * \`<mark style="color:red;">NOTIFICATION\_CANCELLATION\_REQUEST</mark>\` - Richiesta di annullamento di una notifica
   * \`<mark style="color:red;">NOTIFICATION\_CANCELLED</mark>\` - Notifica annullata
@@ -34,10 +34,10 @@ Aggiunto elemento nuovo di timeline <mark style="color:red;">PREPARE\_ANALOG\_DO
 
 ## Modifiche agli stream di stato e degli eventi di timeline
 
-Questa versione introduce&#x20;
+Questa versione introduce
 
 * lo stato <mark style="color:red;">CANCELLED</mark>
-* gli elementi di timeline&#x20;
+* gli elementi di timeline
   * <mark style="color:red;">NOTIFICATION\_CANCELLATION\_REQUEST</mark>
   * <mark style="color:red;">NOTIFICATION\_CANCELLED</mark>
   * <mark style="color:red;">PREPARE\_ANALOG\_DOMICILE\_FAILURE</mark>
