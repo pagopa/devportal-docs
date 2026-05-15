@@ -23,9 +23,9 @@ Esistono, invece, 2 configurazioni possibili (mutuamente esclusive) per l’EC r
 * SOAP (Web Service)
 * SFTP
 
-![](<../../.gitbook/assets/image (29).png>)
+![](<../../../pago-pa/sanp/3.5.0/.gitbook/assets/image (1).png>)
 
-![](<../../.gitbook/assets/image (3).png>)
+![](<../../../pago-pa/sanp/3.5.0/.gitbook/assets/image (3).png>)
 
 Per quanto riguarda la [nodoChiediElencoFlussiRendicontazione](../../appendici/primitive.md#nodochiedielencoflussirendicontazione) la piattaforma risponderà in maniera indipendente dalla configurazione dell'EC (SOAP o SFTP), in entrambi i casi infatti la piattaforma risponderà con un elenco di FdR. L’utilizzo della primitiva in caso di configurazione SFTP è opzionale e un possibile motivo per l’utilizzo riguarda finalità statistiche.
 
@@ -74,14 +74,14 @@ Di seguito un esempio di xml del Flusso di Rendicontazione contenuto nel tag _xm
 
 ## Gestione sovrascritture Flussi di Rendicontazione <a href="#title-text" id="title-text"></a>
 
-Un PSP ha la possibilità di mandare più flussi allo stesso EC tramite la primitiva [nodoInviaFlussoRendicontazione](../../appendici/primitive.md#nodoinviaflussorendicontazione) con lo stesso _identificativoFlusso_ ma con _dataOraFlusso_ differente. Questa opzione permette al PSP di **sovrascrivere** un flusso già inviato, in caso un flusso già inviato necessitasse di correzioni.&#x20;
+Un PSP ha la possibilità di mandare più flussi allo stesso EC tramite la primitiva [nodoInviaFlussoRendicontazione](../../appendici/primitive.md#nodoinviaflussorendicontazione) con lo stesso _identificativoFlusso_ ma con _dataOraFlusso_ differente. Questa opzione permette al PSP di **sovrascrivere** un flusso già inviato, in caso un flusso già inviato necessitasse di correzioni.
 
 Si ricorda, inoltre, l'_identificativoFlusso_ deve essere univoco nell’ambito dell’anno di riferimento delle operazioni di pagamento cui si riferisce il flusso, di conseguenza lo stesso _identificativoFlusso_ può essere usato più di una volta nel corso dello stesso anno solo nel caso di invio di un flusso di sovrascrittura.
 
 **Esempio:**
 
-* Flusso **errato** _identificativoFlusso_ **=** abc**,** _dataOraFlusso_ **=** 2019-01-01T10:00:00
-* Flusso **corretto** _identificativoFlusso_ **=** abc**,** _dataOraFlusso_ **=** 2019-01-01T14:00:00
+* Flusso **errato** _identificativoFlusso_ **=** abc\*\*,\*\* _dataOraFlusso_ **=** 2019-01-01T10:00:00
+* Flusso **corretto** _identificativoFlusso_ **=** abc\*\*,\*\* _dataOraFlusso_ **=** 2019-01-01T14:00:00
 
 Un PSP una volta inviato un flusso con un determinato _identificativoFlusso_, per sovrascriverlo deve inviare un flusso con lo stesso _identificativoFlusso_ ma con _dataOraFlusso_ **superiore** a quella inviata in precedenza.
 
@@ -92,14 +92,14 @@ Il flusso di sovrascrittura è ritenuto valido se inviato entro, e non oltre, le
 Nei seguenti due esempi sono mostrati i comportamenti del Nodo dei pagamenti in caso di due invii successivi:
 
 * Esempio 1
-  * **Invio 1**: _identificativoFlusso_ **=** abc**,** _dataOraFlusso_ **=** 2019-01-01T**10**:00:00
-  * **Invio 2**: _identificativoFlusso_ **=** abc**,** _dataOraFlusso_ **=** 2019-01-01T**14**:00:00
+  * **Invio 1**: _identificativoFlusso_ **=** abc\*\*,\*\* _dataOraFlusso_ **=** 2019-01-01T**10**:00:00
+  * **Invio 2**: _identificativoFlusso_ **=** abc\*\*,\*\* _dataOraFlusso_ **=** 2019-01-01T**14**:00:00
 
 Al secondo invio, il nodo accetterà il flusso di rendicontazione.
 
 * Esempio 2
-  * **Invio 1**: _identificativoFlusso_ **=** abc**,** _dataOraFlusso_ **=** 2019-01-01T**10**:00:00,
-  * **Invio 2**: _identificativoFlusso_ **=** abc**,** _dataOraFlusso_ **=** 2019-01-01T**07**:00:00
+  * **Invio 1**: _identificativoFlusso_ **=** abc\*\*,\*\* _dataOraFlusso_ **=** 2019-01-01T**10**:00:00,
+  * **Invio 2**: _identificativoFlusso_ **=** abc\*\*,\*\* _dataOraFlusso_ **=** 2019-01-01T**07**:00:00
 
 Al secondo invio il Nodo rifiuterà il flusso di rendicontazione (lo stesso accadrebbe anche se la seconda dataTora fosse identica alla prima).
 
@@ -109,7 +109,7 @@ Al secondo invio il Nodo rifiuterà il flusso di rendicontazione (lo stesso acc
 
 Quando l’EC richiede l'elenco dei flussi ([nodoChiediElencoFlussiRendicontazione](../../appendici/primitive.md#nodochiedielencoflussirendicontazione)) il Nodo dei pagamenti deve rispondere, per un determinato _identificativoFlusso_, con il flusso più recente a disposizione, in riferimento al precedente esempio 1 e supponendo che la richiesta avvenga dopo la ricezione del secondo flusso da parte del nodo:
 
-* _identificativoFlusso_ **=** abc**,** _dataOraFlusso_ **=** 2019-01-01T**14**:00:00
+* _identificativoFlusso_ **=** abc\*\*,\*\* _dataOraFlusso_ **=** 2019-01-01T**14**:00:00
 
 Ad ogni richiesta vengono restituiti gli elenchi dei flussi secondo la seguente logica sui parametri di input opzionali eventualmente inseriti nella _request_:
 
@@ -124,7 +124,7 @@ Attualmente il Nodo non tiene traccia dei flussi già scaricati dall’EC, per q
 
 Per una corretta gestione l'EC deve verificare ed eventualmente gestire il contenuto associato ad ogni singolo _identificativoFlusso_ inviato fino alla quarta giornata lavorativa (D+4) successiva alla ricezione dell’ordine di pagamento.
 
-![](../../.gitbook/assets/fdr\_sovrascittura.png)
+![](../../../pago-pa/sanp/3.5.0/.gitbook/assets/fdr_sovrascittura.png)
 
 Non esistendo lato EC possibilità di filtrare, né temporalmente, né quantitativamente gli elementi restituiti, è stata definita una proprietà della piattaforma che permette di limitare l'intervallo temporale su cui basarsi per rispondere alla chiamata, la proprietà è unica per tutta la piattaforma e attualmente è impostata a 30 giorni.
 
@@ -137,7 +137,7 @@ Il Nodo deve rispondere coerentemente con quanto dichiarato nella primitiva prec
 
 ## Nuove primitive flussi di rendicontazione <a href="#richiesta-flussi-di-rendicontazione-da-parte-dellente-creditore" id="richiesta-flussi-di-rendicontazione-da-parte-dellente-creditore"></a>
 
-PagoPA metterà a disposizione degli EC/PSP delle nuove primitive per la gestione di download/upload dei FdR.&#x20;
+PagoPA metterà a disposizione degli EC/PSP delle nuove primitive per la gestione di download/upload dei FdR.
 
 L'introduzione dei nuovi servizi ha l’obiettivo di ottimizzare l’attuale flusso logico, gestendo in maniera ottimale tutte le fasi di gestione dei FdR, anche di dimensioni elevate.
 
@@ -145,7 +145,7 @@ Gli EC ed i PSP potranno adeguare le chiamate alle primitive messe a disposizion
 
 Si riporta di seguito il disegno del nuovo processo:
 
-<figure><img src="../../.gitbook/assets/flussi fdr.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../pago-pa/sanp/3.5.0/.gitbook/assets/flussi fdr.png" alt=""><figcaption></figcaption></figure>
 
 Il nuovo processo prevede l'introduzione di tre nuove funzioni, descritte nei paragrafi seguenti.
 
@@ -155,37 +155,37 @@ Gli esempi delle chiamate sono consultabili nella sezione Primitive - Nuove prim
 
 La nuova modalità di invio dei flussi introduce la possibilità di spezzettare un flusso di grandi dimensioni, in tanti piccoli pacchetti.
 
-I PSP, che intendono caricare un flusso di rendicontazione, effettuano una prima chiamata con la _signature_:&#x20;
+I PSP, che intendono caricare un flusso di rendicontazione, effettuano una prima chiamata con la _signature_:
 
-&#x20;`POST`` `**`/psps/{psps}/flows/{fdr}`**&#x20;
+` POST`` `` `**`/psps/{psps}/flows/{fdr}`**
 
 Al termine della chiamata il nodo dei pagamenti è pronto a ricevere tutti i pacchetti che andranno a comporre l'intero flusso.
 
-L'aggiunta dei pacchetti avviene tramite la chiamata client con la _signature_:&#x20;
+L'aggiunta dei pacchetti avviene tramite la chiamata client con la _signature_:
 
-&#x20; `PUT`` `**`/psps/{psps}/flows/{fdr}/payment-add`**
+` PUT`` `` `**`/psps/{psps}/flows/{fdr}/payment-add`**
 
-La chiamata può essere ripetuta tante volte fino all'invio dell'ultimo pacchetto che compone il flusso di Rendicontazione.&#x20;
+La chiamata può essere ripetuta tante volte fino all'invio dell'ultimo pacchetto che compone il flusso di Rendicontazione.
 
 Può essere utilizzata la chiamata con la _signature_:
 
-`PUT`` `**`/psps/{psps}/flows/{fdr}/payment-del`**&#x20;
+` PUT`` `` `**`/psps/{psps}/flows/{fdr}/payment-del`**
 
 Per cancellare un pacchetto erroneamente caricato.
 
 Quando tutti i pacchetti sono stati caricati, può essere publicato il flusso tramite la chiamata con _signature_:
 
-&#x20;`POST`` `**`/psps/{psps}/flows/{fdr}/publish`**
+` POST`` `` `**`/psps/{psps}/flows/{fdr}/publish`**
 
 Oppure si può decidere di eliminare i pacchetti inseriti tramite la chiamata con _signature_:
 
-`DELETE`` `**`/psps/{psps}/flows/{fdr}`**
+` DELETE`` `` `**`/psps/{psps}/flows/{fdr}`**
 
 ### Chiedi Elenco flussi da EC <a href="#singolo-flusso" id="singolo-flusso"></a>
 
 L'EC che intende scaricarsi l'elenco dei flussi di rendicontazione non ancora scaricati, può effettuarlo tramite _signature_:
 
-`GET`` `**`/organizations/{ec}/flows`**
+` GET`` `` `**`/organizations/{ec}/flows`**
 
 La primitiva restituisce i flussi secondo le logiche descritte nel paragrafo [Elenco Flussi](rendicontazione-e-cashflow.md#elenco-flussi)**.**
 
@@ -193,11 +193,10 @@ La primitiva restituisce i flussi secondo le logiche descritte nel paragrafo [El
 
 L’EC, che intende richiedere un flusso contenuto nell'elenco dei flussi, può utilizzare la chiamata con _signature_:
 
-`GET`` `**`/organizations/{ec}/flows/{fdr}/psps/{psp}`**
+` GET`` `` `**`/organizations/{ec}/flows/{fdr}/psps/{psp}`**
 
 Se il flusso richiesto è di grandi dimensioni può essere scaricato tramite la _signature_:
 
-`GET`` `**`/organizations/{ec}/flows/{fdr}/psps/{psp}/payments`**&#x20;
+` GET`` `` `**`/organizations/{ec}/flows/{fdr}/psps/{psp}/payments`**
 
 che recupera tutti i pagamenti del flow paginati.
-

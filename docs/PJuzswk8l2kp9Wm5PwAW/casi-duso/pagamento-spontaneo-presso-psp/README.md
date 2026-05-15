@@ -4,11 +4,7 @@ Questo processo prevede che l’esecuzione del pagamento spontaneo avvenga press
 
 Solitamente l'utente dopo aver inserito i dati essenziali del servizio, utili per definire la posizione debitoria, potrà procedere con il pagamento.
 
-<div align="left">
-
-<img src="../../.gitbook/assets/nuovoModello4_ENG (5).png" alt="">
-
-</div>
+<div align="left"><img src="../../../pago-pa/sanp/3.5.0/.gitbook/assets/nuovo_modello_ENG.png" alt=""></div>
 
 * La [demandPaymentNotice](../../appendici/primitive.md#demandpaymentnotice) è utilizzabile dai PSP per inviare i dati del servizio specifico inseriti dall'utente, in modo da ricevere in risposta le informazioni per avviare il processo di pagamento, tale fase è obbligatoria per i PSP;
 * la [paDemandPaymentNotice](../../appendici/primitive.md#pademandpaymentnotice) è utilizzata per richiedere all’EC la creazione della posizione debitoria in base ai dati dello specifico servizio inviati, l'EC invierà in risposta il numero avviso e i dati dell'Ente Beneficiario del pagamento;
@@ -18,7 +14,7 @@ Solitamente l'utente dopo aver inserito i dati essenziali del servizio, utili pe
 * tramite la primitiva [paSendRT](../../appendici/primitive.md#pasendrt) viene inoltrata agli _n_ EC interessati al pagamento la _receipt_ (ricevuta) solo se il pagamento è stato effettuato, la _receipt_ è un oggetto generato dalla piattaforma pagoPA;
 * quando l'EC riceve la _receipt_ deve chiudere la posizione debitoria e considerarla interamente saldata.
 
-Per la gestione degli errori fare riferimento a [Gestione degli errori](http://127.0.0.1:5000/o/KXYtsf32WSKm6ga638R3/s/mU2qgiLV1G3m9z1VjAOc/ "mention").
+Per la gestione degli errori fare riferimento a [http://127.0.0.1:5000/o/KXYtsf32WSKm6ga638R3/s/mU2qgiLV1G3m9z1VjAOc/](http://127.0.0.1:5000/o/KXYtsf32WSKm6ga638R3/s/mU2qgiLV1G3m9z1VjAOc/ "mention").
 
 {% content-ref url="catalogo-dei-servizi.md" %}
 [catalogo-dei-servizi.md](catalogo-dei-servizi.md)

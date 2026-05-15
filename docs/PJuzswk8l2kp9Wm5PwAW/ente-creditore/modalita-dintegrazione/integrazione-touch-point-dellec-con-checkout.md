@@ -1,16 +1,16 @@
 # Integrazione touch point dell’EC con Checkout
 
-Nel caso di [pagamento-presso-frontend-dellec.md](../../casi-duso/pagamento-presso-frontend-dellec.md "mention") l'integrazione con la piattaforma pagoPA  avviene per mezzo di Checkout, un’applicazione web che consente ad ogni utente la navigazione degli strumenti di pagamento resi disponibili dai PSP aderenti alla piattaforma pagoPA.
+Nel caso di [pagamento-presso-frontend-dellec.md](../../casi-duso/pagamento-presso-frontend-dellec.md "mention") l'integrazione con la piattaforma pagoPA avviene per mezzo di Checkout, un’applicazione web che consente ad ogni utente la navigazione degli strumenti di pagamento resi disponibili dai PSP aderenti alla piattaforma pagoPA.
 
 La navigazione del Checkout può avvenire solo in modalità Guest, viene richiesta una mail a cui inviare l’esito dell’operazione.
 
-![](<../../.gitbook/assets/nuovo\_modello1\_carrello\_V3\_SANP\_EC (2).png>)
+![](../../../pago-pa/sanp/3.5.0/.gitbook/assets/nuovo_modello1_carrello_V3_SANP_EC.png)
 
-## Parametri della redirect <a href="#_om57nyt5rga1" id="_om57nyt5rga1"></a>
+## Parametri della redirect <a href="#om57nyt5rga1" id="om57nyt5rga1"></a>
 
-L'integrazione con Checkout è attivata per mezzo di una redirect innescata tramite una chiamata   [POST](../../appendici/primitive.md#ec-checkout-api)  specificando i seguenti parametri :&#x20;
+L'integrazione con Checkout è attivata per mezzo di una redirect innescata tramite una chiamata [POST](../../appendici/primitive.md#ec-checkout-api) specificando i seguenti parametri :
 
-* _emailNotice:_ indirizzo mail a cui inviare la ricevuta di pagamento, sarà possibile modificarlo durante il processo di  pagamen_to_&#x20;
+* _emailNotice:_ indirizzo mail a cui inviare la ricevuta di pagamento, sarà possibile modificarlo durante il processo di pagamen\_to\_
 * _idCart:_ identificativo del carrello attribuito dall'EC, il parametro viene inserito in fase di attivazione nel tag _paymentNote_ della [paGetPayment](../../appendici/primitive.md#pagetpayment)
 * _returnUrls_: indirizzi di ritorno sul sito dell'ente creditore
   * returnOkUrl: casi di successo
@@ -28,11 +28,11 @@ In risposta a tale chiamata, si ottiene un [HTTP Status 302](https://developer.m
 
 Terminata la sessione di pagamento l'utente viene riportato alla url indicata dall'EC in base all'esito del pagamento.
 
-## Selezione della Lingua <a href="#_om57nyt5rga1" id="_om57nyt5rga1"></a>
+## Selezione della Lingua <a href="#om57nyt5rga1" id="om57nyt5rga1"></a>
 
 Checkout verrà visualizzato nella lingua impostata all'interno del Browser dell'utente, nel caso di lingua non supportata verrà utilizzata la lingua italiana. In qualsiasi momento, l'utente potrà modificare la lingua.
 
-## Compatibilità Browser <a href="#_e7wxvqb4p73h" id="_e7wxvqb4p73h"></a>
+## Compatibilità Browser <a href="#e7wxvqb4p73h" id="e7wxvqb4p73h"></a>
 
 Lo sviluppo del Checkout segue le [linee guida di design per i servizi digitali della PA](https://docs.italia.it/italia/designers-italia/design-linee-guida-docs/it/stabile/index.html).
 
