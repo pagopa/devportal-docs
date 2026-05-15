@@ -16,7 +16,7 @@ Erogare il servizio "TARI" tramite IO permette agli enti di:
 
 ### **Ciclo di vita del servizio**
 
-<figure><img src="../../../../app-io/manuale-servizi/v1.1/.gitbook/assets/Template - SERVIZI-TARI.png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio TARI</strong></p></figcaption></figure>
+<figure><img src="../../../app-io/manuale-servizi/v1.1/.gitbook/assets/Template - SERVIZI-TARI.png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio TARI</strong></p></figcaption></figure>
 
 ### **Messaggi del servizio**
 
