@@ -38,6 +38,6 @@ L’ente aggregatore può operare **solo** per i servizi per cui ha ricevuto l�
 
 
 
-{% file src="../.gitbook/assets/Accordo di Adesione IO_v.2.4_31_marzo_2025.pdf" %}
+{% file src="../../app-io/io-guida-tecnica/v6.0/.gitbook/assets/Accordo di Adesione IO_v.2.4_31_marzo_2025.pdf" %}
 
 [^1]: _Esempio: una Regione aderisce a IO aggregando il rapporto di adesione per tutti gli enti locali del territorio di riferimento, mettendo a disposizione la società in-house regionale per gestire l’integrazione tecnologica di tutti gli enti locali._
