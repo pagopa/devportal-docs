@@ -22,7 +22,7 @@ Lo schema si fonda su un **"four-corner model"** (modello a quattro angoli), che
 * **Service Provider del Creditore**: Il partner tecnologico che aderisce allo schema e invia le richieste SRTP per conto del Creditore.
 * **Service Provider del Debitore**: Il partner tecnologico che aderisce allo schema, riceve le richieste SRTP e le presenta al Debitore sui propri canali.
 
-![Four Corner Model](../../../srtp/manuale-operativo-srtp/v1.1/.gitbook/assets/fourcornermodel.png)
+![Four Corner Model](../../srtp/manuale-operativo-srtp/v1.1/.gitbook/assets/fourcornermodel.png)
 
 ## **Principi di Funzionamento**
 
