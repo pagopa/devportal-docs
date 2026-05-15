@@ -6,7 +6,7 @@ description: >-
 
 # 🔢 Setup iniziale
 
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Sei un ente?</strong></td><td><a href="https://developer.pagopa.it/app-io/guides/io-guida-tecnica/setup-iniziale/adesione-tramite-larea-riservata">Aderisci tramite l'Area Riservata</a></td><td></td><td><a href="broken-reference">Broken link</a></td></tr><tr><td><strong>Sei un</strong> <a data-footnote-ref href="#user-content-fn-1"><strong>ente aggregatore</strong></a><strong>?</strong></td><td><ol><li>Scarica l'<a href="./#accordo-di-adesione">accordo di adesione</a></li><li>Compila i campi richiesti e firma l’accordo</li><li>Invialo via PEC a adesioni-io@pec.pagopa.it</li><li><a href="iscrizione-al-developer-portal.md">Iscriviti</a> al Developer Portal</li></ol></td><td></td><td></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Sei un ente?</strong></td><td><a href="https://developer.pagopa.it/app-io/guides/io-guida-tecnica/setup-iniziale/adesione-tramite-larea-riservata">Aderisci tramite l'Area Riservata</a></td><td></td><td><a href="/broken/pages/yhL4OKIPji8GzDYgcai1">Broken link</a></td></tr><tr><td><strong>Sei un</strong> <a data-footnote-ref href="#user-content-fn-1"><strong>ente aggregatore</strong></a><strong>?</strong></td><td><ol><li>Scarica l'<a href="./#accordo-di-adesione">accordo di adesione</a></li><li>Compila i campi richiesti e firma l’accordo</li><li>Invialo via PEC a adesioni-io@pec.pagopa.it</li><li><a href="iscrizione-al-developer-portal.md">Iscriviti</a> al Developer Portal</li></ol></td><td></td><td></td></tr></tbody></table>
 
 {% hint style="warning" %}
 Il Developer Portal sarà dismesso il 30 settembre 2025. Sarà possibile gestire i servizi in app IO da [Area Riservata](https://selfcare.io.pagopa.it/).&#x20;
@@ -28,7 +28,7 @@ Gli enti aggregatori devono elencare tutti gli enti che rappresentano ai fini de
 
 <mark style="color:red;">**Importante!**</mark>
 
-Qualora un ente volesse sottoscrivere autonomamente altri servizi (in aggiunta a quelli resi disponibili tramite l’ente aggregatore) dovrà seguire la procedura completa di onboarding sottoscrivendo l’accordo di adesione [tramite l'Area Riservata.](broken-reference).
+Qualora un ente volesse sottoscrivere autonomamente altri servizi (in aggiunta a quelli resi disponibili tramite l’ente aggregatore) dovrà seguire la procedura completa di onboarding sottoscrivendo l’accordo di adesione [tramite l'Area Riservata.](/broken/pages/yhL4OKIPji8GzDYgcai1).
 
 L’ente aggregatore può operare **solo** per i servizi per cui ha ricevuto l’incarico dall’ente aggregato, ma **non può** sostituirsi all’ente rispetto ai servizi per cui non ha ricevuto mandato.
 
@@ -36,6 +36,6 @@ L’ente aggregatore può operare **solo** per i servizi per cui ha ricevuto l�
 
 #### Accordo di Adesione
 
-{% file src="../.gitbook/assets/Accordo di Adesione IO_v.2.5_30_giugno_2025.pdf" %}
+{% file src="../../../app-io/io-guida-tecnica/v7.1/.gitbook/assets/Accordo di Adesione IO_v.2.5_30_giugno_2025.pdf" %}
 
 [^1]: _Esempio: una Regione aderisce a IO aggregando il rapporto di adesione per tutti gli enti locali del territorio di riferimento, mettendo a disposizione la società in-house regionale per gestire l’integrazione tecnologica di tutti gli enti locali._

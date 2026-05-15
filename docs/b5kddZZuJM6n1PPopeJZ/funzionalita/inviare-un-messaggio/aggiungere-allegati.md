@@ -8,7 +8,7 @@ Questa funzionalità è riservata agli enti che hanno sottoscritto il [programma
 
 Sono documenti in formato PDF, mostrati in calce al contenuto del messaggio. Questi allegati vengono recuperati dai sistemi dell'ente mittente **ogni volta** che l'utente accede alla risorsa nell'app IO.
 
-<figure><img src="../../.gitbook/assets/Allegati.png" alt="Esempio di come un utente può visualizzare un messaggio che contiene un allegato."><figcaption><p>Quando l'utente apre un messaggio vengono recuperati, oltre ai metadati del contenuto del messaggio, anche quelli relativi ai metadati (endpoint 1). Il recupero del file vero e proprio avviene tramite l'endpoint 2, ovvero con una GET all'indirizzo <code>{baseUrl}/messages/{id}/{url}</code></p></figcaption></figure>
+<figure><img src="../../../../app-io/io-guida-tecnica/v7.1/.gitbook/assets/Allegati.png" alt="Esempio di come un utente può visualizzare un messaggio che contiene un allegato."><figcaption><p>Quando l'utente apre un messaggio vengono recuperati, oltre ai metadati del contenuto del messaggio, anche quelli relativi ai metadati (endpoint 1). Il recupero del file vero e proprio avviene tramite l'endpoint 2, ovvero con una GET all'indirizzo <code>{baseUrl}/messages/{id}/{url}</code></p></figcaption></figure>
 
 {% hint style="warning" %}
 Per garantire l'accessibilità e la sicurezza dei documenti, _devi_ utilizzare allegati in formato **PDF/A-2a:** assicurati di rispettare tale specifica.
@@ -46,7 +46,7 @@ Includi il blocco [#third\_party\_data](../../api-e-specifiche/api-messaggi/subm
 
 <details>
 
-<summary><mark style="color:blue;">Step 4</mark> - Specifica il valore <code>TRUE</code> nel campo <a data-mention href="../../api-e-specifiche/api-messaggi/submit-a-message-passing-the-user-fiscal_code-in-the-request-body.md#has_attachments">#has_attachments</a> </summary>
+<summary><mark style="color:blue;">Step 4</mark> - Specifica il valore <code>TRUE</code> nel campo <a data-mention href="../../api-e-specifiche/api-messaggi/submit-a-message-passing-the-user-fiscal_code-in-the-request-body.md#has_attachments">#has_attachments</a></summary>
 
 Specifica il valore `true` nel campo [#has\_attachments](../../api-e-specifiche/api-messaggi/submit-a-message-passing-the-user-fiscal_code-in-the-request-body.md#has_attachments "mention") presente nel blocco [#third\_party\_data](../../api-e-specifiche/api-messaggi/submit-a-message-passing-the-user-fiscal_code-in-the-request-body.md#third_party_data "mention").
 
@@ -54,7 +54,7 @@ Specifica il valore `true` nel campo [#has\_attachments](../../api-e-specifiche/
 
 <details>
 
-<summary><mark style="color:blue;">Step 5</mark> - Specifica il valore <code>ADVANCED</code> nel campo <a data-mention href="../../api-e-specifiche/api-messaggi/submit-a-message-passing-the-user-fiscal_code-in-the-request-body.md#feature_level_type">#feature_level_type</a> </summary>
+<summary><mark style="color:blue;">Step 5</mark> - Specifica il valore <code>ADVANCED</code> nel campo <a data-mention href="../../api-e-specifiche/api-messaggi/submit-a-message-passing-the-user-fiscal_code-in-the-request-body.md#feature_level_type">#feature_level_type</a></summary>
 
 Specifica il valore `ADVANCED` nel campo [#feature\_level\_type](../../api-e-specifiche/api-messaggi/submit-a-message-passing-the-user-fiscal_code-in-the-request-body.md#feature_level_type "mention") presente nella request.
 
