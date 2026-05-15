@@ -2,7 +2,7 @@
 
 I messaggi che veicolano un pagamento sono messaggi che contengono un **avviso di pagamento** e che danno all'utente la possibilità di pagarlo all'interno dell'app tramite il pulsante "Vedi Avviso".
 
-<figure><img src="../../../.gitbook/assets/image (12).png" alt=""><figcaption><p>Esempio di messaggio che veicola un pagamento</p></figcaption></figure>
+<figure><img src="../../../../app-io/manuale-servizi/v2.5/.gitbook/assets/image (12).png" alt=""><figcaption><p>Esempio di messaggio che veicola un pagamento</p></figcaption></figure>
 
 Questi messaggi devono:
 
@@ -49,22 +49,18 @@ Questi messaggi devono:
 **`Messaggio`**\
 `Avviso di pagamento Numero 12345678912345678`\
 `Intestatario Maria Rossi`\
-`Importo xxx,yy €`\
+`Importo xxx,yy €`\\
 
-
-**`Causale`**` ``PAGAMENTO TARI NR 112211221122`\
-
+**`Causale`**` `` ``PAGAMENTO TARI NR 112211221122 `\\
 
 **`Scadenza`**`: gg/mm/aa`\
-`Puoi pagare direttamente in app premendo Paga, oppure tramite tutti i canali di pagamento del circuito PagoPA. Per ulteriori informazioni visualizza la scheda del servizio al link sottostante.`&#x20;
+`Puoi pagare direttamente in app premendo Paga, oppure tramite tutti i canali di pagamento del circuito PagoPA. Per ulteriori informazioni visualizza la scheda del servizio al link sottostante.`
 
 `[Vedi Avviso]`
 
-
-
 **In questo caso, il messaggio:**
 
-❌  il titolo del messaggio non è corretto, poiché riporta il nome dell'ente che lo invia e non l'oggetto del messaggio;
+❌ il titolo del messaggio non è corretto, poiché riporta il nome dell'ente che lo invia e non l'oggetto del messaggio;
 
 ❌ non è discorsivo;
 
@@ -78,17 +74,17 @@ Questi messaggi devono:
 
 ### Importi massimi per i pagamenti con IO
 
-Al momento, i metodi di pagamento registrabili in app consentono ai cittadini di pagare **importi massimi che variano a seconda del tipo di metodo**.&#x20;
+Al momento, i metodi di pagamento registrabili in app consentono ai cittadini di pagare **importi massimi che variano a seconda del tipo di metodo**.
 
 Il metodo che garantisce di pagare l'importo più alto, ovvero 9.000 €, è American Express. Le carte dei circuiti Visa e Mastercard possono arrivare a 6.000 € se l'utente sceglie Nexi come prestatore di servizi di pagamento (PSP), ma vanno considerati anche i massimali delle carte impostate dalle banche. Questi parametri possono subire modifiche nel corso del tempo.
 
 {% hint style="info" %}
-**Un esempio di importi massimi**&#x20;
+**Un esempio di importi massimi**
 
 Una cittadina riceve un avviso di pagamento di importo pari a 5.400 €. Potenzialmente può procedere al pagamento con la sua carta Mastercard salvata in app, selezionando Nexi come PSP. Tuttavia, la sua carta ha un massimale mensile impostato nell'home banking di 1.500 €. In questo caso, pagamento fallirà nell'ultima fase.
 {% endhint %}
 
-Consigliamo quindi di **fare particolare attenzione agli importi richiesti** e, nel caso in cui superino cifre consistenti (come nell'esempio 1.500 €), di fornire l'opzione di rateizzare il pagamento in più rate, tramite l'invio di avvisi di pagamento diversi, la cui somma dà l'importo totale della posizione debitoria.&#x20;
+Consigliamo quindi di **fare particolare attenzione agli importi richiesti** e, nel caso in cui superino cifre consistenti (come nell'esempio 1.500 €), di fornire l'opzione di rateizzare il pagamento in più rate, tramite l'invio di avvisi di pagamento diversi, la cui somma dà l'importo totale della posizione debitoria.
 
 {% hint style="info" %}
 Per maggiori informazioni sui metodi di pagamento, vai alla [sezione dedicata](https://www.pagopa.gov.it/it/cittadini/trasparenza-costi/) sul sito di pagoPA.

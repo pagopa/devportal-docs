@@ -15,13 +15,13 @@ Possono rendere fruibili i propri servizi tramite IO anche enti diversi da quell
 Gli enti possono operare in autonomia o essere supportati da:
 
 * uno o più **partner tecnologici,** ovvero soggetti terzi che si occupano di gestire il dialogo tecnico con IO in nome e per conto degli enti aderenti;
-* un **ente aggregatore**, vale a dire un ente che agisce in qualità di aggregatore di altri soggetti pubblici, per esempio Regioni o Unioni di Comuni.&#x20;
+* un **ente aggregatore**, vale a dire un ente che agisce in qualità di aggregatore di altri soggetti pubblici, per esempio Regioni o Unioni di Comuni.
 
 ### Enti pubblici
 
-Le Pubbliche Amministrazioni (PA) sono la tipologia di enti più corposa nell'app. Nella sezione Servizi di IO, le Pubbliche Amministrazioni e gli altri enti pubblici sono distinti tra "nazionali" e "locali".&#x20;
+Le Pubbliche Amministrazioni (PA) sono la tipologia di enti più corposa nell'app. Nella sezione Servizi di IO, le Pubbliche Amministrazioni e gli altri enti pubblici sono distinti tra "nazionali" e "locali".
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>La sezione Servizi dell'app IO</p></figcaption></figure>
+<figure><img src="../../app-io/manuale-servizi/v2.5/.gitbook/assets/image (1).png" alt=""><figcaption><p>La sezione Servizi dell'app IO</p></figcaption></figure>
 
 #### **Enti pubblici nazionali**
 
@@ -33,13 +33,13 @@ Una Pubblica Amministrazione locale spesso non ha tutti gli strumenti per gestir
 
 ### Partner tecnologici
 
-Gli enti possono farsi carico di tutte le attività di implementazione, oppure nominare uno o più partner tecnologici.&#x20;
+Gli enti possono farsi carico di tutte le attività di implementazione, oppure nominare uno o più partner tecnologici.
 
 ### Enti aggregatori e aggregati
 
 Gli enti possono aderire a IO in qualità di **aggregatori di altri soggetti erogatori**. Il rapporto di aggregazione tra i soggetti erogatori è regolato dagli accordi (compresi gli accordi di cooperazione di cui all’art. 15 della L. 241/1990) e dagli atti amministrativi necessari a conferire al soggetto aggregante i poteri e le attribuzioni necessarie a sottoscrivere il contratto di adesione anche per conto e a beneficio dei soggetti aggregati.
 
-In molti casi, i soggetti aggregatori sono una soluzione ottimale per centralizzare la gestione di piattaforme che altrimenti il singolo ente non riuscirebbe a gestire da solo.&#x20;
+In molti casi, i soggetti aggregatori sono una soluzione ottimale per centralizzare la gestione di piattaforme che altrimenti il singolo ente non riuscirebbe a gestire da solo.
 
 {% hint style="info" %}
 **Un esempio** **di ente aggregatore**
@@ -54,10 +54,10 @@ Gli enti aggregatori devono elencare tutti gli enti che rappresentano ai fini de
 * Codice Fiscale o partita IVA;
 * [codice IPA](https://www.indicepa.gov.it/ipa-portale/consultazione/indirizzo-sede/ricerca-ente).
 
-Eventuali cambiamenti nella lista di enti aggregati **vanno tempestivamente comunicati** a PagoPA S.p.A. [**Come contattarci -->** ](../appendice/contatti.md)
+Eventuali cambiamenti nella lista di enti aggregati **vanno tempestivamente comunicati** a PagoPA S.p.A. [**Come contattarci -->**](../appendice/contatti.md)
 
 {% hint style="success" %}
 **Un aiuto per i partner tecnologici**
 
-I partner tecnologici e gli enti aggregatori spesso hanno difficoltà a **gestire il grande numero di enti** per cui lavorano. Questo manuale è pensato per dare loro maggiore supporto e condividere buone pratiche di creazione e gestione dei servizi.&#x20;
+I partner tecnologici e gli enti aggregatori spesso hanno difficoltà a **gestire il grande numero di enti** per cui lavorano. Questo manuale è pensato per dare loro maggiore supporto e condividere buone pratiche di creazione e gestione dei servizi.
 {% endhint %}

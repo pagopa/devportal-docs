@@ -1,10 +1,10 @@
 # Le tipologie di servizio
 
-## Servizi standard e speciali&#x20;
+## Servizi standard e speciali
 
 I servizi di IO possono essere di due tipi: **standard** o **speciali**. Gli enti possono scegliere quale dei due utilizzare a seconda delle proprie esigenze.
 
-### Servizi standard&#x20;
+### Servizi standard
 
 I servizi standard possono sfruttare tutte le funzionalità previste da IO. Lo stato della comunicazione di questo tipo di servizi segue la configurazione generale (rapida o manuale) o può essere gestito servizio per servizio nella relativa scheda.
 
@@ -16,7 +16,7 @@ Trovi maggiori informazioni sulle due modalità di configurazione al paragrafo "
 
 Rispetto ai servizi standard, quelli speciali prevedono un **flusso di iscrizione ad hoc da parte dell'utente**. L'utente può iscriversi tramite un pulsante presente all'interno della scheda servizio o tramite un canale terzo, ad esempio il sito dell'ente o della singola iniziativa.
 
-Iscriversi a questi servizi comporta l'attivazione "automatica" dell'opzione "Contattarti in app". Questa infatti è considerata una componente necessaria per il corretto utilizzo del servizio e quindi non è disattivabile, a prescindere dalla configurazione generale scelta dall'utente. Viceversa, la disiscrizione dal servizio permette di nuovo di gestire manualmente l'opzione "Contattarti in app".&#x20;
+Iscriversi a questi servizi comporta l'attivazione "automatica" dell'opzione "Contattarti in app". Questa infatti è considerata una componente necessaria per il corretto utilizzo del servizio e quindi non è disattivabile, a prescindere dalla configurazione generale scelta dall'utente. Viceversa, la disiscrizione dal servizio permette di nuovo di gestire manualmente l'opzione "Contattarti in app".
 
 {% hint style="info" %}
 **Un esempio: la Carta Giovani Nazionale**
@@ -26,9 +26,9 @@ La Carta Giovani Nazionale è un servizio speciale. All'interno della sua scheda
 
 Una volta pubblicati, tutti i servizi sono visibili nella sezione "Servizi" di IO come voci delle liste dei servizi Nazionali o dei servizi Locali e sono associati al nome dell'ente che li eroga. Premendo sul nome di un servizio, l'utente visualizza la scheda servizio, dove sono esposte le informazioni sul servizio e si può gestirne la comunicazione.
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption><p>La sezione Servizi dell'app</p></figcaption></figure>
+<figure><img src="../../app-io/manuale-servizi/v2.5/.gitbook/assets/image (4).png" alt=""><figcaption><p>La sezione Servizi dell'app</p></figcaption></figure>
 
-[<mark style="color:blue;">**Per scoprire come creare un servizio, leggi la guida tecnica ->**</mark>](https://app.gitbook.com/s/coSKRte21UjDBRWKLtEs/funzionalita/creare-un-servizio)&#x20;
+[<mark style="color:blue;">**Per scoprire come creare un servizio, leggi la guida tecnica ->**</mark>](https://app.gitbook.com/s/coSKRte21UjDBRWKLtEs/funzionalita/creare-un-servizio)
 
 ## Le preferenze dei cittadini
 
@@ -41,15 +41,15 @@ Un servizio può contattare un utente solo se questo ha dichiarato di voler rice
 * **al primo accesso o dalla sezione Profilo>Preferenze di IO**, selezionando la configurazione rapida che prevede di attivare la comunicazione di tutti i servizi di IO, presenti e futuri;
 * **dalla scheda di ogni servizio**, attivando l'opzione "Contattarti in app" alla voce "Questo servizio può".
 
-Se l'utente ha selezionato la configurazione manuale o non ha attivato l'opzione "Contattarti in app" di un servizio, questo non potrà inviargli messaggi.&#x20;
+Se l'utente ha selezionato la configurazione manuale o non ha attivato l'opzione "Contattarti in app" di un servizio, questo non potrà inviargli messaggi.
 
 {% hint style="info" %}
 L'ente può **conoscere lo stato di attivazione** del servizio invocando l'apposita [API](https://app.gitbook.com/s/coSKRte21UjDBRWKLtEs/api/api-messaggi/get-a-user-profile-using-post).
 {% endhint %}
 
-### Le notifiche push&#x20;
+### Le notifiche push
 
-L'invio di un messaggio scatena la ricezione di una notifica push sul dispositivo dell'utente. L'attivazione delle notifiche push può avvenire in due modi:&#x20;
+L'invio di un messaggio scatena la ricezione di una notifica push sul dispositivo dell'utente. L'attivazione delle notifiche push può avvenire in due modi:
 
 * **a livello generale**, attivando l'opzione di notifica push per l'app IO dalle impostazioni del proprio dispositivo
 * **dalla scheda di ogni servizio**, attivando l'opzione "Inviarti notifiche push" alla voce "Questo servizio può".

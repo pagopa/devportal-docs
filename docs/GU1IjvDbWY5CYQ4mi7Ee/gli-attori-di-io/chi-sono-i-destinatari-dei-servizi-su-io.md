@@ -1,9 +1,9 @@
 # Chi sono i destinatari dei servizi su IO
 
-Il pubblico dei servizi erogati dagli enti su IO è composto da **chiunque sia in possesso di credenziali** [**SPID**](https://www.spid.gov.it/) o, in alternativa, **di una Carta d’Identità Elettronica (**[**CIE**](https://www.cartaidentita.interno.gov.it/)**)**.&#x20;
+Il pubblico dei servizi erogati dagli enti su IO è composto da **chiunque sia in possesso di credenziali** [**SPID**](https://www.spid.gov.it/) o, in alternativa, **di una Carta d’Identità Elettronica (**[**CIE**](https://www.cartaidentita.interno.gov.it/)**)**.
 
 {% hint style="success" %}
-**Uno strumento per tutti**&#x20;
+**Uno strumento per tutti**
 
 IO non si rivolge ai soli cittadini di nazionalità italiana, ma anche ai residenti e a chiunque possa giovare dei servizi pubblici.
 {% endhint %}
@@ -16,9 +16,9 @@ Per rendere effettivo questo diritto, tutte le Pubbliche Amministrazioni devono 
 
 I servizi che vengono proposti per essere erogati nell'app dovrebbero basarsi su quest'ultimo principio, ovvero essere **di valore per gli utenti**. Per questo, consigliamo agli enti di rendere disponibili in primis i servizi più usati o richiesti, o di partire da quelli che in questo momento gli utenti faticano a fruire su altri canali.
 
-Il documento che regola come creare servizi che mettono **la cittadinanza al centro** sono le [Linee guida di design per i siti internet e i servizi digitali della PA](https://docs.italia.it/italia/design/lg-design-servizi-web/it/versione-corrente/index.html), che hanno lo scopo di definire e orientare la progettazione e la realizzazione dei siti internet e dei servizi digitali erogati dalle Pubbliche Amministrazioni.&#x20;
+Il documento che regola come creare servizi che mettono **la cittadinanza al centro** sono le [Linee guida di design per i siti internet e i servizi digitali della PA](https://docs.italia.it/italia/design/lg-design-servizi-web/it/versione-corrente/index.html), che hanno lo scopo di definire e orientare la progettazione e la realizzazione dei siti internet e dei servizi digitali erogati dalle Pubbliche Amministrazioni.
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p>Accesso su IO tramite SPID o CIE</p></figcaption></figure>
+<figure><img src="../../app-io/manuale-servizi/v2.5/.gitbook/assets/image (2).png" alt=""><figcaption><p>Accesso su IO tramite SPID o CIE</p></figcaption></figure>
 
 ### Cosa possono fare i cittadini con i servizi in IO?
 
