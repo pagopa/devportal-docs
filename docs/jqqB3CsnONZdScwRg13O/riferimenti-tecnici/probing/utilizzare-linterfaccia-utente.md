@@ -18,7 +18,7 @@ Il Probing assegna a ciascuna versione di e-service uno _stato di disponibilità
 
 Sono disponibili tre grafici. Ognuno di essi evidenzia un aspetto diverso.
 
-<figure><img src="../../.gitbook/assets/unknown (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../pdnd-interoperabilita/manuale-operativo-pdnd-interoperabilita/v1.0/.gitbook/assets/unknown (3).png" alt=""><figcaption></figcaption></figure>
 
 #### Tempi di risposta
 

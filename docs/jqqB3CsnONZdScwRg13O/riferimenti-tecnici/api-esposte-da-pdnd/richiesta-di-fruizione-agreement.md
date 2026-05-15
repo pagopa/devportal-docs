@@ -19,7 +19,7 @@ Alcune condizioni di stato e di transizione delle richieste di fruizione dipendo
 
 ### Dettaglio degli stati
 
-<figure><img src="../../.gitbook/assets/interop_api_v2_lifecycle_agreement.png" alt="" width="375"><figcaption><p>Diagramma di flusso che descrive i passaggi di stato</p></figcaption></figure>
+<figure><img src="../../../../pdnd-interoperabilita/manuale-operativo-pdnd-interoperabilita/v1.0/.gitbook/assets/interop_api_v2_lifecycle_agreement.png" alt="" width="375"><figcaption><p>Diagramma di flusso che descrive i passaggi di stato</p></figcaption></figure>
 
 #### DRAFT
 

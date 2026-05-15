@@ -28,8 +28,8 @@ I dati di cui gli erogatori sono titolari **non transitano** e **non vengono con
 
 ### Stato dell'arte
 
-Le Linee guida AgID sulla PDND definiscono le specifiche tecniche e le funzionalità della piattaforma. Con riferimento all’[aggiornamento del 2025](riferimenti-normativi/normativa-e-approfondimenti.md), alcune delle novità introdotte sono attualmente in roadmap o in fase di sviluppo e saranno rese presto disponibili. Questa guida viene aggiornata progressivamente e fornisce i dettagli operativi necessari per utilizzare le funzionalità oggi disponibili.
+Le Linee guida AgID sulla PDND definiscono le specifiche tecniche e le funzionalità della piattaforma. Con riferimento all’[aggiornamento del 2025](../../../docs/jqqB3CsnONZdScwRg13O/riferimenti-normativi/normativa-e-approfondimenti.md), alcune delle novità introdotte sono attualmente in roadmap o in fase di sviluppo e saranno rese presto disponibili. Questa guida viene aggiornata progressivamente e fornisce i dettagli operativi necessari per utilizzare le funzionalità oggi disponibili.
 
 ***
 
-Pagina successiva [→ A chi si rivolge (destinatari)](per-iniziare/a-chi-si-rivolge-destinatari.md)
+Pagina successiva [→ A chi si rivolge (destinatari)](../../../docs/jqqB3CsnONZdScwRg13O/per-iniziare/a-chi-si-rivolge-destinatari.md)
