@@ -12,4 +12,4 @@ Nel caso in cui l'avvenuto accesso ad una notifica sia stato compiuto da parte d
 
 Nel caso di notifiche inviate a più destinatari, ciascun destinatario vedrà nella timeline gli eventi relativi a tutti gli altri destinatari ma non potrà vedere i loro dati personali (CF, indirizzi fisici, PEC, email, ecc.)
 
-<figure><img src="../../../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../send/manuale-operativo/v1.1/.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>

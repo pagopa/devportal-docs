@@ -4,9 +4,9 @@ Nella pagina che mostra i dettagli di una specifica notifica che non è stata an
 
 L’utente viene così indirizzato su una schermata dove sono già caricati tutti i dati necessari per procedere con il pagamento, il percorso è quello utilizzato da pagoPA per ogni altro tipo di pagamento.
 
-<figure><img src="../../../../.gitbook/assets/image (112).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../send/manuale-operativo/v1.1/.gitbook/assets/image (112).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/image (52).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../send/manuale-operativo/v1.1/.gitbook/assets/image (52).png" alt=""><figcaption></figcaption></figure>
 
 In caso di esito positivo, ricaricando la pagina il pagamento risulterà effettuato e sarà visibile in timeline l’evento di avvenuto pagamento.
 

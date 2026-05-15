@@ -4,7 +4,7 @@ La notifica segue un ciclo di vita che la fa transitare lungo una serie di stati
 
 &#x20;
 
-<figure><img src="../../.gitbook/assets/image (74).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../send/manuale-operativo/v1.1/.gitbook/assets/image (74).png" alt=""><figcaption></figcaption></figure>
 
 La timeline presenta inizialmente solamente gli eventi che determinano un cambiamento di stato della notifica (vedi paragrafo [Informazione di stato sintetica](stato-della-notifica.md)). Eventi secondari (esempio i diversi tentativi di invio di una PEC) sono disponibili aprendo le sezioni “Mostra di più”. Eventuali documenti collegati agli eventi secondari sono disponibili anche attraverso i link presenti negli eventi principali.
 
