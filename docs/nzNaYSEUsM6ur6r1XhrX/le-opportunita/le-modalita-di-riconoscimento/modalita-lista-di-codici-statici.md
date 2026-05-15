@@ -1,11 +1,11 @@
 # 4️⃣ Modalità lista di codici statici
 
-Nel caso in cui l’Operatore abbia deciso di aderire al Programma attraverso il proprio sito web e/o e-commerce e tramite il _Modello lista di codici_, deve comunicare la lista (bucket) dei codici statici contestualmente alla definizione della singola opportunità, caricando sul Portale un file in formato `.csv` contenente un numero minimo di 10.000 (diecimila) codici.&#x20;
+Nel caso in cui l’Operatore abbia deciso di aderire al Programma attraverso il proprio sito web e/o e-commerce e tramite il _Modello lista di codici_, deve comunicare la lista (bucket) dei codici statici contestualmente alla definizione della singola opportunità, caricando sul Portale un file in formato `.csv` contenente un numero minimo di 10.000 (diecimila) codici.
 
-Di seguito un file di esempio di corretta formattazione:&#x20;
+Di seguito un file di esempio di corretta formattazione:
 
-{% file src="../../.gitbook/assets/test-codes.csv" %}
-&#x20;Template per caricamento lista codici statici su Portale&#x20;
+{% file src="../../../app-io/carta-giovani-nazionale/v2.0.1/.gitbook/assets/test-codes.csv" %}
+Template per caricamento lista codici statici su Portale
 {% endfile %}
 
 {% hint style="info" %}
@@ -28,16 +28,16 @@ La "nuova" lista di codici verrà visualizzata solo dopo che saranno stati utili
 
 ***
 
-### Cosa succede se si esauriscono i codici? &#x20;
+### Cosa succede se si esauriscono i codici?
 
-Qualora vengano **esauriti tutti i codici** relativi ad una certa opportunità, l'Operatore riceverà un'e-mail automatica generata dal Portale che comunica l'esaurimento dei codici e invita a caricare una nuova lista di codici. Contestualmente sul Portale l’opportunità passerà in stato **“Sospesa”**e non sarà più visibile su app IO.
+Qualora vengano **esauriti tutti i codici** relativi ad una certa opportunità, l'Operatore riceverà un'e-mail automatica generata dal Portale che comunica l'esaurimento dei codici e invita a caricare una nuova lista di codici. Contestualmente sul Portale l’opportunità passerà in stato \*\*“Sospesa”\*\*e non sarà più visibile su app IO.
 
 ***
 
-L’identificazione del Beneficiario da parte dell’Operatore avviene secondo questi passaggi:&#x20;
+L’identificazione del Beneficiario da parte dell’Operatore avviene secondo questi passaggi:
 
-* Il Beneficiario accede alla sua CGN nell’App IO e seleziona l’Operatore di suo interesse nella lista esercenti visualizzata;&#x20;
-* il Beneficiario seleziona l’opportunità di suo interesse e, premendo su "Attiva il codice sconto", visualizza uno dei codici statici che verrà scelto dalla lista di codici caricati dall’Operatore relativamente a quella opportunità, con possibilità di copiarlo direttamente dall’App per incollarlo successivamente nei sistemi dell’Operatore;&#x20;
+* Il Beneficiario accede alla sua CGN nell’App IO e seleziona l’Operatore di suo interesse nella lista esercenti visualizzata;
+* il Beneficiario seleziona l’opportunità di suo interesse e, premendo su "Attiva il codice sconto", visualizza uno dei codici statici che verrà scelto dalla lista di codici caricati dall’Operatore relativamente a quella opportunità, con possibilità di copiarlo direttamente dall’App per incollarlo successivamente nei sistemi dell’Operatore;
 * in fase di finalizzazione dell’acquisto sul portale dell’Operatore, il Beneficiario incolla il codice nell’apposito campo e, se non ci sono stati errori nella digitazione del codice e questo è ancora valido, l’opportunità verrà applicata al carrello.
 
 L’esperienza utente è identica a quella generata dal modello “codice sconto statico”.
