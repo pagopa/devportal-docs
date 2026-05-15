@@ -18,7 +18,7 @@ Viene pertanto utilizzato il nuovo flag all’interno della configurazione delle
 
 Di seguito sono descritti i passi principali del flusso di pagamento con la gestione delle opzioni di pagamento, lato Ente Creditore:
 
-<figure><img src="../../.gitbook/assets/fLDDJyCm3BtdL_W8XvsuxO0sLHL2Q5ib15TajUuKaILLaXRjt-EcxKZK0KNqPBlFpyyVsJYFrhSd1RerdTcPYfGoTs_v_a6uTwd16aT2Y8PHifGDQWzvbhWD7asnJKB5So44yCS6hEv7o1ewih8-5tW-aVQ7nakZtSrjG6BfPOUU9heGKnuqVOnfK2iyWdJWRKlX_m2T5s0tL80AFGPaYiwpDNkltuj9176xKopFO1LLwxKr (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../pago-pa/sanp/3.11.0/.gitbook/assets/fLDDJyCm3BtdL_W8XvsuxO0sLHL2Q5ib15TajUuKaILLaXRjt-EcxKZK0KNqPBlFpyyVsJYFrhSd1RerdTcPYfGoTs_v_a6uTwd16aT2Y8PHifGDQWzvbhWD7asnJKB5So44yCS6hEv7o1ewih8-5tW-aVQ7nakZtSrjG6BfPOUU9heGKnuqVOnfK2iyWdJWRKlX_m2T5s0tL80AFGPaYiwpDNkltuj9176xKopFO1LLwxKr (1).png" alt=""><figcaption></figcaption></figure>
 
 L’EC se gestisce le opzioni di pagamento (l’EC quindi ha configurato le proprie stazioni per poterle gestire), restituisce nella response della [paVerifyPaymentOptions](../../appendici/primitive/ente-creditore/api-rest/#pagetpayment) le opzioni di pagamento disponibili per quel numero avviso. Se l’EC non gestisce le opzioni di pagamento, il PSP riceverà in response un messaggio di errore che lo invita ad utilizzare la primitiva [verifyPaymentNotice](../../appendici/primitive/psp/api-soap.md#activatepaymentnotice). A questo punto il flusso procede normalmente con la primitiva[ paVerifyPaymentNotice](../../appendici/primitive/ente-creditore/api-soap.md#paverifypaymentnotice) verso l’EC.
 

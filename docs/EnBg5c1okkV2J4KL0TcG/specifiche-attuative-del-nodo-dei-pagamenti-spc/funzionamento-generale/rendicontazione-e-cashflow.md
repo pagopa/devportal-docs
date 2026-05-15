@@ -15,7 +15,7 @@ Vengono messi a disposizione due nuovi prodotti:
 
 Si riporta di seguito il diagramma del nuovo processo:
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-12-15 alle 10.34.37.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../pago-pa/sanp/3.11.0/.gitbook/assets/Screenshot 2025-12-15 alle 10.34.37.png" alt=""><figcaption></figcaption></figure>
 
 Il processo prevede l'introduzione di diversi step, descritti nei paragrafi seguenti.
 
@@ -53,6 +53,6 @@ Tutte le revisioni pubblicate da un PSP sono consultabili dall'EC destinatario, 
 
 Un PSP può quindi inviare più volte un flusso con lo stesso identificativo (campo `fdr` della richiesta di creazione flusso), ma nel rispetto di regole precise. Il sistema accetta una nuova revisione dello stesso flusso di rendicontazione solo se la data ad esso associata (campo `fdrDate` della richiesta di creazione flusso) è successiva a quella dell’ultima versione pubblicata del flusso. La nuova revisione del flusso di rendicontazione è ritenuta valida se pubblicata entro e non oltre le ore 00:00 della quarta giornata lavorativa (D+4) successiva alla ricezione dell’ordine di pagamento.
 
-![](../../.gitbook/assets/fdr_sovrascittura.png)
+![](../../../pago-pa/sanp/3.11.0/.gitbook/assets/fdr_sovrascittura.png)
 
 I PSP, gli EC, i Partner Tecnologici e gli Intermediari possono operare sui flussi di rendicontazione esclusivamente per i soggetti sui quali risultano abilitati o per i quali possiedono una delega valida.

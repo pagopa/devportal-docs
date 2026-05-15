@@ -4,7 +4,7 @@ Secondo il modello dati dell'API V3 di GPD, la **Posizione Debitoria** è rappre
 
 ### Payment position FSM<br>
 
-<figure><img src="../../.gitbook/assets/Screenshot 2026-01-19 alle 14.21.17.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../pago-pa/sanp/3.11.0/.gitbook/assets/Screenshot 2026-01-19 alle 14.21.17.png" alt=""><figcaption></figcaption></figure>
 
 **Creazione della posizione debitoria**
 
@@ -78,7 +78,7 @@ Qualora esista una Opzione di Pagamento avente almeno un Installment che non ha 
 
 Malgrado gli stati `EXPIRED` e `UNPAYABLE` siano presenti nell’OpenAPI non esiste una transizione di stato nella versione dell’applicativo corrispondente alle **SANP-3.11.0**. Si riporta ugualmente il significato di questi stati.<br>
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-12-24 alle 14.42.46 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../pago-pa/sanp/3.11.0/.gitbook/assets/Screenshot 2025-12-24 alle 14.42.46 (1).png" alt=""><figcaption></figcaption></figure>
 
 #### Regole di Business <a href="#regole-di-business.1" id="regole-di-business.1"></a>
 

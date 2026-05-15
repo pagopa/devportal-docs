@@ -15,7 +15,7 @@ Al fine di poter utilizzare le API descritte di seguito nel documento è necessa
 
 Di seguito il diagramma che riporta il flusso completo del pagamento di una MBD:
 
-<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../pago-pa/sanp/3.11.0/.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 Il flusso di pagamento parte dal sito dell'EC nel momento in cui si palesa la necessità di far pagare al cittadino una MBD da associare in modo univoco ad un documento digitale.\
 A tale scopo _**@e.bollo 2.0**_ mette a disposizione dell'EC una API che consente predisporre il pagamento sui sistemi PagoPA e di ricevere una URL a cui indirizzare il cittadino per l'acquisto della MBD, di seguito i dettagli:
@@ -74,7 +74,7 @@ Dettaglio dei campi in output:
 
 * `checkoutRedirectUrl` - URL su cui effettuare la redirect per indirizzare il cittadino sul sito Checkout di pagoPA per il pagamento della MBD. L'utente dovrà confermare l'email e procedere con il pagamento:
 
-<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../pago-pa/sanp/3.11.0/.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 * `mbdDownloadLink` - link per il recupero dell ricevuta MBD (per i dettagli fare riferimento a [Servizio MBD receipt](pagamento-dovuto.md#servizio-mbd-receipt))
 * `nav` - numero avviso afferente al pagamento della MBD

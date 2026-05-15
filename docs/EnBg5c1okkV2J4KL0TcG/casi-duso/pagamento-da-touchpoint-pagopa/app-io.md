@@ -1,8 +1,8 @@
 # App IO
 
-![](<../../.gitbook/assets/appIO_SANP (4).png>)
+![](<../../../pago-pa/sanp/3.11.0/.gitbook/assets/appIO_SANP (4).png>)
 
-* l'utente che avvia il pagamento dall'app IO <img src="../../.gitbook/assets/image (7).png" alt="" data-size="line"> deve scansionare il QR code presente sull'avviso di pagamento;
+* l'utente che avvia il pagamento dall'app IO <img src="../../../pago-pa/sanp/3.11.0/.gitbook/assets/image (7).png" alt="" data-size="line"> deve scansionare il QR code presente sull'avviso di pagamento;
 * la [paVerifyPaymentNotice](../../appendici/primitive/ente-creditore/api-soap.md#paverifypaymentnotice) è utilizzata per richiedere all’EC la verifica dell’opzione di pagamento identificata dal numero avviso;
 * la richiesta di attivazione del pagamento giunge all’EC per mezzo della [paGetPayment](../../appendici/primitive/ente-creditore/api-soap.md#pagetpayment);
 * una volta concluse le operazioni di pagamento effettivo da parte dell'utente il Nodo provvede ad inviare i dettagli al PSP tramite la [pspNotifyPayment](../../appendici/primitive/psp/api-soap.md#pspnotifypayment), nel caso di risposta KO da parte del PSP il processo viene interrotto e il pagamento deve essere stornato;

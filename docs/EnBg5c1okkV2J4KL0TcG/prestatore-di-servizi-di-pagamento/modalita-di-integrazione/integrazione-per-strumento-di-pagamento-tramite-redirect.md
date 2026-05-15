@@ -77,7 +77,7 @@ Per le specifiche tecniche far rifermento all' [Api for refund](../../appendici/
 
 ## Fase di pagamento <a href="#sequence-diagram-fase-di-pagamento" id="sequence-diagram-fase-di-pagamento"></a>
 
-<figure><img src="../../.gitbook/assets/image (38).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../pago-pa/sanp/3.11.0/.gitbook/assets/image (38).png" alt=""><figcaption></figcaption></figure>
 
 ## Fase di annullo <a href="#sequence-diagram-fase-di-storno" id="sequence-diagram-fase-di-storno"></a>
 
@@ -85,10 +85,10 @@ Per le specifiche tecniche far rifermento all' [Api for refund](../../appendici/
 
 La piattaforma pagoPA effettua la chiamata di annullo con logica di retry se non riceve l’esito (positivo o negativo) del pagamento entro il _timeout_ indicato nella response alla [#api-recupero-url](integrazione-per-strumento-di-pagamento-tramite-redirect.md#api-recupero-url "mention") dal PSP o il timeout di default di _10 minuti_ dall'invocazione della redirect verso l'URL del PSP.
 
-<figure><img src="../../.gitbook/assets/annullo1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../pago-pa/sanp/3.11.0/.gitbook/assets/annullo1.png" alt=""><figcaption></figcaption></figure>
 
 ### Caso 2 - pspNotifyPayment KO <a href="#caso-3-pspnotifypayment-ko" id="caso-3-pspnotifypayment-ko"></a>
 
 La piattaforma pagoPA effettua la chiamata di annullo con logica di retry quando il PSP ha risposto KO alla [#pspnotifypayment](../../appendici/primitive/#pspnotifypayment "mention").
 
-<figure><img src="../../.gitbook/assets/annullo2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../pago-pa/sanp/3.11.0/.gitbook/assets/annullo2.png" alt=""><figcaption></figcaption></figure>

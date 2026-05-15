@@ -12,7 +12,7 @@ I PSP devono restituire tutte le opzioni di pagamento disponibili per quel deter
 
 Di seguito vengono descritti i passi principali del flusso di pagamento con la gestione delle Opzioni di pagamento (OdP):
 
-<figure><img src="../../.gitbook/assets/fLDDJyCm3BtdL_W8XvsuxO0sLHL2Q5ib15TajUuKaILLaXRjt-EcxKZK0KNqPBlFpyyVsJYFrhSd1RerdTcPYfGoTs_v_a6uTwd16aT2Y8PHifGDQWzvbhWD7asnJKB5So44yCS6hEv7o1ewih8-5tW-aVQ7nakZtSrjG6BfPOUU9heGKnuqVOnfK2iyWdJWRKlX_m2T5s0tL80AFGPaYiwpDNkltuj9176xKopFO1LLwxKr (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../pago-pa/sanp/3.11.0/.gitbook/assets/fLDDJyCm3BtdL_W8XvsuxO0sLHL2Q5ib15TajUuKaILLaXRjt-EcxKZK0KNqPBlFpyyVsJYFrhSd1RerdTcPYfGoTs_v_a6uTwd16aT2Y8PHifGDQWzvbhWD7asnJKB5So44yCS6hEv7o1ewih8-5tW-aVQ7nakZtSrjG6BfPOUU9heGKnuqVOnfK2iyWdJWRKlX_m2T5s0tL80AFGPaYiwpDNkltuj9176xKopFO1LLwxKr (1).png" alt=""><figcaption></figcaption></figure>
 
 1. Il PSP ha la possibilità di chiamare sia la [verifyPaymentNotice](../../appendici/primitive/psp/api-soap.md#activatepaymentnotice) che la [verifyPaymentOptions](../../appendici/primitive/psp/api-rest/#pagetpayment);
 2. nel caso venga chiamata la [verifyPaymentOptions](../../appendici/primitive/psp/api-rest/#pagetpayment):

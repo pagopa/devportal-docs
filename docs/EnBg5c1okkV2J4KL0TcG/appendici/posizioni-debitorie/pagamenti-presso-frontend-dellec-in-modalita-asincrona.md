@@ -8,7 +8,7 @@ Il flusso descritto in questa sezione è a scopo prettamente esemplificativo e n
 
 I _pagamenti presso frontend dell'EC in modalità asincrona_ hanno l'obiettivo di fare in modo che, in tutti i casi in cui la posizione debitoria non possa essere caricata preventivamente, questa risulti presente sul servizio posizioni debitorie PagoPA prima della fase di attivazione del pagamento.
 
-<figure><img src="../../.gitbook/assets/nuovo_modello1_carrello_V3_SANP-Payment_process_activated_by_EC__asybchronous_integration.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../pago-pa/sanp/3.11.0/.gitbook/assets/nuovo_modello1_carrello_V3_SANP-Payment_process_activated_by_EC__asybchronous_integration.png" alt=""><figcaption></figcaption></figure>
 
 * Quando il front end dell'EC riceve la richiesta di pagamento di uno o più avvisi, prima di inoltrare la richiesta a Checkout mediante una [redirect](../../ente-creditore/modalita-dintegrazione/integrazione-touch-point-dellec-con-checkout.md), procede al caricamento della/e relative posizioni debitorie mediante l'invocazione dell'api [`createDebtPosition`](operazioni-disponibili.md)esposta dalla componente _GPD-Core_;
 * al fine di creare, pubblicare e porre le posizioni debitorie nello stato `VALID` con una sola invocazione verso la componente _GPD-Core_, si suggerisce di valorizzare il query parameter `toPublish=true` e il campo della posizione debitoria `validityDate=null;`
