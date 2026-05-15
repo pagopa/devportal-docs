@@ -2,7 +2,7 @@
 
 ### Versione 5.0 (dicembre 2025)
 
-* Aggiornata la sezione [Per iniziare](./) andando a rimuovere i richiami alla sperimentazione controllata del prodotto
+* Aggiornata la sezione [Per iniziare](../../firma-con-io/manuale-operativo/v1.0/) andando a rimuovere i richiami alla sperimentazione controllata del prodotto
 
 ### Versione 4.0 (settembre 2023)
 
@@ -17,10 +17,9 @@
 ### Versione 2.0 (maggio 2023)
 
 * Integrata sezione [Pulsante Firma con IO](/broken/pages/UAXN3TVSU5hw8hyLWu3C).
-* Integrata sezione [Validare i documenti](il-processo-di-firma/preparare-i-documenti/validare-i-documenti.md) per verificare che il documento sia stato preparato correttamente con campi firma validi.&#x20;
-* Integrata sezione [Creare il Dossier](creare-il-dossier.md) con la possibilità di inserire il contatto di assistenza legato allo specifico Dossier.&#x20;
+* Integrata sezione [Validare i documenti](il-processo-di-firma/preparare-i-documenti/validare-i-documenti.md) per verificare che il documento sia stato preparato correttamente con campi firma validi.
+* Integrata sezione [Creare il Dossier](creare-il-dossier.md) con la possibilità di inserire il contatto di assistenza legato allo specifico Dossier.
 
 ### Versione 1.0 (febbraio 2023)
 
 * Integrata sezione [Verificare lo stato di una firma](verificare-lo-stato-di-una-firma.md) con le specifiche per ottenere la lista delle richieste di firma create, a partire da un Dossier.
-

@@ -1,4 +1,4 @@
-# 👩💻 Primi passi
+# 👩‍💻 Primi passi
 
 Ecco quali sono gli step che devi seguire dopo aver firmato l'accordo di adesione per poter iniziare ad integrare Firma con IO.
 
@@ -10,7 +10,7 @@ Ricorda che puoi sempre indicare un **indirizzo email di assistenza diverso** pe
 
 <summary>Step 1 - Accedi all'Area Riservata</summary>
 
-&#x20;                               <img src="../.gitbook/assets/Screenshot 2023-09-15 alle 11.44.26.png" alt="" data-size="original">&#x20;
+![](<../../../firma-con-io/manuale-operativo/v1.0/.gitbook/assets/Screenshot 2023-09-15 alle 11.44.26.png>)
 
 Entra nell'[Area Riservata](https://selfcare.pagopa.it/auth/login) e seleziona il tuo Ente per poter iniziare a creare le API Key che ti serviranno per integrarti con Firma con IO.
 
@@ -27,8 +27,6 @@ Dopo essere entrato nell'Area Riservata del tuo Ente seleziona "Firma con IO" da
 
 La **Fase di Integrazione** è la fase in cui ti trovi quando stai integrando per la prima volta Firma con IO e quindi stai effettuando diversi test per capirne il corretto funzionamento. La **Fase di Produzione** invece si avvia quando sarai pronto ad inviare le richieste di firme (ai costi stabiliti nel contratto) a tutti gli utenti che utilizzano l'app IO!
 
-
-
 </details>
 
 <details>
@@ -43,7 +41,7 @@ Per ogni **nuova API Key di test** dovrai:
 2. **Aggiungere uno o più indirizzi IP** delle macchine che invieranno le richieste;
 3. **Aggiungere uno o più codici fiscali** delle persone (già utenti dell’App IO) che testeranno i vari flussi.
 
-<mark style="color:red;">**Ricorda che senza l'inserimento di Indirizzi IP o codici fiscali, non potrai  testare il flusso**</mark>[<mark style="color:red;">**!**</mark>](#user-content-fn-1)[^1]
+<mark style="color:red;">**Ricorda che senza l'inserimento di Indirizzi IP o codici fiscali, non potrai testare il flusso!**</mark>
 
 </details>
 
@@ -54,5 +52,3 @@ Per ogni **nuova API Key di test** dovrai:
 Dopo aver generato e popolato le API Key non ti resta altro che iniziare ad utilizzarle!
 
 </details>
-
-[^1]: 

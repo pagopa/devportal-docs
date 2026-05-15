@@ -1,14 +1,14 @@
 # 💼 Creare il Dossier
 
-Ora dovrai creare il **Dossier**, un contenitore che identifica l'**insieme dei metadati dei documenti** da firmare all'interno di una richiesta di firma. Ti consente di raggruppare le richieste di firma per tipologia di contratto.&#x20;
+Ora dovrai creare il **Dossier**, un contenitore che identifica l'**insieme dei metadati dei documenti** da firmare all'interno di una richiesta di firma. Ti consente di raggruppare le richieste di firma per tipologia di contratto.
 
 Ciascun dossier rappresenta un **caso d’uso specifico**. Ad esempio, potresti creare un dossier per i documenti delle borse di studio, denominato “_**Richiesta Borsa di studio”**_, e un altro _**“Contratto di assunzione”**_ per i contratti di collaborazione sulla didattica. In questo modo, è possibile creare le richieste di firma verso gli utenti riutilizzando lo stesso dossier. Infatti, tutti gli studenti e le studentesse che dovranno firmare dei contratti per richiedere una borsa di studio potranno ricevere una `signature request` creata a partire dallo stesso dossier (in questo esempio, “_Richiesta Borsa di studio”_).\
 Le `signature request` dello stesso dossier possono avere in comune titolo, email di riferimento per l'assistenza e spesso anche le firme da inserire. Per questa ragione creare un dossier può agevolare anche nella revisione delle firme.
 
 \
-Il **titolo del dossier** sarà anche riportato nel messaggio di richiesta di firma al cittadino:&#x20;
+Il **titolo del dossier** sarà anche riportato nel messaggio di richiesta di firma al cittadino:
 
-&#x20;                                             <img src=".gitbook/assets/Screenshot 2023-02-14 alle 17.08.30.png" alt="" data-size="original">
+![](<../../firma-con-io/manuale-operativo/v1.0/.gitbook/assets/Screenshot 2023-02-14 alle 17.08.30.png>)
 
 {% hint style="warning" %}
 **Come scrivere il titolo del dossier**
@@ -25,7 +25,7 @@ Il titolo del dossier deve essere **breve,** sintetizzando l'oggetto per cui si 
 Il titolo del dossier **NON deve essere generico** o contenere un'informazione già presente (come ad esempio il nome dell'ente o il testo "richiesta di firma").
 {% endhint %}
 
-### Un esempio&#x20;
+### Un esempio
 
 Ecco un esempio di chiamata verso l'endpoint:
 
@@ -33,9 +33,9 @@ Ecco un esempio di chiamata verso l'endpoint:
 POST /api/v1/sign/dossiers
 ```
 
-Immaginiamo di dover creare un Dossier per la firma di un **Contratto 150 ore** (`"title":"Contratto 150 ore"`).&#x20;
+Immaginiamo di dover creare un Dossier per la firma di un **Contratto 150 ore** (`"title":"Contratto 150 ore"`).
 
-Il Dossier prevede **un solo documento** (`"title":"Contratto"`), il quale a sua volta richiede **una** sola **firma** (`"title":"Firma contratto"`) **obbligatoria** (`"type":"REQUIRED"`) da parte dell'utente.&#x20;
+Il Dossier prevede **un solo documento** (`"title":"Contratto"`), il quale a sua volta richiede **una** sola **firma** (`"title":"Firma contratto"`) **obbligatoria** (`"type":"REQUIRED"`) da parte dell'utente.
 
 #### Vuoi aggiungere ulteriori documenti al dossier?
 
@@ -96,7 +96,7 @@ In questo caso, il corpo del messaggio sarà:
 }
 ```
 
-In tutti i casi, all'interno della risposta riceverai il Dossier creato con il relativo **ID associato** (`dossier_id`).&#x20;
+In tutti i casi, all'interno della risposta riceverai il Dossier creato con il relativo **ID associato** (`dossier_id`).
 
 ```json
 {
@@ -119,7 +119,7 @@ In tutti i casi, all'interno della risposta riceverai il Dossier creato con il r
 }
 ```
 
-In questo caso, naturalmente, si assume che l'unica firma trasparente necessaria per firmare il documento sia obbligatoria, per questo è stato inserito il "type":"REQUIRED". In generale, infatti, almeno una firma deve essere obbligatoria o vessatoria, non si accettano documenti con solo firme facoltative.&#x20;
+In questo caso, naturalmente, si assume che l'unica firma trasparente necessaria per firmare il documento sia obbligatoria, per questo è stato inserito il "type":"REQUIRED". In generale, infatti, almeno una firma deve essere obbligatoria o vessatoria, non si accettano documenti con solo firme facoltative.
 
 {% hint style="warning" %}
 **Prendi nota del `dossier_id`**: ti servirà in una fase successiva.

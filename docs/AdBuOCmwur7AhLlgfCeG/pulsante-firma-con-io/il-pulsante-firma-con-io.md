@@ -4,7 +4,7 @@
 
 È il componente utilizzato per indirizzare l’utente verso la funzionalità di firma dell'app IO a partire da un canale messo a disposizione dall'Ente (sitoweb, app mobile ecc.).
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-04-28 alle 15.59.29.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../firma-con-io/manuale-operativo/v1.0/.gitbook/assets/Screenshot 2023-04-28 alle 15.59.29.png" alt=""><figcaption></figcaption></figure>
 
 Il flusso afferisce al prodotto Firma con IO come funzionalità che consente di firmare documenti e contratti già pre-compilati con i dati dell’utente, non consente la firma di template da compilare autonomamente in app IO. Rispetto al flusso Messaggio su IO offre una **seconda modalità di ingaggio** (dal sito dell’Ente e non tramite messaggio in app IO)
 
@@ -23,7 +23,7 @@ Attraverso il pulsante Firma con IO sarà propagato un _universal link_ che cons
 * agli utenti che sono registrati su IO ma non hanno l’app installata sul device di accedere alla pagina dello store dove poterla ottenere.
 
 {% hint style="info" %}
-#### Ricorda di validare i documenti <a href="#endpoint-per-la-validazione-dei-documenti" id="endpoint-per-la-validazione-dei-documenti"></a>
+**Ricorda di validare i documenti**
 
 Per evitare che al click sul pulsante il flusso si interrompa a causa di problemi sui documenti caricati (es. sono stati inseriti in modo non corretto i campi firma), si consiglia di [validare sempre i documenti](../il-processo-di-firma/preparare-i-documenti/validare-i-documenti.md) da caricare tramite l'endpoint messo a disposizione.
 {% endhint %}

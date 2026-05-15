@@ -1,22 +1,22 @@
-# ↗ Tramite coordinate
+# ↗️ Tramite coordinate
 
-Una modalità consiste nell'**indicare le coordinate** dei campi firma sul PDF, insieme al numero di pagina. In questo caso, sarà il team dell'app IO a inserire i campi firma nei punti indicati.&#x20;
+Una modalità consiste nell'**indicare le coordinate** dei campi firma sul PDF, insieme al numero di pagina. In questo caso, sarà il team dell'app IO a inserire i campi firma nei punti indicati.
 
 {% hint style="info" %}
-Dovrai inserire queste informazioni all'interno del Dossier che creerai in fase di richiesta della firma: trovi tutte le indicazioni in [Creazione di un Dossier](../../../creare-il-dossier.md).&#x20;
+Dovrai inserire queste informazioni all'interno del Dossier che creerai in fase di richiesta della firma: trovi tutte le indicazioni in [Creazione di un Dossier](../../../creare-il-dossier.md).
 {% endhint %}
 
 Per poter indicare una sezione all’interno del PDF dove collocare il rettangolo della firma grafica, dovrai fornire:
 
 * le coordinate di un punto di partenza, prendendo come punto di riferimento l’estremo in alto a sinistra (lo "0,0" che vedi nell'immagine qui sotto);
-* la dimensione del box;&#x20;
+* la dimensione del box;
 * la pagina in cui inserirlo (ricorda che le pagine partono da 0).
 
-<figure><img src="../../../.gitbook/assets/Senza titolo-1 (1).png" alt=""><figcaption><p>Coordinate da un punto di partenza</p></figcaption></figure>
+<figure><img src="../../../../../firma-con-io/manuale-operativo/v1.0/.gitbook/assets/Senza titolo-1.png" alt=""><figcaption><p>Coordinate da un punto di partenza</p></figcaption></figure>
 
 ### Come calcolare le coordinate e la dimensione del rettangolo
 
-Per poter calcolare agevolmente le coordinate e la dimensione del rettangolo ti suggeriamo di utilizzare [GIMP](https://www.gimp.org/downloads/), un tool gratuito e opensource disponibile per tutti i sistemi operativi.&#x20;
+Per poter calcolare agevolmente le coordinate e la dimensione del rettangolo ti suggeriamo di utilizzare [GIMP](https://www.gimp.org/downloads/), un tool gratuito e opensource disponibile per tutti i sistemi operativi.
 
 Ecco gli step da seguire:
 
@@ -32,7 +32,7 @@ Le informazioni da indicare verranno riportate all’interno dei campi **Posizio
 Ripeti questa operazione **per ogni campo firma** che vuoi inserire in ogni singola pagina.
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/gimp (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../firma-con-io/manuale-operativo/v1.0/.gitbook/assets/gimp (1).png" alt=""><figcaption></figcaption></figure>
 
 In base all'esempio qui sopra, la proprietà `attrs` del dossier sarà la seguente (la parte decimale può essere ignorata):
 

@@ -11,9 +11,9 @@ I comportamenti del Pulsante Firma con IO possono essere scelti dall’Ente nell
 È stato previsto lato UI per il pulsante Firma con IO una modale con **loading di attesa** in questa fase.
 {% endhint %}
 
-&#x20;3\.  Al termine del caricamento, l’utente atterra su app IO attraverso l’_universal link._
+3\. Al termine del caricamento, l’utente atterra su app IO attraverso l’_universal link._
 
-&#x20;4\. L’utente procede su app IO e firma
+4\. L’utente procede su app IO e firma
 
 ### **Firma in corso (da completare)**
 
@@ -37,19 +37,19 @@ Si consiglia in questo caso all’Ente di [verificare lo stato della firma](../v
 Si consiglia in questo caso all’Ente di [verificare lo stato della firma](../verificare-lo-stato-di-una-firma.md) e, **in caso di firma in corso di completamento (WAIT\_FOR\_QTSP)** di offrire all’utente un’information page che lo rimanda all’app IO per verificare lo stato della Firma.
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-03-28 alle 17.42.12.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../firma-con-io/manuale-operativo/v1.0/.gitbook/assets/Screenshot 2023-03-28 alle 17.42.12.png" alt=""><figcaption></figcaption></figure>
 
 ### **Errore di firma (problemi sui documenti)**
 
 L’utente procede correttamente con la firma in app, ma al termine del flusso firma riceve un messaggio di errore che lo informa che non è stato possibile procedere con la firma dei documenti. A questo punto torna a cliccare la CTA Firma con IO.
 
-Se non è stato possibile completare la firma, la ragione è legata a problemi tecnici nel/i documento/i inviato/i dall’Ente.&#x20;
+Se non è stato possibile completare la firma, la ragione è legata a problemi tecnici nel/i documento/i inviato/i dall’Ente.
 
 {% hint style="info" %}
 Si consiglia in questo caso all’Ente di [verificare lo stato della firma](../verificare-lo-stato-di-una-firma.md) e, in caso di firma rigettata **(REJECTED)**, non consentire all’utente di avviare una nuova richiesta di firma con quella stessa CTA. Si consiglia di inibire/eliminare la CTA oppure di sostituirla con una legata a documenti corretti. Prima della presa in carico, si consiglia di prevedere una error page informativa.
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-03-28 alle 17.40.30.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../firma-con-io/manuale-operativo/v1.0/.gitbook/assets/Screenshot 2023-03-28 alle 17.40.30.png" alt=""><figcaption></figcaption></figure>
 
 NB: agli Enti è messo a disposizione un endpoint per la validazione dei documenti prima dell’invio della richiesta di firma per evitare che questo problema si verifichi il più delle volte.
 
@@ -61,7 +61,4 @@ L’utente clicca sulla CTA Firma con IO ma l’APP IO temporaneamente non rispo
 Si consiglia in questo caso all’Ente di inserire un error page temporanea che consiglia all’utente di tornare a firmare tra qualche minuto.
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-03-28 alle 17.41.10.png" alt=""><figcaption></figcaption></figure>
-
-
-
+<figure><img src="../../../firma-con-io/manuale-operativo/v1.0/.gitbook/assets/Screenshot 2023-03-28 alle 17.41.10.png" alt=""><figcaption></figcaption></figure>

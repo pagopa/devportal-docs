@@ -2,7 +2,7 @@
 description: Overview
 ---
 
-# 🖊 Cos'è Firma con IO?
+# 🖊️ Cos'è Firma con IO?
 
 Firma con IO è un servizio che consente:
 
@@ -15,7 +15,7 @@ Firma con IO genera una **Firma Elettronica Qualificata** (FEQ), con certificato
 
 ### I benefici per i cittadini
 
-<figure><img src=".gitbook/assets/Schermata 2022-10-26 alle 12.27.11.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../firma-con-io/manuale-operativo/v1.0/.gitbook/assets/Schermata 2022-10-26 alle 12.27.11.png" alt=""><figcaption></figcaption></figure>
 
 La funzionalità garantisce ai cittadini questi benefici:
 
@@ -26,7 +26,7 @@ La funzionalità garantisce ai cittadini questi benefici:
 
 ### I benefici per gli enti
 
-<figure><img src=".gitbook/assets/Schermata 2022-10-25 alle 14.16.36.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../firma-con-io/manuale-operativo/v1.0/.gitbook/assets/Schermata 2022-10-25 alle 14.16.36.png" alt=""><figcaption></figcaption></figure>
 
 La funzionalità garantisce agli enti i seguenti benefici:
 
