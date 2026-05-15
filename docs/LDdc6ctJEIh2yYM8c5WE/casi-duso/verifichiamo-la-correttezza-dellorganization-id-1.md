@@ -377,7 +377,7 @@ La nostra base dati è stata correttamente aggiornata.
 
 ## Diagramma di Flusso:
 
-<figure><img src="../.gitbook/assets/Demo - Identificativo utente.drawio.png" alt=""><figcaption><p>Diagramma del flusso per interagire con il servizio "Attestazione - Identificativo organizzazione"</p></figcaption></figure>
+<figure><img src="../../pdnd-interoperabilita/manuale-operativo-attestazione/1.0/.gitbook/assets/Demo - Identificativo utente.drawio.png" alt=""><figcaption><p>Diagramma del flusso per interagire con il servizio "Attestazione - Identificativo organizzazione"</p></figcaption></figure>
 
 
 

@@ -139,8 +139,7 @@ apikey: {{apikey}}
 #### **Status codes:**
 
 * **201** - Configurazione salvata con successo
-
-- **400** - Errore formato dati input
+* **400** - Errore formato dati input
 
 </details>
 
@@ -246,8 +245,7 @@ apikey: {{apikey}}
 #### Response
 
 * Status code: **202** - Richiesta completata con successo
-
-- Status code: **400, 401, 403, 404, 500, 503**
+* Status code: **400, 401, 403, 404, 500, 503**
 
 {% code lineNumbers="true" %}
 ```json
@@ -355,8 +353,7 @@ apikey: {{apikey}}
 #### Response
 
 * Status code: **200** - Richiesta completata con successo
-
-- Status code: **400, 401, 403, 404, 500, 503**
+* Status code: **400, 401, 403, 404, 500, 503**
 
 {% code lineNumbers="true" %}
 ```json
@@ -561,4 +558,4 @@ La nostra base dati è stata correttamente aggiornata. Non abbiamo inserito l’
 
 ## Diagramma di flusso
 
-<figure><img src="../.gitbook/assets/Demo - Verifica indirizzo digitale.drawio.png" alt=""><figcaption><p>Diagramma del flusso per interagire con il servizio "Attestazione - Verifica indirizzo digitale"</p></figcaption></figure>
+<figure><img src="../../pdnd-interoperabilita/manuale-operativo-attestazione/1.0/.gitbook/assets/Demo - Verifica indirizzo digitale.drawio.png" alt=""><figcaption><p>Diagramma del flusso per interagire con il servizio "Attestazione - Verifica indirizzo digitale"</p></figcaption></figure>
