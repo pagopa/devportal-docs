@@ -6,7 +6,7 @@ In presenza di almeno un domicilio digitale, PN notifica l’AAR attraverso PEC 
 2. Domicilio digitale speciale (indicato dall’ente mittente nella creazione della notifica; si invita l’ente ad informare debitamente i destinatari che abbiano eletto un domicilio speciale presso l’ente stesso relativamente alle modalità e tempistiche di aggiornamento, modifica e/o cancellazione del predetto domicilio, nonché degli effetti conseguenti a tali modifiche e/o cancellazioni.)
 3. Domicilio digitale generale (fornito da IniPEC, IPA o INAD)
 
-<figure><img src="../../.gitbook/assets/image (81).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../send/manuale-operativo/v1.1.3/.gitbook/assets/image (91).png" alt=""><figcaption></figcaption></figure>
 
 PN interromperà il tentativo di invio al primo successo. Nel caso di fallimento nel primo tentativo di invio digitale (es. casella postale satura o indisponibilità momentanea a causa di disservizio del fornitore della PEC o SERCQ), la notifica in via digitale sarà ritentata dopo almeno 7 giorni dal primo fallimento. La distanza tra il primo ed il secondo tentativo può variare da 7 a 9 giorni in base al carico del sistema.
 

@@ -8,4 +8,4 @@ Per le deleghe create dall’utente vengono mostrati: il nome del delegato, le d
 
 Per le deleghe ricevute vengono mostrati: il nome del delegante, le date di inizio e fine validità, l’eventuale PA associata e lo stato della delega.
 
-<figure><img src="../../../../.gitbook/assets/image (100).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../send/manuale-operativo/v1.1.3/.gitbook/assets/image (110).png" alt=""><figcaption></figcaption></figure>
