@@ -11,16 +11,14 @@ Scarica [qui](../../appendice/risorse-utili.md) gli adattamenti per i post socia
 
     Un unico punto di accesso, facile e sicuro, per interagire con la Pubblica Amministrazione.&#x20;
 
-    \#ComeVoglioIO \
-
+    \#ComeVoglioIO <br>
 2.  **Copy servizi /1 - esempio TARI**
 
     Sai che su @IO puoi ricevere gli avvisi sulla scadenza della TARI?&#x20;
 
     Entra nell’app e scopri tutti i servizi per i tributi del Comune a disposizione per te.&#x20;
 
-    \#ComeVoglioIO\
-
+    \#ComeVoglioIO<br>
 3.  **Copy servizi/2 - esempio mensa scolastica o altri servizi di pagamento**
 
     Paga la mensa scolastica con @IO. Ricevi l’avviso di pagamento direttamente sul tuo smartphone e con un pulsante puoi pagare in pochi secondi tramite l’app. Scopri tutti gli altri servizi pubblici locali a disposizione per te.&#x20;

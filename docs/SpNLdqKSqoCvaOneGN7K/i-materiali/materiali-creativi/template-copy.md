@@ -37,8 +37,7 @@ Entra nell’app e scopri tutti i servizi scolastici del Comune a disposizione p
 <summary>Servizi tributi</summary>
 
 Sai che su IO puoi ricevere gli avvisi sulla scadenza della TARI?\
-Entra nell’app e scopri tutti i servizi per i tributi del Comune a disposizione per te. \
-
+Entra nell’app e scopri tutti i servizi per i tributi del Comune a disposizione per te. <br>
 
 </details>
 
