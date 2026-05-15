@@ -1,12 +1,12 @@
 # Inviare messaggi
 
-I messaggi inviati dagli enti in IO sono sempre **comunicazioni di carattere personale**, in quanto indirizzate a uno specifico utente.&#x20;
+I messaggi inviati dagli enti in IO sono sempre **comunicazioni di carattere personale**, in quanto indirizzate a uno specifico utente.
 
-L'ente può interrogare il back end rispetto al Codice Fiscale di un utente di cui è a conoscenza e a cui ha qualcosa di personale da comunicare. Se il Codice Fiscale risulta presente tra gli utenti dell'app e ha il servizio attivo, l'ente è autorizzato a procedere e inviare la propria comunicazione.&#x20;
+L'ente può interrogare il back end rispetto al Codice Fiscale di un utente di cui è a conoscenza e a cui ha qualcosa di personale da comunicare. Se il Codice Fiscale risulta presente tra gli utenti dell'app e ha il servizio attivo, l'ente è autorizzato a procedere e inviare la propria comunicazione.
 
 Ne consegue che **è escluso sia l’invio di comunicazioni massive** alla totalità dell’utenza di IO, **sia l’invio a utenti che non siano destinatari diretti** dei servizi erogati.
 
-![Esempio di messaggi inviati a un utente su IO](../../.gitbook/assets/msg.png)
+![Esempio di messaggi inviati a un utente su IO](../../../app-io/manuale-servizi/v2.1/.gitbook/assets/msg.png)
 
 ## Tipologie di messaggi
 
@@ -56,7 +56,7 @@ Ecco un riassunto delle funzionalità e la tipologia di messaggi a cui si applic
 Oltre alle categorizzazioni precedentemente descritte, i messaggi sono identificabili in due tipologie, **secondo la modalità di gestione del contenuto** previsto dalla tua Organizzazione:
 
 * **Tradizionali**, ovvero i messaggi il cui contenuto è invariabile nel tempo e definito al momento del loro invio;
-* **A contenuto remoto**, ovvero i messaggi il cui contenuto non è persistito su IO ma fornito direttamente dai tuoi sistemi al momento della loro fruizione da parte del destinatario. In particolare, i messaggi a contenuto remoto sono pensati per le comunicazioni che veicolano informazioni sensibili.&#x20;
+* **A contenuto remoto**, ovvero i messaggi il cui contenuto non è persistito su IO ma fornito direttamente dai tuoi sistemi al momento della loro fruizione da parte del destinatario. In particolare, i messaggi a contenuto remoto sono pensati per le comunicazioni che veicolano informazioni sensibili.
 
 Puoi trovare informazioni di dettaglio sui messaggi a contenuto remoto nella [sezione dedicata della Guida tecnica di IO](https://app.gitbook.com/s/sUBZStlCQZzLI6ZesbND/funzionalita/inviare-un-messaggio/inviare-un-messaggio-a-contenuto-remoto).
 
