@@ -49,7 +49,7 @@ Seleziona la tipologia dell’ente per cui stai operando, ai sensi degli artt. 2
 
 Quando l’informazione è disponibile tramite IPA, la tipologia è preselezionata; è comunque possibile modificarla scegliendo un’opzione diversa.
 
-<figure><img src="../../../pdnd-interoperabilita/manuale-operativo-pdnd-interoperabilita/v1.0/.gitbook/assets/interop_guida_adesione.png" alt=""><figcaption><p>La schermata di selezione della tipologia dell'ente</p></figcaption></figure>
+<figure><img src="../../pdnd-interoperabilita/manuale-operativo-pdnd-interoperabilita/v1.0/.gitbook/assets/interop_guida_adesione.png" alt=""><figcaption><p>La schermata di selezione della tipologia dell'ente</p></figcaption></figure>
 
 Successivamente, confermare che le informazioni visualizzate siano corrette per poter proseguire.
 
@@ -57,9 +57,9 @@ Successivamente, confermare che le informazioni visualizzate siano corrette per 
 
 Questo passaggio sarà disponibile solo per Pubbliche Amministrazioni (PA), Gestori di Servizi Pubblici (GSP), Società a Controllo Pubblico (SCP) e Società in Conto Economico Consolidato (SCEC).
 
-<figure><img src="../../../pdnd-interoperabilita/manuale-operativo-pdnd-interoperabilita/v1.0/.gitbook/assets/Screenshot 2024-10-09 alle 09.36.09.png" alt="" width="375"><figcaption><p>La schermata di selezione dell'ente per SCP</p></figcaption></figure>
+<figure><img src="../../pdnd-interoperabilita/manuale-operativo-pdnd-interoperabilita/v1.0/.gitbook/assets/Screenshot 2024-10-09 alle 09.36.09.png" alt="" width="375"><figcaption><p>La schermata di selezione dell'ente per SCP</p></figcaption></figure>
 
-<figure><img src="../../../pdnd-interoperabilita/manuale-operativo-pdnd-interoperabilita/v1.0/.gitbook/assets/selfcare.pagopa.it_onboarding_prod-interop(Macbook Pro – Screenshot).png" alt="" width="375"><figcaption><p>La schermata di selezione dell'ente per PA e GSP</p></figcaption></figure>
+<figure><img src="../../pdnd-interoperabilita/manuale-operativo-pdnd-interoperabilita/v1.0/.gitbook/assets/selfcare.pagopa.it_onboarding_prod-interop(Macbook Pro – Screenshot).png" alt="" width="375"><figcaption><p>La schermata di selezione dell'ente per PA e GSP</p></figcaption></figure>
 
 **Pubbliche Amministrazioni (PA) e Gestori di Servizi Pubblici (GSP)**
 
@@ -74,7 +74,7 @@ Questo passaggio sarà disponibile solo per Pubbliche Amministrazioni (PA), Gest
 
 #### 4. Inserire i dati dell'ente
 
-![La schermata nella quale indicare i dati dell'ente, abitualmente precompilata con le informazioni che vengono dal Catalogo IPA](<../../../pdnd-interoperabilita/manuale-operativo-pdnd-interoperabilita/v1.0/.gitbook/assets/uat.selfcare.pagopa.it_onboarding_prod-interop(Macbook Pro – Screenshot) (2).png>)
+![La schermata nella quale indicare i dati dell'ente, abitualmente precompilata con le informazioni che vengono dal Catalogo IPA](<../../pdnd-interoperabilita/manuale-operativo-pdnd-interoperabilita/v1.0/.gitbook/assets/uat.selfcare.pagopa.it_onboarding_prod-interop(Macbook Pro – Screenshot) (2).png>)
 
 * I campi sopra indicati vengono precompilati, quando disponibili, sulla base delle fonti ufficiali.
 * Quando l’origine è il Catalogo IPA, i campi Ragione sociale, Sede legale, Indirizzo PEC, Codice fiscale e Partita IVA sono valorizzati e bloccati per garantire coerenza con i dati IPA.
@@ -83,7 +83,7 @@ Questo passaggio sarà disponibile solo per Pubbliche Amministrazioni (PA), Gest
 
 #### 5. Indicare il Legale Rappresentante
 
-![La schermata nella quale si inseriscono le informazioni del legale rappresentante dell'ente](<../../../pdnd-interoperabilita/manuale-operativo-pdnd-interoperabilita/v1.0/.gitbook/assets/uat.selfcare.pagopa.it_onboarding_prod-interop(Macbook Pro – Screenshot) (3).png>)
+![La schermata nella quale si inseriscono le informazioni del legale rappresentante dell'ente](<../../pdnd-interoperabilita/manuale-operativo-pdnd-interoperabilita/v1.0/.gitbook/assets/uat.selfcare.pagopa.it_onboarding_prod-interop(Macbook Pro – Screenshot) (3).png>)
 
 * Compila i dati richiesti per la sezione legale rappresentante.
 * Ai fini dell’adesione, la figura può coincidere con il rappresentante pro tempore oppure con un procuratore munito dei poteri di firma necessari.
@@ -91,7 +91,7 @@ Questo passaggio sarà disponibile solo per Pubbliche Amministrazioni (PA), Gest
 
 #### 6. Nomina degli Amministratori
 
-![La schermata nella quale si inseriscono i dati degli utenti con privilegi di amministrazione](<../../../pdnd-interoperabilita/manuale-operativo-pdnd-interoperabilita/v1.0/.gitbook/assets/uat.selfcare.pagopa.it_onboarding_prod-interop(Macbook Pro – Screenshot) (4).png>)
+![La schermata nella quale si inseriscono i dati degli utenti con privilegi di amministrazione](<../../pdnd-interoperabilita/manuale-operativo-pdnd-interoperabilita/v1.0/.gitbook/assets/uat.selfcare.pagopa.it_onboarding_prod-interop(Macbook Pro – Screenshot) (4).png>)
 
 Il passo successivo consiste nella nomina di uno o più Amministratori. Queste figure saranno gli utenti principali del back-office di Interoperabilità e avranno il compito di gestire la piattaforma per conto dell'ente.
 
@@ -112,7 +112,7 @@ L'ente deve:
 
 #### 8. Caricamento dell'Accordo e Finalizzazione
 
-![La schermata nella quale si carica l'accordo di adesione ricevuto al domicilio digitale, firmato dal legale rappresentante dell'ente](<../../../pdnd-interoperabilita/manuale-operativo-pdnd-interoperabilita/v1.0/.gitbook/assets/Screenshot 2022-07-28 at 17.15.59.png>)
+![La schermata nella quale si carica l'accordo di adesione ricevuto al domicilio digitale, firmato dal legale rappresentante dell'ente](<../../pdnd-interoperabilita/manuale-operativo-pdnd-interoperabilita/v1.0/.gitbook/assets/Screenshot 2022-07-28 at 17.15.59.png>)
 
 L'ultimo passaggio consiste nel tornare sulla piattaforma e caricare il file `.p7m` dell'accordo firmato. Il sistema verificherà automaticamente la validità della firma.
 

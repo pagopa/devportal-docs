@@ -60,7 +60,7 @@ L'erogatore scarica la lista di chiavi in uso da un file esposto nella cartella 
 
 A titolo di esempio, [https://interop.pagopa.it/.well-known/jwks.json](https://interop.pagopa.it/.well-known/jwks.json) è quella di produzione.
 
-<figure><img src="../../../../pdnd-interoperabilita/manuale-operativo-pdnd-interoperabilita/v1.0/.gitbook/assets/screen well-known" alt="" width="563"><figcaption><p>Esempio in ambiente di test su dove si trova il .well-known,<br>si apre la tendina cliccando sulla voce "Vedi i dettagli tecnici dell'e-service"</p></figcaption></figure>
+<figure><img src="../../../pdnd-interoperabilita/manuale-operativo-pdnd-interoperabilita/v1.0/.gitbook/assets/screen well-known" alt="" width="563"><figcaption><p>Esempio in ambiente di test su dove si trova il .well-known,<br>si apre la tendina cliccando sulla voce "Vedi i dettagli tecnici dell'e-service"</p></figcaption></figure>
 
 All'interno del file, l'erogatore cerca l'oggetto che ha lo stesso `kid` presente nell'header del voucher. In quello stesso oggetto troverà la chiave pubblica al parametro `n`. Effettuerà dunque una verifica della firma, che la chiave privata usata per firmare il voucher corrisponda a quella pubblica appena ottenuta.
 
