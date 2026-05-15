@@ -6,25 +6,25 @@ description: Migliorare l'Accessibilità ai Pagamenti pagoPA
 
 ## Processo di pagamento in Stand In
 
-Lo Stand In è una funzionalità che consente ai cittadini di effettuare i pagamenti degli avvisi pagoPA anche quando i sistemi degli Enti Creditori (EC) non sono disponibili. Questo significa che, in situazioni in cui i sistemi degli EC sono temporaneamente indisponibili,  gli utenti possono comunque procedere con i pagamenti senza interruzioni. L'implementazione di questa funzionalità è finalizzata a migliorare le performance e la disponibilità della piattaforma pagoPA.&#x20;
+Lo Stand In è una funzionalità che consente ai cittadini di effettuare i pagamenti degli avvisi pagoPA anche quando i sistemi degli Enti Creditori (EC) non sono disponibili. Questo significa che, in situazioni in cui i sistemi degli EC sono temporaneamente indisponibili, gli utenti possono comunque procedere con i pagamenti senza interruzioni. L'implementazione di questa funzionalità è finalizzata a migliorare le performance e la disponibilità della piattaforma pagoPA.
 
-<figure><img src="../../.gitbook/assets/image (53).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../pago-pa/sanp/3.6.1/.gitbook/assets/image (53).png" alt=""><figcaption></figcaption></figure>
 
 ### Funzionalità di Stand In per i pagamenti attivati presso PSP
 
-La funzionalità di Stand In può essere attivata per il caso [pagamento-di-un-avviso-presso-psp.md](../../casi-duso/pagamento-di-un-avviso-presso-psp.md "mention"), in particolare valutando le primitive [paVerifyPaymentNotice](../../appendici/primitive.md#paverifypaymentnotice) e [paGetPaymentV1/V2](../../appendici/primitive.md#pagetpayment).&#x20;
+La funzionalità di Stand In può essere attivata per il caso [pagamento-di-un-avviso-presso-psp.md](../../casi-duso/pagamento-di-un-avviso-presso-psp.md "mention"), in particolare valutando le primitive [paVerifyPaymentNotice](../../appendici/primitive.md#paverifypaymentnotice) e [paGetPaymentV1/V2](../../appendici/primitive.md#pagetpayment).
 
-In caso l'EC non risponda alle richieste relative a queste due primitive entro il tempo massimo previsto, la piattaforma attiva automaticamente la funzionalità di Stand In, il nodo dei pagamenti procede a verificare la presenza dell'avviso di pagamento in [#archivio-centralizzato-avvisi](../../ente-creditore/modalita-dintegrazione/integrazione-tramite-api-sincrone.md#archivio-centralizzato-avvisi "mention").&#x20;
+In caso l'EC non risponda alle richieste relative a queste due primitive entro il tempo massimo previsto, la piattaforma attiva automaticamente la funzionalità di Stand In, il nodo dei pagamenti procede a verificare la presenza dell'avviso di pagamento in [#archivio-centralizzato-avvisi](../../ente-creditore/modalita-dintegrazione/integrazione-tramite-api-sincrone.md#archivio-centralizzato-avvisi "mention").
 
-Se l'avviso di pagamento è stato correttamente caricato nell'ACA, la piattaforma pagoPA conferma l'importo dell'avviso e consente al cittadino di procedere al pagamento.&#x20;
+Se l'avviso di pagamento è stato correttamente caricato nell'ACA, la piattaforma pagoPA conferma l'importo dell'avviso e consente al cittadino di procedere al pagamento.
 
-In questo caso il pagamento viene gestito in modalità Stand In, al termine del pagamento pagoPA effettua l'invio della ricevuta tramite la [paSendRTV1/V2](../../appendici/primitive.md#pasendrt) utilizzando le modalità standard dettagliate in [Fase invio della ricevuta](../../ente-creditore/modalita-dintegrazione/integrazione-tramite-api-sincrone.md#fase-invio-ricevuta).&#x20;
+In questo caso il pagamento viene gestito in modalità Stand In, al termine del pagamento pagoPA effettua l'invio della ricevuta tramite la [paSendRTV1/V2](../../appendici/primitive.md#pasendrt) utilizzando le modalità standard dettagliate in [Fase invio della ricevuta](../../ente-creditore/modalita-dintegrazione/integrazione-tramite-api-sincrone.md#fase-invio-ricevuta).
 
 Tuttavia, se l'avviso di pagamento non è presente in ACA, il cittadino non è in grado di procedere al pagamento poiché pagoPA non dispone dei dati necessari.
 
 ### Tracciamento dei pagamenti in Stand In
 
-Per identificare e distinguere i pagamenti gestiti tramite il processo di Stand In da quelli gestiti mediante il processo standard, gli EC ed i PSP, che vogliono ricevere tale informazione, devono adeguare il proprio software per la gestione del nuovo flag.&#x20;
+Per identificare e distinguere i pagamenti gestiti tramite il processo di Stand In da quelli gestiti mediante il processo standard, gli EC ed i PSP, che vogliono ricevere tale informazione, devono adeguare il proprio software per la gestione del nuovo flag.
 
 Il flag _standin_ viene valorizzato nelle primitive:
 

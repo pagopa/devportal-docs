@@ -1,8 +1,8 @@
 # POS Fisici
 
-Avendo un _carattere meramente orientativo_ il contenuto della pagina corrente è immediatamente applicabile e ha lo scopo di incentivare i pagamenti con carta in tutti i possibili scenari di pagamento, fornendo indicazioni sia ai PSP sia a tutte le tipologie di EC aderenti a pagoPA, delineando le caratteristiche di un servizio di pagamento compatibile con le specifiche attuative della piattaforma pagoPA.&#x20;
+Avendo un _carattere meramente orientativo_ il contenuto della pagina corrente è immediatamente applicabile e ha lo scopo di incentivare i pagamenti con carta in tutti i possibili scenari di pagamento, fornendo indicazioni sia ai PSP sia a tutte le tipologie di EC aderenti a pagoPA, delineando le caratteristiche di un servizio di pagamento compatibile con le specifiche attuative della piattaforma pagoPA.
 
-<figure><img src="../.gitbook/assets/posFisiciModelloUnico.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../pago-pa/sanp/3.6.1/.gitbook/assets/posFisiciModelloUnico.png" alt=""><figcaption></figcaption></figure>
 
 * Presupposto del pagamento è che la posizione debitoria sia stata preventivamente creata dall'EC e comunicata al POS con i suoi dati fondamentali, _qrCode_ e _amount_;
 * il _qrCode_ deve essere scambiato con il PSP, in modo che quest'ultimo possa procedere con l'attivazione;

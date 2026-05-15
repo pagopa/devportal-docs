@@ -4,11 +4,7 @@ Questo processo prevede che l’esecuzione del pagamento spontaneo avvenga press
 
 Solitamente l'utente dopo aver inserito i dati essenziali del servizio, utili per definire la posizione debitoria, potrà procedere con il pagamento.
 
-<div align="left">
-
-<img src="../../.gitbook/assets/nuovoModello4_ENG (5).png" alt="">
-
-</div>
+<div align="left"><img src="../../../pago-pa/sanp/3.6.1/.gitbook/assets/nuovo_modello_ENG.png" alt=""></div>
 
 * La [demandPaymentNotice](../../appendici/primitive.md#demandpaymentnotice) è utilizzabile dai PSP per inviare i dati del servizio specifico inseriti dall'utente, in modo da ricevere in risposta le informazioni per avviare il processo di pagamento, tale fase è obbligatoria per i PSP;
 * la [paDemandPaymentNotice](../../appendici/primitive.md#pademandpaymentnotice) è utilizzata per richiedere all’EC la creazione della posizione debitoria in base ai dati dello specifico servizio inviati, l'EC invierà in risposta il numero avviso e i dati dell'Ente Beneficiario del pagamento;
