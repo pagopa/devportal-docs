@@ -9,17 +9,17 @@ Per gli Operatori che aderiscono al Programma riconoscendo le opportunità nei n
 
 ## **Operatori che operano online**
 
-Gli Operatori che aderiscono al Programma sono tenuti a riconoscere le medesime opportunità anche ai possessori di carta EYCA. Coloro che operano online e utilizzano il modello codice statico o lista di codici statici, abilitano il riconoscimento dell'opportunità nell'ambito del circuito EYCA, nel qual caso l’opportunità sarà pubblicata anche sul [portale EYCA](https://www.eyca.org/discounts) (in lingue inglese),   consapevoli che ciò significa pubblicare in chiaro il codice statico dell'opportunità sul portale EYCA nell’ambito del relativo sistema di visibilità ed accesso.
+Gli Operatori che aderiscono al Programma sono tenuti a riconoscere le medesime opportunità anche ai possessori di carta EYCA. Coloro che operano online e utilizzano il modello codice statico o lista di codici statici, abilitano il riconoscimento dell'opportunità nell'ambito del circuito EYCA, nel qual caso l’opportunità sarà pubblicata anche sul [portale EYCA](https://www.eyca.org/discounts) (in lingue inglese), consapevoli che ciò significa pubblicare in chiaro il codice statico dell'opportunità sul portale EYCA nell’ambito del relativo sistema di visibilità ed accesso.
 
 ***
 
 Gli Operatori che hanno scelto la modalità lista di codici, dovranno fornire al Dipartimento una lista di codici per ciascuna opportunità estesa ai possessori della carta EYCA, compilata seguendo il template allegato:
 
-{% file src="../.gitbook/assets/bucket_EYCA_format.xls" %}
-&#x20; Template per caricamento lista codici statici su sito EYCA
+{% file src="../../app-io/carta-giovani-nazionale/v2.0.0/.gitbook/assets/bucket_EYCA_format.xls" %}
+Template per caricamento lista codici statici su sito EYCA
 {% endfile %}
 
-La lista, di almeno 10000 codici, deve essere **diversa da quella creata e caricata sul Portale Operatori di Carta Giovani Nazionale** e deve essere inviata al seguente indirizzo email: [cartagiovaninazionale@governo.it](mailto:cartagiovaninazionale@governo.it).&#x20;
+La lista, di almeno 10000 codici, deve essere **diversa da quella creata e caricata sul Portale Operatori di Carta Giovani Nazionale** e deve essere inviata al seguente indirizzo email: [cartagiovaninazionale@governo.it](mailto:cartagiovaninazionale@governo.it).
 
 Le liste corrispondenti alle singole opportunità saranno poi caricate sul [portale EYCA](https://www.eyca.org/discounts).
 

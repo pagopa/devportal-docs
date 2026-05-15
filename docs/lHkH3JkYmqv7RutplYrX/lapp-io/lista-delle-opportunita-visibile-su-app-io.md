@@ -1,6 +1,6 @@
 # Lista delle opportunità visibile su App IO
 
-<figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../app-io/carta-giovani-nazionale/v2.0.0/.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
 
 Il giovane beneficiario della CGN, che intende accedere alla lista delle opportunità accede alla sezione CGN della AppIO, tocca "_Scopri le opportunità CGN_" e atterra su una schermata di presentazione delle categorie merceologiche delle opportunità offerte dai partner (Operatori) dell'iniziativa.
 
@@ -32,4 +32,4 @@ Toccando un’opportunità si apre un _bottom sheet_ che ne presenta i dettagli:
 * eventuali condizioni applicate all’opportunità;
 * in caso di operatore online, la modalità di accesso all’opportunità, di cui si mostrano qui le relative schermate d'esempio.
 
-<figure><img src="../.gitbook/assets/image (15).png" alt=""><figcaption><p>Le modalità di riconoscimento delle opportunità </p></figcaption></figure>
+<figure><img src="../../app-io/carta-giovani-nazionale/v2.0.0/.gitbook/assets/image (15).png" alt=""><figcaption><p>Le modalità di riconoscimento delle opportunità</p></figcaption></figure>
