@@ -6,7 +6,7 @@ description: >-
 
 # Importo e scadenza
 
-![Dettaglio della sezione "Importo e scadenza" all'interno dell'avviso di pagamento pagoPA.](<../../.gitbook/assets/Importo e Dove.png>)
+![Dettaglio della sezione "Importo e scadenza" all'interno dell'avviso di pagamento pagoPA.](<../../../pago-pa/avviso-pagamento/3.0.0/.gitbook/assets/Importo e Dove.png>)
 
 ### `AVVISO.IMPORTO` <a href="#avviso-importo" id="avviso-importo"></a>
 

@@ -21,6 +21,6 @@ Avviso di pagamento in lingua inglese (su FIgma).
 
 ### Risorse disponibili
 
-{% file src="../../../.gitbook/assets/pagoPA-Avvisi-3.0-Inglese.zip" %}
+{% file src="../../../../pago-pa/avviso-pagamento/3.0.0/.gitbook/assets/pagoPA-Avvisi-3.0-Inglese.zip" %}
 Avviso di pagamento in lingua inglese (SVG e PDF).
 {% endfile %}
