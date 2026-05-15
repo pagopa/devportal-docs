@@ -6,18 +6,18 @@ Erogare il servizio "Rimozione veicoli" tramite IO permette agli enti di:
 * **ridurre i tempi** e i costi del processo di notifica e consegna della contravvenzione;
 * **velocizzare i tempi** di recupero della vettura in caso di blocco o rimozione.
 
-[**Scopri tutti i benefici di integrarsi con IO →**  ](../../cose-io-e-qual-e-il-suo-obiettivo.md#perche-integrarsi-con-io)
+[**Scopri tutti i benefici di integrarsi con IO →**](../../cose-io-e-qual-e-il-suo-obiettivo.md#perche-integrarsi-con-io)
 
 ## Scheda servizio e attributi
 
-| **Nome servizio**            | Rimozione veicoli                                                                                                                                                                                                                                                                                                                                                              |
-| ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **Argomento**                | Mobilità e trasporti                                                                                                                                                                                                                                                                                                                                                           |
-| **Descrizione del servizio** | <p>Il servizio riguarda la rimozione e il blocco di veicoli intestati a te.</p><p></p><p>Tramite IO potrai:</p><ul><li>ricevere un messaggio che ti informa che il tuo veicolo è stato bloccato, rimosso o segnalato come abbandonato;</li><li>ricevere un messaggio che ti informa che il deposito del veicolo è in scadenza;</li><li>ricevere altre comunicazioni.</li></ul> |
+| **Nome servizio**            | Rimozione veicoli                                                                                                                                                                                                                                                                                                                                                       |
+| ---------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Argomento**                | Mobilità e trasporti                                                                                                                                                                                                                                                                                                                                                    |
+| **Descrizione del servizio** | <p>Il servizio riguarda la rimozione e il blocco di veicoli intestati a te.</p><p>Tramite IO potrai:</p><ul><li>ricevere un messaggio che ti informa che il tuo veicolo è stato bloccato, rimosso o segnalato come abbandonato;</li><li>ricevere un messaggio che ti informa che il deposito del veicolo è in scadenza;</li><li>ricevere altre comunicazioni.</li></ul> |
 
 ## **Ciclo di vita del servizio**
 
-<figure><img src="../../.gitbook/assets/Rimozioni.5.png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio rimozione veicoli</strong></p></figcaption></figure>
+<figure><img src="../../../app-io/manuale-servizi/v2.0/.gitbook/assets/Rimozioni.5.png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio rimozione veicoli</strong></p></figcaption></figure>
 
 ## Messaggio del servizio
 
@@ -33,11 +33,11 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 **🖋 Titolo del messaggio:** Il tuo veicolo è stato bloccato
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
-Il `<gg/mm/aaaa>` alle `<hh:mm>`, in `<indirizzo>`, il veicolo targato `<targa>` è stato bloccato con le ganasce per queste violazioni:&#x20;
+Il `<gg/mm/aaaa>` alle `<hh:mm>`, in `<indirizzo>`, il veicolo targato `<targa>` è stato bloccato con le ganasce per queste violazioni:
 
-**• `<tipologia di violazione>` - art. `<numero>`**
+**• `<tipologia di violazione>` - art. `<numero>`**
 
 **Accertamento numero**: `<numero accertamento>`
 
@@ -45,7 +45,7 @@ Il `<gg/mm/aaaa>` alle `<hh:mm>`, in `<indirizzo>`, il veicolo targato `<targa>`
 
 `<Inserire indicazioni su cosa deve fare il destinatario, per es. "Contatta la polizia locale al numero">`. Per maggiori informazioni visita \[questo sito]\(URL).
 
-**🪄  Pulsante**: n/a
+**🪄 Pulsante**: n/a
 
 **---**
 
@@ -53,9 +53,9 @@ Il `<gg/mm/aaaa>` alle `<hh:mm>`, in `<indirizzo>`, il veicolo targato `<targa>`
 
 **Quando inviarlo**: Quando è commessa la violazione e il blocco è stato applicato
 
-**User story**: <mark style="color:purple;">Come cittadino voglio ricevere notifica immediata della violazione commessa e del blocco apposto</mark>&#x20;
+**User story**: <mark style="color:purple;">Come cittadino voglio ricevere notifica immediata della violazione commessa e del blocco apposto</mark>
 
-<mark style="color:purple;">ℹ️</mark> Questo messaggio arriva sempre insieme ad un [messaggio di preavviso di accertamento](multe-per-violazione-codice-della-strada.md#emissione-preavviso-di-accertamento), puoi decidere di mandare un messaggio unico. &#x20;
+<mark style="color:purple;">ℹ️</mark> Questo messaggio arriva sempre insieme ad un [messaggio di preavviso di accertamento](multe-per-violazione-codice-della-strada.md#emissione-preavviso-di-accertamento), puoi decidere di mandare un messaggio unico.
 
 </details>
 
@@ -63,9 +63,9 @@ Il `<gg/mm/aaaa>` alle `<hh:mm>`, in `<indirizzo>`, il veicolo targato `<targa>`
 
 <summary>Avvenuta rimozione del veicolo</summary>
 
-**🖋 Titolo del messaggio:** Il tuo veicolo è stato rimosso&#x20;
+**🖋 Titolo del messaggio:** Il tuo veicolo è stato rimosso
 
-🗒 **Testo del messaggio**:  Il `<gg/mm/aaaa>` alle `<hh:mm>`, in `<indirizzo>`, il veicolo targato `<targa>` è stato rimosso per queste violazioni:
+🗒 **Testo del messaggio**: Il `<gg/mm/aaaa>` alle `<hh:mm>`, in `<indirizzo>`, il veicolo targato `<targa>` è stato rimosso per queste violazioni:
 
 * **`<tipologia di violazione>` - art. `<numero>`**
 
@@ -77,7 +77,7 @@ Il tuo veicolo si trova presso il deposito in `<indirizzo>`.\
 \
 `<Inserire indicazioni su cosa deve fare il destinatario, per es. "Hai tempo fino al <gg/mm/aa> per ritirarlo>`. Per maggiori informazioni visita \[questo sito]\(URL) o contatta `<ente da contattare>``<modalità di contatto>`.
 
-**🪄  Pulsante**: n/a
+**🪄 Pulsante**: n/a
 
 **---**
 
@@ -85,9 +85,9 @@ Il tuo veicolo si trova presso il deposito in `<indirizzo>`.\
 
 **Quando inviarlo**: Quando è commessa la violazione e la rimozione è stata effettuata
 
-**User story**: <mark style="color:purple;">Come cittadino voglio ricevere notifica immediata della violazione commessa e della rimozione avvenuta</mark>&#x20;
+**User story**: <mark style="color:purple;">Come cittadino voglio ricevere notifica immediata della violazione commessa e della rimozione avvenuta</mark>
 
-<mark style="color:purple;">ℹ️</mark> Questo messaggio arriva sempre insieme ad un [messaggio di preavviso di accertamento](multe-per-violazione-codice-della-strada.md#emissione-preavviso-di-accertamento), puoi decidere di mandare un messaggio unico. &#x20;
+<mark style="color:purple;">ℹ️</mark> Questo messaggio arriva sempre insieme ad un [messaggio di preavviso di accertamento](multe-per-violazione-codice-della-strada.md#emissione-preavviso-di-accertamento), puoi decidere di mandare un messaggio unico.
 
 </details>
 
@@ -97,9 +97,9 @@ Il tuo veicolo si trova presso il deposito in `<indirizzo>`.\
 
 **🖋 Titolo del messaggio:** Il deposito del tuo veicolo è in scadenza
 
-🗒 **Testo del messaggio**:  Hai tempo fino al `<gg/mm/aaaa>` per ritirare il veicolo targato `<numero targa>` presso il deposito in `<indirizzo>`.&#x20;
+🗒 **Testo del messaggio**: Hai tempo fino al `<gg/mm/aaaa>` per ritirare il veicolo targato `<numero targa>` presso il deposito in `<indirizzo>`.
 
-Potrai ritirarlo solo dopo avere pagato i costi di servizio e deposito. Se non lo ritiri entro il termine stabilito, `<inserire cosa succede>`.&#x20;
+Potrai ritirarlo solo dopo avere pagato i costi di servizio e deposito. Se non lo ritiri entro il termine stabilito, `<inserire cosa succede>`.
 
 Per maggiori informazioni visita \[questo sito]\(URL) o contatta `<ente da contattare>``<modalità di contatto>`.
 
@@ -107,7 +107,7 @@ Per maggiori informazioni visita \[questo sito]\(URL) o contatta `<ente da conta
 
 **---**
 
-**Destinatari**:  Il cittadino a cui è stato bloccato e rimosso il veicolo in seguito a violazione e non è andato a ritirarla&#x20;
+**Destinatari**: Il cittadino a cui è stato bloccato e rimosso il veicolo in seguito a violazione e non è andato a ritirarla
 
 **Quando inviarlo**: Quando la scadenza del deposito si avvicina
 
@@ -121,7 +121,7 @@ Per maggiori informazioni visita \[questo sito]\(URL) o contatta `<ente da conta
 
 **🖋 Titolo del messaggio:** Il tuo veicolo risulta abbandonato
 
-🗒 **Testo del messaggio**: Il veicolo targato `<targa>` in `<indirizzo>` è considerato in stato in abbandono.&#x20;
+🗒 **Testo del messaggio**: Il veicolo targato `<targa>` in `<indirizzo>` è considerato in stato in abbandono.
 
 `<Inserire indicazioni su cosa deve fare il destinatario, per es. "Hai tempo fino al <gg/mm/aa> per contattare <nome ente>...>`. Per maggiori informazioni visita \[questo sito]\(URL) o contatta `<ente da contattare>``<modalità di contatto>`.
 
@@ -129,11 +129,11 @@ Per maggiori informazioni visita \[questo sito]\(URL) o contatta `<ente da conta
 
 **---**
 
-**Destinatari**: Il cittadino che ha abbandonato un veicolo per strada o non lo ha mai ritirato dal deposito a fronte di una rimozione&#x20;
+**Destinatari**: Il cittadino che ha abbandonato un veicolo per strada o non lo ha mai ritirato dal deposito a fronte di una rimozione
 
 **Quando inviarlo**: Quando il mezzo è ritrovato oppure il termine del deposito è scaduto
 
-**User story**: <mark style="color:purple;">Come cittadino voglio ricevere notifica immediata se il mio veicolo sta per essere considerato abbandonato</mark>&#x20;
+**User story**: <mark style="color:purple;">Come cittadino voglio ricevere notifica immediata se il mio veicolo sta per essere considerato abbandonato</mark>
 
 </details>
 
@@ -147,7 +147,7 @@ IO è integrata con SEND - Servizio Notifiche Digitale, per l'invio di comunicaz
 {% hint style="info" %}
 **Un modello da personalizzare**
 
-Le procedure di questo servizio variano molto da ente a ente. Consigliamo di utilizzare i testi dei messaggi come un punto di partenza e di aggiungere ulteriori informazioni.&#x20;
+Le procedure di questo servizio variano molto da ente a ente. Consigliamo di utilizzare i testi dei messaggi come un punto di partenza e di aggiungere ulteriori informazioni.
 
 Il modello è un esempio che non ha carattere vincolante per l’ente e sul quale la Società declina qualsiasi responsabilità, avendo valore esemplificativo.
 

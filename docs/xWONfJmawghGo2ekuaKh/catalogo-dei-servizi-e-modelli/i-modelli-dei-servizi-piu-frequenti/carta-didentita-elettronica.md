@@ -3,25 +3,25 @@
 Erogare il servizio "Carta d'Identità Elettronica" tramite IO permette agli enti di:
 
 * fornire ai cittadini comunicazioni puntuali sugli stati della Carta d'Identità Elettronica (CIE), coprendo **l’intero ciclo di vita del servizio**, dall’inizio alla fine;
-* integrare le comunicazioni, evitando una duplicazione delle comunicazioni relative allo stato di scadenza della CIE, gestite da ANPR.&#x20;
+* integrare le comunicazioni, evitando una duplicazione delle comunicazioni relative allo stato di scadenza della CIE, gestite da ANPR.
 
-[**Scopri tutti i benefici di integrarsi con IO →**  ](../../cose-io-e-qual-e-il-suo-obiettivo.md#perche-integrarsi-con-io)
+[**Scopri tutti i benefici di integrarsi con IO →**](../../cose-io-e-qual-e-il-suo-obiettivo.md#perche-integrarsi-con-io)
 
 ## Scheda servizio e attributi
 
-| **Nome servizio**            | Carta d'Identità Elettronica                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-| ---------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Argomento**                | Servizi anagrafici e civici                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| **Descrizione del servizio** | <p>Il servizio riguarda la richiesta, l'emissione e la scadenza della tua Carta d'Identità Elettronica.</p><p></p><p>Tramite IO, potrai:</p><ul><li>richiedere un appuntamento per l'erogazione o la sostituzione della tua Carta d'Identità;</li><li>ricevere un promemoria che ti ricorda dell'appuntamento;</li><li>ricevere avvisi di pagamento per l'emissione della Carta e pagarli in app;</li><li>ricevere un messaggio che ti informa della scadenza della Carta;</li><li>ricevere altre comunicazioni.</li></ul><p>Per maggiori informazioni sulla Carta d'Identità Elettronica, visita <a href="https://www.cartaidentita.interno.gov.it/">questo sito</a>.</p> |
-|  **Pulsante**                | Richiedi appuntamento                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| **Nome servizio**            | Carta d'Identità Elettronica                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Argomento**                | Servizi anagrafici e civici                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| **Descrizione del servizio** | <p>Il servizio riguarda la richiesta, l'emissione e la scadenza della tua Carta d'Identità Elettronica.</p><p>Tramite IO, potrai:</p><ul><li>richiedere un appuntamento per l'erogazione o la sostituzione della tua Carta d'Identità;</li><li>ricevere un promemoria che ti ricorda dell'appuntamento;</li><li>ricevere avvisi di pagamento per l'emissione della Carta e pagarli in app;</li><li>ricevere un messaggio che ti informa della scadenza della Carta;</li><li>ricevere altre comunicazioni.</li></ul><p>Per maggiori informazioni sulla Carta d'Identità Elettronica, visita <a href="https://www.cartaidentita.interno.gov.it/">questo sito</a>.</p> |
+| **Pulsante**                 | Richiedi appuntamento                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 
 ## **Ciclo di vita del servizio**
 
-<figure><img src="../../.gitbook/assets/CIE.5.png" alt="Ciclo di vita ed eventi del servizio Carta d&#x27;Identità Elettronica"><figcaption><p><strong>Ciclo di vita ed eventi del servizio Carta d'Identità Elettronica</strong></p></figcaption></figure>
+<figure><img src="../../../app-io/manuale-servizi/v2.0/.gitbook/assets/CIE.5.png" alt="Ciclo di vita ed eventi del servizio Carta d&#x27;Identità Elettronica"><figcaption><p><strong>Ciclo di vita ed eventi del servizio Carta d'Identità Elettronica</strong></p></figcaption></figure>
 
 ## **Messaggi del servizio**
 
-Ecco la lista dei diversi messaggi che il servizio può inviare, con le relative regole di invio.&#x20;
+Ecco la lista dei diversi messaggi che il servizio può inviare, con le relative regole di invio.
 
 {% hint style="success" %}
 L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende erogare questo servizio, può valutare quali e quanti messaggi inviare, in base alle proprie possibilità di integrazione. L'obiettivo finale rimane quello di inviarli tutti, rilasciando versioni del servizio sempre più complete.
@@ -33,7 +33,7 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 **🖋 Titolo del messaggio:** Il tuo appuntamento con `<ufficio>`
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Ti ricordiamo l'appuntamento presso l'`<ufficio>` situato in `<indirizzo>` fissato per il giorno `<gg/mm/aaaa>` alle ore `<hh:mm>`.
 
@@ -59,7 +59,7 @@ Puoi disdire l'appuntamento online, sul sito \[nome sito]\(URL).
 
 **🖋 Titolo del messaggio:** Disdetta appuntamento con `<ufficio>`
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Il tuo appuntamento presso l'`<ufficio>` situato in `<indirizzo>` fissato per il giorno `<gg/mm/aaaa>` alle ore `<hh:mm>` è stato cancellato per `<descrizione motivazione>`.
 
@@ -79,7 +79,7 @@ Se desideri prenotare un nuovo appuntamento online, puoi utilizzare il servizio 
 
 <details>
 
-<summary>Avviso di pagamento Carta d'Identità </summary>
+<summary>Avviso di pagamento Carta d'Identità</summary>
 
 :sparkles: <mark style="color:blue;">**Messaggio Premium**</mark> — configura questo messaggio come Premium, il cittadino verrà avvisato dell‘avvicinarsi della scadenza tramite _push notification_!
 
@@ -89,7 +89,7 @@ Se desideri prenotare un nuovo appuntamento online, puoi utilizzare il servizio 
 
 🗒 **Testo del messaggio**:
 
-C'è un avviso da pagare intestato a `<nome cognome>` e relativo all'emissione della Carta d'Identità Elettronica.&#x20;
+C'è un avviso da pagare intestato a `<nome cognome>` e relativo all'emissione della Carta d'Identità Elettronica.
 
 **Devi pagare:** `<xx,xx>` €
 
@@ -109,7 +109,7 @@ Per maggiori informazioni o per richiedere assistenza, contattaci tramite i cana
 
 **Quando inviarlo**: Quando è stato fissato un appuntamento in Comune e dopo che è stata aperta la posizione debitoria
 
-**User story**: <mark style="color:purple;">Come cittadino voglio ricevere comunicazione quando è possibile effettuare il pagamento per la mia Carta d'Identità</mark>&#x20;
+**User story**: <mark style="color:purple;">Come cittadino voglio ricevere comunicazione quando è possibile effettuare il pagamento per la mia Carta d'Identità</mark>
 
 </details>
 
@@ -119,13 +119,13 @@ Per maggiori informazioni o per richiedere assistenza, contattaci tramite i cana
 
 **🖋 Titolo del messaggio:** Scadenza Carta d'Identità
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Oggi `<gg/mm/aaaa>` è scaduta la tua Carta d'Identità `<numero>`.
 
 Se non l'hai ancora fatto, puoi prenotare un appuntamento per il rinnovo, direttamente online online, al sito \[nome sito]\(URL), oppure presentarti all'Ufficio Anagrafe più vicino a te, verificando giorni e orari di apertura sul sito del tuo Comune.
 
-**🪄  Pulsante**: n/a
+**🪄 Pulsante**: n/a
 
 **---**
 
@@ -151,7 +151,7 @@ IO è integrata con SEND - Servizio Notifiche Digitale, per l'invio di comunicaz
 {% hint style="info" %}
 **Un modello da personalizzare**
 
-Le procedure di questo servizio variano molto da ente a ente. Consigliamo di utilizzare i testi dei messaggi come un punto di partenza e di aggiungere ulteriori informazioni.&#x20;
+Le procedure di questo servizio variano molto da ente a ente. Consigliamo di utilizzare i testi dei messaggi come un punto di partenza e di aggiungere ulteriori informazioni.
 
 Il modello è un esempio che non ha carattere vincolante per l’ente e sul quale la Società declina qualsiasi responsabilità, avendo valore esemplificativo.
 

@@ -5,18 +5,18 @@ Erogare il servizio "Tassa sui rifiuti (TARI)" tramite IO permette agli enti di:
 * fornire ai cittadini comunicazioni puntuali sullo stato della TARI, coprendo **l’intero ciclo di vita del servizio**.
 * rappresentare per i cittadini un unico punto di riferimento per la ricezione delle comunicazioni riguardanti la TARI su **uno o più immobili, anche di diversi Comuni** e con differenti regolamentazioni, se presenti su IO.
 
-[**Scopri tutti i benefici di integrarsi con IO →**  ](../../cose-io-e-qual-e-il-suo-obiettivo.md#perche-integrarsi-con-io)
+[**Scopri tutti i benefici di integrarsi con IO →**](../../cose-io-e-qual-e-il-suo-obiettivo.md#perche-integrarsi-con-io)
 
 ## Scheda servizio e attributi
 
-| **Nome servizio**            | Tassa sui rifiuti (TARI)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-| ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Argomento**                | Casa e utenze                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-| **Descrizione del servizio** | <p>Il servizio riguarda la Tassa sui rifiuti (TARI). </p><p></p><p>Tramite IO potrai:</p><ul><li>ricevere conferma della dichiarazione di occupazione di un immobile domestico e non domestico al fine della TARI;</li><li>ricevere avvisi di pagamento relativi alla TARI e pagarli in app;</li><li>ricevere aggiornamenti su eventuali proroghe alla data di scadenza;</li><li>ricevere conferma della dichiarazione di cessazione di occupazione di un immobile;</li><li>ricevere altre comunicazioni.</li></ul> |
+| **Nome servizio**            | Tassa sui rifiuti (TARI)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| ---------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Argomento**                | Casa e utenze                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| **Descrizione del servizio** | <p>Il servizio riguarda la Tassa sui rifiuti (TARI).</p><p>Tramite IO potrai:</p><ul><li>ricevere conferma della dichiarazione di occupazione di un immobile domestico e non domestico al fine della TARI;</li><li>ricevere avvisi di pagamento relativi alla TARI e pagarli in app;</li><li>ricevere aggiornamenti su eventuali proroghe alla data di scadenza;</li><li>ricevere conferma della dichiarazione di cessazione di occupazione di un immobile;</li><li>ricevere altre comunicazioni.</li></ul> |
 
 ## **Ciclo di vita del servizio**
 
-<figure><img src="../../.gitbook/assets/TARI.5.png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio TARI</strong></p></figcaption></figure>
+<figure><img src="../../../app-io/manuale-servizi/v2.0/.gitbook/assets/TARI.5.png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio TARI</strong></p></figcaption></figure>
 
 ## **Messaggi del servizio**
 
@@ -40,11 +40,11 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 \[A questo sito]\(URL) trovi maggiori informazioni su come funziona il calcolo TARI e sulle eventuali esenzioni di cui puoi beneficiare.
 
-**🪄  Pulsante**: n/a
+**🪄 Pulsante**: n/a
 
 **---**
 
-**Destinatari**: I cittadini che hanno concluso con successo la richiesta di occupazione di un immobile&#x20;
+**Destinatari**: I cittadini che hanno concluso con successo la richiesta di occupazione di un immobile
 
 **Quando inviarlo**: Alla conclusione della registrazione dell'immobile a nome del cittadino
 
@@ -68,7 +68,7 @@ Puoi pagare direttamente in app premendo "Vedi Avviso", oppure tramite tutti i c
 
 Per maggiori informazioni o per richiedere assistenza, contattaci tramite i canali che trovi nella scheda servizio.
 
-**🪄  Pulsante**: Vedi Avviso
+**🪄 Pulsante**: Vedi Avviso
 
 **---**
 
@@ -90,7 +90,7 @@ Per maggiori informazioni o per richiedere assistenza, contattaci tramite i cana
 
 🗒 **Testo del messaggio**: È stata prorogata la data di scadenza dell'avviso intestato a `<nome cognome>` e relativo a `<casuale>`.
 
-**Devi pagare**: <00,00> €&#x20;
+**Devi pagare**: <00,00> €
 
 **Entro il**: `<gg/mm/aaaa>`
 
@@ -98,7 +98,7 @@ Puoi pagare direttamente in app premendo "Vedi Avviso", oppure tramite tutti i c
 
 Per maggiori informazioni o per richiedere assistenza, contattaci tramite i canali che trovi nella scheda servizio.
 
-**🪄  Pulsante**: Vedi Avviso
+**🪄 Pulsante**: Vedi Avviso
 
 **---**
 
@@ -106,7 +106,7 @@ Per maggiori informazioni o per richiedere assistenza, contattaci tramite i cana
 
 **Quando inviarlo:** Il giorno in cui il Comune decide di prorogare la scadenza del pagamento
 
-**User story:** <mark style="color:purple;">Come cittadino voglio essere avvisato se la scadenza del pagamento è stata prorogata</mark>&#x20;
+**User story:** <mark style="color:purple;">Come cittadino voglio essere avvisato se la scadenza del pagamento è stata prorogata</mark>
 
 </details>
 
@@ -126,7 +126,7 @@ Per maggiori informazioni o per richiedere assistenza, contattaci tramite i cana
 
 Per maggiori informazioni o per richiedere assistenza, contattaci tramite i canali che trovi nella scheda servizio.
 
-**🪄  Pulsante**: n/a
+**🪄 Pulsante**: n/a
 
 **---**
 
@@ -155,9 +155,9 @@ IO è integrata con SEND - Servizio Notifiche Digitale, per l'invio di comunicaz
 {% hint style="info" %}
 **Un modello da personalizzare**
 
-Le procedure di questo servizio variano molto da ente a ente. Consigliamo di utilizzare i testi dei messaggi come un punto di partenza e di aggiungere o modificare il contenuto a seconda delle esigenze.&#x20;
+Le procedure di questo servizio variano molto da ente a ente. Consigliamo di utilizzare i testi dei messaggi come un punto di partenza e di aggiungere o modificare il contenuto a seconda delle esigenze.
 
 Il modello è uno esempio che non ha carattere vincolante per l’ente e sul quale la Società declina qualsiasi responsabilità, avendo valore esemplificativo.
 
-Puoi copiare i testi dei messaggi da personalizzare da [questo documento](https://docs.google.com/spreadsheets/d/18Zmo5px\_P--N5MigMPf19P9znlcoOh-d-DOdXqH4v0Q/edit#gid=538647580).
+Puoi copiare i testi dei messaggi da personalizzare da [questo documento](https://docs.google.com/spreadsheets/d/18Zmo5px_P--N5MigMPf19P9znlcoOh-d-DOdXqH4v0Q/edit#gid=538647580).
 {% endhint %}
