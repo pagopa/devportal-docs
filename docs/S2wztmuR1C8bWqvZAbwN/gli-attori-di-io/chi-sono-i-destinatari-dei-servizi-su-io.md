@@ -1,11 +1,11 @@
 # Chi sono i destinatari dei servizi su IO
 
-Il pubblico dei servizi erogati dagli enti su IO è composto da **chiunque sia in possesso di credenziali** [**SPID**](https://www.spid.gov.it/) o, in alternativa, **di una Carta d’Identità Elettronica (**[**CIE**](https://www.cartaidentita.interno.gov.it/)**)**.&#x20;
+Il pubblico dei servizi erogati dagli enti su IO è composto da **chiunque sia in possesso di credenziali** [**SPID**](https://www.spid.gov.it/) o, in alternativa, **di una Carta d’Identità Elettronica (**[**CIE**](https://www.cartaidentita.interno.gov.it/)**)**.
 
 {% hint style="success" %}
-**Uno strumento per tutti**&#x20;
+**Uno strumento per tutti**
 
-IO non si rivolge ai soli cittadini di nazionalità italiana, ma anche ai residenti e a chiunque possa giovare dei servizi pubblici.&#x20;
+IO non si rivolge ai soli cittadini di nazionalità italiana, ma anche ai residenti e a chiunque possa giovare dei servizi pubblici.
 {% endhint %}
 
 ### Un diritto dei cittadini
@@ -16,21 +16,21 @@ Per rendere effettivo questo diritto, tutte le Pubbliche Amministrazioni devono 
 
 I servizi che vengono proposti per essere erogati nell'app dovrebbero basarsi su quest'ultimo principio, ovvero essere **di valore per gli utenti**. Per questo, consigliamo agli enti di rendere disponibili in primis i servizi più usati o richiesti, o di partire da quelli che in questo momento gli utenti faticano a fruire su altri canali.
 
-Il documento che regola come creare servizi che mettono **la cittadinanza al centro** sono le [Linee guida di design per i siti internet e i servizi digitali della PA](https://docs.italia.it/italia/design/lg-design-servizi-web/it/versione-corrente/index.html), che hanno lo scopo di definire e orientare la progettazione e la realizzazione dei siti internet e dei servizi digitali erogati dalle Pubbliche Amministrazioni.&#x20;
+Il documento che regola come creare servizi che mettono **la cittadinanza al centro** sono le [Linee guida di design per i siti internet e i servizi digitali della PA](https://docs.italia.it/italia/design/lg-design-servizi-web/it/versione-corrente/index.html), che hanno lo scopo di definire e orientare la progettazione e la realizzazione dei siti internet e dei servizi digitali erogati dalle Pubbliche Amministrazioni.
 
 ### I legali rappresentanti su IO
 
-Gli enti possono inviare tramite IO messaggi anche ai cittadini che rivestono la qualità di **Legale Rappresentante** di una persona giuridica, nel caso in cui abbiano a disposizione il loro **Codice Fiscale** e abbiano **qualcosa da comunicare all'impresa** che la persona rappresenta.&#x20;
+Gli enti possono inviare tramite IO messaggi anche ai cittadini che rivestono la qualità di **Legale Rappresentante** di una persona giuridica, nel caso in cui abbiano a disposizione il loro **Codice Fiscale** e abbiano **qualcosa da comunicare all'impresa** che la persona rappresenta.
 
 {% hint style="warning" %}
 **Ricordati**
 
-1. Non verifichiamo la corrispondenza tra il Codice Fiscale indicato dall'ente e il Codice Fiscale dell'effettivo Legale Rappresentante della persona giuridica;&#x20;
-2. L'ente ha il controllo e la responsabilità circa i dati che ci fornisce e per i messaggi che invia;&#x20;
-3. I messaggi che l'ente invia al Legale Rappresentante della persona giuridica non hanno valore legale.&#x20;
+1. Non verifichiamo la corrispondenza tra il Codice Fiscale indicato dall'ente e il Codice Fiscale dell'effettivo Legale Rappresentante della persona giuridica;
+2. L'ente ha il controllo e la responsabilità circa i dati che ci fornisce e per i messaggi che invia;
+3. I messaggi che l'ente invia al Legale Rappresentante della persona giuridica non hanno valore legale.
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/image (23).png" alt=""><figcaption><p>Accesso su IO tramite SPID o CIE</p></figcaption></figure>
+<figure><img src="../../app-io/manuale-servizi/v3.2/.gitbook/assets/image (23).png" alt=""><figcaption><p>Accesso su IO tramite SPID o CIE</p></figcaption></figure>
 
 ### Cosa possono fare i cittadini con i servizi in IO?
 

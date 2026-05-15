@@ -2,9 +2,9 @@
 
 Questi messaggi contengono una **data di scadenza o da ricordare**, come il promemoria della scadenza di un documento da rinnovare o la data entro cui si può richiedere un bonus. Per questo tipo di messaggi bisogna utilizzare il campo `due_date` nel payload del messaggio. Il formato data supportato dal sistema è UTC (ISO 8601).
 
-<figure><img src="../../.gitbook/assets/image (15).png" alt=""><figcaption><p>Esempio di messaggio che veicola una scadenza</p></figcaption></figure>
+<figure><img src="../../../app-io/manuale-servizi/v3.2/.gitbook/assets/image (15).png" alt=""><figcaption><p>Esempio di messaggio che veicola una scadenza</p></figcaption></figure>
 
-Oltre alla possibilità di conversione manuale, esistono alcuni siti che permettono di **convertire automaticamente** le date nel formato desiderato, come ad esempio [DenCode Converter](https://dencode.com/date/iso8601) o [Timestamp Converter](https://www.timestamp-converter.com/).&#x20;
+Oltre alla possibilità di conversione manuale, esistono alcuni siti che permettono di **convertire automaticamente** le date nel formato desiderato, come ad esempio [DenCode Converter](https://dencode.com/date/iso8601) o [Timestamp Converter](https://www.timestamp-converter.com/).
 
 {% hint style="warning" %}
 **Attenzione alla data impostata**
@@ -19,5 +19,5 @@ Se la data di scadenza non prevede un orario specifico, solitamente si fa riferi
 {% endhint %}
 
 {% hint style="info" %}
-Per maggiori informazioni sul formato della data, consulta la sezione dedicata nella [Guida tecnica](https://docs.pagopa.it/io-guida-tecnica/api-e-specifiche/api-messaggi/submit-a-message-passing-the-user-fiscal_code-in-the-request-body#due_date) di IO.&#x20;
+Per maggiori informazioni sul formato della data, consulta la sezione dedicata nella [Guida tecnica](https://docs.pagopa.it/io-guida-tecnica/api-e-specifiche/api-messaggi/submit-a-message-passing-the-user-fiscal_code-in-the-request-body#due_date) di IO.
 {% endhint %}

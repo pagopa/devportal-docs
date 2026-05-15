@@ -1,8 +1,8 @@
 # Messaggi informativi
 
-I messaggi informativi sono **messaggi di solo testo** che danno all'utente un'informazione rispetto al servizio, come un aggiornamento, una novità o l'esito di una richiesta presentata all'ente. &#x20;
+I messaggi informativi sono **messaggi di solo testo** che danno all'utente un'informazione rispetto al servizio, come un aggiornamento, una novità o l'esito di una richiesta presentata all'ente.
 
-<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption><p>Esempio di messaggio informativo</p></figcaption></figure>
+<figure><img src="../../../app-io/manuale-servizi/v3.2/.gitbook/assets/image (11).png" alt=""><figcaption><p>Esempio di messaggio informativo</p></figcaption></figure>
 
 Questi messaggi devono:
 
@@ -26,8 +26,6 @@ Questi messaggi devono:
 \
 `Per maggiori informazioni, vai sul`[`sito dedicato all’iniziativa`](https://nuovatvdigitale.mise.gov.it/)`o chiama il numero 06 87 800 262.`
 
-
-
 **In questo caso, il messaggio:**
 
 ✅ è autoconsistente e discorsivo;
@@ -45,8 +43,6 @@ Questi messaggi devono:
 `Gentile utente,`
 
 `è disponibile online l'esito della sua richiesta di iscrizione al corso di lingua.`
-
-
 
 **In questo caso, il messaggio:**
 
