@@ -1,0 +1,9 @@
+# Aggiornamento del dato
+
+1. il consumatore ha la lista degli identificativi in chiaro dei dati soggetti a variazione
+2. Il consumatore invoca l’e-service di interesse richiedendo il dato aggiornato tramite l’identificativo in chiaro
+3. Il consumatore ha il dato aggiornato e può attivare ulteriori processi interni innescati dall’aggiornamento del dato
+
+<figure><img src="../.gitbook/assets/aggiornamento del dato sh.png" alt=""><figcaption><p>diagramma aggiornamento del dato</p></figcaption></figure>
+
+[Diagramma aggiornamento dati](https://mermaid.live/edit#pako:eNqFVEtu2zAQvcqAXbQBrECS459QZFEnAbpoUMBAF4U2lDSWCVAclyKNJkHu03v0Yh1Klh0hbcqFraHezLz5PD2JkioUmYiiKDdOOY0ZyLpWZI1s0DiCCjVU0lFuSjJbVWe5AXA7bBhZyBZP5jdplSw0th0CYG9VI-3DmjTZDHLx7u7u010c5yI3XbbctPjDoynxRsnayiY30jsyvinQHkNI61Sp9tI4WG9AtrAm0_qG6ViEFmsjtXoNve2gGLVoD6pEqBQo49Bi29Mdo7_e3N8EfPf_OeBoH9gF3D05BDqg5fQTjpvBRjGWKSCUOwSloXzBSBaFkkDOoeFKPhb22hsJWrVOQkt1jc6pzm8njSFofaG4w4fQuEdF5liKxdKBrYsPySKZQBrP-Ge6uoDj6UHh0N6BHuJXqM45DBn4_QsOnpw848NZb6Lr61BqBlaVO4W9r4YDeWZmz20b-8nSqYPkbgTf8atwE12suTnHGOPXFb7hq4n2sOe0XEflrRyTGWNHeKrNqV56jTuVGmZ2LlRq_f68Fzw6UBVvudqqUjJH4j3h-Shp_xHydhNxzFAqLxPLxYexYaCseRnMlmzTT_KUE9_gFuL8XWzwPy8XOtonxwO7ehYCK45K3vHjtg_r9PKgqcaXo4uT0T2IiaitqkTmrMeJaJBrC6Z4CqBcdKLPRZB2hVvptQvSfmY3ltV3ombwtOTrnci2Urds-T0XOEh-gAThbx5MOdg96LZiedjhDjvrS_-96j5bXSaRPYmfIkumy8vpfDFLkqtFulxN4_lEPIgsSi7jeBmv5qs0nqbz5CqdPU_EY8cuuUzSeDlLV-wxnSXx4oq5culo1-SNE9nq-Q85R5QV)
