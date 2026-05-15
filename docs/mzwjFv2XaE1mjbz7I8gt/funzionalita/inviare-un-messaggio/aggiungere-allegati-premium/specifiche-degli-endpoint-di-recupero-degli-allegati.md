@@ -1,6 +1,6 @@
 # Specifiche degli endpoint di recupero degli allegati
 
-Per permettere a IO di recuperare il contenuto di un messaggio e dei suoi allegati, **devi mettere a disposizione un **_**REST web service**_ conforme alla [relativa OpenAPI](https://editor.swagger.io/?url=https://raw.githubusercontent.com/pagopa/io-backend/master/openapi/consumed/api-third-party.yaml).
+Per permettere a IO di recuperare il contenuto di un messaggio e dei suoi allegati, **devi mettere a disposizione un&#x20;**_**REST web service**_ conforme alla [relativa OpenAPI](https://editor.swagger.io/?url=https://raw.githubusercontent.com/pagopa/io-backend/master/openapi/consumed/api-third-party.yaml).
 
 Il servizio deve esporre due _endpoint_, che il backend di IO richiamerà quando necessario.
 
@@ -12,14 +12,14 @@ Per comunicare col team di IO puoi usare l'indirizzo email [onboarding@io.italia
 
 ## Endpoint di **recupero dell'elenco dei metadati degli allegati**&#x20;
 
-<figure><img src="../../../.gitbook/assets/img 1.png" alt="schema che riassume la sequenza delle operazioni coinvolte nel recupero dei dati da parte di IO."><figcaption><p> Lo schema che riassume la sequenza delle operazioni coinvolte nel recupero dei dati da parte di IO.</p></figcaption></figure>
+<figure><img src="../../../../app-io/io-guida-tecnica/v2.3/.gitbook/assets/img 1.png" alt="schema che riassume la sequenza delle operazioni coinvolte nel recupero dei dati da parte di IO."><figcaption><p> Lo schema che riassume la sequenza delle operazioni coinvolte nel recupero dei dati da parte di IO.</p></figcaption></figure>
 
-{% swagger src="https://raw.githubusercontent.com/pagopa/io-backend/master/openapi/consumed/api-third-party.yaml" path="/messages/{id}" method="get" %}
+{% openapi src="https://raw.githubusercontent.com/pagopa/io-backend/master/openapi/consumed/api-third-party.yaml" path="/messages/{id}" method="get" %}
 [https://raw.githubusercontent.com/pagopa/io-backend/master/openapi/consumed/api-third-party.yaml](https://raw.githubusercontent.com/pagopa/io-backend/master/openapi/consumed/api-third-party.yaml)
-{% endswagger %}
+{% endopenapi %}
 
 {% hint style="info" %}
-L'identificativo `{id}` che riceverai in questa chiamata corrisponderà a quello che avevi specificato nel blocco [#third\_party\_data](../../../api/api-messaggi/submit-a-message-passing-the-user-fiscal\_code-in-the-request-body.md#third\_party\_data "mention") in fase di invio del messaggio.
+L'identificativo `{id}` che riceverai in questa chiamata corrisponderà a quello che avevi specificato nel blocco [#third\_party\_data](../../../api/api-messaggi/submit-a-message-passing-the-user-fiscal_code-in-the-request-body.md#third_party_data "mention") in fase di invio del messaggio.
 {% endhint %}
 
 ### Esempio di risposta attesa
@@ -60,11 +60,11 @@ Aggiungi sempre l'estensione `.pdf` nei campi `name` per consentire al sistema o
 
 ## Endpoint di **recupero dei byte del singolo allegato**
 
-<figure><img src="../../../.gitbook/assets/img 2.png" alt="chema che riassume la sequenza delle operazioni coinvolte nel recupero dei byte del singolo allegato."><figcaption><p>Lo schema che riassume la sequenza delle operazioni coinvolte nel recupero dei byte del singolo allegato.</p></figcaption></figure>
+<figure><img src="../../../../app-io/io-guida-tecnica/v2.3/.gitbook/assets/img 2.png" alt="chema che riassume la sequenza delle operazioni coinvolte nel recupero dei byte del singolo allegato."><figcaption><p>Lo schema che riassume la sequenza delle operazioni coinvolte nel recupero dei byte del singolo allegato.</p></figcaption></figure>
 
-{% swagger src="https://raw.githubusercontent.com/pagopa/io-backend/master/openapi/consumed/api-third-party.yaml" path="/messages/{id}/{attachment_url}" method="get" %}
+{% openapi src="https://raw.githubusercontent.com/pagopa/io-backend/master/openapi/consumed/api-third-party.yaml" path="/messages/{id}/{attachment_url}" method="get" %}
 [https://raw.githubusercontent.com/pagopa/io-backend/master/openapi/consumed/api-third-party.yaml](https://raw.githubusercontent.com/pagopa/io-backend/master/openapi/consumed/api-third-party.yaml)
-{% endswagger %}
+{% endopenapi %}
 
 ## Autorizzazioni
 

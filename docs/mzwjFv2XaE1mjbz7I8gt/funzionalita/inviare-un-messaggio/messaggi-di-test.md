@@ -20,7 +20,7 @@ Il processo di invio di un messaggio di test prevede di eseguire tre passaggi:
 
 <summary><mark style="color:blue;">Step 2</mark> - Invia un messaggio di test</summary>
 
-**Invia un messaggio** al cittadino di test con Codice Fiscale **`AAAAAA00A00A000A`**. Per farlo, usa le API come descritto in [Invio Messaggio](broken-reference).
+**Invia un messaggio** al cittadino di test con Codice Fiscale **`AAAAAA00A00A000A`**. Per farlo, usa le API come descritto in [Invio Messaggio](/broken/pages/PCoyfGTXvVF2tMUli4wC).
 
 Il messaggio verrà recapitato alla casella di posta elettronica del delegato che ha creato il servizio.
 
