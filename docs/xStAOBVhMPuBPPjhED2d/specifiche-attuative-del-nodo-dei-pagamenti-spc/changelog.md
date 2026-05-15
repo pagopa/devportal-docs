@@ -4,7 +4,7 @@
 
 * [#archivio-centralizzato-avvisi](../ente-creditore/modalita-dintegrazione/integrazione-tramite-api-sincrone.md#archivio-centralizzato-avvisi "mention") in caso di [integrazione-tramite-api-sincrone.md](../ente-creditore/modalita-dintegrazione/integrazione-tramite-api-sincrone.md "mention")
 * [#ricezione-sincrona-della-ricevuta](../ente-creditore/modalita-dintegrazione/integrazione-tramite-api-asincrone.md#ricezione-sincrona-della-ricevuta "mention") in caso di [integrazione-tramite-api-asincrone.md](../ente-creditore/modalita-dintegrazione/integrazione-tramite-api-asincrone.md "mention")
-* Aggiunti _idCart_ e _allCCP_ nei [#\_om57nyt5rga1](../ente-creditore/modalita-dintegrazione/integrazione-touch-point-dellec-con-checkout.md#\_om57nyt5rga1 "mention") per [integrazione-touch-point-dellec-con-checkout.md](../ente-creditore/modalita-dintegrazione/integrazione-touch-point-dellec-con-checkout.md "mention")
+* Aggiunti _idCart_ e _allCCP_ nei [#\_om57nyt5rga1](../ente-creditore/modalita-dintegrazione/integrazione-touch-point-dellec-con-checkout.md#_om57nyt5rga1 "mention") per [integrazione-touch-point-dellec-con-checkout.md](../ente-creditore/modalita-dintegrazione/integrazione-touch-point-dellec-con-checkout.md "mention")
 * Chiarimenti sul tag _paymentNote_ in [#fase-di-attivazione](../ente-creditore/modalita-dintegrazione/best-practice.md#fase-di-attivazione "mention")
 * Utilizzo del [#bollettino-postale-pa](../ente-creditore/modalita-dintegrazione/best-practice.md#bollettino-postale-pa "mention") in caso di [pagamento-presso-frontend-dellec.md](../casi-duso/pagamento-presso-frontend-dellec.md "mention")
 * Chiarimenti sul [servizio-e.bollo.md](../ente-creditore/servizio-e.bollo.md "mention")
@@ -38,7 +38,7 @@
 * Attualizzazione dell'importo in [#title-text-2](../ente-creditore/modalita-dintegrazione/best-practice.md#title-text-2 "mention")
 * Distinzione tra modalità di integrazione per gli EC in [integrazione-tramite-api-sincrone.md](../ente-creditore/modalita-dintegrazione/integrazione-tramite-api-sincrone.md "mention") e [integrazione-tramite-api-asincrone.md](../ente-creditore/modalita-dintegrazione/integrazione-tramite-api-asincrone.md "mention")
 * Corretti i link alle linee guida in [generazione-dellidentificativo-univoco-di-versamento.md](../ente-creditore/generazione-dellidentificativo-univoco-di-versamento.md "mention")
-* Aggiunta la sezione [Dati canale pagamento](http://localhost:5000/s/u6YdY319vyFX9MIvnKBa/dati-canale-pagamento "mention")in [Dizionario dei metadata](http://localhost:5000/o/KXYtsf32WSKm6ga638R3/s/u6YdY319vyFX9MIvnKBa/ "mention")
+* Aggiunta la sezione [Dati canale pagamento](https://app.gitbook.com/s/u6YdY319vyFX9MIvnKBa/dati-canale-pagamento "mention")in [Dizionario dei metadata](https://app.gitbook.com/o/KXYtsf32WSKm6ga638R3/s/u6YdY319vyFX9MIvnKBa/ "mention")
 * Nuova modalità di selezione del PSP per importi inferiori a 50 euro in [offrire-sistemi-di-pagamento-su-touch-point-di-pagopa-s.p.a..md](../prestatore-di-servizi-di-pagamento/modalita-di-integrazione/offrire-sistemi-di-pagamento-su-touch-point-di-pagopa-s.p.a..md "mention")
 * Aggiunti dettagli in merito alla non modificabilità dell’outcome inviato dal PSP in [#fase-di-invio-dellesito-del-pagamento](../prestatore-di-servizi-di-pagamento/modalita-di-integrazione/integrazione-tramite-api.md#fase-di-invio-dellesito-del-pagamento "mention")
 * Aggiornata la procedura in [#nodo-dei-pagamenti-server](../appendici/connettivita.md#nodo-dei-pagamenti-server "mention")
@@ -95,7 +95,7 @@
 
 ### 2.5.1 (gennaio 2022)
 
-* Modificate e-mail dell’assistenza&#x20;
+* Modificate e-mail dell’assistenza
 * Revisione scarico dei Flussi di Rendicontazione
 
 {% embed url="https://docs.italia.it/italia/pagopa/pagopa-specifichepagamenti-docs/it/v2.5.1/index.html" %}

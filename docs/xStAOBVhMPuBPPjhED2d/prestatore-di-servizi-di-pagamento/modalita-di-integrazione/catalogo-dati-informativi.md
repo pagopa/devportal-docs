@@ -1,8 +1,8 @@
 # Catalogo Dati Informativi
 
-Il Catalogo Dati Informativi è lo strumento con il quale il PSP comunica ai propri potenziali clienti, utilizzatori della piattaforma pagoPA, le condizioni di utilizzo relative ai servizi che rende disponibili ed il costo di commissione massimo che potrà essere applicato.&#x20;
+Il Catalogo Dati Informativi è lo strumento con il quale il PSP comunica ai propri potenziali clienti, utilizzatori della piattaforma pagoPA, le condizioni di utilizzo relative ai servizi che rende disponibili ed il costo di commissione massimo che potrà essere applicato.
 
-Per ogni servizio attivato (canale) il PSP produce le informazioni che la piattaforma pagoPA rende disponibili ai pagatori tramite il proprio sito di prodotto e, in fase di pagamento, tramite la componente _Checkout_.&#x20;
+Per ogni servizio attivato (canale) il PSP produce le informazioni che la piattaforma pagoPA rende disponibili ai pagatori tramite il proprio sito di prodotto e, in fase di pagamento, tramite la componente _Checkout_.
 
 Il PSP è autonomo nel mantenimento di tali informazioni, purché renda disponibile un catalogo semanticamente corretto che superi i controlli applicativi previsti in base alla struttura [https://github.com/pagopa/pagopa-api/blob/SANP3.0.0/general/CatalogoDatiInformativiPSP.xsd](https://github.com/pagopa/pagopa-api/blob/SANP3.0.0/general/CatalogoDatiInformativiPSP.xsd).
 
@@ -13,7 +13,7 @@ I dati su cui porre particolare attenzione, oltre a quelli relativi alle [commis
 * _urlInformativaPSP_ che contiene il link ai fogli informativi del PSP che viene pubblicato sul sito di prodotto di piattaforma pagoPA, affinché siano disponibili le informative pre o post contrattuali all'operazione di pagamento sulla piattaforma pagoPA;
 * _urlConvenzioniPSP_ che contiene il link alla pagina che espone le eventuali convenzioni tra il PSP e gli EC, se presente, tale link viene pubblicato sul sito di prodotto di piattaforma pagoPA.
 
-![](<../../.gitbook/assets/image (45).png>)
+![](<../../../pago-pa/sanp/3.4.0/.gitbook/assets/image (35).png>)
 
 I PSP possono richiedere un template del Catalogo Dati Informativi tramite una chiamata alla [nodoChiediTempateInformativaPSP](../../appendici/primitive.md#nodochieditemplateinformativapsp), in risposta ricevono un xml con la struttura sopra citata e con alcuni campi precompilati sulla base delle informazioni già a disposizione del Nodo.
 

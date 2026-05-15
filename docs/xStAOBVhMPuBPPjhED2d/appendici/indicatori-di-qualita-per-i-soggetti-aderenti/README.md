@@ -12,23 +12,23 @@
 
 Il grafico seguente descrive i tempi di attraversamento della piattaforma pagoPA
 
-![](<../../.gitbook/assets/Nuovi LdS-Globale.png>)
+![](<../../../pago-pa/sanp/3.4.0/.gitbook/assets/Nuovi LdS-Globale.png>)
 
 * il _Tempo Elaborazione_ rappresenta quanto indicato in [#livelli-di-servizio-dei-metodi-degli-ec](livelli-di-servizio-enti-creditori.md#livelli-di-servizio-dei-metodi-degli-ec "mention");
 * il _Timeout Nodo_ rappresenta quanto indicato in [#gestione-dei-timeout-verso-gli-ec](livelli-di-servizio-enti-creditori.md#gestione-dei-timeout-verso-gli-ec "mention") o [#gestione-dei-timeout-verso-i-psp](livelli-di-servizio-psp.md#gestione-dei-timeout-verso-i-psp "mention"), a seconda della natura del _Chiamato Nodo_;
-* il _Timeout Chiamante Nodo_ rappresenta quanto indicato in [#gestione-dei-timeout-del-nodo](./#gestione-dei-timeout-del-nodo "mention") per i metodi sincroni.&#x20;
+* il _Timeout Chiamante Nodo_ rappresenta quanto indicato in [#gestione-dei-timeout-del-nodo](./#gestione-dei-timeout-del-nodo "mention") per i metodi sincroni.
 
 Il grafico seguente descrive i tempi nel caso in cui la piattaforma pagoPA agisca da server nel caso di metodi non sincroni
 
-![](<../../.gitbook/assets/Nuovi LdS-Metodi Sincroni (3).png>)
+![](<../../../pago-pa/sanp/3.4.0/.gitbook/assets/Nuovi LdS-Metodi Sincroni (3).png>)
 
-* il _Timeout Chiamante Nodo_ rappresenta quanto indicato in [#gestione-dei-timeout-del-nodo](./#gestione-dei-timeout-del-nodo "mention") per i metodi non sincroni.&#x20;
+* il _Timeout Chiamante Nodo_ rappresenta quanto indicato in [#gestione-dei-timeout-del-nodo](./#gestione-dei-timeout-del-nodo "mention") per i metodi non sincroni.
 
 Il grafico seguente descrive i tempi nel caso in cui la piattaforma pagoPA agisca da client
 
-![](<../../.gitbook/assets/Nuovi LdS-Timeout del Nodo.png>)
+![](<../../../pago-pa/sanp/3.4.0/.gitbook/assets/Nuovi LdS-Timeout del Nodo.png>)
 
-* il _Tempo Elaborazione_ rappresenta quanto indicato in [#livelli-di-servizio-dei-metodi-degli-ec](livelli-di-servizio-enti-creditori.md#livelli-di-servizio-dei-metodi-degli-ec "mention") o [#livelli-di-servizio-dei-metodi-dei-psp](livelli-di-servizio-psp.md#livelli-di-servizio-dei-metodi-dei-psp "mention"),  a seconda della natura del _Chiamato Nodo_;
+* il _Tempo Elaborazione_ rappresenta quanto indicato in [#livelli-di-servizio-dei-metodi-degli-ec](livelli-di-servizio-enti-creditori.md#livelli-di-servizio-dei-metodi-degli-ec "mention") o [#livelli-di-servizio-dei-metodi-dei-psp](livelli-di-servizio-psp.md#livelli-di-servizio-dei-metodi-dei-psp "mention"), a seconda della natura del _Chiamato Nodo_;
 * il _Timeout Nodo_ rappresenta quanto indicato in [#gestione-dei-timeout-verso-gli-ec](livelli-di-servizio-enti-creditori.md#gestione-dei-timeout-verso-gli-ec "mention") o [#gestione-dei-timeout-verso-i-psp](livelli-di-servizio-psp.md#gestione-dei-timeout-verso-i-psp "mention"), a seconda della natura del _Chiamato Nodo._
 
 ## Processi di retry

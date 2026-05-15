@@ -1,8 +1,8 @@
 # POS Fisici
 
-Avendo un _carattere meramente orientativo_ il contenuto della pagina corrente è immediatamente applicabile e ha lo scopo di incentivare i pagamenti con carta in tutti i possibili scenari di pagamento, fornendo indicazioni sia ai PSP sia a tutte le tipologie di EC aderenti a pagoPA, delineando le caratteristiche di un servizio di pagamento compatibile con le specifiche attuative della piattaforma pagoPA.&#x20;
+Avendo un _carattere meramente orientativo_ il contenuto della pagina corrente è immediatamente applicabile e ha lo scopo di incentivare i pagamenti con carta in tutti i possibili scenari di pagamento, fornendo indicazioni sia ai PSP sia a tutte le tipologie di EC aderenti a pagoPA, delineando le caratteristiche di un servizio di pagamento compatibile con le specifiche attuative della piattaforma pagoPA.
 
-<figure><img src="../.gitbook/assets/posFisiciModelloUnico.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../pago-pa/sanp/3.4.0/.gitbook/assets/posFisiciModelloUnico.png" alt=""><figcaption></figcaption></figure>
 
 * Presupposto del pagamento è che la posizione debitoria sia stata preventivamente creata dall'EC e comunicata al POS con i suoi dati fondamentali, _qrCode_ e _amount_;
 * il _qrCode_ deve essere scambiato con il PSP, in modo che quest'ultimo possa procedere con l'attivazione;
@@ -13,4 +13,4 @@ Avendo un _carattere meramente orientativo_ il contenuto della pagina corrente �
 * tramite la primitiva [paSendRT](primitive.md#pasendrt) viene inoltrata agli _n_ EC interessati al pagamento la _receipt_ (ricevuta) solo se il pagamento è stato effettuato, la _receipt_ è un oggetto generato dalla piattaforma pagoPA;
 * quando l'EC riceve la _receipt_ deve chiudere la posizione debitoria e considerarla interamente saldata.
 
-Per la gestione degli errori fare riferimento a [Gestione degli errori](http://localhost:5000/o/KXYtsf32WSKm6ga638R3/s/mU2qgiLV1G3m9z1VjAOc/ "mention").
+Per la gestione degli errori fare riferimento a [Gestione degli errori](https://app.gitbook.com/o/KXYtsf32WSKm6ga638R3/s/mU2qgiLV1G3m9z1VjAOc/ "mention").

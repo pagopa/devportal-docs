@@ -1,6 +1,6 @@
 # Rendicontazione e Cashflow
 
-Ogni PSP aderente alla piattaforma in data D+2 rendiconta tramite il _**flusso di rendicontazione**_ il dettaglio dei riversamenti effettuati nella giornata D+1 verso i conti di accredito dei pagamenti avvenuti nella giornata operativa D, come definito nelle Linee Guida della piattaforma pagoPA, nello specifico nelle [SACI](http://localhost:5000/o/KXYtsf32WSKm6ga638R3/s/E6d6iTzjBzUfzNoZjadZ/).
+Ogni PSP aderente alla piattaforma in data D+2 rendiconta tramite il _**flusso di rendicontazione**_ il dettaglio dei riversamenti effettuati nella giornata D+1 verso i conti di accredito dei pagamenti avvenuti nella giornata operativa D, come definito nelle Linee Guida della piattaforma pagoPA, nello specifico nelle [SACI](https://app.gitbook.com/o/KXYtsf32WSKm6ga638R3/s/E6d6iTzjBzUfzNoZjadZ/).
 
 I PSP inviano ogni singolo flusso di rendicontazione alla piattaforma pagoPA tramite la primitiva [nodoInviaFlussoRendicontazione](../../appendici/primitive.md#nodoinviaflussorendicontazione); per la ricezione dei flussi di rendicontazione da parte degli EC le primitive da usare sono la [nodoChiediElencoFlussiRendicontazione](../../appendici/primitive.md#nodochiedielencoflussirendicontazione), per avere l'elenco dei flussi disponibili, e la [nodoChiediFlussoRendicontazione](../../appendici/primitive.md#nodochiediflussorendicontazione) per scaricare uno specifico flusso.
 
@@ -23,9 +23,9 @@ Esistono, invece, 2 configurazioni possibili (mutuamente esclusive) per l’EC r
 * SOAP (Web Service)
 * SFTP
 
-![](<../../.gitbook/assets/image (23).png>)
+![](<../../../pago-pa/sanp/3.4.0/.gitbook/assets/image (1).png>)
 
-![](<../../.gitbook/assets/image (3).png>)
+![](<../../../pago-pa/sanp/3.4.0/.gitbook/assets/image (3).png>)
 
 Per quanto riguarda la [nodoChiediElencoFlussiRendicontazione](../../appendici/primitive.md#nodochiedielencoflussirendicontazione) la piattaforma risponderà in maniera indipendente dalla configurazione dell'EC (SOAP o SFTP), in entrambi i casi infatti la piattaforma risponderà con un elenco di FdR. L’utilizzo della primitiva in caso di configurazione SFTP è opzionale e un possibile motivo per l’utilizzo riguarda finalità statistiche.
 
@@ -74,14 +74,14 @@ Di seguito un esempio di xml del Flusso di Rendicontazione contenuto nel tag _xm
 
 ## Gestione sovrascritture Flussi di Rendicontazione <a href="#title-text" id="title-text"></a>
 
-Un PSP ha la possibilità di mandare più flussi allo stesso EC tramite la primitiva [nodoInviaFlussoRendicontazione](../../appendici/primitive.md#nodoinviaflussorendicontazione) con lo stesso _identificativoFlusso_ ma con _dataOraFlusso_ differente. Questa opzione permette al PSP di **sovrascrivere** un flusso già inviato, in caso un flusso già inviato necessitasse di correzioni.&#x20;
+Un PSP ha la possibilità di mandare più flussi allo stesso EC tramite la primitiva [nodoInviaFlussoRendicontazione](../../appendici/primitive.md#nodoinviaflussorendicontazione) con lo stesso _identificativoFlusso_ ma con _dataOraFlusso_ differente. Questa opzione permette al PSP di **sovrascrivere** un flusso già inviato, in caso un flusso già inviato necessitasse di correzioni.
 
 Si ricorda, inoltre, l'_identificativoFlusso_ deve essere univoco nell’ambito dell’anno di riferimento delle operazioni di pagamento cui si riferisce il flusso, di conseguenza lo stesso _identificativoFlusso_ può essere usato più di una volta nel corso dello stesso anno solo nel caso di invio di un flusso di sovrascrittura.
 
 **Esempio:**
 
-* Flusso **errato** _identificativoFlusso_ **=** abc**,** _dataOraFlusso_ **=** 2019-01-01T10:00:00
-* Flusso **corretto** _identificativoFlusso_ **=** abc**,** _dataOraFlusso_ **=** 2019-01-01T14:00:00
+* Flusso **errato** _identificativoFlusso_ **=** abc\*\*,\*\* _dataOraFlusso_ **=** 2019-01-01T10:00:00
+* Flusso **corretto** _identificativoFlusso_ **=** abc\*\*,\*\* _dataOraFlusso_ **=** 2019-01-01T14:00:00
 
 Un PSP una volta inviato un flusso con un determinato _identificativoFlusso_, per sovrascriverlo deve inviare un flusso con lo stesso _identificativoFlusso_ ma con _dataOraFlusso_ **superiore** a quella inviata in precedenza.
 
@@ -92,14 +92,14 @@ Il flusso di sovrascrittura è ritenuto valido se inviato entro, e non oltre, le
 Nei seguenti due esempi sono mostrati i comportamenti del Nodo dei pagamenti in caso di due invii successivi:
 
 * Esempio 1
-  * **Invio 1**: _identificativoFlusso_ **=** abc**,** _dataOraFlusso_ **=** 2019-01-01T**10**:00:00
-  * **Invio 2**: _identificativoFlusso_ **=** abc**,** _dataOraFlusso_ **=** 2019-01-01T**14**:00:00
+  * **Invio 1**: _identificativoFlusso_ **=** abc\*\*,\*\* _dataOraFlusso_ **=** 2019-01-01T**10**:00:00
+  * **Invio 2**: _identificativoFlusso_ **=** abc\*\*,\*\* _dataOraFlusso_ **=** 2019-01-01T**14**:00:00
 
 Al secondo invio, il nodo accetterà il flusso di rendicontazione.
 
 * Esempio 2
-  * **Invio 1**: _identificativoFlusso_ **=** abc**,** _dataOraFlusso_ **=** 2019-01-01T**10**:00:00,
-  * **Invio 2**: _identificativoFlusso_ **=** abc**,** _dataOraFlusso_ **=** 2019-01-01T**07**:00:00
+  * **Invio 1**: _identificativoFlusso_ **=** abc\*\*,\*\* _dataOraFlusso_ **=** 2019-01-01T**10**:00:00,
+  * **Invio 2**: _identificativoFlusso_ **=** abc\*\*,\*\* _dataOraFlusso_ **=** 2019-01-01T**07**:00:00
 
 Al secondo invio il Nodo rifiuterà il flusso di rendicontazione (lo stesso accadrebbe anche se la seconda dataTora fosse identica alla prima).
 
@@ -109,7 +109,7 @@ Al secondo invio il Nodo rifiuterà il flusso di rendicontazione (lo stesso acc
 
 Quando l’EC richiede l'elenco dei flussi ([nodoChiediElencoFlussiRendicontazione](../../appendici/primitive.md#nodochiedielencoflussirendicontazione)) il Nodo dei pagamenti deve rispondere, per un determinato _identificativoFlusso_, con il flusso più recente a disposizione, in riferimento al precedente esempio 1 e supponendo che la richiesta avvenga dopo la ricezione del secondo flusso da parte del nodo:
 
-* _identificativoFlusso_ **=** abc**,** _dataOraFlusso_ **=** 2019-01-01T**14**:00:00
+* _identificativoFlusso_ **=** abc\*\*,\*\* _dataOraFlusso_ **=** 2019-01-01T**14**:00:00
 
 Ad ogni richiesta vengono restituiti gli elenchi dei flussi secondo la seguente logica sui parametri di input opzionali eventualmente inseriti nella _request_:
 
@@ -124,7 +124,7 @@ Attualmente il Nodo non tiene traccia dei flussi già scaricati dall’EC, per q
 
 Per una corretta gestione l'EC deve verificare ed eventualmente gestire il contenuto associato ad ogni singolo _identificativoFlusso_ inviato fino alla quarta giornata lavorativa (D+4) successiva alla ricezione dell’ordine di pagamento.
 
-![](../../.gitbook/assets/fdr\_sovrascittura.png)
+![](../../../pago-pa/sanp/3.4.0/.gitbook/assets/fdr_sovrascittura.png)
 
 Non esistendo lato EC possibilità di filtrare, né temporalmente, né quantitativamente gli elementi restituiti, è stata definita una proprietà della piattaforma che permette di limitare l'intervallo temporale su cui basarsi per rispondere alla chiamata, la proprietà è unica per tutta la piattaforma e attualmente è impostata a 30 giorni.
 
