@@ -71,7 +71,7 @@ Di default non sono applicate restrizioni. È obbligatorio inserire le restrizio
 ### **is\_visible**
 
 {% hint style="warning" %}
-In fase di test, è importante impostare il valore in**`false`**.
+In fase di test, è importante impostare il valore i&#x6E;**`false`**.
 {% endhint %}
 
 {% tabs %}
@@ -116,7 +116,7 @@ Questo campo è automaticamente gestito dall’infrastruttura di IO ed è consid
 
 {% tabs %}
 {% tab title="Definizione" %}
-<table data-header-hidden><thead><tr><th width="165"></th><th></th></tr></thead><tbody><tr><td>Descrizione</td><td><p>Flag che permette di anonimizzare le notifiche inviate agli utenti (push e email). Il valore predefinito è <code>false</code></p><p></p><p><span data-gb-custom-inline data-tag="emoji" data-code="1f514">🔔</span> <strong>Notifica Push</strong></p><p>Se <code>true</code>, il contenuto è generico: "Hai un nuovo messaggio"</p><p></p><p><span data-gb-custom-inline data-tag="emoji" data-code="2709">✉</span> <strong>Email</strong></p><p>Se <code>true</code>, non viene inviata alcuna email, a prescindere dalle preferenze dell'utente.</p></td></tr><tr><td>Tipo</td><td>Booleano</td></tr><tr><td>Obbligatorio</td><td>No</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="165"></th><th></th></tr></thead><tbody><tr><td>Descrizione</td><td><p>Flag che permette di anonimizzare le notifiche inviate agli utenti (push e email). Il valore predefinito è <code>false</code></p><p></p><p><span data-gb-custom-inline data-tag="emoji" data-code="1f514">🔔</span> <strong>Notifica Push</strong></p><p>Se <code>true</code>, il contenuto è generico: "Hai un nuovo messaggio"</p><p></p><p><span data-gb-custom-inline data-tag="emoji" data-code="2709">✉️</span> <strong>Email</strong></p><p>Se <code>true</code>, non viene inviata alcuna email, a prescindere dalle preferenze dell'utente.</p></td></tr><tr><td>Tipo</td><td>Booleano</td></tr><tr><td>Obbligatorio</td><td>No</td></tr></tbody></table>
 {% endtab %}
 
 {% tab title="Esempio" %}

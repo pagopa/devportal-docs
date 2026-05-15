@@ -1,4 +1,4 @@
-# ✉ Inviare un messaggio
+# ✉️ Inviare un messaggio
 
 ## Cosa sono i messaggi?
 
@@ -47,7 +47,7 @@ Per maggiori informazioni scopri le API [get-a-user-profile-using-post.md](../..
 
 <summary><mark style="color:blue;">Step 4</mark> - Invia il messaggio</summary>
 
-Per farlo, usa l'API [submit-a-message-passing-the-user-fiscal\_code-in-the-request-body.md](../../api/api-messaggi/submit-a-message-passing-the-user-fiscal\_code-in-the-request-body.md "mention").
+Per farlo, usa l'API [submit-a-message-passing-the-user-fiscal\_code-in-the-request-body.md](../../api/api-messaggi/submit-a-message-passing-the-user-fiscal_code-in-the-request-body.md "mention").
 
 Puoi anche aggiungere allegati al messaggio, sfruttando una delle funzionalità del programma Premium. Per maggiori informazioni leggi [aggiungere-allegati-premium](aggiungere-allegati-premium/ "mention").
 
@@ -63,7 +63,7 @@ Interroga l’API [get-message.md](../../api/api-messaggi/get-message.md "mentio
 
 ## Gestione degli errori
 
-Tutte le API di IO possono restituire delle risposte di errore, definite nelle specifiche di ciascuna API_._ **È necessario implementare lato client dei meccanismi per la corretta gestione di questo tipo di risposte.**
+Tutte le API di IO possono restituire delle risposte di errore, definite nelle specifiche di ciascuna AP&#x49;_._ **È necessario implementare lato client dei meccanismi per la corretta gestione di questo tipo di risposte.**
 
 {% hint style="info" %}
 **Esempio:** tutte le API possono restituire lo `status code 429,` che rappresenta un segnale che indica il superamento del rate consentito. In questo caso, è necessario implementare un meccanismo di retry e diminuire il rate delle richieste inserendo delle pause.
