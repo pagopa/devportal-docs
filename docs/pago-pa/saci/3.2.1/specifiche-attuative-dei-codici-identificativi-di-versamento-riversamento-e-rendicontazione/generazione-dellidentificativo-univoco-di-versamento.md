@@ -27,7 +27,7 @@ PagoPA S.p.A. attribuisce il codice di segregazione ad ogni punto di generazione
 
 Uno schema delle modalità di attribuzione del Codice Segregazione è riportata in Figura 1.
 
-![Figura 1 - Attribuzione del codice segregazione](../.gitbook/assets/image.png)
+![Figura 1 - Attribuzione del codice segregazione](../../../../../pago-pa/saci/3.2.1/.gitbook/assets/image.png)
 
 ### **Erogatori di servizi centralizzati**
 
