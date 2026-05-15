@@ -6,7 +6,7 @@ description: >-
 
 # 3️⃣ Pagamento rata unica
 
-<figure><img src=".gitbook/assets/Stepper_03.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../solutions/riscossione-della-tari/.gitbook/assets/Stepper_03.png" alt=""><figcaption></figcaption></figure>
 
 ## 1. Il cittadino riceve l'avviso di pagamento
 
