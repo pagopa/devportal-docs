@@ -52,7 +52,7 @@ Al termine del pagamento è importante fornire un feedback all'utente sull'esito
 
 ### Esempi
 
-<figure><img src="../../.gitbook/assets/image (50).png" alt=""><figcaption><p>                        Schermata di feedback                                                                    Pagina di dettaglio della richiesta di pagamento</p></figcaption></figure>
+<figure><img src="../../../srtp/linee-guida-ux/1.0/.gitbook/assets/image (62).png" alt=""><figcaption><p>                        Schermata di feedback                                                                    Pagina di dettaglio della richiesta di pagamento</p></figcaption></figure>
 
 
 

@@ -10,7 +10,7 @@ L'utente deve poter interrompere la ricezione delle richieste di pagamento in qu
 * Fornisci all'utente tutte le informazioni per effettuare la scelta, spiegando le implicazioni della disattivazione del servizio.
 * Fornisci una conferma esplicita di disattivazione sfruttando i touchpoint a disposizione. (es. feedback immediato e conferma via e-mail).
 
-<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../srtp/linee-guida-ux/1.0/.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
 
 ## Trasferimento del servizio
 
@@ -22,7 +22,7 @@ Il trasferimento si verifica quando l'utente sceglie un nuovo PSP per ricevere l
 
 Abilitando il servizio presso un nuovo PSP, RTP si disattiverà automaticamente sui canali del precedente secondo questa procedura:
 
-<figure><img src="../.gitbook/assets/image (33).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../srtp/linee-guida-ux/1.0/.gitbook/assets/image (45).png" alt=""><figcaption></figcaption></figure>
 
 \
 Questa informazione va resa nota e previste le adeguate comunicazioni verso l'utente:

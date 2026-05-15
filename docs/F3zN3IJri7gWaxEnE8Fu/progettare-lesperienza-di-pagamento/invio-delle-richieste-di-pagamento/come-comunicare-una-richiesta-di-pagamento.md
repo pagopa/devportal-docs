@@ -34,11 +34,11 @@ L'**ente creditore/mittente** e il **motivo del pagamento** sono due informazion
 {% column width="50%" %}
 ❌ **Da evitare**
 
-<figure><img src="../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../srtp/linee-guida-ux/1.0/.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
 
 Manca l'oggetto del pagamento e lo scopo della notifica non è immediatamente chiaro.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (31).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../srtp/linee-guida-ux/1.0/.gitbook/assets/image (43).png" alt=""><figcaption></figcaption></figure>
 
 Il mittente è errato e il contesto della notifica non è chiaro
 {% endcolumn %}
@@ -46,7 +46,7 @@ Il mittente è errato e il contesto della notifica non è chiaro
 {% column width="50%" %}
 ✅  **Corretti**
 
-<figure><img src="../../.gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../srtp/linee-guida-ux/1.0/.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
 
 Il titolo specifica lo scopo della notifica e l'oggetto rende subito chiaro di cosa si tratta.
 {% endcolumn %}
@@ -65,7 +65,7 @@ Tramite l'email è possibile fornire maggiori informazioni di dettaglio. Tuttavi
 * Prevedi sempre una CTA che permetta di visualizzare la richiesta di pagamento nell'home-banking. Oltre a indirizzare l'utente verso il pagamento della richiesta, renderai più robusto il servizio in ottica anti-phishing.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (16).png" alt="Una notifica o un&#x27;email che informa l&#x27;utente di una nuova richiesta di pagamento. Il titolo è &#x22;Nuova richiesta di pagamento da parte di [Nome Ente]&#x22;. La comunicazione include i dettagli essenziali della richiesta: Mittente (Comune di Ipazia), Oggetto del pagamento (Tari 2025), Importo (249,90 €), e la Data di scadenza (Entro il: 15/09/2025). Vengono forniti anche il Codice Avviso e il Codice Fiscale Ente. Il corpo del messaggio invita l&#x27;utente a visualizzare e completare il pagamento tramite il proprio portale bancario e include un pulsante &#x22;Visualizza la richiesta di pagamento&#x22;. La nota finale specifica che la comunicazione è ricevuta in qualità di [persona fisica] che ha aderito al servizio di ricezione delle richieste di pagamento sui canali bancari."><figcaption></figcaption></figure>
+<figure><img src="../../../srtp/linee-guida-ux/1.0/.gitbook/assets/image (28).png" alt="Una notifica o un&#x27;email che informa l&#x27;utente di una nuova richiesta di pagamento. Il titolo è &#x22;Nuova richiesta di pagamento da parte di [Nome Ente]&#x22;. La comunicazione include i dettagli essenziali della richiesta: Mittente (Comune di Ipazia), Oggetto del pagamento (Tari 2025), Importo (249,90 €), e la Data di scadenza (Entro il: 15/09/2025). Vengono forniti anche il Codice Avviso e il Codice Fiscale Ente. Il corpo del messaggio invita l&#x27;utente a visualizzare e completare il pagamento tramite il proprio portale bancario e include un pulsante &#x22;Visualizza la richiesta di pagamento&#x22;. La nota finale specifica che la comunicazione è ricevuta in qualità di [persona fisica] che ha aderito al servizio di ricezione delle richieste di pagamento sui canali bancari."><figcaption></figcaption></figure>
 
 #### Suggerimenti sul tono di voce
 

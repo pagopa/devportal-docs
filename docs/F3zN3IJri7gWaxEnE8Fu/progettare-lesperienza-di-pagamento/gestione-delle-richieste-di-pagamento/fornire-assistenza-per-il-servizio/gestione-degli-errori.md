@@ -8,7 +8,7 @@ In questa sezione sono elencate le casistiche più comuni che impediscono di pag
 Questi errori vengono restituiti dalla piattaforma pagoPA, dopo che l'utente ha deciso di procedere con il pagamento dell'avviso.
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/image (55).png" alt=""><figcaption><p>Esempio di come mostrare agli utenti gli errori restituiti dalla piattaforma pagoPA.</p></figcaption></figure>
+<figure><img src="../../../../srtp/linee-guida-ux/1.0/.gitbook/assets/image (67).png" alt=""><figcaption><p>Esempio di come mostrare agli utenti gli errori restituiti dalla piattaforma pagoPA.</p></figcaption></figure>
 
 ### L'Ente creditore non risponde
 

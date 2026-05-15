@@ -26,7 +26,7 @@ Request to Pay si rivolge principalmente a tre attori:&#x20;
 
 ### Il servizio in sintesi
 
-<figure><img src="../.gitbook/assets/image (23).png" alt="Lo schema descrive i vari attori coinvolti nel processo di Request to Pay."><figcaption></figcaption></figure>
+<figure><img src="../../srtp/linee-guida-ux/1.0/.gitbook/assets/image (35).png" alt="Lo schema descrive i vari attori coinvolti nel processo di Request to Pay."><figcaption></figcaption></figure>
 
 ### I vantaggi di RTP&#x20;
 

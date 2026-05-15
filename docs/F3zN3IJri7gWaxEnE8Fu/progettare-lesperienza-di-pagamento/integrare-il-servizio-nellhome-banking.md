@@ -25,7 +25,7 @@ Sfrutta la sezione dedicata ai pagamenti che hai nel tuo home-banking per ospita
 
 Quando integri il servizio nell'architettura informativa del tuo home-banking, tieni a mente questa gerarchia:
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../srtp/linee-guida-ux/1.0/.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
 
 ### Come chiamare il servizio
 

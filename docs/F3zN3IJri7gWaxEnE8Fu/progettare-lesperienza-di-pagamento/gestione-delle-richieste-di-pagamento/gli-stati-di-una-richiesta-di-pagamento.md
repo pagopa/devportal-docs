@@ -24,7 +24,7 @@ Durante questa fase se l'utente vuole eseguire il pagamento, ma è impossibilita
 
 ### Esempio:
 
-<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../srtp/linee-guida-ux/1.0/.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
 </details>
 
@@ -40,7 +40,7 @@ Il sistema RTP dà la possibilità, qualora si voglia, di permettere all'utente 
 L'implementazione di questo stato non è obbligatoria, ma è fortemente suggerita. La nostra indagine qualitativa ha rivelato l'elevato valore percepito dagli utenti per le funzionalità di programmazione dei pagamenti (simile ai bonifici dilazionati).
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../srtp/linee-guida-ux/1.0/.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
 </details>
 
@@ -57,7 +57,7 @@ In questo caso è utile garantire:
 * lo stato del pagamento ben visibile;
 * la facile reperibilità della ricevuta che attesti il pagamento.
 
-<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../srtp/linee-guida-ux/1.0/.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
 </details>
 
@@ -69,7 +69,7 @@ In questo caso è utile garantire:
 
 Questo stato indica che l'importo della richiesta di pagamento non è stato ancora versato e che la data di scadenza è stata superata. È fondamentale mostrare questo stato in modo ben visibile nell'interfaccia, al fine di comunicare chiaramente all'utente la situazione e l'eventuale impossibilità di procedere con il pagamento.
 
-<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../srtp/linee-guida-ux/1.0/.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 
 </details>
 
@@ -81,7 +81,7 @@ Questo stato si verifica quando una richiesta di pagamento viene annullata dall'
 
 In questo caso, è buona norma mantenere i dettagli della richiesta di pagamento e spiegare all'utente i motivi per cui l'avviso non è pagabile.
 
-<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../srtp/linee-guida-ux/1.0/.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
 
 
 
