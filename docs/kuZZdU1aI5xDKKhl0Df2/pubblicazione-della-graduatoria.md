@@ -6,7 +6,7 @@ description: >-
 
 # 2️⃣ Pubblicazione della graduatoria
 
-<figure><img src=".gitbook/assets/Stepper_2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../solutions/asili-nido/.gitbook/assets/Stepper_2.png" alt=""><figcaption></figcaption></figure>
 
 ## 1. L'ente elabora e pubblica la graduatoria
 
