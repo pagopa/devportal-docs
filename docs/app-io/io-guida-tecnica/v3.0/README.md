@@ -8,22 +8,22 @@ description: >-
 
 ### Primi passi
 
-{% content-ref url="../../../KaAXw9uMBC5zBbJ5o8a6/setup-iniziale/" %}
-[setup-iniziale](../../../KaAXw9uMBC5zBbJ5o8a6/setup-iniziale/)
+{% content-ref url="setup-iniziale/" %}
+[setup-iniziale](setup-iniziale/)
 {% endcontent-ref %}
 
 ### Funzionalità
 
-{% content-ref url="../../../KaAXw9uMBC5zBbJ5o8a6/funzionalita/pubblicare-un-servizio/" %}
-[pubblicare-un-servizio](../../../KaAXw9uMBC5zBbJ5o8a6/funzionalita/pubblicare-un-servizio/)
+{% content-ref url="funzionalita/pubblicare-un-servizio/" %}
+[pubblicare-un-servizio](funzionalita/pubblicare-un-servizio/)
 {% endcontent-ref %}
 
-{% content-ref url="../../../KaAXw9uMBC5zBbJ5o8a6/funzionalita/inviare-un-messaggio/" %}
-[inviare-un-messaggio](../../../KaAXw9uMBC5zBbJ5o8a6/funzionalita/inviare-un-messaggio/)
+{% content-ref url="funzionalita/inviare-un-messaggio/" %}
+[inviare-un-messaggio](funzionalita/inviare-un-messaggio/)
 {% endcontent-ref %}
 
-{% content-ref url="../../../KaAXw9uMBC5zBbJ5o8a6/funzionalita/inviare-un-messaggio/aggiungere-allegati-premium/" %}
-[aggiungere-allegati-premium](../../../KaAXw9uMBC5zBbJ5o8a6/funzionalita/inviare-un-messaggio/aggiungere-allegati-premium/)
+{% content-ref url="funzionalita/inviare-un-messaggio/aggiungere-allegati-premium/" %}
+[aggiungere-allegati-premium](funzionalita/inviare-un-messaggio/aggiungere-allegati-premium/)
 {% endcontent-ref %}
 
 ### API
@@ -34,8 +34,8 @@ description: >-
 
 ### Abilitazioni
 
-{% content-ref url="../../../KaAXw9uMBC5zBbJ5o8a6/abilitazioni/" %}
-[abilitazioni](../../../KaAXw9uMBC5zBbJ5o8a6/abilitazioni/)
+{% content-ref url="abilitazioni/" %}
+[abilitazioni](abilitazioni/)
 {% endcontent-ref %}
 
 ### Risorse utili
@@ -44,4 +44,4 @@ description: >-
 
 [**Supporto agli Enti ->**](https://docs.pagopa.it/kb-enti)
 
-[**Glossario ->**](../../../KaAXw9uMBC5zBbJ5o8a6/risorse-utili/glossario.md)
+[**Glossario ->**](risorse-utili/glossario.md)

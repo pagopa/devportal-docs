@@ -1,0 +1,61 @@
+# Upload service logo
+
+{% hint style="danger" %}
+**Deprecata**: dal 30 settembre 2023 questa API non sarà più disponibile. Sostituiscila con [manage-service-upload-service-logo.md](manage-service-upload-service-logo.md "mention")
+{% endhint %}
+
+## Descrizione
+
+Questa API permette di caricare il logo di un servizio. Per funzionare correttamente richiede l'inserimento del **`service_id`** come path parameter e l'inserimento del logo, in formato base64, nel `body` del messaggio .
+
+{% hint style="warning" %}
+È obbligatorio utilizzare l’**api-key del servizio stesso**.
+{% endhint %}
+
+{% swagger src="https://raw.githubusercontent.com/teamdigitale/io-functions-services/master/openapi/index.yaml" path="/services/{service_id}/logo" method="put" %}
+[https://raw.githubusercontent.com/teamdigitale/io-functions-services/master/openapi/index.yaml](https://raw.githubusercontent.com/teamdigitale/io-functions-services/master/openapi/index.yaml)
+{% endswagger %}
+
+{% hint style="warning" %}
+**Importante**
+
+* Le dimensioni del logo dovranno essere necessariamente 300x300 pixel.&#x20;
+* L'immagine deve essere in formato png con sfondo bianco o trasparente.
+{% endhint %}
+
+{% hint style="info" %}
+Eseguendo un caricamento del logo immediatamente dopo la creazione del servizio, è possibile che l’API restituisca un errore `401`. Se accade, attendi qualche secondo e carica di nuovo il logo.
+{% endhint %}
+
+Per verificare che il logo del servizio sia caricato correttamente, puoi interrogare la seguente URL:
+
+```markup
+https://assets.cdn.io.italia.it/logos/services/<SERVICE_ID>.png
+```
+
+dove **`<SERVICE_ID>`** è l'[id servizio](../../funzionalita/pubblicare-un-servizio/dati-obbligatori/attributi.md#service\_id) in lowercase.
+
+## Esempi
+
+{% code overflow="wrap" %}
+```shell
+### REQUEST
+curl --location --request PUT 'https://api.io.pagopa.it/api/v1/services/SERVICE_ID/logo' \
+--header 'Ocp-Apim-Subscription-Key: __YOUR_API_KEY__' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+"logo": "<<Base64ImageString>>"
+}'
+```
+{% endcode %}
+
+{% code overflow="wrap" %}
+```shell
+### RESPONSE
+{}
+```
+{% endcode %}
+
+## Risorse utili
+
+[https://developer.io.italia.it/openapi.html#operation/uploadServiceLogo](https://developer.io.italia.it/openapi.html#operation/uploadServiceLogo)
