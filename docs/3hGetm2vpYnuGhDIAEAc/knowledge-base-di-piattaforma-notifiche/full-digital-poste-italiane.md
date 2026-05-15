@@ -6,7 +6,7 @@ Questo sistema digitale è stato sviluppato per ottimizzare la gestione del proc
 
 Il sistema produce i seguenti documenti in formato digitale:
 
-<table><thead><tr><th>Modello</th><th align="center">Codice</th><th data-type="checkbox">c/o Domicilio</th><th data-type="checkbox">c/o  Ufficio Postale</th></tr></thead><tbody><tr><td><strong>23L digitale</strong></td><td align="center">890</td><td>true</td><td>true</td></tr><tr><td><strong>ARCAD digitale</strong></td><td align="center">890</td><td>true</td><td>false</td></tr><tr><td><strong>AC digitale (23i)</strong></td><td align="center">A/R</td><td>true</td><td>true</td></tr></tbody></table>
+<table><thead><tr><th>Modello</th><th align="center">Codice</th><th data-type="checkbox">c/o Domicilio</th><th data-type="checkbox">c/o Ufficio Postale</th></tr></thead><tbody><tr><td><strong>23L digitale</strong></td><td align="center">890</td><td>true</td><td>true</td></tr><tr><td><strong>ARCAD digitale</strong></td><td align="center">890</td><td>true</td><td>false</td></tr><tr><td><strong>AC digitale (23i)</strong></td><td align="center">A/R</td><td>true</td><td>true</td></tr></tbody></table>
 
 La generazione dei documenti digitali riporta i seguenti elementi:
 
@@ -31,19 +31,19 @@ Il documenti prodotti sono archiviati all'interno di un file ZIP contenente:
 
 II file ZIP contiene un PDF e un XML relativi a una spedizione 890 per Raccomandata Mod. 23L consegnata a domicilio, con dettagli su codice di spedizione, data e luogo di accettazione e recapito.
 
-{% file src="../.gitbook/assets/23L_domicilio.zip" %}
+{% file src="../../send/knowledge-base/v2.4/.gitbook/assets/23L_domicilio.zip" %}
 
 * **23L digitale consegna c/o ufficio postale**
 
 Il file ZIP contiene un PDF e un XML relativi a una spedizione 890 per Raccomandata Mod. 23L consegnata ad un ufficio postale, con dettagli su codice di spedizione, data e luogo di accettazione e recapito.
 
-{% file src="../.gitbook/assets/SP04_23LFD_281526382192_381526382193.zip" %}
+{% file src="../../send/knowledge-base/v2.4/.gitbook/assets/SP04_23LFD_281526382192_381526382193.zip" %}
 
 * **ARCAD digitale**
 
 Il file ZIP contiene un PDF e un XML relativi a una spedizione 890 per ARCAD digiale , con dettagli su codice di spedizione, data e luogo di accettazione e recapito.
 
-{% file src="../.gitbook/assets/ARCAD_domicilio.zip" %}
+{% file src="../../send/knowledge-base/v2.4/.gitbook/assets/ARCAD_domicilio.zip" %}
 
 ### Raccomandata A/R
 
@@ -51,16 +51,16 @@ Il file ZIP contiene un PDF e un XML relativi a una spedizione 890 per ARCAD dig
 
 II file ZIP contiene un PDF e un XML relativi a una spedizione A/R per Raccomandata Mod. 23i consegnata a domicilio, con dettagli su codice di spedizione, data e luogo di accettazione e recapito.
 
-{% file src="../.gitbook/assets/23i_domicilio.zip" %}
+{% file src="../../send/knowledge-base/v2.4/.gitbook/assets/23i_domicilio.zip" %}
 
 * **23i digitale consegna c/o ufficio postale**
 
 Il file ZIP contiene un PDF e un XML relativi a una spedizione A/R per Raccomandata Mod. 23i consegnata ad un ufficio postale, con dettagli su codice di spedizione, data e luogo di accettazione e recapito.
 
-{% file src="../.gitbook/assets/23IFD_ACFD697319802149_697319802149.zip" %}
+{% file src="../../send/knowledge-base/v2.4/.gitbook/assets/23IFD_ACFD697319802149_697319802149.zip" %}
 
 ### Dettaglio dei campi del file XML
 
 l file XML della Raccomandata 23L include campi per tracciare l’intera spedizione, come il codice identificativo dell’oggetto, la descrizione del documento inviato (es. atto giudiziario), la data e il luogo di accettazione e recapito, e i dettagli sul mittente. Questi campi certificano ogni fase del processo di notifica e rendono la spedizione conforme alle normative legali.
 
-{% file src="../.gitbook/assets/Dettaglio campi per file FD PagoPA_V3.xlsx" %}
+{% file src="../../send/knowledge-base/v2.4/.gitbook/assets/Dettaglio campi per file FD PagoPA_V3.xlsx" %}

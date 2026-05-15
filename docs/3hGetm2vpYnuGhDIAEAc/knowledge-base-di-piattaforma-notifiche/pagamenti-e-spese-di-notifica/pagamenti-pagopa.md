@@ -6,8 +6,7 @@ description: >-
 
 # Pagamenti pagoPA
 
-L'attualizzazione della posizione debitoria è un'operazione che permette di integrare le spese di notifica sostenute da Piattaforma Notifiche per la spedizione, al costo richiesto dall'atto spedito dalla PA Mittente verso il destinatario.\
-
+L'attualizzazione della posizione debitoria è un'operazione che permette di integrare le spese di notifica sostenute da Piattaforma Notifiche per la spedizione, al costo richiesto dall'atto spedito dalla PA Mittente verso il destinatario.\\
 
 L'integrazione con il sistema di pagamento pagoPA può avvenire in due modalità:
 
@@ -22,7 +21,7 @@ Le spese di notifica variano in base al processo di spedizione eseguito per una 
 
 ### Descrizione del processo step-by-step
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p>Diagramma del processo di attualizzazione delle spese di Notifica</p></figcaption></figure>
+<figure><img src="../../../send/knowledge-base/v2.4/.gitbook/assets/image (2).png" alt=""><figcaption><p>Diagramma del processo di attualizzazione delle spese di Notifica</p></figcaption></figure>
 
 1. **Accesso Notifica**: il destinatario/delegato accede al dettaglio della notifica e clicca sul pulsante “Paga”
 2. **Pagamento**: il destinatario/delegato viene mandato sul sito checkout di pagoPA passando i dati Codice Ente Creditore, Numero Avviso.
@@ -31,7 +30,7 @@ Le spese di notifica variano in base al processo di spedizione eseguito per una 
 
 #### Ottimizzazione del processo limitando le chiamate al servizio **notificationPrice** tramite analisi degli eventi da stream di timeline <a href="#ottimizzazioni" id="ottimizzazioni"></a>
 
-E' possibile limitare le richieste di attualizzazione delle spese di notifica, utilizzando lo stream degli eventi di timeline per intercettare il momento nel quale il costo non subirà più variazioni, eseguendo l'operazione di attualizzazione in anticipo.&#x20;
+E' possibile limitare le richieste di attualizzazione delle spese di notifica, utilizzando lo stream degli eventi di timeline per intercettare il momento nel quale il costo non subirà più variazioni, eseguendo l'operazione di attualizzazione in anticipo.
 
 Di seguito delle linee guida per eseguire questa ottimizzazione:
 
@@ -49,5 +48,4 @@ E' possibile quindi ottimizzare il processo descritto al punto "**4 Richiesta co
 Nella modalità asincrona di integrazione con pagoPA le posizione debitorie sono caricate preventivamente dall'EC sul sistema Gestione Posizioni Debitorie (GPD) di pagoPA.\
 All'atto del pagamento pagoPA chiamerà GPD per recuperare l'importo dell'atto collegato al numero avviso e il costo di notifica che viene continuamente aggiornato da SEND nel momento stesso in cui di verifica l'evento che genera una variazione del costo di notifica.
 
-Questa soluzione presenta una maggior robustezza perché le chiamate per recuperare i dettagli della posizione debitoria avvengono su sistemi in gestione PagoPA senza interagire con i sistemi remoti dell'EC e non necessità da parte dell'EC di attualizzare le spese di notifica implementando la chiamata alle API di SEND.&#x20;
-
+Questa soluzione presenta una maggior robustezza perché le chiamate per recuperare i dettagli della posizione debitoria avvengono su sistemi in gestione PagoPA senza interagire con i sistemi remoti dell'EC e non necessità da parte dell'EC di attualizzare le spese di notifica implementando la chiamata alle API di SEND.

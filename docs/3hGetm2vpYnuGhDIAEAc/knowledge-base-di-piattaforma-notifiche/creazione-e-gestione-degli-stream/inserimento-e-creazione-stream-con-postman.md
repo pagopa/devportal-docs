@@ -26,7 +26,7 @@ All'interno del **filterValues** è possibile inserire un array di eventi di tip
 \
 Aprire la scheda **Crea nuovo stream di eventi** ed inserire nel body il seguente payload:
 
-<figure><img src="../../.gitbook/assets/image (50).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../send/knowledge-base/v2.4/.gitbook/assets/image (50).png" alt=""><figcaption></figcaption></figure>
 
 **-NOTA:** sostituire i seguenti:
 
@@ -35,14 +35,13 @@ Aprire la scheda **Crea nuovo stream di eventi** ed inserire nel body il seguent
 * **`<PDNDVoucher>`:** inserire inserire il Voucher generato su **PDND Interoperabilità,** assicurandosi che non sia scaduto
 * **`<title>`:** inserire un titolo da attribuire a questo stream
 * **`<groupId>`:** Id del gruppo per ottenere la segregazione tra gli eventi delle notifiche che appartengono solo ai gruppi specificati
-* **`<eventType>`:** inserire la tipologia di stream a scelta tra **STATUS** e **TIMELINE**&#x20;
+* **`<eventType>`:** inserire la tipologia di stream a scelta tra **STATUS** e **TIMELINE**
 * **`<filterValues>`:** inserire un array di eventi che verranno utilizzati come filtro. Se valorizzato con array vuoto: `DEFAULT` lo stream registrerà tutti gli eventi eventi che hanno ripercussione sul cambiamento di stato del workflow o che riportano dati di interesse per il mittente
 * **`<replacedStreamId>`:** campo opzionale, serve per sostituire lo stream indicato tramite streamId da quello che verrà creato.
 
-Nella response di questo servizio, si otterrà il seguente payload:\
+Nella response di questo servizio, si otterrà il seguente payload:\\
 
-
-<figure><img src="../../.gitbook/assets/image (52).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../send/knowledge-base/v2.4/.gitbook/assets/image (52).png" alt=""><figcaption></figcaption></figure>
 
 * **`<streamId>`:** id dello stream che viene autogenerato dal servizio
 * **`<activationDate>`:** data di attivazione dello stream autogenerata dal servizio
@@ -51,10 +50,10 @@ Nella response di questo servizio, si otterrà il seguente payload:\
 
 ### 2) Prima interrogazione dello stream
 
-La prima interrogazione dello stream permetterà di ricevere i primi 50 eventi registrati dallo stream. \
+La prima interrogazione dello stream permetterà di ricevere i primi 50 eventi registrati dallo stream.\
 Aprire la scheda **Leggi progressi notifiche** e riprodurre questa configurazione:
 
-<figure><img src="../../.gitbook/assets/image (53).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../send/knowledge-base/v2.4/.gitbook/assets/image (53).png" alt=""><figcaption></figcaption></figure>
 
 **NOTA:** sostituire i seguenti:
 
@@ -63,12 +62,12 @@ Aprire la scheda **Leggi progressi notifiche** e riprodurre questa configurazion
 
 Nella response di questo servizio, si otterrà il seguente payload che rappresenta tutti gli eventi:
 
-<figure><img src="../../.gitbook/assets/image (47).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../send/knowledge-base/v2.4/.gitbook/assets/image (47).png" alt=""><figcaption></figcaption></figure>
 
-Gli eventi ottenuti dovranno essere memorizzati dal client poichè nelle successive chiamate i risultati ottenuti verranno consumati e cancellati dallo stream per lasciare il posto agli eventi successivi. \
+Gli eventi ottenuti dovranno essere memorizzati dal client poichè nelle successive chiamate i risultati ottenuti verranno consumati e cancellati dallo stream per lasciare il posto agli eventi successivi.\
 E' poi necessario selezionare il tab Headers della response per visualizzare i valori ottenuti:
 
-<figure><img src="../../.gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../send/knowledge-base/v2.4/.gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure>
 
 **NOTA:** nell'header della response ottenuta fare attenzione al campo `retry-after` che deve essere memorizzato per le successive chiamate:
 
@@ -82,7 +81,7 @@ E' quindi fondamentale rispettare la logica che viene rappresentata dal campo "_
 Dalle interrogazioni successive alla prima dello stream, si otterranno i 50 eventi successivi a quello del lastEventId (l'eventId dell'ultimo evento ottenuto nelle precedenti chiamate).\
 Aprire la scheda **Leggi progressi notifiche** e riprodurre questa configurazione:
 
-<figure><img src="../../.gitbook/assets/image (54).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../send/knowledge-base/v2.4/.gitbook/assets/image (54).png" alt=""><figcaption></figcaption></figure>
 
 **NOTA:** sostituire i seguenti:
 
@@ -97,4 +96,4 @@ Gli eventi ottenuti dovranno essere memorizzati dal client poichè nelle success
 * se`retryAfter = 0` è possibile richiamare immediatamente il servizio per ottenere gli eventi successivi se invece
 * se`retryAfter` ≠ `0` è necessario attendere la quantità di tempo (espressa in millisecondi) del valore restituito, prima di richiamare di nuovo il servizio
 
-E' quindi fondamentale rispettare la logica che viene rappresentata dal campo  "_retry-after_" il quale fornisce l'indicazione al client su quando richiamare il servizio; pertanto si sconsiglia di creare dei processi di batch che effettuino la chiamata in un momento fisso e/o ripetuto nei giorni.
+E' quindi fondamentale rispettare la logica che viene rappresentata dal campo "_retry-after_" il quale fornisce l'indicazione al client su quando richiamare il servizio; pertanto si sconsiglia di creare dei processi di batch che effettuino la chiamata in un momento fisso e/o ripetuto nei giorni.
