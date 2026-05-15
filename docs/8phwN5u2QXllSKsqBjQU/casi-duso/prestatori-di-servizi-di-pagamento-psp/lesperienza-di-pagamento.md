@@ -18,13 +18,13 @@ Fai in modo che gli utenti del tuo prodotto riescano a trovare facilmente il flu
 Ricorda di menzionare sempre "pagoPA", anche se la tecnologia è basata su piattaforme offerte da altri soggetti.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/Rendi visibile il flusso.png" alt="Esempi corretti e non di come rendere visibile il flusso di pagamento pagoPA"><figcaption></figcaption></figure>
+<figure><img src="../../../pago-pa/linee-guida-brand-pagopa/v1.0/.gitbook/assets/Rendi visibile il flusso.png" alt="Esempi corretti e non di come rendere visibile il flusso di pagamento pagoPA"><figcaption></figcaption></figure>
 
 ## Favorisci l'uso del codice QR
 
 Se il tuo prodotto lo consente, favorisci l'esperienza di pagamento basata su codice QR: i tuoi utenti non dovranno digitare a mano i dati presenti sull'avviso di pagamento.
 
-<figure><img src="../../.gitbook/assets/qrcodeexample.png" alt="Schermata di app in cui si sta inquadrando un codice QR"><figcaption><p>Esempio di app  che consente di scansionare diversi tipi di codici QR legati ai pagamenti, pagoPA incluso.</p></figcaption></figure>
+<figure><img src="../../../pago-pa/linee-guida-brand-pagopa/v1.0/.gitbook/assets/qrcodeexample.png" alt="Schermata di app in cui si sta inquadrando un codice QR"><figcaption><p>Esempio di app  che consente di scansionare diversi tipi di codici QR legati ai pagamenti, pagoPA incluso.</p></figcaption></figure>
 
 ## Fornisci istruzioni chiare
 
@@ -34,7 +34,7 @@ Se è necessario inserire a mano i dati, utilizza i nomi corretti, così da non 
 
 Puoi inserire un avviso di esempio così da aiutare gli utenti a trovare i dati richiesti:
 
-{% file src="../../.gitbook/assets/pagopa-avviso-esempio.png" %}
+{% file src="../../../pago-pa/linee-guida-brand-pagopa/v1.0/.gitbook/assets/pagopa-avviso-esempio.png" %}
 
 ### Utilizza la terminologia corretta
 
@@ -45,7 +45,7 @@ I campi obbligatori, riportati entrambi sull'avviso di pagamento, sono due:
 
 {% tabs %}
 {% tab title="✅ Fai così" %}
-<figure><img src="../../.gitbook/assets/Schermata 2022-09-21 alle 10.10.18.png" alt="Esempio corretto di come utilizzare la terminologia in un flusso di pagamento"><figcaption></figcaption></figure>
+<figure><img src="../../../pago-pa/linee-guida-brand-pagopa/v1.0/.gitbook/assets/Schermata 2022-09-21 alle 10.10.18.png" alt="Esempio corretto di come utilizzare la terminologia in un flusso di pagamento"><figcaption></figcaption></figure>
 
 * [x] Il campo Ente Creditore accetta più input (11 cifre, codice CBILL, nome dell'Ente)
 * [x] Il campo Ente Creditore è chiamato correttamente
@@ -54,7 +54,7 @@ I campi obbligatori, riportati entrambi sull'avviso di pagamento, sono due:
 {% endtab %}
 
 {% tab title="❌ Non così" %}
-<figure><img src="../../.gitbook/assets/Schermata 2022-09-21 alle 09.58.29.png" alt="Esempio errato di come utilizzare la terminologia in un flusso di pagamento"><figcaption></figcaption></figure>
+<figure><img src="../../../pago-pa/linee-guida-brand-pagopa/v1.0/.gitbook/assets/Schermata 2022-09-21 alle 09.58.29.png" alt="Esempio errato di come utilizzare la terminologia in un flusso di pagamento"><figcaption></figcaption></figure>
 
 * Il campo "Nome Azienda" confonde l'utente
 * Il campo "Nome Azienda" non consente l'inserimento del Codice Fiscale Ente Creditore (o del codice CBILL)

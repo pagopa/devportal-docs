@@ -29,20 +29,20 @@ A sinistra non emerge il concetto di "pagamento online" e il servizio "pagoPA" Ã
 [**A questa pagina**](testi-descrittivi-e-termini.md) trovi i termini corretti da utilizzare. Non citare l'Agenzia per l'Italia Digitale (AgID): dal 2019 pagoPA Ã¨ sviluppato e gestito da [PagoPA S.p.A.](https://www.pagopa.it)
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/Banner con immagine Esempio 1.png" alt="Esempio di banner in cui non emerge il concetto di pagamento"><figcaption></figcaption></figure>
+<figure><img src="../../../pago-pa/linee-guida-brand-pagopa/v1.0/.gitbook/assets/Banner con immagine Esempio 1.png" alt="Esempio di banner in cui non emerge il concetto di pagamento"><figcaption></figcaption></figure>
 
 ### Segui le linee guida del logo
 
 Le puoi consultare [**a questa pagina**](../../specifiche-tecniche/il-logo-pagopa.md). In caso di sfondi colorati contrastati utilizzare il logo pagoPA nella versione bianca o nera senza background.
 
-<figure><img src="../../.gitbook/assets/Banner con immagine Esempio 6.png" alt="Esempio di banner che non segue le linee guida del logo"><figcaption></figcaption></figure>
+<figure><img src="../../../pago-pa/linee-guida-brand-pagopa/v1.0/.gitbook/assets/Banner con immagine Esempio 6.png" alt="Esempio di banner che non segue le linee guida del logo"><figcaption></figcaption></figure>
 
 ### Presta attenzione a spazi di sicurezza e colori di sfondo
 
 * Assicurati di utilizzare il logo nei colori corretti ([**qui illustrati**](../../specifiche-tecniche/colori.md#varianti))
 * Rispetta lo [**spazio di sicurezza**](../../specifiche-tecniche/spazio-di-sicurezza.md) e i [**colori di sfondo**](../../specifiche-tecniche/colori.md#varianti) consentiti
 
-<figure><img src="../../.gitbook/assets/Banner con immagine Esempio 2.png" alt="Esempio di banner errato"><figcaption></figcaption></figure>
+<figure><img src="../../../pago-pa/linee-guida-brand-pagopa/v1.0/.gitbook/assets/Banner con immagine Esempio 2.png" alt="Esempio di banner errato"><figcaption></figcaption></figure>
 
 ### Usa le dimensioni corrette&#x20;
 
@@ -52,13 +52,13 @@ A sinistra il logo "pagoPA" ha una risoluzione troppo bassa tanto da farlo risul
 Rispetta le dimensioni e la risoluzione [**indicate qui**](../../specifiche-tecniche/dimensioni-minime.md).
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/Banner con immagine Esempio 3.png" alt="Esempio di banner con logo sfocato"><figcaption></figcaption></figure>
+<figure><img src="../../../pago-pa/linee-guida-brand-pagopa/v1.0/.gitbook/assets/Banner con immagine Esempio 3.png" alt="Esempio di banner con logo sfocato"><figcaption></figcaption></figure>
 
 ### Non usare versioni obsolete del logo
 
 A sinistra viene utilizzato erroneamente un logo obsoleto di pagoPA. Anche i colori sono obsoleti. _A destra il banner corretto._
 
-<figure><img src="../../.gitbook/assets/Banner con immagine Esempio 4.png" alt="Esempio di utilizzo obsoleto del logo"><figcaption></figcaption></figure>
+<figure><img src="../../../pago-pa/linee-guida-brand-pagopa/v1.0/.gitbook/assets/Banner con immagine Esempio 4.png" alt="Esempio di utilizzo obsoleto del logo"><figcaption></figcaption></figure>
 
 ## Esempi di una homepage intera&#x20;
 

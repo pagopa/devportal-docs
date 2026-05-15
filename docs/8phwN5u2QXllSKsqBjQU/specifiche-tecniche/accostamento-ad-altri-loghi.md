@@ -13,7 +13,7 @@ A prescindere dalle indicazioni che seguono, PagoPA S.p.A. si riserva di valutar
 
 √à possibile accostare il logo "pagoPA" a **loghi di altri brand** in documenti relativi a conferenze ed eventi, a patto che le sue dimensioni siano proporzionate rispetto a quelle degli altri loghi.
 
-![](../.gitbook/assets/Accostamento\_1.png)
+![](../../pago-pa/linee-guida-brand-pagopa/v1.0/.gitbook/assets/Accostamento_1.png)
 
 ### Distanza minima e colore
 
@@ -21,7 +21,7 @@ La distanza tra il logo pagoPA e gli altri loghi deve essere di **almeno la met√
 
 Se non sussistono motivi contrari, il colore del logo deve essere sempre il **Blu Italia.** Puoi usare la versione nera solo in casi particolari, per esempio per distinguerlo nettamente da altri loghi di colore blu.&#x20;
 
-![](../.gitbook/assets/Accostamento\_2.png)
+![](../../pago-pa/linee-guida-brand-pagopa/v1.0/.gitbook/assets/Accostamento_2.png)
 
 ### Spazio di sicurezza
 
