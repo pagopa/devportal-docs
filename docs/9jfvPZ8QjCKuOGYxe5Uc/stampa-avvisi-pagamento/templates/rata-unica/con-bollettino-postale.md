@@ -44,7 +44,7 @@ Per poter utilizzare il template _rata unica con bollettino postale_, bisogna in
 La sezione _Bollettino Postale_ avrà i seguenti campi:
 
 * **Numero\_cc\_postale ->** corrisponde al campo _numero C/C postale_ indicato dall'EC sul Backoffice pagoPA (vedi [Compilazione dati configurazione su Backoffice pagoPA](../../compilazione-dati-configurazione-su-backoffice-pagopa.md));
-* **Intestatario\_conto\_corrente\_postale ->** intestazione del c/c postale dell’Ente Creditore, che corrisponde al campo i_ntestazione c/c postale_ indicato dall'EC sul Backoffice pagoPA (vedi [Compilazione dati configurazione su Backoffice pagoPA](../../compilazione-dati-configurazione-su-backoffice-pagopa.md));
+* **Intestatario\_conto\_corrente\_postale ->** intestazione del c/c postale dell’Ente Creditore, che corrisponde al campo &#x69;_&#x6E;testazione c/c postale_ indicato dall'EC sul Backoffice pagoPA (vedi [Compilazione dati configurazione su Backoffice pagoPA](../../compilazione-dati-configurazione-su-backoffice-pagopa.md));
 * **Data\_matrix ->** codice a barre bidimensionale a matrice - per le specifiche del datamatrix si rimanda al manuale della stampa in proprio di Poste Italiane, consultabile sul sito [poste.it](https://docs.pagopa.it/avviso-pagamento/allegato-2/specifiche-tecniche/dati-per-il-pagamento/www.poste.it);
 * **Autorizzazione ->** codice autorizzativo rilasciato da Poste Italiane per la stampa in proprio dei bollettini postali, indicato dall'EC sul Backoffice pagoPA (vedi [Compilazione dati configurazione su Backoffice pagoPA](../../compilazione-dati-configurazione-su-backoffice-pagopa.md));
 * **Nome\_cognome\_destinatario ->** nome e cognome del debitore a cui è intestata la posizione debitoria;

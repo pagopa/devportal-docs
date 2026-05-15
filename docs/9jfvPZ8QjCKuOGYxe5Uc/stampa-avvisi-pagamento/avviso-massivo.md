@@ -6,7 +6,7 @@ I template da utilizzare seguono le linee guida e le specifiche tecniche fornite
 
 A differenza del processo di stampa singola (si veda [Avviso Singolo ](avviso-singolo.md)per maggiori info) il processo massivo prevede alcuni step differenti che sono descritti nel diagramma e nelle sezioni di seguito.
 
-<figure><img src="../.gitbook/assets/avviso_massivo.png" alt=""><figcaption><p>Diagramma avviso massivo</p></figcaption></figure>
+<figure><img src="../../pago-pa/stampa-avvisi-pagamento/v1.0/.gitbook/assets/avviso_massivo.png" alt=""><figcaption><p>Diagramma avviso massivo</p></figcaption></figure>
 
 * dopo aver avviato il processo con `POST /notices/generate-massive` (che prevede in input l'array di avvisi e i relativi template id) l'API restituisce in output una `folderID`
 

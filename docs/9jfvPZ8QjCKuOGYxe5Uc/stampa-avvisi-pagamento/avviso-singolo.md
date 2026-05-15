@@ -4,10 +4,9 @@ La stampa dell'avviso secondo la modalità singola, prevede che l'API che va a g
 
 I template da utilizzare seguono le linee guida e le specifiche tecniche fornite da PagoPA e sono riportati nella sezione ["Specifiche Tecniche" della "Guida tecnica agli avvisi di pagamento"](https://docs.pagopa.it/avviso-pagamento/allegato-2/specifiche-tecniche).
 
-Si riporta di seguito il processo per la stampa avviso singolo pdf:\
+Si riporta di seguito il processo per la stampa avviso singolo pdf:<br>
 
-
-<figure><img src="../.gitbook/assets/stampa_avvisi.png" alt=""><figcaption><p>Stampa avviso singolo</p></figcaption></figure>
+<figure><img src="../../pago-pa/stampa-avvisi-pagamento/v1.0/.gitbook/assets/stampa_avvisi.png" alt=""><figcaption><p>Stampa avviso singolo</p></figcaption></figure>
 
 Il soggetto che aderisce al nuovo servizio di stampa pdf dell’avviso di pagamento delegando PagoPA, per prima cosa deve sottoscrivere nuove API Key all'interno del portale Backoffice pagopA (come descritto in [Autorizzazione alla stampa](autorizzazione-alla-stampa.md)).
 

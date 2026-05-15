@@ -1,0 +1,18 @@
+# Table of contents
+
+* [Stampa Avvisi Pagamento](README.md)
+  * [Autorizzazione alla stampa](../../../9jfvPZ8QjCKuOGYxe5Uc/stampa-avvisi-pagamento/autorizzazione-alla-stampa.md)
+  * [Avviso Singolo](../../../9jfvPZ8QjCKuOGYxe5Uc/stampa-avvisi-pagamento/avviso-singolo.md)
+  * [Avviso Massivo](../../../9jfvPZ8QjCKuOGYxe5Uc/stampa-avvisi-pagamento/avviso-massivo.md)
+  * [Compilazione dati configurazione su Backoffice pagoPA](../../../9jfvPZ8QjCKuOGYxe5Uc/stampa-avvisi-pagamento/compilazione-dati-configurazione-su-backoffice-pagopa.md)
+  * [Templates](../../../9jfvPZ8QjCKuOGYxe5Uc/stampa-avvisi-pagamento/templates/README.md)
+    * [Rata unica](../../../9jfvPZ8QjCKuOGYxe5Uc/stampa-avvisi-pagamento/templates/rata-unica/README.md)
+      * [Con Bollettino Postale](../../../9jfvPZ8QjCKuOGYxe5Uc/stampa-avvisi-pagamento/templates/rata-unica/con-bollettino-postale.md)
+      * [Senza Scadenza](../../../9jfvPZ8QjCKuOGYxe5Uc/stampa-avvisi-pagamento/templates/rata-unica/senza-scadenza.md)
+    * [Rate (2..9)](../../../9jfvPZ8QjCKuOGYxe5Uc/stampa-avvisi-pagamento/templates/rate-2..9/README.md)
+      * [Con Bollettino Postale](../../../9jfvPZ8QjCKuOGYxe5Uc/stampa-avvisi-pagamento/templates/rate-2..9/con-bollettino-postale.md)
+    * [Rate (>9)](../../../9jfvPZ8QjCKuOGYxe5Uc/stampa-avvisi-pagamento/templates/rate-greater-than-9/README.md)
+    * [Violazione Codice della Strada](../../../9jfvPZ8QjCKuOGYxe5Uc/stampa-avvisi-pagamento/templates/violazione-codice-della-strada/README.md)
+      * [Con Bollettino Postale](../../../9jfvPZ8QjCKuOGYxe5Uc/stampa-avvisi-pagamento/templates/violazione-codice-della-strada/con-bollettino-postale.md)
+  * [API](../../../9jfvPZ8QjCKuOGYxe5Uc/stampa-avvisi-pagamento/api/README.md)
+    * [Errori](../../../9jfvPZ8QjCKuOGYxe5Uc/stampa-avvisi-pagamento/api/errori.md)
