@@ -18,7 +18,7 @@ Erogare il servizio "Carta d'Identità Elettronica" tramite IO permette agli ent
 
 ### **Ciclo di vita del servizio**
 
-<figure><img src="../../../../app-io/manuale-servizi/v1.0/.gitbook/assets/Template - SERVIZI.png" alt="Ciclo di vita ed eventi del servizio Carta d&#x27;Identità Elettronica"><figcaption><p><strong>Ciclo di vita ed eventi del servizio Carta d'Identità Elettronica</strong></p></figcaption></figure>
+<figure><img src="../../../app-io/manuale-servizi/v1.0/.gitbook/assets/Template - SERVIZI.png" alt="Ciclo di vita ed eventi del servizio Carta d&#x27;Identità Elettronica"><figcaption><p><strong>Ciclo di vita ed eventi del servizio Carta d'Identità Elettronica</strong></p></figcaption></figure>
 
 ### **Messaggi del servizio**
 
