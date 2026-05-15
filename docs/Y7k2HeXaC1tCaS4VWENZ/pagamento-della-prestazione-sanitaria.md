@@ -6,7 +6,7 @@ description: >-
 
 # 5️⃣ Pagamento della prestazione sanitaria
 
-<figure><img src=".gitbook/assets/04 - Pagamento.png" alt=""><figcaption><p>Pagamento di un avviso pagoPA</p></figcaption></figure>
+<figure><img src="../solutions/prestazioni-sanitarie/.gitbook/assets/04 - Pagamento.png" alt=""><figcaption><p>Pagamento di un avviso pagoPA</p></figcaption></figure>
 
 ## Cosa fa l'Ente
 

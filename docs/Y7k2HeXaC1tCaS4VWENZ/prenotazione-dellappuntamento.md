@@ -6,7 +6,7 @@ description: >-
 
 # 2️⃣ Prenotazione dell’appuntamento
 
-<figure><img src=".gitbook/assets/02 - Prenotazione.png" alt=""><figcaption><p>Un esempio di prenotazione appuntamento dal messaggio su IO al sito dell'ente</p></figcaption></figure>
+<figure><img src="../solutions/prestazioni-sanitarie/.gitbook/assets/02 - Prenotazione.png" alt=""><figcaption><p>Un esempio di prenotazione appuntamento dal messaggio su IO al sito dell'ente</p></figcaption></figure>
 
 ## Cosa fa l'Ente
 

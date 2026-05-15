@@ -6,7 +6,7 @@ description: >-
 
 # 6️⃣ Emissione del referto
 
-<figure><img src=".gitbook/assets/05 - Referto.png" alt=""><figcaption><p>Un esempio di emissione referto dal messaggio su IO al sito dell'ente</p></figcaption></figure>
+<figure><img src="../solutions/prestazioni-sanitarie/.gitbook/assets/05 - Referto.png" alt=""><figcaption><p>Un esempio di emissione referto dal messaggio su IO al sito dell'ente</p></figcaption></figure>
 
 ## Cosa fa l'Ente
 

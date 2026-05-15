@@ -6,7 +6,7 @@ description: >-
 
 # 4️⃣ Gestione dell’appuntamento
 
-<figure><img src=".gitbook/assets/03 - Gestione.png" alt=""><figcaption><p>Un esempio di gestione appuntamento dal messaggio su IO al sito dell'ente</p></figcaption></figure>
+<figure><img src="../solutions/prestazioni-sanitarie/.gitbook/assets/03 - Gestione.png" alt=""><figcaption><p>Un esempio di gestione appuntamento dal messaggio su IO al sito dell'ente</p></figcaption></figure>
 
 ## Cosa fa l'Ente
 

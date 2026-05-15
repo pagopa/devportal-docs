@@ -6,7 +6,7 @@ description: >-
 
 # 1️⃣ Emissione della prescrizione medica
 
-<figure><img src=".gitbook/assets/01 - Prescrizione.png" alt=""><figcaption><p>Un esempio di messaggio di emissione nuova prescrizione medica su IO </p></figcaption></figure>
+<figure><img src="../solutions/prestazioni-sanitarie/.gitbook/assets/01 - Prescrizione.png" alt=""><figcaption><p>Un esempio di messaggio di emissione nuova prescrizione medica su IO </p></figcaption></figure>
 
 ## Cosa fa l'Ente
 
