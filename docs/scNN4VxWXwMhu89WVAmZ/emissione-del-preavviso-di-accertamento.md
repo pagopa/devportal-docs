@@ -7,7 +7,7 @@ description: >-
 
 # 2️⃣ Emissione del preavviso di accertamento
 
-<figure><img src=".gitbook/assets/violazioni-codice-strada-step2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../solutions/multe-per-violazioni-al-codice-della-strada/.gitbook/assets/violazioni-codice-strada-step2.png" alt=""><figcaption></figcaption></figure>
 
 ## 1. L'ente crea la posizione debitoria
 

@@ -7,7 +7,7 @@ description: >-
 
 # 6️⃣ Pagamento del verbale di contestazione
 
-<figure><img src=".gitbook/assets/violazioni-codice-strada-step6.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../solutions/multe-per-violazioni-al-codice-della-strada/.gitbook/assets/violazioni-codice-strada-step6.png" alt=""><figcaption></figcaption></figure>
 
 5 giorni dopo la visualizzazione della notifica, si possono prospettare due scenari:&#x20;
 

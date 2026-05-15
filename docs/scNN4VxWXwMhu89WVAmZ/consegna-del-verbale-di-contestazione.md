@@ -7,7 +7,7 @@ description: >-
 
 # 5️⃣ Consegna del verbale di contestazione
 
-<figure><img src=".gitbook/assets/violazioni-codice-strada-step5.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../solutions/multe-per-violazioni-al-codice-della-strada/.gitbook/assets/violazioni-codice-strada-step5.png" alt=""><figcaption></figcaption></figure>
 
 ## 1. L'ente carica la notifica su SEND
 
@@ -81,6 +81,6 @@ Apre la notifica entro 120 ore (5 giorni) dalla consegna, pertanto la notifica s
 
 [In questa pagina](https://notifichedigitali.pagopa.it/perfezionamento) puoi approfondire come si perfeziona una notifica rispetto al canale usato dal cittadino.
 
-<figure><img src=".gitbook/assets/image (1).png" alt="Un diagramma che rappresenta il flusso di consegna notifica tramite SEND"><figcaption><p>Invio delle comunicazioni tramite SEND</p></figcaption></figure>
+<figure><img src="../../solutions/multe-per-violazioni-al-codice-della-strada/.gitbook/assets/image (1).png" alt="Un diagramma che rappresenta il flusso di consegna notifica tramite SEND"><figcaption><p>Invio delle comunicazioni tramite SEND</p></figcaption></figure>
 
 ***

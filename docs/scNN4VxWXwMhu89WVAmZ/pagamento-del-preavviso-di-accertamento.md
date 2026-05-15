@@ -6,7 +6,7 @@ description: >-
 
 # 3️⃣ Pagamento del preavviso di accertamento
 
-<figure><img src=".gitbook/assets/violazioni-codice-strada-step3.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../solutions/multe-per-violazioni-al-codice-della-strada/.gitbook/assets/violazioni-codice-strada-step3.png" alt=""><figcaption></figcaption></figure>
 
 ## 1. Il cittadino riceve il preavviso di accertamento
 

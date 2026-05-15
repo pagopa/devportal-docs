@@ -7,7 +7,7 @@ description: >-
 
 # 1️⃣ Violazione del Codice della Strada
 
-<figure><img src=".gitbook/assets/violazioni-codice-strada-step1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../solutions/multe-per-violazioni-al-codice-della-strada/.gitbook/assets/violazioni-codice-strada-step1.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Il processo descritto non copre altre violazioni, per esempio accertate tramite ZTL o autovelox, che saranno integrate in futuro.
