@@ -8,7 +8,7 @@ Le `signature request` dello stesso dossier possono avere in comune titolo, emai
 \
 Il **titolo del dossier** sarà anche riportato nel messaggio di richiesta di firma al cittadino:
 
-![](<../../firma-con-io/manuale-operativo/v1.0/.gitbook/assets/Screenshot 2023-02-14 alle 17.08.30.png>)
+![](<../firma-con-io/manuale-operativo/v1.0/.gitbook/assets/Screenshot 2023-02-14 alle 17.08.30.png>)
 
 {% hint style="warning" %}
 **Come scrivere il titolo del dossier**

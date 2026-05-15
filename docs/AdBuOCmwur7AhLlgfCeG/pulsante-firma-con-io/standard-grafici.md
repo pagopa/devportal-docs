@@ -42,16 +42,16 @@ ll colore di sfondo del pulsante “Firma con IO” deve essere il Main Blue #00
 
 A sinistra viene erroneamente utilizzato un colore differente dal Main Blue #0073E6, l’applicazione corretta è quella presentata a destra.
 
-<figure><img src="../../../firma-con-io/manuale-operativo/v1.0/.gitbook/assets/Screenshot 2023-04-28 alle 15.59.22.png" alt=""><figcaption><p>Colore corretto pulsante</p></figcaption></figure>
+<figure><img src="../../firma-con-io/manuale-operativo/v1.0/.gitbook/assets/Screenshot 2023-04-28 alle 15.59.22.png" alt=""><figcaption><p>Colore corretto pulsante</p></figcaption></figure>
 
 #### Logo
 
 L’esempio di sinistra non è corretto perché il pulsante non è provvisto del logo IO. A destra invece, viene mostrato il corretto utilizzo del pulsante “Firma con IO”.
 
-<figure><img src="../../../firma-con-io/manuale-operativo/v1.0/.gitbook/assets/Screenshot 2023-04-28 alle 15.59.39.png" alt=""><figcaption><p>Logo bottone corretto</p></figcaption></figure>
+<figure><img src="../../firma-con-io/manuale-operativo/v1.0/.gitbook/assets/Screenshot 2023-04-28 alle 15.59.39.png" alt=""><figcaption><p>Logo bottone corretto</p></figcaption></figure>
 
 #### Font
 
 A sinistra è rappresentato un esempio scorretto di utilizzo del font, pertanto l’esempio corretto è quello mostrato sulla destra in cui la dicitura ha il font corretto, ovvero il Titilium Web Bold.
 
-<figure><img src="../../../firma-con-io/manuale-operativo/v1.0/.gitbook/assets/Screenshot 2023-04-28 alle 15.59.49.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../firma-con-io/manuale-operativo/v1.0/.gitbook/assets/Screenshot 2023-04-28 alle 15.59.49.png" alt=""><figcaption></figcaption></figure>

@@ -4,7 +4,7 @@
 
 È il componente utilizzato per indirizzare l’utente verso la funzionalità di firma dell'app IO a partire da un canale messo a disposizione dall'Ente (sitoweb, app mobile ecc.).
 
-<figure><img src="../../../firma-con-io/manuale-operativo/v1.0/.gitbook/assets/Screenshot 2023-04-28 alle 15.59.29.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../firma-con-io/manuale-operativo/v1.0/.gitbook/assets/Screenshot 2023-04-28 alle 15.59.29.png" alt=""><figcaption></figcaption></figure>
 
 Il flusso afferisce al prodotto Firma con IO come funzionalità che consente di firmare documenti e contratti già pre-compilati con i dati dell’utente, non consente la firma di template da compilare autonomamente in app IO. Rispetto al flusso Messaggio su IO offre una **seconda modalità di ingaggio** (dal sito dell’Ente e non tramite messaggio in app IO)
 

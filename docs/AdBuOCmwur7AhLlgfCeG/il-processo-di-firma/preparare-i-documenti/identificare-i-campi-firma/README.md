@@ -16,7 +16,7 @@ Scrivi in **maiuscolo** solo a inizio frase, in sigle, nei nomi propri o nei nom
 Dovrai inserire queste informazioni all'interno del Dossier che creerai in fase di richiesta della firma: trovi tutte le indicazioni in [Creazione di un Dossier](../../../creare-il-dossier.md).
 {% endhint %}
 
-<figure><img src="../../../../../firma-con-io/manuale-operativo/v1.0/.gitbook/assets/Riepilogo&#x26;firma.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../firma-con-io/manuale-operativo/v1.0/.gitbook/assets/Riepilogo&#x26;firma.png" alt=""><figcaption></figcaption></figure>
 
 ### Come identificare i campi firma
 

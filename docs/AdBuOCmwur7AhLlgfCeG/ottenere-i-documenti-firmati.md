@@ -18,4 +18,4 @@ I documenti ottenuti saranno **firmati digitalmente** e potranno essere accertat
 
 Qualora siano stati inseriti dei [campi firma](il-processo-di-firma/preparare-i-documenti/identificare-i-campi-firma/) sui documenti, sarà reso visibile anche un corrispettivo **grafico** in corrispondenza degli stessi.
 
-<figure><img src="../../firma-con-io/manuale-operativo/v1.0/.gitbook/assets/Screenshot 2023-05-02 alle 12.44.43.png" alt="" width="188"><figcaption></figcaption></figure>
+<figure><img src="../firma-con-io/manuale-operativo/v1.0/.gitbook/assets/Screenshot 2023-05-02 alle 12.44.43.png" alt="" width="188"><figcaption></figcaption></figure>

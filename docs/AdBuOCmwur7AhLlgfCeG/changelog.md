@@ -2,7 +2,7 @@
 
 ### Versione 5.0 (dicembre 2025)
 
-* Aggiornata la sezione [Per iniziare](../../firma-con-io/manuale-operativo/v1.0/) andando a rimuovere i richiami alla sperimentazione controllata del prodotto
+* Aggiornata la sezione [Per iniziare](../firma-con-io/manuale-operativo/v1.0/) andando a rimuovere i richiami alla sperimentazione controllata del prodotto
 
 ### Versione 4.0 (settembre 2023)
 
