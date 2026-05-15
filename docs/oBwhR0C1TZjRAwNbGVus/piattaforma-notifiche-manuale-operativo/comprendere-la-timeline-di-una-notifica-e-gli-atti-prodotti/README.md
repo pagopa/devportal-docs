@@ -4,7 +4,7 @@ La notificazione segue un ciclo di vita che la fa transitare lungo una serie di 
 
 &#x20;
 
-<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../send/manuale-operativo/v1.0/.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
 &#x20;I vari stati attraversati dalla notifica possono generare degli atti opponibili ai terzi che sono accessibili e scaricabili attraverso i relativi link.
 

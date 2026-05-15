@@ -6,7 +6,6 @@ La pagina mostra le informazioni visualizzate precedentemente con l’aggiunta d
 
 ATTENZIONE: Piattaforma Notifiche memorizza l’istante in cui, per la prima volta, l’utente visualizza il dettaglio della notifica come momento di perfezionamento della notifica per il destinatario, nel caso il perfezionamento non sia accaduto precedentemente per altro evento (p.e. per decorrenza termini).
 
-Questo evento genera un’attestazione opponibile ai terzi.\
+Questo evento genera un’attestazione opponibile ai terzi.<br>
 
-
-<figure><img src="../../../../.gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../send/manuale-operativo/v1.0/.gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure>

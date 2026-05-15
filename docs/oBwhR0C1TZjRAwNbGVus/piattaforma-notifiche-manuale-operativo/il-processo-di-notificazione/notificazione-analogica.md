@@ -8,7 +8,7 @@ PN riceve dall’operatore postale gli aggiornamenti sullo stato della consegna 
 
 Nel caso in cui il destinatario sia irreperibile all’indirizzo fisico fornito, l’operatore postale tenta di determinare un secondo indirizzo fisico di inoltro che viene fornito a PN. PN cerca a questo punto di determinare un secondo indirizzo di spedizione con le seguenti modalità:
 
-<figure><img src="../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../send/manuale-operativo/v1.0/.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
 
 Se viene identificato un nuovo indirizzo fisico, PN tenta la notifica una seconda volta con le stesse modalità, tranne per l’assenza della verifica di esistenza di un nuovo indirizzo fisico.
 
