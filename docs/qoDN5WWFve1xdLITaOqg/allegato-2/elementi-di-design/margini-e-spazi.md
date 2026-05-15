@@ -16,13 +16,13 @@ I [**modelli forniti**](../../allegato-1/modelli-base.md) tengono già conto di 
 
 ## Margini di stampa
 
-![Esempio di margini esterni](../../.gitbook/assets/Margini.png)
+![Esempio di margini esterni](../../../../pago-pa/avviso-pagamento/3.5.1/.gitbook/assets/Margini.png)
 
 I modelli forniti prevedono dei **margini esterni di 10mm**, così da garantire la stampa di tutti i dati necessari anche in caso di stampa da parte dei cittadini.
 
 ## Spaziature
 
-![Esempio di spaziatura tra i diversi moduli.](../../.gitbook/assets/Spaziature.png)
+![Esempio di spaziatura tra i diversi moduli.](../../../../pago-pa/avviso-pagamento/3.5.1/.gitbook/assets/Spaziature.png)
 
 Nei modelli forniti, le spaziature tra i diversi moduli sono pensate per distribuire al meglio il contenuto rispetto alla pagina, sempre espresse in multipli di 8px.
 

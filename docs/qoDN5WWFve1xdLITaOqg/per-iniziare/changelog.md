@@ -73,7 +73,7 @@ metaLinks:
 
 Modifica Allegato 2
 
-{% file src="../.gitbook/assets/guidatecnica_avvisoanalogico_v2.2.1_con_alleg (1).pdf" %}
+{% file src="../../../pago-pa/avviso-pagamento/3.5.1/.gitbook/assets/guidatecnica_avvisoanalogico_v2.2.1_con_alleg (1).pdf" %}
 L'avviso di pagamento analogico nel sistema pagoPA, versione 2.2.1, formato PDF
 {% endfile %}
 
