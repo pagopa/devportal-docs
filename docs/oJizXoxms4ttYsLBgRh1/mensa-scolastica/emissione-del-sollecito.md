@@ -6,7 +6,7 @@ description: >-
 
 # 5️⃣ Emissione del sollecito
 
-<figure><img src="../../../solutions/mensa-e-trasporto-scolastico/.gitbook/assets/Stepper_5.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../solutions/mensa-e-trasporto-scolastico/.gitbook/assets/Stepper_5.png" alt=""><figcaption></figcaption></figure>
 
 ## 1. Il pagamento per la retta è scaduto
 

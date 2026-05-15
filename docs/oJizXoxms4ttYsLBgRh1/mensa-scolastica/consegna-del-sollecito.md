@@ -7,7 +7,7 @@ description: >-
 
 # 6️⃣ Consegna del sollecito
 
-<figure><img src="../../../solutions/mensa-e-trasporto-scolastico/.gitbook/assets/Stepper_6.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../solutions/mensa-e-trasporto-scolastico/.gitbook/assets/Stepper_6.png" alt=""><figcaption></figcaption></figure>
 
 ## 1. L'ente carica la notifica su SEND
 
@@ -80,4 +80,4 @@ In caso di mancata apertura della notifica digitale entro i tempi indicati, SEND
 
 [In questa pagina](https://notifichedigitali.pagopa.it/perfezionamento) puoi approfondire come si perfeziona una notifica rispetto al canale usato dal cittadino.
 
-<figure><img src="../../../solutions/mensa-e-trasporto-scolastico/.gitbook/assets/image.png" alt=""><figcaption><p>Invio delle comunicazioni tramite SEND</p></figcaption></figure>
+<figure><img src="../../solutions/mensa-e-trasporto-scolastico/.gitbook/assets/image.png" alt=""><figcaption><p>Invio delle comunicazioni tramite SEND</p></figcaption></figure>

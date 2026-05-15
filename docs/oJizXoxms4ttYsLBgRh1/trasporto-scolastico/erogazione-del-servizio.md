@@ -6,7 +6,7 @@ description: >-
 
 # 4️⃣ Erogazione del servizio
 
-<figure><img src="../../../solutions/mensa-e-trasporto-scolastico/.gitbook/assets/Stepper_4_1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../solutions/mensa-e-trasporto-scolastico/.gitbook/assets/Stepper_4_1.png" alt=""><figcaption></figcaption></figure>
 
 ## 1. L'ente comunica una variazione del servizio&#x20;
 
