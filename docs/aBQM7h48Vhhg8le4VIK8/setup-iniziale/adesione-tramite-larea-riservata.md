@@ -2,7 +2,7 @@
 
 Prima di poter utilizzare le API di IO, il tuo ente dovrà avere un'adesione base attiva. Se non la possiede, il primo passo è quello di eseguire il processo di [_onboarding ad App IO_](https://selfcare.pagopa.it/onboarding/prod-io) tramite l’Area Riservata.
 
-<figure><img src="../.gitbook/assets/areariservata.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../app-io/io-guida-tecnica/v5.1/.gitbook/assets/areariservata.png" alt=""><figcaption></figcaption></figure>
 
 Durante il processo di adesione, dovrai inserire i dati di:
 

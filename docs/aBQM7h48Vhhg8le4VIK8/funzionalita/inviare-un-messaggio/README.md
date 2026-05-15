@@ -64,7 +64,7 @@ Alcune funzionalità menzionate richiedono la sottoscrizione di un accordo Premi
 
 Ci sono due modalità di invio dei messaggi, utili a seconda del tipo di contenuto che devi comunicare.
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption><p>Sequenza delle principali fasi nei due scenari di invio</p></figcaption></figure>
+<figure><img src="../../../app-io/io-guida-tecnica/v5.1/.gitbook/assets/image (7).png" alt=""><figcaption><p>Sequenza delle principali fasi nei due scenari di invio</p></figcaption></figure>
 
 ### Messaggio tradizionale
 

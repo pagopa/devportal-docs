@@ -10,11 +10,11 @@ Prima di poter inviare messaggi a contenuto remoto è necessario seguire la proc
 
 Nello scenario di invio tradizionale di un messaggio su IO, l'Ente richiama l'API esposta per la creazione del messaggio e IO procede alla sua gestione completa in app:
 
-<figure><img src="../.gitbook/assets/[Sequence] Messaggi con contenuto statico.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../app-io/io-guida-tecnica/v5.1/.gitbook/assets/[Sequence] Messaggi con contenuto statico.png" alt=""><figcaption></figcaption></figure>
 
 Nel diagramma che segue ti mostriamo la sequenza di eventi che vede coinvolti il suo sistema e quello di IO nello scambio di informazioni col destinatario di un **messaggio a contenuto remoto**:
 
-<figure><img src="../.gitbook/assets/[Sequence] Messaggi con contenuto remoto (alto livello).png" alt=""><figcaption><p>Messaggi a contenuto remoto: sequenza di alto livello</p></figcaption></figure>
+<figure><img src="../../app-io/io-guida-tecnica/v5.1/.gitbook/assets/[Sequence] Messaggi con contenuto remoto (alto livello).png" alt=""><figcaption><p>Messaggi a contenuto remoto: sequenza di alto livello</p></figcaption></figure>
 
 <details>
 
@@ -22,7 +22,7 @@ Nel diagramma che segue ti mostriamo la sequenza di eventi che vede coinvolti il
 
 Segue, con maggiore livello di dettaglio, la sequenza degli eventi che costituiscono il ciclo di vita di un messaggio a contenuto remoto:
 
-<img src="../.gitbook/assets/[Sequence] Messaggi con contenuto remoto.png" alt="" data-size="original">
+<img src="../../app-io/io-guida-tecnica/v5.1/.gitbook/assets/[Sequence] Messaggi con contenuto remoto.png" alt="" data-size="original">
 
 Nei capitoli successivi troverai le sequenze di dettaglio di ciascuna fase.
 
@@ -37,13 +37,13 @@ Se in fase di [#creazione-del-messaggio-con-contenuto-remoto](../funzionalita/in
 
 I tuoi sistemi dovranno verificare che il codice fiscale inviato in input corrisponda esattamente al destinatario inteso e in caso di esito positivo, verrà trasmesso ad IO il contenuto delle precondizioni.
 
-<figure><img src="../.gitbook/assets/Sequenza recupero precondizioni remote.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../app-io/io-guida-tecnica/v5.1/.gitbook/assets/Sequenza recupero precondizioni remote.png" alt=""><figcaption></figcaption></figure>
 
 IO utilizzerà la `base_url`, che avevi comunicato in fase di impostazione delle informazioni di configurazione remota, e l'identificativo di correlazione, che avevi specificato nel blocco [#third\_party\_data](api-messaggi/submit-a-message-passing-the-user-fiscal_code-in-the-request-body.md#third_party_data "mention") in fase di invio del messaggio, per comporre una chiamata GET nella forma `{base_url}/messages/{id}/precondition:`
 
-{% swagger src="https://raw.githubusercontent.com/pagopa/io-backend/master/openapi/consumed/api_remote_content.yaml" path="/messages/{id}/precondition" method="get" %}
+{% openapi src="https://raw.githubusercontent.com/pagopa/io-backend/master/openapi/consumed/api_remote_content.yaml" path="/messages/{id}/precondition" method="get" %}
 [https://raw.githubusercontent.com/pagopa/io-backend/master/openapi/consumed/api_remote_content.yaml](https://raw.githubusercontent.com/pagopa/io-backend/master/openapi/consumed/api_remote_content.yaml)
-{% endswagger %}
+{% endopenapi %}
 
 {% hint style="info" %}
 Per maggiori informazioni sul significato dei singoli campi , fai riferimento a [inviare-un-messaggio-a-contenuto-remoto.md](../funzionalita/inviare-un-messaggio/inviare-un-messaggio-a-contenuto-remoto.md "mention").
@@ -58,13 +58,13 @@ Se in fase di [#creazione-del-messaggio-con-contenuto-remoto](../funzionalita/in
 
 Il tuo sistema potrà quindi recuperare il contenuto del messaggio verificando al contempo che la richiesta pervenuta sia relativa proprio a quel destinatario.
 
-<figure><img src="../.gitbook/assets/Remoted Content - Details - Sequence Diagram.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../app-io/io-guida-tecnica/v5.1/.gitbook/assets/Remoted Content - Details - Sequence Diagram.png" alt=""><figcaption></figcaption></figure>
 
 IO utilizzerà la `base_url`, che avevi comunicato al team di IO in fase di impostazione delle informazioni di configurazione remota, e l'identificativo di correlazione, che avevi specificato nel blocco [#third\_party\_data](api-messaggi/submit-a-message-passing-the-user-fiscal_code-in-the-request-body.md#third_party_data "mention") in fase di invio del messaggio, per comporre una chiamata GET nella forma `{base_url}/messages/{id}:`
 
-{% swagger src="https://raw.githubusercontent.com/pagopa/io-backend/master/openapi/consumed/api_remote_content.yaml" path="/messages/{id}" method="get" %}
+{% openapi src="https://raw.githubusercontent.com/pagopa/io-backend/master/openapi/consumed/api_remote_content.yaml" path="/messages/{id}" method="get" %}
 [https://raw.githubusercontent.com/pagopa/io-backend/master/openapi/consumed/api_remote_content.yaml](https://raw.githubusercontent.com/pagopa/io-backend/master/openapi/consumed/api_remote_content.yaml)
-{% endswagger %}
+{% endopenapi %}
 
 {% hint style="info" %}
 Per maggiori informazioni sul significato dei singoli campi, fai riferimento a [inviare-un-messaggio-a-contenuto-remoto.md](../funzionalita/inviare-un-messaggio/inviare-un-messaggio-a-contenuto-remoto.md "mention").
@@ -98,7 +98,7 @@ Di seguito, un esempio di cosa puoi tornare nella struttura `details` in caso di
 
 Ecco come apparirà in app il messaggio così impostato:
 
-<figure><img src="../.gitbook/assets/image (24).png" alt="" width="375"><figcaption><p>Come l'esempio apparirà in app</p></figcaption></figure>
+<figure><img src="../../app-io/io-guida-tecnica/v5.1/.gitbook/assets/image (25).png" alt="" width="375"><figcaption><p>Come l'esempio apparirà in app</p></figcaption></figure>
 
 {% hint style="info" %}
 Il titolo mostrato nel messaggio con contenuto remoto può essere differente da quello che avevi indicato al momento della sua creazione (il campo `subject` in  [submit-a-message-passing-the-user-fiscal\_code-in-the-request-body.md](api-messaggi/submit-a-message-passing-the-user-fiscal_code-in-the-request-body.md "mention")): quest'ultimo, infatti, è utilizzato come titolo nell'elenco dei messaggi in app ed è statico.
@@ -166,11 +166,11 @@ Se hai sottoscritto l'Accordo Premium e nella risposta all'API di dettaglio illu
 Fai attenzione: in questo caso l'identificativo univoco è l'`id` di **correlazione remota** che avevi indicato in [#third\_party\_data](api-messaggi/submit-a-message-passing-the-user-fiscal_code-in-the-request-body.md#third_party_data "mention") in occasione dell'invio del messaggio.
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/Remoted Content - Download allegato - Sequence Diagram.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../app-io/io-guida-tecnica/v5.1/.gitbook/assets/Remoted Content - Download allegato - Sequence Diagram.png" alt=""><figcaption></figcaption></figure>
 
-{% swagger src="https://raw.githubusercontent.com/pagopa/io-backend/master/openapi/consumed/api_remote_content.yaml" path="/messages/{id}/{attachment_url}" method="get" %}
+{% openapi src="https://raw.githubusercontent.com/pagopa/io-backend/master/openapi/consumed/api_remote_content.yaml" path="/messages/{id}/{attachment_url}" method="get" %}
 [https://raw.githubusercontent.com/pagopa/io-backend/master/openapi/consumed/api_remote_content.yaml](https://raw.githubusercontent.com/pagopa/io-backend/master/openapi/consumed/api_remote_content.yaml)
-{% endswagger %}
+{% endopenapi %}
 
 {% hint style="info" %}
 L'API deve restituire lo stream di byte del file allegato in formato `application/octet-stream` binario.
