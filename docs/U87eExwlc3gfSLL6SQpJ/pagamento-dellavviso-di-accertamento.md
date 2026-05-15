@@ -7,7 +7,7 @@ description: >-
 
 # 8️⃣ Pagamento dell'avviso di accertamento
 
-<figure><img src="../../solutions/riscossione-della-tari/.gitbook/assets/Stepper_08.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../solutions/riscossione-della-tari/.gitbook/assets/Stepper_08.png" alt=""><figcaption></figcaption></figure>
 
 ## **1.1 Il cittadino paga l'avviso di accertamento entro i termini previsti ✅**
 

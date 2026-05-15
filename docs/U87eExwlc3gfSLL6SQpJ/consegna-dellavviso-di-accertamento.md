@@ -7,7 +7,7 @@ description: >-
 
 # 7️⃣ Consegna dell'avviso di accertamento
 
-<figure><img src="../../solutions/riscossione-della-tari/.gitbook/assets/Stepper_07.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../solutions/riscossione-della-tari/.gitbook/assets/Stepper_07.png" alt=""><figcaption></figcaption></figure>
 
 ## 1. L'ente carica la notifica su SEND
 
@@ -78,4 +78,4 @@ Apre la notifica entro 120 ore (5 giorni) dalla consegna, pertanto la notifica s
 
 [In questa pagina](https://notifichedigitali.pagopa.it/perfezionamento) puoi approfondire come si perfeziona una notifica rispetto al canale usato dal cittadino.
 
-<figure><img src="../../solutions/riscossione-della-tari/.gitbook/assets/image (9).png" alt="Un diagramma che rappresenta il flusso di consegna notifica tramite SEND"><figcaption><p>Invio delle comunicazioni tramite SEND</p></figcaption></figure>
+<figure><img src="../solutions/riscossione-della-tari/.gitbook/assets/image (9).png" alt="Un diagramma che rappresenta il flusso di consegna notifica tramite SEND"><figcaption><p>Invio delle comunicazioni tramite SEND</p></figcaption></figure>
