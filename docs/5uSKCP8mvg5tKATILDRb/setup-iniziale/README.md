@@ -6,10 +6,10 @@ description: >-
 
 # 🔢 Setup iniziale
 
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Sei un ente?</strong></td><td><a href="adesione-tramite-larea-riservata.md">Aderisci</a> tramite l'Area Riservata</td><td></td><td><a href="adesione-tramite-larea-riservata.md">adesione-tramite-larea-riservata.md</a></td></tr><tr><td><strong>Sei un</strong> <a data-footnote-ref href="#user-content-fn-1"><strong>ente aggregatore</strong></a><strong>?</strong></td><td><ol><li>Scarica l'<a href="#accordo-di-adesione">accordo di adesione</a></li><li>Compila i campi richiesti e firma l’accordo</li><li>Invialo via PEC a adesioni-io@pec.pagopa.it</li><li><a href="iscrizione-al-developer-portal.md">Iscriviti</a> al Developer Portal</li></ol></td><td></td><td></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Sei un ente?</strong></td><td><a href="adesione-tramite-larea-riservata.md">Aderisci</a> tramite l'Area Riservata</td><td></td><td><a href="adesione-tramite-larea-riservata.md">adesione-tramite-larea-riservata.md</a></td></tr><tr><td><strong>Sei un</strong> <a data-footnote-ref href="#user-content-fn-1"><strong>ente aggregatore</strong></a><strong>?</strong></td><td><ol><li>Scarica l'<a href="./#accordo-di-adesione">accordo di adesione</a></li><li>Compila i campi richiesti e firma l’accordo</li><li>Invialo via PEC a adesioni-io@pec.pagopa.it</li><li><a href="iscrizione-al-developer-portal.md">Iscriviti</a> al Developer Portal</li></ol></td><td></td><td></td></tr></tbody></table>
 
 {% hint style="warning" %}
-Il Developer Portal sarà dismesso il 30 settembre 2025. Sarà possibile gestire i servizi in app IO da [Area Riservata](https://selfcare.io.pagopa.it/).&#x20;
+Il Developer Portal sarà dismesso il 30 settembre 2025. Sarà possibile gestire i servizi in app IO da [Area Riservata](https://selfcare.io.pagopa.it/).
 {% endhint %}
 
 <details>
@@ -36,6 +36,6 @@ L’ente aggregatore può operare **solo** per i servizi per cui ha ricevuto l�
 
 #### Accordo di Adesione
 
-{% file src="../.gitbook/assets/Accordo di Adesione IO_v.2.5_30_giugno_2025.pdf" %}
+{% file src="../../app-io/io-guida-tecnica/v7.2/.gitbook/assets/Accordo di Adesione IO_v.2.5_30_giugno_2025.pdf" %}
 
 [^1]: _Esempio: una Regione aderisce a IO aggregando il rapporto di adesione per tutti gli enti locali del territorio di riferimento, mettendo a disposizione la società in-house regionale per gestire l’integrazione tecnologica di tutti gli enti locali._

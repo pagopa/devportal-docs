@@ -2,7 +2,7 @@
 
 ### Cosa sono i messaggi a contenuto remoto?
 
-I messaggi a contenuto remoto rispondono alla necessità di veicolare tramite IO **comunicazioni contenenti dati personali e/o dati sensibili** dei cittadini, garantendone una gestione conforme alle normative sulla privacy. Infatti, scegliendo questa modalità di invio **le informazioni non vengono memorizzate su IO**, ma recuperate dai tuoi sistemi ogni volta che l'utente accede al messaggio in app.&#x20;
+I messaggi a contenuto remoto rispondono alla necessità di veicolare tramite IO **comunicazioni contenenti dati personali e/o dati sensibili** dei cittadini, garantendone una gestione conforme alle normative sulla privacy. Infatti, scegliendo questa modalità di invio **le informazioni non vengono memorizzate su IO**, ma recuperate dai tuoi sistemi ogni volta che l'utente accede al messaggio in app.
 
 Per un messaggio, i contenuti remotizzabili sono:
 
@@ -17,7 +17,7 @@ Per un messaggio, i contenuti remotizzabili sono:
 
 A differenza dell'invio tradizionale, in cui è prevista la trasmissione dei contenuti del messaggio ai sistemi di IO al momento della sua creazione, i messaggi remoti prevedono che tali **contenuti risiedano esclusivamente presso i tuoi sistemi** e sarà IO a recuperarli ogni volta che l'utente destinatario vorrà visualizzarli in app.
 
-<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption><p>Sequenza delle principali fasi nei due scenari di invio</p></figcaption></figure>
+<figure><img src="../../../app-io/io-guida-tecnica/v7.2/.gitbook/assets/image (5).png" alt=""><figcaption><p>Sequenza delle principali fasi nei due scenari di invio</p></figcaption></figure>
 
 In questo modo, IO fa da canale di **comunicazione in tempo reale** tra te e il tuo utente e detiene unicamente le informazioni necessarie per consentire il recupero del messaggio e verificarne lo stato.
 
@@ -27,7 +27,7 @@ La gestione dei messaggi remotizzati implica che la tua organizzazione è respon
 
 #### 🕵️‍♂️ Gestione delle informazioni sensibili
 
-Come specificato, i messaggi remotizzati sono pensati per garantire un invio _privacy compliant_ di informazioni personali/sensibili riferite al destinatario, **ove necessarie per l’erogazione del servizio.**&#x20;
+Come specificato, i messaggi remotizzati sono pensati per garantire un invio _privacy compliant_ di informazioni personali/sensibili riferite al destinatario, **ove necessarie per l’erogazione del servizio.**
 
 {% hint style="warning" %}
 Ti ricordiamo che tale modalità d'invio **lascia invariati i tuoi obblighi ai sensi della normativa vigente**, in particolare ai sensi dell'art. 7.3 delle [Linee Guida IO](https://www.agid.gov.it/it/linee-guida#index-8).
@@ -44,7 +44,7 @@ Puoi anche impostare il flag `require_secure_channels` [direttamente sul servizi
 
 #### ✏️ Aggiornamento dei contenuti nel tempo
 
-A differenza dei messaggi tradizionali, i messaggi a contenuto remoto possono essere modificati **anche dopo l'invio**: potrai ad esempio correggere un refuso, o aggiornare dinamicamente informazioni non più valide o fuorvianti (es.: a seguito della cancellazione di un appuntamento).&#x20;
+A differenza dei messaggi tradizionali, i messaggi a contenuto remoto possono essere modificati **anche dopo l'invio**: potrai ad esempio correggere un refuso, o aggiornare dinamicamente informazioni non più valide o fuorvianti (es.: a seguito della cancellazione di un appuntamento).
 
 Nel considerare tale possibilità, è bene ricordare che:
 
@@ -54,7 +54,7 @@ Nel considerare tale possibilità, è bene ricordare che:
 {% hint style="success" %}
 In linea di principio, quando il contesto che ha prodotto un messaggio cambia o devono essere trasmesse nuove informazioni, è sempre preferibile **inviare un nuovo messaggio** per informare il destinatario.
 
-In caso di dubbi, prediligi sempre il mantenimento della **coerenza informativa** nei confronti della tua utenza: i messaggi su IO sono un importante biglietto da visita per la tua organizzazione, [assicurane la qualità](https://docs.pagopa.it/manuale-servizi/comunicare-un-servizio/i-canali)!&#x20;
+In caso di dubbi, prediligi sempre il mantenimento della **coerenza informativa** nei confronti della tua utenza: i messaggi su IO sono un importante biglietto da visita per la tua organizzazione, [assicurane la qualità](https://docs.pagopa.it/manuale-servizi/comunicare-un-servizio/i-canali)!
 {% endhint %}
 
 <details>
@@ -70,11 +70,9 @@ In caso di dubbi, prediligi sempre il mantenimento della **coerenza informativa*
 
 Per dare contezza al destinatario del fatto che i contenuti potrebbero essere aggiornati nel tempo, in calce al dettaglio di tutti i messaggi con contenuto remoto è stato incluso il seguente avviso, nella sua versione breve ed estesa:
 
+<figure><img src="../../../app-io/io-guida-tecnica/v7.2/.gitbook/assets/Banner informativi (1).jpg" alt="" width="234"><figcaption><p>Informativa breve, in calce al messaggio</p></figcaption></figure>
 
-
-<figure><img src="../../.gitbook/assets/Banner informativi (1).jpg" alt="" width="234"><figcaption><p>Informativa breve, in calce al messaggio</p></figcaption></figure>
-
-<figure><img src="../../.gitbook/assets/Bottom sheet (2).jpg" alt="" width="270"><figcaption><p>Informativa estesa, consultabile tramite la CTA "Scopri di più" </p></figcaption></figure>
+<figure><img src="../../../app-io/io-guida-tecnica/v7.2/.gitbook/assets/Bottom sheet (1).jpg" alt="" width="270"><figcaption><p>Informativa estesa, consultabile tramite la CTA "Scopri di più"</p></figcaption></figure>
 
 {% hint style="info" %}
 **IO non effettua alcun controllo** sull'invariabilità nel tempo dei contenuti di un messaggio a contenuto remoto. L'accuratezza e la disponibilità delle informazioni contenute nel messaggio sono sempre di responsabilità esclusiva dell'Ente mittente.
@@ -95,7 +93,7 @@ Il ciclo di vita di un messaggio a contenuto remoto si compone di due momenti pr
 * L'**invio** (creazione) da parte dei sistemi della tua organizzazione;
 * La **fruizione** (visualizzazione) da parte del destinatario.
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption><p>Le due fasi principali del ciclo di vita di un messaggio a contenuto remoto</p></figcaption></figure>
+<figure><img src="../../../app-io/io-guida-tecnica/v7.2/.gitbook/assets/image (4).png" alt=""><figcaption><p>Le due fasi principali del ciclo di vita di un messaggio a contenuto remoto</p></figcaption></figure>
 
 Entrambe le fasi richiedono un'integrazione tra i tuoi sistemi e quelli di IO.
 
@@ -107,7 +105,7 @@ In questa fase, sono i tuoi sistemi integrati con IO a richiedere la creazione (
 
 La tabella che segue riepiloga le principali componenti remotizzabili di un messaggio IO:
 
-<table><thead><tr><th width="197">Componente</th><th>Flag da impostare</th><th>Note</th><th data-hidden data-type="checkbox">Remotizzabile?</th></tr></thead><tbody><tr><td>precondizioni</td><td><a data-mention href="../../api-e-specifiche/api-messaggi/submit-a-message-passing-the-user-fiscal_code-in-the-request-body.md#has_precondition">#has_precondition</a></td><td>Si tratta di informazioni <em>opzionali</em>, che vengono mostrate <em>prima dell'apertura del dettaglio del messaggio</em>. </td><td>false</td></tr><tr><td>titolo (subject)</td><td><a data-mention href="../../api-e-specifiche/api-messaggi/submit-a-message-passing-the-user-fiscal_code-in-the-request-body.md#has_remote_content">#has_remote_content</a></td><td>Si tratta del titolo visibile <em>all'apertura del messaggio</em>, che differisce da quello visibile nella lista messaggi (non remotizzabile).</td><td>true</td></tr><tr><td>corpo (markdown)</td><td><a data-mention href="../../api-e-specifiche/api-messaggi/submit-a-message-passing-the-user-fiscal_code-in-the-request-body.md#has_remote_content">#has_remote_content</a></td><td>Si tratta del contenuto testuale del messaggio.</td><td>true</td></tr><tr><td>dettagli di un avviso di pagamento</td><td></td><td>Sono già remotizzati grazie all'integrazione con il nodo pagoPA.</td><td>true</td></tr><tr><td>allegati (PDF)</td><td><a data-mention href="../../api-e-specifiche/api-messaggi/submit-a-message-passing-the-user-fiscal_code-in-the-request-body.md#has_attachments">#has_attachments</a></td><td>Sono contenuti gestibili solo in remoto. Puoi inserirli se hai sottoscritto l'Accordo Premium. Il formato accettato è PDF.</td><td>true</td></tr></tbody></table>
+<table><thead><tr><th width="197">Componente</th><th>Flag da impostare</th><th>Note</th><th data-hidden data-type="checkbox">Remotizzabile?</th></tr></thead><tbody><tr><td>precondizioni</td><td><a data-mention href="../../api-e-specifiche/api-messaggi/submit-a-message-passing-the-user-fiscal_code-in-the-request-body.md#has_precondition">#has_precondition</a></td><td>Si tratta di informazioni <em>opzionali</em>, che vengono mostrate <em>prima dell'apertura del dettaglio del messaggio</em>.</td><td>false</td></tr><tr><td>titolo (subject)</td><td><a data-mention href="../../api-e-specifiche/api-messaggi/submit-a-message-passing-the-user-fiscal_code-in-the-request-body.md#has_remote_content">#has_remote_content</a></td><td>Si tratta del titolo visibile <em>all'apertura del messaggio</em>, che differisce da quello visibile nella lista messaggi (non remotizzabile).</td><td>true</td></tr><tr><td>corpo (markdown)</td><td><a data-mention href="../../api-e-specifiche/api-messaggi/submit-a-message-passing-the-user-fiscal_code-in-the-request-body.md#has_remote_content">#has_remote_content</a></td><td>Si tratta del contenuto testuale del messaggio.</td><td>true</td></tr><tr><td>dettagli di un avviso di pagamento</td><td></td><td>Sono già remotizzati grazie all'integrazione con il nodo pagoPA.</td><td>true</td></tr><tr><td>allegati (PDF)</td><td><a data-mention href="../../api-e-specifiche/api-messaggi/submit-a-message-passing-the-user-fiscal_code-in-the-request-body.md#has_attachments">#has_attachments</a></td><td>Sono contenuti gestibili solo in remoto. Puoi inserirli se hai sottoscritto l'Accordo Premium. Il formato accettato è PDF.</td><td>true</td></tr></tbody></table>
 
 <details>
 
@@ -115,16 +113,16 @@ La tabella che segue riepiloga le principali componenti remotizzabili di un mess
 
 Come ente mittente, puoi decidere che l’apertura del messaggio debba essere preceduta da un contenuto mirato ad informare il destinatario circa aspetti o circostanze particolari relative al messaggio stesso.
 
-Le precondizioni sono una schermata intermedia tra l'elenco dei messaggi e il dettaglio del messaggio selezionato. L’utente accede al dettaglio del messaggio solo se seleziona il bottone "Continua".&#x20;
+Le precondizioni sono una schermata intermedia tra l'elenco dei messaggi e il dettaglio del messaggio selezionato. L’utente accede al dettaglio del messaggio solo se seleziona il bottone "Continua".
 
-<img src="../../.gitbook/assets/Precondizioni.jpg" alt="" data-size="original">
+<img src="../../../app-io/io-guida-tecnica/v7.2/.gitbook/assets/Precondizioni.jpg" alt="" data-size="original">
 
 Di fatto, la visualizzazione delle precondizioni **porta a un’interruzione del flusso di lettura di un messaggio**. Quindi, è bene utilizzarle solo negli scenari in cui portino effettivamente valore alla tua comunicazione o siano altrimenti richiesti dalla normativa vigente, al fine di non degradare l'esperienza utente.
 
 **Quando usarle:**\
 Quando è necessario attirare l’attenzione del cittadino su un’informazione fondamentale, e in ogni caso quando richiesto dalla normativa applicabile, ad esempio nelle comunicazioni a valore legale per cui l’apertura del messaggio produce effetti nella sfera giuridica del cittadino.
 
-**Quando non usarle:** \
+**Quando non usarle:**\
 Per trasmettere avvisi non strettamente correlati al contenuto del messaggio o per aggiungere informazioni di dettaglio che possono essere fornite al suo interno o in altri momenti dell’esperienza utente.
 
 </details>
@@ -144,8 +142,7 @@ A seconda del valore del flag [#has\_remote\_content](../../api-e-specifiche/api
 * se [#has\_remote\_content](../../api-e-specifiche/api-messaggi/submit-a-message-passing-the-user-fiscal_code-in-the-request-body.md#has_remote_content "mention")`=true`, il campo [#subject](../../api-e-specifiche/api-messaggi/submit-a-message-passing-the-user-fiscal_code-in-the-request-body.md#subject "mention") indicato al momento della creazione del messaggio è usato da IO nell'elenco dei messaggi ricevuti, come testo della notifica push e come subject dell'eventuale email di inoltro del messaggio, ma non nella vista di dettaglio del messaggio in app: questa è invece recuperata successivamente (vedi [#cosa-succede-quando-il-destinatario-apre-un-messaggio-remotizzato](inviare-un-messaggio-a-contenuto-remoto.md#cosa-succede-quando-il-destinatario-apre-un-messaggio-remotizzato "mention")).\
   \
   **Questo significa che il destinatario potrebbe vedere testi differenti nel dettaglio del messaggio e fuori**. Consigliamo di non differenziare il titolo in modo sostanziale, in modo da mantenere la coerenza informativa tra i due testi. Inoltre, ti ricordiamo che ai sensi delle Linee Guida IO, non è possibile inserire informazioni sensibili nel titolo del messaggio.
-
-- se [#has\_remote\_content](../../api-e-specifiche/api-messaggi/submit-a-message-passing-the-user-fiscal_code-in-the-request-body.md#has_remote_content "mention")`=false` oppure se non includi il flag, il campo [#subject](../../api-e-specifiche/api-messaggi/submit-a-message-passing-the-user-fiscal_code-in-the-request-body.md#subject "mention") presenta il funzionamento standard di un messaggio tradizionale (non remoto): lo stesso contenuto testuale è usato nel dettaglio del messaggio e in tutti gli altri contesti sopra citati.
+* se [#has\_remote\_content](../../api-e-specifiche/api-messaggi/submit-a-message-passing-the-user-fiscal_code-in-the-request-body.md#has_remote_content "mention")`=false` oppure se non includi il flag, il campo [#subject](../../api-e-specifiche/api-messaggi/submit-a-message-passing-the-user-fiscal_code-in-the-request-body.md#subject "mention") presenta il funzionamento standard di un messaggio tradizionale (non remoto): lo stesso contenuto testuale è usato nel dettaglio del messaggio e in tutti gli altri contesti sopra citati.
 
 </details>
 
@@ -159,7 +156,7 @@ In fase di creazione di un messaggio a contenuto remoto ( [#has\_remote\_content
 
 **Nota sull'inoltro dei messaggi via email:** Se abilitato dall'utente finale, un messaggio inviato tramite IO può essere inoltrato al suo indirizzo email. L'email contiene l'incipit del corpo del messaggio (i primi 134 caratteri), nonché un invito ad aprire l'app per accedere al contenuto completo tramite CTA che consente il redirect. Ecco un esempio di email di inoltro:
 
-![](<../../.gitbook/assets/image (12).png>)
+![](<../../../app-io/io-guida-tecnica/v7.2/.gitbook/assets/image (9).png>)
 
 </details>
 

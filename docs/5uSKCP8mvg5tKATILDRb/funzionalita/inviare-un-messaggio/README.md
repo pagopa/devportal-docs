@@ -2,7 +2,7 @@
 
 ## Cosa sono i messaggi?
 
-I messaggi sono comunicazioni personali dirette a un cittadino specifico, identificato tramite il suo Codice Fiscale. Al momento non è possibile inviare messaggi a più cittadini con una sola chiamata.&#x20;
+I messaggi sono comunicazioni personali dirette a un cittadino specifico, identificato tramite il suo Codice Fiscale. Al momento non è possibile inviare messaggi a più cittadini con una sola chiamata.
 
 Per saperne di più, consulta la pagina [Inviare messaggi](https://app.gitbook.com/s/xWONfJmawghGo2ekuaKh/che-cosa-puo-fare-un-servizio-su-io/inviare-messaggi "mention") nel [manuale dei Servizi](https://app.gitbook.com/o/KXYtsf32WSKm6ga638R3/s/xWONfJmawghGo2ekuaKh/).
 
@@ -64,7 +64,7 @@ Alcune funzionalità menzionate richiedono la sottoscrizione di un accordo Premi
 
 Ci sono due modalità di invio dei messaggi, utili a seconda del tipo di contenuto che devi comunicare.
 
-<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption><p>Sequenza delle principali fasi nei due scenari di invio</p></figcaption></figure>
+<figure><img src="../../../app-io/io-guida-tecnica/v7.2/.gitbook/assets/image (5).png" alt=""><figcaption><p>Sequenza delle principali fasi nei due scenari di invio</p></figcaption></figure>
 
 ### Messaggio tradizionale
 
@@ -74,7 +74,7 @@ Si tratta della forma di comunicazione più semplice e che richiede meno integra
 
 ### Messaggio a contenuto remoto
 
-Si tratta di un messaggio le cui informazioni vengono recuperate dai sistemi dell'Ente mittente **ogni volta** che il messaggio viene fruito dall'utente finale. I messaggi a contenuto remoto sono pensati in particolare per le comunicazioni che veicolano informazioni sensibili.&#x20;
+Si tratta di un messaggio le cui informazioni vengono recuperate dai sistemi dell'Ente mittente **ogni volta** che il messaggio viene fruito dall'utente finale. I messaggi a contenuto remoto sono pensati in particolare per le comunicazioni che veicolano informazioni sensibili.
 
 [Scopri come inviare un messaggio a contenuto remoto ->](inviare-un-messaggio-a-contenuto-remoto.md)
 
