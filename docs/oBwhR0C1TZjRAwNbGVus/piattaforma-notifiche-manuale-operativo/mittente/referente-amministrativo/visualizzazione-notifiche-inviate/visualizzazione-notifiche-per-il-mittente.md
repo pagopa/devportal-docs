@@ -10,4 +10,4 @@ L’utente può impostare dei filtri per modificare la visualizzazione dell’el
 
 Le notifiche sono presentate in pagine da 10, 20, 50 elementi ciascuna. La dimensione della pagina è selezionabile dell’utente.<br>
 
-<figure><img src="../../../../../../send/manuale-operativo/v1.0/.gitbook/assets/image (33).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../send/manuale-operativo/v1.0/.gitbook/assets/image (33).png" alt=""><figcaption></figcaption></figure>

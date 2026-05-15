@@ -6,4 +6,4 @@ I campi obbligatori che l’utente specifica sono: indicazione se vuole delegare
 
 PN genera un codice di accettazione che il delegante deve fornire, con mezzi propri, al delegato per completare l’accettazione.<br>
 
-<figure><img src="../../../../../../send/manuale-operativo/v1.0/.gitbook/assets/image (44).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../send/manuale-operativo/v1.0/.gitbook/assets/image (44).png" alt=""><figcaption></figcaption></figure>

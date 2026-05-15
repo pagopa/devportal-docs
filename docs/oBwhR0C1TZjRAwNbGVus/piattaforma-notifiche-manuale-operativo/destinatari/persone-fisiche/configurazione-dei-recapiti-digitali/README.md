@@ -10,8 +10,8 @@ ATTENZIONE: in assenza di un indirizzo PEC/SERCQ nel box “Recapito legale” e
 
 All’interno di PN è consentita una sola configurazione per ciascuno dei recapiti digitali: non è quindi possibile aggiungere ulteriori recapiti, oltre a quello già indicati, sia come Recapito legale e/o, sia come indirizzo Email/cellulare.
 
-<figure><img src="../../../../../../send/manuale-operativo/v1.0/.gitbook/assets/image (40).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../send/manuale-operativo/v1.0/.gitbook/assets/image (40).png" alt=""><figcaption></figcaption></figure>
 
 Sempre dalle sezione “I tuoi recapiti” l’utente può accedere a “I tuoi dati” e visualizzare i dati ricavati da SPID/CIE.
 
-<figure><img src="../../../../../../send/manuale-operativo/v1.0/.gitbook/assets/image (35).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../send/manuale-operativo/v1.0/.gitbook/assets/image (35).png" alt=""><figcaption></figcaption></figure>
