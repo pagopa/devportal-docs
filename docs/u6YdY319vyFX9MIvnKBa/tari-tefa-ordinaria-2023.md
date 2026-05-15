@@ -2,7 +2,7 @@
 
 Per far transitare sulla piattaforma pagoPA le informazioni utili alla riconciliazione TARI-TEFA ordinaria per l'anno 2023 è necessario sfruttare la struttura dei _metadata_ disponibile nella primitiva _paGetPayment_, che sarà poi inoltrata a tutti i destinatari della receipt tramite la _paSendRT._
 
-<figure><img src=".gitbook/assets/flussoMetadataTARITEFA2023.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../pago-pa/metadata/v1.0/.gitbook/assets/flussoMetadataTARITEFA2023.png" alt=""><figcaption></figcaption></figure>
 
 All'interno del tag _metadata_ dovrà essere inserita una struttura per ogni _transfer_ che compone il _payment_, così composta
 
