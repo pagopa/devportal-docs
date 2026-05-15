@@ -6,7 +6,7 @@ description: >-
 
 # 3️⃣ Pagamento retta
 
-<figure><img src="../.gitbook/assets/Stepper_3_1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../solutions/mensa-e-trasporto-scolastico/.gitbook/assets/Stepper_3_1.png" alt=""><figcaption></figcaption></figure>
 
 ## 1. Il cittadino riceve l'avviso di pagamento
 

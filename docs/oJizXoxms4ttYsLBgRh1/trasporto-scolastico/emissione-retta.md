@@ -7,7 +7,7 @@ description: >-
 
 # 2️⃣ Emissione retta
 
-<figure><img src="../.gitbook/assets/Stepper_2_1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../solutions/mensa-e-trasporto-scolastico/.gitbook/assets/Stepper_2_1.png" alt=""><figcaption></figcaption></figure>
 
 ## 1. L'ente calcola l'importo della retta e crea la posizione debitoria
 

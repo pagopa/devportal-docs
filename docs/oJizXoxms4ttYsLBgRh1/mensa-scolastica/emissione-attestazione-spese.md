@@ -6,7 +6,7 @@ description: >-
 
 # 4️⃣ Emissione attestazione spese
 
-<figure><img src="../.gitbook/assets/Stepper_4.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../solutions/mensa-e-trasporto-scolastico/.gitbook/assets/Stepper_4.png" alt=""><figcaption></figcaption></figure>
 
 ## 1. L'Ente emette l'attestazione delle spese sostenute dal cittadino&#x20;
 

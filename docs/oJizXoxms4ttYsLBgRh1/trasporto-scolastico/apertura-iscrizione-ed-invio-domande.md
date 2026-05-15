@@ -6,7 +6,7 @@ description: >-
 
 # 1️⃣ Apertura iscrizione ed invio domande
 
-<figure><img src="../.gitbook/assets/Stepper_1_1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../solutions/mensa-e-trasporto-scolastico/.gitbook/assets/Stepper_1_1.png" alt=""><figcaption></figcaption></figure>
 
 ## 1. L'ente invia ai cittadini interessati l'apertura delle iscrizioni al trasporto scolastico
 
