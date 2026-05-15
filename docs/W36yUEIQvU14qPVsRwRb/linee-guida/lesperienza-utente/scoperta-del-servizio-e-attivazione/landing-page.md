@@ -21,7 +21,7 @@ Obiettivo della landing page è dare maggiori dettagli all'utente rispetto:
 
 ### Elementi facoltativi
 
-* Utilizzo di immagini o illustrazioni purché siano in linea con le [**Brand guidelines**](https://app.gitbook.com/invite/KXYtsf32WSKm6ga638R3/Bh78E1qYOrxJVckxMQfZ) [**di SEND**](https://app.gitbook.com/invite/KXYtsf32WSKm6ga638R3/Bh78E1qYOrxJVckxMQfZ). \
+* Utilizzo di immagini o illustrazioni purché siano in linea con le [**Brand guidelines**](https://app.gitbook.com/invite/KXYtsf32WSKm6ga638R3/Bh78E1qYOrxJVckxMQfZ) [**di SEND**](https://app.gitbook.com/invite/KXYtsf32WSKm6ga638R3/Bh78E1qYOrxJVckxMQfZ).\
   IMPORTANTE: gli asset dovranno esser approvati da parte del team di comunicazione PagoPA S.p.A.
 
 ### 💡 Consiglio
@@ -30,9 +30,8 @@ Eliminare le distrazioni per guidare l’utente verso l’azione di attivazione 
 
 ### Esempio
 
-### <img src="../../../.gitbook/assets/Landing page.png" alt="" data-size="original">&#x20;
+### <img src="../../../../../pago-pa/lineeguida-messaggi-cortesia/1.1/.gitbook/assets/Landing page.png" alt="" data-size="original">
 
 {% hint style="info" %}
 Le immagini e le illustrazioni sono a scopo esemplificativo.
 {% endhint %}
-

@@ -13,4 +13,4 @@ Di seguito un testo consigliato per la modale:\
 Vuoi disattivare il servizio?\
 Senza i messaggi di cortesia, non riceverai più avvisi su questo canale quando è disponibile una comunicazione a valore legale per te su SEND. Se non accedi in tempo alla notifica, potresti non rispettare eventuali scadenze e incorrere in sanzioni. Assicurati di avere attivi altri canali per continuare a ricevere gli aggiornamenti.
 
-<figure><img src="../../.gitbook/assets/Dialog template.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../pago-pa/lineeguida-messaggi-cortesia/1.1/.gitbook/assets/Dialog template.png" alt=""><figcaption></figcaption></figure>

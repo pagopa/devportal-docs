@@ -14,7 +14,7 @@ Una **scheda di dettaglio servizio** è una pagina che descrive in modo approfon
 
 ### Elementi facoltativi
 
-* Utilizzo di immagini o illustrazioni purché siano in linea con le [**Brand guidelines**](https://app.gitbook.com/invite/KXYtsf32WSKm6ga638R3/Bh78E1qYOrxJVckxMQfZ) [**di SEND**](https://app.gitbook.com/invite/KXYtsf32WSKm6ga638R3/Bh78E1qYOrxJVckxMQfZ). \
+* Utilizzo di immagini o illustrazioni purché siano in linea con le [**Brand guidelines**](https://app.gitbook.com/invite/KXYtsf32WSKm6ga638R3/Bh78E1qYOrxJVckxMQfZ) [**di SEND**](https://app.gitbook.com/invite/KXYtsf32WSKm6ga638R3/Bh78E1qYOrxJVckxMQfZ).\
   IMPORTANTE: gli asset dovranno esser approvati da parte del team di comunicazione PagoPA S.p.A.
 
 ### 💡 Consiglio
@@ -30,7 +30,7 @@ Potrebbe essere utile aggiungere i vantaggi per il cliente:
 
 ### Esempio
 
-### ![](<../../../.gitbook/assets/Service Detail No CTA (5).png>)&#x20;
+### ![](<../../../../../pago-pa/lineeguida-messaggi-cortesia/1.1/.gitbook/assets/Service Detail No CTA (5).png>)
 
 {% hint style="info" %}
 Il mockup è a scopo esemplificativo.

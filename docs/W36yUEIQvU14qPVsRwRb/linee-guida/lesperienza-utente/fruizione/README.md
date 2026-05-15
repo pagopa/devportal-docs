@@ -9,7 +9,7 @@ Dopo aver attivato il servizio, ogni volta che l’utente riceve una **comunicaz
 Il cliente accede quindi a **SEND**, dove può leggere la comunicazione a valore legale a suo carico.\
 Se quest'ultima prevede un pagamento, l’utente può scegliere se completare la transazione sull'app del suo PSP o su un altro metodo di pagamento.
 
-<figure><img src="../../../.gitbook/assets/SEND multicanalità (touch point di terze parti) (3).png" alt=""><figcaption><p>Rappresentazione della fase di fruizione</p></figcaption></figure>
+<figure><img src="../../../../../pago-pa/lineeguida-messaggi-cortesia/1.1/.gitbook/assets/SEND multicanalità (touch point di terze parti).png" alt=""><figcaption><p>Rappresentazione della fase di fruizione</p></figcaption></figure>
 
 Al fine di garantire un'esperienza fluida e coerente vengono condivise le linee guida delle seguenti pagine:
 
