@@ -48,17 +48,14 @@ La periodicità di invio per i promemoria di pagamento seguirà la logica qui di
 
 Per i **messaggi con avviso di pagamento e data di scadenza** **dichiarata dall’ente all'interno della posizione debitoria**, si conteranno i giorni a ritroso dalla data per consentire l’invio di fino a quattro promemoria con una frequenza pari a 3 giorni.
 
-*   Esempio: il Cittadino riceve un messaggio Premium con avviso di pagamento dotato di scadenza, ma non lo paga. Riceverà fino a quattro promemoria 13, 10, 7 e 4 giorni prima della scadenza del tipo _“Hai un avviso da pagare. Entra nell'app e paga l'avviso emesso da \[nome dell'Ente creditore]”_\
+*   Esempio: il Cittadino riceve un messaggio Premium con avviso di pagamento dotato di scadenza, ma non lo paga. Riceverà fino a quattro promemoria 13, 10, 7 e 4 giorni prima della scadenza del tipo _“Hai un avviso da pagare. Entra nell'app e paga l'avviso emesso da \[nome dell'Ente creditore]”_<br>
 
-
-    <figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../app-io/supporto-agli-enti/v1.0/.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 Tieni presente alcuni aspetti importanti:
 
 * assicurati di far corrispondere la [data di scadenza del messaggio](https://docs.pagopa.it/io-guida-tecnica/api-e-specifiche/api-messaggi/submit-a-message-passing-the-user-fiscal_code-in-the-request-body#due_date) con quella della posizione debitoria associata, in modo da garantire un'esperienza coerente al destinatario; ricorda che i dati presenti nel messaggio e nella posizione debitoria sono inseriti sotto tua cura e responsabilità
-
-- se il destinatario salda l'avviso di pagamento, l'invio di promemoria si interrompe (anche se ha usato un canale di pagamento diverso dall'app IO)
-
+* se il destinatario salda l'avviso di pagamento, l'invio di promemoria si interrompe (anche se ha usato un canale di pagamento diverso dall'app IO)
 * i promemoria sono inviati automaticamente per i [messaggi Premium](https://docs.pagopa.it/manuale-servizi/v2.0-1/che-cosa-puo-fare-un-servizio-su-io/inviare-messaggi#funzionalita-premium) e non sono configurabili
 * è importante pianificare correttamente l'invio dei messaggi rispetto alle scadenze delle posizioni debitorie al fine di garantire un'esperienza coerente al destinatario dei messaggi e delle relative notifiche push
 

@@ -1,15 +1,13 @@
 # 📜 Come sapere se un Messaggio è stato recapitato
 
-Una volta che ti sarai assicurato che il tuo utente [possa ricevere le tue comunicazioni](https://docs.pagopa.it/kb-enti-servizi/tutorial-e-casi-duso/indice-dei-tutorial-e-dei-casi-duso/come-sapere-se-un-cittadino-ha-abilitata-la-ricezione-dei-messaggi-per-un-servizio) e avrai [spedito un messaggio su IO](come-inviare-un-messaggio.md) (anche [con un avviso di pagamento](come-sapere-se-un-messaggio-e-stato-recapitato.md)), per conoscere il suo stato di processamento IO ti mette a disposizione [un'apposita API](https://docs.pagopa.it/io-guida-tecnica/api-e-specifiche/api-messaggi/get-message) che potrai richiamare in "polling" utilizzando l'identificativo univoco tornato dall'[API di invio](https://docs.pagopa.it/io-guida-tecnica/api-e-specifiche/api-messaggi/submit-a-message-passing-the-user-fiscal\_code-in-the-request-body).
+Una volta che ti sarai assicurato che il tuo utente [possa ricevere le tue comunicazioni](https://docs.pagopa.it/kb-enti-servizi/tutorial-e-casi-duso/indice-dei-tutorial-e-dei-casi-duso/come-sapere-se-un-cittadino-ha-abilitata-la-ricezione-dei-messaggi-per-un-servizio) e avrai [spedito un messaggio su IO](come-inviare-un-messaggio.md) (anche [con un avviso di pagamento](come-sapere-se-un-messaggio-e-stato-recapitato.md)), per conoscere il suo stato di processamento IO ti mette a disposizione [un'apposita API](https://docs.pagopa.it/io-guida-tecnica/api-e-specifiche/api-messaggi/get-message) che potrai richiamare in "polling" utilizzando l'identificativo univoco tornato dall'[API di invio](https://docs.pagopa.it/io-guida-tecnica/api-e-specifiche/api-messaggi/submit-a-message-passing-the-user-fiscal_code-in-the-request-body).
 
-1.  Aggiungi l'header `Ocp-Apim-Subscription-Key` e valorizzalo con la chiave ([primaria o secondaria](https://docs.pagopa.it/kb-enti-servizi/domande-frequenti/domande-e-risposte-sui-servizi-io#perche-ci-sono-due-api-key-per-servizio)) del tuo Servizio IO: puoi recuperarla accedendo all'[Area Riservata](https://selfcare.pagopa.it/) e cercando la scheda del tuo Servizio nella pagina "Servizi"\
+1.  Aggiungi l'header `Ocp-Apim-Subscription-Key` e valorizzalo con la chiave ([primaria o secondaria](https://docs.pagopa.it/kb-enti-servizi/domande-frequenti/domande-e-risposte-sui-servizi-io#perche-ci-sono-due-api-key-per-servizio)) del tuo Servizio IO: puoi recuperarla accedendo all'[Area Riservata](https://selfcare.pagopa.it/) e cercando la scheda del tuo Servizio nella pagina "Servizi"<br>
 
-
-    <figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../app-io/supporto-agli-enti/v1.0/.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
 2. Componi la URL di invocazione per l'API come nell'esempio:\
    \
-   https://api.io.pagopa.it/api/v1/messages/<mark style="color:blue;">**RSRNOU70S54S000L**</mark>/<mark style="color:green;">**01GS8744E24EZDG3XD5ECXB9RG**</mark>\
-
+   https://api.io.pagopa.it/api/v1/messages/<mark style="color:blue;">**RSRNOU70S54S000L**</mark>/<mark style="color:green;">**01GS8744E24EZDG3XD5ECXB9RG**</mark><br>
    1. il parametro in <mark style="color:blue;">**blu**</mark> è il Codice Fiscale del destinatario del messaggio
    2. il parametro in <mark style="color:green;">**verde**</mark> è l'identificativo univoco del messaggio ritornato [in fase di invio](come-inviare-un-messaggio.md)
 3. IO risponderà con lo stato aggiornato del messaggio:
@@ -37,10 +35,9 @@ Una volta che ti sarai assicurato che il tuo utente [possa ricevere le tue comun
 {% endcode %}
 
 * il campo `id` è l'eco dell'identificativo del messaggio che hai specificato in richiesta
-*   il campo `sender_service_id` contiene il codice identificativo del servizio che stai usando per il messaggio:\
+*   il campo `sender_service_id` contiene il codice identificativo del servizio che stai usando per il messaggio:<br>
 
-
-    <figure><img src="../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../app-io/supporto-agli-enti/v1.0/.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
 * il campo status assume il valore `PROCESSED` nel momento in cui il messaggio è a disposizione dell'utente nella sua App IO; consulta la Guida Tecnica per [gli altri possibili stati previsti](https://docs.pagopa.it/io-guida-tecnica/api-e-specifiche/api-messaggi/get-message#status)
 
 {% hint style="info" %}

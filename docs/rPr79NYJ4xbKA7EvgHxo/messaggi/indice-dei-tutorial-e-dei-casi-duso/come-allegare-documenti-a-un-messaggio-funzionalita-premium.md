@@ -20,7 +20,7 @@ I file degli Allegati non sono trasmessi al momento dell'invio del Messaggio, n�
 
 Per consentire questo scambio di dati dovrai fornire alcune informazioni in sede di _onboarding_ ed esporre un'API REST che sarà richiamata da IO (_callback_). Il diagramma che segue riporta la sequenza delle operazioni coinvolte nell'integrazione tra la tua Organizzazione e IO per il supporto agli Allegati.
 
-<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption><p>Integrazione: sequenza degli eventi</p></figcaption></figure>
+<figure><img src="../../../../app-io/supporto-agli-enti/v1.0/.gitbook/assets/image (10).png" alt=""><figcaption><p>Integrazione: sequenza degli eventi</p></figcaption></figure>
 
 Nel diagramma, le frecce in colore blu rappresentano le chiamate che IO fa al _backend_ della tua Organizzazione e corrispondono alle API di _callback_ che dovrai esporre; le frecce in colore verde rappresentano il momento in cui i byte dei tuoi allegati sono trasmessi al Cittadino.
 
@@ -63,7 +63,7 @@ Trovi tutte le informazioni di dettaglio circa gli _endpoint_ di _callback_ nell
 
 Il risultato che vogliamo ottenere in questo esempio è che il Cittadino riceva un Messaggio IO simile a quello mostrato di seguito:
 
-<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption><p>Esempio di Messaggio con Allegati</p></figcaption></figure>
+<figure><img src="../../../../app-io/supporto-agli-enti/v1.0/.gitbook/assets/image (11).png" alt=""><figcaption><p>Esempio di Messaggio con Allegati</p></figcaption></figure>
 
 Nota la presenza della sezione "Allegati" con l'elenco dei documenti che accompagnano il messaggio.
 
@@ -108,10 +108,9 @@ In questo tutorial, gli esempi prevedono che a fronte di un `third_party_data.id
 }'
 </code></pre>
 
-*   Il valore del header `Ocp-Apim-Subscription-Key` è la chiave (primaria o secondaria) del tuo Servizio IO: puoi recuperarla accedendo all'Area Riservata e cercando la scheda del tuo Servizio nella pagina "Servizi"\
+*   Il valore del header `Ocp-Apim-Subscription-Key` è la chiave (primaria o secondaria) del tuo Servizio IO: puoi recuperarla accedendo all'Area Riservata e cercando la scheda del tuo Servizio nella pagina "Servizi"<br>
 
-
-    <figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../app-io/supporto-agli-enti/v1.0/.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
 * Il valore `"ADVANCED"` per `feature_level_type` identifica un Messaggio Premium: impostalo così per poter aggiungere Allegati al tuo Messaggio
 * Componi il tuo messaggio (`subject`, `markdown`) seguendo i consigli riportati nel [Manuale dei Servizi di IO](https://docs.pagopa.it/manuale-servizi/) e le specifiche del [formato Markdown supportato da IO](https://docs.pagopa.it/io-guida-tecnica/risorse-utili/guida-al-markdown)
 * La presenza della struttura `third_party_data` indica a IO che il tuo Messaggio veicola uno o più Allegati:
@@ -138,7 +137,7 @@ In seguito alla richiesta di invio del Messaggio, come visto in [#step-2-invio-d
 
 Toccando la notifica, oppure aprendo manualmente App IO e toccando il nuovo messaggio nell'elenco dei messaggi ricevuti, l'utente accederà al dettaglio: se tutto sarà andato come previsto, **IO avrà contattato i tuoi sistemi per recuperare i metadati degli allegati** (numero, nomi e URL relative), potendo così costruire la pagina da mostrarti: nota la sezione Allegati con l'elenco dei tuoi file.
 
-<figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../app-io/supporto-agli-enti/v1.0/.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
 
 **A livello di integrazione** il backend di IO avrà effettuato una richiesta GET all'indirizzo `https://integrazione.mioente.it/io/messages/000003`, che avrà costruito come segue (come previsto dalle relative [specifiche OpenAPI](https://editor.swagger.io/?url=https://raw.githubusercontent.com/pagopa/io-backend/master/openapi/consumed/api-third-party.yaml)):
 
@@ -169,7 +168,7 @@ L'endpoint avrà risposto con questi dati:
 ```
 {% endcode %}
 
-* il campo `id` sarà usato da IO in evoluzioni future. Per il momento è richiesto solo che sia valorizzato in modo univoco, ad esempio puoi usare una nuova [GUID](https://it.wikipedia.org/wiki/GUID)<img src="broken-reference" alt="" data-size="line"> generata allo scopo
+* il campo `id` sarà usato da IO in evoluzioni future. Per il momento è richiesto solo che sia valorizzato in modo univoco, ad esempio puoi usare una nuova [GUID](https://it.wikipedia.org/wiki/GUID)<img src="/broken/files/Y1rBNk4nSeAlXcG17JZe" alt="" data-size="line"> generata allo scopo
 * Il campo `url` deve contenere il percorso relativo per il download dell’allegato, come vedremo meglio in dettaglio tra poco in [#step-4-visualizzazione-di-un-allegato](come-allegare-documenti-a-un-messaggio-funzionalita-premium.md#step-4-visualizzazione-di-un-allegato "mention")
 * Il campo `content_type` deve necessariamente contenere il valore “application/pdf”, in quanto IO supporta unicamente allegati in formato PDF/A (consigliamo ai Mittenti di adottare il formato PDF/A-1a, che garantisce la massima sicurezza e accessibilità per i propri documenti)
 * Il campo `name` sarà mostrato come nome dell’allegato nell’elenco in App: sceglilo con cura per comunicare correttamente col tuo utente finale! Deve essere, come nell’esempio, il nome del file che l’utente si ritroverà sul proprio dispositivo se sceglierà di scaricarlo dopo averlo visualizzato: puoi dunque usare un nome del tipo "Ricevuta Evento.pdf" o semplicemente "ricevuta.pdf", _la cosa importante è includere l'estensione ".pdf"_ per consentire all'app e al sistema operativo del dispositivo di trattare correttamente il file eventualmente scaricato dal destinatario
@@ -180,7 +179,7 @@ Toccando uno dei file allegati al tuo Messaggio, il destinatario avvierà il pro
 
 Dopo alcuni secondi, necessari affinché il file sia trasferito dai tuoi sistemi a IO e quindi all'App di destinazione, all'utente sarà mostrato il visualizzatore di PDF integrato in App IO:
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../app-io/supporto-agli-enti/v1.0/.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 Potrà quindi utilizzare i gesti di zoom e spostamento per esaminare l'allegato più in dettaglio, così come potrà scegliere di:
 
