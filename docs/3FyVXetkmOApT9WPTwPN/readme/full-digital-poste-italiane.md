@@ -90,11 +90,11 @@ Il documenti prodotti sono archiviati all'interno di un file ZIP contenente:
 
 II file ZIP contiene il file XML firmato, gli schema XSD per la validazione e il file PDF relativi a una spedizione 890 per Raccomandata Mod. 23L consegnata a domicilio, con dettagli su codice di spedizione, data e luogo di accettazione e recapito.
 
-{% file src="../.gitbook/assets/FPIN_Consegna_AG_da_ptl.zip" %}
+{% file src="../../send/knowledge-base/v2.5/.gitbook/assets/FPIN_Consegna_AG_da_ptl.zip" %}
 
 #### Schema di Validazione
 
-{% file src="../.gitbook/assets/Schema23L-v.1.0.xsd" %}
+{% file src="../../send/knowledge-base/v2.5/.gitbook/assets/Schema23L-v.1.0.xsd" %}
 
 * **23L digitale consegna c/o ufficio postale**
 
@@ -102,13 +102,13 @@ II file ZIP contiene il file XML firmato, gli schema XSD per la validazione e il
 
 II file ZIP contiene il file XML firmato, gli schema XSD per la validazione e il file PDF relativi a una spedizione 890 per Raccomandata Mod. 23L consegnata ad un ufficio postale, con dettagli su codice di spedizione, data e luogo di accettazione e recapito.
 
-{% file src="../.gitbook/assets/SP04_23LFD_281526382192_381526382193.zip" %}
+{% file src="../../send/knowledge-base/v2.5/.gitbook/assets/SP04_23LFD_281526382192_381526382193.zip" %}
 
 #### Schema di Validazione
 
-{% file src="../.gitbook/assets/Schema23L_v.1.0daUP.xsd" %}
+{% file src="../../send/knowledge-base/v2.5/.gitbook/assets/Schema23L_v.1.0daUP.xsd" %}
 
-{% file src="../.gitbook/assets/SchemaDIDAGE.xsd" %}
+{% file src="../../send/knowledge-base/v2.5/.gitbook/assets/SchemaDIDAGE.xsd" %}
 
 * **ARCAD digitale**
 
@@ -116,11 +116,11 @@ II file ZIP contiene il file XML firmato, gli schema XSD per la validazione e il
 
 II file ZIP contiene il file XML firmato, gli schema XSD per la validazione e il file PDF relativi a una spedizione 890 per ARCAD digiale , con dettagli su codice di spedizione, data e luogo di accettazione e recapito.
 
-{% file src="../.gitbook/assets/WU2W_ARCAD_FD.zip" %}
+{% file src="../../send/knowledge-base/v2.5/.gitbook/assets/WU2W_ARCAD_FD.zip" %}
 
 #### Schema di validazione
 
-{% file src="../.gitbook/assets/Schema_ARCAD.xsd" %}
+{% file src="../../send/knowledge-base/v2.5/.gitbook/assets/Schema_ARCAD.xsd" %}
 
 #### Raccomandata A/R
 
@@ -130,13 +130,13 @@ II file ZIP contiene il file XML firmato, gli schema XSD per la validazione e il
 
 II file ZIP contiene il file XML firmato, gli schema XSD per la validazione e il file PDF relativi a una spedizione A/R per Raccomandata Mod. 23i consegnata a domicilio, con dettagli su codice di spedizione, data e luogo di accettazione e recapito.
 
-{% file src="../.gitbook/assets/KUXW_Consegna_Racc_PTL.zip" %}
+{% file src="../../send/knowledge-base/v2.5/.gitbook/assets/KUXW_Consegna_Racc_PTL.zip" %}
 
 #### Schema di validazione
 
-{% file src="../.gitbook/assets/Schema_23I_v.1.0.xsd" %}
+{% file src="../../send/knowledge-base/v2.5/.gitbook/assets/Schema_23I_v.1.0.xsd" %}
 
-{% file src="../.gitbook/assets/Schema_23I_v.2.0.xsd" %}
+{% file src="../../send/knowledge-base/v2.5/.gitbook/assets/Schema_23I_v.2.0.xsd" %}
 
 * **23i digitale consegna c/o ufficio postale**
 
@@ -144,14 +144,14 @@ II file ZIP contiene il file XML firmato, gli schema XSD per la validazione e il
 
 II file ZIP contiene il file XML firmato, gli schema XSD per la validazione e il file PDF relativi a una spedizione A/R per Raccomandata Mod. 23i consegnata ad un ufficio postale, con dettagli su codice di spedizione, data e luogo di accettazione e recapito.
 
-{% file src="../.gitbook/assets/9QM6_Consegna_Racc_da_UP.zip" %}
+{% file src="../../send/knowledge-base/v2.5/.gitbook/assets/9QM6_Consegna_Racc_da_UP.zip" %}
 
 #### Schema di validazione
 
-{% file src="../.gitbook/assets/Schema_DIDRK.xsd" %}
+{% file src="../../send/knowledge-base/v2.5/.gitbook/assets/Schema_DIDRK.xsd" %}
 
 ### Dettaglio dei campi del file XML
 
 l file XML della Raccomandata 23L include campi per tracciare l’intera spedizione, come il codice identificativo dell’oggetto, la descrizione del documento inviato (es. atto giudiziario), la data e il luogo di accettazione e recapito, e i dettagli sul mittente. Questi campi certificano ogni fase del processo di notifica e rendono la spedizione conforme alle normative legali.
 
-{% file src="../.gitbook/assets/Dettaglio campi per file FD PagoPA_V3.xlsx" %}
+{% file src="../../send/knowledge-base/v2.5/.gitbook/assets/Dettaglio campi per file FD PagoPA_V3.xlsx" %}

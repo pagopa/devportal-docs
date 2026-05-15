@@ -45,8 +45,6 @@ I passi da seguire sono i seguenti:
 
 L’inoltro della notifica può avvenire in modalità _piattaforma web_ o _B2B_. La modalità _piattaforma web_ prevede l’utilizzo della webapp di Piattaforma Notifiche e consente l’inoltro puntuale di una notifica. La modalità _B2B_ prevede l’utilizzo dei servizi di Piattaforma Notifiche attraverso l'integrazione con le API e consente l’inoltro massivo di notifiche.
 
-
-
 ## **Validazione Notifica**
 
 #### Quali controlli vengono effettuati contestualmente all'inserimento della notifica (controlli sincroni)?
@@ -96,7 +94,7 @@ SI, nel caso una notifica vada in stato di REFUSED tramite validazione asincrona
 
 Può verificare questa pagina di faq creata appositamente, nel quale vengono indicate le regole sulla lunghezza e la [composizione dell'indirizzo](../validazione-della-richiesta-di-notifica/composizione-degli-indirizzi.md).
 
-## Workflow e timeline della notifica&#x20;
+## Workflow e timeline della notifica
 
 #### Come si sviluppa il workflow dell'invio della notifica?
 
@@ -222,15 +220,11 @@ Per permettere la visualizzazione della funzione di pagamento online, la PA Mitt
 
 A questo punto bisogna entrare nel portale lato cittadino, accedere al dettaglio della notifica appena inviata ed apparirà la voce _Paga XXX_ per pagare online come in foto.
 
-![](<../../.gitbook/assets/image (8) (2).png>)
+![](<../../../send/knowledge-base/v2.5/.gitbook/assets/image (8) (2).png>)
 
 Se invece la PA Mittente ha inserito il bollettino di pagamento separatamente dall'atto, all'interno del campo NewNotificationRequest.recipients.payments.**pagoPa,** entrando nel portale lato cittadino ed accedendo al dettaglio della notifica appena inviata, apparirà la voce _Paga XXX_ per pagare online e _Scarica l'avviso PagoPA_ per scaricare il bollettino di pagamento come in foto.
 
-
-
-<img src="../../.gitbook/assets/image (46).png" alt="" data-size="original">
-
-
+<img src="../../../send/knowledge-base/v2.5/.gitbook/assets/image (46).png" alt="" data-size="original">
 
 #### Come posso testare il caso d'uso della Multa per violazione del Codice della Strada?
 
@@ -341,6 +335,4 @@ Il mittente deve scegliere il prodotto postale in base alla normativa allo stess
 * per un libero professionista come l'avvocato non sarebbe tra l'altro proprio possibile/configurabile una verifica della qualità di legale rappresentante sui registri in quanto l'avvocato è lavoratore autonomo e **NON** è obbligato all'iscrizione nel registro imprese;
 * per un libero professionista come l'avvocato non sarebbe tra l'altro proprio possibile/configurabile una verifica della qualità di legale rappresentante sui registri in quanto l'avvocato è lavoratore autonomo e **NON** è obbligato all'iscrizione nel registro imprese;
 
-
-
-In conclusione, il CF  (alfanumerico/numerico) guiderà l'ente mittente al suo inserimento in considerazione del fatto che non è possibile, in sede di creazione notifica, specificare un CF numerico se la tipologia del destinatario è PF o un CF alfanumerico se la tipologia del destinatario è PG.
+In conclusione, il CF (alfanumerico/numerico) guiderà l'ente mittente al suo inserimento in considerazione del fatto che non è possibile, in sede di creazione notifica, specificare un CF numerico se la tipologia del destinatario è PF o un CF alfanumerico se la tipologia del destinatario è PG.

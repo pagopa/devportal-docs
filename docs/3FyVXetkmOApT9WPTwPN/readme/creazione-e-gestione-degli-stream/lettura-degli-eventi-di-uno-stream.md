@@ -10,7 +10,7 @@ I dati registrati dallo stream possono essere letti tramite l'API di consumo deg
 
 ## Lettura degli eventi tramite comando CURL
 
-### Prima interrogazione&#x20;
+### Prima interrogazione
 
 La prima interrogazione dello stream permetterà di ricevere i primi 50 eventi registrati dallo stream. E' importante lanciare la curl con il **--verbose** che permetterà di visualizzare nell'header della response il valore "_retry-after_" utile per la prossima chiamata.\
 Lanciare il seguente comando:
@@ -109,7 +109,7 @@ E' quindi fondamentale rispettare la logica che viene rappresentata dal campo "_
 La prima interrogazione dello stream permetterà di ricevere i primi 50 eventi registrati dallo stream.\
 Aprire la scheda **Leggi progressi notifiche** e riprodurre questa configurazione:
 
-<figure><img src="../../.gitbook/assets/image (58).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../send/knowledge-base/v2.5/.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
 **NOTA:** sostituire i seguenti:
 
@@ -118,12 +118,12 @@ Aprire la scheda **Leggi progressi notifiche** e riprodurre questa configurazion
 
 Nella response di questo servizio, si otterrà il seguente payload che rappresenta tutti gli eventi:
 
-<figure><img src="../../.gitbook/assets/image (47).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../send/knowledge-base/v2.5/.gitbook/assets/image (47).png" alt=""><figcaption></figcaption></figure>
 
 Gli eventi ottenuti dovranno essere memorizzati dal client poichè nelle successive chiamate i risultati ottenuti verranno consumati e cancellati dallo stream per lasciare il posto agli eventi successivi.\
 E' poi necessario selezionare il tab Headers della response per visualizzare i valori ottenuti:
 
-<figure><img src="../../.gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../send/knowledge-base/v2.5/.gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure>
 
 **NOTA:** nell'header della response ottenuta fare attenzione al campo `retry-after` che deve essere memorizzato per le successive chiamate:
 
@@ -137,7 +137,7 @@ E' quindi fondamentale rispettare la logica che viene rappresentata dal campo "_
 Dalle interrogazioni successive alla prima dello stream, si otterranno i 50 eventi successivi a quello del lastEventId (l'eventId dell'ultimo evento ottenuto nelle precedenti chiamate).\
 Aprire la scheda **Leggi progressi notifiche** e riprodurre questa configurazione:
 
-<figure><img src="../../.gitbook/assets/image (59).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../send/knowledge-base/v2.5/.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
 **NOTA:** sostituire i seguenti:
 

@@ -19,13 +19,13 @@ Nella modalità sincrona **la gestione della posizione debitoria è in carico al
 
 Il partner tecnologico di SEND che realizza l'integrazione deve dare disponibilità di questo servizio al partner tecnologico che implementa l'integrazione con il nodo pagoPA.
 
-Le spese di notifica variano in base al processo di spedizione eseguito per una notifica e possono subire variazioni nel tempo (es: a seguito di un secondo invio cartaceo); pertanto sarà necessario attualizzare il costo del pagamento richiamando l'API [**notificationPrice**](https://developer.pagopa.it/it/send/api/send-api-external-b2b-pa-bundle#get-/delivery/v2.3/price/-paTaxId-/-noticeCode-) **all'atto del pagamento**.&#x20;
+Le spese di notifica variano in base al processo di spedizione eseguito per una notifica e possono subire variazioni nel tempo (es: a seguito di un secondo invio cartaceo); pertanto sarà necessario attualizzare il costo del pagamento richiamando l'API [**notificationPrice**](https://developer.pagopa.it/it/send/api/send-api-external-b2b-pa-bundle#get-/delivery/v2.3/price/-paTaxId-/-noticeCode-) **all'atto del pagamento**.
 
 L'API restituisce il costo sostenuto per il singolo destinatario a cui è associato l'avviso **aggiornato all'istante in cui viene chiamata**. Per facilitare l'integrazione con il sistema che dialoga con il nodo pagoPA gli unici parametri necessari sono quelli che identificano la posizione debitoria: `paTaxId` (codice fiscale ente creditore) e `noticeCode` (numero avviso).
 
 **NOTA**: l'importo del costo di notifica da aggiungere al costo dell'atto è quello indicato nell'elemento `totalPrice`. Tale importo è calcolato in base agli elementi `paFee` e `vat` indicati all'atto della chiamata dell'API di richiesta di notifica secondo il seguente algoritmo.
 
-`totalPrice = paFee + sendFee + somma(<costi invii catacei>) * (1 + vat/100)`&#x20;
+`totalPrice = paFee + sendFee + somma(<costi invii catacei>) * (1 + vat/100)`
 
 **Esempio notifica digitale**: Ipotizzando il caso un cui la notifica abbia intrappreso il flusso di comunicazione digitale, perchè ha individuato un domicilio digitale o perché il destinatario ha fatto accesso alla notifica entro 120 ore dall'invio di un messaggio di cortesia, il costo è calcolato come:
 
@@ -50,7 +50,7 @@ totalPrice = 100 + 100 + (969 + 963) * 1.22 = 2557 eurocent = € 25,57
 I componenti che compongono il costo della notifica vengono specificati una volta chiamata l'api notificationPrice e sono i seguenti:
 
 * `partialPrice`: indica il costo totale di notifica in eurocent che non include la componente a rimborso della PA (indicata nell'elemento paFee della notifica) e non include l'iva sul costo degli invii cartacei (calcolata sulla percentuale nell'elemento vat della notifica);
-* **`totalPrice`**: è il valore da prendere in considerazione nell'attualizzazione. Indica il costo totale di notifica in eurocent che include la componente a rimborso della PA (indicata nell'elemento `paFee` della notifica), l'iva sul costo degli invii cartacei (calcolata sulla percentuale nell'elemento `vat` della notifica) e il costo del servizio SEND.&#x20;
+* **`totalPrice`**: è il valore da prendere in considerazione nell'attualizzazione. Indica il costo totale di notifica in eurocent che include la componente a rimborso della PA (indicata nell'elemento `paFee` della notifica), l'iva sul costo degli invii cartacei (calcolata sulla percentuale nell'elemento `vat` della notifica) e il costo del servizio SEND.
 * `sendFee`: costo base di SEND per notificazione (100 eurocent).
 * `analogCost`: costo totale dei prodotti postali.
 * `vat`: costo IVA applicata ai costi di invio cartaceo, inserita in fase di invio di notifica.
@@ -60,7 +60,7 @@ I componenti che compongono il costo della notifica vengono specificati una volt
 
 ### Descrizione del processo step-by-step
 
-<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>Diagramma del processo di attualizzazione delle spese di Notifica</p></figcaption></figure>
+<figure><img src="../../../send/knowledge-base/v2.5/.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>Diagramma del processo di attualizzazione delle spese di Notifica</p></figcaption></figure>
 
 1. **Accesso Notifica**: il destinatario/delegato accede al dettaglio della notifica e clicca sul pulsante “Paga”
 2. **Pagamento**: il destinatario/delegato clicca su pulsante paga e passa sul sito checkout di pagoPA. SEND invia i dati Codice Ente Creditore e Numero Avviso, per cui l'utente non deve digitarli manualmente.
@@ -122,11 +122,11 @@ Sull'avviso pagoPA con numero `302011777777777777` è indicato che devono essere
 
 Se la notifica viene depositata tramite il portale mittente con l’invio manuale, l’indicazione dell'applicazione dei costi di notifica può essere configurata selezionando la checkbox **“Non incluso nell’atto”**.
 
-<figure><img src="../../.gitbook/assets/PagamentoFE.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../send/knowledge-base/v2.5/.gitbook/assets/PagamentoFE.png" alt="" width="375"><figcaption></figcaption></figure>
 
 Quando viene selezionata questa modalità appaiono i campi per l'indicazione della componente a copertura dei costi sostenuti dal mittenti e l'IVA da applicare al costo degli invii cartacei. Inoltre, nel pannello "Posizione debitoria" sottostante, viene attivato il pulsante **“Applica costo di notifica”**, per indicare che al pagamento deve essere aggiunto l'importo del costo della notifica.
 
-<figure><img src="../../.gitbook/assets/PagamentoFE2.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../send/knowledge-base/v2.5/.gitbook/assets/PagamentoFE2.png" alt="" width="375"><figcaption></figcaption></figure>
 
 #### Modalità forfettaria
 
@@ -152,4 +152,4 @@ Nella modalità forfettaria l'API di costo della nofica restituirà sempre `tota
 
 Nel portale **Self Care**, selezionando il pagamento in modalità **forfettaria**, la checkbox **“Incluso nell’atto”** non abilita il pulsante **“Applica costo di notifica”**, in quanto il costo è già incluso nell'atto stesso indipendentemente dai costi effettivi di notifica del mittente.
 
-<div><figure><img src="../../.gitbook/assets/PagamentoFE3.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/PagamentoFE4.png" alt=""><figcaption></figcaption></figure></div>
+<div><figure><img src="../../../send/knowledge-base/v2.5/.gitbook/assets/PagamentoFE3.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../send/knowledge-base/v2.5/.gitbook/assets/PagamentoFE4.png" alt=""><figcaption></figcaption></figure></div>

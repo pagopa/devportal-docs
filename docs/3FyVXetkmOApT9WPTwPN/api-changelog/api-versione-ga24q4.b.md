@@ -55,15 +55,15 @@ Esempio di evento SEND\_ANALOG\_PROGRESS di tipo CON020.
 
 Il download della copia conforme può essere effettuato come per gli altri documenti tramite il paramento `key` contenuto nell'elemento `attachments`.
 
-A titolo di esempio si evidenziano le parti aggiunte in fase di stampa.&#x20;
+A titolo di esempio si evidenziano le parti aggiunte in fase di stampa.
 
-<figure><img src="../.gitbook/assets/CopiaAAR.jpg" alt=""><figcaption><p>Esempio degli elementi aggiunti in fase di stampa</p></figcaption></figure>
+<figure><img src="../../send/knowledge-base/v2.5/.gitbook/assets/CopiaAAR.jpg" alt=""><figcaption><p>Esempio degli elementi aggiunti in fase di stampa</p></figcaption></figure>
 
 ## API di stato della piattaforma
 
 Questa versione aggiunge la pubblicazione delle API di:
 
-* stato della piattaforma&#x20;
+* stato della piattaforma
 * recupero dei disservizi e dei relativi atti opponibili
 
 Per i dettagli aprire la pagina [#api-di-stato-della-piattaforma](api-versione-ga24q4.b.md#api-di-stato-della-piattaforma "mention")
@@ -72,9 +72,4 @@ Per i dettagli aprire la pagina [#api-di-stato-della-piattaforma](api-versione-g
 
 Da questa versione SEND consente di inviare notifiche e atti in doppia lingua (italiano + tedesco, francese o sloveno) per garantire il bilinguismo amministrativo. Le traduzioni sono a cura dell’ente mittente. Sono state predisposte delle FAQ apposite per il seguente tema: [BILINGUISMO](https://developer.pagopa.it/send/guides/knowledge-base/readme/supporto-al-bilinguismo-amministrativo).
 
-
-
-
-
 ####
-
