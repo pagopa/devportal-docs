@@ -14,7 +14,7 @@ Qualora avessi necessità di comunicare altri use case di notifiche non ancora r
 
 **Annuncio generico di adesione a SEND**&#x20;
 
-<figure><img src="../../../../send/toolkit-comunicazione/v1.0/.gitbook/assets/Donna_Stories_LOGO.png" alt="" width="375"><figcaption><p>Immagine per social - soggetto Adesione</p></figcaption></figure>
+<figure><img src="../../../send/toolkit-comunicazione/v1.0/.gitbook/assets/Donna_Stories_LOGO.png" alt="" width="375"><figcaption><p>Immagine per social - soggetto Adesione</p></figcaption></figure>
 
 * 🔔Il Comune di xx aderisce a #SEND - Servizio Notifiche Digitali che ti permette di ricevere le nostre comunicazioni a valore legale online.\
   Potrai visualizzarle, gestirle e pagare eventuali costi accedendo a SEND con SPID o CIE o direttamente dall'app @IO. \
@@ -34,7 +34,7 @@ Qualora avessi necessità di comunicare altri use case di notifiche non ancora r
 
 **Use case - Violazioni del codice della strada**
 
-<figure><img src="../../../../send/toolkit-comunicazione/v1.0/.gitbook/assets/Telefono_Post_LOGO.png" alt="" width="375"><figcaption><p>Immagine per social - Soggetto Violazione codice della strada</p></figcaption></figure>
+<figure><img src="../../../send/toolkit-comunicazione/v1.0/.gitbook/assets/Telefono_Post_LOGO.png" alt="" width="375"><figcaption><p>Immagine per social - Soggetto Violazione codice della strada</p></figcaption></figure>
 
 *   Sai che puoi ricevere e pagare le multe del Comune di XX online?
 
@@ -48,7 +48,7 @@ Qualora avessi necessità di comunicare altri use case di notifiche non ancora r
 
 **Use case - Bollo auto (per le Regioni)**&#x20;
 
-<figure><img src="../../../../send/toolkit-comunicazione/v1.0/.gitbook/assets/Bollo auto_Post_LOGO.png" alt="" width="375"><figcaption><p>Immagine per social - Soggetto Bollo auto</p></figcaption></figure>
+<figure><img src="../../../send/toolkit-comunicazione/v1.0/.gitbook/assets/Bollo auto_Post_LOGO.png" alt="" width="375"><figcaption><p>Immagine per social - Soggetto Bollo auto</p></figcaption></figure>
 
 *   Da oggi puoi ricevere in digitale le notifiche per i mancati pagamenti del bollo auto con #SEND - Servizio Notifiche Digitali.
 
