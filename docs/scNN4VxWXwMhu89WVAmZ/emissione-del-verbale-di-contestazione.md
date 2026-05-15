@@ -6,7 +6,7 @@ description: >-
 
 # 4️⃣ Emissione del verbale di contestazione
 
-<figure><img src="../../solutions/multe-per-violazioni-al-codice-della-strada/.gitbook/assets/violazioni-codice-strada-step4.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../solutions/multe-per-violazioni-al-codice-della-strada/.gitbook/assets/violazioni-codice-strada-step4.png" alt=""><figcaption></figcaption></figure>
 
 ## 1. Il preavviso di accertamento è scaduto
 
