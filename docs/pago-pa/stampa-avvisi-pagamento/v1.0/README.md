@@ -24,7 +24,7 @@ La prima prevede che l'API fornisca in output il singolo pdf dell'avviso di paga
 {% hint style="warning" %}
 Essendo data la possibilità di stampa di avvisi che possono contemplare al loro interno la sezione "Bollettino postale" è necessario da parte degli enti / intermediari / partner tecnologici l'autorizzazione da parte di Poste secondo quanto descritto in [https://business.poste.it/business/files/1476473314849/manuale-stampa-in-proprio.pdf](https://business.poste.it/business/files/1476473314849/manuale-stampa-in-proprio.pdf).
 
-Per maggiori info su dove inserire il codice autorizzativo di Poste si faccia riferimento a [Compilazione dati configurazione su BackOffice pagoPA](../../../9jfvPZ8QjCKuOGYxe5Uc/stampa-avvisi-pagamento/compilazione-dati-configurazione-su-backoffice-pagopa.md).
+Per maggiori info su dove inserire il codice autorizzativo di Poste si faccia riferimento a [Compilazione dati configurazione su BackOffice pagoPA](stampa-avvisi-pagamento/compilazione-dati-configurazione-su-backoffice-pagopa.md).
 {% endhint %}
 
 
