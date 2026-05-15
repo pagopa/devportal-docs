@@ -1,8 +1,8 @@
 # Errore response controparte
 
-![](../.gitbook/assets/image.png)
+![](../../pago-pa/errori/v1.0/.gitbook/assets/image.png)
 
-La piattaforma pagoPA rileva un errore nella response fornita dalla controparte e restituisce in response al chiamante un [..](../ "mention") con le seguenti caratteristiche:
+La piattaforma pagoPA rileva un errore nella response fornita dalla controparte e restituisce in response al chiamante un [v1.0](../../pago-pa/errori/v1.0/ "mention") con le seguenti caratteristiche:
 
 * **id** = _NodoDeiPagamentiSPC_
 * **faultCode** = _PPT\_CANALE\_ERRORE\_RESPONSE_ (se controparte è PSP) / _PPT\_STAZIONE\_INT\_PA\_ERRORE\_RESPONSE_ (se controparte è EC)

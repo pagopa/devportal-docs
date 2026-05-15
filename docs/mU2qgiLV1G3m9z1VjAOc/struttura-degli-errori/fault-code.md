@@ -3,7 +3,7 @@
 Per ogni chiamata applicativa, il soggetto chiamato in causa (Nodo dei Pagamenti, EC o PSP) deve dare una risposta che può essere:
 
 * **OK**
-* **KO** (con struttura [..](../ "mention") che include un **faultCode**)
+* **KO** (con struttura [v1.0](../../pago-pa/errori/v1.0/ "mention") che include un **faultCode**)
 
 ## Struttura faultCode <a href="#struttura-faultcode" id="struttura-faultcode"></a>
 

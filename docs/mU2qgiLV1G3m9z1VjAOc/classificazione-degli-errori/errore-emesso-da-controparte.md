@@ -1,6 +1,6 @@
 # Errore emesso da controparte
 
-![](<../.gitbook/assets/image (2).png>)
+![](<../../pago-pa/errori/v1.0/.gitbook/assets/image (2).png>)
 
 Per errore emesso da controparte si intende un **faultBean** valido emesso dalla controparte, valido vuol dire che:
 
@@ -9,7 +9,7 @@ Per errore emesso da controparte si intende un **faultBean** valido emesso dalla
 
 La piattaforma pagoPA ad oggi non effettua alcun controllo sui **faultCode** emessi dalla controparte.
 
-La piattaforma pagoPA rileva un errore (valido) emesso dalla controparte e restituisce in response al chiamante un [..](../ "mention") con le seguenti caratteristiche:
+La piattaforma pagoPA rileva un errore (valido) emesso dalla controparte e restituisce in response al chiamante un [v1.0](../../pago-pa/errori/v1.0/ "mention") con le seguenti caratteristiche:
 
 * **id** = `<idPSP>` (se controparte è PSP) / `<idDominio>` (se controparte è PA)
 * **faultCode** = _PPT\_CANALE\_ERRORE_ (se controparte è PSP) / _PPT\_ERRORE\_EMESSO\_DA\_PAA_ (se controparte è EC)

@@ -26,7 +26,7 @@ Codice di errore, proprio del soggetto che lo emette.
 
 Formato: stringa.
 
-Maggiori dettagli in [fault-code.md](struttura-degli-errori/fault-code.md "mention").
+Maggiori dettagli in [fault-code.md](../../../mU2qgiLV1G3m9z1VjAOc/struttura-degli-errori/fault-code.md "mention").
 
 ### faultString <a href="#faultstring" id="faultstring"></a>
 
@@ -34,7 +34,7 @@ Dettaglio del codice di errore, proprio del soggetto che lo emette.
 
 Formato: stringa.
 
-Valori ammessi: [relazione-tra-faultcode-e-faultstring.md](faultcode-e-faultstring/relazione-tra-faultcode-e-faultstring.md "mention").
+Valori ammessi: [relazione-tra-faultcode-e-faultstring.md](../../../mU2qgiLV1G3m9z1VjAOc/faultcode-e-faultstring/relazione-tra-faultcode-e-faultstring.md "mention").
 
 ### description <a href="#description" id="description"></a>
 
@@ -54,9 +54,9 @@ Codice di errore generato dalla controparte. Non è presente se l'errore è ge
 
 Formato: stringa.
 
-Maggiori dettagli in [fault-code.md](struttura-degli-errori/fault-code.md "mention").
+Maggiori dettagli in [fault-code.md](../../../mU2qgiLV1G3m9z1VjAOc/struttura-degli-errori/fault-code.md "mention").
 
-Emesso solo in caso di [errore-emesso-da-controparte.md](classificazione-degli-errori/errore-emesso-da-controparte.md "mention")e se il chiamante è configurato adeguatamente.
+Emesso solo in caso di [errore-emesso-da-controparte.md](../../../mU2qgiLV1G3m9z1VjAOc/classificazione-degli-errori/errore-emesso-da-controparte.md "mention")e se il chiamante è configurato adeguatamente.
 
 ### originalFaultString <a href="#originalfaultstring" id="originalfaultstring"></a>
 
@@ -64,7 +64,7 @@ Dettaglio del codice di errore generato dalla controparte. Non è presente se l
 
 Formato: stringa.
 
-Emesso solo in caso di [errore-emesso-da-controparte.md](classificazione-degli-errori/errore-emesso-da-controparte.md "mention") e se il chiamante è configurato adeguatamente.
+Emesso solo in caso di [errore-emesso-da-controparte.md](../../../mU2qgiLV1G3m9z1VjAOc/classificazione-degli-errori/errore-emesso-da-controparte.md "mention") e se il chiamante è configurato adeguatamente.
 
 ### originalDescription <a href="#originaldescription" id="originaldescription"></a>
 
@@ -72,4 +72,4 @@ Descrizione aggiuntiva dell’errore generato dalla controparte. Non è present
 
 Formato: stringa.
 
-Emesso solo in caso di [errore-emesso-da-controparte.md](classificazione-degli-errori/errore-emesso-da-controparte.md "mention") e se il chiamante è configurato adeguatamente.
+Emesso solo in caso di [errore-emesso-da-controparte.md](../../../mU2qgiLV1G3m9z1VjAOc/classificazione-degli-errori/errore-emesso-da-controparte.md "mention") e se il chiamante è configurato adeguatamente.
