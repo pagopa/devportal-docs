@@ -6,7 +6,7 @@ Il primo passo per utilizzare le api di IO è l’[**iscrizione al developer por
 
 Per completare l’iscrizione dovrai validare un indirizzo email, un numero di cellulare e inserire i dati anagrafici e di riferimento dell’ente.
 
-<figure><img src=".gitbook/assets/0" alt="Esempio della schermata di registrazione"><figcaption></figcaption></figure>
+<figure><img src="../app-io/io-guida-tecnica/v1.3/.gitbook/assets/0" alt="Esempio della schermata di registrazione"><figcaption></figcaption></figure>
 
 ## Creazione di un servizio
 
