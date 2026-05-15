@@ -4,7 +4,7 @@ description: È la sezione che contiene i dati di chi ha emesso l'avviso di paga
 
 # Informazioni sull'Ente Creditore
 
-![Dettaglio della sezione "Informazioni sull'Ente Creditore" all'interno dell'avviso di pagamento pagoPA.](<../../.gitbook/assets/Ente e Destinatario.png>)
+![Dettaglio della sezione "Informazioni sull'Ente Creditore" all'interno dell'avviso di pagamento pagoPA.](<../../../pago-pa/avviso-pagamento/3.1.0/.gitbook/assets/Ente e Destinatario.png>)
 
 ### `ENTE.CF` <a href="#ente-cf" id="ente-cf"></a>
 
@@ -95,6 +95,6 @@ Iniziale maiuscola
 
 {% tab title="Note" %}
 * Nel caso di una sola riga, l’allineamento deve essere al bordo superiore.
-* Se devi inserire più elementi, puoi usare come separatore il [punto mediano](https://it.wikipedia.org/wiki/Punto\_mediano) `·`&#x20;
+* Se devi inserire più elementi, puoi usare come separatore il [punto mediano](https://it.wikipedia.org/wiki/Punto_mediano) `·`&#x20;
 {% endtab %}
 {% endtabs %}
