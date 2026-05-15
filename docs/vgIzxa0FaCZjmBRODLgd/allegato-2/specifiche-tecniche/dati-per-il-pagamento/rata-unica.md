@@ -10,7 +10,7 @@ description: >-
 Se l'Ente Creditore dispone di un conto corrente postale per gli incassi, è necessario includere, subito dopo questa porzione, anche il [bollettino-postale-pa.md](bollettino-postale-pa.md "mention").&#x20;
 {% endhint %}
 
-![Dettaglio della sezione "Rata unica" all'interno dell'avviso di pagamento pagoPA.](<../../../../../pago-pa/avviso-pagamento/3.5.0/.gitbook/assets/Frame 1 (2).png>)
+![Dettaglio della sezione "Rata unica" all'interno dell'avviso di pagamento pagoPA.](<../../../../pago-pa/avviso-pagamento/3.5.0/.gitbook/assets/Frame 1 (2).png>)
 
 ### `AVVISO.QRCODE` <a href="#avviso-qrcode" id="avviso-qrcode"></a>
 

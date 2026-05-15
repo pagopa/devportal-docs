@@ -22,6 +22,6 @@ description: >-
 
 ### Risorse disponibili
 
-{% file src="../../../../pago-pa/avviso-pagamento/3.5.0/.gitbook/assets/pagoPA-Avvisi-340-senzaScadenza.zip" %}
+{% file src="../../../pago-pa/avviso-pagamento/3.5.0/.gitbook/assets/pagoPA-Avvisi-340-senzaScadenza.zip" %}
 File ZIP contenente il modello dell'avviso in formato SVG e PDF.
 {% endfile %}

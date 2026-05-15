@@ -8,7 +8,7 @@ description: In questa pagina trovi gli asset da inserire nell'avviso di pagamen
 
 Puoi ottenere gli elementi grafici in formato SVG direttamente da [Figma](https://www.figma.com/file/vXPJIWpNOfVCAyXMman2XU/Elementi-grafici?node-id=0%3A1) o scaricando il seguente file zip, che contiene anche le varianti in formato PNG e JPG:
 
-{% file src="../../../../pago-pa/avviso-pagamento/3.5.0/.gitbook/assets/pagoPA-avvisi-350-assets.zip" %}
+{% file src="../../../pago-pa/avviso-pagamento/3.5.0/.gitbook/assets/pagoPA-avvisi-350-assets.zip" %}
 File ZIP contenente gli elementi grafici in formato SVG, JPG e PNG
 {% endfile %}
 
