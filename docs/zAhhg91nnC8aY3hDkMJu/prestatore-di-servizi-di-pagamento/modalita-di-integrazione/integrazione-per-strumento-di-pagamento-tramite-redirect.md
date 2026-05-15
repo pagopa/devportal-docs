@@ -2,7 +2,7 @@
 
 La modalità di pagamento in _redirect_ verso soluzioni fornite dai singoli PSP o terze parti da loro convenzionate, introdotta per facilitare i pagamenti su conto corrente e similari per i cittadini ed imprese, è studiata secondo le seguenti stelle polari:
 
-* _principio di neutralità_: la piattaforma pagoPA **deve** mettere a disposizione di tutti i PSP le medesime interfacce ed integrazioni tecnologiche senza alcuna customizzazione; é chiesto quindi a tutti i PSP che oggi hanno soluzioni custom di adeguarsi alla nuova modalità, unica disponibile per il modello unico di pagamento obbligatorio sulla piattaforma pagoPA;&#x20;
+* _principio di neutralità_: la piattaforma pagoPA **deve** mettere a disposizione di tutti i PSP le medesime interfacce ed integrazioni tecnologiche senza alcuna customizzazione; é chiesto quindi a tutti i PSP che oggi hanno soluzioni custom di adeguarsi alla nuova modalità, unica disponibile per il modello unico di pagamento obbligatorio sulla piattaforma pagoPA;
 * _compliance PSD2_: come oggi resta responsabilità del PSP, che mette a disposizione lo strumento di pagamento (direttamente o per il tramite di terzi), garantire il rispetto della normativa vigente in termini di sicurezza, autenticazione (SCA) e best practice bancarie;
 * _regole chiare descritte nelle SANP_: è scelta della società PagoPA S.p.A. declinare quali modalità di pagamento permettere di veicolare dentro la modalità di _redirect_, secondo principi che devono essere chiari e descritti nelle SANP.
 
@@ -25,15 +25,15 @@ I campi contrassegnati con﹡sono obbligatori
 
 ## API recupero URL
 
-{% swagger src="https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.7.0/openapi/redirect.yaml" path="/redirections" method="post" %}
+{% openapi src="https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.7.0/openapi/redirect.yaml" path="/redirections" method="post" %}
 [https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.7.0/openapi/redirect.yaml](https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.7.0/openapi/redirect.yaml)
-{% endswagger %}
+{% endopenapi %}
 
 ## Redirect
 
 L’utente, tramite GET all’url fornita dal PSP nella response alla chiamata[#api-recupero-url](integrazione-per-strumento-di-pagamento-tramite-redirect.md#api-recupero-url "mention"), viene reindirizzato dalla piattaforma pagoPA sul FE del PSP per effettuare l’autorizzazione del pagamento.
 
-Il PSP, per la corretta gestione, dovrà utilizzare le informazioni relative al pagamento inviate dalla piattaforma pagoPA nella chiamata[#api-recupero-url](integrazione-per-strumento-di-pagamento-tramite-redirect.md#api-recupero-url "mention").&#x20;
+Il PSP, per la corretta gestione, dovrà utilizzare le informazioni relative al pagamento inviate dalla piattaforma pagoPA nella chiamata[#api-recupero-url](integrazione-per-strumento-di-pagamento-tramite-redirect.md#api-recupero-url "mention").
 
 ### **Esito**
 
@@ -48,16 +48,16 @@ Come descritto nel paragrafo precedente è l’API server to server che il PSP, 
 
 L’API ha il fine di fornire un’esito finale anche nel caso in cui fallisca la _redirect_ dal FE del PSP alla piattaforma pagoPA.
 
-{% swagger src="https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.6.1/openapi/redirect.yaml" path="/redirections/{idTransaction}/outcomes" method="post" %}
+{% openapi src="https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.6.1/openapi/redirect.yaml" path="/redirections/{idTransaction}/outcomes" method="post" %}
 [https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.6.1/openapi/redirect.yaml](https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.6.1/openapi/redirect.yaml)
-{% endswagger %}
+{% endopenapi %}
 
 ## API annullo
 
 Questa API deve essere esposta da tutti i PSP per permettere alla piattaforma pagoPA di poter annullare un pagamento a fronte di errore tecnico.
 
 {% hint style="info" %}
-Si precisa nuovamente che autorizzazione e contabilizzazione devono essere gestite contemporaneamente nella stessa fase, come  indicato nel workflow in [#integrazione-e-workflow-per-psp-strumento-di-pagamento-integrato-con-payment-gateway](offrire-sistemi-di-pagamento-su-touchpoints-di-pagopa-s.p.a..md#integrazione-e-workflow-per-psp-strumento-di-pagamento-integrato-con-payment-gateway "mention")
+Si precisa nuovamente che autorizzazione e contabilizzazione devono essere gestite contemporaneamente nella stessa fase, come indicato nel workflow in [#integrazione-e-workflow-per-psp-strumento-di-pagamento-integrato-con-payment-gateway](offrire-sistemi-di-pagamento-su-touchpoints-di-pagopa-s.p.a..md#integrazione-e-workflow-per-psp-strumento-di-pagamento-integrato-con-payment-gateway "mention")
 {% endhint %}
 
 La piattaforma pagoPA invoca questa API per richiedere l’annullo di un pagamento nei seguenti casi:
@@ -71,9 +71,9 @@ Nel caso di cui al punto 2, in aggiunta all'effetto di cui sopra, la piattaforma
 
 Ciascun PSP deve fornire l'url da invocare tramite il backoffice pagoPA per ciascun ambiente (collaudo e produzione).
 
-{% swagger src="https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.6.1/openapi/redirect.yaml" path="/redirections/refunds" method="post" %}
+{% openapi src="https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.6.1/openapi/redirect.yaml" path="/redirections/refunds" method="post" %}
 [https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.6.1/openapi/redirect.yaml](https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.6.1/openapi/redirect.yaml)
-{% endswagger %}
+{% endopenapi %}
 
 A fronte di una mancata risposta con esito HTTP 200 (avente valore di esito positivo della risposta alla chiamata) è compito di pagoPA riproporre la medesima chiamata con una logica di _retry_.
 
@@ -81,7 +81,7 @@ L'API ha la caratteristica di essere _idempotente_ e il PSP deve riproporre lo s
 
 ## Fase di pagamento <a href="#sequence-diagram-fase-di-pagamento" id="sequence-diagram-fase-di-pagamento"></a>
 
-<figure><img src="../../.gitbook/assets/image (38).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../pago-pa/sanp/3.8.0/.gitbook/assets/image (38).png" alt=""><figcaption></figcaption></figure>
 
 ## Fase di annullo <a href="#sequence-diagram-fase-di-storno" id="sequence-diagram-fase-di-storno"></a>
 
@@ -89,10 +89,10 @@ L'API ha la caratteristica di essere _idempotente_ e il PSP deve riproporre lo s
 
 La piattaforma pagoPA effettua la chiamata di annullo con logica di retry se non riceve l’esito (positivo o negativo) del pagamento entro il _timeout_ indicato nella response alla [#api-recupero-url](integrazione-per-strumento-di-pagamento-tramite-redirect.md#api-recupero-url "mention") dal PSP o il timeout di default di _10 minuti_ dall'invocazione della redirect verso l'URL del PSP.
 
-<figure><img src="../../.gitbook/assets/annullo1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../pago-pa/sanp/3.8.0/.gitbook/assets/annullo1.png" alt=""><figcaption></figcaption></figure>
 
 ### Caso 2 - pspNotifyPayment KO <a href="#caso-3-pspnotifypayment-ko" id="caso-3-pspnotifypayment-ko"></a>
 
 La piattaforma pagoPA effettua la chiamata di annullo con logica di retry quando il PSP ha risposto KO alla [#pspnotifypayment](../../appendici/primitive.md#pspnotifypayment "mention").
 
-<figure><img src="../../.gitbook/assets/annullo2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../pago-pa/sanp/3.8.0/.gitbook/assets/annullo2.png" alt=""><figcaption></figcaption></figure>

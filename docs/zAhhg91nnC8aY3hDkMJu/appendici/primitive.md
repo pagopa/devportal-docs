@@ -8,8 +8,6 @@ I campi contrassegnati con﹡sono obbligatori
 
 Per i dettagli [https://github.com/pagopa/pagopa-api/tree/SANP3.8.0](https://github.com/pagopa/pagopa-api/tree/SANP3.8.0)
 
-
-
 ## paVerifyPaymentNotice
 
 <mark style="color:green;">`POST`</mark>
@@ -2205,96 +2203,96 @@ Altri canali di pagamento
 
 ## EC Checkout API
 
-{% swagger src="../.gitbook/assets/checkout (5).yaml" path="/carts" method="post" %}
-[checkout (5).yaml](<../.gitbook/assets/checkout (5).yaml>)
-{% endswagger %}
+{% openapi src="../../pago-pa/sanp/3.8.0/.gitbook/assets/checkout.yaml" path="/carts" method="post" %}
+[checkout.yaml](../../pago-pa/sanp/3.8.0/.gitbook/assets/checkout.yaml)
+{% endopenapi %}
 
 ## Nuove API - Gestione Flussi di Rendicontazione
 
 Per gli EC:
 
-{% swagger src="https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.7.1/openapi/fdr_organization.yaml" path="/organizations/{organizationId}/fdrs/{fdr}/revisions/{revision}/psps/{pspId}" method="get" %}
+{% openapi src="https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.7.1/openapi/fdr_organization.yaml" path="/organizations/{organizationId}/fdrs/{fdr}/revisions/{revision}/psps/{pspId}" method="get" %}
 [https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.7.1/openapi/fdr_organization.yaml](https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.7.1/openapi/fdr_organization.yaml)
-{% endswagger %}
+{% endopenapi %}
 
-{% swagger src="https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.7.1/openapi/fdr_organization.yaml" path="/organizations/{organizationId}/fdrs/{fdr}/revisions/{revision}/psps/{pspId}/payments" method="get" %}
+{% openapi src="https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.7.1/openapi/fdr_organization.yaml" path="/organizations/{organizationId}/fdrs/{fdr}/revisions/{revision}/psps/{pspId}/payments" method="get" %}
 [https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.7.1/openapi/fdr_organization.yaml](https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.7.1/openapi/fdr_organization.yaml)
-{% endswagger %}
+{% endopenapi %}
 
-{% swagger src="https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.7.1/openapi/fdr_organization.yaml" path="/organizations/{organizationId}/fdrs" method="get" %}
+{% openapi src="https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.7.1/openapi/fdr_organization.yaml" path="/organizations/{organizationId}/fdrs" method="get" %}
 [https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.7.1/openapi/fdr_organization.yaml](https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.7.1/openapi/fdr_organization.yaml)
-{% endswagger %}
+{% endopenapi %}
 
-{% swagger src="https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.7.1/openapi/fdr_organization.yaml" path="/info" method="get" %}
+{% openapi src="https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.7.1/openapi/fdr_organization.yaml" path="/info" method="get" %}
 [https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.7.1/openapi/fdr_organization.yaml](https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.7.1/openapi/fdr_organization.yaml)
-{% endswagger %}
+{% endopenapi %}
 
 Per i PSP:
 
-{% swagger src="https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.7.1/openapi/fdr_psp.yaml" path="/info" method="get" %}
+{% openapi src="https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.7.1/openapi/fdr_psp.yaml" path="/info" method="get" %}
 [https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.7.1/openapi/fdr_psp.yaml](https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.7.1/openapi/fdr_psp.yaml)
-{% endswagger %}
+{% endopenapi %}
 
-{% swagger src="https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.7.1/openapi/fdr_psp.yaml" path="/psps/{pspId}/fdrs/{fdr}/payments/add" method="put" %}
+{% openapi src="https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.7.1/openapi/fdr_psp.yaml" path="/psps/{pspId}/fdrs/{fdr}/payments/add" method="put" %}
 [https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.7.1/openapi/fdr_psp.yaml](https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.7.1/openapi/fdr_psp.yaml)
-{% endswagger %}
+{% endopenapi %}
 
-{% swagger src="https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.7.1/openapi/fdr_psp.yaml" path="/psps/{pspId}/fdrs/{fdr}/publish" method="post" %}
+{% openapi src="https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.7.1/openapi/fdr_psp.yaml" path="/psps/{pspId}/fdrs/{fdr}/publish" method="post" %}
 [https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.7.1/openapi/fdr_psp.yaml](https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.7.1/openapi/fdr_psp.yaml)
-{% endswagger %}
+{% endopenapi %}
 
-{% swagger src="https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.7.1/openapi/fdr_psp.yaml" path="/psps/{pspId}/created/fdrs/{fdr}/organizations/{organizationId}" method="get" %}
+{% openapi src="https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.7.1/openapi/fdr_psp.yaml" path="/psps/{pspId}/created/fdrs/{fdr}/organizations/{organizationId}" method="get" %}
 [https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.7.1/openapi/fdr_psp.yaml](https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.7.1/openapi/fdr_psp.yaml)
-{% endswagger %}
+{% endopenapi %}
 
-{% swagger src="https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.7.1/openapi/fdr_psp.yaml" path="/psps/{pspId}/published/fdrs/{fdr}/revisions/{revision}/organizations/{organizationId}/payments" method="get" %}
+{% openapi src="https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.7.1/openapi/fdr_psp.yaml" path="/psps/{pspId}/published/fdrs/{fdr}/revisions/{revision}/organizations/{organizationId}/payments" method="get" %}
 [https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.7.1/openapi/fdr_psp.yaml](https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.7.1/openapi/fdr_psp.yaml)
-{% endswagger %}
+{% endopenapi %}
 
-{% swagger src="https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.7.1/openapi/fdr_psp.yaml" path="/psps/{pspId}/fdrs/{fdr}" method="post" %}
+{% openapi src="https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.7.1/openapi/fdr_psp.yaml" path="/psps/{pspId}/fdrs/{fdr}" method="post" %}
 [https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.7.1/openapi/fdr_psp.yaml](https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.7.1/openapi/fdr_psp.yaml)
-{% endswagger %}
+{% endopenapi %}
 
-{% swagger src="https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.7.1/openapi/fdr_psp.yaml" path="/psps/{pspId}/fdrs/{fdr}" method="delete" %}
+{% openapi src="https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.7.1/openapi/fdr_psp.yaml" path="/psps/{pspId}/fdrs/{fdr}" method="delete" %}
 [https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.7.1/openapi/fdr_psp.yaml](https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.7.1/openapi/fdr_psp.yaml)
-{% endswagger %}
+{% endopenapi %}
 
-{% swagger src="https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.7.1/openapi/fdr_psp.yaml" path="/psps/{pspId}/published/fdrs/{fdr}/revisions/{revision}/organizations/{organizationId}" method="get" %}
+{% openapi src="https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.7.1/openapi/fdr_psp.yaml" path="/psps/{pspId}/published/fdrs/{fdr}/revisions/{revision}/organizations/{organizationId}" method="get" %}
 [https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.7.1/openapi/fdr_psp.yaml](https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.7.1/openapi/fdr_psp.yaml)
-{% endswagger %}
+{% endopenapi %}
 
-{% swagger src="https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.7.1/openapi/fdr_psp.yaml" path="/psps/{pspId}/created" method="get" %}
+{% openapi src="https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.7.1/openapi/fdr_psp.yaml" path="/psps/{pspId}/created" method="get" %}
 [https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.7.1/openapi/fdr_psp.yaml](https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.7.1/openapi/fdr_psp.yaml)
-{% endswagger %}
+{% endopenapi %}
 
-{% swagger src="https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.7.1/openapi/fdr_psp.yaml" path="/psps/{pspId}/fdrs/{fdr}/payments/del" method="put" %}
+{% openapi src="https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.7.1/openapi/fdr_psp.yaml" path="/psps/{pspId}/fdrs/{fdr}/payments/del" method="put" %}
 [https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.7.1/openapi/fdr_psp.yaml](https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.7.1/openapi/fdr_psp.yaml)
-{% endswagger %}
+{% endopenapi %}
 
-{% swagger src="https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.7.1/openapi/fdr_psp.yaml" path="/psps/{pspId}/created/fdrs/{fdr}/organizations/{organizationId}/payments" method="get" %}
+{% openapi src="https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.7.1/openapi/fdr_psp.yaml" path="/psps/{pspId}/created/fdrs/{fdr}/organizations/{organizationId}/payments" method="get" %}
 [https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.7.1/openapi/fdr_psp.yaml](https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.7.1/openapi/fdr_psp.yaml)
-{% endswagger %}
+{% endopenapi %}
 
-{% swagger src="https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.7.1/openapi/fdr_psp.yaml" path="/psps/{pspId}/published" method="get" %}
+{% openapi src="https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.7.1/openapi/fdr_psp.yaml" path="/psps/{pspId}/published" method="get" %}
 [https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.7.1/openapi/fdr_psp.yaml](https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.7.1/openapi/fdr_psp.yaml)
-{% endswagger %}
+{% endopenapi %}
 
 ## getOrganizationReceipt
 
 Recupero della ricevuta mediante il codice `IUR`
 
-{% swagger src="https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.7.0/openapi/bizEvents.yaml" path="/organizations/{organizationfiscalcode}/receipts/{iur}" method="get" %}
+{% openapi src="https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.7.0/openapi/bizEvents.yaml" path="/organizations/{organizationfiscalcode}/receipts/{iur}" method="get" %}
 [https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.7.0/openapi/bizEvents.yaml](https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.7.0/openapi/bizEvents.yaml)
-{% endswagger %}
+{% endopenapi %}
 
 Recupero della ricevuta mediante i codici `IUV`
 
-{% swagger src="https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.7.0/openapi/bizEvents.yaml" path="/organizations/{organizationfiscalcode}/receipts/{iur}/paymentoptions/{iuv}" method="get" %}
+{% openapi src="https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.7.0/openapi/bizEvents.yaml" path="/organizations/{organizationfiscalcode}/receipts/{iur}/paymentoptions/{iuv}" method="get" %}
 [https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.7.0/openapi/bizEvents.yaml](https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.7.0/openapi/bizEvents.yaml)
-{% endswagger %}
+{% endopenapi %}
 
 ## paCreatePosition
 
-{% swagger src="https://raw.githubusercontent.com/pagopa/pagopa-api/refs/heads/SANP3.8.0/openapi/paCreatePosition.yaml" path="/paCreatePosition" method="post" %}
+{% openapi src="https://raw.githubusercontent.com/pagopa/pagopa-api/refs/heads/SANP3.8.0/openapi/paCreatePosition.yaml" path="/paCreatePosition" method="post" %}
 [https://raw.githubusercontent.com/pagopa/pagopa-api/refs/heads/SANP3.8.0/openapi/paCreatePosition.yaml](https://raw.githubusercontent.com/pagopa/pagopa-api/refs/heads/SANP3.8.0/openapi/paCreatePosition.yaml)
-{% endswagger %}
+{% endopenapi %}
