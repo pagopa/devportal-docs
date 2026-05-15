@@ -1,15 +1,15 @@
 # Inviare messaggi
 
-I messaggi inviati dagli enti in IO sono sempre **comunicazioni di carattere personale**, in quanto indirizzate a uno specifico utente.&#x20;
+I messaggi inviati dagli enti in IO sono sempre **comunicazioni di carattere personale**, in quanto indirizzate a uno specifico utente.
 
-L'ente può interrogare il back end rispetto al Codice Fiscale di un utente di cui è a conoscenza e a cui ha qualcosa di personale da comunicare. Se il Codice Fiscale risulta presente tra gli utenti dell'app e ha il servizio attivo, l'ente è autorizzato a procedere e inviare la propria comunicazione.&#x20;
+L'ente può interrogare il back end rispetto al Codice Fiscale di un utente di cui è a conoscenza e a cui ha qualcosa di personale da comunicare. Se il Codice Fiscale risulta presente tra gli utenti dell'app e ha il servizio attivo, l'ente è autorizzato a procedere e inviare la propria comunicazione.
 
 Ne consegue che **è escluso sia l’invio di comunicazioni massive** alla totalità dell’utenza di IO, **sia l’invio a utenti che non siano destinatari diretti** dei servizi erogati.
 
-![Esempio di messaggi inviati a un utente su IO](../../.gitbook/assets/msg.png)
+![Esempio di messaggi inviati a un utente su IO](../../../../app-io/manuale-servizi/v1.1/.gitbook/assets/msg.png)
 
 {% hint style="danger" %}
-**No alle informazioni personali nel titolo**&#x20;
+**No alle informazioni personali nel titolo**
 
 Non inserire informazioni personali o dati sensibili all'interno del titolo di un messaggio e assicurati che al suo interno ci siano solo i dati strettamente necessari.
 {% endhint %}

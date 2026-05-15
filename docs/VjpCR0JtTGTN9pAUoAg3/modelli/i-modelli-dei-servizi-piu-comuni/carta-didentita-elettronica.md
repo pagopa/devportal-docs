@@ -3,9 +3,9 @@
 Erogare il servizio "Carta d'Identità Elettronica" tramite IO permette agli enti di:
 
 * fornire ai cittadini comunicazioni puntuali sugli stati della Carta d'Identità Elettronica (CIE), coprendo **l’intero ciclo di vita del servizio**, dall’inizio alla fine;
-* integrare le comunicazioni, evitando una duplicazione delle notifiche relative allo stato di scadenza della CIE, gestite da ANPR.&#x20;
+* integrare le comunicazioni, evitando una duplicazione delle notifiche relative allo stato di scadenza della CIE, gestite da ANPR.
 
-[**Scopri tutti i benefici di integrarsi con IO →**  ](../../cose-io-e-qual-e-il-suo-obiettivo.md#perche-integrarsi-con-io)
+[**Scopri tutti i benefici di integrarsi con IO →**](../../cose-io-e-qual-e-il-suo-obiettivo.md#perche-integrarsi-con-io)
 
 ### Scheda servizio e attributi
 
@@ -13,15 +13,15 @@ Erogare il servizio "Carta d'Identità Elettronica" tramite IO permette agli ent
 | ---------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Argomento**                | Servizi anagrafici e civici                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 | **Descrizione del servizio** | <p>Il servizio riguarda la richiesta, l'emissione e la scadenza della tua Carta d'Identità Elettronica.<br><br>Tramite IO, potrai:</p><ul><li>richiedere un appuntamento per l'erogazione o la sostituzione della tua Carta d'Identità;</li><li>ricevere un promemoria che ti ricorda dell'appuntamento;</li><li>ricevere un avviso di pagamento relativo all'importo da riconoscere per l'emissione della carta e pagarlo in app;</li><li>ricevere un messaggio che ti informa della scadenza della Carta;</li><li>ricevere altre comunicazioni.<br></li></ul><p>Per maggiori informazioni sulla Carta d'Identità Elettronica, visita <a href="https://www.cartaidentita.interno.gov.it/">questo sito</a>.</p> |
-|  **Pulsante**                | Richiedi appuntamento                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| **Pulsante**                 | Richiedi appuntamento                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 
 ### **Ciclo di vita del servizio**
 
-<figure><img src="../../.gitbook/assets/Template - SERVIZI.png" alt="Ciclo di vita ed eventi del servizio Carta d&#x27;Identità Elettronica"><figcaption><p><strong>Ciclo di vita ed eventi del servizio Carta d'Identità Elettronica</strong></p></figcaption></figure>
+<figure><img src="../../../../app-io/manuale-servizi/v1.1/.gitbook/assets/Template - SERVIZI.png" alt="Ciclo di vita ed eventi del servizio Carta d&#x27;Identità Elettronica"><figcaption><p><strong>Ciclo di vita ed eventi del servizio Carta d'Identità Elettronica</strong></p></figcaption></figure>
 
 ### **Messaggi del servizio**
 
-Ecco la lista dei diversi messaggi che il servizio può inviare, con le relative regole di invio.&#x20;
+Ecco la lista dei diversi messaggi che il servizio può inviare, con le relative regole di invio.
 
 {% hint style="success" %}
 L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende erogare questo servizio, può valutare quali e quanti messaggi inviare, in base alle proprie possibilità di integrazione. L'obiettivo finale rimane quello di inviarli tutti, rilasciando versioni del servizio sempre più complete.
@@ -33,7 +33,7 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 **🖋 Titolo del messaggio:** Il tuo appuntamento con `<ufficio>`
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Ti ricordiamo l'appuntamento presso l'`<ufficio>` situato in `<indirizzo>` fissato per il giorno `<gg/mm/aaaa>` alle ore [hh:mm](hh:mm).
 
@@ -41,7 +41,7 @@ Ti invitiamo a presentarti con almeno 15 minuti di anticipo e di portare con te 
 
 Puoi disdire l'appuntamento online, sul sito \[nome sito]\(URL).
 
-**🪄  Pulsante**: Aggiungi promemoria
+**🪄 Pulsante**: Aggiungi promemoria
 
 **---**
 
@@ -59,13 +59,13 @@ Puoi disdire l'appuntamento online, sul sito \[nome sito]\(URL).
 
 **🖋 Titolo del messaggio:** Disdetta appuntamento con `<ufficio>`
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Il tuo appuntamento presso l'`<ufficio>` situato in `<indirizzo>` fissato per il giorno `<gg/mm/aaaa>` alle ore [hh:mm](hh:mm) è stato cancellato per `<descrizione motivazione>`.
 
 Se desideri prenotare un nuovo appuntamento online, puoi utilizzare il servizio di prenotazione (URL) del tuo Comune o recarti all'ufficio Anagrafe più comodo per le tue esigenze.
 
-**🪄  Pulsante**: n/a
+**🪄 Pulsante**: n/a
 
 **---**
 
@@ -83,17 +83,17 @@ Se desideri prenotare un nuovo appuntamento online, puoi utilizzare il servizio 
 
 **🖋 Titolo del messaggio:** Pagamento Carta d'Identità
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Da oggi puoi procedere al pagamento dell'importo necessario per l'emissione della Carta di Identità Elettronica.
 
-Intestatario: `<nome e cognome>` \
-Importo: `<xx,xx>` \
+Intestatario: `<nome e cognome>`\
+Importo: `<xx,xx>`\
 Causale: `<causale>`
 
 Puoi pagare direttamente dall'app, oppure direttamente allo sportello il giorno dell'appuntamento. Se vuoi scegliere un'altra modalità di pagamento, visita la sezione **pagoPA** \[https://www.comune..cr.it/servizi/pago-pa] del sito di \[nome ente]\(URL).
 
-**🪄  Pulsante**: Vedi Avviso
+**🪄 Pulsante**: Vedi Avviso
 
 **---**
 
@@ -111,13 +111,13 @@ Puoi pagare direttamente dall'app, oppure direttamente allo sportello il giorno 
 
 **🖋 Titolo del messaggio:** Scadenza Carta d'Identità
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
 Oggi `<gg/mm/aaaa>` è scaduta la tua Carta d'Identità `<numero>`.
 
 Se non l'hai ancora fatto, puoi prenotare un appuntamento per il rinnovo, direttamente online online, al sito \[nome sito]\(URL), oppure presentarti all'Ufficio Anagrafe più vicino a te, verificando giorni e orari di apertura sul sito del tuo Comune.
 
-**🪄  Pulsante**: n/a
+**🪄 Pulsante**: n/a
 
 **---**
 

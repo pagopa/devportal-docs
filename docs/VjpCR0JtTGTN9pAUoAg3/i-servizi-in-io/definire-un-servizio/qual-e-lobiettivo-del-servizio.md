@@ -1,10 +1,10 @@
-# 1⃣ Qual è l'obiettivo del servizio?
+# 1️⃣ Qual è l'obiettivo del servizio?
 
 Per definire un servizio da integrare in IO, consigliamo di partire da questa domanda: **qual è il beneficio che i cittadini ottengono da questo servizio?**. Non bisogna pensare a come l'ente vede il servizio, ma a come lo vedono i cittadini: non si deve pensare alla tipologia di pratica, ma a quello che le persone ottengono.
 
 {% tabs %}
 {% tab title=" ✅ Obiettivi per i cittadini" %}
-Avere una copia del certificato di nascita della propria figlia, ottenere la richiesta di cittadinanza, rinnovare la carta d'identità elettronica.&#x20;
+Avere una copia del certificato di nascita della propria figlia, ottenere la richiesta di cittadinanza, rinnovare la carta d'identità elettronica.
 {% endtab %}
 
 {% tab title="❌ Obiettivi per gli enti" %}
@@ -20,21 +20,21 @@ Pagare i diritti della scadenza della carta d'identità, aprire una pratica 5672
 
 ### Un servizio, diverse funzionalità e tipologia di comunicazioni
 
-Un servizio **può contenere una o più funzionalità**, a seconda della sua tipologia e di quanto viene offerto dall'ente tramite canali digitali.&#x20;
+Un servizio **può contenere una o più funzionalità**, a seconda della sua tipologia e di quanto viene offerto dall'ente tramite canali digitali.
 
-Un servizio **non coincide mai con una singola funzionalità o tipologia di comunicazione**: non è quindi corretto creare servizi diversi per diverse funzionalità o tipologie di comunicazione. In questo modo si evita la proliferazione di servizi che svolgono una sola funzione, in favore di servizi più complessi, con un conseguente maggiore valore percepito dai cittadini.&#x20;
+Un servizio **non coincide mai con una singola funzionalità o tipologia di comunicazione**: non è quindi corretto creare servizi diversi per diverse funzionalità o tipologie di comunicazione. In questo modo si evita la proliferazione di servizi che svolgono una sola funzione, in favore di servizi più complessi, con un conseguente maggiore valore percepito dai cittadini.
 
 #### Un esempio
 
-Immaginiamo che il Comune di Ipazia aderisca a IO con il servizio "Asilo nido", dedicato ai residenti nel Comune che sono anche genitori di bambine e bambini in età da asilo nido.&#x20;
+Immaginiamo che il Comune di Ipazia aderisca a IO con il servizio "Asilo nido", dedicato ai residenti nel Comune che sono anche genitori di bambine e bambini in età da asilo nido.
 
-<figure><img src="../../.gitbook/assets/B0vv (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../app-io/manuale-servizi/v1.1/.gitbook/assets/B0vv.png" alt=""><figcaption></figcaption></figure>
 
 Questo servizio invia **due tipologie di comunicazioni**: informa i genitori che sono aperte le iscrizioni all'asilo nido e invia a coloro che hanno già iscritto la propria figlia un messaggio con un avviso di pagamento.
 
 {% tabs %}
 {% tab title="✅ È giusto fare così" %}
-Il Comune di Ipazia crea un servizio chiamato "**Asilo nido**".&#x20;
+Il Comune di Ipazia crea un servizio chiamato "**Asilo nido**".
 
 Il servizio può:
 
@@ -43,7 +43,7 @@ Il servizio può:
 {% endtab %}
 
 {% tab title="❌ È sbagliato fare così" %}
-Il Comune di Ipazia crea due servizi, chiamati "**Iscrizione asilo nido**" e "**Pagamento iscrizione asilo nido**".&#x20;
+Il Comune di Ipazia crea due servizi, chiamati "**Iscrizione asilo nido**" e "**Pagamento iscrizione asilo nido**".
 
 Il servizio "**Iscrizione asilo nido**" può:
 
@@ -61,11 +61,11 @@ Quando si vuole pubblicare un nuovo servizio, è importante assicurarsi che ques
 
 **Un esempio**
 
-Il Comune di Ipazia ha tre servizi pubblicati: "Tassa sui rifiuti (TARI)", "Carta d'Identità Elettronica" (CIE) e "Servizi cimiteriali".&#x20;
+Il Comune di Ipazia ha tre servizi pubblicati: "Tassa sui rifiuti (TARI)", "Carta d'Identità Elettronica" (CIE) e "Servizi cimiteriali".
 
-Dopo qualche tempo, decide di pubblicare un altro servizio: "Luci votive".&#x20;
+Dopo qualche tempo, decide di pubblicare un altro servizio: "Luci votive".
 
-❌ Se il Comune decidesse di pubblicare il servizio "Luci votive", questo andrebbe parzialmente in sovrapposizione con il servizio già pubblicato di "Servizi cimiteriali": il pagamento delle luci votive, infatti, può essere inserito all'interno del servizio "Servizi cimiteriali".&#x20;
+❌ Se il Comune decidesse di pubblicare il servizio "Luci votive", questo andrebbe parzialmente in sovrapposizione con il servizio già pubblicato di "Servizi cimiteriali": il pagamento delle luci votive, infatti, può essere inserito all'interno del servizio "Servizi cimiteriali".
 
 ✅ Se il Comune si rendesse conto di questa sovrapposizione e decidesse di modificare la descrizione del servizio "Servizi cimiteriali", includendo anche il tema delle "Luci votive", questo risulterebbe corretto e non creerebbe sovrapposizioni.
 
