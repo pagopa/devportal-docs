@@ -29,7 +29,7 @@ _Ad esempio, una opzione di pagamento potrebbe avere la seguente suddivisione:_
 
 ### Schema logico (ER)
 
-![](<../../.gitbook/assets/image (47).png>)
+![](<../../../pago-pa/sanp/3.7.1/.gitbook/assets/image (38) (1).png>)
 
 #### Posizione Debitoria (PD) <a href="#posizione-debitoria-pd" id="posizione-debitoria-pd"></a>
 
@@ -100,7 +100,7 @@ In caso di pagamento spontaneo:
 
 ### Sottoscrizione ai servizi di pagamento spontaneo (schema logico)
 
-![](<../../.gitbook/assets/EnrollmentPS.drawio (3).png>)
+![](<../../../pago-pa/sanp/3.7.1/.gitbook/assets/EnrollmentPS.drawio (3).png>)
 
 Un **Ente Creditore** , aderente alla gestione dei pagamenti spontanei, può aderire a più **servizi.** La disponibilità dei servizi dipende dal catalogo dei servizi della piattaforma pagoPA.
 
@@ -122,7 +122,7 @@ Alcune proprietà rilevanti delle relazioni in questione sono riportate in segui
 {% hint style="info" %}
 Nel caso in cui l'Ente Creditore avesse necessità per un servizio specifico di gestire opzioni di pagamento particolari che prevedono azioni specifiche per il recupero dei dati, la piattaforma _GPS_ mette a disposizione di Enti Creditori e Intermediari Tecnologici la possibilità di esporre un servizio per la creazione di una opzione di pagamento ad-hoc. Tale servizio verrà invocato dalla piattaforma _GPS_ per recuperare l'opzione di pagamento in fase di creazione della posizione debitoria.
 
-Tale servizio può essere configurato mediante la valorizzazione di due `properties` che fanno parte dell'entità _servizio:_ &#x20;
+Tale servizio può essere configurato mediante la valorizzazione di due `properties` che fanno parte dell'entità _servizio:_
 
 **`endpoint`**: _URL_ servizio per il recupero dell'opzione di pagamento
 
@@ -139,4 +139,4 @@ Nel caso in cui dovesse sorgere questa esigenza, _PagoPA_ fornirà tutte le spec
 
 ## Bollettino Postale PA
 
-Se l'EC dispone di almeno un conto corrente postale per gli incassi è necessario che segua quanto indicato in [#bollettino-postale-pa](../../ente-creditore/modalita-dintegrazione/best-practice.md#bollettino-postale-pa "mention") per la creazione della **PD.**&#x20;
+Se l'EC dispone di almeno un conto corrente postale per gli incassi è necessario che segua quanto indicato in [#bollettino-postale-pa](../../ente-creditore/modalita-dintegrazione/best-practice.md#bollettino-postale-pa "mention") per la creazione della **PD.**

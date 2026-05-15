@@ -4,7 +4,7 @@
 
 Lo Stand In è una funzionalità che consente di sopperire alla situazione in cui i sistemi degli EC sono temporaneamente indisponibili, affinché gli utenti possano effettuare i pagamenti degli avvisi pagoPA anche in tale situazione, a condizione che l’avviso di pagamento sia stato correttamente caricato nell’Archivio Centralizzato Avvisi (ACA).
 
-<figure><img src="../../.gitbook/assets/image (53).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../pago-pa/sanp/3.7.1/.gitbook/assets/image (53).png" alt=""><figcaption></figcaption></figure>
 
 ### Funzionalità di Stand In per i pagamenti attivati presso PSP
 
@@ -96,7 +96,7 @@ Per accedere alla guida dettagliata sull'inserimento dell'IBAN da utilizzare dur
 
 ## **Attivazione dello Stand In**
 
-Le logiche per attivare la funzionalità si fondano sulle primitive  [paVerifyPaymentNotice](../../appendici/primitive.md#paverifypaymentnotice) e [paGetPaymentV1/V2](../../appendici/primitive.md#pagetpayment), di queste primitive si monitorano i seguenti faultCode:
+Le logiche per attivare la funzionalità si fondano sulle primitive [paVerifyPaymentNotice](../../appendici/primitive.md#paverifypaymentnotice) e [paGetPaymentV1/V2](../../appendici/primitive.md#pagetpayment), di queste primitive si monitorano i seguenti faultCode:
 
 * _PPT\_STAZIONE\_INT\_PA\_IRRAGGIUNGIBILE_
 * _PPT\_STAZIONE\_INT\_PA\_TIMEOUT_
@@ -116,7 +116,7 @@ Le stazioni dell’EC sono costantemente monitorate al fine di valutare la loro 
 
 ## **Disattivazione dello Stand In**
 
-Le logiche per disattivare la funzionalità si fondano sulla primitiva  [paVerifyPaymentNotice](../../appendici/primitive.md#paverifypaymentnotice), in particolare, nel periodo in cui la stazione si trova in Stand In, vengono effettuate chiamate tecniche per verificare il ripristino delle operatività della stazione.
+Le logiche per disattivare la funzionalità si fondano sulla primitiva [paVerifyPaymentNotice](../../appendici/primitive.md#paverifypaymentnotice), in particolare, nel periodo in cui la stazione si trova in Stand In, vengono effettuate chiamate tecniche per verificare il ripristino delle operatività della stazione.
 
 Per le chiamate tecniche alla primitiva [paVerifyPaymentNotice](../../appendici/primitive.md#paverifypaymentnotice) si utilizzerà uno IUV fittizio (_000000000000000000_) in modo da ottenere _PAA\_PAGAMENTO\_SCONOSCIUTO,_ in caso di una percentuale minima del 50% di risposte positive la condizione di Stand In della stazione viene disabilitata, ripristinando la normale configurazione operativa della stazione dell'EC.
 
