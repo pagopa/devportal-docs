@@ -13,7 +13,7 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 
 ## Ciclo di vita del servizio
 
-<figure><img src="../../../app-io/modelli-servizi/v1.0/.gitbook/assets/Educazione e formazione_Scuola dell&#x27;infanzia.png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Scuola dell'infanzia</strong></p></figcaption></figure>
+<figure><img src="../../app-io/modelli-servizi/v1.0/.gitbook/assets/Educazione e formazione_Scuola dell&#x27;infanzia.png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Scuola dell'infanzia</strong></p></figcaption></figure>
 
 ## Messaggi del servizio
 

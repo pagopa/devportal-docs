@@ -13,7 +13,7 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 
 ## Ciclo di vita del servizio
 
-<figure><img src="../../../app-io/modelli-servizi/v1.0/.gitbook/assets/Servizi anagrafici_Accesso civico agli atti.png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi per il servizio Accesso civico agli atti</strong></p></figcaption></figure>
+<figure><img src="../../app-io/modelli-servizi/v1.0/.gitbook/assets/Servizi anagrafici_Accesso civico agli atti.png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi per il servizio Accesso civico agli atti</strong></p></figcaption></figure>
 
 ## Messaggi del servizio
 
@@ -298,5 +298,5 @@ Il modello è un esempio che non ha carattere vincolante per l’ente e sul qual
 
 Puoi copiare i testi dei messaggi da personalizzare da questo documento:
 
-{% file src="../../../app-io/modelli-servizi/v1.0/.gitbook/assets/IO - Template servizi - Accesso civico agli atti.xlsx" %}
+{% file src="../../app-io/modelli-servizi/v1.0/.gitbook/assets/IO - Template servizi - Accesso civico agli atti.xlsx" %}
 {% endhint %}

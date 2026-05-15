@@ -14,7 +14,7 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 
 ## Ciclo di vita del servizio
 
-<figure><img src="../../../app-io/modelli-servizi/v1.0/.gitbook/assets/image (13).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Elezioni</strong></p></figcaption></figure>
+<figure><img src="../../app-io/modelli-servizi/v1.0/.gitbook/assets/image (13).png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio Elezioni</strong></p></figcaption></figure>
 
 ## Messaggi del servizio
 
@@ -203,5 +203,5 @@ Il modello è un esempio che non ha carattere vincolante per l’ente e sul qual
 
 Puoi copiare i testi dei messaggi da personalizzare da questo documento:
 
-{% file src="../../../app-io/modelli-servizi/v1.0/.gitbook/assets/IO - Template servizi - Elezioni.xlsx" %}
+{% file src="../../app-io/modelli-servizi/v1.0/.gitbook/assets/IO - Template servizi - Elezioni.xlsx" %}
 {% endhint %}
