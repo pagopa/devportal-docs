@@ -6,8 +6,8 @@ La pagina che appare mostra, su due tabelle separate, le deleghe create dall’u
 
 Per le deleghe create dall’utente vengono mostrati: il nome del delegato, le date di inizio e fine validità, l'eventuale PA associata e lo stato della delega.
 
-<figure><img src="../../../../.gitbook/assets/image (36).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../send/manuale-operativo/v1.0.1/.gitbook/assets/image (36).png" alt=""><figcaption></figcaption></figure>
 
 Per le deleghe ricevute vengono mostrati: il nome del delegante, le date di inizio e fine validità, l’eventuale PA associata e lo stato della delega.
 
-<figure><img src="../../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../send/manuale-operativo/v1.0.1/.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>

@@ -8,4 +8,4 @@ L’utente può impostare dei filtri per ridurre il numero di notifiche visualiz
 
 L’utente può anche scegliere la dimensione della pagina per visualizzare 10, 20 o 50 elementi.
 
-<figure><img src="../../../../.gitbook/assets/image (42).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../send/manuale-operativo/v1.0.1/.gitbook/assets/image (42).png" alt=""><figcaption></figcaption></figure>
