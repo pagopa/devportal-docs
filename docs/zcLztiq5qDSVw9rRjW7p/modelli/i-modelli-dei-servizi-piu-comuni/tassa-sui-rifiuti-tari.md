@@ -5,7 +5,7 @@ Erogare il servizio "TARI" tramite IO permette agli enti di:
 * fornire ai cittadini comunicazioni puntuali sullo stato della TARI, coprendo **l’intero ciclo di vita del servizio**.
 * rappresentare per i cittadini un unico punto di riferimento per la ricezione delle comunicazioni riguardanti la TARI su **uno o più immobili, anche di diversi Comuni** e con differenti regolamentazioni, se presenti su IO.
 
-[**Scopri tutti i benefici di integrarsi con IO →**  ](../../cose-io-e-qual-e-il-suo-obiettivo.md#perche-integrarsi-con-io)
+[**Scopri tutti i benefici di integrarsi con IO →**](../../cose-io-e-qual-e-il-suo-obiettivo.md#perche-integrarsi-con-io)
 
 ### Scheda servizio e attributi
 
@@ -17,7 +17,7 @@ Erogare il servizio "TARI" tramite IO permette agli enti di:
 
 ### **Ciclo di vita del servizio**
 
-<figure><img src="../../.gitbook/assets/Template - SERVIZI-TARI.png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio TARI</strong></p></figcaption></figure>
+<figure><img src="../../../../app-io/manuale-servizi/v1.0/.gitbook/assets/Template - SERVIZI-TARI.png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio TARI</strong></p></figcaption></figure>
 
 ### **Messaggi del servizio**
 
@@ -79,7 +79,7 @@ Per maggiori informazioni o per richiedere assistenza, contattaci tramite i cana
 
 **User story**: <mark style="color:purple;">Come cittadino voglio essere avvisato quando devo pagare la TARI</mark>
 
-<mark style="color:purple;">ℹ️</mark> In caso di pagamenti su più rate, consultare [questa sezione del manuale dei servizi dedicata. ](../../che-cosa-puo-fare-un-servizio-su-io/inviare-messaggi/messaggi-che-veicolano-un-pagamento/soluzioni-per-pagamenti-a-rate.md)
+<mark style="color:purple;">ℹ️</mark> In caso di pagamenti su più rate, consultare [questa sezione del manuale dei servizi dedicata.](../../che-cosa-puo-fare-un-servizio-su-io/inviare-messaggi/messaggi-che-veicolano-un-pagamento/soluzioni-per-pagamenti-a-rate.md)
 
 <mark style="color:purple;">💡</mark> La TARI può essere veicolata tramite [allegato](../../che-cosa-puo-fare-un-servizio-su-io/inviare-messaggi/messaggi-con-allegati-premium.md) al messaggio, se l'ente è iscritto ai servizi premium.
 
@@ -93,7 +93,7 @@ Per maggiori informazioni o per richiedere assistenza, contattaci tramite i cana
 
 🗒 **Testo del messaggio**: È stata prorogata la data di scadenza dell'avviso intestato a `<nome cognome>` e relativo a `<casuale>`.
 
-**Devi pagare**: `<xx,xx>` €&#x20;
+**Devi pagare**: `<xx,xx>` €
 
 **Entro il**: `<gg/mm/aaaa>`
 
@@ -109,7 +109,7 @@ Per maggiori informazioni o per richiedere assistenza, contattaci tramite i cana
 
 **Trigger:** Il giorno in cui il Comune decide di prorogare la scadenza del pagamento
 
-**User story:** <mark style="color:purple;">Come cittadino voglio essere avvisato se la scadenza del pagamento è stata prorogata</mark>&#x20;
+**User story:** <mark style="color:purple;">Come cittadino voglio essere avvisato se la scadenza del pagamento è stata prorogata</mark>
 
 </details>
 
@@ -119,7 +119,7 @@ Per maggiori informazioni o per richiedere assistenza, contattaci tramite i cana
 
 **🖋 Titolo del messaggio: Conferma di avvenuto pagamento**
 
-🗒 **Testo del messaggio**:  Ti confermiamo che l'avviso intestato a `<nome cognome>` con causale `<causale>` è stato pagato con successo.
+🗒 **Testo del messaggio**: Ti confermiamo che l'avviso intestato a `<nome cognome>` con causale `<causale>` è stato pagato con successo.
 
 Per maggiori informazioni o per richiedere assistenza, contattaci tramite i canali che trovi nella scheda servizio.
 
@@ -131,7 +131,7 @@ Per maggiori informazioni o per richiedere assistenza, contattaci tramite i cana
 
 **Trigger:** Il pagamento effettuato su qualsiasi canale di pagamento pagoPA (es. homebanking, app IO, Poste, ...)
 
-**User story:** <mark style="color:purple;">Come cittadino voglio sapere se il mio pagamento è stato registrato correttamente</mark>&#x20;
+**User story:** <mark style="color:purple;">Come cittadino voglio sapere se il mio pagamento è stato registrato correttamente</mark>
 
 </details>
 

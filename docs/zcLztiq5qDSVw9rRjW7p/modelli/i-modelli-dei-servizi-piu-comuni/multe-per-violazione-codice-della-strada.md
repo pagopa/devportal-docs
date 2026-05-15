@@ -7,19 +7,19 @@ Erogare il servizio "Multe per violazioni al Codice della Strada" tramite IO per
 * **velocizzare i tempi** di riscossione delle multe;
 * **informare sugli avvisi in scadenza**, riducendo la possibilità dei cittadini di incorrere in sanzioni aggiuntive.
 
-[**Scopri tutti i benefici di integrarsi con IO →**  ](../../cose-io-e-qual-e-il-suo-obiettivo.md#perche-integrarsi-con-io)
+[**Scopri tutti i benefici di integrarsi con IO →**](../../cose-io-e-qual-e-il-suo-obiettivo.md#perche-integrarsi-con-io)
 
 ### Scheda servizio e attributi
 
-| **Nome servizio**            | Multe per violazioni al Codice della Strada                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-| ---------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Topic**                    | Mobilità e trasporti                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| **Sub-topic**                | Veicoli di proprietà                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| **Descrizione del servizio** | <p>Questo servizio riguarda le multe per violazioni al Codice della Strada per i veicoli    intestati a te.</p><p></p><p>Tramite IO potrai:</p><ul><li>ricevere il preavviso di accertamento e pagarlo su IO;</li><li>se non hai pagato il preavviso entro 15 giorni dalla sua ricezione, ricevere un messaggio che ti informa che il verbale di contestazione è stato inviato al tuo indirizzo di residenza;</li><li>ricevere conferma del pagamento;</li><li>ricevere un messaggio che ti informa che il pagamento è in scadenza;</li><li>ricevere un messaggio in caso di mancato pagamento.</li></ul> |
+| **Nome servizio**            | Multe per violazioni al Codice della Strada                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| ---------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Topic**                    | Mobilità e trasporti                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| **Sub-topic**                | Veicoli di proprietà                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| **Descrizione del servizio** | <p>Questo servizio riguarda le multe per violazioni al Codice della Strada per i veicoli intestati a te.</p><p>Tramite IO potrai:</p><ul><li>ricevere il preavviso di accertamento e pagarlo su IO;</li><li>se non hai pagato il preavviso entro 15 giorni dalla sua ricezione, ricevere un messaggio che ti informa che il verbale di contestazione è stato inviato al tuo indirizzo di residenza;</li><li>ricevere conferma del pagamento;</li><li>ricevere un messaggio che ti informa che il pagamento è in scadenza;</li><li>ricevere un messaggio in caso di mancato pagamento.</li></ul> |
 
 ### **Ciclo di vita del servizio**
 
-<figure><img src="../../.gitbook/assets/Multe.png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio multe per violazione del Codice della Strada</strong></p></figcaption></figure>
+<figure><img src="../../../../app-io/manuale-servizi/v1.0/.gitbook/assets/Multe.png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio multe per violazione del Codice della Strada</strong></p></figcaption></figure>
 
 ### Messaggio del servizio
 
@@ -37,7 +37,7 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 🗒 **Testo del messaggio**: Il `<gg/mm/aaaa>` alle `<hh:mm>` in `<indirizzo>`, la persona alla guida del veicolo targato `<numero targa>` ha commesso queste violazioni:
 
-**• `<tipologia di violazione>` - art. `<numero>`**
+**• `<tipologia di violazione>` - art. `<numero>`**
 
 **Accertamento numero**: `<numero accertamento>`
 
@@ -45,7 +45,7 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 **Da pagare**: xx,yy €, già scontato del 30% se paghi entro il `<gg/mm/aaaa>`
 
-**Cosa succede se non pago entro il `<gg/mm/aa>`?** Riceverai il verbale di contravvenzione al tuo indirizzo di residenza e ti verranno addebitate le spese di notifica.&#x20;
+**Cosa succede se non pago entro il `<gg/mm/aa>`?** Riceverai il verbale di contravvenzione al tuo indirizzo di residenza e ti verranno addebitate le spese di notifica.
 
 **🪄 Call to action**: Vedi avviso
 
@@ -57,17 +57,17 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 **User story**: <mark style="color:purple;">Come cittadino voglio ricevere notifica immediata della violazione commessa</mark>
 
-<mark style="color:purple;">💡</mark>  L'accertamento può essere veicolato tramite link oppure tramite [allegato](../../che-cosa-puo-fare-un-servizio-su-io/inviare-messaggi/messaggi-con-allegati-premium.md) al messaggio, se l'ente è iscritto ai servizi premium.&#x20;
+<mark style="color:purple;">💡</mark> L'accertamento può essere veicolato tramite link oppure tramite [allegato](../../che-cosa-puo-fare-un-servizio-su-io/inviare-messaggi/messaggi-con-allegati-premium.md) al messaggio, se l'ente è iscritto ai servizi premium.
 
 </details>
 
 <details>
 
-<summary>Avvenuta spedizione del verbale </summary>
+<summary>Avvenuta spedizione del verbale</summary>
 
 **🖋 Titolo del messaggio:** Spedizione del verbale
 
-🗒 **Testo del messaggio**: Abbiamo inviato al tuo indirizzo di residenza il verbale di contravvenzione `<numero verbale>`. Lo riceverai tramite raccomandata nei prossimi giorni.&#x20;
+🗒 **Testo del messaggio**: Abbiamo inviato al tuo indirizzo di residenza il verbale di contravvenzione `<numero verbale>`. Lo riceverai tramite raccomandata nei prossimi giorni.
 
 L’importo del verbale comprenderà le spese di notifica. Per maggiori informazioni, visita \[questo sito]\(URL).
 
@@ -105,7 +105,7 @@ L’importo del verbale comprenderà le spese di notifica. Per maggiori informaz
 
 <details>
 
-<summary>Ricevuta avvenuto pagamento </summary>
+<summary>Ricevuta avvenuto pagamento</summary>
 
 **🖋 Titolo del messaggio:** Conferma del pagamento
 
@@ -123,23 +123,22 @@ L’importo del verbale comprenderà le spese di notifica. Per maggiori informaz
 
 </details>
 
-### In arrivo: Piattaforma Notifiche&#x20;
+### In arrivo: Piattaforma Notifiche
 
 {% hint style="info" %}
 **Cosa potrò fare con Piattaforma Notifiche?**
 
-IO sarà presto integrata con il nuovo servizio di Piattaforma Notifiche per permettere l'invio di notifiche a valore legale come i verbali di contestazione. \
+IO sarà presto integrata con il nuovo servizio di Piattaforma Notifiche per permettere l'invio di notifiche a valore legale come i verbali di contestazione. \\
 
+[**Scopri di più su Piattaforma Notifiche →**](https://www.pagopa.it/it/prodotti-e-servizi/piattaforma-notifiche-digitali)
 
-[**Scopri di più su Piattaforma Notifiche →** ](https://www.pagopa.it/it/prodotti-e-servizi/piattaforma-notifiche-digitali)
-
-Qui riportiamo alcuni esempi di messaggi che sarà possibile implementare con la futura integrazione di Piattaforma Notifiche:&#x20;
+Qui riportiamo alcuni esempi di messaggi che sarà possibile implementare con la futura integrazione di Piattaforma Notifiche:
 
 <details>
 
 <summary>Emissione di un verbale di contestazione</summary>
 
-**User story**: Come cittadino voglio sapere quando il verbale è stato emesso&#x20;
+**User story**: Come cittadino voglio sapere quando il verbale è stato emesso
 
 </details>
 
@@ -157,7 +156,7 @@ Qui riportiamo alcuni esempi di messaggi che sarà possibile implementare con la
 
 **User story**: Come cittadino voglio ricevere notifica della corretta ricezione del mio ricorso
 
-<mark style="color:purple;">ℹ️</mark> Questo messaggio è in capo all'ente di riferimento e non al Comune &#x20;
+<mark style="color:purple;">ℹ️</mark> Questo messaggio è in capo all'ente di riferimento e non al Comune
 
 </details>
 
@@ -167,7 +166,7 @@ Qui riportiamo alcuni esempi di messaggi che sarà possibile implementare con la
 
 **User story**: Come cittadino voglio sapere perché il mio ricorso non è stato correttamente presentato
 
-<mark style="color:purple;">ℹ️</mark> Questo messaggio è in capo all'ente di riferimento e non al Comune &#x20;
+<mark style="color:purple;">ℹ️</mark> Questo messaggio è in capo all'ente di riferimento e non al Comune
 
 </details>
 
@@ -175,16 +174,16 @@ Qui riportiamo alcuni esempi di messaggi che sarà possibile implementare con la
 
 <summary>Esito ricorso e aggiornamento verbale</summary>
 
-**User story**: Come cittadino voglio ricevere notifica dell’esito del mio ricorso&#x20;
+**User story**: Come cittadino voglio ricevere notifica dell’esito del mio ricorso
 
-<mark style="color:purple;">ℹ️</mark> Questo messaggio è in capo all'ente di riferimento e non al Comune &#x20;
+<mark style="color:purple;">ℹ️</mark> Questo messaggio è in capo all'ente di riferimento e non al Comune
 
 </details>
 {% endhint %}
 
-Il modello delle **multe per violazione al Codice della Strada** è connesso con quello di [**Rimozione veicoli**](rimozione-veicoli.md)**,** secondo il seguente ciclo di vita:&#x20;
+Il modello delle **multe per violazione al Codice della Strada** è connesso con quello di [**Rimozione veicoli**](rimozione-veicoli.md)**,** secondo il seguente ciclo di vita:
 
-<figure><img src="../../.gitbook/assets/Template - Multe + rimozioni.png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio multe per violazione al Codice della Strada e rimozione veicoli</strong> </p></figcaption></figure>
+<figure><img src="../../../../app-io/manuale-servizi/v1.0/.gitbook/assets/Template - Multe + rimozioni.png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio multe per violazione al Codice della Strada e rimozione veicoli</strong></p></figcaption></figure>
 
 {% hint style="info" %}
 **Un modello da personalizzare**

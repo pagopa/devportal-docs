@@ -6,19 +6,19 @@ Erogare il servizio "Rimozione veicoli" tramite IO permette agli enti di:
 * **ridurre i tempi** e i costi del processo di notifica e consegna della contravvenzione;
 * **velocizzare i tempi** di recupero della vettura in caso di blocco o rimozione.
 
-[**Scopri tutti i benefici di integrarsi con IO →**  ](../../cose-io-e-qual-e-il-suo-obiettivo.md#perche-integrarsi-con-io)
+[**Scopri tutti i benefici di integrarsi con IO →**](../../cose-io-e-qual-e-il-suo-obiettivo.md#perche-integrarsi-con-io)
 
 ### Scheda servizio e attributi
 
-| **Nome servizio**            | Rimozione veicoli                                                                                                                                                                                                                                                                                                                                                                                                                         |
-| ---------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Topic**                    | Mobilità e trasporti                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| **Sub-topic**                | Veicoli di proprietà                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| **Descrizione del servizio** | <p>Questo servizio riguarda la rimozione e il blocco di veicoli intestati a te.</p><p></p><p>Tramite IO potrai:</p><ul><li>ricevere un messaggio che ti informa che il tuo veicolo è stato bloccato, rimosso o segnalato come abbandonato;</li><li>ricevere un messaggio che ti informa che il deposito del veicolo è in scadenza;</li><li>ricevere un messaggio che ti informa che il tuo veicolo può tornare in circolazione.</li></ul> |
+| **Nome servizio**            | Rimozione veicoli                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| ---------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Topic**                    | Mobilità e trasporti                                                                                                                                                                                                                                                                                                                                                                                                               |
+| **Sub-topic**                | Veicoli di proprietà                                                                                                                                                                                                                                                                                                                                                                                                               |
+| **Descrizione del servizio** | <p>Questo servizio riguarda la rimozione e il blocco di veicoli intestati a te.</p><p>Tramite IO potrai:</p><ul><li>ricevere un messaggio che ti informa che il tuo veicolo è stato bloccato, rimosso o segnalato come abbandonato;</li><li>ricevere un messaggio che ti informa che il deposito del veicolo è in scadenza;</li><li>ricevere un messaggio che ti informa che il tuo veicolo può tornare in circolazione.</li></ul> |
 
 ### **Ciclo di vita del servizio**
 
-<figure><img src="../../.gitbook/assets/Rimozioni.png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio rimozione veicoli</strong></p></figcaption></figure>
+<figure><img src="../../../../app-io/manuale-servizi/v1.0/.gitbook/assets/Rimozioni.png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio rimozione veicoli</strong></p></figcaption></figure>
 
 ### Messaggio del servizio
 
@@ -34,11 +34,11 @@ L'insieme di tutti i messaggi rappresenta il servizio ideale. L'ente che intende
 
 **🖋 Titolo del messaggio:** Il tuo veicolo è stato bloccato
 
-🗒 **Testo del messaggio**:&#x20;
+🗒 **Testo del messaggio**:
 
-Il `<gg/mm/aaaa>` alle hh:mm, in `<indirizzo>`, il veicolo targato `<targa>` è stato bloccato con le ganasce per queste violazioni:&#x20;
+Il `<gg/mm/aaaa>` alle hh:mm, in `<indirizzo>`, il veicolo targato `<targa>` è stato bloccato con le ganasce per queste violazioni:
 
-**• `<tipologia di violazione>` - art. `<numero>`**
+**• `<tipologia di violazione>` - art. `<numero>`**
 
 **Accertamento numero**: `<numero accertamento>`
 
@@ -54,9 +54,9 @@ Il `<gg/mm/aaaa>` alle hh:mm, in `<indirizzo>`, il veicolo targato `<targa>` è 
 
 **Trigger**: Quando è commessa la violazione e il blocco è stato applicato
 
-**User story**: <mark style="color:purple;">Come cittadino voglio ricevere notifica immediata della violazione commessa e del blocco apposto</mark>&#x20;
+**User story**: <mark style="color:purple;">Come cittadino voglio ricevere notifica immediata della violazione commessa e del blocco apposto</mark>
 
-<mark style="color:purple;">ℹ️</mark> Questo messaggio arriva sempre insieme ad un [messaggio di preavviso di accertamento](multe-per-violazione-codice-della-strada.md#emissione-preavviso-di-accertamento), puoi decidere di mandare un messaggio unico. &#x20;
+<mark style="color:purple;">ℹ️</mark> Questo messaggio arriva sempre insieme ad un [messaggio di preavviso di accertamento](multe-per-violazione-codice-della-strada.md#emissione-preavviso-di-accertamento), puoi decidere di mandare un messaggio unico.
 
 </details>
 
@@ -64,9 +64,9 @@ Il `<gg/mm/aaaa>` alle hh:mm, in `<indirizzo>`, il veicolo targato `<targa>` è 
 
 <summary>Avvenuta rimozione del veicolo</summary>
 
-**🖋 Titolo del messaggio:** Il tuo veicolo è stato rimosso&#x20;
+**🖋 Titolo del messaggio:** Il tuo veicolo è stato rimosso
 
-🗒 **Testo del messaggio**:  Il `<gg/mm/aaaa>` alle hh:mm, in `<indirizzo>`, il veicolo targato `<targa>` è stato rimosso per queste violazioni:
+🗒 **Testo del messaggio**: Il `<gg/mm/aaaa>` alle hh:mm, in `<indirizzo>`, il veicolo targato `<targa>` è stato rimosso per queste violazioni:
 
 * **`<tipologia di violazione>` - art. `<numero>`**
 
@@ -86,9 +86,9 @@ Il tuo veicolo si trova presso il deposito in `<indirizzo>`.\
 
 **Trigger**: Quando è commessa la violazione e la rimozione è stata effettuata
 
-**User story**: <mark style="color:purple;">Come cittadino voglio ricevere notifica immediata della violazione commessa e della rimozione avvenuta</mark>&#x20;
+**User story**: <mark style="color:purple;">Come cittadino voglio ricevere notifica immediata della violazione commessa e della rimozione avvenuta</mark>
 
-<mark style="color:purple;">ℹ️</mark> Questo messaggio arriva sempre insieme ad un [messaggio di preavviso di accertamento](multe-per-violazione-codice-della-strada.md#emissione-preavviso-di-accertamento), puoi decidere di mandare un messaggio unico. &#x20;
+<mark style="color:purple;">ℹ️</mark> Questo messaggio arriva sempre insieme ad un [messaggio di preavviso di accertamento](multe-per-violazione-codice-della-strada.md#emissione-preavviso-di-accertamento), puoi decidere di mandare un messaggio unico.
 
 </details>
 
@@ -98,9 +98,9 @@ Il tuo veicolo si trova presso il deposito in `<indirizzo>`.\
 
 **🖋 Titolo del messaggio:** Il deposito del tuo veicolo è in scadenza
 
-🗒 **Testo del messaggio**:  Hai tempo fino al `<gg/mm/aaaa>` per ritirare il veicolo targato `<numero targa>` presso il deposito in `<indirizzo>`.&#x20;
+🗒 **Testo del messaggio**: Hai tempo fino al `<gg/mm/aaaa>` per ritirare il veicolo targato `<numero targa>` presso il deposito in `<indirizzo>`.
 
-Potrai ritirarlo solo dopo avere pagato i costi di servizio e deposito. Se non lo ritiri entro il termine stabilito, `<inserire cosa succede>`.&#x20;
+Potrai ritirarlo solo dopo avere pagato i costi di servizio e deposito. Se non lo ritiri entro il termine stabilito, `<inserire cosa succede>`.
 
 Per maggiori informazioni visita \[questo sito]\(URL) o contatta `<ente da contattare>``<modalità di contatto>`.
 
@@ -108,7 +108,7 @@ Per maggiori informazioni visita \[questo sito]\(URL) o contatta `<ente da conta
 
 **---**
 
-**Destinatari**: Tutti i cittadini che hanno subito una rimozione della propria vettura e non sono andati a ritirarla&#x20;
+**Destinatari**: Tutti i cittadini che hanno subito una rimozione della propria vettura e non sono andati a ritirarla
 
 **Trigger**: Quando la scadenza del deposito si avvicina
 
@@ -122,7 +122,7 @@ Per maggiori informazioni visita \[questo sito]\(URL) o contatta `<ente da conta
 
 **🖋 Titolo del messaggio:** Il tuo veicolo risulta abbandonato
 
-🗒 **Testo del messaggio**: Il veicolo targato `<targa>` in `<indirizzo>` è considerato in stato in abbandono.&#x20;
+🗒 **Testo del messaggio**: Il veicolo targato `<targa>` in `<indirizzo>` è considerato in stato in abbandono.
 
 `<Inserire indicazioni su cosa deve fare il destinatario, per es. "Hai tempo fino al <gg/mm/aa> per contattare <nome ente>...>`. Per maggiori informazioni visita \[questo sito]\(URL) o contatta `<ente da contattare>``<modalità di contatto>`.
 
@@ -130,25 +130,23 @@ Per maggiori informazioni visita \[questo sito]\(URL) o contatta `<ente da conta
 
 **---**
 
-**Destinatari**: Tutti i cittadini che hanno abbandonato un veicolo per strada o non lo hanno mai ritirato dal deposito a fronte di una rimozione&#x20;
+**Destinatari**: Tutti i cittadini che hanno abbandonato un veicolo per strada o non lo hanno mai ritirato dal deposito a fronte di una rimozione
 
 **Trigger**: Quando il mezzo è ritrovato oppure il termine del deposito è scaduto
 
-**User story**: <mark style="color:purple;">Come cittadino voglio ricevere notifica immediata se il mio veicolo sta per essere considerato abbandonato</mark>&#x20;
+**User story**: <mark style="color:purple;">Come cittadino voglio ricevere notifica immediata se il mio veicolo sta per essere considerato abbandonato</mark>
 
 </details>
 
-### In arrivo: Piattaforma Notifiche&#x20;
+### In arrivo: Piattaforma Notifiche
 
 {% hint style="info" %}
 **Cosa potrò fare con Piattaforma Notifiche?**
 
-IO sarà presto integrata con il nuovo servizio di Piattaforma Notifiche per permettere l'invio di notifiche a valore legale come i verbali di contestazione. \
-[**Scopri di più su Piattaforma Notifiche →** ](https://www.pagopa.it/it/prodotti-e-servizi/piattaforma-notifiche-digitali)
+IO sarà presto integrata con il nuovo servizio di Piattaforma Notifiche per permettere l'invio di notifiche a valore legale come i verbali di contestazione.\
+[**Scopri di più su Piattaforma Notifiche →**](https://www.pagopa.it/it/prodotti-e-servizi/piattaforma-notifiche-digitali)
 
-
-
-Qui riportiamo alcuni esempi di messaggi che sarà possibile implementare con la futura integrazione di Piattaforma Notifiche:&#x20;
+Qui riportiamo alcuni esempi di messaggi che sarà possibile implementare con la futura integrazione di Piattaforma Notifiche:
 
 <details>
 
@@ -172,7 +170,7 @@ Qui riportiamo alcuni esempi di messaggi che sarà possibile implementare con la
 
 **User story**: Come cittadino voglio ricevere notifica della corretta ricezione del mio ricorso
 
-<mark style="color:purple;">ℹ️</mark> Questo messaggio è in capo all'ente di riferimento e non al Comune &#x20;
+<mark style="color:purple;">ℹ️</mark> Questo messaggio è in capo all'ente di riferimento e non al Comune
 
 </details>
 
@@ -182,7 +180,7 @@ Qui riportiamo alcuni esempi di messaggi che sarà possibile implementare con la
 
 **User story**: Come cittadino voglio sapere perché il mio ricorso non è stato correttamente presentato
 
-<mark style="color:purple;">ℹ️</mark> Questo messaggio è in capo all'ente di riferimento e non al Comune &#x20;
+<mark style="color:purple;">ℹ️</mark> Questo messaggio è in capo all'ente di riferimento e non al Comune
 
 </details>
 
@@ -190,16 +188,16 @@ Qui riportiamo alcuni esempi di messaggi che sarà possibile implementare con la
 
 <summary>Esito ricorso e aggiornamento verbale</summary>
 
-**User story**: Come cittadino voglio ricevere notifica dell’esito del mio ricorso&#x20;
+**User story**: Come cittadino voglio ricevere notifica dell’esito del mio ricorso
 
-<mark style="color:purple;">ℹ️</mark> Questo messaggio è in capo all'ente di riferimento e non al Comune &#x20;
+<mark style="color:purple;">ℹ️</mark> Questo messaggio è in capo all'ente di riferimento e non al Comune
 
 </details>
 {% endhint %}
 
 Il template di **Rimozione veicoli** è connesso con quello di [**Multe per violazione Codice della Strada**](multe-per-violazione-codice-della-strada.md)**,** secondo il seguente ciclo di vita:
 
-<figure><img src="../../.gitbook/assets/Template - Multe + rimozioni.png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio multe per violazione Codice della Strada e rimozione veicoli</strong> </p></figcaption></figure>
+<figure><img src="../../../../app-io/manuale-servizi/v1.0/.gitbook/assets/Template - Multe + rimozioni.png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio multe per violazione Codice della Strada e rimozione veicoli</strong></p></figcaption></figure>
 
 {% hint style="info" %}
 **Un modello da personalizzare**

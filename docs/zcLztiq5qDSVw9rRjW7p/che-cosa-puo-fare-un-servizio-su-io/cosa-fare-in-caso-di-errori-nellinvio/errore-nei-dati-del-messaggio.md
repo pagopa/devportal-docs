@@ -3,8 +3,8 @@
 Prima di inviare un messaggio, suggeriamo sempre di:
 
 * **utilizzare uno dei modelli** forniti da PagoPA S.p.A, ove presente e applicabile al proprio caso;
-* **inviare a più colleghi un messaggio di test**, seguendo le [istruzioni della guida tecnica](http://localhost:5000/s/coSKRte21UjDBRWKLtEs/funzionalita/inviare-un-messaggio/messaggi-di-test).
-* **chiedere ai tester di controllare tutti i dati** del messaggio, come titolo, data ed eventuali altre informazioni contenute al suo interno.&#x20;
+* **inviare a più colleghi un messaggio di test**, seguendo le [istruzioni della guida tecnica](https://app.gitbook.com/s/coSKRte21UjDBRWKLtEs/funzionalita/inviare-un-messaggio/messaggi-di-test).
+* **chiedere ai tester di controllare tutti i dati** del messaggio, come titolo, data ed eventuali altre informazioni contenute al suo interno.
 * **ripetere il test** finché il messaggio non deve essere ulteriormente modificato.
 
 {% hint style="warning" %}
