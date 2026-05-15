@@ -64,7 +64,7 @@ I cambiamenti indicati come versione `minor` (la cifra a destra del punto) non s
 
 * [Gestione dei servizi tramite Area Riservata](funzionalita/pubblicare-un-servizio/creare-un-servizio.md#tramite-area-riservata)
 * [Importazione dei servizi in Area Riservata](funzionalita/pubblicare-un-servizio/importare-servizi-nellarea-riservata.md)
-* [Adesione tramite Area Riservata](broken-reference)
+* [Adesione tramite Area Riservata](/broken/pages/yhL4OKIPji8GzDYgcai1)
 * [Adesione per enti aggregatori](setup-iniziale/)
 * [Come variare i delegati](https://docs.pagopa.it/kb-enti-adesione/domande-frequenti/domande-e-risposte-sulladesione-a-io#come-posso-variare-referente-e-o-delegati-del-mio-ente)
 

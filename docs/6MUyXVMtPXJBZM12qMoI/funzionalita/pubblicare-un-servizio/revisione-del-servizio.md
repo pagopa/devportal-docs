@@ -107,8 +107,7 @@ Scopri che cos'è la [`chiave manage`](chiave-manage/chiave-manage.md) e [come r
 2. Consulta il campo `status.value` per conoscere l'esito della revisione;
 3. Comprendi quali possono essere gli [stati del servizio](stato-del-servizio.md).
 
-🟢  Se il servizio è in stato **`APPROVED`**, è pronto per essere attivato. Se hai scelto l'attivazione automatica, il servizio sarà già **`PUBLISHED`** (ovvero **attivato**)\
-
+🟢  Se il servizio è in stato **`APPROVED`**, è pronto per essere attivato. Se hai scelto l'attivazione automatica, il servizio sarà già **`PUBLISHED`** (ovvero **attivato**)<br>
 
 🔴 Se il servizio è in stato **`REJECTED`**:
 
