@@ -8,34 +8,34 @@ description: >-
 
 ### Primi passi
 
-{% content-ref url="../../../zoyf6XOs0u7aDnVh5hgk/setup-iniziale/" %}
-[setup-iniziale](../../../zoyf6XOs0u7aDnVh5hgk/setup-iniziale/)
+{% content-ref url="setup-iniziale/" %}
+[setup-iniziale](setup-iniziale/)
 {% endcontent-ref %}
 
 ### Funzionalità
 
-{% content-ref url="../../../zoyf6XOs0u7aDnVh5hgk/funzionalita/pubblicare-un-servizio/" %}
-[pubblicare-un-servizio](../../../zoyf6XOs0u7aDnVh5hgk/funzionalita/pubblicare-un-servizio/)
+{% content-ref url="funzionalita/pubblicare-un-servizio/" %}
+[pubblicare-un-servizio](funzionalita/pubblicare-un-servizio/)
 {% endcontent-ref %}
 
-{% content-ref url="../../../zoyf6XOs0u7aDnVh5hgk/funzionalita/inviare-un-messaggio/" %}
-[inviare-un-messaggio](../../../zoyf6XOs0u7aDnVh5hgk/funzionalita/inviare-un-messaggio/)
+{% content-ref url="funzionalita/inviare-un-messaggio/" %}
+[inviare-un-messaggio](funzionalita/inviare-un-messaggio/)
 {% endcontent-ref %}
 
-{% content-ref url="../../../zoyf6XOs0u7aDnVh5hgk/funzionalita/inviare-un-messaggio/aggiungere-allegati.md" %}
-[aggiungere-allegati.md](../../../zoyf6XOs0u7aDnVh5hgk/funzionalita/inviare-un-messaggio/aggiungere-allegati.md)
+{% content-ref url="funzionalita/inviare-un-messaggio/aggiungere-allegati.md" %}
+[aggiungere-allegati.md](funzionalita/inviare-un-messaggio/aggiungere-allegati.md)
 {% endcontent-ref %}
 
 ### API
 
-{% content-ref url="../../../zoyf6XOs0u7aDnVh5hgk/api-e-specifiche/openapi.md" %}
-[openapi.md](../../../zoyf6XOs0u7aDnVh5hgk/api-e-specifiche/openapi.md)
+{% content-ref url="api-e-specifiche/openapi.md" %}
+[openapi.md](api-e-specifiche/openapi.md)
 {% endcontent-ref %}
 
 ### Abilitazioni
 
-{% content-ref url="../../../zoyf6XOs0u7aDnVh5hgk/abilitazioni/" %}
-[abilitazioni](../../../zoyf6XOs0u7aDnVh5hgk/abilitazioni/)
+{% content-ref url="abilitazioni/" %}
+[abilitazioni](abilitazioni/)
 {% endcontent-ref %}
 
 ### Risorse utili
@@ -44,4 +44,4 @@ description: >-
 
 [**Supporto agli Enti ->**](https://docs.pagopa.it/kb-enti)
 
-[**Glossario ->**](../../../zoyf6XOs0u7aDnVh5hgk/risorse-utili/glossario.md)
+[**Glossario ->**](risorse-utili/glossario.md)
