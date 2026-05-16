@@ -4,18 +4,18 @@ Questo documento è una guida tecnica all'utilizzo dell'API di IO e l’integraz
 
 ### Primi passi
 
-{% content-ref url="../../../OoU8rMn4ZUWvfkSueJIl/setup-iniziale.md" %}
-[setup-iniziale.md](../../../OoU8rMn4ZUWvfkSueJIl/setup-iniziale.md)
+{% content-ref url="setup-iniziale.md" %}
+[setup-iniziale.md](setup-iniziale.md)
 {% endcontent-ref %}
 
 ### Funzionalità
 
-{% content-ref url="../../../OoU8rMn4ZUWvfkSueJIl/funzionalita/inviare-un-messaggio/" %}
-[inviare-un-messaggio](../../../OoU8rMn4ZUWvfkSueJIl/funzionalita/inviare-un-messaggio/)
+{% content-ref url="funzionalita/inviare-un-messaggio/" %}
+[inviare-un-messaggio](funzionalita/inviare-un-messaggio/)
 {% endcontent-ref %}
 
-{% content-ref url="../../../OoU8rMn4ZUWvfkSueJIl/funzionalita/creare-un-servizio/" %}
-[creare-un-servizio](../../../OoU8rMn4ZUWvfkSueJIl/funzionalita/creare-un-servizio/)
+{% content-ref url="funzionalita/creare-un-servizio/" %}
+[creare-un-servizio](funzionalita/creare-un-servizio/)
 {% endcontent-ref %}
 
 ### API
@@ -26,8 +26,8 @@ Questo documento è una guida tecnica all'utilizzo dell'API di IO e l’integraz
 
 ### Abilitazioni
 
-{% content-ref url="../../../OoU8rMn4ZUWvfkSueJIl/abilitazioni/" %}
-[abilitazioni](../../../OoU8rMn4ZUWvfkSueJIl/abilitazioni/)
+{% content-ref url="abilitazioni/" %}
+[abilitazioni](abilitazioni/)
 {% endcontent-ref %}
 
 ###
@@ -36,7 +36,7 @@ Questo documento è una guida tecnica all'utilizzo dell'API di IO e l’integraz
 
 [**Specifiche API ->** ](https://developer.io.italia.it/openapi.html)
 
-[**Domande Frequenti ->**](../../../OoU8rMn4ZUWvfkSueJIl/risorse-utili/domande-frequenti.md)
+[**Domande Frequenti ->**](risorse-utili/domande-frequenti.md)
 
-[**Glossario ->**](../../../OoU8rMn4ZUWvfkSueJIl/risorse-utili/glossario.md)
+[**Glossario ->**](risorse-utili/glossario.md)
 
