@@ -1,0 +1,76 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/S2wztmuR1C8bWqvZAbwN/che-cosa-puo-fare-un-servizio-su-io/i-messaggi-piu-frequenti/pubblicazione-bandi-e-graduatorie
+---
+
+# Pubblicazione bandi e graduatorie
+
+## Pubblicazione bando
+
+<details>
+
+<summary>Pubblicazione bando</summary>
+
+:sparkles: <mark style="color:blue;">**Cosa puoi aggiungere:**</mark>
+
+<mark style="color:blue;">**• Allegati**</mark>: questa funzionalità permette di allegare documenti all'interno del messaggio.
+
+***
+
+**🖋 Titolo del messaggio:** Pubblicato un nuovo bando
+
+🗒 **Testo del messaggio**:
+
+Dal `<gg/mm/aaaa>` puoi fare richiesta di `<oggetto del bando>`.
+
+Hai tempo fino al `<gg/mm/aaaa>`.
+
+Per consultare i criteri di assegnazione e presentare richiesta, \[visita questo sito]\(URL).
+
+\[Solo per messaggi con allegato] Trovi il testo completo del bando in allegato a questo messaggio.
+
+**🪄 Pulsante**: Fai domanda
+
+<mark style="color:blue;">**📎 Allegato:**</mark> `<testo integrale del bando>`
+
+***
+
+**Destinatari**: Tutti i cittadini residenti nell’area di azione geografica del servizio che sono ritenuti idonei secondo le specifiche dell'iniziativa contenute nel bando.
+
+**Quando inviarlo**: Quando l’ente pubblica un bando riguardante....
+
+**User story**: Come cittadino voglio essere informato sull’apertura di bandi per ....
+
+</details>
+
+***
+
+## Pubblicazione graduatorie
+
+<details>
+
+<summary>Pubblicazioni graduatorie</summary>
+
+**🖋 Titolo del messaggio:** Pubblicata la graduatoria per <mark style="color:purple;">{oggetto}</mark>
+
+🗒 **Testo del messaggio**:
+
+È disponibile la graduatoria per il servizio `<tipologia di servizio>` per `<nome>` `<cognome>`.
+
+Se vuoi rinunciare alla tua posizione, hai tempo fino al `<gg/mm/aaaa>`.
+
+Per visualizzare la tua posizione in graduatoria \[visita questo sito]\(URL).
+
+**🪄 Pulsante**: Vai alla graduatoria
+
+***
+
+**Destinatari**: Tutti i cittadini che ....
+
+**Quando inviarlo**: Quando è pubblicata la graduatoria
+
+**User story**: Come cittadino voglio ricevere aggiornamenti sullo stato della mia domanda.
+
+</details>
