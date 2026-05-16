@@ -4,7 +4,7 @@ Benvenuto, se ti trovi in questa pagina probabilmente hai bisogno di verificare 
 
 Il tool [PnValidator](https://github.com/pagopa/pn-local-emulator) mette a disposizione un'emulazione (minimale) del sistema Piattaforma Notifiche e un endpoint che produce un report riguardo l'integrazione. Iniziare è molto semplice:
 
-1. Fai partire il tool `PnValidator` seguendo una delle modalità descritte nella sezione [Come eseguire PnValidator](../../../niZ9BM7pjxsgBMMWBim1/come-eseguire-pnvalidator.md).
+1. Fai partire il tool `PnValidator` seguendo una delle modalità descritte nella sezione [Come eseguire PnValidator](come-eseguire-pnvalidator.md).
 2. Configura la tua integrazione nel seguente modo:
    1. Usa come token di autenticazione (parametro in header `x-api-key`) il valore `key-value`,
    2. Imposta come URL l'indirizzo dove poter raggiungere `PnValidator` (il valore dipende da dove e come lo hai inizializzato, e.g.: `http://localhost:3000`).
