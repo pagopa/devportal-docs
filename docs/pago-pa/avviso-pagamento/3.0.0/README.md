@@ -25,18 +25,18 @@ Sono previsti diversi modelli di riferimento per supportare al meglio le varie t
 
 L'Allegato 1 **contiene i modelli base** (e relativi esempi) in formato PDF e SVG, riproducibili in formato A4 e altri formati compatibili con le stampanti termiche.
 
-{% content-ref url="../../../lph4boTulr49pD0pPBVM/allegato-1/modelli-base.md" %}
-[modelli-base.md](../../../lph4boTulr49pD0pPBVM/allegato-1/modelli-base.md)
+{% content-ref url="allegato-1/modelli-base.md" %}
+[modelli-base.md](allegato-1/modelli-base.md)
 {% endcontent-ref %}
 
-{% content-ref url="../../../lph4boTulr49pD0pPBVM/allegato-1/esempi.md" %}
-[esempi.md](../../../lph4boTulr49pD0pPBVM/allegato-1/esempi.md)
+{% content-ref url="allegato-1/esempi.md" %}
+[esempi.md](allegato-1/esempi.md)
 {% endcontent-ref %}
 
 ### Allegato 2
 
 L'Allegato 2 fornisce le indicazioni specifiche per la produzione del documento in tutte le casistiche previste.
 
-{% content-ref url="../../../lph4boTulr49pD0pPBVM/struttura/specifiche-tecniche/" %}
-[specifiche-tecniche](../../../lph4boTulr49pD0pPBVM/struttura/specifiche-tecniche/)
+{% content-ref url="struttura/specifiche-tecniche/" %}
+[specifiche-tecniche](struttura/specifiche-tecniche/)
 {% endcontent-ref %}
