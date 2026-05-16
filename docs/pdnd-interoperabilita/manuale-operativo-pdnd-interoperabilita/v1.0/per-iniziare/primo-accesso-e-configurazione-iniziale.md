@@ -1,0 +1,64 @@
+# Primo accesso e configurazione iniziale
+
+Dopo che l'adesione è stata completata, gli amministratori nominati dal Legale Rappresentante possono accedere alla piattaforma e iniziare a configurarla. Questo capitolo descrive i passaggi fondamentali per diventare pienamente operativi.
+
+### Accesso al front office
+
+La procedura per accedere al front office di PDND Interoperabilità è la seguente:
+
+1. **Login**: Accedere all'Area Riservata della piattaforma e autenticarsi con la propria identità digitale **SPID** o **CIE**.
+2. **Selezione ente**: Se si è associati a più di un ente, selezionare quello per cui si intende operare.
+3. **Selezione prodotto**: Dall'elenco dei prodotti disponibili, scegliere **"Interoperabilità"**.
+4. **Selezione ambiente**: Selezionare l'ambiente di lavoro desiderato.
+
+### Comprendere gli ambienti operativi
+
+La piattaforma mette a disposizione tre ambienti separati, ciascuno con uno scopo preciso:
+
+* **Produzione**: È l'ambiente di esercizio reale, dove avvengono gli scambi di dati ufficiali tra gli enti.
+* **Collaudo e Attestazione**: Sono ambienti identici alla produzione ma utilizzati per testare le integrazioni e il corretto funzionamento degli e-service prima di renderli disponibili a tutti. Non devono essere utilizzati dati reali.
+
+<table><thead><tr><th width="154.7718505859375">Nome ambiente</th><th width="384.1656494140625">Abilitati all'erogazione</th><th>Si erogano dati reali</th></tr></thead><tbody><tr><td>Produzione</td><td>Tutti gli aderenti</td><td>Sì</td></tr><tr><td>Collaudo</td><td>Tutti gli aderenti</td><td>No</td></tr><tr><td>Attestazione</td><td>Tutti gli aderenti</td><td>No</td></tr></tbody></table>
+
+### Gestione di Utenti e Ruoli
+
+L'**amministratore** è la figura responsabile della gestione degli utenti del proprio ente. Può creare e revocare altre utenze, assegnando uno dei tre ruoli disponibili.
+
+#### I Ruoli Utente
+
+* **Amministratore**: Ha il controllo completo sul front office. Può gestire gli utenti, creare e-service, gestire le finalità e le richieste di fruizione. Può gestire il materiale crittografico (client e chiavi).
+* **Operatore di Sicurezza**: È il ruolo tecnico responsabile della gestione del materiale crittografico (es. caricamento delle chiavi pubbliche). Non può gestire né gli utenti né gli e-service.
+* **Operatore API**: È il ruolo tecnico che gestisce gli e-service e gli aspetti tecnici delle finalità. Non può gestire gli utenti né il materiale crittografico.
+
+#### Permessi
+
+<table><thead><tr><th width="313.5125732421875">Attività</th><th width="151.543701171875">Amministratore</th><th width="140.73126220703125">Operatore API</th><th>Operatore di sicurezza</th></tr></thead><tbody><tr><td>Nomina e revoca Amministratori</td><td>✅</td><td>❌</td><td>❌</td></tr><tr><td>Crea e rimuove operatori</td><td>✅</td><td>❌</td><td>❌</td></tr><tr><td>Gestisce lo stato dell’e-service</td><td>✅</td><td>❌</td><td>❌</td></tr><tr><td>Modifica gli attributi dell’e-service</td><td>✅</td><td>❌</td><td>❌</td></tr><tr><td>Gestisce la creazione dell’e-service</td><td>✅</td><td>✅</td><td>❌</td></tr><tr><td>Inviare una richiesta fruizione</td><td>✅</td><td>❌</td><td>❌</td></tr><tr><td>Gestisce la fruizione di e-service</td><td>✅</td><td>✅</td><td>❌</td></tr><tr><td>Gestisce il materiale crittografico</td><td>✅</td><td>✅</td><td>✅</td></tr></tbody></table>
+
+#### Creazione e Gestione degli Utenti
+
+L'amministratore può creare nuovi utenti operatori o altri amministratori direttamente dal front office. Le procedure dettagliate per la creazione e la revoca delle utenze sono disponibili nella sezione Tutorial.
+
+{% hint style="info" %}
+Segui i tutorial dedicati:
+
+[→ **Come creare e revocare gli utenti amministratori**](../tutorial/tutorial-generali/come-creare-e-revocare-gli-utenti-amministratori.md)\
+[→ **Come creare e revocare gli utenti operatori**](../tutorial/tutorial-generali/utenze.md)
+{% endhint %}
+
+### Checklist per la Configurazione Iniziale
+
+Al primo accesso, si raccomanda all'amministratore di **impostare i contatti dell'ente**: verificare e inserire l'indirizzo email di contatto per ricevere le comunicazioni importanti dalla piattaforma e dai fruitori.
+
+### Attributi e assegnazione
+
+Ogni ente possiede delle "caratteristiche", che vengono riconosciute da PDND, che vengono chiamate _attributi_. Per fare un esempio, all'atto dell'iscrizione di Regione Lazio, all'ente vengono automaticamente riconosciuti gli attributo certificati _Regione_ e _Regione Lazio_, entrambe conferiti dalla fonte autoritativa l'IPA, l'[Indice della Pubblica Amministrazione](https://www.indicepa.gov.it/ipa-portale/).
+
+Questi attributi saranno poi utili per potersi iscrivere agli e-service presenti in piattaforma. Ad esempio, Regione Lazio potrà iscriversi a tutti quegli e-service riservati agli enti che possiedono gli attributi certificati _Regioni_ oppure _Regione Lazio_.&#x20;
+
+È necessario attendere fino a 24 ore per assicurare la corretta assegnazione di tutti gli attributi da parte delle fonti autoritative al proprio ente.
+
+Maggiori dettagli sugli attributi nella [sezione dedicata](../riferimenti-tecnici/attributi/).
+
+***
+
+Pagina successiva [→ Tutorial per l'erogatore](../tutorial/tutorial-per-lerogatore/)
