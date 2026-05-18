@@ -19,7 +19,7 @@ Se l'Ente Creditore dispone di un conto corrente postale per gli incassi, è nec
 
 ### Risorse disponibili
 
-{% file src="../../../../pago-pa/avviso-pagamento/3.5.1/.gitbook/assets/pagoPA-Avvisi-350-bilingue (1).zip" %}
+{% file src="../../../.gitbook/assets/pagoPA-Avvisi-350-bilingue (1).zip" %}
 Modello di avviso di pagamento pagoPA bilingue (SVG e PDF).
 {% endfile %}
 

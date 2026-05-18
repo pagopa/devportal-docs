@@ -8,7 +8,7 @@ metaLinks:
 
 # Informazioni sull'Ente Creditore
 
-![Dettaglio della sezione "Informazioni sull'Ente Creditore" all'interno dell'avviso di pagamento pagoPA.](<../../../pago-pa/avviso-pagamento/3.5.1/.gitbook/assets/Ente e Destinatario.png>)
+![Dettaglio della sezione "Informazioni sull'Ente Creditore" all'interno dell'avviso di pagamento pagoPA.](<../../.gitbook/assets/Ente e Destinatario.png>)
 
 ### `ENTE.CF` <a href="#ente-cf" id="ente-cf"></a>
 

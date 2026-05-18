@@ -12,13 +12,13 @@ metaLinks:
 
 ## Casi d'uso
 
-<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><strong>Seconda lingua</strong></td><td>Usa questo modello per inserire una lingua secondaria, come ad esempio l'inglese, senza richiedere pagine aggiuntive.</td><td></td><td><a href="avviso-con-seconda-lingua.md">avviso-con-seconda-lingua.md</a></td><td><a href="../../../../pago-pa/avviso-pagamento/3.5.1/.gitbook/assets/Due lingue.png">Due lingue.png</a></td></tr><tr><td><strong>Bilinguismo perfetto</strong></td><td>Questo modello viene utilizzato per rispettare il bilinguismo amministrativo perfetto, come ad esempio tra italiano e tedesco nella provincia autonoma di Bolzano – Alto Adige.</td><td></td><td><a href="avviso-bilingue.md">avviso-bilingue.md</a></td><td><a href="../../../../pago-pa/avviso-pagamento/3.5.1/.gitbook/assets/Bilinguismo.png">Bilinguismo.png</a></td></tr><tr><td><strong>Avviso in altra lingua</strong></td><td>È possibile anche produrre l'avviso di pagamento in una sola lingua—diversa dall'italiano—se l'Ente è già a conoscenza della nazionalità del destinatario dell'avviso.</td><td></td><td><a href="avviso-in-altra-lingua.md">avviso-in-altra-lingua.md</a></td><td><a href="../../../../pago-pa/avviso-pagamento/3.5.1/.gitbook/assets/Altra lingua.png">Altra lingua.png</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><strong>Seconda lingua</strong></td><td>Usa questo modello per inserire una lingua secondaria, come ad esempio l'inglese, senza richiedere pagine aggiuntive.</td><td></td><td><a href="avviso-con-seconda-lingua.md">avviso-con-seconda-lingua.md</a></td><td><a href="../../../.gitbook/assets/Due lingue.png">Due lingue.png</a></td></tr><tr><td><strong>Bilinguismo perfetto</strong></td><td>Questo modello viene utilizzato per rispettare il bilinguismo amministrativo perfetto, come ad esempio tra italiano e tedesco nella provincia autonoma di Bolzano – Alto Adige.</td><td></td><td><a href="avviso-bilingue.md">avviso-bilingue.md</a></td><td><a href="../../../.gitbook/assets/Bilinguismo.png">Bilinguismo.png</a></td></tr><tr><td><strong>Avviso in altra lingua</strong></td><td>È possibile anche produrre l'avviso di pagamento in una sola lingua—diversa dall'italiano—se l'Ente è già a conoscenza della nazionalità del destinatario dell'avviso.</td><td></td><td><a href="avviso-in-altra-lingua.md">avviso-in-altra-lingua.md</a></td><td><a href="../../../.gitbook/assets/Altra lingua.png">Altra lingua.png</a></td></tr></tbody></table>
 
 ## Stringhe dei testi fissi
 
 ### Italiano
 
-{% file src="../../../../pago-pa/avviso-pagamento/3.5.1/.gitbook/assets/pagoPA-avvisi-350-stringhe-it.json" %}
+{% file src="../../../.gitbook/assets/pagoPA-avvisi-350-stringhe-it.json" %}
 Stringhe in italiano, in formato JSON
 {% endfile %}
 
@@ -147,7 +147,7 @@ Stringhe in italiano, in formato JSON
 
 ### Francese
 
-{% file src="../../../../pago-pa/avviso-pagamento/3.5.1/.gitbook/assets/pagoPA-avvisi-350-stringhe-fr.json" %}
+{% file src="../../../.gitbook/assets/pagoPA-avvisi-350-stringhe-fr.json" %}
 Stringhe in francese, in formato JSON
 {% endfile %}
 
@@ -278,7 +278,7 @@ Stringhe in francese, in formato JSON
 
 ### Inglese
 
-{% file src="../../../../pago-pa/avviso-pagamento/3.5.1/.gitbook/assets/pagoPA-avvisi-350-stringhe-en.json" %}
+{% file src="../../../.gitbook/assets/pagoPA-avvisi-350-stringhe-en.json" %}
 Stringhe in inglese, in formato JSON
 {% endfile %}
 
@@ -409,7 +409,7 @@ Stringhe in inglese, in formato JSON
 
 ### Sloveno
 
-{% file src="../../../../pago-pa/avviso-pagamento/3.5.1/.gitbook/assets/pagoPA-avvisi-350-stringhe-sl.json" %}
+{% file src="../../../.gitbook/assets/pagoPA-avvisi-350-stringhe-sl.json" %}
 Stringhe in sloveno, in formato JSON
 {% endfile %}
 
@@ -540,7 +540,7 @@ Stringhe in sloveno, in formato JSON
 
 ### Tedesco
 
-{% file src="../../../../pago-pa/avviso-pagamento/3.5.1/.gitbook/assets/pagoPA-avvisi-350-stringhe-de (1).json" %}
+{% file src="../../../.gitbook/assets/pagoPA-avvisi-350-stringhe-de (1).json" %}
 Stringhe in tedesco, in formato JSON
 {% endfile %}
 
