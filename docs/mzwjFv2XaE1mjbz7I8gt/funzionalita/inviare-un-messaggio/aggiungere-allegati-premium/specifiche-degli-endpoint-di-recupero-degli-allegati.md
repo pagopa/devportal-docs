@@ -12,7 +12,7 @@ Per comunicare col team di IO puoi usare l'indirizzo email [onboarding@io.italia
 
 ## Endpoint di **recupero dell'elenco dei metadati degli allegati**&#x20;
 
-<figure><img src="../../../../app-io/io-guida-tecnica/v2.3/.gitbook/assets/img 1.png" alt="schema che riassume la sequenza delle operazioni coinvolte nel recupero dei dati da parte di IO."><figcaption><p> Lo schema che riassume la sequenza delle operazioni coinvolte nel recupero dei dati da parte di IO.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/img 1.png" alt="schema che riassume la sequenza delle operazioni coinvolte nel recupero dei dati da parte di IO."><figcaption><p> Lo schema che riassume la sequenza delle operazioni coinvolte nel recupero dei dati da parte di IO.</p></figcaption></figure>
 
 {% openapi src="https://raw.githubusercontent.com/pagopa/io-backend/master/openapi/consumed/api-third-party.yaml" path="/messages/{id}" method="get" %}
 [https://raw.githubusercontent.com/pagopa/io-backend/master/openapi/consumed/api-third-party.yaml](https://raw.githubusercontent.com/pagopa/io-backend/master/openapi/consumed/api-third-party.yaml)
@@ -60,7 +60,7 @@ Aggiungi sempre l'estensione `.pdf` nei campi `name` per consentire al sistema o
 
 ## Endpoint di **recupero dei byte del singolo allegato**
 
-<figure><img src="../../../../app-io/io-guida-tecnica/v2.3/.gitbook/assets/img 2.png" alt="chema che riassume la sequenza delle operazioni coinvolte nel recupero dei byte del singolo allegato."><figcaption><p>Lo schema che riassume la sequenza delle operazioni coinvolte nel recupero dei byte del singolo allegato.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/img 2.png" alt="chema che riassume la sequenza delle operazioni coinvolte nel recupero dei byte del singolo allegato."><figcaption><p>Lo schema che riassume la sequenza delle operazioni coinvolte nel recupero dei byte del singolo allegato.</p></figcaption></figure>
 
 {% openapi src="https://raw.githubusercontent.com/pagopa/io-backend/master/openapi/consumed/api-third-party.yaml" path="/messages/{id}/{attachment_url}" method="get" %}
 [https://raw.githubusercontent.com/pagopa/io-backend/master/openapi/consumed/api-third-party.yaml](https://raw.githubusercontent.com/pagopa/io-backend/master/openapi/consumed/api-third-party.yaml)
