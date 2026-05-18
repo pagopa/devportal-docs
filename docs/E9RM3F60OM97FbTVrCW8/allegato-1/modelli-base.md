@@ -16,7 +16,7 @@ Hai qualche dubbio? Consulta le [specifiche tecniche](../struttura/specifiche-te
 
 ### Risorse disponibili
 
-{% file src="../../pago-pa/avviso-pagamento/3.1.0/.gitbook/assets/pagoPA-Avvisi-310-rataUnica.zip" %}
+{% file src="../.gitbook/assets/pagoPA-Avvisi-310-rataUnica.zip" %}
 Modello di Avviso di pagamento con rata unica (SVG e PDF).
 {% endfile %}
 
@@ -36,7 +36,7 @@ Modello di Avviso di pagamento con rata unica (SVG e PDF).
 
 ### Risorse disponibili
 
-{% file src="../../pago-pa/avviso-pagamento/3.1.0/.gitbook/assets/pagoPA-Avvisi-310-rateMultiple.zip" %}
+{% file src="../.gitbook/assets/pagoPA-Avvisi-310-rateMultiple.zip" %}
 Modello di Avviso di pagamento con più rate (SVG e PDF).
 {% endfile %}
 

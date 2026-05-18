@@ -10,7 +10,7 @@ description: >-
 **Novità:** presta attenzione ai nuovi testi di questa versione, ora più facili da implementare e più semplici e inclusivi per gli utenti.
 {% endhint %}
 
-![Dettaglio della sezione "Dove pagare" all'interno dell'avviso di pagamento pagoPA.](<../../../pago-pa/avviso-pagamento/3.1.0/.gitbook/assets/Importo e Dove.png>)
+![Dettaglio della sezione "Dove pagare" all'interno dell'avviso di pagamento pagoPA.](<../../.gitbook/assets/Importo e Dove.png>)
 
 ## Sezione canali digitali
 

@@ -1,6 +1,6 @@
 # Table of contents
 
-* [⬅ Torna a pagoPA.gov.it](https://pagopa.gov.it)
+* [⬅️ Torna a pagoPA.gov.it](https://pagopa.gov.it)
 
 ## Per iniziare
 
