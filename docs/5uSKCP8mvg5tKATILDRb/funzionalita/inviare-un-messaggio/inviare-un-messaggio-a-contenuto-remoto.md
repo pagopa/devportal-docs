@@ -17,7 +17,7 @@ Per un messaggio, i contenuti remotizzabili sono:
 
 A differenza dell'invio tradizionale, in cui è prevista la trasmissione dei contenuti del messaggio ai sistemi di IO al momento della sua creazione, i messaggi remoti prevedono che tali **contenuti risiedano esclusivamente presso i tuoi sistemi** e sarà IO a recuperarli ogni volta che l'utente destinatario vorrà visualizzarli in app.
 
-<figure><img src="../../../app-io/io-guida-tecnica/v7.2/.gitbook/assets/image (5).png" alt=""><figcaption><p>Sequenza delle principali fasi nei due scenari di invio</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption><p>Sequenza delle principali fasi nei due scenari di invio</p></figcaption></figure>
 
 In questo modo, IO fa da canale di **comunicazione in tempo reale** tra te e il tuo utente e detiene unicamente le informazioni necessarie per consentire il recupero del messaggio e verificarne lo stato.
 
@@ -70,9 +70,9 @@ In caso di dubbi, prediligi sempre il mantenimento della **coerenza informativa*
 
 Per dare contezza al destinatario del fatto che i contenuti potrebbero essere aggiornati nel tempo, in calce al dettaglio di tutti i messaggi con contenuto remoto è stato incluso il seguente avviso, nella sua versione breve ed estesa:
 
-<figure><img src="../../../app-io/io-guida-tecnica/v7.2/.gitbook/assets/Banner informativi (1).jpg" alt="" width="234"><figcaption><p>Informativa breve, in calce al messaggio</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Banner informativi (1).jpg" alt="" width="234"><figcaption><p>Informativa breve, in calce al messaggio</p></figcaption></figure>
 
-<figure><img src="../../../app-io/io-guida-tecnica/v7.2/.gitbook/assets/Bottom sheet (1).jpg" alt="" width="270"><figcaption><p>Informativa estesa, consultabile tramite la CTA "Scopri di più"</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Bottom sheet (1).jpg" alt="" width="270"><figcaption><p>Informativa estesa, consultabile tramite la CTA "Scopri di più"</p></figcaption></figure>
 
 {% hint style="info" %}
 **IO non effettua alcun controllo** sull'invariabilità nel tempo dei contenuti di un messaggio a contenuto remoto. L'accuratezza e la disponibilità delle informazioni contenute nel messaggio sono sempre di responsabilità esclusiva dell'Ente mittente.
@@ -93,7 +93,7 @@ Il ciclo di vita di un messaggio a contenuto remoto si compone di due momenti pr
 * L'**invio** (creazione) da parte dei sistemi della tua organizzazione;
 * La **fruizione** (visualizzazione) da parte del destinatario.
 
-<figure><img src="../../../app-io/io-guida-tecnica/v7.2/.gitbook/assets/image (4).png" alt=""><figcaption><p>Le due fasi principali del ciclo di vita di un messaggio a contenuto remoto</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption><p>Le due fasi principali del ciclo di vita di un messaggio a contenuto remoto</p></figcaption></figure>
 
 Entrambe le fasi richiedono un'integrazione tra i tuoi sistemi e quelli di IO.
 
@@ -115,7 +115,7 @@ Come ente mittente, puoi decidere che l’apertura del messaggio debba essere pr
 
 Le precondizioni sono una schermata intermedia tra l'elenco dei messaggi e il dettaglio del messaggio selezionato. L’utente accede al dettaglio del messaggio solo se seleziona il bottone "Continua".
 
-<img src="../../../app-io/io-guida-tecnica/v7.2/.gitbook/assets/Precondizioni.jpg" alt="" data-size="original">
+<img src="../../.gitbook/assets/Precondizioni.jpg" alt="" data-size="original">
 
 Di fatto, la visualizzazione delle precondizioni **porta a un’interruzione del flusso di lettura di un messaggio**. Quindi, è bene utilizzarle solo negli scenari in cui portino effettivamente valore alla tua comunicazione o siano altrimenti richiesti dalla normativa vigente, al fine di non degradare l'esperienza utente.
 
@@ -156,7 +156,7 @@ In fase di creazione di un messaggio a contenuto remoto ( [#has\_remote\_content
 
 **Nota sull'inoltro dei messaggi via email:** Se abilitato dall'utente finale, un messaggio inviato tramite IO può essere inoltrato al suo indirizzo email. L'email contiene l'incipit del corpo del messaggio (i primi 134 caratteri), nonché un invito ad aprire l'app per accedere al contenuto completo tramite CTA che consente il redirect. Ecco un esempio di email di inoltro:
 
-![](<../../../app-io/io-guida-tecnica/v7.2/.gitbook/assets/image (9).png>)
+![](<../../.gitbook/assets/image (9).png>)
 
 </details>
 
