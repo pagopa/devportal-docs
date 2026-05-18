@@ -2,7 +2,7 @@
 
 In questa pagina descriviamo lo scopo di ciascuna componente della piattaforma pagoPA, senza entrare nel dettaglio dei moduli o degli attori appartenenti al dominio dell'Ente Creditore o del Prestatore dei Servizi di Pagamento.
 
-<figure><img src="../../../pago-pa/sanp/3.11.0/.gitbook/assets/overview_componenti_pagopa.png" alt=""><figcaption><p>Macro componenti della piattaforma pagoPA</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/overview_componenti_pagopa.png" alt=""><figcaption><p>Macro componenti della piattaforma pagoPA</p></figcaption></figure>
 
 ## Nodo dei pagamenti
 

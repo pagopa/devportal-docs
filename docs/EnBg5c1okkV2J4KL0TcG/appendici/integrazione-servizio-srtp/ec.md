@@ -44,6 +44,6 @@ L’adozione dello standard porta vantaggi per tutti gli attori coinvolti:
 
 Con riferimento al trattamento dei dati personali, l’Ente Creditore è titolare del trattamento dei dati personali della posizione debitoria e, salvo diversa indicazione da formalizzarsi per iscritto, ai fini del servizio SRTP (SEPA Request-To-Pay) fa proprio l’“Accordo sul trattamento dei dati personali da parte del responsabile del trattamento ai sensi dell’articolo 28 del Regolamento (UE) 2016/679”, nominando, pertanto, la PagoPA S.p.A. quale Responsabile del Trattamento. L'accordo è disponibile al seguente link:
 
-{% file src="../../../pago-pa/sanp/3.11.0/.gitbook/assets/DPA_RTP_v.1.0.pdf" %}
+{% file src="../../.gitbook/assets/DPA_RTP_v.1.0.pdf" %}
 
 Nel caso in cui l’Ente Creditore comunichi di non voler far proprio l’Accordo sul Trattamento dei Dati e/o sue successive eventuali modifiche e aggiornamenti, dovrà effettuare l’opt-out dal servizio SRTP per gli Enti Creditori fintanto che il trattamento dei dati personali non sia disciplinato da altro accordo ai sensi dell’art. 28 del Regolamento (UE) 2016/679.

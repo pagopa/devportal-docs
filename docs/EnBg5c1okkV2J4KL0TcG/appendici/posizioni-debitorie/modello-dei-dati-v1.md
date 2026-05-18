@@ -2,7 +2,7 @@
 
 ### Schema logico (ER)
 
-<p align="center"><img src="../../../pago-pa/sanp/3.11.0/.gitbook/assets/ER-V1.png" alt="ER-V1.png"></p>
+<p align="center"><img src="../../.gitbook/assets/ER-V1.png" alt="ER-V1.png"></p>
 
 La **Posizione Debitoria (Payment Position)** ha le seguenti relazioni:
 

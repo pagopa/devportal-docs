@@ -2,7 +2,7 @@
 
 Durante la descrizione delle interfacce si farà riferimento ad alcune entità le cui relazioni vengono mostrate dal seguente diagramma
 
-<figure><img src="../../pago-pa/sanp/3.11.0/.gitbook/assets/image (1).png" alt=""><figcaption><p>Modello Dati Posizione Debitoria</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>Modello Dati Posizione Debitoria</p></figcaption></figure>
 
 * _Posizione Debitoria_: rappresenta l'entità padre per la quale l'EC vuole ricevere pagamenti tramite la piattaforma. Essa è identificata dallo _IUPD_ (Identificativo Unico Posizione Debitoria) ed è così composta:
   * una o più _Opzioni di pagamento_ (es. Soluzione Unica, Pagamento Rateale, etc.), maggiori informazioni in [Opzioni di pagamento](../ente-creditore/opzioni-di-pagamento/);
@@ -14,7 +14,7 @@ Durante la descrizione delle interfacce si farà riferimento ad alcune entità l
 
 ## Strutture dati di business <a href="#strutture-dati-business" id="strutture-dati-business"></a>
 
-![](../../pago-pa/sanp/3.11.0/.gitbook/assets/oggettiBusiness.png)
+![](../.gitbook/assets/oggettiBusiness.png)
 
 Il _**payment**_ (pagamento) è un oggetto generato dall’EC, gestito dalla piattaforma pagoPA e inoltrato al PSP; l’EC fornisce questo oggetto alla piattaforma pagoPA con la response alla [paGetPayment](../appendici/primitive/ente-creditore/api-soap.md#pagetpayment), la piattaforma pagoPA fornisce questo oggetto al PSP con la response alla [activatePaymentNotice](../appendici/primitive/psp/api-soap.md#activatepaymentnotice-1); l’oggetto _payment_ fornito al PSP contiene un subset di dati inviati dall'EC alla piattaforma pagoPA.
 
@@ -22,11 +22,11 @@ La _**receipt**_ (ricevuta) è un oggetto generato dalla piattaforma pagoPA sull
 
 Il _**flusso di rendicontazione**_ contiene le informazioni che devono essere messe a disposizione dell’EC per effettuare le operazioni di riconciliazione dei pagamenti, tale flusso deve essere reso disponibile ai soggetti interessati a cura del PSP che ha effettuato l’operazione di pagamento, entro e non oltre le ore 24 della seconda giornata lavorativa successiva alla ricezione dell’ordine di pagamento (D+2). I PSP inviano ogni singolo flusso di rendicontazione alla piattaforma pagoPA tramite la primitiva [nodoInviaFlussoRendicontazione](../appendici/primitive/psp/api-soap.md#nodoinviaflussorendicontazione); per la ricezione dei flussi di rendicontazione da parte degli EC le primitive da usare sono la [nodoChiediElencoFlussiRendicontazione](../appendici/primitive/ente-creditore/api-soap.md#nodochiedielencoflussirendicontazione), per avere l'elenco dei flussi disponibili, e la [nodoChiediFlussoRendicontazione](../appendici/primitive/ente-creditore/api-soap.md#nodochiediflussorendicontazione) per scaricare uno specifico flusso.
 
-![](../../pago-pa/sanp/3.11.0/.gitbook/assets/flussiRendicontazione.png)
+![](../.gitbook/assets/flussiRendicontazione.png)
 
 ## Strutture dati di supporto <a href="#strutture-dati-business" id="strutture-dati-business"></a>
 
-![](../../pago-pa/sanp/3.11.0/.gitbook/assets/oggettiSupporto.png)
+![](../.gitbook/assets/oggettiSupporto.png)
 
 Il **Catalogo Dati Informativi** è la struttura dati tramite il quale, ai fini della trasparenza delle operazioni, il Nodo dei Pagamenti-SPC censisce per i PSP i dati sulle condizioni di pagamento (costi massimi del servizio, pagine web con descrizione dei servizi, ecc.), tale catalogo è alimentato con cadenza giornaliera dai PSP stessi.
 
@@ -36,4 +36,4 @@ La Tabella delle controparti estesa è stata deprecata, per ulteriori dettagli f
 
 Il **Catalogo servizi** è utilizzato dai PSP per ottenere i dettagli di particolari servizi offerti da ogni EC, in modo da poter offrire il pagamento spontaneo ([pagamento-spontaneo-presso-psp](../casi-duso/pagamento-spontaneo-presso-psp/ "mention")), tale struttura può essere prelevata tramite la primitiva [nodoChiediCatalogoServizi](../appendici/primitive/psp/api-soap.md#nodochiedicatalogoservizi).
 
-![](<../../pago-pa/sanp/3.11.0/.gitbook/assets/image (40).png>)
+![](<../.gitbook/assets/image (40).png>)

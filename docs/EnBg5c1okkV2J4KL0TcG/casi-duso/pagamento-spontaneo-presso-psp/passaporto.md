@@ -7,7 +7,7 @@ L'utente, dopo aver inserito/fornito i dati che saranno inviati all'ente _Minist
 * codice fiscale, nome e cognome dell'intestatario del passaporto
 * codice fiscale, nome e cognome del pagatore.
 
-<figure><img src="../../../pago-pa/sanp/3.11.0/.gitbook/assets/Screenshot 2025-12-15 alle 09.01.11.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2025-12-15 alle 09.01.11.png" alt=""><figcaption></figcaption></figure>
 
 * La [demandPaymentNotice](../../appendici/primitive/psp/api-soap.md#demandpaymentnotice) è utilizzabile dai PSP per inviare i dati del servizio specifico inseriti dall'utente, che nel caso attuale sono essenzialmente:&#x20;
   * dati dell'intestatario del passaporto

@@ -2,7 +2,7 @@
 
 Questo processo viene attivato nel momento in cui l'operazione di pagamento è avviata dal front end di un EC, il workflow si prefigge lo scopo di aver minor impatto possibile su EC e PSP, infatti, le interfacce di comunicazione sono le stesse utilizzate per il pagamento presso i PSP, quindi ne condividono tutti i presupposti.
 
-<figure><img src="../../pago-pa/sanp/3.11.0/.gitbook/assets/nuovo_modello1_carrello_V3_SANP-Payment_process_activated_by_EC__.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/nuovo_modello1_carrello_V3_SANP-Payment_process_activated_by_EC__.png" alt=""><figcaption></figcaption></figure>
 
 * quando il front end dell'EC riceve la richiesta di pagamento di uno o più avvisi la inoltra con una [redirect](../ente-creditore/modalita-dintegrazione/integrazione-touch-point-dellec-con-checkout.md) a Checkout, l'interfaccia di front end di PagoPA S.p.A.;
 * Checkout, in base al numero di avvisi che ha ricevuto, chiede al Nodo di attivare gli _n_ pagamenti presso l’EC;
