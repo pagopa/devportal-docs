@@ -5,7 +5,7 @@ Erogare il servizio "TARI" tramite IO permette agli enti di:
 * fornire ai cittadini comunicazioni puntuali sullo stato della TARI, coprendo **l’intero ciclo di vita del servizio**.
 * rappresentare per i cittadini un unico punto di riferimento per la ricezione delle comunicazioni riguardanti la TARI su **uno o più immobili, anche di diversi Comuni** e con differenti regolamentazioni, se presenti su IO.
 
-[**Scopri tutti i benefici di integrarsi con IO →**](../../cose-io-e-qual-e-il-suo-obiettivo.md#perche-integrarsi-con-io)
+[**Scopri tutti i benefici di integrarsi con IO →**](../../lapp-io/cose-io-e-qual-e-il-suo-obiettivo.md#perche-integrarsi-con-io)
 
 ### Scheda servizio e attributi
 
@@ -16,7 +16,7 @@ Erogare il servizio "TARI" tramite IO permette agli enti di:
 
 ### **Ciclo di vita del servizio**
 
-<figure><img src="../../../app-io/manuale-servizi/v1.1/.gitbook/assets/Template - SERVIZI-TARI.png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio TARI</strong></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Template - SERVIZI-TARI.png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio TARI</strong></p></figcaption></figure>
 
 ### **Messaggi del servizio**
 

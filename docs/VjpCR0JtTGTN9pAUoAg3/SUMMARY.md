@@ -5,15 +5,13 @@
 
 ## 🔵 L'APP IO
 
-***
-
-* [Cos'è IO e qual è il suo obiettivo](cose-io-e-qual-e-il-suo-obiettivo.md)
-* [Le funzionalità di IO a disposizione degli enti](le-funzionalita-di-io-a-disposizione-degli-enti/README.md)
-  * [Erogare e fare conoscere i servizi su IO](le-funzionalita-di-io-a-disposizione-degli-enti/erogare-e-fare-conoscere-i-servizi-su-io.md)
-  * [Informare i cittadini](le-funzionalita-di-io-a-disposizione-degli-enti/informare-i-cittadini.md)
-  * [Ottenere un pagamento](le-funzionalita-di-io-a-disposizione-degli-enti/ottenere-un-pagamento.md)
-  * [Autenticare con certezza i cittadini](le-funzionalita-di-io-a-disposizione-degli-enti/autenticare-con-certezza-i-cittadini.md)
-  * [Ottenere una firma dai cittadini](le-funzionalita-di-io-a-disposizione-degli-enti/ottenere-una-firma-dai-cittadini.md)
+* [Cos'è IO e qual è il suo obiettivo](lapp-io/cose-io-e-qual-e-il-suo-obiettivo.md)
+* [Le funzionalità di IO a disposizione degli enti](lapp-io/le-funzionalita-di-io-a-disposizione-degli-enti/README.md)
+  * [Erogare e fare conoscere i servizi su IO](lapp-io/le-funzionalita-di-io-a-disposizione-degli-enti/erogare-e-fare-conoscere-i-servizi-su-io.md)
+  * [Informare i cittadini](lapp-io/le-funzionalita-di-io-a-disposizione-degli-enti/informare-i-cittadini.md)
+  * [Ottenere un pagamento](lapp-io/le-funzionalita-di-io-a-disposizione-degli-enti/ottenere-un-pagamento.md)
+  * [Autenticare con certezza i cittadini](lapp-io/le-funzionalita-di-io-a-disposizione-degli-enti/autenticare-con-certezza-i-cittadini.md)
+  * [Ottenere una firma dai cittadini](lapp-io/le-funzionalita-di-io-a-disposizione-degli-enti/ottenere-una-firma-dai-cittadini.md)
 
 ## 🏫 Gli attori di IO
 

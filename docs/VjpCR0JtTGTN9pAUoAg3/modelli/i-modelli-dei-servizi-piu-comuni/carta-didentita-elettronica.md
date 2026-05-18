@@ -5,7 +5,7 @@ Erogare il servizio "Carta d'Identità Elettronica" tramite IO permette agli ent
 * fornire ai cittadini comunicazioni puntuali sugli stati della Carta d'Identità Elettronica (CIE), coprendo **l’intero ciclo di vita del servizio**, dall’inizio alla fine;
 * integrare le comunicazioni, evitando una duplicazione delle notifiche relative allo stato di scadenza della CIE, gestite da ANPR.
 
-[**Scopri tutti i benefici di integrarsi con IO →**](../../cose-io-e-qual-e-il-suo-obiettivo.md#perche-integrarsi-con-io)
+[**Scopri tutti i benefici di integrarsi con IO →**](../../lapp-io/cose-io-e-qual-e-il-suo-obiettivo.md#perche-integrarsi-con-io)
 
 ### Scheda servizio e attributi
 
@@ -17,7 +17,7 @@ Erogare il servizio "Carta d'Identità Elettronica" tramite IO permette agli ent
 
 ### **Ciclo di vita del servizio**
 
-<figure><img src="../../../app-io/manuale-servizi/v1.1/.gitbook/assets/Template - SERVIZI.png" alt="Ciclo di vita ed eventi del servizio Carta d&#x27;Identità Elettronica"><figcaption><p><strong>Ciclo di vita ed eventi del servizio Carta d'Identità Elettronica</strong></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Template - SERVIZI.png" alt="Ciclo di vita ed eventi del servizio Carta d&#x27;Identità Elettronica"><figcaption><p><strong>Ciclo di vita ed eventi del servizio Carta d'Identità Elettronica</strong></p></figcaption></figure>
 
 ### **Messaggi del servizio**
 

@@ -7,7 +7,7 @@ Erogare il servizio "Multe per violazioni al Codice della Strada" tramite IO per
 * **velocizzare i tempi** di riscossione delle multe;
 * **informare sugli avvisi in scadenza**, riducendo la possibilità dei cittadini di incorrere in sanzioni aggiuntive.
 
-[**Scopri tutti i benefici di integrarsi con IO →**](../../cose-io-e-qual-e-il-suo-obiettivo.md#perche-integrarsi-con-io)
+[**Scopri tutti i benefici di integrarsi con IO →**](../../lapp-io/cose-io-e-qual-e-il-suo-obiettivo.md#perche-integrarsi-con-io)
 
 ### Scheda servizio e attributi
 
@@ -18,7 +18,7 @@ Erogare il servizio "Multe per violazioni al Codice della Strada" tramite IO per
 
 ### **Ciclo di vita del servizio**
 
-<figure><img src="../../../app-io/manuale-servizi/v1.1/.gitbook/assets/Multe.png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio multe per violazione del Codice della Strada</strong></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Multe.png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio multe per violazione del Codice della Strada</strong></p></figcaption></figure>
 
 ### Messaggio del servizio
 
@@ -182,7 +182,7 @@ Qui riportiamo alcuni esempi di messaggi che sarà possibile implementare con la
 
 Il modello delle **multe per violazione al Codice della Strada** è connesso con quello di [**Rimozione veicoli**](rimozione-veicoli.md)**,** secondo il seguente ciclo di vita:
 
-<figure><img src="../../../app-io/manuale-servizi/v1.1/.gitbook/assets/Template - Multe + rimozioni.png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio multe per violazione al Codice della Strada e rimozione veicoli</strong></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Template - Multe + rimozioni.png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio multe per violazione al Codice della Strada e rimozione veicoli</strong></p></figcaption></figure>
 
 {% hint style="info" %}
 **Un modello da personalizzare**

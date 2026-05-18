@@ -6,7 +6,7 @@ Erogare il servizio "Rimozione veicoli" tramite IO permette agli enti di:
 * **ridurre i tempi** e i costi del processo di notifica e consegna della contravvenzione;
 * **velocizzare i tempi** di recupero della vettura in caso di blocco o rimozione.
 
-[**Scopri tutti i benefici di integrarsi con IO →**](../../cose-io-e-qual-e-il-suo-obiettivo.md#perche-integrarsi-con-io)
+[**Scopri tutti i benefici di integrarsi con IO →**](../../lapp-io/cose-io-e-qual-e-il-suo-obiettivo.md#perche-integrarsi-con-io)
 
 ### Scheda servizio e attributi
 
@@ -17,7 +17,7 @@ Erogare il servizio "Rimozione veicoli" tramite IO permette agli enti di:
 
 ### **Ciclo di vita del servizio**
 
-<figure><img src="../../../app-io/manuale-servizi/v1.1/.gitbook/assets/Rimozioni.png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio rimozione veicoli</strong></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Rimozioni.png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio rimozione veicoli</strong></p></figcaption></figure>
 
 ### Messaggio del servizio
 
@@ -196,7 +196,7 @@ Qui riportiamo alcuni esempi di messaggi che sarà possibile implementare con la
 
 Il template di **Rimozione veicoli** è connesso con quello di [**Multe per violazione Codice della Strada**](multe-per-violazione-codice-della-strada.md)**,** secondo il seguente ciclo di vita:
 
-<figure><img src="../../../app-io/manuale-servizi/v1.1/.gitbook/assets/Template - Multe + rimozioni.png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio multe per violazione Codice della Strada e rimozione veicoli</strong></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Template - Multe + rimozioni.png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio multe per violazione Codice della Strada e rimozione veicoli</strong></p></figcaption></figure>
 
 {% hint style="info" %}
 **Un modello da personalizzare**

@@ -10,7 +10,7 @@ Ecco una **lista dei passaggi chiave**, utile per assicurarsi che il servizio de
 * [ ] Definisci il contenuto dei messaggi da inviare per ciascun evento
 
 {% hint style="warning" %}
-Se usi uno dei [modelli](broken-reference) in questo manuale, puoi saltare i passaggi appena descritti.&#x20;
+Se usi uno dei [modelli](broken-reference/) in questo manuale, puoi saltare i passaggi appena descritti.
 {% endhint %}
 
 ## :technologist:Integrare il servizio
@@ -26,7 +26,7 @@ Per maggiori dettagli, segui la guida tecnica all'integrazione dei servizi nella
 
 ## :thinking:Valutare il servizio
 
-* [ ] Esegui dei test sulla comprensione e la correttezza dei contenuti di scheda servizio e messaggi, prima di condividerli con i cittadini.&#x20;
+* [ ] Esegui dei test sulla comprensione e la correttezza dei contenuti di scheda servizio e messaggi, prima di condividerli con i cittadini.
 
 {% hint style="info" %}
 PagoPA sta lavorando a dei meccanismi di raccolta feedback da parte degli utenti sui diversi servizi. Eventuali reclami o lamentele saranno gestiti direttamente insieme all'ente erogatore del servizio in questione.
