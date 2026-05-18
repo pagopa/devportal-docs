@@ -2,7 +2,7 @@
 
 I messaggi che veicolano un pagamento sono messaggi che contengono un **avviso di pagamento** e che danno all'utente la possibilità di pagarlo all'interno dell'app tramite il pulsante "Vedi Avviso".
 
-<figure><img src="../../../../app-io/manuale-servizi/v2.6/.gitbook/assets/image (12).png" alt=""><figcaption><p>Esempio di messaggio che veicola un pagamento</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (12).png" alt=""><figcaption><p>Esempio di messaggio che veicola un pagamento</p></figcaption></figure>
 
 Questi messaggi devono:
 
