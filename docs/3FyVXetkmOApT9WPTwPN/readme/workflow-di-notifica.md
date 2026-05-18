@@ -6,7 +6,7 @@ description: Informazioni utili sul Workflow della Notifica
 
 Diagramma degli stati
 
-<figure><img src="../.gitbook/assets/NotificationWorkflowCompleto.drawio.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../send/knowledge-base/v2.5/.gitbook/assets/NotificationWorkflowCompleto.drawio.png" alt=""><figcaption></figcaption></figure>
 
 #### Spiegazione visualizzazione della notifica in caso di passaggio di stato a RETURN\_TO\_SENDER <a href="#descrizione-di-stato-sintetica-della-notifica-nei-casi-di-invio-multi-destinatario" id="descrizione-di-stato-sintetica-della-notifica-nei-casi-di-invio-multi-destinatario"></a>
 

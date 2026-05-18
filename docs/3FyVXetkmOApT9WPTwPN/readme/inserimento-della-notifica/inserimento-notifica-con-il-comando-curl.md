@@ -151,6 +151,8 @@ curl --location 'https://<baseurlAmbiente>/delivery/v2.5/requests' \
     recipients.payment.pagoPaForm.contentType: **"application/pdf"**\
     recipients.payment.pagoPaForm.ref.key: **`<key2>`**\
     recipients.payment.pagoPaForm.ref.versionToken: **`<versionIdPagamento>`**
+* **`<senderTaxId>`** valorizzare il campo con il codice fiscale dell'ente che ha sottoscritto l'accordo di adesione. Questo codice potrebbe essere differente rispetto al codice fiscale dell'ente creditore indicato nei pagamenti pagoPA della notifica stessa.&#x20;
+* **`<senderDenomination>`** valorizzare il campo con il codice fiscale dell'ente che ha sottoscritto l'accordo di adesione. Ai soli fini informativi questo campo può riportare anche la struttura dell'ente per cui viene effettuata la notifica, come ad esempio "_Polizia Locale del comune di Bugliano_". L'ente deve comunque sempre comparire nella denomizione in forma estesa o in forma contratta.
 
 Se la chiamata è andata a buon fine si otterrà una response con httpStatus: 202 ACCEPTED ed il seguente body:
 
@@ -163,5 +165,5 @@ Se la chiamata è andata a buon fine si otterrà una response con httpStatus: 20
 ```
 
 **NOTA:** nel body della response si otterranno i seguenti campi:\
-&#xNAN;**`<notificationRequestId>`:** questo identificativo viene assegnato alla richiesta di notifica appena inserita e potrà essere utilizzato in seguito per verificare se sia stata accettata o meno dalla Piattaforma Notifiche.\
-&#xNAN;**`<paProtocolNumber>`** e **`<idempotenceToken>`:** questi campi sono gli stessi che sono stati inseriti nella precedente richiesta di inserimento Notifica e potranno essere utilizzati, in modo alternativo al **`<notificationRequestId>`** ed insieme tra loro, per conoscere lo stato di accettazione della notifica su Piattaforma Notifiche.
+\- **`<notificationRequestId>`:** questo identificativo viene assegnato alla richiesta di notifica appena inserita e potrà essere utilizzato in seguito per verificare se sia stata accettata o meno dalla Piattaforma Notifiche.\
+\- **`<paProtocolNumber>`** e **`<idempotenceToken>`:** questi campi sono gli stessi che sono stati inseriti nella precedente richiesta di inserimento Notifica e potranno essere utilizzati, in modo alternativo al **`<notificationRequestId>`** ed insieme tra loro, per conoscere lo stato di accettazione della notifica su Piattaforma Notifiche.
