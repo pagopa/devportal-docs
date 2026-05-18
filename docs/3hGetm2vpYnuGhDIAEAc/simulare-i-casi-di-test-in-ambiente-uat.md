@@ -109,10 +109,10 @@ Per testare l'invio analogico con restituzione del recapitista della ricevuta fu
 
 Il portale per accedere come Destinatario è: [https://login.uat.notifichedigitali.it/login](https://login.uat.notifichedigitali.it/login) selezionando "Entra con SPID" poi scegliere il provider "Test" ed inserire Username: **michelangelo** e Password: **password123** dell'utente:
 
-<figure><img src="../send/knowledge-base/v2.4/.gitbook/assets/image (7).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (7).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Una volta effettuato l'accesso, sarà possibile ricercare la notifica inserita tramite lo IUN:
 
-<figure><img src="../send/knowledge-base/v2.4/.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 Entrando nel dettaglio della notifica ed attendendo alcuni secondi, sarà possibile effettuare la visualizzazione della notifica con generazione del relativo evento.

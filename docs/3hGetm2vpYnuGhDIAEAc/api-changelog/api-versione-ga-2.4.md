@@ -16,7 +16,7 @@ La versione GA 2.4 aggiunge una nuova API per gli stream degli eventi del workfl
 
 File di definizione OpenAPI [https://raw.githubusercontent.com/pagopa/pn-delivery/v2.5.0/docs/openapi/api-external-b2b-pa-bundle.yaml](https://raw.githubusercontent.com/pagopa/pn-delivery/v2.5.0/docs/openapi/api-external-b2b-pa-bundle.yaml)
 
-### Segregazione degli stream per gruppi&#x20;
+### Segregazione degli stream per gruppi
 
 Gli stream della versione GA2.4 possono essere associati ad uno o più gruppi, in modo da realizzare una segregazione tra gli eventi delle notifiche che appartengono solo ai gruppi specificati.
 
@@ -28,15 +28,15 @@ Questa modifica permette ad un ente mittente che ha partner tecnologici su ambit
 
 ### Esposizione dettagli degli eventi di timeline
 
-&#x20;La nuova API arricchisce gli eventi di timeline con i dettagli. Dalla lettura dello stream si ottengono tutte le informazioni contenuti nell'elemento di timeline della notifica, in questo modo è possibile eliminare la chiamata ai dettagli della notifica per ottenere queste informazioni.&#x20;
+La nuova API arricchisce gli eventi di timeline con i dettagli. Dalla lettura dello stream si ottengono tutte le informazioni contenuti nell'elemento di timeline della notifica, in questo modo è possibile eliminare la chiamata ai dettagli della notifica per ottenere queste informazioni.
 
-Per i dettagli si rimanda alla pagina [stream-di-timeline](../knowledge-base-di-piattaforma-notifiche/creazione-e-gestione-degli-stream/stream-di-timeline/ "mention")
+Per i dettagli si rimanda alla pagina [stream-di-timeline](../readme/creazione-e-gestione-degli-stream/stream-di-timeline/ "mention")
 
-### Configurazione default del filtro degli eventi di timeline&#x20;
+### Configurazione default del filtro degli eventi di timeline
 
 Per aiutare gli enti nella configurazione del filtro sui numerosi eventi di timeline è stato definito un filtro DEFAULT che contiene tutti gli elementi di principale interesse per il mittente.
 
-Per i dettagli si rimanda alla pagina [stream-di-timeline](../knowledge-base-di-piattaforma-notifiche/creazione-e-gestione-degli-stream/stream-di-timeline/ "mention")
+Per i dettagli si rimanda alla pagina [stream-di-timeline](../readme/creazione-e-gestione-degli-stream/stream-di-timeline/ "mention")
 
 ### Disabilitazione di uno stream
 

@@ -30,7 +30,7 @@ Le nuove operation sulle API sono:
 
 ### Gestione IVA sui costi di invio cartaceo
 
-Per permettere al mittente la gestione dell'applicazione dell'IVA ai costi di invio cartaceo, in base al proprio regime fiscale,  è stato aggiunto alla richiesta di notifica l'elemento _**`vat`**_.
+Per permettere al mittente la gestione dell'applicazione dell'IVA ai costi di invio cartaceo, in base al proprio regime fiscale, è stato aggiunto alla richiesta di notifica l'elemento _**`vat`**_.
 
 Il valore specificato nel campo _**`vat`**_ (IVA) deve essere un valore intero ed è obbligatorio in caso di _`notificationFeePolicy=DELIVERY_MODE` o di notifiche con allegati di pagamento modello F24._
 
@@ -40,24 +40,24 @@ Esempio: IVA al 22% -> specificare l'elemento _**`vat`**_ = 22
 
 ### **Quota del costo di notifica a favore dei mittenti**
 
-Il campo _**`paFee`**_ (quota del costo di notifica a favore dei mittenti), indica l'importo in eurocent da applicare al mittente per coprire i costi della spedizione (Decreto Costi del  30 maggio 2022 all'art. 5, comma 1, lettera a).
+Il campo _**`paFee`**_ (quota del costo di notifica a favore dei mittenti), indica l'importo in eurocent da applicare al mittente per coprire i costi della spedizione (Decreto Costi del 30 maggio 2022 all'art. 5, comma 1, lettera a).
 
 Questo campo diventa obbligatorio per le notifiche che hanno:
 
 * il campo _`notificationFeePolicy=DELIVERY_MODE`_
 * la modalità di integrazione con pagoPA asincrona (_`pagoPaIntMode=ASYNC`_)
-* Nel caso la notifica abbia collegato un pagamento tramite modello_`F24`_
+* Nel caso la notifica abbia collegato un pagamento tramite modello\_`F24`\_
 
 Di default, se non è obbligatorio, l'importo predefinito è di 100 eurocent.
 
-Esempio: quota di copertura spese mittente 1€ -> specificare l'elemento _**`paFee`**_ = 100&#x20;
+Esempio: quota di copertura spese mittente 1€ -> specificare l'elemento _**`paFee`**_ = 100
 
-### **Nuova API retrieveNotificationPriceV23**&#x20;
+### **Nuova API retrieveNotificationPriceV23**
 
 La nuova operation `retrieveNotificationPriceV23` (path`/delivery/v2.3/price/{paTaxId}/{noticeCode}`) affianca la precedente operation `retrieveNotificationPrice` e restituisce tutte le componenti del costo della notifica:
 
 * **partialPrice**: indica il costo totale di notifica in eurocent che non include la componente a rimborso della PA (indicata nell'elemento `paFee` della notifica) e non include l'iva sul costo degli invii cartacei (calcolata sulla percentuale nell'elemento `vat` della notifica);
-* **totalPrice**: indica il costo totale di notifica in eurocent che include la componente a rimborso della PA (indicata nell'elemento `paFee` della notifica) e l'iva sul costo degli invii cartacei (calcolata sulla percentuale nell'elemento `vat` della notifica).  Presente solo se entrambi i campi paFee e vat sono stati valorizzati.
+* **totalPrice**: indica il costo totale di notifica in eurocent che include la componente a rimborso della PA (indicata nell'elemento `paFee` della notifica) e l'iva sul costo degli invii cartacei (calcolata sulla percentuale nell'elemento `vat` della notifica). Presente solo se entrambi i campi paFee e vat sono stati valorizzati.
 * **sendFee**: costo base di SeND per notificazione.
 * **analogCost**: costo totale dei prodotti postali.
 * [**vat**](api-versione-ga-2.3.md#iva): costo IVA applicata ai costi di invio cartaceo.
@@ -65,11 +65,11 @@ La nuova operation `retrieveNotificationPriceV23` (path`/delivery/v2.3/price/{pa
 * **refinementDate**: data di perfezionamento per decorrenza termini.
 * **notificationViewDate**: data di visualizzazione della notifica da parte di un destinatario.\
   \
-  **NOTA sul perfezionamento**: \
+  **NOTA sul perfezionamento**:\
   Perfezionamento per decorrenza termini: è valorizzata solo il campo **refinementDate** oppure sono valorizzati entrambi ma **refinementDate** è precedente a **notificationViewDate**.\
   Perfezionamento per presa visione: è valorizzato solo **notificationViewDate**.\
   Casi anomali: a causa di un ritardo nella rendicontazione dell'invio cartaceo da parte del recapitista potrebbe accadere che una notifica in un determinato momento risulti visualizzata (valorizzato solo **notificationViewDate**), successivamente potrebbe restituire una **refinementDate** è precedente a **notificationViewDate**.\
-  Per ulteriori dettagli: [https://app.gitbook.com/o/KXYtsf32WSKm6ga638R3/s/8hvzBYw259fYwQSqzmf6/\~/changes/15/knowledge-base-di-piattaforma-notifiche/focus-sul-perfezionamento-della-notifica](../knowledge-base-di-piattaforma-notifiche/perfezionamento-della-notifica.md)
+  Per ulteriori dettagli: [https://app.gitbook.com/o/KXYtsf32WSKm6ga638R3/s/8hvzBYw259fYwQSqzmf6/\~/changes/15/knowledge-base-di-piattaforma-notifiche/focus-sul-perfezionamento-della-notifica](../readme/perfezionamento-della-notifica.md)
 
 ### Altre modifiche
 
