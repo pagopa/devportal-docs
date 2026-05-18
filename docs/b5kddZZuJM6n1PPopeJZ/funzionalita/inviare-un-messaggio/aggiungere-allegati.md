@@ -8,7 +8,7 @@ Questa funzionalità è riservata agli enti che hanno sottoscritto il [programma
 
 Sono documenti in formato PDF, mostrati in calce al contenuto del messaggio. Questi allegati vengono recuperati dai sistemi dell'ente mittente **ogni volta** che l'utente accede alla risorsa nell'app IO.
 
-<figure><img src="../../../../app-io/io-guida-tecnica/v7.1/.gitbook/assets/Allegati.png" alt="Esempio di come un utente può visualizzare un messaggio che contiene un allegato."><figcaption><p>Quando l'utente apre un messaggio vengono recuperati, oltre ai metadati del contenuto del messaggio, anche quelli relativi ai metadati (endpoint 1). Il recupero del file vero e proprio avviene tramite l'endpoint 2, ovvero con una GET all'indirizzo <code>{baseUrl}/messages/{id}/{url}</code></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Allegati.png" alt="Esempio di come un utente può visualizzare un messaggio che contiene un allegato."><figcaption><p>Quando l'utente apre un messaggio vengono recuperati, oltre ai metadati del contenuto del messaggio, anche quelli relativi ai metadati (endpoint 1). Il recupero del file vero e proprio avviene tramite l'endpoint 2, ovvero con una GET all'indirizzo <code>{baseUrl}/messages/{id}/{url}</code></p></figcaption></figure>
 
 {% hint style="warning" %}
 Per garantire l'accessibilità e la sicurezza dei documenti, _devi_ utilizzare allegati in formato **PDF/A-2a:** assicurati di rispettare tale specifica.
