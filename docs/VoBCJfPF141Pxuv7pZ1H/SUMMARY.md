@@ -25,7 +25,7 @@
 
 ## Tutorial per acquisti online
 
-* [Accettare un Buono sconto online](tutorial-per-operatore-punto-vendita/accettare-un-buono-sconto-online.md)
+* [Accettare un Buono sconto online](tutorial-per-acquisti-online/accettare-un-buono-sconto-online.md)
 
 ## Riferimenti tecnici
 

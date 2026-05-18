@@ -22,7 +22,7 @@ Il _Venditore_ accede alla _Piattaforma PARI_ attraverso il portale [Area Riserv
 
 Nella alla sezione Punti Vendita è possibile utilizzare la funzionalità **"Inserisci i tuoi punti vendita"** per avviare la procedura di inserimento.
 
-<figure><img src="../../pari/bonuselettrodomestici-manuale-tecnico-venditore/1.0/.gitbook/assets/Panoramica_empty.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Panoramica_empty.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -46,7 +46,7 @@ I campi obbligatori includono:
 * Provincia
 * Contatti dell'Operatore del Punto Vendita
 
-<figure><img src="../../pari/bonuselettrodomestici-manuale-tecnico-venditore/1.0/.gitbook/assets/Fisico - empty.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Fisico - empty.png" alt=""><figcaption></figcaption></figure>
 
 #### Punto vendita online
 
@@ -55,7 +55,7 @@ I campi obbligatori includono:
 * Insegna
 * Indirizzo web completo (es.: https://www.pagopa.it)
 
-<figure><img src="../../pari/bonuselettrodomestici-manuale-tecnico-venditore/1.0/.gitbook/assets/Online - empty.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Online - empty.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -73,6 +73,6 @@ I Punti Vendita correttamente censiti appariranno nell'elenco gestito dal _Vendi
 
 All'indirizzo e-mail specificato verrà inviata una comunicazione che permetterà all'Operatore del Punto Vendita di accedere al _Portale Esercenti._
 
-<figure><img src="../../pari/bonuselettrodomestici-manuale-tecnico-venditore/1.0/.gitbook/assets/Home page (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Home page (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../pari/bonuselettrodomestici-manuale-tecnico-venditore/1.0/.gitbook/assets/Panoramica - info e prodotti.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Panoramica - info e prodotti.png" alt=""><figcaption></figcaption></figure>

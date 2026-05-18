@@ -6,7 +6,7 @@ Di seguito è riportata la definizione degli stati principali che una transazion
 
 
 
-<figure><img src="../../pari/bonuselettrodomestici-manuale-tecnico-venditore/1.0/.gitbook/assets/Stati.png" alt="Diagramma che spiega il cambio dei vari stati"><figcaption><p>Lo schema riepiloga il passaggio tra i vari stati di una transazione.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Stati.png" alt="Diagramma che spiega il cambio dei vari stati"><figcaption><p>Lo schema riepiloga il passaggio tra i vari stati di una transazione.</p></figcaption></figure>
 
 ## Vista degli stati per l'Operatore del punto vendita
 

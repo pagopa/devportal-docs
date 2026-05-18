@@ -39,7 +39,7 @@ L'utente deve compiere i seguenti passaggi:
 
 </details>
 
-<figure><img src="../../pari/bonuselettrodomestici-manuale-tecnico-venditore/1.0/.gitbook/assets/Dati spesa.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Dati spesa.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -49,7 +49,7 @@ Il sistema visualizza una pagina di riepilogo con i dettagli del Buono sconto.&#
 
 Se l'utente finale non usa l'app IO, l'Operatore ha il compito di **controllare la corrispondenza del Codice Fiscale** mostrato dal sistema con quello riportato sulla sua Tessera Sanitaria.
 
-<figure><img src="../../pari/bonuselettrodomestici-manuale-tecnico-venditore/1.0/.gitbook/assets/Dati spesa (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Dati spesa (2).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -60,7 +60,7 @@ Dopo aver completato la verifica:
 * se i dati inseriti o l'identità non sono corretti, l'Operatore deve utilizzare il pulsante **"Esci"** in alto a sinistra;
 * se tutti i dati sono corretti, l'Operatore deve cliccare sul pulsante **"Accetta buono sconto"**.
 
-<figure><img src="../../pari/bonuselettrodomestici-manuale-tecnico-venditore/1.0/.gitbook/assets/Dati spesa (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Dati spesa (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -86,7 +86,7 @@ Dopo aver cliccato "Accetta buono sconto", la transazione verrà mostrata nell'e
 
 L'Operatore può confermare l'operazione cliccando sulla freccia blu dell'operazione e cliccare quindi su "**Conferma pagamento**".
 
-<figure><img src="../../pari/bonuselettrodomestici-manuale-tecnico-venditore/1.0/.gitbook/assets/dettaglio transazione (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/dettaglio transazione (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
