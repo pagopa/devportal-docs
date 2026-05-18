@@ -10,7 +10,7 @@ Con app IO puoi arricchire il testo delle comunicazioni evidenziando parti in gr
 
 
 
-<table><thead><tr><th width="182">Formattazione</th><th width="272">Sintassi</th><th>Risultato</th></tr></thead><tbody><tr><td>grassetto</td><td>Testo in **grassetto**<br>Testo in __grassetto__</td><td><img src="../../app-io/io-guida-tecnica/v5.1/.gitbook/assets/grassetto.png" alt="" data-size="original"></td></tr><tr><td>corsivo</td><td><p>Testo in *corsivo*</p><p>Testo in _corsivo_</p></td><td><img src="../../app-io/io-guida-tecnica/v5.1/.gitbook/assets/corsivo.png" alt="" data-size="original"></td></tr><tr><td>grassetto/corsivo</td><td>Testo in ***grassetto/corsivo***</td><td><img src="../../app-io/io-guida-tecnica/v5.1/.gitbook/assets/grassetto_corsivo.png" alt="" data-size="original"></td></tr><tr><td>spaziatura fissa<br>(nota il <em>backtick</em>!)</td><td><strong>`</strong>Testo a spaziatura fissa<strong>`</strong></td><td><img src="../../app-io/io-guida-tecnica/v5.1/.gitbook/assets/spaziatura_fissa.png" alt="" data-size="original"></td></tr><tr><td>liste puntate</td><td>* Primo elemento\n<br>* Secondo elemento\n<br>  * Elemento indentato\n</td><td><img src="../../app-io/io-guida-tecnica/v5.1/.gitbook/assets/elenco.png" alt="" data-size="original"></td></tr><tr><td>titoli</td><td># Titolo 1\n<br>## Titolo 2\n<br>### Titolo 3\n</td><td><img src="../../app-io/io-guida-tecnica/v5.1/.gitbook/assets/titolo.png" alt="" data-size="original"></td></tr></tbody></table>
+<table><thead><tr><th width="182">Formattazione</th><th width="272">Sintassi</th><th>Risultato</th></tr></thead><tbody><tr><td>grassetto</td><td>Testo in **grassetto**<br>Testo in __grassetto__</td><td><img src="../.gitbook/assets/grassetto.png" alt="" data-size="original"></td></tr><tr><td>corsivo</td><td><p>Testo in *corsivo*</p><p>Testo in _corsivo_</p></td><td><img src="../.gitbook/assets/corsivo.png" alt="" data-size="original"></td></tr><tr><td>grassetto/corsivo</td><td>Testo in ***grassetto/corsivo***</td><td><img src="../.gitbook/assets/grassetto_corsivo.png" alt="" data-size="original"></td></tr><tr><td>spaziatura fissa<br>(nota il <em>backtick</em>!)</td><td><strong>`</strong>Testo a spaziatura fissa<strong>`</strong></td><td><img src="../.gitbook/assets/spaziatura_fissa.png" alt="" data-size="original"></td></tr><tr><td>liste puntate</td><td>* Primo elemento\n<br>* Secondo elemento\n<br>  * Elemento indentato\n</td><td><img src="../.gitbook/assets/elenco.png" alt="" data-size="original"></td></tr><tr><td>titoli</td><td># Titolo 1\n<br>## Titolo 2\n<br>### Titolo 3\n</td><td><img src="../.gitbook/assets/titolo.png" alt="" data-size="original"></td></tr></tbody></table>
 
 {% hint style="info" %}
 Per ottenere l'apice inverso (_backtick_) necessario per il testo a spaziatura fissa puoi usare la combinazione di tasti:
@@ -43,7 +43,7 @@ Queste precauzioni assicurano che il testo Markdown sia interpretato e visualizz
 ## Link
 
 Il Markdown dell'app IO supporta la notazione standard per i link: `[testo](link)`. Ad esempio, il Markdown "`Clicca [qui](https://io.italia.it) per andare sul sito di IO`" produrrà il seguente risultato:\
-<img src="../../app-io/io-guida-tecnica/v5.1/.gitbook/assets/image (32).png" alt="" data-size="original">
+<img src="../.gitbook/assets/image (32).png" alt="" data-size="original">
 
 {% hint style="info" %}
 Per ragioni di sicurezza, i link sono automaticamente rimossi o resi non cliccabili negli inoltri via email dei messaggi inviati sull'app IO.&#x20;
