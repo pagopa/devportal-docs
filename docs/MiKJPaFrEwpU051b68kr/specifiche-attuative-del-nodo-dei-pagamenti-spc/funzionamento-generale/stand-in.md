@@ -8,7 +8,7 @@ description: Migliorare l'Accessibilità ai Pagamenti pagoPA
 
 Lo Stand In è una funzionalità che consente ai cittadini di effettuare i pagamenti degli avvisi pagoPA anche quando i sistemi degli Enti Creditori (EC) non sono disponibili. Questo significa che, in situazioni in cui i sistemi degli EC sono temporaneamente indisponibili, gli utenti possono comunque procedere con i pagamenti senza interruzioni. L'implementazione di questa funzionalità è finalizzata a migliorare le performance e la disponibilità della piattaforma pagoPA.
 
-<figure><img src="../../../pago-pa/sanp/3.6.0/.gitbook/assets/image (53).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (53).png" alt=""><figcaption></figcaption></figure>
 
 ### Funzionalità di Stand In per i pagamenti attivati presso PSP
 

@@ -16,7 +16,7 @@ L’Ente Creditore resta in ogni caso responsabile della correttezza dei dati de
 
 Con riferimento al trattamento dei dati personali, l’Ente Creditore è titolare del trattamento dei dati personali della posizione debitoria e, salvo diversa indicazione da formalizzarsi per iscritto, fa proprio l’ “Accordo sul trattamento dei dati personali da parte del responsabile del trattamento ai sensi dell’articolo 28 del Regolamento (UE) 2016/679”, nominando, pertanto, la PagoPA S.p.A. quale Responsabile del Trattamento. L'accordo è disponibile al seguente link:
 
-{% file src="../../../pago-pa/sanp/3.6.0/.gitbook/assets/DPA_PagoPA_posizioni-debitorie_v1.pdf" %}
+{% file src="../../.gitbook/assets/DPA_PagoPA_posizioni-debitorie_v1.pdf" %}
 
 Qualora l’Ente Creditore si avvalga di un Intermediario Tecnologico e/o Partner Tecnologico come responsabile del trattamento dei dati personali della posizione debitoria, sarà quest’ultimo a far proprio l’Accordo summenzionato, salvo diversa indicazione da formalizzarsi per iscritto. PagoPA S.p.A. agirà, quindi, come sub-responsabile dell’Ente Creditore, presupposta per tale specifica fattispecie una autorizzazione generale dal Titolare al Responsabile di avvalersi di altri responsabili.
 

@@ -16,4 +16,4 @@ Il PSP aderente si impegna a far sì che la propria infrastruttura sia sempre te
 
 ## Backoffice pagoPA
 
-Per i dettagli sull'accesso, le configurazione e l'utilizzo dell'Area Riservata è possibile far riferimento alla seguente sezione  [Manuale operativo Back Office pagoPA](broken-reference).
+Per i dettagli sull'accesso, le configurazione e l'utilizzo dell'Area Riservata è possibile far riferimento alla seguente sezione [Manuale operativo Back Office pagoPA](broken-reference/).

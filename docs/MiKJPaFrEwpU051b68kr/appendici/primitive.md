@@ -2221,88 +2221,88 @@ Altri canali di pagamento
 
 ## EC Checkout API
 
-{% openapi src="../../pago-pa/sanp/3.6.0/.gitbook/assets/checkout.yaml" path="/carts" method="post" %}
-[checkout.yaml](../../pago-pa/sanp/3.6.0/.gitbook/assets/checkout.yaml)
+{% openapi src="../.gitbook/assets/checkout.yaml" path="/carts" method="post" %}
+[checkout.yaml](../.gitbook/assets/checkout.yaml)
 {% endopenapi %}
 
 ## Nuove API - Gestione Flussi di Rendicontazione
 
 Per gli EC:
 
-{% openapi src="../../pago-pa/sanp/3.6.0/.gitbook/assets/fdr_organization.yaml" path="/organizations/{organizationId}/fdrs/{fdr}/revisions/{revision}/psps/{pspId}" method="get" %}
-[fdr_organization.yaml](../../pago-pa/sanp/3.6.0/.gitbook/assets/fdr_organization.yaml)
+{% openapi src="../.gitbook/assets/fdr_organization.yaml" path="/organizations/{organizationId}/fdrs/{fdr}/revisions/{revision}/psps/{pspId}" method="get" %}
+[fdr_organization.yaml](../.gitbook/assets/fdr_organization.yaml)
 {% endopenapi %}
 
-{% openapi src="../../pago-pa/sanp/3.6.0/.gitbook/assets/fdr_organization.yaml" path="/organizations/{organizationId}/fdrs/{fdr}/revisions/{revision}/psps/{pspId}/payments" method="get" %}
-[fdr_organization.yaml](../../pago-pa/sanp/3.6.0/.gitbook/assets/fdr_organization.yaml)
+{% openapi src="../.gitbook/assets/fdr_organization.yaml" path="/organizations/{organizationId}/fdrs/{fdr}/revisions/{revision}/psps/{pspId}/payments" method="get" %}
+[fdr_organization.yaml](../.gitbook/assets/fdr_organization.yaml)
 {% endopenapi %}
 
-{% openapi src="../../pago-pa/sanp/3.6.0/.gitbook/assets/fdr_organization.yaml" path="/info" method="get" %}
-[fdr_organization.yaml](../../pago-pa/sanp/3.6.0/.gitbook/assets/fdr_organization.yaml)
+{% openapi src="../.gitbook/assets/fdr_organization.yaml" path="/info" method="get" %}
+[fdr_organization.yaml](../.gitbook/assets/fdr_organization.yaml)
 {% endopenapi %}
 
-{% openapi src="../../pago-pa/sanp/3.6.0/.gitbook/assets/fdr_organization.yaml" path="/organizations/{organizationId}/fdrs" method="get" %}
-[fdr_organization.yaml](../../pago-pa/sanp/3.6.0/.gitbook/assets/fdr_organization.yaml)
+{% openapi src="../.gitbook/assets/fdr_organization.yaml" path="/organizations/{organizationId}/fdrs" method="get" %}
+[fdr_organization.yaml](../.gitbook/assets/fdr_organization.yaml)
 {% endopenapi %}
 
 Per i PSP:
 
-{% openapi src="../../pago-pa/sanp/3.6.0/.gitbook/assets/fdr_psp.yaml" path="/psps/{pspId}/fdrs/{fdr}/payments/add" method="put" %}
-[fdr_psp.yaml](../../pago-pa/sanp/3.6.0/.gitbook/assets/fdr_psp.yaml)
+{% openapi src="../.gitbook/assets/fdr_psp.yaml" path="/psps/{pspId}/fdrs/{fdr}/payments/add" method="put" %}
+[fdr_psp.yaml](../.gitbook/assets/fdr_psp.yaml)
 {% endopenapi %}
 
-{% openapi src="../../pago-pa/sanp/3.6.0/.gitbook/assets/fdr_psp.yaml" path="/psps/{pspId}/fdrs/{fdr}/publish" method="post" %}
-[fdr_psp.yaml](../../pago-pa/sanp/3.6.0/.gitbook/assets/fdr_psp.yaml)
+{% openapi src="../.gitbook/assets/fdr_psp.yaml" path="/psps/{pspId}/fdrs/{fdr}/publish" method="post" %}
+[fdr_psp.yaml](../.gitbook/assets/fdr_psp.yaml)
 {% endopenapi %}
 
-{% openapi src="../../pago-pa/sanp/3.6.0/.gitbook/assets/fdr_psp.yaml" path="/psps/{pspId}/created/fdrs/{fdr}/organizations/{organizationId}" method="get" %}
-[fdr_psp.yaml](../../pago-pa/sanp/3.6.0/.gitbook/assets/fdr_psp.yaml)
+{% openapi src="../.gitbook/assets/fdr_psp.yaml" path="/psps/{pspId}/created/fdrs/{fdr}/organizations/{organizationId}" method="get" %}
+[fdr_psp.yaml](../.gitbook/assets/fdr_psp.yaml)
 {% endopenapi %}
 
-{% openapi src="../../pago-pa/sanp/3.6.0/.gitbook/assets/fdr_psp.yaml" path="/psps/{pspId}/published/fdrs/{fdr}/revisions/{revision}/organizations/{organizationId}/payments" method="get" %}
-[fdr_psp.yaml](../../pago-pa/sanp/3.6.0/.gitbook/assets/fdr_psp.yaml)
+{% openapi src="../.gitbook/assets/fdr_psp.yaml" path="/psps/{pspId}/published/fdrs/{fdr}/revisions/{revision}/organizations/{organizationId}/payments" method="get" %}
+[fdr_psp.yaml](../.gitbook/assets/fdr_psp.yaml)
 {% endopenapi %}
 
-{% openapi src="../../pago-pa/sanp/3.6.0/.gitbook/assets/fdr_psp.yaml" path="/psps/{pspId}/fdrs/{fdr}" method="post" %}
-[fdr_psp.yaml](../../pago-pa/sanp/3.6.0/.gitbook/assets/fdr_psp.yaml)
+{% openapi src="../.gitbook/assets/fdr_psp.yaml" path="/psps/{pspId}/fdrs/{fdr}" method="post" %}
+[fdr_psp.yaml](../.gitbook/assets/fdr_psp.yaml)
 {% endopenapi %}
 
-{% openapi src="../../pago-pa/sanp/3.6.0/.gitbook/assets/fdr_psp.yaml" path="/psps/{pspId}/fdrs/{fdr}" method="delete" %}
-[fdr_psp.yaml](../../pago-pa/sanp/3.6.0/.gitbook/assets/fdr_psp.yaml)
+{% openapi src="../.gitbook/assets/fdr_psp.yaml" path="/psps/{pspId}/fdrs/{fdr}" method="delete" %}
+[fdr_psp.yaml](../.gitbook/assets/fdr_psp.yaml)
 {% endopenapi %}
 
-{% openapi src="../../pago-pa/sanp/3.6.0/.gitbook/assets/fdr_psp.yaml" path="/psps/{pspId}/published/fdrs/{fdr}/revisions/{revision}/organizations/{organizationId}" method="get" %}
-[fdr_psp.yaml](../../pago-pa/sanp/3.6.0/.gitbook/assets/fdr_psp.yaml)
+{% openapi src="../.gitbook/assets/fdr_psp.yaml" path="/psps/{pspId}/published/fdrs/{fdr}/revisions/{revision}/organizations/{organizationId}" method="get" %}
+[fdr_psp.yaml](../.gitbook/assets/fdr_psp.yaml)
 {% endopenapi %}
 
-{% openapi src="../../pago-pa/sanp/3.6.0/.gitbook/assets/fdr_psp.yaml" path="/info" method="get" %}
-[fdr_psp.yaml](../../pago-pa/sanp/3.6.0/.gitbook/assets/fdr_psp.yaml)
+{% openapi src="../.gitbook/assets/fdr_psp.yaml" path="/info" method="get" %}
+[fdr_psp.yaml](../.gitbook/assets/fdr_psp.yaml)
 {% endopenapi %}
 
-{% openapi src="../../pago-pa/sanp/3.6.0/.gitbook/assets/fdr_psp.yaml" path="/psps/{pspId}/created" method="get" %}
-[fdr_psp.yaml](../../pago-pa/sanp/3.6.0/.gitbook/assets/fdr_psp.yaml)
+{% openapi src="../.gitbook/assets/fdr_psp.yaml" path="/psps/{pspId}/created" method="get" %}
+[fdr_psp.yaml](../.gitbook/assets/fdr_psp.yaml)
 {% endopenapi %}
 
-{% openapi src="../../pago-pa/sanp/3.6.0/.gitbook/assets/fdr_psp.yaml" path="/psps/{pspId}/fdrs/{fdr}/payments/del" method="put" %}
-[fdr_psp.yaml](../../pago-pa/sanp/3.6.0/.gitbook/assets/fdr_psp.yaml)
+{% openapi src="../.gitbook/assets/fdr_psp.yaml" path="/psps/{pspId}/fdrs/{fdr}/payments/del" method="put" %}
+[fdr_psp.yaml](../.gitbook/assets/fdr_psp.yaml)
 {% endopenapi %}
 
-{% openapi src="../../pago-pa/sanp/3.6.0/.gitbook/assets/fdr_psp.yaml" path="/psps/{pspId}/created/fdrs/{fdr}/organizations/{organizationId}/payments" method="get" %}
-[fdr_psp.yaml](../../pago-pa/sanp/3.6.0/.gitbook/assets/fdr_psp.yaml)
+{% openapi src="../.gitbook/assets/fdr_psp.yaml" path="/psps/{pspId}/created/fdrs/{fdr}/organizations/{organizationId}/payments" method="get" %}
+[fdr_psp.yaml](../.gitbook/assets/fdr_psp.yaml)
 {% endopenapi %}
 
-{% openapi src="../../pago-pa/sanp/3.6.0/.gitbook/assets/fdr_psp.yaml" path="/psps/{pspId}/published" method="get" %}
-[fdr_psp.yaml](../../pago-pa/sanp/3.6.0/.gitbook/assets/fdr_psp.yaml)
+{% openapi src="../.gitbook/assets/fdr_psp.yaml" path="/psps/{pspId}/published" method="get" %}
+[fdr_psp.yaml](../.gitbook/assets/fdr_psp.yaml)
 {% endopenapi %}
 
 ## getOrganizationReceipt
 
-{% openapi src="../../pago-pa/sanp/3.6.0/.gitbook/assets/bizEvents (1).yaml" path="/organizations/{organizationfiscalcode}/receipts/{iur}/paymentoptions/{iuv}" method="get" %}
-[bizEvents (1).yaml](<../../pago-pa/sanp/3.6.0/.gitbook/assets/bizEvents (1).yaml>)
+{% openapi src="../.gitbook/assets/bizEvents (1).yaml" path="/organizations/{organizationfiscalcode}/receipts/{iur}/paymentoptions/{iuv}" method="get" %}
+[bizEvents (1).yaml](<../.gitbook/assets/bizEvents (1).yaml>)
 {% endopenapi %}
 
 ## paCreatePosition
 
-{% openapi src="../../pago-pa/sanp/3.6.0/.gitbook/assets/paCreatePosition (3).yaml" path="/paCreatePosition" method="post" %}
-[paCreatePosition (3).yaml](<../../pago-pa/sanp/3.6.0/.gitbook/assets/paCreatePosition (3).yaml>)
+{% openapi src="../.gitbook/assets/paCreatePosition (3).yaml" path="/paCreatePosition" method="post" %}
+[paCreatePosition (3).yaml](<../.gitbook/assets/paCreatePosition (3).yaml>)
 {% endopenapi %}

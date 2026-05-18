@@ -8,7 +8,7 @@ L’attuale workflow di pagamento presso i PSP si prefigge di gestire, ove possi
 * disponibilità delle informazioni essenziali per procedere all’incasso;
 * possibilità di pagamenti concorrenti.
 
-![](../../pago-pa/sanp/3.6.0/.gitbook/assets/nuovoModello3_ENG.png)
+![](../.gitbook/assets/nuovoModello3_ENG.png)
 
 * La [verifyPaymentNotice](../appendici/primitive.md#verifypaymentnotice) è un servizio **OPZIONALE** che non modifica lo stato della posizione debitoria, utilizzabile dai PSP che avviano il pagamento per mezzo del QR code presente nell'avviso analogico o con l’immissione manuale dei dati;
 * la [verificaBollettino](../appendici/primitive.md#verificabollettino) è un servizio **OPZIONALE** che non modifica lo stato della posizione debitoria, è utilizzabile esclusivamente dal PSP Poste Italiane che avvia il pagamento per mezzo del Data Matrix presente nell'avviso analogico, e non per mezzo del QR Code;
