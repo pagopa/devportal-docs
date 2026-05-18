@@ -29,7 +29,7 @@ _Ad esempio, una opzione di pagamento potrebbe avere la seguente suddivisione:_
 
 ### Schema logico (ER)
 
-![](<../../.gitbook/assets/image (14).png>)
+![](<../../.gitbook/assets/image (38).png>)
 
 #### Posizione Debitoria (PD) <a href="#posizione-debitoria-pd" id="posizione-debitoria-pd"></a>
 
@@ -124,4 +124,3 @@ Alcune proprietà rilevanti delle relazioni in questione sono riportate in segui
 * **IBAN**: IBAN su cui incassare i pagamenti spontanei generati per uno specifico servizio
 * **nome ufficio:** ufficio di riferimento per lo specifico servizio
 * **causale versamento**: causale versamento da assegnare ai pagamenti spontanei generati per uno specifico servizio
-

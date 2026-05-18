@@ -1,7 +1,7 @@
 # Integrazione tramite API
 
 {% hint style="info" %}
-Per la gestione degli errori fare riferimento a [Gestione degli errori](http://localhost:5000/o/KXYtsf32WSKm6ga638R3/s/mU2qgiLV1G3m9z1VjAOc/ "mention")
+Per la gestione degli errori fare riferimento a [Gestione degli errori](https://app.gitbook.com/o/KXYtsf32WSKm6ga638R3/s/mU2qgiLV1G3m9z1VjAOc/ "mention")
 {% endhint %}
 
 ## Fase di richiesta di creazione della posizione debitoria

@@ -23,7 +23,7 @@ Ogni PSP può definire 3 tipologie di pacchetto commissionale
 * pubblico → disponibile solo per i pagamenti degli EC che hanno attivato una “convenzione” tramite marketplace;
 * privato → disponibile solo per i pagamenti degli EC che hanno attivato una “convenzione” tramite marketplace su invito del PSP;
 
-![](<../.gitbook/assets/image (7).png>)
+![](<../.gitbook/assets/image (6).png>)
 
 ### Casi d'uso
 

@@ -4,7 +4,7 @@ In questo paragrafo viene descritto come un PSP possa offrire all’interno dell
 
 Un PSP che volesse esser anche acquirer può integrarsi con la piattaforma pagoPA in due diverse modalità:
 
-* configurandosi come merchant sulla piattaforma @POS di NEXI S.p.A.&#x20;
+* configurandosi come merchant sulla piattaforma @POS di NEXI S.p.A.
 * integrando un proprio _payment gateway_ direttamente con la componente Payment Manager di PagoPA S.p.A.
 
 Per entrambe le opzioni la user experience del pagatore si divide fra:
@@ -15,14 +15,14 @@ Per entrambe le opzioni la user experience del pagatore si divide fra:
 In entrambi gli scenari, il processo di pagamento è descritto sinteticamente in questi punti:
 
 * l’utente sceglie o inserisce _ex novo_ i dati dello strumento di pagamento utilizzando le interfacce dei touch point PagoPA;
-* la piattaforma seleziona la modalità di acquiring dando priorità al servizio di pagamento del PSP Issuer dello strumento utilizzato  ( o vi sia evidenza di un rapporto già in essere tra PSP ed utente).
+* la piattaforma seleziona la modalità di acquiring dando priorità al servizio di pagamento del PSP Issuer dello strumento utilizzato ( o vi sia evidenza di un rapporto già in essere tra PSP ed utente).
 * l’utente ha SEMPRE la possibilità di modificare la selezione proposta dalla piattaforma;
 * viene mostrata una pagina di riepilogo del pagamento;
 * alla conferma dell’operazione viene effettuato il pagamento nelle modalità di integrazione del canale selezionato.
 * Ala ricezione dell'autorizzazione del pagamento l'utente viene notificato , mediante apposito messaggio , dell'avvenuto pagamento.
 * Nel momento in cui il PSP selezionato per la transazione accetta la notifica del pagamento, viene inviata una mail all'utente contenente il dettaglio del pagamento eseguito.
 
-Qualora il PSP non accetti il pagamento, la piattaforma procederà a stornare il pagamento eseguito e  notificare per mezzo e-mail l'utente del mancato pagamento.
+Qualora il PSP non accetti il pagamento, la piattaforma procederà a stornare il pagamento eseguito e notificare per mezzo e-mail l'utente del mancato pagamento.
 
 ## **Integrazione e workflow per PSP/Acquirer integrato con Virtual POS**
 
@@ -38,7 +38,7 @@ L’operazione di pagamento avviene in due fasi:
 * autorizzazione
 * contabilizzazione
 
-![](<../../.gitbook/assets/PSP Acquirer (1).png>)
+![](<../../.gitbook/assets/PSP Acquirer.png>)
 
 * avvenuta la selezione dell’acquirer, il pagatore innesca l’azione del client;
 * la piattaforma verifica la disponibilità dell’importo verso l’acquirer tramite una chiamata al payment Gateway / Virtual POS;
@@ -56,12 +56,12 @@ Nel caso in cui il PSP risponda con un KO alla chiamata [pspNotifyPayment](../..
 
 ## **Payment Gateway**
 
-In questo scenario PagoPA S.p.A. si rende disponibile ad un’integrazione specifica con il PSP secondo modi e tempi da concordare, che rifletta in ogni caso i flussi descritti nel precedente paragrafo per garantire una _user experience_ uniforme.&#x20;
+In questo scenario PagoPA S.p.A. si rende disponibile ad un’integrazione specifica con il PSP secondo modi e tempi da concordare, che rifletta in ogni caso i flussi descritti nel precedente paragrafo per garantire una _user experience_ uniforme.
 
 Ogni Payment Gateway dovrà mettere a disposizione della piattaforma
 
-* un servizio di inizializzazione della richiesta autorizzazione del pagamento&#x20;
-* un servizio di verifica dell'autorizzazione&#x20;
-* un servizio di storno ( o annullamento ) del pagamento eseguito&#x20;
+* un servizio di inizializzazione della richiesta autorizzazione del pagamento
+* un servizio di verifica dell'autorizzazione
+* un servizio di storno ( o annullamento ) del pagamento eseguito
 
 la piattaforma renderà disponibile un apposito servizio per acquisire l'autorizzazione richiesta.
