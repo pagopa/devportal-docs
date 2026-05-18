@@ -13,7 +13,7 @@ Un soggetto può connettersi direttamente alla piattaforma pagoPA usufruendo del
 * utilizzo del protocollo di trasporto https con canale cifrato e autenticato mediante Transport Layer Security (TLS) versione 1.2 o superiore, abilitando la mutua autenticazione tra le parti (client-authentication) per quanto riguarda la connettività in uscita dal Nodo dei Pagamenti e utilizzando una api-key per quanto riguarda la connettività in ingresso nel Nodo dei Pagamenti A tal fine è obbligatorio l’utilizzo di certificati digitali x.509 per la creazione del canale TLS. Si fa presente che nel Sistema pagoPA il soggetto direttamente connesso sarà autenticato da parte della piattaforma pagoPA sia in fase di ricezione delle richieste (api-key), sia in fase di spedizione delle stesse (server-authentication);
 * utilizzo di una connessione adeguata a supportare il rispetto dei LdS attesi considerando il volume di transazioni che il soggetto prevede di realizzare.
 
-![](../../pago-pa/sanp/3.6.1/.gitbook/assets/connettività.png)
+![](../.gitbook/assets/connettività.png)
 
 ## Procedura di attivazione della connessione
 
