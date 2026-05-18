@@ -12,9 +12,9 @@ Un **messaggio in bacheca** è una notifica che viene pubblicata all'interno di 
 
 ### Esempi DO/DON'T
 
-| ✅ DO                                                                                                                            | ❌ DON'T                                                                                                                           |
-| ------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
-| <img src="../../../../../pago-pa/lineeguida-messaggi-cortesia/1.1/.gitbook/assets/Message (1).png" alt="" data-size="original"> | <img src="../../../../../pago-pa/lineeguida-messaggi-cortesia/1.1/.gitbook/assets/Message X (1).png" alt="" data-size="original"> |
+| ✅ DO                                                                             | ❌ DON'T                                                                            |
+| -------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
+| <img src="../../../.gitbook/assets/Message (1).png" alt="" data-size="original"> | <img src="../../../.gitbook/assets/Message X (1).png" alt="" data-size="original"> |
 
 {% hint style="info" %}
 Le immagini e le illustrazioni sono a scopo esemplificativo.

@@ -30,7 +30,7 @@ Potrebbe essere utile aggiungere i vantaggi per il cliente:
 
 ### Esempio
 
-### ![](<../../../../../pago-pa/lineeguida-messaggi-cortesia/1.1/.gitbook/assets/Service Detail No CTA (5).png>)
+### ![](<../../../.gitbook/assets/Service Detail No CTA (5).png>)
 
 {% hint style="info" %}
 Il mockup è a scopo esemplificativo.
