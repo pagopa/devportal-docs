@@ -8,4 +8,4 @@ ATTENZIONE: Piattaforma Notifiche memorizza l’istante in cui, per la prima vol
 
 Questo evento genera un’attestazione opponibile ai terzi.<br>
 
-<figure><img src="../../../../../../send/manuale-operativo/v1.0.1/.gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure>
