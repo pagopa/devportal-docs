@@ -1,16 +1,16 @@
 # Integrazione touch point dell’EC con Checkout
 
-Nel caso di [pagamento-presso-frontend-dellec.md](../../casi-duso/pagamento-presso-frontend-dellec.md "mention") l'integrazione con la piattaforma pagoPA  avviene per mezzo di Checkout, un’applicazione web che consente ad ogni utente la navigazione degli strumenti di pagamento resi disponibili dai PSP aderenti alla piattaforma pagoPA.
+Nel caso di [pagamento-presso-frontend-dellec.md](../../casi-duso/pagamento-presso-frontend-dellec.md "mention") l'integrazione con la piattaforma pagoPA avviene per mezzo di Checkout, un’applicazione web che consente ad ogni utente la navigazione degli strumenti di pagamento resi disponibili dai PSP aderenti alla piattaforma pagoPA.
 
 La navigazione del Checkout può avvenire solo in modalità Guest, viene richiesta una mail a cui inviare l’esito dell’operazione.
 
-![](<../../.gitbook/assets/nuovo_modello1_carrello_V3_SANP_EC (2).png>)
+![](../../.gitbook/assets/nuovo_modello1_carrello_V3_SANP_EC.png)
 
 ## Parametri della redirect <a href="#om57nyt5rga1" id="om57nyt5rga1"></a>
 
-L'integrazione con Checkout è attivata per mezzo di una redirect innescata tramite una chiamata   [POST](../../appendici/primitive.md#ec-checkout-api)  specificando i seguenti parametri :&#x20;
+L'integrazione con Checkout è attivata per mezzo di una redirect innescata tramite una chiamata [POST](../../appendici/primitive.md#ec-checkout-api) specificando i seguenti parametri :
 
-* _emailNotice:_ indirizzo mail a cui inviare la ricevuta di pagamento, sarà possibile modificarlo durante il processo di  pagame&#x6E;_&#x74;o_&#x20;
+* _emailNotice:_ indirizzo mail a cui inviare la ricevuta di pagamento, sarà possibile modificarlo durante il processo di pagame&#x6E;_&#x74;o_
 * _idCart:_ identificativo del carrello attribuito dall'EC, il parametro viene inserito in fase di attivazione nel tag _paymentNote_ della [paGetPayment](../../appendici/primitive.md#pagetpayment)
 * _returnUrls_: indirizzi di ritorno sul sito dell'ente creditore
   * returnOkUrl: casi di successo

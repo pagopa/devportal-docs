@@ -1,6 +1,6 @@
 # Overview delle componenti
 
-In questa pagina descriviamo lo scopo di ciascuna componente della piattaforma pagoPA, senza entrare nel dettaglio dei moduli o degli attori appartenenti al dominio dell'Ente Creditore o del Prestatore dei Servizi di Pagamento.&#x20;
+In questa pagina descriviamo lo scopo di ciascuna componente della piattaforma pagoPA, senza entrare nel dettaglio dei moduli o degli attori appartenenti al dominio dell'Ente Creditore o del Prestatore dei Servizi di Pagamento.
 
 <figure><img src="../../.gitbook/assets/overview_componenti_pagopa.png" alt=""><figcaption><p>Macro componenti della piattaforma pagoPA</p></figcaption></figure>
 
@@ -19,7 +19,7 @@ Comprende varie componenti software tra cui le principali sono quelle che permet
 
 ## Gestione posizione debitorie (GPD) <a href="#wsod245r31gy" id="wsod245r31gy"></a>
 
-La componente permette l'integrazione con il nodo dei pagamenti attraverso API Rest da parte degli EC per tutte le funzionalità asincrone descritte dettagliatamente in [posizioni-debitorie](../../appendici/posizioni-debitorie/ "mention").&#x20;
+La componente permette l'integrazione con il nodo dei pagamenti attraverso API Rest da parte degli EC per tutte le funzionalità asincrone descritte dettagliatamente in [posizioni-debitorie](../../appendici/posizioni-debitorie/ "mention").
 
 ## Gestione evoluta commissioni (GEC) <a href="#wsod245r31gy" id="wsod245r31gy"></a>
 
@@ -33,7 +33,7 @@ La componente Checkout inoltre fornisce all’utilizzatore finale funzioni di su
 
 ## IO
 
-<img src="../../.gitbook/assets/image (17).png" alt="" data-size="line">permette di interagire facilmente con diverse Pubbliche Amministrazioni, locali o nazionali, raccogliendo tutti i loro servizi, comunicazioni, pagamenti e documenti in un'unica app, in modo sicuro e sempre a portata di mano.
+<img src="../../.gitbook/assets/image (1).png" alt="" data-size="line">permette di interagire facilmente con diverse Pubbliche Amministrazioni, locali o nazionali, raccogliendo tutti i loro servizi, comunicazioni, pagamenti e documenti in un'unica app, in modo sicuro e sempre a portata di mano.
 
 L'app permette di pagare direttamente da messaggio o avviso cartaceo, riducendo i tempi e i costi d’incasso per l’Ente.
 
@@ -44,23 +44,23 @@ Il portale nasce per offrire ai vari soggetti coinvolti un unico luogo da cui at
 
 L’ente potrà indicare i referenti amministrativi e tecnici (interni) o i partner tecnologici (esterni), autorizzarli all’integrazione di un determinato prodotto e variare queste deleghe in qualsiasi momento. Allo stesso modo le figure tecniche delegate potranno accedere al portale per eseguire le operazioni di integrazione necessarie solo per gli enti da cui abbiano ricevuto delega e solo sui prodotti su cui siano stati autorizzati.
 
-L’introduzione del nuovo portale B2B costituirà un unico back office e permetterà agli enti di gestire in autonomia - dalla propria area riservata - tutti i prodotti in modo semplice, coerente e standardizzato, riducendo l’effort di integrazione e configurazione, oggi realizzate tramite email e processi manuali.&#x20;
+L’introduzione del nuovo portale B2B costituirà un unico back office e permetterà agli enti di gestire in autonomia - dalla propria area riservata - tutti i prodotti in modo semplice, coerente e standardizzato, riducendo l’effort di integrazione e configurazione, oggi realizzate tramite email e processi manuali.
 
-L’adesione e la firma dei contratti e delle convenzioni sarà automatizzato.&#x20;
+L’adesione e la firma dei contratti e delle convenzioni sarà automatizzato.
 
-L’accesso al nuovo portale B2B avverrà attraverso SPID o CIE e ciascun referente amministrativo potrà delegare un subset di funzionalità ai diversi profili utente.&#x20;
+L’accesso al nuovo portale B2B avverrà attraverso SPID o CIE e ciascun referente amministrativo potrà delegare un subset di funzionalità ai diversi profili utente.
 
 A titolo esemplificativo:
 
-* Funzionalità per i PSP:&#x20;
-  * configurazione Catalogo dati informativo&#x20;
-  * gestioni chiavi e certificati per accesso alle primitive&#x20;
-  * download report fatturazioni&#x20;
-* Funzionalità per gli EC:&#x20;
-  * censimento stazioni&#x20;
-  * censimento IBAN&#x20;
-  * gestione chiavi e certificati per accesso alle primitive&#x20;
-  * download report fatturazioni per funzionalità premium&#x20;
+* Funzionalità per i PSP:
+  * configurazione Catalogo dati informativo
+  * gestioni chiavi e certificati per accesso alle primitive
+  * download report fatturazioni
+* Funzionalità per gli EC:
+  * censimento stazioni
+  * censimento IBAN
+  * gestione chiavi e certificati per accesso alle primitive
+  * download report fatturazioni per funzionalità premium
   * configurazioni catalogo servizi per pagamenti spontanei
 
 ## Servizi a valore aggiunto (VAS)
