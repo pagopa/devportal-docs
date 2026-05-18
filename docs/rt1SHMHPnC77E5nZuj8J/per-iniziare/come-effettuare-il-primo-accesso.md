@@ -91,7 +91,7 @@ Per accedere alla _Piattaforma informatica_, seguire i seguenti passaggi.
 
 Collegarsi all'indirizzo del portale presente nella comunicazione ricevuta in precedenza e selezionare la card relativa all'_Elenco informatico degli elettrodomestici_.
 
-<figure><img src="../../pari/bonuselettrodomestici-manuale-tecnico-produttore/1.0/.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -99,7 +99,7 @@ Collegarsi all'indirizzo del portale presente nella comunicazione ricevuta in pr
 
 Prendere visione dei **Termini e condizioni d’uso** e dell’**informativa sul trattamento dei dati personali**.
 
-<figure><img src="../../pari/bonuselettrodomestici-manuale-tecnico-produttore/1.0/.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 ### **Step 3 - Avvio dell'autenticazione**
 
@@ -119,6 +119,6 @@ Una volta completata l'autenticazione con successo, il sistema reindirizzerà il
 
 La prima schermata visualizzata è la sezione **"Panoramica"**, che riepiloga i dati identificativi dell'azienda (Ragione Sociale, Codice Fiscale, Partita IVA). Questa schermata serve a confermare che l'accesso è avvenuto correttamente e che l'utente è associato all'azienda corretta.
 
-<figure><img src="../../pari/bonuselettrodomestici-manuale-tecnico-produttore/1.0/.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 I dati presenti in questa sezione sono di sola lettura. Per eventuali richieste di modifica, è necessario seguire la procedura descritta nel tutorial [Come visualizzare i propri dati anagrafici](../tutorial/come-visualizzare-i-propri-dati-anagrafici.md).

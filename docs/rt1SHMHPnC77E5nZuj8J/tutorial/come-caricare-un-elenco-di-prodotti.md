@@ -94,7 +94,7 @@ Per caricare un nuovo lotto di prodotti, seguire i seguenti passaggi:
 
 Per caricare un nuovo lotto di prodotti, selezionare la voce **"Carica .csv"** nella sezione **"Prodotti"** dalla pagina **"Panoramica".**
 
-<figure><img src="../../pari/bonuselettrodomestici-manuale-tecnico-produttore/1.0/.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 ### Step 2 - Selezionare la tipologia di prodotti
 
@@ -107,7 +107,7 @@ Per quanto riguarda le categorie appena descritte è necessario fare un’ulteri
 * **Piani Cottura** → verranno eseguiti solamente i controlli formali. Non è necessaria alcuna autodichiarazione del _Produttore_ in quanto i dati caricati dal _Produttore_ stesso sono regolamentati dall’Art. 65, comma 1, lett. b) Codice Amministrazione Digitale;
 * **tutte le altre categorie** ad eccezione dei Piani Cottura → ciascun record dei file csv verrà verificato su EPREL al fine di garantire la correttezza e la possibilità a quel prodotto di partecipare all’iniziativa.
 
-<figure><img src="../../pari/bonuselettrodomestici-manuale-tecnico-produttore/1.0/.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 ### **Step 3 - Selezionare e caricare il file**
 

@@ -63,7 +63,7 @@ Dal menu di navigazione, selezionare la voce **"Storico Caricamenti"**.
 
 ### **Step 2 - Visualizzare la tabella dei caricamenti**
 
-<figure><img src="../../pari/bonuselettrodomestici-manuale-tecnico-produttore/1.0/.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 Il sistema mostrerà una tabella contenente l'elenco di tutti i caricamenti effettuati. Per ogni lotto, vengono riportate le seguenti informazioni:
 
