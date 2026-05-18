@@ -14,7 +14,7 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 
 ## **Ciclo di vita del servizio**
 
-<figure><img src="../../app-io/modelli-servizi/v1.0/.gitbook/assets/TARI_xy.png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio TARI</strong></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/TARI_xy.png" alt=""><figcaption><p><strong>Ciclo di vita ed eventi del servizio TARI</strong></p></figcaption></figure>
 
 ## **Messaggi del servizio**
 
@@ -271,5 +271,5 @@ Gli enti che desiderino utilizzarli devono, quindi, modificarli a seconda delle 
 
 Puoi copiare i testi dei messaggi da personalizzare da questo documento:
 
-{% file src="../../app-io/modelli-servizi/v1.0/.gitbook/assets/IO - Template servizi - Tassa sui rifiuti (TARI).xlsx" %}
+{% file src="../.gitbook/assets/IO - Template servizi - Tassa sui rifiuti (TARI).xlsx" %}
 {% endhint %}

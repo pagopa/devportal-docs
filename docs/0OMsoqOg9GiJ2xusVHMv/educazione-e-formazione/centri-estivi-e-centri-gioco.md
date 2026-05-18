@@ -13,7 +13,7 @@ Erogare il servizio tramite l'app IO permette agli enti di:
 
 ## Ciclo di vita del servizio
 
-<figure><img src="../../app-io/modelli-servizi/v1.0/.gitbook/assets/Educazione e formazione_Centri estivi e centri gioco (1).png" alt=""><figcaption><p><strong>Ciclo di vita e eventi del servizio Centri estivi e centri gioco</strong></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Educazione e formazione_Centri estivi e centri gioco (1).png" alt=""><figcaption><p><strong>Ciclo di vita e eventi del servizio Centri estivi e centri gioco</strong></p></figcaption></figure>
 
 ## Messaggi del servizio
 
@@ -435,5 +435,5 @@ Il modello è un esempio che non ha carattere vincolante per l’ente e sul qual
 
 Puoi copiare i testi dei messaggi da personalizzare da questo documento:
 
-{% file src="../../app-io/modelli-servizi/v1.0/.gitbook/assets/IO - Template servizi - Centri estivi e centri gioco.xlsx" %}
+{% file src="../.gitbook/assets/IO - Template servizi - Centri estivi e centri gioco.xlsx" %}
 {% endhint %}
