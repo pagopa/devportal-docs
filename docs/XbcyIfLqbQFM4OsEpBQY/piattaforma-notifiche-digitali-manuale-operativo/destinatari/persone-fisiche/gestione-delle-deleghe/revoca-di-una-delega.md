@@ -2,4 +2,4 @@
 
 Selezionando una delega creata dall’utente nello stato “attiva” e premendo il tasto “Revoca”, PN chiede conferma dell’operazione e quindi cambia lo stato della delega in “revocata”.
 
-<figure><img src="../../../../../send/manuale-operativo/v1.1.1/.gitbook/assets/image (115).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (115).png" alt=""><figcaption></figcaption></figure>

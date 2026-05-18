@@ -4,6 +4,6 @@ Utenti amministratori e tecnici accedono alle notifiche per le quali si è deleg
 
 Utenti amministratori di gruppo e tecnici di gruppo accedono solamente alle notifiche relative a deleghe assegnate al loro gruppo di appartenenza. Queste notifiche sono presentate nella pagina principale di PN come descritto sopra.
 
-<figure><img src="../../../../send/manuale-operativo/v1.1.1/.gitbook/assets/image (114).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (114).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../send/manuale-operativo/v1.1.1/.gitbook/assets/image (136).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (136).png" alt=""><figcaption></figcaption></figure>

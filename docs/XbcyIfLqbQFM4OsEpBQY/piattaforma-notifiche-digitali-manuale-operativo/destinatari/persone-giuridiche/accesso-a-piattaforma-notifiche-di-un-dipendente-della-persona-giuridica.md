@@ -2,7 +2,7 @@
 
 Il dipendente della persona giuridica accede a PN all’indirizzo [https://imprese.notifichedigitali.it](https://imprese.notifichedigitali.it) autenticandosi con la sua identità digitale.
 
-<figure><img src="../../../../send/manuale-operativo/v1.1.1/.gitbook/assets/image (127).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (127).png" alt=""><figcaption></figcaption></figure>
 
 Al primo accesso l’utente deve confermare la presa visione dei termini di servizio (ToS) e dell’informativa privacy.
 
@@ -10,4 +10,4 @@ PN verifica che la persona ha un ruolo per la persona giuridica, in quanto inser
 
 Selezionato di operare per conto dalla persona giuridica, la persona accede con le restrizioni legate al suo ruolo.
 
-<figure><img src="../../../../send/manuale-operativo/v1.1.1/.gitbook/assets/image (88).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (88).png" alt=""><figcaption></figcaption></figure>
