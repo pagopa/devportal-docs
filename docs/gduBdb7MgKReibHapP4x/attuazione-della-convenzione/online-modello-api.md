@@ -31,11 +31,11 @@ Una volta approvata la richiesta di Convenzione da parte del Dipartimento, gli O
 
 <mark style="color:purple;">**Fig. 2**</mark> <mark style="color:purple;">Esempio di carrello di un operatore con il campo di testo per l’inserimento del codice sconto</mark>
 
-![](<../../app-io/carta-giovani-nazionale/v1.2.0/.gitbook/assets/Wallet - Dettaglio carta.png>) ![](<../../app-io/carta-giovani-nazionale/v1.2.0/.gitbook/assets/Esercenti online.png>) ![](https://lh3.googleusercontent.com/eo2VYsKM8h0frCep5A-lBvuxVuweuMhTcc0khfLNMXgf-QRbou-5-Afizl2mq0c0cT21lKfcUFKpMHmNf4tGI86zV1zZcOPro0r2EA8oysFFSprwGDjv_Riyyy-dRw) ![](<../../app-io/carta-giovani-nazionale/v1.2.0/.gitbook/assets/BS offerta - bucket mostra.png>) ![](https://lh5.googleusercontent.com/dnnI6j1qoHvRp7d9Xsy9JX83zsEnLOKjc03ID5knAJQZ7Mn75CtEBo0zm83XFSPFNE-yeVLEtLHKuHgnmQBUOF8kmE3qMqjE2qtETtuxBR98G9ufouCbEBjm73f4bA)
+![](<../.gitbook/assets/Wallet - Dettaglio carta.png>) ![](<../.gitbook/assets/Esercenti online.png>) ![](https://lh3.googleusercontent.com/eo2VYsKM8h0frCep5A-lBvuxVuweuMhTcc0khfLNMXgf-QRbou-5-Afizl2mq0c0cT21lKfcUFKpMHmNf4tGI86zV1zZcOPro0r2EA8oysFFSprwGDjv_Riyyy-dRw) ![](<../.gitbook/assets/BS offerta - bucket mostra.png>) ![](https://lh5.googleusercontent.com/dnnI6j1qoHvRp7d9Xsy9JX83zsEnLOKjc03ID5knAJQZ7Mn75CtEBo0zm83XFSPFNE-yeVLEtLHKuHgnmQBUOF8kmE3qMqjE2qtETtuxBR98G9ufouCbEBjm73f4bA)
 
 <mark style="color:purple;">**Fig.3**</mark> <mark style="color:purple;">Dal dettaglio dell'agevolazione, l'utente genera un codice OTP</mark>
 
-![](../../app-io/carta-giovani-nazionale/v1.2.0/.gitbook/assets/OTP_01.png) ![](../../app-io/carta-giovani-nazionale/v1.2.0/.gitbook/assets/OTP_02.png) ![](../../app-io/carta-giovani-nazionale/v1.2.0/.gitbook/assets/OTP_03.png)
+![](../.gitbook/assets/OTP_01.png) ![](../.gitbook/assets/OTP_02.png) ![](../.gitbook/assets/OTP_03.png)
 
 <mark style="color:purple;">**Fig. 4**</mark> <mark style="color:purple;">Il codice OTP può essere direttamente incollato nel campo dell’e-commerce. Se risulta valido, lo sconto verrà applicato al carrello</mark>
 

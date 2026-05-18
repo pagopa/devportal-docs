@@ -10,7 +10,7 @@ Il flusso di richiesta consiste nella sola verifica dell'età del richiedente, c
 
 Una volta attivata la Carta Giovani Nazionale, sarà sempre accessibile dalla sezione Portafoglio.
 
-![La schermata di dettaglio della CGN, con l'animazione della grafica](<../../app-io/carta-giovani-nazionale/v1.2.0/.gitbook/assets/Simulator Screen Recording - iPhone 12 - 2022-02-03 at 10.24.11.gif>)
+![La schermata di dettaglio della CGN, con l'animazione della grafica](<../.gitbook/assets/Simulator Screen Recording - iPhone 12 - 2022-02-03 at 10.24.11.gif>)
 
 La schermata di dettaglio della CGN è così composta:
 
@@ -21,7 +21,7 @@ La schermata di dettaglio della CGN è così composta:
 
 ### Stati della CGN
 
-![CGN + EYCA - Attiva](<../../app-io/carta-giovani-nazionale/v1.2.0/.gitbook/assets/1. Dettaglio CGN + Eyca - Attiva.png>) ![CGN Attiva](<../../app-io/carta-giovani-nazionale/v1.2.0/.gitbook/assets/2. Dettaglio CGN - Attiva.png>) ![Scaduta](<../../app-io/carta-giovani-nazionale/v1.2.0/.gitbook/assets/3. Dettaglio CGN - Scaduta.png>) ![Revocata](<../../app-io/carta-giovani-nazionale/v1.2.0/.gitbook/assets/4. Dettaglio CGN - Revocata.png>) ![Sospesa](<../../app-io/carta-giovani-nazionale/v1.2.0/.gitbook/assets/5. Dettaglio CGN - Sospesa.png>)
+![CGN + EYCA - Attiva](<../.gitbook/assets/1. Dettaglio CGN + Eyca - Attiva.png>) ![CGN Attiva](<../.gitbook/assets/2. Dettaglio CGN - Attiva.png>) ![Scaduta](<../.gitbook/assets/3. Dettaglio CGN - Scaduta.png>) ![Revocata](<../.gitbook/assets/4. Dettaglio CGN - Revocata.png>) ![Sospesa](<../.gitbook/assets/5. Dettaglio CGN - Sospesa.png>)
 
 La carta può avere i seguenti stati:
 

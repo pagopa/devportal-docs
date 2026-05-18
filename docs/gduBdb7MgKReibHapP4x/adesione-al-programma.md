@@ -12,10 +12,10 @@ Il referente indicato deve essere in possesso di SPID personale per operare sul 
 
 I template dei due documenti sono consultabili in questa pagina.
 
-{% file src="../app-io/carta-giovani-nazionale/v1.2.0/.gitbook/assets/Convenzione.pdf" %}
+{% file src=".gitbook/assets/Convenzione.pdf" %}
 Template del documento di convenzione
 {% endfile %}
 
-{% file src="../app-io/carta-giovani-nazionale/v1.2.0/.gitbook/assets/Allegato 1 - Domanda di adesione.pdf" %}
+{% file src=".gitbook/assets/Allegato 1 - Domanda di adesione.pdf" %}
 Template per la domanda di adesione
 {% endfile %}

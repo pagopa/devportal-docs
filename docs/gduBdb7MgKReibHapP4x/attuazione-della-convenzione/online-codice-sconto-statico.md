@@ -17,6 +17,6 @@ Il codice statico deve essere accettato dall’Operatore sui propri sistemi per 
 
 #### Esperienza utente
 
-![](<../../app-io/carta-giovani-nazionale/v1.2.0/.gitbook/assets/Wallet - Dettaglio carta.png>) ![](<../../app-io/carta-giovani-nazionale/v1.2.0/.gitbook/assets/Esercenti online.png>) ![](<../../app-io/carta-giovani-nazionale/v1.2.0/.gitbook/assets/Dettaglio esercente fisico - online - singola.png>) ![](https://lh4.googleusercontent.com/9sRJyT7f-d4EVZTPw0kAqbQtD_YT1doBxeMLFVw0fySyVBRpTZuV8YdVXUpNv0AZUvSmAveky--gqZiIJl7Tej_woTO--SMw5CwjR_mtOVMb7uuNb2Jh8LDjD_lSCw) ![](<../../app-io/carta-giovani-nazionale/v1.2.0/.gitbook/assets/BS offerta - bucket mostra.png>)
+![](<../.gitbook/assets/Wallet - Dettaglio carta.png>) ![](<../.gitbook/assets/Esercenti online.png>) ![](<../.gitbook/assets/Dettaglio esercente fisico - online - singola.png>) ![](https://lh4.googleusercontent.com/9sRJyT7f-d4EVZTPw0kAqbQtD_YT1doBxeMLFVw0fySyVBRpTZuV8YdVXUpNv0AZUvSmAveky--gqZiIJl7Tej_woTO--SMw5CwjR_mtOVMb7uuNb2Jh8LDjD_lSCw) ![](<../.gitbook/assets/BS offerta - bucket mostra.png>)
 
 <mark style="color:purple;">**Fig. 5**</mark> <mark style="color:purple;">Esperienza d’uso per ricercare il codice sconto di un Operatore che aderisce all’iniziativa tramite Modello codice statico in App IO</mark>
