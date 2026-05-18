@@ -2266,6 +2266,6 @@ _**transfer**_
 
 ## EC Checkout API
 
-{% openapi src="../../pago-pa/sanp/3.2.1/.gitbook/assets/checkout.yaml" path="/carts" method="post" %}
-[checkout.yaml](../../pago-pa/sanp/3.2.1/.gitbook/assets/checkout.yaml)
+{% openapi src="../.gitbook/assets/checkout.yaml" path="/carts" method="post" %}
+[checkout.yaml](../.gitbook/assets/checkout.yaml)
 {% endopenapi %}

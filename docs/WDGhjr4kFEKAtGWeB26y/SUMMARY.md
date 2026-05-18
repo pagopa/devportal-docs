@@ -1,6 +1,6 @@
 # Table of contents
 
-* [⬅ Torna a pagoPA.gov.it](https://www.pagopa.gov.it/)
+* [⬅️ Torna a pagoPA.gov.it](https://www.pagopa.gov.it/)
 
 ## Specifiche attuative del nodo dei pagamenti SPC
 
@@ -74,7 +74,7 @@
 * [Indicatori di qualità per i soggetti aderenti](appendici/indicatori-di-qualita-per-i-soggetti-aderenti/README.md)
   * [Livelli di Servizio Enti Creditori](appendici/indicatori-di-qualita-per-i-soggetti-aderenti/livelli-di-servizio-enti-creditori.md)
   * [Livelli di Servizio PSP](appendici/indicatori-di-qualita-per-i-soggetti-aderenti/livelli-di-servizio-psp.md)
-* [Generazione e stampa degli avvisi](http://localhost:5000/o/KXYtsf32WSKm6ga638R3/s/E9RM3F60OM97FbTVrCW8/)
+* [Generazione e stampa degli avvisi](https://app.gitbook.com/o/KXYtsf32WSKm6ga638R3/s/E9RM3F60OM97FbTVrCW8/)
 * [Gestione evoluta commissioni](appendici/gestione-evoluta-commissioni.md)
 * [Primitive](appendici/primitive.md)
 * [Funzionalità deprecate](appendici/funzionalita-deprecate.md)
