@@ -6,7 +6,7 @@ Se il primo tentativo di invio cartaceo sull'indirizzo fisico fornito dalla PA m
 
 Nel caso che l'indirizzo fornito dalla PA mittente faccia riferimento ad uno Stato estero, non è prevista la ricerca di un nuovo indirizzo da parte dell’operatore postale.
 
-<figure><img src="../../../../send/manuale-operativo/v1.1.3/.gitbook/assets/image (76).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (76).png" alt=""><figcaption></figcaption></figure>
 
 PN riceve dall’operatore postale gli aggiornamenti sullo stato della consegna e la copia digitale conforme di ogni documento generato durante la notificazione (es. ricevuta firmata dal destinatario). Tali documenti sono memorizzati e conservati per 10 anni su PN in modo immutabile e collegati allo IUN in modo tale da poter essere reperiti accedendo al portale.
 

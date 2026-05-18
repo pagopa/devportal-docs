@@ -2,13 +2,13 @@
 
 L’invio manuale di una notifica si effettua premendo il tasto “Invia una nuova notifica" presente nella pagina di accesso "Notifiche".
 
-<figure><img src="../../../../send/manuale-operativo/v1.1.3/.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
 La pagina "Invia una nuova notifica" prevede 5 sezioni di compilazione: informazioni preliminari, destinatario/i, posizione debitoria, dettagli posizione debitoria e allegati.
 
 
 
-<figure><img src="../../../../send/manuale-operativo/v1.1.3/.gitbook/assets/Screenshot 2025-03-27 at 10.27.40.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2025-03-27 at 10.27.40.png" alt=""><figcaption></figcaption></figure>
 
 ### Prima sezione "Informazioni preliminari"
 
@@ -32,7 +32,7 @@ Abbandonando la sezione senza aver premuto il tasto "Continua" le informazioni f
 
 Attenzione: da una qualunque delle cinque sezioni previste per la creazione di una nuova notifica, premendo il tasto in alto a sx "Indietro", l'operatore verrà riportato alla pagina di accesso a PN "Notifiche" e le informazioni inserite nelle sezioni non verranno salvate.
 
-<figure><img src="../../../../send/manuale-operativo/v1.1.3/.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 ### Seconda sezione "Destinatari"
 
@@ -48,7 +48,7 @@ Abbandonando la sezione senza aver premuto il tasto "Continua" le informazioni f
 
 Premendo il tasto "Torna a informazioni preliminari" l'operatore sarà riportato alla sezione precedente.
 
-<figure><img src="../../../../send/manuale-operativo/v1.1.3/.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 ### Terza Sezione "Posizione debitoria"
 
@@ -56,7 +56,7 @@ La terza sezione prevede la scelta della posizione debitoria da aggiungere. La s
 
 Selezionando uno dei pagamenti, si abiliterà il tasto "Continua" e sarà possibile procedere inserendo le informazioni riguardanti quest'ultimo.
 
-<figure><img src="../../../../send/manuale-operativo/v1.1.3/.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 ### Quarta Sezione "Dettaglio posizione debitoria"
 
@@ -84,7 +84,7 @@ Se la notifica prevede più pagamenti, per ognuno di essi le informazioni richie
 
 Compilando correttamente la posizione debitoria si abiliterà il tasto "Continua" e sarà possibile procedere all'ultima sezione.
 
-<figure><img src="../../../../send/manuale-operativo/v1.1.3/.gitbook/assets/image (7).png" alt=""><figcaption><p>F24</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (7).png" alt=""><figcaption><p>F24</p></figcaption></figure>
 
 ### Quinta Sezione "Documenti Allegati"
 
@@ -100,10 +100,10 @@ Abbandonando la sezione senza aver premuto il tasto "Invia" le informazioni fino
 
 Premendo il tasto "Torna al dettaglio posizione debitoria" l'operatore sarà riportato alla sezione precedente.
 
-<figure><img src="../../../../send/manuale-operativo/v1.1.3/.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
 La richiesta di notifica viene sottoposta ad un processo di validazione che normalmente richiede qualche minuto al termine del quale, se non sono stati riscontrati errori, SEND visualizzerà la notifica, ed il relativo Identificativo Univoco della Notifica (IUN)  nella lista di notifiche inviate visibile nella pagina di accesso "Notifiche". Nel caso in cui la creazione non vada a buon fine, la relativa notifica non sarà presente in elenco.&#x20;
 
 A questo punto l’operatore può visualizzare l'avanzamento del processo di notificazione nella pagina di accesso "Notifiche".
 
-<figure><img src="../../../../send/manuale-operativo/v1.1.3/.gitbook/assets/image (47).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (47).png" alt=""><figcaption></figcaption></figure>

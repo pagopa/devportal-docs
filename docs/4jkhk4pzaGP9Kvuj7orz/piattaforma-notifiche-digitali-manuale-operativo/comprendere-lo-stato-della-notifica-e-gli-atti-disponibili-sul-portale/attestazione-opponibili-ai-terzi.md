@@ -16,7 +16,7 @@ In caso di notifica multi destinatario, questa Attestazione è unica e visibile 
 
 &#x20;
 
-<figure><img src="../../../send/manuale-operativo/v1.1.3/.gitbook/assets/image (52).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (52).png" alt=""><figcaption></figcaption></figure>
 
 #### **Attestazione opponibile a terzi: notifica digitale** <a href="#attestazione-opponibile-a-terzi-notifica-digitale" id="attestazione-opponibile-a-terzi-notifica-digitale"></a>
 
@@ -26,7 +26,7 @@ Nel caso di notifica multi destinatario, questa Attestazione attesta l'esito dei
 
 &#x20;
 
-<figure><img src="../../../send/manuale-operativo/v1.1.3/.gitbook/assets/image (43).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (43).png" alt=""><figcaption></figcaption></figure>
 
 #### **Attestazione opponibile a terzi: mancato recapito digitale** <a href="#attestazione-opponibile-a-terzi-mancato-recapito-digitale" id="attestazione-opponibile-a-terzi-mancato-recapito-digitale"></a>
 
@@ -36,7 +36,7 @@ Nel caso di notifica multi destinatario, verranno generate tante attestazioni qu
 
 &#x20;
 
-<figure><img src="../../../send/manuale-operativo/v1.1.3/.gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure>
 
 #### **Attestazione opponibile a terzi: avvenuto accesso (da parte del destinatario)** <a href="#attestazione-opponibile-a-terzi-avvenuto-accesso" id="attestazione-opponibile-a-terzi-avvenuto-accesso"></a>
 
@@ -46,7 +46,7 @@ Nel caso di notifica multi destinatario, questa Attestazione attesta l'avvenuto 
 
 
 
-<figure><img src="../../../send/manuale-operativo/v1.1.3/.gitbook/assets/image (75).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (75).png" alt=""><figcaption></figcaption></figure>
 
 #### **Attestazione opponibile a terzi: avvenuto accesso (da parte del delegato)** <a href="#attestazione-opponibile-a-terzi-avvenuto-accesso" id="attestazione-opponibile-a-terzi-avvenuto-accesso"></a>
 
@@ -54,7 +54,7 @@ Questa Attestazione viene generata quando l'accesso per conto del destinatario d
 
 Nel caso di notifica multi destinatario, questa Attestazione attesta l'avvenuto accesso per conto del singolo destinatario delegante e, quindi verranno generate tante attestazioni quanti sono i co destinatari deleganti e, ciascuno di essi avrà a disposizione/visibilità esclusivamente della propria. Mentre il Mittente le avrà tutte a disposizione.&#x20;
 
-<figure><img src="../../../send/manuale-operativo/v1.1.3/.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
 
 &#x20;**Attestazione opponibile a terzi: malfunzionamento e ripristino**
 
@@ -64,4 +64,4 @@ In caso di notifica multi destinatario, questa Attestazione è unica e visibile 
 
 &#x20;                            &#x20;
 
-<figure><img src="../../../send/manuale-operativo/v1.1.3/.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
