@@ -2200,48 +2200,48 @@ Altri canali di pagamento
 
 ## EC Checkout API
 
-{% openapi src="../../pago-pa/sanp/3.5.0/.gitbook/assets/checkout (3).yaml" path="/carts" method="post" %}
-[checkout (3).yaml](<../../pago-pa/sanp/3.5.0/.gitbook/assets/checkout (3).yaml>)
+{% openapi src="../.gitbook/assets/checkout (3).yaml" path="/carts" method="post" %}
+[checkout (3).yaml](<../.gitbook/assets/checkout (3).yaml>)
 {% endopenapi %}
 
 ## Nuova Gestione Flussi di Rendicontazione
 
-{% openapi src="../../pago-pa/sanp/3.5.0/.gitbook/assets/fdr-swagger.yaml" path="/organizations/{ec}/flows/{fdr}/psps/{psp}" method="get" %}
-[fdr-swagger.yaml](../../pago-pa/sanp/3.5.0/.gitbook/assets/fdr-swagger.yaml)
+{% openapi src="../.gitbook/assets/fdr-swagger.yaml" path="/organizations/{ec}/flows/{fdr}/psps/{psp}" method="get" %}
+[fdr-swagger.yaml](../.gitbook/assets/fdr-swagger.yaml)
 {% endopenapi %}
 
-{% openapi src="../../pago-pa/sanp/3.5.0/.gitbook/assets/fdr-swagger.yaml" path="/organizations/{ec}/flows/{fdr}/psps/{psp}/payments" method="get" %}
-[fdr-swagger.yaml](../../pago-pa/sanp/3.5.0/.gitbook/assets/fdr-swagger.yaml)
+{% openapi src="../.gitbook/assets/fdr-swagger.yaml" path="/organizations/{ec}/flows/{fdr}/psps/{psp}/payments" method="get" %}
+[fdr-swagger.yaml](../.gitbook/assets/fdr-swagger.yaml)
 {% endopenapi %}
 
-{% openapi src="../../pago-pa/sanp/3.5.0/.gitbook/assets/fdr-swagger.yaml" path="/psps/{psp}/flows/{fdr}" method="post" %}
-[fdr-swagger.yaml](../../pago-pa/sanp/3.5.0/.gitbook/assets/fdr-swagger.yaml)
+{% openapi src="../.gitbook/assets/fdr-swagger.yaml" path="/psps/{psp}/flows/{fdr}" method="post" %}
+[fdr-swagger.yaml](../.gitbook/assets/fdr-swagger.yaml)
 {% endopenapi %}
 
-{% openapi src="../../pago-pa/sanp/3.5.0/.gitbook/assets/fdr-swagger.yaml" path="/psps/{psp}/flows/{fdr}" method="delete" %}
-[fdr-swagger.yaml](../../pago-pa/sanp/3.5.0/.gitbook/assets/fdr-swagger.yaml)
+{% openapi src="../.gitbook/assets/fdr-swagger.yaml" path="/psps/{psp}/flows/{fdr}" method="delete" %}
+[fdr-swagger.yaml](../.gitbook/assets/fdr-swagger.yaml)
 {% endopenapi %}
 
-{% openapi src="../../pago-pa/sanp/3.5.0/.gitbook/assets/fdr-swagger.yaml" path="/psps/{psp}/flows/{fdr}/payments/add" method="put" %}
-[fdr-swagger.yaml](../../pago-pa/sanp/3.5.0/.gitbook/assets/fdr-swagger.yaml)
+{% openapi src="../.gitbook/assets/fdr-swagger.yaml" path="/psps/{psp}/flows/{fdr}/payments/add" method="put" %}
+[fdr-swagger.yaml](../.gitbook/assets/fdr-swagger.yaml)
 {% endopenapi %}
 
-{% openapi src="../../pago-pa/sanp/3.5.0/.gitbook/assets/fdr-swagger.yaml" path="/psps/{psp}/flows/{fdr}/payments/del" method="put" %}
-[fdr-swagger.yaml](../../pago-pa/sanp/3.5.0/.gitbook/assets/fdr-swagger.yaml)
+{% openapi src="../.gitbook/assets/fdr-swagger.yaml" path="/psps/{psp}/flows/{fdr}/payments/del" method="put" %}
+[fdr-swagger.yaml](../.gitbook/assets/fdr-swagger.yaml)
 {% endopenapi %}
 
-{% openapi src="../../pago-pa/sanp/3.5.0/.gitbook/assets/fdr-swagger.yaml" path="/psps/{psp}/flows/{fdr}/publish" method="post" %}
-[fdr-swagger.yaml](../../pago-pa/sanp/3.5.0/.gitbook/assets/fdr-swagger.yaml)
+{% openapi src="../.gitbook/assets/fdr-swagger.yaml" path="/psps/{psp}/flows/{fdr}/publish" method="post" %}
+[fdr-swagger.yaml](../.gitbook/assets/fdr-swagger.yaml)
 {% endopenapi %}
 
 ## getOrganizationReceipt
 
-{% openapi src="../../pago-pa/sanp/3.5.0/.gitbook/assets/bizEvents (1).yaml" path="/organizations/{organizationfiscalcode}/receipts/{iur}/paymentoptions/{iuv}" method="get" %}
-[bizEvents (1).yaml](<../../pago-pa/sanp/3.5.0/.gitbook/assets/bizEvents (1).yaml>)
+{% openapi src="../.gitbook/assets/bizEvents (1).yaml" path="/organizations/{organizationfiscalcode}/receipts/{iur}/paymentoptions/{iuv}" method="get" %}
+[bizEvents (1).yaml](<../.gitbook/assets/bizEvents (1).yaml>)
 {% endopenapi %}
 
 ## paCreatePosition
 
-{% openapi src="../../pago-pa/sanp/3.5.0/.gitbook/assets/paCreatePosition.yaml" path="/paCreatePosition" method="post" %}
-[paCreatePosition.yaml](../../pago-pa/sanp/3.5.0/.gitbook/assets/paCreatePosition.yaml)
+{% openapi src="../.gitbook/assets/paCreatePosition.yaml" path="/paCreatePosition" method="post" %}
+[paCreatePosition.yaml](../.gitbook/assets/paCreatePosition.yaml)
 {% endopenapi %}
