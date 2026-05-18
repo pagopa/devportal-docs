@@ -4,9 +4,9 @@ Le schede servizio contengono la **descrizione** dello specifico servizio offert
 
 #### Di seguito un ESEMPIO di scheda servizio: <a href="#o6q8lhbtf5r3" id="o6q8lhbtf5r3"></a>
 
-![](../../app-io/accordi-adesione/v1.0/.gitbook/assets/0)
+![](../.gitbook/assets/0)
 
-![](../../app-io/accordi-adesione/v1.0/.gitbook/assets/1)
+![](../.gitbook/assets/1)
 
 ### Campi obbligatori <a href="#s4gp5hbiuxd1" id="s4gp5hbiuxd1"></a>
 
@@ -49,7 +49,7 @@ In aggiunta ai campi obbligatori, sono disponibili alcuni campi aggiuntivi **fac
 Se il tuo servizio è stato già pubblicato ma non presenta tutti i campi obbligatori qui citati, lo troverai etichettato nel back-office con la scritta “**dati incompleti o incorretti**”: dovrai procedere all’inserimento dei campi mancanti per poter inoltrare la richiesta di pubblicazione del servizio.
 {% endhint %}
 
-![](../../app-io/accordi-adesione/v1.0/.gitbook/assets/2)
+![](../.gitbook/assets/2)
 
 {% hint style="warning" %}
 **Importante!**

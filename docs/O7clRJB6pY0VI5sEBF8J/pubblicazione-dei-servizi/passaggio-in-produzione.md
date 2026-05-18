@@ -4,7 +4,7 @@ Affinché il servizio sia autorizzato al passaggio in produzione, la relativa sc
 
 Quando tutte le operazioni di integrazione tecnologica e compilazione della scheda servizio sono state effettuate, l’ente può sottomettere la richiesta di rendere visibile in app il servizio (per ottenere il passaggio in produzione), cliccando sul bottone “**pubblica il servizio**” esposto nel back-office nella pagina di dettaglio di ciascun servizio.
 
-<div align="center"><img src="../../app-io/accordi-adesione/v1.0/.gitbook/assets/3" alt=""></div>
+<div align="center"><img src="../.gitbook/assets/3" alt=""></div>
 
 Il team di PagoPA verifica che tutta la procedura sia stata eseguita correttamente e:
 
@@ -13,17 +13,17 @@ Il team di PagoPA verifica che tutta la procedura sia stata eseguita correttamen
 
 In ogni momento a partire dalla richiesta di pubblicazione, l’ente potrà verificare all’interno del [back-office](https://developers.italia.it/it/io/) il relativo esito. Il servizio può trovarsi in uno dei seguenti stati:<br>
 
-![](../../app-io/accordi-adesione/v1.0/.gitbook/assets/4)
+![](../.gitbook/assets/4)
 
 * **servizio attivo:** il servizio è visibile in app ed è possibile inviare messaggi all’utenza;
 
-![](../../app-io/accordi-adesione/v1.0/.gitbook/assets/5)
+![](../.gitbook/assets/5)
 
 * **in review**: il servizio è in corso di revisione da parte di PagoPA in seguito alla richiesta di pubblicazione da parte dell’ente;
 
-![](../../app-io/accordi-adesione/v1.0/.gitbook/assets/6)
+![](../.gitbook/assets/6)
 
-![](../../app-io/accordi-adesione/v1.0/.gitbook/assets/7)
+![](../.gitbook/assets/7)
 
 * **dati incompleti o incorretti:** la richiesta di pubblicazione del servizio è stata rifiutata o non è possibile darvi seguito per una delle seguenti ragioni:
 * PagoPA non ha ricevuto il contratto di adesione (via PEC);
