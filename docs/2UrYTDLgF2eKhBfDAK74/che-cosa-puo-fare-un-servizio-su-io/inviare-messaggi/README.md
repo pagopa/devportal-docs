@@ -6,7 +6,7 @@ L'ente può interrogare il back end rispetto al Codice Fiscale di un utente di c
 
 Ne consegue che **è escluso sia l’invio di comunicazioni massive** alla totalità dell’utenza di IO, **sia l’invio a utenti che non siano destinatari diretti** dei servizi erogati.
 
-![Esempio di messaggi inviati a un utente su IO](../../../app-io/manuale-servizi/v2.2/.gitbook/assets/msg.png)
+![Esempio di messaggi inviati a un utente su IO](../../.gitbook/assets/msg.png)
 
 ## Tipologie di messaggi
 
