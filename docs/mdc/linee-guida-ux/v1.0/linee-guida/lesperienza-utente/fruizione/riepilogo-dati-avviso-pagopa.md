@@ -16,4 +16,3 @@ Maggiori dettagli nel [**glossario**](../../glossario.md)**.**
 ### 💡 Consiglio
 
 Eliminare le distrazioni per guidare l’utente verso l’azione di attivazione del servizio.
-

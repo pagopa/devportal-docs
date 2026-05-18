@@ -10,7 +10,7 @@ Un **messaggio in bacheca** è una notifica che viene pubblicata all'interno di 
 * É importante veicolare correttamente il messaggio all'utente: una volta attivato il servizio, riceverà semplicemente dei **messaggi di cortesia,** degli **avvisi**. L'utente NON riceverà direttamente la comunicazione a valore legale. Quest'ultima sarà visibile solo su SEND
 * Parlare di **Comunicazioni a valore legale** e NON di notifiche
 
-### Esempi DO/DON'T&#x20;
+### Esempi DO/DON'T
 
 | ✅ DO                                                                             | ❌ DON'T                                                                            |
 | -------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |

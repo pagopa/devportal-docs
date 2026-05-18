@@ -2,7 +2,6 @@
 
 * [👋 Introduzione](README.md)
 * [💁 Premessa](premessa.md)
-* [🆕 Changelog](changelog.md)
 
 ## LINEE GUIDA
 
@@ -18,6 +17,5 @@
     * [Riepilogo dati avviso pagoPA](linee-guida/lesperienza-utente/fruizione/riepilogo-dati-avviso-pagopa.md)
     * [Conferma pagamento](linee-guida/lesperienza-utente/fruizione/conferma-pagamento.md)
   * [Disattivazione](linee-guida/lesperienza-utente/disattivazione.md)
-* [❓ Contenuti utili all'assistenza](linee-guida/contenuti-utili-allassistenza.md)
 * [📄 Glossario](linee-guida/glossario.md)
 * [✅ Review e approvazione](linee-guida/review-e-approvazione.md)
