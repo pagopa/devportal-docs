@@ -12,4 +12,4 @@ Uno dei momenti chiave in cui intercettare l'utente, è al termine della lettura
 
 ### **Esempio**
 
-<figure><img src="../../srtp/linee-guida-ux/1.0/.gitbook/assets/image (58).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (58).png" alt=""><figcaption></figcaption></figure>
