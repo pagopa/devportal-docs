@@ -2,7 +2,7 @@
 
 Gli enti che hanno sottoscritto un **contratto Premium**, possono inviare messaggi con dei documenti allegati.
 
-<figure><img src="../../../app-io/manuale-servizi/v2.5/.gitbook/assets/image (14).png" alt=""><figcaption><p>Esempio di messaggio con allegato premium</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (14).png" alt=""><figcaption><p>Esempio di messaggio con allegato premium</p></figcaption></figure>
 
 Questi allegati:
 

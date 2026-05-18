@@ -13,7 +13,7 @@ IO va quindi considerata come una **piattaforma** che mette a disposizione degli
 * pagamenti;
 * servizi e collegamenti esterni.
 
-<figure><img src="../../app-io/manuale-servizi/v2.5/.gitbook/assets/image.png" alt=""><figcaption><p>Le sezioni principali dell'app IO</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>Le sezioni principali dell'app IO</p></figcaption></figure>
 
 IO è un progetto in **continua evoluzione**: le sue funzionalità e l'integrazione con altri prodotti e servizi di PagoPA S.p.A sono destinate a **crescere nel corso degli anni** per rispondere alle nuove esigenze degli enti in maniera strutturata, senza appesantire l'app con sviluppi personalizzati.
 
