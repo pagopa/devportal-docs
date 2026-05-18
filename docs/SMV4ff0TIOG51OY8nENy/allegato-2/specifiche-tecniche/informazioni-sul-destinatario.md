@@ -4,7 +4,7 @@ description: È la sezione che contiene i dati di chi riceve l'avviso di pagamen
 
 # Informazioni sul Destinatario
 
-![Dettaglio della sezione "Informazioni sul Destinatario" all'interno dell'avviso di pagamento pagoPA.](<../../../pago-pa/avviso-pagamento/3.3.0/.gitbook/assets/Ente e Destinatario.png>)
+![Dettaglio della sezione "Informazioni sul Destinatario" all'interno dell'avviso di pagamento pagoPA.](<../../.gitbook/assets/Ente e Destinatario.png>)
 
 ### `DESTINATARIO.CF` <a href="#destinatario-cf" id="destinatario-cf"></a>
 
