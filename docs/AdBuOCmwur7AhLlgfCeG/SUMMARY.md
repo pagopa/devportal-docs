@@ -5,10 +5,8 @@
 
 ## 🖊️ FIRMA CON IO
 
-***
-
-* [🖊️ Cos'è Firma con IO?](cose-firma-con-io.md)
-* [Come funziona?](come-funziona.md)
+* [🖊️ Cos'è Firma con IO?](firma-con-io/cose-firma-con-io.md)
+* [Come funziona?](firma-con-io/come-funziona.md)
 
 ## 🖱️ BACK OFFICE
 

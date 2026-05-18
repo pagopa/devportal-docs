@@ -10,7 +10,7 @@ Ricorda che puoi sempre indicare un **indirizzo email di assistenza diverso** pe
 
 <summary>Step 1 - Accedi all'Area Riservata</summary>
 
-![](<../../firma-con-io/manuale-operativo/v1.0/.gitbook/assets/Screenshot 2023-09-15 alle 11.44.26.png>)
+![](<../.gitbook/assets/Screenshot 2023-09-15 alle 11.44.26.png>)
 
 Entra nell'[Area Riservata](https://selfcare.pagopa.it/auth/login) e seleziona il tuo Ente per poter iniziare a creare le API Key che ti serviranno per integrarti con Firma con IO.
 
