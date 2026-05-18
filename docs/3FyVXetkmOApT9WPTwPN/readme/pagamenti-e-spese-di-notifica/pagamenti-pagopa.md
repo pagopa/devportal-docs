@@ -60,7 +60,7 @@ I componenti che compongono il costo della notifica vengono specificati una volt
 
 ### Descrizione del processo step-by-step
 
-<figure><img src="../../../send/knowledge-base/v2.5/.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>Diagramma del processo di attualizzazione delle spese di Notifica</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>Diagramma del processo di attualizzazione delle spese di Notifica</p></figcaption></figure>
 
 1. **Accesso Notifica**: il destinatario/delegato accede al dettaglio della notifica e clicca sul pulsante “Paga”
 2. **Pagamento**: il destinatario/delegato clicca su pulsante paga e passa sul sito checkout di pagoPA. SEND invia i dati Codice Ente Creditore e Numero Avviso, per cui l'utente non deve digitarli manualmente.
@@ -122,11 +122,11 @@ Sull'avviso pagoPA con numero `302011777777777777` è indicato che devono essere
 
 Se la notifica viene depositata tramite il portale mittente con l’invio manuale, l’indicazione dell'applicazione dei costi di notifica può essere configurata selezionando la checkbox **“Non incluso nell’atto”**.
 
-<figure><img src="../../../send/knowledge-base/v2.5/.gitbook/assets/PagamentoFE.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/PagamentoFE.png" alt="" width="375"><figcaption></figcaption></figure>
 
 Quando viene selezionata questa modalità appaiono i campi per l'indicazione della componente a copertura dei costi sostenuti dal mittenti e l'IVA da applicare al costo degli invii cartacei. Inoltre, nel pannello "Posizione debitoria" sottostante, viene attivato il pulsante **“Applica costo di notifica”**, per indicare che al pagamento deve essere aggiunto l'importo del costo della notifica.
 
-<figure><img src="../../../send/knowledge-base/v2.5/.gitbook/assets/PagamentoFE2.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/PagamentoFE2.png" alt="" width="375"><figcaption></figcaption></figure>
 
 #### Modalità forfettaria
 
@@ -152,4 +152,4 @@ Nella modalità forfettaria l'API di costo della nofica restituirà sempre `tota
 
 Nel portale **Self Care**, selezionando il pagamento in modalità **forfettaria**, la checkbox **“Incluso nell’atto”** non abilita il pulsante **“Applica costo di notifica”**, in quanto il costo è già incluso nell'atto stesso indipendentemente dai costi effettivi di notifica del mittente.
 
-<div><figure><img src="../../../send/knowledge-base/v2.5/.gitbook/assets/PagamentoFE3.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../send/knowledge-base/v2.5/.gitbook/assets/PagamentoFE4.png" alt=""><figcaption></figcaption></figure></div>
+<div><figure><img src="../../.gitbook/assets/PagamentoFE3.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/PagamentoFE4.png" alt=""><figcaption></figcaption></figure></div>

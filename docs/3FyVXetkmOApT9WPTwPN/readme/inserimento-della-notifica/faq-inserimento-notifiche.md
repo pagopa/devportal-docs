@@ -220,11 +220,11 @@ Per permettere la visualizzazione della funzione di pagamento online, la PA Mitt
 
 A questo punto bisogna entrare nel portale lato cittadino, accedere al dettaglio della notifica appena inviata ed apparirà la voce _Paga XXX_ per pagare online come in foto.
 
-![](<../../../send/knowledge-base/v2.5/.gitbook/assets/image (8) (2).png>)
+![](<../../.gitbook/assets/image (8) (2).png>)
 
 Se invece la PA Mittente ha inserito il bollettino di pagamento separatamente dall'atto, all'interno del campo NewNotificationRequest.recipients.payments.**pagoPa,** entrando nel portale lato cittadino ed accedendo al dettaglio della notifica appena inviata, apparirà la voce _Paga XXX_ per pagare online e _Scarica l'avviso PagoPA_ per scaricare il bollettino di pagamento come in foto.
 
-<img src="../../../send/knowledge-base/v2.5/.gitbook/assets/image (46).png" alt="" data-size="original">
+<img src="../../.gitbook/assets/image (46).png" alt="" data-size="original">
 
 #### Come posso testare il caso d'uso della Multa per violazione del Codice della Strada?
 

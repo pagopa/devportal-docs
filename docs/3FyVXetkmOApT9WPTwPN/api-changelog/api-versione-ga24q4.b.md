@@ -57,7 +57,7 @@ Il download della copia conforme può essere effettuato come per gli altri docum
 
 A titolo di esempio si evidenziano le parti aggiunte in fase di stampa.
 
-<figure><img src="../../send/knowledge-base/v2.5/.gitbook/assets/CopiaAAR.jpg" alt=""><figcaption><p>Esempio degli elementi aggiunti in fase di stampa</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/CopiaAAR.jpg" alt=""><figcaption><p>Esempio degli elementi aggiunti in fase di stampa</p></figcaption></figure>
 
 ## API di stato della piattaforma
 

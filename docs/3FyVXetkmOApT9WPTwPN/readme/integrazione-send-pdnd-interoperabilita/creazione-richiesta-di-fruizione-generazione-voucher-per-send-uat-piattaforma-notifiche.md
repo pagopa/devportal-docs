@@ -16,17 +16,17 @@ E' possibile accedere ad Interoperabilità da qui:\
 [https://selfcare.pagopa.it/auth/login](https://selfcare.pagopa.it/auth/login)\
 inserendo le credenziali SPID/CIE dell'Amministratore. Una volta entrati, apparirà l'elenco degli Enti associati e sarà necessario selezionare quello di interesse ed accedere, poi selezionare la card:
 
-<figure><img src="../../../send/knowledge-base/v2.5/.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 e selezionare "Collaudo"
 
-![](<../../../send/knowledge-base/v2.5/.gitbook/assets/image (29).png>)
+![](<../../.gitbook/assets/image (29).png>)
 
 ### Creare una richiesta di fruizione per l'e-service di SEND - UAT
 
 Per inviare una richiesta di fruizione bisogna prima cercare l'e-service andando su _Fruizione > Catalogo e-service:_
 
-<figure><img src="../../../send/knowledge-base/v2.5/.gitbook/assets/image (5) (2).png" alt="" width="366"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (2).png" alt="" width="366"><figcaption></figcaption></figure>
 
 poi avviare la ricerca dell'e-service di SEND - UAT e cliccare su _Richiedi fruizione_ creando una bozza di richiesta dove inserire tutte le informazioni richieste, tra cui gli attributi, che si dividono in:
 
@@ -40,7 +40,7 @@ il video-tutorial è qui:\
 
 Quando la richiesta di fruizione è stata compilata con successo, cliccare su "Inoltra richiesta di fruizione"
 
-<figure><img src="../../../send/knowledge-base/v2.5/.gitbook/assets/image (44).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (44).png" alt="" width="375"><figcaption></figcaption></figure>
 
 Una volta che la richiesta di fruizione è stata inviata, questa verrà esaminata dall'Erogatore che dovrà approvarla. È sempre possibile verificare lo stato delle richieste di fruizione presentate andando su _Fruizione > Le tue richieste_.
 
@@ -48,7 +48,7 @@ Una volta che la richiesta di fruizione è stata inviata, questa verrà esaminat
 
 A seguito dell'approvazione della richiesta di fruizione per l'e-service di SEND - UAT è necessario creare una finalità andando su _Fruizione > Finalità inoltrate_ e cliccando "**+1 Crea Nuovo**"_._
 
-<figure><img src="../../../send/knowledge-base/v2.5/.gitbook/assets/image (11).png" alt="" width="150"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (11).png" alt="" width="150"><figcaption></figcaption></figure>
 
 Compilare tutti i dati che appaiono sul Form, in particolare:
 
@@ -57,24 +57,24 @@ Compilare tutti i dati che appaiono sul Form, in particolare:
 
 nella pagina successive bisogna compilare la sezione di analisi del rischio ed infine cliccare su "Crea bozza finalità" per pubblicare la finalità.
 
-<figure><img src="../../../send/knowledge-base/v2.5/.gitbook/assets/image (8) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ### Associare un client ad una finalità
 
 Il client è un contenitore di materiale crittografico nel quale vengono inseriti un numero discrezionale di operatori di sicurezza, che sono autorizzati a caricare la chiave pubblica del materiale crittografico in loro possesso.\
 Per creare un nuovo client bisogna andare nella sezione _Gestione dei Client > API e-service_ e cliccando su "**+1 Crea Nuovo**"
 
-<figure><img src="../../../send/knowledge-base/v2.5/.gitbook/assets/image (12).png" alt="" width="147"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12).png" alt="" width="147"><figcaption></figcaption></figure>
 
 Compilare tutti i dati che appaiono sul Form, selezionando tra gli operatori quelli abilitati ad operare nel back-office.
 
 Una volta creato un client, sarà possibile associarlo ad una finalità, entrando in _Fruizione > Finalità inoltrate,_ poi nel tab "Client associati" cliccare su "+1 Aggiungi"
 
-<figure><img src="../../../send/knowledge-base/v2.5/.gitbook/assets/image (12) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Infine apparirà un menù a tendina che permette di selezionare i client da associare:\\
 
-<figure><img src="../../../send/knowledge-base/v2.5/.gitbook/assets/image (26).png" alt="" width="302"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (26).png" alt="" width="302"><figcaption></figcaption></figure>
 
 I client possono anche essere riutilizzabili su più finalità e modificati successivamente.
 
@@ -82,11 +82,11 @@ I client possono anche essere riutilizzabili su più finalità e modificati succ
 
 Seleziona la voce di menu _Gestione dei Client -> API e-service,_ accedere al tab "Chiavi pubbliche" e cliccare sul pulsante "+1 Aggiungi"
 
-<figure><img src="../../../send/knowledge-base/v2.5/.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
 
 Apparirà una finestra che permette di inserire il nome e la chiave pubblica associata al client.
 
-<figure><img src="../../../send/knowledge-base/v2.5/.gitbook/assets/image (1) (1).png" alt="" width="304"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt="" width="304"><figcaption></figcaption></figure>
 
 Per generare il materiale crittografico, bisogna aprire il terminale e incollare i comandi che seguono, uno alla volta:
 
@@ -106,11 +106,11 @@ A questo punto è necessario generare il Voucher da inserire come Authorization 
 
 **1) Selezione Parametri:** Sceglire finalità e chiave da utilizzare definite nei passi precedenti.
 
-<figure><img src="../../../send/knowledge-base/v2.5/.gitbook/assets/image (17).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (17).png" alt="" width="375"><figcaption></figcaption></figure>
 
 **2) Client assertion:** Cliccando sul pulsante "Avanti" vengono mostrati tutti i parametri per la creazione della client assertion e un esempio di script per la generazione:
 
-<figure><img src="../../../send/knowledge-base/v2.5/.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
 
 **NOTA:** modificare la variabile `PATH_CHIAVE_PRIVATA` con il percorso del file contente la chiave privata generata al punto precedente. Per creare la client assertion è possibile utilizzare il codice:\
 [https://github.com/pagopa/pn-b2b-client/blob/develop/create-client-assertion/src/main/java/it/pagopa/pdnd/CreateClientAssertionApp.java](https://github.com/pagopa/pn-b2b-client/blob/develop/create-client-assertion/src/main/java/it/pagopa/pdnd/CreateClientAssertionApp.java)
@@ -119,7 +119,7 @@ E' disponibile il corrispettivo codice java della classe per generare la "Client
 
 **3) Voucher**: Salviamo l'output ottenuto ed andiamo nella terza passo dove dovremo lanciare il comando che troviamo nella pagina in basso per chiedere a PDND di gererare un token "Voucher".
 
-<figure><img src="../../../send/knowledge-base/v2.5/.gitbook/assets/image (14).png" alt="" width="447"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (14).png" alt="" width="447"><figcaption></figcaption></figure>
 
 **NOTA:** modificare la variabile `LA_TUA_CLIENT_ASSERTION` con l'output ottenuto al punto precedente 2.\
 Per riprodurre il comando si può anche prendere come esempio questo codice: [https://github.com/pagopa/pn-b2b-client/blob/102ba3b4d790a3ccd378bd187525d8cb6937ff07/src/main/java/it/pagopa/pn/client/b2b/pa/impl/PnPaB2bExternalClientImpl.java#L199-L212](https://github.com/pagopa/pn-b2b-client/blob/102ba3b4d790a3ccd378bd187525d8cb6937ff07/src/main/java/it/pagopa/pn/client/b2b/pa/impl/PnPaB2bExternalClientImpl.java#L199-L212)
@@ -138,6 +138,6 @@ Per chiamare i servizi PND sarà necessario utilizzare la baseUrl dell'Ambiente 
 
 \
 Inoltre sarà necessario generare delle nuove APIKey per l'Ambiente UAT effettuando l'accesso da qui: [https://selfcare.uat.notifichedigitali.it/](https://selfcare.uat.notifichedigitali.it/) con le stesse credenziali ottenute in fase di Onboarding, poi selezionare l'Ente di riferimento, cliccare su Piattaforma Notifiche UAT:\
-![](<../../../send/knowledge-base/v2.5/.gitbook/assets/image (43).png>)
+![](<../../.gitbook/assets/image (43).png>)
 
 e generare le APIKey da utilizzare come header `x-api-key` unitamente al Voucher appena creato inviato con l'header `"Authorization: Bearer <Voucher>"`.

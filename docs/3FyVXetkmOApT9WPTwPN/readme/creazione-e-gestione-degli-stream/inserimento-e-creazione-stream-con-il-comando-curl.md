@@ -96,7 +96,7 @@ All'interno del **filterValues** è possibile inserire un array di eventi di tip
 \
 Aprire la scheda **Crea nuovo stream di eventi** ed inserire nel body il seguente payload:
 
-<figure><img src="../../../send/knowledge-base/v2.5/.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
 **-NOTA:** sostituire i seguenti:
 
@@ -111,7 +111,7 @@ Aprire la scheda **Crea nuovo stream di eventi** ed inserire nel body il seguent
 
 Nella response di questo servizio, si otterrà il seguente payload:\\
 
-<figure><img src="../../../send/knowledge-base/v2.5/.gitbook/assets/image (52).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (52).png" alt=""><figcaption></figcaption></figure>
 
 * **`<streamId>`:** id dello stream che viene autogenerato dal servizio
 * **`<activationDate>`:** data di attivazione dello stream autogenerata dal servizio

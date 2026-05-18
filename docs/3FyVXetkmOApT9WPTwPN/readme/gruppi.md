@@ -14,15 +14,15 @@ Il `GroupId` può essere utilizzato in fase di creazione di **notifiche**, **API
 
 I gruppi possono essere creati dagli utenti con profilo amministratore all'interno dell'area riservata del portale mittenti, selezionando la voce di menu "Gruppi".
 
-<figure><img src="../../send/knowledge-base/v2.5/.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 Nella pagina è possibile visualizzare i gruppi esistenti e crearne uno nuovo selezionando "Crea gruppo".
 
-<figure><img src="../../send/knowledge-base/v2.5/.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 È necessario inserire il nome del gruppo, con una eventuale descrizione più estesa per identificarne l'utilizzo, e aggiungere gli utenti selezionando solo quelli appartenenti alla struttura corretta. Gli utenti appartenenti al gruppo potranno gestire e visualizzare esclusivamente le notifiche associate ai gruppi di cui fanno parte.
 
-<figure><img src="../../send/knowledge-base/v2.5/.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 ### Associare un gruppo a un'API key
 
@@ -32,11 +32,11 @@ Per associare una API key a uno o più gruppi, è necessario selezionare il grup
 
 NOTA: non è possibile modificare i gruppi associati ad una API key se non creandone una nuova.
 
-<figure><img src="../../send/knowledge-base/v2.5/.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 Nella gestione delle API key, il nome del gruppo è affiancato da una funzione di copia rapida che consente di acquisire immediatamente l'ID del gruppo da utilizzare nella configurazione del client SEND utilizzato per il deposito delle notifiche e per la creazione degli stream.
 
-<figure><img src="../../send/knowledge-base/v2.5/.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 ### Segregazione degli stream per gruppi
 

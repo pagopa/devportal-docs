@@ -76,11 +76,11 @@ Sull'F24 caricato è indicato che devono essere applicati i costi di notifica.
 
 Se la notifica viene depositata tramite il portale mittente con l’invio manuale, l’indicazione dell'applicazione dei costi di notifica può essere configurata selezionando la checkbox **“Non incluso nell’atto”**.
 
-<figure><img src="../../../send/knowledge-base/v2.5/.gitbook/assets/PagamentoFE.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/PagamentoFE.png" alt="" width="375"><figcaption></figcaption></figure>
 
 Quando viene selezionata questa modalità appaiono i campi per l'indicazione della componente a copertura dei costi sostenuti dal mittenti e l'IVA da applicare al costo degli invii cartacei. Inoltre, nel pannello "Posizione debitoria" sottostante, viene attivato il pulsante **“Applica costo di notifica”**, per indicare che al pagamento deve essere aggiunto l'importo del costo della notifica.
 
-<figure><img src="../../../send/knowledge-base/v2.5/.gitbook/assets/F24-2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/F24-2.png" alt=""><figcaption></figcaption></figure>
 
 #### Modalità forfettaria
 
@@ -104,4 +104,4 @@ Nel caso in cui la notifica sia inviata in modalità **forfettaria**, ovvero con
 
 Nel portale **Self Care**, selezionando il pagamento in modalità **forfettaria**, la checkbox **“Incluso nell’atto”** non abilita il pulsante **“Applica costo di notifica”**, in quanto il costo è già incluso nell'atto stesso indipendente dai costi effettivi di notifica del mittente.
 
-<div><figure><img src="../../../send/knowledge-base/v2.5/.gitbook/assets/PagamentoFE3.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../send/knowledge-base/v2.5/.gitbook/assets/F24-1.png" alt=""><figcaption></figcaption></figure></div>
+<div><figure><img src="../../.gitbook/assets/PagamentoFE3.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/F24-1.png" alt=""><figcaption></figcaption></figure></div>
