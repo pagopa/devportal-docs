@@ -558,4 +558,4 @@ La nostra base dati è stata correttamente aggiornata. Non abbiamo inserito l’
 
 ## Diagramma di flusso
 
-<figure><img src="../../pdnd-interoperabilita/manuale-operativo-attestazione/1.0/.gitbook/assets/Demo - Verifica indirizzo digitale.drawio.png" alt=""><figcaption><p>Diagramma del flusso per interagire con il servizio "Attestazione - Verifica indirizzo digitale"</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Demo - Verifica indirizzo digitale.drawio.png" alt=""><figcaption><p>Diagramma del flusso per interagire con il servizio "Attestazione - Verifica indirizzo digitale"</p></figcaption></figure>
