@@ -34,7 +34,7 @@ Patch version rilasciata per risolvere alcuni elementi di ambiguità indicati di
 * Aggiornate API delle Posizioni Debitorie in [operazioni-disponibili.md](../appendici/posizioni-debitorie/operazioni-disponibili.md "mention")
 * Aggiunti riferimenti alle nuove API erogate dal Backoffice pagoPA in [funzionalita-deprecate.md](../appendici/funzionalita-deprecate.md "mention")
 * Adeguati riferimenti al backoffice pagoPA nelle FAQ in [ente-creditore.md](../faq/ente-creditore.md "mention")
-* Introduzione in  [fdr\_organization.yaml](https://github.com/pagopa/pagopa-api/blob/SANP3.6.1/openapi/fdr\_organization.yaml) e [fdr\_psp.yaml](https://github.com/pagopa/pagopa-api/blob/SANP3.6.1/openapi/fdr\_psp.yaml) del codice **4** = Pagamento gestito in Stand In in `PaymentStatusEnum`
+* Introduzione in [fdr\_organization.yaml](https://github.com/pagopa/pagopa-api/blob/SANP3.6.1/openapi/fdr_organization.yaml) e [fdr\_psp.yaml](https://github.com/pagopa/pagopa-api/blob/SANP3.6.1/openapi/fdr_psp.yaml) del codice **4** = Pagamento gestito in Stand In in `PaymentStatusEnum`
 
 ### 3.6.1 (Gennaio 2024)
 
@@ -43,7 +43,7 @@ Patch version rilasciata per risolvere alcuni elementi di ambiguità indicati di
 {% endhint %}
 
 * Correzione di [integrazione-per-strumento-di-pagamento-tramite-redirect.md](../prestatore-di-servizi-di-pagamento/modalita-di-integrazione/integrazione-per-strumento-di-pagamento-tramite-redirect.md "mention")
-* Correzione di  [fdr\_organization.yaml](https://github.com/pagopa/pagopa-api/blob/SANP3.6.1/openapi/fdr\_organization.yaml) e [fdr\_psp.yaml](https://github.com/pagopa/pagopa-api/blob/SANP3.6.1/openapi/fdr\_psp.yaml)
+* Correzione di [fdr\_organization.yaml](https://github.com/pagopa/pagopa-api/blob/SANP3.6.1/openapi/fdr_organization.yaml) e [fdr\_psp.yaml](https://github.com/pagopa/pagopa-api/blob/SANP3.6.1/openapi/fdr_psp.yaml)
 * Aggiunto [redirect.yaml](https://github.com/pagopa/pagopa-api/blob/SANP3.6.1/openapi/redirect.yaml)
 * Correzione FAQ [#un-ente-creditore-puo-censire-sul-sistema-pagopa-degli-iban-inerenti-dei-conti-correnti-a-lui-non-in](../faq/ente-creditore.md#un-ente-creditore-puo-censire-sul-sistema-pagopa-degli-iban-inerenti-dei-conti-correnti-a-lui-non-in "mention")
 
@@ -81,7 +81,7 @@ Patch version rilasciata per risolvere alcuni elementi di ambiguità indicati di
 * Deprecazione [#informativa-conto-accredito](../appendici/funzionalita-deprecate.md#informativa-conto-accredito "mention")
 * [pagamenti-presso-frontend-dellec-in-modalita-asincrona.md](../appendici/posizioni-debitorie/pagamenti-presso-frontend-dellec-in-modalita-asincrona.md "mention")
 * Aggiornate specifiche openapi in [operazioni-disponibili.md](../appendici/posizioni-debitorie/operazioni-disponibili.md "mention")
-* Obbligatorietà del tag _companyName_ in _data_ e in _transfer_ di [#pagetpayment-versione-2](../appendici/primitive.md#pagetpayment-versione-2 "mention")&#x20;
+* Obbligatorietà del tag _companyName_ in _data_ e in _transfer_ di [#pagetpayment-versione-2](../appendici/primitive.md#pagetpayment-versione-2 "mention")
 * Aggiunta campo _companyName_ in _transfer_ di [#activatepaymentnotice-versione-2](../appendici/primitive.md#activatepaymentnotice-versione-2 "mention")
 
 ### 3.4.1 (maggio 2023)
@@ -98,7 +98,7 @@ Patch version rilasciata per risolvere alcuni elementi di ambiguità indicati di
 
 * [#archivio-centralizzato-avvisi](../ente-creditore/modalita-dintegrazione/integrazione-tramite-api-sincrone.md#archivio-centralizzato-avvisi "mention") in caso di [integrazione-tramite-api-sincrone.md](../ente-creditore/modalita-dintegrazione/integrazione-tramite-api-sincrone.md "mention")
 * [#ricezione-sincrona-della-ricevuta](../ente-creditore/modalita-dintegrazione/integrazione-tramite-api-asincrone.md#ricezione-sincrona-della-ricevuta "mention") in caso di [integrazione-tramite-api-asincrone.md](../ente-creditore/modalita-dintegrazione/integrazione-tramite-api-asincrone.md "mention")
-* Aggiunti _idCart_ e _allCCP_ nei [#\_om57nyt5rga1](../ente-creditore/modalita-dintegrazione/integrazione-touch-point-dellec-con-checkout.md#\_om57nyt5rga1 "mention") per [integrazione-touch-point-dellec-con-checkout.md](../ente-creditore/modalita-dintegrazione/integrazione-touch-point-dellec-con-checkout.md "mention")
+* Aggiunti _idCart_ e _allCCP_ nei [#\_om57nyt5rga1](../ente-creditore/modalita-dintegrazione/integrazione-touch-point-dellec-con-checkout.md#_om57nyt5rga1 "mention") per [integrazione-touch-point-dellec-con-checkout.md](../ente-creditore/modalita-dintegrazione/integrazione-touch-point-dellec-con-checkout.md "mention")
 * Chiarimenti sul tag _paymentNote_ in [#fase-di-attivazione](../ente-creditore/modalita-dintegrazione/best-practice.md#fase-di-attivazione "mention")
 * Utilizzo del [#bollettino-postale-pa](../ente-creditore/modalita-dintegrazione/best-practice.md#bollettino-postale-pa "mention") in caso di [pagamento-presso-frontend-dellec.md](../casi-duso/pagamento-presso-frontend-dellec.md "mention")
 * Chiarimenti sul [servizio-e.bollo.md](../ente-creditore/servizio-e.bollo.md "mention")
@@ -139,7 +139,7 @@ Patch version rilasciata per risolvere alcuni elementi di ambiguità indicati di
 * Aggiornata la procedura in [#nodo-dei-pagamenti-client](../appendici/connettivita.md#nodo-dei-pagamenti-client "mention")
 * [giornale-degli-eventi.md](../appendici/giornale-degli-eventi.md "mention")
 * [stampa-avvisi-pagopa.md](../ente-creditore/stampa-avvisi-pagopa.md "mention")
-* [Broken link](broken-reference "mention")
+* [broken-reference](broken-reference/ "mention")
 * [#recupero-receipt-per-enti-creditori](../ente-creditore/modalita-dintegrazione/integrazione-tramite-api-sincrone.md#recupero-receipt-per-enti-creditori "mention")
 * [pos-fisici.md](../appendici/pos-fisici.md "mention")
 
@@ -189,7 +189,7 @@ Patch version rilasciata per risolvere alcuni elementi di ambiguità indicati di
 
 ### 2.5.1 (gennaio 2022)
 
-* Modificate e-mail dell’assistenza&#x20;
+* Modificate e-mail dell’assistenza
 * Revisione scarico dei Flussi di Rendicontazione
 
 {% embed url="https://docs.italia.it/italia/pagopa/pagopa-specifichepagamenti-docs/it/v2.5.1/index.html" %}

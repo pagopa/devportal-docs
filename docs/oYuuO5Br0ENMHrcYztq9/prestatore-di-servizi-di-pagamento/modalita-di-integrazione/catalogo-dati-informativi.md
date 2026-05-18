@@ -13,7 +13,7 @@ I dati su cui porre particolare attenzione, oltre a quelli relativi alle [commis
 * _urlInformativaPSP_ che contiene il link ai fogli informativi del PSP che viene pubblicato sul sito di prodotto di piattaforma pagoPA, affinché siano disponibili le informative pre o post contrattuali all'operazione di pagamento sulla piattaforma pagoPA;
 * _urlConvenzioniPSP_ che contiene il link alla pagina che espone le eventuali convenzioni tra il PSP e gli EC, se presente, tale link viene pubblicato sul sito di prodotto di piattaforma pagoPA.
 
-![](<../../../pago-pa/sanp/3.7.1/.gitbook/assets/image (35).png>)
+![](<../../.gitbook/assets/image (35).png>)
 
 I PSP possono richiedere un template del Catalogo Dati Informativi tramite una chiamata alla [nodoChiediTempateInformativaPSP](../../appendici/primitive.md#nodochieditemplateinformativapsp), in risposta ricevono un xml con la struttura sopra citata e con alcuni campi precompilati sulla base delle informazioni già a disposizione del Nodo.
 

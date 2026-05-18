@@ -99,13 +99,13 @@ Il tracciato del file è comune ad entrambe le modalità di caricamento `API` e 
 
 #### SFTP
 
-* **formato file** ->  `JSON`
+* **formato file** -> `JSON`
 * **dimensioni file** -> max `100MB` (circa 100K PD)
 * **nomenclatura** -> non ci sono vincoli in merito alla nomenclatura del file, tuttavia il nome deve essere univoco, non è possibile caricare due o più file con lo stesso nome
 
 #### API
 
-* **formato file** ->  `ZIP` (un solo file `JSON` all'interno dell'archivio)
+* **formato file** -> `ZIP` (un solo file `JSON` all'interno dell'archivio)
 * **dimensioni file** -> max `5MB` (circa 100K PD)
 * **nomenclatura** -> non ci sono vincoli
 
@@ -119,21 +119,21 @@ Il caricamento massivo può essere innescato tramite API le cui specifiche sono 
 
 Mediante l'API `/organizations/{organizationFiscalCode}/debtpositions/file` è possibile innescare il caricamento massivo delle posizioni debitorie presenti all'interno di un file compresso come descritto in [Specifiche tracciato di input](caricamento-massivo.md#specifiche-tracciato-di-input).
 
-{% swagger src="https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.7.0/openapi/gpd_massive.json?test=test" path="/brokers/{broker-code}/organizations/{organization-fiscal-code}/debtpositions/file" method="post" %}
+{% openapi src="https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.7.0/openapi/gpd_massive.json?test=test" path="/brokers/{broker-code}/organizations/{organization-fiscal-code}/debtpositions/file" method="post" %}
 [https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.7.0/openapi/gpd_massive.json?test=test](https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.7.0/openapi/gpd_massive.json?test=test)
-{% endswagger %}
+{% endopenapi %}
 
-Il metodo in caso positivo risponde subito con un codice `HTTP 202`, una volta ottenuta una risposta positiva è possibile verificare lo stato del caricamento mediante l'utilizzo dell'API `/organizations/{organizationFiscalCode}/debtpositions/file/{fileId}/status`.&#x20;
+Il metodo in caso positivo risponde subito con un codice `HTTP 202`, una volta ottenuta una risposta positiva è possibile verificare lo stato del caricamento mediante l'utilizzo dell'API `/organizations/{organizationFiscalCode}/debtpositions/file/{fileId}/status`.
 
-{% swagger src="https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.7.0/openapi/gpd_massive.json?test=test" path="/brokers/{broker-code}/organizations/{organization-fiscal-code}/debtpositions/file/{file-ID}/status" method="get" %}
+{% openapi src="https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.7.0/openapi/gpd_massive.json?test=test" path="/brokers/{broker-code}/organizations/{organization-fiscal-code}/debtpositions/file/{file-ID}/status" method="get" %}
 [https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.7.0/openapi/gpd_massive.json?test=test](https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.7.0/openapi/gpd_massive.json?test=test)
-{% endswagger %}
+{% endopenapi %}
 
 Per ottenere un report completo, comprensivo degli esiti per ogni posizioni debitoria, è necessario interrogare l'API `/organizations/{organizationFiscalCode}/debtpositions/file/{fileId}/report`.
 
-{% swagger src="https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.7.0/openapi/gpd_massive.json?test=test" path="/brokers/{broker-code}/organizations/{organization-fiscal-code}/debtpositions/file/{file-ID}/report" method="get" %}
+{% openapi src="https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.7.0/openapi/gpd_massive.json?test=test" path="/brokers/{broker-code}/organizations/{organization-fiscal-code}/debtpositions/file/{file-ID}/report" method="get" %}
 [https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.7.0/openapi/gpd_massive.json?test=test](https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.7.0/openapi/gpd_massive.json?test=test)
-{% endswagger %}
+{% endopenapi %}
 
 ## Caricamento tramite SFTP
 
@@ -148,11 +148,11 @@ La richiesta deve essere inoltrata direttamente al team pagoPA-Core utilizzando 
 Prossimamente sarà possibile ottenere le credenziali in autonomia accedendo al portale BackOffice-pagoPA
 {% endhint %}
 
-Una volta elaborata la richiesta, alla mail indicata verranno inviati i parametri per l'accesso al folder SFTP contenente due subfolders, uno di input su cui depositare i file contenenti l'elenco delle posizioni debitorie da caricare (rif. [Specifiche tracciato di input](broken-reference)), e uno di output dove la piattaforma fornirà l'esito del caricamento.&#x20;
+Una volta elaborata la richiesta, alla mail indicata verranno inviati i parametri per l'accesso al folder SFTP contenente due subfolders, uno di input su cui depositare i file contenenti l'elenco delle posizioni debitorie da caricare (rif. [Specifiche tracciato di input](broken-reference/)), e uno di output dove la piattaforma fornirà l'esito del caricamento.
 
 Credenziali di accesso:
 
-* `path` - connection string es. `pagopadweugpsgpdsasftp.<USERNAME_INPUT>@pagopadweugpsgpdsasftp.blob.core.windows.net`&#x20;
+* `path` - connection string es. `pagopadweugpsgpdsasftp.<USERNAME_INPUT>@pagopadweugpsgpdsasftp.blob.core.windows.net`
 * `password` - password riferite all'utente `USERNAME_INPUT`
 
 Ogni partner/intermediario avrà dunque a disposizione un folder identificato dal `codice fiscale`/ `partita iva` avente la seguente struttura:
@@ -179,7 +179,7 @@ Per innescare il processo di caricamento delle posizioni debitorie è necessario
 Come riportato nella sezione _Specifiche tracciato input_ va rispettato il vincolo di univocità del nome del file.
 {% endhint %}
 
-&#x20;L'upload dei file sulla cartella innesca il processo di caricamento massivo che avrà una durata variabile in funzione della dimensione dei file caricati.
+L'upload dei file sulla cartella innesca il processo di caricamento massivo che avrà una durata variabile in funzione della dimensione dei file caricati.
 
 Una volta terminato il caricamento massivo, per ogni file viene prodotta una ricevuta all'interno del folder `/CF_BROKER_ID/CF_EC_ID/input`, la ricevuta è strutturata nel seguente modo:
 

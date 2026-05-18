@@ -20,7 +20,7 @@ Per i dettagli [https://github.com/pagopa/pagopa-api/tree/SANP3.7.1/openapi](htt
 [https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.7.1/openapi/gpd.json](https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.7.1/openapi/gpd.json)
 {% endopenapi %}
 
-![](<../../../pago-pa/sanp/3.7.1/.gitbook/assets/createPD (1).png>)
+![](<../../.gitbook/assets/createPD (1).png>)
 
 In fase di creazione della posizione debitoria il servizio effettuerà controlli sui dati in input e controlli di eventuali duplicati.
 
@@ -42,7 +42,7 @@ Il _query parameter_ `toPublish` consente di pubblicare automaticamente una posi
 [https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.7.1/openapi/gpd.json](https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.7.1/openapi/gpd.json)
 {% endopenapi %}
 
-![](../../../pago-pa/sanp/3.7.1/.gitbook/assets/readPDList.png)
+![](../../.gitbook/assets/readPDList.png)
 
 La lettura di una lista di posizioni debitorie prevede sempre una paginazione. E' inoltre possibile filtrare per `due_date` in modo da limitare i risultati.
 
@@ -50,7 +50,7 @@ La lettura di una lista di posizioni debitorie prevede sempre una paginazione. E
 [https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.7.1/openapi/gpd.json](https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.7.1/openapi/gpd.json)
 {% endopenapi %}
 
-![](../../../pago-pa/sanp/3.7.1/.gitbook/assets/readPD.png)
+![](../../.gitbook/assets/readPD.png)
 
 La lettura di una posizione debitoria si basa sull'identificativo in input (IUPD). In caso lo IUPD non sia esistente verrà emesso un errore.
 
@@ -60,7 +60,7 @@ La lettura di una posizione debitoria si basa sull'identificativo in input (IUPD
 [https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.7.1/openapi/gpd.json](https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.7.1/openapi/gpd.json)
 {% endopenapi %}
 
-![](../../../pago-pa/sanp/3.7.1/.gitbook/assets/updatePD.png)
+![](../../.gitbook/assets/updatePD.png)
 
 In fase di aggiornamento, oltre ai già citati controlli in fase di creazione , si verifica che la posizione sia esistente ed aggiornabile.
 
@@ -77,17 +77,17 @@ L'EC pertanto in fase di aggiornamento dell'importo `amount` di uno dei `transfe
 [https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.4.1/openapi/gpd.yaml](https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.4.1/openapi/gpd.yaml)
 {% endopenapi %}
 
-![](<../../../pago-pa/sanp/3.7.1/.gitbook/assets/deletePD (1).png>)
+![](<../../.gitbook/assets/deletePD (1).png>)
 
 La cancellazione di una posizione debitoria prevede controlli sia sull'esistenza (IUPD) che sullo stato (ad esempio, una posizione debitoria non sarà cancellabile se è già stata pagata)
 
 ### Pubblicazione di una posizione debitoria
 
-{% openapi src="../../../pago-pa/sanp/3.7.1/.gitbook/assets/gpd_core.json" path="/organizations/{organizationfiscalcode}/debtpositions/{iupd}/publish" method="post" %}
-[gpd_core.json](../../../pago-pa/sanp/3.7.1/.gitbook/assets/gpd_core.json)
+{% openapi src="../../.gitbook/assets/gpd_core.json" path="/organizations/{organizationfiscalcode}/debtpositions/{iupd}/publish" method="post" %}
+[gpd_core.json](../../.gitbook/assets/gpd_core.json)
 {% endopenapi %}
 
-![](../../../pago-pa/sanp/3.7.1/.gitbook/assets/publishPD.png)
+![](../../.gitbook/assets/publishPD.png)
 
 La pubblicazione della posizione debitoria permette il passaggio dallo stato `DRAFT` allo stato `PUBLISHED.`
 
@@ -95,11 +95,11 @@ Una posizione in stato `DRAFT` (bozza) infatti non permette la normale operativi
 
 ### Invalidazione di una posizione debitoria
 
-{% openapi src="../../../pago-pa/sanp/3.7.1/.gitbook/assets/gpd_core.json" path="/organizations/{organizationfiscalcode}/debtpositions/{iupd}/invalidate" method="post" %}
-[gpd_core.json](../../../pago-pa/sanp/3.7.1/.gitbook/assets/gpd_core.json)
+{% openapi src="../../.gitbook/assets/gpd_core.json" path="/organizations/{organizationfiscalcode}/debtpositions/{iupd}/invalidate" method="post" %}
+[gpd_core.json](../../.gitbook/assets/gpd_core.json)
 {% endopenapi %}
 
-![](../../../pago-pa/sanp/3.7.1/.gitbook/assets/invalidatePD.png)
+![](../../.gitbook/assets/invalidatePD.png)
 
 L'invalidazione di una posizione debitore consiste di fatto in una cancellazione logica. E' possibile solo partendo dagli stati `PUBLISHED` e `VALID`.
 
@@ -116,13 +116,13 @@ Sono messe a disposizione due API per il recupero delle ricevute di pagamento:
 [https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.7.0/openapi/gpd_payments.json](https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.7.0/openapi/gpd_payments.json)
 {% endopenapi %}
 
-<figure><img src="../../../pago-pa/sanp/3.7.1/.gitbook/assets/readReceiptList.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/readReceiptList.png" alt=""><figcaption></figcaption></figure>
 
 {% openapi src="https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.7.0/openapi/gpd_payments.json" path="/payments/{organizationfiscalcode}/receipts/{iuv}" method="get" %}
 [https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.7.0/openapi/gpd_payments.json](https://raw.githubusercontent.com/pagopa/pagopa-api/SANP3.7.0/openapi/gpd_payments.json)
 {% endopenapi %}
 
-<figure><img src="../../../pago-pa/sanp/3.7.1/.gitbook/assets/readReceipt.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/readReceipt.png" alt=""><figcaption></figcaption></figure>
 
 ## Flussi di rendicontazione
 
@@ -135,14 +135,14 @@ Sono messe a disposizione delle funzionalità di lettura dei flussi di rendicont
 L'abilitazione al servizio per la gestione dei flussi di rendicontazione su GPD non è automatico e va richiesto esplicitamente al momento dell'on-boarding dell'EC
 {% endhint %}
 
-{% openapi src="../../../pago-pa/sanp/3.7.1/.gitbook/assets/gpd_fdr.yaml" path="/organizations/{organizationId}/reportings" method="get" %}
-[gpd_fdr.yaml](../../../pago-pa/sanp/3.7.1/.gitbook/assets/gpd_fdr.yaml)
+{% openapi src="../../.gitbook/assets/gpd_fdr.yaml" path="/organizations/{organizationId}/reportings" method="get" %}
+[gpd_fdr.yaml](../../.gitbook/assets/gpd_fdr.yaml)
 {% endopenapi %}
 
-![](../../../pago-pa/sanp/3.7.1/.gitbook/assets/readFdRList.png)
+![](../../.gitbook/assets/readFdRList.png)
 
-{% openapi src="../../../pago-pa/sanp/3.7.1/.gitbook/assets/gpd_fdr.yaml" path="/organizations/{organizationId}/reportings/{flowId}/date/{date}" method="get" %}
-[gpd_fdr.yaml](../../../pago-pa/sanp/3.7.1/.gitbook/assets/gpd_fdr.yaml)
+{% openapi src="../../.gitbook/assets/gpd_fdr.yaml" path="/organizations/{organizationId}/reportings/{flowId}/date/{date}" method="get" %}
+[gpd_fdr.yaml](../../.gitbook/assets/gpd_fdr.yaml)
 {% endopenapi %}
 
-![](../../../pago-pa/sanp/3.7.1/.gitbook/assets/readFdR.png)
+![](../../.gitbook/assets/readFdR.png)

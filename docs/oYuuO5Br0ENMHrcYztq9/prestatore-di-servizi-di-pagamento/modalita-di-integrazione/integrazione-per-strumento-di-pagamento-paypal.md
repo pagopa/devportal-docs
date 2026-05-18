@@ -11,7 +11,7 @@ Nel caso in cui un PSP aderente voglia attestarsi sul Payment Gateway (_NPG_) di
 
 Si sottolinea che PagoPA S.p.A. non sottoscrive accordi con PayPal®, quindi è onere del PSP aderente contattare PayPal® se vuole offrire questo strumento di pagamento su _NPG._
 
-<figure><img src="../../../pago-pa/sanp/3.7.1/.gitbook/assets/adesione_PPAL.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/adesione_PPAL.png" alt=""><figcaption></figcaption></figure>
 
 ## Pagamento <a href="#pagamento-di-un-numero-avviso-paypal" id="pagamento-di-un-numero-avviso-paypal"></a>
 
@@ -19,7 +19,7 @@ Durante il pagamento di un numero avviso viene utilizzato il terminale relativo 
 
 Nella chiamata a PayPal® viene inviato anche il token generato dal PSP aderente in fase di adesione.
 
-<figure><img src="../../../pago-pa/sanp/3.7.1/.gitbook/assets/pagamento_PPAL.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/pagamento_PPAL.png" alt=""><figcaption></figcaption></figure>
 
 ## Storno <a href="#storno-di-un-numero-avviso-paypal" id="storno-di-un-numero-avviso-paypal"></a>
 
@@ -27,4 +27,4 @@ In fase di storno di un pagamento viene utilizzato lo stesso terminale relativo 
 
 Nella chiamata allo strumento di pagamento viene inviato il token generato dal PSP in fase di adesione.
 
-<figure><img src="../../../pago-pa/sanp/3.7.1/.gitbook/assets/storno_paypal.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/storno_paypal.png" alt=""><figcaption></figcaption></figure>
