@@ -4,7 +4,7 @@ description: In questa pagina si danno indicazioni su come usare il badge.
 
 # Badge "Integrato con pagoPA"
 
-<figure><img src="../../../pago-pa/linee-guida-brand-pagopa/v1.0/.gitbook/assets/cover.png" alt="Esempio del badge &#x22;Integrato con pagoPA&#x22;"><figcaption><p>Esempio del badge "Integrato con pagoPA"</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/cover.png" alt="Esempio del badge &#x22;Integrato con pagoPA&#x22;"><figcaption><p>Esempio del badge "Integrato con pagoPA"</p></figcaption></figure>
 
 ## Cos'è il badge "Integrato con pagoPA"?
 
@@ -46,13 +46,13 @@ Accanto al badge è possibile aggiungere il seguente testo:
 
 A sinistra viene erroneamente utilizzato il logo pagoPA nell'header. A destra, invece, viene utilizzato nel footer il badge "Integrato con pagoPA" insieme al [#testo-di-accompagnamento](badge-integrato-con-pagopa.md#testo-di-accompagnamento "mention").
 
-<figure><img src="../../../pago-pa/linee-guida-brand-pagopa/v1.0/.gitbook/assets/Esempio asset errato (1).png" alt="Esempio errato e corretto di applicazione del brand pagoPA nel footer di un sito di un Comune"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Esempio asset errato (1).png" alt="Esempio errato e corretto di applicazione del brand pagoPA nel footer di un sito di un Comune"><figcaption></figcaption></figure>
 
 ### Asset e testo errati
 
 A sinistra viene inserito un logo obsoleto di pagoPA invece che il badge "Integrato con pagoPA". Inoltre il testo descrittivo non esprime il messaggio corretto. A destra il footer corretto.
 
-<figure><img src="../../../pago-pa/linee-guida-brand-pagopa/v1.0/.gitbook/assets/Esempio Footer Sbagliato.png" alt="Esempio sbagliato e corretto di come applicare il brand pagoPA nel footer di un servizio di pagamento"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Esempio Footer Sbagliato.png" alt="Esempio sbagliato e corretto di come applicare il brand pagoPA nel footer di un servizio di pagamento"><figcaption></figcaption></figure>
 
 ## Risorse utili
 

@@ -42,6 +42,6 @@ Paga tramite pagoPA
 ```
 {% endcode %}
 
-<figure><img src="../../../pago-pa/linee-guida-brand-pagopa/v1.0/.gitbook/assets/Pulsanti.png" alt="Esempi di pulsanti"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Pulsanti.png" alt="Esempi di pulsanti"><figcaption></figcaption></figure>
 
-<figure><img src="../../../pago-pa/linee-guida-brand-pagopa/v1.0/.gitbook/assets/Pulsanti 2.png" alt="Esempi corretti di pulsanti"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Pulsanti 2.png" alt="Esempi corretti di pulsanti"><figcaption></figcaption></figure>
