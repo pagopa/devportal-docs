@@ -22,12 +22,12 @@ I dati necessari infatti per poter configurare l'avviso di pagamento sono i segu
 
 I dati di cui sopra sono configurabili selezionando il tasto "_**Configura modello**_" :&#x20;
 
-<figure><img src="../../pago-pa/stampa-avvisi-pagamento/v1.0/.gitbook/assets/avvisi_1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/avvisi_1.png" alt=""><figcaption></figcaption></figure>
 
 Una volta cliccato il tasto appare infatti la form con i dati da inserire (quelli recuperati da Backoffice pagoPA non sono modificabili):
 
-<figure><img src="../../pago-pa/stampa-avvisi-pagamento/v1.0/.gitbook/assets/avvisi_2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/avvisi_2.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../pago-pa/stampa-avvisi-pagamento/v1.0/.gitbook/assets/avvisi_3.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/avvisi_3.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../pago-pa/stampa-avvisi-pagamento/v1.0/.gitbook/assets/avvisi_4.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/avvisi_4.png" alt=""><figcaption></figcaption></figure>

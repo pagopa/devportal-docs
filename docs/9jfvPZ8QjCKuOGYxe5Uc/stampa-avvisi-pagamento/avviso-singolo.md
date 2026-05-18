@@ -6,7 +6,7 @@ I template da utilizzare seguono le linee guida e le specifiche tecniche fornite
 
 Si riporta di seguito il processo per la stampa avviso singolo pdf:<br>
 
-<figure><img src="../../pago-pa/stampa-avvisi-pagamento/v1.0/.gitbook/assets/stampa_avvisi.png" alt=""><figcaption><p>Stampa avviso singolo</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/stampa_avvisi.png" alt=""><figcaption><p>Stampa avviso singolo</p></figcaption></figure>
 
 Il soggetto che aderisce al nuovo servizio di stampa pdf dell’avviso di pagamento delegando PagoPA, per prima cosa deve sottoscrivere nuove API Key all'interno del portale Backoffice pagopA (come descritto in [Autorizzazione alla stampa](autorizzazione-alla-stampa.md)).
 
@@ -46,6 +46,6 @@ Attualmente esistono le seguenti varianti di template per la stampa del singolo 
 
 * [Template rata unica](templates/rata-unica/)
 * [Template rate multiple (da 2 a 9 rate)](templates/rate-2..9/)
-* [Template rate multiple (>9)](templates/rate-greater-than-9/)
+* [Template rate multiple (>9)](templates/rate-greater-than-9.md)
 * [Template violazione codice della strada](templates/violazione-codice-della-strada/)
 
