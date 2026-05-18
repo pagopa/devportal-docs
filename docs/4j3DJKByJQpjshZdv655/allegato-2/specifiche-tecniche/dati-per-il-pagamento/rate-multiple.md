@@ -18,7 +18,7 @@ Questo modello raggruppa le rate per 2 o per 3, in modo che sia sempre possibile
 
 ## Layout con multipli di 2
 
-![Dettaglio della sezione "Dati per il pagamento (Rate in multipli di 2)" all'interno dell'avviso di pagamento pagoPA.](<../../../../pago-pa/avviso-pagamento/3.4.0/.gitbook/assets/2 Rate (1).png>)
+![Dettaglio della sezione "Dati per il pagamento (Rate in multipli di 2)" all'interno dell'avviso di pagamento pagoPA.](<../../../.gitbook/assets/2 Rate (1).png>)
 
 ### `AVVISO.RATE.`<mark style="color:red;">`n`</mark>`.IMPORTO`
 
@@ -117,7 +117,7 @@ Per le regole di generazione, vedi [codice-qr.md](codice-qr.md "mention")
 
 ## Layout con multipli di 3
 
-![Dettaglio della sezione "Dati per il pagamento (Rate in multipli di 3)" all'interno dell'avviso di pagamento pagoPA.](<../../../../pago-pa/avviso-pagamento/3.4.0/.gitbook/assets/3 Rate.png>)
+![Dettaglio della sezione "Dati per il pagamento (Rate in multipli di 3)" all'interno dell'avviso di pagamento pagoPA.](<../../../.gitbook/assets/3 Rate.png>)
 
 {% hint style="info" %}
 Se necessario per motivi di spazio, puoi omettere la voce **Destinatario**.
@@ -127,4 +127,4 @@ Se necessario per motivi di spazio, puoi omettere la voce **Destinatario**.
 
 Se il numero di rate non è divisibile né per 2 né per 3, è possibile scegliere liberamente uno dei due layout previsti—ripetendo lo stesso modulo all'interno della stessa pagina, come mostrato nello schema seguente:
 
-![Ripeti lo stesso layout all'interno dello stesso foglio (Esempio A). Non mescolare moduli differenti all'interno dello stesso foglio (Esempi B e C).](<../../../../pago-pa/avviso-pagamento/3.4.0/.gitbook/assets/7 rate.png>)
+![Ripeti lo stesso layout all'interno dello stesso foglio (Esempio A). Non mescolare moduli differenti all'interno dello stesso foglio (Esempi B e C).](<../../../.gitbook/assets/7 rate.png>)

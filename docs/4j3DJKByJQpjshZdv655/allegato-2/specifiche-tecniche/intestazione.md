@@ -10,7 +10,7 @@ description: >-
 Se l'avviso è composto da più pagine, mostra sempre l'intestazione per ciascuna pagina.
 {% endhint %}
 
-![Dettaglio della sezione "Intestazione" all'interno dell'avviso di pagamento pagoPA.](../../../pago-pa/avviso-pagamento/3.4.0/.gitbook/assets/Intestazione.png)
+![Dettaglio della sezione "Intestazione" all'interno dell'avviso di pagamento pagoPA.](../../.gitbook/assets/Intestazione.png)
 
 ### `AVVISO.OGGETTO` <a href="#avviso-oggetto" id="avviso-oggetto"></a>
 
