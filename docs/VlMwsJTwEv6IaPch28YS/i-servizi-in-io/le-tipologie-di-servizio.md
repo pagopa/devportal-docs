@@ -33,7 +33,7 @@ La Carta Giovani Nazionale è un servizio speciale. All'interno della sua scheda
 
 Una volta pubblicati, tutti i servizi sono visibili nella sezione "Servizi" di IO come voci delle liste dei servizi Nazionali o dei servizi Locali e sono associati al nome dell'ente che li eroga. Premendo sul nome di un servizio, l'utente visualizza la scheda servizio, dove sono esposte le informazioni sul servizio e si può gestirne la comunicazione.
 
-<figure><img src="../../app-io/manuale-servizi/v3.3/.gitbook/assets/image (4).png" alt=""><figcaption><p>La sezione Servizi dell'app</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption><p>La sezione Servizi dell'app</p></figcaption></figure>
 
 [<mark style="color:blue;">**Per scoprire come creare un servizio, leggi la guida tecnica ->**</mark>](https://app.gitbook.com/s/coSKRte21UjDBRWKLtEs/funzionalita/creare-un-servizio)
 

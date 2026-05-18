@@ -35,7 +35,7 @@ Un servizio **non coincide mai con una singola funzionalità o tipologia di comu
 
 Immaginiamo che il Comune di Ipazia aderisca a IO con il servizio "Asilo nido", dedicato ai residenti nel Comune che sono anche genitori di bambine e bambini in età da asilo nido.
 
-<figure><img src="../../../app-io/manuale-servizi/v3.3/.gitbook/assets/image (3).png" alt=""><figcaption><p>Esempio completo di una scheda servizio e i relativi messaggi</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption><p>Esempio completo di una scheda servizio e i relativi messaggi</p></figcaption></figure>
 
 Questo servizio invia **due tipologie di comunicazioni**: informa i genitori che sono aperte le iscrizioni all'asilo nido e invia a coloro che hanno già iscritto la propria figlia un messaggio con un avviso di pagamento.
 
