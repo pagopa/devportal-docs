@@ -4,7 +4,7 @@
 
 Gli enti che hanno sottoscritto il [programma Premium](../../../abilitazioni/funzionalita-premium.md) possono **includere allegati** nei messaggi che inviano. Questi allegati vengono recuperati dai sistemi dell'ente mittente nel momento in cui vengono aperti dall'utente.
 
-<figure><img src="../../../../app-io/io-guida-tecnica/v2.4/.gitbook/assets/Allegati.png" alt="Esempio di come un utente può visualizzare un messaggio che contiene un allegato."><figcaption><p>Quando l'utente apre un messaggio vengono recuperati, oltre ai metadati del contenuto del messaggio, anche quelli relativi ai metadati (endpoint 1). Il recupero del file vero e proprio avviene tramite l'endpoint 2, ovvero con una GET all'indirizzo <code>{baseUrl}/messages/{id}/{url}</code></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Allegati.png" alt="Esempio di come un utente può visualizzare un messaggio che contiene un allegato."><figcaption><p>Quando l'utente apre un messaggio vengono recuperati, oltre ai metadati del contenuto del messaggio, anche quelli relativi ai metadati (endpoint 1). Il recupero del file vero e proprio avviene tramite l'endpoint 2, ovvero con una GET all'indirizzo <code>{baseUrl}/messages/{id}/{url}</code></p></figcaption></figure>
 
 ## Come funziona?
 
