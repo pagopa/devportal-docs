@@ -1,6 +1,6 @@
 # Table of contents
 
-* [⬅ Torna a pagoPA.gov.it](https://www.pagopa.gov.it/)
+* [⬅️ Torna a pagoPA.gov.it](https://www.pagopa.gov.it/)
 
 ## Specifiche attuative del nodo dei pagamenti SPC
 

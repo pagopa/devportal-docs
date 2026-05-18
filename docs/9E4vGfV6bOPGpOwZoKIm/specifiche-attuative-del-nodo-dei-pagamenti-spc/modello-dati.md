@@ -2,7 +2,7 @@
 
 Durante la descrizione delle interfacce si farà riferimento ad alcune entità le cui relazioni vengono mostrate dal seguente diagramma
 
-![](../.gitbook/assets/modello\_dati.png)
+![](<../.gitbook/assets/modello_dati (1).png>)
 
 * _Posizione Debitoria_: rappresenta l’entità (il servizio) per la quale l’EC vuole ricevere pagamenti tramite la piattaforma.
 * _Avviso di Pagamento_: rappresenta la notifica (cartacea o digitale) della posizione debitoria verso il cittadino.
@@ -14,7 +14,7 @@ Durante la descrizione delle interfacce si farà riferimento ad alcune entità l
 
 ![](../.gitbook/assets/oggettiBusiness.png)
 
-Il _**payment**_ (pagamento) è un oggetto generato dall’EC, gestito dalla piattaforma pagoPA e inoltrato al PSP; l’EC fornisce questo oggetto alla piattaforma pagoPA con la response alla  [paGetPayment](../appendici/primitive.md#pagetpayment), la piattaforma pagoPA fornisce questo oggetto al PSP con la response alla [activatePaymentNotice](../appendici/primitive.md#activatepaymentnotice); l’oggetto _payment_ fornito al PSP contiene un subset di dati inviati dall'EC alla piattaforma pagoPA.
+Il _**payment**_ (pagamento) è un oggetto generato dall’EC, gestito dalla piattaforma pagoPA e inoltrato al PSP; l’EC fornisce questo oggetto alla piattaforma pagoPA con la response alla [paGetPayment](../appendici/primitive.md#pagetpayment), la piattaforma pagoPA fornisce questo oggetto al PSP con la response alla [activatePaymentNotice](../appendici/primitive.md#activatepaymentnotice); l’oggetto _payment_ fornito al PSP contiene un subset di dati inviati dall'EC alla piattaforma pagoPA.
 
 La _**receipt**_ (ricevuta) è un oggetto generato dalla piattaforma pagoPA sulla base dei dati ricevuti dalla response alla [paGetPayment](../appendici/primitive.md#pagetpayment) (da EC) e dalla [sendPaymentOutcome](../appendici/primitive.md#sendpaymentoutcome) (da PSP); viene inviato agli _n_ Enti Creditori interessati al pagamento per mezzo della primitiva [paSendRT](../appendici/primitive.md#pasendrt); l’oggetto _receipt_ viene inoltrato all’EC solo se il pagamento è stato effettuato.
 
@@ -34,8 +34,8 @@ Il **Catalogo Dati Informativi** è la struttura dati tramite il quale, ai fini 
 
 La **Tabella delle controparti estesa** è la struttura dati che il PSP può prelevare per avere informazioni in merito all'erogazione dei servizi (_Tabella delle controparti_) e ai conti da accreditare (_Informativa conto accredito_) per ogni EC, tale struttura può essere prelevata tramite la primitiva [nodoChiediInformativaPA](../appendici/primitive.md#nodochiediinformativapa).
 
-![](<../.gitbook/assets/image (30).png>)
+![](<../.gitbook/assets/image (7) (1).png>)
 
 Il **Catalogo servizi** è utilizzato dai PSP per ottenere i dettagli di particolari servizi offerti da ogni EC, in modo da poter offrire il pagamento spontaneo ([pagamento-spontaneo-presso-psp](../casi-duso/pagamento-spontaneo-presso-psp/ "mention")), tale struttura può essere prelevata tramite la primitiva [nodoChiediCatalogoServizi](../appendici/primitive.md#nodochiedicatalogoservizi).
 
-![](<../.gitbook/assets/image (40).png>)
+![](<../.gitbook/assets/image (2).png>)

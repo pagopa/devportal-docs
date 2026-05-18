@@ -1,7 +1,7 @@
 # Integrazione tramite API sincrone
 
 {% hint style="info" %}
-Per la gestione degli errori fare riferimento a [Gestione degli errori](http://localhost:5000/o/KXYtsf32WSKm6ga638R3/s/mU2qgiLV1G3m9z1VjAOc/ "mention")
+Per la gestione degli errori fare riferimento a [Gestione degli errori](https://app.gitbook.com/o/KXYtsf32WSKm6ga638R3/s/mU2qgiLV1G3m9z1VjAOc/ "mention")
 {% endhint %}
 
 ## Archivio Centralizzato Avvisi
@@ -18,7 +18,7 @@ Per la procedura di abilitazione all'utilizzo della [_paCreatePosition_](../../a
 
 La richiesta di creazione di una nuova posizione giunge all’_ACA_ per mezzo della [_paCreatePosition_](../../appendici/primitive.md#pacreateposition), fornendo in input i seguenti dati:
 
-* _fiscalCodePA: c_odice fiscale dell’EC;
+* \_fiscalCodePA: c\_odice fiscale dell’EC;
 * _entityUniqueIdentifierType_: tipologia del debitore (F = persona fisica, G = persona giuridica);
 * _entityUniqueIdentifierValue_: codice fiscale del debitore
 * _fullName_: Nome e Cognome del debitore
@@ -84,7 +84,7 @@ Il Nodo effettua una verifica semantica sulla response:
 
 ## Fase di attivazione
 
-![](<../../.gitbook/assets/paGetPayment (2).png>)
+![](<../../.gitbook/assets/paGetPayment (1).png>)
 
 La richiesta di attivazione del pagamento giunge all’EC per mezzo della [paGetPayment](../../appendici/primitive.md#pagetpayment), l'EC invia l’importo del pagamento ed i dati necessari per il riversamento della somma, in particolare per ogni versamento:
 
@@ -116,13 +116,13 @@ Il servizio è rivolto a tutti gli EC che, in casi particolari, hanno la necessi
 
 Come verrà ampiamente chiarito nelle sezioni successive, il servizio non è pensato per essere fruito durante tutte le fasi del processo di pagamento, ma soltanto in casi specifici e in modo particolare a valle della ricezione dei flussi di rendicontazione. A protezione della natura del servizio sono state implementate delle politiche di throttling che limitano il numero di chiamate _n_ in un intervallo di tempo _t_ da parte dello stesso EC.
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
 
 Qualora durante la lavorazione del flusso una _receipt_ non fosse disponibile, l’eccezione può essere gestita tentando di recuperarla mediante l’invocazione del servizio _getOrganizationReceipt_.
 
 Il diagramma seguente riporta invece uno use case **non consentito**
 
-<figure><img src="../../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 E' assolutamente vietato inserire l’invocazione del servizio _getOrganizationReceipt_ all’interno di un loop in modo indiscriminato senza l’insorgere di un evento di errore che ne giustifichi l’utilizzo.
@@ -144,4 +144,4 @@ Come è possibile osservare il servizio effettua la ricerca della _receipt_ util
 
 Il servizio non è pensato per un utilizzo massivo, a protezione di questa caratteristica sono state attivate delle politiche di _throttling_ che prevedono, per ogni sottoscrizione al servizio, un massimo di 10 chiamate nell’arco di 60 minuti.
 
-Per i tutti i dettagli tecnici relativi al corretto utilizzo del servizio è possibile fare riferimento alle specifiche della primitiva in [#getorganizationreceipt](../../appendici/primitive.md#getorganizationreceipt "mention").\
+Per i tutti i dettagli tecnici relativi al corretto utilizzo del servizio è possibile fare riferimento alle specifiche della primitiva in [#getorganizationreceipt](../../appendici/primitive.md#getorganizationreceipt "mention").\\

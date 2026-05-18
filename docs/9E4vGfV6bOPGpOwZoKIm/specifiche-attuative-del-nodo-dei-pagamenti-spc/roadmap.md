@@ -7,5 +7,5 @@ Gli aggiornamenti della piattaforma sono comunicati a tutti gli Aderenti tramite
 In questa versione delle SANP sono descritte le funzionalità attuali o che rientrano nel suddetto percorso di evoluzione.
 
 {% hint style="info" %}
-Per tutte le specifiche relative a funzionalità deprecate o non più supportate è possibile far riferimento alla [versione 2.5.1](http://localhost:5000/o/KXYtsf32WSKm6ga638R3/s/P8TYVFYipQYir4JqodY3/) delle SANP
+Per tutte le specifiche relative a funzionalità deprecate o non più supportate è possibile far riferimento alla [versione 2.5.1](https://app.gitbook.com/o/KXYtsf32WSKm6ga638R3/s/P8TYVFYipQYir4JqodY3/) delle SANP
 {% endhint %}

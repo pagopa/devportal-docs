@@ -13,7 +13,7 @@ Le azioni indicate nei seguenti schemi possono avvenire da 2 fonti:
 
 ## Opzione di Pagamento
 
-![](<../../.gitbook/assets/image (11).png>)
+![](<../../.gitbook/assets/image (9) (1).png>)
 
 ## Versamento
 
