@@ -4,7 +4,7 @@ Nel caso in cui l’Operatore abbia deciso di aderire al Programma attraverso il
 
 Di seguito un file di esempio di corretta formattazione:
 
-{% file src="../../../app-io/carta-giovani-nazionale/v2.0.1/.gitbook/assets/test-codes.csv" %}
+{% file src="../../.gitbook/assets/test-codes.csv" %}
 Template per caricamento lista codici statici su Portale
 {% endfile %}
 

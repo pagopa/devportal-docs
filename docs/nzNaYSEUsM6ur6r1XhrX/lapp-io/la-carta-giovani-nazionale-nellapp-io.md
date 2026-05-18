@@ -9,7 +9,7 @@ Il flusso di richiesta consiste nella sola verifica dell'età del richiedente, c
 
 Una volta attivata la Carta Giovani Nazionale, sarà sempre accessibile dalla sezione Portafoglio.
 
-<figure><img src="../../app-io/carta-giovani-nazionale/v2.0.1/.gitbook/assets/image (12).png" alt="" width="375"><figcaption><p>La sezione portafoglio di IO</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (12).png" alt="" width="375"><figcaption><p>La sezione portafoglio di IO</p></figcaption></figure>
 
 La schermata di dettaglio della CGN è composta da:
 
@@ -28,7 +28,7 @@ Si ricorda che la CGN **non ha un numero carta esposto** o visibile su App IO
 
 ## Stati della CGN
 
-<figure><img src="../../app-io/carta-giovani-nazionale/v2.0.1/.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
 
 La carta può avere i seguenti stati:
 

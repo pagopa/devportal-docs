@@ -1,6 +1,6 @@
 # Esito della richiesta di convenzionamento
 
-<figure><img src="../../app-io/carta-giovani-nazionale/v2.0.1/.gitbook/assets/image (22).png" alt="Un diagramma rappresentante l&#x27;esito della richiesta dell&#x27;operatore a Carta Giovani Nazionale"><figcaption><p>Processo di valutazione della richiesta</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (22).png" alt="Un diagramma rappresentante l&#x27;esito della richiesta dell&#x27;operatore a Carta Giovani Nazionale"><figcaption><p>Processo di valutazione della richiesta</p></figcaption></figure>
 
 **Valutazione negativa:** nel caso il Dipartimento, al termine delle valutazioni di cui al precedente paragrafo, ritenesse la richiesta di convenzione non idonea allo spirito e finalità del Programma o, comunque, non aderente ai criteri ed ai requisiti richiesti, rigetterà tale istanza di adesione.
 

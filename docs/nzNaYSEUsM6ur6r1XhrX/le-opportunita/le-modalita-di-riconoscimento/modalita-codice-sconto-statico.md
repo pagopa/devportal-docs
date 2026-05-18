@@ -19,6 +19,6 @@ Le opportunità diverse devono essere associate a codici statici differenti per 
 
 ## Esperienza utente
 
-<figure><img src="../../../app-io/carta-giovani-nazionale/v2.0.1/.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../app-io/carta-giovani-nazionale/v2.0.1/.gitbook/assets/image (9).png" alt=""><figcaption><p><mark style="color:purple;"><strong>Fig. 5</strong> Esperienza d’uso per ricercare il codice sconto di un Operatore che aderisce all’iniziativa tramite Modello codice statico</mark></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption><p><mark style="color:purple;"><strong>Fig. 5</strong> Esperienza d’uso per ricercare il codice sconto di un Operatore che aderisce all’iniziativa tramite Modello codice statico</mark></p></figcaption></figure>

@@ -34,6 +34,6 @@ Il controllo dei nomi degli header NON deve essere effettuato in maniera _case-s
 
 ## Esperienza utente
 
-<figure><img src="../../../app-io/carta-giovani-nazionale/v2.0.1/.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
-<div data-full-width="true"><figure><img src="../../../app-io/carta-giovani-nazionale/v2.0.1/.gitbook/assets/image (11).png" alt="" width="563"><figcaption><p><mark style="color:purple;"><strong>Fig. 6</strong> Esperienza d’uso per ricercare il codice sconto di un Operatore che aderisce all’iniziativa tramite Modello landing page</mark></p></figcaption></figure></div>
+<div data-full-width="true"><figure><img src="../../.gitbook/assets/image (11).png" alt="" width="563"><figcaption><p><mark style="color:purple;"><strong>Fig. 6</strong> Esperienza d’uso per ricercare il codice sconto di un Operatore che aderisce all’iniziativa tramite Modello landing page</mark></p></figcaption></figure></div>

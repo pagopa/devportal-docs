@@ -15,7 +15,7 @@ Gli Operatori che aderiscono al Programma sono tenuti a riconoscere le medesime 
 
 Gli Operatori che hanno scelto la modalità lista di codici, dovranno fornire al Dipartimento una lista di codici per ciascuna opportunità estesa ai possessori della carta EYCA, compilata seguendo il template allegato:
 
-{% file src="../../app-io/carta-giovani-nazionale/v2.0.1/.gitbook/assets/bucket_EYCA_format.xls" %}
+{% file src="../.gitbook/assets/bucket_EYCA_format.xls" %}
 Template per caricamento lista codici statici su sito EYCA
 {% endfile %}
 

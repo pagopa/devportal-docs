@@ -10,4 +10,4 @@ potrà farne richiesta tramite PEC all’indirizzo **giovanieserviziocivile@pec.
 
 Il Dipartimento informerà l’Operatore quando il nuovo Referente potrà accedere al Portale con le proprie credenziali SPID. Tutti i Referenti accreditati dall’Operatore secondo il citato procedimento vedranno e potranno operare modifiche al Profilo e alla scheda dell’Operatore medesimo o alle relative singole opportunità.
 
-{% file src="../../app-io/carta-giovani-nazionale/v2.0.1/.gitbook/assets/CGN_FormatGestioneReferente.pdf" %}
+{% file src="../.gitbook/assets/CGN_FormatGestioneReferente.pdf" %}

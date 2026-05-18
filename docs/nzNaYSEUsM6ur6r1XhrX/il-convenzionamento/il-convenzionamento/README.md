@@ -1,6 +1,6 @@
 # Il convenzionamento
 
-<figure><img src="../../../app-io/carta-giovani-nazionale/v2.0.1/.gitbook/assets/image (21).png" alt="Un diagramma rappresentante il flusso di convenzionamento dell&#x27;operatore a Carta Giovani Nazionale"><figcaption><p>Processo di convenzionamento</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (21).png" alt="Un diagramma rappresentante il flusso di convenzionamento dell&#x27;operatore a Carta Giovani Nazionale"><figcaption><p>Processo di convenzionamento</p></figcaption></figure>
 
 Il processo di convenzionamento, su invito del Dipartimento, prevede i seguenti passaggi:
 
