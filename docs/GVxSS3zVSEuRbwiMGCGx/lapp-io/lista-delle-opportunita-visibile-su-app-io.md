@@ -1,14 +1,14 @@
 # Lista delle opportunità visibile su App IO
 
-<figure><img src="../.gitbook/assets/image (55).png" alt=""><figcaption><p><mark style="color:purple;">Lista delle opportunità pubblicate in App IO</mark></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (45).png" alt=""><figcaption><p><mark style="color:purple;">Lista delle opportunità pubblicate in App IO</mark></p></figcaption></figure>
 
 Il giovane beneficiario della CGN, che intende accedere alla lista delle opportunità accede alla sezione CGN della App IO, tocca "_Scopri le opportunità_" e atterra su una schermata di presentazione delle categorie merceologiche delle opportunità offerte dai partner (Operatori) dell'iniziativa (tab "_Per categoria_")
 
-Premendo una categoria, il Beneficiario atterra su una schermata di lista in cui sono visibili tutti gli Operatori aderenti all’iniziativa, che hanno almeno un’opportunità in corso di validità appartenente alla categoria selezionata.&#x20;
+Premendo una categoria, il Beneficiario atterra su una schermata di lista in cui sono visibili tutti gli Operatori aderenti all’iniziativa, che hanno almeno un’opportunità in corso di validità appartenente alla categoria selezionata.
 
 Premendo "_Per partner_" vengono visualizzati tutti gli Operatori, che hanno almeno un'opportunità pubblicata in quel momento.
 
-Il Beneficiario può ricercare gli Operatori premendo sull’icona a forma di lente d’ingrandimento, attivando così la barra di ricerca. Il Beneficiario inserisce delle parole chiave nella barra di ricerca e potrà ricercare una corrispondenza con:&#x20;
+Il Beneficiario può ricercare gli Operatori premendo sull’icona a forma di lente d’ingrandimento, attivando così la barra di ricerca. Il Beneficiario inserisce delle parole chiave nella barra di ricerca e potrà ricercare una corrispondenza con:
 
 * nome Operatore;
 * descrizione Operatore.
@@ -32,4 +32,4 @@ Toccando un’opportunità si apre un _bottom sheet_ che ne presenta i dettagli:
 * eventuali condizioni applicate all’opportunità;
 * in caso di operatore online, la modalità di accesso all’opportunità, di cui si mostrano qui le relative schermate d'esempio.
 
-<figure><img src="../.gitbook/assets/image (15).png" alt=""><figcaption><p><mark style="color:purple;">Le modalità di riconoscimento e validazione online delle opportunità</mark> </p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption><p><mark style="color:purple;">Le modalità di riconoscimento e validazione online delle opportunità</mark></p></figcaption></figure>

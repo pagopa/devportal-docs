@@ -9,7 +9,7 @@ Il flusso di richiesta consiste nella sola verifica dell'età del richiedente, c
 
 Una volta attivata la Carta Giovani Nazionale, sarà sempre accessibile dalla sezione Portafoglio.
 
-<figure><img src="../.gitbook/assets/image (57).png" alt="" width="375"><figcaption><p><mark style="color:purple;">La sezione portafoglio di IO</mark></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (47).png" alt="" width="375"><figcaption><p><mark style="color:purple;">La sezione portafoglio di IO</mark></p></figcaption></figure>
 
 La schermata di dettaglio della CGN è composta da:
 
@@ -18,7 +18,7 @@ La schermata di dettaglio della CGN è composta da:
 * **i dati del beneficiario**\
   In particolare nome, cognome e codice fiscale. L’Operatore ha discrezione di richiedere un documento di identità per un'ulteriore verifica;
 * **lo stato e dettagli della Carta**\
-  Se è presente il badge “Attiva”, la Carta è valida. Altri stati sono “Scaduta”, “Revocata”, "Sospesa" e non devono essere accettati;&#x20;
+  Se è presente il badge “Attiva”, la Carta è valida. Altri stati sono “Scaduta”, “Revocata”, "Sospesa" e non devono essere accettati;
 * **i dettagli relativi alla Carta EYCA**\
   In particolare numero di carta e data di scadenza. Questi dettagli e il logo EYCA sulla CGN, sono visibili solo per i giovani che hanno meno di 31 anni, a cui la Carta EYCA viene attivata contestualmente al rilascio della CGN.
 
@@ -28,7 +28,7 @@ Si ricorda che la CGN **non ha un numero carta esposto** o visibile su App IO
 
 ## Stati della CGN
 
-<figure><img src="../.gitbook/assets/image (54).png" alt=""><figcaption><p><mark style="color:purple;">Gli stati della Carta Giovani Nazionale</mark></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (44).png" alt=""><figcaption><p><mark style="color:purple;">Gli stati della Carta Giovani Nazionale</mark></p></figcaption></figure>
 
 La carta può avere i seguenti stati:
 
