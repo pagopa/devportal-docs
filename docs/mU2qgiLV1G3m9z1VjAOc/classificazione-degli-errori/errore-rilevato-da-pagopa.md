@@ -1,8 +1,8 @@
 # Errore rilevato da pagoPA
 
-![](<../../pago-pa/errori/v1.0/.gitbook/assets/image (5).png>)
+![](<../.gitbook/assets/image (5).png>)
 
-La piattaforma pagoPA rileva un errore nella chiamata e restituisce in response un [v1.0](../../pago-pa/errori/v1.0/ "mention") con le seguenti caratteristiche:
+La piattaforma pagoPA rileva un errore nella chiamata e restituisce in response un [..](../ "mention") con le seguenti caratteristiche:
 
 * **id** = _NodoDeiPagamentiSPC_
 * **faultCode** = _`<faultCode rilevato da nodo>`_

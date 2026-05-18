@@ -4,9 +4,9 @@ Nel seguente schema il timeout è indicato nella tratta di “ritorno” (_yyy r
 
 Ai fini dell'errore emesso, e quindi del **faultCode**, il comportamento del Nodo dei Pagamenti è il medesimo.
 
-![](<../../pago-pa/errori/v1.0/.gitbook/assets/image (3).png>)
+![](<../.gitbook/assets/image (3).png>)
 
-La piattaforma pagoPA rileva un timeout nella chiamata verso la controparte e restituisce in response al chiamante un [v1.0](../../pago-pa/errori/v1.0/ "mention") con le seguenti caratteristiche:
+La piattaforma pagoPA rileva un timeout nella chiamata verso la controparte e restituisce in response al chiamante un [..](../ "mention") con le seguenti caratteristiche:
 
 * **id** = _NodoDeiPagamentiSPC_
 * **faultCode** = _PPT\_CANALE\_TIMEOUT_ (se controparte è PSP) / _PPT\_STAZIONE\_INT\_PA\_TIMEOUT_ (se controparte è EC)

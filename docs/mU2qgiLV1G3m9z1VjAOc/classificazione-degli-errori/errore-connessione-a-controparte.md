@@ -2,9 +2,9 @@
 
 ## Controparte non raggiungibile <a href="#controparte-non-raggiungibile" id="controparte-non-raggiungibile"></a>
 
-![](<../../pago-pa/errori/v1.0/.gitbook/assets/image (1).png>)
+![](<../.gitbook/assets/image (1).png>)
 
-La piattaforma pagoPA rileva un errore di connessione verso la controparte e restituisce in response un [v1.0](../../pago-pa/errori/v1.0/ "mention") con le seguenti caratteristiche:
+La piattaforma pagoPA rileva un errore di connessione verso la controparte e restituisce in response un [..](../ "mention") con le seguenti caratteristiche:
 
 * **id** = _NodoDeiPagamentiSPC_
 * **faultCode** = _PPT\_CANALE\_IRRAGGIUNGIBILE_(se controparte è PSP) / _PPT\_STAZIONE\_INT\_PA\_IRRAGGIUNGIBILE_ (se controparte è EC)
@@ -16,9 +16,9 @@ La piattaforma pagoPA rileva un errore di connessione verso la controparte e res
 
 Di fatto significa che attraverso una configurazione esplicita la controparte dichiara di non avere attivo uno specifico servizio e quindi non è in grado di rispondere ad una chiamata del nodo.
 
-![](<../../pago-pa/errori/v1.0/.gitbook/assets/image (4).png>)
+![](<../.gitbook/assets/image (4).png>)
 
-La piattaforma pagoPA rileva che il servizio della controparte non è attivo e restituisce in response un [v1.0](../../pago-pa/errori/v1.0/ "mention") con le seguenti caratteristiche:
+La piattaforma pagoPA rileva che il servizio della controparte non è attivo e restituisce in response un [..](../ "mention") con le seguenti caratteristiche:
 
 * **id** = _NodoDeiPagamentiSPC_
 * **faultCode** = _PPT\_CANALE\_SERVIZIO\_NONATTIVO_(se controparte è PSP) / _PPT\_STAZIONE\_INT\_PA\_SERVIZIO\_NONATTIVO_ (se controparte è EC)
