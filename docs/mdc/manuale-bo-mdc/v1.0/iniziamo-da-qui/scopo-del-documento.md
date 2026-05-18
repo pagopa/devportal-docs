@@ -1,0 +1,21 @@
+# Scopo del documento
+
+Lo scopo del presente documento è descrivere le funzionalità che il BackOffice del prodotto "Messaggi di Cortesia" mette a disposizione degli utenti abilitati per configurare e abilitare il PSP all'invio dei messaggi ai cittadini dalla piattaforma SEND diretamente nelle propria APP bancaria.
+
+Il manuale fornisce una guida operativa finalizzata a supportare gli Enti aderenti nell’utilizzo del portale, illustrando:
+
+* il funzionamento generale del servizio;
+* &#x20;i ruoli e i poteri associati agli utenti;
+* i prerequisiti necessari per l’accesso al sistema
+* &#x20;le modalità di accesso tramite Area Riservata
+* il flusso di onboarding e configurazione del servizio;
+* le funzionalità disponibili per la gestione e modifica della configurazione;
+
+## Destinatari
+
+Il documento è destinato alle seguenti figure
+
+* Amministratori degli Enti aderenti al prodotto Messaggi di Cortesia;
+* Operatori tecnici incaricati della configurazione e gestione del servizio;
+* Prestatori di Servizi di Pagamento (PSP) e loro referenti tecnici;
+* Team di supporto PagoPA.
