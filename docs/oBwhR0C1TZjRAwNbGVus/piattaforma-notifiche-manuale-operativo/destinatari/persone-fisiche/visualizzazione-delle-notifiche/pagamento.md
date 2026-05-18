@@ -2,11 +2,11 @@
 
 Nella pagina che mostra i dettagli di una specifica notifica che non è stata annullata e che non è ancora stata pagata, alla voce “Da pagare” è presente un bottone che attiva il percorso di pagamento dell’Avviso di Pagamento associato alla notifica utilizzando pagoPA.
 
-<figure><img src="../../../../../send/manuale-operativo/v1.0/.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
 
 L’utente viene così indirizzato su una schermata dove sono già caricati tutti i dati necessari per procedere con il pagamento, il percorso è quello utilizzato da pagoPA per ogni altro tipo di pagamento.
 
-<figure><img src="../../../../../send/manuale-operativo/v1.0/.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
 
 In caso di esito positivo, ricaricando la pagina il pagamento risulterà effettuato e sarà visibile in timeline l’evento di avvenuto pagamento.
 

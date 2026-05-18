@@ -9,4 +9,4 @@ L’Area Piattaforma Notifiche permette di:
 * effettuare il download dei documenti relativi a una notifica,
 * visualizzare la dashboard di monitoraggio.
 
-<figure><img src="../../../../send/manuale-operativo/v1.0/.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>

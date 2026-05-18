@@ -7,4 +7,4 @@ La pagina mostra i recapiti digitali configurati dall’utente suddivisi tra:
 * “Email o SMS”, l’indirizzo mail e/o numero di cellulare a cui PN invia un messaggio di avviso della presenza su PN di una notifica, a cui poter accedere per leggerla e pagare eventuali spese.
 * “Altri recapiti”, eventuali indirizzi PEC/SERCQ, Email o numero di cellulare da associare alle notifiche provenienti da specifici Enti e, che quindi PN userà come recapito del destinatario, esclusivamente per le comunicazioni provenienti da uno di essi.<br>
 
-<figure><img src="../../../../../send/manuale-operativo/v1.0/.gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure>

@@ -2,7 +2,7 @@
 
 L’operazione non è premessa se esiste già un altro indirizzo Email e/o numero di cellulare configurati per ricevere i messaggi di cortesia.
 
-<figure><img src="../../../../../send/manuale-operativo/v1.0/.gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
 
 Nel caso in cui venga inserito un indirizzo email non noto a PN, viene inviata una mail a quell’indirizzo con un codice che dovrà essere inserito per confermare l’indirizzo. Solo a seguito della conferma il recapito è effettivamente utilizzato nel processo di notificazione.
 

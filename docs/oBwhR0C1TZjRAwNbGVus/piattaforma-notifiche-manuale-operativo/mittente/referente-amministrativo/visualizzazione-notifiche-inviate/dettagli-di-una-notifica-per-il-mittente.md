@@ -4,4 +4,4 @@ Selezionando nella pagina di visualizzazione delle notifiche inviate dalla PA un
 
 Questa pagina mostra le informazioni visualizzate precedentemente nella tabella con l’aggiunta del nome e cognome destinatario/i e data di invio e del Codice Avviso di pagamento.
 
-<figure><img src="../../../../../send/manuale-operativo/v1.0/.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
