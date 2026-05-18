@@ -29,7 +29,7 @@ Eliminare le distrazioni per guidare l’utente verso l’azione di attivazione 
 
 ### Esempio
 
-### <img src="../../../../pago-pa/lineeguida-messaggi-cortesia/1.0/.gitbook/assets/Landing page.png" alt="" data-size="original">
+### <img src="../../../.gitbook/assets/Landing page.png" alt="" data-size="original">
 
 {% hint style="info" %}
 Le immagini e le illustrazioni sono a scopo esemplificativo.

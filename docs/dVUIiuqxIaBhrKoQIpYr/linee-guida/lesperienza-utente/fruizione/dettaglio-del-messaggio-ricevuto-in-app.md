@@ -1,6 +1,6 @@
 # Dettaglio del messaggio ricevuto in app
 
-<figure><img src="../../../../pago-pa/lineeguida-messaggi-cortesia/1.0/.gitbook/assets/TPP - Messaggio di cortesia.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/TPP - Messaggio di cortesia.png" alt=""><figcaption></figcaption></figure>
 
 ### Elementi obbligatori
 
