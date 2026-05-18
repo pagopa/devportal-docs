@@ -6,4 +6,4 @@ L’Operatore che ha la necessità di sostituire uno o più dei propri referenti
 
 In modo analogo a quanto sopra l’Operatore che ha la necessità di cancellare uno o più dei referenti già accreditati ad operare sul Portale, potrà farne richiesta tramite PEC all’indirizzo giovanieserviziocivile@pec.governo.it, indicando nell’oggetto la dicitura “CGN#INFO#CONVENZIONE”.
 
-{% file src="../../app-io/carta-giovani-nazionale/v1.0/.gitbook/assets/CGN_FormatGestioneReferente.pdf" %}
+{% file src="../.gitbook/assets/CGN_FormatGestioneReferente.pdf" %}

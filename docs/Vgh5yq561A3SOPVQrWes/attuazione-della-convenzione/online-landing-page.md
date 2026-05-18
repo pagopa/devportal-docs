@@ -28,7 +28,7 @@ Il controllo del relativo header può essere effettuato sia a livello infrastrut
 
 #### Esperienza utente
 
-![](<../../app-io/carta-giovani-nazionale/v1.0/.gitbook/assets/Wallet - Dettaglio carta-1.png>)![](<../../app-io/carta-giovani-nazionale/v1.0/.gitbook/assets/Esercenti online.png>)![](<../../app-io/carta-giovani-nazionale/v1.0/.gitbook/assets/Dettaglio esercente fisico - online - singola.png>)![](<../../app-io/carta-giovani-nazionale/v1.0/.gitbook/assets/BS offerta - landing.png>)
+![](<../.gitbook/assets/Wallet - Dettaglio carta-1.png>)![](<../.gitbook/assets/Esercenti online.png>)![](<../.gitbook/assets/Dettaglio esercente fisico - online - singola.png>)![](<../.gitbook/assets/BS offerta - landing.png>)
 
 <mark style="color:purple;">**Fig. 6**</mark> <mark style="color:purple;"></mark><mark style="color:purple;">Esperienza d’uso per ricercare il codice sconto di un Operatore che aderisce all’iniziativa tramite Modello landing page</mark>
 

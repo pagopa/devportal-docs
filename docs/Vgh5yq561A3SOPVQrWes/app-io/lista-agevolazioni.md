@@ -2,7 +2,7 @@
 
 
 
-![Dettaglio CGN](<../../app-io/carta-giovani-nazionale/v1.0/.gitbook/assets/01. Dettaglio (1).png>) ![Categorie](<../../app-io/carta-giovani-nazionale/v1.0/.gitbook/assets/02. Categorie (2).png>) ![Dettaglio categoria](<../../app-io/carta-giovani-nazionale/v1.0/.gitbook/assets/03. Categoria.png>) ![Dettaglio Operatore](<../../app-io/carta-giovani-nazionale/v1.0/.gitbook/assets/04. Operatore.png>)
+![Dettaglio CGN](<../.gitbook/assets/01. Dettaglio (1).png>) ![Categorie](<../.gitbook/assets/02. Categorie (2).png>) ![Dettaglio categoria](<../.gitbook/assets/03. Categoria.png>) ![Dettaglio Operatore](<../.gitbook/assets/04. Operatore.png>)
 
 Il giovane tocca `Scopri le agevolazioni` e atterra su una schermata di presentazione delle categorie merceologiche delle agevolazioni offerte dai partner dell'iniziativa.
 
@@ -34,5 +34,5 @@ Toccando un’agevolazione si apre un _bottom sheet_ che ne presenta i dettagli:
 * eventuali condizioni applicate all’agevolazione;
 * in caso di operatore online, la modalità di accesso all’agevolazione, di cui si mostrano qui le relative schermate d'esempio.
 
-![Agevolazione presso punti fisici](<../../app-io/carta-giovani-nazionale/v1.0/.gitbook/assets/001. Fisico.png>) ![Codice sconto statico / Lista di codici ](<../../app-io/carta-giovani-nazionale/v1.0/.gitbook/assets/002. Codice statico.png>) ![Codice sconto temporaneo](<../../app-io/carta-giovani-nazionale/v1.0/.gitbook/assets/003. Codice OTP.png>) ![Landing page](<../../app-io/carta-giovani-nazionale/v1.0/.gitbook/assets/004. Landing.png>)
+![Agevolazione presso punti fisici](<../.gitbook/assets/001. Fisico.png>) ![Codice sconto statico / Lista di codici ](<../.gitbook/assets/002. Codice statico.png>) ![Codice sconto temporaneo](<../.gitbook/assets/003. Codice OTP.png>) ![Landing page](<../.gitbook/assets/004. Landing.png>)
 

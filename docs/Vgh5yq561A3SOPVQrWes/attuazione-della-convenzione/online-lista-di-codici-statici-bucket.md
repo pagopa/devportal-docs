@@ -34,5 +34,5 @@ L’esperienza utente è identica a quella generata dal modello “codice sconto
 Se l’Operatore implementa un processo di invalidazione dei codici effettivamente utilizzati sul proprio sito, raccomandiamo la massima attenzione in fase di caricamento dei codici: la lista non deve contenere codici duplicati o alcun codice già presente nelle liste precedenti in quanto questi potrebbero risultare invalidati e quindi non permettere l’accesso all’agevolazione, creando un disservizio ai Beneficiari.
 {% endhint %}
 
-{% file src="../../app-io/carta-giovani-nazionale/v1.0/.gitbook/assets/test-codes.csv" %}
+{% file src="../.gitbook/assets/test-codes.csv" %}
 
