@@ -8,7 +8,7 @@ Nel caso in cui l'ente invia messaggi tramite IO ai legali rappresentati di pers
 
 Ne consegue che **è escluso sia l’invio di comunicazioni massive** alla totalità dell’utenza di IO, **sia l’invio a utenti che non siano destinatari diretti** dei servizi erogati.
 
-<figure><img src="../../../app-io/manuale-servizi/v3.0/.gitbook/assets/image (21).png" alt=""><figcaption><p>Esempio di messaggi inviati a un utente su IO</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (21).png" alt=""><figcaption><p>Esempio di messaggi inviati a un utente su IO</p></figcaption></figure>
 
 ## Tipologie di messaggi
 

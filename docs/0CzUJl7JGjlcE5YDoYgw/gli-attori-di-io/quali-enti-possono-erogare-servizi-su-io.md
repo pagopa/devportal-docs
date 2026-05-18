@@ -21,7 +21,7 @@ Gli enti possono operare in autonomia o essere supportati da:
 
 Le Pubbliche Amministrazioni (PA) sono la tipologia di enti più corposa nell'app. Nella sezione Servizi di IO, le Pubbliche Amministrazioni e gli altri enti pubblici sono distinti tra "nazionali" e "locali".
 
-<figure><img src="../../app-io/manuale-servizi/v3.0/.gitbook/assets/image (1).png" alt=""><figcaption><p>La sezione Servizi dell'app IO</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>La sezione Servizi dell'app IO</p></figcaption></figure>
 
 #### **Enti pubblici nazionali**
 

@@ -30,7 +30,7 @@ Gli enti possono inviare tramite IO messaggi anche ai cittadini che rivestono la
 3. I messaggi che l'ente invia al Legale Rappresentante della persona giuridica non hanno valore legale.
 {% endhint %}
 
-<figure><img src="../../app-io/manuale-servizi/v3.0/.gitbook/assets/image (20).png" alt=""><figcaption><p>Accesso su IO tramite SPID o CIE</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (20).png" alt=""><figcaption><p>Accesso su IO tramite SPID o CIE</p></figcaption></figure>
 
 ### Cosa possono fare i cittadini con i servizi in IO?
 
