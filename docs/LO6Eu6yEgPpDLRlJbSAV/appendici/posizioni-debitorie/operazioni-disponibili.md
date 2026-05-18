@@ -19,11 +19,11 @@ Per i dettagli [https://github.com/pagopa/pagopa-api/tree/SANP3.3.0/openapi](htt
 
 ### Creazione di una posizione debitoria
 
-{% openapi src="../../../pago-pa/sanp/3.3.0/.gitbook/assets/gpd.yaml" path="/organizations/{organizationfiscalcode}/debtpositions" method="post" %}
-[gpd.yaml](../../../pago-pa/sanp/3.3.0/.gitbook/assets/gpd.yaml)
+{% openapi src="../../.gitbook/assets/gpd.yaml" path="/organizations/{organizationfiscalcode}/debtpositions" method="post" %}
+[gpd.yaml](../../.gitbook/assets/gpd.yaml)
 {% endopenapi %}
 
-![](<../../../pago-pa/sanp/3.3.0/.gitbook/assets/createPD (1).png>)
+![](<../../.gitbook/assets/createPD (1).png>)
 
 In fase di creazione della posizione debitoria il servizio effettuerà controlli sui dati in input e controlli di eventuali duplicati.
 
@@ -39,29 +39,29 @@ Tra i controlli dei duplicati ci si basa sugli identificativi di pagamento (IUPD
 
 ### Lettura di una lista di posizioni debitorie e di una singola posizione debitoria
 
-{% openapi src="../../../pago-pa/sanp/3.3.0/.gitbook/assets/gpd.yaml" path="/organizations/{organizationfiscalcode}/debtpositions" method="get" %}
-[gpd.yaml](../../../pago-pa/sanp/3.3.0/.gitbook/assets/gpd.yaml)
+{% openapi src="../../.gitbook/assets/gpd.yaml" path="/organizations/{organizationfiscalcode}/debtpositions" method="get" %}
+[gpd.yaml](../../.gitbook/assets/gpd.yaml)
 {% endopenapi %}
 
-![](../../../pago-pa/sanp/3.3.0/.gitbook/assets/readPDList.png)
+![](../../.gitbook/assets/readPDList.png)
 
 La lettura di una lista di posizioni debitorie prevede sempre una paginazione. E' inoltre possibile filtrare per `due_date` in modo da limitare i risultati.
 
-{% openapi src="../../../pago-pa/sanp/3.3.0/.gitbook/assets/gpd.yaml" path="/organizations/{organizationfiscalcode}/debtpositions/{iupd}" method="get" %}
-[gpd.yaml](../../../pago-pa/sanp/3.3.0/.gitbook/assets/gpd.yaml)
+{% openapi src="../../.gitbook/assets/gpd.yaml" path="/organizations/{organizationfiscalcode}/debtpositions/{iupd}" method="get" %}
+[gpd.yaml](../../.gitbook/assets/gpd.yaml)
 {% endopenapi %}
 
-![](../../../pago-pa/sanp/3.3.0/.gitbook/assets/readPD.png)
+![](../../.gitbook/assets/readPD.png)
 
 La lettura di una posizione debitoria si basa sull'identificativo in input (IUPD). In caso lo IUPD non sia esistente verrà emesso un errore.
 
 ### Aggiornamento di una posizione debitoria
 
-{% openapi src="../../../pago-pa/sanp/3.3.0/.gitbook/assets/gpd.yaml" path="/organizations/{organizationfiscalcode}/debtpositions/{iupd}" method="put" %}
-[gpd.yaml](../../../pago-pa/sanp/3.3.0/.gitbook/assets/gpd.yaml)
+{% openapi src="../../.gitbook/assets/gpd.yaml" path="/organizations/{organizationfiscalcode}/debtpositions/{iupd}" method="put" %}
+[gpd.yaml](../../.gitbook/assets/gpd.yaml)
 {% endopenapi %}
 
-![](../../../pago-pa/sanp/3.3.0/.gitbook/assets/updatePD.png)
+![](../../.gitbook/assets/updatePD.png)
 
 In fase di aggiornamento, oltre ai già citati controlli in fase di creazione , si verifica che la posizione sia esistente ed aggiornabile.
 
@@ -69,21 +69,21 @@ In particolare l'aggiornabilità della posizione debitoria dipende dallo stato d
 
 ### Cancellazione di una Posizione Debitoria
 
-{% openapi src="../../../pago-pa/sanp/3.3.0/.gitbook/assets/gpd.yaml" path="/organizations/{organizationfiscalcode}/debtpositions/{iupd}" method="delete" %}
-[gpd.yaml](../../../pago-pa/sanp/3.3.0/.gitbook/assets/gpd.yaml)
+{% openapi src="../../.gitbook/assets/gpd.yaml" path="/organizations/{organizationfiscalcode}/debtpositions/{iupd}" method="delete" %}
+[gpd.yaml](../../.gitbook/assets/gpd.yaml)
 {% endopenapi %}
 
-![](<../../../pago-pa/sanp/3.3.0/.gitbook/assets/deletePD (1).png>)
+![](<../../.gitbook/assets/deletePD (1).png>)
 
 La cancellazione di una posizione debitoria prevede controlli sia sull'esistenza (IUPD) che sullo stato (ad esempio, una posizione debitoria non sarà cancellabile se è già stata pagata)
 
 ### Pubblicazione di una posizione debitoria
 
-{% openapi src="../../../pago-pa/sanp/3.3.0/.gitbook/assets/gpd.yaml" path="/organizations/{organizationfiscalcode}/debtpositions/{iupd}/publish" method="post" %}
-[gpd.yaml](../../../pago-pa/sanp/3.3.0/.gitbook/assets/gpd.yaml)
+{% openapi src="../../.gitbook/assets/gpd.yaml" path="/organizations/{organizationfiscalcode}/debtpositions/{iupd}/publish" method="post" %}
+[gpd.yaml](../../.gitbook/assets/gpd.yaml)
 {% endopenapi %}
 
-![](../../../pago-pa/sanp/3.3.0/.gitbook/assets/publishPD.png)
+![](../../.gitbook/assets/publishPD.png)
 
 La pubblicazione della posizione debitoria permette il passaggio dallo stato `DRAFT` allo stato `PUBLISHED.`
 
@@ -91,11 +91,11 @@ Una posizione in stato `DRAFT` (bozza) infatti non permette la normale operativi
 
 ### Invalidazione di una posizione debitoria
 
-{% openapi src="../../../pago-pa/sanp/3.3.0/.gitbook/assets/gpd.yaml" path="/organizations/{organizationfiscalcode}/debtpositions/{iupd}/invalidate" method="post" %}
-[gpd.yaml](../../../pago-pa/sanp/3.3.0/.gitbook/assets/gpd.yaml)
+{% openapi src="../../.gitbook/assets/gpd.yaml" path="/organizations/{organizationfiscalcode}/debtpositions/{iupd}/invalidate" method="post" %}
+[gpd.yaml](../../.gitbook/assets/gpd.yaml)
 {% endopenapi %}
 
-![](../../../pago-pa/sanp/3.3.0/.gitbook/assets/invalidatePD.png)
+![](../../.gitbook/assets/invalidatePD.png)
 
 L'invalidazione di una posizione debitore consiste di fatto in una cancellazione logica. E' possibile solo partendo dagli stati `PUBLISHED` e `VALID`.
 
@@ -112,11 +112,11 @@ Si identificano 2 entità:
 
 ### Aggiunta di un ente creditore con eventuali sottoscrizioni a servizi
 
-{% openapi src="../../../pago-pa/sanp/3.3.0/.gitbook/assets/gps.yaml" path="/organizations/{organizationFiscalCode}" method="post" %}
-[gps.yaml](../../../pago-pa/sanp/3.3.0/.gitbook/assets/gps.yaml)
+{% openapi src="../../.gitbook/assets/gps.yaml" path="/organizations/{organizationFiscalCode}" method="post" %}
+[gps.yaml](../../.gitbook/assets/gps.yaml)
 {% endopenapi %}
 
-![](../../../pago-pa/sanp/3.3.0/.gitbook/assets/createEC.png)
+![](../../.gitbook/assets/createEC.png)
 
 Con questa operazione è possibile aderire tecnicamente al servizio di gestione dei pagamenti spontanei. E' inoltre possibile, già in fase di adesione, definire l'iscrizione ai vari servizi.
 
@@ -124,11 +124,11 @@ Vengono effettuati controlli sintattici e semantici sui campi in input. In parti
 
 ### Cancellazione di un ente creditore e relative sottoscrizioni
 
-{% openapi src="../../../pago-pa/sanp/3.3.0/.gitbook/assets/gps.yaml" path="/organizations/{organizationFiscalCode}" method="delete" %}
-[gps.yaml](../../../pago-pa/sanp/3.3.0/.gitbook/assets/gps.yaml)
+{% openapi src="../../.gitbook/assets/gps.yaml" path="/organizations/{organizationFiscalCode}" method="delete" %}
+[gps.yaml](../../.gitbook/assets/gps.yaml)
 {% endopenapi %}
 
-![](../../../pago-pa/sanp/3.3.0/.gitbook/assets/deleteEC.png)
+![](../../.gitbook/assets/deleteEC.png)
 
 Questa funzionalità permette la cancellazione di un adesione di un Ente Creditore al servizio di gestione dei pagamenti spontanei. Contestualmente vengono cancellate tutte le sottoscrizioni.
 
@@ -136,11 +136,11 @@ Questa operazione, per potere essere effettuata, deve essere preceduta da un ade
 
 ### Aggiornamento di un Ente Creditore
 
-{% openapi src="../../../pago-pa/sanp/3.3.0/.gitbook/assets/gps.yaml" path="/organizations/{organizationFiscalCode}" method="put" %}
-[gps.yaml](../../../pago-pa/sanp/3.3.0/.gitbook/assets/gps.yaml)
+{% openapi src="../../.gitbook/assets/gps.yaml" path="/organizations/{organizationFiscalCode}" method="put" %}
+[gps.yaml](../../.gitbook/assets/gps.yaml)
 {% endopenapi %}
 
-![](../../../pago-pa/sanp/3.3.0/.gitbook/assets/updateEC.png)
+![](../../.gitbook/assets/updateEC.png)
 
 Con questa funzionalità è possibili aggiornare le proprietà dell'Ente Creditore in merito all'adesione al servizio.
 
@@ -148,21 +148,21 @@ Valgono gli stessi controlli definiti per la creazione dell' adesione, oltre ai 
 
 ### Lettura dei dati di un ente creditore e sottoscrizioni a servizi
 
-{% openapi src="../../../pago-pa/sanp/3.3.0/.gitbook/assets/gps.yaml" path="/organizations/{organizationFiscalCode}" method="get" %}
-[gps.yaml](../../../pago-pa/sanp/3.3.0/.gitbook/assets/gps.yaml)
+{% openapi src="../../.gitbook/assets/gps.yaml" path="/organizations/{organizationFiscalCode}" method="get" %}
+[gps.yaml](../../.gitbook/assets/gps.yaml)
 {% endopenapi %}
 
-![](../../../pago-pa/sanp/3.3.0/.gitbook/assets/readEC.png)
+![](../../.gitbook/assets/readEC.png)
 
 Questa funzionalità permette di recuperare, oltre alle proprietà dell'ente creditore, tutte le sottoscrizioni ai servizi.
 
 ### Sottoscrizione a un servizio
 
-{% openapi src="../../../pago-pa/sanp/3.3.0/.gitbook/assets/gps.yaml" path="/organizations/{organizationFiscalCode}/services/{serviceId}" method="post" %}
-[gps.yaml](../../../pago-pa/sanp/3.3.0/.gitbook/assets/gps.yaml)
+{% openapi src="../../.gitbook/assets/gps.yaml" path="/organizations/{organizationFiscalCode}/services/{serviceId}" method="post" %}
+[gps.yaml](../../.gitbook/assets/gps.yaml)
 {% endopenapi %}
 
-![](<../../../pago-pa/sanp/3.3.0/.gitbook/assets/createService (1).png>)
+![](<../../.gitbook/assets/createService (1).png>)
 
 Con questa operazione è possibile aggiungere una sottoscrizione ad un servizio.
 
@@ -170,21 +170,21 @@ Vengono effettuati controlli in merito all'identificativo del servizio aggiunto 
 
 ### Lettura di una sottoscrizione a un servizio
 
-{% openapi src="../../../pago-pa/sanp/3.3.0/.gitbook/assets/gps.yaml" path="/organizations/{organizationFiscalCode}/services/{serviceId}" method="get" %}
-[gps.yaml](../../../pago-pa/sanp/3.3.0/.gitbook/assets/gps.yaml)
+{% openapi src="../../.gitbook/assets/gps.yaml" path="/organizations/{organizationFiscalCode}/services/{serviceId}" method="get" %}
+[gps.yaml](../../.gitbook/assets/gps.yaml)
 {% endopenapi %}
 
-![](../../../pago-pa/sanp/3.3.0/.gitbook/assets/readService.png)
+![](../../.gitbook/assets/readService.png)
 
 Con questa operazione è possibile recuperare le proprietà di una determinata sottoscrizione ad un servizio.
 
 ### Aggiornamento di una sottoscrizione a un servizio
 
-{% openapi src="../../../pago-pa/sanp/3.3.0/.gitbook/assets/gps.yaml" path="/organizations/{organizationFiscalCode}/services/{serviceId}" method="put" %}
-[gps.yaml](../../../pago-pa/sanp/3.3.0/.gitbook/assets/gps.yaml)
+{% openapi src="../../.gitbook/assets/gps.yaml" path="/organizations/{organizationFiscalCode}/services/{serviceId}" method="put" %}
+[gps.yaml](../../.gitbook/assets/gps.yaml)
 {% endopenapi %}
 
-![](../../../pago-pa/sanp/3.3.0/.gitbook/assets/updateService.png)
+![](../../.gitbook/assets/updateService.png)
 
 Con questa operazione è possibile aggiornare le proprietà di una sottoscrizione precedentemente aggiunta.
 
@@ -192,11 +192,11 @@ Non è possibile cambiare il servizio con questa operazione.
 
 ### Cancellazione di una sottoscrizione a un servizio
 
-{% openapi src="../../../pago-pa/sanp/3.3.0/.gitbook/assets/gps.yaml" path="/organizations/{organizationFiscalCode}/services/{serviceId}" method="delete" %}
-[gps.yaml](../../../pago-pa/sanp/3.3.0/.gitbook/assets/gps.yaml)
+{% openapi src="../../.gitbook/assets/gps.yaml" path="/organizations/{organizationFiscalCode}/services/{serviceId}" method="delete" %}
+[gps.yaml](../../.gitbook/assets/gps.yaml)
 {% endopenapi %}
 
-![](../../../pago-pa/sanp/3.3.0/.gitbook/assets/deleteService.png)
+![](../../.gitbook/assets/deleteService.png)
 
 Con questa operazione è possibile cancellare la sottoscrizione ad un servizio precedentemente aggiunto.
 
@@ -207,14 +207,14 @@ Sono messe a disposizione delle funzionalità di lettura dei flussi di rendicont
 * Lista di flussi di rendicontazione per un Ente Creditore
 * Dettaglio del flusso di rendicontazione
 
-{% openapi src="../../../pago-pa/sanp/3.3.0/.gitbook/assets/gpd_fdr.yaml" path="/organizations/{organizationId}/reportings" method="get" %}
-[gpd_fdr.yaml](../../../pago-pa/sanp/3.3.0/.gitbook/assets/gpd_fdr.yaml)
+{% openapi src="../../.gitbook/assets/gpd_fdr.yaml" path="/organizations/{organizationId}/reportings" method="get" %}
+[gpd_fdr.yaml](../../.gitbook/assets/gpd_fdr.yaml)
 {% endopenapi %}
 
-![](../../../pago-pa/sanp/3.3.0/.gitbook/assets/readFdRList.png)
+![](../../.gitbook/assets/readFdRList.png)
 
-{% openapi src="../../../pago-pa/sanp/3.3.0/.gitbook/assets/gpd_fdr.yaml" path="/organizations/{organizationId}/reportings/{flowId}/date/{date}" method="get" %}
-[gpd_fdr.yaml](../../../pago-pa/sanp/3.3.0/.gitbook/assets/gpd_fdr.yaml)
+{% openapi src="../../.gitbook/assets/gpd_fdr.yaml" path="/organizations/{organizationId}/reportings/{flowId}/date/{date}" method="get" %}
+[gpd_fdr.yaml](../../.gitbook/assets/gpd_fdr.yaml)
 {% endopenapi %}
 
-![](../../../pago-pa/sanp/3.3.0/.gitbook/assets/readFdR.png)
+![](../../.gitbook/assets/readFdR.png)

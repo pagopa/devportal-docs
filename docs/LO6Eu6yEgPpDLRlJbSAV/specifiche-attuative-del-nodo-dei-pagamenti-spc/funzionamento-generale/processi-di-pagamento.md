@@ -4,7 +4,7 @@ Il processo di pagamento può essere avviato tramite i seguenti canali
 
 * Frontend dell'EC
 * Touch point del PSP
-* App IO <img src="../../../pago-pa/sanp/3.3.0/.gitbook/assets/image (3).png" alt="" data-size="line">
+* App IO <img src="../../.gitbook/assets/image (3).png" alt="" data-size="line">
 * Checkout di PagoPA S.p.A.
 
 nella tabella seguente sono indicate le features a disposizione degli utenti per ogni canale.

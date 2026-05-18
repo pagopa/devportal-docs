@@ -2272,6 +2272,6 @@ _**transfer**_
 
 ## getOrganizationReceipt
 
-{% openapi src="../../pago-pa/sanp/3.3.0/.gitbook/assets/bizEvents.yaml" path="/organizations/{organizationfiscalcode}/receipts/{iur}/paymentoptions/{iuv}" method="get" %}
-[bizEvents.yaml](../../pago-pa/sanp/3.3.0/.gitbook/assets/bizEvents.yaml)
+{% openapi src="../.gitbook/assets/bizEvents.yaml" path="/organizations/{organizationfiscalcode}/receipts/{iur}/paymentoptions/{iuv}" method="get" %}
+[bizEvents.yaml](../.gitbook/assets/bizEvents.yaml)
 {% endopenapi %}

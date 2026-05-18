@@ -6,7 +6,7 @@ Per la gestione degli errori fare riferimento a [Gestione degli errori](https://
 
 ## Fase di richiesta di creazione della posizione debitoria
 
-![](../../../pago-pa/sanp/3.3.0/.gitbook/assets/paDemandPaymentNotice.png)
+![](../../.gitbook/assets/paDemandPaymentNotice.png)
 
 La [paDemandPaymentNotice](../../appendici/primitive.md#pademandpaymentnotice) è utilizzata per richiedere all’EC la creazione della posizione debitoria in base ai dati dello specifico servizio inviati, l'EC invia in risposta le informazioni necessarie per avviare il processo di pagamento, in particolare:
 
@@ -21,7 +21,7 @@ Gli EC mettono a disposizione i dati dello specifico servizio tramite il [catalo
 
 ## Fase di verifica
 
-![](../../../pago-pa/sanp/3.3.0/.gitbook/assets/paVerifyPaymentNotice.png)
+![](../../.gitbook/assets/paVerifyPaymentNotice.png)
 
 La [paVerifyPaymentNotice](../../appendici/primitive.md#paverifypaymentnotice) è utilizzata per richiedere all’EC la verifica dell’opzione di pagamento identificata dal numero avviso, che invia le informazioni di pagamento relative al numero avviso, in particolare:
 
@@ -40,7 +40,7 @@ Il Nodo effettua una verifica semantica sulla response:
 
 ## Fase di attivazione
 
-![](../../../pago-pa/sanp/3.3.0/.gitbook/assets/paGetPayment.png)
+![](../../.gitbook/assets/paGetPayment.png)
 
 La richiesta di attivazione del pagamento giunge all’EC per mezzo della [paGetPayment](../../appendici/primitive.md#pagetpayment), l'EC invia l’importo del pagamento ed i dati necessari per il riversamento della somma, in particolare per ogni versamento:
 
@@ -60,7 +60,7 @@ Il Nodo effettua una verifica semantica sulla response:
 
 ## Fase di invio della ricevuta
 
-![](../../../pago-pa/sanp/3.3.0/.gitbook/assets/paSendRT.png)
+![](../../.gitbook/assets/paSendRT.png)
 
 Tramite la primitiva [paSendRT](../../appendici/primitive.md#pasendrt) viene inoltrata agli _n_ EC interessati al pagamento la _receipt_ (ricevuta) solo se il pagamento è stato effettuato, la _receipt_ è un oggetto generato dalla piattaforma pagoPA.
 
@@ -72,13 +72,13 @@ Il servizio è rivolto a tutti gli EC che, in casi particolari, hanno la necessi
 
 Come verrà ampiamente chiarito nelle sezioni successive, il servizio non è pensato per essere fruito durante tutte le fasi del processo di pagamento, ma soltanto in casi specifici e in modo particolare a valle della ricezione dei flussi di rendicontazione. A protezione della natura del servizio sono state implementate delle politiche di throttling che limitano il numero di chiamate _n_ in un intervallo di tempo _t_ da parte dello stesso EC.
 
-<figure><img src="../../../pago-pa/sanp/3.3.0/.gitbook/assets/image (3) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (2).png" alt=""><figcaption></figcaption></figure>
 
 Qualora durante la lavorazione del flusso una _receipt_ non fosse disponibile, l’eccezione può essere gestita tentando di recuperarla mediante l’invocazione del servizio _getOrganizationReceipt_.
 
 Il diagramma seguente riporta invece uno use case **non consentito**
 
-<figure><img src="../../../pago-pa/sanp/3.3.0/.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 E' assolutamente vietato inserire l’invocazione del servizio _getOrganizationReceipt_ all’interno di un loop in modo indiscriminato senza l’insorgere di un evento di errore che ne giustifichi l’utilizzo.
