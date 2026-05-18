@@ -4,7 +4,7 @@ Una volta che ti sarai assicurato che il tuo utente [possa ricevere le tue comun
 
 1.  Aggiungi l'header `Ocp-Apim-Subscription-Key` e valorizzalo con la chiave ([primaria o secondaria](https://docs.pagopa.it/kb-enti-servizi/domande-frequenti/domande-e-risposte-sui-servizi-io#perche-ci-sono-due-api-key-per-servizio)) del tuo Servizio IO: puoi recuperarla accedendo all'[Area Riservata](https://selfcare.pagopa.it/) e cercando la scheda del tuo Servizio nella pagina "Servizi"<br>
 
-    <figure><img src="../../../app-io/supporto-agli-enti/v1.0/.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
 2. Componi la URL di invocazione per l'API come nell'esempio:\
    \
    https://api.io.pagopa.it/api/v1/messages/<mark style="color:blue;">**RSRNOU70S54S000L**</mark>/<mark style="color:green;">**01GS8744E24EZDG3XD5ECXB9RG**</mark><br>
@@ -37,7 +37,7 @@ Una volta che ti sarai assicurato che il tuo utente [possa ricevere le tue comun
 * il campo `id` è l'eco dell'identificativo del messaggio che hai specificato in richiesta
 *   il campo `sender_service_id` contiene il codice identificativo del servizio che stai usando per il messaggio:<br>
 
-    <figure><img src="../../../app-io/supporto-agli-enti/v1.0/.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
 * il campo status assume il valore `PROCESSED` nel momento in cui il messaggio è a disposizione dell'utente nella sua App IO; consulta la Guida Tecnica per [gli altri possibili stati previsti](https://docs.pagopa.it/io-guida-tecnica/api-e-specifiche/api-messaggi/get-message#status)
 
 {% hint style="info" %}
