@@ -16,7 +16,7 @@ Abbandonando la sezione senza aver premuto il tasto "Continua" le informazioni f
 
 Attenzione: da una qualunque delle tre sezioni previste per la creazione di una nuova notifica, premendo il tasto in alto a sx "Indietro", l'operatore verrà riportato alla pagina di accesso a PN"Notifiche" e le informazioni inserite nelle sezioni non verranno salvate.
 
-<figure><img src="../../../../send/manuale-operativo/v1.1/.gitbook/assets/image (99).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (99).png" alt=""><figcaption></figcaption></figure>
 
 La seconda sezione prevede i seguenti campi obbligatori per ciascuno dei destinatari previsti: individuazione del soggetto giuridico destinatario (persona fisica/persona giuridica), nome, cognome, codice fiscale / partita iva (solo se destinatario = persona giuridica), indirizzo fisico del destinatario.
 
@@ -30,7 +30,7 @@ Abbandonando la sezione senza aver premuto il tasto "Continua" le informazioni f
 
 Premendo il tasto "Torna a informazioni preliminari" l'operatore sarà riportato alla sezione precedente.
 
-<figure><img src="../../../../send/manuale-operativo/v1.1/.gitbook/assets/image (92).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (92).png" alt=""><figcaption></figcaption></figure>
 
 La terza e ultima sezione prevede il caricamento in allegato di almeno un atto in formato Pdf e firmato digitalmente dalla PA mittente, eventualmente contenente anche l’avviso di pagamento pagoPA.
 
@@ -44,10 +44,10 @@ Abbandonando la sezione senza aver premuto il tasto "Invia" le informazioni fino
 
 Premendo il tasto "Torna a destinatario" l'operatore sarà riportato alla sezione precedente.
 
-<figure><img src="../../../../send/manuale-operativo/v1.1/.gitbook/assets/image (51).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (51).png" alt=""><figcaption></figcaption></figure>
 
 La notifica è stata creata e al termine del processo di verifica (entro 5 minuti dal momento della creazione) PN visualizzerà la notifica, ed il relativo Identificativo Univoco della Notifica (IUN)  nella lista di notifiche inviate visibile nella pagina di accesso "Notifiche". Nel caso in cui la creazione non vada a buon fine, la relativa notifica non sarà presente in elenco.&#x20;
 
 A questo punto l’operatore può visualizzare l'avanzamento del processo di notificazione nella pagina di accesso "Notifiche".
 
-<figure><img src="../../../../send/manuale-operativo/v1.1/.gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure>

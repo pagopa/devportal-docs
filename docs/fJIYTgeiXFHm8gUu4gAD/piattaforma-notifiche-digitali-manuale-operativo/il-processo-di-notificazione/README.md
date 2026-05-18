@@ -18,7 +18,7 @@ I documenti allegati devono essere in formato PDF e conformi a quanto richiesto 
 
 Nel caso in cui la PA mittente non sia in grado di determinare se un Codice Fiscale appartenga ad una persona fisica o ad una persona giuridica, si suggerisce di assumere che il Codice Fiscale appartenga alla persona fisica.
 
-<figure><img src="../../../send/manuale-operativo/v1.1/.gitbook/assets/image (120).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (120).png" alt=""><figcaption></figcaption></figure>
 
 Una volta che una notifica è stata correttamente creata dalla PA mittente, PN genera un documento denominato Avviso di Avvenuta Ricezione (AAR) che contiene le informazioni relative all’esistenza della notifica, il suo IUN e le indicazioni sulle modalità che il destinatario può utilizzare per accedere agli atti notificati e depositati in piattaforma. PN a questo punto verifica se è possibile effettuare la notificazione attraverso canali digitali. Questo è possibile se la PA mittente ha fornito un domicilio digitale (speciale), oppure se esiste negli archivi di PN un domicilio digitale (di piattaforma) collegato al destinatario oppure, infine, se è possibile reperire un domicilio digitale (generale) nei registri pubblici (IniPEC, IPA, INAD). Nel caso in cui i registri pubblici restituiscano più di un domicilio digitale riconducibile al destinatario PN utilizzerà solamente il primo indirizzo restituito.
 
