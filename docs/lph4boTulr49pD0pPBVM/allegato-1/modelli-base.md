@@ -18,7 +18,7 @@ Modello di Avviso di pagamento con rata unica (su Figma).
 
 ### Risorse disponibili
 
-{% file src="../../pago-pa/avviso-pagamento/3.0.0/.gitbook/assets/pagoPA-Avvisi-3.0-rataUnica.zip" %}
+{% file src="../.gitbook/assets/pagoPA-Avvisi-3.0-rataUnica.zip" %}
 Modello di Avviso di pagamento con rata unica (SVG e PDF).
 {% endfile %}
 
@@ -36,7 +36,7 @@ Modello di Avviso di pagamento con più rate (su Figma).
 
 ### Risorse disponibili
 
-{% file src="../../pago-pa/avviso-pagamento/3.0.0/.gitbook/assets/pagoPA-Avvisi-3.0-rateMultiple.zip" %}
+{% file src="../.gitbook/assets/pagoPA-Avvisi-3.0-rateMultiple.zip" %}
 Modello di Avviso di pagamento con più rate (SVG e PDF).
 {% endfile %}
 

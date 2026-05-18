@@ -21,6 +21,6 @@ Modello di avviso di pagamento pagoPA in caso di molte rate (su Figma).
 
 ### Risorse disponibili
 
-{% file src="../../../pago-pa/avviso-pagamento/3.0.0/.gitbook/assets/pagoPA-Avvisi-3.0-molteRate.zip" %}
+{% file src="../../.gitbook/assets/pagoPA-Avvisi-3.0-molteRate.zip" %}
 File ZIP contenente il modello dell'avviso in formato SVG.
 {% endfile %}

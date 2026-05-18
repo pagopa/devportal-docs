@@ -16,7 +16,7 @@ Modello di avviso di pagamento pagoPA in due lingue (su Figma).
 
 ### Risorse disponibili
 
-{% file src="../../../../pago-pa/avviso-pagamento/3.0.0/.gitbook/assets/pagoPA-Avvisi-3.0-secondaLingua.zip" %}
+{% file src="../../../.gitbook/assets/pagoPA-Avvisi-3.0-secondaLingua.zip" %}
 Modello di avviso di pagamento pagoPA in due lingue (SVG e PDF).
 {% endfile %}
 
