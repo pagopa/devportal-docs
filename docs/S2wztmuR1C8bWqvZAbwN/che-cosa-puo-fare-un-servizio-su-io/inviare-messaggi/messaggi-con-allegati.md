@@ -2,7 +2,7 @@
 
 Gli enti possono inviare messaggi con dei documenti allegati.
 
-<figure><img src="../../../app-io/manuale-servizi/v3.2/.gitbook/assets/image (14).png" alt=""><figcaption><p>Esempio di messaggio con allegato</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (14).png" alt=""><figcaption><p>Esempio di messaggio con allegato</p></figcaption></figure>
 
 Questi allegati:
 
