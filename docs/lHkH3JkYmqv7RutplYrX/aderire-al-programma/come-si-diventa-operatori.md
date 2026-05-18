@@ -1,6 +1,6 @@
 # Come si diventa Operatori
 
-<figure><img src="../../app-io/carta-giovani-nazionale/v2.0.0/.gitbook/assets/image (19).png" alt="Un diagramma rappresentante il flusso di adesione dell&#x27;operatore a Carta Giovani Nazionale"><figcaption><p>Processo di adesione</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (19).png" alt="Un diagramma rappresentante il flusso di adesione dell&#x27;operatore a Carta Giovani Nazionale"><figcaption><p>Processo di adesione</p></figcaption></figure>
 
 Il flusso di adesione prevede tre fasi:
 

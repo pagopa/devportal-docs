@@ -29,11 +29,11 @@ Non appena le API key vengono rigenerate, quelle precedenti non saranno più uti
 
 <div align="left"><img src="https://lh4.googleusercontent.com/_iR6quYVoorF1pW26p1O228-EUEZ5gkyMmkBXliPOUvsw23P7STZjajQHnkgNKSPjHHof0CyqA8O8dQWnGTPF7rp0KrNIFeCsbFPitqSlubXg7CYmS1JIyfHXgv8OYWsr27mUMA" alt="Fig. 2 Esempio di carrello di un Operatore con il campo di testo per l’inserimento del codice sconto"></div>
 
-<figure><img src="../../../app-io/carta-giovani-nazionale/v2.0.0/.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../app-io/carta-giovani-nazionale/v2.0.0/.gitbook/assets/image (6).png" alt=""><figcaption><p><mark style="color:purple;"><strong>Fig.3</strong> Dal dettaglio dell'opportunità, l'utente genera un codice OTP</mark></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption><p><mark style="color:purple;"><strong>Fig.3</strong> Dal dettaglio dell'opportunità, l'utente genera un codice OTP</mark></p></figcaption></figure>
 
-![](../../../app-io/carta-giovani-nazionale/v2.0.0/.gitbook/assets/OTP_01.png) ![](../../../app-io/carta-giovani-nazionale/v2.0.0/.gitbook/assets/OTP_02.png) ![](../../../app-io/carta-giovani-nazionale/v2.0.0/.gitbook/assets/OTP_03.png)
+![](../../.gitbook/assets/OTP_01.png) ![](../../.gitbook/assets/OTP_02.png) ![](../../.gitbook/assets/OTP_03.png)
 
 <mark style="color:purple;">**Fig. 4**</mark> <mark style="color:purple;">Il codice OTP può essere direttamente incollato nel campo dell’e-commerce. Se risulta valido, lo sconto verrà applicato al carrello</mark>
 
