@@ -43,5 +43,5 @@
   * [API VERSIONE GA 2.4](api-changelog/api-versione-ga-2.4.md)
   * [API VERSIONE GA24Q4.A](api-changelog/api-versione-ga24q4.a.md)
   * [API VERSIONE GA24Q4.B](api-changelog/api-versione-ga24q4.b.md)
-  * [API VERSIONE GA24Q4.C](../../../3FyVXetkmOApT9WPTwPN/api-changelog/api-versione-ga24q4.c.md)
-  * [API VERSIONE GA25Q1.B](../../../3FyVXetkmOApT9WPTwPN/api-changelog/api-versione-ga24q4.c-1.md)
+  * [API VERSIONE GA24Q4.C](api-changelog/api-versione-ga24q4.c.md)
+  * [API VERSIONE GA25Q1.B](api-changelog/api-versione-ga24q4.c-1.md)
