@@ -6,8 +6,6 @@ description: Knowledge-base di Piattaforma Notifiche
 
 Le FAQ di SEND offrono un supporto a sviluppatori e tecnici. Questo documento raccoglie le risposte ai dubbi più comuni, fornendo chiarimenti su aspetti tecnici e operativi legati all'integrazione dei servizi.
 
-Le FAQ di SEND offrono un supporto a sviluppatori e tecnici. Questo documento raccoglie le risposte ai dubbi più comuni, fornendo chiarimenti su aspetti tecnici e operativi legati all'integrazione dei servizi.
-
 Viene spiegato come generare e gestire i client, come funzionano le API e quali sono le regole per l'inserimento e la validazione delle notifiche. Un'attenzione particolare è dedicata ai meccanismi di perfezionamento delle notifiche, al flusso dei pagamenti e alla gestione delle spese. Inoltre, viene illustrato il processo di interoperabilità con altri sistemi e forniti strumenti di test per verificare la correttezza delle integrazioni.
 
 Grazie a queste FAQ, gli integratori possono comprendere meglio il funzionamento della piattaforma e risolvere eventuali problemi tecnici in modo più rapido ed efficace.
