@@ -12,7 +12,7 @@ Per poter indicare una sezione all’interno del PDF dove collocare il rettangol
 * la dimensione del box;
 * la pagina in cui inserirlo (ricorda che le pagine partono da 0).
 
-<figure><img src="../../../.gitbook/assets/Senza titolo-1.png" alt=""><figcaption><p>Coordinate da un punto di partenza</p></figcaption></figure>
+<figure><img src="../../../../firma-con-io/manuale-operativo/v1.0/.gitbook/assets/Senza titolo-1.png" alt=""><figcaption><p>Coordinate da un punto di partenza</p></figcaption></figure>
 
 ### Come calcolare le coordinate e la dimensione del rettangolo
 
@@ -32,7 +32,7 @@ Le informazioni da indicare verranno riportate all’interno dei campi **Posizio
 Ripeti questa operazione **per ogni campo firma** che vuoi inserire in ogni singola pagina.
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/gimp (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../firma-con-io/manuale-operativo/v1.0/.gitbook/assets/gimp (1).png" alt=""><figcaption></figcaption></figure>
 
 In base all'esempio qui sopra, la proprietà `attrs` del dossier sarà la seguente (la parte decimale può essere ignorata):
 

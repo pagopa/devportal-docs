@@ -19,7 +19,7 @@ Riceverai come output il `signer_id` dell'utente:
 ```
 
 {% hint style="info" %}
-Se l'utente non si è mai registrato in IO - ovvero se non ha mai effettuato il processo di autenticazione con SPID o CIE su app IO - non potrai recuperare il suo `signer_id.`Prima di procedere con l'invio di una richiesta di firma, assicurati di chiedere all'utente di effettuare il login su app IO.
+Se l'utente non si è mai registrato in IO - ovvero se non ha mai effettuato il processo di autenticazione con SPID o CIE su app IO - non potrai recuperare il suo `signer_id.`  Prima di procedere con l'invio di una richiesta di firma, assicurati di chiedere all'utente di effettuare il login su app IO.
 {% endhint %}
 
 {% hint style="warning" %}

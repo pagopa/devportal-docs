@@ -6,7 +6,7 @@ Per ciascun documento dovrai identificare i **campi firma** — ovvero i punti i
 * La tipologia di clausola associata: **obbligatoria, vessatoria o facoltativa.**
 
 {% hint style="warning" %}
-Il titolo non dovrà superare i **70 caratteri**, spazi inclusi.\
+Per il **titolo** suggeriamo di non superare i **70 caratteri**, spazi inclusi.\
 Scrivi in **maiuscolo** solo a inizio frase, in sigle, nei nomi propri o nei nomi di istituzioni
 
 (es: Firma per accettazione contratto)
@@ -16,7 +16,7 @@ Scrivi in **maiuscolo** solo a inizio frase, in sigle, nei nomi propri o nei nom
 Dovrai inserire queste informazioni all'interno del Dossier che creerai in fase di richiesta della firma: trovi tutte le indicazioni in [Creazione di un Dossier](../../../creare-il-dossier.md).
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/Riepilogo&#x26;firma.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../firma-con-io/manuale-operativo/v1.0/.gitbook/assets/FCI_SIGNATURE_FIELDS.png" alt="" width="405"><figcaption></figcaption></figure>
 
 ### Come identificare i campi firma
 
@@ -29,7 +29,7 @@ Attualmente puoi identificare i campi firma all'interno dei documenti:
 {% hint style="warning" %}
 **Posso inserire i campi firma tramite un software come Adobe Acrobat Pro?**
 
-A causa di un bug Google se inserisci i campi firma tramite software le firme grafiche non saranno renderizzate correttamente in caso di apertura del .pdf da Chrome\
+A causa di un bug Google se inserisci i campi firma tramite software le firme grafiche non saranno "renderizzate" correttamente in caso di apertura del _.pdf_ da Chrome\
 (su device Android o browser Chrome su desktop). Ti consigliamo pertanto di inserire i campi firma [tramite coordinate](tramite-coordinate.md).
 {% endhint %}
 
