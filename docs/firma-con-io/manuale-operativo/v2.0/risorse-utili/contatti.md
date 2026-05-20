@@ -1,12 +1,5 @@
 # Contatti
 
-{% hint style="info" %}
-Se hai bisogno di assistenza, durante la fase di integrazione, scrivi a: **io-service-management@pagopa.it**
-{% endhint %}
-
-{% hint style="info" %}
-Se hai bisogno di assistenza, dopo la messa in produzione, scrivi a:\
-**enti-firmaconio@assistenza.pagopa.it**
-{% endhint %}
-
-<br>
+* Se hai bisogno di assistenza, durante la fase di integrazione, scrivi a: **io-service-management@pagopa.it**
+* Se hai bisogno di assistenza, dopo la messa in produzione, scrivi a:\
+  **enti-firmaconio@assistenza.pagopa.it**<br>
