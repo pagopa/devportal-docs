@@ -26,10 +26,10 @@ La funzionalità garantisce ai cittadini questi benefici:
 
 ### I benefici per gli enti
 
-<figure><img src="../.gitbook/assets/Schermata 2022-10-25 alle 14.16.36.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Schermata 2022-10-25 alle 14.16.36 (1).png" alt=""><figcaption></figcaption></figure>
 
 La funzionalità garantisce agli enti i seguenti benefici:
 
 * **digitalizzazione**: i processi che prevedono la firma in presenza e/o scannerizzazione del pdf vengono digitalizzati;
 * **liability shift**: garantisce un sistema sicuro che evita qualsiasi rischio di disconoscimento;
-* **adozione semplice e alta scalabilità**: garantisce la gestione di oltre 100 firme al secondo.
+* **adozione semplice e scalabilità**: integrazione mediante API Rest&#x20;
