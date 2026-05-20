@@ -6,7 +6,7 @@ Per ciascun documento dovrai identificare i **campi firma** — ovvero i punti i
 * La tipologia di clausola associata: **obbligatoria, vessatoria o facoltativa.**
 
 {% hint style="warning" %}
-Per il **titolo** suggeriamo di non superare i **70 caratteri**, spazi inclusi.\
+Il **titolo** non deve superare i **70 caratteri**, spazi inclusi.\
 Scrivi in **maiuscolo** solo a inizio frase, in sigle, nei nomi propri o nei nomi di istituzioni
 
 (es: Firma per accettazione contratto)
