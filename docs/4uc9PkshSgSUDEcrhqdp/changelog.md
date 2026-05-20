@@ -3,12 +3,12 @@
 ### Versione 2.0 (Maggio 2026)
 
 * Inserita nota su adeguamento a regolamento eIDAS 2 nella sezione [Come funziona?](https://developer.pagopa.it/it/firma-con-io/guides/manuale-operativo/come-funziona)
-* Aggiornata la sezione [Standard grafici](https://developer.pagopa.it/it/firma-con-io/guides/manuale-operativo/v1.0/pulsante-firma-con-io/standard-grafici)
+* Aggiornata la sezione [Standard grafici](https://developer.pagopa.it/it/firma-con-io/guides/manuale-operativo/pulsante-firma-con-io/standard-grafici)
 * Correzioni minori&#x20;
 
 ### Versione 1.0 (dicembre 2025)
 
-* Aggiornata la sezione [Per iniziare](./) andando a rimuovere i richiami alla sperimentazione controllata del prodotto
+* Aggiornata la sezione [Per iniziare](../firma-con-io/manuale-operativo/v2.0/) andando a rimuovere i richiami alla sperimentazione controllata del prodotto
 * _\[Settembre 2023]_ Integrata sezione [Ambienti: Test & Produzione](https://docs.pagopa.it/manuale-operativo-di-firma-con-io/api/ambienti-test-and-produzione) che introduce la possibilità di poter utilizzare contemporaneamente l'ambiente di test e l'ambiente di produzione.
 * _\[Settembre 2023]_ Integrata sezione [Back Office](https://docs.pagopa.it/manuale-operativo-di-firma-con-io/back-office/primi-passi) che spiega come generare e gestire le API Key.
 * _\[Luglio 2023]_ Integrata sezione [Creazione di una Signature Request](richiedere-una-firma/creazione-di-una-signature-request.md) con la possibilità di inserire campi firma specifici per la signature request.

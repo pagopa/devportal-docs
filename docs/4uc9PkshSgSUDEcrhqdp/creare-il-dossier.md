@@ -8,7 +8,7 @@ Le `signature request` dello stesso dossier possono avere in comune titolo, emai
 \
 Il **titolo del dossier** sarà anche riportato nel messaggio di richiesta di firma al cittadino:
 
-<img src=".gitbook/assets/Messaggio.png" alt="" width="360">
+![](<../firma-con-io/manuale-operativo/v2.0/.gitbook/assets/Messaggio esempio Comune Ipazia_v2.png>)
 
 {% hint style="warning" %}
 **Come scrivere il titolo del dossier**

@@ -18,42 +18,42 @@ Consigliamo di leggere il documento nella sua interezza, ma ecco **qualche scorc
 
 ### Firma con IO
 
-{% content-ref url="firma-con-io/cose-firma-con-io.md" %}
-[cose-firma-con-io.md](firma-con-io/cose-firma-con-io.md)
+{% content-ref url="../../../4uc9PkshSgSUDEcrhqdp/firma-con-io/cose-firma-con-io.md" %}
+[cose-firma-con-io.md](../../../4uc9PkshSgSUDEcrhqdp/firma-con-io/cose-firma-con-io.md)
 {% endcontent-ref %}
 
 ### Funzionalità
 
-{% content-ref url="il-processo-di-firma/preparare-i-documenti/" %}
-[preparare-i-documenti](il-processo-di-firma/preparare-i-documenti/)
+{% content-ref url="../../../4uc9PkshSgSUDEcrhqdp/il-processo-di-firma/preparare-i-documenti/" %}
+[preparare-i-documenti](../../../4uc9PkshSgSUDEcrhqdp/il-processo-di-firma/preparare-i-documenti/)
 {% endcontent-ref %}
 
-{% content-ref url="richiedere-una-firma/" %}
-[richiedere-una-firma](richiedere-una-firma/)
+{% content-ref url="../../../4uc9PkshSgSUDEcrhqdp/richiedere-una-firma/" %}
+[richiedere-una-firma](../../../4uc9PkshSgSUDEcrhqdp/richiedere-una-firma/)
 {% endcontent-ref %}
 
-{% content-ref url="verificare-lo-stato-di-una-firma.md" %}
-[verificare-lo-stato-di-una-firma.md](verificare-lo-stato-di-una-firma.md)
+{% content-ref url="../../../4uc9PkshSgSUDEcrhqdp/verificare-lo-stato-di-una-firma.md" %}
+[verificare-lo-stato-di-una-firma.md](../../../4uc9PkshSgSUDEcrhqdp/verificare-lo-stato-di-una-firma.md)
 {% endcontent-ref %}
 
-{% content-ref url="ottenere-i-documenti-firmati.md" %}
-[ottenere-i-documenti-firmati.md](ottenere-i-documenti-firmati.md)
+{% content-ref url="../../../4uc9PkshSgSUDEcrhqdp/ottenere-i-documenti-firmati.md" %}
+[ottenere-i-documenti-firmati.md](../../../4uc9PkshSgSUDEcrhqdp/ottenere-i-documenti-firmati.md)
 {% endcontent-ref %}
 
 ### API
 
-{% content-ref url="api/ambienti-test-and-produzione.md" %}
-[ambienti-test-and-produzione.md](api/ambienti-test-and-produzione.md)
+{% content-ref url="../../../4uc9PkshSgSUDEcrhqdp/api/ambienti-test-and-produzione.md" %}
+[ambienti-test-and-produzione.md](../../../4uc9PkshSgSUDEcrhqdp/api/ambienti-test-and-produzione.md)
 {% endcontent-ref %}
 
 **Pulsante Firma con IO**
 
-{% content-ref url="pulsante-firma-con-io/il-pulsante-firma-con-io.md" %}
-[il-pulsante-firma-con-io.md](pulsante-firma-con-io/il-pulsante-firma-con-io.md)
+{% content-ref url="../../../4uc9PkshSgSUDEcrhqdp/pulsante-firma-con-io/il-pulsante-firma-con-io.md" %}
+[il-pulsante-firma-con-io.md](../../../4uc9PkshSgSUDEcrhqdp/pulsante-firma-con-io/il-pulsante-firma-con-io.md)
 {% endcontent-ref %}
 
 ### Risorse utili
 
-[**Glossario**](risorse-utili/glossario.md)
+[**Glossario**](../../../4uc9PkshSgSUDEcrhqdp/risorse-utili/glossario.md)
 
-[**Contatti**](risorse-utili/contatti.md)
+[**Contatti**](../../../4uc9PkshSgSUDEcrhqdp/risorse-utili/contatti.md)
