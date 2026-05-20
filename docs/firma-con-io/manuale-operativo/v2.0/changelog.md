@@ -3,7 +3,7 @@
 ### Versione 2.0 (Maggio 2026)
 
 * Inserita nota su adeguamento a regolamento eIDAS 2 nella sezione [Come funziona?](https://developer.pagopa.it/it/firma-con-io/guides/manuale-operativo/come-funziona)
-* Aggiornata la sezione [Standard grafici](https://developer.pagopa.it/it/firma-con-io/guides/manuale-operativo/v1.0/pulsante-firma-con-io/standard-grafici)
+* Aggiornata la sezione [Standard grafici](https://developer.pagopa.it/it/firma-con-io/guides/manuale-operativo/pulsante-firma-con-io/standard-grafici)
 * Correzioni minori&#x20;
 
 ### Versione 1.0 (dicembre 2025)
