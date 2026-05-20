@@ -1,4 +1,4 @@
-# Come funziona?x
+# Come funziona?
 
 ### Cosa fanno gli enti?
 
@@ -77,16 +77,6 @@ Se sceglie la seconda modalità e la utilizza da desktop, dovrà inquadrare il Q
 <details>
 
 <summary><mark style="color:blue;">Step 2</mark>: Legge il documento e lo firma</summary>
-
-{% hint style="info" %}
-**Regolamento europeo eIDAS 2**
-
-A partire dal **21 maggio 2026**, al fine di garantire una maggiore tutela dell’identità del cittadino firmatario ed in coerenza con il nuovo _**Regolamento Europeo eIDAS2**_ _(artt. 24 e 51)_, all’utente sarà richiesto un livello di autenticazione più elevato (L3).
-
-Pertanto per procedere con l’apposizione di una firma qualificata (FEQ) tramite l’app IO, è necessario autenticarsi con la propria CIE fisica, avvicinandola al telefono (NFC) e inserire il PIN.&#x20;
-
-Tale modifica si configura come adeguamento tecnico obbligatorio per legge.
-{% endhint %}
 
 Il cittadino visualizza il documento sull'app IO. Sceglie quali clausole facoltative firmare e procede con la **firma elettronica qualificata (FEQ)** attraverso il codice di sblocco dell'app o il proprio riconoscimento biometrico.
 

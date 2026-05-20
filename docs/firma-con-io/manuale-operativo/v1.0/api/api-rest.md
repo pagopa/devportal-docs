@@ -10,6 +10,10 @@ Firma con IO espone delle **API REST** che:
 
 Il base URL per tutte le API è [https://api.io.pagopa.it](https://api.io.pagopa.it/api/v1/sign)
 
+{% hint style="warning" %}
+In fase di sperimentazione, il numero di chiamate API effettuabili è soggetto ad una soglia di 150 invocazioni in una finestra di cinque secondi.
+{% endhint %}
+
 ### Autenticazione
 
 Le API di Firma con IO fanno uso di una **API Key** per l'autenticazione delle richieste.

@@ -6,5 +6,5 @@ Una volta completato l'Accordo di adesione al servizio e accedendo all'[Area Ris
 Al momento, è possibile generare autonomamente solo le API Key destinate all'ambiente di test. Per ottenere le API Key per l'ambiente di produzione, è necessario completare l'integrazione con il servizio.
 
 Non appena hai completato l'integrazione contattaci all'indirizzo\
-**io-service-management@pagopa.it** per poter ricevere le API Key di produzione!
+**firmaconio-tech@pagopa.it** per poter ricevere le API Key di produzione!
 {% endhint %}

@@ -36,7 +36,3 @@ Effettua una **richiesta http** (`PUT`) verso l'Upload URL indicando nell'header
 {% hint style="warning" %}
 **Upload URL** ha una validità di 15 minuti, è legato a uno specifico documento da caricare (non può essere utilizzato per più di un documento) e contiene tutte le informazioni necessarie all'autenticazione verso il `Document Storage`.
 {% endhint %}
-
-{% hint style="warning" %}
-**Limite dimensione documenti:** la dimensione complessiva del bundle dei documenti da caricare non deve superare i 10MB.
-{% endhint %}

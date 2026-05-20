@@ -13,13 +13,14 @@ Il **titolo del dossier** sarà anche riportato nel messaggio di richiesta di fi
 {% hint style="warning" %}
 **Come scrivere il titolo del dossier**
 
-Il titolo del dossier deve essere **breve,** sintetizzando l'oggetto per cui si chiede la firma _(es. Carta d'Identità, Contratto di Ricerca...)_
+Il titolo del dossier è composto da tre elementi: il nome dell'ente, il titolo del dossier che è anche l'oggetto della richiesta, il testo "Richiesta di firma".Il titolo del dossier deve essere **breve**, sintetizzando l'oggetto per cui si chiede la firma (es. Carta d'Identità, Contratto di Ricerca...)
 
-* deve essere scritto in **lettere minuscole** e non maiuscole, a meno che non si tratti di sigle o acronimi _(es. Carta d'Identità e non CARTA D'IDENTITÀ)_
+* deve essere lungo al massimo **75 caratteri**, spazi inclusi
+* deve essere scritto in **lettere minuscole** e non maiuscole, a meno che non si tratti di sigle o acronimi (es. Carta d'Identità e non CARTA D'IDENTITÀ)
 * non deve contenere **sigle o acronimi poco noti**
 * non deve contenere le parole "**online**" o "**digitale**", ma nemmeno parole come "**notifica**" o "**servizio**".
 
-Il titolo del dossier **NON deve essere generico** o contenere un'informazione già presente _(come ad esempio il nome dell'ente o il testo "richiesta di firma")._
+Il titolo del dossier **NON deve essere generico** o contenere un'informazione già presente (come ad esempio il nome dell'ente o il testo "richiesta di firma").
 {% endhint %}
 
 ### Un esempio

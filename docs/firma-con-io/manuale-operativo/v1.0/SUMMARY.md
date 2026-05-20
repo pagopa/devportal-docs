@@ -6,7 +6,7 @@
 ## 🖊️ FIRMA CON IO
 
 * [🖊️ Cos'è Firma con IO?](firma-con-io/cose-firma-con-io.md)
-* [Come funziona?x](firma-con-io/come-funziona.md)
+* [Come funziona?](firma-con-io/come-funziona.md)
 
 ## 🖱️ BACK OFFICE
 

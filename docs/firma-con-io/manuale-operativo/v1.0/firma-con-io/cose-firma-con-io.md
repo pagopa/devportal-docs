@@ -32,4 +32,4 @@ La funzionalità garantisce agli enti i seguenti benefici:
 
 * **digitalizzazione**: i processi che prevedono la firma in presenza e/o scannerizzazione del pdf vengono digitalizzati;
 * **liability shift**: garantisce un sistema sicuro che evita qualsiasi rischio di disconoscimento;
-* **adozione semplice e scalabilità**: integrazione mediante API Rest&#x20;
+* **adozione semplice e alta scalabilità**: garantisce la gestione di oltre 100 firme al secondo.
