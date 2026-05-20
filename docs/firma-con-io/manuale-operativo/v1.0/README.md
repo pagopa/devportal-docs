@@ -55,5 +55,3 @@ Consigliamo di leggere il documento nella sua interezza, ma ecco **qualche scorc
 ### Risorse utili
 
 [**Glossario**](../../../AdBuOCmwur7AhLlgfCeG/risorse-utili/glossario.md)
-
-[**Contatti**](../../../AdBuOCmwur7AhLlgfCeG/risorse-utili/contatti.md)

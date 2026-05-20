@@ -1,3 +1,7 @@
+---
+description: Overview
+---
+
 # 🖊️ Cos'è Firma con IO?
 
 Firma con IO è un servizio che consente:
@@ -17,7 +21,7 @@ La funzionalità garantisce ai cittadini questi benefici:
 
 * **user experience semplice e sicura**: il protocollo utilizzato garantisce che la persona firmataria coincida con la persona a cui l'ente ha richiesto la firma, e che lo ha fatto volontariamente;
 * **familiarità del canale**: l'adozione è favorita dalla familiarità con l’app IO, già integrata con il provider di firma;
-* **servizio multicanale**: si può avviare sia dall’app IO, tramite messaggio, che dal sito della PA, tramite pulsante/codice QR;
+* **servizio multicanale**: si può avviare sia dall’app IO, tramite messaggio, che dal sito della PA, tramite codice QR;
 * **una firma gratuita, equivalente a quella autografa**: le firme elettroniche qualificate (FEQ) hanno valore legale probatorio massimo.
 
 ### I benefici per gli enti
