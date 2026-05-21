@@ -8,7 +8,7 @@ metaLinks:
 # Template social
 
 {% hint style="info" %}
-Scarica [qui](../../appendice/risorse-utili.md) gli adattamenti per i post social e le stories
+Scarica [qui](https://drive.google.com/drive/folders/1oJalCuDuPPKozu6OTa_E_DzQW4MLDrqb) gli adattamenti per i post social e le stories
 {% endhint %}
 
 ### Suggerimenti copy
