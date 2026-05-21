@@ -1,0 +1,12 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/SpNLdqKSqoCvaOneGN7K/il-toolkit/perche-usare-questo-toolkit
+---
+
+# 👍 Perché usare questo toolkit
+
+* è uno **strumento pronto all'uso**, facile da consultare e sempre accessibile per poter aggiornare i cittadini in merito ai servizi del tuo ente disponibili su IO; &#x20;
+* offre un **supporto in più al tuo piano di comunicazione**, per arricchire e ottimizzare le risorse e competenze interne al tuo ente;&#x20;
+* favorisce la **riconoscibilità di IO** presso gli utenti, assicurando una comunicazione coordinata e sinergica sul territorio nazionale, da parte di tutti gli attori coinvolti.
