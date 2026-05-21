@@ -47,8 +47,7 @@ Scarica [qui](https://drive.google.com/drive/folders/1oJalCuDuPPKozu6OTa_E_DzQW4
     Scaricala ora.\
     \#CipensaIO<br>
 7.  **Copy Sanità #3**\
-    La sanità pubblica è sempre più vicina ai cittadini, grazie all’integrazione dei servizi nell’app IO. Prenotare una visita, ricevere comunicazioni ufficiali, gestire \
-    gli appuntamenti e pagare il ticket: tutto in un’unica app, ovunque ti trovi e in qualsiasi momento.
+    La sanità pubblica è sempre più vicina ai cittadini, grazie all’integrazione dei servizi nell’app IO. Prenotare una visita, ricevere comunicazioni ufficiali, gestire gli appuntamenti e pagare il ticket: tutto in un’unica app, ovunque ti trovi e in qualsiasi momento.
 
     Il \[NOME ENTE] aderisce all’iniziativa per rendere più accessibili i servizi di prevenzione e cura, in linea con il processo di digitalizzazione della Pubblica Amministrazione. Scarica @ioappit e scopri un nuovo modo per gestire la tua salute.\
     \#IOapp #CipensaIO<br>
