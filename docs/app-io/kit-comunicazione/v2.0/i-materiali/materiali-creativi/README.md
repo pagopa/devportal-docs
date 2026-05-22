@@ -7,17 +7,22 @@ metaLinks:
 
 # 💡 Materiali creativi
 
-I materiali realizzati da PagoPA prevedono gli **asset dedicati ai principali e più diffusi servizi disponibili sull’app IO**: potrai scegliere in base ai servizi di maggior interesse per il tuo ente.&#x20;
+I materiali realizzati da PagoPA prevedono gli **asset dedicati ai principali e più diffusi servizi disponibili sull’app IO**: potrai scegliere in base ai servizi di maggior interesse per il tuo ente.
 
 I soggetti sono:
 
 * generale
 * servizi scolastici
-* tributi&#x20;
-* mobilità&#x20;
+* tributi
+* mobilità
 * sanità _(ad uso esclusivo delle ASL)_
 
-<figure><img src="../../.gitbook/assets/Locandine_Comuni.png" alt=""><figcaption><p> GENERALE</p></figcaption></figure>
+|                                                                                                          |
+| :------------------------------------------------------------------------------------------------------: |
+| <p></p><p><img src="../../.gitbook/assets/Locandine_Comuni.png" alt="GENERALE" data-size="original"></p> |
+|                                                _GENERALE_                                                |
+
+<figure><img src="../../.gitbook/assets/Locandine_Comuni.png" alt=""><figcaption><p>GENERALE</p></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/Locandine_Servizi Scolastici.png" alt=""><figcaption><p>SERVIZI SCOLASTICI</p></figcaption></figure>
 
@@ -38,4 +43,3 @@ Nelle prossime pagine troverai tutti i template disponibili, che potrai scaricar
 {% hint style="danger" %}
 Le immagini sono rappresentate solo a titolo dimostrativo. Per scaricare i file in alta risoluzione consulta la [sezione dedicata](template-grafici.md)
 {% endhint %}
-
