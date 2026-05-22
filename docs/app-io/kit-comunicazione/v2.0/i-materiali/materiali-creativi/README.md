@@ -19,15 +19,15 @@ I soggetti sono:
 
 <figure><img src="../../.gitbook/assets/Locandine_Comuni.png" alt="" width="375"><figcaption><p>GENERALE</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/Locandine_Servizi Scolastici.png" alt=""><figcaption><p>SERVIZI SCOLASTICI</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Locandine_Servizi Scolastici.png" alt="" width="375"><figcaption><p>SERVIZI SCOLASTICI</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/Locandine_tributi.png" alt=""><figcaption><p>TRIBUTI</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Locandine_tributi.png" alt="" width="375"><figcaption><p>TRIBUTI</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/Locandine_mobilità.png" alt=""><figcaption><p>PERMESSO ZTL e/o MULTE</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Locandine_mobilità.png" alt="" width="375"><figcaption><p>PERMESSO ZTL e/o MULTE</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/App IO_locandina_schermata conferma.jpg" alt=""><figcaption><p>Servizi sanitari #1 - conferma appuntamento</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/App IO_locandina_schermata conferma.jpg" alt="" width="375"><figcaption><p>Servizi sanitari #1 - conferma appuntamento</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/App IO_locandina_schermata screening.png" alt=""><figcaption><p>Servizi sanitari #2 - campagne screening</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/App IO_locandina_schermata screening.png" alt="" width="375"><figcaption><p>Servizi sanitari #2 - campagne screening</p></figcaption></figure>
 
 Puoi decidere in autonomia di procedere con un solo soggetto oppure di usarne più di uno contemporaneamente.
 
