@@ -17,19 +17,17 @@ I soggetti sono:
 * mobilità
 * sanità _(ad uso esclusivo delle ASL)_
 
-<figure><img src="../../.gitbook/assets/materiali_creativi1_new (2).png" alt=""><figcaption>PROVA</figcaption></figure>
+<figure><img src="../../.gitbook/assets/Locandine_Comuni_1.png" alt="" width="188"><figcaption>GENERALE</figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/Locandine_Comuni.png" alt="" width="188"><figcaption><p>GENERALE</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Locandine_Servizi Scolastici_1.png" alt="" width="188"><figcaption>SERVIZI SCOLASTICI</figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/Locandine_Servizi Scolastici.png" alt="" width="188"><figcaption><p>SERVIZI SCOLASTICI</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Locandine_tributi_1.png" alt="" width="188"><figcaption>TRIBUTI</figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/Locandine_tributi.png" alt="" width="188"><figcaption><p>TRIBUTI</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Locandine_mobilità_1.png" alt="" width="188"><figcaption>PERMESSO ZTL e/o MULTE/figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/Locandine_mobilità.png" alt="" width="188"><figcaption><p>PERMESSO ZTL e/o MULTE</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/App IO_locandina_schermata conferma_1.jpg" alt="" width="188"><figcaption>Servizi sanitari #1 - conferma appuntamento</figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/App IO_locandina_schermata conferma.jpg" alt="" width="188"><figcaption><p>Servizi sanitari #1 - conferma appuntamento</p></figcaption></figure>
-
-<figure><img src="../../.gitbook/assets/App IO_locandina_schermata screening.png" alt="" width="188"><figcaption><p>Servizi sanitari #2 - campagne screening</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/App IO_locandina_schermata screening_1.png" alt="" width="188"><figcaption>Servizi sanitari #2 - campagne screening</figcaption></figure>
 
 Puoi decidere in autonomia di procedere con un solo soggetto oppure di usarne più di uno contemporaneamente.
 
