@@ -1,7 +1,5 @@
 ---
-metaLinks:
-  alternates:
-    - https://app.gitbook.com/s/SpNLdqKSqoCvaOneGN7K/
+metaLinks: {}
 ---
 
 # Introduzione

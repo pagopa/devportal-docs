@@ -17,12 +17,7 @@ I soggetti sono:
 * mobilità
 * sanità _(ad uso esclusivo delle ASL)_
 
-|                                                                                                          |
-| :------------------------------------------------------------------------------------------------------: |
-| <p></p><p><img src="../../.gitbook/assets/Locandine_Comuni.png" alt="GENERALE" data-size="original"></p> |
-|                                                _GENERALE_                                                |
-
-<figure><img src="../../.gitbook/assets/Locandine_Comuni.png" alt=""><figcaption><p>GENERALE</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Locandine_Comuni.png" alt="" width="375"><figcaption><p>GENERALE</p></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/Locandine_Servizi Scolastici.png" alt=""><figcaption><p>SERVIZI SCOLASTICI</p></figcaption></figure>
 
