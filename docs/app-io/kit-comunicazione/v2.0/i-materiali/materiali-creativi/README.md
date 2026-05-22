@@ -23,7 +23,7 @@ I soggetti sono:
 
 <figure><img src="../../.gitbook/assets/Locandine_tributi_1.png" alt="" width="188"><figcaption>TRIBUTI</figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/Locandine_mobilità_1.png" alt="" width="188"><figcaption>PERMESSO ZTL e/o MULTE/figcaption></figure>
+<figure><img src="../../.gitbook/assets/Locandine_mobilità_1.png" alt="" width="188"><figcaption>PERMESSO ZTL e/o MULTE</figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/App IO_locandina_schermata conferma_1.jpg" alt="" width="188"><figcaption>Servizi sanitari #1 - conferma appuntamento</figcaption></figure>
 
