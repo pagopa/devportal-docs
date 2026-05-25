@@ -72,7 +72,9 @@ Sono messe a disposizione due API REST per il recupero delle ricevute di pagamen
 
 <figure><img src="../../.gitbook/assets/readReceiptList.png" alt=""><figcaption></figcaption></figure>
 
-La lettura di un lista di ricevute di pagamento prevede sempre una paginazione. E' inoltre possibile filtrare per debitore o date di pagamento in modo da limitare i risultati.&#x20;
+La consultazione dell'elenco delle ricevute di pagamento prevede l'applicazione di un filtro temporale. In assenza di un intervallo specifico, la ricerca mostra automaticamente i dati degli ultimi 3 mesi. Per limitare i risultati, è possibile inoltre filtrare la ricerca per debitore.&#x20;
+
+I risultati della richiesta vengono restituiti in modalità paginata.
 
 <figure><img src="../../.gitbook/assets/readReceipt.png" alt=""><figcaption></figcaption></figure>
 
