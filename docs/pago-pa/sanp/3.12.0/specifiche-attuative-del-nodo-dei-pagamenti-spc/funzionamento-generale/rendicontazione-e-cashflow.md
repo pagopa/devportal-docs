@@ -13,7 +13,7 @@ PagoPA mette a disposizione degli EC/PSP delle [primitive](../../appendici/primi
 
 Gli EC ed i PSP potranno adeguare le chiamate alle primitive messe a disposizione dalla piattaforma pagoPA per poter gestire in maniera efficiente gli FdR.
 
-Per poter usufruire delle API sarà necessario effettuare una sottoscrizione al prodotto che mette a disposizione le primitive di seguito elencate. Per maggiori informazioni su come richiedere una sottoscrizione ad un nuovo prodotto si può far riferimento ai manuali per la creazione di nuove API Key per [EC](https://developer.pagopa.it/pago-pa/guides/manuale-bo-ec/v1.0/manuale-operativo-back-office-pagopa-ente-creditore/funzionalita/generazione-api-key) e [PSP](https://developer.pagopa.it/pago-pa/guides/manuale-bo-psp/v1.0/manuale-operativo-pagamenti-pagopa-prestatore-di-servizi-di-pagamento/funzionalita/generazione-api-key).
+Per poter usufruire delle API sarà necessario effettuare una sottoscrizione al prodotto che mette a disposizione le primitive di seguito elencate. Per maggiori informazioni su come richiedere una sottoscrizione ad un nuovo prodotto si può far riferimento ai manuali per la creazione di nuove API Key per [E](https://uat.developer.pagopa.it/it/pago-pa/guides/manuale-bo-ec/v1.0/readme/funzionalita/generazione-api-key) e [PSP](https://uat.developer.pagopa.it/it/pago-pa/guides/manuale-bo-psp/v1.0/readme/funzionalita/generazione-api-key).
 
 Vengono messi a disposizione due nuovi prodotti:
 

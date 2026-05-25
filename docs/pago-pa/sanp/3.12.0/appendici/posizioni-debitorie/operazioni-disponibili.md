@@ -11,7 +11,11 @@ metaLinks:
 
 Nei seguenti sequence diagram si identifica con l'acronimo GPD il servizio di Gestione Posizioni Debitorie e con APD l'Archivio delle Posizioni Debitorie (base dati).
 
-Per i dettagli [https://developer.pagopa.it/it/pago-pa/api/gestione-posizioni-debitorie](https://developer.pagopa.it/it/pago-pa/api/gestione-posizioni-debitorie)
+Per i dettagli [https://developer.pagopa.it/it/pago-pa/api/gestione-posizioni-debitorie](https://developer.pagopa.it/it/pago-pa/api/gestione-posizioni-debitorie).
+
+Le API prevedono un _rate limit_ cumulativo di 450 richieste ogni 10 secondi.
+
+### Creazione di una posizione debitoria
 
 ![](<../../.gitbook/assets/createPD (1).png>)
 
@@ -33,7 +37,7 @@ L'operazione di creazione della posizione debitoria potrebbe fallire se questa e
 
 ![](../../.gitbook/assets/readPDList.png)
 
-La lettura di una lista di posizioni debitorie prevede sempre una paginazione. E' inoltre possibile filtrare per `due_date` in modo da limitare i risultati. La richiesta potrebbe fallire a causa di input non validi, per esempio numero di elementi richiesti per pagina maggiore rispetto al massimo previsto o intervalli di date non coerenti.
+La lettura di una lista di posizioni debitorie prevede sempre una paginazione. É inoltre possibile filtrare per `due_date` in modo da limitare i risultati. La richiesta potrebbe fallire a causa di input non validi, per esempio numero di elementi richiesti per pagina maggiore rispetto al massimo previsto o intervalli di date non coerenti.
 
 ![](../../.gitbook/assets/readPD.png)
 
@@ -80,6 +84,8 @@ I risultati della richiesta vengono restituiti in modalità paginata.
 
 La lettura di una ricevuta di pagamento si basa sull'identificativo in input (`IUV`). In caso lo `IUV` non sia esistente o non esiste una ricevuta ad esso associata verrà emesso un errore.
 
+Le due API condividono un rate-limit cumulativo di 100 richieste ogni 10 secondi.
+
 ## Flussi di rendicontazione
 
 Sono messe a disposizione delle funzionalità di lettura dei flussi di rendicontazione:
@@ -98,3 +104,8 @@ La lettura di un lista di flussi di rendicontazione prevede sempre una paginazio
 ![](../../.gitbook/assets/readFdR.png)
 
 La lettura di un flusso di rendicontazione si basa sull'identificativo del reporting in input (`id`). In caso non esista un flusso di rendicontazione relativo all'`id`  inserito nella richiesta verrà restituito un errore.
+
+{% hint style="warning" %}
+Con l'introduzione dei Flussi di Rendicontazione REST, questa funzionalità è deprecata e sarà definitivamente dismessa a partire dal **31/07/2027**.
+{% endhint %}
+
