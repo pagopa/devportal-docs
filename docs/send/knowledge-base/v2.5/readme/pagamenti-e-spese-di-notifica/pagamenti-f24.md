@@ -18,7 +18,6 @@ Il campo **`applyCost`** valorizzato a **`true`** indica che sull'F24 devono ess
 
 #### Modalità puntuale
 
-\
 Nell’ambito del modello F24 collegato a notifiche SEND, **solo una riga deve avere `applyCost=true`**: sarà quella su cui la piattaforma aggiunge l’importo relativo alle spese di notifica a carico del destinatario. Tutte le altre righe devono avere `applyCost=false`.\
 L’importo relativo ai costi di notifica è già presente nel file JSON di metadati e verrà utilizzato per generare il PDF F24 finale con i costi correttamente applicati.
 
@@ -59,8 +58,9 @@ In questa modalità è importante anche valorizzare correttamente i campi `paFee
 Nell'esempio sottostante la notifica è creata con modalità puntuale (`notificationFeePolicy:"DELIVERY_MODE"`) e con l'applicazione del costo di €1 per la componente a copertura dei costi del mittente, espresso in centesimi si euro (`"paFee": "100"`) e IVA al 22% ("vat": "22").\
 Sull'F24 caricato è indicato che devono essere applicati i costi di notifica.
 
-<pre class="language-json"><code class="lang-json"><strong>"notificationFeePolicy": "DELIVERY_MODE",
-</strong>"vat": "22",
+<pre class="language-json"><code class="lang-json">
+"notificationFeePolicy": "DELIVERY_MODE",
+"vat": "22",
 "paFee": "100",
 ...
 "recipients": [
@@ -86,7 +86,8 @@ Quando viene selezionata questa modalità appaiono i campi per l'indicazione del
 
 Nel caso in cui la notifica sia inviata in modalità **forfettaria**, ovvero con: `notificationFeePolicy=FLAT_RATE` il campo **`applyCost`** **non deve essere valorizzato** (oppure deve essere impostato a `false`), poiché i costi di notifica **non devono essere inclusi nei pagamenti**.
 
-```json
+<pre class="language-json"><code class="lang-json"><strong>"notificationFeePolicy": "DELIVERY_MODE",
+</strong>
 "notificationFeePolicy": "FLAT_RATE",
 "vat": "22",
 "paFee": "100",
@@ -100,8 +101,9 @@ Nel caso in cui la notifica sia inviata in modalità **forfettaria**, ovvero con
         }
     ]    
 ]
-```
+</code></pre>
 
 Nel portale **Self Care**, selezionando il pagamento in modalità **forfettaria**, la checkbox **“Incluso nell’atto”** non abilita il pulsante **“Applica costo di notifica”**, in quanto il costo è già incluso nell'atto stesso indipendente dai costi effettivi di notifica del mittente.
 
-<div><figure><img src="../../.gitbook/assets/PagamentoFE3.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/F24-1.png" alt=""><figcaption></figcaption></figure></div>
+<figure><img src="../../.gitbook/assets/PagamentoFE3.png" alt=""><figcaption></figcaption></figure> 
+<figure><img src="../../.gitbook/assets/F24-1.png" alt=""><figcaption></figcaption></figure>
