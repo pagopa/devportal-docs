@@ -18,4 +18,6 @@ Cliccando sul pulsante "Vai al prodotto" dalla card Messaggi di Cortesia nella s
 
 Per accedere al prodotto è necessario scegliere l'ambiente target cliccando sul relativo bottone.\
 Una volta selezionato l'ambiente, il sistema verifica se l'Ente/PSP è già registrato o meno in quell'ambiente. \
-Dopo la verifica, l'utente atterra nella pagina principale del BackOffice.
+Dopo la verifica, si atterra nella pagina principale del BackOffice per configurare o modificare il servizio.
+
+[Vedi Flusso operativo](../come-configurare-e-gestire-il-servizio/flusso-operativo.md)
