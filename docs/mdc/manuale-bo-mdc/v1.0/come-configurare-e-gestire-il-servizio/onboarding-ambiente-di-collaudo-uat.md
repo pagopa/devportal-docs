@@ -1,6 +1,6 @@
 # Onboarding Ambiente di Collaudo (UAT)
 
-L'onboarding in ambiente UAT è il primo passo operativo e permette di verificare la configurazione tecnica prima di replicarla in produzione. Si tratta di un ambiente di test: tutti i dati inseriti NON devono essere reali.
+L'onboarding in ambiente UAT è il primo passo operativo e permette di verificare la configurazione tecnica prima da replicarla in produzione. Si tratta di un ambiente di test: tutti i dati inseriti NON devono essere reali.
 
 {% hint style="warning" %}
 In ambiente di Collaudo (UAT) è sempre presente un banner in cima alla pagina con il messaggio 'Attenzione: i dati non devono essere reali'. Utilizzare esclusivamente dati di test.
