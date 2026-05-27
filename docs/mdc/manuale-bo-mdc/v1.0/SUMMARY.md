@@ -11,7 +11,6 @@
 * [Prerequisiti per accedere al portale](come-accedere-al-backoffice/prerequisiti-per-accedere-al-portale.md)
 * [Accesso Area Riservata](come-accedere-al-backoffice/accesso-area-riservata.md)
 * [Accesso Panoramica prodotti](come-accedere-al-backoffice/accesso-panoramica-prodotti.md)
-* [Accesso in modalità Single Sign-On (SSO)](come-accedere-al-backoffice/accesso-in-modalita-single-sign-on-sso.md)
 
 ## COME CONFIGURARE E GESTIRE IL SERVIZIO
 
@@ -25,3 +24,4 @@
 ***
 
 * [Come completare l'onboarding del PSP](come-completare-lonboarding-del-psp.md)
+* [Accesso in modalità Single Sign-On (SSO)](accesso-in-modalita-single-sign-on-sso.md)
