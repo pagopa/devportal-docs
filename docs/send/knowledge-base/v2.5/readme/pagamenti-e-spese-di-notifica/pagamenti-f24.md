@@ -21,7 +21,8 @@ Il campo **`applyCost`** valorizzato a **`true`** indica che sull'F24 devono ess
 Nell’ambito del modello F24 collegato a notifiche SEND, **solo una riga deve avere `applyCost=true`**: sarà quella su cui la piattaforma aggiunge l’importo relativo alle spese di notifica a carico del destinatario. Tutte le altre righe devono avere `applyCost=false`.\
 L’importo relativo ai costi di notifica è già presente nel file JSON di metadati e verrà utilizzato per generare il PDF F24 finale con i costi correttamente applicati.
 
-<pre class="language-json"><code class="lang-json">{
+```json
+{
   "treasury": {
     "records": [
       {
@@ -48,8 +49,7 @@ L’importo relativo ai costi di notifica è già presente nel file JSON di meta
     ]
   }
 }
-
-</code></pre>
+```
 
 La riga **con `applyCost: true`** indica che su quel particolare tributo (codice `6789`) **viene aggiunto il costo di notifica**.
 
@@ -58,7 +58,7 @@ In questa modalità è importante anche valorizzare correttamente i campi `paFee
 Nell'esempio sottostante la notifica è creata con modalità puntuale (`notificationFeePolicy:"DELIVERY_MODE"`) e con l'applicazione del costo di €1 per la componente a copertura dei costi del mittente, espresso in centesimi si euro (`"paFee": "100"`) e IVA al 22% ("vat": "22").\
 Sull'F24 caricato è indicato che devono essere applicati i costi di notifica.
 
-<pre class="language-json"><code class="lang-json">
+```json
 "notificationFeePolicy": "DELIVERY_MODE",
 "vat": "22",
 "paFee": "100",
@@ -72,7 +72,7 @@ Sull'F24 caricato è indicato che devono essere applicati i costi di notifica.
         }
     ]    
 ]
-</code></pre>
+```
 
 Se la notifica viene depositata tramite il portale mittente con l’invio manuale, l’indicazione dell'applicazione dei costi di notifica può essere configurata selezionando la checkbox **“Non incluso nell’atto”**.
 
