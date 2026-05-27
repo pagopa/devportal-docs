@@ -21,7 +21,7 @@ on:
       commit_message:
         description: 'Custom commit message'
         required: false
-        default: 'feat: aggiornamento manuale dal repo sorgente'
+        default: 'Update documentation'
         type: string
       paths_to_add:
         description: 'Comma-separated list of paths to add'
@@ -50,7 +50,7 @@ jobs:
           ref: ${{ inputs.target_branch }}
           repository: ${{ inputs.public_repository }}
           token: ${{ secrets.PAT }}
-          path: public-repo
+          path: public_repo
 
       - name: Sync Repositories content
         id: sync_step
@@ -58,8 +58,8 @@ jobs:
           PATHS_TO_ADD: ${{ inputs.paths_to_add }}
           PATHS_TO_REMOVE: ${{ inputs.paths_to_remove }}
         run: |
-          chmod +x sync_repos.sh
-          ./sync_repos.sh
+          chmod +x scripts/synch_repo.sh
+           ./scripts/synch_repo.sh
 
       - name: Push commit to public repo
         run: |
@@ -70,7 +70,7 @@ jobs:
           
           echo "${{ steps.sync_step.outputs.modified_files }}" | while IFS= read -r file; do
             if [[ -n "$file" ]]; then
-              git add "$file"
+              git add -A -- "$file"
             fi
           done
           

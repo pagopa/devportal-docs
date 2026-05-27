@@ -8,7 +8,8 @@ PATHS_TO_ADD="${1:-$PATHS_TO_ADD}"
 PATHS_TO_REMOVE="${2:-$PATHS_TO_REMOVE}"
 
 # File to store the list of copied files
-MODIFIED_FILES_LIST="MODIFIED_FILES_LIST.txt" > "$MODIFIED_FILES_LIST" # Empty or create the file on startup
+MODIFIED_FILES_LIST="MODIFIED_FILES_LIST.txt"
+: > "$MODIFIED_FILES_LIST" # Empty or create the file on startup
 
 # Set internal field separator to comma (,) to split inputs into arrays
 IFS=',' read -r -a add_array <<< "$PATHS_TO_ADD"
