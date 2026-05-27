@@ -33,8 +33,8 @@ L’importo relativo ai costi di notifica è già presente nel file JSON di meta
         "credit": 0
       },
       {
-<strong>        "applyCost": true,
-</strong>        "taxType": "6789",
+        "applyCost": true,
+        "taxType": "6789",
         "year": "2025",
         "debit": 100,
         "credit": 0
@@ -86,8 +86,7 @@ Quando viene selezionata questa modalità appaiono i campi per l'indicazione del
 
 Nel caso in cui la notifica sia inviata in modalità **forfettaria**, ovvero con: `notificationFeePolicy=FLAT_RATE` il campo **`applyCost`** **non deve essere valorizzato** (oppure deve essere impostato a `false`), poiché i costi di notifica **non devono essere inclusi nei pagamenti**.
 
-<pre class="language-json"><code class="lang-json"><strong>"notificationFeePolicy": "DELIVERY_MODE",
-</strong>
+```json
 "notificationFeePolicy": "FLAT_RATE",
 "vat": "22",
 "paFee": "100",
@@ -101,7 +100,7 @@ Nel caso in cui la notifica sia inviata in modalità **forfettaria**, ovvero con
         }
     ]    
 ]
-</code></pre>
+```
 
 Nel portale **Self Care**, selezionando il pagamento in modalità **forfettaria**, la checkbox **“Incluso nell’atto”** non abilita il pulsante **“Applica costo di notifica”**, in quanto il costo è già incluso nell'atto stesso indipendente dai costi effettivi di notifica del mittente.
 
