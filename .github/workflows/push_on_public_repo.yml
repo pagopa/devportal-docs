@@ -1,0 +1,11 @@
+name: Push documentation on public repository
+
+on:
+  workflow_dispatch:
+
+jobs:
+  push-to-target:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Placeholder
+        run: echo "No sync steps implemented yet."
