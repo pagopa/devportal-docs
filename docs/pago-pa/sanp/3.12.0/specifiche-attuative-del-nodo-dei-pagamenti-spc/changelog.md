@@ -7,6 +7,39 @@ metaLinks:
 
 # Changelog
 
+### 3.12.0 (Maggio 2026)
+
+### 🚀 Novità: Integrazione POS Fisici
+
+È stata avviata la semplificazione dell'integrazione dei terminali POS per gli Enti Creditori (EC), mirata a sportelli fisici come i CUP sanitari.
+
+* **Workflow Standardizzato**: Introdotta una modalità di integrazione tramite POS Gateway pagoPA che astrae la complessità del layer PSP, garantendo transazioni tracciabili e sicure.
+* **Gestione Sessioni**: Implementato un meccanismo di innesco asincrono del pagamento con gestione centralizzata dei timeout e notifiche push (callback) dell'esito verso il gestionale dell'EC.
+* **Riconciliazione Obbligatoria**: Definito un processo di monitoraggio delle sessioni per garantire la coerenza tra l'autorizzazione finanziaria sul terminale e lo stato nel sistema centrale.
+* **UX Ottimizzata**: Raccomandazione di svincolare l'esperienza del cittadino dall'esito della comunicazione Nodo-PSP per ridurre i tempi di attesa allo sportello.\
+  [Pagamento presso POS fisico installato presso i locali dell'Ente Creditore](../appendici/pagamento-presso-pos-fisico-installato-presso-i-locali-dellente-creditore/)
+
+### ✨ Nuovi Pagamenti Spontanei
+
+Espansione dei servizi di pagamento immediato senza avviso preesistente.
+
+* **CUP (Canone Unico Patrimoniale)**: Introdotte le modalità di pagamento spontaneo dedicate.\
+  [Canone Unico Patrimoniale](../casi-duso/pagamento-spontaneo-presso-psp/canone-unico-patrimoniale.md)
+
+### 🛠️ Ottimizzazioni Tecniche e Integrazioni
+
+* **Integrazione Checkout**: Inserita una nuova redirect per migliorare l'esperienza di atterraggio dai touchpoint dell'EC verso il Checkout pagoPA.\
+  [Pagamento presso frontend dell'EC](../casi-duso/pagamento-presso-frontend-dellec.md)\
+  [Checkout](../casi-duso/pagamento-da-touchpoint-pagopa/checkout.md)
+* **SEPA Request To Pay (RTP)**: Aggiornamento del servizio SRTP per EC e ridefinizione delle posizioni debitorie compatibili con le richieste di pagamento.\
+  [SEPA RTP - Request To Pay](../ente-creditore/sepa-rtp-request-to-pay.md)\
+  [Integrazione Servizio SRTP per EC](../appendici/integrazione-servizio-srtp/ec.md)
+* **Gestione Posizioni Debitorie (GPD)**: Implementazione di nuove modalità di archiviazione per ottimizzare le performance del database.\
+  [Archiviazione](../appendici/posizioni-debitorie/archiviazione.md)
+* **Rendicontazione e Cashflow**: aumentati rate limiti per i nuovi flussi di rendicontazione e aggiunta sezione confronto SOAP/REST per la gestione delle date.\
+  [Rendicontazione e Cashflow](funzionamento-generale/rendicontazione-e-cashflow.md)\
+  [Operazioni disponibili](../appendici/posizioni-debitorie/operazioni-disponibili.md)
+
 ### 3.11.0 (Febbraio 2026)
 
 * Rendicontazione e Cashflow: descritti nuovi flussi di rendicontazione REST\
@@ -26,12 +59,6 @@ metaLinks:
   [SEPA RTP - Request To Pay](../ente-creditore/sepa-rtp-request-to-pay.md)\
   [Integrazione Servizio SRTP per EC](../appendici/integrazione-servizio-srtp/ec.md)\
   [Tassonomia dei sistemi di incasso](../ente-creditore/tassonomia-dei-servizi-di-incasso.md)
-
-
-
-
-
-
 
 ### 3.10.0 (Novembre 2025)
 
