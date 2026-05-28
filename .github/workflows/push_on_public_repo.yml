@@ -3,8 +3,8 @@ name: Push documentation on target repository
 on:
   workflow_dispatch:
     inputs:
-      base_branch:
-        description: 'Private repository branch from which to checkout'
+      source_branch:
+        description: 'Source repository branch from which to checkout'
         required: true
         default: 'docs/from-gitbook'
         type: string
@@ -38,11 +38,11 @@ jobs:
   push-to-target:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout private repository
+      - name: Checkout source repository
         uses: actions/checkout@v6
         with:
-          ref: ${{ inputs.base_branch }}
-          path: private_repo
+          ref: ${{ inputs.source_branch }}
+          path: source_repo
 
       - name: Checkout target repository
         uses: actions/checkout@v6
@@ -58,14 +58,14 @@ jobs:
           PATHS_TO_ADD: ${{ inputs.paths_to_add }}
           PATHS_TO_REMOVE: ${{ inputs.paths_to_remove }}
         run: |
-          chmod +x private_repo/scripts/sync_repo.sh
-          ./private_repo/scripts/sync_repo.sh
+          chmod +x source_repo/scripts/sync_repo.sh
+          ./source_repo/scripts/sync_repo.sh
 
       - name: Sync Repositories content (Full)
         if: ${{ inputs.paths_to_add == '' && inputs.paths_to_remove == '' }}
         run: |
-          chmod +x private_repo/scripts/sync_full_repo.sh
-          ./private_repo/scripts/sync_full_repo.sh
+          chmod +x source_repo/scripts/sync_full_repo.sh
+          ./source_repo/scripts/sync_full_repo.sh
 
       - name: Push commit to target repo
         env:
