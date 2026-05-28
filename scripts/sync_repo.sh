@@ -32,24 +32,24 @@ for path in "${add_array[@]}"; do
         path="docs/$path"
     fi
 
-    # Path in public_repo has no docs/ prefix
+    # Path in target_repo has no docs/ prefix
     if [[ "$path" == "docs" ]]; then
-        public_path="."
+        target_path="."
     else
-        public_path="${path#docs/}"
+        target_path="${path#docs/}"
     fi
 
-    echo "-> Handling path: $path (public_repo: $public_path)"
+    echo "-> Handling path: $path (target_repo: $target_path)"
 
-    if [[ -e "public_repo/$public_path" ]]; then
-        echo "   Found in public_repo. Deleting..."
-        rm -rf "public_repo/$public_path"
+    if [[ -e "target_repo/$target_path" ]]; then
+        echo "   Found in target_repo. Deleting..."
+        rm -rf "target_repo/$target_path"
     fi
 
     if [[ -e "private_repo/$path" ]]; then
         echo "   Found in private_repo. Copying..."
-        mkdir -p "public_repo/$(dirname "$public_path")"
-        cp -r "private_repo/$path" "public_repo/$public_path"
+        mkdir -p "target_repo/$(dirname "$target_path")"
+        cp -r "private_repo/$path" "target_repo/$target_path"
     else
         echo "   Warning: Path '$path' does not exist in private_repo."
     fi
@@ -72,17 +72,17 @@ for path in "${remove_array[@]}"; do
     fi
 
     if [[ "$path" == "docs" ]]; then
-        public_path="."
+        target_path="."
     else
-        public_path="${path#docs/}"
+        target_path="${path#docs/}"
     fi
 
-    echo "-> Handling path: $path (public_repo: $public_path)"
-    if [[ -e "public_repo/$public_path" ]]; then
-        echo "   Deleting $public_path from public_repo..."
-        rm -rf "public_repo/$public_path"
+    echo "-> Handling path: $path (target_repo: $target_path)"
+    if [[ -e "target_repo/$target_path" ]]; then
+        echo "   Deleting $target_path from target_repo..."
+        rm -rf "target_repo/$target_path"
     else
-        echo "   Path '$public_path' is not present in public_repo (nothing to do)."
+        echo "   Path '$target_path' is not present in target_repo (nothing to do)."
     fi
 done
 
