@@ -11,6 +11,16 @@ PATHS_TO_REMOVE="${2:-$PATHS_TO_REMOVE}"
 MODIFIED_FILES_LIST="MODIFIED_FILES_LIST.txt"
 : > "$MODIFIED_FILES_LIST" # Empty or create the file on startup
 
+validate_path() {
+    local p="$1"
+    # Reject traversal (..), home directory (~), double slashes (//), and absolute paths (leading /)
+    if [[ "$p" == *".."* ]] || [[ "$p" == *"~"* ]] || [[ "$p" == *"//"* ]] || [[ "$p" == /* ]]; then
+        echo "   [ERROR] Security violation. Unsafe path detected: '$p'."
+        echo "   Paths cannot contain '..', '~', '//', or start with '/'."
+        exit 1 # Abort the entire script to prevent accidental deletions
+    fi
+}
+
 # Set internal field separator to comma (,) to split inputs into arrays
 IFS=',' read -r -a add_array <<< "$PATHS_TO_ADD"
 IFS=',' read -r -a remove_array <<< "$PATHS_TO_REMOVE"
@@ -23,8 +33,17 @@ for path in "${add_array[@]}"; do
     # Skip iteration if the path is empty
     if [[ -z "$path" ]]; then continue; fi
 
-    if [[ "$path" != docs/* ]]; then
-      path="docs/$path"
+    validate_path "$path"
+
+    # Strip leading './' or '/' if present
+    path="${path#./}"
+    path="${path#/}"
+
+    # Handle 'docs' prefix safely
+    if [[ "$path" == "docs" || "$path" == "docs/" ]]; then
+        path="docs"
+    elif [[ "$path" != docs/* ]]; then
+        path="docs/$path"
     fi
 
     echo "-> Handling path: $path"
@@ -65,7 +84,7 @@ echo "=== Processing paths to REMOVE (paths_to_remove) ==="
 for path in "${remove_array[@]}"; do
     path=$(echo "$path" | xargs)
     if [[ -z "$path" ]]; then continue; fi
-
+    validate_path "$path"
     if [[ "$path" != docs/* ]]; then
       path="docs/$path"
     fi
