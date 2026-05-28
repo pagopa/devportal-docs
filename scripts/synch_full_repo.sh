@@ -20,4 +20,5 @@ for PATH_NAME in $PATHS; do
     fi
 done
 
-echo "Done!"
+echo ""
+echo "=== Operation Completed ==="
