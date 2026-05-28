@@ -2,10 +2,56 @@ name: Upload sources to Crowdin
 
 on:
   workflow_dispatch:
+    inputs:
+      paths_to_upload:
+        description: Optional docs-relative paths, comma or newline separated.
+        required: false
+        type: string
 
 jobs:
   upload-sources-to-crowdin:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Placeholder
-        run: echo "No sync steps implemented yet."
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Setup Node.JS
+        uses: ./.github/actions/setup-node
+
+      - name: Cache npm dependencies
+        id: cache-npm
+        uses: actions/cache@v5
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-npm-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-npm-
+
+      - name: Install dependencies
+        run: |
+          npm config set cache ~/.npm
+          npm ci
+
+      - name: Generate docs structure manifest
+        run: npm run generate_doc_structure
+
+      - name: Generate crowdin file
+        id: extract_files
+        env:
+          PATHS_TO_UPLOAD: ${{ github.event.inputs.paths_to_upload || '' }}
+        run: npm run generate_file
+
+      - name: crowdin action
+        uses: crowdin/github-action@v2
+        with:
+          upload_sources: true
+          upload_translations: false
+          auto_approve_imported: true
+          download_translations: false
+          create_pull_request: false
+          base_url: 'https://pagopa.crowdin.com'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
+          CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
