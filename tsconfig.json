@@ -8,10 +8,5 @@
     "skipLibCheck": true,
     "types": ["node"]
   },
-  "include": [
-    "*.ts",
-    "src/docsStructure.ts",
-    "src/generateCrowdinConfig.ts",
-    "src/generateDocStructure.ts"
-  ]
+  "include": ["*.ts", "src/**/*.ts"]
 }
