@@ -64,8 +64,8 @@ jobs:
       - name: Sync Repositories content (Full)
         if: ${{ inputs.paths_to_add == '' && inputs.paths_to_remove == '' }}
         run: |
-          chmod +x scripts/sync_full_repo.sh
-          ./scripts/sync_full_repo.sh
+          chmod +x private_repo/scripts/sync_full_repo.sh
+          ./private_repo/scripts/sync_full_repo.sh
 
       - name: Push commit to target repo
         env:
