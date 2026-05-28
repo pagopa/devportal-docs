@@ -16,7 +16,8 @@
 
 * [Flusso operativo](come-configurare-e-gestire-il-servizio/flusso-operativo.md)
 * [Onboarding Ambiente di Collaudo (UAT)](come-configurare-e-gestire-il-servizio/onboarding-ambiente-di-collaudo-uat.md)
-* [Copy of Onboarding Ambiente di Collaudo (UAT)](come-configurare-e-gestire-il-servizio/copy-of-onboarding-ambiente-di-collaudo-uat.md)
+* [Copy of Onboarding Ambiente di Collaudo (UAT)](come-configurare-e-gestire-il-servizio/copy-of-onboarding-ambiente-di-collaudo-uat/README.md)
+  * [Configurazione Servizio - Credenziali](come-configurare-e-gestire-il-servizio/copy-of-onboarding-ambiente-di-collaudo-uat/configurazione-servizio-credenziali.md)
 * [Navigazione del servizio su Prod e Collaudo](come-configurare-e-gestire-il-servizio/navigazione-del-servizio-su-prod-e-collaudo.md)
 * [Ambiente di Produzione](come-configurare-e-gestire-il-servizio/ambiente-di-produzione.md)
 

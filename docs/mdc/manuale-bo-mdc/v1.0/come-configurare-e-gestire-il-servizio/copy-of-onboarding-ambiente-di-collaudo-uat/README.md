@@ -15,7 +15,7 @@ La maschera consente di configurare gli endpoint necessari alla ricezione dei Me
 * **Step 1  - Configurazione Endpoint**
 * **Step 2  - Configurazione Deep link**
 
-<figure><img src="../.gitbook/assets/Backoffice_uat_config-deeplink.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Backoffice_uat_config-deeplink.png" alt=""><figcaption></figcaption></figure>
 
 ### Step 1 -  Configurazione Endpoint
 
@@ -271,7 +271,7 @@ Di seguito un lista di valori come esempio:
 
 ### Configurazione del servizio - Credenziali
 
-La sezione **“Credenziali”** rappresenta il secondo step della configurazione del servizio "Messaggi di Cortesia" e consente al PSP di configurare i parametri necessari all’autenticazione delle chiamate verso i propri sistemi applicativi. La schermata permette di definire:
+La sezione **“Credenziali”** rappresenta il secondo step della configurazione del servizio "**Messaggi di Cortesia**" e consente al PSP di configurare i parametri necessari all’autenticazione delle chiamate verso i propri sistemi applicativi. La schermata permette di definire:
 
 * credenziali OAuth2;
 * grant type utilizzato;
