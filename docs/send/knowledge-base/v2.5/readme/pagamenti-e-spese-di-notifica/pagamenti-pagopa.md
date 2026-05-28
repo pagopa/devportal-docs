@@ -104,21 +104,22 @@ In questa modalità è importante anche valorizzare correttamente i campi `paFee
 Nell'esempio sottostante la notifica è creata con modalità puntuale (`notificationFeePolicy:"DELIVERY_MODE"`) e con l'applicazione del costo di €1 per la componente a copertura dei costi del mittente, espresso in centesimi si euro (`"paFee": "100"`) e IVA al 22% ("vat": "22").\
 Sull'avviso pagoPA con numero `302011777777777777` è indicato che devono essere applicati i costi di notifica.
 
-<pre class="language-json"><code class="lang-json"><strong>"notificationFeePolicy": "DELIVERY_MODE",
-</strong><strong>"vat": "22",
-</strong><strong>"paFee": "100",
-</strong><strong>...
-</strong><strong>"recipients": [
-</strong>    "payments": [
-<strong>        "pagoPa": {    
-</strong>        "noticeCode": "77777777777",
+```json
+"notificationFeePolicy": "DELIVERY_MODE",
+"vat": "22",
+"paFee": "100",
+...
+"recipients": [
+    "payments": [
+        "pagoPa": {    
+        "noticeCode": "77777777777",
         "creditorTaxId": "302011777777777777",
-<strong>        "applyCost": true
-</strong><strong>        ...
-</strong>        }
+        "applyCost": true
+        ...
+        }
     ]    
 ]
-</code></pre>
+```
 
 Se la notifica viene depositata tramite il portale mittente con l’invio manuale, l’indicazione dell'applicazione dei costi di notifica può essere configurata selezionando la checkbox **“Non incluso nell’atto”**.
 
@@ -134,8 +135,9 @@ Nel caso in cui la notifica sia inviata in modalità **forfettaria**, ovvero con
 
 Nella modalità forfettaria l'API di costo della nofica restituirà sempre `totalCost = 0` e non applichera alcun costo di notifica alla posizione debitoria caricata su GPD.
 
-<pre class="language-json"><code class="lang-json"><strong>"notificationFeePolicy": "FLAT_RATE",
-</strong>"vat": "22",
+```json
+"notificationFeePolicy": "FLAT_RATE",
+"vat": "22",
 "paFee": "100",
 ...
 "recipients": [
@@ -148,8 +150,10 @@ Nella modalità forfettaria l'API di costo della nofica restituirà sempre `tota
         }
     ]    
 ]
-</code></pre>
+```
 
 Nel portale **Self Care**, selezionando il pagamento in modalità **forfettaria**, la checkbox **“Incluso nell’atto”** non abilita il pulsante **“Applica costo di notifica”**, in quanto il costo è già incluso nell'atto stesso indipendentemente dai costi effettivi di notifica del mittente.
 
-<div><figure><img src="../../.gitbook/assets/PagamentoFE3.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/PagamentoFE4.png" alt=""><figcaption></figcaption></figure></div>
+<figure><img src="../../.gitbook/assets/PagamentoFE3.png" alt=""><figcaption></figcaption></figure> 
+
+<figure><img src="../../.gitbook/assets/PagamentoFE4.png" alt=""><figcaption></figcaption></figure></div>
