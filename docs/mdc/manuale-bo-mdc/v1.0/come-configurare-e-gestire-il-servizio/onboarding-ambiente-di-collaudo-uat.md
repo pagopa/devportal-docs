@@ -23,7 +23,7 @@ Questo step richiede l’inserimento degli endpoint tecnici che PagoPA utilizzer
 
 I campi da compilare o modificare sono:
 
-<table><thead><tr><th>Campo</th><th width="311.40625">Descrizione</th><th>Obbligatorio</th></tr></thead><tbody><tr><td>URL per ricezione messaggi di cortesia (webhook) *</td><td>Inserire l'URL webhook del PSP che riceverà le notifiche da pagoPA</td><td>si</td></tr><tr><td>URL di autenticazione *</td><td>Inserire l'URL del servizio di autenticazione del PSP</td><td>si</td></tr><tr><td>Tipo Autenticazione</td><td>Selezionare dal menu a tendina: OAuth2 (valore predefinito)</td><td>si</td></tr></tbody></table>
+<table><thead><tr><th width="167.78125">Campo</th><th width="145.84375">Descrizione</th><th></th></tr></thead><tbody><tr><td>URL per ricezione messaggi di cortesia (webhook) *</td><td>Inserire l'URL webhook del PSP che riceverà le notifiche da pagoPA</td><td></td></tr><tr><td>URL di autenticazione *</td><td>Inserire l'URL del servizio di autenticazione del PSP</td><td></td></tr><tr><td>Tipo Autenticazione</td><td>Selezionare dal menu a tendina: OAuth2 (valore predefinito)</td><td></td></tr></tbody></table>
 
 (\*) campi obbligatori. \
 In ambiente UAT è possibile usare URL di test (es. https://test.miopsp.com/webhook). La struttura deve essere comunque un URL valido e ben formato.
