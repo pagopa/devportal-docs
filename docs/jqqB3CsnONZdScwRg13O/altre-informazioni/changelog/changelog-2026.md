@@ -1,9 +1,15 @@
 # Changelog 2026
 
-#### 2.17.0
+#### 2.18.0 (19 maggio)
+
+* Debugger per i token DPoP: è possibile debuggare in autonomia il mancato rilascio di un voucher DPoP attraverso lo strumento di debug presente in _Tool per lo sviluppo > Debug Client Assertion_
+* Mantenimento preferenza della lingua: la preferenza su Area Riservata viene mantenuta anche su PDND Interoperabilità. Per PDND, sono attualmente disponibili le lingue italiana e inglese
+* [API v. 3](https://www.interop.pagopa.it/news/api-v3): aggiunto endpoint relativo agli eventi sui template di finalità agevolata
+
+#### 2.17.0 (27 aprile)
 
 * [Soglie di chiamate API/giorno per requisito di accesso](../../riferimenti-tecnici/e-service/soglie-e-approvazioni.md): l'erogatore può impostare diverse soglie per attributo certificato (es. 5.000 chiamate API/giorno per Comuni, 20.000 per Regioni)
-* Attivazione deleghe su e-service già pubblicati: l'erogatore può gestire la preferenza se accettare o meno deleghe per la fruizione per il proprio e-service. La preferenza può essere aggiornata in qualsiasi momento. Non è comunque retroattiva: tutte le deleghe attive rimangono attive anche dopo la disattivazione della preferenza. Da quel momento in poi, non sarà più possibile dare nuove deleghe.
+* Attivazione deleghe su e-service già pubblicati: l'erogatore può gestire la preferenza se accettare o meno deleghe per la fruizione per il proprio e-service. La preferenza può essere aggiornata in qualsiasi momento. Non è comunque retroattiva: tutte le deleghe attive rimangono attive anche dopo la disattivazione della preferenza. Da quel momento in poi, non sarà più possibile dare nuove deleghe
 * [Nuovi attributi certificati per i privati](../../riferimenti-tecnici/attributi/gli-attributi-piu-utilizzati.md#privati): due attributi certificati vengono assegnati ad alcune categorie di privato all'atto dell'adesione a PDND, in particolare
   * adesione come "Privato": attributo certificato _Adesione dal Registro Imprese;_
   * adesione come "SCP - Società a Controllo Pubblico": sia l'attributo _Adesione dal Registro Imprese_ che l'attributo _Società a Controllo Pubblico - Registro Imprese_ &#x20;

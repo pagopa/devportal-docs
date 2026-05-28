@@ -1,9 +1,5 @@
 # Come abilitare la ricezione di promemoria e novità settimanali
 
-{% hint style="warning" %}
-La funzionalità dei promemoria sarà disponibile a breve. Puoi iniziare esprimendo la tua preferenza di ricezione e penseremo noi alla gestione delle comunicazioni.
-{% endhint %}
-
 Per evitare di ricevere troppe email durante la giornata, puoi attivare la funzione di resoconto settimanale. Il resoconto è un’unica email riassuntiva che aggrega tutte le notifiche non urgenti generate durante l'ultima settimana.&#x20;
 
 L'attivazione della funzionalità di promemoria non interrompe la ricezione delle comunicazioni singole che l'utente ha configurato nelle preferenze.&#x20;
