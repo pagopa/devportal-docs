@@ -8,6 +8,7 @@ import {
   collectSelectedMarkdownFiles,
   CONFIG_FILE,
   DOCS_DIR,
+  parseRequestedDocsPaths,
   type CrowdinFileEntry,
 } from './docsStructure';
 
@@ -15,35 +16,6 @@ interface CrowdinConfig {
   base_path?: string;
   preserve_hierarchy?: boolean;
   files: CrowdinFileEntry[];
-}
-
-function parseRequestedDocsPaths(rawValue: string | undefined): string[] {
-  if (!rawValue) {
-    return [];
-  }
-
-  const trimmedValue = rawValue.trim();
-
-  if (!trimmedValue) {
-    return [];
-  }
-
-  try {
-    const parsedValue = JSON.parse(trimmedValue) as unknown;
-
-    if (Array.isArray(parsedValue)) {
-      return parsedValue
-        .map((entry) => `${entry}`.trim())
-        .filter((entry) => entry.length > 0);
-    }
-  } catch {
-    // Fall back to simple text parsing for workflow_dispatch input values.
-  }
-
-  return trimmedValue
-    .split(/\r?\n|,/)
-    .map((entry) => entry.trim())
-    .filter((entry) => entry.length > 0);
 }
 
 function generateCrowdinConfig() {
