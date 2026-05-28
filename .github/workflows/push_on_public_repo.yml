@@ -52,27 +52,40 @@ jobs:
           token: ${{ secrets.PAT }}
           path: public_repo
 
-      - name: Sync Repositories content
+      - name: Sync Repositories content (Incremental)
+        if: ${{ inputs.paths_to_add != '' || inputs.paths_to_remove != '' }}
         id: sync_step
         env:
           PATHS_TO_ADD: ${{ inputs.paths_to_add }}
           PATHS_TO_REMOVE: ${{ inputs.paths_to_remove }}
         run: |
           chmod +x scripts/synch_repo.sh
-           ./scripts/synch_repo.sh
+          ./scripts/synch_repo.sh
+
+      - name: Sync Repositories content (Full)
+        if: ${{ inputs.paths_to_add == '' && inputs.paths_to_remove == '' }}
+        run: |
+          chmod +x scripts/sync_full_repo.sh
+          ./scripts/sync_full_repo.sh
 
       - name: Push commit to public repo
         run: |
-          cd public-repo
+          cd public_repo
           
           git config user.name ${{ vars.GH_USER_NAME }}
           git config user.email ${{ vars.GH_MAIL }}
           
-          echo "${{ steps.sync_step.outputs.modified_files }}" | while IFS= read -r file; do
-            if [[ -n "$file" ]]; then
-              git add -A -- "$file"
-            fi
-          done
+          if [ -n "${{ inputs.paths_to_add }}" ] || [ -n "${{ inputs.paths_to_remove }}" ]; then
+            echo "Running partial commit..."
+            echo "${{ steps.sync_step.outputs.modified_files }}" | while IFS= read -r file; do
+              if [[ -n "$file" ]]; then
+                git add -A -- "$file"
+              fi
+            done
+          else
+            echo "Running full commit..."
+            git add -A
+          fi
           
           if git diff-index --quiet HEAD; then
             echo "No updates to commit"
