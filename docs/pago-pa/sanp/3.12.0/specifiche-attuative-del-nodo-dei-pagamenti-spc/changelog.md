@@ -7,7 +7,7 @@ metaLinks:
 
 # Changelog
 
-### 3.11.0 (Febbraio 2026
+### 3.11.0 (Febbraio 2026)
 
 * Rendicontazione e Cashflow: descritti nuovi flussi di rendicontazione REST\
   [Rendicontazione e Cashflow](funzionamento-generale/rendicontazione-e-cashflow.md)
@@ -202,7 +202,7 @@ Patch version rilasciata per risolvere alcuni elementi di ambiguità indicati di
 * Aggiornate le modalità di pubblicazione in [#creazione-di-una-posizione-debitoria](../appendici/posizioni-debitorie/operazioni-disponibili.md#creazione-di-una-posizione-debitoria "mention")
 * Aggiornata la gestione dei filtri in [#lettura-di-una-lista-di-posizioni-debitorie-e-di-una-singola-posizione-debitoria](../appendici/posizioni-debitorie/operazioni-disponibili.md#lettura-di-una-lista-di-posizioni-debitorie-e-di-una-singola-posizione-debitoria "mention")
 * Aggiunte operazioni per le [#ricevute-di-pagamento](../appendici/posizioni-debitorie/operazioni-disponibili.md#ricevute-di-pagamento "mention") delle Posizioni Debitorie
-* Chiarimenti sull'utilizzo del tag _touchPoint in_ [pos-fisici.md](../appendici/pos-fisici.md "mention")
+* Chiarimenti sull'utilizzo del tag _touchPoint in_ [pos-fisici.md](../appendici/pagamento-presso-pos-fisico-installato-presso-i-locali-dellente-creditore/pos-fisici.md "mention")
 
 ### 3.3.1 (febbraio 2023)
 
@@ -226,7 +226,7 @@ Patch version rilasciata per risolvere alcuni elementi di ambiguità indicati di
 * [giornale-degli-eventi.md](../appendici/giornale-degli-eventi.md "mention")
 * [stampa-avvisi-pagopa.md](../ente-creditore/stampa-avvisi-pagopa.md "mention")
 * [#recupero-receipt-per-enti-creditori](../ente-creditore/modalita-dintegrazione/integrazione-tramite-api-sincrone.md#recupero-receipt-per-enti-creditori "mention")
-* [pos-fisici.md](../appendici/pos-fisici.md "mention")
+* [pos-fisici.md](../appendici/pagamento-presso-pos-fisico-installato-presso-i-locali-dellente-creditore/pos-fisici.md "mention")
 
 ### 3.2.2 (dicembre 2022)
 
