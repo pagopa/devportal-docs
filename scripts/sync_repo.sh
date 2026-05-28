@@ -85,9 +85,16 @@ for path in "${remove_array[@]}"; do
     path=$(echo "$path" | xargs)
     if [[ -z "$path" ]]; then continue; fi
     validate_path "$path"
-    if [[ "$path" != docs/* ]]; then
+
+    path="${path#./}"
+    path="${path#/}"
+
+    if [[ "$path" == "docs" || "$path" == "docs/" ]]; then
+      path="docs"
+    elif [[ "$path" != docs/* ]]; then
       path="docs/$path"
     fi
+
     echo "-> Handling path: $path"
     if [[ -e "public_repo/$path" ]]; then
         echo "   Deleting $path from public_repo..."
