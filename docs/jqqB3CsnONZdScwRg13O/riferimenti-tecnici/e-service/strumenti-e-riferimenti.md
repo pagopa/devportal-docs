@@ -30,7 +30,7 @@ Raccolta di **regole tecniche** e **pattern** per progettare API aderenti al **M
 
 #### Integrazione con il probing
 
-Tra gli adempimenti previsti dal Modi e dalle Linee Guida AgID per la PDND c'è l'esposizione di un endpoint di status necessario al funzionamento del servizio di probing. Maggiori informazioni nella [sezione dedicata](../probing/) o nel [tutorial di integrazione](../../tutorial/tutorial-per-lerogatore/come-integrare-il-proprio-e-service-con-il-probing.md).&#x20;
+Tra gli adempimenti previsti dal Modi e dalle Linee Guida AgID per la PDND c'è l'esposizione di un endpoint di status necessario al funzionamento del servizio di probing. Maggiori informazioni nella [sezione dedicata](/broken/pages/w9j7gRPPzUWrz9qPrcJy) o nel [tutorial di integrazione](/broken/pages/VT2jeQa5CIm1uPeqcej5).&#x20;
 
 ***
 
