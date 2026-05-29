@@ -106,6 +106,6 @@ La lettura di un lista di flussi di rendicontazione prevede sempre una paginazio
 La lettura di un flusso di rendicontazione si basa sull'identificativo del reporting in input (`id`). In caso non esista un flusso di rendicontazione relativo all'`id`  inserito nella richiesta verrà restituito un errore.
 
 {% hint style="warning" %}
-Con l'introduzione dei Flussi di Rendicontazione REST, questa funzionalità è deprecata e sarà definitivamente dismessa a partire dal **31/07/2027**.
+Con l'introduzione dei Flussi di Rendicontazione REST, questa funzionalità è deprecata dal **31/12/2026** e sarà definitivamente dismessa a partire dal **31/07/2027**.
 {% endhint %}
 

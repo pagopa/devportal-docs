@@ -41,7 +41,7 @@ L'EC pertanto in fase di aggiornamento dell'importo `amount` di uno dei `transfe
 ### Flussi di rendicontazione - DEPRECATED&#x20;
 
 {% hint style="warning" %}
-Queste API saranno dismesse a partire dal 31/12/2026
+Queste API verranno deprecate in data **31/12/2026** e definitivamente dismesse a partire dal **31/07/2027.**
 {% endhint %}
 
 * [getFlowList](https://developer.pagopa.it/pago-pa/api/gpd-fdr#/pago-pa/api/operations/get-organizations-organizationid-reportings)
