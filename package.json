@@ -1,7 +1,7 @@
 {
-  "name": "pagopatranslationspoc",
+  "name": "devportal-docs",
   "version": "1.0.0",
-  "description": "Poc to test crowdin",
+  "description": "Devportal Docs",
   "directories": {
     "doc": "docs"
   },
@@ -12,14 +12,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Uqido/PagopaTranslationsPOC.git"
+    "url": "git+https://github.com/pagopa/devportal-docs.git"
   },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Uqido/PagopaTranslationsPOC/issues"
-  },
-  "homepage": "https://github.com/Uqido/PagopaTranslationsPOC#readme",
   "dependencies": {
     "js-yaml": "^4.1.1"
   },
