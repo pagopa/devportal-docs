@@ -1,7 +1,6 @@
 # Modalità integrazione EC
 
-L'integrazione dell'Ente Creditore con il POS Gateway pagoPA abilita un modello di pagamento \
-&#xNAN;_&#x72;eal-time_ che rispetta le esigenze di immediatezza dello sportello fisico, riducendo al contempo i vincoli legati allo specifico modello di hardware (POS) adottato.
+L'integrazione dell'Ente Creditore con il POS Gateway pagoPA abilita un modello di pagamento  _real-time_ che rispetta le esigenze di immediatezza dello sportello fisico, riducendo al contempo i vincoli legati allo specifico modello di hardware (POS) adottato.
 
 Per connettersi a questa architettura centralizzata, l'Ente dovrà allineare i propri software gestionali di sportello con le specifiche di interoperabilità del POS Gateway pagoPA.
 
