@@ -49,6 +49,24 @@ function isPathWithinRoot(rootPath: string, candidatePath: string): boolean {
   return relativePath === '' || (!relativePath.startsWith('..') && !path.isAbsolute(relativePath));
 }
 
+function safeStatSync(absolutePath: string, rootPath: string, displayPath: string): fs.Stats {
+  const lstat = fs.lstatSync(absolutePath);
+
+  if (lstat.isSymbolicLink()) {
+    const realPath = fs.realpathSync(absolutePath);
+
+    if (!isPathWithinRoot(rootPath, realPath)) {
+      throw new Error(
+        `The path "${displayPath}" is a symlink that resolves outside "${DOCS_DIR}/".`,
+      );
+    }
+
+    return fs.statSync(realPath);
+  }
+
+  return lstat;
+}
+
 function toCrowdinSourcePath(entryPath: string, rootDir: string): string {
   const rootPath = path.resolve(rootDir);
   const absoluteEntryPath = path.resolve(entryPath);
@@ -57,10 +75,12 @@ function toCrowdinSourcePath(entryPath: string, rootDir: string): string {
 }
 
 function normalizeSelectedPath(selectedPath: string): string {
-  const normalizedPath = toPosixPath(selectedPath.trim()).replace(/^\.\//, '');
+  const normalizedPath = toPosixPath(selectedPath.trim()).replace(/^\.\//, '').replace(/\/+$/, '');
 
-  if (normalizedPath === DOCS_DIR) {
-    return '';
+  if (normalizedPath === '' || normalizedPath === DOCS_DIR) {
+    throw new Error(
+      `The path "${selectedPath}" refers to the "${DOCS_DIR}/" root. Specify a Markdown file or subdirectory, or omit selected paths to perform a full scan.`,
+    );
   }
 
   if (normalizedPath.startsWith(`${DOCS_DIR}/`)) {
@@ -221,7 +241,8 @@ function mergeNodes(baseNode: DocsStructureNode, incomingNode: DocsStructureNode
 }
 
 function createNodeFromSelectedEntry(selectedAbsolutePath: string, rootDir: string): DocsStructureNode {
-  const selectedPathStat = fs.statSync(selectedAbsolutePath);
+  const rootPath = path.resolve(rootDir);
+  const selectedPathStat = safeStatSync(selectedAbsolutePath, rootPath, selectedAbsolutePath);
 
   if (selectedPathStat.isDirectory()) {
     return buildDirectoryNode(selectedAbsolutePath, rootDir, []);
@@ -328,7 +349,7 @@ function mergeManifestWithSelectedPaths(
   for (const rawSelectedPath of selectedPaths) {
     const normalizedPath = normalizeSelectedPath(rawSelectedPath);
 
-    if (!normalizedPath || includesIgnoredDirectory(normalizedPath)) {
+    if (includesIgnoredDirectory(normalizedPath)) {
       continue;
     }
 
@@ -342,7 +363,7 @@ function mergeManifestWithSelectedPaths(
       throw new Error(`The path "${rawSelectedPath}" does not exist within "${DOCS_DIR}/".`);
     }
 
-    const selectedPathStat = fs.statSync(absoluteSelectedPath);
+    const selectedPathStat = safeStatSync(absoluteSelectedPath, rootPath, rawSelectedPath);
 
     if (!selectedPathStat.isDirectory() && (!selectedPathStat.isFile() || !isMarkdownFile(path.basename(absoluteSelectedPath)))) {
       throw new Error(`The path "${rawSelectedPath}" must be a Markdown file or a directory.`);
@@ -357,7 +378,7 @@ function mergeManifestWithSelectedPaths(
   for (const rawPathToDelete of pathsToDelete) {
     const normalizedPath = normalizeSelectedPath(rawPathToDelete);
 
-    if (!normalizedPath || includesIgnoredDirectory(normalizedPath)) {
+    if (includesIgnoredDirectory(normalizedPath)) {
       continue;
     }
 
@@ -481,7 +502,7 @@ export function collectSelectedMarkdownFiles(
   for (const rawSelectedPath of selectedPaths) {
     const normalizedPath = normalizeSelectedPath(rawSelectedPath);
 
-    if (!normalizedPath || includesIgnoredDirectory(normalizedPath)) {
+    if (includesIgnoredDirectory(normalizedPath)) {
       continue;
     }
 
@@ -495,7 +516,7 @@ export function collectSelectedMarkdownFiles(
       throw new Error(`The path "${rawSelectedPath}" does not exist within "${DOCS_DIR}/".`);
     }
 
-    const selectedPathStat = fs.statSync(absoluteSelectedPath);
+    const selectedPathStat = safeStatSync(absoluteSelectedPath, rootPath, rawSelectedPath);
 
     if (selectedPathStat.isDirectory()) {
       collectMarkdownFilesFromDirectory(absoluteSelectedPath, rootDir, collectedFiles);

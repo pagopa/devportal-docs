@@ -172,7 +172,7 @@ The workflow only commits and pushes when `docs-structure.json` has actually cha
   run: npm run generate_file
 ```
 
-`npm run generate_file` runs [generateCrowdinConfig.ts](generateCrowdinConfig.ts):
+`npm run generate_file` runs [generateCrowdinConfig.ts](src/generateCrowdinConfig.ts):
 
 ```mermaid
 flowchart TD
@@ -281,9 +281,9 @@ sequenceDiagram
 | Concern | Location |
 | --- | --- |
 | Workflow definition | [.github/workflows/upload_sources_to_crowdin.yml](.github/workflows/upload_sources_to_crowdin.yml) |
-| Manifest entry point | [generateDocStructure.ts](generateDocStructure.ts) |
-| Crowdin config entry point | [generateCrowdinConfig.ts](generateCrowdinConfig.ts) |
-| Shared helpers (tree walk, merge, parsing) | [docsStructure.ts](docsStructure.ts) |
+| Manifest entry point | [generateDocStructure.ts](src/generateDocStructure.ts) |
+| Crowdin config entry point | [generateCrowdinConfig.ts](src/generateCrowdinConfig.ts) |
+| Shared helpers (tree walk, merge, parsing) | [docsStructure.ts](src/docsStructure.ts) |
 | Generated manifest | `docs-structure.json` |
 | Generated Crowdin config | [crowdin.yml](crowdin.yml) |
 | npm scripts | [package.json](package.json#L8-L11) |
