@@ -47,6 +47,24 @@ function isPathWithinRoot(rootPath: string, candidatePath: string): boolean {
   return relativePath === '' || (!relativePath.startsWith('..') && !path.isAbsolute(relativePath));
 }
 
+function safeStatSync(absolutePath: string, rootPath: string, displayPath: string): fs.Stats {
+  const lstat = fs.lstatSync(absolutePath);
+
+  if (lstat.isSymbolicLink()) {
+    const realPath = fs.realpathSync(absolutePath);
+
+    if (!isPathWithinRoot(rootPath, realPath)) {
+      throw new Error(
+        `The path "${displayPath}" is a symlink that resolves outside "${DOCS_DIR}/".`,
+      );
+    }
+
+    return fs.statSync(realPath);
+  }
+
+  return lstat;
+}
+
 function toCrowdinSourcePath(entryPath: string, rootDir: string): string {
   const rootPath = path.resolve(rootDir);
   const absoluteEntryPath = path.resolve(entryPath);
@@ -219,7 +237,8 @@ function mergeNodes(baseNode: DocsStructureNode, incomingNode: DocsStructureNode
 }
 
 function createNodeFromSelectedEntry(selectedAbsolutePath: string, rootDir: string): DocsStructureNode {
-  const selectedPathStat = fs.statSync(selectedAbsolutePath);
+  const rootPath = path.resolve(rootDir);
+  const selectedPathStat = safeStatSync(selectedAbsolutePath, rootPath, selectedAbsolutePath);
 
   if (selectedPathStat.isDirectory()) {
     return buildDirectoryNode(selectedAbsolutePath, rootDir, []);
@@ -340,7 +359,7 @@ function mergeManifestWithSelectedPaths(
       throw new Error(`The path "${rawSelectedPath}" does not exist within "${DOCS_DIR}/".`);
     }
 
-    const selectedPathStat = fs.statSync(absoluteSelectedPath);
+    const selectedPathStat = safeStatSync(absoluteSelectedPath, rootPath, rawSelectedPath);
 
     if (!selectedPathStat.isDirectory() && (!selectedPathStat.isFile() || !isMarkdownFile(path.basename(absoluteSelectedPath)))) {
       throw new Error(`The path "${rawSelectedPath}" must be a Markdown file or a directory.`);
@@ -493,7 +512,7 @@ export function collectSelectedMarkdownFiles(
       throw new Error(`The path "${rawSelectedPath}" does not exist within "${DOCS_DIR}/".`);
     }
 
-    const selectedPathStat = fs.statSync(absoluteSelectedPath);
+    const selectedPathStat = safeStatSync(absoluteSelectedPath, rootPath, rawSelectedPath);
 
     if (selectedPathStat.isDirectory()) {
       collectMarkdownFilesFromDirectory(absoluteSelectedPath, rootDir, collectedFiles);
