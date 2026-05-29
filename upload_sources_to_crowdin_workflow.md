@@ -166,7 +166,7 @@ The workflow only commits and pushes when `docs-structure.json` has actually cha
   run: npm run generate_file
 ```
 
-`npm run generate_file` runs [generateCrowdinConfig.ts](generateCrowdinConfig.ts):
+`npm run generate_file` runs [generateCrowdinConfig.ts](src/generateCrowdinConfig.ts):
 
 ```mermaid
 flowchart TD
