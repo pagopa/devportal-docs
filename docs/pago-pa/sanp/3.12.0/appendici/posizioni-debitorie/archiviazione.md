@@ -5,7 +5,7 @@ Le posizioni debitorie, create tramite integrazione sincrona o asincrona, seguon
 Questo processo si attiva rispettando due regole:
 
 * Stato della posizione: vengono considerate solo le posizioni debitorie _pagate_, _rendicontate_ o _invalidate_ dall'Ente;
-* Calcolo del tempo: la data di partenza per il calcolo delle tempistiche corrisponde sempre alla data dell'ultima modifica della posizione;
+* Calcolo del tempo: la data di partenza per il calcolo delle tempistiche corrisponde sempre alla data dell'ultima modifica della posizione.
 
 Di seguito sono riportati i tempi di archiviazione ed eliminazione suddivisi per modalità di integrazione.
 
