@@ -36,24 +36,16 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v6
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd
 
       - name: Setup Node.JS
-        uses: ./.github/actions/setup-node
-
-      - name: Cache npm dependencies
-        id: cache-npm
-        uses: actions/cache@v5
+        uses: actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e
         with:
-          path: ~/.npm
-          key: ${{ runner.os }}-npm-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: |
-            ${{ runner.os }}-npm-
+          node-version: 24
+          cache: 'npm'
 
       - name: Install dependencies
-        run: |
-          npm config set cache ~/.npm
-          npm ci
+        run: npm ci
 
       - name: Generate docs structure manifest
         env:
@@ -80,7 +72,7 @@ jobs:
         run: npm run generate_file
 
       - name: crowdin action
-        uses: crowdin/github-action@v2
+        uses: crowdin/github-action@8868a33591d21088edfc398968173a3b98d51706
         with:
           upload_sources: true
           upload_translations: false
