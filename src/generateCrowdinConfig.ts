@@ -60,14 +60,7 @@ async function generateCrowdinConfig() {
     );
   }
 
-  // Always include docs-structure.json as a source
-  const files: CrowdinFileEntry[] = [
-    {
-      source: 'docs-structure.json',
-      translation: 'docs/%locale%/_meta/docs-structure.json',
-    },
-    ...buildCrowdinFileEntries(mdFiles),
-  ];
+  const files: CrowdinFileEntry[] = buildCrowdinFileEntries(mdFiles);
 
   const nextConfig: CrowdinConfig = {
     base_path: '.',
