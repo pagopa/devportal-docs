@@ -565,7 +565,23 @@ export async function fetchDirNamesPaths(url: string = DIR_NAMES_URL): Promise<s
     throw new Error(`Expected a "dirNames" array in the payload at ${url}.`);
   }
 
-  return payload.dirNames
-    .map((entry) => `${entry}`.trim())
-    .filter((entry) => entry.length > 0);
+  return payload.dirNames.map((entry, index) => {
+    if (typeof entry !== 'string') {
+      throw new Error(
+        `Invalid "dirNames" entry at index ${index} from ${url}: expected a string but received ${
+          entry === null ? 'null' : typeof entry
+        }.`,
+      );
+    }
+
+    const trimmedEntry = entry.trim();
+
+    if (trimmedEntry.length === 0) {
+      throw new Error(
+        `Invalid "dirNames" entry at index ${index} from ${url}: entry is empty.`,
+      );
+    }
+
+    return trimmedEntry;
+  });
 }
