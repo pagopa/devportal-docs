@@ -17,7 +17,7 @@ L’SRTP è un servizio europeo che consente a un beneficiario (Ente Creditore) 
 
 PagoPA S.p.A. agisce come Service Provider gratuito, semplificando l’integrazione tecnica e operativa con il circuito SRTP.
 
-L’Ente Creditore è tenuto ad alimentare correttamente GPD (Gestioni Posizioni Debitorie) o ACA (Archivio Centralizzato Avvisi) con i dati delle posizioni da incassare tramite la primitiva GPD for ACA e le API di Gestione massiva(cfr.[ SANP](https://developer.pagopa.it/pago-pa/guides/sanp/ente-creditore/modalita-dintegrazione/integrazione-tramite-api-asincrone)).
+L’Ente Creditore è tenuto ad alimentare correttamente GPD (Gestioni Posizioni Debitorie) o ACA (Archivio Centralizzato Avvisi) con i dati delle posizioni da incassare tramite la primitiva GPD for ACA e le API di Gestione massiva (cfr.[ SANP](https://developer.pagopa.it/pago-pa/guides/sanp/ente-creditore/modalita-dintegrazione/integrazione-tramite-api-asincrone)).
 
 Conseguentemente ed esclusivamente sulla base di tutto quanto presente in GPD e in ACA, i codici tassonomici devono essere utilizzati per classificare le tipologie di incasso, come specificato nella Sezione 4.2 ('Struttura Tassonomica') delle SANP; PagoPA S.p.A., si occupa, tecnicamente ed in aderenza allo Standard EPC, e[ secondo le linee guida del comitato pagamenti Italia](https://www.bancaditalia.it/compiti/sispaga-mercati/comitato-pagamenti-italia/), di:
 
