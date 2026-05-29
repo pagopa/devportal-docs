@@ -11,7 +11,7 @@ metaLinks:
 
 Nei seguenti sequence diagram si identifica con l'acronimo GPD il servizio di Gestione Posizioni Debitorie e con APD l'Archivio delle Posizioni Debitorie (base dati).
 
-Per i dettagli [https://developer.pagopa.it/it/pago-pa/api/gestione-posizioni-debitorie](https://developer.pagopa.it/it/pago-pa/api/gestione-posizioni-debitorie).
+Per i dettagli [https://developer.pagopa.it/it/pago-pa/api/gestione-posizioni-debitorie](https://developer.pagopa.it/it/pago-pa/api/gestione-posizioni-debitorie?spec=GPD%20con%20gestione%20opzioni%20di%20pagamento).
 
 Le API prevedono un _rate limit_ cumulativo di 450 richieste ogni 10 secondi.
 
