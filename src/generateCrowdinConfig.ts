@@ -78,6 +78,7 @@ async function generateCrowdinConfig() {
     console.log(`✅ Updated ${CONFIG_FILE}.`);
   } catch (error) {
     console.error('❌ Error saving crowdin.yml.', error);
+    process.exit(1);
   }
 
   const githubOutputPath = process.env.GITHUB_OUTPUT;
