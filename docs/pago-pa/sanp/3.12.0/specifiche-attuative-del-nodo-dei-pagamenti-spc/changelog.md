@@ -36,7 +36,7 @@ Espansione dei servizi di pagamento immediato senza avviso preesistente.
   [Integrazione Servizio SRTP per EC](../appendici/integrazione-servizio-srtp/ec.md)
 * **Gestione Posizioni Debitorie (GPD)**: Implementazione di nuove modalità di archiviazione per ottimizzare le performance del database.\
   [Archiviazione](../appendici/posizioni-debitorie/archiviazione.md)
-* **Rendicontazione e Cashflow**: aumentati rate limiti per i nuovi flussi di rendicontazione e aggiunta sezione confronto SOAP/REST per la gestione delle date.\
+* **Rendicontazione e Cashflow**: aumentati rate limit per i nuovi flussi di rendicontazione e aggiunta sezione confronto SOAP/REST per la gestione delle date.\
   [Rendicontazione e Cashflow](funzionamento-generale/rendicontazione-e-cashflow.md)\
   [Operazioni disponibili](../appendici/posizioni-debitorie/operazioni-disponibili.md)
 
