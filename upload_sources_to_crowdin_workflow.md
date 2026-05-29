@@ -24,7 +24,7 @@ Two inputs drive the behavior:
 - `paths_to_upload` — optional list of docs-relative paths to add/refresh.
 - `paths_to_delete` — optional list of docs-relative paths to remove from the manifest.
 
-Both accept comma-separated, newline-separated, or JSON array values (see [`parseRequestedDocsPaths`](docsStructure.ts#L385-L412)).
+Both accept comma-separated, newline-separated, or JSON array values (see [`parseRequestedDocsPaths`](src/docsStructure.ts#L385-L412)).
 
 ---
 
