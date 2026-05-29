@@ -85,29 +85,33 @@ ts-node-script --project tsconfig.json generateDocStructure.ts
 It runs [generateDocStructure.ts](generateDocStructure.ts), which:
 
 1. Verifies `docs/` exists.
-2. Parses `PATHS_TO_UPLOAD` and `PATHS_TO_DELETE` via [`parseRequestedDocsPaths`](docsStructure.ts#L385-L412) (accepts JSON array, CSV, or newline list).
-3. Calls [`writeDocsStructureManifest`](docsStructure.ts#L519-L538) with those lists.
-4. Logs a summary and exits non-zero on failure.
+2. Parses `PATHS_TO_UPLOAD` and `PATHS_TO_DELETE` via [`parseRequestedDocsPaths`](src/docsStructure.ts) (accepts JSON array, CSV, or newline list).
+3. If both inputs are empty, calls [`fetchDirNamesPaths`](src/docsStructure.ts) to download the canonical path list from `dirNames.json` and flags the run as a rebuild-from-scratch (`rebuildFromSelectedPaths: true`). Aborts with a non-zero exit code if the payload is malformed or empty.
+4. Calls [`writeDocsStructureManifest`](src/docsStructure.ts) with the resolved `selectedPaths`, `pathsToDelete`, and rebuild flag.
+5. Logs a summary and exits non-zero on failure.
 
 #### What `writeDocsStructureManifest` does
 
 ```mermaid
 flowchart TD
-    A[writeDocsStructureManifest] --> B{selected or<br/>delete paths<br/>present?}
-    B -- No --> F[collectDocsData<br/>full rescan of docs/]
-    B -- Yes --> C[readDocsStructureManifest<br/>load existing JSON]
-    C --> D[mergeManifestWithSelectedPaths]
+    A[writeDocsStructureManifest] --> B{rebuildFromSelectedPaths?}
+    B -- Yes --> R[Start from empty root node<br/>tree.docs = empty]
+    B -- No --> C[readDocsStructureManifest<br/>load existing JSON]
+    R --> D[mergeManifestWithSelectedPaths<br/>using dirNames paths]
+    C --> D2[mergeManifestWithSelectedPaths<br/>using user-supplied paths]
     D --> E[insert/update selected nodes<br/>+ delete requested nodes]
-    F --> G[Build manifest object<br/>version + tree.docs]
-    E --> G
+    D2 --> E
+    E --> G[Build manifest object<br/>version + tree.docs]
     G --> H[Write docs-structure.json]
 ```
 
-Key helpers in [docsStructure.ts](docsStructure.ts):
+Note: `collectDocsData` (a full rescan of `docs/`) is still exported but is no longer reached by this workflow — the manifest is always driven by an explicit list of paths (either the user inputs or the `dirNames` fallback).
 
-- [`buildDirectoryNode`](docsStructure.ts#L112-L142) — recursively walks a directory and produces a node tree where each entry has a human-readable `label` (dashes/underscores turned into spaces) and a `directory` flag. Markdown filenames are added to a flat `mdFiles` list.
-- [`collectDocsData`](docsStructure.ts#L443-L461) — full scan: returns both the manifest and the list of all `.md` paths.
-- [`readDocsStructureManifest`](docsStructure.ts#L411-L441) — loads the existing JSON, falling back to an empty root node when the file is missing or malformed.
+Key helpers in [docsStructure.ts](src/docsStructure.ts):
+
+- [`buildDirectoryNode`](src/docsStructure.ts) — recursively walks a directory and produces a node tree where each entry has a human-readable `label` (dashes/underscores turned into spaces) and a `directory` flag. Markdown filenames are added to a flat `mdFiles` list.
+- [`fetchDirNamesPaths`](src/docsStructure.ts) — downloads `dirNames.json` and returns the validated `dirNames` array; throws on non-string or empty entries so a malformed payload fails the workflow fast.
+- [`readDocsStructureManifest`](src/docsStructure.ts) — loads the existing JSON, falling back to an empty root node when the file is missing or malformed.
 - [`mergeManifestWithSelectedPaths`](docsStructure.ts#L319-L382) — for each selected path:
   - Normalizes the path, strips a leading `docs/`, rejects empty / ignored (`.gitbook`) entries.
   - Validates the path stays inside `docs/` and points to a `.md` file or a directory.
@@ -174,19 +178,21 @@ The workflow only commits and pushes when `docs-structure.json` has actually cha
 flowchart TD
     A[Start] --> B{PATHS_TO_UPLOAD<br/>provided?}
     B -- Yes --> C[collectSelectedMarkdownFiles<br/>expand dirs to .md leaves]
-    B -- No --> D[collectDocsData<br/>all .md under docs/]
+    B -- No --> N[fetchDirNamesPaths<br/>download dirNames.json]
+    N --> C
     C --> E[Compose files list:<br/>docs-structure.json<br/>+ buildCrowdinFileEntries]
-    D --> E
     E --> F[yaml.dump → crowdin.yml]
     F --> G{GITHUB_OUTPUT set?}
     G -- Yes --> H[Append found_files=JSON<br/>step output]
     G -- No --> I[Skip output<br/>local run]
 ```
 
+If `dirNames` is unreachable, malformed, or empty the script aborts with a non-zero exit code, so the Crowdin upload never runs against an undefined source set.
+
 Highlights:
 
-- [`collectSelectedMarkdownFiles`](docsStructure.ts#L463-L505) walks each selected path: if it points to a directory it recurses (skipping `.gitbook`), if it points to a `.md` file it just adds it. Paths are normalized so users can pass `docs/foo/bar.md` or `foo/bar.md` interchangeably.
-- [`buildCrowdinFileEntries`](docsStructure.ts#L507-L517) maps each source path to a translation path by injecting `%locale%` after `docs/`. The result looks like:
+- [`collectSelectedMarkdownFiles`](src/docsStructure.ts) walks each path (user-supplied or coming from `dirNames`): if it points to a directory it recurses (skipping `.gitbook`), if it points to a `.md` file it just adds it. Paths are normalized so callers can pass `docs/foo/bar.md` or `foo/bar.md` interchangeably.
+- [`buildCrowdinFileEntries`](src/docsStructure.ts) maps each source path to a translation path by injecting `%locale%` after `docs/`. The result looks like:
 
   ```yaml
   - source: docs/soluzioni/asilo-nido/README.md
@@ -238,6 +244,7 @@ sequenceDiagram
     participant U as User / Caller workflow
     participant GA as GitHub Actions runner
     participant DS as generateDocStructure.ts
+    participant DN as dirNames.json (static bucket)
     participant FS as Filesystem (docs/)
     participant G as Git remote
     participant CC as generateCrowdinConfig.ts
@@ -246,12 +253,22 @@ sequenceDiagram
     U->>GA: Trigger (optionally with paths_to_upload / paths_to_delete)
     GA->>GA: Checkout + Node + npm ci
     GA->>DS: npm run generate_doc_structure
-    DS->>FS: Read docs/ (full or selected paths)
-    DS->>FS: Read existing docs-structure.json
-    DS->>FS: Write merged docs-structure.json
+    alt No explicit inputs
+        DS->>DN: fetchDirNamesPaths()
+        DN-->>DS: dirNames array
+        DS->>FS: Rebuild docs-structure.json from dirNames paths
+    else paths_to_upload / paths_to_delete provided
+        DS->>FS: Read existing docs-structure.json
+        DS->>FS: Merge selected/deleted paths into manifest
+    end
+    DS->>FS: Write docs-structure.json
     GA->>G: Commit + push (only if file changed)
     GA->>CC: npm run generate_file
-    CC->>FS: Collect .md files (full or selected)
+    alt No explicit inputs
+        CC->>DN: fetchDirNamesPaths()
+        DN-->>CC: dirNames array
+    end
+    CC->>FS: Collect .md files reachable from those paths
     CC->>FS: Write crowdin.yml
     CC->>GA: Set found_files step output
     GA->>CR: crowdin-action uploads sources from crowdin.yml
