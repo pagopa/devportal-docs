@@ -73,10 +73,12 @@ function toCrowdinSourcePath(entryPath: string, rootDir: string): string {
 }
 
 function normalizeSelectedPath(selectedPath: string): string {
-  const normalizedPath = toPosixPath(selectedPath.trim()).replace(/^\.\//, '');
+  const normalizedPath = toPosixPath(selectedPath.trim()).replace(/^\.\//, '').replace(/\/+$/, '');
 
-  if (normalizedPath === DOCS_DIR) {
-    return '';
+  if (normalizedPath === '' || normalizedPath === DOCS_DIR) {
+    throw new Error(
+      `The path "${selectedPath}" refers to the "${DOCS_DIR}/" root. Specify a Markdown file or subdirectory, or omit selected paths to perform a full scan.`,
+    );
   }
 
   if (normalizedPath.startsWith(`${DOCS_DIR}/`)) {
@@ -345,7 +347,7 @@ function mergeManifestWithSelectedPaths(
   for (const rawSelectedPath of selectedPaths) {
     const normalizedPath = normalizeSelectedPath(rawSelectedPath);
 
-    if (!normalizedPath || includesIgnoredDirectory(normalizedPath)) {
+    if (includesIgnoredDirectory(normalizedPath)) {
       continue;
     }
 
@@ -374,7 +376,7 @@ function mergeManifestWithSelectedPaths(
   for (const rawPathToDelete of pathsToDelete) {
     const normalizedPath = normalizeSelectedPath(rawPathToDelete);
 
-    if (!normalizedPath || includesIgnoredDirectory(normalizedPath)) {
+    if (includesIgnoredDirectory(normalizedPath)) {
       continue;
     }
 
@@ -498,7 +500,7 @@ export function collectSelectedMarkdownFiles(
   for (const rawSelectedPath of selectedPaths) {
     const normalizedPath = normalizeSelectedPath(rawSelectedPath);
 
-    if (!normalizedPath || includesIgnoredDirectory(normalizedPath)) {
+    if (includesIgnoredDirectory(normalizedPath)) {
       continue;
     }
 
