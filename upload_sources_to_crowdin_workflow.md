@@ -24,7 +24,9 @@ Two inputs drive the behavior:
 - `paths_to_upload` — optional list of docs-relative paths to add/refresh.
 - `paths_to_delete` — optional list of docs-relative paths to remove from the manifest.
 
-Both accept comma-separated, newline-separated, or JSON array values (see [`parseRequestedDocsPaths`](docsStructure.ts#L385-L412)).
+Both accept comma-separated, newline-separated, or JSON array values (see [`parseRequestedDocsPaths`](src/docsStructure.ts)).
+
+When neither input is provided, both scripts fetch the canonical path list from <https://static-contents.developer.pagopa.it/it/dirNames.json> (the `dirNames` array) via `fetchDirNamesPaths`. That list is the source of truth: `docs-structure.json` is rebuilt from scratch with those paths and the Crowdin upload is scoped to the `.md` files reachable from them. The `docs/` directory is no longer scanned wholesale.
 
 ---
 

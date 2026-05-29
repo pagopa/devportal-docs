@@ -21,6 +21,8 @@ The two workflow inputs that control behaviour are:
 
 Both inputs accept a JSON array, a comma-separated list, or one path per line.
 
+When **neither** input is provided, both scripts fall back to the canonical path list published at <https://static-contents.developer.pagopa.it/it/dirNames.json> (the `dirNames` array). That list is treated as the source of truth: `docs-structure.json` is rebuilt from those paths and the Crowdin upload is limited to the `.md` files reachable from them. The `docs/` directory is never scanned wholesale anymore.
+
 ---
 
 ## Scripts
@@ -31,7 +33,7 @@ Entry point: [`generateDocStructure.ts`](generateDocStructure.ts)
 
 Reads `PATHS_TO_UPLOAD` and `PATHS_TO_DELETE` from the environment and writes `docs-structure.json`.
 
-- **Full scan** (no paths provided): walks the entire `docs/` tree and rebuilds the manifest from scratch.
+- **dirNames rebuild** (no inputs provided): fetches `dirNames.json` and rebuilds the manifest from scratch using only those paths. The existing manifest is discarded so anything no longer listed in `dirNames` is dropped.
 - **Incremental update** (`PATHS_TO_UPLOAD` set): loads the existing manifest and merges only the selected nodes into it, creating any missing intermediate directory nodes.
 - **Deletion** (`PATHS_TO_DELETE` set): loads the existing manifest and removes the targeted nodes.
 
@@ -44,7 +46,7 @@ Entry point: [`generateCrowdinConfig.ts`](generateCrowdinConfig.ts)
 Reads `PATHS_TO_UPLOAD` from the environment and writes `crowdin.yml`.
 
 - When `PATHS_TO_UPLOAD` is set, only the `.md` files under the selected paths are included.
-- When it is empty, all `.md` files under `docs/` are included.
+- When it is empty, the script fetches `dirNames.json` and includes the `.md` files reachable from those paths.
 - `docs-structure.json` is always prepended to the files list so translators can translate folder/file labels.
 - When running on GitHub Actions (`GITHUB_OUTPUT` is set), the script also exposes a `found_files` step output containing a JSON array of the collected markdown paths.
 
@@ -65,6 +67,7 @@ All tree-walking, merging, and path-normalisation logic lives in [`docsStructure
 | `deleteSelectedNode` | Removes a node (and its subtree) from the manifest. |
 | `buildCrowdinFileEntries` | Maps source `.md` paths to Crowdin `source`/`translation` pairs, injecting `%locale%` after `docs/`. |
 | `parseRequestedDocsPaths` | Parses a JSON array, CSV, or newline-separated string into a `string[]`. |
+| `fetchDirNamesPaths` | Fetches the canonical `dirNames` array from `DIR_NAMES_URL` and returns it as `string[]`. |
 
 ---
 

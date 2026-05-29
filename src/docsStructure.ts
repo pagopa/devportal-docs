@@ -5,6 +5,7 @@ export const DOCS_DIR = 'docs';
 export const CONFIG_FILE = 'crowdin.yml';
 export const DOCS_STRUCTURE_FILE = 'docs-structure.json';
 export const DOCS_STRUCTURE_TRANSLATION_PATH = `${DOCS_DIR}/%locale%/_meta/docs-structure.json`;
+export const DIR_NAMES_URL = 'https://static-contents.developer.pagopa.it/it/dirNames.json';
 
 const IGNORED_DIRECTORY_NAMES = new Set(['.gitbook']);
 
@@ -28,6 +29,7 @@ export interface WriteDocsStructureManifestOptions {
   selectedPaths?: string[];
   pathsToDelete?: string[];
   existingManifestPath?: string;
+  rebuildFromSelectedPaths?: boolean;
 }
 
 function toPosixPath(filePath: string): string {
@@ -532,15 +534,38 @@ export function writeDocsStructureManifest(
 ): DocsStructureManifest {
   const selectedPaths = options.selectedPaths ?? [];
   const pathsToDelete = options.pathsToDelete ?? [];
+  const rootName = path.basename(rootDir);
+  const baseManifest: DocsStructureManifest = options.rebuildFromSelectedPaths
+    ? {
+        version: 1,
+        tree: { [rootName]: createEmptyRootNode(rootDir) },
+      }
+    : readDocsStructureManifest(options.existingManifestPath ?? outputPath, rootDir);
+
   const manifest = selectedPaths.length > 0 || pathsToDelete.length > 0
-    ? mergeManifestWithSelectedPaths(
-        readDocsStructureManifest(options.existingManifestPath ?? outputPath, rootDir),
-        selectedPaths,
-        pathsToDelete,
-        rootDir,
-      )
+    ? mergeManifestWithSelectedPaths(baseManifest, selectedPaths, pathsToDelete, rootDir)
     : collectDocsData(rootDir).manifest;
 
   fs.writeFileSync(outputPath, `${JSON.stringify(manifest, null, 2)}\n`, 'utf8');
   return manifest;
+}
+
+export async function fetchDirNamesPaths(url: string = DIR_NAMES_URL): Promise<string[]> {
+  const response = await fetch(url);
+
+  if (!response.ok) {
+    throw new Error(
+      `Failed to fetch dirNames from ${url}: ${response.status} ${response.statusText}`,
+    );
+  }
+
+  const payload = (await response.json()) as { dirNames?: unknown };
+
+  if (!Array.isArray(payload.dirNames)) {
+    throw new Error(`Expected a "dirNames" array in the payload at ${url}.`);
+  }
+
+  return payload.dirNames
+    .map((entry) => `${entry}`.trim())
+    .filter((entry) => entry.length > 0);
 }
