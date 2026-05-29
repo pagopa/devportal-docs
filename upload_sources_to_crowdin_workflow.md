@@ -11,8 +11,8 @@ The workflow uploads Markdown source files from `docs/` (plus a `docs-structure.
 ```mermaid
 flowchart TD
     A[Trigger: workflow_dispatch or workflow_call] --> B[Checkout repo]
-    B --> C[Setup Node.js]
-    C --> D[Cache + install npm deps]
+    B --> C[Setup Node.js<br/>with built-in npm cache]
+    C --> D[Install npm deps<br/>npm ci]
     D --> E[generate_doc_structure<br/>updates docs-structure.json]
     E --> F[Commit docs-structure.json<br/>if changed]
     F --> G[generate_file<br/>writes crowdin.yml]
@@ -47,24 +47,22 @@ flowchart LR
 
 ## 3. Step-by-step breakdown
 
-### 3.1 Checkout + Node setup + dependency cache
+### 3.1 Checkout + Node setup + install
 
 ```yaml
-- uses: actions/checkout@v6
-- uses: ./.github/actions/setup-node
-- uses: actions/cache@v5
+- uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd
+- uses: actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e
   with:
-    path: ~/.npm
-    key: ${{ runner.os }}-npm-${{ hashFiles('**/package-lock.json') }}
+    node-version: 24
+    cache: 'npm'
 - run: npm ci
 ```
 
 Standard preparation:
 
-1. Check out the branch that triggered the workflow.
-2. Run the local composite action `setup-node` (Node version pinned for the project).
-3. Restore the npm cache keyed on `package-lock.json`, so unchanged lockfiles skip a full install.
-4. `npm ci` installs the exact dependency tree required by the TypeScript scripts (`ts-node`, `typescript`, `js-yaml`, `@types/*`).
+1. Check out the branch that triggered the workflow. The action is pinned by commit SHA.
+2. Set up Node.js 24 using `actions/setup-node` (also pinned by SHA). The `cache: 'npm'` option enables the action's built-in npm cache keyed on `package-lock.json`, so unchanged lockfiles skip a full install — no separate `actions/cache` step is needed.
+3. `npm ci` installs the exact dependency tree required by the TypeScript scripts (`ts-node`, `typescript`, `js-yaml`, `@types/*`).
 
 ### 3.2 Generate the docs structure manifest
 
@@ -76,13 +74,13 @@ Standard preparation:
   run: npm run generate_doc_structure
 ```
 
-`npm run generate_doc_structure` is defined in [package.json](package.json#L8-L11) as:
+`npm run generate_doc_structure` is defined in [package.json](package.json#L10-L10) as:
 
 ```text
-ts-node-script --project tsconfig.json generateDocStructure.ts
+ts-node-script --project tsconfig.json src/generateDocStructure.ts
 ```
 
-It runs [generateDocStructure.ts](generateDocStructure.ts), which:
+It runs [src/generateDocStructure.ts](src/generateDocStructure.ts), which:
 
 1. Verifies `docs/` exists.
 2. Parses `PATHS_TO_UPLOAD` and `PATHS_TO_DELETE` via [`parseRequestedDocsPaths`](src/docsStructure.ts) (accepts JSON array, CSV, or newline list).
@@ -112,11 +110,11 @@ Key helpers in [docsStructure.ts](src/docsStructure.ts):
 - [`buildDirectoryNode`](src/docsStructure.ts) — recursively walks a directory and produces a node tree where each entry has a human-readable `label` (dashes/underscores turned into spaces) and a `directory` flag. Markdown filenames are added to a flat `mdFiles` list.
 - [`fetchDirNamesPaths`](src/docsStructure.ts) — downloads `dirNames.json` and returns the validated `dirNames` array; throws on non-string or empty entries so a malformed payload fails the workflow fast.
 - [`readDocsStructureManifest`](src/docsStructure.ts) — loads the existing JSON, falling back to an empty root node when the file is missing or malformed.
-- [`mergeManifestWithSelectedPaths`](docsStructure.ts#L319-L382) — for each selected path:
+- [`mergeManifestWithSelectedPaths`](src/docsStructure.ts) — for each selected path:
   - Normalizes the path, strips a leading `docs/`, rejects empty / ignored (`.gitbook`) entries.
   - Validates the path stays inside `docs/` and points to a `.md` file or a directory.
-  - Builds a node from the filesystem ([`createNodeFromSelectedEntry`](docsStructure.ts#L212-L222)) and inserts it into the existing tree via [`insertSelectedNode`](docsStructure.ts#L224-L268), creating missing intermediate directory nodes on the fly and merging children via [`mergeNodes`](docsStructure.ts#L185-L210).
-  - For deletions, [`deleteSelectedNode`](docsStructure.ts#L270-L296) walks down the tree and removes the targeted child.
+  - Builds a node from the filesystem ([`createNodeFromSelectedEntry`](src/docsStructure.ts)) and inserts it into the existing tree via [`insertSelectedNode`](src/docsStructure.ts), creating missing intermediate directory nodes on the fly and merging children via [`mergeNodes`](src/docsStructure.ts).
+  - For deletions, [`deleteSelectedNode`](src/docsStructure.ts) walks down the tree and removes the targeted child.
 - Finally `JSON.stringify(manifest, null, 2)` is written to `docs-structure.json` with a trailing newline.
 
 #### Manifest shape
@@ -172,7 +170,7 @@ The workflow only commits and pushes when `docs-structure.json` has actually cha
   run: npm run generate_file
 ```
 
-`npm run generate_file` runs [generateCrowdinConfig.ts](src/generateCrowdinConfig.ts):
+`npm run generate_file` runs [src/generateCrowdinConfig.ts](src/generateCrowdinConfig.ts):
 
 ```mermaid
 flowchart TD
@@ -214,7 +212,7 @@ Highlights:
 ### 3.5 Upload to Crowdin
 
 ```yaml
-- uses: crowdin/github-action@v2
+- uses: crowdin/github-action@8868a33591d21088edfc398968173a3b98d51706
   with:
     upload_sources: true
     upload_translations: false
@@ -228,7 +226,7 @@ Highlights:
     CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
 ```
 
-The official Crowdin action reads the freshly generated `crowdin.yml` and:
+The official Crowdin action (pinned by commit SHA) reads the freshly generated `crowdin.yml` and:
 
 - Uploads every file listed under `files:` as a source string set.
 - Auto-approves imported strings so existing translations get reused immediately.
@@ -281,9 +279,9 @@ sequenceDiagram
 | Concern | Location |
 | --- | --- |
 | Workflow definition | [.github/workflows/upload_sources_to_crowdin.yml](.github/workflows/upload_sources_to_crowdin.yml) |
-| Manifest entry point | [generateDocStructure.ts](src/generateDocStructure.ts) |
-| Crowdin config entry point | [generateCrowdinConfig.ts](src/generateCrowdinConfig.ts) |
-| Shared helpers (tree walk, merge, parsing) | [docsStructure.ts](src/docsStructure.ts) |
+| Manifest entry point | [src/generateDocStructure.ts](src/generateDocStructure.ts) |
+| Crowdin config entry point | [src/generateCrowdinConfig.ts](src/generateCrowdinConfig.ts) |
+| Shared helpers (tree walk, merge, parsing) | [src/docsStructure.ts](src/docsStructure.ts) |
 | Generated manifest | `docs-structure.json` |
-| Generated Crowdin config | [crowdin.yml](crowdin.yml) |
-| npm scripts | [package.json](package.json#L8-L11) |
+| Generated Crowdin config | `crowdin.yml` |
+| npm scripts | [package.json](package.json#L10-L11) |
