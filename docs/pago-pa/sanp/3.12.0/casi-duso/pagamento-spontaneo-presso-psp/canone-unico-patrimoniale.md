@@ -8,13 +8,13 @@ La società soggetta al predetto Canone (di seguito denominata “Corporate”),
 * effettuare un'“autodichiarazione” di quanto dovuto ad ogni singolo Ente;
 * effettuare il versamento tramite la piattaforma pagoPA.
 
-L’esecuzione del pagamento del CUP, pertanto, rappresenta un caso d'uso di[ pagamento spontaneo](https://developer.pagopa.it/it/pago-pa/guides/sanp/3.11.0/casi-duso/pagamento-spontaneo-presso-psp) attivato dal touchpoint del PSP.
+L’esecuzione del pagamento del CUP, pertanto, rappresenta un caso d'uso di[ pagamento spontaneo](https://developer.pagopa.it/it/pago-pa/guides/sanp/3.12.0/casi-duso/pagamento-spontaneo-presso-psp) attivato dal touchpoint del PSP.
 
 Il nuovo processo mira a snellire e velocizzare il flusso operativo, eliminando un passaggio superfluo da parte della Corporate verso PagoPA per la creazione delle posizioni debitorie. In tal ottica, sfruttando il modello di pagamento spontaneo già presente sulla piattaforma pagoPA, la Corporate affida al PSP l'intero onere di gestire il flusso di creazione della posizione e del relativo pagamento.
 
 Il seguente diagramma delinea il suddetto processo:
 
-<figure><img src="../../.gitbook/assets/Screenshot 2026-05-25 alle 15.11.34.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2026-05-29 alle 12.14.46.png" alt=""><figcaption></figcaption></figure>
 
 1. Il PSP riceve dalla Corporate i dati necessari per effettuare il versamento:
    1. codice fiscale o codice territoriale dell’Ente beneficiario;
