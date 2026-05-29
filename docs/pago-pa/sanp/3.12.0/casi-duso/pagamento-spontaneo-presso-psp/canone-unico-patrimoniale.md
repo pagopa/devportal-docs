@@ -17,11 +17,12 @@ Il seguente diagramma delinea il suddetto processo:
 <figure><img src="../../.gitbook/assets/Screenshot 2026-05-29 alle 12.14.46.png" alt=""><figcaption></figcaption></figure>
 
 1. Il PSP riceve dalla Corporate i dati necessari per effettuare il versamento:
-   1. codice fiscale o codice territoriale dell’Ente beneficiario;
-   2. dati anagrafici della Corporate;
-   3. importo.
-2.  La[ demandPaymentNotice](https://developer.pagopa.it/it/pago-pa/guides/sanp/3.10.0/appendici/primitive#demandpaymentnotice) viene utilizzata dal PSP per trasmettere i dati specifici forniti dalla Corporate.\
-    Di seguito un esempio della struttura che deve transitare tramite l’elemento `datiSpecificiServizio` in formato base64.<br>
+   a. codice fiscale o codice territoriale dell’Ente beneficiario;
+   b. dati anagrafici della Corporate;
+   c. importo.
+2. La[ demandPaymentNotice](https://developer.pagopa.it/it/pago-pa/guides/sanp/3.10.0/appendici/primitive#demandpaymentnotice) viene utilizzata dal PSP per trasmettere i dati specifici forniti dalla Corporate. \
+
+Di seguito un esempio della struttura che deve transitare tramite l’elemento `datiSpecificiServizio` in formato base64.<br>
 
 ```
 <pagamentoCup>
@@ -34,11 +35,11 @@ Il seguente diagramma delinea il suddetto processo:
 </pagamentoCup>
 ```
 La specifica XSD è presente al seguente[ url](https://github.com/pagopa/pagopa-api/pull/1108/changes). <br>
-
 Per la corretta compilazione, è necessario attenersi alle seguenti regole di business:
-    1. Il blocco `<choice>` impone l'invio di uno solo dei tre identificativi previsti (codice fiscale, codice ISTAT o codice catasto).
-    2. Il campo `<debtorEmail>` è opzionale. Qualora la Corporate decida di valorizzarlo, dovrà essere inserito esclusivamente un indirizzo email aziendale (a scopo esemplificativo l’email deve essere [info@corporate.xx](mailto:info@corporate.xx) e non indirizzo personale [nome.cognome@corporate.xx](mailto:nome.cognome@corporate.xx)).
+- Il blocco `<choice>` impone l'invio di uno solo dei tre identificativi previsti (codice fiscale, codice ISTAT o codice catasto).
+- Il campo `<debtorEmail>` è opzionale. Qualora la Corporate decida di valorizzarlo, dovrà essere inserito esclusivamente un indirizzo email aziendale (a scopo esemplificativo l’email deve essere [info@corporate.xx](mailto:info@corporate.xx) e non indirizzo personale [nome.cognome@corporate.xx](mailto:nome.cognome@corporate.xx)).
 
 3. Il PSP procede con il pagamento della posizione debitoria i cui riferimenti sono forniti nella risposta della[ demandPaymentNotice](https://developer.pagopa.it/it/pago-pa/guides/sanp/3.10.0/appendici/primitive#demandpaymentnotice).
-
 4. Il PSP fornisce la ricevuta di pagamento alla Corporate.
+   
+   
