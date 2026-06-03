@@ -15,9 +15,9 @@
 ## COME CONFIGURARE E GESTIRE IL SERVIZIO
 
 * [Flusso operativo](come-configurare-e-gestire-il-servizio/flusso-operativo.md)
-* [Onboarding Ambiente di Collaudo (UAT)](come-configurare-e-gestire-il-servizio/onboarding-ambiente-di-collaudo-uat.md)
-* [Copy of Onboarding Ambiente di Collaudo (UAT)](come-configurare-e-gestire-il-servizio/copy-of-onboarding-ambiente-di-collaudo-uat/README.md)
-  * [Configurazione Servizio - Credenziali](come-configurare-e-gestire-il-servizio/copy-of-onboarding-ambiente-di-collaudo-uat/configurazione-servizio-credenziali.md)
+* [Onboarding Ambiente di Collaudo (UAT)](come-configurare-e-gestire-il-servizio/onboarding-ambiente-di-collaudo-uat/README.md)
+  * [EndPoint e Deep link](come-configurare-e-gestire-il-servizio/onboarding-ambiente-di-collaudo-uat/endpoint-e-deep-link.md)
+  * [Credenziali](come-configurare-e-gestire-il-servizio/onboarding-ambiente-di-collaudo-uat/credenziali.md)
 * [Navigazione del servizio su Prod e Collaudo](come-configurare-e-gestire-il-servizio/navigazione-del-servizio-su-prod-e-collaudo.md)
 * [Ambiente di Produzione](come-configurare-e-gestire-il-servizio/ambiente-di-produzione.md)
 
@@ -25,5 +25,6 @@
 
 ***
 
+* [BACKUP Onboarding Ambiente di Collaudo (UAT)](backup-onboarding-ambiente-di-collaudo-uat.md)
 * [Come completare l'onboarding del PSP](come-completare-lonboarding-del-psp.md)
 * [Accesso in modalità Single Sign-On (SSO)](accesso-in-modalita-single-sign-on-sso.md)

@@ -1,8 +1,17 @@
-# Configurazione Servizio - Credenziali
+# Credenziali
 
-### Credenziali di accesso
+### Configurazione del servizio - Credenziali di accesso
 
-La sezione **“Credenziali di accesso”** contiene i parametri necessari affinché pagoPA possa autenticarsi verso i sistemi del PSP in modalità sicura.
+La sezione **“Credenziali”** rappresenta il secondo step della configurazione del servizio "**Messaggi di Cortesia**" e consente al PSP di configurare i parametri necessari all’autenticazione delle chiamate verso i propri sistemi applicativi. La schermata permette di definire:
+
+* credenziali OAuth2;
+* grant type utilizzato;
+* parametri aggiuntivi nel body della richiesta;
+* parametri aggiuntivi nell’URL di autenticazione.
+
+
+
+Di seguito i campi dettagliati
 
 {% tabs %}
 {% tab title="Client ID *" %}
@@ -82,111 +91,79 @@ Il valore risulta preconfigurato e non modificabile dall’utente.
 
 
 
-## 7.X.2 Parametri aggiuntivi (Body)
+**Parametri aggiuntivi (Body)**
 
-La sezione **“Parametri aggiuntivi (Body)”** consente di configurare eventuali parametri personalizzati richiesti dal sistema del PSP durante la richiesta di rilascio del token OAuth2.
+La sezione consente di configurare eventuali parametri personalizzati richiesti dal sistema del PSP durante la richiesta di rilascio del token OAuth2.
 
 I parametri vengono inviati nel body della richiesta HTTP verso l’endpoint di autenticazione.
 
-***
-
-### Nome
-
-#### Descrizione
+{% tabs %}
+{% tab title="Nome" %}
+**Descrizione**
 
 Nome del parametro custom richiesto dal provider OAuth2.
 
-#### Esempi
+**Esempi**
 
 ```
-scope
+scope, audience
 ```
+{% endtab %}
 
-```
-audience
-```
-
-***
-
-### Valore
-
-#### Descrizione
+{% tab title="Valore" %}
+**Descrizione**
 
 Valore associato al parametro custom.
 
-#### Esempi
+**Esempi**
 
 ```
-messages.write
+messages.write, mdc-api
 ```
-
-```
-mdc-api
-```
-
-***
-
-### Aggiungi parametro body
-
-#### Descrizione
-
-Funzione che consente di aggiungere ulteriori parametri custom nel body della richiesta OAuth2.
-
-#### Comportamento
+{% endtab %}
+{% endtabs %}
 
 Ad ogni selezione viene aggiunta una nuova riga configurabile.
 
-***
+**Parametri aggiuntivi (URL)**
 
-## 7.X.3 Parametri aggiuntivi (URL)
-
-La sezione **“Parametri aggiuntivi (URL)”** consente di configurare parametri extra da aggiungere all’URL dell’endpoint di autenticazione.
+La sezione consente di configurare parametri extra da aggiungere all’URL dell’endpoint di autenticazione.
 
 I parametri vengono inviati come query parameter della chiamata HTTP.
 
-***
 
-### Nome
 
-#### Descrizione
+{% tabs %}
+{% tab title="Nome" %}
+**Descrizione**
 
-Nome del parametro URL richiesto dal provider OAuth2.
+Nome del parametro custom richiesto dal provider OAuth2.
 
-#### Esempio
+**Esempi**
 
 ```
 tenant_id
 ```
+{% endtab %}
 
-***
-
-### Valore
-
-#### Descrizione
+{% tab title="Valore" %}
+**Descrizione**
 
 Valore associato al parametro URL.
 
-#### Esempio
+**Esempi**
 
 ```
 tenant-mdc-uat
 ```
-
-***
+{% endtab %}
+{% endtabs %}
 
 ### Aggiungi parametro URL
 
-#### Descrizione
-
-Funzione che consente di aggiungere ulteriori parametri URL.
-
-#### Comportamento
-
 Ad ogni selezione viene aggiunta una nuova riga configurabile.
 
-***
-
-## 7.X.4 Azione “Completa configurazione”
+## “Completa configurazione”
 
 Il pulsante **“Completa configurazione”** consente di:
 
@@ -218,7 +195,7 @@ In caso di validazione corretta:
 
 ***
 
-## 7.X.5 Azione “Indietro”
+## Azione “Indietro”
 
 Il pulsante **“Indietro”** consente di:
 
@@ -226,17 +203,17 @@ Il pulsante **“Indietro”** consente di:
 * modificare la configurazione precedentemente inserita;
 * mantenere i dati già valorizzati nella sessione corrente.
 
-mi generi anche per questa maschera dei campi validi che posso utilizzare per procedere
+
 
 ### Valori di esempio validi – Configurazione Credenziali
 
 Di seguito vengono riportati alcuni esempi di valori validi utilizzabili in ambiente di collaudo/UAT per completare la configurazione delle credenziali del servizio Messaggi di Cortesia.
 
-> Nota: i valori riportati sono esclusivamente esempi documentali e non devono essere utilizzati in ambiente di produzione.
+{% hint style="info" %}
+[i valori riportati sono esclusivamente esempi documentali e non devono essere utilizzati in ambiente di produzione.](#user-content-fn-1)[^1]
+{% endhint %}
 
-***
-
-## 1. Credenziali di accesso
+**Credenziali di accesso**
 
 | Campo         | Valore di esempio    |
 | ------------- | -------------------- |
@@ -244,100 +221,55 @@ Di seguito vengono riportati alcuni esempi di valori validi utilizzabili in ambi
 | Client Secret | `X7f9!kLmP2#Qa8`     |
 | Grant type    | `client_credentials` |
 
-***
+**Parametri aggiuntivi (Body)**
 
-## 2. Parametri aggiuntivi (Body)
-
-### Esempio 1 — Scope OAuth2
+**Esempio 1**
 
 | Nome  | Valore           |
 | ----- | ---------------- |
 | scope | `messages.write` |
 
-***
-
-### Esempio 2 — Audience API
+**Esempio 2**
 
 | Nome     | Valore    |
 | -------- | --------- |
 | audience | `mdc-api` |
 
-***
-
-### Esempio 3 — Environment
+**Esempio 3**
 
 | Nome        | Valore |
 | ----------- | ------ |
 | environment | `uat`  |
 
-***
+**Parametri aggiuntivi (URL)**
 
-## 3. Parametri aggiuntivi (URL)
-
-### Esempio 1 — Tenant identificativo
+**Esempio 1 - Tenant identificativo**
 
 | Nome       | Valore           |
 | ---------- | ---------------- |
 | tenant\_id | `tenant-mdc-uat` |
 
-***
-
-### Esempio 2 — Realm OAuth
+**Esempio 2 - Realm OAuth**
 
 | Nome  | Valore       |
 | ----- | ------------ |
 | realm | `pagopa-uat` |
 
-***
-
-### Esempio 3 — Versione API
+**Esempio 3 - Versione API**
 
 | Nome        | Valore |
 | ----------- | ------ |
 | api-version | `v1`   |
 
-***
-
-## 4. Esempio completo compilazione schermata
+**Esempio  - Body HTTP**
 
 ```
-Client ID:mdc-psp-client-uatClient Secret:X7f9!kLmP2#Qa8Grant type:client_credentials
+{"grant_type": "client_credentials", 
+ "client_id": "mdc-psp-client-uat",  
+ "client_secret": "X7f9!kLmP2#Qa8", 
+ "scope": "messages.write", 
+"audience": "mdc-api", 
+"environment": "uat"}
 ```
 
-***
-
-### Parametri aggiuntivi (Body)
-
-| Nome        | Valore         |
-| ----------- | -------------- |
-| scope       | messages.write |
-| audience    | mdc-api        |
-| environment | uat            |
-
-***
-
-### Parametri aggiuntivi (URL)
-
-| Nome        | Valore         |
-| ----------- | -------------- |
-| tenant\_id  | tenant-mdc-uat |
-| realm       | pagopa-uat     |
-| api-version | v1             |
-
-***
-
-## 5. Esempio realistico richiesta OAuth2 risultante
-
-### Endpoint autenticazione
-
-```
-https://uat-auth.psp-demo.it/oauth2/token?tenant_id=tenant-mdc-uat&realm=pagopa-uat&api-version=v1
-```
-
-***
-
-### Body HTTP
-
-```
-{  "grant_type": "client_credentials",  "client_id": "mdc-psp-client-uat",  "client_secret": "X7f9!kLmP2#Qa8",  "scope": "messages.write",  "audience": "mdc-api",  "environment": "uat"}
-```
+[^1]: 

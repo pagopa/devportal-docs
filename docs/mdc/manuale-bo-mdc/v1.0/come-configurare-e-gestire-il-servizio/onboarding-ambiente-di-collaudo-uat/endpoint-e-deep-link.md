@@ -1,28 +1,25 @@
-# Copy of Onboarding Ambiente di Collaudo (UAT)
+# EndPoint e Deep link
 
-L'onboarding in ambiente UAT è il primo passo operativo e permette di verificare la configurazione tecnica prima da replicarla in produzione. Si tratta di un ambiente di test: tutti i dati inseriti NON devono essere reali.
+### Configurazione Endpoint
 
-{% hint style="warning" %}
-In ambiente di Collaudo (UAT) è sempre presente un banner in cima alla pagina con il messaggio 'Attenzione: i dati non devono essere reali'. Utilizzare esclusivamente dati di test.
-{% endhint %}
+La sezione "**Endpoint e Deep link”** rappresenta il primo step della configurazione del servizio "**Messaggi di Cortesia**"  e permette di configurare gli URL che pagoPA utilizzerà per l’invio dei messaggi di cortesia destinati agli utenti.
 
-### Configurazione del servizio - Endopoint e Deep Link
+La schermata permette di definire:
 
-La sezione "**Configurazione del Servizio**" viene attivata nel momento in cui un Ente/PSP accede per la prima volta al BackOffice in un determinato ambiente (Collaudo o Produzione) e non risulta ancora registrato.&#x20;
+* URL per ricezione messaggi di cortesia (webhook)
+* URL di autenticazione
+* Tipo di autenticazione (OAuth2)
 
-La maschera consente di configurare gli endpoint necessari alla ricezione dei Messaggi di Cortesia e gli eventuali deep link utilizzati per il reindirizzamento dell’utente verso l’applicazione di pagamento. La configurazione è suddivisa in due step, visibili nella barra di progressione in alta nella pagina:
+Deep Link:
 
-* **Step 1  - Configurazione Endpoint**
-* **Step 2  - Configurazione Deep link**
+* Android
+* iOS
+* Web
 
-<figure><img src="../../.gitbook/assets/Backoffice_uat_config-deeplink.png" alt=""><figcaption></figcaption></figure>
+#### <mark style="color:blue;">Endpoint</mark>
 
-### Step 1 -  Configurazione Endpoint
-
-La sezione **“Configurazione endpoint”** permette di configurare gli URL che pagoPA utilizzerà per l’invio dei messaggi di cortesia destinati agli utent.
-
-<mark style="color:$info;">**URL per ricezione messaggi di cortesia (webhook) \***</mark>
-
+{% tabs %}
+{% tab title="URL per ricezione messaggi di cortesia (webhook) *" %}
 **Descrizione**\
 Campo obbligatorio che identifica l’endpoint HTTPS esposto dal PSP per la ricezione dei messaggi di cortesia tramite meccanismo webhook.
 
@@ -49,11 +46,9 @@ https://api.psp.it/mdc/webhook
 * “Campo obbligatorio”
 * URL non valido
 * Endpoint non raggiungibile
+{% endtab %}
 
-***
-
-<mark style="color:purple;">**URL di autenticazione \***</mark>
-
+{% tab title="URL di autenticazione *" %}
 **Descrizione**\
 Campo obbligatorio utilizzato per configurare l’endpoint OAuth2 necessario all’autenticazione delle chiamate verso il PSP.
 
@@ -77,11 +72,9 @@ https://auth.psp.it/oauth/token
 
 * “Campo obbligatorio”
 * URL non valido
+{% endtab %}
 
-***
-
-<mark style="color:purple;">**Tipo di autenticazione**</mark>
-
+{% tab title="Tipo di autenticazione" %}
 **Descrizione**\
 Campo informativo che indica il protocollo di autenticazione utilizzato dal sistema.
 
@@ -93,8 +86,10 @@ OAuth2
 
 **Nota operativa**\
 Il valore risulta preconfigurato e non modificabile dall’utente.
+{% endtab %}
+{% endtabs %}
 
-### Step 2 -  Configurazione Deep link
+### <mark style="color:blue;">Deep link</mark>
 
 La configurazione del Deep link è necessaria per reindirizzare l'utente all'app del PSP per il pagamento. Sono disponibili due modalità selezionabili con il radio button.
 
@@ -109,7 +104,7 @@ La sezione **“Configurazione deep link app”** consente di configurare i deep
 * deep link universale;
 * deep link specifico per sistema operativo.
 
-#### <mark style="color:purple;background-color:purple;">Deep link universale</mark>
+#### <mark style="background-color:purple;">Deep link universale</mark>
 
 **Descrizione**\
 Opzione utilizzata per definire un unico schema di redirect valido per tutti i sistemi operativi supportati.
@@ -119,9 +114,7 @@ Opzione utilizzata per definire un unico schema di redirect valido per tutti i s
 * il medesimo URL viene utilizzato indipendentemente dalla piattaforma utente;
 * semplifica la gestione delle configurazioni multi-device.
 
-***
-
-#### <mark style="color:purple;">Deep link specifico per SO</mark>
+#### Deep link specifico per SO
 
 **Descrizione**\
 Opzione che consente di definire deep link differenti in funzione del sistema operativo utilizzato dall’utente.
@@ -139,98 +132,44 @@ Nella schermata in esame risulta selezionata l’opzione:
 Deep link specifico per SO
 ```
 
-***
+#### Configurazione Android e iOS
 
-#### <mark style="color:purple;">Configurazione Android</mark>
-
-<mark style="color:purple;">Versione fallbackLink</mark>
-
+{% tabs %}
+{% tab title="Versione fallbackLink" %}
 **Descrizione**\
 Campo utilizzato per identificare la versione/configurazione del fallback link Android.
 
 **Nota**\
 Il campo può essere valorizzato secondo le convenzioni applicative del PSP.
+{% endtab %}
 
-***
-
-#### <mark style="color:purple;">URL Redirect \*</mark>
-
+{% tab title="URL Redirect *" %}
 **Descrizione**\
 URL utilizzato per il redirect dell’utente verso l’applicazione Android del PSP.
 
 **Esempio**
 
 ```
-pspapp://payment
+pspapp://payment o pspappios://payment
 ```
 
 oppure
 
 ```
-https://app.psp.it/android/payment
+https://app.psp.it/android/payment o https://app.psp.it/ios/payment
 ```
 
 **Possibili errori**
 
 * URL non valido
 * Schema deeplink non riconosciuto
+{% endtab %}
 
-***
-
-#### Aggiungi versione
-
+{% tab title="Versione" %}
 **Descrizione**\
-Funzione che consente di aggiungere ulteriori configurazioni/versioni del deep link Android.
-
-### Configurazione iOS
-
-#### Versione fallbackLink
-
-Campo equivalente alla configurazione Android per ambiente iOS.
-
-***
-
-#### URL Redirect \*
-
-URL utilizzato per il redirect verso l’applicazione iOS del PSP.
-
-**Esempio**
-
-```
-pspappios://payment
-```
-
-***
-
-#### Aggiungi versione
-
-Consente di aggiungere ulteriori configurazioni/versioni del deep link iOS.
-
-***
-
-**Configurazione Web**
-
-#### Versione fallbackLink
-
-Campo utilizzato per identificare la configurazione fallback web.
-
-#### URL Redirect
-
-URL utilizzato per il redirect dell’utente verso applicazioni o pagine web del PSP.
-
-**Esempio**
-
-```
-https://pay.psp.it/payment
-```
-
-***
-
-#### Aggiungi versione
-
-Consente di aggiungere configurazioni aggiuntive per il canale Web.
-
-***
+Funzione che consente di aggiungere ulteriori configurazioni/versioni del deep link Android o iOS
+{% endtab %}
+{% endtabs %}
 
 Dopo aver compilato tutti i campi necessari, cliccando sul pulsante "Continua", il sistema valida i dati inseriti e avanza alla fase successiva di compilazione della wizard successiva relativa alle&#x20;
 
@@ -255,8 +194,6 @@ In caso di validazione corretta:
 
 Di seguito un lista di valori come esempio:
 
-
-
 | Campo                                            | Valore                                               |
 | ------------------------------------------------ | ---------------------------------------------------- |
 | URL per ricezione messaggi di cortesia (webhook) | https://uat-api.psp-demo.it/mdc/v1/messages/webhook  |
@@ -268,15 +205,3 @@ Di seguito un lista di valori come esempio:
 | iOS - URL Redirect:                              | https://uat-app.psp-demo.it/ios/payment/callback     |
 | Web - Versione fallbackLink:                     | 1.0.0                                                |
 | Web - URL Redirect:                              | https://uat-pay.psp-demo.it/payment/redirect         |
-
-### Configurazione del servizio - Credenziali
-
-La sezione **“Credenziali”** rappresenta il secondo step della configurazione del servizio "**Messaggi di Cortesia**" e consente al PSP di configurare i parametri necessari all’autenticazione delle chiamate verso i propri sistemi applicativi. La schermata permette di definire:
-
-* credenziali OAuth2;
-* grant type utilizzato;
-* parametri aggiuntivi nel body della richiesta;
-* parametri aggiuntivi nell’URL di autenticazione.
-
-
-

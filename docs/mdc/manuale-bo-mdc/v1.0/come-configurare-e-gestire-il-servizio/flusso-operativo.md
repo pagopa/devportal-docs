@@ -21,7 +21,7 @@ Il flusso descrive:
 
 * [Fase 1 - Accesso all'Area Riservata](../come-accedere-al-backoffice/accesso-area-riservata.md)
 * [Fase 2 – Accesso Panaromica](../come-accedere-al-backoffice/accesso-panoramica-prodotti.md)
-* [Fase 3 - Onboarding in ambiente di Collaudo (UAT) — prima configurazione tecnica](onboarding-ambiente-di-collaudo-uat.md)
+* [Fase 3 - Onboarding in ambiente di Collaudo (UAT) — prima configurazione tecnica](../backup-onboarding-ambiente-di-collaudo-uat.md)
 * Accesso e navigazione in ambiente di Produzione (PROD)
 * Onboarding in ambiente di Produzione — configurazione definitiva
 * Configurazione dei deeplink per le app mobile (se applicabile
