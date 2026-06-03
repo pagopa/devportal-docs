@@ -1,100 +1,53 @@
 # Navigazione del servizio su Prod e Collaudo
 
-## Home page BackOffice
+## Panoramica
 
-Questa schermata rappresenta la vista completa del BackOffice per un PSP già registrato.
+Dopo aver effettuato l'accesso e selezionato l'ambiente di lavoro, l'utente viene indirizzato alla sezione **Panoramica**, che rappresenta la pagina principale del BackOffice Messaggi di Cortesia.
 
-Dopo aver effettuato l'accesso, l'utente atterrerà nella sezione **Panoramica**. La struttura è identica tra l'ambiente di Collaudo e quello di Produzione, ad eccezione del banner di avviso presente esclusivamente in Collaudo.
+La struttura della pagina è identica sia in ambiente di **Collaudo (UAT)** sia in ambiente di **Produzione**. L'unica differenza è rappresentata dalla presenza, nel solo ambiente di Collaudo, di un banner informativo che riporta "Dati per ambiente di collaudo"
 
-La navigazione avviene tramite il menu laterale sinistro, suddiviso nelle seguenti sezioni: **Panoramica, Credenziali, Utenti, Gruppi**.
+Si raccomanda pertanto di utilizzare esclusivamente dati di test durante le attività svolte in ambiente UAT.
 
-Da questa schermata il PSP può verificare lo stato della configurazione, identificare l’ambiente selezionato (UAT o Produzione) e avviare la procedura di configurazione tramite il pulsante 'Configura il servizio'.
+La navigazione all'interno del BackOffice avviene tramite il menu laterale sinistro, che consente l'accesso alle principali funzionalità del servizio:
 
-{% hint style="warning" %}
-In ambiente di Collaudo (UAT) è sempre presente un banner in cima alla pagina con il messaggio 'Attenzione: i dati non devono essere reali'. Utilizzare esclusivamente dati di test.
-{% endhint %}
+* **Panoramica**
+* **Credenziali**
+* **Utenti**
+* **Gruppi**
 
-### **Panoramica**
+Se il PSP risulta già registrato al servizio, la pagina Panoramica mostra il riepilogo della configurazione attualmente censita e rende disponibili le operazioni di gestione e aggiornamento della configurazione.
 
-La sezione è composta dal box per:
+Da questa schermata il PSP può:
 
-**1. Configurazione servizio che r**iepiloga i valori attualmente impostati:
-
-* URL per la ricezione dei messaggi di cortesia
-* URL di autenticazione
-* Tipo di autenticazione
-* URL di redirect per le app mobile
-
-Per modificare questi valori, cliccare sulla label **"Modifica"**: si aprirà la wizard di configurazione.
-
-**2. E ora?** Contiene il pulsante **"Gestisci credenziali"**, che consente di accedere alla configurazione e alla gestione delle credenziali PagoPA e TPP (vedi sezione configurazione e modifica Credenziali)
-
-&#x20;Da questa schermata il PSP può verificare lo stato della configurazione, identificare l’ambiente selezionato (UAT o Produzione) e avviare la procedura di configurazione tramite il pulsante 'Configura il servizio'.\
-\
-Il menu laterale consente l’accesso alle principali funzionalità: **Panoramica**, **Configurazione del Servizio** e **Credenziali**.
-
-{% hint style="warning" %}
-In ambiente di Collaudo (UAT) è sempre presente un banner in cima alla pagina con il messaggio 'Attenzione: i dati non devono essere reali'. Utilizzare esclusivamente dati di test.
-{% endhint %}
-
-***
-
-#### Accesso alla panoramica del BackOffice
-
-Dopo la selezione dell'ambiente, se il PSP risulta già censito, il sistema mostra la pagina Panoramica del BackOffice.&#x20;
-
-La pagina riepiloga la configurazione attualmente registrata e permette di accedere alle azioni di modifica disponibili.
-
-Nel menu laterale sinistro sono disponibili le voci **Panoramica**, **Credenziali, Utenti e Gruppi**. In ambiente di Collaudo ed inoltre presente il banner informativo che segnala l'utilizzo di dati non reali.
+* verificare l'ambiente attualmente selezionato (**UAT** o **Produzione**);
+* consultare lo stato della configurazione del servizio;
+* visualizzare i parametri configurati;
+* accedere alle funzionalità di modifica della configurazione;
+* gestire le credenziali utilizzate per l'integrazione con il servizio.
 
 <figure><img src="../.gitbook/assets/Panoramica_UAT_registrato.png" alt=""><figcaption></figcaption></figure>
 
 <p align="center"><em><strong>Figura - Panoramica ambiente collaudo servizio già registrato</strong></em></p>
 
-### **Credenziali**
+#### Visualizzazione e modifica Endpoint e deep link
 
-**Cliccando sulla label "**&#x43;redenziali" dal menu di navigazione laterale sinistro, si visualizza la wizard divisa in due blocchi distinti:&#x20;
+Dalla pagina Panoramica è possibile aggiornare la configurazione tecnica selezionando l'azione "**Modifica"** presente nel riquadro dedicato alla configurazione endpoint oppure nel riquadro dedicato alla configurazione deep link.
 
-<figure><img src="../.gitbook/assets/Credenziali.png" alt=""><figcaption></figcaption></figure>
+La maschera di modifica espone i valori già configurati e consente all'utente di aggiornarli. I campi contrassegnati con asterisco sono obbligatori e devono essere valorizzati prima del salvataggio
 
-1. **Credenziali PagoPA**: (CLIENT ID, CLIENT SECRET, GRANT TYPE, TPP ID). I campi non sarano modificabili.
-2. **Credenziali TPP**: (CLIENT ID, CLIENT SECRET, GRANT TYPE). Entrambi i blocchi hanno un pulsante 'Modifica'.
-
-### Gestione e modifica della configurazione
-
-La funzione di modifica consente al PSP gia registrato nell'ambiente selezionato di aggiornare la configurazione tecnica del servizio "Messaggi di Cortesia" senza ripetere il processo di onboarding. Il flusso e disponibile dalla pagina di panoramica del BackOffice, dopo l'accesso tramite Area Riservata e la selezione dell'ambiente di lavoro.
-
-Le modifiche sono sempre riferite all'ambiente in cui si sta operando. Le informazioni aggiornate in Collaudo/UAT non vengono propagate automaticamente in Produzione e, allo stesso modo, le modifiche effettuate in Produzione non aggiornano l'ambiente di Collaudo.
-
-
-
-#### Modifica della configurazione endpoint e deep link
-
-Dalla pagina Panoramica e possibile aggiornare la configurazione tecnica selezionando l'azione Modifica presente nel riquadro dedicato alla configurazione endpoint oppure nel riquadro dedicato alla configurazione deep link.
-
-La maschera di modifica espone i valori gia configurati e consente all'utente di aggiornarli. I campi contrassegnati con asterisco sono obbligatori e devono essere valorizzati prima del salvataggio.
-
-Nella sezione Configurazione endpoint devono essere verificati e, se necessario, modificati i seguenti elementi:
-
-URL per ricezione messaggi di cortesia, utilizzato da pagoPA per inoltrare al PSP i messaggi destinati agli utenti;
-
-URL di autenticazione, utilizzato per il rilascio del token necessario alla comunicazione tra i sistemi;
-
-tipo di autenticazione, valorizzato in base alla modalita tecnica prevista dalla configurazione.
-
-Nella sezione Configurazione deep link app devono essere indicati i link necessari per reindirizzare il cittadino verso l'app o il canale web del PSP. Il sistema consente di configurare un deep link universale oppure deep link specifici per sistema operativo.
-
-Nel caso di deep link specifici per sistema operativo, la maschera prevede sezioni distinte per Android, iOS e Web. Per ciascuna sezione possono essere gestite le versioni del fallback link e il relativo URL Redirect. Il comando Aggiungi versione consente di inserire ulteriori versioni, ove previste dalla configurazione del PSP.
+<figure><img src="../.gitbook/assets/UAT_modifica_endpoint-deep.png" alt=""><figcaption></figcaption></figure>
 
 <p align="center"><em>Figura - Maschera Modifica endpoint e deep link</em></p>
 
-**Salvataggio della configurazione endpoint e deep link**
-
-Al termine dell'aggiornamento, l'utente deve selezionare il pulsante Salva per confermare le modifiche. Il pulsante Annulla consente invece di uscire dalla maschera senza registrare le variazioni inserite.
+In caso di aggiornamento, dopo avere modificato i campi, per confermare le modifiche è necessario cliccare sul pulsante "**Salva**". Il pulsante Annulla consente invece di uscire dalla maschera senza registrare le variazioni inserite.
 
 Durante il salvataggio il sistema effettua i controlli formali sui dati compilati. In presenza di campi obbligatori non valorizzati, formati non ammessi o informazioni non coerenti, il sistema impedisce il salvataggio e richiede la correzione dei dati.
 
-#### Accesso alla sezione Credenziali
+
+
+<mark style="color:red;">**\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\***</mark>
+
+#### Visualizzazione e Modifica sezione "Credenziali"
 
 La gestione delle credenziali e disponibile dal menu laterale selezionando la voce Credenziali oppure dal pulsante Gestisci credenziali presente nella pagina Panoramica. La sezione consente di visualizzare le chiavi di accesso e le credenziali necessarie per collegarsi ai sistemi pagoPA e per ricevere i messaggi di cortesia sui sistemi del PSP.
 
