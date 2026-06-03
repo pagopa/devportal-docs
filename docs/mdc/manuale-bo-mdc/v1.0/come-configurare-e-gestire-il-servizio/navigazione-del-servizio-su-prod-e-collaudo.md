@@ -72,28 +72,11 @@ Se l'utente seleziona Annulla, la maschera viene chiusa senza applicare le modif
 
 #### Controlli e messaggi di errore
 
-In fase di salvataggio il sistema verifica la presenza dei campi obbligatori e la correttezza formale delle informazioni inserite. Se uno o piu controlli non vengono superati, l'operazione non viene completata e l'utente deve correggere i campi segnalati prima di procedere nuovamente al salvataggio.
-
-In caso di errore, l'utente deve verificare:
-
-che tutti i campi obbligatori siano stati valorizzati;
-
-che gli URL siano completi e coerenti con l'ambiente selezionato;
-
-che le credenziali siano state inserite senza spazi o caratteri non previsti;
-
-che i parametri aggiuntivi siano coerenti con quanto richiesto dai sistemi del PSP;
-
-che non siano stati utilizzati dati reali in ambiente di Collaudo.
+In fase di salvataggio il sistema verifica la presenza dei campi obbligatori e la correttezza formale delle informazioni inserite. Se uno o più controlli non vengono superati, l'operazione non viene completata e l'utente deve correggere i campi segnalati prima di procedere nuovamente al salvataggio.
 
 #### Esito della modifica
 
-A seguito del salvataggio con esito positivo, il sistema aggiorna la configurazione e rende disponibili i nuovi valori nella pagina di riepilogo. L'utente puo tornare alla Panoramica o alla sezione Credenziali per verificare che i dati visualizzati corrispondano alla configurazione appena aggiornata.
+A seguito del salvataggio con esito positivo, il sistema aggiorna la configurazione e rende disponibili i nuovi valori nella pagina di riepilogo. L'utente può tornare alla alla sezione **Credenziali** per verificare che i dati visualizzati corrispondano alla configurazione appena aggiornata.
 
-La modifica e valida esclusivamente per l'ambiente in cui e stata effettuata. Qualora sia necessario aggiornare anche l'altro ambiente, l'utente deve accedere nuovamente al prodotto, selezionare l'ambiente di riferimento e ripetere il flusso di modifica.
+La modifica e valida esclusivamente per l'ambiente in cui è stata effettuata. Qualora sia necessario aggiornare anche l'altro ambiente, l'utente deve accedere nuovamente al prodotto, selezionare l'ambiente di riferimento e ripetere il flusso di modifica.
 
-#### Indicazioni operative per il PSP
-
-Prima di modificare una configurazione gia attiva, il PSP deve verificare con i propri referenti tecnici la correttezza dei nuovi valori da inserire e l'eventuale impatto sui sistemi integrati. Le modifiche a endpoint, deeplink o credenziali possono incidere sulla capacita del servizio di ricevere, autenticare e instradare correttamente i messaggi verso l'app bancaria o il canale web.
-
-Si raccomanda di eseguire preventivamente le verifiche in ambiente di Collaudo e di procedere all'aggiornamento in Produzione solo dopo aver validato la configurazione tecnica.
