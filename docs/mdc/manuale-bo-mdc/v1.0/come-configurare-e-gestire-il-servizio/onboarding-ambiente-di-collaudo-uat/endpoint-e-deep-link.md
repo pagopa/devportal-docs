@@ -1,4 +1,4 @@
-# EndPoint e Deep link
+# Endpoint e Deep link
 
 ### Configurazione Endpoint
 
@@ -17,6 +17,10 @@ Deep Link:
 * Web
 
 #### <mark style="color:blue;">Endpoint</mark>
+
+<figure><img src="../../.gitbook/assets/FireShot Capture 011 - mdc backoffice - [mdc.uat.cstar.pagopa.it] (1).png" alt=""><figcaption></figcaption></figure>
+
+<p align="center"><em>Figura- Configurazione Endpoint ambiente collaudo</em></p>
 
 {% tabs %}
 {% tab title="URL per ricezione messaggi di cortesia (webhook) *" %}
@@ -92,6 +96,10 @@ Il valore risulta preconfigurato e non modificabile dall’utente.
 ### <mark style="color:blue;">Deep link</mark>
 
 La configurazione del Deep link è necessaria per reindirizzare l'utente all'app del PSP per il pagamento. Sono disponibili due modalità selezionabili con il radio button.
+
+<figure><img src="../../.gitbook/assets/FireShot Capture 013 - mdc backoffice - [mdc.uat.cstar.pagopa.it] (1).png" alt=""><figcaption></figcaption></figure>
+
+<p align="center"><em>Figura- Configurazione Deep link ambiente collaudo</em></p>
 
 {% hint style="info" %}
 Se il PSP non ha un'app mobile, lasciare la checkbox deselezionata e procedere al passo successivo.

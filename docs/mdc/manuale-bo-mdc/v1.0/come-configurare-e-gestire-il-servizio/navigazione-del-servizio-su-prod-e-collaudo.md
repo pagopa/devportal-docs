@@ -27,7 +27,7 @@ Da questa schermata il PSP può:
 
 <figure><img src="../.gitbook/assets/Panoramica_UAT_registrato.png" alt=""><figcaption></figcaption></figure>
 
-<p align="center"><em><strong>Figura - Panoramica ambiente collaudo servizio già registrato</strong></em></p>
+<p align="center"><em>Figura - Panoramica ambiente collaudo servizio già registrato</em></p>
 
 #### Visualizzazione e modifica Endpoint e deep link
 
@@ -57,8 +57,6 @@ La pagina Credenziali presenta le informazioni organizzate in blocchi funzionali
 * **Parametri aggiuntivi.**&#x20;
 
 I campi esposti possono prevedere funzioni di copia, visualizzazione del valore nascosto e accesso alla modifica, in base alla tipologia di informazione.
-
-
 
 <figure><img src="../.gitbook/assets/UAT_modifca_credenziali.png" alt=""><figcaption></figcaption></figure>
 
