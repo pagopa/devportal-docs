@@ -25,7 +25,7 @@ Da questa schermata il PSP può:
 * accedere alle funzionalità di modifica della configurazione;
 * gestire le credenziali utilizzate per l'integrazione con il servizio.
 
-<figure><img src="../.gitbook/assets/Panoramica_UAT_registrato.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/FireShot Capture 025 - mdc backoffice - [mdc.uat.cstar.pagopa.it].png" alt=""><figcaption></figcaption></figure>
 
 <p align="center"><em>Figura - Panoramica ambiente collaudo servizio già registrato</em></p>
 
