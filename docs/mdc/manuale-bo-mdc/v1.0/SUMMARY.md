@@ -15,14 +15,10 @@
 ## COME CONFIGURARE E GESTIRE IL SERVIZIO
 
 * [Flusso operativo](come-configurare-e-gestire-il-servizio/flusso-operativo.md)
-* [Onboarding Ambiente di Collaudo (UAT)](come-configurare-e-gestire-il-servizio/onboarding-ambiente-di-collaudo-uat/README.md)
-  * [Endpoint e Deep link](come-configurare-e-gestire-il-servizio/onboarding-ambiente-di-collaudo-uat/endpoint-e-deep-link.md)
-  * [Credenziali](come-configurare-e-gestire-il-servizio/onboarding-ambiente-di-collaudo-uat/credenziali.md)
+* [Onboarding Ambiente di Collaudo (UAT) e Produzione](come-configurare-e-gestire-il-servizio/onboarding-ambiente-di-collaudo-uat-e-produzione/README.md)
+  * [Endpoint e Deep link](come-configurare-e-gestire-il-servizio/onboarding-ambiente-di-collaudo-uat-e-produzione/endpoint-e-deep-link.md)
+  * [Credenziali](come-configurare-e-gestire-il-servizio/onboarding-ambiente-di-collaudo-uat-e-produzione/credenziali.md)
 * [Navigazione del servizio su Prod e Collaudo](come-configurare-e-gestire-il-servizio/navigazione-del-servizio-su-prod-e-collaudo.md)
-
-***
-
-* [Ambiente di Produzione](ambiente-di-produzione.md)
 
 ## BACKUP
 

@@ -23,5 +23,5 @@ Il flusso descrive:
 * [Fase 2 – Accesso Panaromica](../come-accedere-al-backoffice/accesso-panoramica-prodotti.md)
 * [Fase 3 - Onboarding in ambiente di Collaudo (UAT) — prima configurazione tecnica](../backup-onboarding-ambiente-di-collaudo-uat.md)
 * [Fase 4 - Navigazione del servizio su Prod e Collaudo](navigazione-del-servizio-su-prod-e-collaudo.md)
-* [Fase 5 - Ambiente di produzione](../ambiente-di-produzione.md)
+* [Fase 5 - Ambiente di produzione](/broken/pages/k9UHPB9rxJUgwfrmrVBC)
 
