@@ -37,45 +37,32 @@ La maschera di modifica espone i valori già configurati e consente all'utente d
 
 <figure><img src="../.gitbook/assets/UAT_modifica_endpoint-deep.png" alt=""><figcaption></figcaption></figure>
 
-<p align="center"><em>Figura - Maschera Modifica endpoint e deep link</em></p>
+<p align="center"><em>Figura - Maschera Visualizzazione e Modifica endpoint e deeplink</em></p>
+
+
 
 In caso di aggiornamento, dopo avere modificato i campi, per confermare le modifiche è necessario cliccare sul pulsante "**Salva**". Il pulsante Annulla consente invece di uscire dalla maschera senza registrare le variazioni inserite.
 
 Durante il salvataggio il sistema effettua i controlli formali sui dati compilati. In presenza di campi obbligatori non valorizzati, formati non ammessi o informazioni non coerenti, il sistema impedisce il salvataggio e richiede la correzione dei dati.
 
+#### Visualizzazione e Modifica e Credenziali
+
+La gestione delle credenziali è disponibile dal menu laterale selezionando la voce Credenziali oppure dal pulsante Gestisci credenziali presente nella pagina Panoramica. La sezione consente di visualizzare le chiavi di accesso e le credenziali necessarie per collegarsi ai sistemi pagoPA e per ricevere i messaggi di cortesia sui sistemi del PSP.
+
+La pagina Credenziali presenta le informazioni organizzate in blocchi funzionali:
+
+* **Credenziali PagoPA**
+* **TPP ID**
+* **Credenziali TPP**
+* **Parametri aggiuntivi.**&#x20;
+
+I campi esposti possono prevedere funzioni di copia, visualizzazione del valore nascosto e accesso alla modifica, in base alla tipologia di informazione.
 
 
-<mark style="color:red;">**\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\***</mark>
 
-#### Visualizzazione e Modifica sezione "Credenziali"
+<figure><img src="../.gitbook/assets/UAT_modifca_credenziali.png" alt=""><figcaption></figcaption></figure>
 
-La gestione delle credenziali e disponibile dal menu laterale selezionando la voce Credenziali oppure dal pulsante Gestisci credenziali presente nella pagina Panoramica. La sezione consente di visualizzare le chiavi di accesso e le credenziali necessarie per collegarsi ai sistemi pagoPA e per ricevere i messaggi di cortesia sui sistemi del PSP.
-
-La pagina Credenziali presenta le informazioni organizzate in blocchi funzionali: Credenziali PagoPA, TPP ID, Credenziali TPP e Parametri aggiuntivi. I campi esposti possono prevedere funzioni di copia, visualizzazione del valore nascosto e accesso alla modifica, in base alla tipologia di informazione.
-
-<p align="center"><em>Figura - Sezione Credenziali con funzioni di visualizzazione e modifica</em></p>
-
-#### Modifica delle credenziali TPP
-
-Per aggiornare le credenziali tecniche del PSP, l'utente seleziona l'azione Modifica presente nel riquadro Credenziali TPP. Il sistema apre la maschera Modifica credenziali, nella quale sono riportati i dati gia configurati.
-
-La sezione Credenziali di accesso consente di aggiornare i seguenti campi:
-
-Client ID, identificativo client utilizzato dal PSP per la comunicazione tecnica;
-
-Client Secret, valore riservato necessario per l'autenticazione;
-
-Grant type, modalita di grant configurata per il rilascio del token.
-
-La maschera consente inoltre di gestire i parametri aggiuntivi da inviare in fase di autenticazione. I parametri possono essere distinti in Parametri aggiuntivi Body e Parametri aggiuntivi URL. Per ciascun parametro devono essere valorizzati nome e valore.
-
-<p align="center"><em>Figura - Maschera Modifica credenziali</em></p>
-
-**Gestione dei parametri aggiuntivi**
-
-I parametri aggiuntivi devono essere compilati solo se richiesti dalla configurazione tecnica del PSP. Il comando Aggiungi parametro body consente di inserire nuovi parametri da trasmettere nel corpo della richiesta; il comando Aggiungi parametro URL consente di inserire parametri da accodare all'indirizzo web di autenticazione.
-
-Per eliminare un parametro gia presente, l'utente puo utilizzare l'icona di eliminazione disponibile sulla riga corrispondente. Prima di procedere al salvataggio e necessario verificare che i valori residui siano corretti e coerenti con la configurazione tecnica dell'ambiente selezionato.
+<p align="center"><em>Figura - Maschera Visualizzazione e Modifica credenziali</em></p>
 
 #### Conferma o annullamento della modifica
 
