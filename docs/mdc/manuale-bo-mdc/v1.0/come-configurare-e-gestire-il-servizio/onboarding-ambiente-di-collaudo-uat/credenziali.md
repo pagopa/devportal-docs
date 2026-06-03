@@ -211,19 +211,19 @@ Di seguito vengono riportati alcuni esempi di valori validi utilizzabili in ambi
 
 **Parametri aggiuntivi (Body)**
 
-**Esempio 1**
+**Esempio 1 - Scope OAuth2**
 
 | Nome  | Valore           |
 | ----- | ---------------- |
 | scope | `messages.write` |
 
-**Esempio 2**
+**Esempio 2 - Audience API**
 
 | Nome     | Valore    |
 | -------- | --------- |
 | audience | `mdc-api` |
 
-**Esempio 3**
+**Esempio 3 - Environment**
 
 | Nome        | Valore |
 | ----------- | ------ |
@@ -251,13 +251,13 @@ Di seguito vengono riportati alcuni esempi di valori validi utilizzabili in ambi
 
 **Esempio  - Body HTTP**
 
-```
+```json
 {"grant_type": "client_credentials", 
  "client_id": "mdc-psp-client-uat",  
  "client_secret": "X7f9!kLmP2#Qa8", 
  "scope": "messages.write", 
-"audience": "mdc-api", 
-"environment": "uat"}
+ "audience": "mdc-api", 
+ "environment": "uat"}
 ```
 
 [^1]: 
