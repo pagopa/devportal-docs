@@ -38,6 +38,19 @@ Il sistema del Service Provider del Debitore deve esporre un endpoint in grado d
 POST /sepa-request-to-pay-requests/{sepaRequestToPayRequestResourceId}/cancellation-requests
 ```
 
+
+
+#### Gestisci gli Header della Richiesta
+
+Ogni richiesta in entrata conterrà degli header HTTP standard che occorrerà gestire correttamente.
+
+* _**Idempotency-key**_ : Questo header è fondamentale per prevenire la doppia elaborazione di una stessa richiesta (UUID).\
+  Logica da seguire:
+  * &#x20;Salvare l'Idempotency-key della prima richiesta ricevuta.
+  * &#x20;Se si riceve una nuova richiesta con una chiave già vista, occorre verificare se il payload è identico.
+  * Se lo è, è necessario restituire la risposta originale (201 Created); se è diverso, occorre restituire un errore (422 Unprocessable Entity).
+* _**X-Request-ID**_ : Un ID di correlazione da utilizzare per il logging e il troubleshooting.
+
 ## Step 2: Ricezione e processamento del messaggio di cancellazione (`camt.055`)
 
 Quando si riceve una chiamata su questo endpoint, il corpo della richiesta contiene un oggetto `SepaRequestToPayCancellationRequestResource`, che incapsula un messaggio `camt.055.001.08`.

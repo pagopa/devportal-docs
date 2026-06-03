@@ -18,6 +18,8 @@ La sicurezza delle comunicazioni è garantita a livello infrastrutturale. Tutte 
 * `X-Request-ID`: Un identificativo per correlare richiesta e risposta.
 * `Idempotency-key`: Una chiave univoca per le operazioni `POST` per gestire in sicurezza eventuali tentativi di invio multiplo della stessa richiesta.
 
+
+
 ## Endpoints da implementare
 
 ### **Ricevere una nuova richiesta di pagamento**
@@ -36,7 +38,6 @@ Il corpo della richiesta conterrà un oggetto `SepaRequestToPayRequestResource`,
 * **`201 Created`**: La risposta da inviare se la richiesta è stata accettata e processata correttamente. L'header `Location` deve contenere l'URL della risorsa appena creata.
 * **`400 Bad Request`**: La risposta da inviare se la richiesta è malformata o non valida secondo le regole dello schema SRTP. Il corpo della risposta deve contenere un oggetto `SepaRequestToPayErrorResponseResource_DS04b`.
 * **`401 Unauthorized`**: Le credenziali del chiamante non sono valide o sufficienti per l'operazione.
-* **`406 Not Acceptable`**: Il server non può produrre una risposta conforme agli header `Accept` inviati dal client.
 * **`409 Conflict`**: La risposta da inviare se la richiesta è un duplicato (stessa `Idempotency-key` e stesso payload) di una richiesta già processata. L'header `Location` deve contenere l'URL della risorsa originale.
 * **`415 Unsupported Media Type`**: Il `Content-Type` della richiesta (es. `application/json`) non è supportato dall'endpoint.
 * **`422 Unprocessable Entity`**: La richiesta è formalmente corretta ma non può essere processata per motivi di business (es. `Idempotency-key` riutilizzata con un payload diverso).
@@ -56,3 +57,7 @@ Questo endpoint viene invocato da PagoPA per richiedere l'annullamento di una SR
 
 * **`201 Created`**: La risposta da inviare se la richiesta di cancellazione è stata accettata. A seguito di questa operazione, il servizio dovrà inviare la conferma asincrona tramite callback.
 * **`422 Unprocessable Entity`**: La risposta da inviare se non è possibile annullare la SRTP (es. perché già in uno stato finale).
+* **`401 Unauthorized`**: Le credenziali del chiamante non sono valide o sufficienti per l'operazione.
+* **`409 Conflict`**: La risposta da inviare se la richiesta è un duplicato (stessa `Idempotency-key` e stesso payload) di una richiesta già processata. L'header `Location` deve contenere l'URL della risorsa originale.
+* **`415 Unsupported Media Type`**: Il `Content-Type` della richiesta (es. `application/json`) non è supportato dall'endpoint.
+* **`429 Too Many Requests`**: Il client ha superato il numero massimo di richieste consentite in un dato periodo (rate limiting).

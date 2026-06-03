@@ -20,7 +20,13 @@ sequenceDiagram
     participant PPA as PagoPA
     actor U as Utente
 
-    Note over DSP: Prerequisito:<br> Il DSP ha già ricevuto la richiesta <br> di pagamento e ha salvato <br> il 'callbackUrl' da essa.
+    Note over DSP: Prerequisito:<br/>Il DSP ha già ricevuto la richiesta<br/>di pagamento e ha salvato<br/>il callbackUrl da essa.
+
+    alt Accettazione tecnica della richiesta
+        DSP->>DSP: Costruisce il payload pain.014 con TxSts = ACTC
+        DSP->>+PPA: POST /send (Notifica di stato pain.014)
+        PPA-->>-DSP: Risposta 200 OK
+    end
 
     U->>DSP: Interagisce con la richiesta di pagamento
 
@@ -32,7 +38,7 @@ sequenceDiagram
         PPA-->>-DSP: Risposta 200 OK
 
     else L'utente rifiuta la richiesta
-        DSP->>DSP: Costruisce il payload pain.014 con TxSts = RJCT<br>e include la motivazione (StsRsnInf).
+        DSP->>DSP: Costruisce il payload pain.014 con TxSts = RJCT<br/>e include la motivazione (StsRsnInf)
         DSP->>+PPA: POST /send (Notifica di stato pain.014)
         PPA-->>-DSP: Risposta 200 OK
     end

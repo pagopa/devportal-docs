@@ -43,6 +43,20 @@ sequenceDiagram
 
 Come per tutte le chiamate API verso la piattaforma, il primo passo consiste nell'ottenere un `AccessToken` valido tramite il flusso OAuth2 Client Credentials, utilizzando le proprie credenziali.
 
+Effettuare una chiamata al server di autenticazione PagoPA utilizzando lo schema OAuth2 Client Credential Grant Type.&#x20;
+
+Includere nella richiesta il tuo `client_id` e `client_secret`, che hai ricevuto durante il processo di adesione.&#x20;
+
+Il server risponderà con un `AccessToken` da utilizzare nel passo successivo.&#x20;
+
+Endpoint da utilizzare:&#x20;
+
+```http
+POST /auth-itn/realms/srtp/protocol/openid-connect/token
+```
+
+
+
 ## Step 2: Interrogare il Discovery Service
 
 Per scoprire le informazioni di raggiungibilità di un utente, è necessario interrogare l'endpoint di ricerca del Servizio di Attivazione.
@@ -57,6 +71,7 @@ GET /activations/payer
 
 * `PayerId` (header, obbligatorio): Il Codice Fiscale dell'utente (pagatore) di cui si vogliono conoscere le informazioni di attivazione.
 * `RequestId` (header, obbligatorio): Un UUID per identificare la richiesta.
+* `Version` (header, obbligatorio): serve a indicare quale versione dell’API o della risorsa vuoi usare
 
 ## Step 3: Interpretare la Risposta (Come vengono erogate le informazioni)
 

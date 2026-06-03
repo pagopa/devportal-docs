@@ -58,6 +58,12 @@ Come per tutte le operazioni verso la piattaforma, il primo passo consiste nell'
 2. Includere nella richiesta il tuo `client_id` e `client_secret`, che hai ricevuto durante il processo di adesione.
 3. Il server risponderà con un `AccessToken` da utilizzare nel passo successivo.
 
+Endpoint da utilizzare:
+
+```http
+POST /auth-itn/realms/srtp/protocol/openid-connect/token
+```
+
 ## Step 2: Preparare il corpo della richiesta (`ActivationReq`)
 
 Per attivare un utente, occorrerà costruire un semplice oggetto JSON che contiene i suoi dati identificativi e quelli del tuo servizio.
@@ -87,6 +93,9 @@ POST /activations
 ```
 
 Occorrerà includere l'`AccessToken` nell'header `Authorization` come Bearer Token e il JSON `ActivationReq` nel corpo della richiesta.
+
+\
+Occorrerà includere inoltre  nell'header `Version`  "v1" e   `RequestId`  che è un identificatore univoco della richiesta (UUID).
 
 ## Step 4: Gestire la risposta del servizio
 
