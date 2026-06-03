@@ -27,13 +27,9 @@ Da questa schermata il PSP può:
 
 <figure><img src="../.gitbook/assets/FireShot Capture 025 - mdc backoffice - [mdc.uat.cstar.pagopa.it].png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/FireShot Capture 025 - mdc backoffice - [mdc.uat.cstar.pagopa.it].png" alt=""><figcaption></figcaption></figure>
-
 <p align="center"><em>Figura - Panoramica ambiente collaudo servizio già registrato</em></p>
 
 #### Visualizzazione e modifica Endpoint e deep link
-
-<figure><img src="../.gitbook/assets/UAT_modifca_credenziali.png" alt=""><figcaption></figcaption></figure>
 
 Dalla pagina Panoramica è possibile aggiornare la configurazione tecnica selezionando l'azione "**Modifica"** presente nel riquadro dedicato alla configurazione endpoint oppure nel riquadro dedicato alla configurazione deep link.
 
