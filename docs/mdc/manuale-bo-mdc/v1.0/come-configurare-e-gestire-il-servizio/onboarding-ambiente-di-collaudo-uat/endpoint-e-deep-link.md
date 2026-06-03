@@ -16,7 +16,7 @@ Deep Link:
 * iOS
 * Web
 
-#### <mark style="color:blue;">Endpoint</mark>
+#### Endpoint
 
 <figure><img src="../../.gitbook/assets/FireShot Capture 011 - mdc backoffice - [mdc.uat.cstar.pagopa.it] (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -93,7 +93,7 @@ Il valore risulta preconfigurato e non modificabile dall’utente.
 {% endtab %}
 {% endtabs %}
 
-### <mark style="color:blue;">Deep link</mark>
+### Deep link
 
 La configurazione del Deep link è necessaria per reindirizzare l'utente all'app del PSP per il pagamento. Sono disponibili due modalità selezionabili con il radio button.
 
@@ -112,7 +112,7 @@ La sezione **“Configurazione deep link app”** consente di configurare i deep
 * deep link universale;
 * deep link specifico per sistema operativo.
 
-#### <mark style="background-color:purple;">Deep link universale</mark>
+#### Deep link universale
 
 **Descrizione**\
 Opzione utilizzata per definire un unico schema di redirect valido per tutti i sistemi operativi supportati.
