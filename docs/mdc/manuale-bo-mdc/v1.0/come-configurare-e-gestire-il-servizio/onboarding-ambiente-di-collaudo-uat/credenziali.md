@@ -1,7 +1,5 @@
 # Credenziali
 
-### Configurazione del servizio - Credenziali di accesso
-
 La sezione **“Credenziali”** rappresenta il secondo step della configurazione del servizio "**Messaggi di Cortesia**" e consente al PSP di configurare i parametri necessari all’autenticazione delle chiamate verso i propri sistemi applicativi. La schermata permette di definire:
 
 * credenziali OAuth2;
@@ -9,9 +7,7 @@ La sezione **“Credenziali”** rappresenta il secondo step della configurazion
 * parametri aggiuntivi nel body della richiesta;
 * parametri aggiuntivi nell’URL di autenticazione.
 
-
-
-Di seguito i campi dettagliati
+### Credenziali di accesso
 
 {% tabs %}
 {% tab title="Client ID *" %}
@@ -91,7 +87,7 @@ Il valore risulta preconfigurato e non modificabile dall’utente.
 
 
 
-**Parametri aggiuntivi (Body)**
+### **Parametri aggiuntivi (Body)**
 
 La sezione consente di configurare eventuali parametri personalizzati richiesti dal sistema del PSP durante la richiesta di rilascio del token OAuth2.
 
@@ -123,15 +119,15 @@ messages.write, mdc-api
 {% endtab %}
 {% endtabs %}
 
+#### Aggiungi parametro URL
+
 Ad ogni selezione viene aggiunta una nuova riga configurabile.
 
-**Parametri aggiuntivi (URL)**
+### **Parametri aggiuntivi (URL)**
 
 La sezione consente di configurare parametri extra da aggiungere all’URL dell’endpoint di autenticazione.
 
 I parametri vengono inviati come query parameter della chiamata HTTP.
-
-
 
 {% tabs %}
 {% tab title="Nome" %}
@@ -159,11 +155,11 @@ tenant-mdc-uat
 {% endtab %}
 {% endtabs %}
 
-### Aggiungi parametro URL
+#### Aggiungi parametro URL
 
 Ad ogni selezione viene aggiunta una nuova riga configurabile.
 
-## “Completa configurazione”
+#### Bottone “Completa configurazione”
 
 Il pulsante **“Completa configurazione”** consente di:
 
@@ -171,19 +167,13 @@ Il pulsante **“Completa configurazione”** consente di:
 * salvare la configurazione credenziali;
 * completare il wizard di configurazione del servizio.
 
-***
-
-### Comportamento atteso
-
 In caso di validazione corretta:
 
 * la configurazione viene salvata;
 * il servizio risulta configurato;
 * il sistema rende disponibili le funzionalità operative del servizio Messaggi di Cortesia.
 
-***
-
-### Possibili anomalie
+Possibili errori in fase di compilazione
 
 | Anomalia                          | Descrizione                                         |
 | --------------------------------- | --------------------------------------------------- |
@@ -195,7 +185,7 @@ In caso di validazione corretta:
 
 ***
 
-## Azione “Indietro”
+#### **Bottone “Indietro”**
 
 Il pulsante **“Indietro”** consente di:
 
@@ -203,9 +193,7 @@ Il pulsante **“Indietro”** consente di:
 * modificare la configurazione precedentemente inserita;
 * mantenere i dati già valorizzati nella sessione corrente.
 
-
-
-### Valori di esempio validi – Configurazione Credenziali
+#### Valori di esempio validi – Configurazione Credenziali
 
 Di seguito vengono riportati alcuni esempi di valori validi utilizzabili in ambiente di collaudo/UAT per completare la configurazione delle credenziali del servizio Messaggi di Cortesia.
 
