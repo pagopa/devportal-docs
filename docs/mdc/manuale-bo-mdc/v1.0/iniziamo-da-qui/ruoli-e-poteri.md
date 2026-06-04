@@ -6,11 +6,11 @@ In Area Riservata sono sempre disponibili due ruoli: **Amministratore** e **Oper
 
 ### Amministratore
 
-L'Amministratore è una figura incaricata dall'Ente aderente che si occupa della gestione complessiva del prodotto _"Messaggi di Cortesia"_. Viene designato mediante delega del Legale Rappresentante dell'Ente.
+L'Amministratore è una figura incaricata dall'Ente aderente che si occupa della gestione complessiva del prodotto "Messaggi di Cortesia". Viene designato mediante delega del Legale Rappresentante dell'Ente.
 
 &#x20;Questa figura si occupa specificamente di:
 
-* Gestire gli utenti e i gruppi associati all'Ente all'interno del BackOffice;
+* Gestire gli utenti e i gruppi associati al PSP all'interno del BackOffice;
 * Accedere a tutte le funzionalità del BackOffice, inclusa la configurazione globale del servizio;
 * Gestire le API Key necessarie per l'integrazione tecnica con la piattaforma&#x20;
 * Avviare e completare il processo di configurazione del servizio per l'Ente/PSP.
@@ -20,8 +20,10 @@ L'Amministratore è una figura incaricata dall'Ente aderente che si occupa della
 Questa figura si occupa specificamente di:
 
 * Modificare i dati tecnici (endpoint, configurazioni, credenziali) della PSP;
-* Accedere alle sezioni tecniche del BackOffice relative al proprio Ente;
+* Accedere alle sezioni tecniche del BackOffice relative al proprio PSP;
 * Gestire le configurazioni di integrazione con SEND e le relative app mobili.
+
+
 
 ### Matrice dei Permessi
 
