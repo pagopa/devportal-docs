@@ -2,8 +2,6 @@
 
 Questa sezione ospita la lista dei prodotti a cui il PSP ha aderito e da cui è possibile effettuare l'accesso al portale dedicato al singolo prodotto, tra cui la Card di "Messaggi di Cortesia".
 
-<figure><img src="../.gitbook/assets/Card_mdc.png" alt=""><figcaption></figcaption></figure>
-
 ## Accesso all'Area Riservata
 
 Per gestire il prodotto "Messaggi di Cortesia, è necessario prima accedere all'Area Riservata di PagoPA nella sezione Panoramica, in cui è presente la sezione dedicata ai prodotti disponibili.
