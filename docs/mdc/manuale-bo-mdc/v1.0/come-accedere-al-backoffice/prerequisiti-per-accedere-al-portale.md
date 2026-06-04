@@ -4,7 +4,7 @@
 
 Per poter accedere al portale BackOffice "_Messaggi di Cortesia"_, è necessario che siano soddisfatti i seguenti prerequisiti:
 
-1. **Adesione del PSP al prodotto Messaggi di Cortesia**: il **prodotto** deve essere stato **attivato** dal PSP aderente attraverso il processo di **onboarding PagoPA**. A seguito dell'adesione, la card "Messaggi di Cortesia" sarà disponibile nella pagina Panoramica dell'Area Riservata (vedi Manuale onboarding: sezione Processo di adesione).
+1. **Adesione del PSP al prodotto Messaggi di Cortesia**: il prodotto Messaggi di Cortesia deve essere stato preventivamente associato al PSP nell'ambito del processo di onboarding sulla piattaforma PagoPA (s**i veda il Manuale di Onboarding, sezione Processo di adesione**). Una volta completato il processo e assegnate le necessarie autorizzazioni agli utenti, il prodotto sarà disponibile nell'Area Riservata e potrà essere selezionato dalla relativa card presente nella pagina Panoramica.
 2. **Censimento dell'utente sulla piattaforma Area Riservata**: i dati anagrafici dell'utente (Nome, Cognome, Codice Fiscale ed e-mail istituzionale) devono essere registrati sulla piattaforma Area Riservata (Self Care). L'utente deve risultare presente nel sistema come profilo utente associato al prodotto Messaggi di Cortesia.
 3. **Assegnazione di un ruolo valido sul prodotto**: l'utente deve essere abilitato con uno dei ruoli previsti (Amministratore o Operatore) per il prodotto Messaggi di Cortesia.
 

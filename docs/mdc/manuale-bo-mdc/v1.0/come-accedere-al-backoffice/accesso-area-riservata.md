@@ -4,9 +4,11 @@ Questa sezione ospita la lista dei prodotti a cui il PSP ha aderito e da cui è 
 
 ## Accesso all'Area Riservata
 
-Per gestire il prodotto "Messaggi di Cortesia, è necessario prima accedere all'Area Riservata di PagoPA nella sezione Panoramica, in cui è presente la sezione dedicata ai prodotti disponibili.
+Per gestire il servizio "Messaggi di Cortesia", è necessario prima accedere all'Area Riservata di PagoPA nella sezione Panoramica, in cui è presente la sezione dedicata ai prodotti disponibili.
 
-Per poter accedere all'Area Riservata, è necessario aver completato l'adesione ad un prodotto (vedi [Manuale onboarding: sezione Processo di adesione](https://developer.pagopa.it/it/pago-pa/guides/manuale-bo-psp/v1.0/manuale-operativo-pagamenti-pagopa-prestatore-di-servizi-di-pagamento/accesso)) e che l'utente sia stato censito come Amministratore o Operatore sul prodotto stesso.
+Per accedere all'Area Riservata è necessario che il PSP  abbia completato il processo di adesione ad almeno un prodotto della piattaforma pagoPA (si veda il [Manuale onboarding: sezione Processo di adesione](https://developer.pagopa.it/it/pago-pa/guides/manuale-bo-psp/v1.0/manuale-operativo-pagamenti-pagopa-prestatore-di-servizi-di-pagamento/accesso), sezione _Processo di adesione_).
+
+L'utente deve inoltre essere stato preventivamente censito e associato al prodotto per il quale intende operare, con un profilo autorizzativo adeguato. In particolare, l'accesso alle funzionalità descritte nel presente manuale è consentito agli utenti ai quali è stato assegnato il ruolo di **Amministratore** o **Operatore**.
 
 #### Step 1: Accedere al sito PagoPA
 
