@@ -16,6 +16,6 @@ Il manuale fornisce una guida operativa finalizzata a supportare gli Enti aderen
 Il documento è destinato alle seguenti figure
 
 * **Amministratori** degli Enti aderenti al prodotto Messaggi di Cortesia;
-* **Operatori** tecnici incaricati della configurazione e gestione del servizio;
+* **Operatori tecnici** incaricati della configurazione e gestione del servizio;
 * **Prestatori di Servizi di Pagamento** (PSP) e loro referenti tecnici;
 
