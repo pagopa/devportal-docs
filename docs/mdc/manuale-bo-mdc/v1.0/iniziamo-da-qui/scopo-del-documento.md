@@ -7,7 +7,7 @@ Il manuale fornisce una guida operativa finalizzata a supportare gli Enti aderen
 * il funzionamento generale del servizio;
 * &#x20;i ruoli e i poteri associati agli utenti;
 * i prerequisiti necessari per l’accesso al sistema
-* &#x20;le modalità di accesso tramite Area Riservata
+* le modalità di accesso tramite Area Riservata
 * il flusso di onboarding e configurazione del servizio;
 * le funzionalità disponibili per la gestione e modifica della configurazione;
 
@@ -15,7 +15,7 @@ Il manuale fornisce una guida operativa finalizzata a supportare gli Enti aderen
 
 Il documento è destinato alle seguenti figure
 
-* Amministratori degli Enti aderenti al prodotto Messaggi di Cortesia;
-* Operatori tecnici incaricati della configurazione e gestione del servizio;
-* Prestatori di Servizi di Pagamento (PSP) e loro referenti tecnici;
+* **Amministratori** degli Enti aderenti al prodotto Messaggi di Cortesia;
+* **Operatori** tecnici incaricati della configurazione e gestione del servizio;
+* **Prestatori di Servizi di Pagamento** (PSP) e loro referenti tecnici;
 
