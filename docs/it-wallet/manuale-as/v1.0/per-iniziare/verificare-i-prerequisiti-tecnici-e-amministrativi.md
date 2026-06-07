@@ -1,0 +1,15 @@
+# Verificare i prerequisiti tecnici e amministrativi
+
+## Stato attuale (fase transitoria)
+
+<table><thead><tr><th width="290.97265625">Prerequisito</th><th>Dettaglio</th></tr></thead><tbody><tr><td><strong>Identità digitale</strong></td><td>SPID o CIE di <strong>livello 2</strong> per l'operatore che effettua l'adesione</td></tr><tr><td><strong>Firma del Legale Rappresentante</strong></td><td>Firma Elettronica Qualificata (<strong>FEQ</strong>) di tipo <strong>CAdES</strong></td></tr><tr><td><strong>Dati dell'ente su IPA</strong></td><td>Per PA e Gestori di servizi pubblici: dati corretti e aggiornati nell'Indice (IPA) e accesso alla PEC indicata come domicilio digitale</td></tr><tr><td><strong>Amministratori PDND</strong></td><td>Almeno un'utenza con ruolo di Amministratore (se ne consigliano <strong>almeno due</strong>) per gestire e-service e finalità</td></tr><tr><td><strong>Dataset di partenza</strong></td><td>I dati di origine da cui sarà modellato l'EAA</td></tr></tbody></table>
+
+La procedura completa di adesione è descritta in _→_ [_Come aderire alla PDND e configurare l'ambiente_](../tutorial/come-aderire-alla-pdnd-e-configurare-lambiente.md) e approfondita nel Manuale Operativo PDND (_→_ [_Guida all'adesione_](https://developer.pagopa.it/pdnd-interoperabilita/guides/manuale-operativo-pdnd-interoperabilita/v1.0/per-iniziare/guida-alladesione)_)_.
+
+## <mark style="color:yellow;">Stato futuro (go-live / Regolamento IT-Wallet)</mark>
+
+<mark style="color:yellow;">L'onboarding tecnico è valido fino alla pubblicazione del</mark> <mark style="color:yellow;"></mark><mark style="color:yellow;">**Regolamento IT-Wallet**</mark> <mark style="color:yellow;"></mark><mark style="color:yellow;">e alla disponibilità di Portale di Onboarding, Registro delle Fonti Autentiche e Catalogo degli Attestati. La</mark> <mark style="color:yellow;"></mark><mark style="color:yellow;">**registrazione amministrativa**</mark> <mark style="color:yellow;"></mark><mark style="color:yellow;">costituirà un adempimento</mark> <mark style="color:yellow;"></mark><mark style="color:yellow;">**futuro**</mark><mark style="color:yellow;">, non bloccante allo stato attuale (cfr. 2.7).</mark>
+
+> <mark style="color:yellow;">**Da verificare.**</mark> <mark style="color:yellow;"></mark><mark style="color:yellow;">Workflow basato su</mark> <mark style="color:yellow;"></mark><mark style="color:yellow;">**PEC**</mark><mark style="color:yellow;">; eventuali adempimenti di</mark> <mark style="color:yellow;"></mark><mark style="color:yellow;">**OpenID Federation**</mark> <mark style="color:yellow;"></mark><mark style="color:yellow;">in capo all'AS; realtà, recapiti e link di</mark> <mark style="color:yellow;"></mark><mark style="color:yellow;">**DTD**</mark><mark style="color:yellow;">,</mark> <mark style="color:yellow;"></mark><mark style="color:yellow;">**PagoPA**</mark><mark style="color:yellow;">,</mark> <mark style="color:yellow;"></mark><mark style="color:yellow;">**IPZS**</mark> <mark style="color:yellow;"></mark><mark style="color:yellow;">e del «Sito Vetrina IT-Wallet».</mark>
+
+***
