@@ -18,7 +18,7 @@ Avviare l'onboarding sul [portale Self Care (prod-interop)](https://selfcare.pag
 {% step %}
 ### **Selezionare la tipologia di organizzazione e l'ente**
 
-In questo passaggio è necesario verificare la correttezza e l'aggiornamento dei **dati su IPA**
+In questo passaggio è necessario verificare la correttezza e l'aggiornamento dei **dati su IPA**
 {% endstep %}
 
 {% step %}
