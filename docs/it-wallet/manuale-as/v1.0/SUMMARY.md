@@ -37,3 +37,7 @@
 
 * [Pubblicazione di un EAA di interesse pubblico: il caso dell'attestazione ISEE](casi-duso/pubblicazione-di-un-eaa-di-interesse-pubblico-il-caso-dellattestazione-isee.md)
 * [Gestire un cambio di stato in esercizio](casi-duso/gestire-un-cambio-di-stato-in-esercizio.md)
+
+## \[Appendici Editoriali]
+
+* [Riepilogo dei punti da verificare](appendici-editoriali/riepilogo-dei-punti-da-verificare.md)

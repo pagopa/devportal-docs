@@ -51,7 +51,7 @@ Procedere all'attivazione di Signal Hub in collaudo coerentemente con `mappatura
 {% step %}
 ### Sviuppare il Credential Offer (opzionale)
 
-Lo step che prevede lo sviliuppo del Credential Offer è utile in particolare con discovery via touchpoint dell'Ente.
+Lo step che prevede lo sviluppo del Credential Offer è utile in particolare con discovery via touchpoint dell'Ente.
 {% endstep %}
 
 {% step %}
