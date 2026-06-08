@@ -10,12 +10,12 @@ Per poter accedere al portale BackOffice "_Messaggi di Cortesia"_, è necessario
 
 Un utente si ritiene abilitato se i suoi dati sono stati inseriti:
 
-* in fase di adesione al prodotto stesso (vedi Manuale onboarding: sezione Processo di adesione); oppure
+* in fase di adesione al prodotto stesso (vedi Manuale onboarding: sezione Processo di adesione);
 * all'interno della piattaforma Area Riservata tramite l'apposita funzione di aggiunta di un nuovo utente (vedi Manuale onboarding: sezione Area Riservata – Utenti).
 
 Nel caso in cui, non sia rinvenibile all’interno della piattaforma il profilo di un utente specifico, quell’utente non sarà abilitato e dunque non potrà accedere.
 
 {% hint style="warning" %}
-L’accesso al BackOffice avviene esclusivamente tramite la piattaforma Area Riservata di pagoPA. Non è previsto alcun accesso diretto al portale con credenziali dedicate.
+L’accesso al BackOffice avviene esclusivamente tramite la piattaforma Area Riservata di PagoPA S.p.A. Non è previsto alcun accesso diretto al portale con credenziali dedicate.
 {% endhint %}
 

@@ -1,6 +1,6 @@
 # Ruoli e poteri
 
-I ruoli disponibili all'interno del BackOffice "Messaggi di Cortesia" sono coerenti con quelli definiti nella piattaforma Area Riservata di PagoPA. Ogni ruolo garantisce un diverso livello di visibilità e di operatività sul prodotto.
+I ruoli disponibili all'interno del BackOffice "Messaggi di Cortesia" sono coerenti con quelli definiti nella piattaforma Area Riservata di PagoPA S.p.A. Ogni ruolo garantisce un diverso livello di visibilità e di operatività sul prodotto.
 
 In Area Riservata sono sempre disponibili due ruoli: **Amministratore** e **Operatore**.&#x20;
 

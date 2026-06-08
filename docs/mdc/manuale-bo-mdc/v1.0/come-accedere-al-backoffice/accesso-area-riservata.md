@@ -10,15 +10,15 @@ Per accedere all'Area Riservata è necessario che il PSP  abbia completato il pr
 
 L'utente deve inoltre essere stato preventivamente censito e associato al prodotto per il quale intende operare, con un profilo autorizzativo adeguato. In particolare, l'accesso alle funzionalità descritte nel presente manuale è consentito agli utenti ai quali è stato assegnato il ruolo di **Amministratore** o **Operatore**.
 
-#### Step 1: Accedere al sito PagoPA
+#### Step 1: Accedere al sito PagoPA S.p.A.
 
-È possibile accedere all'Area Riservata recandosi sul sito [https://www.pagopa.it ](https://www.pagopa.it/)e cliccando in alto a destra su "AREA RISERVATA ENTI".
+È possibile accedere all'Area Riservata recandosi sul sito [https://www.pagopa.it ](https://www.pagopa.it/)e cliccando in alto a destra su "**AREA RISERVATA ENTI**".
 
 <figure><img src="../.gitbook/assets/Login_Area_Riservata.png" alt=""><figcaption></figcaption></figure>
 
 #### Step 2: Autenticarsi con SPID o CIE
 
-L'accesso all'Area Riservata di PagoPA può essere effettuato tramite:
+L'accesso all'Area Riservata di PagoPA S.p.A. può essere effettuato tramite:
 
 * Autenticazione mediante SPID (Sistema Pubblico di Identità Digitale);
 * Autenticazione mediante CIE (Carta d'Identità Elettronica).

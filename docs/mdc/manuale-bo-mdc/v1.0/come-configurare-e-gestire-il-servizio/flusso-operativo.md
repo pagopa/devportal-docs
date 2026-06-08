@@ -1,6 +1,6 @@
 # Flusso operativo
 
-Il presente tutorial guida l'operatore PSP (Payment Service Provider) attraverso l'intero flusso operativo di configurazione e gestione del servizio Messaggi di Cortesia nel BackOffice PagoPA.\
+Il presente tutorial guida l'operatore PSP (Payment Service Provider) attraverso l'intero flusso operativo di configurazione e gestione del servizio Messaggi di Cortesia nel BackOffice.\
 Il documento è progettato per essere completamente autonomo: seguendo i passaggi descritti passo-passo, l'operatore sarà in grado di completare l'intera operazione.
 
 Dopo aver effettuato l’accesso tramite Token Exchange, l’utente atterrerà nella sezione Panoramica del BackOffice. La struttura è identica tra ambiente di Collaudo e di Produzione, ad eccezione del banner di avviso presente esclusivamente in Collaudo.
