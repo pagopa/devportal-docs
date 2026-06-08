@@ -16,7 +16,30 @@ Duplicare il file per ciascun EAA e rinominare ogni copia secondo la convenzione
 {% step %}
 ### **Definire le modalità di ottenimento dell'EAA**
 
-Nella sezione `casi d'uso`, indicare la discovery — **catalogo** o **touchpoint dell'Ente** — e la modalità di risposta dell'e-service: **sincrona** (preferibile) o **differita**.
+Nella sottosezione `emissione formato` della sezione `casi d'uso`, compilare il campo `catalogo o touchpoint EAA` — indicando se l'utente ottiene l'EAA dal **catalogo** della soluzione IT-Wallet, da un **touchpoint dell'Ente** o da entrambi — e il campo `modalità sincrona differita EAA`, indicando in quale modalità il **Titolare di Fonte Autentica risponde alla richiesta di emissione tramite e-service**: **sincrona** (preferibile) o **differita** (non preferibile; in tal caso, motivare).&#x20;
+
+Nel file di progettazione i due campi seguono lo schema fisso `domanda` / `esempio` / `risposta`; l'Ente compila il solo campo `risposta`. Estratto della sottosezione `emissione formato`:
+
+```json
+ {
+     "casi d'uso": {
+       "emissione formato": {
+         "catalogo o touchpoint EAA": {
+           "domanda": "L’utente potrà ottenere l'EAA relativo al dataset solo dal catalogo EAA del Wallet o anche da un touchpoint gestito dall’Ente titolare?",
+           "esempio": "Entrambi, sia da catalogo che da touchpoint Ente",
+           "risposta": ""
+         },
+         "modalità sincrona differita EAA": {
+           "domanda": "L'utente potrà ottenere l'EAA in modalità sincrona (preferibile) o in modalità differita? Se differita, perché?",
+           "esempio": "Differita, per motivi di controlli aggiuntivi",
+           "risposta": ""
+         }
+       }
+     }
+   }
+```
+
+
 {% endstep %}
 
 {% step %}
