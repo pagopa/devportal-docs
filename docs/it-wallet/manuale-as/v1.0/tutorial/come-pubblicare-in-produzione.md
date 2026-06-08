@@ -18,7 +18,7 @@ Per EAA di interesse pubblico, **abilitare IPZS** alla fruizione, ove possibile 
 {% step %}
 ### **Attivare Signal Hub in produzione**
 
-Coerentemente con `mappatura stati`.
+Come già fatto in collaudo, procedere all'attivazione di Signal Hub in produzione coerentemente con `mappatura stati` (dettaglio in → [Signal hub: soglie di carico, probing e tracing](../riferimenti-tecnici/signal-hub-soglie-di-carico-probing-e-tracing.md)).
 {% endstep %}
 
 {% step %}
