@@ -45,9 +45,12 @@ jobs:
           ref: ${{ vars.CHECKOUT_BRANCH || 'docs/from-gitbook' }}
           sparse-checkout: docs
           sparse-checkout-cone-mode: true
+          path: docs
 
-      - name: Log directory structure
-        run: tree -a -I 'node_modules|.git' -L 3
+      - name: Move docs into workspace root
+        run: |
+          rm -rf docs
+          mv docs-source/docs docs
 
       - name: Setup Node.JS
         uses: actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e
