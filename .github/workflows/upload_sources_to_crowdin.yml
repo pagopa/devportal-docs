@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       paths_to_upload:
-        description: Comma separated list of paths to upload. Leave empty to upload all.
+        description: Comma separated list of paths to upload. Leave empty to upload all. (e.g. app-io/io-guida-tecnica/v7.2)
         required: false
         type: string
       paths_to_delete:
