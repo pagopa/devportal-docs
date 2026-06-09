@@ -45,7 +45,7 @@ jobs:
           ref: ${{ vars.CHECKOUT_BRANCH || 'docs/from-gitbook' }}
           sparse-checkout: docs
           sparse-checkout-cone-mode: true
-          path: docs
+          path: docs-source
 
       - name: Move docs into workspace root
         run: |
