@@ -35,7 +35,7 @@
 
 ## Casi d'uso
 
-* [Pubblicazione di un EAA di interesse pubblico: il caso dell'attestazione ISEE](casi-duso/pubblicazione-di-un-eaa-di-interesse-pubblico-il-caso-dellattestazione-isee.md)
+* [Emissione di un EAA su richiesta dell'utente: il caso della patente di guida](casi-duso/emissione-di-un-eaa-su-richiesta-dellutente-il-caso-della-patente-di-guida.md)
 * [Gestire un cambio di stato in esercizio](casi-duso/gestire-un-cambio-di-stato-in-esercizio.md)
 
 ## \[Appendici Editoriali]
