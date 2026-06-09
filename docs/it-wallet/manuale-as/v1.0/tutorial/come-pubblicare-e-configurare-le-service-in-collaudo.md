@@ -71,9 +71,9 @@ Notificare all'issuer (IPZS per EAA di interesse pubblico) il rilascio in collau
 
 **Presupposto — esistenza del template.** Il template per una nuova tipologia di credenziale è predisposto a monte: l'AS si registra a IT-Wallet dichiarando il proprio **ambito/categoria tassonomica** (es. salute) e la **credenziale** da emettere; a valle di un'approvazione, il template viene creato.
 
-> **Da verificare.** Dettagli del passaggio di registrazione/approvazione del template (nel materiale di lavoro è citato un termine pronunciato come «IAMO», con riferimento a un destinatario «Marco»): non confermati.
 
-**Passaggi (UI PDND).**
+
+#### **Passaggi (UI PDND).**
 
 {% stepper %}
 {% step %}
