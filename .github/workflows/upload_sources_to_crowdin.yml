@@ -4,21 +4,21 @@ on:
   workflow_dispatch:
     inputs:
       paths_to_upload:
-        description: Optional docs-relative paths, comma or newline separated.
+        description: Comma separated list of paths to upload. Leave empty to upload all.
         required: false
         type: string
       paths_to_delete:
-        description: Optional docs-relative paths to remove from docs-structure, comma or newline separated.
+        description: Comma separated list of paths to remove from docs-structure.
         required: false
         type: string
   workflow_call:
     inputs:
       paths_to_upload:
-        description: Optional docs-relative paths, comma or newline separated.
+        description: Comma separated list of paths to upload. Leave empty to upload all.
         required: false
         type: string
       paths_to_delete:
-        description: Optional docs-relative paths to remove from docs-structure, comma or newline separated.
+        description: Comma separated list of paths to remove from docs-structure.
         required: false
         type: string
     secrets:
