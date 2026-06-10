@@ -1,6 +1,6 @@
 # Come aderire alla PDND e configurare l'ambiente
 
-PDND è la piattaforma su cui l'AS espone i dati: l'adesione costituisce la porta d'ingresso tecnica dell'intero percorso. In questa fase si definiscono inoltre gli utenti dell'Ente e i relativi permessi — scelta da effettuare con cura sin dall'inizio, al fine di separare i compiti tecnici (e-service, materiale crittografico) e garantire la continuità operativa.
+PDND è la piattaforma su cui il Titolare di Fonte Autentica espone i dati: l'adesione costituisce la porta d'ingresso tecnica dell'intero percorso. In questa fase si definiscono inoltre gli utenti dell'Ente e i relativi permessi — scelta da effettuare con cura sin dall'inizio, al fine di separare i compiti tecnici (e-service, materiale crittografico) e garantire la continuità operativa.
 
 **Prerequisiti.** → [Verificare i prerequisiti tecnici e amministrativi](../per-iniziare/verificare-i-prerequisiti-tecnici-e-amministrativi.md)
 
@@ -70,7 +70,7 @@ La gestione delle utenze avviene dal menu **Utenti** (riservato agli Amministrat
 
 ## Ambienti operativi
 
-PDND mette a disposizione più ambienti. Per l'AS sono rilevanti:
+PDND mette a disposizione più ambienti. Per il Titolare di Fonte Autentica sono rilevanti:
 
 * **Collaudo** — ambiente di test (sostitutivo del precedente «Test»), nel quale l'e-service è pubblicato e verificato prima della produzione (Step 2–3).
 * **Produzione** — ambiente reale (Step 4).

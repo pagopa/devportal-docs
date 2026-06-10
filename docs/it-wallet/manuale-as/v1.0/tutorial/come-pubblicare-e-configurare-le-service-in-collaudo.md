@@ -1,6 +1,6 @@
 # Come pubblicare e configurare l'e-service in collaudo
 
-In questa fase il progetto si concretizza in un servizio funzionante. L'attività in ambiente di **collaudo** consente di verificare dati, sicurezza e stati senza impatti reali: gli errori individuati in questa sede comportano costi contenuti, a differenza di quelli rilevati in produzione. La scelta tra template ed ex-novo, illustrata di seguito, determina l'entità delle attività di conformità a carico dell'AS.
+In questa fase il progetto si concretizza in un servizio funzionante. L'attività in ambiente di **collaudo** consente di verificare dati, sicurezza e stati senza impatti reali: gli errori individuati in questa sede comportano costi contenuti, a differenza di quelli rilevati in produzione. La scelta tra template ed ex-novo, illustrata di seguito, determina l'entità delle attività di conformità a carico del Titolare di Fonte Autentica.
 
 **Prerequisiti.** [File di progettazione validato](come-progettare-le-caratteristiche-delleaa.md),  [adesione PDND completata](come-aderire-alla-pdnd-e-configurare-lambiente.md); per il percorso _ex-novo_, OpenAPI YAML [conforme ai requisiti](../riferimenti-tecnici/requisiti-dellopenapi-yaml-e-delle-service.md).
 
@@ -67,9 +67,9 @@ Notificare all'issuer (IPZS per EAA di interesse pubblico) il rilascio in collau
 
 ## Procedura operativa: creazione dell'e-service **da template**
 
-**Ambito di applicazione.** Si applica quando per la tipologia di credenziale esiste già un **Template e-service IT-Wallet** pubblicato (ad esempio i tesserini degli ordini sanitari: psicologi, veterinari, ostetriche, farmacisti). In questo percorso l'AS non redige né valida un OpenAPI YAML: deriva la propria istanza da un template che ne fissa la specifica.
+**Ambito di applicazione.** Si applica quando per la tipologia di credenziale esiste già un **Template e-service IT-Wallet** pubblicato (ad esempio i tesserini degli ordini sanitari: psicologi, veterinari, ostetriche, farmacisti). In questo percorso il Titolare di Fonte Autenticanon redige né valida un OpenAPI YAML: deriva la propria istanza da un template che ne fissa la specifica.
 
-**Presupposto — esistenza del template.** Il template per una nuova tipologia di credenziale è predisposto a monte: l'AS si registra a IT-Wallet dichiarando il proprio **ambito/categoria tassonomica** (es. salute) e la **credenziale** da emettere; a valle di un'approvazione, il template viene creato.
+**Presupposto — esistenza del template.** Il template per una nuova tipologia di credenziale è predisposto a monte: il Titolare di Fonte Autentica si registra a IT-Wallet dichiarando il proprio **ambito/categoria tassonomica** (es. salute) e la **credenziale** da emettere; a valle di un'approvazione, il template viene creato.
 
 
 

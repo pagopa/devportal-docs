@@ -15,7 +15,7 @@ In questo caso d'uso di esempio si descrive il ciclo di vita di una variazione d
 Perché questo flusso possa iniziare, si assume che siano già soddisfatte le seguenti condizioni:
 
 1. L'EAA della patente è già stato emesso ed è presente nel wallet di Marco.
-2. L'e-service dell'AS è in esercizio in produzione, con Signal Hub attivo.
+2. L'e-service del Titolare di Fonte Autentica è in esercizio in produzione, con Signal Hub attivo.
 3. L'Issuer (IPZS) è abilitato alla fruizione dell'e-service e riceve i segnali di variazione.
 
 ### **Fase 1: Aggiornamento del dato presso l'Authentic Source**
@@ -31,11 +31,11 @@ Per i dettagli operativi sulla gestione del dato in esercizio, consulta il tutor
 
 ### **Fase 2: Notifica della variazione tramite Signal Hub**
 
-A seguito dell'aggiornamento, l'AS notifica la variazione alla piattaforma.
+A seguito dell'aggiornamento, il Titolare di Fonte Autentica notifica la variazione alla piattaforma.
 
-1. **Azione dell'Ente**: l'AS deposita il segnale corrispondente, indicando l'`eserviceId` e l'identificativo pseudonimizzato del dato variato.
+1. **Azione dell'Ente**: il Titolare di Fonte Autentica deposita il segnale corrispondente, indicando l'`eserviceId` e l'identificativo pseudonimizzato del dato variato.
 2. **Distribuzione (lato PDND)**: PDND distribuisce il segnale ai consumatori interessati.
-3. **Processamento (lato Issuer)**: IPZS, in qualità di consumatore, è informato in tempo reale e acquisisce il dato aggiornato interrogando l'e-service. La piattaforma veicola la sola segnalazione, mentre il dato resta presso l'AS.
+3. **Processamento (lato Issuer)**: IPZS, in qualità di consumatore, è informato in tempo reale e acquisisce il dato aggiornato interrogando l'e-service. La piattaforma veicola la sola segnalazione, mentre il dato resta presso il Titolare di Fonte Autentica.
 
 {% hint style="info" %}
 Per i dettagli tecnici sul deposito dei segnali, consulta il riferimento:  → [**Signal Hub, soglie di carico, Probing e Tracing**.](../riferimenti-tecnici/signal-hub-soglie-di-carico-probing-e-tracing.md)
@@ -46,8 +46,8 @@ Per i dettagli tecnici sul deposito dei segnali, consulta il riferimento:  → [
 La variazione si propaga fino al wallet del cittadino.
 
 1. **Azione dell'Issuer**: IPZS aggiorna lo stato dell'attestato nel wallet, portandolo — nell'esempio — a `SUSPENDED`. L'EAA cessa così di certificare una condizione non più veritiera.
-2. **Comunicazione all'utente**: Marco riceve il messaggio che l'AS ha definito, in fase di progettazione, per quello specifico stato, con l'indicazione del cambiamento intervenuto e delle eventuali azioni a disposizione.
-3. **Assistenza**: per eventuali chiarimenti, l'AS presidia i referenti e i canali dichiarati nella sezione `assistenza`, collaborando con Issuer e Wallet Provider nella diagnosi dei malfunzionamenti.
+2. **Comunicazione all'utente**: Marco riceve il messaggio che il Titolare di Fonte Autentica ha definito, in fase di progettazione, per quello specifico stato, con l'indicazione del cambiamento intervenuto e delle eventuali azioni a disposizione.
+3. **Assistenza**: per eventuali chiarimenti, il Titolare di Fonte Autentica presidia i referenti e i canali dichiarati nella sezione `assistenza`, collaborando con Issuer e Wallet Provider nella diagnosi dei malfunzionamenti.
 
 {% hint style="info" %}
 Per i dettagli sugli stati dell'attestato e sul disaccoppiamento, consulta il riferimento: → [**Data model, attributi e stati dell'EAA**.](../riferimenti-tecnici/data-model-attributi-e-stati-delleaa.md)
@@ -55,7 +55,7 @@ Per i dettagli sugli stati dell'attestato e sul disaccoppiamento, consulta il ri
 
 ### **Conclusione**
 
-Il ciclo di vita della variazione è completo: lo stato reale del documento, l'e-service dell'AS e l'attestato nel wallet di Marco sono nuovamente allineati. Grazie all'interazione standardizzata tra fonte autentica, Signal Hub e Issuer, una variazione avvenuta presso l'Ente si riflette tempestivamente nell'EAA senza che il dato lasci la titolarità dell'AS.
+Il ciclo di vita della variazione è completo: lo stato reale del documento, l'e-service del Titolare di Fonte Autentica e l'attestato nel wallet di Marco sono nuovamente allineati. Grazie all'interazione standardizzata tra fonte autentica, Signal Hub e Issuer, una variazione avvenuta presso l'Ente si riflette tempestivamente nell'EAA senza che il dato lasci la titolarità del Titolare di Fonte Autentica.
 
 {% hint style="info" %}
 **Disaccoppiamento tra documento fisico ed EAA.** L'invalidazione del documento fisico invalida l'EAA, mentre la rimozione dell'EAA da parte dell'utente non incide sul documento fisico.
