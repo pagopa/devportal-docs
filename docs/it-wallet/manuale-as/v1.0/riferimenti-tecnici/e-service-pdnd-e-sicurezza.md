@@ -1,10 +1,10 @@
 # E-service PDND e sicurezza
 
-Riferimento dell'e-service nel contesto AS e dei relativi meccanismi di sicurezza.&#x20;
+Riferimento dell'e-service nel contesto Titolare di Fonte Autentica e dei relativi meccanismi di sicurezza.&#x20;
 
 ## Informazioni generali
 
-L'e-service dell'AS opera in modalità **«eroga»**. In fase di pubblicazione si dichiarano: nome e descrizione (a catalogo), tecnologia (REST/SOAP), erogazione di **dati personali** (cfr. 4.3), presenza del servizio **Signal Hub**.
+L'e-service del Titolare di Fonte Autentica opera in modalità **«eroga»**. In fase di pubblicazione si dichiarano: nome e descrizione (a catalogo), tecnologia (REST/SOAP), erogazione di **dati personali** (cfr. 4.3), presenza del servizio **Signal Hub**.
 
 ## Ciclo di vita dell'e-service
 

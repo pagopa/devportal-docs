@@ -1,8 +1,8 @@
 # Signal hub: soglie di carico, probing e tracing
 
-[Signal Hub](https://developer.pagopa.it/it/pdnd-interoperabilita/guides/manuale-operativo-signal-hub) è un servizio PDND (LLGG AgID, Allegato 4 — [_Processo di distribuzione dei segnali di variazione_](https://www.agid.gov.it/sites/agid/files/2025-06/Linee_guida_PDND_v2_allegato_4.pdf)) che consente all'erogatore (**produttore**) di **notificare a PDND ogni variazione** di un dato; i fruitori interessati (**consumatori**) ricevono l'avviso in tempo reale e acquisiscono il dato aggiornato via e-service. PDND gestisce **la sola segnalazione**: i dati restano presso l'AS.
+[Signal Hub](https://developer.pagopa.it/it/pdnd-interoperabilita/guides/manuale-operativo-signal-hub) è un servizio PDND (LLGG AgID, Allegato 4 — [_Processo di distribuzione dei segnali di variazione_](https://www.agid.gov.it/sites/agid/files/2025-06/Linee_guida_PDND_v2_allegato_4.pdf)) che consente all'erogatore (**produttore**) di **notificare a PDND ogni variazione** di un dato; i fruitori interessati (**consumatori**) ricevono l'avviso in tempo reale e acquisiscono il dato aggiornato via e-service. PDND gestisce **la sola segnalazione**: i dati restano presso il Titolare di Fonte Autentica.
 
-Sul piano operativo, l'AS **deposita un segnale** indicando l'`eserviceId` e un identificativo pseudonimizzato del dato variato; il `signalId` è un intero **monotòno crescente** (non riutilizzabile e sempre successivo all'ultimo inviato). I tipi di segnale comprendono variazioni di **ciclo di vita** dell'entità e segnali di **allineamento** delle modalità di pseudonimizzazione.
+Sul piano operativo, il Titolare di Fonte Autentica **deposita un segnale** indicando l'`eserviceId` e un identificativo pseudonimizzato del dato variato; il `signalId` è un intero **monotòno crescente** (non riutilizzabile e sempre successivo all'ultimo inviato). I tipi di segnale comprendono variazioni di **ciclo di vita** dell'entità e segnali di **allineamento** delle modalità di pseudonimizzazione.
 
 > **\[Screenshot — PDND]** _Attivazione del flag Signal Hub sull'e-service / configurazione del servizio di deposito segnali._
 
@@ -12,7 +12,7 @@ Sul piano operativo, l'AS **deposita un segnale** indicando l'`eserviceId` e un 
 
 ## Soglie di carico e approvazione delle finalità
 
-L'AS imposta **soglie** (per fruitore e totali) e una stima di carico della finalità. Qualora un fruitore crei una finalità con stima **entro** le soglie, la fruizione è attivata automaticamente; qualora la stima **superi** una soglia, è richiesta l'**approvazione manuale** dell'erogatore.
+Il Titolare di Fonte Autentica imposta **soglie** (per fruitore e totali) e una stima di carico della finalità. Qualora un fruitore crei una finalità con stima **entro** le soglie, la fruizione è attivata automaticamente; qualora la stima **superi** una soglia, è richiesta l'**approvazione manuale** dell'erogatore.
 
 > **\[Screenshot — PDND]** _Gestione delle richieste di fruizione / finalità con stima di carico e approvazione manuale oltre soglia._
 

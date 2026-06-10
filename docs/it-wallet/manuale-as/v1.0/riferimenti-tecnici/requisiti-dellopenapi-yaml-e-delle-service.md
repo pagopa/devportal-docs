@@ -1,6 +1,6 @@
 # Requisiti dell'OpenAPI YAML e dell'e-service
 
-Riferimento dei requisiti che l'**OpenAPI YAML** dell'e-service deve rispettare per essere pubblicabile su PDND nel Sistema IT-Wallet. L'AS produce **artefatti distinti**:&#x20;
+Riferimento dei requisiti che l'**OpenAPI YAML** dell'e-service deve rispettare per essere pubblicabile su PDND nel Sistema IT-Wallet. Il Titolare di Fonte Autentica produce **artefatti distinti**:&#x20;
 
 * il **JSON di progettazione** (_→_ [_Il file di progettazione dell'EAA_](il-file-di-progettazione-delleaa.md))&#x20;
 * l'**OpenAPI YAML** (contratto tecnico); nel percorso da template, la specifica è fornita dal [**Template e-service**](../tutorial/come-pubblicare-e-configurare-le-service-in-collaudo.md#procedura-operativa-creazione-delle-service-da-template)
@@ -9,7 +9,7 @@ Riferimento dei requisiti che l'**OpenAPI YAML** dell'e-service deve rispettare 
 
 La creazione dell'e-service può seguire **due percorsi**; in entrambi l'e-service pubblicato deve risultare **conforme** ai requisiti del presente capitolo.
 
-**Percorso A — da Template e-service IT-Wallet.** L'AS non redige né valida un OpenAPI YAML: la specifica è fornita dal template (struttura, numero, nome e ordine dei claim) ( _→_ [_Creazione e-service da template_](../tutorial/come-pubblicare-e-configurare-le-service-in-collaudo.md#procedura-operativa-creazione-delle-service-da-template))
+**Percorso A — da Template e-service IT-Wallet.** Il Titolare di Fonte Autentica non redige né valida un OpenAPI YAML: la specifica è fornita dal template (struttura, numero, nome e ordine dei claim) ( _→_ [_Creazione e-service da template_](../tutorial/come-pubblicare-e-configurare-le-service-in-collaudo.md#procedura-operativa-creazione-delle-service-da-template))
 
 1. **Derivazione** dell'istanza dal template pubblicato.
 2. **Personalizzazione dei valori** (configurazioni di istanza; valori popolati a livello di codice). Sulle liste di claim è ammessa la variazione del **numero di oggetti** dell'array (implementazione), non dei campi del singolo oggetto. È modificabile il solo **suffisso** del nome.
@@ -18,11 +18,11 @@ La creazione dell'e-service può seguire **due percorsi**; in entrambi l'e-servi
 
 **Percorso B — ex-novo.**
 
-1. **Produzione** — l'AS redige l'OpenAPI YAML, coerente con il Data Model.
+1. **Produzione** — il Titolare di Fonte Autentica redige l'OpenAPI YAML, coerente con il Data Model.
 2. **Auto-validazione (consigliata)** — verifica del livello formale con il checker pubblico ([Italian OpenAPI Checker](https://italia.github.io/api-oas-checker/)).
-3. **Invio** — l'AS trasmette il YAML nel flusso di onboarding.
+3. **Invio** — il Titolare di Fonte Autentica trasmette il YAML nel flusso di onboarding.
 4. **Validazione Service Management** — verifica dei tre livelli e degli anti-pattern; produzione di `_fixed.yaml` e report.
-5. **Correzione** — per i requisiti non auto-correggibili, l'AS revisiona il file.
+5. **Correzione** — per i requisiti non auto-correggibili, il Titolare di Fonte Autentica revisiona il file.
 6. **Pubblicazione** ((_→_ [_Come pubblicare e configurare l'e-service in collaudo_](../tutorial/come-pubblicare-e-configurare-le-service-in-collaudo.md)_, →_ [_Come pubblicare in produzione_](../tutorial/come-pubblicare-in-produzione.md))). Il file conforme può, ove previsto, essere **promosso a Template e-service**.
 
 ```mermaid
@@ -81,6 +81,6 @@ Annidamento ≤ 2 livelli; stringhe root-level con `maxLength ≤ 150`; ordine d
 
 
 
-> <mark style="color:yellow;">**Da verificare.**</mark> <mark style="color:yellow;"></mark><mark style="color:yellow;">Se per IT-Wallet la modalità ex-novo sia ammessa o sia imposta la derivazione da template; se il template pubblicato coincida con il</mark> <mark style="color:yellow;"></mark><mark style="color:yellow;">`_fixed.yaml`</mark> <mark style="color:yellow;"></mark><mark style="color:yellow;">armonizzato; accesso dell'AS al Claim Registry rispetto ai claim armonizzati dal SM.</mark>
+> <mark style="color:yellow;">**Da verificare.**</mark> <mark style="color:yellow;"></mark><mark style="color:yellow;">Se per IT-Wallet la modalità ex-novo sia ammessa o sia imposta la derivazione da template; se il template pubblicato coincida con il</mark> <mark style="color:yellow;"></mark><mark style="color:yellow;">`_fixed.yaml`</mark> <mark style="color:yellow;"></mark><mark style="color:yellow;">armonizzato; accesso del Titolare di Fonte Autentica al Claim Registry rispetto ai claim armonizzati dal SM.</mark>
 
 ***
