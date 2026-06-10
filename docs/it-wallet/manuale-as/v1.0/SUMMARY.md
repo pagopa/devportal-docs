@@ -2,7 +2,7 @@
 
 ## Per iniziare
 
-* [Il ruolo dell'Authentic Source e la matrice dei ruoli](README.md)
+* [Il ruolo del Titolare di Fonte Autentica e la matrice dei ruoli](README.md)
 * [Il percorso di onboarding in sintesi](per-iniziare/il-percorso-di-onboarding-in-sintesi.md)
 * [Verificare i prerequisiti tecnici e amministrativi](per-iniziare/verificare-i-prerequisiti-tecnici-e-amministrativi.md)
 
