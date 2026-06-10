@@ -4,8 +4,6 @@
 
 Sul piano operativo, il Titolare di Fonte Autentica **deposita un segnale** indicando l'`eserviceId` e un identificativo pseudonimizzato del dato variato; il `signalId` è un intero **monotòno crescente** (non riutilizzabile e sempre successivo all'ultimo inviato). I tipi di segnale comprendono variazioni di **ciclo di vita** dell'entità e segnali di **allineamento** delle modalità di pseudonimizzazione.
 
-> **\[Screenshot — PDND]** _Attivazione del flag Signal Hub sull'e-service / configurazione del servizio di deposito segnali._
-
 {% hint style="info" %}
 **Approfondimento PDND.** [Manuale Operativo Signal Hub](https://developer.pagopa.it/pdnd-interoperabilita/guides/manuale-operativo-signal-hub); [Come depositare un segnale](https://www.developer.pagopa.it/pdnd-interoperabilita/guides/manuale-operativo-signal-hub/tutorial/come-depositare-un-segnale).
 {% endhint %}
@@ -14,7 +12,9 @@ Sul piano operativo, il Titolare di Fonte Autentica **deposita un segnale** indi
 
 Il Titolare di Fonte Autentica imposta **soglie** (per fruitore e totali) e una stima di carico della finalità. Qualora un fruitore crei una finalità con stima **entro** le soglie, la fruizione è attivata automaticamente; qualora la stima **superi** una soglia, è richiesta l'**approvazione manuale** dell'erogatore.
 
-> **\[Screenshot — PDND]** _Gestione delle richieste di fruizione / finalità con stima di carico e approvazione manuale oltre soglia._
+<figure><img src="../.gitbook/assets/SS-12.png" alt=""><figcaption></figcaption></figure>
+
+
 
 {% hint style="info" %}
 **Approfondimento PDND.** [Finalità, stima di carico e approvazioni](https://developer.pagopa.it/pdnd-interoperabilita/guides/pdnd-manuale-operativo/1.0/manuale-operativo/finalita).

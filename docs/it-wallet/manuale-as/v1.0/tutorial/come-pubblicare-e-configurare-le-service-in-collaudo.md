@@ -80,6 +80,8 @@ Notificare all'issuer (IPZS per EAA di interesse pubblico) il rilascio in collau
 ### Avvio da template
 
 Accedere a «crea e-service → usa template» e selezionare il template dalla **pagina Template IT-Wallet**, organizzata in **nove tile/categorie** (ciascuna raccoglie le attestazioni di un ambito, es. mondo salute). Per ciascun template è possibile consultare le implementazioni già realizzate.
+
+<figure><img src="../.gitbook/assets/SS-04.png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -101,10 +103,6 @@ L'e-service è quindi pubblicato a **catalogo**.
 {% endstep %}
 {% endstepper %}
 
-> **\[Screenshot — PDND]** _Percorso «crea e-service → usa template»: pagina Template IT-Wallet con le nove tile/categorie._
-
-> **\[Screenshot — PDND]** _Dettaglio di un template (es. badge sanitario) con l'elenco delle implementazioni realizzate e il campo nome con suffisso editabile._
-
 {% hint style="warning" %}
 **Vincoli per l'ente che deriva l'istanza.** Non è consentito: modificare la specifica; aggiungere claim; modificare l'ordine dei claim; eliminare claim. È modificabile unicamente il **suffisso** del nome. La personalizzazione riguarda i **valori** restituiti (popolati a livello di codice in fase di implementazione), non i campi..&#x20;
 {% endhint %}
@@ -124,12 +122,18 @@ L'e-service è quindi pubblicato a **catalogo**.
 ### Creazione
 
 Da **Erogazione → I tuoi e-service → «Crea nuovo»**, inserire **nome e descrizione** (regole di nomenclatura AgID; denominazione _«Creazione EAA \[Nome/tipologia] – IT-Wallet»_), dichiarare la **tecnologia** (REST → OpenAPI), impostare la modalità su **«eroga»** e indicare l'eventuale disponibilità del servizio **Signal Hub**. Alcune informazioni (es. la tecnologia) non sono più modificabili dopo la pubblicazione della prima versione.
+
+<figure><img src="../.gitbook/assets/SS-06 (1).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 ### **Caricamento dell'interfaccia API.**
 
 Allegare l'**OpenAPI YAML** conforme ai requisiti di 3.7. Il file è validato a valle dal **Service Management** (validatore automatico): cfr. 3.7.5.
+
+<figure><img src="../.gitbook/assets/SS-07.png" alt=""><figcaption></figcaption></figure>
+
+
 {% endstep %}
 
 {% step %}
@@ -138,10 +142,6 @@ Allegare l'**OpenAPI YAML** conforme ai requisiti di 3.7. Il file è validato a 
 [**Proseguire con i passi comuni** ](come-pubblicare-e-configurare-le-service-in-collaudo.md#proseguire-con-i-passi-comuni)(allegato JSON, sicurezza, abilitazione Issuer, Signal Hub, notifica) descritti sopra.
 {% endstep %}
 {% endstepper %}
-
-> **\[Screenshot — PDND]** _Erogazione → I tuoi e-service → «Crea nuovo»: informazioni generali (tecnologia REST, modalità «eroga», flag Signal Hub)._
-
-> **\[Screenshot — PDND]** _Step «Interfaccia API»: caricamento del file OpenAPI e della documentazione aggiuntiva._
 
 {% hint style="info" %}
 **Approfondimento PDND.** [Come creare e rendere disponibile un e-service](https://developer.pagopa.it/pdnd-interoperabilita/tutorials/come-creare-e-rendere-disponibile-un-e-service); [Italian OpenAPI Checker](https://italia.github.io/api-oas-checker/) (auto-validazione del livello formale).

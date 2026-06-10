@@ -18,12 +18,10 @@ Il **portachiavi** consente all'erogatore di **firmare digitalmente le risposte*
 
 Sul piano operativo, l'Operatore di Sicurezza o l'Amministratore **crea un portachiavi** (Erogazione → I tuoi portachiavi), **carica almeno una chiave pubblica** e **associa il portachiavi all'e-service** (tab «Portachiavi» nella scheda e-service).
 
-> **\[Screenshot — PDND]** _Erogazione → I tuoi portachiavi: creazione del portachiavi e caricamento di una chiave pubblica._
+<figure><img src="../.gitbook/assets/SS-09.png" alt=""><figcaption></figcaption></figure>
 
-> **\[Screenshot — PDND]** _Scheda e-service, tab «Portachiavi»: associazione del portachiavi all'e-service._
+<figure><img src="../.gitbook/assets/SS-10.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 **Approfondimento PDND.** [Portachiavi (riferimento tecnico)](https://developer.pagopa.it/pdnd-interoperabilita/guides/manuale-operativo-pdnd-interoperabilita/v1.0/riferimenti-tecnici/e-service/portachiavi); [Come firmare una risposta per un fruitore (INTEGRITY\_REST\_02)](https://www.developer.pagopa.it/it/pdnd-interoperabilita/guides/manuale-operativo-pdnd-interoperabilita/tutorial/tutorial-per-lerogatore/come-firmare-una-risposta-per-un-fruitore); [Utilizzare i voucher — FAQ](https://developer.pagopa.it/pdnd-interoperabilita/guides/manuale-operativo-pdnd-interoperabilita/v1.0/riferimenti-tecnici/utilizzare-i-voucher/faq-e-dubbi-comuni).
 {% endhint %}
-
->

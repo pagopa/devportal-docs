@@ -19,18 +19,26 @@ Avviare l'onboarding sul [portale Self Care (prod-interop)](https://selfcare.pag
 ### **Selezionare la tipologia di organizzazione e l'ente**
 
 In questo passaggio è necessario verificare la correttezza e l'aggiornamento dei **dati su IPA**
+
+<figure><img src="../.gitbook/assets/SS-01.png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 ### Indicare il Legale Rappresentante
 
 Procedere all'indicazione del legale rappresentante **nominando anche almeno due Amministratori** (nome, cognome, codice fiscale, email professionale). Gli Amministratori sono gli utenti principali del back office.
+
+<figure><img src="../.gitbook/assets/SS-01b.png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-### Scaricare l'Accordo di Adesione
+### Scaricare l'Accordo di Adesione e ricaricarlo firmato digitalmente
 
 Scaricare in PDF **l'Accordo di Adesione** precompilato generato dalla piattaforma, sottoporlo alla firma digitale del Legale Rappresentante (**FEQ CAdES**), ricaricarlo e finalizzare.
+
+<figure><img src="../.gitbook/assets/SS-02.png" alt=""><figcaption></figcaption></figure>
+
+
 {% endstep %}
 
 {% step %}
@@ -39,10 +47,6 @@ Scaricare in PDF **l'Accordo di Adesione** precompilato generato dalla piattafor
 A seguito dell'adesione, gli **attributi certificati** dell'ente (es. _Regione_, _Regione Lazio_) sono assegnati dalle fonti autoritative (IPA): l'operazione può richiedere **fino a 24 ore**.
 {% endstep %}
 {% endstepper %}
-
-> **\[Screenshot — PDND/Self Care]** _Form di onboarding: selezione dell'ente da IPA e nomina degli Amministratori._
-
-> **\[Screenshot — PDND/Self Care]** _Schermata di caricamento dell'Accordo di Adesione firmato (FEQ CAdES) e finalizzazione._
 
 {% hint style="info" %}
 **Approfondimento PDND.** Procedura passo-passo: [Guida all'adesione](https://developer.pagopa.it/pdnd-interoperabilita/guides/manuale-operativo-pdnd-interoperabilita/v1.0/per-iniziare/guida-alladesione). Inquadramento dell'ecosistema e del flusso erogatore/fruitore: [Come funziona: il flusso operativo](https://developer.pagopa.it/pdnd-interoperabilita/guides/manuale-operativo-pdnd-interoperabilita/v1.0/per-iniziare/funzionamento-generale)
@@ -58,7 +62,7 @@ PDND prevede tre ruoli utente, da assegnare secondo il principio del minimo priv
 
 La gestione delle utenze avviene dal menu **Utenti** (riservato agli Amministratori), che rimanda alla piattaforma **Area Riservata (Self Care)**.
 
-> **\[Screenshot — PDND]** _Menu «Utenti»: aggiunta di un utente e assegnazione del ruolo (Amministratore / Operatore API / Operatore di Sicurezza)._
+<figure><img src="../.gitbook/assets/SS-06.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 **Approfondimento PDND.** [Primo accesso e configurazione iniziale](https://developer.pagopa.it/pdnd-interoperabilita/guides/manuale-operativo-pdnd-interoperabilita/v1.0/per-iniziare/primo-accesso-e-configurazione-iniziale); [Gestione delle utenze](https://developer.pagopa.it/pdnd-interoperabilita/guides/pdnd-manuale-operativo/manuale-operativo/utenze).
