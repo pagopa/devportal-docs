@@ -1,11 +1,79 @@
-name: Push documentation on public repository
+name: Push documentation on target repository
 
 on:
   workflow_dispatch:
+    inputs:
+      base_branch:
+        description: 'Private repository branch from which to checkout'
+        required: true
+        default: 'docs/from-gitbook'
+        type: string
+      target_branch:
+        description: 'Target repository branch from which to checkout'
+        required: true
+        default: 'main'
+        type: string
+      target_repository:
+        description: 'Name of the target repository to push to (owner/repo format)'
+        required: true
+        default: 'pagopa/developer-portal-docs'
+        type: string
+      commit_message:
+        description: 'Custom commit message'
+        required: false
+        default: 'Update documentation'
+        type: string
+      paths_to_add:
+        description: 'Comma-separated list of paths to add'
+        required: false
+        default: ''
+        type: string
+      paths_to_remove:
+        description: 'Comma-separated list of paths to remove'
+        required: false
+        default: ''
+        type: string
 
 jobs:
   push-to-target:
     runs-on: ubuntu-latest
     steps:
-      - name: Placeholder
-        run: echo "No sync steps implemented yet."
+      - name: Checkout private repository
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ inputs.base_branch }}
+          path: private_repo
+
+      - name: Checkout target repository
+        uses: actions/checkout@v6
+        with:
+          ref: ${{ inputs.target_branch }}
+          repository: ${{ inputs.target_repository }}
+          token: ${{ secrets.PAT }}
+          path: target_repo
+
+      - name: Sync Repositories content
+        env:
+          PATHS_TO_ADD: ${{ inputs.paths_to_add }}
+          PATHS_TO_REMOVE: ${{ inputs.paths_to_remove }}
+        run: |
+          chmod +x private_repo/scripts/sync_repo.sh
+          ./private_repo/scripts/sync_repo.sh
+
+      - name: Push commit to target repo
+        env:
+          COMMIT_MESSAGE: ${{ inputs.commit_message }}
+          TARGET_BRANCH: ${{ inputs.target_branch }}
+          GH_USER_NAME: ${{ vars.GH_USER_NAME }}
+          GH_USER_MAIL: ${{ vars.GH_USER_MAIL }}
+        run: |
+          cd target_repo
+          git config user.name "$GH_USER_NAME"
+          git config user.email "$GH_USER_MAIL"
+          git add -A
+          if git diff-index --quiet HEAD; then
+            echo "No updates to commit"
+          else
+            git commit -m "$COMMIT_MESSAGE"
+            git push origin "$TARGET_BRANCH"
+          fi
