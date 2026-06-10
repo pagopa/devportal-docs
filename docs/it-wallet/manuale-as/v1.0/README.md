@@ -2,7 +2,7 @@
 
 Il **Titolare di Fonte Autentica** o **Authentic Source (AS)**, è il soggetto che detiene i dati da cui vengono creati gli **Attestati Elettronici di Attributi (EAA)** rilasciati nelle soluzioni IT-Wallet. Un EAA è un oggetto digitale che consente all'utente di dimostrare, in modo affidabile e verificabile, una condizione, uno stato o un diritto.
 
-Il ruolo del Titolare di Fonte Autentica non si esaurisce nella messa a disposizione dei dati, ma progetta le caratteristiche dell'EAA ed è responsabile del relativo ciclo di vita. Sul piano operativo, il Titolare di Fonte Autentica opera su PDND come erogatore di un e-service.
+Il ruolo del Titolare di Fonte Autentica non si esaurisce nella messa a disposizione dei dati, ma progetta le caratteristiche dell'EAA ed è responsabile del relativo ciclo di vita.&#x20;
 
 Sul piano operativo, il Titolare di Fonte Autentica opera sulla [piattaforma PDND come **erogatore** di un e-service](https://developer.pagopa.it/it/pdnd-interoperabilita/guides/manuale-operativo-pdnd-interoperabilita/v1.0/per-iniziare/funzionamento-generale#percorso-per-condividere-i-dati-su-pdnd-interoperabilita).
 
