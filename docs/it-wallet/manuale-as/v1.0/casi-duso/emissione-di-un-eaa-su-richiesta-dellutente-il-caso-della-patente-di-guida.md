@@ -28,7 +28,7 @@ Il processo ha origine dall'utente.
 {% hint style="info" %}
 La modalità di discovery (catalogo o touchpoint) e quella di risposta (sincrona o differita) sono definite dall'AS nella sezione `casi d'uso` del file di progettazione.&#x20;
 
-Per approfondire: → [**Come Progettare le caratteristiche dell'EAA**](../tutorial/come-progettare-le-caratteristiche-delleaa.md).&#x20;
+Per approfondire consulta il tutorial: → [**Come Progettare le caratteristiche dell'EAA**](../tutorial/come-progettare-le-caratteristiche-delleaa.md).&#x20;
 {% endhint %}
 
 #### **Fase 2: Reperimento del dato presso il** Titolare di Fonte Autentica

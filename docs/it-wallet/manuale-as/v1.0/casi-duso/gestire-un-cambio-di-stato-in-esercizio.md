@@ -26,9 +26,7 @@ L'evento ha origine nella fonte autentica.
 2. **Esito**: il dato reale e quello rappresentato nell'EAA tornano a coincidere; l'e-service è ora in grado di restituire lo stato aggiornato.
 
 {% hint style="info" %}
-Per i dettagli operativi sulla gestione del dato in esercizio, consulta il tutorial:&#x20;
-
-1. [**Come gestire esercizio, manutenzione e assistenza**.](../tutorial/come-gestire-esercizio-manutenzione-e-assistenza.md)
+Per i dettagli operativi sulla gestione del dato in esercizio, consulta il tutorial: → [**Come gestire esercizio, manutenzione e assistenza**.](../tutorial/come-gestire-esercizio-manutenzione-e-assistenza.md)
 {% endhint %}
 
 ### **Fase 2: Notifica della variazione tramite Signal Hub**
@@ -40,9 +38,7 @@ A seguito dell'aggiornamento, l'AS notifica la variazione alla piattaforma.
 3. **Processamento (lato Issuer)**: IPZS, in qualità di consumatore, è informato in tempo reale e acquisisce il dato aggiornato interrogando l'e-service. La piattaforma veicola la sola segnalazione, mentre il dato resta presso l'AS.
 
 {% hint style="info" %}
-Per i dettagli tecnici sul deposito dei segnali, consulta il riferimento:&#x20;
-
-1. [**Signal Hub, soglie di carico, Probing e Tracing**.](../riferimenti-tecnici/signal-hub-soglie-di-carico-probing-e-tracing.md)
+Per i dettagli tecnici sul deposito dei segnali, consulta il riferimento:  → [**Signal Hub, soglie di carico, Probing e Tracing**.](../riferimenti-tecnici/signal-hub-soglie-di-carico-probing-e-tracing.md)
 {% endhint %}
 
 ### **Fase 3: Aggiornamento dell'EAA e comunicazione all'utente**
@@ -54,9 +50,7 @@ La variazione si propaga fino al wallet del cittadino.
 3. **Assistenza**: per eventuali chiarimenti, l'AS presidia i referenti e i canali dichiarati nella sezione `assistenza`, collaborando con Issuer e Wallet Provider nella diagnosi dei malfunzionamenti.
 
 {% hint style="info" %}
-Per i dettagli sugli stati dell'attestato e sul disaccoppiamento, consulta il riferimento:&#x20;
-
-1. [**Data model, attributi e stati dell'EAA**. ](../riferimenti-tecnici/data-model-attributi-e-stati-delleaa.md)
+Per i dettagli sugli stati dell'attestato e sul disaccoppiamento, consulta il riferimento: → [**Data model, attributi e stati dell'EAA**.](../riferimenti-tecnici/data-model-attributi-e-stati-delleaa.md)
 {% endhint %}
 
 ### **Conclusione**
