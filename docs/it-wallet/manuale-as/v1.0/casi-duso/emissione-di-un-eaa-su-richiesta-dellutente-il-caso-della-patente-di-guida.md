@@ -18,7 +18,7 @@ Perché questo flusso possa iniziare, si assume che siano già soddisfatte le se
 2. In fase di progettazione l'Ente ha definito la discovery dal **catalogo** (EAA di interesse nazionale) e una modalità di risposta **sincrona**; per gli scenari d'uso in prossimità (esibizione a un soggetto verificatore) ha previsto il formato **mdoc-CBOR**.
 3. Marco dispone di un wallet attivo e della propria identità digitale, presupposto per l'avvio della richiesta.
 
-#### **Fase 1: Discovery e avvio della richiesta**
+### **Fase 1: Discovery e avvio della richiesta**
 
 Il processo ha origine dall'utente.
 
@@ -31,7 +31,7 @@ La modalità di discovery (catalogo o touchpoint) e quella di risposta (sincrona
 Per approfondire consulta il tutorial: → [**Come Progettare le caratteristiche dell'EAA**](../tutorial/come-progettare-le-caratteristiche-delleaa.md).&#x20;
 {% endhint %}
 
-#### **Fase 2: Reperimento del dato presso il** Titolare di Fonte Autentica
+### **Fase 2: Reperimento del dato presso il** Titolare di Fonte Autentica
 
 L'Issuer acquisisce dalla fonte autentica i dati necessari all'emissione.
 
@@ -43,7 +43,7 @@ L'Issuer acquisisce dalla fonte autentica i dati necessari all'emissione.
 Per i dettagli su voucher, portachiavi e firma della risposta, consulta il riferimento:  → [**E-service PDND e sicurezza**](../riferimenti-tecnici/e-service-pdnd-e-sicurezza.md).
 {% endhint %}
 
-#### **Fase 3: Emissione dell'EAA e disponibilità nel wallet**
+### **Fase 3: Emissione dell'EAA e disponibilità nel wallet**
 
 Acquisito il dato, l'Issuer genera l'attestato e lo rende disponibile.
 
@@ -57,7 +57,7 @@ Per i formati di emissione (`SD-JWT-VC` per il remoto, `mdoc-CBOR` per la prossi
 
 
 
-**Conclusione**
+### **Conclusione**
 
 L'emissione è completa: l'EAA della patente è disponibile nel wallet di Marco e pronto all'uso. Nel percorso il ruolo del Titolare di Fonte Autentica è circoscritto all'esposizione e alla firma del dato tramite l'e-service, mentre la generazione e il rilascio dell'attestato sono rimasti in capo all'Issuer.&#x20;
 
