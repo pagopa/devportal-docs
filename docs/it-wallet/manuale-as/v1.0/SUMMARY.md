@@ -37,7 +37,3 @@
 
 * [Emissione di un EAA su richiesta dell'utente: il caso della patente di guida](casi-duso/emissione-di-un-eaa-su-richiesta-dellutente-il-caso-della-patente-di-guida.md)
 * [Gestire un cambio di stato in esercizio](casi-duso/gestire-un-cambio-di-stato-in-esercizio.md)
-
-## \[Appendici Editoriali]
-
-* [Riepilogo dei punti da verificare](appendici-editoriali/riepilogo-dei-punti-da-verificare.md)
