@@ -1,0 +1,67 @@
+name: "🔗 Segnala un link rotto o una risorsa mancante"
+description: "Segnala un link non funzionante, un'immagine mancante o una risorsa non raggiungibile"
+labels: ["tipo: link rotto", "stato: nuovo"]
+body:
+  - type: dropdown
+    id: product
+    attributes:
+      label: Prodotto
+      description: A quale prodotto si riferisce la pagina?
+      options:
+        - pagoPA
+        - IO
+        - SEND
+        - Firma con IO
+        - PDND / Interoperabilità
+        - PARI
+        - SRTP
+        - Altro
+    validations:
+      required: true
+
+  - type: input
+    id: page_url
+    attributes:
+      label: URL della pagina che contiene il problema
+      description: Incolla l'URL della pagina dove hai trovato il link rotto o la risorsa mancante
+      placeholder: "https://developer.pagopa.it/..."
+    validations:
+      required: true
+
+  - type: input
+    id: broken_url
+    attributes:
+      label: URL o risorsa non raggiungibile
+      description: Incolla il link che non funziona o descrivi la risorsa mancante
+      placeholder: "https://..."
+    validations:
+      required: false
+
+  - type: dropdown
+    id: type
+    attributes:
+      label: Tipo di problema
+      options:
+        - Link esterno non raggiungibile
+        - Link interno al Developer Portal non funzionante
+        - Immagine o asset mancante
+        - File scaricabile non disponibile
+        - Altro
+    validations:
+      required: true
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Note aggiuntive (opzionale)
+      description: Eventuali dettagli utili — es. messaggio di errore, browser usato, quando si è verificato
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy
+      options:
+        - label: "Confermo che questa segnalazione non contiene dati personali o informazioni sensibili"
+          required: true
