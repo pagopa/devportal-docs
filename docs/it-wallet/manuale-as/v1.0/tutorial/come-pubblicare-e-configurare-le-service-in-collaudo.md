@@ -71,13 +71,11 @@ Notificare all'issuer (IPZS per EAA di interesse pubblico) il rilascio in collau
 
 **Presupposto — esistenza del template.** Il template per una nuova tipologia di credenziale è predisposto a monte: il Titolare di Fonte Autentica si registra a IT-Wallet dichiarando il proprio **ambito/categoria tassonomica** (es. salute) e la **credenziale** da emettere; a valle di un'approvazione, il template viene creato.
 
-
-
-#### **Passaggi (UI PDND).**
+### **Passaggi**&#x20;
 
 {% stepper %}
 {% step %}
-### Avvio da template
+#### Avvio da template
 
 Accedere a «crea e-service → usa template» e selezionare il template dalla **pagina Template IT-Wallet**, organizzata in **nove tile/categorie** (ciascuna raccoglie le attestazioni di un ambito, es. mondo salute). Per ciascun template è possibile consultare le implementazioni già realizzate.
 
@@ -115,7 +113,7 @@ L'e-service è quindi pubblicato a **catalogo**.
 
 **Ambito di applicazione.** Si applica agli EAA di nuova tipologia o atipici, in assenza di un template adeguato.
 
-**Passaggi (UI PDND).**
+## **Passaggi**
 
 {% stepper %}
 {% step %}
