@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 Fai una domanda o avvia una discussione
+    url: https://github.com/pagopa/devportal-docs/discussions
+    about: Per domande, chiarimenti o argomenti non legati a una pagina specifica, usa le Discussions.
