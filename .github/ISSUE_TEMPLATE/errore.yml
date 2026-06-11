@@ -1,0 +1,66 @@
+name: "🐛 Segnala un errore"
+description: "Segnala un errore, typo o informazione non corretta nella documentazione"
+labels: ["tipo: errore", "stato: nuovo"]
+body:
+  - type: dropdown
+    id: product
+    attributes:
+      label: Prodotto
+      description: A quale prodotto si riferisce la pagina?
+      options:
+        - pagoPA
+        - IO
+        - SEND
+        - Firma con IO
+        - PDND / Interoperabilità
+        - PARI
+        - SRTP
+        - Altro
+    validations:
+      required: true
+
+  - type: input
+    id: url
+    attributes:
+      label: URL della pagina
+      description: Incolla l'URL della pagina del Developer Portal o di GitBook
+      placeholder: "https://developer.pagopa.it/..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Descrizione dell'errore
+      description: Cosa c'è di sbagliato? Dove si trova esattamente?
+      placeholder: "Es: Nel passaggio 3 della guida X, il comando riportato è errato. Il comando corretto è..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Correzione suggerita (opzionale)
+      description: Se hai già una proposta di correzione, indicala qui
+    validations:
+      required: false
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priorità
+      description: Quanto è bloccante questo errore per chi legge la documentazione?
+      options:
+        - alta — impedisce di completare un'integrazione o causa errori tecnici
+        - media — crea confusione ma ha workaround
+        - bassa — errore formale o typo
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy
+      options:
+        - label: "Confermo che questa segnalazione non contiene dati personali o informazioni sensibili"
+          required: true
