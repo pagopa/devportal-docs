@@ -1,0 +1,78 @@
+name: "✨ Suggerisci un miglioramento"
+description: "Proponi una chiarimento, un esempio aggiuntivo o una riorganizzazione dei contenuti"
+labels: ["tipo: miglioramento", "stato: nuovo"]
+body:
+  - type: dropdown
+    id: product
+    attributes:
+      label: Prodotto
+      description: A quale prodotto si riferisce la pagina?
+      options:
+        - pagoPA
+        - IO
+        - SEND
+        - Firma con IO
+        - PDND / Interoperabilità
+        - PARI
+        - SRTP
+        - Altro
+    validations:
+      required: true
+
+  - type: input
+    id: url
+    attributes:
+      label: URL della pagina
+      description: Incolla l'URL della pagina del Developer Portal o di GitBook (se applicabile)
+      placeholder: "https://developer.pagopa.it/..."
+    validations:
+      required: false
+
+  - type: dropdown
+    id: type
+    attributes:
+      label: Tipo di miglioramento
+      options:
+        - Chiarimento di un concetto o passaggio
+        - Aggiunta di un esempio pratico
+        - Riorganizzazione dei contenuti
+        - Contenuto mancante
+        - Altro
+    validations:
+      required: true
+
+  - type: textarea
+    id: current
+    attributes:
+      label: Situazione attuale
+      description: Descrivi cosa trovi nella documentazione oggi e perché non è sufficiente
+      placeholder: "Es: La sezione X spiega il concetto Y in modo generico, senza un esempio pratico di..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposta di miglioramento
+      description: Cosa vorresti vedere? Anche in forma di bozza o appunti.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priorità
+      options:
+        - alta — blocca o rallenta significativamente il lavoro di integrazione
+        - media — migliorerebbe la comprensione ma non è bloccante
+        - bassa — suggerimento editoriale o stilistico
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy
+      options:
+        - label: "Confermo che questa segnalazione non contiene dati personali o informazioni sensibili"
+          required: true
