@@ -1,6 +1,6 @@
 # Il file di progettazione dell'EAA
 
-È il **documento di progettazione dell'EAA**: descrive in un unico file chi può ottenere l'EAA, come si utilizza, quali dati contiene, come si comporta in caso di errore, come varia di stato e come è assistito l'utente. Non costituisce un artefatto di runtime, bensì la **fonte di verità progettuale** da cui discendono le scelte dell'e-service. Si compila **una volta per ciascun EAA** e si **allega all'e-service** in fase di pubblicazione (cfr. 2.3).
+È il **documento di progettazione dell'EAA**: descrive in un unico file chi può ottenere l'EAA, come si utilizza, quali dati contiene, come si comporta in caso di errore, come varia di stato e come è assistito l'utente. Non costituisce un artefatto di runtime, bensì la **fonte di verità progettuale** da cui discendono le scelte dell'e-service. Si compila **una volta per ciascun EAA** e si **allega all'e-service** in fase di pubblicazione (vedi tutorial → [Come pubblicare e configurare l'e-service in collaudo](../tutorial/come-pubblicare-e-configurare-le-service-in-collaudo.md)).
 
 ## Le sezioni del file
 

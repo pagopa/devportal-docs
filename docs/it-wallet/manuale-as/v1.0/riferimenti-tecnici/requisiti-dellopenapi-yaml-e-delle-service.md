@@ -52,27 +52,47 @@ Gli errori del livello formale non sono auto-correggibili.
 
 ## Requisiti strutturali IT-Wallet (estratto)
 
-* `POST /attribute-claims/{datasetId}` **parametrico** (i path statici non sono conformi);&#x20;
-* ordine fisso dei blocchi;&#x20;
-* header di sicurezza (`Agid-JWT-Signature`, `Digest`, `Agid-JWT-TrackingEvidence`);&#x20;
-* **assenza di DPoP**, **Bearer** presente;&#x20;
-* `metadataClaims` required;&#x20;
-* `INTEGRITY_REST_02` sulla 200;&#x20;
-* `info.x-api-id`/`x-summary`;&#x20;
-* **server HTTPS**;&#x20;
-* `operationId` univoco;&#x20;
-* endpoint `/status`;&#x20;
-* rate limiting;&#x20;
-* error response **RFC 9457**;&#x20;
-* `$ref` risolti.&#x20;
+Oltre alla conformità formale, l'e-service deve rispettare i requisiti strutturali specifici di IT-Wallet, verificati al livello **strutturale** dal validatore del Service Management. Riguardano la forma degli endpoint, la sicurezza e l'integrità della risposta, la struttura del payload e la qualità della specifica; l'elenco seguente ne riporta un estratto, raggruppato per ambito.
+
+* **Endpoint e operazioni**
+  * `POST /attribute-claims/{datasetId}` **parametrico** (i path statici non sono conformi)
+  * `operationId` univoco
+  * endpoint `/status`
+* **Sicurezza e integrità della risposta**
+  * **server HTTPS**
+  * autenticazione **Bearer**, con **assenza di DPoP**
+  * header di sicurezza `Agid-JWT-Signature`, `Digest`, `Agid-JWT-TrackingEvidence`
+  * `INTEGRITY_REST_02` sulla risposta `200`
+* **Struttura del payload**
+  * ordine fisso dei blocchi
+  * `metadataClaims` **required**
+* **Metadati e qualità della specifica**
+  * `info.x-api-id` / `x-summary`
+  * `$ref` risolti
+* **Affidabilità e gestione degli errori**
+  * **rate limiting**
+  * error response conforme a **RFC 9457**
+
+&#x20;
 
 ## Requisiti semantici (Claim Registry)
 
-I nomi dei **claim** devono corrispondere a quelli del **Claim Registry IPZS** (\~60 claim, con alias). Un claim non presente genera una non conformità; l'armonizzazione passa per i team **Service Design / Service Management**.
+Un **claim** è il singolo attributo che compone l'EAA (nome, data di scadenza, numero di un documento). Perché l'attestato sia interpretato in modo univoco da Issuer, Titolari di Fonte Autentica e verificatori, i nomi dei claim non sono liberi: devono corrispondere a quelli del **registro dei claim di IT-Wallet** (il «Claim Registry» mantenuto da IPZS). Un nome non previsto genera una **non conformità** in validazione semantica; la riconduzione al nome standard (**armonizzazione**) è gestita con i team **Service Design / Service Management** di PagoPA.
+
+**Riferimento.** La definizione dei claim e del modello dati è nelle Specifiche Tecniche IT-Wallet ([italia/eid-wallet-it-docs](https://github.com/italia/eid-wallet-it-docs)); per i quattro blocchi (`identityClaims`, `userClaims`, `attributeClaims`, `metadataClaims`) si veda il riferimento → [Data model: attributi e stati dell'EAA](data-model-attributi-e-stati-delleaa.md).
 
 ## Anti-pattern (estratto)
 
-Annidamento ≤ 2 livelli; stringhe root-level con `maxLength ≤ 150`; ordine dei blocchi; `unique_id` nel requestBody; `Cache-Control: no-store`; divieto di `document_url`/`pdf`/`screenshot`.
+Gli anti-pattern sono costrutti e scelte da **evitare** nell'OpenAPI YAML dell'e-service: non sono errori formali, ma violazioni delle regole di progettazione IT-Wallet che il validatore del Service Management segnala insieme ai tre livelli di controllo. L'elenco seguente ne riporta un estratto (non esaustivo):
+
+* **Annidamento oltre 2 livelli** — gli schemi della risposta non devono superare i due livelli di annidamento.
+* **Stringhe di primo livello senza `maxLength ≤ 150`** — ogni stringa di livello radice deve dichiarare una lunghezza massima non superiore a 150 caratteri.
+* **Ordine dei blocchi non rispettato** — i blocchi di claim devono seguire l'ordine previsto (`identityClaims`, `userClaims`, `attributeClaims`, `metadataClaims`).
+* **`unique_id` assente nel `requestBody`** — la richiesta deve includere il campo `unique_id`.
+* **Risposte senza `Cache-Control: no-store`** — le risposte non devono essere memorizzate in cache.
+* **Uso di `document_url` / `pdf` / `screenshot`** — non è ammesso veicolare il documento come link, PDF o immagine: l'EAA è un insieme di attributi strutturati, non la riproduzione del documento.
+
+**Riferimento:** sezione 13.4 [Endpoint delle Fonti Autentiche](https://italia.github.io/eid-wallet-it-docs/versione-corrente/it/authentic-source-endpoint.html) delle Specifiche Tecniche IT-Wallet, che include la [specifica OpenAPI dell'e-service (OAS3-PDND-AS)](https://italia.github.io/eid-wallet-it-docs/versione-corrente/it/OAS3-PDND-AS.html); l'applicazione puntuale di questi vincoli è demandata al validatore del Service Management.
 
 ## Strumenti di validazione
 

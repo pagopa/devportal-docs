@@ -61,19 +61,25 @@ Requisiti del relativo OpenAPI in → [Requisiti dell'OpenAPI YAML e dell'e-serv
 {% step %}
 ### **Mappare le casistiche di errore**
 
-(`mappatura errori`; dettaglio in → [Codici di errore dell'e-service](../riferimenti-tecnici/codici-di-errore-delle-service.md))
+Associare a ciascun esito negativo dell'e-service (dato non disponibile, utente non riconosciuto, EAA inesistente e simili) un codice di risposta, un messaggio comprensibile e l'azione suggerita all'utente. Una mappatura completa consente al wallet di comunicare con chiarezza il motivo di un mancato rilascio e di orientare l'utente verso la soluzione. Compilare a tal fine la sezione `mappatura errori` del file di progettazione.
+
+Elenco dei codici, messaggi e relativa obbligatorietà è disponibile nel riferimento → [Codici di errore dell'e-service](../riferimenti-tecnici/codici-di-errore-delle-service.md)
 {% endstep %}
 
 {% step %}
 ### **Definire la gestione degli stati**
 
-(`mappatura stati`; dettaglio in → [Data model: attributi e stati dell'EAA](../riferimenti-tecnici/data-model-attributi-e-stati-delleaa.md))
+Per ciascuno stato del ciclo di vita dell'EAA (valido, sospeso, non valido, scaduto, da aggiornare) stabilire quando si applica, il messaggio da mostrare nel wallet e le eventuali azioni a disposizione dell'utente. Una corretta gestione degli stati mantiene l'attestato coerente con il dato reale e informa l'utente a ogni variazione. Compilare a tal fine la sezione `mappatura stati` del file di progettazione.
+
+Stati, transizioni ed effetti sull'EAA in → [Data model: attributi e stati dell'EAA](../riferimenti-tecnici/data-model-attributi-e-stati-delleaa.md)
 {% endstep %}
 
 {% step %}
 ### **Compilare assistenza e testi informativi**&#x20;
 
-(`assistenza`; dettaglio in → [Assistenza, referenti e glossario](../riferimenti-tecnici/assistenza-referenti-e-glossario.md))
+Indicare i referenti e i canali a cui l'utente può rivolgersi e redigere i testi informativi che accompagnano l'EAA nel wallet (descrizione, note d'uso e riferimenti per il supporto). Questi contenuti garantiscono trasparenza verso l'utente e un punto di contatto in caso di difficoltà nell'ottenimento o nell'utilizzo dell'attestato. Compilare a tal fine la sezione `assistenza` del file di progettazione.
+
+Struttura della sezione e contenuti attesi sono disponibili nel riferimento → [Assistenza, referenti e glossario](../riferimenti-tecnici/assistenza-referenti-e-glossario.md)
 {% endstep %}
 
 {% step %}
