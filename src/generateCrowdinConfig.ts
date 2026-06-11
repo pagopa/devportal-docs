@@ -1,13 +1,14 @@
-
 import * as fs from 'fs';
 import * as yaml from 'js-yaml';
 import * as os from 'os';
 import {
   buildCrowdinFileEntries,
-  collectDocsData,
   collectSelectedMarkdownFiles,
   CONFIG_FILE,
+  DIR_NAMES_URL,
   DOCS_DIR,
+  fetchDirNamesPaths,
+  parseRequestedDocsPaths,
   type CrowdinFileEntry,
 } from './docsStructure';
 
@@ -17,36 +18,7 @@ interface CrowdinConfig {
   files: CrowdinFileEntry[];
 }
 
-function parseRequestedDocsPaths(rawValue: string | undefined): string[] {
-  if (!rawValue) {
-    return [];
-  }
-
-  const trimmedValue = rawValue.trim();
-
-  if (!trimmedValue) {
-    return [];
-  }
-
-  try {
-    const parsedValue = JSON.parse(trimmedValue) as unknown;
-
-    if (Array.isArray(parsedValue)) {
-      return parsedValue
-        .map((entry) => `${entry}`.trim())
-        .filter((entry) => entry.length > 0);
-    }
-  } catch {
-    // Fall back to simple text parsing for workflow_dispatch input values.
-  }
-
-  return trimmedValue
-    .split(/\r?\n|,/)
-    .map((entry) => entry.trim())
-    .filter((entry) => entry.length > 0);
-}
-
-function generateCrowdinConfig() {
+async function generateCrowdinConfig() {
   console.log(`🔍 Scanning the "${DOCS_DIR}" directory...`);
 
   if (!fs.existsSync(DOCS_DIR)) {
@@ -54,17 +26,38 @@ function generateCrowdinConfig() {
     process.exit(1);
   }
 
-  const pathsToUpload = parseRequestedDocsPaths(process.env.PATHS_TO_UPLOAD);
-  const mdFiles = pathsToUpload.length > 0
-    ? collectSelectedMarkdownFiles(pathsToUpload)
-    : collectDocsData().mdFiles;
+  const requestedPathsToUpload = parseRequestedDocsPaths(process.env.PATHS_TO_UPLOAD);
+  let pathsToUpload = requestedPathsToUpload;
+  let usingDirNames = false;
 
-  if (pathsToUpload.length > 0) {
+  if (pathsToUpload.length === 0) {
+    console.log(`🌐 Fetching dirNames from ${DIR_NAMES_URL}...`);
+    try {
+      pathsToUpload = await fetchDirNamesPaths();
+    } catch (error) {
+      console.error('❌ Error while fetching dirNames:', error);
+      process.exit(1);
+    }
+
+    if (pathsToUpload.length === 0) {
+      console.error('❌ The dirNames payload is empty; nothing to upload.');
+      process.exit(1);
+    }
+
+    usingDirNames = true;
+    console.log(`📥 Received ${pathsToUpload.length} path(s) from dirNames.`);
+  } else {
     console.log(`🎯 Limiting the upload to ${pathsToUpload.length} selected path(s).`);
   }
 
+  const mdFiles = collectSelectedMarkdownFiles(pathsToUpload);
+
   if (mdFiles.length === 0) {
-    console.warn(`⚠️ No .md files found in "${DOCS_DIR}".`);
+    console.warn(
+      usingDirNames
+        ? `⚠️ No .md files found under the paths declared in dirNames.`
+        : `⚠️ No .md files found under the selected paths.`,
+    );
   }
 
   const files: CrowdinFileEntry[] = buildCrowdinFileEntries(mdFiles);
@@ -104,4 +97,7 @@ function generateCrowdinConfig() {
   }
 }
 
-generateCrowdinConfig();
+generateCrowdinConfig().catch((error) => {
+  console.error('❌ Unexpected error while generating crowdin.yml:', error);
+  process.exit(1);
+});
