@@ -7,7 +7,7 @@ metaLinks:
 
 # Scheda di dettaglio del servizio
 
-Una **scheda di dettaglio servizio** è una pagina che descrive in modo approfondito il servizio offerto per aiutare l'utente a prendere una decisione.
+Una **scheda di dettaglio servizio** è una pagina che descrive in modo approfondito il servizio offerto.
 
 ### Elementi obbligatori
 
@@ -15,14 +15,18 @@ Una **scheda di dettaglio servizio** è una pagina che descrive in modo approfon
 * Riferimento esplicito a **SEND**
 * Il nome del servizio **Messaggi di cortesia**
 * É fondamentale veicolare correttamente il messaggio che l'utente, una volta attivato il servizio, riceverà semplicemente degli avvisi o appunto dei messaggi di cortesia. L'utente infatti NON riceverà direttamente la comunicazione a valore legale. Quest'ultima sarà visibile solo su SEND.
-* É importante informare l'utente che, se accede alla comunicazione su SEND entro 5 giorni dall'invio del messaggio di cortesia eviterà la spedizione della comunicazione cartacea e i costi ad essa associati.
+* É importante informare l'utente che, se accede alla comunicazione su SEND entro 120 ore dall'invio del messaggio di cortesia eviterà la spedizione della comunicazione cartacea e i costi associati alla stampa e invio della raccomandata.
 * Parlare di **Comunicazioni a valore legale** e non di notifiche
 * Una **call-to-action** che inviti l'utente all'attivazione/disattivazione del servizio
+* Una **call-to-action** per attivare le notifiche push dell’app di homebanki
 
 ### Elementi facoltativi
 
-* Utilizzo di immagini o illustrazioni purché siano in linea con le [**Brand guidelines**](https://app.gitbook.com/invite/KXYtsf32WSKm6ga638R3/Bh78E1qYOrxJVckxMQfZ) [**di SEND**](https://app.gitbook.com/invite/KXYtsf32WSKm6ga638R3/Bh78E1qYOrxJVckxMQfZ). \
-  IMPORTANTE: gli asset dovranno esser approvati da parte del team di comunicazione PagoPA S.p.A.
+* Utilizzo di immagini o illustrazioni purché siano in linea con le [**Brand guidelines**](https://app.gitbook.com/invite/KXYtsf32WSKm6ga638R3/Bh78E1qYOrxJVckxMQfZ) [**di SEND**](https://app.gitbook.com/invite/KXYtsf32WSKm6ga638R3/Bh78E1qYOrxJVckxMQfZ).&#x20;
+
+{% hint style="warning" %}
+**IMPORTANTE**: gli asset dovranno essere approvati da parte del team di comunicazione PagoPA S.p.A.
+{% endhint %}
 
 ### 💡 Consiglio
 
