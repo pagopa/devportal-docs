@@ -14,7 +14,7 @@ metaLinks:
 
 ## Che cos’è una comunicazione a valore legale
 
-Le **comunicazioni a valore legale** sono notifiche di atti emessi ufficialmente da un'amministrazione come multe, avvisi di accertamento di tributi o rimborsi.&#x20;
+Le **notifiche SEND** o **comunicazioni a valore legale** trasmettono atti ufficiali emessi da un'amministrazione, come multe, avvisi di accertamento di tributi, che producono effetti legali su mittente e destinatario.
 
 Le notifiche SEND sono **diverse dalle notifiche push**, ossia quei brevi messaggi che si ricevono sullo schermo di un dispositivo.
 
