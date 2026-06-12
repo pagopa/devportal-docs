@@ -22,7 +22,7 @@ Obiettivo della landing page è dare maggiori dettagli all'utente rispetto:
 * Riferimento esplicito a **SEND**
 * Il nome del servizio **Messaggi di cortesia**
 * É fondamentale veicolare correttamente il messaggio che l'utente, una volta attivato il servizio, riceverà semplicemente degli avvisi o appunto dei messaggi di cortesia. L'utente infatti NON riceverà direttamente la comunicazione a valore legale. Quest'ultima sarà visibile solo su SEND.
-* É importante informare l'utente che, se accede alla comunicazione su SEND entro 5 giorni dalla ricezione del messaggio di cortesia, eviterà l'invio della raccomandata cartacea e i costi associati alla notifica analogica.
+* É importante informare l'utente che, se accede alla comunicazione su SEND entro 120 ore dall'invio del messaggio di cortesia, eviterà l'invio della raccomandata cartacea e i costi associati alla notifica analogica.
 * Parlare di **Comunicazioni a valore legale** e non di notifiche
 * Una **call-to-action** che inviti l'utente all'attivazione del servizio
 
