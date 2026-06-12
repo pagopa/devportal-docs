@@ -20,6 +20,6 @@ Queste notifiche, in virtù del loro valore legale, sono **diverse dalle notific
 
 Per i cittadini che hanno attivato il servizio all'interno dell'app bancaria dei PSP, il layer EDM, dopo aver ricevuto un messaggio da **SEND,** invia un **Messaggio di cortesia** per avvisarli della presenza sulla piattaforma SEND di comunicazioni a valore legale a loro carico, facilitando l’accesso alle informazioni e l’interazione con gli atti digitali.
 
-I cittadini dunque possono ricevere i **Messaggi di cortesia** tramite e-mail, SMS, l’app IO o i canali messi a disposizione dai **Prestatori di Servizi di Pagamento (PSP)**, come le loro app.
+I cittadini possono ricevere i **Messaggi di cortesia** tramite app IO, e-mail, SMS o i canali messi a disposizione dai **Prestatori di Servizi di Pagamento (PSP)**, come le loro app.
 
 <br>
