@@ -19,8 +19,8 @@ Obiettivo di questo banner è quello di portare a conoscenza dell'utente, introd
 * Riferimento esplicito a **SEND**
 * Menzionare il servizio **Messaggi di cortesia**
 * É importante veicolare correttamente il messaggio all'utente: una volta attivato il servizio, riceverà semplicemente dei **messaggi di cortesia**. L'utente NON riceverà direttamente la comunicazione a valore legale visibile solo sulla piattaforma SEND. Quest'ultima sarà visibile solo su SEND
-* Parlare di **Comunicazioni a valore legale** e NON di notifiche
-* Una **call-to-action** che inviti l'utente all'attivazione del servizio (da analisi interne è emerso che la call-to-action operativa è mediamente più efficace di quella informativa)
+* Parlare di **comunicazioni a valore legale** e NON di notifiche
+* Una **call-to-action** che inviti l'utente all'attivazione del servizio
 
 ### Elementi facoltativi
 
