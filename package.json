@@ -1,0 +1,26 @@
+{
+  "name": "devportal-docs",
+  "version": "1.0.0",
+  "description": "Devportal Docs",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate_doc_structure": "ts-node-script --project tsconfig.json src/generateDocStructure.ts",
+    "generate_file": "ts-node-script --project tsconfig.json src/generateCrowdinConfig.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pagopa/devportal-docs.git"
+  },
+  "dependencies": {
+    "js-yaml": "^4.1.1"
+  },
+  "devDependencies": {
+    "@types/js-yaml": "^4.0.9",
+    "@types/node": "^25.2.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
