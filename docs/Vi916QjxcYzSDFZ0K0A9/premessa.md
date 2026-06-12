@@ -8,7 +8,7 @@ metaLinks:
 
 ## Che cos’è SEND
 
-[**SEND**](https://notifichedigitali.pagopa.it/it/) è la piattaforma che rende veloce, economico e sicuro ricevere in digitale le **comunicazioni a valore legale** che ti inviano gli enti aderenti.
+[**SEND**](https://notifichedigitali.pagopa.it/it/) è la piattaforma che rende veloce, economico e sicuro ricevere in digitale le **comunicazioni a valore legale** da parte degli enti mittenti.
 
 
 
