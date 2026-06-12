@@ -18,7 +18,7 @@ Obiettivo di questo banner è quello di portare a conoscenza dell'utente, introd
 * Logo di [**SEND**](https://app.gitbook.com/s/xnuIxHY93w6yrtKccqEM/appendice/risorse-utili) [**qui scaricabile**](https://app.gitbook.com/s/xnuIxHY93w6yrtKccqEM/appendice/risorse-utili)**.** Utilizzare la versione senza descriptor blu (logo send\_logo\_HEX.svg) oppure bianca (logo send\_logo\_W.svg). Consultare le [**Brand guidelines**](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FxnuIxHY93w6yrtKccqEM%2Fuploads%2F7lEKkCCjb9Ky0JhRgJdT%2Fsend_brand%20guidelines_DEF.pdf?alt=media\&token=511339d3-3ffc-4c5a-bbef-c09cc4687dd1) per i colori di sfondo da utilizzare in base al logo scelto
 * Riferimento esplicito a **SEND**
 * Menzionare il servizio **Messaggi di cortesia**
-* É importante veicolare correttamente il messaggio all'utente: una volta attivato il servizio, riceverà semplicemente dei **messaggi di cortesia,** degli **avvisi**. L'utente NON riceverà direttamente la comunicazione a valore legale visibile solo sulla piattaforma SEND. Quest'ultima sarà visibile solo su SEND
+* É importante veicolare correttamente il messaggio all'utente: una volta attivato il servizio, riceverà semplicemente dei **messaggi di cortesia**. L'utente NON riceverà direttamente la comunicazione a valore legale visibile solo sulla piattaforma SEND. Quest'ultima sarà visibile solo su SEND
 * Parlare di **Comunicazioni a valore legale** e NON di notifiche
 * Una **call-to-action** che inviti l'utente all'attivazione del servizio (da analisi interne è emerso che la call-to-action operativa è mediamente più efficace di quella informativa)
 
