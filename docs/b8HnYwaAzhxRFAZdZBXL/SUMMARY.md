@@ -1,0 +1,40 @@
+# Table of contents
+
+* [Premessa](README.md)
+* [Normativa e approfondimenti](normativa-e-approfondimenti/README.md)
+  * [SLA - Service Level Agreement](normativa-e-approfondimenti/sla-service-level-agreement.md)
+* [Videotutorial](videotutorial.md)
+* [Glossario](glossario.md)
+* [Funzionamento generale](funzionamento-generale.md)
+* [Come integrare i propri servizi su PDND Interoperabilità](come-integrare-i-propri-servizi-su-pdnd-interoperabilita.md)
+
+## Manuale operativo
+
+* [Guida all'adesione](manuale-operativo/guida-alladesione.md)
+* [Ambienti disponibili](manuale-operativo/ambienti-disponibili.md)
+* [E-service](manuale-operativo/e-service.md)
+* [Attributi](manuale-operativo/attributi.md)
+* [Richieste di fruizione](manuale-operativo/richieste-di-fruizione.md)
+* [Finalità](manuale-operativo/finalita.md)
+* [Client, portachiavi e materiale crittografico](manuale-operativo/client-e-materiale-crittografico.md)
+* [Generare e caricare chiavi di sicurezza](manuale-operativo/generare-e-caricare-chiavi-di-sicurezza.md)
+* [Utilizzare i voucher](manuale-operativo/utilizzare-i-voucher.md)
+* [Deleghe](manuale-operativo/deleghe.md)
+* [Template e-service](manuale-operativo/template-e-service/README.md)
+  * [Ciclo di vita](manuale-operativo/template-e-service/ciclo-di-vita.md)
+  * [Relazione tra template e istanza](manuale-operativo/template-e-service/relazione-tra-template-e-istanza.md)
+  * [Altre informazioni utili](manuale-operativo/template-e-service/altre-informazioni-utili.md)
+* [Utenze](manuale-operativo/utenze.md)
+* [API esposte da PDND Interoperabilità](manuale-operativo/api-esposte-da-pdnd-interoperabilita.md)
+
+## Informazioni utili
+
+* [Canali di supporto](informazioni-utili/canali-di-supporto.md)
+* [Changelog](informazioni-utili/changelog.md)
+
+## FAQ
+
+* [Per i DPO](faq/per-i-dpo.md)
+* [Per gli sviluppatori](faq/per-gli-sviluppatori.md)
+* [Per gli aderenti](faq/per-gli-aderenti.md)
+* [Per i cittadini](faq/per-i-cittadini.md)

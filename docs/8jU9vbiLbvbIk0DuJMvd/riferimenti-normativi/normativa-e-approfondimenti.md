@@ -1,0 +1,29 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/jqqB3CsnONZdScwRg13O/riferimenti-normativi/normativa-e-approfondimenti
+---
+
+# Normativa
+
+### Il Quadro Normativo
+
+La piattaforma rappresenta uno degli strumenti attuativi chiave per la digitalizzazione del Paese, come previsto dal Piano Nazionale di Ripresa e Resilienza (PNRR). Il suo funzionamento si fonda su un solido impianto di leggi e regolamenti che ne garantiscono la sicurezza, la standardizzazione e il rispetto dei diritti di cittadini e imprese.
+
+### Fonti Principali
+
+Di seguito sono elencate le principali fonti normative e regolamentari che disciplinano il funzionamento della piattaforma.
+
+* [**Codice dell'Amministrazione Digitale (CAD)**](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2005-03-07;82) _D.Lgs. 7 marzo 2005, n. 82 e s.m.i._ È il testo unico che riunisce e organizza le norme riguardanti l'informatizzazione della Pubblica Amministrazione. L'articolo 50-ter, in particolare, istituisce la Piattaforma Digitale Nazionale Dati.
+* [**Decreto Legge n. 77/2021 (Decreto Semplificazioni bis)**](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2021-07-29;108) _Convertito con modificazioni dalla Legge 29 luglio 2021, n. 108._ Definisce le modalità di funzionamento della piattaforma e stabilisce le date entro cui le pubbliche amministrazioni sono tenute a completare l'accreditamento e la migrazione verso PDND.
+* [**Direttiva PDND Interoperabilità 05/12/2023**](https://www.governo.it/sites/governo.it/files/Decreto20231205_Direttiva_PDND.pdf) Definisce gli indirizzi operativi per dare piena attuazione all’art. 50-ter del CAD, accelerando l’adesione delle amministrazioni alla PDND che sono tenute ad implementare API conformi al Modello di Interoperabilità delle Pubbliche Amministazioni e alla loro pubblicazione nel Catalogo, per la piena attuazione del principio “once only”. Il Dipartimento per la trasformazione digitale, in coordinamento con AgID, assicura supporto e vigilanza sull’attuazione senza nuovi o maggiori oneri per la finanza pubblica.
+* [**Parere favorevole del Garante per la Protezione dei Dati Personali**](https://www.garanteprivacy.it/web/guest/home/docweb/-/docweb-display/docweb/9732758) Il Garante per la protezione dei dati personali ha espresso parere favorevole sullo schema di Linee Guida AgID per l’infrastruttura tecnologica della PDND (provv. 16 dicembre 2021, n. 433), subordinandolo – tra l’altro – alla redazione e trasmissione da parte del gestore della valutazione d’impatto (DPIA) e all’adozione delle misure necessarie a garantire integrità e riservatezza dei trattamenti.
+* [**Linee Guida sull'interoperabilità tecnica delle Pubbliche Amministrazioni**](https://www.agid.gov.it/sites/agid/files/2024-05/linee_guida_interoperabilit_tecnica_pa.pdf) (voce "Interoperabilità") _Emanate da AgID (Agenzia per l'Italia Digitale)._ Definite nel perimetro del ModI (Modello di Interoperabilità delle Pubbliche Amministrazioni). Individuano gli standard tecnici, i pattern e profili di interoperabilità che tutti gli e-service esposti dagli aderenti sulla piattaforma devono seguire per garantire la piena compatibilità tra i sistemi informatici delle pubbliche amministrazioni.
+* [**Linee Guida AgID sull’infrastruttura tecnologica della PDND dicembre 2021**](https://trasparenza.agid.gov.it/page/9/details/2426/determinazione-n-6272021-del-15-dicembre-2021-adozione-delle-linee-guida-sullinfrastruttura-tecnologica-della-piattaforma-digitale-nazionale-dati-per-linteroperabilita-dei-sistemi-informativi-e-delle-basi-di-dati-ai-sensi-dellarticolo-50-ter-comma-2-del-d-lgs-7-marzo-2005-n-82-e-smi.html) ([aggiornamento maggio 2023](https://www.agid.gov.it/it/infrastrutture/sistema-pubblico-connettivita/il-nuovo-modello-interoperabilita), [aggiornamento giugno 2025](https://trasparenza.agid.gov.it/page/103/details/5374/adozione-delle-linee-guida-sullinfrastruttura-tecnologica-della-piattaforma-digitale-nazionale-dati-per-linteroperabilita-dei-sistemi-informativi-e-delle-basi-di-dati.html)) _Emanate da AgID (Agenzia per l'Italia Digitale)_. Danno attuazione all’**art. 50-ter del CAD**, definendo **principi, ruoli e responsabilità** (amministrazioni e gestore), **processi** (accreditamento, pubblicazione e fruizione degli e-service, gestione del catalogo), **requisiti tecnici e di sicurezza** (voucher, tracciamento), nonché **livelli di servizio e controlli**, per assicurare un’interoperabilità **uniforme, sicura e tracciata** tra le PA.
+
+Per maggiori dettagli sulla struttura dell'ecosistema, si veda la [pagina dedicata](https://developers.italia.it/it/interoperabilita.html) su Developers Italia.
+
+***
+
+Pagina successiva [→ Termini e condizioni e SLA](termini-e-condizioni-e-sla.md)

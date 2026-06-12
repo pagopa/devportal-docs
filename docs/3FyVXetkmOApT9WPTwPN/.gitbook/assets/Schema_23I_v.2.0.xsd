@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xades141="http://uri.etsi.org/01903/v1.4.1#" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="xmldsig-schema.xsd" namespace="http://www.w3.org/2000/09/xmldsig#"/>
+	<xs:element name="FDAC">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="DatiOggetto">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="CodiceOggetto" type="xs:string"/>
+							<xs:element name="CodiceAC" type="xs:string"/>
+							<xs:element name="DescrizioneCausaleProdotto" type="xs:string"/>
+							<xs:element name="CentroAccettazione" type="xs:string"/>
+							<xs:element name="DataAccettazione" type="xs:date"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="DatiMittente">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="NominativoMittente" type="xs:string"/>
+							<xs:element name="IndirizzoMittente" type="xs:string" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="CittaMittente" type="xs:string" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="CAPMittente" type="xs:string" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="ProvinciaMittente" type="xs:string" minOccurs="0" maxOccurs="1"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="DatiDestinatario">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Destinatario" type="xs:string"/>
+							<xs:element name="Indirizzo" type="xs:string"/>
+							<xs:element name="Comune" type="xs:string"/>
+							<xs:element name="CAP" type="xs:string"/>
+							<xs:element name="Provincia" type="xs:string"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="DatiInesitoDigitale" minOccurs="0" maxOccurs="2">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="CodiceDID" type="xs:string"/>
+							<xs:element name="HashDID" type="xs:string"/>
+							<xs:element name="DescrizioneFrazionario" type="xs:string"/>
+							<xs:element name="CausaleInesito" type="xs:string" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="DataOraInesito" type="xs:date" minOccurs="0" maxOccurs="1"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="DatiConsegnaDomicilio" minOccurs="0" maxOccurs="1">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="DescrizioneFrazionario" type="xs:string"/>
+							<xs:element name="DescRicevente" type="xs:string"/>
+							<xs:element name="QualificaRicevente" type="xs:string" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="FlagRifiuto" type="xs:string" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="DataOraConsegna" type="xs:date" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="TrattoGrafico" type="xs:string" minOccurs="0" maxOccurs="1"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="DatiConsegnaSportello" minOccurs="0" maxOccurs="1">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="CodiceFrazionario" type="xs:string"/>
+							<xs:element name="DescrizioneFrazionario" type="xs:string"/>
+							<xs:element name="DescRicevente" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+							<xs:element name="QualificaRicevente" type="xs:string" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="FlagRifiuto" type="xs:string"/>
+							<xs:element name="DataOraConsegna" type="xs:date"/>
+							<xs:element name="EsitoConsegna" type="xs:string"/>
+							<xs:element name="MotivoMancatoTrattoGrafico" type="xs:string" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="TrattoGrafico" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+							<xs:element name="tipologiaDiConsegna" type="xs:string" minOccurs="0" maxOccurs="1"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element ref="ds:Signature" />
+			</xs:sequence>
+			<xs:attribute name="Id" type="xs:string" use="required"/>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

@@ -1,0 +1,111 @@
+# Come aderire a PDND Interoperabilità
+
+## Step 1 - Prima dell'adesione
+
+### PA o Gestore di servizi pubblici (GSP)
+
+Prima di iniziare la procedura di adesione verifica che i dati dell'ente contenuti in [IPA](https://www.indicepa.gov.it/ipa-portale/consultazione/indirizzo-sede/ricerca-ente) siano corretti. Assicurati di avere accesso alla PEC indicata come domicilio digitale dell'ente all'interno del Catalogo IPA.
+
+### Società a Controllo Pubblico (SCP)
+
+Controlla di essere in possesso di tutti i dati relativi alla società che potranno esserti richiesti al momento dell'adesione e di avere accesso alla PEC che dovrai indicare nel form di adesione.
+
+### Gestore privato di piattaforma e-procurement
+
+Controlla di aver completato il [processo](https://www.agid.gov.it/it/piattaforme/procurement/certificazione-componenti-piattaforme) di certificazione dei componenti delle piattaforme pubblicato da AgID. Per maggiori informazioni sull'e-procurement si fa riferimento a [questa news ](https://www.agid.gov.it/it/agenzia/stampa-e-comunicazione/notizie/2023/09/25/procurement-pubblicato-schema-operativo-supporto-del-processo-certificazione)sul sito di AgID.
+
+### Impresa e/o gruppo assicurativo
+
+Controlla di essere presente all'interno [dell'Albo](https://infostat-ivass.bancaditalia.it/RIGAInquiry-public/ng/#/home). Per maggiori informazioni si fa riferimento a questa [lettera](https://www.ivass.it/normativa/nazionale/secondaria-ivass/lettere/2023/lm-22-11/index.html?dotcache=refresh) al mercato di IVASS.
+
+{% hint style="info" %}
+Per aiutarti nel percorso di onboarding abbiamo creato un [videotutorial](https://www.youtube.com/watch?v=mLCAnUTL3QE) a completamento di questa guida all'adesione.
+{% endhint %}
+
+## Step 2 - Navigare alla pagina di adesione
+
+{% embed url="https://selfcare.pagopa.it/onboarding/prod-interop" %}
+
+## Step 3 - Effettuare il login con SPID o CIE
+
+Come primo passo va effettuato il login con SPID o CIE. Non è necessario che sia il Legale Rappresentante dell'ente colui che avvia il processo di adesione. Viene comunque garantita la legittimità dell'operazione: l'Accordo di Adesione da firmare è inviato al domicilio digitale dell'ente di riferimento. Il domicilio digitale viene preso automaticamente dai dati disponibili sul catalogo IPA e non è modificabile dall'utente.
+
+## Step 4 - Selezionare la tipologia di ente
+
+<figure><img src="../.gitbook/assets/Selezione ente onboarding.png" alt=""><figcaption><p>La schermata di selezione della tipologia dell'ente</p></figcaption></figure>
+
+Indica qual è la tipologia dell’Ente per il quale si sta operando ai sensi degli artt. 2 (comma 2) e 64bis (par. 6) del Codice dell'Amministrazione Digitale (CAD). Qualora l’informazione sia già disponibile attraverso IPA, sarà preselezionata. Si potrà comunque modificare la tipologia dell’ente selezionando un'opzione differente.
+
+## Step 5 - Selezionare l'ente per il quale effettuare l'adesione
+
+<div><img src="../.gitbook/assets/selfcare.pagopa.it_onboarding_prod-interop(Macbook Pro – Screenshot).png" alt="La schermata di selezione dell&#x27;ente per PA e GSP"> <figure><img src="../.gitbook/assets/Screenshot 2024-10-09 alle 09.36.09.png" alt=""><figcaption><p>La schermata di selezione dell'ente per SCP</p></figcaption></figure></div>
+
+
+
+* Per PA e GSP: seleziona l'ente dal campo di auto-completamento _**Cerca ente**_. L'elenco degli enti disponibili fa riferimento al Catalogo IPA. Qualora il proprio ente non fosse presente nell'elenco, clicca sul link disponibile sotto il campo di input per scoprire come accreditarlo.
+* Per SCP: inserisci il codice fiscale dell'ente, il nome apparirà una volta cliccato sul pulsante Continua.
+
+## Step 6 - Inserire i dati dell'ente
+
+![La schermata nella quale indicare i dati dell'ente, abitualmente precompilata con le informazioni che vengono dal catalogo IPA](<../.gitbook/assets/uat.selfcare.pagopa.it_onboarding_prod-interop(Macbook Pro – Screenshot) (2).png>)
+
+Tutti i campi sopra indicati appariranno precompilati quando disponibili. I campi _**Ragione sociale**_**,&#x20;**_**Sede legale**_**,&#x20;**_**Indirizzo PEC**_**,&#x20;**_**Codice fiscale**_**&#x20;e&#x20;**_**Partita IVA**_ non saranno modificabili se la fonte di provenienza dell'informazione è il Catalogo IPA. È invece possibile inserire una nuova partita IVA in caso non coincida con il codice fiscale, cliccando sulla spunta apposita.
+
+Il campo relativo al _**Codice destinatario**_ è invece sempre modificabile.
+
+## Step 7 - Indicare il Legale Rappresentante
+
+![La schermata nella quale si inseriscono le informazioni del legale rappresentante dell'ente](<../.gitbook/assets/uat.selfcare.pagopa.it_onboarding_prod-interop(Macbook Pro – Screenshot) (3).png>)
+
+Inserisci i dati richiesti per la sezione di Legale Rappresentante. Con questa figura si identifica non necessariamente il vertice dell'ente; può essere il rappresentante pro tempore o un procuratore munito dei necessari poteri di firma. La cosa importante è che i dati della persona qui indicata corrispondano con quelli della persona che apporrà la firma digitale al documento di adesione indicato al [punto 8](guida-alladesione.md#8.-fai-firmare-digitalmente-laccordo-al-legale-rappresentante).
+
+## Step 8 - Indicare gli amministratori per PDND Interoperabilità
+
+![La schermata nella quale si inseriscono i dati degli utenti con privilegi di amministrazione](<../.gitbook/assets/uat.selfcare.pagopa.it_onboarding_prod-interop(Macbook Pro – Screenshot) (4).png>)
+
+Le persone che vengono inserite in questa schermata avranno la qualifica di _**Amministratore**_ all'interno di PDND Interoperabilità e avranno pieni poteri di amministrazione. È la stessa figura che sulle linee guida AgID è indicata come _**Operatore Amministrativo**_. Possono essere inseriti fino a 3 amministratori per l'ambiente di Produzione cliccando su _**Aggiungi un altro Amministratore**_.
+
+{% hint style="info" %}
+Tutte le figure operative (Operatore API e Operatore di Sicurezza) potranno essere aggiunte, rimosse e gestite in un secondo momento, una volta completata l'adesione a PDND Interoperabilità.
+{% endhint %}
+
+{% hint style="warning" %}
+Ulteriori Amministratori, oltre a quelli segnalati in fase di adesione, possono essere aggiunti direttamente dalla dashboard dell’ente per i vari ambienti, mentre per rimuoverli dall'ambiente di Produzione bisognerà compilare il documento allegato a fine pagina e inviarlo alla PEC indicata.
+{% endhint %}
+
+* Per PA e GSP: una volta completato l'inserimento, clicca su _**Continua**._ Se non ci sono errori, viene generato l'Accordo di Adesione da firmare, che viene inviato al domicilio digitale dell'ente.
+* Per SCP: una volta completato l'inserimento, clicca su _**Continua**._ Se non ci sono errori, viene generata e inviata alla PEC indicata in fase di adesione una mail contenente le istruzioni per completare l'adesione. Ora si tratta di attendere di essere contattati dal Team Account dedicato all'adesione che chiederà l'inoltro dei documenti richiesti in precedenza. Controllati i documenti, il Team Account invierà sempre alla PEC indicata l'Accordo di Adesione da firmare in formato CAdES (.p7m).
+
+## Step 9 - Firmare digitalmente l'Accordo di Adesione
+
+Apri la PEC che è arrivata al tuo ente. Scarica l'Accordo di Adesione allegato, che deve essere firmato per nome e per conto di chi è Legale Rappresentante. I dati nella firma digitale devono corrispondere alla persona indicata come Legale Rappresentante durante la fase di compilazione del form di adesione. La firma digitale va apposta una volta all'intero documento, e lo standard da utilizzare è CAdES.
+
+## Step 10 - Caricare l'Accordo di Adesione firmato
+
+All'interno della mail arrivata per PEC, ci sono due link.&#x20;
+
+Il primo è per completare la procedura di adesione. Quando lo apri, atterri su una pagina nella quale puoi caricare l'Accordo di Adesione firmato, come da screenshot sotto.&#x20;
+
+![La schermata nella quale si carica l'accordo di adesione ricevuto al domicilio digitale, firmato dal legale rappresentante dell'ente](<../.gitbook/assets/Screenshot 2022-07-28 at 17.15.59.png>)
+
+Se il caricamento va a buon fine, avrai risposta positiva, ricevendo inoltre una mail all’indirizzo PEC che comunica il completamento dell’adesione.
+
+In caso contrario, ti sarà segnalato l'errore. L'errore può essere di uno di questi  tipi:
+
+1. errore generico: errore non ben individuato ma che non ha permesso di completare la registrazione;
+2. errore per allegato non conforme: l’accordo di adesione non ha il formato aspettato oppure non coincide con quello inviato dalla piattaforma (per una spiegazione più esaustiva controlla la [sezione dedicata](../il-prodotto/normativa-e-approfondimenti/accordo-di-adesione.md));
+3. errore per firma digitale non riconducibile al Legale Rappresentante indicato in fase di adesione al prodotto: il firmatario non coincide con quanto dichiarato nel documento;
+4. errore per invalidità dell’operazione, ossia tutti i casi in cui la richiesta sia già stata completata, cancellata o scaduta (passati i 30 giorni dall’invio della richiesta). \
+   In questo caso qualora il link presente nella PEC non fosse più valido bisognerà rifare la richiesta di fruizione.
+
+Il fatto che ti sia presentato un errore non inficia la procedura. Ad esempio, se l'errore è del terzo tipo, puoi fare firmare di nuovo il documento e usare lo stesso link per caricare l'Accordo con la sua nuova firma.
+
+Il secondo link presente nella mail ti permette di annullare la richiesta di adesione a PDND Interoperabilità, nel caso l'avessi effettuata per errore.
+
+
+
+{% embed url="https://www.youtube.com/watch?v=mLCAnUTL3QE" %}
+
+{% hint style="info" %}
+Per garantire la sicurezza degli aderenti, i link all'interno della mail hanno validità 30 giorni dalla ricezione della PEC con l'Accordo di Adesione.
+{% endhint %}

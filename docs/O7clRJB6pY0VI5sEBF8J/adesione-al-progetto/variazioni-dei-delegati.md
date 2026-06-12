@@ -1,0 +1,3 @@
+# Variazioni dei delegati
+
+Se l’ente ha necessità di aggiungere o rimuovere dei delegati, o modificarne i dati identificativi (ad esempio, l’indirizzo e-mail) comunica la variazione a PagoPA, compilando nuovamente l’allegato 4 del [contratto di adesione](https://io.italia.it/assets/download/it/accordo-di-adesione-IO-2.3.zip) con i dati aggiornati, sottoscrivendolo digitalmente e inviandolo tramite PEC all’indirizzo all’indirizzo [adesioni-io@pec.pagopa.it](mailto:adesioni-io@pec.pagopa.it), indicando nell’oggetto della PEC “_ADESIONE IO - VARIAZIONE DELEGATI_ ” i nuovi delegati o i dati dei delegati da rimuovere.

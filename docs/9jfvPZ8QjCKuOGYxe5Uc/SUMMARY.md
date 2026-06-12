@@ -1,0 +1,18 @@
+# Table of contents
+
+* [Stampa Avvisi Pagamento](README.md)
+  * [Autorizzazione alla stampa](stampa-avvisi-pagamento/autorizzazione-alla-stampa.md)
+  * [Avviso Singolo](stampa-avvisi-pagamento/avviso-singolo.md)
+  * [Avviso Massivo](stampa-avvisi-pagamento/avviso-massivo.md)
+  * [Compilazione dati configurazione su Backoffice pagoPA](stampa-avvisi-pagamento/compilazione-dati-configurazione-su-backoffice-pagopa.md)
+  * [Templates](stampa-avvisi-pagamento/templates/README.md)
+    * [Rata unica](stampa-avvisi-pagamento/templates/rata-unica/README.md)
+      * [Con Bollettino Postale](stampa-avvisi-pagamento/templates/rata-unica/con-bollettino-postale.md)
+      * [Senza Scadenza](stampa-avvisi-pagamento/templates/rata-unica/senza-scadenza.md)
+    * [Rate (2..9)](stampa-avvisi-pagamento/templates/rate-2..9/README.md)
+      * [Con Bollettino Postale](stampa-avvisi-pagamento/templates/rate-2..9/con-bollettino-postale.md)
+    * [Rate (>9)](stampa-avvisi-pagamento/templates/rate-greater-than-9/README.md)
+    * [Violazione Codice della Strada](stampa-avvisi-pagamento/templates/violazione-codice-della-strada/README.md)
+      * [Con Bollettino Postale](stampa-avvisi-pagamento/templates/violazione-codice-della-strada/con-bollettino-postale.md)
+  * [API](stampa-avvisi-pagamento/api/README.md)
+    * [Errori](stampa-avvisi-pagamento/api/errori.md)

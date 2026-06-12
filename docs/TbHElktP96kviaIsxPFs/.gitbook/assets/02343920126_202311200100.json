@@ -1,0 +1,30 @@
+{
+    "creditor_institution_code": "02343920126",
+    "description": "",
+    "ibans": [
+        {
+            "iban": "IT12A1234512345123456789013",
+            "description": "Comune di Pippo",
+            "validity_date": "2023-11-24T00:00:00",
+            "due_date": "2024-11-27T11:44:38"
+        },
+        {
+            "iban": "IT12A1234512345123456789014",
+            "description": "Comune di Pluto",
+            "validity_date": "2023-11-24T00:00:00",
+            "due_date": "2024-11-27T11:44:38"
+        },
+        {
+            "iban": "IT12A1234512345123456789015",
+            "description": "Comune di Paperino",
+            "validity_date": "2023-11-24T00:00:00",
+            "due_date": "2024-11-27T11:44:38"
+        },
+        {
+            "iban": "IT12A1234512345123456789016",
+            "description": "Comune di Topolino",
+            "validity_date": "2023-11-24T00:00:00",
+            "due_date": "2024-11-27T11:44:38"
+        }
+    ]
+}

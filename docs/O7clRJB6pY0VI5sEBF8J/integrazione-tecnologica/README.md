@@ -1,0 +1,3 @@
+# Integrazione tecnologica
+
+**L’integrazione tecnologica prevede che il delegato dell’ente si registri al** [**back-office**](https://developers.italia.it/it/io/) **e utilizzi le API-keys di IO per predisporre l’integrazione con i sistemi e gestionali attualmente in uso. L’integrazione deve essere fatta in modo automatizzato, tramite API-keys: anche se il portale mette a disposizione funzioni di invio manuale di messaggi tramite file csv, questa funzione è utilizzabile solo a scopo dimostrativo e di test, per simulare l’esperienza desiderata. Maggiori dettagli sulle API e il loro utilizzo sono pubblicati nella** [**documentazione tecnica**](https://io.italia.it/sviluppatori/)**.**

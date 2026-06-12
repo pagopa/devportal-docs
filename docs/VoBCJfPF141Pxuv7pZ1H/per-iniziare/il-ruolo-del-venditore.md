@@ -1,0 +1,30 @@
+# Il ruolo del Venditore
+
+Questa guida è il punto di riferimento per i _Venditori_ che aderiscono all'iniziativa Bonus Elettrodomestici. L'obiettivo è fornire le istruzioni operative per utilizzare i portali di gestione e accettare i buoni sconto presentati dai cittadini.
+
+### Venditore
+
+Per la definizione di _Venditore_ si rinvia al Decreto interministeriale citato.
+
+**I compiti principali del Venditore sono:**
+
+* aderire all'iniziativa;
+* censire i Punti Vendita, registrare l'elenco di tutti i negozi fisici e/o online;
+* censire gli operatori dei Punti Vendita;
+* inserire le informazioni relative al RAEE (segnalazione di mancato rinvenimento dell'_Elettrodomestico obsoleto_) anche per conto di ciascun Punto Vendita censito.
+
+Per i _Venditori_ e-commerce saranno necessarie dell'integrazioni tra le piattaforma attraverso delle API pubbliche.
+
+### L'Operatore Punto Vendita
+
+Per _Operatore di Punto Vendita_ si intende il referente nominato dal _Venditore_ in fase di censimento dei Punti Vendita.
+
+L'Operatore Punto Vendita (PV) è la persona fisica (ad esempio, l'addetto alla cassa o il responsabile del negozio) che opera nel singolo punto vendita. L'Operatore utilizza il portale per gestire le richieste di utilizzo del _Voucher_ da parte dell'_Utente finale_, nonché le conseguenti richieste di rimborso.
+
+**I compiti principali dell'Operatore PV sono:**
+
+* inserire il buono sconto (_Voucher_) presentato dal cittadino e verificare i dati limitatamente alla casistica in cui il _Voucher_ è cartaceo. Nel caso in cui l'_Utente finale_ presenti il _Voucher_ attraverso l'app IO non sarà necessario verificare la corrispondenza con il Codice Fiscale.
+* _&#x63;_&#x6F;nfermare con apposita funzionalità disponibile in piattaforma l'acquisto dopo il pagamento del cittadino o annullare l'operazione;
+* visionare l'elenco delle transazioni effettuate dal proprio Punto Vendita.
+
+Per ciascun utilizzo del _Voucher_, l'Operatore è tenuto a trasmettere la rispettiva fattura (in formato xml o pdf) o la nota di credito (qualora si fosse reso necessario uno storno).
