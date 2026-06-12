@@ -19,5 +19,6 @@
     * [Conferma pagamento](linee-guida/lesperienza-utente/fruizione/conferma-pagamento.md)
   * [Disattivazione](linee-guida/lesperienza-utente/disattivazione.md)
 * [❓ Contenuti utili all'assistenza](linee-guida/contenuti-utili-allassistenza.md)
+* [🧰 Risorse utili](linee-guida/risorse-utili.md)
 * [📄 Glossario](linee-guida/glossario.md)
 * [✅ Approvazione dei materiali di Comunicazione](linee-guida/approvazione-dei-materiali-di-comunicazione.md)
