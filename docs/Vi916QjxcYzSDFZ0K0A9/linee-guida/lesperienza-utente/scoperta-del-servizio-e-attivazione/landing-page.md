@@ -28,8 +28,11 @@ Obiettivo della landing page è dare maggiori dettagli all'utente rispetto:
 
 ### Elementi facoltativi
 
-* Utilizzo di immagini o illustrazioni purché siano in linea con le [**Brand guidelines**](https://app.gitbook.com/invite/KXYtsf32WSKm6ga638R3/Bh78E1qYOrxJVckxMQfZ) [**di SEND**](https://app.gitbook.com/invite/KXYtsf32WSKm6ga638R3/Bh78E1qYOrxJVckxMQfZ). \
-  IMPORTANTE: gli asset dovranno esser approvati da parte del team di comunicazione PagoPA S.p.A.
+* Utilizzo di immagini o illustrazioni purché siano in linea con le [**Brand guidelines**](https://app.gitbook.com/invite/KXYtsf32WSKm6ga638R3/Bh78E1qYOrxJVckxMQfZ) [**di SEND**](https://app.gitbook.com/invite/KXYtsf32WSKm6ga638R3/Bh78E1qYOrxJVckxMQfZ).&#x20;
+
+{% hint style="warning" %}
+**IMPORTANTE**: gli asset dovranno essere approvati da parte del team di comunicazione PagoPA S.p.A.
+{% endhint %}
 
 ### 💡 Consiglio
 

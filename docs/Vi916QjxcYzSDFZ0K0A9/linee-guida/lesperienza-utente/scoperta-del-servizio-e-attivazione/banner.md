@@ -27,10 +27,8 @@ Obiettivo di questo banner è quello di portare a conoscenza dell'utente, introd
 * Utilizzo di immagini o illustrazioni. Se previsto, l’inserimento del logo di SEND deve attenersi alle [**Brand guidelines**](https://app.gitbook.com/invite/KXYtsf32WSKm6ga638R3/Bh78E1qYOrxJVckxMQfZ) [**di SEND**](https://app.gitbook.com/invite/KXYtsf32WSKm6ga638R3/Bh78E1qYOrxJVckxMQfZ).&#x20;
 
 {% hint style="warning" %}
-IMPORTANTE: gli asset dovranno essere approvati da parte del team di comunicazione PagoPA S.p.A.
+**IMPORTANTE**: gli asset dovranno essere approvati da parte del team di comunicazione PagoPA S.p.A.
 {% endhint %}
-
-
 
 ### Esempi DO/DON'T&#x20;
 
