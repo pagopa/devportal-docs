@@ -16,10 +16,6 @@ metaLinks:
 * Introdotta la **Landing page SEND** che accoglie gli utenti provenienti dai messaggi di cortesia ricevuti su app terze parti e li indirizza alla login dandogli il giusto contesto. La modifica ha richiesto l'aggiornamento del testo presente in pagina [fruizione](linee-guida/lesperienza-utente/fruizione/ "mention") e delle immagini presenti nelle seguenti pagine:
   * [lesperienza-utente](linee-guida/lesperienza-utente/ "mention")&#x20;
   * [fruizione](linee-guida/lesperienza-utente/fruizione/ "mention")&#x20;
-* A seguito della sperimentazione:
-  * si è data la possibilità ai PSP di poter aderire o meno all'integrazione del pagamento. Questa scelta ha implicato l'aggiornamento del flusso rappresentato nella pagina [fruizione](linee-guida/lesperienza-utente/fruizione/ "mention")&#x20;
-  * si è scelto di togliere il nome del PSP dal pulsante presente nella pagina del dettaglio notifica su SEND essendo una soluzione poco scalabile e accessibile. Il nome è stato inserito in un testo che precede il pulsante. Di conseguenza è stata aggiornata l'immagine presente in pagina [fruizione](linee-guida/lesperienza-utente/fruizione/ "mention")
-* L'attivazione del domicilio digitale su SEND ha impatti sul contenuto dei messaggi di cortesia inviati alle app terze parti. Di conseguenza sono state aggiornate le specifiche presenti in pagina [dettaglio-del-messaggio-ricevuto-in-app.md](linee-guida/lesperienza-utente/fruizione/dettaglio-del-messaggio-ricevuto-in-app.md "mention")
 
 ### v 1.1 (Luglio 2025)
 
