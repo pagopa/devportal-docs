@@ -7,7 +7,7 @@ metaLinks:
 
 # Messaggio in bacheca
 
-Un **messaggio in bacheca** è una notifica che viene pubblicata all'interno di un'area dedicata (bacheca/centro notifiche/ecc.) accessibile all'utente su una piattaforma o un servizio online.
+Un **messaggio in bacheca** è una comunicazione che viene pubblicata all'interno di un'area dedicata (bacheca/centro notifiche/ecc.) accessibile all'utente su una piattaforma o un servizio online.
 
 ### Elementi obbligatori
 
