@@ -16,7 +16,7 @@ metaLinks:
 
 Le **notifiche SEND** o **comunicazioni a valore legale** trasmettono atti ufficiali emessi da un'amministrazione, come multe, avvisi di accertamento di tributi, che producono effetti legali su mittente e destinatario.
 
-Le notifiche SEND sono **diverse dalle notifiche push**, ossia quei brevi messaggi che si ricevono sullo schermo di un dispositivo.
+Queste notifiche, in virtù del loro valore legale, sono **diverse dalle notifiche push**, ossia quei brevi messaggi che si ricevono sullo schermo di un dispositivo.&#x20;
 
 Fino a oggi, tali comunicazioni venivano inviate quasi esclusivamente tramite **raccomandata cartacea**. Ora, invece, è possibile riceverle in formato digitale con SEND.
 
