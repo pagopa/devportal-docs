@@ -10,7 +10,7 @@ metaLinks:
 Un **banner** è un elemento grafico o testuale utilizzato per attirare l'attenzione su un determinato contenuto, prodotto o servizio.
 
 {% hint style="success" %}
-Obiettivo di questo banner è quello di catturare l'attenzione dell'utente, introdurlo a **SEND - Servizio Notifiche Digitali** e portarlo ad approfondire/attivare il servizio **Messaggi di cortesia**.&#x20;
+Obiettivo di questo banner è quello di portare a conoscenza dell'utente, introdurlo a **SEND -** **Messaggi di cortesia**.&#x20;
 {% endhint %}
 
 ### Elementi obbligatori
