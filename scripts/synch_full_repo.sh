@@ -9,7 +9,7 @@ PATHS=$(curl -s "$JSON_URL" | grep -o '"[^"]*"' | grep -v '"dirNames"' | tr -d '
 echo "Syncing directories..."
 for PATH_NAME in $PATHS; do
     SRC="./source_repo/docs/$PATH_NAME"
-    DEST="./public_repo/$PATH_NAME"
+    DEST="./target_repo/$PATH_NAME"
 
     if [ -d "$SRC" ]; then
         rm -rf "$DEST"
