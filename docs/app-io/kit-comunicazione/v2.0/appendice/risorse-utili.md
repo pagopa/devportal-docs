@@ -6,4 +6,4 @@ metaLinks:
 
 # 🧰 Risorse utili
 
-{% file src="../.gitbook/assets/Linee Guida per l’uso dei Marchi di PagoPA S.p.A..docx.pdf" %}
+{% file src="../.gitbook/assets/LG_007_Linee Guida per l’uso dei Marchi di PagoPA S.p.A. rev. 1.2.pdf" %}
