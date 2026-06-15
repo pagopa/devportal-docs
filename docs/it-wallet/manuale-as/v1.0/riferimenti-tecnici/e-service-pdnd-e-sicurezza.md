@@ -14,7 +14,7 @@ Una nuova versione deprecà la precedente; l'aggiornamento dei fruitori è manua
 
 ## Sicurezza: portachiavi, firma e voucher
 
-Il **portachiavi** consente all'erogatore di **firmare digitalmente le risposte** e di pubblicare le chiavi pubbliche associate all'e-service. La firma copre il **digest** della risposta: in caso di alterazione del contenuto, il fruitore lo rileva e scarta la risposta, con garanzia di **integrità** e **non ripudio**. Il pattern di firma è **`INTEGRITY_REST_02`** (header `Agid-JWT-Signature` e `Digest`); l'accesso alle API è regolato da **voucher** (Bearer/DPoP), coerentemente con i `pdnd_metadata` del file di progettazione.
+Il **portachiavi** consente all'erogatore di **firmare digitalmente le risposte** e di pubblicare le chiavi pubbliche associate all'e-service. La firma copre il **digest** della risposta: in caso di alterazione del contenuto, il fruitore lo rileva e scarta la risposta, con garanzia di **integrità** e **non ripudio**. Il pattern di firma è **`INTEGRITY_REST_02`** (header `Agid-JWT-Signature` e `Digest`); l'accesso alle API è regolato da **voucher** (token Bearer DPoP-bound), coerentemente con i `pdnd_metadata` del file di progettazione.
 
 Sul piano operativo, l'Operatore di Sicurezza o l'Amministratore **crea un portachiavi** (Erogazione → I tuoi portachiavi), **carica almeno una chiave pubblica** e **associa il portachiavi all'e-service** (tab «Portachiavi» nella scheda e-service).
 

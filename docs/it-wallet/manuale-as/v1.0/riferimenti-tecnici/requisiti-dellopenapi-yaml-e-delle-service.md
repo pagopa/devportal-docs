@@ -60,7 +60,7 @@ Oltre alla conformità formale, l'e-service deve rispettare i requisiti struttur
   * endpoint `/status`
 * **Sicurezza e integrità della risposta**
   * **server HTTPS**
-  * autenticazione **Bearer**, con **assenza di DPoP**
+  * Schemi di sicurezza BearerAuth (token PDND) e DPoPAuth (DPoP proof, RFC 9449) entrambi dichiarati; il voucher è vincolato in possesso tramite DPoP (POP\_DPoP, unico meccanismo adottato)
   * header di sicurezza `Agid-JWT-Signature`, `Digest`, `Agid-JWT-TrackingEvidence`
   * `INTEGRITY_REST_02` sulla risposta `200`
 * **Struttura del payload**
