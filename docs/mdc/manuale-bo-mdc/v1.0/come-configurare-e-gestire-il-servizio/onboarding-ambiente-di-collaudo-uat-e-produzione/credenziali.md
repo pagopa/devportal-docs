@@ -85,8 +85,6 @@ Il valore risulta preconfigurato e non modificabile dall’utente.
 
 <figure><img src="../../.gitbook/assets/UAT_conf.servizio_credenziali.png" alt=""><figcaption></figcaption></figure>
 
-
-
 ### **Parametri aggiuntivi (Body)**
 
 La sezione consente di configurare eventuali parametri personalizzati richiesti dal sistema del PSP durante la richiesta di rilascio del token OAuth2.
@@ -171,7 +169,7 @@ In caso di validazione corretta:
 
 * la configurazione viene salvata;
 * il servizio risulta configurato;
-* il sistema rende disponibili le funzionalità operative del servizio Messaggi di Cortesia.
+* il sistema rende disponibili le funzionalità operative del Servizio Messaggi di Cortesia.
 
 Possibili errori in fase di compilazione
 

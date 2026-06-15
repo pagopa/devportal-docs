@@ -6,7 +6,9 @@ Dopo aver effettuato l'accesso e selezionato l'ambiente di lavoro, l'utente vien
 
 La struttura della pagina è identica sia in ambiente di **Collaudo (UAT)** sia in ambiente di **Produzione**. L'unica differenza è rappresentata dalla presenza, nel solo ambiente di Collaudo, di un banner informativo che riporta "Dati per ambiente di collaudo"
 
-Si raccomanda pertanto di utilizzare esclusivamente dati di test durante le attività svolte in ambiente UAT.
+{% hint style="info" %}
+**Si raccomanda pertanto di utilizzare esclusivamente dati di test durante le attività svolte in ambiente UAT.**
+{% endhint %}
 
 La navigazione all'interno del BackOffice avviene tramite il menu laterale sinistro, che consente l'accesso alle principali funzionalità del servizio:
 
@@ -15,15 +17,15 @@ La navigazione all'interno del BackOffice avviene tramite il menu laterale sinis
 * **Utenti**
 * **Gruppi**
 
-Se il PSP risulta già registrato al servizio, la pagina Panoramica mostra il riepilogo della configurazione attualmente censita e rende disponibili le operazioni di gestione e aggiornamento della configurazione.
+Se il PSP risulta già registrato al Servizio, la pagina Panoramica mostra il riepilogo della configurazione attualmente censita e rende disponibili le operazioni di gestione e aggiornamento della configurazione.
 
 Da questa schermata il PSP può:
 
 * verificare l'ambiente attualmente selezionato (**UAT** o **Produzione**);
-* consultare lo stato della configurazione del servizio;
+* consultare lo stato della configurazione del Servizio;
 * visualizzare i parametri configurati;
 * accedere alle funzionalità di modifica della configurazione;
-* gestire le credenziali utilizzate per l'integrazione con il servizio.
+* gestire le credenziali utilizzate per l'integrazione con il Servizio.
 
 <figure><img src="../.gitbook/assets/FireShot Capture 025 - mdc backoffice - [mdc.uat.cstar.pagopa.it].png" alt=""><figcaption></figcaption></figure>
 
@@ -53,7 +55,7 @@ La pagina Credenziali presenta le informazioni organizzate in blocchi funzionali
 
 * **Credenziali PagoPA**
 * **TPP ID**
-* **Credenziali TPP**
+* **Credenziali PSP/TPP**
 * **Parametri aggiuntivi.**&#x20;
 
 I campi esposti possono prevedere funzioni di copia, visualizzazione del valore nascosto e accesso alla modifica, in base alla tipologia di informazione.

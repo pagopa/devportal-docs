@@ -2,7 +2,7 @@
 
 ### Configurazione Endpoint
 
-La sezione "**Endpoint e Deep link”** rappresenta il primo step della configurazione del servizio "**Messaggi di Cortesia**"  e permette di configurare gli URL che pagoPA utilizzerà per l’invio dei messaggi di cortesia destinati agli utenti.
+La sezione "**Endpoint e Deep link”** rappresenta il primo step della configurazione del Servizio "**Messaggi di Cortesia**"  e permette di configurare gli URL che PagoPA S.p.A. utilizzerà per l’invio dei messaggi di cortesia destinati agli Utenti.
 
 La schermata permette di definire:
 

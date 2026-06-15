@@ -1,7 +1,7 @@
-# Onboarding Ambiente di Collaudo (UAT)
+# Onboarding Ambiente di Collaudo (UAT) e Produzione
 
 L'onboarding in ambiente UAT è il primo passo operativo e permette di verificare la configurazione tecnica prima di replicarla in produzione. Si tratta di un ambiente di test. \
-Per procedere con l'accesso alla configurazione del servizio è necessario disporre di:&#x20;
+Per procedere con l'accesso alla configurazione del Servizio è necessario disporre di:&#x20;
 
 {% stepper %}
 {% step %}

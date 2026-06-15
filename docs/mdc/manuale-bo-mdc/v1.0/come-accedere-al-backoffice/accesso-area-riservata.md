@@ -1,14 +1,14 @@
 # Accesso Area Riservata
 
-Questa sezione ospita la lista dei prodotti a cui il PSP ha aderito e da cui è possibile effettuare l'accesso al portale dedicato al singolo prodotto, tra cui la Card di "Messaggi di Cortesia".
+Questa sezione ospita la lista dei Prodotti/Servizi a cui il PSP ha aderito e da cui è possibile effettuare l'accesso al portale dedicato al singolo Prodotto/Servizio, tra cui la Card di "Messaggi di Cortesia".
 
 ## Accesso all'Area Riservata
 
-Per gestire il servizio "Messaggi di Cortesia", è necessario prima accedere all'Area Riservata di PagoPA nella sezione Panoramica, in cui è presente la sezione dedicata ai prodotti disponibili.
+Per gestire il Servizio "Messaggi di Cortesia", è necessario prima accedere all'Area Riservata di PagoPA S.p.A. nella sezione "_Panoramica_", in cui è presente la sezione dedicata ai Prodotti/Servizi disponibili.
 
-Per accedere all'Area Riservata è necessario che il PSP  abbia completato il processo di adesione ad almeno un prodotto della piattaforma pagoPA (si veda il [Manuale onboarding: sezione Processo di adesione](https://developer.pagopa.it/it/pago-pa/guides/manuale-bo-psp/v1.0/manuale-operativo-pagamenti-pagopa-prestatore-di-servizi-di-pagamento/accesso), sezione _Processo di adesione_).
+Per accedere all'Area Riservata è necessario che il PSP  abbia completato il processo di adesione ad almeno un Prodotto/Servizio della piattaforma pagoPA (si veda il [Manuale onboarding: sezione Processo di adesione](https://developer.pagopa.it/it/pago-pa/guides/manuale-bo-psp/v1.0/manuale-operativo-pagamenti-pagopa-prestatore-di-servizi-di-pagamento/accesso), sezione _Processo di adesione_).
 
-L'utente deve inoltre essere stato preventivamente censito e associato al prodotto per il quale intende operare, con un profilo autorizzativo adeguato. In particolare, l'accesso alle funzionalità descritte nel presente manuale è consentito agli utenti ai quali è stato assegnato il ruolo di **Amministratore** o **Operatore**.
+L'utente deve inoltre essere stato preventivamente censito e associato al Servizio per il quale intende operare, con un profilo autorizzativo adeguato. In particolare, l'accesso alle funzionalità descritte nel presente manuale è consentito agli utenti ai quali è stato assegnato il ruolo di **Amministratore** o **Operatore**.
 
 #### Step 1: Accedere al sito PagoPA S.p.A.
 
@@ -66,8 +66,8 @@ L'Area Riservata di PagoPA è accessibile agli utenti che possiedono un ruolo at
 
 * Panoramica, pagina principale che riporta:
   1. Dati anagrafici dell'aderente;
-  2. Prodotti attivi, ovvero i prodotti a cui l’ aderente ha già aderito;
-  3. Prodotti disponibili, ovvero i prodotti per cui non è ancora stata effettuata una richiesta di adesione;
+  2. Prodotti/Servizi attivi, ovvero i Prodotti/Servizi a cui l’ aderente ha già aderito;
+  3. Prodotti/Servizi disponibili, ovvero i Prodotti/Servizi per cui non è ancora stata effettuata una richiesta di adesione;
 * **Utenti**: sezione dedicata alla gestione delle utenze collegate all’aderente per ogni specifico prodotto;
 * **Gruppi**: sezione dedicata alla gestione dei gruppi nei quali sono suddivisi i vari utenti abilitati sui prodotti.
 
