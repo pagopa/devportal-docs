@@ -46,12 +46,12 @@ for path in "${add_array[@]}"; do
         rm -rf "target_repo/$target_path"
     fi
 
-    if [[ -e "private_repo/$path" ]]; then
-        echo "   Found in private_repo. Copying..."
+    if [[ -e "source_repo/$path" ]]; then
+        echo "   Found in source_repo. Copying..."
         mkdir -p "target_repo/$(dirname "$target_path")"
-        cp -r "private_repo/$path" "target_repo/$target_path"
+        cp -r "source_repo/$path" "target_repo/$target_path"
     else
-        echo "   Warning: Path '$path' does not exist in private_repo."
+        echo "   Warning: Path '$path' does not exist in source_repo."
     fi
 done
 
