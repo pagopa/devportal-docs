@@ -2,7 +2,11 @@
 
 [Signal Hub](https://developer.pagopa.it/it/pdnd-interoperabilita/guides/manuale-operativo-signal-hub) è un servizio PDND (LLGG AgID, Allegato 4 — [_Processo di distribuzione dei segnali di variazione_](https://www.agid.gov.it/sites/agid/files/2025-06/Linee_guida_PDND_v2_allegato_4.pdf)) che consente all'erogatore (**produttore**) di **notificare a PDND ogni variazione** di un dato; i fruitori interessati (**consumatori**) ricevono l'avviso in tempo reale e acquisiscono il dato aggiornato via e-service. PDND gestisce **la sola segnalazione**: i dati restano presso il Titolare di Fonte Autentica.
 
-Sul piano operativo, il Titolare di Fonte Autentica **deposita un segnale** indicando l'`eserviceId` e un identificativo pseudonimizzato del dato variato; il `signalId` è un intero **monotòno crescente** (non riutilizzabile e sempre successivo all'ultimo inviato). I tipi di segnale comprendono variazioni di **ciclo di vita** dell'entità e segnali di **allineamento** delle modalità di pseudonimizzazione.
+Sul piano operativo, il Titolare di Fonte Autentica **deposita un segnale** indicando l'`eserviceId` e un identificativo pseudonimizzato del dato variato; il `signalId` è un intero **monotòno crescente** (non riutilizzabile e sempre successivo all'ultimo inviato). I tipi di segnale comprendono variazioni di **ciclo di vita** dell'entità e segnali di **allineamento** delle modalità di pseudonimizzazione.&#x20;
+
+Per consentire la correlazione con le emissioni, il Titolare di Fonte Autentica e il Credential Issuer **devono salvare il `jti`** del token `Agid-JWT-Signature` della richiesta dell'e-service; il Titolare registra il `last_updated` degli attributi e l'Issuer lo rilegge per rilevare variazioni dall'ultima emissione (cfr. Specifiche Tecniche §13.4.1.1).&#x20;
+
+Ricevuto il segnale, il fruitore interroga l'e-service per lo specifico `object_id` e ne ottiene il dataset **qualunque sia lo stato** (`INVALID`, `SUSPENDED`, …), aggiornando di conseguenza l'attestato; in **emissione**, invece, l'e-service espone i soli dataset `VALID`.
 
 {% hint style="info" %}
 **Approfondimento PDND.** [Manuale Operativo Signal Hub](https://developer.pagopa.it/pdnd-interoperabilita/guides/manuale-operativo-signal-hub); [Come depositare un segnale](https://www.developer.pagopa.it/pdnd-interoperabilita/guides/manuale-operativo-signal-hub/tutorial/come-depositare-un-segnale).

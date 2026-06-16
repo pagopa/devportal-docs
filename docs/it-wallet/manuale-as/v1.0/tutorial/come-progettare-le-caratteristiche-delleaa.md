@@ -45,13 +45,13 @@ Nel file di progettazione i due campi seguono lo schema fisso `domanda` / `esemp
 {% step %}
 ### **Identificare i casi d'uso**
 
-Definire gli scenari **da remoto** (cross-device/same-device) e **in prossimità** (supervisionata/non supervisionata). La scelta orienta il formato di emissione: **SD-JWT-VC** (remoto) o **mdoc-CBOR** (prossimità)
+Definire gli scenari **da remoto** (cross-device/same-device) e **in prossimità** (supervisionata/non supervisionata).&#x20;
 {% endstep %}
 
 {% step %}
 ### **Modellare il Data Model**
 
-Compilare la sezione `dataset` applicando i **4 principi** e i **Template del Data Model**. Organizzare gli attributi nei **quattro blocchi** (`identityClaims`, `userClaims`, `attributeClaims`, `metadataClaims`) nel rispetto del limite di **15 Core + 15 Dettaglio**.&#x20;
+Compilare la sezione `dataset` applicando i **4 principi** e i **Template del Data Model**. Organizzare gli attributi nei **blocchi** della risposta (`userClaims`, `attributeClaims`, `metadataClaims`) curando l'ordinamento: prima i dati anagrafici, poi i dati specifici dell'attestato, nel rispetto del limite di **15 Core** **+ 15 Dettaglio**.&#x20;
 
 Dettaglio in → [Data model: attributi e stati dell'EAA](../riferimenti-tecnici/data-model-attributi-e-stati-delleaa.md);&#x20;
 

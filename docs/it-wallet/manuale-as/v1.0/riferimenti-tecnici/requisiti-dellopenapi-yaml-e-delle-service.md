@@ -41,7 +41,7 @@ flowchart TD
 ```
 
 {% hint style="info" %}
-**Relazione struttura/valori.** La specifica OpenAPI definisce **la composizione della risposta** (campi, numero, nome, `constraint`), non i **valori**: l'e-service deve restituire **esattamente** tale struttura; i valori dipendono dall'AS e dalla richiesta.
+**Relazione struttura/valori.** La specifica OpenAPI definisce la composizione della risposta (campi, numero, nome, `constraint`), non i **valori**: l'e-service deve restituire **esattamente** tale struttura; i valori dipendono dal Titolare di Fonte Autentica e dalla richiesta. Per la **forma concreta** della risposta (esempio dei tre blocchi) si veda _l'Esempio di risposta_ in → [Data model: attributi e stati dell'EAA](https://docs.google.com/document/d/18nAfn-SZOHaIalsCsJaeWuxAH33wyuNw7FxIraP0Dg8/edit) e il [listato 13.1 delle Specifiche Tecniche IT Wallet](https://italia.github.io/eid-wallet-it-docs/releases/1.3.3/it/wallet-provider-endpoint.html).
 {% endhint %}
 
 ## Requisiti formali (AgID/ModI)
@@ -56,15 +56,16 @@ Oltre alla conformità formale, l'e-service deve rispettare i requisiti struttur
 
 * **Endpoint e operazioni**
   * `POST /attribute-claims/{datasetId}` **parametrico** (i path statici non sono conformi)
+  * richiesta: corpo con `unique_id` (obbligatorio) e `object_id` (opzionale, per il flusso differito)
   * `operationId` univoco
-  * endpoint `/status`
+  * endpoint `/status` (pubblico, HTTPS, `application/problem+json`, `Cache-Control: no-store`, header `RateLimit-*`, `503`+`Retry-After`)
 * **Sicurezza e integrità della risposta**
   * **server HTTPS**
-  * Schemi di sicurezza BearerAuth (token PDND) e DPoPAuth (DPoP proof, RFC 9449) entrambi dichiarati; il voucher è vincolato in possesso tramite DPoP (POP\_DPoP, unico meccanismo adottato)
-  * header di sicurezza `Agid-JWT-Signature`, `Digest`, `Agid-JWT-TrackingEvidence`
-  * `INTEGRITY_REST_02` sulla risposta `200`
+  * schemi di sicurezza `BearerAuth` (token PDND) e `DPoPAuth` (DPoP proof, RFC 9449) **entrambi dichiarati**; voucher vincolato in possesso tramite **DPoP** (`POP_DPoP`, unico meccanismo adottato)
+  * header `Agid-JWT-Signature` e `Digest` (obbligatori); `Agid-JWT-TrackingEvidence` opzionale (audit, `AUDIT_REST_02`)
+  * `INTEGRITY_REST_02` su **richiesta e risposta**
 * **Struttura del payload**
-  * ordine fisso dei blocchi
+  * ordine fisso dei tre blocchi (`userClaims`, `attributeClaims`, `metadataClaims`)
   * `metadataClaims` **required**
 * **Metadati e qualità della specifica**
   * `info.x-api-id` / `x-summary`
@@ -79,7 +80,7 @@ Oltre alla conformità formale, l'e-service deve rispettare i requisiti struttur
 
 Un **claim** è il singolo attributo che compone l'EAA (nome, data di scadenza, numero di un documento). Perché l'attestato sia interpretato in modo univoco da Issuer, Titolari di Fonte Autentica e verificatori, i nomi dei claim non sono liberi: devono corrispondere a quelli del **registro dei claim di IT-Wallet** (il «Claim Registry» mantenuto da IPZS). Un nome non previsto genera una **non conformità** in validazione semantica; la riconduzione al nome standard (**armonizzazione**) è gestita con i team **Service Design / Service Management** di PagoPA.
 
-**Riferimento.** La definizione dei claim e del modello dati è nelle Specifiche Tecniche IT-Wallet ([italia/eid-wallet-it-docs](https://github.com/italia/eid-wallet-it-docs)); per i quattro blocchi (`identityClaims`, `userClaims`, `attributeClaims`, `metadataClaims`) si veda il riferimento → [Data model: attributi e stati dell'EAA](data-model-attributi-e-stati-delleaa.md).
+**Riferimento.** La definizione dei claim e del modello dati è nelle Specifiche Tecniche IT-Wallet ([italia/eid-wallet-it-docs](https://github.com/italia/eid-wallet-it-docs)); per i tre blocchi della risposta (`userClaims`, `attributeClaims`, `metadataClaims`) si veda il riferimento → [Data model: attributi e stati dell'EAA](data-model-attributi-e-stati-delleaa.md).
 
 ## Anti-pattern (estratto)
 
@@ -87,7 +88,7 @@ Gli anti-pattern sono costrutti e scelte da **evitare** nell'OpenAPI YAML dell'e
 
 * **Annidamento oltre 2 livelli** — gli schemi della risposta non devono superare i due livelli di annidamento.
 * **Stringhe di primo livello senza `maxLength ≤ 150`** — ogni stringa di livello radice deve dichiarare una lunghezza massima non superiore a 150 caratteri.
-* **Ordine dei blocchi non rispettato** — i blocchi di claim devono seguire l'ordine previsto (`identityClaims`, `userClaims`, `attributeClaims`, `metadataClaims`).
+* **Ordine dei blocchi non rispettato** — i blocchi di claim devono seguire l'ordine previsto (u`serClaims`, `attributeClaims`, `metadataClaims`).
 * **`unique_id` assente nel `requestBody`** — la richiesta deve includere il campo `unique_id`.
 * **Risposte senza `Cache-Control: no-store`** — le risposte non devono essere memorizzate in cache.
 * **Uso di `document_url` / `pdf` / `screenshot`** — non è ammesso veicolare il documento come link, PDF o immagine: l'EAA è un insieme di attributi strutturati, non la riproduzione del documento.

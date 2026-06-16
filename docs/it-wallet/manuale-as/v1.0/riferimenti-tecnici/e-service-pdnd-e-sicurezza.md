@@ -4,7 +4,7 @@ Riferimento dell'e-service nel contesto Titolare di Fonte Autentica e dei relati
 
 ## Informazioni generali
 
-L'e-service del Titolare di Fonte Autentica opera in modalità **«eroga»**. In fase di pubblicazione si dichiarano: nome e descrizione (a catalogo), tecnologia (REST/SOAP), erogazione di **dati personali** (cfr. 4.3), presenza del servizio **Signal Hub**.
+L'e-service del Titolare di Fonte Autentica opera in modalità **«eroga»**. L'e-service del Titolare di Fonte Autentica opera in modalità **«eroga»**. In fase di pubblicazione si dichiarano: nome e descrizione (a catalogo), tecnologia **REST** (per l'e-service AS IT-Wallet il SOAP è escluso), erogazione di **dati personali** (vedi → [Privacy e protezione dei dati personali](../riferimenti-normativi/privacy-e-protezione-dei-dati-personali.md)), presenza del servizio **Signal Hub**.
 
 ## Ciclo di vita dell'e-service
 
@@ -14,7 +14,11 @@ Una nuova versione deprecà la precedente; l'aggiornamento dei fruitori è manua
 
 ## Sicurezza: portachiavi, firma e voucher
 
-Il **portachiavi** consente all'erogatore di **firmare digitalmente le risposte** e di pubblicare le chiavi pubbliche associate all'e-service. La firma copre il **digest** della risposta: in caso di alterazione del contenuto, il fruitore lo rileva e scarta la risposta, con garanzia di **integrità** e **non ripudio**. Il pattern di firma è **`INTEGRITY_REST_02`** (header `Agid-JWT-Signature` e `Digest`); l'accesso alle API è regolato da **voucher** (token Bearer DPoP-bound), coerentemente con i `pdnd_metadata` del file di progettazione.
+Il **portachiavi** consente all'erogatore di **firmare digitalmente le risposte** e di pubblicare le chiavi pubbliche associate all'e-service. La firma copre il **digest** della risposta: in caso di alterazione del contenuto, il fruitore lo rileva e scarta la risposta, con garanzia di **integrità** e **non ripudio**.&#x20;
+
+Il pattern di firma è **`INTEGRITY_REST_02`** (header `Agid-JWT-Signature` e `Digest`) e copre **sia la richiesta** (firmata dal fruitore) **sia la risposta** (firmata dall'erogatore).&#x20;
+
+L'accesso alle API è regolato da **voucher**: per l'e-service del Titolare di Fonte Autentica il voucher è un token **Bearer vincolato in possesso tramite DPoP** (`POP_DPoP`, RFC 9449), coerentemente con i `pdnd_metadata` del file di progettazione..
 
 Sul piano operativo, l'Operatore di Sicurezza o l'Amministratore **crea un portachiavi** (Erogazione → I tuoi portachiavi), **carica almeno una chiave pubblica** e **associa il portachiavi all'e-service** (tab «Portachiavi» nella scheda e-service).
 

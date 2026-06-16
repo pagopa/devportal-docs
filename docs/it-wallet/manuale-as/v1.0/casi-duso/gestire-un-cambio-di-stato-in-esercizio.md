@@ -35,7 +35,7 @@ A seguito dell'aggiornamento, il Titolare di Fonte Autentica notifica la variazi
 
 1. **Azione dell'Ente**: il Titolare di Fonte Autentica deposita il segnale corrispondente, indicando l'`eserviceId` e l'identificativo pseudonimizzato del dato variato.
 2. **Distribuzione (lato PDND)**: PDND distribuisce il segnale ai consumatori interessati.
-3. **Processamento (lato Issuer)**: IPZS, in qualità di consumatore, è informato in tempo reale e acquisisce il dato aggiornato interrogando l'e-service. La piattaforma veicola la sola segnalazione, mentre il dato resta presso il Titolare di Fonte Autentica.
+3. **Processamento (lato Issuer)**: IPZS, in qualità di consumatore, è informato in tempo reale e acquisisce il dato aggiornato interrogando l'e-service **per lo specifico `object_id`** segnalato, ottenendolo **indipendentemente dallo stato** (nell'esempio, `SUSPENDED`). La piattaforma veicola la sola segnalazione, mentre il dato resta presso il Titolare di Fonte Autentica.
 
 {% hint style="info" %}
 Per i dettagli tecnici sul deposito dei segnali, consulta il riferimento:  → [**Signal Hub, soglie di carico, Probing e Tracing**.](../riferimenti-tecnici/signal-hub-soglie-di-carico-probing-e-tracing.md)
