@@ -51,7 +51,7 @@ Definire gli scenari **da remoto** (cross-device/same-device) e **in prossimità
 {% step %}
 ### **Modellare il Data Model**
 
-Compilare la sezione `dataset` applicando i **4 principi** e i **Template del Data Model**. Organizzare gli attributi nei **blocchi** della risposta (`userClaims`, `attributeClaims`, `metadataClaims`) curando l'ordinamento: prima i dati anagrafici, poi i dati specifici dell'attestato, nel rispetto del limite di **15 Core** **+ 15 Dettaglio**.&#x20;
+Compilare la sezione `dataset` applicando i [**4 principi**](come-progettare-le-caratteristiche-delleaa.md#i-4-principi-di-progettazione) e i **Template del Data Model**. Organizzare gli attributi nei **blocchi** della risposta (`userClaims`, `attributeClaims`, `metadataClaims`) curando l'ordinamento: prima i dati anagrafici, poi i dati specifici dell'attestato, nel rispetto del limite di **15 Core** **+ 15 Dettaglio**.&#x20;
 
 Dettaglio in → [Data model: attributi e stati dell'EAA](../riferimenti-tecnici/data-model-attributi-e-stati-delleaa.md);&#x20;
 
