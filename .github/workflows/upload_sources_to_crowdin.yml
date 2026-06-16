@@ -50,7 +50,7 @@ jobs:
           rm -rf docs
           rm -f docs-structure.json
           mv docs-source/docs docs
-          mv docs-source/docs-structure.json docs-structure.json
+          if [ -f docs-source/docs-structure.json ]; then mv docs-source/docs-structure.json docs-structure.json; fi
 
       - name: Setup Node.JS
         uses: actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e
