@@ -43,14 +43,14 @@ jobs:
         uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd
         with:
           ref: ${{ vars.CHECKOUT_BRANCH || 'docs/from-gitbook' }}
-          sparse-checkout: docs
-          sparse-checkout-cone-mode: true
           path: docs-source
 
       - name: Move docs into workspace root
         run: |
           rm -rf docs
+          rm -f docs-structure.json
           mv docs-source/docs docs
+          mv docs-source/docs-structure.json docs-structure.json
 
       - name: Setup Node.JS
         uses: actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e
@@ -72,9 +72,11 @@ jobs:
           if [ -n "$(git status --porcelain -- docs-structure.json)" ]; then
             git config user.name "github-actions[bot]"
             git config user.email "github-actions[bot]@users.noreply.github.com"
+            git checkout -b docs/from-gitbook
             git add docs-structure.json
             git commit -m "chore: update docs structure manifest"
             git push
+            git checkout -b main
           else
             echo "No docs-structure.json changes to commit."
           fi
