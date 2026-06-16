@@ -63,6 +63,7 @@
   * [Finalità (Purpose)](../../../jqqB3CsnONZdScwRg13O/riferimenti-tecnici/api-esposte-da-pdnd/finalita-purpose.md)
 * [E-service](../../../jqqB3CsnONZdScwRg13O/riferimenti-tecnici/e-service/README.md)
   * [Operazioni e ciclo di vita](../../../jqqB3CsnONZdScwRg13O/riferimenti-tecnici/e-service/operazioni-e-ciclo-di-vita.md)
+  * [Scambi di dati asincroni](riferimenti-tecnici/e-service/scambi-di-dati-asincroni.md)
   * [Esportazione e importazione](../../../jqqB3CsnONZdScwRg13O/riferimenti-tecnici/e-service/e-service.md)
   * [Soglie e approvazioni](../../../jqqB3CsnONZdScwRg13O/riferimenti-tecnici/e-service/soglie-e-approvazioni.md)
   * [Portachiavi](../../../jqqB3CsnONZdScwRg13O/riferimenti-tecnici/e-service/portachiavi.md)
