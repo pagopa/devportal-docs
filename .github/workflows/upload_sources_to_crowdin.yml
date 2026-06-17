@@ -67,24 +67,25 @@ jobs:
           PATHS_TO_DELETE: ${{ inputs.paths_to_delete || '' }}
         run: npm run generate_doc_structure
 
-      - name: Commit docs structure manifest
-        run: |
-          if [ -n "$(git status --porcelain -- docs-structure.json)" ]; then
-            # Copy the updated manifest back into the docs-source checkout,
-            # which is already on the docs/from-gitbook branch.
-            cp docs-structure.json docs-source/docs-structure.json
+      # TODO: Uncomment
+      # - name: Commit docs structure manifest
+      #   run: |
+      #     if [ -n "$(git status --porcelain -- docs-structure.json)" ]; then
+      #       # Copy the updated manifest back into the docs-source checkout,
+      #       # which is already on the docs/from-gitbook branch.
+      #       cp docs-structure.json docs-source/docs-structure.json
 
-            # Commit and push from docs-source so the commit is based on
-            # (and pushed to) the correct branch.
-            cd docs-source
-            git config user.name "github-actions[bot]"
-            git config user.email "github-actions[bot]@users.noreply.github.com"
-            git add docs-structure.json
-            git commit -m "chore: update docs structure manifest"
-            git push
-          else
-            echo "No docs-structure.json changes to commit."
-          fi
+      #       # Commit and push from docs-source so the commit is based on
+      #       # (and pushed to) the correct branch.
+      #       cd docs-source
+      #       git config user.name "github-actions[bot]"
+      #       git config user.email "github-actions[bot]@users.noreply.github.com"
+      #       git add docs-structure.json
+      #       git commit -m "chore: update docs structure manifest"
+      #       git push
+      #     else
+      #       echo "No docs-structure.json changes to commit."
+      #     fi
 
       - name: Generate crowdin file
         id: extract_files
