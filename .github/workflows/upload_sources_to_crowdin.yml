@@ -105,6 +105,13 @@ jobs:
               "https://api.github.com/repos/pagopa/devportal-docs/rules/branches/docs%2Ffrom-gitbook" || true
             echo "::endgroup::"
 
+            # --- DEBUG: show ruleset 25428 details incl. bypass_actors ---
+            echo "::group::Ruleset 25428 bypass actors"
+            curl -s -H "Authorization: token ${GH_PAT_TOKEN}" \
+              -H "Accept: application/vnd.github+json" \
+              "https://api.github.com/repos/pagopa/devportal-docs/rulesets/25428" || true
+            echo "::endgroup::"
+
             # Use PAT-authenticated remote URL for push.
             git remote set-url origin https://devportal-portalsandtools-github-bot:${GH_PAT_TOKEN}@github.com/pagopa/devportal-docs.git
             
