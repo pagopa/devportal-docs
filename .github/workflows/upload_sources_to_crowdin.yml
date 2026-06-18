@@ -86,31 +86,10 @@ jobs:
             # (and pushed to) the correct branch.
             cd docs-source
             git config user.name "devportal-portalsandtools-github-bot"
-            git config user.email "devportal-portalsandtools-github-bot@users.noreply.github.com"
+            git config user.email "devportal-portalsandtools-github-bot@pagopa.it"
             
             # Ensure any checkout-provided auth header is removed so PAT auth is used.
             git config --unset-all http.https://github.com/.extraheader || true
-
-            # --- DEBUG: verify which identity the token resolves to ---
-            echo "::group::Token identity check"
-            curl -s -H "Authorization: token ${GH_PAT_TOKEN}" \
-              -H "Accept: application/vnd.github+json" \
-              "https://api.github.com/user" | grep '"login"' || true
-            echo "::endgroup::"
-
-            # --- DEBUG: show rules evaluated for the target branch ---
-            echo "::group::Branch rules check"
-            curl -s -H "Authorization: token ${GH_PAT_TOKEN}" \
-              -H "Accept: application/vnd.github+json" \
-              "https://api.github.com/repos/pagopa/devportal-docs/rules/branches/docs%2Ffrom-gitbook" || true
-            echo "::endgroup::"
-
-            # --- DEBUG: show ruleset 25428 details incl. bypass_actors ---
-            echo "::group::Ruleset 25428 bypass actors"
-            curl -s -H "Authorization: token ${GH_PAT_TOKEN}" \
-              -H "Accept: application/vnd.github+json" \
-              "https://api.github.com/repos/pagopa/devportal-docs/rulesets/25428" || true
-            echo "::endgroup::"
 
             # Use PAT-authenticated remote URL for push.
             git remote set-url origin https://devportal-portalsandtools-github-bot:${GH_PAT_TOKEN}@github.com/pagopa/devportal-docs.git
