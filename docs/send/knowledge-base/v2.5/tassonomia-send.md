@@ -204,6 +204,11 @@ Ambiti e tipologia notifica:
 ### 0504 - **Avvisi di addebito** 
 * Codice`050401P` - **Notifiche dei provvedimenti di recupero del credito** Notifiche dei provvedimenti di recupero del credito emessi dall’Istituto Previdenziale e riscossi dall’Agenzia delle entrate-Riscossione
 
+### 0505 - **Invalidità Civile** 
+* Codice`050501P` - **Notifiche dei provvedimenti relativi all'invalidità civile** Notifiche dei provvedimenti relativi all'invalidità civile
+
+* Codice`050501N` - **Notifiche dei provvedimenti relativi all'invalidità civile** Notifiche dei provvedimenti relativi all'invalidità civile
+
 
 ## 06 - Servizio Sanitario Nazionale
 
@@ -401,6 +406,8 @@ Ambiti e tipologia notifica:
 | **050301N** | 05 - Previdenza | 03 - Recupero indebiti | <span>Notifiche dei provvedimenti di recupero indebiti</span><br/><span> Notifiche dei provvedimenti di recupero indebiti da pensione, ammortizzatori sociali ed entrate</span> |
 | **050301P** | 05 - Previdenza | 03 - Recupero indebiti | <span>Notifiche dei provvedimenti di recupero indebiti</span><br/><span> Notifiche dei provvedimenti di recupero indebiti da pensione, ammortizzatori sociali ed entrate</span> |
 | **050401P** | 05 - Previdenza | 04 - Avvisi di addebito | <span>Notifiche dei provvedimenti di recupero del credito</span><br/><span> Notifiche dei provvedimenti di recupero del credito emessi dall’Istituto Previdenziale e riscossi dall’Agenzia delle entrate-Riscossione</span> |
+| **050501P** | 05 - Previdenza | 05 - Invalidità Civile | <span>Notifiche dei provvedimenti relativi all'invalidità civile</span><br/><span> Notifiche dei provvedimenti relativi all'invalidità civile</span> |
+| **050501N** | 05 - Previdenza | 05 - Invalidità Civile | <span>Notifiche dei provvedimenti relativi all'invalidità civile</span><br/><span> Notifiche dei provvedimenti relativi all'invalidità civile</span> |
 | **060101P** | 06 - Servizio Sanitario Nazionale | 01 - Ticket | <span>Notifiche relative al Pagamento nei confronti della Sanità</span><br/><span> Tutte le tipologie di notifiche che riguardano il pagamento di una tassa per usufruire del servizio sanitario pubblico</span> |
 | **060201P** | 06 - Servizio Sanitario Nazionale | 02 - Recupero ticket esenzione da reddito | <span>Notifiche recupero crediti in seguito ad errate dichiarazioni di esenzione da reddito</span><br/><span> Tutte le comunicazioni associate ad un pagamento, relative al recupero del ticket dovuto per le prestazioni di assistenza specialistica e/o farmaceutica fruite indebitamente</span> |
 | **060301P** | 06 - Servizio Sanitario Nazionale | 03 - Recupero ticket Prestazioni No-Show  | <span>Notifiche recupero crediti per mancata presentazione ad appuntamenti</span><br/><span> Tutte le comunicazioni associate ad un pagamento, relative al recupero degli importi dovuti per prestazioni di assistenza specialistica prenotate e non fruite a seguito della mancata presentazione dell’assistito all’appuntamento, senza preventiva disdetta nei termini previsti.</span> |
