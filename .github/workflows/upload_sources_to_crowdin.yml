@@ -90,8 +90,13 @@ jobs:
             git remote set-url origin https://x-access-token:${GH_PAT}@github.com/pagopa/devportal-docs.git
 
             git add docs-structure.json
-            git commit -m "chore: update docs structure manifest"
-            git push origin HEAD:${{ vars.CHECKOUT_BRANCH || 'docs/from-gitbook' }}
+
+            if git diff --cached --quiet -- docs-structure.json; then
+              echo "docs-structure.json already up to date in docs-source. Nothing to commit."
+            else
+              git commit -m "chore: update docs structure manifest"
+              git push origin HEAD:${{ vars.CHECKOUT_BRANCH || 'docs/from-gitbook' }}
+            fi
           else
             echo "No docs-structure.json changes to commit."
           fi
