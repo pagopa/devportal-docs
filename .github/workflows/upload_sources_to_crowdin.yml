@@ -48,7 +48,7 @@ jobs:
         with:
           ref: ${{ vars.CHECKOUT_BRANCH || 'docs/from-gitbook' }}
           path: docs-source
-          token: ${{ secrets.GH_PAT_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           persist-credentials: false
 
       - name: Move docs into workspace root
