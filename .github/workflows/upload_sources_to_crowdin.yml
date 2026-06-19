@@ -81,8 +81,8 @@ jobs:
             cp docs-structure.json docs-source/docs-structure.json
 
             cd docs-source
-            git config user.name "Sebastiano-Bertolin"
-            git config user.email "56671015+Sebastiano-Bertolin@users.noreply.github.com"
+            git config user.name "devportal-portalsandtools-github-bot"
+            git config user.email "180539351+devportal-portalsandtools-github-bot@users.noreply.github.com"
 
             git config --unset-all http.https://github.com/.extraheader || true
 
