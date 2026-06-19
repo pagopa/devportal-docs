@@ -73,6 +73,29 @@ jobs:
           PATHS_TO_DELETE: ${{ inputs.paths_to_delete || '' }}
         run: npm run generate_doc_structure
 
+      - name: Commit docs structure manifest
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
+        run: |
+          if [ -n "$(git status --porcelain -- docs-structure.json)" ]; then
+            cp docs-structure.json docs-source/docs-structure.json
+
+            cd docs-source
+            git config user.name "Sebastiano-Bertolin"
+            git config user.email "56671015+Sebastiano-Bertolin@users.noreply.github.com"
+
+            git config --unset-all http.https://github.com/.extraheader || true
+
+            # Token owner determines write access; username segment is ignored for PATs.
+            git remote set-url origin https://x-access-token:${GH_PAT}@github.com/pagopa/devportal-docs.git
+
+            git add docs-structure.json
+            git commit -m "chore: update docs structure manifest"
+            git push origin HEAD:${{ vars.CHECKOUT_BRANCH || 'docs/from-gitbook' }}
+          else
+            echo "No docs-structure.json changes to commit."
+          fi
+
       - name: Generate crowdin file
         id: extract_files
         env:
@@ -84,7 +107,6 @@ jobs:
         with:
           upload_sources: true
           upload_translations: false
-          auto_approve_imported: true
           download_translations: false
           create_pull_request: false
           base_url: 'https://pagopa.crowdin.com'
