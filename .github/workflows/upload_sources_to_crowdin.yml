@@ -4,23 +4,33 @@ on:
   workflow_dispatch:
     inputs:
       paths_to_upload:
-        description: Comma separated list of paths to upload. Leave empty to upload all. (e.g. app-io/io-guida-tecnica/v7.2)
+        description: Comma separated list of paths to upload. Leave empty to upload nothing unless "upload all" is checked. (e.g. app-io/io-guida-tecnica/v7.2)
         required: false
         type: string
       paths_to_delete:
         description: Comma separated list of paths to remove from docs-structure.
         required: false
         type: string
+      upload_all:
+        description: Upload all docs (rebuild from dirNames). When unchecked, leaving "paths to upload" empty uploads nothing.
+        required: false
+        default: false
+        type: boolean
   workflow_call:
     inputs:
       paths_to_upload:
-        description: Comma separated list of paths to upload. Leave empty to upload all.
+        description: Comma separated list of paths to upload. Leave empty to upload nothing unless "upload all" is enabled.
         required: false
         type: string
       paths_to_delete:
         description: Comma separated list of paths to remove from docs-structure.
         required: false
         type: string
+      upload_all:
+        description: Upload all docs (rebuild from dirNames). When false, leaving "paths to upload" empty uploads nothing.
+        required: false
+        default: false
+        type: boolean
     secrets:
       GH_PAT_TOKEN:
         required: true
@@ -38,6 +48,17 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Validate inputs
+        env:
+          PATHS_TO_UPLOAD: ${{ inputs.paths_to_upload || '' }}
+          PATHS_TO_DELETE: ${{ inputs.paths_to_delete || '' }}
+          UPLOAD_ALL: ${{ inputs.upload_all || 'false' }}
+        run: |
+          if [ -z "$PATHS_TO_UPLOAD" ] && [ -z "$PATHS_TO_DELETE" ] && [ "$UPLOAD_ALL" != "true" ]; then
+            echo "::error::Nothing to do: provide 'paths_to_upload', 'paths_to_delete', or enable 'upload_all'."
+            exit 1
+          fi
+
       - name: Checkout
         uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd
         with:
@@ -71,6 +92,7 @@ jobs:
         env:
           PATHS_TO_UPLOAD: ${{ inputs.paths_to_upload || '' }}
           PATHS_TO_DELETE: ${{ inputs.paths_to_delete || '' }}
+          UPLOAD_ALL: ${{ inputs.upload_all || 'false' }}
         run: npm run generate_doc_structure
 
       - name: Commit docs structure manifest
@@ -103,11 +125,14 @@ jobs:
 
       - name: Generate crowdin file
         id: extract_files
+        if: ${{ inputs.paths_to_upload != '' || inputs.upload_all }}
         env:
           PATHS_TO_UPLOAD: ${{ inputs.paths_to_upload || '' }}
+          UPLOAD_ALL: ${{ inputs.upload_all || 'false' }}
         run: npm run generate_file
 
       - name: crowdin action
+        if: ${{ inputs.paths_to_upload != '' || inputs.upload_all }}
         uses: crowdin/github-action@8868a33591d21088edfc398968173a3b98d51706
         with:
           upload_sources: true

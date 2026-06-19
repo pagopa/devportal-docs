@@ -8,6 +8,7 @@ import {
   DIR_NAMES_URL,
   DOCS_DIR,
   fetchDirNamesPaths,
+  parseBooleanFlag,
   parseRequestedDocsPaths,
   type CrowdinFileEntry,
 } from './docsStructure';
@@ -27,10 +28,13 @@ async function generateCrowdinConfig() {
   }
 
   const requestedPathsToUpload = parseRequestedDocsPaths(process.env.PATHS_TO_UPLOAD);
+  const uploadAll = parseBooleanFlag(process.env.UPLOAD_ALL);
   let pathsToUpload = requestedPathsToUpload;
   let usingDirNames = false;
 
-  if (pathsToUpload.length === 0) {
+  if (pathsToUpload.length > 0) {
+    console.log(`🎯 Limiting the upload to ${pathsToUpload.length} selected path(s).`);
+  } else if (uploadAll) {
     console.log(`🌐 Fetching dirNames from ${DIR_NAMES_URL}...`);
     try {
       pathsToUpload = await fetchDirNamesPaths();
@@ -47,7 +51,10 @@ async function generateCrowdinConfig() {
     usingDirNames = true;
     console.log(`📥 Received ${pathsToUpload.length} path(s) from dirNames.`);
   } else {
-    console.log(`🎯 Limiting the upload to ${pathsToUpload.length} selected path(s).`);
+    console.log(
+      '🛑 No paths to upload and "upload all" is disabled; skipping crowdin config generation.',
+    );
+    return;
   }
 
   const mdFiles = collectSelectedMarkdownFiles(pathsToUpload);
