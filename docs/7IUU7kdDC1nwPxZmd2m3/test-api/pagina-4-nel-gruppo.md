@@ -13,6 +13,14 @@ description: description
 {% openapi src="https://raw.githubusercontent.com/pagopa/pagopa-api/refs/heads/SANP3.10.0/openapi/gpd.json" path="/organizations/{organizationfiscalcode}/debtpositions/transfers" method="patch" %} test {% endopenapi %}
 
 
+## pagoPA
+
+{% openapi src="https://raw.githubusercontent.com/pagopa/pagopa-api/refs/heads/SANP3.10.0/openapi/gpd.json" path="/organizations/{organizationfiscalcode}/debtpositions/transfers" method="patch" %} https://raw.githubusercontent.com/pagopa/pagopa-api/refs/heads/SANP3.10.0/openapi/gpd.json {% endopenapi %}
+
+## IO
+
+{% openapi src="https://raw.githubusercontent.com/pagopa/io-functions-services/master/openapi/index.yaml" path="/manage/services" method="post" %} https://raw.githubusercontent.com/pagopa/io-functions-services/master/openapi/index.yaml {% endopenapi %}
+
 
 
 
