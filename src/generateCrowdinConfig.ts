@@ -28,6 +28,7 @@ async function generateCrowdinConfig() {
   }
 
   const requestedPathsToUpload = parseRequestedDocsPaths(process.env.PATHS_TO_UPLOAD);
+  const pathsToDelete = parseRequestedDocsPaths(process.env.PATHS_TO_DELETE);
   const uploadAll = parseBooleanFlag(process.env.UPLOAD_ALL);
   let pathsToUpload = requestedPathsToUpload;
   let usingDirNames = false;
@@ -50,6 +51,10 @@ async function generateCrowdinConfig() {
 
     usingDirNames = true;
     console.log(`📥 Received ${pathsToUpload.length} path(s) from dirNames.`);
+  } else if (pathsToDelete.length > 0) {
+    console.log(
+      `🗑️ No Markdown files selected; uploading ${pathsToDelete.length} docs-structure deletion(s).`,
+    );
   } else {
     console.log(
       '🛑 No paths to upload and "upload all" is disabled; skipping crowdin config generation.',
@@ -57,9 +62,9 @@ async function generateCrowdinConfig() {
     return;
   }
 
-  const mdFiles = collectSelectedMarkdownFiles(pathsToUpload);
+  const mdFiles = pathsToUpload.length > 0 ? collectSelectedMarkdownFiles(pathsToUpload) : [];
 
-  if (mdFiles.length === 0) {
+  if (pathsToUpload.length > 0 && mdFiles.length === 0) {
     console.warn(
       usingDirNames
         ? `⚠️ No .md files found under the paths declared in dirNames.`
