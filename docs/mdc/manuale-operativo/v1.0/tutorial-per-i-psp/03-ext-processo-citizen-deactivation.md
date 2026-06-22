@@ -1,44 +1,36 @@
----
-metaLinks:
-  alternates:
-    - >-
-      https://app.gitbook.com/s/UdBZLK0IXWx2yqcEv6ks/tutorial-per-i-psp/03-ext-processo-citizen-deactivation
----
+# Come disattivare un utente al Servizio
 
-# Come disattivare un utente al servizio
-
-Questo tutorial guida attraverso il processo tecnico di Disattivazione di un utente. Questa operazione è fondamentale per consentire all'utente di modificare le proprie preferenze. In questa fase, l'utente ha la possibilità di disattivare il servizio di messaggi di cortesia in qualsiasi momento. La disattivazione del servizio, così come l'attivazione, sarà possibile solo attraverso l'App del PSP.
+Questo tutorial guida attraverso il processo tecnico di disattivazione del Servizio da parte di un Utente. Questa operazione è fondamentale per consentire all'Utente di modificare le proprie scelte. In questa fase, l'Utente ha la possibilità di disattivare il Servizio di "Messaggi di Cortesia" in qualsiasi momento. Ad oggi, la disattivazione del Servizio, così come l'attivazione, è possibile solo attraverso l'app bancaria del PSP.
 
 ### **Pre-condizioni**
 
-* L'utente deve aver precedentemente attivato il servizio di messaggi di cortesia.
+* L'Utente deve aver precedentemente attivato il servizio di messaggi di cortesia.
 
 ### **Requisiti Utente**
 
-Se l'utente desidera interrompere la ricezione dei messaggi di cortesia dopo aver attivato il servizio, può farlo attraverso l'App del PSP.
-
-L'App del PSP deve chiamare l'EMD per recuperare le abilitazioni e consentire all'utente effettuare la disattivazione.
+* Se l'Utente desidera disattivare il Servizio, può farlo attraverso l'app bancaria del PSP.
+* L'app bancaria del PSP deve chiamare l'EMD per recuperare le abilitazioni e consentire all'Utente di effettuare la disattivazione.
 
 ```mermaid
 sequenceDiagram
-    title Disattivazione Servizio da parte del Cittadino da Canale TPP/PSP
+    title Disattivazione Servizio da parte dell'Utente
     autonumber
 
-    actor Cittadino
+    actor Utente
     participant BETPP as Backend TPP/PSP
     participant EMD
 
     %% Prima fase: Autenticazione SCA
-    activate Cittadino
-    Cittadino->>BETPP: Autentication Cittadino (SCA)
+    activate Utente
+    Utente->>BETPP: Autentication Utente (SCA)
     activate BETPP
-    BETPP-->>Cittadino: Autentication Cittadino (SCA) OK
+    BETPP-->>Utente: Autentication Utente (SCA) OK
     deactivate BETPP
-    deactivate Cittadino
+    deactivate Utente
 
     %% Seconda fase: Disattivazione
-    activate Cittadino
-    Cittadino->>BETPP: DeactivateMSG
+    activate Utente
+    Utente->>BETPP: DeactivateMSG
     activate BETPP
     
     BETPP->>EMD: Richiede autenticazione (Get AccessToken)
@@ -46,34 +38,34 @@ sequenceDiagram
     EMD-->>BETPP: result 201 (AccessToken)
     deactivate EMD
 
-    BETPP->>EMD: Salva Consensi (AccessToken+CF)
+    BETPP->>EMD: Salva lo stato dell'Utente (AccessToken+CF)
     activate EMD
-    EMD-->>BETPP: Response OK Salva Consensi
+    EMD-->>BETPP: Response OK Salva lo stato
     deactivate EMD
 
-    BETPP-->>Cittadino: Response OK
+    BETPP-->>Utente: Response OK
     deactivate BETPP
-    deactivate Cittadino
+    deactivate Utente
 ```
 
 ## Step 1: Ottenere l'AccessToken (Autenticazione)
 
-Come per tutte le operazioni verso la piattaforma, il primo passo consiste nell'ottenere un token di autenticazione valido.
+Il primo step per l'integrazione del Servizio da parte del PSP è ottenere un token di autenticazione valido.
 
-1. Effettuare una chiamata al server di autenticazione PagoPA utilizzando lo schema **OAuth 2.0 Client Credentials flow**.
+1. Effettuare una chiamata al server di autenticazione PagoPA S.p.A. utilizzando lo schema **OAuth 2.0 Client Credentials flow**.
 2. Includere nella richiesta il _client\_id e il client\_secret_, che hai ricevuto durante il processo di adesione.
 3. Il server risponderà con un AccessToken da utilizzare nel passo successivo.
 
 ## Step 2: Preparare il corpo della richiesta
 
-Per disattivare un utente bisognerà richiamare la API PUT: `/emd/citizen/{fiscalCode}/{tppId}` fornendo il token di autorizzazione recuperato dal sistema autorizzativo. Verranno fornite alla nostra API due informazioni:
+Per disattivare un utente bisognerà richiamare la API PUT: `/emd/citizen/{fiscalCode}/{tppId}` fornendo il token di autorizzazione recuperato dal sistema autorizzativo. Verranno fornite all'API di PagoPA S.p.A. due informazioni:
 
-* `fiscalCode`: codice fiscale del cittadino
-* `tppId`: identificativo univoco del Prestatore di Servizi di Pagamento (PSP)
+* `fiscalCode`: codice fiscale dell'Utente
+* `tppId`: identificativo univoco del PSP
 
-## Step 3: Invocare l'API di Disattivazione
+## Step 3: Invocare l'API di disattivazione
 
-Una volta ottenuto l'AccessToken e preparato il payload, sarà possibile procedere con la richiesta di modifica del consenso.
+Una volta ottenuto l'AccessToken e preparato il payload, sarà possibile procedere con la richiesta di disattivazione del Servizio.
 
 **Endpoint**
 
@@ -83,11 +75,11 @@ PUT /emd/citizen/{fiscalCode}/{tppId}
 
 Occorrerà includere l'AccessToken nell'header Authorization come Bearer Token.
 
-## Step 4: Gestire la risposta del servizio
+## Step 4: Gestire la risposta del Servizio
 
-L'esito della chiamata informa se l'attivazione è andata a buon fine.
+L'esito della chiamata informa se la disattivazione è andata a buon fine.
 
-* Caso di Successo (200 Created) La risposta indica che l'utente è stato modificato con successo.
+* Caso di Successo (200 Created) La risposta indica che l'Utente è stato modificato con successo.
 * Caso di Richiesta errata (400 Bad Request)
 * Caso di Richiesta errata (404 Not Found) La risposta indica che l'utente non è stato trovato.
 
@@ -105,7 +97,7 @@ In caso di esito positivo la risposta sarà la seguente:
 }
 ```
 
-Ossia l'indicazione sul Codice fiscale dell'utente che ha modificato il consenso e un oggetto consents con all'interno:
+Ossia l'indicazione dell'Utente che ha modificato lo stato di attivazione/disattivazione:
 
-* `tppState`: booleano che indica lo stato del consenso fornito (true-> aderente e false -> non aderente)
-* `tcDate`: indica la data di accettazione/non accettazione dei consensi
+* `tppState`: booleano che indica lo stato di **attivazione/disattivazione del Servizio** fornito (true-> attivato e false -> disattivato)
+* `tcDate`: indica la data di **attivazione/disattivazione del Servizio**

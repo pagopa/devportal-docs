@@ -1,34 +1,27 @@
----
-metaLinks:
-  alternates:
-    - >-
-      https://app.gitbook.com/s/UdBZLK0IXWx2yqcEv6ks/casi-duso/ciclo-vita-messaggio
----
-
 # Ciclo di vita di un messaggio
 
-Ciclo di vita della notifica SEND su App PSP: dall'invio del messaggio da parte di SEND alla ricezione della notifica push sul dispositivo dell'utente, inclusi i meccanismi di retry in caso di errore.
+Ciclo di vita della notifica SEND sull'app bancaria del PSP: dall'invio del messaggio da parte di SEND alla ricezione della notifica push sul dispositivo dell'Utente, inclusi i meccanismi di retry in caso di errore.
 
 ***
 
 ## Panoramica del flusso
 
-Quando un Ente pubblica una notifica tramite SEND, viene avviata una catena di eventi che — se il cittadino destinatario ha attivato il servizio sulla propria app PSP — si conclude con una notifica push sul suo dispositivo mobile.
+Quando un'amministrazione mittente invia una notifica tramite SEND, viene avviato un processo che — se il destinatario ha attivato il Servizio sull'app bancaria del proprio PSP — determina l'invio di una notifica push del PSP sul suo dispositivo mobile dell'Utente.
 
 Il diagramma seguente illustra l'intero ciclo di vita del messaggio:
 
 ```mermaid
 sequenceDiagram
-    %%title Processo di Invio del Messaggio di Cortesia alle TPP
+    %%title Processo di Invio del Messaggio di Cortesia ai PSP
     autonumber
     
-    actor Cittadino
-    participant BE_TPP as Backend TPP/PSP
+    actor Utente
+    participant BE_TPP as Backend PSP
     participant EMD
     participant SEND
 
-    SEND->>EMD: Invio messaggio di un cittadino
-    EMD->>EMD: Verifica consensi attivi del cittadino
+    SEND->>EMD: Invio messaggio ad Utente
+    EMD->>EMD: Verifica lo stato dell'Utente
     alt Nessun canale abilitato
         EMD-->>SEND: response (202 - NO_CHANNELS_ENABLED)
     else Canali OK
@@ -37,7 +30,7 @@ sequenceDiagram
     EMD->>EMD: Verifica quali PSP sono attive
     EMD->>EMD: Salvataggio messaggio (stato: IN_PROGRESS) <br/>per ogni PSP attiva
     
-    alt TPP con consenso attivo
+    alt PSP con servizio attivo
         EMD->>BE_TPP: POST authenticationUrl (richiesta token)
         BE_TPP->>EMD: Risposta con token di autenticazione
         EMD->>BE_TPP: POST messageUrl + Authorization header (invio messaggio)
@@ -46,7 +39,7 @@ sequenceDiagram
         alt Invio riuscito
             BE_TPP->>EMD: HTTP 200 OK
             EMD->>EMD: Aggiornamento stato messaggio → SENT
-            BE_TPP->>Cittadino: Notifica di cortesia al cittadino
+            BE_TPP->>Utente: Notifica di cortesia all'Utente
         
         %%Processo errore nel invio
         else Errore o timeout
@@ -58,47 +51,47 @@ sequenceDiagram
 
 Il flusso si articola in **tre macro-fasi**:
 
-1. **Ricezione da SEND** — EMD riceve il messaggio e verifica se il cittadino ha canali abilitati.
-2. **Consegna alla PSP** — EMD autentica la PSP e le invia il messaggio.
-3. **Notifica al cittadino** — La PSP notifica il cittadino sulla propria app, che può aprire la notifica originale su SEND.
+1. **Ricezione da SEND** — EMD riceve il messaggio e verifica se il destinatario ha attivo il Servizio.
+2. **Consegna al PSP** — EMD si autentica sul backend del PSP e gli invia il messaggio.
+3. **Notifica all'Utente** — Il PSP, tramite notifica push sull'app bancaria dell’Utente, comunica allo stesso che può visualizzare la notifica a valore legale direttamente sulla piattaforma SEND.&#x20;
 
 ***
 
 ## Fase 1 — Ricezione del messaggio da SEND
 
-Un Ente pubblica una comunicazione ufficiale tramite la piattaforma SEND. SEND si occupa di inoltrarla alla piattaforma EMD, che funge da hub di distribuzione verso le PSP.
+Un'amministrazione mittente deposita l'atto sulla piattaforma SEND che si occupa di inoltrarla al layer EMD, che funge da hub di distribuzione verso i PSP.
 
 ### Cosa fa EMD alla ricezione
 
 Prima di prendere in carico il messaggio, EMD esegue due controlli in sequenza:
 
-1. **Il cittadino è censito in EMD?** — Viene verificata la presenza del codice fiscale del destinatario nel sistema.
-2. **Ha almeno un consenso attivo verso una PSP attiva?** — Vengono recuperati i consensi del cittadino. Solo quelli verso PSP attive e in stato "attivo" vengono considerati.
+1. **Il destinatario è censito in EMD?** — Viene verificata la sua attivazione.
+2. **Ha almeno un attivazione verso una PSP?** — Vengono recuperati le attivazioni effettuate dall'Utente. Solo quelli verso PSP attivi vengono considerati.
 
-| Esito del controllo        | Risposta a SEND           | Cosa succede dopo                             |
-| -------------------------- | ------------------------- | --------------------------------------------- |
-| Almeno un canale abilitato | `200 OK`                  | Il messaggio viene accodato per la consegna   |
-| Nessun canale abilitato    | `202 NO_CHANNELS_ENABLED` | Il messaggio viene scartato, SEND non ritenta |
+| Esito del controllo | Risposta a SEND           | Cosa succede dopo                             |
+| ------------------- | ------------------------- | --------------------------------------------- |
+| Utente attivo       | `200 OK`                  | Il messaggio viene accodato per la consegna   |
+| Utente non attivo   | `202 NO_CHANNELS_ENABLED` | Il messaggio viene scartato, SEND non ritenta |
 
 {% hint style="info" %}
-Se il cittadino ha disattivato il servizio sulla propria app PSP, il messaggio viene silenziosamente scartato in questa fase. Il cittadino non riceverà alcuna notifica di cortesia, ma potrà comunque accedere alla notifica direttamente su SEND.
+Se l'Utente ha disattivato il servizio sull'app bancaria del PSP, il messaggio viene scartato in questa fase. L'Utente non riceverà alcuna notifica di cortesia, ma potrà comunque accedere alla notifica direttamente su SEND.
 {% endhint %}
 
 ***
 
-## Fase 2 — Consegna del messaggio alla PSP
+## Fase 2 — Consegna del messaggio al PSP
 
-Per ogni PSP che ha ricevuto il consenso attivo dal cittadino, EMD esegue i seguenti passi:
+Per ogni attivazione dell'Utente, EMD esegue i seguenti passi:
 
 ### Step 1 — Autenticazione
 
-EMD effettua una chiamata POST all'`authenticationUrl` configurato dalla PSP in fase di onboarding, per ottenere un token di accesso da usare nella chiamata successiva.
+EMD effettua una chiamata POST all'`authenticationUrl` configurato dal PSP in fase di onboarding, per ottenere un token di accesso da usare nella chiamata successiva.
 
 ### Step 2 — Invio del messaggio
 
-EMD invia il messaggio al `messageUrl` della PSP, allegando il token ottenuto come Bearer Token nell'header `Authorization`.
+EMD invia il messaggio al `messageUrl` del PSP, allegando il token ottenuto come Bearer Token nell'header `Authorization`.
 
-**Esempio di payload ricevuto dalla PSP:**
+**Esempio di payload ricevuto dal PSP:**
 
 ```json
 {
@@ -119,37 +112,37 @@ EMD invia il messaggio al `messageUrl` della PSP, allegando il token ottenuto co
 
 ### Step 3 — Risposta attesa dalla PSP
 
-La PSP deve rispondere con **HTTP 200 OK** per confermare la ricezione del messaggio. Qualsiasi altro esito (4xx, 5xx, timeout) viene trattato come un errore e attiva il meccanismo di retry (vedi [Gestione errori e retry](ciclo-vita-messaggio.md#gestione-errori-e-retry)).
+Il PSP deve rispondere con **HTTP 200 OK** per confermare la ricezione del messaggio. Qualsiasi altro esito (4xx, 5xx, timeout) viene trattato come un errore e attiva il meccanismo di retry (vedi [Gestione errori e retry](ciclo-vita-messaggio.md#gestione-errori-e-retry)).
 
 ***
 
-## Fase 3 — Notifica al cittadino sull'app PSP
+## Fase 3 — Comunicazione all'Utente sull'app bancaria del PSP
 
-Una volta ricevuto il messaggio, la PSP è responsabile di notificare tempestivamente il cittadino tramite una **notifica push** sul suo dispositivo mobile.
+Una volta ricevuto il messaggio, il PSP è responsabile di segnalare tempestivamente all'Utente della presenza di una notifica a valore legale su SEND tramite una **notifica push** sul suo dispositivo mobile.
 
-### Cosa vede il cittadino
+### Cosa vede l'Utente
 
-Il cittadino riceve una notifica push standard sul proprio smartphone. Aprendo la notifica, l'app PSP mostra il messaggio di cortesia ricevuto da EMD.
+L'Utente riceve una notifica push standard sul proprio smartphone. Aprendo la notifica, l'app bancaria del PSP mostra il messaggio di cortesia ricevuto da EMD.
 
 ![Notifica Push PSP](../.gitbook/assets/notifica_push.png)
 
-Il messaggio dovrà essere visualizzato nell'app della PSP includendo obbligatoriamente:
+Il contenuto dovrà essere visualizzato nell'app bancaria del PSP includendo obbligatoriamente:
 
-* **Mittente** — il nome dell'Ente che ha pubblicato la notifica (campo `senderDescription`)
+* **Mittente** — il nome dell'amministrazione mittente che ha depositato su SEND la notifica (campo `senderDescription`)
 * **Titolo** — il titolo del messaggio (campo `title`)
 * **Contenuto** — il corpo del messaggio in formato Markdown (campo `content`)
 * **Link** — un collegamento diretto alla notifica su SEND (campo `messageUrl`)
-* **Scadenza** _(solo per ANALOG)_ — la data entro cui leggere la notifica per evitare la raccomandata cartacea persente anche nel contenuto del messaggio che drova essere in chiaro (campo `analogSchedulingDate`)
+* **Scadenza** _(solo per ANALOG)_ — la data entro cui leggere la notifica per evitare la raccomandata cartacea presente anche nel contenuto del messaggio che dovrà essere in chiaro (campo `analogSchedulingDate`)
 
 ![Descrizione notifica PSP](../.gitbook/assets/descrizione_notifica.png)
 
 {% hint style="warning" %}
-Importante per le PSP Il contenuto del messaggio (`title` e `content`) **deve essere mostrato al cittadino esattamente come ricevuto**, senza alcuna modifica. Il campo `content` è in formato Markdown e deve essere renderizzato come tale.
+Importante per il PSP: il contenuto del messaggio (`title` e `content`) **deve essere mostrato all'Utente esattamente come ricevuto**, senza alcuna modifica. Il campo `content` è in formato Markdown e deve essere renderizzato come tale.
 {% endhint %}
 
-### Il cittadino apre la notifica su SEND
+### L'Utente apre la notifica su SEND
 
-Toccando il link presente nel messaggio, il cittadino viene reindirizzato alla piattaforma SEND, dove dopo aver cliccato "Accedi ai documenti" dovrà loggarsi tramite CIE o SPID per visualizzare la notifica completa.
+Al click sulla CTA presente nell'app bancaria, l'Utente viene reindirizzato alla piattaforma SEND dove, dopo aver cliccato "Accedi ai documenti" dovrà loggarsi tramite CIE o SPID per visualizzare la notifica completa.
 
 ![Accesso e visualizzazione notifica completa](../.gitbook/assets/notifica_completa_su_send.png)
 
@@ -157,16 +150,16 @@ Toccando il link presente nel messaggio, il cittadino viene reindirizzato alla p
 
 ## Tipi di messaggio: ANALOG vs DIGITAL
 
-Il campo `workflowType` determina la tipologia di notifica e il contenuto del messaggio che la PSP riceve.
+Il campo `workflowType` determina la tipologia di notifica e il contenuto del messaggio che il PSP riceve.
 
 ### ANALOG — Notifica con scadenza
 
-Le notifiche di tipo `ANALOG` riguardano comunicazioni che, se non visualizzate entro una scadenza, verranno consegnate anche tramite raccomandata cartacea. È il caso più urgente per il cittadino.
+Le notifiche di tipo `ANALOG` riguardano comunicazioni che, se non visualizzate entro le 120 ore, verranno trasmesse anche tramite raccomandata cartacea.
 
 **Caratteristiche:**
 
-* Il campo `analogSchedulingDate` è sempre presente e indica la scadenza (tipicamente 5 giorni dalla pubblicazione)
-* Il `content` avvisa il cittadino della scadenza e dei costi evitabili
+* Il campo `analogSchedulingDate` è sempre presente e indica la scadenza (tipicamente 120 ore dall'invio del messaggio di cortesia da SEND)
+* Il campo `content` contiene informazioni sulla scadenza e dei costi evitabili
 
 **Esempio di contenuto:**
 
@@ -180,18 +173,18 @@ Per leggerla e conoscere tutti i dettagli, accedi al sito web di SEND direttamen
 
 ### DIGITAL — Notifica digitale standard
 
-Le notifiche di tipo `DIGITAL` riguardano cittadini che hanno attivato un domicilio digitale. Non prevedono raccomandata cartacea.
+Le notifiche di tipo `DIGITAL` riguardano Utenti che hanno attivato un domicilio digitale. Non prevedono raccomandata cartacea.
 
 **Caratteristiche:**
 
 * Il campo `analogSchedulingDate` non è presente
-* Il `content` informa il cittadino sulla natura della consegna legale digitale
+* Il campo `content` contiene informazioni sulla natura della consegna legale della notifica
 
 **Esempio di contenuto:**
 
 ```
 Ciao,
-hai ricevuto una notifica SEND, cioè una comunicazione a valore legale emessa da un'amministrazione.
+hai ricevuto una notifica SEND, cioè una comunicazione a valore legale emessa da un'amministrazione mittente.
 
 Per leggerla e conoscere tutti i dettagli, accedi al sito web di SEND direttamente da questo messaggio.
 
@@ -203,7 +196,7 @@ anche se non la apri o non la leggi.
 
 ## Gestione errori e retry
 
-Se la consegna del messaggio alla PSP fallisce, EMD attiva automaticamente un meccanismo di retry con **backoff esponenziale**.
+Se la consegna del messaggio al PSP fallisce, EMD attiva automaticamente un meccanismo di retry con **backoff esponenziale**.
 
 ### Meccanismo di retry
 
@@ -226,12 +219,9 @@ Ad ogni tentativo fallito il sistema incrementa un contatore interno. L'interval
 Se tutti i tentativi configurati falliscono:
 
 1. Il messaggio viene marcato come **non consegnato**
-2. Viene aperto un **incident interno** per il team tecnico di EMD
-3. La PSP viene **notificata** attraverso i canali di comunicazione stabiliti
-4. Il team di EMD collabora con la PSP per identificare e risolvere il problema
 
 {% hint style="info" %}
-Il meccanismo di retry è completamente automatico e trasparente per la PSP. La PSP non deve implementare alcuna logica di retry lato suo — è sufficiente esporre un endpoint stabile e rispondere con `200 OK` alla ricezione.
+Il meccanismo di retry è completamente automatico e trasparente per il PSP ed è sufficiente esporre un endpoint stabile e rispondere con `200 OK` alla ricezione/presa in carico.
 {% endhint %}
 
 ***
@@ -241,5 +231,5 @@ Il meccanismo di retry è completamente automatico e trasparente per la PSP. La 
 | Stato         | Significato                                                          |
 | ------------- | -------------------------------------------------------------------- |
 | `IN_PROGRESS` | Il messaggio è stato preso in carico da EMD ed è in fase di consegna |
-| `SENT`        | Il messaggio è stato consegnato con successo alla PSP                |
+| `SENT`        | Il messaggio è stato consegnato con successo al PSP                  |
 | `ERROR`       | Tutti i tentativi di consegna sono falliti                           |

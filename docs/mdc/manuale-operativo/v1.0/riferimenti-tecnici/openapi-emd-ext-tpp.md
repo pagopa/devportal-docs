@@ -1,25 +1,18 @@
----
-metaLinks:
-  alternates:
-    - >-
-      https://app.gitbook.com/s/UdBZLK0IXWx2yqcEv6ks/riferimenti-tecnici/openapi-emd-ext-tpp
----
-
-# API Reference - TPP
+# API Reference - PSP
 
 **Versione:** 1.3.3\
-**Titolo:** TPP Network Testing API - TPP Integration\
+**Titolo:** PSP Network Testing API - PSP Integration\
 **Contatto:** PagoPA S.p.A. - messaggidicortesia@assistenza.pagopa.it
 
 ***
 
 ## Panoramica
 
-Questa API è dedicata alla **verifica della connettività di rete** tra il TPP (Third Party Provider) e i sistemi PagoPA nell'ambito del progetto EMD (Messaggi di Cortesia). Il suo scopo principale è consentire ai TPP di validare, durante la fase di onboarding e nei collaudi successivi, che l'infrastruttura di rete sia correttamente configurata e che le chiamate verso PagoPA vengano ricevute con successo.
+Questa API è dedicata alla **verifica della connettività di rete** tra il PSP e i sistemi PagoPA S.p.A. nell'ambito del servizio Messaggi di Cortesia. Il suo scopo principale è consentire ai PSP di validare, durante la fase di onboarding e nei collaudi successivi, che l'infrastruttura di rete sia correttamente configurata e che le chiamate verso PagoPA S.p.A. vengano ricevute con successo.
 
-Questa API è tipicamente utilizzata:
+Questa API è utilizzata:
 
-* Durante la fase di **onboarding** del TPP, per verificare la raggiungibilità dell'ambiente target (DEV, UAT, PROD).
+* Durante la fase di **onboarding** del PSP, per verificare la raggiungibilità dell'ambiente target (DEV, UAT, PROD).
 * Come **health check di rete** per diagnosticare eventuali problemi di connettività.
 
 ***
@@ -46,13 +39,13 @@ L'endpoint richiede autenticazione tramite **OAuth2 con flusso Client Credential
 
 **`GET /network/connection/{tppName}`**
 
-Verifica che il TPP riesca a raggiungere i sistemi PagoPA. In caso di successo, il sistema restituisce un messaggio di conferma che include il nome del TPP passato come parametro.
+Verifica che il PSP riesca a raggiungere i sistemi PagoPA S.p.A. In caso di successo, il sistema restituisce un messaggio di conferma che include il nome del PSP passato come parametro.
 
 **Parametri di path:**
 
 | Parametro | Tipo   | Obbligatorio | Descrizione                                                                            |
 | --------- | ------ | ------------ | -------------------------------------------------------------------------------------- |
-| `tppName` | string | Sì           | Nome commerciale o identificativo dell'azienda TPP (1-70 caratteri). Esempio: `BancaX` |
+| `tppName` | string | Sì           | Nome commerciale o identificativo dell'azienda PSP (1-70 caratteri). Esempio: `BancaX` |
 
 **Parametri di header:**
 
@@ -69,7 +62,7 @@ Verifica che il TPP riesca a raggiungere i sistemi PagoPA. In caso di successo, 
 }
 ```
 
-Il campo `message` conterrà il nome del TPP passato nella richiesta, confermando che la connessione è andata a buon fine.
+Il campo `message` conterrà il nome del PSP passato nella richiesta, confermando che la connessione è andata a buon fine.
 
 ***
 
@@ -82,7 +75,7 @@ Schema della risposta in caso di connessione verificata con successo.
 | Campo     | Tipo          | Obbligatorio | Descrizione                                                           |
 | --------- | ------------- | ------------ | --------------------------------------------------------------------- |
 | `code`    | string (enum) | Sì           | Codice del messaggio. Valore fisso: `PAGOPA_NETWORK_TEST`             |
-| `message` | string        | Sì           | Messaggio di conferma, include il nome del TPP. Massimo 250 caratteri |
+| `message` | string        | Sì           | Messaggio di conferma, include il nome del PSP. Massimo 250 caratteri |
 
 ### TPPErrorDTO
 
@@ -131,4 +124,4 @@ Ogni risposta include i seguenti header per il controllo del traffico:
 
 ## Note Operative
 
-Questo endpoint è particolarmente utile durante la fase di onboarding. Si raccomanda di eseguire questo test su ogni ambiente (DEV, UAT, PROD) prima di procedere con l'integrazione completa, in modo da verificare che le regole firewall, i certificati e le configurazioni di rete siano correttamente predisposte da entrambe le parti.
+Si raccomanda di eseguire questo test su ogni ambiente (DEV, UAT, PROD) prima di procedere con l'integrazione completa, in modo da verificare che le regole firewall, i certificati e le configurazioni di rete siano correttamente predisposte da entrambe le parti.

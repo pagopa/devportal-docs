@@ -1,10 +1,3 @@
----
-metaLinks:
-  alternates:
-    - >-
-      https://app.gitbook.com/s/UdBZLK0IXWx2yqcEv6ks/riferimenti-tecnici/authentication-security
----
-
 # Gestione della Sicurezza e Autenticazione
 
 Il flusso **Client Credentials** è il metodo standard per l'autenticazione Machine-to-Machine (M2M). È ideale per servizi backend che devono consumare le nostre API in modo sicuro senza l'intervento di un utente finale.
@@ -13,7 +6,7 @@ Il flusso **Client Credentials** è il metodo standard per l'autenticazione Mach
 
 ### 1. Requisiti Iniziali
 
-Per iniziare l'integrazione, recupera le tue credenziali dal portale Area Riservata:
+Per iniziare l'integrazione, il PSP recupera le credenziali dalla piattaforma "Area Riservata Enti":
 
 * **`client_id`**: L'identificativo pubblico della tua applicazione.
 * **`client_secret`**: La tua chiave segreta (trattala come una password).
@@ -48,7 +41,7 @@ Riceverai un JSON contenente il token Bearer:
 
 ### 3. Utilizzo del Token
 
-Inserisci l' access\_token nell'header HTTP Authorization per ogni chiamata verso le nostre API.
+Inserisci l'access\_token nell'header HTTP Authorization per ogni chiamata verso le nostre API.
 
 #### Esempio di chiamata API:
 

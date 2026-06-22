@@ -1,27 +1,20 @@
----
-metaLinks:
-  alternates:
-    - >-
-      https://app.gitbook.com/s/UdBZLK0IXWx2yqcEv6ks/riferimenti-tecnici/openapi-emd-ext-payment
----
-
 # API Reference - PAYMENT
 
 **Versione:** 1.4.1\
-**Titolo:** EMD Payment API - TPP Integration\
+**Titolo:** EMD Payment API - PSP Integration\
 **Contatto:** PagoPA S.p.A. - messaggidicortesia@assistenza.pagopa.it
 
 ***
 
 ## Panoramica
 
-Questa API gestisce il flusso di **pagamento integrato** all'interno del sistema EMD (Messaggi di Cortesia). Permette ai TPP di generare un token di recupero (`retrievalToken`) associato al messaggio di cortesia, recuperarne i dettagli, e redirezionare il cittadino verso l'applicazione TPP tramite deep link per completare il pagamento.
+Questa API gestisce il flusso di **pagamento integrato** all'interno del sistema EMD (Messaggi di Cortesia). Permette ai PSP di generare un token di recupero (`retrievalToken`) associato al messaggio di cortesia, recuperarne i dettagli, e redirezionare l'Utente verso l'app bancaria del PSP tramite deep link per completare il pagamento.
 
 Il flusso tipico è:
 
-1. Il TPP riceve un messaggio di cortesia e chiama `POST /retrievalTokens` per salvare le informazioni di recupero, ottenendo un `retrievalId`.
-2. Il `retrievalId` viene incluso nel link mostrato al cittadino che effettua una redirect verso il Portale SEND
-3. Quando il cittadino entra nel Portale SEND cliccando sulla CTA "Paga con la tua Banca", viene chiamato `GET /token` (redirect) che genera il deep link verso l'app TPP.
+1. Il PSP riceve un messaggio di cortesia e chiama `POST /retrievalTokens` per salvare le informazioni di recupero, ottenendo un `retrievalId`.
+2. Il `retrievalId` viene incluso nel link mostrato all'Utente che effettua una redirect verso la piattaforma SEND
+3. Quando l'Utente entra nella piattaforma SEND cliccando sulla CTA "Paga con la tua Banca", viene chiamato `GET /token` (redirect) che genera il deep link verso l'app bancaria del PSP.
 
 ***
 
@@ -71,7 +64,7 @@ Crea e salva un payload di recupero associato a un messaggio di cortesia. Restit
 | ------------- | ------ | ------------ | ------------------------------------------------------------------------------------------------------------------------------- |
 | `agent`       | string | Sì           | Identificatore del sistema operativo sorgente (es. `iOS`, `Android`). 2-50 caratteri alfanumerici                               |
 | `originId`    | string | Sì           | Identificatore univoco del messaggio originale. 24-36 caratteri alfanumerici con trattini                                       |
-| `linkVersion` | string | No           | Versione del deep link da utilizzare. Se non fornita, viene usata la versione predefinita concordata con il TPP. 1-50 caratteri |
+| `linkVersion` | string | No           | Versione del deep link da utilizzare. Se non fornita, viene usata la versione predefinita concordata con il PSP. 1-50 caratteri |
 
 **Risposta di successo (`200 OK`):**
 
@@ -89,7 +82,7 @@ Il `retrievalId` è una stringa di esattamente 50 caratteri che identifica univo
 
 **`GET /retrievalTokens/{retrievalId}`**
 
-Recupera i dettagli completi di un payload di recupero precedentemente salvato, inclusi il deep link generato e le informazioni sul TPP.
+Recupera i dettagli completi di un payload di recupero precedentemente salvato, inclusi il deep link generato e le informazioni sul PSP.
 
 **Parametri di path:**
 
@@ -119,11 +112,11 @@ Recupera i dettagli completi di un payload di recupero precedentemente salvato, 
 | Campo              | Tipo    | Descrizione                                                                          |
 | ------------------ | ------- | ------------------------------------------------------------------------------------ |
 | `retrievalId`      | string  | ID univoco del retrieval (50 caratteri)                                              |
-| `tppId`            | string  | ID univoco del TPP sui sistemi PagoPA (50 caratteri)                                 |
-| `deeplink`         | string  | URL deep link per redirigere l'utente all'app TPP (10-128 caratteri)                 |
+| `tppId`            | string  | ID univoco del PSP sui sistemi PagoPA S.p.A.(50 caratteri)                           |
+| `deeplink`         | string  | URL deep link per redirigere l'utente all'app bancaria del PSP (10-128 caratteri)    |
 | `pspDenomination`  | string  | Nome del provider di pagamento mostrato come etichetta del pulsante (1-15 caratteri) |
 | `originId`         | string  | ID del messaggio originale (24-36 caratteri)                                         |
-| `isPaymentEnabled` | boolean | Indica se il TPP è integrato con il sistema di pagamento                             |
+| `isPaymentEnabled` | boolean | Indica se il PSP ha abilitato la funzionalità di pagamento                           |
 
 ***
 
@@ -131,15 +124,15 @@ Recupera i dettagli completi di un payload di recupero precedentemente salvato, 
 
 **`GET /token`**
 
-Endpoint pubblico (senza autenticazione) che riceve i parametri di un pagamento e reindirizza il browser del cittadino verso il deep link dell'app TPP tramite risposta HTTP `302 Redirect`.
+Endpoint pubblico (senza autenticazione) che riceve i parametri di un pagamento e reindirizza il browser dell'Utente verso il deep link dell'app bancaria del PSP tramite risposta HTTP `302 Redirect`.
 
 **Parametri di query:**
 
-| Parametro      | Tipo   | Obbligatorio | Descrizione                                                               |
-| -------------- | ------ | ------------ | ------------------------------------------------------------------------- |
-| `retrievalId`  | string | Sì           | ID univoco del retrieval payload (esattamente 50 caratteri)               |
-| `fiscalCode`   | string | Sì           | Codice fiscale o P.IVA dell'Ente Creditore (11-16 caratteri alfanumerici) |
-| `noticeNumber` | string | Sì           | Identificatore univoco del pagamento (18-20 caratteri, formato specifico) |
+| Parametro      | Tipo   | Obbligatorio | Descrizione                                                                         |
+| -------------- | ------ | ------------ | ----------------------------------------------------------------------------------- |
+| `retrievalId`  | string | Sì           | ID univoco del retrieval payload (esattamente 50 caratteri)                         |
+| `fiscalCode`   | string | Sì           | Codice fiscale o P.IVA dell'amministrazione mittente (11-16 caratteri alfanumerici) |
+| `noticeNumber` | string | Sì           | Identificatore univoco del pagamento (18-20 caratteri, formato specifico)           |
 
 **Parametri di header:**
 
@@ -149,11 +142,11 @@ Endpoint pubblico (senza autenticazione) che riceve i parametri di un pagamento 
 
 **Risposta di successo (`302 Found`):**
 
-La risposta non ha body. Il reindirizzamento avviene tramite l'header `Location` che contiene il deep link generato verso l'applicazione TPP.
+La risposta non ha body. Il reindirizzamento avviene tramite l'header `Location` che contiene il deep link generato verso l'app bancaria del PSP.
 
-| Header     | Descrizione                                                                |
-| ---------- | -------------------------------------------------------------------------- |
-| `Location` | URL del deep link verso l'app TPP (max 2048 caratteri, formato URI valido) |
+| Header     | Descrizione                                                                             |
+| ---------- | --------------------------------------------------------------------------------------- |
+| `Location` | URL del deep link verso l'app bancaria del PSP (max 2048 caratteri, formato URI valido) |
 
 ***
 
@@ -175,14 +168,14 @@ La risposta non ha body. Il reindirizzamento avviene tramite l'header `Location`
 
 ### RetrievalResponseDTO
 
-| Campo              | Tipo    | Obbligatorio | Descrizione                                                  |
-| ------------------ | ------- | ------------ | ------------------------------------------------------------ |
-| `retrievalId`      | string  | Sì           | ID univoco del retrieval (esattamente 50 caratteri)          |
-| `tppId`            | string  | No           | ID univoco del TPP (esattamente 50 caratteri)                |
-| `deeplink`         | string  | No           | URL deep link verso l'app TPP (10-128 caratteri)             |
-| `pspDenomination`  | string  | No           | Nome del provider di pagamento (1-15 caratteri alfanumerici) |
-| `originId`         | string  | No           | ID del messaggio originale (24-36 caratteri)                 |
-| `isPaymentEnabled` | boolean | No           | Flag di integrazione con il sistema di pagamento             |
+| Campo              | Tipo    | Obbligatorio | Descrizione                                                   |
+| ------------------ | ------- | ------------ | ------------------------------------------------------------- |
+| `retrievalId`      | string  | Sì           | ID univoco del retrieval (esattamente 50 caratteri)           |
+| `tppId`            | string  | No           | ID univoco del PSP (esattamente 50 caratteri)                 |
+| `deeplink`         | string  | No           | URL deep link verso l'app bancaria del PSP (10-128 caratteri) |
+| `pspDenomination`  | string  | No           | Nome del provider di pagamento (1-15 caratteri alfanumerici)  |
+| `originId`         | string  | No           | ID del messaggio originale (24-36 caratteri)                  |
+| `isPaymentEnabled` | boolean | No           | Indica se il PSP ha abilitato la funzionalità di pagamento    |
 
 ***
 

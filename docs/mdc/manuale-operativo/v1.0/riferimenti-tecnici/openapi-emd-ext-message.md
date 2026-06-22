@@ -1,23 +1,16 @@
----
-metaLinks:
-  alternates:
-    - >-
-      https://app.gitbook.com/s/UdBZLK0IXWx2yqcEv6ks/riferimenti-tecnici/openapi-emd-ext-message
----
-
 # API Reference - MESSAGE
 
 **Versione:** 1.3.1\
-**Titolo:** Specifiche di Integrazione Messaggi di Cortesia (Server-to-Server) - TPP Integration\
+**Titolo:** Specifiche di Integrazione Messaggi di Cortesia (Server-to-Server) - PSP Integration\
 **Contatto:** PagoPA S.p.A. - messaggidicortesia@assistenza.pagopa.it
 
 ***
 
 ## Panoramica
 
-Questo documento descrive le specifiche tecniche per l'integrazione **server-to-server** con il sistema **Messaggi di Cortesia** (anche denominato EMD). A differenza delle altre API EMD in cui è il TPP a chiamare PagoPA, in questo caso è **PagoPA che chiama il TPP**. Il sistema EMD invia attivamente le notifiche di cortesia all'endpoint esposto dal TPP ogni volta che un messaggio deve essere recapitato a un cittadino.
+Questo API descrive le specifiche tecniche per l'integrazione **server-to-server** con il sistema **Messaggi di Cortesia** (anche denominato EMD). A differenza delle altre API EMD in cui è il PSP a chiamare PagoPA S.p.A., in questo caso è **PagoPA S.p.A. che chiama il PSP**. Il sistema EMD invia attivamente i messaggi di cortesia all'endpoint esposto dal PSP ogni volta che un messaggio deve essere recapitato a un Utente.
 
-Per abilitare la ricezione dei messaggi, il TPP deve esporre due endpoint:
+Per abilitare la ricezione dei messaggi, il PSP deve esporre due endpoint:
 
 1. **Endpoint di Autenticazione (OAuth2):** utilizzato da EMD per ottenere un token di accesso prima di inviare il messaggio.
 2. **Endpoint di Ricezione Messaggi (Webhook):** il destinatario effettivo del payload del messaggio di cortesia.
@@ -28,11 +21,11 @@ Per abilitare la ricezione dei messaggi, il TPP deve esporre due endpoint:
 
 Il flusso di una notifica in arrivo è il seguente:
 
-1. EMD chiama l'endpoint OAuth2 del TPP per ottenere un `access_token`.
+1. EMD chiama l'endpoint OAuth2 del PSP per ottenere un `access_token`.
 2. EMD usa il token ricevuto come `Bearer` nell'header `Authorization`.
-3. EMD esegue una chiamata `POST` all'endpoint webhook del TPP, includendo il payload del messaggio.
-4. Il TPP risponde con `200 OK` per confermare la ricezione e la presa in carico del Messaggio
-5. Il TPP risponde con `4xx KO` (es: il messaggio non è conforme alle regole definite)
+3. EMD esegue una chiamata `POST` all'endpoint webhook del PSP, includendo il payload del messaggio.
+4. Il PSP risponde con `200 OK` per confermare la ricezione e la presa in carico del messaggio
+5. Il PSP risponde con `4xx KO` (es: il messaggio non è conforme alle regole definite)
 
 ***
 
@@ -43,7 +36,7 @@ Durante la fase di onboarding, vengono concordati e configurati con il team EMD 
 * **URL dell'endpoint OAuth2:** supporta placeholder dinamici (es. `https://login.microsoftonline.com/{tenantId}/oauth2/token`).
 * **Parametri del body:** le credenziali da inviare (es. `client_id`, `client_secret`, `scope`, `grant_type`) sono concordate in fase di onboarding e possono includere parametri aggiuntivi.
 * **Formato della richiesta:** il body viene inviato come `application/x-www-form-urlencoded`, che è lo standard de-facto per OAuth2.
-* **Formato della risposta:** il TPP deve restituire un JSON conforme allo standard OAuth2 contenente obbligatoriamente il campo `access_token`.
+* **Formato della risposta:** il PSP deve restituire un JSON conforme allo standard OAuth2 contenente obbligatoriamente il campo `access_token`.
 
 > **Importante:** Attualmente il servizio supporta esclusivamente il protocollo **OAuth2**.
 
@@ -93,7 +86,7 @@ I parametri sono liberi (`additionalProperties: string`), ma nella maggior parte
 
 **`POST /{message_endpoint}`**
 
-EMD chiama questo endpoint per recapitare il messaggio di cortesia al TPP. La chiamata è autenticata tramite il token ottenuto al punto precedente, passato nell'header `Authorization: Bearer <access_token>`.
+EMD chiama questo endpoint per recapitare il messaggio di cortesia al PSP. La chiamata è autenticata tramite il token ottenuto al punto precedente, passato nell'header `Authorization: Bearer <access_token>`.
 
 **Parametri di path:**
 
@@ -124,7 +117,7 @@ EMD chiama questo endpoint per recapitare il messaggio di cortesia al TPP. La ch
 
 **Risposta attesa:**
 
-Il TPP deve rispondere con HTTP `200 OK`. Il contenuto del body di risposta non viene elaborato da EMD.
+Il PSP deve rispondere con HTTP `200 OK`. Il contenuto del body di risposta non viene elaborato da EMD.
 
 ***
 
@@ -143,7 +136,7 @@ Il TPP deve rispondere con HTTP `200 OK`. Il contenuto del body di risposta non 
 | `content`              | string             | Sì           | Contenuto del messaggio in formato **Markdown** (1-100.000 caratteri). Il contenuto varia in base al `workflowType`                   |
 | `workflowType`         | string (enum)      | Sì           | Tipo di notifica. Valori possibili: `ANALOG` oppure `DIGITAL`                                                                         |
 | `associatedPayment`    | boolean            | No           | Indica se alla notifica è associato un pagamento                                                                                      |
-| `analogSchedulingDate` | string (date-time) | Condizionale | Data di scadenza per la deadline di 5 giorni (ISO 8601). **Obbligatorio solo quando `workflowType` è `ANALOG`**                       |
+| `analogSchedulingDate` | string (date-time) | Condizionale | Data di scadenza per la deadline di 120 ore (ISO 8601). **Obbligatorio solo quando `workflowType` è `ANALOG`**                        |
 
 ***
 
@@ -151,7 +144,7 @@ Il TPP deve rispondere con HTTP `200 OK`. Il contenuto del body di risposta non 
 
 Il campo `workflowType` determina il tipo di notifica ricevuta e di conseguenza il contenuto del campo `content`:
 
-**ANALOG:** la notifica prevede una scadenza entro la quale il cittadino deve accedere al messaggio per evitare la consegna tramite raccomandata postale. Il campo `analogSchedulingDate` è obbligatorio e indica la data limite. Il campo `content` include informazioni sulla scadenza.
+**ANALOG:** la notifica prevede una scadenza entro la quale l'Utente deve accedere al messaggio per evitare la consegna tramite raccomandata postale. Il campo `analogSchedulingDate` è obbligatorio e indica la data limite. Il campo `content` include informazioni sulla scadenza.
 
 **DIGITAL:** la notifica è una comunicazione digitale standard senza scadenza per la consegna fisica. Include informazioni sulla consegna legale digitale. Il campo `analogSchedulingDate` non è presente.
 

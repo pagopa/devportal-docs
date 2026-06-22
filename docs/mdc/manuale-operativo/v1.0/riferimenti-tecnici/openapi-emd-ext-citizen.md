@@ -1,28 +1,21 @@
----
-metaLinks:
-  alternates:
-    - >-
-      https://app.gitbook.com/s/UdBZLK0IXWx2yqcEv6ks/riferimenti-tecnici/openapi-emd-ext-citizen
----
-
 # API Reference - CITIZEN
 
 **Versione:** 1.0.6\
-**Titolo:** Gestione Consensi del Cittadino - TPP Integration\
+**Titolo:** Gestione attivazione/disattivazione dell'Utente - PSP Integration\
 **Contatto:** PagoPA S.p.A. - messaggidicortesia@assistenza.pagopa.it
 
 ***
 
 ## Panoramica
 
-Questa API consente ai Third Party Provider (TPP) di gestire i **consensi dei cittadini** all'interno del sistema EMD (Messaggi di Cortesia). Tutte le operazioni sono circoscritte all'identificativo del TPP chiamante (`tppId`), garantendo che ogni TPP possa operare esclusivamente sui consensi dei cittadini che hanno autorizzato il proprio servizio.
+Questa API consente ai PSP di gestire **attivazione/disattivazione degli Utenti** all'interno del sistema EMD (Messaggi di Cortesia). Tutte le operazioni sono circoscritte all'identificativo del PSP chiamante (`tppId`), garantendo che ogni PSP possa operare esclusivamente sulle attivazioni/disattivazioni dell'Utente.
 
 Le funzionalità principali sono:
 
-* Salvataggio del consenso di un cittadino verso un TPP specifico
-* Lettura dello stato del consenso di un cittadino
-* Aggiornamento (toggle) dello stato del consenso
-* Recupero dell'elenco dei cittadini che hanno attivato il consenso per un determinato TPP
+* Salvataggio dell'avvenuta attivazione del Servizio nell'app bancaria di uno specifico PSP da parte di un Utente
+* Lettura dello stato di attivazione di un Utente
+* Aggiornamento (toggle) dello stato di attivazione
+* Recupero dell'elenco degli Utenti che hanno attivato il Servizio nell'app bancaria di uno specifico PSP
 
 ***
 
@@ -44,18 +37,18 @@ Tutte le operazioni richiedono autenticazione tramite **OAuth2 con flusso Client
 
 ## Endpoint
 
-### 1. Salva il consenso del cittadino
+### 1. Salva lo stato di attivazione/disattivazione dell'Utente
 
 **`POST /{fiscalCode}/{tppId}`**
 
-Salva o aggiorna il consenso di un cittadino identificato dal codice fiscale verso un TPP specifico.
+Salva lo statos attivazione/disattivazione di un Utente identificato tramite il codice fiscale di un PSP specifico.
 
 **Parametri di path:**
 
-| Parametro    | Tipo   | Obbligatorio | Descrizione                                                         |
-| ------------ | ------ | ------------ | ------------------------------------------------------------------- |
-| `fiscalCode` | string | Sì           | Codice fiscale o P.IVA del cittadino (11-16 caratteri alfanumerici) |
-| `tppId`      | string | Sì           | Identificativo univoco del TPP sui sistemi PagoPA (1-50 caratteri)  |
+| Parametro    | Tipo   | Obbligatorio | Descrizione                                                               |
+| ------------ | ------ | ------------ | ------------------------------------------------------------------------- |
+| `fiscalCode` | string | Sì           | Codice fiscale o P.IVA del'Utente (11-16 caratteri alfanumerici)          |
+| `tppId`      | string | Sì           | Identificativo univoco del PSP sui sistemi PagoPA S.p.A. (1-50 caratteri) |
 
 **Parametri di header:**
 
@@ -79,18 +72,18 @@ Salva o aggiorna il consenso di un cittadino identificato dal codice fiscale ver
 
 ***
 
-### 2. Recupera il consenso del cittadino
+### 2. Recupera lo stato di attivazione/disattivazione dell'Utente
 
 **`GET /{fiscalCode}/{tppId}`**
 
-Restituisce il dettaglio dello stato del consenso di un cittadino per un TPP specifico.
+Restituisce il dettaglio dello stato di attivazione/disattivazione dell'Utente per un PSP specifico.
 
 **Parametri di path:**
 
-| Parametro    | Tipo   | Obbligatorio | Descrizione                                                         |
-| ------------ | ------ | ------------ | ------------------------------------------------------------------- |
-| `fiscalCode` | string | Sì           | Codice fiscale o P.IVA del cittadino (11-16 caratteri alfanumerici) |
-| `tppId`      | string | Sì           | Identificativo univoco del TPP sui sistemi PagoPA (1-50 caratteri)  |
+| Parametro    | Tipo   | Obbligatorio | Descrizione                                                               |
+| ------------ | ------ | ------------ | ------------------------------------------------------------------------- |
+| `fiscalCode` | string | Sì           | Codice fiscale o P.IVA dell'Utente (11-16 caratteri alfanumerici)         |
+| `tppId`      | string | Sì           | Identificativo univoco del PSP sui sistemi PagoPA S.p.A. (1-50 caratteri) |
 
 **Parametri di header:**
 
@@ -114,18 +107,18 @@ Restituisce il dettaglio dello stato del consenso di un cittadino per un TPP spe
 
 ***
 
-### 3. Aggiorna lo stato del consenso (toggle)
+### 3. Aggiorna lo stato di attivazione/disattivazione dell'Utente
 
 **`PUT /{fiscalCode}/{tppId}`**
 
-Inverte lo stato del consenso del cittadino: se `tppState` è `true` diventa `false` e viceversa.
+Inverte lo stato di attivazione/disattivazione dell'Utente: se `tppState` è `true` diventa `false` e viceversa.
 
 **Parametri di path:**
 
-| Parametro    | Tipo   | Obbligatorio | Descrizione                                                         |
-| ------------ | ------ | ------------ | ------------------------------------------------------------------- |
-| `fiscalCode` | string | Sì           | Codice fiscale o P.IVA del cittadino (11-16 caratteri alfanumerici) |
-| `tppId`      | string | Sì           | Identificativo univoco del TPP sui sistemi PagoPA (1-50 caratteri)  |
+| Parametro    | Tipo   | Obbligatorio | Descrizione                                                              |
+| ------------ | ------ | ------------ | ------------------------------------------------------------------------ |
+| `fiscalCode` | string | Sì           | Codice fiscale o P.IVA dell'Utente (11-16 caratteri alfanumerici)        |
+| `tppId`      | string | Sì           | Identificativo univoco del PSP sui sistemi PagoPA S.p.A.(1-50 caratteri) |
 
 **Parametri di header:**
 
@@ -149,17 +142,17 @@ Inverte lo stato del consenso del cittadino: se `tppState` è `true` diventa `fa
 
 ***
 
-### 4. Recupera la lista dei cittadini con consenso attivo
+### 4. Recupera la lista degli Utenti che hanno attivato il Servizio
 
 **`GET /{tppId}`**
 
-Restituisce la lista di tutti i cittadini che hanno attivato il consenso per il TPP specificato.
+Restituisce la lista di tutti gli Utenti che hanno attivato il Servizio per il PSP specificato.
 
 **Parametri di path:**
 
-| Parametro | Tipo   | Obbligatorio | Descrizione                                                        |
-| --------- | ------ | ------------ | ------------------------------------------------------------------ |
-| `tppId`   | string | Sì           | Identificativo univoco del TPP sui sistemi PagoPA (1-50 caratteri) |
+| Parametro | Tipo   | Obbligatorio | Descrizione                                                              |
+| --------- | ------ | ------------ | ------------------------------------------------------------------------ |
+| `tppId`   | string | Sì           | Identificativo univoco del PSP sui sistemi PagoPA S.p.A.(1-50 caratteri) |
 
 **Parametri di header:**
 
@@ -198,19 +191,19 @@ Restituisce la lista di tutti i cittadini che hanno attivato il consenso per il 
 
 ### CitizenConsentResponseDTO
 
-Schema di risposta per le operazioni su singolo cittadino.
+Schema di risposta per le operazioni su singolo Utente.
 
-| Campo        | Tipo   | Obbligatorio | Descrizione                                                                                                                              |
-| ------------ | ------ | ------------ | ---------------------------------------------------------------------------------------------------------------------------------------- |
-| `fiscalCode` | string | Sì           | Codice fiscale del cittadino (11-16 caratteri alfanumerici)                                                                              |
-| `consents`   | object | Sì           | Mappa di consensi. Le chiavi sono i `tppId` (UUID + timestamp). Ogni valore contiene `tppState` (boolean) e `tcDate` (data-ora ISO 8601) |
+| Campo        | Tipo   | Obbligatorio | Descrizione                                                                                                           |
+| ------------ | ------ | ------------ | --------------------------------------------------------------------------------------------------------------------- |
+| `fiscalCode` | string | Sì           | Codice fiscale dell'Utente (11-16 caratteri alfanumerici)                                                             |
+| `consents`   | object | Sì           | Le chiavi sono i `tppId` (UUID + timestamp). Ogni valore contiene `tppState` (boolean) e `tcDate` (data-ora ISO 8601) |
 
-### Struttura del singolo consenso
+### Struttura dell'oggetto per attivazione/disattivazioneo
 
-| Campo      | Tipo               | Obbligatorio | Descrizione                                                                                          |
-| ---------- | ------------------ | ------------ | ---------------------------------------------------------------------------------------------------- |
-| `tppState` | boolean            | Sì           | Stato attuale del consenso (`true` = attivo, `false` = disattivo)                                    |
-| `tcDate`   | string (date-time) | Sì           | Data e ora dell'ultimo aggiornamento del consenso, formato ISO 8601 (es. `2024-11-01T11:25:40.695Z`) |
+| Campo      | Tipo               | Obbligatorio | Descrizione                                                                                         |
+| ---------- | ------------------ | ------------ | --------------------------------------------------------------------------------------------------- |
+| `tppState` | boolean            | Sì           | Stato di attivazione (`true` = attivo, `false` = disattivo)                                         |
+| `tcDate`   | string (date-time) | Sì           | Data e ora dell'ultimo aggiornamento dello stato, formato ISO 8601 (es. `2024-11-01T11:25:40.695Z`) |
 
 ***
 
@@ -225,13 +218,13 @@ Tutti gli endpoint restituiscono errori nel seguente formato:
 }
 ```
 
-| Codice HTTP | Codice Errore                           | Descrizione                                   |
-| ----------- | --------------------------------------- | --------------------------------------------- |
-| 400         | `BAD_REQUEST`                           | Richiesta malformata o parametri non validi   |
-| 401         | `CITIZEN_CONSENT_AUTHENTICATION_FAILED` | Autenticazione fallita o token non valido     |
-| 404         | `CITIZEN_NOT_ONBOARDED`                 | Il consenso del cittadino non è stato trovato |
-| 429         | `TOO_MANY_REQUESTS`                     | Superato il limite di richieste consentite    |
-| 500         | `GENERIC_ERROR`                         | Errore interno del server                     |
+| Codice HTTP | Codice Errore                           | Descrizione                                 |
+| ----------- | --------------------------------------- | ------------------------------------------- |
+| 400         | `BAD_REQUEST`                           | Richiesta malformata o parametri non validi |
+| 401         | `CITIZEN_CONSENT_AUTHENTICATION_FAILED` | Autenticazione fallita o token non valido   |
+| 404         | `CITIZEN_NOT_ONBOARDED`                 | Utente non attivo                           |
+| 429         | `TOO_MANY_REQUESTS`                     | Superato il limite di richieste consentite  |
+| 500         | `GENERIC_ERROR`                         | Errore interno del server                   |
 
 ***
 

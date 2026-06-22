@@ -1,55 +1,57 @@
----
-metaLinks:
-  alternates:
-    - https://app.gitbook.com/s/UdBZLK0IXWx2yqcEv6ks/casi-duso/flusso-pagamento
----
-
 # Flusso di un pagamento
 
-Flusso di pagamento completo tramite Messaggio di Cortesia: Scenario completo che descrive l'autenticazione su SEND, la verifica del canale tramite EMD e il perfezionamento del pagamento PagoPA.
+Flusso di pagamento completo tramite il servizio Messaggio di Cortesia: scenario completo che descrive l'autenticazione su SEND, la verifica del canale tramite EMD, il perfezionamento della notifica e pagamento dell'avviso pagoPA.
 
-## Step 1 - Ricezione messaggio Push
+## Step 1 - Ricezione notifica push
 
-Il Cittadino dopo aver fornito il consenso alla ricezione dei Messaggi di Cortesia in caso un Ente notifica qualcosa per lui potrebbe ricevere un messaggio push
+Se un Utente ha attivato il Servizio, nel caso in cui un'amministrazione mittente gli invii una notifica, riceverà una notifica push sul proprio smartphone
 
-![Notifica Push PSP](../.gitbook/assets/1_msg_push.jpg)
+![Ricezione notifica Push](../.gitbook/assets/step_1_ridimensionato.png)
 
-## Step 2 - Dettaglio messaggio Push
+## Step 2 - Dettaglio notifica push
 
-Il Cittadino cliccando sul messaggio push accede al dettaglio del Messaggio di Cortesia
+L'Utente cliccando sulla notifica push accede al dettaglio del messaggio di cortesia
 
-![Dettaglio messaggio push](../.gitbook/assets/2_msg_details.jpg)
+![Dettaglio notifica push](<../.gitbook/assets/dettaglio_msg_analogico (1).png>)
 
 ## Step 3 - Landing Page SEND
 
-Al click "Leggi la Comunicazione" tramite un URL di redirect si atterra sulla Landing page di SEND
+Al click "Leggi la Comunicazione" tramite un URL di redirect si atterra sulla landing page della piattaforma SEND
 
-![Dettaglio messaggio push](../.gitbook/assets/3_landing_page.jpg)
+![Landing page SEND](../.gitbook/assets/step_3_resize.png)
 
 ## Step 4 - Accesso al portale SEND tramite SPID o CIE
 
-Dopo aver letto informazioni di dettaglio relative a SEND si può procedere con l'accesso al portale utilizzando uno dei metodi di autenticazione tra SPID o CIE
+Dopo aver letto le informazioni di dettaglio relative a SEND si può procedere con l'accesso alla piattaforma utilizzando uno dei metodi di autenticazione tra SPID o CIE
 
-![Accesso Portale SEND](../.gitbook/assets/4_accesso_SPIDCIE.jpg)
+![Accesso Portale SEND](../.gitbook/assets/step_4_resize.png)
 
 ## Step 5 - Accettazione TOS SEND primo accesso
 
-![Accettazione TOS](../.gitbook/assets/5_accettazione_tos_send.jpg)
+L'Utente al primo accesso al portale SEND dovrà accettare i ToS e l'informativa Privacy
 
-## Step 5 - Dettaglio Notifica
+![Accettazione TOS](../.gitbook/assets/step_5_resize.png)
 
-![Dettaglio Notifica](../.gitbook/assets/6_dettaglio_notifica.jpg)
+## Step 6 - Dettaglio Notifica
 
-![Dettaglio Notifica - 2](../.gitbook/assets/6_dettaglio_notifica_2.jpg)
+In occasione del primo accesso alla piattaforma SEND, una volta accettati i ToS e l'informativa privacy, si potrà accedere al dettaglio della notifica oggetto del messaggio di cortesia
 
-## Step 6 - Dettaglio Pagamento
+![Dettaglio Notifica - prima parte](../.gitbook/assets/step_5_2_1_resize.png)
 
-![Dettaglio Pagamento](../.gitbook/assets/7_dettaglio_pagamento.jpg)
+![Dettaglio Notifica - seconda parte](../.gitbook/assets/step_5_2_2_resize.png)
 
-## Step 7 - CTA Paga
+## Step 7 - Dettaglio Pagamento
 
-![Effettua Pagamento](../.gitbook/assets/8_paga.jpg)
+Se la notifica ha un pagamento associato potrà procedere al pagamento utilizzando i metodi proposti ed essere redirezionato verso l'app bancaria e visualizzare il dettaglio del pagamento
 
-## Step 8 - Pagato
+## Step 8 - CTA Paga
 
-![Ricevuta Pagamento](../.gitbook/assets/9_pagato.jpg)
+A quel punto l'Utente potrà decidere di effettuare il pagamento o meno tramite pagamento con la propria app bancaria
+
+![Effettua Pagamento](../.gitbook/assets/step_7_CTA_resize.png)
+
+## Step 9 - Pagato
+
+Una volta eseguito il pagamento gli verrà mostrato il risultato del pagamento effettuato.
+
+![Ricevuta Pagamento](../.gitbook/assets/step_8_Pagato_resize.png)

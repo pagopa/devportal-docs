@@ -1,30 +1,23 @@
----
-metaLinks:
-  alternates:
-    - >-
-      https://app.gitbook.com/s/UdBZLK0IXWx2yqcEv6ks/tutorial-per-i-psp/01-ext-processo-onboarding
----
-
-# Come aderire al servizio
+# Come aderire al Servizio
 
 ## Premessa
 
-Questo tutorial descrive il processo di Onboarding, ovvero i passi che un PSP deve seguire per aderire al servizio **M**essaggi **D**i **C**ortesia, ottenere le credenziali necessarie per l'integrazione tecnica e diventare pienamente operativo.
+Questo _tutorial_ descrive il processo di Onboarding, ovvero i passaggi che un PSP deve seguire per aderire al servizio **M**essaggi **D**i **C**ortesia, ottenere le credenziali necessarie per l'integrazione tecnica e diventare pienamente operativo.
 
 ```mermaid
 sequenceDiagram
     autonumber
     participant SP as PSP
-    participant PPA as PagoPA
+    participant PPA as PagoPA S.p.A.
     participant AC as Ambiente di Certificazione
 
-    Note over SP, PPA: Prerequisito: Il PSP ha già aderito al contratto pagoPA
+    Note over SP, PPA: Prerequisito: Il PSP ha già aderito alla piattaforma pagoPA
 
     rect rgb(245, 245, 245)
     Note over SP, PPA: Fase 1: Adesione, Configurazione
     SP->>PPA: Sottoscrive Accordo di Adesione e T&C
-    SP->>PPA: Fornisce le informazioni tecniche richieste
-    PPA-->>SP: Invia credenziali (clientId, client_secret) ed informazioni tecniche al referente tecnico
+    SP->>PPA: PSP effettua l'onboarding su Area Riservata fornendo le informazioni tecniche richieste
+    SP-->>PPA: Recupera le credenziali (clientId, client_secret, tppid) da Area Riservata al termine dell'onboarding
     end
 
     rect rgb(240, 240, 240)
@@ -45,48 +38,32 @@ sequenceDiagram
     end
 ```
 
-## Step 1: Sottoscrivere Accordo di Adesione e T\&C
+## Step 1: Sottoscrizione dell'Accordo di Adesione e T\&C
 
-Prima di avviare il processo di onboarding con PagoPA il PSP deve aver sottoscritto il **Contratto di Adesione** ed essere stato validato e accettato da PagoPA e aver formalizzato la propria adesione al servizio tramite la sottoscrizione della convenzione e dei Termini e Condizioni (T\&C) forniti da PagoPA.
+Prima di avviare il processo di onboarding con la Società PagoPA S.p.A., il PSP deve aver sottoscritto il contratto di adesione, aver accettato i relativi Termini e Condizioni.
 
-## Step 2: Fornire le Informazioni Tecniche
+## Step 2-3: Fornire le Informazioni Tecniche
 
-Dopo aver avuto la validazione sulla corretta sottoscrizione del contratto occorrerà fornire le informazioni tecniche con tutte le informazioni necessarie alla configurazione del servizio sulla piattaforma.
+Il PSP dovrà fornire tutte le informazioni tecniche necessarie alla configurazione del Servizio sul back office della piattaforma **"Area Riservata Enti"** al seguente link: https://selfcare.pagopa.it sia per l'ambiente di UAT che per quello di Produzione. All'interno di **Area Riservata Enti** sarà visibile la CARD del Servizio "Messaggi di Cortesia" per l'accesso al back office dove sarà possibile procedere alla sua configurazione.
 
-[→ Scarica il documento relativo ai test da effettuare](01-ext-processo-onboarding.md)
+### Specifiche per la Registrazione dei PSP
 
-I dati richiesti includono:
-
-### Specifiche per la Registrazione dei PSP su PagoPA
-
-Ogni **PSP (Payment Service Provider)** deve fornire a un amministratore PagoPA le informazioni necessarie per la configurazione del sistema.
+Ogni PSP deve fornire all'amministratore nominato sul portale **Area Riservata Enti** per il servizio MDC le informazioni necessarie per la configurazione del sistema.
 
 ***
 
 ### Informazioni Richieste
 
-### 1. Dati Anagrafici e Identificativi
-
-* **`entityId`**: Identificativo univoco (Partita IVA o C.F.) della terza parte.
-* **`idPsp`**: Identificativo del Payment Service Provider.
-* **`businessName`**: Ragione sociale della terza parte.
-* **`legalAddress`**: Sede legale della terza parte.
-
-### 2. Configurazione Autenticazione e Endpoint
+### 1. Configurazione Autenticazione e Endpoint
 
 * **`authenticationType`**: Tipologia di autenticazione (attualmente supportato solo `OAUTH2`).
 * **`authenticationUrl`**: URL per ricevere il token di autenticazione necessario per invocare l'API definita nel campo `messageUrl`.
-* **`messageUrl`**: URL messo a disposizione dalla TPP per l'invio delle notifiche Push.
-* **`contact`**:
-  * `name`: Nome del referente TPP.
-  * `number`: Numero di contatto.
-  * `email`: Email della TPP.
+* **`messageUrl`**: URL messo a disposizione dal PSP per l'invio delle notifiche push.
 *   **`agentDeepLinks`**: `Map<String, String>` contenente l'agent di provenienza (key) e il deeplink di riferimento (value).
 
     > Esempio: `ios: https://deeplink.it`
-* **`paymentButton`**: Label dell'etichetta del bottone da inserire sulla pagina di SEND per il pagamento con l'App della terza parte.
 
-### 3. Sezione Token (`tokenSection`)
+### 2. Sezione Token (`tokenSection`)
 
 * **`contentType`**: Media Type originale della risorsa prima della codifica del contenuto.
 * **`bodyAdditionalProperties`**: `Map<String, String>` per proprietà aggiuntive nel corpo della request per la generazione del token.
@@ -98,46 +75,63 @@ Ogni **PSP (Payment Service Provider)** deve fornire a un amministratore PagoPA 
     * **Value**: `123424222`
   * **N.B.** Questi dati vengono criptati/decriptati lato Backend.
 
+{% hint style="info" %}
+Maggiori dettagli sulle informazioni tecniche ed il manuale operativo di back office sarà possibile consultarlo al seguente link: [Manuale BackOffice](https://developer.pagopa.it/it/mdc/guides/manuale-bo-mdc)
+{% endhint %}
+
 ***
 
 ### Processo di Registrazione
 
-Una volta fornite le informazioni, l'amministratore PagoPA registrerà il PSP. Al termine, il TPP riceverà:
+Una volta completato l'onboarding del PSP, Il PSP riceverà:
 
-| Campo               | Descrizione                                                                  |
-| ------------------- | ---------------------------------------------------------------------------- |
-| **`tppId`**         | Identificativo univoco della terza parte sui sistemi PagoPA.                 |
-| **`tokenUrl`**      | URL per autenticare le chiamate verso i sistemi EMD (milAuthToken - OAUTH2). |
-| **`client_id`**     | Generato sul sistema di autenticazione da PagoPA per il PSP.                 |
-| **`client_secret`** | Generato sul sistema di autenticazione da PagoPA per il PSP.                 |
-| **`grant_type`**    | `client_credentials`.                                                        |
+| Campo               | Descrizione                                                         |
+| ------------------- | ------------------------------------------------------------------- |
+| **`tppId`**         | Identificativo univoco della terza parte sui sistemi PagoPA S.p.A.  |
+| **`tokenUrl`**      | URL per autenticare le chiamate verso i sistemi EMD.                |
+| **`client_id`**     | Generato sul sistema di autenticazione da PagoPA S.p.A. per il PSP. |
+| **`client_secret`** | Generato sul sistema di autenticazione da PagoPA S.p.A. per il PSP. |
+| **`grant_type`**    | `client_credentials`.                                               |
 
 ***
 
-## Step 3: PagoPA fornirà le informazioni Tecniche
+## Step 4: Test di connettività PSP verso PagoPA S.p.A.
 
-A seguito della sottoscrizione del contratto e della fornitura dei dati tecnici, il referente tecnico indicato riceverà via email le credenziali di accesso ai servizi. Nello specifico, verranno comunicati `clientId` e `client_secret`, indispensabili per l'autenticazione OAuth2 e per l'utilizzo delle API.
+In ambiente **UAT/PROD** sarà possibile effettuare un test di connettività tra il PSP ed EMD. Per maggiori dettagli ved. la pagina "Come effettuare un test di connettività"
 
-## Step 4: Test di Connettività
+### Procedura test ambiente di UAT
 
-In ambiente **DEV/UAT** è possibile effettuare un test di connettività tra il sistema del PSP e EMD.
-
-### Procedura
-
-1. Generare il token di Collaudo/UAT usando la `tokenUrl` e le credenziali fornite.
+1. Generare il token di Collaudo/UAT usando la `tokenUrl` e le credenziali ricevute durante la fase di registrazione nel back office.
 2. Inserire il token nell'header di `Authorization`.
 3. Effettuare una chiamata **GET** al seguente endpoint:
 
 ```http
-GET https://api-emd.dev.cstar.pagopa.it/emd/mil/tpp/network/connection/{tppName}
+GET https://api-emd.uat.cstar.pagopa.it/emd/mil/tpp/network/connection/{tppName}
 ```
 
-## Step 5: Esegue check di validità del token con le credenziali ricevute
+## Step 5: Test di connettività PagoPA S.p.A. verso PSP
 
-## Step 6,7,8: Eseguire i Test in Ambiente di Certificazione (Collaudo/UAT)
+In ambiente **UAT/PROD** sarà possibile effettuare un test di connettività tra l'EMD ed il PSP con i parametri di configurazione ricevuti.
+
+## Step 6,7,8: Eseguire i test in ambiente di certificazione (Collaudo/UAT)
 
 Una volta ottenute le credenziali, dovrai procedere con l'integrazione tecnica e la certificazione in ambiente di test (UAT). Questa fase prevede l'implementazione dei flussi API e l'esecuzione di una serie di prove per verificare il corretto funzionamento della tua integrazione, che andranno documentate secondo le modalità fornite.
 
+**Test 1** Attivazione e Disattivazione Utente\
+Testare l'attivazione e la disattivazione utilizzando l'API CITIZEN. Come "Utente di Test" utilizzare in ambiente di UAT uno dei seguenti disponibili:
+
+* BRLRNT80T25F205S - Renato Birolli
+* MRNGRG80T25F205Q - Giorgio Morandi
+* GRBGPP87L04L741X - Giuseppe Maria Garibaldi
+
+**Test 2** Richiedere tramite la seguente email _messaggidicortesia@assistenza.pagopa.it_ l'invio di qualche messaggio (Analogico, Digitale, con e senza pagamento associato) verso qualcuno dei codici fiscali censiti al punto precedente e verificare che tali messaggi generati siano arrivati sul sistema del PSP ed i riferimenti per accedere alla piattaforma di SEND in UAT
+
+**Test 3** Verificare che sia stato inviato il messaggio push verso l'app bancaria per un codice fiscale utilizzato precedentemente
+
+**Test 4** Eseguire il pagamento associato alla notifica come descritto nel tutorial del pagamento utilizzando i riferimenti di accesso alla piattaforma SEND ricevuti via email nel **Test 2**
+
+Al termine positivo di tali test produrre un video ed inoltrarlo a _messaggidicortesia@assistenza.pagopa.it_ oppure tramite condivisione di file sharing in cui viene registrata la sessione dalla ricezione del messaggio push sul dispositivo fino alla conclusione del pagamento.
+
 ## Step 9: Pianificare il Passaggio in Produzione
 
-Dopo aver completato con successo la fase di test e ottenuto la certificazione, il PSP potrà concordare con PagoPA la data per il passaggio in produzione ed avviare ll'operatività in ambiente di Produzione.
+Dopo aver completato con successo la fase di test e ottenuto la certificazione, il PSP potrà concordare con PagoPA S.p.A.la data per il passaggio in produzione ed avviare l'operatività in ambiente di Produzione.
