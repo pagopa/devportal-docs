@@ -189,6 +189,8 @@ Per i dettagli [https://github.com/pagopa/pagopa-api/tree/SANP3.8.0](https://git
 
 **In questa versione è possibile inserire i metadata in ogni singolo&#x20;**_**transfer**_**, inoltre è possibile gestire il servizio @e.bollo.**
 
+**In questa versione è possibile inserire i metadata in ogni singolo&#x20;**_**transfer**_**, inoltre è possibile gestire il servizio @e.bollo.**
+
 #### Request Body
 
 | Name                                           | Type   | Description                                                                                                                                                      |
