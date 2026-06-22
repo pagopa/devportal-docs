@@ -10,7 +10,7 @@ L'e-service del Titolare di Fonte Autentica opera in modalità **«eroga»**. L'
 
 <table><thead><tr><th width="169.0859375">Stato</th><th>Significato</th></tr></thead><tbody><tr><td><strong>Bozza</strong></td><td>In creazione, non visibile né fruibile</td></tr><tr><td><strong>Pubblicata</strong></td><td>Versione corrente, a catalogo e fruibile</td></tr><tr><td><strong>Deprecata</strong></td><td>Non più la versione più recente; utilizzabile dai fruitori già iscritti fino all'archiviazione</td></tr><tr><td><strong>Sospesa</strong></td><td>Utilizzo temporaneamente bloccato dall'erogatore</td></tr><tr><td><strong>Archiviata</strong></td><td>Ritirata dal catalogo</td></tr></tbody></table>
 
-Una nuova versione deprecà la precedente; l'aggiornamento dei fruitori è manuale; per le sospensioni programmate è previsto un preavviso secondo gli SLA. È inoltre possibile **clonare** un e-service per crearne uno nuovo (la numerazione riparte dalla versione 1).
+Una nuova versione deprecà la precedente; l'aggiornamento dei fruitori è manuale; per le sospensioni programmate è previsto un preavviso secondo gli SLA.&#x20;
 
 ## Sicurezza: portachiavi, firma e voucher
 

@@ -10,7 +10,7 @@ Il go-live non si esaurisce in un'attivazione tecnica, ma richiede il coordiname
 {% step %}
 ### **Concordare la data di rilascio**
 
-La data di rilascio deeve essere concordata con l'Issuer e il Wallet Provider, affinché tutti gli attori risultino pronti nel medesimo momento
+La data di rilascio deve essere concordata con l'Issuer e il Wallet Provider, affinché tutti gli attori risultino pronti nel medesimo momento
 {% endstep %}
 
 {% step %}

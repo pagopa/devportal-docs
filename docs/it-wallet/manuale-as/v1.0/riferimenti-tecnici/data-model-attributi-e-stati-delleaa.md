@@ -8,7 +8,7 @@ Tre blocchi, in **ordine fisso** nel contratto OpenAPI:
 
 ### Esempio di risposta
 
-La risposta in caso di successo (HTTP `200`) restituisce l'oggetto `CredentialClaimsResponse`. Il Content-Type è `application/jwt` (token firmato il cui payload è il JSON seguente). Esempio con dati fittizi.
+La risposta in caso di successo (HTTP `200`) restituisce l'oggetto `CredentialClaimsResponse`. Il Content-Type è `application/json` (token firmato il cui payload è il JSON seguente). Esempio con dati fittizi.
 
 json
 

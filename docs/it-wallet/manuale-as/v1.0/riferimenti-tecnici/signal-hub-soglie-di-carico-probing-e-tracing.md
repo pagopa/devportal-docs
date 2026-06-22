@@ -4,7 +4,7 @@
 
 Sul piano operativo, il Titolare di Fonte Autentica **deposita un segnale** indicando l'`eserviceId` e un identificativo pseudonimizzato del dato variato; il `signalId` è un intero **monotòno crescente** (non riutilizzabile e sempre successivo all'ultimo inviato). I tipi di segnale comprendono variazioni di **ciclo di vita** dell'entità e segnali di **allineamento** delle modalità di pseudonimizzazione.&#x20;
 
-Per consentire la correlazione con le emissioni, il Titolare di Fonte Autentica e il Credential Issuer **devono salvare il `jti`** del token `Agid-JWT-Signature` della richiesta dell'e-service; il Titolare registra il `last_updated` degli attributi e l'Issuer lo rilegge per rilevare variazioni dall'ultima emissione (cfr. Specifiche Tecniche §13.4.1.1).&#x20;
+Per consentire la correlazione con le emissioni, il Titolare di Fonte Autentica e il Credential Issuer **devono salvare il `jti`** del token `Agid-JWT-Signature` della richiesta dell'e-service; il Titolare registra il `last_updated` degli attributi e l'Issuer lo rilegge per rilevare variazioni dall'ultima emissione.
 
 Ricevuto il segnale, il fruitore interroga l'e-service per lo specifico `object_id` e ne ottiene il dataset **qualunque sia lo stato** (`INVALID`, `SUSPENDED`, …), aggiornando di conseguenza l'attestato; in **emissione**, invece, l'e-service espone i soli dataset `VALID`.
 
