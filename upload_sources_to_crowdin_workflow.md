@@ -19,17 +19,23 @@ flowchart TD
     G --> H["crowdin/github-action@v2<br/>uploads sources"]
 ```
 
-Inputs that drive the behavior:
+The behavior is driven entirely by the **presence** of the two inputs:
 
 - `paths_to_upload` — optional list of docs-relative paths to add/refresh.
 - `paths_to_delete` — optional list of docs-relative paths to remove from the manifest.
-- `upload_all` — boolean checkbox. When checked, the manifest and the Crowdin upload are rebuilt from the canonical `dirNames` list.
 
-The two path inputs accept comma-separated, newline-separated, or JSON array values (see [`parseRequestedDocsPaths`](src/docsStructure.ts)).
+Both inputs accept comma-separated, newline-separated, or JSON array values (see [`parseRequestedDocsPaths`](src/docsStructure.ts)). The combination selects the mode:
 
-When `upload_all` is checked, both scripts fetch the canonical path list from <https://static-contents.developer.pagopa.it/it/dirNames.json> (the `dirNames` array) via `fetchDirNamesPaths`. That list is the source of truth: `docs-structure.json` is rebuilt from scratch with those paths and the Crowdin upload is scoped to the `.md` files reachable from them. The `docs/` directory is no longer scanned wholesale.
+| `paths_to_upload` | `paths_to_delete` | Mode |
+|---|---|---|
+| set | empty | Filtered upload of the selected paths. |
+| set | set | Filtered upload of the selected paths **and** deletion of the listed nodes. |
+| empty | empty | Full upload rebuilt from the canonical `dirNames` list. |
+| empty | set | Delete only — listed nodes are removed; no `.md` sources are uploaded. |
 
-When `upload_all` is unchecked and only `paths_to_delete` is provided, the workflow runs in **delete-only** mode: the targeted nodes are removed from `docs-structure.json` and the Crowdin upload steps are skipped entirely.
+When both inputs are empty, both scripts fetch the canonical path list from <https://static-contents.developer.pagopa.it/it/dirNames.json> (the `dirNames` array) via `fetchDirNamesPaths`. That list is the source of truth: `docs-structure.json` is rebuilt from scratch with those paths and the Crowdin upload is scoped to the `.md` files reachable from them. The `docs/` directory is no longer scanned wholesale.
+
+In **delete-only** mode (`paths_to_upload` empty, `paths_to_delete` set) the targeted nodes are removed from `docs-structure.json` and only the refreshed manifest is sent to Crowdin (no `.md` sources are added).
 
 ---
 
@@ -42,7 +48,7 @@ flowchart LR
     J --> S[(Secrets:<br/>CROWDIN_PROJECT_ID<br/>CROWDIN_PERSONAL_TOKEN)]
 ```
 
-- `workflow_dispatch` lets a maintainer run the workflow from the GitHub UI and optionally fill `paths_to_upload` / `paths_to_delete` and tick `upload_all`.
+- `workflow_dispatch` lets a maintainer run the workflow from the GitHub UI and optionally fill `paths_to_upload` / `paths_to_delete` (leaving both empty triggers a full upload).
 - `workflow_call` lets other workflows reuse this one and pass the same inputs plus the required Crowdin secrets.
 - `permissions: contents: write` is required because the job commits `docs-structure.json` back to the branch.
 
@@ -74,7 +80,6 @@ Standard preparation:
   env:
     PATHS_TO_UPLOAD: ${{ inputs.paths_to_upload || '' }}
     PATHS_TO_DELETE: ${{ inputs.paths_to_delete || '' }}
-    UPLOAD_ALL: ${{ inputs.upload_all || 'false' }}
   run: npm run generate_doc_structure
 ```
 
@@ -87,8 +92,8 @@ ts-node-script --project tsconfig.json src/generateDocStructure.ts
 It runs [src/generateDocStructure.ts](src/generateDocStructure.ts), which:
 
 1. Verifies `docs/` exists.
-2. Parses `PATHS_TO_UPLOAD` and `PATHS_TO_DELETE` via [`parseRequestedDocsPaths`](src/docsStructure.ts) (accepts JSON array, CSV, or newline list) and `UPLOAD_ALL` via [`parseBooleanFlag`](src/docsStructure.ts).
-3. If `UPLOAD_ALL` is true, calls [`fetchDirNamesPaths`](src/docsStructure.ts) to download the canonical path list from `dirNames.json` and flags the run as a rebuild-from-scratch (`rebuildFromSelectedPaths: true`). Aborts with a non-zero exit code if the payload is malformed or empty. If `UPLOAD_ALL` is false and no upload/delete paths are provided, it aborts (nothing to do).
+2. Parses `PATHS_TO_UPLOAD` and `PATHS_TO_DELETE` via [`parseRequestedDocsPaths`](src/docsStructure.ts) (accepts JSON array, CSV, or newline list).
+3. If both `PATHS_TO_UPLOAD` and `PATHS_TO_DELETE` are empty, calls [`fetchDirNamesPaths`](src/docsStructure.ts) to download the canonical path list from `dirNames.json` and flags the run as a rebuild-from-scratch (`rebuildFromSelectedPaths: true`). Aborts with a non-zero exit code if the payload is malformed or empty. Otherwise it performs an incremental upload and/or deletion of the listed paths.
 4. Calls [`writeDocsStructureManifest`](src/docsStructure.ts) with the resolved `selectedPaths`, `pathsToDelete`, and rebuild flag.
 5. Logs a summary and exits non-zero on failure.
 
@@ -169,14 +174,13 @@ The workflow only commits and pushes when `docs-structure.json` has actually cha
 ```yaml
 - name: Generate crowdin file
   id: extract_files
-  if: ${{ inputs.paths_to_upload != '' || inputs.upload_all }}
   env:
     PATHS_TO_UPLOAD: ${{ inputs.paths_to_upload || '' }}
-    UPLOAD_ALL: ${{ inputs.upload_all || 'false' }}
+    PATHS_TO_DELETE: ${{ inputs.paths_to_delete || '' }}
   run: npm run generate_file
 ```
 
-This step (and the Crowdin upload that follows) is skipped entirely on delete-only runs, i.e. when `paths_to_upload` is empty and `upload_all` is unchecked.
+On a delete-only run (`paths_to_upload` empty, `paths_to_delete` set) the step still writes `crowdin.yml`, but with no `.md` sources — only the refreshed `docs-structure.json` — so the follow-up Crowdin upload just publishes the updated manifest.
 
 `npm run generate_file` runs [src/generateCrowdinConfig.ts](src/generateCrowdinConfig.ts):
 
@@ -184,11 +188,12 @@ This step (and the Crowdin upload that follows) is skipped entirely on delete-on
 flowchart TD
     A[Start] --> B{PATHS_TO_UPLOAD<br/>provided?}
     B -- Yes --> C[collectSelectedMarkdownFiles<br/>expand dirs to .md leaves]
-    B -- No --> U{UPLOAD_ALL?}
-    U -- Yes --> N[fetchDirNamesPaths<br/>download dirNames.json]
-    U -- No --> X[Skip generation<br/>delete-only run]
+    B -- No --> U{PATHS_TO_DELETE<br/>provided?}
+    U -- Yes --> X[No .md sources<br/>delete-only run]
+    U -- No --> N[fetchDirNamesPaths<br/>download dirNames.json]
     N --> C
     C --> E[Compose files list:<br/>docs-structure.json<br/>+ buildCrowdinFileEntries]
+    X --> E
     E --> F[yaml.dump → crowdin.yml]
     F --> G{GITHUB_OUTPUT set?}
     G -- Yes --> H[Append found_files=JSON<br/>step output]

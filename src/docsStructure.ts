@@ -401,14 +401,6 @@ function mergeManifestWithSelectedPaths(
   };
 }
 
-export function parseBooleanFlag(rawValue: string | undefined): boolean {
-  if (!rawValue) {
-    return false;
-  }
-
-  return ['true', '1', 'yes', 'on'].includes(rawValue.trim().toLowerCase());
-}
-
 export function parseRequestedDocsPaths(rawValue: string | undefined): string[] {
   if (!rawValue) {
     return [];

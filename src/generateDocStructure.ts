@@ -4,7 +4,6 @@ import {
   DOCS_DIR,
   DOCS_STRUCTURE_FILE,
   fetchDirNamesPaths,
-  parseBooleanFlag,
   parseRequestedDocsPaths,
   writeDocsStructureManifest,
 } from './docsStructure';
@@ -19,19 +18,15 @@ async function generateDocStructure() {
 
   const requestedSelectedPaths = parseRequestedDocsPaths(process.env.PATHS_TO_UPLOAD);
   const pathsToDelete = parseRequestedDocsPaths(process.env.PATHS_TO_DELETE);
-  const uploadAll = parseBooleanFlag(process.env.UPLOAD_ALL);
 
-  if (!uploadAll && requestedSelectedPaths.length === 0 && pathsToDelete.length === 0) {
-    console.error(
-      '❌ Nothing to do: provide paths to upload, paths to delete, or enable the "upload all" option.',
-    );
-    process.exit(1);
-  }
+  // No upload and no delete paths ⇒ full rebuild from the canonical dirNames list.
+  // Any explicit input ⇒ incremental upload and/or deletion of the listed paths.
+  const hasExplicitInputs = requestedSelectedPaths.length > 0 || pathsToDelete.length > 0;
 
   let selectedPaths = requestedSelectedPaths;
   let rebuildFromSelectedPaths = false;
 
-  if (uploadAll) {
+  if (!hasExplicitInputs) {
     console.log(`🌐 Fetching dirNames from ${DIR_NAMES_URL}...`);
     try {
       selectedPaths = await fetchDirNamesPaths();
