@@ -2,9 +2,9 @@
 
 #### 2.18.0 (19 maggio)
 
-* Debugger per i token DPoP: è possibile debuggare in autonomia il mancato rilascio di un voucher DPoP attraverso lo strumento di debug presente in _Tool per lo sviluppo > Debug Client Assertion_
-* Mantenimento preferenza della lingua: la preferenza su Area Riservata viene mantenuta anche su PDND Interoperabilità. Per PDND, sono attualmente disponibili le lingue italiana e inglese
-* [API v. 3](https://www.interop.pagopa.it/news/api-v3): aggiunto endpoint relativo agli eventi sui template di finalità agevolata
+* Debugger per i token DPoP: è possibile debuggare in autonomia il mancato rilascio di un voucher DPoP attraverso lo strumento di debug presente in _Tool per lo sviluppo > Debug Client Assertion._
+* Mantenimento preferenza della lingua: la preferenza su Area Riservata viene mantenuta anche su PDND Interoperabilità. Per PDND, sono attualmente disponibili le lingue italiana e inglese.
+* [API v. 3](https://www.interop.pagopa.it/news/api-v3): aggiunto endpoint relativo agli eventi sui template di finalità agevolata.
 
 #### 2.17.0 (27 aprile)
 
