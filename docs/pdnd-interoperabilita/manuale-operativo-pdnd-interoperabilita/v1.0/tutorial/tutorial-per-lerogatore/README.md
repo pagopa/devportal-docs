@@ -23,10 +23,6 @@
 * [Come verificare la validità di un voucher DPoP](come-verificare-la-validita-di-un-voucher-dpop.md)
 * [Come verificare il digest di un voucher](come-verificare-il-digest-di-un-voucher.md)
 
-## Altre operazioni
-
-* [Come integrare il proprio e-service con il Probing](come-integrare-il-proprio-e-service-con-il-probing.md)
-
 ***
 
 Pagina successiva [→ Come creare un nuovo e-service](come-creare-un-nuovo-e-service.md)
