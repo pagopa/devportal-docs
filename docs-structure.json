@@ -10588,6 +10588,100 @@
                       "directory": false
                     }
                   }
+                },
+                "v1.0": {
+                  "label": "v1.0",
+                  "directory": true,
+                  "children": {
+                    "appendice": {
+                      "label": "appendice",
+                      "directory": true,
+                      "children": {
+                        "raccontaci-la-tua-esperienza-con-io.md": {
+                          "label": "raccontaci la tua esperienza con io",
+                          "directory": false
+                        },
+                        "risorse-utili.md": {
+                          "label": "risorse utili",
+                          "directory": false
+                        }
+                      }
+                    },
+                    "i-materiali": {
+                      "label": "i materiali",
+                      "directory": true,
+                      "children": {
+                        "come-usare-i-materiali-di-comunicazione.md": {
+                          "label": "come usare i materiali di comunicazione",
+                          "directory": false
+                        },
+                        "comunicazione-interna.md": {
+                          "label": "comunicazione interna",
+                          "directory": false
+                        },
+                        "condivisione-della-campagna.md": {
+                          "label": "condivisione della campagna",
+                          "directory": false
+                        },
+                        "immagini-di-prodotto.md": {
+                          "label": "immagini di prodotto",
+                          "directory": false
+                        },
+                        "logo-e-brand-guidelines.md": {
+                          "label": "logo e brand guidelines",
+                          "directory": false
+                        },
+                        "materiali-creativi": {
+                          "label": "materiali creativi",
+                          "directory": true,
+                          "children": {
+                            "README.md": {
+                              "label": "README",
+                              "directory": false
+                            },
+                            "template-copy.md": {
+                              "label": "template copy",
+                              "directory": false
+                            },
+                            "template-grafici.md": {
+                              "label": "template grafici",
+                              "directory": false
+                            },
+                            "template-social.md": {
+                              "label": "template social",
+                              "directory": false
+                            }
+                          }
+                        },
+                        "media-relations.md": {
+                          "label": "media relations",
+                          "directory": false
+                        }
+                      }
+                    },
+                    "il-toolkit": {
+                      "label": "il toolkit",
+                      "directory": true,
+                      "children": {
+                        "perche-usare-questo-toolkit.md": {
+                          "label": "perche usare questo toolkit",
+                          "directory": false
+                        },
+                        "una-sola-campagna-per-tutti-gli-enti.md": {
+                          "label": "una sola campagna per tutti gli enti",
+                          "directory": false
+                        }
+                      }
+                    },
+                    "README.md": {
+                      "label": "README",
+                      "directory": false
+                    },
+                    "SUMMARY.md": {
+                      "label": "SUMMARY",
+                      "directory": false
+                    }
+                  }
                 }
               }
             }
@@ -26742,6 +26836,216 @@
                   }
                 }
               }
+            },
+            "lineeguida-messaggi-cortesia": {
+              "label": "lineeguida messaggi cortesia",
+              "directory": true,
+              "children": {
+                "1.0": {
+                  "label": "1.0",
+                  "directory": true,
+                  "children": {
+                    "linee-guida": {
+                      "label": "linee guida",
+                      "directory": true,
+                      "children": {
+                        "glossario.md": {
+                          "label": "glossario",
+                          "directory": false
+                        },
+                        "lesperienza-utente": {
+                          "label": "lesperienza utente",
+                          "directory": true,
+                          "children": {
+                            "disattivazione.md": {
+                              "label": "disattivazione",
+                              "directory": false
+                            },
+                            "fruizione": {
+                              "label": "fruizione",
+                              "directory": true,
+                              "children": {
+                                "conferma-pagamento.md": {
+                                  "label": "conferma pagamento",
+                                  "directory": false
+                                },
+                                "dettaglio-del-messaggio-ricevuto-in-app.md": {
+                                  "label": "dettaglio del messaggio ricevuto in app",
+                                  "directory": false
+                                },
+                                "notifica-push.md": {
+                                  "label": "notifica push",
+                                  "directory": false
+                                },
+                                "README.md": {
+                                  "label": "README",
+                                  "directory": false
+                                },
+                                "riepilogo-dati-avviso-pagopa.md": {
+                                  "label": "riepilogo dati avviso pagopa",
+                                  "directory": false
+                                }
+                              }
+                            },
+                            "README.md": {
+                              "label": "README",
+                              "directory": false
+                            },
+                            "scoperta-del-servizio-e-attivazione": {
+                              "label": "scoperta del servizio e attivazione",
+                              "directory": true,
+                              "children": {
+                                "banner.md": {
+                                  "label": "banner",
+                                  "directory": false
+                                },
+                                "landing-page.md": {
+                                  "label": "landing page",
+                                  "directory": false
+                                },
+                                "messaggio-in-bacheca.md": {
+                                  "label": "messaggio in bacheca",
+                                  "directory": false
+                                },
+                                "README.md": {
+                                  "label": "README",
+                                  "directory": false
+                                },
+                                "scheda-di-dettaglio-del-servizio.md": {
+                                  "label": "scheda di dettaglio del servizio",
+                                  "directory": false
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "review-e-approvazione.md": {
+                          "label": "review e approvazione",
+                          "directory": false
+                        }
+                      }
+                    },
+                    "premessa.md": {
+                      "label": "premessa",
+                      "directory": false
+                    },
+                    "README.md": {
+                      "label": "README",
+                      "directory": false
+                    },
+                    "SUMMARY.md": {
+                      "label": "SUMMARY",
+                      "directory": false
+                    }
+                  }
+                },
+                "1.1": {
+                  "label": "1.1",
+                  "directory": true,
+                  "children": {
+                    "changelog.md": {
+                      "label": "changelog",
+                      "directory": false
+                    },
+                    "linee-guida": {
+                      "label": "linee guida",
+                      "directory": true,
+                      "children": {
+                        "contenuti-utili-allassistenza.md": {
+                          "label": "contenuti utili allassistenza",
+                          "directory": false
+                        },
+                        "glossario.md": {
+                          "label": "glossario",
+                          "directory": false
+                        },
+                        "lesperienza-utente": {
+                          "label": "lesperienza utente",
+                          "directory": true,
+                          "children": {
+                            "disattivazione.md": {
+                              "label": "disattivazione",
+                              "directory": false
+                            },
+                            "fruizione": {
+                              "label": "fruizione",
+                              "directory": true,
+                              "children": {
+                                "conferma-pagamento.md": {
+                                  "label": "conferma pagamento",
+                                  "directory": false
+                                },
+                                "dettaglio-del-messaggio-ricevuto-in-app.md": {
+                                  "label": "dettaglio del messaggio ricevuto in app",
+                                  "directory": false
+                                },
+                                "notifica-push.md": {
+                                  "label": "notifica push",
+                                  "directory": false
+                                },
+                                "README.md": {
+                                  "label": "README",
+                                  "directory": false
+                                },
+                                "riepilogo-dati-avviso-pagopa.md": {
+                                  "label": "riepilogo dati avviso pagopa",
+                                  "directory": false
+                                }
+                              }
+                            },
+                            "README.md": {
+                              "label": "README",
+                              "directory": false
+                            },
+                            "scoperta-del-servizio-e-attivazione": {
+                              "label": "scoperta del servizio e attivazione",
+                              "directory": true,
+                              "children": {
+                                "banner.md": {
+                                  "label": "banner",
+                                  "directory": false
+                                },
+                                "landing-page.md": {
+                                  "label": "landing page",
+                                  "directory": false
+                                },
+                                "messaggio-in-bacheca.md": {
+                                  "label": "messaggio in bacheca",
+                                  "directory": false
+                                },
+                                "README.md": {
+                                  "label": "README",
+                                  "directory": false
+                                },
+                                "scheda-di-dettaglio-del-servizio.md": {
+                                  "label": "scheda di dettaglio del servizio",
+                                  "directory": false
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "review-e-approvazione.md": {
+                          "label": "review e approvazione",
+                          "directory": false
+                        }
+                      }
+                    },
+                    "premessa.md": {
+                      "label": "premessa",
+                      "directory": false
+                    },
+                    "README.md": {
+                      "label": "README",
+                      "directory": false
+                    },
+                    "SUMMARY.md": {
+                      "label": "SUMMARY",
+                      "directory": false
+                    }
+                  }
+                }
+              }
             }
           }
         },
@@ -28918,6 +29222,564 @@
                       "directory": false
                     }
                   }
+                },
+                "v1.2": {
+                  "label": "v1.2",
+                  "directory": true,
+                  "children": {
+                    "changelog.md": {
+                      "label": "changelog",
+                      "directory": false
+                    },
+                    "linee-guida": {
+                      "label": "linee guida",
+                      "directory": true,
+                      "children": {
+                        "contenuti-utili-allassistenza.md": {
+                          "label": "contenuti utili allassistenza",
+                          "directory": false
+                        },
+                        "glossario.md": {
+                          "label": "glossario",
+                          "directory": false
+                        },
+                        "lesperienza-utente": {
+                          "label": "lesperienza utente",
+                          "directory": true,
+                          "children": {
+                            "disattivazione.md": {
+                              "label": "disattivazione",
+                              "directory": false
+                            },
+                            "fruizione": {
+                              "label": "fruizione",
+                              "directory": true,
+                              "children": {
+                                "conferma-pagamento.md": {
+                                  "label": "conferma pagamento",
+                                  "directory": false
+                                },
+                                "dettaglio-del-messaggio-ricevuto-in-app.md": {
+                                  "label": "dettaglio del messaggio ricevuto in app",
+                                  "directory": false
+                                },
+                                "notifica-push.md": {
+                                  "label": "notifica push",
+                                  "directory": false
+                                },
+                                "README.md": {
+                                  "label": "README",
+                                  "directory": false
+                                },
+                                "riepilogo-dati-avviso-pagopa.md": {
+                                  "label": "riepilogo dati avviso pagopa",
+                                  "directory": false
+                                }
+                              }
+                            },
+                            "README.md": {
+                              "label": "README",
+                              "directory": false
+                            },
+                            "scoperta-del-servizio-e-attivazione": {
+                              "label": "scoperta del servizio e attivazione",
+                              "directory": true,
+                              "children": {
+                                "banner.md": {
+                                  "label": "banner",
+                                  "directory": false
+                                },
+                                "landing-page.md": {
+                                  "label": "landing page",
+                                  "directory": false
+                                },
+                                "messaggio-in-bacheca.md": {
+                                  "label": "messaggio in bacheca",
+                                  "directory": false
+                                },
+                                "README.md": {
+                                  "label": "README",
+                                  "directory": false
+                                },
+                                "scheda-di-dettaglio-del-servizio.md": {
+                                  "label": "scheda di dettaglio del servizio",
+                                  "directory": false
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "review-e-approvazione.md": {
+                          "label": "review e approvazione",
+                          "directory": false
+                        }
+                      }
+                    },
+                    "premessa.md": {
+                      "label": "premessa",
+                      "directory": false
+                    },
+                    "README.md": {
+                      "label": "README",
+                      "directory": false
+                    },
+                    "SUMMARY.md": {
+                      "label": "SUMMARY",
+                      "directory": false
+                    }
+                  }
+                }
+              }
+            },
+            "manuale-bo-mdc": {
+              "label": "manuale bo mdc",
+              "directory": true,
+              "children": {
+                "1.0": {
+                  "label": "1.0",
+                  "directory": true,
+                  "children": {
+                    "come-accedere-al-backoffice": {
+                      "label": "come accedere al backoffice",
+                      "directory": true,
+                      "children": {
+                        "accesso-area-riservata.md": {
+                          "label": "accesso area riservata",
+                          "directory": false
+                        },
+                        "accesso-in-modalita-single-sign-on-sso.md": {
+                          "label": "accesso in modalita single sign on sso",
+                          "directory": false
+                        },
+                        "accesso-panoramica-prodotti.md": {
+                          "label": "accesso panoramica prodotti",
+                          "directory": false
+                        },
+                        "prerequisiti-per-accedere-al-portale.md": {
+                          "label": "prerequisiti per accedere al portale",
+                          "directory": false
+                        }
+                      }
+                    },
+                    "come-completare-lonboarding-del-psp.md": {
+                      "label": "come completare lonboarding del psp",
+                      "directory": false
+                    },
+                    "come-configurare-e-gestire-il-servizio": {
+                      "label": "come configurare e gestire il servizio",
+                      "directory": true,
+                      "children": {
+                        "ambiente-di-produzione.md": {
+                          "label": "ambiente di produzione",
+                          "directory": false
+                        },
+                        "flusso-operativo.md": {
+                          "label": "flusso operativo",
+                          "directory": false
+                        },
+                        "navigazione-del-servizio-su-prod-e-collaudo.md": {
+                          "label": "navigazione del servizio su prod e collaudo",
+                          "directory": false
+                        },
+                        "onboarding-ambiente-di-collaudo-uat.md": {
+                          "label": "onboarding ambiente di collaudo uat",
+                          "directory": false
+                        }
+                      }
+                    },
+                    "iniziamo-da-qui": {
+                      "label": "iniziamo da qui",
+                      "directory": true,
+                      "children": {
+                        "ruoli-e-poteri.md": {
+                          "label": "ruoli e poteri",
+                          "directory": false
+                        },
+                        "scopo-del-documento.md": {
+                          "label": "scopo del documento",
+                          "directory": false
+                        }
+                      }
+                    },
+                    "README.md": {
+                      "label": "README",
+                      "directory": false
+                    },
+                    "SUMMARY.md": {
+                      "label": "SUMMARY",
+                      "directory": false
+                    }
+                  }
+                },
+                "v1.0": {
+                  "label": "v1.0",
+                  "directory": true,
+                  "children": {
+                    "accesso-in-modalita-single-sign-on-sso.md": {
+                      "label": "accesso in modalita single sign on sso",
+                      "directory": false
+                    },
+                    "come-accedere-al-backoffice": {
+                      "label": "come accedere al backoffice",
+                      "directory": true,
+                      "children": {
+                        "accesso-area-riservata.md": {
+                          "label": "accesso area riservata",
+                          "directory": false
+                        },
+                        "accesso-panoramica-servizio.md": {
+                          "label": "accesso panoramica servizio",
+                          "directory": false
+                        },
+                        "prerequisiti-per-accedere-al-portale.md": {
+                          "label": "prerequisiti per accedere al portale",
+                          "directory": false
+                        }
+                      }
+                    },
+                    "come-completare-lonboarding-del-psp.md": {
+                      "label": "come completare lonboarding del psp",
+                      "directory": false
+                    },
+                    "come-configurare-e-gestire-il-servizio": {
+                      "label": "come configurare e gestire il servizio",
+                      "directory": true,
+                      "children": {
+                        "flusso-operativo.md": {
+                          "label": "flusso operativo",
+                          "directory": false
+                        },
+                        "navigazione-del-servizio-su-prod-e-collaudo.md": {
+                          "label": "navigazione del servizio su prod e collaudo",
+                          "directory": false
+                        },
+                        "onboarding-ambiente-di-collaudo-uat-e-produzione": {
+                          "label": "onboarding ambiente di collaudo uat e produzione",
+                          "directory": true,
+                          "children": {
+                            "credenziali.md": {
+                              "label": "credenziali",
+                              "directory": false
+                            },
+                            "endpoint-e-deep-link.md": {
+                              "label": "endpoint e deep link",
+                              "directory": false
+                            },
+                            "README.md": {
+                              "label": "README",
+                              "directory": false
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "iniziamo-da-qui": {
+                      "label": "iniziamo da qui",
+                      "directory": true,
+                      "children": {
+                        "ruoli-e-poteri.md": {
+                          "label": "ruoli e poteri",
+                          "directory": false
+                        },
+                        "scopo-del-documento.md": {
+                          "label": "scopo del documento",
+                          "directory": false
+                        }
+                      }
+                    },
+                    "README.md": {
+                      "label": "README",
+                      "directory": false
+                    },
+                    "SUMMARY.md": {
+                      "label": "SUMMARY",
+                      "directory": false
+                    }
+                  }
+                }
+              }
+            },
+            "manuale-mdc": {
+              "label": "manuale mdc",
+              "directory": true,
+              "children": {
+                "1.0": {
+                  "label": "1.0",
+                  "directory": true,
+                  "children": {
+                    "casi-duso": {
+                      "label": "casi duso",
+                      "directory": true,
+                      "children": {
+                        "ciclo-vita-messaggio.md": {
+                          "label": "ciclo vita messaggio",
+                          "directory": false
+                        },
+                        "flusso-pagamento.md": {
+                          "label": "flusso pagamento",
+                          "directory": false
+                        }
+                      }
+                    },
+                    "per-iniziare": {
+                      "label": "per iniziare",
+                      "directory": true,
+                      "children": {
+                        "02-ext-intro.md": {
+                          "label": "02 ext intro",
+                          "directory": false
+                        },
+                        "03-ext-changelog.md": {
+                          "label": "03 ext changelog",
+                          "directory": false
+                        }
+                      }
+                    },
+                    "README.md": {
+                      "label": "README",
+                      "directory": false
+                    },
+                    "riferimenti-normativi": {
+                      "label": "riferimenti normativi",
+                      "directory": true,
+                      "children": {
+                        "08-ext-tc.md": {
+                          "label": "08 ext tc",
+                          "directory": false
+                        },
+                        "09-ext-valorelegalenotifica.md": {
+                          "label": "09 ext valorelegalenotifica",
+                          "directory": false
+                        },
+                        "riferimenti-e-documenti-ufficiali.md": {
+                          "label": "riferimenti e documenti ufficiali",
+                          "directory": false
+                        }
+                      }
+                    },
+                    "riferimenti-tecnici": {
+                      "label": "riferimenti tecnici",
+                      "directory": true,
+                      "children": {
+                        "authentication-security.md": {
+                          "label": "authentication security",
+                          "directory": false
+                        },
+                        "contatti.md": {
+                          "label": "contatti",
+                          "directory": false
+                        },
+                        "glossario.md": {
+                          "label": "glossario",
+                          "directory": false
+                        },
+                        "integrazione-lineeguida-design.md": {
+                          "label": "integrazione lineeguida design",
+                          "directory": false
+                        },
+                        "openapi-emd-ext-citizen.md": {
+                          "label": "openapi emd ext citizen",
+                          "directory": false
+                        },
+                        "openapi-emd-ext-message.md": {
+                          "label": "openapi emd ext message",
+                          "directory": false
+                        },
+                        "openapi-emd-ext-payment.md": {
+                          "label": "openapi emd ext payment",
+                          "directory": false
+                        },
+                        "openapi-emd-ext-tpp.md": {
+                          "label": "openapi emd ext tpp",
+                          "directory": false
+                        },
+                        "sla.md": {
+                          "label": "sla",
+                          "directory": false
+                        }
+                      }
+                    },
+                    "SUMMARY.md": {
+                      "label": "SUMMARY",
+                      "directory": false
+                    },
+                    "tutorial-per-i-psp": {
+                      "label": "tutorial per i psp",
+                      "directory": true,
+                      "children": {
+                        "01-ext-processo-onboarding.md": {
+                          "label": "01 ext processo onboarding",
+                          "directory": false
+                        },
+                        "02-ext-processo-citizen-activation.md": {
+                          "label": "02 ext processo citizen activation",
+                          "directory": false
+                        },
+                        "03-ext-processo-citizen-deactivation.md": {
+                          "label": "03 ext processo citizen deactivation",
+                          "directory": false
+                        },
+                        "04-ext-processo-receiving-msg-send.md": {
+                          "label": "04 ext processo receiving msg send",
+                          "directory": false
+                        },
+                        "05-ext-processo-payment-psp.md": {
+                          "label": "05 ext processo payment psp",
+                          "directory": false
+                        },
+                        "06-ext-processo-msg-to-tpp.md": {
+                          "label": "06 ext processo msg to tpp",
+                          "directory": false
+                        },
+                        "07-test-connettivita.md": {
+                          "label": "07 test connettivita",
+                          "directory": false
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "manuale-operativo": {
+              "label": "manuale operativo",
+              "directory": true,
+              "children": {
+                "v1.0": {
+                  "label": "v1.0",
+                  "directory": true,
+                  "children": {
+                    "casi-duso": {
+                      "label": "casi duso",
+                      "directory": true,
+                      "children": {
+                        "ciclo-vita-messaggio.md": {
+                          "label": "ciclo vita messaggio",
+                          "directory": false
+                        },
+                        "flusso-pagamento.md": {
+                          "label": "flusso pagamento",
+                          "directory": false
+                        }
+                      }
+                    },
+                    "per-iniziare": {
+                      "label": "per iniziare",
+                      "directory": true,
+                      "children": {
+                        "02-ext-intro.md": {
+                          "label": "02 ext intro",
+                          "directory": false
+                        },
+                        "03-ext-changelog.md": {
+                          "label": "03 ext changelog",
+                          "directory": false
+                        }
+                      }
+                    },
+                    "README.md": {
+                      "label": "README",
+                      "directory": false
+                    },
+                    "riferimenti-normativi": {
+                      "label": "riferimenti normativi",
+                      "directory": true,
+                      "children": {
+                        "08-ext-tc.md": {
+                          "label": "08 ext tc",
+                          "directory": false
+                        },
+                        "09-ext-valorelegalenotifica.md": {
+                          "label": "09 ext valorelegalenotifica",
+                          "directory": false
+                        },
+                        "riferimenti-e-documenti-ufficiali.md": {
+                          "label": "riferimenti e documenti ufficiali",
+                          "directory": false
+                        }
+                      }
+                    },
+                    "riferimenti-tecnici": {
+                      "label": "riferimenti tecnici",
+                      "directory": true,
+                      "children": {
+                        "authentication-security.md": {
+                          "label": "authentication security",
+                          "directory": false
+                        },
+                        "contatti.md": {
+                          "label": "contatti",
+                          "directory": false
+                        },
+                        "glossario.md": {
+                          "label": "glossario",
+                          "directory": false
+                        },
+                        "integrazione-lineeguida-design.md": {
+                          "label": "integrazione lineeguida design",
+                          "directory": false
+                        },
+                        "openapi-emd-ext-citizen.md": {
+                          "label": "openapi emd ext citizen",
+                          "directory": false
+                        },
+                        "openapi-emd-ext-message.md": {
+                          "label": "openapi emd ext message",
+                          "directory": false
+                        },
+                        "openapi-emd-ext-payment.md": {
+                          "label": "openapi emd ext payment",
+                          "directory": false
+                        },
+                        "openapi-emd-ext-tpp.md": {
+                          "label": "openapi emd ext tpp",
+                          "directory": false
+                        },
+                        "sla.md": {
+                          "label": "sla",
+                          "directory": false
+                        }
+                      }
+                    },
+                    "SUMMARY.md": {
+                      "label": "SUMMARY",
+                      "directory": false
+                    },
+                    "tutorial-per-i-psp": {
+                      "label": "tutorial per i psp",
+                      "directory": true,
+                      "children": {
+                        "01-ext-processo-onboarding.md": {
+                          "label": "01 ext processo onboarding",
+                          "directory": false
+                        },
+                        "02-ext-processo-citizen-activation.md": {
+                          "label": "02 ext processo citizen activation",
+                          "directory": false
+                        },
+                        "03-ext-processo-citizen-deactivation.md": {
+                          "label": "03 ext processo citizen deactivation",
+                          "directory": false
+                        },
+                        "04-ext-processo-receiving-msg-send.md": {
+                          "label": "04 ext processo receiving msg send",
+                          "directory": false
+                        },
+                        "05-ext-processo-payment-psp.md": {
+                          "label": "05 ext processo payment psp",
+                          "directory": false
+                        },
+                        "06-ext-processo-msg-to-tpp.md": {
+                          "label": "06 ext processo msg to tpp",
+                          "directory": false
+                        },
+                        "07-test-connettivita.md": {
+                          "label": "07 test connettivita",
+                          "directory": false
+                        }
+                      }
+                    }
+                  }
                 }
               }
             }
@@ -29624,6 +30486,344 @@
                     "prenotazione-dellappuntamento.md": {
                       "label": "prenotazione dellappuntamento",
                       "directory": false
+                    }
+                  }
+                }
+              }
+            },
+            "riscossione-tari-con-send": {
+              "label": "riscossione tari con send",
+              "directory": true,
+              "children": {
+                "configurazione-delle-comunicazioni.md": {
+                  "label": "configurazione delle comunicazioni",
+                  "directory": false
+                },
+                "consegna-e-perfezionamento-della-notifica.md": {
+                  "label": "consegna e perfezionamento della notifica",
+                  "directory": false
+                },
+                "monitoraggio-e-reportistica.md": {
+                  "label": "monitoraggio e reportistica",
+                  "directory": false
+                },
+                "pagamento-tramite-pagopa.md": {
+                  "label": "pagamento tramite pagopa",
+                  "directory": false
+                },
+                "postalizzazione-della-notifica.md": {
+                  "label": "postalizzazione della notifica",
+                  "directory": false
+                },
+                "preparazione-e-invio-della-notifica.md": {
+                  "label": "preparazione e invio della notifica",
+                  "directory": false
+                },
+                "README.md": {
+                  "label": "README",
+                  "directory": false
+                },
+                "SUMMARY.md": {
+                  "label": "SUMMARY",
+                  "directory": false
+                }
+              }
+            }
+          }
+        },
+        "it-wallet": {
+          "label": "it wallet",
+          "directory": true,
+          "children": {
+            "manuale-as": {
+              "label": "manuale as",
+              "directory": true,
+              "children": {
+                "v1.0": {
+                  "label": "v1.0",
+                  "directory": true,
+                  "children": {
+                    "casi-duso": {
+                      "label": "casi duso",
+                      "directory": true,
+                      "children": {
+                        "emissione-di-un-eaa-su-richiesta-dellutente-il-caso-della-patente-di-guida.md": {
+                          "label": "emissione di un eaa su richiesta dellutente il caso della patente di guida",
+                          "directory": false
+                        },
+                        "gestire-un-cambio-di-stato-in-esercizio.md": {
+                          "label": "gestire un cambio di stato in esercizio",
+                          "directory": false
+                        }
+                      }
+                    },
+                    "per-iniziare": {
+                      "label": "per iniziare",
+                      "directory": true,
+                      "children": {
+                        "il-percorso-di-onboarding-in-sintesi.md": {
+                          "label": "il percorso di onboarding in sintesi",
+                          "directory": false
+                        },
+                        "verificare-i-prerequisiti-tecnici-e-amministrativi.md": {
+                          "label": "verificare i prerequisiti tecnici e amministrativi",
+                          "directory": false
+                        }
+                      }
+                    },
+                    "README.md": {
+                      "label": "README",
+                      "directory": false
+                    },
+                    "riferimenti-normativi": {
+                      "label": "riferimenti normativi",
+                      "directory": true,
+                      "children": {
+                        "privacy-e-protezione-dei-dati-personali.md": {
+                          "label": "privacy e protezione dei dati personali",
+                          "directory": false
+                        },
+                        "quadro-normativo-e-transitorieta.md": {
+                          "label": "quadro normativo e transitorieta",
+                          "directory": false
+                        },
+                        "specifiche-tecniche-lts-e-nomenclatura-pdnd.md": {
+                          "label": "specifiche tecniche lts e nomenclatura pdnd",
+                          "directory": false
+                        }
+                      }
+                    },
+                    "riferimenti-tecnici": {
+                      "label": "riferimenti tecnici",
+                      "directory": true,
+                      "children": {
+                        "assistenza-referenti-e-glossario.md": {
+                          "label": "assistenza referenti e glossario",
+                          "directory": false
+                        },
+                        "codici-di-errore-delle-service.md": {
+                          "label": "codici di errore delle service",
+                          "directory": false
+                        },
+                        "data-model-attributi-e-stati-delleaa.md": {
+                          "label": "data model attributi e stati delleaa",
+                          "directory": false
+                        },
+                        "e-service-pdnd-e-sicurezza.md": {
+                          "label": "e service pdnd e sicurezza",
+                          "directory": false
+                        },
+                        "il-file-di-progettazione-delleaa.md": {
+                          "label": "il file di progettazione delleaa",
+                          "directory": false
+                        },
+                        "requisiti-dellopenapi-yaml-e-delle-service.md": {
+                          "label": "requisiti dellopenapi yaml e delle service",
+                          "directory": false
+                        },
+                        "signal-hub-soglie-di-carico-probing-e-tracing.md": {
+                          "label": "signal hub soglie di carico probing e tracing",
+                          "directory": false
+                        }
+                      }
+                    },
+                    "SUMMARY.md": {
+                      "label": "SUMMARY",
+                      "directory": false
+                    },
+                    "tutorial": {
+                      "label": "tutorial",
+                      "directory": true,
+                      "children": {
+                        "come-aderire-alla-pdnd-e-configurare-lambiente.md": {
+                          "label": "come aderire alla pdnd e configurare lambiente",
+                          "directory": false
+                        },
+                        "come-eseguire-i-test-di-prestazione-e-gli-adempimenti-tecnici.md": {
+                          "label": "come eseguire i test di prestazione e gli adempimenti tecnici",
+                          "directory": false
+                        },
+                        "come-gestire-esercizio-manutenzione-e-assistenza.md": {
+                          "label": "come gestire esercizio manutenzione e assistenza",
+                          "directory": false
+                        },
+                        "come-pianificare-il-go-live.md": {
+                          "label": "come pianificare il go live",
+                          "directory": false
+                        },
+                        "come-progettare-le-caratteristiche-delleaa.md": {
+                          "label": "come progettare le caratteristiche delleaa",
+                          "directory": false
+                        },
+                        "come-pubblicare-e-configurare-le-service-in-collaudo.md": {
+                          "label": "come pubblicare e configurare le service in collaudo",
+                          "directory": false
+                        },
+                        "come-pubblicare-in-produzione.md": {
+                          "label": "come pubblicare in produzione",
+                          "directory": false
+                        },
+                        "come-testare-lintegrazione-in-collaudo.md": {
+                          "label": "come testare lintegrazione in collaudo",
+                          "directory": false
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "manuale-relying-parties": {
+              "label": "manuale relying parties",
+              "directory": true,
+              "children": {
+                "v1.0": {
+                  "label": "v1.0",
+                  "directory": true,
+                  "children": {
+                    "casi-duso": {
+                      "label": "casi duso",
+                      "directory": true,
+                      "children": {
+                        "diagnosticare-e-risolvere-errori-comuni.md": {
+                          "label": "diagnosticare e risolvere errori comuni",
+                          "directory": false
+                        },
+                        "mantenere-il-relying-party-in-esercizio.md": {
+                          "label": "mantenere il relying party in esercizio",
+                          "directory": false
+                        },
+                        "note-di-sezione.md": {
+                          "label": "note di sezione",
+                          "directory": false
+                        },
+                        "promuovere-il-relying-party-da-pre-produzione-a-produzione.md": {
+                          "label": "promuovere il relying party da pre produzione a produzione",
+                          "directory": false
+                        },
+                        "verificare-lidentita-di-un-utente-con-il-pid.md": {
+                          "label": "verificare lidentita di un utente con il pid",
+                          "directory": false
+                        }
+                      }
+                    },
+                    "chiavi-crittografiche-e-certificati-x-509.md": {
+                      "label": "chiavi crittografiche e certificati x 509",
+                      "directory": false
+                    },
+                    "credenziali-e-modello-dati.md": {
+                      "label": "credenziali e modello dati",
+                      "directory": false
+                    },
+                    "endpoint-del-relying-party.md": {
+                      "label": "endpoint del relying party",
+                      "directory": false
+                    },
+                    "entity-configuration.md": {
+                      "label": "entity configuration",
+                      "directory": false
+                    },
+                    "glossario-e-checklist-di-conformita.md": {
+                      "label": "glossario e checklist di conformita",
+                      "directory": false
+                    },
+                    "note-di-sezione.md": {
+                      "label": "note di sezione",
+                      "directory": false
+                    },
+                    "per-iniziare": {
+                      "label": "per iniziare",
+                      "directory": true,
+                      "children": {
+                        "architettura-del-flusso-e-ambienti.md": {
+                          "label": "architettura del flusso e ambienti",
+                          "directory": false
+                        },
+                        "note-di-sezione.md": {
+                          "label": "note di sezione",
+                          "directory": false
+                        },
+                        "primo-test-end-to-end-in-pre-produzione.md": {
+                          "label": "primo test end to end in pre produzione",
+                          "directory": false
+                        },
+                        "verificare-i-prerequisiti.md": {
+                          "label": "verificare i prerequisiti",
+                          "directory": false
+                        }
+                      }
+                    },
+                    "procedura-di-verifica-della-credenziale.md": {
+                      "label": "procedura di verifica della credenziale",
+                      "directory": false
+                    },
+                    "protocollo-di-presentazione-openid4vp.md": {
+                      "label": "protocollo di presentazione openid4vp",
+                      "directory": false
+                    },
+                    "README.md": {
+                      "label": "README",
+                      "directory": false
+                    },
+                    "riferimenti-normativi": {
+                      "label": "riferimenti normativi",
+                      "directory": true,
+                      "children": {
+                        "note-di-sezione.md": {
+                          "label": "note di sezione",
+                          "directory": false
+                        },
+                        "specifiche-e-linee-guida-di-riferimento.md": {
+                          "label": "specifiche e linee guida di riferimento",
+                          "directory": false
+                        }
+                      }
+                    },
+                    "strumenti-e-librerie-consigliate.md": {
+                      "label": "strumenti e librerie consigliate",
+                      "directory": false
+                    },
+                    "SUMMARY.md": {
+                      "label": "SUMMARY",
+                      "directory": false
+                    },
+                    "trust-infrastructure.md": {
+                      "label": "trust infrastructure",
+                      "directory": false
+                    },
+                    "tutorial": {
+                      "label": "tutorial",
+                      "directory": true,
+                      "children": {
+                        "come-costruire-e-firmare-il-request-object.md": {
+                          "label": "come costruire e firmare il request object",
+                          "directory": false
+                        },
+                        "come-implementare-gli-endpoint-di-presentazione.md": {
+                          "label": "come implementare gli endpoint di presentazione",
+                          "directory": false
+                        },
+                        "come-indirizzare-lutente-al-wallet-same-device-e-cross-device.md": {
+                          "label": "come indirizzare lutente al wallet same device e cross device",
+                          "directory": false
+                        },
+                        "come-onboardare-il-relying-party-nella-federazione-ipzs.md": {
+                          "label": "come onboardare il relying party nella federazione ipzs",
+                          "directory": false
+                        },
+                        "come-testare-la-conformita-del-relying-party.md": {
+                          "label": "come testare la conformita del relying party",
+                          "directory": false
+                        },
+                        "come-verificare-la-risposta-del-wallet-ed-estrarre-i-claim.md": {
+                          "label": "come verificare la risposta del wallet ed estrarre i claim",
+                          "directory": false
+                        },
+                        "note-di-sezione.md": {
+                          "label": "note di sezione",
+                          "directory": false
+                        }
+                      }
                     }
                   }
                 }
