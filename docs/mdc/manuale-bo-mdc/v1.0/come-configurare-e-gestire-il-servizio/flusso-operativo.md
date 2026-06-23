@@ -21,6 +21,6 @@ Il flusso descrive:
 
 * [Fase 1 - Accesso all'Area Riservata](../come-accedere-al-backoffice/accesso-area-riservata.md)
 * [Fase 2 – Accesso Panaromica](../come-accedere-al-backoffice/accesso-panoramica-servizio.md)
-* [Fase 3 - Onboarding in ambiente di Collaudo (UAT) — prima configurazione tecnica](../backup-onboarding-ambiente-di-collaudo-uat.md)
+* [Fase 3 - Onboarding in ambiente di Collaudo (UAT) — prima configurazione tecnica](/broken/pages/MN8zmpS97LN5dB3oXBp0)
 * [Fase 4 - Navigazione del servizio su Prod e Collaudo](navigazione-del-servizio-su-prod-e-collaudo.md)
 

@@ -20,10 +20,7 @@
   * [Credenziali](come-configurare-e-gestire-il-servizio/onboarding-ambiente-di-collaudo-uat-e-produzione/credenziali.md)
 * [Navigazione del servizio su Prod e Collaudo](come-configurare-e-gestire-il-servizio/navigazione-del-servizio-su-prod-e-collaudo.md)
 
-## BACKUP
-
 ***
 
-* [BACKUP Onboarding Ambiente di Collaudo (UAT)](backup-onboarding-ambiente-di-collaudo-uat.md)
 * [Come completare l'onboarding del PSP](come-completare-lonboarding-del-psp.md)
 * [Accesso in modalità Single Sign-On (SSO)](accesso-in-modalita-single-sign-on-sso.md)
