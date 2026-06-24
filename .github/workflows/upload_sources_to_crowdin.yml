@@ -59,9 +59,16 @@ jobs:
           }
 
           MARKER_FILE="docs-source/${UPLOAD_ALL_MARKER}"
-          CURRENT_SHA="$(git -C docs-source rev-parse HEAD)"
-          emit initial_sha "${CURRENT_SHA}"
-          echo "Current docs/from-gitbook commit: ${CURRENT_SHA}"
+
+          # Anchor on the latest commit that actually touched docs/, not HEAD: the
+          # workflow's own marker/manifest commits advance HEAD without changing
+          # docs/, so HEAD would differ from the stored SHA even when no doc changed.
+          DOCS_SHA="$(git -C docs-source log -1 --format=%H -- docs/ || true)"
+          if [ -z "${DOCS_SHA}" ]; then
+            DOCS_SHA="$(git -C docs-source rev-parse HEAD)"
+          fi
+          emit initial_sha "${DOCS_SHA}"
+          echo "Latest docs/ commit on the source branch: ${DOCS_SHA}"
 
           upload="${INPUT_PATHS_TO_UPLOAD}"
           delete="${INPUT_PATHS_TO_DELETE}"
@@ -101,8 +108,8 @@ jobs:
             exit 0
           fi
 
-          if [ "${PREV_SHA}" = "${CURRENT_SHA}" ]; then
-            echo "docs/from-gitbook is unchanged since the last full upload. Nothing to do."
+          if [ "${PREV_SHA}" = "${DOCS_SHA}" ]; then
+            echo "No commit has touched docs/ since the last full upload. Nothing to do."
             emit run_crowdin false
             emit update_marker false
             emit_paths paths_to_upload
@@ -130,7 +137,7 @@ jobs:
               D) delete_paths+=("${rel}") ;;
               *) upload_paths+=("${rel}") ;;
             esac
-          done < <(git -C docs-source diff --name-status --no-renames "${PREV_SHA}" "${CURRENT_SHA}" -- docs/)
+          done < <(git -C docs-source diff --name-status --no-renames "${PREV_SHA}" "${DOCS_SHA}" -- docs/)
 
           echo "Markdown changes since last full upload: ${#upload_paths[@]} to upload, ${#delete_paths[@]} to delete."
 
