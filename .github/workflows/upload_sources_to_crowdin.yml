@@ -11,23 +11,6 @@ on:
         description: 'Comma separated list of paths to remove from docs-structure. Set alone (paths_to_upload empty) = delete only; set with paths_to_upload = upload + delete; leave BOTH empty = full upload of every doc.'
         required: false
         type: string
-  workflow_call:
-    inputs:
-      paths_to_upload:
-        description: 'Comma separated list of paths to upload. Set alone = upload only these paths; set with paths_to_delete = upload + delete; leave BOTH empty = full upload of every doc.'
-        required: false
-        type: string
-      paths_to_delete:
-        description: 'Comma separated list of paths to remove from docs-structure. Set alone (paths_to_upload empty) = delete only; set with paths_to_upload = upload + delete; leave BOTH empty = full upload of every doc.'
-        required: false
-        type: string
-    secrets:
-      GH_PAT:
-        required: true
-      CROWDIN_PROJECT_ID:
-        required: true
-      CROWDIN_PERSONAL_TOKEN:
-        required: true
 
 permissions:
   contents: write
