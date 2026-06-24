@@ -22,6 +22,8 @@ on:
         required: false
         type: string
     secrets:
+      GH_PAT_TOKEN:
+        required: true
       CROWDIN_PROJECT_ID:
         required: true
       CROWDIN_PERSONAL_TOKEN:
@@ -38,19 +40,23 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd
+        with:
+          persist-credentials: false
 
-      - name: Sparse checkout docs from source branch
+      - name: Checkout docs from source branch
         uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd
         with:
           ref: ${{ vars.CHECKOUT_BRANCH || 'docs/from-gitbook' }}
-          sparse-checkout: docs
-          sparse-checkout-cone-mode: true
           path: docs-source
+          token: ${{ secrets.GITHUB_TOKEN }}
+          persist-credentials: false
 
       - name: Move docs into workspace root
         run: |
           rm -rf docs
+          rm -f docs-structure.json
           mv docs-source/docs docs
+          if [ -f docs-source/docs-structure.json ]; then mv docs-source/docs-structure.json docs-structure.json; fi
 
       - name: Setup Node.JS
         uses: actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e
@@ -68,13 +74,29 @@ jobs:
         run: npm run generate_doc_structure
 
       - name: Commit docs structure manifest
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
         run: |
           if [ -n "$(git status --porcelain -- docs-structure.json)" ]; then
-            git config user.name "github-actions[bot]"
-            git config user.email "github-actions[bot]@users.noreply.github.com"
+            cp docs-structure.json docs-source/docs-structure.json
+
+            cd docs-source
+            git config user.name "devportal-portalsandtools-github-bot"
+            git config user.email "180539351+devportal-portalsandtools-github-bot@users.noreply.github.com"
+
+            git config --unset-all http.https://github.com/.extraheader || true
+
+            # Token owner determines write access; username segment is ignored for PATs.
+            git remote set-url origin https://x-access-token:${GH_PAT}@github.com/pagopa/devportal-docs.git
+
             git add docs-structure.json
-            git commit -m "chore: update docs structure manifest"
-            git push
+
+            if git diff --cached --quiet -- docs-structure.json; then
+              echo "docs-structure.json already up to date in docs-source. Nothing to commit."
+            else
+              git commit -m "chore: update docs structure manifest"
+              git push origin HEAD:${{ vars.CHECKOUT_BRANCH || 'docs/from-gitbook' }}
+            fi
           else
             echo "No docs-structure.json changes to commit."
           fi
@@ -86,15 +108,14 @@ jobs:
         run: npm run generate_file
 
       - name: crowdin action
-        uses: crowdin/github-action@8868a33591d21088edfc398968173a3b98d51706
+        uses: crowdin/github-action@52aa776766211d83d975df51f3b9c53c2f8ba35f
         with:
           upload_sources: true
           upload_translations: false
-          auto_approve_imported: true
           download_translations: false
           create_pull_request: false
           base_url: 'https://pagopa.crowdin.com'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
+          CROWDIN_PROJECT_ID: ${{ vars.CROWDIN_PROJECT_ID }}
           CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
