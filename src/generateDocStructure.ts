@@ -18,6 +18,9 @@ async function generateDocStructure() {
 
   const requestedSelectedPaths = parseRequestedDocsPaths(process.env.PATHS_TO_UPLOAD);
   const pathsToDelete = parseRequestedDocsPaths(process.env.PATHS_TO_DELETE);
+
+  // No upload and no delete paths ⇒ full rebuild from the canonical dirNames list.
+  // Any explicit input ⇒ incremental upload and/or deletion of the listed paths.
   const hasExplicitInputs = requestedSelectedPaths.length > 0 || pathsToDelete.length > 0;
 
   let selectedPaths = requestedSelectedPaths;

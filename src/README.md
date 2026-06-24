@@ -14,14 +14,25 @@ Trigger (manual / called workflow)
        └─ crowdin-action      →  uploads sources to Crowdin
 ```
 
-The two workflow inputs that control behaviour are:
+The behaviour is driven entirely by the **presence** of the two workflow inputs:
 
 - `paths_to_upload` – optional list of docs-relative paths whose sources should be added/refreshed.
 - `paths_to_delete` – optional list of docs-relative paths whose nodes should be removed from the manifest.
 
 Both inputs accept a JSON array, a comma-separated list, or one path per line.
 
-When **neither** input is provided, both scripts fall back to the canonical path list published at <https://static-contents.developer.pagopa.it/it/dirNames.json> (the `dirNames` array). That list is treated as the source of truth: `docs-structure.json` is rebuilt from those paths and the Crowdin upload is limited to the `.md` files reachable from them. The `docs/` directory is never scanned wholesale anymore.
+The combination of the two inputs selects the mode:
+
+| `paths_to_upload` | `paths_to_delete` | Mode |
+|---|---|---|
+| set | empty | **Filtered upload** – only the `.md` files under the selected paths are uploaded. |
+| set | set | **Filtered upload + delete** – the selected paths are uploaded and the listed nodes are removed from the manifest. |
+| empty | empty | **Full upload** – the manifest and the upload are rebuilt from the canonical `dirNames` list. |
+| empty | set | **Delete only** – the listed nodes are removed from the manifest; no `.md` sources are uploaded. |
+
+When both inputs are empty, both scripts use the canonical path list published at <https://static-contents.developer.pagopa.it/it/dirNames.json> (the `dirNames` array). That list is treated as the source of truth: `docs-structure.json` is rebuilt from those paths and the Crowdin upload is limited to the `.md` files reachable from them. The `docs/` directory is never scanned wholesale anymore.
+
+In delete-only mode the targeted nodes are removed from `docs-structure.json` and only the refreshed manifest is sent to Crowdin (no `.md` sources are added).
 
 ---
 
@@ -33,9 +44,9 @@ Entry point: [`generateDocStructure.ts`](generateDocStructure.ts)
 
 Reads `PATHS_TO_UPLOAD` and `PATHS_TO_DELETE` from the environment and writes `docs-structure.json`.
 
-- **dirNames rebuild** (no inputs provided): fetches `dirNames.json` and rebuilds the manifest from scratch using only those paths. The existing manifest is discarded so anything no longer listed in `dirNames` is dropped.
+- **dirNames rebuild** (both `PATHS_TO_UPLOAD` and `PATHS_TO_DELETE` empty): fetches `dirNames.json` and rebuilds the manifest from scratch using only those paths. The existing manifest is discarded so anything no longer listed in `dirNames` is dropped.
 - **Incremental update** (`PATHS_TO_UPLOAD` set): loads the existing manifest and merges only the selected nodes into it, creating any missing intermediate directory nodes.
-- **Deletion** (`PATHS_TO_DELETE` set): loads the existing manifest and removes the targeted nodes.
+- **Deletion** (`PATHS_TO_DELETE` set): loads the existing manifest and removes the targeted nodes (runs in addition to the incremental update when `PATHS_TO_UPLOAD` is also set).
 
 The script exits with a non-zero code if `docs/` does not exist or if the manifest cannot be written.
 
@@ -43,10 +54,11 @@ The script exits with a non-zero code if `docs/` does not exist or if the manife
 
 Entry point: [`generateCrowdinConfig.ts`](generateCrowdinConfig.ts)
 
-Reads `PATHS_TO_UPLOAD` from the environment and writes `crowdin.yml`.
+Reads `PATHS_TO_UPLOAD` and `PATHS_TO_DELETE` from the environment and writes `crowdin.yml`.
 
 - When `PATHS_TO_UPLOAD` is set, only the `.md` files under the selected paths are included.
-- When it is empty, the script fetches `dirNames.json` and includes the `.md` files reachable from those paths.
+- When `PATHS_TO_UPLOAD` is empty but `PATHS_TO_DELETE` is set (delete-only run), no `.md` sources are included; only the refreshed `docs-structure.json` is written to the config.
+- When both are empty, the script fetches `dirNames.json` and includes the `.md` files reachable from those paths.
 - `docs-structure.json` is always prepended to the files list so translators can translate folder/file labels.
 - When running on GitHub Actions (`GITHUB_OUTPUT` is set), the script also exposes a `found_files` step output containing a JSON array of the collected markdown paths.
 
@@ -137,5 +149,7 @@ When triggering `.github/workflows/upload_sources_to_crowdin.yml` manually from 
 |---|---|
 | `paths_to_upload` | Paths to add/refresh. Resolved from `docs/`, so `app-io/guide/1.0` expands to all `.md` files under `docs/app-io/guide/1.0`. Explicit `.md` files are also accepted with or without the `docs/` prefix. |
 | `paths_to_delete` | Paths whose nodes should be removed from the manifest. Same format as `paths_to_upload`. |
+
+Leaving **both** inputs empty rebuilds the manifest and uploads from the canonical `dirNames` list (full upload). See the table under [High-level workflow](#high-level-workflow) for every combination.
 
 Provide values as one path per line or a comma-separated list. `.gitbook` directories are always ignored.

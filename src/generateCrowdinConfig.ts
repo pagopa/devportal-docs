@@ -27,10 +27,20 @@ async function generateCrowdinConfig() {
   }
 
   const requestedPathsToUpload = parseRequestedDocsPaths(process.env.PATHS_TO_UPLOAD);
+  const pathsToDelete = parseRequestedDocsPaths(process.env.PATHS_TO_DELETE);
   let pathsToUpload = requestedPathsToUpload;
   let usingDirNames = false;
 
-  if (pathsToUpload.length === 0) {
+  if (pathsToUpload.length > 0) {
+    // Upload paths provided ⇒ scope the upload to those paths (a deletion may run alongside).
+    console.log(`🎯 Limiting the upload to ${pathsToUpload.length} selected path(s).`);
+  } else if (pathsToDelete.length > 0) {
+    // Delete-only run ⇒ no Markdown sources to upload, just refresh the docs-structure manifest.
+    console.log(
+      `🗑️ No paths to upload; refreshing docs-structure for ${pathsToDelete.length} deletion(s).`,
+    );
+  } else {
+    // No upload and no delete paths ⇒ full upload rebuilt from the canonical dirNames list.
     console.log(`🌐 Fetching dirNames from ${DIR_NAMES_URL}...`);
     try {
       pathsToUpload = await fetchDirNamesPaths();
@@ -46,13 +56,11 @@ async function generateCrowdinConfig() {
 
     usingDirNames = true;
     console.log(`📥 Received ${pathsToUpload.length} path(s) from dirNames.`);
-  } else {
-    console.log(`🎯 Limiting the upload to ${pathsToUpload.length} selected path(s).`);
   }
 
-  const mdFiles = collectSelectedMarkdownFiles(pathsToUpload);
+  const mdFiles = pathsToUpload.length > 0 ? collectSelectedMarkdownFiles(pathsToUpload) : [];
 
-  if (mdFiles.length === 0) {
+  if (pathsToUpload.length > 0 && mdFiles.length === 0) {
     console.warn(
       usingDirNames
         ? `⚠️ No .md files found under the paths declared in dirNames.`
