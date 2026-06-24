@@ -1,5 +1,8 @@
 name: Push documentation on target repository
 
+permissions:
+  contents: read
+
 on:
   workflow_dispatch:
     inputs:
