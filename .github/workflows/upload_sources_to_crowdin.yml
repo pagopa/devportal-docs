@@ -4,21 +4,21 @@ on:
   workflow_dispatch:
     inputs:
       paths_to_upload:
-        description: 'Comma separated list of paths to upload, e.g. app-io/io-guida-tecnica/v7.2. Set alone = upload only these paths; set with paths_to_delete = upload + delete; leave BOTH empty = full upload of every doc.'
+        description: 'Comma separated list of paths to upload, e.g. app-io/io-guida-tecnica/v7.2. Set alone = upload only these paths; set with paths_to_delete = upload + delete; leave BOTH empty = full upload (diff-based: only the docs changed since the last full upload).'
         required: false
         type: string
       paths_to_delete:
-        description: 'Comma separated list of paths to remove from docs-structure. Set alone (paths_to_upload empty) = delete only; set with paths_to_upload = upload + delete; leave BOTH empty = full upload of every doc.'
+        description: 'Comma separated list of paths to remove from docs-structure. Set alone (paths_to_upload empty) = delete only; set with paths_to_upload = upload + delete; leave BOTH empty = full upload (diff-based: only the docs changed since the last full upload).'
         required: false
         type: string
   workflow_call:
     inputs:
       paths_to_upload:
-        description: 'Comma separated list of paths to upload. Set alone = upload only these paths; set with paths_to_delete = upload + delete; leave BOTH empty = full upload of every doc.'
+        description: 'Comma separated list of paths to upload. Set alone = upload only these paths; set with paths_to_delete = upload + delete; leave BOTH empty = full upload (diff-based).'
         required: false
         type: string
       paths_to_delete:
-        description: 'Comma separated list of paths to remove from docs-structure. Set alone (paths_to_upload empty) = delete only; set with paths_to_upload = upload + delete; leave BOTH empty = full upload of every doc.'
+        description: 'Comma separated list of paths to remove from docs-structure. Set alone (paths_to_upload empty) = delete only; set with paths_to_upload = upload + delete; leave BOTH empty = full upload (diff-based).'
         required: false
         type: string
     secrets:
@@ -32,6 +32,9 @@ on:
 permissions:
   contents: write
 
+env:
+  # Marker recording the docs/from-gitbook commit covered by the last full upload.
+  UPLOAD_ALL_MARKER: meta/latest-upload-all.json
 
 jobs:
   upload-sources-to-crowdin:
@@ -50,8 +53,120 @@ jobs:
           path: docs-source
           token: ${{ secrets.GITHUB_TOKEN }}
           persist-credentials: false
+          # Full history so we can diff the current tip against the last full-upload commit.
+          fetch-depth: 0
+
+      - name: Plan upload
+        id: plan
+        env:
+          INPUT_PATHS_TO_UPLOAD: ${{ inputs.paths_to_upload || '' }}
+          INPUT_PATHS_TO_DELETE: ${{ inputs.paths_to_delete || '' }}
+        run: |
+          set -euo pipefail
+
+          emit() { echo "$1=$2" >> "$GITHUB_OUTPUT"; }
+          emit_paths() {
+            # $1 = output key; remaining args = path entries (newline separated value).
+            local key="$1"; shift
+            {
+              echo "${key}<<__PATHS_EOF__"
+              if [ "$#" -gt 0 ]; then printf '%s\n' "$@"; fi
+              echo "__PATHS_EOF__"
+            } >> "$GITHUB_OUTPUT"
+          }
+
+          MARKER_FILE="docs-source/${UPLOAD_ALL_MARKER}"
+          CURRENT_SHA="$(git -C docs-source rev-parse HEAD)"
+          emit initial_sha "${CURRENT_SHA}"
+          echo "Current docs/from-gitbook commit: ${CURRENT_SHA}"
+
+          upload="${INPUT_PATHS_TO_UPLOAD}"
+          delete="${INPUT_PATHS_TO_DELETE}"
+
+          # Targeted run (explicit inputs): behave exactly as before, leave the marker untouched.
+          if [ -n "${upload}" ] || [ -n "${delete}" ]; then
+            echo "Targeted run; skipping the diff-based full-upload optimisation."
+            emit is_full_upload false
+            emit run_crowdin true
+            emit update_marker false
+            emit_paths paths_to_upload "${upload}"
+            emit_paths paths_to_delete "${delete}"
+            exit 0
+          fi
+
+          # Full-upload mode.
+          emit is_full_upload true
+
+          if [ ! -f "${MARKER_FILE}" ]; then
+            echo "No previous full-upload marker found; performing a complete upload."
+            emit run_crowdin true
+            emit update_marker true
+            emit_paths paths_to_upload
+            emit_paths paths_to_delete
+            exit 0
+          fi
+
+          PREV_SHA="$(jq -r '.commit_sha // empty' "${MARKER_FILE}" 2>/dev/null || true)"
+          echo "Previous full-upload commit: ${PREV_SHA:-<none>}"
+
+          if [ -z "${PREV_SHA}" ] || ! git -C docs-source cat-file -e "${PREV_SHA}^{commit}" 2>/dev/null; then
+            echo "Previous commit missing or unreadable; falling back to a complete upload."
+            emit run_crowdin true
+            emit update_marker true
+            emit_paths paths_to_upload
+            emit_paths paths_to_delete
+            exit 0
+          fi
+
+          if [ "${PREV_SHA}" = "${CURRENT_SHA}" ]; then
+            echo "docs/from-gitbook is unchanged since the last full upload. Nothing to do."
+            emit run_crowdin false
+            emit update_marker false
+            emit_paths paths_to_upload
+            emit_paths paths_to_delete
+            exit 0
+          fi
+
+          # Changed Markdown files under docs/ since the last full upload.
+          # --no-renames so a rename becomes a delete (old path) + an add (new path).
+          upload_paths=()
+          delete_paths=()
+          while IFS=$'\t' read -r status file; do
+            [ -n "${file}" ] || continue
+
+            case "${file}" in
+              *.md) ;;
+              *) continue ;;
+            esac
+            case "${file}" in
+              *.gitbook/*) continue ;;
+            esac
+
+            rel="${file#docs/}"
+            case "${status}" in
+              D) delete_paths+=("${rel}") ;;
+              *) upload_paths+=("${rel}") ;;
+            esac
+          done < <(git -C docs-source diff --name-status --no-renames "${PREV_SHA}" "${CURRENT_SHA}" -- docs/)
+
+          echo "Markdown changes since last full upload: ${#upload_paths[@]} to upload, ${#delete_paths[@]} to delete."
+
+          if [ "${#upload_paths[@]}" -eq 0 ] && [ "${#delete_paths[@]}" -eq 0 ]; then
+            echo "No Markdown changes under docs/. Nothing to do."
+            emit run_crowdin false
+            emit update_marker false
+            emit_paths paths_to_upload
+            emit_paths paths_to_delete
+            exit 0
+          fi
+
+          emit run_crowdin true
+          emit update_marker true
+          emit_paths paths_to_upload ${upload_paths[@]+"${upload_paths[@]}"}
+          emit_paths paths_to_delete ${delete_paths[@]+"${delete_paths[@]}"}
 
       - name: Move docs into workspace root
+        if: steps.plan.outputs.run_crowdin == 'true'
         run: |
           rm -rf docs
           rm -f docs-structure.json
@@ -59,21 +174,25 @@ jobs:
           if [ -f docs-source/docs-structure.json ]; then mv docs-source/docs-structure.json docs-structure.json; fi
 
       - name: Setup Node.JS
+        if: steps.plan.outputs.run_crowdin == 'true'
         uses: actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e
         with:
           node-version: 24
           cache: 'npm'
 
       - name: Install dependencies
+        if: steps.plan.outputs.run_crowdin == 'true'
         run: npm ci
 
       - name: Generate docs structure manifest
+        if: steps.plan.outputs.run_crowdin == 'true'
         env:
-          PATHS_TO_UPLOAD: ${{ inputs.paths_to_upload || '' }}
-          PATHS_TO_DELETE: ${{ inputs.paths_to_delete || '' }}
+          PATHS_TO_UPLOAD: ${{ steps.plan.outputs.paths_to_upload }}
+          PATHS_TO_DELETE: ${{ steps.plan.outputs.paths_to_delete }}
         run: npm run generate_doc_structure
 
       - name: Commit docs structure manifest
+        if: steps.plan.outputs.run_crowdin == 'true'
         env:
           GH_PAT: ${{ secrets.GH_PAT }}
         run: |
@@ -103,12 +222,14 @@ jobs:
 
       - name: Generate crowdin file
         id: extract_files
+        if: steps.plan.outputs.run_crowdin == 'true'
         env:
-          PATHS_TO_UPLOAD: ${{ inputs.paths_to_upload || '' }}
-          PATHS_TO_DELETE: ${{ inputs.paths_to_delete || '' }}
+          PATHS_TO_UPLOAD: ${{ steps.plan.outputs.paths_to_upload }}
+          PATHS_TO_DELETE: ${{ steps.plan.outputs.paths_to_delete }}
         run: npm run generate_file
 
       - name: crowdin action
+        if: steps.plan.outputs.run_crowdin == 'true'
         uses: crowdin/github-action@52aa776766211d83d975df51f3b9c53c2f8ba35f
         with:
           upload_sources: true
@@ -120,3 +241,41 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           CROWDIN_PROJECT_ID: ${{ vars.CROWDIN_PROJECT_ID }}
           CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
+
+      # Runs only when every previous step succeeded (the crowdin upload included),
+      # and only for full-upload runs that actually pushed sources to Crowdin.
+      - name: Update full-upload marker
+        if: steps.plan.outputs.update_marker == 'true'
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
+          INITIAL_SHA: ${{ steps.plan.outputs.initial_sha }}
+          RUN_ID: ${{ github.run_id }}
+        run: |
+          set -euo pipefail
+
+          mkdir -p "docs-source/$(dirname "${UPLOAD_ALL_MARKER}")"
+          cat > "docs-source/${UPLOAD_ALL_MARKER}" <<EOF
+          {
+            "commit_sha": "${INITIAL_SHA}",
+            "timestamp": "$(date -u +%Y-%m-%dT%H:%M:%SZ)",
+            "workflow_run_id": "${RUN_ID}"
+          }
+          EOF
+
+          cd docs-source
+          git config user.name "devportal-portalsandtools-github-bot"
+          git config user.email "180539351+devportal-portalsandtools-github-bot@users.noreply.github.com"
+
+          git config --unset-all http.https://github.com/.extraheader || true
+
+          # Token owner determines write access; username segment is ignored for PATs.
+          git remote set-url origin https://x-access-token:${GH_PAT}@github.com/pagopa/devportal-docs.git
+
+          git add "${UPLOAD_ALL_MARKER}"
+
+          if git diff --cached --quiet -- "${UPLOAD_ALL_MARKER}"; then
+            echo "Full-upload marker already up to date. Nothing to commit."
+          else
+            git commit -m "chore: update full-upload marker"
+            git push origin HEAD:${{ vars.CHECKOUT_BRANCH || 'docs/from-gitbook' }}
+          fi
