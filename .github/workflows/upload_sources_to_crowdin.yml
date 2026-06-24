@@ -53,7 +53,7 @@ jobs:
             local key="$1"; shift
             {
               echo "${key}<<__PATHS_EOF__"
-              if [ "$#" -gt 0 ]; then printf '%s\n' "$@"; fi
+              if [ "$#" -gt 0 ] && [ -n "$1" ]; then printf '%s\n' "$@"; fi
               echo "__PATHS_EOF__"
             } >> "$GITHUB_OUTPUT"
           }
