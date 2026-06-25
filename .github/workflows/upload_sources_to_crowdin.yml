@@ -218,6 +218,13 @@ jobs:
           PATHS_TO_DELETE: ${{ steps.plan.outputs.paths_to_delete }}
         run: npm run generate_file
 
+      - name: Log crowdin manifest
+        if: steps.plan.outputs.run_crowdin == 'true'
+        run: |
+          echo "::group::crowdin.yml"
+          cat crowdin.yml
+          echo "::endgroup::"
+
       - name: crowdin action
         if: steps.plan.outputs.run_crowdin == 'true'
         uses: crowdin/github-action@52aa776766211d83d975df51f3b9c53c2f8ba35f
