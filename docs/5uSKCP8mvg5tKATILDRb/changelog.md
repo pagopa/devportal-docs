@@ -4,12 +4,7 @@
 I cambiamenti indicati come versione `minor` (la cifra a destra del punto) non sono da ritenersi sostanziali, hanno lo scopo di migliorare l'esperienza.
 {% endhint %}
 
-### Versione 7.3 (30 Giugno 2026)
 
-* Aggiunta la pagina [Servizi per Minori](../app-io/io-guida-tecnica/v7.2/funzionalita/pubblicare-un-servizio/servizi-per-minori.md)
-* Aggiunta una nota sul codice di errore dell'[API di creazione messaggi](api-e-specifiche/api-messaggi/submit-a-message-passing-the-user-fiscal_code-as-path-parameter.md#descrizione)
-* Aggiunta sezione [I Tuoi enti](funzionalita/pubblicare-un-servizio/chiave-manage/chiave-manage.md#sezione-i-tuoi-enti) alla pagina [API Key manage](funzionalita/pubblicare-un-servizio/chiave-manage/chiave-manage.md)
-* Aggiornata la [tabella dei permessi](funzionalita/pubblicare-un-servizio/gestire-laccesso-ai-servizi-tramite-i-gruppi.md#chi-puo-gestire-i-gruppi) su [Gestire l'accesso ai servizi tramite i gruppi](funzionalita/pubblicare-un-servizio/gestire-laccesso-ai-servizi-tramite-i-gruppi.md), per riflettere il ruolo di Amministratore Ente Aggregato
 
 ### Versione 7.2 (30 Settembre 2025)
 

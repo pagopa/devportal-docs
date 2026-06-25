@@ -8,10 +8,6 @@ Questa API consente l’invio di messaggi verso un cittadino identificato tramit
 Per utilizzare questa API devi aggiungere alla chiamata l'header `Ocp-Apim-Subscription-Key` contenente la chiave "use" [primaria](../../funzionalita/pubblicare-un-servizio/dati-obbligatori/attributi.md#primary_key) o [secondaria](../../funzionalita/pubblicare-un-servizio/dati-obbligatori/attributi.md#secondary_key) del servizio scelto per l'invio del messaggio
 {% endhint %}
 
-{% hint style="warning" %}
-Con l'abilitazione dei Servizi per i minori, verrà introdotto un nuovo codice di errore HTTP. Nello specifico, l'API restituirà un HTTP 422 qualora un servizio non autorizzato tenti di inviare un messaggio a un cittadino minorenne.
-{% endhint %}
-
 {% openapi src="https://raw.githubusercontent.com/teamdigitale/io-functions-services/master/openapi/index.yaml" path="/messages" method="post" %}
 [https://raw.githubusercontent.com/teamdigitale/io-functions-services/master/openapi/index.yaml](https://raw.githubusercontent.com/teamdigitale/io-functions-services/master/openapi/index.yaml)
 {% endopenapi %}

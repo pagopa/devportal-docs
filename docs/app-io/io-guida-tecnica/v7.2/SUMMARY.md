@@ -21,7 +21,6 @@
   * [Informazioni sensibili](../../../5uSKCP8mvg5tKATILDRb/funzionalita/pubblicare-un-servizio/informazioni-sensibili.md)
   * [Argomento del servizio](../../../5uSKCP8mvg5tKATILDRb/funzionalita/pubblicare-un-servizio/argomento-del-servizio.md)
   * [Stato del servizio](../../../5uSKCP8mvg5tKATILDRb/funzionalita/pubblicare-un-servizio/stato-del-servizio.md)
-  * [Servizi per Minori](funzionalita/pubblicare-un-servizio/servizi-per-minori.md)
   * [API Key](../../../5uSKCP8mvg5tKATILDRb/funzionalita/pubblicare-un-servizio/chiave-manage/README.md)
     * [API Key manage](../../../5uSKCP8mvg5tKATILDRb/funzionalita/pubblicare-un-servizio/chiave-manage/chiave-manage.md)
     * [API Key use](../../../5uSKCP8mvg5tKATILDRb/funzionalita/pubblicare-un-servizio/chiave-manage/chiave-manage-1.md)
