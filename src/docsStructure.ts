@@ -12,6 +12,7 @@ const IGNORED_DIRECTORY_NAMES = new Set(['.gitbook']);
 export interface CrowdinFileEntry {
   source: string;
   translation: string;
+  ignore?: string[];
 }
 
 export interface DocsStructureNode {
@@ -533,14 +534,92 @@ export function collectSelectedMarkdownFiles(
   return Array.from(collectedFiles).sort((left, right) => left.localeCompare(right));
 }
 
-export function buildCrowdinFileEntries(mdFiles: string[]): CrowdinFileEntry[] {
-  const markdownEntries = mdFiles.map((sourcePath) => ({
-    source: sourcePath,
-    translation: sourcePath.replace(`${DOCS_DIR}/`, `${DOCS_DIR}/%locale%/`),
-  }));
+function toCrowdinTranslationPath(sourcePath: string): string {
+  return sourcePath.replace(`${DOCS_DIR}/`, `${DOCS_DIR}/%locale%/`);
+}
 
+/**
+ * Builds the Crowdin `files` entries for the selected paths.
+ *
+ * Each selected directory becomes a SINGLE glob entry (`docs/<dir>/**\/*.md`)
+ * instead of one entry per Markdown file. Enumerating every file produces a
+ * crowdin.yml with thousands of discrete blocks for a full upload, which the
+ * Crowdin CLI cannot process reliably (it stops part-way). A glob is expanded
+ * natively by the CLI and keeps the config small. Crowdin's `**` placeholder in
+ * the translation pattern is replaced by the same sub-path matched by `**` in
+ * the source, so the resulting layout matches the previous per-file output:
+ * `docs/<dir>/<sub>/foo.md` → `docs/%locale%/<dir>/<sub>/foo.md`.
+ *
+ * Explicit `.md` file inputs (e.g. the diff-based partial upload) stay as
+ * literal entries.
+ */
+export function buildCrowdinSourceEntries(
+  selectedPaths: string[],
+  rootDir: string = DOCS_DIR,
+): CrowdinFileEntry[] {
+  if (!fs.existsSync(rootDir)) {
+    throw new Error(`The directory "${rootDir}" does not exist.`);
+  }
+
+  const rootPath = path.resolve(rootDir);
+  const entriesBySource = new Map<string, CrowdinFileEntry>();
+
+  for (const rawSelectedPath of selectedPaths) {
+    const normalizedPath = normalizeSelectedPath(rawSelectedPath);
+
+    if (includesIgnoredDirectory(normalizedPath)) {
+      continue;
+    }
+
+    const absoluteSelectedPath = path.resolve(rootPath, normalizedPath);
+
+    if (!isPathWithinRoot(rootPath, absoluteSelectedPath)) {
+      throw new Error(`The path "${rawSelectedPath}" must stay within "${DOCS_DIR}/".`);
+    }
+
+    if (!fs.existsSync(absoluteSelectedPath)) {
+      throw new Error(`The path "${rawSelectedPath}" does not exist within "${DOCS_DIR}/".`);
+    }
+
+    const selectedPathStat = safeStatSync(absoluteSelectedPath, rootPath, rawSelectedPath);
+
+    if (selectedPathStat.isDirectory()) {
+      // Skip directories with no Markdown so Crowdin never receives an empty glob.
+      const markdownProbe = new Set<string>();
+      collectMarkdownFilesFromDirectory(absoluteSelectedPath, rootDir, markdownProbe);
+      if (markdownProbe.size === 0) {
+        continue;
+      }
+
+      const relativeDir = toPosixPath(path.relative(rootPath, absoluteSelectedPath));
+      const source = `${DOCS_DIR}/${relativeDir}/**/*.md`;
+      entriesBySource.set(source, {
+        source,
+        ignore: [`${DOCS_DIR}/${relativeDir}/**/.gitbook/**`],
+        translation: `${DOCS_DIR}/%locale%/${relativeDir}/**/%original_file_name%`,
+      });
+      continue;
+    }
+
+    if (!selectedPathStat.isFile() || !isMarkdownFile(path.basename(absoluteSelectedPath))) {
+      throw new Error(`The path "${rawSelectedPath}" must be a Markdown file or a directory.`);
+    }
+
+    const source = toCrowdinSourcePath(absoluteSelectedPath, rootDir);
+    entriesBySource.set(source, {
+      source,
+      translation: toCrowdinTranslationPath(source),
+    });
+  }
+
+  return Array.from(entriesBySource.values()).sort((left, right) =>
+    left.source.localeCompare(right.source),
+  );
+}
+
+export function buildCrowdinFileEntries(sourceEntries: CrowdinFileEntry[]): CrowdinFileEntry[] {
   return [
-    ...markdownEntries,
+    ...sourceEntries,
     {
       source: DOCS_STRUCTURE_FILE,
       translation: DOCS_STRUCTURE_TRANSLATION_PATH,

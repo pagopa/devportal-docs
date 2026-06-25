@@ -3,7 +3,7 @@ import * as yaml from 'js-yaml';
 import * as os from 'os';
 import {
   buildCrowdinFileEntries,
-  collectSelectedMarkdownFiles,
+  buildCrowdinSourceEntries,
   CONFIG_FILE,
   DIR_NAMES_URL,
   DOCS_DIR,
@@ -58,9 +58,9 @@ async function generateCrowdinConfig() {
     console.log(`📥 Received ${pathsToUpload.length} path(s) from dirNames.`);
   }
 
-  const mdFiles = pathsToUpload.length > 0 ? collectSelectedMarkdownFiles(pathsToUpload) : [];
+  const sourceEntries = pathsToUpload.length > 0 ? buildCrowdinSourceEntries(pathsToUpload) : [];
 
-  if (pathsToUpload.length > 0 && mdFiles.length === 0) {
+  if (pathsToUpload.length > 0 && sourceEntries.length === 0) {
     console.warn(
       usingDirNames
         ? `⚠️ No .md files found under the paths declared in dirNames.`
@@ -68,7 +68,7 @@ async function generateCrowdinConfig() {
     );
   }
 
-  const files: CrowdinFileEntry[] = buildCrowdinFileEntries(mdFiles);
+  const files: CrowdinFileEntry[] = buildCrowdinFileEntries(sourceEntries);
 
   const nextConfig: CrowdinConfig = {
     base_path: '.',
@@ -92,7 +92,7 @@ async function generateCrowdinConfig() {
   const githubOutputPath = process.env.GITHUB_OUTPUT;
 
   if (githubOutputPath) {
-    const pathsJson = JSON.stringify(mdFiles);
+    const pathsJson = JSON.stringify(sourceEntries.map((entry) => entry.source));
 
     try {
       fs.appendFileSync(githubOutputPath, `found_files=${pathsJson}${os.EOL}`);

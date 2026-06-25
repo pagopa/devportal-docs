@@ -56,9 +56,10 @@ Entry point: [`generateCrowdinConfig.ts`](generateCrowdinConfig.ts)
 
 Reads `PATHS_TO_UPLOAD` and `PATHS_TO_DELETE` from the environment and writes `crowdin.yml`.
 
-- When `PATHS_TO_UPLOAD` is set, only the `.md` files under the selected paths are included.
+- When `PATHS_TO_UPLOAD` is set, the `.md` files under the selected paths are included. Each selected **directory** becomes a single glob entry (`docs/<dir>/**/*.md`) rather than one entry per file, and an explicit `.md` file stays a literal entry. Enumerating every file made `crowdin.yml` grow to thousands of blocks on a full upload, which the Crowdin CLI cannot process reliably (it stops part-way); the glob is expanded natively by the CLI and keeps the config small. A directory with no `.md` files is skipped so Crowdin never receives an empty glob.
+- The glob's `translation` uses Crowdin's `**` and `%original_file_name%` placeholders (`docs/%locale%/<dir>/**/%original_file_name%`), which reproduce the previous per-file layout (`docs/<dir>/<sub>/foo.md` → `docs/%locale%/<dir>/<sub>/foo.md`). Each glob also carries an `ignore` for `.gitbook` subtrees.
 - When `PATHS_TO_UPLOAD` is empty but `PATHS_TO_DELETE` is set (delete-only run), no `.md` sources are included; only the refreshed `docs-structure.json` is written to the config.
-- When both are empty, the script fetches `dirNames.json` and includes the `.md` files reachable from those paths.
+- When both are empty, the script fetches `dirNames.json` and includes the `.md` files reachable from those paths (one glob per `dirNames` entry).
 - `docs-structure.json` is always prepended to the files list so translators can translate folder/file labels.
 - When running on GitHub Actions (`GITHUB_OUTPUT` is set), the script also exposes a `found_files` step output containing a JSON array of the collected markdown paths.
 
@@ -73,11 +74,12 @@ All tree-walking, merging, and path-normalisation logic lives in [`docsStructure
 | `buildDirectoryNode` | Recursively walks a directory and builds a node tree. Dashes and underscores in names are converted to spaces for the `label`. |
 | `collectDocsData` | Full scan of `docs/`; returns the manifest tree and the flat list of all `.md` paths. |
 | `collectSelectedMarkdownFiles` | Expands a list of selected paths to individual `.md` files, recursing into directories and skipping `.gitbook`. |
+| `buildCrowdinSourceEntries` | Maps selected paths to Crowdin `source`/`translation` entries: one glob per directory (`docs/<dir>/**/*.md`), a literal entry per explicit `.md` file. Skips empty/`.gitbook` directories. |
 | `readDocsStructureManifest` | Loads `docs-structure.json`; falls back to an empty root node when the file is missing or malformed. |
 | `writeDocsStructureManifest` | Orchestrates reading, merging, and writing the manifest. |
 | `mergeManifestWithSelectedPaths` | Inserts or updates nodes for selected paths in the existing tree. |
 | `deleteSelectedNode` | Removes a node (and its subtree) from the manifest. |
-| `buildCrowdinFileEntries` | Maps source `.md` paths to Crowdin `source`/`translation` pairs, injecting `%locale%` after `docs/`. |
+| `buildCrowdinFileEntries` | Prepends the source entries with the `docs-structure.json` `source`/`translation` pair. |
 | `parseRequestedDocsPaths` | Parses a JSON array, CSV, or newline-separated string into a `string[]`. |
 | `fetchDirNamesPaths` | Fetches the canonical `dirNames` array from `DIR_NAMES_URL` and returns it as `string[]`. |
 
