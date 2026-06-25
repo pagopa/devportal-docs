@@ -13,4 +13,4 @@ metaLinks:
 
 * Riferimento esplicito a **SEND**
 * Parlare di **Comunicazioni a valore legale** e NON di notifiche
-* L'oggetto della notifica push è un estratto dell'oggetto del messaggio di cortesia che invia PagoPA S.p.A. Per eventuali dettagli fare riferimento al manuale operativo.
+* L'oggetto della notifica push è un estratto dell'oggetto del messaggio di cortesia che invia PagoPA S.p.A. Per eventuali dettagli fare riferimento al [**manuale operativo**](https://app.gitbook.com/s/UdBZLK0IXWx2yqcEv6ks/riferimenti-tecnici/integrazione-lineeguida-design).
