@@ -30,7 +30,7 @@ Attendi l'arrivo del messaggio in app, quindi selezionalo per visualizzarne il c
 
 Puoi forzare l'aggiornamento della lista messaggi scorrendo verso in basso (pull to refresh).
 
-![Esempio di apertura messaggio in app](../../.gitbook/assets/ezgif-5-8554f1ca1f.gif)
+![Esempio di apertura messaggio in app](../../../app-io/io-guida-tecnica/v7.2/.gitbook/assets/ezgif-5-8554f1ca1f.gif)
 
 </details>
 
@@ -40,6 +40,6 @@ Puoi forzare l'aggiornamento della lista messaggi scorrendo verso in basso (pull
 
 In fondo al messaggio trovi il nome del servizio che lo ha inviato: selezionalo per visualizzare la scheda del servizio.
 
-![Esempio di apertura scheda servizio da un messaggio in app](../../.gitbook/assets/ezgif-5-59d64998d9.gif)
+![Esempio di apertura scheda servizio da un messaggio in app](../../../app-io/io-guida-tecnica/v7.2/.gitbook/assets/ezgif-5-59d64998d9.gif)
 
 </details>

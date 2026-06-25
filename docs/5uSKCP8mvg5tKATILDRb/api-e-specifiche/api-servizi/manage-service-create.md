@@ -2,10 +2,10 @@
 
 ## Descrizione
 
-Questa API permette di creare un servizio.&#x20;
+Questa API permette di creare un servizio.
 
 {% hint style="info" %}
-Devi usare la nuova chiave [`manage`](../../funzionalita/pubblicare-un-servizio/chiave-manage/chiave-manage.md) per la gestione dei servizi.&#x20;
+Devi usare la nuova chiave [`manage`](../../funzionalita/pubblicare-un-servizio/chiave-manage/chiave-manage.md) per la gestione dei servizi.
 {% endhint %}
 
 {% hint style="warning" %}
@@ -17,6 +17,8 @@ Per utilizzare questa API è necessario richiedere un'[abilitazione specifica.](
 {% endopenapi %}
 
 ## Esempi
+
+#### Informazioni minime
 
 Ecco un esempio con le informazioni minime per la creazione di un servizio di test:
 
@@ -103,6 +105,12 @@ curl --location --request POST 'https://api.io.pagopa.it/api/v1/manage/services'
 }
 ```
 {% endcode %}
+
+#### Servizio adatto a minori
+
+
+
+
 
 ## Risorse utili
 

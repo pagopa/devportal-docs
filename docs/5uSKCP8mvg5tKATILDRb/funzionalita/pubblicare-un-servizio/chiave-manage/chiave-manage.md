@@ -1,6 +1,6 @@
 # API Key manage
 
-L'API Key `manage` è la chiave con cui potrai gestire i servizi tramite API e quindi fare qualsiasi operazione relativa ai servizi.&#x20;
+L'API Key `manage` è la chiave con cui potrai gestire i servizi tramite API e quindi fare qualsiasi operazione relativa ai servizi.
 
 Attualmente esistono due tipi di chiavi `manage`:
 
@@ -31,3 +31,24 @@ Per utilizzare questa api-key tramite Developer Portal, è necessario avere l'[a
 3. Tra i prodotti attivi cerca App IO e clicca sul box relativo;
 4. Nella **Panoramica** troverai subito le API Key manage che puoi copiare;
 5. Se vuoi gestire le API Key manage, puoi selezionare la voce di menù **"API Key"** per poterle copiare o ruotare.
+
+## Sezione "I tuoi Enti"
+
+Se sei il delegato di un Ente Aggregatore troverai disponibile la sezione "I tuoi Enti". In essa potrai visualizzare e gestire le chiavi `manage` degli Enti. Nello specifico:
+
+* puoi ricercare un Ente specifico utilizzando la funzionalità di ricerca "Cerca per nome"
+* puoi visualizzare l'API key `manage` primaria e/o l'API key `manager` secondaria di uno specifico Ente
+* puoi copiare l'API key `manage` primaria e/o l'API key `manager` secondaria di uno specifico Ente
+* puoi rigenerare l'API key `manage` primaria e/o l'API key `manager` secondaria di uno specifico Ente
+
+È inoltre a disposizione una funzionalità di esportazione massiva di tutte le API Key `manage` degli enti presenti in lista. Puoi attivarla utilizzando il pulsante "**Genera file .json**". Nello specifico:
+
+* questa funzionalità esporta un file JSON, protetto da password di tua scelta
+* il file conterrà tutte le API Key `manage` primaria e secondaria degli Enti che vedi in lista
+* la password deve essere di almeno 12 caratteri, con almeno una maiuscola ed un numero. Non è possibile recuperare tale password, quindi assicurati di ricordartela prima di utilizzarla
+* la generazione del file non è immediata. A seconda del numero di Enti presente in lista, ci possono volere da qualche secondo a svariati minuti
+* durante la generazione, non è possibile richiedere una nuova generazione ed è necessario attendere che l'operazione in corso sia completata
+* ad operazione completata, potrai scaricare il file (protetto dalla password da te scelta) utilizzando il pulsante "**Scarica file .json**"
+* il file rimarrà a disposizione per un massimo di 24 ore, dopodiché non sarà più possibile scaricarlo
+* in qualsiasi momento rimane possibile richiedere una nuova generazione, a patto che non ce ne sia già una precedente in corso
+* se il processo di generazione dovesse incorrere in qualche errore, sarai notificato mediante un messaggio in cima alla pagina

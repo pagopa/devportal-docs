@@ -8,6 +8,10 @@ Questa API consente l’invio di messaggi verso un cittadino identificato tramit
 Per utilizzare questa API devi aggiungere alla chiamata l'header `Ocp-Apim-Subscription-Key` contenente la chiave "use" [primaria](../../funzionalita/pubblicare-un-servizio/dati-obbligatori/attributi.md#primary_key) o [secondaria](../../funzionalita/pubblicare-un-servizio/dati-obbligatori/attributi.md#secondary_key) del servizio scelto per l'invio del messaggio
 {% endhint %}
 
+{% hint style="warning" %}
+Con l'abilitazione dei Servizi per i minori, verrà introdotto un nuovo codice di errore HTTP. Nello specifico, l'API restituirà un HTTP 422 qualora un servizio non autorizzato tenti di inviare un messaggio a un cittadino minorenne.
+{% endhint %}
+
 {% openapi src="https://raw.githubusercontent.com/teamdigitale/io-functions-services/master/openapi/index.yaml" path="/messages" method="post" %}
 [https://raw.githubusercontent.com/teamdigitale/io-functions-services/master/openapi/index.yaml](https://raw.githubusercontent.com/teamdigitale/io-functions-services/master/openapi/index.yaml)
 {% endopenapi %}
@@ -28,9 +32,9 @@ Per utilizzare questa API devi aggiungere alla chiamata l'header `Ocp-Apim-Subsc
 
 <table data-header-hidden><thead><tr><th width="210"></th><th></th></tr></thead><tbody><tr><td><strong>Descrizione</strong></td><td>Indica se il messaggio è inviato nell'ambito di una sottoscrizione <strong>Premium</strong>, o se è da considerarsi un messaggio standard</td></tr><tr><td><strong>Obbligatorio</strong></td><td>No</td></tr><tr><td><strong>Default</strong></td><td><code>STANDARD</code></td></tr><tr><td><strong>Tipo</strong></td><td>Stringa enumerata</td></tr><tr><td><strong>Valori Accettati</strong></td><td><ul><li><code>STANDARD</code> -> il messaggio è da considerarsi un normale messaggio IO</li><li><code>ADVANCED</code> -> al messaggio sono correlate informazioni aggiuntive avanzate. È possibile specificare questo valore solo se si è titolari di una sottoscrizione Premium.</li></ul></td></tr><tr><td><strong>Esempio</strong></td><td><code>ADVANCED</code></td></tr></tbody></table>
 
-## **`content`` `**<mark style="color:red;">**`*`**</mark>
+## **` content`` `` `**<mark style="color:red;">**`*`**</mark>
 
-### **`subject`` `**<mark style="color:red;">**`*`**</mark>
+### **` subject`` `` `**<mark style="color:red;">**`*`**</mark>
 
 <table data-header-hidden><thead><tr><th width="186"></th><th></th></tr></thead><tbody><tr><td><strong>Descrizione</strong></td><td>Titolo del messaggio, la cui lunghezza deve essere compresa tra 10 e 120 caratteri</td></tr><tr><td><strong>Obbligatorio</strong></td><td>Sì</td></tr><tr><td><strong>Tipo</strong></td><td>Stringa</td></tr><tr><td><strong>Esempio</strong></td><td><code>Rinnova la tua carta d'identità</code></td></tr></tbody></table>
 
@@ -42,11 +46,9 @@ Se stai inviando un **messaggio con contenuti remoti**, fai riferimento a [#info
 Ricorda che, ai sensi dell'art. 7.3 delle [Linee Guida AgID](https://www.agid.gov.it/it/linee-guida#index-8), il titolo del messaggio non può contenere **dati personali** e ne va assicurata la minimizzazione all'interno del [#markdown](submit-a-message-passing-the-user-fiscal_code-in-the-request-body.md#markdown "mention")
 {% endhint %}
 
-### **`markdown`` `**<mark style="color:red;">**`*`**</mark>
+### **` markdown`` `` `**<mark style="color:red;">**`*`**</mark>
 
-<table data-header-hidden><thead><tr><th width="187"></th><th></th></tr></thead><tbody><tr><td><strong>Descrizione</strong></td><td>Testo del messaggio in formato markdown la cui lunghezza deve essere compresa tra 80 e 10000 caratteri</td></tr><tr><td><strong>Obbligatorio</strong></td><td>Sì</td></tr><tr><td><strong>Tipo</strong></td><td>Stringa</td></tr><tr><td><strong>Esempio</strong></td><td><code>Gentile Mario,\n\nsiamo lieti di comunicarti che la tua **Carta di Identità** è disponibile per il ritiro presso i nostri sportelli.  \nPuoi consultare gli orari sul [Portale del servizio](https://www.miosito.it/).\n\n*Lo Staff*</code></td></tr></tbody></table>
-
-
+<table data-header-hidden><thead><tr><th width="187"></th><th></th></tr></thead><tbody><tr><td><strong>Descrizione</strong></td><td>Testo del messaggio in formato markdown la cui lunghezza deve essere compresa tra 80 e 10000 caratteri</td></tr><tr><td><strong>Obbligatorio</strong></td><td>Sì</td></tr><tr><td><strong>Tipo</strong></td><td>Stringa</td></tr><tr><td><strong>Esempio</strong></td><td><code>Gentile Mario,\n\nsiamo lieti di comunicarti che la tua **Carta di Identità** è disponibile per il ritiro presso i nostri sportelli. \nPuoi consultare gli orari sul [Portale del servizio](https://www.miosito.it/).\n\n*Lo Staff*</code></td></tr></tbody></table>
 
 {% hint style="info" %}
 Se stai inviando un **messaggio con contenuti remoti**, fai riferimento a[#informazioni-importanti-circa-il-corpo-markdown-del-messaggio](../../funzionalita/inviare-un-messaggio/inviare-un-messaggio-a-contenuto-remoto.md#informazioni-importanti-circa-il-corpo-markdown-del-messaggio "mention") per i dettagli su come valorizzare questo campo.
@@ -69,7 +71,7 @@ Puoi formattare il testo e attivare funzioni speciali nei tuoi messaggi usando [
 <table data-header-hidden><thead><tr><th width="189"></th><th></th></tr></thead><tbody><tr><td><strong>Descrizione</strong></td><td>Permette di associare al messaggio un promemoria. Il formato data deve essere ISO-8601 e fuso orario UTC</td></tr><tr><td><strong>Obbligatorio</strong></td><td>No</td></tr><tr><td><strong>Tipo</strong></td><td>Stringa</td></tr><tr><td><strong>Esempio</strong></td><td><code>2018-10-13T00:00:00.000Z</code></td></tr></tbody></table>
 
 {% hint style="warning" %}
-**Fai attenzione al fuso orario!** La data deve essere espressa nel fuso orario UTC (Z). \
+**Fai attenzione al fuso orario!** La data deve essere espressa nel fuso orario UTC (Z).\
 In Italia si usa il fuso UTC+1 quando è in vigore l'ora solare, mentre si usa il fuso UTC+2 quando è in vigore l'ora legale.
 
 **Esempio:**
@@ -103,11 +105,11 @@ Se hai sottoscritto l'accordo Premium, IO genererà per te **promemoria** [di le
 Per l’invio degli avvisi di pagamento è necessario richiedere [specifica l’abilitazione.](../../abilitazioni/test-invio-avvisi-pagopa.md)
 {% endhint %}
 
-#### **`amount`` `**<mark style="color:red;">**`*`**</mark>
+#### **` amount`` `` `**<mark style="color:red;">**`*`**</mark>
 
 <table data-header-hidden><thead><tr><th width="202"></th><th></th></tr></thead><tbody><tr><td><strong>Descrizione</strong></td><td>Importo in centesimi di euro dell’avviso di pagamento emesso su piattaforma pagoPA</td></tr><tr><td><strong>Obbligatorio</strong></td><td>Sì, per pagamenti pagoPA</td></tr><tr><td><strong>Tipo</strong></td><td>Intero</td></tr><tr><td><strong>Esempio</strong></td><td><code>100</code></td></tr></tbody></table>
 
-#### **`notice_number`` `**<mark style="color:red;">**`*`**</mark>
+#### **` notice_number`` `` `**<mark style="color:red;">**`*`**</mark>
 
 <table data-header-hidden><thead><tr><th width="203"></th><th></th></tr></thead><tbody><tr><td><strong>Descrizione</strong></td><td>Codice avviso di un avviso di pagamento emesso su piattaforma pagoPA</td></tr><tr><td><strong>Obbligatorio</strong></td><td>Sì, per i pagamenti pagoPA</td></tr><tr><td><strong>Tipo</strong></td><td>Stringa</td></tr><tr><td><strong>Esempio</strong></td><td><code>301011100007347557</code></td></tr></tbody></table>
 
@@ -127,15 +129,15 @@ Questa funzionalità è riservata agli enti che hanno concordato con PagoPA l'ab
 
 ### `third_party_data`
 
-#### `configuration_id`` `<mark style="color:red;">`*`</mark>
+#### ` configuration_id`` `` `<mark style="color:red;">`*`</mark>
 
 <table data-header-hidden><thead><tr><th width="210"></th><th></th></tr></thead><tbody><tr><td><strong>Descrizione</strong></td><td>identificativo univoco, ritornato dall'API descritta in <a data-mention href="cru-configurazioni-remote.md">cru-configurazioni-remote.md</a>, che indica la configurazione remota (<em>third party</em>) di riferimento per il messaggio</td></tr><tr><td><strong>Obbligatorio</strong></td><td>Sì</td></tr><tr><td><strong>Tipo</strong></td><td>Stringa</td></tr><tr><td><strong>Esempio</strong></td><td>0e9852ccb8a04128bd637c807b9d80d3</td></tr></tbody></table>
 
 {% hint style="info" %}
-Per maggiori informazioni fai riferimento alla sezione  [configurazione-remota.md](../../setup-iniziale/configurazione-remota.md "mention")
+Per maggiori informazioni fai riferimento alla sezione [configurazione-remota.md](../../setup-iniziale/configurazione-remota.md "mention")
 {% endhint %}
 
-#### `id`` `<mark style="color:red;">`*`</mark>
+#### ` id`` `` `<mark style="color:red;">`*`</mark>
 
 <table data-header-hidden><thead><tr><th width="210"></th><th></th></tr></thead><tbody><tr><td><strong>Descrizione</strong></td><td>identificativo <em>third party</em> univoco, <strong>generato dall'ente</strong>, necessario per poter associare il messaggio ai suoi contenuti remoti</td></tr><tr><td><strong>Obbligatorio</strong></td><td>Sì</td></tr><tr><td><strong>Tipo</strong></td><td>Stringa</td></tr><tr><td><strong>Esempio</strong></td><td><code>2d5e0bcf-7ac3-4afc-a8bd-ac3c27582b91</code></td></tr></tbody></table>
 
@@ -159,11 +161,11 @@ Se popolato, il valore di questo campo ridefinisce, per il messaggio corrente, i
 
 <summary><span data-gb-custom-inline data-tag="emoji" data-code="1f6a7">🚧</span> Campi riservati per utilizzi futuri</summary>
 
-#### `original_sender`
+**`original_sender`**
 
-#### `original_receipt_date`
+**`original_receipt_date`**
 
-#### `summary`
+**`summary`**
 
 </details>
 
