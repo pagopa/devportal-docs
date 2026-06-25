@@ -1,0 +1,7 @@
+# 📣 Comunicazione e adesione al servizio
+
+Quando proponi l'attivazione del servizio, è fondamentale **costruire la fiducia e dimostrare un valore tangibile all'utente.**
+
+Ecco tre mini-guide per ottimizzare le adesioni (conversioni) e consolidare l'utilizzo del servizio:
+
+<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="image">Cover image</th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Come promuovere l'attivazione</strong><br>Usa questa guida per capire come comunicare l'ufficialità del servizio e intercettare l'utente nei momenti corretti.</td><td><a href="../../.gitbook/assets/image (30).png">image (30).png</a></td><td><a href="come-promuovere-lattivazione.md">come-promuovere-lattivazione.md</a></td></tr><tr><td><strong>Come raccontare il servizio all'utente</strong><br>Qui troverai tutti gli elementi da includere per creare una comunicazione chiara, completa e trasparente sul funzionamento del servizio.</td><td><a href="../../.gitbook/assets/image (30).png">image (30).png</a></td><td><a href="come-raccontare-il-servizio.md">come-raccontare-il-servizio.md</a></td></tr><tr><td><strong>Come gestire l'adesione e i consensi</strong> <br>Una guida per permettere all'utente di percepire l'attivazione del servizio come un processo sicuro e ben strutturato.</td><td><a href="../../.gitbook/assets/image (30).png">image (30).png</a></td><td><a href="come-far-aderire-gli-utenti.md">come-far-aderire-gli-utenti.md</a></td></tr></tbody></table>

@@ -1,0 +1,9 @@
+# Gestione dei permessi
+
+**Tutti gli account possono svolgere attività di test** tramite invio di messaggi al codice fiscale fittizio riportato nel portale. Questi messaggi generano una mail verso l’indirizzo email associato all’utente che ha generato quelle specifiche chiavi API.
+
+Se un ente vuole svolgere dei **test d’integrazione completi e visualizzare i messaggi inviati direttamente in app**, può indicare uno o più codici fiscali reali a cui vorrebbe mandare messaggi di prova. Questi codici fiscali vanno trasmessi via mail a [onboarding@io.italia.it](mailto:onboarding@io.italia.it): i tecnici di PagoPA procederanno con l’abilitazione previa verifica che quei codici fiscali corrispondano a utenti reali di test (tramite invio di codici di verifica su app IO). Resta inteso che ciascun ente erogatore rimane obbligato a fornire idonea informativa privacy e a raccogliere il necessario consenso delle persone fisiche il cui codice fiscale viene trasmesso per le predette finalità di test.
+
+In caso l’ente voglia svolgere **test d’integrazione di messaggi che contengono un avviso di pagamento** e permettono di svolgere il pagamento direttamente in app, è necessario richiedere l’autorizzazione per testare messaggi con una somma associata (max\_allowed\_amount). Anche in questo caso l’abilitazione a inviare messaggi di pagamento per finalità di test va richiesta a [onboarding@io.italia.it](mailto:onboarding@io.italia.it).
+
+Quando viene fatta **la richiesta di pubblicazione di un servizio**, l’utente che ha creato quel servizio (corrispondente al soggetto delegato nel contratto di adesione) riceverà da PagoPA i permessi per la produzione e da quel momento, le chiavi API associate a quel servizio potranno inviare messaggi ai codici fiscali individuati dall’ente quali utenti finali di ciascun servizio.

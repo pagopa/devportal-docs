@@ -1,0 +1,4 @@
+root: ./
+
+redirects:
+  spaziotest/test-pagina-2: spaziotest/test-link.md
