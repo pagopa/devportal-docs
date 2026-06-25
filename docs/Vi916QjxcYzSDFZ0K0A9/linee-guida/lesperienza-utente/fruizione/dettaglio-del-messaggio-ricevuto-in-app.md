@@ -14,7 +14,7 @@ metaLinks:
 * Logo di [**SEND**](https://app.gitbook.com/s/xnuIxHY93w6yrtKccqEM/appendice/risorse-utili) [**qui scaricabile**](https://app.gitbook.com/s/xnuIxHY93w6yrtKccqEM/appendice/risorse-utili)**.** Utilizzare la versione senza descriptor blu (logo send\_logo\_HEX.svg) oppure bianca (logo send\_logo\_W.svg). Consultare le [**Brand guidelines**](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FxnuIxHY93w6yrtKccqEM%2Fuploads%2F7lEKkCCjb9Ky0JhRgJdT%2Fsend_brand%20guidelines_DEF.pdf?alt=media\&token=511339d3-3ffc-4c5a-bbef-c09cc4687dd1) per i colori di sfondo da utilizzare in base al logo scelto
 * Riferimento esplicito a **SEND - Servizio Notifiche Digitali**
 * Esplicitare qual è l'**amministrazione**
-* É fondamentale veicolare correttamente il messaggio all'utente: quello che sta  visualizzando è il **messaggio di cortesia** e **NON la comunicazione a valore legale**. Per leggere quest'ultima dovrà accedere a SEND. Per eventuali dettagli fare riferimento al manuale operativo.
+* É fondamentale veicolare correttamente il messaggio all'utente: quello che sta visualizzando è il **messaggio di cortesia** e **NON la comunicazione a valore legale**. Per leggere quest'ultima dovrà accedere a SEND. Per eventuali dettagli fare riferimento al [**manuale operativo**](https://app.gitbook.com/s/UdBZLK0IXWx2yqcEv6ks/riferimenti-tecnici/integrazione-lineeguida-design).
 * É importante informare l'utente che:
   * in caso di domicilio digitale non attivo, se accede alla comunicazione su SEND entro 120 ore dall'invio del messaggio di cortesia, eviterà l'invio della raccomandata cartacea e i costi associati alla notifica analogica
   * in caso di domicilio digitale attivo, la comunicazione SEND risulterà legalmente consegnata dopo 7 giorni dalla data di consegna dell'avviso di avvenuta ricezione sul domicilio eletto
@@ -25,4 +25,3 @@ metaLinks:
 ### Elementi facoltativi
 
 * É possibile specificare che l'accesso a SEND avviene con SPID o CIE
-
