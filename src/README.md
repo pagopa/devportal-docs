@@ -9,10 +9,17 @@ This directory contains the TypeScript scripts that power the `upload_sources_to
 ```
 Trigger (manual / called workflow)
   └─ generate_doc_structure   →  writes / updates docs-structure.json
-       └─ git commit + push   (only when the file actually changed)
   └─ generate_file            →  writes crowdin.yml
-       └─ crowdin-action      →  uploads sources to Crowdin
+  └─ crowdin-action           →  uploads sources to Crowdin
+       └─ git commit + push   (docs-structure.json, only after a successful
+                               upload and only when the file actually changed)
 ```
+
+The manifest is committed back to the source branch **after** the Crowdin
+upload succeeds, so the branch never advances ahead of what was actually
+pushed to Crowdin. If the upload fails, the commit is skipped and the next run
+regenerates and re-uploads consistently. (For full uploads, the
+`latest-upload-all.json` marker is updated in the same post-upload fashion.)
 
 The behaviour is driven entirely by the **presence** of the two workflow inputs:
 

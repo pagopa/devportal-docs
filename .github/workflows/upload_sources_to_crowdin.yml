@@ -181,35 +181,6 @@ jobs:
           PATHS_TO_DELETE: ${{ steps.plan.outputs.paths_to_delete }}
         run: npm run generate_doc_structure
 
-      - name: Commit docs structure manifest
-        if: steps.plan.outputs.run_crowdin == 'true'
-        env:
-          GH_PAT: ${{ secrets.GH_PAT }}
-        run: |
-          if [ -n "$(git status --porcelain -- docs-structure.json)" ]; then
-            cp docs-structure.json docs-source/docs-structure.json
-
-            cd docs-source
-            git config user.name "devportal-portalsandtools-github-bot"
-            git config user.email "180539351+devportal-portalsandtools-github-bot@users.noreply.github.com"
-
-            git config --unset-all http.https://github.com/.extraheader || true
-
-            # Token owner determines write access; username segment is ignored for PATs.
-            git remote set-url origin https://x-access-token:${GH_PAT}@github.com/pagopa/devportal-docs.git
-
-            git add docs-structure.json
-
-            if git diff --cached --quiet -- docs-structure.json; then
-              echo "docs-structure.json already up to date in docs-source. Nothing to commit."
-            else
-              git commit -m "chore: update docs structure manifest"
-              git push origin HEAD:${{ vars.CHECKOUT_BRANCH || 'docs/from-gitbook' }}
-            fi
-          else
-            echo "No docs-structure.json changes to commit."
-          fi
-
       - name: Generate crowdin file
         id: extract_files
         if: steps.plan.outputs.run_crowdin == 'true'
@@ -238,6 +209,37 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           CROWDIN_PROJECT_ID: ${{ vars.CROWDIN_PROJECT_ID }}
           CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
+
+      # Commit the manifest only after the Crowdin upload has succeeded, so the
+      # source branch never advances ahead of what was actually pushed to Crowdin.
+      - name: Commit docs structure manifest
+        if: steps.plan.outputs.run_crowdin == 'true'
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
+        run: |
+          if [ -n "$(git status --porcelain -- docs-structure.json)" ]; then
+            cp docs-structure.json docs-source/docs-structure.json
+
+            cd docs-source
+            git config user.name "devportal-portalsandtools-github-bot"
+            git config user.email "180539351+devportal-portalsandtools-github-bot@users.noreply.github.com"
+
+            git config --unset-all http.https://github.com/.extraheader || true
+
+            # Token owner determines write access; username segment is ignored for PATs.
+            git remote set-url origin https://x-access-token:${GH_PAT}@github.com/pagopa/devportal-docs.git
+
+            git add docs-structure.json
+
+            if git diff --cached --quiet -- docs-structure.json; then
+              echo "docs-structure.json already up to date in docs-source. Nothing to commit."
+            else
+              git commit -m "chore: update docs structure manifest"
+              git push origin HEAD:${{ vars.CHECKOUT_BRANCH || 'docs/from-gitbook' }}
+            fi
+          else
+            echo "No docs-structure.json changes to commit."
+          fi
 
       # Runs only when every previous step succeeded (the crowdin upload included),
       # and only for full-upload runs that actually pushed sources to Crowdin.

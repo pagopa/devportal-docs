@@ -22,10 +22,10 @@ flowchart TD
     P -->|run_crowdin == true| D[Move docs into workspace root]
     D --> E[Setup Node.js + npm ci]
     E --> F[generate_doc_structure<br/>updates docs-structure.json]
-    F --> G[Commit docs-structure.json to docs/from-gitbook<br/>if changed]
-    G --> H[generate_file<br/>writes crowdin.yml]
+    F --> H[generate_file<br/>writes crowdin.yml]
     H --> I["crowdin/github-action<br/>uploads sources"]
-    I -->|update_marker == true| J[Update full-upload marker<br/>push meta/latest-upload-all.json]
+    I --> G[Commit docs-structure.json to docs/from-gitbook<br/>if changed]
+    G -->|update_marker == true| J[Update full-upload marker<br/>push meta/latest-upload-all.json]
 ```
 
 The behaviour is driven by the **presence** of the two inputs plus, for full uploads, the **Plan upload** step:
@@ -156,7 +156,7 @@ The effective `paths_to_upload` / `paths_to_delete` outputs are written as multi
     if [ -f docs-source/docs-structure.json ]; then mv docs-source/docs-structure.json docs-structure.json; fi
 ```
 
-Gated on `run_crowdin`. It relocates the docs tree (and any existing manifest) from `docs-source/` to the workspace root, where the scripts expect to find `docs/`. Moving `docs/` out of `docs-source/` leaves its `.git` intact, which is why later commits to that working tree only stage the specific file they add (see §3.4 / §3.7).
+Gated on `run_crowdin`. It relocates the docs tree (and any existing manifest) from `docs-source/` to the workspace root, where the scripts expect to find `docs/`. Moving `docs/` out of `docs-source/` leaves its `.git` intact, which is why later commits to that working tree only stage the specific file they add (see §3.8 / §3.9).
 
 All subsequent build/upload steps (Node setup, `npm ci`, both generation steps, and the Crowdin action) carry the same `if: steps.plan.outputs.run_crowdin == 'true'` guard, so a "nothing to do" plan skips the entire pipeline.
 
@@ -259,29 +259,7 @@ Key helpers in [docsStructure.ts](src/docsStructure.ts):
 }
 ```
 
-### 3.6 Commit the manifest (if changed)
-
-```bash
-if [ -n "$(git status --porcelain -- docs-structure.json)" ]; then
-  cp docs-structure.json docs-source/docs-structure.json
-  cd docs-source
-  git config user.name  "devportal-portalsandtools-github-bot"
-  git config user.email "180539351+devportal-portalsandtools-github-bot@users.noreply.github.com"
-  git config --unset-all http.https://github.com/.extraheader || true
-  git remote set-url origin https://x-access-token:${GH_PAT}@github.com/pagopa/devportal-docs.git
-  git add docs-structure.json
-  if git diff --cached --quiet -- docs-structure.json; then
-    echo "docs-structure.json already up to date in docs-source. Nothing to commit."
-  else
-    git commit -m "chore: update docs structure manifest"
-    git push origin HEAD:${{ vars.CHECKOUT_BRANCH || 'docs/from-gitbook' }}
-  fi
-fi
-```
-
-Gated on `run_crowdin`. The regenerated `docs-structure.json` is copied back into the `docs-source/` checkout and committed/pushed to the **docs branch** (not the tooling repo) using `GH_PAT` and the bot identity. The push only happens when the manifest actually changed, avoiding empty commits. Only `docs-structure.json` is staged, so the moved-away `docs/` working-tree state is not committed.
-
-### 3.7 Generate `crowdin.yml`
+### 3.6 Generate `crowdin.yml`
 
 ```yaml
 - name: Generate crowdin file
@@ -337,7 +315,7 @@ Highlights:
 - The whole config is serialized with `js-yaml` (`lineWidth: -1` to avoid line wrapping) into [crowdin.yml](crowdin.yml).
 - When running on GitHub Actions, the script also appends `found_files=<JSON array>` to `$GITHUB_OUTPUT`, exposing it as `steps.extract_files.outputs.found_files`. Locally that env var is absent and the script just logs an info message.
 
-### 3.8 Upload to Crowdin
+### 3.7 Upload to Crowdin
 
 ```yaml
 - name: crowdin action
@@ -361,6 +339,28 @@ The official Crowdin action (pinned by commit SHA) reads the freshly generated `
 - Does **not** upload/download translations or open PRs in this workflow — that responsibility lives in a separate workflow.
 - Authenticates against the PagoPA Crowdin instance using `CROWDIN_PROJECT_ID` (a repo variable) and the `CROWDIN_PERSONAL_TOKEN` secret.
 
+### 3.8 Commit the manifest (if changed)
+
+```bash
+if [ -n "$(git status --porcelain -- docs-structure.json)" ]; then
+  cp docs-structure.json docs-source/docs-structure.json
+  cd docs-source
+  git config user.name  "devportal-portalsandtools-github-bot"
+  git config user.email "180539351+devportal-portalsandtools-github-bot@users.noreply.github.com"
+  git config --unset-all http.https://github.com/.extraheader || true
+  git remote set-url origin https://x-access-token:${GH_PAT}@github.com/pagopa/devportal-docs.git
+  git add docs-structure.json
+  if git diff --cached --quiet -- docs-structure.json; then
+    echo "docs-structure.json already up to date in docs-source. Nothing to commit."
+  else
+    git commit -m "chore: update docs structure manifest"
+    git push origin HEAD:${{ vars.CHECKOUT_BRANCH || 'docs/from-gitbook' }}
+  fi
+fi
+```
+
+Runs **after** the Crowdin upload, so the manifest is committed only once the sources it describes have actually reached Crowdin. Like the marker step (§3.9), the bare `if:` implicitly requires `success()`, so a failed upload skips the commit and the next run regenerates and re-uploads consistently. The regenerated `docs-structure.json` is copied back into the `docs-source/` checkout and committed/pushed to the **docs branch** (not the tooling repo) using `GH_PAT` and the bot identity. The push only happens when the manifest actually changed, avoiding empty commits. Only `docs-structure.json` is staged, so the moved-away `docs/` working-tree state is not committed.
+
 ### 3.9 Update the full-upload marker
 
 ```yaml
@@ -373,7 +373,7 @@ The official Crowdin action (pinned by commit SHA) reads the freshly generated `
   run: | ...
 ```
 
-This step writes `meta/latest-upload-all.json` into the `docs-source/` checkout and pushes it to the docs branch (bot identity + `GH_PAT`, same pattern as §3.6). The marker contains:
+This step writes `meta/latest-upload-all.json` into the `docs-source/` checkout and pushes it to the docs branch (bot identity + `GH_PAT`, same pattern as §3.8). The marker contains:
 
 ```jsonc
 {
@@ -427,7 +427,6 @@ sequenceDiagram
         DN-->>DS: dirNames array
     end
     DS->>FS: Write docs-structure.json
-    GA->>G: Commit + push manifest (only if changed)
     GA->>CC: npm run generate_file (effective paths)
     alt empty inputs
         CC->>DN: fetchDirNamesPaths()
@@ -436,6 +435,7 @@ sequenceDiagram
     CC->>FS: Collect .md files reachable from those paths
     CC->>FS: Write crowdin.yml
     GA->>CR: crowdin-action uploads sources from crowdin.yml
+    GA->>G: Commit + push manifest (after a successful upload, only if changed)
     GA->>G: Push meta/latest-upload-all.json (only on a successful full upload)
 ```
 
