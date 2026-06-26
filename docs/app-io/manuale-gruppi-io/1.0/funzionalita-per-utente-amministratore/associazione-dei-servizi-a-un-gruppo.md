@@ -9,3 +9,12 @@ Un Servizio può essere associato a un solo Gruppo
 {% endhint %}
 
 {% @arcade/embed flowId="qJDvhYAFQFuEb6018bAa" url="https://app.arcade.software/share/qJDvhYAFQFuEb6018bAa" %}
+
+<div style="position: relative; width: 100%; height: 0; padding-bottom: 63.5%; padding-top: 41px;">
+  <iframe
+    src="https://app.arcade.software/share/qJDvhYAFQFuEb6018bAa?embed"
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"
+    allowfullscreen
+    loading="lazy">
+  </iframe>
+</div>
