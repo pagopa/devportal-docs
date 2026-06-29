@@ -1,5 +1,12 @@
 # Changelog 2026
 
+#### 2.19.0 (17 giugno)
+
+* Possibilità di associare un template e-service a un template di finalità agevolata
+* [Scambi asincroni/massivi](../../riferimenti-tecnici/e-service/scambi-di-dati-asincroni.md): possibilità di creare un e-service che preveda uno scambio di informazione con flusso asincrono, utile anche in contesti di richieste massive
+* Aggiornamento Dev tools per DPoP e scambi asincroni: lo strumento di simulazione ottenimento voucher funziona ora anche per i token di tipo DPoP e i flussi asincroni. Inoltre, debugger viene aggiornato per gestire a sua volta il debug di voucher legati a flussi asincroni.
+* API v. 3: gestione via API delle soglie differenziate per requisito di accesso rilasciate nella [2.17.0](changelog-2026.md#id-2.17.0-27-aprile)
+
 #### 2.18.0 (19 maggio)
 
 * Debugger per i token DPoP: è possibile debuggare in autonomia il mancato rilascio di un voucher DPoP attraverso lo strumento di debug presente in _Tool per lo sviluppo > Debug Client Assertion._
