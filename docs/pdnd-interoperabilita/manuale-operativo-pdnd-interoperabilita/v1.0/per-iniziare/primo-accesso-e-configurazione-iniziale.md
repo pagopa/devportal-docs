@@ -57,7 +57,7 @@ Questi attributi saranno poi utili per potersi iscrivere agli e-service presenti
 
 È necessario attendere fino a 24 ore per assicurare la corretta assegnazione di tutti gli attributi da parte delle fonti autoritative al proprio ente.
 
-Maggiori dettagli sugli attributi nella [sezione dedicata](../riferimenti-tecnici/attributi/).
+Maggiori dettagli sugli attributi nella [sezione dedicata](../../../../jqqB3CsnONZdScwRg13O/riferimenti-tecnici/attributi/).
 
 ***
 

@@ -34,4 +34,4 @@ Tra gli adempimenti previsti dal Modi e dalle Linee Guida AgID per la PDND c'è 
 
 ***
 
-Pagina successiva [→ Attributi](../attributi/)
+Pagina successiva [→ Attributi](../../../../../jqqB3CsnONZdScwRg13O/riferimenti-tecnici/attributi/)

@@ -31,6 +31,14 @@ Per ogni finalità di utilizzo prevista per questo e-service, l'erogatore deve c
 
 * **soglie delle chiamate API/giorno, per singolo fruitore e totale:** le soglie oltre le quali le finalità non vengono più attivate automaticamente dalla piattaforma;
 * **requisiti di accesso:** i requisiti che gli aderenti devono possedere per potersi iscrivere a fruire dell'e-service. Per i requisiti che riguardano gli attributi certificati, è possibile specificare anche una soglia (ad es. per un e-service destinato a Comuni e Regioni, è possibile stabilire delle soglie di chiamate API/giorno specifiche per questi gruppi di fruitori).
+*   **attributi certificati discreti \[solo ambiente di collaudo]**: tra i requisiti di accesso è possibile aggiungere anche attributi certificati discreti. A differenza degli attributi certificati tradizionali, che hanno natura binaria (il fruitore li possiede oppure no), gli attributi certificati discreti sono caratterizzati da un **valore numerico** — ad esempio il numero di abitanti di un comune, fornito da ISTAT. Per ciascun attributo certificato discreto aggiunto, è necessario specificare:
+
+    * l'**operatore di confronto**: maggiore di, minore di, uguale a, maggiore o uguale a, minore o uguale a, diverso da;
+    * la **soglia numerica** di riferimento.
+
+    Solo i fruitori il cui valore per quell'attributo soddisfa la condizione impostata potranno presentare richiesta di fruizione. Ad esempio, selezionando _Popolazione residente — Comuni italiani_ con operatore "maggiore di" e soglia "10000", soltanto i comuni con più di 10.000 abitanti potranno iscriversi.
+
+    Gli attributi certificati discreti seguono le stesse logiche AND/OR già in uso per gli attributi certificati tradizionali e possono essere combinati con essi all'interno dello stesso gruppo di requisiti. Per maggiori dettagli, [consulta la sezione dedicata agli attributi certificati discreti](../../../pdnd-interoperabilita/manuale-operativo-pdnd-interoperabilita/v1.0/riferimenti-tecnici/attributi/attributi-certificati-discreti.md).
 
 ### Step 5: Compilazione del form delle specifiche tecniche
 
@@ -54,8 +62,8 @@ Al fine di assicurare la conformità delle API pubblicate agli standard del Mode
 
 Al termine del processo è disponibile un riepilogo di tutti i dati inseriti durante la creazione dell'e-service. Per ogni sezione, viene indicato se ci sono delle informazioni mancanti che impediscono la pubblicazione della bozza. Altre azioni disponibili sono la modifica o eliminazione della bozza stessa.
 
-Per il dettaglio sui singoli campi o sui meccanismi relativi all'e-service, si veda la [sezione dedicata](../../riferimenti-tecnici/e-service/).
+Per il dettaglio sui singoli campi o sui meccanismi relativi all'e-service, si veda la [sezione dedicata](../../../pdnd-interoperabilita/manuale-operativo-pdnd-interoperabilita/v1.0/riferimenti-tecnici/e-service/).
 
 ***
 
-Pagina successiva [→ Come aggiornare un e-service](come-aggiornare-un-e-service.md)
+Pagina successiva [→ Come aggiornare un e-service](../../../pdnd-interoperabilita/manuale-operativo-pdnd-interoperabilita/v1.0/tutorial/tutorial-per-lerogatore/come-aggiornare-un-e-service.md)

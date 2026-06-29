@@ -21,7 +21,7 @@ In questa vista, tutte le informazioni relative all'e-service non sono modificab
 
 ### Step 3: Compilazione delle informazioni di versione
 
-Tutto il resto della compilazione è analogo a quello della creazione di un nuovo e-service, a partire dallo [Step 4](come-creare-un-nuovo-e-service.md#step-4-compilazione-del-form-di-soglie-e-attributi). L'unica differenza è che molte delle informazioni avranno come valore di default i dati relativi alla versione precedente.
+Tutto il resto della compilazione è analogo a quello della creazione di un nuovo e-service, a partire dallo [Step 4](../../../../../jqqB3CsnONZdScwRg13O/tutorial/tutorial-per-lerogatore/come-creare-un-nuovo-e-service.md#step-4-compilazione-del-form-di-soglie-e-attributi). L'unica differenza è che molte delle informazioni avranno come valore di default i dati relativi alla versione precedente.
 
 ***
 

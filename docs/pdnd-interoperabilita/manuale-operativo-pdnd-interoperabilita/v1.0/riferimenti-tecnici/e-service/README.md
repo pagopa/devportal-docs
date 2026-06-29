@@ -11,7 +11,7 @@ Gli e-service rappresentano il cuore del modello di interoperabilità della PDND
 
 L'erogatore ha facoltà di prevedere dei requisiti di accesso ai propri e-service. Nel linguaggio della piattaforma, sono definiti _attributi_. Gli enti che possiedono o dimostrano di possederli potranno iscriversi a fruire dell'e-service stesso.
 
-Maggiori dettagli nella [sezione dedicata agli attributi](../attributi/).&#x20;
+Maggiori dettagli nella [sezione dedicata agli attributi](../../../../../jqqB3CsnONZdScwRg13O/riferimenti-tecnici/attributi/).&#x20;
 
 ## Struttura
 
@@ -44,7 +44,7 @@ Nella parte versionata sono richieste le seguenti informazioni:
 * **File di specifica dell’API per la versione:** un file OpenAPI (per REST) o WSDL (per SOAP) che descrive tecnicamente l’API esposta dall’erogatore.
 * **Documentazione tecnica aggiuntiva:** può comprendere manuali, esempi o altri materiali di supporto.
 * **Changelog (descrizione della versione):** breve descrizione testuale delle modifiche introdotte rispetto alle versioni precedenti.
-* **Attributi:** insieme dei requisiti di accesso che il fruitore deve possedere per attivare la richiesta di fruizione. Maggiori dettagli nella [sezione dedicata](../attributi/).
+* **Attributi:** insieme dei requisiti di accesso che il fruitore deve possedere per attivare la richiesta di fruizione. Maggiori dettagli nella [sezione dedicata](../../../../../jqqB3CsnONZdScwRg13O/riferimenti-tecnici/attributi/).
 * **Policy di attivazione delle richieste di fruizione:** per impostazione predefinita, le richieste vengono attivate automaticamente se il fruitore rispetta i requisiti previsti. L’erogatore può scegliere di attivarle manualmente.
 * **Soglie delle chiamate API:** indicano il carico massimo, espresso in chiamate API/giorno, che l’infrastruttura è in grado di sostenere. È possibile definirle sia a livello di versione di e-service, che di categoria di aderente, attraverso gli attributi certificati. Maggiori dettagli nella [sezione dedicata](soglie-e-approvazioni.md).
 * **Durata della validità del voucher:** indica il periodo di validità del voucher rilasciato da PDND, che consente l’accesso al servizio.

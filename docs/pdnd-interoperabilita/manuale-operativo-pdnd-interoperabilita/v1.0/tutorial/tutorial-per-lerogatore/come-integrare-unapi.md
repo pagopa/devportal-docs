@@ -18,7 +18,7 @@ L'erogatore può richiedere che il fruitore presenti un voucher di tipo [Bearer]
 
 ### &#x20;Step 4: Pubblicare l'e-service sul catalogo di PDND
 
-Creare un e-service, inserendo il file OpenAPI e corredando di tutte le informazioni richieste. Una volta pubblicato, sarà disponibile sul catalogo, e i fruitori vi si potranno iscrivere. Per maggiori informazioni, si veda il [tutorial dedicato](come-creare-un-nuovo-e-service.md).
+Creare un e-service, inserendo il file OpenAPI e corredando di tutte le informazioni richieste. Una volta pubblicato, sarà disponibile sul catalogo, e i fruitori vi si potranno iscrivere. Per maggiori informazioni, si veda il [tutorial dedicato](../../../../../jqqB3CsnONZdScwRg13O/tutorial/tutorial-per-lerogatore/come-creare-un-nuovo-e-service.md).
 
 {% hint style="info" %}
 È disponibile un ambiente di collaudo per testare il proprio servizio in tutta sicurezza. Per maggiori informazioni, si veda la [sezione dedicata](../../per-iniziare/primo-accesso-e-configurazione-iniziale.md#comprendere-gli-ambienti-operativi).
@@ -26,4 +26,4 @@ Creare un e-service, inserendo il file OpenAPI e corredando di tutte le informaz
 
 ***
 
-Pagina successiva [→ Come creare un nuovo e-service](come-creare-un-nuovo-e-service.md)
+Pagina successiva [→ Come creare un nuovo e-service](../../../../../jqqB3CsnONZdScwRg13O/tutorial/tutorial-per-lerogatore/come-creare-un-nuovo-e-service.md)
