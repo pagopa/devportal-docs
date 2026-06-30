@@ -8,7 +8,7 @@ description: Domande frequenti sulla funzionalità di correzione timeline
 
 #### Le correzioni della timeline viene fatta esclusivamente da PagoPA?
 
-_L'attivazione della funzione di "Correzione di timeline" avviene esclusivamente da parte del servizio di supporto SEND. Non esistono API o altri metodi per cui un soggetto esterno al supporto SEND possa avviare l'iter di correzione._
+L'attivazione della funzione di "Correzione di timeline" avviene esclusivamente da parte del servizio di supporto SEND. Non esistono API o altri metodi per cui un soggetto esterno al supporto SEND possa avviare l'iter di correzione.
 
 #### Chi si accorge dell’errore? Chi lo segnala e con quali modalità operative?
 
@@ -20,31 +20,31 @@ Poiché le segnalazioni non hanno un limite temporale, ma possono avvenire in qu
 
 #### Può essere effettuata una sola correzione per notifica o una notifica può essere soggetta a **più correzioni**?&#x20;
 
-_La soluzione tecnica individuata permette più correzioni sulla stessa timline. In linea teorica possono esserci più correzioni ma la probabilità che questo accada è trascurabile._&#x20;
+La soluzione tecnica individuata permette più correzioni sulla stessa timline. In linea teorica possono esserci più correzioni ma la probabilità che questo accada è trascurabile.&#x20;
 
 ## Atti conseguenti
 
-Quale potrebbe essere l’impatto della correzione timeline sugli **atti conseguenti** eventualmente già prodotti dal mittente?
+#### Quale potrebbe essere l’impatto della correzione timeline sugli **atti conseguenti** eventualmente già prodotti dal mittente?
 
-_La funzionalità di correzione timeline è necessaria per correggere l’iter notificatorio seguito da una notifica trasmessa tramite SEND, facendo salvi per l’ente mittente gli effetti interruttivi decorrenti dal momento dell’emissione dell’attestazione di presa in carico da parte di SEND. Nel caso in cui la notifica impattata riguardi un atto presupposto, le modifiche intervenute per effetto della correzione si riverbereranno sugli atti conseguenti. Es. se l'esito dell’iter notificatorio dell’atto presupposto viene modificato (es. la data rettificata di perfezionamento dell’atto presupposto risulta posticipata), per gli atti conseguenti si dovrà fare riferimento alle evidenze sopravvenute e, per l’effetto, alla data come rettificata._
+La funzionalità di correzione timeline è necessaria per correggere l’iter notificatorio seguito da una notifica trasmessa tramite SEND, facendo salvi per l’ente mittente gli effetti interruttivi decorrenti dal momento dell’emissione dell’attestazione di presa in carico da parte di SEND. Nel caso in cui la notifica impattata riguardi un atto presupposto, le modifiche intervenute per effetto della correzione si riverbereranno sugli atti conseguenti. Es. se l'esito dell’iter notificatorio dell’atto presupposto viene modificato (es. la data rettificata di perfezionamento dell’atto presupposto risulta posticipata), per gli atti conseguenti si dovrà fare riferimento alle evidenze sopravvenute e, per l’effetto, alla data come rettificata.
 
 ## Aggiornamento API
 
 #### Le API aggiornate consentiranno di ricevere un warning di avviso sulle notifiche con timeline corretta per procedere con atti correttivi successivi?
 
-Le API nuove riportano il nuovo elemento di timeline con category _NOTIFICATION\_TIMELINE\_REWORKED che indica l'avvio del processo di correzione di timeline. Gli eventi che seguono la correzione di timeline saranno presenti anche sulle API delle versioni precedenti._
+_Le API nuove riportano il nuovo elemento di timeline con category NOTIFICATION\_TIMELINE\_REWORKED che indica l'avvio del processo di correzione di timeline. Gli eventi che seguono la correzione di timeline saranno presenti anche sulle API delle versioni precedenti._
 
 #### A livello di element ID e di attempt, **come riconosciamo questo ulteriore tentativo** di invio analogico?
 
-_A seguito della correzione di timeline gli elementId degli eventi successivi possono riportare il suffisso REWORK\_\<n> per differenziarsi da quelli già presenti nella timeline conseguenti all’errore corretto. Non presentano tale suffisso gli elementi successivi alla correzione che non hanno già un elemento analogo (della stessa category) tra gli elementi marcati come non validi._
+A seguito della correzione di timeline gli elementId degli eventi successivi possono riportare il suffisso REWORK\_\<n> per differenziarsi da quelli già presenti nella timeline conseguenti all’errore corretto. Non presentano tale suffisso gli elementi successivi alla correzione che non hanno già un elemento analogo (della stessa category) tra gli elementi marcati come non validi.
 
 #### C’è modo di discriminare il **motivo** per cui viene effettuata una correzione di timeline? Se è relativo a imbustamento errato o a rendicontazione errata della cartolina?
 
-_Sì, lo si può dedurre dalla tipologia degli eventi invalidati. Se l’oggetto di correzione contiene l’evento di SEND\_ANALOG\_DOMICILE significa che è stata annullata la spedizione, mentre nel caso di correzione dell’esito non sarà presente e non viene effettuata una nuova spedizione, a meno di una correzione dell’esito del primo tentativo che scatena un secondo invio._
+Sì, lo si può dedurre dalla tipologia degli eventi invalidati. Se l’oggetto di correzione contiene l’evento di SEND\_ANALOG\_DOMICILE significa che è stata annullata la spedizione, mentre nel caso di correzione dell’esito non sarà presente e non viene effettuata una nuova spedizione, a meno di una correzione dell’esito del primo tentativo che scatena un secondo invio.
 
 #### Questa funzionalità, richiede un **aggiornamento della versione dello stream**?&#x20;
 
-_E’ necessario aggiornare la versione dello stream di timeline per recepire il nuovo elemento di timeline con category NOTIFICATION\_TIMELINE\_REWORKED. Gli stream non aggiornati non riceveranno questo elemento, ma riceveranno comunque gli eventi successivi e conseguenti alla correzione._
+E’ necessario aggiornare la versione dello stream di timeline per recepire il nuovo elemento di timeline con category NOTIFICATION\_TIMELINE\_REWORKED. Gli stream non aggiornati non riceveranno questo elemento, ma riceveranno comunque gli eventi successivi e conseguenti alla correzione.
 
 ## Costi di notifica e data di perfezionamento
 
