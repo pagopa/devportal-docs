@@ -9,6 +9,8 @@ metaLinks:
 
 L’esperienza è scandita da più fasi che permettono **al cliente del PSP** di **scoprire il Servizio, attivarlo, utilizzarlo e, ove desiderato, disattivarlo**.
 
+L’esperienza utente di ricezione e lettura di un Messaggio di Cortesia è scandita da più fasi che permettono all'Utente, mentre naviga nell'app bancaria del **PSP** di **scoprire il servizio, attivarlo, utilizzarlo e, ove desiderato, disattivarlo**.
+
 <figure><img src="../../.gitbook/assets/SEND Multicanalità - PSP.png" alt=""><figcaption><p>Descrizione del flusso nelle sue 3 fasi</p></figcaption></figure>
 
 Per ciascuna fase, vengono fornite linee guida volte a garantire un’esperienza fluida, coerente e corretta.

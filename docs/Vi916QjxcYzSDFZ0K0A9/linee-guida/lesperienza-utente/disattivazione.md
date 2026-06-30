@@ -8,7 +8,7 @@ metaLinks:
 
 # Disattivazione
 
-L’Utente può disattivare il servizio in qualsiasi momento, accedendo alla sezione dedicata alla gestione dei servizi attivati all’interno dell’app bancaria o del sito del PSP. La disattivazione è immediata.\
+L’Utente può disattivare il servizio in qualsiasi momento, accedendo alla sezione dedicata alla gestione dei servizi attivati all’interno dell’app o del sito del PSP. La disattivazione è immediata.\
 \
 Al click sulla call-to-action "**Disattiva**" è preferibile mostrare una modale di verifica per disincentivare l'azione e rendere la persona consapevole delle possibili conseguenze.\
 \

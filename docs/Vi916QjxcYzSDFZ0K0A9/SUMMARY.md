@@ -2,6 +2,7 @@
 
 * [👋 Introduzione](README.md)
 * [💁 Premessa](premessa.md)
+* [ℹ️ Definizioni](definizioni.md)
 * [🆕 Changelog](changelog.md)
 
 ## LINEE GUIDA
