@@ -1,0 +1,773 @@
+{
+    "abstract": "Abstract della notifica",
+    "paProtocolNumber": "f42a0f66-d59b-4400-915c-5cdcc789e65b",
+    "subject": "invio notifica test EC",
+    "recipients": [
+        {
+            "recipientType": "PF",
+            "taxId": "LRTFNC80A01F205B",
+            "denomination": "Loretta Franco",
+            "physicalAddress": {
+                "at": "Presso",
+                "address": "A@FAIL-DISCOVERY_AR_IRR_D",
+                "addressDetails": "SCALA B",
+                "zip": "00118",
+                "municipality": "ROMA",
+                "municipalityDetails": "CENTRO",
+                "province": "RM",
+                "foreignState": "ITALIA"
+            },
+            "payments": [
+                {
+                    "pagoPa": {
+                        "noticeCode": "321040300201910058",
+                        "creditorTaxId": "77777777777",
+                        "applyCost": true,
+                        "attachment": {
+                            "digests": {
+                                "sha256": "1QKD/Ks6BohyQ+bgMxHf9NrpNhVmGUPxRYE1aerU4JQ="
+                            },
+                            "contentType": "application/pdf",
+                            "ref": {
+                                "key": "PN_NOTIFICATION_ATTACHMENTS-d7ec10e00bf847fcac1e4c70ea6e2afd.pdf",
+                                "versionToken": "sNP2YBogBBD2CXXe2dxx0DbOJO0AzyH."
+                            }
+                        }
+                    }
+                }
+            ]
+        }
+    ],
+    "documents": [
+        {
+            "digests": {
+                "sha256": "a3k0NDN93at7dEU6xsckGnWP2kLPaRnbsNXJMabyEr0="
+            },
+            "contentType": "application/pdf",
+            "ref": {
+                "key": "PN_NOTIFICATION_ATTACHMENTS-73c54f5e1395444a9f630738ec3a7fdb.pdf",
+                "versionToken": "v1"
+            },
+            "docIdx": "0"
+        }
+    ],
+    "notificationFeePolicy": "DELIVERY_MODE",
+    "physicalCommunicationType": "AR_REGISTERED_LETTER",
+    "senderDenomination": "Comune di palermo",
+    "senderTaxId": "80016350821",
+    "group": "000",
+    "taxonomyCode": "010202N",
+    "paFee": 0,
+    "vat": 0,
+    "pagoPaIntMode": "ASYNC",
+    "additionalLanguages": [],
+    "senderPaId": "5b994d4a-0fa8-47ac-9c7b-354f1d44a1ce",
+    "iun": "NMDX-NVHP-UEZE-202606-Y-1",
+    "sentAt": "2026-06-05T13:12:50.043521089Z",
+    "documentsAvailable": true,
+    "notificationStatus": "EFFECTIVE_DATE",
+    "notificationStatusHistory": [
+        {
+            "status": "ACCEPTED",
+            "activeFrom": "2026-06-05T13:12:50.043521089Z",
+            "relatedTimelineElements": [
+                "REQUEST_ACCEPTED.IUN_NMDX-NVHP-UEZE-202606-Y-1",
+                "AAR_CREATION_REQUEST.IUN_NMDX-NVHP-UEZE-202606-Y-1.RECINDEX_0",
+                "AAR_GEN.IUN_NMDX-NVHP-UEZE-202606-Y-1.RECINDEX_0",
+                "GET_ADDRESS.IUN_NMDX-NVHP-UEZE-202606-Y-1.RECINDEX_0.SOURCE_PLATFORM.ATTEMPT_0",
+                "GET_ADDRESS.IUN_NMDX-NVHP-UEZE-202606-Y-1.RECINDEX_0.SOURCE_SPECIAL.ATTEMPT_0",
+                "NATIONAL_REGISTRY_CALL.IUN_NMDX-NVHP-UEZE-202606-Y-1.RECINDEX_0.DELIVERYMODE_DIGITAL.CONTACTPHASE_CHOOSE_DELIVERY.ATTEMPT_0",
+                "NATIONAL_REGISTRY_RESPONSE.CORRELATIONID_NATIONAL_REGISTRY_CALL.IUN_NMDX-NVHP-UEZE-202606-Y-1.RECINDEX_0.DELIVERYMODE_DIGITAL.CONTACTPHASE_CHOOSE_DELIVERY.ATTEMPT_0",
+                "GET_ADDRESS.IUN_NMDX-NVHP-UEZE-202606-Y-1.RECINDEX_0.SOURCE_GENERAL.ATTEMPT_0",
+                "SCHEDULE_ANALOG_WORKFLOW.IUN_NMDX-NVHP-UEZE-202606-Y-1.RECINDEX_0",
+                "PREPARE_ANALOG_DOMICILE.IUN_NMDX-NVHP-UEZE-202606-Y-1.RECINDEX_0.ATTEMPT_0"
+            ]
+        },
+        {
+            "status": "DELIVERING",
+            "activeFrom": "2026-06-05T13:17:32.189536831Z",
+            "relatedTimelineElements": [
+                "SEND_ANALOG_DOMICILE.IUN_NMDX-NVHP-UEZE-202606-Y-1.RECINDEX_0.ATTEMPT_0",
+                "SEND_ANALOG_PROGRESS.IUN_NMDX-NVHP-UEZE-202606-Y-1.RECINDEX_0.ATTEMPT_0.IDX_1",
+                "SEND_ANALOG_PROGRESS.IUN_NMDX-NVHP-UEZE-202606-Y-1.RECINDEX_0.ATTEMPT_0.IDX_5",
+                "SEND_ANALOG_PROGRESS.IUN_NMDX-NVHP-UEZE-202606-Y-1.RECINDEX_0.ATTEMPT_0.IDX_2",
+                "SEND_ANALOG_PROGRESS.IUN_NMDX-NVHP-UEZE-202606-Y-1.RECINDEX_0.ATTEMPT_0.IDX_3",
+                "SEND_ANALOG_PROGRESS.IUN_NMDX-NVHP-UEZE-202606-Y-1.RECINDEX_0.ATTEMPT_0.IDX_4",
+                "SEND_ANALOG_FEEDBACK.IUN_NMDX-NVHP-UEZE-202606-Y-1.RECINDEX_0.ATTEMPT_0",
+                "PREPARE_ANALOG_DOMICILE.IUN_NMDX-NVHP-UEZE-202606-Y-1.RECINDEX_0.ATTEMPT_1",
+                "SEND_ANALOG_DOMICILE.IUN_NMDX-NVHP-UEZE-202606-Y-1.RECINDEX_0.ATTEMPT_1",
+                "SEND_ANALOG_PROGRESS.IUN_NMDX-NVHP-UEZE-202606-Y-1.RECINDEX_0.ATTEMPT_1.IDX_1",
+                "SEND_ANALOG_PROGRESS.IUN_NMDX-NVHP-UEZE-202606-Y-1.RECINDEX_0.ATTEMPT_1.IDX_4",
+                "SEND_ANALOG_PROGRESS.IUN_NMDX-NVHP-UEZE-202606-Y-1.RECINDEX_0.ATTEMPT_1.IDX_2",
+                "SEND_ANALOG_PROGRESS.IUN_NMDX-NVHP-UEZE-202606-Y-1.RECINDEX_0.ATTEMPT_1.IDX_3",
+                "SEND_ANALOG_FEEDBACK.IUN_NMDX-NVHP-UEZE-202606-Y-1.RECINDEX_0.ATTEMPT_1",
+                "ANALOG_FAILURE_WORKFLOW.IUN_NMDX-NVHP-UEZE-202606-Y-1.RECINDEX_0",
+                "COMPLETELY_UNREACHABLE_CREATION_REQUEST.IUN_NMDX-NVHP-UEZE-202606-Y-1.RECINDEX_0"
+            ]
+        },
+        {
+            "status": "UNREACHABLE",
+            "activeFrom": "2026-06-05T13:23:11.655865892Z",
+            "relatedTimelineElements": [
+                "COMPLETELY_UNREACHABLE.IUN_NMDX-NVHP-UEZE-202606-Y-1.RECINDEX_0",
+                "SCHEDULE_REFINEMENT_WORKFLOW.IUN_NMDX-NVHP-UEZE-202606-Y-1.RECINDEX_0"
+            ]
+        },
+        {
+            "status": "EFFECTIVE_DATE",
+            "activeFrom": "2026-06-05T13:27:11.655865892Z",
+            "relatedTimelineElements": [
+                "REFINEMENT.IUN_NMDX-NVHP-UEZE-202606-Y-1.RECINDEX_0"
+            ]
+        }
+    ],
+    "timeline": [
+        {
+            "elementId": "VALIDATE_NORMALIZE_ADDRESSES_REQUEST.IUN_NMDX-NVHP-UEZE-202606-Y-1",
+            "timestamp": "2026-06-05T13:13:18.445815879Z",
+            "ingestionTimestamp": "2026-06-05T13:13:18.445815879Z",
+            "eventTimestamp": "2026-06-05T13:13:18.445815879Z",
+            "notificationSentAt": "2026-06-05T13:12:50.043521089Z",
+            "legalFactsIds": [],
+            "category": "VALIDATE_NORMALIZE_ADDRESSES_REQUEST",
+            "details": {}
+        },
+        {
+            "elementId": "NORMALIZED_ADDRESS.IUN_NMDX-NVHP-UEZE-202606-Y-1.RECINDEX_0",
+            "timestamp": "2026-06-05T13:15:18.619153183Z",
+            "ingestionTimestamp": "2026-06-05T13:15:18.619153183Z",
+            "eventTimestamp": "2026-06-05T13:15:18.619153183Z",
+            "notificationSentAt": "2026-06-05T13:12:50.043521089Z",
+            "legalFactsIds": [],
+            "category": "NORMALIZED_ADDRESS",
+            "details": {
+                "recIndex": 0,
+                "oldAddress": {
+                    "at": "Presso",
+                    "address": "a@FAIL-Discovery_AR_IRR_D",
+                    "addressDetails": "scala b",
+                    "zip": "00118",
+                    "municipality": "Roma",
+                    "municipalityDetails": "Centro",
+                    "province": "RM",
+                    "foreignState": "ITALIA"
+                },
+                "normalizedAddress": {
+                    "at": "Presso",
+                    "address": "A@FAIL-DISCOVERY_AR_IRR_D",
+                    "addressDetails": "SCALA B",
+                    "zip": "00118",
+                    "municipality": "ROMA",
+                    "municipalityDetails": "CENTRO",
+                    "province": "RM",
+                    "foreignState": "ITALIA"
+                }
+            }
+        },
+        {
+            "elementId": "SENDERACK_LEGALFACT_CREATION_REQUEST.IUN_NMDX-NVHP-UEZE-202606-Y-1",
+            "timestamp": "2026-06-05T13:15:28.749223593Z",
+            "ingestionTimestamp": "2026-06-05T13:15:28.749223593Z",
+            "eventTimestamp": "2026-06-05T13:15:28.749223593Z",
+            "notificationSentAt": "2026-06-05T13:12:50.043521089Z",
+            "legalFactsIds": [],
+            "category": "SENDER_ACK_CREATION_REQUEST",
+            "details": {
+                "legalFactId": "safestorage://PN_LEGAL_FACTS-d415e7aa862e4af4ac094983673bda54.pdf"
+            }
+        },
+        {
+            "elementId": "REQUEST_ACCEPTED.IUN_NMDX-NVHP-UEZE-202606-Y-1",
+            "timestamp": "2026-06-05T13:16:04.390535057Z",
+            "ingestionTimestamp": "2026-06-05T13:16:04.390535057Z",
+            "eventTimestamp": "2026-06-05T13:16:04.390535057Z",
+            "notificationSentAt": "2026-06-05T13:12:50.043521089Z",
+            "legalFactsIds": [
+                {
+                    "key": "safestorage://PN_LEGAL_FACTS-d415e7aa862e4af4ac094983673bda54.pdf",
+                    "category": "SENDER_ACK"
+                }
+            ],
+            "category": "REQUEST_ACCEPTED",
+            "details": {
+                "notificationRequestId": "Tk1EWC1OVkhQLVVFWkUtMjAyNjA2LVktMQ==",
+                "paProtocolNumber": "f42a0f66-d59b-4400-915c-5cdcc789e65b"
+            }
+        },
+        {
+            "elementId": "AAR_CREATION_REQUEST.IUN_NMDX-NVHP-UEZE-202606-Y-1.RECINDEX_0",
+            "timestamp": "2026-06-05T13:16:10.811623219Z",
+            "ingestionTimestamp": "2026-06-05T13:16:10.811623219Z",
+            "eventTimestamp": "2026-06-05T13:16:10.811623219Z",
+            "notificationSentAt": "2026-06-05T13:12:50.043521089Z",
+            "legalFactsIds": [],
+            "category": "AAR_CREATION_REQUEST",
+            "details": {
+                "recIndex": 0,
+                "numberOfPages": 2,
+                "aarKey": "safestorage://PN_AAR-ddd5a776ff643aa91f22cc150738d7a.pdf"
+            }
+        },
+        {
+            "elementId": "AAR_GEN.IUN_NMDX-NVHP-UEZE-202606-Y-1.RECINDEX_0",
+            "timestamp": "2026-06-05T13:16:35.412830176Z",
+            "ingestionTimestamp": "2026-06-05T13:16:35.412830176Z",
+            "eventTimestamp": "2026-06-05T13:16:35.412830176Z",
+            "notificationSentAt": "2026-06-05T13:12:50.043521089Z",
+            "legalFactsIds": [],
+            "category": "AAR_GENERATION",
+            "details": {
+                "recIndex": 0,
+                "generatedAarUrl": "safestorage://PN_AAR-ddd5a776ff643aa91f22cc150738d7a.pdf",
+                "numberOfPages": 2
+            }
+        },
+        {
+            "elementId": "GET_ADDRESS.IUN_NMDX-NVHP-UEZE-202606-Y-1.RECINDEX_0.SOURCE_PLATFORM.ATTEMPT_0",
+            "timestamp": "2026-06-05T13:16:39.36680939Z",
+            "ingestionTimestamp": "2026-06-05T13:16:39.36680939Z",
+            "eventTimestamp": "2026-06-05T13:16:39.36680939Z",
+            "notificationSentAt": "2026-06-05T13:12:50.043521089Z",
+            "legalFactsIds": [],
+            "category": "GET_ADDRESS",
+            "details": {
+                "recIndex": 0,
+                "digitalAddressSource": "PLATFORM",
+                "isAvailable": false,
+                "attemptDate": "2026-06-05T13:16:39.366805238Z"
+            }
+        },
+        {
+            "elementId": "GET_ADDRESS.IUN_NMDX-NVHP-UEZE-202606-Y-1.RECINDEX_0.SOURCE_SPECIAL.ATTEMPT_0",
+            "timestamp": "2026-06-05T13:16:39.398321948Z",
+            "ingestionTimestamp": "2026-06-05T13:16:39.398321948Z",
+            "eventTimestamp": "2026-06-05T13:16:39.398321948Z",
+            "notificationSentAt": "2026-06-05T13:12:50.043521089Z",
+            "legalFactsIds": [],
+            "category": "GET_ADDRESS",
+            "details": {
+                "recIndex": 0,
+                "digitalAddressSource": "SPECIAL",
+                "isAvailable": false,
+                "attemptDate": "2026-06-05T13:16:39.398321032Z"
+            }
+        },
+        {
+            "elementId": "NATIONAL_REGISTRY_CALL.IUN_NMDX-NVHP-UEZE-202606-Y-1.RECINDEX_0.DELIVERYMODE_DIGITAL.CONTACTPHASE_CHOOSE_DELIVERY.ATTEMPT_0",
+            "timestamp": "2026-06-05T13:16:39.454832867Z",
+            "ingestionTimestamp": "2026-06-05T13:16:39.454832867Z",
+            "eventTimestamp": "2026-06-05T13:16:39.454832867Z",
+            "notificationSentAt": "2026-06-05T13:12:50.043521089Z",
+            "legalFactsIds": [],
+            "category": "PUBLIC_REGISTRY_CALL",
+            "details": {
+                "recIndex": 0,
+                "deliveryMode": "DIGITAL",
+                "contactPhase": "CHOOSE_DELIVERY",
+                "sentAttemptMade": 0,
+                "sendDate": "2026-06-05T13:16:39.454830101Z"
+            }
+        },
+        {
+            "elementId": "NATIONAL_REGISTRY_RESPONSE.CORRELATIONID_NATIONAL_REGISTRY_CALL.IUN_NMDX-NVHP-UEZE-202606-Y-1.RECINDEX_0.DELIVERYMODE_DIGITAL.CONTACTPHASE_CHOOSE_DELIVERY.ATTEMPT_0",
+            "timestamp": "2026-06-05T13:17:22.895481469Z",
+            "ingestionTimestamp": "2026-06-05T13:17:22.895481469Z",
+            "eventTimestamp": "2026-06-05T13:17:22.895481469Z",
+            "notificationSentAt": "2026-06-05T13:12:50.043521089Z",
+            "legalFactsIds": [],
+            "category": "PUBLIC_REGISTRY_RESPONSE",
+            "details": {
+                "recIndex": 0
+            }
+        },
+        {
+            "elementId": "GET_ADDRESS.IUN_NMDX-NVHP-UEZE-202606-Y-1.RECINDEX_0.SOURCE_GENERAL.ATTEMPT_0",
+            "timestamp": "2026-06-05T13:17:22.962043325Z",
+            "ingestionTimestamp": "2026-06-05T13:17:22.962043325Z",
+            "eventTimestamp": "2026-06-05T13:17:22.962043325Z",
+            "notificationSentAt": "2026-06-05T13:12:50.043521089Z",
+            "legalFactsIds": [],
+            "category": "GET_ADDRESS",
+            "details": {
+                "recIndex": 0,
+                "digitalAddressSource": "GENERAL",
+                "isAvailable": false,
+                "attemptDate": "2026-06-05T13:17:22.962041861Z"
+            }
+        },
+        {
+            "elementId": "SCHEDULE_ANALOG_WORKFLOW.IUN_NMDX-NVHP-UEZE-202606-Y-1.RECINDEX_0",
+            "timestamp": "2026-06-05T13:17:23.108482364Z",
+            "ingestionTimestamp": "2026-06-05T13:17:23.108482364Z",
+            "eventTimestamp": "2026-06-05T13:17:23.108482364Z",
+            "notificationSentAt": "2026-06-05T13:12:50.043521089Z",
+            "legalFactsIds": [],
+            "category": "SCHEDULE_ANALOG_WORKFLOW",
+            "details": {
+                "recIndex": 0,
+                "schedulingDate": "2026-06-05T13:17:23.108432533Z"
+            }
+        },
+        {
+            "elementId": "PREPARE_ANALOG_DOMICILE.IUN_NMDX-NVHP-UEZE-202606-Y-1.RECINDEX_0.ATTEMPT_0",
+            "timestamp": "2026-06-05T13:17:26.605801281Z",
+            "ingestionTimestamp": "2026-06-05T13:17:26.605801281Z",
+            "eventTimestamp": "2026-06-05T13:17:26.605801281Z",
+            "notificationSentAt": "2026-06-05T13:12:50.043521089Z",
+            "legalFactsIds": [],
+            "category": "PREPARE_ANALOG_DOMICILE",
+            "details": {
+                "recIndex": 0,
+                "physicalAddress": {
+                    "at": "Presso",
+                    "address": "A@FAIL-DISCOVERY_AR_IRR_D",
+                    "addressDetails": "SCALA B",
+                    "zip": "00118",
+                    "municipality": "ROMA",
+                    "municipalityDetails": "CENTRO",
+                    "province": "RM",
+                    "foreignState": "ITALIA"
+                },
+                "sentAttemptMade": 0,
+                "serviceLevel": "AR_REGISTERED_LETTER"
+            }
+        },
+        {
+            "elementId": "SEND_ANALOG_DOMICILE.IUN_NMDX-NVHP-UEZE-202606-Y-1.RECINDEX_0.ATTEMPT_0",
+            "timestamp": "2026-06-05T13:17:32.189536831Z",
+            "ingestionTimestamp": "2026-06-05T13:17:32.189536831Z",
+            "eventTimestamp": "2026-06-05T13:17:32.189536831Z",
+            "notificationSentAt": "2026-06-05T13:12:50.043521089Z",
+            "legalFactsIds": [],
+            "category": "SEND_ANALOG_DOMICILE",
+            "details": {
+                "recIndex": 0,
+                "physicalAddress": {
+                    "at": "Presso",
+                    "address": "A@FAIL-DISCOVERY_AR_IRR_D",
+                    "addressDetails": "SCALA B",
+                    "zip": "00118",
+                    "municipality": "ROMA",
+                    "municipalityDetails": "CENTRO",
+                    "province": "RM",
+                    "foreignState": "ITALIA"
+                },
+                "sentAttemptMade": 0,
+                "serviceLevel": "AR_REGISTERED_LETTER",
+                "productType": "AR",
+                "analogCost": 364,
+                "numberOfPages": 1,
+                "envelopeWeight": 10,
+                "prepareRequestId": "PREPARE_ANALOG_DOMICILE.IUN_NMDX-NVHP-UEZE-202606-Y-1.RECINDEX_0.ATTEMPT_0"
+            }
+        },
+        {
+            "elementId": "SEND_ANALOG_PROGRESS.IUN_NMDX-NVHP-UEZE-202606-Y-1.RECINDEX_0.ATTEMPT_0.IDX_1",
+            "timestamp": "2026-06-05T13:19:11Z",
+            "ingestionTimestamp": "2026-06-05T13:19:15.040031581Z",
+            "eventTimestamp": "2026-06-05T13:19:11Z",
+            "notificationSentAt": "2026-06-05T13:12:50.043521089Z",
+            "legalFactsIds": [],
+            "category": "SEND_ANALOG_PROGRESS",
+            "details": {
+                "recIndex": 0,
+                "notificationDate": "2026-06-05T13:19:11Z",
+                "deliveryDetailCode": "CON080",
+                "serviceLevel": "AR_REGISTERED_LETTER",
+                "sendRequestId": "SEND_ANALOG_DOMICILE.IUN_NMDX-NVHP-UEZE-202606-Y-1.RECINDEX_0.ATTEMPT_0",
+                "registeredLetterCode": "45956fb44b494acf9bff3f9ae357b770"
+            }
+        },
+        {
+            "elementId": "SEND_ANALOG_PROGRESS.IUN_NMDX-NVHP-UEZE-202606-Y-1.RECINDEX_0.ATTEMPT_0.IDX_5",
+            "timestamp": "2026-06-05T13:19:16Z",
+            "ingestionTimestamp": "2026-06-05T13:19:58.595528828Z",
+            "eventTimestamp": "2026-06-05T13:19:16Z",
+            "notificationSentAt": "2026-06-05T13:12:50.043521089Z",
+            "legalFactsIds": [
+                {
+                    "key": "safestorage://PN_PRINTED-ee4d82f5ad2247ebb0f738254995d552.pdf",
+                    "category": "ANALOG_DELIVERY"
+                }
+            ],
+            "category": "SEND_ANALOG_PROGRESS",
+            "details": {
+                "recIndex": 0,
+                "notificationDate": "2026-06-05T13:19:16Z",
+                "deliveryDetailCode": "CON020",
+                "serviceLevel": "AR_REGISTERED_LETTER",
+                "attachments": [
+                    {
+                        "id": "0",
+                        "documentType": "Copia Conforme AAR",
+                        "url": "safestorage://PN_PRINTED-ee4d82f5ad2247ebb0f738254995d552.pdf",
+                        "date": "2026-06-05T13:19:23.781088987Z"
+                    }
+                ],
+                "sendRequestId": "SEND_ANALOG_DOMICILE.IUN_NMDX-NVHP-UEZE-202606-Y-1.RECINDEX_0.ATTEMPT_0",
+                "registeredLetterCode": "45956fb44b494acf9bff3f9ae357b770"
+            }
+        },
+        {
+            "elementId": "SEND_ANALOG_PROGRESS.IUN_NMDX-NVHP-UEZE-202606-Y-1.RECINDEX_0.ATTEMPT_0.IDX_2",
+            "timestamp": "2026-06-05T13:19:23Z",
+            "ingestionTimestamp": "2026-06-05T13:19:27.731897321Z",
+            "eventTimestamp": "2026-06-05T13:19:23Z",
+            "notificationSentAt": "2026-06-05T13:12:50.043521089Z",
+            "legalFactsIds": [],
+            "category": "SEND_ANALOG_PROGRESS",
+            "details": {
+                "recIndex": 0,
+                "notificationDate": "2026-06-05T13:19:23Z",
+                "deliveryFailureCause": "M01",
+                "deliveryDetailCode": "RECRN002D",
+                "serviceLevel": "AR_REGISTERED_LETTER",
+                "sendRequestId": "SEND_ANALOG_DOMICILE.IUN_NMDX-NVHP-UEZE-202606-Y-1.RECINDEX_0.ATTEMPT_0",
+                "registeredLetterCode": "45956fb44b494acf9bff3f9ae357b770"
+            }
+        },
+        {
+            "elementId": "SEND_ANALOG_PROGRESS.IUN_NMDX-NVHP-UEZE-202606-Y-1.RECINDEX_0.ATTEMPT_0.IDX_3",
+            "timestamp": "2026-06-05T13:19:23Z",
+            "ingestionTimestamp": "2026-06-05T13:19:33.268670265Z",
+            "eventTimestamp": "2026-06-05T13:19:23Z",
+            "notificationSentAt": "2026-06-05T13:12:50.043521089Z",
+            "legalFactsIds": [
+                {
+                    "key": "safestorage://PN_EXTERNAL_LEGAL_FACTS-8bae01a47f5a4242aec3046e6e396679.pdf",
+                    "category": "ANALOG_DELIVERY"
+                }
+            ],
+            "category": "SEND_ANALOG_PROGRESS",
+            "details": {
+                "recIndex": 0,
+                "notificationDate": "2026-06-05T13:19:23Z",
+                "deliveryDetailCode": "RECRN002E",
+                "serviceLevel": "AR_REGISTERED_LETTER",
+                "attachments": [
+                    {
+                        "id": "1",
+                        "documentType": "Indagine",
+                        "url": "safestorage://PN_EXTERNAL_LEGAL_FACTS-8bae01a47f5a4242aec3046e6e396679.pdf",
+                        "date": "2026-06-05T13:19:23.869871483Z"
+                    }
+                ],
+                "sendRequestId": "SEND_ANALOG_DOMICILE.IUN_NMDX-NVHP-UEZE-202606-Y-1.RECINDEX_0.ATTEMPT_0",
+                "registeredLetterCode": "45956fb44b494acf9bff3f9ae357b770"
+            }
+        },
+        {
+            "elementId": "SEND_ANALOG_PROGRESS.IUN_NMDX-NVHP-UEZE-202606-Y-1.RECINDEX_0.ATTEMPT_0.IDX_4",
+            "timestamp": "2026-06-05T13:19:23Z",
+            "ingestionTimestamp": "2026-06-05T13:19:33.275858568Z",
+            "eventTimestamp": "2026-06-05T13:19:23Z",
+            "notificationSentAt": "2026-06-05T13:12:50.043521089Z",
+            "legalFactsIds": [
+                {
+                    "key": "safestorage://PN_EXTERNAL_LEGAL_FACTS-68d6ddff9076455f9476b681894a9953.pdf",
+                    "category": "ANALOG_DELIVERY"
+                }
+            ],
+            "category": "SEND_ANALOG_PROGRESS",
+            "details": {
+                "recIndex": 0,
+                "notificationDate": "2026-06-05T13:19:23Z",
+                "deliveryDetailCode": "RECRN002E",
+                "serviceLevel": "AR_REGISTERED_LETTER",
+                "attachments": [
+                    {
+                        "id": "0",
+                        "documentType": "Plico",
+                        "url": "safestorage://PN_EXTERNAL_LEGAL_FACTS-68d6ddff9076455f9476b681894a9953.pdf",
+                        "date": "2026-06-05T13:19:23.869871483Z"
+                    }
+                ],
+                "sendRequestId": "SEND_ANALOG_DOMICILE.IUN_NMDX-NVHP-UEZE-202606-Y-1.RECINDEX_0.ATTEMPT_0",
+                "registeredLetterCode": "45956fb44b494acf9bff3f9ae357b770"
+            }
+        },
+        {
+            "elementId": "SEND_ANALOG_FEEDBACK.IUN_NMDX-NVHP-UEZE-202606-Y-1.RECINDEX_0.ATTEMPT_0",
+            "timestamp": "2026-06-05T13:19:23Z",
+            "ingestionTimestamp": "2026-06-05T13:19:38.610638504Z",
+            "eventTimestamp": "2026-06-05T13:19:23Z",
+            "notificationSentAt": "2026-06-05T13:12:50.043521089Z",
+            "legalFactsIds": [],
+            "category": "SEND_ANALOG_FEEDBACK",
+            "details": {
+                "recIndex": 0,
+                "physicalAddress": {
+                    "at": "Presso",
+                    "address": "A@FAIL-DISCOVERY_AR_IRR_D",
+                    "addressDetails": "SCALA B",
+                    "zip": "00118",
+                    "municipality": "ROMA",
+                    "municipalityDetails": "CENTRO",
+                    "province": "RM",
+                    "foreignState": "ITALIA"
+                },
+                "sentAttemptMade": 0,
+                "responseStatus": "KO",
+                "notificationDate": "2026-06-05T13:19:23Z",
+                "deliveryFailureCause": "M01",
+                "deliveryDetailCode": "RECRN002F",
+                "serviceLevel": "AR_REGISTERED_LETTER",
+                "newAddress": {
+                    "address": "via@sequence.5s-CON080.5s-CON020[DOC:7ZIP;PAGES:3].5s-RECRN002D[FAILCAUSE:M03].5s-RECRN002E[DOC:Plico].5s-RECRN002F@restart0.@sequence.5s-CON080.5s-CON020[DOC:7ZIP;PAGES:3].5s-RECRN002D[DISCOVERY;FAILCAUSE:M01].5s-RECRN002E[DOC:Plico;DOC:Indagine].5s-RECRN002F@discovered.5s-CON080.5s-CON020[DOC:7ZIP;PAGES:3].5s-RECRN001A.5s-RECRN001B[DOC:AR].5s-RECRN001C",
+                    "zip": "20121",
+                    "municipality": "Milano",
+                    "province": "MI",
+                    "foreignState": "Italia"
+                },
+                "sendRequestId": "SEND_ANALOG_DOMICILE.IUN_NMDX-NVHP-UEZE-202606-Y-1.RECINDEX_0.ATTEMPT_0",
+                "registeredLetterCode": "45956fb44b494acf9bff3f9ae357b770"
+            }
+        },
+        {
+            "elementId": "PREPARE_ANALOG_DOMICILE.IUN_NMDX-NVHP-UEZE-202606-Y-1.RECINDEX_0.ATTEMPT_1",
+            "timestamp": "2026-06-05T13:19:43.027987725Z",
+            "ingestionTimestamp": "2026-06-05T13:19:43.027987725Z",
+            "eventTimestamp": "2026-06-05T13:19:43.027987725Z",
+            "notificationSentAt": "2026-06-05T13:12:50.043521089Z",
+            "legalFactsIds": [],
+            "category": "PREPARE_ANALOG_DOMICILE",
+            "details": {
+                "recIndex": 0,
+                "physicalAddress": {
+                    "address": "via@sequence.5s-CON080.5s-CON020[DOC:7ZIP;PAGES:3].5s-RECRN002D[FAILCAUSE:M03].5s-RECRN002E[DOC:Plico].5s-RECRN002F@restart0.@sequence.5s-CON080.5s-CON020[DOC:7ZIP;PAGES:3].5s-RECRN002D[DISCOVERY;FAILCAUSE:M01].5s-RECRN002E[DOC:Plico;DOC:Indagine].5s-RECRN002F@discovered.5s-CON080.5s-CON020[DOC:7ZIP;PAGES:3].5s-RECRN001A.5s-RECRN001B[DOC:AR].5s-RECRN001C",
+                    "zip": "20121",
+                    "municipality": "Milano",
+                    "province": "MI",
+                    "foreignState": "Italia"
+                },
+                "sentAttemptMade": 1,
+                "serviceLevel": "AR_REGISTERED_LETTER",
+                "relatedRequestId": "PREPARE_ANALOG_DOMICILE.IUN_NMDX-NVHP-UEZE-202606-Y-1.RECINDEX_0.ATTEMPT_0"
+            }
+        },
+        {
+            "elementId": "SEND_ANALOG_DOMICILE.IUN_NMDX-NVHP-UEZE-202606-Y-1.RECINDEX_0.ATTEMPT_1",
+            "timestamp": "2026-06-05T13:19:48.618686946Z",
+            "ingestionTimestamp": "2026-06-05T13:19:48.618686946Z",
+            "eventTimestamp": "2026-06-05T13:19:48.618686946Z",
+            "notificationSentAt": "2026-06-05T13:12:50.043521089Z",
+            "legalFactsIds": [],
+            "category": "SEND_ANALOG_DOMICILE",
+            "details": {
+                "recIndex": 0,
+                "physicalAddress": {
+                    "at": "Presso",
+                    "address": "VIA@SEQUENCE.5S-CON080.5S-CON020[DOC:7ZIP;PAGES:3].5S-RECRN002D[FAILCAUSE:M03].5S-RECRN002E[DOC:PLICO].5S-RECRN002F@RESTART0.@SEQUENCE.5S-CON080.5S-CON020[DOC:7ZIP;PAGES:3].5S-RECRN002D[DISCOVERY;FAILCAUSE:M01].5S-RECRN002E[DOC:PLICO;DOC:INDAGINE].5S-RECRN002F@DISCOVERED.5S-CON080.5S-CON020[DOC:7ZIP;PAGES:3].5S-RECRN001A.5S-RECRN001B[DOC:AR].5S-RECRN001C",
+                    "zip": "20121",
+                    "municipality": "MILANO",
+                    "province": "MI",
+                    "foreignState": "ITALIA"
+                },
+                "sentAttemptMade": 1,
+                "serviceLevel": "AR_REGISTERED_LETTER",
+                "relatedRequestId": "PREPARE_ANALOG_DOMICILE.IUN_NMDX-NVHP-UEZE-202606-Y-1.RECINDEX_0.ATTEMPT_0",
+                "productType": "AR",
+                "analogCost": 364,
+                "numberOfPages": 1,
+                "envelopeWeight": 10,
+                "prepareRequestId": "PREPARE_ANALOG_DOMICILE.IUN_NMDX-NVHP-UEZE-202606-Y-1.RECINDEX_0.ATTEMPT_1"
+            }
+        },
+        {
+            "elementId": "SEND_ANALOG_PROGRESS.IUN_NMDX-NVHP-UEZE-202606-Y-1.RECINDEX_0.ATTEMPT_1.IDX_1",
+            "timestamp": "2026-06-05T13:22:40Z",
+            "ingestionTimestamp": "2026-06-05T13:22:44.210411037Z",
+            "eventTimestamp": "2026-06-05T13:22:40Z",
+            "notificationSentAt": "2026-06-05T13:12:50.043521089Z",
+            "legalFactsIds": [],
+            "category": "SEND_ANALOG_PROGRESS",
+            "details": {
+                "recIndex": 0,
+                "notificationDate": "2026-06-05T13:22:40Z",
+                "deliveryDetailCode": "CON080",
+                "serviceLevel": "AR_REGISTERED_LETTER",
+                "sendRequestId": "SEND_ANALOG_DOMICILE.IUN_NMDX-NVHP-UEZE-202606-Y-1.RECINDEX_0.ATTEMPT_1",
+                "registeredLetterCode": "bb9aa42d9dbd4c809a26b3421d93dca2"
+            }
+        },
+        {
+            "elementId": "SEND_ANALOG_PROGRESS.IUN_NMDX-NVHP-UEZE-202606-Y-1.RECINDEX_0.ATTEMPT_1.IDX_4",
+            "timestamp": "2026-06-05T13:22:45Z",
+            "ingestionTimestamp": "2026-06-05T13:23:28.626641231Z",
+            "eventTimestamp": "2026-06-05T13:22:45Z",
+            "notificationSentAt": "2026-06-05T13:12:50.043521089Z",
+            "legalFactsIds": [
+                {
+                    "key": "safestorage://PN_PRINTED-af112903d4749808884a09ae9468485.pdf",
+                    "category": "ANALOG_DELIVERY"
+                }
+            ],
+            "category": "SEND_ANALOG_PROGRESS",
+            "details": {
+                "recIndex": 0,
+                "notificationDate": "2026-06-05T13:22:45Z",
+                "deliveryDetailCode": "CON020",
+                "serviceLevel": "AR_REGISTERED_LETTER",
+                "attachments": [
+                    {
+                        "id": "0",
+                        "documentType": "Copia Conforme AAR",
+                        "url": "safestorage://PN_PRINTED-af112903d4749808884a09ae9468485.pdf",
+                        "date": "2026-06-05T13:22:51.864549282Z"
+                    }
+                ],
+                "sendRequestId": "SEND_ANALOG_DOMICILE.IUN_NMDX-NVHP-UEZE-202606-Y-1.RECINDEX_0.ATTEMPT_1",
+                "registeredLetterCode": "bb9aa42d9dbd4c809a26b3421d93dca2"
+            }
+        },
+        {
+            "elementId": "SEND_ANALOG_PROGRESS.IUN_NMDX-NVHP-UEZE-202606-Y-1.RECINDEX_0.ATTEMPT_1.IDX_2",
+            "timestamp": "2026-06-05T13:22:53Z",
+            "ingestionTimestamp": "2026-06-05T13:22:57.234139507Z",
+            "eventTimestamp": "2026-06-05T13:22:53Z",
+            "notificationSentAt": "2026-06-05T13:12:50.043521089Z",
+            "legalFactsIds": [],
+            "category": "SEND_ANALOG_PROGRESS",
+            "details": {
+                "recIndex": 0,
+                "notificationDate": "2026-06-05T13:22:53Z",
+                "deliveryFailureCause": "M03",
+                "deliveryDetailCode": "RECRN002D",
+                "serviceLevel": "AR_REGISTERED_LETTER",
+                "sendRequestId": "SEND_ANALOG_DOMICILE.IUN_NMDX-NVHP-UEZE-202606-Y-1.RECINDEX_0.ATTEMPT_1",
+                "registeredLetterCode": "bb9aa42d9dbd4c809a26b3421d93dca2"
+            }
+        },
+        {
+            "elementId": "SEND_ANALOG_PROGRESS.IUN_NMDX-NVHP-UEZE-202606-Y-1.RECINDEX_0.ATTEMPT_1.IDX_3",
+            "timestamp": "2026-06-05T13:22:53Z",
+            "ingestionTimestamp": "2026-06-05T13:23:02.738584194Z",
+            "eventTimestamp": "2026-06-05T13:22:53Z",
+            "notificationSentAt": "2026-06-05T13:12:50.043521089Z",
+            "legalFactsIds": [
+                {
+                    "key": "safestorage://PN_EXTERNAL_LEGAL_FACTS-495c1f2087b3488ea2ef4a617aa95e59.pdf",
+                    "category": "ANALOG_DELIVERY"
+                }
+            ],
+            "category": "SEND_ANALOG_PROGRESS",
+            "details": {
+                "recIndex": 0,
+                "notificationDate": "2026-06-05T13:22:53Z",
+                "deliveryDetailCode": "RECRN002E",
+                "serviceLevel": "AR_REGISTERED_LETTER",
+                "attachments": [
+                    {
+                        "id": "0",
+                        "documentType": "Plico",
+                        "url": "safestorage://PN_EXTERNAL_LEGAL_FACTS-495c1f2087b3488ea2ef4a617aa95e59.pdf",
+                        "date": "2026-06-05T13:22:53.358834299Z"
+                    }
+                ],
+                "sendRequestId": "SEND_ANALOG_DOMICILE.IUN_NMDX-NVHP-UEZE-202606-Y-1.RECINDEX_0.ATTEMPT_1",
+                "registeredLetterCode": "bb9aa42d9dbd4c809a26b3421d93dca2"
+            }
+        },
+        {
+            "elementId": "SEND_ANALOG_FEEDBACK.IUN_NMDX-NVHP-UEZE-202606-Y-1.RECINDEX_0.ATTEMPT_1",
+            "timestamp": "2026-06-05T13:22:53Z",
+            "ingestionTimestamp": "2026-06-05T13:23:08.127593541Z",
+            "eventTimestamp": "2026-06-05T13:22:53Z",
+            "notificationSentAt": "2026-06-05T13:12:50.043521089Z",
+            "legalFactsIds": [],
+            "category": "SEND_ANALOG_FEEDBACK",
+            "details": {
+                "recIndex": 0,
+                "physicalAddress": {
+                    "at": "Presso",
+                    "address": "VIA@SEQUENCE.5S-CON080.5S-CON020[DOC:7ZIP;PAGES:3].5S-RECRN002D[FAILCAUSE:M03].5S-RECRN002E[DOC:PLICO].5S-RECRN002F@RESTART0.@SEQUENCE.5S-CON080.5S-CON020[DOC:7ZIP;PAGES:3].5S-RECRN002D[DISCOVERY;FAILCAUSE:M01].5S-RECRN002E[DOC:PLICO;DOC:INDAGINE].5S-RECRN002F@DISCOVERED.5S-CON080.5S-CON020[DOC:7ZIP;PAGES:3].5S-RECRN001A.5S-RECRN001B[DOC:AR].5S-RECRN001C",
+                    "zip": "20121",
+                    "municipality": "MILANO",
+                    "province": "MI",
+                    "foreignState": "ITALIA"
+                },
+                "sentAttemptMade": 1,
+                "responseStatus": "KO",
+                "notificationDate": "2026-06-05T13:22:53Z",
+                "deliveryFailureCause": "M03",
+                "deliveryDetailCode": "RECRN002F",
+                "serviceLevel": "AR_REGISTERED_LETTER",
+                "sendRequestId": "SEND_ANALOG_DOMICILE.IUN_NMDX-NVHP-UEZE-202606-Y-1.RECINDEX_0.ATTEMPT_1",
+                "registeredLetterCode": "bb9aa42d9dbd4c809a26b3421d93dca2"
+            }
+        },
+        {
+            "elementId": "ANALOG_FAILURE_WORKFLOW.IUN_NMDX-NVHP-UEZE-202606-Y-1.RECINDEX_0",
+            "timestamp": "2026-06-05T13:23:11.655865892Z",
+            "ingestionTimestamp": "2026-06-05T13:23:11.655865892Z",
+            "eventTimestamp": "2026-06-05T13:23:11.655865892Z",
+            "notificationSentAt": "2026-06-05T13:12:50.043521089Z",
+            "legalFactsIds": [],
+            "category": "ANALOG_FAILURE_WORKFLOW",
+            "details": {
+                "recIndex": 0,
+                "generatedAarUrl": "safestorage://PN_AAR-ddd5a776ff643aa91f22cc150738d7a.pdf"
+            }
+        },
+        {
+            "elementId": "COMPLETELY_UNREACHABLE_CREATION_REQUEST.IUN_NMDX-NVHP-UEZE-202606-Y-1.RECINDEX_0",
+            "timestamp": "2026-06-05T13:23:11.655865892Z",
+            "ingestionTimestamp": "2026-06-05T13:23:11.955481156Z",
+            "eventTimestamp": "2026-06-05T13:23:11.655865892Z",
+            "notificationSentAt": "2026-06-05T13:12:50.043521089Z",
+            "legalFactsIds": [],
+            "category": "COMPLETELY_UNREACHABLE_CREATION_REQUEST",
+            "details": {
+                "recIndex": 0,
+                "endWorkflowStatus": "FAILURE",
+                "completionWorkflowDate": "2026-06-05T13:22:53Z",
+                "legalfactId": "safestorage://PN_LEGAL_FACTS-3ec01fa1cbce4e86a022f8f7827686eb.pdf"
+            }
+        },
+        {
+            "elementId": "COMPLETELY_UNREACHABLE.IUN_NMDX-NVHP-UEZE-202606-Y-1.RECINDEX_0",
+            "timestamp": "2026-06-05T13:23:11.655865892Z",
+            "ingestionTimestamp": "2026-06-05T13:23:43.739724279Z",
+            "eventTimestamp": "2026-06-05T13:23:11.655865892Z",
+            "notificationSentAt": "2026-06-05T13:12:50.043521089Z",
+            "legalFactsIds": [
+                {
+                    "key": "safestorage://PN_LEGAL_FACTS-3ec01fa1cbce4e86a022f8f7827686eb.pdf",
+                    "category": "ANALOG_FAILURE_DELIVERY"
+                }
+            ],
+            "category": "COMPLETELY_UNREACHABLE",
+            "details": {
+                "recIndex": 0,
+                "legalFactGenerationDate": "2026-06-05T13:23:11.655865892Z"
+            }
+        },
+        {
+            "elementId": "SCHEDULE_REFINEMENT_WORKFLOW.IUN_NMDX-NVHP-UEZE-202606-Y-1.RECINDEX_0",
+            "timestamp": "2026-06-05T13:23:11.655865892Z",
+            "ingestionTimestamp": "2026-06-05T13:23:43.781268804Z",
+            "eventTimestamp": "2026-06-05T13:23:11.655865892Z",
+            "notificationSentAt": "2026-06-05T13:12:50.043521089Z",
+            "legalFactsIds": [],
+            "category": "SCHEDULE_REFINEMENT",
+            "details": {
+                "recIndex": 0,
+                "schedulingDate": "2026-06-05T13:27:11.655865892Z"
+            }
+        },
+        {
+            "elementId": "REFINEMENT.IUN_NMDX-NVHP-UEZE-202606-Y-1.RECINDEX_0",
+            "timestamp": "2026-06-05T13:27:11.655865892Z",
+            "ingestionTimestamp": "2026-06-05T13:33:22.214596061Z",
+            "eventTimestamp": "2026-06-05T13:27:11.655865892Z",
+            "notificationSentAt": "2026-06-05T13:12:50.043521089Z",
+            "legalFactsIds": [],
+            "category": "REFINEMENT",
+            "details": {
+                "recIndex": 0,
+                "eventTimestamp": "2026-06-05T13:27:11.655865892Z",
+                "notificationCost": 100
+            }
+        }
+    ]
+}

@@ -1,0 +1,743 @@
+{
+    "abstract": "Abstract della notifica",
+    "paProtocolNumber": "1b39e726-4d86-403d-b554-8013766090f3",
+    "subject": "invio notifica test EC",
+    "recipients": [
+        {
+            "recipientType": "PF",
+            "taxId": "LRTFNC80A01F205B",
+            "denomination": "Loretta Franco",
+            "physicalAddress": {
+                "at": "Presso",
+                "address": "A@FAIL_IRREP_RESTART_1_CONS_AT2_AR",
+                "addressDetails": "SCALA B",
+                "zip": "00118",
+                "municipality": "ROMA",
+                "municipalityDetails": "CENTRO",
+                "province": "RM",
+                "foreignState": "ITALIA"
+            },
+            "payments": [
+                {
+                    "pagoPa": {
+                        "noticeCode": "321040300201910060",
+                        "creditorTaxId": "77777777777",
+                        "applyCost": true,
+                        "attachment": {
+                            "digests": {
+                                "sha256": "1QKD/Ks6BohyQ+bgMxHf9NrpNhVmGUPxRYE1aerU4JQ="
+                            },
+                            "contentType": "application/pdf",
+                            "ref": {
+                                "key": "PN_NOTIFICATION_ATTACHMENTS-d7ec10e00bf847fcac1e4c70ea6e2afd.pdf",
+                                "versionToken": "sNP2YBogBBD2CXXe2dxx0DbOJO0AzyH."
+                            }
+                        }
+                    }
+                }
+            ]
+        }
+    ],
+    "documents": [
+        {
+            "digests": {
+                "sha256": "a3k0NDN93at7dEU6xsckGnWP2kLPaRnbsNXJMabyEr0="
+            },
+            "contentType": "application/pdf",
+            "ref": {
+                "key": "PN_NOTIFICATION_ATTACHMENTS-73c54f5e1395444a9f630738ec3a7fdb.pdf",
+                "versionToken": "v1"
+            },
+            "docIdx": "0"
+        }
+    ],
+    "notificationFeePolicy": "DELIVERY_MODE",
+    "physicalCommunicationType": "AR_REGISTERED_LETTER",
+    "senderDenomination": "Comune di palermo",
+    "senderTaxId": "80016350821",
+    "group": "000",
+    "taxonomyCode": "010202N",
+    "paFee": 0,
+    "vat": 0,
+    "pagoPaIntMode": "ASYNC",
+    "additionalLanguages": [],
+    "senderPaId": "5b994d4a-0fa8-47ac-9c7b-354f1d44a1ce",
+    "iun": "XQJA-JYMN-KRYR-202606-N-1",
+    "sentAt": "2026-06-05T14:16:36.118503327Z",
+    "documentsAvailable": true,
+    "notificationStatus": "EFFECTIVE_DATE",
+    "notificationStatusHistory": [
+        {
+            "status": "ACCEPTED",
+            "activeFrom": "2026-06-05T14:16:36.118503327Z",
+            "relatedTimelineElements": [
+                "REQUEST_ACCEPTED.IUN_XQJA-JYMN-KRYR-202606-N-1",
+                "AAR_CREATION_REQUEST.IUN_XQJA-JYMN-KRYR-202606-N-1.RECINDEX_0",
+                "AAR_GEN.IUN_XQJA-JYMN-KRYR-202606-N-1.RECINDEX_0",
+                "GET_ADDRESS.IUN_XQJA-JYMN-KRYR-202606-N-1.RECINDEX_0.SOURCE_PLATFORM.ATTEMPT_0",
+                "GET_ADDRESS.IUN_XQJA-JYMN-KRYR-202606-N-1.RECINDEX_0.SOURCE_SPECIAL.ATTEMPT_0",
+                "NATIONAL_REGISTRY_CALL.IUN_XQJA-JYMN-KRYR-202606-N-1.RECINDEX_0.DELIVERYMODE_DIGITAL.CONTACTPHASE_CHOOSE_DELIVERY.ATTEMPT_0",
+                "NATIONAL_REGISTRY_RESPONSE.CORRELATIONID_NATIONAL_REGISTRY_CALL.IUN_XQJA-JYMN-KRYR-202606-N-1.RECINDEX_0.DELIVERYMODE_DIGITAL.CONTACTPHASE_CHOOSE_DELIVERY.ATTEMPT_0",
+                "GET_ADDRESS.IUN_XQJA-JYMN-KRYR-202606-N-1.RECINDEX_0.SOURCE_GENERAL.ATTEMPT_0",
+                "SCHEDULE_ANALOG_WORKFLOW.IUN_XQJA-JYMN-KRYR-202606-N-1.RECINDEX_0",
+                "PREPARE_ANALOG_DOMICILE.IUN_XQJA-JYMN-KRYR-202606-N-1.RECINDEX_0.ATTEMPT_0"
+            ]
+        },
+        {
+            "status": "DELIVERING",
+            "activeFrom": "2026-06-05T14:21:27.716843821Z",
+            "relatedTimelineElements": [
+                "SEND_ANALOG_DOMICILE.IUN_XQJA-JYMN-KRYR-202606-N-1.RECINDEX_0.ATTEMPT_0",
+                "SEND_ANALOG_PROGRESS.IUN_XQJA-JYMN-KRYR-202606-N-1.RECINDEX_0.ATTEMPT_0.IDX_1",
+                "SEND_ANALOG_PROGRESS.IUN_XQJA-JYMN-KRYR-202606-N-1.RECINDEX_0.ATTEMPT_0.IDX_5",
+                "SEND_ANALOG_PROGRESS.IUN_XQJA-JYMN-KRYR-202606-N-1.RECINDEX_0.ATTEMPT_0.IDX_2",
+                "SEND_ANALOG_PROGRESS.IUN_XQJA-JYMN-KRYR-202606-N-1.RECINDEX_0.ATTEMPT_0.IDX_3",
+                "SEND_ANALOG_PROGRESS.IUN_XQJA-JYMN-KRYR-202606-N-1.RECINDEX_0.ATTEMPT_0.IDX_4",
+                "SEND_ANALOG_FEEDBACK.IUN_XQJA-JYMN-KRYR-202606-N-1.RECINDEX_0.ATTEMPT_0",
+                "PREPARE_ANALOG_DOMICILE.IUN_XQJA-JYMN-KRYR-202606-N-1.RECINDEX_0.ATTEMPT_1.REWORK_0",
+                "SEND_ANALOG_DOMICILE.IUN_XQJA-JYMN-KRYR-202606-N-1.RECINDEX_0.ATTEMPT_1.REWORK_0",
+                "SEND_ANALOG_PROGRESS.IUN_XQJA-JYMN-KRYR-202606-N-1.RECINDEX_0.ATTEMPT_1.IDX_1.REWORK_0",
+                "SEND_ANALOG_PROGRESS.IUN_XQJA-JYMN-KRYR-202606-N-1.RECINDEX_0.ATTEMPT_1.IDX_4.REWORK_0",
+                "SEND_ANALOG_PROGRESS.IUN_XQJA-JYMN-KRYR-202606-N-1.RECINDEX_0.ATTEMPT_1.IDX_2.REWORK_0",
+                "SEND_ANALOG_PROGRESS.IUN_XQJA-JYMN-KRYR-202606-N-1.RECINDEX_0.ATTEMPT_1.IDX_3.REWORK_0",
+                "SEND_ANALOG_FEEDBACK.IUN_XQJA-JYMN-KRYR-202606-N-1.RECINDEX_0.ATTEMPT_1.REWORK_0"
+            ]
+        },
+        {
+            "status": "DELIVERED",
+            "activeFrom": "2026-06-05T14:38:22Z",
+            "relatedTimelineElements": [
+                "ANALOG_SUCCESS_WORKFLOW.IUN_XQJA-JYMN-KRYR-202606-N-1.RECINDEX_0",
+                "SCHEDULE_REFINEMENT_WORKFLOW.IUN_XQJA-JYMN-KRYR-202606-N-1.RECINDEX_0.REWORK_0"
+            ]
+        },
+        {
+            "status": "EFFECTIVE_DATE",
+            "activeFrom": "2026-06-05T14:42:22Z",
+            "relatedTimelineElements": [
+                "REFINEMENT.IUN_XQJA-JYMN-KRYR-202606-N-1.RECINDEX_0.REWORK_0"
+            ]
+        }
+    ],
+    "timeline": [
+        {
+            "elementId": "VALIDATE_NORMALIZE_ADDRESSES_REQUEST.IUN_XQJA-JYMN-KRYR-202606-N-1",
+            "timestamp": "2026-06-05T14:17:05.902303227Z",
+            "ingestionTimestamp": "2026-06-05T14:17:05.902303227Z",
+            "eventTimestamp": "2026-06-05T14:17:05.902303227Z",
+            "notificationSentAt": "2026-06-05T14:16:36.118503327Z",
+            "legalFactsIds": [],
+            "category": "VALIDATE_NORMALIZE_ADDRESSES_REQUEST",
+            "details": {}
+        },
+        {
+            "elementId": "NORMALIZED_ADDRESS.IUN_XQJA-JYMN-KRYR-202606-N-1.RECINDEX_0",
+            "timestamp": "2026-06-05T14:19:18.204018757Z",
+            "ingestionTimestamp": "2026-06-05T14:19:18.204018757Z",
+            "eventTimestamp": "2026-06-05T14:19:18.204018757Z",
+            "notificationSentAt": "2026-06-05T14:16:36.118503327Z",
+            "legalFactsIds": [],
+            "category": "NORMALIZED_ADDRESS",
+            "details": {
+                "recIndex": 0,
+                "oldAddress": {
+                    "at": "Presso",
+                    "address": "a@FAIL_IRREP_RESTART_1_CONS_AT2_AR",
+                    "addressDetails": "scala b",
+                    "zip": "00118",
+                    "municipality": "Roma",
+                    "municipalityDetails": "Centro",
+                    "province": "RM",
+                    "foreignState": "ITALIA"
+                },
+                "normalizedAddress": {
+                    "at": "Presso",
+                    "address": "A@FAIL_IRREP_RESTART_1_CONS_AT2_AR",
+                    "addressDetails": "SCALA B",
+                    "zip": "00118",
+                    "municipality": "ROMA",
+                    "municipalityDetails": "CENTRO",
+                    "province": "RM",
+                    "foreignState": "ITALIA"
+                }
+            }
+        },
+        {
+            "elementId": "SENDERACK_LEGALFACT_CREATION_REQUEST.IUN_XQJA-JYMN-KRYR-202606-N-1",
+            "timestamp": "2026-06-05T14:19:27.456468596Z",
+            "ingestionTimestamp": "2026-06-05T14:19:27.456468596Z",
+            "eventTimestamp": "2026-06-05T14:19:27.456468596Z",
+            "notificationSentAt": "2026-06-05T14:16:36.118503327Z",
+            "legalFactsIds": [],
+            "category": "SENDER_ACK_CREATION_REQUEST",
+            "details": {
+                "legalFactId": "safestorage://PN_LEGAL_FACTS-2d3137a0330144d594b7b8f2e34c7a55.pdf"
+            }
+        },
+        {
+            "elementId": "REQUEST_ACCEPTED.IUN_XQJA-JYMN-KRYR-202606-N-1",
+            "timestamp": "2026-06-05T14:20:05.021402717Z",
+            "ingestionTimestamp": "2026-06-05T14:20:05.021402717Z",
+            "eventTimestamp": "2026-06-05T14:20:05.021402717Z",
+            "notificationSentAt": "2026-06-05T14:16:36.118503327Z",
+            "legalFactsIds": [
+                {
+                    "key": "safestorage://PN_LEGAL_FACTS-2d3137a0330144d594b7b8f2e34c7a55.pdf",
+                    "category": "SENDER_ACK"
+                }
+            ],
+            "category": "REQUEST_ACCEPTED",
+            "details": {
+                "notificationRequestId": "WFFKQS1KWU1OLUtSWVItMjAyNjA2LU4tMQ==",
+                "paProtocolNumber": "1b39e726-4d86-403d-b554-8013766090f3"
+            }
+        },
+        {
+            "elementId": "AAR_CREATION_REQUEST.IUN_XQJA-JYMN-KRYR-202606-N-1.RECINDEX_0",
+            "timestamp": "2026-06-05T14:20:10.550796769Z",
+            "ingestionTimestamp": "2026-06-05T14:20:10.550796769Z",
+            "eventTimestamp": "2026-06-05T14:20:10.550796769Z",
+            "notificationSentAt": "2026-06-05T14:16:36.118503327Z",
+            "legalFactsIds": [],
+            "category": "AAR_CREATION_REQUEST",
+            "details": {
+                "recIndex": 0,
+                "numberOfPages": 2,
+                "aarKey": "safestorage://PN_AAR-4cda7ab48834d2cb9c2df0b157d0793.pdf"
+            }
+        },
+        {
+            "elementId": "AAR_GEN.IUN_XQJA-JYMN-KRYR-202606-N-1.RECINDEX_0",
+            "timestamp": "2026-06-05T14:20:33.100042058Z",
+            "ingestionTimestamp": "2026-06-05T14:20:33.100042058Z",
+            "eventTimestamp": "2026-06-05T14:20:33.100042058Z",
+            "notificationSentAt": "2026-06-05T14:16:36.118503327Z",
+            "legalFactsIds": [],
+            "category": "AAR_GENERATION",
+            "details": {
+                "recIndex": 0,
+                "generatedAarUrl": "safestorage://PN_AAR-4cda7ab48834d2cb9c2df0b157d0793.pdf",
+                "numberOfPages": 2
+            }
+        },
+        {
+            "elementId": "GET_ADDRESS.IUN_XQJA-JYMN-KRYR-202606-N-1.RECINDEX_0.SOURCE_PLATFORM.ATTEMPT_0",
+            "timestamp": "2026-06-05T14:20:36.017353845Z",
+            "ingestionTimestamp": "2026-06-05T14:20:36.017353845Z",
+            "eventTimestamp": "2026-06-05T14:20:36.017353845Z",
+            "notificationSentAt": "2026-06-05T14:16:36.118503327Z",
+            "legalFactsIds": [],
+            "category": "GET_ADDRESS",
+            "details": {
+                "recIndex": 0,
+                "digitalAddressSource": "PLATFORM",
+                "isAvailable": false,
+                "attemptDate": "2026-06-05T14:20:36.017352277Z"
+            }
+        },
+        {
+            "elementId": "GET_ADDRESS.IUN_XQJA-JYMN-KRYR-202606-N-1.RECINDEX_0.SOURCE_SPECIAL.ATTEMPT_0",
+            "timestamp": "2026-06-05T14:20:36.053054634Z",
+            "ingestionTimestamp": "2026-06-05T14:20:36.053054634Z",
+            "eventTimestamp": "2026-06-05T14:20:36.053054634Z",
+            "notificationSentAt": "2026-06-05T14:16:36.118503327Z",
+            "legalFactsIds": [],
+            "category": "GET_ADDRESS",
+            "details": {
+                "recIndex": 0,
+                "digitalAddressSource": "SPECIAL",
+                "isAvailable": false,
+                "attemptDate": "2026-06-05T14:20:36.053043326Z"
+            }
+        },
+        {
+            "elementId": "NATIONAL_REGISTRY_CALL.IUN_XQJA-JYMN-KRYR-202606-N-1.RECINDEX_0.DELIVERYMODE_DIGITAL.CONTACTPHASE_CHOOSE_DELIVERY.ATTEMPT_0",
+            "timestamp": "2026-06-05T14:20:36.111046817Z",
+            "ingestionTimestamp": "2026-06-05T14:20:36.111046817Z",
+            "eventTimestamp": "2026-06-05T14:20:36.111046817Z",
+            "notificationSentAt": "2026-06-05T14:16:36.118503327Z",
+            "legalFactsIds": [],
+            "category": "PUBLIC_REGISTRY_CALL",
+            "details": {
+                "recIndex": 0,
+                "deliveryMode": "DIGITAL",
+                "contactPhase": "CHOOSE_DELIVERY",
+                "sentAttemptMade": 0,
+                "sendDate": "2026-06-05T14:20:36.111029607Z"
+            }
+        },
+        {
+            "elementId": "NATIONAL_REGISTRY_RESPONSE.CORRELATIONID_NATIONAL_REGISTRY_CALL.IUN_XQJA-JYMN-KRYR-202606-N-1.RECINDEX_0.DELIVERYMODE_DIGITAL.CONTACTPHASE_CHOOSE_DELIVERY.ATTEMPT_0",
+            "timestamp": "2026-06-05T14:21:19.550592736Z",
+            "ingestionTimestamp": "2026-06-05T14:21:19.550592736Z",
+            "eventTimestamp": "2026-06-05T14:21:19.550592736Z",
+            "notificationSentAt": "2026-06-05T14:16:36.118503327Z",
+            "legalFactsIds": [],
+            "category": "PUBLIC_REGISTRY_RESPONSE",
+            "details": {
+                "recIndex": 0
+            }
+        },
+        {
+            "elementId": "GET_ADDRESS.IUN_XQJA-JYMN-KRYR-202606-N-1.RECINDEX_0.SOURCE_GENERAL.ATTEMPT_0",
+            "timestamp": "2026-06-05T14:21:19.616406848Z",
+            "ingestionTimestamp": "2026-06-05T14:21:19.616406848Z",
+            "eventTimestamp": "2026-06-05T14:21:19.616406848Z",
+            "notificationSentAt": "2026-06-05T14:16:36.118503327Z",
+            "legalFactsIds": [],
+            "category": "GET_ADDRESS",
+            "details": {
+                "recIndex": 0,
+                "digitalAddressSource": "GENERAL",
+                "isAvailable": false,
+                "attemptDate": "2026-06-05T14:21:19.616405391Z"
+            }
+        },
+        {
+            "elementId": "SCHEDULE_ANALOG_WORKFLOW.IUN_XQJA-JYMN-KRYR-202606-N-1.RECINDEX_0",
+            "timestamp": "2026-06-05T14:21:19.805341252Z",
+            "ingestionTimestamp": "2026-06-05T14:21:19.805341252Z",
+            "eventTimestamp": "2026-06-05T14:21:19.805341252Z",
+            "notificationSentAt": "2026-06-05T14:16:36.118503327Z",
+            "legalFactsIds": [],
+            "category": "SCHEDULE_ANALOG_WORKFLOW",
+            "details": {
+                "recIndex": 0,
+                "schedulingDate": "2026-06-05T14:21:19.805304647Z"
+            }
+        },
+        {
+            "elementId": "PREPARE_ANALOG_DOMICILE.IUN_XQJA-JYMN-KRYR-202606-N-1.RECINDEX_0.ATTEMPT_0",
+            "timestamp": "2026-06-05T14:21:22.203735058Z",
+            "ingestionTimestamp": "2026-06-05T14:21:22.203735058Z",
+            "eventTimestamp": "2026-06-05T14:21:22.203735058Z",
+            "notificationSentAt": "2026-06-05T14:16:36.118503327Z",
+            "legalFactsIds": [],
+            "category": "PREPARE_ANALOG_DOMICILE",
+            "details": {
+                "recIndex": 0,
+                "physicalAddress": {
+                    "at": "Presso",
+                    "address": "A@FAIL_IRREP_RESTART_1_CONS_AT2_AR",
+                    "addressDetails": "SCALA B",
+                    "zip": "00118",
+                    "municipality": "ROMA",
+                    "municipalityDetails": "CENTRO",
+                    "province": "RM",
+                    "foreignState": "ITALIA"
+                },
+                "sentAttemptMade": 0,
+                "serviceLevel": "AR_REGISTERED_LETTER"
+            }
+        },
+        {
+            "elementId": "SEND_ANALOG_DOMICILE.IUN_XQJA-JYMN-KRYR-202606-N-1.RECINDEX_0.ATTEMPT_0",
+            "timestamp": "2026-06-05T14:21:27.716843821Z",
+            "ingestionTimestamp": "2026-06-05T14:21:27.716843821Z",
+            "eventTimestamp": "2026-06-05T14:21:27.716843821Z",
+            "notificationSentAt": "2026-06-05T14:16:36.118503327Z",
+            "legalFactsIds": [],
+            "category": "SEND_ANALOG_DOMICILE",
+            "details": {
+                "recIndex": 0,
+                "physicalAddress": {
+                    "at": "Presso",
+                    "address": "A@FAIL_IRREP_RESTART_1_CONS_AT2_AR",
+                    "addressDetails": "SCALA B",
+                    "zip": "00118",
+                    "municipality": "ROMA",
+                    "municipalityDetails": "CENTRO",
+                    "province": "RM",
+                    "foreignState": "ITALIA"
+                },
+                "sentAttemptMade": 0,
+                "serviceLevel": "AR_REGISTERED_LETTER",
+                "productType": "AR",
+                "analogCost": 364,
+                "numberOfPages": 1,
+                "envelopeWeight": 10,
+                "prepareRequestId": "PREPARE_ANALOG_DOMICILE.IUN_XQJA-JYMN-KRYR-202606-N-1.RECINDEX_0.ATTEMPT_0"
+            }
+        },
+        {
+            "elementId": "SEND_ANALOG_PROGRESS.IUN_XQJA-JYMN-KRYR-202606-N-1.RECINDEX_0.ATTEMPT_0.IDX_1",
+            "timestamp": "2026-06-05T14:22:57Z",
+            "ingestionTimestamp": "2026-06-05T14:23:01.636319596Z",
+            "eventTimestamp": "2026-06-05T14:22:57Z",
+            "notificationSentAt": "2026-06-05T14:16:36.118503327Z",
+            "legalFactsIds": [],
+            "category": "SEND_ANALOG_PROGRESS",
+            "details": {
+                "recIndex": 0,
+                "notificationDate": "2026-06-05T14:22:57Z",
+                "deliveryDetailCode": "CON080",
+                "serviceLevel": "AR_REGISTERED_LETTER",
+                "sendRequestId": "SEND_ANALOG_DOMICILE.IUN_XQJA-JYMN-KRYR-202606-N-1.RECINDEX_0.ATTEMPT_0",
+                "registeredLetterCode": "0b049a8c45774841aa44d3a27201dc0c"
+            }
+        },
+        {
+            "elementId": "SEND_ANALOG_PROGRESS.IUN_XQJA-JYMN-KRYR-202606-N-1.RECINDEX_0.ATTEMPT_0.IDX_5",
+            "timestamp": "2026-06-05T14:23:03Z",
+            "ingestionTimestamp": "2026-06-05T14:23:47.363745479Z",
+            "eventTimestamp": "2026-06-05T14:23:03Z",
+            "notificationSentAt": "2026-06-05T14:16:36.118503327Z",
+            "legalFactsIds": [
+                {
+                    "key": "safestorage://PN_PRINTED-31a26e483ea2466ca5ee53f5858dd042.pdf",
+                    "category": "ANALOG_DELIVERY"
+                }
+            ],
+            "category": "SEND_ANALOG_PROGRESS",
+            "details": {
+                "recIndex": 0,
+                "notificationDate": "2026-06-05T14:23:03Z",
+                "deliveryDetailCode": "CON020",
+                "serviceLevel": "AR_REGISTERED_LETTER",
+                "attachments": [
+                    {
+                        "id": "0",
+                        "documentType": "Copia Conforme AAR",
+                        "url": "safestorage://PN_PRINTED-31a26e483ea2466ca5ee53f5858dd042.pdf",
+                        "date": "2026-06-05T14:23:11.030445374Z"
+                    }
+                ],
+                "sendRequestId": "SEND_ANALOG_DOMICILE.IUN_XQJA-JYMN-KRYR-202606-N-1.RECINDEX_0.ATTEMPT_0",
+                "registeredLetterCode": "0b049a8c45774841aa44d3a27201dc0c"
+            }
+        },
+        {
+            "elementId": "SEND_ANALOG_PROGRESS.IUN_XQJA-JYMN-KRYR-202606-N-1.RECINDEX_0.ATTEMPT_0.IDX_2",
+            "timestamp": "2026-06-05T14:23:14Z",
+            "ingestionTimestamp": "2026-06-05T14:23:17.862128823Z",
+            "eventTimestamp": "2026-06-05T14:23:14Z",
+            "notificationSentAt": "2026-06-05T14:16:36.118503327Z",
+            "legalFactsIds": [],
+            "category": "SEND_ANALOG_PROGRESS",
+            "details": {
+                "recIndex": 0,
+                "notificationDate": "2026-06-05T14:23:14Z",
+                "deliveryFailureCause": "M01",
+                "deliveryDetailCode": "RECRN002D",
+                "serviceLevel": "AR_REGISTERED_LETTER",
+                "sendRequestId": "SEND_ANALOG_DOMICILE.IUN_XQJA-JYMN-KRYR-202606-N-1.RECINDEX_0.ATTEMPT_0",
+                "registeredLetterCode": "0b049a8c45774841aa44d3a27201dc0c"
+            }
+        },
+        {
+            "elementId": "SEND_ANALOG_PROGRESS.IUN_XQJA-JYMN-KRYR-202606-N-1.RECINDEX_0.ATTEMPT_0.IDX_3",
+            "timestamp": "2026-06-05T14:23:14Z",
+            "ingestionTimestamp": "2026-06-05T14:23:23.327491804Z",
+            "eventTimestamp": "2026-06-05T14:23:14Z",
+            "notificationSentAt": "2026-06-05T14:16:36.118503327Z",
+            "legalFactsIds": [
+                {
+                    "key": "safestorage://PN_EXTERNAL_LEGAL_FACTS-82a60007c8aa4bb3a201f71a631c5b2a.pdf",
+                    "category": "ANALOG_DELIVERY"
+                }
+            ],
+            "category": "SEND_ANALOG_PROGRESS",
+            "details": {
+                "recIndex": 0,
+                "notificationDate": "2026-06-05T14:23:14Z",
+                "deliveryDetailCode": "RECRN002E",
+                "serviceLevel": "AR_REGISTERED_LETTER",
+                "attachments": [
+                    {
+                        "id": "0",
+                        "documentType": "Plico",
+                        "url": "safestorage://PN_EXTERNAL_LEGAL_FACTS-82a60007c8aa4bb3a201f71a631c5b2a.pdf",
+                        "date": "2026-06-05T14:23:14.170038385Z"
+                    }
+                ],
+                "sendRequestId": "SEND_ANALOG_DOMICILE.IUN_XQJA-JYMN-KRYR-202606-N-1.RECINDEX_0.ATTEMPT_0",
+                "registeredLetterCode": "0b049a8c45774841aa44d3a27201dc0c"
+            }
+        },
+        {
+            "elementId": "SEND_ANALOG_PROGRESS.IUN_XQJA-JYMN-KRYR-202606-N-1.RECINDEX_0.ATTEMPT_0.IDX_4",
+            "timestamp": "2026-06-05T14:23:14Z",
+            "ingestionTimestamp": "2026-06-05T14:23:23.338988208Z",
+            "eventTimestamp": "2026-06-05T14:23:14Z",
+            "notificationSentAt": "2026-06-05T14:16:36.118503327Z",
+            "legalFactsIds": [
+                {
+                    "key": "safestorage://PN_EXTERNAL_LEGAL_FACTS-455801844f624c94853d399469316a02.pdf",
+                    "category": "ANALOG_DELIVERY"
+                }
+            ],
+            "category": "SEND_ANALOG_PROGRESS",
+            "details": {
+                "recIndex": 0,
+                "notificationDate": "2026-06-05T14:23:14Z",
+                "deliveryDetailCode": "RECRN002E",
+                "serviceLevel": "AR_REGISTERED_LETTER",
+                "attachments": [
+                    {
+                        "id": "1",
+                        "documentType": "Indagine",
+                        "url": "safestorage://PN_EXTERNAL_LEGAL_FACTS-455801844f624c94853d399469316a02.pdf",
+                        "date": "2026-06-05T14:23:14.170038385Z"
+                    }
+                ],
+                "sendRequestId": "SEND_ANALOG_DOMICILE.IUN_XQJA-JYMN-KRYR-202606-N-1.RECINDEX_0.ATTEMPT_0",
+                "registeredLetterCode": "0b049a8c45774841aa44d3a27201dc0c"
+            }
+        },
+        {
+            "elementId": "SEND_ANALOG_FEEDBACK.IUN_XQJA-JYMN-KRYR-202606-N-1.RECINDEX_0.ATTEMPT_0",
+            "timestamp": "2026-06-05T14:23:14Z",
+            "ingestionTimestamp": "2026-06-05T14:23:27.565206494Z",
+            "eventTimestamp": "2026-06-05T14:23:14Z",
+            "notificationSentAt": "2026-06-05T14:16:36.118503327Z",
+            "legalFactsIds": [],
+            "category": "SEND_ANALOG_FEEDBACK",
+            "details": {
+                "recIndex": 0,
+                "physicalAddress": {
+                    "at": "Presso",
+                    "address": "A@FAIL_IRREP_RESTART_1_CONS_AT2_AR",
+                    "addressDetails": "SCALA B",
+                    "zip": "00118",
+                    "municipality": "ROMA",
+                    "municipalityDetails": "CENTRO",
+                    "province": "RM",
+                    "foreignState": "ITALIA"
+                },
+                "sentAttemptMade": 0,
+                "responseStatus": "KO",
+                "notificationDate": "2026-06-05T14:23:14Z",
+                "deliveryFailureCause": "M01",
+                "deliveryDetailCode": "RECRN002F",
+                "serviceLevel": "AR_REGISTERED_LETTER",
+                "newAddress": {
+                    "address": "via@sequence.5s-CON080.5s-CON020[DOC:7ZIP;PAGES:3].5s-RECRN002D[FAILCAUSE:M03].5s-RECRN002E[DOC:Plico].5s-RECRN002F@restart1.@sequence.5s-CON080.5s-CON020[DOC:7ZIP;PAGES:3].5s-CON018.5s-RECRN001A.5s-RECRN001B[DOC:AR].5s-RECRN001C",
+                    "zip": "20121",
+                    "municipality": "Milano",
+                    "province": "MI",
+                    "foreignState": "Italia"
+                },
+                "sendRequestId": "SEND_ANALOG_DOMICILE.IUN_XQJA-JYMN-KRYR-202606-N-1.RECINDEX_0.ATTEMPT_0",
+                "registeredLetterCode": "0b049a8c45774841aa44d3a27201dc0c"
+            }
+        },
+        {
+            "elementId": "PREPARE_ANALOG_DOMICILE.IUN_XQJA-JYMN-KRYR-202606-N-1.RECINDEX_0.ATTEMPT_1.REWORK_0",
+            "timestamp": "2026-06-05T14:36:53.558824266Z",
+            "ingestionTimestamp": "2026-06-05T14:36:53.558824266Z",
+            "eventTimestamp": "2026-06-05T14:36:53.558824266Z",
+            "notificationSentAt": "2026-06-05T14:16:36.118503327Z",
+            "legalFactsIds": [],
+            "category": "PREPARE_ANALOG_DOMICILE",
+            "details": {
+                "recIndex": 0,
+                "physicalAddress": {
+                    "address": "via@sequence.5s-CON080.5s-CON020[DOC:7ZIP;PAGES:3].5s-RECRN002D[FAILCAUSE:M03].5s-RECRN002E[DOC:Plico].5s-RECRN002F@restart1.@sequence.5s-CON080.5s-CON020[DOC:7ZIP;PAGES:3].5s-CON018.5s-RECRN001A.5s-RECRN001B[DOC:AR].5s-RECRN001C",
+                    "zip": "20121",
+                    "municipality": "Milano",
+                    "province": "MI",
+                    "foreignState": "Italia"
+                },
+                "sentAttemptMade": 1,
+                "serviceLevel": "AR_REGISTERED_LETTER",
+                "relatedRequestId": "PREPARE_ANALOG_DOMICILE.IUN_XQJA-JYMN-KRYR-202606-N-1.RECINDEX_0.ATTEMPT_0"
+            }
+        },
+        {
+            "elementId": "SEND_ANALOG_DOMICILE.IUN_XQJA-JYMN-KRYR-202606-N-1.RECINDEX_0.ATTEMPT_1.REWORK_0",
+            "timestamp": "2026-06-05T14:36:58.754455627Z",
+            "ingestionTimestamp": "2026-06-05T14:36:58.754455627Z",
+            "eventTimestamp": "2026-06-05T14:36:58.754455627Z",
+            "notificationSentAt": "2026-06-05T14:16:36.118503327Z",
+            "legalFactsIds": [],
+            "category": "SEND_ANALOG_DOMICILE",
+            "details": {
+                "recIndex": 0,
+                "physicalAddress": {
+                    "at": "Presso",
+                    "address": "VIA@SEQUENCE.5S-CON080.5S-CON020[DOC:7ZIP;PAGES:3].5S-RECRN002D[FAILCAUSE:M03].5S-RECRN002E[DOC:PLICO].5S-RECRN002F@RESTART1.@SEQUENCE.5S-CON080.5S-CON020[DOC:7ZIP;PAGES:3].5S-CON018.5S-RECRN001A.5S-RECRN001B[DOC:AR].5S-RECRN001C",
+                    "zip": "20121",
+                    "municipality": "MILANO",
+                    "province": "MI",
+                    "foreignState": "ITALIA"
+                },
+                "sentAttemptMade": 1,
+                "serviceLevel": "AR_REGISTERED_LETTER",
+                "relatedRequestId": "PREPARE_ANALOG_DOMICILE.IUN_XQJA-JYMN-KRYR-202606-N-1.RECINDEX_0.ATTEMPT_0",
+                "productType": "AR",
+                "analogCost": 364,
+                "numberOfPages": 1,
+                "envelopeWeight": 10,
+                "prepareRequestId": "PREPARE_ANALOG_DOMICILE.IUN_XQJA-JYMN-KRYR-202606-N-1.RECINDEX_0.ATTEMPT_1.REWORK_0"
+            }
+        },
+        {
+            "elementId": "SEND_ANALOG_PROGRESS.IUN_XQJA-JYMN-KRYR-202606-N-1.RECINDEX_0.ATTEMPT_1.IDX_1.REWORK_0",
+            "timestamp": "2026-06-05T14:38:02Z",
+            "ingestionTimestamp": "2026-06-05T14:38:06.09705165Z",
+            "eventTimestamp": "2026-06-05T14:38:02Z",
+            "notificationSentAt": "2026-06-05T14:16:36.118503327Z",
+            "legalFactsIds": [],
+            "category": "SEND_ANALOG_PROGRESS",
+            "details": {
+                "recIndex": 0,
+                "notificationDate": "2026-06-05T14:38:02Z",
+                "deliveryDetailCode": "CON080",
+                "serviceLevel": "AR_REGISTERED_LETTER",
+                "sendRequestId": "SEND_ANALOG_DOMICILE.IUN_XQJA-JYMN-KRYR-202606-N-1.RECINDEX_0.ATTEMPT_1.REWORK_0",
+                "registeredLetterCode": "8f66849131e0499ebec0808d094da5a0"
+            }
+        },
+        {
+            "elementId": "SEND_ANALOG_PROGRESS.IUN_XQJA-JYMN-KRYR-202606-N-1.RECINDEX_0.ATTEMPT_1.IDX_4.REWORK_0",
+            "timestamp": "2026-06-05T14:38:09Z",
+            "ingestionTimestamp": "2026-06-05T14:38:57.597954912Z",
+            "eventTimestamp": "2026-06-05T14:38:09Z",
+            "notificationSentAt": "2026-06-05T14:16:36.118503327Z",
+            "legalFactsIds": [
+                {
+                    "key": "safestorage://PN_PRINTED-d93785aee97f45dc9b07a24d4a5faa0f.pdf",
+                    "category": "ANALOG_DELIVERY"
+                }
+            ],
+            "category": "SEND_ANALOG_PROGRESS",
+            "details": {
+                "recIndex": 0,
+                "notificationDate": "2026-06-05T14:38:09Z",
+                "deliveryDetailCode": "CON020",
+                "serviceLevel": "AR_REGISTERED_LETTER",
+                "attachments": [
+                    {
+                        "id": "0",
+                        "documentType": "Copia Conforme AAR",
+                        "url": "safestorage://PN_PRINTED-d93785aee97f45dc9b07a24d4a5faa0f.pdf",
+                        "date": "2026-06-05T14:38:17.092657695Z"
+                    }
+                ],
+                "sendRequestId": "SEND_ANALOG_DOMICILE.IUN_XQJA-JYMN-KRYR-202606-N-1.RECINDEX_0.ATTEMPT_1.REWORK_0",
+                "registeredLetterCode": "8f66849131e0499ebec0808d094da5a0"
+            }
+        },
+        {
+            "elementId": "SEND_ANALOG_PROGRESS.IUN_XQJA-JYMN-KRYR-202606-N-1.RECINDEX_0.ATTEMPT_1.IDX_2.REWORK_0",
+            "timestamp": "2026-06-05T14:38:22Z",
+            "ingestionTimestamp": "2026-06-05T14:38:25.854356308Z",
+            "eventTimestamp": "2026-06-05T14:38:22Z",
+            "notificationSentAt": "2026-06-05T14:16:36.118503327Z",
+            "legalFactsIds": [],
+            "category": "SEND_ANALOG_PROGRESS",
+            "details": {
+                "recIndex": 0,
+                "notificationDate": "2026-06-05T14:38:22Z",
+                "deliveryDetailCode": "RECRN001A",
+                "serviceLevel": "AR_REGISTERED_LETTER",
+                "sendRequestId": "SEND_ANALOG_DOMICILE.IUN_XQJA-JYMN-KRYR-202606-N-1.RECINDEX_0.ATTEMPT_1.REWORK_0",
+                "registeredLetterCode": "8f66849131e0499ebec0808d094da5a0"
+            }
+        },
+        {
+            "elementId": "SEND_ANALOG_PROGRESS.IUN_XQJA-JYMN-KRYR-202606-N-1.RECINDEX_0.ATTEMPT_1.IDX_3.REWORK_0",
+            "timestamp": "2026-06-05T14:38:22Z",
+            "ingestionTimestamp": "2026-06-05T14:38:31.308664711Z",
+            "eventTimestamp": "2026-06-05T14:38:22Z",
+            "notificationSentAt": "2026-06-05T14:16:36.118503327Z",
+            "legalFactsIds": [
+                {
+                    "key": "safestorage://PN_EXTERNAL_LEGAL_FACTS-eba58ed69ed9477d806a815f0473a6ca.pdf",
+                    "category": "ANALOG_DELIVERY"
+                }
+            ],
+            "category": "SEND_ANALOG_PROGRESS",
+            "details": {
+                "recIndex": 0,
+                "notificationDate": "2026-06-05T14:38:22Z",
+                "deliveryDetailCode": "RECRN001B",
+                "serviceLevel": "AR_REGISTERED_LETTER",
+                "attachments": [
+                    {
+                        "id": "0",
+                        "documentType": "AR",
+                        "url": "safestorage://PN_EXTERNAL_LEGAL_FACTS-eba58ed69ed9477d806a815f0473a6ca.pdf",
+                        "date": "2026-06-05T14:38:22.34713325Z"
+                    }
+                ],
+                "sendRequestId": "SEND_ANALOG_DOMICILE.IUN_XQJA-JYMN-KRYR-202606-N-1.RECINDEX_0.ATTEMPT_1.REWORK_0",
+                "registeredLetterCode": "8f66849131e0499ebec0808d094da5a0"
+            }
+        },
+        {
+            "elementId": "SEND_ANALOG_FEEDBACK.IUN_XQJA-JYMN-KRYR-202606-N-1.RECINDEX_0.ATTEMPT_1.REWORK_0",
+            "timestamp": "2026-06-05T14:38:22Z",
+            "ingestionTimestamp": "2026-06-05T14:38:35.625448092Z",
+            "eventTimestamp": "2026-06-05T14:38:22Z",
+            "notificationSentAt": "2026-06-05T14:16:36.118503327Z",
+            "legalFactsIds": [],
+            "category": "SEND_ANALOG_FEEDBACK",
+            "details": {
+                "recIndex": 0,
+                "physicalAddress": {
+                    "at": "Presso",
+                    "address": "VIA@SEQUENCE.5S-CON080.5S-CON020[DOC:7ZIP;PAGES:3].5S-RECRN002D[FAILCAUSE:M03].5S-RECRN002E[DOC:PLICO].5S-RECRN002F@RESTART1.@SEQUENCE.5S-CON080.5S-CON020[DOC:7ZIP;PAGES:3].5S-CON018.5S-RECRN001A.5S-RECRN001B[DOC:AR].5S-RECRN001C",
+                    "zip": "20121",
+                    "municipality": "MILANO",
+                    "province": "MI",
+                    "foreignState": "ITALIA"
+                },
+                "sentAttemptMade": 1,
+                "responseStatus": "OK",
+                "notificationDate": "2026-06-05T14:38:22Z",
+                "deliveryDetailCode": "RECRN001C",
+                "serviceLevel": "AR_REGISTERED_LETTER",
+                "sendRequestId": "SEND_ANALOG_DOMICILE.IUN_XQJA-JYMN-KRYR-202606-N-1.RECINDEX_0.ATTEMPT_1.REWORK_0",
+                "registeredLetterCode": "8f66849131e0499ebec0808d094da5a0"
+            }
+        },
+        {
+            "elementId": "ANALOG_SUCCESS_WORKFLOW.IUN_XQJA-JYMN-KRYR-202606-N-1.RECINDEX_0",
+            "timestamp": "2026-06-05T14:38:22Z",
+            "ingestionTimestamp": "2026-06-05T14:38:39.308141599Z",
+            "eventTimestamp": "2026-06-05T14:38:22Z",
+            "notificationSentAt": "2026-06-05T14:16:36.118503327Z",
+            "legalFactsIds": [],
+            "category": "ANALOG_SUCCESS_WORKFLOW",
+            "details": {
+                "recIndex": 0,
+                "physicalAddress": {
+                    "at": "Presso",
+                    "address": "VIA@SEQUENCE.5S-CON080.5S-CON020[DOC:7ZIP;PAGES:3].5S-RECRN002D[FAILCAUSE:M03].5S-RECRN002E[DOC:PLICO].5S-RECRN002F@RESTART1.@SEQUENCE.5S-CON080.5S-CON020[DOC:7ZIP;PAGES:3].5S-CON018.5S-RECRN001A.5S-RECRN001B[DOC:AR].5S-RECRN001C",
+                    "zip": "20121",
+                    "municipality": "MILANO",
+                    "province": "MI",
+                    "foreignState": "ITALIA"
+                }
+            }
+        },
+        {
+            "elementId": "SCHEDULE_REFINEMENT_WORKFLOW.IUN_XQJA-JYMN-KRYR-202606-N-1.RECINDEX_0.REWORK_0",
+            "timestamp": "2026-06-05T14:38:22Z",
+            "ingestionTimestamp": "2026-06-05T14:38:39.349431593Z",
+            "eventTimestamp": "2026-06-05T14:38:22Z",
+            "notificationSentAt": "2026-06-05T14:16:36.118503327Z",
+            "legalFactsIds": [],
+            "category": "SCHEDULE_REFINEMENT",
+            "details": {
+                "recIndex": 0,
+                "schedulingDate": "2026-06-05T14:42:22Z"
+            }
+        },
+        {
+            "elementId": "REFINEMENT.IUN_XQJA-JYMN-KRYR-202606-N-1.RECINDEX_0.REWORK_0",
+            "timestamp": "2026-06-05T14:42:22Z",
+            "ingestionTimestamp": "2026-06-05T14:48:27.987598236Z",
+            "eventTimestamp": "2026-06-05T14:42:22Z",
+            "notificationSentAt": "2026-06-05T14:16:36.118503327Z",
+            "legalFactsIds": [],
+            "category": "REFINEMENT",
+            "details": {
+                "recIndex": 0,
+                "eventTimestamp": "2026-06-05T14:28:54.081270503Z",
+                "notificationCost": 100
+            }
+        }
+    ]
+}
