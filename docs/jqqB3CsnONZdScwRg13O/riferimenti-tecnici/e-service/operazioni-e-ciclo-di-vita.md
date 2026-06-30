@@ -29,7 +29,7 @@ Il nuovo e-service parte dalla **versione 1**, indipendentemente dal numero di v
 
 ### Sospensione e riattivazione
 
-L’erogatore può **sospendere** una versione di e-service in stato **pubblicato** o **deprecato**, interrompendo temporaneamente l’accesso al servizio. Una versione sospesa può essere **riattivata**, ripristinando l’accesso ai fruitori.
+L’erogatore può **sospendere** una versione di e-service in stato **pubblicato** **o** **deprecato**, interrompendo temporaneamente l’accesso al servizio. Una versione sospesa può essere **riattivata**, ripristinando l’accesso ai fruitori.
 
 Per sospensioni programmate (ad esempio, per manutenzione), si raccomanda un preavviso ai fruitori nel rispetto delle condizioni previste nelle Linee Guida:
 
@@ -39,6 +39,10 @@ Per sospensioni programmate (ad esempio, per manutenzione), si raccomanda un pre
 **La sospensione comporta un’interruzione di servizio** verso i fruitori e gli utenti finali collegati.
 {% endhint %}
 
+### Archiviazione
+
+L'erogatore può **archiviare** sia una singola versione di e-service in stato **deprecato** o **sospeso** (se non è l'ultima), sia l'intero e-service. Questa procedura attiva un periodo di preavviso di 90 giorni (ridotto a 7 giorni nell'ambiente di collaudo), durante il quale i fruitori attivi mantengono l'accesso al servizio ma dovrebbero migrare verso la nuova versione, se già disponibile a catalogo. Al termine di questo periodo la versione (o l'intero e-service) passa definitivamente allo stato **archiviato**. Maggiori dettagli nella [sezione dedicata](operazioni-e-ciclo-di-vita.md#archiviazione).
+
 ## Stati
 
 La tabella seguente riepiloga gli **stati** in cui può trovarsi una versione di e-service, con impatti su visibilità e operatività.
@@ -47,4 +51,4 @@ La tabella seguente riepiloga gli **stati** in cui può trovarsi una versione di
 
 ***
 
-Pagina successiva [→ Esportazione e importazione](e-service.md)
+Pagina successiva [→ Esportazione e importazione](../../../pdnd-interoperabilita/manuale-operativo-pdnd-interoperabilita/v1.0/riferimenti-tecnici/e-service/e-service.md)

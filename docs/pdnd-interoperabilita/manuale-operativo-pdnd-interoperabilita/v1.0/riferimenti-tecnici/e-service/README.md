@@ -11,7 +11,7 @@ Gli e-service rappresentano il cuore del modello di interoperabilità della PDND
 
 L'erogatore ha facoltà di prevedere dei requisiti di accesso ai propri e-service. Nel linguaggio della piattaforma, sono definiti _attributi_. Gli enti che possiedono o dimostrano di possederli potranno iscriversi a fruire dell'e-service stesso.
 
-Maggiori dettagli nella [sezione dedicata agli attributi](../../../../../jqqB3CsnONZdScwRg13O/riferimenti-tecnici/attributi/).&#x20;
+Maggiori dettagli nella [sezione dedicata agli attributi](../../../../../jqqB3CsnONZdScwRg13O/riferimenti-tecnici/attributi/).
 
 ## Struttura
 
@@ -66,4 +66,4 @@ Maggiori informazioni sulla gestione degli aggiornamenti nel [tutorial dedicato]
 
 ***
 
-Pagina successiva → [Operazioni e ciclo di vita](operazioni-e-ciclo-di-vita.md)
+Pagina successiva → [Operazioni e ciclo di vita](../../../../../jqqB3CsnONZdScwRg13O/riferimenti-tecnici/e-service/operazioni-e-ciclo-di-vita.md)
