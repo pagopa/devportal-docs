@@ -1,6 +1,6 @@
 # API Key manage
 
-L'API Key `manage` è la chiave con cui potrai gestire i servizi tramite API e quindi fare qualsiasi operazione relativa ai servizi.&#x20;
+L'API Key `manage` è la chiave con cui potrai gestire i servizi tramite API e quindi fare qualsiasi operazione relativa ai servizi.
 
 Attualmente esistono due tipi di chiavi `manage`:
 
@@ -31,3 +31,4 @@ Per utilizzare questa api-key tramite Developer Portal, è necessario avere l'[a
 3. Tra i prodotti attivi cerca App IO e clicca sul box relativo;
 4. Nella **Panoramica** troverai subito le API Key manage che puoi copiare;
 5. Se vuoi gestire le API Key manage, puoi selezionare la voce di menù **"API Key"** per poterle copiare o ruotare.
+

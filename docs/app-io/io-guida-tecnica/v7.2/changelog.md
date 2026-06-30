@@ -4,6 +4,8 @@
 I cambiamenti indicati come versione `minor` (la cifra a destra del punto) non sono da ritenersi sostanziali, hanno lo scopo di migliorare l'esperienza.
 {% endhint %}
 
+
+
 ### Versione 7.2 (30 Settembre 2025)
 
 * Deprecati gli [attributi.md](funzionalita/pubblicare-un-servizio/dati-obbligatori/attributi.md "mention"): [#organization\_name](funzionalita/pubblicare-un-servizio/dati-obbligatori/attributi.md#organization_name "mention"), [#organization\_fiscal\_code](funzionalita/pubblicare-un-servizio/dati-obbligatori/attributi.md#organization_fiscal_code "mention") e [#department\_name](funzionalita/pubblicare-un-servizio/dati-obbligatori/attributi.md#department_name "mention") relativi ai _request body_ delle seguenti [api-servizi](api-e-specifiche/api-servizi/ "mention"): [manage-service-create.md](api-e-specifiche/api-servizi/manage-service-create.md "mention"), [manage-service-update.md](api-e-specifiche/api-servizi/manage-service-update.md "mention").
