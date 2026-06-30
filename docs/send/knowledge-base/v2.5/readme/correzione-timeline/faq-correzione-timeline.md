@@ -34,10 +34,6 @@ Le API nuove riportano il nuovo elemento di timeline con category _NOTIFICATION\
 
 _A seguito della correzione di timeline gli elementId degli eventi successivi possono riportare il suffisso REWORK\_\<n> per differenziarsi da quelli già presenti nella timeline conseguenti all’errore corretto. Non presentano tale suffisso gli elementi successivi alla correzione che non hanno già un elemento analogo (della stessa category) tra gli elementi marcati come non validi._
 
-#### Quando può avvenire la **modifica della data di perfezionamento**?
-
-_La rettifica della data di perfezionamento può avvenire in entrambi i casi. Ad esempio se una raccomandata era stata indicata come destinatario irreperibile ed invece viene corretta con una consegna la data di perfezionamento potrebbe essere anticipata._
-
 #### C’è modo di discriminare il **motivo** per cui viene effettuata una correzione di timeline? Se è relativo a imbustamento errato o a rendicontazione errata della cartolina?
 
 _Sì, lo si può dedurre dalla tipologia degli eventi invalidati. Se l’oggetto di correzione contiene l’evento di SEND\_ANALOG\_DOMICILE significa che è stata annullata la spedizione, mentre nel caso di correzione dell’esito non sarà presente e non viene effettuata una nuova spedizione, a meno di una correzione dell’esito del primo tentativo che scatena un secondo invio._
@@ -51,6 +47,10 @@ _E’ necessario aggiornare la versione dello stream di timeline per recepire il
 _La soluzione tecnica individuata permette più correzioni sulla stessa timline. In linea teorica possono esserci più correzioni ma la probabilità che questo accada è trascurabile._&#x20;
 
 ## Costi di notifica e data di perfezionamento
+
+#### Quando può avvenire la **modifica della data di perfezionamento**?
+
+La rettifica della data di perfezionamento può avvenire in caso di eventuali anomalie correlate all’attività di recapito, che possono essere di diversa tipologia ad esempio disallineamento tra metadato comunicato a SEND dal recapitista e relativa scansione e/o legate alla stampa e imbustamento . Ad esempio se una raccomandata era stata rendicontata a livello di metadati con l’esito di destinatario irreperibile ed invece la materialità riporta una consegna, la timeline viene corretta per adeguarsi all’evidenza fornita nella dematerializzazione dell’esito e la data di perfezionamento potrebbe essere variata
 
 #### La chiamata all'api che indica i costi della notifica risponderà solo con i costi "base", senza quelli di correzione?
 
