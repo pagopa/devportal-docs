@@ -1,5 +1,11 @@
 # Changelog 2026
 
+#### 2.20.0 (30 giugno)
+
+* [Archiviazione manuale](../../riferimenti-tecnici/e-service/archiviazione.md): possibilità di archiviare forzatamente una e-service o una versione di e-serivce. Una volta che un servizio è archiviato in tutte le sue versioni, viene ritirato dal catalogo degli e-service.
+* [Attributi certificati discreti](../../riferimenti-tecnici/attributi/attributi-certificati-discreti.md): gestione degli attributi che hanno un valore numerico. Ad esempio, l'attributo "Popolazione residente" può essere utilizzato per aprire un e-service solamente agli enti che posseggono una certa popolazione. Questa funzionalità è attualmente disponibile solo in ambiente di Collaudo.
+* Operatore valutatore e consultatore: due nuovi ruoli legati ad operatori che possono compilare (valutatore) e visualizzare (consultatore) le analisi del rischio, con un flusso di gestione dedicato. &#x20;
+
 #### 2.19.0 (17 giugno)
 
 * Possibilità di associare un template e-service a un template di finalità agevolata
@@ -19,7 +25,7 @@
 * Attivazione deleghe su e-service già pubblicati: l'erogatore può gestire la preferenza se accettare o meno deleghe per la fruizione per il proprio e-service. La preferenza può essere aggiornata in qualsiasi momento. Non è comunque retroattiva: tutte le deleghe attive rimangono attive anche dopo la disattivazione della preferenza. Da quel momento in poi, non sarà più possibile dare nuove deleghe
 * [Nuovi attributi certificati per i privati](../../riferimenti-tecnici/attributi/gli-attributi-piu-utilizzati.md#privati): due attributi certificati vengono assegnati ad alcune categorie di privato all'atto dell'adesione a PDND, in particolare
   * adesione come "Privato": attributo certificato _Adesione dal Registro Imprese;_
-  * adesione come "SCP - Società a Controllo Pubblico": sia l'attributo _Adesione dal Registro Imprese_ che l'attributo _Società a Controllo Pubblico - Registro Imprese_ &#x20;
+  * adesione come "SCP - Società a Controllo Pubblico": sia l'attributo _Adesione dal Registro Imprese_ che l'attributo _Società a Controllo Pubblico - Registro Imprese_
 * [API v. 3](https://www.interop.pagopa.it/news/api-v3): aggiunte le operazioni relative a client e portachiavi
 
 #### 2.16.1 (18 marzo)
