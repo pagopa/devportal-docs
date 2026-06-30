@@ -6,9 +6,9 @@ metaLinks:
       https://app.gitbook.com/s/gCHOYTnMNSuUjwLmQkud/linee-guida/lesperienza-utente/scoperta-del-servizio-e-attivazione
 ---
 
-# Scoperta del servizio e attivazione
+# Scoperta del Servizio e attivazione
 
-Questa prima fase ha l’obiettivo di far conoscere il servizio al **cliente del** **PSP** mentre naviga nella sua app.
+Questa prima fase ha l’obiettivo di far conoscere il Servizio al **cliente del** **PSP** mentre naviga nella sua app.
 
 Il cliente può essere informato attraverso diversi strumenti di comunicazione, come **banner, landing page, una scheda di dettaglio del servizio oppure con un messaggio in bacheca**. Al fine dell'integrazione non devono essere presenti tutti gli strumenti, ma per ognuno vengono condivise le specifiche linee guida.\
 \
