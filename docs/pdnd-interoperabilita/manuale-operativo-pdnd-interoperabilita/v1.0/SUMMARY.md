@@ -12,7 +12,7 @@
 
 * [Tutorial per l'erogatore](tutorial/tutorial-per-lerogatore/README.md)
   * [Come integrare un'API](tutorial/tutorial-per-lerogatore/come-integrare-unapi.md)
-  * [Come creare un nuovo e-service](../../../jqqB3CsnONZdScwRg13O/tutorial/tutorial-per-lerogatore/come-creare-un-nuovo-e-service.md)
+  * [Come creare un nuovo e-service](tutorial/tutorial-per-lerogatore/come-creare-un-nuovo-e-service.md)
   * [Come aggiornare un e-service](tutorial/tutorial-per-lerogatore/come-aggiornare-un-e-service.md)
   * [Come aggiornare un e-service senza pubblicare una nuova versione](tutorial/tutorial-per-lerogatore/come-aggiornare-un-e-service-senza-pubblicare-una-nuova-versione.md)
   * [Come aggiornare un e-service pubblicando una nuova versione](tutorial/tutorial-per-lerogatore/come-aggiornare-un-e-service-pubblicando-una-nuova-versione.md)
@@ -68,7 +68,7 @@
   * [Soglie e approvazioni](riferimenti-tecnici/e-service/soglie-e-approvazioni.md)
   * [Portachiavi](riferimenti-tecnici/e-service/portachiavi.md)
   * [Strumenti e riferimenti](riferimenti-tecnici/e-service/strumenti-e-riferimenti.md)
-* [Attributi](../../../jqqB3CsnONZdScwRg13O/riferimenti-tecnici/attributi/README.md)
+* [Attributi](riferimenti-tecnici/attributi/README.md)
   * [Gli attributi più utilizzati](riferimenti-tecnici/attributi/gli-attributi-piu-utilizzati.md)
   * [Operazioni e ciclo di vita](riferimenti-tecnici/attributi/operazioni-e-ciclo-di-vita.md)
   * [Revoca attributi](riferimenti-tecnici/attributi/revoca-attributi.md)
