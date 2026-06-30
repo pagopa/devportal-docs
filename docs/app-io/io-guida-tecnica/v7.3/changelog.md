@@ -1,0 +1,97 @@
+# 🕗 Changelog
+
+{% hint style="info" %}
+I cambiamenti indicati come versione `minor` (la cifra a destra del punto) non sono da ritenersi sostanziali, hanno lo scopo di migliorare l'esperienza.
+{% endhint %}
+
+### Versione 7.3 (30 Giugno 2026)
+
+* Aggiunta la pagina [Servizi per Minori](funzionalita/pubblicare-un-servizio/servizi-per-minori.md)
+* Aggiunta una nota sul codice di errore dell'[API di creazione messaggi](api-e-specifiche/api-messaggi/submit-a-message-passing-the-user-fiscal_code-in-the-request-body.md)
+* Aggiunta sezione [I Tuoi enti](funzionalita/pubblicare-un-servizio/chiave-manage/chiave-manage.md#sezione-i-tuoi-enti) alla pagina [API Key manage](funzionalita/pubblicare-un-servizio/chiave-manage/chiave-manage.md)
+* Aggiornata la [tabella dei permessi](funzionalita/pubblicare-un-servizio/gestire-laccesso-ai-servizi-tramite-i-gruppi.md#chi-puo-gestire-i-gruppi) su [Gestire l'accesso ai servizi tramite i gruppi](funzionalita/pubblicare-un-servizio/gestire-laccesso-ai-servizi-tramite-i-gruppi.md), per riflettere il ruolo di Amministratore Ente Aggregato
+
+### Versione 7.2 (30 Settembre 2025)
+
+* Deprecati gli [attributi.md](funzionalita/pubblicare-un-servizio/dati-obbligatori/attributi.md "mention"): [#organization\_name](funzionalita/pubblicare-un-servizio/dati-obbligatori/attributi.md#organization_name "mention"), [#organization\_fiscal\_code](funzionalita/pubblicare-un-servizio/dati-obbligatori/attributi.md#organization_fiscal_code "mention") e [#department\_name](funzionalita/pubblicare-un-servizio/dati-obbligatori/attributi.md#department_name "mention") relativi ai _request body_ delle seguenti [api-servizi](api-e-specifiche/api-servizi/ "mention"): [manage-service-create.md](api-e-specifiche/api-servizi/manage-service-create.md "mention"), [manage-service-update.md](api-e-specifiche/api-servizi/manage-service-update.md "mention").
+* Deprecato l'attributo [#department\_name](funzionalita/pubblicare-un-servizio/dati-obbligatori/attributi.md#department_name "mention") relativo al _response body_ delle seguenti [api-servizi](api-e-specifiche/api-servizi/ "mention"): [manage-service-create.md](api-e-specifiche/api-servizi/manage-service-create.md "mention"), [manage-service-update.md](api-e-specifiche/api-servizi/manage-service-update.md "mention"), [manage-service-get.md](api-e-specifiche/api-servizi/manage-service-get.md "mention"), [manage-service-get-user-services.md](api-e-specifiche/api-servizi/manage-service-get-user-services.md "mention"), [manage-service-get-released.md](api-e-specifiche/api-servizi/manage-service-get-released.md "mention")
+* Rimosso campo [#token\_name](funzionalita/pubblicare-un-servizio/dati-obbligatori/service-metadata.md#token_name "mention") dei [service-metadata.md](funzionalita/pubblicare-un-servizio/dati-obbligatori/service-metadata.md "mention") relativo alle seguenti [api-servizi](api-e-specifiche/api-servizi/ "mention"): [manage-service-create.md](api-e-specifiche/api-servizi/manage-service-create.md "mention"), [manage-service-update.md](api-e-specifiche/api-servizi/manage-service-update.md "mention"), [manage-service-get.md](api-e-specifiche/api-servizi/manage-service-get.md "mention"), [manage-service-get-user-services.md](api-e-specifiche/api-servizi/manage-service-get-user-services.md "mention"), [manage-service-get-released.md](api-e-specifiche/api-servizi/manage-service-get-released.md "mention")
+
+### Versione 7.1 (9 Luglio 2025)
+
+* Conferma cambio indirizzo [indirizzo-ip-pubblico.md](api-e-specifiche/indirizzo-ip-pubblico.md "mention")
+
+### Versione 7.0 (30 Giugno 2025)
+
+* Aggiornato [#accordo-di-adesione](setup-iniziale/#accordo-di-adesione "mention")
+* Ripristino sezione [setup-iniziale](setup-iniziale/ "mention")della versione v6.0
+* Deprecato campo [#token\_name](funzionalita/pubblicare-un-servizio/dati-obbligatori/service-metadata.md#token_name "mention") dei [service-metadata.md](funzionalita/pubblicare-un-servizio/dati-obbligatori/service-metadata.md "mention") relativo alle seguenti [api-servizi](api-e-specifiche/api-servizi/ "mention"): [manage-service-create.md](api-e-specifiche/api-servizi/manage-service-create.md "mention"), [manage-service-update.md](api-e-specifiche/api-servizi/manage-service-update.md "mention"), [manage-service-get.md](api-e-specifiche/api-servizi/manage-service-get.md "mention"), [manage-service-get-user-services.md](api-e-specifiche/api-servizi/manage-service-get-user-services.md "mention"), [manage-service-get-released.md](api-e-specifiche/api-servizi/manage-service-get-released.md "mention")
+* aggiornamento sezione [Guida al Markdown](risorse-utili/guida-al-markdown.md) con indicazioni aggiornate su "andare a capo"
+
+### Versione 6.1 (25 giugno 2025)
+
+* Comunicazione data dismissione Developer Portal
+* Aggiornata sezione [setup-iniziale](setup-iniziale/ "mention")
+* Aggiunta di indicazioni utili sulla lunghezza del nome di un allegato pdf nella sezione [openapi-endpoint-di-recupero-dei-contenuti-remotizzati.md](api-e-specifiche/openapi-endpoint-di-recupero-dei-contenuti-remotizzati.md "mention")
+* Cambio riferimenti dominio `io.italia.it`
+
+### Versione 6.0 (31 marzo 2025)
+
+* Cambio indirizzo [indirizzo-ip-pubblico.md](api-e-specifiche/indirizzo-ip-pubblico.md "mention")
+* Aggiunta sezione [gestire-laccesso-ai-servizi-tramite-i-gruppi.md](funzionalita/pubblicare-un-servizio/gestire-laccesso-ai-servizi-tramite-i-gruppi.md "mention")
+* Aggiunta sezione [chiave-manage](funzionalita/pubblicare-un-servizio/chiave-manage/ "mention")
+* Rinominata sezione **Chiave manage** in [chiave-manage.md](funzionalita/pubblicare-un-servizio/chiave-manage/chiave-manage.md "mention") e spostata come sottosezione di [chiave-manage](funzionalita/pubblicare-un-servizio/chiave-manage/ "mention")
+* Aggiunta sezione [chiave-manage-1.md](funzionalita/pubblicare-un-servizio/chiave-manage/chiave-manage-1.md "mention")
+
+### Versione 5.1 (13 maggio 2024)
+
+* Aggiunta del campo `configuration_id` alla struttura `third_party_data` nella sezione [API Messaggi](api-e-specifiche/api-messaggi/)
+* Aggiornata la sezione [Inviare un messaggio a contenuto remoto](funzionalita/inviare-un-messaggio/inviare-un-messaggio-a-contenuto-remoto.md)
+* Aggiunta la sezione [CRU Configurazioni remote](api-e-specifiche/api-messaggi/cru-configurazioni-remote.md)
+* Aggiunta la sezione [Guida al Markdown](risorse-utili/guida-al-markdown.md)
+* Correzioni minori
+
+### Versione 5.0 (2 gennaio 2024)
+
+* Aggiunta modello "[Remote Content](funzionalita/inviare-un-messaggio/inviare-un-messaggio-a-contenuto-remoto.md)" per i Messaggi
+* Aggiunta sezione "[Argomento del servizio](funzionalita/pubblicare-un-servizio/argomento-del-servizio.md)" nella sezione [Pubblicare un servizio](funzionalita/pubblicare-un-servizio/)
+* Rimozione "version" nella sezione [Pubblicare un servizio](funzionalita/pubblicare-un-servizio/)
+* Aggiunta api [Service Topics: Get all service topics](api-e-specifiche/api-servizi/service-topics-get-all-service-topics.md) nella sezione [API Servizi](api-e-specifiche/api-servizi/)
+* Aggiornamento esempi [Manage Service: Get](api-e-specifiche/api-servizi/manage-service-get.md) e [Manage Service: Create](api-e-specifiche/api-servizi/manage-service-create.md)
+* Rimozione della procedura di [test dei messaggi](funzionalita/inviare-un-messaggio/messaggi-di-test.md) verso codici fiscali fittizi (non più supportata)
+* Correzioni minori
+
+### Versione 4.0 (30 settembre 2023)
+
+* Rimozione delle API di gestione dei servizi legacy
+* Nuova sezione che riguarda i servizi che veicolano [informazioni sensibili](funzionalita/pubblicare-un-servizio/informazioni-sensibili.md)
+
+### Versione 3.0 (30 giugno 2023)
+
+* [Nuovo flusso con revisione obbligatoria nella pubblicazione di un servizio](funzionalita/pubblicare-un-servizio/)
+* Deprecate le API di gestione dei servizi
+* Pubblicate le nuove [API di gestione dei servizi](api-e-specifiche/api-servizi/), ovvero i servizi `manage`
+
+### Versione 2.4 (giugno 2023)
+
+* [Nuova sezione molto più ricca per le Domande Frequenti](https://docs.pagopa.it/kb-enti)
+* [Chiave specifica per la gestione dei servizi](funzionalita/pubblicare-un-servizio/creare-un-servizio.md#tramite-api)
+
+### Versione 2.3 (marzo 2023)
+
+* [Gestione dei servizi tramite Area Riservata](funzionalita/pubblicare-un-servizio/creare-un-servizio.md#tramite-area-riservata)
+* [Importazione dei servizi in Area Riservata](funzionalita/pubblicare-un-servizio/importare-servizi-nellarea-riservata.md)
+* [Adesione tramite Area Riservata](../../../5uSKCP8mvg5tKATILDRb/broken-reference/)
+* [Adesione per enti aggregatori](setup-iniziale/)
+* [Come variare i delegati](https://docs.pagopa.it/kb-enti-adesione/domande-frequenti/domande-e-risposte-sulladesione-a-io#come-posso-variare-referente-e-o-delegati-del-mio-ente)
+
+### Versione 2.2 (novembre 2022)
+
+* Nuovo programma IO Premium
+
+### [Versione 1.3 (settembre 2022)](https://docs.pagopa.it/io-guida-tecnica-1.3/)
+
+* Nuova esperienza di lettura
+* Migliore formattazione dei testi e semplificazione del linguaggio
+
+### [Versione 1.2 (17 luglio 2022) ->](https://io.italia.it/assets/download/it/onboarding/220725_guida_tecnica_all_integrazione_dei_servizi_in_app_io-v_1.2.pdf)
