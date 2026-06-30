@@ -16,7 +16,11 @@ L'errore può essere segnalato al supporto da chiunque abbia rilevato l'anomalia
 
 #### Dopo quanto tempo possono arrivare gli eventi correttivi?
 
-Poichè le segnalazioni non hanno un limite temporale, ma possono avvenire in qualsiasi momento, non esiste un tempo massimo entro cui è possibile applicare una correzione.
+Poiché le segnalazioni non hanno un limite temporale, ma possono avvenire in qualsiasi momento, non esiste un tempo massimo entro cui è possibile applicare una correzione.
+
+#### Può essere effettuata una sola correzione per notifica o una notifica può essere soggetta a **più correzioni**?&#x20;
+
+_La soluzione tecnica individuata permette più correzioni sulla stessa timline. In linea teorica possono esserci più correzioni ma la probabilità che questo accada è trascurabile._&#x20;
 
 ## Atti conseguenti
 
@@ -41,10 +45,6 @@ _Sì, lo si può dedurre dalla tipologia degli eventi invalidati. Se l’oggetto
 #### Questa funzionalità, richiede un **aggiornamento della versione dello stream**?&#x20;
 
 _E’ necessario aggiornare la versione dello stream di timeline per recepire il nuovo elemento di timeline con category NOTIFICATION\_TIMELINE\_REWORKED. Gli stream non aggiornati non riceveranno questo elemento, ma riceveranno comunque gli eventi successivi e conseguenti alla correzione._
-
-#### Può essere effettuata una sola correzione per notifica o una notifica può essere soggetta a **più correzioni**?&#x20;
-
-_La soluzione tecnica individuata permette più correzioni sulla stessa timline. In linea teorica possono esserci più correzioni ma la probabilità che questo accada è trascurabile._&#x20;
 
 ## Costi di notifica e data di perfezionamento
 
