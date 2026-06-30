@@ -45,9 +45,9 @@ Esistono due tipi di analisi del rischio: una destinata alla compilazione da par
 
 ### Pubbliche amministrazioni
 
-{% file src="../../.gitbook/assets/Analisi del rischio PA v.3.1 pdf.pdf" %}
+{% file src="../../.gitbook/assets/Analisi del rischio PA v.3.1.pdf" %}
 
-{% file src="../../.gitbook/assets/Analisi del rischio PA v.3.1 docx.docx" %}
+{% file src="../../.gitbook/assets/Analisi del rischio PA v.3.1.docx" %}
 
 ### Tutti gli altri
 

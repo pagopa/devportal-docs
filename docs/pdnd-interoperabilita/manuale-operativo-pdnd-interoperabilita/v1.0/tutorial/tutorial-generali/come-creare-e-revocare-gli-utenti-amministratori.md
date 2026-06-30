@@ -40,7 +40,7 @@ Il personale tecnico, identificato dalle figure di "operatore API" e "operatore 
 
 È possibile anche revocare un amministratore, compilando il modulo scaricabile sotto e inoltrandolo via PEC a PagoPA.
 
-{% file src="../../.gitbook/assets/Revoca_Operatore_Amministrativo_PDND.pdf" %}
+{% file src="../../.gitbook/assets/Revoca Operatore Amministativo_PDND.pdf" %}
 
 ***
 
