@@ -6,7 +6,7 @@ Per creare nuovi attributi certificati, è necessario essere accreditati come _E
 
 ### Step 1: Accedere al front office
 
-Gli utenti con permessi di _amministratore_ possono accedere attraverso il front office nel menu di sinistra alla voce _**Il mio ente > Ente certificatore**,_ che permette di accedere alla schermata seguente.
+Gli utenti con permessi di _amministratore_ possono accedere attraverso il front office nel menu di sinistra alla voce _**Il mio ente > Ente certificatore**,_ che permette di accedere alla schermata seguente. **Testo da eliminare**
 
 ### Step 2: Creazione di un attributo
 
