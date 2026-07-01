@@ -29,7 +29,12 @@ Questa figura si occupa specificamente di:
 
 La tabella seguente descrive le responsabilità e le funzionalità associate a ciascun ruolo all'interno del BackOffice di "_Messaggi di Cortesia"_.
 
-<table><thead><tr><th width="273.4609375">Funzionalità</th><th width="238.13671875">Amministratore</th><th>Operator</th></tr></thead><tbody><tr><td>Accesso al BackOffice</td><td><mark style="color:green;">✓</mark></td><td><mark style="color:green;">✓</mark></td></tr><tr><td>Visualizzazione configurazione</td><td><mark style="color:green;">✓</mark></td><td><mark style="color:green;">✓</mark></td></tr><tr><td>Modifica dati tecnici PSP</td><td><mark style="color:green;">✓</mark></td><td><mark style="color:green;">✓</mark></td></tr><tr><td>Gestione API Key</td><td><mark style="color:green;">✓</mark></td><td><mark style="color:green;">✓</mark></td></tr><tr><td>Gestione utenti e gruppi</td><td><mark style="color:green;">✓</mark></td><td><mark style="color:$warning;">✕</mark></td></tr><tr><td>Visualizzazione lista utenti</td><td><mark style="color:green;">✓</mark></td><td><mark style="color:$warning;">✕</mark></td></tr><tr><td>Richiesta di assistenza</td><td><mark style="color:green;">✓</mark></td><td><mark style="color:green;">✓</mark></td></tr></tbody></table>
+<table><thead><tr><th width="273.4609375">Funzionalità</th><th width="238.13671875">Amministratore</th><th>Operator</th></tr></thead><tbody><tr><td>Accesso al BackOffice</td><td><pre class="language-html"><code class="lang-html">&#x3C;span style="color:green;">✓&#x3C;/span>
+</code></pre></td><td><mark style="color:green;">✓</mark></td></tr><tr><td>Visualizzazione configurazione</td><td><mark style="color:green;">✓</mark></td><td><mark style="color:green;">✓</mark></td></tr><tr><td>Modifica dati tecnici PSP</td><td><mark style="color:green;">✓</mark></td><td><mark style="color:green;">✓</mark></td></tr><tr><td>Gestione API Key</td><td><mark style="color:green;">✓</mark></td><td><mark style="color:green;">✓</mark></td></tr><tr><td>Gestione utenti e gruppi</td><td><mark style="color:green;">✓</mark></td><td><mark style="color:$warning;">✕</mark></td></tr><tr><td>Visualizzazione lista utenti</td><td><mark style="color:green;">✓</mark></td><td><mark style="color:$warning;">✕</mark></td></tr><tr><td>Richiesta di assistenza</td><td><mark style="color:green;">✓</mark></td><td><mark style="color:green;">✓</mark></td></tr></tbody></table>
+
+```
+// Some code
+```
 
 {% hint style="success" %}
 Le API di Backend verificano i permessi ad ogni richiesta in base al ruolo stabilito in sessione. L'accesso a funzionalità non consentite per il proprio ruolo non è possibile.
